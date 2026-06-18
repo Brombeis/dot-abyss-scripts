@@ -1,0 +1,2496 @@
+{
+  "MainStory": {
+    "ChapterNumberTextFormat": {
+      "jp": "第{0}階層",
+      "en": "Floor {0}"
+    },
+    "ChapterStoryNumberTextFormat": {
+      "jp": "第{0}章",
+      "en": "Chapter {0}"
+    },
+    "StoryNumberTextFormat": {
+      "jp": "{0}話",
+      "en": "Episode {0}"
+    },
+    "TitleName": {
+      "jp": "メインストーリークエスト",
+      "en": "Main Story Quest"
+    },
+    "HardClearTextFormat": {
+      "jp": "「{0}」の「{1}」を踏破しました。この階層に探索隊を派遣した際の報酬がアップグレードされました。",
+      "en": "You cleared 「{1}」 of 「{0}」. Rewards for sending expedition teams to this floor have been upgraded."
+    },
+    "HardNewChapterTextFormat": {
+      "jp": "「{0}」の「{1}」が解放されました。",
+      "en": "「{1}」 of 「{0}」 has been unlocked."
+    },
+    "RepeatQuestReleaseTextFormat": {
+      "jp": "大穴の探索が進み<br>「{0}」<br>が周回可能になりました。",
+      "en": "Exploration of the Pit has progressed.<br>「{0}」<br>can now be replayed."
+    },
+    "NewStoryQuestReleaseText": {
+      "jp": "新しいストーリーが解放されました。",
+      "en": "A new story has been unlocked."
+    },
+    "NewStudyQuestReleaseText": {
+      "jp": "エリアの調査が進行し、新しいメインクエスト（周回）が解放されました。",
+      "en": "Investigation of the area has progressed, and a new main quest (repeatable) has been unlocked."
+    }
+  },
+  "PresentBox": {
+    "PresentBoxPopupReceipt": {
+      "jp": "受取日時",
+      "en": "Received Date"
+    },
+    "PresentBoxPopupReceive": {
+      "jp": "獲得日時",
+      "en": "Acquired Date"
+    },
+    "PresentBoxPopupRemindDays": {
+      "jp": "あと{0}日",
+      "en": "{0} days left"
+    },
+    "PresentBoxPopupDeadline": {
+      "jp": "受取期限が過ぎたプレゼントは自動的に消去されます。",
+      "en": "Gifts past their claim deadline are deleted automatically."
+    },
+    "PresentBoxPopupNonDeadline": {
+      "jp": "一括で受け取れるプレゼントは100件までです。",
+      "en": "You can claim up to 100 gifts at once."
+    },
+    "PresentBoxPopupReceiveHistory": {
+      "jp": "30日以上経過した履歴は自動的に削除されます。",
+      "en": "History older than 30 days is deleted automatically."
+    },
+    "ItemReceivedPopupText": {
+      "jp": "以下のプレゼントを受け取りました。",
+      "en": "You received the following gifts."
+    },
+    "ItemReceivedPopupWarningText": {
+      "jp": "※一部上限により受け取れないものがありました。",
+      "en": "*Some items could not be received due to limits."
+    },
+    "SortText": {
+      "jp": "入手順",
+      "en": "By acquisition"
+    },
+    "PresentBoxPopupCurrency": {
+      "jp": "アビスジェム",
+      "en": "Abyss Gem"
+    },
+    "PresentBoxPopupGold": {
+      "jp": "ゴールド",
+      "en": "Gold"
+    },
+    "PresentBoxPopupManaGem": {
+      "jp": "マナクリスタル",
+      "en": "Mana Crystal"
+    },
+    "PresentBoxPopupDegreeOfTraversal": {
+      "jp": "踏破度",
+      "en": "Clear Progress"
+    },
+    "PresentBoxPopupCharacterExp": {
+      "jp": "経験値",
+      "en": "EXP"
+    }
+  },
+  "IdleExplorationParty": {
+    "TransitionConfirmPopupText": {
+      "jp": "編成がまだ完了していません。\nこのまま移動すると現在の編成は保存されません。",
+      "en": "Your formation isn't finished yet.\nIf you leave now, the current formation won't be saved."
+    },
+    "TransitionConfirmPopupConfirmButtonText": {
+      "jp": "決定",
+      "en": "Confirm"
+    },
+    "Leader": {
+      "jp": "リーダー",
+      "en": "Leader"
+    },
+    "SelectFormat": {
+      "jp": "選択：{0}",
+      "en": "Selected: {0}"
+    },
+    "EquipmentCorrectionFormat": {
+      "jp": "武器補正：{0}",
+      "en": "Weapon Bonus: {0}"
+    },
+    "ExplorationEmptyTitle": {
+      "jp": "探索先の情報",
+      "en": "Exploration Info"
+    },
+    "InSearch": {
+      "jp": "探索中",
+      "en": "Exploring"
+    },
+    "Party": {
+      "jp": "探索隊編成",
+      "en": "Expedition Team"
+    },
+    "InstantClaimRequiresExploring": {
+      "jp": "探索隊で１部隊以上探索すると使用可能になります",
+      "en": "Available once at least one expedition team is exploring"
+    }
+  },
+  "DisasterParty": {
+    "DisasterTop": {
+      "jp": "防衛設備配置",
+      "en": "Defense Setup"
+    },
+    "Interruption": {
+      "jp": "迎撃型",
+      "en": "Interceptor"
+    },
+    "Support": {
+      "jp": "支援型",
+      "en": "Support"
+    },
+    "Trap": {
+      "jp": "罠型",
+      "en": "Trap"
+    },
+    "Barricade": {
+      "jp": "障害物型",
+      "en": "Barricade"
+    },
+    "Wall": {
+      "jp": "城上型",
+      "en": "Wall-Top"
+    },
+    "DefensiveSkills": {
+      "jp": "基地スキル",
+      "en": "Base Skills"
+    },
+    "Attack": {
+      "jp": "攻撃タイプ",
+      "en": "Attack Type"
+    },
+    "Defence": {
+      "jp": "防御タイプ",
+      "en": "Defense Type"
+    },
+    "Heal": {
+      "jp": "回復タイプ",
+      "en": "Heal Type"
+    },
+    "Buff": {
+      "jp": "バフタイプ",
+      "en": "Buff Type"
+    },
+    "DeBuff": {
+      "jp": "デバフタイプ",
+      "en": "Debuff Type"
+    },
+    "ResetPartyPopup_Title": {
+      "jp": "一括撤去確認",
+      "en": "Remove All Confirmation"
+    },
+    "ResetPartyPopup_Text": {
+      "jp": "すべての防衛設備を撤去します。",
+      "en": "Remove all defense facilities."
+    },
+    "TextFormat": {
+      "jp": "{0}に出撃します。",
+      "en": "Deploy to {0}."
+    },
+    "CanStillPlaceableNotice": {
+      "jp": "配置可能な防衛設備があります。",
+      "en": "There are defense facilities you can still place."
+    },
+    "IsGuestAppearedNotice": {
+      "jp": "このクエストにはゲストキャラも出撃します。",
+      "en": "A guest character will also deploy in this quest."
+    },
+    "IsManaGemDisabledNotice": {
+      "jp": "発動条件を満たしていないマナクリスタルがセットされています。",
+      "en": "A Mana Crystal that doesn't meet its activation conditions is set."
+    },
+    "QuestSelectUnavailablePopup_Title": {
+      "jp": "出撃不可",
+      "en": "Cannot Deploy"
+    },
+    "QuestSelectUnavailablePopup_Text": {
+      "jp": "条件を満たしていないため出撃できません。<br>防衛設備や編成を確認してください。",
+      "en": "You can't deploy because the conditions aren't met.<br>Check your defense facilities and formation."
+    },
+    "CostOverNotice": {
+      "jp": "防衛設備の合計コストが上限を超えています。",
+      "en": "The total cost of defense facilities exceeds the limit."
+    },
+    "PrismOverNotice": {
+      "jp": "マナ燃料が不足しています。",
+      "en": "Not enough Mana Fuel."
+    },
+    "BannedCharacterNotice": {
+      "jp": "出撃条件を満たしていないキャラクターが編成されています。",
+      "en": "Your formation includes a character that doesn't meet the deployment conditions."
+    }
+  },
+  "Common": {
+    "NonPossession": {
+      "jp": "未所持",
+      "en": "Not Owned"
+    },
+    "TextPopupDefaultTitle": {
+      "jp": "確認",
+      "en": "Confirm"
+    },
+    "ConfirmPopupDefaultConfirmButtonText": {
+      "jp": "決定",
+      "en": "Confirm"
+    },
+    "ConfirmPopupDefaultCancelButtonText": {
+      "jp": "閉じる",
+      "en": "Close"
+    },
+    "ConfirmPopupDefaultCancelButtonText2": {
+      "jp": "キャンセル",
+      "en": "Cancel"
+    },
+    "ConfirmPopupShopButtonText": {
+      "jp": "ショップへ",
+      "en": "To Shop"
+    },
+    "NotImplemented": {
+      "jp": "未実装",
+      "en": "Not Implemented"
+    },
+    "FreeCurrencyName": {
+      "jp": "アビスジェム",
+      "en": "Abyss Gem"
+    },
+    "PaidCurrencyName": {
+      "jp": "有償アビスジェム",
+      "en": "Paid Abyss Gem"
+    },
+    "GoldName": {
+      "jp": "ゴールド",
+      "en": "Gold"
+    },
+    "SoulName": {
+      "jp": "ソウル",
+      "en": "Soul"
+    },
+    "DisasterCoin": {
+      "jp": "凱旋コイン",
+      "en": "Triumph Coin"
+    },
+    "PositionFormat": {
+      "jp": "ポジション{0}",
+      "en": "Position {0}"
+    },
+    "Weapon": {
+      "jp": "武器",
+      "en": "Weapon"
+    },
+    "Armor": {
+      "jp": "防具",
+      "en": "Armor"
+    },
+    "Accessory": {
+      "jp": "アクセサリ",
+      "en": "Accessory"
+    },
+    "SampleText": {
+      "jp": "テキストスピードのサンプルです。",
+      "en": "This is a text speed sample."
+    },
+    "Button_DefaultConfirmText": {
+      "jp": "決定",
+      "en": "Confirm"
+    },
+    "Button_DefaultCancelText": {
+      "jp": "キャンセル",
+      "en": "Cancel"
+    },
+    "Attack": {
+      "jp": "攻撃力",
+      "en": "ATK"
+    },
+    "Defence": {
+      "jp": "防御力",
+      "en": "DEF"
+    },
+    "CriticalProb": {
+      "jp": "会心率",
+      "en": "Crit Rate"
+    },
+    "CriticalDmgRate": {
+      "jp": "会心ダメージ",
+      "en": "Crit DMG"
+    },
+    "AttackContinuousProb": {
+      "jp": "連撃率",
+      "en": "Combo Rate"
+    },
+    "AvoidProb": {
+      "jp": "回避率",
+      "en": "Evasion"
+    },
+    "ResistBurnt": {
+      "jp": "炎上耐性",
+      "en": "Burn Resist"
+    },
+    "ResistFreeze": {
+      "jp": "凍結耐性",
+      "en": "Freeze Resist"
+    },
+    "ResistStone": {
+      "jp": "石化耐性",
+      "en": "Petrify Resist"
+    },
+    "ResistParalyze": {
+      "jp": "麻痺耐性",
+      "en": "Paralysis Resist"
+    },
+    "ResistCharmed": {
+      "jp": "魅了耐性",
+      "en": "Charm Resist"
+    },
+    "ResistLoss": {
+      "jp": "喪失耐性",
+      "en": "Loss Resist"
+    },
+    "ResistFire": {
+      "jp": "火属性耐性",
+      "en": "Fire Resist"
+    },
+    "ResistWater": {
+      "jp": "水属性耐性",
+      "en": "Water Resist"
+    },
+    "ResistEarth": {
+      "jp": "土属性耐性",
+      "en": "Earth Resist"
+    },
+    "ResistLight": {
+      "jp": "光属性耐性",
+      "en": "Light Resist"
+    },
+    "ResistDark": {
+      "jp": "闇属性耐性",
+      "en": "Dark Resist"
+    },
+    "ResistArtifact": {
+      "jp": "無属性耐性",
+      "en": "Non-Elemental Resist"
+    },
+    "ElementAdvantageCorrection": {
+      "jp": "弱点属性特攻",
+      "en": "Weakness Bonus"
+    },
+    "SkillCharge": {
+      "jp": "チャージ効率",
+      "en": "Charge Efficiency"
+    },
+    "Artifact": {
+      "jp": "無",
+      "en": "None"
+    },
+    "Fire": {
+      "jp": "火",
+      "en": "Fire"
+    },
+    "Water": {
+      "jp": "水",
+      "en": "Water"
+    },
+    "Earth": {
+      "jp": "土",
+      "en": "Earth"
+    },
+    "Light": {
+      "jp": "光",
+      "en": "Light"
+    },
+    "Dark": {
+      "jp": "闇",
+      "en": "Dark"
+    },
+    "CriticalDmgRate2": {
+      "jp": "会心ﾀﾞﾒ",
+      "en": "Crit DMG"
+    },
+    "OneHandSword": {
+      "jp": "片手剣",
+      "en": "One-Handed Sword"
+    },
+    "GreatSword": {
+      "jp": "大剣",
+      "en": "Greatsword"
+    },
+    "Fists": {
+      "jp": "拳",
+      "en": "Fists"
+    },
+    "Bow": {
+      "jp": "弓",
+      "en": "Bow"
+    },
+    "Gun": {
+      "jp": "銃",
+      "en": "Gun"
+    },
+    "Staff": {
+      "jp": "杖",
+      "en": "Staff"
+    },
+    "Grimoire": {
+      "jp": "魔導書",
+      "en": "Grimoire"
+    },
+    "Pickel": {
+      "jp": "ピッケル",
+      "en": "Pickaxe"
+    },
+    "Mail": {
+      "jp": "鎧",
+      "en": "Heavy Armor"
+    },
+    "Cloak": {
+      "jp": "マント",
+      "en": "Cloak"
+    },
+    "Robe": {
+      "jp": "ローブ",
+      "en": "Robe"
+    },
+    "WorkWear": {
+      "jp": "作業着",
+      "en": "Workwear"
+    },
+    "Front": {
+      "jp": "フロント",
+      "en": "Front"
+    },
+    "Healer": {
+      "jp": "ヒーラー",
+      "en": "Healer"
+    },
+    "Back": {
+      "jp": "バック",
+      "en": "Back"
+    },
+    "Supporter": {
+      "jp": "アシスト",
+      "en": "Assist"
+    },
+    "Event_OutsidePeriod": {
+      "jp": "イベントの開催期間外となります。",
+      "en": "This is outside the event period."
+    },
+    "Movie_Skip": {
+      "jp": "ムービーをスキップしますか？",
+      "en": "Skip the movie?"
+    },
+    "FriendPoint": {
+      "jp": "フレンドポイント",
+      "en": "Friend Points"
+    },
+    "TagTavernGeneral": {
+      "jp": "酒場",
+      "en": "Tavern"
+    },
+    "TagTavernR18": {
+      "jp": "娼館",
+      "en": "Brothel"
+    },
+    "TagTavernCostumeR18": {
+      "jp": "娼館衣装",
+      "en": "Brothel Costume"
+    },
+    "TagTavernCostumeGeneral": {
+      "jp": "おしごと衣装",
+      "en": "Work Costume"
+    },
+    "LimitBreakCorePointName": {
+      "jp": "覚醒ポイント",
+      "en": "Awakening Points"
+    },
+    "FeatureUnlockPopupTitle": {
+      "jp": "機能開放",
+      "en": "Feature Unlocked"
+    },
+    "FeatureUnlockMessageFormat": {
+      "jp": "「{0}」が開放されました。",
+      "en": "「{0}」 has been unlocked."
+    },
+    "FeatureUnlockMessageFormatWithHomeConfirm": {
+      "jp": "「{0}」が解放されました。<br>ホームで確認してください。",
+      "en": "「{0}」 has been unlocked.<br>Check it on the Home screen."
+    },
+    "FeatureUnlockMessageBuilding": {
+      "jp": "「施設」「前線基地開発計画」が解放されました。",
+      "en": "「Facilities」 and 「Frontline Base Development Plan」 have been unlocked."
+    },
+    "OptionNtrBlockConfirmTitle": {
+      "jp": "確認",
+      "en": "Confirm"
+    },
+    "OptionNtrBlockConfirmText": {
+      "jp": "この機能をONにすると<br>女の子と主人公以外の行為に関する一部の要素が<br>表示されなくなります。",
+      "en": "Turning this on<br>will hide some content involving acts<br>between the girls and anyone other than the protagonist."
+    },
+    "OptionNtrBlockConfirmNotice01": {
+      "jp": "設定はいつでもオプション機能で切り替えることができます。",
+      "en": "You can change this setting anytime in the Options."
+    },
+    "OptionNtrBlockConfirmNotice02": {
+      "jp": "ONにした場合はタイトルに戻ります。",
+      "en": "Turning it on will return you to the title screen."
+    },
+    "OptionNtrBlockConfirmCancelButtonText": {
+      "jp": "キャンセル",
+      "en": "Cancel"
+    },
+    "ContentRarityCommon": {
+      "jp": "コモン",
+      "en": "Common"
+    },
+    "ContentRarityEpic": {
+      "jp": "エピック",
+      "en": "Epic"
+    },
+    "ContentRarityLegendary": {
+      "jp": "レジェンダー",
+      "en": "Legendary"
+    },
+    "ContentRarityUnique": {
+      "jp": "ユニーク",
+      "en": "Unique"
+    },
+    "PeriodTextFormat": {
+      "jp": "{0} ～ {1}まで",
+      "en": "{0} ～ {1}"
+    },
+    "PeriodText": {
+      "jp": "開催期間:",
+      "en": "Period:"
+    },
+    "ReceivingPeriodText": {
+      "jp": "報酬受取期間:",
+      "en": "Reward Claim Period:"
+    },
+    "ReceivingPeriodTextFormat": {
+      "jp": "{0}まで",
+      "en": "Until {0}"
+    },
+    "ChallengeClearTextFormat": {
+      "jp": "{0}をクリアで開放",
+      "en": "Unlocked by clearing {0}"
+    }
+  },
+  "Character": {
+    "CharacterLimitBreakOpen": {
+      "jp": "{0}の覚醒が解放されました。",
+      "en": "{0}'s Awakening has been unlocked."
+    },
+    "CharacterLimitBreakText": {
+      "jp": "限界突破",
+      "en": "Limit Break"
+    },
+    "CharacterLimitBreakCoreText": {
+      "jp": "覚醒",
+      "en": "Awakening"
+    },
+    "CharacterPopupConfirmationTitle": {
+      "jp": "確認",
+      "en": "Confirm"
+    },
+    "CharacterPopupConfirmationCancel": {
+      "jp": "キャンセル",
+      "en": "Cancel"
+    },
+    "CharacterPopupConfirmationText": {
+      "jp": "<color=#4cf37b>{0}</color>を行います。",
+      "en": "Perform <color=#4cf37b>{0}</color>."
+    },
+    "CharacterDetailText": {
+      "jp": "キャラ詳細",
+      "en": "Character Details"
+    },
+    "CharacterLoveGiftText": {
+      "jp": "贈り物",
+      "en": "Gift"
+    },
+    "CharacterMasteryText": {
+      "jp": "能力強化",
+      "en": "Ability Boost"
+    },
+    "LimitBreakEnhanceConfirmMessage": {
+      "jp": "アイテムを使用して限界突破を行います。",
+      "en": "Use items to perform a Limit Break."
+    },
+    "LimitBreakEnhanceConfirmButtonText": {
+      "jp": "限界突破",
+      "en": "Limit Break"
+    },
+    "LimitBreakCoreEnhanceConfirmMessage": {
+      "jp": "アイテムを使用して覚醒を行います。",
+      "en": "Use items to perform an Awakening."
+    },
+    "LimitBreakCoreEnhanceConfirmButtonText": {
+      "jp": "覚醒",
+      "en": "Awakening"
+    },
+    "CanIntimacyAbilityMaxLvEnhancementConfirmMessage": {
+      "jp": "絆Lvを強化することで<br><color=#4cf37b>{0}</color>のLv上限を<color=#4cf37b>{1}</color>にできます。<br>絆Lvを強化しますか？",
+      "en": "By raising the Bond Lv<br>you can raise <color=#4cf37b>{0}</color>'s Lv cap to <color=#4cf37b>{1}</color>.<br>Raise the Bond Lv?"
+    },
+    "UnlockIntimacyAbilityOnLockedFeatureDescription": {
+      "jp": "メインストーリーを進めることで解放可能になります。",
+      "en": "Can be unlocked by progressing the main story."
+    },
+    "AbilityEnhanceConfirmMessage": {
+      "jp": "アイテムを使用してアビリティ強化を行います。",
+      "en": "Use items to enhance the ability."
+    },
+    "AbilityEnhanceConfirmButtonText": {
+      "jp": "強化",
+      "en": "Enhance"
+    },
+    "UnlockIntimacyAbilityConfirmMessage": {
+      "jp": "アイテムを使ってアビリティを解放します。",
+      "en": "Use items to unlock the ability."
+    },
+    "UnlockIntimacyAbilityConfirmButtonText": {
+      "jp": "解放",
+      "en": "Unlock"
+    },
+    "UnlockIntimacyAbilityDescriptionFormat": {
+      "jp": "「交流」で絆Lvを{0}以上にすると<br>アビリティの解放が可能になります。",
+      "en": "Raise the Bond Lv to {0} or higher via 「Interaction」<br>to unlock this ability."
+    },
+    "UnlockableIntimacyAbilityDescription": {
+      "jp": "アイテムを消費してアビリティを解放",
+      "en": "Consume items to unlock the ability"
+    },
+    "CostumeInfo": {
+      "jp": "コスチューム情報",
+      "en": "Costume Info"
+    },
+    "SkinReleaseMessage1": {
+      "jp": "現在は入手できません",
+      "en": "Currently unavailable"
+    },
+    "SkinReleaseMessage2": {
+      "jp": "{0}は{1}で獲得出来ます",
+      "en": "{0} can be obtained from {1}"
+    },
+    "SceneTransitionText": {
+      "jp": "{0}へ",
+      "en": "To {0}"
+    },
+    "MissionText": {
+      "jp": "ミッション",
+      "en": "Mission"
+    },
+    "ShopText": {
+      "jp": "ショップ",
+      "en": "Shop"
+    },
+    "MainStoryText": {
+      "jp": "メインストーリー",
+      "en": "Main Story"
+    },
+    "EventText": {
+      "jp": "イベント",
+      "en": "Event"
+    },
+    "SkinTabBattleFormat": {
+      "jp": "通常({0})",
+      "en": "Normal ({0})"
+    },
+    "SkinTabTavernFormat": {
+      "jp": "おしごと({0})",
+      "en": "Work ({0})"
+    },
+    "SkinTabWeaponFormat": {
+      "jp": "武器({0})",
+      "en": "Weapon ({0})"
+    },
+    "AttackName": {
+      "jp": "攻撃力",
+      "en": "ATK"
+    },
+    "DefenceName": {
+      "jp": "防御力",
+      "en": "DEF"
+    },
+    "CriticalProbabilityName": {
+      "jp": "会心率",
+      "en": "Crit Rate"
+    },
+    "CriticalDamageRateName": {
+      "jp": "会心ダメージ",
+      "en": "Crit DMG"
+    },
+    "AttackContinuousProbabilityName": {
+      "jp": "連撃率",
+      "en": "Combo Rate"
+    },
+    "ElementAdvantageCorrectionName": {
+      "jp": "弱点属性特攻",
+      "en": "Weakness Bonus"
+    },
+    "AvoidProbabilityName": {
+      "jp": "回避率",
+      "en": "Evasion"
+    },
+    "SkillChargeName": {
+      "jp": "チャージ効率",
+      "en": "Charge Efficiency"
+    },
+    "FireName": {
+      "jp": "火属性耐性",
+      "en": "Fire Resist"
+    },
+    "WaterName": {
+      "jp": "水属性耐性",
+      "en": "Water Resist"
+    },
+    "EarthName": {
+      "jp": "土属性耐性",
+      "en": "Earth Resist"
+    },
+    "LightName": {
+      "jp": "光属性耐性",
+      "en": "Light Resist"
+    },
+    "DarkName": {
+      "jp": "闇属性耐性",
+      "en": "Dark Resist"
+    },
+    "ArtifactName": {
+      "jp": "無属性耐性",
+      "en": "Non-Elemental Resist"
+    },
+    "BurntName": {
+      "jp": "炎上耐性",
+      "en": "Burn Resist"
+    },
+    "FreezeName": {
+      "jp": "凍結耐性",
+      "en": "Freeze Resist"
+    },
+    "StoneName": {
+      "jp": "石化耐性",
+      "en": "Petrify Resist"
+    },
+    "ParalysisName": {
+      "jp": "麻痺耐性",
+      "en": "Paralysis Resist"
+    },
+    "CharmedName": {
+      "jp": "魅了耐性",
+      "en": "Charm Resist"
+    },
+    "LossName": {
+      "jp": "喪失耐性",
+      "en": "Loss Resist"
+    },
+    "LevelSynchroDescription": {
+      "jp": "レベルシンクロで<br>レベルを共有しています",
+      "en": "Sharing levels via<br>Level Synchro"
+    },
+    "LevelSynchroButton": {
+      "jp": "シンクロレベル<br>強化へ",
+      "en": "To Synchro Level<br>Enhancement"
+    },
+    "AwakeAbilityEffect": {
+      "jp": "<br><color=#D7DEF8>【覚醒効果】</color>",
+      "en": "<br><color=#D7DEF8>[Awakening Effect]</color>"
+    },
+    "ManaTypeGeneral": {
+      "jp": "汎用",
+      "en": "General"
+    },
+    "ManaTypePassion": {
+      "jp": "情熱",
+      "en": "Passion"
+    },
+    "ManaTypeImpact": {
+      "jp": "衝撃",
+      "en": "Impact"
+    }
+  },
+  "NetherTop": {
+    "HeaderTitle": {
+      "jp": "深淵",
+      "en": "The Depths"
+    },
+    "ResearchEffectFormat": {
+      "jp": "研究効果：{0}",
+      "en": "Research Effect: {0}"
+    },
+    "BonusFormat1": {
+      "jp": "+{0}枚",
+      "en": "+{0}"
+    },
+    "BonusFormat3": {
+      "jp": "{0}個",
+      "en": "{0}"
+    },
+    "BonusFormat4": {
+      "jp": "{0}回",
+      "en": "{0}x"
+    },
+    "BonusFormat5": {
+      "jp": "{0}フロア",
+      "en": "{0} floors"
+    },
+    "FloorFormat": {
+      "jp": "{0}フロア",
+      "en": "Floor {0}"
+    },
+    "PeriodFormat": {
+      "jp": "報酬受け取り期間：\\uff5e{0}",
+      "en": "Reward claim period: \\uff5e{0}"
+    },
+    "LvFormat": {
+      "jp": "現在の累計報酬ポイントLv：Lv{0}",
+      "en": "Current cumulative reward point Lv: Lv{0}"
+    }
+  },
+  "LoginBonus": {
+    "PeriodFmt": {
+      "jp": "開催期間　{0} 〜 {1}",
+      "en": "Period  {0} 〜 {1}"
+    }
+  },
+  "UnionRequest": {
+    "TopTitleName": {
+      "jp": "勢力クエスト",
+      "en": "Faction Quest"
+    },
+    "SupplyConditionFormat": {
+      "jp": "{0}勢力キャラを{1}人編成する",
+      "en": "Add {1} {0} faction characters to your formation"
+    },
+    "StageNumberFormat": {
+      "jp": "第{0}ステージ",
+      "en": "Stage {0}"
+    },
+    "ChallengeCountText": {
+      "jp": "挑戦回数　{0}/{1}",
+      "en": "Attempts  {0}/{1}"
+    },
+    "NewStageReleaseText": {
+      "jp": "新しいクエストが解放されました",
+      "en": "A new quest has been unlocked"
+    }
+  },
+  "PartyTop": {
+    "SerifTopOnEnter1": {
+      "jp": "まだ支度できてないのー？<br>おにーさん？",
+      "en": "Not ready yet?<br>Big bro?"
+    },
+    "Party": {
+      "jp": "パーティ",
+      "en": "Party"
+    },
+    "SerifTopOnEnter2": {
+      "jp": "私は何時でも準備万全です。<br>ご指示を、司令官。",
+      "en": "I'm ready anytime.<br>Your orders, Commander."
+    }
+  },
+  "Mastery": {
+    "EnhanceStrengthenText": {
+      "jp": "強化",
+      "en": "Enhance"
+    },
+    "EnhanceLimitBreakText": {
+      "jp": "覚醒",
+      "en": "Awakening"
+    },
+    "EnhanceBondText": {
+      "jp": "絆",
+      "en": "Bond"
+    },
+    "EnhanceMessageText": {
+      "jp": "{0}を消費して{1}しますか？",
+      "en": "Consume {0} to {1}?"
+    },
+    "MasteryInitText": {
+      "jp": "初期化",
+      "en": "Reset"
+    },
+    "MasteryPopupAbyssGem": {
+      "jp": "アビスジェム",
+      "en": "Abyss Gem"
+    },
+    "MasteryPopupConfirmationMessage": {
+      "jp": "{0}を消費して<br>強化状態を{1}しますか？",
+      "en": "Consume {0} to<br>{1} the enhancement state?"
+    },
+    "MasteryPopupBond": {
+      "jp": "絆",
+      "en": "Bond"
+    },
+    "MasteryPopupLimitBreak": {
+      "jp": "覚醒",
+      "en": "Awakening"
+    },
+    "MasteryPopupBeforePointText": {
+      "jp": "所持{0}pt",
+      "en": "Owned: {0} pt"
+    }
+  },
+  "Shop": {
+    "Shop": {
+      "jp": "ショップ",
+      "en": "Shop"
+    },
+    "Purchase": {
+      "jp": "ショップ",
+      "en": "Shop"
+    },
+    "Exchange": {
+      "jp": "交換所",
+      "en": "Exchange"
+    },
+    "SerifOnEntered": {
+      "jp": "とってもお得な商品を<br>仕入れていますよ、司令官♪",
+      "en": "I've stocked some great deals<br>for you, Commander♪"
+    },
+    "SkinWarningPopup_Title": {
+      "jp": "確認",
+      "en": "Confirm"
+    },
+    "PurchaseItemReceivedPopupMessage": {
+      "jp": "以下のアイテムを購入しました。",
+      "en": "You purchased the following items."
+    },
+    "PopupText": {
+      "jp": "販売期間中、この商品については<br>ホーム、またはショップより購入いただけます。<br>販売期間が終了すると、購入できなくなります。<br>ご注意ください。",
+      "en": "During the sale period, this item<br>can be purchased from Home or the Shop.<br>Once the sale period ends, it can no longer be purchased.<br>Please be aware."
+    },
+    "Recommend_RemainTimeFormat": {
+      "jp": "'あと'hh'時間'mm'分'ss'秒'",
+      "en": "hh'h 'mm'm 'ss's'"
+    },
+    "ExpiredPopupText": {
+      "jp": "交換期間が終了しています。",
+      "en": "The exchange period has ended."
+    },
+    "ReceivedPopupTextNote": {
+      "jp": "以下のアイテムを購入しました。",
+      "en": "You purchased the following items."
+    },
+    "ReceivedPopupWarning": {
+      "jp": "※一部のアイテムはプレゼントボックスに送られます。",
+      "en": "*Some items will be sent to the Present Box."
+    },
+    "Exchange_RemainTimeFormat": {
+      "jp": "yyyy/MM/dd　HH:mm:ssまで",
+      "en": "'Until 'yyyy/MM/dd HH:mm:ss"
+    },
+    "ExchangeAvailablePeriodTitle": {
+      "jp": "交換可能期間：",
+      "en": "Exchange Period:"
+    },
+    "ExchangeUntilTitle": {
+      "jp": "更新まで：",
+      "en": "Until Refresh:"
+    },
+    "ExpiredPopup_Title": {
+      "jp": "確認",
+      "en": "Confirm"
+    },
+    "CountFormat": {
+      "jp": "{0}回",
+      "en": "{0}x"
+    },
+    "AppStoreSpecifiedCommercialTransactionsLaw_Text": {
+      "jp": "特定商取引法(AppStore)のダミー文言",
+      "en": "Specified Commercial Transactions Act (App Store) dummy text"
+    },
+    "GooglePlaySpecifiedCommercialTransactionsLaw_Text": {
+      "jp": "特定商取引法(GooglePlay)のダミー文言",
+      "en": "Specified Commercial Transactions Act (Google Play) dummy text"
+    },
+    "AppStoreFundSettlementLaw_Title": {
+      "jp": "資金決済法",
+      "en": "Payment Services Act"
+    },
+    "AppStoreFundSettlementLaw_Text": {
+      "jp": "資金決済法(AppStore)のダミー文言",
+      "en": "Payment Services Act (App Store) dummy text"
+    },
+    "SkinWarningPopup_Warning": {
+      "jp": "購入しようとしているコスチュームを<br>装着するためのキャラクターを所持していません。",
+      "en": "You don't own the character needed<br>to wear the costume you're trying to buy."
+    },
+    "SkinWarningPopup_Text": {
+      "jp": "コスチュームのストーリーはキャラクターを<br>スタッフ登録した後に見れます。<br><br>本当に購入しますか？",
+      "en": "You can view a costume's story after<br>registering the character as staff.<br><br>Are you sure you want to buy it?"
+    },
+    "SkinWarningPopup_Confirm": {
+      "jp": "購入",
+      "en": "Buy"
+    },
+    "NtrSkinCautionPopup_Title": {
+      "jp": "確認",
+      "en": "Confirm"
+    },
+    "NtrSkinCautionPopup_Text": {
+      "jp": "このコスチュームのHシナリオは<br>現在の設定では見ることができません。<br>それでも購入しますか？",
+      "en": "This costume's H-scenario<br>can't be viewed with your current settings.<br>Buy it anyway?"
+    },
+    "NtrSkinCautionPopup_Notice": {
+      "jp": "設定はいつでもオプション機能で切り替えることができます。",
+      "en": "You can change this setting anytime in the Options."
+    },
+    "NtrSkinCautionPopup_Cancel": {
+      "jp": "キャンセル",
+      "en": "Cancel"
+    },
+    "NtrSkinCautionPopup_Confirm": {
+      "jp": "購入する",
+      "en": "Buy"
+    },
+    "SkinCautionPopup_TopLine1": {
+      "jp": "【{0}】をスタッフ登録すると",
+      "en": "Registering 【{0}】 as staff"
+    },
+    "SkinCautionPopup_TopLine2": {
+      "jp": "コスチュームのストーリーが見れるようになります。",
+      "en": "lets you view the costume's story."
+    },
+    "SkinCautionPopup_ThumbnailLead": {
+      "jp": "スタッフ登録するためには",
+      "en": "To register as staff,"
+    },
+    "SkinCautionPopup_ThumbnailNeed": {
+      "jp": "【{0}】を入手する必要があります。",
+      "en": "you need to obtain 【{0}】."
+    },
+    "SkinCautionPopup_ThumbnailConfirm": {
+      "jp": "本当に購入しますか？",
+      "en": "Are you sure you want to buy?"
+    },
+    "ExpiredPopup_Text": {
+      "jp": "販売期間が終了しています。",
+      "en": "The sale period has ended."
+    },
+    "SpecifiedCommercialTransactionsLaw": {
+      "jp": "特定商取引法",
+      "en": "Specified Commercial Transactions Act"
+    },
+    "OneTimeCode_CopyCompletedMessage": {
+      "jp": "ワンタイムコードをコピーしました。",
+      "en": "One-time code copied."
+    }
+  },
+  "Research": {
+    "GlobalMenuTitle": {
+      "jp": "施設",
+      "en": "Facility"
+    },
+    "CanUpgradeText": {
+      "jp": "強化可能な施設があるようですよ？\n司令官。",
+      "en": "Looks like there are facilities you can upgrade,\nCommander."
+    },
+    "TopText": {
+      "jp": "私の研究所へようこそ、司令官。\n遺物を集めて頂ければ、\n施設の強化をお手伝いいたします。",
+      "en": "Welcome to my laboratory, Commander.\nIf you gather relics,\nI'll help you upgrade your facilities."
+    },
+    "RemainPointFormat": {
+      "jp": "あと {0}",
+      "en": "{0} left"
+    },
+    "Unreleased": {
+      "jp": "未開放",
+      "en": "Locked"
+    },
+    "ConfirmPopupTitle": {
+      "jp": "確認",
+      "en": "Confirm"
+    },
+    "UpgradeConfirmPopupText": {
+      "jp": "<color=#4CF37BFF>アップグレード</color>を行いますか？",
+      "en": "Perform <color=#4CF37BFF>Upgrade</color>?"
+    },
+    "NewOpenUpgradeTreeFormat": {
+      "jp": "「{0}」で新しいアップグレード{1}が利用可能になりました。",
+      "en": "New upgrade {1} is now available at 「{0}」."
+    },
+    "NewOpenBuildingFormat": {
+      "jp": "「{0}」が開放され{1}が利用可能になりました。",
+      "en": "「{0}」 has been unlocked and {1} is now available."
+    },
+    "ResultTextFormat": {
+      "jp": "「{0}」のアップグレードが完了し、以下のボーナスを獲得しました。",
+      "en": "Upgrade of 「{0}」 is complete. You received the following bonuses."
+    },
+    "IntimacyPointDescription": {
+      "jp": "「スタッフの絆Lvの合計が不足しています。",
+      "en": "Your staff's total Bond Lv is insufficient."
+    },
+    "IntimacyPointNeedType": {
+      "jp": "絆Lvの合計",
+      "en": "Total Bond Lv"
+    },
+    "IntimacyPointTransition": {
+      "jp": "交流",
+      "en": "Interaction"
+    },
+    "CharacterLv30OverDescription": {
+      "jp": "レベル30以上のキャラクターが必要です",
+      "en": "You need characters at Lv30 or higher"
+    },
+    "CharacterLv30OverNeedType": {
+      "jp": "必要数",
+      "en": "Required"
+    },
+    "CharacterLv30OverTransition": {
+      "jp": "キャラ",
+      "en": "Characters"
+    },
+    "BuildingType_Training": {
+      "jp": "訓練所",
+      "en": "Training Ground"
+    },
+    "BuildingType_Housing": {
+      "jp": "宿舎",
+      "en": "Dormitory"
+    },
+    "BuildingType_Therapy": {
+      "jp": "治療所",
+      "en": "Infirmary"
+    },
+    "BuildingType_Fountain": {
+      "jp": "噴水",
+      "en": "Fountain"
+    }
+  },
+  "IngameNaviDisaster": {
+    "OnStart": {
+      "jp": "厄災が出現！\\n前線基地のすぐそばです！\\n司令官、迎撃してください！",
+      "en": "A Disaster has appeared!\\nIt's right next to the frontline base!\\nCommander, intercept it!"
+    },
+    "DefensiveObjectHpOnPercent50": {
+      "jp": "このままでは防壁が持ちません！\\n急いでください、司令官！",
+      "en": "The wall won't hold at this rate!\\nHurry, Commander!"
+    },
+    "BossDistanceOnPercent50": {
+      "jp": "厄災が目前まで迫っています！\\n前線基地到達前に、総力を挙げて迎撃を！",
+      "en": "The Disaster is almost upon us!\\nIntercept it with everything before it reaches the base!"
+    },
+    "BossDistanceOnClosest": {
+      "jp": "厄災が前線基地目前まで接近！\\nここが最終防衛線です！",
+      "en": "The Disaster has reached the base's doorstep!\\nThis is the last line of defense!"
+    },
+    "BossModeOnModeChange": {
+      "jp": "厄災のエネルギーが急上昇しています！\\n強力な攻撃に注意してください！",
+      "en": "The Disaster's energy is surging!\\nWatch out for powerful attacks!"
+    },
+    "BossModeOnBreak": {
+      "jp": "厄災の体勢が大きく崩れました！\\n一気に畳みかけましょう、司令官！",
+      "en": "The Disaster's stance is badly broken!\\nLet's press the attack, Commander!"
+    }
+  },
+  "Tutorial": {
+    "PrologueEnd": {
+      "jp": "チュートリアルはこれで終了です。<br>タイトルに戻ります。<br>引き続きゲームをお楽しみください。",
+      "en": "The tutorial ends here.<br>Returning to the title screen.<br>Please continue to enjoy the game."
+    },
+    "InteractionRewardText": {
+      "jp": "ベリサのキャラストーリーが解放されました。<br>チュートリアル報酬として「うれしいプレゼント」x20が付与されました。",
+      "en": "Berisa's character story has been unlocked.<br>As a tutorial reward, you received 「Happy Gift」 x20."
+    }
+  },
+  "Interaction": {
+    "ResultStaffRegistEffect": {
+      "jp": "{0}はスタッフとしておしごとできるようになりました",
+      "en": "{0} can now work as staff"
+    },
+    "ResultStaffRegistDescription1": {
+      "jp": "スタッフとして<br>【{0}】を登録しました。",
+      "en": "Registered 【{0}】<br>as staff."
+    },
+    "ResultStaffRegistDescription2": {
+      "jp": "娼館の「おしごと」に配置しておしごとで<br>様々な報酬を受け取ることができます。",
+      "en": "Assign them to 「Work」 at the Brothel<br>to earn various rewards."
+    },
+    "TransitionTavern": {
+      "jp": "娼館へ",
+      "en": "To Brothel"
+    },
+    "SkinVersionTitle": {
+      "jp": "別バージョン選択",
+      "en": "Select Alt Version"
+    },
+    "TransitionCharaDetail": {
+      "jp": "キャラ詳細へ",
+      "en": "To Character Details"
+    },
+    "TextPopupStoryOpenTitle": {
+      "jp": "ストーリー開放条件",
+      "en": "Story Unlock Conditions"
+    },
+    "TextPopupStoryOpenDescription": {
+      "jp": "このストーリーはまだ開放されていません。<br>以下の条件をクリアしましょう！",
+      "en": "This story isn't unlocked yet.<br>Clear the conditions below!"
+    },
+    "StoryOpenReleaseType1": {
+      "jp": "絆Lv{0}で解放",
+      "en": "Unlocks at Bond Lv{0}"
+    },
+    "StoryOpenReleaseTypeSkin": {
+      "jp": "{0}を入手",
+      "en": "Obtain {0}"
+    },
+    "StoryOpenReleaseTypeSkinList": {
+      "jp": "{0}\\nを入手",
+      "en": "Obtain\\n{0}"
+    },
+    "ConfirmNovelFlashbackDescription": {
+      "jp": "「{0}」<br>を再生します。よろしいですか？",
+      "en": "Play 「{0}」?<br>Are you sure?"
+    },
+    "Replay": {
+      "jp": "再生",
+      "en": "Play"
+    },
+    "ConfirmOpenAbilityDescription": {
+      "jp": "「{0}」の新しいアビリティ<br><color=#4cf37b>「{1}」</color>を解放可能になりました。",
+      "en": "「{0}」's new ability<br><color=#4cf37b>「{1}」</color> can now be unlocked."
+    },
+    "ConfirmStrengthenAbilityDescription": {
+      "jp": "<color=#4cf37b>「{1}」</color>が強化され、最大Lvが上昇しました。",
+      "en": "<color=#4cf37b>「{1}」</color> has been enhanced and its max Lv increased."
+    },
+    "ConfirmEventStoryPopupDescription": {
+      "jp": "キャラクターストーリーが開放されました。<br>閲覧しますか？",
+      "en": "A character story has been unlocked.<br>View it now?"
+    },
+    "ConfirmEventStoryConfirm": {
+      "jp": "閲覧する",
+      "en": "View"
+    },
+    "ConfirmEventStorySkip": {
+      "jp": "スキップ",
+      "en": "Skip"
+    },
+    "TavernModeLockedPopupTitle": {
+      "jp": "確認",
+      "en": "Confirm"
+    },
+    "TavernModeLockedPopupText": {
+      "jp": "絆Lvを上げて最初のストーリーを見ると<br>娼館衣装が解放されます。",
+      "en": "Raise the Bond Lv and view the first story<br>to unlock the Brothel costume."
+    },
+    "KizunaBonusTitle": {
+      "jp": "絆ボーナス",
+      "en": "Bond Bonus"
+    },
+    "KizunaLevelText": {
+      "jp": "絆Lv{0}",
+      "en": "Bond Lv{0}"
+    },
+    "KizunaLevelTextList": {
+      "jp": "絆Lv{0}以上",
+      "en": "Bond Lv{0}+"
+    },
+    "KizunaRewardTitle": {
+      "jp": "報酬",
+      "en": "Reward"
+    },
+    "KizunaRewardOpenStory": {
+      "jp": "ストーリー解放：「{0}」が解放！",
+      "en": "Story Unlock: 「{0}」 unlocked!"
+    },
+    "KizunaRewardOpenAbility": {
+      "jp": "「{0}」の解放条件達成！",
+      "en": "Unlock condition for 「{0}」 met!"
+    },
+    "KizunaRewardStrengthenAbility": {
+      "jp": "「{0}」の最大Lvが10に上昇！",
+      "en": "「{0}」's max Lv raised to 10!"
+    },
+    "HeaderTitle": {
+      "jp": "交流",
+      "en": "Interaction"
+    },
+    "ConfirmPresentItem": {
+      "jp": "贈る",
+      "en": "Give"
+    },
+    "NonOwned": {
+      "jp": "未所持",
+      "en": "Not Owned"
+    },
+    "OwnedText": {
+      "jp": "所持数",
+      "en": "Owned"
+    },
+    "UnionTitle": {
+      "jp": "所属国",
+      "en": "Nation"
+    },
+    "BirthdayTitle": {
+      "jp": "誕生日",
+      "en": "Birthday"
+    },
+    "LikesTitle": {
+      "jp": "好きなもの",
+      "en": "Likes"
+    },
+    "DislikesTitle": {
+      "jp": "嫌いなもの",
+      "en": "Dislikes"
+    },
+    "SkinVersionButtonTitle": {
+      "jp": "別バージョン",
+      "en": "Alt Version"
+    },
+    "RewardKizunaPt": {
+      "jp": "+絆pt{0}",
+      "en": "+Bond pt {0}"
+    },
+    "KizunaRewardStaffRegister": {
+      "jp": "スタッフ登録",
+      "en": "Staff Registration"
+    },
+    "CharacterPrize": {
+      "jp": "獲得演出",
+      "en": "Acquisition Scene"
+    },
+    "StaffRegist": {
+      "jp": "スタッフ登録演出",
+      "en": "Staff Registration Scene"
+    },
+    "HintBoxLockEvent": {
+      "jp": "絆Lv{0}以上で解放",
+      "en": "Unlocks at Bond Lv{0}+"
+    },
+    "ResultStaffRegistDescription3": {
+      "jp": "あと、{0}人スタッフ登録することで\\n娼館機能が解放できます。",
+      "en": "Register {0} more staff to\\nunlock the Brothel feature."
+    },
+    "ModeChangeWorkCostume": {
+      "jp": "おしごと用<br>コスチューム",
+      "en": "Work<br>Costume"
+    },
+    "ModeChangeNormalCostume": {
+      "jp": "通常用<br>コスチューム",
+      "en": "Normal<br>Costume"
+    },
+    "NtrBlockHiddenText": {
+      "jp": "設定により非表示",
+      "en": "Hidden by settings"
+    },
+    "NtrBlockCannotPlayBody": {
+      "jp": "このシナリオは現在の設定では再生できません。",
+      "en": "This scenario can't be played with your current settings."
+    },
+    "NtrBlockCannotPlayWarning": {
+      "jp": "設定はいつでもオプション機能で切り替えることができます。",
+      "en": "You can change this setting anytime in the Options."
+    },
+    "NtrBlockKizunaRewardOpenStoryText": {
+      "jp": "ストーリー解放：Hシナリオ解放",
+      "en": "Story Unlock: H-scenario unlocked"
+    }
+  },
+  "Vip": {
+    "VipRankBonusType_1": {
+      "jp": "探索での追加アイテム入手確率上昇",
+      "en": "Higher chance of bonus items from exploration"
+    },
+    "VipRankBonusType_Quest_1": {
+      "jp": "クエストでの追加アイテム入手確率上昇",
+      "en": "Higher chance of bonus items from quests"
+    },
+    "VipRankBonusType_2": {
+      "jp": "探索での放置時間の上限が増加",
+      "en": "Increased idle time cap for exploration"
+    },
+    "VipRankBonusType_3": {
+      "jp": "探索で獲得するキャラ経験値",
+      "en": "Character EXP gained from exploration"
+    },
+    "VipRankBonusType_4": {
+      "jp": "探索で獲得するゴールド",
+      "en": "Gold gained from exploration"
+    },
+    "VipRankBonusType_5": {
+      "jp": "探索で獲得する記憶の欠片",
+      "en": "Memory Fragments gained from exploration"
+    },
+    "VipRankBonusType_6": {
+      "jp": "探索クエストの受注回数",
+      "en": "Number of exploration quests you can accept"
+    },
+    "VipRankBonusType_7": {
+      "jp": "称号「{0}」",
+      "en": "Title 「{0}」"
+    },
+    "AddType_Count": {
+      "jp": "+{0}回",
+      "en": "+{0}x"
+    },
+    "AddType_Time": {
+      "jp": "+{0}時間",
+      "en": "+{0}h"
+    },
+    "VipWeeklyReward_ReceivedPopup_TextNote": {
+      "jp": "ウィークリー報酬を受け取りました",
+      "en": "You received the weekly reward"
+    },
+    "VipWeeklyReward_ReceivedPopup_Warning": {
+      "jp": "所持数が上限に達しました",
+      "en": "You've reached the ownership limit"
+    },
+    "VipWeeklyItemPurchase_Confirm_Title": {
+      "jp": "ウィークリー商品購入",
+      "en": "Weekly Item Purchase"
+    },
+    "VipWeeklyItemPurchase_Confirm_Text": {
+      "jp": "アビスジェム×{0}を消費して\nウィークリー商品を購入しますか？",
+      "en": "Consume Abyss Gem ×{0} to\npurchase the weekly item?"
+    },
+    "VipWeeklyItemPurchase_ReceivedPopup_TextNote": {
+      "jp": "ウィークリー商品を購入しました",
+      "en": "You purchased the weekly item"
+    }
+  },
+  "ItemList": {
+    "Title": {
+      "jp": "アイテム一覧",
+      "en": "Item List"
+    },
+    "GachaNumFormat": {
+      "jp": "ガチャ回数【{0}回】",
+      "en": "Gacha Pulls 【{0}】"
+    },
+    "MaxUseAmountNote": {
+      "jp": "最大100個まで使用できます",
+      "en": "You can use up to 100 at once"
+    }
+  },
+  "SkillType": {
+    "NormalSkill": {
+      "jp": "通常行動",
+      "en": "Normal Action"
+    },
+    "SpecialSkill": {
+      "jp": "特殊攻撃",
+      "en": "Special Attack"
+    },
+    "ActionSkill": {
+      "jp": "アクションスキル",
+      "en": "Action Skill"
+    },
+    "ChainSkill": {
+      "jp": "チェインスキル",
+      "en": "Chain Skill"
+    },
+    "Skill": {
+      "jp": "スキル",
+      "en": "Skill"
+    },
+    "AssaultSkill": {
+      "jp": "アサルトスキル",
+      "en": "Assault Skill"
+    }
+  },
+  "Disaster": {
+    "DisasterTop": {
+      "jp": "厄災の迎撃",
+      "en": "Disaster Interception"
+    },
+    "DisasterDetail": {
+      "jp": "厄災の迎撃",
+      "en": "Disaster Interception"
+    },
+    "SerifOnEntered": {
+      "jp": "厄災の脅威が迫っています！<br>司令官！",
+      "en": "The Disaster threat is closing in!<br>Commander!"
+    },
+    "SelectedDisasterIsCannotInterceptMessage": {
+      "jp": "選択した厄災は出撃できません。<br>元の画面に戻ります。",
+      "en": "You can't deploy against the selected Disaster.<br>Returning to the previous screen."
+    },
+    "NewDisasterNotifyMessage": {
+      "jp": "探索が進行し大穴から新たな厄災が<br>出現するようになりました。",
+      "en": "Exploration has progressed, and new Disasters<br>now emerge from the Pit."
+    },
+    "AutoInterceptDisasterFailureMessage": {
+      "jp": "迎撃が間に合わなかった厄災は守備隊によって討伐され、消滅しました。<br>報酬を受け取ることはできません。",
+      "en": "Disasters not intercepted in time were defeated by the garrison and vanished.<br>You can't receive their rewards."
+    },
+    "DisasterSupplyShortageMessage": {
+      "jp": "防衛用の資材が不足しています。<br>資材は日付変更時に補充されます。",
+      "en": "You're short on defense materials.<br>Materials are replenished at the date change."
+    },
+    "DisasterCallConfirmMessageFormat": {
+      "jp": "{0}を消費して<color=#4CF37Bff>「{1}」</color>の<br>討伐依頼を請け負います。",
+      "en": "Consume {0} to take on the subjugation request for<br><color=#4CF37Bff>「{1}」</color>."
+    },
+    "LockedDisasterConfirmMessage": {
+      "jp": "まだ未確認の厄災です。<br>メインストーリーを進行することで<br>出現するようになります。",
+      "en": "This Disaster is still unconfirmed.<br>It will appear as you<br>progress the main story."
+    },
+    "TransitionStoryMessage": {
+      "jp": "ストーリーへ",
+      "en": "To Story"
+    },
+    "PatrolConfirmMessage": {
+      "jp": "大穴の巡回を行い、厄災Lvを低下させます。<br>よろしいですか？",
+      "en": "Patrol the Pit to lower the Disaster Lv.<br>Are you sure?"
+    },
+    "PatrolConfirmButtonText": {
+      "jp": "巡回",
+      "en": "Patrol"
+    },
+    "UnlockDisasterBossMessageFormat": {
+      "jp": "メインストーリーが進行し大穴から以下の<br>厄災が出現するようになりました。<br><br><color=#4CF37Bff>「{0}」",
+      "en": "The main story has progressed, and the following<br>Disaster now emerges from the Pit.<br><br><color=#4CF37Bff>「{0}」"
+    },
+    "DisasterTopToDisasterPartyTransitionConfirmButtonText": {
+      "jp": "防衛準備",
+      "en": "Prepare Defense"
+    },
+    "DisasterPartyToIngameTransitionConfirmButtonText": {
+      "jp": "出撃",
+      "en": "Deploy"
+    },
+    "DisasterSupplyName": {
+      "jp": "防衛資材",
+      "en": "Defense Materials"
+    },
+    "DisasterCallTicketName": {
+      "jp": "依頼書",
+      "en": "Request Form"
+    },
+    "Message": {
+      "jp": "厄災特殊個体を撃破したので厄災Lvが上昇しました。",
+      "en": "You defeated a special Disaster variant, so the Disaster Lv increased."
+    }
+  },
+  "StoryEvent": {
+    "HeaderTitle": {
+      "jp": "ストーリーイベント",
+      "en": "Story Event"
+    },
+    "NovelPopup.ConfirmMessageFormat": {
+      "jp": "{0}\\nを再生しますか？",
+      "en": "Play\\n{0}?"
+    },
+    "NovelPopup.NotifyMessageFormat": {
+      "jp": "{0}\\nが解放されました。再生しますか？",
+      "en": "{0}\\nhas been unlocked. Play it?"
+    }
+  },
+  "QuestSelect": {
+    "TitleName": {
+      "jp": "クエスト",
+      "en": "Quest"
+    },
+    "SerifOnEntered": {
+      "jp": "さあ、司令官！<br>クエストへ出発しましょう！",
+      "en": "Come, Commander!<br>Let's set off on a quest!"
+    }
+  },
+  "CommonEvent": {
+    "SpecialEffectText_1": {
+      "jp": "{0}獲得量{1}%UP!",
+      "en": "{0} gain +{1}%!"
+    }
+  },
+  "Home": {
+    "Mission_HeaderTitle": {
+      "jp": "ミッション",
+      "en": "Mission"
+    },
+    "CharacterSerif": {
+      "jp": "こちらはミッション画面です",
+      "en": "This is the Mission screen"
+    },
+    "RemainTimeDayFormat": {
+      "jp": "あと{0}日",
+      "en": "{0} days left"
+    },
+    "RemainTimeHourFormat": {
+      "jp": "あと{0}時間",
+      "en": "{0} hours left"
+    },
+    "RemainTimeMinuteFormat": {
+      "jp": "あと{0}分",
+      "en": "{0} minutes left"
+    },
+    "ItemReceivedText": {
+      "jp": "以下のアイテムを受け取りました。",
+      "en": "You received the following items."
+    },
+    "MissionPass_HeaderTitle": {
+      "jp": "ミッションパス",
+      "en": "Mission Pass"
+    },
+    "VisiterMission_HeaderTitle": {
+      "jp": "訪問者ミッション",
+      "en": "Visitor Mission"
+    },
+    "VisiterMission_VisitorAppearHintFormat": {
+      "jp": "{0}がホーム画面上に現れるようになりました。",
+      "en": "{0} now appears on the Home screen."
+    },
+    "VisiterList_EndDateFormat": {
+      "jp": "～{0:yyyy}年{0:MM}月{0:dd}日",
+      "en": "~{0:yyyy}/{0:MM}/{0:dd}"
+    },
+    "RemainTimePrefix": {
+      "jp": "あと",
+      "en": "Left: "
+    },
+    "RemainTimeFormat": {
+      "jp": "'あと'hh'時間'mm'分'",
+      "en": "hh'h 'mm'm'"
+    },
+    "PopupTitle": {
+      "jp": "復帰確認",
+      "en": "Resume Confirmation"
+    },
+    "ConfirmText": {
+      "jp": "再開する",
+      "en": "Resume"
+    },
+    "CancelText": {
+      "jp": "中断する",
+      "en": "Quit"
+    },
+    "BattleText": {
+      "jp": "バトルの中断データが残っています。\nバトルを再開しますか？",
+      "en": "You have suspended battle data.\nResume the battle?"
+    },
+    "BattleNotice": {
+      "jp": "※再開しない場合、消費された物資は戻らないため\nご注意ください。",
+      "en": "*If you don't resume, consumed materials won't be returned,\nso please be careful."
+    },
+    "NovelText": {
+      "jp": "ストーリー再生中にプレイが中断されました。\n再生していたストーリーを最初から再開しますか？",
+      "en": "Playback was interrupted during a story.\nResume the story from the beginning?"
+    },
+    "EquipmentText": {
+      "jp": "確定していない装備の鑑定が残っています。\n装備の鑑定を再開しますか？",
+      "en": "You have unconfirmed equipment appraisals.\nResume appraising equipment?"
+    },
+    "EquipmentNotice": {
+      "jp": "※再開しない場合、確定していない鑑定情報と\n消費された鑑定チケットは戻らないため、ご注意ください。",
+      "en": "*If you don't resume, unconfirmed appraisal data and\nused appraisal tickets won't be returned, so please be careful."
+    },
+    "TavernText": {
+      "jp": "娼館：おしごとの中断データが残っています。\nおしごとを再開しますか？",
+      "en": "Brothel: You have suspended work data.\nResume work?"
+    },
+    "TavernNotice": {
+      "jp": "※再開しない場合、消費されたコストは\n戻らないため、ご注意ください。",
+      "en": "*If you don't resume, consumed costs\nwon't be returned, so please be careful."
+    },
+    "LimitDateTimeFormat": {
+      "jp": "{0}まで",
+      "en": "Until {0}"
+    },
+    "MissionPassPurchase": {
+      "jp": "パス購入",
+      "en": "Buy Pass"
+    },
+    "MissionPassPurchased": {
+      "jp": "購入済み",
+      "en": "Purchased"
+    }
+  },
+  "Tavern": {
+    "CharaBalloonTextFormat": {
+      "jp": "女の子達が、スタッフとして<br>協力してくれているの<br>司令官君のためにはりきってるわよ",
+      "en": "The girls are helping out<br>as staff.<br>They're working hard for you, Commander."
+    },
+    "StaffSelectInvalidTitle": {
+      "jp": "確認",
+      "en": "Confirm"
+    },
+    "StaffSelectInvalidText": {
+      "jp": "このキャラクターはまだスタッフ登録されていないため<br>配置できません。<br>交流を通して絆を深めることによって<br>スタッフ登録が可能になります。",
+      "en": "This character isn't registered as staff yet,<br>so they can't be assigned.<br>Deepen your bond through Interaction<br>to enable staff registration."
+    },
+    "StaffSelectInvalidConfirmButtonText": {
+      "jp": "交流へ",
+      "en": "To Interaction"
+    },
+    "VignetteLockInvalidTitle": {
+      "jp": "確認",
+      "en": "Confirm"
+    },
+    "VignetteLockInvalidText": {
+      "jp": "このおしごとはまだ解放されていません。<br>娼館の施設のアップグレードを進めると<br>スタッフを配置できるようになります。",
+      "en": "This job isn't unlocked yet.<br>Upgrade the Brothel facilities<br>to assign staff to it."
+    },
+    "VignetteLockInvalidConfirmButtonText": {
+      "jp": "施設へ",
+      "en": "To Facilities"
+    },
+    "ClosePopup": {
+      "jp": "本日の営業は終了しました。<br>アイテムを使って再営業することができます。",
+      "en": "Today's business has closed.<br>You can reopen using an item."
+    },
+    "OpenButtonText": {
+      "jp": "営業開始",
+      "en": "Open"
+    },
+    "CloseButtonText": {
+      "jp": "営業終了",
+      "en": "Close"
+    },
+    "Top_R18": {
+      "jp": "娼館",
+      "en": "Brothel"
+    },
+    "Top": {
+      "jp": "酒場",
+      "en": "Tavern"
+    },
+    "PopupText_ConfirmGameStart": {
+      "jp": "本日の営業を開始しますか？",
+      "en": "Start today's business?"
+    },
+    "PopupText_ConfirmGameStartButton": {
+      "jp": "開始する",
+      "en": "Start"
+    },
+    "PopupText_GameEnd": {
+      "jp": "本日の営業は終了しました。<br>次の営業開始まで<color=#4cf37b>{0}</color>",
+      "en": "Today's business has closed.<br>Next opening in <color=#4cf37b>{0}</color>"
+    },
+    "PopupText_RestartTicket": {
+      "jp": "<color=#4cf37b>追加営業許可証</color>を所持しています。<br>再度営業を行いますか？",
+      "en": "You have an <color=#4cf37b>Extra Business Permit</color>.<br>Open for business again?"
+    },
+    "PopupText_HelpTitle": {
+      "jp": "ヘルプ",
+      "en": "Help"
+    },
+    "PopupText_Help": {
+      "jp": "・娼館の営業方針を決めてお客様の満足度を高め、ゴールドやキャラのアビリティを強化するアイテムと<br><indent=2%>交換できるソウルチップを稼ぎましょう。</indent> <br>・満足度は配置したキャラクターの絆Lvと、選ばれた営業方針を表す営業カードによって決まります。 <br>・営業カードは「食事」「ドリンク」「接客」の3種類に分かれていて対象となるキャラクターが異なります。 <br>・キャラクターが種類の異なる営業カードの影響を受けるとコンボが発生し、さらに多くの満足度を <br><indent=2%>稼ぐことが出来ます。</indent> <br>・営業カードをうまく選んでコンボを発生させ、お客様の満足度を高めましょう。 <br>・配置された女の子から提案を受けることがあります。うまく提案を利用してゲームを有利に運びましょう。",
+      "en": "・Set the Brothel's business policy to raise customer satisfaction and earn Soul Chips, which can be<br><indent=2%>exchanged for Gold and items that enhance characters' abilities.</indent> <br>・Satisfaction is determined by the assigned characters' Bond Lv and the business cards representing the chosen policy. <br>・Business cards come in three types—「Meal」「Drink」「Service」—each affecting different characters. <br>・When a character is affected by business cards of different types, a combo occurs, earning even more <br><indent=2%>satisfaction.</indent> <br>・Choose business cards well to trigger combos and raise customer satisfaction. <br>・Assigned girls may make suggestions. Use their suggestions well to play to your advantage."
+    },
+    "BalloonCloseText_Counter": {
+      "jp": "本日の営業は終了よ<br>またのお越しを〜♡",
+      "en": "We're closed for today<br>Come again~♡"
+    },
+    "BalloonText": {
+      "jp": "順調、順調♪<br>もっと可愛い女の子を紹介して頂戴♪",
+      "en": "Going smoothly, smoothly♪<br>Introduce me to more cute girls♪"
+    },
+    "NameChange_Title": {
+      "jp": "店舗名登録",
+      "en": "Register Shop Name"
+    },
+    "NameChange_Detail": {
+      "jp": "お店の名前",
+      "en": "Shop Name"
+    },
+    "NameChange_PlaceHolder": {
+      "jp": "ルディアのお店",
+      "en": "Rudia's Shop"
+    },
+    "StaffNumFormat": {
+      "jp": "{0}人",
+      "en": "{0}"
+    },
+    "BalloonText1": {
+      "jp": "いらっしゃいませ〜♪",
+      "en": "Welcome~♪"
+    },
+    "BalloonText2": {
+      "jp": "ご一緒させてください",
+      "en": "Let me join you"
+    },
+    "BalloonText3": {
+      "jp": "また来てくださいね",
+      "en": "Please come again"
+    },
+    "BalloonCloseText1": {
+      "jp": "褒めてくれるかな……",
+      "en": "Will you praise me...?"
+    },
+    "BalloonCloseText2": {
+      "jp": "緊張した〜",
+      "en": "I was so nervous~"
+    },
+    "BalloonCloseText3": {
+      "jp": "疲れた〜",
+      "en": "I'm tired~"
+    },
+    "BalloonTextCounter1": {
+      "jp": "あら、いらっしゃい♪",
+      "en": "Oh my, welcome♪"
+    },
+    "BalloonTextCounter2": {
+      "jp": "忙しくなりそうだわ…",
+      "en": "Looks like it'll get busy..."
+    },
+    "BalloonTextCounter3": {
+      "jp": "みんないいコね～♡",
+      "en": "Everyone's such good girls~♡"
+    },
+    "BalloonTextCounterGame1": {
+      "jp": "ふふ…人間って面白い",
+      "en": "Hehe... humans are fascinating"
+    },
+    "BalloonTextCounterGame2": {
+      "jp": "尽くすコって健気よね",
+      "en": "Devoted girls are so endearing"
+    },
+    "BalloonTextCounterGame3": {
+      "jp": "興味が尽きないわね…",
+      "en": "My curiosity never ends..."
+    },
+    "CharaBuffBalloonText1": {
+      "jp": "私のとっておき<br>なんだけど……",
+      "en": "This is my secret<br>specialty, but..."
+    },
+    "CharaBuffBalloonText2": {
+      "jp": "こ、こういうのは<br>どうかな……？",
+      "en": "H-how about<br>something like this...?"
+    },
+    "CharaBuffBalloonText3": {
+      "jp": "ここは発想を変えて……",
+      "en": "Let's try a different approach here..."
+    },
+    "Management": {
+      "jp": "運営情報",
+      "en": "Management Info"
+    },
+    "StaffSelect": {
+      "jp": "スタッフ選択",
+      "en": "Select Staff"
+    },
+    "Button_ReOpen": {
+      "jp": "再営業",
+      "en": "Reopen"
+    },
+    "Button_Open": {
+      "jp": "営業開始",
+      "en": "Open"
+    },
+    "PopupText_AutoEditTitle": {
+      "jp": "確認",
+      "en": "Confirm"
+    },
+    "PopupText_AutoEditText": {
+      "jp": "ルディアに配置をお願いしますか？<br>(すべてのおしごとに自動でスタッフを割り当てます)",
+      "en": "Have Rudia handle the assignments?<br>(Automatically assigns staff to all jobs)"
+    },
+    "PopupText_AutoEditButton": {
+      "jp": "任せる",
+      "en": "Leave it to her"
+    },
+    "CastThumbnail_Lock": {
+      "jp": "絆Lv{0} 以上",
+      "en": "Bond Lv{0}+"
+    },
+    "CastThumbnail_Done": {
+      "jp": "{0}<br>に配置",
+      "en": "Assigned to<br>{0}"
+    },
+    "CardBuffType_Cook": {
+      "jp": "料理",
+      "en": "Meal"
+    },
+    "CardBuffType_Drink": {
+      "jp": "ドリンク",
+      "en": "Drink"
+    },
+    "CardBuffType_Waitress": {
+      "jp": "接客",
+      "en": "Service"
+    },
+    "VignetteRoomName": {
+      "jp": "{0}の満足度",
+      "en": "{0}'s Satisfaction"
+    },
+    "PopupText_NoStaffWarningText": {
+      "jp": "おしごとにスタッフを配置していないため営業を開始することができません。<br>スタッフを配置してください。",
+      "en": "You can't open because no staff are assigned to jobs.<br>Please assign staff."
+    },
+    "PopupText_LackStaffWarningText": {
+      "jp": "スタッフを配置していないおしごとがあります。<br>このまま開始しますか？",
+      "en": "Some jobs have no staff assigned.<br>Start anyway?"
+    },
+    "PopupButton_Staff": {
+      "jp": "スタッフ配置へ",
+      "en": "To Staff Assignment"
+    },
+    "PopupButton_Start": {
+      "jp": "このまま開始",
+      "en": "Start Anyway"
+    },
+    "ResearchDevelopmentText": {
+      "jp": "娼館の開発を進めましょう",
+      "en": "Let's develop the Brothel"
+    }
+  },
+  "Equipment": {
+    "RankFilterText": {
+      "jp": "ランク{0}以上",
+      "en": "Rank {0}+"
+    },
+    "MileageRewardText": {
+      "jp": "あとマイレージポイント{0}で{1}獲得",
+      "en": "{0} more Mileage Points to earn {1}"
+    },
+    "AppraisalPaidText": {
+      "jp": "鑑定レンズが不足しています。<br>アビスジェムを使用して再鑑定を行いますか？",
+      "en": "Not enough Appraisal Lenses.<br>Use Abyss Gems to appraise again?"
+    },
+    "AppraisalText": {
+      "jp": "鑑定",
+      "en": "Appraise"
+    },
+    "AppraisalConfirmText": {
+      "jp": "確定",
+      "en": "Confirm"
+    },
+    "Top": {
+      "jp": "装備",
+      "en": "Equipment"
+    },
+    "EquipmentList": {
+      "jp": "装備一覧",
+      "en": "Equipment List"
+    },
+    "DisassemblyList": {
+      "jp": "一括分解",
+      "en": "Bulk Dismantle"
+    },
+    "MileageLevelUpTextFormat": {
+      "jp": "「{0}」のマイレージLvが上昇しました。",
+      "en": "「{0}」's Mileage Lv increased."
+    },
+    "EquipmentLimitText": {
+      "jp": "所持している装備の数が上限に達しています。<br>所持枠に空きを作ってから実行して下さい。",
+      "en": "Your equipment is at the ownership limit.<br>Free up space before proceeding."
+    },
+    "AutoDisassemblySettingConfirmText": {
+      "jp": "自動分解設定",
+      "en": "Auto-Dismantle Settings"
+    },
+    "AutoDisassemblyTitleText": {
+      "jp": "自動分解確認",
+      "en": "Auto-Dismantle Confirmation"
+    },
+    "AutoDisassemblyText": {
+      "jp": "所持している装備の数が上限に達しました。",
+      "en": "Your equipment has reached the ownership limit."
+    },
+    "AutoDisassemblyAlertText": {
+      "jp": "自動分解設定に基づいて{0}個の装備を分解しようとしています。",
+      "en": "About to dismantle {0} pieces of equipment based on your auto-dismantle settings."
+    },
+    "DisassemblyConfirmText": {
+      "jp": "分解する",
+      "en": "Dismantle"
+    },
+    "DisassemblyMileageResultDescriptionFormat": {
+      "jp": "{0}個の装備を分解して以下のマイレージ報酬を獲得しました。",
+      "en": "Dismantled {0} pieces of equipment and earned the following Mileage rewards."
+    },
+    "EquippedPartyCategoryNormal": {
+      "jp": "通常編成",
+      "en": "Normal Formation"
+    },
+    "EquippedPartyCategoryExplorationTeam": {
+      "jp": "探索隊編成",
+      "en": "Expedition Team"
+    },
+    "EquippedPartyUsageDetailFormat": {
+      "jp": "「{0}」に使用されています",
+      "en": "In use by 「{0}」"
+    },
+    "IdleExplorationPartyDisassemblyPromptMessage": {
+      "jp": "探索隊に編成されている装備が分解されました。\n探索隊編成を確認しますか？",
+      "en": "Equipment assigned to an expedition team was dismantled.\nCheck the expedition team formation?"
+    },
+    "IdleExplorationPartyDisassemblyPromptGoButton": {
+      "jp": "探索隊へ",
+      "en": "To Expedition"
+    },
+    "NoneSelectText": {
+      "jp": "選択されていません",
+      "en": "Nothing selected"
+    },
+    "BulkLockNoneSelectText": {
+      "jp": "ロックする装備を選択してください",
+      "en": "Select equipment to lock"
+    }
+  },
+  "Party": {
+    "Header": {
+      "jp": "編成",
+      "en": "Formation"
+    },
+    "AllRemovePopup_Title": {
+      "jp": "一括解除",
+      "en": "Remove All"
+    },
+    "AllRemovePopup_Text": {
+      "jp": "一括解除を行います。<br>すべてのキャラクターとマナクリスタルが外れます。",
+      "en": "Remove all.<br>All characters and Mana Crystals will be unequipped."
+    },
+    "ConfirmButton_RegistrationText": {
+      "jp": "登録",
+      "en": "Register"
+    },
+    "ConfirmButton_DeterminationText": {
+      "jp": "決定",
+      "en": "Confirm"
+    },
+    "SelectText": {
+      "jp": "選択中",
+      "en": "Selected"
+    },
+    "SelectFormat": {
+      "jp": "選択：{0}",
+      "en": "Selected: {0}"
+    },
+    "DefaultPartyNameFormat": {
+      "jp": "編成{0}",
+      "en": "Formation {0}"
+    },
+    "TransitionConfirmPopupText": {
+      "jp": "未登録の変更内容があります<br>変更内容を破棄して編成を終了しますか？",
+      "en": "You have unsaved changes.<br>Discard changes and exit the formation?"
+    },
+    "TransitionConfirmPopupConfirmButtonText": {
+      "jp": "終了",
+      "en": "Exit"
+    },
+    "ResetPopupConfirmText": {
+      "jp": "編成の変更内容を破棄して元の状態に戻します。",
+      "en": "Discard formation changes and revert to the original state."
+    },
+    "ResetPopupConfirmButtonText": {
+      "jp": "戻す",
+      "en": "Revert"
+    },
+    "AutoWarning": {
+      "jp": "キャラクターが編成されていないため装備を編成することができませんでした。",
+      "en": "Couldn't equip gear because no characters are in the formation."
+    },
+    "RegisterParty": {
+      "jp": "編成を登録しました。",
+      "en": "Formation registered."
+    },
+    "UniqueEnchantmentDuplicatePopup_Text": {
+      "jp": "「{0}」の「{1}」は<br>同一編成内で1つしか発動しません。",
+      "en": "「{0}」's 「{1}」<br>only activates once per formation."
+    }
+  },
+  "IdleExploration": {
+    "GlobalMenuTitle": {
+      "jp": "探索隊",
+      "en": "Expedition"
+    },
+    "GlobalMenuEncounterQuestTitle": {
+      "jp": "探索クエスト",
+      "en": "Exploration Quest"
+    },
+    "ExplorationRank": {
+      "jp": "ランク",
+      "en": "Rank"
+    },
+    "ExplorationCases": {
+      "jp": "件",
+      "en": "cases"
+    },
+    "ExplorationNoticeText": {
+      "jp": "<size=40>探索イベントが発生しました！</size>\n<size=20>大穴の様子に変化があるようです……</size>",
+      "en": "<size=40>An exploration event has occurred!</size>\n<size=20>Something about the Pit seems to have changed...</size>"
+    },
+    "PopupTitleText": {
+      "jp": "確認",
+      "en": "Confirm"
+    },
+    "PopupCancelButtonText": {
+      "jp": "キャンセル",
+      "en": "Cancel"
+    },
+    "PopupRecoveryButtonText": {
+      "jp": "回復させる",
+      "en": "Recover"
+    },
+    "PopupPlayCostMessage": {
+      "jp": "<color=#4cf37b>アビスジェム×{0}</color>を消費して<br><color=#4cf37b>挑戦回数</color>を<color=#4cf37b>{1}</color>回復させますか？",
+      "en": "Consume <color=#4cf37b>Abyss Gem ×{0}</color> to<br>recover <color=#4cf37b>{1}</color> <color=#4cf37b>attempts</color>?"
+    },
+    "PopupUseButtonText": {
+      "jp": "使用する",
+      "en": "Use"
+    },
+    "PopupTimeSkipPopupMessage": {
+      "jp": "スキップチケット<color=#4CF37Bff>【{0}個】</color>を使用して<br>合計<color=#4CF37Bff>【{1}時間分】</color>の探索を行いますか？",
+      "en": "Use <color=#4CF37Bff>【{0}】</color> Skip Tickets to<br>explore for a total of <color=#4CF37Bff>【{1} hours】</color>?"
+    },
+    "PopupFreeNoticeText": {
+      "jp": "無償アビスジェムから優先して消費されます。",
+      "en": "Free Abyss Gems are consumed first."
+    },
+    "PopupEncounterExplorationFailed": {
+      "jp": "選択したクエストには出撃できません\n元の画面に戻ります",
+      "en": "You can't deploy to the selected quest.\nReturning to the previous screen."
+    },
+    "PartyDefaultUnConfiguredMessage": {
+      "jp": "探索隊{0}は未設定です",
+      "en": "Expedition Team {0} is not set up"
+    },
+    "PartyNameUnConfiguredMessage": {
+      "jp": "{0}は未設定です",
+      "en": "{0} is not set up"
+    },
+    "CurrentPartyExploring": {
+      "jp": "選択中の探索隊が探索中です。",
+      "en": "The selected expedition team is currently exploring."
+    },
+    "AnotherPartyExploring": {
+      "jp": "他の探索隊が探索中です。",
+      "en": "Another expedition team is currently exploring."
+    },
+    "PleaseChangeParty": {
+      "jp": "入れ替える探索隊を選択してください。",
+      "en": "Select the expedition team to swap."
+    },
+    "PleaseSelectParty": {
+      "jp": "探索隊を編成してください。",
+      "en": "Please form an expedition team."
+    },
+    "PartyLockMessage": {
+      "jp": "この探索隊はまだ解放されていません。\n司令本部の施設のアップグレードを進めると探索隊を編成できるようになります。",
+      "en": "This expedition team isn't unlocked yet.\nUpgrade the HQ facilities to be able to form it."
+    },
+    "SwitchPopupBeforeTitle": {
+      "jp": "今の探索先",
+      "en": "Current Destination"
+    },
+    "SwitchPopupAfterTitle": {
+      "jp": "新しい探索先",
+      "en": "New Destination"
+    },
+    "LogEquipment": {
+      "jp": "ランク{0}の{1} {2}",
+      "en": "Rank {0} {1} {2}"
+    },
+    "RewardNoticeText": {
+      "jp": "探索報酬はありません。",
+      "en": "No exploration rewards."
+    },
+    "AreaOpen": {
+      "jp": "{0}\n{1}制圧で解放",
+      "en": "{0}\nUnlocks by conquering {1}"
+    },
+    "GoToQuest": {
+      "jp": "クエストへ",
+      "en": "To Quest"
+    },
+    "GoToExploration": {
+      "jp": "を探索",
+      "en": "Explore"
+    },
+    "ChangeExplorationStage": {
+      "jp": "探索先を変更",
+      "en": "Change Destination"
+    },
+    "ChangeExplorationParty": {
+      "jp": "探索隊の入れ替え",
+      "en": "Swap Expedition Team"
+    },
+    "EventBonusFormat": {
+      "jp": "リーダーが{0}",
+      "en": "Leader is {0}"
+    },
+    "BonusPopupVipBenefitSectionTitle": {
+      "jp": "[Vip特典]",
+      "en": "[VIP Benefit]"
+    },
+    "BonusPopupSubscriptionBenefitSectionTitle": {
+      "jp": "[サブスク特典]",
+      "en": "[Subscription Benefit]"
+    }
+  },
+  "LevelSynchro": {
+    "Header": {
+      "jp": "レベルシンクロ",
+      "en": "Level Synchro"
+    },
+    "WarnLv30NotOver11": {
+      "jp": "Lv30のキャラクター10体以外の経験値、\\nゴールドは返還されます。",
+      "en": "EXP and Gold from all but 10 Lv30 characters\\nwill be returned."
+    },
+    "WarnLv30Over11": {
+      "jp": "Lv30のキャラクター10体以外の経験値、\\nゴールド、記憶の欠片は返還されます。",
+      "en": "EXP, Gold, and Memory Fragments from all but 10 Lv30 characters\\nwill be returned."
+    },
+    "UpgradeDetail": {
+      "jp": "シンクロLvの上限を{0}まで解放する",
+      "en": "Unlock the Synchro Lv cap up to {0}"
+    },
+    "UpgradeDetailInvalid": {
+      "jp": "シンクロLvを{0}にすることで上限解放が可能になります",
+      "en": "Raising the Synchro Lv to {0} enables the cap unlock"
+    },
+    "UpgradeTitle": {
+      "jp": "シンクロLvの上限解放",
+      "en": "Synchro Lv Cap Unlock"
+    },
+    "UpgradeConfirmText": {
+      "jp": "シンクロLvを強化しますか？",
+      "en": "Enhance the Synchro Lv?"
+    },
+    "UpgradeConfirmWarn": {
+      "jp": "シンクロLvを強化すると全キャラクターのLvがアップします。",
+      "en": "Enhancing the Synchro Lv raises every character's Lv."
+    },
+    "UpgradeConfirmButtonText": {
+      "jp": "シンクロLv強化",
+      "en": "Enhance Synchro Lv"
+    },
+    "UpgradeConfirmHeader": {
+      "jp": "確認",
+      "en": "Confirm"
+    },
+    "UnlockResearchHeader": {
+      "jp": "確認",
+      "en": "Confirm"
+    },
+    "UnlockResearchText": {
+      "jp": "レベルシンクロの解放条件を達成しました。\\n・キャラクターLv30を10体揃える\\n施設画面に移動しますか？",
+      "en": "You've met the conditions to unlock Level Synchro.\\n・Have 10 characters at Lv30\\nGo to the Facilities screen?"
+    },
+    "UnlockResearchConfirmText": {
+      "jp": "施設へ",
+      "en": "To Facilities"
+    },
+    "LockedPopupText": {
+      "jp": "レベルシンクロは以下の条件を満たす必要があります。",
+      "en": "Level Synchro requires the following conditions."
+    },
+    "LockedPopupTitle": {
+      "jp": "確認",
+      "en": "Confirm"
+    },
+    "LockedPopupTextNote": {
+      "jp": "・キャラクターLv30を10体揃える<br>・施設の研究所のレベルシンクロの解放を行う",
+      "en": "・Have 10 characters at Lv30<br>・Unlock Level Synchro at the Laboratory facility"
+    },
+    "LockedPopupTextWarning": {
+      "jp": "施設画面に移動しますか？",
+      "en": "Go to the Facilities screen?"
+    }
+  },
+  "Item": {
+    "LimitOverPopupTitle": {
+      "jp": "所持上限確認",
+      "en": "Ownership Limit"
+    },
+    "ItemLimitOverText": {
+      "jp": "所持上限に達しているため、\n報酬をプレゼントボックスに送りました。",
+      "en": "Since you've reached the ownership limit,\nthe reward was sent to the Present Box."
+    },
+    "GoldLimitOverText": {
+      "jp": "所持上限を超えたゴールドが消失しました。",
+      "en": "Gold exceeding the ownership limit was lost."
+    },
+    "GoldLimitOverNote": {
+      "jp": "※上限を超えたゴールドは保存できませんので、ご注意ください。",
+      "en": "*Gold over the limit can't be stored, so please be careful."
+    },
+    "CharacterExtLimitOverText": {
+      "jp": "所持上限を超えた経験石が消失しました。",
+      "en": "EXP Stones exceeding the ownership limit were lost."
+    },
+    "CharacterExtLimitOverNote": {
+      "jp": "※上限を超えた経験石は保存できませんので、ご注意ください。",
+      "en": "*EXP Stones over the limit can't be stored, so please be careful."
+    },
+    "ItemDetail_ObtainFromEvent": {
+      "jp": "イベントで入手",
+      "en": "Obtained from events"
+    }
+  },
+  "Gacha": {
+    "GlobalMenuTitle": {
+      "jp": "ガチャ",
+      "en": "Gacha"
+    },
+    "BannerText": {
+      "jp": "MM/dd HH:mmまで",
+      "en": "'Until 'MM/dd HH:mm"
+    },
+    "PaidText": {
+      "jp": "有償",
+      "en": "Paid"
+    },
+    "GachaButtonText": {
+      "jp": "{0}回引く",
+      "en": "Pull {0}x"
+    },
+    "GachaButtonLimitBannerText": {
+      "jp": "{0}回限定",
+      "en": "Limited to {0}"
+    },
+    "GachaButtonDailyLimitBannerText": {
+      "jp": "1日{0}回限定",
+      "en": "Limited to {0}/day"
+    },
+    "GachaButtonSR1BannerText": {
+      "jp": "{0}以上1体確定",
+      "en": "1 {0}+ guaranteed"
+    },
+    "GachaLimitRangeText": {
+      "jp": "{0}まで",
+      "en": "Until {0}"
+    },
+    "CharaDetailPreviewTitle": {
+      "jp": "キャラ詳細",
+      "en": "Character Details"
+    },
+    "CharaDetailPreviewCardButtonText": {
+      "jp": "娼館衣装＆提案カード",
+      "en": "Brothel Costume & Suggestion Cards"
+    },
+    "PopupDatetimeInvalidText": {
+      "jp": "ガチャの開催期間が終了しています。",
+      "en": "The gacha period has ended."
+    },
+    "PopupGachaConfirmTitleText": {
+      "jp": "ガチャ確認",
+      "en": "Gacha Confirmation"
+    },
+    "PopupPaidGachaConfirmText": {
+      "jp": "<color=#4CF37B>有償アビスジェムx{0}</color>を消費して\n<color=#4CF37B>{1}</color>を<color=#4CF37B>{2}回</color>実行しますか？",
+      "en": "Consume <color=#4CF37B>Paid Abyss Gem x{0}</color> to\npull <color=#4CF37B>{1}</color> <color=#4CF37B>{2}x</color>?"
+    },
+    "PopupFreeGachaConfirmText": {
+      "jp": "<color=#4CF37B>アビスジェムx{0}</color>を消費して\n<color=#4CF37B>{1}</color>を<color=#4CF37B>{2}回</color>実行しますか？",
+      "en": "Consume <color=#4CF37B>Abyss Gem x{0}</color> to\npull <color=#4CF37B>{1}</color> <color=#4CF37B>{2}x</color>?"
+    },
+    "PopupFreeGachaNoticeText": {
+      "jp": "無償アビスジェムから優先して消費されます。",
+      "en": "Free Abyss Gems are consumed first."
+    },
+    "PopupLackPaidPointNoticeText": {
+      "jp": "有償アビスジェムが不足しています。\n<color=#4CF37B>ショップ</color>へいきますか？",
+      "en": "Not enough Paid Abyss Gems.\nGo to the <color=#4CF37B>Shop</color>?"
+    },
+    "PopupLackFreePointNoticeText": {
+      "jp": "アビスジェムが不足しています。\n<color=#4CF37B>ショップ</color>へいきますか？",
+      "en": "Not enough Abyss Gems.\nGo to the <color=#4CF37B>Shop</color>?"
+    },
+    "PopupWishlistSelectCountText": {
+      "jp": "選択中{0}/{1}人",
+      "en": "Selected {0}/{1}"
+    },
+    "PopupAcquireConfirmTitleText": {
+      "jp": "確認",
+      "en": "Confirm"
+    },
+    "PopupAcquireMessageText": {
+      "jp": "<color=#4CF37BFF>{0}</color>を所持していないためスキンを利用できません。\n<color=#4CF37BFF>{0}</color>を獲得した際に利用可能になります。",
+      "en": "You can't use the skin because you don't own <color=#4CF37BFF>{0}</color>.\nIt becomes available once you obtain <color=#4CF37BFF>{0}</color>."
+    },
+    "PopupTutorialResetText": {
+      "jp": "今回の結果を破棄して、\\nもう一度ガチャを引き直します。\\nよろしいですか？",
+      "en": "Discard this result and\\npull the gacha again.\\nAre you sure?"
+    },
+    "PopupTutorialConfirmText": {
+      "jp": "ガチャの結果を確定します。\\nよろしいですか？",
+      "en": "Confirm the gacha result.\\nAre you sure?"
+    },
+    "PopupGachaConfirmText": {
+      "jp": "<color=#4CF37B>{0}x{1}</color>を消費して\\n<color=#4CF37B>{2}</color>を<color=#4CF37B>{3}回</color>実行しますか？",
+      "en": "Consume <color=#4CF37B>{0}x{1}</color> to\\npull <color=#4CF37B>{2}</color> <color=#4CF37B>{3}x</color>?"
+    },
+    "PopupLackPointNoticeText": {
+      "jp": "<color=#4CF37B>{0}</color>が不足しています。\\n<color=#4CF37B>ショップ</color>へいきますか？",
+      "en": "Not enough <color=#4CF37B>{0}</color>.\\nGo to the <color=#4CF37B>Shop</color>?"
+    },
+    "PopupLackItemNoticeText": {
+      "jp": "<color=#4CF37B>{0}</color>が不足しています。",
+      "en": "Not enough <color=#4CF37B>{0}</color>."
+    },
+    "PopupGachaCostLackPopupTitleText": {
+      "jp": "不足確認",
+      "en": "Insufficient"
+    },
+    "NoWishListNotifyText": {
+      "jp": "ピックアップ設定したSSRキャラクターは<br>提供割合が上昇します。<br>キャラクターを選択してください。",
+      "en": "SSR characters set as pickup<br>have an increased drop rate.<br>Please select a character."
+    },
+    "WebViewTitleRate": {
+      "jp": "提供割合",
+      "en": "Drop Rates"
+    },
+    "CharacterUnlockText": {
+      "jp": "「{0}」が加入しました。\\n今後ガチャでも「{0}」が出るようになります。",
+      "en": "「{0}」 has joined.\\n「{0}」 will now also appear in the gacha."
+    },
+    "WebViewTitleDetail": {
+      "jp": "ガチャ詳細",
+      "en": "Gacha Details"
+    },
+    "WebViewTitleHistory": {
+      "jp": "ガチャ履歴",
+      "en": "Gacha History"
+    },
+    "RequireFillWishListNotifyText": {
+      "jp": "SSRキャラクターは登録した\\nウィッシュリストの中から出現します。\\nキャラクターを選択してください。",
+      "en": "SSR characters appear from your registered\\nwishlist.\\nPlease select a character."
+    },
+    "RequireFillWishListText": {
+      "jp": "キャラクターを{0}人選択してください。",
+      "en": "Please select {0} characters."
+    },
+    "FreeText": {
+      "jp": "無料",
+      "en": "Free"
+    },
+    "WishlistPopupTitleSelectList": {
+      "jp": "セレクトリスト設定",
+      "en": "Select List Settings"
+    },
+    "WishlistPopupTitlePickup": {
+      "jp": "ピックアップ設定",
+      "en": "Pickup Settings"
+    },
+    "ElementTypeFormat": {
+      "jp": "{0}属性",
+      "en": "{0} Element"
+    },
+    "WebViewConfirmTitle": {
+      "jp": "確認",
+      "en": "Confirm"
+    },
+    "WebViewConfirmMessage": {
+      "jp": "ウェブブラウザを起動して、外部サイトへ移動します。<br>よろしいですか？",
+      "en": "This will launch a web browser and go to an external site.<br>Are you sure?"
+    },
+    "RewardButtonLabelRate": {
+      "jp": "提供割合",
+      "en": "Drop Rates"
+    },
+    "RewardButtonLabelDetail": {
+      "jp": "詳細",
+      "en": "Details"
+    },
+    "WebViewConfirmButtonText": {
+      "jp": "移動する",
+      "en": "Go"
+    },
+    "MovieStoryNtrBlockOnText": {
+      "jp": "Hシナリオ解放",
+      "en": "H-scenario unlocked"
+    }
+  }
+}
