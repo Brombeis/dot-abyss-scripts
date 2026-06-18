@@ -1,0 +1,7 @@
+#!/bin/sh
+# Update translation status table in README.md before each commit.
+
+PYTHONUTF8=1 python toolkit/update_readme_status.py
+
+# If the script changed README.md, stage it so it's included in this commit.
+git diff --quiet README.md || git add README.md
