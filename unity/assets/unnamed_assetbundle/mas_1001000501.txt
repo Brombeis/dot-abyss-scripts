@@ -34,7 +34,7 @@ window,off
 wait,0.15
 
 window,on,0.15
-message,,<size=24><user> stood alone atop a hill，quietly gazing down             <br><size=24>at the frontline base glowing with the lights of restoration work.<br> 
+message,,<size=32><user> stood alone atop a hill，quietly gazing down at the<br><size=32>frontline base glowing with the lights of restoration work.<br> 
 
 window,off
 wait,0.15
@@ -48,11 +48,11 @@ subimagefade,subimage_1,0,0.6235,0
 asynccrossfade,0.1,0,0,1,1,STOP
 
 window,on,0.15
-message,<user>,<size=24>(We won against the Calamity of Famine——or so it seemed.       <br><size=24>Everyone believes we drove it off，but that's not quite right……)<br> 
+message,<user>,<size=32>(We won against the Calamity of Famine——or so it seemed. <br><size=32>Everyone believes we drove it off，but that's not quite right……)<br> 
 
-message,<user>,<size=22>(In the moment that creature vanished，its eyes were far from dead.   <br><size=22>It's still alive. Somewhere，gathering strength，and it will surely return for revenge……)<br> 
+message,<user>,<size=32>(In the moment that creature vanished，its eyes were far  <br><size=32>from dead. It's still alive. Somewhere，gathering strength，and it will surely return for revenge……)<br> 
 
-message,<user>,<size=22>(What a mess. Every tactic，every gambit……even pushing my mind to its limits，<br><size=22>I can't find the 『answer』 to completely destroy the Calamity of Famine……)<br> 
+message,<user>,<size=32>(What a mess. Every tactic，every gambit……even pushing my <br><size=32>mind to its limits， I can't find the 『answer』 to completely destroy the Calamity of Famine……)<br> 
 
 window,off
 wait,0.15
@@ -66,7 +66,7 @@ subimagefade,subimage_1,0.6235,0,0
 asynccrossfade,0.1,0,0,1,1,STOP
 
 window,on,0.15
-message,,<size=22>Letting out a deep sigh，fists clenched as if to steel himself against the feeling of helplessness，<br><size=22>just then，a sweet fragrance drifted softly from the darkness behind him.<br> 
+message,,<size=32>Letting out a deep sigh，fists clenched as if to steel    <br><size=32>himself against the feeling of helplessness， just then，a sweet fragrance drifted softly from the darkness behind him.<br> 
 
 window,off
 wait,0.15
@@ -94,9 +94,9 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,？？？,<size=26>You look quite troubled.<br> ,300301000,mcv_1001000501_001_01,chara_1
+message,？？？,<size=32>You look quite troubled.<br> ,300301000,mcv_1001000501_001_01,chara_1
 
-message,<user>,<size=26>Who's there?<br> 
+message,<user>,<size=32>Who's there?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -107,7 +107,7 @@ asyncseplay,setag1_2,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,？？？,<size=26>My name is Ludia. ""A traveler guided here by moonlight""—  <br><size=26>…………shall I introduce myself as that?<br> ,300301000,mcv_1001000501_002_01,chara_1
+message,？？？,<size=32>My name is Ludia. ""A traveler guided here by moonlight""— <br><size=32>…………shall I introduce myself as that?<br> ,300301000,mcv_1001000501_002_01,chara_1
 
 asynccharaface,chara_1,FaceUnique03,CONT,0
 
@@ -118,9 +118,9 @@ asyncseplay,setag1_3,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ルディア,<size=26>Or perhaps ""guided by the 『Blood of the Hero』""            <br><size=26>would be more fitting~.<br> ,300301000,mcv_1001000501_003_01,chara_1
+message,ルディア,<size=32>Or perhaps ""guided by the 『Blood of the Hero』""           <br><size=32>would be more fitting~.<br> ,300301000,mcv_1001000501_003_01,chara_1
 
-message,<user>,<size=26>The Blood of the Hero……you know who I am?<br> 
+message,<user>,<size=32>The Blood of the Hero……you know who I am?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -132,7 +132,7 @@ asyncseplay,setag1_4,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ルディア,<size=26>Yes，of course.<br> ,300301000,mcv_1001000501_004_01,chara_1
+message,ルディア,<size=32>Yes，of course.<br> ,300301000,mcv_1001000501_004_01,chara_1
 
 window,off
 wait,0.15
@@ -165,7 +165,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,,<size=22>The mysterious beauty who called herself Ludia said this             <br><size=22>and closed the distance in an instant without a sound，appearing right before him.<br> 
+message,,<size=32>The mysterious beauty who called herself Ludia said this <br><size=32>and closed the distance in an instant without a sound，appearing right before him.<br> 
 
 window,off
 wait,0.15
@@ -189,7 +189,7 @@ asyncseplay,setag1_5,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ルディア,<size=26>Fufufu……                                                  <br><size=26>So this is the scent of the Hero's blood.<br> ,300301000,mcv_1001000501_005_01,chara_1
+message,ルディア,<size=32>Fufufu……                                                 <br><size=32>So this is the scent of the Hero's blood.<br> ,300301000,mcv_1001000501_005_01,chara_1
 
 charapose,chara_1,2
 
@@ -202,7 +202,7 @@ asyncseplay,setag1_6,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ルディア,<size=26>I wonder if girls are drawn in by this scent……?           <br><size=26>Just like your……grandfather……<br> ,300301000,mcv_1001000501_006_01,chara_1
+message,ルディア,<size=32>I wonder if girls are drawn in by this scent……?          <br><size=32>Just like your……grandfather……<br> ,300301000,mcv_1001000501_006_01,chara_1
 
 message,<user>,…………
 
@@ -216,7 +216,7 @@ asyncseplay,setag1_7,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ルディア,<size=26>Treasure boxes called 『Possibility』 gather around you.    <br><size=26>But every single one has a heavy，heavy lock on it.<br> ,300301000,mcv_1001000501_007_01,chara_1
+message,ルディア,<size=32>Treasure boxes called 『Possibility』 gather around you.   <br><size=32>But every single one has a heavy，heavy lock on it.<br> ,300301000,mcv_1001000501_007_01,chara_1
 
 charapose,chara_1,1
 
@@ -229,7 +229,7 @@ asyncseplay,setag1_8,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ルディア,<size=26>Don't you want it……?　The one thing that can open every single one of those locks—<br><size=26>a single……『Key of All Things』.<br> ,300301000,mcv_1001000501_008_01,chara_1
+message,ルディア,<size=32>Don't you want it……?　The one thing that can open every   <br><size=32>single one of those locks— a single……『Key of All Things』.<br> ,300301000,mcv_1001000501_008_01,chara_1
 
 window,off
 wait,0.15
@@ -273,11 +273,11 @@ asynccharaemo,chara_1,Heart,CONT,0
 
 
 window,on,0.15
-message,ルディア,<size=26>Mwah♡<br> ,300301000,mcv_1001000501_009_01,chara_1
+message,ルディア,<size=32>Mwah♡<br> ,300301000,mcv_1001000501_009_01,chara_1
 
-message,,<size=26>Ludia smiled mischievously                                <br><size=26>and gently pressed her lips against <user>'s.<br> 
+message,,<size=32>Ludia smiled mischievously                               <br><size=32>and gently pressed her lips against <user>'s.<br> 
 
-message,<user>,<size=26>Wha……what are you doing!?<br> 
+message,<user>,<size=32>Wha……what are you doing!?<br> 
 
 window,off
 wait,0.15
@@ -316,7 +316,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ルディア,<size=26>Oh my goodness，                                           <br><size=26>I just couldn't help myself with such a pleasing face so close……<br> ,300301000,mcv_1001000501_010_01,chara_1
+message,ルディア,<size=32>Oh my goodness， I just couldn't help myself with such a  <br><size=32>pleasing face so close……<br> ,300301000,mcv_1001000501_010_01,chara_1
 
 charapose,chara_1,2
 
@@ -329,9 +329,9 @@ asyncseplay,setag1_10,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ルディア,<size=26>Fufufu……I've just given you the 『Key』.<br> ,300301000,mcv_1001000501_011_01,chara_1
+message,ルディア,<size=32>Fufufu……I've just given you the 『Key』.<br> ,300301000,mcv_1001000501_011_01,chara_1
 
-message,<user>,<size=26>……A Key!?<br> 
+message,<user>,<size=32>……A Key!?<br> 
 
 charapose,chara_1,1
 
@@ -344,7 +344,7 @@ asyncseplay,setag1_11,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ルディア,<size=22>The true radiance sleeping within those girls' souls.                <br><size=22>Finding it and setting it free—that is the role of the one who holds the Key.<br> ,300301000,mcv_1001000501_012_01,chara_1
+message,ルディア,<size=32>The true radiance sleeping within those girls' souls.    <br><size=32>Finding it and setting it free—that is the role of the one who holds the Key.<br> ,300301000,mcv_1001000501_012_01,chara_1
 
 asynccharaface,chara_1,FaceUnique03,CONT,0
 
@@ -355,7 +355,7 @@ asyncseplay,setag1_12,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ルディア,<size=26>Fufufu，you'll understand in time.                         <br><size=26>Until we meet again，troubled Commander♡<br> ,300301000,mcv_1001000501_013_01,chara_1
+message,ルディア,<size=32>Fufufu，you'll understand in time.                        <br><size=32>Until we meet again，troubled Commander♡<br> ,300301000,mcv_1001000501_013_01,chara_1
 
 window,off
 wait,0.15
@@ -450,7 +450,7 @@ asynccharaemo,chara_2,Anger,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=26>What's going on~!　I came to check on you because you've seemed down，<br><size=26>and then this~……<br> ,100201000G,mcv_1001000501_015_01,chara_2
+message,ベリサ,<size=32>What's going on~!　I came to check on you because you've  <br><size=32>seemed down， and then this~……<br> ,100201000G,mcv_1001000501_015_01,chara_2
 
 
 asyncseplay,setag1_15,se4800002,0,1,CONT
@@ -459,12 +459,12 @@ asynccharaemo,chara_2,Heart,STOP
 
 
 asynccharaface,chara_2,FaceShy,STOP
-message,ベリサ,<size=22>Watching you calmly devise that precise strategy against that giant monster!<br><size=22>Your serious expression as you issued orders made Belisa's heart race~♡<br> ,100201000G,mcv_1001000501_016_01,on
+message,ベリサ,<size=32>Watching you calmly devise that precise strategy against <br><size=32>that giant monster! Your serious expression as you issued orders made Belisa's heart race~♡<br> ,100201000G,mcv_1001000501_016_01,on
 
 
 
 asynccharaface,chara_2,FaceFun,STOP
-message,ベリサ,<size=22>And on top of that，you gently supported me when I'd drained all my mana and was about to collapse，<br><size=22>and brought me all the way back to base—such depth of heart……♡<br> ,100201000G,mcv_1001000501_017_01,on
+message,ベリサ,<size=32>And on top of that，you gently supported me when I'd      <br><size=32>drained all my mana and was about to collapse， and brought me all the way back to base—such depth of heart……♡<br> ,100201000G,mcv_1001000501_017_01,on
 
 
 asyncseplay,setag1_16,se4800001,0,1,CONT
@@ -473,7 +473,7 @@ asynccharareaction,chara_2,Nod,1,STOP
 asynccharaemo,chara_2,Anger,STOP
 
 asynccharaface,chara_2,FaceAnger,STOP
-message,ベリサ,<size=26>And yet you're sneaking around flirting with a woman like that~~~!<br><size=26>Not fair，not fair~~~~!!!!<br> ,100201000G,mcv_1001000501_018_01,on
+message,ベリサ,<size=32>And yet you're sneaking around flirting with a woman like<br><size=32>that~~~! Not fair，not fair~~~~!!!!<br> ,100201000G,mcv_1001000501_018_01,on
 
 asyncseplay,setag1_17,se4800013,0,1,CONT
 
@@ -483,7 +483,7 @@ asynccharaemo,chara_2,Spirits,STOP
 asynccharaface,chara_2,FaceHappy,STOP
 
 asynccharaface,chara_2,FaceUnique02,STOP
-message,ベリサ,<size=26>But still~，cheering you up is my job after all♪           <br><size=26>Muhehe~♪　Maybe I'll tease you just a little~♡<br> ,100201000G,mcv_1001000501_019_01,on
+message,ベリサ,<size=32>But still~，cheering you up is my job after all♪          <br><size=32>Muhehe~♪　Maybe I'll tease you just a little~♡<br> ,100201000G,mcv_1001000501_019_01,on
 
 
 

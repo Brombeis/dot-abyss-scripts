@@ -20,13 +20,8 @@ import sys
 sys.path.insert(0, os.path.dirname(__file__))
 import common
 
-# (font_size, chars_per_line) tiers, largest first.
-MESSAGE_SIZE_TIERS = [
-    (26, 58),
-    (24, 63),
-    (22, 69),
-]
-MESSAGE_SIZE_FALLBACK = (22, 69)
+MESSAGE_FONT_SIZE = 32
+MESSAGE_CHARS_PER_LINE = 57
 
 # messageTextCenter is intentionally excluded — translated as plain text.
 MESSAGE_COMMANDS = frozenset({
@@ -159,21 +154,28 @@ def _expand_shakeall(parts, loaded_charas):
 def format_message_text(en):
     """Wrap and size-tag a message text field.
 
-    Passes through unchanged if already tagged. Respects existing <br> splits.
-    Output: <size=N>line1_padded<br><size=N>line2<br>  (or single-line variant)
+    Passes through unchanged if already tagged. If the translation contains a
+    <br> and both halves fit within CPL, the manual split is respected.
+    Otherwise the text is re-wrapped.
     """
     en_safe = common._comma_safe(en).replace('"', '""')
 
     if re.search(r'<size=', en_safe, re.IGNORECASE):
         return en_safe
 
+    fs = MESSAGE_FONT_SIZE
+    cpl = MESSAGE_CHARS_PER_LINE
+
     br_match = re.search(r'<br>', en_safe, re.IGNORECASE)
     if br_match:
-        line1 = en_safe[:br_match.start()]
-        line2 = en_safe[br_match.end():]
-        fs, cpl = _pick_size_tier(en_safe.replace('<br>', ' ', 1))
+        half1 = en_safe[:br_match.start()]
+        half2 = en_safe[br_match.end():]
+        if display_len(half1) <= cpl and display_len(half2) <= cpl:
+            line1, line2 = half1, half2
+        else:
+            stripped = half1 + ' ' + half2
+            line1, line2 = word_wrap_at(stripped, cpl)
     else:
-        fs, cpl = _pick_size_tier(en_safe)
         line1, line2 = word_wrap_at(en_safe, cpl)
 
     if line2:
@@ -181,15 +183,6 @@ def format_message_text(en):
         return f"<size={fs}>{line1_padded}<br><size={fs}>{line2}<br> "
     else:
         return f"<size={fs}>{line1}<br> "
-
-
-def _pick_size_tier(en_safe):
-    """Largest font size where the text fits in 2 lines."""
-    for fs, cpl in MESSAGE_SIZE_TIERS:
-        _, line2 = word_wrap_at(en_safe, cpl)
-        if not line2 or display_len(line2) <= cpl:
-            return fs, cpl
-    return MESSAGE_SIZE_FALLBACK
 
 
 def word_wrap_at(text, per_line):

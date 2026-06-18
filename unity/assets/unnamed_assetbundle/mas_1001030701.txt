@@ -74,9 +74,9 @@ wait,0.5
 
 
 window,on,0.15
-message,シエナ,<size=26>……Emergency Disaster Supplies Storage.<br> ,300501000,mcv_1001030701_001_01,chara_1
+message,シエナ,<size=32>……Emergency Disaster Supplies Storage.<br> ,300501000,mcv_1001030701_001_01,chara_1
 
-message,<user>,<size=26>Shiena，you can read these characters!?<br> 
+message,<user>,<size=32>Shiena，you can read these characters!?<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -85,7 +85,7 @@ asyncseplay,setag1_2,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,シエナ,<size=26>Yes. These are the characters used                        <br><size=26>in the world I came from……<br> ,300501000,mcv_1001030701_002_01,chara_1
+message,シエナ,<size=32>Yes. These are the characters used                       <br><size=32>in the world I came from……<br> ,300501000,mcv_1001030701_002_01,chara_1
 
 window,off
 wait,0.15
@@ -128,7 +128,7 @@ asynccharaemo,chara_3,Shock,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=26>My，what unusual characters~.<br> ,100301000G,mcv_1001030701_003_01,chara_3
+message,マリナ,<size=32>My，what unusual characters~.<br> ,100301000G,mcv_1001030701_003_01,chara_3
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -139,7 +139,7 @@ asyncseplay,setag1_4,se4800015,0,1,CONT,0
 asynccharaemo,chara_2,Dull,CONT,0
 
 
-message,クルル,<size=26>Kulul is bad at reading~~.<br> ,106701000G,mcv_1001030701_004_01,chara_2
+message,クルル,<size=32>Kulul is bad at reading~~.<br> ,106701000G,mcv_1001030701_004_01,chara_2
 
 window,off
 wait,0.15
@@ -185,7 +185,7 @@ asynccharaemo,chara_4,Trouble,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=26>They're all curvy and hard to make out~.                  <br><size=26>Can Sophia read them?<br> ,100201000G,mcv_1001030701_005_01,chara_4
+message,ベリサ,<size=32>They're all curvy and hard to make out~.                 <br><size=32>Can Sophia read them?<br> ,100201000G,mcv_1001030701_005_01,chara_4
 
 asynccharaface,chara_5,FaceSad,CONT,0
 
@@ -196,7 +196,7 @@ asyncseplay,setag1_6,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,ソフィア,<size=26>I've never seen characters from Shiena's world，           <br><size=26>so obviously I can't read them!<br> ,106501000G,mcv_1001030701_006_01,chara_5
+message,ソフィア,<size=32>I've never seen characters from Shiena's world，          <br><size=32>so obviously I can't read them!<br> ,106501000G,mcv_1001030701_006_01,chara_5
 
 asynccharaface,chara_4,FaceUnique02,CONT,0
 
@@ -207,7 +207,7 @@ asyncseplay,setag1_7,se4800004,0,1,CONT,0
 asynccharaemo,chara_4,Laugh,CONT,0
 
 
-message,ベリサ,<size=26>Oh~? They don't teach that at knight school~?<br> ,100201000G,mcv_1001030701_007_01,chara_4
+message,ベリサ,<size=32>Oh~? They don't teach that at knight school~?<br> ,100201000G,mcv_1001030701_007_01,chara_4
 
 asynccharaface,chara_5,FaceAnger,CONT,0
 
@@ -218,7 +218,7 @@ asyncseplay,setag1_8,se4800016,0,1,CONT,0
 asynccharaemo,chara_5,BePeevish,CONT,0
 
 
-message,ソフィア,<size=26>Of course they don't!<br> ,106501000G,mcv_1001030701_008_01,chara_5
+message,ソフィア,<size=32>Of course they don't!<br> ,106501000G,mcv_1001030701_008_01,chara_5
 
 window,off
 wait,0.15
@@ -274,7 +274,7 @@ wait,0.5
 
 
 window,on,0.15
-message,シエナ,<size=22>If this really is an emergency disaster supplies storage like I know them，<br><size=22>then it should be right around this side…… there it is.<br> ,300501000,mcv_1001030701_009_01,chara_1
+message,シエナ,<size=32>If this really is an emergency disaster supplies storage <br><size=32>like I know them， then it should be right around this side…… there it is.<br> ,300501000,mcv_1001030701_009_01,chara_1
 
 window,off
 wait,0.15
@@ -328,7 +328,7 @@ asynccharaemo,chara_4,Speak,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=26>Do you recognize this emblem?<br> ,100201000G,mcv_1001030701_010_01,chara_4
+message,ベリサ,<size=32>Do you recognize this emblem?<br> ,100201000G,mcv_1001030701_010_01,chara_4
 
 window,off
 wait,0.15
@@ -376,7 +376,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=26>Yes. This is the school crest of Sanctuelle Girls' Academy.<br><size=26>……The school I once attended.<br> ,300501000,mcv_1001030701_011_01,chara_1
+message,シエナ,<size=32>Yes. This is the school crest of Sanctuelle Girls'       <br><size=32>Academy. ……The school I once attended.<br> ,300501000,mcv_1001030701_011_01,chara_1
 
 window,off
 wait,0.15
@@ -427,7 +427,7 @@ wait,0.5
 
 
 window,on,0.15
-message,アーデルハイト,<size=26>Which means，just as I thought…… the girl in question is……<br> ,108701000G,mcv_1001030701_012_01,chara_6
+message,アーデルハイト,<size=32>Which means，just as I thought…… the girl in question is……<br> ,108701000G,mcv_1001030701_012_01,chara_6
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -438,7 +438,7 @@ asyncseplay,setag1_14,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,シエナ,<size=26>My best friend，Himari……<br> ,300501000,mcv_1001030701_013_01,chara_1
+message,シエナ,<size=32>My best friend，Himari……<br> ,300501000,mcv_1001030701_013_01,chara_1
 
 window,off
 wait,0.15
@@ -488,7 +488,7 @@ wait,0.5
 
 
 window,on,0.15
-message,シエナ,<size=24>The fact that this is here means the emergency storage facility<br><size=24>must have been swallowed whole by the spatial distortion……<br> ,300501000,mcv_1001030701_014_01,chara_1
+message,シエナ,<size=32>The fact that this is here means the emergency storage   <br><size=32>facility must have been swallowed whole by the spatial distortion……<br> ,300501000,mcv_1001030701_014_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -499,7 +499,7 @@ asyncseplay,setag1_16,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シエナ,<size=24>Himari was transported to this world，kidnapped by someone，     <br><size=24>and now she's about to be given away as a prize to bandits……<br> ,300501000,mcv_1001030701_015_01,chara_1
+message,シエナ,<size=32>Himari was transported to this world，kidnapped by        <br><size=32>someone， and now she's about to be given away as a prize to bandits……<br> ,300501000,mcv_1001030701_015_01,chara_1
 
 asynccharaface,chara_1,FaceUnique03,CONT,0
 
@@ -510,7 +510,7 @@ asyncseplay,setag1_17,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,シエナ,<size=26>——I have to go now!<br> ,300501000,mcv_1001030701_016_01,chara_1
+message,シエナ,<size=32>——I have to go now!<br> ,300501000,mcv_1001030701_016_01,chara_1
 
 window,off
 wait,0.15
@@ -573,9 +573,9 @@ asynccharaemo,chara_5,Shock,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=26>Shiena!?<br> ,106501000G,mcv_1001030701_017_01,chara_5
+message,ソフィア,<size=32>Shiena!?<br> ,106501000G,mcv_1001030701_017_01,chara_5
 
-message,<user>,<size=26>We can't leave Shiena alone right now.                    <br><size=26>After her!<br> 
+message,<user>,<size=32>We can't leave Shiena alone right now.                   <br><size=32>After her!<br> 
 
 window,off
 wait,0.15
@@ -613,9 +613,9 @@ asynctransitionFade,Tra02,in,black,0,STOP,0
 waitorclick,0.5
 
 window,on,0.15
-message,シエナ,<size=22>Himari always used to hang out behind the emergency supplies storage in the corner of our school grounds.<br><size=22>Reading books there，feeding stray cats……<br> ,300501000,mcv_1001030701_018_01,
+message,シエナ,<size=32>Himari always used to hang out behind the emergency      <br><size=32>supplies storage in the corner of our school grounds. Reading books there，feeding stray cats……<br> ,300501000,mcv_1001030701_018_01,
 
-message,シエナ,<size=26>Such a gentle girl becoming someone's prize is just wrong……!<br><size=26>I have to be the one to save Himari……!<br> ,300501000,mcv_1001030701_019_01,
+message,シエナ,<size=32>Such a gentle girl becoming someone's prize is just      <br><size=32>wrong……! I have to be the one to save Himari……!<br> ,300501000,mcv_1001030701_019_01,
 
 window,off
 wait,0.15
@@ -666,7 +666,7 @@ asynccharaemo,chara_3,Imagination,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=26>An other-world storage facility…… I'm sure it must be full<br><size=26>of all kinds of unknown items inside~……<br> ,100301000G,mcv_1001030701_020_01,chara_3
+message,マリナ,<size=32>An other-world storage facility…… I'm sure it must be    <br><size=32>full of all kinds of unknown items inside~……<br> ,100301000G,mcv_1001030701_020_01,chara_3
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -677,7 +677,7 @@ asyncseplay,setag1_21,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,マリナ,<size=26>Ugh，to walk away in the face of treasure……!<br> ,100301000G,mcv_1001030701_021_01,chara_3
+message,マリナ,<size=32>Ugh，to walk away in the face of treasure……!<br> ,100301000G,mcv_1001030701_021_01,chara_3
 
 asynccharaface,chara_3,FaceAnger,CONT,0
 
@@ -688,7 +688,7 @@ asyncseplay,setag1_22,se4800010,0,1,CONT,0
 asynccharaemo,chara_3,Exclamation,CONT,0
 
 
-message,マリナ,<size=22>But right now，Shiena's friend's safety is more important!            <br><size=22>I'll definitely come back to collect it，so please stay right there~……!<br> ,100301000G,mcv_1001030701_022_01,chara_3
+message,マリナ,<size=32>But right now，Shiena's friend's safety is more important!<br><size=32>I'll definitely come back to collect it，so please stay right there~……!<br> ,100301000G,mcv_1001030701_022_01,chara_3
 
 window,off
 wait,0.15
@@ -758,9 +758,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=26>Over there…… are those traces of something……?             <br><size=26>Is that…… the remnants of a campfire……?<br> ,300501000,mcv_1001030701_023_01,chara_1
+message,シエナ,<size=32>Over there…… are those traces of something……?            <br><size=32>Is that…… the remnants of a campfire……?<br> ,300501000,mcv_1001030701_023_01,chara_1
 
-message,<user>,<size=26>Stop，Shiena! Ambush!<br> 
+message,<user>,<size=32>Stop，Shiena! Ambush!<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -771,7 +771,7 @@ asyncseplay,setag1_24,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,シエナ,<size=26>——!? Here of all places……!<br> ,300501000,mcv_1001030701_024_01,chara_1
+message,シエナ,<size=32>——!? Here of all places……!<br> ,300501000,mcv_1001030701_024_01,chara_1
 
 
 window,off
@@ -811,7 +811,7 @@ linework,on,White,Middle
 
 
 window,on,0.15
-message,シエナ,<size=26>I need to save Himari!                                    <br><size=26>Don't get in my way!<br> ,300501000,mcv_1001030701_025_01,chara_1
+message,シエナ,<size=32>I need to save Himari!                                   <br><size=32>Don't get in my way!<br> ,300501000,mcv_1001030701_025_01,chara_1
 
 window,off
 wait,0.15

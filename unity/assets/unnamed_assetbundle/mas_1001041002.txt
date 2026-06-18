@@ -15,7 +15,7 @@ fade,In,White,0.5
 bgmplay,bgmtag2_1,bgm0025,0.75,1
 
 window,on,0.15
-l2dmessage,ヒマリ,シエナ……？,106601000G,mcv_1001041001_001_99_02
+l2dmessage,ヒマリ,<size=32>Shiena...?<br> ,106601000G,mcv_1001041001_001_99_02
 
 
 l2dmotion,EyeOpen00
@@ -24,20 +24,20 @@ l2dmotion,EyebrowEmotion00
 
 asyncl2dmotion,EyeOpenReset,on,STOP,4
 
-l2dmessage,シエナ,……そっか。ヒマリ……強くなったね。,300501000,mcv_1001041001_002_99_01
+l2dmessage,シエナ,<size=32>...I see. Himari... you've gotten stronger.<br> ,300501000,mcv_1001041001_002_99_01
 
 
 
 asyncl2dmotion,EyeOpen02,on,STOP,0.5
 
-l2dmessage,ヒマリ,ごめんね、シエナ……,106601000G,mcv_1001041001_003_99_02
+l2dmessage,ヒマリ,<size=32>I'm sorry，Shiena...<br> ,106601000G,mcv_1001041001_003_99_02
 
 
 
 
 asyncl2dmotion,EyebrowEmotionReset,on,STOP,1
 
-message,,シエナは、自分の鞄から１台の通信機を取り出すと、<br>ヒマリの手にそっと握らせる。
+message,,<size=32>Shiena takes a communicator out of her bag               <br><size=32>and gently places it in Himari's hand.<br> 
 
 l2dmotion,EyeEmotion00
 
@@ -45,12 +45,12 @@ asyncl2dmotion,EyeOpenReset,on,STOP,0.5
 
 
 
-l2dmessage,ヒマリ,これは……スマホ？,106601000G,mcv_1001041001_004_99_02
+l2dmessage,ヒマリ,<size=32>Is this... a phone?<br> ,106601000G,mcv_1001041001_004_99_02
 
 
 
 
-l2dmessage,シエナ,ルクスノヴァたち専用の通信機よ。<br>もし、私の助けが必要な時はいつでも連絡して。,300501000,mcv_1001041001_005_99_01
+l2dmessage,シエナ,<size=32>It's a communicator exclusively for Lux Nova.            <br><size=32>If you ever need my help，contact me anytime.<br> ,300501000,mcv_1001041001_005_99_01
 
 
 l2dmotion,EyeEmotionReset
@@ -58,21 +58,21 @@ l2dmotion,EyeEmotionReset
 
 l2dmotion,Scene02
 
-l2dmessage,ヒマリ,うん……ありがとう、シエナ。<br>大切にするね。,106601000G,mcv_1001041001_006_99_02
+l2dmessage,ヒマリ,<size=32>Yeah... thank you，Shiena.                                <br><size=32>I'll take good care of it.<br> ,106601000G,mcv_1001041001_006_99_02
 
 
 
 
 l2dmotion,EyebrowEmotion00
 
-l2dmessage,シエナ,ヒマリ……くれぐれも無理だけはしないで。<br>私は、あなたと一緒に元の世界に帰れる日を待ってるから。,300501000,mcv_1001041001_007_99_01
+l2dmessage,シエナ,<size=32>Himari... please don't push yourself too hard. I'll be   <br><size=32>waiting for the day we can go back to our world together.<br> ,300501000,mcv_1001041001_007_99_01
 
 
 
 
 l2dmotion,EyeOpen03
 
-l2dmessage,ヒマリ,うん。わたしも、いつかその日が来るのを楽しみにしてるね。,106601000G,mcv_1001041001_008_99_02
+l2dmessage,ヒマリ,<size=32>Yeah. I'm looking forward to when that day comes too.<br> ,106601000G,mcv_1001041001_008_99_02
 
 
 
@@ -80,20 +80,20 @@ l2dmotion,EyebrowEmotionReset
 
 l2dmotion,EyeOpenReset
 
-l2dmessage,シエナ,元気でね、ヒマリ。<br>また、会いに来るから。,300501000,mcv_1001041001_009_99_01
+l2dmessage,シエナ,<size=32>Take care，Himari.                                        <br><size=32>I'll come visit again.<br> ,300501000,mcv_1001041001_009_99_01
 
 
 
 
 l2dmotion,Scene03
 
-l2dmessage,ヒマリ,うん……！　待ってる！,106601000G,mcv_1001041001_010_99_02
+l2dmessage,ヒマリ,<size=32>Yeah...! I'll be waiting!<br> ,106601000G,mcv_1001041001_010_99_02
 
 
 
 
 
-message,,それぞれの道を決意した２人の姿を、<br>夜空に浮かぶ月が、優しく照らし続けていた――
+message,,<size=32>The moon floating in the night sky continued to gently   <br><size=32>illuminate the two of them，each resolved to walk their own path--<br> 
 
 window,off
 bgmstop,bgmtag2_1,0.5

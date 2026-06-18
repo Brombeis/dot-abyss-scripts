@@ -81,7 +81,7 @@ asynccharaemo,chara_2,Elated,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=26>Bandits are no match for Belisa and friends!<br> ,100201000G,mcv_1001030702_001_01,chara_2
+message,ベリサ,<size=32>Bandits are no match for Belisa and friends!<br> ,100201000G,mcv_1001030702_001_01,chara_2
 
 window,off
 wait,0.15
@@ -137,9 +137,9 @@ asyncwait
 
 
 window,on,0.15
-message,アーデルハイト,<size=26>After the campfire remnants…… there are also someone's shoe prints.<br><size=26>Heading toward that cave ahead……?<br> ,108701000G,mcv_1001030702_002_01,chara_4
+message,アーデルハイト,<size=32>After the campfire remnants…… there are also someone's   <br><size=32>shoe prints. Heading toward that cave ahead……?<br> ,108701000G,mcv_1001030702_002_01,chara_4
 
-message,<user>,<size=26>Let's check it out.<br> 
+message,<user>,<size=32>Let's check it out.<br> 
 
 window,off
 wait,0.15
@@ -223,7 +223,7 @@ wait,0.5
 
 
 window,on,0.15
-message,シエナ,<size=26>There are traces of someone having lived here too……<br> ,300501000,mcv_1001030702_003_01,chara_5
+message,シエナ,<size=32>There are traces of someone having lived here too……<br> ,300501000,mcv_1001030702_003_01,chara_5
 
 window,off
 wait,0.15
@@ -270,7 +270,7 @@ asynccharaemo,chara_4,Shock,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,<size=26>Hm. That's strange…… what is this……?<br> ,108701000G,mcv_1001030702_004_01,chara_4
+message,アーデルハイト,<size=32>Hm. That's strange…… what is this……?<br> ,108701000G,mcv_1001030702_004_01,chara_4
 
 window,off
 wait,0.15
@@ -333,7 +333,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=26>What's wrong?<br> ,106501000G,mcv_1001030702_005_01,chara_1
+message,ソフィア,<size=32>What's wrong?<br> ,106501000G,mcv_1001030702_005_01,chara_1
 
 window,off
 wait,0.15
@@ -384,7 +384,7 @@ asynccharaemo,chara_4,Shock,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,<size=24>The moment we entered the cave，the detector started showing abnormal readings.<br><size=24>……Is the magnetic field disturbed here……?<br> ,108701000G,mcv_1001030702_006_01,chara_4
+message,アーデルハイト,<size=32>The moment we entered the cave，the detector started      <br><size=32>showing abnormal readings. ……Is the magnetic field disturbed here……?<br> ,108701000G,mcv_1001030702_006_01,chara_4
 
 asynccharaface,chara_4,EyeOpen,CONT,0
 asynccharaface,chara_4,FaceNormal,CONT,0
@@ -396,7 +396,7 @@ asyncseplay,setag2_7,se4800008,0,1,CONT,0
 asynccharaemo,chara_4,Sweat,CONT,0
 
 
-message,アーデルハイト,<size=26>This is no good.                                          <br><size=26>It seems my detector is useless inside the cave.<br> ,108701000G,mcv_1001030702_007_01,chara_4
+message,アーデルハイト,<size=32>This is no good.                                         <br><size=32>It seems my detector is useless inside the cave.<br> ,108701000G,mcv_1001030702_007_01,chara_4
 
 asynccharaface,chara_4,FaceUnique01,CONT,0
 
@@ -407,7 +407,7 @@ asyncseplay,setag2_8,se4800005,0,1,CONT,0
 asynccharaemo,chara_4,Flash,CONT,0
 
 
-message,アーデルハイト,<size=22>I see…… so the reason my detector was showing strange readings       <br><size=22>was because the people here were coming and going from the cave……<br> ,108701000G,mcv_1001030702_008_01,chara_4
+message,アーデルハイト,<size=32>I see…… so the reason my detector was showing strange    <br><size=32>readings was because the people here were coming and going from the cave……<br> ,108701000G,mcv_1001030702_008_01,chara_4
 
 window,off
 wait,0.15
@@ -442,7 +442,7 @@ asynccharaemo,chara_6,Speak,CONT,0
 
 
 window,on,0.15
-message,クルル,<size=26>Hm? Master~. Something's fallen over there?<br> ,106701000G,mcv_1001030702_009_01,chara_6
+message,クルル,<size=32>Hm? Master~. Something's fallen over there?<br> ,106701000G,mcv_1001030702_009_01,chara_6
 
 window,off
 wait,0.15
@@ -470,7 +470,7 @@ waitorclick,1.5
 item,on,550100011
 
 window,on,0.15
-message,<user>,<size=26>This is…… a musical instrument?<br> 
+message,<user>,<size=32>This is…… a musical instrument?<br> 
 
 window,off
 wait,0.15
@@ -504,7 +504,7 @@ asynccharaemo,chara_5,Speak,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=26>No. That's a megaphone.                                   <br><size=26>A device for projecting your voice to a distance.<br> ,300501000,mcv_1001030702_010_01,chara_5
+message,シエナ,<size=32>No. That's a megaphone.                                  <br><size=32>A device for projecting your voice to a distance.<br> ,300501000,mcv_1001030702_010_01,chara_5
 
 window,off
 wait,0.15
@@ -563,7 +563,7 @@ asynccharaemo,chara_2,Question,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=26>There's some writing on it~.<br> ,100201000G,mcv_1001030702_011_01,chara_2
+message,ベリサ,<size=32>There's some writing on it~.<br> ,100201000G,mcv_1001030702_011_01,chara_2
 
 window,off
 wait,0.15
@@ -621,7 +621,7 @@ wait,0.5
 
 
 window,on,0.15
-message,シエナ,<size=26>'San-jo'…… the abbreviation for my school.<br> ,300501000,mcv_1001030702_012_01,chara_5
+message,シエナ,<size=32>'San-jo'…… the abbreviation for my school.<br> ,300501000,mcv_1001030702_012_01,chara_5
 
 asynccharaface,chara_5,EyeClose,CONT,0
 asynccharaface,chara_5,FaceNormal,CONT,0
@@ -633,9 +633,9 @@ asyncseplay,setag2_13,se4800007,0,1,CONT,0
 asynccharaemo,chara_5,Panic,CONT,0
 
 
-message,シエナ,<size=26>……Himari must have used this to call for help.            <br><size=26>Over and over，again and again，until someone noticed……!<br> ,300501000,mcv_1001030702_013_01,chara_5
+message,シエナ,<size=32>……Himari must have used this to call for help.           <br><size=32>Over and over，again and again，until someone noticed……!<br> ,300501000,mcv_1001030702_013_01,chara_5
 
-message,<user>,<size=26>Does that thing have the range to reach outside the Abyss?<br> 
+message,<user>,<size=32>Does that thing have the range to reach outside the      <br><size=32>Abyss?<br> 
 
 asynccharaface,chara_5,FaceSad,CONT,0
 
@@ -646,7 +646,7 @@ asyncseplay,setag2_14,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,シエナ,<size=26>No，I don't think it can reach that far，but……<br> ,300501000,mcv_1001030702_014_01,chara_5
+message,シエナ,<size=32>No，I don't think it can reach that far，but……<br> ,300501000,mcv_1001030702_014_01,chara_5
 
 window,off
 wait,0.15
@@ -702,7 +702,7 @@ wait,0.5
 
 
 window,on,0.15
-message,アーデルハイト,<size=22>Perhaps the voice rode one of the special air currents that flow through the Abyss.<br><size=22>This Himari appears to have been rather lucky.<br> ,108701000G,mcv_1001030702_015_01,chara_4
+message,アーデルハイト,<size=32>Perhaps the voice rode one of the special air currents   <br><size=32>that flow through the Abyss. This Himari appears to have been rather lucky.<br> ,108701000G,mcv_1001030702_015_01,chara_4
 
 window,off
 wait,0.15
@@ -749,9 +749,9 @@ asynccharaemo,chara_5,Anger,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=26>What a way to put it……!                                   <br><size=26>What exactly is lucky about Himari's situation right now!?<br> ,300501000,mcv_1001030702_016_01,chara_5
+message,シエナ,<size=32>What a way to put it……! What exactly is lucky about      <br><size=32>Himari's situation right now!?<br> ,300501000,mcv_1001030702_016_01,chara_5
 
-message,<user>,<size=26>Calm down，Shiena.                                         <br><size=26>Adelheid meant no ill will.<br> 
+message,<user>,<size=32>Calm down，Shiena.                                        <br><size=32>Adelheid meant no ill will.<br> 
 
 asynccharaface,chara_5,FaceSurprise,CONT,0
 
@@ -770,7 +770,7 @@ asyncseplay,setag2_18,se4800007,0,1,STOP,3.44
 asynccharaemo,chara_5,Panic,STOP,3.44
 
 
-message,シエナ,<size=26>……I'm sorry.                                              <br><size=26>I'm falling apart，aren't I. I'm letting myself panic……<br> ,300501000,mcv_1001030702_017_01,chara_5
+message,シエナ,<size=32>……I'm sorry.                                             <br><size=32>I'm falling apart，aren't I. I'm letting myself panic……<br> ,300501000,mcv_1001030702_017_01,chara_5
 
 window,off
 wait,0.15
@@ -780,7 +780,7 @@ charafocusonall
 bgmstop,bgmtag2_2,1.5,0
 
 window,on,0.15
-message,<user>,<size=26>Still，to have been living in a place like this……          <br><size=26>But something's odd.<br> 
+message,<user>,<size=32>Still，to have been living in a place like this……         <br><size=32>But something's odd.<br> 
 
 window,off
 wait,0.15
@@ -843,7 +843,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=26>What's odd?<br> ,106501000G,mcv_1001030702_018_01,chara_1
+message,ソフィア,<size=32>What's odd?<br> ,106501000G,mcv_1001030702_018_01,chara_1
 
 window,off
 wait,0.15
@@ -853,9 +853,9 @@ charafocusonall
 bgmplay,bgmtag2_3,bgm0041,0.75,1
 
 window,on,0.15
-message,<user>,<size=26>We're told Shiena's friend was here，                      <br><size=26>but why are there two used cups?<br> 
+message,<user>,<size=32>We're told Shiena's friend was here，                     <br><size=32>but why are there two used cups?<br> 
 
-message,<user>,<size=24>The sleeping area and everyday items are all for one person，but there are two cups.<br><size=24>It doesn't take much thought to conclude——<br> 
+message,<user>,<size=32>The sleeping area and everyday items are all for one     <br><size=32>person，but there are two cups. It doesn't take much thought to conclude——<br> 
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -867,9 +867,9 @@ asyncseplay,setag2_20,se4800019,0,1,CONT,0
 asynccharaemo,chara_2,Elated,CONT,0
 
 
-message,ベリサ,<size=26>She served a drink to a visitor~?<br> ,100201000G,mcv_1001030702_019_01,chara_2
+message,ベリサ,<size=32>She served a drink to a visitor~?<br> ,100201000G,mcv_1001030702_019_01,chara_2
 
-message,<user>,<size=26>That would be the natural interpretation.<br> 
+message,<user>,<size=32>That would be the natural interpretation.<br> 
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -880,7 +880,7 @@ asyncseplay,setag2_21,se4800017,0,1,CONT,0
 asynccharaemo,chara_2,Shock,CONT,0
 
 
-message,ベリサ,<size=26>What!?                                                    <br><size=26>I said it randomly and I was right!<br> ,100201000G,mcv_1001030702_020_01,chara_2
+message,ベリサ,<size=32>What!?                                                   <br><size=32>I said it randomly and I was right!<br> ,100201000G,mcv_1001030702_020_01,chara_2
 
 window,off
 wait,0.15
@@ -936,9 +936,9 @@ asynccharaemo,chara_6,Speak,STOP,1.5
 
 
 window,on,0.15
-message,クルル,<size=26>Sniff sniff…… this smells like a girl!                    <br><size=26>The one sleeping in this bed was a young girl!<br> ,106701000G,mcv_1001030702_021_01,chara_6
+message,クルル,<size=32>Sniff sniff…… this smells like a girl!                   <br><size=32>The one sleeping in this bed was a young girl!<br> ,106701000G,mcv_1001030702_021_01,chara_6
 
-message,<user>,<size=26>Is that the only scent on the bedding?<br> 
+message,<user>,<size=32>Is that the only scent on the bedding?<br> 
 
 asyncjump,CHARA,chara_6,-30,0.5,2,off,0,CONT
 
@@ -949,9 +949,9 @@ asynccharaemo,chara_6,Silence,CONT,0
 wait,0.5
 
 
-message,クルル,<size=22>Yeah，just one girl! Sniff sniff…… she's been keeping herself washed and clean，<br><size=22>but it seems like she lived here for quite a long time!<br> ,106701000G,mcv_1001030702_022_01,chara_6
+message,クルル,<size=32>Yeah，just one girl! Sniff sniff…… she's been keeping     <br><size=32>herself washed and clean， but it seems like she lived here for quite a long time!<br> ,106701000G,mcv_1001030702_022_01,chara_6
 
-message,<user>,<size=26>I see…… by the way，can you tell the scent on the cups?<br> 
+message,<user>,<size=32>I see…… by the way，can you tell the scent on the cups?<br> 
 
 window,off
 wait,0.15
@@ -988,7 +988,7 @@ wait,0.5
 
 
 window,on,0.15
-message,クルル,<size=26>Leave it to me! Sniff sniff…… this one smells like a girl!<br> ,106701000G,mcv_1001030702_023_01,chara_6
+message,クルル,<size=32>Leave it to me! Sniff sniff…… this one smells like a     <br><size=32>girl!<br> ,106701000G,mcv_1001030702_023_01,chara_6
 
 asynccharaface,chara_6,FaceSad,CONT,0
 
@@ -999,7 +999,7 @@ asyncseplay,setag2_25,se4800006,0,1,CONT,0
 asynccharaemo,chara_6,Trouble,CONT,0
 
 
-message,クルル,<size=26>But…… there's a strange smell mixed in…… something that   <br><size=26>makes you a little sleepy……<br> ,106701000G,mcv_1001030702_024_01,chara_6
+message,クルル,<size=32>But…… there's a strange smell mixed in…… something that  <br><size=32>makes you a little sleepy……<br> ,106701000G,mcv_1001030702_024_01,chara_6
 
 window,off
 wait,0.15
@@ -1062,7 +1062,7 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=26>Could it be a sleeping drug~? Was she having trouble sleeping~?<br><size=26>Or maybe someone put it in for her……<br> ,100301000G,mcv_1001030702_025_01,chara_3
+message,マリナ,<size=32>Could it be a sleeping drug~? Was she having trouble     <br><size=32>sleeping~? Or maybe someone put it in for her……<br> ,100301000G,mcv_1001030702_025_01,chara_3
 
 window,off
 wait,0.15
@@ -1107,7 +1107,7 @@ asynctransitionCrossFade,Tra01,0.5,STOP
 waitorclick,1
 
 window,on,0.15
-message,<user>,<size=26>What about the other cup?<br> 
+message,<user>,<size=32>What about the other cup?<br> 
 
 window,off
 wait,0.15
@@ -1138,7 +1138,7 @@ asynccharaface,chara_6,FaceNormal,CONT,0
 
 
 window,on,0.15
-message,クルル,<size=26>Sniff sniff…… this one smells like a man!<br> ,106701000G,mcv_1001030702_026_01,chara_6
+message,クルル,<size=32>Sniff sniff…… this one smells like a man!<br> ,106701000G,mcv_1001030702_026_01,chara_6
 
 window,off
 bgmstop,bgmtag2_3,0.5

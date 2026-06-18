@@ -36,7 +36,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
@@ -45,7 +45,7 @@ bgmplay,bgmtag1_1,bgm0041,0.75,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――地下鉄　ホーム</size>,,,on
+messageTextCenter,,<size=48>--Subway Platform</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -76,7 +76,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,この図が変って言ってたな。<br>どういう意味なんだ？
+message,<user>,<size=32>You said this map was strange.                           <br><size=32>What do you mean?<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -87,7 +87,7 @@ asyncseplay,setag1_1,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒマリ,う、うん。この路線図っていうのは、都内中心部に巡らされた地下鉄の駅と、<br>その線路の繋がりを示した図で……,106601000G,mcv_1001050701_001_01,chara_1
+message,ヒマリ,<size=32>Y-yeah. This route map shows the subway stations         <br><size=32>throughout central Tokyo and how the rail lines connect them...<br> ,106601000G,mcv_1001050701_001_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -98,9 +98,9 @@ asyncseplay,setag1_2,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒマリ,だけど……駅の名前が……<br>全然違う……,106601000G,mcv_1001050701_002_01,chara_1
+message,ヒマリ,<size=32>But... the station names...                              <br><size=32>are completely different...<br> ,106601000G,mcv_1001050701_002_01,chara_1
 
-message,<user>,駅の名前が違う？<br>地名がヒマリの住んでた街とは違うってことか？
+message,<user>,<size=32>The station names are different? You mean the place names<br><size=32>don't match the city you lived in?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -112,9 +112,9 @@ asyncseplay,setag1_3,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ヒマリ,御成門と、その周辺だけは名前が同じなの。<br>でも、渋谷も、新宿も、秋葉原も全部名前が違ってて……,106601000G,mcv_1001050701_003_01,chara_1
+message,ヒマリ,<size=32>Only Onarimon and its immediate surroundings have the    <br><size=32>same names. But Shibuya， Shinjuku， Akihabara— they all have different names...<br> ,106601000G,mcv_1001050701_003_01,chara_1
 
-message,<user>,どう違うんだ？
+message,<user>,<size=32>How are they different?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -125,9 +125,9 @@ asyncseplay,setag1_4,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒマリ,第５管理区間、第７管理区間、第１２工場エリア……何、これ？,106601000G,mcv_1001050701_004_01,chara_1
+message,ヒマリ,<size=32>Management Zone 5， Management Zone 7， Factory Area 12... <br><size=32>What is this?<br> ,106601000G,mcv_1001050701_004_01,chara_1
 
-message,<user>,随分、無機質な地名だな。
+message,<user>,<size=32>Those are awfully sterile place names.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -138,9 +138,9 @@ asyncseplay,setag1_5,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ヒマリ,わたしとシエナが遊びに行ってた街が、ただの番号にされちゃってる……<br>なんで、こんなことになってるの？,106601000G,mcv_1001050701_005_01,chara_1
+message,ヒマリ,<size=32>The neighborhoods where Siena and I used to hang out are <br><size=32>just numbers now... Why did it end up like this?<br> ,106601000G,mcv_1001050701_005_01,chara_1
 
-message,<user>,さっきの魔石に残った声によると、ここの人間たちは『楽園』を求めていた。<br>つまり、この図の世界が、彼らの求めていた世界ってことなんじゃないのか？
+message,<user>,<size=32>According to the voices in that magic stone， the people  <br><size=32>here sought a ""paradise."" So this map's world might be the world they wished for.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -151,7 +151,7 @@ asyncseplay,setag1_6,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ヒマリ,こんな、番号で管理されてるような世界を……？<br>そんなこと……あるのかな？,106601000G,mcv_1001050701_006_01,chara_1
+message,ヒマリ,<size=32>A world managed by numbers like this...?                 <br><size=32>Could that... really be?<br> ,106601000G,mcv_1001050701_006_01,chara_1
 
 window,off
 wait,0.15
@@ -197,7 +197,7 @@ asyncseplay,setag1_7,se4800009,0,1,CONT,0
 asynccharaemo,chara_3,Question,CONT,0
 
 window,on,0.15
-message,クルル,ねーねー、この地図、ブワ～って少し光ってるトコあるね～？,106701000G,mcv_1001050701_007_01,on
+message,クルル,<size=32>Hey hey~ some spots on this map are glowing a little~?<br> ,106701000G,mcv_1001050701_007_01,on
 
 window,off
 wait,0.15
@@ -217,9 +217,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ソフィア,ホントね、これは何を意味してるのかしら？<br>今いる場所も光ってるみたいだけど。,106501000G,mcv_1001050701_008_01,chara_2
+message,ソフィア,<size=32>You're right. I wonder what it means?                    <br><size=32>It looks like our current location is glowing too.<br> ,106501000G,mcv_1001050701_008_01,chara_2
 
-message,<user>,何かのありかを示しているのか……？
+message,<user>,<size=32>Is it marking the location of something...?<br> 
 
 window,off
 wait,0.15
@@ -272,7 +272,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,光ってるのは、ここ、御成門駅と、<br>隣の芝公園駅……かな？,106601000G,mcv_1001050701_009_01,chara_1
+message,ヒマリ,<size=32>The glowing spots are here at Onarimon Station and...    <br><size=32>the neighboring Shiba Park Station... I think?<br> ,106601000G,mcv_1001050701_009_01,chara_1
 
 window,off
 wait,0.15
@@ -338,9 +338,9 @@ asynccharaemo,chara_4,Speak,CONT,0
 
 
 window,on,0.15
-message,マリナ,もしかして、ここにあった『魂憶石』の場所とかですかねぇ～？<br>魔石に反応してるならの話ですけどぉ～。,100301000G,mcv_1001050701_010_01,chara_4
+message,マリナ,<size=32>Could it be showing where the Soul Memory Stones are~?   <br><size=32>If it's reacting to the magic stone， that is~.<br> ,100301000G,mcv_1001050701_010_01,chara_4
 
-message,<user>,魔石に反応してる……か。<br>この図面、微かに魔力を感じる気がするんだが……
+message,<user>,<size=32>Reacting to the magic stone... hmm.                      <br><size=32>I feel a faint magical energy from this map...<br> 
 
 window,off
 wait,0.15
@@ -397,7 +397,7 @@ asynccharaemo,chara_3,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ベリサ,え～？　どれどれ～？<br>魔力探知してみよっか～？,100201000G,mcv_1001050701_011_01,chara_3
+message,ベリサ,<size=32>Hm~? Let me see~?                                        <br><size=32>Want me to try sensing the magic~?<br> ,100201000G,mcv_1001050701_011_01,chara_3
 
 window,off
 wait,0.15
@@ -443,7 +443,7 @@ asynccharaemo,chara_3,Shock,CONT,0
 
 
 window,on,0.15
-message,ベリサ,……って、わわわっ！,100201000G,mcv_1001050701_012_01,chara_3
+message,ベリサ,<size=32>...Wait， waaah!<br> ,100201000G,mcv_1001050701_012_01,chara_3
 
 window,off
 wait,0.15
@@ -457,7 +457,7 @@ emodelete,chara_3,0,0
 item,on,550100013
 
 window,on,0.15
-message,,ベリサが魔力探知しようと壁の路線図に触れた瞬間、<br>図面が布に描かれた地図のように剥がれ落ちてしまう。
+message,,<size=32>The moment Belisa touches the route map on the wall to   <br><size=32>sense its magic， the diagram peels off like a cloth map.<br> 
 
 window,off
 wait,0.15
@@ -496,7 +496,7 @@ asynccharaemo,chara_5,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,いっけないんだぁ～、ベリサこわした～！,106701000G,mcv_1001050701_013_01,chara_5
+message,クルル,<size=32>Uh oh~ Belisa broke it~!<br> ,106701000G,mcv_1001050701_013_01,chara_5
 
 window,off
 wait,0.15
@@ -533,7 +533,7 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 
 window,on,0.15
-message,ベリサ,ちがうって！<br>ちょっと触っただけで勝手に剥がれ落ちたんだってばぁ～！,100201000G,mcv_1001050701_014_01,chara_3
+message,ベリサ,<size=32>That's not what happened!                                <br><size=32>It fell off on its own when I barely touched it~!<br> ,100201000G,mcv_1001050701_014_01,chara_3
 
 asynccharaface,chara_3,FaceSurprise,STOP,1.5
 
@@ -543,7 +543,7 @@ asyncseplay,setag1_16,se4800022,0,1,STOP,1.5
 
 asynccharaemo,chara_3,Speak,STOP,1.5
 
-message,<user>,いや、ベリサ、ナイスだ。<br>これでこの図面も地図代わりに持ち運べるじゃないか。
+message,<user>,<size=32>Actually， nice one， Belisa.                              <br><size=32>Now we can carry this map with us.<br> 
 
 window,off
 wait,0.15
@@ -606,7 +606,7 @@ asynccharaemo,chara_4,Speak,CONT,0
 
 
 window,on,0.15
-message,マリナ,この光ってる場所は気になりますね～。<br>お隣の駅って言ってましたよね？　ヒマリちゃん。,100301000G,mcv_1001050701_015_01,chara_4
+message,マリナ,<size=32>These glowing spots are quite interesting~.              <br><size=32>You said it's the neighboring station， right? Himari.<br> ,100301000G,mcv_1001050701_015_01,chara_4
 
 window,off
 wait,0.15
@@ -660,9 +660,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒマリ,うん。『芝公園駅』……そこに、小学校があるの。,106601000G,mcv_1001050701_016_01,chara_1
+message,ヒマリ,<size=32>Yeah. ""Shiba Park Station""... That's where the elementary<br><size=32>school is.<br> ,106601000G,mcv_1001050701_016_01,chara_1
 
-message,<user>,避難場所として指定されていた場所だったな。<br>そこに行けば、何かが分かるかもしれない。
+message,<user>,<size=32>That was the designated evacuation point.                <br><size=32>If we go there， we might find answers.<br> 
 
 window,off
 wait,0.15
@@ -725,11 +725,11 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,ソフィア,生存者がいる可能性もあるものね。,106501000G,mcv_1001050701_017_01,chara_2
+message,ソフィア,<size=32>There might even be survivors there.<br> ,106501000G,mcv_1001050701_017_01,chara_2
 
-message,<user>,そうだな。その、隣の駅まで行ってみよう。<br>線路を歩くぞ！
+message,<user>,<size=32>Right. Let's head to the next station.                   <br><size=32>We'll walk along the tracks!<br> 
 
-message,<user>,途中、何が出現するかわからない。<br>慎重に進むぞ！
+message,<user>,<size=32>We don't know what we might encounter along the way.     <br><size=32>Stay alert!<br> 
 
 window,off
 bgmstop,bgmtag1_1,0.5

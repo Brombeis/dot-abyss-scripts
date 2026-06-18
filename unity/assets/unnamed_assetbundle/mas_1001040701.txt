@@ -140,7 +140,7 @@ objectmotion,Himari,N_limit,0,1,,1
 asyncseplay,se4800007_2,se4800007,0,1,CONT,0
 objectemo,Himari,Panic
 
-dotmessage,ヒマリ,<size=26>Hah，hah... thank goodness... it hit...<br> ,,mcv_1001040701_001_01,NORMAL,Mid,NORMAL,Himari,TOP,NORMAL,0,0
+dotmessage,ヒマリ,<size=32>Hah，hah... thank goodness... it hit...<br> ,,mcv_1001040701_001_01,NORMAL,Mid,NORMAL,Himari,TOP,NORMAL,0,0
 
 //BGM止める
 bgmstop,bgmtag0_1,1
@@ -149,12 +149,12 @@ objectmotion,Himari,C_Wait,0,1,,1
 objectmotion,Shiena,C_Wait,0,1,,1
 objectdirect,Himari,LEFT
 
-dotmessage,シエナ,<size=26>That's the spirit，Himari. Now let's give it a powerful    <br><size=26>one!<br> ,,mcv_1001040701_002_01,NORMAL,Mid,FUN,Shiena,TOP,NORMAL,0,0
+dotmessage,シエナ,<size=32>That's the spirit，Himari. Now let's give it a powerful   <br><size=32>one!<br> ,,mcv_1001040701_002_01,NORMAL,Mid,FUN,Shiena,TOP,NORMAL,0,0
 
 
 objectmotion,Himari,N_Yes,1,1,,1
 
-dotmessage,ヒマリ,<size=26>Y-yeah!<br> ,,mcv_1001040701_003_01,NORMAL,Mid,Surprise,Himari,TOP,NORMAL,0,0
+dotmessage,ヒマリ,<size=32>Y-yeah!<br> ,,mcv_1001040701_003_01,NORMAL,Mid,Surprise,Himari,TOP,NORMAL,0,0
 
 //BGM
 bgmplay,bgm02,bgm0038,0,1
@@ -172,23 +172,23 @@ objectmotion,Shiena,N_hold_out_hand,1,1,,1
 asyncseplay,se4400119,se4400119,0,1,CONT,0.5
 objectmotion,Himari,N_hold_out_hand,1,1,,1
 
-dotmessage,シエナ,<size=26>First，picture the particles of power inside your body.<br> ,,mcv_1001040701_004_01,NORMAL,Mid,NORMAL,Shiena,TOP,NORMAL,0,0
+dotmessage,シエナ,<size=32>First，picture the particles of power inside your body.<br> ,,mcv_1001040701_004_01,NORMAL,Mid,NORMAL,Shiena,TOP,NORMAL,0,0
 
 
 
 //エモ　？
 asyncseplay,se4800009_,se4800009,0,1,CONT,0
 objectemo,Himari,Question
-dotmessage,ヒマリ,<size=26>Particles of power...?<br> ,,mcv_1001040701_005_01,NORMAL,Mid,NORMAL,Himari,TOP,NORMAL,0,0
+dotmessage,ヒマリ,<size=32>Particles of power...?<br> ,,mcv_1001040701_005_01,NORMAL,Mid,NORMAL,Himari,TOP,NORMAL,0,0
 
-dotmessage,シエナ,<size=26>Stay calm. Try breathing in slowly.<br> ,,mcv_1001040701_006_01,NORMAL,Mid,NORMAL,Shiena,TOP,NORMAL,0,0
-dotmessage,シエナ,<size=26>You should feel it. The energy inside your body.<br> ,,mcv_1001040701_007_01,NORMAL,Mid,EYECLOSE,Shiena,TOP,NORMAL,0,0
+dotmessage,シエナ,<size=32>Stay calm. Try breathing in slowly.<br> ,,mcv_1001040701_006_01,NORMAL,Mid,NORMAL,Shiena,TOP,NORMAL,0,0
+dotmessage,シエナ,<size=32>You should feel it. The energy inside your body.<br> ,,mcv_1001040701_007_01,NORMAL,Mid,EYECLOSE,Shiena,TOP,NORMAL,0,0
 
 //背景を黒に
 asyncdotbgcolor,0,0,0,100,1,CONT,0
 //dotbgblur,1,1
 
-dotmessage,ヒマリ,<size=26>Um... l-like... this...?<br> ,,mcv_1001040701_008_01,NORMAL,Mid,EYECLOSE,Himari,TOP,NORMAL,0,0
+dotmessage,ヒマリ,<size=32>Um... l-like... this...?<br> ,,mcv_1001040701_008_01,NORMAL,Mid,EYECLOSE,Himari,TOP,NORMAL,0,0
 
 
 //SE再生
@@ -197,12 +197,12 @@ asyncdotprefabshow,ef_ActionSkillStart_1,CONT,0.000
 asyncdotcamerazoom,1.1,1.5,LinearTarget,CONT,0
 asyncwait
 
-dotmessage,ヒマリ,<size=26>I can feel it... power swirling throughout my body.<br> ,,mcv_1001040701_009_01,NORMAL,Mid,EYECLOSE,Himari,TOP,NORMAL,0,0
+dotmessage,ヒマリ,<size=32>I can feel it... power swirling throughout my body.<br> ,,mcv_1001040701_009_01,NORMAL,Mid,EYECLOSE,Himari,TOP,NORMAL,0,0
 
-dotmessage,シエナ,<size=26>That's it. Now gather that energy into the gun.<br> ,,mcv_1001040701_010_01,NORMAL,Mid,EYECLOSE,Shiena,TOP,NORMAL,0,0
+dotmessage,シエナ,<size=32>That's it. Now gather that energy into the gun.<br> ,,mcv_1001040701_010_01,NORMAL,Mid,EYECLOSE,Shiena,TOP,NORMAL,0,0
 
 
-dotmessage,ヒマリ,<size=26>Into the gun... gather it...<br> ,,mcv_1001040701_011_01,NORMAL,Mid,EYECLOSE,Himari,TOP,NORMAL,0,0
+dotmessage,ヒマリ,<size=32>Into the gun... gather it...<br> ,,mcv_1001040701_011_01,NORMAL,Mid,EYECLOSE,Himari,TOP,NORMAL,0,0
 
 //エモ　・・・
 asyncseplay,se4800014_,se4800014,0,1,CONT,0
@@ -219,7 +219,7 @@ asyncdotprefabshow,ef_ForceChainSkillStart_1,CONT,0
 asyncdotcamerazoom,1.25,1.5,LinearTarget,CONT,0
 asyncwait
 
-dotmessage,ヒマリ,<size=26>The gun is... glowing!?<br> ,,mcv_1001040701_012_01,NORMAL,Mid,Surprise,Himari,TOP,NORMAL,0,0
+dotmessage,ヒマリ,<size=32>The gun is... glowing!?<br> ,,mcv_1001040701_012_01,NORMAL,Mid,Surprise,Himari,TOP,NORMAL,0,0
 
 //背景色を戻す
 //asyncdotbgblur,0,0.75,CONT,0
@@ -302,13 +302,13 @@ objectdirect,Enemy9,LEFT
 
 wait,1.5
 
-dotmessage,ヒマリ,<size=26>Wah! Wah wah! What do I do〜?<br> ,,mcv_1001040701_013_01,NORMAL,Mid,Surprise,Himari,TOP,SHAKE,0,0
+dotmessage,ヒマリ,<size=32>Wah! Wah wah! What do I do〜?<br> ,,mcv_1001040701_013_01,NORMAL,Mid,Surprise,Himari,TOP,SHAKE,0,0
 
 objectmotion,Himari,C_WeaponWait,0,1,,1
 objectdirect,Himari,LEFT
 objectmotion,Shiena,N_Yes,1,1,,1
 
-dotmessage,シエナ,<size=26>Now all you do is pull the trigger and aim at your target.<br> ,,mcv_1001040701_014_01,NORMAL,Mid,NORMAL,Shiena,TOP,NORMAL,0,0
+dotmessage,シエナ,<size=32>Now all you do is pull the trigger and aim at your       <br><size=32>target.<br> ,,mcv_1001040701_014_01,NORMAL,Mid,NORMAL,Shiena,TOP,NORMAL,0,0
 
 objectmotion,Himari,N_frightened,0,1,,1
 
@@ -316,7 +316,7 @@ objectmotion,Himari,N_frightened,0,1,,1
 asyncseplay,se4800007_3,se4800007,0,1,CONT,0
 objectemo,Himari,Panic
 
-dotmessage,ヒマリ,<size=26>B-but... but!<br> ,,mcv_1001040701_015_01,NORMAL,Mid,UNIQUE01,Himari,TOP,SHAKE,0,0
+dotmessage,ヒマリ,<size=32>B-but... but!<br> ,,mcv_1001040701_015_01,NORMAL,Mid,UNIQUE01,Himari,TOP,SHAKE,0,0
 
 //エフェクト削除
 dotprefabdelete,ef_Skill02_2
@@ -339,7 +339,7 @@ asyncwait
 asyncobjectmotion,Shiena,C_Wait,0,1,,1,CONT,0
 
 objectmotion,Shiena,N_Yes,1,1,,1
-dotmessage,シエナ,<size=26>Take careful aim... it's okay! Himari，you can do this!<br> ,,mcv_1001040701_016_01,NORMAL,Mid,NORMAL,Shiena,TOP,NORMAL,0,0
+dotmessage,シエナ,<size=32>Take careful aim... it's okay! Himari，you can do this!<br> ,,mcv_1001040701_016_01,NORMAL,Mid,NORMAL,Shiena,TOP,NORMAL,0,0
 
 
 asyncdotcamerazoom,0.8,0.5,LinearTarget,CONT,0
@@ -412,7 +412,7 @@ asyncwait
 
 objectmotion,Shiena,N_Pointing,1,1,,1
 
-dotmessage,シエナ,<size=26>Now!<br> ,,mcv_1001040701_017_01,NORMAL,Mid,NORMAL,Shiena,TOP,SHAKE,0,0
+dotmessage,シエナ,<size=32>Now!<br> ,,mcv_1001040701_017_01,NORMAL,Mid,NORMAL,Shiena,TOP,SHAKE,0,0
 
 objectmotion,Shiena,C_Wait,0,1,,1
 
@@ -517,7 +517,7 @@ asyncdotcameramove,0,0,LinearTarget,0.5,None,CONT,0
 cleanall,DOTEFFECT
 
 asyncobjectmotion,Himari,N_joy,0,1,,1,CONT,0
-dotmessage,ヒマリ,<size=26>D-did I... do it...!?<br> ,,mcv_1001040701_018_01,NORMAL,Mid,Surprise,Himari,TOP,NORMAL,0,0
+dotmessage,ヒマリ,<size=32>D-did I... do it...!?<br> ,,mcv_1001040701_018_01,NORMAL,Mid,Surprise,Himari,TOP,NORMAL,0,0
 
 objectmotion,Himari,C_Wait,0,1,,1
 objectdirect,Himari,LEFT
@@ -534,12 +534,12 @@ objectdelete,Enemy8
 objectdelete,Enemy9
 
 
-dotmessage,ヒマリ,<size=26>That just now was... Himari's... my power...!?<br> ,,mcv_1001040701_019_01,NORMAL,Mid,NORMAL,Himari,TOP,NORMAL,0,0
+dotmessage,ヒマリ,<size=32>That just now was... Himari's... my power...!?<br> ,,mcv_1001040701_019_01,NORMAL,Mid,NORMAL,Himari,TOP,NORMAL,0,0
 
 
 objectmotion,Shiena,N_Yes,1,1,,1
 
-dotmessage,シエナ,<size=26>That's right. That is the power Himari possesses.<br> ,,mcv_1001040701_020_01,NORMAL,Mid,NORMAL,Shiena,TOP,NORMAL,0,0
+dotmessage,シエナ,<size=32>That's right. That is the power Himari possesses.<br> ,,mcv_1001040701_020_01,NORMAL,Mid,NORMAL,Shiena,TOP,NORMAL,0,0
 
 objectmotion,Shiena,C_Wait,0,1,,1
 objectmotion,Shiena,N_hold_out_hand,1,1,,1
@@ -548,26 +548,26 @@ objectmotion,Shiena,N_hold_out_hand,1,1,,1
 asyncseplay,se4400119_2,se4400119,0,1,CONT,0.5
 asyncobjectmotion,Himari,N_hold_out_hand,1,1,,0,CONT,0.5
 asyncwait
-dotmessage,シエナ,<size=26>Look! That one strike just completely turned the tide of  <br><size=26>battle!<br> ,,mcv_1001040701_021_01,NORMAL,Mid,FUN,Shiena,TOP,NORMAL,0,0
+dotmessage,シエナ,<size=32>Look! That one strike just completely turned the tide of <br><size=32>battle!<br> ,,mcv_1001040701_021_01,NORMAL,Mid,FUN,Shiena,TOP,NORMAL,0,0
 
 
 //エモ　♪
 asyncseplay,se4800013_,se4800013,0,1,CONT,0
 objectemo,Shiena,Spirits
-dotmessage,シエナ,<size=26>Unmistakably Himari's own power.<br> ,,mcv_1001040701_022_01,NORMAL,Mid,UNIQUE02,Shiena,TOP,NORMAL,0,0
+dotmessage,シエナ,<size=32>Unmistakably Himari's own power.<br> ,,mcv_1001040701_022_01,NORMAL,Mid,UNIQUE02,Shiena,TOP,NORMAL,0,0
 
 //エモ　！
 asyncseplay,se4800010_,se4800010,0,1,CONT,0
 objectemo,Himari,Exclamation
-dotmessage,ヒマリ,<size=26>Himari's... power...!<br> ,,mcv_1001040701_023_01,NORMAL,Mid,Surprise,Himari,TOP,NORMAL,0,0
+dotmessage,ヒマリ,<size=32>Himari's... power...!<br> ,,mcv_1001040701_023_01,NORMAL,Mid,Surprise,Himari,TOP,NORMAL,0,0
 
-dotmessage,シエナ,<size=26>You've got the hang of using your power now，right? Let's  <br><size=26>clean up the remaining monsters!<br> ,,mcv_1001040701_024_01,NORMAL,Mid,HAPPY,Shiena,TOP,NORMAL,0,0
+dotmessage,シエナ,<size=32>You've got the hang of using your power now，right? Let's <br><size=32>clean up the remaining monsters!<br> ,,mcv_1001040701_024_01,NORMAL,Mid,HAPPY,Shiena,TOP,NORMAL,0,0
 
 objectmotion,Shiena,C_Wait,0,1,,1
 
 asyncobjectmotion,Himari,N_Yes,1,1,,1,CONT,0
 
-dotmessage,ヒマリ,<size=26>Yeah! Siena，please stay here!<br> ,,mcv_1001040701_025_01,NORMAL,Mid,HAPPY,Himari,TOP,NORMAL,0,0
+dotmessage,ヒマリ,<size=32>Yeah! Siena，please stay here!<br> ,,mcv_1001040701_025_01,NORMAL,Mid,HAPPY,Himari,TOP,NORMAL,0,0
 
 objectmotion,Himari,C_Wait,0,1,,1
 
@@ -580,11 +580,11 @@ asyncseplay,se4800008_5,se4800008,0,1,CONT,0
 objectemo,Himari,Panic
 objectmotion,Himari,N_squat,1,1,,0
 
-dotmessage,ヒマリ,<size=26>With that injury you mustn't move... Himari will protect  <br><size=26>Siena!<br> ,,mcv_1001040701_026_01,NORMAL,Mid,UNIQUE01,Himari,TOP,NORMAL,0,0
+dotmessage,ヒマリ,<size=32>With that injury you mustn't move... Himari will protect <br><size=32>Siena!<br> ,,mcv_1001040701_026_01,NORMAL,Mid,UNIQUE01,Himari,TOP,NORMAL,0,0
 
 objectmotion,Himari,C_Wait,0,1,,1
 
-dotmessage,シエナ,<size=26>Himari...<br> ,,mcv_1001040701_027_01,NORMAL,Mid,NORMAL,Shiena,TOP,NORMAL,0,0
+dotmessage,シエナ,<size=32>Himari...<br> ,,mcv_1001040701_027_01,NORMAL,Mid,NORMAL,Shiena,TOP,NORMAL,0,0
 
 objectmotion,Himari,N_Yes,1,1,,1
 

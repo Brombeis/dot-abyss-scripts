@@ -37,7 +37,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
@@ -97,7 +97,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,ふぅ……よし、これで全部ね！,106501000G,mcv_1001050402_001_01,chara_1
+message,ソフィア,<size=32>Phew... All right， that's all of them!<br> ,106501000G,mcv_1001050402_001_01,chara_1
 
 window,off
 wait,0.15
@@ -132,9 +132,9 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,こっちのも動かなくなったよ～！,106701000G,mcv_1001050402_002_01,chara_2
+message,クルル,<size=32>This one stopped moving too~!<br> ,106701000G,mcv_1001050402_002_01,chara_2
 
-message,<user>,よくやったな。<br>よし、そこの１台を路地裏まで運んでくれ！
+message,<user>,<size=32>Nice work.                                               <br><size=32>Now， drag one of them into the alley!<br> 
 
 
 window,off
@@ -179,7 +179,7 @@ asynctransitionFade,Tra07,in,black,0.5,STOP,1
 waitorclick,1.5
 
 window,on,0.15
-message,,<user>は、ナイフの先を使い、<br>器用に警備ロボットの装甲のネジを外していく。
+message,,<size=32>Using the tip of a knife， <user> deftly removes the      <br><size=32>screws from the security robot's armor plating.<br> 
 
 window,off
 wait,0.15
@@ -227,9 +227,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,何をしてるの……？,106501000G,mcv_1001050402_003_01,chara_1
+message,ソフィア,<size=32>What are you doing...?<br> ,106501000G,mcv_1001050402_003_01,chara_1
 
-message,<user>,ああ。こいつの部品を取り出して持って帰ろうと思ってな。<br>アーデルハイトに渡したら兵器開発に役立つはずだ。
+message,<user>,<size=32>I'm pulling parts out of this thing to take back.        <br><size=32>They should be useful for Adelheid's weapon development.<br> 
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -240,7 +240,7 @@ asyncseplay,setag2_6,se4800004,0,1,CONT,0
 asynccharaemo,chara_4,Laugh,CONT,0
 
 
-message,マリナ,貴重な、貴重な部品ですもんねぇ～。,100301000G,mcv_1001050402_004_01,chara_4
+message,マリナ,<size=32>Precious， precious components indeed~.<br> ,100301000G,mcv_1001050402_004_01,chara_4
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -251,7 +251,7 @@ asyncseplay,setag2_7,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ソフィア,細い管みたいなものとか、小さな板みたいなものとか……<br>これを組み合わせるだけで動くの？,106501000G,mcv_1001050402_005_01,chara_1
+message,ソフィア,<size=32>Thin tubes and small boards...                           <br><size=32>It can move just by combining these things?<br> ,106501000G,mcv_1001050402_005_01,chara_1
 
 window,off
 wait,0.15
@@ -307,9 +307,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒマリ,多分、コードとか、マザーボードとか、だと思う……<br>ロボットだから、機械関係の部品が、詰まってるだけ……,106601000G,mcv_1001050402_006_01,chara_5
+message,ヒマリ,<size=32>I think those are cables and motherboards... Since it's a<br><size=32>robot， it's just packed with mechanical components...<br> ,106601000G,mcv_1001050402_006_01,chara_5
 
-message,<user>,随分詳しいな。そっちの知識もあるのか？
+message,<user>,<size=32>You seem to know a lot. You have knowledge about this    <br><size=32>stuff?<br> 
 
 asyncshake,CHARA,chara_5,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -318,7 +318,7 @@ asyncseplay,setag2_9,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,ヒマリ,ううん。パパが趣味でおもちゃのロボットを作ってたのを、<br>子どもの頃、そばで見てただけ。,106601000G,mcv_1001050402_007_01,chara_5
+message,ヒマリ,<size=32>Not really. Papa used to build toy robots as a hobby，    <br><size=32>and I just watched him from up close when I was little.<br> ,106601000G,mcv_1001050402_007_01,chara_5
 
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
@@ -327,7 +327,7 @@ asyncseplay,setag2_10,se4800017,0,1,CONT,0
 asynccharaemo,chara_2,Shock,CONT,0
 
 
-message,クルル,ヒマリのパパも、天才科学者だったの～？,106701000G,mcv_1001050402_008_01,chara_2
+message,クルル,<size=32>Was Himari's Papa a genius scientist too~?<br> ,106701000G,mcv_1001050402_008_01,chara_2
 
 asynccharaface,chara_5,FaceFun,CONT,0
 
@@ -338,7 +338,7 @@ asyncseplay,setag2_11,se4800022,0,1,CONT,0
 asynccharaemo,chara_5,Speak,CONT,0
 
 
-message,ヒマリ,ううん。ただのサラリーマンだよ。<br>パパのロボットは、おもちゃだから歩くくらいしかできないし。,106601000G,mcv_1001050402_009_01,chara_5
+message,ヒマリ,<size=32>No. He was just an office worker.                        <br><size=32>Papa's robots were toys— they could only walk around.<br> ,106601000G,mcv_1001050402_009_01,chara_5
 
 window,off
 wait,0.15
@@ -403,7 +403,7 @@ asynccharaemo,chara_3,Question,CONT,0
 
 
 window,on,0.15
-message,ベリサ,さっきのロジーとか言う眼鏡っ子が連れてたのも似たような構造なのかな？<br>随分とおしゃべりなやつだったけど。,100201000G,mcv_1001050402_010_01,chara_3
+message,ベリサ,<size=32>I wonder if the one that glasses girl Logy had with her  <br><size=32>is built the same way? That thing sure talked a lot though.<br> ,100201000G,mcv_1001050402_010_01,chara_3
 
 window,off
 wait,0.15
@@ -455,9 +455,9 @@ asynccharaemo,chara_5,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,う～ん……どうなんだろう？　人工知能でも積んでるのかな？<br>だとしたら凄い科学技術な気がするなぁ。,106601000G,mcv_1001050402_011_01,chara_5
+message,ヒマリ,<size=32>Hmm... I wonder? Maybe it has artificial intelligence?   <br><size=32>If so， that would be some incredible technology.<br> ,106601000G,mcv_1001050402_011_01,chara_5
 
-message,<user>,自称天才科学者か……技術力だけは、<br>アーデルハイト並みなのかもしれないな。
+message,<user>,<size=32>A self-proclaimed genius scientist... Her technical      <br><size=32>skills alone might be on par with Adelheid's.<br> 
 
 window,off
 wait,0.15
@@ -520,7 +520,7 @@ asynccharaemo,chara_3,Question,CONT,0
 
 
 window,on,0.15
-message,ベリサ,あいつ何者なんだろうね～？　教授とか言ってたし、<br>ルクスノヴァの人たちみたいな薄い羽根は見えなかったし。,100201000G,mcv_1001050402_012_01,chara_3
+message,ベリサ,<size=32>I wonder who she really is~? She called herself a        <br><size=32>professor， but she didn't have those thin wings like the Lux Nova people.<br> ,100201000G,mcv_1001050402_012_01,chara_3
 
 asyncjump,CHARA,chara_4,-30,0.25,1,off,0,CONT
 
@@ -529,7 +529,7 @@ asyncseplay,setag2_15,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,マリナ,ってことは、トレスリア地方の人ってことですかね～？,100301000G,mcv_1001050402_013_01,chara_4
+message,マリナ,<size=32>So does that mean she's from the Tresria region~?<br> ,100301000G,mcv_1001050402_013_01,chara_4
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -540,9 +540,9 @@ asyncseplay,setag2_16,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ソフィア,トレスリア地方にも研究者は沢山いるもの。<br>あんな技術を持った人には初めて出会ったけど……,106501000G,mcv_1001050402_014_01,chara_1
+message,ソフィア,<size=32>There are plenty of researchers in the Tresria region.   <br><size=32>Though I've never met anyone with technology like that...<br> ,106501000G,mcv_1001050402_014_01,chara_1
 
-message,<user>,ロジーたちは大穴の異物収集が目的で探索をしているようだったな。<br>あのゴレイヌとかいうのも、異世界の技術を使って作った代物かもしれん。
+message,<user>,<size=32>Logy and her group seem to be exploring the Abyss to     <br><size=32>collect artifacts. That Goleinu thing might have been built using otherworldly technology too.<br> 
 
 asynccharaface,chara_4,FaceSurprise,CONT,0
 
@@ -553,9 +553,9 @@ asyncseplay,setag2_17,se4800008,0,1,CONT,0
 asynccharaemo,chara_4,Sweat,CONT,0
 
 
-message,マリナ,アーデルハイトさん並みの技術……やっかいですねぇ～。,100301000G,mcv_1001050402_015_01,chara_4
+message,マリナ,<size=32>Technology rivaling Adelheid's... That's quite           <br><size=32>troublesome~.<br> ,100301000G,mcv_1001050402_015_01,chara_4
 
-message,<user>,各部品にいろんな文字や紋章が刻まれてるな。<br>ヒマリ、読めるか？
+message,<user>,<size=32>There are all kinds of letters and symbols engraved on   <br><size=32>these parts. Himari， can you read them?<br> 
 
 window,off
 wait,0.15
@@ -605,7 +605,7 @@ asynccharaemo,chara_5,Speak,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,企業名とロゴ……かな？,106601000G,mcv_1001050402_016_01,chara_5
+message,ヒマリ,<size=32>Company names and logos... maybe?<br> ,106601000G,mcv_1001050402_016_01,chara_5
 
 bgmstop,bgmtag2_1,1.5,0
 
@@ -624,11 +624,11 @@ asyncseplay,setag2_20,se4800017,0,1,STOP,9.44
 asynccharaemo,chara_5,Shock,STOP,9.44
 
 
-message,ヒマリ,百菱重工業、月立製作所、SQOONY……え？<br>こ、こんな名前の会社、日本にあったっけ……？,106601000G,mcv_1001050402_017_01,chara_5
+message,ヒマリ,<size=32>Hyakubishi Heavy Industries， Tsukitachi Manufacturing，   <br><size=32>SQOONY... Huh? W-were there companies with these names in Japan...?<br> ,106601000G,mcv_1001050402_017_01,chara_5
 
 bgmplay,bgmtag2_2,bgm0032,0.75,1
 
-message,<user>,知ってる名前じゃないのか？
+message,<user>,<size=32>You don't recognize the names?<br> 
 
 asynccharaface,chara_5,FaceSad,CONT,0
 
@@ -639,9 +639,9 @@ asyncseplay,setag2_21,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,ヒマリ,ど、どこも機械のメーカーなんだけど、<br>ヒマリが知ってる企業名と微妙に違ってて……,106601000G,mcv_1001050402_018_01,chara_5
+message,ヒマリ,<size=32>Th-they're all machinery manufacturers， but the names are<br><size=32>slightly different from the ones I know...<br> ,106601000G,mcv_1001050402_018_01,chara_5
 
-message,<user>,なるほど。さっきの何とかタワーも、無くなってるって言ってたよな？<br>なんなんだ？　この、ヒマリの記憶との微妙なズレは……
+message,<user>,<size=32>I see. You also said that tower from before was gone，    <br><size=32>right? What's with these subtle differences from your memories...?<br> 
 
 window,off
 wait,0.15
@@ -704,9 +704,9 @@ asynccharaemo,chara_4,Panic,CONT,0
 
 
 window,on,0.15
-message,マリナ,え～と、つまり、こっちの世界では、アーデルハイトさん並みの技術を持った<br>組織がいっぱいあるってことですかぁ～？　,100301000G,mcv_1001050402_019_01,chara_4
+message,マリナ,<size=32>So~， in other words， this world has lots of organizations<br><size=32>with technology on par with Adelheid's~?<br> ,100301000G,mcv_1001050402_019_01,chara_4
 
-message,<user>,そういうことだ。<br>しかも、俺たちを”侵入者”とみなして攻撃を仕掛けてきやがる。
+message,<user>,<size=32>That's right. And on top of that， they treat us as       <br><size=32>""intruders"" and attack on sight.<br> 
 
 window,off
 wait,0.15
@@ -757,7 +757,7 @@ asynccharaemo,chara_2,Trouble,CONT,0
 
 
 window,on,0.15
-message,クルル,硬くて、強くてやっかいだもんね～。,106701000G,mcv_1001050402_020_01,chara_2
+message,クルル,<size=32>They're hard， strong， and a real pain~.<br> ,106701000G,mcv_1001050402_020_01,chara_2
 
 window,off
 wait,0.15
@@ -799,7 +799,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ソフィア,剣や魔法では苦戦するのは必至ね。<br>ねぇ、ヒマリ、こっちの世界特有の武器ってあったりしないの？,106501000G,mcv_1001050402_021_01,chara_1
+message,ソフィア,<size=32>We'll definitely struggle with swords and magic alone.   <br><size=32>Hey Himari， doesn't this world have its own unique weapons?<br> ,106501000G,mcv_1001050402_021_01,chara_1
 
 window,off
 wait,0.15
@@ -840,7 +840,7 @@ asynccharaemo,chara_5,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,日本で武器なんて、どこにも売ってないよ～。<br>そんなの持ってたら警察に捕まっちゃうもの。,106601000G,mcv_1001050402_022_01,chara_5
+message,ヒマリ,<size=32>You can't buy weapons anywhere in Japan~.                <br><size=32>You'd get arrested by the police if you had any.<br> ,106601000G,mcv_1001050402_022_01,chara_5
 
 asynccharaface,chara_5,FaceSurprise,CONT,0
 
@@ -851,7 +851,7 @@ asyncseplay,setag2_26,se4800017,0,1,CONT,0
 asynccharaemo,chara_5,Shock,CONT,0
 
 
-message,ヒマリ,んっ……警察！？,106601000G,mcv_1001050402_023_01,chara_5
+message,ヒマリ,<size=32>Mm... The police!?<br> ,106601000G,mcv_1001050402_023_01,chara_5
 
 window,off
 wait,0.15
@@ -914,7 +914,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ソフィア,どうかしたの？,106501000G,mcv_1001050402_024_01,chara_1
+message,ソフィア,<size=32>What is it?<br> ,106501000G,mcv_1001050402_024_01,chara_1
 
 window,off
 wait,0.15
@@ -965,7 +965,7 @@ asynccharaemo,chara_5,Elated,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,うん。もしかしたら、武器が見つかるかもしれない。<br>確か、この近くに……,106601000G,mcv_1001050402_025_01,chara_5
+message,ヒマリ,<size=32>Yeah. We might be able to find weapons.                  <br><size=32>If I remember right， near here there should be...<br> ,106601000G,mcv_1001050402_025_01,chara_5
 
 
 window,off
@@ -1011,7 +1011,7 @@ asynccharaemo,chara_5,Dull,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,ウソ……警察署が……壊れちゃってる……,106601000G,mcv_1001050402_026_01,chara_5
+message,ヒマリ,<size=32>No way... The police station... is destroyed...<br> ,106601000G,mcv_1001050402_026_01,chara_5
 
 window,off
 wait,0.15
@@ -1064,9 +1064,9 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,クルル,あ～～～ここもぺっしゃんこだね～。,106701000G,mcv_1001050402_027_01,chara_2
+message,クルル,<size=32>Ohh~~~ this place is totally flattened too~.<br> ,106701000G,mcv_1001050402_027_01,chara_2
 
-message,<user>,ここは他の建築物の壊れ方とは違うな。<br>徹底的に破壊されてるように見える……
+message,<user>,<size=32>This one was destroyed differently from the other        <br><size=32>buildings. It looks like it was systematically demolished...<br> 
 
 window,off
 wait,0.15
@@ -1132,7 +1132,7 @@ asynccharaemo,chara_4,Trouble,CONT,0
 
 
 window,on,0.15
-message,マリナ,爆薬で破壊されたんですかね～？,100301000G,mcv_1001050402_028_01,chara_4
+message,マリナ,<size=32>Do you think it was destroyed with explosives~?<br> ,100301000G,mcv_1001050402_028_01,chara_4
 
 asyncjump,CHARA,chara_3,-30,0.25,1,off,0,CONT
 
@@ -1141,7 +1141,7 @@ asyncseplay,setag2_32,se4800022,0,1,CONT,0
 asynccharaemo,chara_3,Speak,CONT,0
 
 
-message,ベリサ,ここにも、ジドーシャとか言うの転がってるね～。,100201000G,mcv_1001050402_029_01,chara_3
+message,ベリサ,<size=32>There are more of those car things lying around here     <br><size=32>too~.<br> ,100201000G,mcv_1001050402_029_01,chara_3
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -1150,7 +1150,7 @@ asyncseplay,setag2_33,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ソフィア,なんだかドアのところに大きな文字が書かれてるわ。<br>ヒマリ、読める？,106501000G,mcv_1001050402_030_01,chara_1
+message,ソフィア,<size=32>There's something written in big letters by the door.    <br><size=32>Himari， can you read it?<br> ,106501000G,mcv_1001050402_030_01,chara_1
 
 window,off
 wait,0.15
@@ -1199,9 +1199,9 @@ asynccharaemo,chara_5,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,『東京機動憲兵隊』……？　何、それ？,106601000G,mcv_1001050402_031_01,chara_5
+message,ヒマリ,<size=32>""Tokyo Mobile Military Police""...? What's that?<br> ,106601000G,mcv_1001050402_031_01,chara_5
 
-message,<user>,それも、ヒマリが知らない名称なのか？
+message,<user>,<size=32>Another name you don't recognize?<br> 
 
 asynccharaface,chara_5,FaceSad,CONT,0
 
@@ -1212,7 +1212,7 @@ asyncseplay,setag2_35,se4800007,0,1,CONT,0
 asynccharaemo,chara_5,Panic,CONT,0
 
 
-message,ヒマリ,うん。都内を走ってるパトカーなら『警視庁』って文字が入ってるはず。<br>なのに……,106601000G,mcv_1001050402_032_01,chara_5
+message,ヒマリ,<size=32>Yeah. Patrol cars in the city should say ""Metropolitan   <br><size=32>Police."" But instead...<br> ,106601000G,mcv_1001050402_032_01,chara_5
 
 window,off
 wait,0.15
@@ -1261,7 +1261,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,クルル,ヒマリ～！　こっちの建物が崩れてるトコに、<br>看板みたいなの落ちてる～！,106701000G,mcv_1001050402_033_01,chara_2
+message,クルル,<size=32>Himari~! Over where this building collapsed，             <br><size=32>there's a sign that fell down~!<br> ,106701000G,mcv_1001050402_033_01,chara_2
 
 window,off
 wait,0.15
@@ -1329,7 +1329,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ソフィア,ヒマリ。こっちにも何か書いてあるみたいね。<br>読んでくれる？,106501000G,mcv_1001050402_034_01,chara_1
+message,ソフィア,<size=32>Himari. There seems to be something written over here    <br><size=32>too. Can you read it?<br> ,106501000G,mcv_1001050402_034_01,chara_1
 
 window,off
 wait,0.15
@@ -1380,7 +1380,7 @@ asynccharaemo,chara_5,Question,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,『東京機動憲兵隊、愛宕秩序管理局』……？,106601000G,mcv_1001050402_035_01,chara_5
+message,ヒマリ,<size=32>""Tokyo Mobile Military Police， Atago Order Management    <br><size=32>Bureau""...?<br> ,106601000G,mcv_1001050402_035_01,chara_5
 
 window,off
 wait,0.15
@@ -1433,7 +1433,7 @@ asynccharaemo,chara_2,Question,CONT,0
 
 
 window,on,0.15
-message,クルル,ヒマリ？　どうしたの？　何かおかしなことあったー？,106701000G,mcv_1001050402_036_01,chara_2
+message,クルル,<size=32>Himari? What's wrong? Is something weird~?<br> ,106701000G,mcv_1001050402_036_01,chara_2
 
 window,off
 wait,0.15
@@ -1480,7 +1480,7 @@ asynccharaemo,chara_5,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,憲兵隊……怖いロボットだらけの廃墟になった街……<br>消えた東京タワーに、変な名前の企業……,106601000G,mcv_1001050402_037_01,chara_5
+message,ヒマリ,<size=32>Military police... A city in ruins full of scary         <br><size=32>robots... A missing Tokyo Tower， companies with strange names...<br> ,106601000G,mcv_1001050402_037_01,chara_5
 
 asynccharaface,chara_5,EyeClose,CONT,0
 asynccharaface,chara_5,FaceNormal,CONT,0
@@ -1492,7 +1492,7 @@ asyncseplay,setag2_41,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,ヒマリ,わたしの知ってる街とは、似てるようで全然違う……,106601000G,mcv_1001050402_038_01,chara_5
+message,ヒマリ,<size=32>It looks similar to the city I knew， but it's completely <br><size=32>different...<br> ,106601000G,mcv_1001050402_038_01,chara_5
 
 asynccharaface,chara_5,FaceSad,CONT,0
 
@@ -1503,7 +1503,7 @@ asyncseplay,setag2_42,se4800015,0,1,CONT,0
 asynccharaemo,chara_5,Dull,CONT,0
 
 
-message,ヒマリ,……もしかして、これって……えっと、こういう世界のこと<br>なんて言うんだっけ……？,106601000G,mcv_1001050402_039_01,chara_5
+message,ヒマリ,<size=32>...Could this be... um， what do you call a world like    <br><size=32>this... what was the word...?<br> ,106601000G,mcv_1001050402_039_01,chara_5
 
 asynccharaface,chara_5,FaceAnger,CONT,0
 
@@ -1514,7 +1514,7 @@ asyncseplay,setag2_43,se4800010,0,1,CONT,0
 asynccharaemo,chara_5,Exclamation,CONT,0
 
 
-message,ヒマリ,パラレル……ワールド！？,106601000G,mcv_1001050402_040_01,chara_5
+message,ヒマリ,<size=32>A parallel... world!?<br> ,106601000G,mcv_1001050402_040_01,chara_5
 
 window,off
 wait,0.15
@@ -1608,7 +1608,7 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 
 window,on,0.15
-message,ベリサ,な、なにー！？　凄い揺れ！？,100201000G,mcv_1001050402_041_01,chara_3
+message,ベリサ,<size=32>Wh-what!? It's shaking so hard!?<br> ,100201000G,mcv_1001050402_041_01,chara_3
 
 window,off
 wait,0.15
@@ -1667,9 +1667,9 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,クルル,わっわっわっ！　じ、地震だよぉ～～～！,106701000G,mcv_1001050402_042_01,chara_2
+message,クルル,<size=32>Wah wah wah! I-it's an earthquake~~~!<br> ,106701000G,mcv_1001050402_042_01,chara_2
 
-message,<user>,っ！？　建物から離れろ！　崩壊するぞ！
+message,<user>,<size=32>...!? Get away from the buildings! They'll collapse!<br> 
 
 sestop,se2_1001,1.5
 

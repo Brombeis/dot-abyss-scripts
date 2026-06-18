@@ -69,7 +69,7 @@ shake,CHARA,chara_7,40,0,0.25,20,off,off,0
 wait,0.5
 
 window,on,0.15
-message,<user>,<size=26>Alright，good job following me all the way here...<br> 
+message,<user>,<size=32>Alright，good job following me all the way here...<br> 
 
 asyncseplayIngame,setag1_2,ene_2018101,ge_start_2018101_03,0,1,CONT,0
 
@@ -77,7 +77,7 @@ prefabshowAll,alleffect_0,Roar/Prefabs/NovelEF_Roar
 
 asyncwait
 
-message,,<size=26>GROOOOOAAAARRRR!!!!!!!!<br> ,900000002
+message,,<size=32>GROOOOOAAAARRRR!!!!!!!!<br> ,900000002
 
 cleanall,EFFECT
 
@@ -97,7 +97,7 @@ asynccrossfade,0.1,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,<size=22>(Just as I planned. Using the flying unit to move at high speed while<br><size=22>luring this monster with explosives and the megaphone's sound...)<br> 
+message,<user>,<size=32>(Just as I planned. Using the flying unit to move at high<br><size=32>speed while luring this monster with explosives and the megaphone's sound...)<br> 
 
 window,off
 wait,0.15
@@ -115,17 +115,17 @@ asynccrossfade,0.1,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,<size=26>The flying unit's fuel is about at its limit too... but   <br><size=26>I've drawn it this far，that should be enough.<br> 
+message,<user>,<size=32>The flying unit's fuel is about at its limit too... but  <br><size=32>I've drawn it this far，that should be enough.<br> 
 
-message,<user>,<size=24>If I've put this much distance between us，the Calamity's effect<br><size=24>on everyone should weaken. Everyone，get out while you can...<br> 
+message,<user>,<size=32>If I've put this much distance between us，the Calamity's <br><size=32>effect on everyone should weaken. Everyone，get out while you can...<br> 
 
-message,,<size=24><user> looks up at the enormous creature before them. It had   <br><size=24>taken the shape of 'Hunger' itself—a twisted，grotesque form.<br> 
+message,,<size=32><user> looks up at the enormous creature before them. It <br><size=32>had taken the shape of 'Hunger' itself—a twisted，grotesque form.<br> 
 
-message,,<size=22>Limbs gaunt as dried wood. A torso where the ribs protruded. But its <br><size=22>belly alone pulsed in eerie cycles of expansion and contraction.<br> 
+message,,<size=32>Limbs gaunt as dried wood. A torso where the ribs        <br><size=32>protruded. But its belly alone pulsed in eerie cycles of expansion and contraction.<br> 
 
-message,<user>,<size=26>It's been a while... 'Hunger Calamity'...<br> 
+message,<user>,<size=32>It's been a while... 'Hunger Calamity'...<br> 
 
-message,<user>,<size=22>An overwhelming sense of weakness overcomes me，almost enough to make <br><size=22>even standing feel burdensome. The very presence before me is sucking up all of the surrounding life force entirely.<br> 
+message,<user>,<size=32>An overwhelming sense of weakness overcomes me，almost    <br><size=32>enough to make even standing feel burdensome. The very presence before me is sucking up all of the surrounding life force entirely.<br> 
 
 window,off
 wait,0.15
@@ -143,7 +143,7 @@ asynccrossfade,0.1,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,<size=26>(...We're going to have to fight this monstrous thing.)<br> 
+message,<user>,<size=32>(...We're going to have to fight this monstrous thing.)<br> 
 
 window,off
 wait,0.15
@@ -161,7 +161,7 @@ asynccrossfade,0.1,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,,<size=24>The Calamity didn't move. Only its gaze pursued this one's     <br><size=24>every move with relentless persistence，like a starving beast.<br> 
+message,,<size=32>The Calamity didn't move. Only its gaze pursued this     <br><size=32>one's every move with relentless persistence，like a starving beast.<br> 
 
 window,off
 wait,0.15
@@ -179,7 +179,7 @@ asynccrossfade,0.1,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,<size=26>(What is it doing... why won't it move...?)<br> 
+message,<user>,<size=32>(What is it doing... why won't it move...?)<br> 
 
 window,off
 wait,0.15
@@ -197,11 +197,11 @@ asynccrossfade,0.1,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,,<size=22>No attack. No threat display. And yet that was exactly what made it  <br><size=22>so eerie. A cold silence dominated the scene，as if a wild beast were sizing up its prey.<br> 
+message,,<size=32>No attack. No threat display. And yet that was exactly   <br><size=32>what made it so eerie. A cold silence dominated the scene，as if a wild beast were sizing up its prey.<br> 
 
-message,<user>,<size=26>What's wrong? Thinking of eating me? Well，I can't         <br><size=26>guarantee how I'll taste...<br> 
+message,<user>,<size=32>What's wrong? Thinking of eating me? Well，I can't        <br><size=32>guarantee how I'll taste...<br> 
 
-message,,<size=22>Its hollow pupils searched for something，as if examining the very    <br><size=22>depths of a soul. Gradually，for the first time，a color of 'wariness' appeared in those eyes.<br> 
+message,,<size=32>Its hollow pupils searched for something，as if examining <br><size=32>the very depths of a soul. Gradually，for the first time，a color of 'wariness' appeared in those eyes.<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -223,7 +223,7 @@ asynccrossfade,0.1,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,<size=26>(Is this the end...)<br> 
+message,<user>,<size=32>(Is this the end...)<br> 
 
 window,off
 wait,0.15
@@ -247,19 +247,19 @@ prefabshowAll,alleffect_0,Roar/Prefabs/NovelEF_Roar
 asyncwait
 
 window,on,0.15
-message,,<size=26>GRAAAAAAHHHHH〜〜〜〜〜〜!!!!!!<br> ,900000002
+message,,<size=32>GRAAAAAAHHHHH〜〜〜〜〜〜!!!!!!<br> ,900000002
 
 cleanall,EFFECT
 
-message,,<size=26>One piercing cry that split the heavens. A shriek that    <br><size=26>could be heard as either rage or lamentation.<br> 
+message,,<size=32>One piercing cry that split the heavens. A shriek that   <br><size=32>could be heard as either rage or lamentation.<br> 
 
-message,,<size=26>The Hunger Calamity lifted its enormous body into the air <br><size=26>and then，slowly，disappeared into the distant darkness—<br> 
+message,,<size=32>The Hunger Calamity lifted its enormous body into the air<br><size=32>and then，slowly，disappeared into the distant darkness—<br> 
 
-message,<user>,<size=26>I-is it... over...?<br> 
+message,<user>,<size=32>I-is it... over...?<br> 
 
-message,,<size=26>The taut string of tension snapped. Exhaling one deep     <br><size=26>sigh，knees gave way and collapsed to the ground.<br> 
+message,,<size=32>The taut string of tension snapped. Exhaling one deep    <br><size=32>sigh，knees gave way and collapsed to the ground.<br> 
 
-message,<user>,<size=24>I don't know exactly what happened but... if it went           <br><size=24>upward，that's convenient. I need to regroup with everyone...<br> 
+message,<user>,<size=32>I don't know exactly what happened but... if it went     <br><size=32>upward，that's convenient. I need to regroup with everyone...<br> 
 
 
 bgmstop,bgmtag1_2,1.5,0
@@ -326,7 +326,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=26>Commander...! Thank goodness，you're alive!<br> ,106501000G,mcv_1001040901_001_01,chara_1
+message,ソフィア,<size=32>Commander...! Thank goodness，you're alive!<br> ,106501000G,mcv_1001040901_001_01,chara_1
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -337,7 +337,7 @@ asyncseplay,setag1_5,se4800016,0,1,CONT,0
 asynccharaemo,chara_2,BePeevish,CONT,0
 
 
-message,ベリサ,<size=26>Honestly，you're just too bold，big bro! That was way too   <br><size=26>reckless〜! Seriously.<br> ,100201000G,mcv_1001040901_002_01,chara_2
+message,ベリサ,<size=32>Honestly，you're just too bold，big bro! That was way too  <br><size=32>reckless〜! Seriously.<br> ,100201000G,mcv_1001040901_002_01,chara_2
 
 asynccharaface,chara_3,FaceFun,CONT,0
 
@@ -348,9 +348,9 @@ asyncseplay,setag1_6,se4800003,0,1,CONT,0
 asynccharaemo,chara_3,Twinkle,CONT,0
 
 
-message,マリナ,<size=26>Commander，what a relief you're safe〜. After that，everyone <br><size=26>was able to recover quickly〜.<br> ,100301000G,mcv_1001040901_003_01,chara_3
+message,マリナ,<size=32>Commander，what a relief you're safe〜. After that，everyone<br><size=32>was able to recover quickly〜.<br> ,100301000G,mcv_1001040901_003_01,chara_3
 
-message,<user>,<size=26>I see. But why didn't everyone evacuate first? This makes <br><size=26>my self-sacrificing plan completely meaningless...<br> 
+message,<user>,<size=32>I see. But why didn't everyone evacuate first? This makes<br><size=32>my self-sacrificing plan completely meaningless...<br> 
 
 window,off
 wait,0.15
@@ -403,7 +403,7 @@ asynccharaemo,chara_4,Shock,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,<size=26>Wh-what are you talking about...? How could we just leave <br><size=26>the Commander behind...<br> ,106601000G,mcv_1001040901_004_01,chara_4
+message,ヒマリ,<size=32>Wh-what are you talking about...? How could we just leave<br><size=32>the Commander behind...<br> ,106601000G,mcv_1001040901_004_01,chara_4
 
 asynccharaface,chara_6,FaceFun,CONT,0
 
@@ -414,7 +414,7 @@ asyncseplay,setag1_8,se4800004,0,1,CONT,0
 asynccharaemo,chara_6,Laugh,CONT,0
 
 
-message,クルル,<size=26>Yeah! Everyone recovered and immediately said 'let's go   <br><size=26>save the Commander!' that's what happened!<br> ,106701000G,mcv_1001040901_005_01,chara_6
+message,クルル,<size=32>Yeah! Everyone recovered and immediately said 'let's go  <br><size=32>save the Commander!' that's what happened!<br> ,106701000G,mcv_1001040901_005_01,chara_6
 
 asynccharaface,chara_5,FaceFun,CONT,0
 
@@ -425,11 +425,11 @@ asyncseplay,setag1_9,se4800022,0,1,CONT,0
 asynccharaemo,chara_5,Speak,CONT,0
 
 
-message,シエナ,<size=26>That's exactly it. You really are a wonderful leader who  <br><size=26>is loved by everyone.<br> ,300501000,mcv_1001040901_006_01,chara_5
+message,シエナ,<size=32>That's exactly it. You really are a wonderful leader who <br><size=32>is loved by everyone.<br> ,300501000,mcv_1001040901_006_01,chara_5
 
-message,<user>,<size=26>Yes. Drawing the Hunger Calamity succeeded. Honestly，I was<br><size=26>within a hair's breadth of being killed...<br> 
+message,<user>,<size=32>Yes. Drawing the Hunger Calamity succeeded. Honestly，I   <br><size=32>was within a hair's breadth of being killed...<br> 
 
-message,<user>,<size=26>But the Calamity stared at me for a while and then just   <br><size=26>flew away without doing anything...<br> 
+message,<user>,<size=32>But the Calamity stared at me for a while and then just  <br><size=32>flew away without doing anything...<br> 
 
 window,off
 wait,0.15
@@ -499,7 +499,7 @@ asynccharaemo,chara_3,Shock,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=26>Wooooo〜〜〜! You even had a staring contest with the        <br><size=26>Calamity!<br> ,100301000G,mcv_1001040901_007_01,chara_3
+message,マリナ,<size=32>Wooooo〜〜〜! You even had a staring contest with the       <br><size=32>Calamity!<br> ,100301000G,mcv_1001040901_007_01,chara_3
 
 asynccharaface,chara_2,FaceUnique02,CONT,0
 
@@ -510,7 +510,7 @@ asyncseplay,setag1_11,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,ベリサ,<size=26>Well well〜〜!? Maybe the Calamity rejected big bro〜?<br> ,100201000G,mcv_1001040901_008_01,chara_2
+message,ベリサ,<size=32>Well well〜〜!? Maybe the Calamity rejected big bro〜?<br> ,100201000G,mcv_1001040901_008_01,chara_2
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -521,7 +521,7 @@ asyncseplay,setag1_12,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ソフィア,<size=26>This isn't the time for jokes! If the Calamity went to the<br><size=26>upper levels，we have to get back to the frontline base!<br> ,106501000G,mcv_1001040901_009_01,chara_1
+message,ソフィア,<size=32>This isn't the time for jokes! If the Calamity went to   <br><size=32>the upper levels，we have to get back to the frontline base!<br> ,106501000G,mcv_1001040901_009_01,chara_1
 
 window,off
 wait,0.15
@@ -566,7 +566,7 @@ asynctransitionCrossFade,Tra01,0.5,STOP
 waitorclick,1
 
 window,on,0.15
-message,<user>,<size=24>Right. Siena，contact Adelheid immediately! Confirm that the    <br><size=24>Hunger Calamity's analysis data I transmitted has arrived.<br> 
+message,<user>,<size=32>Right. Siena，contact Adelheid immediately! Confirm that  <br><size=32>the Hunger Calamity's analysis data I transmitted has arrived.<br> 
 
 asyncjump,CHARA,chara_5,-30,0.25,1,off,0,CONT
 
@@ -575,7 +575,7 @@ asyncseplay,setag1_13,se4800022,0,1,CONT,0
 asynccharaemo,chara_5,Speak,CONT,0
 
 
-message,シエナ,<size=26>Understood. One moment...<br> ,300501000,mcv_1001040901_010_01,chara_5
+message,シエナ,<size=32>Understood. One moment...<br> ,300501000,mcv_1001040901_010_01,chara_5
 
 window,off
 wait,0.15
@@ -635,7 +635,7 @@ asynccharaemo,chara_2,Question,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=26>Hey hey! What's that item Siena's using? The thing you can<br><size=26>chat with faraway people on.<br> ,100201000G,mcv_1001040901_011_01,chara_2
+message,ベリサ,<size=32>Hey hey! What's that item Siena's using? The thing you   <br><size=32>can chat with faraway people on.<br> ,100201000G,mcv_1001040901_011_01,chara_2
 
 asynccharaface,chara_4,FaceSurprise,CONT,0
 
@@ -646,7 +646,7 @@ asyncseplay,setag1_15,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,ヒマリ,<size=26>Um... you mean a smartphone?<br> ,106601000G,mcv_1001040901_012_01,chara_4
+message,ヒマリ,<size=32>Um... you mean a smartphone?<br> ,106601000G,mcv_1001040901_012_01,chara_4
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -657,7 +657,7 @@ asyncseplay,setag1_16,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,ベリサ,<size=24>So it's called a smartphone? That'd be so convenient right〜.   <br><size=24>You could talk to big bro any time，anywhere，right〜?<br> ,100201000G,mcv_1001040901_013_01,chara_2
+message,ベリサ,<size=32>So it's called a smartphone? That'd be so convenient     <br><size=32>right〜. You could talk to big bro any time，anywhere，right〜?<br> ,100201000G,mcv_1001040901_013_01,chara_2
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -668,7 +668,7 @@ asyncseplay,setag1_17,se4800008,0,1,CONT,0
 asynccharaemo,chara_4,Sweat,CONT,0
 
 
-message,ヒマリ,<size=26>Mm〜... that would count as a 'nuisance call'...<br> ,106601000G,mcv_1001040901_014_01,chara_4
+message,ヒマリ,<size=32>Mm〜... that would count as a 'nuisance call'...<br> ,106601000G,mcv_1001040901_014_01,chara_4
 
 bgmstop,bgmtag1_3,1.5,0
 
@@ -717,11 +717,11 @@ asynccharaemo,chara_5,Sweat,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=26>Hmm...? That's strange. There's no signal getting         <br><size=26>through...<br> ,300501000,mcv_1001040901_015_01,chara_5
+message,シエナ,<size=32>Hmm...? That's strange. There's no signal getting        <br><size=32>through...<br> ,300501000,mcv_1001040901_015_01,chara_5
 
 bgmplay,bgmtag1_4,bgm0027,0.75,1
 
-message,<user>,<size=26>It might be the influence of the miasma the Hunger        <br><size=26>Calamity was emitting.<br> 
+message,<user>,<size=32>It might be the influence of the miasma the Hunger       <br><size=32>Calamity was emitting.<br> 
 
 asynccharaface,chara_5,EyeOpen,CONT,0
 asynccharaface,chara_5,FaceNormal,CONT,0
@@ -733,7 +733,7 @@ asyncseplay,setag1_19,se4800007,0,1,CONT,0
 asynccharaemo,chara_5,Panic,CONT,0
 
 
-message,シエナ,<size=26>This is worrying... let's hope Adelheid isn't absorbed in <br><size=26>her research...<br> ,300501000,mcv_1001040901_016_01,chara_5
+message,シエナ,<size=32>This is worrying... let's hope Adelheid isn't absorbed in<br><size=32>her research...<br> ,300501000,mcv_1001040901_016_01,chara_5
 
 asynccharaface,chara_5,FaceSad,CONT,0
 
@@ -744,9 +744,9 @@ asyncseplay,setag1_20,se4800006,0,1,CONT,0
 asynccharaemo,chara_5,Trouble,CONT,0
 
 
-message,シエナ,<size=26>When Adelheid is focused on her research，I don't think    <br><size=26>she'd notice even if the Calamity swallowed her whole.<br> ,300501000,mcv_1001040901_017_01,chara_5
+message,シエナ,<size=32>When Adelheid is focused on her research，I don't think   <br><size=32>she'd notice even if the Calamity swallowed her whole.<br> ,300501000,mcv_1001040901_017_01,chara_5
 
-message,<user>,<size=26>With her，that's a very real possibility...<br> 
+message,<user>,<size=32>With her，that's a very real possibility...<br> 
 
 window,off
 wait,0.15
@@ -792,9 +792,9 @@ asynccharaemo,chara_7,Shock,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,<size=26>Hahh-CHOO! Phew〜... seems someone is gossiping about this <br><size=26>genius slash perverted scientist.<br> ,108701000G,mcv_1001040901_018_01,chara_7
+message,アーデルハイト,<size=32>Hahh-CHOO! Phew〜... seems someone is gossiping about this<br><size=32>genius slash perverted scientist.<br> ,108701000G,mcv_1001040901_018_01,chara_7
 
-message,,<size=26>BEEEEP! BEEEEP! BEEEEP!<br> 
+message,,<size=32>BEEEEP! BEEEEP! BEEEEP!<br> 
 
 asynccharaface,chara_7,FaceSad,CONT,0
 
@@ -805,7 +805,7 @@ asyncseplay,setag1_22,se4800011,0,1,CONT,0
 asynccharaemo,chara_7,ExclaQues,CONT,0
 
 
-message,アーデルハイト,<size=26>Eek!? This warning sound—could it be!?<br> ,108701000G,mcv_1001040901_019_01,chara_7
+message,アーデルハイト,<size=32>Eek!? This warning sound—could it be!?<br> ,108701000G,mcv_1001040901_019_01,chara_7
 
 window,off
 wait,0.15
@@ -853,7 +853,7 @@ wait,0.5
 
 
 window,on,0.15
-message,アーデルハイト,<size=26>Th-this signal pattern... it's the Calamity. It appears to<br><size=26>be approaching the frontline base at a tremendous speed.<br> ,108701000G,mcv_1001040901_020_01,chara_7
+message,アーデルハイト,<size=32>Th-this signal pattern... it's the Calamity. It appears  <br><size=32>to be approaching the frontline base at a tremendous speed.<br> ,108701000G,mcv_1001040901_020_01,chara_7
 
 asynccharaface,chara_7,FaceFun,CONT,0
 
@@ -864,7 +864,7 @@ asyncseplay,setag1_24,se4800022,0,1,CONT,0
 asynccharaemo,chara_7,Speak,CONT,0
 
 
-message,アーデルハイト,<size=22>That also means this confirms the Commander's plan succeeded... shall<br><size=22>I contact Luxnova and request a rescue team for Siena and the others?<br> ,108701000G,mcv_1001040901_021_01,chara_7
+message,アーデルハイト,<size=32>That also means this confirms the Commander's plan       <br><size=32>succeeded... shall I contact Luxnova and request a rescue team for Siena and the others?<br> ,108701000G,mcv_1001040901_021_01,chara_7
 
 asynccharaface,chara_7,FaceAnger,CONT,0
 
@@ -875,7 +875,7 @@ asyncseplay,setag1_25,se4800019,0,1,CONT,0
 asynccharaemo,chara_7,Elated,CONT,0
 
 
-message,アーデルハイト,<size=26>Commander，leave the rest to us. The preparations to       <br><size=26>counter the Hunger Calamity are already in place.<br> ,108701000G,mcv_1001040901_022_01,chara_7
+message,アーデルハイト,<size=32>Commander，leave the rest to us. The preparations to      <br><size=32>counter the Hunger Calamity are already in place.<br> ,108701000G,mcv_1001040901_022_01,chara_7
 
 window,off
 bgmstop,bgmtag1_4,0.5

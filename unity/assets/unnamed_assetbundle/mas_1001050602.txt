@@ -36,7 +36,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
@@ -45,7 +45,7 @@ asyncseplay,se2_1001,se4030121,0,1,CONT,0
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――地下鉄　ホーム</size>,,,on
+messageTextCenter,,<size=48>--Subway Platform</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -92,7 +92,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,よ～し、入り口は塞いじゃったよ！,106701000G,mcv_1001050602_001_01,chara_2
+message,クルル,<size=32>All right~ the entrance is sealed!<br> ,106701000G,mcv_1001050602_001_01,chara_2
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -101,9 +101,9 @@ asyncseplay,setag2_2,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒマリ,良かった……防水シャッターが使えて。,106601000G,mcv_1001050602_002_01,chara_1
+message,ヒマリ,<size=32>Good... The flood shutter still works.<br> ,106601000G,mcv_1001050602_002_01,chara_1
 
-message,<user>,よし、鉄の扉のおかげで<br>警備ロボットも地下までは入ってこれないな。
+message,<user>,<size=32>Good， thanks to that iron door，                          <br><size=32>the security robots can't follow us underground.<br> 
 
 window,off
 wait,0.15
@@ -152,7 +152,7 @@ asynccharaemo,chara_3,Dull,CONT,0
 
 
 window,on,0.15
-message,ソフィア,出口、塞いじゃって大丈夫なの？<br>私たち、地下に閉じ込められちゃうんじゃ……,106501000G,mcv_1001050602_003_01,chara_3
+message,ソフィア,<size=32>Is it really okay to block the exit?                     <br><size=32>Won't we be trapped underground...?<br> ,106501000G,mcv_1001050602_003_01,chara_3
 
 window,off
 wait,0.15
@@ -203,7 +203,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,大丈夫だよ。地下鉄はいっぱい線路で繋がってるし、<br>出口もいっぱいあるから、他から出られるはず。,106601000G,mcv_1001050602_004_01,chara_1
+message,ヒマリ,<size=32>It's fine. The subway tunnels connect to lots of other   <br><size=32>tracks， and there are plenty of exits， so we can get out from somewhere else.<br> ,106601000G,mcv_1001050602_004_01,chara_1
 
 window,off
 wait,0.15
@@ -266,7 +266,7 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 
 window,on,0.15
-message,ソフィア,そうなんだ？<br>だ、だったらいいけど……なんだか地下って、暗くて気味が悪いわね。,106501000G,mcv_1001050602_005_01,chara_3
+message,ソフィア,<size=32>Really? W-well， if you say so... but underground is so   <br><size=32>dark and creepy.<br> ,106501000G,mcv_1001050602_005_01,chara_3
 
 asyncjump,CHARA,chara_4,30,0.25,1,off,0,CONT
 
@@ -275,7 +275,7 @@ asyncseplay,setag2_6,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,ベリサ,そお？　大穴の洞窟とあんまり変わらない気もするけどね～。,100201000G,mcv_1001050602_006_01,chara_4
+message,ベリサ,<size=32>You think? It doesn't seem much different from the Abyss <br><size=32>caves to me~.<br> ,100201000G,mcv_1001050602_006_01,chara_4
 
 window,off
 wait,0.15
@@ -295,7 +295,7 @@ wait,0.5
 
 
 window,on,0.15
-message,マリナ,なんだか、トロッコの線路のようなものがありますねぇ～。<br>ここをチカテツってのが走ってるんですかぁ～？,100301000G,mcv_1001050602_007_01,chara_5
+message,マリナ,<size=32>There seem to be tracks like a mine cart rail~.          <br><size=32>Is this where the subway runs~?<br> ,100301000G,mcv_1001050602_007_01,chara_5
 
 window,off
 wait,0.15
@@ -346,7 +346,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,うん。何両も連なってるトロッコのようなものかな？<br>もっと１つ１つの箱は大きくて、電気の力で動かすんだけどね。,106601000G,mcv_1001050602_008_01,chara_1
+message,ヒマリ,<size=32>Yeah. Think of it like multiple mine carts linked        <br><size=32>together? But each car is much bigger and they run on electricity.<br> ,106601000G,mcv_1001050602_008_01,chara_1
 
 window,off
 wait,0.15
@@ -409,7 +409,7 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,ベリサ,へぇ～、まるで、おとぎ話のような世界じゃない！,100201000G,mcv_1001050602_009_01,chara_4
+message,ベリサ,<size=32>Wow~， it's like a world out of a fairy tale!<br> ,100201000G,mcv_1001050602_009_01,chara_4
 
 window,off
 wait,0.15
@@ -460,7 +460,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,そう……なのかなぁ？<br>わたしからすると、魔法が使えるこっちの世界のほうがおとぎ話だけど……,106601000G,mcv_1001050602_010_01,chara_1
+message,ヒマリ,<size=32>Is... it though? From my perspective， a world with magic <br><size=32>seems more like a fairy tale...<br> ,106601000G,mcv_1001050602_010_01,chara_1
 
 window,off
 wait,0.15
@@ -513,9 +513,9 @@ asynccharaemo,chara_2,Question,CONT,0
 
 
 window,on,0.15
-message,クルル,ここにも誰もいないね～？,106701000G,mcv_1001050602_011_01,chara_2
+message,クルル,<size=32>Nobody here either~?<br> ,106701000G,mcv_1001050602_011_01,chara_2
 
-message,<user>,そうだな。ロジーたちも見当たらない……<br>とりあえず、当初の目的だった、学校を目指すか。
+message,<user>,<size=32>Right. No sign of Logy either... For now， let's head for <br><size=32>the school like we originally planned.<br> 
 
 window,off
 wait,0.15
@@ -564,7 +564,7 @@ asynccharaemo,chara_5,Twinkle,CONT,0
 
 
 window,on,0.15
-message,マリナ,はわわわわ～～っ！　旦那さまっ！<br>あ、あそこ～～～っ！　お宝！　お宝！,100301000G,mcv_1001050602_012_01,chara_5
+message,マリナ,<size=32>Ohhh~~~~! Master~!                                       <br><size=32>O-over there~~~! Treasure! Treasure!<br> ,100301000G,mcv_1001050602_012_01,chara_5
 
 window,off
 wait,0.15
@@ -574,7 +574,7 @@ charafocusonall
 linework,off,Black,Middle
 
 window,on,0.15
-message,<user>,ん？　なんだ……？<br>クリスタル？　魔石か……？
+message,<user>,<size=32>Hm? What is that...?                                     <br><size=32>A crystal? A magic stone...?<br> 
 
 window,off
 wait,0.15
@@ -627,7 +627,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,なんだろう？　ヒマリの知ってる御成門駅のホームには、<br>こんな石なんてなかったけど……,106601000G,mcv_1001050602_013_01,chara_1
+message,ヒマリ,<size=32>What is it? The Onarimon Station platform I know         <br><size=32>didn't have anything like this stone...<br> ,106601000G,mcv_1001050602_013_01,chara_1
 
 window,off
 wait,0.15
@@ -686,7 +686,7 @@ wait,0.5
 bgmplay,bgmtag2_2,bgm0037,0.75,1
 
 window,on,0.15
-message,,駅のホームに、オブジェのように輝く鉱石が出迎えている。<br>強力な魔力を放つその石は、ヒマリが近づくとさらに妖艶な光を放った。
+message,,<size=32>On the station platform， a mineral glowing like a        <br><size=32>sculpture greets them. The stone radiates powerful magic， and its alluring light intensifies as Himari approaches.<br> 
 
 window,off
 wait,0.15
@@ -749,7 +749,7 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,ヒマリが近づいただけで光った……。<br>まるで、ずっとヒマリのことを待ってたみたいね……？,106501000G,mcv_1001050602_014_01,chara_3
+message,ソフィア,<size=32>It glowed just from Himari getting close...              <br><size=32>It's almost as if it was waiting for her all along...?<br> ,106501000G,mcv_1001050602_014_01,chara_3
 
 window,off
 wait,0.15
@@ -802,7 +802,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒマリ,綺麗な……石……,106601000G,mcv_1001050602_015_01,chara_1
+message,ヒマリ,<size=32>A beautiful... stone...<br> ,106601000G,mcv_1001050602_015_01,chara_1
 
 window,off
 wait,0.15
@@ -843,7 +843,7 @@ asynccharaemo,chara_5,Twinkle,CONT,0
 
 
 window,on,0.15
-message,マリナ,むは～～～っ！　ま、まさか、地下に眠るお宝ってのは……！<br>こ、こ、こここ、これですかねぇ～～！？,100301000G,mcv_1001050602_016_01,chara_5
+message,マリナ,<size=32>Ohhh~~~! C-could the treasure sleeping underground be...!<br><size=32>Th-th-this right here~~!?<br> ,100301000G,mcv_1001050602_016_01,chara_5
 
 window,off
 wait,0.15
@@ -867,7 +867,7 @@ asynccharamove,chara_5,Linear,Y,-80,0.5,CONT,0
 asyncwait
 
 window,on,0.15
-message,,勇み足のマリナが、ヒマリよりも先に鉱石に手を伸ばす。<br>しかし……
+message,,<size=32>In her eagerness， Marina reaches for the mineral before  <br><size=32>Himari can. However...<br> 
 
 window,off
 wait,0.15
@@ -910,9 +910,9 @@ asyncseplay,setag2_18,se4800011,0,1,CONT,0
 asynccharaemo,chara_5,ExclaQues,CONT,0
 
 window,on,0.15
-message,,バチッ！！！！
+message,,<size=32>ZAP!!!!<br> 
 
-message,,まるで静電気のような電流が迸り、マリナの手を拒絶する。
+message,,<size=32>A jolt of electricity like static surges out， repelling  <br><size=32>Marina's hand.<br> 
 
 asynccharaface,chara_5,FaceSad,CONT,0
 
@@ -923,7 +923,7 @@ asyncseplay,setag2_19,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,マリナ,いったぁ～～～！<br>な、なんでぇ～～～？　拒絶されてしまいましたぁ～～～！,100301000G,mcv_1001050602_017_01,chara_5
+message,マリナ,<size=32>Owww~~~!                                                 <br><size=32>Wh-why~~~? It rejected me~~~!<br> ,100301000G,mcv_1001050602_017_01,chara_5
 
 window,off
 wait,0.15
@@ -986,7 +986,7 @@ asynccharaemo,chara_4,Trouble,CONT,0
 
 
 window,on,0.15
-message,ベリサ,日頃のおこないね……,100201000G,mcv_1001050602_018_01,chara_4
+message,ベリサ,<size=32>Karma...<br> ,100201000G,mcv_1001050602_018_01,chara_4
 
 asynccharaface,chara_5,FaceSurprise,CONT,0
 
@@ -997,9 +997,9 @@ asyncseplay,setag2_21,se4800007,0,1,CONT,0
 asynccharaemo,chara_5,Panic,CONT,0
 
 
-message,マリナ,えええ～～！？　わたし、毎日金貨を水で洗ったり、<br>黄色いお財布愛用したり、日頃のおこないは完璧ですよぉ～～……,100301000G,mcv_1001050602_019_01,chara_5
+message,マリナ,<size=32>Ehhh~~!? But I wash my gold coins with water every day   <br><size=32>and always use a yellow wallet~~ my daily conduct is perfect~~...<br> ,100301000G,mcv_1001050602_019_01,chara_5
 
-message,<user>,それ、金運アップのおこないばっかだな……
+message,<user>,<size=32>Those are all just good luck charms for money...<br> 
 
 window,off
 wait,0.15
@@ -1075,7 +1075,7 @@ emodelete,chara_1,0,0
 item,on,550100014
 
 window,on,0.15
-message,,しかし、ヒマリが手を伸ばした時、魔石の柔らかな輝きは変わることはない。<br>ヒマリはそっと手を伸ばし、その石を手中にする。
+message,,<size=32>But when Himari reaches out， the magic stone's gentle    <br><size=32>glow remains unchanged. She carefully extends her hand and takes the stone.<br> 
 
 window,off
 wait,0.15
@@ -1129,7 +1129,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,とれた～～～！,106701000G,mcv_1001050602_021_01,chara_2
+message,クルル,<size=32>She got it~~~!<br> ,106701000G,mcv_1001050602_021_01,chara_2
 
 window,off
 wait,0.15
@@ -1194,7 +1194,7 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,石が、ヒマリのことは受け入れたって……こと！？,106501000G,mcv_1001050602_022_01,chara_3
+message,ソフィア,<size=32>The stone... accepted Himari...!?<br> ,106501000G,mcv_1001050602_022_01,chara_3
 
 window,off
 wait,0.15
@@ -1244,7 +1244,7 @@ asyncseplay,setag2_24,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 window,on,0.15
-message,,しかし、鉱石を手にしたヒマリは、ホロホロと涙をこぼし始める……
+message,,<size=32>But upon taking the mineral， Himari begins to shed       <br><size=32>tears...<br> 
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -1253,7 +1253,7 @@ asyncseplay,setag2_25,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒマリ,うっ……うぅっ……,106601000G,mcv_1001050602_023_01,chara_1
+message,ヒマリ,<size=32>*sniff*... *sob*...<br> ,106601000G,mcv_1001050602_023_01,chara_1
 
 window,off
 wait,0.15
@@ -1301,7 +1301,7 @@ asynccharaemo,chara_2,Shock,CONT,0
 
 
 window,on,0.15
-message,クルル,ヒマリ……どうしちゃったの～？,106701000G,mcv_1001050602_024_01,chara_2
+message,クルル,<size=32>Himari... What happened~?<br> ,106701000G,mcv_1001050602_024_01,chara_2
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1312,7 +1312,7 @@ asyncseplay,setag2_27,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒマリ,わかんない……わかんないけどぉ～……<br>この石……いろんな人の、悲しい気持ちが……詰まってるみたいで……,106601000G,mcv_1001050602_025_01,chara_1
+message,ヒマリ,<size=32>I don't know... I don't know but... This stone... It     <br><size=32>feels like it's filled with... so many people's sadness...<br> ,106601000G,mcv_1001050602_025_01,chara_1
 
 window,off
 wait,0.15
@@ -1379,9 +1379,9 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,ベリサ,ちょ、ちょっと……大丈夫？？,100201000G,mcv_1001050602_026_01,chara_4
+message,ベリサ,<size=32>H-hey... Are you okay??<br> ,100201000G,mcv_1001050602_026_01,chara_4
 
-message,<user>,残留思念が、この石に込められていたのかもしれないな。<br>ここの住人の思念が……
+message,<user>,<size=32>Residual memories may be sealed within this stone.       <br><size=32>The thoughts of the people who lived here...<br> 
 
 window,off
 wait,0.15
@@ -1432,7 +1432,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,あ、あれ……？<br>石が……語り掛けてくる……,106601000G,mcv_1001050602_027_01,chara_1
+message,ヒマリ,<size=32>H-huh...?                                                <br><size=32>The stone is... speaking to me...<br> ,106601000G,mcv_1001050602_027_01,chara_1
 
 window,off
 wait,0.15
@@ -1472,7 +1472,7 @@ asynctransitionFade,Tra19,in,white,0,STOP,1
 waitorclick,0.5
 
 window,on,0.15
-message,,ヒマリの手にした石から鈍い光が辺りに拡がり、<br>頭の中に、若い女性の明るく楽しげな声が直接響いてくる――
+message,,<size=32>A dim light spreads from the stone in Himari's hand， and <br><size=32>a young woman's bright， cheerful voice resonates directly in their minds--<br> 
 
 window,off
 wait,0.15
@@ -1492,13 +1492,13 @@ asyncfade,In,White,1,STOP,1
 waitorclick,2.5
 
 window,on,0.15
-message,女性の声,すごい……！　本当に、ここは楽園だわ！<br>『マザー』がすべての労働も、面倒な人間関係も、全部管理してくれるの！,900000001
+message,女性の声,<size=32>Amazing...! This truly is paradise! ""Mother"" manages all <br><size=32>the labor and troublesome relationships for us!<br> ,900000001
 
-message,女性の声,だから、私たちは、もう何も悩まなくていい！<br>本当の自由を得たの！　もう好きなことだけ暮らしていけるの！,900000001
+message,女性の声,<size=32>So we don't have to worry about anything anymore! We've  <br><size=32>gained true freedom! We can spend our lives doing only what we love!<br> ,900000001
 
-message,男性の声,ああ。我々に残されたのは、ただ１つの、最も気高い義務だけだ。<br>……共に愛を育み、子をなし、本能のままに生きること。,900000001
+message,男性の声,<size=32>Yes. All that remains for us is a single， most noble     <br><size=32>duty. ...To nurture love， bear children， and live by our instincts.<br> ,900000001
 
-message,男性の声,増税も物価高もない。余計なストレスなど、ここにはない。<br>この楽園こそ、我々がたどり着いた、人類の最終進化形なんだ…！,900000001
+message,男性の声,<size=32>No tax hikes， no inflation. There is no pointless stress <br><size=32>here. This paradise is the final evolution of humanity that we have achieved...!<br> ,900000001
 
 window,off
 wait,0.15
@@ -1562,7 +1562,7 @@ waitorclick,2.5
 bgmplay,bgmtag2_3,bgm0041,0.75,1
 
 window,on,0.15
-message,,やがて、石の光は収まり、<br>頭に直接訴えてくるような声も聞こえなくなってしまう。
+message,,<size=32>Eventually， the stone's light fades， and the voices      <br><size=32>speaking directly into their minds fall silent.<br> 
 
 asyncjump,CHARA,chara_3,30,0.25,1,off,0,CONT
 
@@ -1571,7 +1571,7 @@ asyncseplay,setag2_31,se4800017,0,1,CONT,0
 asynccharaemo,chara_3,Shock,CONT,0
 
 
-message,ソフィア,今の……何？<br>人間の声が聞こえたけど……,106501000G,mcv_1001050602_030_01,chara_3
+message,ソフィア,<size=32>What was... that just now?                               <br><size=32>I heard human voices...<br> ,106501000G,mcv_1001050602_030_01,chara_3
 
 asynccharaface,chara_5,FaceSad,CONT,0
 
@@ -1582,7 +1582,7 @@ asyncseplay,setag2_32,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,マリナ,今の、残留思念ってやつですか？<br>ここの世界に住んでた人たちの……？,100301000G,mcv_1001050602_031_01,chara_5
+message,マリナ,<size=32>Were those the residual memories you mentioned?          <br><size=32>From the people who lived in this world...?<br> ,100301000G,mcv_1001050602_031_01,chara_5
 
 asyncjump,CHARA,chara_4,30,0.25,1,off,0,CONT
 
@@ -1591,7 +1591,7 @@ asyncseplay,setag2_33,se4800009,0,1,CONT,0
 asynccharaemo,chara_4,Question,CONT,0
 
 
-message,ベリサ,ヒマリは悲しい気持ちって言ってたけどさぁ～、<br>さっきの声の内容は、随分と幸せそうじゃなかった～？,100201000G,mcv_1001050602_032_01,chara_4
+message,ベリサ,<size=32>Himari said it felt sad~ but                             <br><size=32>the voices just now sounded pretty happy， didn't they~?<br> ,100201000G,mcv_1001050602_032_01,chara_4
 
 asynccharaface,chara_5,FaceHappy,CONT,0
 
@@ -1602,7 +1602,7 @@ asyncseplay,setag2_34,se4800022,0,1,CONT,0
 asynccharaemo,chara_5,Speak,CONT,0
 
 
-message,マリナ,楽園って言ってましたよねぇ？<br>なんだか幸せに満ち溢れたような声色でした。,100301000G,mcv_1001050602_033_01,chara_5
+message,マリナ,<size=32>They said ""paradise，"" right~?                            <br><size=32>Their voices sounded full of happiness.<br> ,100301000G,mcv_1001050602_033_01,chara_5
 
 window,off
 wait,0.15
@@ -1661,11 +1661,11 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,うん。なんかうれしそうだったね！,106701000G,mcv_1001050602_034_01,chara_2
+message,クルル,<size=32>Yeah. They sounded really happy!<br> ,106701000G,mcv_1001050602_034_01,chara_2
 
-message,<user>,『魂憶石』ってやつかもしれないな。<br>古代の魔術師が石にその叡智を吹き込んだって話を聞いたことがある。
+message,<user>,<size=32>It might be what's called a ""Soul Memory Stone."" I've    <br><size=32>heard that ancient sorcerers would infuse their wisdom into stones.<br> 
 
-message,<user>,書物の記録の代わりに石に言葉を吹き込んで、<br>何千年もその叡智を封印したのだとか。
+message,<user>,<size=32>Instead of written records， they'd seal words into       <br><size=32>stones， preserving their wisdom for thousands of years.<br> 
 
 window,off
 wait,0.15
@@ -1712,9 +1712,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,そんなボイスレコーダーみたいなことができるんだ？<br>でも、誰が、この石に言葉を残したんだろう……？,106601000G,mcv_1001050602_035_01,chara_1
+message,ヒマリ,<size=32>It can do something like a voice recorder?               <br><size=32>But who left these words in this stone...?<br> ,106601000G,mcv_1001050602_035_01,chara_1
 
-message,<user>,意図的に残したのかまでは解らない。<br>ここの住人の想いや祈りが、たまたまこの魔石に宿っただけかもしれないしな。
+message,<user>,<size=32>I can't say whether it was intentional. The thoughts and <br><size=32>prayers of the residents here may have just naturally settled into this magic stone.<br> 
 
 window,off
 wait,0.15
@@ -1733,11 +1733,11 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒマリ,ここの住人の想いや祈り……か。,106601000G,mcv_1001050602_036_01,chara_1
+message,ヒマリ,<size=32>The thoughts and prayers of the residents here...<br> ,106601000G,mcv_1001050602_036_01,chara_1
 
-message,<user>,他にも似たような魂憶石が見つかるかもしれないな。<br>それを解析することで、この街で何が起きたのか分かるかもしれん。
+message,<user>,<size=32>We might find more Soul Memory Stones like this.         <br><size=32>Analyzing them could help us understand what happened in this city.<br> 
 
-message,<user>,それより、学校を目指そう。<br>この駅から、どのくらい先なんだ？
+message,<user>,<size=32>But first， let's head for the school.                    <br><size=32>How far is it from this station?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1749,7 +1749,7 @@ asyncseplay,setag2_38,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ヒマリ,すぐ隣の駅だよ。でも線路の上を歩くなら、<br>結構時間かかっちゃうかも……,106601000G,mcv_1001050602_037_01,chara_1
+message,ヒマリ,<size=32>It's the very next station. But if we're walking on the  <br><size=32>tracks， it might take quite a while...<br> ,106601000G,mcv_1001050602_037_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1760,9 +1760,9 @@ asyncseplay,setag2_39,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒマリ,えっと、<br>どこかに路線図が残ってないかな……,106601000G,mcv_1001050602_038_01,chara_1
+message,ヒマリ,<size=32>Um，                                                      <br><size=32>I wonder if there's a route map anywhere...<br> ,106601000G,mcv_1001050602_038_01,chara_1
 
-message,<user>,路線図？　この線路の図面ってことか？
+message,<user>,<size=32>A route map? Like a diagram of the rail lines?<br> 
 
 window,off
 wait,0.15
@@ -1805,9 +1805,9 @@ asynccharaemo,chara_5,Laugh,CONT,0
 
 
 window,on,0.15
-message,マリナ,皆さ～ん、こっち！　こっちに来てください～～！<br>地図みたいなのが壁にありますぅ～！,100301000G,mcv_1001050602_039_01,chara_5
+message,マリナ,<size=32>Everyone~， over here! Come here~~!                       <br><size=32>There's something like a map on the wall~!<br> ,100301000G,mcv_1001050602_039_01,chara_5
 
-message,<user>,ヒマリ、あっちに行ってみよう。
+message,<user>,<size=32>Himari， let's go check it out.<br> 
 
 window,off
 wait,0.15
@@ -1850,7 +1850,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,うん。,106601000G,mcv_1001050602_040_01,chara_1
+message,ヒマリ,<size=32>Okay.<br> ,106601000G,mcv_1001050602_040_01,chara_1
 
 
 window,off
@@ -1880,7 +1880,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,これは……路線図なんだけど……,106601000G,mcv_1001050602_041_01,chara_1
+message,ヒマリ,<size=32>This is... a route map， but...<br> ,106601000G,mcv_1001050602_041_01,chara_1
 
 window,off
 wait,0.15
@@ -1943,7 +1943,7 @@ asynccharaemo,chara_4,Question,CONT,0
 
 
 window,on,0.15
-message,ベリサ,なんだけど……？,100201000G,mcv_1001050602_042_01,chara_4
+message,ベリサ,<size=32>But...?<br> ,100201000G,mcv_1001050602_042_01,chara_4
 
 window,off
 wait,0.15
@@ -1995,7 +1995,7 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,やっぱりヒマリのいた世界とは違う。<br>この路線図……変だもの……,106601000G,mcv_1001050602_043_01,chara_1
+message,ヒマリ,<size=32>It really is different from the world I knew.            <br><size=32>This route map... it's all wrong...<br> ,106601000G,mcv_1001050602_043_01,chara_1
 
 window,off
 bgmstop,bgmtag2_3,0.5

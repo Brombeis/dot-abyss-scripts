@@ -96,13 +96,13 @@ asyncWait
 wait,0.5
 asyncseplay,se_emo1,se4800011,0,1,CONT,0.05
 objectemo,chara_4,ExclaQues
-dotmessage,マリナ,<size=26>The sandstorm is getting intense again……!?<br> ,,mcv_1001010902_001_01,normal,mid,SAD,chara_4,top,normal
+dotmessage,マリナ,<size=32>The sandstorm is getting intense again……!?<br> ,,mcv_1001010902_001_01,normal,mid,SAD,chara_4,top,normal
 
 objectmotion,chara_3,N_frightened,0,1,,1
-dotmessage,ベリサ,<size=26>Ngh……                                                     <br><size=26>My head hurts~……<br> ,,mcv_1001010902_002_01,normal,mid,SAD,chara_3,top,normal
+dotmessage,ベリサ,<size=32>Ngh……                                                    <br><size=32>My head hurts~……<br> ,,mcv_1001010902_002_01,normal,mid,SAD,chara_3,top,normal
 
 objectmotion,chara_2,N_frightened,0,1,,1
-dotmessage,ソフィア,<size=26>Kch!                                                      <br><size=26>What is this powerful magical energy……<br> ,,mcv_1001010902_003_01,normal,mid,ANGER,chara_2,rightbottom,normal
+dotmessage,ソフィア,<size=32>Kch!                                                     <br><size=32>What is this powerful magical energy……<br> ,,mcv_1001010902_003_01,normal,mid,ANGER,chara_2,rightbottom,normal
 
 // !?
 asyncobjectmotion,chara_2,C_Wait,0,1,,1,CONT
@@ -110,10 +110,10 @@ asyncseplay,se_emo2,se4800010,0,1,CONT,0.25
 asyncobjectemo,chara_2,Exclamation,CONT,0.2
 asyncwait
 wait,0.4
-dotmessage,ソフィア,<size=26>Hey，don't tell me!<br> ,,mcv_1001010902_004_01,normal,mid,SURPRISE,chara_2,rightbottom,normal
+dotmessage,ソフィア,<size=32>Hey，don't tell me!<br> ,,mcv_1001010902_004_01,normal,mid,SURPRISE,chara_2,rightbottom,normal
 
 objectmotion,chara_1,N_Yes,1,1,C_Wait,1
-dotmessage,<user>,<size=26>Yeah. That's exactly it.<br> ,,,normal,mid,,chara_1,top,normal
+dotmessage,<user>,<size=32>Yeah. That's exactly it.<br> ,,,normal,mid,,chara_1,top,normal
 
 seplay,se_20,se4700032,1,1
 asyncdotcameramove,5,0,LinearTarget,1,OnlyX,CONT
@@ -176,7 +176,7 @@ asyncobjectmotion,chara_10,C_Appearance,1,1,C_Walk,1,cont,0
 asyncdotprefabshow,uieffect_11,CONT,1.666667
 asyncdotprefabshow,uieffect_12,CONT,1.666667
 asyncseplayIngame,se_Summon001,ene_2027301,ba_summon_2027301_01,0,1.0,STOP,0.1
-dotmessage,砂嵐の厄災,<size=26>ROOAAAARRRR!!!!<br> ,900000002,,SHOUT_B,big,,chara_10,none,shake
+dotmessage,砂嵐の厄災,<size=32>ROOAAAARRRR!!!!<br> ,900000002,,SHOUT_B,big,,chara_10,none,shake
 linework,off,White,Middle
 asyncWait
 
@@ -203,7 +203,7 @@ asyncobjectmotion,chara_3,N_scared,0,1,,1,CONT,0
 asyncobjectmotion,chara_4,N_scared,0,1,,1,CONT,0
 asyncWait
 
-dotmessage,ベリサ,<size=26>Wha，wha wha wha!                                          <br><size=26>The dangerous thing showed up!……<br> ,,mcv_1001010902_005_01,normal,mid,UNIQUE01,chara_3,righttop,normal
+dotmessage,ベリサ,<size=32>Wha，wha wha wha!                                         <br><size=32>The dangerous thing showed up!……<br> ,,mcv_1001010902_005_01,normal,mid,UNIQUE01,chara_3,righttop,normal
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //エフェクト削除
@@ -218,7 +218,7 @@ asyncdotprefabdelete,uieffect_12,CONT,0
 asyncobjectmotion,chara_1,N_talk,2,1,,1,cont,0
 asyncobjectmotion,chara_1,N_Pointing,1,1.0,None,1.0,CONT,1
 
-dotmessage,<user>,<size=26>Everyone，keep quiet!                                      <br><size=26>Get behind those rocks for now!<br> ,,,normal,mid,HAPPY,chara_1,top,normal
+dotmessage,<user>,<size=32>Everyone，keep quiet!                                     <br><size=32>Get behind those rocks for now!<br> ,,,normal,mid,HAPPY,chara_1,top,normal
 asyncobjectmotion,chara_1,C_Wait,0,1,,1,CONT
 
 // ボスIN
@@ -313,18 +313,18 @@ asyncobjectmotion,chara_4,N_squat,1,2,None,1,CONT,0
 asyncprefabhideall,effectall_1_2,CONT,0
 asyncprefabshowAll,effectall_2_2,SandStorm/Prefabs/Eff_SandStormStrong000,on,CONT,0
 
-dotmessage,<user>,<size=26>Kch，                                                      <br><size=26>it already knows where we are!<br> ,,,normal,mid,HAPPY,chara_1,top,normal
+dotmessage,<user>,<size=32>Kch，                                                     <br><size=32>it already knows where we are!<br> ,,,normal,mid,HAPPY,chara_1,top,normal
 asyncwait
 
 //エフェクト削除
 prefabdeleteall,effectall_1_2
 
 asyncobjectmotion,chara_3,N_scared,0,1,,1,CONT,0
-dotmessage,ベリサ,<size=26>Wh-wh-wh-wh-what do we do!?<br> ,,mcv_1001010902_006_01,normal,mid,SAD,chara_3,righttop,normal
+dotmessage,ベリサ,<size=32>Wh-wh-wh-wh-what do we do!?<br> ,,mcv_1001010902_006_01,normal,mid,SAD,chara_3,righttop,normal
 
 objectdirect,chara_1,LEFT
 asyncobjectmotion,chara_1,N_talk,2,1,C_Wait,1,cont,0
-dotmessage,<user>,<size=26>Calm down，Belisa!                                         <br><size=26>For now，get outside its<br>attack range——<br> ,,,normal,mid,,chara_1,top,normal
+dotmessage,<user>,<size=32>Calm down，Belisa!                                        <br><size=32>For now，get outside its<br>attack range——<br> ,,,normal,mid,,chara_1,top,normal
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //エフェクト削除
@@ -386,13 +386,13 @@ asyncWait
 asyncseplay,se_emo10,se4800011,0,1,CONT,0.05
 objectemo,chara_4,ExclaQues
 bgmplay,bgmtag2_2,bgm0039,2,1
-dotmessage,マリナ,<size=26>Um，what is it doing……?                                    <br><size=26>It's not attacking at all~<br> ,,mcv_1001010902_007_01,normal,mid,SAD,chara_4,top,normal
+dotmessage,マリナ,<size=32>Um，what is it doing……?                                   <br><size=32>It's not attacking at all~<br> ,,mcv_1001010902_007_01,normal,mid,SAD,chara_4,top,normal
 
 asyncobjectmotion,chara_3,C_Wait,1,1,C_Wait,1,cont,0
 asyncseplay,se_emo5,se4800010,0,1,CONT,0.05
 objectemo,chara_3,Exclamation
 asyncobjectmotion,chara_3,N_talk,2,1,C_Wait,1,cont,0
-dotmessage,ベリサ,<size=26>That's detection magic!<br> ,,mcv_1001010902_008_01,normal,mid,SURPRISE,chara_3,righttop,normal
+dotmessage,ベリサ,<size=32>That's detection magic!<br> ,,mcv_1001010902_008_01,normal,mid,SURPRISE,chara_3,righttop,normal
 asyncobjectmotion,chara_1,C_Wait,0,1,,1,CONT
 asyncobjectmotion,chara_2,C_Wait,0,1,,1,CONT
 asyncwait
@@ -401,7 +401,7 @@ asyncobjectmotion,chara_3,N_think,1,1,None,1,CONT,0.5
 asyncseplay,se_emo6,se4800009,0,1,CONT,0.55
 asyncobjectemo,chara_3,Question,cont,0.5
 asyncwait
-dotmessage,ベリサ,<size=26>But what is it detecting?                                 <br><size=26>If it already knows where we are……<br> ,,mcv_1001010902_009_01,normal,mid,SAD,chara_3,righttop,normal
+dotmessage,ベリサ,<size=32>But what is it detecting?                                <br><size=32>If it already knows where we are……<br> ,,mcv_1001010902_009_01,normal,mid,SAD,chara_3,righttop,normal
 
 // 厄災モーションとSE止める
 sestop,se_30loop,2
@@ -468,14 +468,14 @@ asyncdotprefabdelete,uieffect_10,CONT,0
 
 // カメラを戻す
 asyncdotcameramove,-1.5,0,LinearTarget,2,OnlyX,CONT,0
-dotmessage,ベリサ,<size=26>Oh……                                                      <br><size=26>It flew away……<br> ,,mcv_1001010902_010_01,normal,mid,SURPRISE,chara_3,righttop,normal
+dotmessage,ベリサ,<size=32>Oh……                                                     <br><size=32>It flew away……<br> ,,mcv_1001010902_010_01,normal,mid,SURPRISE,chara_3,righttop,normal
 
 asyncobjectmotion,chara_1,C_Wait,0,1,,1,CONT
 asyncobjectmotion,chara_2,C_Wait,0,1,,1,CONT
 asyncobjectmotion,chara_3,C_Wait,0,1,,1,CONT
 asyncobjectmotion,chara_4,C_Wait,0,1,,1,CONT
 asyncWait
-dotmessage,ソフィア,<size=26>Did it run away?<br> ,,mcv_1001010902_011_01,normal,mid,NORMAL,chara_2,bottom,normal
+dotmessage,ソフィア,<size=32>Did it run away?<br> ,,mcv_1001010902_011_01,normal,mid,NORMAL,chara_2,bottom,normal
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //エフェクト削除
@@ -490,18 +490,18 @@ objectemo,chara_1,Exclamation
 asyncWait
 objectdirect,chara_4,LEFT
 asyncobjectmotion,chara_1,N_No,1,1.0,C_Wait,1.0,CONT,0
-dotmessage,<user>,<size=26>No，it didn't.<br> ,,,normal,mid,HAPPY,chara_1,top,normal
+dotmessage,<user>,<size=32>No，it didn't.<br> ,,,normal,mid,HAPPY,chara_1,top,normal
 asyncwait
 wait,0.2
 
 objectdirect,chara_1,LEFT
-dotmessage,<user>,<size=26>Its movement just now—                                    <br><size=26>you said it was detection magic，right?<br> ,,,normal,mid,HAPPY,chara_1,top,normal
+dotmessage,<user>,<size=32>Its movement just now—                                   <br><size=32>you said it was detection magic，right?<br> ,,,normal,mid,HAPPY,chara_1,top,normal
 
 // 頷く
 objectmotion,chara_3,N_Yes,1,1,C_Wait,1
 wait,0.3
 asyncobjectmotion,chara_1,N_embarrassing,1,1.0,None,1.0,CONT,0
-dotmessage,<user>,<size=26>If it detected something                                  <br><size=26>and flew in that direction……<br> ,,,normal,mid,HAPPY,chara_1,top,normal
+dotmessage,<user>,<size=32>If it detected something                                 <br><size=32>and flew in that direction……<br> ,,,normal,mid,HAPPY,chara_1,top,normal
 
 // 砂嵐のSE止める
 sestop,seloop_1,0
@@ -541,7 +541,7 @@ asyncwait,SubImageTag4
 wait,0.8
 linework,off,Black,Strong
 
-dotmessage,<user>,<size=26>Its target is——————<br> ,,,normal,mid,HAPPY,chara_1,top,normal
+dotmessage,<user>,<size=32>Its target is——————<br> ,,,normal,mid,HAPPY,chara_1,top,normal
 
 // 注目
 //asyncdotcameramove,1.3,0,LinearTarget,0.15,OnlyY,CONT
@@ -549,7 +549,7 @@ bgmplay,bgmtag2_3,bgm0028,0,1
 dotcamerazoom,1.3,0.15,LinearTarget
 linework,on,Black,Middle
 asyncobjectmotion,chara_1,N_talk,2,1,C_Wait,1,cont,0
-dotmessage,<user>,<size=26>The frontline base!!<br> ,,,normal,mid,HAPPY,chara_1,top,normal
+dotmessage,<user>,<size=32>The frontline base!!<br> ,,,normal,mid,HAPPY,chara_1,top,normal
 linework,off,Black,Middle
 asyncobjectemo,chara_2,Exclamation,CONT
 asyncobjectemo,chara_3,Exclamation,CONT
@@ -560,7 +560,7 @@ asyncobjectmotion,chara_1,C_Walk,1,2,,1,CONT
 asyncdotmove,chara_1,0.25,-1.9,0,0.58,LinearTarget,CONT
 asyncobjectmotion,chara_1,N_talk,2,1,C_Wait,1,cont,0.25
 asyncwait
-dotmessage,<user>,<size=26>Everyone，we're heading back immediately!                  <br><size=26>We need to intercept it before it gets there!<br> ,,,normal,mid,HAPPY,chara_1,top,normal
+dotmessage,<user>,<size=32>Everyone，we're heading back immediately!                 <br><size=32>We need to intercept it before it gets there!<br> ,,,normal,mid,HAPPY,chara_1,top,normal
 
 // 下手に向かう
 objectdirect,chara_1,LEFT

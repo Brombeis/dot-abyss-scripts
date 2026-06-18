@@ -101,7 +101,7 @@ asynccharaemo,chara_2,BePeevish,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=26>It's so hooooooot!                                        <br><size=26>If we stay in a place like this we're going to melt into puddles~!<br> ,100201000G,mcv_1001030301_001_01,chara_2
+message,ベリサ,<size=32>It's so hooooooot! If we stay in a place like this we're <br><size=32>going to melt into puddles~!<br> ,100201000G,mcv_1001030301_001_01,chara_2
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -110,9 +110,9 @@ asyncseplay,setag1_2,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,クルル,<size=26>Kulul too……                                               <br><size=26>it's so hot I'm going to go all soggy……<br> ,106701000G,mcv_1001030301_002_01,chara_1
+message,クルル,<size=32>Kulul too……                                              <br><size=32>it's so hot I'm going to go all soggy……<br> ,106701000G,mcv_1001030301_002_01,chara_1
 
-message,<user>,<size=22>The observation balloons Alicia sent gave us an idea of conditions in the Abyss，<br><size=22>but even knowing that，this heat is something else……<br> 
+message,<user>,<size=32>The observation balloons Alicia sent gave us an idea of  <br><size=32>conditions in the Abyss， but even knowing that，this heat is something else……<br> 
 
 window,off
 wait,0.15
@@ -161,7 +161,7 @@ asynccharaemo,chara_5,Sweat,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=26>Who could have imagined there'd be a layer with rivers of lava<br><size=26>below the world of snow and ice~……<br> ,100301000G,mcv_1001030301_003_01,chara_5
+message,マリナ,<size=32>Who could have imagined there'd be a layer with rivers of<br><size=32>lava below the world of snow and ice~……<br> ,100301000G,mcv_1001030301_003_01,chara_5
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -172,7 +172,7 @@ asyncseplay,setag1_4,se4800004,0,1,CONT,0
 asynccharaemo,chara_4,Laugh,CONT,0
 
 
-message,ソフィア,<size=26>But this time we have Shiena and the others，so it should be fine，right?<br><size=26>We can just descend using the flying items.<br> ,106501000G,mcv_1001030301_004_01,chara_4
+message,ソフィア,<size=32>But this time we have Shiena and the others，so it should <br><size=32>be fine，right? We can just descend using the flying items.<br> ,106501000G,mcv_1001030301_004_01,chara_4
 
 window,off
 wait,0.15
@@ -216,7 +216,7 @@ wait,0.5
 
 
 window,on,0.15
-message,アーデルハイト,<size=26>Hmm，magma in this layer erupts at irregular intervals，    <br><size=26>so the flight items are unusable. On foot would be safer.<br> ,108701000G,mcv_1001030301_005_01,chara_6
+message,アーデルハイト,<size=32>Hmm，magma in this layer erupts at irregular intervals，   <br><size=32>so the flight items are unusable. On foot would be safer.<br> ,108701000G,mcv_1001030301_005_01,chara_6
 
 window,off
 wait,0.15
@@ -318,7 +318,7 @@ asynccharaemo,chara_5,Panic,CONT,0
 sestop,se1_90,0.1
 
 window,on,0.15
-message,マリナ,<size=26>Eek!                                                      <br><size=26>Magma just burst out of the lava river right now!<br> ,100301000G,mcv_1001030301_006_01,chara_5
+message,マリナ,<size=32>Eek!                                                     <br><size=32>Magma just burst out of the lava river right now!<br> ,100301000G,mcv_1001030301_006_01,chara_5
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -327,7 +327,7 @@ asyncseplay,setag1_10,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,クルル,<size=26>It burst out~~!<br> ,106701000G,mcv_1001030301_007_01,chara_1
+message,クルル,<size=32>It burst out~~!<br> ,106701000G,mcv_1001030301_007_01,chara_1
 
 window,off
 wait,0.15
@@ -378,7 +378,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=26>What? You're scared of some magma?                        <br><size=26>Just dodge it!<br> ,100201000G,mcv_1001030301_008_01,chara_2
+message,ベリサ,<size=32>What? You're scared of some magma?                       <br><size=32>Just dodge it!<br> ,100201000G,mcv_1001030301_008_01,chara_2
 
 window,off
 wait,0.15
@@ -432,7 +432,7 @@ asynccharaemo,chara_6,Speak,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,<size=24>You can't move freely in midair.                               <br><size=24>I can lend it to you if you'd like to get charbroiled by intermittently erupting magma……<br> ,108701000G,mcv_1001030301_009_01,chara_6
+message,アーデルハイト,<size=32>You can't move freely in midair. I can lend it to you if <br><size=32>you'd like to get charbroiled by intermittently erupting magma……<br> ,108701000G,mcv_1001030301_009_01,chara_6
 
 asynccharaface,chara_2,FaceUnique01,CONT,0
 
@@ -443,9 +443,9 @@ asyncseplay,setag1_13,se4800015,0,1,CONT,0
 asynccharaemo,chara_2,Dull,CONT,0
 
 
-message,ベリサ,<size=26>Ch-charbroiled!?                                          <br><size=26>……B-Belisa loves walking actually~.<br> ,100201000G,mcv_1001030301_010_01,chara_2
+message,ベリサ,<size=32>Ch-charbroiled!?                                         <br><size=32>……B-Belisa loves walking actually~.<br> ,100201000G,mcv_1001030301_010_01,chara_2
 
-message,<user>,<size=26>And it's not just magma we need to be wary of.<br> 
+message,<user>,<size=32>And it's not just magma we need to be wary of.<br> 
 
 
 window,off
@@ -551,9 +551,9 @@ asynccharaemo,chara_3,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=26>Monsters……!<br> ,300501000,mcv_1001030301_011_01,chara_3
+message,シエナ,<size=32>Monsters……!<br> ,300501000,mcv_1001030301_011_01,chara_3
 
-message,<user>,<size=22>Fire-attribute…… These seem to be monsters specialized for this layer.<br><size=22>Some of them might use attacks with special effects! Stay alert!<br> 
+message,<user>,<size=32>Fire-attribute…… These seem to be monsters specialized   <br><size=32>for this layer. Some of them might use attacks with special effects! Stay alert!<br> 
 
 window,off
 wait,0.15
@@ -606,7 +606,7 @@ asynccharaemo,chara_2,Trouble,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=26>We have to keep track of all of that!?                    <br><size=26>What a pain~……<br> ,100201000G,mcv_1001030301_012_01,chara_2
+message,ベリサ,<size=32>We have to keep track of all of that!?                   <br><size=32>What a pain~……<br> ,100201000G,mcv_1001030301_012_01,chara_2
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -617,7 +617,7 @@ asyncseplay,setag1_16,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,クルル,<size=26>It's okay! When it seems dangerous，Kulul will say danger——!<br><size=26>So it's okay!<br> ,106701000G,mcv_1001030301_013_01,chara_1
+message,クルル,<size=32>It's okay! When it seems dangerous，Kulul will say        <br><size=32>danger——! So it's okay!<br> ,106701000G,mcv_1001030301_013_01,chara_1
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -628,7 +628,7 @@ asyncseplay,setag1_17,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ベリサ,<size=26>What does that mean? Does that do anything~?<br> ,100201000G,mcv_1001030301_014_01,chara_2
+message,ベリサ,<size=32>What does that mean? Does that do anything~?<br> ,100201000G,mcv_1001030301_014_01,chara_2
 
 window,off
 wait,0.15
@@ -683,7 +683,7 @@ asynccharaemo,chara_4,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=26>Here they come! Let's go!<br> ,106501000G,mcv_1001030301_015_01,chara_4
+message,ソフィア,<size=32>Here they come! Let's go!<br> ,106501000G,mcv_1001030301_015_01,chara_4
 
 asynccharaface,chara_5,FaceSad,CONT,0
 
@@ -694,7 +694,7 @@ asyncseplay,setag1_19,se4800007,0,1,CONT,0
 asynccharaemo,chara_5,Panic,CONT,0
 
 
-message,マリナ,<size=26>I have potions for burns ready!                           <br><size=26>E-everyone please be careful!<br> ,100301000G,mcv_1001030301_016_01,chara_5
+message,マリナ,<size=32>I have potions for burns ready!                          <br><size=32>E-everyone please be careful!<br> ,100301000G,mcv_1001030301_016_01,chara_5
 
 window,off
 bgmstop,bgmtag1_2,0.5

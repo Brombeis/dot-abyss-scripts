@@ -92,10 +92,10 @@ objectemo,chara_10,Trouble
 
 asyncobjectmotion,chara_10,N_sorrow,1,1,None,0,CONT,0
 
-dotmessage,盗賊団のお頭,<size=26>...Just as expected，these small fry can't even slow us    <br><size=26>down.<br> ,,mcv_1001030802_001_01,NORMAL_B,Mid,SAD,chara_10,TOP,NORMAL,0,0
+dotmessage,盗賊団のお頭,<size=32>...Just as expected，these small fry can't even slow us   <br><size=32>down.<br> ,,mcv_1001030802_001_01,NORMAL_B,Mid,SAD,chara_10,TOP,NORMAL,0,0
 
 asyncobjectmotion,chara_10,N_think,1,1,None,0,CONT,0
-dotmessage,盗賊団のお頭,<size=26>In that case...!<br> ,,mcv_1001030802_002_01,NORMAL_B,Mid,HAPPY,chara_10,TOP,NORMAL,0,0
+dotmessage,盗賊団のお頭,<size=32>In that case...!<br> ,,mcv_1001030802_002_01,NORMAL_B,Mid,HAPPY,chara_10,TOP,NORMAL,0,0
 
 // キャラモーション
 
@@ -154,18 +154,18 @@ asyncobjectmotion,Kururu,N_surprised,1,1,,1,CONT,0.11
 asyncobjectmotion,Shiena,N_surprised,1,1,,1,CONT,0.12
 asyncobjectmotion,chara_1,N_surprised,1,1,,1,CONT,0,12
 asyncdotshake,Shiena,0.1,0.1,0.1,1,off,0,off,CONT,0
-dotmessage,シエナ,<size=26>Ahh，Himari!?<br> ,,mcv_1001030802_003_01,NORMAL,Mid,Surprise,Shiena,TOP,NORMAL,0,0
+dotmessage,シエナ,<size=32>Ahh，Himari!?<br> ,,mcv_1001030802_003_01,NORMAL,Mid,Surprise,Shiena,TOP,NORMAL,0,0
 objectmotion,Shiena,C_Wait,0,1,None,0
 
 //エモ　焦り
 asyncseplay,se4800007_2,se4800007,0,1,CONT,0
 objectemo,Marina,Panic
 asyncobjectmotion,Marina,N_scared,1,1,,1,CONT,0
-dotmessage,マリナ,<size=26>W-what is that?! That speed!?<br> ,,mcv_1001030802_004_01,NORMAL,Mid,Surprise,Marina,TOP,NORMAL,0,0
+dotmessage,マリナ,<size=32>W-what is that?! That speed!?<br> ,,mcv_1001030802_004_01,NORMAL,Mid,Surprise,Marina,TOP,NORMAL,0,0
 objectmotion,Marina,C_Wait,0,1,,1
 
 asyncobjectmotion,chara_1,N_Pointing,1,1,None,1,CONT,0
-dotmessage,<user>,<size=26>Everyone，after them!<br> ,,,NORMAL,Mid,,chara_1,TOP,SHAKE,0,0
+dotmessage,<user>,<size=32>Everyone，after them!<br> ,,,NORMAL,Mid,,chara_1,TOP,SHAKE,0,0
 objectmotion,chara_1,C_Wait,0,1,,0
 
 //シエナ先に移動
@@ -481,11 +481,11 @@ asyncseplay,se4800011_2,se4800011,0,1,CONT,0
 objectemo,Belisa,ExclaQues
 
 asyncobjectmotion,Belisa,N_surprised,1,1,None,1,CONT,0
-dotmessage,ベリサ,<size=26>That was close!<br> ,,mcv_1001030802_005_01,NORMAL,Mid,Anger,Belisa,TOP,NORMAL,0,0
+dotmessage,ベリサ,<size=32>That was close!<br> ,,mcv_1001030802_005_01,NORMAL,Mid,Anger,Belisa,TOP,NORMAL,0,0
 objectmotion,Belisa,C_Wait,0,1,,1
 
 asyncobjectmotion,Kururu,N_anger,1,1,None,1,CONT,0
-dotmessage,クルル,<size=26>Wait，wait〜〜!<br> ,,mcv_1001030802_006_01,NORMAL,Mid,Anger,Kururu,TOP,NORMAL,0,0
+dotmessage,クルル,<size=32>Wait，wait〜〜!<br> ,,mcv_1001030802_006_01,NORMAL,Mid,Anger,Kururu,TOP,NORMAL,0,0
 objectmotion,Kururu,C_Wait,0,1,,1
 
 
@@ -630,7 +630,7 @@ asyncwait
 //エモ　汗
 asyncseplay,se4800008_3,se4800008,0,1,CONT,0
 objectemo,Sophia,Sweat
-dotmessage,ソフィア,<size=26>Th-that's terrifying!<br> ,,mcv_1001030802_007_01,NORMAL,Mid,NORMAL,Sophia,TOP,NORMAL,0,0
+dotmessage,ソフィア,<size=32>Th-that's terrifying!<br> ,,mcv_1001030802_007_01,NORMAL,Mid,NORMAL,Sophia,TOP,NORMAL,0,0
 
 asyncobjectmotion,chara_1,C_Wait,0,1,C_Wait,0
 asyncobjectmotion,Sophia,C_Wait,0,1,C_Wait,0
@@ -652,12 +652,12 @@ objectdirect,Shiena,LEFT
 
 
 asyncobjectmotion,chara_1,N_think,1,1,None,1,CONT,0
-dotmessage,<user>,<size=26>Damn it，they just keep coming at us one after another!<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
-dotmessage,<user>,<size=26>They seem to know this terrain inside and out... they're  <br><size=26>too fast to run down.<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
+dotmessage,<user>,<size=32>Damn it，they just keep coming at us one after another!<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
+dotmessage,<user>,<size=32>They seem to know this terrain inside and out... they're <br><size=32>too fast to run down.<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
 objectmotion,chara_1,C_Wait,0,1,,1
 
 objectdirect,Shiena,LEFT
-dotmessage,シエナ,<size=26>Never mind that，let's move!<br> ,,mcv_1001030802_008_01,NORMAL,Mid,Anger,Shiena,TOP,NORMAL,0,0
+dotmessage,シエナ,<size=32>Never mind that，let's move!<br> ,,mcv_1001030802_008_01,NORMAL,Mid,Anger,Shiena,TOP,NORMAL,0,0
 
 objectdirect,Shiena,RIGHT
 objectmotion,Shiena,N_flyrun,0,1,,1,CONT,1
@@ -772,7 +772,7 @@ objectdirect,Himari,LEFT
 objectmotion,chara_10,C_Wait,0,1,,1
 
 
-dotmessage,シエナ,<size=26>We finally caught up...!<br> ,,mcv_1001030802_009_01,NORMAL,Mid,Anger,Shiena,TOP,NORMAL,0,0
+dotmessage,シエナ,<size=32>We finally caught up...!<br> ,,mcv_1001030802_009_01,NORMAL,Mid,Anger,Shiena,TOP,NORMAL,0,0
 
 //<user>たち追いつく
 asyncdotmove,chara_1,1,12,0,0,Linear,CONT,0
@@ -793,7 +793,7 @@ asyncwait
 objectmotion,Shiena,C_WeaponWait,0,1,,1,CONT,0
 asyncdotmove,Shiena,0.5,1,-0.5,0,Linear,CONT,0
 asyncwait
-dotmessage,シエナ,<size=26>Give Himari back!<br> ,,mcv_1001030802_010_01,NORMAL,Mid,Anger,Shiena,TOP,NORMAL,0,0
+dotmessage,シエナ,<size=32>Give Himari back!<br> ,,mcv_1001030802_010_01,NORMAL,Mid,Anger,Shiena,TOP,NORMAL,0,0
 
 asyncseplay,se4900059_2,se4900059,0,1,CONT,0
 objectmotion,Shiena,C_WeaponSkillCharge,1,1,,1,CONT,0
@@ -813,15 +813,15 @@ objectdirect,chara_10,LEFT
 asyncseplay,se4800007_4,se4800007,0,1,CONT,0
 objectemo,chara_10,Panic
 asyncobjectmotion,chara_10,N_sorrow,1,1,None,1,CONT,0
-dotmessage,盗賊団のお頭,<size=26>To think you'd chase us this far...<br> ,,mcv_1001030802_011_01,NORMAL_B,Mid,Anger,chara_10,TOP,NORMAL,0,0
+dotmessage,盗賊団のお頭,<size=32>To think you'd chase us this far...<br> ,,mcv_1001030802_011_01,NORMAL_B,Mid,Anger,chara_10,TOP,NORMAL,0,0
 
 //エモ　♪
 asyncseplay,se4800013_,se4800013,0,1,CONT,0
 objectemo,chara_10,Spirits
 asyncobjectmotion,chara_10,N_joy,1,1,None,1,CONT,0
-dotmessage,盗賊団のお頭,<size=26>...Just kidding!<br> ,,mcv_1001030802_012_01,NORMAL_B,Mid,FUN,chara_10,TOP,NORMAL,0,0
+dotmessage,盗賊団のお頭,<size=32>...Just kidding!<br> ,,mcv_1001030802_012_01,NORMAL_B,Mid,FUN,chara_10,TOP,NORMAL,0,0
 
-dotmessage,盗賊団のお頭,<size=26>It's a great help that you've moved exactly as predicted  <br><size=26>every step of the way.<br> ,,mcv_1001030802_013_01,NORMAL_B,Mid,FUN,chara_10,TOP,NORMAL,0,0
+dotmessage,盗賊団のお頭,<size=32>It's a great help that you've moved exactly as predicted <br><size=32>every step of the way.<br> ,,mcv_1001030802_013_01,NORMAL_B,Mid,FUN,chara_10,TOP,NORMAL,0,0
 
 //エモ　？
 asyncseplay,se4800009_4,se4800009,0,1,CONT,0
@@ -835,17 +835,17 @@ asyncobjectemo,chara_1,Question,CONT,0
 asyncseplay,se4800009_6,se4800009,0,1,CONT,0
 objectmotion,Shiena,C_WeaponWait,0,1,,1,CONT,0
 objectemo,Shiena,Question
-dotmessage,シエナ,<size=26>What do you mean by that?!<br> ,,mcv_1001030802_014_01,NORMAL,Mid,Anger,Shiena,TOP,NORMAL,0,0
+dotmessage,シエナ,<size=32>What do you mean by that?!<br> ,,mcv_1001030802_014_01,NORMAL,Mid,Anger,Shiena,TOP,NORMAL,0,0
 
 asyncobjectmotion,Kururu,N_lookup,1,1,None,1,CONT,0
-dotmessage,クルル,<size=26>Sniff sniff... this smell...<br> ,,mcv_1001030802_015_01,NORMAL,Mid,Anger,Kururu,TOP,NORMAL,0,0
+dotmessage,クルル,<size=32>Sniff sniff... this smell...<br> ,,mcv_1001030802_015_01,NORMAL,Mid,Anger,Kururu,TOP,NORMAL,0,0
 
 //エモ　！？
 asyncseplay,se4800011_5,se4800011,0,1,CONT,0
 objectemo,Kururu,ExclaQues
 asyncseplay,se4900059,se4900059,0,1,CONT,0
 asyncobjectmotion,Kururu,C_WeaponWait,1,1,None,1,CONT,0
-dotmessage,クルル,<size=26>Master! I smell something dangerous!<br> ,,mcv_1001030802_016_01,NORMAL,Mid,Anger,Kururu,TOP,NORMAL,0,0
+dotmessage,クルル,<size=32>Master! I smell something dangerous!<br> ,,mcv_1001030802_016_01,NORMAL,Mid,Anger,Kururu,TOP,NORMAL,0,0
 asyncobjectmotion,Kururu,C_WeaponWait,1,1,None,1,CONT,0
 
 //カメラ移動
@@ -875,7 +875,7 @@ asyncdotmove,chara_10_skill,0,3.5,1,0,Linear,CONT,0
 asyncseplay,se4800020_2,se4800020,0,1,CONT,0
 asyncobjectemo,chara_10_skill,Sleepy,CONT,0
 
-dotmessage,盗賊団のお頭,<size=26>This is where you end!<br> ,,mcv_1001030802_017_01,NORMAL_B,Mid,NORMAL,chara_10,TOP,NORMAL,0,0
+dotmessage,盗賊団のお頭,<size=32>This is where you end!<br> ,,mcv_1001030802_017_01,NORMAL_B,Mid,NORMAL,chara_10,TOP,NORMAL,0,0
 
 dotmove,chara_10,0.5,2.5,0,0,Linear
 
@@ -886,12 +886,12 @@ asyncobjectemo,chara_10_skill,Sleepy,CONT,0
 //エモ　汗
 asyncseplay,se4800008_7,se4800008,0,1,CONT,0
 objectemo,chara_1,Sweat
-dotmessage,<user>,<size=26>What are you planning...?<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,30,0
+dotmessage,<user>,<size=32>What are you planning...?<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,30,0
 
 //エモ　笑
 asyncseplay,se4800004_3,se4800004,0,1,CONT,0
 objectemo,chara_10,Laugh
-dotmessage,盗賊団のお頭,<size=26>This!<br> ,,mcv_1001030802_018_01,NORMAL_B,Mid,HAPPY,chara_10,TOP,NORMAL,0,0
+dotmessage,盗賊団のお頭,<size=32>This!<br> ,,mcv_1001030802_018_01,NORMAL_B,Mid,HAPPY,chara_10,TOP,NORMAL,0,0
 
 //ドラゴンにエフェクト
 objectdirect,chara_10,RIGHT
@@ -934,7 +934,7 @@ asyncobjectmotion,Marina,C_Wait,0,1,,0,CONT,0.12
 asyncobjectmotion,Kururu,C_WeaponWait,0,1,,0,CONT,0.13
 asyncobjectmotion,Shiena,C_WeaponWait,0,1,,0,CONT,0.1
 
-dotmessage,ベリサ,<size=26>He punched the dragon!?<br> ,,mcv_1001030802_019_01,NORMAL,Mid,Surprise,Belisa,TOP,NORMAL,0,0
+dotmessage,ベリサ,<size=32>He punched the dragon!?<br> ,,mcv_1001030802_019_01,NORMAL,Mid,Surprise,Belisa,TOP,NORMAL,0,0
 
 
 
@@ -942,7 +942,7 @@ dotmessage,ベリサ,<size=26>He punched the dragon!?<br> ,,mcv_1001030802_019_0
 asyncseplay,se4800007_5,se4800007,0,1,CONT,0
 objectemo,Sophia,Panic
 asyncobjectmotion,Sophia,C_Detection,0,1,,1,CONT,0
-dotmessage,ソフィア,<size=26>What is that?! That strength!?<br> ,,mcv_1001030802_020_01,NORMAL,Mid,Anger,Sophia,TOP,NORMAL,0,0
+dotmessage,ソフィア,<size=32>What is that?! That strength!?<br> ,,mcv_1001030802_020_01,NORMAL,Mid,Anger,Sophia,TOP,NORMAL,0,0
 
 
 //ドラゴン起き上がる
@@ -1005,7 +1005,7 @@ asyncdotmove,Shiena,0.25,1,0,0,Linear,CONT,0
 asyncwait
 asyncobjectmotion,Shiena,C_WeaponWait,0,1,,1,CONT,0
 
-dotmessage,シエナ,<size=26>Ugh... Himari... Himari—!<br> ,,mcv_1001030802_021_01,NORMAL,Mid,Anger,Shiena,TOP,NORMAL,0,0
+dotmessage,シエナ,<size=32>Ugh... Himari... Himari—!<br> ,,mcv_1001030802_021_01,NORMAL,Mid,Anger,Shiena,TOP,NORMAL,0,0
 
 linework,on,White,Strong,0.5
 asyncdotcamerazoom,1.2,0.1,LinearTarget,CONT,0.5

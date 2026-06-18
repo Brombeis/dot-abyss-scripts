@@ -36,7 +36,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
@@ -45,7 +45,7 @@ bgmplay,bgmtag1_1,bgm0041,0.75,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――大穴　最深階層</size>,,,on
+messageTextCenter,,<size=48>--The Abyss，Deepest Stratum</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -82,7 +82,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ベリサ,ここが写真に写ってたトコ～？<br>な～んか、地面も固くて暗いね～,100201000G,mcv_1001050201_001_01,chara_1
+message,ベリサ,<size=32>Is this the place from the photos~?                      <br><size=32>The ground's all hard and dark~<br> ,100201000G,mcv_1001050201_001_01,chara_1
 
 window,off
 wait,0.15
@@ -135,7 +135,7 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,マリナ,街ごとこっちの世界に転移されたってことですよねぇ～？<br>珍しいものもいっぱい見つかりそうですねぇ。,100301000G,mcv_1001050201_002_01,chara_3
+message,マリナ,<size=32>So a whole town got transported to this world~?          <br><size=32>I bet we'll find all sorts of rare things~<br> ,100301000G,mcv_1001050201_002_01,chara_3
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -147,7 +147,7 @@ asyncseplay,setag1_3,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,ソフィア,今回の目的は、まずは生存者の確認でしょ？<br>マリナ、勝手にいろんなもの収集しちゃダメよ？,106501000G,mcv_1001050201_003_01,chara_2
+message,ソフィア,<size=32>Our objective this time is to check for survivors first， <br><size=32>right? Marina， don't go collecting random things on your own!<br> ,106501000G,mcv_1001050201_003_01,chara_2
 
 asynccharaface,chara_3,FaceSurprise,CONT,0
 
@@ -158,9 +158,9 @@ asyncseplay,setag1_4,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,マリナ,わ、分かってますよぉ～……。<br>まずは人命救助！　まずは人命救助！,100301000G,mcv_1001050201_004_01,chara_3
+message,マリナ,<size=32>I-I know that~...                                        <br><size=32>Rescue first! Rescue first!<br> ,100301000G,mcv_1001050201_004_01,chara_3
 
-message,<user>,あれが、写真に写ってた巨大な建物か……。<br>想像以上にでかいな。
+message,<user>,<size=32>So that's the massive building from the photos...        <br><size=32>It's even bigger than I imagined.<br> 
 
 window,off
 wait,0.15
@@ -205,7 +205,7 @@ asynccharaemo,chara_4,Shock,CONT,0
 
 
 window,on,0.15
-message,クルル,でっかーい！　雲にもとどきそうだね～！,106701000G,mcv_1001050201_005_01,chara_4
+message,クルル,<size=32>It's huuuge! Looks like it could reach the clouds~!<br> ,106701000G,mcv_1001050201_005_01,chara_4
 
 window,off
 wait,0.15
@@ -252,9 +252,9 @@ asynccharaemo,chara_5,Dull,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,あのビル、あんなにボロボロになってる……。<br>地面もガタガタ……何が起きたの……？,106601000G,mcv_1001050201_006_01,chara_5
+message,ヒマリ,<size=32>That building is so beat up...                           <br><size=32>The ground's all uneven too... What happened here...?<br> ,106601000G,mcv_1001050201_006_01,chara_5
 
-message,<user>,巨大な地震でも起きた後のようだな。<br>ヒマリの世界でもよく起きるのか？　地震は。
+message,<user>,<size=32>It looks like a massive earthquake hit here.             <br><size=32>Did earthquakes happen often in your world too， Himari?<br> 
 
 window,off
 wait,0.15
@@ -302,7 +302,7 @@ asynccharaemo,chara_5,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,ヒマリの住んでた国は、地震大国って言われてて……。<br>でも、その分、建築物は耐震構造がしっかりしてるって聞いたけど……,106601000G,mcv_1001050201_007_01,chara_5
+message,ヒマリ,<size=32>The country I lived in was known as an earthquake-prone  <br><size=32>nation... But because of that， the buildings were built earthquake-resistant， or so I heard...<br> ,106601000G,mcv_1001050201_007_01,chara_5
 
 window,off
 wait,0.15
@@ -365,7 +365,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ベリサ,タイシンコーゾー？　何それ？,100201000G,mcv_1001050201_008_01,chara_1
+message,ベリサ,<size=32>Earthquake-resistant? What's that?<br> ,100201000G,mcv_1001050201_008_01,chara_1
 
 window,off
 wait,0.15
@@ -416,7 +416,7 @@ asynccharaemo,chara_5,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,大きな地震がきても崩れないように建物を設計してるの。<br>この国はその辺りの技術はすごいってパパが……,106601000G,mcv_1001050201_009_01,chara_5
+message,ヒマリ,<size=32>They design buildings so they don't collapse even in big <br><size=32>earthquakes. Papa said this country's technology for that was amazing...<br> ,106601000G,mcv_1001050201_009_01,chara_5
 
 window,off
 wait,0.15
@@ -479,7 +479,7 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,マリナ,素晴らしい建築技術ですぅ～。この橋も、随分と長いですよね～。<br>いったいどこまで続いてるんでしょう？,100301000G,mcv_1001050201_010_01,chara_3
+message,マリナ,<size=32>What wonderful architecture~! This bridge is quite long  <br><size=32>too~. I wonder how far it goes?<br> ,100301000G,mcv_1001050201_010_01,chara_3
 
 window,off
 wait,0.15
@@ -530,9 +530,9 @@ asynccharaemo,chara_5,Speak,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,これは、高速道路。ここは車しか走らない場所だから、<br>人を探すにはここから下りた方がいいかも……,106601000G,mcv_1001050201_011_01,chara_5
+message,ヒマリ,<size=32>This is a highway. Only cars are supposed to drive here， <br><size=32>so we should get down from here if we want to find people...<br> ,106601000G,mcv_1001050201_011_01,chara_5
 
-message,<user>,こんな高い所からどうやって下りるんだ？
+message,<user>,<size=32>How do we get down from this high up?<br> 
 
 window,off
 wait,0.15
@@ -550,9 +550,9 @@ asynccharaemo,chara_5,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,どこかに非常用の階段があるはず。<br>そこからなら……,106601000G,mcv_1001050201_012_01,chara_5
+message,ヒマリ,<size=32>There should be an emergency staircase somewhere.        <br><size=32>If we can find that...<br> ,106601000G,mcv_1001050201_012_01,chara_5
 
-message,<user>,よし、まずはその階段を探すところからだな。
+message,<user>,<size=32>All right， let's start by finding those stairs.<br> 
 
 window,off
 wait,0.15
@@ -605,7 +605,7 @@ asynccharaemo,chara_4,Speak,CONT,0
 
 
 window,on,0.15
-message,クルル,あちこちに、壊れた鉄の箱が転がってるね～。,106701000G,mcv_1001050201_013_01,chara_4
+message,クルル,<size=32>There's broken iron boxes scattered everywhere~!<br> ,106701000G,mcv_1001050201_013_01,chara_4
 
 window,off
 wait,0.15
@@ -670,7 +670,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ベリサ,なんか、壁にぶつかって潰れてない？,100201000G,mcv_1001050201_014_01,chara_1
+message,ベリサ,<size=32>Don't some of them look crushed against the walls?<br> ,100201000G,mcv_1001050201_014_01,chara_1
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -681,7 +681,7 @@ asyncseplay,setag1_15,se4800001,0,1,CONT,0
 asynccharaemo,chara_2,Anger,CONT,0
 
 
-message,ソフィア,みんな、むやみに近づかないの！<br>何が起きるか分からないでしょ？,106501000G,mcv_1001050201_015_01,chara_2
+message,ソフィア,<size=32>Everyone， don't get too close!                           <br><size=32>We don't know what could happen!<br> ,106501000G,mcv_1001050201_015_01,chara_2
 
 asyncjump,CHARA,chara_3,-30,0.25,1,off,0,CONT
 
@@ -690,7 +690,7 @@ asyncseplay,setag1_16,se4800022,0,1,CONT,0
 asynccharaemo,chara_3,Speak,CONT,0
 
 
-message,マリナ,車輪がついていますねぇ～。<br>鉄の馬車でしょうか？,100301000G,mcv_1001050201_016_01,chara_3
+message,マリナ,<size=32>They have wheels on them~.                               <br><size=32>Are they some kind of iron carriages?<br> ,100301000G,mcv_1001050201_016_01,chara_3
 
 window,off
 wait,0.15
@@ -751,7 +751,7 @@ asynccharaemo,chara_5,Speak,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,それは、自動車。<br>中に入って自分で運転するの。,106601000G,mcv_1001050201_017_01,chara_5
+message,ヒマリ,<size=32>Those are cars.                                          <br><size=32>You get inside and drive them yourself.<br> ,106601000G,mcv_1001050201_017_01,chara_5
 
 asynccharaface,chara_4,FaceSurprise,CONT,0
 
@@ -762,7 +762,7 @@ asyncseplay,setag1_18,se4800009,0,1,CONT,0
 asynccharaemo,chara_4,Question,CONT,0
 
 
-message,クルル,ジドーシャ？　速いの～？,106701000G,mcv_1001050201_018_01,chara_4
+message,クルル,<size=32>Cars? Are they fast~?<br> ,106701000G,mcv_1001050201_018_01,chara_4
 
 asynccharaface,chara_5,FaceFun,CONT,0
 
@@ -773,7 +773,7 @@ asyncseplay,setag1_19,se4800004,0,1,CONT,0
 asynccharaemo,chara_5,Laugh,CONT,0
 
 
-message,ヒマリ,速いよ。<br>お馬さんよりずっとずっと。,106601000G,mcv_1001050201_019_01,chara_5
+message,ヒマリ,<size=32>They're fast.                                            <br><size=32>Much， much faster than horses.<br> ,106601000G,mcv_1001050201_019_01,chara_5
 
 asynccharaface,chara_4,FaceHappy,CONT,0
 
@@ -784,7 +784,7 @@ asyncseplay,setag1_20,se4800003,0,1,CONT,0
 asynccharaemo,chara_4,Twinkle,CONT,0
 
 
-message,クルル,ええ～～！？　クルル乗ってみたい～！<br>ヒマリも動かせるの？,106701000G,mcv_1001050201_020_01,chara_4
+message,クルル,<size=32>Whaaaat!? Kururu wants to ride one~!                     <br><size=32>Can you drive them too， Himari?<br> ,106701000G,mcv_1001050201_020_01,chara_4
 
 asynccharaface,chara_5,FaceSurprise,CONT,0
 
@@ -795,7 +795,7 @@ asyncseplay,setag1_21,se4800007,0,1,CONT,0
 asynccharaemo,chara_5,Panic,CONT,0
 
 
-message,ヒマリ,え？<br>わたしは運転免許もってないから運転は……,106601000G,mcv_1001050201_021_01,chara_5
+message,ヒマリ,<size=32>Huh?                                                     <br><size=32>I don't have a driver's license， so I can't drive...<br> ,106601000G,mcv_1001050201_021_01,chara_5
 
 asynccharaface,chara_4,FaceSad,CONT,0
 
@@ -806,7 +806,7 @@ asyncseplay,setag1_22,se4800006,0,1,CONT,0
 asynccharaemo,chara_4,Trouble,CONT,0
 
 
-message,クルル,な～んだ、<br>ヒマリでも動かせないんだぁ～。,106701000G,mcv_1001050201_022_01,chara_4
+message,クルル,<size=32>Awww，                                                    <br><size=32>so even Himari can't drive them~.<br> ,106701000G,mcv_1001050201_022_01,chara_4
 
 window,off
 wait,0.15
@@ -872,7 +872,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ベリサ,高速移動できるんだ？<br>なんかルクスノヴァの道具みたいだね～。,100201000G,mcv_1001050201_023_01,chara_1
+message,ベリサ,<size=32>So they can move at high speed?                          <br><size=32>Sounds kinda like Lux Nova gadgets~<br> ,100201000G,mcv_1001050201_023_01,chara_1
 
 asyncshake,CHARA,chara_3,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -881,7 +881,7 @@ asyncseplay,setag1_24,se4800006,0,1,CONT,0
 asynccharaemo,chara_3,Trouble,CONT,0
 
 
-message,マリナ,でも、壊れちゃってて動かなさそうですね～。<br>あっちのなんて燃えた跡もありますし～。,100301000G,mcv_1001050201_024_01,chara_3
+message,マリナ,<size=32>But they all look broken and won't move~.                <br><size=32>That one over there even has burn marks~.<br> ,100301000G,mcv_1001050201_024_01,chara_3
 
 window,off
 wait,0.15
@@ -932,7 +932,7 @@ asynccharaemo,chara_5,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,おかしい……。なんで、車のキーが刺さったままなの？<br>まるで、運転中に慌てて逃げ出したみたい……,106601000G,mcv_1001050201_025_01,chara_5
+message,ヒマリ,<size=32>That's strange... Why are the car keys still in the      <br><size=32>ignition? It's like everyone fled in a panic while driving...<br> ,106601000G,mcv_1001050201_025_01,chara_5
 
 window,off
 wait,0.15
@@ -995,9 +995,9 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,ソフィア,みんな、あっちの扉の奥に階段らしきものが見えるわ！,106501000G,mcv_1001050201_026_01,chara_2
+message,ソフィア,<size=32>Everyone， I can see what looks like stairs behind that   <br><size=32>door over there!<br> ,106501000G,mcv_1001050201_026_01,chara_2
 
-message,<user>,よし。そこから下りられそうだな。<br>みんな、行くぞ！
+message,<user>,<size=32>Good. Looks like we can get down from there.             <br><size=32>Everyone， let's go!<br> 
 
 
 window,off
@@ -1100,7 +1100,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,こっちもボロボロね。,106501000G,mcv_1001050201_027_01,chara_2
+message,ソフィア,<size=32>This side's falling apart too.<br> ,106501000G,mcv_1001050201_027_01,chara_2
 
 window,off
 wait,0.15
@@ -1160,9 +1160,9 @@ asynccharaemo,chara_4,Trouble,CONT,0
 
 
 window,on,0.15
-message,クルル,う～ん……<br>だけど、人間の匂いは全然しないね～。,106701000G,mcv_1001050201_028_01,chara_4
+message,クルル,<size=32>Hmm~...                                                  <br><size=32>But I can't smell any humans at all~.<br> ,106701000G,mcv_1001050201_028_01,chara_4
 
-message,<user>,まるで、廃墟って感じだな……
+message,<user>,<size=32>It really does feel like ruins...<br> 
 
 window,off
 wait,0.15
@@ -1194,7 +1194,7 @@ asyncdotcameramove,2,0,LinearTarget,5,OnlyX,CONT
 asyncdotcameramove,2,0,LinearTarget,5,OnlyY,CONT
 
 window,on,0.15
-message,,視界に映るのは、瓦礫の山と化したビル群、曲がったガードレール。<br>その絶望的な光景に、ヒマリの顔から血の気が引いていく。
+message,,<size=32>All that meets the eye are buildings reduced to piles of <br><size=32>rubble and twisted guardrails. The color drains from Himari's face at the devastating sight.<br> 
 
 window,off
 wait,0.15
@@ -1237,7 +1237,7 @@ asynccharaemo,chara_5,Dull,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,こ、これ……これは……,106601000G,mcv_1001050201_029_01,chara_5
+message,ヒマリ,<size=32>Th-this... This is...<br> ,106601000G,mcv_1001050201_029_01,chara_5
 
 window,off
 wait,0.15
@@ -1300,7 +1300,7 @@ asynccharaemo,chara_3,Question,CONT,0
 
 
 window,on,0.15
-message,マリナ,ヒマリちゃん、その、鉄の板は何ですか？<br>何か文字が書かれてますけどぉ……,100301000G,mcv_1001050201_030_01,chara_3
+message,マリナ,<size=32>Himari， what's that iron plate?                          <br><size=32>There seems to be writing on it...<br> ,100301000G,mcv_1001050201_030_01,chara_3
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -1357,9 +1357,9 @@ asynccharaemo,chara_5,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,『芝公園３丁目』……,106601000G,mcv_1001050201_031_01,chara_5
+message,ヒマリ,<size=32>""Shiba Park 3-chome""...<br> ,106601000G,mcv_1001050201_031_01,chara_5
 
-message,<user>,知ってる場所なのか？
+message,<user>,<size=32>Do you recognize this place?<br> 
 
 asynccharaface,chara_5,EyeClose,CONT,0
 asynccharaface,chara_5,FaceNormal,CONT,0
@@ -1371,7 +1371,7 @@ asyncseplay,setag1_32,se4800007,0,1,CONT,0
 asynccharaemo,chara_5,Panic,CONT,0
 
 
-message,ヒマリ,ヒマリが、住んでいたマンションがあった場所……,106601000G,mcv_1001050201_032_01,chara_5
+message,ヒマリ,<size=32>This is where... the apartment building I lived in used  <br><size=32>to be...<br> ,106601000G,mcv_1001050201_032_01,chara_5
 
 window,off
 wait,0.15
@@ -1434,7 +1434,7 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ソフィア,えっ……！？,106501000G,mcv_1001050201_033_01,chara_2
+message,ソフィア,<size=32>What...!?<br> ,106501000G,mcv_1001050201_033_01,chara_2
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1445,7 +1445,7 @@ asyncseplay,setag1_34,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ベリサ,えっ？　えっ？<br>じゃあ、この瓦礫の山が……！？,100201000G,mcv_1001050201_034_01,chara_1
+message,ベリサ,<size=32>Huh? Huh?                                                <br><size=32>So this pile of rubble is...!?<br> ,100201000G,mcv_1001050201_034_01,chara_1
 
 window,off
 wait,0.15
@@ -1496,11 +1496,11 @@ asynccharaemo,chara_5,Dull,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,うん……ヒマリの住んでいた……おうち……,106601000G,mcv_1001050201_035_01,chara_5
+message,ヒマリ,<size=32>Yeah... Where I used to... live...<br> ,106601000G,mcv_1001050201_035_01,chara_5
 
-message,,ヒマリはあまりの絶望的な状態に、涙も浮かべず、<br>ただその光景を呆然と見つめて立ち尽くしている。
+message,,<size=32>Overwhelmed by the hopeless scene before her， Himari     <br><size=32>stands frozen， staring blankly without even shedding a tear.<br> 
 
-message,<user>,ヒマリ、諦めるのは早い。<br>こっちの世界に来て、まだ１つの遺体どころか１人の人間にも出会っていない。
+message,<user>,<size=32>Himari， don't give up yet. Since we came to this world，  <br><size=32>we haven't found a single body—or even a single person.<br> 
 
 window,off
 wait,0.15
@@ -1553,7 +1553,7 @@ asynccharaemo,chara_4,Exclamation,CONT,0
 
 
 window,on,0.15
-message,クルル,うんっ！　だいじょぶっ！<br>ここには人間の匂いなんてしないよ！　ヒマリ！,106701000G,mcv_1001050201_036_01,chara_4
+message,クルル,<size=32>Yeah! It's okay!                                         <br><size=32>There's no human scent around here at all! Himari!<br> ,106701000G,mcv_1001050201_036_01,chara_4
 
 asynccharaface,chara_5,FaceSurprise,CONT,0
 
@@ -1564,9 +1564,9 @@ asyncseplay,setag1_37,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,ヒマリ,どういうこと……？,106601000G,mcv_1001050201_037_01,chara_5
+message,ヒマリ,<size=32>What do you mean...?<br> ,106601000G,mcv_1001050201_037_01,chara_5
 
-message,<user>,街全体がこれだけの大惨事になってるんだ。<br>きっと、街の住人はどこかに避難してるんじゃないか？
+message,<user>,<size=32>The whole city is in this state of disaster. The         <br><size=32>residents must have evacuated somewhere， don't you think?<br> 
 
 window,off
 wait,0.15
@@ -1631,7 +1631,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,ソフィア,うん！　きっとそうよ！<br>地下とか、もっと頑丈な建物とかに避難してるはず！,106501000G,mcv_1001050201_038_01,chara_2
+message,ソフィア,<size=32>Yes! That must be it! They probably took shelter         <br><size=32>underground or in sturdier buildings!<br> ,106501000G,mcv_1001050201_038_01,chara_2
 
 window,off
 wait,0.15
@@ -1682,7 +1682,7 @@ asynccharaemo,chara_5,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,避難……？,106601000G,mcv_1001050201_039_01,chara_5
+message,ヒマリ,<size=32>Evacuated...?<br> ,106601000G,mcv_1001050201_039_01,chara_5
 
 window,off
 wait,0.15
@@ -1745,7 +1745,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,ベリサ,ぜ～ったいそうだよ！　前線基地が厄災に襲われた時もそうだったもん！<br>おにーさんみたいな人が誘導して、みんな生きてるんじゃない？,100201000G,mcv_1001050201_040_01,chara_1
+message,ベリサ,<size=32>I'm suuure of it! It was the same when the Calamity      <br><size=32>attacked the forward base! Someone like you probably guided them to safety， and they're all alive!<br> ,100201000G,mcv_1001050201_040_01,chara_1
 
 asynccharaface,chara_3,FaceFun,CONT,0
 
@@ -1756,7 +1756,7 @@ asyncseplay,setag1_41,se4800022,0,1,CONT,0
 asynccharaemo,chara_3,Speak,CONT,0
 
 
-message,マリナ,ヒマリちゃん、希望を捨てないでください。<br>きっと、避難してる場所に、ヒマリちゃんのお父さまはいますよ♪,100301000G,mcv_1001050201_041_01,chara_3
+message,マリナ,<size=32>Himari， please don't lose hope.                          <br><size=32>I'm sure your father is at wherever they evacuated to♪<br> ,100301000G,mcv_1001050201_041_01,chara_3
 
 window,off
 wait,0.15
@@ -1807,9 +1807,9 @@ asynccharaemo,chara_5,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,み、みんな……,106601000G,mcv_1001050201_042_01,chara_5
+message,ヒマリ,<size=32>E-everyone...<br> ,106601000G,mcv_1001050201_042_01,chara_5
 
-message,,ヒマリは、零れ落ちそうになる涙の粒を指で拭う。
+message,,<size=32>Himari wipes away the tears threatening to spill from her<br><size=32>eyes.<br> 
 
 asynccharaface,chara_5,FaceAnger,CONT,0
 
@@ -1820,7 +1820,7 @@ asyncseplay,setag1_43,se4800010,0,1,CONT,0
 asynccharaemo,chara_5,Exclamation,CONT,0
 
 
-message,ヒマリ,そうだね。きっとそう……。<br>パパはやりすぎなくらい災害対策にマジメな人だったもの……,106601000G,mcv_1001050201_043_01,chara_5
+message,ヒマリ,<size=32>You're right. It must be... Papa was always so serious   <br><size=32>about disaster preparedness， almost too much so...<br> ,106601000G,mcv_1001050201_043_01,chara_5
 
 window,off
 wait,0.15
@@ -1885,7 +1885,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,ソフィア,へえ。普段から災害訓練をされてるお父様だったの？,106501000G,mcv_1001050201_044_01,chara_2
+message,ソフィア,<size=32>Oh? So your father did regular disaster drills?<br> ,106501000G,mcv_1001050201_044_01,chara_2
 
 window,off
 wait,0.15
@@ -1939,7 +1939,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒマリ,訓練って程じゃないけど、缶詰や乾パンとか保存食を常備してたり、<br>防災リュックにいつもパンパンに荷物詰めてたり……,106601000G,mcv_1001050201_045_01,chara_5
+message,ヒマリ,<size=32>Not quite drills， but he always kept canned food and     <br><size=32>hardtack stocked up， and his emergency backpack was always stuffed full...<br> ,106601000G,mcv_1001050201_045_01,chara_5
 
 window,off
 wait,0.15
@@ -1993,7 +1993,7 @@ asynccharaemo,chara_4,Twinkle,CONT,0
 
 
 window,on,0.15
-message,クルル,あはっ♪　リュックがパンパンってマリナみたい～～！,106701000G,mcv_1001050201_046_01,chara_4
+message,クルル,<size=32>Ahaha♪ A backpack stuffed full— just like Marina~~!<br> ,106701000G,mcv_1001050201_046_01,chara_4
 
 window,off
 wait,0.15
@@ -2059,7 +2059,7 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,マリナ,うふふっ♪　そうですねぇ～。,100301000G,mcv_1001050201_047_01,chara_3
+message,マリナ,<size=32>Ufufu♪ I suppose so~.<br> ,100301000G,mcv_1001050201_047_01,chara_3
 
 window,off
 wait,0.15
@@ -2104,7 +2104,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,なるほど、しっかりしてるじゃないか。<br>ならば、有事の時の避難先も決まってたんじゃないのか？
+message,<user>,<size=32>I see， sounds like he had it together. Then he must've   <br><size=32>had a designated evacuation point for emergencies too， right?<br> 
 
 asynccharaface,chara_5,FaceSurprise,CONT,0
 
@@ -2115,7 +2115,7 @@ asyncseplay,setag1_48,se4800017,0,1,CONT,0
 asynccharaemo,chara_5,Shock,CONT,0
 
 
-message,ヒマリ,避難先……、そ、そうだ……！　小学校！<br>近所の小学校の体育館に避難することになってた！,106601000G,mcv_1001050201_048_01,chara_5
+message,ヒマリ,<size=32>An evacuation point... Th-that's right...! The elementary<br><size=32>school! We were supposed to evacuate to the gym at the neighborhood school!<br> ,106601000G,mcv_1001050201_048_01,chara_5
 
 window,off
 wait,0.15
@@ -2169,7 +2169,7 @@ asynccharaemo,chara_4,Question,CONT,0
 
 
 window,on,0.15
-message,クルル,学校？　ヒマリやシエナが通ってたってトコ～？,106701000G,mcv_1001050201_049_01,chara_4
+message,クルル,<size=32>A school? The place you and Siena went to~?<br> ,106701000G,mcv_1001050201_049_01,chara_4
 
 asynccharaface,chara_5,EyeOpen,CONT,0
 asynccharaface,chara_5,FaceNormal,CONT,0
@@ -2181,7 +2181,7 @@ asyncseplay,setag1_50,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,ヒマリ,ううん。そこの小学校は公立の小学校だから、<br>ヒマリたちは通ってなかったんだけどね。,106601000G,mcv_1001050201_050_01,chara_5
+message,ヒマリ,<size=32>No. That elementary school is a public school，           <br><size=32>so we didn't actually go there.<br> ,106601000G,mcv_1001050201_050_01,chara_5
 
 window,off
 wait,0.15
@@ -2248,7 +2248,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ベリサ,そこに行けば、ヒマリのパパがいるかもしれないってこと？,100201000G,mcv_1001050201_051_01,chara_1
+message,ベリサ,<size=32>So if we go there， Himari's Papa might be there?<br> ,100201000G,mcv_1001050201_051_01,chara_1
 
 window,off
 wait,0.15
@@ -2293,7 +2293,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,生存者がいる可能性があるとすればそこだな……。<br>ヒマリ、その学校がどの方向にあるか分かるか？
+message,<user>,<size=32>If there are any survivors， that's where they'd be...    <br><size=32>Himari， do you know which direction the school is?<br> 
 
 asyncjump,CHARA,chara_5,-30,0.25,1,off,0,CONT
 
@@ -2302,9 +2302,9 @@ asyncseplay,setag1_52,se4800007,0,1,CONT,0
 asynccharaemo,chara_5,Panic,CONT,0
 
 
-message,ヒマリ,うん。目印になる建物がほとんど崩れてしまってるけど、<br>方角はこっち……。こっちの通りだよ。,106601000G,mcv_1001050201_052_01,chara_5
+message,ヒマリ,<size=32>Yeah. Most of the landmark buildings have collapsed，     <br><size=32>but... It's this way... Down this street.<br> ,106601000G,mcv_1001050201_052_01,chara_5
 
-message,<user>,よし。じゃあ、その避難所に向かうぞ！
+message,<user>,<size=32>All right. Then let's head for that shelter!<br> 
 
 
 window,off
@@ -2376,7 +2376,7 @@ asynccharaemo,chara_4,Shock,CONT,0
 
 
 window,on,0.15
-message,クルル,わわっ！　道がふさがっちゃってるよ～？,106701000G,mcv_1001050201_053_01,chara_4
+message,クルル,<size=32>Whoa! The road is blocked~!<br> ,106701000G,mcv_1001050201_053_01,chara_4
 
 asynccharaface,chara_5,FaceSad,CONT,0
 
@@ -2387,9 +2387,9 @@ asyncseplay,setag1_54,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,ヒマリ,そんな……。<br>小学校へはこのまま真っすぐいけば、もうすぐなのに……,106601000G,mcv_1001050201_054_01,chara_5
+message,ヒマリ,<size=32>No way... The school is so close if we just go straight  <br><size=32>from here...<br> ,106601000G,mcv_1001050201_054_01,chara_5
 
-message,<user>,回り道するしかないか。<br>ヒマリ、他のルートの記憶はないのか？
+message,<user>,<size=32>Looks like we'll have to take a detour.                  <br><size=32>Himari， do you remember any other routes?<br> 
 
 asynccharaface,chara_5,EyeOpen,CONT,0
 asynccharaface,chara_5,FaceNormal,CONT,0
@@ -2401,9 +2401,9 @@ asyncseplay,setag1_55,se4800007,0,1,CONT,0
 asynccharaemo,chara_5,Panic,CONT,0
 
 
-message,ヒマリ,うん。遠回りになるけど、<br>大通りを抜けて三叉路を左にいけば……,106601000G,mcv_1001050201_055_01,chara_5
+message,ヒマリ,<size=32>Yeah. It's a longer way around， but if we go through the <br><size=32>main road and turn left at the three-way intersection...<br> ,106601000G,mcv_1001050201_055_01,chara_5
 
-message,<user>,よし。道案内は任せた！
+message,<user>,<size=32>Good. I'm counting on you to lead the way!<br> 
 
 asynccharaface,chara_5,FaceAnger,CONT,0
 
@@ -2414,7 +2414,7 @@ asyncseplay,setag1_56,se4800010,0,1,CONT,0
 asynccharaemo,chara_5,Exclamation,CONT,0
 
 
-message,ヒマリ,こっち……！,106601000G,mcv_1001050201_056_01,chara_5
+message,ヒマリ,<size=32>This way...!<br> ,106601000G,mcv_1001050201_056_01,chara_5
 
 window,off
 wait,0.15
@@ -2430,7 +2430,7 @@ emodelete,chara_5,0,0
 asyncwait
 
 window,on,0.15
-message,,ヒマリが方向転換し、大通りを歩きかけたところで立ち止まる。
+message,,<size=32>Himari turns and starts walking toward the main road，    <br><size=32>then stops in her tracks.<br> 
 
 window,off
 wait,0.15
@@ -2473,9 +2473,9 @@ asynccharaemo,chara_5,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,え……？,106601000G,mcv_1001050201_057_01,chara_5
+message,ヒマリ,<size=32>Huh...?<br> ,106601000G,mcv_1001050201_057_01,chara_5
 
-message,<user>,ん？　どうかしたのか？
+message,<user>,<size=32>Hm? What's wrong?<br> 
 
 asyncshake,CHARA,chara_5,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -2484,7 +2484,7 @@ asyncseplay,setag1_58,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,ヒマリ,なんで……？<br>東京タワーが……,106601000G,mcv_1001050201_058_01,chara_5
+message,ヒマリ,<size=32>Why...?                                                  <br><size=32>Tokyo Tower is...<br> ,106601000G,mcv_1001050201_058_01,chara_5
 
 window,off
 wait,0.15
@@ -2547,7 +2547,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ベリサ,ん～？　タワー？<br>な～んにも見えないけど……,100201000G,mcv_1001050201_059_01,chara_1
+message,ベリサ,<size=32>Hm~? A tower?                                            <br><size=32>I don't see anything though...<br> ,100201000G,mcv_1001050201_059_01,chara_1
 
 window,off
 wait,0.15
@@ -2606,7 +2606,7 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,クルル,ヒマリ、どうしちゃったの～？,106701000G,mcv_1001050201_060_01,chara_4
+message,クルル,<size=32>Himari， what's wrong~?<br> ,106701000G,mcv_1001050201_060_01,chara_4
 
 asynccharaface,chara_5,FaceSad,CONT,0
 
@@ -2617,7 +2617,7 @@ asyncseplay,setag1_61,se4800007,0,1,CONT,0
 asynccharaemo,chara_5,Panic,CONT,0
 
 
-message,ヒマリ,タワーが……東京タワーがないの……！<br>ここにあるはずの、巨大な建造物が……,106601000G,mcv_1001050201_061_01,chara_5
+message,ヒマリ,<size=32>The tower... Tokyo Tower is gone...!                     <br><size=32>There should be a massive structure right here...<br> ,106601000G,mcv_1001050201_061_01,chara_5
 
 window,off
 wait,0.15
@@ -2682,7 +2682,7 @@ asynccharaemo,chara_2,Question,CONT,0
 
 
 window,on,0.15
-message,ソフィア,どういうことなのかしら？<br>その建造物が破壊されたってこと？,106501000G,mcv_1001050201_062_01,chara_2
+message,ソフィア,<size=32>What does that mean?                                     <br><size=32>Was the structure destroyed?<br> ,106501000G,mcv_1001050201_062_01,chara_2
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -2691,9 +2691,9 @@ asyncseplay,setag1_63,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ベリサ,それにしちゃ、綺麗な広場じゃない？<br>最初っからなんにもなかったみたいにさぁ～。,100201000G,mcv_1001050201_063_01,chara_1
+message,ベリサ,<size=32>For that， it's a pretty clean plaza though~              <br><size=32>It looks like nothing was ever here to begin with~.<br> ,100201000G,mcv_1001050201_063_01,chara_1
 
-message,<user>,ヒマリ、本当にこの場所にあったのか？
+message,<user>,<size=32>Himari， are you sure it was in this exact spot?<br> 
 
 window,off
 wait,0.15
@@ -2744,7 +2744,7 @@ asynccharaemo,chara_5,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,うん。だって、この街のシンボルのようなものだもの。<br>それなのに……なんでないの……！？,106601000G,mcv_1001050201_064_01,chara_5
+message,ヒマリ,<size=32>Yes. It was like the symbol of this city.                <br><size=32>And yet... why is it gone...!?<br> ,106601000G,mcv_1001050201_064_01,chara_5
 
 window,off
 wait,0.15
@@ -2807,9 +2807,9 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,マリナ,え、えっと……どうします？<br>その建物の調査に向かいますぅ？,100301000G,mcv_1001050201_065_01,chara_3
+message,マリナ,<size=32>Um... What should we do?                                 <br><size=32>Should we go investigate where that building was?<br> ,100301000G,mcv_1001050201_065_01,chara_3
 
-message,<user>,いや、まずは生存者の確認が最優先だ。<br>ヒマリ、避難場所へのルートを教えてくれ。
+message,<user>,<size=32>No， finding survivors is our top priority.               <br><size=32>Himari， show us the route to the evacuation point.<br> 
 
 window,off
 wait,0.15
@@ -2862,7 +2862,7 @@ asynccharaemo,chara_5,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,う、うん……。分かった……,106601000G,mcv_1001050201_066_01,chara_5
+message,ヒマリ,<size=32>O-okay... Got it...<br> ,106601000G,mcv_1001050201_066_01,chara_5
 
 window,off
 bgmstop,bgmtag1_2,0.5

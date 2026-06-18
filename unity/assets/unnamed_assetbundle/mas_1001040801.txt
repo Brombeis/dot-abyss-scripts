@@ -77,7 +77,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 
 window,on,0.15
-message,クルル,<size=26>I-I can't go on... Kururu has no more strength〜...<br> ,106701000G,mcv_1001040801_001_01,chara_1
+message,クルル,<size=32>I-I can't go on... Kururu has no more strength〜...<br> ,106701000G,mcv_1001040801_001_01,chara_1
 
 window,off
 wait,0.15
@@ -126,7 +126,7 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=26>This is... getting a little dangerous... I think〜...<br> ,100301000G,mcv_1001040801_002_01,chara_4
+message,マリナ,<size=32>This is... getting a little dangerous... I think〜...<br> ,100301000G,mcv_1001040801_002_01,chara_4
 
 asyncjump,CHARA,chara_3,40,0.5,2,off,0,CONT
 
@@ -135,7 +135,7 @@ asyncseplay,setag1_3,se4800015,0,1,CONT,0
 asynccharaemo,chara_3,Dull,CONT,0
 
 
-message,ベリサ,<size=26>My head is throbbing〜〜〜... I feel so sick〜〜〜...<br> ,100201000G,mcv_1001040801_003_01,chara_3
+message,ベリサ,<size=32>My head is throbbing〜〜〜... I feel so sick〜〜〜...<br> ,100201000G,mcv_1001040801_003_01,chara_3
 
 asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
 
@@ -144,9 +144,9 @@ asyncseplay,setag1_4,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ソフィア,<size=26>Hah，hah... e-everyone，stay strong...!<br> ,106501000G,mcv_1001040801_004_01,chara_2
+message,ソフィア,<size=32>Hah，hah... e-everyone，stay strong...!<br> ,106501000G,mcv_1001040801_004_01,chara_2
 
-message,<user>,<size=22>Marina，distribute the special potions to everyone! Now is the time to<br><size=22>use the ultra-concentrated potions formulated for the Hunger Calamity!<br> 
+message,<user>,<size=32>Marina，distribute the special potions to everyone! Now is<br><size=32>the time to use the ultra-concentrated potions formulated for the Hunger Calamity!<br> 
 
 asynccharaface,chara_4,FaceAnger,CONT,0
 
@@ -157,7 +157,7 @@ asyncseplay,setag1_5,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,マリナ,<size=26>Yes〜〜〜! Preparing them right now〜〜〜!<br> ,100301000G,mcv_1001040801_005_01,chara_4
+message,マリナ,<size=32>Yes〜〜〜! Preparing them right now〜〜〜!<br> ,100301000G,mcv_1001040801_005_01,chara_4
 
 window,off
 wait,0.15
@@ -209,7 +209,7 @@ asynccharaemo,chara_5,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,<size=26>Hah，hah... I... can barely breathe...<br> ,106601000G,mcv_1001040801_006_01,chara_5
+message,ヒマリ,<size=32>Hah，hah... I... can barely breathe...<br> ,106601000G,mcv_1001040801_006_01,chara_5
 
 window,off
 wait,0.15
@@ -261,7 +261,7 @@ asynccharaemo,chara_6,Panic,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=26>Himari，are you all right!? Your face is completely white.<br> ,300501000,mcv_1001040801_007_01,chara_6
+message,シエナ,<size=32>Himari，are you all right!? Your face is completely white.<br> ,300501000,mcv_1001040801_007_01,chara_6
 
 asynccharaface,chara_5,FaceSad,CONT,0
 
@@ -272,7 +272,7 @@ asyncseplay,setag1_8,se4800015,0,1,CONT,0
 asynccharaemo,chara_5,Dull,CONT,0
 
 
-message,ヒマリ,<size=26>I might not... be all right...<br> ,106601000G,mcv_1001040801_008_01,chara_5
+message,ヒマリ,<size=32>I might not... be all right...<br> ,106601000G,mcv_1001040801_008_01,chara_5
 
 asynccharaface,chara_6,FaceSad,CONT,0
 
@@ -283,7 +283,7 @@ asyncseplay,setag1_9,se4800007,0,1,CONT,0
 asynccharaemo,chara_6,Panic,CONT,0
 
 
-message,シエナ,<size=26>Marina，please give Himari one of those potions too!       <br><size=26>Quickly!<br> ,300501000,mcv_1001040801_009_01,chara_6
+message,シエナ,<size=32>Marina，please give Himari one of those potions too!      <br><size=32>Quickly!<br> ,300501000,mcv_1001040801_009_01,chara_6
 
 asynccharaface,chara_6,FaceAnger,CONT,0
 
@@ -294,9 +294,9 @@ asyncseplay,setag1_10,se4800008,0,1,CONT,0
 asynccharaemo,chara_6,Sweat,CONT,0
 
 
-message,シエナ,<size=22>Himari hasn't figured out how to manage her power yet. So the level  <br><size=22>of her fatigue is probably in a completely different league from everyone else's...<br> ,300501000,mcv_1001040801_010_01,chara_6
+message,シエナ,<size=32>Himari hasn't figured out how to manage her power yet. So<br><size=32>the level of her fatigue is probably in a completely different league from everyone else's...<br> ,300501000,mcv_1001040801_010_01,chara_6
 
-message,<user>,<size=22>Everyone，drink the ultra-concentrated potions quickly! At this       <br><size=22>rate，we'll collapse before we even get to fight the Hunger Calamity!<br> 
+message,<user>,<size=32>Everyone，drink the ultra-concentrated potions quickly! At<br><size=32>this rate，we'll collapse before we even get to fight the Hunger Calamity!<br> 
 
 window,off
 wait,0.15
@@ -364,7 +364,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=26>H-hold on... I've been drinking potions and they're just  <br><size=26>not kicking in...<br> ,106501000G,mcv_1001040801_011_01,chara_2
+message,ソフィア,<size=32>H-hold on... I've been drinking potions and they're just <br><size=32>not kicking in...<br> ,106501000G,mcv_1001040801_011_01,chara_2
 
 asynccharaface,chara_4,FaceSurprise,CONT,0
 
@@ -375,9 +375,9 @@ asyncseplay,setag1_12,se4800017,0,1,CONT,0
 asynccharaemo,chara_4,Shock,CONT,0
 
 
-message,マリナ,<size=26>Why!? They're an absurdly expensive specially formulated  <br><size=26>potion〜〜!?<br> ,100301000G,mcv_1001040801_012_01,chara_4
+message,マリナ,<size=32>Why!? They're an absurdly expensive specially formulated <br><size=32>potion〜〜!?<br> ,100301000G,mcv_1001040801_012_01,chara_4
 
-message,<user>,<size=26>This can't be right!? Damn it—the Calamity's weakening    <br><size=26>ability is outpacing the potion's effect!?<br> 
+message,<user>,<size=32>This can't be right!? Damn it—the Calamity's weakening   <br><size=32>ability is outpacing the potion's effect!?<br> 
 
 window,off
 wait,0.15
@@ -430,9 +430,9 @@ asynccharaemo,chara_6,Exclamation,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=26>Commander，we're running out of time! Use the Sky Hopper   <br><size=26>for emergency evacuation!<br> ,300501000,mcv_1001040801_013_01,chara_6
+message,シエナ,<size=32>Commander，we're running out of time! Use the Sky Hopper  <br><size=32>for emergency evacuation!<br> ,300501000,mcv_1001040801_013_01,chara_6
 
-message,<user>,<size=26>Right，you have your flying units! But is it okay? Can they<br><size=26>carry this many people?<br> 
+message,<user>,<size=32>Right，you have your flying units! But is it okay? Can    <br><size=32>they carry this many people?<br> 
 
 window,off
 wait,0.15
@@ -450,9 +450,9 @@ asynccharaemo,chara_6,Elated,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=22>This time I prepared two—my own and one for Himari's emergency       <br><size=22>evacuation. At maximum output，we should be able to get everyone somewhere the Calamity's influence is thinner.<br> ,300501000,mcv_1001040801_014_01,chara_6
+message,シエナ,<size=32>This time I prepared two—my own and one for Himari's     <br><size=32>emergency evacuation. At maximum output，we should be able to get everyone somewhere the Calamity's influence is thinner.<br> ,300501000,mcv_1001040801_014_01,chara_6
 
-message,<user>,<size=26>No time to deliberate. Alright，everyone get ready!        <br><size=26>Emergency evacuation!<br> 
+message,<user>,<size=32>No time to deliberate. Alright，everyone get ready!       <br><size=32>Emergency evacuation!<br> 
 
 
 bgmstop,bgmtag1_1,1.5,0
@@ -504,9 +504,9 @@ wait,0.15
 
 
 window,on,0.15
-message,,<size=26><user> and the others attempted an emergency escape using <br><size=26>Luxnova's flying units.<br> 
+message,,<size=32><user> and the others attempted an emergency escape using<br><size=32>Luxnova's flying units.<br> 
 
-message,,<size=22>However，having pushed the units to maximum output for high-speed     <br><size=22>flight carrying such a large group，they overheated，forcing an emergency landing—<br> 
+message,,<size=32>However，having pushed the units to maximum output for    <br><size=32>high-speed flight carrying such a large group，they overheated，forcing an emergency landing—<br> 
 
 bgmplay,bgmtag1_2,bgm0025,0.75,1
 
@@ -539,11 +539,11 @@ asynccharaemo,chara_6,Trouble,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=26>I'm sorry. The units seem to have overheated...<br> ,300501000,mcv_1001040801_015_01,chara_6
+message,シエナ,<size=32>I'm sorry. The units seem to have overheated...<br> ,300501000,mcv_1001040801_015_01,chara_6
 
-message,<user>,<size=26>No，it's fine. We still managed to get to a floor where the<br><size=26>miasma is considerably thinner.<br> 
+message,<user>,<size=32>No，it's fine. We still managed to get to a floor where   <br><size=32>the miasma is considerably thinner.<br> 
 
-message,<user>,<size=26>Here，the recovery from potions and food should be enough. <br><size=26>Everyone，focus on recovering quickly!<br> 
+message,<user>,<size=32>Here，the recovery from potions and food should be enough.<br><size=32>Everyone，focus on recovering quickly!<br> 
 
 asynccharaface,chara_6,EyeOpen,CONT,0
 asynccharaface,chara_6,FaceNormal,CONT,0
@@ -555,9 +555,9 @@ asyncseplay,setag1_16,se4800022,0,1,CONT,0
 asynccharaemo,chara_6,Speak,CONT,0
 
 
-message,シエナ,<size=26>The Sky Hopper isn't broken either. It should be usable   <br><size=26>again after cooling down for a bit.<br> ,300501000,mcv_1001040801_016_01,chara_6
+message,シエナ,<size=32>The Sky Hopper isn't broken either. It should be usable  <br><size=32>again after cooling down for a bit.<br> ,300501000,mcv_1001040801_016_01,chara_6
 
-message,<user>,<size=26>Understood. For now，everyone waits here until their       <br><size=26>fatigue recovers.<br> 
+message,<user>,<size=32>Understood. For now，everyone waits here until their      <br><size=32>fatigue recovers.<br> 
 
 window,off
 wait,0.15
@@ -600,7 +600,7 @@ asynccharaemo,chara_4,Spirits,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=26>Everyone，please drink the ultra-concentrated potions〜!    <br><size=26>Great for strength and vitality〜♪<br> ,100301000G,mcv_1001040801_017_01,chara_4
+message,マリナ,<size=32>Everyone，please drink the ultra-concentrated potions〜!   <br><size=32>Great for strength and vitality〜♪<br> ,100301000G,mcv_1001040801_017_01,chara_4
 
 window,off
 wait,0.15
@@ -665,7 +665,7 @@ asynccharaemo,chara_3,Shock,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=26>Pfft! Wh-what is this taste〜! It's way too bitter〜!<br> ,100201000G,mcv_1001040801_018_01,chara_3
+message,ベリサ,<size=32>Pfft! Wh-what is this taste〜! It's way too bitter〜!<br> ,100201000G,mcv_1001040801_018_01,chara_3
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -674,7 +674,7 @@ asyncseplay,setag1_19,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,クルル,<size=26>Kururu hates this taste〜〜〜〜!<br> ,106701000G,mcv_1001040801_019_01,chara_1
+message,クルル,<size=32>Kururu hates this taste〜〜〜〜!<br> ,106701000G,mcv_1001040801_019_01,chara_1
 
 asynccharaface,chara_5,FaceHappy,CONT,0
 
@@ -685,7 +685,7 @@ asyncseplay,setag1_20,se4800022,0,1,CONT,0
 asynccharaemo,chara_5,Speak,CONT,0
 
 
-message,ヒマリ,<size=26>Kururu，I know it might not taste great，but let's bear with<br><size=26>it. You'll feel better right away and get stronger...<br> ,106601000G,mcv_1001040801_020_01,chara_5
+message,ヒマリ,<size=32>Kururu，I know it might not taste great，but let's bear    <br><size=32>with it. You'll feel better right away and get stronger...<br> ,106601000G,mcv_1001040801_020_01,chara_5
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -696,7 +696,7 @@ asyncseplay,setag1_21,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,クルル,<size=26>Huh? Will I get stronger? Then I'll drink it〜〜〜!<br> ,106701000G,mcv_1001040801_021_01,chara_1
+message,クルル,<size=32>Huh? Will I get stronger? Then I'll drink it〜〜〜!<br> ,106701000G,mcv_1001040801_021_01,chara_1
 
 asynccharaface,chara_3,FaceSurprise,CONT,0
 
@@ -707,7 +707,7 @@ asyncseplay,setag1_22,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,ベリサ,<size=26>You're so easy to read〜，Kururu〜.<br> ,100201000G,mcv_1001040801_022_01,chara_3
+message,ベリサ,<size=32>You're so easy to read〜，Kururu〜.<br> ,100201000G,mcv_1001040801_022_01,chara_3
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -718,7 +718,7 @@ asyncseplay,setag1_23,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,クルル,<size=26>Ehehehe〜♪ She complimented me〜♪<br> ,106701000G,mcv_1001040801_023_01,chara_1
+message,クルル,<size=32>Ehehehe〜♪ She complimented me〜♪<br> ,106701000G,mcv_1001040801_023_01,chara_1
 
 asynccharaface,chara_3,FaceAnger,CONT,0
 
@@ -729,7 +729,7 @@ asyncseplay,setag1_24,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,ベリサ,<size=26>I didn't compliment you! I didn't，I said!<br> ,100201000G,mcv_1001040801_024_01,chara_3
+message,ベリサ,<size=32>I didn't compliment you! I didn't，I said!<br> ,100201000G,mcv_1001040801_024_01,chara_3
 
 asynccharaface,chara_5,FaceFun,CONT,0
 
@@ -740,7 +740,7 @@ asyncseplay,setag1_25,se4800004,0,1,CONT,0
 asynccharaemo,chara_5,Laugh,CONT,0
 
 
-message,ヒマリ,<size=26>Ahaha♪ Now，let's all drink together.<br> ,106601000G,mcv_1001040801_025_01,chara_5
+message,ヒマリ,<size=32>Ahaha♪ Now，let's all drink together.<br> ,106601000G,mcv_1001040801_025_01,chara_5
 
 window,off
 wait,0.15
@@ -820,7 +820,7 @@ asynccharaemo,chara_6,Speak,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=26>(I see. Himari... while staying at the frontline base，she <br><size=26>got so close to everyone...)<br> ,300501000,mcv_1001040801_027_01,chara_6
+message,シエナ,<size=32>(I see. Himari... while staying at the frontline base，she<br><size=32>got so close to everyone...)<br> ,300501000,mcv_1001040801_027_01,chara_6
 
 window,off
 wait,0.15
@@ -865,9 +865,9 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=26>Hey，is the Commander okay...?<br> ,106501000G,mcv_1001040801_028_01,chara_2
+message,ソフィア,<size=32>Hey，is the Commander okay...?<br> ,106501000G,mcv_1001040801_028_01,chara_2
 
-message,<user>,<size=26>Do I look okay? One moment of carelessness and I'll       <br><size=26>collapse—it's pure willpower at this point.<br> 
+message,<user>,<size=32>Do I look okay? One moment of carelessness and I'll      <br><size=32>collapse—it's pure willpower at this point.<br> 
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -878,9 +878,9 @@ asyncseplay,setag1_29,se4800009,0,1,CONT,0
 asynccharaemo,chara_2,Question,CONT,0
 
 
-message,ソフィア,<size=26>Really? You honestly look like you have the best color of <br><size=26>anyone here.<br> ,106501000G,mcv_1001040801_029_01,chara_2
+message,ソフィア,<size=32>Really? You honestly look like you have the best color of<br><size=32>anyone here.<br> ,106501000G,mcv_1001040801_029_01,chara_2
 
-message,<user>,<size=24>Is that so? I guess it's just that I haven't been involved in  <br><size=24>combat. My stamina usage is completely different from yours.<br> 
+message,<user>,<size=32>Is that so? I guess it's just that I haven't been        <br><size=32>involved in combat. My stamina usage is completely different from yours.<br> 
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -892,7 +892,7 @@ asyncseplay,setag1_30,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,ソフィア,<size=26>I guess that makes sense. That's one way of looking at it.<br> ,106501000G,mcv_1001040801_030_01,chara_2
+message,ソフィア,<size=32>I guess that makes sense. That's one way of looking at   <br><size=32>it.<br> ,106501000G,mcv_1001040801_030_01,chara_2
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -926,7 +926,7 @@ prefabshowAll,alleffect_0,Roar/Prefabs/NovelEF_Roar
 asyncwait
 
 window,on,0.15
-message,,<size=26>GROOOOOOAAARRRR!!!!!!<br> ,900000002
+message,,<size=32>GROOOOOOAAARRRR!!!!!!<br> ,900000002
 
 cleanall,EFFECT
 
@@ -985,7 +985,7 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=26>W-w-wait a minute! That sound just now... wasn't that     <br><size=26>pretty close...?<br> ,100201000G,mcv_1001040801_031_01,chara_3
+message,ベリサ,<size=32>W-w-wait a minute! That sound just now... wasn't that    <br><size=32>pretty close...?<br> ,100201000G,mcv_1001040801_031_01,chara_3
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -994,9 +994,9 @@ asyncseplay,setag1_33,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,クルル,<size=26>That awful smell is... getting closer and closer〜...<br> ,106701000G,mcv_1001040801_032_01,chara_1
+message,クルル,<size=32>That awful smell is... getting closer and closer〜...<br> ,106701000G,mcv_1001040801_032_01,chara_1
 
-message,<user>,<size=26>Could it be the Calamity has already climbed up to this   <br><size=26>floor...!?<br> 
+message,<user>,<size=32>Could it be the Calamity has already climbed up to this  <br><size=32>floor...!?<br> 
 
 asyncjump,CHARA,chara_5,-30.6,0.5,1,off,0,CONT
 
@@ -1005,7 +1005,7 @@ asyncseplay,setag1_34,se4800015,0,1,CONT,0
 asynccharaemo,chara_5,Dull,CONT,0
 
 
-message,ヒマリ,<size=26>Uugh... hah，hah... here it comes... again... I feel...<br> ,106601000G,mcv_1001040801_033_01,chara_5
+message,ヒマリ,<size=32>Uugh... hah，hah... here it comes... again... I feel...<br> ,106601000G,mcv_1001040801_033_01,chara_5
 
 window,off
 wait,0.15
@@ -1056,9 +1056,9 @@ asynccharaemo,chara_6,Panic,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=26>Ugh... you can't be serious...? The Sky Hopper has only   <br><size=26>cooled down enough for one unit!<br> ,300501000,mcv_1001040801_034_01,chara_6
+message,シエナ,<size=32>Ugh... you can't be serious...? The Sky Hopper has only  <br><size=32>cooled down enough for one unit!<br> ,300501000,mcv_1001040801_034_01,chara_6
 
-message,<user>,<size=26>Damn，not everyone can evacuate... If things stay like     <br><size=26>this，everyone is finished. What do we do...!?<br> 
+message,<user>,<size=32>Damn，not everyone can evacuate... If things stay like    <br><size=32>this，everyone is finished. What do we do...!?<br> 
 
 window,off
 wait,0.15
@@ -1076,9 +1076,9 @@ asynccrossfade,0.1,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,<size=24>(Stay calm... recall the Calamity's behavioral patterns... they<br><size=24>move toward where the most living things are gathered...)<br> 
+message,<user>,<size=32>(Stay calm... recall the Calamity's behavioral           <br><size=32>patterns... they move toward where the most living things are gathered...)<br> 
 
-message,<user>,<size=26>(We were going to use that behavioral pattern to lure the <br><size=26>Calamity to the upper levels with explosives...)<br> 
+message,<user>,<size=32>(We were going to use that behavioral pattern to lure the<br><size=32>Calamity to the upper levels with explosives...)<br> 
 
 window,off
 wait,0.15
@@ -1096,7 +1096,7 @@ asynccrossfade,0.1,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,<size=22>That's it! When the Calamity woke up from those meddling people's    <br><size=22>explosives，it didn't go up—it started moving sideways，reacting to the sound of the explosion!<br> 
+message,<user>,<size=32>That's it! When the Calamity woke up from those meddling <br><size=32>people's explosives，it didn't go up—it started moving sideways，reacting to the sound of the explosion!<br> 
 
 asynccharaface,chara_6,FaceSurprise,CONT,0
 
@@ -1107,11 +1107,11 @@ asyncseplay,setag1_36,se4800022,0,1,CONT,0
 asynccharaemo,chara_6,Speak,CONT,0
 
 
-message,シエナ,<size=26>And what of it?<br> ,300501000,mcv_1001040801_035_01,chara_6
+message,シエナ,<size=32>And what of it?<br> ,300501000,mcv_1001040801_035_01,chara_6
 
-message,<user>,<size=24>No，this is just speculation，but it seems the Calamity might    <br><size=24>also have a behavioral pattern of reacting to loud sounds.<br> 
+message,<user>,<size=32>No，this is just speculation，but it seems the Calamity    <br><size=32>might also have a behavioral pattern of reacting to loud sounds.<br> 
 
-message,<user>,<size=24>Siena，that flying unit—one of them can be used right now，right?<br><size=24>It's an emergency. Would you lend it to me temporarily?<br> 
+message,<user>,<size=32>Siena，that flying unit—one of them can be used right     <br><size=32>now，right? It's an emergency. Would you lend it to me temporarily?<br> 
 
 asynccharaface,chara_6,FaceSad,CONT,0
 
@@ -1122,9 +1122,9 @@ asyncseplay,setag1_37,se4800008,0,1,CONT,0
 asynccharaemo,chara_6,Sweat,CONT,0
 
 
-message,シエナ,<size=26>Wh-what exactly are you planning to do?<br> ,300501000,mcv_1001040801_036_01,chara_6
+message,シエナ,<size=32>Wh-what exactly are you planning to do?<br> ,300501000,mcv_1001040801_036_01,chara_6
 
-message,<user>,<size=26>Marina! Do we still have explosives left?<br> 
+message,<user>,<size=32>Marina! Do we still have explosives left?<br> 
 
 window,off
 wait,0.15
@@ -1187,7 +1187,7 @@ asynccharaemo,chara_4,Panic,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=26>We have some remaining but〜...<br> ,100301000G,mcv_1001040801_037_01,chara_4
+message,マリナ,<size=32>We have some remaining but〜...<br> ,100301000G,mcv_1001040801_037_01,chara_4
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -1198,9 +1198,9 @@ asyncseplay,setag1_39,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,ソフィア,<size=26>H-hold on! What are you trying to do...?<br> ,106501000G,mcv_1001040801_038_01,chara_2
+message,ソフィア,<size=32>H-hold on! What are you trying to do...?<br> ,106501000G,mcv_1001040801_038_01,chara_2
 
-message,<user>,<size=26>Everyone stay and rest here. I'll draw the Calamity away  <br><size=26>from here temporarily.<br> 
+message,<user>,<size=32>Everyone stay and rest here. I'll draw the Calamity away <br><size=32>from here temporarily.<br> 
 
 asynccharaface,chara_3,FaceUnique01,CONT,0
 
@@ -1211,7 +1211,7 @@ asyncseplay,setag1_40,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,ベリサ,<size=26>Th-that means you'll be the decoy!?<br> ,100201000G,mcv_1001040801_039_01,chara_3
+message,ベリサ,<size=32>Th-that means you'll be the decoy!?<br> ,100201000G,mcv_1001040801_039_01,chara_3
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -1222,9 +1222,9 @@ asyncseplay,setag1_41,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,ソフィア,<size=26>That's reckless! The opponent is that monster!<br> ,106501000G,mcv_1001040801_040_01,chara_2
+message,ソフィア,<size=32>That's reckless! The opponent is that monster!<br> ,106501000G,mcv_1001040801_040_01,chara_2
 
-message,<user>,<size=26>This is not a suicidal act. I've selected it as the best  <br><size=26>strategy after thinking through this situation.<br> 
+message,<user>,<size=32>This is not a suicidal act. I've selected it as the best <br><size=32>strategy after thinking through this situation.<br> 
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -1235,11 +1235,11 @@ asyncseplay,setag1_42,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ソフィア,<size=26>What part of this is the 'best'...?<br> ,106501000G,mcv_1001040801_041_01,chara_2
+message,ソフィア,<size=32>What part of this is the 'best'...?<br> ,106501000G,mcv_1001040801_041_01,chara_2
 
-message,<user>,<size=26>Sofia，as you pointed out—of everyone here，I have the most <br><size=26>stamina remaining right now.<br> 
+message,<user>,<size=32>Sofia，as you pointed out—of everyone here，I have the most<br><size=32>stamina remaining right now.<br> 
 
-message,<user>,<size=24>If I use Luxnova's flying unit，with the remaining explosives   <br><size=24>and the megaphone，I can temporarily draw the Calamity away.<br> 
+message,<user>,<size=32>If I use Luxnova's flying unit，with the remaining        <br><size=32>explosives and the megaphone，I can temporarily draw the Calamity away.<br> 
 
 window,off
 wait,0.15
@@ -1290,9 +1290,9 @@ asynccharaemo,chara_6,Panic,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=26>But there's no guarantee that will even work...<br> ,300501000,mcv_1001040801_042_01,chara_6
+message,シエナ,<size=32>But there's no guarantee that will even work...<br> ,300501000,mcv_1001040801_042_01,chara_6
 
-message,<user>,<size=26>No absolute guarantee. But is there any better plan?<br> 
+message,<user>,<size=32>No absolute guarantee. But is there any better plan?<br> 
 
 asyncshake,CHARA,chara_6,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1301,9 +1301,9 @@ asyncseplay,setag1_44,se4800008,0,1,CONT,0
 asynccharaemo,chara_6,Sweat,CONT,0
 
 
-message,シエナ,<size=26>That is...<br> ,300501000,mcv_1001040801_043_01,chara_6
+message,シエナ,<size=32>That is...<br> ,300501000,mcv_1001040801_043_01,chara_6
 
-message,<user>,<size=26>I will absolutely make this plan work...! Siena，teach me  <br><size=26>how to use the flying unit!<br> 
+message,<user>,<size=32>I will absolutely make this plan work...! Siena，teach me <br><size=32>how to use the flying unit!<br> 
 
 window,off
 bgmstop,bgmtag1_3,0.5
