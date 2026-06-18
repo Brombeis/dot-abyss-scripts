@@ -190,9 +190,9 @@ The game has **two rendering surfaces** for dialogue:
   It lays out one character per fixed-width cell (max 2 lines). Latin glyphs are
   narrower than full-width cells, so English can look gappy or overflow.
 
-`unity_generate_story_assets.py` compensates by picking the largest `<size=N>`
-tier where the text fits in 2 word-wrapped lines (tiers: 26/58, 24/63, 22/69
-chars per line). Lines are padded so `<br>` breaks align.
+`unity_generate_story_assets.py` compensates by word-wrapping text to fit in
+2 lines at **57 characters per line**. Lines are padded so `<br>` breaks align.
+Dynamic font sizing (previously tiered `<size=N>` tags) is disabled.
 
 ---
 
