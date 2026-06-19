@@ -210,11 +210,10 @@ The `3494` in `CDN_VERSION` is a catalog version. On a game update:
 
 ## 8. Translation workflow
 
-- **Line length limit during translation.** When writing English text for
-  `message`, `dotmessage`, `l2dmessage`, and `messageTextUnder` commands,
-  each `<br>`-separated segment must fit within **73 characters** (matching
-  `MESSAGE_CHARS_PER_LINE`), with a maximum of **2 lines** per dialogue entry.
-  `messageTextCenter` and `title` are exempt from this limit.
+- **Read `data/references.md` before translating.** It contains the translation
+  style guide, formatting constraints (line length limits, comma rules, token
+  preservation), world-building glossary, character name roster, and character
+  voice profiles. All translation work must follow the guidelines defined there.
 - **Always update `data/translation_status.json`** after translating files.
   Set `translated` to the number of translated lines and `remaining` to `0`
   (or the correct count for partial translations). Never leave the status file
