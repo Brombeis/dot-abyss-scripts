@@ -21,7 +21,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 import common
 
 MESSAGE_FONT_SIZE = 32
-MESSAGE_CHARS_PER_LINE = 57
+MESSAGE_CHARS_PER_LINE = 73
 
 # messageTextCenter is intentionally excluded — translated as plain text.
 MESSAGE_COMMANDS = frozenset({

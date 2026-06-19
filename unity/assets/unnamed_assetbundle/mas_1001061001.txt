@@ -73,7 +73,7 @@ shake,CHARA,chara_12,40,0,0.25,20,off,off,0
 wait,0.5
 
 window,on,0.15
-message,,<size=32>After a fierce battle， the angel Calamity                <br><size=32>finally fell. But as they moved to finish it—<br> 
+message,,<size=32>After a fierce battle， the angel Calamity                                <br><size=32>finally fell. But as they moved to finish it—<br> 
 
 window,off
 wait,0.15
@@ -96,7 +96,7 @@ asynctransitionFade,Tra21,in,white,0,STOP,1
 waitorclick,0.5
 
 window,on,0.15
-message,,<size=32>With a death cry， the angel Calamity                     <br><size=32>unleashed a light that dyed the world white.<br> 
+message,,<size=32>With a death cry， the angel Calamity                                     <br><size=32>unleashed a light that dyed the world white.<br> 
 
 message,<user>,<size=32>Wh-what... is this!?<br> 
 
@@ -126,9 +126,9 @@ waitorclick,3
 
 
 window,on,0.15
-message,,<size=32>When the light faded， the angel Calamity                 <br><size=32>was gone— only pure particles drifted like snow.<br> 
+message,,<size=32>When the light faded， the angel Calamity                                 <br><size=32>was gone— only pure particles drifted like snow.<br> 
 
-message,,<size=32>The sight was so mystical that everyone                  <br><size=32>was left speechless for a moment.<br> 
+message,,<size=32>The sight was so mystical that everyone                                  <br><size=32>was left speechless for a moment.<br> 
 
 cleanall,EFFECT
 
@@ -228,7 +228,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒマリ,<size=32>Maybe now the people of that city...                     <br><size=32>can finally rest in peace...?<br> ,106601000G,mcv_1001061001_003_01,chara_2
+message,ヒマリ,<size=32>Maybe now the people of that city...                                     <br><size=32>can finally rest in peace...?<br> ,106601000G,mcv_1001061001_003_01,chara_2
 
 window,off
 wait,0.15
@@ -341,9 +341,9 @@ asynccharaemo,chara_4,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>Hey~， what are you spacing out for?                      <br><size=32>We won， right?<br> ,100201000G,mcv_1001061001_005_01,chara_4
+message,ベリサ,<size=32>Hey~， what are you spacing out for?                                      <br><size=32>We won， right?<br> ,100201000G,mcv_1001061001_005_01,chara_4
 
-message,<user>,<size=32>Y-yeah.                                                  <br><size=32>We... won!<br> 
+message,<user>,<size=32>Y-yeah.                                                                  <br><size=32>We... won!<br> 
 
 window,off
 wait,0.15
@@ -375,7 +375,7 @@ asyncseplay,se1_1001,se4600010,1,1,CONT,0
 bgmplay,bgmtag1_2,bgm0038,0.75,1
 
 window,on,0.15
-message,,<size=32>At those words， thunderous cheers erupted                <br><size=32>from the base. Everyone celebrated the miracle.<br> 
+message,,<size=32>At those words， thunderous cheers erupted                                <br><size=32>from the base. Everyone celebrated the miracle.<br> 
 
 window,off
 wait,0.15
@@ -464,9 +464,9 @@ asynccharaemo,chara_6,Question,CONT,0
 window,on,0.15
 message,ロジー,<size=32>Why the gloomy face? We won， you know.<br> ,2036001,mcv_1001061001_006_01,chara_6
 
-message,<user>,<size=32>Yeah. Still a lot to do— destroying the ore              <br><size=32>vein and holding a memorial for the people.<br> 
+message,<user>,<size=32>Yeah. Still a lot to do— destroying the ore                              <br><size=32>vein and holding a memorial for the people.<br> 
 
-message,<user>,<size=32>Oh right. Logy， Goleinu— thank you both.                 <br><size=32>We couldn't have done this without you.<br> 
+message,<user>,<size=32>Oh right. Logy， Goleinu— thank you both.                                 <br><size=32>We couldn't have done this without you.<br> 
 
 asynccharaface,chara_6,FaceHappy,CONT,0
 
@@ -477,7 +477,7 @@ asyncseplay,setag1_11,se4800004,0,1,CONT,0
 asynccharaemo,chara_6,Laugh,CONT,0
 
 
-message,ロジー,<size=32>Nihihihi~~♪                                              <br><size=32>He praised us， Assistant~!<br> ,2036001,mcv_1001061001_007_01,chara_6
+message,ロジー,<size=32>Nihihihi~~♪                                                              <br><size=32>He praised us， Assistant~!<br> ,2036001,mcv_1001061001_007_01,chara_6
 
 asynccharaface,chara_7,FaceHappy,CONT,0
 
@@ -499,7 +499,7 @@ asyncseplay,setag1_13,se4800007,0,1,CONT,0
 asynccharaemo,chara_6,Panic,CONT,0
 
 
-message,ロジー,<size=32>W-wait， that's not it!                                   <br><size=32>This was one-time only! Next time we're enemies!<br> ,2036001,mcv_1001061001_009_01,chara_6
+message,ロジー,<size=32>W-wait， that's not it!                                                   <br><size=32>This was one-time only! Next time we're enemies!<br> ,2036001,mcv_1001061001_009_01,chara_6
 
 message,<user>,<size=32>Huh!? Why does it end up like that!?<br> 
 
@@ -514,7 +514,7 @@ asynccharaemo,chara_6,Sweat,CONT,0
 
 message,ロジー,<size=32>Shut up! Let's go， Assistant!<br> ,2036001,mcv_1001061001_010_01,chara_6
 
-message,<user>,<size=32>Where are you going?                                     <br><size=32>At least stay for the victory party.<br> 
+message,<user>,<size=32>Where are you going?                                                     <br><size=32>At least stay for the victory party.<br> 
 
 asynccharaface,chara_6,FaceSad,CONT,0
 
@@ -583,7 +583,7 @@ emodelete,chara_7,0,0
 asyncwait
 
 window,on,0.15
-message,,<size=32>Logy hopped onto Goleinu's shoulder，                     <br><size=32>and they dashed off at full speed.<br> 
+message,,<size=32>Logy hopped onto Goleinu's shoulder，                                     <br><size=32>and they dashed off at full speed.<br> 
 
 message,<user>,<size=32>What is with those two...<br> 
 
@@ -611,7 +611,7 @@ asynccharaemo,chara_8,Sweat,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,<size=32>Good work， Commander.                                    <br><size=32>Those two... they ran off， didn't they?<br> ,108701000G,mcv_1001061001_013_01,chara_8
+message,アーデルハイト,<size=32>Good work， Commander.                                                    <br><size=32>Those two... they ran off， didn't they?<br> ,108701000G,mcv_1001061001_013_01,chara_8
 
 message,<user>,<size=32>Hm? Something wrong?<br> 
 
@@ -624,7 +624,7 @@ asyncseplay,setag1_19,se4800006,0,1,CONT,0
 asynccharaemo,chara_8,Trouble,CONT,0
 
 
-message,アーデルハイト,<size=32>*Sigh*...                                                <br><size=32>You have no idea.<br> ,108701000G,mcv_1001061001_014_01,chara_8
+message,アーデルハイト,<size=32>*Sigh*...                                                                <br><size=32>You have no idea.<br> ,108701000G,mcv_1001061001_014_01,chara_8
 
 asynccharaface,chara_8,FaceAnger,CONT,0
 
@@ -635,9 +635,9 @@ asyncseplay,setag1_20,se4800001,0,1,CONT,0
 asynccharaemo,chara_8,Anger,CONT,0
 
 
-message,アーデルハイト,<size=32>They had us upgrade Goleinu to the max                   <br><size=32>and then skipped out without paying.<br> ,108701000G,mcv_1001061001_015_01,chara_8
+message,アーデルハイト,<size=32>They had us upgrade Goleinu to the max                                   <br><size=32>and then skipped out without paying.<br> ,108701000G,mcv_1001061001_015_01,chara_8
 
-message,<user>,<size=32>Are you serious!?                                        <br><size=32>Damn... so that's why they bolted!<br> 
+message,<user>,<size=32>Are you serious!?                                                        <br><size=32>Damn... so that's why they bolted!<br> 
 
 
 bgmstop,bgmtag1_2,1.5,0
@@ -669,7 +669,7 @@ waitorclick,2.5
 bgmplay,bgmtag1_3,bgm0042,0.75,1
 
 window,on,0.15
-message,,<size=32>After the battle， the base celebrated with               <br><size=32>a lavish feast prepared by Alicia.<br> 
+message,,<size=32>After the battle， the base celebrated with                               <br><size=32>a lavish feast prepared by Alicia.<br> 
 
 
 

@@ -102,7 +102,7 @@ asynctransitionFade,Tra02,in,black,1,STOP,1
 
 waitorclick,2.5
 window,on,0.15
-message,<user>,<size=32>The purpose of this expedition is to determine the cause <br><size=32>of the ""sandstorm"" reported raging in the lower layers.<br> 
+message,<user>,<size=32>The purpose of this expedition is to determine the cause                 <br><size=32>of the ""sandstorm"" reported raging in the lower layers.<br> 
 
 asynccharareaction,chara_1,Nod,1,CONT
 
@@ -114,7 +114,7 @@ asyncskipwait
 
 wait,1
 
-message,<user>,<size=32>According to Alicia，the sandstorm raging within the Abyss<br><size=32>has rapidly worsened over the past week. Wind speed is five times normal，and visibility is under 10 meters——<br> 
+message,<user>,<size=32>According to Alicia，the sandstorm raging within the Abyss has rapidly    <br><size=32>worsened over the past week. Wind speed is five times normal，and visibility is under 10 meters——<br> 
 
 charaface,chara_1,FaceSurprise
 
@@ -123,11 +123,11 @@ asyncseplay,setag2_1,se4800017,0,1,CONT
 asynccharaemo,chara_1,Shock,CONT
 
 asyncshake,CHARA,chara_1,20,15,0.5,6,on,off,0,off,CONT,0
-message,ベリサ,<size=32>Whaaaat~!?　A sandstorm!?                                 <br><size=32>We're going somewhere that dangerous right now~?<br> ,,mcv_1001010102_001_01
+message,ベリサ,<size=32>Whaaaat~!?　A sandstorm!?                                                 <br><size=32>We're going somewhere that dangerous right now~?<br> ,,mcv_1001010102_001_01
 
 asyncskipwait
 
-message,<user>,<size=32>That's right. Because of the sandstorm，we can no longer  <br><size=32>lower observation balloons. Right now，we have no choice but to investigate visually.<br> 
+message,<user>,<size=32>That's right. Because of the sandstorm，we can no longer lower observation<br><size=32>balloons. Right now，we have no choice but to investigate visually.<br> 
 
 asyncseplay,setag2_2,se4800014,0,1,STOP
 
@@ -135,9 +135,9 @@ asynccharaemo,chara_3,Silence,STOP
 
 asynccharareaction,chara_3,Nod,1,STOP
 
-message,ソフィア,<size=32>I understand the need to see it with our own eyes to     <br><size=32>gather information. But what's the reason for the Commander himself going on this mission?<br> ,,mcv_1001010102_002_01
+message,ソフィア,<size=32>I understand the need to see it with our own eyes to gather information. <br><size=32>But what's the reason for the Commander himself going on this mission?<br> ,,mcv_1001010102_002_01
 
-message,<user>,<size=32>Because of the sandstorm's appearance， the route to the  <br><size=32>ore vein where precious resources can be mined has been cut off.<br> 
+message,<user>,<size=32>Because of the sandstorm's appearance， the route to the ore vein where   <br><size=32>precious resources can be mined has been cut off.<br> 
 
 charaface,chara_2,FaceSad
 
@@ -145,9 +145,9 @@ asyncseplay,setag2_3,se4800008,0,1,STOP
 
 asynccharaemo,chara_2,Sweat,STOP
 
-message,マリナ,<size=32>So you're struggling because you can't reach the ore     <br><size=32>vein~. Being unable to secure the frontline base's funding source is a serious problem~.<br> ,,mcv_1001010102_003_01
+message,マリナ,<size=32>So you're struggling because you can't reach the ore vein~. Being unable <br><size=32>to secure the frontline base's funding source is a serious problem~.<br> ,,mcv_1001010102_003_01
 
-message,<user>,<size=32>Indeed. We've dispatched survey teams several times      <br><size=32>already， but the reports of disappearances haven't stopped……<br> 
+message,<user>,<size=32>Indeed. We've dispatched survey teams several times already，             <br><size=32>but the reports of disappearances haven't stopped……<br> 
 
 charafocusonall
 
@@ -183,7 +183,7 @@ asynccharaemo,chara_1,Sweat,CONT
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
-message,ベリサ,<size=32>W-wait a minute~，disappearances!?                        <br><size=32>That's seriously dangerous territory!<br> ,,mcv_1001010102_004_01
+message,ベリサ,<size=32>W-wait a minute~，disappearances!?                                        <br><size=32>That's seriously dangerous territory!<br> ,,mcv_1001010102_004_01
 
 asyncskipwait
 
@@ -193,12 +193,12 @@ asyncseplay,setag2_6,se4800010,0,1,STOP
 
 asynccharareaction,chara_2,Jump,1,STOP
 asynccharaemo,chara_2,Exclamation,STOP
-message,マリナ,<size=32>Don't tell me you feel responsible and decided to lead   <br><size=32>the investigation yourself?<br> ,,mcv_1001010102_005_01
+message,マリナ,<size=32>Don't tell me you feel responsible and decided to lead the investigation <br><size=32>yourself?<br> ,,mcv_1001010102_005_01
 
 charaface,chara_3,EyeOpen
 charaface,chara_3,FaceNormal
 
-message,<user>,<size=32>Well，something like that. I don't want any more          <br><size=32>casualties. Also，I judged that a large-scale formation would actually increase the risk of being divided or wiped out.<br> 
+message,<user>,<size=32>Well，something like that. I don't want any more casualties. Also，I judged<br><size=32>that a large-scale formation would actually increase the risk of being divided or wiped out.<br> 
 
 charafocusonall
 
@@ -226,11 +226,11 @@ asynccharareaction,chara_3,Nod,1,CONT
 asynccharaface,chara_3,EyeOpen,CONT,2
 asynccharaface,chara_3,FaceNormal,CONT,2
 
-message,ソフィア,<size=32>They say there's nothing more fragile than an            <br><size=32>undertrained army. That was a wise call.<br> ,,mcv_1001010102_006_01
+message,ソフィア,<size=32>They say there's nothing more fragile than an undertrained army.         <br><size=32>That was a wise call.<br> ,,mcv_1001010102_006_01
 
 asyncskipwait
 
-message,<user>,<size=32>Right. So I chose a small elite team for the             <br><size=32>investigation to make the most of my command. A smaller group has better mobility and a higher success rate—that's my thinking.<br> 
+message,<user>,<size=32>Right. So I chose a small elite team for the investigation to make the   <br><size=32>most of my command. A smaller group has better mobility and a higher success rate—that's my thinking.<br> 
 
 charaface,chara_1,FaceSurprise
 
@@ -247,7 +247,7 @@ asynccharareaction,chara_1,Nod,1,CONT
 asynccharaemo,chara_1,Laugh,CONT
 
 asynccharaface,chara_1,FaceUnique02,CONT,2
-message,ベリサ,<size=32>Oh!　Does that mean，does that meaaaan~，                   <br><size=32>that you trust Belisa~?<br> ,,mcv_1001010102_007_01
+message,ベリサ,<size=32>Oh!　Does that mean，does that meaaaan~，                                   <br><size=32>that you trust Belisa~?<br> ,,mcv_1001010102_007_01
 
 asyncskipwait
 
@@ -273,9 +273,9 @@ asynccharaemo,chara_2,Speak,STOP
 
 asynccharaface,chara_2,FaceUnique02,STOP,3
 
-message,マリナ,<size=32>W-well then，when the route to the ore vein is open，      <br><size=32>could I be first in line to mine some ore~……<br> ,,mcv_1001010102_009_01
+message,マリナ,<size=32>W-well then，when the route to the ore vein is open，                      <br><size=32>could I be first in line to mine some ore~……<br> ,,mcv_1001010102_009_01
 
-message,<user>,<size=32>Well，the priority is finding the missing people，of       <br><size=32>course. But naturally，you're free to take any ore you mine in the Abyss.<br> 
+message,<user>,<size=32>Well，the priority is finding the missing people，of course.               <br><size=32>But naturally，you're free to take any ore you mine in the Abyss.<br> 
 
 charaface,chara_2,FaceUnique01
 
@@ -306,10 +306,10 @@ asyncseplay,setag2_13,se4800008,0,1,CONT
 asynccharaemo,chara_3,Sweat,CONT
 
 window,on,0.15
-message,ソフィア,<size=32>(This guy，these people just roll right over for him… You <br><size=32>could argue that leading the charge into a danger zone yourself is a reckless gamble……)<br> ,,mcv_1001010102_011_01,ALLON
+message,ソフィア,<size=32>(This guy，these people just roll right over for him… You could argue that<br><size=32>leading the charge into a danger zone yourself is a reckless gamble……)<br> ,,mcv_1001010102_011_01,ALLON
 
 charaface,chara_3,FaceUnique01
-message,ソフィア,<size=32>(Fine，I'll admit he repelled the Calamity of Famine. But <br><size=32>that crapshooot of a strategy—it was pure dumb luck……)<br> ,,mcv_1001010102_012_01,ALLON
+message,ソフィア,<size=32>(Fine，I'll admit he repelled the Calamity of Famine.                     <br><size=32>But that crapshooot of a strategy—it was pure dumb luck……)<br> ,,mcv_1001010102_012_01,ALLON
 
 
 asyncskipwait
@@ -447,7 +447,7 @@ asynccharamove,chara_1,LinearTarget,X,-600,0.3,CONT
 asyncwait
 
 window,on,0.15
-message,<user>,<size=32>Okay. For now，let's just move straight ahead             <br><size=32>while keeping watch around us.<br> 
+message,<user>,<size=32>Okay. For now，let's just move straight ahead                             <br><size=32>while keeping watch around us.<br> 
 
 charaface,chara_1,FaceHappy
 
@@ -512,7 +512,7 @@ asynccharareaction,chara_3,Jump,1,CONT
 asynccharaemo,chara_3,BePeevish,CONT
 
 window,on,0.15
-message,ソフィア,<size=32>Hey!　That's an absurdly vague order! Do you actually have<br><size=32>any sense of responsibility as Commander!?<br> ,,mcv_1001010102_016_01
+message,ソフィア,<size=32>Hey!　That's an absurdly vague order!                                     <br><size=32>Do you actually have any sense of responsibility as Commander!?<br> ,,mcv_1001010102_016_01
 
 asyncskipwait
 
@@ -566,7 +566,7 @@ asyncseplay,setag2_22,se4800019,0,1,STOP
 
 asynccharaemo,chara_1,Elated,STOP
 
-message,ベリサ,<size=32>Exactly!                                                 <br><size=32>We're the chosen elite，after all~♪<br> ,,mcv_1001010102_018_01
+message,ベリサ,<size=32>Exactly!                                                                 <br><size=32>We're the chosen elite，after all~♪<br> ,,mcv_1001010102_018_01
 
 charaface,chara_2,EyeOpen
 charaface,chara_2,FaceNormal
@@ -583,7 +583,7 @@ asyncseplay,setag2_24,se4800002,4,1,CONT
 
 asynccharaemo,chara_2,Heart,CONT,4
 
-message,マリナ,<size=32>Track down the cause of the sandstorm and beyond that—all<br><size=32>the ore veins we can dig♪ Ahhhh…… just imagining it makes my heart pound♡<br> ,,mcv_1001010102_019_01
+message,マリナ,<size=32>Track down the cause of the sandstorm and beyond that—all the ore veins  <br><size=32>we can dig♪ Ahhhh…… just imagining it makes my heart pound♡<br> ,,mcv_1001010102_019_01
 
 asyncskipwait
 
@@ -595,9 +595,9 @@ asynccharareaction,chara_3,Shake,1,STOP
 
 asynccharaemo,chara_3,Trouble,STOP
 
-message,ソフィア,<size=32>Excuse me~，this isn't a picnic，                          <br><size=32>so how about pulling yourselves together!?<br> ,,mcv_1001010102_020_01
+message,ソフィア,<size=32>Excuse me~，this isn't a picnic，                                          <br><size=32>so how about pulling yourselves together!?<br> ,,mcv_1001010102_020_01
 
-message,<user>,<size=32>Hmm. It seems you're not satisfied with my orders. What's<br><size=32>your opinion，Sophia—how do you think we should proceed?<br> 
+message,<user>,<size=32>Hmm. It seems you're not satisfied with my orders.                       <br><size=32>What's your opinion，Sophia—how do you think we should proceed?<br> 
 
 window,off
 wait,0.15
@@ -629,7 +629,7 @@ asynccharaemo,chara_3,Twinkle,CONT
 asynccharaface,chara_3,FaceAnger,CONT,3
 
 window,on,0.15
-message,ソフィア,<size=32>Glad you asked! In group exploration，the most important  <br><size=32>thing is ""discipline""—discipline!<br> ,,mcv_1001010102_021_01
+message,ソフィア,<size=32>Glad you asked!                                                          <br><size=32>In group exploration，the most important thing is ""discipline""—discipline!<br> ,,mcv_1001010102_021_01
 
 asyncskipwait
 
@@ -642,9 +642,9 @@ asynccharaemo,chara_3,Elated,STOP
 
 asynccharaface,chara_3,FaceAnger,STOP,3
 
-message,ソフィア,<size=32>Forming a disciplined marching formation to guard against<br><size=32>surrounding dangers and ambushes is just common sense，right? You yourself just mentioned worrying about being separated or going missing!<br> ,,mcv_1001010102_022_01
+message,ソフィア,<size=32>Forming a disciplined marching formation to guard against surrounding    <br><size=32>dangers and ambushes is just common sense，right? You yourself just mentioned worrying about being separated or going missing!<br> ,,mcv_1001010102_022_01
 
-message,<user>,<size=32>I see.                                                   <br><size=32>Is that knowledge from your knight academy?<br> 
+message,<user>,<size=32>I see.                                                                   <br><size=32>Is that knowledge from your knight academy?<br> 
 
 charaface,chara_3,FaceSurprise
 
@@ -655,16 +655,16 @@ asynccharaemo,chara_3,ExclaQues,STOP
 
 asynccharaface,chara_3,FaceAnger,STOP,1.5
 
-message,ソフィア,<size=32>Excuse me!?　I'm not reciting something from a textbook—  <br><size=32>this is my opinion based on experience in low-visibility marching drills!<br> ,,mcv_1001010102_023_01
+message,ソフィア,<size=32>Excuse me!?　I'm not reciting something from a textbook—                  <br><size=32>this is my opinion based on experience in low-visibility marching drills!<br> ,,mcv_1001010102_023_01
 
 asyncseplay,setag2_29,se4800016,0,1,STOP
 
 asynccharareaction,chara_3,Jump,1,STOP
 asynccharaemo,chara_3,BePeevish,STOP
 
-message,ソフィア,<size=32>Besides，if we don't know when monsters might ambush us，  <br><size=32>a tight formation is all the more appropriate，isn't it!?<br> ,,mcv_1001010102_024_01
+message,ソフィア,<size=32>Besides，if we don't know when monsters might ambush us，                  <br><size=32>a tight formation is all the more appropriate，isn't it!?<br> ,,mcv_1001010102_024_01
 
-message,<user>,<size=32>Fair enough.                                             <br><size=32>There's something to that.<br> 
+message,<user>,<size=32>Fair enough.                                                             <br><size=32>There's something to that.<br> 
 
 charaface,chara_3,FaceUnique02
 
@@ -677,7 +677,7 @@ asynccharaemo,chara_3,Sweat,STOP
 asynccharaface,chara_3,EyeOpen,STOP,1.5
 asynccharaface,chara_3,FaceNormal,STOP,1.5
 
-message,ソフィア,<size=32>Hmph.                                                    <br><size=32>Glad you get it.<br> ,,mcv_1001010102_025_01
+message,ソフィア,<size=32>Hmph.                                                                    <br><size=32>Glad you get it.<br> ,,mcv_1001010102_025_01
 
 window,off
 wait,0.15
@@ -715,7 +715,7 @@ asynccharaemo,chara_1,Speak,CONT
 asynccharaface,chara_1,FaceUnique02,CONT,3
 
 window,on,0.15
-message,ベリサ,<size=32>Ooh~?　We're moving in close to you~?                     <br><size=32>That sounds kinda naughty~♪<br> ,,mcv_1001010102_026_01
+message,ベリサ,<size=32>Ooh~?　We're moving in close to you~?                                     <br><size=32>That sounds kinda naughty~♪<br> ,,mcv_1001010102_026_01
 
 asyncskipwait
 
@@ -726,7 +726,7 @@ asyncseplay,setag2_32,se4800013,0,1,STOP
 asynccharareaction,chara_2,Jump,1,STOP
 asynccharaemo,chara_2,Spirits,STOP
 
-message,マリナ,<size=32>Why don't we all hold hands and stay nice and close      <br><size=32>so nobody gets lost~♪<br> ,,mcv_1001010102_027_01
+message,マリナ,<size=32>Why don't we all hold hands and stay nice and close                      <br><size=32>so nobody gets lost~♪<br> ,,mcv_1001010102_027_01
 
 charaface,chara_3,FaceUnique01
 
@@ -735,9 +735,9 @@ asyncseplay,setag2_33,se4800016,0,1,STOP
 asynccharareaction,chara_3,Jump,1,STOP
 asynccharaemo,chara_3,BePeevish,STOP
 
-message,ソフィア,<size=32>That's not what I said~!                                 <br><size=32>I said form a tight compact formation，not a cuddle party!<br> ,,mcv_1001010102_028_01
+message,ソフィア,<size=32>That's not what I said~!                                                 <br><size=32>I said form a tight compact formation，not a cuddle party!<br> ,,mcv_1001010102_028_01
 
-message,<user>,<size=32>Well，sorry，but I'm rejecting Sophia's idea.              <br><size=32>We're going with the picnic formation.<br> 
+message,<user>,<size=32>Well，sorry，but I'm rejecting Sophia's idea.                              <br><size=32>We're going with the picnic formation.<br> 
 
 window,off
 wait,0.15
@@ -771,7 +771,7 @@ asynccharaemo,chara_3,Shock,CONT
 asyncshake,CHARA,chara_3,20,15,0.5,6,on,off,0,off,CONT,0
 
 window,on,0.15
-message,ソフィア,<size=32>What!?　Were you even listening!?                         <br><size=32>How does that make sense!<br> ,,mcv_1001010102_029_01
+message,ソフィア,<size=32>What!?　Were you even listening!?                                         <br><size=32>How does that make sense!<br> ,,mcv_1001010102_029_01
 
 asyncskipwait
 
@@ -829,7 +829,7 @@ asynccrossfade,0.1,0,0,1,1,STOP
 
 
 window,on,0.15
-message,<user>,<size=32>(Since we entered this layer，I've sensed an ominous      <br><size=32>presence…… Probably，very soon……)<br> ,,,ALLON
+message,<user>,<size=32>(Since we entered this layer，I've sensed an ominous presence……           <br><size=32>Probably，very soon……)<br> ,,,ALLON
 
 window,off
 wait,0.15
@@ -855,7 +855,7 @@ asyncseplay,setag2_37,se4800011,0,1,STOP
 asynccharareaction,chara_3,Shake,1,STOP
 asynccharaemo,chara_3,ExclaQues,STOP
 
-message,ソフィア,<size=32>What!?                                                   <br><size=32>Everyone get down!!!!<br> ,,mcv_1001010102_032_01
+message,ソフィア,<size=32>What!?                                                                   <br><size=32>Everyone get down!!!!<br> ,,mcv_1001010102_032_01
 
 window,off
 wait,0.15
@@ -895,7 +895,7 @@ asyncskipwait
 
 
 
-message,,<size=32>A barrage of arrows cut through the sand from behind the <br><size=32>rocks. Everyone dropping at Sophia's quick command，they narrowly avoided the volley.<br> 
+message,,<size=32>A barrage of arrows cut through the sand from behind the rocks. Everyone <br><size=32>dropping at Sophia's quick command，they narrowly avoided the volley.<br> 
 
 bgmplay,bgmtag2_2,bgm0028,0.75,1
 
@@ -940,7 +940,7 @@ asynccharaemo,chara_2,Exclamation,CONT
 
 
 
-message,マリナ,<size=32>Commander!                                               <br><size=32>The arrows came from those rocks over there!<br> ,,mcv_1001010102_033_01
+message,マリナ,<size=32>Commander!                                                               <br><size=32>The arrows came from those rocks over there!<br> ,,mcv_1001010102_033_01
 
 asyncskipwait
 
@@ -969,7 +969,7 @@ asynctransitionFade,Tra16,in,black,0.5,STOP,0.5
 waitorclick,1.5
 
 window,on,0.15
-message,,<size=32>Marina pointed toward the direction the arrows had come  <br><size=32>from.<br> 
+message,,<size=32>Marina pointed toward the direction the arrows had come from.<br> 
 
 window,off
 wait,0.15
@@ -1079,7 +1079,7 @@ linework,on,White,Strong
 
 
 window,on,0.15
-message,,<size=32>Sophia stepped to the front，raising her shield to cover  <br><size=32>them all.<br> 
+message,,<size=32>Sophia stepped to the front，raising her shield to cover them all.<br> 
 
 linework,off,Black,Strong
 
@@ -1133,7 +1133,7 @@ asynccharareaction,chara_1,Nod,1,CONT
 asynccharaemo,chara_1,Anger,CONT
 
 window,on,0.15
-message,ベリサ,<size=32>A sneak attack，really~!                                  <br><size=32>Take this——fireballlll~~~~!<br> ,,mcv_1001010102_035_01
+message,ベリサ,<size=32>A sneak attack，really~!                                                  <br><size=32>Take this——fireballlll~~~~!<br> ,,mcv_1001010102_035_01
 
 asyncskipwait
 
@@ -1151,7 +1151,7 @@ wait,1
 
 
 window,on,0.15
-message,,<size=32>Belisa launched a fireball from the rear and began to    <br><size=32>taunt them.<br> 
+message,,<size=32>Belisa launched a fireball from the rear and began to taunt them.<br> 
 
 window,off
 wait,0.15
@@ -1174,7 +1174,7 @@ asynccharareaction,chara_1,Jump,1,CONT
 asynccharaemo,chara_1,Exclamation,CONT
 
 window,on,0.15
-message,ベリサ,<size=32>Hey，you cowards over there~!                             <br><size=32>Stop hiding and come out and fight~!<br> ,,mcv_1001010102_036_01
+message,ベリサ,<size=32>Hey，you cowards over there~!                                             <br><size=32>Stop hiding and come out and fight~!<br> ,,mcv_1001010102_036_01
 
 window,off
 wait,0.15
@@ -1283,7 +1283,7 @@ asyncseplay,setag2_45,se4800010,0,1,STOP
 asynccharareaction,chara_3,Jump,1,STOP
 asynccharaemo,chara_3,Exclamation,STOP
 
-message,ソフィア,<size=32>Th-there are so many……!                                  <br><size=32>E-everyone，don't let your guard down!　Here we go!<br> ,,mcv_1001010102_038_01
+message,ソフィア,<size=32>Th-there are so many……!                                                  <br><size=32>E-everyone，don't let your guard down!　Here we go!<br> ,,mcv_1001010102_038_01
 
 window,off
 wait,0.15

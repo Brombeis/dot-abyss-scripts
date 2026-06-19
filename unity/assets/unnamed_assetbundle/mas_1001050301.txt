@@ -107,7 +107,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>The roads are all torn up and impassable in places. Looks<br><size=32>like we'll have to find another way around here too.<br> ,106501000G,mcv_1001050301_002_01,chara_2
+message,ソフィア,<size=32>The roads are all torn up and impassable in places.                      <br><size=32>Looks like we'll have to find another way around here too.<br> ,106501000G,mcv_1001050301_002_01,chara_2
 
 asynccharaface,chara_3,FaceAnger,CONT,0
 
@@ -127,9 +127,9 @@ asyncseplay,setag1_4,se4800006,0,1,CONT,0
 asynccharaemo,chara_4,Trouble,CONT,0
 
 
-message,マリナ,<size=32>Dead ends everywhere~                                    <br><size=32>It's become like a maze...<br> ,100301000G,mcv_1001050301_004_01,chara_4
+message,マリナ,<size=32>Dead ends everywhere~                                                    <br><size=32>It's become like a maze...<br> ,100301000G,mcv_1001050301_004_01,chara_4
 
-message,<user>,<size=32>No good this way either...                               <br><size=32>Himari， are there any other routes?<br> 
+message,<user>,<size=32>No good this way either...                                               <br><size=32>Himari， are there any other routes?<br> 
 
 window,off
 wait,0.15
@@ -185,7 +185,7 @@ asyncseplay,setag1_6,se4800005,0,1,CONT,0
 asynccharaemo,chara_5,Flash,CONT,0
 
 
-message,ヒマリ,<size=32>...I know!                                               <br><size=32>The subway! If we can get into a subway station...<br> ,106601000G,mcv_1001050301_006_01,chara_5
+message,ヒマリ,<size=32>...I know!                                                               <br><size=32>The subway! If we can get into a subway station...<br> ,106601000G,mcv_1001050301_006_01,chara_5
 
 message,<user>,<size=32>Subway?<br> 
 
@@ -198,7 +198,7 @@ asyncseplay,setag1_7,se4800022,0,1,CONT,0
 asynccharaemo,chara_5,Speak,CONT,0
 
 
-message,ヒマリ,<size=32>Yeah. That photo we saw at Adelheid's lab— the sign that <br><size=32>said ""Onarimon""— that's a subway entrance sign...<br> ,106601000G,mcv_1001050301_007_01,chara_5
+message,ヒマリ,<size=32>Yeah. That photo we saw at Adelheid's lab—                               <br><size=32>the sign that said ""Onarimon""— that's a subway entrance sign...<br> ,106601000G,mcv_1001050301_007_01,chara_5
 
 asynccharaface,chara_5,FaceHappy,CONT,0
 
@@ -209,9 +209,9 @@ asyncseplay,setag1_8,se4800003,0,1,CONT,0
 asynccharaemo,chara_5,Twinkle,CONT,0
 
 
-message,ヒマリ,<size=32>From there you can get to the platform where you wait for<br><size=32>underground trains. And from there， we could walk through the tunnels...<br> ,106601000G,mcv_1001050301_008_01,chara_5
+message,ヒマリ,<size=32>From there you can get to the platform where you wait for underground    <br><size=32>trains. And from there， we could walk through the tunnels...<br> ,106601000G,mcv_1001050301_008_01,chara_5
 
-message,<user>,<size=32>I see.                                                   <br><size=32>An underground route might have paths clear of rubble.<br> 
+message,<user>,<size=32>I see.                                                                   <br><size=32>An underground route might have paths clear of rubble.<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -251,7 +251,7 @@ asyncshake,CHARA,chara_5,40,0,0.25,20,off,off,0,off,CONT,0
 window,on,0.15
 message,,<size=32>CRASHHHH!!<br> 
 
-message,,<size=32>Just then， a piece of guardrail comes flying from the    <br><size=32>pile of rubble and stabs into the ground at <user> and the others' feet.<br> 
+message,,<size=32>Just then， a piece of guardrail comes flying from the pile of rubble     <br><size=32>and stabs into the ground at <user> and the others' feet.<br> 
 
 window,off
 wait,0.15
@@ -361,7 +361,7 @@ asyncseplay,setag1_17,se4900054,0,1,CONT,0
 asyncwait
 
 window,on,0.15
-message,,<size=32>The group readies their weapons all at once.             <br><size=32>And then--<br> 
+message,,<size=32>The group readies their weapons all at once.                             <br><size=32>And then--<br> 
 
 labeljump,a
 

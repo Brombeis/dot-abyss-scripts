@@ -40,7 +40,7 @@ wait,0.15
 
 
 window,on,0.15
-message,,<size=32>No matter how long they waited，Marina alone did not      <br><size=32>surface from the snow.<br> 
+message,,<size=32>No matter how long they waited，Marina alone did not surface from the     <br><size=32>snow.<br> 
 
 window,off
 wait,0.15
@@ -77,7 +77,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>Wh-wh-wh-wh-wh，Marina! Marina~~~~!                       <br><size=32>Where are you~~~~!?<br> ,100201000G,mcv_1001020701_001_01,chara_1
+message,ベリサ,<size=32>Wh-wh-wh-wh-wh，Marina! Marina~~~~!                                       <br><size=32>Where are you~~~~!?<br> ,100201000G,mcv_1001020701_001_01,chara_1
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -88,7 +88,7 @@ asyncseplay,setag1_2,se4800015,0,1,CONT,0
 asynccharaemo,chara_2,Dull,CONT,0
 
 
-message,クルル,<size=32>Waaahhh~~~!                                              <br><size=32>I'm digging everywhere but she won't come out~~~~!<br> ,106701000G,mcv_1001020701_002_01,chara_2
+message,クルル,<size=32>Waaahhh~~~!                                                              <br><size=32>I'm digging everywhere but she won't come out~~~~!<br> ,106701000G,mcv_1001020701_002_01,chara_2
 
 window,off
 wait,0.15
@@ -138,9 +138,9 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>Oh! That's it! If we use fire magic to incinerate the    <br><size=32>area， Marina would turn up，wouldn't she!?<br> ,100201000G,mcv_1001020701_003_01,chara_1
+message,ベリサ,<size=32>Oh! That's it! If we use fire magic to incinerate the area，              <br><size=32>Marina would turn up，wouldn't she!?<br> ,100201000G,mcv_1001020701_003_01,chara_1
 
-message,<user>,<size=32>Your mana would run out first.                           <br><size=32>And even if it worked，Marina would be charbroiled.<br> 
+message,<user>,<size=32>Your mana would run out first.                                           <br><size=32>And even if it worked，Marina would be charbroiled.<br> 
 
 window,off
 wait,0.15
@@ -183,7 +183,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,クルル,<size=32>Master~~~~……                                             <br><size=32>Is…… is Marina going to become frozen Marina?<br> ,106701000G,mcv_1001020701_004_01,chara_2
+message,クルル,<size=32>Master~~~~……                                                             <br><size=32>Is…… is Marina going to become frozen Marina?<br> ,106701000G,mcv_1001020701_004_01,chara_2
 
 window,off
 wait,0.15
@@ -231,7 +231,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,<size=32>Everyone，calm down!                                      <br><size=32>The area is too vast to search randomly!!<br> 
+message,<user>,<size=32>Everyone，calm down!                                                      <br><size=32>The area is too vast to search randomly!!<br> 
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -249,7 +249,7 @@ asyncseplay,setag1_6,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,クルル,<size=32>We need to find her fast!                                <br><size=32>Marina is going to turn into an ice cube~!<br> ,106701000G,mcv_1001020701_006_01,chara_2
+message,クルル,<size=32>We need to find her fast!                                                <br><size=32>Marina is going to turn into an ice cube~!<br> ,106701000G,mcv_1001020701_006_01,chara_2
 
 window,off
 wait,0.15
@@ -292,9 +292,9 @@ asynccharaemo,chara_3,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>Everyone calm down. At times like this，we need to first  <br><size=32>confirm and share the situation!<br> ,106501000G,mcv_1001020701_007_01,chara_3
+message,ソフィア,<size=32>Everyone calm down.                                                      <br><size=32>At times like this，we need to first confirm and share the situation!<br> ,106501000G,mcv_1001020701_007_01,chara_3
 
-message,<user>,<size=32>That's Sophia for you.                                   <br><size=32>Did they teach you that at the knight academy?<br> 
+message,<user>,<size=32>That's Sophia for you.                                                   <br><size=32>Did they teach you that at the knight academy?<br> 
 
 asynccharaface,chara_3,EyeOpen,CONT,0
 asynccharaface,chara_3,FaceNormal,CONT,0
@@ -306,9 +306,9 @@ asyncseplay,setag1_8,se4800019,0,1,CONT,0
 asynccharaemo,chara_3,Elated,CONT,0
 
 
-message,ソフィア,<size=32>Yes. In our snow training，                               <br><size=32>we also learned countermeasures for avalanche encounters.<br> ,106501000G,mcv_1001020701_008_01,chara_3
+message,ソフィア,<size=32>Yes. In our snow training，                                               <br><size=32>we also learned countermeasures for avalanche encounters.<br> ,106501000G,mcv_1001020701_008_01,chara_3
 
-message,<user>,<size=32>I see. As expected of the student council president—well <br><size=32>prepared.<br> 
+message,<user>,<size=32>I see.                                                                   <br><size=32>As expected of the student council president—well prepared.<br> 
 
 window,off
 wait,0.15
@@ -391,7 +391,7 @@ asyncseplay,setag1_10,se4800022,0,1,CONT,0
 asynccharaemo,chara_3,Speak,CONT,0
 
 
-message,ソフィア,<size=32>Um…… first，confirm the situation.                        <br><size=32>Where did you last see Marina?<br> ,106501000G,mcv_1001020701_010_01,chara_3
+message,ソフィア,<size=32>Um…… first，confirm the situation.                                        <br><size=32>Where did you last see Marina?<br> ,106501000G,mcv_1001020701_010_01,chara_3
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -402,7 +402,7 @@ asyncseplay,setag1_11,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,クルル,<size=32>Umm~ when the snow came CRASHING down，                   <br><size=32>she was running somewhere between Sophia and master~……<br> ,106701000G,mcv_1001020701_011_01,chara_2
+message,クルル,<size=32>Umm~ when the snow came CRASHING down，                                   <br><size=32>she was running somewhere between Sophia and master~……<br> ,106701000G,mcv_1001020701_011_01,chara_2
 
 window,off
 wait,0.15
@@ -419,7 +419,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ソフィア,<size=32>Right. We were essentially together as a group，all       <br><size=32>running in the same direction. If so，she shouldn't be far from where we surfaced.<br> ,106501000G,mcv_1001020701_012_01,chara_3
+message,ソフィア,<size=32>Right. We were essentially together as a group，all running in the same   <br><size=32>direction. If so，she shouldn't be far from where we surfaced.<br> ,106501000G,mcv_1001020701_012_01,chara_3
 
 asynccharaface,chara_3,EyeOpen,CONT,0
 asynccharaface,chara_3,FaceNormal,CONT,0
@@ -431,7 +431,7 @@ asyncseplay,setag1_13,se4800022,0,1,CONT,0
 asynccharaemo,chara_3,Speak,CONT,0
 
 
-message,ソフィア,<size=32>Is there anything of Marina's that might have stayed     <br><size=32>nearby? Her hat，her pack—there must be some kind of clue!<br> ,106501000G,mcv_1001020701_013_01,chara_3
+message,ソフィア,<size=32>Is there anything of Marina's that might have stayed nearby?             <br><size=32>Her hat，her pack—there must be some kind of clue!<br> ,106501000G,mcv_1001020701_013_01,chara_3
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -451,7 +451,7 @@ asyncseplay,setag1_15,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ベリサ,<size=32>But Marina was carrying that huge pack，right~? What if   <br><size=32>she got swept much farther away in the avalanche than us~?<br> ,100201000G,mcv_1001020701_015_01,chara_1
+message,ベリサ,<size=32>But Marina was carrying that huge pack，right~?                           <br><size=32>What if she got swept much farther away in the avalanche than us~?<br> ,100201000G,mcv_1001020701_015_01,chara_1
 
 window,off
 wait,0.15
@@ -470,7 +470,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ソフィア,<size=32>That's certainly possible. The direction the avalanche   <br><size=32>came from was…… from there，toward here……<br> ,106501000G,mcv_1001020701_016_01,chara_3
+message,ソフィア,<size=32>That's certainly possible.                                               <br><size=32>The direction the avalanche came from was…… from there，toward here……<br> ,106501000G,mcv_1001020701_016_01,chara_3
 
 window,off
 wait,0.15
@@ -593,7 +593,7 @@ asyncseplay,setag1_19,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ベリサ,<size=32>No no~，there's no way around it，she got swept away with  <br><size=32>that pack of hers~.<br> ,100201000G,mcv_1001020701_019_01,chara_1
+message,ベリサ,<size=32>No no~，there's no way around it，she got swept away with that pack of     <br><size=32>hers~.<br> ,100201000G,mcv_1001020701_019_01,chara_1
 
 message,<user>,<size=32>With the pack…… that's it!<br> 
 
@@ -702,7 +702,7 @@ asynccharaemo,chara_3,Speak,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>Kulul，can you follow the scent of potions?               <br><size=32>Medicinal herbs would work too.<br> ,106501000G,mcv_1001020701_021_01,chara_3
+message,ソフィア,<size=32>Kulul，can you follow the scent of potions?                               <br><size=32>Medicinal herbs would work too.<br> ,106501000G,mcv_1001020701_021_01,chara_3
 
 asynccharaface,chara_2,FaceUnique01,CONT,0
 
@@ -816,7 +816,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,,<size=32>Kulul pressed herself flat against the snow              <br><size=32>and sniffed everywhere intensely.<br> 
+message,,<size=32>Kulul pressed herself flat against the snow                              <br><size=32>and sniffed everywhere intensely.<br> 
 
 window,off
 wait,0.15
@@ -840,7 +840,7 @@ asynccharamove,chara_2,Linear,Y,0,0.5,CONT,0
 asyncwait
 
 window,on,0.15
-message,,<size=32>At first her energy was remarkable， but gradually her    <br><size=32>movements slowed，as if conveying her worsening results.<br> 
+message,,<size=32>At first her energy was remarkable，                                      <br><size=32>but gradually her movements slowed，as if conveying her worsening results.<br> 
 
 asyncshake,CHARA,chara_2,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -849,7 +849,7 @@ asyncseplay,setag1_23,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,クルル,<size=32>Ughhh~…… I sniffed and sniffed so much，                  <br><size=32>but there's no medicine smell…… nowhere~.<br> ,106701000G,mcv_1001020701_023_01,chara_2
+message,クルル,<size=32>Ughhh~…… I sniffed and sniffed so much，                                  <br><size=32>but there's no medicine smell…… nowhere~.<br> ,106701000G,mcv_1001020701_023_01,chara_2
 
 window,off
 wait,0.15
@@ -918,7 +918,7 @@ subimagefade,subimage_1,0,0.6235,0
 asynccrossfade,0.1,0,0,1,1,STOP
 
 window,on,0.15
-message,<user>,<size=32>(The potions are a dead end…… but why…… what did she     <br><size=32>say?)<br> 
+message,<user>,<size=32>(The potions are a dead end…… but why…… what did she say?)<br> 
 
 
 window,off
@@ -984,7 +984,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>I've been wondering—the potion bottles inside            <br><size=32>and such，don't they shatter?<br> ,100201000G,mcv_1001020701_025_01,chara_1
+message,ベリサ,<size=32>I've been wondering—the potion bottles inside                            <br><size=32>and such，don't they shatter?<br> ,100201000G,mcv_1001020701_025_01,chara_1
 
 asynccharaface,chara_4,EyeOpen,CONT,0
 asynccharaface,chara_4,FaceNormal,CONT,0
@@ -996,7 +996,7 @@ asyncseplay,setag1_26,se4800013,0,1,CONT,0
 asynccharaemo,chara_4,Spirits,CONT,0
 
 
-message,マリナ,<size=32>Yes. I'm using a slightly special storage technique to   <br><size=32>keep them from breaking or leaking and getting smells on everything.<br> ,100301000G,mcv_1001020701_026_01,chara_4
+message,マリナ,<size=32>Yes. I'm using a slightly special storage technique                      <br><size=32>to keep them from breaking or leaking and getting smells on everything.<br> ,100301000G,mcv_1001020701_026_01,chara_4
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1061,7 +1061,7 @@ asynccharaemo,chara_2,Question,CONT,0
 
 message,クルル,？？？,106701000G,mcv_1001020701_028_01,chara_2
 
-message,<user>,<size=32>Marina said she uses the special storage technique that  <br><size=32>merchants use. That's why there's no smell!<br> 
+message,<user>,<size=32>Marina said she uses the special storage technique that merchants use.   <br><size=32>That's why there's no smell!<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1072,7 +1072,7 @@ asyncseplay,setag1_29,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ベリサ,<size=32>Ahhh!                                                    <br><size=32>She did say that! She did!<br> ,100201000G,mcv_1001020701_029_01,chara_1
+message,ベリサ,<size=32>Ahhh!                                                                    <br><size=32>She did say that! She did!<br> ,100201000G,mcv_1001020701_029_01,chara_1
 
 asynccharaface,chara_3,FaceSurprise,CONT,0
 
@@ -1083,7 +1083,7 @@ asyncseplay,setag1_30,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,ソフィア,<size=32>The bottles don't even break even with the force of being<br><size=32>swallowed by an avalanche— what kind of storage technique is that!?<br> ,106501000G,mcv_1001020701_030_01,chara_3
+message,ソフィア,<size=32>The bottles don't even break even with the force of being swallowed by an<br><size=32>avalanche— what kind of storage technique is that!?<br> ,106501000G,mcv_1001020701_030_01,chara_3
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1094,7 +1094,7 @@ asyncseplay,setag1_31,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ベリサ,<size=32>And Marina puts things back in her pack abnormally       <br><size=32>fast，doesn't she~? Even earlier when we drank hot chocolate in the cave……<br> ,100201000G,mcv_1001020701_031_01,chara_1
+message,ベリサ,<size=32>And Marina puts things back in her pack abnormally fast，doesn't she~?    <br><size=32>Even earlier when we drank hot chocolate in the cave……<br> ,100201000G,mcv_1001020701_031_01,chara_1
 
 message,<user>,<size=32>Chocolate…… that's it!<br> 
 
@@ -1182,7 +1182,7 @@ asyncfade,In,White,1,STOP,1
 waitorclick,2.5
 
 window,on,0.15
-message,<user>,<size=32>Earlier，Marina sold us hot chocolate in the cave         <br><size=32>and we all drank it，right?<br> 
+message,<user>,<size=32>Earlier，Marina sold us hot chocolate in the cave                         <br><size=32>and we all drank it，right?<br> 
 
 window,off
 wait,0.15
@@ -1202,9 +1202,9 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,<size=32>At that time，Marina put the leftover chocolate           <br><size=32>in the outer pocket of her pack.<br> 
+message,<user>,<size=32>At that time，Marina put the leftover chocolate                           <br><size=32>in the outer pocket of her pack.<br> 
 
-message,<user>,<size=32>……The chocolate was only wrapped in paper at that point. <br><size=32>I don't think the special storage technique was applied to it.<br> 
+message,<user>,<size=32>……The chocolate was only wrapped in paper at that point.                 <br><size=32>I don't think the special storage technique was applied to it.<br> 
 
 
 window,off
@@ -1278,7 +1278,7 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>R-really?                                                <br><size=32>You remember that much detail……?<br> ,106501000G,mcv_1001020701_033_01,chara_3
+message,ソフィア,<size=32>R-really?                                                                <br><size=32>You remember that much detail……?<br> ,106501000G,mcv_1001020701_033_01,chara_3
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1289,7 +1289,7 @@ asyncseplay,setag1_37,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ベリサ,<size=32>Big bro，that side of you is just……                       <br><size=32>creepy after all……<br> ,100201000G,mcv_1001020701_034_01,chara_1
+message,ベリサ,<size=32>Big bro，that side of you is just……                                       <br><size=32>creepy after all……<br> ,100201000G,mcv_1001020701_034_01,chara_1
 
 window,off
 wait,0.15
@@ -1335,7 +1335,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,<size=32>Kulul，it's chocolate! You drank so much of it a moment   <br><size=32>ago，you remember that smell，don't you?<br> 
+message,<user>,<size=32>Kulul，it's chocolate!                                                    <br><size=32>You drank so much of it a moment ago，you remember that smell，don't you?<br> 
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -1346,7 +1346,7 @@ asyncseplay,setag1_38,se4800003,0,1,CONT,0
 asynccharaemo,chara_2,Twinkle,CONT,0
 
 
-message,クルル,<size=32>Ohhhh! That sweet stuff~? Of course I remember! That was <br><size=32>the sweetest and most delicious thing Kulul has ever had in her whole life!<br> ,106701000G,mcv_1001020701_035_01,chara_2
+message,クルル,<size=32>Ohhhh! That sweet stuff~? Of course I remember! That was the sweetest and<br><size=32>most delicious thing Kulul has ever had in her whole life!<br> ,106701000G,mcv_1001020701_035_01,chara_2
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -1357,9 +1357,9 @@ asyncseplay,setag1_39,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,クルル,<size=32>Oh…… but I didn't smell anything sweet where I was       <br><size=32>sniffing before~?<br> ,106701000G,mcv_1001020701_036_01,chara_2
+message,クルル,<size=32>Oh…… but I didn't smell anything sweet where I was sniffing before~?<br> ,106701000G,mcv_1001020701_036_01,chara_2
 
-message,<user>,<size=32>I know…… but there's a chance she was swept even further.<br><size=32>Kulul，I'm counting on you! Your nose is our only hope!<br> 
+message,<user>,<size=32>I know…… but there's a chance she was swept even further. Kulul，I'm      <br><size=32>counting on you! Your nose is our only hope!<br> 
 
 window,off
 wait,0.15
@@ -1429,7 +1429,7 @@ asynccharamove,chara_2,EaseOut,X,-100,1,CONT,0
 asyncwait
 
 window,on,0.15
-message,,<size=32>Kulul carefully sniffed along in the direction the       <br><size=32>avalanche had flowed.<br> 
+message,,<size=32>Kulul carefully sniffed along in the direction the avalanche had flowed.<br> 
 
 asyncshake,CHARA,chara_2,0,-30,2,2,off,off,0,off,CONT,0
 
@@ -1498,7 +1498,7 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>We've gotten pretty far from where we surfaced.          <br><size=32>Did she really get swept this far……<br> ,106501000G,mcv_1001020701_039_01,chara_3
+message,ソフィア,<size=32>We've gotten pretty far from where we surfaced.                          <br><size=32>Did she really get swept this far……<br> ,106501000G,mcv_1001020701_039_01,chara_3
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -1507,7 +1507,7 @@ asyncseplay,setag1_44,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ベリサ,<size=32>Her pack is that big~. Maybe it went rolling and rolling <br><size=32>with incredible momentum~……<br> ,100201000G,mcv_1001020701_040_01,chara_1
+message,ベリサ,<size=32>Her pack is that big~.                                                   <br><size=32>Maybe it went rolling and rolling with incredible momentum~……<br> ,100201000G,mcv_1001020701_040_01,chara_1
 
 window,off
 wait,0.15
@@ -1558,9 +1558,9 @@ asynccharaemo,chara_2,Shock,CONT,0
 
 
 window,on,0.15
-message,クルル,<size=32>Ah，here! Right here!!                                    <br><size=32>There's chocolate smell from under the snow!!<br> ,106701000G,mcv_1001020701_041_01,chara_2
+message,クルル,<size=32>Ah，here! Right here!!                                                    <br><size=32>There's chocolate smell from under the snow!!<br> ,106701000G,mcv_1001020701_041_01,chara_2
 
-message,<user>,<size=32>YES! Well done，Kulul!                                    <br><size=32>Dig! Everyone dig with everything you've got!!<br> 
+message,<user>,<size=32>YES! Well done，Kulul!                                                    <br><size=32>Dig! Everyone dig with everything you've got!!<br> 
 
 window,off
 wait,0.15
@@ -1588,7 +1588,7 @@ asyncfade,In,Black,0,STOP,0.5
 waitorclick,0.5
 
 window,on,0.15
-message,,<size=32>Without needing the Commander's order， everyone dug at   <br><size=32>the spot Kulul pointed to. Digging and digging……<br> 
+message,,<size=32>Without needing the Commander's order，                                   <br><size=32>everyone dug at the spot Kulul pointed to. Digging and digging……<br> 
 
 window,off
 wait,0.15
@@ -1672,7 +1672,7 @@ asyncseplay,setag1_49,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,ソフィア,<size=32>She's breathing and has a pulse…… but she's unconscious! <br><size=32>And…… her body is so ice-cold……<br> ,106501000G,mcv_1001020701_043_01,chara_3
+message,ソフィア,<size=32>She's breathing and has a pulse…… but she's unconscious!                 <br><size=32>And…… her body is so ice-cold……<br> ,106501000G,mcv_1001020701_043_01,chara_3
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1787,7 +1787,7 @@ asyncseplay,setag1_53,se4800010,0,1,CONT,0
 asynccharaemo,chara_3,Exclamation,CONT,0
 
 window,on,0.15
-message,<user>,<size=32>That voice…… it's the same one from when the avalanche   <br><size=32>started earlier!<br> 
+message,<user>,<size=32>That voice…… it's the same one from when the avalanche started earlier!<br> 
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -1800,7 +1800,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 message,クルル,<size=32>The voice is closer to us than before~!<br> ,106701000G,mcv_1001020701_045_01,chara_2
 
-message,<user>,<size=32>……In any case，this place is dangerous!                   <br><size=32>We'll carry Marina and find somewhere to take cover!<br> 
+message,<user>,<size=32>……In any case，this place is dangerous!                                   <br><size=32>We'll carry Marina and find somewhere to take cover!<br> 
 
 window,off
 bgmstop,bgmtag1_2,0.5

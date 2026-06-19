@@ -38,12 +38,12 @@ asyncseplay,se4800014_,se4800014,0,1,CONT,0
 objectemo,Alicia,Silence
 
 
-dotmessage,アリシア,<size=32>Phew~~                                                   <br><size=32>I'm so nervous~……<br> ,,mcv_1001000201_001_01,NORMAL,Mid,NORMAL,Alicia,TOP,NORMAL,0,0
+dotmessage,アリシア,<size=32>Phew~~                                                                   <br><size=32>I'm so nervous~……<br> ,,mcv_1001000201_001_01,NORMAL,Mid,NORMAL,Alicia,TOP,NORMAL,0,0
 
 objectmotion,Alicia,N_think,1,1,,1
-dotmessage,アリシア,<size=32>Someone said to be the very ""hope""                       <br><size=32>that could save humanity<br> ,,mcv_1001000201_002_01,NORMAL,Mid,EYECLOSE,Alicia,TOP,NORMAL,0,0
+dotmessage,アリシア,<size=32>Someone said to be the very ""hope""                                       <br><size=32>that could save humanity<br> ,,mcv_1001000201_002_01,NORMAL,Mid,EYECLOSE,Alicia,TOP,NORMAL,0,0
 dotmessage,アリシア,<size=32>What kind of person could they be?<br> ,,mcv_1001000201_003_01,NORMAL,Mid,SAD,Alicia,TOP,NORMAL,0,0
-dotmessage,アリシア,<size=32>Sharp-minded but a troublemaker—                         <br><size=32>or so they say……<br> ,,mcv_1001000201_004_01,NORMAL,Mid,UNIQUE02,Alicia,TOP,NORMAL,0,0
+dotmessage,アリシア,<size=32>Sharp-minded but a troublemaker—                                         <br><size=32>or so they say……<br> ,,mcv_1001000201_004_01,NORMAL,Mid,UNIQUE02,Alicia,TOP,NORMAL,0,0
 
 objectdirect,Alicia,RIGHT
 
@@ -56,7 +56,7 @@ asyncdotmove,chara_1,1,-2,0,1,LinearTarget,CONT,0
 asyncwait
 asyncobjectmotion,chara_1,U_Wait01,0,1,,1,CONT,0
 
-dotmessage,<user>,<size=32>You're the one?                                          <br><size=32>The envoy from the Three Nations?<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
+dotmessage,<user>,<size=32>You're the one?                                                          <br><size=32>The envoy from the Three Nations?<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
 
 objectdirect,Alicia,LEFT
 asyncobjectmotion,Alicia,N_Yes,1,1,,1
@@ -75,7 +75,7 @@ objectdirect,chara_1,LEFT
 wait,0.5
 objectmotion,chara_1,N_No,1,1,U_Wait02,1
 
-dotmessage,<user>,<size=32>I'll tell you upfront—                                   <br><size=32>I'm not taking the job.<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
+dotmessage,<user>,<size=32>I'll tell you upfront—                                                   <br><size=32>I'm not taking the job.<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
 
 asyncobjectmotion,chara_1,C_Wait,0,1,,1,CONT,0
 
@@ -85,12 +85,12 @@ asyncseplay,se4800017_,se4800017,0,1,CONT,0
 asyncobjectmotion,Alicia,N_surprised,1,1,,1
 objectemo,Alicia,Shock
 
-dotmessage,アリシア,<size=32>What!?                                                   <br><size=32>I haven't even said anything yet……<br> ,,mcv_1001000201_006_01,NORMAL,Mid,SURPRISE,Alicia,TOP,NORMAL,0,0
+dotmessage,アリシア,<size=32>What!?                                                                   <br><size=32>I haven't even said anything yet……<br> ,,mcv_1001000201_006_01,NORMAL,Mid,SURPRISE,Alicia,TOP,NORMAL,0,0
 asyncobjectmotion,Alicia,C_Wait,1,1,,1
 
 objectmotion,chara_1,N_No,1,1,U_Wait01,1
 
-dotmessage,<user>,<size=32>I don't need you to tell me. I can guess.                <br><size=32>It's trouble，isn't it?<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
+dotmessage,<user>,<size=32>I don't need you to tell me. I can guess.                                <br><size=32>It's trouble，isn't it?<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
 
 objectmotion,chara_1,C_Wait,0,1,,1
 
@@ -103,10 +103,10 @@ objectemo,Alicia,Panic
 dotmessage,アリシア,<size=32>W-well… that is……<br> ,,mcv_1001000201_007_01,NORMAL,Mid,SAD,Alicia,TOP,NORMAL,0,0
 
 objectmotion,chara_1,N_Pointing,1,1,,1
-dotmessage,<user>,<size=32>Coming all the way to this backwater                     <br><size=32>just to see a troublesome exile like me<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
+dotmessage,<user>,<size=32>Coming all the way to this backwater                                     <br><size=32>just to see a troublesome exile like me<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
 
 objectmotion,chara_1,U_Wait01,1,1,,1
-dotmessage,<user>,<size=32>It could only be                                         <br><size=32>a troublesome request，right?<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
+dotmessage,<user>,<size=32>It could only be                                                         <br><size=32>a troublesome request，right?<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
 
 //エモ　汗
 asyncseplay,se4800008_10,se4800008,0,1,CONT,0
@@ -114,12 +114,12 @@ objectemo,Alicia,Sweat
 dotmessage,アリシア,<size=32>W-well……<br> ,,mcv_1001000201_008_01,NORMAL,Mid,SAD,Alicia,TOP,NORMAL,0,0
 
 objectmotion,chara_1,N_think,1,1,,1
-dotmessage,<user>,<size=32>Several months ago，the mysterious Abyss appeared—        <br><size=32>followed by an attack from a massive creature……<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
-dotmessage,<user>,<size=32>I've heard rumors that small nations near the Abyss      <br><size=32>vanished from the map in a single night……<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
+dotmessage,<user>,<size=32>Several months ago，the mysterious Abyss appeared—                        <br><size=32>followed by an attack from a massive creature……<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
+dotmessage,<user>,<size=32>I've heard rumors that small nations near the Abyss                      <br><size=32>vanished from the map in a single night……<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
 objectmotion,chara_1,C_Wait,1,1,,1
 
 objectmotion,Alicia,N_Yes,1,1,,1
-dotmessage,アリシア,<size=32>We combined the forces of the Three Nations              <br><size=32>and managed to drive back the massive creature.<br> ,,mcv_1001000201_009_01,NORMAL,Mid,UNIQUE03,Alicia,TOP,NORMAL,0,0
+dotmessage,アリシア,<size=32>We combined the forces of the Three Nations                              <br><size=32>and managed to drive back the massive creature.<br> ,,mcv_1001000201_009_01,NORMAL,Mid,UNIQUE03,Alicia,TOP,NORMAL,0,0
 
 objectmotion,Alicia,N_sorrow,1,1,,1
 dotmessage,アリシア,<size=32>With many… sacrifices……<br> ,,mcv_1001000201_010_01,NORMAL,Mid,UNIQUE02,Alicia,TOP,NORMAL,0,0
@@ -131,16 +131,16 @@ asyncwait
 objectmotion,Alicia,N_wish,0,1,,1
 
 dotmessage,アリシア,<size=32>I'll get straight to the point!<br> ,,mcv_1001000201_011_01,NORMAL,Mid,UNIQUE03,Alicia,TOP,NORMAL,0,0
-dotmessage,アリシア,<size=32>We wish for you to take the post                         <br><size=32>of ""Commander"" of the frontline base!<br> ,,mcv_1001000201_012_01,NORMAL,Mid,UNIQUE03,Alicia,TOP,NORMAL,0,0
+dotmessage,アリシア,<size=32>We wish for you to take the post                                         <br><size=32>of ""Commander"" of the frontline base!<br> ,,mcv_1001000201_012_01,NORMAL,Mid,UNIQUE03,Alicia,TOP,NORMAL,0,0
 asyncobjectmotion,Alicia,C_Wait,1,1,,1
 
 objectmotion,chara_1,N_think,1,1,,1
-dotmessage,<user>,<size=32>That base the Three Nations are jointly funding          <br><size=32>and rushing to build—that one……<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
+dotmessage,<user>,<size=32>That base the Three Nations are jointly funding                          <br><size=32>and rushing to build—that one……<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
 
 objectmotion,chara_1,U_Wait01,1,1,,1
 
 asyncobjectmotion,Alicia,N_wish,0,1,,1
-dotmessage,アリシア,<size=32>Please!　We beg you—                                      <br><size=32>lend us your strength!<br> ,,mcv_1001000201_013_01,NORMAL,Mid,UNIQUE03,Alicia,TOP,NORMAL,0,0
+dotmessage,アリシア,<size=32>Please!　We beg you—                                                      <br><size=32>lend us your strength!<br> ,,mcv_1001000201_013_01,NORMAL,Mid,UNIQUE03,Alicia,TOP,NORMAL,0,0
 asyncobjectmotion,Alicia,C_Wait,0,1,,1
 
 asyncobjectmotion,chara_1,N_No,1,1,U_Wait01,1
@@ -156,7 +156,7 @@ asyncobjectmotion,Alicia,C_Wait,0,1,,1
 
 asyncobjectmotion,chara_1,U_Wait02,0,1,,1
 
-dotmessage,<user>,<size=32>I told you at the start，didn't I?                        <br><size=32>Go find someone else……<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
+dotmessage,<user>,<size=32>I told you at the start，didn't I?                                        <br><size=32>Go find someone else……<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
 
 
 
@@ -212,12 +212,12 @@ dotmessage,アリシア,<size=32>Oomph!!!!<br> ,,mcv_1001000201_016_01,NORMAL,Mi
 objectmotion,chara_1,C_Wait,1,1,,1
 //asyncdotmove,chara_1,0.5,-2.5,0,0,LinearTarget,CONT,0
 
-dotmessage,<user>,<size=32>……Hey，hey.                                               <br><size=32>You okay?<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
+dotmessage,<user>,<size=32>……Hey，hey.                                                               <br><size=32>You okay?<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
 
 objectmotion,chara_1,N_hold_out_hand,1,1,None,1
 asyncwait
 
-dotmessage,<user>,<size=32>Here，can you stand?                                      <br><size=32>That was quite the tumble though~<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
+dotmessage,<user>,<size=32>Here，can you stand?                                                      <br><size=32>That was quite the tumble though~<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
 
 objectmotion,Alicia,C_Wait,0,1,,1
 asyncdotmove,Alicia,0.1,-0.5,0,0,Linear,CONT,0
@@ -247,7 +247,7 @@ asyncdotmove,Alicia,0.5,0.5,0,0,Linear,CONT,0
 //asyncwait
 wait,0.75
 
-dotmessage,<user>,<size=32>Wha……!?                                                  <br><size=32>Ngh……!　Let go!<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
+dotmessage,<user>,<size=32>Wha……!?                                                                  <br><size=32>Ngh……!　Let go!<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
 sestop,se5050019_2,0.5
 
 //BGM止める
@@ -256,12 +256,12 @@ sestop,se5050019_2,0.5
 //SE再生 物を掴む
 asyncseplay,se5050019_5,se5050019,0,1,CONT,0
 asyncdotshake,Alicia,0.1,0,0.5,5,off,0,off,CONT,0
-dotmessage,アリシア,<size=32>I won't let go of your hand                              <br><size=32>until you agree to become Commander!<br> ,,mcv_1001000201_018_01,NORMAL,Mid,UNIQUE03,Alicia,TOP,NORMAL,0,0
+dotmessage,アリシア,<size=32>I won't let go of your hand                                              <br><size=32>until you agree to become Commander!<br> ,,mcv_1001000201_018_01,NORMAL,Mid,UNIQUE03,Alicia,TOP,NORMAL,0,0
 sestop,se5050019_5,0.5
 
 //BGM
 //bgmplay,bgmtag2,bgm0030,0,1
-dotmessage,アリシア,<size=32>Because… if you refuse，                                  <br><size=32>you'll be……!<br> ,,mcv_1001000201_019_01,NORMAL,Mid,SAD,Alicia,TOP,NORMAL,0,0
+dotmessage,アリシア,<size=32>Because… if you refuse，                                                  <br><size=32>you'll be……!<br> ,,mcv_1001000201_019_01,NORMAL,Mid,SAD,Alicia,TOP,NORMAL,0,0
 objectmotion,Alicia,C_Wait,0,1,,1
 
 asyncobjectmotion,Alicia,C_Walk,0,1,NONE,1,CONT,0
@@ -270,23 +270,23 @@ asyncwait
 asyncobjectmotion,Alicia,C_Wait,0,1,,1,CONT,0
 
 asyncobjectmotion,Alicia,N_wish,0,1,,1
-dotmessage,アリシア,<size=32>You'll be hunted by the Three Nations                    <br><size=32>and thrown in prison!<br> ,,mcv_1001000201_020_01,NORMAL,Mid,UNIQUE04,Alicia,TOP,NORMAL,0,0
+dotmessage,アリシア,<size=32>You'll be hunted by the Three Nations                                    <br><size=32>and thrown in prison!<br> ,,mcv_1001000201_020_01,NORMAL,Mid,UNIQUE04,Alicia,TOP,NORMAL,0,0
 
 asyncobjectmotion,Alicia,N_No,1,1,,1
-dotmessage,アリシア,<size=32>And possibly… your very life                             <br><size=32>may be at risk too……<br> ,,mcv_1001000201_021_01,NORMAL,Mid,UNIQUE04,Alicia,TOP,NORMAL,0,0
+dotmessage,アリシア,<size=32>And possibly… your very life                                             <br><size=32>may be at risk too……<br> ,,mcv_1001000201_021_01,NORMAL,Mid,UNIQUE04,Alicia,TOP,NORMAL,0,0
 asyncobjectmotion,Alicia,C_Wait,0,1,,1
 
 //エモ　モヤモヤ
 asyncseplay,se4800006_8,se4800006,0,1,CONT,0
 objectmotion,chara_1,N_sorrow,1,1,,1
 objectemo,chara_1,Trouble
-dotmessage,<user>,<size=32>I see. So from the start，                                <br><size=32>I never had the right to refuse……<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
+dotmessage,<user>,<size=32>I see. So from the start，                                                <br><size=32>I never had the right to refuse……<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
 
 asyncobjectmotion,chara_1,N_No,1,1,,1
-dotmessage,<user>,<size=32>……Fine，whatever.                                         <br><size=32>I had nothing but time on my hands anyway.<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
+dotmessage,<user>,<size=32>……Fine，whatever.                                                         <br><size=32>I had nothing but time on my hands anyway.<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
 
 objectmotion,chara_1,U_Appeal,1,1,,1
-dotmessage,<user>,<size=32>I'll take the job—                                       <br><size=32>dealing with those monsters……<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
+dotmessage,<user>,<size=32>I'll take the job—                                                       <br><size=32>dealing with those monsters……<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
 
 
 //エモ　！？

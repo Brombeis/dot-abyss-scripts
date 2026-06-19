@@ -191,7 +191,7 @@ The game has **two rendering surfaces** for dialogue:
   narrower than full-width cells, so English can look gappy or overflow.
 
 `unity_generate_story_assets.py` compensates by word-wrapping text to fit in
-2 lines at **57 characters per line**. Lines are padded so `<br>` breaks align.
+2 lines at **73 characters per line**. Lines are padded so `<br>` breaks align.
 Dynamic font sizing (previously tiered `<size=N>` tags) is disabled.
 
 ---
@@ -210,6 +210,11 @@ The `3494` in `CDN_VERSION` is a catalog version. On a game update:
 
 ## 8. Translation workflow
 
+- **Line length limit during translation.** When writing English text for
+  `message`, `dotmessage`, `l2dmessage`, and `messageTextUnder` commands,
+  each `<br>`-separated segment must fit within **73 characters** (matching
+  `MESSAGE_CHARS_PER_LINE`), with a maximum of **2 lines** per dialogue entry.
+  `messageTextCenter` and `title` are exempt from this limit.
 - **Always update `data/translation_status.json`** after translating files.
   Set `translated` to the number of translated lines and `remaining` to `0`
   (or the correct count for partial translations). Never leave the status file

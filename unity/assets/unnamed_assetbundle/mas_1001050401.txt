@@ -102,7 +102,7 @@ asyncseplay,setag1_2,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,マリナ,<size=32>What was with those so-called robots...                  <br><size=32>Aren't they way too tough~?<br> ,100301000G,mcv_1001050401_002_01,chara_3
+message,マリナ,<size=32>What was with those so-called robots...                                  <br><size=32>Aren't they way too tough~?<br> ,100301000G,mcv_1001050401_002_01,chara_3
 
 window,off
 wait,0.15
@@ -147,7 +147,7 @@ asynccharaemo,chara_5,Trouble,CONT,0
 
 
 window,on,0.15
-message,クルル,<size=32>They were super hard~!                                   <br><size=32>Kururu's hands hurt...<br> ,106701000G,mcv_1001050401_003_01,chara_5
+message,クルル,<size=32>They were super hard~!                                                   <br><size=32>Kururu's hands hurt...<br> ,106701000G,mcv_1001050401_003_01,chara_5
 
 window,off
 wait,0.15
@@ -212,7 +212,7 @@ asynccharaemo,chara_2,Anger,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>Magic didn't seem very effective either...               <br><size=32>What the heck are those things!<br> ,100201000G,mcv_1001050401_004_01,chara_2
+message,ベリサ,<size=32>Magic didn't seem very effective either...                               <br><size=32>What the heck are those things!<br> ,100201000G,mcv_1001050401_004_01,chara_2
 
 window,off
 wait,0.15
@@ -271,9 +271,9 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,<size=32>There were no robots like that                           <br><size=32>in the world I came from...<br> ,106601000G,mcv_1001050401_005_01,chara_4
+message,ヒマリ,<size=32>There were no robots like that                                           <br><size=32>in the world I came from...<br> ,106601000G,mcv_1001050401_005_01,chara_4
 
-message,<user>,<size=32>They called us ""intruders.""                              <br><size=32>They must be guardians protecting this entire area.<br> 
+message,<user>,<size=32>They called us ""intruders.""                                              <br><size=32>They must be guardians protecting this entire area.<br> 
 
 window,off
 wait,0.15
@@ -338,9 +338,9 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>With those things roaming around，                        <br><size=32>searching for survivors is out of the question.<br> ,106501000G,mcv_1001050401_006_01,chara_1
+message,ソフィア,<size=32>With those things roaming around，                                        <br><size=32>searching for survivors is out of the question.<br> ,106501000G,mcv_1001050401_006_01,chara_1
 
-message,<user>,<size=32>Hm?                                                      <br><size=32>By the way， where did Logy and the others go?<br> 
+message,<user>,<size=32>Hm?                                                                      <br><size=32>By the way， where did Logy and the others go?<br> 
 
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
@@ -349,9 +349,9 @@ asyncseplay,setag1_7,se4800016,0,1,CONT,0
 asynccharaemo,chara_2,BePeevish,CONT,0
 
 
-message,ベリサ,<size=32>Those two                                                <br><size=32>slipped away somewhere in all the chaos~.<br> ,100201000G,mcv_1001050401_007_01,chara_2
+message,ベリサ,<size=32>Those two                                                                <br><size=32>slipped away somewhere in all the chaos~.<br> ,100201000G,mcv_1001050401_007_01,chara_2
 
-message,<user>,<size=32>Damn it!                                                 <br><size=32>We basically got found because of them...<br> 
+message,<user>,<size=32>Damn it!                                                                 <br><size=32>We basically got found because of them...<br> 
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -362,7 +362,7 @@ asyncseplay,setag1_8,se4800006,0,1,CONT,0
 asynccharaemo,chara_3,Trouble,CONT,0
 
 
-message,マリナ,<size=32>Honestly， such troublesome people~，                      <br><size=32>every single time.<br> ,100301000G,mcv_1001050401_008_01,chara_3
+message,マリナ,<size=32>Honestly， such troublesome people~，                                      <br><size=32>every single time.<br> ,100301000G,mcv_1001050401_008_01,chara_3
 
 window,off
 wait,0.15
@@ -414,9 +414,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>So what do we do now?                                    <br><size=32>Continue searching for survivors?<br> ,106501000G,mcv_1001050401_009_01,chara_1
+message,ソフィア,<size=32>So what do we do now?                                                    <br><size=32>Continue searching for survivors?<br> ,106501000G,mcv_1001050401_009_01,chara_1
 
-message,<user>,<size=32>Right now， evading those robots comes first.             <br><size=32>If only we could find a safe place to hide...<br> 
+message,<user>,<size=32>Right now， evading those robots comes first.                             <br><size=32>If only we could find a safe place to hide...<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -427,9 +427,9 @@ asyncseplay,setag1_10,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ソフィア,<size=32>Those lights shining from the rooftops are a problem. If <br><size=32>they spot us in the beams， they'll find our location...<br> ,106501000G,mcv_1001050401_010_01,chara_1
+message,ソフィア,<size=32>Those lights shining from the rooftops are a problem.                    <br><size=32>If they spot us in the beams， they'll find our location...<br> ,106501000G,mcv_1001050401_010_01,chara_1
 
-message,<user>,<size=32>Searchlights from above...                               <br><size=32>Somewhere we can avoid those...<br> 
+message,<user>,<size=32>Searchlights from above...                                               <br><size=32>Somewhere we can avoid those...<br> 
 
 window,off
 wait,0.15
@@ -473,11 +473,11 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒマリ,<size=32>...The subway.                                           <br><size=32>If we get inside a subway station...<br> ,106601000G,mcv_1001050401_011_01,chara_4
+message,ヒマリ,<size=32>...The subway.                                                           <br><size=32>If we get inside a subway station...<br> ,106601000G,mcv_1001050401_011_01,chara_4
 
-message,<user>,<size=32>The subway— that's the underground passage you mentioned <br><size=32>earlier. It would definitely be ideal for avoiding searchlights.<br> 
+message,<user>,<size=32>The subway— that's the underground passage you mentioned earlier.        <br><size=32>It would definitely be ideal for avoiding searchlights.<br> 
 
-message,<user>,<size=32>Himari， can you lead us to an entrance to the            <br><size=32>underground?<br> 
+message,<user>,<size=32>Himari， can you lead us to an entrance to the underground?<br> 
 
 asynccharaface,chara_4,FaceAnger,CONT,0
 
@@ -488,7 +488,7 @@ asyncseplay,setag1_12,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,ヒマリ,<size=32>Yeah. The ""Onarimon"" entrance from the photo             <br><size=32>shouldn't be far from here.<br> ,106601000G,mcv_1001050401_012_01,chara_4
+message,ヒマリ,<size=32>Yeah. The ""Onarimon"" entrance from the photo                             <br><size=32>shouldn't be far from here.<br> ,106601000G,mcv_1001050401_012_01,chara_4
 
 window,off
 wait,0.15
@@ -554,7 +554,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ソフィア,<size=32>If we go through there， we can reach the school          <br><size=32>evacuation point， right? That's our only option.<br> ,106501000G,mcv_1001050401_013_01,chara_1
+message,ソフィア,<size=32>If we go through there， we can reach the school evacuation point， right? <br><size=32>That's our only option.<br> ,106501000G,mcv_1001050401_013_01,chara_1
 
 window,off
 wait,0.15
@@ -599,7 +599,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,<size=32>Himari， lead the way! We move carefully— don't let those <br><size=32>security robots spot us.<br> 
+message,<user>,<size=32>Himari， lead the way!                                                    <br><size=32>We move carefully— don't let those security robots spot us.<br> 
 
 asynccharaface,chara_4,FaceAnger,CONT,0
 
@@ -718,7 +718,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>Uhh~... The entrance Himari mentioned...                 <br><size=32>is this the place!?<br> ,100201000G,mcv_1001050401_015_01,chara_2
+message,ベリサ,<size=32>Uhh~... The entrance Himari mentioned...                                 <br><size=32>is this the place!?<br> ,100201000G,mcv_1001050401_015_01,chara_2
 
 window,off
 wait,0.15
@@ -885,7 +885,7 @@ asynccharaemo,chara_4,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,<size=32>U-um... Onarimon Station has four other exits. If I      <br><size=32>remember right， there are stairs from that building over there too...<br> ,106601000G,mcv_1001050401_018_01,chara_4
+message,ヒマリ,<size=32>U-um... Onarimon Station has four other exits. If I remember right， there<br><size=32>are stairs from that building over there too...<br> ,106601000G,mcv_1001050401_018_01,chara_4
 
 window,off
 wait,0.15
@@ -948,7 +948,7 @@ asynccharaemo,chara_2,Dull,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>A building— you mean that big one over there~?           <br><size=32>It kinda looks like it's about to collapse though~?<br> ,100201000G,mcv_1001050401_019_01,chara_2
+message,ベリサ,<size=32>A building— you mean that big one over there~?                           <br><size=32>It kinda looks like it's about to collapse though~?<br> ,100201000G,mcv_1001050401_019_01,chara_2
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -957,7 +957,7 @@ asyncseplay,setag1_23,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ソフィア,<size=32>True... We don't know when it might collapse.            <br><size=32>Isn't that way too dangerous?<br> ,106501000G,mcv_1001050401_020_01,chara_1
+message,ソフィア,<size=32>True... We don't know when it might collapse.                            <br><size=32>Isn't that way too dangerous?<br> ,106501000G,mcv_1001050401_020_01,chara_1
 
 asynccharaface,chara_3,FaceSurprise,CONT,0
 
@@ -1020,9 +1020,9 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,<size=32>Yeah... There are lots of subway stations around this    <br><size=32>area... There should be an accessible one somewhere... probably...<br> ,106601000G,mcv_1001050401_022_01,chara_4
+message,ヒマリ,<size=32>Yeah... There are lots of subway stations around this area...            <br><size=32>There should be an accessible one somewhere... probably...<br> ,106601000G,mcv_1001050401_022_01,chara_4
 
-message,<user>,<size=32>Let's check every location you remember.                 <br><size=32>There might be an entrance that hasn't collapsed.<br> 
+message,<user>,<size=32>Let's check every location you remember.                                 <br><size=32>There might be an entrance that hasn't collapsed.<br> 
 
 asynccharaface,chara_4,FaceAnger,CONT,0
 
@@ -1033,7 +1033,7 @@ asyncseplay,setag1_26,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,ヒマリ,<size=32>Yeah. If any subway signs are still intact，              <br><size=32>we should be able to find them quickly.<br> ,106601000G,mcv_1001050401_023_01,chara_4
+message,ヒマリ,<size=32>Yeah. If any subway signs are still intact，                              <br><size=32>we should be able to find them quickly.<br> ,106601000G,mcv_1001050401_023_01,chara_4
 
 window,off
 wait,0.15
@@ -1136,7 +1136,7 @@ waitorclick,1.5
 bgmplay,bgmtag1_2,bgm0028,0.75,1
 
 window,on,0.15
-message,警備ロボット,<size=32>Intruder detected! Intruder detected!                    <br><size=32>Commencing attack immediately!<br> ,900000001
+message,警備ロボット,<size=32>Intruder detected! Intruder detected!                                    <br><size=32>Commencing attack immediately!<br> ,900000001
 
 window,off
 wait,0.15
@@ -1175,7 +1175,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 window,on,0.15
 message,ソフィア,<size=32>Tch! Robots coming from inside the building!<br> ,106501000G,mcv_1001050401_025_01,chara_1
 
-message,<user>,<size=32>Damn! They found us!                                     <br><size=32>Run!<br> 
+message,<user>,<size=32>Damn! They found us!                                                     <br><size=32>Run!<br> 
 
 window,off
 wait,0.15
@@ -1312,7 +1312,7 @@ asyncseplay,setag1_31,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ソフィア,<size=32>What do we do?                                           <br><size=32>They're too tough— fighting this many head-on would be...<br> ,106501000G,mcv_1001050401_028_01,chara_1
+message,ソフィア,<size=32>What do we do?                                                           <br><size=32>They're too tough— fighting this many head-on would be...<br> ,106501000G,mcv_1001050401_028_01,chara_1
 
 window,off
 wait,0.15
@@ -1344,9 +1344,9 @@ asynctransitionFade,Tra16,in,black,0.5,STOP,0.5
 waitorclick,1.5
 
 window,on,0.15
-message,<user>,<size=32>Look closely. These things                               <br><size=32>have spots at the joints where the armor doesn't cover.<br> 
+message,<user>,<size=32>Look closely. These things                                               <br><size=32>have spots at the joints where the armor doesn't cover.<br> 
 
-message,<user>,<size=32>The wiring is exposed there!                             <br><size=32>Everyone， aim for the joints!<br> 
+message,<user>,<size=32>The wiring is exposed there!                                             <br><size=32>Everyone， aim for the joints!<br> 
 
 window,off
 wait,0.15

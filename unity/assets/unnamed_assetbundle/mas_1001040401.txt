@@ -137,7 +137,7 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=32>Are you okay? Please drink a potion. You'll feel better  <br><size=32>right away〜?<br> ,100301000G,mcv_1001040401_003_01,chara_4
+message,マリナ,<size=32>Are you okay? Please drink a potion. You'll feel better right away〜?<br> ,100301000G,mcv_1001040401_003_01,chara_4
 
 asynccharaface,chara_3,FaceUnique01,CONT,0
 
@@ -192,7 +192,7 @@ asynccharaemo,chara_5,Panic,CONT,0
 window,on,0.15
 message,ヒマリ,<size=32>Hah... hah... eek，phew... hah...<br> ,106601001G,mcv_1001040401_005_01,chara_5
 
-message,<user>,<size=32>Himari，are you all right? Your breathing is really       <br><size=32>labored...<br> 
+message,<user>,<size=32>Himari，are you all right? Your breathing is really labored...<br> 
 
 asyncshake,CHARA,chara_5,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -201,7 +201,7 @@ asyncseplay,setag1_6,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,ヒマリ,<size=32>I-I'm fine... I'm just a little tired... that's all...   <br><size=32>ouch!<br> ,106601001G,mcv_1001040401_006_01,chara_5
+message,ヒマリ,<size=32>I-I'm fine... I'm just a little tired... that's all... ouch!<br> ,106601001G,mcv_1001040401_006_01,chara_5
 
 window,off
 wait,0.15
@@ -257,7 +257,7 @@ asyncwait
 asyncjump,CHARA,chara_6,-30.6,0.5,1,off,0,CONT
 
 window,on,0.15
-message,,<size=32>As Himari's unsteady feet nearly trip，Siena catches her  <br><size=32>in a hurry.<br> 
+message,,<size=32>As Himari's unsteady feet nearly trip，Siena catches her in a hurry.<br> 
 
 asynccharaface,chara_6,FaceSad,CONT,0
 
@@ -313,7 +313,7 @@ asyncseplay,setag1_11,se4800007,0,1,CONT,0
 asynccharaemo,chara_5,Panic,CONT,0
 
 
-message,ヒマリ,<size=32>It's fine，I'm just a little tired. But I won't become a  <br><size=32>burden... I'll work hard...!<br> ,106601001G,mcv_1001040401_010_01,chara_5
+message,ヒマリ,<size=32>It's fine，I'm just a little tired. But I won't become a burden... I'll   <br><size=32>work hard...!<br> ,106601001G,mcv_1001040401_010_01,chara_5
 
 window,off
 wait,0.15
@@ -448,7 +448,7 @@ asynccharaemo,chara_5,Shock,STOP,18.58
 
 
 window,on,0.15
-message,ヒマリ,<size=32>Th-thank you. W-well then，I'll continue guiding...       <br><size=32>next，climb up that cliff... up... u... aaaaaaaaah...<br> ,106601001G,mcv_1001040401_012_01,chara_5
+message,ヒマリ,<size=32>Th-thank you. W-well then，I'll continue guiding... next，climb up that    <br><size=32>cliff... up... u... aaaaaaaaah...<br> ,106601001G,mcv_1001040401_012_01,chara_5
 
 window,off
 wait,0.15
@@ -666,7 +666,7 @@ asynccharaemo,chara_5,Trouble,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,<size=32>But that's odd... the ground looks rougher than when I   <br><size=32>came before... why is that...?<br> ,106601001G,mcv_1001040401_016_01,chara_5
+message,ヒマリ,<size=32>But that's odd... the ground looks rougher than when I came before... why<br><size=32>is that...?<br> ,106601001G,mcv_1001040401_016_01,chara_5
 
 window,off
 wait,0.15
@@ -722,7 +722,7 @@ wait,0.5
 
 
 window,on,0.15
-message,シエナ,<size=32>Major earthquakes occur inside the Great Rift from time  <br><size=32>to time. It might be the effect of that...<br> ,300501000,mcv_1001040401_017_01,chara_6
+message,シエナ,<size=32>Major earthquakes occur inside the Great Rift from time to time. It might<br><size=32>be the effect of that...<br> ,300501000,mcv_1001040401_017_01,chara_6
 
 asynccharaface,chara_5,FaceSurprise,CONT,0
 
@@ -733,11 +733,11 @@ asyncseplay,setag1_22,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,ヒマリ,<size=32>I see... um，I think the area Himari explored before goes <br><size=32>up to... around here...<br> ,106601001G,mcv_1001040401_018_01,chara_5
+message,ヒマリ,<size=32>I see... um，I think the area Himari explored before goes up to... around <br><size=32>here...<br> ,106601001G,mcv_1001040401_018_01,chara_5
 
-message,<user>,<size=32>I see. Thank you for guiding us. ...Which means from here<br><size=32>on out we're in uncharted territory...<br> 
+message,<user>,<size=32>I see. Thank you for guiding us. ...Which means from here on out we're in<br><size=32>uncharted territory...<br> 
 
-message,<user>,<size=32>Alright，let's take a break around here for a bit. The    <br><size=32>path ahead is likely to get more dangerous.<br> 
+message,<user>,<size=32>Alright，let's take a break around here for a bit. The path ahead is      <br><size=32>likely to get more dangerous.<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -798,7 +798,7 @@ asynccharaemo,chara_4,Laugh,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=32>Agreed〜♪ Come on come on! Everyone please recover your   <br><size=32>stamina with potions〜♪<br> ,100301000G,mcv_1001040401_019_01,chara_4
+message,マリナ,<size=32>Agreed〜♪ Come on come on! Everyone please recover your stamina with      <br><size=32>potions〜♪<br> ,100301000G,mcv_1001040401_019_01,chara_4
 
 asyncjump,CHARA,chara_2,-30.6,0.5,1,off,0,CONT
 
@@ -886,7 +886,7 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>Is it really okay to be this relaxed? If bandits showed  <br><size=32>up at a time like this，it'd be the worst...<br> ,106501000G,mcv_1001040401_023_01,chara_3
+message,ソフィア,<size=32>Is it really okay to be this relaxed? If bandits showed up at a time like<br><size=32>this，it'd be the worst...<br> ,106501000G,mcv_1001040401_023_01,chara_3
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -897,9 +897,9 @@ asyncseplay,setag1_28,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ベリサ,<size=32>Now that you mention it，we haven't seen any at all on    <br><size=32>this floor，have we? Did they disband?<br> ,100201000G,mcv_1001040401_024_01,chara_1
+message,ベリサ,<size=32>Now that you mention it，we haven't seen any at all on this floor，have we?<br><size=32>Did they disband?<br> ,100201000G,mcv_1001040401_024_01,chara_1
 
-message,<user>,<size=32>No，the exploration squad's reports still include         <br><size=32>sightings of bandits. They must be somewhere in one of the Great Rift's floors.<br> 
+message,<user>,<size=32>No，the exploration squad's reports still include sightings of bandits.   <br><size=32>They must be somewhere in one of the Great Rift's floors.<br> 
 
 window,off
 wait,0.15
@@ -947,7 +947,7 @@ asynccharaemo,chara_4,Speak,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=32>Speaking of the exploration squad's reports，there were   <br><size=32>some interesting sightings from the mining team〜.<br> ,100301000G,mcv_1001040401_025_01,chara_4
+message,マリナ,<size=32>Speaking of the exploration squad's reports，there were some interesting  <br><size=32>sightings from the mining team〜.<br> ,100301000G,mcv_1001040401_025_01,chara_4
 
 window,off
 wait,0.15
@@ -988,7 +988,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>Interesting sightings? Like a pervert showing up in the  <br><size=32>Great Rift like big bro〜?<br> ,100201000G,mcv_1001040401_026_01,chara_1
+message,ベリサ,<size=32>Interesting sightings? Like a pervert showing up in the Great Rift like  <br><size=32>big bro〜?<br> ,100201000G,mcv_1001040401_026_01,chara_1
 
 message,<user>,<size=32>Stop making me the poster child for perverts!<br> 
 
@@ -1031,9 +1031,9 @@ asynccharaemo,chara_4,Speak,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=32>It's a little different from a pervert though〜. Rumor has<br><size=32>it that a girl with an iron golem is causing trouble at the mining site...<br> ,100301000G,mcv_1001040401_027_01,chara_4
+message,マリナ,<size=32>It's a little different from a pervert though〜. Rumor has it that a girl <br><size=32>with an iron golem is causing trouble at the mining site...<br> ,100301000G,mcv_1001040401_027_01,chara_4
 
-message,<user>,<size=32>I heard that one from Alicia too. One mining crew even   <br><size=32>reported falling into a trap set by this girl.<br> 
+message,<user>,<size=32>I heard that one from Alicia too. One mining crew even reported falling  <br><size=32>into a trap set by this girl.<br> 
 
 window,off
 wait,0.15
@@ -1106,7 +1106,7 @@ wait,0.5
 
 
 window,on,0.15
-message,シエナ,<size=32>Apparently a girl accompanied by what looks like a golem <br><size=32>monster is collecting anomalous objects from inside the Great Rift...<br> ,300501000,mcv_1001040401_029_01,chara_6
+message,シエナ,<size=32>Apparently a girl accompanied by what looks like a golem monster is      <br><size=32>collecting anomalous objects from inside the Great Rift...<br> ,300501000,mcv_1001040401_029_01,chara_6
 
 asynccharaface,chara_6,FaceSad,CONT,0
 
@@ -1117,9 +1117,9 @@ asyncseplay,setag1_34,se4800008,0,1,CONT,0
 asynccharaemo,chara_6,Sweat,CONT,0
 
 
-message,シエナ,<size=32>Our members tried to warn her，but the girl set off a     <br><size=32>smoke bomb and fled in a hurry.<br> ,300501000,mcv_1001040401_030_01,chara_6
+message,シエナ,<size=32>Our members tried to warn her，but the girl set off a smoke bomb and fled <br><size=32>in a hurry.<br> ,300501000,mcv_1001040401_030_01,chara_6
 
-message,<user>,<size=32>A suspicious one，that. Either way，if she's getting in the<br><size=32>way of our exploration，we should be on our guard.<br> 
+message,<user>,<size=32>A suspicious one，that. Either way，if she's getting in the way of our     <br><size=32>exploration，we should be on our guard.<br> 
 
 window,off
 wait,0.15
@@ -1178,7 +1178,7 @@ asynctransitionCrossFade,Tra02,0.5,STOP
 waitorclick,1
 
 window,on,0.15
-message,<user>,<size=32>Phew... Marina，can you get me a potion? The way fatigue  <br><size=32>is building up is just not normal...<br> 
+message,<user>,<size=32>Phew... Marina，can you get me a potion? The way fatigue is building up is<br><size=32>just not normal...<br> 
 
 asynccharaface,chara_3,FaceUnique01,CONT,0
 
@@ -1189,7 +1189,7 @@ asyncseplay,setag1_35,se4800006,0,1,CONT,0
 asynccharaemo,chara_3,Trouble,CONT,0
 
 
-message,ソフィア,<size=32>I agree... somehow，everyone looks gaunt. My head is      <br><size=32>throbbing too... what is this...<br> ,106501000G,mcv_1001040401_031_01,chara_3
+message,ソフィア,<size=32>I agree... somehow，everyone looks gaunt. My head is throbbing too... what<br><size=32>is this...<br> ,106501000G,mcv_1001040401_031_01,chara_3
 
 asynccharaface,chara_4,FaceSad,CONT,0
 
@@ -1200,9 +1200,9 @@ asyncseplay,setag1_36,se4800008,0,1,CONT,0
 asynccharaemo,chara_4,Sweat,CONT,0
 
 
-message,マリナ,<size=32>My throat is parched too，and my body aches after just a  <br><size=32>little walking. All the symptoms Himari mentioned are coming up one by one〜.<br> ,100301000G,mcv_1001040401_032_01,chara_4
+message,マリナ,<size=32>My throat is parched too，and my body aches after just a little walking.  <br><size=32>All the symptoms Himari mentioned are coming up one by one〜.<br> ,100301000G,mcv_1001040401_032_01,chara_4
 
-message,<user>,<size=32>Is the Hunger Calamity... close...? Either way，this      <br><size=32>continuing is going to be a serious problem.<br> 
+message,<user>,<size=32>Is the Hunger Calamity... close...? Either way，this continuing is going  <br><size=32>to be a serious problem.<br> 
 
 window,off
 wait,0.15
@@ -1258,9 +1258,9 @@ asynccharaemo,chara_6,Speak,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=32>We mustn't push ourselves. Let's rest a little at a time <br><size=32>as we move forward.<br> ,300501000,mcv_1001040401_033_01,chara_6
+message,シエナ,<size=32>We mustn't push ourselves. Let's rest a little at a time as we move      <br><size=32>forward.<br> ,300501000,mcv_1001040401_033_01,chara_6
 
-message,<user>,<size=32>Let's do that. Everyone，the moment you feel any          <br><size=32>fatigue，report it immediately. No forcing through it or putting on a brave face.<br> 
+message,<user>,<size=32>Let's do that. Everyone，the moment you feel any fatigue，report it        <br><size=32>immediately. No forcing through it or putting on a brave face.<br> 
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -1320,7 +1320,7 @@ wait,0.5
 wait,0.5
 
 window,on,0.15
-message,<user>,<size=32>There was a good cave here. Alright，let's take another   <br><size=32>break.<br> 
+message,<user>,<size=32>There was a good cave here. Alright，let's take another break.<br> 
 
 window,off
 wait,0.15
@@ -1392,7 +1392,7 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 message,マリナ,<size=32>It's a good thing we brought extra food〜.<br> ,100301000G,mcv_1001040401_035_01,chara_4
 
-message,<user>,<size=32>But if this level of hunger keeps up continuously，it's a <br><size=32>problem. Even with extra food，there's no end to it.<br> 
+message,<user>,<size=32>But if this level of hunger keeps up continuously，it's a problem. Even   <br><size=32>with extra food，there's no end to it.<br> 
 
 window,off
 wait,0.15
@@ -1618,7 +1618,7 @@ asynccharaemo,chara_6,Sweat,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=32>Himari，the Commander just said no pushing through things <br><size=32>or putting on a brave face，didn't he?<br> ,300501000,mcv_1001040401_039_01,chara_6
+message,シエナ,<size=32>Himari，the Commander just said no pushing through things or putting on a <br><size=32>brave face，didn't he?<br> ,300501000,mcv_1001040401_039_01,chara_6
 
 asyncshake,CHARA,chara_5,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -1627,7 +1627,7 @@ asyncseplay,setag1_45,se4800015,0,1,CONT,0
 asynccharaemo,chara_5,Dull,CONT,0
 
 
-message,ヒマリ,<size=32>I really am fine... if I rest a little，I really will     <br><size=32>be...<br> ,106601001G,mcv_1001040401_040_01,chara_5
+message,ヒマリ,<size=32>I really am fine... if I rest a little，I really will be...<br> ,106601001G,mcv_1001040401_040_01,chara_5
 
 asynccharaface,chara_6,FaceSad,CONT,0
 
@@ -1710,7 +1710,7 @@ wait,0.5
 
 
 window,on,0.15
-message,シエナ,<size=32>I'm thinking of taking Himari and heading back to the    <br><size=32>frontline base.<br> ,300501000,mcv_1001040401_043_01,chara_6
+message,シエナ,<size=32>I'm thinking of taking Himari and heading back to the frontline base.<br> ,300501000,mcv_1001040401_043_01,chara_6
 
 window,off
 wait,0.15
@@ -1778,7 +1778,7 @@ asyncseplay,setag1_50,se4800008,0,1,CONT,0
 asynccharaemo,chara_6,Sweat,CONT,0
 
 
-message,シエナ,<size=32>I'm worried about Himari. Your stamina is probably       <br><size=32>already at its limit，isn't it? There's even greater danger ahead...<br> ,300501000,mcv_1001040401_045_01,chara_6
+message,シエナ,<size=32>I'm worried about Himari. Your stamina is probably already at its        <br><size=32>limit，isn't it? There's even greater danger ahead...<br> ,300501000,mcv_1001040401_045_01,chara_6
 
 asynccharaface,chara_5,FaceSad,CONT,0
 
@@ -1789,7 +1789,7 @@ asyncseplay,setag1_51,se4800007,0,1,CONT,0
 asynccharaemo,chara_5,Panic,CONT,0
 
 
-message,ヒマリ,<size=32>W-wait! I'm still okay... please，take me with you...     <br><size=32>please!<br> ,106601001G,mcv_1001040401_046_01,chara_5
+message,ヒマリ,<size=32>W-wait! I'm still okay... please，take me with you... please!<br> ,106601001G,mcv_1001040401_046_01,chara_5
 
 asynccharaface,chara_6,FaceSad,CONT,0
 
@@ -1849,7 +1849,7 @@ asynccharaemo,chara_5,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,<size=32>I know... I know that Himari's become a burden right     <br><size=32>now... but going back like this，useless，is something I can't stand!<br> ,106601001G,mcv_1001040401_048_01,chara_5
+message,ヒマリ,<size=32>I know... I know that Himari's become a burden right now... but going    <br><size=32>back like this，useless，is something I can't stand!<br> ,106601001G,mcv_1001040401_048_01,chara_5
 
 asynccharaface,chara_5,FaceSad,CONT,0
 
@@ -1860,7 +1860,7 @@ asyncseplay,setag1_54,se4800015,0,1,CONT,0
 asynccharaemo,chara_5,Dull,CONT,0
 
 
-message,ヒマリ,<size=32>Uugh... if Himari had awakened her power，she could have  <br><size=32>helped everyone...<br> ,106601001G,mcv_1001040401_049_01,chara_5
+message,ヒマリ,<size=32>Uugh... if Himari had awakened her power，she could have helped           <br><size=32>everyone...<br> ,106601001G,mcv_1001040401_049_01,chara_5
 
 window,off
 wait,0.15
@@ -1915,7 +1915,7 @@ asynccharaemo,chara_6,Panic,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=32>That's not true—you were definitely helping. The reason  <br><size=32>everyone made it this far safely is because of your guidance.<br> ,300501000,mcv_1001040401_050_01,chara_6
+message,シエナ,<size=32>That's not true—you were definitely helping. The reason everyone made it <br><size=32>this far safely is because of your guidance.<br> ,300501000,mcv_1001040401_050_01,chara_6
 
 asynccharaface,chara_5,FaceUnique01,CONT,0
 
@@ -1926,7 +1926,7 @@ asyncseplay,setag1_56,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,ヒマリ,<size=32>That's not it... Himari wants to be of even more，much    <br><size=32>more help to everyone...<br> ,106601001G,mcv_1001040401_051_01,chara_5
+message,ヒマリ,<size=32>That's not it... Himari wants to be of even more，much more help to       <br><size=32>everyone...<br> ,106601001G,mcv_1001040401_051_01,chara_5
 
 window,off
 wait,0.15
@@ -1975,7 +1975,7 @@ asynccharaemo,chara_5,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,<size=32>Himari also wants to protect Siena... to protect         <br><size=32>everyone. She wants to be someone you can rely on... she hates this... hates this... me...<br> ,106601001G,mcv_1001040401_052_01,chara_5
+message,ヒマリ,<size=32>Himari also wants to protect Siena... to protect everyone. She wants to  <br><size=32>be someone you can rely on... she hates this... hates this... me...<br> ,106601001G,mcv_1001040401_052_01,chara_5
 
 bgmstop,bgmtag1_3,1.5,0
 
@@ -1997,7 +1997,7 @@ screeneffect,BLOOM,on,0.15,0
 asynctransitionFade,Tra19,in,white,1,STOP,1
 
 window,on,0.15
-message,,<size=32>At that moment，a brilliant light begins to overflow from <br><size=32>Himari's back.<br> 
+message,,<size=32>At that moment，a brilliant light begins to overflow from Himari's back.<br> 
 
 bgmplay,bgmtag1_4,bgm0037,0.75,1
 
@@ -2130,7 +2130,7 @@ asynccharaemo,chara_6,Sweat,CONT,0
 window,on,0.15
 message,シエナ,<size=32>H-Himari...!? Could it be...!<br> ,300501000,mcv_1001040401_055_01,chara_6
 
-message,<user>,<size=32>Siena，isn't this her powers awakening? Himari's true     <br><size=32>power in this world!<br> 
+message,<user>,<size=32>Siena，isn't this her powers awakening? Himari's true power in this world!<br> 
 
 window,off
 wait,0.15
@@ -2204,7 +2204,7 @@ asyncseplay,setag1_63,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,マリナ,<size=32>My... Himari's desire to protect Siena might be what's   <br><size=32>trying to awaken her powers〜.<br> ,100301000G,mcv_1001040401_057_01,chara_4
+message,マリナ,<size=32>My... Himari's desire to protect Siena might be what's trying to awaken  <br><size=32>her powers〜.<br> ,100301000G,mcv_1001040401_057_01,chara_4
 
 window,off
 wait,0.15
@@ -2274,9 +2274,9 @@ wait,0.5
 
 
 window,on,0.15
-message,シエナ,<size=32>...Come to think of it，back then too... you faced things <br><size=32>so boldly like this...<br> ,300501000,mcv_1001040401_059_01,chara_6
+message,シエナ,<size=32>...Come to think of it，back then too... you faced things so boldly like  <br><size=32>this...<br> ,300501000,mcv_1001040401_059_01,chara_6
 
-message,<user>,<size=32>Hey，Siena. This is just a suggestion，but what do you     <br><size=32>think about keeping Himari with us?<br> 
+message,<user>,<size=32>Hey，Siena. This is just a suggestion，but what do you think about keeping <br><size=32>Himari with us?<br> 
 
 asynccharaface,chara_6,FaceSurprise,CONT,0
 
@@ -2289,7 +2289,7 @@ asynccharaemo,chara_6,Shock,CONT,0
 
 message,シエナ,<size=32>What...!?<br> ,300501000,mcv_1001040401_060_01,chara_6
 
-message,<user>,<size=32>You said earlier，right? That there's a possibility Himari<br><size=32>could awaken explosive powers like yours.<br> 
+message,<user>,<size=32>You said earlier，right? That there's a possibility Himari could awaken   <br><size=32>explosive powers like yours.<br> 
 
 asynccharaface,chara_6,FaceSad,CONT,0
 
@@ -2302,7 +2302,7 @@ asynccharaemo,chara_6,Panic,CONT,0
 
 message,シエナ,<size=32>That was only a possibility...<br> ,300501000,mcv_1001040401_061_01,chara_6
 
-message,<user>,<size=32>Right now，Himari is showing signs of awakening her power.<br><size=32>If we gain someone with power comparable to yours，there's nothing more reassuring.<br> 
+message,<user>,<size=32>Right now，Himari is showing signs of awakening her power. If we gain     <br><size=32>someone with power comparable to yours，there's nothing more reassuring.<br> 
 
 asyncshake,CHARA,chara_6,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -2311,9 +2311,9 @@ asyncseplay,setag1_68,se4800008,0,1,CONT,0
 asynccharaemo,chara_6,Sweat,CONT,0
 
 
-message,シエナ,<size=32>But... there's still no guarantee that Himari's powers   <br><size=32>will awaken immediately...<br> ,300501000,mcv_1001040401_062_01,chara_6
+message,シエナ,<size=32>But... there's still no guarantee that Himari's powers will awaken       <br><size=32>immediately...<br> ,300501000,mcv_1001040401_062_01,chara_6
 
-message,<user>,<size=32>I'm counting on you，Siena. The enemy we have to defeat   <br><size=32>next is a formidable foe.<br> 
+message,<user>,<size=32>I'm counting on you，Siena. The enemy we have to defeat next is a         <br><size=32>formidable foe.<br> 
 
 window,off
 wait,0.15
@@ -2366,7 +2366,7 @@ asyncjump,CHARA,chara_5,-30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,ヒマリ,<size=32>Please，Siena... Himari will definitely awaken her        <br><size=32>powers... Himari wants to fight alongside everyone! So... please!<br> ,106601001G,mcv_1001040401_063_01,chara_5
+message,ヒマリ,<size=32>Please，Siena... Himari will definitely awaken her powers... Himari wants <br><size=32>to fight alongside everyone! So... please!<br> ,106601001G,mcv_1001040401_063_01,chara_5
 
 asyncscreeneffect,BLOOM,on,0.12,0.5,CONT,0
 
@@ -2383,7 +2383,7 @@ message,シエナ,<size=32>Himari...<br> ,300501000,mcv_1001040401_064_01,chara_
 
 asyncscreeneffect,BLOOM,on,0.09,0.5,CONT,0
 
-message,<user>,<size=32>I want to believe in Himari's potential too.             <br><size=32>Please，Siena!<br> 
+message,<user>,<size=32>I want to believe in Himari's potential too. Please，Siena!<br> 
 
 asyncscreeneffect,BLOOM,on,0.06,0.5,CONT,0
 
@@ -2427,7 +2427,7 @@ asynccharaemo,chara_6,Exclamation,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=32>Understood. Let's keep Himari with us... but Himari，until<br><size=32>your powers awaken，you absolutely must not leave my side.<br> ,300501000,mcv_1001040401_066_01,chara_6
+message,シエナ,<size=32>Understood. Let's keep Himari with us... but Himari，until your powers    <br><size=32>awaken，you absolutely must not leave my side.<br> ,300501000,mcv_1001040401_066_01,chara_6
 
 asyncscreeneffect,BLOOM,off,1,0.5,CONT,0
 

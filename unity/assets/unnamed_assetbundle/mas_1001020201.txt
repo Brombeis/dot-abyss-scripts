@@ -36,7 +36,7 @@ wait,1
 bgmplay,bgmtag1_1,bgm0041,0.75,1
 
 window,on,0.15
-message,,<size=32>As a raging blizzard bared its fangs at the frontline    <br><size=32>base， the evacuation of residents proceeded swiftly and in orderly fashion.<br> 
+message,,<size=32>As a raging blizzard bared its fangs at the frontline base，              <br><size=32>the evacuation of residents proceeded swiftly and in orderly fashion.<br> 
 
 window,off
 wait,0.15
@@ -64,7 +64,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,,<size=32>Under Sophia's precise guidance， residents filed one     <br><size=32>after another into solid structures like the church and command headquarters.<br> 
+message,,<size=32>Under Sophia's precise guidance， residents filed one after another into  <br><size=32>solid structures like the church and command headquarters.<br> 
 
 window,off
 wait,0.15
@@ -107,9 +107,9 @@ asynctransitionFade,Tra01,in,black,1,STOP,1
 waitorclick,2.5
 
 window,on,0.15
-message,,<size=32>There，the magic-stone stoves Belisa had arranged cast    <br><size=32>warm light， while the cold-weather gear and emergency rations Marina had gathered were carried inside.<br> 
+message,,<size=32>There，the magic-stone stoves Belisa had arranged cast warm light， while  <br><size=32>the cold-weather gear and emergency rations Marina had gathered were carried inside.<br> 
 
-message,,<size=32>Through each person's exemplary coordination，the         <br><size=32>evacuation of residents around the base was safely completed. However……<br> 
+message,,<size=32>Through each person's exemplary coordination，the evacuation of residents <br><size=32>around the base was safely completed. However……<br> 
 
 window,off
 wait,0.15
@@ -158,7 +158,7 @@ asynccharaemo,chara_4,Panic,CONT,0
 
 
 window,on,0.15
-message,アリシア,<size=32>C-Commander!　W-w-w-w-what do we do!? The blizzard has    <br><size=32>died down，which is great，but……the entire frontline base has frozen over!<br> ,300201000,mcv_1001020201_001_01,chara_4
+message,アリシア,<size=32>C-Commander!　W-w-w-w-what do we do!? The blizzard has died down，which is <br><size=32>great，but……the entire frontline base has frozen over!<br> ,300201000,mcv_1001020201_001_01,chara_4
 
 window,off
 wait,0.15
@@ -200,9 +200,9 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,<size=32>It's almost as if only the area around the frontline base<br><size=32>has entered an ice age. What do we do……<br> 
+message,<user>,<size=32>It's almost as if only the area around the frontline base                <br><size=32>has entered an ice age. What do we do……<br> 
 
-message,<user>,<size=32>The residents are evacuated and withstanding the cold is <br><size=32>manageable， but the real problem is food.<br> 
+message,<user>,<size=32>The residents are evacuated and withstanding the cold is manageable，     <br><size=32>but the real problem is food.<br> 
 
 asyncjump,CHARA,chara_4,30,0.25,1,off,0,CONT
 
@@ -211,9 +211,9 @@ asyncseplay,setag1_2,se4800015,0,1,CONT,0
 asynccharaemo,chara_4,Dull,CONT,0
 
 
-message,アリシア,<size=32>At this rate，the warehouse food will run out in a matter <br><size=32>of days! Of all the times for a blizzard like this，right at harvest season……<br> ,300201000,mcv_1001020201_002_01,chara_4
+message,アリシア,<size=32>At this rate，the warehouse food will run out in a matter of days!        <br><size=32>Of all the times for a blizzard like this，right at harvest season……<br> ,300201000,mcv_1001020201_002_01,chara_4
 
-message,<user>,<size=32>We should probably consider                              <br><size=32>requesting aid from neighboring nations.<br> 
+message,<user>,<size=32>We should probably consider                                              <br><size=32>requesting aid from neighboring nations.<br> 
 
 asynccharaface,chara_4,FaceUnique03,CONT,0
 
@@ -224,9 +224,9 @@ asyncseplay,setag1_3,se4800010,0,1,CONT,0
 asynccharaemo,chara_4,Exclamation,CONT,0
 
 
-message,アリシア,<size=32>A request to the Three Nations!                          <br><size=32>Let's arrange it right away!<br> ,300201000,mcv_1001020201_003_01,chara_4
+message,アリシア,<size=32>A request to the Three Nations!                                          <br><size=32>Let's arrange it right away!<br> ,300201000,mcv_1001020201_003_01,chara_4
 
-message,<user>,<size=32>Well，even if we send a request，                          <br><size=32>I wouldn't count on supplies actually arriving.<br> 
+message,<user>,<size=32>Well，even if we send a request，                                          <br><size=32>I wouldn't count on supplies actually arriving.<br> 
 
 asynccharaface,chara_4,FaceSurprise,CONT,0
 
@@ -237,9 +237,9 @@ asyncseplay,setag1_4,se4800008,0,1,CONT,0
 asynccharaemo,chara_4,Sweat,CONT,0
 
 
-message,アリシア,<size=32>That's not true! The report that the frontline base      <br><size=32>repelled the Calamity has reached every nation!<br> ,300201000,mcv_1001020201_004_01,chara_4
+message,アリシア,<size=32>That's not true! The report that the frontline base repelled the Calamity<br><size=32>has reached every nation!<br> ,300201000,mcv_1001020201_004_01,chara_4
 
-message,<user>,<size=32>Has it，though? I have a feeling the upper echelons of the<br><size=32>Three Nations still look at me with suspicious eyes.<br> 
+message,<user>,<size=32>Has it，though? I have a feeling the upper echelons of the Three Nations  <br><size=32>still look at me with suspicious eyes.<br> 
 
 asynccharaface,chara_4,FaceAnger,CONT,0
 
@@ -250,7 +250,7 @@ asyncseplay,setag1_5,se4800016,0,1,CONT,0
 asynccharaemo,chara_4,BePeevish,CONT,0
 
 
-message,アリシア,<size=32>That's not true! The Commander is a true hero who        <br><size=32>repelled the Calamity!　Hold your head higher!<br> ,300201000,mcv_1001020201_005_01,chara_4
+message,アリシア,<size=32>That's not true! The Commander is a true hero who repelled the           <br><size=32>Calamity!　Hold your head higher!<br> ,300201000,mcv_1001020201_005_01,chara_4
 
 message,<user>,<size=32>Me，a hero……<br> 
 
@@ -263,7 +263,7 @@ asyncseplay,setag1_6,se4800010,0,1,CONT,0
 asynccharaemo,chara_4,Exclamation,CONT,0
 
 
-message,アリシア,<size=32>Anyway，let's at least send the aid request! The Three    <br><size=32>Nations would be in serious trouble if this frontline base were wiped out!<br> ,300201000,mcv_1001020201_006_01,chara_4
+message,アリシア,<size=32>Anyway，let's at least send the aid request! The Three Nations would be in<br><size=32>serious trouble if this frontline base were wiped out!<br> ,300201000,mcv_1001020201_006_01,chara_4
 
 message,<user>,<size=32>I won't hold my breath，but please go ahead.<br> 
 
@@ -347,7 +347,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>Commander!　I've confirmed that all residents within the  <br><size=32>frontline base have evacuated!<br> ,106501000G,mcv_1001020201_008_01,chara_1
+message,ソフィア,<size=32>Commander!　I've confirmed that all residents within the frontline base   <br><size=32>have evacuated!<br> ,106501000G,mcv_1001020201_008_01,chara_1
 
 window,off
 wait,0.15
@@ -398,7 +398,7 @@ asynccharaemo,chara_2,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>Commander!　All the high-output magic-stone stoves are set<br><size=32>up. Just needs regular mana fed into them now.<br> ,100201000G,mcv_1001020201_009_01,chara_2
+message,ベリサ,<size=32>Commander!　All the high-output magic-stone stoves are set up.            <br><size=32>Just needs regular mana fed into them now.<br> ,100201000G,mcv_1001020201_009_01,chara_2
 
 window,off
 wait,0.15
@@ -448,7 +448,7 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=32>I've distributed all the cold-weather gear and emergency <br><size=32>rations too. I gave everyone a special deal~.<br> ,100301000G,mcv_1001020201_010_01,chara_3
+message,マリナ,<size=32>I've distributed all the cold-weather gear and emergency rations too.    <br><size=32>I gave everyone a special deal~.<br> ,100301000G,mcv_1001020201_010_01,chara_3
 
 window,off
 wait,0.15
@@ -512,7 +512,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,<size=32>Thanks，everyone.                                         <br><size=32>I'd like to head somewhere now—will you all come along?<br> 
+message,<user>,<size=32>Thanks，everyone.                                                         <br><size=32>I'd like to head somewhere now—will you all come along?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -545,7 +545,7 @@ asyncseplay,setag1_14,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,マリナ,<size=32>Don't worry~.                                            <br><size=32>I've got cold-weather gear ready for everyone~.<br> ,100301000G,mcv_1001020201_013_01,chara_3
+message,マリナ,<size=32>Don't worry~.                                                            <br><size=32>I've got cold-weather gear ready for everyone~.<br> ,100301000G,mcv_1001020201_013_01,chara_3
 
 
 window,off
@@ -621,9 +621,9 @@ asynccharaemo,chara_5,Speak,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,<size=32>Commander，good timing.                                   <br><size=32>The analysis results just came in.<br> ,108701000G,mcv_1001020201_014_01,chara_5
+message,アーデルハイト,<size=32>Commander，good timing.                                                   <br><size=32>The analysis results just came in.<br> ,108701000G,mcv_1001020201_014_01,chara_5
 
-message,<user>,<size=32>Good.                                                    <br><size=32>What did you find?<br> 
+message,<user>,<size=32>Good.                                                                    <br><size=32>What did you find?<br> 
 
 window,off
 wait,0.15
@@ -652,7 +652,7 @@ charafocusonall
 bgmstop,bgmtag1_1,1.5,0
 
 window,on,0.15
-message,<user>,<size=32>As I thought.                                            <br><size=32>The cause of this abnormal weather is……<br> 
+message,<user>,<size=32>As I thought.                                                            <br><size=32>The cause of this abnormal weather is……<br> 
 
 asynccharaface,chara_5,FaceAnger,CONT,0
 
@@ -765,7 +765,7 @@ asyncseplay,setag1_22,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,ベリサ,<size=32>Whaaat~!?                                                <br><size=32>Another one of those terrifying things like last time!?<br> ,100201000G,mcv_1001020201_018_01,chara_2
+message,ベリサ,<size=32>Whaaat~!?                                                                <br><size=32>Another one of those terrifying things like last time!?<br> ,100201000G,mcv_1001020201_018_01,chara_2
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -829,7 +829,7 @@ wait,0.5
 
 
 window,on,0.15
-message,アーデルハイト,<size=32>In the layer below the one we explored last time.        <br><size=32>An anomalous signal was detected there five days ago.<br> ,108701000G,mcv_1001020201_020_01,chara_5
+message,アーデルハイト,<size=32>In the layer below the one we explored last time.                        <br><size=32>An anomalous signal was detected there five days ago.<br> ,108701000G,mcv_1001020201_020_01,chara_5
 
 window,off
 wait,0.15
@@ -918,9 +918,9 @@ asynccharaemo,chara_5,Trouble,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,<size=32>Exactly. After detecting the signal，the radar was damaged<br><size=32>by the heavy snow， and it took time to cross-reference it with the Calamity signal pattern.<br> ,108701000G,mcv_1001020201_022_01,chara_5
+message,アーデルハイト,<size=32>Exactly. After detecting the signal，the radar was damaged by the heavy   <br><size=32>snow， and it took time to cross-reference it with the Calamity signal pattern.<br> ,108701000G,mcv_1001020201_022_01,chara_5
 
-message,<user>,<size=32>We also needed to develop an observation balloon that    <br><size=32>could withstand snow and blizzards. So—is there any information on the Calamity?<br> 
+message,<user>,<size=32>We also needed to develop an observation balloon that could withstand    <br><size=32>snow and blizzards. So—is there any information on the Calamity?<br> 
 
 asynccharaface,chara_5,EyeOpen,CONT,0
 asynccharaface,chara_5,FaceNormal,CONT,0
@@ -932,7 +932,7 @@ asyncseplay,setag1_27,se4800022,0,1,CONT,0
 asynccharaemo,chara_5,Speak,CONT,0
 
 
-message,アーデルハイト,<size=32>At the moment，it appears to be smaller in scale than the <br><size=32>Calamity of the Sandstorm we fought.<br> ,108701000G,mcv_1001020201_023_01,chara_5
+message,アーデルハイト,<size=32>At the moment，it appears to be smaller in scale than the Calamity of the <br><size=32>Sandstorm we fought.<br> ,108701000G,mcv_1001020201_023_01,chara_5
 
 window,off
 wait,0.15
@@ -975,7 +975,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>So it's weaker than last time~?                          <br><size=32>Then it'll be a cakewalk!<br> ,100201000G,mcv_1001020201_024_01,chara_2
+message,ベリサ,<size=32>So it's weaker than last time~?                                          <br><size=32>Then it'll be a cakewalk!<br> ,100201000G,mcv_1001020201_024_01,chara_2
 
 window,off
 wait,0.15
@@ -1086,11 +1086,11 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=32>But it's already had this much of an effect on the       <br><size=32>frontline base，hasn't it? Isn't it actually an incredibly powerful Calamity~?<br> ,100301000G,mcv_1001020201_026_01,chara_3
+message,マリナ,<size=32>But it's already had this much of an effect on the frontline base，hasn't <br><size=32>it? Isn't it actually an incredibly powerful Calamity~?<br> ,100301000G,mcv_1001020201_026_01,chara_3
 
-message,<user>,<size=32>It's true that its influence is growing day by day. But  <br><size=32>if it's not that powerful right now，we should deal with it directly before it gets worse.<br> 
+message,<user>,<size=32>It's true that its influence is growing day by day. But if it's not that <br><size=32>powerful right now，we should deal with it directly before it gets worse.<br> 
 
-message,<user>,<size=32>We can't count on aid from the Three Nations，and the     <br><size=32>base's food supply has its limits. If we can do something，the sooner the better.<br> 
+message,<user>,<size=32>We can't count on aid from the Three Nations，and the base's food supply  <br><size=32>has its limits. If we can do something，the sooner the better.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1101,7 +1101,7 @@ asyncseplay,setag1_31,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ソフィア,<size=32>So，we're going to that layer to fight the Calamity       <br><size=32>head-on!? C-can we even do that……<br> ,106501000G,mcv_1001020201_027_01,chara_1
+message,ソフィア,<size=32>So，we're going to that layer to fight the Calamity head-on!?             <br><size=32>C-can we even do that……<br> ,106501000G,mcv_1001020201_027_01,chara_1
 
 window,off
 wait,0.15
@@ -1153,7 +1153,7 @@ asynccharaemo,chara_5,Twinkle,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,<size=32>Yes. We can.                                             <br><size=32>If we use this……<br> ,108701000G,mcv_1001020201_028_01,chara_5
+message,アーデルハイト,<size=32>Yes. We can.                                                             <br><size=32>If we use this……<br> ,108701000G,mcv_1001020201_028_01,chara_5
 
 window,off
 wait,0.15
@@ -1169,7 +1169,7 @@ emodelete,chara_5,0,0
 item,on,550100006
 
 window,on,0.15
-message,ベリサ,<size=32>Isn't that one of the defensive weapons for the base~?   <br><size=32>Can one of those take it out?<br> ,100201000G,mcv_1001020201_029_01,on
+message,ベリサ,<size=32>Isn't that one of the defensive weapons for the base~?                   <br><size=32>Can one of those take it out?<br> ,100201000G,mcv_1001020201_029_01,on
 
 window,off
 wait,0.15
@@ -1196,7 +1196,7 @@ asynccharaemo,chara_5,Spirits,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,<size=32>This is a 『High-Frequency Resonance Barrier』 created by  <br><size=32>modifying a turret.<br> ,108701000G,mcv_1001020201_030_01,chara_5
+message,アーデルハイト,<size=32>This is a 『High-Frequency Resonance Barrier』 created by modifying a      <br><size=32>turret.<br> ,108701000G,mcv_1001020201_030_01,chara_5
 
 window,off
 wait,0.15
@@ -1241,7 +1241,7 @@ asynccharaemo,chara_3,Question,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=32>High-frequency…… ??                                      <br><size=32>Um~，wh-what kind of weapon is it~?<br> ,100301000G,mcv_1001020201_031_01,chara_3
+message,マリナ,<size=32>High-frequency…… ??                                                      <br><size=32>Um~，wh-what kind of weapon is it~?<br> ,100301000G,mcv_1001020201_031_01,chara_3
 
 window,off
 wait,0.15
@@ -1285,7 +1285,7 @@ asynccharaemo,chara_5,Elated,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,<size=32>This Calamity's characteristics are likely related to    <br><size=32>water or ice. So we use this to irradiate the Calamity from the air with a special high-frequency signal.<br> ,108701000G,mcv_1001020201_032_01,chara_5
+message,アーデルハイト,<size=32>This Calamity's characteristics are likely related to water or ice. So we<br><size=32>use this to irradiate the Calamity from the air with a special high-frequency signal.<br> ,108701000G,mcv_1001020201_032_01,chara_5
 
 asynccharaface,chara_5,FaceFun,CONT,0
 
@@ -1296,7 +1296,7 @@ asyncseplay,setag1_36,se4800013,0,1,CONT,0
 asynccharaemo,chara_5,Spirits,CONT,0
 
 
-message,アーデルハイト,<size=32>It's a device that resonates and destroys the mana and   <br><size=32>molecular bonds that make up ice and cold air，scattering the Calamity at its root.<br> ,108701000G,mcv_1001020201_033_01,chara_5
+message,アーデルハイト,<size=32>It's a device that resonates and destroys the mana and molecular bonds   <br><size=32>that make up ice and cold air，scattering the Calamity at its root.<br> ,108701000G,mcv_1001020201_033_01,chara_5
 
 window,off
 wait,0.15
@@ -1372,7 +1372,7 @@ asyncseplay,setag1_38,se4800015,0,1,CONT,0
 asynccharaemo,chara_3,Dull,CONT,0
 
 
-message,マリナ,<size=32>Molecular bonds?　Resonance?                              <br><size=32>I can't follow it either~……<br> ,100301000G,mcv_1001020201_035_01,chara_3
+message,マリナ,<size=32>Molecular bonds?　Resonance?                                              <br><size=32>I can't follow it either~……<br> ,100301000G,mcv_1001020201_035_01,chara_3
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1383,7 +1383,7 @@ asyncseplay,setag1_39,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ソフィア,<size=32>I don't understand the principle at all but it's         <br><size=32>amazing……! So that can beat it!　A Calamity!<br> ,106501000G,mcv_1001020201_036_01,chara_1
+message,ソフィア,<size=32>I don't understand the principle at all but it's amazing……!              <br><size=32>So that can beat it!　A Calamity!<br> ,106501000G,mcv_1001020201_036_01,chara_1
 
 window,off
 wait,0.15
@@ -1439,7 +1439,7 @@ wait,0.5
 window,on,0.15
 message,アーデルハイト,<size=32>That's assuming the Calamity stays at its current scale.<br> ,108701000G,mcv_1001020201_037_01,chara_5
 
-message,<user>,<size=32>What a genius scientist.                                 <br><size=32>Truly remarkable.<br> 
+message,<user>,<size=32>What a genius scientist.                                                 <br><size=32>Truly remarkable.<br> 
 
 asynccharaface,chara_5,FaceUnique01,CONT,0
 
@@ -1452,7 +1452,7 @@ asynccharaemo,chara_5,Elated,CONT,0
 
 message,アーデルハイト,<size=32>'Genius and perverse scientist'……<br> ,108701000G,mcv_1001020201_038_01,chara_5
 
-message,<user>,<size=32>……However，the next layer is going to be an extreme       <br><size=32>deep-freeze environment. Even the frontline base is this frozen over.<br> 
+message,<user>,<size=32>……However，the next layer is going to be an extreme deep-freeze           <br><size=32>environment. Even the frontline base is this frozen over.<br> 
 
 window,off
 wait,0.15
@@ -1543,7 +1543,7 @@ asynccharaemo,chara_5,Speak,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,<size=32>No need to worry on that front either. Using materials   <br><size=32>sourced from the Abyss， we've also prepared gear for exploring frigid environments.<br> ,108701000G,mcv_1001020201_040_01,chara_5
+message,アーデルハイト,<size=32>No need to worry on that front either. Using materials sourced from the  <br><size=32>Abyss， we've also prepared gear for exploring frigid environments.<br> ,108701000G,mcv_1001020201_040_01,chara_5
 
 window,off
 wait,0.15
@@ -1606,7 +1606,7 @@ asynccharaemo,chara_3,Shock,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=32>What!?　Equipment for the exploration already prepared    <br><size=32>too!? You really have everything covered~.<br> ,100301000G,mcv_1001020201_041_01,chara_3
+message,マリナ,<size=32>What!?　Equipment for the exploration already prepared too!?              <br><size=32>You really have everything covered~.<br> ,100301000G,mcv_1001020201_041_01,chara_3
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1673,7 +1673,7 @@ wait,0.5
 
 
 window,on,0.15
-message,アーデルハイト,<size=32>Well，moisture-wicking insulating thermal underwear made  <br><size=32>of lightweight material， shoes with iron crampons，and also……<br> ,108701000G,mcv_1001020201_043_01,chara_5
+message,アーデルハイト,<size=32>Well，moisture-wicking insulating thermal underwear made of lightweight   <br><size=32>material， shoes with iron crampons，and also……<br> ,108701000G,mcv_1001020201_043_01,chara_5
 
 window,off
 wait,0.15
@@ -1716,7 +1716,7 @@ asyncseplay,setag1_47,se4800022,0,1,CONT,0
 asynccharaemo,chara_3,Speak,CONT,0
 
 window,on,0.15
-message,,<size=32>While Adelheid kept pulling out and displaying various   <br><size=32>other items， Marina rose from her seat with a fidgety air.<br> 
+message,,<size=32>While Adelheid kept pulling out and displaying various other items，      <br><size=32>Marina rose from her seat with a fidgety air.<br> 
 
 asynccharaface,chara_3,FaceFun,CONT,0
 
@@ -1727,7 +1727,7 @@ asyncseplay,setag1_48,se4800003,0,1,CONT,0
 asynccharaemo,chara_3,Twinkle,CONT,0
 
 
-message,マリナ,<size=32>I've got a general idea of the lineup，                   <br><size=32>so I'm going to go freshen up!<br> ,100301000G,mcv_1001020201_044_01,chara_3
+message,マリナ,<size=32>I've got a general idea of the lineup，                                   <br><size=32>so I'm going to go freshen up!<br> ,100301000G,mcv_1001020201_044_01,chara_3
 
 window,off
 wait,0.15
@@ -1745,7 +1745,7 @@ emodelete,chara_3,0,0
 asyncwait
 
 window,on,0.15
-message,,<size=32>With those parting words，Marina bolted out of the        <br><size=32>laboratory and disappeared somewhere.<br> 
+message,,<size=32>With those parting words，Marina bolted out of the laboratory             <br><size=32>and disappeared somewhere.<br> 
 
 window,off
 wait,0.15
@@ -1809,9 +1809,9 @@ asyncseplay,setag1_51,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ベリサ,<size=32>Yeah，she definitely went to go stock up on things        <br><size=32>to sell to us~.<br> ,100201000G,mcv_1001020201_046_01,chara_2
+message,ベリサ,<size=32>Yeah，she definitely went to go stock up on things                        <br><size=32>to sell to us~.<br> ,100201000G,mcv_1001020201_046_01,chara_2
 
-message,<user>,<size=32>……Let's get our own preparations in order.               <br><size=32>Once we're ready，we set out.<br> 
+message,<user>,<size=32>……Let's get our own preparations in order.                               <br><size=32>Once we're ready，we set out.<br> 
 
 window,off
 wait,0.15
@@ -1877,7 +1877,7 @@ asynctransitionFade,Tra09,in,black,1,STOP,1
 waitorclick,2.5
 
 window,on,0.15
-message,,<size=32>Afterward. With preparations fully complete，the          <br><size=32>Commander's party gathered at the frontline base entrance. There……<br> 
+message,,<size=32>Afterward. With preparations fully complete，the Commander's party        <br><size=32>gathered at the frontline base entrance. There……<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1891,7 +1891,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 message,ソフィア,<size=32>Marina，your pack is stuffed to bursting!!<br> ,106501000G,mcv_1001020201_047_01,chara_1
 
-message,<user>,<size=32>How on earth did you stock that much merchandise         <br><size=32>in such a short time……?<br> 
+message,<user>,<size=32>How on earth did you stock that much merchandise                         <br><size=32>in such a short time……?<br> 
 
 window,off
 wait,0.15
@@ -2011,7 +2011,7 @@ asynccharaemo,chara_2,Question,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>I've been wondering—the potion bottles inside            <br><size=32>and such，don't they shatter?<br> ,100201000G,mcv_1001020201_049_01,chara_2
+message,ベリサ,<size=32>I've been wondering—the potion bottles inside                            <br><size=32>and such，don't they shatter?<br> ,100201000G,mcv_1001020201_049_01,chara_2
 
 asynccharaface,chara_3,EyeOpen,CONT,0
 asynccharaface,chara_3,FaceNormal,CONT,0
@@ -2023,7 +2023,7 @@ asyncseplay,setag1_55,se4800013,0,1,CONT,0
 asynccharaemo,chara_3,Spirits,CONT,0
 
 
-message,マリナ,<size=32>Yes. I'm using a slightly special storage technique to   <br><size=32>keep them from breaking or leaking and getting smells on everything.<br> ,100301000G,mcv_1001020201_050_01,chara_3
+message,マリナ,<size=32>Yes. I'm using a slightly special storage technique                      <br><size=32>to keep them from breaking or leaking and getting smells on everything.<br> ,100301000G,mcv_1001020201_050_01,chara_3
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -2081,9 +2081,9 @@ wait,0.15
 bgmplay,bgmtag1_5,bgm0041,0.75,1
 
 window,on,0.15
-message,,<size=32>The heavy snowfall was already making the march difficult<br><size=32>and the outlook grim， but at the entrance，a ferocious blizzard roared up from the depths，filling him with dread.<br> 
+message,,<size=32>The heavy snowfall was already making the march difficult and the outlook<br><size=32>grim， but at the entrance，a ferocious blizzard roared up from the depths，filling him with dread.<br> 
 
-message,,<size=32>As if to compound that dread，                            <br><size=32>riding that freezing wind，a girl's voice carried through.<br> 
+message,,<size=32>As if to compound that dread，                                            <br><size=32>riding that freezing wind，a girl's voice carried through.<br> 
 
 message,<user>,<size=32>……Did you all just hear something?<br> 
 
@@ -2139,7 +2139,7 @@ asyncseplay,setag1_58,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,ベリサ,<size=32>Mm，no，I didn't hear anything，nothing at all. Definitely  <br><size=32>not a faint，otherworldly girl's voice calling for help……<br> ,100201000G,mcv_1001020201_053_01,chara_2
+message,ベリサ,<size=32>Mm，no，I didn't hear anything，nothing at all.                             <br><size=32>Definitely not a faint，otherworldly girl's voice calling for help……<br> ,100201000G,mcv_1001020201_053_01,chara_2
 
 message,<user>,<size=32>You clearly heard it!<br> 
 
@@ -2206,7 +2206,7 @@ asynccharaemo,chara_3,Speak,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=32>Belisa，are you bad with things like that?                <br><size=32>Ghosts and stuff?<br> ,100301000G,mcv_1001020201_054_01,chara_3
+message,マリナ,<size=32>Belisa，are you bad with things like that?                                <br><size=32>Ghosts and stuff?<br> ,100301000G,mcv_1001020201_054_01,chara_3
 
 asynccharaface,chara_2,FaceUnique01,CONT,0
 
@@ -2282,7 +2282,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>If someone is calling for help， I'll save them no matter <br><size=32>who they are，on my knight's honor!<br> ,106501000G,mcv_1001020201_056_01,chara_1
+message,ソフィア,<size=32>If someone is calling for help，                                          <br><size=32>I'll save them no matter who they are，on my knight's honor!<br> ,106501000G,mcv_1001020201_056_01,chara_1
 
 window,off
 wait,0.15
@@ -2400,7 +2400,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>On my knight's honor，I'll save them!                     <br><size=32>It's a girl! A human girl! It is! Definitely!<br> ,106501000G,mcv_1001020201_058_01,chara_1
+message,ソフィア,<size=32>On my knight's honor，I'll save them!                                     <br><size=32>It's a girl! A human girl! It is! Definitely!<br> ,106501000G,mcv_1001020201_058_01,chara_1
 
 message,<user>,<size=32>You're also pale as a sheet，Sophia.<br> 
 
