@@ -45,7 +45,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
@@ -54,7 +54,7 @@ bgmplay,bgmtag1_1,bgm0040,0.75,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――大穴　光の階層　催眠石の鉱脈の前</size>,,,on
+messageTextCenter,,<size=48>--The Abyss: Stratum of Light - Hypnosis Stone Vein</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -82,7 +82,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,,催眠石の前で頭を抱えていた盗賊たちが、急に立ち上がり、<br>ぶつぶつと脳内で見える光景を呟き始める。
+message,,<size=32>The bandits clutching their heads suddenly               <br><size=32>rose and began muttering their visions aloud.<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -91,7 +91,7 @@ asyncseplay,setag1_1,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,盗賊Ａ,へへへっ！<br>ついに俺の……俺による、俺のための盗賊団ができちまった！,2028301,,chara_1
+message,盗賊Ａ,<size=32>Hehehe!                                                  <br><size=32>My very own gang— by me， for me— it's real!<br> ,2028301,,chara_1
 
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
@@ -100,7 +100,7 @@ asyncseplay,setag1_2,se4800003,0,1,CONT,0
 asynccharaemo,chara_2,Twinkle,CONT,0
 
 
-message,盗賊Ｂ,俺様の盗賊団は、全員平等だ！　暴力も反対だ！<br>清く正しくつつましい盗賊団を目指すぜぇっ！,2028301,,chara_2
+message,盗賊Ｂ,<size=32>In my gang， everyone's equal! No violence!               <br><size=32>We'll be the most righteous bandits ever!<br> ,2028301,,chara_2
 
 window,off
 wait,0.15
@@ -141,7 +141,7 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,こ、この人たち……どうしちゃったの？,106601000G,mcv_1001060501_001_01,chara_3
+message,ヒマリ,<size=32>Wh-what's wrong with them...?<br> ,106601000G,mcv_1001060501_001_01,chara_3
 
 window,off
 wait,0.15
@@ -188,7 +188,7 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,ヒマリ、離れて！<br>この人たち、催眠石で幻想を見てるだけだから！,106501000G,mcv_1001060501_002_01,chara_4
+message,ソフィア,<size=32>Himari， get back!                                        <br><size=32>They're seeing illusions from the stone!<br> ,106501000G,mcv_1001060501_002_01,chara_4
 
 window,off
 wait,0.15
@@ -239,7 +239,7 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,幻想……？,106601000G,mcv_1001060501_003_01,chara_3
+message,ヒマリ,<size=32>Illusions...?<br> ,106601000G,mcv_1001060501_003_01,chara_3
 
 window,off
 wait,0.15
@@ -302,7 +302,7 @@ asynccharaemo,chara_5,Speak,CONT,0
 
 
 window,on,0.15
-message,ベリサ,そっかぁ～、<br>ヒマリは火山の階層での催眠石は体験してないんだっけぇ～？,100201000G,mcv_1001060501_004_01,chara_5
+message,ベリサ,<size=32>Oh right~                                                <br><size=32>Himari hasn't seen the stone on the volcano level~?<br> ,100201000G,mcv_1001060501_004_01,chara_5
 
 window,off
 wait,0.15
@@ -354,7 +354,7 @@ asynccharaemo,chara_6,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,マリナ,み、皆さん！　後ろ！<br>い……いつの間に！？,100301000G,mcv_1001060501_005_01,chara_6
+message,マリナ,<size=32>E-everyone! Behind us!                                   <br><size=32>Wh-when did they...!?<br> ,100301000G,mcv_1001060501_005_01,chara_6
 
 window,off
 wait,0.15
@@ -389,7 +389,7 @@ asynccharaemo,chara_7,Panic,CONT,0
 
 
 window,on,0.15
-message,クルル,わわ～～～、盗賊がいっぱいだぁ～～！？,106701000G,mcv_1001060501_006_01,chara_7
+message,クルル,<size=32>Whoa~~~ there are bandits everywhere~~!?<br> ,106701000G,mcv_1001060501_006_01,chara_7
 
 window,off
 wait,0.15
@@ -454,9 +454,9 @@ asyncseplay,setag1_11,se4800014,0,1,CONT,0
 asynccharaemo,chara_8,Silence,CONT,0
 
 window,on,0.15
-message,,振り返ると、<br>いつの間にか、周囲を大量の盗賊たちに取り囲まれてしまっている。
+message,,<size=32>When they turned around，                                 <br><size=32>they were surrounded by a horde of bandits.<br> 
 
-message,<user>,嘘だろ……！？<br>いつの間に……
+message,<user>,<size=32>You're kidding...!?                                      <br><size=32>When did they...?<br> 
 
 window,off
 wait,0.15
@@ -503,7 +503,7 @@ linework,on,White,Middle
 
 
 window,on,0.15
-message,ソフィア,みんな構えて！<br>こいつら、戦う気よ！,106501000G,mcv_1001060501_007_01,chara_4
+message,ソフィア,<size=32>Everyone， battle positions!                              <br><size=32>They're ready to fight!<br> ,106501000G,mcv_1001060501_007_01,chara_4
 
 window,off
 wait,0.15

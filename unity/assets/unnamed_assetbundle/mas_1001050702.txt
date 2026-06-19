@@ -36,7 +36,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
@@ -68,7 +68,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,クルル,ついたぁ～！,106701000G,mcv_1001050702_001_01,chara_1
+message,クルル,<size=32>We're here~!<br> ,106701000G,mcv_1001050702_001_01,chara_1
 
 window,off
 wait,0.15
@@ -115,7 +115,7 @@ asynccharaemo,chara_3,Trouble,CONT,0
 
 
 window,on,0.15
-message,ベリサ,なんなの～、くらいし、狭いし、<br>たまにネズミ出てくるし、最悪だったんだけどぉ～……,100201000G,mcv_1001050702_002_01,chara_3
+message,ベリサ,<size=32>Ugh~， it was dark， cramped，                              <br><size=32>and rats kept showing up... The worst~...<br> ,100201000G,mcv_1001050702_002_01,chara_3
 
 asyncjump,CHARA,chara_4,-30.6,0.5,1,off,0,CONT
 
@@ -124,7 +124,7 @@ asyncseplay,setag2_3,se4800015,0,1,CONT,0
 asynccharaemo,chara_4,Dull,CONT,0
 
 
-message,マリナ,結構な距離でしたね～。<br>お隣って聞いてたけど、こんなに時間がかかるとは……,100301000G,mcv_1001050702_003_01,chara_4
+message,マリナ,<size=32>That was quite a distance~.                              <br><size=32>They said next door， but it took so long...<br> ,100301000G,mcv_1001050702_003_01,chara_4
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -135,7 +135,7 @@ asyncseplay,setag2_4,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ソフィア,え～～っと……。<br>さっきとあまり風景が変わってないような気もするけど……,106501000G,mcv_1001050702_004_01,chara_2
+message,ソフィア,<size=32>Um......                                                 <br><size=32>The scenery doesn't look much different though...<br> ,106501000G,mcv_1001050702_004_01,chara_2
 
 window,off
 wait,0.15
@@ -152,7 +152,7 @@ asynccharaemo,chara_3,Shock,CONT,0
 
 
 window,on,0.15
-message,ベリサ,ねぇねぇっ！<br>あそこに駅の名前が書いてない？,100201000G,mcv_1001050702_005_01,chara_3
+message,ベリサ,<size=32>Hey， hey!                                                <br><size=32>Doesn't that say the station name over there?<br> ,100201000G,mcv_1001050702_005_01,chara_3
 
 window,off
 wait,0.15
@@ -197,7 +197,7 @@ asynccharaemo,chara_5,Speak,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,『芝公園駅』……。うん、ここで間違いないよ。,106601000G,mcv_1001050702_006_01,chara_5
+message,ヒマリ,<size=32>""Shiba Park Station""... Yes， this is the right place.<br> ,106601000G,mcv_1001050702_006_01,chara_5
 
 window,off
 wait,0.15
@@ -250,9 +250,9 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,あっ！　ね～ね～っ！　こっち来て～～！<br>ここから、お外に出られそうだよ～～？,106701000G,mcv_1001050702_007_01,chara_1
+message,クルル,<size=32>Oh! Hey， hey~! Come over here~~!                         <br><size=32>Looks like we can get outside from here~~?<br> ,106701000G,mcv_1001050702_007_01,chara_1
 
-message,<user>,崩壊が酷くなくてよかった。<br>ヒマリが言ってた学校はここから近いのか？
+message,<user>,<size=32>Good thing the damage isn't too bad here.                <br><size=32>Is the school you mentioned nearby， Himari?<br> 
 
 asynccharaface,chara_5,EyeOpen,CONT,0
 asynccharaface,chara_5,FaceNormal,CONT,0
@@ -264,9 +264,9 @@ asyncseplay,setag2_8,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,ヒマリ,うん。ここの出口からすぐ……。<br>そこの体育館に行けば……誰かいるのかな？,106601000G,mcv_1001050702_008_01,chara_5
+message,ヒマリ,<size=32>Yeah. It's right past this exit...                       <br><size=32>If we go to the gym... will anyone be there?<br> ,106601000G,mcv_1001050702_008_01,chara_5
 
-message,<user>,どうだろうな？　ただ、ここの住人が避難しているとしたら、<br>その場所にいる可能性が最も高いと言える。
+message,<user>,<size=32>Hard to say. But if the locals evacuated，                <br><size=32>that's the most likely place they'd be.<br> 
 
 window,off
 wait,0.15
@@ -313,7 +313,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,ソフィア,行ってみましょう、ヒマリ。<br>生存者がいるのなら、保護してあげないと。,106501000G,mcv_1001050702_009_01,chara_2
+message,ソフィア,<size=32>Let's go check， Himari.                                  <br><size=32>If there are survivors， we need to help them.<br> ,106501000G,mcv_1001050702_009_01,chara_2
 
 window,off
 wait,0.15
@@ -367,7 +367,7 @@ asynccharaemo,chara_5,Speak,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,うん……そうだね。,106601000G,mcv_1001050702_010_01,chara_5
+message,ヒマリ,<size=32>Yeah... you're right.<br> ,106601000G,mcv_1001050702_010_01,chara_5
 
 window,off
 wait,0.15
@@ -408,14 +408,14 @@ asyncseplay,setag2_11,se4800014,0,1,CONT,0
 asynccharaemo,chara_5,Silence,CONT,0
 
 window,on,0.15
-message,,不安の色を隠せないまま、それでもヒマリは、仲間たちの言葉に頷くと、<br>決意を込めて顔を上げた。
+message,,<size=32>Unable to hide her anxiety， Himari still nodded          <br><size=32>at her companions' words and looked up with resolve.<br> 
 
 asynccharaface,chara_5,FaceAnger,CONT,0
 
 asyncjump,CHARA,chara_5,30,0.25,1,off,0,CONT
 
 
-message,ヒマリ,行こう。その体育館まで。,106601000G,mcv_1001050702_011_01,chara_5
+message,ヒマリ,<size=32>Let's go. To that gym.<br> ,106601000G,mcv_1001050702_011_01,chara_5
 
 
 bgmstop,bgmtag2_1,1.5,0
@@ -465,7 +465,7 @@ waitorclick,2.5
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――『芝公園駅』出口</size>,,,on
+messageTextCenter,,<size=48>--"Shiba Park Station" Exit</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -477,9 +477,9 @@ wait,0.15
 charafocusonall
 
 window,on,0.15
-message,,<user>たちは、暗い地下鉄のホームから再び地上へ出る。<br>瓦礫の道を歩き、静まり返った商店街を抜け、ついに小学校が見えてくる。
+message,,<size=32><user>'s group exits the dark subway platform. Through   <br><size=32>rubble and silent streets， a school comes into view.<br> 
 
-message,,錆びついた校門を抜け、奥に見える丸い形状の屋根の建物――<br>そこが避難場所として指定されている小学校の体育館だった。
+message,,<size=32>Past the rusty school gate， a round-roofed building--    <br><size=32>the elementary school gym designated as a shelter.<br> 
 
 window,off
 wait,0.15
@@ -489,7 +489,7 @@ charafocusonall
 sestop,se2_1001,1.5
 
 window,on,0.15
-message,,ヒマリは、約束の場所である体育館の、重い鉄の扉に手をかけた。<br>祈るように、ゆっくりと、扉を押し開ける――
+message,,<size=32>Himari places her hand on the gym's heavy iron door.     <br><size=32>As if in prayer， she slowly pushes it open--<br> 
 
 
 window,off
@@ -536,14 +536,14 @@ bgmplay,bgmtag2_2,bgm0032,0.75,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――区立小学校　体育館内</size>,,,on
+messageTextCenter,,<size=48>--Municipal Elementary School Gymnasium</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
 
 
 window,on,0.15
-message,,体育館の中は、奇妙な静寂に包まれていた。<br>隙間から差し込む光が、床に積もった薄い埃を、きらきらと照らし出す。
+message,,<size=32>An eerie silence fills the gymnasium.                    <br><size=32>Light seeping in illuminates the thin dust on the floor.<br> 
 
 window,off
 wait,0.15
@@ -584,7 +584,7 @@ asynccharaemo,chara_5,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,誰か……います……か？,106601000G,mcv_1001050702_012_01,chara_5
+message,ヒマリ,<size=32>Is... anyone... here...?<br> ,106601000G,mcv_1001050702_012_01,chara_5
 
 window,off
 wait,0.15
@@ -612,11 +612,11 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,,そこには、確かに人々が避難していた痕跡があった。<br>床には毛布が散らばり、棚には水や非常食の入った箱が積まれている。
+message,,<size=32>Signs of evacuation were unmistakable.                   <br><size=32>Blankets on the floor， shelves of water and rations.<br> 
 
-message,,――だが、そこに、人の姿はどこにもなかった。
+message,,<size=32>--But there was no one to be found.<br> 
 
-message,<user>,誰もいない……か。
+message,<user>,<size=32>Nobody here... huh.<br> 
 
 window,off
 wait,0.15
@@ -657,7 +657,7 @@ asynccharaemo,chara_5,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,そんな……。<br>ここの人たちは、いったいどこに行っちゃったの……？,106601000G,mcv_1001050702_013_01,chara_5
+message,ヒマリ,<size=32>No way...                                                <br><size=32>Where did all the people here go...?<br> ,106601000G,mcv_1001050702_013_01,chara_5
 
 window,off
 wait,0.15
@@ -725,7 +725,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ソフィア,ねぇ、あそこの棚の横、また魔石が置いてあるわね。,106501000G,mcv_1001050702_014_01,chara_2
+message,ソフィア,<size=32>Look， there's another magic stone by that shelf.<br> ,106501000G,mcv_1001050702_014_01,chara_2
 
 window,off
 wait,0.15
@@ -786,7 +786,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,クルル,ほんとだぁ～！<br>さっき、地下で見つけたのと一緒の色してるね～！,106701000G,mcv_1001050702_015_01,chara_1
+message,クルル,<size=32>It's true~!                                              <br><size=32>It's the same color as the one underground~!<br> ,106701000G,mcv_1001050702_015_01,chara_1
 
 window,off
 wait,0.15
@@ -854,7 +854,7 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,ベリサ,おお～。ってことは『魂憶石』とかいうやつじゃない～？<br>何かまた声が聞けたりして！,100201000G,mcv_1001050702_016_01,chara_3
+message,ベリサ,<size=32>Ooh~. Must be a Soul Memory Stone， right~?               <br><size=32>Maybe we can hear more voices!<br> ,100201000G,mcv_1001050702_016_01,chara_3
 
 asyncshake,CHARA,chara_4,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -863,7 +863,7 @@ asyncseplay,setag2_18,se4800006,0,1,CONT,0
 asynccharaemo,chara_4,Trouble,CONT,0
 
 
-message,マリナ,えっと～、またバチッ！　とかなるのは嫌なのでぇ～……<br>ヒマリちゃん、またお願いしてもいいですかぁ～？,100301000G,mcv_1001050702_017_01,chara_4
+message,マリナ,<size=32>Um~， I don't want to get zapped again~...                <br><size=32>Himari， could you do it again please~?<br> ,100301000G,mcv_1001050702_017_01,chara_4
 
 window,off
 wait,0.15
@@ -926,7 +926,7 @@ asynccharaemo,chara_5,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,う、うん……,106601000G,mcv_1001050702_018_01,chara_5
+message,ヒマリ,<size=32>O-okay...<br> ,106601000G,mcv_1001050702_018_01,chara_5
 
 window,off
 wait,0.15
@@ -1013,7 +1013,7 @@ asynctransitionFade,Tra19,in,white,0,STOP,1
 waitorclick,1.5
 
 window,on,0.15
-message,,ヒマリが石に近付くと、御成門駅の時と同様、石は鈍い光を放ち始める。<br>そのままヒマリがそっと石に触れると、周囲は光に包まれていく。
+message,,<size=32>As Himari approaches， the stone begins to glow           <br><size=32>as before. When she touches it， light fills the room.<br> 
 
 window,off
 wait,0.15
@@ -1035,19 +1035,19 @@ asyncfade,In,White,0.5,STOP,1
 waitorclick,2.5
 
 window,on,0.15
-message,,そして、<br>石から直接脳に語り掛けてくるような声が聞こえてくる――
+message,,<size=32>Then，                                                    <br><size=32>a voice speaking directly into their minds echoes forth--<br> 
 
-message,男性の声,……覚えてるかい？　『マザー』が来る前の、あの頃のことを。<br>政治家たちは汚職にまみれ、我々の未来には希望なんてなかった……,900000001
+message,男性の声,<size=32>...Do you remember? Before 'Mother' came...              <br><size=32>Politicians were corrupt; our future held no hope...<br> ,900000001
 
-message,女性の声,ええ。私たちは、もう人が支配する社会に絶望したの。だからすべてを委ねた。<br>たった１つの、完璧な論理知性。全能なる『マザー』に……,900000001
+message,女性の声,<size=32>Yes. We'd lost all hope in human governance.             <br><size=32>So we gave everything to 'Mother'... the perfect mind.<br> ,900000001
 
-message,男性の声,『マザー』は、私たちの未来を憂いて、１つの答えを示してくださった。<br>少子化という、もっとも深刻な問題を解決するための、最高の答えを……,900000001
+message,男性の声,<size=32>'Mother' gave us an answer for our future.               <br><size=32>The perfect solution to declining births...<br> ,900000001
 
-message,女性の声,そう！　愛し合うこと！　子をなすこと！<br>それこそが、人類に残された、唯一にして至上の『正義』なのだと！,900000001
+message,女性の声,<size=32>Yes! To love one another! To bear children!              <br><size=32>That was humanity's one supreme 'justice'!<br> ,900000001
 
-message,男性の声,もう政治も仕事も、何も考えなくていい。我々は、ただ愛し合うだけでいい。<br>隣人と手を取り愛を育む……ああ、なんて素晴らしい世界なんだ……,900000001
+message,男性の声,<size=32>No need for politics or work anymore.                    <br><size=32>Just love one another... Ah， what a perfect world...<br> ,900000001
 
-message,,そこで声はブツリと消え、石の光は収まっていく。
+message,,<size=32>The voice cuts off abruptly and the stone's light fades.<br> 
 
 window,off
 wait,0.15
@@ -1098,7 +1098,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,クルル,声、聞こえなくなっちゃったね……,106701000G,mcv_1001050702_019_01,chara_1
+message,クルル,<size=32>The voice stopped...<br> ,106701000G,mcv_1001050702_019_01,chara_1
 
 window,off
 wait,0.15
@@ -1163,11 +1163,11 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,ソフィア,ここの人々は、人が支配することに絶望した……？<br>『マザー』に委ねた？　『マザー』っていったい何なのかしら？,106501000G,mcv_1001050702_020_01,chara_2
+message,ソフィア,<size=32>The people here despaired of human rule...?              <br><size=32>Entrusted it all to 'Mother'? What even is that?<br> ,106501000G,mcv_1001050702_020_01,chara_2
 
-message,<user>,『マザー』ってのがどういうものなのか分からないが、<br>そいつが指し示す言葉に、人々が傾倒していったってことか……
+message,<user>,<size=32>I don't know what this 'Mother' is， but                  <br><size=32>people became devoted to its teachings...<br> 
 
-message,<user>,そして、人々が望んだ『楽園』を作った。
+message,<user>,<size=32>And it created the 'paradise' they wished for.<br> 
 
 asynccharaface,chara_3,FaceAnger,CONT,0
 
@@ -1178,7 +1178,7 @@ asyncseplay,setag2_23,se4800006,0,1,CONT,0
 asynccharaemo,chara_3,Trouble,CONT,0
 
 
-message,ベリサ,どこが楽園なのよ～。建物も、ボッロボロじゃないのよ。,100201000G,mcv_1001050702_021_01,chara_3
+message,ベリサ,<size=32>Paradise where~? Everything's falling apart.<br> ,100201000G,mcv_1001050702_021_01,chara_3
 
 asynccharaface,chara_4,FaceSad,CONT,0
 
@@ -1189,7 +1189,7 @@ asyncseplay,setag2_24,se4800008,0,1,CONT,0
 asynccharaemo,chara_4,Sweat,CONT,0
 
 
-message,マリナ,それどころか、ここの住人が１人もいないですしぃ～……,100301000G,mcv_1001050702_022_01,chara_4
+message,マリナ,<size=32>Worse yet， there's not a single soul here~...<br> ,100301000G,mcv_1001050702_022_01,chara_4
 
 asynccharaface,chara_2,FaceUnique01,CONT,0
 
@@ -1200,9 +1200,9 @@ asyncseplay,setag2_25,se4800015,0,1,CONT,0
 asynccharaemo,chara_2,Dull,CONT,0
 
 
-message,ソフィア,ここの人たちの声、なんだか変なのよね……。<br>まるで何かにとり憑かれた狂信者みたい。,106501000G,mcv_1001050702_023_01,chara_2
+message,ソフィア,<size=32>Those people's voices sounded strange...                 <br><size=32>Like fanatics possessed by something.<br> ,106501000G,mcv_1001050702_023_01,chara_2
 
-message,<user>,まいったな。これで、生存者の居場所の手がかりが尽きてしまった。<br>ヒマリ、さっきの路線図を見せてくれるか？
+message,<user>,<size=32>This is bad. We've run out of leads on survivors.        <br><size=32>Himari， can you show me that route map?<br> 
 
 window,off
 wait,0.15
@@ -1255,7 +1255,7 @@ asynccharaemo,chara_5,Speak,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,う、うん……,106601000G,mcv_1001050702_024_01,chara_5
+message,ヒマリ,<size=32>O-okay...<br> ,106601000G,mcv_1001050702_024_01,chara_5
 
 window,off
 wait,0.15
@@ -1269,11 +1269,11 @@ emodelete,chara_5,0,0
 item,on,550100013
 
 window,on,0.15
-message,,ヒマリが鞄の中から先ほどの路線図を取り出して拡げる。<br>すると、目の前で思いもよらぬ現象が起き始める。
+message,,<size=32>Himari takes the route map from her bag and unfolds it.  <br><size=32>Then， something unexpected begins before their eyes.<br> 
 
-message,<user>,な、なんだこれは……！？
+message,<user>,<size=32>Wh-what is this...!?<br> 
 
-message,,丸と線で描かれていた路線図が、<br>ウネウネと生き物のように動き始めたのだった――
+message,,<size=32>The route map drawn with circles and lines               <br><size=32>starts writhing like a living creature--<br> 
 
 window,off
 wait,0.15
@@ -1318,9 +1318,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,クルル,なにこれ～～！？<br>なんだか虫みたいにうごいてるよ～～！,106701000G,mcv_1001050702_025_01,chara_1
+message,クルル,<size=32>What is this~~!?                                         <br><size=32>It's wriggling around like bugs~~!<br> ,106701000G,mcv_1001050702_025_01,chara_1
 
-message,<user>,いったい、何が起きているんだ……！？
+message,<user>,<size=32>What on earth is happening...!?<br> 
 
 window,off
 bgmstop,bgmtag2_2,0.5

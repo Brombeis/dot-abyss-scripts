@@ -24,7 +24,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
@@ -41,11 +41,11 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,,絶望の象徴が、目の前にいた。
+message,,<size=32>The symbol of despair stood before them.<br> 
 
-message,,光の翼を持つ、あまりにも美しく、<br>そしてあまりにも冒涜的な、天使の姿をした『厄災』。
+message,,<size=32>With wings of light， impossibly beautiful                <br><size=32>yet blasphemous— a Calamity in angel form.<br> 
 
-message,<user>,こいつが、お前の言う『最高傑作』か？
+message,<user>,<size=32>So this is your so-called 'masterpiece'?<br> 
 
 window,off
 wait,0.15
@@ -75,36 +75,36 @@ asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
 
 window,on,0.15
-message,人型厄災,ああ。人の『嘆き』を喰らい、人の『祈り』を絶望へと変える、我が愛し子。<br>新たなる厄災、『嘆きの<ruby=セラフ>熾天使</>』だ。,301201000,mcv_1001060901_001_01,chara_1
+message,人型厄災,<size=32>Yes. My beloved child devours lament and                 <br><size=32>turns prayer to despair— the Seraph of Lament.<br> ,301201000,mcv_1001060901_001_01,chara_1
 
-message,<user>,嘆きを……喰らう……？
+message,<user>,<size=32>It feeds on... lament...?<br> 
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
 
-message,人型厄災,そうだ。これは、今までの厄災のような、<br>力でねじ伏せる暴力装置ではない。,301201000,mcv_1001060901_002_01,chara_1
+message,人型厄災,<size=32>Indeed. Unlike the Calamities before it，                 <br><size=32>this is no mere engine of brute force.<br> ,301201000,mcv_1001060901_002_01,chara_1
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,人型厄災,人の心に巣食う『悲しみ』に共鳴し、<br>それを増幅させ、所有者のいない『絶望』へと昇華させる。,301201000,mcv_1001060901_003_01,chara_1
+message,人型厄災,<size=32>It resonates with the sorrow in hearts，                  <br><size=32>amplifies it into ownerless despair.<br> ,301201000,mcv_1001060901_003_01,chara_1
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
 
-message,人型厄災,そして、その絶望を糧に、無限に力を増していくのだ。<br>……この、私のように。,301201000,mcv_1001060901_004_01,chara_1
+message,人型厄災,<size=32>Then it feeds on that despair to grow                    <br><size=32>ever stronger... just as I have.<br> ,301201000,mcv_1001060901_004_01,chara_1
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,人型厄災,さあ、最初の『餌』は、どこだと思う？,301201000,mcv_1001060901_005_01,chara_1
+message,人型厄災,<size=32>Now then， where do you think its first prey is?<br> ,301201000,mcv_1001060901_005_01,chara_1
 
 message,<user>,……！？
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
 
-message,人型厄災,そうだ。お前たちの『居場所』だ。,301201000,mcv_1001060901_006_01,chara_1
+message,人型厄災,<size=32>That's right. The place you call home.<br> ,301201000,mcv_1001060901_006_01,chara_1
 
 window,off
 wait,0.15
@@ -144,7 +144,7 @@ asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,人型厄災,あの前線基地にいる、か弱き者たちの嘆きを喰らわせれば、<br>どのような美しい絶望の花を咲かせるのだろうな……,301201000,mcv_1001060901_007_01,chara_1
+message,人型厄災,<size=32>When it feeds on the lament of the weak                  <br><size=32>at your base... what lovely despair will bloom?<br> ,301201000,mcv_1001060901_007_01,chara_1
 
 labeljump,b
 

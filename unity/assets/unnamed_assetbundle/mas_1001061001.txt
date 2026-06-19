@@ -48,7 +48,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
@@ -73,7 +73,7 @@ shake,CHARA,chara_12,40,0,0.25,20,off,off,0
 wait,0.5
 
 window,on,0.15
-message,,激闘の末、ついに天使の厄災はその巨体を地に落とした。<br>しかし、一行がとどめを刺そうとした、その瞬間。
+message,,<size=32>After a fierce battle， the angel Calamity                <br><size=32>finally fell. But as they moved to finish it—<br> 
 
 window,off
 wait,0.15
@@ -96,9 +96,9 @@ asynctransitionFade,Tra21,in,white,0,STOP,1
 waitorclick,0.5
 
 window,on,0.15
-message,,天使の厄災は断末魔の叫びと共に、<br>世界そのものを白く染め上げるほどの、まばゆい光を放つ。
+message,,<size=32>With a death cry， the angel Calamity                     <br><size=32>unleashed a light that dyed the world white.<br> 
 
-message,<user>,な、なんだ……これはっ！？
+message,<user>,<size=32>Wh-what... is this!?<br> 
 
 window,off
 wait,0.15
@@ -126,9 +126,9 @@ waitorclick,3
 
 
 window,on,0.15
-message,,光が晴れた時、そこに天使の厄災の姿はなかった。<br>ただ、清浄な光の粒子だけが、雪のように静かに舞っている。
+message,,<size=32>When the light faded， the angel Calamity                 <br><size=32>was gone— only pure particles drifted like snow.<br> 
 
-message,,そのあまりに神秘的な光景に、誰もがしばらく言葉を失っていた。
+message,,<size=32>The sight was so mystical that everyone                  <br><size=32>was left speechless for a moment.<br> 
 
 cleanall,EFFECT
 
@@ -165,7 +165,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,勝った……の？,106501000G,mcv_1001061001_001_01,chara_1
+message,ソフィア,<size=32>Did we... win?<br> ,106501000G,mcv_1001061001_001_01,chara_1
 
 window,off
 wait,0.15
@@ -208,7 +208,7 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 
 window,on,0.15
-message,クルル,消えてっちゃったね……,106701000G,mcv_1001061001_002_01,chara_3
+message,クルル,<size=32>It just... vanished...<br> ,106701000G,mcv_1001061001_002_01,chara_3
 
 window,off
 wait,0.15
@@ -228,7 +228,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒマリ,これで、あの街の人々も……。<br>ようやく、安らかに眠れるのかな……？,106601000G,mcv_1001061001_003_01,chara_2
+message,ヒマリ,<size=32>Maybe now the people of that city...                     <br><size=32>can finally rest in peace...?<br> ,106601000G,mcv_1001061001_003_01,chara_2
 
 window,off
 wait,0.15
@@ -286,7 +286,7 @@ asynccharaemo,chara_5,Speak,CONT,0
 
 
 window,on,0.15
-message,マリナ,はい。そうだと思いますよ？　きっと……,100301000G,mcv_1001061001_004_01,chara_5
+message,マリナ,<size=32>Yes. I think so too... surely...<br> ,100301000G,mcv_1001061001_004_01,chara_5
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -341,9 +341,9 @@ asynccharaemo,chara_4,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ベリサ,おにーさん、何ぼーーっとしてんの？<br>あたしたちが勝ったんだよね？,100201000G,mcv_1001061001_005_01,chara_4
+message,ベリサ,<size=32>Hey~， what are you spacing out for?                      <br><size=32>We won， right?<br> ,100201000G,mcv_1001061001_005_01,chara_4
 
-message,<user>,あ、ああ。<br>俺たちの……勝ちだ！
+message,<user>,<size=32>Y-yeah.                                                  <br><size=32>We... won!<br> 
 
 window,off
 wait,0.15
@@ -375,7 +375,7 @@ asyncseplay,se1_1001,se4600010,1,1,CONT,0
 bgmplay,bgmtag1_2,bgm0038,0.75,1
 
 window,on,0.15
-message,,その一言を合図に、前線基地から、割れんばかりの歓声が巻き起こる。<br>誰もが、この奇跡的な勝利を喜び、称え合った。
+message,,<size=32>At those words， thunderous cheers erupted                <br><size=32>from the base. Everyone celebrated the miracle.<br> 
 
 window,off
 wait,0.15
@@ -411,7 +411,7 @@ asynccrossfade,0.1,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,（……今、光の中に、何か……）
+message,<user>,<size=32>(Just now， in the light， something...)<br> 
 
 window,off
 wait,0.15
@@ -462,11 +462,11 @@ asynccharaemo,chara_6,Question,CONT,0
 
 
 window,on,0.15
-message,ロジー,なんで、勝ったのにビミョーな顔してんのよ。,2036001,mcv_1001061001_006_01,chara_6
+message,ロジー,<size=32>Why the gloomy face? We won， you know.<br> ,2036001,mcv_1001061001_006_01,chara_6
 
-message,<user>,ああ。いや、まだまだやらなきゃいけないことがあるからな。<br>催眠石の鉱脈の破壊や、あの街の人々の供養もしてやらないと。
+message,<user>,<size=32>Yeah. Still a lot to do— destroying the ore              <br><size=32>vein and holding a memorial for the people.<br> 
 
-message,<user>,そうだ。ロジーもゴレイヌもありがとうな。<br>今回の探索も戦いも、お前たちがいてくれて助かった。
+message,<user>,<size=32>Oh right. Logy， Goleinu— thank you both.                 <br><size=32>We couldn't have done this without you.<br> 
 
 asynccharaface,chara_6,FaceHappy,CONT,0
 
@@ -477,7 +477,7 @@ asyncseplay,setag1_11,se4800004,0,1,CONT,0
 asynccharaemo,chara_6,Laugh,CONT,0
 
 
-message,ロジー,にっひっひ～～♪<br>褒められちゃったよ助手くぅん！,2036001,mcv_1001061001_007_01,chara_6
+message,ロジー,<size=32>Nihihihi~~♪                                              <br><size=32>He praised us， Assistant~!<br> ,2036001,mcv_1001061001_007_01,chara_6
 
 asynccharaface,chara_7,FaceHappy,CONT,0
 
@@ -488,7 +488,7 @@ asyncseplay,setag1_12,se4800019,0,1,CONT,0
 asynccharaemo,chara_7,Elated,CONT,0
 
 
-message,ゴレイヌ,ふふん。まぁ、当然の活躍ってトコだけどなっ！,2037001,mcv_1001061001_008_01,chara_7
+message,ゴレイヌ,<size=32>Hmph. Well， just doing what I do best!<br> ,2037001,mcv_1001061001_008_01,chara_7
 
 asynccharaface,chara_6,FaceShy,CONT,0
 
@@ -499,9 +499,9 @@ asyncseplay,setag1_13,se4800007,0,1,CONT,0
 asynccharaemo,chara_6,Panic,CONT,0
 
 
-message,ロジー,――って、違う！<br>協力するのは今回だけだから！　次に会った時は敵同士なんだから！,2036001,mcv_1001061001_009_01,chara_6
+message,ロジー,<size=32>W-wait， that's not it!                                   <br><size=32>This was one-time only! Next time we're enemies!<br> ,2036001,mcv_1001061001_009_01,chara_6
 
-message,<user>,はぁっ！？　なんでそうなる！？
+message,<user>,<size=32>Huh!? Why does it end up like that!?<br> 
 
 asynccharaface,chara_6,FaceAnger,CONT,0
 
@@ -512,9 +512,9 @@ asyncseplay,setag1_14,se4800008,0,1,CONT,0
 asynccharaemo,chara_6,Sweat,CONT,0
 
 
-message,ロジー,うるさいわね！　いくよ、助手くん！,2036001,mcv_1001061001_010_01,chara_6
+message,ロジー,<size=32>Shut up! Let's go， Assistant!<br> ,2036001,mcv_1001061001_010_01,chara_6
 
-message,<user>,どこ行く気だよ？<br>祝勝パーティーくらい参加していけばいいだろ？
+message,<user>,<size=32>Where are you going?                                     <br><size=32>At least stay for the victory party.<br> 
 
 asynccharaface,chara_6,FaceSad,CONT,0
 
@@ -525,7 +525,7 @@ asyncseplay,setag1_15,se4800006,0,1,CONT,0
 asynccharaemo,chara_6,Trouble,CONT,0
 
 
-message,ロジー,いいから、急いでるんだってば！,2036001,mcv_1001061001_011_01,chara_6
+message,ロジー,<size=32>Just drop it! We're in a hurry!<br> ,2036001,mcv_1001061001_011_01,chara_6
 
 window,off
 wait,0.15
@@ -565,7 +565,7 @@ asynccharaemo,chara_7,Laugh,CONT,0
 
 
 window,on,0.15
-message,ゴレイヌ,じゃあな、旦那！　ごきげんよう～～～！,2037001,mcv_1001061001_012_01,chara_7
+message,ゴレイヌ,<size=32>Later， boss! Farewell~~~!<br> ,2037001,mcv_1001061001_012_01,chara_7
 
 window,off
 wait,0.15
@@ -583,9 +583,9 @@ emodelete,chara_7,0,0
 asyncwait
 
 window,on,0.15
-message,,ロジーがゴレイヌの肩に飛び乗ると、<br>全速力で駆け出して行ってしまう。
+message,,<size=32>Logy hopped onto Goleinu's shoulder，                     <br><size=32>and they dashed off at full speed.<br> 
 
-message,<user>,なんなんだよ、あいつら……
+message,<user>,<size=32>What is with those two...<br> 
 
 window,off
 wait,0.15
@@ -611,9 +611,9 @@ asynccharaemo,chara_8,Sweat,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,お疲れ様です、司令官。<br>あのコたち……逃げちゃったんですね。,108701000G,mcv_1001061001_013_01,chara_8
+message,アーデルハイト,<size=32>Good work， Commander.                                    <br><size=32>Those two... they ran off， didn't they?<br> ,108701000G,mcv_1001061001_013_01,chara_8
 
-message,<user>,ん？　どうかしたのか？
+message,<user>,<size=32>Hm? Something wrong?<br> 
 
 asynccharaface,chara_8,FaceSad,CONT,0
 
@@ -624,7 +624,7 @@ asyncseplay,setag1_19,se4800006,0,1,CONT,0
 asynccharaemo,chara_8,Trouble,CONT,0
 
 
-message,アーデルハイト,はぁ……。<br>どうしたもこうしたもないですよ。,108701000G,mcv_1001061001_014_01,chara_8
+message,アーデルハイト,<size=32>*Sigh*...                                                <br><size=32>You have no idea.<br> ,108701000G,mcv_1001061001_014_01,chara_8
 
 asynccharaface,chara_8,FaceAnger,CONT,0
 
@@ -635,9 +635,9 @@ asyncseplay,setag1_20,se4800001,0,1,CONT,0
 asynccharaemo,chara_8,Anger,CONT,0
 
 
-message,アーデルハイト,あのコたち、ゴレイヌを改造させるだけ改造させて、<br>お金踏み倒して行ったんですから。,108701000G,mcv_1001061001_015_01,chara_8
+message,アーデルハイト,<size=32>They had us upgrade Goleinu to the max                   <br><size=32>and then skipped out without paying.<br> ,108701000G,mcv_1001061001_015_01,chara_8
 
-message,<user>,なんだってぇ！？<br>くっそ……あいつら、そういうことか！
+message,<user>,<size=32>Are you serious!?                                        <br><size=32>Damn... so that's why they bolted!<br> 
 
 
 bgmstop,bgmtag1_2,1.5,0
@@ -669,7 +669,7 @@ waitorclick,2.5
 bgmplay,bgmtag1_3,bgm0042,0.75,1
 
 window,on,0.15
-message,,天使の厄災との死闘を乗り越え、前線基地は、久々の勝利の喜びに沸いていた。<br>テーブルには、アリシアが準備した豪勢な料理が並んでいる。
+message,,<size=32>After the battle， the base celebrated with               <br><size=32>a lavish feast prepared by Alicia.<br> 
 
 
 

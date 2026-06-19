@@ -17,7 +17,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,溶け出す氷
+title,Melting Ice
 
 wait,1
 
@@ -38,7 +38,7 @@ linework,on,White,Middle
 
 
 window,on,0.15
-message,シルヴィア,はあああああ……！！,102601000G,vc_10260100002_001_01,chara_1
+message,シルヴィア,<size=32>Haaaahh...!!<br> ,102601000G,vc_10260100002_001_01,chara_1
 
 
 window,off
@@ -90,7 +90,7 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,モンスター,ギギャァ……！,,,chara_2
+message,モンスター,<size=32>Ggyaah...!<br> ,,,chara_2
 
 window,off
 wait,0.15
@@ -145,7 +145,7 @@ bgmplay,bgmtag1_2,bgm0024,0.75,1
 
 
 window,on,0.15
-message,シルヴィア,はぁ……あと何体のモンスターを氷漬けにすれば<br>平和に安全に探索ができますの？,102601000G,vc_10260100002_002_01,chara_1
+message,シルヴィア,<size=32>*Sigh*... How many more monsters do I have to freeze     <br><size=32>solid before we can explore in peace?<br> ,102601000G,vc_10260100002_002_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -156,9 +156,9 @@ asyncseplay,setag1_5,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,シルヴィア,わたくし、不細工な氷像を作る趣味はないのですが。<br>この世界のモンスターには美しさが足りていませんわね。,102601000G,vc_10260100002_003_01,chara_1
+message,シルヴィア,<size=32>I have no interest in making ugly ice sculptures.        <br><size=32>The monsters of this world are sorely lacking in beauty.<br> ,102601000G,vc_10260100002_003_01,chara_1
 
-message,<user>,話には聞いていたが、凄まじい腕前だな。
+message,<user>,<size=32>I'd heard about your skill， but seeing it in person is   <br><size=32>something else.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -169,9 +169,9 @@ asyncseplay,setag1_6,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,シルヴィア,ふ、ふん。褒めたってうれしくなんかありませんわよ。,102601000G,vc_10260100002_004_01,chara_1
+message,シルヴィア,<size=32>H-hmph. Flattery won't make me happy.<br> ,102601000G,vc_10260100002_004_01,chara_1
 
-message,<user>,俺はただ事実を言っただけだが……。<br>元の世界でも何かと戦っていたのか？
+message,<user>,<size=32>I was just stating a fact...                             <br><size=32>Did you fight things back in your world too?<br> 
 
 window,off
 wait,0.15
@@ -191,7 +191,7 @@ wait,0.5
 
 
 window,on,0.15
-message,シルヴィア,わたくしのいた世界はこの世界ほど<br>争いに満ちてはいませんでした。,102601000G,vc_10260100002_005_01,chara_1
+message,シルヴィア,<size=32>My world wasn't nearly as full of conflict               <br><size=32>as this one.<br> ,102601000G,vc_10260100002_005_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -202,9 +202,9 @@ asyncseplay,setag1_8,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,シルヴィア,氷に包まれた凍てつく世界ではありましたけど……<br>お父様やお母様と一緒に楽しく芸術に興じれる、そんな世界でしたわ。,102601000G,vc_10260100002_006_01,chara_1
+message,シルヴィア,<size=32>It was a frozen world wrapped in ice， but... it was a    <br><size=32>world where I could enjoy art with my father and mother.<br> ,102601000G,vc_10260100002_006_01,chara_1
 
-message,<user>,芸術、か……向こうの世界でも何か作っていたのか？
+message,<user>,<size=32>Art， huh... Did you create things over there too?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -215,7 +215,7 @@ asyncseplay,setag1_9,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,シルヴィア,わたくしの場合、大半が氷像ですわね。氷魔法が得意ですし、氷像は<br>奥が深くて楽しいので……まあ、あなたには理解できないでしょうけど。,102601000G,vc_10260100002_007_01,chara_1
+message,シルヴィア,<size=32>In my case， mostly ice sculptures. I'm skilled in ice    <br><size=32>magic， and sculpting ice is deep and enjoyable... though I doubt you'd understand.<br> ,102601000G,vc_10260100002_007_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -225,7 +225,7 @@ asyncseplay,setag1_10,se4800017,0,1,CONT,0
 
 asynccharaemo,chara_1,Shock,CONT,0
 
-message,<user>,たしかに芸術はよく分からないが、<br>お前が努力を重ねてきたことは分かるぞ。
+message,<user>,<size=32>I may not understand art，                                <br><size=32>but I can tell you've put in a lot of effort.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -235,7 +235,7 @@ asyncseplay,setag1_11,se4800007,0,1,CONT,0
 
 asynccharaemo,chara_1,Panic,CONT,0
 
-message,<user>,生半可な努力で身に付けられる技術じゃない。<br>こと氷魔法においては、お前はかなりの実力者と言えるだろうな。
+message,<user>,<size=32>This isn't the kind of skill you pick up with            <br><size=32>half-hearted effort. When it comes to ice magic， you're quite formidable.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -246,7 +246,7 @@ asyncseplay,setag1_12,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シルヴィア,っ……わ、分かればいいのです……。<br>……もう、なんだか調子が狂いますわね……,102601000G,vc_10260100002_008_01,chara_1
+message,シルヴィア,<size=32>...A-as long as you understand...                        <br><size=32>...Honestly， you're throwing me off...<br> ,102601000G,vc_10260100002_008_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -257,7 +257,7 @@ asyncseplay,setag1_13,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,シルヴィア,わ、わたくしの話はもういいですから、先を急ぎますわよ。<br>早く元の世界に戻るための方法を見つけないといけないんですから。,102601000G,vc_10260100002_009_01,chara_1
+message,シルヴィア,<size=32>E-enough about me. Let's hurry on.                       <br><size=32>We need to find a way to send me back to my world.<br> ,102601000G,vc_10260100002_009_01,chara_1
 
 window,off
 wait,0.15
@@ -294,7 +294,7 @@ transitionFade,Tra05,in,black,0
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――数時間後</size>,,,on
+messageTextCenter,,—Several Hours Later,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -333,7 +333,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,シルヴィア,……邪魔ですわッ。,102601000G,vc_10260100002_010_01,chara_1
+message,シルヴィア,<size=32>...Out of my way.<br> ,102601000G,vc_10260100002_010_01,chara_1
 
 
 window,off
@@ -406,7 +406,7 @@ shake,CHARA,chara_2,40,0,0.25,20,off,off,0
 wait,0.5
 
 window,on,0.15
-message,,歩けども歩けども目的を達成できないシルヴィアは<br>纏わりつく虫を払うようにモンスターを氷漬けにしていく。
+message,,<size=32>No matter how far she walked， Sylvia couldn't achieve her<br><size=32>goal. She froze each monster that crossed her path like swatting away pests.<br> 
 
 window,off
 wait,0.15
@@ -433,7 +433,7 @@ transitionCrossFade,Tra02,1
 wait,1
 
 window,on,0.15
-message,<user>,そろそろ休んだ方がいいんじゃないか？
+message,<user>,<size=32>Shouldn't you take a break soon?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -445,9 +445,9 @@ asyncseplay,setag1_18,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,シルヴィア,わたくしはまだ平気です。<br>魔法も撃てるし、足もまだ疲れてはいませんので。,102601000G,vc_10260100002_011_01,chara_1
+message,シルヴィア,<size=32>I'm still fine.                                          <br><size=32>I can still cast magic， and my legs aren't tired yet.<br> ,102601000G,vc_10260100002_011_01,chara_1
 
-message,<user>,どう見ても疲れが出ているだろう。<br>モンスターの氷像も時間が経つごとに雑になってきているぞ。
+message,<user>,<size=32>You're clearly exhausted. Your monster ice sculptures    <br><size=32>have been getting sloppier by the hour.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -458,7 +458,7 @@ asyncseplay,setag1_19,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,シルヴィア,っ……気のせいです！　わたくしはいつも通りですわ！,102601000G,vc_10260100002_012_01,chara_1
+message,シルヴィア,<size=32>...You're imagining things! I'm the same as always!<br> ,102601000G,vc_10260100002_012_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -469,11 +469,11 @@ asyncseplay,setag1_20,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シルヴィア,そもそも、わたくしはこんなところで足を止めている場合じゃありませんの。<br>まだ何の情報もつかめていないのですから……！,102601000G,vc_10260100002_013_01,chara_1
+message,シルヴィア,<size=32>Besides， I can't afford to stop here.                    <br><size=32>We haven't found a single clue yet...!<br> ,102601000G,vc_10260100002_013_01,chara_1
 
-message,<user>,疲れた状態では見つけられるものも見つからないだろ。<br>キリのいいところで探索を打ち切るべきだ。
+message,<user>,<size=32>You won't find anything when you're this worn out.       <br><size=32>We should call it quits at a good stopping point.<br> 
 
-message,<user>,焦る気持ちも分からなくはないが、<br>こういう時こそ１度落ち着いてだな……。
+message,<user>,<size=32>I understand the urge to rush， but this is exactly when  <br><size=32>you need to take a step back and...<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -482,9 +482,9 @@ asyncseplay,setag1_21,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,シルヴィア,何も分からないくせに、偉そうな口を利かないでください！,102601000G,vc_10260100002_014_01,chara_1
+message,シルヴィア,<size=32>Don't lecture me when you don't understand anything!<br> ,102601000G,vc_10260100002_014_01,chara_1
 
-message,<user>,シルヴィア……？
+message,<user>,<size=32>Sylvia...?<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -493,7 +493,7 @@ asyncseplay,setag1_22,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,シルヴィア,あなたに何が分かりますの！？<br>自分の生まれた世界でずっと過ごせている、あなたなんかに！,102601000G,vc_10260100002_015_01,chara_1
+message,シルヴィア,<size=32>What could you possibly understand!? You've spent your   <br><size=32>whole life in the world you were born in!<br> ,102601000G,vc_10260100002_015_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -504,7 +504,7 @@ asyncseplay,setag1_23,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,シルヴィア,ずっと幸せに暮らしていたんです。<br>辛いこともありましたけど、家族と一緒で幸せだったんです！,102601000G,vc_10260100002_016_01,chara_1
+message,シルヴィア,<size=32>I was happy all along. There were hard times too， but I  <br><size=32>was happy with my family!<br> ,102601000G,vc_10260100002_016_01,chara_1
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -513,7 +513,7 @@ asyncseplay,setag1_24,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シルヴィア,その幸せが、一瞬で奪われてしまったのですよ！？<br>わたくしは何も悪いことなんてしていないのに……！,102601000G,vc_10260100002_017_01,chara_1
+message,シルヴィア,<size=32>That happiness was torn away in an instant!              <br><size=32>Even though I never did anything wrong...!<br> ,102601000G,vc_10260100002_017_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -524,9 +524,9 @@ asyncseplay,setag1_25,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,シルヴィア,当たり前の日常が突然消え去って、ある日突然誰も知らない世界に<br>１人で放り出される気持ちが……あなたに分かりますの！？,102601000G,vc_10260100002_018_01,chara_1
+message,シルヴィア,<size=32>Your normal life suddenly vanishing， being thrown alone  <br><size=32>into a world where you know no one — can you even imagine how that feels!?<br> ,102601000G,vc_10260100002_018_01,chara_1
 
-message,<user>,そうだな……すまない。
+message,<user>,<size=32>You're right... I'm sorry.<br> 
 
 window,off
 wait,0.15
@@ -559,9 +559,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,シルヴィア,いえ……。<br>わたくしの方こそ、いきなり叫んでしまって申し訳ありませんわ。,102601000G,vc_10260100002_019_01,chara_1
+message,シルヴィア,<size=32>No...                                                    <br><size=32>I'm the one who should apologize for yelling so suddenly.<br> ,102601000G,vc_10260100002_019_01,chara_1
 
-message,<user>,……やっぱり、あの時作っていた氷像はお前の家族がモデルだったんだな。
+message,<user>,<size=32>...So those ice sculptures you were making really were   <br><size=32>modeled after your family.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -572,7 +572,7 @@ asyncseplay,setag1_28,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,シルヴィア,ええ、そうですわ。でも、それが何なんですか？<br>ホームシックをこじらせた愚か者だとでも思いましたの？,102601000G,vc_10260100002_020_01,chara_1
+message,シルヴィア,<size=32>Yes， they were. But what of it?                          <br><size=32>Do you think I'm a fool suffering from homesickness?<br> ,102601000G,vc_10260100002_020_01,chara_1
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -581,9 +581,9 @@ asyncseplay,setag1_29,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,シルヴィア,わたくしにとって家族は世界の全てでしたの。<br>そんな家族ともう１度会いたい……そう思うことはおかしいことですか？,102601000G,vc_10260100002_021_01,chara_1
+message,シルヴィア,<size=32>My family was my entire world.                           <br><size=32>Is it so strange to want to see them once more?<br> ,102601000G,vc_10260100002_021_01,chara_1
 
-message,<user>,落ち着け。誰もそうは言っていない。<br>焦るあまり冷静さを失ってしまっているぞ、お前。
+message,<user>,<size=32>Calm down. Nobody said that.                             <br><size=32>You're so desperate that you've lost your composure.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -594,7 +594,7 @@ asyncseplay,setag1_30,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,シルヴィア,そんなの分かっていますわ。今のわたくしが冷静じゃないことぐらい。,102601000G,vc_10260100002_022_01,chara_1
+message,シルヴィア,<size=32>I know that. I know I'm not being calm right now.<br> ,102601000G,vc_10260100002_022_01,chara_1
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -603,7 +603,7 @@ asyncseplay,setag1_31,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シルヴィア,こんなわたくしは見ていられないのでしょう？<br>それなら、あなただけ先に帰ればいいじゃないですか。,102601000G,vc_10260100002_023_01,chara_1
+message,シルヴィア,<size=32>You can't stand to watch me like this， can you?          <br><size=32>Then just go back on your own.<br> ,102601000G,vc_10260100002_023_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -614,7 +614,7 @@ asyncseplay,setag1_32,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,シルヴィア,わたくしと違って帰る場所のあるあなたにとって<br>その選択は当たり前でしょう？,102601000G,vc_10260100002_024_01,chara_1
+message,シルヴィア,<size=32>Unlike me， you have a place to go home to.               <br><size=32>It should be an easy choice for you.<br> ,102601000G,vc_10260100002_024_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -625,7 +625,7 @@ asyncseplay,setag1_33,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,シルヴィア,……わたくしは奥に進みますわ。,102601000G,vc_10260100002_025_01,chara_1
+message,シルヴィア,<size=32>...I'm going on ahead.<br> ,102601000G,vc_10260100002_025_01,chara_1
 
 window,off
 wait,0.15
@@ -641,9 +641,9 @@ asynccharamove,chara_1,LinearTarget,CharaHeight,0,1,CONT,0
 asyncwait
 
 window,on,0.15
-message,,ふらつく足取りで前へ進むシルヴィア。
+message,,<size=32>Sylvia pressed forward on unsteady legs.<br> 
 
-message,,しかし、その直後、彼女は躓き、そのまま前のめりに体が傾いてしまう。
+message,,<size=32>But the very next moment， she tripped and pitched        <br><size=32>forward.<br> 
 
 window,off
 wait,0.15
@@ -660,7 +660,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,シルヴィア,――きゃっ。,102601000G,vc_10260100002_026_01,chara_1
+message,シルヴィア,<size=32>—Kyah.<br> ,102601000G,vc_10260100002_026_01,chara_1
 
 window,off
 wait,0.15
@@ -699,9 +699,9 @@ wait,0.5
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
 window,on,0.15
-message,,あわや転びかけたシルヴィアの体を<br><user>がすんでのところで支える。
+message,,<size=32><user> caught Sylvia's body                              <br><size=32>just before she hit the ground.<br> 
 
-message,<user>,大丈夫か？
+message,<user>,<size=32>Are you okay?<br> 
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -710,7 +710,7 @@ asyncseplay,setag1_35,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,シルヴィア,え、ええ。あ、ありがとうござ――,102601000G,vc_10260100002_027_01,chara_1
+message,シルヴィア,<size=32>Y-yes. Th-thank yo—<br> ,102601000G,vc_10260100002_027_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -721,11 +721,11 @@ asyncseplay,setag1_36,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,シルヴィア,じゃなくって、余計なことをしないでください！ <br>わたくしが転んだところで、あなたには関係ないでしょう！？,102601000G,vc_10260100002_028_01,chara_1
+message,シルヴィア,<size=32>W-wait， don't do unnecessary things!                     <br><size=32>What does it matter to you if I fall!?<br> ,102601000G,vc_10260100002_028_01,chara_1
 
 bgmstop,bgmtag1_3,1.5,0
 
-message,<user>,関係ない訳ないだろ。仲間に怪我をされるのは普通に嫌だろうが。
+message,<user>,<size=32>Of course it matters. Nobody wants to see their comrade  <br><size=32>get hurt.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -736,7 +736,7 @@ asyncseplay,setag1_37,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,シルヴィア,仲間……？　わたくしが、あなたの……？,102601000G,vc_10260100002_029_01,chara_1
+message,シルヴィア,<size=32>Comrade...? I'm... your...?<br> ,102601000G,vc_10260100002_029_01,chara_1
 
 bgmplay,bgmtag1_4,bgm0037,0.75,1
 
@@ -757,11 +757,11 @@ asyncseplay,setag1_39,se4800007,0,1,STOP,8.3
 asynccharaemo,chara_1,Panic,STOP,8.3
 
 
-message,シルヴィア,そ、それっぽいことを言えばわたくしがあなたに折れるとでも？<br>手を離してください。わたくしは先に……っ、ぅ……！,102601000G,vc_10260100002_030_01,chara_1
+message,シルヴィア,<size=32>D-do you think saying things like that will make me give <br><size=32>in? Let go of me. I'm going ahe— ow...!<br> ,102601000G,vc_10260100002_030_01,chara_1
 
-message,<user>,躓いた拍子に足首をひねったんだな。<br>その足じゃ大穴の先に進むのは無理だ。諦めろ。
+message,<user>,<size=32>You twisted your ankle when you tripped. You can't go    <br><size=32>deeper into the Abyss with that foot. Give it up.<br> 
 
-message,<user>,前線基地に戻るぞ。俺がおぶってやるから。
+message,<user>,<size=32>We're heading back to the forward base. I'll carry you on<br><size=32>my back.<br> 
 
 window,off
 wait,0.15
@@ -800,7 +800,7 @@ asynccharaemo,chara_1,Shy,CONT,0
 
 
 window,on,0.15
-message,シルヴィア,きゃっ……は、離してください！<br>なにを勝手に決めているんですか！？,102601000G,vc_10260100002_031_01,chara_1
+message,シルヴィア,<size=32>Eek... L-let me down!                                    <br><size=32>Who said you could decide this!?<br> ,102601000G,vc_10260100002_031_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -811,9 +811,9 @@ asyncseplay,setag1_41,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シルヴィア,わたくしは、まだ探索を続けなくては……！,102601000G,vc_10260100002_032_01,chara_1
+message,シルヴィア,<size=32>I still need to keep searching...!<br> ,102601000G,vc_10260100002_032_01,chara_1
 
-message,<user>,文句なら後でいくらでも聞いてやるから、<br>今は俺の言う通りにしろ。
+message,<user>,<size=32>I'll listen to all your complaints later，                <br><size=32>so for now just do as I say.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -824,9 +824,9 @@ asyncseplay,setag1_42,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,シルヴィア,っ……偉そうに……わたくしのことを何も知らないくせに……！,102601000G,vc_10260100002_033_01,chara_1
+message,シルヴィア,<size=32>...How arrogant... You don't know anything about me...!<br> ,102601000G,vc_10260100002_033_01,chara_1
 
-message,<user>,ああ、知らないね。でも、１つだけ分かることがある。<br>お前の孤独感というやつがな。
+message,<user>,<size=32>You're right， I don't. But there is one thing I          <br><size=32>understand. That loneliness of yours.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -837,11 +837,11 @@ asyncseplay,setag1_43,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,シルヴィア,何を言ってますの……？,102601000G,vc_10260100002_034_01,chara_1
+message,シルヴィア,<size=32>What are you saying...?<br> ,102601000G,vc_10260100002_034_01,chara_1
 
-message,<user>,１人で知らない世界に来たんだ。周りを警戒して、<br>棘のある言葉で突き放すのは当然だろう。
+message,<user>,<size=32>You came to a world you don't know， all alone. Of course <br><size=32>you'd be on guard， pushing people away with sharp words.<br> 
 
-message,<user>,俺もずっと１人だったからな。<br>人が寂しい時に何を考えるのかぐらい、分かるつもりだ。
+message,<user>,<size=32>I was alone for a long time too. I'd like to think I know<br><size=32>what goes through someone's mind when they're lonely.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -852,13 +852,13 @@ asyncseplay,setag1_44,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,シルヴィア,ずっと１人、って……あなた、そんな素振り、少しも……。,102601000G,vc_10260100002_035_01,chara_1
+message,シルヴィア,<size=32>Alone for a long time... But you never showed any sign   <br><size=32>of...<br> ,102601000G,vc_10260100002_035_01,chara_1
 
-message,<user>,見せたところで気を遣われるだけだ。<br>それに、もう過ぎた話だからな。
+message,<user>,<size=32>Showing it would just make people worry.                 <br><size=32>Besides， that's all in the past now.<br> 
 
-message,<user>,誰も信じられないかもしれないが、俺のことぐらいは信じてみてくれ。<br>お前が寂しくならないように、出来ることは何でもするから。
+message,<user>,<size=32>You might not be able to trust anyone， but try trusting  <br><size=32>me at least. I'll do whatever I can so you won't have to feel lonely.<br> 
 
-message,<user>,……だから、今日はもう帰るぞ。また明日改めて探索しよう。
+message,<user>,<size=32>...So let's head back for today. We'll explore again     <br><size=32>tomorrow.<br> 
 
 window,off
 wait,0.15
@@ -884,7 +884,7 @@ asynccharaemo,chara_1,Anger,CONT,0
 
 
 window,on,0.15
-message,シルヴィア,（……偉そうなことを言って。理解者面されるなんて気に食わないですわ）,102601000G,vc_10260100002_036_01,chara_1
+message,シルヴィア,<size=32>(...How presumptuous. I don't like him acting like he    <br><size=32>understands me.)<br> ,102601000G,vc_10260100002_036_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -896,7 +896,7 @@ asyncseplay,setag1_46,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,シルヴィア,（でも、こんなにも突き放しているのに、<br>わたくしに寄り添おうとしてくれるなんて……）,102601000G,vc_10260100002_037_01,chara_1
+message,シルヴィア,<size=32>(But even though I keep pushing him away，                <br><size=32>he still tries to stay by my side...)<br> ,102601000G,vc_10260100002_037_01,chara_1
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -905,7 +905,7 @@ asyncseplay,setag1_47,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シルヴィア,（こんな人……初めてですわ……）,102601000G,vc_10260100002_038_01,chara_1
+message,シルヴィア,<size=32>(I've never met anyone... like this before...)<br> ,102601000G,vc_10260100002_038_01,chara_1
 
 window,off
 wait,0.15
@@ -931,9 +931,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,シルヴィア,……ぐすっ。わ、分かりました。<br>今回だけは、あなたの言うとおりにしてあげます。,102601000G,vc_10260100002_039_01,chara_1
+message,シルヴィア,<size=32>...*sniff*. F-fine.                                      <br><size=32>Just this once， I'll do as you say.<br> ,102601000G,vc_10260100002_039_01,chara_1
 
-message,<user>,背中で泣くのは構わないが、鼻水で服を汚したりするなよ。
+message,<user>,<size=32>You can cry on my back， but don't get snot on my clothes.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -944,7 +944,7 @@ asyncseplay,setag1_49,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,シルヴィア,――っ！　や、やっぱりおろしなさい！　このノンデリ男！,102601000G,vc_10260100002_040_01,chara_1
+message,シルヴィア,<size=32>—! P-put me down this instant! You insensitive brute!<br> ,102601000G,vc_10260100002_040_01,chara_1
 
 window,off
 bgmstop,bgmtag1_4,0.5

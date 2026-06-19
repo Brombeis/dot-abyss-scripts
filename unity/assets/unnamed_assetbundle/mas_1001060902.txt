@@ -107,10 +107,10 @@ fade,In,Black,0.5
 
 objectmotion,chara_10,U_WeaponAttack,1,1,,0
 
-dotmessage,人型厄災,貴様らの居場所を<br>嘆きの祭壇に変えてやろう,,mcv_1001060902_001_01,NORMAL_B,Mid,NORMAL,chara_10,TOP,NORMAL,0,0
-dotmessage,人型厄災,私は先に行って<br>待っている……,,mcv_1001060902_002_01,NORMAL_B,Mid,NORMAL,chara_10,TOP,NORMAL,0,0
+dotmessage,人型厄災,<size=32>I shall turn your home                                   <br><size=32>into an altar of lament<br> ,,mcv_1001060902_001_01,NORMAL_B,Mid,NORMAL,chara_10,TOP,NORMAL,0,0
+dotmessage,人型厄災,<size=32>I will go on ahead                                       <br><size=32>and wait for you...<br> ,,mcv_1001060902_002_01,NORMAL_B,Mid,NORMAL,chara_10,TOP,NORMAL,0,0
 objectmotion,chara_10,C_WeaponWait,0,1,,0
-dotmessage,人型厄災,抵抗したければ<br>するがいい,,mcv_1001060902_003_01,NORMAL_B,Mid,NORMAL,chara_10,TOP,NORMAL,0,0
+dotmessage,人型厄災,<size=32>If you wish to resist                                    <br><size=32>then by all means<br> ,,mcv_1001060902_003_01,NORMAL_B,Mid,NORMAL,chara_10,TOP,NORMAL,0,0
 
 
 //人形厄災移動
@@ -165,12 +165,12 @@ wait,5.5
 //エモ　！？
 asyncseplay,se4800011_50,se4800011,0,1,CONT,0
 objectemo,chara_1,ExclaQues
-dotmessage,<user>,同化した……だと！？<br>くそ！　行かせるか！,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
+dotmessage,<user>,<size=32>It merged with it...!?                                   <br><size=32>Damn! Don't let it escape!<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
 
 asyncobjectmotion,chara_1,U_Pointing,1,1,None,1,CONT,0
 
 
-dotmessage,<user>,みんな、なんとしても<br>ヤツを止めろ！,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
+dotmessage,<user>,<size=32>Everyone， stop that thing                                <br><size=32>at all costs!<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
 
 
 //エモ　！
@@ -303,7 +303,7 @@ fade,In,White,0.5
 
 wait,0.5
 
-dotmessage,<user>,くっそ……,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
+dotmessage,<user>,<size=32>Dammit...<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
 
 //asyncobjectmotion,chara_1,N_limit,0,1,,1,CONT,0
 
@@ -312,7 +312,7 @@ objectmotion,Goleinu,C_WeaponWait,0,1,,1
 dotmove,Goleinu,0.5,0,0,0.5,Linear
 objectmotion,Goleinu,N_Pointing,1,1,,1
 
-dotmessage,ゴレイヌ,ふんっ！　そんなもの<br>オレ様には通用しない！,,mcv_1001060902_004_01,NORMAL,Mid,NORMAL,Goleinu,TOP,NORMAL,0,80
+dotmessage,ゴレイヌ,<size=32>Hmph! That won't work                                    <br><size=32>on the great me!<br> ,,mcv_1001060902_004_01,NORMAL,Mid,NORMAL,Goleinu,TOP,NORMAL,0,80
 
 objectmotion,Goleinu,C_WeaponWait,0,1,,1
 
@@ -336,7 +336,7 @@ objectemo,Logy,Question
 
 //objectmotion,Sophia,N_think,1,1,,1
 
-dotmessage,ソフィア,何をしてるの……？,,mcv_1001060902_005_01,NORMAL,Mid,SAD,Sophia,TOP,NORMAL,0,0
+dotmessage,ソフィア,<size=32>What is he doing...?<br> ,,mcv_1001060902_005_01,NORMAL,Mid,SAD,Sophia,TOP,NORMAL,0,0
 //objectmotion,Sophia,C_WeaponWait,0,1,,1
 
 
@@ -345,11 +345,11 @@ asyncdotcamerazoom,1,0.5,LinearTarget,CONT,0
 asyncdotcameramove,-1,0,LinearTarget,0.5,None,CONT,0
 wait,0.5
 
-dotmessage,ベリサ,探知魔法で探ってるんだわ！,,mcv_1001060902_006_01,NORMAL,Mid,Surprise,Verisa,TOP,NORMAL,80,0
+dotmessage,ベリサ,<size=32>He's scanning with detection magic!<br> ,,mcv_1001060902_006_01,NORMAL,Mid,Surprise,Verisa,TOP,NORMAL,80,0
 
 objectmotion,chara_1,N_talk,0,1,,1
 
-dotmessage,<user>,ゴレイヌ頼む！<br>ヤツを行かせるな！,,,NORMAL,Mid,,chara_1,TOP,SHAKE,0,0
+dotmessage,<user>,<size=32>Goleinu， I'm counting on you!                            <br><size=32>Don't let it get away!<br> ,,,NORMAL,Mid,,chara_1,TOP,SHAKE,0,0
 
 asyncobjectmotion,chara_1,C_Wait,1,1,,1
 
@@ -357,7 +357,7 @@ objectdirect,Goleinu,LEFT
 objectmotion,Goleinu,N_salute,1,1,,1
 
 
-dotmessage,ゴレイヌ,旦那！<br>まかせとけ！,,mcv_1001060902_007_01,NORMAL,Mid,NORMAL,Goleinu,TOP,NORMAL,0,80
+dotmessage,ゴレイヌ,<size=32>Boss!                                                    <br><size=32>Leave it to me!<br> ,,mcv_1001060902_007_01,NORMAL,Mid,NORMAL,Goleinu,TOP,NORMAL,0,80
 objectmotion,Goleinu,C_WeaponWait,0,1,,1
 
 objectdirect,Goleinu,RIGHT
@@ -375,7 +375,7 @@ asyncobjectemo,Himari,Exclamation
 objectemo,Logy,Exclamation
 
 objectmotion,Logy,N_anger,0,1,,1
-dotmessage,ロジー,助手くん！？,,mcv_1001060902_008_01,NORMAL,Mid,Surprise,Logy,TOP,NORMAL,0,80
+dotmessage,ロジー,<size=32>Assistant!?<br> ,,mcv_1001060902_008_01,NORMAL,Mid,Surprise,Logy,TOP,NORMAL,0,80
 
 objectmotion,Logy,C_Wait,0,1,,1
 
@@ -386,8 +386,8 @@ asyncdotcamerazoom,1.2,0.5,LinearTarget,CONT,0
 asyncdotcameramove,1,0,LinearTarget,0.5,None,CONT,0
 wait,0.5
 
-dotmessage,ゴレイヌ,喰らえ！<br>オレ様の新兵器！,,mcv_1001060902_009_01,NORMAL,Mid,Anger,Goleinu,TOP,SHAKE,0,80
-dotmessage,ゴレイヌ,対厄災用・超電磁レーザーッ！！,,mcv_1001060902_010_01,NORMAL,Mid,Anger,Goleinu,TOP,SHAKE,0,80
+dotmessage,ゴレイヌ,<size=32>Take this!                                               <br><size=32>My brand-new weapon!<br> ,,mcv_1001060902_009_01,NORMAL,Mid,Anger,Goleinu,TOP,SHAKE,0,80
+dotmessage,ゴレイヌ,<size=32>Anti-Calamity Electromagnetic Laser!!<br> ,,mcv_1001060902_010_01,NORMAL,Mid,Anger,Goleinu,TOP,SHAKE,0,80
 
 
 //ゴレイヌレーザー
@@ -470,7 +470,7 @@ asyncobjectmotion,Himari,N_gesture,0,1,,0,CONT,0.1
 asyncobjectmotion,chara_1,N_gesture,0,1,,0,CONT,0.1
 
 
-dotmessage,ロジー,やったよ助手くん！<br>羽根を射抜いた！,,mcv_1001060902_011_01,NORMAL,Mid,FUN,Logy,TOP,NORMAL,0,80
+dotmessage,ロジー,<size=32>We did it， Assistant!                                    <br><size=32>We pierced its wing!<br> ,,mcv_1001060902_011_01,NORMAL,Mid,FUN,Logy,TOP,NORMAL,0,80
 
 objectmotion,Logy,C_Wait,0,1,,1
 
@@ -490,25 +490,25 @@ asyncobjectmotion,Kururu,C_WeaponWait,0,1,,0,CONT,0.13
 asyncobjectmotion,Himari,C_WeaponWait,0,1,,0,CONT,0.1
 asyncobjectmotion,Verisa,C_WeaponWait,0,1,,0,CONT,0.11
 
-dotmessage,ゴレイヌ,あれ、おかしいな,,mcv_1001060902_013_01,NORMAL,Mid,NORMAL,Goleinu,TOP,NORMAL,0,80
+dotmessage,ゴレイヌ,<size=32>Huh， that's strange<br> ,,mcv_1001060902_013_01,NORMAL,Mid,NORMAL,Goleinu,TOP,NORMAL,0,80
 
 objectmotion,Logy,N_think,1,1,,1
 
-dotmessage,ロジー,何がよ？,,mcv_1001060902_014_01,NORMAL,Mid,NORMAL,Logy,TOP,NORMAL,0,80
+dotmessage,ロジー,<size=32>What is?<br> ,,mcv_1001060902_014_01,NORMAL,Mid,NORMAL,Logy,TOP,NORMAL,0,80
 
 
 objectdirect,Goleinu,LEFT
 
 objectmotion,Logy,C_Wait,0,1,,1
 
-dotmessage,ゴレイヌ,設定してもらったほどの<br>出力が出てない……,,mcv_1001060902_015_01,NORMAL,Mid,NORMAL,Goleinu,TOP,NORMAL,0,80
+dotmessage,ゴレイヌ,<size=32>The output isn't matching                                <br><size=32>the specs you set...<br> ,,mcv_1001060902_015_01,NORMAL,Mid,NORMAL,Goleinu,TOP,NORMAL,0,80
 
 
 objectmotion,Goleinu,C_WeaponWait,0,1,,1
 
 objectmotion,Logy,N_talk,0,1,,1
 
-dotmessage,ロジー,もっと強力なのが<br>出せるの！？,,mcv_1001060902_016_01,NORMAL,Mid,Surprise,Logy,TOP,NORMAL,0,80
+dotmessage,ロジー,<size=32>You can fire something                                   <br><size=32>even stronger!?<br> ,,mcv_1001060902_016_01,NORMAL,Mid,Surprise,Logy,TOP,NORMAL,0,80
 objectmotion,Logy,C_Wait,0,1,,1
 
 //エモ　ドヤ
@@ -517,7 +517,7 @@ objectemo,Goleinu,Elated
 
 objectmotion,Goleinu,N_bounce,0,1,,1
 
-dotmessage,ゴレイヌ,オレの魔光炉が<br>昂ればの話だけどな！,,mcv_1001060902_017_01,NORMAL,Mid,NORMAL,Goleinu,TOP,NORMAL,0,80
+dotmessage,ゴレイヌ,<size=32>Only if my mana reactor                                  <br><size=32>gets fired up enough!<br> ,,mcv_1001060902_017_01,NORMAL,Mid,NORMAL,Goleinu,TOP,NORMAL,0,80
 
 
 objectmotion,Goleinu,C_WeaponWait,0,1,,1
@@ -551,7 +551,7 @@ asyncdotcameramove,0,0,LinearTarget,0.5,None,CONT,0
 wait,0.5
 
 asyncwait
-dotmessage,ソフィア,全然効いてない！,,mcv_1001060902_018_01,NORMAL,Mid,SURPRISE,Sophia,TOP,NORMAL,30,0
+dotmessage,ソフィア,<size=32>It's not working at all!<br> ,,mcv_1001060902_018_01,NORMAL,Mid,SURPRISE,Sophia,TOP,NORMAL,30,0
 
 asyncobjectmotion,chara_1,C_Wait,0,1,,0,CONT,0.13
 asyncobjectmotion,Logy,C_Wait,0,1,,0,CONT,0.13
@@ -571,7 +571,7 @@ objectdirect,Goleinu,LEFT
 
 objectmotion,Goleinu,N_embarrassing,0,1,,1
 
-dotmessage,ゴレイヌ,教授！　後ろから、<br>オレをハグしてくれ！,,mcv_1001060902_019_01,NORMAL,Mid,Anger,Goleinu,TOP,SHAKE,0,80
+dotmessage,ゴレイヌ,<size=32>Professor! Hug me                                        <br><size=32>from behind!<br> ,,mcv_1001060902_019_01,NORMAL,Mid,Anger,Goleinu,TOP,SHAKE,0,80
 
 //エモ　Σ
 asyncseplay,se4800017_3,se4800017,0,1,CONT,0
@@ -584,7 +584,7 @@ asyncobjectmotion,Kururu,N_sorrow,1,1,,0,CONT,0.13
 asyncobjectmotion,Himari,N_sorrow,1,1,,0,CONT,0.1
 asyncobjectmotion,Sophia,N_sorrow,1,1,,0,CONT,0.1
 asyncwait
-dotmessage,ロジー,はぁっ！？,,mcv_1001060902_020_01,NORMAL,Mid,Surprise,Logy,TOP,NORMAL,0,80
+dotmessage,ロジー,<size=32>Excuse me!?<br> ,,mcv_1001060902_020_01,NORMAL,Mid,Surprise,Logy,TOP,NORMAL,0,80
 
 asyncobjectmotion,chara_1,C_Wait,0,1,,0,CONT,0.13
 asyncobjectmotion,Sophia,C_WeaponWait,0,1,,0,CONT,0.1
@@ -597,9 +597,9 @@ objectdirect,Goleinu,RIGHT
 
 objectmotion,Logy,C_Wait,0,1,,1
 
-dotmessage,ゴレイヌ,出力増幅のためだ！<br>胸を押し当てるようにギュッと！,,mcv_1001060902_021_01,NORMAL,Mid,Anger,Goleinu,TOP,SHAKE,0,80
+dotmessage,ゴレイヌ,<size=32>It's to amplify the output!                              <br><size=32>Press up against me tight!<br> ,,mcv_1001060902_021_01,NORMAL,Mid,Anger,Goleinu,TOP,SHAKE,0,80
 
-dotmessage,ロジー,ええい！<br>もぉ～～！,,mcv_1001060902_022_01,NORMAL,Mid,SHY,Logy,TOP,NORMAL,0,80
+dotmessage,ロジー,<size=32>Oh fine!                                                 <br><size=32>Geez~~!<br> ,,mcv_1001060902_022_01,NORMAL,Mid,SHY,Logy,TOP,NORMAL,0,80
 
 dotmove,Logy,0.5,0,0,0.5,Linear,
 
@@ -628,7 +628,7 @@ asyncwait
 asyncseplayIngame,ba_battle_magic_light_s_2,battle_general,ba_battle_magic_light_s,0,1,CONT,0.133
 asyncdotprefabshow,Eff_BeamChargeGoreinu001,CONT,0.000
 objectmotion,Goleinu,N_Beam_Stance,1,1,,1
-dotmessage,ゴレイヌ,うぉおおおおおお！<br>高まってきたぁあ！,,mcv_1001060902_023_01,NORMAL,Mid,Anger,Goleinu,TOP,SHAKE,0,80
+dotmessage,ゴレイヌ,<size=32>UWOOOOOOH!                                               <br><size=32>Power's rising!<br> ,,mcv_1001060902_023_01,NORMAL,Mid,Anger,Goleinu,TOP,SHAKE,0,80
 
 dotmove,Logy,1,-0.5,0,-0.5,Linear,
 
@@ -638,7 +638,7 @@ objectemo,Kururu,Panic
 objectmotion,Kururu,N_anger,0,1,,1
 
 
-dotmessage,クルル,逃げられちゃうよ～！？,,mcv_1001060902_024_01,NORMAL,Mid,ANGER,Kururu,TOP,NORMAL,50,0
+dotmessage,クルル,<size=32>It's gonna get away~!?<br> ,,mcv_1001060902_024_01,NORMAL,Mid,ANGER,Kururu,TOP,NORMAL,50,0
 objectmotion,Kururu,C_Wait,0,1,,1
 
 //エモ　焦り
@@ -646,7 +646,7 @@ asyncseplay,se4800007_6,se4800007,0,1,CONT,0
 objectemo,chara_1,Panic
 objectmotion,chara_1,U_Pointing,1,1,,1
 
-dotmessage,<user>,時間がない！<br>ゴレイヌ！,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
+dotmessage,<user>,<size=32>There's no time!                                         <br><size=32>Goleinu!<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
 
 objectmotion,chara_1,C_Wait,0,1,,1
 
@@ -660,7 +660,7 @@ asyncdotprefabdelete,NovelEF_DetectionMagic,CONT,0
 wait,0.5
 objectmotion,Goleinu,C_WeaponWait,0,1,,1
 
-dotmessage,ゴレイヌ,させるか！<br>ロケットパーーンチ！！！！,,mcv_1001060902_025_01,NORMAL,Mid,Anger,Goleinu,TOP,SHAKE,0,80
+dotmessage,ゴレイヌ,<size=32>Like hell I will!                                        <br><size=32>ROCKET PUUUNCH!!!!<br> ,,mcv_1001060902_025_01,NORMAL,Mid,Anger,Goleinu,TOP,SHAKE,0,80
 
 //ロケットパンチ
 //SE再生
@@ -669,7 +669,7 @@ asyncobjectmotion,Goleinu,N_Rocketpunch_Stance,1,1,None,1,CONT,0.000
 asyncobjectmotion,Goleinu,N_Rocketpunch_Shot,1,1,None,1,CONT,0.433
 asyncdotprefabshow,Eff_RocketPunch000,CONT,0.483
 asyncwait
-dotmessage,ゴレイヌ,よし捕らえた！<br>みんなオレ様に掴まれ！,,mcv_1001060902_026_01,NORMAL,Mid,NORMAL,Goleinu,TOP,NORMAL,0,80
+dotmessage,ゴレイヌ,<size=32>Got it! Everyone，                                        <br><size=32>grab onto me!<br> ,,mcv_1001060902_026_01,NORMAL,Mid,NORMAL,Goleinu,TOP,NORMAL,0,80
 
 asyncdotcamerazoom,1,0.5,LinearTarget,CONT,0
 asyncdotcameramove,-1,0,LinearTarget,0.5,None,CONT,0
@@ -680,7 +680,7 @@ asyncseplay,se4800005_3,se4800005,0,1,CONT,0
 objectemo,chara_1,Flash
 objectmotion,chara_1,N_think,1,1,,1
 
-dotmessage,<user>,そうか……！<br>みんな掴まれ！,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
+dotmessage,<user>,<size=32>Of course...!                                            <br><size=32>Everyone， hold on!<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
 
 asyncdotcamerazoom,0.8,0.5,LinearTarget,CONT,0
 asyncdotcameramove,3,2,LinearTarget,0.5,None,CONT,0
@@ -729,7 +729,7 @@ asyncdotmove,Marina,0.24,6.5,0,0,Linear,0
 asyncdotmove,chara_1,0.24,6.5,0,0,Linear,0
 asyncwait
 
-dotmessage,<user>,みんな手を離すなよ？<br>このまま前線基地まで向かうぞ！,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
+dotmessage,<user>,<size=32>Don't let go， everyone!                                  <br><size=32>We're heading straight to base!<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
 
 
 asyncseplay,se4900208,se4900208,0,1,CONT,0

@@ -38,7 +38,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
@@ -59,9 +59,9 @@ waitorclick,1.5
 bgmplay,bgmtag1_1,bgm0036,0.75,1
 
 window,on,0.15
-message,<user>,んっ……？　ここ、は……？
+message,<user>,<size=32>Mm...? Where... am I...?<br> 
 
-message,,目が覚めると、そこはいつもの司令室だった。<br>仲間たちが、心配そうにこちらを覗き込んでいる。
+message,,<size=32>He wakes to find himself in the usual command room.      <br><size=32>His companions peer down at him with worried faces.<br> 
 
 window,off
 wait,0.15
@@ -96,9 +96,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,アリシア,あっ、やっと起きましたねぇ～。<br>司令官、なんだかずっとうなされてましたよ？,300201000,mcv_1001060801_001_01,chara_1
+message,アリシア,<size=32>Oh， you're finally awake~.                               <br><size=32>Commander， you were moaning in your sleep the whole time.<br> ,300201000,mcv_1001060801_001_01,chara_1
 
-message,<user>,アリシア……？
+message,<user>,<size=32>Alicia...?<br> 
 
 window,off
 wait,0.15
@@ -148,7 +148,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,何か、悪い夢でも見てたんじゃないの？,106501000G,mcv_1001060801_002_01,chara_2
+message,ソフィア,<size=32>Were you having a bad dream or something?<br> ,106501000G,mcv_1001060801_002_01,chara_2
 
 window,off
 wait,0.15
@@ -197,9 +197,9 @@ asynccharaemo,chara_6,Sweat,CONT,0
 
 
 window,on,0.15
-message,クルル,うん！　ご主人さま、ずっと、<br>う～ん、う～ん……ってうなってたよ？,106701000G,mcv_1001060801_003_01,chara_6
+message,クルル,<size=32>Yeah! Master was going                                   <br><size=32>""Mmm... mmm..."" the whole time~?<br> ,106701000G,mcv_1001060801_003_01,chara_6
 
-message,<user>,悪い夢……？<br>え～と……確か、俺は厄災と……
+message,<user>,<size=32>A bad dream...?                                          <br><size=32>Umm... I was fighting the Calamity...<br> 
 
 window,off
 wait,0.15
@@ -248,9 +248,9 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,ベリサ,厄災～！？<br>おにーさん、まだ、そんな迷信信じてるの～？,100201000G,mcv_1001060801_004_01,chara_3
+message,ベリサ,<size=32>A Calamity~!?                                            <br><size=32>You still believe in that superstition~?<br> ,100201000G,mcv_1001060801_004_01,chara_3
 
-message,<user>,迷信……？
+message,<user>,<size=32>Superstition...?<br> 
 
 window,off
 wait,0.15
@@ -293,7 +293,7 @@ asynccharaemo,chara_5,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,うん……。厄災が来る来るって預言者が言いふらして大騒ぎになったけど、<br>結局来なかった……,106601000G,mcv_1001060801_005_01,chara_5
+message,ヒマリ,<size=32>Yeah... The prophet made a big fuss about                <br><size=32>Calamities coming， but they never did...<br> ,106601000G,mcv_1001060801_005_01,chara_5
 
 window,off
 wait,0.15
@@ -358,9 +358,9 @@ asynccharaemo,chara_4,Spirits,CONT,0
 
 
 window,on,0.15
-message,マリナ,まあまあ、最後まで信じてたの旦那さまだけでしたからねぇ～♪<br>子どもみたいで可愛かったですぅ♡,100301000G,mcv_1001060801_006_01,chara_4
+message,マリナ,<size=32>Well， you were the only one who still believed~♪         <br><size=32>It was kind of cute， like a little kid♡<br> ,100301000G,mcv_1001060801_006_01,chara_4
 
-message,<user>,厄災が、迷信……？<br>なかったって……ことか？
+message,<user>,<size=32>The Calamities... were just superstition...?             <br><size=32>They never... happened?<br> 
 
 window,off
 wait,0.15
@@ -415,9 +415,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,アリシア,もぉ～、いつまでそんなこと言ってるんですかぁ～？<br>今夜は司令官のバースデーパーティーですっ！　しっかりしてくださいよぉ～。,300201000,mcv_1001060801_007_01,chara_1
+message,アリシア,<size=32>How long are you going to keep saying that~?             <br><size=32>Tonight's your birthday party! Get it together~.<br> ,300201000,mcv_1001060801_007_01,chara_1
 
-message,<user>,バースデーパーティ？　俺の……？
+message,<user>,<size=32>A birthday party? For me...?<br> 
 
 window,off
 wait,0.15
@@ -458,7 +458,7 @@ asynccharaemo,chara_6,Twinkle,CONT,0
 
 
 window,on,0.15
-message,クルル,クルル、お花で髪飾り作ったんだぁ～♪<br>あとでプレゼントするね♪,106701000G,mcv_1001060801_008_01,chara_6
+message,クルル,<size=32>Kururu made a hair accessory from flowers~♪              <br><size=32>I'll give it to you as a present later~♪<br> ,106701000G,mcv_1001060801_008_01,chara_6
 
 window,off
 wait,0.15
@@ -501,7 +501,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,ソフィア,あっ……わ、私も、その……用意はしてるから。<br>な、何かは後でのお楽しみだけど……,106501000G,mcv_1001060801_009_01,chara_2
+message,ソフィア,<size=32>I... I've prepared something too， so...                  <br><size=32>Wh-what it is will be a surprise though...<br> ,106501000G,mcv_1001060801_009_01,chara_2
 
 window,off
 wait,0.15
@@ -567,7 +567,7 @@ asynccharaemo,chara_4,Laugh,CONT,0
 
 
 window,on,0.15
-message,マリナ,ソフィアさん、ず～～っとマーケットで<br>プレゼント何にするか迷ってたんですよ～♪,100301000G,mcv_1001060801_010_01,chara_4
+message,マリナ,<size=32>Sophia was at the market for ages trying to decide       <br><size=32>what to get as a present~♪<br> ,100301000G,mcv_1001060801_010_01,chara_4
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -578,7 +578,7 @@ asyncseplay,setag1_11,se4800012,0,1,CONT,0
 asynccharaemo,chara_2,Shy,CONT,0
 
 
-message,ソフィア,ちょ、ちょっと！　そんな話、しなくていい！,106501000G,mcv_1001060801_011_01,chara_2
+message,ソフィア,<size=32>H-hey! You don't need to tell him that!<br> ,106501000G,mcv_1001060801_011_01,chara_2
 
 window,off
 wait,0.15
@@ -631,7 +631,7 @@ asynccharaemo,chara_5,Speak,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,ヒマリはね？　ミサンガ編んだんだ……。<br>みんなにも、はいっ！　これ、お揃いのミサンガ……,106601000G,mcv_1001060801_012_01,chara_5
+message,ヒマリ,<size=32>I wove a friendship bracelet...                          <br><size=32>Here， everyone! Matching bracelets for all of us...<br> ,106601000G,mcv_1001060801_012_01,chara_5
 
 window,off
 wait,0.15
@@ -700,7 +700,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,アリシア,ええ～～？　これ、ヒマリさんが作ったんですか？<br>可愛い～～！,300201000,mcv_1001060801_013_01,chara_1
+message,アリシア,<size=32>Whaaat~? Himari made this?                               <br><size=32>It's so cute~~!<br> ,300201000,mcv_1001060801_013_01,chara_1
 
 window,off
 wait,0.15
@@ -754,7 +754,7 @@ asynccharaemo,chara_3,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ベリサ,ふっふ～～ん♪　ベリサちゃんは、なんとなんとぉ～！<br>おにーさんの為に、ベリサちゃん特製手作りケーキを……！,100201000G,mcv_1001060801_014_01,chara_3
+message,ベリサ,<size=32>Hehehe~♪ Belisa has something even better~!              <br><size=32>A handmade cake， baked specially for you...!<br> ,100201000G,mcv_1001060801_014_01,chara_3
 
 asynccharaface,chara_3,FaceShy,CONT,0
 
@@ -765,7 +765,7 @@ asyncseplay,setag1_15,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,ベリサ,……作ろうとしたけど、<br>焦げ焦げになって、失敗しましたぁ～～！！！！,100201000G,mcv_1001060801_015_01,chara_3
+message,ベリサ,<size=32>...Or I tried to make one，                               <br><size=32>but it burned to a crisp and totally failed~!!!<br> ,100201000G,mcv_1001060801_015_01,chara_3
 
 window,off
 wait,0.15
@@ -830,13 +830,13 @@ asynccharaemo,chara_2,Trouble,CONT,0
 
 
 window,on,0.15
-message,ソフィア,だから、火力強すぎって注意したのに……,106501000G,mcv_1001060801_016_01,chara_2
+message,ソフィア,<size=32>I told you the heat was too high...<br> ,106501000G,mcv_1001060801_016_01,chara_2
 
-message,,仲間たちの、あまりに屈託のない笑顔。<br>あまりに、心地良く平和な日常。
+message,,<size=32>The carefree smiles of his companions.                   <br><size=32>A warm， peaceful everyday life.<br> 
 
-message,<user>,ああ、そうか……。俺たちが、命を懸けて守りたかったものは……。<br>こんな、温かくて、平和な日常だったんだな……
+message,<user>,<size=32>Ah， I see... What we risked our lives to protect...      <br><size=32>was this kind of warm， peaceful life all along...<br> 
 
-message,,すべてが満たされている。もう、戦う必要はない。<br>心が、その甘美な誘惑に、溶かされそうになった、その時だった。
+message,,<size=32>Everything is fulfilled. No need to fight anymore.       <br><size=32>Just as that sweet temptation nearly melted his heart--<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -854,13 +854,13 @@ asynccrossfade,0.1,0,0,1,1,STOP
 
 
 window,on,0.15
-message,<user>,（……ん？……待てよ）
+message,<user>,<size=32>(...Hm? ...Wait a moment)<br> 
 
-message,<user>,（厄災が、迷信だった？　じゃあ、今まで戦ってきたのは何だったんだ？<br>俺たちが、流した血は、汗は、涙は……全部、『勘違い』のか？）
+message,<user>,<size=32>(The Calamities were fake? Then what were our battles?   <br><size=32>All that blood， sweat， and tears... a 'mistake'?)<br> 
 
-message,<user>,（この違和感はなんだ？<br>俺たちの大切な何かが都合よく消されている気がする……）
+message,<user>,<size=32>(What is this unease?                                    <br><size=32>Something dear to us has been conveniently erased...)<br> 
 
-message,<user>,（そうだ俺たちが時間をかけて、必死に乗り越えてきた、<br>あの苦しい戦いを、無かったことにするなんて……）
+message,<user>,<size=32>(Right-- all those agonizing battles we fought through，  <br><size=32>to pretend none of it happened...)<br> 
 
 window,off
 wait,0.15
@@ -900,7 +900,7 @@ asyncseplay,setag1_19,se4800017,0,1,STOP,1
 asynccharaemo,chara_4,Shock,STOP,1
 
 window,on,0.15
-message,<user>,――これは、俺たちの守りたかった、未来じゃないッ！！
+message,<user>,<size=32>--This is NOT the future we fought to protect!!<br> 
 
 window,off
 wait,0.15
@@ -973,11 +973,11 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,アリシア,司令官……！？,300201000,mcv_1001060801_017_01,chara_1
+message,アリシア,<size=32>Commander...!?<br> ,300201000,mcv_1001060801_017_01,chara_1
 
-message,<user>,みんな……
+message,<user>,<size=32>Everyone...<br> 
 
-message,<user>,そうか……ここは現実じゃない。<br>ここは、俺の欲望が具現化した世界……
+message,<user>,<size=32>I see... This isn't real.                                <br><size=32>This is a world born from my own desires...<br> 
 
 window,off
 wait,0.15
@@ -1041,9 +1041,9 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,なのに、みんなが……こんなに……
+message,<user>,<size=32>And yet， everyone here is so...<br> 
 
-message,<user>,…………ははっ、そうか。そういうことか……
+message,<user>,<size=32>...Hah. So that's how it is...<br> 
 
 window,off
 wait,0.15
@@ -1077,9 +1077,9 @@ asynctransitionFade,Tra13,in,black,0,STOP,0
 waitorclick,0.5
 
 window,on,0.15
-message,<user>,つまり、俺は、自分で思っているよりも――
+message,<user>,<size=32>In other words， more than I ever realized--<br> 
 
-message,<user>,――みんなのことが、好きなんだな。
+message,<user>,<size=32>--I really do care about everyone.<br> 
 
 
 window,off
@@ -1127,7 +1127,7 @@ waitorclick,0.5
 bgmplay,bgmtag1_2,bgm0032,0.75,1
 
 window,on,0.15
-message,,目の前の景色がガラスのように砕け散り、<br><user>は、再び厄災と対峙する現実へと引き戻された。
+message,,<size=32>The scenery shatters like glass，                         <br><size=32>and <user> is pulled back to face the Calamity.<br> 
 
 window,off
 wait,0.15
@@ -1140,20 +1140,20 @@ wait,0.5
 
 
 window,on,0.15
-message,人型厄災,……ほう？ 　貴様が望んだ『幸福』を、自ら拒絶するか。<br>……だが、貴様１人が目覚めたとて、なんにもなるまい。,301201000,mcv_1001060801_018_01,chara_7
+message,人型厄災,<size=32>...Oh? You reject the 'happiness' you desired?           <br><size=32>...But you alone waking changes nothing.<br> ,301201000,mcv_1001060801_018_01,chara_7
 
-message,<user>,望んだ幸せか……。確かにそうかもしれない。<br>でも、そんなものは、突然与えられても違和感しかないはずだ。
+message,<user>,<size=32>The happiness I wanted... maybe so.                      <br><size=32>But something just handed to you only feels wrong.<br> 
 
-message,<user>,俺たち人間は、みんな知ってるのさ。<br>求める何かっていうのは、別の何かを乗り越えた先にあるってことを……
+message,<user>,<size=32>We humans all know this:                                 <br><size=32>what we seek lies beyond what we must overcome...<br> 
 
-message,<user>,俺たちが乗り越えた日々……あの苦しい記憶がない世界など、<br>ただの、空っぽの絵にすぎない。
+message,<user>,<size=32>A world without the hardships we endured...              <br><size=32>is nothing but an empty picture.<br> 
 
 asyncjump,CHARA,chara_7,-30.6,0.5,1,off,0,CONT
 
 
-message,人型厄災,なるほど。貴様の意志の強さは認めよう。<br>だが、他の連中はどうだろうな？　未だ甘美な欲望から抜けきれぬようだが？,301201000,mcv_1001060801_019_01,chara_7
+message,人型厄災,<size=32>I'll acknowledge your willpower.                         <br><size=32>But the rest? Still lost in sweet desire， it seems.<br> ,301201000,mcv_1001060801_019_01,chara_7
 
-message,<user>,いや、俺の知ってるこいつらは、<br>そんな弱い人間じゃない。
+message,<user>,<size=32>No. The people I know                                    <br><size=32>aren't that weak.<br> 
 
 window,off
 wait,0.15
@@ -1285,7 +1285,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,,ソフィアが、ベリサが、マリナが、クルルが、ヒマリが……、<br>次々と、仲間たちが自らの意志で、悪夢から目を覚ましていく。
+message,,<size=32>Sophia， Belisa， Marina， Kururu， Himari--                 <br><size=32>one after another， they break free of the nightmare.<br> 
 
 window,off
 wait,0.15
@@ -1327,7 +1327,7 @@ asyncshake,CHARA,chara_7,15,10,0.25,3,on,off,0,off,CONT,0
 
 
 window,on,0.15
-message,人型厄災,な、何故だ！？　薄汚い欲望の世界へ堕ちた者たちが<br>こうも早々に戻ってくるなど……！,301201000,mcv_1001060801_020_01,chara_7
+message,人型厄災,<size=32>Wh-why!? Those who fell into desire's filthy world       <br><size=32>should not return so quickly...!<br> ,301201000,mcv_1001060801_020_01,chara_7
 
 window,off
 wait,0.15
@@ -1391,7 +1391,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ソフィア,……ええ。確かに、心地良い夢だったわ。<br>でもね、たった１つだけ、決定的に足りないものがあったの。,106501000G,mcv_1001060801_021_01,chara_2
+message,ソフィア,<size=32>...Yes. It was a pleasant dream， I'll admit.             <br><size=32>But there was one crucial thing missing.<br> ,106501000G,mcv_1001060801_021_01,chara_2
 
 asynccharaface,chara_3,FaceHappy,CONT,0
 
@@ -1402,7 +1402,7 @@ asyncseplay,setag1_28,se4800022,0,1,CONT,0
 asynccharaemo,chara_3,Speak,CONT,0
 
 
-message,ベリサ,あたしもそう！<br>ベリサちゃんがいっちばん欲しかったものが、なかったんだよね～。,100201000G,mcv_1001060801_022_01,chara_3
+message,ベリサ,<size=32>Same here!                                               <br><size=32>The one thing Belisa wanted most wasn't there~.<br> ,100201000G,mcv_1001060801_022_01,chara_3
 
 asynccharaface,chara_4,EyeOpen,CONT,0
 asynccharaface,chara_4,FaceNormal,CONT,0
@@ -1414,7 +1414,7 @@ asyncseplay,setag1_29,se4800004,0,1,CONT,0
 asynccharaemo,chara_4,Laugh,CONT,0
 
 
-message,マリナ,わたしも途中で気が付きましたぁ。<br>わたしの本当に望んでいるのは、お金じゃ買えないものなんですぅ♡,100301000G,mcv_1001060801_023_01,chara_4
+message,マリナ,<size=32>I realized it partway through too~.                      <br><size=32>What I truly want can't be bought with money♡<br> ,100301000G,mcv_1001060801_023_01,chara_4
 
 window,off
 wait,0.15
@@ -1474,7 +1474,7 @@ asynccharaemo,chara_6,Twinkle,CONT,0
 
 
 window,on,0.15
-message,クルル,クルルもね、気付いたんだ！<br>本当にいっしょにいたい場所が、なんかちがうな～って！,106701000G,mcv_1001060801_024_01,chara_6
+message,クルル,<size=32>Kururu noticed too!                                      <br><size=32>The place I really wanna be felt... kinda off~!<br> ,106701000G,mcv_1001060801_024_01,chara_6
 
 asyncshake,CHARA,chara_5,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1483,9 +1483,9 @@ asyncseplay,setag1_31,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,ヒマリ,わたしも……本当に守りたいものを、ふと思い出して……<br>それは……,106601000G,mcv_1001060801_025_01,chara_5
+message,ヒマリ,<size=32>I also... suddenly remembered what I truly want          <br><size=32>to protect... and that's...<br> ,106601000G,mcv_1001060801_025_01,chara_5
 
-message,,周りの視線が、<br>一斉に<user>に注がれる。
+message,,<size=32>All eyes turn                                            <br><size=32>to <user> at once.<br> 
 
 window,off
 wait,0.15
@@ -1527,14 +1527,14 @@ asyncjump,CHARA,chara_7,-30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,人型厄災,ククク……ハハハハ！　面白い！　実に面白いぞ、人間！<br>なるほどな。この遊戯は、どうやら私の負けらしい。,301201000,mcv_1001060801_026_01,chara_7
+message,人型厄災,<size=32>Hahaha...! How amusing! Truly amusing， humans!           <br><size=32>I see. It seems I've lost this game.<br> ,301201000,mcv_1001060801_026_01,chara_7
 
-message,<user>,残念だったな。<br>お前が考えてるほど、俺たち人間ってのは脆い存在じゃないってことだ。
+message,<user>,<size=32>Too bad for you.                                         <br><size=32>We humans aren't as fragile as you think.<br> 
 
 asyncjump,CHARA,chara_7,-30.6,0.5,1,off,0,CONT
 
 
-message,人型厄災,なるほどな……,301201000,mcv_1001060801_027_01,chara_7
+message,人型厄災,<size=32>I see...<br> ,301201000,mcv_1001060801_027_01,chara_7
 
 window,off
 wait,0.15
@@ -1584,7 +1584,7 @@ asynccharaemo,chara_9,Question,STOP,0.777
 
 
 window,on,0.15
-message,ロジー,ふわぁぁ～～～……よく寝たぁ～～～……<br>あ、あっれぇ～～～どこにいったの巨大プリンは……！？,2036001,mcv_1001060801_028_01,chara_9
+message,ロジー,<size=32>Yaaawn~~~ That was a good nap~~~...                      <br><size=32>H-huh~~~ where did the giant pudding go...!?<br> ,2036001,mcv_1001060801_028_01,chara_9
 
 asynccharaface,chara_8,EyeOpen,CONT,0
 asynccharaface,chara_8,FaceNormal,CONT,0
@@ -1596,7 +1596,7 @@ asyncseplay,setag1_34,se4800014,0,1,CONT,0
 asynccharaemo,chara_8,Silence,CONT,0
 
 
-message,ゴレイヌ,……システム、再起動。<br>……全機能、オールグリーン。,2037001,mcv_1001060801_029_01,chara_8
+message,ゴレイヌ,<size=32>...System rebooting.                                     <br><size=32>...All functions， green across the board.<br> ,2037001,mcv_1001060801_029_01,chara_8
 
 asynccharaface,chara_9,FaceSad,CONT,0
 
@@ -1613,7 +1613,7 @@ asyncseplay,setag1_36,se4800009,0,1,STOP,0.777
 asynccharaemo,chara_9,Question,STOP,0.777
 
 
-message,ロジー,助手くんおはよ～。<br>ねぇ、バケツいっぱいのプリンどこにやったのぉ～？,2036001,mcv_1001060801_030_01,chara_9
+message,ロジー,<size=32>Morning， Goleinu~.                                       <br><size=32>Hey， where's my bucket full of pudding~?<br> ,2036001,mcv_1001060801_030_01,chara_9
 
 window,off
 wait,0.15
@@ -1662,7 +1662,7 @@ asynccharaemo,chara_8,Panic,CONT,0
 
 
 window,on,0.15
-message,ゴレイヌ,ぬはっ！？　教授のバストサイズが……しぼんでるぅぅぅ～～～！！？？<br>システムエラー！　システムエラー！　再起動を……,2037001,mcv_1001060801_031_01,chara_8
+message,ゴレイヌ,<size=32>Gah!? The Professor's bust size... shrank~~!??           <br><size=32>System error! System error! Rebooting...<br> ,2037001,mcv_1001060801_031_01,chara_8
 
 window,off
 wait,0.15
@@ -1717,7 +1717,7 @@ asynccharaemo,chara_9,Anger,CONT,0
 
 
 window,on,0.15
-message,ロジー,助手くん……あとでバラバラにしてあげよっかぁ～～？？,2036001,mcv_1001060801_032_01,chara_9
+message,ロジー,<size=32>Goleinu... shall I dismantle you later~~??<br> ,2036001,mcv_1001060801_032_01,chara_9
 
 window,off
 wait,0.15
@@ -1764,7 +1764,7 @@ asynccharaemo,chara_2,Trouble,CONT,0
 
 
 window,on,0.15
-message,ソフィア,ちょっと……空気台無しなんだけど……！,106501000G,mcv_1001060801_033_01,chara_2
+message,ソフィア,<size=32>You two... you're ruining the moment...!<br> ,106501000G,mcv_1001060801_033_01,chara_2
 
 window,off
 wait,0.15
@@ -1804,18 +1804,18 @@ asyncjump,CHARA,chara_7,-30.6,0.5,1,off,0,CONT
 
 
 window,on,0.15
-message,人型厄災,なるほどな。貴様らのその『絆』というやつを、<br>私は見くびりすぎていたのかしれんな。……しかし。,301201000,mcv_1001060801_034_01,chara_7
+message,人型厄災,<size=32>I see. I underestimated your 'bond.'                     <br><size=32>...However.<br> ,301201000,mcv_1001060801_034_01,chara_7
 
 asyncjump,CHARA,chara_7,30,0.25,1,off,0,CONT
 
 wait,0.5
 
 
-message,人型厄災,次の遊戯は、どうかな？,301201000,mcv_1001060801_035_01,chara_7
+message,人型厄災,<size=32>How about the next game?<br> ,301201000,mcv_1001060801_035_01,chara_7
 
-message,,厄災が、天に手をかざす。すると、この階層に囚われていた、<br>無数の青黒い魂たちが、悲鳴を上げながら、彼の元へと吸い寄せられていく！
+message,,<size=32>The Calamity raises a hand skyward. Countless trapped    <br><size=32>dark souls shriek as they are drawn toward him!<br> 
 
-message,<user>,何を、する気だ！？
+message,<user>,<size=32>What are you doing!?<br> 
 
 window,off
 wait,0.15
@@ -1855,7 +1855,7 @@ asyncjump,CHARA,chara_7,-30.6,0.5,1,off,0,CONT
 
 
 window,on,0.15
-message,人型厄災,さあ、見るがいい！<br>人の嘆きを喰らい、人の祈りを絶望へと変える、我が最高傑作……！,301201000,mcv_1001060801_036_01,chara_7
+message,人型厄災,<size=32>Now， behold!                                             <br><size=32>Born of grief and twisted prayer-- my masterpiece...!<br> ,301201000,mcv_1001060801_036_01,chara_7
 
 window,off
 wait,0.15
@@ -1868,7 +1868,7 @@ asyncshake,CHARA,chara_7,15,10,0.25,3,on,off,0,off,CONT,0
 
 
 window,on,0.15
-message,人型厄災,……新たなる厄災の、降誕を！,301201000,mcv_1001060801_037_01,chara_7
+message,人型厄災,<size=32>...The birth of a new Calamity!<br> ,301201000,mcv_1001060801_037_01,chara_7
 
 window,off
 wait,0.15
@@ -1906,9 +1906,9 @@ asynctransitionFade,Tra03,in,black,0,STOP,1
 waitorclick,0.5
 
 window,on,0.15
-message,,人型厄災の周辺が濃い瘴気に包まれる。
+message,,<size=32>Dense miasma envelops the Humanoid Calamity.<br> 
 
-message,<user>,これは……！
+message,<user>,<size=32>What is this...!<br> 
 
 window,off
 wait,0.15
@@ -1940,9 +1940,9 @@ asyncfade,In,Black,1,STOP,1
 waitorclick,2.5
 
 window,on,0.15
-message,,瘴気が晴れた時、そこに立っていたのは、<br>光の翼を持つ、天使の姿をした『厄災』だった。
+message,,<size=32>When the miasma clears， standing there                   <br><size=32>is a 'Calamity' in the form of a winged angel.<br> 
 
-message,,その姿は神々しいほどに美しいのに、<br>その瞳は、どこまでも昏く、そして空虚だった。
+message,,<size=32>Its form is divinely beautiful，                          <br><size=32>yet its eyes are endlessly dark and hollow.<br> 
 
 window,off
 bgmstop,bgmtag1_2,0.5

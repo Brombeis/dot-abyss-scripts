@@ -36,7 +36,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
@@ -45,7 +45,7 @@ bgmplay,bgmtag1_1,bgm0035,0.75,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――アーデルハイトの研究所</size>,,,on
+messageTextCenter,,<size=48>--Adelheid's Research Lab</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -86,7 +86,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ゴレイヌ,うおおおおお！　ありがとうアーデル姐さん！,2037001,mcv_1001060201_001_01,chara_1
+message,ゴレイヌ,<size=32>WHOOOA! Thanks， Sis Adelheid!<br> ,2037001,mcv_1001060201_001_01,chara_1
 
 window,off
 wait,0.15
@@ -137,9 +137,9 @@ asynccharaemo,chara_2,Flower,CONT,0
 
 
 window,on,0.15
-message,ロジー,うぅ、良かったね、良かったね助手くぅん……！<br>アーデルハイト、本当にありがとう……感謝してもし切れないよぉ！,2036001,mcv_1001060201_002_01,chara_2
+message,ロジー,<size=32>Sniff， I'm so glad， so glad...!                          <br><size=32>Adelheid， I can't thank you enough...!<br> ,2036001,mcv_1001060201_002_01,chara_2
 
-message,<user>,さすがアーデルハイトだ。完全に元通りじゃないか。<br>さすが天才科学者だな。
+message,<user>,<size=32>Impressive， Adelheid. Good as new.                       <br><size=32>Truly a genius scientist.<br> 
 
 window,off
 wait,0.15
@@ -184,7 +184,7 @@ asynccharaemo,chara_3,Elated,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,……天才兼変態科学者です。,108701000G,mcv_1001060201_003_01,chara_3
+message,アーデルハイト,<size=32>...Genius and eccentric scientist.<br> ,108701000G,mcv_1001060201_003_01,chara_3
 
 asyncjump,CHARA,chara_3,30,0.25,1,off,0,CONT
 
@@ -193,7 +193,7 @@ asyncseplay,setag1_4,se4800022,0,1,CONT,0
 asynccharaemo,chara_3,Speak,CONT,0
 
 
-message,アーデルハイト,今回、私も新鮮な経験をすることができましたから。<br>自我のあるロボットなんて、触れる機会はそうそうありませんし。,108701000G,mcv_1001060201_004_01,chara_3
+message,アーデルハイト,<size=32>This was a fresh experience for me too.                  <br><size=32>Self-aware robots are a rare encounter.<br> ,108701000G,mcv_1001060201_004_01,chara_3
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -204,7 +204,7 @@ asyncseplay,setag1_5,se4800006,0,1,CONT,0
 asynccharaemo,chara_3,Trouble,CONT,0
 
 
-message,アーデルハイト,先に記憶回路の再起動をしてしまったせいで、<br>うるさくてうるさくてしょうがありませんでしたが……,108701000G,mcv_1001060201_005_01,chara_3
+message,アーデルハイト,<size=32>Rebooting the memory circuits first meant                <br><size=32>he wouldn't stop talking， though...<br> ,108701000G,mcv_1001060201_005_01,chara_3
 
 window,off
 wait,0.15
@@ -248,7 +248,7 @@ asynccharaemo,chara_4,Speak,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,そっか、この子にも人工知能、ついてるんだよね……,106601000G,mcv_1001060201_006_01,chara_4
+message,ヒマリ,<size=32>Right， he has an AI too...<br> ,106601000G,mcv_1001060201_006_01,chara_4
 
 asynccharaface,chara_5,FaceHappy,CONT,0
 
@@ -259,7 +259,7 @@ asyncseplay,setag1_7,se4800004,0,1,CONT,0
 asynccharaemo,chara_5,Laugh,CONT,0
 
 
-message,クルル,ゴレイヌ、ず～～っと喋ってそうだもんね～……,106701000G,mcv_1001060201_007_01,chara_5
+message,クルル,<size=32>Goleinu would never stop talking~...<br> ,106701000G,mcv_1001060201_007_01,chara_5
 
 window,off
 wait,0.15
@@ -316,7 +316,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,ゴレイヌ,いやぁ～、それがオレ様の長所だからなぁ～。,2037001,mcv_1001060201_008_01,chara_1
+message,ゴレイヌ,<size=32>Well yeah~， that's my best quality!<br> ,2037001,mcv_1001060201_008_01,chara_1
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -327,7 +327,7 @@ asyncseplay,setag1_9,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,ロジー,ごめん～～！<br>助手くんがとんだご迷惑を～～～！,2036001,mcv_1001060201_009_01,chara_2
+message,ロジー,<size=32>Sorry~~!                                                 <br><size=32>My assistant caused so much trouble~~!<br> ,2036001,mcv_1001060201_009_01,chara_2
 
 window,off
 wait,0.15
@@ -376,7 +376,7 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,いえいえ。<br>おかげで楽しい改造ができましたからね。,108701000G,mcv_1001060201_010_01,chara_3
+message,アーデルハイト,<size=32>Not at all.                                              <br><size=32>It gave me a chance for fun modifications.<br> ,108701000G,mcv_1001060201_010_01,chara_3
 
 window,off
 wait,0.15
@@ -421,7 +421,7 @@ asynccharaemo,chara_7,Question,CONT,0
 
 
 window,on,0.15
-message,ソフィア,改造……？,106501000G,mcv_1001060201_011_01,chara_7
+message,ソフィア,<size=32>Modifications...?<br> ,106501000G,mcv_1001060201_011_01,chara_7
 
 asyncjump,CHARA,chara_6,30,0.25,1,off,0,CONT
 
@@ -430,7 +430,7 @@ asyncseplay,setag1_12,se4800008,0,1,CONT,0
 asynccharaemo,chara_6,Sweat,CONT,0
 
 
-message,ベリサ,改造って何～？<br>修理したんじゃないの～？,100201000G,mcv_1001060201_012_01,chara_6
+message,ベリサ,<size=32>Modifications? What do you mean~?                        <br><size=32>I thought you just repaired him~?<br> ,100201000G,mcv_1001060201_012_01,chara_6
 
 window,off
 wait,0.15
@@ -479,7 +479,7 @@ asynccharaemo,chara_3,Speak,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,もちろん修理はしましたよ。ですが、私は科学者であり発明家。<br>そこに挑戦できる土壌がある以上、新たな技術を詰め込んでしまう生き物です。,108701000G,mcv_1001060201_013_01,chara_3
+message,アーデルハイト,<size=32>Of course I repaired him. But as a scientist             <br><size=32>and inventor， I can't resist adding new tech.<br> ,108701000G,mcv_1001060201_013_01,chara_3
 
 asynccharaface,chara_3,FaceHappy,CONT,0
 
@@ -490,7 +490,7 @@ asyncseplay,setag1_14,se4800003,0,1,CONT,0
 asynccharaemo,chara_3,Twinkle,CONT,0
 
 
-message,アーデルハイト,ですので、<br>ゴレイヌさんにはいくつかの追加機能を実装しておきました。,108701000G,mcv_1001060201_014_01,chara_3
+message,アーデルハイト,<size=32>So I've implemented a few                                <br><size=32>extra features for Goleinu.<br> ,108701000G,mcv_1001060201_014_01,chara_3
 
 window,off
 wait,0.15
@@ -546,7 +546,7 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ロジー,いくつかの追加機能！？,2036001,mcv_1001060201_015_01,chara_2
+message,ロジー,<size=32>Extra features!?<br> ,2036001,mcv_1001060201_015_01,chara_2
 
 window,off
 wait,0.15
@@ -596,7 +596,7 @@ asynccharaemo,chara_3,Speak,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,はい。追加機能その１、<br>目からビームが出ます。,108701000G,mcv_1001060201_016_01,chara_3
+message,アーデルハイト,<size=32>Yes. Extra feature number one:                           <br><size=32>eye beams.<br> ,108701000G,mcv_1001060201_016_01,chara_3
 
 window,off
 wait,0.15
@@ -652,7 +652,7 @@ asynccharaemo,chara_2,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ロジー,目からビーム～～！？,2036001,mcv_1001060201_017_01,chara_2
+message,ロジー,<size=32>Eye beams~~!?<br> ,2036001,mcv_1001060201_017_01,chara_2
 
 window,off
 wait,0.15
@@ -701,7 +701,7 @@ asynccharaemo,chara_3,Elated,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,追加機能その２、<br>ロケットパンチで腕が飛んでいきます。,108701000G,mcv_1001060201_018_01,chara_3
+message,アーデルハイト,<size=32>Extra feature number two:                                <br><size=32>rocket punch. The arm launches off.<br> ,108701000G,mcv_1001060201_018_01,chara_3
 
 window,off
 wait,0.15
@@ -757,7 +757,7 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ロジー,ロケットパンチ～～～！？,2036001,mcv_1001060201_019_01,chara_2
+message,ロジー,<size=32>Rocket punch~~~!?<br> ,2036001,mcv_1001060201_019_01,chara_2
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -768,7 +768,7 @@ asyncseplay,setag1_20,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ゴレイヌ,うおおおお！　まさに漢のロマンだ！<br>ありがとうアーデル姐さん！　アーデル姐さんの科学力は全宇宙一だぜ！,2037001,mcv_1001060201_020_01,chara_1
+message,ゴレイヌ,<size=32>WHOAAA! A man's ultimate dream!                          <br><size=32>Thanks， Sis! Best scientist in the universe!<br> ,2037001,mcv_1001060201_020_01,chara_1
 
 window,off
 wait,0.15
@@ -826,7 +826,7 @@ asynccharaemo,chara_3,Elated,STOP,4
 
 
 window,on,0.15
-message,アーデルハイト,追加しろ、追加しろ、とうるさいもので……。<br>まぁ、オプション料金は当然いただきますけどね。,108701000G,mcv_1001060201_021_01,chara_3
+message,アーデルハイト,<size=32>He kept begging me to add more and more...               <br><size=32>The upgrades will cost extra， naturally.<br> ,108701000G,mcv_1001060201_021_01,chara_3
 
 window,off
 wait,0.15
@@ -882,9 +882,9 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,ロジー,お、お金はなんとか工面するからっ！,2036001,mcv_1001060201_022_01,chara_2
+message,ロジー,<size=32>I-I'll scrape together the money somehow!<br> ,2036001,mcv_1001060201_022_01,chara_2
 
-message,<user>,本当にお金、大丈夫なのか？
+message,<user>,<size=32>Are you really okay on money?<br> 
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -895,7 +895,7 @@ asyncseplay,setag1_24,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,ロジー,うん、きっと大丈夫！<br>アタシには心強いパトロンがついてるからね～！,2036001,mcv_1001060201_023_01,chara_2
+message,ロジー,<size=32>Yeah， I'll be fine!                                      <br><size=32>I've got a generous patron backing me~!<br> ,2036001,mcv_1001060201_023_01,chara_2
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -906,7 +906,7 @@ asyncseplay,setag1_25,se4800003,0,1,CONT,0
 asynccharaemo,chara_2,Twinkle,CONT,0
 
 
-message,ロジー,とにかく、助手くんがスーパー助手くんになって帰ってきて良かったぁ！<br>良かったねえ、これで敵なしだよ助手くん！,2036001,mcv_1001060201_024_01,chara_2
+message,ロジー,<size=32>I'm so glad he came back as Super Goleinu!               <br><size=32>You're invincible now!<br> ,2036001,mcv_1001060201_024_01,chara_2
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -917,7 +917,7 @@ asyncseplay,setag1_26,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ゴレイヌ,くっくっく。教授にまで褒められちまった。今日は最高の日だ！<br>アーデル姐さんに要望を出しといて良かったぜ！,2037001,mcv_1001060201_025_01,chara_1
+message,ゴレイヌ,<size=32>Heh heh heh. Even the Professor praised me!              <br><size=32>Best day ever! Glad I asked Sis for upgrades!<br> ,2037001,mcv_1001060201_025_01,chara_1
 
 window,off
 wait,0.15
@@ -967,7 +967,7 @@ asynccharaemo,chara_3,Speak,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,遠隔攻撃の機能を付けろ付けろとうるさいもので。,108701000G,mcv_1001060201_026_01,chara_3
+message,アーデルハイト,<size=32>He kept demanding ranged attack features.<br> ,108701000G,mcv_1001060201_026_01,chara_3
 
 window,off
 wait,0.15
@@ -1023,7 +1023,7 @@ asynccharaemo,chara_2,Question,CONT,0
 
 
 window,on,0.15
-message,ロジー,遠隔攻撃……？,2036001,mcv_1001060201_027_01,chara_2
+message,ロジー,<size=32>Ranged attacks...?<br> ,2036001,mcv_1001060201_027_01,chara_2
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1034,7 +1034,7 @@ asyncseplay,setag1_29,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,ゴレイヌ,おうよ！　教授を泣かせたアイツをぶん殴ってやるためだ！<br>次会ったらボッコボコにぶっ飛ばしてやる！,2037001,mcv_1001060201_028_01,chara_1
+message,ゴレイヌ,<size=32>Hell yeah! To smash the guy who made the                 <br><size=32>Professor cry! Next time I'll wreck him!<br> ,2037001,mcv_1001060201_028_01,chara_1
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -1045,7 +1045,7 @@ asyncseplay,setag1_30,se4800019,0,1,CONT,0
 asynccharaemo,chara_2,Elated,CONT,0
 
 
-message,ロジー,アイツかぁ～、よし！<br>今度見つけたらリベンジだ！,2036001,mcv_1001060201_029_01,chara_2
+message,ロジー,<size=32>That guy， huh~. Alright!                                 <br><size=32>Next time we find him， it's payback!<br> ,2036001,mcv_1001060201_029_01,chara_2
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1056,7 +1056,7 @@ asyncseplay,setag1_31,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ゴレイヌ,おうよ！<br>スーパーゴレイヌ様の力、見せてやるぜぇ！,2037001,mcv_1001060201_030_01,chara_1
+message,ゴレイヌ,<size=32>You bet!                                                 <br><size=32>Super Goleinu's power will blow him away!<br> ,2037001,mcv_1001060201_030_01,chara_1
 
 window,off
 wait,0.15
@@ -1105,7 +1105,7 @@ asynccharaemo,chara_2,Flower,CONT,0
 
 
 window,on,0.15
-message,ロジー,改めてお礼を言うよ、アーデルハイト。<br>アタシの大切な相棒を救ってくれて……本当にありがとう！,2036001,mcv_1001060201_031_01,chara_2
+message,ロジー,<size=32>Thank you again， Adelheid.                               <br><size=32>For saving my precious partner... truly.<br> ,2036001,mcv_1001060201_031_01,chara_2
 
 window,off
 wait,0.15
@@ -1148,7 +1148,7 @@ asynccharaemo,chara_3,Speak,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,いいえ。これぐらいお安い御用ですよ。,108701000G,mcv_1001060201_032_01,chara_3
+message,アーデルハイト,<size=32>Think nothing of it.<br> ,108701000G,mcv_1001060201_032_01,chara_3
 
 window,off
 wait,0.15
@@ -1178,7 +1178,7 @@ waitorclick,1
 asyncseplay,setag1_34,se4300003,0,1,CONT,0
 
 window,on,0.15
-message,,――ガチャ！
+message,,<size=32>--*Click!*<br> 
 
 window,off
 wait,0.15
@@ -1204,7 +1204,7 @@ asynccharaemo,chara_8,Laugh,CONT,0
 
 
 window,on,0.15
-message,マリナ,失礼しまぁ～～す♪,100301000G,mcv_1001060201_033_01,chara_8
+message,マリナ,<size=32>Excuse me~~♪<br> ,100301000G,mcv_1001060201_033_01,chara_8
 
 window,off
 wait,0.15
@@ -1257,7 +1257,7 @@ asynccharaemo,chara_6,Question,CONT,0
 
 
 window,on,0.15
-message,ベリサ,あっ、マリナじゃ～ん！　こないだ突然『ひらめいた！』とか叫んで<br>猛ダッシュでどっか走って行ったけどなんだったの～？,100201000G,mcv_1001060201_034_01,chara_6
+message,ベリサ,<size=32>Oh， Marina~! You screamed 'Eureka!' and                  <br><size=32>ran off the other day. What was that about~?<br> ,100201000G,mcv_1001060201_034_01,chara_6
 
 window,off
 wait,0.15
@@ -1315,7 +1315,7 @@ asynccharaemo,chara_4,Speak,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,ヒマリも聞いた、　<br>『マリナ城の築城が現実になるかも～～！』って。,106601000G,mcv_1001060201_035_01,chara_4
+message,ヒマリ,<size=32>I heard it too.                                          <br><size=32>'Marina Castle might actually happen~~!'<br> ,106601000G,mcv_1001060201_035_01,chara_4
 
 asynccharaface,chara_5,FaceHappy,CONT,0
 
@@ -1326,7 +1326,7 @@ asyncseplay,setag1_38,se4800004,0,1,CONT,0
 asynccharaemo,chara_5,Laugh,CONT,0
 
 
-message,クルル,マリナすっご～い！<br>お城作っちゃったの～？,106701000G,mcv_1001060201_036_01,chara_5
+message,クルル,<size=32>Marina， amazing~!                                        <br><size=32>Did you build a castle~?<br> ,106701000G,mcv_1001060201_036_01,chara_5
 
 window,off
 wait,0.15
@@ -1375,9 +1375,9 @@ asynccharaemo,chara_8,Sweat,CONT,0
 
 
 window,on,0.15
-message,マリナ,いやぁ～……残念ながら、その夢は……<br>遠のいちゃったかもですぅ……,100301000G,mcv_1001060201_037_01,chara_8
+message,マリナ,<size=32>Well~... unfortunately， that dream                       <br><size=32>might've gotten further away...<br> ,100301000G,mcv_1001060201_037_01,chara_8
 
-message,<user>,何かあったのか？
+message,<user>,<size=32>Something happen?<br> 
 
 asyncshake,CHARA,chara_8,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -1386,7 +1386,7 @@ asyncseplay,setag1_40,se4800006,0,1,CONT,0
 asynccharaemo,chara_8,Trouble,CONT,0
 
 
-message,マリナ,実は、さっきエルドラーナのアウラ様にマーケットで出会ったんですよぉ～。<br>そしたら、催眠石が大量に闇市に流れてるって聞きましてぇ～……,100301000G,mcv_1001060201_038_01,chara_8
+message,マリナ,<size=32>I bumped into Lady Aura at the market~.                  <br><size=32>She said Hypnosis Stones flood the black market...<br> ,100301000G,mcv_1001060201_038_01,chara_8
 
 window,off
 wait,0.15
@@ -1442,7 +1442,7 @@ asynccharaemo,chara_2,Shock,CONT,0
 
 
 window,on,0.15
-message,ロジー,アウラ！？<br>もしかして、お姉ちゃんが前線基地に来てるのっ！？,2036001,mcv_1001060201_039_01,chara_2
+message,ロジー,<size=32>Aura!?                                                   <br><size=32>Is my big sister at the base!?<br> ,2036001,mcv_1001060201_039_01,chara_2
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1453,7 +1453,7 @@ asyncseplay,setag1_42,se4800002,0,1,CONT,0
 asynccharaemo,chara_1,Heart,CONT,0
 
 
-message,ゴレイヌ,おぉぉ～～！<br>あのムチムチプリンな姉上さまがっ！？,2037001,mcv_1001060201_040_01,chara_1
+message,ゴレイヌ,<size=32>Oooh~~!                                                  <br><size=32>That gorgeous big sis is here!?<br> ,2037001,mcv_1001060201_040_01,chara_1
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -1464,7 +1464,7 @@ asyncseplay,setag1_43,se4800001,0,1,CONT,0
 asynccharaemo,chara_2,Anger,CONT,0
 
 
-message,ロジー,なんで助手くんが、お姉ちゃんで興奮してんのよっ！,2036001,mcv_1001060201_041_01,chara_2
+message,ロジー,<size=32>Why are YOU getting excited about her!?<br> ,2036001,mcv_1001060201_041_01,chara_2
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1475,7 +1475,7 @@ asyncseplay,setag1_44,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ゴレイヌ,いやぁ～、教授と毎日いると、ないものねだりと言いますか……,2037001,mcv_1001060201_042_01,chara_1
+message,ゴレイヌ,<size=32>Well~， being with the Professor every day，               <br><size=32>you start wanting what you don't have...<br> ,2037001,mcv_1001060201_042_01,chara_1
 
 window,off
 wait,0.15
@@ -1526,7 +1526,7 @@ asynccharaemo,chara_2,BePeevish,CONT,0
 
 
 window,on,0.15
-message,ロジー,はぁっ！？<br>アーデルハイトに頼んでもっかいバラバラにしてもらおうか！？,2036001,mcv_1001060201_043_01,chara_2
+message,ロジー,<size=32>Hah!?                                                    <br><size=32>Want Adelheid to take you apart again!?<br> ,2036001,mcv_1001060201_043_01,chara_2
 
 window,off
 wait,0.15
@@ -1583,9 +1583,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ゴレイヌ,それだけはゴカンベンを～～！,2037001,mcv_1001060201_044_01,chara_1
+message,ゴレイヌ,<size=32>Anything but that~~!<br> ,2037001,mcv_1001060201_044_01,chara_1
 
-message,<user>,お姉ちゃんって言ったな？<br>ロジーとアウラは姉妹なのか！？
+message,<user>,<size=32>Did you say big sister?                                  <br><size=32>Logy and Aura are sisters!?<br> 
 
 asynccharaface,chara_2,FaceShy,CONT,0
 
@@ -1596,7 +1596,7 @@ asyncseplay,setag1_47,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,ロジー,うん……まぁね。<br>アタシが家出しちゃってから、全然会ってないけどぉ～……,2036001,mcv_1001060201_045_01,chara_2
+message,ロジー,<size=32>Yeah... well.                                            <br><size=32>Haven't seen her since I ran away from home...<br> ,2036001,mcv_1001060201_045_01,chara_2
 
 window,off
 wait,0.15
@@ -1645,7 +1645,7 @@ asynccharaemo,chara_8,Sweat,CONT,0
 
 
 window,on,0.15
-message,マリナ,アウラ様、ロジーちゃんのこと探してましたよぉ～？<br>見つけたら、お仕置きしてやる～～ってカンカンでしたぁ……,100301000G,mcv_1001060201_046_01,chara_8
+message,マリナ,<size=32>Lady Aura was looking for you~.                          <br><size=32>She was furious-- said she'd punish you~~...<br> ,100301000G,mcv_1001060201_046_01,chara_8
 
 window,off
 wait,0.15
@@ -1700,7 +1700,7 @@ asynccharaemo,chara_2,Dull,CONT,0
 
 
 window,on,0.15
-message,ロジー,えぇぇ～～～っ！　やっばいかも……<br>お姉ちゃんのお仕置き、半端ないからなぁ～……,2036001,mcv_1001060201_047_01,chara_2
+message,ロジー,<size=32>Eeeek~~~! That's bad...                                  <br><size=32>Sis's punishments are no joke...<br> ,2036001,mcv_1001060201_047_01,chara_2
 
 window,off
 wait,0.15
@@ -1749,7 +1749,7 @@ asynccharaemo,chara_8,Sweat,CONT,0
 
 
 window,on,0.15
-message,マリナ,はい。本当に半端ないことをしてやるって、そう言ってましたぁ～……,100301000G,mcv_1001060201_048_01,chara_8
+message,マリナ,<size=32>Yeah. She said she'd do something truly                  <br><size=32>extreme~...<br> ,100301000G,mcv_1001060201_048_01,chara_8
 
 window,off
 wait,0.15
@@ -1792,7 +1792,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,ロジー,ひぃぃぃぃ～～～！,2036001,mcv_1001060201_049_01,chara_2
+message,ロジー,<size=32>Eeeeeek~~~!<br> ,2036001,mcv_1001060201_049_01,chara_2
 
 window,off
 wait,0.15
@@ -1834,7 +1834,7 @@ asyncseplay,setag1_52,se4800022,0,1,STOP,0.2
 asynccharaemo,chara_8,Speak,STOP,0.2
 
 window,on,0.15
-message,<user>,マリナ、催眠石についてはエルドラーナ側から数日前に調査依頼が来てて、<br>すでに調査は進めていたんだ。
+message,<user>,<size=32>Marina， Eldorana sent us an investigation                <br><size=32>request on Hypnosis Stones days ago.<br> 
 
 asyncjump,CHARA,chara_8,-30,0.25,1,off,0,CONT
 
@@ -1843,9 +1843,9 @@ asyncseplay,setag1_53,se4800008,0,1,CONT,0
 asynccharaemo,chara_8,Sweat,CONT,0
 
 
-message,マリナ,え？　そ、そうなんですね？,100301000G,mcv_1001060201_050_01,chara_8
+message,マリナ,<size=32>Oh? I-is that so?<br> ,100301000G,mcv_1001060201_050_01,chara_8
 
-message,<user>,アウラが直接こっちまで来てるってことは、<br>よっぽど深刻な状況なんだろうな。
+message,<user>,<size=32>If Aura came here in person，                             <br><size=32>the situation must be quite serious.<br> 
 
 asynccharaface,chara_8,FaceSad,CONT,0
 
@@ -1856,11 +1856,11 @@ asyncseplay,setag1_54,se4800006,0,1,CONT,0
 asynccharaemo,chara_8,Trouble,CONT,0
 
 
-message,マリナ,そうみたいですねぇ～。,100301000G,mcv_1001060201_051_01,chara_8
+message,マリナ,<size=32>Seems like it~.<br> ,100301000G,mcv_1001060201_051_01,chara_8
 
-message,<user>,すでにアリシアから調査報告が上がってきている。<br>催眠石を闇市に流通させている犯人は……
+message,<user>,<size=32>Alicia already submitted a report.                       <br><size=32>The ones distributing the stones are...<br> 
 
-message,<user>,俺たちが大穴で出会った、<br>あの盗賊団の残党どもらしい。
+message,<user>,<size=32>the remnants of that bandit gang                         <br><size=32>we encountered in the Abyss.<br> 
 
 window,off
 wait,0.15
@@ -1915,7 +1915,7 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,ヒマリを攫おうとした……あの人たち？,106601000G,mcv_1001060201_052_01,chara_4
+message,ヒマリ,<size=32>The ones who tried to kidnap me...?<br> ,106601000G,mcv_1001060201_052_01,chara_4
 
 window,off
 wait,0.15
@@ -1972,7 +1972,7 @@ asynccharaemo,chara_7,Anger,CONT,0
 
 
 window,on,0.15
-message,ソフィア,あの連中ならやりかねないわね。<br>悪知恵の働く連中だったし。,106501000G,mcv_1001060201_053_01,chara_7
+message,ソフィア,<size=32>Those guys would do something like that.                 <br><size=32>They were always cunning.<br> ,106501000G,mcv_1001060201_053_01,chara_7
 
 asyncjump,CHARA,chara_6,30,0.25,1,off,0,CONT
 
@@ -1981,7 +1981,7 @@ asyncseplay,setag1_57,se4800016,0,1,CONT,0
 asynccharaemo,chara_6,BePeevish,CONT,0
 
 
-message,ベリサ,催眠石横流しして一儲けしようだなんて、とんでもない連中だねぇ～！<br>まったく！,100201000G,mcv_1001060201_054_01,chara_6
+message,ベリサ,<size=32>Smuggling Hypnosis Stones for profit!?                   <br><size=32>What awful people~!<br> ,100201000G,mcv_1001060201_054_01,chara_6
 
 window,off
 wait,0.15
@@ -2030,7 +2030,7 @@ asynccharaemo,chara_8,Panic,CONT,0
 
 
 window,on,0.15
-message,マリナ,そ、そーです……ねぇ～。,100301000G,mcv_1001060201_055_01,chara_8
+message,マリナ,<size=32>Y-yeah... right~.<br> ,100301000G,mcv_1001060201_055_01,chara_8
 
 window,off
 wait,0.15
@@ -2056,7 +2056,7 @@ asynccharaemo,chara_8,Dull,CONT,0
 
 
 window,on,0.15
-message,マリナ,（言えない……、催眠石で新しいビジネスやろうとしてたとか、<br>もう、絶対に言えない……）,100301000G,mcv_1001060201_056_01,chara_8
+message,マリナ,<size=32>(I can never tell them... that I almost                  <br><size=32>started a Hypnosis Stone business...)<br> ,100301000G,mcv_1001060201_056_01,chara_8
 
 window,off
 wait,0.15
@@ -2074,7 +2074,7 @@ asynccrossfade,0.1,0,0,1,1,STOP
 
 
 window,on,0.15
-message,<user>,アウラが直接来てるってことは、<br>もうすぐ正式に依頼が来るだろう。
+message,<user>,<size=32>If Aura came in person，                                  <br><size=32>an official request should come soon.<br> 
 
 window,off
 wait,0.15
@@ -2129,9 +2129,9 @@ asynccharaemo,chara_6,Shock,CONT,0
 
 
 window,on,0.15
-message,ベリサ,盗賊団をとっちめるってこと～！？,100201000G,mcv_1001060201_057_01,chara_6
+message,ベリサ,<size=32>We're gonna take down the bandits~!?<br> ,100201000G,mcv_1001060201_057_01,chara_6
 
-message,<user>,もちろん現行犯逮捕も重要だが、<br>催眠石の鉱脈自体をなんとかしないと根本的な解決はできないだろうな。
+message,<user>,<size=32>Arrests matter， but we need to deal                      <br><size=32>with the source to truly solve this.<br> 
 
 window,off
 wait,0.15
@@ -2151,11 +2151,11 @@ wait,0.5
 
 
 window,on,0.15
-message,ソフィア,分かった。<br>こないだ催眠石のあった火山の階層に向かうってことね。,106501000G,mcv_1001060201_058_01,chara_7
+message,ソフィア,<size=32>Got it.                                                  <br><size=32>We head to the volcano stratum with the stones.<br> ,106501000G,mcv_1001060201_058_01,chara_7
 
-message,<user>,どうなんだろうな？<br>もしかしたら催眠石の鉱脈は別の階層にもある可能性はある。
+message,<user>,<size=32>Hard to say.                                             <br><size=32>There could be deposits in other strata too.<br> 
 
-message,<user>,盗賊共を見つけ、尾行する。<br>やつらの活動領域を徹底的に調べる必要がありそうだ。
+message,<user>,<size=32>We find the bandits and tail them.                       <br><size=32>We need to map out their territory thoroughly.<br> 
 
 window,off
 wait,0.15
@@ -2213,7 +2213,7 @@ asynccharaemo,chara_5,Twinkle,CONT,0
 
 
 window,on,0.15
-message,クルル,クルル、足音立てずにあるくの得意だよぉ～！<br>尾行ならまかせてっ！,106701000G,mcv_1001060201_059_01,chara_5
+message,クルル,<size=32>Kururu's great at walking without a sound~!              <br><size=32>Leave the tailing to me~!<br> ,106701000G,mcv_1001060201_059_01,chara_5
 
 window,off
 wait,0.15
@@ -2262,7 +2262,7 @@ asynccharaemo,chara_8,Panic,CONT,0
 
 
 window,on,0.15
-message,マリナ,え、えっと……わたしも行きますよぉ～！<br>こ、これは、その……平和な市場を守るための戦いですから！,100301000G,mcv_1001060201_060_01,chara_8
+message,マリナ,<size=32>U-um... I'll come too~!                                  <br><size=32>Th-this is a fight to protect fair markets!<br> ,100301000G,mcv_1001060201_060_01,chara_8
 
 window,off
 wait,0.15
@@ -2318,7 +2318,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,ロジー,アタシたちも行くよ！<br>助手くんを修理してくれたお礼をさせて！,2036001,mcv_1001060201_061_01,chara_2
+message,ロジー,<size=32>We're coming too!                                        <br><size=32>Let us repay you for fixing my assistant!<br> ,2036001,mcv_1001060201_061_01,chara_2
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -2329,7 +2329,7 @@ asyncseplay,setag1_65,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ゴレイヌ,オレ様も行くぜ！<br>グレードアップしたオレ様がいれば百人力だろ！？,2037001,mcv_1001060201_062_01,chara_1
+message,ゴレイヌ,<size=32>I'm going too!                                           <br><size=32>With my upgrades， I'm worth a hundred men!<br> ,2037001,mcv_1001060201_062_01,chara_1
 
 window,off
 wait,0.15
@@ -2386,7 +2386,7 @@ asynccharaemo,chara_6,Sweat,CONT,0
 
 
 window,on,0.15
-message,ベリサ,え～っと……ロジーは、<br>そのこっわ～～いお姉さんから逃げたいだけじゃないの？,100201000G,mcv_1001060201_063_01,chara_6
+message,ベリサ,<size=32>Um~... Logy，                                             <br><size=32>you just wanna hide from your scary sister~?<br> ,100201000G,mcv_1001060201_063_01,chara_6
 
 window,off
 wait,0.15
@@ -2435,9 +2435,9 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,ロジー,ま、まぁ……それも、あると言えば、ある。,2036001,mcv_1001060201_064_01,chara_2
+message,ロジー,<size=32>W-well... that's... partly true.<br> ,2036001,mcv_1001060201_064_01,chara_2
 
-message,<user>,分かった。戦力は多いに越した事はないからな。<br>だが今回は尾行と調査がメインだ。余計な行動は慎んでくれ。
+message,<user>,<size=32>Fine. The more hands the better.                         <br><size=32>But this is recon. No reckless moves.<br> 
 
 window,off
 wait,0.15
@@ -2494,7 +2494,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,ロジー,了解っ！　司令官殿っ！,2036001,mcv_1001060201_065_01,chara_2
+message,ロジー,<size=32>Roger that， Commander!<br> ,2036001,mcv_1001060201_065_01,chara_2
 
 window,off
 wait,0.15
@@ -2546,7 +2546,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,ゴレイヌ,進化したオレ様の新たなるパゥワァーを思い知らせてやるぜぇ～～！,2037001,mcv_1001060201_066_01,chara_1
+message,ゴレイヌ,<size=32>Behold the upgraded Super Goleinu's                      <br><size=32>new POWEEEER!<br> ,2037001,mcv_1001060201_066_01,chara_1
 
 window,off
 wait,0.15
@@ -2604,7 +2604,7 @@ asynccharaemo,chara_2,BePeevish,CONT,0
 
 
 window,on,0.15
-message,ロジー,助手くん、話聞いてたぁ？<br>今回は、尾行と調査！　いい？,2036001,mcv_1001060201_067_01,chara_2
+message,ロジー,<size=32>Were you even listening?                                 <br><size=32>It's recon and surveillance! Got it?<br> ,2036001,mcv_1001060201_067_01,chara_2
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -2615,7 +2615,7 @@ asyncseplay,setag1_71,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ゴレイヌ,ぐぬぬぬ……ビームとロケットパンチはお預けかぁ～～～！！！！,2037001,mcv_1001060201_068_01,chara_1
+message,ゴレイヌ,<size=32>Grr... beams and rocket punch on hold~~~!!!!<br> ,2037001,mcv_1001060201_068_01,chara_1
 
 window,off
 wait,0.15
@@ -2672,7 +2672,7 @@ asynccharaemo,chara_7,Trouble,CONT,0
 
 
 window,on,0.15
-message,ソフィア,はぁ……なんか、またこの部隊に心配の種が増えた気がするんだけど……,106501000G,mcv_1001060201_069_01,chara_7
+message,ソフィア,<size=32>*Sigh*... feels like this squad just got                 <br><size=32>another handful to worry about...<br> ,106501000G,mcv_1001060201_069_01,chara_7
 
 window,off
 wait,0.15
@@ -2700,7 +2700,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,,こうして新たな戦力を加えた一行は、<br>新たな大穴への調査に向けて準備を進めることとなる。
+message,,<size=32>With new allies in tow， the group begins                 <br><size=32>preparing for their next Abyss expedition.<br> 
 
 window,off
 bgmstop,bgmtag1_1,0.5

@@ -34,14 +34,14 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――黒いタワー真下</size>,,,on
+messageTextCenter,,<size=48>--Beneath the Black Tower</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -50,7 +50,7 @@ wait,0.15
 bgmplay,bgmtag2_1,bgm0026,0.75,1
 
 window,on,0.15
-message,,巨大な黒い塔。その麓にたどり着いた<user>らは、<br>そこであの厄介な２人組と、再び鉢合わせることになる。
+message,,<size=32>At the base of the massive black tower，                  <br><size=32><user>'s group runs into the troublesome duo again.<br> 
 
 window,off
 wait,0.15
@@ -89,7 +89,7 @@ asynccharaemo,chara_2,Shock,CONT,0
 
 
 window,on,0.15
-message,ロジー,のわわわわ～っ！　ア、アンタたちぃ～～～！<br>い、生きてたのっ！？,2036001,mcv_1001050902_001_01,chara_2
+message,ロジー,<size=32>Whaaaat~!? Y-you guys~~~!                                <br><size=32>Y-you're alive!?<br> ,2036001,mcv_1001050902_001_01,chara_2
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -100,7 +100,7 @@ asyncseplay,setag2_2,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ゴレイヌ,教授……今の声色、なんか嬉しそうだったぞ！？,2037001,mcv_1001050902_002_01,chara_1
+message,ゴレイヌ,<size=32>Professor... you sounded happy just now!?<br> ,2037001,mcv_1001050902_002_01,chara_1
 
 asynccharaface,chara_2,FaceShy,CONT,0
 
@@ -111,9 +111,9 @@ asyncseplay,setag2_3,se4800001,0,1,CONT,0
 asynccharaemo,chara_2,Anger,CONT,0
 
 
-message,ロジー,はぁっ！？　助手くん何言ってんの！？　ちがうからね！<br>こいつらをアタシの手でとっちめられることが嬉しいだけだからっ！,2036001,mcv_1001050902_003_01,chara_2
+message,ロジー,<size=32>Huh!? What are you saying!? That's not it!               <br><size=32>I'm just glad I get to beat them up myself!<br> ,2036001,mcv_1001050902_003_01,chara_2
 
-message,<user>,お前たち、こんなとこで何してるんだ？<br>一番警備ロボットが集中してる場所だぞ！
+message,<user>,<size=32>What are you two doing here?                             <br><size=32>This is where the most security robots are!<br> 
 
 window,off
 wait,0.15
@@ -170,7 +170,7 @@ asynccharaemo,chara_1,Shock,STOP,8.88
 
 
 window,on,0.15
-message,ゴレイヌ,何してるって、見ての通り、困ってるに決まってるだろうが！<br>ここの地下にあったお宝が、この黒いタワーと一緒に上に……ムガムガ！,2037001,mcv_1001050902_004_01,chara_1
+message,ゴレイヌ,<size=32>What do you think!? We're stuck， obviously!              <br><size=32>The underground treasure went up with the tower--mmph!<br> ,2037001,mcv_1001050902_004_01,chara_1
 
 window,off
 wait,0.15
@@ -218,7 +218,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,,ゴレイヌが喋るのを、ロジーが慌てて止める。
+message,,<size=32>Logy hastily clamps Goleinu's mouth shut.<br> 
 
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
@@ -227,7 +227,7 @@ asyncseplay,setag2_6,se4800016,0,1,CONT,0
 asynccharaemo,chara_2,BePeevish,CONT,0
 
 
-message,ロジー,助手くん、お喋りしすぎるのダメ～っ！<br>次、余計なこと言ったら、マ・ジ・で、お仕置きだからね！,2036001,mcv_1001050902_005_01,chara_2
+message,ロジー,<size=32>No more blabbing!                                        <br><size=32>One more slip and you're punished for real!<br> ,2036001,mcv_1001050902_005_01,chara_2
 
 window,off
 wait,0.15
@@ -272,7 +272,7 @@ asynccharaemo,chara_4,Question,CONT,0
 
 
 window,on,0.15
-message,クルル,お宝が、上に……！？,106701000G,mcv_1001050902_006_01,chara_4
+message,クルル,<size=32>The treasure... went up...!?<br> ,106701000G,mcv_1001050902_006_01,chara_4
 
 window,off
 wait,0.15
@@ -323,7 +323,7 @@ asynccharaemo,chara_7,Sweat,CONT,0
 
 
 window,on,0.15
-message,マリナ,あのぉ～……皆さんが言ってた『お宝』って、<br>ヒマリちゃんが持ってるこの魔石のことじゃないんですかぁ？,100301000G,mcv_1001050902_007_01,chara_7
+message,マリナ,<size=32>Um~... isn't the 'treasure' you mentioned                <br><size=32>these magic stones Himari has~?<br> ,100301000G,mcv_1001050902_007_01,chara_7
 
 window,off
 wait,0.15
@@ -375,7 +375,7 @@ asyncseplay,setag2_9,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 window,on,0.15
-message,,ヒマリが鞄のファスナーを恐る恐る開き、<br>ちらりと３つの魂憶石をロジーたちに見せる。
+message,,<size=32>Himari nervously unzips her bag                          <br><size=32>and briefly shows the three Soul Memory Stones.<br> 
 
 window,off
 wait,0.15
@@ -426,7 +426,7 @@ asynccharaemo,chara_2,Shock,STOP,10.75
 
 
 window,on,0.15
-message,ロジー,はぁっ！？　そんな石っころに興味あるわけないじゃない！<br>アタシたちが見つけたのは、強そうな機械魔獣で……ハッ！,2036001,mcv_1001050902_008_01,chara_2
+message,ロジー,<size=32>Hah!? As if I'd care about some rocks!                   <br><size=32>What we found is a powerful mechanical beast--Ah!<br> ,2036001,mcv_1001050902_008_01,chara_2
 
 window,off
 wait,0.15
@@ -491,7 +491,7 @@ asynccharaemo,chara_5,Question,CONT,0
 
 
 window,on,0.15
-message,ソフィア,機械魔獣？　何よ、それ……,106501000G,mcv_1001050902_009_01,chara_5
+message,ソフィア,<size=32>A mechanical beast? What's that...<br> ,106501000G,mcv_1001050902_009_01,chara_5
 
 window,off
 wait,0.15
@@ -552,9 +552,9 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ゴレイヌ,今の、完全に教授が余計なこと言ったぞ！<br>これはオレ様がマジなお仕置きを教授にしちゃっていいってことかぁ～～！？,2037001,mcv_1001050902_010_01,chara_1
+message,ゴレイヌ,<size=32>That was totally YOU spilling the beans， Professor!      <br><size=32>Does that mean I get to punish you for real~~!?<br> ,2037001,mcv_1001050902_010_01,chara_1
 
-message,<user>,ふむ。要するに、お前らの狙ってた地下のお宝が、<br>このタワーの出現によって上にあがっちまったってことか？
+message,<user>,<size=32>Hmm. So the underground treasure you were after          <br><size=32>got pushed up when this tower appeared?<br> 
 
 asynccharaface,chara_2,FaceShy,CONT,0
 
@@ -565,7 +565,7 @@ asyncseplay,setag2_14,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,ロジー,え、えっと、えっと……！,2036001,mcv_1001050902_011_01,chara_2
+message,ロジー,<size=32>U-um， well， uh...!<br> ,2036001,mcv_1001050902_011_01,chara_2
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -577,7 +577,7 @@ asyncseplay,setag2_15,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ゴレイヌ,そういうことだ！<br>オレ様には飛行機能は備わってないからな！,2037001,mcv_1001050902_012_01,chara_1
+message,ゴレイヌ,<size=32>That's right!                                            <br><size=32>I don't have the ability to fly!<br> ,2037001,mcv_1001050902_012_01,chara_1
 
 window,off
 wait,0.15
@@ -645,7 +645,7 @@ asynccharaemo,chara_5,Speak,CONT,0
 
 
 window,on,0.15
-message,ソフィア,ねぇ、ここの地面、なんだか見覚えがない？,106501000G,mcv_1001050902_013_01,chara_5
+message,ソフィア,<size=32>Hey， doesn't this floor look familiar?<br> ,106501000G,mcv_1001050902_013_01,chara_5
 
 asynccharaface,chara_6,FaceFun,CONT,0
 
@@ -656,9 +656,9 @@ asyncseplay,setag2_17,se4800005,0,1,CONT,0
 asynccharaemo,chara_6,Flash,CONT,0
 
 
-message,ベリサ,そうそうっ！<br>アーデルハイトの研究所で見た、アレじゃない？,100201000G,mcv_1001050902_014_01,chara_6
+message,ベリサ,<size=32>Exactly!                                                 <br><size=32>Isn't it like what we saw in Adelheid's lab?<br> ,100201000G,mcv_1001050902_014_01,chara_6
 
-message,<user>,お前たちも気付いてたか。<br>まさか、アーデルハイトが応用した技術ってのが、ここにもあるとはな……
+message,<user>,<size=32>So you noticed too.                                      <br><size=32>Adelheid's tech being here... didn't expect that.<br> 
 
 window,off
 wait,0.15
@@ -720,9 +720,9 @@ asynccharaemo,chara_2,Dull,CONT,0
 
 
 window,on,0.15
-message,ロジー,はぁっ！？　何言ってるのアンタたち……,2036001,mcv_1001050902_015_01,chara_2
+message,ロジー,<size=32>Huh!? What are you people talking about...<br> ,2036001,mcv_1001050902_015_01,chara_2
 
-message,<user>,『リフト』だよ。使い方はアーデルハイトから教えてもらっている。<br>お前たち良かったな。そのお宝の場所まで辿り着くかもしれないぞ。
+message,<user>,<size=32>It's a 'Lift.' Adelheid taught us how to use it.         <br><size=32>Lucky you two. We might reach your treasure.<br> 
 
 bgmstop,bgmtag2_1,1.5,0
 
@@ -758,7 +758,7 @@ asynctransitionFade,Tra09,in,black,0.5,STOP,0.5
 waitorclick,1.5
 
 window,on,0.15
-message,,<user>が床に描かれている模様の一部に触れる。<br>すると足元から幾何学模様の光が床全体に広がっていく。
+message,,<size=32><user> touches part of the pattern on the floor.         <br><size=32>Geometric light spreads across the floor from below.<br> 
 
 window,off
 wait,0.15
@@ -788,7 +788,7 @@ asynctransitionFade,Tra17,in,black,0,STOP,1
 waitorclick,1.5
 
 window,on,0.15
-message,,視界が真っ白な光に包まれ、数秒にも満たないような永遠のような時間の後、<br>強烈な光が収まり、一行が立っていたのは――
+message,,<size=32>White light floods their vision. After what feels        <br><size=32>like an eternity yet mere seconds， it clears to reveal--<br> 
 
 window,off
 wait,0.15
@@ -835,7 +835,7 @@ asyncseplay,se2_1,se4700115,0,1,CONT
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――黒いタワー　展望室</size>,,,on
+messageTextCenter,,<size=48>--Black Tower Observation Deck</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -886,7 +886,7 @@ asynccharaemo,chara_3,Shock,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,何ここ……？<br>さっきの駅長室みたいに、色んな機械が……,106601000G,mcv_1001050902_016_01,chara_3
+message,ヒマリ,<size=32>What is this place...?                                   <br><size=32>Machines everywhere， like the station room...<br> ,106601000G,mcv_1001050902_016_01,chara_3
 
 window,off
 wait,0.15
@@ -956,7 +956,7 @@ asynccharaemo,chara_2,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ロジー,そうそう、ここ！　この部屋なの！<br>アタシが最初に見つけたお宝部屋は！,2036001,mcv_1001050902_017_01,chara_2
+message,ロジー,<size=32>Yes， yes! This room! This is it!                         <br><size=32>The treasure room I found first!<br> ,2036001,mcv_1001050902_017_01,chara_2
 
 window,off
 wait,0.15
@@ -1002,7 +1002,7 @@ asyncseplay,setag2_23,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 window,on,0.15
-message,,ロジーの興奮した声が響くが、ヒマリは、ただ目の前の光景に息を呑む。<br>かつて東京タワーに見学に来た時の展望室の面影は、どこにもなかったからだ。
+message,,<size=32>Logy's excited voice echoes， but Himari just gasps.      <br><size=32>No trace of the observation deck she once visited.<br> 
 
 asyncshake,CHARA,chara_3,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -1011,7 +1011,7 @@ asyncseplay,setag2_24,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,ヒマリ,なんで、ここに……、<br>こんなものが……！？,106601000G,mcv_1001050902_018_01,chara_3
+message,ヒマリ,<size=32>Why is this here...                                      <br><size=32>How can this be...!?<br> ,106601000G,mcv_1001050902_018_01,chara_3
 
 sestop,se2_1,1
 
@@ -1039,11 +1039,11 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,,前面を囲む窓ガラスは、今や巨大なモニターと化し、<br>無機質なデータや警告の文字を絶えず表示している。
+message,,<size=32>The surrounding windows have become giant monitors，      <br><size=32>endlessly displaying data and warning messages.<br> 
 
-message,,壁一面には、夥しい数のコンソールパネルが埋め込まれ、<br>天井からは、無数の太いケーブルが、部屋の中央へと伸びていた。
+message,,<size=32>Console panels line every wall，                          <br><size=32>thick cables from the ceiling stretching to the center.<br> 
 
-message,,そして、そのケーブルがすべて接続されている、部屋の中央。<br>そこに鎮座していたのは、静かに身を伏せる、巨大な鋼鉄の獣だった。
+message,,<size=32>At the room's center， where all cables converge，         <br><size=32>a massive steel beast crouches in silence.<br> 
 
 window,off
 wait,0.15
@@ -1082,7 +1082,7 @@ asynccharaemo,chara_3,Dull,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,あ……。あの、最後のメッセージにあった、<br>『鉄の獣』、『鉄の足音』って……まさか……,106601000G,mcv_1001050902_019_01,chara_3
+message,ヒマリ,<size=32>The 'iron beast' and 'iron footsteps'                    <br><size=32>from the last message... could it be...<br> ,106601000G,mcv_1001050902_019_01,chara_3
 
 window,off
 wait,0.15
@@ -1123,7 +1123,7 @@ asynccharaemo,chara_2,Flower,CONT,0
 
 
 window,on,0.15
-message,ロジー,あったぁ～～～！<br>ちょーぜつカッチョいい、アタシのお宝～～～！,2036001,mcv_1001050902_020_01,chara_2
+message,ロジー,<size=32>Found it~~~!                                             <br><size=32>My super ultra cool treasure~~~!<br> ,2036001,mcv_1001050902_020_01,chara_2
 
 window,off
 wait,0.15
@@ -1199,13 +1199,13 @@ asynccharaemo,chara_7,Silence,CONT,0
 asyncwait
 
 window,on,0.15
-message,,一行の誰もが、部屋の中央に鎮座する巨大な獣に、ただ圧倒されていた。<br>その、静寂を破ったのは――
+message,,<size=32>Everyone stands in awe of the massive beast              <br><size=32>at the center. Then， the silence breaks--<br> 
 
 bgmstop,bgmtag2_2,1.5,0
 
 asyncseplay,setag2_30,se4400002,0,1,CONT,0
 
-message,,キィ――
+message,,<size=32>Creeeak--<br> 
 
 window,off
 wait,0.15
@@ -1248,7 +1248,7 @@ asynctransitionFade,Tra16,in,black,0.5,STOP,0.5
 waitorclick,1.5
 
 window,on,0.15
-message,,椅子が軋む、かすかな音。全員の視線が、一斉にそちらへ向く。<br>そこには、深いフードを被った１人の男が、ゆったりと椅子に腰かけていた。
+message,,<size=32>A faint creak of a chair. All eyes snap toward it.       <br><size=32>A man in a deep hood sits there， reclining at ease.<br> 
 
 window,off
 wait,0.15
@@ -1269,9 +1269,9 @@ asyncjump,CHARA,chara_8,-30.6,0.5,1,off,0,CONT
 
 
 window,on,0.15
-message,？？？,……遅かったな、愚かな人間共よ。,301201000,mcv_1001050902_021_01,chara_8
+message,？？？,<size=32>...You're late， foolish humans.<br> ,301201000,mcv_1001050902_021_01,chara_8
 
-message,<user>,その声……お前は、あの時の……！<br>盗賊のお頭……だよな？　生きていたのか！？
+message,<user>,<size=32>That voice... you're the one from before...!             <br><size=32>The bandit boss... right? You're alive!?<br> 
 
 window,off
 wait,0.15
@@ -1312,7 +1312,7 @@ wait,0.5
 asyncseplay,setag2_32,se4402004,0,1,CONT,0
 
 window,on,0.15
-message,,男が、被っていたフードをゆっくりと外す。その下から現れたのは見知った顔。<br>しかし、その顔の半分は、無残に砕け散っていた。
+message,,<size=32>The man slowly removes his hood. A familiar face--       <br><size=32>but half of it is grotesquely shattered.<br> 
 
 window,off
 wait,0.15
@@ -1375,7 +1375,7 @@ asynccharaemo,chara_5,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ソフィア,ひっ！？<br>な、何……！？,106501000G,mcv_1001050902_022_01,chara_5
+message,ソフィア,<size=32>Eek!?                                                    <br><size=32>Wh-what...!?<br> ,106501000G,mcv_1001050902_022_01,chara_5
 
 asyncshake,CHARA,chara_6,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1384,7 +1384,7 @@ asyncseplay,setag2_34,se4800007,0,1,CONT,0
 asynccharaemo,chara_6,Panic,CONT,0
 
 
-message,ベリサ,ちょっ……！<br>そんな顔で、なんで生きてるのよ……,100201000G,mcv_1001050902_023_01,chara_6
+message,ベリサ,<size=32>Wait...!                                                 <br><size=32>How are you alive with a face like that...<br> ,100201000G,mcv_1001050902_023_01,chara_6
 
 window,off
 wait,0.15
@@ -1432,31 +1432,31 @@ asyncjump,CHARA,chara_8,-30,0.25,1,off,0,CONT
 window,on,0.15
 message,？？？,“彼”は、とうに死んださ。<br>私は、彼の空っぽになった器を、借りているに過ぎない……,301201000,mcv_1001050902_024_01,chara_8
 
-message,<user>,何を……言ってるんだ……！？<br>お前は……何者だ？
+message,<user>,<size=32>What are you... saying...!?                              <br><size=32>Who... are you?<br> 
 
 asyncjump,CHARA,chara_8,30,0.25,1,off,0,CONT
 
 
-message,？？？,何者……？　ふむ。どの答えを求めての質問か理解しかねるな。<br>貴様らより早くこの階層を訪れただけの存在……それに過ぎない。,301201000,mcv_1001050902_025_01,chara_8
+message,？？？,<size=32>Who am I? Hmm. I fail to grasp what you seek.            <br><size=32>Merely one who reached this stratum before you.<br> ,301201000,mcv_1001050902_025_01,chara_8
 
-message,<user>,俺たちよりずっと先に来ていたのか？<br>この階層に……
+message,<user>,<size=32>You arrived here long before us?                         <br><size=32>At this stratum...<br> 
 
 asyncjump,CHARA,chara_8,-30,0.25,1,off,0,CONT
 
 
-message,？？？,ほぉ。どうやら、ここの人間共の記憶は集めて来たようだな？<br>ならばもう勘付いているだろう？　この世界の人間共の愚かな顛末を……,301201000,mcv_1001050902_026_01,chara_8
+message,？？？,<size=32>Oh? You've gathered the humans' memories here?           <br><size=32>Then you must suspect their foolish fate already...<br> ,301201000,mcv_1001050902_026_01,chara_8
 
-message,<user>,愚かな顛末……？
+message,<user>,<size=32>Their foolish fate...?<br> 
 
 asyncjump,CHARA,chara_8,30,0.25,1,off,0,CONT
 
 
-message,？？？,そう。人間が自ら作り出した『神』の採択によって滅ぼされる。<br>実に愚かで、滑稽な顛末だと思わないか？,301201000,mcv_1001050902_027_01,chara_8
+message,？？？,<size=32>Yes. Destroyed by the 'god' they themselves created.     <br><size=32>Don't you find that foolish and absurd?<br> ,301201000,mcv_1001050902_027_01,chara_8
 
 asyncshake,CHARA,chara_8,20,0,0.5,1,off,off,0,off,CONT,0
 
 
-message,？？？,彼らは、自らの『思考』を捨て、彼らの信じた『論理』に救いを求めた。<br>その果てに、『思考』を持たぬそこの『鉄の獣』に、喰らい尽くされたのだ――,301201000,mcv_1001050902_028_01,chara_8
+message,？？？,<size=32>They cast aside 'thought' for 'logic.'                   <br><size=32>And the 'iron beast' without thought devoured them all--<br> ,301201000,mcv_1001050902_028_01,chara_8
 
 window,off
 wait,0.15
@@ -1499,7 +1499,7 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,そ、そんな……。<br>みんな、殺されてしまったの……？,106601000G,mcv_1001050902_029_01,chara_3
+message,ヒマリ,<size=32>N-no...                                                  <br><size=32>Everyone was... killed...?<br> ,106601000G,mcv_1001050902_029_01,chara_3
 
 window,off
 wait,0.15
@@ -1539,7 +1539,7 @@ asyncjump,CHARA,chara_8,-30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,？？？,すべて削除された……という表現が正しいかもしれないな。<br>感情を持たぬ、鉄の存在に。現に、この階層に１つの遺体もなかっただろう？,301201000,mcv_1001050902_030_01,chara_8
+message,？？？,<size=32>'Deleted' might be the more fitting word.                <br><size=32>By emotionless iron. You found no bodies， right?<br> ,301201000,mcv_1001050902_030_01,chara_8
 
 window,off
 wait,0.15
@@ -1582,7 +1582,7 @@ asynccharaemo,chara_3,Dull,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,そんな……,106601000G,mcv_1001050902_031_01,chara_3
+message,ヒマリ,<size=32>No...<br> ,106601000G,mcv_1001050902_031_01,chara_3
 
 window,off
 wait,0.15
@@ -1622,7 +1622,7 @@ asyncshake,CHARA,chara_8,20,0,0.5,1,off,off,0,off,CONT,0
 
 
 window,on,0.15
-message,？？？,そもそも、『心』を持たぬ『鉄の人形』に、神が務まるはずもなかったがな。<br>その行動は、あらかじめ定められた計算の結果にすぎない。,301201000,mcv_1001050902_032_01,chara_8
+message,？？？,<size=32>An 'iron puppet' with no 'heart' could never be god.     <br><size=32>Its actions are mere predetermined calculations.<br> ,301201000,mcv_1001050902_032_01,chara_8
 
 window,off
 wait,0.15
@@ -1673,7 +1673,7 @@ asynccharaemo,chara_1,Anger,CONT,0
 
 
 window,on,0.15
-message,ゴレイヌ,……おい！　ちょっと待て！,2037001,mcv_1001050902_033_01,chara_1
+message,ゴレイヌ,<size=32>...Hey! Hold on a second!<br> ,2037001,mcv_1001050902_033_01,chara_1
 
 window,off
 wait,0.15
@@ -1690,7 +1690,7 @@ asynccharaemo,chara_2,Shock,CONT,0
 
 
 window,on,0.15
-message,ロジー,じょ、助手くんっ！<br>な、なに？　なんでヒートアップしてんのぉ！？,2036001,mcv_1001050902_034_01,chara_2
+message,ロジー,<size=32>A-Assistant!                                             <br><size=32>Wh-what? Why are you getting so worked up!?<br> ,2036001,mcv_1001050902_034_01,chara_2
 
 window,off
 wait,0.15
@@ -1739,7 +1739,7 @@ asynccharaemo,chara_1,Anger,CONT,0
 
 
 window,on,0.15
-message,ゴレイヌ,あらかじめ定められた計算の結果だぁ～～！？<br>オレと教授で育んできた、愛と情熱の日々を否定するんじゃねぇぇ～～っ！,2037001,mcv_1001050902_035_01,chara_1
+message,ゴレイヌ,<size=32>Predetermined calculations~~!?                           <br><size=32>Don't deny my love and passion with the Professor~~!<br> ,2037001,mcv_1001050902_035_01,chara_1
 
 window,off
 wait,0.15

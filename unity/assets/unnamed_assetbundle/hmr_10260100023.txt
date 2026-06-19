@@ -18,7 +18,7 @@ asyncseplay,setag3_1,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,STOP
 window,on,0.15
-message,シルヴィア,あ、あの……本当に、タイツを持って帰るんですか……？,,vc_10260100023_001_01
+message,シルヴィア,<size=32>Um... Are you really taking the tights with you...?<br> ,,vc_10260100023_001_01
 
 asyncskipwait
 
@@ -32,7 +32,7 @@ asynccharaemo,chara_1,Sweat,STOP
 asynccharareaction,chara_1,Shake,1,STOP
 
 asynccharaface,chara_1,FaceUnique01,STOP,8.5
-message,シルヴィア,元々、お客様がお持ち込みになられたものですから、<br>それは構わないのですが……せ、せめて、洗ってからとか……！,,vc_10260100023_002_01
+message,シルヴィア,<size=32>Since you brought them in the first place，               <br><size=32>I don't mind， but... a-at least wash them first...!<br> ,,vc_10260100023_002_01
 
 charaface,chara_1,FaceUnique02
 
@@ -41,12 +41,12 @@ asyncseplay,setag3_3,se4800006,0,1,CONT
 asynccharaemo,chara_1,Trouble,STOP
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,STOP
-message,シルヴィア,あぁ……イヤなんですか、そうですか……,,vc_10260100023_003_01
+message,シルヴィア,<size=32>Ah... You don't want them washed... I see...<br> ,,vc_10260100023_003_01
 
 charaface,chara_1,FaceShy
 
 seplay,setag3_4,se4300003,0,1
-message,,恥じらうシルヴィアに見送られながら、<br>客は満足そうにホクホクした表情で娼館を後にする。
+message,,<size=32>Seen off by a bashful Sylvia， the customer left the      <br><size=32>brothel with a thoroughly satisfied grin.<br> 
 
 window,off
 wait,0.15
@@ -62,7 +62,7 @@ asynccharaemo,chara_1,Sweat,STOP
 
 asynccharareaction,chara_1,Shake,1,CONT
 window,on,0.15
-message,シルヴィア,本当にお持ち帰りになるなんて……,,vc_10260100023_004_01
+message,シルヴィア,<size=32>He really did take them home...<br> ,,vc_10260100023_004_01
 
 asyncskipwait
 
@@ -76,11 +76,11 @@ asynccharaemo,chara_1,Silence,STOP
 asynccharareaction,chara_1,Nod,1,STOP
 
 asynccharaface,chara_1,FaceSad,STOP,0
-message,シルヴィア,『２度と再現できない芸術作品だ』などとおっしゃっていましたが、<br>わたくしが元いた世界とは、芸術の定義が違いますのね……,,vc_10260100023_005_01
+message,シルヴィア,<size=32>He called them 'a work of art that can never be          <br><size=32>recreated'... The definition of art here is quite different from the world I came from...<br> ,,vc_10260100023_005_01
 
 charaface,chara_1,EyeClose
 charaface,chara_1,FaceNormal
-message,シルヴィア,それにしても……『太ももコキ』ですか……<br>そんな技があるなんて、まったく知りませんでしたわ。,,vc_10260100023_006_01
+message,シルヴィア,<size=32>Even so... a 'thigh job'...                              <br><size=32>I had no idea such a technique even existed.<br> ,,vc_10260100023_006_01
 
 asynccharareaction,chara_1,Nod,1,STOP
 
@@ -89,10 +89,10 @@ asyncseplay,setag3_7,se4800014,0,1,CONT
 asynccharaemo,chara_1,Silence,STOP
 
 asynccharaface,chara_1,FaceUnique02,STOP
-message,シルヴィア,やはりこの遊戯……奥が深いですわね……,,vc_10260100023_007_01
+message,シルヴィア,<size=32>These games really do have hidden depths...<br> ,,vc_10260100023_007_01
 
 
-message,,1人、変なところで感心するシルヴィアだった。
+message,,<size=32>Sylvia stood alone， impressed by the strangest things.<br> 
 
 window,off
 bgmstop,bgmtag3_1,0.5

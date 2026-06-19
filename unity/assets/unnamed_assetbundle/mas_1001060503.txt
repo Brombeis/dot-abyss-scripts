@@ -36,7 +36,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
@@ -74,7 +74,7 @@ waitorclick,2.5
 wait,0.5
 
 window,on,0.15
-message,,最後のモンスターが光の粒子となって消え、<br>ようやく激しい戦いが終わりを迎える。
+message,,<size=32>The last monster dissolves into particles of light，      <br><size=32>and the fierce battle finally comes to an end.<br> 
 
 window,off
 wait,0.15
@@ -107,7 +107,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,な……何！？　これ……,106601000G,mcv_1001060503_001_01,chara_2
+message,ヒマリ,<size=32>Wh... what!? This is...<br> ,106601000G,mcv_1001060503_001_01,chara_2
 
 window,off
 wait,0.15
@@ -133,13 +133,13 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,,いつの間にか、周囲を無数の青黒い人魂が、音もなく飛び交っている。<br>そして、その魂たちから、直接、頭の中に声が流れ込んでくるのだった。
+message,,<size=32>Countless dark wisps now swirl silently around them.     <br><size=32>Voices from the souls pour directly into their minds.<br> 
 
-message,<user>,なんだ！？　この、声は……
+message,<user>,<size=32>What!? These voices...<br> 
 
-message,,それは、悲鳴とも、嗚咽ともつかない無数の声の断片。
+message,,<size=32>Fragments of countless voices-- screams and sobs alike.<br> 
 
-message,,『助けて』、『熱い』、『もう終わりだ』、『痛い』、『苦しい』、<br>それは絶望だけを煮詰めたような、魂の叫びだった。
+message,,<size=32>""Help"" ""It burns"" ""It's over"" ""It hurts"" ""Stop""          <br><size=32>--screams distilled from nothing but pure despair.<br> 
 
 window,off
 wait,0.15
@@ -178,7 +178,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,なんだか、この声……、<br>前に地下鉄の駅で石から聞いた声と似ている……,106601000G,mcv_1001060503_002_01,chara_2
+message,ヒマリ,<size=32>These voices somehow...                                  <br><size=32>sound like what we heard from the stone in the subway...<br> ,106601000G,mcv_1001060503_002_01,chara_2
 
 window,off
 wait,0.15
@@ -218,7 +218,7 @@ asynctransitionCrossFade,Tra02,0.5,STOP
 waitorclick,1
 
 window,on,0.15
-message,,その絶望の声に、仲間たちの顔がみるみる蒼白になっていくのが分かった。<br>ベリサは耳を塞ぎ、ヒマリは涙を流している。
+message,,<size=32>Despair in those voices turned their faces pale.         <br><size=32>Belisa covered her ears; Himari was in tears.<br> 
 
 window,off
 wait,0.15
@@ -234,7 +234,7 @@ asynccrossfade,0.1,0,0,1,1,STOP
 
 
 window,on,0.15
-message,<user>,（くっ……このままじゃマズイ……！）
+message,<user>,<size=32>(Damn... this is bad...!)<br> 
 
 window,off
 wait,0.15
@@ -250,9 +250,9 @@ asynccrossfade,0.1,0,0,1,1,STOP
 
 
 window,on,0.15
-message,,このままでは、彼女たちの『恐怖』に、この場の催眠石が共鳴してしまう。<br>そうなれば、今度こそ取り返しのつかない、本物の悪夢が具現化するだろう。
+message,,<size=32>If this continues， the hypnotic stones will resonate     <br><size=32>with their fear-- spawning a true nightmare.<br> 
 
-message,,迷っている時間などない。<br><user>は司令官として、最もシンプルで的確な命令を下す。
+message,,<size=32>There's no time to hesitate.                             <br><size=32>As commander， <user> issues the simplest， surest order.<br> 
 
 window,off
 wait,0.15
@@ -267,7 +267,7 @@ asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_5,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,<user>,全員、耳を塞げ！　何も考えるな！<br>俺の背中だけを見て、ただ、全力で走れッ！！
+message,<user>,<size=32>Everyone， cover your ears! Don't think!                  <br><size=32>Just watch my back and run with all you've got!!<br> 
 
 asynccharaface,chara_3,FaceSurprise,CONT,0
 
@@ -293,7 +293,7 @@ asyncseplay,setag3_6,se4800010,0,1,CONT,0
 
 asynccharaemo,chara_5,Exclamation,CONT,0
 
-message,,その絶叫に、仲間たちはハッと我に返る。
+message,,<size=32>His shout snaps them back to their senses.<br> 
 
 window,off
 wait,0.15
@@ -335,7 +335,7 @@ asynctransitionFade,Tra02,in,black,0,STOP,1
 waitorclick,0.5
 
 window,on,0.15
-message,,背後で渦巻く無数の人魂と、その絶望の声を振り切るように、<br>一行は無我夢中で一斉に走り出した。
+message,,<size=32>Shaking off the swirling spirits and their cries         <br><size=32>of despair， the party sprints away in a frenzy.<br> 
 
 window,off
 wait,0.15

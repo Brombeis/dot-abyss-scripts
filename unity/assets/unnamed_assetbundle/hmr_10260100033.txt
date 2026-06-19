@@ -17,14 +17,14 @@ charaface,chara_1,FaceUnique02
 
 asyncshake,CHARA,chara_1,20,0,0.25,2,off,off,0,off,CONT
 window,on,0.15
-message,シルヴィア,ん……あっ……！,,vc_10260100033_001_01
+message,シルヴィア,<size=32>Mm... ah...!<br> ,,vc_10260100033_001_01
 
 asyncskipwait
 
 charareaction,chara_1,Shake,0.5
-message,,シルヴィアは突然声を上げると、恥ずかしそうにモジモジし始めた。
+message,,<size=32>Sylvia suddenly let out a cry and began fidgeting        <br><size=32>bashfully.<br> 
 
-message,<user>,どうした？
+message,<user>,<size=32>What's wrong?<br> 
 
 charaface,chara_1,FaceShy
 
@@ -32,11 +32,11 @@ asyncseplay,setag3_1,se4800012,0,1,CONT
 
 asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
-message,シルヴィア,あ、あの……お兄様の精子が、その……零れてしまいそうになって……,,vc_10260100033_002_01
+message,シルヴィア,<size=32>Um... your seed is... about to spill out...<br> ,,vc_10260100033_002_01
 
-message,,どうやら膣内に注いだ精液が、今になって溢れ出してきたようだ。
+message,,<size=32>It seemed the seed I'd released inside her was now       <br><size=32>starting to overflow.<br> 
 
-message,<user>,なら、風呂に入ってくるといい。<br>すぐに沸かしてやるから――
+message,<user>,<size=32>Then you should take a bath.                             <br><size=32>I'll draw one for you right away—<br> 
 
 charaface,chara_1,EyeClose
 charaface,chara_1,FaceNormal
@@ -44,18 +44,18 @@ charaface,chara_1,FaceNormal
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,STOP
 
 asynccharaface,chara_1,FaceSad,STOP,0.5
-message,シルヴィア,イヤですわ。,,vc_10260100033_003_01
+message,シルヴィア,<size=32>No.<br> ,,vc_10260100033_003_01
 
-message,<user>,……なぜだ？
+message,<user>,<size=32>...Why not?<br> 
 
 charaface,chara_1,FaceShy
 
 asyncseplay,setag3_2,se4800002,0,1,CONT
 
 asynccharaemo,chara_1,Heart,STOP
-message,シルヴィア,だって……お兄様を、ずっと感じていたいんですもの……,,vc_10260100033_004_01
+message,シルヴィア,<size=32>Because... I want to keep feeling you inside me...<br> ,,vc_10260100033_004_01
 
-message,<user>,気持ちはうれしいが、後々大変なことになるぞ？
+message,<user>,<size=32>I appreciate the sentiment， but it'll be a mess later.<br> 
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
@@ -67,9 +67,9 @@ asyncseplay,setag3_3,se4800006,0,1,CONT
 asynccharaemo,chara_1,Trouble,STOP
 
 asynccharaface,chara_1,FaceSad,STOP,2
-message,シルヴィア,分かっています……でも……,,vc_10260100033_005_01
+message,シルヴィア,<size=32>I know... but...<br> ,,vc_10260100033_005_01
 
-message,<user>,なら俺も一緒に入って、身体を洗ってやる。<br>それなら入るか？
+message,<user>,<size=32>Then I'll get in with you and wash you myself.           <br><size=32>Would you take a bath then?<br> 
 
 charaface,chara_1,FaceShy
 
@@ -80,9 +80,9 @@ asyncseplay,setag3_4,se4800002,0,1,CONT
 asynccharaemo,chara_1,Heart,STOP
 
 asynccharaface,chara_1,FaceUnique01,STOP,2
-message,シルヴィア,っ……そ、そうですわね……それでしたら……入ってもいいですわ……,,vc_10260100033_006_01
+message,シルヴィア,<size=32>...W-well... if that's the case... I suppose I can...<br> ,,vc_10260100033_006_01
 
-message,,やれやれと内心で苦笑しつつ、風呂の準備を始めるのだった。
+message,,<size=32>Chuckling inwardly with a 'good grief，' I began preparing<br><size=32>the bath.<br> 
 
 window,off
 bgmstop,bgmtag3_1,0.5

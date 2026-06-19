@@ -45,16 +45,16 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
 bgmplay,bgmtag1_1,bgm0037,0.75,1
 
 window,on,0.15
-message,,クルルの先導で<user>たちは洞窟の暗闇を進んだ。<br>しかし、光の中に飛び出した一行が目にしたのは、希望の光景ではなかった。
+message,,<size=32>With Kururu leading， <user>'s group crossed the cave.    <br><size=32>But what greeted them was no scene of hope.<br> 
 
-message,,そこは、見渡す限りの、枯れた花々が広がる、静寂の平原。<br>そして、あちこちに墓標のような古びたモニュメントが建っていたのだ。
+message,,<size=32>A silent plain of withered flowers spread endlessly.     <br><size=32>Crumbling monuments like gravestones dotted the land.<br> 
 
 window,off
 wait,0.15
@@ -87,7 +87,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,クルル,あれ……？<br>なんで、お花さん、みんな枯れちゃってるの……？,106701000G,mcv_1001060701_001_01,chara_1
+message,クルル,<size=32>Huh...?                                                  <br><size=32>Why are all the flowers wilted...?<br> ,106701000G,mcv_1001060701_001_01,chara_1
 
 window,off
 wait,0.15
@@ -134,7 +134,7 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 
 window,on,0.15
-message,ベリサ,な、なによ……さっきみたいな石の魔力は感じないけど、<br>薄気味悪い場所ね……,100201000G,mcv_1001060701_002_01,chara_3
+message,ベリサ,<size=32>Wh-what is this... no hypnotic stone energy here，        <br><size=32>but what an eerie place...<br> ,100201000G,mcv_1001060701_002_01,chara_3
 
 window,off
 wait,0.15
@@ -185,7 +185,7 @@ asynccharaemo,chara_5,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,さっきより空気が重い気がする……。<br>なんだか息が詰まりそう……,106601000G,mcv_1001060701_003_01,chara_5
+message,ヒマリ,<size=32>The air feels even heavier than before...                <br><size=32>It's almost suffocating...<br> ,106601000G,mcv_1001060701_003_01,chara_5
 
 window,off
 wait,0.15
@@ -248,7 +248,7 @@ asynccharaemo,chara_4,Speak,CONT,0
 
 
 window,on,0.15
-message,マリナ,あれはなんでしょう……？<br>お墓のようにも見えますねぇ……,100301000G,mcv_1001060701_004_01,chara_4
+message,マリナ,<size=32>What are those...?                                       <br><size=32>They look like graves...<br> ,100301000G,mcv_1001060701_004_01,chara_4
 
 window,off
 wait,0.15
@@ -278,7 +278,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,ボロボロに朽ちているが、<br>霊廟のようにも見えるな。
+message,<user>,<size=32>Crumbling and worn down，                                 <br><size=32>but they look like a mausoleum to me.<br> 
 
 window,off
 wait,0.15
@@ -333,7 +333,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,静かね。<br>まるで、この大地そのものが、嘆き悲しんでいるみたい……,106501000G,mcv_1001060701_005_01,chara_2
+message,ソフィア,<size=32>It's so quiet.                                           <br><size=32>As if the land itself is grieving...<br> ,106501000G,mcv_1001060701_005_01,chara_2
 
 window,off
 wait,0.15
@@ -385,7 +385,7 @@ asynccharaemo,chara_5,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,もう、あの悲しい声は聞こえない。<br>でも、わたしには何となく分かるな……,106601000G,mcv_1001060701_006_01,chara_5
+message,ヒマリ,<size=32>I can't hear those sad voices anymore.                   <br><size=32>But somehow， I just know...<br> ,106601000G,mcv_1001060701_006_01,chara_5
 
 window,off
 wait,0.15
@@ -405,9 +405,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒマリ,きっと、あの街の人々の遺体は、ここに運ばれたんだよ……。<br>全然、安らかに眠ることもできずに……,106601000G,mcv_1001060701_007_01,chara_5
+message,ヒマリ,<size=32>The bodies of the townspeople were brought here...       <br><size=32>Unable to rest in peace...<br> ,106601000G,mcv_1001060701_007_01,chara_5
 
-message,,一行が、その光景に言葉を失っている、まさにその時だった。<br>ゴレイヌの頭部センサーが、甲高い警告音と共に、激しく明滅を始める。
+message,,<size=32>Just as the group stood speechless at the sight，         <br><size=32>Goleinu's head sensor flashed with a shrill alarm.<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -438,7 +438,7 @@ waitorclick,0.8
 asyncshake,CHARA,chara_6,15,10,0.25,3,on,off,0,off,CONT,0
 
 window,on,0.15
-message,,ピピピピピッ！
+message,,<size=32>Beep beep beep beep beep!<br> 
 
 bgmplay,bgmtag1_2,bgm0032,0.75,1
 
@@ -449,7 +449,7 @@ asyncseplay,setag1_8,se4800010,0,1,CONT,0
 asynccharaemo,chara_6,Exclamation,CONT,0
 
 
-message,ゴレイヌ,――警告。警告。<br>教授！　近距離で高エネルギー反応を感知だっ！,2037001,mcv_1001060701_008_01,chara_6
+message,ゴレイヌ,<size=32>--Warning. Warning.                                      <br><size=32>Professor! High-energy reading at close range!<br> ,2037001,mcv_1001060701_008_01,chara_6
 
 window,off
 wait,0.15
@@ -498,7 +498,7 @@ asynccharaemo,chara_7,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ロジー,助手くんっ！　高エネルギー反応って何が来てるのよぉ！？,2036001,mcv_1001060701_009_01,chara_7
+message,ロジー,<size=32>Goleinu! What's coming with a high-energy reading!?<br> ,2036001,mcv_1001060701_009_01,chara_7
 
 asynccharaface,chara_6,EyeOpen,CONT,0
 asynccharaface,chara_6,FaceNormal,CONT,0
@@ -516,7 +516,7 @@ asyncseplay,setag1_11,se4800022,0,1,STOP,4
 asynccharaemo,chara_6,Speak,STOP,4
 
 
-message,ゴレイヌ,過去の戦闘データと照会してみるぜぇ～！<br>…………エネルギー波形、９８.７％一致。,2037001,mcv_1001060701_010_01,chara_6
+message,ゴレイヌ,<size=32>Cross-referencing past combat data~!                     <br><size=32>...Energy waveform: 98.7% match.<br> ,2037001,mcv_1001060701_010_01,chara_6
 
 asynccharaface,chara_7,FaceSad,CONT,0
 
@@ -527,7 +527,7 @@ asyncseplay,setag1_12,se4800007,0,1,CONT,0
 asynccharaemo,chara_7,Panic,CONT,0
 
 
-message,ロジー,ま、まさか……！,2036001,mcv_1001060701_011_01,chara_7
+message,ロジー,<size=32>N-no way...!<br> ,2036001,mcv_1001060701_011_01,chara_7
 
 asynccharaface,chara_6,FaceAnger,CONT,0
 
@@ -538,7 +538,7 @@ asyncseplay,setag1_13,se4800001,0,1,CONT,0
 asynccharaemo,chara_6,Anger,CONT,0
 
 
-message,ゴレイヌ,対象は、『黒い塔』にてオレ様を大破させた、敵性体と断定！,2037001,mcv_1001060701_012_01,chara_6
+message,ゴレイヌ,<size=32>Target confirmed as the hostile that wrecked me          <br><size=32>at the Black Tower!<br> ,2037001,mcv_1001060701_012_01,chara_6
 
 asynccharaface,chara_7,FaceSurprise,CONT,0
 
@@ -549,7 +549,7 @@ asyncseplay,setag1_14,se4800008,0,1,CONT,0
 asynccharaemo,chara_7,Sweat,CONT,0
 
 
-message,ロジー,やっぱり！　あのフード被ってた、あいつ！？,2036001,mcv_1001060701_013_01,chara_7
+message,ロジー,<size=32>I knew it! That hooded guy!?<br> ,2036001,mcv_1001060701_013_01,chara_7
 
 asynccharaface,chara_6,EyeOpen,CONT,0
 asynccharaface,chara_6,FaceNormal,CONT,0
@@ -561,7 +561,7 @@ asyncseplay,setag1_15,se4800019,0,1,CONT,0
 asynccharaemo,chara_6,Elated,CONT,0
 
 
-message,ゴレイヌ,脅威レベル『厄災』。<br>……この階層に、ヤツがいるぜぇ、教授！,2037001,mcv_1001060701_014_01,chara_6
+message,ゴレイヌ,<size=32>Threat level: 'Calamity.'                                <br><size=32>...He's on this floor， Professor!<br> ,2037001,mcv_1001060701_014_01,chara_6
 
 window,off
 wait,0.15
@@ -626,7 +626,7 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ソフィア,脅威レベル、厄災ってなに！？<br>それ、どういう意味よ！？,106501000G,mcv_1001060701_015_01,chara_2
+message,ソフィア,<size=32>Threat level Calamity!?                                  <br><size=32>What does that mean!?<br> ,106501000G,mcv_1001060701_015_01,chara_2
 
 asyncshake,CHARA,chara_3,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -635,7 +635,7 @@ asyncseplay,setag1_17,se4800001,0,1,CONT,0
 asynccharaemo,chara_3,Anger,CONT,0
 
 
-message,ベリサ,はぁ～～～っ！？　何言ってんの！？<br>ぶっ壊れてんじゃないでしょうね？　そんな魔力感じないけどっ！？,100201000G,mcv_1001060701_016_01,chara_3
+message,ベリサ,<size=32>Haah~~~!? What are you saying!?                          <br><size=32>You must be busted! I don't sense that kind of power!?<br> ,100201000G,mcv_1001060701_016_01,chara_3
 
 asyncjump,CHARA,chara_4,-30,0.25,1,off,0,CONT
 
@@ -644,7 +644,7 @@ asyncseplay,setag1_18,se4800009,0,1,CONT,0
 asynccharaemo,chara_4,Question,CONT,0
 
 
-message,マリナ,厄災が近い時は、瘴気が出るんじゃなかったでしたっけぇ？,100301000G,mcv_1001060701_017_01,chara_4
+message,マリナ,<size=32>Don't Calamities give off miasma when near?<br> ,100301000G,mcv_1001060701_017_01,chara_4
 
 window,off
 wait,0.15
@@ -693,7 +693,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 
 window,on,0.15
-message,クルル,でも、確かに、悪いニオイがする……。<br>だけど、今までとちょっとちがうような……,106701000G,mcv_1001060701_018_01,chara_1
+message,クルル,<size=32>But there is a bad smell for sure...                     <br><size=32>Though it's a bit different from before...<br> ,106701000G,mcv_1001060701_018_01,chara_1
 
 window,off
 wait,0.15
@@ -745,7 +745,7 @@ asynccharaemo,chara_7,BePeevish,CONT,0
 
 
 window,on,0.15
-message,ロジー,ゴレイヌのセンサーを疑うわけぇ～！？,2036001,mcv_1001060701_019_01,chara_7
+message,ロジー,<size=32>You're doubting Goleinu's sensors~!?<br> ,2036001,mcv_1001060701_019_01,chara_7
 
 asyncjump,CHARA,chara_6,30,0.25,1,off,0,CONT
 
@@ -754,9 +754,9 @@ asyncseplay,setag1_21,se4800016,0,1,CONT,0
 asynccharaemo,chara_6,BePeevish,CONT,0
 
 
-message,ゴレイヌ,オレは、厄災本体とも、あのフードの男とも直接触れたことがある。<br>そんなオレ様に限って、計測ミスなんかするわけないだろ！,2037001,mcv_1001060701_020_01,chara_6
+message,ゴレイヌ,<size=32>I've touched both a Calamity and that hooded man.        <br><size=32>No way I'd make a measurement error!<br> ,2037001,mcv_1001060701_020_01,chara_6
 
-message,<user>,いや、あのフードの男が厄災だというのはあながち外れちゃいないかもな。
+message,<user>,<size=32>Actually， calling him a Calamity isn't far off.<br> 
 
 window,off
 wait,0.15
@@ -811,9 +811,9 @@ asynccharaemo,chara_5,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,そんな……あの盗賊さんが……厄災！？,106601000G,mcv_1001060701_021_01,chara_5
+message,ヒマリ,<size=32>No way... the bandit is... a Calamity!?<br> ,106601000G,mcv_1001060701_021_01,chara_5
 
-message,<user>,あの盗賊のお頭が厄災ってわけじゃない。<br>おそらく、ヤツの体が、厄災に奪われたんだ……
+message,<user>,<size=32>The bandit boss isn't a Calamity himself.                <br><size=32>Most likely， his body was taken over by one...<br> 
 
 window,off
 wait,0.15
@@ -878,11 +878,11 @@ asynccharaemo,chara_2,Question,CONT,0
 
 
 window,on,0.15
-message,ソフィア,厄災に体を奪われる！？<br>あるの？　そんなことが……,106501000G,mcv_1001060701_022_01,chara_2
+message,ソフィア,<size=32>His body taken over by a Calamity!?                      <br><size=32>Is that even possible...?<br> ,106501000G,mcv_1001060701_022_01,chara_2
 
-message,<user>,俺に、ゴレイヌみたいなセンサーはないが、<br>俺も、あのフードの男からただならぬ視線と気配を感じていた。
+message,<user>,<size=32>I don't have sensors like Goleinu，                       <br><size=32>but I sensed something dire from that hooded man.<br> 
 
-message,<user>,以前、飢餓の厄災と対峙した時と、まったく同じ性質のな。
+message,<user>,<size=32>The same aura I felt facing the Calamity of Famine.<br> 
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -893,7 +893,7 @@ asyncseplay,setag1_24,se4800015,0,1,CONT,0
 asynccharaemo,chara_3,Dull,CONT,0
 
 
-message,ベリサ,確かにアイツ、頭があんな状態だったのに生きてたもんね……？<br>只者じゃないのは確かだよ。,100201000G,mcv_1001060701_023_01,chara_3
+message,ベリサ,<size=32>True， his head was all messed up yet he was alive...     <br><size=32>He's definitely not ordinary.<br> ,100201000G,mcv_1001060701_023_01,chara_3
 
 window,off
 wait,0.15
@@ -945,9 +945,9 @@ asynccharaemo,chara_6,Speak,CONT,0
 
 
 window,on,0.15
-message,ゴレイヌ,司令官の旦那、ヤツの正体が何者なのか、今に分かるぜぇ～……,2037001,mcv_1001060701_024_01,chara_6
+message,ゴレイヌ,<size=32>Commander sir， you'll see what he really is soon~...<br> ,2037001,mcv_1001060701_024_01,chara_6
 
-message,<user>,どうやら、そのようだな。
+message,<user>,<size=32>So it seems.<br> 
 
 window,off
 wait,0.15
@@ -986,9 +986,9 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,,一行の視線が、平原の中央にそびえ立つ、巨大なモニュメントへと集中する。<br>その影から、１体の人影が、ゆっくりと姿を現した。
+message,,<size=32>All eyes turn to the towering monument at the center.    <br><size=32>From its shadow， a single figure slowly emerges.<br> 
 
-message,,その肉体は、あの盗賊のお頭の器。しかし、その身にまとう禍々しいオーラは、<br>彼が歩いた道の花々を、黒い塵へと変えていく。
+message,,<size=32>His body is the bandit boss's vessel， yet his ominous    <br><size=32>aura turns flowers in his path to black dust.<br> 
 
 window,off
 wait,0.15
@@ -1039,7 +1039,7 @@ asynccharaemo,chara_6,Anger,CONT,0
 
 
 window,on,0.15
-message,ゴレイヌ,あの野郎……っ！,2037001,mcv_1001060701_025_01,chara_6
+message,ゴレイヌ,<size=32>That bastard...!<br> ,2037001,mcv_1001060701_025_01,chara_6
 
 asynccharaface,chara_7,FaceSurprise,CONT,0
 
@@ -1050,7 +1050,7 @@ asyncseplay,setag1_27,se4800007,0,1,CONT,0
 asynccharaemo,chara_7,Panic,CONT,0
 
 
-message,ロジー,ゴレイヌ！　今は感情的になるのはやめて！<br>こないだと同じ失敗はしちゃだめ！,2036001,mcv_1001060701_026_01,chara_7
+message,ロジー,<size=32>Goleinu! Don't let your emotions take over!              <br><size=32>We can't make the same mistake as last time!<br> ,2036001,mcv_1001060701_026_01,chara_7
 
 asyncshake,CHARA,chara_6,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1059,7 +1059,7 @@ asyncseplay,setag1_28,se4800007,0,1,CONT,0
 asynccharaemo,chara_6,Panic,CONT,0
 
 
-message,ゴレイヌ,ぐぬぬぬぅぅ～～～……,2037001,mcv_1001060701_027_01,chara_6
+message,ゴレイヌ,<size=32>Grrrrrr~~~...<br> ,2037001,mcv_1001060701_027_01,chara_6
 
 window,off
 wait,0.15
@@ -1101,26 +1101,26 @@ asyncjump,CHARA,chara_8,-30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,人型厄災,――ようやく、たどり着いたか、人間どもよ。,301201000,mcv_1001060701_028_01,chara_8
+message,人型厄災,<size=32>--At last， you've arrived， humans.<br> ,301201000,mcv_1001060701_028_01,chara_8
 
-message,<user>,貴様、ここで何をしている！？
+message,<user>,<size=32>What are you doing here!?<br> 
 
 asyncshake,CHARA,chara_8,20,0,0.5,1,off,off,0,off,CONT,0
 
 
-message,人型厄災,何、とは愚かな問いだな。<br>熟した果実の、収穫に来ただけだ。,301201000,mcv_1001060701_029_01,chara_8
+message,人型厄災,<size=32>A foolish question.                                      <br><size=32>I merely came to harvest the ripened fruit.<br> ,301201000,mcv_1001060701_029_01,chara_8
 
 asyncjump,CHARA,chara_8,-30,0.25,1,off,0,CONT
 
 
-message,人型厄災,この地に満ちる、人間の甘美な絶望……。<br>それを糧として実った、『滅びの実』。,301201000,mcv_1001060701_030_01,chara_8
+message,人型厄災,<size=32>The exquisite despair of humans filling this land...     <br><size=32>The 'Fruit of Ruin' that grew from it.<br> ,301201000,mcv_1001060701_030_01,chara_8
 
 asyncjump,CHARA,chara_8,30,0.25,1,off,0,CONT
 
 
-message,人型厄災,これを喰らったことで、私は、本来の力を取り戻したのだ！,301201000,mcv_1001060701_031_01,chara_8
+message,人型厄災,<size=32>By devouring it， I have reclaimed my true power!<br> ,301201000,mcv_1001060701_031_01,chara_8
 
-message,<user>,本来の力……？
+message,<user>,<size=32>True power...?<br> 
 
 window,off
 wait,0.15
@@ -1163,7 +1163,7 @@ asynccharaemo,chara_5,Anger,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,食べたのね……？<br>ここに弔われた、あの街の人々の魂を……,106601000G,mcv_1001060701_032_01,chara_5
+message,ヒマリ,<size=32>You ate them...?                                         <br><size=32>The souls of the townspeople buried here...<br> ,106601000G,mcv_1001060701_032_01,chara_5
 
 window,off
 wait,0.15
@@ -1203,26 +1203,26 @@ asyncjump,CHARA,chara_8,30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,人型厄災,あの者たちは、自ら滅びの道を選んだようなもの。<br>この地で永遠に彷徨い続けるよりはマシだとは思わないか？,301201000,mcv_1001060701_033_01,chara_8
+message,人型厄災,<size=32>Those people chose the path to ruin themselves.          <br><size=32>Surely it's better than wandering here forever?<br> ,301201000,mcv_1001060701_033_01,chara_8
 
 asyncjump,CHARA,chara_8,-30.6,0.5,1,off,0,CONT
 
 
-message,人型厄災,さて、再び見せてもらうとしようか。<br>貴様たちの、その脆く、愚かな『心』が、どんな音を立てて壊れるのかを。,301201000,mcv_1001060701_034_01,chara_8
+message,人型厄災,<size=32>Now then， let us see once more.                          <br><size=32>Show me how your fragile 'hearts' crack and crumble.<br> ,301201000,mcv_1001060701_034_01,chara_8
 
-message,<user>,…………お前は、何がしたいんだ？
+message,<user>,<size=32>...What do you want?<br> 
 
 asyncshake,CHARA,chara_8,20,0,0.5,1,off,off,0,off,CONT,0
 
 
-message,人型厄災,何がしたいか……か。貴様たちが遭遇した『厄災』どものように、<br>ただ力任せにこの地を喰らい尽くすとでも思ったか？,301201000,mcv_1001060701_036_01,chara_8
+message,人型厄災,<size=32>What do I want? Did you think I'd mindlessly             <br><size=32>devour this land like those other 'Calamities'?<br> ,301201000,mcv_1001060701_036_01,chara_8
 
 asyncjump,CHARA,chara_8,30,0.25,1,off,0,CONT
 
 
-message,人型厄災,私がしたいのは、ちょっとした<ruby=ゲーム>遊戯</>だ。試させてもらうとしよう。<br>『厄災』に抗おうとする貴様らの『力』が、どの程度のものなのかを……,301201000,mcv_1001060701_037_01,chara_8
+message,人型厄災,<size=32>What I seek is a little game. Let me test                <br><size=32>how strong your 'power' against Calamity truly is...<br> ,301201000,mcv_1001060701_037_01,chara_8
 
-message,<user>,ゲーム……！？
+message,<user>,<size=32>A game...!?<br> 
 
 asyncjump,CHARA,chara_8,-30,0.25,1,off,0,CONT
 
@@ -1265,14 +1265,14 @@ asyncjump,CHARA,chara_8,-30.6,0.5,1,off,0,CONT
 
 
 window,on,0.15
-message,人型厄災,人間が、最も抗えないもの……。それは、暴力でも、恐怖でもない。<br>自らの魂の奥底から湧き上がる、甘美な『欲望』だ。,301201000,mcv_1001060701_039_01,chara_8
+message,人型厄災,<size=32>What humans cannot resist most is not violence，          <br><size=32>not fear-- but 'desire' welling from the soul's depths.<br> ,301201000,mcv_1001060701_039_01,chara_8
 
 asyncjump,CHARA,chara_8,30,0.25,1,off,0,CONT
 
 
-message,人型厄災,……さあ、その欲望の前に、<br>貴様らの『心』が、どこまで耐えられるか、見せてみろ！,301201000,mcv_1001060701_040_01,chara_8
+message,人型厄災,<size=32>...Now， show me how far                                  <br><size=32>your 'hearts' can endure before that desire!<br> ,301201000,mcv_1001060701_040_01,chara_8
 
-message,<user>,何をする気だ……？
+message,<user>,<size=32>What are you planning...?<br> 
 
 window,off
 wait,0.15
@@ -1294,7 +1294,7 @@ asynccharamove,chara_8,Linear,Y,40,0.5,CONT,0
 asyncwait
 
 window,on,0.15
-message,,厄災が、ゆっくりと、こちらへ向かって手を差し出した。<br>――それが、合図だった。
+message,,<size=32>The Calamity slowly extends a hand toward them.          <br><size=32>--That was the signal.<br> 
 
 window,off
 wait,0.15
@@ -1375,7 +1375,7 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ソフィア,きゃっ……！？,106501000G,mcv_1001060701_041_01,chara_2
+message,ソフィア,<size=32>Kyah...!?<br> ,106501000G,mcv_1001060701_041_01,chara_2
 
 window,off
 wait,0.15
@@ -1403,9 +1403,9 @@ asyncshake,CHARA,chara_7,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_8,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,,最初に、短い悲鳴を上げたのはソフィアだった。<br>彼女は、突然、頭を抱え、その場に膝から崩れ落ちる。
+message,,<size=32>Sophia was the first to cry out.                         <br><size=32>She clutches her head and collapses to her knees.<br> 
 
-message,<user>,ソフィア！？
+message,<user>,<size=32>Sophia!?<br> 
 
 window,off
 wait,0.15
@@ -1443,7 +1443,7 @@ asyncseplay,setag1_32,se4800018,0,1,CONT,0
 asynccharaemo,chara_2,Flower,CONT,0
 
 window,on,0.15
-message,,だが、<user>の声は、もうソフィアには届いていない。<br>何もいない空間を見つめ、恍惚とした表情で、幸せそうに微笑んでいる。
+message,,<size=32>But <user>'s voice no longer reaches Sophia.             <br><size=32>She gazes at nothing， smiling blissfully.<br> 
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -1454,9 +1454,9 @@ asyncseplay,setag1_33,se4800003,0,1,CONT,0
 asynccharaemo,chara_2,Twinkle,CONT,0
 
 
-message,ソフィア,はい、光栄です。まさか私が騎士学校の最優秀生徒として<br>表彰される日が来るだなんて……！,106501000G,mcv_1001060701_042_01,chara_2
+message,ソフィア,<size=32>Yes， it's an honor. I never imagined I'd be              <br><size=32>awarded top student at the knight academy...!<br> ,106501000G,mcv_1001060701_042_01,chara_2
 
-message,<user>,くっ……！　ソフィア！　目を覚ませ！
+message,<user>,<size=32>Damn...! Sophia! Snap out of it!<br> 
 
 asyncseplay,setag1_34,se4400063,0,1,CONT,0
 
@@ -1470,7 +1470,7 @@ asyncseplay,setag1_36,se4400063,0,1,CONT,0
 
 wait,0.5
 
-message,,ソフィアを皮切りに、次々と頭を抱え、その場に倒れ込んでいった。<br>そして誰もが幸福な夢でも見ているかのように、恍惚とした表情を浮かべる。
+message,,<size=32>Starting with Sophia， they fall one by one，              <br><size=32>each with an ecstatic look as if lost in sweet dreams.<br> 
 
 window,off
 wait,0.15
@@ -1511,7 +1511,7 @@ asynccharaemo,chara_3,Spirits,CONT,0
 
 
 window,on,0.15
-message,ベリサ,よーやく、みんなわかったようね～♪<br>そう！　あたしが世界一の最強美少女魔法使いベリサちゃんなの♡,100201000G,mcv_1001060701_043_01,chara_3
+message,ベリサ,<size=32>Finally~， everyone gets it~♪ That's right!               <br><size=32>I'm the world's cutest strongest mage， Belisa♡<br> ,100201000G,mcv_1001060701_043_01,chara_3
 
 window,off
 wait,0.15
@@ -1552,7 +1552,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,クルル,パパとママ……ここにいたんだ……！,106701000G,mcv_1001060701_044_01,chara_1
+message,クルル,<size=32>Mom and Dad... you were here all along...!<br> ,106701000G,mcv_1001060701_044_01,chara_1
 
 window,off
 wait,0.15
@@ -1593,11 +1593,11 @@ asynccharaemo,chara_4,Twinkle,CONT,0
 
 
 window,on,0.15
-message,マリナ,ふふっ♡　あはぁ♡　ついに、ついに完成しましたぁ♡<br>夢の黄金のマリナ城がぁ♡,100301000G,mcv_1001060701_045_01,chara_4
+message,マリナ,<size=32>Ehehe♡ Ahaa♡ It's finally， finally complete♡             <br><size=32>My dream golden Marina Castle♡<br> ,100301000G,mcv_1001060701_045_01,chara_4
 
-message,<user>,くそっ……！　精神攻撃か！<br>みんな、目を覚ませ！　そいつは幻だ！
+message,<user>,<size=32>Damn...! A psychic attack!?                              <br><size=32>Everyone， snap out of it! It's all an illusion!<br> 
 
-message,,しかし、その叫びも虚しく、<br>仲間たちは、それぞれの甘美な欲望の夢の中へと、深く深く堕ちていく。
+message,,<size=32>But his cries are in vain--                              <br><size=32>one by one they sink deeper into their sweet desires.<br> 
 
 window,off
 wait,0.15
@@ -1637,26 +1637,26 @@ asyncjump,CHARA,chara_8,-30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,人型厄災,くくっ……貴様の仲間たちは見事なまでに、<br>己の欲望に支配されているようだな。,301201000,mcv_1001060701_046_01,chara_8
+message,人型厄災,<size=32>Heh... your companions are splendidly                    <br><size=32>enslaved by their own desires.<br> ,301201000,mcv_1001060701_046_01,chara_8
 
-message,<user>,ぐっ……！
+message,<user>,<size=32>Guh...!<br> 
 
 asyncjump,CHARA,chara_8,30,0.25,1,off,0,CONT
 
 
-message,人型厄災,貴様も時期に欲望の世界に身を堕とす事になる。<br>抗うな、欲望とは人間を形作る基礎である。,301201000,mcv_1001060701_047_01,chara_8
+message,人型厄災,<size=32>You too will soon fall into the world of desire.         <br><size=32>Do not resist-- desire is the bedrock of humanity.<br> ,301201000,mcv_1001060701_047_01,chara_8
 
 asyncshake,CHARA,chara_8,20,0,0.5,1,off,off,0,off,CONT,0
 
 
-message,人型厄災,目を反らすな、欲望を受け入れろ。,301201000,mcv_1001060701_048_01,chara_8
+message,人型厄災,<size=32>Do not look away. Accept your desires.<br> ,301201000,mcv_1001060701_048_01,chara_8
 
-message,<user>,くっ、そ……！
+message,<user>,<size=32>Damn... you...!<br> 
 
 asyncjump,CHARA,chara_8,-30.6,0.5,1,off,0,CONT
 
 
-message,人型厄災,貴様の仲間たちは、もう欲望の世界から戻らない。<br>このままここで朽ち果てるがいい！,301201000,mcv_1001060701_049_01,chara_8
+message,人型厄災,<size=32>Your companions will never return from desire.           <br><size=32>Rot and crumble here!<br> ,301201000,mcv_1001060701_049_01,chara_8
 
 window,off
 wait,0.15
@@ -1686,7 +1686,7 @@ asynctransitionFade,Tra13,in,black,0,STOP,1
 waitorclick,0.5
 
 window,on,0.15
-message,,必死に抵抗しようとするが、次第に意識が遠のいていく。<br>そしてついに、欲望の夢の中へと堕ちていってしまった――
+message,,<size=32>He fights to resist， but consciousness fades.            <br><size=32>And at last， he falls into the dream of desire--<br> 
 
 window,off
 bgmstop,bgmtag1_2,0.5

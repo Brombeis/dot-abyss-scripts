@@ -208,7 +208,16 @@ The `3494` in `CDN_VERSION` is a catalog version. On a game update:
 
 ---
 
-## 8. Code style
+## 8. Translation workflow
+
+- **Always update `data/translation_status.json`** after translating files.
+  Set `translated` to the number of translated lines and `remaining` to `0`
+  (or the correct count for partial translations). Never leave the status file
+  out of sync with the actual translation JSONs.
+
+---
+
+## 9. Code style
 
 - **No section-separator comments.** Do not use banner-style dividers like
   `# ---...--- / # Section name / # ---...---` to group functions. Let blank

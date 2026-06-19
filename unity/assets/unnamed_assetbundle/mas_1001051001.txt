@@ -45,7 +45,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
@@ -54,7 +54,7 @@ bgmplay,bgmtag1_1,bgm0039,0.75,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――黒いタワー　展望室</size>,,,on
+messageTextCenter,,<size=48>--Black Tower  Observation Deck</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -100,7 +100,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ソフィア,や、やった……！？,106501000G,mcv_1001051001_001_01,chara_1
+message,ソフィア,<size=32>D-did we... do it...!?<br> ,106501000G,mcv_1001051001_001_01,chara_1
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -111,7 +111,7 @@ asyncseplay,setag1_2,se4800009,0,1,CONT,0
 asynccharaemo,chara_2,Question,CONT,0
 
 
-message,ベリサ,動かなくは、なったけど……、<br>これって死んだってことでいいの？,100201000G,mcv_1001051001_002_01,chara_2
+message,ベリサ,<size=32>It stopped moving， but...                                <br><size=32>does that mean it's dead?<br> ,100201000G,mcv_1001051001_002_01,chara_2
 
 window,off
 wait,0.15
@@ -156,7 +156,7 @@ asynccharaemo,chara_4,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,ま、待って……！,106601000G,mcv_1001051001_003_01,chara_4
+message,ヒマリ,<size=32>W-wait...!<br> ,106601000G,mcv_1001051001_003_01,chara_4
 
 window,off
 wait,0.15
@@ -182,7 +182,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,機械魔獣,……警告。『サンクチュアリ・コード』を確認。<br>ウィルス除去のため……自爆シークエンスに、移行します。,900000002
+message,機械魔獣,<size=32>...Warning. Sanctuary Code confirmed.                    <br><size=32>Initiating self-destruct sequence...<br> ,900000002
 
 window,off
 wait,0.15
@@ -215,7 +215,7 @@ asynccharaemo,chara_5,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,クルル,な、なんかしゃべってる～～～！,106701000G,mcv_1001051001_004_01,chara_5
+message,クルル,<size=32>I-it's talking~~~!<br> ,106701000G,mcv_1001051001_004_01,chara_5
 
 window,off
 wait,0.15
@@ -254,7 +254,7 @@ asynccharaemo,chara_4,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,『サンクチュアリ・コード』……？<br>あの女の人が願ってた何かが、発動したの……！？,106601000G,mcv_1001051001_005_01,chara_4
+message,ヒマリ,<size=32>Sanctuary Code...?                                       <br><size=32>Did that woman's wish activate it...!?<br> ,106601000G,mcv_1001051001_005_01,chara_4
 
 window,off
 wait,0.15
@@ -300,7 +300,7 @@ asynctransitionFade,Tra21,in,white,0,STOP,0
 waitorclick,0.5
 
 window,on,0.15
-message,,機械魔獣のパーツの隙間から、<br>まばゆいほどの光が溢れ始める。
+message,,<size=32>Blinding light pours from the gaps                       <br><size=32>in the mechanical beast's armor.<br> 
 
 window,off
 wait,0.15
@@ -391,9 +391,9 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 
 window,on,0.15
-message,マリナ,これって、これってぇ～～～！<br>やばいんじゃないんですかぁ～～！？,100301000G,mcv_1001051001_006_01,chara_3
+message,マリナ,<size=32>Th-this is~~~!                                           <br><size=32>Isn't this really bad~~!?<br> ,100301000G,mcv_1001051001_006_01,chara_3
 
-message,<user>,ちっ！　急いでそいつから離れろ！<br>全員、リフトに飛び乗れ！　脱出するぞ！
+message,<user>,<size=32>Tch! Get away from it now!                               <br><size=32>Everyone， jump on the lift! We're escaping!<br> 
 
 window,off
 wait,0.15
@@ -436,9 +436,9 @@ asynccharaemo,chara_6,Panic,CONT,0
 
 
 window,on,0.15
-message,ロジー,ま、待って、待って～～！<br>お願い！　助手くんの……ゴレイヌのパーツも一緒に運ばせてぇ～～っ！,2036001,mcv_1001051001_007_01,chara_6
+message,ロジー,<size=32>W-wait， wait~~!                                          <br><size=32>Please! Let us bring Goleinu's parts too~~!<br> ,2036001,mcv_1001051001_007_01,chara_6
 
-message,<user>,はぁっ！？　ロボットなんて置いて……
+message,<user>,<size=32>Hah!? Just leave the robot...<br> 
 
 asyncjump,CHARA,chara_6,-30.6,0.5,1,off,0,CONT
 
@@ -447,9 +447,9 @@ asyncseplay,setag1_11,se4800015,0,1,CONT,0
 asynccharaemo,chara_6,Dull,CONT,0
 
 
-message,ロジー,アタシの大切な相棒なのぉ～～～っ！！,2036001,mcv_1001051001_008_01,chara_6
+message,ロジー,<size=32>He's my precious partner~~!!<br> ,2036001,mcv_1001051001_008_01,chara_6
 
-message,<user>,ったく、世話のやける……。<br>おい！　みんなそのロボットも一緒に運び出すのを手伝ってやれ！
+message,<user>,<size=32>Ugh， what a handful...                                   <br><size=32>Hey! Everyone help carry that robot out!<br> 
 
 window,off
 wait,0.15
@@ -509,7 +509,7 @@ wait,1
 cleanall,EFFECT
 
 window,on,0.15
-message,,一行は、自爆モードに入った魔獣を背に、転送装置『リフト』へと駆け込む。<br>一瞬の浮遊感の後、地上へと転送された、その直後だった――
+message,,<size=32>The group dashes into the lift as the beast              <br><size=32>self-destructs. A flash later-- the surface--<br> 
 
 asyncseplay,setag1_12,se4900002,0,1,CONT,0
 
@@ -523,17 +523,17 @@ asyncshake,CHARA,chara_6,24,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_7,24,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_8,24,0,0.6,5,off,off,0,on,CONT,0
 
-message,,バガーーーーーーーン！！！！！！！
+message,,<size=32>KABOOOOOOOOM!!!!!!!<br> 
 
-message,,見上げれば、黒い東京タワーの展望室が、<br>巨大な火球となって弾け飛ぶのが目に入る。
+message,,<size=32>Looking up， the black tower's observation                <br><size=32>deck erupts into a massive fireball.<br> 
 
-message,,爆風が、瓦礫の破片を嵐のように撒き散らしていく。
+message,,<size=32>The blast hurls debris like a storm.<br> 
 
 asyncseplay,se1_1001,se4700051,0,1,CONT,0
 
-message,<user>,逃げろッ！<br>タワーが崩れるぞ！！
+message,<user>,<size=32>Run!                                                     <br><size=32>The tower's collapsing!!<br> 
 
-message,,一行は、背後で崩れ落ちていく巨大な鉄の墓標から、<br>ただただ無我夢中で走り出した――
+message,,<size=32>The group sprints blindly from the crumbling             <br><size=32>iron monument collapsing behind them--<br> 
 
 
 sestop,se1_1001,1.5
@@ -562,7 +562,7 @@ waitorclick,2.5
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――数時間後　前線基地</size>,,,on
+messageTextCenter,,<size=48>--Hours Later  Forward Base</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -586,7 +586,7 @@ asyncfade,In,Black,1,STOP,1
 waitorclick,2.5
 
 window,on,0.15
-message,,<user>たちはなんとか大穴から抜け出し、<br>ほうぼうの体で前線基地に帰還することとなる。
+message,,<size=32><user>'s group barely escapes the Abyss，                 <br><size=32>returning to the forward base utterly spent.<br> 
 
 window,off
 wait,0.15
@@ -610,7 +610,7 @@ waitorclick,2.5
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――研究所</size>,,,on
+messageTextCenter,,<size=48>--Research Lab</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -645,7 +645,7 @@ waitorclick,0.8
 
 
 window,on,0.15
-message,アーデルハイト,……で、なんですか？<br>このガラクタは？,108701000G,mcv_1001051001_009_01,chara_7
+message,アーデルハイト,<size=32>...So， what is this?                                     <br><size=32>This pile of junk?<br> ,108701000G,mcv_1001051001_009_01,chara_7
 
 window,off
 wait,0.15
@@ -701,11 +701,11 @@ asynccharaemo,chara_6,Panic,CONT,0
 
 
 window,on,0.15
-message,ロジー,ガラクタじゃないよぅ！<br>これはアタシの助手くん！　ゴレイヌ！,2036001,mcv_1001051001_010_01,chara_6
+message,ロジー,<size=32>It's not junk!                                           <br><size=32>This is my assistant! Goleinu!<br> ,2036001,mcv_1001051001_010_01,chara_6
 
-message,,<user>は、ロジーと壊れたゴレイヌを連れ、<br>アーデルハイトの研究所を訪れていた。
+message,,<size=32><user> brought Logy and the broken Goleinu               <br><size=32>to Adelheid's research lab.<br> 
 
-message,<user>,すまないが、見てやってくれないか？<br>こいつにとっては、大切な仲間らしいんだ。
+message,<user>,<size=32>Sorry to ask， but could you take a look?                 <br><size=32>He's a precious partner to her.<br> 
 
 asynccharaface,chara_7,FaceAnger,CONT,0
 
@@ -716,7 +716,7 @@ asyncseplay,setag1_14,se4800006,0,1,CONT,0
 asynccharaemo,chara_7,Trouble,CONT,0
 
 
-message,アーデルハイト,まったく、その小娘はどこの誰なんですか？<br>本当にお人よしなんですから……,108701000G,mcv_1001051001_011_01,chara_7
+message,アーデルハイト,<size=32>Honestly， who even is this girl?                         <br><size=32>You're too kind for your own good...<br> ,108701000G,mcv_1001051001_011_01,chara_7
 
 window,off
 wait,0.15
@@ -765,7 +765,7 @@ asynccharaemo,chara_7,Speak,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,え～と……。へぇ、これは面白い設計思想ですね。<br>なかなか興味深い……,108701000G,mcv_1001051001_012_01,chara_7
+message,アーデルハイト,<size=32>Let's see... My， what a fascinating design.              <br><size=32>Quite intriguing...<br> ,108701000G,mcv_1001051001_012_01,chara_7
 
 window,off
 wait,0.15
@@ -808,7 +808,7 @@ asynccharaemo,chara_6,Sweat,CONT,0
 
 
 window,on,0.15
-message,ロジー,ど、どう？　なんとかなりそう？,2036001,mcv_1001051001_013_01,chara_6
+message,ロジー,<size=32>H-how is it? Think you can fix him?<br> ,2036001,mcv_1001051001_013_01,chara_6
 
 window,off
 wait,0.15
@@ -865,7 +865,7 @@ asynccharaemo,chara_7,Elated,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,周りは鉄くず同然ですが、記憶回路だけは奇跡的に無事なようですね。<br>安心してください。破損したパーツを総とっかえすれば元に戻るかと。,108701000G,mcv_1001051001_014_01,chara_7
+message,アーデルハイト,<size=32>The exterior is scrap， but the memory circuits           <br><size=32>survived by a miracle. New parts will fix him.<br> ,108701000G,mcv_1001051001_014_01,chara_7
 
 asynccharaface,chara_6,FaceFun,CONT,0
 
@@ -876,7 +876,7 @@ asyncseplay,setag1_18,se4800003,0,1,CONT,0
 asynccharaemo,chara_6,Twinkle,CONT,0
 
 
-message,ロジー,ほんとっ！？　元に戻るのっ！？,2036001,mcv_1001051001_015_01,chara_6
+message,ロジー,<size=32>Really!? He can be fixed!?<br> ,2036001,mcv_1001051001_015_01,chara_6
 
 asynccharaface,chara_7,FaceUnique01,CONT,0
 
@@ -887,7 +887,7 @@ asyncseplay,setag1_19,se4800022,0,1,CONT,0
 asynccharaemo,chara_7,Speak,CONT,0
 
 
-message,アーデルハイト,その代わり、パーツ代は相当かかりますから、<br>そこは覚悟しておいてくださいね。,108701000G,mcv_1001051001_016_01,chara_7
+message,アーデルハイト,<size=32>However， the parts won't come cheap.                     <br><size=32>Brace yourself for the bill.<br> ,108701000G,mcv_1001051001_016_01,chara_7
 
 asynccharaface,chara_6,FaceHappy,CONT,0
 
@@ -898,7 +898,7 @@ asyncseplay,setag1_20,se4800018,0,1,CONT,0
 asynccharaemo,chara_6,Flower,CONT,0
 
 
-message,ロジー,うんっ！　お金ならなんとかするっ！<br>良かった……直るんだ……！,2036001,mcv_1001051001_017_01,chara_6
+message,ロジー,<size=32>Yeah! I'll find the money somehow!                       <br><size=32>Thank goodness... he can be fixed...!<br> ,2036001,mcv_1001051001_017_01,chara_6
 
 
 window,off
@@ -929,7 +929,7 @@ waitorclick,2.5
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――司令本部　キッチン</size>,,,on
+messageTextCenter,,<size=48>--Command HQ  Kitchen</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -964,7 +964,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,,一方、司令本部では、アリシアが、<br>無事帰還したみんなの為にパーティの準備を整えていた。
+message,,<size=32>Meanwhile at HQ， Alicia was preparing                    <br><size=32>a party for everyone's safe return.<br> 
 
 asynccharaface,chara_8,FaceUnique01,CONT,0
 
@@ -975,7 +975,7 @@ asyncseplay,setag1_21,se4800013,0,1,CONT,0
 asynccharaemo,chara_8,Spirits,CONT,0
 
 
-message,アリシア,うんっ！　いい匂い！<br>皆さん、きっとお腹空かせてるでしょうし、いっぱい食べてもらわなきゃ！,300201000,mcv_1001051001_018_01,chara_8
+message,アリシア,<size=32>Mmm! Smells great!                                       <br><size=32>They must be starving-- gotta make plenty!<br> ,300201000,mcv_1001051001_018_01,chara_8
 
 asynccharaface,chara_8,FaceFun,CONT,0
 
@@ -986,7 +986,7 @@ asyncseplay,setag1_22,se4800022,0,1,CONT,0
 asynccharaemo,chara_8,Speak,CONT,0
 
 
-message,アリシア,よしっ、そろそろ皆さんを呼びにいきますかぁ～。<br>報告書も書き終わってる頃でしょうし……,300201000,mcv_1001051001_019_01,chara_8
+message,アリシア,<size=32>Alright， time to go call everyone~.                      <br><size=32>They should be done with reports by now...<br> ,300201000,mcv_1001051001_019_01,chara_8
 
 
 window,off
@@ -1023,7 +1023,7 @@ wait,0.5
 asyncseplay,setag1_24,se4300003,0,1,CONT,0
 
 window,on,0.15
-message,,ガチャッ
+message,,<size=32>*Click*<br> 
 
 window,off
 wait,0.15
@@ -1070,7 +1070,7 @@ asynccharaemo,chara_8,Twinkle,CONT,0
 
 
 window,on,0.15
-message,アリシア,皆さん、お疲れ様でしたぁ～！<br>そろそろパーティーの準備が……,300201000,mcv_1001051001_020_01,chara_8
+message,アリシア,<size=32>Everyone， great work today~!                             <br><size=32>The party's almost rea--<br> ,300201000,mcv_1001051001_020_01,chara_8
 
 asynccharaface,chara_8,FaceSurprise,CONT,0
 
@@ -1080,7 +1080,7 @@ asyncseplay,setag1_26,se4800017,0,1,CONT,0
 
 asynccharaemo,chara_8,Shock,CONT,0
 
-message,,しかし、アリシアが目にしたのは、テーブルや椅子に突っ伏し、<br>疲れ果てて眠りこけている仲間たちの姿だった。
+message,,<size=32>But what Alicia found was her comrades                   <br><size=32>slumped over tables and chairs， fast asleep.<br> 
 
 asynccharaface,chara_8,FaceUnique01,CONT,0
 
@@ -1091,7 +1091,7 @@ asyncseplay,setag1_27,se4800022,0,1,CONT,0
 asynccharaemo,chara_8,Speak,CONT,0
 
 
-message,アリシア,ふふっ……皆さん、お疲れみたいですね。<br>このまま、そっと寝かしてあげたほうが良さそうです……,300201000,mcv_1001051001_021_01,chara_8
+message,アリシア,<size=32>Hehe... everyone's exhausted.                            <br><size=32>Best to let them sleep peacefully...<br> ,300201000,mcv_1001051001_021_01,chara_8
 
 
 window,off
@@ -1122,7 +1122,7 @@ waitorclick,2.5
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――前線基地周辺の丘の上</size>,,,on
+messageTextCenter,,<size=48>--Hill Near the Forward Base</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -1139,7 +1139,7 @@ asynccharascale,chara_4,1,0,CONT,0
 asynccharashowalpha,chara_4,1,0.3,CONT,0
 
 window,on,0.15
-message,,その夜、ヒマリは１人、<br>前線基地の近くの丘の上で星空を眺めていた。
+message,,<size=32>That night， Himari sat alone on a hill                   <br><size=32>near the base， gazing at the stars.<br> 
 
 asyncjump,CHARA,chara_4,-30,0.25,1,off,0,CONT
 
@@ -1148,7 +1148,7 @@ asyncseplay,setag1_28,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,ヒマリ,星がきれい……だな……,106601000G,mcv_1001051001_022_01,chara_4
+message,ヒマリ,<size=32>The stars are... so pretty...<br> ,106601000G,mcv_1001051001_022_01,chara_4
 
 window,off
 wait,0.15
@@ -1168,7 +1168,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒマリ,あの街の空にも、きっと、<br>同じような星が輝いてたんだよね……,106601000G,mcv_1001051001_023_01,chara_4
+message,ヒマリ,<size=32>The sky above that city must have had                    <br><size=32>the same stars shining too...<br> ,106601000G,mcv_1001051001_023_01,chara_4
 
 window,off
 wait,0.15
@@ -1213,7 +1213,7 @@ asynccharaemo,chara_4,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,あの世界の人たちは、ただ、幸せになりたかっただけなのに……。<br>愛する人と一緒に生きていたかった……きっと、それだけだったのに。,106601000G,mcv_1001051001_024_01,chara_4
+message,ヒマリ,<size=32>All they wanted was to be happy...                       <br><size=32>To live with their loved ones... just that.<br> ,106601000G,mcv_1001051001_024_01,chara_4
 
 window,off
 wait,0.15
@@ -1232,7 +1232,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒマリ,……最後に聞こえた、あの女の人の、悲しい声。<br>どうしてだろう。初めて聞いたはずなのに、すごく、懐かしい気もした……,106601000G,mcv_1001051001_025_01,chara_4
+message,ヒマリ,<size=32>...That woman's sad voice at the very end.               <br><size=32>It was my first time hearing it， yet it felt familiar...<br> ,106601000G,mcv_1001051001_025_01,chara_4
 
 asynccharaface,chara_4,FaceUnique02,CONT,0
 
@@ -1243,7 +1243,7 @@ asyncseplay,setag1_32,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,ヒマリ,パパが言ってたな。ママはロボット工学の研究員で、<br>毎晩のように遅くまで研究室に籠り切りだったって……,106601000G,mcv_1001051001_026_01,chara_4
+message,ヒマリ,<size=32>Dad told me Mom was a robotics researcher，               <br><size=32>always locked in her lab late into the night...<br> ,106601000G,mcv_1001051001_026_01,chara_4
 
 asynccharaface,chara_4,FaceHappy,CONT,0
 
@@ -1254,7 +1254,7 @@ asyncseplay,setag1_33,se4800007,0,1,CONT,0
 asynccharaemo,chara_4,Panic,CONT,0
 
 
-message,ヒマリ,『研究員』だって聞いて、勝手にママの声だと錯覚しちゃったのかも……。<br>小さい時の記憶しかないからママがどんな声だったかなんて覚えてないのに……,106601000G,mcv_1001051001_027_01,chara_4
+message,ヒマリ,<size=32>Hearing 'researcher' made me imagine it was              <br><size=32>Mom's voice... I barely remember hers...<br> ,106601000G,mcv_1001051001_027_01,chara_4
 
 asynccharaface,chara_4,EyeClose,CONT,0
 asynccharaface,chara_4,FaceNormal,CONT,0
@@ -1266,7 +1266,7 @@ asyncseplay,setag1_34,se4800015,0,1,CONT,0
 asynccharaemo,chara_4,Dull,CONT,0
 
 
-message,ヒマリ,あの女の人が、最後まで諦めずに守りたかった未来。<br>果たせなくて、悔しかっただろうな……,106601000G,mcv_1001051001_028_01,chara_4
+message,ヒマリ,<size=32>The future she fought to protect till the end.           <br><size=32>She must have been so frustrated...<br> ,106601000G,mcv_1001051001_028_01,chara_4
 
 asynccharaface,chara_4,FaceSad,CONT,0
 
@@ -1277,7 +1277,7 @@ asyncseplay,setag1_35,se4800008,0,1,CONT,0
 asynccharaemo,chara_4,Sweat,CONT,0
 
 
-message,ヒマリ,どこの世界にも悩み苦しみながらも、<br>必死に生きている人たちがいっぱいいる……,106601000G,mcv_1001051001_029_01,chara_4
+message,ヒマリ,<size=32>In every world， people struggle and suffer，              <br><size=32>yet keep trying desperately to live...<br> ,106601000G,mcv_1001051001_029_01,chara_4
 
 window,off
 wait,0.15
@@ -1297,7 +1297,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒマリ,そして、あの世界の人たちみたいに、<br>生きたくても未来を失ってしまう人たちも、きっと多くいるんだと思う。,106601000G,mcv_1001051001_030_01,chara_4
+message,ヒマリ,<size=32>And like the people of that world，                       <br><size=32>so many lose their future despite wanting to live.<br> ,106601000G,mcv_1001051001_030_01,chara_4
 
 asynccharaface,chara_4,EyeOpen,CONT,0
 asynccharaface,chara_4,FaceNormal,CONT,0
@@ -1309,7 +1309,7 @@ asyncseplay,setag1_37,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,ヒマリ,それは、こっちの、トレスリア地方の人々も同じ……。<br>しれーかんも、みんなも、必死になって生きようとしていて……,106601000G,mcv_1001051001_031_01,chara_4
+message,ヒマリ,<size=32>The same goes for the people of Treslia...               <br><size=32>Commander and everyone fight to survive too...<br> ,106601000G,mcv_1001051001_031_01,chara_4
 
 window,off
 wait,0.15
@@ -1337,11 +1337,11 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,ヒマリ,ごめんね、シエナ。<br>やっぱりわたしは、まだ元の世界には帰れないよ。,106601000G,mcv_1001051001_032_01,on
+message,ヒマリ,<size=32>I'm sorry， Siena.                                        <br><size=32>I still can't go back to our world yet.<br> ,106601000G,mcv_1001051001_032_01,on
 
-message,ヒマリ,だって、ここにも……,106601000G,mcv_1001051001_033_01,on
+message,ヒマリ,<size=32>Because here too...<br> ,106601000G,mcv_1001051001_033_01,on
 
-message,ヒマリ,どうしても守りたい、『明日』があるから……,106601000G,mcv_1001051001_034_01,on
+message,ヒマリ,<size=32>There's a 'tomorrow' I have to protect...<br> ,106601000G,mcv_1001051001_034_01,on
 
 window,off
 bgmstop,bgmtag1_2,0.5

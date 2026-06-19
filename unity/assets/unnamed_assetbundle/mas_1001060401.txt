@@ -48,7 +48,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
@@ -57,14 +57,14 @@ bgmplay,bgmtag1_1,bgm0041,0.75,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――大穴　光の階層</size>,,,on
+messageTextCenter,,<size=48>--The Abyss: Stratum of Light</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
 
 
 window,on,0.15
-message,,クルルの嗅覚を頼りに、盗賊団の痕跡を追う一行。
+message,,<size=32>The party followed the bandits' trail，                   <br><size=32>guided by Kururu's keen sense of smell.<br> 
 
 window,off
 wait,0.15
@@ -98,7 +98,7 @@ wait,0.2
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
 window,on,0.15
-message,,そして辿り着いたのは巨大な催眠石と思われる鉱脈と、<br>その前で不敵に笑う盗賊たちの姿であった。
+message,,<size=32>What they found was a massive vein of what               <br><size=32>appeared to be Hypnosis Stone— and grinning bandits.<br> 
 
 window,off
 wait,0.15
@@ -139,7 +139,7 @@ asynccharaemo,chara_3,Twinkle,CONT,0
 
 
 window,on,0.15
-message,クルル,わ～～、あれ？　『催眠石』かなぁ？,106701000G,mcv_1001060401_001_01,chara_3
+message,クルル,<size=32>Wow~~ is that a Hypnosis Stone~?<br> ,106701000G,mcv_1001060401_001_01,chara_3
 
 window,off
 wait,0.15
@@ -185,7 +185,7 @@ asynccharaemo,chara_4,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,しーーっ！　大きい声、ダメだよ……,106601000G,mcv_1001060401_002_01,chara_4
+message,ヒマリ,<size=32>Shhhh! Not so loud...<br> ,106601000G,mcv_1001060401_002_01,chara_4
 
 window,off
 wait,0.15
@@ -226,7 +226,7 @@ asynccharaemo,chara_5,Sweat,CONT,0
 
 
 window,on,0.15
-message,マリナ,す、すごいですねぇ～……。<br>火山の階層の鉱脈より何倍も大きいような……,100301000G,mcv_1001060401_003_01,chara_5
+message,マリナ,<size=32>Th-that's incredible~...                                 <br><size=32>It looks way bigger than the volcano vein...<br> ,100301000G,mcv_1001060401_003_01,chara_5
 
 window,off
 wait,0.15
@@ -269,7 +269,7 @@ asynccharaemo,chara_6,Dull,CONT,0
 
 
 window,on,0.15
-message,ゴレイヌ,やばいぞ、教授……この付近の魔力係数、さっきの倍以上だ！,2037001,mcv_1001060401_004_01,chara_6
+message,ゴレイヌ,<size=32>This is bad， Professor... the magic reading              <br><size=32>here is more than double!<br> ,2037001,mcv_1001060401_004_01,chara_6
 
 asyncshake,CHARA,chara_7,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -278,7 +278,7 @@ asyncseplay,setag1_5,se4800006,0,1,CONT,0
 asynccharaemo,chara_7,Trouble,CONT,0
 
 
-message,ロジー,そ、そうなの……？<br>どうりでさっきより頭痛が……,2036001,mcv_1001060401_005_01,chara_7
+message,ロジー,<size=32>R-really...?                                             <br><size=32>No wonder my headache is worse...<br> ,2036001,mcv_1001060401_005_01,chara_7
 
 window,off
 wait,0.15
@@ -335,7 +335,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ソフィア,あいつら、あれを採掘するつもりかしら？,106501000G,mcv_1001060401_006_01,chara_8
+message,ソフィア,<size=32>Are they planning to mine that?<br> ,106501000G,mcv_1001060401_006_01,chara_8
 
 asynccharaface,chara_9,FaceAnger,CONT,0
 
@@ -346,9 +346,9 @@ asyncseplay,setag1_7,se4800022,0,1,CONT,0
 asynccharaemo,chara_9,Speak,CONT,0
 
 
-message,ベリサ,するってぇと～、<br>ここから大量に催眠石を運び出してたのかなぁ～？,100201000G,mcv_1001060401_007_01,chara_9
+message,ベリサ,<size=32>So that means~                                           <br><size=32>they've been hauling Hypnosis Stones from here~?<br> ,100201000G,mcv_1001060401_007_01,chara_9
 
-message,<user>,どうだろうな？<br>今までまったく手の付けられていない鉱脈のようにも見えるが……
+message,<user>,<size=32>Hard to say.                                             <br><size=32>This vein looks completely untouched to me...<br> 
 
 window,off
 wait,0.15
@@ -491,7 +491,7 @@ asyncshake,CHARA,chara_8,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_9,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,,しかし、盗賊たちがつるはしを取り出し、鉱脈に向けて叩きつけた途端、<br>次から次へと盗賊が倒れて行ってしまう。
+message,,<size=32>But the moment the bandits pulled out picks              <br><size=32>and struck the vein， they collapsed one by one.<br> 
 
 window,off
 wait,0.15
@@ -538,7 +538,7 @@ asynccharaemo,chara_3,Question,CONT,0
 
 
 window,on,0.15
-message,クルル,あれれ～～！？<br>みんな倒れちゃった！,106701000G,mcv_1001060401_008_01,chara_3
+message,クルル,<size=32>Huh~~!?                                                  <br><size=32>They all collapsed!<br> ,106701000G,mcv_1001060401_008_01,chara_3
 
 window,off
 wait,0.15
@@ -603,7 +603,7 @@ asynccharaemo,chara_8,Shock,CONT,0
 
 
 window,on,0.15
-message,ソフィア,な、なになに！？<br>つるはしを叩きつけた途端に……,106501000G,mcv_1001060401_009_01,chara_8
+message,ソフィア,<size=32>W-what just happened!?                                   <br><size=32>The instant they struck with their picks...<br> ,106501000G,mcv_1001060401_009_01,chara_8
 
 window,off
 wait,0.15
@@ -663,7 +663,7 @@ asynccharaemo,chara_7,Panic,CONT,0
 
 
 window,on,0.15
-message,ロジー,助手くん、さっき魔力係数が高いって言ってたよねっ！？<br>あそこのでっかい石からじゃないの？,2036001,mcv_1001060401_010_01,chara_7
+message,ロジー,<size=32>Goleinu， you said the magic reading was                  <br><size=32>high! Isn't it from that big stone?<br> ,2036001,mcv_1001060401_010_01,chara_7
 
 asynccharaface,chara_6,FaceSurprise,CONT,0
 
@@ -674,7 +674,7 @@ asyncseplay,setag1_16,se4800022,0,1,CONT,0
 asynccharaemo,chara_6,Speak,CONT,0
 
 
-message,ゴレイヌ,よしっ！　オレ様が解析してみようじゃないか！,2037001,mcv_1001060401_011_01,chara_6
+message,ゴレイヌ,<size=32>Right! Let the great Goleinu analyze it!<br> ,2037001,mcv_1001060401_011_01,chara_6
 
 window,off
 wait,0.15
@@ -739,7 +739,7 @@ asynccharaemo,chara_9,Sweat,CONT,0
 
 
 window,on,0.15
-message,ベリサ,どう考えてもあの鉱脈からよ。<br>ハンパない魔力が漂ってるもの……,100201000G,mcv_1001060401_012_01,chara_9
+message,ベリサ,<size=32>It's obviously from that vein.                           <br><size=32>The magic radiating off it is insane...<br> ,100201000G,mcv_1001060401_012_01,chara_9
 
 asynccharaface,chara_5,FaceSad,CONT,0
 
@@ -750,7 +750,7 @@ asyncseplay,setag1_18,se4800007,0,1,CONT,0
 asynccharaemo,chara_5,Panic,CONT,0
 
 
-message,マリナ,それだけ、強力な催眠石ってことでしょうかぁ～？,100301000G,mcv_1001060401_013_01,chara_5
+message,マリナ,<size=32>So it's an incredibly powerful Hypnosis                  <br><size=32>Stone~?<br> ,100301000G,mcv_1001060401_013_01,chara_5
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -804,7 +804,7 @@ asynccharaemo,chara_4,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,あっち……！　あっちから、モンスターが……,106601000G,mcv_1001060401_014_01,chara_4
+message,ヒマリ,<size=32>Over there...! Monsters are coming...!<br> ,106601000G,mcv_1001060401_014_01,chara_4
 
 window,off
 wait,0.15
@@ -853,7 +853,7 @@ asynccharaemo,chara_3,Trouble,CONT,0
 
 
 window,on,0.15
-message,クルル,わわわっ！　すっごい数だよ！<br>倒れた人たち、モンスターに食べられちゃうんじゃ……,106701000G,mcv_1001060401_015_01,chara_3
+message,クルル,<size=32>Whoa! There are so many!                                 <br><size=32>The people who collapsed will get eaten...!<br> ,106701000G,mcv_1001060401_015_01,chara_3
 
 asynccharaface,chara_4,FaceSad,CONT,0
 
@@ -864,9 +864,9 @@ asyncseplay,setag1_21,se4800007,0,1,CONT,0
 asynccharaemo,chara_4,Panic,CONT,0
 
 
-message,ヒマリ,このままじゃ、盗賊さんたち、食べられちゃう……！,106601000G,mcv_1001060401_016_01,chara_4
+message,ヒマリ,<size=32>At this rate， the bandits will be eaten...!<br> ,106601000G,mcv_1001060401_016_01,chara_4
 
-message,<user>,奴らには、聞きたいことが沢山あるんだ。<br>モンスターの襲撃からあいつらを守るぞ。
+message,<user>,<size=32>We still have plenty to ask them.                        <br><size=32>Protect them from the monsters.<br> 
 
 window,off
 wait,0.15
@@ -932,7 +932,7 @@ asynccharaemo,chara_9,Sweat,CONT,0
 
 
 window,on,0.15
-message,ベリサ,そんな義理なんてないけど、しょうがないわね～……,100201000G,mcv_1001060401_017_01,chara_9
+message,ベリサ,<size=32>We don't owe them anything， but fine~...<br> ,100201000G,mcv_1001060401_017_01,chara_9
 
 window,off
 wait,0.15
@@ -986,7 +986,7 @@ asynccharaemo,chara_6,Elated,CONT,0
 
 
 window,on,0.15
-message,ゴレイヌ,よっしゃ任せろ！<br>今こそスーパーゴレイヌ様の力を見せてやるぜぇっ！,2037001,mcv_1001060401_018_01,chara_6
+message,ゴレイヌ,<size=32>Leave it to me!                                          <br><size=32>Time to show off Super Goleinu's power!<br> ,2037001,mcv_1001060401_018_01,chara_6
 
 window,off
 wait,0.15

@@ -63,7 +63,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
@@ -165,7 +165,7 @@ asynccharaemo,chara_4,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ソフィア,なっ……何！？<br>こいつら、倒したら光になって消えた……！？,106501000G,mcv_1001060502_001_01,chara_4
+message,ソフィア,<size=32>Wh-what!?                                                <br><size=32>They turned to light and vanished...!?<br> ,106501000G,mcv_1001060502_001_01,chara_4
 
 asynccharaface,chara_6,FaceSad,CONT,0
 
@@ -176,7 +176,7 @@ asyncseplay,setag2_6,se4800006,0,1,CONT,0
 asynccharaemo,chara_6,Trouble,CONT,0
 
 
-message,マリナ,な、なんで急に湧いて出てきて、<br>倒したら消えちゃうんですかぁ～～！？,100301000G,mcv_1001060502_002_01,chara_6
+message,マリナ,<size=32>Wh-why did they appear out of nowhere                    <br><size=32>and vanish when we defeated them~~!?<br> ,100301000G,mcv_1001060502_002_01,chara_6
 
 asynccharaface,chara_5,FaceUnique01,CONT,0
 
@@ -187,7 +187,7 @@ asyncseplay,setag2_7,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,ベリサ,何、これ……？　まさか、これ……幻影！？,100201000G,mcv_1001060502_003_01,chara_5
+message,ベリサ,<size=32>What is this...? Could these be... phantoms!?<br> ,100201000G,mcv_1001060502_003_01,chara_5
 
 window,off
 wait,0.15
@@ -232,9 +232,9 @@ asynccharaemo,chara_7,Question,CONT,0
 
 
 window,on,0.15
-message,クルル,ゲンエイ？,106701000G,mcv_1001060502_004_01,chara_7
+message,クルル,<size=32>Phantoms?<br> ,106701000G,mcv_1001060502_004_01,chara_7
 
-message,<user>,なるほどな……そうか。
+message,<user>,<size=32>I see... so that's it.<br> 
 
 window,off
 wait,0.15
@@ -297,13 +297,13 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,どういうことなの？,106501000G,mcv_1001060502_005_01,chara_4
+message,ソフィア,<size=32>What do you mean?<br> ,106501000G,mcv_1001060502_005_01,chara_4
 
-message,<user>,さっき、盗賊たちが『催眠石』で見ていた幻想は、<br>おそらく盗賊団のリーダーになったものだろう。
+message,<user>,<size=32>The visions the bandits saw from the stone               <br><size=32>were about becoming gang leaders.<br> 
 
-message,<user>,そして、その直後にさっきの大量の盗賊に囲まれてしまった。<br>そしてその盗賊たちは実際にはただの幻影。
+message,<user>,<size=32>Right after that， we were surrounded by                  <br><size=32>those bandits— who were just phantoms.<br> 
 
-message,<user>,この階層の『催眠石』が、盗賊たちの強烈な『妄想』に共鳴し、<br>その幻を、現実世界に『具現化』させたものじゃないだろうか？
+message,<user>,<size=32>The Hypnosis Stone resonated with their                  <br><size=32>delusions and manifested them into reality.<br> 
 
 window,off
 wait,0.15
@@ -346,9 +346,9 @@ asynccharaemo,chara_4,Panic,CONT,0
 
 
 window,on,0.15
-message,ソフィア,妄想を具現化させる？？<br>何よ、それ……！,106501000G,mcv_1001060502_006_01,chara_4
+message,ソフィア,<size=32>Manifesting delusions!?                                  <br><size=32>What kind of power is that...!<br> ,106501000G,mcv_1001060502_006_01,chara_4
 
-message,<user>,とにかく、あの催眠石の鉱脈には近づくな！<br>お前たちも、あそこに近付くと妄想が具現化してしまう危険がある！
+message,<user>,<size=32>Stay away from that Hypnosis Stone vein!                 <br><size=32>If you get close， your delusions could manifest!<br> 
 
 asynccharaface,chara_5,FaceSad,CONT,0
 
@@ -359,7 +359,7 @@ asyncseplay,setag2_14,se4800006,0,1,CONT,0
 asynccharaemo,chara_5,Trouble,CONT,0
 
 
-message,ベリサ,妄想が具現化するってどういうことよ？,100201000G,mcv_1001060502_007_01,chara_5
+message,ベリサ,<size=32>What do you mean delusions manifest?<br> ,100201000G,mcv_1001060502_007_01,chara_5
 
 asynccharaface,chara_6,FaceSad,CONT,0
 
@@ -370,7 +370,7 @@ asyncseplay,setag2_15,se4800008,0,1,CONT,0
 asynccharaemo,chara_6,Sweat,CONT,0
 
 
-message,マリナ,今まで見た催眠石での幻想は、<br>結構いい幻想ばかりだった気がしますけどぉ～,100301000G,mcv_1001060502_008_01,chara_6
+message,マリナ,<size=32>The visions from Hypnosis Stones so far                  <br><size=32>were all pretty pleasant ones though~<br> ,100301000G,mcv_1001060502_008_01,chara_6
 
 window,off
 wait,0.15
@@ -423,9 +423,9 @@ asynccharaemo,chara_7,Twinkle,CONT,0
 
 
 window,on,0.15
-message,クルル,お菓子をい～～ぱい食べる夢を見たら、<br>それが出てきちゃうってこと～？,106701000G,mcv_1001060502_009_01,chara_7
+message,クルル,<size=32>So if I dream of eating lots of sweets~                  <br><size=32>they'd actually appear~?<br> ,106701000G,mcv_1001060502_009_01,chara_7
 
-message,<user>,そんな可愛いものならまだいい。<br>例えば、ベリサが苦手なオバケでも頭に浮かんでみろ？　どうなると思う？
+message,<user>,<size=32>That'd be harmless enough.                               <br><size=32>But what if Belisa imagined ghosts? Then what?<br> 
 
 window,off
 wait,0.15
@@ -472,7 +472,7 @@ asynccharaemo,chara_5,Panic,CONT,0
 
 
 window,on,0.15
-message,ベリサ,ちょっ……怖いこと言わないでよ！,100201000G,mcv_1001060502_010_01,chara_5
+message,ベリサ,<size=32>H-hey... don't say scary things like that!<br> ,100201000G,mcv_1001060502_010_01,chara_5
 
 window,off
 wait,0.15
@@ -511,7 +511,7 @@ asynccharaemo,chara_8,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,み、みんな……さっきの盗賊さんたちのトコに……<br>な、何か、飛んできてる！,106601000G,mcv_1001060502_011_01,chara_8
+message,ヒマリ,<size=32>E-everyone... near those bandits...                      <br><size=32>S-something is flying over!<br> ,106601000G,mcv_1001060502_011_01,chara_8
 
 window,off
 wait,0.15
@@ -574,7 +574,7 @@ asynccharaemo,chara_5,Panic,CONT,0
 
 
 window,on,0.15
-message,ベリサ,ちょっ……な、なんなのよ、あの、不気味なの……！,100201000G,mcv_1001060502_012_01,chara_5
+message,ベリサ,<size=32>Wh-what is that creepy thing...!<br> ,100201000G,mcv_1001060502_012_01,chara_5
 
 window,off
 wait,0.15
@@ -606,9 +606,9 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,,見ると、気絶した盗賊たちの周囲を、青黒い人魂のような禍々しい魔力の塊が、<br>音もなく飛び回っているのが目に入る。
+message,,<size=32>Dark blue-black orbs of sinister magic—                  <br><size=32>like will-o'-wisps— circled the fainted bandits.<br> 
 
-message,,そしてその青黒い塊は、１人の盗賊の頭に吸い込まれていった――
+message,,<size=32>Then one of the dark orbs was absorbed                   <br><size=32>into a bandit's head—<br> 
 
 window,off
 wait,0.15
@@ -647,7 +647,7 @@ asynccharaemo,chara_7,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,クルル,あたまの中に……入っちゃった！？,106701000G,mcv_1001060502_013_01,chara_7
+message,クルル,<size=32>It went... inside his head!?<br> ,106701000G,mcv_1001060502_013_01,chara_7
 
 window,off
 wait,0.15
@@ -737,11 +737,11 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,盗賊Ａ,………ッ！,2028301,,chara_1
+message,盗賊Ａ,<size=32>......!<br> ,2028301,,chara_1
 
-message,,その盗賊は、まるで糸で引かれた人形のように、ぎこちなく立ち上がる。<br>その瞳は、虚ろなまま、青黒い光を妖しく宿していた。
+message,,<size=32>The bandit rose like a puppet on strings.                <br><size=32>His hollow eyes glowed an eerie dark blue.<br> 
 
-message,,そして、両腕を天に掲げ、<br>恍惚とした表情で、まるで狂信者のように叫び始めた。
+message,,<size=32>He raised both arms skyward and began                    <br><size=32>screaming in ecstasy， like a zealot.<br> 
 
 window,off
 wait,0.15
@@ -784,14 +784,14 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,盗賊Ａ,ああ……声が聞こえる……！　救いの声が……！<br>この恐怖こそが、我らが主に捧げる、最高の祈りなのだ！,2028301,,chara_1
+message,盗賊Ａ,<size=32>I hear it... the voice of salvation...!                  <br><size=32>This terror is the finest prayer to our lord!<br> ,2028301,,chara_1
 
 linework,on,Black,Middle
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,盗賊Ａ,御魂を捧げよ……恐怖で覆いつくせ！<br>かの地を焦土と化すまで……！,2028301,,chara_1
+message,盗賊Ａ,<size=32>Offer your souls... drown all in fear!                   <br><size=32>Until that land is scorched to ash...!<br> ,2028301,,chara_1
 
 window,off
 wait,0.15
@@ -856,9 +856,9 @@ asynccharaemo,chara_4,Dull,CONT,0
 
 
 window,on,0.15
-message,ソフィア,な、なに言ってるの？　救いの声？　恐怖？<br>なんだか嫌な予感がするんだけど……,106501000G,mcv_1001060502_014_01,chara_4
+message,ソフィア,<size=32>What is he saying? Salvation? Terror?                    <br><size=32>I have a really bad feeling about this...<br> ,106501000G,mcv_1001060502_014_01,chara_4
 
-message,<user>,来るぞ……。<br>あの男の脳内に浮かんでいる幻想がな……
+message,<user>,<size=32>Here it comes...                                         <br><size=32>Whatever's in that man's mind is about to manifest...<br> 
 
 window,off
 wait,0.15
@@ -900,11 +900,11 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,,彼の狂った叫びが、引き金だった。
+message,,<size=32>His crazed scream was the trigger.<br> 
 
-message,,この階層全体に満ちていた催眠石の淡い光が、<br>一瞬にして禍々しい紫へと変色し、甲高い共鳴音を響かせ始める。
+message,,<size=32>The faint glow filling the stratum shifted               <br><size=32>to sinister purple with a shrill resonance.<br> 
 
-message,,その異変に、１度は撤退したはずの２人組が、慌てて引き返してくる。
+message,,<size=32>Alarmed by the disturbance， the duo who had              <br><size=32>retreated came rushing back.<br> 
 
 window,off
 wait,0.15
@@ -945,7 +945,7 @@ asynccharaemo,chara_9,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ゴレイヌ,やばいやばい！<br>あっちもこっちもやばいぞぉぉ～～～！,2037001,mcv_1001060502_015_01,chara_9
+message,ゴレイヌ,<size=32>Bad bad bad!                                             <br><size=32>It's bad everywhere~~~!<br> ,2037001,mcv_1001060502_015_01,chara_9
 
 window,off
 wait,0.15
@@ -984,7 +984,7 @@ asynccharaemo,chara_10,Panic,CONT,0
 
 
 window,on,0.15
-message,ロジー,ちょっとちょっと何これっ！？<br>何が起きてるのぉぉ～～！？,2036001,mcv_1001060502_016_01,chara_10
+message,ロジー,<size=32>Wait wait what is this!?                                 <br><size=32>What's happening~~!?<br> ,2036001,mcv_1001060502_016_01,chara_10
 
 window,off
 wait,0.15
@@ -1041,7 +1041,7 @@ asynccharamove,chara_13,EaseOut,Y,100,0.8,CONT,0
 asyncwait
 
 window,on,0.15
-message,,次の瞬間、一行の周囲の壁や地面から、まるで黒い泥が湧き出すように、<br>異形のモンスターたちが次々と姿を現した。
+message,,<size=32>The next instant， from the walls and floor，              <br><size=32>grotesque monsters emerged like black ooze.<br> 
 
 window,off
 bgmstop,bgmtag2_1,0.5

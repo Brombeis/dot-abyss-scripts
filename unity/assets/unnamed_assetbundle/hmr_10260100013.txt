@@ -29,11 +29,11 @@ asyncseplay,setag3_1,se4800022,0,1,CONT
 
 asynccharaemo,chara_2,Speak,CONT
 window,on,0.15
-message,ルディア,あら、お疲れさま。<br>どうでした、司令官君とのお仕事体験は？,,vc_10260100013_001_01
+message,ルディア,<size=32>Oh my， good work out there.                              <br><size=32>So how was your work experience with the Commander?<br> ,,vc_10260100013_001_01
 
 asyncskipwait
 
-message,,どこかまだふわふわとしているシルヴィアと酒場に戻ると、<br>ルディアがそう声をかけてきた。
+message,,<size=32>When we returned to the bar with Sylvia still looking    <br><size=32>somewhat dazed， Ludia greeted us.<br> 
 
 window,off
 wait,0.15
@@ -59,11 +59,11 @@ asynccharaemo,chara_1,Shy,CONT
 
 asynccharareaction,chara_1,Shake,1,CONT
 window,on,0.15
-message,シルヴィア,……なかなか、刺激的でしたわ……,,vc_10260100013_002_01
+message,シルヴィア,<size=32>...It was quite... stimulating...<br> ,,vc_10260100013_002_01
 
 asyncskipwait
 
-message,,頬を赤く染め、視線を逸らしながら、シルヴィアはポツリと答える。
+message,,<size=32>With flushed cheeks and averted eyes， Sylvia murmured her<br><size=32>reply.<br> 
 
 charaface,chara_2,FaceHappy
 
@@ -71,7 +71,7 @@ asyncseplay,setag3_3,se4800013,0,1,CONT
 
 asynccharareaction,chara_2,Jump,1,STOP
 asynccharaemo,chara_2,Spirits,STOP
-message,ルディア,ふふっ、その様子だと、とても乱れたみたいですね♪,,vc_10260100013_003_01
+message,ルディア,<size=32>Fufu， judging by the look of you， things got quite wild♪<br> ,,vc_10260100013_003_01
 
 charaface,chara_1,FaceShy
 
@@ -81,7 +81,7 @@ asynccharareaction,chara_1,Shake,1,STOP
 asynccharaemo,chara_1,Shock,STOP
 
 asyncshake,CHARA,chara_1,20,15,0.25,3,off,off,0,off,STOP
-message,シルヴィア,なっ……！？,,vc_10260100013_004_01
+message,シルヴィア,<size=32>Wha...!?<br> ,,vc_10260100013_004_01
 
 charaface,chara_2,FaceFun
 
@@ -89,11 +89,11 @@ asyncseplay,setag3_5,se4800004,0,1,CONT
 
 asynccharareaction,chara_2,Nod,1,STOP
 asynccharaemo,chara_2,Laugh,STOP
-message,ルディア,衣装も丈夫だったでしょう？,,vc_10260100013_005_01
+message,ルディア,<size=32>The outfit held up well， didn't it?<br> ,,vc_10260100013_005_01
 
 charaface,chara_2,EyeOpen
 charaface,chara_2,FaceNormal
-message,ルディア,あの衣装は、どれだけ乱れても、<br>簡単に破れたりしないようになっているんです。,,vc_10260100013_006_01
+message,ルディア,<size=32>Those outfits are made so they won't tear easily，        <br><size=32>no matter how wild things get.<br> ,,vc_10260100013_006_01
 
 charaface,chara_2,FaceUnique02
 
@@ -102,7 +102,7 @@ asyncseplay,setag3_6,se4800003,0,1,CONT
 asynccharaemo,chara_2,Twinkle,CONT
 
 charamove,chara_2,LinearTarget,X,300,0.3
-message,ルディア,よかったら、他の衣装も着てみますか？<br>シルヴィアさんでしたら、きっとよくお似合いに――,,vc_10260100013_007_01
+message,ルディア,<size=32>If you'd like， would you want to try on other outfits?   <br><size=32>I'm sure they'd look wonderful on you—<br> ,,vc_10260100013_007_01
 
 asyncskipwait
 
@@ -118,12 +118,12 @@ asynccharaemo,chara_1,Shy,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
 window,on,0.15
-message,シルヴィア,は……破廉恥ですわぁっ……！,,vc_10260100013_008_01
+message,シルヴィア,<size=32>It's... so indecent...!<br> ,,vc_10260100013_008_01
 
 asynccharahide,chara_1,0.3,CONT
 charamove,chara_1,LinearTarget,X,-500,0.3
 
-message,<user>,おい、シルヴィア……！？
+message,<user>,<size=32>Hey， Sylvia...!?<br> 
 
 window,off
 wait,0.15
@@ -140,11 +140,11 @@ asynccharaemo,chara_2,Laugh,CONT,0.5
 asynccharaface,chara_2,EyeOpen,CONT,1.5
 asynccharaface,chara_2,FaceNormal,CONT,1.5
 window,on,0.15
-message,ルディア,あら……行っちゃいましたねぇ。,,vc_10260100013_009_01
+message,ルディア,<size=32>Oh my... there she goes.<br> ,,vc_10260100013_009_01
 
 asyncskipwait
 
-message,<user>,あまりあいつをからかうな。可哀想だろ。
+message,<user>,<size=32>Don't tease her too much. She's had enough.<br> 
 
 charaface,chara_2,FaceFun
 
@@ -155,14 +155,14 @@ asynccharaemo,chara_2,Spirits,STOP
 
 asynccharaface,chara_2,EyeOpen,STOP,3
 asynccharaface,chara_2,FaceNormal,STOP,3
-message,ルディア,うふふ、かわいらしくてつい……でも、司令官君ならもう分かるでしょ？<br>あの子……この世界の大変な才能を持ってるわ。,,vc_10260100013_010_01
+message,ルディア,<size=32>Ufufu， she's just so adorable I couldn't help myself...  <br><size=32>But you can already tell， can't you? That girl... has remarkable talent in this line of work.<br> ,,vc_10260100013_010_01
 
 charaface,chara_2,FaceHappy
 
 asynccharareaction,chara_2,Nod,1,STOP
-message,ルディア,きっと、すぐにここで働きたいって言い出すわよ？,,vc_10260100013_011_01
+message,ルディア,<size=32>I'm sure she'll be asking to work here in no time.<br> ,,vc_10260100013_011_01
 
-message,,たしかにシルヴィアは、初体験ですぐに快感を覚え、絶頂まで迎えた。<br>ルディアの言葉には、俺も同感だと頷かざるを得ないのだった。
+message,,<size=32>Indeed， Sylvia had quickly discovered pleasure in her    <br><size=32>first experience and even reached climax. I couldn't help but nod in agreement with Ludia's words.<br> 
 
 
 window,off

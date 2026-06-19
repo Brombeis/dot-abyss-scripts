@@ -36,7 +36,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
@@ -45,7 +45,7 @@ bgmplay,bgmtag2_1,bgm0041,0.75,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――『大門駅』周辺</size>,,,on
+messageTextCenter,,<size=48>--Near 'Daimon Station'</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -85,11 +85,11 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,,大門駅までの道のりは、<br>そこで起きたであろう凄惨な戦いの跡を生々しく留めていた。
+message,,<size=32>The road to Daimon Station bore vivid scars              <br><size=32>of what must have been a brutal battle.<br> 
 
-message,,潰れたバリケード、壁に残る無数の弾痕、<br>そして、動かなくなった警備ロボットの残骸の数々……
+message,,<size=32>Crushed barricades， countless bullet holes in walls，     <br><size=32>and wreckage of disabled security robots...<br> 
 
-message,,ただ１つ疑問なのは、<br>人間の遺体の痕跡が少しも残されていないことである。
+message,,<size=32>The one mystery was                                      <br><size=32>that not a trace of human remains could be found.<br> 
 
 window,off
 wait,0.15
@@ -130,7 +130,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ソフィア,なんなの……？<br>この凄惨な戦いの傷跡は……,106501000G,mcv_1001050802_001_01,chara_1
+message,ソフィア,<size=32>What is this...?                                         <br><size=32>These scars of such a terrible battle...<br> ,106501000G,mcv_1001050802_001_01,chara_1
 
 asyncshake,CHARA,chara_2,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -139,7 +139,7 @@ asyncseplay,setag2_2,se4800015,0,1,CONT,0
 asynccharaemo,chara_2,Dull,CONT,0
 
 
-message,ベリサ,よっぽど激しい戦闘があった感じだよね～？,100201000G,mcv_1001050802_002_01,chara_2
+message,ベリサ,<size=32>Must've been one intense fight， huh~?<br> ,100201000G,mcv_1001050802_002_01,chara_2
 
 asyncjump,CHARA,chara_3,-30,0.25,1,off,0,CONT
 
@@ -148,7 +148,7 @@ asyncseplay,setag2_3,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,マリナ,そうですねぇ。<br>まるで、大きな戦争が起きた跡のような……,100301000G,mcv_1001050802_003_01,chara_3
+message,マリナ,<size=32>Indeed~.                                                 <br><size=32>Like the aftermath of a great war...<br> ,100301000G,mcv_1001050802_003_01,chara_3
 
 window,off
 wait,0.15
@@ -195,7 +195,7 @@ asynccharaemo,chara_5,Trouble,CONT,0
 
 
 window,on,0.15
-message,クルル,でも、なんでだろ～？<br>人間のニオイが、ちっともしないなぁ～。,106701000G,mcv_1001050802_004_01,chara_5
+message,クルル,<size=32>But I wonder why~?                                       <br><size=32>I can't smell any humans at all~.<br> ,106701000G,mcv_1001050802_004_01,chara_5
 
 asyncshake,CHARA,chara_4,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -204,7 +204,7 @@ asyncseplay,setag2_5,se4800008,0,1,CONT,0
 asynccharaemo,chara_4,Sweat,CONT,0
 
 
-message,ヒマリ,ここの人たち……みんなどこに行っちゃったんだろう……？,106601000G,mcv_1001050802_005_01,chara_4
+message,ヒマリ,<size=32>The people here... where did they all go...?<br> ,106601000G,mcv_1001050802_005_01,chara_4
 
 window,off
 wait,0.15
@@ -252,16 +252,16 @@ waitorclick,2.5
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――地下鉄『大門駅』構内</size>,,,on
+messageTextCenter,,<size=48>--Subway 'Daimon Station' Interior</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
 
 
 window,on,0.15
-message,,絶え間なく続いていた機械の駆動音と、遠いサイレンの響き。<br>そのすべてが、ホームに足を踏み入れた瞬間、嘘のように掻き消えた。
+message,,<size=32>The ceaseless hum of machines and distant sirens--       <br><size=32>all vanished the moment they stepped onto the platform.<br> 
 
-message,,そこは、まるで時が止まったかのような静寂と、<br>人の手で維持されてきたであろう清潔さに満ちている。
+message,,<size=32>The place was filled with a silence like frozen time     <br><size=32>and a cleanliness maintained by human hands.<br> 
 
 window,off
 wait,0.15
@@ -273,7 +273,7 @@ asyncseplay,setag2_6,se4030110,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,<user>,やはり、奴らはここまでは追ってこない……か。
+message,<user>,<size=32>As expected， they won't follow us here...<br> 
 
 window,off
 wait,0.15
@@ -330,7 +330,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ソフィア,えっと～、安全地帯とか聖域というより……,106501000G,mcv_1001050802_006_01,chara_1
+message,ソフィア,<size=32>Um~， more than a safe zone or sanctuary...<br> ,106501000G,mcv_1001050802_006_01,chara_1
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -341,9 +341,9 @@ asyncseplay,setag2_8,se4800006,0,1,CONT,0
 asynccharaemo,chara_2,Trouble,CONT,0
 
 
-message,ベリサ,なぁ～～んか、ずっと赤いランプが光ってるんですけど～～。,100201000G,mcv_1001050802_007_01,chara_2
+message,ベリサ,<size=32>There's a red lamp glowing this whole time~~.<br> ,100201000G,mcv_1001050802_007_01,chara_2
 
-message,,シンと静まり返ったホームを、天井の非常用ランプが、<br>不気味な赤い光で照らし出しているのだ。
+message,,<size=32>Emergency lamps on the ceiling bathe the silent          <br><size=32>platform in an eerie red glow.<br> 
 
 window,off
 wait,0.15
@@ -402,7 +402,7 @@ asynccharaemo,chara_4,Dull,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,ここにも……誰も……いない……,106601000G,mcv_1001050802_008_01,chara_4
+message,ヒマリ,<size=32>Here too... no one... is here...<br> ,106601000G,mcv_1001050802_008_01,chara_4
 
 window,off
 wait,0.15
@@ -467,7 +467,7 @@ asynccharaemo,chara_3,Trouble,CONT,0
 
 
 window,on,0.15
-message,マリナ,なんだか、気味の悪い静けさですねぇ～……,100301000G,mcv_1001050802_009_01,chara_3
+message,マリナ,<size=32>This silence is rather unsettling~...<br> ,100301000G,mcv_1001050802_009_01,chara_3
 
 window,off
 wait,0.15
@@ -518,7 +518,7 @@ asynccharaemo,chara_5,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,あっ！　あっち！<br>あっちに石があるよ～～！,106701000G,mcv_1001050802_010_01,chara_5
+message,クルル,<size=32>Oh! Over there!                                          <br><size=32>There's a stone over there~~!<br> ,106701000G,mcv_1001050802_010_01,chara_5
 
 window,off
 wait,0.15
@@ -544,9 +544,9 @@ asynctransitionFade,Tra02,in,black,0.5,STOP,0.5
 waitorclick,1.5
 
 window,on,0.15
-message,,クルルが指差した先。<br>ホームの中央に、祭壇のように豪奢な台座が設けられている。
+message,,<size=32>Where Kururu points.                                     <br><size=32>An ornate altar-like pedestal sits at the center.<br> 
 
-message,,そしてその台座の上で、<br>最後の『魂憶石』が、静かな光を放っていた。
+message,,<size=32>And atop that pedestal，                                  <br><size=32>the final Soul Memory Stone emits a quiet light.<br> 
 
 window,off
 wait,0.15
@@ -594,7 +594,7 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,魂憶石……教えて。<br>あなたたちに一体何があったのか……,106601000G,mcv_1001050802_011_01,chara_4
+message,ヒマリ,<size=32>Soul Memory Stone... tell me.                            <br><size=32>What happened to all of you...<br> ,106601000G,mcv_1001050802_011_01,chara_4
 
 window,off
 wait,0.15
@@ -648,7 +648,7 @@ asynctransitionFade,Tra19,in,white,0,STOP,0
 waitorclick,0.5
 
 window,on,0.15
-message,,ヒマリがゆっくりと台座へと歩み寄る。<br>震える指先が、そっと石に触れたその瞬間、周囲は淡く優しい光に包まれる。
+message,,<size=32>Himari slowly approaches the pedestal. Her trembling     <br><size=32>fingers touch it; gentle light fills the air.<br> 
 
 window,off
 wait,0.15
@@ -672,23 +672,23 @@ asyncfade,In,White,0.5,STOP,0.5
 waitorclick,1.5
 
 window,on,0.15
-message,女性の声,……聞こえ……ますか……。<br>私は、統合管理ＡＩ『マザー』の開発チームにいた、研究員の１人……,900000001
+message,女性の声,<size=32>...Can you... hear me...                                 <br><size=32>I was a researcher on the 'Mother' AI dev team...<br> ,900000001
 
-message,女性の声,もう、時間がありません。これが、私たちの……最後の記録です。<br>『マザー』が……私たちを『バグ』だと判断しました……,900000001
+message,女性の声,<size=32>There's no time left. This is... our final record.       <br><size=32>'Mother' has... deemed us 'bugs'...<br> ,900000001
 
-message,女性の声,ああ、なんて皮肉でしょう。人工知能を信じた人類が、<br>自分たちの創った神に滅ぼされることになるなんて……,900000001
+message,女性の声,<size=32>Oh， the irony. Humanity believed in the AI，              <br><size=32>only to be destroyed by the god they created...<br> ,900000001
 
-message,女性の声,私たちは、愛し合うことに夢中になっただけ……。<br>いえ、愛し合うこと『だけ』に夢中になったと言えましょうか。,900000001
+message,女性の声,<size=32>We simply became consumed by love...                     <br><size=32>Or rather， consumed by love 'alone'...<br> ,900000001
 
-message,女性の声,『マザー』は、そんな私たちを、<br>『ただ快楽に溺れた非効率な存在』だと結論づけたのです。,900000001
+message,女性の声,<size=32>'Mother' concluded that we were                          <br><size=32>'inefficient beings drowning in mere pleasure.'<br> ,900000001
 
-message,女性の声,そして……『マザー』は、私たち人類を『処理』するため、<br>たった１体の『執行者』を生み出しました。,900000001
+message,女性の声,<size=32>And... to 'process' humanity，                            <br><size=32>'Mother' created a single 'Executor.'<br> ,900000001
 
-message,女性の声,最新の兵器ですら、あの『鉄の獣』の前では、まるで子どもの玩具でした。<br>ああ……聞こえる……。あの、恐ろしい鉄の足音が……,900000001
+message,女性の声,<size=32>Even our best weapons were toys before that              <br><size=32>'iron beast.' I hear it... those iron footsteps...<br> ,900000001
 
-message,女性の声,このままでは『人間』の時代が、終わってしまいます……。<br>誰か、この声を聞いていたら……！　お願いがあります……！,900000001
+message,女性の声,<size=32>At this rate， the age of humanity will end...            <br><size=32>If anyone hears this...! I have a plea...!<br> ,900000001
 
-message,女性の声,この駅の駅長室にある、私たちの最後の希望……<br>『サンクチュアリ・コード』を、起動して……！,900000001
+message,女性の声,<size=32>In this station's master room... our last hope...        <br><size=32>Please activate the 'Sanctuary Code'...!<br> ,900000001
 
 window,off
 wait,0.15
@@ -761,7 +761,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,今まで以上に長いメッセージね。,106501000G,mcv_1001050802_012_01,chara_1
+message,ソフィア,<size=32>That was a longer message than before.<br> ,106501000G,mcv_1001050802_012_01,chara_1
 
 window,off
 wait,0.15
@@ -821,7 +821,7 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,この女性の声、駅長室にって言ってた……。<br>そこで何かを起動してくれって……,106601000G,mcv_1001050802_013_01,chara_4
+message,ヒマリ,<size=32>That woman mentioned the station master's room...        <br><size=32>She asked us to activate something there...<br> ,106601000G,mcv_1001050802_013_01,chara_4
 
 asyncjump,CHARA,chara_5,30,0.25,1,off,0,CONT
 
@@ -830,7 +830,7 @@ asyncseplay,setag2_17,se4800009,0,1,CONT,0
 asynccharaemo,chara_5,Question,CONT,0
 
 
-message,クルル,エキチョーシツってどこなの？,106701000G,mcv_1001050802_014_01,chara_5
+message,クルル,<size=32>Where's the station master's room?<br> ,106701000G,mcv_1001050802_014_01,chara_5
 
 window,off
 wait,0.15
@@ -895,7 +895,7 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,マリナ,この駅の……って言ってましたよね。,100301000G,mcv_1001050802_015_01,chara_3
+message,マリナ,<size=32>She said it was in this station， right~?<br> ,100301000G,mcv_1001050802_015_01,chara_3
 
 window,off
 wait,0.15
@@ -949,9 +949,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒマリ,うん。多分、あそこ……,106601000G,mcv_1001050802_016_01,chara_4
+message,ヒマリ,<size=32>Yeah. Probably... over there...<br> ,106601000G,mcv_1001050802_016_01,chara_4
 
-message,,ヒマリの指差した先に、まだ照明の点いている部屋が見える。<br>おそらくそこが声の言ってた『駅長室』なのだろう。
+message,,<size=32>Where Himari points， a lit room is visible.              <br><size=32>Likely the 'station master's room' she mentioned.<br> 
 
 
 window,off
@@ -999,7 +999,7 @@ waitorclick,2.5
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――大門駅　駅長室</size>,,,on
+messageTextCenter,,<size=48>--Daimon Station Master's Room</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -1080,7 +1080,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,ベリサ,なっ……なにここっ！？<br>アーデルハイトの研究所並みにすごいんだけど……,100201000G,mcv_1001050802_017_01,chara_2
+message,ベリサ,<size=32>Wh-what is this place!?                                  <br><size=32>It's as impressive as Adelheid's lab...<br> ,100201000G,mcv_1001050802_017_01,chara_2
 
 window,off
 wait,0.15
@@ -1112,7 +1112,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,画面に何か文字が映されてるな……
+message,<user>,<size=32>There's text displayed on the screen...<br> 
 
 window,off
 wait,0.15
@@ -1146,7 +1146,7 @@ waitorclick,0.8
 
 
 window,on,0.15
-message,ヒマリ,『サンクチュアリ・コード』……。<br>そして、その下に起動アイコンが光ってる……,106601000G,mcv_1001050802_018_01,chara_4
+message,ヒマリ,<size=32>'Sanctuary Code'...                                      <br><size=32>And below it， an activation icon is glowing...<br> ,106601000G,mcv_1001050802_018_01,chara_4
 
 window,off
 wait,0.15
@@ -1209,7 +1209,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ソフィア,それって、さっきの女性の声が言ってたやつじゃない？,106501000G,mcv_1001050802_019_01,chara_1
+message,ソフィア,<size=32>Isn't that what the woman's voice mentioned?<br> ,106501000G,mcv_1001050802_019_01,chara_1
 
 window,off
 wait,0.15
@@ -1260,9 +1260,9 @@ asyncseplay,setag2_25,se4800014,0,1,CONT,0
 asynccharaemo,chara_4,Silence,CONT,0
 
 window,on,0.15
-message,,ヒマリはコンソールパネルの前に立ち、静かに目を閉じる。
+message,,<size=32>Himari stands before the console and quietly closes her  <br><size=32>eyes.<br> 
 
-message,女性の声,『私たちの最後の希望……<br>サンクチュアリ・コードを、起動して……！』,900000001
+message,女性の声,<size=32>'Our last hope...                                        <br><size=32>Please activate the Sanctuary Code...!'<br> ,900000001
 
 window,off
 wait,0.15
@@ -1279,7 +1279,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒマリ,……聞こえたよ。<br>あなたの声、ちゃんとヒマリに届いたから……,106601000G,mcv_1001050802_020_01,chara_4
+message,ヒマリ,<size=32>...I heard you.                                          <br><size=32>Your voice reached me loud and clear...<br> ,106601000G,mcv_1001050802_020_01,chara_4
 
 asynccharaface,chara_4,EyeOpen,CONT,0
 asynccharaface,chara_4,FaceNormal,CONT,0
@@ -1288,9 +1288,9 @@ wait,0.5
 
 asyncjump,CHARA,chara_4,-30.6,0.5,1,off,0,CONT
 
-message,,ヒマリの指先が、<br>タッチパネルの起動アイコンに、そっと触れる。
+message,,<size=32>Himari's fingertip                                       <br><size=32>gently touches the activation icon on the panel.<br> 
 
-message,,――ピッ！
+message,,<size=32>--Beep!<br> 
 
 window,off
 wait,0.15
@@ -1316,7 +1316,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,,短い電子音と共に、コンソール全体が生命を宿したかのように起動。<br>薄暗い駅長室を、モニターの光が青白く照らし出した。
+message,,<size=32>With a short beep， the console springs to life.          <br><size=32>Monitor light casts a pale blue glow over the dim room.<br> 
 
 asyncseplay,se2_1001,se4700051,0,1,CONT,0
 
@@ -1327,11 +1327,11 @@ asyncshake,CHARA,chara_3,12,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_4,12,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_5,12,0,0.6,5,off,off,0,on,CONT,0
 
-message,,ゴゴゴゴゴゴゴゴ！！！！！！
+message,,<size=32>RRRUMMMBBLLLE!!!!!!<br> 
 
-message,,突然の地響きと共に、<br>駅全体が激しく揺れ始める。
+message,,<size=32>With a sudden tremor，                                    <br><size=32>the entire station begins to shake violently.<br> 
 
-message,<user>,な、なんだ！？<br>地震か！？
+message,<user>,<size=32>Wh-what the!?                                            <br><size=32>An earthquake!?<br> 
 
 window,off
 wait,0.15
@@ -1370,7 +1370,7 @@ asynccharaemo,chara_5,Panic,CONT,0
 
 
 window,on,0.15
-message,クルル,わわっ！　何か揺れてるよぉ～～～！,106701000G,mcv_1001050802_021_01,chara_5
+message,クルル,<size=32>Whoa! Everything's shaking~~~!<br> ,106701000G,mcv_1001050802_021_01,chara_5
 
 window,off
 wait,0.15
@@ -1402,9 +1402,9 @@ shakeallstop
 wait,2
 
 window,on,0.15
-message,,揺れが収まると、それまで沈黙を保っていた駅長室のメインモニターが、<br>ノイズと共に起動する。
+message,,<size=32>When the shaking subsides， the main monitor--            <br><size=32>silent until now--flickers on with static.<br> 
 
-message,,そこに映し出されていたのは、<br>天を貫くようにそびえ立つ、黒く巨大な鉄の塔だった――
+message,,<size=32>Displayed on the screen was                              <br><size=32>a massive black iron tower piercing the sky--<br> 
 
 window,off
 wait,0.15
@@ -1443,7 +1443,7 @@ asynccharaemo,chara_4,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,何、これ……！？<br>黒い……東京タワー……！？,106601000G,mcv_1001050802_022_01,chara_4
+message,ヒマリ,<size=32>What is that...!?                                        <br><size=32>A black... Tokyo Tower...!?<br> ,106601000G,mcv_1001050802_022_01,chara_4
 
 window,off
 bgmstop,bgmtag2_2,0.5

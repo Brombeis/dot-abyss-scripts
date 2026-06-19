@@ -26,7 +26,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
@@ -35,22 +35,22 @@ bgmplay,bgmtag1_1,bgm0027,0.75,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――前線基地　司令室</size>,,,on
+messageTextCenter,,<size=48>--Forward Base  Command Room</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
 
 
 window,on,0.15
-message,,机には、先日探索した『滅んだ街』の調査資料が乱雑に散らばっている。<br>薄暗いランプの光が、紙の束に影を落とす。
+message,,<size=32>Reports from the ruined city are scattered               <br><size=32>across the desk. A dim lamp casts shadows.<br> 
 
-message,,<user>は１人、<br>眉間に深い皺を刻み、報告書を睨みつけていた。
+message,,<size=32><user> sits alone，                                       <br><size=32>glaring at the reports with a deep frown.<br> 
 
 asyncseplay,setag1_1,se4300001,0,1,CONT,0
 
-message,,コンコン！
+message,,<size=32>*Knock knock!*<br> 
 
-message,アリシア,失礼します！,300201000,mcv_1001060101_001_01,on
+message,アリシア,<size=32>Excuse me!<br> ,300201000,mcv_1001060101_001_01,on
 
 window,off
 wait,0.15
@@ -85,7 +85,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,,静寂を切り裂くようにドアが静かに開き、<br>アリシアが入室する。
+message,,<size=32>The door opens quietly， breaking the silence，            <br><size=32>and Alicia steps inside.<br> 
 
 window,off
 wait,0.15
@@ -139,9 +139,9 @@ asynccharaemo,chara_1,Shock,STOP,3
 
 
 window,on,0.15
-message,アリシア,司令官、お疲れ様です。<br>……こんな時間まで資料を見てたんですか？,300201000,mcv_1001060101_002_01,chara_1
+message,アリシア,<size=32>Commander， good work today.                              <br><size=32>...You've been reviewing files this late?<br> ,300201000,mcv_1001060101_002_01,chara_1
 
-message,<user>,ああ。
+message,<user>,<size=32>Yeah.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -152,7 +152,7 @@ asyncseplay,setag1_5,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,アリシア,報告書、読みました。廃墟と化した都市、ロボット、魂憶石、<br>人が造った知能、黒いタワー、機械の魔獣……内容が濃すぎですよ。,300201000,mcv_1001060101_003_01,chara_1
+message,アリシア,<size=32>I read the report. A ruined city， robots，                <br><size=32>Soul Stones， AI， a black tower， a beast...<br> ,300201000,mcv_1001060101_003_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -163,11 +163,11 @@ asyncseplay,setag1_6,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,アリシア,そして……以前遭遇した盗賊のお頭が生きていたって、<br>本当ですか？,300201000,mcv_1001060101_004_01,chara_1
+message,アリシア,<size=32>And... is it true the bandit boss                        <br><size=32>from before is still alive?<br> ,300201000,mcv_1001060101_004_01,chara_1
 
-message,<user>,ああ、俺たちが機械魔獣と戦闘している間に、<br>行方をくらましてしまったがな。
+message,<user>,<size=32>Yeah. He vanished while we were fighting                 <br><size=32>the mechanical beast， though.<br> 
 
-message,<user>,確かに、あいつは生きていた。<br>いや、あの男の『体』だけが、と言うほうが正しいかもしれない。
+message,<user>,<size=32>He was alive. Though it might be more                    <br><size=32>accurate to say only his 'body' was.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -178,9 +178,9 @@ asyncseplay,setag1_7,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,アリシア,体だけ……？,300201000,mcv_1001060101_005_01,chara_1
+message,アリシア,<size=32>Only his body...?<br> ,300201000,mcv_1001060101_005_01,chara_1
 
-message,<user>,報告書には、どう書けばいいか、分からなかったことがある。<br>……あの男の体は盗賊のお頭のものだった。だが、その中身は全然違った。
+message,<user>,<size=32>The report left something out.                           <br><size=32>His body was the boss's， but inside was different.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -191,9 +191,9 @@ asyncseplay,setag1_8,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,アリシア,人格が変わっていたってことですか？<br>頭に大怪我をしていたって報告もありましたが……,300201000,mcv_1001060101_006_01,chara_1
+message,アリシア,<size=32>His personality changed?                                 <br><size=32>There were reports of a severe head injury...<br> ,300201000,mcv_1001060101_006_01,chara_1
 
-message,<user>,いや、頭を打ったとかそんなレベルな話じゃない。<br>まるで、人ではない別の存在になってしまったというか……
+message,<user>,<size=32>No， not a head injury level thing.                       <br><size=32>It was as if he'd become something... inhuman.<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -202,11 +202,11 @@ asyncseplay,setag1_9,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,アリシア,人ではない別の存在……！？,300201000,mcv_1001060101_007_01,chara_1
+message,アリシア,<size=32>Something inhuman...!?<br> ,300201000,mcv_1001060101_007_01,chara_1
 
-message,<user>,ヤツから感じる気配が、そもそも人のそれとは違った。<br>そして、あの視線……
+message,<user>,<size=32>His presence felt nothing like a human's.                <br><size=32>And those eyes...<br> 
 
-message,<user>,以前にも感じたことがあるんだ。<br>心の奥底まで見透かすような、凍りつくようなあの視線を。
+message,<user>,<size=32>I've felt it before.                                     <br><size=32>That freezing gaze that sees into your soul.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -217,9 +217,9 @@ asyncseplay,setag1_10,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,アリシア,以前にも？,300201000,mcv_1001060101_008_01,chara_1
+message,アリシア,<size=32>Before?<br> ,300201000,mcv_1001060101_008_01,chara_1
 
-message,<user>,ああ。大穴探索中のことだがな。<br>ずっと背後から見られ続けられてたんだ……あの目に。
+message,<user>,<size=32>Yeah. During the Abyss exploration.                      <br><size=32>Those eyes were watching me the whole time...<br> 
 
 window,off
 wait,0.15
@@ -235,9 +235,9 @@ asynccrossfade,0.1,0,0,1,1,STOP
 
 
 window,on,0.15
-message,<user>,（いや、それだけじゃない……<br>あの視線、あの気配、氷河や飢餓の厄災と対峙した時も……）
+message,<user>,<size=32>(No， not just that...                                    <br><size=32>That gaze-- same as the Glacier and Famine Calamities...)<br> 
 
-message,<user>,（厄災の気配と同じ……！？<br>なんで、あの男からそれが……）
+message,<user>,<size=32>(The same aura as the Calamities...!?                    <br><size=32>Why would that man have it...)<br> 
 
 window,off
 wait,0.15
@@ -262,7 +262,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,アリシア,司令官……？,300201000,mcv_1001060101_009_01,chara_1
+message,アリシア,<size=32>Commander...?<br> ,300201000,mcv_1001060101_009_01,chara_1
 
 window,off
 wait,0.15
@@ -278,7 +278,7 @@ asynccrossfade,0.1,0,0,1,1,STOP
 
 
 window,on,0.15
-message,<user>,（人型の厄災……？<br>存在するのだろうか？　そんなものが……）
+message,<user>,<size=32>(A humanoid Calamity...?                                 <br><size=32>Could such a thing exist...)<br> 
 
 window,off
 wait,0.15
@@ -303,7 +303,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,アリシア,司令官っ！,300201000,mcv_1001060101_010_01,chara_1
+message,アリシア,<size=32>Commander!<br> ,300201000,mcv_1001060101_010_01,chara_1
 
 window,off
 wait,0.15
@@ -318,9 +318,9 @@ asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_5,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,,アリシアの声に、我に返る。
+message,,<size=32>Alicia's voice snaps him back to reality.<br> 
 
-message,<user>,ああ、すまん。<br>最近、色々と考えることが多すぎてな。
+message,<user>,<size=32>Ah， sorry.                                               <br><size=32>Too many things on my mind lately.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -331,9 +331,9 @@ asyncseplay,setag1_13,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,アリシア,大丈夫ですか？　司令官。最近、お疲れの色が、濃いですよ。<br>今日は早めに、休んでください。,300201000,mcv_1001060101_011_01,chara_1
+message,アリシア,<size=32>Are you alright， Commander? You look                     <br><size=32>exhausted lately. Please rest early tonight.<br> ,300201000,mcv_1001060101_011_01,chara_1
 
-message,<user>,ああ。<br>そうさせてもらうよ。
+message,<user>,<size=32>Yeah.                                                    <br><size=32>I'll do that.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -345,9 +345,9 @@ asyncseplay,setag1_14,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,アリシア,それと、司令官。,300201000,mcv_1001060101_012_01,chara_1
+message,アリシア,<size=32>Also， Commander.<br> ,300201000,mcv_1001060101_012_01,chara_1
 
-message,<user>,ん？
+message,<user>,<size=32>Hm?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -358,9 +358,9 @@ asyncseplay,setag1_15,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,アリシア,あまり、お一人で抱え過ぎないでくださいね？<br>わたしたちは、司令官の味方なんですから。,300201000,mcv_1001060101_013_01,chara_1
+message,アリシア,<size=32>Don't shoulder everything alone， okay?                   <br><size=32>We're all on your side， Commander.<br> ,300201000,mcv_1001060101_013_01,chara_1
 
-message,<user>,ああ……分かった。<br>ありがとう……
+message,<user>,<size=32>Yeah... got it.                                          <br><size=32>Thank you...<br> 
 
 
 bgmstop,bgmtag1_1,1.5,0
@@ -403,7 +403,7 @@ waitorclick,2.5
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――大穴　光の階層</size>,,,on
+messageTextCenter,,<size=48>--The Abyss  Luminous Stratum</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -458,32 +458,32 @@ asyncjump,CHARA,chara_2,-30.6,0.5,1,off,0,CONT
 
 
 window,on,0.15
-message,？？？,おお……感じる、感じるぞ……。<br>この匂いは、間違いない……！,301201000,mcv_1001060101_014_01,chara_2
+message,？？？,<size=32>Ohh... I can feel it， I can feel it...                   <br><size=32>This scent... there's no mistaking it...!<br> ,301201000,mcv_1001060101_014_01,chara_2
 
 asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
 
 
-message,？？？,やっとみつけたぞ……。<br>この階層に、『滅びの実』が存在している……！,301201000,mcv_1001060101_015_01,chara_2
+message,？？？,<size=32>At last I've found it...                                 <br><size=32>The 'Fruit of Ruin' lies in this stratum...!<br> ,301201000,mcv_1001060101_015_01,chara_2
 
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
 
-message,？？？,……これで、これで、ようやく本来の『力』が取り戻せるのだ！<br>愚かな人間どもめ。今１度試させてもらおうか。,301201000,mcv_1001060101_016_01,chara_2
+message,？？？,<size=32>...With this I can reclaim my true 'power'!              <br><size=32>Foolish humans. Let me test you once more.<br> ,301201000,mcv_1001060101_016_01,chara_2
 
 asyncshake,CHARA,chara_2,20,0,0.5,1,off,off,0,off,CONT,0
 
 
-message,？？？,今度の試練は、<br>貴様らの肉体を喰らう獣のようなものではない。,301201000,mcv_1001060101_017_01,chara_2
+message,？？？,<size=32>This next trial won't be like                            <br><size=32>a beast that merely devours your flesh.<br> ,301201000,mcv_1001060101_017_01,chara_2
 
 asyncjump,CHARA,chara_2,-30.6,0.5,1,off,0,CONT
 
 
-message,？？？,より深く……より残酷に……。<br>貴様らの『魂』そのものを、喰らい尽くす試練だがな……,301201000,mcv_1001060101_018_01,chara_2
+message,？？？,<size=32>Deeper... crueler...                                     <br><size=32>A trial that devours your very 'souls'...<br> ,301201000,mcv_1001060101_018_01,chara_2
 
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
 
-message,？？？,……見ものだな。<br>この地の人間がどのような結末を、私に見せてくれるのか。,301201000,mcv_1001060101_019_01,chara_2
+message,？？？,<size=32>...This should be entertaining.                          <br><size=32>What ending will the humans of this land show me?<br> ,301201000,mcv_1001060101_019_01,chara_2
 
 
 bgmstop,bgmtag1_2,1.5,0
@@ -524,7 +524,7 @@ waitorclick,2.5
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――前線基地　マーケット</size>,,,on
+messageTextCenter,,<size=48>--Forward Base  Market</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -553,7 +553,7 @@ asynccharaemo,chara_4,Flower,CONT,0
 
 
 window,on,0.15
-message,マリナ,ふふっふ～ふっふ～♪　ふっふふ、ふぅ～～ん♪,100301000G,mcv_1001060101_028_01,chara_4
+message,マリナ,<size=32>Hm hm hmm~ hmm hmm~♪ Hmm hmm， hmm~~♪<br> ,100301000G,mcv_1001060101_028_01,chara_4
 
 window,off
 wait,0.15
@@ -593,7 +593,7 @@ asynccharaemo,chara_5,Speak,CONT,0
 
 
 window,on,0.15
-message,？？？,あら、マリナ。<br>随分とご機嫌ね。,300801000,mcv_1001060101_029_01,chara_5
+message,？？？,<size=32>My， Marina.                                              <br><size=32>You seem to be in high spirits.<br> ,300801000,mcv_1001060101_029_01,chara_5
 
 window,off
 wait,0.15
@@ -651,7 +651,7 @@ asynccharaemo,chara_4,Shock,CONT,0
 
 
 window,on,0.15
-message,マリナ,ええええ～～～っ！　アウラ様じゃないですかぁ～～っ！？<br>い、いつ前線基地へいらしたんですかぁ～！？,100301000G,mcv_1001060101_030_01,chara_4
+message,マリナ,<size=32>Whaaat~~~!? Lady Aura~~!?                                <br><size=32>Wh-when did you arrive at the base~!?<br> ,100301000G,mcv_1001060101_030_01,chara_4
 
 asynccharaface,chara_5,FaceHappy,CONT,0
 
@@ -662,7 +662,7 @@ asyncseplay,setag1_19,se4800013,0,1,CONT,0
 asynccharaemo,chara_5,Spirits,CONT,0
 
 
-message,アウラ,ふふっ、久しぶりねマリナ。<br>ちょっと調査を兼ねてね。昨日到着したばかりよ。,300801000,mcv_1001060101_031_01,chara_5
+message,アウラ,<size=32>Hehe， long time no see， Marina.                          <br><size=32>Here on an investigation. Arrived yesterday.<br> ,300801000,mcv_1001060101_031_01,chara_5
 
 window,off
 wait,0.15
@@ -719,9 +719,9 @@ asyncwait,subimage_0_1
 asyncwait,subimage_0_2
 
 
-messageTextUnder,,マリナがマーケットでばったり出会ったこの女性は、<br>エルドラーナを代表する外交官のアウラ。,,,on
+messageTextUnder,,<size=32>The woman Marina bumped into at the market               <br><size=32>is Aura， a top diplomat from Eldorana.<br> ,,,on
 
-messageTextUnder,,三大国会議に出席し、<user>を<br>前線基地の司令官に推薦した１人である。,,,on
+messageTextUnder,,<size=32>She attended the Tri-Nation Summit and                   <br><size=32>nominated <user> as base commander.<br> ,,,on
 
 window,off
 wait,0.15
@@ -780,7 +780,7 @@ asynccharaemo,chara_5,Speak,CONT,0
 
 
 window,on,0.15
-message,アウラ,それより、随分とご機嫌じゃない。<br>儲かってるってことかしら？,300801000,mcv_1001060101_032_01,chara_5
+message,アウラ,<size=32>Anyway， you seem awfully chipper.                        <br><size=32>Business must be good?<br> ,300801000,mcv_1001060101_032_01,chara_5
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -791,7 +791,7 @@ asyncseplay,setag1_21,se4800003,0,1,CONT,0
 asynccharaemo,chara_4,Twinkle,CONT,0
 
 
-message,マリナ,あはは～～♪　ボチボチですぅ～。<br>実は、と～っても素敵な商売のアイデアを思いついたんですぅ～♪,100301000G,mcv_1001060101_033_01,chara_4
+message,マリナ,<size=32>Ahaha~~♪ It's so-so~.                                    <br><size=32>I actually had an amazing business idea~♪<br> ,100301000G,mcv_1001060101_033_01,chara_4
 
 asynccharaface,chara_5,FaceHappy,CONT,0
 
@@ -802,7 +802,7 @@ asyncseplay,setag1_22,se4800004,0,1,CONT,0
 asynccharaemo,chara_5,Laugh,CONT,0
 
 
-message,アウラ,あら、それは景気がいい話ね。<br>成功することを祈っているわ。,300801000,mcv_1001060101_034_01,chara_5
+message,アウラ,<size=32>Oh my， how promising.                                    <br><size=32>I wish you the best of luck.<br> ,300801000,mcv_1001060101_034_01,chara_5
 
 asynccharaface,chara_4,EyeOpen,CONT,0
 asynccharaface,chara_4,FaceNormal,CONT,0
@@ -814,7 +814,7 @@ asyncseplay,setag1_23,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,マリナ,はいっ♪<br>大穴でビッグビジネスになりそうな鉱石が見つかりましてぇ～……,100301000G,mcv_1001060101_035_01,chara_4
+message,マリナ,<size=32>Yes~♪                                                    <br><size=32>I found a mineral in the Abyss that could be huge~...<br> ,100301000G,mcv_1001060101_035_01,chara_4
 
 window,off
 wait,0.15
@@ -873,7 +873,7 @@ asynccharaemo,chara_4,Silence,CONT,0
 
 
 window,on,0.15
-message,マリナ,（……いくらアウラ様が相手でも『催眠石』のことは秘密にしとこうかな。<br>独占販売できないと意味がないし……）,100301000G,mcv_1001060101_036_01,chara_4
+message,マリナ,<size=32>(...Even with Lady Aura， I should keep the               <br><size=32>Hypnosis Stones secret. No monopoly， no profit...)<br> ,100301000G,mcv_1001060101_036_01,chara_4
 
 window,off
 wait,0.15
@@ -934,7 +934,7 @@ asynccharaemo,chara_5,Trouble,CONT,0
 
 
 window,on,0.15
-message,アウラ,大穴で見つかった鉱石ねぇ……。実は、調査っていうのは、<br>エルドラーナの闇市で取り引きされてる鉱石が問題でね。,300801000,mcv_1001060101_037_01,chara_5
+message,アウラ,<size=32>Abyss minerals， you say... Actually，                     <br><size=32>my investigation involves Eldorana's black market.<br> ,300801000,mcv_1001060101_037_01,chara_5
 
 asynccharaface,chara_4,FaceSurprise,CONT,0
 
@@ -945,7 +945,7 @@ asyncseplay,setag1_26,se4800009,0,1,CONT,0
 asynccharaemo,chara_4,Question,CONT,0
 
 
-message,マリナ,エルドラーナの闇市？<br>な、何か、いかがわしい石でも売ってるんですか？,100301000G,mcv_1001060101_038_01,chara_4
+message,マリナ,<size=32>Eldorana's black market?                                 <br><size=32>A-are they selling something shady?<br> ,100301000G,mcv_1001060101_038_01,chara_4
 
 asynccharaface,chara_5,FaceSurprise,CONT,0
 
@@ -956,7 +956,7 @@ asyncseplay,setag1_27,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,アウラ,『催眠石』って言ってね？　人に幻惑を見せる鉱石なんだけど、<br>それが大量に持ち込まれて麻薬代わりに取り引きされてるのよ……,300801000,mcv_1001060101_039_01,chara_5
+message,アウラ,<size=32>'Hypnosis Stones'-- minerals that cause                  <br><size=32>hallucinations. They're being traded as drugs...<br> ,300801000,mcv_1001060101_039_01,chara_5
 
 window,off
 wait,0.15
@@ -1007,7 +1007,7 @@ asynccharaemo,chara_4,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,マリナ,なっ！？　さ、ささささ、催眠石が……<br>大量にぃ～～～っ！？,100301000G,mcv_1001060101_040_01,chara_4
+message,マリナ,<size=32>Wha!? H-H-H-Hypnosis Stones...                           <br><size=32>in huge quantities~~!?<br> ,100301000G,mcv_1001060101_040_01,chara_4
 
 window,off
 wait,0.15
@@ -1064,7 +1064,7 @@ asynccharaemo,chara_5,Question,CONT,0
 
 
 window,on,0.15
-message,アウラ,ねえ、マリナ。<br>アンタ、まさか催眠石で一儲けしようだなんて思ってないわよね？,300801000,mcv_1001060101_041_01,chara_5
+message,アウラ,<size=32>Hey， Marina.                                             <br><size=32>You weren't planning to sell Hypnosis Stones， right?<br> ,300801000,mcv_1001060101_041_01,chara_5
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -1075,7 +1075,7 @@ asyncseplay,setag1_30,se4800008,0,1,CONT,0
 asynccharaemo,chara_4,Sweat,CONT,0
 
 
-message,マリナ,えっ！？　ま、ままま、まさかっ！<br>わたしが見つけたのは、ただの綺麗な石っころですよぉ～♪　,100301000G,mcv_1001060101_042_01,chara_4
+message,マリナ,<size=32>Huh!? N-n-n-no way!                                      <br><size=32>I just found a pretty rock~♪<br> ,100301000G,mcv_1001060101_042_01,chara_4
 
 asynccharaface,chara_5,FaceHappy,CONT,0
 
@@ -1086,7 +1086,7 @@ asyncseplay,setag1_31,se4800022,0,1,CONT,0
 asynccharaemo,chara_5,Speak,CONT,0
 
 
-message,アウラ,良かったわ。<br>マリナが黒い商売に手を染めるような子じゃなくて。,300801000,mcv_1001060101_043_01,chara_5
+message,アウラ,<size=32>Good.                                                    <br><size=32>Glad you're not the type for shady business.<br> ,300801000,mcv_1001060101_043_01,chara_5
 
 asyncshake,CHARA,chara_4,20,15,0.5,6,on,off,0,off,CONT,0
 
@@ -1095,7 +1095,7 @@ asyncseplay,setag1_32,se4800007,0,1,CONT,0
 asynccharaemo,chara_4,Panic,CONT,0
 
 
-message,マリナ,何言ってるんですかぁ～！<br>あったりまえじゃないですかぁ～♪,100301000G,mcv_1001060101_044_01,chara_4
+message,マリナ,<size=32>What are you saying~!                                    <br><size=32>Of course not~♪<br> ,100301000G,mcv_1001060101_044_01,chara_4
 
 window,off
 wait,0.15
@@ -1154,7 +1154,7 @@ asynccharaemo,chara_4,Dull,CONT,0
 
 
 window,on,0.15
-message,マリナ,（あ、あっぶなぁ～……。<br>あとちょっとで、とんでもないビジネスに手を出すとこだったぁ～……）,100301000G,mcv_1001060101_045_01,chara_4
+message,マリナ,<size=32>(Th-that was close~...                                   <br><size=32>I almost got into a terrible business~...)<br> ,100301000G,mcv_1001060101_045_01,chara_4
 
 window,off
 wait,0.15
@@ -1216,7 +1216,7 @@ asynccharaemo,chara_5,Speak,CONT,0
 
 
 window,on,0.15
-message,アウラ,あとね、前線基地に来た理由はもう１つあるの。,300801000,mcv_1001060101_046_01,chara_5
+message,アウラ,<size=32>Also， there's another reason I came here.<br> ,300801000,mcv_1001060101_046_01,chara_5
 
 asynccharaface,chara_4,FaceSurprise,CONT,0
 
@@ -1227,7 +1227,7 @@ asyncseplay,setag1_35,se4800009,0,1,CONT,0
 asynccharaemo,chara_4,Question,CONT,0
 
 
-message,マリナ,もう１つの理由？　何ですかぁ～？,100301000G,mcv_1001060101_047_01,chara_4
+message,マリナ,<size=32>Another reason? What is it~?<br> ,100301000G,mcv_1001060101_047_01,chara_4
 
 window,off
 wait,0.15
@@ -1246,7 +1246,7 @@ wait,0.5
 
 
 window,on,0.15
-message,アウラ,最近、大穴で眼鏡をかけた白衣の女の子の目撃情報を知らない？<br>機械で動くゴーレムを連れてるって噂の。,300801000,mcv_1001060101_048_01,chara_5
+message,アウラ,<size=32>Heard any reports of a girl with glasses                 <br><size=32>in a white coat with a mechanical golem?<br> ,300801000,mcv_1001060101_048_01,chara_5
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -1257,7 +1257,7 @@ asyncseplay,setag1_37,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,マリナ,あぁ～！　知ってます！　知ってますぅ～♪<br>ロジーちゃんとゴレイヌさんですね♪,100301000G,mcv_1001060101_049_01,chara_4
+message,マリナ,<size=32>Oh~! I know! I know~♪                                    <br><size=32>That's Logy and Goleinu~♪<br> ,100301000G,mcv_1001060101_049_01,chara_4
 
 asynccharaface,chara_5,EyeOpen,CONT,0
 asynccharaface,chara_5,FaceNormal,CONT,0
@@ -1269,7 +1269,7 @@ asyncseplay,setag1_38,se4800003,0,1,CONT,0
 asynccharaemo,chara_5,Twinkle,CONT,0
 
 
-message,アウラ,あら、詳しいのね？<br>ロジーはね、行方不明になったワタシの妹なの。,300801000,mcv_1001060101_050_01,chara_5
+message,アウラ,<size=32>Oh my， you know them well.                               <br><size=32>Logy is my little sister who went missing.<br> ,300801000,mcv_1001060101_050_01,chara_5
 
 asynccharaface,chara_4,FaceSurprise,CONT,0
 
@@ -1280,7 +1280,7 @@ asyncseplay,setag1_39,se4800017,0,1,CONT,0
 asynccharaemo,chara_4,Shock,CONT,0
 
 
-message,マリナ,い、妹さん！？　……ですかぁ～。,100301000G,mcv_1001060101_051_01,chara_4
+message,マリナ,<size=32>Y-your sister!? ...Really~?<br> ,100301000G,mcv_1001060101_051_01,chara_4
 
 asynccharaface,chara_5,FaceSurprise,CONT,0
 
@@ -1291,7 +1291,7 @@ asyncseplay,setag1_40,se4800006,0,1,CONT,0
 asynccharaemo,chara_5,Trouble,CONT,0
 
 
-message,アウラ,幼い頃から機械工学の天才でね。<br>学費もすべて出して飛び級で大学を卒業させてあげたのに……,300801000,mcv_1001060101_052_01,chara_5
+message,アウラ,<size=32>A genius in engineering since childhood.                 <br><size=32>I paid for everything and let her skip grades...<br> ,300801000,mcv_1001060101_052_01,chara_5
 
 asynccharaface,chara_5,FaceAnger,CONT,0
 
@@ -1302,7 +1302,7 @@ asyncseplay,setag1_41,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,アウラ,それに大学に研究室まで用意してあげてたってのに、<br>ある日突然、大量の研究費と共に行方をくらましちゃったのよね。,300801000,mcv_1001060101_053_01,chara_5
+message,アウラ,<size=32>I even set up a university lab for her，                  <br><size=32>then she vanished with a fortune in research funds.<br> ,300801000,mcv_1001060101_053_01,chara_5
 
 window,off
 wait,0.15
@@ -1361,7 +1361,7 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,マリナ,（大学に研究室！？<br>あの子、本当に『教授』だったんですねぇ～……）,100301000G,mcv_1001060101_054_01,chara_4
+message,マリナ,<size=32>(A university lab!?                                      <br><size=32>That girl really was a 'Professor'~...)<br> ,100301000G,mcv_1001060101_054_01,chara_4
 
 window,off
 wait,0.15
@@ -1422,7 +1422,7 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,マリナ,え～と、妹さんを見つけたら、<br>その……ど、どうするおつもりなんでしょぉ～？,100301000G,mcv_1001060101_055_01,chara_4
+message,マリナ,<size=32>Um， if you find your sister...                           <br><size=32>wh-what are you going to do~?<br> ,100301000G,mcv_1001060101_055_01,chara_4
 
 asynccharaface,chara_5,FaceUnique01,CONT,0
 
@@ -1433,9 +1433,9 @@ asyncseplay,setag1_44,se4800003,0,1,CONT,0
 asynccharaemo,chara_5,Twinkle,CONT,0
 
 
-message,アウラ,もちろん連れ戻して、たっぷりお灸を据えてあげなきゃよね。<br>つい最近も、こんな大金の請求書がウチに届いたんだから！,300801000,mcv_1001060101_056_01,chara_5
+message,アウラ,<size=32>Drag her home and teach her a lesson.                    <br><size=32>Look at this huge bill that just arrived!<br> ,300801000,mcv_1001060101_056_01,chara_5
 
-message,,アウラは、そう言って懐から１枚の請求書を取り出す。<br>それは、目の飛び出るような金額の請求書だった。
+message,,<size=32>Aura pulls out a bill from her pocket.                   <br><size=32>The amount on it is staggering.<br> 
 
 asynccharaface,chara_5,FaceAnger,CONT,0
 
@@ -1446,7 +1446,7 @@ asyncseplay,setag1_45,se4800001,0,1,CONT,0
 asynccharaemo,chara_5,Anger,CONT,0
 
 
-message,アウラ,これ、絶対にロジーの仕業よ！<br>あの子、いったい何に、こんなお金使ってるのかしら。,300801000,mcv_1001060101_057_01,chara_5
+message,アウラ,<size=32>This is definitely Logy's doing!                         <br><size=32>What on earth is she spending this much on?<br> ,300801000,mcv_1001060101_057_01,chara_5
 
 window,off
 wait,0.15
@@ -1505,7 +1505,7 @@ asynccharaemo,chara_4,Panic,CONT,0
 
 
 window,on,0.15
-message,マリナ,（わわっ……こ、これ、ぜったいゴレイヌさんの修理代ですぅぅぅ～～……）,100301000G,mcv_1001060101_058_01,chara_4
+message,マリナ,<size=32>(Yikes... th-this is definitely                          <br><size=32>Goleinu's repair bill~~...)<br> ,100301000G,mcv_1001060101_058_01,chara_4
 
 window,off
 wait,0.15
@@ -1566,7 +1566,7 @@ asynccharaemo,chara_5,BePeevish,CONT,0
 
 
 window,on,0.15
-message,アウラ,マリナも、もしロジーについての情報を耳にしたら教えて頂戴。<br>あの子見つけたら、３日間は橋から宙吊りにしてあげるんだから！,300801000,mcv_1001060101_059_01,chara_5
+message,アウラ,<size=32>If you hear anything about Logy， tell me.                <br><size=32>I'll hang her from a bridge for three days!<br> ,300801000,mcv_1001060101_059_01,chara_5
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -1577,7 +1577,7 @@ asyncseplay,setag1_48,se4800008,0,1,CONT,0
 asynccharaemo,chara_4,Sweat,CONT,0
 
 
-message,マリナ,は、はい～～～。<br>な、なにか分かりましたらすぐに連絡しますぅ～……,100301000G,mcv_1001060101_060_01,chara_4
+message,マリナ,<size=32>Y-yes~~~.                                                <br><size=32>I-I'll let you know right away~...<br> ,100301000G,mcv_1001060101_060_01,chara_4
 
 window,off
 wait,0.15
@@ -1638,7 +1638,7 @@ asynccharaemo,chara_4,Panic,CONT,0
 
 
 window,on,0.15
-message,マリナ,（ど、どうしましょう……早く伝えないと、<br>あの子、宙吊りにされちゃうじゃないですかぁ～～～）,100301000G,mcv_1001060101_061_01,chara_4
+message,マリナ,<size=32>(Oh no... I need to warn her fast                        <br><size=32>or she'll end up dangling from a bridge~...)<br> ,100301000G,mcv_1001060101_061_01,chara_4
 
 window,off
 bgmstop,bgmtag1_3,0.5

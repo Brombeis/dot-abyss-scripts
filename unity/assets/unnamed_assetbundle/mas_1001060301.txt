@@ -38,14 +38,14 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
 bgmplay,bgmtag1_1,bgm0027,0.75,1
 
 window,on,0.15
-message,,エルドラーナ外交官・アウラからの正式な依頼。<br>それは、闇市に出回る『催眠石』の流通ルートを、完全に遮断すること。
+message,,<size=32>A formal request from Aura， Eldorana's envoy.            <br><size=32>Completely sever the Hypnosis Stone black market supply.<br> 
 
 window,off
 wait,0.15
@@ -65,7 +65,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,,すなわち催眠石を闇市に流す犯人の特定、<br>および、その供給源である鉱脈の、無力化である。
+message,,<size=32>Identify the culprits smuggling the stones               <br><size=32>and neutralize their source vein.<br> 
 
 window,off
 wait,0.15
@@ -176,7 +176,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,,その特別捜査部隊のメンバーは、ソフィア、ベリサ、マリナ、クルル、ヒマリ、<br>そして、かつては敵対していたロジーとゴレイヌだった。
+message,,<size=32>The team: Sophia， Belisa， Marina， Kururu，                <br><size=32>Himari— plus former foes Logy and Goleinu.<br> 
 
 window,off
 wait,0.15
@@ -218,7 +218,7 @@ waitorclick,2.5
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――大穴　火山の階層</size>,,,on
+messageTextCenter,,<size=48>--The Abyss: Volcanic Stratum</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -278,7 +278,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,ベリサ,アーデルハイトの開発した『リフト』って便利だね～。<br>こんな深い階層まで一気に来れちゃうんだもの。,100201000G,mcv_1001060301_001_01,chara_2
+message,ベリサ,<size=32>The Lift that Adelheid built is so handy~.               <br><size=32>We got all the way down here in one go.<br> ,100201000G,mcv_1001060301_001_01,chara_2
 
 window,off
 wait,0.15
@@ -337,7 +337,7 @@ asynccharaemo,chara_5,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,うんっ！<br>びゅーーーんっていっきに来られて気持ちいいねっ！,106701000G,mcv_1001060301_002_01,chara_5
+message,クルル,<size=32>Yeah!                                                    <br><size=32>Whoooosh— riding it down feels great!<br> ,106701000G,mcv_1001060301_002_01,chara_5
 
 window,off
 wait,0.15
@@ -384,7 +384,7 @@ asynccharaemo,chara_6,Dull,CONT,0
 
 
 window,on,0.15
-message,ゴレイヌ,う～～ん……熱い……！<br>冷却ファンが焼き切れちまいそうだぜぇ～～,2037001,mcv_1001060301_003_01,chara_6
+message,ゴレイヌ,<size=32>Ughhh... it's so hot...!                                 <br><size=32>My cooling fans are about to burn out~~<br> ,2037001,mcv_1001060301_003_01,chara_6
 
 window,off
 wait,0.15
@@ -437,7 +437,7 @@ asynccharaemo,chara_7,Panic,CONT,0
 
 
 window,on,0.15
-message,ロジー,ちょっとぉ～、高いパーツに変えてもらったんだから、<br>いきなり故障しないでよぉ～？,2036001,mcv_1001060301_004_01,chara_7
+message,ロジー,<size=32>Hey~~ I just had your parts upgraded，                    <br><size=32>so don't break down on me already~?<br> ,2036001,mcv_1001060301_004_01,chara_7
 
 window,off
 wait,0.15
@@ -484,7 +484,7 @@ asynccharaemo,chara_4,Dull,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,この階層……あまり、いい思い出はないなぁ……,106601000G,mcv_1001060301_005_01,chara_4
+message,ヒマリ,<size=32>This stratum... I don't have many good                   <br><size=32>memories of it...<br> ,106601000G,mcv_1001060301_005_01,chara_4
 
 window,off
 wait,0.15
@@ -538,7 +538,7 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,マリナ,ヒマリちゃんの倉庫、後でのぞきに行ってみます～？,100301000G,mcv_1001060301_006_01,chara_3
+message,マリナ,<size=32>Want to peek at your warehouse later~?<br> ,100301000G,mcv_1001060301_006_01,chara_3
 
 asynccharaface,chara_4,FaceSurprise,CONT,0
 
@@ -549,7 +549,7 @@ asyncseplay,setag1_7,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,ヒマリ,あ……あそこにあった備品は、<br>探索隊の方々で全部、前線基地まで回収してくれたみたいで……,106601000G,mcv_1001060301_007_01,chara_4
+message,ヒマリ,<size=32>Oh... the supplies that were there were                  <br><size=32>all recovered to the base by the scouts...<br> ,106601000G,mcv_1001060301_007_01,chara_4
 
 asynccharaface,chara_3,FaceFun,CONT,0
 
@@ -560,7 +560,7 @@ asyncseplay,setag1_8,se4800013,0,1,CONT,0
 asynccharaemo,chara_3,Spirits,CONT,0
 
 
-message,マリナ,あ、そうなんですね～。<br>いろいろ珍しいものがあったんで、気になってたんですよぉ～。,100301000G,mcv_1001060301_008_01,chara_3
+message,マリナ,<size=32>Oh， is that so~?                                         <br><size=32>There were so many rare things， I was curious~.<br> ,100301000G,mcv_1001060301_008_01,chara_3
 
 window,off
 wait,0.15
@@ -605,9 +605,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ソフィア,しっ！　静かにして！<br>そろそろ、例の催眠石の鉱脈の場所よ。,106501000G,mcv_1001060301_009_01,chara_1
+message,ソフィア,<size=32>Shh! Keep quiet!                                         <br><size=32>We should be near the Hypnosis Stone vein.<br> ,106501000G,mcv_1001060301_009_01,chara_1
 
-message,<user>,ここで待機だ。<br>耳を澄ませてみろ。足音が聞こえないか？
+message,<user>,<size=32>Hold here.                                               <br><size=32>Listen carefully. Do you hear footsteps?<br> 
 
 window,off
 wait,0.15
@@ -651,7 +651,7 @@ asynccharaemo,chara_5,Speak,CONT,0
 
 
 window,on,0.15
-message,クルル,何人か、近づいてきてるね～……,106701000G,mcv_1001060301_010_01,chara_5
+message,クルル,<size=32>A few people are getting closer~...<br> ,106701000G,mcv_1001060301_010_01,chara_5
 
 window,off
 wait,0.15
@@ -793,7 +793,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ソフィア,……あいつらだわ。やっぱりここに現れたわね。,106501000G,mcv_1001060301_011_01,chara_1
+message,ソフィア,<size=32>...It's them. They showed up here after all.<br> ,106501000G,mcv_1001060301_011_01,chara_1
 
 window,off
 wait,0.15
@@ -852,7 +852,7 @@ asynccharaemo,chara_5,Speak,CONT,0
 
 
 window,on,0.15
-message,クルル,ヒソヒソなんか話してるね～？,106701000G,mcv_1001060301_012_01,chara_5
+message,クルル,<size=32>They're whispering about something~?<br> ,106701000G,mcv_1001060301_012_01,chara_5
 
 window,off
 wait,0.15
@@ -917,7 +917,7 @@ asynccharaemo,chara_3,Trouble,CONT,0
 
 
 window,on,0.15
-message,マリナ,遠すぎて、ここからじゃ何話してるか聞こえないですねぇ～……,100301000G,mcv_1001060301_013_01,chara_3
+message,マリナ,<size=32>They're too far away to hear what they're                <br><size=32>saying from here~...<br> ,100301000G,mcv_1001060301_013_01,chara_3
 
 window,off
 wait,0.15
@@ -977,7 +977,7 @@ asynccharaemo,chara_6,Speak,CONT,0
 
 
 window,on,0.15
-message,ゴレイヌ,オレのセンサーで聞いてやろうかぁ～？,2037001,mcv_1001060301_014_01,chara_6
+message,ゴレイヌ,<size=32>Want me to listen in with my sensors~?<br> ,2037001,mcv_1001060301_014_01,chara_6
 
 asynccharaface,chara_7,FaceAnger,CONT,0
 
@@ -988,7 +988,7 @@ asyncseplay,setag1_19,se4800017,0,1,CONT,0
 asynccharaemo,chara_7,Shock,CONT,0
 
 
-message,ロジー,ちょっ……見つかっちゃうでしょぉ～！？<br>ただでさえ図体デカいのに！,2036001,mcv_1001060301_015_01,chara_7
+message,ロジー,<size=32>Wait... they'll spot us~!?                               <br><size=32>You're already huge as it is!<br> ,2036001,mcv_1001060301_015_01,chara_7
 
 window,off
 wait,0.15
@@ -1036,7 +1036,7 @@ asynctransitionFade,Tra02,in,black,0.5,STOP,0.5
 waitorclick,1.5
 
 window,on,0.15
-message,ヒマリ,採掘……始めないね？,106601000G,mcv_1001060301_016_01,on
+message,ヒマリ,<size=32>They're not... starting to mine?<br> ,106601000G,mcv_1001060301_016_01,on
 
 window,off
 wait,0.15
@@ -1064,7 +1064,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,ベリサ,あ、あれ……！？<br>鉱脈、完全スルーでどっか行っちゃうんだけど……！,100201000G,mcv_1001060301_017_01,on
+message,ベリサ,<size=32>H-huh...!?                                               <br><size=32>They walked right past the vein...!<br> ,100201000G,mcv_1001060301_017_01,on
 
 window,off
 wait,0.15
@@ -1114,7 +1114,7 @@ asynctransitionFade,Tra01,in,black,0.5,STOP,1
 waitorclick,1.5
 
 window,on,0.15
-message,<user>,どういうことだ……！？
+message,<user>,<size=32>What's going on...!?<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -1123,9 +1123,9 @@ asyncseplay,setag1_21,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ソフィア,あっちの方向は、下の階層に繋がる道よね。<br>どうする？　追跡する？,106501000G,mcv_1001060301_018_01,chara_1
+message,ソフィア,<size=32>That direction leads to a lower level.                   <br><size=32>What do we do? Follow them?<br> ,106501000G,mcv_1001060301_018_01,chara_1
 
-message,<user>,その現場を抑えるまでは追うしかないだろう。<br>身を隠しながら慎重に後を追うぞ。
+message,<user>,<size=32>We have no choice but to follow until we                 <br><size=32>catch them in the act. Stay hidden.<br> 
 
 
 window,off
@@ -1176,7 +1176,7 @@ waitorclick,1.5
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――歪んだ御成門周辺の階層</size>,,,on
+messageTextCenter,,<size=48>--Distorted Onarimon Stratum</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -1235,7 +1235,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,あいつら、こんな深い階層まで来てるのね……,106501000G,mcv_1001060301_019_01,chara_1
+message,ソフィア,<size=32>They've come this deep...<br> ,106501000G,mcv_1001060301_019_01,chara_1
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -1246,7 +1246,7 @@ asyncseplay,setag1_23,se4800017,0,1,CONT,0
 asynccharaemo,chara_2,Shock,CONT,0
 
 
-message,ベリサ,こ～んなトコまで、催眠石を掘りに来てるってことぉ～？,100201000G,mcv_1001060301_020_01,chara_2
+message,ベリサ,<size=32>They came all this way to mine Hypnosis                  <br><size=32>Stones~?<br> ,100201000G,mcv_1001060301_020_01,chara_2
 
 asynccharaface,chara_3,FaceSurprise,CONT,0
 
@@ -1257,7 +1257,7 @@ asyncseplay,setag1_24,se4800009,0,1,CONT,0
 asynccharaemo,chara_3,Question,CONT,0
 
 
-message,マリナ,どうなんでしょう？<br>こないだ探索した時は、そんな鉱脈はなかったですよねぇ？,100301000G,mcv_1001060301_021_01,chara_3
+message,マリナ,<size=32>I wonder~?                                               <br><size=32>There was no vein like that when we explored before.<br> ,100301000G,mcv_1001060301_021_01,chara_3
 
 window,off
 wait,0.15
@@ -1315,7 +1315,7 @@ asynccharaemo,chara_5,Question,CONT,0
 
 
 window,on,0.15
-message,クルル,なんか、ロボット、全然追いかけてこないね～？,106701000G,mcv_1001060301_022_01,chara_5
+message,クルル,<size=32>The robots aren't chasing us at all~?<br> ,106701000G,mcv_1001060301_022_01,chara_5
 
 asynccharaface,chara_4,FaceSurprise,CONT,0
 
@@ -1326,7 +1326,7 @@ asyncseplay,setag1_26,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,ヒマリ,あの黒いタワーの展望室にあった機械が『マザー』だったんじゃないかな？<br>それが爆発しちゃったから、それでかも……,106601000G,mcv_1001060301_023_01,chara_4
+message,ヒマリ,<size=32>Maybe the machine in the black tower was                 <br><size=32>the 'Mother'? Since it exploded...<br> ,106601000G,mcv_1001060301_023_01,chara_4
 
 window,off
 wait,0.15
@@ -1373,7 +1373,7 @@ asynccharaemo,chara_6,Anger,CONT,0
 
 
 window,on,0.15
-message,ゴレイヌ,うぉぉ、思い出した！<br>フード被ったアイツ見つけてぶっとばしてやらないと！,2037001,mcv_1001060301_024_01,chara_6
+message,ゴレイヌ,<size=32>Whoa， I just remembered!                                 <br><size=32>I gotta find that hooded jerk and deck 'em!<br> ,2037001,mcv_1001060301_024_01,chara_6
 
 window,off
 wait,0.15
@@ -1426,9 +1426,9 @@ asynccharaemo,chara_7,Panic,CONT,0
 
 
 window,on,0.15
-message,ロジー,しーっ！　しーっ！　助手くんボリューム落として！<br>ただでさえ尾行に向いてないボディなんだから静かにしなよぉ～！,2036001,mcv_1001060301_025_01,chara_7
+message,ロジー,<size=32>Shh! Shh! Keep it down!                                  <br><size=32>You're already terrible at stealth with that body~!<br> ,2036001,mcv_1001060301_025_01,chara_7
 
-message,<user>,あいつらが向かってる方向……。<br>あの黒いタワーがあった場所じゃないか？
+message,<user>,<size=32>The direction they're heading...                         <br><size=32>Isn't that where the black tower was?<br> 
 
 
 window,off
@@ -1479,9 +1479,9 @@ waitorclick,1.5
 asyncseplay,se1_90,se4700116,0,1,CONT
 
 window,on,0.15
-message,,黒い塔があったはずの場所は、その爆発の大きさを物語るかのように、<br>大地に巨大な穴が出来上がっていた。
+message,,<size=32>Where the black tower once stood， a massive              <br><size=32>crater now gaped in the earth.<br> 
 
-message,,穴の縁からは焼け焦げた鉄の匂いがまだ立ち上り、<br>底知れぬ暗闇へと冷たい風が吹き込んでいる。
+message,,<size=32>Scorched iron still stank from the rim，                  <br><size=32>and cold wind blew into the fathomless dark.<br> 
 
 window,off
 wait,0.15
@@ -1528,7 +1528,7 @@ asynccharaemo,chara_5,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,わ～～～！<br>でっかい穴ができてる～～～！,106701000G,mcv_1001060301_026_01,chara_5
+message,クルル,<size=32>Whoa~~~!                                                 <br><size=32>There's a huge hole here~~~!<br> ,106701000G,mcv_1001060301_026_01,chara_5
 
 asynccharaface,chara_4,FaceSad,CONT,0
 
@@ -1539,7 +1539,7 @@ asyncseplay,setag1_30,se4800007,0,1,CONT,0
 asynccharaemo,chara_4,Panic,CONT,0
 
 
-message,ヒマリ,ケホケホッ！　なんだか焦げ臭い……,106601000G,mcv_1001060301_027_01,chara_4
+message,ヒマリ,<size=32>*Cough cough*! Something smells burnt...<br> ,106601000G,mcv_1001060301_027_01,chara_4
 
 window,off
 wait,0.15
@@ -1604,7 +1604,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,ベリサ,これ、下の階層まで繋がってるのかなぁ～？,100201000G,mcv_1001060301_028_01,chara_2
+message,ベリサ,<size=32>Does this connect to the level below~?<br> ,100201000G,mcv_1001060301_028_01,chara_2
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1615,9 +1615,9 @@ asyncseplay,setag1_32,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ソフィア,あの盗賊たち、ここを下りていったわね……。<br>底が見えないけど、どれだけの深さなのかしら？,106501000G,mcv_1001060301_029_01,chara_1
+message,ソフィア,<size=32>Those bandits went down here...                          <br><size=32>I can't see the bottom. How deep is it?<br> ,106501000G,mcv_1001060301_029_01,chara_1
 
-message,<user>,まさか未踏の階層に行かれるとは想定外だった……
+message,<user>,<size=32>Didn't expect them to head into uncharted                <br><size=32>territory...<br> 
 
 asyncjump,CHARA,chara_3,30,0.25,1,off,0,CONT
 
@@ -1626,7 +1626,7 @@ asyncseplay,setag1_33,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,マリナ,どうしますかぁ～？<br>いったん引き返して観測気球で調査してからにします～？,100301000G,mcv_1001060301_030_01,chara_3
+message,マリナ,<size=32>What should we do~?                                      <br><size=32>Head back and scout with a balloon first~?<br> ,100301000G,mcv_1001060301_030_01,chara_3
 
 window,off
 wait,0.15
@@ -1645,9 +1645,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ソフィア,ここであの人たちを見失えば、<br>せっかくの尾行が台無しだわ。,106501000G,mcv_1001060301_031_01,chara_1
+message,ソフィア,<size=32>If we lose them here，                                    <br><size=32>our whole tail operation is for nothing.<br> ,106501000G,mcv_1001060301_031_01,chara_1
 
-message,<user>,その通りだ。<br>このまま、ロープを使って下の階層に向かおう。
+message,<user>,<size=32>Agreed.                                                  <br><size=32>Let's use ropes to descend to the lower level.<br> 
 
 asynccharaface,chara_3,FaceFun,CONT,0
 
@@ -1658,7 +1658,7 @@ asyncseplay,setag1_35,se4800003,0,1,CONT,0
 asynccharaemo,chara_3,Twinkle,CONT,0
 
 
-message,マリナ,こんなこともあろうかと、登山用の強力なロープを用意しておきましたぁ～♪<br>なんと体重３００キロまで耐えられる高級品ですよぉ～♪,100301000G,mcv_1001060301_032_01,chara_3
+message,マリナ,<size=32>Just in case， I brought heavy-duty climbing              <br><size=32>rope~♪ Holds up to 300 kg— top quality~♪<br> ,100301000G,mcv_1001060301_032_01,chara_3
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -1669,7 +1669,7 @@ asyncseplay,setag1_36,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ベリサ,いやいや、３００キロ以上もある人間なんて、そういないでしょ～。,100201000G,mcv_1001060301_033_01,chara_2
+message,ベリサ,<size=32>I mean， who even weighs over 300 kg~?<br> ,100201000G,mcv_1001060301_033_01,chara_2
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1680,7 +1680,7 @@ asyncseplay,setag1_37,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ソフィア,人間は……そうかもだけど……,106501000G,mcv_1001060301_034_01,chara_1
+message,ソフィア,<size=32>Humans... maybe not， but...<br> ,106501000G,mcv_1001060301_034_01,chara_1
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -1691,7 +1691,7 @@ asyncseplay,setag1_38,se4800011,0,1,CONT,0
 asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
-message,ベリサ,あっ……！,100201000G,mcv_1001060301_035_01,chara_2
+message,ベリサ,<size=32>Oh...!<br> ,100201000G,mcv_1001060301_035_01,chara_2
 
 window,off
 wait,0.15
@@ -1742,7 +1742,7 @@ asyncseplay,setag1_39,se4800017,0,1,CONT,0
 asynccharaemo,chara_6,Shock,CONT,0
 
 window,on,0.15
-message,,一行の視線が一斉にゴレイヌに集中する。
+message,,<size=32>Everyone's gaze locked onto Goleinu.<br> 
 
 window,off
 wait,0.15
@@ -1796,7 +1796,7 @@ asynccharaemo,chara_7,Elated,CONT,0
 
 
 window,on,0.15
-message,ロジー,御安心を！　ゴレイヌは軽量チタン合金製！<br>軽量に軽量を重ねて機動性をアップさせてるんだから！,2036001,mcv_1001060301_036_01,chara_7
+message,ロジー,<size=32>Rest assured! Goleinu is lightweight titanium            <br><size=32>alloy! Built for maximum mobility!<br> ,2036001,mcv_1001060301_036_01,chara_7
 
 asyncshake,CHARA,chara_6,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -1805,7 +1805,7 @@ asyncseplay,setag1_41,se4800009,0,1,CONT,0
 asynccharaemo,chara_6,Question,CONT,0
 
 
-message,ゴレイヌ,いや……オレの体重は今、５００キロだが？,2037001,mcv_1001060301_037_01,chara_6
+message,ゴレイヌ,<size=32>Uh... I weigh 500 kg now though?<br> ,2037001,mcv_1001060301_037_01,chara_6
 
 asynccharaface,chara_7,FaceSurprise,CONT,0
 
@@ -1816,7 +1816,7 @@ asyncseplay,setag1_42,se4800017,0,1,CONT,0
 asynccharaemo,chara_7,Shock,CONT,0
 
 
-message,ロジー,はぁっ！？　何でいつの間にそんなに太ってんのよっ！？,2036001,mcv_1001060301_038_01,chara_7
+message,ロジー,<size=32>Huh!? When did you get that heavy!?<br> ,2036001,mcv_1001060301_038_01,chara_7
 
 asynccharaface,chara_6,FaceHappy,CONT,0
 
@@ -1827,7 +1827,7 @@ asyncseplay,setag1_43,se4800003,0,1,CONT,0
 asynccharaemo,chara_6,Twinkle,CONT,0
 
 
-message,ゴレイヌ,ハッハッハッ！　アーデル姐さんに機能追加してもらった時に、<br>ついでに装甲も強化してもらったのさぁ～。,2037001,mcv_1001060301_039_01,chara_6
+message,ゴレイヌ,<size=32>Hahaha! When Adelheid added new functions，               <br><size=32>she beefed up my armor too~.<br> ,2037001,mcv_1001060301_039_01,chara_6
 
 asynccharaface,chara_7,FaceAnger,CONT,0
 
@@ -1838,7 +1838,7 @@ asyncseplay,setag1_44,se4800016,0,1,CONT,0
 asynccharaemo,chara_7,BePeevish,CONT,0
 
 
-message,ロジー,はぁぁっ！？　勝手なことしないでよぉ～！<br>どうりで請求書の金額がバカ高いはずだよぉぉ、まったく！,2036001,mcv_1001060301_040_01,chara_7
+message,ロジー,<size=32>Whaat!? Don't do things on your own~!                    <br><size=32>No wonder the bill was ridiculously high!<br> ,2036001,mcv_1001060301_040_01,chara_7
 
 asynccharaface,chara_6,EyeOpen,CONT,0
 asynccharaface,chara_6,FaceNormal,CONT,0
@@ -1850,7 +1850,7 @@ asyncseplay,setag1_45,se4800022,0,1,CONT,0
 asynccharaemo,chara_6,Speak,CONT,0
 
 
-message,ゴレイヌ,だが安心しろ！<br>そのロープでオレの体をグルグル巻きにして命綱にしてくれ！,2037001,mcv_1001060301_041_01,chara_6
+message,ゴレイヌ,<size=32>But don't worry!                                         <br><size=32>Wrap that rope around me as a lifeline!<br> ,2037001,mcv_1001060301_041_01,chara_6
 
 asynccharaface,chara_7,FaceSurprise,CONT,0
 
@@ -1861,7 +1861,7 @@ asyncseplay,setag1_46,se4800009,0,1,CONT,0
 asynccharaemo,chara_7,Question,CONT,0
 
 
-message,ロジー,命綱の意味なくない！？,2036001,mcv_1001060301_042_01,chara_7
+message,ロジー,<size=32>That defeats the purpose of a lifeline!?<br> ,2036001,mcv_1001060301_042_01,chara_7
 
 asyncjump,CHARA,chara_6,-30,0.25,1,off,0,CONT
 
@@ -1870,7 +1870,7 @@ asyncseplay,setag1_47,se4800004,0,1,CONT,0
 asynccharaemo,chara_6,Laugh,CONT,0
 
 
-message,ゴレイヌ,いや、オレはその状態で壁を伝って先に降りて下の安全を確認してくる。<br>それでどうだ？,2037001,mcv_1001060301_043_01,chara_6
+message,ゴレイヌ,<size=32>I'll climb down the wall ahead wrapped up                <br><size=32>and check if it's safe below. How's that?<br> ,2037001,mcv_1001060301_043_01,chara_6
 
 window,off
 wait,0.15
@@ -1935,7 +1935,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,ベリサ,なんか、このロボット、はじめてまともなこと言ってるかも……,100201000G,mcv_1001060301_044_01,chara_2
+message,ベリサ,<size=32>This robot might be making sense for once...<br> ,100201000G,mcv_1001060301_044_01,chara_2
 
 window,off
 wait,0.15
@@ -1980,7 +1980,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,確かにその作戦が真っ当かもしれんな。<br>くれぐれも、あいつらに気付かれないように慎重に頼む。
+message,<user>,<size=32>That might actually be the best plan.                    <br><size=32>Just make sure they don't notice you.<br> 
 
 asynccharaface,chara_6,FaceHappy,CONT,0
 
@@ -1991,7 +1991,7 @@ asyncseplay,setag1_49,se4800022,0,1,CONT,0
 asynccharaemo,chara_6,Speak,CONT,0
 
 
-message,ゴレイヌ,おうよ！　まっかせとけ！,2037001,mcv_1001060301_045_01,chara_6
+message,ゴレイヌ,<size=32>You got it! Leave it to me!<br> ,2037001,mcv_1001060301_045_01,chara_6
 
 window,off
 wait,0.15
@@ -2062,7 +2062,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,,ゴレイヌは、命綱を巻き付けると、その巨体からは想像もつかないほど器用に、<br>壁の突起を掴み、慎重に暗闇の中へと降りていく。
+message,,<size=32>With the rope wrapped tight， Goleinu gripped             <br><size=32>the wall and descended into the darkness.<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -2090,7 +2090,7 @@ asynctransitionFade,Tra04,in,black,0,STOP,1
 waitorclick,0.5
 
 window,on,0.15
-message,,やがて遥か下から安全を知らせるライトが届き、<br>無事に全員、下の階層へと降りることができた。
+message,,<size=32>Before long， a signal light reached them                 <br><size=32>from far below， and everyone descended safely.<br> 
 
 window,off
 wait,0.15
@@ -2128,7 +2128,7 @@ waitorclick,2.5
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――大穴　未踏の階層</size>,,,on
+messageTextCenter,,<size=48>--The Abyss: Uncharted Stratum</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -2179,7 +2179,7 @@ asynccharaemo,chara_5,Sweat,CONT,0
 
 
 window,on,0.15
-message,クルル,なんか、すっごい明るいね～、ここ……,106701000G,mcv_1001060301_046_01,chara_5
+message,クルル,<size=32>It's really bright down here~...<br> ,106701000G,mcv_1001060301_046_01,chara_5
 
 window,off
 wait,0.15
@@ -2244,7 +2244,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 
 window,on,0.15
-message,ソフィア,明るいのはいいんだけど……、な、何だか……,106501000G,mcv_1001060301_047_01,chara_1
+message,ソフィア,<size=32>The light is nice， but... something feels...<br> ,106501000G,mcv_1001060301_047_01,chara_1
 
 window,off
 wait,0.15
@@ -2295,7 +2295,7 @@ asynccharaemo,chara_4,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,ヒマリ……ちょっと頭痛い……かも。,106601000G,mcv_1001060301_048_01,chara_4
+message,ヒマリ,<size=32>My head... hurts a little... I think.<br> ,106601000G,mcv_1001060301_048_01,chara_4
 
 window,off
 wait,0.15
@@ -2336,7 +2336,7 @@ asynccharaemo,chara_3,Dull,CONT,0
 
 
 window,on,0.15
-message,マリナ,なんだか、頭がキンキン……しますねぇ～……,100301000G,mcv_1001060301_049_01,chara_3
+message,マリナ,<size=32>My head is throbbing~...<br> ,100301000G,mcv_1001060301_049_01,chara_3
 
 window,off
 wait,0.15
@@ -2390,7 +2390,7 @@ asynccharaemo,chara_7,Panic,CONT,0
 
 
 window,on,0.15
-message,ロジー,イタタタ～～……なんなのよぉ～、ここ！,2036001,mcv_1001060301_050_01,chara_7
+message,ロジー,<size=32>Ow ow ow~~ What is this place~!<br> ,2036001,mcv_1001060301_050_01,chara_7
 
 asynccharaface,chara_6,FaceSurprise,CONT,0
 
@@ -2401,7 +2401,7 @@ asyncseplay,setag1_56,se4800017,0,1,CONT,0
 asynccharaemo,chara_6,Shock,CONT,0
 
 
-message,ゴレイヌ,教授！　魔力係数が１４０を計測してるぜ～！<br>しかも全方位から響いてきやがる！,2037001,mcv_1001060301_051_01,chara_6
+message,ゴレイヌ,<size=32>Professor! Magic coefficient reads 140!                  <br><size=32>And it's coming from every direction!<br> ,2037001,mcv_1001060301_051_01,chara_6
 
 window,off
 wait,0.15
@@ -2448,7 +2448,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ソフィア,ゴレイヌって、魔力探知までできるの！？,106501000G,mcv_1001060301_052_01,chara_1
+message,ソフィア,<size=32>Goleinu can even detect magic!?<br> ,106501000G,mcv_1001060301_052_01,chara_1
 
 window,off
 wait,0.15
@@ -2489,7 +2489,7 @@ asynccharaemo,chara_6,Laugh,CONT,0
 
 
 window,on,0.15
-message,ゴレイヌ,へへへ～、まあな！　ついでにスリーサイズの計測もできるぞ！<br>え～と、ソフィア姐さんのは、バスト……,2037001,mcv_1001060301_053_01,chara_6
+message,ゴレイヌ,<size=32>Hehehe~ sure can! I can also measure three               <br><size=32>sizes~ Let's see， Sophia's bust is...<br> ,2037001,mcv_1001060301_053_01,chara_6
 
 window,off
 wait,0.15
@@ -2530,7 +2530,7 @@ asynccharaemo,chara_1,Anger,CONT,0
 
 
 window,on,0.15
-message,ソフィア,そんなのしなくていいっ！,106501000G,mcv_1001060301_054_01,chara_1
+message,ソフィア,<size=32>Nobody asked for that!<br> ,106501000G,mcv_1001060301_054_01,chara_1
 
 window,off
 wait,0.15
@@ -2593,9 +2593,9 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,ベリサ,なんなの、この階層……周りが鉱石だらけなんだけど、<br>そこから強めの魔力がビンビン出てきてる……,100201000G,mcv_1001060301_055_01,chara_2
+message,ベリサ,<size=32>What is this place... ore everywhere，                    <br><size=32>and it's radiating intense magic...<br> ,100201000G,mcv_1001060301_055_01,chara_2
 
-message,<user>,みんな大丈夫か？
+message,<user>,<size=32>Is everyone okay?<br> 
 
 window,off
 wait,0.15
@@ -2654,7 +2654,7 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,大丈夫……ちょっと頭がキーンってするけど、<br>耐えられないほどじゃないから……,106601000G,mcv_1001060301_056_01,chara_4
+message,ヒマリ,<size=32>I'm okay... my head is ringing a bit，                    <br><size=32>but it's not unbearable...<br> ,106601000G,mcv_1001060301_056_01,chara_4
 
 window,off
 wait,0.15
@@ -2721,7 +2721,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ソフィア,盗賊たちを追跡しましょう。<br>まだそう遠くまでは行ってないはず。,106501000G,mcv_1001060301_057_01,chara_1
+message,ソフィア,<size=32>Let's keep tracking the bandits.                         <br><size=32>They can't have gotten far yet.<br> ,106501000G,mcv_1001060301_057_01,chara_1
 
 asyncshake,CHARA,chara_2,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -2730,9 +2730,9 @@ asyncseplay,setag1_63,se4800006,0,1,CONT,0
 asynccharaemo,chara_2,Trouble,CONT,0
 
 
-message,ベリサ,でも、どっちに向かったかなんて分かんないじゃないのよ～。<br>適当に進んで迷子になるのも嫌だし。,100201000G,mcv_1001060301_058_01,chara_2
+message,ベリサ,<size=32>But we don't know which way they went~.                  <br><size=32>I'd rather not wander around and get lost.<br> ,100201000G,mcv_1001060301_058_01,chara_2
 
-message,<user>,そういうこともあろうかと、<br>これを持ってきたんだ。
+message,<user>,<size=32>I anticipated that，                                      <br><size=32>so I brought this.<br> 
 
 window,off
 wait,0.15
@@ -2754,7 +2754,7 @@ emodelete,chara_3,0,0
 item,on,550100013
 
 window,on,0.15
-message,<user>,<user>はそう言って懐から1枚の布切れを取り出す。<br>それは以前の探索で入手した『魔脈の道標』だった。
+message,<user>,<size=32><user> pulled a cloth from his coat pocket.              <br><size=32>It was the Ley Line Marker from before.<br> 
 
 window,off
 wait,0.15
@@ -2810,7 +2810,7 @@ asynccharaemo,chara_3,Twinkle,CONT,0
 
 
 window,on,0.15
-message,マリナ,でたぁ～～～！<br>超レアマジックアイテムですね～！,100301000G,mcv_1001060301_059_01,chara_3
+message,マリナ,<size=32>There it is~~~!                                          <br><size=32>The super rare magic item~!<br> ,100301000G,mcv_1001060301_059_01,chara_3
 
 window,off
 wait,0.15
@@ -2867,9 +2867,9 @@ asynccharaemo,chara_5,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,ぐにゃぐにゃ～～ってして、地図になるやつだぁ！,106701000G,mcv_1001060301_060_01,chara_5
+message,クルル,<size=32>The squishy thing that turns into a map~!<br> ,106701000G,mcv_1001060301_060_01,chara_5
 
-message,<user>,初めての階層でも、こいつがあれば、<br>ある程度の道筋の予測は立つだろう。
+message,<user>,<size=32>Even in unexplored territory， this should                <br><size=32>give us a rough idea of the layout.<br> 
 
 window,off
 wait,0.15
@@ -2933,7 +2933,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ソフィア,そうね。さっそく地図を作りましょ。,106501000G,mcv_1001060301_061_01,chara_1
+message,ソフィア,<size=32>Right. Let's make a map.<br> ,106501000G,mcv_1001060301_061_01,chara_1
 
 message,<user>,……
 
@@ -2978,9 +2978,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,え？　どうしたのよ？,106501000G,mcv_1001060301_062_01,chara_1
+message,ソフィア,<size=32>Hm? What's wrong?<br> ,106501000G,mcv_1001060301_062_01,chara_1
 
-message,<user>,いや、魔脈の道標がおかしいんだ。<br>ずっとグニャグニャしたまま、一向に地図を形成してくれない。
+message,<user>,<size=32>The Ley Line Marker is acting up.                        <br><size=32>It just keeps squirming and won't form a map.<br> 
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -2991,7 +2991,7 @@ asyncseplay,setag1_71,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ベリサ,周りの魔力が強すぎておかしくなってるとかじゃない？,100201000G,mcv_1001060301_063_01,chara_2
+message,ベリサ,<size=32>Maybe the magic here is too strong for it?<br> ,100201000G,mcv_1001060301_063_01,chara_2
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -3002,13 +3002,13 @@ asyncseplay,setag1_72,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ソフィア,磁場が強い所でのコンパスと同じね。<br>でも、参ったわね。これじゃ使い物にならないし……,106501000G,mcv_1001060301_064_01,chara_1
+message,ソフィア,<size=32>Like a compass in a strong magnetic field.               <br><size=32>But this is a problem... it's useless here.<br> ,106501000G,mcv_1001060301_064_01,chara_1
 
 
 asyncseplay,setag1_73,se4900079,0,1,CONT
 
 
-message,,――そのとき。パン！　と音を立て、魔脈の道標が真っ黒に染まった。<br>撫でても振っても叩いても、何も反応しない。
+message,,<size=32>Just then— *pop*! The Ley Line Marker                    <br><size=32>turned pitch black. No response at all.<br> 
 
 window,off
 wait,0.15
@@ -3036,7 +3036,7 @@ asyncskipwait
 
 
 window,on,0.15
-message,<user>,なっ……こ、壊れたのか！？,,,chara_1/chara_2/chara_3
+message,<user>,<size=32>Wha... did it just break!?<br> ,,,chara_1/chara_2/chara_3
 
 
 window,off
@@ -3053,7 +3053,7 @@ wait,0.1
 
 
 window,on,0.15
-message,<user>,（どうする……？　このまま未知の階層を探索するのは危険すぎる。<br>やはり、ここは引き返して……）
+message,<user>,<size=32>(What now...? Exploring unknown territory                <br><size=32>without a map is too dangerous. We should...)<br> 
 
 
 window,off
@@ -3130,7 +3130,7 @@ asynccharaemo,chara_5,Twinkle,STOP,7.5
 
 
 window,on,0.15
-message,クルル,あっ！　みてみて～！　ここに、ちょっとだけ足跡があるよ～！<br>スンスン……うん！　さっきの男の人たちのニオイだ！,106701000G,mcv_1001060301_065_01,chara_5
+message,クルル,<size=32>Look look~! There are footprints here~!                  <br><size=32>*Sniff sniff*... Yep! It's those men's scent!<br> ,106701000G,mcv_1001060301_065_01,chara_5
 
 
 window,off
@@ -3147,7 +3147,7 @@ wait,0.1
 
 
 window,on,0.15
-message,<user>,（そうか！　クルルの鼻があれば、またこの場所へ戻ってこられる！）
+message,<user>,<size=32>(Of course! With Kururu's nose， we can                   <br><size=32>always find our way back here!)<br> 
 
 
 window,off
@@ -3166,7 +3166,7 @@ wait,0.1
 
 
 window,on,0.15
-message,<user>,クルル、盗賊を追跡してくれ！<br>あと、この場所の匂いをしっかり覚えててくれよ！
+message,<user>,<size=32>Kururu， track the bandits!                               <br><size=32>And make sure you remember this spot's scent!<br> 
 
 window,off
 bgmstop,bgmtag1_2,0.5

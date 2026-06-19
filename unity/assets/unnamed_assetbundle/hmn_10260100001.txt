@@ -14,16 +14,16 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,氷の世界の少女
+title,The Girl from a World of Ice
 
 wait,1
 
 bgmplay,bgmtag1_1,bgm0027,0.75,1
 
 window,on,0.15
-message,,氷に閉ざされた異世界からやってきたとされる少女・シルヴィア。
+message,,<size=32>Sylvia — a girl said to have come from an ice-bound      <br><size=32>world.<br> 
 
-message,,誰とも仲良くできず、いつも孤独な彼女を心配した<br><user>は様子を見に宿舎までやってきたが――
+message,,<size=32>Worried about her inability to get along with anyone and <br><size=32>her constant loneliness， <user> came to the dormitory to check on her—<br> 
 
 window,off
 wait,0.15
@@ -34,11 +34,11 @@ asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,<user>,――くしゅんっ！　な、なんだこの寒さは！？<br>夏なのに、まるで真冬並みじゃないか！
+message,<user>,<size=32>—Achoo! Wh-what's with this cold!?                       <br><size=32>It's summer， yet it feels like the dead of winter!<br> 
 
-message,<user>,この膨大な冷気はいったいどこから……ん？<br>あそこは……シルヴィアの部屋か。
+message,<user>,<size=32>Where is all this frigid air coming from... Hm?          <br><size=32>Over there... That's Sylvia's room.<br> 
 
-message,<user>,何をしてるのか知らんが、このままでは他の連中諸共<br>凍死してしまう。早急に止めさせなくては……！
+message,<user>,<size=32>I don't know what she's doing， but at this rate everyone <br><size=32>in the building is going to freeze to death. I need to stop her immediately...!<br> 
 
 
 window,off
@@ -59,7 +59,7 @@ asyncseplay,setag1_1,se4300007,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,<user>,シルヴィア！　一体何をやってるんだ！？
+message,<user>,<size=32>Sylvia! What on earth are you doing!?<br> 
 
 
 window,off
@@ -91,9 +91,9 @@ bgmstop,bgmtag1_1,1.5,0
 
 
 window,on,0.15
-message,シルヴィア,あら。淑女の部屋にノックもなしに上がり込むだなんて、<br>この世界の男性は礼儀も知らないんですか？,102601000G,vc_10260100001_001_01,chara_1
+message,シルヴィア,<size=32>My. Barging into a lady's room without so much as a knock<br><size=32>— do the men of this world know nothing of etiquette?<br> ,102601000G,vc_10260100001_001_01,chara_1
 
-message,<user>,気を遣ってほしかったら、まずは迷惑行為を止めろ。<br>宿舎が極寒になっていてみんなが大迷惑しているぞ。
+message,<user>,<size=32>If you want courtesy， stop being a nuisance first. The   <br><size=32>dormitory is freezing and everyone is suffering because of it.<br> 
 
 bgmplay,bgmtag1_2,bgm0035,0.75,1
 
@@ -106,7 +106,7 @@ asyncseplay,setag1_3,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,シルヴィア,わたくしはまったく寒くありませんわ。<br>皆さまが寒がりなのでは？,102601000G,vc_10260100001_002_01,chara_1
+message,シルヴィア,<size=32>I'm not cold in the slightest.                           <br><size=32>Perhaps everyone else is simply too sensitive to cold?<br> ,102601000G,vc_10260100001_002_01,chara_1
 
 window,off
 wait,0.15
@@ -125,9 +125,9 @@ wait,0.5
 
 
 window,on,0.15
-message,シルヴィア,見ての通り、わたくしは氷像を作っているだけです。<br>部屋が暖かいと氷が溶けてしまいますので。,102601000G,vc_10260100001_003_01,chara_1
+message,シルヴィア,<size=32>As you can see， I'm simply making ice sculptures.        <br><size=32>The ice melts if the room is too warm.<br> ,102601000G,vc_10260100001_003_01,chara_1
 
-message,<user>,寒さの原因はそれか……創作活動をするなとは言わないが<br>せめて別の材質で作れないか？　このままじゃ凍死してしまうんだが……
+message,<user>,<size=32>So that's the cause... I'm not saying you can't do       <br><size=32>creative work， but couldn't you use a different material? We'll all freeze to death at this rate...<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -138,7 +138,7 @@ asyncseplay,setag1_5,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,シルヴィア,わたくしは氷使いですから。<br>氷使いが氷以外のものを扱うだなんてナンセンスですわ。,102601000G,vc_10260100001_004_01,chara_1
+message,シルヴィア,<size=32>I am an ice wielder. An ice wielder working with anything<br><size=32>but ice is simply nonsensical.<br> ,102601000G,vc_10260100001_004_01,chara_1
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -152,9 +152,9 @@ asynccharaface,chara_1,FaceNormal,STOP,5.9
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,STOP,5.9
 
 
-message,シルヴィア,それに……このように美しい氷像を壊すことなど、<br>わたくしにはできませんわ。,102601000G,vc_10260100001_005_01,chara_1
+message,シルヴィア,<size=32>Besides... I could never bring myself                    <br><size=32>to destroy such beautiful ice sculptures.<br> ,102601000G,vc_10260100001_005_01,chara_1
 
-message,<user>,確かに綺麗な氷像ではあるが……。<br>何故こんなものを作ったんだ？
+message,<user>,<size=32>They are beautiful， I'll give you that...                <br><size=32>But why did you make these?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -166,7 +166,7 @@ asyncseplay,setag1_7,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,シルヴィア,わたくしは貴族でありながら芸術家でもありましたから。,102601000G,vc_10260100001_006_01,chara_1
+message,シルヴィア,<size=32>I was both a noblewoman and an artist.<br> ,102601000G,vc_10260100001_006_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -177,11 +177,11 @@ asyncseplay,setag1_8,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,シルヴィア,美しいでしょう？　芸術に乏しい世界に生まれ、審美眼を<br>育む事が出来なかったあなたでも、この美しさは分かりますよね？,102601000G,vc_10260100001_007_01,chara_1
+message,シルヴィア,<size=32>Beautiful， aren't they? Even someone born in a world     <br><size=32>lacking in art who never had the chance to develop an aesthetic eye can appreciate this beauty， yes?<br> ,102601000G,vc_10260100001_007_01,chara_1
 
-message,<user>,本当に一言多いなお前は。<br>……俺でも分かるさ、この美しさは。
+message,<user>,<size=32>You really never miss a chance to throw in a jab.        <br><size=32>...Even I can see how beautiful they are.<br> 
 
-message,<user>,なぁ、この氷像のモデルはいたりするのか？
+message,<user>,<size=32>Say， did these sculptures have models?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -193,9 +193,9 @@ asyncseplay,setag1_9,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,シルヴィア,どうしてそのような事を？,102601000G,vc_10260100001_008_01,chara_1
+message,シルヴィア,<size=32>Why do you ask?<br> ,102601000G,vc_10260100001_008_01,chara_1
 
-message,<user>,そこの少女を模した氷像がどこかお前に似ているからな。<br>両隣にいる男女の氷像はお前の関係者なんじゃないか？
+message,<user>,<size=32>That sculpture of the girl looks a lot like you. The man <br><size=32>and woman on either side — are they people you know?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -206,7 +206,7 @@ asyncseplay,setag1_10,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,シルヴィア,ええ。これはわたくしのかぞ――,102601000G,vc_10260100001_009_01,chara_1
+message,シルヴィア,<size=32>Yes. These are my fami—<br> ,102601000G,vc_10260100001_009_01,chara_1
 
 window,off
 wait,0.15
@@ -235,11 +235,11 @@ wait,0.5
 
 
 window,on,0.15
-message,シルヴィア,い、いえ。誰でもありませんわ。 <br>ただ形的に作りやすかっただけです。,102601000G,vc_10260100001_010_01,chara_1
+message,シルヴィア,<size=32>N-no. They're nobody.                                    <br><size=32>They were simply easy shapes to sculpt.<br> ,102601000G,vc_10260100001_010_01,chara_1
 
-message,<user>,……そうか。
+message,<user>,<size=32>...I see.<br> 
 
-message,<user>,まぁ、とにかく、部屋の中で氷像を作るのはやめろ。<br>せめて外で作ってくれ。寒くてかなわん。
+message,<user>,<size=32>Well， in any case， stop making ice sculptures in your    <br><size=32>room. Do it outside at least. The cold is unbearable.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -251,7 +251,7 @@ asyncseplay,setag1_13,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,シルヴィア,仕方ありませんね。言う通りにしてあげましょう。<br>ちょうど気分転換をしたかったところですわ。,102601000G,vc_10260100001_011_01,chara_1
+message,シルヴィア,<size=32>Very well. I suppose I'll do as you say.                 <br><size=32>I was just thinking I needed a change of scenery anyway.<br> ,102601000G,vc_10260100001_011_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -262,11 +262,11 @@ asyncseplay,setag1_14,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,シルヴィア,この世界は暑すぎますし、わたくしの氷で<br>冷やしてあげるのも悪くはないでしょう。,102601000G,vc_10260100001_012_01,chara_1
+message,シルヴィア,<size=32>This world is far too hot anyway. Cooling it down        <br><size=32>with my ice wouldn't be such a bad thing.<br> ,102601000G,vc_10260100001_012_01,chara_1
 
-message,<user>,氷河期を到来させる気か！？
+message,<user>,<size=32>Are you trying to bring on an ice age!?<br> 
 
-message,<user>,まったく、相変わらず我儘お嬢様だなぁ……<br>部屋も散らかり過ぎだし。
+message,<user>,<size=32>Good grief， you're still the same spoiled princess...    <br><size=32>And this room is a complete mess.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -277,9 +277,9 @@ asyncseplay,setag1_15,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,シルヴィア,そんなことありませんわ。これぐらい普通です。,102601000G,vc_10260100001_013_01,chara_1
+message,シルヴィア,<size=32>That's not true. This is perfectly normal.<br> ,102601000G,vc_10260100001_013_01,chara_1
 
-message,<user>,普通なことあるか。<br>床に服がぐちゃぐちゃになって放置されてるじゃないか。
+message,<user>,<size=32>Normal? In what world?                                   <br><size=32>There are clothes scattered all over the floor.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -290,9 +290,9 @@ asyncseplay,setag1_16,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シルヴィア,うっ……,102601000G,vc_10260100001_014_01,chara_1
+message,シルヴィア,<size=32>Ugh...<br> ,102601000G,vc_10260100001_014_01,chara_1
 
-message,<user>,脱いだ服は洗濯してせめてタンスに片付けろ。
+message,<user>,<size=32>At least wash your clothes and put them in the dresser.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -303,9 +303,9 @@ asyncseplay,setag1_17,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,シルヴィア,む、無理です。<br>だってやったこと……ないんですもん……,102601000G,vc_10260100001_015_01,chara_1
+message,シルヴィア,<size=32>I-I can't.                                               <br><size=32>I've... never done it before...<br> ,102601000G,vc_10260100001_015_01,chara_1
 
-message,<user>,はぁ……迷惑行為をするばかりじゃなくて<br>おまけに生活能力も乏しいときたか。
+message,<user>,<size=32>*Sigh*... So on top of being a nuisance，                 <br><size=32>you also lack basic life skills.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -316,7 +316,7 @@ asyncseplay,setag1_18,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,シルヴィア,し、仕方ないじゃないですか……っ！<br>元の世界ではメイドがやってくれていましたものっ。,102601000G,vc_10260100001_016_01,chara_1
+message,シルヴィア,<size=32>I-it can't be helped...!                                 <br><size=32>The maids always took care of it back in my world!<br> ,102601000G,vc_10260100001_016_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -327,7 +327,7 @@ asyncseplay,setag1_19,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,シルヴィア,まさか自分で生活における雑用仕事をやることになるだなんて、<br>この世界に来るまでは思ってもみなかったんですからぁ……,102601000G,vc_10260100001_017_01,chara_1
+message,シルヴィア,<size=32>I never imagined I'd have to do household chores myself  <br><size=32>until I came to this world...<br> ,102601000G,vc_10260100001_017_01,chara_1
 
 window,off
 wait,0.15
@@ -362,9 +362,9 @@ asynccharaface,chara_1,FaceNormal,STOP,6.8
 
 
 window,on,0.15
-message,シルヴィア,こ、こほん！　そ、そんなことより、あなた！<br>ちょうどいいところに来ましたわね！　実は頼みがあるんですっ。,102601000G,vc_10260100001_018_01,chara_1
+message,シルヴィア,<size=32>A-ahem! A-anyway， you! You've come at just the right     <br><size=32>time! I actually have a favor to ask!<br> ,102601000G,vc_10260100001_018_01,chara_1
 
-message,<user>,部屋の片づけなら遠慮しておくぞ。<br>我儘お嬢様の執事になるつもりは毛頭ないからな。
+message,<user>,<size=32>If it's cleaning your room， I'll pass. I have no         <br><size=32>intention of becoming a spoiled princess's butler.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -375,9 +375,9 @@ asyncseplay,setag1_22,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,シルヴィア,ち、違いますわ！　片づけについては今は置いておいてください！,102601000G,vc_10260100001_019_01,chara_1
+message,シルヴィア,<size=32>Th-that's not it! Forget about the cleaning for now!<br> ,102601000G,vc_10260100001_019_01,chara_1
 
-message,<user>,じゃあ、なんだよ？
+message,<user>,<size=32>Then what is it?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -393,9 +393,9 @@ wait,0.5
 bgmstop,bgmtag1_2,1.5,0
 
 
-message,シルヴィア,――わたくしを大穴に連れて行ってほしいのです。,102601000G,vc_10260100001_020_01,chara_1
+message,シルヴィア,<size=32>—I want you to take me to the Abyss.<br> ,102601000G,vc_10260100001_020_01,chara_1
 
-message,<user>,大穴に？　理由は……？
+message,<user>,<size=32>The Abyss? Why...?<br> 
 
 bgmplay,bgmtag1_3,bgm0030,0.75,1
 
@@ -408,7 +408,7 @@ asyncseplay,setag1_24,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シルヴィア,わたくしは一刻も早く元の世界に戻りたいんです。<br>ここが悪いとは言いませんが、わたくしの居場所ではありませんから。,102601000G,vc_10260100001_021_01,chara_1
+message,シルヴィア,<size=32>I want to return to my world as soon as possible. I'm not<br><size=32>saying this place is bad， but it's not where I belong.<br> ,102601000G,vc_10260100001_021_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -428,7 +428,7 @@ asyncseplay,setag1_26,se4800008,0,1,STOP,4.9
 asynccharaemo,chara_1,Sweat,STOP,4.9
 
 
-message,シルヴィア,それで、わたくしもこの世界の文献などを調べてみたんです。<br>ですが、元の世界に帰る方法は見つかりませんでしたわ。,102601000G,vc_10260100001_022_01,chara_1
+message,シルヴィア,<size=32>So I looked through the literature of this world.        <br><size=32>But I couldn't find any way to return to my own.<br> ,102601000G,vc_10260100001_022_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -439,14 +439,14 @@ asyncseplay,setag1_27,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,シルヴィア,となれば、帰る手立てが見つかるかもしれないのは大穴だけ――,102601000G,vc_10260100001_023_01,chara_1
+message,シルヴィア,<size=32>If so， the only place where a way home might be found is <br><size=32>the Abyss—<br> ,102601000G,vc_10260100001_023_01,chara_1
 
-message,<user>,言っておくが、大穴探索の時にそういう方法があるかどうかは<br>調べているぞ？　まあ、今のところ手がかりはないがな。
+message,<user>,<size=32>Just so you know， we've been checking for that sort of   <br><size=32>thing during our Abyss expeditions. But so far there's been no leads.<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,シルヴィア,ならば尚更ですわ。<br>あなた方では分からない手がかりも、わたくしなら気づけるかもしれない。,102601000G,vc_10260100001_024_01,chara_1
+message,シルヴィア,<size=32>All the more reason.                                     <br><size=32>I might notice clues that you and the others have missed.<br> ,102601000G,vc_10260100001_024_01,chara_1
 
 window,off
 wait,0.15
@@ -463,7 +463,7 @@ wait,0.5
 
 
 window,on,0.15
-message,シルヴィア,あなた方からしてみても、他の世界から来たわたくしなんて<br>早くどこかに行ってほしい厄介者でしかないでしょう？,102601000G,vc_10260100001_025_01,chara_1
+message,シルヴィア,<size=32>From your perspective too， I'm nothing but a nuisance    <br><size=32>from another world that you'd rather be rid of， right?<br> ,102601000G,vc_10260100001_025_01,chara_1
 
 window,off
 wait,0.15
@@ -478,7 +478,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（……人は追い込まれると面倒くさくなるのは知っているが<br>まさかここまで気難しくなるとはな。それだけ家が恋しいのか……）
+message,<user>,<size=32>(... I know people get difficult when they're backed into<br><size=32>a corner， but I didn't expect her to be this prickly. She must really miss home...)<br> 
 
 window,off
 wait,0.15
@@ -493,7 +493,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,分かった。連れて行ってやる。<br>だけど、元の世界に帰る方法が見つからなかったらどうするんだ？
+message,<user>,<size=32>Fine. I'll take you.                                     <br><size=32>But what if we don't find a way to get you home?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -507,7 +507,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,STOP,1.5
 
 
-message,シルヴィア,その時は……いえ、その時になってから考えますわ。,102601000G,vc_10260100001_026_01,chara_1
+message,シルヴィア,<size=32>When that happens... no， I'll think about it when the    <br><size=32>time comes.<br> ,102601000G,vc_10260100001_026_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -518,7 +518,7 @@ asyncseplay,setag1_30,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,シルヴィア,今は、少しでも可能性を高めておきたいんです。<br>だから余計な事を考える気はありません。,102601000G,vc_10260100001_027_01,chara_1
+message,シルヴィア,<size=32>Right now， I want to improve my chances even slightly. I <br><size=32>have no intention of wasting time on unnecessary thoughts.<br> ,102601000G,vc_10260100001_027_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -529,7 +529,7 @@ asyncseplay,setag1_31,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,シルヴィア,それではすぐにでも向かいましょう。この世界は私の居た世界と比べて<br>暑すぎますし、このまま居続けたら溶けて死んでしまいますわ。,102601000G,vc_10260100001_028_01,chara_1
+message,シルヴィア,<size=32>Then let us go at once. This world is far too hot        <br><size=32>compared to mine. If I stay here any longer I'll melt away and die.<br> ,102601000G,vc_10260100001_028_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -541,11 +541,11 @@ asyncseplay,setag1_32,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,シルヴィア,それに……向こうには、わたくしの帰りを待っている人がいますから……,102601000G,vc_10260100001_029_01,chara_1
+message,シルヴィア,<size=32>Besides... there are people waiting for me back there...<br> ,102601000G,vc_10260100001_029_01,chara_1
 
-message,<user>,分かった分かった。<br>すぐに連れて行ってやる。
+message,<user>,<size=32>Alright， alright.                                        <br><size=32>I'll take you right away.<br> 
 
-message,<user>,ただし、絶対に１人にはなるな。<br>大穴に連れて行く条件で、これだけは守ってもらう。
+message,<user>,<size=32>But you must never go off alone.                         <br><size=32>That's the one condition for me taking you to the Abyss.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -556,9 +556,9 @@ asyncseplay,setag1_33,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,シルヴィア,あら？　厄介者から目を離したくないということですか？,102601000G,vc_10260100001_030_01,chara_1
+message,シルヴィア,<size=32>Oh? You don't want to let the nuisance out of your sight?<br> ,102601000G,vc_10260100001_030_01,chara_1
 
-message,<user>,――違う。お前を危険な目に遭わせないためだ。
+message,<user>,<size=32>—No. It's to keep you safe.<br> 
 
 window,off
 wait,0.15
@@ -585,7 +585,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,シルヴィア,……ふん。偉そうに。まぁ、了解しました。<br>なるべく目の届く範囲にいてあげましょう。,102601000G,vc_10260100001_031_01,chara_1
+message,シルヴィア,<size=32>...Hmph. How presumptuous. Well， very well.              <br><size=32>I'll do my best to stay within your sight.<br> ,102601000G,vc_10260100001_031_01,chara_1
 
 window,off
 wait,0.15
@@ -629,7 +629,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,シルヴィア,（……待っていてください、お父様、お母様。<br>今度こそわたくしは、帰ってみせますわ）,102601000G,vc_10260100001_032_01,chara_1
+message,シルヴィア,<size=32>(...Please wait for me， Father， Mother.                  <br><size=32>This time， I will find my way home.)<br> ,102601000G,vc_10260100001_032_01,chara_1
 
 window,off
 bgmstop,bgmtag1_3,0.5

@@ -16,7 +16,7 @@ fade,In,Black,0.5
 
 
 seplay,seopening_tag,se5030001
-title,こんな遊戯は破廉恥ですわ！
+title,This Game Is So Indecent!
 
 wait,1
 
@@ -28,9 +28,9 @@ bgmplay,bgmtag1_1,bgm0024,0.75,1
 charashow,chara_1,0.3
 
 window,on,0.15
-message,,前線基地を歩いていると、娼館の前で立ち止まり、<br>不思議そうに建物を眺めているシルヴィアを見つけた。
+message,,<size=32>While walking through the forward base， I spotted Sylvia <br><size=32>standing in front of the brothel， gazing at the building with a curious expression.<br> 
 
-message,<user>,よう、シルヴィア。<br>こんなところで何をしているんだ？
+message,<user>,<size=32>Hey， Sylvia.                                             <br><size=32>What are you doing in a place like this?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT
 
@@ -45,9 +45,9 @@ asynccharareaction,chara_1,nod,1,CONT
 asynccharaface,chara_1,EyeOpen,STOP,4
 asynccharaface,chara_1,FaceNormal,STOP,4
 
-message,シルヴィア,あら、お兄様、ちょうどいいところに。<br>この煌びやかな建物はなんですの？,,vc_10260100011_001_01
+message,シルヴィア,<size=32>Oh， dear brother， perfect timing.                        <br><size=32>What is this splendid building?<br> ,,vc_10260100011_001_01
 
-message,<user>,ここか？<br>ここは娼館といって、この基地で一番の娯楽施設だ。
+message,<user>,<size=32>This place? It's called a brothel — the most popular     <br><size=32>entertainment venue on this base.<br> 
 
 charaface,chara_1,FaceSurprise
 
@@ -56,28 +56,28 @@ asynccharareaction,chara_1,shake,0.5,STOP
 asyncseplay,setag1_2,se4800009,0,1,CONT
 
 asynccharaemo,chara_1,Question,STOP
-message,シルヴィア,娼館……娯楽施設……？,,vc_10260100011_002_01
+message,シルヴィア,<size=32>A brothel... an entertainment venue...?<br> ,,vc_10260100011_002_01
 
-message,<user>,興味があるのか？
+message,<user>,<size=32>Are you interested?<br> 
 
 charaface,chara_1,FaceFun
 
 asynccharareaction,chara_1,Nod,0.5,STOP
 
 asynccharaface,chara_1,FaceHappy,STOP,5.5
-message,シルヴィア,わたくしが目をつけていた美術品が、ここに運び込まれるのを見ましたの。<br>それで、気になっていたのですわ。,,vc_10260100011_003_01
+message,シルヴィア,<size=32>I saw some artwork I had my eye on being carried into    <br><size=32>this building. That's why I was curious.<br> ,,vc_10260100011_003_01
 
 charaface,chara_1,FaceFun
 
 asyncseplay,setag1_3,se4800022,0,1,CONT
 
 asynccharaemo,chara_1,Speak,STOP
-message,シルヴィア,時折、あの窓から、素敵なドレスを着た方々の姿が見えることもあって……,,vc_10260100011_004_01
+message,シルヴィア,<size=32>And sometimes， I can see people wearing lovely dresses   <br><size=32>through those windows...<br> ,,vc_10260100011_004_01
 
 asynccharashow,chara_3,0.3,CONT
 charamove,chara_3,LinearTarget,X,400,0.3
 
-message,ルディア,興味があるなら、体験入店してみませんか？,,vc_10260100011_005_01
+message,ルディア,<size=32>If you're interested， would you like to try a trial      <br><size=32>shift?<br> ,,vc_10260100011_005_01
 
 charaface,chara_1,FaceSurprise
 
@@ -91,9 +91,9 @@ asynccharamove,chara_1,LinearTarget,X,-400,0.3,STOP
 
 asynccharaface,chara_1,FaceUnique02,STOP,2
 
-message,シルヴィア,ひゃんっ！？<br>び、びっくりしましたわ……,,vc_10260100011_006_01
+message,シルヴィア,<size=32>Eek!?                                                    <br><size=32>Y-you startled me...<br> ,,vc_10260100011_006_01
 
-message,<user>,突然現れるな、ルディア……俺も驚いたぞ。
+message,<user>,<size=32>Don't just appear out of nowhere， Ludia... You startled  <br><size=32>me too.<br> 
 
 charaface,chara_3,FaceHappy
 
@@ -102,7 +102,7 @@ asyncseplay,setag1_5,se4800004,0,1,CONT
 asynccharareaction,chara_3,Nod,1,STOP
 asynccharaemo,chara_3,Laugh,STOP
 
-message,ルディア,うふふ、当娼館は、可愛い女の子はいつだってウェルカムですよ？,,vc_10260100011_007_01
+message,ルディア,<size=32>Ufufu， cute girls are always welcome at our brothel.<br> ,,vc_10260100011_007_01
 
 charaface,chara_1,FaceShy
 
@@ -110,7 +110,7 @@ asyncseplay,setag1_6,se4800012,0,1,CONT
 
 asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
-message,シルヴィア,か、可愛い……？<br>わたくしが、ですの……？,,vc_10260100011_008_01
+message,シルヴィア,<size=32>C-cute...?                                               <br><size=32>You mean... me...?<br> ,,vc_10260100011_008_01
 
 charaface,chara_3,FaceFun
 
@@ -122,7 +122,7 @@ asynccharareaction,chara_3,Nod,0.5,STOP
 
 asynccharaface,chara_3,EyeOpen,STOP,3
 asynccharaface,chara_3,FaceNormal,STOP,3
-message,ルディア,はい。素敵な衣装も好きなだけ着放題です。<br>とりあえず、試着だけでもしてみませんか？,,vc_10260100011_009_01
+message,ルディア,<size=32>Yes. And you can try on as many lovely outfits as you    <br><size=32>like. Why not just try some on for starters?<br> ,,vc_10260100011_009_01
 
 charafocuson,chara_1
 
@@ -133,11 +133,11 @@ charaemo,chara_1,Silence
 charaface,chara_1,FaceUnique01
 
 asynccharareaction,chara_1,Nod,0.5,CONT
-message,シルヴィア,……そう、ですわね。<br>試着だけなら……,,vc_10260100011_010_01
+message,シルヴィア,<size=32>...I suppose so.                                         <br><size=32>If it's just trying them on...<br> ,,vc_10260100011_010_01
 
 asyncskipwait
 
-message,,ルディアに騙されてる……わけではないが、<br>果たして試着だけで済むだろうか……？
+message,,<size=32>She's not exactly being tricked by Ludia...              <br><size=32>but will it really end at just trying on clothes...?<br> 
 
 window,off
 wait,0.15
@@ -185,30 +185,30 @@ fade,In,White,1
 charaface,chara_2,FaceUnique02
 
 window,on,0.15
-message,シルヴィア<娼館>,こ、この衣装……とても素敵ですし、可愛いのですけど……<br>少々露出が過ぎるような気が……,,vc_10260100011_011_01
+message,シルヴィア<娼館>,<size=32>Th-this outfit... It's quite lovely and cute， but...     <br><size=32>Don't you think it shows a bit too much skin...?<br> ,,vc_10260100011_011_01
 
 charafocuson,chara_2
 
 
 
-message,ルディア,ええ、だって、お客様にお身体をしっかりお見せするための衣装ですから。,,vc_10260100011_012_01,chara_2
+message,ルディア,<size=32>Well， of course — these outfits are designed to show off <br><size=32>your body to the customers.<br> ,,vc_10260100011_012_01,chara_2
 
 charaface,chara_2,FaceSurprise
-message,シルヴィア<娼館>,お客様に……身体を見せる……？<br>そ、それはどういう……？,,vc_10260100011_013_01
+message,シルヴィア<娼館>,<size=32>Show my body... to customers...?                         <br><size=32>Wh-what do you mean...?<br> ,,vc_10260100011_013_01
 
 charafocuson,chara_2
 
 
 
-message,ルディア,う～ん……口で説明するより、実際に体験してみたらどうでしょう？<br>ちょうど司令官君もいることですし。,,vc_10260100011_014_01,chara_2
+message,ルディア,<size=32>Hmm... Rather than explaining with words， why not        <br><size=32>experience it firsthand? The Commander happens to be right here.<br> ,,vc_10260100011_014_01,chara_2
 
 charaface,chara_2,FaceShy
-message,シルヴィア<娼館>,お兄様……？,,vc_10260100011_015_01
+message,シルヴィア<娼館>,<size=32>Dear brother...?<br> ,,vc_10260100011_015_01
 
 charafocuson,chara_2
 
 
-message,<user>,やっぱりそうなったか……ルディア、この策士め……,,,chara_2
+message,<user>,<size=32>I knew it would come to this... Ludia， you schemer...<br> ,,,chara_2
 
 window,off
 wait,0.15
@@ -240,7 +240,7 @@ asynccharaemo,chara_3,Spirits,STOP,3.5
 
 asynccharaface,chara_3,FaceUnique03,STOP,3.5
 window,on,0.15
-message,ルディア,あら、人聞きの悪いことを言わないで。<br>シルヴィアさんのためを思ってのことなんだから。,,vc_10260100011_016_01
+message,ルディア,<size=32>Oh， don't say such things.                               <br><size=32>I'm only thinking of what's best for Sylvia.<br> ,,vc_10260100011_016_01
 
 asyncskipwait
 
@@ -249,9 +249,9 @@ charaface,chara_3,FaceFun
 charapose,chara_3,2
 
 asyncshake,CHARA,chara_3,20,0,0.5,1,off,off,0,off,STOP
-message,ルディア,いずれシルヴィアさんも娼館で働くかもしれないしね。<br>それなら、体験入店の相手は司令官君が適任でしょう？,,vc_10260100011_017_01
+message,ルディア,<size=32>Sylvia might end up working at the brothel someday. In   <br><size=32>that case， the Commander is the perfect partner for her trial， right?<br> ,,vc_10260100011_017_01
 
-message,<user>,はぁっ……やれやれ……どうするシルヴィア？<br>娼館の仕事、体験してみるか？
+message,<user>,<size=32>*Sigh*... Good grief... What do you say， Sylvia?         <br><size=32>Want to try out the brothel's work?<br> 
 
 charaface,chara_2,FaceSad
 
@@ -268,7 +268,7 @@ asyncseplay,setag1_10,se4800007,0,1,CONT
 asynccharaemo,chara_1,Panic,STOP
 
 asynccharaface,chara_2,FaceHappy,STOP,6
-message,シルヴィア<娼館>,え……ええ、もちろんですわ。<br>よく分からないですけど……お兄様がお相手を務めてくださるのなら。,,vc_10260100011_018_01
+message,シルヴィア<娼館>,<size=32>W-well， of course. I don't quite understand what it      <br><size=32>involves... but if you'll be my partner， dear brother.<br> ,,vc_10260100011_018_01
 
 
 labeljump,b
