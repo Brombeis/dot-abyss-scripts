@@ -75,7 +75,7 @@ TRANSLATABLE = {
     "charaload":         {3: "name"},
 }
 
-_JP_RE = re.compile(r"[぀-ヿ㐀-鿿ｦ-ﾟ]")
+_JP_RE = re.compile(r"[぀-ヿ㐀-鿿ｦ-ﾟ…！？]")
 
 
 def has_japanese(text):
@@ -157,6 +157,7 @@ def save_json(path, data):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as fh:
         json.dump(data, fh, ensure_ascii=False, indent=2)
+        fh.write("\n")
 
 
 def _script_to_str(m_script):
