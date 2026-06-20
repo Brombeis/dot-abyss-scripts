@@ -96,13 +96,13 @@ asyncWait
 wait,0.5
 asyncseplay,se_emo1,se4800011,0,1,CONT,0.05
 objectemo,chara_4,ExclaQues
-dotmessage,マリナ,<size=24>The sandstorm is getting intense again……!?,,mcv_1001010902_001_01,normal,mid,SAD,chara_4,top,normal
+dotmessage,マリナ,<size=24>The sandstorm is getting intense again...!?,,mcv_1001010902_001_01,normal,mid,SAD,chara_4,top,normal
 
 objectmotion,chara_3,N_frightened,0,1,,1
-dotmessage,ベリサ,<size=24>Ngh……<br>My head hurts~……,,mcv_1001010902_002_01,normal,mid,SAD,chara_3,top,normal
+dotmessage,ベリサ,<size=24>Ngh...<br>My head hurts~...,,mcv_1001010902_002_01,normal,mid,SAD,chara_3,top,normal
 
 objectmotion,chara_2,N_frightened,0,1,,1
-dotmessage,ソフィア,<size=24>Kch!<br>What is this powerful magical energy……,,mcv_1001010902_003_01,normal,mid,ANGER,chara_2,rightbottom,normal
+dotmessage,ソフィア,<size=24>Kch!<br>What is this powerful magical energy...,,mcv_1001010902_003_01,normal,mid,ANGER,chara_2,rightbottom,normal
 
 // !?
 asyncobjectmotion,chara_2,C_Wait,0,1,,1,CONT
@@ -203,7 +203,7 @@ asyncobjectmotion,chara_3,N_scared,0,1,,1,CONT,0
 asyncobjectmotion,chara_4,N_scared,0,1,,1,CONT,0
 asyncWait
 
-dotmessage,ベリサ,<size=24>Wha，wha wha wha!<br>The dangerous thing showed up!……,,mcv_1001010902_005_01,normal,mid,UNIQUE01,chara_3,righttop,normal
+dotmessage,ベリサ,<size=24>Wha，wha wha wha!<br>The dangerous thing showed up!...,,mcv_1001010902_005_01,normal,mid,UNIQUE01,chara_3,righttop,normal
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //エフェクト削除
@@ -386,7 +386,7 @@ asyncWait
 asyncseplay,se_emo10,se4800011,0,1,CONT,0.05
 objectemo,chara_4,ExclaQues
 bgmplay,bgmtag2_2,bgm0039,2,1
-dotmessage,マリナ,<size=24>Um，what is it doing……?<br>It's not attacking at all~,,mcv_1001010902_007_01,normal,mid,SAD,chara_4,top,normal
+dotmessage,マリナ,<size=24>Um，what is it doing...?<br>It's not attacking at all~,,mcv_1001010902_007_01,normal,mid,SAD,chara_4,top,normal
 
 asyncobjectmotion,chara_3,C_Wait,1,1,C_Wait,1,cont,0
 asyncseplay,se_emo5,se4800010,0,1,CONT,0.05
@@ -401,7 +401,7 @@ asyncobjectmotion,chara_3,N_think,1,1,None,1,CONT,0.5
 asyncseplay,se_emo6,se4800009,0,1,CONT,0.55
 asyncobjectemo,chara_3,Question,cont,0.5
 asyncwait
-dotmessage,ベリサ,<size=24>But what is it detecting?<br>If it already knows where we are……,,mcv_1001010902_009_01,normal,mid,SAD,chara_3,righttop,normal
+dotmessage,ベリサ,<size=24>But what is it detecting?<br>If it already knows where we are...,,mcv_1001010902_009_01,normal,mid,SAD,chara_3,righttop,normal
 
 // 厄災モーションとSE止める
 sestop,se_30loop,2
@@ -468,7 +468,7 @@ asyncdotprefabdelete,uieffect_10,CONT,0
 
 // カメラを戻す
 asyncdotcameramove,-1.5,0,LinearTarget,2,OnlyX,CONT,0
-dotmessage,ベリサ,<size=24>Oh……<br>It flew away……,,mcv_1001010902_010_01,normal,mid,SURPRISE,chara_3,righttop,normal
+dotmessage,ベリサ,<size=24>Oh...<br>It flew away...,,mcv_1001010902_010_01,normal,mid,SURPRISE,chara_3,righttop,normal
 
 asyncobjectmotion,chara_1,C_Wait,0,1,,1,CONT
 asyncobjectmotion,chara_2,C_Wait,0,1,,1,CONT
@@ -501,7 +501,7 @@ dotmessage,<user>,<size=24>Its movement just now—<br>you said it was detection
 objectmotion,chara_3,N_Yes,1,1,C_Wait,1
 wait,0.3
 asyncobjectmotion,chara_1,N_embarrassing,1,1.0,None,1.0,CONT,0
-dotmessage,<user>,<size=24>If it detected something<br>and flew in that direction……,,,normal,mid,HAPPY,chara_1,top,normal
+dotmessage,<user>,<size=24>If it detected something<br>and flew in that direction...,,,normal,mid,HAPPY,chara_1,top,normal
 
 // 砂嵐のSE止める
 sestop,seloop_1,0

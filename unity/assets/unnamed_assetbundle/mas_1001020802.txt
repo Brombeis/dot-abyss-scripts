@@ -127,7 +127,7 @@ asyncdotcamerazoom,1,0.5,LinearTarget,CONT,0
 asyncdotcameramove,-1,0,LinearTarget,0.5,None,CONT,0
 asyncwait
 
-dotmessage,<user>,<size=24>Do we have any other choice……,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,20
+dotmessage,<user>,<size=24>Do we have any other choice...,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,20
 
 
 //主人公一向をもとに戻す
@@ -152,7 +152,7 @@ wait,0.1
 objectdirect,Krull,RIGHT
 wait,0.1
 
-dotmessage,クルル,<size=24>It's，it's too biiiig~……,,mcv_1001020802_001_01,NORMAL,Mid,Sad,Krull,TOP,NORMAL,0,20
+dotmessage,クルル,<size=24>It's，it's too biiiig~...,,mcv_1001020802_001_01,NORMAL,Mid,Sad,Krull,TOP,NORMAL,0,20
 
 
 //エモ　閃き
@@ -184,7 +184,7 @@ asyncwait
 
 dotmessage,ベリサ,<size=24>What was it?<br>The one with the complicated name!,,mcv_1001020802_003_01,NORMAL,Mid,NORMAL,Belisa,TOP,NORMAL,0,20
 
-dotmessage,マリナ,<size=24>Ko-shuu…… something?,,mcv_1001020802_004_01,NORMAL,Mid,Sad,Marina,TOP,NORMAL,0,50
+dotmessage,マリナ,<size=24>Ko-shuu... something?,,mcv_1001020802_004_01,NORMAL,Mid,Sad,Marina,TOP,NORMAL,0,50
 asyncobjectmotion,Marina,C_Wait,0,1,,1
 
 dotmessage,<user>,<size=24>It's called the High-Frequency Resonance Barrier!<br>Hold on!,,,NORMAL,Mid,,chara_1,TOP,SHAKE,0,20
@@ -312,11 +312,11 @@ dotmessage,クルル,<size=24>It stopped moving!,,mcv_1001020802_006_01,NORMAL,M
 asyncobjectmotion,Krull,C_Wait,1,1,,1
 
 objectmotion,Sophia,N_bounce,0,1,,1
-dotmessage,ソフィア,<size=24>No way……<br>It's working!?,,mcv_1001020802_007_01,NORMAL,Mid,Surprise,Sophia,RIGHTTOP,NORMAL,250,100
+dotmessage,ソフィア,<size=24>No way...<br>It's working!?,,mcv_1001020802_007_01,NORMAL,Mid,Surprise,Sophia,RIGHTTOP,NORMAL,250,100
 asyncobjectmotion,Sophia,C_Wait,1,1,,1
 
 asyncobjectmotion,Marina,N_bounce,1,1,N_bounce,1,CONT,0
-dotmessage,マリナ,<size=24>This…… this is our chance，isn't it?,,mcv_1001020802_008_01,NORMAL,Mid,happy,Marina,RIGHTTOP,NORMAL,450,100
+dotmessage,マリナ,<size=24>This... this is our chance，isn't it?,,mcv_1001020802_008_01,NORMAL,Mid,happy,Marina,RIGHTTOP,NORMAL,450,100
 asyncobjectmotion,Marina,C_Wait,1,1,,1
 
 asyncdotcamerazoom,1,0.25,Set,CONT,0
@@ -670,7 +670,7 @@ objectdirect,Sophia,LEFT
 objectmotion,Sophia,N_embarrassing,0,1,,1
 asyncobjectmotion,Marina,C_Wait,1,1,,1
 
-dotmessage,<user>,<size=24>Did we…… do it!?,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,20
+dotmessage,<user>,<size=24>Did we... do it!?,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,20
 
 objectdirect,Sophia,RIGHT
 objectdirect,Krull,RIGHT
@@ -829,7 +829,7 @@ wait,1
 asyncseplay,se4800014_2,se4800014,0,1,CONT,0
 objectemo,chara_1,Silence
 objectmotion,chara_1,C_Wait,0,1,,1
-dotmessage,<user>,<size=24>We're…… saved…………<br>Aren't we?,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,20
+dotmessage,<user>,<size=24>We're... saved...<br>Aren't we?,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,20
 
 //window,off
 
