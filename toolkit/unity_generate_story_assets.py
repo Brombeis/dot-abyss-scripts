@@ -42,6 +42,10 @@ def main():
         "--match", metavar="SUBSTR",
         help="only process scenes whose name contains SUBSTR"
     )
+    parser.add_argument(
+        "--outdir", metavar="DIR", default=UNITY_ASSET_DIR,
+        help="output directory for .txt files (default: unity/assets/unnamed_assetbundle/)"
+    )
     args = parser.parse_args()
 
     scene_files = sorted(glob.glob(os.path.join(common.STORY_DIR, "*.json")))
@@ -49,17 +53,18 @@ def main():
         print("No scene files under translations/story/. Run extract_story.py first.")
         return
 
+    outdir = args.outdir
     built = 0
     for scene_path in scene_files:
-        name = build_one(scene_path, match=args.match)
+        name = build_one(scene_path, match=args.match, outdir=outdir)
         if name:
             print(f"  wrote {name}.txt")
             built += 1
 
-    print(f"\nDone. {built} file(s) in unity/assets/unnamed_assetbundle/")
+    print(f"\nDone. {built} file(s) in {outdir}")
 
 
-def build_one(scene_path, match=None):
+def build_one(scene_path, match=None, outdir=UNITY_ASSET_DIR):
     scene = common.load_json(scene_path, None)
     if not scene:
         return None
@@ -77,8 +82,8 @@ def build_one(scene_path, match=None):
     original_text, _ = common.read_story_text(src)
     patched_text = apply_translation_unity(original_text, scene.get("lines", []))
 
-    os.makedirs(UNITY_ASSET_DIR, exist_ok=True)
-    out_path = os.path.join(UNITY_ASSET_DIR, f"{script_name}.txt")
+    os.makedirs(outdir, exist_ok=True)
+    out_path = os.path.join(outdir, f"{script_name}.txt")
     with open(out_path, "w", encoding="utf-8") as fh:
         fh.write(patched_text)
 
