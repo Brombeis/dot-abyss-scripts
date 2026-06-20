@@ -115,11 +115,11 @@ dotmessage,アリシア,<size=24>W-well...,,mcv_1001000201_008_01,NORMAL,Mid,SAD
 
 objectmotion,chara_1,N_think,1,1,,1
 dotmessage,<user>,<size=24>Several months ago，the mysterious Abyss<br>appeared，followed by an attack from a massive creature...,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
-dotmessage,<user>,<size=24>I've heard rumors that small nations<br>near the Abyss vanished from the map in a single night...,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
+dotmessage,<user>,<size=24>I've heard rumors that small nations near the Abyss<br>vanished from the map in a single night...,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,0
 objectmotion,chara_1,C_Wait,1,1,,1
 
 objectmotion,Alicia,N_Yes,1,1,,1
-dotmessage,アリシア,<size=24>With the combined forces of the Three Nations，<br>we managed to drive back the enormous beast.,,mcv_1001000201_009_01,NORMAL,Mid,UNIQUE03,Alicia,TOP,NORMAL,0,0
+dotmessage,アリシア,<size=24>Combining the forces of the Three Nations，<br>we managed to drive back the enormous beast.,,mcv_1001000201_009_01,NORMAL,Mid,UNIQUE03,Alicia,TOP,NORMAL,0,0
 
 objectmotion,Alicia,N_sorrow,1,1,,1
 dotmessage,アリシア,<size=24>With many... sacrifices...,,mcv_1001000201_010_01,NORMAL,Mid,UNIQUE02,Alicia,TOP,NORMAL,0,0
@@ -172,7 +172,7 @@ asyncseplay,se4800007_90,se4800007,0,1,CONT,0
 objectemo,Alicia,Panic
 asyncobjectmotion,Alicia,N_bounce,1,1,,1
 
-dotmessage,アリシア,<size=24>P-please wait!,,mcv_1001000201_015_01,NORMAL,Mid,UNIQUE03,Alicia,TOP,NORMAL,0,0
+dotmessage,アリシア,<size=24>P-Please wait!,,mcv_1001000201_015_01,NORMAL,Mid,UNIQUE03,Alicia,TOP,NORMAL,0,0
 
 //アリシア　すっ転ぶ////////////////////////////////////////////////////////////////////////
 
@@ -256,7 +256,7 @@ sestop,se5050019_2,0.5
 //SE再生 物を掴む
 asyncseplay,se5050019_5,se5050019,0,1,CONT,0
 asyncdotshake,Alicia,0.1,0,0.5,5,off,0,off,CONT,0
-dotmessage,アリシア,<size=24>I won't let go of your hand<br>until you agree to become our Commander!,,mcv_1001000201_018_01,NORMAL,Mid,UNIQUE03,Alicia,TOP,NORMAL,0,0
+dotmessage,アリシア,<size=24>I won't let go of your hand until you agree<br>to become our Commander!,,mcv_1001000201_018_01,NORMAL,Mid,UNIQUE03,Alicia,TOP,NORMAL,0,0
 sestop,se5050019_5,0.5
 
 //BGM
@@ -273,7 +273,7 @@ asyncobjectmotion,Alicia,N_wish,0,1,,1
 dotmessage,アリシア,<size=24>You'll be hunted by the Three Nations<br>and thrown in prison!,,mcv_1001000201_020_01,NORMAL,Mid,UNIQUE04,Alicia,TOP,NORMAL,0,0
 
 asyncobjectmotion,Alicia,N_No,1,1,,1
-dotmessage,アリシア,<size=24>A-and，possibly...<br>your very life may be at risk too...,,mcv_1001000201_021_01,NORMAL,Mid,UNIQUE04,Alicia,TOP,NORMAL,0,0
+dotmessage,アリシア,<size=24>A-And，possibly...<br>your very life may be at risk too...,,mcv_1001000201_021_01,NORMAL,Mid,UNIQUE04,Alicia,TOP,NORMAL,0,0
 asyncobjectmotion,Alicia,C_Wait,0,1,,1
 
 //エモ　モヤモヤ

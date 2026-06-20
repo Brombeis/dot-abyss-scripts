@@ -62,7 +62,7 @@ objectmotion,Aura,C_Wait,0,1,,1
 //フェードアウト
 fade,Out,Black,0.5
 
-messageTextCenter,,<size=48>The representatives of the Three Nations of the Treslia region had gathered，<br>and talks were underway regarding the frontline base——</size>,,,
+messageTextCenter,,<size=48>The representatives of Treslia's Three Nations<br>gathered，and talks were underway regarding the frontline base——</size>,,,
 
 
 dotbgshow,bg_1,0
@@ -145,7 +145,7 @@ objectmotion,Aura,C_Wait,0,1,,1
 
 objectdirect,Reyzeria,RIGHT
 objectmotion,Felicione,N_Yes,1,1,,1
-dotmessage,フェリシオーネ,<size=24>I hear illegal mining is on the rise too...<br>We'll need to crack down harder.,,mcv_1001000301_012_01,NORMAL,Mid,NORMAL,Felicione,TOP,NORMAL,0,0
+dotmessage,フェリシオーネ,<size=24>I hear illegal mining is on the rise too...<br>We'll need to crack down harder on it.,,mcv_1001000301_012_01,NORMAL,Mid,NORMAL,Felicione,TOP,NORMAL,0,0
 objectmotion,Felicione,C_Wait,0,1,,1
 
 asyncobjectmotion,Reyzeria,U_thinkU03,1,1,,1,CONT,0
@@ -176,7 +176,7 @@ asyncdotmove,Reyzeria,1,-0.5,0,0,Linear,CONT,0
 asyncwait
 asyncobjectmotion,Reyzeria,U_thinkU02,0,1,,1,CONT,0
 
-dotmessage,レイゼリア,<size=24>In the previous battle，each nation lost<br>nearly half its forces...,,mcv_1001000301_017_01,NORMAL,Mid,SAD,Reyzeria,TOP,NORMAL,0,0
+dotmessage,レイゼリア,<size=24>In the previous battle，<br>each nation lost nearly half its forces...,,mcv_1001000301_017_01,NORMAL,Mid,SAD,Reyzeria,TOP,NORMAL,0,0
 
 //向きを変える
 objectdirect,Reyzeria,RIGHT
@@ -200,7 +200,7 @@ objectdirect,Reyzeria,LEFT
 asyncseplay,se4800013_5,se4800013,0,1,CONT,0
 asyncobjectmotion,Aura,N_Yes,1,1,,0
 objectemo,Aura,Spirits
-dotmessage,アウラ,<size=24>Let's see what the bloodline of a hero<br>is truly worth♪,,mcv_1001000301_020_01,NORMAL,Mid,FUN,Aura,TOP,NORMAL,0,0
+dotmessage,アウラ,<size=24>Let's see what the bloodline of<br>a hero is truly worth♪,,mcv_1001000301_020_01,NORMAL,Mid,FUN,Aura,TOP,NORMAL,0,0
 
 asyncobjectmotion,Reyzeria,N_Yes,1,1,,0.2
 dotmessage,レイゼリア,<size=24>Indeed. For now，the ""Blood of the Hero""<br>is our only ""hope""...,,mcv_1001000301_021_01,NORMAL,Mid,NORMAL,Reyzeria,TOP,NORMAL,0,0

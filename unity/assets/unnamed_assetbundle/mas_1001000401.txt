@@ -175,7 +175,7 @@ asyncobjectmotion,el_solB,N_joy,0,1,,1,CONT,0.1
 asyncobjectmotion,pel_sol,N_joy,0,1,,1,CONT,0.1
 
 objectemo,el_solB,Spirits
-dotmessage,エルドラーナ兵Ａ,<size=24>Let's collect the resources quickly<br>and head back to base.,,,NORMAL,Mid,NORMAL,el_solA,TOP,NORMAL,0,20
+dotmessage,エルドラーナ兵Ａ,<size=24>Let's quickly collect the resources<br>and head back to base.,,,NORMAL,Mid,NORMAL,el_solA,TOP,NORMAL,0,20
 
 //モーション設定
 asyncobjectmotion,mi_solA,C_WeaponWait,0,1,,1,CONT,0
@@ -214,7 +214,7 @@ asyncseplay,se4800010_70,se4800010,0,1,CONT,0
 asyncobjectmotion,mi_solB,N_bounce,1,1,C_Wait,1,CONT,0
 objectemo,mi_solB,Exclamation
 
-dotmessage,ミレスガルド兵Ｂ,<size=24>This is bad!<br>This... is miasma!,,,NORMAL,Mid,SURPRISE,mi_solB,TOP,NORMAL,0,20
+dotmessage,ミレスガルド兵Ｂ,<size=24>This is bad!<br>This is... miasma!,,,NORMAL,Mid,SURPRISE,mi_solB,TOP,NORMAL,0,20
 bgmstop,bgmtag01,0.5
 
 asyncobjectmotion,mi_solB,C_WeaponWait,0,1,,1,CONT,0
@@ -298,7 +298,7 @@ bgmplay,bgmtag02,bgm0034,0,1
 asyncseplay,se4800008_,se4800008,0,1,CONT,0
 objectemo,mi_solA,Sweat
 
-dotmessage,ミレスガルド兵Ａ,<size=24>Wha... what is that!?<br>An enormous creature...,,,NORMAL,Mid,SURPRISE,mi_solA,TOP,NORMAL,0,20
+dotmessage,ミレスガルド兵Ａ,<size=24>Wha... What is that!?<br>An enormous creature...,,,NORMAL,Mid,SURPRISE,mi_solA,TOP,NORMAL,0,20
 
 colorfade,1.5,25,0,25,1,255
 
@@ -351,7 +351,7 @@ dotmessage,エルドラーナ兵Ｂ,<size=24>The plants and trees around us<br>a
 asyncseplay,se4800010_,se4800010,0,1,CONT,0
 asyncobjectmotion,pel_sol,N_bounce,1,1,C_WeaponWait,1,CONT,0
 objectemo,pel_sol,Exclamation
-dotmessage,ペルディオン兵,<size=24>Could this be...<br>the ""Calamity of Famine""...!?,,,NORMAL,Mid,SURPRISE,pel_sol,TOP,NORMAL,50,20
+dotmessage,ペルディオン兵,<size=24>Could it be...<br>""Calamity of Famine""!?,,,NORMAL,Mid,SURPRISE,pel_sol,TOP,NORMAL,50,20
 
 asyncobjectmotion,el_solA,N_surprised,1,1,,1,CONT,0
 dotmessage,エルドラーナ兵Ａ,<size=24>What!? The one said to have destroyed<br>an entire small nation in a single night...,,,NORMAL,Mid,SURPRISE,el_solA,TOP,NORMAL,0,20
@@ -499,7 +499,7 @@ fade,In,Black,1
 asyncwait
 asyncobjectmotion,pel_sol,N_limit,0,1,,1,CONT,0
 
-dotmessage,ペルディオン兵,<size=24>Pant... pant...<br>I must report to the Commander quickly...,,,NORMAL,Mid,SAD,pel_sol,TOP,NORMAL,0,20
+dotmessage,ペルディオン兵,<size=24>*Pant*... *pant*...<br>I must report to the Commander quickly...,,,NORMAL,Mid,SAD,pel_sol,TOP,NORMAL,0,20
 
 //カメラ設定
 
@@ -531,7 +531,7 @@ asyncseplay,se4800010_20,se4800010,0,1,CONT,0
 asyncobjectmotion,Alicia,N_surprised,1,1,,1,CONT,0
 objectemo,Alicia,Exclamation
 
-dotmessage,アリシア,<size=24>What terrible injuries...<br>Q-quick，get them treated!,,mcv_1001000401_001_01,NORMAL,Mid,SAD,Alicia,TOP,NORMAL,0,20
+dotmessage,アリシア,<size=24>What terrible injuries...<br>Q-Quick，get them treated!,,mcv_1001000401_001_01,NORMAL,Mid,SAD,Alicia,TOP,NORMAL,0,20
 objectmotion,Alicia,C_Wait,0,1,,1
 
 //エモ　？
