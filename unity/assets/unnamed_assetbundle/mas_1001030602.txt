@@ -75,11 +75,11 @@ asynccharaemo,chara_1,BePeevish,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>Ugh，no matter how many we beat down，more keep coming!<br> ,106501000G,mcv_1001030602_001_01,chara_1
+message,ソフィア,<size=28>Ugh，no matter how many we beat down，more keep coming!<br> ,106501000G,mcv_1001030602_001_01,chara_1
 
-message,<user>,<size=32>If we keep fighting like this，monsters might appear too.                 <br><size=32>If that happens，we'd be at a real disadvantage……!<br> 
+message,<user>,<size=28>If we keep fighting like this，monsters might appear too.            <br><size=28>If that happens，we'd be at a real disadvantage……!<br> 
 
-message,<user>,<size=32>Retreat before things get worse!                                         <br><size=32>We're heading to the lower layer，fast!<br> 
+message,<user>,<size=28>Retreat before things get worse!                                    <br><size=28>We're heading to the lower layer，fast!<br> 
 
 
 window,off
@@ -169,7 +169,7 @@ asynccharaemo,chara_4,Shock,CONT,0
 
 
 window,on,0.15
-message,クルル,<size=32>Master! I can see something big ahead~!<br> ,106701000G,mcv_1001030602_002_01,chara_4
+message,クルル,<size=28>Master! I can see something big ahead~!<br> ,106701000G,mcv_1001030602_002_01,chara_4
 
 window,off
 wait,0.15
@@ -191,7 +191,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,<size=32>That's…… a hut…… made of iron……?<br> 
+message,<user>,<size=28>That's…… a hut…… made of iron……?<br> 
 
 window,off
 wait,0.15
@@ -252,7 +252,7 @@ asynccharaemo,chara_2,Shock,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>That's the one from the light signal earlier.<br> ,100201000G,mcv_1001030602_003_01,chara_2
+message,ベリサ,<size=28>That's the one from the light signal earlier.<br> ,100201000G,mcv_1001030602_003_01,chara_2
 
 asyncjump,CHARA,chara_3,-30,0.25,1,off,0,CONT
 
@@ -261,7 +261,7 @@ asyncseplay,setag2_5,se4800009,0,1,CONT,0
 asynccharaemo,chara_3,Question,CONT,0
 
 
-message,マリナ,<size=32>There's something like a sign on it. What does it say?<br> ,100301000G,mcv_1001030602_004_01,chara_3
+message,マリナ,<size=28>There's something like a sign on it. What does it say?<br> ,100301000G,mcv_1001030602_004_01,chara_3
 
 window,off
 wait,0.15
@@ -293,7 +293,7 @@ asynctransitionCrossFade,Tra02,0.5,STOP
 waitorclick,1
 
 window,on,0.15
-message,<user>,<size=32>Is that writing……? Or maybe pictures……?                                  <br><size=32>I've never seen characters like these……<br> 
+message,<user>,<size=28>Is that writing……? Or maybe pictures……?                             <br><size=28>I've never seen characters like these……<br> 
 
 window,off
 wait,0.15
@@ -363,7 +363,7 @@ wait,0.5
 
 
 window,on,0.15
-message,シエナ,<size=32>……Emergency Disaster Supplies Storage.<br> ,300501000,mcv_1001030602_006_01,chara_5
+message,シエナ,<size=28>……Emergency Disaster Supplies Storage.<br> ,300501000,mcv_1001030602_006_01,chara_5
 
 window,off
 bgmstop,bgmtag2_1,0.5

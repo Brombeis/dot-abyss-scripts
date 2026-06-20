@@ -40,11 +40,11 @@ asynccharaemo,chara_1,Spirits,CONT
 
 
 window,on,0.15
-message,シルヴィア,<size=32>Well then， I look forward to your next request.<br> ,,vc_10260100021_001_01
+message,シルヴィア,<size=28>Well then，I look forward to your next request.<br> ,,vc_10260100021_001_01
 
 asyncskipwait
 
-message,,<size=32>After seeing the customer off with a smile，                              <br><size=32>Sylvia let out a long sigh now that she was alone.<br> 
+message,,<size=28>After seeing the customer off with a smile，                         <br><size=28>Sylvia let out a long sigh now that she was alone.<br> 
 
 charaface,chara_1,EyeClose
 charaface,chara_1,FaceNormal
@@ -60,9 +60,9 @@ asynccharaemo,chara_1,Silence,STOP
 
 asynccharaface,chara_1,EyeOpen,STOP,8
 asynccharaface,chara_1,FaceNormal,STOP,8
-message,シルヴィア,<size=32>...Ever since I started working at the brothel， the customers haven't    <br><size=32>stopped coming. Just as you said， this entertainment venue really is popular.<br> ,,vc_10260100021_002_01
+message,シルヴィア,<size=28>...Ever since I started working at the brothel，the customers haven't<br><size=28>stopped coming. Just as you said，this entertainment venue really is popular.<br> ,,vc_10260100021_002_01
 
-message,,<size=32>While the brothel itself was popular， the endless stream of customers    <br><size=32>also meant that Sylvia herself was in high demand — though she seemed oblivious to that fact.<br> 
+message,,<size=28>While the brothel itself was popular，the endless stream of customers<br><size=28>also meant that Sylvia herself was in high demand — though she seemed oblivious to that fact.<br> 
 
 window,off
 wait,0.15
@@ -100,21 +100,21 @@ charamove,chara_2,LinearTarget,X,400,0.3
 
 
 window,on,0.15
-message,ルディア,<size=32>Sylvia， do you have a moment?<br> ,,vc_10260100021_003_01
+message,ルディア,<size=28>Sylvia，do you have a moment?<br> ,,vc_10260100021_003_01
 
 charaface,chara_1,FaceSurprise
 
 asynccharareaction,chara_1,Nod,1,STOP
-message,シルヴィア,<size=32>Yes... What is it?<br> ,,vc_10260100021_004_01
+message,シルヴィア,<size=28>Yes... What is it?<br> ,,vc_10260100021_004_01
 
 charaface,chara_2,FaceSad
 
 asynccharaemo,chara_2,Silence,STOP
 
 asynccharareaction,chara_2,Shake,1,STOP
-message,ルディア,<size=32>Your next customer has a somewhat... special request.                    <br><size=32>They've asked that you wear these.<br> ,,vc_10260100021_005_01
+message,ルディア,<size=28>Your next customer has a somewhat... special request.               <br><size=28>They've asked that you wear these.<br> ,,vc_10260100021_005_01
 
-message,,<size=32>What Ludia held out was a pair of ordinary black tights.<br> 
+message,,<size=28>What Ludia held out was a pair of ordinary black tights.<br> 
 
 asyncseplay,setag1_4,se4800009,0,1,CONT
 
@@ -122,7 +122,7 @@ asynccharaemo,chara_1,Question,STOP
 
 asynccharaface,chara_1,EyeOpen,STOP,2.5
 asynccharaface,chara_1,FaceNormal,STOP,2.5
-message,シルヴィア,<size=32>I just need to wear these?                                               <br><size=32>That's simple enough...<br> ,,vc_10260100021_006_01
+message,シルヴィア,<size=28>I just need to wear these?                                          <br><size=28>That's simple enough...<br> ,,vc_10260100021_006_01
 
 charaface,chara_2,FaceFun
 
@@ -134,7 +134,7 @@ asynccharaemo,chara_2,Spirits,STOP
 
 asyncseplay,setag1_5,se4800013,0,1,CONT
 
-message,ルディア,<size=32>Fufu， thank you.                                                         <br><size=32>I'll go fetch the next customer， so please get ready in the meantime.<br> ,,vc_10260100021_007_01
+message,ルディア,<size=28>Fufu，thank you.                                                     <br><size=28>I'll go fetch the next customer，so please get ready in the meantime.<br> ,,vc_10260100021_007_01
 
 window,off
 wait,0.15
@@ -167,14 +167,14 @@ asyncseplay,setag1_7,se4800009,0,1,CONT
 asynccharaemo,chara_1,Question,CONT
 
 window,on,0.15
-message,シルヴィア,<size=32>...A special customer indeed.                                            <br><size=32>Wanting me to wear black tights... what's so appealing about that...?<br> ,,vc_10260100021_008_01
+message,シルヴィア,<size=28>...A special customer indeed. Wanting me to wear black tights...    <br><size=28>what's so appealing about that...?<br> ,,vc_10260100021_008_01
 
 asyncskipwait
 
 charaface,chara_1,FaceHappy
 
 asynccharareaction,chara_1,Nod,0.5,STOP
-message,シルヴィア,<size=32>Well， I suppose I'll get ready and wait.<br> ,,vc_10260100021_009_01
+message,シルヴィア,<size=28>Well，I suppose I'll get ready and wait.<br> ,,vc_10260100021_009_01
 
 window,off
 wait,0.15
@@ -190,9 +190,9 @@ wait,1
 fade,In,Black,1
 
 window,on,0.15
-message,,<size=32>Once Sylvia had put on the black tights and waited， the customer arrived <br><size=32>shortly after.<br> 
+message,,<size=28>Once Sylvia had put on the black tights and waited，the customer     <br><size=28>arrived shortly after.<br> 
 
-message,,<size=32>The customer nodded approvingly at the sight of Sylvia，                  <br><size=32>then immediately told her to sit on his lap.<br> 
+message,,<size=28>The customer nodded approvingly at the sight of Sylvia，             <br><size=28>then immediately told her to sit on his lap.<br> 
 
 
 labeljump,b

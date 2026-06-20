@@ -28,7 +28,7 @@ wait,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,—Frontline Base，Early Morning—,,,on
+messageTextCenter,,——Frontline Base，Early Morning——,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -37,9 +37,9 @@ wait,0.15
 bgmplay,bgmtag1_1,bgm0042,0.75,1
 
 window,on,0.15
-message,,<size=32>The long，long night at the frontline base was finally coming to an end.  <br><size=32>As if heralding the end of the life-or-death battle with the Hunger Calamity，the eastern sky began to lighten.<br> 
+message,,<size=28>The long night was finally ending.                                  <br><size=28>As if heralding the battle's conclusion—<br> 
 
-message,,<size=32>The Hunger Calamity that had raged so violently before their eyes basked <br><size=32>in the rising morning sun and slowly dissolved into particles of light—<br> 
+message,,<size=28>The Hunger Calamity basked in the morning sun                       <br><size=28>and slowly dissolved into particles of light.<br> 
 
 window,off
 wait,0.15
@@ -69,7 +69,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,<size=32>...It's over，Alicia.<br> 
+message,<user>,<size=28>...It's over，Alicia.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -81,9 +81,9 @@ asyncseplay,setag1_1,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,アリシア,<size=32>Yes. It's finally over. The battle with the Hunger Calamity...<br> ,300201000,mcv_1001041001_001_01,chara_1
+message,アリシア,<size=28>Yes. It's finally over. The battle with the Hunger Calamity...<br> ,300201000,mcv_1001041001_001_01,chara_1
 
-message,<user>,<size=32>It was a long fight.<br> 
+message,<user>,<size=28>It was a long fight.<br> 
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -95,7 +95,7 @@ asyncseplay,setag1_2,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,アリシア,<size=32>Now my father，my mother，and the people of my homeland... can finally rest<br><size=32>in peace...<br> ,300201000,mcv_1001041001_002_01,chara_1
+message,アリシア,<size=28>Now my father，mother，and my homeland's                              <br><size=28>people... can finally rest in peace...<br> ,300201000,mcv_1001041001_002_01,chara_1
 
 message,<user>,……
 
@@ -108,11 +108,11 @@ asyncseplay,setag1_3,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,アリシア,<size=32>Ah! I-I'm sorry! I said something strange...<br> ,300201000,mcv_1001041001_003_01,chara_1
+message,アリシア,<size=28>Ah! I-I'm sorry! I said something strange...<br> ,300201000,mcv_1001041001_003_01,chara_1
 
-message,<user>,<size=32>No，it's fine. You said before that you investigated me，right?<br> 
+message,<user>,<size=28>No，it's fine. You said before that you investigated me，right?<br> 
 
-message,<user>,<size=32>Actually，I had someone investigate you in return.<br> 
+message,<user>,<size=28>Actually，I had someone investigate you in return.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -123,9 +123,9 @@ asyncseplay,setag1_4,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,アリシア,<size=32>I see... so you knew. Everything.<br> ,300201000,mcv_1001041001_004_01,chara_1
+message,アリシア,<size=28>I see... so you knew. Everything.<br> ,300201000,mcv_1001041001_004_01,chara_1
 
-message,<user>,<size=32>Your long，long battle has finally come to an end.<br> 
+message,<user>,<size=28>Your long，long battle has finally come to an end.<br> 
 
 window,off
 wait,0.15
@@ -145,9 +145,9 @@ wait,0.5
 
 
 window,on,0.15
-message,アリシア,<size=32>...No. That's not right.<br> ,300201000,mcv_1001041001_005_01,chara_1
+message,アリシア,<size=28>...No. That's not right.<br> ,300201000,mcv_1001041001_005_01,chara_1
 
-message,<user>,<size=32>Hmm? It's not?<br> 
+message,<user>,<size=28>Hmm? It's not?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -158,7 +158,7 @@ asyncseplay,setag1_6,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,アリシア,<size=32>It's not just my battle.<br> ,300201000,mcv_1001041001_006_01,chara_1
+message,アリシア,<size=28>It's not just my battle.<br> ,300201000,mcv_1001041001_006_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -170,9 +170,9 @@ asyncseplay,setag1_7,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,アリシア,<size=32>This is a battle for all of us... for everyone's future.<br> ,300201000,mcv_1001041001_007_01,chara_1
+message,アリシア,<size=28>This is a battle for all of us... for everyone's future.<br> ,300201000,mcv_1001041001_007_01,chara_1
 
-message,<user>,<size=32>You're right... so it was.<br> 
+message,<user>,<size=28>You're right... so it was.<br> 
 
 window,off
 wait,0.15
@@ -192,11 +192,11 @@ wait,0.5
 
 
 window,on,0.15
-message,アリシア,<size=32>Commander... thank you，truly，truly...<br> ,300201000,mcv_1001041001_008_01,chara_1
+message,アリシア,<size=28>Commander... thank you，truly，truly...<br> ,300201000,mcv_1001041001_008_01,chara_1
 
-message,<user>,<size=32>I'm the one who should be thanking you. Because you were here，because    <br><size=32>Alicia was here，I could fight this far. Thank you...<br> 
+message,<user>,<size=28>I should be thanking you. Because you were here，                    <br><size=28>because Alicia was here，I could fight. Thank you.<br> 
 
-message,,<size=32>Hearing those words，Alicia finally breaks into her usual gentle smile.<br> 
+message,,<size=28>Hearing those words，Alicia finally breaks into her usual gentle     <br><size=28>smile.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -207,7 +207,7 @@ asyncseplay,setag1_9,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,アリシア,<size=32>...Yes! Thank you for everything from here on too，Commander!<br> ,300201000,mcv_1001041001_009_01,chara_1
+message,アリシア,<size=28>...Yes! Thank you for everything from here on too，Commander!<br> ,300201000,mcv_1001041001_009_01,chara_1
 
 asynccharaface,chara_1,FaceUnique06,CONT,0
 
@@ -218,9 +218,9 @@ asyncseplay,setag1_10,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,アリシア,<size=32>Right then! We repelled the Calamity，so let's get to planning our victory<br><size=32>party〜!<br> ,300201000,mcv_1001041001_010_01,chara_1
+message,アリシア,<size=28>Right then! We repelled the Calamity，                               <br><size=28>so let's plan our victory party~!<br> ,300201000,mcv_1001041001_010_01,chara_1
 
-message,<user>,<size=32>Yes. I'm sure everyone will be pleased. They've basically made partying  <br><size=32>their reason for living.<br> 
+message,<user>,<size=28>Yes. Everyone will be pleased.                                      <br><size=28>They've basically made partying a way of life.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -231,7 +231,7 @@ asyncseplay,setag1_11,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,アリシア,<size=32>Yes! Let's get everyone fired up this time too!<br> ,300201000,mcv_1001041001_011_01,chara_1
+message,アリシア,<size=28>Yes! Let's get everyone fired up this time too!<br> ,300201000,mcv_1001041001_011_01,chara_1
 
 
 bgmstop,bgmtag1_1,1.5,0
@@ -266,7 +266,7 @@ wait,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,—The Night After the Fierce Battle with the Hunger Calamity—,,,on
+messageTextCenter,,——The Night After the Fierce Battle with the Hunger Calamity——,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -300,9 +300,9 @@ asyncfade,In,Black,1,STOP,1
 waitorclick,2.5
 
 window,on,0.15
-message,,<size=32>Slipping away from the party venue's noise，Siena and Himari came out to a<br><size=32>hill near the frontline base，just the two of them.<br> 
+message,,<size=28>Slipping away from the noise，Shiena and Himari                      <br><size=28>came to a hill near the base，just the two of them.<br> 
 
-message,,<size=32>The noise of the music and the roar of laughter couldn't reach here.     <br><size=32>Below，the lights of the base twinkled like gems.<br> 
+message,,<size=28>The music and laughter couldn't reach here.                         <br><size=28>Below，the base lights twinkled like gems.<br> 
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -313,7 +313,7 @@ asyncseplay,setag1_12,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,シエナ,<size=32>Phew... this is more calming，as I thought.<br> ,300501000,mcv_1001041001_012_01,chara_2
+message,シエナ,<size=28>Phew... much more calming out here.<br> ,300501000,mcv_1001041001_012_01,chara_2
 
 asynccharaface,chara_3,EyeOpen,CONT,0
 asynccharaface,chara_3,FaceNormal,CONT,0
@@ -325,7 +325,7 @@ asyncseplay,setag1_13,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,ヒマリ,<size=32>Yeah... Himari's not great with that kind of lively scene...<br> ,106601000G,mcv_1001041001_013_01,chara_3
+message,ヒマリ,<size=28>Yeah... Himari's not great with that kind of lively scene...<br> ,106601000G,mcv_1001041001_013_01,chara_3
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -336,7 +336,7 @@ asyncseplay,setag1_14,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,シエナ,<size=32>Hehe，you haven't changed，Himari. You're the same as back then.<br> ,300501000,mcv_1001041001_014_01,chara_2
+message,シエナ,<size=28>Hehe，you haven't changed，Himari. You're the same as back then.<br> ,300501000,mcv_1001041001_014_01,chara_2
 
 asynccharaface,chara_3,FaceHappy,CONT,0
 
@@ -347,7 +347,7 @@ asyncseplay,setag1_15,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,ヒマリ,<size=32>No... I have changed，just recently. I fought together with everyone and  <br><size=32>was able to help everyone...<br> ,106601000G,mcv_1001041001_015_01,chara_3
+message,ヒマリ,<size=28>No... Himari has changed，just recently.                             <br><size=28>Himari fought with everyone and helped them...<br> ,106601000G,mcv_1001041001_015_01,chara_3
 
 asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
 
@@ -356,7 +356,7 @@ asyncseplay,setag1_16,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,シエナ,<size=32>Yeah. So you did...<br> ,300501000,mcv_1001041001_016_01,chara_2
+message,シエナ,<size=28>Yeah. So you did...<br> ,300501000,mcv_1001041001_016_01,chara_2
 
 window,off
 wait,0.15
@@ -376,7 +376,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒマリ,<size=32>Yeah...<br> ,106601000G,mcv_1001041001_017_01,chara_3
+message,ヒマリ,<size=28>Yeah...<br> ,106601000G,mcv_1001041001_017_01,chara_3
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -387,7 +387,7 @@ asyncseplay,setag1_18,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,シエナ,<size=32>Hey，Himari. Would you come with me to Luxnova's base? There might be     <br><size=32>members with pretty strong personalities，but...<br> ,300501000,mcv_1001041001_018_01,chara_2
+message,シエナ,<size=28>Hey，Himari. Wanna come to the Lux Nova base?                        <br><size=28>There might be a few quirky members though~<br> ,300501000,mcv_1001041001_018_01,chara_2
 
 asynccharaface,chara_3,FaceSurprise,CONT,0
 
@@ -398,7 +398,7 @@ asyncseplay,setag1_19,se4800009,0,1,CONT,0
 asynccharaemo,chara_3,Question,CONT,0
 
 
-message,ヒマリ,<size=32>Luxnova's base...?<br> ,106601000G,mcv_1001041001_019_01,chara_3
+message,ヒマリ,<size=28>Lux Nova's base...?<br> ,106601000G,mcv_1001041001_019_01,chara_3
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -409,7 +409,7 @@ asyncseplay,setag1_20,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,シエナ,<size=32>Right. Everyone there is just like me and Himari—people transferred to   <br><size=32>this world. Let's look together for a way back to the original world!<br> ,300501000,mcv_1001041001_020_01,chara_2
+message,シエナ,<size=28>Right. Everyone there is like us— transferred                       <br><size=28>to this world. Let's find a way home together!<br> ,300501000,mcv_1001041001_020_01,chara_2
 
 asynccharaface,chara_3,EyeOpen,CONT,0
 asynccharaface,chara_3,FaceNormal,CONT,0
@@ -421,7 +421,7 @@ asyncseplay,setag1_21,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,ヒマリ,<size=32>Siena...<br> ,106601000G,mcv_1001041001_021_01,chara_3
+message,ヒマリ,<size=28>Shiena...<br> ,106601000G,mcv_1001041001_021_01,chara_3
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -432,7 +432,7 @@ asyncseplay,setag1_22,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,シエナ,<size=32>I'll absolutely get Himari back to our original world! I promised you    <br><size=32>that，didn't I?<br> ,300501000,mcv_1001041001_022_01,chara_2
+message,シエナ,<size=28>I'll get Himari back to our original world!                         <br><size=28>I promised you that，didn't I?<br> ,300501000,mcv_1001041001_022_01,chara_2
 
 asynccharaface,chara_3,FaceFun,CONT,0
 
@@ -443,7 +443,7 @@ asyncseplay,setag1_23,se4800018,0,1,CONT,0
 asynccharaemo,chara_3,Flower,CONT,0
 
 
-message,ヒマリ,<size=32>...Yeah，thank you.<br> ,106601000G,mcv_1001041001_023_01,chara_3
+message,ヒマリ,<size=28>...Yeah，thank you.<br> ,106601000G,mcv_1001041001_023_01,chara_3
 
 window,off
 wait,0.15
@@ -462,7 +462,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒマリ,<size=32>But I'm sorry... I want to stay at the frontline base and fight alongside<br><size=32>everyone here.<br> ,106601000G,mcv_1001041001_024_01,chara_3
+message,ヒマリ,<size=28>But I'm sorry... Himari wants to stay                               <br><size=28>at the forward base and fight with everyone here.<br> ,106601000G,mcv_1001041001_024_01,chara_3
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -473,7 +473,7 @@ asyncseplay,setag1_25,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,シエナ,<size=32>...Why? Don't you want to go home? To your original world where your dad <br><size=32>and mom are waiting.<br> ,300501000,mcv_1001041001_025_01,chara_2
+message,シエナ,<size=28>...Why? Don't you want to go home?                                  <br><size=28>To the world where your dad and mom are waiting.<br> ,300501000,mcv_1001041001_025_01,chara_2
 
 asynccharaface,chara_3,EyeClose,CONT,0
 asynccharaface,chara_3,FaceNormal,CONT,0
@@ -485,7 +485,7 @@ asyncseplay,setag1_26,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,ヒマリ,<size=32>Of course I want to go home! I want to spend time together again with    <br><size=32>Siena，like before.<br> ,106601000G,mcv_1001041001_026_01,chara_3
+message,ヒマリ,<size=28>Of course Himari wants to go home!                                  <br><size=28>Himari wants to be with Shiena again，like before.<br> ,106601000G,mcv_1001041001_026_01,chara_3
 
 asynccharaface,chara_3,EyeOpen,CONT,0
 asynccharaface,chara_3,FaceNormal,CONT,0
@@ -497,7 +497,7 @@ asyncseplay,setag1_27,se4800022,0,1,CONT,0
 asynccharaemo,chara_3,Speak,CONT,0
 
 
-message,ヒマリ,<size=32>But now，I have people here at the frontline base who I want to protect.<br> ,106601000G,mcv_1001041001_027_01,chara_3
+message,ヒマリ,<size=28>But now，Himari has people here she wants to protect.<br> ,106601000G,mcv_1001041001_027_01,chara_3
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -508,7 +508,7 @@ asyncseplay,setag1_28,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,シエナ,<size=32>Himari...<br> ,300501000,mcv_1001041001_028_01,chara_2
+message,シエナ,<size=28>Himari...<br> ,300501000,mcv_1001041001_028_01,chara_2
 
 asynccharaface,chara_3,EyeClose,CONT,0
 asynccharaface,chara_3,FaceNormal,CONT,0
@@ -520,7 +520,7 @@ asyncseplay,setag1_29,se4800003,0,1,CONT,0
 asynccharaemo,chara_3,Twinkle,CONT,0
 
 
-message,ヒマリ,<size=32>The Commander，Alicia，and everyone at the frontline base... they've all   <br><size=32>become like 'family' to me.<br> ,106601000G,mcv_1001041001_029_01,chara_3
+message,ヒマリ,<size=28>Commander，Alicia，everyone at the base...                            <br><size=28>they've all become like family to Himari.<br> ,106601000G,mcv_1001041001_029_01,chara_3
 
 asynccharaface,chara_3,FaceAnger,CONT,0
 
@@ -531,7 +531,7 @@ asyncseplay,setag1_30,se4800022,0,1,CONT,0
 asynccharaemo,chara_3,Speak,CONT,0
 
 
-message,ヒマリ,<size=32>The power Himari has isn't something that awakened so I could go back to <br><size=32>the original world. ...I think it awakened to protect the people here，in this world.<br> ,106601000G,mcv_1001041001_030_01,chara_3
+message,ヒマリ,<size=28>Himari's power didn't awaken so she could go                        <br><size=28>home. ...It awakened to protect everyone here.<br> ,106601000G,mcv_1001041001_030_01,chara_3
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -593,7 +593,7 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,<size=32>Please understand，Siena. Himari... can't leave everyone here who are     <br><size=32>fighting so hard!<br> ,106601000G,mcv_1001041001_032_01,chara_3
+message,ヒマリ,<size=28>Please understand，Shiena. Himari...                                 <br><size=28>can't leave everyone here who fights so hard!<br> ,106601000G,mcv_1001041001_032_01,chara_3
 
 asynccharaface,chara_3,FaceUnique01,CONT,0
 
@@ -604,7 +604,7 @@ asyncseplay,setag1_33,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,ヒマリ,<size=32>I want to fight here together with everyone! To save the people here...!<br> ,106601000G,mcv_1001041001_033_01,chara_3
+message,ヒマリ,<size=28>I want to fight here together with everyone! To save the people     <br><size=28>here...!<br> ,106601000G,mcv_1001041001_033_01,chara_3
 
 window,off
 wait,0.15
@@ -647,7 +647,7 @@ asynccharaemo,chara_2,Shock,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=32>Himari...<br> ,300501000,mcv_1001041001_034_01,chara_2
+message,シエナ,<size=28>Himari...<br> ,300501000,mcv_1001041001_034_01,chara_2
 
 labeljump,b
 

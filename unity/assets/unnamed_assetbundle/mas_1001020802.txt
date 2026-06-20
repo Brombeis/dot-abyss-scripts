@@ -127,7 +127,7 @@ asyncdotcamerazoom,1,0.5,LinearTarget,CONT,0
 asyncdotcameramove,-1,0,LinearTarget,0.5,None,CONT,0
 asyncwait
 
-dotmessage,<user>,<size=32>Do we have any other choice……<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,20
+dotmessage,<user>,<size=24>Do we have any other choice……,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,20
 
 
 //主人公一向をもとに戻す
@@ -152,7 +152,7 @@ wait,0.1
 objectdirect,Krull,RIGHT
 wait,0.1
 
-dotmessage,クルル,<size=32>It's，it's too biiiig~……<br> ,,mcv_1001020802_001_01,NORMAL,Mid,Sad,Krull,TOP,NORMAL,0,20
+dotmessage,クルル,<size=24>It's，it's too biiiig~……,,mcv_1001020802_001_01,NORMAL,Mid,Sad,Krull,TOP,NORMAL,0,20
 
 
 //エモ　閃き
@@ -164,7 +164,7 @@ asyncobjectmotion,Sophia,N_gesture,1,1,N_gesture,1,CONT,0
 asyncdotmove,Sophia,0.5,-0.5,0,0,Linear,CONT,0
 asyncwait
 
-dotmessage,ソフィア,<size=32>Hey!                                                                     <br><size=32>That thing Adelheid gave us!<br> ,,mcv_1001020802_002_01,NORMAL,Mid,Anger,Sophia,TOP,NORMAL,0,50
+dotmessage,ソフィア,<size=24>Hey!<br>That thing Adelheid gave us!,,mcv_1001020802_002_01,NORMAL,Mid,Anger,Sophia,TOP,NORMAL,0,50
 
 asyncdotmove,Krull,0.5,0,0,-0.5,Linear,CONT,0
 asyncdotmove,Marina,0.5,0,0,0.5,Linear,CONT,0
@@ -182,12 +182,12 @@ asyncobjectmotion,Krull,N_think,1,1,None,1,CONT,0.2
 objectmotion,chara_1,C_Wait,0,1,,0.1
 asyncwait
 
-dotmessage,ベリサ,<size=32>What was it?                                                             <br><size=32>The one with the complicated name!<br> ,,mcv_1001020802_003_01,NORMAL,Mid,NORMAL,Belisa,TOP,NORMAL,0,20
+dotmessage,ベリサ,<size=24>What was it?<br>The one with the complicated name!,,mcv_1001020802_003_01,NORMAL,Mid,NORMAL,Belisa,TOP,NORMAL,0,20
 
-dotmessage,マリナ,<size=32>Ko-shuu…… something?<br> ,,mcv_1001020802_004_01,NORMAL,Mid,Sad,Marina,TOP,NORMAL,0,50
+dotmessage,マリナ,<size=24>Ko-shuu…… something?,,mcv_1001020802_004_01,NORMAL,Mid,Sad,Marina,TOP,NORMAL,0,50
 asyncobjectmotion,Marina,C_Wait,0,1,,1
 
-dotmessage,<user>,<size=32>It's called the High-Frequency Resonance Barrier!                        <br><size=32>Hold on!<br> ,,,NORMAL,Mid,,chara_1,TOP,SHAKE,0,20
+dotmessage,<user>,<size=24>It's called the High-Frequency Resonance Barrier!<br>Hold on!,,,NORMAL,Mid,,chara_1,TOP,SHAKE,0,20
 
 objectmotion,Sophia,C_Wait,0,1,,0.1
 
@@ -242,7 +242,7 @@ asyncobjectmotion,chara_1,C_Wait,1,1,C_Wait,1,CONT,0
 objectdirect,chara_1,RIGHT
 
 
-dotmessage,<user>,<size=32>I'm not counting on it，but                                               <br><size=32>please work!<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,20
+dotmessage,<user>,<size=24>I'm not counting on it，but<br>please work!,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,20
 
 
 
@@ -293,7 +293,7 @@ asyncdotshake,chara_10,0.2,0.08,0.2,4,on,0,off,CONT,0
 asyncseplay,se4900133,se4900133,0,1,CONT,0
 asyncdotprefabshow,NovelEF_HighFrequencyThunder,CONT,0
 seplayIngame,ba_summon_2022201_01_2,ene_2022201,ba_summon_2022201_01,1,1
-dotmessage,氷河の厄災,<size=32>GROOAAAAaaaaaAAAAaaa!<br> ,900000002,,SHOUT_B,big,,chara_10,rightbottom,shake,-650,200
+dotmessage,氷河の厄災,<size=24>GROOAAAAaaaaaAAAAaaa!,900000002,,SHOUT_B,big,,chara_10,rightbottom,shake,-650,200
 
 objectmotion,chara_10,C_Stan,1,1,C_Stan,1
 
@@ -302,21 +302,21 @@ asyncobjectmotion,Belisa,N_bounce,1,1,N_bounce,1,CONT,0
 objectmotion,Belisa,N_bounce,0,1,,1
 
 
-dotmessage,ベリサ,<size=32>Ohhh~~~!?<br> ,,mcv_1001020802_005_01,NORMAL,Mid,Surprise,Belisa,RIGHTTOP,NORMAL,250,100
+dotmessage,ベリサ,<size=24>Ohhh~~~!?,,mcv_1001020802_005_01,NORMAL,Mid,Surprise,Belisa,RIGHTTOP,NORMAL,250,100
 asyncobjectmotion,Belisa,C_Wait,1,1,,1
 
 
 objectmotion,Krull,N_bounce,0,1,,1
 
-dotmessage,クルル,<size=32>It stopped moving!<br> ,,mcv_1001020802_006_01,NORMAL,Mid,Surprise,Krull,RIGHTTOP,NORMAL,250,100
+dotmessage,クルル,<size=24>It stopped moving!,,mcv_1001020802_006_01,NORMAL,Mid,Surprise,Krull,RIGHTTOP,NORMAL,250,100
 asyncobjectmotion,Krull,C_Wait,1,1,,1
 
 objectmotion,Sophia,N_bounce,0,1,,1
-dotmessage,ソフィア,<size=32>No way……                                                                 <br><size=32>It's working!?<br> ,,mcv_1001020802_007_01,NORMAL,Mid,Surprise,Sophia,RIGHTTOP,NORMAL,250,100
+dotmessage,ソフィア,<size=24>No way……<br>It's working!?,,mcv_1001020802_007_01,NORMAL,Mid,Surprise,Sophia,RIGHTTOP,NORMAL,250,100
 asyncobjectmotion,Sophia,C_Wait,1,1,,1
 
 asyncobjectmotion,Marina,N_bounce,1,1,N_bounce,1,CONT,0
-dotmessage,マリナ,<size=32>This…… this is our chance，isn't it?<br> ,,mcv_1001020802_008_01,NORMAL,Mid,happy,Marina,RIGHTTOP,NORMAL,450,100
+dotmessage,マリナ,<size=24>This…… this is our chance，isn't it?,,mcv_1001020802_008_01,NORMAL,Mid,happy,Marina,RIGHTTOP,NORMAL,450,100
 asyncobjectmotion,Marina,C_Wait,1,1,,1
 
 asyncdotcamerazoom,1,0.25,Set,CONT,0
@@ -324,7 +324,7 @@ asyncdotcameramove,-1,0,Set,0.25,None,CONT,0
 asyncwait
 
 asyncobjectmotion,chara_1,N_Yes,1,1,C_Wait,1
-dotmessage,<user>,<size=32>As expected of Adelheid!                                                 <br><size=32>We might actually be able to do this!<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,20
+dotmessage,<user>,<size=24>As expected of Adelheid!<br>We might actually be able to do this!,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,20
 
 asyncdotmove,chara_1,0.1,-5,0,1.5,LinearTarget,CONT,0
 asyncdotmove,Belisa,0.1, -3,0,0,LinearTarget,CONT,0
@@ -336,7 +336,7 @@ objectdirect,Sophia,LEFT
 objectdirect,Marina,LEFT
 
 asyncobjectmotion,chara_1,U_Pointing,1,1,None,1,CONT,0
-dotmessage,<user>,<size=32>Everyone attack!                                                         <br><size=32>Hit it with everything you've got!<br> ,,,NORMAL,Big,,chara_1,TOP,SHAKE,0,20
+dotmessage,<user>,<size=24>Everyone attack!<br>Hit it with everything you've got!,,,NORMAL,Big,,chara_1,TOP,SHAKE,0,20
 asyncobjectmotion,chara_1,C_Wait,2,1,,1
 
 asyncwait
@@ -522,7 +522,7 @@ dotprefabdelete,ef_Skill01_5
 dotprefabdelete,ef_Skill01_6
 dotprefabdelete,ef_Skill01_7
 
-dotmessage,ベリサ,<size=32>Everyone stand back!                                                     <br><size=32>I'm going to blast it with a really big one!<br> ,,mcv_1001020802_009_01,NORMAL,Mid,NORMAL,Belisa,TOP,NORMAL,0,20
+dotmessage,ベリサ,<size=24>Everyone stand back!<br>I'm going to blast it with a really big one!,,mcv_1001020802_009_01,NORMAL,Mid,NORMAL,Belisa,TOP,NORMAL,0,20
 
 asyncobjectmotion,chara_1,C_BackStep,1,1,None,1,CONT,0
 asyncobjectmotion,Sophia,C_BackStep,1,1,None,1,CONT,0
@@ -664,13 +664,13 @@ asyncseplay,se4800002_,se4800002,0,1,CONT,0
 asyncobjectemo,Marina,Heart
 asyncobjectmotion,Marina,N_joy,0,1,,1
 asyncwait
-dotmessage,マリナ,<size=32>Everyone~!                                                               <br><size=32>Incredible! This is incredible~!<br> ,,mcv_1001020802_010_01,NORMAL,Mid,happy,Marina,TOP,NORMAL,0,50
+dotmessage,マリナ,<size=24>Everyone~!<br>Incredible! This is incredible~!,,mcv_1001020802_010_01,NORMAL,Mid,happy,Marina,TOP,NORMAL,0,50
 
 objectdirect,Sophia,LEFT
 objectmotion,Sophia,N_embarrassing,0,1,,1
 asyncobjectmotion,Marina,C_Wait,1,1,,1
 
-dotmessage,<user>,<size=32>Did we…… do it!?<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,20
+dotmessage,<user>,<size=24>Did we…… do it!?,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,20
 
 objectdirect,Sophia,RIGHT
 objectdirect,Krull,RIGHT
@@ -748,7 +748,7 @@ wait,3
 
 //SE再生　咆哮
 seplayIngame,ba_summon_2022201_01_3,ene_2022201,ba_summon_2022201_01,1,1
-dotmessage,氷河の厄災,<size=32>GROOAAAAaaaaaAAAAaaa!!<br> ,900000002,,SHOUT_B,big,,chara_10,rightbottom,shake,-750,300
+dotmessage,氷河の厄災,<size=24>GROOAAAAaaaaaAAAAaaa!!,900000002,,SHOUT_B,big,,chara_10,rightbottom,shake,-750,300
 linework,off,White,Strong
 
 
@@ -829,7 +829,7 @@ wait,1
 asyncseplay,se4800014_2,se4800014,0,1,CONT,0
 objectemo,chara_1,Silence
 objectmotion,chara_1,C_Wait,0,1,,1
-dotmessage,<user>,<size=32>We're…… saved…………                                                        <br><size=32>Aren't we?<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,20
+dotmessage,<user>,<size=24>We're…… saved…………<br>Aren't we?,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,20
 
 //window,off
 

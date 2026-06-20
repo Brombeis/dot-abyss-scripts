@@ -62,7 +62,7 @@ objectmotion,Aura,C_Wait,0,1,,1
 //フェードアウト
 fade,Out,Black,0.5
 
-messageTextCenter,,<size=48>The representatives of the Three Great Nations of the Treslian region had gathered，<br>and talks were underway regarding the frontline base——</size>,,,
+messageTextCenter,,<size=48>The representatives of the three great nations of Treslia gathered，<br>and talks regarding the frontline base were underway——</size>,,,
 
 
 dotbgshow,bg_1,0
@@ -85,7 +85,7 @@ asyncwait
 fade,In,Black,0.5
 
 
-dotmessage,フェリシオーネ,<size=32>It seems Alicia's persuasion                                             <br><size=32>went well……<br> ,,mcv_1001000301_001_01,NORMAL,Mid,FUN,Felicione,TOP,NORMAL,0,0
+dotmessage,フェリシオーネ,<size=24>It seems Alicia's persuasion<br>went well……,,mcv_1001000301_001_01,NORMAL,Mid,FUN,Felicione,TOP,NORMAL,0,0
 objectmotion,Felicione,C_Wait,0,1,,1
 
 objectdirect,Reyzeria,LEFT
@@ -93,63 +93,63 @@ objectdirect,Reyzeria,LEFT
 //エモ　笑
 asyncseplay,se4800004_2,se4800004,0,1,CONT,0
 objectemo,Aura,Laugh
-dotmessage,アウラ,<size=32>Well，well.                                                               <br><size=32>Not bad at all，that girl.<br> ,,mcv_1001000301_002_01,NORMAL,Mid,FUN,Aura,TOP,NORMAL,0,0
+dotmessage,アウラ,<size=24>Well，well.<br>Not bad at all，that girl.,,mcv_1001000301_002_01,NORMAL,Mid,FUN,Aura,TOP,NORMAL,0,0
 objectmotion,Aura,C_Wait,0,1,,1
 
 objectmotion,Reyzeria,N_Yes,1,1,,1
-dotmessage,レイゼリア,<size=32>Lady Alicia is neutral. She was                                          <br><size=32>the ideal negotiator for this.<br> ,,mcv_1001000301_003_01,NORMAL,Mid,FUN,Reyzeria,TOP,NORMAL,0,0
+dotmessage,レイゼリア,<size=24>Lady Alicia is neutral. She was<br>the ideal negotiator for this.,,mcv_1001000301_003_01,NORMAL,Mid,FUN,Reyzeria,TOP,NORMAL,0,0
 objectmotion,Reyzeria,C_Wait,0,1,,1
 
 //エモ　モヤモヤ
 asyncseplay,se4800006_,se4800006,0,1,CONT,0
 asyncobjectmotion,Reyzeria,U_thinkU01,0,1,,1,CONT,0
 objectemo,Reyzeria,Trouble
-dotmessage,レイゼリア,<size=32>Even if we had gone to negotiate directly，                               <br><size=32>that man would have refused us.<br> ,,mcv_1001000301_004_01,NORMAL,Mid,NORMAL,Reyzeria,TOP,NORMAL,0,0
+dotmessage,レイゼリア,<size=24>Even if we had gone to negotiate directly，<br>that man would have refused us.,,mcv_1001000301_004_01,NORMAL,Mid,NORMAL,Reyzeria,TOP,NORMAL,0,0
 objectmotion,Reyzeria,C_Wait,0,1,,1
 
 objectdirect,Reyzeria,RIGHT
 objectmotion,Felicione,N_think,1,1,,1
-dotmessage,フェリシオーネ,<size=32>A descendant of the ""Hero，""                                              <br><size=32>and a cunning master of strategy……<br> ,,mcv_1001000301_005_01,NORMAL,Mid,NORMAL,Felicione,TOP,NORMAL,0,0
+dotmessage,フェリシオーネ,<size=24>A descendant of the ""Hero""，<br>and a cunning strategist……,,mcv_1001000301_005_01,NORMAL,Mid,NORMAL,Felicione,TOP,NORMAL,0,0
 objectmotion,Felicione,C_Wait,0,1,,1
 
 objectdirect,Reyzeria,LEFT
 objectmotion,Aura,N_No,1,1,,1
-dotmessage,アウラ,<size=32>The upper echelons of the Three Nations feared his mind                  <br><size=32>and banished him to the frontier.<br> ,,mcv_1001000301_006_01,NORMAL,Mid,EYECLOSE,Aura,TOP,NORMAL,0,0
+dotmessage,アウラ,<size=24>The upper echelons of the Three Nations feared his mind<br>and banished him to the frontier.,,mcv_1001000301_006_01,NORMAL,Mid,EYECLOSE,Aura,TOP,NORMAL,0,0
 objectmotion,Aura,C_Wait,0,1,,1
 
 //エモ　モヤモヤ
 asyncseplay,se4800006_2,se4800006,0,1,CONT,0
 objectemo,Aura,Trouble
-dotmessage,アウラ,<size=32>Well，                                                                    <br><size=32>his resentment is only natural~<br> ,,mcv_1001000301_007_01,NORMAL,Mid,FUN,Aura,TOP,NORMAL,0,0
+dotmessage,アウラ,<size=24>Well，<br>you can't blame him for holding a grudge~,,mcv_1001000301_007_01,NORMAL,Mid,FUN,Aura,TOP,NORMAL,0,0
 objectmotion,Aura,C_Wait,0,1,,1
 
 objectdirect,Reyzeria,RIGHT
 objectmotion,Felicione,N_No,1,1,,1
-dotmessage,フェリシオーネ,<size=32>And yet，we find ourselves relying once again                             <br><size=32>on the very ""dangerous element"" we cast aside……<br> ,,mcv_1001000301_008_01,NORMAL,Mid,SAD,Felicione,TOP,NORMAL,0,0
+dotmessage,フェリシオーネ,<size=24>And yet，we find ourselves relying once again<br>on the very ""dangerous element"" we cast aside……,,mcv_1001000301_008_01,NORMAL,Mid,SAD,Felicione,TOP,NORMAL,0,0
 objectmotion,Felicione,C_Wait,0,1,,1
 
 asyncobjectmotion,Reyzeria,U_thinkU02,0,1,,1,CONT,0
-dotmessage,レイゼリア,<size=32>I believe there is no one else                                           <br><size=32>suited to face the threat of the Abyss.<br> ,,mcv_1001000301_009_01,NORMAL,Mid,EYECLOSE,Reyzeria,TOP,NORMAL,0,0
+dotmessage,レイゼリア,<size=24>I believe there is no one else<br>suited to face the threat of the Abyss.,,mcv_1001000301_009_01,NORMAL,Mid,EYECLOSE,Reyzeria,TOP,NORMAL,0,0
 objectmotion,Reyzeria,C_Wait,0,1,,1
 
 objectdirect,Reyzeria,LEFT
 objectmotion,Aura,N_No,1,1,,1
-dotmessage,アウラ,<size=32>But if the frontline base functions properly，                            <br><size=32>the Abyss becomes more than just a threat.<br> ,,mcv_1001000301_010_01,NORMAL,Mid,NORMAL,Aura,TOP,NORMAL,0,0
+dotmessage,アウラ,<size=24>But if the frontline base functions properly，<br>the Abyss becomes more than just a threat.,,mcv_1001000301_010_01,NORMAL,Mid,NORMAL,Aura,TOP,NORMAL,0,0
 
 //エモ　♪
 asyncseplay,se4800013_,se4800013,0,1,CONT,0
 objectmotion,Aura,N_bounce,1,1,,1
 objectemo,Aura,Spirits
-dotmessage,アウラ,<size=32>The rare ores and resources lying within it                              <br><size=32>are a veritable treasure trove♪<br> ,,mcv_1001000301_011_01,NORMAL,Mid,HAPPY,Aura,TOP,NORMAL,0,0
+dotmessage,アウラ,<size=24>The rare ores and resources sleeping down there—<br>it's a treasure trove♪,,mcv_1001000301_011_01,NORMAL,Mid,HAPPY,Aura,TOP,NORMAL,0,0
 objectmotion,Aura,C_Wait,0,1,,1
 
 objectdirect,Reyzeria,RIGHT
 objectmotion,Felicione,N_Yes,1,1,,1
-dotmessage,フェリシオーネ,<size=32>I hear illegal miners are on the rise too……                              <br><size=32>We'll need to crack down harder.<br> ,,mcv_1001000301_012_01,NORMAL,Mid,NORMAL,Felicione,TOP,NORMAL,0,0
+dotmessage,フェリシオーネ,<size=24>I hear illegal miners are on the rise too……<br>We'll need to crack down harder.,,mcv_1001000301_012_01,NORMAL,Mid,NORMAL,Felicione,TOP,NORMAL,0,0
 objectmotion,Felicione,C_Wait,0,1,,1
 
 asyncobjectmotion,Reyzeria,U_thinkU03,1,1,,1,CONT,0
-dotmessage,レイゼリア,<size=32>I hear the resources of the Abyss are coveted not only by the Three      <br><size=32>Nations，but also by the ""Thousand Nations Alliance.""<br> ,,mcv_1001000301_013_01,NORMAL,Mid,NORMAL,Reyzeria,TOP,NORMAL,0,0
+dotmessage,レイゼリア,<size=24>I hear the Abyss's resources are coveted not just by us，<br>but by the ""Thousand Nations Alliance"" as well.,,mcv_1001000301_013_01,NORMAL,Mid,NORMAL,Reyzeria,TOP,NORMAL,0,0
 objectmotion,Reyzeria,C_Wait,0,1,,1
 
 objectdirect,Reyzeria,LEFT
@@ -157,16 +157,16 @@ objectdirect,Reyzeria,LEFT
 asyncseplay,se4800016_,se4800016,0,1,CONT,0
 objectmotion,Aura,N_bounce,1,1,,1
 objectemo,Aura,BePeevish
-dotmessage,アウラ,<size=32>The Thousand Nations Alliance~……                                         <br><size=32>A rabble of small nations with no business being so brazen!<br> ,,mcv_1001000301_014_01,NORMAL,Mid,ANGER,Aura,TOP,NORMAL,0,0
+dotmessage,アウラ,<size=24>The Thousand Nations Alliance~……<br>A rabble of small nations with no business being so brazen!,,mcv_1001000301_014_01,NORMAL,Mid,ANGER,Aura,TOP,NORMAL,0,0
 objectmotion,Aura,C_Wait,0,1,,1
 
 objectdirect,Reyzeria,RIGHT
 
 objectmotion,Felicione,N_Yes,1,1,,1
-dotmessage,フェリシオーネ,<size=32>The problem is the countless monsters                                    <br><size=32>inhabiting the Abyss……and……<br> ,,mcv_1001000301_015_01,NORMAL,Mid,EYECLOSE,Felicione,TOP,NORMAL,0,0
+dotmessage,フェリシオーネ,<size=24>The problem is the countless monsters<br>inhabiting the Abyss……and……,,mcv_1001000301_015_01,NORMAL,Mid,EYECLOSE,Felicione,TOP,NORMAL,0,0
 
 objectmotion,Felicione,C_Wait,0,1,,1
-dotmessage,フェリシオーネ,<size=32>The massive creatures that emerge from the Abyss……                       <br><size=32>the 『Calamities』……<br> ,,mcv_1001000301_016_01,NORMAL,Mid,NORMAL,Felicione,TOP,NORMAL,0,0
+dotmessage,フェリシオーネ,<size=24>The massive creatures that emerge from the Abyss……<br>the ""Calamities""……,,mcv_1001000301_016_01,NORMAL,Mid,NORMAL,Felicione,TOP,NORMAL,0,0
 objectmotion,Felicione,C_Wait,0,1,,1
 
 //移動＋歩きモーション
@@ -176,7 +176,7 @@ asyncdotmove,Reyzeria,1,-0.5,0,0,Linear,CONT,0
 asyncwait
 asyncobjectmotion,Reyzeria,U_thinkU02,0,1,,1,CONT,0
 
-dotmessage,レイゼリア,<size=32>In the last battle，each nation lost                                      <br><size=32>nearly half its forces……<br> ,,mcv_1001000301_017_01,NORMAL,Mid,SAD,Reyzeria,TOP,NORMAL,0,0
+dotmessage,レイゼリア,<size=24>In the last battle，each nation lost<br>nearly half its forces……,,mcv_1001000301_017_01,NORMAL,Mid,SAD,Reyzeria,TOP,NORMAL,0,0
 
 //向きを変える
 objectdirect,Reyzeria,RIGHT
@@ -189,21 +189,21 @@ asyncwait
 asyncobjectmotion,Reyzeria,C_Wait,0,1,,1,CONT,0
 
 objectmotion,Reyzeria,N_bounce,1,1,,1
-dotmessage,レイゼリア,<size=32>Strengthening the base and boosting our forces is urgent!                <br><size=32>We don't have much time left!<br> ,,mcv_1001000301_018_01,NORMAL,Mid,ANGER,Reyzeria,TOP,NORMAL,0,0
+dotmessage,レイゼリア,<size=24>Reinforcing the base and our forces is a top priority!<br>We don't have much time left!,,mcv_1001000301_018_01,NORMAL,Mid,ANGER,Reyzeria,TOP,NORMAL,0,0
 objectmotion,Reyzeria,C_Wait,0,1,,1
 
 asyncobjectmotion,Felicione,N_Yes,1,1,,0.1
-dotmessage,フェリシオーネ,<size=32>For now，we have no choice but to                                         <br><size=32>bet everything on that man's genius……<br> ,,mcv_1001000301_019_01,NORMAL,Mid,EYECLOSE,Felicione,TOP,NORMAL,0,0
+dotmessage,フェリシオーネ,<size=24>For now，we have no choice but to<br>bet everything on that man's genius……,,mcv_1001000301_019_01,NORMAL,Mid,EYECLOSE,Felicione,TOP,NORMAL,0,0
 
 objectdirect,Reyzeria,LEFT
 //エモ　♪
 asyncseplay,se4800013_5,se4800013,0,1,CONT,0
 asyncobjectmotion,Aura,N_Yes,1,1,,0
 objectemo,Aura,Spirits
-dotmessage,アウラ,<size=32>Let's see what the bloodline of a hero                                   <br><size=32>is truly worth♪<br> ,,mcv_1001000301_020_01,NORMAL,Mid,FUN,Aura,TOP,NORMAL,0,0
+dotmessage,アウラ,<size=24>Let's see what the bloodline of a hero<br>is truly worth♪,,mcv_1001000301_020_01,NORMAL,Mid,FUN,Aura,TOP,NORMAL,0,0
 
 asyncobjectmotion,Reyzeria,N_Yes,1,1,,0.2
-dotmessage,レイゼリア,<size=32>Indeed. For now，the 『Blood of the Hero』                                  <br><size=32>is our only ""hope""……<br> ,,mcv_1001000301_021_01,NORMAL,Mid,NORMAL,Reyzeria,TOP,NORMAL,0,0
+dotmessage,レイゼリア,<size=24>Indeed. For now，the ""Blood of the Hero""<br>is our only ""hope""……,,mcv_1001000301_021_01,NORMAL,Mid,NORMAL,Reyzeria,TOP,NORMAL,0,0
 
 asyncobjectmotion,Aura,N_Yes,1,1,,0
 asyncobjectmotion,Felicione,N_Yes,1,1,,0.1

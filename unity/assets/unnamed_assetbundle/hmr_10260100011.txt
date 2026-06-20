@@ -28,9 +28,9 @@ bgmplay,bgmtag1_1,bgm0024,0.75,1
 charashow,chara_1,0.3
 
 window,on,0.15
-message,,<size=32>While walking through the forward base， I spotted Sylvia standing in     <br><size=32>front of the brothel， gazing at the building with a curious expression.<br> 
+message,,<size=28>While walking through the forward base，I spotted Sylvia standing in <br><size=28>front of the brothel， gazing at the building with a curious expression.<br> 
 
-message,<user>,<size=32>Hey， Sylvia.                                                             <br><size=32>What are you doing in a place like this?<br> 
+message,<user>,<size=28>Hey，Sylvia.                                                         <br><size=28>What are you doing in a place like this?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT
 
@@ -45,9 +45,9 @@ asynccharareaction,chara_1,nod,1,CONT
 asynccharaface,chara_1,EyeOpen,STOP,4
 asynccharaface,chara_1,FaceNormal,STOP,4
 
-message,シルヴィア,<size=32>Oh， dear brother， perfect timing.                                        <br><size=32>What is this splendid building?<br> ,,vc_10260100011_001_01
+message,シルヴィア,<size=28>Oh，dear brother，perfect timing.                                     <br><size=28>What is this splendid building?<br> ,,vc_10260100011_001_01
 
-message,<user>,<size=32>This place? It's called a brothel — the most popular entertainment venue <br><size=32>on this base.<br> 
+message,<user>,<size=28>This place? It's called a brothel — the most popular entertainment  <br><size=28>venue on this base.<br> 
 
 charaface,chara_1,FaceSurprise
 
@@ -56,28 +56,28 @@ asynccharareaction,chara_1,shake,0.5,STOP
 asyncseplay,setag1_2,se4800009,0,1,CONT
 
 asynccharaemo,chara_1,Question,STOP
-message,シルヴィア,<size=32>A brothel... an entertainment venue...?<br> ,,vc_10260100011_002_01
+message,シルヴィア,<size=28>A brothel... an entertainment venue...?<br> ,,vc_10260100011_002_01
 
-message,<user>,<size=32>Are you interested?<br> 
+message,<user>,<size=28>Are you interested?<br> 
 
 charaface,chara_1,FaceFun
 
 asynccharareaction,chara_1,Nod,0.5,STOP
 
 asynccharaface,chara_1,FaceHappy,STOP,5.5
-message,シルヴィア,<size=32>I saw some artwork I had my eye on being carried into this building.     <br><size=32>That's why I was curious.<br> ,,vc_10260100011_003_01
+message,シルヴィア,<size=28>I saw some artwork I had my eye on being carried into this building.<br><size=28>That's why I was curious.<br> ,,vc_10260100011_003_01
 
 charaface,chara_1,FaceFun
 
 asyncseplay,setag1_3,se4800022,0,1,CONT
 
 asynccharaemo,chara_1,Speak,STOP
-message,シルヴィア,<size=32>And sometimes， I can see people wearing lovely dresses through those     <br><size=32>windows...<br> ,,vc_10260100011_004_01
+message,シルヴィア,<size=28>And sometimes，I can see people wearing lovely dresses through those <br><size=28>windows...<br> ,,vc_10260100011_004_01
 
 asynccharashow,chara_3,0.3,CONT
 charamove,chara_3,LinearTarget,X,400,0.3
 
-message,ルディア,<size=32>If you're interested， would you like to try a trial shift?<br> ,,vc_10260100011_005_01
+message,ルディア,<size=28>If you're interested，would you like to try a trial shift?<br> ,,vc_10260100011_005_01
 
 charaface,chara_1,FaceSurprise
 
@@ -91,9 +91,9 @@ asynccharamove,chara_1,LinearTarget,X,-400,0.3,STOP
 
 asynccharaface,chara_1,FaceUnique02,STOP,2
 
-message,シルヴィア,<size=32>Eek!?                                                                    <br><size=32>Y-you startled me...<br> ,,vc_10260100011_006_01
+message,シルヴィア,<size=28>Eek!?                                                               <br><size=28>Y-you startled me...<br> ,,vc_10260100011_006_01
 
-message,<user>,<size=32>Don't just appear out of nowhere， Ludia... You startled me too.<br> 
+message,<user>,<size=28>Don't just appear out of nowhere，Ludia... You startled me too.<br> 
 
 charaface,chara_3,FaceHappy
 
@@ -102,7 +102,7 @@ asyncseplay,setag1_5,se4800004,0,1,CONT
 asynccharareaction,chara_3,Nod,1,STOP
 asynccharaemo,chara_3,Laugh,STOP
 
-message,ルディア,<size=32>Ufufu， cute girls are always welcome at our brothel.<br> ,,vc_10260100011_007_01
+message,ルディア,<size=28>Ufufu，cute girls are always welcome at our brothel.<br> ,,vc_10260100011_007_01
 
 charaface,chara_1,FaceShy
 
@@ -110,7 +110,7 @@ asyncseplay,setag1_6,se4800012,0,1,CONT
 
 asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
-message,シルヴィア,<size=32>C-cute...?                                                               <br><size=32>You mean... me...?<br> ,,vc_10260100011_008_01
+message,シルヴィア,<size=28>C-cute...?                                                          <br><size=28>You mean... me...?<br> ,,vc_10260100011_008_01
 
 charaface,chara_3,FaceFun
 
@@ -122,7 +122,7 @@ asynccharareaction,chara_3,Nod,0.5,STOP
 
 asynccharaface,chara_3,EyeOpen,STOP,3
 asynccharaface,chara_3,FaceNormal,STOP,3
-message,ルディア,<size=32>Yes. And you can try on as many lovely outfits as you like.              <br><size=32>Why not just try some on for starters?<br> ,,vc_10260100011_009_01
+message,ルディア,<size=28>Yes. And you can try on as many lovely outfits as you like.         <br><size=28>Why not just try some on for starters?<br> ,,vc_10260100011_009_01
 
 charafocuson,chara_1
 
@@ -133,11 +133,11 @@ charaemo,chara_1,Silence
 charaface,chara_1,FaceUnique01
 
 asynccharareaction,chara_1,Nod,0.5,CONT
-message,シルヴィア,<size=32>...I suppose so.                                                         <br><size=32>If it's just trying them on...<br> ,,vc_10260100011_010_01
+message,シルヴィア,<size=28>...I suppose so.                                                    <br><size=28>If it's just trying them on...<br> ,,vc_10260100011_010_01
 
 asyncskipwait
 
-message,,<size=32>She's not exactly being tricked by Ludia...                              <br><size=32>but will it really end at just trying on clothes...?<br> 
+message,,<size=28>She's not exactly being tricked by Ludia...                         <br><size=28>but will it really end at just trying on clothes...?<br> 
 
 window,off
 wait,0.15
@@ -185,30 +185,30 @@ fade,In,White,1
 charaface,chara_2,FaceUnique02
 
 window,on,0.15
-message,シルヴィア<娼館>,<size=32>Th-this outfit... It's quite lovely and cute， but...                     <br><size=32>Don't you think it shows a bit too much skin...?<br> ,,vc_10260100011_011_01
+message,シルヴィア<娼館>,<size=28>Th-this outfit... It's quite lovely and cute，but...                 <br><size=28>Don't you think it shows a bit too much skin...?<br> ,,vc_10260100011_011_01
 
 charafocuson,chara_2
 
 
 
-message,ルディア,<size=32>Well， of course — these outfits are designed to show off your body to the<br><size=32>customers.<br> ,,vc_10260100011_012_01,chara_2
+message,ルディア,<size=28>Well，of course — these outfits are designed to show off your body to<br><size=28>the customers.<br> ,,vc_10260100011_012_01,chara_2
 
 charaface,chara_2,FaceSurprise
-message,シルヴィア<娼館>,<size=32>Show my body... to customers...?                                         <br><size=32>Wh-what do you mean...?<br> ,,vc_10260100011_013_01
+message,シルヴィア<娼館>,<size=28>Show my body... to customers...?                                    <br><size=28>Wh-what do you mean...?<br> ,,vc_10260100011_013_01
 
 charafocuson,chara_2
 
 
 
-message,ルディア,<size=32>Hmm... Rather than explaining with words， why not experience it          <br><size=32>firsthand? The Commander happens to be right here.<br> ,,vc_10260100011_014_01,chara_2
+message,ルディア,<size=28>Hmm... Rather than explaining with words，why not experience it      <br><size=28>firsthand? The Commander happens to be right here.<br> ,,vc_10260100011_014_01,chara_2
 
 charaface,chara_2,FaceShy
-message,シルヴィア<娼館>,<size=32>Dear brother...?<br> ,,vc_10260100011_015_01
+message,シルヴィア<娼館>,<size=28>Dear brother...?<br> ,,vc_10260100011_015_01
 
 charafocuson,chara_2
 
 
-message,<user>,<size=32>I knew it would come to this... Ludia， you schemer...<br> ,,,chara_2
+message,<user>,<size=28>I knew it would come to this... Ludia，you schemer...<br> ,,,chara_2
 
 window,off
 wait,0.15
@@ -240,7 +240,7 @@ asynccharaemo,chara_3,Spirits,STOP,3.5
 
 asynccharaface,chara_3,FaceUnique03,STOP,3.5
 window,on,0.15
-message,ルディア,<size=32>Oh， don't say such things.                                               <br><size=32>I'm only thinking of what's best for Sylvia.<br> ,,vc_10260100011_016_01
+message,ルディア,<size=28>Oh，don't say such things.                                           <br><size=28>I'm only thinking of what's best for Sylvia.<br> ,,vc_10260100011_016_01
 
 asyncskipwait
 
@@ -249,9 +249,9 @@ charaface,chara_3,FaceFun
 charapose,chara_3,2
 
 asyncshake,CHARA,chara_3,20,0,0.5,1,off,off,0,off,STOP
-message,ルディア,<size=32>Sylvia might end up working at the brothel someday.                      <br><size=32>In that case， the Commander is the perfect partner for her trial， right?<br> ,,vc_10260100011_017_01
+message,ルディア,<size=28>Sylvia might end up working at the brothel someday. In that case，the<br><size=28>Commander is the perfect partner for her trial，right?<br> ,,vc_10260100011_017_01
 
-message,<user>,<size=32>*Sigh*... Good grief... What do you say， Sylvia?                         <br><size=32>Want to try out the brothel's work?<br> 
+message,<user>,<size=28>*Sigh*... Good grief... What do you say，Sylvia?                     <br><size=28>Want to try out the brothel's work?<br> 
 
 charaface,chara_2,FaceSad
 
@@ -268,7 +268,7 @@ asyncseplay,setag1_10,se4800007,0,1,CONT
 asynccharaemo,chara_1,Panic,STOP
 
 asynccharaface,chara_2,FaceHappy,STOP,6
-message,シルヴィア<娼館>,<size=32>W-well， of course. I don't quite understand what it involves... but if   <br><size=32>you'll be my partner， dear brother.<br> ,,vc_10260100011_018_01
+message,シルヴィア<娼館>,<size=28>W-well，of course. I don't quite understand what it involves... but  <br><size=28>if you'll be my partner，dear brother.<br> ,,vc_10260100011_018_01
 
 
 labeljump,b

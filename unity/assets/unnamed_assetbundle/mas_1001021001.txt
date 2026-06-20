@@ -63,11 +63,11 @@ asyncwait,subimage_0_1
 asyncwait,subimage_0_2
 
 
-messageTextUnder,,<size=32>The climate around the frontline base had already calmed down，but        <br><size=32>flooding had broken out because the ice that had covered the base all melted at once.<br> ,,,on
+messageTextUnder,,<size=28>The climate had calmed around the forward base，                     <br><size=28>but the ice melting all at once caused flooding.<br> ,,,on
 
-messageTextUnder,,<size=32>As a result，various flood-related damages occurred in the area，and beyond<br><size=32>just cleaning up the aftermath，there was also the work of repairing the base's walls and facilities destroyed in the Calamity battle.<br> ,,,on
+messageTextUnder,,<size=28>Flood damage struck the area，and on top of cleanup，                 <br><size=28>the walls and facilities wrecked in the battle needed repair.<br> ,,,on
 
-messageTextUnder,,<size=32>For these reasons，the base's members had no time to spare celebrating the<br><size=32>joy of repelling the Calamity.<br> ,,,on
+messageTextUnder,,<size=28>And so the base members had no time                                 <br><size=28>to celebrate repelling the Calamity.<br> ,,,on
 
 window,off
 wait,0.15
@@ -108,7 +108,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>Incredible……!                                                            <br><size=32>The wall repairs have already come this far!<br> ,106501000G,mcv_1001021001_001_01,chara_1
+message,ソフィア,<size=28>Incredible……!                                                       <br><size=28>The wall repairs have already come this far!<br> ,106501000G,mcv_1001021001_001_01,chara_1
 
 window,off
 wait,0.15
@@ -153,7 +153,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,？？？,<size=32>Sophia!                                                                  <br><size=32>It's been a while!<br> ,300601000,mcv_1001021001_002_01,chara_2
+message,？？？,<size=28>Sophia!                                                             <br><size=28>It's been a while!<br> ,300601000,mcv_1001021001_002_01,chara_2
 
 window,off
 wait,0.15
@@ -210,7 +210,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>Huh!? R-……Lady Reyzeria!?                                                <br><size=32>When did you arrive at the frontline base!?<br> ,106501000G,mcv_1001021001_003_01,chara_1
+message,ソフィア,<size=28>Huh!? R-……Lady Reyzeria!?                                           <br><size=28>When did you arrive at the frontline base!?<br> ,106501000G,mcv_1001021001_003_01,chara_1
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -221,7 +221,7 @@ asyncseplay,setag1_4,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,レイゼリア,<size=32>I came in response to the Commander's request for aid.                   <br><size=32>I brought some of the Milesgard Royal Knights and engineers.<br> ,300601000,mcv_1001021001_004_01,chara_2
+message,レイゼリア,<size=28>I came in response to the Commander's request for aid.              <br><size=28>I brought some of the Milesgard Royal Knights and engineers.<br> ,300601000,mcv_1001021001_004_01,chara_2
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -230,7 +230,7 @@ asyncseplay,setag1_5,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ソフィア,<size=32>What!?                                                                   <br><size=32>Lady Reyzeria herself coming to this frontline base!?<br> ,106501000G,mcv_1001021001_005_01,chara_1
+message,ソフィア,<size=28>What!?                                                              <br><size=28>Lady Reyzeria herself coming to this frontline base!?<br> ,106501000G,mcv_1001021001_005_01,chara_1
 
 window,off
 wait,0.15
@@ -282,7 +282,7 @@ wait,0.5
 
 
 window,on,0.15
-message,レイゼリア,<size=32>Yes. I was one of the people who recommended                             <br><size=32>the Commander at the previous Three Nations conference.<br> ,300601000,mcv_1001021001_006_01,chara_2
+message,レイゼリア,<size=28>Yes. I was one of the people who recommended                        <br><size=28>the Commander at the previous Three Nations conference.<br> ,300601000,mcv_1001021001_006_01,chara_2
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -293,7 +293,7 @@ asyncseplay,setag1_7,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,レイゼリア,<size=32>Someone who has already repelled the Calamity three times—a strategist of<br><size=32>that caliber. I wanted to see for myself what kind of person they are.<br> ,300601000,mcv_1001021001_007_01,chara_2
+message,レイゼリア,<size=28>A strategist who repelled Calamities three times.                   <br><size=28>I wanted to see this person for myself.<br> ,300601000,mcv_1001021001_007_01,chara_2
 
 window,off
 wait,0.15
@@ -348,7 +348,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>You're going to meet the Commander!?<br> ,106501000G,mcv_1001021001_008_01,chara_1
+message,ソフィア,<size=28>You're going to meet the Commander!?<br> ,106501000G,mcv_1001021001_008_01,chara_1
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -359,7 +359,7 @@ asyncseplay,setag1_9,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,レイゼリア,<size=32>Hm? You already know the Commander well，don't you Sophia?                <br><size=32>What kind of person are they? Tell me.<br> ,300601000,mcv_1001021001_009_01,chara_2
+message,レイゼリア,<size=28>Hm? You already know the Commander well，don't you Sophia?           <br><size=28>What kind of person are they? Tell me.<br> ,300601000,mcv_1001021001_009_01,chara_2
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -368,7 +368,7 @@ asyncseplay,setag1_10,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ソフィア,<size=32>W-well……<br> ,106501000G,mcv_1001021001_010_01,chara_1
+message,ソフィア,<size=28>W-well……<br> ,106501000G,mcv_1001021001_010_01,chara_1
 
 window,off
 wait,0.15
@@ -417,7 +417,7 @@ asynccharaemo,chara_2,Question,CONT,0
 
 
 window,on,0.15
-message,レイゼリア,<size=32>Are they someone worth trusting?<br> ,300601000,mcv_1001021001_011_01,chara_2
+message,レイゼリア,<size=28>Are they someone worth trusting?<br> ,300601000,mcv_1001021001_011_01,chara_2
 
 window,off
 wait,0.15
@@ -462,7 +462,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ソフィア,<size=32>I…… um……<br> ,106501000G,mcv_1001021001_012_01,chara_1
+message,ソフィア,<size=28>I…… um……<br> ,106501000G,mcv_1001021001_012_01,chara_1
 
 window,off
 wait,0.15
@@ -489,7 +489,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ソフィア,<size=32>I…… trust them……<br> ,106501000G,mcv_1001021001_013_01,chara_1
+message,ソフィア,<size=28>I…… trust them……<br> ,106501000G,mcv_1001021001_013_01,chara_1
 
 window,off
 wait,0.15
@@ -528,7 +528,7 @@ asyncshake,CHARA,chara_6,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_7,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,<user>,<size=32>Heh-CHOO!!<br> 
+message,<user>,<size=28>Heh-CHOO!!<br> 
 
 window,off
 wait,0.15
@@ -565,9 +565,9 @@ asynccharaemo,chara_3,Shock,CONT,0
 
 
 window,on,0.15
-message,アリシア,<size=32>A-are you alright!?                                                      <br><size=32>You defeated the Calamity of the Glacier but you're catching a cold now?<br> ,300201000,mcv_1001021001_014_01,chara_3
+message,アリシア,<size=28>A-are you alright!? You defeated the Calamity of the Glacier but    <br><size=28>you're catching a cold now?<br> ,300201000,mcv_1001021001_014_01,chara_3
 
-message,<user>,<size=32>Nah…… someone's probably gossiping about me.<br> 
+message,<user>,<size=28>Nah…… someone's probably gossiping about me.<br> 
 
 asynccharaface,chara_3,FaceUnique01,CONT,0
 
@@ -578,9 +578,9 @@ asyncseplay,setag1_16,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,アリシア,<size=32>Haha! It must be good gossip!<br> ,300201000,mcv_1001021001_015_01,chara_3
+message,アリシア,<size=28>Haha! It must be good gossip!<br> ,300201000,mcv_1001021001_015_01,chara_3
 
-message,<user>,<size=32>Hmm，who knows~……<br> 
+message,<user>,<size=28>Hmm，who knows~……<br> 
 
 asynccharaface,chara_3,FaceUnique06,CONT,0
 
@@ -591,9 +591,9 @@ asyncseplay,setag1_17,se4800022,0,1,CONT,0
 asynccharaemo,chara_3,Speak,CONT,0
 
 
-message,アリシア,<size=32>But but，the Three Nations properly responded to your aid request!        <br><size=32>That's absolute proof that good gossip is spreading!<br> ,300201000,mcv_1001021001_016_01,chara_3
+message,アリシア,<size=28>But but，the Three Nations properly responded to your aid request!   <br><size=28>That's absolute proof that good gossip is spreading!<br> ,300201000,mcv_1001021001_016_01,chara_3
 
-message,<user>,<size=32>I wonder. As for that polite response to the aid request—                <br><size=32>it came the day after we defeated the Calamity.<br> 
+message,<user>,<size=28>I wonder. As for that polite response to the aid request—           <br><size=28>it came the day after we defeated the Calamity.<br> 
 
 window,off
 wait,0.15
@@ -612,7 +612,7 @@ wait,0.5
 
 
 window,on,0.15
-message,アリシア,<size=32>Well…… even so，it's a relief.<br> ,300201000,mcv_1001021001_017_01,chara_3
+message,アリシア,<size=28>Well…… even so，it's a relief.<br> ,300201000,mcv_1001021001_017_01,chara_3
 
 window,off
 wait,0.15
@@ -662,7 +662,7 @@ wait,0.5
 
 
 window,on,0.15
-message,アリシア,<size=32>The Milesgard engineers' restoration work                                <br><size=32>and the reinforcement from Perdion's mages with defensive magic.<br> ,300201000,mcv_1001021001_018_01,chara_3
+message,アリシア,<size=28>The Milesgard engineers' restoration work                           <br><size=28>and the reinforcement from Perdion's mages with defensive magic.<br> ,300201000,mcv_1001021001_018_01,chara_3
 
 asynccharaface,chara_3,EyeOpen,CONT,0
 asynccharaface,chara_3,FaceNormal,CONT,0
@@ -674,9 +674,9 @@ asyncseplay,setag1_20,se4800022,0,1,CONT,0
 asynccharaemo,chara_3,Speak,CONT,0
 
 
-message,アリシア,<size=32>And the food supply from Eldorana.                                       <br><size=32>Without all of that，who knows what would have happened.<br> ,300201000,mcv_1001021001_019_01,chara_3
+message,アリシア,<size=28>And the food supply from Eldorana.                                  <br><size=28>Without all of that，who knows what would have happened.<br> ,300201000,mcv_1001021001_019_01,chara_3
 
-message,<user>,<size=32>That may be true，but the ones I want to thank most                       <br><size=32>are the ones who fought that Calamity with me.<br> 
+message,<user>,<size=28>That may be true，but the ones I want to thank most                  <br><size=28>are the ones who fought that Calamity with me.<br> 
 
 window,off
 wait,0.15
@@ -709,7 +709,7 @@ asynctransitionCrossFade,Tra02,0.5,STOP
 waitorclick,1
 
 window,on,0.15
-message,,<size=32>Looking out the window，the Commander spotted Kulul                       <br><size=32>sunbathing on the command headquarters balcony.<br> 
+message,,<size=28>Looking out the window，the Commander spotted Kururu                 <br><size=28>sunbathing on the command headquarters balcony.<br> 
 
 
 window,off
@@ -734,7 +734,7 @@ asynctransitionFade,Tra02,in,black,1,STOP,1
 waitorclick,2.5
 
 window,on,0.15
-message,<user>,<size=32>Kulul，nice weather today.<br> 
+message,<user>,<size=28>Kururu，nice weather today.<br> 
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -745,9 +745,9 @@ asyncseplay,setag1_21,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,クルル,<size=32>Oh! Master!                                                              <br><size=32>Kulul thinks the warm sunny weather feels better too~.<br> ,106701000G,mcv_1001021001_020_01,chara_4
+message,クルル,<size=28>Oh! Master!                                                         <br><size=28>Kururu thinks the warm sunny weather feels better too~.<br> ,106701000G,mcv_1001021001_020_01,chara_4
 
-message,<user>,<size=32>This time，having you here let us push through that dangerous route，      <br><size=32>and it saved Marina's life. Thank you.<br> 
+message,<user>,<size=28>This time，having you here let us push through that dangerous route， <br><size=28>and it saved Marina's life. Thank you.<br> 
 
 asynccharaface,chara_4,FaceHappy,CONT,0
 
@@ -758,9 +758,9 @@ asyncseplay,setag1_22,se4800004,0,1,CONT,0
 asynccharaemo,chara_4,Laugh,CONT,0
 
 
-message,クルル,<size=32>No no，Kulul should be thanking you too!<br> ,106701000G,mcv_1001021001_021_01,chara_4
+message,クルル,<size=28>No no，Kururu should be thanking you too!<br> ,106701000G,mcv_1001021001_021_01,chara_4
 
-message,,<size=32>As the Commander bowed his head sincerely，Kulul thanked him in return.<br> 
+message,,<size=28>As the Commander bowed his head sincerely，Kururu thanked him in     <br><size=28>return.<br> 
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -771,7 +771,7 @@ asyncseplay,setag1_23,se4800003,0,1,CONT,0
 asynccharaemo,chara_4,Twinkle,CONT,0
 
 
-message,クルル,<size=32>Kulul has always been traveling alone for so long，                       <br><size=32>so getting to go on a great adventure together was wonderful~!<br> ,106701000G,mcv_1001021001_022_01,chara_4
+message,クルル,<size=28>Kururu has always been traveling alone for so long，                 <br><size=28>so getting to go on a great adventure together was wonderful~!<br> ,106701000G,mcv_1001021001_022_01,chara_4
 
 window,off
 wait,0.15
@@ -822,7 +822,7 @@ asyncseplay,setag1_25,se4400110,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,<size=32>At that moment，a window of the command headquarters opened and Alicia    <br><size=32>clapped her hands to get everyone's attention before cheerfully announcing:<br> 
+message,,<size=28>Just then，a headquarters window opened                              <br><size=28>and Alicia clapped her hands before announcing:<br> 
 
 asynccharaface,chara_3,FaceUnique01,CONT,0
 
@@ -833,7 +833,7 @@ asyncseplay,setag1_26,se4800013,0,1,CONT,0
 asynccharaemo,chara_3,Spirits,CONT,0
 
 
-message,アリシア,<size=32>Okay everyone，cleanup is done!                                           <br><size=32>We're throwing another victory party!<br> ,300201000,mcv_1001021001_023_01,chara_3
+message,アリシア,<size=28>Okay everyone，cleanup is done!                                      <br><size=28>We're throwing another victory party!<br> ,300201000,mcv_1001021001_023_01,chara_3
 
 window,off
 wait,0.15
@@ -884,7 +884,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>Oh! I've been waiting for this!<br> ,106501000G,mcv_1001021001_024_01,chara_1
+message,ソフィア,<size=28>Oh! I've been waiting for this!<br> ,106501000G,mcv_1001021001_024_01,chara_1
 
 asynccharaface,chara_5,FaceFun,CONT,0
 
@@ -895,7 +895,7 @@ asyncseplay,setag1_28,se4800003,0,1,CONT,0
 asynccharaemo,chara_5,Twinkle,CONT,0
 
 
-message,ベリサ,<size=32>Yayyyyy~~~!                                                              <br><size=32>Party! Party!<br> ,100201000G,mcv_1001021001_025_01,chara_5
+message,ベリサ,<size=28>Yayyyyy~~~!                                                         <br><size=28>Party! Party!<br> ,100201000G,mcv_1001021001_025_01,chara_5
 
 asynccharaface,chara_6,FaceFun,CONT,0
 
@@ -906,11 +906,11 @@ asyncseplay,setag1_29,se4800013,0,1,CONT,0
 asynccharaemo,chara_6,Spirits,CONT,0
 
 
-message,マリナ,<size=32>Ufufu♡ This time I'll finally get to eat Alicia's home cooking           <br><size=32>at my leisure~♡<br> ,100301000G,mcv_1001021001_026_01,chara_6
+message,マリナ,<size=28>Ufufu♡ This time I'll finally get to eat Alicia's home cooking      <br><size=28>at my leisure~♡<br> ,100301000G,mcv_1001021001_026_01,chara_6
 
-message,,<size=32>At Alicia's call，Sophia，Belisa，and Marina all rejoiced， and the usual    <br><size=32>bright，lively atmosphere swept through command headquarters.<br> 
+message,,<size=28>At Alicia's call，Sophia，Belisa，and Marina rejoiced，                 <br><size=28>and the usual lively mood swept through headquarters.<br> 
 
-message,,<size=32>Watching this，the Commander savored the relief that a great crisis had   <br><size=32>passed.<br> 
+message,,<size=28>Watching them，the Commander savored the joy                         <br><size=28>that a great crisis had passed.<br> 
 
 window,off
 wait,0.15
@@ -926,7 +926,7 @@ asynccrossfade,0.1,0,0,1,1,STOP
 
 
 window,on,0.15
-message,<user>,<size=32>(――Right. The ones I want to thank most are you—                         <br><size=32>you who believed in me and fought by my side.)<br> 
+message,<user>,<size=28>(――Right. The ones I want to thank most are you——                   <br><size=28>you who believed in me and fought by my side.)<br> 
 
 window,off
 wait,0.15
@@ -978,7 +978,7 @@ asyncseplay,setag1_30,se4800017,0,1,CONT,0
 asynccharaemo,chara_4,Shock,CONT,0
 
 window,on,0.15
-message,,<size=32>Seeing that expression，Kulul said with slight surprise:<br> 
+message,,<size=28>Seeing that expression，Kururu said with slight surprise:<br> 
 
 asynccharaface,chara_4,FaceHappy,CONT,0
 
@@ -989,7 +989,7 @@ asyncseplay,setag1_31,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,クルル,<size=32>Master，you can make a gentle face like that too~.<br> ,106701000G,mcv_1001021001_027_01,chara_4
+message,クルル,<size=28>Master，you can make a gentle face like that too~.<br> ,106701000G,mcv_1001021001_027_01,chara_4
 
 window,off
 wait,0.15
@@ -1012,7 +1012,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,,<size=32>Smiling at that，as if shaking off his feelings，                          <br><size=32>he sprang to his feet with a decisive 'Alright!'<br> 
+message,,<size=28>Smiling at that，as if shaking off his feelings，                     <br><size=28>he sprang to his feet with a decisive ""Alright!""<br> 
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -1023,7 +1023,7 @@ asyncseplay,setag1_32,se4800004,0,1,CONT,0
 asynccharaemo,chara_4,Laugh,CONT,0
 
 
-message,クルル,<size=32>Well then~，Kulul will be off!                                            <br><size=32>It was a short time but it was so much fun~!<br> ,106701000G,mcv_1001021001_028_01,chara_4
+message,クルル,<size=28>Well then~，Kururu will be off!                                      <br><size=28>It was a short time but it was so much fun~!<br> ,106701000G,mcv_1001021001_028_01,chara_4
 
 window,off
 wait,0.15
@@ -1075,7 +1075,7 @@ asyncseplay,setag1_34,se4800017,0,1,CONT,0
 asynccharaemo,chara_4,Shock,CONT,0
 
 window,on,0.15
-message,,<size=32>Saying that，as Kulul started to leave，                                   <br><size=32>the Commander caught her by the wrist.<br> 
+message,,<size=28>Saying that，as Kururu started to leave，                             <br><size=28>the Commander caught her by the wrist.<br> 
 
 window,off
 wait,0.15
@@ -1085,7 +1085,7 @@ charafocusonall
 bgmstop,bgmtag1_2,1.5,0
 
 window,on,0.15
-message,<user>,<size=32>Where are you going?                                                     <br><size=32>The party is that way.<br> 
+message,<user>,<size=28>Where are you going?                                                <br><size=28>The party is that way.<br> 
 
 asynccharaface,chara_4,FaceSad,CONT,0
 
@@ -1096,9 +1096,9 @@ asyncseplay,setag1_35,se4800008,0,1,CONT,0
 asynccharaemo,chara_4,Sweat,CONT,0
 
 
-message,クルル,<size=32>But but，                                                                 <br><size=32>Kulul still has to go look for papa and mama……<br> ,106701000G,mcv_1001021001_029_01,chara_4
+message,クルル,<size=28>But but，                                                            <br><size=28>Kururu still has to go look for papa and mama……<br> ,106701000G,mcv_1001021001_029_01,chara_4
 
-message,<user>,<size=32>Right. You're going into the Abyss to look for them，aren't you? For      <br><size=32>Kulul's papa and mama. So we'll go together，Kulul.<br> 
+message,<user>,<size=28>Right. You're heading into the Abyss to find them，                  <br><size=28>Kururu's papa and mama. So let's go together.<br> 
 
 asynccharaface,chara_4,FaceSurprise,CONT,0
 
@@ -1109,9 +1109,9 @@ asyncseplay,setag1_36,se4800009,0,1,CONT,0
 asynccharaemo,chara_4,Question,CONT,0
 
 
-message,クルル,<size=32>Huh? What do you mean?<br> ,106701000G,mcv_1001021001_030_01,chara_4
+message,クルル,<size=28>Huh? What do you mean?<br> ,106701000G,mcv_1001021001_030_01,chara_4
 
-message,<user>,<size=32>And since we share the common goal of exploring the Abyss，               <br><size=32>it's more efficient to travel together.<br> 
+message,<user>,<size=28>And since we share the common goal of exploring the Abyss，          <br><size=28>it's more efficient to travel together.<br> 
 
 asyncshake,CHARA,chara_4,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1130,7 +1130,7 @@ charafocusonall
 bgmplay,bgmtag1_3,bgm0042,0.75,1
 
 window,on,0.15
-message,<user>,<size=32>We'll help you search too.                                               <br><size=32>For Kulul's papa and mama.<br> 
+message,<user>,<size=28>We'll help you search too.                                          <br><size=28>For Kururu's papa and mama.<br> 
 
 asynccharaface,chara_4,FaceSad,CONT,0
 
@@ -1141,11 +1141,11 @@ asyncseplay,setag1_38,se4800007,0,1,CONT,0
 asynccharaemo,chara_4,Panic,CONT,0
 
 
-message,クルル,<size=32>Ehhhh~~~!?                                                               <br><size=32>N-no，no，that's too much to ask~……<br> ,106701000G,mcv_1001021001_032_01,chara_4
+message,クルル,<size=28>Ehhhh~~~!?                                                          <br><size=28>N-no，no，that's too much to ask~……<br> ,106701000G,mcv_1001021001_032_01,chara_4
 
-message,<user>,<size=32>What are you talking about?                                              <br><size=32>We're already……<br> 
+message,<user>,<size=28>What are you talking about?                                         <br><size=28>We're already……<br> 
 
-message,<user>,<size=32>'Companions'……aren't we.<br> 
+message,<user>,<size=28>'Companions'……aren't we.<br> 
 
 window,off
 wait,0.15
@@ -1163,7 +1163,7 @@ asynccharaemo,chara_4,Shy,CONT,0
 asyncwait
 
 window,on,0.15
-message,,<size=32>Hearing those words，Kulul's eyes went wide.<br> 
+message,,<size=28>Hearing those words，Kururu's eyes went wide.<br> 
 
 window,off
 wait,0.15
@@ -1186,7 +1186,7 @@ asynccharaemo,chara_4,Twinkle,CONT,0
 
 
 window,on,0.15
-message,クルル,<size=32>Kyahoo~! Yay yay~!                                                       <br><size=32>We're all together~! We're companions~!!<br> ,106701000G,mcv_1001021001_033_01,chara_4
+message,クルル,<size=28>Kyahoo~! Yay yay~!                                                  <br><size=28>We're all together~! We're companions~!!<br> ,106701000G,mcv_1001021001_033_01,chara_4
 
 window,off
 wait,0.15
@@ -1225,7 +1225,7 @@ asyncshake,CHARA,chara_6,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_7,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,<user>,<size=32>H-hey…… don't hug me.                                                    <br><size=32>It's warm! It's warm!<br> 
+message,<user>,<size=28>H-hey…… don't hug me.                                               <br><size=28>It's warm! It's warm!<br> 
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -1236,7 +1236,7 @@ asyncseplay,setag1_41,se4800004,0,1,CONT,0
 asynccharaemo,chara_4,Laugh,CONT,0
 
 
-message,クルル,<size=32>But a little while ago you were saying you were cold cold cold~!<br> ,106701000G,mcv_1001021001_034_01,chara_4
+message,クルル,<size=28>But a little while ago you were saying you were cold cold cold~!<br> ,106701000G,mcv_1001021001_034_01,chara_4
 
 window,off
 wait,0.15
@@ -1274,7 +1274,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,,<size=32>Squabbling all the way，the Commander and Kulul                           <br><size=32>headed off to the party.<br> 
+message,,<size=28>Squabbling all the way，the Commander and Kururu                     <br><size=28>headed off to the party.<br> 
 
 
 window,off
@@ -1361,7 +1361,7 @@ wait,0.5
 
 
 window,on,0.15
-message,？？？,<size=32>Unbelievable……<br> ,900000001,mcv_1001021001_035_01,chara_7
+message,？？？,<size=28>Unbelievable……<br> ,900000001,mcv_1001021001_035_01,chara_7
 
 asynccharaface,chara_7,FaceFun,CONT,0
 
@@ -1372,7 +1372,7 @@ asyncseplay,setag1_44,se4800004,0,1,CONT,0
 asynccharaemo,chara_7,Laugh,CONT,0
 
 
-message,？？？,<size=32>Unbelievable that 'that child' could be defeated so easily.<br> ,900000001,mcv_1001021001_036_01,chara_7
+message,？？？,<size=28>Unbelievable that 'that child' could be defeated so easily.<br> ,900000001,mcv_1001021001_036_01,chara_7
 
 asynccharaface,chara_7,FaceHappy,CONT,0
 
@@ -1383,7 +1383,7 @@ asyncseplay,setag1_45,se4800003,0,1,CONT,0
 asynccharaemo,chara_7,Twinkle,CONT,0
 
 
-message,？？？,<size=32>After fighting through repeated battles with the Calamity，the hesitation <br><size=32>has disappeared. That composure and precise judgment…… quite impressive.<br> ,900000001,mcv_1001021001_037_01,chara_7
+message,？？？,<size=28>After surviving so many battles with Calamities，                    <br><size=28>the hesitation is gone. Such composure... impressive.<br> ,900000001,mcv_1001021001_037_01,chara_7
 
 asynccharaface,chara_7,FaceFun,CONT,0
 
@@ -1394,7 +1394,7 @@ asyncseplay,setag1_46,se4800013,0,1,CONT,0
 asynccharaemo,chara_7,Spirits,CONT,0
 
 
-message,？？？,<size=32>Nfufu…… I look forward to what comes next more and more.<br> ,900000001,mcv_1001021001_038_01,chara_7
+message,？？？,<size=28>Nfufu…… I look forward to what comes next more and more.<br> ,900000001,mcv_1001021001_038_01,chara_7
 
 window,off
 bgmstop,bgmtag1_4,0.5

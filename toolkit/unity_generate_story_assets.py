@@ -20,8 +20,10 @@ import sys
 sys.path.insert(0, os.path.dirname(__file__))
 import common
 
-MESSAGE_FONT_SIZE = 32
-MESSAGE_CHARS_PER_LINE = 73
+MESSAGE_FONT_SIZE = 28
+MESSAGE_CHARS_PER_LINE = 68
+
+DOTMESSAGE_FONT_SIZE = 24
 
 # messageTextCenter is intentionally excluded — translated as plain text.
 MESSAGE_COMMANDS = frozenset({
@@ -117,7 +119,10 @@ def apply_translation_unity(text, scene_records):
                 else:
                     replacement = body.get((line_no, field_idx), "")
                     if replacement:
-                        if cmd in MESSAGE_COMMANDS:
+                        if cmd == "dotmessage":
+                            parts[field_idx] = format_dotmessage_text(replacement)
+                        elif cmd in MESSAGE_COMMANDS:
+
                             parts[field_idx] = format_message_text(replacement)
                         else:
                             parts[field_idx] = common._comma_safe(replacement)
@@ -149,6 +154,14 @@ def _expand_shakeall(parts, loaded_charas):
     for slot in loaded_charas:
         lines.append(f"shake,CHARA,{slot},{xAmp},0,{dur},{freq},{decay},off,0")
     return lines
+
+
+def format_dotmessage_text(en):
+    """Size-tag a dotmessage text field without adding line breaks."""
+    en_safe = common._comma_safe(en).replace('"', '""')
+    if re.search(r'<size=', en_safe, re.IGNORECASE):
+        return en_safe
+    return f"<size={DOTMESSAGE_FONT_SIZE}>{en_safe}"
 
 
 def format_message_text(en):

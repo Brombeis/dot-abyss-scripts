@@ -121,13 +121,13 @@ dotmessage,？？？,…………,,mcv_1001050903_001_01,NORMAL_B,Mid,NORMAL,cha
 asyncseplay,se4800001_,se4800001,0,1,CONT,0
 objectemo,Goleinu,Anger
 
-dotmessage,ゴレイヌ,<size=32>What would a half-brained fool                                           <br><size=32>like you know!?<br> ,,mcv_1001050903_002_01,NORMAL,Mid,NORMAL,Goleinu,TOP,NORMAL,0,85
+dotmessage,ゴレイヌ,<size=24>What would a half-brained fool<br>like you know!?,,mcv_1001050903_002_01,NORMAL,Mid,NORMAL,Goleinu,TOP,NORMAL,0,85
 
 //エモ　焦り
 asyncseplay,se4800007_,se4800007,0,1,CONT,0
 objectemo,Logy,Panic
 objectmotion,Logy,N_surprised,1,1,,1
-dotmessage,ロジー,<size=32>Assistant...!<br> ,,mcv_1001050903_003_01,NORMAL,Mid,Surprise,Logy,TOP,NORMAL,0,0
+dotmessage,ロジー,<size=24>assistant-kun...!,,mcv_1001050903_003_01,NORMAL,Mid,Surprise,Logy,TOP,NORMAL,0,0
 objectmotion,Logy,C_Wait,0,1,,1
 
 //objectmotion,chara_10,N_No,1,1,C_Wait,1
@@ -143,7 +143,7 @@ objectmotion,Logy,C_Wait,0,1,,1
 //エモ　モヤモヤ
 asyncseplay,se4800006_,se4800006,0,1,CONT,0
 objectemo,chara_10,Trouble
-dotmessage,？？？,<size=32>Annoying iron scrap...<br> ,,mcv_1001050903_006_01,NORMAL_B,Mid,NORMAL,chara_10,TOP,NORMAL,0,80
+dotmessage,？？？,<size=24>Annoying iron scrap...,,mcv_1001050903_006_01,NORMAL_B,Mid,NORMAL,chara_10,TOP,NORMAL,0,80
 
 
 objectmotion,chara_10,U_WeaponAttack,1,1,None,0
@@ -167,7 +167,7 @@ asyncobjectmotion,chara_1,N_surprised,1,1,None,1,CONT,0
 asyncobjectmotion,Sophia,N_surprised,1,1,None,1,CONT,0
 asyncwait
 
-dotmessage,ゴレイヌ,<size=32>Gwah!?<br> ,,mcv_1001050903_007_01,NORMAL,Mid,Surprise,Goleinu,TOP,SHAKE,0,85
+dotmessage,ゴレイヌ,<size=24>Gwah!?,,mcv_1001050903_007_01,NORMAL,Mid,Surprise,Goleinu,TOP,SHAKE,0,85
 
 objectmotion,chara_10,C_WeaponWait,0,1,None,0
 objectmotion,chara_1,C_Wait,0,1,None,0
@@ -181,7 +181,7 @@ asyncdotmove,Logy,0.25,-0.5,0,0,Linear,CONT,0
 asyncwait
 objectmotion,Logy,N_sorrow,1,1,None,0
 
-dotmessage,ロジー,<size=32>Assistant!?<br> ,,mcv_1001050903_008_01,NORMAL,Mid,Surprise,Logy,TOP,SHAKE,0,80
+dotmessage,ロジー,<size=24>assistant-kun!?,,mcv_1001050903_008_01,NORMAL,Mid,Surprise,Logy,TOP,SHAKE,0,80
 objectmotion,Logy,C_Wait,0,1,None,1
 
 objectdirect,Logy,RIGHT
@@ -190,10 +190,10 @@ asyncobjectmotion,Goleinu,C_Walk,0,1,None,1,CONT,0
 asyncdotmove,Goleinu,1,2.5,0,0,Linear,CONT,0
 asyncwait
 objectmotion,Goleinu,N_Pointing,1,1,,1
-dotmessage,ゴレイヌ,<size=32>Heh... you've got some pretty                                            <br><size=32>nice stuff there...<br> ,,mcv_1001050903_009_01,NORMAL,Mid,NORMAL,Goleinu,TOP,NORMAL,0,85
+dotmessage,ゴレイヌ,<size=24>Heh... you've got some pretty<br>nice stuff there...,,mcv_1001050903_009_01,NORMAL,Mid,NORMAL,Goleinu,TOP,NORMAL,0,85
 objectmotion,Goleinu,C_WeaponWait,0,1,,1
 
-dotmessage,ゴレイヌ,<size=32>Truth is， when this war ends，                                            <br><size=32>I'm gonna propose...<br> ,,mcv_1001050903_010_01,NORMAL,Mid,NORMAL,Goleinu,TOP,NORMAL,0,85
+dotmessage,ゴレイヌ,<size=24>Truth is，when this war ends，<br>I'm gonna propose...,,mcv_1001050903_010_01,NORMAL,Mid,NORMAL,Goleinu,TOP,NORMAL,0,85
 
 objectmotion,Goleinu,N_embarrassing,0,1,None,1
 
@@ -202,21 +202,21 @@ asyncseplay,se4800012_,se4800012,0,1,CONT,0
 objectemo,Goleinu,Shy
 objectdirect,Goleinu,LEFT
 
-dotmessage,ゴレイヌ,<size=32>And the one I'll propose to...                                           <br><size=32>is Professor Logy...<br> ,,mcv_1001050903_011_01,NORMAL,Mid,NORMAL,Goleinu,TOP,NORMAL,0,85
+dotmessage,ゴレイヌ,<size=24>And the one I'll propose to...<br>is Professor Logy...,,mcv_1001050903_011_01,NORMAL,Mid,NORMAL,Goleinu,TOP,NORMAL,0,85
 
 //エモ　Σ
 asyncseplay,se4800017_,se4800017,0,1,CONT,0
 objectemo,Logy,Shock
 objectmotion,Logy,N_talk,0,1,None,1
 
-dotmessage,ロジー,<size=32>You idiot!                                                               <br><size=32>You're raising your own death flag--!!<br> ,,mcv_1001050903_012_01,NORMAL,Mid,Surprise,Logy,TOP,SHAKE,50,80
+dotmessage,ロジー,<size=24>You idiot!<br>You're raising your own death flag——!!,,mcv_1001050903_012_01,NORMAL,Mid,Surprise,Logy,TOP,SHAKE,50,80
 asyncobjectmotion,Logy,C_Walk,0,1,None,1,CONT,0
 
 asyncdotmove,Logy,0.5,0.5,0,0,Linear,CONT,0
 asyncwait
 asyncobjectmotion,Logy,C_Wait,0,1,None,1,CONT,0
 objectmotion,Logy,N_Pointing,1,1,,1
-dotmessage,ロジー,<size=32>Seriously though， don't push it!                                         <br><size=32>Your parts are flying off!<br> ,,mcv_1001050903_013_01,NORMAL,Mid,NORMAL,Logy,TOP,NORMAL,0,80
+dotmessage,ロジー,<size=24>Seriously though，don't push it!<br>Your parts are flying off!,,mcv_1001050903_013_01,NORMAL,Mid,NORMAL,Logy,TOP,NORMAL,0,80
 objectmotion,Logy,C_Wait,0,1,,1
 
 objectmotion,Logy,C_Wait,0,1,,1
@@ -234,9 +234,9 @@ asyncseplay,se4800016_2,se4800016,0,1,CONT,0
 objectemo,Goleinu,BePeevish
 objectmotion,Goleinu,N_Pointing,1,1,,1
 
-dotmessage,ゴレイヌ,<size=32>...A hit for a hit!                                                      <br><size=32>Don't you dare complain<br> ,,mcv_1001050903_014_01,NORMAL,Mid,NORMAL,Goleinu,TOP,NORMAL,0,85
+dotmessage,ゴレイヌ,<size=24>...A hit for a hit!<br>Don't you dare complain,,mcv_1001050903_014_01,NORMAL,Mid,NORMAL,Goleinu,TOP,NORMAL,0,85
 
-dotmessage,ゴレイヌ,<size=32>when I hit back!                                                         <br><size=32>ORAAAAAAAA!!!!<br> ,,mcv_1001050903_015_01,NORMAL,Mid,Anger,Goleinu,TOP,SHAKE,0,85
+dotmessage,ゴレイヌ,<size=24>when I hit back!<br>ORAAAAAAAA!!!!,,mcv_1001050903_015_01,NORMAL,Mid,Anger,Goleinu,TOP,SHAKE,0,85
 
 
 objectdirect,Logy,RIGHT
@@ -270,7 +270,7 @@ asyncobjectmotion,Goleinu,N_surprised,1,1,None,1,CONT,0
 asyncseplay,se4800011_,se4800011,0,1,CONT,0
 objectemo,Goleinu,ExclaQues
 objectdirect,Goleinu,LEFT
-dotmessage,ゴレイヌ,<size=32>What!?                                                                   <br><size=32>He dodged my full-power strike!?<br> ,,mcv_1001050903_016_01,NORMAL,Mid,Surprise,Goleinu,TOP,SHAKE,0,85
+dotmessage,ゴレイヌ,<size=24>What!?<br>He dodged my full-power strike!?,,mcv_1001050903_016_01,NORMAL,Mid,Surprise,Goleinu,TOP,SHAKE,0,85
 
 //エフェクト削除
 dotprefabdelete,Eff_DodgeFire000
@@ -283,7 +283,7 @@ objectmotion,Logy,N_scared,0,1,None,1
 objectmotion,chara_1,N_scared,0,1,None,1
 objectmotion,Sophia,N_scared,0,1,None,1
 
-dotmessage,ロジー,<size=32>This is bad!                                                             <br><size=32>Assistant!<br> ,,mcv_1001050903_017_01,NORMAL,Mid,Sad,Logy,TOP,SHAKE,0,0
+dotmessage,ロジー,<size=24>This is bad!<br>assistant-kun!,,mcv_1001050903_017_01,NORMAL,Mid,Sad,Logy,TOP,SHAKE,0,0
 
 //SE再生
 asyncseplayIngame,ba_battle_magic_fire_s3,battle_general,ba_battle_magic_fire_s,0,1,CONT,0
@@ -299,7 +299,7 @@ asyncdotprefabshow,Eff_DodgeFire0004,CONT,0
 objectshow,chara_10,0
 asyncwait
 
-dotmessage,？？？,<size=32>Slowpoke.                                                                <br><size=32>This should be more than enough for you.<br> ,,mcv_1001050903_018_01,NORMAL_B,Mid,NORMAL,chara_10,TOP,NORMAL,0,80
+dotmessage,？？？,<size=24>Slowpoke.<br>This should be more than enough for you.,,mcv_1001050903_018_01,NORMAL_B,Mid,NORMAL,chara_10,TOP,NORMAL,0,80
 
 objectdirect,Goleinu,RIGHT
 
@@ -334,7 +334,7 @@ asyncobjectmotion,Goleinu,N_surprised,1,1,None,1,CONT,0
 asyncdotmove,Goleinu,0.5,0.5,0,0,LinearTarget,CONT,0
 asyncwait
 
-dotmessage,ゴレイヌ,<size=32>ABABABABABABABA!!!!<br> ,,mcv_1001050903_019_01,NORMAL,Mid,NORMAL,Goleinu,TOP,NORMAL,0,85
+dotmessage,ゴレイヌ,<size=24>ABABABABABABABA!!!!,,mcv_1001050903_019_01,NORMAL,Mid,NORMAL,Goleinu,TOP,NORMAL,0,85
 objectmotion,chara_10,C_WeaponWait,0,1,None,0
 
 //エモ　焦り
@@ -348,7 +348,7 @@ asyncseplay,se4900199_3,se4900199,0,1,CONT,0
 asyncdotprefabshow,ActionSkillStartPurple5,CONT,0
 wait,0.25
 
-dotmessage,ロジー,<size=32>Wait! At this rate，                                                      <br><size=32>Goleinu's memory circuits will...!<br> ,,mcv_1001050903_020_01,NORMAL,Mid,Sad,Logy,TOP,NORMAL,0,85
+dotmessage,ロジー,<size=24>Wait! At this rate，<br>Goleinu's memory circuits will...!,,mcv_1001050903_020_01,NORMAL,Mid,Sad,Logy,TOP,NORMAL,0,85
 objectmotion,Logy,C_Wait,0,1,,1
 
 objectdirect,Logy,RIGHT
@@ -360,7 +360,7 @@ objectmotion,Logy,N_Protect,1,1,None,0
 objectmotion,chara_1,C_Wait,0,1,None,1
 objectmotion,Sophia,C_WeaponWait,0,1,None,1
 
-dotmessage,ロジー,<size=32>Sto--...!<br> ,,mcv_1001050903_021_01,NORMAL,Mid,NORMAL,Logy,TOP,NORMAL,0,0
+dotmessage,ロジー,<size=24>Sto—...!,,mcv_1001050903_021_01,NORMAL,Mid,NORMAL,Logy,TOP,NORMAL,0,0
 
 //SE再生
 asyncseplay,se4900003_3,se4900003,0,1,CONT,0
@@ -379,14 +379,14 @@ asyncwait
 
 objectmotion,chara_10,C_WeaponWait,0,1,None,0
 
-dotmessage,ロジー,<size=32>UGAGAGAGAGAGA!!!<br> ,,mcv_1001050903_022_01,NORMAL,Mid,NORMAL,Logy,TOP,NORMAL,0,0
+dotmessage,ロジー,<size=24>UGAGAGAGAGAGA!!!,,mcv_1001050903_022_01,NORMAL,Mid,NORMAL,Logy,TOP,NORMAL,0,0
 
 asyncdotprefabdelete,ConditionParalysisEffect,CONT,0
 objectdirect,Goleinu,LEFT
 objectmotion,Goleinu,N_scared,1,1,,1
 //asyncdotprefabdelete,ConditionParalysisEffect2,CONT,0
 
-dotmessage,ゴレイヌ,<size=32>Professor!!                                                              <br><size=32>You shielded me...<br> ,,mcv_1001050903_023_01,NORMAL,Mid,Sad,Goleinu,TOP,NORMAL,0,85
+dotmessage,ゴレイヌ,<size=24>Professor!!<br>You shielded me...,,mcv_1001050903_023_01,NORMAL,Mid,Sad,Goleinu,TOP,NORMAL,0,85
 
 objectmotion,Goleinu,N_anger,0,1,,1
 
@@ -427,7 +427,7 @@ asyncseplay,se4800016_3,se4800016,0,1,CONT,0
 objectemo,Goleinu,BePeevish
 objectdirect,Goleinu,RIGHT
 
-dotmessage,ゴレイヌ,<size=32>Why you...!                                                              <br><size=32>The Professor means everything to me!<br> ,,mcv_1001050903_024_01,NORMAL,Mid,Anger,Goleinu,TOP,SHAKE,0,85
+dotmessage,ゴレイヌ,<size=24>Why you...!<br>The Professor means everything to me!,,mcv_1001050903_024_01,NORMAL,Mid,Anger,Goleinu,TOP,SHAKE,0,85
 
 //SE再生
 asyncseplay,se4900199_12,se4900199,0,1,CONT,0
@@ -441,7 +441,7 @@ asyncdotprefabshow,ActionSkillStartSilver2,CONT,0
 asyncdotcamerazoom,1.2,0.5,LinearTarget,CONT,0
 
 wait,0.5
-dotmessage,ゴレイヌ,<size=32>She's! My! Infinite!                                                     <br><size=32>ENERGYYYYYYY!<br> ,,mcv_1001050903_025_01,NORMAL,Mid,Anger,Goleinu,TOP,SHAKE,0,85
+dotmessage,ゴレイヌ,<size=24>She's! My! Infinite!<br>ENERGYYYYYYY!,,mcv_1001050903_025_01,NORMAL,Mid,Anger,Goleinu,TOP,SHAKE,0,85
 
 objectmotion,Goleinu,C_Run,0,1,,1,CONT,1
 asyncdotmove,Goleinu,0.25,2,0,0,LinearTarget
@@ -473,7 +473,7 @@ objectshow,chara_10,0
 
 objectmotion,chara_10,U_WeaponAttack,1,1,,0
 
-dotmessage,？？？,<size=32>...Scum.<br> ,,mcv_1001050903_026_01,NORMAL_B,Mid,NORMAL,chara_10,TOP,NORMAL,0,0
+dotmessage,？？？,<size=24>...Scum.,,mcv_1001050903_026_01,NORMAL_B,Mid,NORMAL,chara_10,TOP,NORMAL,0,0
 
 //エフェクト削除
 dotprefabdelete,Eff_DodgeFire0005
@@ -505,7 +505,7 @@ objectmotion,chara_10,C_WeaponWait,0,1,,0
 
 asyncobjectmotion,Goleinu,N_surprised_sit,1,1,None,1,CONT,0
 
-dotmessage,ゴレイヌ,<size=32>Bghk!?<br> ,,mcv_1001050903_027_01,NORMAL,Mid,Surprise,Goleinu,TOP,SHAKE,0,85
+dotmessage,ゴレイヌ,<size=24>Bghk!?,,mcv_1001050903_027_01,NORMAL,Mid,Surprise,Goleinu,TOP,SHAKE,0,85
 
 
 wait,1

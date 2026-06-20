@@ -85,7 +85,7 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>Morning，it's freezing again today.<br> ,100201000G,mcv_1001020101_001_01,chara_1
+message,ベリサ,<size=28>Morning，it's freezing again today.<br> ,100201000G,mcv_1001020101_001_01,chara_1
 
 window,off
 wait,0.15
@@ -128,7 +128,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,アリシア,<size=32>Good morning!                                                            <br><size=32>But compared to yesterday's blizzard，at least it's just light snow now~.<br> ,300201000,mcv_1001020101_002_01,chara_2
+message,アリシア,<size=28>Good morning! But compared to yesterday's blizzard，at least it's    <br><size=28>just light snow now~.<br> ,300201000,mcv_1001020101_002_01,chara_2
 
 window,off
 wait,0.15
@@ -172,7 +172,7 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=32>Even so，snow shoveling is needed everywhere~.                            <br><size=32>Personally，my shovel sales are absolutely booming，which is delightful~.<br> ,100301000G,mcv_1001020101_003_01,chara_3
+message,マリナ,<size=28>Even so，snow shoveling is needed everywhere~. Personally，my shovel  <br><size=28>sales are absolutely booming，which is delightful~.<br> ,100301000G,mcv_1001020101_003_01,chara_3
 
 asynccharaface,chara_4,FaceUnique02,CONT,0
 
@@ -183,7 +183,7 @@ asyncseplay,setag1_5,se4800008,0,1,CONT,0
 asynccharaemo,chara_4,Sweat,CONT,0
 
 
-message,ソフィア,<size=32>You were saying you'd never sold that many shovels in your life.         <br><size=32>But this is the fifth day in a row of snowfall now……<br> ,106501000G,mcv_1001020101_004_01,chara_4
+message,ソフィア,<size=28>You were saying you'd never sold that many shovels in your life.    <br><size=28>But this is the fifth day in a row of snowfall now……<br> ,106501000G,mcv_1001020101_004_01,chara_4
 
 window,off
 wait,0.15
@@ -234,7 +234,7 @@ asynccharaemo,chara_2,Trouble,CONT,0
 
 
 window,on,0.15
-message,アリシア,<size=32>It's clearly abnormal weather.                                           <br><size=32>The Commander is currently investigating with the analysis team.<br> ,300201000,mcv_1001020101_005_01,chara_2
+message,アリシア,<size=28>It's clearly abnormal weather.                                      <br><size=28>The Commander is currently investigating with the analysis team.<br> ,300201000,mcv_1001020101_005_01,chara_2
 
 window,off
 wait,0.15
@@ -291,7 +291,7 @@ asynccharaemo,chara_4,Shock,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>The man is actually working properly for once.<br> ,106501000G,mcv_1001020101_006_01,chara_4
+message,ソフィア,<size=28>The man is actually working properly for once.<br> ,106501000G,mcv_1001020101_006_01,chara_4
 
 asyncshake,CHARA,chara_2,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -300,7 +300,7 @@ asyncseplay,setag1_8,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,アリシア,<size=32>Yes，since the heavy snowfall over the past few days has made             <br><size=32>base restoration work practically impossible.<br> ,300201000,mcv_1001020101_007_01,chara_2
+message,アリシア,<size=28>Yes，since the heavy snowfall over the past few days has made        <br><size=28>base restoration work practically impossible.<br> ,300201000,mcv_1001020101_007_01,chara_2
 
 asynccharaface,chara_2,FaceShy,CONT,0
 
@@ -319,7 +319,7 @@ asyncseplay,setag1_10,se4800017,0,1,STOP,8.4
 asynccharaemo,chara_2,Shock,STOP,8.4
 
 
-message,アリシア,<size=32>This area has always had a mild climate，                                 <br><size=32>and there's never once been a blizzard here until now——ACHOO!!<br> ,300201000,mcv_1001020101_008_01,chara_2
+message,アリシア,<size=28>This area has always had a mild climate，                            <br><size=28>and there's never once been a blizzard here until now——ACHOO!!<br> ,300201000,mcv_1001020101_008_01,chara_2
 
 asynccharaface,chara_4,FaceSad,CONT,0
 
@@ -330,7 +330,7 @@ asyncseplay,setag1_11,se4800007,0,1,CONT,0
 asynccharaemo,chara_4,Panic,CONT,0
 
 
-message,ソフィア,<size=32>Did you catch a cold!?                                                   <br><size=32>Come closer to the fireplace over here!<br> ,106501000G,mcv_1001020101_009_01,chara_4
+message,ソフィア,<size=28>Did you catch a cold!?                                              <br><size=28>Come closer to the fireplace over here!<br> ,106501000G,mcv_1001020101_009_01,chara_4
 
 window,off
 wait,0.15
@@ -363,7 +363,7 @@ asynccharaemo,chara_2,Twinkle,CONT,0
 
 
 window,on,0.15
-message,アリシア,<size=32>Sniff……th-thank you~.<br> ,300201000,mcv_1001020101_010_01,chara_2
+message,アリシア,<size=28>Sniff……th-thank you~.<br> ,300201000,mcv_1001020101_010_01,chara_2
 
 asyncjump,CHARA,chara_4,-30,0.25,1,off,0,CONT
 
@@ -372,7 +372,7 @@ asyncseplay,setag1_13,se4800015,0,1,CONT,0
 asynccharaemo,chara_4,Dull,CONT,0
 
 
-message,ソフィア,<size=32>We're already in bad shape from the recent battle against the Calamity，  <br><size=32>and now this—what a headache.<br> ,106501000G,mcv_1001020101_011_01,chara_4
+message,ソフィア,<size=28>We're already in bad shape from the recent battle against the       <br><size=28>Calamity， and now this—what a headache.<br> ,106501000G,mcv_1001020101_011_01,chara_4
 
 asyncseplay,setag1_14,se4300003,0,1,CONT,0
 
@@ -386,7 +386,7 @@ asyncseplay,setag1_15,se4800017,0,1,CONT,0
 
 asynccharaemo,chara_4,Shock,CONT,0
 
-message,<user>,<size=32>Oh!　What，is everyone here?<br> 
+message,<user>,<size=28>Oh!　What，is everyone here?<br> 
 
 window,off
 wait,0.15
@@ -435,9 +435,9 @@ asynccharaemo,chara_4,Anger,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>Eek!　Could you knock before barging in!                                  <br><size=32>You nearly gave me a heart attack!<br> ,106501000G,mcv_1001020101_012_01,chara_4
+message,ソフィア,<size=28>Eek!　Could you knock before barging in!                             <br><size=28>You nearly gave me a heart attack!<br> ,106501000G,mcv_1001020101_012_01,chara_4
 
-message,<user>,<size=32>Why should I，the Commander，have to knock                                 <br><size=32>to enter my own command headquarters!<br> 
+message,<user>,<size=28>Why should I，the Commander，have to knock                            <br><size=28>to enter my own command headquarters!<br> 
 
 window,off
 wait,0.15
@@ -497,7 +497,7 @@ asynccharaemo,chara_3,Question,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=32>By the way，Alicia，why did you call us all here?<br> ,100301000G,mcv_1001020101_013_01,chara_3
+message,マリナ,<size=28>By the way，Alicia，why did you call us all here?<br> ,100301000G,mcv_1001020101_013_01,chara_3
 
 window,off
 wait,0.15
@@ -548,7 +548,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,アリシア,<size=32>Oh……yes. The thing is…… I was hoping everyone could help shovel snow     <br><size=32>around command headquarters……<br> ,300201000,mcv_1001020101_014_01,chara_2
+message,アリシア,<size=28>Oh……yes. The thing is……                                             <br><size=28>I was hoping everyone could help with the snow at HQ……<br> ,300201000,mcv_1001020101_014_01,chara_2
 
 window,off
 wait,0.15
@@ -613,7 +613,7 @@ asynccharaemo,chara_1,Anger,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>What!?                                                                   <br><size=32>That's why you gathered us all!?<br> ,100201000G,mcv_1001020101_015_01,chara_1
+message,ベリサ,<size=28>What!?                                                              <br><size=28>That's why you gathered us all!?<br> ,100201000G,mcv_1001020101_015_01,chara_1
 
 window,off
 wait,0.15
@@ -666,9 +666,9 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,アリシア,<size=32>I'm sorry. We've been so swamped with snow management all over the base  <br><size=32>that there's been no time for HQ……<br> ,300201000,mcv_1001020101_016_01,chara_2
+message,アリシア,<size=28>I'm sorry.                                                          <br><size=28>Snow duties across the base left no time for HQ's snow……<br> ,300201000,mcv_1001020101_016_01,chara_2
 
-message,<user>,<size=32>Sorry about this，everyone.                                               <br><size=32>I'm the one who told Alicia to ask you to help with the snow.<br> 
+message,<user>,<size=28>Sorry about this，everyone.                                          <br><size=28>I'm the one who told Alicia to ask you to help with the snow.<br> 
 
 window,off
 wait,0.15
@@ -792,7 +792,7 @@ asynccharaemo,chara_1,BePeevish,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>Can't you just have some soldiers do it~?                                <br><size=32>Why does it have to be us……<br> ,100201000G,mcv_1001020101_017_01,chara_1
+message,ベリサ,<size=28>Can't you just have some soldiers do it~?                           <br><size=28>Why does it have to be us……<br> ,100201000G,mcv_1001020101_017_01,chara_1
 
 window,off
 wait,0.15
@@ -850,7 +850,7 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>Now now. With so many people tied up dealing with the snow，              <br><size=32>headquarters snow removal just got left until last，right?<br> ,106501000G,mcv_1001020101_018_01,chara_4
+message,ソフィア,<size=28>Now now. With so many people tied up dealing with the snow，         <br><size=28>headquarters snow removal just got left until last，right?<br> ,106501000G,mcv_1001020101_018_01,chara_4
 
 asyncjump,CHARA,chara_2,-30.6,0.5,1,off,0,CONT
 
@@ -859,7 +859,7 @@ asyncseplay,setag1_26,se4800006,0,1,CONT,0
 asynccharaemo,chara_2,Trouble,CONT,0
 
 
-message,アリシア,<size=32>That's exactly it……<br> ,300201000,mcv_1001020101_019_01,chara_2
+message,アリシア,<size=28>That's exactly it……<br> ,300201000,mcv_1001020101_019_01,chara_2
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -870,7 +870,7 @@ asyncseplay,setag1_27,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,ソフィア,<size=32>Fine. We'll lend a hand.                                                 <br><size=32>Belisa，Marina—is that okay?<br> ,106501000G,mcv_1001020101_020_01,chara_4
+message,ソフィア,<size=28>Fine. We'll lend a hand.                                            <br><size=28>Belisa，Marina—is that okay?<br> ,106501000G,mcv_1001020101_020_01,chara_4
 
 window,off
 wait,0.15
@@ -932,7 +932,7 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>Ugh~…… I hate the cold~.<br> ,100201000G,mcv_1001020101_021_01,chara_1
+message,ベリサ,<size=28>Ugh~…… I hate the cold~.<br> ,100201000G,mcv_1001020101_021_01,chara_1
 
 asyncjump,CHARA,chara_3,30,0.25,1,off,0,CONT
 
@@ -941,9 +941,9 @@ asyncseplay,setag1_29,se4800013,0,1,CONT,0
 asynccharaemo,chara_3,Spirits,CONT,0
 
 
-message,マリナ,<size=32>I figured as much so I already brought shovels for everyone~.            <br><size=32>Let's get it done and over with~!<br> ,100301000G,mcv_1001020101_022_01,chara_3
+message,マリナ,<size=28>I figured as much so I already brought shovels for everyone~.       <br><size=28>Let's get it done and over with~!<br> ,100301000G,mcv_1001020101_022_01,chara_3
 
-message,<user>,<size=32>Sorry about this，everyone.                                               <br><size=32>I'll help too—let's do this.<br> 
+message,<user>,<size=28>Sorry about this，everyone.                                          <br><size=28>I'll help too—let's do this.<br> 
 
 window,off
 wait,0.15
@@ -994,7 +994,7 @@ asynccharaemo,chara_2,Twinkle,CONT,0
 
 
 window,on,0.15
-message,アリシア,<size=32>Thank you so much!                                                       <br><size=32>As thanks I'll cook everyone a hot meal!<br> ,300201000,mcv_1001020101_023_01,chara_2
+message,アリシア,<size=28>Thank you so much!                                                  <br><size=28>As thanks I'll cook everyone a hot meal!<br> ,300201000,mcv_1001020101_023_01,chara_2
 
 window,off
 wait,0.15
@@ -1064,7 +1064,7 @@ asynccharaemo,chara_3,Spirits,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=32>Fufu.                                                                    <br><size=32>Alicia's home cooking is really good~.<br> ,100301000G,mcv_1001020101_024_01,chara_3
+message,マリナ,<size=28>Fufu.                                                               <br><size=28>Alicia's home cooking is really good~.<br> ,100301000G,mcv_1001020101_024_01,chara_3
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -1073,7 +1073,7 @@ asyncseplay,setag1_32,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ベリサ,<size=32>Can't be helped~.                                                        <br><size=32>Let's knock it out quick~.<br> ,100201000G,mcv_1001020101_025_01,chara_1
+message,ベリサ,<size=28>Can't be helped~.                                                   <br><size=28>Let's knock it out quick~.<br> ,100201000G,mcv_1001020101_025_01,chara_1
 
 asynccharaface,chara_4,EyeOpen,CONT,0
 asynccharaface,chara_4,FaceNormal,CONT,0
@@ -1085,7 +1085,7 @@ asyncseplay,setag1_33,se4800019,0,1,CONT,0
 asynccharaemo,chara_4,Elated,CONT,0
 
 
-message,ソフィア,<size=32>Then Commander and Belisa，please handle the roof.                        <br><size=32>I'll take care of the snow around headquarters with Marina.<br> ,106501000G,mcv_1001020101_026_01,chara_4
+message,ソフィア,<size=28>Then Commander and Belisa，please handle the roof.                   <br><size=28>I'll take care of the snow around headquarters with Marina.<br> ,106501000G,mcv_1001020101_026_01,chara_4
 
 window,off
 wait,0.15
@@ -1180,7 +1180,7 @@ asyncfade,In,Black,1,STOP,1
 waitorclick,2.5
 
 window,on,0.15
-message,<user>,<size=32>Alright，that should do it.                                               <br><size=32>Thanks everyone—sorry to make you do all that.<br> 
+message,<user>,<size=28>Alright，that should do it.                                          <br><size=28>Thanks everyone—sorry to make you do all that.<br> 
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -1191,7 +1191,7 @@ asyncseplay,setag1_34,se4800013,0,1,CONT,0
 asynccharaemo,chara_4,Spirits,CONT,0
 
 
-message,ソフィア,<size=32>Not at all. With the Abyss survey on hold because of the snow，           <br><size=32>it was good exercise.<br> ,106501000G,mcv_1001020101_027_01,chara_4
+message,ソフィア,<size=28>Not at all. With the Abyss survey on hold because of the snow，      <br><size=28>it was good exercise.<br> ,106501000G,mcv_1001020101_027_01,chara_4
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -1200,7 +1200,7 @@ asyncseplay,setag1_35,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ベリサ,<size=32>So tired~~……<br> ,100201000G,mcv_1001020101_028_01,chara_1
+message,ベリサ,<size=28>So tired~~……<br> ,100201000G,mcv_1001020101_028_01,chara_1
 
 window,off
 wait,0.15
@@ -1246,7 +1246,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,<size=32>What do you mean 'so tired'?                                             <br><size=32>You were slacking off the whole time—I did almost all the roof shoveling!<br> 
+message,<user>,<size=28>What do you mean 'so tired'? You were slacking off the whole time—I <br><size=28>did almost all the roof shoveling!<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1257,9 +1257,9 @@ asyncseplay,setag1_36,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ベリサ,<size=32>That's why I said~，I hate the cold~.<br> ,100201000G,mcv_1001020101_029_01,chara_1
+message,ベリサ,<size=28>That's why I said~，I hate the cold~.<br> ,100201000G,mcv_1001020101_029_01,chara_1
 
-message,<user>,<size=32>So do I!<br> 
+message,<user>,<size=28>So do I!<br> 
 
 window,off
 wait,0.15
@@ -1326,7 +1326,7 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=32>Now now，everyone's worked hard~.                                         <br><size=32>Let's warm up with the home cooking Alicia's preparing♪<br> ,100301000G,mcv_1001020101_030_01,chara_3
+message,マリナ,<size=28>Now now，everyone's worked hard~.                                    <br><size=28>Let's warm up with the home cooking Alicia's preparing♪<br> ,100301000G,mcv_1001020101_030_01,chara_3
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1337,7 +1337,7 @@ asyncseplay,setag1_38,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ベリサ,<size=32>Yay♪　Food♪　Food♪<br> ,100201000G,mcv_1001020101_031_01,chara_1
+message,ベリサ,<size=28>Yay♪　Food♪　Food♪<br> ,100201000G,mcv_1001020101_031_01,chara_1
 
 window,off
 wait,0.15
@@ -1391,9 +1391,9 @@ asynccharaemo,chara_4,Speak,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>Hey，Commander.                                                           <br><size=32>So did you figure out the cause of this abnormal weather?<br> ,106501000G,mcv_1001020101_032_01,chara_4
+message,ソフィア,<size=28>Hey，Commander.                                                      <br><size=28>So did you figure out the cause of this abnormal weather?<br> ,106501000G,mcv_1001020101_032_01,chara_4
 
-message,<user>,<size=32>Yeah. I've asked Adelheid to look into it.                               <br><size=32>The analysis seems to take time though.<br> 
+message,<user>,<size=28>Yeah. I've asked Adelheid to look into it.                          <br><size=28>The analysis seems to take time though.<br> 
 
 window,off
 wait,0.15
@@ -1459,7 +1459,7 @@ asynccharaemo,chara_3,Dull,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=32>It's clearly been abnormal for the past few days~.                       <br><size=32>Today it's this bright and sunny but still this cold~.<br> ,100301000G,mcv_1001020101_033_01,chara_3
+message,マリナ,<size=28>It's clearly been abnormal for the past few days~.                  <br><size=28>Today it's this bright and sunny but still this cold~.<br> ,100301000G,mcv_1001020101_033_01,chara_3
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -1468,7 +1468,7 @@ asyncseplay,setag1_41,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ベリサ,<size=32>At first when it started snowing everyone was so excited~.               <br><size=32>We made snowmen together~.<br> ,100201000G,mcv_1001020101_034_01,chara_1
+message,ベリサ,<size=28>At first when it started snowing everyone was so excited~.          <br><size=28>We made snowmen together~.<br> ,100201000G,mcv_1001020101_034_01,chara_1
 
 asynccharaface,chara_4,EyeClose,CONT,0
 asynccharaface,chara_4,FaceNormal,CONT,0
@@ -1480,7 +1480,7 @@ asyncseplay,setag1_42,se4800006,0,1,CONT,0
 asynccharaemo,chara_4,Trouble,CONT,0
 
 
-message,ソフィア,<size=32>We were even talking about having a snowball fight tournament.           <br><size=32>But then the blizzard got so bad there was no time for any of that……<br> ,106501000G,mcv_1001020101_035_01,chara_4
+message,ソフィア,<size=28>We were even talking about having a snowball fight tournament.      <br><size=28>But then the blizzard got so bad there was no time for any of that……<br> ,106501000G,mcv_1001020101_035_01,chara_4
 
 window,off
 wait,0.15
@@ -1533,7 +1533,7 @@ asynccharaemo,chara_3,Spirits,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=32>In weather like today we might actually be able to~，a snowball fight♪<br> ,100301000G,mcv_1001020101_036_01,chara_3
+message,マリナ,<size=28>In weather like today we might actually be able to~，a snowball      <br><size=28>fight♪<br> ,100301000G,mcv_1001020101_036_01,chara_3
 
 window,off
 wait,0.15
@@ -1576,7 +1576,7 @@ asynccharaemo,chara_4,Elated,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>Should we?                                                               <br><size=32>I've been lacking exercise lately，it could be good stress relief!<br> ,106501000G,mcv_1001020101_037_01,chara_4
+message,ソフィア,<size=28>Should we?                                                          <br><size=28>I've been lacking exercise lately，it could be good stress relief!<br> ,106501000G,mcv_1001020101_037_01,chara_4
 
 window,off
 wait,0.15
@@ -1641,9 +1641,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>Nooo，impossible~!                                                        <br><size=32>Belisa has no energy left for that~.<br> ,100201000G,mcv_1001020101_038_01,chara_1
+message,ベリサ,<size=28>Nooo，impossible~!                                                   <br><size=28>Belisa has no energy left for that~.<br> ,100201000G,mcv_1001020101_038_01,chara_1
 
-message,<user>,<size=32>You two have so much energy~.                                            <br><size=32>I'm already worried I'll be sore from that snow shoveling.<br> 
+message,<user>,<size=28>You two have so much energy~.                                       <br><size=28>I'm already worried I'll be sore from that snow shoveling.<br> 
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -1654,7 +1654,7 @@ asyncseplay,setag1_46,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,ソフィア,<size=32>Then，how about the rule is that whoever hits the Commander in the face   <br><size=32>wins?<br> ,106501000G,mcv_1001020101_039_01,chara_4
+message,ソフィア,<size=28>Then how about whoever hits the Commander in the face wins?<br> ,106501000G,mcv_1001020101_039_01,chara_4
 
 asynccharaface,chara_3,EyeOpen,CONT,0
 asynccharaface,chara_3,FaceNormal,CONT,0
@@ -1666,7 +1666,7 @@ asyncseplay,setag1_47,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,マリナ,<size=32>Ufufu!　That sounds like a fun game of tag~.<br> ,100301000G,mcv_1001020101_040_01,chara_3
+message,マリナ,<size=28>Ufufu!　That sounds like a fun game of tag~.<br> ,100301000G,mcv_1001020101_040_01,chara_3
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1677,9 +1677,9 @@ asyncseplay,setag1_48,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ベリサ,<size=32>Ooh，what a fun-sounding rule!                                            <br><size=32>If I can go all-out throwing at you，maybe I'll join~.<br> ,100201000G,mcv_1001020101_041_01,chara_1
+message,ベリサ,<size=28>Ooh，what a fun-sounding rule!                                       <br><size=28>If I can go all-out throwing at Onii-san，maybe I'll join~.<br> ,100201000G,mcv_1001020101_041_01,chara_1
 
-message,<user>,<size=32>Hey，quit proposing such outrageous rules!<br> 
+message,<user>,<size=28>Hey，quit proposing such outrageous rules!<br> 
 
 window,off
 wait,0.15
@@ -1726,7 +1726,7 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>Hmm……?<br> ,106501000G,mcv_1001020101_042_01,chara_4
+message,ソフィア,<size=28>Hmm……?<br> ,106501000G,mcv_1001020101_042_01,chara_4
 
 asyncjump,CHARA,chara_3,-30,0.25,1,off,0,CONT
 
@@ -1735,7 +1735,7 @@ asyncseplay,setag1_53,se4800022,0,1,CONT,0
 asynccharaemo,chara_3,Speak,CONT,0
 
 
-message,マリナ,<size=32>Snow……<br> ,100301000G,mcv_1001020101_043_01,chara_3
+message,マリナ,<size=28>Snow……<br> ,100301000G,mcv_1001020101_043_01,chara_3
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1746,7 +1746,7 @@ asyncseplay,setag1_54,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,ベリサ,<size=32>Come on~!                                                                <br><size=32>We just worked so hard shoveling and it's already pointless~!<br> ,100201000G,mcv_1001020101_044_01,chara_1
+message,ベリサ,<size=28>Come on~!                                                           <br><size=28>We just worked so hard shoveling and it's already pointless~!<br> ,100201000G,mcv_1001020101_044_01,chara_1
 
 window,off
 wait,0.15
@@ -1784,7 +1784,7 @@ waitorclick,0.5
 asyncseplay,setag1_55,se4700032,0,1,CONT,0
 
 window,on,0.15
-message,,<size=32>The weather deteriorated with shocking speed. The snow that began falling<br><size=32>in scattered flakes gradually transformed into a raging sideways blizzard.<br> 
+message,,<size=28>The weather turned shockingly fast. Scattered snowflakes            <br><size=28>rapidly transformed into a driving blizzard.<br> 
 
 window,off
 wait,0.15
@@ -1845,11 +1845,11 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>This is WAY beyond abnormal weather!?                                    <br><size=32>It was clear just moments ago!?<br> ,100201000G,mcv_1001020101_045_01,chara_1
+message,ベリサ,<size=28>This is WAY beyond abnormal weather!?                               <br><size=28>It was clear just moments ago!?<br> ,100201000G,mcv_1001020101_045_01,chara_1
 
 asyncseplay,setag1_57,se4700030,0,1,CONT,0
 
-message,,<size=32>The howling wind roared like thunder，                                    <br><size=32>painting everything in the field of vision white.<br> 
+message,,<size=28>The howling wind roared like thunder，                               <br><size=28>painting everything in the field of vision white.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1860,7 +1860,7 @@ asyncseplay,setag1_58,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ベリサ,<size=32>Freezing!　Let's get inside!                                              <br><size=32>I'm going to die!　Freeze to death~~!<br> ,100201000G,mcv_1001020101_046_01,chara_1
+message,ベリサ,<size=28>Freezing!　Let's get inside!                                         <br><size=28>I'm going to die!　Freeze to death~~!<br> ,100201000G,mcv_1001020101_046_01,chara_1
 
 asynccharaface,chara_4,FaceAnger,CONT,0
 
@@ -1871,7 +1871,7 @@ asyncseplay,setag1_59,se4800011,0,1,CONT,0
 asynccharaemo,chara_4,ExclaQues,CONT,0
 
 
-message,ソフィア,<size=32>This is on a completely different level from the blizzard the past few   <br><size=32>days!? What kind of damage is something like this going to cause……!<br> ,106501000G,mcv_1001020101_047_01,chara_4
+message,ソフィア,<size=28>This is way beyond the blizzards we've had!?                        <br><size=28>What kind of damage could this cause……!<br> ,106501000G,mcv_1001020101_047_01,chara_4
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -1882,7 +1882,7 @@ asyncseplay,setag1_60,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,マリナ,<size=32>Commander!　Let's get inside for now~!<br> ,100301000G,mcv_1001020101_048_01,chara_3
+message,マリナ,<size=28>Master! Let's get inside for now~!<br> ,100301000G,mcv_1001020101_048_01,chara_3
 
 window,off
 wait,0.15
@@ -1972,7 +1972,7 @@ asyncseplay,setag1_61,se4800008,0,1,CONT,0
 asynccharaemo,chara_4,Sweat,CONT,0
 
 
-message,ソフィア,<size=32>Look over there!　A tree fell from the blizzard……                         <br><size=32>What is this wind……<br> ,106501000G,mcv_1001020101_049_01,chara_4
+message,ソフィア,<size=28>Look over there!　A tree fell from the blizzard……                    <br><size=28>What is this wind……<br> ,106501000G,mcv_1001020101_049_01,chara_4
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1983,7 +1983,7 @@ asyncseplay,setag1_62,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ベリサ,<size=32>The snow amount is crazy too!?                                           <br><size=32>At this rate the whole base is going to get buried~!<br> ,100201000G,mcv_1001020101_050_01,chara_1
+message,ベリサ,<size=28>The snow amount is crazy too!?                                      <br><size=28>At this rate the whole base is going to get buried~!<br> ,100201000G,mcv_1001020101_050_01,chara_1
 
 asyncshake,CHARA,chara_3,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1992,7 +1992,7 @@ asyncseplay,setag1_63,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,マリナ,<size=32>It feels like the temperature has dropped even more than before~.<br> ,100301000G,mcv_1001020101_051_01,chara_3
+message,マリナ,<size=28>It feels like the temperature has dropped even more than before~.<br> ,100301000G,mcv_1001020101_051_01,chara_3
 
 window,off
 wait,0.15
@@ -2051,11 +2051,11 @@ asynccharaemo,chara_2,Dull,CONT,0
 
 
 window,on,0.15
-message,アリシア,<size=32>Commander，w-what do we do~~……<br> ,300201000,mcv_1001020101_052_01,chara_2
+message,アリシア,<size=28>Commander，w-what do we do~~……<br> ,300201000,mcv_1001020101_052_01,chara_2
 
-message,<user>,<size=32>All personnel，listen up!!　Issue evacuation orders to the surrounding     <br><size=32>residents! Bring in every person from all nearby villages and settlements!<br> 
+message,<user>,<size=28>All personnel，listen up!! Evacuation orders for residents!          <br><size=28>Take in everyone from all nearby villages and settlements!<br> 
 
-message,<user>,<size=32>Refer to the documents from the recent emergency evacuation drill        <br><size=32>for shelter assignments!!<br> 
+message,<user>,<size=28>Refer to the documents from the recent emergency evacuation drill   <br><size=28>for shelter assignments!!<br> 
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -2066,7 +2066,7 @@ asyncseplay,setag1_65,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,アリシア,<size=32>Commander……r-roger that! To think the drills for a major Calamity        <br><size=32>approaching would be useful so soon……<br> ,300201000,mcv_1001020101_053_01,chara_2
+message,アリシア,<size=28>Commander……r-roger that!                                            <br><size=28>The Calamity approach drills are proving useful so soon……<br> ,300201000,mcv_1001020101_053_01,chara_2
 
 window,off
 wait,0.15
@@ -2121,7 +2121,7 @@ asynccharaemo,chara_2,Exclamation,CONT,0
 
 
 window,on,0.15
-message,アリシア,<size=32>(No，the Commander…… might have anticipated this and prepared ahead of    <br><size=32>time! I have to say……impressive!)<br> ,300201000,mcv_1001020101_054_01,chara_2
+message,アリシア,<size=28>(No，maybe the Commander anticipated this and prepared!              <br><size=28>I have to say……that's impressive!)<br> ,300201000,mcv_1001020101_054_01,chara_2
 
 window,off
 wait,0.15
@@ -2172,7 +2172,7 @@ asynctransitionCrossFade,Tra02,0.5,STOP
 waitorclick,1
 
 window,on,0.15
-message,<user>,<size=32>Belisa!                                                                  <br><size=32>Gather all the heating units inside the base with your Perdion allies!<br> 
+message,<user>,<size=28>Belisa! Gather all the heating units inside the base with your      <br><size=28>Perdion allies!<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -2183,7 +2183,7 @@ asyncseplay,setag1_67,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ベリサ,<size=32>Oh~，I know just what to get!                                             <br><size=32>Leave it to Belisa~!<br> ,100201000G,mcv_1001020101_055_01,chara_1
+message,ベリサ,<size=28>Oh~，I know just what to get!                                        <br><size=28>Leave it to Belisa~!<br> ,100201000G,mcv_1001020101_055_01,chara_1
 
 window,off
 wait,0.15
@@ -2226,7 +2226,7 @@ asynctransitionCrossFade,Tra02,0.5,STOP
 waitorclick,1
 
 window,on,0.15
-message,<user>,<size=32>Marina，procure all the cold-weather gear and emergency rations you can!  <br><size=32>More than enough to distribute to every evacuee—go all out!<br> 
+message,<user>,<size=28>Marina，procure all the cold-weather gear and emergency rations you  <br><size=28>can! More than enough to distribute to every evacuee—go all out!<br> 
 
 asynccharaface,chara_3,FaceFun,CONT,0
 
@@ -2237,7 +2237,7 @@ asyncseplay,setag1_68,se4800013,0,1,CONT,0
 asynccharaemo,chara_3,Spirits,CONT,0
 
 
-message,マリナ,<size=32>Roger!                                                                   <br><size=32>Thank you for your patronage!!<br> ,100301000G,mcv_1001020101_056_01,chara_3
+message,マリナ,<size=28>Roger!                                                              <br><size=28>Thank you for your patronage!!<br> ,100301000G,mcv_1001020101_056_01,chara_3
 
 window,off
 wait,0.15
@@ -2277,7 +2277,7 @@ asynctransitionCrossFade,Tra01,0.5,STOP
 waitorclick,1
 
 window,on,0.15
-message,<user>,<size=32>Sophia，come with me! Let's guide the residents evacuating from the       <br><size=32>surrounding villages and settlements!<br> 
+message,<user>,<size=28>Sophia，come with me!                                                <br><size=28>We'll guide the evacuees from the surrounding settlements!<br> 
 
 asynccharaface,chara_4,EyeOpen,CONT,0
 asynccharaface,chara_4,FaceNormal,CONT,0
@@ -2289,7 +2289,7 @@ asyncseplay,setag1_69,se4800010,0,1,CONT,0
 asynccharaemo,chara_4,Exclamation,CONT,0
 
 
-message,ソフィア,<size=32>R-roger!<br> ,106501000G,mcv_1001020101_057_01,chara_4
+message,ソフィア,<size=28>R-roger!<br> ,106501000G,mcv_1001020101_057_01,chara_4
 
 window,off
 wait,0.15
@@ -2343,7 +2343,7 @@ asynccharaemo,chara_4,Panic,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>(What is this—such precise and rapid command……                           <br><size=32>If he were always like this，I might，more willingly……)<br> ,106501000G,mcv_1001020101_058_01,chara_4
+message,ソフィア,<size=28>(What is this—such precise and rapid command……                      <br><size=28>If he were always like this，I might，more willingly……)<br> ,106501000G,mcv_1001020101_058_01,chara_4
 
 window,off
 wait,0.15
@@ -2368,7 +2368,7 @@ asynccharaemo,chara_4,Shock,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>……Oh!　I can't be standing here!                                          <br><size=32>I need to go guide the residents!<br> ,106501000G,mcv_1001020101_059_01,chara_4
+message,ソフィア,<size=28>……Oh!　I can't be standing here!                                     <br><size=28>I need to go guide the residents!<br> ,106501000G,mcv_1001020101_059_01,chara_4
 
 window,off
 wait,0.15

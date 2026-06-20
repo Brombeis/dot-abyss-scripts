@@ -44,7 +44,7 @@ bgmplay,bgmtag1_1,bgm0027,0.75,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,—Command Headquarters，Conference Room—,,,on
+messageTextCenter,,——Command Headquarters，Conference Room——,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -83,7 +83,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>Heh，Himari actually went all the way to that floor below? By herself〜?<br> ,100201000G,mcv_1001040201_001_01,chara_1
+message,ベリサ,<size=28>Heh，Himari actually went all the way to that floor below? By        <br><size=28>herself〜?<br> ,100201000G,mcv_1001040201_001_01,chara_1
 
 window,off
 wait,0.15
@@ -134,7 +134,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>Even in those circumstances，she went exploring other floors on her own...<br><size=32>y-you're brave.<br> ,106501000G,mcv_1001040201_002_01,chara_2
+message,ソフィア,<size=28>In those circumstances，you explored other floors                    <br><size=28>alone... y-you're brave.<br> ,106501000G,mcv_1001040201_002_01,chara_2
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -145,7 +145,7 @@ asyncseplay,setag1_3,se4800003,0,1,CONT,0
 asynccharaemo,chara_4,Twinkle,CONT,0
 
 
-message,クルル,<size=32>Himari is so strong! So cool〜〜〜!<br> ,106701000G,mcv_1001040201_003_01,chara_4
+message,クルル,<size=28>Himari is so strong! So cool〜〜〜!<br> ,106701000G,mcv_1001040201_003_01,chara_4
 
 asynccharaface,chara_3,FaceFun,CONT,0
 
@@ -156,7 +156,7 @@ asyncseplay,setag1_4,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,マリナ,<size=32>That initiative just blows me away〜!<br> ,100301000G,mcv_1001040201_004_01,chara_3
+message,マリナ,<size=28>That initiative just blows me away〜!<br> ,100301000G,mcv_1001040201_004_01,chara_3
 
 window,off
 wait,0.15
@@ -204,11 +204,11 @@ asynccharaemo,chara_5,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,<size=32>Huh? N-no，I'm not... at the time I was just... desperately searching for <br><size=32>an exit...<br> ,106601001G,mcv_1001040201_005_01,chara_5
+message,ヒマリ,<size=28>Huh? N-no，Himari isn't... at the time                               <br><size=28>Himari was just desperately looking for an exit...<br> ,106601001G,mcv_1001040201_005_01,chara_5
 
-message,<user>,<size=32>Even so，having someone who's seen the area ahead with their own eyes is a<br><size=32>great asset.<br> 
+message,<user>,<size=28>Even so，someone who's seen the area firsthand                       <br><size=28>is a great asset.<br> 
 
-message,<user>,<size=32>Himari，can you tell me more details about what things were like then?<br> 
+message,<user>,<size=28>Himari，can you tell me more details about what things were like     <br><size=28>then?<br> 
 
 asynccharaface,chara_5,FaceUnique01,CONT,0
 
@@ -219,7 +219,7 @@ asyncseplay,setag1_6,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,ヒマリ,<size=32>S-sure... okay.<br> ,106601001G,mcv_1001040201_006_01,chara_5
+message,ヒマリ,<size=28>S-sure... okay.<br> ,106601001G,mcv_1001040201_006_01,chara_5
 
 window,off
 wait,0.15
@@ -249,7 +249,7 @@ waitorclick,1
 asyncseplay,setag1_7,se4300001,0,1,CONT,0
 
 window,on,0.15
-message,,<size=32>—Knock knock!—<br> 
+message,,<size=28>——Knock knock!——<br> 
 
 window,off
 wait,0.15
@@ -281,12 +281,12 @@ asynccharamove,chara_7,EaseOut,X,100,0.3,CONT,0
 asyncwait
 
 window,on,0.15
-message,,<size=32>At that moment，a knock echoes through the conference room. The ones who  <br><size=32>open the door and enter are Siena and Adelheid.<br> 
+message,,<size=28>A knock echoes through the conference room.                         <br><size=28>Shiena and Adelheid enter.<br> 
 
 asyncjump,CHARA,chara_6,-30.6,0.5,1,off,0,CONT
 
 
-message,シエナ,<size=32>Excuse me! Please let me assist with the investigation of that floor!<br> ,300501000,mcv_1001040201_007_01,chara_6
+message,シエナ,<size=28>Excuse me! Please let me assist with the investigation of that      <br><size=28>floor!<br> ,300501000,mcv_1001040201_007_01,chara_6
 
 window,off
 wait,0.15
@@ -336,7 +336,7 @@ asynccharaemo,chara_5,Flower,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,<size=32>Siena...!<br> ,106601001G,mcv_1001040201_008_01,chara_5
+message,ヒマリ,<size=28>Shiena...!<br> ,106601001G,mcv_1001040201_008_01,chara_5
 
 window,off
 wait,0.15
@@ -392,7 +392,7 @@ asynccharaemo,chara_6,Speak,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=32>Himari，you seem to have recovered. Your color looks good—what a relief.<br> ,300501000,mcv_1001040201_009_01,chara_6
+message,シエナ,<size=28>Himari，you seem to have recovered. Your color looks good—what a     <br><size=28>relief.<br> ,300501000,mcv_1001040201_009_01,chara_6
 
 asynccharaface,chara_5,FaceFun,CONT,0
 
@@ -403,7 +403,7 @@ asyncseplay,setag1_11,se4800013,0,1,CONT,0
 asynccharaemo,chara_5,Spirits,CONT,0
 
 
-message,ヒマリ,<size=32>Yeah... thanks to the Commander and everyone at the frontline base being <br><size=32>so kind...<br> ,106601001G,mcv_1001040201_010_01,chara_5
+message,ヒマリ,<size=28>Yeah... thanks to the Commander                                     <br><size=28>and everyone at the forward base being so kind...<br> ,106601001G,mcv_1001040201_010_01,chara_5
 
 window,off
 wait,0.15
@@ -453,7 +453,7 @@ asynccharaemo,chara_6,Elated,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=32>Commander，Adelheid briefed me on the situation. Please let us at Luxnova <br><size=32>assist with investigating that floor.<br> ,300501000,mcv_1001040201_011_01,chara_6
+message,シエナ,<size=28>Commander-san，Adelheid briefed me.                                  <br><size=28>Please let Lux Nova help investigate that floor.<br> ,300501000,mcv_1001040201_011_01,chara_6
 
 window,off
 wait,0.15
@@ -511,9 +511,9 @@ asynccharaemo,chara_7,Speak,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,<size=32>I'd like to hear more details first. This time，there's something that    <br><size=32>concerns me personally as well...<br> ,108701000G,mcv_1001040201_012_01,chara_7
+message,アーデルハイト,<size=28>I'd like to hear details first.                                     <br><size=28>There's something that concerns me personally...<br> ,108701000G,mcv_1001040201_012_01,chara_7
 
-message,<user>,<size=32>Having Siena along is reassuring for us too.<br> 
+message,<user>,<size=28>Having Shiena along is reassuring for us too.<br> 
 
 window,off
 wait,0.15
@@ -555,7 +555,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,<size=32>Himari，would you tell us? About the floor you've been to—the one in this <br><size=32>photo...<br> 
+message,<user>,<size=28>Himari，would you tell us?                                           <br><size=28>About the floor in this photo that you've been to...<br> 
 
 asynccharaface,chara_5,FaceAnger,CONT,0
 
@@ -566,7 +566,7 @@ asyncseplay,setag1_14,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,ヒマリ,<size=32>S-sure...<br> ,106601001G,mcv_1001040201_013_01,chara_5
+message,ヒマリ,<size=28>S-sure...<br> ,106601001G,mcv_1001040201_013_01,chara_5
 
 
 window,off
@@ -597,13 +597,13 @@ asyncfade,In,White,1,STOP,1
 waitorclick,2.5
 
 window,on,0.15
-message,ヒマリ,<size=32>When I was transferred to this world，it was to the floor with the        <br><size=32>disaster supply storage... I was exploring the area looking for an exit...<br> ,106601001G,mcv_1001040201_014_01,on
+message,ヒマリ,<size=28>When Himari got sent here，it was to the floor                       <br><size=28>with the supply storage... I was looking for an exit...<br> ,106601001G,mcv_1001040201_014_01,on
 
-message,シエナ,<size=32>You were walking around a place like that alone... weren't you           <br><size=32>scared，Himari?<br> ,300501000,mcv_1001040201_015_01,on
+message,シエナ,<size=28>You were walking around alone in a place like that...               <br><size=28>weren't you scared，Himari?<br> ,300501000,mcv_1001040201_015_01,on
 
-message,ヒマリ,<size=32>Of course I was scared...<br> ,106601001G,mcv_1001040201_016_01,on
+message,ヒマリ,<size=28>Of course I was scared...<br> ,106601001G,mcv_1001040201_016_01,on
 
-message,ヒマリ,<size=32>So I put on the emergency gear from the storage and went out looking for <br><size=32>an exit...<br> ,106601001G,mcv_1001040201_017_01,on
+message,ヒマリ,<size=28>So Himari put on the emergency gear from storage                    <br><size=28>and went looking for an exit...<br> ,106601001G,mcv_1001040201_017_01,on
 
 window,off
 wait,0.15
@@ -633,9 +633,9 @@ asynctransitionFade,Tra05,in,black,1,STOP,1
 waitorclick,2.5
 
 window,on,0.15
-message,ヒマリ,<size=32>At first I thought about heading up... but there was magma spewing out   <br><size=32>and there were scary monsters，so it was impossible...<br> ,106601001G,mcv_1001040201_018_01,on
+message,ヒマリ,<size=28>At first Himari tried going up... but there was magma               <br><size=28>and scary monsters，so it was impossible...<br> ,106601001G,mcv_1001040201_018_01,on
 
-message,アーデルハイト,<size=32>That was the right call. The monsters there aren't weak enough for       <br><size=32>someone without fighting skills to outrun.<br> ,108701000G,mcv_1001040201_019_01,on
+message,アーデルハイト,<size=28>That was the right call. The monsters up there                      <br><size=28>aren't weak enough to outrun unarmed.<br> ,108701000G,mcv_1001040201_019_01,on
 
 
 window,off
@@ -685,7 +685,7 @@ asynccharaemo,chara_5,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,<size=32>The upper floors were scary，so I figured I'd try going down... but it was<br><size=32>just a terribly eerie place...<br> ,106601001G,mcv_1001040201_020_01,chara_5
+message,ヒマリ,<size=28>The upper floors were scary，so Himari tried going                   <br><size=28>down... but it was just terribly eerie...<br> ,106601001G,mcv_1001040201_020_01,chara_5
 
 window,off
 wait,0.15
@@ -736,7 +736,7 @@ asynccharaemo,chara_8,Question,CONT,0
 
 
 window,on,0.15
-message,アリシア,<size=32>What kind of eerie was it? From the observation balloon photos，it looked <br><size=32>like a desert or wasteland...<br> ,300201000,mcv_1001040201_021_01,chara_8
+message,アリシア,<size=28>What kind of eerie? From the balloon photos                         <br><size=28>it looked like a desert or wasteland...<br> ,300201000,mcv_1001040201_021_01,chara_8
 
 window,off
 wait,0.15
@@ -787,7 +787,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒマリ,<size=32>Yes，it was like a desert... with dead trees scattered all around... and a<br><size=32>lot of bones lying everywhere...<br> ,106601001G,mcv_1001040201_022_01,chara_5
+message,ヒマリ,<size=28>Yes，like a desert... dead trees everywhere...                       <br><size=28>and a lot of bones lying around...<br> ,106601001G,mcv_1001040201_022_01,chara_5
 
 asynccharaface,chara_5,FaceSad,CONT,0
 
@@ -798,7 +798,7 @@ asyncseplay,setag1_18,se4800015,0,1,CONT,0
 asynccharaemo,chara_5,Dull,CONT,0
 
 
-message,ヒマリ,<size=32>How do I put it... it felt like the world after death... that kind of    <br><size=32>feeling...<br> ,106601001G,mcv_1001040201_023_01,chara_5
+message,ヒマリ,<size=28>How should Himari put it...                                         <br><size=28>It felt like the world after death...<br> ,106601001G,mcv_1001040201_023_01,chara_5
 
 asyncshake,CHARA,chara_5,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -807,9 +807,9 @@ asyncseplay,setag1_19,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,ヒマリ,<size=32>It was scary，but I thought there might be an exit somewhere，so I walked  <br><size=32>around making marks on the dead trees so I wouldn't get lost...<br> ,106601001G,mcv_1001040201_024_01,chara_5
+message,ヒマリ,<size=28>It was scary，but Himari walked around marking                       <br><size=28>trees so I wouldn't get lost...<br> ,106601001G,mcv_1001040201_024_01,chara_5
 
-message,<user>,<size=32>Making marks as you went... that was a wise decision.<br> 
+message,<user>,<size=28>Making marks as you went... that was a wise decision.<br> 
 
 window,off
 wait,0.15
@@ -828,7 +828,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒマリ,<size=32>I walked around quite a lot... but when I reached a certain point，an     <br><size=32>enormous cry came from somewhere...<br> ,106601001G,mcv_1001040201_025_01,chara_5
+message,ヒマリ,<size=28>Himari walked around a lot... but at one point                      <br><size=28>a huge cry came from somewhere...<br> ,106601001G,mcv_1001040201_025_01,chara_5
 
 window,off
 wait,0.15
@@ -893,7 +893,7 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>A cry!?<br> ,106501000G,mcv_1001040201_026_01,chara_2
+message,ソフィア,<size=28>A cry!?<br> ,106501000G,mcv_1001040201_026_01,chara_2
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -904,7 +904,7 @@ asyncseplay,setag1_22,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ベリサ,<size=32>Could that be...?<br> ,100201000G,mcv_1001040201_027_01,chara_1
+message,ベリサ,<size=28>Could that be...?<br> ,100201000G,mcv_1001040201_027_01,chara_1
 
 window,off
 wait,0.15
@@ -957,7 +957,7 @@ asynccharaemo,chara_5,Dull,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,<size=32>Yes. It was a huge，eerie sound that shook the very ground... when I heard<br><size=32>that I got so scared I turned around and ran back...<br> ,106601001G,mcv_1001040201_028_01,chara_5
+message,ヒマリ,<size=28>Yes. A huge sound that shook the ground...                          <br><size=28>Himari got so scared and ran back...<br> ,106601001G,mcv_1001040201_028_01,chara_5
 
 asynccharaface,chara_5,FaceSad,CONT,0
 
@@ -968,7 +968,7 @@ asyncseplay,setag1_24,se4800007,0,1,CONT,0
 asynccharaemo,chara_5,Panic,CONT,0
 
 
-message,ヒマリ,<size=32>Once I got back to the storage，I was too scared to move... so that's when<br><size=32>I decided to use the megaphone to call for help...<br> ,106601001G,mcv_1001040201_029_01,chara_5
+message,ヒマリ,<size=28>Once back at the storage，Himari was too scared                      <br><size=28>to move... so I used the megaphone for help...<br> ,106601001G,mcv_1001040201_029_01,chara_5
 
 window,off
 wait,0.15
@@ -1029,7 +1029,7 @@ asyncjump,CHARA,chara_3,-30.6,0.5,1,off,0,CONT
 
 
 window,on,0.15
-message,マリナ,<size=32>So that's when your voice reached us〜.<br> ,100301000G,mcv_1001040201_030_01,chara_3
+message,マリナ,<size=28>So that's when your voice reached us〜.<br> ,100301000G,mcv_1001040201_030_01,chara_3
 
 window,off
 wait,0.15
@@ -1075,7 +1075,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,<size=32>I see. So Himari，after you returned from that floor，did you notice any   <br><size=32>changes in your physical condition?<br> 
+message,<user>,<size=28>I see. After returning from that floor，                             <br><size=28>did you notice any changes in your condition?<br> 
 
 asynccharaface,chara_5,FaceSurprise,CONT,0
 
@@ -1086,9 +1086,9 @@ asyncseplay,setag1_25,se4800009,0,1,CONT,0
 asynccharaemo,chara_5,Question,CONT,0
 
 
-message,ヒマリ,<size=32>Physical condition...?<br> ,106601001G,mcv_1001040201_031_01,chara_5
+message,ヒマリ,<size=28>Physical condition...?<br> ,106601001G,mcv_1001040201_031_01,chara_5
 
-message,<user>,<size=32>Anything is fine. Even something trivial.<br> 
+message,<user>,<size=28>Anything is fine. Even something trivial.<br> 
 
 asynccharaface,chara_5,FaceUnique01,CONT,0
 
@@ -1099,7 +1099,7 @@ asyncseplay,setag1_26,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,ヒマリ,<size=32>Um... actually，I was already feeling strange while walking around on that<br><size=32>floor... I had eaten my emergency rations before going，but I got terribly hungry...<br> ,106601001G,mcv_1001040201_032_01,chara_5
+message,ヒマリ,<size=28>Um... actually，Himari already felt strange                          <br><size=28>walking that floor... despite eating，I got so hungry...<br> ,106601001G,mcv_1001040201_032_01,chara_5
 
 asynccharaface,chara_5,FaceSad,CONT,0
 
@@ -1110,7 +1110,7 @@ asyncseplay,setag1_27,se4800015,0,1,CONT,0
 asynccharaemo,chara_5,Dull,CONT,0
 
 
-message,ヒマリ,<size=32>With every step I took，my body grew heavier and my head started          <br><size=32>hurting... After I made it back to the storage，I couldn't move for days...<br> ,106601001G,mcv_1001040201_033_01,chara_5
+message,ヒマリ,<size=28>Every step made Himari's body heavier                               <br><size=28>and my head hurt... I couldn't move for days after...<br> ,106601001G,mcv_1001040201_033_01,chara_5
 
 window,off
 wait,0.15
@@ -1165,7 +1165,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>What's that，what's that〜〜? Is it like a cursed floor or something〜?      <br><size=32>That's so bad!<br> ,100201000G,mcv_1001040201_034_01,chara_1
+message,ベリサ,<size=28>What's that，what's that~~?                                          <br><size=28>Is it like a cursed floor~? That's so bad!<br> ,100201000G,mcv_1001040201_034_01,chara_1
 
 asyncshake,CHARA,chara_4,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -1174,7 +1174,7 @@ asyncseplay,setag1_29,se4800006,0,1,CONT,0
 asynccharaemo,chara_4,Trouble,CONT,0
 
 
-message,クルル,<size=32>Kururu might lose the ability to move if she gets too hungry〜...<br> ,106701000G,mcv_1001040201_035_01,chara_4
+message,クルル,<size=28>Kururu might lose the ability to move if she gets too hungry〜...<br> ,106701000G,mcv_1001040201_035_01,chara_4
 
 window,off
 wait,0.15
@@ -1225,7 +1225,7 @@ waitorclick,1
 
 
 window,on,0.15
-message,ソフィア,<size=32>Well，all we know for sure is that it's a troublesome floor.<br> ,106501000G,mcv_1001040201_036_01,chara_2
+message,ソフィア,<size=28>Well，all we know for sure is that it's a troublesome floor.<br> ,106501000G,mcv_1001040201_036_01,chara_2
 
 asyncjump,CHARA,chara_3,-30.6,0.5,1,off,0,CONT
 
@@ -1234,7 +1234,7 @@ asyncseplay,setag1_30,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,マリナ,<size=32>Looks like we'll have to stock up properly before going〜.<br> ,100301000G,mcv_1001040201_037_01,chara_3
+message,マリナ,<size=28>Looks like we'll have to stock up properly before going〜.<br> ,100301000G,mcv_1001040201_037_01,chara_3
 
 window,off
 wait,0.15
@@ -1286,11 +1286,11 @@ asynccharaemo,chara_7,Speak,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,<size=32>Commander，now that you've heard all the information，what do you think?   <br><size=32>...Or rather，have you already figured it out?<br> ,108701000G,mcv_1001040201_038_01,chara_7
+message,アーデルハイト,<size=28>Commander，now that you've heard everything，                         <br><size=28>what do you think? ...Have you figured it out?<br> ,108701000G,mcv_1001040201_038_01,chara_7
 
 bgmplay,bgmtag1_2,bgm0040,0.75,1
 
-message,<user>,<size=32>Yes. When I saw the observation balloon photos，it was only a guess. But  <br><size=32>after hearing Himari's account，I'd say I'm closer to certain...<br> 
+message,<user>,<size=28>Yes. When I saw the photos，it was just a guess.                     <br><size=28>After Himari's account，I'm near certain...<br> 
 
 asynccharaface,chara_7,FaceAnger,CONT,0
 
@@ -1301,7 +1301,7 @@ asyncseplay,setag1_32,se4800019,0,1,CONT,0
 asynccharaemo,chara_7,Elated,CONT,0
 
 
-message,アーデルハイト,<size=32>I think the same.<br> ,108701000G,mcv_1001040201_039_01,chara_7
+message,アーデルハイト,<size=28>I think the same.<br> ,108701000G,mcv_1001040201_039_01,chara_7
 
 window,off
 wait,0.15
@@ -1356,7 +1356,7 @@ asynccharaemo,chara_6,Sweat,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=32>So it really is，isn't it...<br> ,300501000,mcv_1001040201_040_01,chara_6
+message,シエナ,<size=28>So it really is，isn't it...<br> ,300501000,mcv_1001040201_040_01,chara_6
 
 window,off
 wait,0.15
@@ -1425,9 +1425,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ソフィア,<size=32>What is it? What's on that floor we're heading to?<br> ,106501000G,mcv_1001040201_041_01,chara_2
+message,ソフィア,<size=28>What is it? What's on that floor we're heading to?<br> ,106501000G,mcv_1001040201_041_01,chara_2
 
-message,<user>,<size=32>These photos，and Himari's testimony... they closely resemble the contents<br><size=32>of a certain report...<br> 
+message,<user>,<size=28>These photos and Himari's testimony closely match                   <br><size=28>the contents of a certain report...<br> 
 
 window,off
 wait,0.15
@@ -1480,9 +1480,9 @@ asynccharaemo,chara_8,Panic,CONT,0
 
 
 window,on,0.15
-message,アリシア,<size=32>C-Commander，could it be...!<br> ,300201000,mcv_1001040201_042_01,chara_8
+message,アリシア,<size=28>C-Commander，could it be...!<br> ,300201000,mcv_1001040201_042_01,chara_8
 
-message,<user>,<size=32>It seems Alicia's figured it out too.<br> 
+message,<user>,<size=28>It seems Alicia's figured it out too.<br> 
 
 asynccharaface,chara_8,FaceSad,CONT,0
 
@@ -1493,9 +1493,9 @@ asyncseplay,setag1_36,se4800008,0,1,CONT,0
 asynccharaemo,chara_8,Sweat,CONT,0
 
 
-message,アリシア,<size=32>Y-yes... the Hunger... Calamity...<br> ,300201000,mcv_1001040201_043_01,chara_8
+message,アリシア,<size=28>Y-yes... the Hunger... Calamity...<br> ,300201000,mcv_1001040201_043_01,chara_8
 
-message,<user>,<size=32>Exactly.<br> 
+message,<user>,<size=28>Exactly.<br> 
 
 window,off
 wait,0.15
@@ -1558,7 +1558,7 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>T-the Hunger Calamity!? The massive Calamity we fought first...!?<br> ,106501000G,mcv_1001040201_044_01,chara_2
+message,ソフィア,<size=28>T-the Hunger Calamity!? The massive Calamity we fought first...!?<br> ,106501000G,mcv_1001040201_044_01,chara_2
 
 window,off
 wait,0.15
@@ -1611,11 +1611,11 @@ asynccharaemo,chara_8,Dull,CONT,0
 
 
 window,on,0.15
-message,アリシア,<size=32>So you mean the Hunger Calamity is still alive...?<br> ,300201000,mcv_1001040201_045_01,chara_8
+message,アリシア,<size=28>So you mean the Hunger Calamity is still alive...?<br> ,300201000,mcv_1001040201_045_01,chara_8
 
-message,<user>,<size=32>Yes，that's right. The Hunger Calamity didn't vanish. It's been sleeping  <br><size=32>all along，building its strength.<br> 
+message,<user>,<size=28>Yes. The Hunger Calamity didn't vanish.                             <br><size=28>It's been sleeping，building its strength.<br> 
 
-message,<user>,<size=32>Quietly lurking in the floor from these photos all this time...<br> 
+message,<user>,<size=28>Quietly lurking in the floor from these photos all this time...<br> 
 
 window,off
 wait,0.15
@@ -1671,7 +1671,7 @@ asynccharaemo,chara_7,Elated,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,<size=32>As always，a sharp deduction. When this data came to me，that was the first<br><size=32>thing that came to mind as well.<br> ,108701000G,mcv_1001040201_046_01,chara_7
+message,アーデルハイト,<size=28>Sharp as always. When this data reached me，                         <br><size=28>that was the first thing I thought too.<br> ,108701000G,mcv_1001040201_046_01,chara_7
 
 window,off
 wait,0.15
@@ -1722,9 +1722,9 @@ asynccharaemo,chara_8,Sweat,CONT,0
 
 
 window,on,0.15
-message,アリシア,<size=32>Th-that's... the Hunger Calamity...<br> ,300201000,mcv_1001040201_047_01,chara_8
+message,アリシア,<size=28>Th-that's... the Hunger Calamity...<br> ,300201000,mcv_1001040201_047_01,chara_8
 
-message,<user>,<size=32>I'm sorry I kept it from you，Alicia. This time we'll put it down for     <br><size=32>good. Definitely...<br> 
+message,<user>,<size=28>I'm sorry I kept it from you，Alicia.                                <br><size=28>This time we'll finish it off. Definitely...<br> 
 
 window,off
 wait,0.15
@@ -1806,7 +1806,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>W-well，whether it's the Hunger Calamity or anything else，nothing about   <br><size=32>what we're doing changes，right〜?<br> ,100201000G,mcv_1001040201_049_01,chara_1
+message,ベリサ,<size=28>W-well，whether it's the Hunger Calamity or not，                     <br><size=28>nothing about what we do changes，right~?<br> ,100201000G,mcv_1001040201_049_01,chara_1
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -1818,9 +1818,9 @@ asyncseplay,setag1_43,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ソフィア,<size=32>Th-that's right. Just as the Commander says—if the Hunger Calamity is    <br><size=32>alive，we'll finish it off this time! That's all there is to it!<br> ,106501000G,mcv_1001040201_050_01,chara_2
+message,ソフィア,<size=28>Th-that's right! If it's alive，                                     <br><size=28>we'll finish it off this time! That's all!<br> ,106501000G,mcv_1001040201_050_01,chara_2
 
-message,<user>,<size=32>Listen. The goal of this Great Rift exploration is not to directly strike<br><size=32>at the Calamity. Our purpose is strictly data collection on the Calamity.<br> 
+message,<user>,<size=28>Listen. Our goal isn't to strike the Calamity.                      <br><size=28>This mission is strictly data collection.<br> 
 
 window,off
 wait,0.15
@@ -1871,7 +1871,7 @@ asynccharaemo,chara_4,Question,CONT,0
 
 
 window,on,0.15
-message,クルル,<size=32>Data col-lec-tion?<br> ,106701000G,mcv_1001040201_051_01,chara_4
+message,クルル,<size=28>Data col-lec-tion?<br> ,106701000G,mcv_1001040201_051_01,chara_4
 
 window,off
 wait,0.15
@@ -1928,7 +1928,7 @@ asynccharaemo,chara_7,Speak,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,<size=32>Yes. Without enemy data，we can't develop weapons to counter it.<br> ,108701000G,mcv_1001040201_052_01,chara_7
+message,アーデルハイト,<size=28>Yes. Without enemy data，we can't develop weapons to counter it.<br> ,108701000G,mcv_1001040201_052_01,chara_7
 
 window,off
 wait,0.15
@@ -1987,7 +1987,7 @@ asynccharaemo,chara_3,Spirits,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=32>Anyway，preparations then〜. I'll secure a large supply of potions and     <br><size=32>food〜!<br> ,100301000G,mcv_1001040201_053_01,chara_3
+message,マリナ,<size=28>Anyway，prep time~!                                                  <br><size=28>I'll stock up on potions and food~!<br> ,100301000G,mcv_1001040201_053_01,chara_3
 
 asynccharaface,chara_4,FaceHappy,CONT,0
 
@@ -1998,7 +1998,7 @@ asyncseplay,setag1_47,se4800004,0,1,CONT,0
 asynccharaemo,chara_4,Laugh,CONT,0
 
 
-message,クルル,<size=32>Yeah! Make sure to get plenty of food for Kururu too〜!<br> ,106701000G,mcv_1001040201_054_01,chara_4
+message,クルル,<size=28>Yeah! Make sure to get plenty of food for Kururu too〜!<br> ,106701000G,mcv_1001040201_054_01,chara_4
 
 window,off
 wait,0.15
@@ -2053,7 +2053,7 @@ asyncjump,CHARA,chara_6,30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,シエナ,<size=32>Commander，this time more than ever，we're facing a truly troublesome      <br><size=32>opponent. Please let us give you our full cooperation!<br> ,300501000,mcv_1001040201_055_01,chara_6
+message,シエナ,<size=28>Commander-san，this opponent is truly formidable.                    <br><size=28>Please let us give our full cooperation!<br> ,300501000,mcv_1001040201_055_01,chara_6
 
 window,off
 wait,0.15
@@ -2072,9 +2072,9 @@ wait,0.5
 
 
 window,on,0.15
-message,アーデルハイト,<size=32>We still don't have nearly enough information to take it on properly.    <br><size=32>Commander，it'll be quite dangerous，but please collect data on the Calamity.<br> ,108701000G,mcv_1001040201_056_01,chara_7
+message,アーデルハイト,<size=28>We lack the intel to fight it properly.                             <br><size=28>Commander，please gather data on the Calamity.<br> ,108701000G,mcv_1001040201_056_01,chara_7
 
-message,<user>,<size=32>Understood. Adelheid，please use every material we've gathered so far and <br><size=32>upgrade our equipment to the fullest!<br> 
+message,<user>,<size=28>Understood. Adelheid，use everything we've gathered                  <br><size=28>and upgrade our equipment to the max!<br> 
 
 asynccharaface,chara_7,EyeOpen,CONT,0
 asynccharaface,chara_7,FaceNormal,CONT,0
@@ -2086,7 +2086,7 @@ asyncseplay,setag1_49,se4800022,0,1,CONT,0
 asynccharaemo,chara_7,Speak,CONT,0
 
 
-message,アーデルハイト,<size=32>Understood.<br> ,108701000G,mcv_1001040201_057_01,chara_7
+message,アーデルハイト,<size=28>Understood.<br> ,108701000G,mcv_1001040201_057_01,chara_7
 
 window,off
 wait,0.15
@@ -2137,7 +2137,7 @@ asynccharaemo,chara_8,Sweat,CONT,0
 
 
 window,on,0.15
-message,アリシア,<size=32>E-everyone... please do your best...! You absolutely must，absolutely must<br><size=32>defeat that Calamity!<br> ,300201000,mcv_1001040201_058_01,chara_8
+message,アリシア,<size=28>E-everyone... please do your best...!                               <br><size=28>You absolutely must defeat that Calamity!<br> ,300201000,mcv_1001040201_058_01,chara_8
 
 window,off
 wait,0.15
@@ -2192,7 +2192,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒマリ,<size=32>Ah，um...!<br> ,106601001G,mcv_1001040201_059_01,chara_5
+message,ヒマリ,<size=28>Ah，um...!<br> ,106601001G,mcv_1001040201_059_01,chara_5
 
 window,off
 wait,0.15
@@ -2247,7 +2247,7 @@ asynccharaemo,chara_6,Sweat,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=32>Himari!? What's wrong，raising your voice like that all of a sudden. Don't<br><size=32>worry，you just wait here.<br> ,300501000,mcv_1001040201_060_01,chara_6
+message,シエナ,<size=28>Himari!? Why are you raising your voice?                            <br><size=28>Don't worry，you just wait here.<br> ,300501000,mcv_1001040201_060_01,chara_6
 
 asynccharaface,chara_5,FaceAnger,CONT,0
 
@@ -2258,7 +2258,7 @@ asyncseplay,setag1_54,se4800007,0,1,CONT,0
 asynccharaemo,chara_5,Panic,CONT,0
 
 
-message,ヒマリ,<size=32>H-Himari wants to come too!<br> ,106601001G,mcv_1001040201_061_01,chara_5
+message,ヒマリ,<size=28>H-Himari wants to come too!<br> ,106601001G,mcv_1001040201_061_01,chara_5
 
 asynccharaface,chara_6,FaceSad,CONT,0
 
@@ -2269,7 +2269,7 @@ asyncseplay,setag1_55,se4800011,0,1,CONT,0
 asynccharaemo,chara_6,ExclaQues,CONT,0
 
 
-message,シエナ,<size=32>Wh-what are you saying!?<br> ,300501000,mcv_1001040201_062_01,chara_6
+message,シエナ,<size=28>Wh-what are you saying!?<br> ,300501000,mcv_1001040201_062_01,chara_6
 
 asynccharaface,chara_5,FaceSad,CONT,0
 
@@ -2280,9 +2280,9 @@ asyncseplay,setag1_56,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,ヒマリ,<size=32>I've been to that floor before... s-so... I want to at least guide       <br><size=32>everyone there!<br> ,106601001G,mcv_1001040201_063_01,chara_5
+message,ヒマリ,<size=28>Himari has been to that floor before...                             <br><size=28>s-so... Himari wants to at least guide everyone!<br> ,106601001G,mcv_1001040201_063_01,chara_5
 
-message,<user>,<size=32>It's true that having someone who's been to that floor act as a guide    <br><size=32>would help...<br> 
+message,<user>,<size=28>It's true that having someone who knows the floor                   <br><size=28>as a guide would help...<br> 
 
 window,off
 wait,0.15
@@ -2301,7 +2301,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒマリ,<size=32>I remember the route up to where I heard the loud cry. I think I can     <br><size=32>guide everyone that far... so...<br> ,106601001G,mcv_1001040201_064_01,chara_5
+message,ヒマリ,<size=28>Himari remembers the route up to where I heard                      <br><size=28>the loud cry. I can guide everyone that far...<br> ,106601001G,mcv_1001040201_064_01,chara_5
 
 asyncjump,CHARA,chara_6,30,0.25,1,off,0,CONT
 
@@ -2310,7 +2310,7 @@ asyncseplay,setag1_58,se4800008,0,1,CONT,0
 asynccharaemo,chara_6,Sweat,CONT,0
 
 
-message,シエナ,<size=32>N-no no，absolutely not! Do you know how dangerous the Great Rift is!?    <br><size=32>After everything you went through... I absolutely oppose this!<br> ,300501000,mcv_1001040201_065_01,chara_6
+message,シエナ,<size=28>N-no，absolutely not! Do you know how dangerous                      <br><size=28>the Abyss is!? I absolutely oppose this!<br> ,300501000,mcv_1001040201_065_01,chara_6
 
 asynccharaface,chara_5,FaceAnger,CONT,0
 
@@ -2321,7 +2321,7 @@ asyncseplay,setag1_59,se4800010,0,1,CONT,0
 asynccharaemo,chara_5,Exclamation,CONT,0
 
 
-message,ヒマリ,<size=32>H-Himari had her life saved，and she wants to repay that... if there's    <br><size=32>something Himari can do，she wants to help... so please!<br> ,106601001G,mcv_1001040201_066_01,chara_5
+message,ヒマリ,<size=28>H-Himari wants to repay being saved...                              <br><size=28>if there's something Himari can do，please...!<br> ,106601001G,mcv_1001040201_066_01,chara_5
 
 asyncshake,CHARA,chara_6,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -2330,9 +2330,9 @@ asyncseplay,setag1_60,se4800006,0,1,CONT,0
 asynccharaemo,chara_6,Trouble,CONT,0
 
 
-message,シエナ,<size=32>But... if something happened，you could die，you know? There's no way I    <br><size=32>could take Himari to a place that dangerous...<br> ,300501000,mcv_1001040201_067_01,chara_6
+message,シエナ,<size=28>But... you could die. There's no way                                <br><size=28>I could take Himari somewhere that dangerous...<br> ,300501000,mcv_1001040201_067_01,chara_6
 
-message,<user>,<size=32>Understood. Himari，can I ask you to guide us?<br> 
+message,<user>,<size=28>Understood. Himari，can I ask you to guide us?<br> 
 
 window,off
 wait,0.15
@@ -2382,9 +2382,9 @@ asynccharaemo,chara_6,Anger,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=32>Commander!?<br> ,300501000,mcv_1001040201_068_01,chara_6
+message,シエナ,<size=28>Commander-san!?<br> ,300501000,mcv_1001040201_068_01,chara_6
 
-message,<user>,<size=32>I'm not just caving to Himari's feelings，you know. Having a guide is     <br><size=32>genuinely better.<br> 
+message,<user>,<size=28>I'm not just caving to Himari's feelings.                           <br><size=28>Having a guide is genuinely better.<br> 
 
 asynccharaface,chara_6,FaceSad,CONT,0
 
@@ -2395,11 +2395,11 @@ asyncseplay,setag1_62,se4800015,0,1,CONT,0
 asynccharaemo,chara_6,Dull,CONT,0
 
 
-message,シエナ,<size=32>B-but，if something happened to Himari...<br> ,300501000,mcv_1001040201_069_01,chara_6
+message,シエナ,<size=28>B-but，if something happened to Himari...<br> ,300501000,mcv_1001040201_069_01,chara_6
 
-message,<user>,<size=32>Himari actually explored that floor on her own. As miraculous as it      <br><size=32>was，you could say she knows a safe route.<br> 
+message,<user>,<size=28>Himari actually explored that floor alone.                          <br><size=28>Miraculous as it was，she knows a safe route.<br> 
 
-message,<user>,<size=32>If danger seems imminent，we can have just Himari withdraw from the Great <br><size=32>Rift. With you there，Siena，that should be possible，right?<br> 
+message,<user>,<size=28>If danger comes，we send just Himari back.                           <br><size=28>With you there，Shiena，that should work，right?<br> 
 
 window,off
 wait,0.15
@@ -2454,7 +2454,7 @@ asynccharaemo,chara_5,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,<size=32>Siena，please...<br> ,106601001G,mcv_1001040201_070_01,chara_5
+message,ヒマリ,<size=28>Shiena，please...<br> ,106601001G,mcv_1001040201_070_01,chara_5
 
 window,off
 wait,0.15
@@ -2484,7 +2484,7 @@ asynccharaemo,chara_6,Sweat,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=32>...F-fine. I'll protect Himari! But you absolutely must not push         <br><size=32>yourself，okay?<br> ,300501000,mcv_1001040201_071_01,chara_6
+message,シエナ,<size=28>...F-fine. I'll protect Himari!                                     <br><size=28>But you must not push yourself，okay?<br> ,300501000,mcv_1001040201_071_01,chara_6
 
 asynccharaface,chara_5,FaceFun,CONT,0
 
@@ -2495,7 +2495,7 @@ asyncseplay,setag1_66,se4800018,0,1,CONT,0
 asynccharaemo,chara_5,Flower,CONT,0
 
 
-message,ヒマリ,<size=32>Thank you，Siena...!<br> ,106601001G,mcv_1001040201_072_01,chara_5
+message,ヒマリ,<size=28>Thank you，Shiena...!<br> ,106601001G,mcv_1001040201_072_01,chara_5
 
 window,off
 wait,0.15
@@ -2544,9 +2544,9 @@ asynccharaemo,chara_7,Trouble,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,<size=32>...Being from the same homeland，you two really do seem close.<br> ,108701000G,mcv_1001040201_073_01,chara_7
+message,アーデルハイト,<size=28>...Being from the same homeland，you two really do seem close.<br> ,108701000G,mcv_1001040201_073_01,chara_7
 
-message,<user>,<size=32>Hmm? It's unusual for you to be jealous of someone.<br> 
+message,<user>,<size=28>Hmm? It's unusual for you to be jealous of someone.<br> 
 
 asynccharaface,chara_7,FaceShy,CONT,0
 
@@ -2557,7 +2557,7 @@ asyncseplay,setag1_68,se4800012,0,1,CONT,0
 asynccharaemo,chara_7,Shy,CONT,0
 
 
-message,アーデルハイト,<size=32>J-jealous? Me? I-it's not like I'm in a bad mood from seeing Siena       <br><size=32>getting along so well with someone else!?<br> ,108701000G,mcv_1001040201_074_01,chara_7
+message,アーデルハイト,<size=28>J-jealous? Me? I-it's not like I'm upset                            <br><size=28>seeing Shiena get along so well with someone!?<br> ,108701000G,mcv_1001040201_074_01,chara_7
 
 asynccharaface,chara_7,EyeOpen,STOP,1
 asynccharaface,chara_7,FaceNormal,STOP,1
@@ -2568,7 +2568,7 @@ asyncseplay,setag1_69,se4800022,0,1,STOP,1
 
 asynccharaemo,chara_7,Speak,STOP,1
 
-message,<user>,<size=32>You just explained everything yourself... Alright，as soon as preparations<br><size=32>are done，we depart!<br> 
+message,<user>,<size=28>You just explained everything yourself...                           <br><size=28>Alright，as soon as we're ready，we depart!<br> 
 
 asynccharaface,chara_7,FaceUnique01,CONT,0
 
@@ -2579,7 +2579,7 @@ asyncseplay,setag1_70,se4800019,0,1,CONT,0
 asynccharaemo,chara_7,Elated,CONT,0
 
 
-message,アーデルハイト,<size=32>I'll get to work preparing on my end as well，developing new weapons.<br> ,108701000G,mcv_1001040201_075_01,chara_7
+message,アーデルハイト,<size=28>I'll get to work preparing on my end as well，developing new weapons.<br> ,108701000G,mcv_1001040201_075_01,chara_7
 
 window,off
 wait,0.15
@@ -2628,7 +2628,7 @@ asynccharaemo,chara_8,Sweat,CONT,0
 
 
 window,on,0.15
-message,アリシア,<size=32>Everyone... please take care of yourselves...!<br> ,300201000,mcv_1001040201_076_01,chara_8
+message,アリシア,<size=28>Everyone... please take care of yourselves...!<br> ,300201000,mcv_1001040201_076_01,chara_8
 
 window,off
 bgmstop,bgmtag1_2,0.5

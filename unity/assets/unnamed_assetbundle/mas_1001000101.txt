@@ -20,7 +20,7 @@ objectload,ラモーナ,CHARA,106401000G,ラモーナ
 
 uivisible,on
 
-messageTextCenter,,<size=48>--This is a tale from a while after I took command as Commander.</size>,,,on
+messageTextCenter,,<size=48>——This is a tale from some time after I became Commander.</size>,,,on
 
 //プレイアブルキャサポート
 objectload,ピコ,CHARA,101401000G,ピコ
@@ -127,18 +127,18 @@ objectdirect,Belisa,LEFT
 objectdirect,Sophia,LEFT
 objectmotion,Belisa,N_think,1,1,,0.1
 
-dotmessage,ベリサ,<size=32>Hey hey~                                                                 <br><size=32>haven't we come down to a pretty deep floor?<br> ,,mcv_1001000101_001_01,NORMAL,Mid,,Belisa,TOP,NORMAL,0,20
+dotmessage,ベリサ,<size=24>Hey hey~<br>haven't we come down to a pretty deep floor?,,mcv_1001000101_001_01,NORMAL,Mid,,Belisa,TOP,NORMAL,0,20
 
 asyncseplay,se4800003,se4800003,0,1,CONT,0
 asyncobjectemo,Marina,Twinkle
 objectmotion,Marina,N_gesture,0,1,,0.1
 asyncwait
 
-dotmessage,マリナ,<size=32>Now now~ ♥                                                               <br><size=32>The deeper places have lots of rare treasure too~ ♥<br> ,,mcv_1001000101_002_01,NORMAL,Mid,HAPPY,Marina,TOP,NORMAL,0,50
+dotmessage,マリナ,<size=24>Now now~♪ The deeper places<br>have lots of rare treasure too~♪,,mcv_1001000101_002_01,NORMAL,Mid,HAPPY,Marina,TOP,NORMAL,0,50
 
 objectmotion,Belisa,N_sorrow,1,1,,0.1
 
-dotmessage,ベリサ,<size=32>Whoa... there go Marina's eyes again                                     <br><size=32>sparkling as she imagines all that money.<br> ,,mcv_1001000101_003_01,NORMAL,Mid,SAD,Belisa,TOP,NORMAL,0,20
+dotmessage,ベリサ,<size=24>Whoa... Marina's eyes are doing that thing again，<br>all sparkly just thinking about money~,,mcv_1001000101_003_01,NORMAL,Mid,SAD,Belisa,TOP,NORMAL,0,20
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 asyncseplay,se4800001,se4800001,0,1,CONT,0
@@ -146,26 +146,26 @@ asyncobjectemo,Sophia,Anger
 objectmotion,Sophia,N_Pointing,1,1,,0.1
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 
-dotmessage,ソフィア,<size=32>Hey!                                                                     <br><size=32>You two，quit the idle chatter!<br> ,,mcv_1001000101_004_01,NORMAL,Mid,ANGER,Sophia,TOP,NORMAL,0,20
+dotmessage,ソフィア,<size=24>Hey!<br>You two，quit the idle chatter!,,mcv_1001000101_004_01,NORMAL,Mid,ANGER,Sophia,TOP,NORMAL,0,20
 objectmotion,Sophia,C_Wait,0,1,,0.1
 
 objectdirect,Belisa,RIGHT
 objectmotion,Marina,C_Wait,0,1,,0.1
 objectmotion,Belisa,C_Wait,0,1,,0.1
 
-dotmessage,ソフィア,<size=32>We never know when monsters                                              <br><size=32>might come attacking down here...<br> ,,mcv_1001000101_005_01,NORMAL,Mid,ANGER,Sophia,TOP,NORMAL,0,20
+dotmessage,ソフィア,<size=24>We never know when monsters<br>might attack down here...,,mcv_1001000101_005_01,NORMAL,Mid,ANGER,Sophia,TOP,NORMAL,0,20
 
 asyncseplay,se4800004,se4800004,0,1,CONT,0
 asyncobjectemo,Belisa,Laugh
 objectmotion,Belisa,N_embarrassing,0,1,,0.1
 asyncwait
 
-dotmessage,ベリサ,<size=32>Yes ma'am! I'll be careful~ ♥                                            <br><size=32>Madam Student Council President Sophia~ ♥<br> ,,mcv_1001000101_006_01,NORMAL,Mid,NORMAL,Belisa,TOP,NORMAL,0,20
+dotmessage,ベリサ,<size=24>Yes ma'am~! I'll be careful~♪<br>Miss Class Prez Sophia~♪,,mcv_1001000101_006_01,NORMAL,Mid,NORMAL,Belisa,TOP,NORMAL,0,20
 
 objectmotion,Sophia,N_No,1,1,,0.1
 asyncwait
 
-dotmessage,ソフィア,<size=32>Listen here，you~...<br> ,,mcv_1001000101_007_01,NORMAL,Mid,ANGER,Sophia,TOP,NORMAL,0,20
+dotmessage,ソフィア,<size=24>Listen here，you~...,,mcv_1001000101_007_01,NORMAL,Mid,ANGER,Sophia,TOP,NORMAL,0,20
 
 asyncseplay,se4800010,se4800010,0,1,CONT,0
 asyncobjectemo,user,Exclamation
@@ -202,7 +202,7 @@ asyncdotmove,Wolf,0,26,0,0,Set
 asyncwait
 
 
-dotmessage,<user>,<size=32>Hey，you lot，                                                             <br><size=32>that's enough chitchat!<br> ,,,NORMAL,Mid,,user,TOP,NORMAL,0,20
+dotmessage,<user>,<size=24>Hey，you lot，<br>that's enough chitchat!,,,NORMAL,Mid,,user,TOP,NORMAL,0,20
 
 bgmstop,bgmtag0_1,1
 
@@ -294,26 +294,26 @@ dotcameramove,3.2,0,LinearTarget,0.5,None,CONT,0
 
 objectmotion,Sophia,N_Yes,1,1,C_Wait,0
 
-dotmessage,ソフィア,<size=32>I know. Twelve o'clock direction.                                        <br><size=32>Those footsteps... that's quite a number of them...<br> ,,mcv_1001000101_008_01,NORMAL,Mid,NORMAL,Sophia,TOP,NORMAL,0,20
+dotmessage,ソフィア,<size=24>I know. Twelve o'clock.<br>Those footsteps... there's quite a few of them...,,mcv_1001000101_008_01,NORMAL,Mid,NORMAL,Sophia,TOP,NORMAL,0,20
 
 objectmotion,Marina,N_think,1,1,,0
 
-dotmessage,マリナ,<size=32>But it doesn't look like there's                                         <br><size=32>any giant monster around~...<br> ,,mcv_1001000101_009_01,NORMAL,Mid,NORMAL,Marina,TOP,NORMAL,0,50
+dotmessage,マリナ,<size=24>But it doesn't look like there's<br>any giant monster around~...,,mcv_1001000101_009_01,NORMAL,Mid,NORMAL,Marina,TOP,NORMAL,0,50
 
 //////////////////////////////////////////////////////////////////////////////////////////////
 objectmotion,Belisa,C_WeaponSkillCharge,1,1,,0
 objectmotion,Marina,C_Wait,0,1,,0
 //////////////////////////////////////////////////////////////////////////////////////////////
 
-dotmessage,ベリサ,<size=32>Shall the beautiful girl mage Belisa                                     <br><size=32>burn them all to a crisp~? ♥<br> ,,mcv_1001000101_010_01,NORMAL,Mid,HAPPY,Belisa,TOP,NORMAL,0,20
+dotmessage,ベリサ,<size=24>Want the gorgeous mage Belisa-chan to<br>burn every~thing to a crisp for you~♪,,mcv_1001000101_010_01,NORMAL,Mid,HAPPY,Belisa,TOP,NORMAL,0,20
 
 objectmotion,user,N_talk,1,1,,0
 
-dotmessage,<user>,<size=32>Belisa，                                                                  <br><size=32>overconfidence is the cause of injury!<br> ,,,NORMAL,Mid,,user,TOP,NORMAL,0,20
+dotmessage,<user>,<size=24>Belisa，pride comes<br>before the fall!,,,NORMAL,Mid,,user,TOP,NORMAL,0,20
 
 objectmotion,Belisa,N_gesture,0,1,,0
 
-dotmessage,ベリサ,<size=32>Yes ma'am!                                                               <br><size=32>I understand~ ♥<br> ,,mcv_1001000101_011_01,NORMAL,Mid,FUN,Belisa,TOP,NORMAL,0,20
+dotmessage,ベリサ,<size=24>Yes sir~!<br>I kno~w~♪,,mcv_1001000101_011_01,NORMAL,Mid,FUN,Belisa,TOP,NORMAL,0,20
 
 asyncseplay,se4800002,se4800002,0,1,CONT,0
 asyncobjectemo,Belisa,Heart
@@ -321,7 +321,7 @@ asyncwait
 
 objectmotion,Belisa,N_embarrassing,1,1,,0
 
-dotmessage,ベリサ,<size=32>But if I do get hurt，                                                    <br><size=32>you'll carry me princess-style then，okay? ♡<br> ,,mcv_1001000101_012_01,NORMAL,Mid,SHY,Belisa,TOP,NORMAL,0,20
+dotmessage,ベリサ,<size=24>But if I do get hurt，<br>you'll princess carry me，okay? ♡,,mcv_1001000101_012_01,NORMAL,Mid,SHY,Belisa,TOP,NORMAL,0,20
 
 asyncseplay,se4800008,se4800008,0,1,CONT,0
 asyncobjectemo,user,Sweat
@@ -347,7 +347,7 @@ asyncobjectemo,エミリー,Sweat
 asyncobjectmotion,エミリー,N_sorrow,1,1,,0
 asyncwait
 
-dotmessage,<user>,<size=32>Why would I...<br> ,,,NORMAL,Mid,,user,TOP,NORMAL,0,20
+dotmessage,<user>,<size=24>Why would I...,,,NORMAL,Mid,,user,TOP,NORMAL,0,20
 
 asyncobjectmotion,user,C_Wait,1,1,,0
 asyncobjectmotion,Sophia,C_Wait,0,1,,0
@@ -367,7 +367,7 @@ asyncobjectmotion,エミリー,C_Wait,0,1,,0
 asyncobjectmotion,Belisa,U_Boo,0,1,CONT,0
 ///////////////////////////////////////////////////////////////
 
-dotmessage,ベリサ,<size=32>Aww，what a cheapskate~!<br> ,,mcv_1001000101_013_01,NORMAL,Mid,ANGER,Belisa,TOP,NORMAL,0,20
+dotmessage,ベリサ,<size=24>Aww，what a cheapskate~!,,mcv_1001000101_013_01,NORMAL,Mid,ANGER,Belisa,TOP,NORMAL,0,20
 
 /////////////////////////////////////////////////////////////////////////////////////////
 asyncobjectmotion,user,N_bounce,1,1,,0
@@ -376,7 +376,7 @@ asyncobjectmotion,user,N_bounce,1,1,,0
 asyncobjectmotion,Belisa,C_Wait,0,1,,0
 asyncwait
 
-dotmessage,<user>,<size=32>Here they come! Marina!                                                  <br><size=32>Don't slack on prepping the potions!<br> ,,,NORMAL,Mid,,user,TOP,NORMAL,0,20
+dotmessage,<user>,<size=24>Here they come! Marina!<br>Keep those potions ready!,,,NORMAL,Mid,,user,TOP,NORMAL,0,20
 
 asyncobjectmotion,user,C_Wait,0,1,,0
 
@@ -384,17 +384,17 @@ asyncobjectmotion,user,C_Wait,0,1,,0
 objectmotion,Marina,N_gesture,0,1,C_Wait,0
 /////////////////////////////////////////////////////////////////////////////////////////
 
-dotmessage,マリナ,<size=32>Leave it to me~.                                                         <br><size=32>Special potions ready to go~ ♥<br> ,,mcv_1001000101_014_01,NORMAL,Mid,FUN,Marina,TOP,NORMAL,0,50
+dotmessage,マリナ,<size=24>Leave it to me~.<br>Special potions ready to go~♪,,mcv_1001000101_014_01,NORMAL,Mid,FUN,Marina,TOP,NORMAL,0,50
 
 asyncobjectmotion,user,U_Pointing,1,1,,0
 
-dotmessage,<user>,<size=32>Sophia，Belisa! With your                                                 <br><size=32>combo attack you should take them down easily!<br> ,,,NORMAL,Mid,,user,TOP,NORMAL,0,20
+dotmessage,<user>,<size=24>Sophia，Belisa! With your combo attack<br>you should take them down easily!,,,NORMAL,Mid,,user,TOP,NORMAL,0,20
 
 
 asyncobjectmotion,user,U_Appeal,1,1,,0
 
 
-dotmessage,<user>,<size=32>Everyone else，give them support!                                         <br><size=32>Let's finish this in one push!<br> ,,,NORMAL,Mid,,user,TOP,NORMAL,0,20
+dotmessage,<user>,<size=24>Everyone，give them support!<br>Let's end this!,,,NORMAL,Mid,,user,TOP,NORMAL,0,20
 
 objectdirect,Belisa,RIGHT
 objectdirect,Marina,RIGHT

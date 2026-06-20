@@ -160,7 +160,7 @@ asyncseplay,se4800019_,se4800019,0,1,CONT,0
 asyncobjectmotion,mi_solA,N_bounce,1,1,,1,CONT,0
 objectemo,mi_solA,Elated
 
-dotmessage,ミレスガルド兵Ａ,<size=32>Alright，                                                                 <br><size=32>that's enough exploring for today!<br> ,,,NORMAL,Mid,NORMAL,mi_solA,TOP,NORMAL,0,20
+dotmessage,ミレスガルド兵Ａ,<size=24>Alright，<br>that's enough exploring for today!,,,NORMAL,Mid,NORMAL,mi_solA,TOP,NORMAL,0,20
 
 //モーション設定
 //エモ　♪
@@ -175,7 +175,7 @@ asyncobjectmotion,el_solB,N_joy,0,1,,1,CONT,0.1
 asyncobjectmotion,pel_sol,N_joy,0,1,,1,CONT,0.1
 
 objectemo,el_solB,Spirits
-dotmessage,エルドラーナ兵Ａ,<size=32>Let's collect the resources quickly                                      <br><size=32>and head back to base.<br> ,,,NORMAL,Mid,NORMAL,el_solA,TOP,NORMAL,0,20
+dotmessage,エルドラーナ兵Ａ,<size=24>Let's collect the resources quickly<br>and head back to base.,,,NORMAL,Mid,NORMAL,el_solA,TOP,NORMAL,0,20
 
 //モーション設定
 asyncobjectmotion,mi_solA,C_WeaponWait,0,1,,1,CONT,0
@@ -205,7 +205,7 @@ asynccolorfade,2,46,7,42,60,0,CONT,0.8
 //エモ　？
 asyncseplay,se4800009_,se4800009,0,1,CONT,0
 objectemo,pel_sol,Question
-dotmessage,ペルディオン兵,<size=32>Hm?　What is this……?                                                      <br><size=32>Fog……?<br> ,,,NORMAL,Mid,SURPRISE,pel_sol,TOP,NORMAL,0,20
+dotmessage,ペルディオン兵,<size=24>Hm?　What is this……?<br>Fog……?,,,NORMAL,Mid,SURPRISE,pel_sol,TOP,NORMAL,0,20
 asyncobjectmotion,mi_solB,C_WeaponWait,0,1,,1,CONT,0
 
 //モーション設定
@@ -214,7 +214,7 @@ asyncseplay,se4800010_70,se4800010,0,1,CONT,0
 asyncobjectmotion,mi_solB,N_bounce,1,1,C_Wait,1,CONT,0
 objectemo,mi_solB,Exclamation
 
-dotmessage,ミレスガルド兵Ｂ,<size=32>This is bad!                                                             <br><size=32>This is……miasma!<br> ,,,NORMAL,Mid,SURPRISE,mi_solB,TOP,NORMAL,0,20
+dotmessage,ミレスガルド兵Ｂ,<size=24>This is bad!<br>This is……miasma!,,,NORMAL,Mid,SURPRISE,mi_solB,TOP,NORMAL,0,20
 bgmstop,bgmtag01,0.5
 
 asyncobjectmotion,mi_solB,C_WeaponWait,0,1,,1,CONT,0
@@ -298,7 +298,7 @@ bgmplay,bgmtag02,bgm0034,0,1
 asyncseplay,se4800008_,se4800008,0,1,CONT,0
 objectemo,mi_solA,Sweat
 
-dotmessage,ミレスガルド兵Ａ,<size=32>Wha……what is that!?                                                      <br><size=32>This enormous creature……<br> ,,,NORMAL,Mid,SURPRISE,mi_solA,TOP,NORMAL,0,20
+dotmessage,ミレスガルド兵Ａ,<size=24>Wha……what is that!?<br>This enormous creature……,,,NORMAL,Mid,SURPRISE,mi_solA,TOP,NORMAL,0,20
 
 colorfade,1.5,25,0,25,1,255
 
@@ -345,23 +345,23 @@ asyncobjectemo,el_solB,Panic
 objectdirect,el_solB,LEFT
 wait,0.5
 objectdirect,el_solB,RIGHT
-dotmessage,エルドラーナ兵Ｂ,<size=32>The plants and trees around us                                           <br><size=32>are withering before our eyes……<br> ,,,NORMAL,Mid,SURPRISE,el_solB,TOP,NORMAL,0,20
+dotmessage,エルドラーナ兵Ｂ,<size=24>The plants and trees around us<br>are withering before our eyes……,,,NORMAL,Mid,SURPRISE,el_solB,TOP,NORMAL,0,20
 
 //エモ　！
 asyncseplay,se4800010_,se4800010,0,1,CONT,0
 asyncobjectmotion,pel_sol,N_bounce,1,1,C_WeaponWait,1,CONT,0
 objectemo,pel_sol,Exclamation
-dotmessage,ペルディオン兵,<size=32>Could this be……                                                          <br><size=32>the 『Calamity of Famine』……!?<br> ,,,NORMAL,Mid,SURPRISE,pel_sol,TOP,NORMAL,50,20
+dotmessage,ペルディオン兵,<size=24>Could this be……<br>the ""Calamity of Famine""……!?,,,NORMAL,Mid,SURPRISE,pel_sol,TOP,NORMAL,50,20
 
 asyncobjectmotion,el_solA,N_surprised,1,1,,1,CONT,0
-dotmessage,エルドラーナ兵Ａ,<size=32>What!?　The one said to have destroyed                                    <br><size=32>an entire small nation in a single night……<br> ,,,NORMAL,Mid,SURPRISE,el_solA,TOP,NORMAL,0,20
+dotmessage,エルドラーナ兵Ａ,<size=24>What!?　The one said to have destroyed<br>an entire small nation in a single night……,,,NORMAL,Mid,SURPRISE,el_solA,TOP,NORMAL,0,20
 asyncobjectmotion,el_solA,C_WeaponWait,0,1,,1,CONT,0
 
 
 //エモ　焦り
 asyncseplay,se4800007_,se4800007,0,1,CONT,0
 objectemo,mi_solB,Panic
-dotmessage,ミレスガルド兵Ｂ,<size=32>I-I'd heard the rumors……                                                 <br><size=32>but it's enormous……!<br> ,,,NORMAL,Mid,SURPRISE,mi_solB,TOP,NORMAL,0,20
+dotmessage,ミレスガルド兵Ｂ,<size=24>I-I'd heard the rumors……<br>but it's enormous……!,,,NORMAL,Mid,SURPRISE,mi_solB,TOP,NORMAL,0,20
 
 asyncobjectmotion,stv,Skill001,1,1,C_WeaponWait,1,CONT,0.000
 
@@ -423,11 +423,11 @@ wait,1
 asyncseplay,se4800007_10,se4800007,0,1,CONT,0
 objectemo,pel_sol,Panic
 asyncdotshake,pel_sol,0.1,0,0.5,5,off,0,off,CONT,0
-dotmessage,ペルディオン兵,<size=32>H-how are we supposed to fight this thing!                               <br><size=32>Something like this……<br> ,,,NORMAL,Mid,SURPRISE,pel_sol,TOP,NORMAL,50,20
+dotmessage,ペルディオン兵,<size=24>H-how are we supposed to fight this thing!<br>Something like this……,,,NORMAL,Mid,SURPRISE,pel_sol,TOP,NORMAL,50,20
 
 //震える
 asyncdotshake,pel_sol,0.1,0,0.5,5,off,0,off,CONT,0
-dotmessage,ペルディオン兵,<size=32>Eek……eeek~!                                                              <br><size=32>S-someone help~~~~~!!!!<br> ,,,NORMAL,Mid,SURPRISE,pel_sol,TOP,NORMAL,50,20
+dotmessage,ペルディオン兵,<size=24>Eek……eeek~!<br>S-someone help~~~~~!!!!,,,NORMAL,Mid,SURPRISE,pel_sol,TOP,NORMAL,50,20
 
 //移動＋歩きモーション
 
@@ -499,7 +499,7 @@ fade,In,Black,1
 asyncwait
 asyncobjectmotion,pel_sol,N_limit,0,1,,1,CONT,0
 
-dotmessage,ペルディオン兵,<size=32>Hah……hah……                                                               <br><size=32>I must report to the Commander quickly……<br> ,,,NORMAL,Mid,SAD,pel_sol,TOP,NORMAL,0,20
+dotmessage,ペルディオン兵,<size=24>Hah……hah……<br>I must report to the Commander quickly……,,,NORMAL,Mid,SAD,pel_sol,TOP,NORMAL,0,20
 
 //カメラ設定
 
@@ -531,21 +531,21 @@ asyncseplay,se4800010_20,se4800010,0,1,CONT,0
 asyncobjectmotion,Alicia,N_surprised,1,1,,1,CONT,0
 objectemo,Alicia,Exclamation
 
-dotmessage,アリシア,<size=32>Terrible injuries……                                                      <br><size=32>Q-quick，get them treated!<br> ,,mcv_1001000401_001_01,NORMAL,Mid,SAD,Alicia,TOP,NORMAL,0,20
+dotmessage,アリシア,<size=24>Terrible injuries……<br>Q-quick，get them treated!,,mcv_1001000401_001_01,NORMAL,Mid,SAD,Alicia,TOP,NORMAL,0,20
 objectmotion,Alicia,C_Wait,0,1,,1
 
 //エモ　？
 asyncseplay,se4800009_40,se4800009,0,1,CONT,0
 objectemo,chara_1,Question
-dotmessage,<user>,<size=32>What in the world happened?                                              <br><size=32>What about the rest of the scouting party!?<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,20
+dotmessage,<user>,<size=24>What in the world happened?<br>What about the rest of the scouting party!?,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,20
 
 
 //エモ　・・・
 asyncseplay,se4800014_,se4800014,0,1,CONT,0
 objectemo,pel_sol,Silence
-dotmessage,ペルディオン兵,<size=32>Wiped out……                                                              <br><size=32>Everyone… except me……<br> ,,,NORMAL,Mid,SAD,pel_sol,TOP,NORMAL,0,20
-dotmessage,ペルディオン兵,<size=32>Inside the Abyss，                                                        <br><size=32>the 『Calamity of Famine』 appeared……!<br> ,,,NORMAL,Mid,SAD,pel_sol,TOP,NORMAL,0,20
-dotmessage,ペルディオン兵,<size=32>The Calamity is currently                                                <br><size=32>approaching the frontline base!<br> ,,,NORMAL,Mid,ANGER,pel_sol,TOP,NORMAL,0,20
+dotmessage,ペルディオン兵,<size=24>Wiped out……<br>Everyone… except me……,,,NORMAL,Mid,SAD,pel_sol,TOP,NORMAL,0,20
+dotmessage,ペルディオン兵,<size=24>Inside the Abyss，<br>the ""Calamity of Famine"" appeared……!,,,NORMAL,Mid,SAD,pel_sol,TOP,NORMAL,0,20
+dotmessage,ペルディオン兵,<size=24>The Calamity is currently<br>approaching the frontline base!,,,NORMAL,Mid,ANGER,pel_sol,TOP,NORMAL,0,20
 
 //エモ　！
 asyncseplay,se4800010_30,se4800010,0,1,CONT,0
@@ -554,7 +554,7 @@ asyncobjectmotion,Alicia,N_surprised,1,1,,1,CONT,0
 asyncobjectemo,chara_1,Exclamation
 objectemo,Alicia,Exclamation
 
-dotmessage,アリシア,<size=32>N-no……!                                                                  <br><size=32>The Calamity of Famine is……!?<br> ,,mcv_1001000401_002_01,NORMAL,Mid,SURPRISE,Alicia,TOP,NORMAL,0,20
+dotmessage,アリシア,<size=24>N-no……!<br>The Calamity of Famine is……!?,,mcv_1001000401_002_01,NORMAL,Mid,SURPRISE,Alicia,TOP,NORMAL,0,20
 objectmotion,chara_1,C_Wait,0,1,,1
 objectmotion,Alicia,C_Wait,0,1,,1
 
@@ -562,7 +562,7 @@ objectmotion,Alicia,C_Wait,0,1,,1
 objectdirect,chara_1,LEFT
 objectmotion,chara_1,N_Pointing,1,1,,1
 
-dotmessage,<user>,<size=32>Alicia!　We're heading back to base!                                      <br><size=32>Prepare for interception!　Move!<br> ,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,20
+dotmessage,<user>,<size=24>Alicia!　We're heading back to base!<br>Prepare for interception!　Move!,,,NORMAL,Mid,,chara_1,TOP,NORMAL,0,20
 
 objectmotion,Alicia,N_salute,1,1,,1
 

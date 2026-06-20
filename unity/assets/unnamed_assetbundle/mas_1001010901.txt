@@ -56,7 +56,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,モンスター,<size=32>SHRIIEEEK……!!<br> ,402001000,,chara_1
+message,モンスター,<size=28>SHRIIEEEK……!!<br> ,402001000,,chara_1
 
 window,off
 wait,0.15
@@ -80,7 +80,7 @@ asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,,<size=32>THUD——————.<br> 
+message,,<size=28>THUD——————.<br> 
 
 window,off
 wait,0.15
@@ -126,7 +126,7 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>Adelheid's weapons……aren't they insane?<br> ,100201000G,mcv_1001010901_001_01,chara_3
+message,ベリサ,<size=28>Adelheid's weapons……aren't they insane?<br> ,100201000G,mcv_1001010901_001_01,chara_3
 
 asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
 
@@ -135,9 +135,9 @@ asyncseplay,setag1_4,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ソフィア,<size=32>Y-yes. That a monster of that size could be cut down so easily—          <br><size=32>it's almost unbelievable.<br> ,106501000G,mcv_1001010901_002_01,chara_2
+message,ソフィア,<size=28>Y-yes. That a monster of that size could be cut down so easily—     <br><size=28>it's almost unbelievable.<br> ,106501000G,mcv_1001010901_002_01,chara_2
 
-message,<user>,<size=32>If we bring foreign objects and ore to her，                              <br><size=32>she could make us even better weapons.<br> 
+message,<user>,<size=28>If we bring foreign objects and ore to her，                         <br><size=28>she could make us even better weapons.<br> 
 
 asynccharaface,chara_4,FaceUnique02,CONT,0
 
@@ -148,9 +148,9 @@ asyncseplay,setag1_5,se4800003,0,1,CONT,0
 asynccharaemo,chara_4,Twinkle,CONT,0
 
 
-message,マリナ,<size=32>Hnfufu.                                                                  <br><size=32>So going forward，collecting things in the Abyss is strongly encouraged♡<br> ,100301000G,mcv_1001010901_003_01,chara_4
+message,マリナ,<size=28>Hnfufu. So going forward，collecting things in the Abyss is strongly <br><size=28>encouraged♡<br> ,100301000G,mcv_1001010901_003_01,chara_4
 
-message,<user>,<size=32>Just don't quietly pick up dangerous foreign objects                     <br><size=32>and sell them for profit on the side.<br> 
+message,<user>,<size=28>Just don't quietly pick up dangerous foreign objects                <br><size=28>and sell them for profit on the side.<br> 
 
 window,off
 wait,0.15
@@ -201,7 +201,7 @@ asynccharaemo,chara_4,Panic,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=32>Oh my goodness~，Commander♡                                               <br><size=32>I would never do something like that~.<br> ,100301000G,mcv_1001010901_004_01,chara_4
+message,マリナ,<size=28>Oh my goodness~，Master♡                                             <br><size=28>I would never do something like that~.<br> ,100301000G,mcv_1001010901_004_01,chara_4
 
 window,off
 wait,0.15
@@ -264,7 +264,7 @@ asynccharaemo,chara_3,Spirits,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>Student council president Sophia~，                                       <br><size=32>I think stricter enforcement is in order.<br> ,100201000G,mcv_1001010901_005_01,chara_3
+message,ベリサ,<size=28>Student council president Sophia~，                                  <br><size=28>I think stricter enforcement is in order.<br> ,100201000G,mcv_1001010901_005_01,chara_3
 
 window,off
 wait,0.15
@@ -301,7 +301,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>Sigh……                                                                   <br><size=32>This unit is really……<br> ,106501000G,mcv_1001010901_006_01,chara_2
+message,ソフィア,<size=28>Sigh……                                                              <br><size=28>This unit is really……<br> ,106501000G,mcv_1001010901_006_01,chara_2
 
 
 window,off
@@ -416,7 +416,7 @@ asynccharamove,chara_4,EaseOut,X,100,0.3,CONT,0
 asyncwait
 
 window,on,0.15
-message,<user>,<size=32>Kch……as we press on，                                                     <br><size=32>the sandstorm is getting stronger again……<br> 
+message,<user>,<size=28>Kch……as we press on，                                                <br><size=28>the sandstorm is getting stronger again……<br> 
 
 asynccharaface,chara_2,FaceUnique02,CONT,0
 
@@ -427,7 +427,7 @@ asyncseplay,setag1_12,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ソフィア,<size=32>Visibility is getting harder to maintain，and also……<br> ,106501000G,mcv_1001010901_007_01,chara_2
+message,ソフィア,<size=28>Visibility is getting harder to maintain，and also……<br> ,106501000G,mcv_1001010901_007_01,chara_2
 
 asynccharaface,chara_3,FaceSurprise,CONT,0
 
@@ -438,7 +438,7 @@ asyncseplay,setag1_13,se4800017,0,1,CONT,0
 asynccharaemo,chara_3,Shock,CONT,0
 
 
-message,ベリサ,<size=32>The number of bones scattered around                                     <br><size=32>just keeps increasing~.<br> ,100201000G,mcv_1001010901_008_01,chara_3
+message,ベリサ,<size=28>The number of bones scattered around                                <br><size=28>just keeps increasing~.<br> ,100201000G,mcv_1001010901_008_01,chara_3
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -450,7 +450,7 @@ asyncseplay,setag1_14,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ソフィア,<size=32>That too，but……am I the only one?                                         <br><size=32>I've been hearing a really bad ringing in my ears.<br> ,106501000G,mcv_1001010901_009_01,chara_2
+message,ソフィア,<size=28>That too，but……am I the only one?                                    <br><size=28>I've been hearing a really bad ringing in my ears.<br> ,106501000G,mcv_1001010901_009_01,chara_2
 
 asynccharaface,chara_4,FaceSurprise,CONT,0
 
@@ -461,7 +461,7 @@ asyncseplay,setag1_15,se4800007,0,1,CONT,0
 asynccharaemo,chara_4,Panic,CONT,0
 
 
-message,マリナ,<size=32>Same here~.                                                              <br><size=32>And I feel strangely dizzy……<br> ,100301000G,mcv_1001010901_010_01,chara_4
+message,マリナ,<size=28>Same here~.                                                         <br><size=28>And I feel strangely dizzy……<br> ,100301000G,mcv_1001010901_010_01,chara_4
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -472,9 +472,9 @@ asyncseplay,setag1_16,se4800015,0,1,CONT,0
 asynccharaemo,chara_3,Dull,CONT,0
 
 
-message,ベリサ,<size=32>I feel dizzy too~.                                                       <br><size=32>What's going on~……and goosebumps are breaking out all over my body!<br> ,100201000G,mcv_1001010901_011_01,chara_3
+message,ベリサ,<size=28>I feel dizzy too~.                                                  <br><size=28>What's going on~……and goosebumps are breaking out all over my body!<br> ,100201000G,mcv_1001010901_011_01,chara_3
 
-message,<user>,<size=32>Belisa，you're a magic user—haven't you noticed?<br> 
+message,<user>,<size=28>Belisa，you're a magic user—haven't you noticed?<br> 
 
 window,off
 wait,0.15
@@ -525,9 +525,9 @@ asynccharaemo,chara_3,Question,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>Huh?　Noticed what?<br> ,100201000G,mcv_1001010901_012_01,chara_3
+message,ベリサ,<size=28>Huh?　Noticed what?<br> ,100201000G,mcv_1001010901_012_01,chara_3
 
-message,<user>,<size=32>Touch the sand around us. Can't you feel it……?                           <br><size=32>That the sand itself is imbued with magical energy.<br> 
+message,<user>,<size=28>Touch the sand around us. Can't you feel it……?                      <br><size=28>That the sand itself is imbued with magical energy.<br> 
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -546,9 +546,9 @@ asyncseplay,setag1_19,se4800017,0,1,STOP,4.4
 asynccharaemo,chara_3,Shock,STOP,4.4
 
 
-message,ベリサ,<size=32>The sand itself has magical energy……!?　Oh，it does!　The grains of sand are<br><size=32>giving off a strange glow! Is that why I was getting goosebumps!?<br> ,100201000G,mcv_1001010901_013_01,chara_3
+message,ベリサ,<size=28>The sand has magic……!? You're right! The grains are glowing!        <br><size=28>Is that why I was getting goosebumps!?<br> ,100201000G,mcv_1001010901_013_01,chara_3
 
-message,<user>,<size=32>Don't tell me you hadn't noticed.<br> 
+message,<user>,<size=28>Don't tell me you hadn't noticed.<br> 
 
 asynccharaface,chara_3,FaceAnger,CONT,0
 
@@ -559,9 +559,9 @@ asyncseplay,setag1_20,se4800001,0,1,CONT,0
 asynccharaemo,chara_3,Anger,CONT,0
 
 
-message,ベリサ,<size=32>Excuse me!?　I noticed ages ago!                                          <br><size=32>I was just testing to see if you'd notice too!<br> ,100201000G,mcv_1001010901_014_01,chara_3
+message,ベリサ,<size=28>Excuse me!?　I noticed ages ago!                                     <br><size=28>I was just testing to see if you'd notice too!<br> ,100201000G,mcv_1001010901_014_01,chara_3
 
-message,<user>,<size=32>Sure，let's call it that.                                                 <br><size=32>And it's not just the sandstorm that's been getting denser……<br> 
+message,<user>,<size=28>Sure，let's call it that.                                            <br><size=28>And it's not just the sandstorm that's been getting denser……<br> 
 
 window,off
 wait,0.15
@@ -624,9 +624,9 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>Miasma……!?                                                               <br><size=32>Said to be a harbinger of a Calamity's appearance……<br> ,106501000G,mcv_1001010901_015_01,chara_2
+message,ソフィア,<size=28>Miasma……!?                                                          <br><size=28>Said to be a harbinger of a Calamity's appearance……<br> ,106501000G,mcv_1001010901_015_01,chara_2
 
-message,<user>,<size=32>Yes. We may be getting close to a face-to-face meeting                   <br><size=32>with the source of the sandstorm……<br> 
+message,<user>,<size=28>Yes. We may be getting close to a face-to-face meeting              <br><size=28>with the source of the sandstorm……<br> 
 
 window,off
 wait,0.15
@@ -662,7 +662,7 @@ waitorclick,0.5
 asyncseplay,setag1_22,se4700032,0,1,STOP,0
 
 window,on,0.15
-message,,<size=32>——WHOOOOOOSH!!<br> 
+message,,<size=28>——WHOOOOOOSH!!<br> 
 
 window,off
 wait,0.15
@@ -699,7 +699,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>Eek!　The wind's so strong……!<br> ,106501000G,mcv_1001010901_016_01,chara_2
+message,ソフィア,<size=28>Eek!　The wind's so strong……!<br> ,106501000G,mcv_1001010901_016_01,chara_2
 
 window,off
 wait,0.15
@@ -740,7 +740,7 @@ asynccharaemo,chara_3,Trouble,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>Ugh……bleh~!                                                              <br><size=32>Sand in my mouth!　Sand!<br> ,100201000G,mcv_1001010901_017_01,chara_3
+message,ベリサ,<size=28>Ugh……bleh~!                                                         <br><size=28>Sand in my mouth!　Sand!<br> ,100201000G,mcv_1001010901_017_01,chara_3
 
 window,off
 wait,0.15
@@ -781,7 +781,7 @@ asynccharaemo,chara_4,Dull,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=32>My mouth is all gritty with sand~~.<br> ,100301000G,mcv_1001010901_018_01,chara_4
+message,マリナ,<size=28>My mouth is all gritty with sand~~.<br> ,100301000G,mcv_1001010901_018_01,chara_4
 
 window,off
 wait,0.15
@@ -837,7 +837,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,<size=32>Everyone，make for those rocks!                                           <br><size=32>Get any shelter from the wind we can!<br> 
+message,<user>,<size=28>Everyone，make for those rocks!                                      <br><size=28>Get any shelter from the wind we can!<br> 
 
 window,off
 wait,0.15
@@ -946,9 +946,9 @@ asynccharaemo,chara_4,Dull,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=32>The wind just keeps getting stronger~.<br> ,100301000G,mcv_1001010901_019_01,chara_4
+message,マリナ,<size=28>The wind just keeps getting stronger~.<br> ,100301000G,mcv_1001010901_019_01,chara_4
 
-message,<user>,<size=32>Looks like we won't be moving for a while.                               <br><size=32>It might be best to rest now and recover our strength.<br> 
+message,<user>,<size=28>Looks like we won't be moving for a while.                          <br><size=28>It might be best to rest now and recover our strength.<br> 
 
 asynccharaface,chara_3,FaceFun,CONT,0
 
@@ -959,7 +959,7 @@ asyncseplay,setag1_27,se4800013,0,1,CONT,0
 asynccharaemo,chara_3,Spirits,CONT,0
 
 
-message,ベリサ,<size=32>Then hey hey，let's chat♡                                                 <br><size=32>I want to hear about you for once~♡<br> ,100201000G,mcv_1001010901_020_01,chara_3
+message,ベリサ,<size=28>Then hey hey，let's chat♡                                            <br><size=28>I want to hear about you for once~♡<br> ,100201000G,mcv_1001010901_020_01,chara_3
 
 bgmplay,bgmtag1_2,bgm0036,0.75,1
 
@@ -972,9 +972,9 @@ asyncseplay,setag1_28,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,ソフィア,<size=32>I'd like to hear too.                                                    <br><size=32>Like why you've become such a complicated person……<br> ,106501000G,mcv_1001010901_021_01,chara_2
+message,ソフィア,<size=28>I'd like to hear too.                                               <br><size=28>Like why you've become such a complicated person……<br> ,106501000G,mcv_1001010901_021_01,chara_2
 
-message,<user>,<size=32>Why do I have to chat at a time like this?                               <br><size=32>I have nothing in particular to——<br> 
+message,<user>,<size=28>Why do I have to chat at a time like this?                          <br><size=28>I have nothing in particular to——<br> 
 
 window,off
 wait,0.15
@@ -1025,9 +1025,9 @@ asynccharaemo,chara_3,Speak,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>Then I'll ask first!                                                     <br><size=32>Why did you become Commander?<br> ,100201000G,mcv_1001010901_022_01,chara_3
+message,ベリサ,<size=28>Then I'll ask first!                                                <br><size=28>Why did you become Commander?<br> ,100201000G,mcv_1001010901_022_01,chara_3
 
-message,<user>,<size=32>Well……the pay is good.<br> 
+message,<user>,<size=28>Well……the pay is good.<br> 
 
 window,off
 wait,0.15
@@ -1091,7 +1091,7 @@ asynccharaemo,chara_4,Laugh,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=32>Understandable~.                                                         <br><size=32>Money is important~♡<br> ,100301000G,mcv_1001010901_023_01,chara_4
+message,マリナ,<size=28>Understandable~.                                                    <br><size=28>Money is important~♡<br> ,100301000G,mcv_1001010901_023_01,chara_4
 
 window,off
 wait,0.15
@@ -1145,7 +1145,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ソフィア,<size=32>Is that the only reason?　It sounds like you were banished to a remote    <br><size=32>frontier before coming here. I'm curious about the circumstances.<br> ,106501000G,mcv_1001010901_024_01,chara_2
+message,ソフィア,<size=28>Is that the only reason? I hear you were stationed at a remote      <br><size=28>frontier before this. I'm curious about that.<br> ,106501000G,mcv_1001010901_024_01,chara_2
 
 asynccharaface,chara_2,FaceUnique02,CONT,0
 
@@ -1156,9 +1156,9 @@ asyncseplay,setag1_32,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ソフィア,<size=32>Somehow I can't imagine someone like you                                 <br><size=32>just cheerfully following Alicia's invitation.<br> ,106501000G,mcv_1001010901_025_01,chara_2
+message,ソフィア,<size=28>Somehow I can't imagine someone like you                            <br><size=28>just cheerfully following Alicia's invitation.<br> ,106501000G,mcv_1001010901_025_01,chara_2
 
-message,<user>,<size=32>…………For retirement savings.<br> 
+message,<user>,<size=28>…………For retirement savings.<br> 
 
 asynccharaface,chara_2,FaceUnique01,CONT,0
 
@@ -1169,9 +1169,9 @@ asyncseplay,setag1_33,se4800006,0,1,CONT,0
 asynccharaemo,chara_2,Trouble,CONT,0
 
 
-message,ソフィア,<size=32>Isn't that just……dodging the question?<br> ,106501000G,mcv_1001010901_026_01,chara_2
+message,ソフィア,<size=28>Isn't that just……dodging the question?<br> ,106501000G,mcv_1001010901_026_01,chara_2
 
-message,<user>,<size=32>I'm not dodging.                                                         <br><size=32>……That's just how the world works.<br> 
+message,<user>,<size=28>I'm not dodging.                                                    <br><size=28>……That's just how the world works.<br> 
 
 
 window,off
@@ -1245,7 +1245,7 @@ asynccharaemo,chara_3,Dull,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>Ahhh. If that tough little girl from before had                          <br><size=32>come along with us，things would've been nice~.<br> ,100201000G,mcv_1001010901_027_01,chara_3
+message,ベリサ,<size=28>Ahhh. If that tough little girl from before had                     <br><size=28>come along with us，things would've been nice~.<br> ,100201000G,mcv_1001010901_027_01,chara_3
 
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
@@ -1254,7 +1254,7 @@ asyncseplay,setag1_35,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,ソフィア,<size=32>The girl Shiena?　She said 'I have my own things I need to investigate'   <br><size=32>and didn't come with us.<br> ,106501000G,mcv_1001010901_028_01,chara_2
+message,ソフィア,<size=28>The girl Shiena?　She said 'I have my own things I need to           <br><size=28>investigate' and didn't come with us.<br> ,106501000G,mcv_1001010901_028_01,chara_2
 
 asynccharaface,chara_4,FaceSurprise,CONT,0
 
@@ -1265,9 +1265,9 @@ asyncseplay,setag1_36,se4800008,0,1,CONT,0
 asynccharaemo,chara_4,Sweat,CONT,0
 
 
-message,マリナ,<size=32>Those two from Lux Nova seem to be searching for something               <br><size=32>different from us. They never told us what it was though~.<br> ,100301000G,mcv_1001010901_029_01,chara_4
+message,マリナ,<size=28>Those two from Lux Nova seem to be searching for something          <br><size=28>different from us. They never told us what it was though~.<br> ,100301000G,mcv_1001010901_029_01,chara_4
 
-message,<user>,<size=32>They have their own special circumstances for continuing their           <br><size=32>exploration. Inside this 'Abyss，' which could be called uncharted territory.<br> 
+message,<user>,<size=28>They have their own reasons for exploring this Abyss—               <br><size=28>this place that may as well be uncharted territory.<br> 
 
 asynccharaface,chara_3,FaceSurprise,CONT,0
 
@@ -1278,7 +1278,7 @@ asyncseplay,setag1_37,se4800009,0,1,CONT,0
 asynccharaemo,chara_3,Question,CONT,0
 
 
-message,ベリサ,<size=32>So，what exactly is Lux Nova anyway~?<br> ,100201000G,mcv_1001010901_030_01,chara_3
+message,ベリサ,<size=28>So，what exactly is Lux Nova anyway~?<br> ,100201000G,mcv_1001010901_030_01,chara_3
 
 asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
 
@@ -1287,11 +1287,11 @@ asyncseplay,setag1_38,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ソフィア,<size=32>If they call themselves an organization，there must be                    <br><size=32>many others like those two.<br> ,106501000G,mcv_1001010901_031_01,chara_2
+message,ソフィア,<size=28>If they call themselves an organization，there must be               <br><size=28>many others like those two.<br> ,106501000G,mcv_1001010901_031_01,chara_2
 
-message,<user>,<size=32>Most likely. Well，let's probe into Lux Nova's                            <br><size=32>structure and purpose at another time.<br> 
+message,<user>,<size=28>Most likely. Well，let's probe into Lux Nova's                       <br><size=28>structure and purpose at another time.<br> 
 
-message,<user>,<size=32>First，let's finish what we came here for—                                <br><size=32>investigating the 『Calamity of the Sandstorm』.<br> 
+message,<user>,<size=28>First，let's finish what we came here for—                           <br><size=28>investigating the ""Calamity of the Sandstorm"".<br> 
 
 labeljump,b
 

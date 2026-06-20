@@ -21,9 +21,9 @@ wait,1
 bgmplay,bgmtag1_1,bgm0027,0.75,1
 
 window,on,0.15
-message,,<size=32>Sylvia — a girl said to have come from an ice-bound world.<br> 
+message,,<size=28>Sylvia — a girl said to have come from an ice-bound world.<br> 
 
-message,,<size=32>Worried about her inability to get along with anyone and her constant    <br><size=32>loneliness， <user> came to the dormitory to check on her—<br> 
+message,,<size=28>Worried about her inability to get along with anyone and her        <br><size=28>constant loneliness， <user> came to the dormitory to check on her——<br> 
 
 window,off
 wait,0.15
@@ -34,11 +34,11 @@ asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,<user>,<size=32>—Achoo! Wh-what's with this cold!?                                       <br><size=32>It's summer， yet it feels like the dead of winter!<br> 
+message,<user>,<size=28>——Achoo! Wh-what's with this cold!?                                 <br><size=28>It's summer，yet it feels like the dead of winter!<br> 
 
-message,<user>,<size=32>Where is all this frigid air coming from... Hm?                          <br><size=32>Over there... That's Sylvia's room.<br> 
+message,<user>,<size=28>Where is all this frigid air coming from... Hm?                     <br><size=28>Over there... That's Sylvia's room.<br> 
 
-message,<user>,<size=32>I don't know what she's doing， but at this rate everyone in the building <br><size=32>is going to freeze to death. I need to stop her immediately...!<br> 
+message,<user>,<size=28>I don't know what she's doing，but at this rate everyone in the      <br><size=28>building is going to freeze to death. I need to stop her immediately...!<br> 
 
 
 window,off
@@ -59,7 +59,7 @@ asyncseplay,setag1_1,se4300007,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,<user>,<size=32>Sylvia! What on earth are you doing!?<br> 
+message,<user>,<size=28>Sylvia! What on earth are you doing!?<br> 
 
 
 window,off
@@ -91,9 +91,9 @@ bgmstop,bgmtag1_1,1.5,0
 
 
 window,on,0.15
-message,シルヴィア,<size=32>My. Barging into a lady's room without so much as a knock —              <br><size=32>do the men of this world know nothing of etiquette?<br> ,102601000G,vc_10260100001_001_01,chara_1
+message,シルヴィア,<size=28>My. Barging into a lady's room without so much as a knock —         <br><size=28>do the men of this world know nothing of etiquette?<br> ,102601000G,vc_10260100001_001_01,chara_1
 
-message,<user>,<size=32>If you want courtesy， stop being a nuisance first.                       <br><size=32>The dormitory is freezing and everyone is suffering because of it.<br> 
+message,<user>,<size=28>If you want courtesy，stop being a nuisance first.                   <br><size=28>The dormitory is freezing and everyone is suffering because of it.<br> 
 
 bgmplay,bgmtag1_2,bgm0035,0.75,1
 
@@ -106,7 +106,7 @@ asyncseplay,setag1_3,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,シルヴィア,<size=32>I'm not cold in the slightest.                                           <br><size=32>Perhaps everyone else is simply too sensitive to cold?<br> ,102601000G,vc_10260100001_002_01,chara_1
+message,シルヴィア,<size=28>I'm not cold in the slightest.                                      <br><size=28>Perhaps everyone else is simply too sensitive to cold?<br> ,102601000G,vc_10260100001_002_01,chara_1
 
 window,off
 wait,0.15
@@ -125,9 +125,9 @@ wait,0.5
 
 
 window,on,0.15
-message,シルヴィア,<size=32>As you can see， I'm simply making ice sculptures.                        <br><size=32>The ice melts if the room is too warm.<br> ,102601000G,vc_10260100001_003_01,chara_1
+message,シルヴィア,<size=28>As you can see，I'm simply making ice sculptures.                    <br><size=28>The ice melts if the room is too warm.<br> ,102601000G,vc_10260100001_003_01,chara_1
 
-message,<user>,<size=32>So that's the cause... I'm not saying you can't do creative work， but    <br><size=32>couldn't you use a different material? We'll all freeze to death at this rate...<br> 
+message,<user>,<size=28>So that's the cause... I'm not saying you can't do creative work，   <br><size=28>but couldn't you use a different material? We'll all freeze to death at this rate...<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -138,7 +138,7 @@ asyncseplay,setag1_5,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,シルヴィア,<size=32>I am an ice wielder.                                                     <br><size=32>An ice wielder working with anything but ice is simply nonsensical.<br> ,102601000G,vc_10260100001_004_01,chara_1
+message,シルヴィア,<size=28>I am an ice wielder.                                                <br><size=28>An ice wielder working with anything but ice is simply nonsensical.<br> ,102601000G,vc_10260100001_004_01,chara_1
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -152,9 +152,9 @@ asynccharaface,chara_1,FaceNormal,STOP,5.9
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,STOP,5.9
 
 
-message,シルヴィア,<size=32>Besides... I could never bring myself                                    <br><size=32>to destroy such beautiful ice sculptures.<br> ,102601000G,vc_10260100001_005_01,chara_1
+message,シルヴィア,<size=28>Besides... I could never bring myself                               <br><size=28>to destroy such beautiful ice sculptures.<br> ,102601000G,vc_10260100001_005_01,chara_1
 
-message,<user>,<size=32>They are beautiful， I'll give you that...                                <br><size=32>But why did you make these?<br> 
+message,<user>,<size=28>They are beautiful，I'll give you that...                            <br><size=28>But why did you make these?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -166,7 +166,7 @@ asyncseplay,setag1_7,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,シルヴィア,<size=32>I was both a noblewoman and an artist.<br> ,102601000G,vc_10260100001_006_01,chara_1
+message,シルヴィア,<size=28>I was both a noblewoman and an artist.<br> ,102601000G,vc_10260100001_006_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -177,11 +177,11 @@ asyncseplay,setag1_8,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,シルヴィア,<size=32>Beautiful， aren't they? Even someone born in a world lacking in art who  <br><size=32>never had the chance to develop an aesthetic eye can appreciate this beauty， yes?<br> ,102601000G,vc_10260100001_007_01,chara_1
+message,シルヴィア,<size=28>Beautiful，aren't they? Even someone born in a world lacking in art  <br><size=28>who never had the chance to develop an aesthetic eye can appreciate this beauty，yes?<br> ,102601000G,vc_10260100001_007_01,chara_1
 
-message,<user>,<size=32>You really never miss a chance to throw in a jab.                        <br><size=32>...Even I can see how beautiful they are.<br> 
+message,<user>,<size=28>You really never miss a chance to throw in a jab.                   <br><size=28>...Even I can see how beautiful they are.<br> 
 
-message,<user>,<size=32>Say， did these sculptures have models?<br> 
+message,<user>,<size=28>Say，did these sculptures have models?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -193,9 +193,9 @@ asyncseplay,setag1_9,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,シルヴィア,<size=32>Why do you ask?<br> ,102601000G,vc_10260100001_008_01,chara_1
+message,シルヴィア,<size=28>Why do you ask?<br> ,102601000G,vc_10260100001_008_01,chara_1
 
-message,<user>,<size=32>That sculpture of the girl looks a lot like you.                         <br><size=32>The man and woman on either side — are they people you know?<br> 
+message,<user>,<size=28>That sculpture of the girl looks a lot like you.                    <br><size=28>The man and woman on either side — are they people you know?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -206,7 +206,7 @@ asyncseplay,setag1_10,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,シルヴィア,<size=32>Yes. These are my fami—<br> ,102601000G,vc_10260100001_009_01,chara_1
+message,シルヴィア,<size=28>Yes. These are my fami——<br> ,102601000G,vc_10260100001_009_01,chara_1
 
 window,off
 wait,0.15
@@ -235,11 +235,11 @@ wait,0.5
 
 
 window,on,0.15
-message,シルヴィア,<size=32>N-no. They're nobody.                                                    <br><size=32>They were simply easy shapes to sculpt.<br> ,102601000G,vc_10260100001_010_01,chara_1
+message,シルヴィア,<size=28>N-no. They're nobody.                                               <br><size=28>They were simply easy shapes to sculpt.<br> ,102601000G,vc_10260100001_010_01,chara_1
 
-message,<user>,<size=32>...I see.<br> 
+message,<user>,<size=28>...I see.<br> 
 
-message,<user>,<size=32>Well， in any case， stop making ice sculptures in your room.              <br><size=32>Do it outside at least. The cold is unbearable.<br> 
+message,<user>,<size=28>Well，in any case，stop making ice sculptures in your room.           <br><size=28>Do it outside at least. The cold is unbearable.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -251,7 +251,7 @@ asyncseplay,setag1_13,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,シルヴィア,<size=32>Very well. I suppose I'll do as you say.                                 <br><size=32>I was just thinking I needed a change of scenery anyway.<br> ,102601000G,vc_10260100001_011_01,chara_1
+message,シルヴィア,<size=28>Very well. I suppose I'll do as you say.                            <br><size=28>I was just thinking I needed a change of scenery anyway.<br> ,102601000G,vc_10260100001_011_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -262,11 +262,11 @@ asyncseplay,setag1_14,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,シルヴィア,<size=32>This world is far too hot anyway. Cooling it down                        <br><size=32>with my ice wouldn't be such a bad thing.<br> ,102601000G,vc_10260100001_012_01,chara_1
+message,シルヴィア,<size=28>This world is far too hot anyway. Cooling it down                   <br><size=28>with my ice wouldn't be such a bad thing.<br> ,102601000G,vc_10260100001_012_01,chara_1
 
-message,<user>,<size=32>Are you trying to bring on an ice age!?<br> 
+message,<user>,<size=28>Are you trying to bring on an ice age!?<br> 
 
-message,<user>,<size=32>Good grief， you're still the same spoiled princess...                    <br><size=32>And this room is a complete mess.<br> 
+message,<user>,<size=28>Good grief，you're still the same spoiled princess...                <br><size=28>And this room is a complete mess.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -277,9 +277,9 @@ asyncseplay,setag1_15,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,シルヴィア,<size=32>That's not true. This is perfectly normal.<br> ,102601000G,vc_10260100001_013_01,chara_1
+message,シルヴィア,<size=28>That's not true. This is perfectly normal.<br> ,102601000G,vc_10260100001_013_01,chara_1
 
-message,<user>,<size=32>Normal? In what world?                                                   <br><size=32>There are clothes scattered all over the floor.<br> 
+message,<user>,<size=28>Normal? In what world?                                              <br><size=28>There are clothes scattered all over the floor.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -290,9 +290,9 @@ asyncseplay,setag1_16,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シルヴィア,<size=32>Ugh...<br> ,102601000G,vc_10260100001_014_01,chara_1
+message,シルヴィア,<size=28>Ugh...<br> ,102601000G,vc_10260100001_014_01,chara_1
 
-message,<user>,<size=32>At least wash your clothes and put them in the dresser.<br> 
+message,<user>,<size=28>At least wash your clothes and put them in the dresser.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -303,9 +303,9 @@ asyncseplay,setag1_17,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,シルヴィア,<size=32>I-I can't.                                                               <br><size=32>I've... never done it before...<br> ,102601000G,vc_10260100001_015_01,chara_1
+message,シルヴィア,<size=28>I-I can't.                                                          <br><size=28>I've... never done it before...<br> ,102601000G,vc_10260100001_015_01,chara_1
 
-message,<user>,<size=32>*Sigh*... So on top of being a nuisance，                                 <br><size=32>you also lack basic life skills.<br> 
+message,<user>,<size=28>*Sigh*... So on top of being a nuisance，                            <br><size=28>you also lack basic life skills.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -316,7 +316,7 @@ asyncseplay,setag1_18,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,シルヴィア,<size=32>I-it can't be helped...!                                                 <br><size=32>The maids always took care of it back in my world!<br> ,102601000G,vc_10260100001_016_01,chara_1
+message,シルヴィア,<size=28>I-it can't be helped...!                                            <br><size=28>The maids always took care of it back in my world!<br> ,102601000G,vc_10260100001_016_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -327,7 +327,7 @@ asyncseplay,setag1_19,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,シルヴィア,<size=32>I never imagined I'd have to do household chores myself                  <br><size=32>until I came to this world...<br> ,102601000G,vc_10260100001_017_01,chara_1
+message,シルヴィア,<size=28>I never imagined I'd have to do household chores myself             <br><size=28>until I came to this world...<br> ,102601000G,vc_10260100001_017_01,chara_1
 
 window,off
 wait,0.15
@@ -362,9 +362,9 @@ asynccharaface,chara_1,FaceNormal,STOP,6.8
 
 
 window,on,0.15
-message,シルヴィア,<size=32>A-ahem! A-anyway， you! You've come at just the right time!               <br><size=32>I actually have a favor to ask!<br> ,102601000G,vc_10260100001_018_01,chara_1
+message,シルヴィア,<size=28>A-ahem! A-anyway，you! You've come at just the right time!           <br><size=28>I actually have a favor to ask!<br> ,102601000G,vc_10260100001_018_01,chara_1
 
-message,<user>,<size=32>If it's cleaning your room， I'll pass.                                   <br><size=32>I have no intention of becoming a spoiled princess's butler.<br> 
+message,<user>,<size=28>If it's cleaning your room，I'll pass.                               <br><size=28>I have no intention of becoming a spoiled princess's butler.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -375,9 +375,9 @@ asyncseplay,setag1_22,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,シルヴィア,<size=32>Th-that's not it! Forget about the cleaning for now!<br> ,102601000G,vc_10260100001_019_01,chara_1
+message,シルヴィア,<size=28>Th-that's not it! Forget about the cleaning for now!<br> ,102601000G,vc_10260100001_019_01,chara_1
 
-message,<user>,<size=32>Then what is it?<br> 
+message,<user>,<size=28>Then what is it?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -393,9 +393,9 @@ wait,0.5
 bgmstop,bgmtag1_2,1.5,0
 
 
-message,シルヴィア,<size=32>—I want you to take me to the Abyss.<br> ,102601000G,vc_10260100001_020_01,chara_1
+message,シルヴィア,<size=28>——I want you to take me to the Abyss.<br> ,102601000G,vc_10260100001_020_01,chara_1
 
-message,<user>,<size=32>The Abyss? Why...?<br> 
+message,<user>,<size=28>The Abyss? Why...?<br> 
 
 bgmplay,bgmtag1_3,bgm0030,0.75,1
 
@@ -408,7 +408,7 @@ asyncseplay,setag1_24,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シルヴィア,<size=32>I want to return to my world as soon as possible.                        <br><size=32>I'm not saying this place is bad， but it's not where I belong.<br> ,102601000G,vc_10260100001_021_01,chara_1
+message,シルヴィア,<size=28>I want to return to my world as soon as possible.                   <br><size=28>I'm not saying this place is bad，but it's not where I belong.<br> ,102601000G,vc_10260100001_021_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -428,7 +428,7 @@ asyncseplay,setag1_26,se4800008,0,1,STOP,4.9
 asynccharaemo,chara_1,Sweat,STOP,4.9
 
 
-message,シルヴィア,<size=32>So I looked through the literature of this world.                        <br><size=32>But I couldn't find any way to return to my own.<br> ,102601000G,vc_10260100001_022_01,chara_1
+message,シルヴィア,<size=28>So I looked through the literature of this world.                   <br><size=28>But I couldn't find any way to return to my own.<br> ,102601000G,vc_10260100001_022_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -439,14 +439,14 @@ asyncseplay,setag1_27,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,シルヴィア,<size=32>If so， the only place where a way home might be found is the Abyss—<br> ,102601000G,vc_10260100001_023_01,chara_1
+message,シルヴィア,<size=28>If so，the only place where a way home might be found is the Abyss——<br> ,102601000G,vc_10260100001_023_01,chara_1
 
-message,<user>,<size=32>Just so you know， we've been checking for that sort of thing             <br><size=32>during our Abyss expeditions. But so far there's been no leads.<br> 
+message,<user>,<size=28>Just so you know，we've been checking for that sort of thing         <br><size=28>during our Abyss expeditions. But so far there's been no leads.<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,シルヴィア,<size=32>All the more reason.                                                     <br><size=32>I might notice clues that you and the others have missed.<br> ,102601000G,vc_10260100001_024_01,chara_1
+message,シルヴィア,<size=28>All the more reason.                                                <br><size=28>I might notice clues that you and the others have missed.<br> ,102601000G,vc_10260100001_024_01,chara_1
 
 window,off
 wait,0.15
@@ -463,7 +463,7 @@ wait,0.5
 
 
 window,on,0.15
-message,シルヴィア,<size=32>From your perspective too， I'm nothing but a nuisance from another world <br><size=32>that you'd rather be rid of， right?<br> ,102601000G,vc_10260100001_025_01,chara_1
+message,シルヴィア,<size=28>From your perspective too，I'm nothing but a nuisance from another   <br><size=28>world that you'd rather be rid of，right?<br> ,102601000G,vc_10260100001_025_01,chara_1
 
 window,off
 wait,0.15
@@ -478,7 +478,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,<size=32>(... I know people get difficult when they're backed into a corner，      <br><size=32>but I didn't expect her to be this prickly. She must really miss home...)<br> 
+message,<user>,<size=28>(... I know people get difficult when they're backed into a corner， <br><size=28>but I didn't expect her to be this prickly. She must really miss home...)<br> 
 
 window,off
 wait,0.15
@@ -493,7 +493,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,<size=32>Fine. I'll take you.                                                     <br><size=32>But what if we don't find a way to get you home?<br> 
+message,<user>,<size=28>Fine. I'll take you.                                                <br><size=28>But what if we don't find a way to get you home?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -507,7 +507,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,STOP,1.5
 
 
-message,シルヴィア,<size=32>When that happens... no， I'll think about it when the time comes.<br> ,102601000G,vc_10260100001_026_01,chara_1
+message,シルヴィア,<size=28>When that happens... no，I'll think about it when the time comes.<br> ,102601000G,vc_10260100001_026_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -518,7 +518,7 @@ asyncseplay,setag1_30,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,シルヴィア,<size=32>Right now， I want to improve my chances even slightly.                   <br><size=32>I have no intention of wasting time on unnecessary thoughts.<br> ,102601000G,vc_10260100001_027_01,chara_1
+message,シルヴィア,<size=28>Right now，I want to improve my chances even slightly.               <br><size=28>I have no intention of wasting time on unnecessary thoughts.<br> ,102601000G,vc_10260100001_027_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -529,7 +529,7 @@ asyncseplay,setag1_31,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,シルヴィア,<size=32>Then let us go at once. This world is far too hot compared to mine.      <br><size=32>If I stay here any longer I'll melt away and die.<br> ,102601000G,vc_10260100001_028_01,chara_1
+message,シルヴィア,<size=28>Then let us go at once. This world is far too hot compared to mine. <br><size=28>If I stay here any longer I'll melt away and die.<br> ,102601000G,vc_10260100001_028_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -541,11 +541,11 @@ asyncseplay,setag1_32,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,シルヴィア,<size=32>Besides... there are people waiting for me back there...<br> ,102601000G,vc_10260100001_029_01,chara_1
+message,シルヴィア,<size=28>Besides... there are people waiting for me back there...<br> ,102601000G,vc_10260100001_029_01,chara_1
 
-message,<user>,<size=32>Alright， alright.                                                        <br><size=32>I'll take you right away.<br> 
+message,<user>,<size=28>Alright，alright.                                                    <br><size=28>I'll take you right away.<br> 
 
-message,<user>,<size=32>But you must never go off alone.                                         <br><size=32>That's the one condition for me taking you to the Abyss.<br> 
+message,<user>,<size=28>But you must never go off alone.                                    <br><size=28>That's the one condition for me taking you to the Abyss.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -556,9 +556,9 @@ asyncseplay,setag1_33,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,シルヴィア,<size=32>Oh? You don't want to let the nuisance out of your sight?<br> ,102601000G,vc_10260100001_030_01,chara_1
+message,シルヴィア,<size=28>Oh? You don't want to let the nuisance out of your sight?<br> ,102601000G,vc_10260100001_030_01,chara_1
 
-message,<user>,<size=32>—No. It's to keep you safe.<br> 
+message,<user>,<size=28>——No. It's to keep you safe.<br> 
 
 window,off
 wait,0.15
@@ -585,7 +585,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,シルヴィア,<size=32>...Hmph. How presumptuous. Well， very well.                              <br><size=32>I'll do my best to stay within your sight.<br> ,102601000G,vc_10260100001_031_01,chara_1
+message,シルヴィア,<size=28>...Hmph. How presumptuous. Well，very well.                          <br><size=28>I'll do my best to stay within your sight.<br> ,102601000G,vc_10260100001_031_01,chara_1
 
 window,off
 wait,0.15
@@ -629,7 +629,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,シルヴィア,<size=32>(...Please wait for me， Father， Mother.                                  <br><size=32>This time， I will find my way home.)<br> ,102601000G,vc_10260100001_032_01,chara_1
+message,シルヴィア,<size=28>(...Please wait for me，Father，Mother.                               <br><size=28>This time，I will find my way home.)<br> ,102601000G,vc_10260100001_032_01,chara_1
 
 window,off
 bgmstop,bgmtag1_3,0.5

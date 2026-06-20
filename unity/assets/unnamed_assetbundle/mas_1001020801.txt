@@ -40,9 +40,9 @@ wait,0.15
 
 
 window,on,0.15
-message,,<size=32>Having rescued Marina from the snow，the party found a nearby cave        <br><size=32>and began treating the ice-cold Marina inside.<br> 
+message,,<size=28>Having rescued Marina from the snow，the party found a nearby cave   <br><size=28>and began treating the ice-cold Marina inside.<br> 
 
-message,<user>,<size=32>Damn，not enough chocolate left to make hot chocolate.                    <br><size=32>I wish we had something warm……<br> 
+message,<user>,<size=28>Damn，not enough chocolate left to make hot chocolate.               <br><size=28>I wish we had something warm……<br> 
 
 window,off
 wait,0.15
@@ -67,7 +67,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>Master! Should Belisa start a fire?<br> ,100201000G,mcv_1001020801_001_01,chara_1
+message,ベリサ,<size=28>Onii-san! Should Belisa start a fire?<br> ,100201000G,mcv_1001020801_001_01,chara_1
 
 window,off
 wait,0.15
@@ -106,7 +106,7 @@ asynccharaemo,chara_2,Shock,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>Wait，Belisa!<br> ,106501000G,mcv_1001020801_002_01,chara_2
+message,ソフィア,<size=28>Wait，Belisa!<br> ,106501000G,mcv_1001020801_002_01,chara_2
 
 window,off
 wait,0.15
@@ -161,7 +161,7 @@ asynccharaemo,chara_1,Anger,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>Huh!? Why!                                                               <br><size=32>We need to warm her up fast!<br> ,100201000G,mcv_1001020801_003_01,chara_1
+message,ベリサ,<size=28>Huh!? Why!                                                          <br><size=28>We need to warm her up fast!<br> ,100201000G,mcv_1001020801_003_01,chara_1
 
 asynccharaface,chara_2,EyeClose,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -173,7 +173,7 @@ asyncseplay,setag1_4,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ソフィア,<size=32>Warming someone up too quickly in this situation can put them into shock!<br> ,106501000G,mcv_1001020801_004_01,chara_2
+message,ソフィア,<size=28>Warming someone up too quickly in this situation can put them into  <br><size=28>shock!<br> ,106501000G,mcv_1001020801_004_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -184,7 +184,7 @@ asyncseplay,setag1_5,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ベリサ,<size=32>What!? Then what do we do!?<br> ,100201000G,mcv_1001020801_005_01,chara_1
+message,ベリサ,<size=28>What!? Then what do we do!?<br> ,100201000G,mcv_1001020801_005_01,chara_1
 
 window,off
 wait,0.15
@@ -195,7 +195,7 @@ asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
 
 window,on,0.15
-message,<user>,<size=32>Sophia is right. Marina is in hypothermia right now.                     <br><size=32>……In other words，she's frozen.<br> 
+message,<user>,<size=28>Sophia is right. Marina is in hypothermia right now.                <br><size=28>……In other words，she's frozen.<br> 
 
 window,off
 wait,0.15
@@ -236,7 +236,7 @@ asynccharaemo,chara_3,Speak,CONT,0
 
 
 window,on,0.15
-message,クルル,<size=32>When this happens，Kulul and her kind cuddle up together to warm each     <br><size=32>other!<br> ,106701000G,mcv_1001020801_006_01,chara_3
+message,クルル,<size=28>When this happens，Kururu’s kind cuddle up                           <br><size=28>together to warm each other!<br> ,106701000G,mcv_1001020801_006_01,chara_3
 
 window,off
 wait,0.15
@@ -304,9 +304,9 @@ asyncshake,CHARA,chara_3,15,10,0.25,3,on,off,0,off,CONT,0
 asyncwait
 
 window,on,0.15
-message,,<size=32>Saying that，Kulul unhesitatingly embraced Marina's chilled body.<br> 
+message,,<size=28>Saying that，Kururu unhesitatingly embraced Marina's chilled body.<br> 
 
-message,<user>,<size=32>Right. As expected from someone raised in the mountains，Kulul knows well.<br><size=32>Kulul，please—warm her with your tail.<br> 
+message,<user>,<size=28>Right. Mountain-raised Kururu knows best.                           <br><size=28>Kururu，please— warm her up.<br> 
 
 window,off
 wait,0.15
@@ -328,7 +328,7 @@ asynccameramove,Linear,Y,80,0.5,CONT,0
 asyncwait
 
 window,on,0.15
-message,,<size=32>Saying that，the Commander took out a blanket                             <br><size=32>and gently draped it over Kulul's back.<br> 
+message,,<size=28>Saying that，the Commander took out a blanket                        <br><size=28>and gently draped it over Kururu's back.<br> 
 
 window,off
 wait,0.15
@@ -385,7 +385,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>I also know the rescue method for being stranded in a snowfield.         <br><size=32>There's only one way to revive someone with hypothermia.<br> ,106501000G,mcv_1001020801_007_01,chara_2
+message,ソフィア,<size=28>I also know the rescue method for being stranded in a snowfield.    <br><size=28>There's only one way to revive someone with hypothermia.<br> ,106501000G,mcv_1001020801_007_01,chara_2
 
 window,off
 wait,0.15
@@ -401,7 +401,7 @@ asyncseplay,setag1_8,se4800014,0,1,CONT,0
 asynccharaemo,chara_2,Silence,CONT,0
 
 window,on,0.15
-message,,<size=32>Saying that，Sophia began taking off her clothes.<br> 
+message,,<size=28>Saying that，Sophia began taking off her clothes.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -412,7 +412,7 @@ asyncseplay,setag1_9,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ベリサ,<size=32>Wh-whoa，what are you doing now，Sophia!?<br> ,100201000G,mcv_1001020801_008_01,chara_1
+message,ベリサ,<size=28>Wh-whoa，what are you doing now，Sophia!?<br> ,100201000G,mcv_1001020801_008_01,chara_1
 
 asynccharaface,chara_2,FaceShy,CONT,0
 
@@ -423,7 +423,7 @@ asyncseplay,setag1_10,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ソフィア,<size=32>It can't be helped. The only way to restore heat to the autonomic nerves <br><size=32>of a frozen body is to hold each other directly and warm them skin to skin.<br> ,106501000G,mcv_1001020801_009_01,chara_2
+message,ソフィア,<size=28>It can’t be helped. To restore heat to frozen nerves，               <br><size=28>we must warm the body directly.<br> ,106501000G,mcv_1001020801_009_01,chara_2
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -434,9 +434,9 @@ asyncseplay,setag1_11,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ベリサ,<size=32>Got it! Then I'll help too!                                              <br><size=32>That'll be faster，right?<br> ,100201000G,mcv_1001020801_010_01,chara_1
+message,ベリサ,<size=28>Got it! Then I'll help too!                                         <br><size=28>That'll be faster，right?<br> ,100201000G,mcv_1001020801_010_01,chara_1
 
-message,<user>,<size=32>I'm counting on everyone.<br> 
+message,<user>,<size=28>I'm counting on everyone.<br> 
 
 window,off
 wait,0.15
@@ -464,7 +464,7 @@ asynctransitionFade,Tra01,in,black,0.5,STOP,0.5
 waitorclick,1.5
 
 window,on,0.15
-message,,<size=32>Saying only that，the Commander turned away                               <br><size=32>and withdrew toward the cave entrance.<br> 
+message,,<size=28>Saying only that，the Commander turned away                          <br><size=28>and withdrew toward the cave entrance.<br> 
 
 
 window,off
@@ -540,9 +540,9 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,<size=32>Master~!                                                                 <br><size=32>Marina…… Marina woke up~~~~!<br> ,106701000G,mcv_1001020801_011_01,chara_3
+message,クルル,<size=28>Master~!                                                            <br><size=28>Marina…… Marina woke up~~~~!<br> ,106701000G,mcv_1001020801_011_01,chara_3
 
-message,<user>,<size=32>What!?<br> 
+message,<user>,<size=28>What!?<br> 
 
 window,off
 wait,0.15
@@ -591,9 +591,9 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=32>Mm……unn……                                                                <br><size=32>Is this…… heaven~?<br> ,100301000G,mcv_1001020801_012_01,chara_4
+message,マリナ,<size=28>Mm……unn……                                                           <br><size=28>Is this…… heaven~?<br> ,100301000G,mcv_1001020801_012_01,chara_4
 
-message,<user>,<size=32>Marina，thank goodness you woke up!                                       <br><size=32>Don't worry，everyone is alive!<br> 
+message,<user>,<size=28>Marina，thank goodness you woke up!                                  <br><size=28>Don't worry，everyone is alive!<br> 
 
 window,off
 wait,0.15
@@ -648,7 +648,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>Thank goodness. Truly thank goodness……<br> ,106501000G,mcv_1001020801_013_01,chara_2
+message,ソフィア,<size=28>Thank goodness. Truly thank goodness……<br> ,106501000G,mcv_1001020801_013_01,chara_2
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -657,7 +657,7 @@ asyncseplay,setag1_16,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ベリサ,<size=32>Marina~~~~……<br> ,100201000G,mcv_1001020801_014_01,chara_1
+message,ベリサ,<size=28>Marina~~~~……<br> ,100201000G,mcv_1001020801_014_01,chara_1
 
 window,off
 wait,0.15
@@ -699,7 +699,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,<size=32>Marina，are you alright?                                                  <br><size=32>Here，drink this. Slowly，little by little.<br> 
+message,<user>,<size=28>Marina，are you alright?                                             <br><size=28>Here，drink this. Slowly，little by little.<br> 
 
 window,off
 wait,0.15
@@ -713,7 +713,7 @@ asyncseplay,setag1_17,se4800014,0,1,CONT,0
 asynccharaemo,chara_4,Silence,CONT,0
 
 window,on,0.15
-message,,<size=32>The Commander supported Marina and helped her drink the potion.          <br><size=32>Gradually her color returned，and Marina's expression became more alert.<br> 
+message,,<size=28>The Commander supported Marina and helped her drink the potion.     <br><size=28>Gradually her color returned，and Marina's expression became more alert.<br> 
 
 window,off
 wait,0.15
@@ -742,7 +742,7 @@ wait,0.5
 
 
 window,on,0.15
-message,マリナ,<size=32>……Huh? Everyone?                                                         <br><size=32>W-what happened……?<br> ,100301000G,mcv_1001020801_015_01,chara_4
+message,マリナ,<size=28>……Huh? Everyone?                                                    <br><size=28>W-what happened……?<br> ,100301000G,mcv_1001020801_015_01,chara_4
 
 window,off
 wait,0.15
@@ -768,7 +768,7 @@ asyncfade,In,Black,0,STOP,0.5
 waitorclick,0.5
 
 window,on,0.15
-message,,<size=32>He explained the whole sequence of events to Marina，who had finally fully<br><size=32>regained consciousness.<br> 
+message,,<size=28>He explained everything to Marina，                                  <br><size=28>who had finally regained consciousness.<br> 
 
 window,off
 wait,0.15
@@ -807,9 +807,9 @@ asynccharaemo,chara_4,Panic,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=32>Waaaahhh~~~……Thank you all so much~~~~!                                  <br><size=32>Truly，truly，thank you so very much~~~~~~……!<br> ,100301000G,mcv_1001020801_016_01,chara_4
+message,マリナ,<size=28>Waaaahhh~~~……Thank you all so much~~~~!                             <br><size=28>Truly，truly，thank you so very much~~~~~~……!<br> ,100301000G,mcv_1001020801_016_01,chara_4
 
-message,<user>,<size=32>Once Marina recovers her strength we resume moving. Thanks to getting    <br><size=32>swept by the avalanche，we ended up much closer to the Calamity observation point by pure chance.<br> 
+message,<user>,<size=28>Once Marina recovers we resume moving. The avalanche actually swept <br><size=28>us much closer to the Calamity’s position.<br> 
 
 window,off
 wait,0.15
@@ -875,7 +875,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>The real hero this time was the Commander for remembering where the      <br><size=32>chocolate was，but……<br> ,106501000G,mcv_1001020801_017_01,chara_2
+message,ソフィア,<size=28>The real hero this time was Commander                               <br><size=28>for remembering where the chocolate was，but……<br> ,106501000G,mcv_1001020801_017_01,chara_2
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -886,7 +886,7 @@ asyncseplay,setag1_22,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ベリサ,<size=32>Above all else，it was Kulul's nose that saved us~.<br> ,100201000G,mcv_1001020801_018_01,chara_1
+message,ベリサ,<size=28>Above all else，it was Kururu's nose that saved us~.<br> ,100201000G,mcv_1001020801_018_01,chara_1
 
 asynccharaface,chara_3,FaceHappy,CONT,0
 
@@ -897,7 +897,7 @@ asyncseplay,setag1_23,se4800018,0,1,CONT,0
 asynccharaemo,chara_3,Flower,CONT,0
 
 
-message,クルル,<size=32>Ehehe~!<br> ,106701000G,mcv_1001020801_019_01,chara_3
+message,クルル,<size=28>Ehehe~!<br> ,106701000G,mcv_1001020801_019_01,chara_3
 
 window,off
 wait,0.15
@@ -915,7 +915,7 @@ asyncseplay,setag1_24,se4800009,0,1,CONT,0
 asynccharaemo,chara_3,Question,CONT,0
 
 window,on,0.15
-message,,<size=32>Kulul beamed innocently，                                                 <br><size=32>but then suddenly her ears shot straight up.<br> 
+message,,<size=28>Kururu beamed innocently，                                           <br><size=28>but then suddenly her ears shot straight up.<br> 
 
 window,off
 wait,0.15
@@ -968,7 +968,7 @@ asynccharaemo,chara_3,Shock,CONT,0
 
 
 window,on,0.15
-message,クルル,<size=32>Just now! I heard something!<br> ,106701000G,mcv_1001020801_020_01,chara_3
+message,クルル,<size=28>Just now! I heard something!<br> ,106701000G,mcv_1001020801_020_01,chara_3
 
 window,off
 wait,0.15
@@ -1035,7 +1035,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>Something……?<br> ,100201000G,mcv_1001020801_021_01,chara_1
+message,ベリサ,<size=28>Something……?<br> ,100201000G,mcv_1001020801_021_01,chara_1
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -1046,7 +1046,7 @@ asyncseplay,setag1_27,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,クルル,<size=32>A girl's voice…… saying help me!<br> ,106701000G,mcv_1001020801_022_01,chara_3
+message,クルル,<size=28>A girl's voice…… saying help me!<br> ,106701000G,mcv_1001020801_022_01,chara_3
 
 window,off
 wait,0.15
@@ -1068,7 +1068,7 @@ asynccharaemo,chara_2,Exclamation,CONT,0
 wait,0.5
 
 window,on,0.15
-message,<user>,<size=32>That voice from before…… so it wasn't just my imagination after all.     <br><size=32>Can you tell which direction? We need to let Lux Nova know too……<br> 
+message,<user>,<size=28>That voice from before…… so it wasn't just my imagination after all.<br><size=28>Can you tell which direction? We need to let Lux Nova know too……<br> 
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -1079,7 +1079,7 @@ asyncseplay,setag1_30,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,ソフィア,<size=32>Huh? Don't tell me the person Shiena and the others are searching for is <br><size=32>the one behind that voice?<br> ,106501000G,mcv_1001020801_023_01,chara_2
+message,ソフィア,<size=28>Huh? Don’t tell me the person Shiena’s group seeks                  <br><size=28>is behind that voice?<br> ,106501000G,mcv_1001020801_023_01,chara_2
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1090,9 +1090,9 @@ asyncseplay,setag1_31,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ベリサ,<size=32>Thank goodness~.                                                         <br><size=32>That means it's not a ghost or a specter，right?<br> ,100201000G,mcv_1001020801_024_01,chara_1
+message,ベリサ,<size=28>Thank goodness~.                                                    <br><size=28>That means it's not a ghost or a specter，right?<br> ,100201000G,mcv_1001020801_024_01,chara_1
 
-message,<user>,<size=32>Not certain yet. We were able to make it this far thanks to Shiena and   <br><size=32>the others. We need to give something back to them in return.<br> 
+message,<user>,<size=28>Not certain yet. We made it this far thanks to them.                <br><size=28>We need to reciprocate their kindness.<br> 
 
 window,off
 wait,0.15
@@ -1147,9 +1147,9 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,クルル,<size=32>W-w-wait，master!<br> ,106701000G,mcv_1001020801_025_01,chara_3
+message,クルル,<size=28>W-w-wait，Master!<br> ,106701000G,mcv_1001020801_025_01,chara_3
 
-message,<user>,<size=32>Hm? What's wrong?<br> 
+message,<user>,<size=28>Hm? What's wrong?<br> 
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -1160,9 +1160,9 @@ asyncseplay,setag1_33,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,クルル,<size=32>Um…… I'm also hearing heavy thudding footsteps                           <br><size=32>and rough breathing getting closer……<br> ,106701000G,mcv_1001020801_026_01,chara_3
+message,クルル,<size=28>Um…… I'm also hearing heavy thudding footsteps                      <br><size=28>and rough breathing getting closer……<br> ,106701000G,mcv_1001020801_026_01,chara_3
 
-message,<user>,<size=32>What……?                                                                  <br><size=32>A giant monster?<br> 
+message,<user>,<size=28>What……?                                                             <br><size=28>A giant monster?<br> 
 
 asyncshake,CHARA,chara_3,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -1171,9 +1171,9 @@ asyncseplay,setag1_34,se4800015,0,1,CONT,0
 asynccharaemo,chara_3,Dull,CONT,0
 
 
-message,クルル,<size=32>Mm…… probably not……                                                      <br><size=32>Something bigger…… something…… scarier……<br> ,106701000G,mcv_1001020801_027_01,chara_3
+message,クルル,<size=28>Mm…… probably not……                                                 <br><size=28>Something bigger…… something…… scarier……<br> ,106701000G,mcv_1001020801_027_01,chara_3
 
-message,<user>,<size=32>That means…… could it be……!!                                             <br><size=32>……In any case，there's no point staying here. Let's go look!<br> 
+message,<user>,<size=28>That means…… could it be……!!                                        <br><size=28>……In any case，there's no point staying here. Let's go look!<br> 
 
 
 window,off
@@ -1204,7 +1204,7 @@ asynctransitionFade,Tra15,in,black,0,STOP,0.5
 waitorclick,0.5
 
 window,on,0.15
-message,<user>,<size=32>Wh……!                                                                    <br><size=32>No…… way……!?<br> 
+message,<user>,<size=28>Wh……!                                                               <br><size=28>No…… way……!?<br> 
 
 window,off
 wait,0.15
@@ -1235,37 +1235,37 @@ asyncshake,CHARA,chara_2,50,0,1,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_3,50,0,1,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_4,50,0,1,20,off,off,0,off,CONT,0
 window,on,0.15
-message,？？？,<size=32>ROOOOOOOAAAAAARRR!!<br> ,900000002
+message,？？？,<size=28>ROOOOOOOAAAAAARRR!!<br> ,900000002
 
-message,,<size=32>As the Commander's party exited the cave，a tremendous roar shook the air.<br><size=32>Its massive body，fearsome visage，and overflowing malevolent magical energy.<br> 
+message,,<size=28>As they exited the cave，a tremendous roar shook the air. A massive  <br><size=28>body，terrifying visage，and overwhelming sinister magical power.<br> 
 
 stillchange,still_0,1
 
-message,クルル,<size=32>Oh no oh no oh no……<br> ,106701000G,mcv_1001020801_001_99,on
+message,クルル,<size=28>Oh no oh no oh no……<br> ,106701000G,mcv_1001020801_001_99,on
 
-message,ソフィア,<size=32>This is completely different from what we were told!                     <br><size=32>It's way bigger than the Calamity of the Sandstorm we fought before!<br> ,106501000G,mcv_1001020801_002_99,on
+message,ソフィア,<size=28>This is completely different from what we were told!                <br><size=28>It's way bigger than the Calamity of the Sandstorm we fought before!<br> ,106501000G,mcv_1001020801_002_99,on
 
-message,<user>,<size=32>Damn…… it must have grown to this scale by the time we made it here.<br> 
+message,<user>,<size=28>Damn…… it must have grown to this scale by the time we made it here.<br> 
 
-message,ベリサ,<size=32>No no no…… this is way too big no matter how you look at it!?<br> ,100201000G,mcv_1001020801_003_99,on
+message,ベリサ,<size=28>No no no…… this is way too big no matter how you look at it!?<br> ,100201000G,mcv_1001020801_003_99,on
 
-message,<user>,<size=32>Kgh…… its very existence is a 『Glacier』 made manifest……                  <br><size=32>The Calamity…… of the Glacier……<br> 
+message,<user>,<size=28>Kgh…… its very existence is a ""Glacier"" made manifest……             <br><size=28>The Calamity…… of the Glacier……<br> 
 
-message,マリナ,<size=32>The Calamity of the Glacier…… wh-what do we do……?                        <br><size=32>Are we really going to fight this thing~?<br> ,100301000G,mcv_1001020801_004_99,on
+message,マリナ,<size=28>The Calamity of the Glacier…… wh-what do we do……?                   <br><size=28>Are we really going to fight this thing~?<br> ,100301000G,mcv_1001020801_004_99,on
 
-message,クルル,<size=32>Ughhh…… Kulul's whole body is tingling!!<br> ,106701000G,mcv_1001020801_005_99,on
+message,クルル,<size=28>Ughhh…… Kururu's whole body is tingling!!<br> ,106701000G,mcv_1001020801_005_99,on
 
-message,ソフィア,<size=32>What is this thick miasma……<br> ,106501000G,mcv_1001020801_006_99,on
+message,ソフィア,<size=28>What is this thick miasma……<br> ,106501000G,mcv_1001020801_006_99,on
 
-message,ベリサ,<size=32>An overwhelming magical energy that claws at you to the marrow of your   <br><size=32>bones…… I've…… never felt anything like this……<br> ,100201000G,mcv_1001020801_007_99,on
+message,ベリサ,<size=28>Magical energy that claws to your very bones……                      <br><size=28>I’ve…… never felt anything this terrifying……<br> ,100201000G,mcv_1001020801_007_99,on
 
-message,,<size=32>Each of them murmured their fear，barely holding back despair.<br> 
+message,,<size=28>Each of them murmured their fear，barely holding back despair.<br> 
 
-message,,<size=32>They would later learn that the Calamity of the Glacier had been awakened<br><size=32>by the explosion that triggered the avalanche and had climbed up to this level.<br> 
+message,,<size=28>They would later learn that the Glacier Calamity，awakened by        <br><size=28>the explosion that caused the avalanche，had climbed up to here.<br> 
 
-message,<user>,<size=32>Damn，do we really have to fight something like this……!?<br> 
+message,<user>,<size=28>Damn，do we really have to fight something like this……!?<br> 
 
-message,,<size=32>However，the Calamity now stood blocking their path at a distance they    <br><size=32>could no longer flee from. Combat was unavoidable.<br> 
+message,,<size=28>But the Calamity now blocked their path                             <br><size=28>at a distance too close to flee from.<br> 
 
 stillchange,still_0,2
 
@@ -1276,11 +1276,11 @@ asyncshake,CHARA,chara_1,50,0,1,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_2,50,0,1,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_3,50,0,1,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_4,50,0,1,20,off,off,0,off,CONT,0
-message,,<size=32>ROOOOOOOAAAAAARRR!!<br> ,900000002
+message,,<size=28>ROOOOOOOAAAAAARRR!!<br> ,900000002
 
-message,,<size=32>A roar taken at close range. Feeling another surge of terror at the sheer<br><size=32>force of it，the party nonetheless braced themselves.<br> 
+message,,<size=28>A roar at close range.                                              <br><size=28>Another surge of terror as the party braced to fight.<br> 
 
-message,<user>,<size=32>Here it comes!!                                                          <br><size=32>Brace yourselves!!<br> 
+message,<user>,<size=28>Here it comes!!                                                     <br><size=28>Brace yourselves!!<br> 
 
 window,off
 wait,0.15

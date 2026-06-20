@@ -69,7 +69,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,盗賊Ａ,<size=32>Ugh……d-damn they're strong……<br> ,2028301,,chara_1
+message,盗賊Ａ,<size=28>Ugh……d-damn they're strong……<br> ,2028301,,chara_1
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -80,7 +80,7 @@ asyncseplay,setag2_2,se4800001,0,1,CONT,0
 asynccharaemo,chara_2,Anger,CONT,0
 
 
-message,盗賊Ｂ,<size=32>Don't let it go to your head.                                            <br><size=32>Hey，send reinforcements here!　Everyone who can come!<br> ,2028301,,chara_2
+message,盗賊Ｂ,<size=28>Don't let it go to your head.                                       <br><size=28>Hey，send reinforcements here!　Everyone who can come!<br> ,2028301,,chara_2
 
 window,off
 wait,0.15
@@ -129,9 +129,9 @@ asynccharaemo,chara_5,Speak,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=32>Ohhh…… those rugged men                                                  <br><size=32>just keep coming infinitely~.<br> ,100301000G,mcv_1001010602_001_01,chara_5
+message,マリナ,<size=28>Ohhh…… those rugged men                                             <br><size=28>just keep coming infinitely~.<br> ,100301000G,mcv_1001010602_001_01,chara_5
 
-message,<user>,<size=32>Belisa，now!<br> 
+message,<user>,<size=28>Belisa，now!<br> 
 
 window,off
 wait,0.15
@@ -182,7 +182,7 @@ asynccharaemo,chara_4,Panic,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>Argh!　Commander，this plan is way too scary~~~~~!<br> ,100201000G,mcv_1001010602_002_01,chara_4
+message,ベリサ,<size=28>Argh! Onii-san，this plan is way too scary~~~~~!<br> ,100201000G,mcv_1001010602_002_01,chara_4
 
 window,off
 wait,0.15
@@ -231,7 +231,7 @@ waitorclick,1.5
 asyncseplay,setag2_7,se4900201,0,1,CONT,0
 
 window,on,0.15
-message,,<size=32>——KABOOOOM!!!!!!!<br> 
+message,,<size=28>——KABOOOOM!!!!!!!<br> 
 
 window,off
 wait,0.15
@@ -284,7 +284,7 @@ asynccharaemo,chara_7,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,モンスター,<size=32>UGHOAAAA!?<br> ,402001000,,chara_6/chara_7
+message,モンスター,<size=28>UGHOAAAA!?<br> ,402001000,,chara_6/chara_7
 
 window,off
 wait,0.15
@@ -313,7 +313,7 @@ asyncwait
 
 
 window,on,0.15
-message,モンスター,<size=32>ROOOOAARRR!!!!<br> ,402001000,,chara_6/chara_7
+message,モンスター,<size=28>ROOOOAARRR!!!!<br> ,402001000,,chara_6/chara_7
 
 window,off
 wait,0.15
@@ -374,7 +374,7 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,盗賊C,<size=32>Whoa，what!?                                                              <br><size=32>W-what's happening!?　Two giant monsters!?<br> ,2028301,,chara_2
+message,盗賊C,<size=28>Whoa，what!?                                                         <br><size=28>W-what's happening!?　Two giant monsters!?<br> ,2028301,,chara_2
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -383,7 +383,7 @@ asyncseplay,setag2_14,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,盗賊D,<size=32>Th-they're coming this way!　Run!!!!<br> ,2028301,,chara_1
+message,盗賊D,<size=28>Th-they're coming this way!　Run!!!!<br> ,2028301,,chara_1
 
 window,off
 wait,0.15
@@ -441,7 +441,7 @@ asynctransitionCrossFade,Tra01,0.5,STOP
 waitorclick,1
 
 window,on,0.15
-message,<user>,<size=32>Everyone，get down!<br> 
+message,<user>,<size=28>Everyone，get down!<br> 
 
 window,off
 wait,0.15
@@ -552,7 +552,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,盗賊Ａ,<size=32>Nooo!!　Eeeeek!!<br> ,2028301,,chara_1
+message,盗賊Ａ,<size=28>Nooo!!　Eeeeek!!<br> ,2028301,,chara_1
 
 window,off
 wait,0.15
@@ -627,7 +627,7 @@ asyncwait
 
 
 window,on,0.15
-message,モンスター,<size=32>GRAAAAH!<br> ,402001000,,chara_6
+message,モンスター,<size=28>GRAAAAH!<br> ,402001000,,chara_6
 
 window,off
 wait,0.15
@@ -686,7 +686,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,盗賊Ｂ,<size=32>This can't be happening……AAAAAAH!!<br> ,2028301,,chara_1/chara_2
+message,盗賊Ｂ,<size=28>This can't be happening……AAAAAAH!!<br> ,2028301,,chara_1/chara_2
 
 window,off
 wait,0.15
@@ -756,7 +756,7 @@ asyncwait
 
 
 window,on,0.15
-message,モンスター,<size=32>ROOOAAARR!<br> ,402001000,,chara_6
+message,モンスター,<size=28>ROOOAAARR!<br> ,402001000,,chara_6
 
 window,off
 wait,0.15
@@ -822,7 +822,7 @@ asynccharaemo,chara_5,Sweat,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=32>Oh my……quite the rampage.<br> ,100301000G,mcv_1001010602_003_01,chara_5
+message,マリナ,<size=28>Oh my……quite the rampage.<br> ,100301000G,mcv_1001010602_003_01,chara_5
 
 asynccharaface,chara_4,FaceSad,CONT,0
 
@@ -833,7 +833,7 @@ asyncseplay,setag2_27,se4800006,0,1,CONT,0
 asynccharaemo,chara_4,Trouble,CONT,0
 
 
-message,ベリサ,<size=32>Drawing all the bandits to one spot，                                     <br><size=32>then provoking those mating monsters into attacking them~.<br> ,100201000G,mcv_1001010602_004_01,chara_4
+message,ベリサ,<size=28>Drawing all the bandits to one spot，                                <br><size=28>then provoking those mating monsters into attacking them~.<br> ,100201000G,mcv_1001010602_004_01,chara_4
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -844,7 +844,7 @@ asyncseplay,setag2_28,se4800015,0,1,CONT,0
 asynccharaemo,chara_3,Dull,CONT,0
 
 
-message,ソフィア,<size=32>Brilliant strategy，but isn't it a little too unconventional?             <br><size=32>I would not want this man as an enemy……<br> ,106501000G,mcv_1001010602_005_01,chara_3
+message,ソフィア,<size=28>Brilliant strategy，but isn't it a little too unconventional?        <br><size=28>I would not want this man as an enemy……<br> ,106501000G,mcv_1001010602_005_01,chara_3
 
 window,off
 wait,0.15
@@ -895,9 +895,9 @@ asynccharaemo,chara_6,Anger,CONT,0
 
 
 window,on,0.15
-message,モンスター,<size=32>ROOAAAAARRR!                                                             <br><size=32>GRAAAAAAAH!!<br> ,402001000,,chara_6
+message,モンスター,<size=28>ROOAAAAARRR!                                                        <br><size=28>GRAAAAAAAH!!<br> ,402001000,,chara_6
 
-message,<user>,<size=32>Now，use the confusion and break through all at once!!<br> 
+message,<user>,<size=28>Now，use the confusion and break through all at once!!<br> 
 
 window,off
 wait,0.15
@@ -940,9 +940,9 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>Hmm……?　Hey，Commander. Taking out the bandits was great and all，but aren't<br><size=32>those things looking this way?<br> ,100201000G,mcv_1001010602_006_01,chara_4
+message,ベリサ,<size=28>Huh...? Hey hey，Onii-san.                                           <br><size=28>Taking out those bandits was great，but aren't they looking this way?<br> ,100201000G,mcv_1001010602_006_01,chara_4
 
-message,<user>,<size=32>Hm?<br> 
+message,<user>,<size=28>Hm?<br> 
 
 window,off
 wait,0.15
@@ -1005,7 +1005,7 @@ asynccharaemo,chara_7,Question,CONT,0
 
 
 window,on,0.15
-message,モンスター,<size=32>Grrrrr……?<br> ,402001000,,chara_6/chara_7
+message,モンスター,<size=28>Grrrrr……?<br> ,402001000,,chara_6/chara_7
 
 window,off
 wait,0.15
@@ -1052,7 +1052,7 @@ asynccharaemo,chara_5,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=32>Eek!　We made eye contact!<br> ,100301000G,mcv_1001010602_007_01,chara_5
+message,マリナ,<size=28>Eek!　We made eye contact!<br> ,100301000G,mcv_1001010602_007_01,chara_5
 
 window,off
 wait,0.15
@@ -1109,7 +1109,7 @@ asyncwait
 
 
 window,on,0.15
-message,モンスター,<size=32>ROOAAAARR!!<br> ,402001000,,chara_6/chara_7
+message,モンスター,<size=28>ROOAAAARR!!<br> ,402001000,,chara_6/chara_7
 
 window,off
 wait,0.15
@@ -1160,7 +1160,7 @@ asynccharaemo,chara_4,Panic,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>Th-they're coming~!<br> ,100201000G,mcv_1001010602_008_01,chara_4
+message,ベリサ,<size=28>Th-they're coming~!<br> ,100201000G,mcv_1001010602_008_01,chara_4
 
 window,off
 bgmstop,bgmtag2_2,0.5

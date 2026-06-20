@@ -50,16 +50,17 @@ should sound:
 
 ### Formatting Conventions
 
-- **No ASCII commas** in translated text. Use fullwidth `，` instead (the game
-  script parser splits on ASCII commas and an unescaped comma will corrupt the
-  entire line).
+- **Use regular commas** in translation JSON files. The generate script
+  (`common._comma_safe()`) automatically converts ASCII commas to fullwidth `，`
+  when producing the final `.txt` output. Do not count the space after a comma
+  toward the line length limit.
 - Preserve special tokens: `<user>`, `<br>`, `<size=N>...</size>`.
 - Preserve symbols: `♪`, `♥`, `♡`, `～`, etc.
 
 ### Line Length Limits
 
 - Dialogue lines for `message`, `dotmessage`, `l2dmessage`, and
-  `messageTextUnder` must fit within **73 characters per line**, max **2 lines**
+  `messageTextUnder` must fit within **68 characters per line**, max **2 lines**
   (separated by `<br>`).
 - `messageTextCenter` and `title` are **exempt** from this limit.
 - When a translation is too long, prefer rephrasing concisely over splitting
@@ -72,7 +73,7 @@ should sound:
 | ～ (wave dash at end) | ~ (tilde) | そうですかぁ～ → "Is that so~" |
 | ♪ | ♪ (keep as-is) | いくよ～♪ → "Here I go~♪" |
 | …… (double ellipsis) | ... (single ellipsis) | そうか…… → "I see..." |
-| ーー (long dash) | -- (double hyphen) | それはーー → "That was--" |
+| ーー (long dash) | —— (double em dash) | それはーー → "That was——" |
 | っ！ (glottal stop + !) | ! (just exclamation) | くそっ！ → "Damn!" |
 | 「」 quotes within speech | "double quotes" | 「楽園」→ "paradise" |
 
@@ -94,7 +95,7 @@ explore the Abyss, fight monsters, and investigate the Calamities.
 | The Abyss | 大穴 | Giant hole, main exploration site |
 | Forward Base | 前線基地 | MC's headquarters |
 | Lux Nova | ルクスノヴァ | — |
-| Tresria | トレスリア | Region name |
+| Treslia | トレスリア | Region name; demonym is "Treslian" |
 | Milesgard | ミレスガルド | One of the three great nations |
 | Eldorana | エルドラーナ | One of the three great nations |
 | Perdion | ペルディオン | One of the three great nations, known for technology |

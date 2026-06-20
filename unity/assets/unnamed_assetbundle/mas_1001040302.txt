@@ -63,7 +63,7 @@ waitorclick,0.8
 
 
 window,on,0.15
-message,シエナ,<size=32>This—ends here!<br> ,300501000,mcv_1001040302_001_01,chara_1
+message,シエナ,<size=28>This——ends here!<br> ,300501000,mcv_1001040302_001_01,chara_1
 
 window,off
 wait,0.15
@@ -87,7 +87,7 @@ bgmstop,bgmtag2_1,1.5,0
 wait,0.5
 
 window,on,0.15
-message,<user>,<size=32>As flamboyant as ever. That's the leader of Luxnova for you.<br> 
+message,<user>,<size=28>As flamboyant as ever. That's the leader of Lux Nova for you.<br> 
 
 bgmplay,bgmtag2_2,bgm0024,0.75,1
 
@@ -100,7 +100,7 @@ asyncseplay,setag2_2,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,シエナ,<size=32>Please stop teasing me!<br> ,300501000,mcv_1001040302_002_01,chara_1
+message,シエナ,<size=28>Please stop teasing me!<br> ,300501000,mcv_1001040302_002_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -111,7 +111,7 @@ asyncseplay,setag2_3,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,シエナ,<size=32>Back on the volcano floor，the magma stopped me from going all out. But   <br><size=32>here I can fight without holding back!<br> ,300501000,mcv_1001040302_003_01,chara_1
+message,シエナ,<size=28>On the volcano floor，magma held me back.                            <br><size=28>But here I can fight without holding back!<br> ,300501000,mcv_1001040302_003_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -122,9 +122,9 @@ asyncseplay,setag2_4,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シエナ,<size=32>...But ugh... I am actually getting tired...<br> ,300501000,mcv_1001040302_004_01,chara_1
+message,シエナ,<size=28>...But ugh... I am actually getting tired...<br> ,300501000,mcv_1001040302_004_01,chara_1
 
-message,<user>,<size=32>Don't overdo it. This floor has a strong influence from the Hunger       <br><size=32>Calamity. The drain on your stamina might be worse than usual.<br> 
+message,<user>,<size=28>Don't overdo it. The Hunger Calamity's influence                    <br><size=28>might drain your stamina faster than usual.<br> 
 
 window,off
 wait,0.15
@@ -160,7 +160,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,<size=32>Siena... you've gotten so much stronger since coming to this world...    <br><size=32>it's incredible...<br> ,106601001G,mcv_1001040302_005_01,chara_2
+message,ヒマリ,<size=28>Shiena... you've gotten so much stronger                            <br><size=28>since coming to this world... incredible...<br> ,106601001G,mcv_1001040302_005_01,chara_2
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -171,7 +171,7 @@ asyncseplay,setag2_6,se4800015,0,1,CONT,0
 asynccharaemo,chara_2,Dull,CONT,0
 
 
-message,ヒマリ,<size=32>I... couldn't do anything... even with a weapon，I was too scared and my  <br><size=32>hands wouldn't stop shaking...<br> ,106601001G,mcv_1001040302_006_01,chara_2
+message,ヒマリ,<size=28>Himari... couldn't do anything...                                   <br><size=28>even with a weapon，I was too scared to move...<br> ,106601001G,mcv_1001040302_006_01,chara_2
 
 window,off
 wait,0.15
@@ -224,9 +224,9 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=32>What are you talking about? Himari doesn't need to worry about combat.<br> ,300501000,mcv_1001040302_007_01,chara_1
+message,シエナ,<size=28>What are you talking about? Himari doesn't need to worry about      <br><size=28>combat.<br> ,300501000,mcv_1001040302_007_01,chara_1
 
-message,<user>,<size=32>Marina，can you get some stamina recovery potions ready! Siena's clearly  <br><size=32>running low on energy. Please!<br> 
+message,<user>,<size=28>Marina，get stamina potions ready!                                   <br><size=28>Shiena's clearly running low on energy. Please!<br> 
 
 bgmstop,bgmtag2_2,1.5,0
 
@@ -277,7 +277,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=32>N-no，this is different!<br> ,300501000,mcv_1001040302_008_01,chara_1
+message,シエナ,<size=28>N-no，this is different!<br> ,300501000,mcv_1001040302_008_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -288,9 +288,9 @@ asyncseplay,setag2_9,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,シエナ,<size=32>Actually... I haven't been sleeping well lately...<br> ,300501000,mcv_1001040302_009_01,chara_1
+message,シエナ,<size=28>Actually... I haven't been sleeping well lately...<br> ,300501000,mcv_1001040302_009_01,chara_1
 
-message,<user>,<size=32>Not sleeping well...!?<br> 
+message,<user>,<size=28>Not sleeping well...!?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -301,9 +301,9 @@ asyncseplay,setag2_10,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シエナ,<size=32>Yes... recently，the reports from Luxnova members have been coming in one <br><size=32>after another，and I've been swamped dealing with them...<br> ,300501000,mcv_1001040302_010_01,chara_1
+message,シエナ,<size=28>Yes... lately Lux Nova member reports                               <br><size=28>keep piling up，and I've been swamped...<br> ,300501000,mcv_1001040302_010_01,chara_1
 
-message,<user>,<size=32>Processing reports，huh. I've had plenty of similar experiences. It's     <br><size=32>tough everywhere. Being at the top is no easy thing.<br> 
+message,<user>,<size=28>Processing reports，huh. I've been there.                            <br><size=28>Being at the top is no easy thing.<br> 
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -312,9 +312,9 @@ asyncseplay,setag2_11,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,シエナ,<size=32>Right〜. And Luxnova in particular... has a lot of very... free-spirited  <br><size=32>members...<br> ,300501000,mcv_1001040302_011_01,chara_1
+message,シエナ,<size=28>Right~. And Lux Nova in particular...                               <br><size=28>has a lot of very... free-spirited members...<br> ,300501000,mcv_1001040302_011_01,chara_1
 
-message,<user>,<size=32>Free-spirited?<br> 
+message,<user>,<size=28>Free-spirited?<br> 
 
 window,off
 wait,0.15
@@ -331,7 +331,7 @@ wait,0.5
 
 
 window,on,0.15
-message,シエナ,<size=32>How do I put it... it's hard to get everyone moving in the same          <br><size=32>direction...<br> ,300501000,mcv_1001040302_012_01,chara_1
+message,シエナ,<size=28>How do I put it...                                                  <br><size=28>it's hard to get everyone on the same page...<br> ,300501000,mcv_1001040302_012_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -342,9 +342,9 @@ asyncseplay,setag2_13,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シエナ,<size=32>There are people who start saying they don't need to go back to the      <br><size=32>original world and they enjoy adventuring here...<br> ,300501000,mcv_1001040302_013_01,chara_1
+message,シエナ,<size=28>Some say they don't want to go back                                 <br><size=28>and enjoy adventuring here instead...<br> ,300501000,mcv_1001040302_013_01,chara_1
 
-message,<user>,<size=32>I see. But can't you just exert your leadership there and put your foot  <br><size=32>down?<br> 
+message,<user>,<size=28>I see. But can't you use your authority                             <br><size=28>and put your foot down?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -355,7 +355,7 @@ asyncseplay,setag2_14,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,シエナ,<size=32>I do say something，but they respond with 'that's tiring' or 'I'm playing <br><size=32>a game，I can't right now'—and just won't listen...<br> ,300501000,mcv_1001040302_014_01,chara_1
+message,シエナ,<size=28>I do，but they say 'that's tiring'                                   <br><size=28>or 'I'm gaming，can't right now'...<br> ,300501000,mcv_1001040302_014_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -366,7 +366,7 @@ asyncseplay,setag2_15,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,シエナ,<size=32>I'm constantly running around finding people slacking off and reminding  <br><size=32>them，or going to check reports that are an incoherent mess...<br> ,300501000,mcv_1001040302_015_01,chara_1
+message,シエナ,<size=28>I'm always finding slackers and reminding them，                     <br><size=28>or checking reports that are a total mess...<br> ,300501000,mcv_1001040302_015_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -377,9 +377,9 @@ asyncseplay,setag2_16,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,シエナ,<size=32>Anyway，I'm always rushing around. It's less like being a leader and more <br><size=32>like being an errand girl...<br> ,300501000,mcv_1001040302_016_01,chara_1
+message,シエナ,<size=28>I'm always rushing around.                                          <br><size=28>Less a leader，more an errand girl...<br> ,300501000,mcv_1001040302_016_01,chara_1
 
-message,<user>,<size=32>I see，you're having a tough time.<br> 
+message,<user>,<size=28>I see，you're having a tough time.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -388,7 +388,7 @@ asyncseplay,setag2_17,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シエナ,<size=32>And then Adelheid goes and builds a lab right inside the frontline       <br><size=32>base，and when she's absorbed in research she never responds to messages...<br> ,300501000,mcv_1001040302_017_01,chara_1
+message,シエナ,<size=28>And Adelheid built a lab in the base，                               <br><size=28>and ignores messages when she's researching...<br> ,300501000,mcv_1001040302_017_01,chara_1
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -397,7 +397,7 @@ asyncseplay,setag2_18,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,シエナ,<size=32>Ahh... why did I ever agree to be the leader...<br> ,300501000,mcv_1001040302_018_01,chara_1
+message,シエナ,<size=28>Ahh... why did I ever agree to be the leader...<br> ,300501000,mcv_1001040302_018_01,chara_1
 
 window,off
 wait,0.15
@@ -445,7 +445,7 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>You're so young and you work so hard，Siena. Is there no one else who     <br><size=32>could be the leader?<br> ,106501000G,mcv_1001040302_019_01,chara_3
+message,ソフィア,<size=28>You're so young and hardworking，Shiena.                             <br><size=28>Isn't there someone else who could lead?<br> ,106501000G,mcv_1001040302_019_01,chara_3
 
 asynccharaface,chara_4,FaceSad,CONT,0
 
@@ -456,7 +456,7 @@ asyncseplay,setag2_20,se4800007,0,1,CONT,0
 asynccharaemo,chara_4,Panic,CONT,0
 
 
-message,ベリサ,<size=32>Yeah yeah. Wouldn't it be better to hand it off to someone more          <br><size=32>experienced?<br> ,100201000G,mcv_1001040302_020_01,chara_4
+message,ベリサ,<size=28>Yeah yeah. Wouldn't it be better                                    <br><size=28>to hand it to someone more experienced?<br> ,100201000G,mcv_1001040302_020_01,chara_4
 
 window,off
 wait,0.15
@@ -507,7 +507,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=32>There was a previous leader，but they suffered a serious injury in a      <br><size=32>certain battle，and they're currently undergoing treatment in a life support capsule that Adelheid built.<br> ,300501000,mcv_1001040302_021_01,chara_1
+message,シエナ,<size=28>The previous leader was badly injured in battle                     <br><size=28>and is in Adelheid's life support capsule now.<br> ,300501000,mcv_1001040302_021_01,chara_1
 
 window,off
 wait,0.15
@@ -571,7 +571,7 @@ asynccharaemo,chara_5,Question,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=32>A serious injury??<br> ,100301000G,mcv_1001040302_022_01,chara_5
+message,マリナ,<size=28>A serious injury??<br> ,100301000G,mcv_1001040302_022_01,chara_5
 
 window,off
 wait,0.15
@@ -622,9 +622,9 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=32>Yes. They were badly hurt protecting me... because of me...<br> ,300501000,mcv_1001040302_023_01,chara_1
+message,シエナ,<size=28>Yes. They were badly hurt protecting me... because of me...<br> ,300501000,mcv_1001040302_023_01,chara_1
 
-message,<user>,<size=32>I see—so you took over the leadership role out of a sense of             <br><size=32>responsibility.<br> 
+message,<user>,<size=28>I see—so you took over the role                                     <br><size=28>out of a sense of responsibility.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -635,7 +635,7 @@ asyncseplay,setag2_24,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,シエナ,<size=32>...So that's why I have no choice. I have no choice〜! In the first       <br><size=32>place，why did things get this busy? Something's off，isn't it?<br> ,300501000,mcv_1001040302_024_01,chara_1
+message,シエナ,<size=28>...So I have no choice~! In the first place，                        <br><size=28>why did things get this hectic!?<br> ,300501000,mcv_1001040302_024_01,chara_1
 
 window,off
 wait,0.15
@@ -688,9 +688,9 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,<size=32>Oh no... Siena's 'thing' is starting...<br> ,106601001G,mcv_1001040302_025_01,chara_2
+message,ヒマリ,<size=28>Oh no... Shiena's 'thing' is starting...<br> ,106601001G,mcv_1001040302_025_01,chara_2
 
-message,<user>,<size=32>'Thing'?<br> 
+message,<user>,<size=28>'Thing'?<br> 
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -701,9 +701,9 @@ asyncseplay,setag2_26,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ヒマリ,<size=32>Siena takes things too seriously and carries too much of the burden      <br><size=32>herself... so when stress exceeds a certain threshold，she tends to panic...<br> ,106601001G,mcv_1001040302_026_01,chara_2
+message,ヒマリ,<size=28>Shiena takes things too seriously and carries                       <br><size=28>too much alone... then she panics under stress...<br> ,106601001G,mcv_1001040302_026_01,chara_2
 
-message,<user>,<size=32>I see. That's not good.<br> 
+message,<user>,<size=28>I see. That's not good.<br> 
 
 window,off
 wait,0.15
@@ -750,7 +750,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=32>Ahhhh... I have to do this and I have to do that... but I have no time or<br><size=32>energy... I can't do it，I can't! What do I do，what do I do...<br> ,300501000,mcv_1001040302_027_01,chara_1
+message,シエナ,<size=28>Ahhhh... so much to do but no time or energy...                     <br><size=28>I can't，I can't! What do I do...!<br> ,300501000,mcv_1001040302_027_01,chara_1
 
 window,off
 wait,0.15
@@ -813,11 +813,11 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,<size=32>There，there，calm down，Siena.<br> ,106601001G,mcv_1001040302_028_01,chara_2
+message,ヒマリ,<size=28>There，there，calm down，Shiena.<br> ,106601001G,mcv_1001040302_028_01,chara_2
 
 bgmplay,bgmtag2_4,bgm0033,0.75,1
 
-message,,<size=32>Himari quietly approaches Siena and begins stroking her head.<br> 
+message,,<size=28>Himari quietly approaches Shiena and begins stroking her head.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -828,7 +828,7 @@ asyncseplay,setag2_29,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シエナ,<size=32>Himari...<br> ,300501000,mcv_1001040302_029_01,chara_1
+message,シエナ,<size=28>Himari...<br> ,300501000,mcv_1001040302_029_01,chara_1
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -839,9 +839,9 @@ asyncseplay,setag2_30,se4800018,0,1,CONT,0
 asynccharaemo,chara_2,Flower,CONT,0
 
 
-message,ヒマリ,<size=32>Siena is doing her best... you're amazing，you're amazing. Siena is such a<br><size=32>hard worker...<br> ,106601001G,mcv_1001040302_030_01,chara_2
+message,ヒマリ,<size=28>Shiena is doing her best...                                         <br><size=28>you're amazing. Such a hard worker...<br> ,106601001G,mcv_1001040302_030_01,chara_2
 
-message,,<size=32>The sight was like a mother comforting a child.<br> 
+message,,<size=28>The sight was like a mother comforting a child.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -850,7 +850,7 @@ asyncseplay,setag2_31,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,シエナ,<size=32>Himari... thank you... I'm hopeless，aren't I. At times like this I just  <br><size=32>get so weak...<br> ,300501000,mcv_1001040302_031_01,chara_1
+message,シエナ,<size=28>Himari... thanks... I'm hopeless，aren't I.                          <br><size=28>At times like this I just get so weak...<br> ,300501000,mcv_1001040302_031_01,chara_1
 
 window,off
 wait,0.15
@@ -876,7 +876,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,<size=32>No... Himari can barely do anything... I can't fight like Siena or       <br><size=32>anything...<br> ,106601001G,mcv_1001040302_032_01,chara_2
+message,ヒマリ,<size=28>No... Himari can barely do anything...                              <br><size=28>I can't fight like Shiena or anything...<br> ,106601001G,mcv_1001040302_032_01,chara_2
 
 window,off
 wait,0.15
@@ -895,7 +895,7 @@ wait,0.5
 
 
 window,on,0.15
-message,シエナ,<size=32>No，that's not true.<br> ,300501000,mcv_1001040302_033_01,chara_1
+message,シエナ,<size=28>No，that's not true.<br> ,300501000,mcv_1001040302_033_01,chara_1
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -906,7 +906,7 @@ asyncseplay,setag2_34,se4800017,0,1,CONT,0
 asynccharaemo,chara_2,Shock,CONT,0
 
 
-message,ヒマリ,<size=32>...Huh?<br> ,106601001G,mcv_1001040302_034_01,chara_2
+message,ヒマリ,<size=28>...Huh?<br> ,106601001G,mcv_1001040302_034_01,chara_2
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -917,9 +917,9 @@ asyncseplay,setag2_35,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,シエナ,<size=32>Things might be the same now as in our original world. But you know? I   <br><size=32>think there's a possibility that Himari could awaken powers just like me.<br> ,300501000,mcv_1001040302_035_01,chara_1
+message,シエナ,<size=28>Things may be the same as our old world. But I                      <br><size=28>think Himari could awaken powers just like me.<br> ,300501000,mcv_1001040302_035_01,chara_1
 
-message,<user>,<size=32>Powers awakening... I think you mentioned that before. That the Luxnova  <br><size=32>members awakened abilities after being transferred to this world.<br> 
+message,<user>,<size=28>Powers awakening... you mentioned that before.                      <br><size=28>Lux Nova members gained abilities after arriving.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -931,9 +931,9 @@ asyncseplay,setag2_36,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,シエナ,<size=32>Yes. Since coming to this world，my physical abilities have improved      <br><size=32>dramatically，and I've been able to wield weapons as well.<br> ,300501000,mcv_1001040302_036_01,chara_1
+message,シエナ,<size=28>Yes. Since coming here，my physical abilities                        <br><size=28>improved dramatically，and I can wield weapons.<br> ,300501000,mcv_1001040302_036_01,chara_1
 
-message,<user>,<size=32>I see. So Himari could potentially develop the same kind of explosive    <br><size=32>combat ability as Siena...<br> 
+message,<user>,<size=28>I see. So Himari could potentially develop                          <br><size=28>the same combat ability as Shiena...<br> 
 
 asyncshake,CHARA,chara_2,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -942,7 +942,7 @@ asyncseplay,setag2_37,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ヒマリ,<size=32>Himari... could become like Siena...?<br> ,106601001G,mcv_1001040302_037_01,chara_2
+message,ヒマリ,<size=28>Himari... could become like Shiena...?<br> ,106601001G,mcv_1001040302_037_01,chara_2
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -951,7 +951,7 @@ asyncseplay,setag2_38,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,シエナ,<size=32>Yes. It's only a possibility though...<br> ,300501000,mcv_1001040302_038_01,chara_1
+message,シエナ,<size=28>Yes. It's only a possibility though...<br> ,300501000,mcv_1001040302_038_01,chara_1
 
 window,off
 wait,0.15
@@ -1011,7 +1011,7 @@ asynccharaemo,chara_2,Silence,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,<size=32>(If Himari awakened her powers，she could be of more help to Siena and the<br><size=32>Commander...)<br> ,106601001G,mcv_1001040302_039_01,chara_2
+message,ヒマリ,<size=28>(If Himari awakened powers，she could help                           <br><size=28>Shiena and the Commander more...)<br> ,106601001G,mcv_1001040302_039_01,chara_2
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -1022,7 +1022,7 @@ asyncseplay,setag2_40,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,ヒマリ,<size=32>(But... how would I go about awakening them...?)<br> ,106601001G,mcv_1001040302_040_01,chara_2
+message,ヒマリ,<size=28>(But... how would I go about awakening them...?)<br> ,106601001G,mcv_1001040302_040_01,chara_2
 
 window,off
 bgmstop,bgmtag2_4,0.5

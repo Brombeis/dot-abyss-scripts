@@ -91,7 +91,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,盗賊Ｂ,<size=32>Ugh……ugh……<br> ,2028301,,chara_2
+message,盗賊Ｂ,<size=28>Ugh……ugh……<br> ,2028301,,chara_2
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -100,7 +100,7 @@ asyncseplay,setag2_4,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,盗賊Ａ,<size=32>Damn it. Cute but way too strong……<br> ,2028301,,chara_1
+message,盗賊Ａ,<size=28>Damn it. Cute but way too strong……<br> ,2028301,,chara_1
 
 asyncshake,CHARA,chara_2,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -109,7 +109,7 @@ asyncseplay,setag2_5,se4800015,0,1,CONT,0
 asynccharaemo,chara_2,Dull,CONT,0
 
 
-message,盗賊Ｂ,<size=32>B-boss，what do we do?<br> ,2028301,,chara_2
+message,盗賊Ｂ,<size=28>B-boss，what do we do?<br> ,2028301,,chara_2
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -120,7 +120,7 @@ asyncseplay,setag2_6,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,盗賊Ａ,<size=32>Fall back for now. We need to tell the boss                              <br><size=32>that some troublesome people are here……!<br> ,2028301,,chara_1
+message,盗賊Ａ,<size=28>Fall back for now. We need to tell the boss                         <br><size=28>that some troublesome people are here……!<br> ,2028301,,chara_1
 
 window,off
 wait,0.15
@@ -167,7 +167,7 @@ asynccharaemo,chara_3,Anger,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>Hey，wait!　Stop right there!<br> ,106501000G,mcv_1001010502_001_01,chara_3
+message,ソフィア,<size=28>Hey，wait!　Stop right there!<br> ,106501000G,mcv_1001010502_001_01,chara_3
 
 window,off
 wait,0.15
@@ -181,7 +181,7 @@ asynccharamove,chara_3,Linear,X,200,0.3,CONT,0
 asynccharamove,chara_3,Linear,Y,0,0.3,CONT,0
 
 window,on,0.15
-message,<user>,<size=32>Sophia，don't chase after them!<br> 
+message,<user>,<size=28>Sophia，don't chase after them!<br> 
 
 asyncshake,CHARA,chara_3,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -190,9 +190,9 @@ asyncseplay,setag2_8,se4800010,0,1,CONT,0
 asynccharaemo,chara_3,Exclamation,CONT,0
 
 
-message,ソフィア,<size=32>……But!<br> ,106501000G,mcv_1001010502_002_01,chara_3
+message,ソフィア,<size=28>……But!<br> ,106501000G,mcv_1001010502_002_01,chara_3
 
-message,<user>,<size=32>Calm down. That's not our objective，remember?<br> 
+message,<user>,<size=28>Calm down. That's not our objective，remember?<br> 
 
 window,off
 wait,0.15
@@ -209,9 +209,9 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>I know that，but……<br> ,106501000G,mcv_1001010502_003_01,chara_3
+message,ソフィア,<size=28>I know that，but……<br> ,106501000G,mcv_1001010502_003_01,chara_3
 
-message,<user>,<size=32>They're probably part of a bandit gang after the Abyss's treasure and    <br><size=32>minerals.<br> 
+message,<user>,<size=28>They're probably part of a bandit gang                              <br><size=28>after the Abyss's treasure and minerals.<br> 
 
 window,off
 wait,0.15
@@ -264,9 +264,9 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>If they're just part of it，that means there are a lot more of them~?<br> ,100201000G,mcv_1001010502_004_01,chara_4
+message,ベリサ,<size=28>If they're just part of it，that means there are a lot more of them~?<br> ,100201000G,mcv_1001010502_004_01,chara_4
 
-message,<user>,<size=32>Most likely. You saw their gear，right?　Their weapons and clothing were   <br><size=32>all mismatched. That's probably all looted from explorers.<br> 
+message,<user>,<size=28>Most likely. You saw their gear，right?                              <br><size=28>Mismatched weapons and clothing—probably looted from explorers.<br> 
 
 asynccharaface,chara_5,FaceSad,CONT,0
 
@@ -277,9 +277,9 @@ asyncseplay,setag2_11,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,マリナ,<size=32>W-well，they are bandits.                                                 <br><size=32>Of course they'd loot~.<br> ,100301000G,mcv_1001010502_005_01,chara_5
+message,マリナ,<size=28>W-well，they are bandits.                                            <br><size=28>Of course they'd loot~.<br> ,100301000G,mcv_1001010502_005_01,chara_5
 
-message,<user>,<size=32>Goggles and masks in good condition.                                     <br><size=32>Their shoes and clothing had been modified to keep fine sand out.<br> 
+message,<user>,<size=28>Goggles and masks in good condition.                                <br><size=28>Their shoes and clothing had been modified to keep fine sand out.<br> 
 
 asynccharaface,chara_4,FaceSad,CONT,0
 
@@ -290,9 +290,9 @@ asyncseplay,setag2_12,se4800015,0,1,CONT,0
 asynccharaemo,chara_4,Dull,CONT,0
 
 
-message,ベリサ,<size=32>Somehow，your eye for detail is unsettling~.<br> ,100201000G,mcv_1001010502_006_01,chara_4
+message,ベリサ,<size=28>Somehow，Onii-san，your eye for detail is unsettling~.<br> ,100201000G,mcv_1001010502_006_01,chara_4
 
-message,<user>,<size=32>And in this poor visibility，they ran off without a moment's hesitation.  <br><size=32>They're likely quite familiar with this layer.<br> 
+message,<user>,<size=28>And in this poor visibility，they ran off without a moment's         <br><size=28>hesitation. They're likely quite familiar with this layer.<br> 
 
 window,off
 wait,0.15
@@ -341,9 +341,9 @@ asynccharaemo,chara_3,Shock,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>Which means……<br> ,106501000G,mcv_1001010502_007_01,chara_3
+message,ソフィア,<size=28>Which means……<br> ,106501000G,mcv_1001010502_007_01,chara_3
 
-message,<user>,<size=32>Their base is probably somewhere near this layer.                        <br><size=32>They must have tailed us when we wandered into their territory.<br> 
+message,<user>,<size=28>Their base is probably somewhere near this layer.                   <br><size=28>They must have tailed us when we wandered into their territory.<br> 
 
 asynccharaface,chara_3,EyeOpen,CONT,0
 asynccharaface,chara_3,FaceNormal,CONT,0
@@ -355,7 +355,7 @@ asyncseplay,setag2_14,se4800006,0,1,CONT,0
 asynccharaemo,chara_3,Trouble,CONT,0
 
 
-message,ソフィア,<size=32>I see.                                                                   <br><size=32>In a way，we may have made enemies more troublesome than monsters.<br> ,106501000G,mcv_1001010502_008_01,chara_3
+message,ソフィア,<size=28>I see.                                                              <br><size=28>In a way，we may have made enemies more troublesome than monsters.<br> ,106501000G,mcv_1001010502_008_01,chara_3
 
 window,off
 wait,0.15
@@ -413,11 +413,11 @@ asynccharaemo,chara_4,Question,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>So what do we do~?                                                       <br><size=32>We still have basically no information on the cause of the sandstorm~.<br> ,100201000G,mcv_1001010502_009_01,chara_4
+message,ベリサ,<size=28>So what do we do~? We still have basically no information on the    <br><size=28>cause of the sandstorm~.<br> ,100201000G,mcv_1001010502_009_01,chara_4
 
-message,<user>,<size=32>Honestly，I'd heard rumors about poachers，but                             <br><size=32>I never expected a bandit gang with an actual base inside the Abyss.<br> 
+message,<user>,<size=28>Honestly，I'd heard rumors about poachers，but                        <br><size=28>I never expected a bandit gang with an actual base inside the Abyss.<br> 
 
-message,<user>,<size=32>Considering your safety，                                                 <br><size=32>a tactical withdrawal and regrouping may be our best option.<br> 
+message,<user>,<size=28>Considering your safety，                                            <br><size=28>a tactical withdrawal and regrouping may be our best option.<br> 
 
 window,off
 wait,0.15
@@ -434,7 +434,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ソフィア,<size=32>The risks of further investigation are too high，then.<br> ,106501000G,mcv_1001010502_010_01,chara_3
+message,ソフィア,<size=28>The risks of further investigation are too high，then.<br> ,106501000G,mcv_1001010502_010_01,chara_3
 
 asynccharaface,chara_4,FaceSad,CONT,0
 
@@ -445,7 +445,7 @@ asyncseplay,setag2_17,se4800006,0,1,CONT,0
 asynccharaemo,chara_4,Trouble,CONT,0
 
 
-message,ベリサ,<size=32>Aw~，we've come all this way and now we're turning back~?<br> ,100201000G,mcv_1001010502_011_01,chara_4
+message,ベリサ,<size=28>Aw~，we've come all this way and now we're turning back~?<br> ,100201000G,mcv_1001010502_011_01,chara_4
 
 window,off
 wait,0.15
@@ -510,7 +510,7 @@ asynccharamove,chara_5,Linear,Y,0,0.2,STOP,9.3
 
 
 window,on,0.15
-message,マリナ,<size=32>Now now♪　Isn't this the Commander's caring decision for us♡              <br><size=32>Let's retreat to the upper layer……and go~!<br> ,100301000G,mcv_1001010502_012_01,chara_5
+message,マリナ,<size=28>Now now♪ Isn't this Master's caring decision for us♡                <br><size=28>Let's retreat to the upper layer... and——whoa!?<br> ,100301000G,mcv_1001010502_012_01,chara_5
 
 window,off
 wait,0.15
@@ -559,7 +559,7 @@ asynccharaemo,chara_7,Anger,CONT,0
 
 
 window,on,0.15
-message,モンスター,<size=32>Grrrr……                                                                  <br><size=32>Grrrrrrr……<br> ,402001000,,chara_6/chara_7
+message,モンスター,<size=28>Grrrr……                                                             <br><size=28>Grrrrrrr……<br> ,402001000,,chara_6/chara_7
 
 window,off
 wait,0.15
@@ -604,7 +604,7 @@ asynccharaemo,chara_3,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>Wha……!　W-when did they——!?<br> ,106501000G,mcv_1001010502_013_01,chara_3
+message,ソフィア,<size=28>Wha……!　W-when did they——!?<br> ,106501000G,mcv_1001010502_013_01,chara_3
 
 window,off
 wait,0.15
@@ -667,9 +667,9 @@ asynccharaemo,chara_4,Panic,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>Hey hey~，while we were worrying about the bandits，                       <br><size=32>these guys came looking for us~!<br> ,100201000G,mcv_1001010502_014_01,chara_4
+message,ベリサ,<size=28>Hey hey~，while we were worrying about the bandits，                  <br><size=28>these guys came looking for us~!<br> ,100201000G,mcv_1001010502_014_01,chara_4
 
-message,<user>,<size=32>E-everyone，run!                                                          <br><size=32>Into that cave over there for now!<br> 
+message,<user>,<size=28>E-everyone，run!                                                     <br><size=28>Into that cave over there for now!<br> 
 
 
 window,off
@@ -737,7 +737,7 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>Hah，hah，phew……                                                           <br><size=32>They were huge，and there were two of them，two!<br> ,100201000G,mcv_1001010502_015_01,chara_4
+message,ベリサ,<size=28>Hah，hah，phew……                                                      <br><size=28>They were huge，and there were two of them，two!<br> ,100201000G,mcv_1001010502_015_01,chara_4
 
 window,off
 wait,0.15
@@ -798,7 +798,7 @@ asynccharaemo,chara_5,Trouble,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=32>At our current strength，                                                 <br><size=32>they're a bit more than we can handle~.<br> ,100301000G,mcv_1001010502_016_01,chara_5
+message,マリナ,<size=28>At our current strength，                                            <br><size=28>they're a bit more than we can handle~.<br> ,100301000G,mcv_1001010502_016_01,chara_5
 
 window,off
 wait,0.15
@@ -867,7 +867,7 @@ asynccharaemo,chara_7,Silence,CONT,0
 
 
 window,on,0.15
-message,モンスター,<size=32>Grrrrrrrr……                                                              <br><size=32>Grrrrrrr……<br> ,402001000,,chara_6/chara_7
+message,モンスター,<size=28>Grrrrrrrr……                                                         <br><size=28>Grrrrrrr……<br> ,402001000,,chara_6/chara_7
 
 window,off
 wait,0.15
@@ -916,9 +916,9 @@ asynccharaemo,chara_3,Anger,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>Kch……!                                                                   <br><size=32>They've parked themselves at the entrance!<br> ,106501000G,mcv_1001010502_017_01,chara_3
+message,ソフィア,<size=28>Kch……!                                                              <br><size=28>They've parked themselves at the entrance!<br> ,106501000G,mcv_1001010502_017_01,chara_3
 
-message,<user>,<size=32>With that bulk they can't fit inside here.                               <br><size=32>We're safe for now，but……<br> 
+message,<user>,<size=28>With that bulk they can't fit inside here.                          <br><size=28>We're safe for now，but……<br> 
 
 window,off
 wait,0.15
@@ -983,9 +983,9 @@ asynccharaemo,chara_4,Trouble,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>What do we do~?                                                          <br><size=32>They'll definitely just sit there waiting for us to come out~.<br> ,100201000G,mcv_1001010502_018_01,chara_4
+message,ベリサ,<size=28>What do we do~?                                                     <br><size=28>They'll definitely just sit there waiting for us to come out~.<br> ,100201000G,mcv_1001010502_018_01,chara_4
 
-message,<user>,<size=32>Get some light ready，let's head deeper into the cave.                    <br><size=32>There might be another way out.<br> 
+message,<user>,<size=28>Get some light ready，let's head deeper into the cave.               <br><size=28>There might be another way out.<br> 
 
 asynccharaface,chara_3,EyeOpen,CONT,0
 asynccharaface,chara_3,FaceNormal,CONT,0
@@ -997,7 +997,7 @@ asyncseplay,setag2_30,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,ソフィア,<size=32>Well，I suppose that's all we can do……<br> ,106501000G,mcv_1001010502_019_01,chara_3
+message,ソフィア,<size=28>Well，I suppose that's all we can do……<br> ,106501000G,mcv_1001010502_019_01,chara_3
 
 
 window,off
@@ -1085,7 +1085,7 @@ asynccharaemo,chara_4,BePeevish,STOP,1.6
 
 
 window,on,0.15
-message,ベリサ,<size=32>Ow!　Hey~，Commander，don't stop so suddenly!                               <br><size=32>I just smashed my nose right into you!<br> ,100201000G,mcv_1001010502_020_01,chara_4
+message,ベリサ,<size=28>Ow! Hey~，Onii-san，don't stop so suddenly!                           <br><size=28>I just smashed my nose right into you!<br> ,100201000G,mcv_1001010502_020_01,chara_4
 
 window,off
 wait,0.15
@@ -1151,7 +1151,7 @@ asynccharaemo,chara_3,Question,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>There's……something deeper in the cave.<br> ,106501000G,mcv_1001010502_021_01,chara_3
+message,ソフィア,<size=28>There's……something deeper in the cave.<br> ,106501000G,mcv_1001010502_021_01,chara_3
 
 asynccharaface,chara_4,FaceSurprise,CONT,0
 
@@ -1162,9 +1162,9 @@ asyncseplay,setag2_35,se4800022,0,1,CONT,0
 asynccharaemo,chara_5,Speak,CONT,0
 
 
-message,マリナ,<size=32>O-oh~?　Is that a person~?<br> ,100301000G,mcv_1001010502_022_01,chara_5
+message,マリナ,<size=28>O-oh~?　Is that a person~?<br> ,100301000G,mcv_1001010502_022_01,chara_5
 
-message,<user>,<size=32>Wait here.                                                               <br><size=32>I'll go ahead and take a look.<br> 
+message,<user>,<size=28>Wait here.                                                          <br><size=28>I'll go ahead and take a look.<br> 
 
 
 window,off
@@ -1198,7 +1198,7 @@ asynctransitionFade,Tra01,in,black,0,STOP,0.5
 
 waitorclick,0.5
 window,on,0.15
-message,,<size=32>What was found deeper in the cave——                                      <br><size=32>the corpse of a knight who had fallen face-forward and breathed his last.<br> 
+message,,<size=28>What was found deeper in the cave—— the corpse of a knight who had  <br><size=28>fallen face-forward and breathed his last.<br> 
 
 window,off
 wait,0.15
@@ -1255,7 +1255,7 @@ asynccharaemo,chara_5,Dull,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=32>That can't be……<br> ,100301000G,mcv_1001010502_023_01,chara_5
+message,マリナ,<size=28>That can't be……<br> ,100301000G,mcv_1001010502_023_01,chara_5
 
 asyncshake,CHARA,chara_3,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1264,7 +1264,7 @@ asyncseplay,setag2_37,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,ソフィア,<size=32>That crest is from the Milesgard Knights……<br> ,106501000G,mcv_1001010502_024_01,chara_3
+message,ソフィア,<size=28>That crest is from the Milesgard Knights……<br> ,106501000G,mcv_1001010502_024_01,chara_3
 
 asynccharaface,chara_4,FaceSad,CONT,0
 
@@ -1275,9 +1275,9 @@ asyncseplay,setag2_38,se4800007,0,1,CONT,0
 asynccharaemo,chara_4,Panic,CONT,0
 
 
-message,ベリサ,<size=32>It's the same crest as the tent earlier……                                <br><size=32>So this person was hit by that magic spell……?<br> ,100201000G,mcv_1001010502_025_01,chara_4
+message,ベリサ,<size=28>It's the same crest as the tent earlier……                           <br><size=28>So this person was hit by that magic spell……?<br> ,100201000G,mcv_1001010502_025_01,chara_4
 
-message,<user>,<size=32>Belisa，please check. On 'his' left shoulder and right side，              <br><size=32>and his right leg—are those wounds from attack magic?<br> 
+message,<user>,<size=28>Belisa，please check. On his left shoulder and right side，           <br><size=28>and his right leg—are those wounds from attack magic?<br> 
 
 window,off
 wait,0.15
@@ -1344,9 +1344,9 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=32>U-uh…… yes，they look like it.                                            <br><size=32>A little magical energy still lingers……<br> ,100201000G,mcv_1001010502_026_01,chara_4
+message,ベリサ,<size=28>U-uh…… yes，they look like it.                                       <br><size=28>A little magical energy still lingers……<br> ,100201000G,mcv_1001010502_026_01,chara_4
 
-message,<user>,<size=32>It's not ordinary attack magic.                                          <br><size=32>His right leg，from the knee down……<br> 
+message,<user>,<size=28>It's not ordinary attack magic.                                     <br><size=28>His right leg，from the knee down……<br> 
 
 window,off
 wait,0.15
@@ -1365,7 +1365,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ベリサ,<size=32>It's petrified……!?                                                       <br><size=32>Commander，this is petrification magic!<br> ,100201000G,mcv_1001010502_027_01,chara_4
+message,ベリサ,<size=28>It's petrified……!?                                                  <br><size=28>Onii-san，this is petrification magic!<br> ,100201000G,mcv_1001010502_027_01,chara_4
 
 window,off
 wait,0.15
@@ -1430,7 +1430,7 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=32>There are blood trails on the ground. He dragged himself here and managed<br><size=32>to escape this far， but it seems he finally ran out of strength……<br> ,106501000G,mcv_1001010502_028_01,chara_3
+message,ソフィア,<size=28>There are blood trails on the ground.                               <br><size=28>He dragged himself here but gave out...<br> ,106501000G,mcv_1001010502_028_01,chara_3
 
 window,off
 wait,0.15
@@ -1462,19 +1462,19 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,<size=32>……Pardon me.<br> 
+message,<user>,<size=28>……Pardon me.<br> 
 
-message,,<size=32>Excusing himself，                                                        <br><size=32>he reached into the corpse's pocket.<br> 
+message,,<size=28>Excusing himself，                                                   <br><size=28>he reached into the corpse's pocket.<br> 
 
 asyncseplay,setag2_43,se4400119,0,1,STOP,0
 
-message,,<size=32>Rustle…… rustle……<br> 
+message,,<size=28>Rustle…… rustle……<br> 
 
-message,ソフィア,<size=32>Um，hey，that feels a little……<br> ,106501000G,mcv_1001010502_029_01,
+message,ソフィア,<size=28>Um，hey，that feels a little……<br> ,106501000G,mcv_1001010502_029_01,
 
-message,<user>,<size=32>I understand the feeling. But on a battlefield，you sometimes have to take<br><size=32>the information a predecessor left behind.<br> 
+message,<user>,<size=28>I understand how you feel. But on a battlefield，we sometimes need   <br><size=28>the intel the fallen left behind.<br> 
 
-message,ソフィア,<size=32>……Y-you're right……this is different from training.                       <br><size=32>This is a battlefield……<br> ,106501000G,mcv_1001010502_030_01,
+message,ソフィア,<size=28>……Y-you're right……this is different from training.                  <br><size=28>This is a battlefield……<br> ,106501000G,mcv_1001010502_030_01,
 
 window,off
 wait,0.15
@@ -1484,11 +1484,11 @@ charafocusonall
 item,on,550100003
 
 window,on,0.15
-message,<user>,<size=32>——Found it. This is……<br> 
+message,<user>,<size=28>——Found it. This is……<br> 
 
-message,,<size=32>A small piece of paper，                                                  <br><size=32>densely covered in writing.<br> 
+message,,<size=28>A small piece of paper，                                             <br><size=28>densely covered in writing.<br> 
 
-message,<user>,<size=32>I'm grateful he was such a conscientious knight.                         <br><size=32>Taking these detailed notes while pushing through the exploration——<br> 
+message,<user>,<size=28>I'm grateful he was such a conscientious knight.                    <br><size=28>Taking these detailed notes while pushing through the exploration——<br> 
 
 window,off
 wait,0.15
@@ -1549,9 +1549,9 @@ asyncseplay,setag2_44,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,マリナ,<size=32>Commander，did you find anything~?<br> ,100301000G,mcv_1001010502_031_01,chara_5
+message,マリナ,<size=28>Master，did you find anything~?<br> ,100301000G,mcv_1001010502_031_01,chara_5
 
-message,<user>,<size=32>Yes. This knight was attacked                                            <br><size=32>by the sandstorm itself——<br> 
+message,<user>,<size=28>Yes. This knight was attacked                                       <br><size=28>by the sandstorm itself——<br> 
 
 window,off
 bgmstop,bgmtag2_4,0.5

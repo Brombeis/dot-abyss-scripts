@@ -35,9 +35,9 @@ bgmplay,bgmtag3_1,bgm0034,0.75,1
 
 
 window,on,0.15
-message,アリシア,<size=32>They're late... far too late.                                            <br><size=32>It was only a bandit investigation， so why...?<br> ,300201000,mcv_1001060903_001_01,chara_1
+message,アリシア,<size=28>They're late... far too late.                                       <br><size=28>It was only a bandit investigation，so why...?<br> ,300201000,mcv_1001060903_001_01,chara_1
 
-message,,<size=32>Just as she raised her tea to her lips—<br> 
+message,,<size=28>Just as she raised her tea to her lips——<br> 
 
 window,off
 wait,0.15
@@ -49,7 +49,7 @@ asyncshake,CHARA,chara_1,20,0,0.25,30,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_2,20,0,0.25,30,off,off,0,off,CONT,0
 
 window,on,0.15
-message,,<size=32>Crack!<br> 
+message,,<size=28>Crack!<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -59,7 +59,7 @@ asyncseplay,setag3_1,se4800017,0,1,CONT,0
 
 asynccharaemo,chara_1,Shock,CONT,0
 
-message,,<size=32>Without warning， a crack ran through her                                 <br><size=32>teacup. A dark premonition gripped Alicia.<br> 
+message,,<size=28>Without warning，a crack ran through her                             <br><size=28>teacup. A dark premonition gripped Alicia.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -70,7 +70,7 @@ asyncseplay,setag3_2,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,アリシア,<size=32>Could something have happened to them!?<br> ,300201000,mcv_1001060903_002_01,chara_1
+message,アリシア,<size=28>Could something have happened to them!?<br> ,300201000,mcv_1001060903_002_01,chara_1
 
 window,off
 wait,0.15
@@ -80,7 +80,7 @@ charafocusonall
 asyncseplay,setag3_3,se4300001,0,1,CONT,0
 
 window,on,0.15
-message,,<size=32>Knock knock!<br> 
+message,,<size=28>Knock knock!<br> 
 
 window,off
 wait,0.15
@@ -122,7 +122,7 @@ asynccharamove,chara_2,EaseOut,X,100,0.3,CONT,0
 asyncwait
 
 window,on,0.15
-message,,<size=32>The one who knocked and entered the room                                 <br><size=32>was Adelheid.<br> 
+message,,<size=28>The one who knocked and entered the room                            <br><size=28>was Adelheid.<br> 
 
 window,off
 wait,0.15
@@ -169,7 +169,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,<size=32>I have an urgent report.<br> ,108701000G,mcv_1001060903_003_01,chara_2
+message,アーデルハイト,<size=28>I have an urgent report.<br> ,108701000G,mcv_1001060903_003_01,chara_2
 
 window,off
 wait,0.15
@@ -227,7 +227,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,アリシア,<size=32>Adelheid!<br> ,300201000,mcv_1001060903_004_01,chara_1
+message,アリシア,<size=28>Adelheid-san!<br> ,300201000,mcv_1001060903_004_01,chara_1
 
 window,off
 wait,0.15
@@ -278,7 +278,7 @@ wait,0.5
 
 
 window,on,0.15
-message,アーデルハイト,<size=32>Two energy signatures— the largest on record.                            <br><size=32>Approaching this base at terrifying speed.<br> ,108701000G,mcv_1001060903_005_01,chara_2
+message,アーデルハイト,<size=28>Two energy signatures— the largest on record.                       <br><size=28>Approaching this base at terrifying speed.<br> ,108701000G,mcv_1001060903_005_01,chara_2
 
 window,off
 wait,0.15
@@ -335,7 +335,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,アリシア,<size=32>Two of the largest readings...!?                                         <br><size=32>D-does that mean...<br> ,300201000,mcv_1001060903_006_01,chara_1
+message,アリシア,<size=28>Two of the largest readings...!?                                    <br><size=28>D-does that mean...<br> ,300201000,mcv_1001060903_006_01,chara_1
 
 asynccharaface,chara_2,EyeClose,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -347,7 +347,7 @@ asyncseplay,setag3_9,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,アーデルハイト,<size=32>We can assume they are Calamities.<br> ,108701000G,mcv_1001060903_007_01,chara_2
+message,アーデルハイト,<size=28>We can assume they are Calamities.<br> ,108701000G,mcv_1001060903_007_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -358,7 +358,7 @@ asyncseplay,setag3_10,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,アリシア,<size=32>N-no way...                                                              <br><size=32>Then what about the Commander's team...!?<br> ,300201000,mcv_1001060903_008_01,chara_1
+message,アリシア,<size=28>N-no way...                                                         <br><size=28>Then what about the Commander's team...!?<br> ,300201000,mcv_1001060903_008_01,chara_1
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -370,7 +370,7 @@ asyncseplay,setag3_11,se4800006,0,1,CONT,0
 asynccharaemo,chara_2,Trouble,CONT,0
 
 
-message,アーデルハイト,<size=32>The Commander's team appears safe.                                       <br><size=32>...Though 'safe' may be the wrong word here.<br> ,108701000G,mcv_1001060903_009_01,chara_2
+message,アーデルハイト,<size=28>The Commander's team appears safe.                                  <br><size=28>...Though 'safe' may be the wrong word here.<br> ,108701000G,mcv_1001060903_009_01,chara_2
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -379,7 +379,7 @@ asyncseplay,setag3_12,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,アリシア,<size=32>What do you mean?<br> ,300201000,mcv_1001060903_010_01,chara_1
+message,アリシア,<size=28>What do you mean?<br> ,300201000,mcv_1001060903_010_01,chara_1
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -390,7 +390,7 @@ asyncseplay,setag3_13,se4800015,0,1,CONT,0
 asynccharaemo,chara_2,Dull,CONT,0
 
 
-message,アーデルハイト,<size=32>Strangely， the Commander's signal is also                                <br><size=32>heading here at the exact same speed.<br> ,108701000G,mcv_1001060903_011_01,chara_2
+message,アーデルハイト,<size=28>Strangely，the Commander's signal is also                            <br><size=28>heading here at the exact same speed.<br> ,108701000G,mcv_1001060903_011_01,chara_2
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -401,7 +401,7 @@ asyncseplay,setag3_14,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,アリシア,<size=32>Whaaaat~~!                                                               <br><size=32>Wh-what kind of situation is that!?<br> ,300201000,mcv_1001060903_012_01,chara_1
+message,アリシア,<size=28>Whaaaat~~!                                                          <br><size=28>Wh-what kind of situation is that!?<br> ,300201000,mcv_1001060903_012_01,chara_1
 
 window,off
 wait,0.15
@@ -420,7 +420,7 @@ wait,0.5
 
 
 window,on,0.15
-message,アーデルハイト,<size=32>That I cannot say.                                                       <br><size=32>But one thing is certain.<br> ,108701000G,mcv_1001060903_013_01,chara_2
+message,アーデルハイト,<size=28>That I cannot say.                                                  <br><size=28>But one thing is certain.<br> ,108701000G,mcv_1001060903_013_01,chara_2
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -431,7 +431,7 @@ asyncseplay,setag3_16,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,アーデルハイト,<size=32>This enemy is on a completely different                                  <br><size=32>level from any Calamity we've faced before.<br> ,108701000G,mcv_1001060903_014_01,chara_2
+message,アーデルハイト,<size=28>This enemy is on a completely different                             <br><size=28>level from any Calamity we've faced before.<br> ,108701000G,mcv_1001060903_014_01,chara_2
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -440,7 +440,7 @@ asyncseplay,setag3_17,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,アリシア,<size=32>N-no...!<br> ,300201000,mcv_1001060903_015_01,chara_1
+message,アリシア,<size=28>N-no...!<br> ,300201000,mcv_1001060903_015_01,chara_1
 
 window,off
 wait,0.15
@@ -459,7 +459,7 @@ wait,0.5
 
 
 window,on,0.15
-message,アーデルハイト,<size=32>Mobilize every weapon and soldier at this                                <br><size=32>base to the defense line immediately.<br> ,108701000G,mcv_1001060903_016_01,chara_2
+message,アーデルハイト,<size=28>Mobilize every weapon and soldier at this                           <br><size=28>base to the defense line immediately.<br> ,108701000G,mcv_1001060903_016_01,chara_2
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -470,7 +470,7 @@ asyncseplay,setag3_19,se4800019,0,1,CONT,0
 asynccharaemo,chara_2,Elated,CONT,0
 
 
-message,アーデルハイト,<size=32>This marks the beginning of an all-out war                               <br><size=32>for humanity's survival.<br> ,108701000G,mcv_1001060903_017_01,chara_2
+message,アーデルハイト,<size=28>This marks the beginning of an all-out war                          <br><size=28>for humanity's survival.<br> ,108701000G,mcv_1001060903_017_01,chara_2
 
 window,off
 wait,0.15
@@ -521,9 +521,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,アリシア,<size=32>U-understood!<br> ,300201000,mcv_1001060903_018_01,chara_1
+message,アリシア,<size=28>U-understood!<br> ,300201000,mcv_1001060903_018_01,chara_1
 
-message,,<size=32>Alicia bit her lip hard，                                                 <br><size=32>then nodded firmly with resolute eyes.<br> 
+message,,<size=28>Alicia bit her lip hard，                                            <br><size=28>then nodded firmly with resolute eyes.<br> 
 
 window,off
 bgmstop,bgmtag3_1,0.5
