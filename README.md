@@ -21,12 +21,12 @@ Table generate via git pre-commit hook. After cloning enable via: `git config co
 
 | Type | Files | Files Done | Lines | Translated | Progress |
 |------|------:|----------:|------:|-----------:|----------|
-| Main Story | 114 | 111 | 5305 | 5302 | ██████████ 100% |
+| Main Story | 114 | 113 | 5305 | 5304 | ██████████ 100% |
 | R18 Scenes | 384 | 10 | 13872 | 416 | ░░░░░░░░░░ 3% |
 | Normal Scenes | 153 | 3 | 13988 | 218 | ░░░░░░░░░░ 2% |
 | Mini Events | 127 | 3 | 632 | 15 | ░░░░░░░░░░ 2% |
 | Event Story | 8 | 0 | 674 | 0 | ░░░░░░░░░░ 0% |
-| **Total** | **786** | **127** | **34471** | **5951** | ██░░░░░░░░ **17%** |
+| **Total** | **786** | **129** | **34471** | **5953** | ██░░░░░░░░ **17%** |
 
 ### Per-Character Progress
 
