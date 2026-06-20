@@ -119,6 +119,7 @@ def apply_translation_unity(text, scene_records):
                 else:
                     replacement = body.get((line_no, field_idx), "")
                     if replacement:
+                        replacement = re.sub(r'…+', '...', replacement)
                         if cmd == "dotmessage":
                             parts[field_idx] = format_dotmessage_text(replacement)
                         elif cmd in MESSAGE_COMMANDS:
