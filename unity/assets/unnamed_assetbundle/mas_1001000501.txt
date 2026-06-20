@@ -48,11 +48,11 @@ subimagefade,subimage_1,0,0.6235,0
 asynccrossfade,0.1,0,0,1,1,STOP
 
 window,on,0.15
-message,<user>,<size=28>(We won against the Calamity of Famine——technically.                <br><size=28>Everyone thinks we drove it off，but they're wrong……)<br> 
+message,<user>,<size=28>(We won against the Calamity of Famine——or so it seemed.            <br><size=28>Everyone thinks we drove it off，but that's not quite right...)<br> 
 
-message,<user>,<size=28>(As that creature vanished，its eyes were far from dead.             <br><size=28>It's alive. Gathering strength somewhere，sure to return...)<br> 
+message,<user>,<size=28>(As that creature vanished，its eyes were far from dead. It's still  <br><size=28>alive... gathering strength，sure to return for revenge...)<br> 
 
-message,<user>,<size=28>(What a mess. Every tactic，every trick... all of it，                <br><size=28>and still no ""answer"" to destroying the Calamity for good……)<br> 
+message,<user>,<size=28>(What a mess. Every tactic，every gambit...                          <br><size=28>and still no ""answer"" to destroying the Calamity for good...)<br> 
 
 window,off
 wait,0.15
@@ -66,7 +66,7 @@ subimagefade,subimage_1,0.6235,0,0
 asynccrossfade,0.1,0,0,1,1,STOP
 
 window,on,0.15
-message,,<size=28>He let out a deep sigh，fists clenched against his helplessness.     <br><size=28>Then，a sweet fragrance drifted from the darkness behind him.<br> 
+message,,<size=28>He let out a deep sigh，clenching his fists against his helplessness.<br><size=28>Then，a sweet fragrance drifted from the darkness behind him.<br> 
 
 window,off
 wait,0.15
@@ -107,7 +107,7 @@ asyncseplay,setag1_2,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,？？？,<size=28>My name is Ludia. ""A traveler guided here by moonlight""—            <br><size=28>…………shall I introduce myself as that?<br> ,300301000,mcv_1001000501_002_01,chara_1
+message,？？？,<size=28>My name is Ludia. ""A traveler guided here by moonlight""             <br><size=28>...shall I introduce myself that way?<br> ,300301000,mcv_1001000501_002_01,chara_1
 
 asynccharaface,chara_1,FaceUnique03,CONT,0
 
@@ -118,9 +118,9 @@ asyncseplay,setag1_3,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ルディア,<size=28>Or perhaps ""guided by the Blood of the Hero""                        <br><size=28>would be more fitting~.<br> ,300301000,mcv_1001000501_003_01,chara_1
+message,ルディア,<size=28>Or perhaps，""guided by the Blood of the Hero""                        <br><size=28>would be more fitting~.<br> ,300301000,mcv_1001000501_003_01,chara_1
 
-message,<user>,<size=28>The Blood of the Hero……you know who I am?<br> 
+message,<user>,<size=28>The Blood of the Hero... you know who I am?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -189,7 +189,7 @@ asyncseplay,setag1_5,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ルディア,<size=28>Fufufu……                                                            <br><size=28>So this is the scent of the Hero's blood.<br> ,300301000,mcv_1001000501_005_01,chara_1
+message,ルディア,<size=28>Fufufu...                                                           <br><size=28>So this is the scent of the Hero's blood.<br> ,300301000,mcv_1001000501_005_01,chara_1
 
 charapose,chara_1,2
 
@@ -202,7 +202,7 @@ asyncseplay,setag1_6,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ルディア,<size=28>I wonder if girls are drawn in by this scent……?                     <br><size=28>Just like your……grandfather……<br> ,300301000,mcv_1001000501_006_01,chara_1
+message,ルディア,<size=28>I wonder if girls are drawn in by this scent...?                    <br><size=28>Just like your... grandfather...<br> ,300301000,mcv_1001000501_006_01,chara_1
 
 message,<user>,…………
 
@@ -229,7 +229,7 @@ asyncseplay,setag1_8,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ルディア,<size=28>Don't you want it...? That which can open every last lock—          <br><size=28>a single... ""Key of All Things"".<br> ,300301000,mcv_1001000501_008_01,chara_1
+message,ルディア,<size=28>Don't you want it...? That which can open every lock——              <br><size=28>this lone ""Key of All Creation"".<br> ,300301000,mcv_1001000501_008_01,chara_1
 
 window,off
 wait,0.15
@@ -277,7 +277,7 @@ message,ルディア,<size=28>Mwah♡<br> ,300301000,mcv_1001000501_009_01,chara
 
 message,,<size=28>Ludia smiled mischievously                                          <br><size=28>and gently pressed her lips against <user>'s.<br> 
 
-message,<user>,<size=28>Wha……what are you doing!?<br> 
+message,<user>,<size=28>Wha...what are you doing!?<br> 
 
 window,off
 wait,0.15
@@ -316,7 +316,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ルディア,<size=28>Oh my，                                                              <br><size=28>a face I like was so close，I just couldn't help myself……<br> ,300301000,mcv_1001000501_010_01,chara_1
+message,ルディア,<size=28>My goodness，                                                        <br><size=28>a face I like was so close，I just couldn't help myself...<br> ,300301000,mcv_1001000501_010_01,chara_1
 
 charapose,chara_1,2
 
@@ -329,9 +329,9 @@ asyncseplay,setag1_10,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ルディア,<size=28>Fufufu……I've just given you the ""Key"".<br> ,300301000,mcv_1001000501_011_01,chara_1
+message,ルディア,<size=28>Fufu... I've just given you the ""Key"".<br> ,300301000,mcv_1001000501_011_01,chara_1
 
-message,<user>,<size=28>……A Key!?<br> 
+message,<user>,<size=28>...A Key!?<br> 
 
 charapose,chara_1,1
 
@@ -344,7 +344,7 @@ asyncseplay,setag1_11,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ルディア,<size=28>The true radiance sleeping within those girls' souls.               <br><size=28>Finding and unleashing it—that is the key holder's role.<br> ,300301000,mcv_1001000501_012_01,chara_1
+message,ルディア,<size=28>The true radiance sleeping within those girls' souls.               <br><size=28>Finding it and setting it free——that is the key holder's role.<br> ,300301000,mcv_1001000501_012_01,chara_1
 
 asynccharaface,chara_1,FaceUnique03,CONT,0
 
@@ -450,7 +450,7 @@ asynccharaemo,chara_2,Anger,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=28>What's going on~! I was worried 'cause you've been so down，         <br><size=28>so I came to check on you，and then this~……<br> ,100201000G,mcv_1001000501_015_01,chara_2
+message,ベリサ,<size=28>What's going on~! You've seemed so down lately，                     <br><size=28>so I came to check on you，and yet~...<br> ,100201000G,mcv_1001000501_015_01,chara_2
 
 
 asyncseplay,setag1_15,se4800002,0,1,CONT
@@ -459,12 +459,12 @@ asynccharaemo,chara_2,Heart,STOP
 
 
 asynccharaface,chara_2,FaceShy,STOP
-message,ベリサ,<size=28>Watching Onii-san calmly devise that strategy against that thing!   <br><size=28>Your serious face giving orders made Belisa-chan's heart race~♡<br> ,100201000G,mcv_1001000501_016_01,on
+message,ベリサ,<size=28>Watching Onii-san calmly devise that strategy against that thing~!  <br><size=28>Your serious face giving orders made Belisa-chan's heart race~♡<br> ,100201000G,mcv_1001000501_016_01,on
 
 
 
 asynccharaface,chara_2,FaceFun,STOP
-message,ベリサ,<size=28>And then you gently caught me when I'd drained all my mana~         <br><size=28>and carried me back to base... such a big heart...♡<br> ,100201000G,mcv_1001000501_017_01,on
+message,ベリサ,<size=28>And then you gently caught me when I'd drained all my mana          <br><size=28>and carried me back to base... such a big heart~...♡<br> ,100201000G,mcv_1001000501_017_01,on
 
 
 asyncseplay,setag1_16,se4800001,0,1,CONT
@@ -473,7 +473,7 @@ asynccharareaction,chara_2,Nod,1,STOP
 asynccharaemo,chara_2,Anger,STOP
 
 asynccharaface,chara_2,FaceAnger,STOP
-message,ベリサ,<size=28>And yet you're sneaking around flirting with a woman like that~~~!  <br><size=28>Not fair，not fair~~~~!!!!<br> ,100201000G,mcv_1001000501_018_01,on
+message,ベリサ,<size=28>And yet，you're sneaking around flirting with her~~~!                <br><size=28>Not fair，not fair~~~~!!!!<br> ,100201000G,mcv_1001000501_018_01,on
 
 asyncseplay,setag1_17,se4800013,0,1,CONT
 
@@ -483,7 +483,7 @@ asynccharaemo,chara_2,Spirits,STOP
 asynccharaface,chara_2,FaceHappy,STOP
 
 asynccharaface,chara_2,FaceUnique02,STOP
-message,ベリサ,<size=28>But still~，cheering you up is my job after all♪                     <br><size=28>Muhehe~♪　Maybe I'll tease you just a little~♡<br> ,100201000G,mcv_1001000501_019_01,on
+message,ベリサ,<size=28>But still~，cheering up Onii-san is my job after all~♪               <br><size=28>Muhehe~♪　Maybe I'll tease Onii-san just a little~♡<br> ,100201000G,mcv_1001000501_019_01,on
 
 
 
