@@ -17,7 +17,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
@@ -57,14 +57,14 @@ wait,0.5
 
 
 window,on,0.15
-message,ベリサ,ついにこの時がきたわねぇ〜、ア〜デ〜ルハイトっ！！,100201000G,vc_10020100002_001_01,chara_1
+message,ベリサ,The       time       has       finally       come~，A~del~heid!!<br> ,100201000G,vc_10020100002_001_01,chara_1
 
 linework,on,White,Middle
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,ベリサ,ペルディオンの魔法使い、ベリサちゃんの名誉にかけて！<br>あんたになんか、ぜっっったいに負けないんだからぁっ！,100201000G,vc_10020100002_002_01,chara_1
+message,ベリサ,On       the       honour       of       Perdion's       mage，Verisa-chan!<br>There's       no       way       I'm       losing       to       the       likes       of       you~!<br> ,100201000G,vc_10020100002_002_01,chara_1
 
 window,off
 wait,0.15
@@ -113,7 +113,7 @@ asynccharaemo,chara_2,Question,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,あ、あの……。<br>ちょっとお話がよく分からないんですが……,108701000G,vc_10020100002_003_01,chara_2
+message,アーデルハイト,U-um...<br>I'm       not       quite       following       what       you       mean...<br> ,108701000G,vc_10020100002_003_01,chara_2
 
 asyncjump,CHARA,chara_1,40,0.5,2,off,0,CONT
 
@@ -122,7 +122,7 @@ asyncseplay,setag1_3,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,ベリサ,そ、そのっ！！　腕を前に持ってくるのやめなさぁ〜いっ！<br>強調されるでしょっ！？　その無駄に豊かなボリュームがぁ〜っ！！,100201000G,vc_10020100002_004_01,chara_1
+message,ベリサ,H-hey!!       Stop       holding       your       arms       in       front       like       that~!<br>It       just       emphasises       them!       Those       needlessly       huge       things~!!<br> ,100201000G,vc_10020100002_004_01,chara_1
 
 asynccharaface,chara_2,FaceShy,CONT,0
 
@@ -133,9 +133,9 @@ asyncseplay,setag1_4,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,アーデルハイト,え、ええ……！？,108701000G,vc_10020100002_005_01,chara_2
+message,アーデルハイト,Wh-what...!?<br> ,108701000G,vc_10020100002_005_01,chara_2
 
-message,<user>,気にするな、アーデルハイトの魅力が伝わる、<br>素晴らしい姿勢だ。
+message,<user>,Don't       mind       her.       That       posture       conveys       your       charm<br>splendidly，Adelheid.<br> 
 
 window,off
 wait,0.15
@@ -181,18 +181,18 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ベリサ,おにーさんはどっちの味方なのよぉ〜〜っ！！,100201000G,vc_10020100002_006_01,chara_1
+message,ベリサ,Whose       side       are       you       on，Onii-san~~!!<br> ,100201000G,vc_10020100002_006_01,chara_1
 
-message,<user>,味方も何も、どういう勝負なんだ？<br>胸の大きさなら比べるまでもないだろう。
+message,<user>,Sides       aside，what's       this       contest       about?<br>If       it's       chest       size，there's       nothing       to       compare.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,ベリサ,そこは関係ないっ！！　これはねっ、科学の力なんかに、ベリサちゃんの<br>魔法がぜっっったいに負けないってことを証明するための決闘なんだからっ！！,100201000G,vc_10020100002_007_01,chara_1
+message,ベリサ,That       has       nothing       to       do       with       it!!       This       is       a       duel<br>to       prove       Verisa-chan's       magic       won't       lose       to       science!!<br> ,100201000G,vc_10020100002_007_01,chara_1
 
-message,<user>,ああ……前にわからせられた件か。<br>飯を温めるどころか、消し炭にしていたな。
+message,<user>,Ah...       this       is       about       the       time       you       got       humbled.<br>You       turned       the       food       to       charcoal       instead       of       heating       it.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -203,9 +203,9 @@ asyncseplay,setag1_6,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ベリサ,わからせられてないしぃ〜っ！　ちょっとだけ火加減間違えただけだしっ！<br>ほんっきで戦えば、魔法の方が、科学なんかより100倍強いんだからねっ！,100201000G,vc_10020100002_008_01,chara_1
+message,ベリサ,I       was       NOT       humbled~!       I       just       messed       up       the       heat       a       tiny       bit!<br>If       I       fight       for       real，magic       is       100       times       better       than       science!<br> ,100201000G,vc_10020100002_008_01,chara_1
 
-message,<user>,はあ……くだらない話だが、少し興味はあるな。<br>科学と魔法の性能差、か。
+message,<user>,Sigh...       what       a       pointless       debate，but       I'm       a       bit       curious.<br>The       performance       gap       between       science       and       magic，huh.<br> 
 
 window,off
 wait,0.15
@@ -258,7 +258,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ベリサ,っ……！　ほ〜らっ！ おにーさんも、そう言ってるもんねっ！！<br>ベリサちゃんが正しいって、ちゃ〜んと分かってるもんね〜っ♡,100201000G,vc_10020100002_009_01,chara_1
+message,ベリサ,...!       Se~e!       Even       Onii-san       agrees       with       me!!<br>You       know       Verisa-chan       is       right，don't       you~♡<br> ,100201000G,vc_10020100002_009_01,chara_1
 
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
@@ -270,9 +270,9 @@ asyncseplay,setag1_8,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,アーデルハイト,科学と魔法の勝負、ですか。でも今は攻撃的な道具が少なくて。<br>きっとベリサさんにはかなわないと思うんですけど……,108701000G,vc_10020100002_010_01,chara_2
+message,アーデルハイト,A       contest       of       science       versus       magic?       But       I       don't       have<br>many       offensive       tools.       I       doubt       I       could       match       Verisa-san...<br> ,108701000G,vc_10020100002_010_01,chara_2
 
-message,<user>,ベリサがわからせられたのは武器じゃなく、電子レンジだ。<br>似たような道具は他にないのか？
+message,<user>,What       humbled       Verisa       wasn't       a       weapon，it       was       a       microwave.<br>Don't       you       have       other       gadgets       like       that?<br> 
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -283,7 +283,7 @@ asyncseplay,setag1_9,se4800009,0,1,CONT,0
 asynccharaemo,chara_2,Question,CONT,0
 
 
-message,アーデルハイト,利便性の高い道具、ですか？<br>それならいくつかありますが……,108701000G,vc_10020100002_011_01,chara_2
+message,アーデルハイト,Highly       convenient       tools，you       say?<br>I       do       have       a       few       of       those...<br> ,108701000G,vc_10020100002_011_01,chara_2
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -294,7 +294,7 @@ asyncseplay,setag1_10,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ベリサ,じゃあ、それで勝負よっ！<br>おにーさんのご期待に、どっちが早く応えられるかで、決まり〜っ！,100201000G,vc_10020100002_012_01,chara_1
+message,ベリサ,Then       that's       how       we'll       compete!<br>Whoever       fulfils       Onii-san's       requests       faster       wins~!<br> ,100201000G,vc_10020100002_012_01,chara_1
 
 asynccharaface,chara_2,FaceUnique01,CONT,0
 
@@ -305,7 +305,7 @@ asyncseplay,setag1_11,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,アーデルハイト,わ、分かりました。<br>私でよければ、お相手します！,108701000G,vc_10020100002_013_01,chara_2
+message,アーデルハイト,O-okay，understood.<br>If       you'll       have       me，I'll       accept       the       challenge!<br> ,108701000G,vc_10020100002_013_01,chara_2
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -316,9 +316,9 @@ asyncseplay,setag1_12,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ベリサ,さぁ〜おにーさんっ♡　な〜にかおねだりしてみてよっ♪<br>科学なんかじゃなく、ベリサちゃんがすぐに叶えてあげるからっ！,100201000G,vc_10020100002_014_01,chara_1
+message,ベリサ,Go       on，Onii-san~♡       Ask       for       something，anything~♪<br>Verisa-chan       will       grant       it       right       away，not       some       science!<br> ,100201000G,vc_10020100002_014_01,chara_1
 
-message,<user>,そうだな……、さしあたっては喉がかわいたな。<br>冷たい飲み物がほしいところだ。
+message,<user>,Let's       see...       I'm       thirsty，for       starters.<br>I       could       use       a       cold       drink.<br> 
 
 window,off
 wait,0.15
@@ -365,7 +365,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,ベリサ,おっけー！　まっかせてっ♪<br>ベリサちゃんの魔法で、今すぐ酒場から持ってくるからねっ！,100201000G,vc_10020100002_015_01,chara_1
+message,ベリサ,Okay~!       Leave       it       to       me~♪<br>Verisa-chan       will       grab       one       from       the       bar       right       now       with       magic!<br> ,100201000G,vc_10020100002_015_01,chara_1
 
 
 window,off
@@ -434,7 +434,7 @@ asyncseplay,setag1_16,se4300004,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,<user>,……走る速度と魔法は関係ないだろうに。<br>それでアーデルハイトはどうするんだ？
+message,<user>,...Running       speed       has       nothing       to       do       with       magic.<br>So       what       about       you，Adelheid?<br> 
 
 window,off
 wait,0.15
@@ -477,7 +477,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,ええと、じゃあ、これで……,108701000G,vc_10020100002_016_01,chara_2
+message,アーデルハイト,Um，well       then，with       this...<br> ,108701000G,vc_10020100002_016_01,chara_2
 
 
 window,off
@@ -531,10 +531,10 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ベリサ,持ってきたわよぉ〜っ！！　ふっふ〜ん♪　どれだけ科学が便利でも、<br>ベリサちゃんには追いつけなかったみたいねっ☆,100201000G,vc_10020100002_017_01,chara_1
+message,ベリサ,I       brought       it       back~!!       Heheh~♪       No       matter       how       handy<br>science       is，it       couldn't       keep       up       with       Verisa-chan~☆<br> ,100201000G,vc_10020100002_017_01,chara_1
 
 
-message,<user>,んっく……ぷはぁ～！<br>遅かったな、ベリサ。
+message,<user>,*gulp*...       Ahh~!<br>You're       late，Verisa.<br> 
 
 window,off
 wait,0.15
@@ -553,7 +553,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ベリサ,えええぇぇええぇぇ〜〜っ！？　おにーさんっ！？　なんで飲み物<br>もうあるのよぉっ！？　しかもめっちゃ冷たそうなんだけどぉ〜！！,100201000G,vc_10020100002_018_01,chara_1
+message,ベリサ,Whaaaaaaat~~!?       Onii-san!?       Why       do       you       already       have<br>a       drink!?       And       it       looks       super       cold       too~!!<br> ,100201000G,vc_10020100002_018_01,chara_1
 
 window,off
 wait,0.15
@@ -607,9 +607,9 @@ asynccharaemo,chara_2,Elated,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,えっと、これは冷蔵庫という道具で。<br>中はいつでも冷たい空気が維持されているんです。,108701000G,vc_10020100002_019_01,chara_2
+message,アーデルハイト,Well，this       is       a       device       called       a       refrigerator.<br>It       keeps       the       air       inside       cold       at       all       times.<br> ,108701000G,vc_10020100002_019_01,chara_2
 
-message,<user>,まさか部屋を出ることなく、冷たい飲み物が手に入るとは。<br>やるじゃないか、科学。悪くないぞ。
+message,<user>,A       cold       drink       without       even       leaving       the       room.<br>Not       bad       at       all，science.       Colour       me       impressed.<br> 
 
 window,off
 wait,0.15
@@ -655,7 +655,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ベリサ,うううううう〜〜〜〜〜っ！！　たっ、たまたま<br>そんな便利な機械があっただけでしょっ！？　偶然っ、偶然よっ！,100201000G,vc_10020100002_020_01,chara_1
+message,ベリサ,Uuuuugh~~~~~!!       Sh-she       just       happened       to       have<br>a       handy       machine       like       that!       It's       a       fluke!       A       fluke!<br> ,100201000G,vc_10020100002_020_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -666,7 +666,7 @@ asyncseplay,setag1_24,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,ベリサ,つぎっ！　次いくわよっ！！　さぁ〜〜っ！　おにーさんっ！　<br>今度はナ・ニ・をしてほしいの〜？,100201000G,vc_10020100002_021_01,chara_1
+message,ベリサ,Next!       We're       moving       on!!       Come       on~~!       Onii-san!<br>What       do       you       want       done       this~       time~?<br> ,100201000G,vc_10020100002_021_01,chara_1
 
 window,off
 wait,0.15
@@ -712,7 +712,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,そうだな……。<br>アーデルハイト、この部屋は少し散らかっているようだな？
+message,<user>,Let       me       think...<br>Adelheid，this       room       looks       a       bit       messy，doesn't       it?<br> 
 
 asynccharaface,chara_2,FaceShy,CONT,0
 
@@ -723,9 +723,9 @@ asyncseplay,setag1_25,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,アーデルハイト,お恥ずかしいです。<br>研究に夢中になって、掃除が疎かになっていて……,108701000G,vc_10020100002_022_01,chara_2
+message,アーデルハイト,How       embarrassing.<br>I've       been       so       absorbed       in       research，I       neglected       cleaning...<br> ,108701000G,vc_10020100002_022_01,chara_2
 
-message,<user>,なら、俺の希望はこの部屋の掃除だ。<br>さっさとやれ、ベリサ。
+message,<user>,Then       my       request       is       to       clean       this       room.<br>Hop       to       it，Verisa.<br> 
 
 window,off
 wait,0.15
@@ -771,9 +771,9 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ベリサ,ちょ、ちょっとぉ！？　おにーさん、今のって……勝負に便乗して、<br>あたしに雑用させようとしてない〜！？,100201000G,vc_10020100002_023_01,chara_1
+message,ベリサ,W-wait       a       sec!?       Onii-san，aren't       you       just       using       this<br>contest       as       an       excuse       to       make       me       do       chores~!?<br> ,100201000G,vc_10020100002_023_01,chara_1
 
-message,<user>,そんなことはないぞー？<br>ほら、急がないと科学に負けるんじゃないかー？
+message,<user>,I       would       never~<br>Come       on，if       you       don't       hurry，science       will       beat       you~<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -792,7 +792,7 @@ asyncseplay,setag1_28,se4800010,0,1,STOP,1.9
 asynccharaemo,chara_1,Exclamation,STOP,1.9
 
 
-message,ベリサ,くぅぅぅ〜〜っ……っしゃーないっ！！<br>すぐに掃除道具、持ってくるからぁぁ〜っ！！,100201000G,vc_10020100002_024_01,chara_1
+message,ベリサ,Grrrr~~...       Fine，whatever!!<br>I'll       go       get       cleaning       supplies       right       now~~!!<br> ,100201000G,vc_10020100002_024_01,chara_1
 
 
 window,off
@@ -848,7 +848,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ベリサ,ホウキとっ、チリトリっ、持ってきたわよぉっ！<br>これ、魔法のかかったす〜っごい道具なんだからっ♡,100201000G,vc_10020100002_025_01,chara_1
+message,ベリサ,I       brought       a       broom       and       dustpan!<br>These       are       ama~zing       magic-enchanted       tools，you       know~♡<br> ,100201000G,vc_10020100002_025_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -856,7 +856,7 @@ asyncseplay,setag1_34,se4800017,0,1,CONT,0
 
 asynccharaemo,chara_1,Shock,CONT,0
 
-message,<user>,また遅かったなベリサ。
+message,<user>,Late       again，Verisa.<br> 
 
 window,off
 wait,0.15
@@ -910,7 +910,7 @@ wait,0.5
 
 
 window,on,0.15
-message,アーデルハイト,えっと、床の掃除はほとんど終わりました。,108701000G,vc_10020100002_026_01,chara_2
+message,アーデルハイト,Um，the       floor       is       almost       completely       clean       now.<br> ,108701000G,vc_10020100002_026_01,chara_2
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -921,7 +921,7 @@ asyncseplay,setag1_36,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ベリサ,な、なにそれぇ！？　なんで！？<br>どーしてもう終わってるのよぉっ！！？,100201000G,vc_10020100002_027_01,chara_1
+message,ベリサ,Wh-what       is       that!?       How!?<br>Why       is       it       already       done~!!?<br> ,100201000G,vc_10020100002_027_01,chara_1
 
 
 asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
@@ -931,9 +931,9 @@ asyncseplay,setag1_37,se4800019,0,1,CONT,0
 asynccharaemo,chara_2,Elated,CONT,0
 
 
-message,アーデルハイト,これは全自動掃除機という機械で、<br>部屋中を動き回って埃を吸い取ってくれるんです。,108701000G,vc_10020100002_028_01,chara_2
+message,アーデルハイト,This       is       a       machine       called       a       robot       vacuum.<br>It       moves       around       the       room       and       picks       up       all       the       dust.<br> ,108701000G,vc_10020100002_028_01,chara_2
 
-message,<user>,勝手に動いて掃除をする機械か。<br>ルクスノヴァにはそんなものまであるんだな。
+message,<user>,A       machine       that       cleans       on       its       own，huh.<br>Lux       Nova       really       does       have       everything.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -942,10 +942,10 @@ asyncseplay,setag1_38,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ベリサ,……うっそでしょぉ〜……？,100201000G,vc_10020100002_029_01,chara_1
+message,ベリサ,...You're       kidding       me~...?<br> ,100201000G,vc_10020100002_029_01,chara_1
 
 
-message,<user>,で、そっちのホウキは自動で動くのか？
+message,<user>,So，does       that       broom       of       yours       move       on       its       own?<br> 
 
 
 window,off
@@ -992,7 +992,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ベリサ,動くわけないでしょっ！？　……で、でもでもっ！<br>こうして掃くとね？　ほこりが集まりやすくなる魔法がかかってるのっ！,100201000G,vc_10020100002_030_01,chara_1
+message,ベリサ,Of       course       it       doesn't!?       ...B-but       listen!<br>When       you       sweep，it's       enchanted       to       gather       dust       more       easily!<br> ,100201000G,vc_10020100002_030_01,chara_1
 
 
 window,off
@@ -1067,7 +1067,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,全自動掃除機と比べれば、普通のホウキと変わらんな。
+message,<user>,Compared       to       a       robot       vacuum，it's       no       different       from       a<br>regular       broom.<br> 
 
 
 window,off
@@ -1114,9 +1114,9 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ベリサ,うぅぅぅぅぅ〜〜〜〜〜っ！！　せっかく頑張って持ってきたのにぃ〜っ！<br>確かに……その道具、便利そうではあるけど……っ！,100201000G,vc_10020100002_031_01,chara_1
+message,ベリサ,Uuuugh~~~~~!!       I       worked       so       hard       to       bring       it       too~!<br>Sure...       that       thing       does       look       handy，but...!<br> ,100201000G,vc_10020100002_031_01,chara_1
 
-message,<user>,どうやら完全にわからせられたようだな。
+message,<user>,Looks       like       you've       been       thoroughly       humbled.<br> 
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -1125,7 +1125,7 @@ asyncseplay,setag1_41,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ベリサ,ま、まだよっ！！　 ベリサちゃんは、ぜ〜っったいに<br>負けてないんだからっ！　わからせられてなんか、ないもんっ！！,100201000G,vc_10020100002_032_01,chara_1
+message,ベリサ,N-not       yet!!       Verisa-chan       has       absolutely~       not       lost!<br>I       have       NOT       been       humbled，okay!!<br> ,100201000G,vc_10020100002_032_01,chara_1
 
 asyncjump,CHARA,chara_1,40,0.5,2,off,0,CONT
 
@@ -1134,9 +1134,9 @@ asyncseplay,setag1_42,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ベリサ,ほ、ほかには！？　おにーさんっ！ 次のおねだり、何かないのぉ〜！？<br>今度こそベリサちゃんが勝つんだからぁ〜っ！！,100201000G,vc_10020100002_033_01,chara_1
+message,ベリサ,Wh-what       else!?       Onii-san!       Got       another       request~!?<br>This       time       Verisa-chan       is       winning       for       sure~~!!<br> ,100201000G,vc_10020100002_033_01,chara_1
 
-message,<user>,ふむ。なら、少しはまともな要望も出してみるか。
+message,<user>,Hmm.       Then       let       me       make       a       more       practical       request.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1147,11 +1147,11 @@ asyncseplay,setag1_43,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ベリサ,今までのおねだりって、まともじゃなかったのっ！？,100201000G,vc_10020100002_034_01,chara_1
+message,ベリサ,The       ones       before       weren't       practical!?<br> ,100201000G,vc_10020100002_034_01,chara_1
 
-message,<user>,まあ聞け。<br>俺が少し面倒を感じているのは、部下への指示だ。
+message,<user>,Just       hear       me       out.<br>Something       that's       been       a       hassle       is       issuing       orders.<br> 
 
-message,<user>,大人数へ作戦を伝達する際に、何枚も命令書が必要なんだ。<br>魔法でも科学でもいい、どうにか手間を省けないか？
+message,<user>,Briefing       a       large       group       requires       writing       multiple       orders.<br>Magic       or       science，can       either       cut       down       the       effort?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1162,9 +1162,9 @@ asyncseplay,setag1_44,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ベリサ,なら、あたしの魔法で、空に炎でおっきく文字を書いて〜……,100201000G,vc_10020100002_035_01,chara_1
+message,ベリサ,Then       I'll       use       my       magic       to       write       big       letters       in       the<br>sky       with       fire~...<br> ,100201000G,vc_10020100002_035_01,chara_1
 
-message,<user>,そして地上に火の雨が降るんだな。<br>作戦前に味方を全滅させるつもりか？
+message,<user>,And       then       a       rain       of       fire       falls       on       the       ground.<br>Planning       to       wipe       out       our       allies       before       the       operation?<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1175,11 +1175,11 @@ asyncseplay,setag1_45,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ベリサ,あっ……じゃ、じゃあ地面に書けばいいでしょ！？<br>それなら問題ないもんっ！,100201000G,vc_10020100002_036_01,chara_1
+message,ベリサ,Oh...       th-then       I'll       just       write       it       on       the       ground!<br>That       won't       cause       any       problems!<br> ,100201000G,vc_10020100002_036_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
-message,<user>,ここが全焼する未来しか見えないぞ。<br>却下だ却下。
+message,<user>,All       I       can       see       is       this       place       burning       to       the       ground.<br>Rejected.       Absolutely       rejected.<br> 
 
 window,off
 wait,0.15
@@ -1232,7 +1232,7 @@ asynccharaemo,chara_2,Spirits,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,あの……こちらはどうでしょう？<br>プリンターという、紙に文字を印刷する機械なんですが。,108701000G,vc_10020100002_037_01,chara_2
+message,アーデルハイト,Um...       how       about       this?<br>It's       a       machine       called       a       printer       that       prints       text       on       paper.<br> ,108701000G,vc_10020100002_037_01,chara_2
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -1243,7 +1243,7 @@ asyncseplay,setag1_47,se4800019,0,1,CONT,0
 asynccharaemo,chara_2,Elated,CONT,0
 
 
-message,アーデルハイト,使い道のひとつとして、書類をほぼそのままの形で複製する、<br>コピーという機能があるんです。,108701000G,vc_10020100002_038_01,chara_2
+message,アーデルハイト,One       of       its       uses       is       a       function       called       copying，<br>which       duplicates       documents       almost       exactly       as       they       are.<br> ,108701000G,vc_10020100002_038_01,chara_2
 
 
 window,off
@@ -1263,7 +1263,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ベリサ,へっ！？　そんなに簡単にっ！？<br>それに、ひとつって、他にも使い方があるのっ！？,100201000G,vc_10020100002_039_01,chara_1
+message,ベリサ,Huh!?       That       easily!?<br>And       'one       of'       its       uses?       It       can       do       other       things       too!?<br> ,100201000G,vc_10020100002_039_01,chara_1
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -1274,7 +1274,7 @@ asyncseplay,setag1_50,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,アーデルハイト,他には自分の手で書かなくても書類が用意できたり、<br>高精度な絵を印刷したりもできますよ。,108701000G,vc_10020100002_040_01,chara_2
+message,アーデルハイト,It       can       also       prepare       documents       without       writing       by       hand，<br>or       print       high-quality       illustrations.<br> ,108701000G,vc_10020100002_040_01,chara_2
 
 asyncshake,CHARA,chara_1,20,15,0.5,6,on,off,0,off,CONT,0
 
@@ -1283,9 +1283,9 @@ asyncseplay,setag1_51,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ベリサ,こ、これだけでそんなことまで〜っ！？,100201000G,vc_10020100002_041_01,chara_1
+message,ベリサ,Th-this       one       little       thing       can       do       all       that~!?<br> ,100201000G,vc_10020100002_041_01,chara_1
 
-message,<user>,なかなか高機能な機械だな。<br>……同じことは魔法で可能か、ベリサ？
+message,<user>,Quite       the       versatile       machine.<br>...Can       magic       do       the       same       thing，Verisa?<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1296,7 +1296,7 @@ asyncseplay,setag1_52,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,ベリサ,で、できるわけないでしょぉ〜！？　ふざけないでよぉ〜っ！！<br>ああああぁぁ〜〜〜もうっ！！　一体なんなのよぉ、科学ってぇ〜っ！！,100201000G,vc_10020100002_042_01,chara_1
+message,ベリサ,O-of       course       I       can't~!?       Don't       be       ridiculous~!!<br>Aaaaargh~~!!       What       even       IS       science~!!<br> ,100201000G,vc_10020100002_042_01,chara_1
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -1307,7 +1307,7 @@ asyncseplay,setag1_53,se4800019,0,1,CONT,0
 asynccharaemo,chara_2,Elated,CONT,0
 
 
-message,アーデルハイト,科学は決して万能というわけではないんですが、<br>人の必要とする機能はおおよそ網羅していますから……,108701000G,vc_10020100002_043_01,chara_2
+message,アーデルハイト,Science       isn't       omnipotent       by       any       means，<br>but       it       does       cover       most       of       what       people       need...<br> ,108701000G,vc_10020100002_043_01,chara_2
 
 
 window,off
@@ -1320,7 +1320,7 @@ asyncseplay,setag1_54,SE_DUMMY,0,1,STOP,0
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
 window,on,0.15
-message,<user>,おい、プリンターとやらが止まったようだが。<br>どうした、まだ２枚しか出てきていないぞ。
+message,<user>,Hey，the       printer       seems       to       have       stopped.<br>What       happened?       It's       only       produced       two       copies.<br> 
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -1332,9 +1332,9 @@ asyncseplay,setag1_55,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,アーデルハイト,ええと……あっ、インク切れですね。<br>この機械には専用のインクが必要なんですが、予備がなくて……,108701000G,vc_10020100002_044_01,chara_2
+message,アーデルハイト,Let       me       see...       ah，it's       out       of       ink.<br>This       machine       needs       special       ink，but       I       don't       have       a       spare...<br> ,108701000G,vc_10020100002_044_01,chara_2
 
-message,<user>,使えなくなったわけか。<br>そうか、惜しいな……
+message,<user>,So       it's       unusable       now.<br>I       see...       what       a       shame.<br> 
 
 window,off
 wait,0.15
@@ -1380,7 +1380,7 @@ asynccharaemo,chara_1,Flash,CONT,0
 
 
 window,on,0.15
-message,ベリサ,っ！？<br>……そ、そうよっ！！　これなら……っ♡,100201000G,vc_10020100002_045_01,chara_1
+message,ベリサ,...!?<br>...Y-yes!!       If       it's       like       this...       then...!♡<br> ,100201000G,vc_10020100002_045_01,chara_1
 
 
 asynccharaface,chara_1,FaceFun,CONT,0
@@ -1392,9 +1392,9 @@ asyncseplay,setag1_57,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ベリサ,ねぇねぇ〜、おにーさんっ♡<br>そろそろちょ〜っと疲れたな〜って、思ったりしな〜い？,100201000G,vc_10020100002_046_01,chara_1
+message,ベリサ,Hey，hey~，Onii-san~♡<br>Don't       you       think       you're       getting       a       teeny       bit       tired~?<br> ,100201000G,vc_10020100002_046_01,chara_1
 
-message,<user>,なんだ、いきなり。<br>確かにこのくだらない攻防に、精神的な疲労は感じているが。
+message,<user>,What's       this，all       of       a       sudden.<br>I       am       mentally       exhausted       from       this       pointless       back-and-forth.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1413,9 +1413,9 @@ asyncseplay,setag1_59,se4800003,0,1,STOP,3.6
 asynccharaemo,chara_1,Twinkle,STOP,3.6
 
 
-message,ベリサ,うぅっ……そ、そっかぁ〜！　ならさ〜、たとえば〜……<br>お風呂とか入りたいな〜って、思っちゃったりしない〜？,100201000G,vc_10020100002_047_01,chara_1
+message,ベリサ,Ugh...       r-right~!       Then，say，for       example~...<br>don't       you       feel       like，maybe，taking       a       bath~?<br> ,100201000G,vc_10020100002_047_01,chara_1
 
-message,<user>,多少は思わなくもないが……
+message,<user>,I       wouldn't       say       the       thought       hasn't       crossed       my       mind...<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1426,7 +1426,7 @@ asyncseplay,setag1_60,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ベリサ,思うよねっ！？　思うよねぇ！？<br>ならっ！　次のおねだりは〜……お風呂沸かし勝負ぅ〜！！,100201000G,vc_10020100002_048_01,chara_1
+message,ベリサ,You       do，right!?       You       totally       do!?<br>Then~!       The       next       contest       is...       a       bath-heating       showdown~!!<br> ,100201000G,vc_10020100002_048_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1437,7 +1437,7 @@ asyncseplay,setag1_61,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ベリサ,科学ならぁ〜、と〜ぜんそれくらい、できるんでしょ〜〜っ？,100201000G,vc_10020100002_049_01,chara_1
+message,ベリサ,If       it's       science，you       can       obviously~       do       that       much~~，right?<br> ,100201000G,vc_10020100002_049_01,chara_1
 
 window,off
 wait,0.15
@@ -1490,9 +1490,9 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,はい、バーナーを用いて水を温めることのできる、<br>ボイラーという機械があります。,108701000G,vc_10020100002_050_01,chara_2
+message,アーデルハイト,Yes，there's       a       machine       called       a       boiler<br>that       uses       a       burner       to       heat       water.<br> ,108701000G,vc_10020100002_050_01,chara_2
 
-message,<user>,湯沸かし勝負か……いいのか？<br>もし負ければ炎の魔法使いとして面目が立たないぞ。
+message,<user>,A       bath-heating       contest...       are       you       sure       about       this?<br>If       you       lose，your       pride       as       a       fire       mage       is       finished.<br> 
 
 window,off
 wait,0.15
@@ -1538,7 +1538,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,ベリサ,あたしが負けるわけないじゃんっ！<br>ぜ〜ったい見ててよね、おにーさんっ！！,100201000G,vc_10020100002_051_01,chara_1
+message,ベリサ,There's       no       way       I'd       lose       at       this!<br>You'd       better       watch，Onii-san!!<br> ,100201000G,vc_10020100002_051_01,chara_1
 
 
 window,off
@@ -1564,7 +1564,7 @@ transitionFade,Tra05,in,black,1
 
 
 window,on,0.15
-message,<user>,どうしたベリサ、<br>少しお湯がぬるくなってきたぞ
+message,<user>,What's       wrong，Verisa?<br>The       water's       getting       a       bit       lukewarm.<br> 
 
 window,off
 wait,0.15
@@ -1602,9 +1602,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ベリサ,っ、ち、ちがうしっ！？　ずっと入りっぱなしだから〜、<br>あえてぬるくしてるのっ♡　気づかいってやつよ〜♪,100201000G,vc_10020100002_052_01,chara_1
+message,ベリサ,Th-that's       not       it!?       You've       been       in       so       long，so~<br>I'm       making       it       cooler       on       purpose♡       It's       called       caring~♪<br> ,100201000G,vc_10020100002_052_01,chara_1
 
-message,<user>,ほー、お前なりの気づかいか。<br>アーデルハイトの方はいつでも適温のようだがな？
+message,<user>,Oh，your       idea       of       caring，huh.<br>Adelheid's       side       seems       to       be       the       perfect       temperature，though?<br> 
 
 window,off
 wait,0.15
@@ -1656,7 +1656,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,はい。<br>火力は一定なので……,108701000G,vc_10020100002_053_01,chara_2
+message,アーデルハイト,Yes.<br>The       heat       output       is       constant，so...<br> ,108701000G,vc_10020100002_053_01,chara_2
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1667,7 +1667,7 @@ asyncseplay,setag1_66,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ベリサ,ぐぬぬぬぬぬ……でもでもっ、きっとそろそろっ……！,100201000G,vc_10020100002_054_01,chara_1
+message,ベリサ,Grrrr...       but，but，any       moment       now...!<br> ,100201000G,vc_10020100002_054_01,chara_1
 
 
 window,off
@@ -1698,7 +1698,7 @@ wait,0.5
 asyncseplay,setag1_67,SE_DUMMY,0,1,STOP,0
 
 window,on,0.15
-message,<user>,ん、ボイラーとやらが止まったな。<br>どうした、不具合か？
+message,<user>,Hm，the       boiler       just       stopped.<br>What       happened?       A       malfunction?<br> 
 
 window,off
 wait,0.15
@@ -1746,9 +1746,9 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,そんなはずは……。<br>あ……もしかして、ガス切れ……？,108701000G,vc_10020100002_055_01,chara_2
+message,アーデルハイト,That       shouldn't       be...<br>Ah...       could       it       be...       out       of       gas...?<br> ,108701000G,vc_10020100002_055_01,chara_2
 
-message,<user>,そいつも空気中の魔力だけでは稼働しないのか？
+message,<user>,So       that       one       can't       run       on       ambient       mana       alone       either?<br> 
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -1760,11 +1760,11 @@ asyncseplay,setag1_69,se4800006,0,1,CONT,0
 asynccharaemo,chara_2,Trouble,CONT,0
 
 
-message,アーデルハイト,はい、専用の可燃性ガスを燃やしているので。,108701000G,vc_10020100002_056_01,chara_2
+message,アーデルハイト,Correct.       It       burns       a       specialised       combustible       gas.<br> ,108701000G,vc_10020100002_056_01,chara_2
 
-message,<user>,魔石のようなものか。<br>それを使い切れば火も出せないわけだな
+message,<user>,Like       a       mana       stone，then.<br>Once       it's       used       up，it       can't       produce       any       more       fire.<br> 
 
-message,<user>,……これを狙っていたのか、ベリサ
+message,<user>,...So       this       is       what       you       were       counting       on，Verisa.<br> 
 
 
 window,off
@@ -1812,7 +1812,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,ベリサ,ふっふ〜んっ♪　どうよ、おにーさんっ♡　ルクスノヴァの科学なんて、<br>こんなもんなんだから〜♪　便利に見えても、道具は道具！,100201000G,vc_10020100002_057_01,chara_1
+message,ベリサ,Heheh~♪       How       about       that，Onii-san~♡       Lux       Nova's       science<br>is       only       this       much~♪       No       matter       how       handy，a       tool       is       a       tool!<br> ,100201000G,vc_10020100002_057_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1823,7 +1823,7 @@ asyncseplay,setag1_71,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ベリサ,最初はちょ〜っと魅力的に感じちゃったかもだけど、結局はそれだけっ！<br>おにーさんにはね〜、ベリサちゃんみたいな子が必要なんだからっ♡,100201000G,vc_10020100002_058_01,chara_1
+message,ベリサ,Maybe       it       seemed       a       teensy       bit       impressive       at       first，but<br>that's       all!       What       Onii-san       needs       is       a       girl       like       Verisa-chan♡<br> ,100201000G,vc_10020100002_058_01,chara_1
 
 window,off
 wait,0.15
@@ -1843,7 +1843,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ベリサ,やっぱり科学なんかより〜……あたしの魔法の方が……ず〜っと……,100201000G,vc_10020100002_059_01,chara_1
+message,ベリサ,See，compared       to       science~...       my       magic       is...       so       much<br>more...<br> ,100201000G,vc_10020100002_059_01,chara_1
 
 bgmstop,bgmtag1_1,1,0
 
@@ -1879,7 +1879,7 @@ shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 shake,CHARA,chara_2,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,<user>,っ！？<br>どうした、ベリサっ！
+message,<user>,...!?<br>What's       wrong，Verisa!<br> 
 
 window,off
 wait,0.15
@@ -1916,12 +1916,12 @@ asynccharaemo,chara_1,Sleepy,CONT,0
 
 
 window,on,0.15
-message,ベリサ,くぅ……ぅぅ〜……,100201000G,vc_10020100002_060_01,chara_1
+message,ベリサ,Ngh...       uuu~...<br> ,100201000G,vc_10020100002_060_01,chara_1
 
 bgmplay,bgmtag1_2,bgm0033,0.75,1
 
 
-message,<user>,……魔力切れで気を失っているだけか。<br>まったく、驚かせるなよ
+message,<user>,...She       just       fainted       from       mana       depletion.<br>Honestly，don't       scare       me       like       that.<br> 
 
 window,off
 wait,0.15
@@ -1961,9 +1961,9 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,でもベリサさん、すごいです。<br>ガスはちゃんと充填していたのに……,108701000G,vc_10020100002_061_01,chara_2
+message,アーデルハイト,But       Verisa-san       is       incredible.<br>The       gas       was       fully       loaded，and       yet...<br> ,108701000G,vc_10020100002_061_01,chara_2
 
-message,<user>,そんなところで意地をはってどうする。<br>こいつはその辺に放っておいていいぞ。
+message,<user>,What's       the       point       of       being       so       stubborn.<br>You       can       just       leave       her       lying       around       somewhere.<br> 
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -1974,9 +1974,9 @@ asyncseplay,setag1_77,se4800010,0,1,CONT,0
 asynccharaemo,chara_2,Exclamation,CONT,0
 
 
-message,アーデルハイト,……本当にいいんですか？<br>ベリサさん、貴方に褒めてもらいたくて、頑張ったんですよ？,108701000G,vc_10020100002_062_01,chara_2
+message,アーデルハイト,...Are       you       really       fine       with       that?<br>She       worked       so       hard       because       she       wanted       you       to       praise       her.<br> ,108701000G,vc_10020100002_062_01,chara_2
 
-message,<user>,ちっ……。<br>分かった分かった、俺が連れて行く。
+message,<user>,Tch...<br>Fine，fine.       I'll       carry       her       back.<br> 
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -1987,7 +1987,7 @@ asyncseplay,setag1_78,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,アーデルハイト,ふふふ。<br>よろしくお願いしますね。,108701000G,vc_10020100002_063_01,chara_2
+message,アーデルハイト,Hehe.<br>I'll       leave       her       in       your       care，then.<br> ,108701000G,vc_10020100002_063_01,chara_2
 
 
 window,off
@@ -2029,16 +2029,16 @@ asynccharaemo,chara_1,Sleepy,CONT,0
 
 
 window,on,0.15
-message,ベリサ,おにーさん……んぅ……あたしの……かちぃ……♡,100201000G,vc_10020100002_064_01,chara_1
+message,ベリサ,Onii-san...       mmh...       I...       won...♡<br> ,100201000G,vc_10020100002_064_01,chara_1
 
-message,<user>,はいはい。お前はよくやったよ。
+message,<user>,Yeah，yeah.       You       did       great.<br> 
 
 asyncseplay,setag1_80,se4800018,0,1,CONT,0
 
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ベリサ,ぇへへぇ……♡,100201000G,vc_10020100002_065_01,chara_1
+message,ベリサ,Eheheh...♡<br> ,100201000G,vc_10020100002_065_01,chara_1
 
 window,off
 bgmstop,bgmtag1_2,0.5

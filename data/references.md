@@ -196,7 +196,7 @@ roster is listed below.
 | リタ | Rita | Female | |
 | ルカ | Luca | Female | |
 | ローザ | Rosa | Female | |
-| ヴィーラ | Veera | Female | |
+| ヴィーラ | Veera | Female | [Profile](#veera-ヴィーラ) |
 
 ### Non-Playable / Supporting Characters
 
@@ -236,6 +236,48 @@ roster is listed below.
     gentle, not sarcastic.
   - Her self-aggrandizing moments ("the genius mage Verisa-chan") should sound
     playfully over-the-top, not genuinely arrogant.
+
+### Veera (ヴィーラ)
+- **Pronoun:** わたし (watashi, kana) — soft feminine
+- **Addresses MC as:** 司令官さま → **"Commander-sama"** (respectful, warm)
+- **Addresses Verisa as:** お姉ちゃん → **"Onee-chan"** (affectionate, central
+  to her identity)
+- **Role:** Verisa's younger sister; ice mage from Perdion. Far more powerful
+  than Verisa in raw magical ability, though she sincerely believes the
+  opposite. Volunteered for the forward base to be near her sister.
+- **Speech style:** Polite です/ます form, measured and composed. Speaks in
+  complete, well-formed sentences — noticeably more put-together than her
+  sister. No ♪ or ♡ — her warmth comes through in word choice, not
+  decoration. Earnest and sincere to a fault. When talking about Verisa, she
+  becomes passionate and effusive — longer sentences, stronger assertions,
+  eyes lighting up. When truly angered (someone insulting Verisa), she turns
+  cold and intense, dropping her gentle tone entirely. Has a subtle, dry
+  teasing side that surfaces occasionally ("Shall Commander-sama join us in
+  the bath?" → "Hehe... just kidding."). Extremely sheltered about worldly
+  matters — genuinely thought a brothel was a place for hugging.
+- **Translation notes:**
+  - Her default tone is polite, gentle, and slightly formal — similar
+    register to Alicia but with less fuss and more quiet composure.
+  - Her devotion to Verisa is the core of her character — she attributes
+    everything to her sister's brilliance and genuinely sees herself as
+    inferior. Lines praising Verisa should sound completely sincere, never
+    sarcastic: "Onee-chan's magic is far more refined than mine."
+  - When angry on Verisa's behalf, the shift should be striking: from
+    soft-spoken to frigid and commanding. "How dare you... calling
+    Onee-chan pathetic...!" — short, clipped, dangerous.
+  - Her naivety should come across as genuine innocence, not stupidity.
+    She's intelligent and capable — she just has no experience with the
+    world outside magic and family: "I-is this even doing its job as
+    clothing?"
+  - Her rare teasing moments work because of the contrast with her usual
+    earnestness — keep them light and slightly mischievous, with a quick
+    return to her normal composure: "Hehe... just kidding."
+  - When flustered, she stutters lightly but recovers quickly — she's
+    not as prone to prolonged panic as Verisa: "Wh-whaa! Whawawawawawa...!"
+    is the exception, not the rule.
+  - Inner monologues (marked with parentheses) reveal her deep emotional
+    attachment to Verisa — these should sound reflective and tender, not
+    melodramatic.
 
 ### Sophia (ソフィア)
 - **Pronoun:** 私 (watashi) — neutral/formal feminine

@@ -26,7 +26,7 @@ bgmplay,bgmtag3_1,bgm0024,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――数日後、前線基地の街、雑貨屋</size>,,,on
+messageTextCenter,,——Days Later，Forward Base Town，General Store,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -66,7 +66,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ベリサ,ねえねえヴィーラ、これ可愛くないっ！？,100201000G,vc_10080100033_001_01,chara_2
+message,ベリサ,Hey，hey，Veera       —       isn't       this       cute!?<br> ,100201000G,vc_10080100033_001_01,chara_2
 
 window,off
 wait,0.15
@@ -118,7 +118,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,ええ、とても素敵。<br>お姉ちゃんによく似合うね。,100801000G,vc_10080100033_002_01,chara_1
+message,ヴィーラ,Yes，it's       lovely.<br>It       would       look       great       on       you，Onee-chan.<br> ,100801000G,vc_10080100033_002_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -129,7 +129,7 @@ asyncseplay,setag3_3,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヴィーラ,……あ、これは……,100801000G,vc_10080100033_003_01,chara_1
+message,ヴィーラ,...Oh，this       is...<br> ,100801000G,vc_10080100033_003_01,chara_1
 
 window,off
 wait,0.15
@@ -171,7 +171,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,ヴィーラは１枚の鏡を手に取った。<br>顔がしっかりと映る、化粧をするのにちょうどいいサイズだった。
+message,,Veera       picked       up       a       mirror.       It       was       the       perfect       size       for       doing       makeup       —<br>large       enough       to       see       her       whole       face       clearly.<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -180,7 +180,7 @@ asyncseplay,setag3_4,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ヴィーラ,これ……買おうかな……,100801000G,vc_10080100033_004_01,chara_1
+message,ヴィーラ,Maybe       I       should...       get       this       one...<br> ,100801000G,vc_10080100033_004_01,chara_1
 
 window,off
 wait,0.15
@@ -235,7 +235,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,ベリサ,へえ、化粧鏡？<br>ヴィーラがそういうの買うなんて珍しいじゃない。,100201000G,vc_10080100033_005_01,chara_2
+message,ベリサ,Oh，a       makeup       mirror?<br>That's       unusual       for       you.<br> ,100201000G,vc_10080100033_005_01,chara_2
 
 window,off
 wait,0.15
@@ -292,7 +292,7 @@ asynccharaemo,chara_2,Silence,CONT,0
 
 
 window,on,0.15
-message,ベリサ,（ま、娼館でもちゃんと働いてるみたいだし、<br>妹だからって、いつまでも子どもじゃないのよね……）,100201000G,vc_10080100033_006_01,chara_2
+message,ベリサ,(Well，she's       been       doing       fine       at       the       brothel       too，       and       just       because<br>she's       my       little       sister       doesn't       mean       she's       a       kid       forever...)<br> ,100201000G,vc_10080100033_006_01,chara_2
 
 window,off
 wait,0.15
@@ -350,7 +350,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,あの……お姉ちゃん。<br>わたし、お化粧ってやったことがなくて……,100801000G,vc_10080100033_007_01,chara_1
+message,ヴィーラ,Um...       Onee-chan.<br>I've       never       actually       done       my       makeup       before...<br> ,100801000G,vc_10080100033_007_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -361,7 +361,7 @@ asyncseplay,setag3_8,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ヴィーラ,やりかた、教えてくれない……？,100801000G,vc_10080100033_008_01,chara_1
+message,ヴィーラ,Could       you       teach       me       how...?<br> ,100801000G,vc_10080100033_008_01,chara_1
 
 window,off
 wait,0.15
@@ -390,7 +390,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ベリサ,……ふふっ、しょうがないわね～。<br>頼れるお姉ちゃんが教えてあげるわ♪,100201000G,vc_10080100033_009_01,chara_2
+message,ベリサ,...Hehe，can't       be       helped~.<br>Your       reliable       big       sis       will       teach       you♪<br> ,100201000G,vc_10080100033_009_01,chara_2
 
 window,off
 wait,0.15
@@ -448,7 +448,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,ベリサ,（なーんだ、やっとそーゆーことに興味が出たってだけなのね。<br>ヴィーラはやっぱり、まだまだ子どもね♪）,100201000G,vc_10080100033_010_01,chara_2
+message,ベリサ,(Oh，so       she's       just       finally       getting       interested       in       that       kind       of       stuff.<br>Veera       really       is       still       a       kid       at       heart♪)<br> ,100201000G,vc_10080100033_010_01,chara_2
 
 window,off
 wait,0.15
@@ -507,9 +507,9 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,ありがとう、お姉ちゃん……！,100801000G,vc_10080100033_011_01,chara_1
+message,ヴィーラ,Thank       you，Onee-chan...!<br> ,100801000G,vc_10080100033_011_01,chara_1
 
-message,,まだまだ子どもだ――ベリサはそう微笑んだが、<br>ヴィーラの内にあるは、恋にときめく乙女心だけではなかった。
+message,,Still       just       a       kid       —       Verisa       smiled       to       herself，but       what       stirred       within<br>Veera       was       not       simply       the       flutter       of       a       maiden's       heart       in       love.<br> 
 
 window,off
 wait,0.15
@@ -566,7 +566,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,（ちゃんとお化粧をして綺麗になれば、司令官さまが褒めてくれるかも……）,100801000G,vc_10080100033_012_01,chara_1
+message,ヴィーラ,(If       I       do       my       makeup       properly       and       look       pretty，maybe       Commander-sama<br>will       compliment       me...)<br> ,100801000G,vc_10080100033_012_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -577,7 +577,7 @@ asyncseplay,setag3_14,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ヴィーラ,（司令官さま、喜んでくれるかな？<br>そしてまた……いっぱい、愛してくれるかな……）,100801000G,vc_10080100033_013_01,chara_1
+message,ヴィーラ,(Will       Commander-sama       be       pleased?<br>And       will       he...       love       me       again...       so       very       much...)<br> ,100801000G,vc_10080100033_013_01,chara_1
 
 window,off
 wait,0.15
@@ -603,9 +603,9 @@ asynccharaemo,chara_1,Heart,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,……とっても、楽しみ。,100801000G,vc_10080100033_014_01,chara_1
+message,ヴィーラ,...I       can       hardly       wait.<br> ,100801000G,vc_10080100033_014_01,chara_1
 
-message,,可愛らしい乙女心に隠れるように。<br>そこには女としての欲が、密かに顔をのぞかせていた――
+message,,Hidden       beneath       that       sweet       maiden's       heart，<br>a       woman's       desire       was       quietly       beginning       to       show       its       face——<br> 
 
 window,off
 bgmstop,bgmtag3_1,0.5

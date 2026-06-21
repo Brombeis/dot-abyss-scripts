@@ -17,7 +17,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,秘めたる才能
+title,Hidden Talent
 
 wait,1
 
@@ -45,11 +45,11 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,――どうでしょう、司令官さま。<br>娼館で働く許可をもらえませんか？,100801000G,vc_10080100011_001_01,chara_1
+message,ヴィーラ,——What       do       you       say，Commander-sama?<br>Could       I       have       your       permission       to       work       at       the       brothel?<br> ,100801000G,vc_10080100011_001_01,chara_1
 
-message,,司令室。真剣な表情をしたヴィーラの前で、<br><user>は渋い顔をしていた。
+message,,The       command       room.       Faced       with       Veera's       serious       expression，<br>the       Commander       wore       a       troubled       look.<br> 
 
-message,<user>,……なんでまた、娼館で？<br>ヴィーラ、そういうのに興味あるタイプじゃないよな……？
+message,<user>,...Why       the       brothel，of       all       places?<br>Veera，you're       not       exactly       the       type       to       be       into       that       sort       of       thing...?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -60,9 +60,9 @@ asyncseplay,setag1_2,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヴィーラ,お姉ちゃんが娼館で働いているのを見たんです。<br>わたしもお姉ちゃんの助けになれるよう、あそこで働こうと思いまして……,100801000G,vc_10080100011_002_01,chara_1
+message,ヴィーラ,I       saw       that       Onee-chan       is       working       at       the       brothel.<br>I       thought       I       could       help       her       by       working       there       too...<br> ,100801000G,vc_10080100011_002_01,chara_1
 
-message,<user>,あー、そういうことか。<br>うーん、参ったな……
+message,<user>,Ah，so       that's       what       this       is       about.<br>Hmm，this       is       tricky...<br> 
 
 window,off
 wait,0.15
@@ -77,7 +77,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（ベリサが言うには、ヴィーラは男性経験がまったくないらしいんだよなあ。<br>こりゃ安易に許可を出したら、ベリサに燃やされそうだ）
+message,<user>,(According       to       Verisa，Veera       has       zero       experience       with       men.<br>If       I       give       permission       too       easily，Verisa       might       burn       me       alive.)<br> 
 
 window,off
 wait,0.15
@@ -92,7 +92,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,確認だが、娼館が何をする場所かは分かってるんだよな？<br>ちゃんと働けるのか？
+message,<user>,Just       to       confirm，you       do       know       what       goes       on       at       a       brothel，right?<br>You're       sure       you       can       handle       the       work?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -103,7 +103,7 @@ asyncseplay,setag1_3,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヴィーラ,ええ、もちろんです。<br>実際に経験したことはありませんが、問題ないはずです。,100801000G,vc_10080100011_003_01,chara_1
+message,ヴィーラ,Yes，of       course.<br>I       haven't       actually       done       it       before，but       I       should       be       fine.<br> ,100801000G,vc_10080100011_003_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -114,9 +114,9 @@ asyncseplay,setag1_4,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ヴィーラ,――ハグくらい、できますから。,100801000G,vc_10080100011_004_01,chara_1
+message,ヴィーラ,——I       can       handle       a       hug，at       least.<br> ,100801000G,vc_10080100011_004_01,chara_1
 
-message,<user>,……はぐ？　ハグ？？？<br>いや、ハグなんかじゃ済まないんだが？
+message,<user>,...A       hug?       A       hug???<br>No，it       doesn't       stop       at       hugging.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -127,9 +127,9 @@ asyncseplay,setag1_5,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ヴィーラ,……？　娼館というのは、男女が深い仲になる場所ですよね？<br>それならハグをする、のでは……？,100801000G,vc_10080100011_005_01,chara_1
+message,ヴィーラ,...?       A       brothel       is       a       place       where       men       and       women       become...<br>intimate，right?       So       they       hug...       don't       they...?<br> ,100801000G,vc_10080100011_005_01,chara_1
 
-message,<user>,マジで言ってるのか。世間知らずというか、箱入りというか……。<br>分かった、とりあえず現地に行って詳しい説明をしよう。
+message,<user>,You're       serious.       Sheltered       doesn't       even       begin       to       cover       it...<br>Fine，let's       go       there       and       I'll       explain       in       detail.<br> 
 
 
 window,off
@@ -187,7 +187,7 @@ asyncseplay,setag1_7,se4800012,0,1,CONT,0
 asynccharaemo,chara_2,Shy,CONT,0
 
 window,on,0.15
-message,,娼館の部屋を借り、ヴィーラに専用の衣装を着るように言った。<br>彼女は着替えただけでも顔を真っ赤にし、強い羞恥を感じているようだった。
+message,,We       borrowed       a       room       at       the       brothel       and       I       told       Veera       to       change       into<br>the       work       outfit.       Just       changing       clothes       was       enough       to       turn       her       face       bright       red       with       deep       embarrassment.<br> 
 
 asynccharaface,chara_2,FaceUnique02,CONT,0
 
@@ -198,7 +198,7 @@ asyncseplay,setag1_8,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,ヴィーラ,こ、これは、服としての仕事を果たしているんでしょうか？<br>こんな衣装でハグをするのは、覚悟が要りますね……,100801000X,vc_10080100011_006_01,chara_2
+message,ヴィーラ,I-is       this       even       doing       its       job       as       clothing?<br>Hugging       someone       in       this       outfit       would       take       quite       a       lot       of       resolve...<br> ,100801000X,vc_10080100011_006_01,chara_2
 
 window,off
 wait,0.15
@@ -213,7 +213,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（何も分かってない割に、とんでもなく衣装が似合ってるな。<br>見てるだけでドキドキする天然の色気……こりゃ逸材だ、が……）
+message,<user>,(She       has       no       idea       what's       going       on，yet       the       outfit       looks       incredible       on<br>her.       A       natural       sensuality       that       gets       your       heart       racing       just       by       looking...       she's       a       diamond       in       the       rough，but...)<br> 
 
 window,off
 wait,0.15
@@ -228,7 +228,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,……残念だがここでの仕事はハグをするだけじゃないんだ。<br>キスをしたり――エッチをしたり、してもらう。
+message,<user>,...I'm       afraid       the       work       here       doesn't       stop       at       hugging.<br>You       kiss，and...       you       have       sex.<br> 
 
 window,off
 wait,0.15
@@ -259,11 +259,11 @@ asynccharaemo,chara_2,Shock,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,エ……エッチですか……！？<br>こ、ここで、男の人と……そんなこと……！？,100801000X,vc_10080100011_007_01,chara_2
+message,ヴィーラ,S-sex...!?<br>H-here，with       men...       that       kind       of       thing...!?<br> ,100801000X,vc_10080100011_007_01,chara_2
 
-message,<user>,エッチのことは知ってるみたいだな。<br>しかし娼館のことはなんの知識もなかったか……
+message,<user>,So       you       know       what       sex       is，at       least.<br>But       you       had       absolutely       no       idea       what       a       brothel       does...<br> 
 
-message,<user>,ま、ちょっと薄着に着替えたくらいで恥ずかしがっているようじゃ、<br>ここで働くのは難しいぞ。今回は諦めたほうがいい。
+message,<user>,Look，if       you're       this       embarrassed       from       just       changing       into       something<br>skimpy，       working       here       would       be       too       much.       You       should       give       up       on       this.<br> 
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -274,7 +274,7 @@ asyncseplay,setag1_10,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ヴィーラ,っ……ですが、お姉ちゃんのためなら……,100801000X,vc_10080100011_008_01,chara_2
+message,ヴィーラ,...!       But，if       it's       for       Onee-chan...<br> ,100801000X,vc_10080100011_008_01,chara_2
 
 window,off
 wait,0.15
@@ -296,7 +296,7 @@ wait,0.5
 asynccharaface,chara_2,FaceAnger,CONT,0
 
 window,on,0.15
-message,,ヴィーラは強く頷くと、眦を決する。
+message,,Veera       nodded       firmly，resolve       hardening       in       her       eyes.<br> 
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -308,11 +308,11 @@ asyncseplay,setag1_12,se4800010,0,1,CONT,0
 asynccharaemo,chara_2,Exclamation,CONT,0
 
 
-message,ヴィーラ,わたしが、知識も経験も足りていないのは事実です。<br>だから――わたしにエッチな仕事を、教えてください。,100801000X,vc_10080100011_009_01,chara_2
+message,ヴィーラ,It's       true       that       I       lack       both       knowledge       and       experience.<br>So       —       please       teach       me       the       work.       The...       sexual       kind.<br> ,100801000X,vc_10080100011_009_01,chara_2
 
-message,,そう言ったヴィーラは、恥ずかしがっていた娼館の衣装も、<br>薄手の服から透ける自身の身体すらも隠そうとはしなかった。
+message,,Having       said       that，Veera       made       no       attempt       to       hide       the       brothel       outfit<br>she'd       been       so       embarrassed       about，       nor       even       her       body       showing       through       the       sheer       fabric.<br> 
 
-message,<user>,……本気みたいだな。<br>ベリサのためにそこまで覚悟があるなら……こっちに来い。
+message,<user>,...You're       serious       about       this.<br>If       you're       that       determined       for       Verisa's       sake...       come       here.<br> 
 
 window,off
 wait,0.15
@@ -350,7 +350,7 @@ asynccharaemo,chara_2,Shy,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,はい……お願い、します。,100801000X,vc_10080100011_010_01,chara_2
+message,ヴィーラ,Yes...       please...       teach       me.<br> ,100801000X,vc_10080100011_010_01,chara_2
 
 labeljump,b
 

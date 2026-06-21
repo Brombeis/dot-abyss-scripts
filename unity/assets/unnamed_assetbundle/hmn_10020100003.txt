@@ -14,7 +14,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
@@ -49,7 +49,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ベリサ,ん……あれぇ？ ここ、どこ〜……？,100201000G,vc_10020100003_001_01,chara_1
+message,ベリサ,Mm...       huh?       Where       am       I~...?<br> ,100201000G,vc_10020100003_001_01,chara_1
 
 window,off
 wait,0.15
@@ -82,7 +82,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,やっと起きたか。
+message,<user>,You're       finally       awake.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -93,11 +93,11 @@ asyncseplay,setag1_3,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ベリサ,おにーさん……？<br>な〜んでおにーさんがいるのぉ〜？,100201000G,vc_10020100003_002_01,chara_1
+message,ベリサ,Onii-san...?<br>Why~       are       you       here~?<br> ,100201000G,vc_10020100003_002_01,chara_1
 
-message,<user>,覚えていないのか？
+message,<user>,You       don't       remember?<br> 
 
-message,<user>,アーデルハイトの道具と勝負をして、<br>お前は魔力切れで倒れたんだ。
+message,<user>,You       challenged       Adelheid's       inventions，<br>and       collapsed       from       magic       exhaustion.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -108,9 +108,9 @@ asyncseplay,setag1_4,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ベリサ,えぇ……じゃあ、ここって……,100201000G,vc_10020100003_003_01,chara_1
+message,ベリサ,Ehh...       so       this       place       is...<br> ,100201000G,vc_10020100003_003_01,chara_1
 
-message,<user>,俺の部屋だ。<br>ベッドを占領されて迷惑している。
+message,<user>,My       room.<br>You've       been       hogging       my       bed.       It's       a       nuisance.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -121,7 +121,7 @@ asyncseplay,setag1_5,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ベリサ,おにーさんの部屋……おにーさんのベッド……♡,100201000G,vc_10020100003_004_01,chara_1
+message,ベリサ,Onii-san's       room...       Onii-san's       bed...       ♡<br> ,100201000G,vc_10020100003_004_01,chara_1
 
 
 window,off
@@ -148,7 +148,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ベリサ,んふふ〜ん♡　もぉ〜、おにーさんったらぁ〜。<br>あたしを部屋に連れ込んで、ど〜しようとしてたのぉ〜？♡,100201000G,vc_10020100003_005_01,chara_1
+message,ベリサ,Ehehe~n♡       Oh，Onii-sa~n~.<br>You       brought       me       to       your       room，so       what       were       you       planning~?       ♡<br> ,100201000G,vc_10020100003_005_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -159,7 +159,7 @@ asyncseplay,setag1_7,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ベリサ,疲れて動けなくなったベリサちゃんじゃないと、<br>ベッドに連れて行く勇気もなかったんだぁ？　,100201000G,vc_10020100003_006_01,chara_1
+message,ベリサ,You       couldn't       even       work       up       the       nerve<br>unless       Verisa-chan       was       too       tired       to       resist?<br> ,100201000G,vc_10020100003_006_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -170,11 +170,11 @@ asyncseplay,setag1_8,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ベリサ,ほんっとぉ〜に、情けないおにーさんなんだからぁ♡,100201000G,vc_10020100003_007_01,chara_1
+message,ベリサ,You       really~       are       such       a       hopeless       Onii-san♡<br> ,100201000G,vc_10020100003_007_01,chara_1
 
-message,<user>,……調子が戻ったら、すぐにそれか。
+message,<user>,...The       second       you       feel       better，you       start       with       that.<br> 
 
-message,<user>,お前の部屋に勝手に入るわけにもいかないだろう。<br>それともベリサは湯沸かしで倒れたと吹聴されたかったか。
+message,<user>,I       couldn't       exactly       barge       into       your       room.<br>Or       did       you       want       everyone       hearing       you       fainted       boiling       water?<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -183,17 +183,17 @@ asyncseplay,setag1_9,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ベリサ,あれれ〜？　ベリサ、おにーさんにご奉仕しすぎて倒れちゃったって、<br>み〜んなに教えてあげちゃおっかなぁ〜？　♡ だいった〜ん♡,100201000G,vc_10020100003_008_01,chara_1
+message,ベリサ,Oh~?       Maybe       I'll       tell       everyone~       Verisa       collapsed<br>from       serving       Onii-san       too~       hard?       ♡       How       bold~♡<br> ,100201000G,vc_10020100003_008_01,chara_1
 
-message,<user>,口の減らないやつだな……。<br>言っておくが、お前が倒れたことは問題だぞ。
+message,<user>,You       never       shut       up，do       you...<br>But       I'm       telling       you，collapsing       like       that       is       a       problem.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
-message,<user>,幸いにも戦闘はなかったが、<br>厄災が現れていたらどうするつもりだったんだ？
+message,<user>,We       were       lucky       there       was       no       fighting，<br>but       what       if       a       Calamity       had       appeared?<br> 
 
-message,<user>,お前抜きで戦略を練るのも面倒だ。<br>今後はくだらないことで無茶をするなよ。
+message,<user>,Planning       strategy       without       you       is       a       pain.<br>Don't       push       yourself       over       something       pointless       again.<br> 
 
 window,off
 wait,0.15
@@ -220,7 +220,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ベリサ,ん〜やっぱりぃ？　おにーさんってば、ベリサちゃんがいないと、な〜んにも<br>できないんだもんねぇ？　あたしなしじゃ、ざっこざこなんだからっ♪,100201000G,vc_10020100003_009_01,chara_1
+message,ベリサ,Mm~       I       knew       it~?       Onii-san       can't       do       a~       thing<br>without       Verisa-chan，can       you?       So       weak       without       me~♪<br> ,100201000G,vc_10020100003_009_01,chara_1
 
 
 window,off
@@ -242,14 +242,14 @@ asyncwait
 
 
 window,on,0.15
-message,ベリサ,……でもね、おにーさん。<br>今日のこと、くだらなくなんてなかったんだから。,100201000G,vc_10020100003_010_01,chara_1
+message,ベリサ,...But       you       know，Onii-san.<br>What       happened       today       wasn't       pointless       at       all.<br> ,100201000G,vc_10020100003_010_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,ベリサ,あたしの魔法はね、ルクスノヴァの科学なんかに、<br>ぜっっったいに負けちゃダメなのよ。,100201000G,vc_10020100003_011_01,chara_1
+message,ベリサ,My       magic       absolutely，positively<br>cannot       lose       to       Lux       Nova's       science.<br> ,100201000G,vc_10020100003_011_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -261,9 +261,9 @@ asyncseplay,setag1_12,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ベリサ,おにーさん、ちゃんと見てたでしょ？<br>魔法と科学、どっちがすごいか、もう分かったよねっ？,100201000G,vc_10020100003_012_01,chara_1
+message,ベリサ,Onii-san，you       were       watching，right?<br>You       can       tell       which       is       better       now，yeah?<br> ,100201000G,vc_10020100003_012_01,chara_1
 
-message,<user>,そうだな……、<br>科学も魔法も一長一短、というところか。
+message,<user>,Well...<br>Both       science       and       magic       have       their       strengths       and       weaknesses.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -274,13 +274,13 @@ asyncseplay,setag1_13,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ベリサ,えぇぇっ！？　なんでぇ〜！？<br>あたしが勝ったじゃないっ！！,100201000G,vc_10020100003_013_01,chara_1
+message,ベリサ,Ehhh!?       Why~!?<br>I       won，didn't       I!!<br> ,100201000G,vc_10020100003_013_01,chara_1
 
-message,<user>,最後の勝負以外は負け通しだっただろうが。<br>そもそも俺には勝ち負けなんてどうでもいい。
+message,<user>,You       lost       every       round       except       the       last       one.<br>Winning       or       losing       doesn't       matter       to       me       anyway.<br> 
 
-message,<user>,適切なものを適切なタイミングで使う。<br>そのために情報がほしかっただけだ。
+message,<user>,Use       the       right       tool       at       the       right       time.<br>I       just       wanted       the       data       to       make       that       call.<br> 
 
-message,<user>,まあ、概ね想定通りの結果だったがな。
+message,<user>,Well，the       results       were       mostly       as       I       expected.<br> 
 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
@@ -292,7 +292,7 @@ asyncseplay,setag1_14,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ベリサ,……あっそ〜。<br>おにーさん、そういうタイプだもんねぇ……,100201000G,vc_10020100003_014_01,chara_1
+message,ベリサ,...Oh，is       that       so~.<br>That's       just       the       kind       of       person       you       are，huh...<br> ,100201000G,vc_10020100003_014_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -303,9 +303,9 @@ asyncseplay,setag1_15,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ベリサ,別に、あたしの魔法なんかに、興味ないんだぁ……,100201000G,vc_10020100003_015_01,chara_1
+message,ベリサ,You       don't       even       care       about       my       magic...<br> ,100201000G,vc_10020100003_015_01,chara_1
 
-message,<user>,……だが、１つ想定外があった。<br>お前だ、ベリサ。
+message,<user>,...But       there       was       one       thing       I       didn't       expect.<br>You，Verisa.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -316,11 +316,11 @@ asyncseplay,setag1_16,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ベリサ,えっ……あたし？,100201000G,vc_10020100003_016_01,chara_1
+message,ベリサ,Huh...       me?<br> ,100201000G,vc_10020100003_016_01,chara_1
 
-message,<user>,科学に張り合って、倒れるまで魔法を使う。<br>それほどに意地を見せるとは思っていなかった。
+message,<user>,Going       toe-to-toe       with       science       until       you       collapsed.<br>I       didn't       think       you'd       be       that       stubborn       about       it.<br> 
 
-message,<user>,どうしてそこまでした？<br>実戦でもない、ただのお遊びだろう。
+message,<user>,Why       did       you       push       yourself       that       far?<br>It       wasn't       even       real       combat，just       a       little       game.<br> 
 
 window,off
 wait,0.15
@@ -339,7 +339,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ベリサ,確かに、お遊びだったかもしれないよ。<br>でも、あたしにとっては大事なことだったの。,100201000G,vc_10020100003_017_01,chara_1
+message,ベリサ,Sure，maybe       it       was       just       a       game.<br>But       to       me，it       really       mattered.<br> ,100201000G,vc_10020100003_017_01,chara_1
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -348,11 +348,11 @@ asynccharaface,chara_1,FaceAnger,CONT,0
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,ベリサ,あたしの魔法はね、ルクスノヴァの科学よりも上じゃなきゃ、<br>意味がないのよ。,100201000G,vc_10020100003_018_01,chara_1
+message,ベリサ,If       my       magic       isn't       better       than       Lux       Nova's       science，<br>then       there's       no       point       to       it.<br> ,100201000G,vc_10020100003_018_01,chara_1
 
-message,<user>,上だろうが下だろうが、<br>俺に使われるならば負けはない。
+message,<user>,Better       or       worse，it       doesn't       matter.<br>If       I'm       the       one       using       it，there's       no       losing.<br> 
 
-message,<user>,それとも強くなければ使いこなせないと思ったか？<br>みくびられたもんだな。
+message,<user>,Or       did       you       think       I       couldn't       make       use       of       it<br>unless       it       was       powerful?       Don't       underestimate       me.<br> 
 
 bgmplay,bgmtag1_2,bgm0030,0.75,1
 
@@ -365,7 +365,7 @@ asyncseplay,setag1_18,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ベリサ,違うよ……おにーさんは、誰だって戦力にしちゃうんだよね。<br>でも、あたしはね、ただ使われるだけじゃダメなの。,100201000G,vc_10020100003_019_01,chara_1
+message,ベリサ,That's       not       it...       I       know       you       can       make       anyone       useful.<br>But       for       me，just       being       used       isn't       enough.<br> ,100201000G,vc_10020100003_019_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -376,11 +376,11 @@ asyncseplay,setag1_19,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,ベリサ,あたしの魔法は、最強じゃなきゃいけないのっ！,100201000G,vc_10020100003_020_01,chara_1
+message,ベリサ,My       magic       has       to       be       the       strongest!<br> ,100201000G,vc_10020100003_020_01,chara_1
 
-message,<user>,そうまで思い詰める理由がわからんな。
+message,<user>,I       don't       see       why       you'd       fixate       on       it       that       much.<br> 
 
-message,<user>,ペルディオンが魔法使いを重用しているのはわかる。<br>しかしお前がそれを背負う必要はないだろう。
+message,<user>,I       know       Perdion       values       its       mages       highly.<br>But       you       don't       have       to       carry       that       burden       yourself.<br> 
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -389,7 +389,7 @@ asyncseplay,setag1_20,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ベリサ,べっつに、国のためにやってるわけじゃないよ。,100201000G,vc_10020100003_021_01,chara_1
+message,ベリサ,It's       not       like       I'm       doing       it       for       my       country       or       anything.<br> ,100201000G,vc_10020100003_021_01,chara_1
 
 window,off
 wait,0.15
@@ -408,16 +408,16 @@ wait,0.5
 
 
 window,on,0.15
-message,ベリサ,おにーさん、戦いにおける魔法使いの立ち位置って……<br>ちゃんと分かってるでしょ？,100201000G,vc_10020100003_022_01,chara_1
+message,ベリサ,Onii-san，you       understand       where       mages       stand<br>in       a       battle...       right?<br> ,100201000G,vc_10020100003_022_01,chara_1
 
-message,<user>,後衛だろう、言うまでもない。
+message,<user>,The       rear       guard.       Goes       without       saying.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,ベリサ,そーゆーことっ！　とんでもない厄災を前衛のみんなが<br>必死で受け止めてる……その後ろに、あたしたちはいるの。,100201000G,vc_10020100003_023_01,chara_1
+message,ベリサ,Exactly!       The       front-liners       are       out       there<br>fighting       Calamities       for       their       lives...       and       we're       behind       them.<br> ,100201000G,vc_10020100003_023_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -428,7 +428,7 @@ asyncseplay,setag1_22,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ベリサ,みんなが守ってくれるのよ。<br>あたしたち魔法使いが、ちゃんと魔法を使えるようにって。,100201000G,vc_10020100003_024_01,chara_1
+message,ベリサ,They       protect       us.<br>So       that       we       mages       can       do       our       job       properly.<br> ,100201000G,vc_10020100003_024_01,chara_1
 
 window,off
 wait,0.15
@@ -449,7 +449,7 @@ asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,ベリサ,あたしの魔法に期待して……命をかけてる人が、いるんだよ。,100201000G,vc_10020100003_025_01,chara_1
+message,ベリサ,There       are       people       risking       their       lives...<br>counting       on       my       magic.<br> ,100201000G,vc_10020100003_025_01,chara_1
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -458,7 +458,7 @@ asyncseplay,setag1_24,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ベリサ,死ぬかもしれない。ううん、かもじゃない。<br>実際、何度も、そういう場面があった。,100201000G,vc_10020100003_026_01,chara_1
+message,ベリサ,They       could       die.       No，not       ""could"".<br>It's       actually       happened，more       than       once.<br> ,100201000G,vc_10020100003_026_01,chara_1
 
 window,off
 wait,0.15
@@ -477,11 +477,11 @@ wait,0.5
 
 
 window,on,0.15
-message,ベリサ,おにーさんの指揮がなかったら、きっと……もっと、たくさんの人が……,100201000G,vc_10020100003_027_01,chara_1
+message,ベリサ,If       you       hadn't       been       commanding       us，<br>surely...       even       more       people       would       have...<br> ,100201000G,vc_10020100003_027_01,chara_1
 
-message,<user>,ああ、過去にあった厄災との戦いでは、<br>相当の被害が出たらしいな。
+message,<user>,Yeah，in       past       battles       against       Calamities，<br>the       losses       were       apparently       devastating.<br> 
 
-message,<user>,俺はそんな無様を晒すつもりはない、が。<br>犠牲が出る可能性は、常に考慮している。
+message,<user>,I       don't       intend       to       let       anything       that       ugly       happen.<br>But       the       possibility       of       casualties       is       always       on       my       mind.<br> 
 
 window,off
 wait,0.15
@@ -496,7 +496,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ベリサ,そうでしょ。いつだって、誰かが傷つくかもしれない。<br>いや、たくさんの人がもう……傷ついてる。,100201000G,vc_10020100003_028_01,chara_1
+message,ベリサ,See?       Someone       could       get       hurt       at       any       time.<br>No...       so       many       people       already       have.<br> ,100201000G,vc_10020100003_028_01,chara_1
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -505,14 +505,14 @@ asyncseplay,setag1_27,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ベリサ,それなのに、あたしの魔法が……ただの道具と同じだったら、<br>あたしを守ってくれた意味なんて、なくなっちゃうじゃない……,100201000G,vc_10020100003_029_01,chara_1
+message,ベリサ,And       if       my       magic       is       just       the       same       as       some       tool，<br>then       protecting       me       was       all       for       nothing...<br> ,100201000G,vc_10020100003_029_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
 
-message,ベリサ,魔法使いは、あたしの魔法は……科学なんかに負けちゃいけないの。<br>だって、だってね……,100201000G,vc_10020100003_030_01,chara_1
+message,ベリサ,Mages，my       magic...       can't       lose       to       science.<br>Because，because...<br> ,100201000G,vc_10020100003_030_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -523,11 +523,11 @@ asyncseplay,setag1_28,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ベリサ,あたしのために傷ついた人たちが……バカみたいになっちゃうじゃない……,100201000G,vc_10020100003_031_01,chara_1
+message,ベリサ,The       people       who       got       hurt       for       my       sake...<br>it       would       make       their       sacrifices       look       like       a       joke...<br> ,100201000G,vc_10020100003_031_01,chara_1
 
-message,<user>,……分からんでもない。<br>後衛というなら、最も後ろにいるのは俺だからな。
+message,<user>,...I       can       understand       that.<br>If       we're       talking       rear       guard，I'm       the       furthest       back.<br> 
 
-message,<user>,俺もお前も、盾となり戦う者に顔向けできるだけの結果を、<br>出し続けなければならない。
+message,<user>,You       and       I       both       have       to       keep       delivering       results<br>worthy       of       those       who       fight       as       our       shields.<br> 
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -536,13 +536,13 @@ asyncseplay,setag1_29,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ベリサ,そう……そうなの。<br>だから、あたしは勝たなきゃいけなかったのよ……！,100201000G,vc_10020100003_032_01,chara_1
+message,ベリサ,Yes...       exactly.<br>That's       why       I       had       to       win...!<br> ,100201000G,vc_10020100003_032_01,chara_1
 
-message,<user>,……優しい言葉がほしい、ってわけでもなさそうだな。<br>なら今回確認した事実だけを話すぞ。
+message,<user>,...Doesn't       seem       like       you're       looking       for       comfort.<br>Then       I'll       just       tell       you       what       I       observed       today.<br> 
 
-message,<user>,アーデルハイトの道具は、<br>想定した通りの性能しか発揮しなかった。
+message,<user>,Adelheid's       inventions       performed<br>exactly       as       I       predicted.       Nothing       more.<br> 
 
-message,<user>,俺が感心したのはお前だけだ、ベリサ。
+message,<user>,The       only       one       who       impressed       me       was       you，Verisa.<br> 
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -555,9 +555,9 @@ asyncseplay,setag1_30,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ベリサ,……え？,100201000G,vc_10020100003_033_01,chara_1
+message,ベリサ,...Huh?<br> ,100201000G,vc_10020100003_033_01,chara_1
 
-message,<user>,お前だけが俺の想定を超える結果を出した。<br>言っとくが、なかなかのもんだぜ。
+message,<user>,You       were       the       only       one       who       exceeded       my       expectations.<br>And       let       me       say，that's       no       small       feat.<br> 
 
 window,off
 wait,0.15
@@ -576,9 +576,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ベリサ,……じゃあ……じゃあねっ！<br>今日の勝負、あたしの勝ちってことで、いーのよねっ！？,100201000G,vc_10020100003_034_01,chara_1
+message,ベリサ,...Then...       then!<br>Today's       contest，I       won，right!?<br> ,100201000G,vc_10020100003_034_01,chara_1
 
-message,<user>,ああ。今日のところはお前の勝ちと言ってもいいだろう。
+message,<user>,Yeah.       I'd       say       today's       victory       is       yours.<br> 
 
 
 window,off
@@ -602,7 +602,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,ベリサ,え、えへへ〜……♡,100201000G,vc_10020100003_035_01,chara_1
+message,ベリサ,H-hehe~...       ♡<br> ,100201000G,vc_10020100003_035_01,chara_1
 
 bgmplay,bgmtag1_3,bgm0031,0.75,1
 
@@ -615,9 +615,9 @@ asyncseplay,setag1_33,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ベリサ,でしょでしょ〜？　ベリサ、すっごかったでしょ〜？<br>あたしの勝ちってことで、間違いないよねぇ〜？,100201000G,vc_10020100003_036_01,chara_1
+message,ベリサ,Right，right~?       Verisa       was       amazing，wasn't       she~?<br>There's       no       doubt       it's       my       win，yeah~?<br> ,100201000G,vc_10020100003_036_01,chara_1
 
-message,<user>,何度も言わせるなって……、<br>なんだその調子に乗った顔は。
+message,<user>,Don't       make       me       say       it       again...<br>What's       with       that       smug       look       on       your       face?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -629,7 +629,7 @@ asyncseplay,setag1_34,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ベリサ,え〜？　だってぇ〜♡　<br>おにーさん、ベリサちゃんのすごさにやられちゃったんでしょ〜？,100201000G,vc_10020100003_037_01,chara_1
+message,ベリサ,Hm~?       But~♡<br>Onii-san，Verisa-chan       totally       blew       you       away，right~?<br> ,100201000G,vc_10020100003_037_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -640,7 +640,7 @@ asyncseplay,setag1_35,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ベリサ,結局、おにーさんってば、<br>あたしがいないと何にもできないしぃ～♡,100201000G,vc_10020100003_038_01,chara_1
+message,ベリサ,In       the       end，Onii-san，<br>you       can't       do       anything       without       me~♡<br> ,100201000G,vc_10020100003_038_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -651,7 +651,7 @@ asyncseplay,setag1_36,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ベリサ,ベリサが寝ちゃって、もし厄災が出てたらどうするつもりだったの〜？<br>怖かったでしょ、ひとりで〜♡ ,100201000G,vc_10020100003_039_01,chara_1
+message,ベリサ,If       a       Calamity       showed       up       while       Verisa       was       napping，<br>what       would       you       do~?       You       were       scared       all       alone~♡<br> ,100201000G,vc_10020100003_039_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -662,11 +662,11 @@ asyncseplay,setag1_37,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ベリサ,よしよし、一緒にいてあげるから安心していいよぉ、<br>よわよわのおにーさん♡,100201000G,vc_10020100003_040_01,chara_1
+message,ベリサ,There，there，I'll       stay       with       you，so       relax，<br>my       weak       little       Onii-san♡<br> ,100201000G,vc_10020100003_040_01,chara_1
 
-message,<user>,ふん、お前がいなくとも、面倒が少し増えるだけだ。<br>どんな状況でも勝たせるのが俺の仕事だ。
+message,<user>,Hmph，without       you       it's       just       a       little       more       hassle.<br>Winning       no       matter       the       odds       is       my       job.<br> 
 
-message,<user>,もしも犠牲が出たとしても、俺のやることはかわらない。<br>どれほど憎まれようと、な。
+message,<user>,Even       if       there       are       casualties，what       I       do       won't       change.<br>No       matter       how       much       I'm       hated       for       it.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -677,7 +677,7 @@ asyncseplay,setag1_38,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ベリサ,だ〜いじょ〜ぶ♡　おにーさんが泣いちゃわないように、<br>ベリサがちゃんと無事に帰ってきてあげるから♡,100201000G,vc_10020100003_041_01,chara_1
+message,ベリサ,Don't       you       worry~♡       So       Onii-san       doesn't       cry，<br>Verisa       will       always       come       back       safe       and       sound♡<br> ,100201000G,vc_10020100003_041_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -688,7 +688,7 @@ asyncseplay,setag1_39,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ベリサ,それでも誰かが怪我しちゃったら、ベリサが<br>た〜っぷり慰めてあげるんだからねっ、おにーさん♡,100201000G,vc_10020100003_042_01,chara_1
+message,ベリサ,And       if       someone       gets       hurt，Verisa       will       give       you<br>all~       the       comfort       you       need，okay，Onii-san♡<br> ,100201000G,vc_10020100003_042_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -699,9 +699,9 @@ asyncseplay,setag1_40,se4800002,0,1,CONT,0
 asynccharaemo,chara_1,Heart,CONT,0
 
 
-message,ベリサ,だからさ〜、つよつよ魔法使いのベリサに、もっと頼って<br>いいんだよ〜？　魔法ナシの、よっわよわざぁこな♡お・に・い・さ・ん♡,100201000G,vc_10020100003_043_01,chara_1
+message,ベリサ,So~       you       can       rely       on       the       super-strong       mage       Verisa<br>more，okay~?       You       magic-less，we~ak       little♡       O-nii-san♡<br> ,100201000G,vc_10020100003_043_01,chara_1
 
-message,<user>,……
+message,<user>,...<br> 
 
 window,off
 wait,0.15
@@ -716,7 +716,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（馬鹿にされているのかとも思ったが、<br>ベリサのこれは、俺に甘えているだけだな……まったく）
+message,<user>,(I       thought       she       was       making       fun       of       me，but<br>this       is       just       Verisa       being       clingy...       honestly.)<br> 
 
 window,off
 wait,0.15
@@ -731,7 +731,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,少し褒めてやったらすぐ調子に乗りやがって。<br>こっちが損した気分だ。
+message,<user>,I       give       you       one       compliment       and       you       get       full       of       it.<br>I       feel       like       I       got       the       raw       end       of       the       deal.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -743,9 +743,9 @@ asyncseplay,setag1_41,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ベリサ,ふふ〜ん♡ 褒めてくれたなら〜、ベリサ<br>な〜んかご褒美ほしくなっちゃったなぁ〜♡,100201000G,vc_10020100003_044_01,chara_1
+message,ベリサ,Hmhm~♡       If       you're       giving       praise~，now       Verisa<br>wants       a       reward       too~♡<br> ,100201000G,vc_10020100003_044_01,chara_1
 
-message,<user>,人を巻き込んでおいて勝手を言うやつだな……。<br>聞くだけ聞いてやるが、期待はするなよ。
+message,<user>,You       drag       everyone       into       your       mess，then       make       demands...<br>I'll       hear       you       out，but       don't       get       your       hopes       up.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -756,11 +756,11 @@ asyncseplay,setag1_42,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ベリサ,ベリサね〜、おにーさんと一緒に〜<br>……お風呂、入りたいなぁ〜って♡,100201000G,vc_10020100003_045_01,chara_1
+message,ベリサ,Verisa~       wants       to       take       a       bath~<br>...together       with       Onii-san~       ♡<br> ,100201000G,vc_10020100003_045_01,chara_1
 
-message,<user>,何を言うかと思えば、またくだらない願いだな。<br>……まあ、俺の要望に従って、倒れるまで働いたのは事実か。
+message,<user>,I       wondered       what       you'd       ask       for.       Another       silly       wish.<br>...Well，you       did       work       till       you       dropped       at       my       request.<br> 
 
-message,<user>,仕方ない、今日だけだぞ。
+message,<user>,Fine，but       just       for       today.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -771,7 +771,7 @@ asyncseplay,setag1_43,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ベリサ,やったぁ〜♡<br>やっぱりおにーさん、ベリサには甘々なんだからぁ〜♡,100201000G,vc_10020100003_046_01,chara_1
+message,ベリサ,Yay~♡<br>I       knew       it，Onii-san's       such       a       softie       for       Verisa~♡<br> ,100201000G,vc_10020100003_046_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -782,7 +782,7 @@ asyncseplay,setag1_44,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ベリサ,それともお風呂沸かしてる間、ず〜っと一緒に入りたいって<br>思ってたのかなぁ？　おにーさんったら、赤ちゃんみたい〜♡,100201000G,vc_10020100003_047_01,chara_1
+message,ベリサ,Or       were       you       thinking       the       who~le       time       you       wanted<br>to       bathe       with       me~?       Onii-san，you're       like       a       baby~♡<br> ,100201000G,vc_10020100003_047_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -793,11 +793,11 @@ asyncseplay,setag1_45,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ベリサ,だいじょーぶだよ？<br>ベリサも、おにーさんと一緒がいいなぁって思ってたから♡,100201000G,vc_10020100003_048_01,chara_1
+message,ベリサ,It's       totally       fine，you       know?<br>Verisa       wanted       to       be       with       Onii-san       too♡<br> ,100201000G,vc_10020100003_048_01,chara_1
 
-message,<user>,そんな余計なことを考えているから倒れるんだ。
+message,<user>,That's       what       happens       when       your       head's       full       of       nonsense.<br> 
 
-message,<user>,そもそも一緒に風呂に入るだけで褒美というのも安い話だ。<br>体でも洗えと言われるのかと思ってたぜ。
+message,<user>,A       bath       together       is       a       pretty       cheap       reward       anyway.<br>I       figured       you'd       make       me       wash       you       or       something.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -808,9 +808,9 @@ asyncseplay,setag1_46,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ベリサ,あっ、それも追加〜♡<br>おにーさんってば、ベリサに甘えたくてしかたないんだからぁ♡,100201000G,vc_10020100003_049_01,chara_1
+message,ベリサ,Oh，adding       that       too~♡<br>Onii-san，you       just       can't       help       wanting       to       spoil       Verisa♡<br> ,100201000G,vc_10020100003_049_01,chara_1
 
-message,<user>,……余計なことを言ったな。<br>忘れろ。
+message,<user>,...I       shouldn't       have       said       that.<br>Forget       it.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -821,7 +821,7 @@ asyncseplay,setag1_47,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ベリサ,や〜だぁ♡<br>今日はおにーさんに、ベリサのお世話、させてあげるぅ〜♡,100201000G,vc_10020100003_050_01,chara_1
+message,ベリサ,No       way~♡<br>Today，I'll       let       Onii-san       take       care       of       Verisa~♡<br> ,100201000G,vc_10020100003_050_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -832,9 +832,9 @@ asyncseplay,setag1_48,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ベリサ,ベリサもね、おにーさんのこと、きれいきれ〜い♡<br>してあげちゃうから♡,100201000G,vc_10020100003_051_01,chara_1
+message,ベリサ,And       Verisa       will       scrub       Onii-san       squeaky       clean~       too♡<br>You're       welcome♡<br> ,100201000G,vc_10020100003_051_01,chara_1
 
-message,<user>,やっぱり今日はお前の負けだ。<br>褒美もなし、さっさと帰れ。
+message,<user>,Actually，today's       your       loss       after       all.<br>No       reward.       Go       home.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -845,7 +845,7 @@ asyncseplay,setag1_49,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ベリサ,そんなこと言って〜♡　嬉しいくせにぃ？<br>おにーさん、もうドッキドキしちゃってるもんね〜♡,100201000G,vc_10020100003_052_01,chara_1
+message,ベリサ,Oh，don't       be       like       that~♡       You're       happy，admit       it~<br>Onii-san，your       heart's       already       pounding，isn't       it~♡<br> ,100201000G,vc_10020100003_052_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -857,7 +857,7 @@ asyncseplay,setag1_50,se4800005,0,1,CONT,0
 asynccharaemo,chara_1,Flash,CONT,0
 
 
-message,ベリサ,あ、分かっちゃった♡<br>体洗うだけじゃ我慢できないんだぁ？　ふふっ……♡,100201000G,vc_10020100003_053_01,chara_1
+message,ベリサ,Oh，I       get       it       now♡<br>Just       washing       isn't       enough       for       you?       Hehe...♡<br> ,100201000G,vc_10020100003_053_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -868,11 +868,11 @@ asyncseplay,setag1_51,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ベリサ,おにーさんなら……その先も、いいよ♡,100201000G,vc_10020100003_054_01,chara_1
+message,ベリサ,If       it's       Onii-san...       we       can       go       further       than       that♡<br> ,100201000G,vc_10020100003_054_01,chara_1
 
-message,<user>,……面倒になってきたな。<br>分かった分かった、さっさと行くぞ。
+message,<user>,...This       is       getting       out       of       hand.<br>Fine，fine.       Let's       just       go       already.<br> 
 
-message,<user>,だが風呂の準備はできていないだろう。<br>お前の魔法で沸かすのか？
+message,<user>,But       the       bath       isn't       ready       yet.<br>You       going       to       heat       it       with       your       magic?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -883,7 +883,7 @@ asyncseplay,setag1_52,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ベリサ,む〜り♡　今はベリサちゃん、ざこざこ状態なのぉ〜。<br>小さな火花すら出ないもん♡,100201000G,vc_10020100003_055_01,chara_1
+message,ベリサ,No       can       do~♡       Verisa-chan       is       totally       drained       right       now~.<br>I       can't       even       make       a       tiny       spark♡<br> ,100201000G,vc_10020100003_055_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -894,9 +894,9 @@ asyncseplay,setag1_53,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ベリサ,今なら〜、よわよわざぁこのおにーさんでも、<br>ざこざこベリサちゃんを好きにできちゃうかもよぉ〜？,100201000G,vc_10020100003_056_01,chara_1
+message,ベリサ,Right       now~，even       a       we~ak       little       Onii-san<br>could       have       his       way       with       helpless       Verisa-chan~?<br> ,100201000G,vc_10020100003_056_01,chara_1
 
-message,<user>,うるさい。アーデルハイトを呼んでくる。<br>ルクスノヴァの道具で風呂の用意をさせよう。
+message,<user>,Shut       up.       I'm       calling       Adelheid.<br>We'll       have       Lux       Nova's       tools       heat       the       bath.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -907,7 +907,7 @@ asyncseplay,setag1_54,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ベリサ,え〜！？　ん〜……しょ〜がないなぁ。<br>今日はベリサが勝ったんだから、特別に許してあげる〜♡,100201000G,vc_10020100003_057_01,chara_1
+message,ベリサ,Ehh~!?       Hmm~...       well，I       guess       it       can't       be       helped~.<br>Since       Verisa       won       today，I'll       allow       it，just       this       once~♡<br> ,100201000G,vc_10020100003_057_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -918,7 +918,7 @@ asyncseplay,setag1_55,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ベリサ,でもでも♡ ご褒美なんだから、ちゃんとこっち見ててよね？<br>科学の方じゃなくて、ベリサの方っ♡,100201000G,vc_10020100003_058_01,chara_1
+message,ベリサ,But       but♡       This       is       my       reward，so       keep       your       eyes       on       me，<br>okay?       On       Verisa，not       the       science       stuff♡<br> ,100201000G,vc_10020100003_058_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -929,7 +929,7 @@ asyncseplay,setag1_56,se4800002,0,1,CONT,0
 asynccharaemo,chara_1,Heart,CONT,0
 
 
-message,ベリサ,今日はず〜〜っと一緒にいてあげる♡<br>おにーさんっ♡,100201000G,vc_10020100003_059_01,chara_1
+message,ベリサ,I'll       be       with       you       the       who~~le       day♡<br>Onii-san♡<br> ,100201000G,vc_10020100003_059_01,chara_1
 
 window,off
 bgmstop,bgmtag1_3,0.5
