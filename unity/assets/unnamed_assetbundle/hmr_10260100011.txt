@@ -45,7 +45,7 @@ asynccharareaction,chara_1,nod,1,CONT
 asynccharaface,chara_1,EyeOpen,STOP,4
 asynccharaface,chara_1,FaceNormal,STOP,4
 
-message,シルヴィア,<size=28>Oh，dear brother，perfect timing.                                     <br><size=28>What is this splendid building?<br> ,,vc_10260100011_001_01
+message,シルヴィア,<size=28>Oh，Onii-sama，perfect timing.                                        <br><size=28>What is this splendid building?<br> ,,vc_10260100011_001_01
 
 message,<user>,<size=28>This place? It's called a brothel — the most popular entertainment  <br><size=28>venue on this base.<br> 
 
@@ -65,7 +65,7 @@ charaface,chara_1,FaceFun
 asynccharareaction,chara_1,Nod,0.5,STOP
 
 asynccharaface,chara_1,FaceHappy,STOP,5.5
-message,シルヴィア,<size=28>I saw some artwork I had my eye on being carried into this building.<br><size=28>That's why I was curious.<br> ,,vc_10260100011_003_01
+message,シルヴィア,<size=28>I saw some artwork I had my eye on being carried into this building.<br><size=28>That is why I was curious.<br> ,,vc_10260100011_003_01
 
 charaface,chara_1,FaceFun
 
@@ -133,7 +133,7 @@ charaemo,chara_1,Silence
 charaface,chara_1,FaceUnique01
 
 asynccharareaction,chara_1,Nod,0.5,CONT
-message,シルヴィア,<size=28>...I suppose so.                                                    <br><size=28>If it's just trying them on...<br> ,,vc_10260100011_010_01
+message,シルヴィア,<size=28>...I suppose so.                                                    <br><size=28>If it is just trying them on...<br> ,,vc_10260100011_010_01
 
 asyncskipwait
 
@@ -185,7 +185,7 @@ fade,In,White,1
 charaface,chara_2,FaceUnique02
 
 window,on,0.15
-message,シルヴィア<娼館>,<size=28>Th-this outfit... It's quite lovely and cute，but...                 <br><size=28>Don't you think it shows a bit too much skin...?<br> ,,vc_10260100011_011_01
+message,シルヴィア<娼館>,<size=28>Th-this outfit... It is quite lovely and cute，but...                <br><size=28>Does it not show a bit too much skin...?<br> ,,vc_10260100011_011_01
 
 charafocuson,chara_2
 
@@ -203,7 +203,7 @@ charafocuson,chara_2
 message,ルディア,<size=28>Hmm... Rather than explaining with words，why not experience it      <br><size=28>firsthand? The Commander happens to be right here.<br> ,,vc_10260100011_014_01,chara_2
 
 charaface,chara_2,FaceShy
-message,シルヴィア<娼館>,<size=28>Dear brother...?<br> ,,vc_10260100011_015_01
+message,シルヴィア<娼館>,<size=28>Onii-sama...?<br> ,,vc_10260100011_015_01
 
 charafocuson,chara_2
 
@@ -268,7 +268,7 @@ asyncseplay,setag1_10,se4800007,0,1,CONT
 asynccharaemo,chara_1,Panic,STOP
 
 asynccharaface,chara_2,FaceHappy,STOP,6
-message,シルヴィア<娼館>,<size=28>W-well，of course. I don't quite understand what it involves... but  <br><size=28>if you'll be my partner，dear brother.<br> ,,vc_10260100011_018_01
+message,シルヴィア<娼館>,<size=28>W-well，of course. I do not quite understand what it involves... but <br><size=28>if you shall be my partner，Onii-sama.<br> ,,vc_10260100011_018_01
 
 
 labeljump,b

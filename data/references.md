@@ -41,7 +41,7 @@ should sound:
 | 俺 (ore) | Casual masculine, confident | MC, bandits, Humanoid Calamity |
 | 私 (watashi) | Neutral/formal | Sophia, Felicione, Adelheid, Reyzeria |
 | わたし (watashi, kana) | Softer, feminine | Himari, Alicia |
-| あたし (atashi) | Casual feminine | Belisa |
+| あたし (atashi) | Casual feminine | Verisa |
 | アタシ (atashi, katakana) | Brash/quirky feminine | Logy, Girl with Glasses |
 | ワタシ (watashi, katakana) | Detached/artificial | Aura |
 | 僕 (boku) | Soft masculine/boyish | — |
@@ -178,7 +178,7 @@ roster is listed below.
 | フレデリカ | Frederica | Female | |
 | ヘイリー | Hailey | Female | |
 | ベティ | Betty | Female | |
-| ベリサ | Belisa | Female | [Profile](#belisa-ベリサ) |
+| ベリサ | Verisa | Female | [Profile](#verisa-ベリサ) |
 | ホノカ | Honoka | Female | |
 | マニョリア | Magnolia | Female | |
 | マリナ | Marina | Female | [Profile](#marina-マリナ) |
@@ -216,13 +216,13 @@ roster is listed below.
 
 ## 4. Detailed Character Profiles
 
-### Belisa (ベリサ)
+### Verisa (ベリサ)
 - **Pronoun:** あたし (atashi) — casual feminine
 - **Addresses MC as:** おにーさん → **"Onii-san"** (flirty, familiar)
 - **Role:** Core party member, self-styled genius mage
 - **Speech style:** Playful, teasing, gyaru-adjacent. Heavy use of elongated
   vowels (～), ♡ and ♪ at sentence ends. Often bratty or dramatic — refers to
-  herself in third person as "Belisa-chan" when hamming it up. Uses casual
+  herself in third person as "Verisa-chan" when hamming it up. Uses casual
   contractions and slang: じゃん, よぉ～, でしょ. Can swing from whiny
   (つ～か～れたぁ～) to fired up (全員ぶっとば～～す！！) in an instant.
 - **Translation notes:**
@@ -231,7 +231,7 @@ roster is listed below.
   - She teases but also has a caring side — don't flatten her into pure comic
     relief. Lines like 顔拭いてあげるから (wiping someone's face) should sound
     gentle, not sarcastic.
-  - Her self-aggrandizing moments ("the genius mage Belisa-chan") should sound
+  - Her self-aggrandizing moments ("the genius mage Verisa-chan") should sound
     playfully over-the-top, not genuinely arrogant.
 
 ### Sophia (ソフィア)
@@ -450,7 +450,7 @@ roster is listed below.
     stakes), she's sincere and unguarded — no composure mask. Let it be
     direct and a little raw: "I'm sorry. I had no idea, and I forced
     you to... I looked into it, and I regretted it so much..."
-  - She uses ～ and っ occasionally but sparingly compared to Belisa or
+  - She uses ～ and っ occasionally but sparingly compared to Verisa or
     Marina — she's expressive but not over-the-top.
 
 ### Logy (ロジー)
