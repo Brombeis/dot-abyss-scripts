@@ -54,7 +54,10 @@ should sound:
   (`common._comma_safe()`) automatically converts ASCII commas to fullwidth `，`
   when producing the final `.txt` output. Do not count the space after a comma
   toward the line length limit.
-- Preserve special tokens: `<user>`, `<br>`, `<size=N>...</size>`.
+- Preserve special tokens: `<br>`, `<size=N>...</size>`.
+- **Do not use `<user>`.** The `<user>` placeholder (player-name substitution)
+  crashes the game. When the original Japanese line contains `<user>`, rephrase
+  the translation to use "Commander" instead.
 - Preserve symbols: `♪`, `♥`, `♡`, `～`, etc.
 
 ### Line Length Limits
