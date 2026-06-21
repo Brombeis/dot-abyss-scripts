@@ -56,7 +56,7 @@ asyncshake,CHARA,chara_8,12,0,0.6,5,off,off,0,on,CONT,0
 wait,0.5
 
 window,on,0.15
-message,砂嵐の厄災,<size=28>Grrroooarrr...rrr，rrr...<br> ,900000002
+message,砂嵐の厄災,Grrroooarrr...rrr，rrr...<br> ,900000002
 
 window,off
 wait,0.15
@@ -102,11 +102,11 @@ wait,1
 asyncseplay,se1_1001,se4600010,0,1,CONT,0
 
 window,on,0.15
-message,一同,<size=28>We did iiiiiiiiiiiit!!!!!!<br> ,900000001,mcv_1001011001_001_01,
+message,一同,We       did       iiiiiiiiiiiit!!!!!!<br> ,900000001,mcv_1001011001_001_01,
 
 bgmplay,bgmtag1_1,bgm0038,0.75,1
 
-message,,<size=28>The base erupted into celebration. Explorers who had won            <br><size=28>launched a storm of hugs，high-fives，and shoulder-hoisting.<br> 
+message,,The       base       erupted       into       celebration.       Explorers       who       had       won<br>launched       a       storm       of       hugs，high-fives，and       shoulder-hoisting.<br> 
 
 window,off
 wait,0.15
@@ -116,7 +116,7 @@ charafocusonall
 sestop,se1_1001,1.5
 
 window,on,0.15
-message,<user>,<size=28>Everyone...you did so well.                                         <br><size=28>I'm truly glad you're all safe...!<br> 
+message,<user>,Everyone...you       did       so       well.<br>I'm       truly       glad       you're       all       safe...!<br> 
 
 window,off
 wait,0.15
@@ -166,7 +166,7 @@ asynccharaemo,chara_2,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=28>Onii-san，yeahhh☆<br> ,100201000G,mcv_1001011001_002_01,chara_2
+message,ベリサ,Onii-san，yeahhh☆<br> ,100201000G,mcv_1001011001_002_01,chara_2
 
 window,off
 wait,0.15
@@ -184,7 +184,7 @@ asyncseplay,setag1_4,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 window,on,0.15
-message,,<size=28>Verisa held out her palm，                                           <br><size=28>and he slapped it back with a satisfying smack.<br> 
+message,,Verisa       held       out       her       palm，<br>and       he       slapped       it       back       with       a       satisfying       smack.<br> 
 
 window,off
 wait,0.15
@@ -221,7 +221,7 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=28>Master，me too~♡<br> ,100301000G,mcv_1001011001_003_01,chara_3
+message,マリナ,Master，me       too~♡<br> ,100301000G,mcv_1001011001_003_01,chara_3
 
 window,off
 wait,0.15
@@ -259,7 +259,7 @@ asyncseplay,setag1_7,se4800013,0,1,CONT,0
 asynccharaemo,chara_3,Spirits,CONT,0
 
 window,on,0.15
-message,,<size=28>——Smack!<br> 
+message,,——Smack!<br> 
 
 window,off
 wait,0.15
@@ -296,11 +296,11 @@ asynccharaemo,chara_4,Panic,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=28>...<br> ,106501000G,mcv_1001011001_004_01,chara_4
+message,ソフィア,...<br> ,106501000G,mcv_1001011001_004_01,chara_4
 
-message,<user>,<size=28>Sophia too，come on.<br> 
+message,<user>,Sophia       too，come       on.<br> 
 
-message,,<size=28>Saying that，he raised his palm toward Sophia.<br> 
+message,,Saying       that，he       raised       his       palm       toward       Sophia.<br> 
 
 asynccharaface,chara_4,FaceShy,CONT,0
 
@@ -311,7 +311,7 @@ asyncseplay,setag1_9,se4800008,0,1,CONT,0
 asynccharaemo,chara_4,Sweat,CONT,0
 
 
-message,ソフィア,<size=28>...Hmph.<br> ,106501000G,mcv_1001011001_005_01,chara_4
+message,ソフィア,...Hmph.<br> ,106501000G,mcv_1001011001_005_01,chara_4
 
 window,off
 wait,0.15
@@ -350,7 +350,7 @@ asyncseplay,setag1_11,se4800012,0,1,CONT,0
 asynccharaemo,chara_4,Shy,CONT,0
 
 window,on,0.15
-message,,<size=28>——Smack!<br> 
+message,,——Smack!<br> 
 
 window,off
 wait,0.15
@@ -405,7 +405,7 @@ asynccharaemo,chara_5,Speak,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,<size=28>Everyone. Pardon the interruption of your                           <br><size=28>public displays of mixed-gender affection.<br> ,108701000G,mcv_1001011001_006_01,chara_5
+message,アーデルハイト,Everyone.       Pardon       the       interruption       of       your<br>public       displays       of       mixed-gender       affection.<br> ,108701000G,mcv_1001011001_006_01,chara_5
 
 asyncjump,CHARA,chara_4,30,0.25,1,off,0,CONT
 
@@ -414,7 +414,7 @@ asyncseplay,setag1_13,se4800007,0,1,CONT,0
 asynccharaemo,chara_4,Panic,CONT,0
 
 
-message,ソフィア,<size=28>What 'affection'!                                                   <br><size=28>We were just high-fiving!<br> ,106501000G,mcv_1001011001_007_01,chara_4
+message,ソフィア,What       'affection'!<br>We       were       just       high-fiving!<br> ,106501000G,mcv_1001011001_007_01,chara_4
 
 window,off
 wait,0.15
@@ -457,7 +457,7 @@ asynccharaemo,chara_6,Anger,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=28>Adelheid!                                                           <br><size=28>Don't ruin everyone's victory mood!<br> ,300501000,mcv_1001011001_008_01,chara_6
+message,シエナ,Adelheid!<br>Don't       ruin       everyone's       victory       mood!<br> ,300501000,mcv_1001011001_008_01,chara_6
 
 window,off
 wait,0.15
@@ -515,7 +515,7 @@ asynccharaemo,chara_5,Speak,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,<size=28>Yes. My apologies.<br> ,108701000G,mcv_1001011001_009_01,chara_5
+message,アーデルハイト,Yes.       My       apologies.<br> ,108701000G,mcv_1001011001_009_01,chara_5
 
 window,off
 wait,0.15
@@ -564,9 +564,9 @@ asynccharaemo,chara_6,Twinkle,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=28>Everyone，truly，well done.                                           <br><size=28>I'm glad Adelheid's defensive equipment was of some use.<br> ,300501000,mcv_1001011001_010_01,chara_6
+message,シエナ,Everyone，truly，well       done.<br>I'm       glad       Adelheid's       defensive       equipment       was       of       some       use.<br> ,300501000,mcv_1001011001_010_01,chara_6
 
-message,<user>,<size=28>Some use?! Without that defensive equipment                         <br><size=28>we'd all be...<br> 
+message,<user>,Some       use?!       Without       that       defensive       equipment<br>we'd       all       be...<br> 
 
 window,off
 wait,0.15
@@ -631,7 +631,7 @@ asynccharaemo,chara_2,Dull,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=28>Hit with so much petrification magic from the Sandstorm，            <br><size=28>we'd all be statues by now~.<br> ,100201000G,mcv_1001011001_011_01,chara_2
+message,ベリサ,Hit       with       so       much       petrification       magic       from       the       Sandstorm，<br>we'd       all       be       statues       by       now~.<br> ,100201000G,mcv_1001011001_011_01,chara_2
 
 window,off
 wait,0.15
@@ -694,9 +694,9 @@ asynccharaemo,chara_6,Laugh,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=28>Repelling the Calamity safely was thanks to everyone's              <br><size=28>cooperation. Truly，well done.<br> ,300501000,mcv_1001011001_012_01,chara_6
+message,シエナ,Repelling       the       Calamity       safely       was       thanks       to       everyone's<br>cooperation.       Truly，well       done.<br> ,300501000,mcv_1001011001_012_01,chara_6
 
-message,<user>,<size=28>Agreed.                                                             <br><size=28>This is an achievement earned by every soldier here.<br> 
+message,<user>,Agreed.<br>This       is       an       achievement       earned       by       every       soldier       here.<br> 
 
 asynccharaface,chara_6,FaceFun,CONT,0
 
@@ -707,15 +707,15 @@ asyncseplay,setag1_21,se4800022,0,1,CONT,0
 asynccharaemo,chara_6,Speak,CONT,0
 
 
-message,シエナ,<size=28>In any case，this makes things easier for us to operate.             <br><size=28>I'm very glad the outcome was positive for both sides.<br> ,300501000,mcv_1001011001_013_01,chara_6
+message,シエナ,In       any       case，this       makes       things       easier       for       us       to       operate.<br>I'm       very       glad       the       outcome       was       positive       for       both       sides.<br> ,300501000,mcv_1001011001_013_01,chara_6
 
-message,<user>,<size=28>I look forward to continued cooperation.<br> 
+message,<user>,I       look       forward       to       continued       cooperation.<br> 
 
 asynccharaface,chara_6,FaceSad,CONT,0
 
 asyncshake,CHARA,chara_6,20,0,0.5,1,off,off,0,off,CONT,0
 
-message,,<size=28>Saying that，he extended his hand， but Shiena declined the handshake <br><size=28>with a slightly troubled expression.<br> 
+message,,Saying       that，he       extended       his       hand，       but       Shiena       declined       the       handshake<br>with       a       slightly       troubled       expression.<br> 
 
 window,off
 wait,0.15
@@ -735,9 +735,9 @@ wait,0.5
 
 
 window,on,0.15
-message,シエナ,<size=28>Please use Adelheid's lab freely for the base's defense.            <br><size=28>But Lux Nova can't offer full cooperation just yet...<br> ,300501000,mcv_1001011001_014_01,chara_6
+message,シエナ,Please       use       Adelheid's       lab       freely       for       the       base's       defense.<br>But       Lux       Nova       can't       offer       full       cooperation       just       yet...<br> ,300501000,mcv_1001011001_014_01,chara_6
 
-message,<user>,<size=28>I see. Sounds like you have your own special circumstances.<br> 
+message,<user>,I       see.       Sounds       like       you       have       your       own       special       circumstances.<br> 
 
 asynccharaface,chara_6,EyeOpen,CONT,0
 asynccharaface,chara_6,FaceNormal,CONT,0
@@ -749,9 +749,9 @@ asyncseplay,setag1_23,se4800008,0,1,CONT,0
 asynccharaemo,chara_6,Sweat,CONT,0
 
 
-message,シエナ,<size=28>Yes. I'm sorry.                                                     <br><size=28>When we're able to talk，we'll share everything then...<br> ,300501000,mcv_1001011001_015_01,chara_6
+message,シエナ,Yes.       I'm       sorry.<br>When       we're       able       to       talk，we'll       share       everything       then...<br> ,300501000,mcv_1001011001_015_01,chara_6
 
-message,<user>,<size=28>Understood. When you're ready to talk，                              <br><size=28>tell us then. That's good enough.<br> 
+message,<user>,Understood.       When       you're       ready       to       talk，<br>tell       us       then.       That's       good       enough.<br> 
 
 asynccharaface,chara_6,FaceSurprise,STOP,1.43
 
@@ -761,9 +761,9 @@ asyncseplay,setag1_24,se4800017,0,1,STOP,1.43
 
 asynccharaemo,chara_6,Shock,STOP,1.43
 
-message,？？？,<size=28>————Commander~!!!!<br> ,900000001,mcv_1001011001_016_01,
+message,？？？,————Commander~!!!!<br> ,900000001,mcv_1001011001_016_01,
 
-message,<user>,<size=28>That voice...<br> 
+message,<user>,That       voice...<br> 
 
 window,off
 wait,0.15
@@ -812,9 +812,9 @@ asynccharaemo,chara_7,Panic,CONT,0
 
 
 window,on,0.15
-message,アリシア,<size=28>Commander~!!　This is incredible!                                    <br><size=28>So incredibly incredible—it's truly truly incredibly incredible!<br> ,300201000,mcv_1001011001_017_01,chara_7
+message,アリシア,Commander~!!　This       is       incredible!<br>So       incredibly       incredible—it's       truly       truly       incredibly       incredible!<br> ,300201000,mcv_1001011001_017_01,chara_7
 
-message,<user>,<size=28>Calm down，calm down!                                                <br><size=28>Come on，no need to cry!<br> 
+message,<user>,Calm       down，calm       down!<br>Come       on，no       need       to       cry!<br> 
 
 asynccharaface,chara_7,FaceUnique04,CONT,0
 
@@ -825,7 +825,7 @@ asyncseplay,setag1_27,se4800016,0,1,CONT,0
 asynccharaemo,chara_7,BePeevish,CONT,0
 
 
-message,アリシア,<size=28>H-how could anyone possibly calm down...!                           <br><size=28>Because the Calamity—you defeated another Calamity!?<br> ,300201000,mcv_1001011001_018_01,chara_7
+message,アリシア,H-how       could       anyone       possibly       calm       down...!<br>Because       the       Calamity—you       defeated       another       Calamity!?<br> ,300201000,mcv_1001011001_018_01,chara_7
 
 asynccharaface,chara_7,FaceUnique07,CONT,0
 
@@ -836,7 +836,7 @@ asyncseplay,setag1_28,se4800019,0,1,CONT,0
 asynccharaemo,chara_7,Elated,CONT,0
 
 
-message,アリシア,<size=28>This calls for a party!                                             <br><size=28>Let's throw a grand party!<br> ,300201000,mcv_1001011001_019_01,chara_7
+message,アリシア,This       calls       for       a       party!<br>Let's       throw       a       grand       party!<br> ,300201000,mcv_1001011001_019_01,chara_7
 
 window,off
 wait,0.15
@@ -879,7 +879,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=28>Oh?                                                                 <br><size=28>Deputy Commander，are you throwing us a party?<br> ,100201000G,mcv_1001011001_020_01,chara_2
+message,ベリサ,Oh?<br>Deputy       Commander，are       you       throwing       us       a       party?<br> ,100201000G,mcv_1001011001_020_01,chara_2
 
 window,off
 wait,0.15
@@ -928,7 +928,7 @@ asynccharaemo,chara_7,Twinkle,CONT,0
 
 
 window,on,0.15
-message,アリシア,<size=28>Let's do it!　Tonight is a celebration!                              <br><size=28>Eat，drink，sing，dance，go wild— anything goes~!<br> ,300201000,mcv_1001011001_021_01,chara_7
+message,アリシア,Let's       do       it!　Tonight       is       a       celebration!<br>Eat，drink，sing，dance，go       wild—       anything       goes~!<br> ,300201000,mcv_1001011001_021_01,chara_7
 
 window,off
 wait,0.15
@@ -960,9 +960,9 @@ waitorclick,0.8
 asyncseplay,se1_1003,se4600010,0,1,CONT,0
 
 window,on,0.15
-message,一同,<size=28>YEAHHHHH!!<br> ,900000001,mcv_1001011001_022_01,
+message,一同,YEAHHHHH!!<br> ,900000001,mcv_1001011001_022_01,
 
-message,,<size=28>A roaring cheer went up from the explorers                          <br><size=28>who had defended the frontline base!<br> 
+message,,A       roaring       cheer       went       up       from       the       explorers<br>who       had       defended       the       frontline       base!<br> 
 
 window,off
 wait,0.15
@@ -1007,7 +1007,7 @@ asynccharaemo,chara_7,Laugh,CONT,0
 
 
 window,on,0.15
-message,アリシア,<size=28>...Oh，but we haven't prepared yet，                                  <br><size=28>so let's all pitch in! First—the entrance fee!<br> ,300201000,mcv_1001011001_023_01,chara_7
+message,アリシア,...Oh，but       we       haven't       prepared       yet，<br>so       let's       all       pitch       in!       First—the       entrance       fee!<br> ,300201000,mcv_1001011001_023_01,chara_7
 
 window,off
 wait,0.15
@@ -1017,7 +1017,7 @@ charafocusonall
 asyncseplay,se1_1005,se4600005,0,1,CONT,0
 
 window,on,0.15
-message,一同,<size=28>Yeaaaaaaah...yeah???<br> ,900000001,mcv_1001011001_024_01,
+message,一同,Yeaaaaaaah...yeah???<br> ,900000001,mcv_1001011001_024_01,
 
 window,off
 wait,0.15
@@ -1036,7 +1036,7 @@ asynccharaemo,chara_7,Twinkle,CONT,0
 
 
 window,on,0.15
-message,アリシア,<size=28>Alright，let's all liven things up!                                  <br><size=28>We've got a busy night ahead!<br> ,300201000,mcv_1001011001_025_01,chara_7
+message,アリシア,Alright，let's       all       liven       things       up!<br>We've       got       a       busy       night       ahead!<br> ,300201000,mcv_1001011001_025_01,chara_7
 
 window,off
 wait,0.15
@@ -1070,11 +1070,11 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,,<size=28>Leaving everyone in utter bewilderment，Alicia ran off toward the    <br><size=28>tavern.<br> 
+message,,Leaving       everyone       in       utter       bewilderment，Alicia       ran       off       toward       the<br>tavern.<br> 
 
-message,<user>,<size=28>What a noisy one she is.<br> 
+message,<user>,What       a       noisy       one       she       is.<br> 
 
-message,<user>,<size=28>...But it might be the first time                                   <br><size=28>I've ever seen Alicia smile like that—so happily.<br> 
+message,<user>,...But       it       might       be       the       first       time<br>I've       ever       seen       Alicia       smile       like       that—so       happily.<br> 
 
 
 window,off
@@ -1114,17 +1114,17 @@ waitorclick,2.5
 
 
 window,on,0.15
-message,,<size=28>As he stood alone on the terrace taking in the cool night breeze，   <br><size=28>a swaying silhouette drew near.<br> 
+message,,As       he       stood       alone       on       the       terrace       taking       in       the       cool       night       breeze，<br>a       swaying       silhouette       drew       near.<br> 
 
-message,アリシア,<size=28>Hehehe~♡　Commanderrr?                                               <br><size=28>Having a drinkypoo~?<br> ,300201000,mcv_1001011001_026_01,
+message,アリシア,Hehehe~♡　Commanderrr?<br>Having       a       drinkypoo~?<br> ,300201000,mcv_1001011001_026_01,
 
-message,<user>,<size=28>Alicia...you've been drinking?<br> 
+message,<user>,Alicia...you've       been       drinking?<br> 
 
-message,アリシア,<size=28>I haven't been drinking~.                                           <br><size=28>I'm a juice-only gal~♡<br> ,300201000,mcv_1001011001_027_01,
+message,アリシア,I       haven't       been       drinking~.<br>I'm       a       juice-only       gal~♡<br> ,300201000,mcv_1001011001_027_01,
 
-message,<user>,<size=28>Getting this drunk on the atmosphere alone takes talent...<br> 
+message,<user>,Getting       this       drunk       on       the       atmosphere       alone       takes       talent...<br> 
 
-message,,<size=28>After a while in the night breeze，                                  <br><size=28>even Alicia seemed to settle down.<br> 
+message,,After       a       while       in       the       night       breeze，<br>even       Alicia       seemed       to       settle       down.<br> 
 
 
 

@@ -64,9 +64,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=28>Hah，hah...we somehow wiped them all out.<br> ,106501000G,mcv_1001020602_001_01,chara_1
+message,ソフィア,Hah，hah...we       somehow       wiped       them       all       out.<br> ,106501000G,mcv_1001020602_001_01,chara_1
 
-message,<user>,<size=28>You all did great!<br> 
+message,<user>,You       all       did       great!<br> 
 
 window,off
 wait,0.15
@@ -111,7 +111,7 @@ asynccharaemo,chara_2,Spirits,CONT,0
 
 
 window,on,0.15
-message,クルル,<size=28>Ehehe~! Kururu did her best too!<br> ,106701000G,mcv_1001020602_002_01,chara_2
+message,クルル,Ehehe~!       Kururu       did       her       best       too!<br> ,106701000G,mcv_1001020602_002_01,chara_2
 
 asyncshake,CHARA,chara_3,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -120,7 +120,7 @@ asyncseplay,setag2_3,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,ベリサ,<size=28>A-are we okay? The avalanche...                                     <br><size=28>I feel like we were pretty hectic during that fight...<br> ,100201000G,mcv_1001020602_003_01,chara_3
+message,ベリサ,A-are       we       okay?       The       avalanche...<br>I       feel       like       we       were       pretty       hectic       during       that       fight...<br> ,100201000G,mcv_1001020602_003_01,chara_3
 
 asyncshake,CHARA,chara_4,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -129,9 +129,9 @@ asyncseplay,setag2_4,se4800007,0,1,CONT,0
 asynccharaemo,chara_4,Panic,CONT,0
 
 
-message,マリナ,<size=28>W-well~...                                                          <br><size=28>Right now，it seems fine~.<br> ,100301000G,mcv_1001020602_004_01,chara_4
+message,マリナ,W-well~...<br>Right       now，it       seems       fine~.<br> ,100301000G,mcv_1001020602_004_01,chara_4
 
-message,<user>,<size=28>There's still a chance one hits with a time delay.                  <br><size=28>Should we wait and see for a bit before moving on?<br> 
+message,<user>,There's       still       a       chance       one       hits       with       a       time       delay.<br>Should       we       wait       and       see       for       a       bit       before       moving       on?<br> 
 
 window,off
 wait,0.15
@@ -205,7 +205,7 @@ asyncfade,In,Black,1,STOP,1
 waitorclick,2.5
 
 window,on,0.15
-message,,<size=28>The party braced themselves with tense expressions，                 <br><size=28>but fortunately，nothing happened.<br> 
+message,,The       party       braced       themselves       with       tense       expressions，<br>but       fortunately，nothing       happened.<br> 
 
 window,off
 wait,0.15
@@ -254,7 +254,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=28>S-so，are we okay?                                                   <br><size=28>Can we move on now?<br> ,106501000G,mcv_1001020602_005_01,chara_1
+message,ソフィア,S-so，are       we       okay?<br>Can       we       move       on       now?<br> ,106501000G,mcv_1001020602_005_01,chara_1
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -265,7 +265,7 @@ asyncseplay,setag2_6,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,クルル,<size=28>Nothing's happening.<br> ,106701000G,mcv_1001020602_006_01,chara_2
+message,クルル,Nothing's       happening.<br> ,106701000G,mcv_1001020602_006_01,chara_2
 
 window,off
 wait,0.15
@@ -325,7 +325,7 @@ asynccharaemo,chara_4,Twinkle,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=28>Thank goodness~.<br> ,100301000G,mcv_1001020602_007_01,chara_4
+message,マリナ,Thank       goodness~.<br> ,100301000G,mcv_1001020602_007_01,chara_4
 
 asynccharaface,chara_3,FaceUnique02,CONT,0
 
@@ -336,7 +336,7 @@ asyncseplay,setag2_8,se4800013,0,1,CONT,0
 asynccharaemo,chara_3,Spirits,CONT,0
 
 
-message,ベリサ,<size=28>What do you know，it was fine after all!                             <br><size=28>All that worrying for nothing~.<br> ,100201000G,mcv_1001020602_008_01,chara_3
+message,ベリサ,What       do       you       know，it       was       fine       after       all!<br>All       that       worrying       for       nothing~.<br> ,100201000G,mcv_1001020602_008_01,chara_3
 
 window,off
 wait,0.15
@@ -366,7 +366,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,,<size=28>And exhaling with relief at that very moment——<br> 
+message,,And       exhaling       with       relief       at       that       very       moment——<br> 
 
 window,off
 wait,0.15
@@ -376,7 +376,7 @@ charafocusonall
 asyncseplay,setag2_9,se4900002,0,1,CONT,0
 
 window,on,0.15
-message,,<size=28>BOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOM!!<br> 
+message,,BOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOM!!<br> 
 
 window,off
 wait,0.15
@@ -417,7 +417,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=28>Wh-what!? What was that explosion!?<br> ,106501000G,mcv_1001020602_009_01,chara_1
+message,ソフィア,Wh-what!?       What       was       that       explosion!?<br> ,106501000G,mcv_1001020602_009_01,chara_1
 
 window,off
 wait,0.15
@@ -470,7 +470,7 @@ asynccharaemo,chara_4,Panic,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=28>It's from the layer below~...<br> ,100301000G,mcv_1001020602_010_01,chara_4
+message,マリナ,It's       from       the       layer       below~...<br> ,100301000G,mcv_1001020602_010_01,chara_4
 
 window,off
 wait,0.15
@@ -506,9 +506,9 @@ waitorclick,0.8
 prefabshowAll,alleffect_0,Roar/Prefabs/NovelEF_Roar
 
 window,on,0.15
-message,？？？,<size=28>GRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!!<br> ,900000002
+message,？？？,GRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!!<br> ,900000002
 
-message,,<size=28>Following the explosion，a roar of equal or greater magnitude        <br><size=28>from something out there shook the entire Abyss.<br> 
+message,,Following       the       explosion，a       roar       of       equal       or       greater       magnitude<br>from       something       out       there       shook       the       entire       Abyss.<br> 
 
 window,off
 wait,0.15
@@ -559,7 +559,7 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=28>What is it? What is it? WHAT IS IT~~~!?<br> ,100201000G,mcv_1001020602_011_01,chara_3
+message,ベリサ,What       is       it?       What       is       it?       WHAT       IS       IT~~~!?<br> ,100201000G,mcv_1001020602_011_01,chara_3
 
 asyncjump,CHARA,chara_2,40,0.5,2,off,0,CONT
 
@@ -568,9 +568,9 @@ asyncseplay,setag2_13,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,クルル,<size=28>Earthquake~~~~!                                                     <br><size=28>Kururu hates earthquakes~~~~!<br> ,106701000G,mcv_1001020602_012_01,chara_2
+message,クルル,Earthquake~~~~!<br>Kururu       hates       earthquakes~~~~!<br> ,106701000G,mcv_1001020602_012_01,chara_2
 
-message,<user>,<size=28>Even I know this is bad! E-everyone，take cover!!                    <br><size=28>R-RUN!!<br> 
+message,<user>,Even       I       know       this       is       bad!       E-everyone，take       cover!!<br>R-RUN!!<br> 
 
 window,off
 wait,0.15
@@ -631,7 +631,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=28>You don't have to tell me twice!!<br> ,106501000G,mcv_1001020602_013_01,chara_1/chara_4
+message,ソフィア,You       don't       have       to       tell       me       twice!!<br> ,106501000G,mcv_1001020602_013_01,chara_1/chara_4
 
 window,off
 wait,0.15
@@ -698,7 +698,7 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=28>Eeeeek~~~!<br> ,100201000G,mcv_1001020602_014_01,chara_3/chara_2
+message,ベリサ,Eeeeek~~~!<br> ,100201000G,mcv_1001020602_014_01,chara_3/chara_2
 
 window,off
 wait,0.15
@@ -766,9 +766,9 @@ asynctransitionFade,Tra03,in,white,0.5,STOP,0.5
 waitorclick,1.5
 
 window,on,0.15
-message,<user>,<size=28>Pfah!!                                                              <br><size=28>I... thought I was going to die...<br> 
+message,<user>,Pfah!!<br>I...       thought       I       was       going       to       die...<br> 
 
-message,,<size=28>The Commander's face emerged above the snow.                        <br><size=28>And then...<br> 
+message,,The       Commander's       face       emerged       above       the       snow.<br>And       then...<br> 
 
 window,off
 wait,0.15
@@ -821,7 +821,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=28>Cough cough! D-dying... if this keeps up，I'm absolutely going to die<br><size=28>sooner or later...<br> ,106501000G,mcv_1001020602_015_01,chara_1
+message,ソフィア,Cough       cough!       D-dying...       if       this       keeps       up，I'm       absolutely       going       to       die<br>sooner       or       later...<br> ,106501000G,mcv_1001020602_015_01,chara_1
 
 window,off
 wait,0.15
@@ -870,7 +870,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,クルル,<size=28>Pbwahh! I couldn't breathe and it was so awful~!<br> ,106701000G,mcv_1001020602_016_01,chara_2
+message,クルル,Pbwahh!       I       couldn't       breathe       and       it       was       so       awful~!<br> ,106701000G,mcv_1001020602_016_01,chara_2
 
 window,off
 wait,0.15
@@ -921,9 +921,9 @@ asynccharaemo,chara_3,Anger,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=28>Hey，Onii-san!!                                                      <br><size=28>Preventing this is your job as Commander!! You useless Commander!!<br> ,100201000G,mcv_1001020602_017_01,chara_3
+message,ベリサ,Hey，Onii-san!!<br>Preventing       this       is       your       job       as       Commander!!       You       useless       Commander!!<br> ,100201000G,mcv_1001020602_017_01,chara_3
 
-message,<user>,<size=28>Don't ask the impossible...<br> 
+message,<user>,Don't       ask       the       impossible...<br> 
 
 window,off
 wait,0.15
@@ -989,9 +989,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=28>But what was that explosion...?<br> ,106501000G,mcv_1001020602_018_01,chara_1
+message,ソフィア,But       what       was       that       explosion...?<br> ,106501000G,mcv_1001020602_018_01,chara_1
 
-message,<user>,<size=28>No idea...... someone was probably fighting monsters below.         <br><size=28>Anyway—is everyone here? If you're missing，speak up.<br> 
+message,<user>,No       idea......       someone       was       probably       fighting       monsters       below.<br>Anyway—is       everyone       here?       If       you're       missing，speak       up.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1002,7 +1002,7 @@ asyncseplay,setag2_22,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ソフィア,<size=28>Such a classic joke at a time like this...<br> ,106501000G,mcv_1001020602_019_01,chara_1
+message,ソフィア,Such       a       classic       joke       at       a       time       like       this...<br> ,106501000G,mcv_1001020602_019_01,chara_1
 
 window,off
 wait,0.15
@@ -1079,7 +1079,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ベリサ,<size=28>...Onii-san，Marina isn't here.<br> ,100201000G,mcv_1001020602_020_01,chara_3
+message,ベリサ,...Onii-san，Marina       isn't       here.<br> ,100201000G,mcv_1001020602_020_01,chara_3
 
 window,off
 wait,0.15
@@ -1107,7 +1107,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,<size=28>...                                                                 <br><size=28>S-search! We're searching through the snow!!<br> 
+message,<user>,...<br>S-search!       We're       searching       through       the       snow!!<br> 
 
 window,off
 bgmstop,bgmtag2_3,0.5

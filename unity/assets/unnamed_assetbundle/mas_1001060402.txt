@@ -56,7 +56,7 @@ wait,1
 bgmplay,bgmtag2_1,bgm0027,0.75,1
 
 window,on,0.15
-message,,<size=28>After saving the fainted bandits from the                           <br><size=28>monsters，the party tied them up with rope.<br> 
+message,,After       saving       the       fainted       bandits       from       the<br>monsters，the       party       tied       them       up       with       rope.<br> 
 
 window,off
 wait,0.15
@@ -95,7 +95,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,盗賊Ａ,<size=28>Ngh... h-huh!?<br> ,2028301,,chara_1
+message,盗賊Ａ,Ngh...       h-huh!?<br> ,2028301,,chara_1
 
 window,off
 wait,0.15
@@ -142,9 +142,9 @@ asynccharaemo,chara_2,Question,CONT,0
 
 
 window,on,0.15
-message,盗賊Ｂ,<size=28>Hm? What the—                                                       <br><size=28>W-wait? What happened to us!?<br> ,2028301,,chara_2
+message,盗賊Ｂ,Hm?       What       the—<br>W-wait?       What       happened       to       us!?<br> ,2028301,,chara_2
 
-message,<user>,<size=28>Finally awake.<br> 
+message,<user>,Finally       awake.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -155,7 +155,7 @@ asyncseplay,setag2_3,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,盗賊Ａ,<size=28>Y-you guys... from back then...!<br> ,2028301,,chara_1
+message,盗賊Ａ,Y-you       guys...       from       back       then...!<br> ,2028301,,chara_1
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -166,9 +166,9 @@ asyncseplay,setag2_4,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,盗賊Ｂ,<size=28>D-dammit... what the hell!?                                         <br><size=28>We're tied up and can't move!<br> ,2028301,,chara_2
+message,盗賊Ｂ,D-dammit...       what       the       hell!?<br>We're       tied       up       and       can't       move!<br> ,2028301,,chara_2
 
-message,<user>,<size=28>Nothing personal. I don't plan to harm you.                         <br><size=28>I just have some questions...<br> 
+message,<user>,Nothing       personal.       I       don't       plan       to       harm       you.<br>I       just       have       some       questions...<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -177,7 +177,7 @@ asyncseplay,setag2_5,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,盗賊Ａ,<size=28>Questions!?                                                         <br><size=28>We ain't telling you nothing!<br> ,2028301,,chara_1
+message,盗賊Ａ,Questions!?<br>We       ain't       telling       you       nothing!<br> ,2028301,,chara_1
 
 window,off
 wait,0.15
@@ -219,7 +219,7 @@ asynccharaemo,chara_3,Elated,CONT,0
 
 
 window,on,0.15
-message,ゴレイヌ,<size=28>Better spill everything before you get                              <br><size=28>hurt~ My fists pack a real punch~~!?<br> ,2037001,mcv_1001060402_001_01,chara_3
+message,ゴレイヌ,Better       spill       everything       before       you       get<br>hurt~       My       fists       pack       a       real       punch~~!?<br> ,2037001,mcv_1001060402_001_01,chara_3
 
 window,off
 wait,0.15
@@ -290,7 +290,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,盗賊Ｂ,<size=28>W-what is this hunk of metal!? It talks!?<br> ,2028301,,chara_2
+message,盗賊Ｂ,W-what       is       this       hunk       of       metal!?       It       talks!?<br> ,2028301,,chara_2
 
 window,off
 wait,0.15
@@ -331,7 +331,7 @@ asynccharaemo,chara_4,Anger,CONT,0
 
 
 window,on,0.15
-message,ロジー,<size=28>He's not a hunk of metal! He's Goleinu!                             <br><size=28>General-purpose intelligent neural unit!<br> ,2036001,mcv_1001060402_002_01,chara_4
+message,ロジー,He's       not       a       hunk       of       metal!       He's       Goleinu!<br>General-purpose       intelligent       neural       unit!<br> ,2036001,mcv_1001060402_002_01,chara_4
 
 window,off
 wait,0.15
@@ -388,7 +388,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,盗賊Ａ,<size=28>Huh!? What the hell is that!?<br> ,2028301,,chara_1
+message,盗賊Ａ,Huh!?       What       the       hell       is       that!?<br> ,2028301,,chara_1
 
 window,off
 wait,0.15
@@ -446,7 +446,7 @@ asynccharaemo,chara_4,Laugh,CONT,0
 
 
 window,on,0.15
-message,ロジー,<size=28>Just so you know，his punch goes through                             <br><size=28>steel~ Imagine taking one to the head~...<br> ,2036001,mcv_1001060402_003_01,chara_4
+message,ロジー,Just       so       you       know，his       punch       goes       through<br>steel~       Imagine       taking       one       to       the       head~...<br> ,2036001,mcv_1001060402_003_01,chara_4
 
 window,off
 wait,0.15
@@ -505,9 +505,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,盗賊Ａ,<size=28>You're totally planning to hurt us!<br> ,2028301,,chara_1
+message,盗賊Ａ,You're       totally       planning       to       hurt       us!<br> ,2028301,,chara_1
 
-message,<user>,<size=28>That's not my intention.                                            <br><size=28>But I can't control what they do.<br> 
+message,<user>,That's       not       my       intention.<br>But       I       can't       control       what       they       do.<br> 
 
 window,off
 wait,0.15
@@ -562,7 +562,7 @@ asynccharaemo,chara_3,Spirits,CONT,0
 
 
 window,on,0.15
-message,ゴレイヌ,<size=28>Depending on your answers，                                          <br><size=28>I might just bonk ya~~!?<br> ,2037001,mcv_1001060402_004_01,chara_3
+message,ゴレイヌ,Depending       on       your       answers，<br>I       might       just       bonk       ya~~!?<br> ,2037001,mcv_1001060402_004_01,chara_3
 
 window,off
 wait,0.15
@@ -622,7 +622,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,盗賊Ｂ,<size=28>O-okay，we get it!                                                   <br><size=28>We'll talk，we'll talk!<br> ,2028301,,chara_2
+message,盗賊Ｂ,O-okay，we       get       it!<br>We'll       talk，we'll       talk!<br> ,2028301,,chara_2
 
 window,off
 wait,0.15
@@ -671,7 +671,7 @@ asynccharaemo,chara_6,Dull,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=28>You know~，                                                          <br><size=28>Onii-san really suits the villain role...<br> ,100201000G,mcv_1001060402_005_01,chara_6
+message,ベリサ,You       know~，<br>Onii-san       really       suits       the       villain       role...<br> ,100201000G,mcv_1001060402_005_01,chara_6
 
 asynccharaface,chara_5,FaceSad,CONT,0
 
@@ -682,7 +682,7 @@ asyncseplay,setag2_17,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,ソフィア,<size=28>Y-yeah，can't argue with that...<br> ,106501000G,mcv_1001060402_006_01,chara_5
+message,ソフィア,Y-yeah，can't       argue       with       that...<br> ,106501000G,mcv_1001060402_006_01,chara_5
 
 window,off
 wait,0.15
@@ -738,7 +738,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,<size=28>First question.                                                     <br><size=28>Why are you on this level?<br> 
+message,<user>,First       question.<br>Why       are       you       on       this       level?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -749,7 +749,7 @@ asyncseplay,setag2_18,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,盗賊Ａ,<size=28>Why? We're looking for our Boss!                                    <br><size=28>After running into you guys，he vanished...<br> ,2028301,,chara_1
+message,盗賊Ａ,Why?       We're       looking       for       our       Boss!<br>After       running       into       you       guys，he       vanished...<br> ,2028301,,chara_1
 
 asyncshake,CHARA,chara_2,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -758,7 +758,7 @@ asyncseplay,setag2_19,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,盗賊Ｂ,<size=28>We thought he might be dead，                                        <br><size=28>but we couldn't find a body anywhere...<br> ,2028301,,chara_2
+message,盗賊Ｂ,We       thought       he       might       be       dead，<br>but       we       couldn't       find       a       body       anywhere...<br> ,2028301,,chara_2
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -767,7 +767,7 @@ asyncseplay,setag2_20,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,盗賊Ａ,<size=28>Then we saw that huge hole on the upper                             <br><size=28>level. We looked down and saw a light signal!<br> ,2028301,,chara_1
+message,盗賊Ａ,Then       we       saw       that       huge       hole       on       the       upper<br>level.       We       looked       down       and       saw       a       light       signal!<br> ,2028301,,chara_1
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -779,9 +779,9 @@ asyncseplay,setag2_21,se4800015,0,1,CONT,0
 asynccharaemo,chara_2,Dull,CONT,0
 
 
-message,盗賊Ｂ,<size=28>That's right. That signal is a code the                             <br><size=28>Boss invented. We figured he went alone.<br> ,2028301,,chara_2
+message,盗賊Ｂ,That's       right.       That       signal       is       a       code       the<br>Boss       invented.       We       figured       he       went       alone.<br> ,2028301,,chara_2
 
-message,<user>,<size=28>I see. First time on this level then?<br> 
+message,<user>,I       see.       First       time       on       this       level       then?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -793,7 +793,7 @@ asyncseplay,setag2_22,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,盗賊Ａ,<size=28>Yeah. That hole's insanely deep.                                    <br><size=28>Took a while to get a long enough rope.<br> ,2028301,,chara_1
+message,盗賊Ａ,Yeah.       That       hole's       insanely       deep.<br>Took       a       while       to       get       a       long       enough       rope.<br> ,2028301,,chara_1
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -804,7 +804,7 @@ asyncseplay,setag2_23,se4800001,0,1,CONT,0
 asynccharaemo,chara_2,Anger,CONT,0
 
 
-message,盗賊Ｂ,<size=28>The signal was calling us to rally.                                 <br><size=28>If the Boss is alive，we had to go no matter what!<br> ,2028301,,chara_2
+message,盗賊Ｂ,The       signal       was       calling       us       to       rally.<br>If       the       Boss       is       alive，we       had       to       go       no       matter       what!<br> ,2028301,,chara_2
 
 window,off
 wait,0.15
@@ -854,7 +854,7 @@ asynccharaemo,chara_8,Silence,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,<size=28>(I see...                                                           <br><size=28>He was really that loved by these people...)<br> ,106601000G,mcv_1001060402_007_01,chara_8
+message,ヒマリ,(I       see...<br>He       was       really       that       loved       by       these       people...)<br> ,106601000G,mcv_1001060402_007_01,chara_8
 
 window,off
 wait,0.15
@@ -905,7 +905,7 @@ asynccharaemo,chara_9,Sweat,CONT,0
 
 
 window,on,0.15
-message,クルル,<size=28>Hey... we shouldn't tell them，right?<br> ,106701000G,mcv_1001060402_008_01,chara_9
+message,クルル,Hey...       we       shouldn't       tell       them，right?<br> ,106701000G,mcv_1001060402_008_01,chara_9
 
 asynccharaface,chara_5,FaceSad,CONT,0
 
@@ -916,7 +916,7 @@ asyncseplay,setag2_26,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,ソフィア,<size=28>Right. Let's not say anything unnecessary.<br> ,106501000G,mcv_1001060402_009_01,chara_5
+message,ソフィア,Right.       Let's       not       say       anything       unnecessary.<br> ,106501000G,mcv_1001060402_009_01,chara_5
 
 asynccharaface,chara_9,FaceAnger,CONT,0
 
@@ -927,7 +927,7 @@ asyncseplay,setag2_27,se4800007,0,1,CONT,0
 asynccharaemo,chara_9,Panic,CONT,0
 
 
-message,クルル,<size=28>Okay... got it!<br> ,106701000G,mcv_1001060402_010_01,chara_9
+message,クルル,Okay...       got       it!<br> ,106701000G,mcv_1001060402_010_01,chara_9
 
 window,off
 wait,0.15
@@ -981,7 +981,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,<size=28>I understand you're looking for your Boss.                          <br><size=28>But why were you mining Hypnosis Stones then?<br> 
+message,<user>,I       understand       you're       looking       for       your       Boss.<br>But       why       were       you       mining       Hypnosis       Stones       then?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -992,7 +992,7 @@ asyncseplay,setag2_28,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,盗賊Ａ,<size=28>Th-that's... what's wrong with mining some                          <br><size=28>rocks!?<br> ,2028301,,chara_1
+message,盗賊Ａ,Th-that's...       what's       wrong       with       mining       some<br>rocks!?<br> ,2028301,,chara_1
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -1003,7 +1003,7 @@ asyncseplay,setag2_29,se4800001,0,1,CONT,0
 asynccharaemo,chara_2,Anger,CONT,0
 
 
-message,盗賊Ｂ,<size=28>We'd never seen a vein that huge before!                            <br><size=28>Of course we wanted to dig!<br> ,2028301,,chara_2
+message,盗賊Ｂ,We'd       never       seen       a       vein       that       huge       before!<br>Of       course       we       wanted       to       dig!<br> ,2028301,,chara_2
 
 window,off
 wait,0.15
@@ -1050,7 +1050,7 @@ asynccharaemo,chara_7,Sweat,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=28>Well，you all passed out right away though~...<br> ,100301000G,mcv_1001060402_011_01,chara_7
+message,マリナ,Well，you       all       passed       out       right       away       though~...<br> ,100301000G,mcv_1001060402_011_01,chara_7
 
 window,off
 wait,0.15
@@ -1107,7 +1107,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,盗賊Ａ,<size=28>We were shocked too...                                              <br><size=28>What even is that vein...?<br> ,2028301,,chara_1
+message,盗賊Ａ,We       were       shocked       too...<br>What       even       is       that       vein...?<br> ,2028301,,chara_1
 
 asyncshake,CHARA,chara_2,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1116,7 +1116,7 @@ asyncseplay,setag2_32,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,盗賊Ｂ,<size=28>Just touching it with a pick made me dizzy...<br> ,2028301,,chara_2
+message,盗賊Ｂ,Just       touching       it       with       a       pick       made       me       dizzy...<br> ,2028301,,chara_2
 
 window,off
 wait,0.15
@@ -1163,7 +1163,7 @@ asynccharaemo,chara_6,Trouble,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=28>With magic that powerful~...                                        <br><size=28>People with low resistance would faint instantly.<br> ,100201000G,mcv_1001060402_012_01,chara_6
+message,ベリサ,With       magic       that       powerful~...<br>People       with       low       resistance       would       faint       instantly.<br> ,100201000G,mcv_1001060402_012_01,chara_6
 
 window,off
 wait,0.15
@@ -1213,9 +1213,9 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,<size=28>We already have evidence.                                           <br><size=28>You're the ones selling Hypnosis Stones in Eldorana.<br> 
+message,<user>,We       already       have       evidence.<br>You're       the       ones       selling       Hypnosis       Stones       in       Eldorana.<br> 
 
-message,<user>,<size=28>What's your goal?                                                   <br><size=28>It's damaging Eldorana's economy and security.<br> 
+message,<user>,What's       your       goal?<br>It's       damaging       Eldorana's       economy       and       security.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1226,7 +1226,7 @@ asyncseplay,setag2_34,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,盗賊Ａ,<size=28>...It's to fund ourselves.                                          <br><size=28>We can't do anything without money.<br> ,2028301,,chara_1
+message,盗賊Ａ,...It's       to       fund       ourselves.<br>We       can't       do       anything       without       money.<br> ,2028301,,chara_1
 
 window,off
 wait,0.15
@@ -1273,7 +1273,7 @@ asynccharaemo,chara_7,BePeevish,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=28>S-so it really was you...                                           <br><size=28>The market is in chaos because of you!<br> ,100301000G,mcv_1001060402_013_01,chara_7
+message,マリナ,S-so       it       really       was       you...<br>The       market       is       in       chaos       because       of       you!<br> ,100301000G,mcv_1001060402_013_01,chara_7
 
 window,off
 wait,0.15
@@ -1327,7 +1327,7 @@ asynccharaemo,chara_3,Speak,CONT,0
 
 
 window,on,0.15
-message,ゴレイヌ,<size=28>Boss! Want me to give 'em a good smack?<br> ,2037001,mcv_1001060402_014_01,chara_3
+message,ゴレイヌ,Boss!       Want       me       to       give       'em       a       good       smack?<br> ,2037001,mcv_1001060402_014_01,chara_3
 
 window,off
 wait,0.15
@@ -1373,9 +1373,9 @@ asyncseplay,setag2_37,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 window,on,0.15
-message,盗賊Ａ,<size=28>Eek! We're being honest here!<br> ,2028301
+message,盗賊Ａ,Eek!       We're       being       honest       here!<br> ,2028301
 
-message,<user>,<size=28>Easy，Goleinu.                                                       <br><size=28>Next question.<br> 
+message,<user>,Easy，Goleinu.<br>Next       question.<br> 
 
 window,off
 wait,0.15
@@ -1432,15 +1432,15 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,盗賊Ｂ,<size=28>Give us a break already...<br> ,2028301,,chara_2
+message,盗賊Ｂ,Give       us       a       break       already...<br> ,2028301,,chara_2
 
-message,,<size=28>The bandits hung their heads as if resigned.                        <br><size=28>Everyone was sure their will to fight was gone. But...<br> 
+message,,The       bandits       hung       their       heads       as       if       resigned.<br>Everyone       was       sure       their       will       to       fight       was       gone.       But...<br> 
 
 bgmstop,bgmtag2_1,1.5,0
 
 asyncseplay,setag2_39,se4402004,0,1,CONT,0
 
-message,,<size=28>——*Slip.*<br> 
+message,,——*Slip.*<br> 
 
 window,off
 wait,0.15
@@ -1462,7 +1462,7 @@ asyncwait
 asyncseplay,setag2_40,se4000110,0,1,CONT,0
 
 window,on,0.15
-message,,<size=28>Suddenly，the bandits slipped free of                                <br><size=28>their bindings and sprang to their feet.<br> 
+message,,Suddenly，the       bandits       slipped       free       of<br>their       bindings       and       sprang       to       their       feet.<br> 
 
 window,off
 wait,0.15
@@ -1511,7 +1511,7 @@ asyncseplay,setag2_41,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 window,on,0.15
-message,盗賊Ａ,<size=28>We're done playing along!<br> ,2028301
+message,盗賊Ａ,We're       done       playing       along!<br> ,2028301
 
 window,off
 wait,0.15
@@ -1540,9 +1540,9 @@ shake,CHARA,chara_9,40,0,0.25,20,off,off,0
 asyncseplay,setag2_43,se4000106,0,1,CONT,0
 
 window,on,0.15
-message,,<size=28>The bandits body-slammed the Commander by surprise                  <br><size=28>and dashed through the gap to escape.<br> 
+message,,The       bandits       body-slammed       the       Commander       by       surprise<br>and       dashed       through       the       gap       to       escape.<br> 
 
-message,<user>,<size=28>Tch...! They got away!<br> 
+message,<user>,Tch...!       They       got       away!<br> 
 
 window,off
 wait,0.15
@@ -1591,7 +1591,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,盗賊Ｂ,<size=28>Hahaha! Caught you off guard~~!                                     <br><size=28>See ya~~!<br> ,2028301,,chara_2
+message,盗賊Ｂ,Hahaha!       Caught       you       off       guard~~!<br>See       ya~~!<br> ,2028301,,chara_2
 
 window,off
 wait,0.15
@@ -1660,7 +1660,7 @@ asynccharaemo,chara_7,Shock,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=28>Whaat~!? How did they escape the rope!?<br> ,100301000G,mcv_1001060402_015_01,chara_7
+message,マリナ,Whaat~!?       How       did       they       escape       the       rope!?<br> ,100301000G,mcv_1001060402_015_01,chara_7
 
 window,off
 wait,0.15
@@ -1713,9 +1713,9 @@ asynccharaemo,chara_9,Panic,CONT,0
 
 
 window,on,0.15
-message,クルル,<size=28>But Kururu tied them up real tight~?<br> ,106701000G,mcv_1001060402_016_01,chara_9
+message,クルル,But       Kururu       tied       them       up       real       tight~?<br> ,106701000G,mcv_1001060402_016_01,chara_9
 
-message,<user>,<size=28>Rope escape! Tch，bandits after all...<br> 
+message,<user>,Rope       escape!       Tch，bandits       after       all...<br> 
 
 window,off
 wait,0.15
@@ -1780,9 +1780,9 @@ asynccharaemo,chara_5,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=28>How are they so fast...?                                            <br><size=28>They're already that far away...<br> ,106501000G,mcv_1001060402_017_01,chara_5
+message,ソフィア,How       are       they       so       fast...?<br>They're       already       that       far       away...<br> ,106501000G,mcv_1001060402_017_01,chara_5
 
-message,<user>,<size=28>Damn it，after them!<br> 
+message,<user>,Damn       it，after       them!<br> 
 
 
 window,off
@@ -1823,7 +1823,7 @@ asynctransitionFade,Tra07,in,black,0.5,STOP,0.5
 waitorclick,1.5
 
 window,on,0.15
-message,,<size=28>The chase ended quickly. The escaped bandits                        <br><size=28>were crouching by the vein，heads in hands.<br> 
+message,,The       chase       ended       quickly.       The       escaped       bandits<br>were       crouching       by       the       vein，heads       in       hands.<br> 
 
 window,off
 wait,0.15
@@ -1890,7 +1890,7 @@ asynccharaemo,chara_6,Trouble,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=28>I told you so~                                                      <br><size=28>People with low magic resistance can't go near it~.<br> ,100201000G,mcv_1001060402_018_01,chara_6
+message,ベリサ,I       told       you       so~<br>People       with       low       magic       resistance       can't       go       near       it~.<br> ,100201000G,mcv_1001060402_018_01,chara_6
 
 window,off
 wait,0.15
@@ -1949,7 +1949,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,盗賊Ａ,<size=28>Ngh... urghh...<br> ,2028301,,chara_1
+message,盗賊Ａ,Ngh...       urghh...<br> ,2028301,,chara_1
 
 asyncshake,CHARA,chara_2,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1958,9 +1958,9 @@ asyncseplay,setag2_53,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,盗賊Ｂ,<size=28>Damn... my head... feels like it's splitting...!<br> ,2028301,,chara_2
+message,盗賊Ｂ,Damn...       my       head...       feels       like       it's       splitting...!<br> ,2028301,,chara_2
 
-message,<user>,<size=28>Ugh... my head too...! What is this?<br> 
+message,<user>,Ugh...       my       head       too...!       What       is       this?<br> 
 
 window,off
 wait,0.15
@@ -2007,7 +2007,7 @@ asynccharaemo,chara_3,Shock,CONT,0
 
 
 window,on,0.15
-message,ゴレイヌ,<size=28>The magic coefficient is spiking!                                   <br><size=28>Professor，fall back!<br> ,2037001,mcv_1001060402_019_01,chara_3
+message,ゴレイヌ,The       magic       coefficient       is       spiking!<br>Professor，fall       back!<br> ,2037001,mcv_1001060402_019_01,chara_3
 
 window,off
 wait,0.15
@@ -2061,7 +2061,7 @@ asynccharaemo,chara_4,Panic,CONT,0
 
 
 window,on,0.15
-message,ロジー,<size=28>Retreeeeat!!<br> ,2036001,mcv_1001060402_020_01,chara_4
+message,ロジー,Retreeeeat!!<br> ,2036001,mcv_1001060402_020_01,chara_4
 
 window,off
 wait,0.15
@@ -2140,7 +2140,7 @@ asynccharaemo,chara_9,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,クルル,<size=28>Hey hey! Isn't that stone flashing!?<br> ,106701000G,mcv_1001060402_021_01,chara_9
+message,クルル,Hey       hey!       Isn't       that       stone       flashing!?<br> ,106701000G,mcv_1001060402_021_01,chara_9
 
 window,off
 wait,0.15
@@ -2195,7 +2195,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,盗賊Ａ,<size=28>Heh，hehehe... I see it! I can see it!                               <br><size=28>This is amazing! I've got my own gang!<br> ,2028301,,chara_1
+message,盗賊Ａ,Heh，hehehe...       I       see       it!       I       can       see       it!<br>This       is       amazing!       I've       got       my       own       gang!<br> ,2028301,,chara_1
 
 window,off
 wait,0.15
@@ -2260,7 +2260,7 @@ asynccharaemo,chara_5,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=28>Something's off about them...<br> ,106501000G,mcv_1001060402_022_01,chara_5
+message,ソフィア,Something's       off       about       them...<br> ,106501000G,mcv_1001060402_022_01,chara_5
 
 window,off
 wait,0.15
@@ -2319,9 +2319,9 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,盗賊Ｂ,<size=28>That's right，I'm the Boss!                                          <br><size=28>No punching for mistakes，so follow me!<br> ,2028301,,chara_2
+message,盗賊Ｂ,That's       right，I'm       the       Boss!<br>No       punching       for       mistakes，so       follow       me!<br> ,2028301,,chara_2
 
-message,<user>,<size=28>What... is this?                                                    <br><size=28>The Hypnosis Stone's influence...!?<br> 
+message,<user>,What...       is       this?<br>The       Hypnosis       Stone's       influence...!?<br> 
 
 window,off
 bgmstop,bgmtag2_2,0.5

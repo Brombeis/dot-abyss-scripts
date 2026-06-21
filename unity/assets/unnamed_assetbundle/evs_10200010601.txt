@@ -34,7 +34,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトルを設定してください
+title,Title
 
 wait,1
 
@@ -79,7 +79,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 asyncwait
 
 window,on,0.15
-message,,大穴の中を、荷車にウェンディを乗せたベリサとヴィーラが進む。<br>道は険しく、ふたりの額には汗が滲んでいた。
+message,,Verisa       and       Viera       press       onward       through       the       Abyss       with       Wendy       riding       in<br>the       cart.       The       path       is       treacherous，sweat       beads       on       both       their       foreheads.<br> 
 
 window,off
 wait,0.15
@@ -130,7 +130,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ベリサ,ふぅ、ふぅ、ふぅ……！,100201000G,,chara_1
+message,ベリサ,Hff...       hff...       hff...!<br> ,100201000G,,chara_1
 
 window,off
 wait,0.15
@@ -167,7 +167,7 @@ asynccharaemo,chara_3,Dull,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,大丈夫ですか、ベリサさん……？,102501000G,,chara_3
+message,ウェンディ,Are       you       okay...       Verisa...?<br> ,102501000G,,chara_3
 
 window,off
 wait,0.15
@@ -210,7 +210,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,ベリサ,こ、こんなの、ぜんぜんヨユーだしぃ～っ。<br>ウェンディは余計な気を回さずに寝てればいいのぉ～っ。,100201000G,,chara_1
+message,ベリサ,Th-this       is       totally       a       breeze~       okay~?<br>Wendy       should       just       lie       down       and       stop       worrying       about       us~.<br> ,100201000G,,chara_1
 
 window,off
 wait,0.15
@@ -265,7 +265,7 @@ asynccharaemo,chara_2,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,そうですよっ。わたしとお姉ちゃん、<br>姉妹の愛の力を合わせれば、１００万馬力ですからぁ……っ。,100801000G,,chara_2
+message,ヴィーラ,That's       right!       When       Onee-chan       and       I<br>combine       our       sisterly       love，we've       got       a       million       horsepower...!<br> ,100801000G,,chara_2
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -276,7 +276,7 @@ asyncseplay,setag1_8,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ベリサ,そんなことより、結晶のところまではまだかかるんだから、<br>ウェンディこそ頑張りなさいよぉ～？,100201000G,,chara_1
+message,ベリサ,More       importantly，it's       still       a       ways       to       the       crystal;<br>so       you're       the       one       who       needs       to       hang       in       there~       okay~?<br> ,100201000G,,chara_1
 
 window,off
 wait,0.15
@@ -333,7 +333,7 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,（ふたりとも、平気なわけないのに……<br>わたしを気遣ってくれてるんだ……）,102501000G,,chara_3
+message,ウェンディ,(There's       no       way       they're       fine...<br>They're       just       trying       to       keep       me       from       worrying...)<br> ,102501000G,,chara_3
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -344,7 +344,7 @@ asyncseplay,setag1_10,se4800014,0,1,CONT,0
 asynccharaemo,chara_3,Silence,CONT,0
 
 
-message,ウェンディ,（……励まされてばっかりじゃダメだ。<br>わたしも、ふたりのために何かできたら……）,102501000G,,chara_3
+message,ウェンディ,(...I       can't       just       keep       being       the       one       who       gets       encouraged.<br>If       only       there       were       something       I       could       do       for       them...)<br> ,102501000G,,chara_3
 
 
 window,off
@@ -408,7 +408,7 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 
 
 window,on,0.15
-message,ベリサ,ふぅ……ヴィーラ、今どのあたり～？,100201000G,,chara_1
+message,ベリサ,Phew...       Viera，where       are       we       now~?<br> ,100201000G,,chara_1
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -419,7 +419,7 @@ asyncseplay,setag1_12,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,ヴィーラ,アーデルハイトさんにいただいた地図によれば……半分は来てるね。,100801000G,,chara_2
+message,ヴィーラ,According       to       the       map       Adelheid       gave       us...       we're       about       halfway       there.<br> ,100801000G,,chara_2
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -430,7 +430,7 @@ asyncseplay,setag1_13,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ベリサ,なんだ、思ったより大したことないじゃん♪<br>ウェンディ、あとちょっとの辛抱だからねぇ～。,100201000G,,chara_1
+message,ベリサ,Huh，that's       not       as       bad       as       I       thought♪<br>Just       hang       tight       a       little       longer;       Wendy~.<br> ,100201000G,,chara_1
 
 window,off
 wait,0.15
@@ -479,7 +479,7 @@ asynccharaemo,chara_3,Speak,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,はい……ありがとうございます、ベリサさん、ヴィーラさん。<br>……おふたりとも、休憩しなくて大丈夫ですか？,102501000G,,chara_3
+message,ウェンディ,Yes...       thank       you;       Verisa;       Viera.<br>...Are       you       both       sure       you       don't       need       to       rest?<br> ,102501000G,,chara_3
 
 window,off
 wait,0.15
@@ -535,7 +535,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,できればそうしたいところですが、このあたりの深さだと危険も多くなって<br>くるはずです。一気に通り抜けた方が、かえって安全かもしれません。,100801000G,,chara_2
+message,ヴィーラ,I'd       like       to，but       at       this       depth       the       dangers       should       be       getting       worse.<br>Pushing       through       all       at       once       might       actually       be       safer.<br> ,100801000G,,chara_2
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -546,7 +546,7 @@ asyncseplay,setag1_16,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ベリサ,そうね～。大穴の中は、何が襲ってくるか分からないしぃ……,100201000G,,chara_1
+message,ベリサ,Yeah~.       You       never       know       what       might       attack       us       down       here       in       the       Abyss...<br> ,100201000G,,chara_1
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -580,7 +580,7 @@ waitorclick,1
 asyncseplay,setag1_17,se4403003,0,1,CONT,0
 
 window,on,0.15
-message,,その時、ガサガサという不快な音が<br>３人の鼓膜を揺らした。
+message,,Just       then，an       unpleasant       rustling       sound<br>reaches       the       ears       of       all       three.<br> 
 
 bgmplay,bgmtag1_2,bgm0034,0.75,1
 
@@ -623,7 +623,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ベリサ,――ッ！　言ってるそばから、おいでなさったかぁ。<br>ふたりとも気をつけて！　そこの茂み、何か隠れてる！,100201000G,,chara_1
+message,ベリサ,--!       Speak       of       the       devil，here       they       come.<br>Both       of       you，watch       out!       Something's       hiding       in       those       bushes!<br> ,100201000G,,chara_1
 
 window,off
 wait,0.15
@@ -682,7 +682,7 @@ asynccharaemo,chara_2,Question,STOP,1
 
 
 window,on,0.15
-message,ヴィーラ,うん、お姉ちゃん！<br>……あれ？　こんなところに、茂み……？,100801000G,,chara_2
+message,ヴィーラ,Got       it;       Onee-chan!<br>...Wait?       Bushes...       in       a       place       like       this...?<br> ,100801000G,,chara_2
 
 window,off
 wait,0.15
@@ -727,7 +727,7 @@ asyncjump,CHARA,chara_3,30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,ウェンディ,待ってください！　身体は動きませんが、<br>魔導センサーを稼働させれれば……！,102501000G,,chara_3
+message,ウェンディ,Wait!       My       body       can't       move，but<br>if       I       can       get       my       magic       sensors       running...!<br> ,102501000G,,chara_3
 
 window,off
 wait,0.15
@@ -746,7 +746,7 @@ asynccharaemo,chara_3,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,――これはっ！？<br>ふたりとも、離れてくださいっ！,102501000G,,chara_3
+message,ウェンディ,--This       is...!?<br>Both       of       you，get       away       from       it!<br> ,102501000G,,chara_3
 
 window,off
 wait,0.15
@@ -819,7 +819,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ベリサ,なっ……これって、茂みに隠れてるんじゃなくて……,100201000G,,chara_1
+message,ベリサ,Wha...       it's       not       hiding       in       the       bushes...<br> ,100201000G,,chara_1
 
 asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
 
@@ -828,7 +828,7 @@ asyncseplay,setag1_24,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,ヴィーラ,植物自体が動いてる！,100801000G,,chara_2
+message,ヴィーラ,The       plants       themselves       are       moving!<br> ,100801000G,,chara_2
 
 window,off
 wait,0.15
@@ -864,7 +864,7 @@ linework,on,Black,Middle
 asyncseplay,setag1_25,se5050017,0,1,CONT,0
 
 window,on,0.15
-message,,直後――茂みから飛び出した無数の茨が、<br>蛇のように伸びて３人を襲う！
+message,,The       next       instant--countless       thorned       vines       burst       from       the       thicket;<br>snaking       outward       to       strike       at       all       three!<br> 
 
 window,off
 wait,0.15
@@ -903,7 +903,7 @@ asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,ベリサ,こんなもの、あたしの炎で焼き払ってやる～～！<br>ハァァァァァ！,100201000G,,chara_1
+message,ベリサ,These       things       are       nothing       my       fire       can't       burn       away~~!<br>Haaaaaaah!<br> ,100201000G,,chara_1
 
 window,off
 wait,0.15
@@ -957,7 +957,7 @@ asynctransitionFade,Tra21,in,white,0,STOP,0
 waitorclick,0
 
 window,on,0.15
-message,,飛びかかってくる茨にベリサの炎魔法が直撃する。<br>茨は燃え上がると勢いを失くし、灰となって崩れ落ちていった。
+message,,Verisa's       fire       magic       scores       a       direct       hit       on       the       lunging       vines.<br>They       ignite       and       lose       their       momentum，crumbling       away       into       ash.<br> 
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -1002,7 +1002,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ベリサ,や～い、ざ～こざ～こ、ざこ植物ぅ～。<br>ベリサちゃんの力、その目に焼きつけなさい……って、目はないかぁ。,100201000G,,chara_1
+message,ベリサ,Nyeh~       helpless~       little~       weakling       plants~.       Burn       the       power       of<br>Verisa-chan       into       your       eyes...       oh       wait，you       don't       have       any~.<br> ,100201000G,,chara_1
 
 window,off
 wait,0.15
@@ -1048,7 +1048,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ウェンディ,これは大穴の影響で変容した植物ですね。<br>データによると、獲物を捕らえて魔力を奪う習性があるみたいです。,102501000G,,chara_3
+message,ウェンディ,These       are       plants       that       mutated       from       the       Abyss's       influence.       According<br>to       my       data，they       have       a       habit       of       capturing       prey       and       draining       their       mana.<br> ,102501000G,,chara_3
 
 window,off
 wait,0.15
@@ -1091,7 +1091,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ベリサ,ふぅ～ん。<br>モンスターじゃなくてただの植物なら、炎に弱いってことぉ？,100201000G,,chara_1
+message,ベリサ,Hmm~.<br>So       if       they're       just       plants       and       not       monsters，they're       weak       to       fire?<br> ,100201000G,,chara_1
 
 window,off
 wait,0.15
@@ -1134,7 +1134,7 @@ asynccharaemo,chara_3,Speak,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,はい。ただ冷気には強い耐性があるようなので、<br>そこには注意が必要かも……,102501000G,,chara_3
+message,ウェンディ,Yes.       However，they       seem       to       have       strong       resistance       to       cold;<br>so       that's       something       to       be       careful       of...<br> ,102501000G,,chara_3
 
 window,off
 wait,0.15
@@ -1189,7 +1189,7 @@ asynccharaemo,chara_2,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,なるほど……！　<br>流石はウェンディさん！　頼りになります！,100801000G,,chara_2
+message,ヴィーラ,I       see...!<br>That's       Wendy       for       you!       So       reliable!<br> ,100801000G,,chara_2
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1200,7 +1200,7 @@ asyncseplay,setag1_33,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ベリサ,ほんと、いいサポーターじゃ～ん♪　まあとにかく、<br>天才魔法使いのベリサちゃんがいれば、この先も楽勝ってことねぇ♪,100201000G,,chara_1
+message,ベリサ,Seriously，what       a       great       support~♪       Well，anyway;       with       the       genius       mage<br>Verisa-chan       here，the       rest'll       be       a       piece       of       cake♪<br> ,100201000G,,chara_1
 
 window,off
 wait,0.15
@@ -1259,7 +1259,7 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,（よかった……体を動かすことはできないけど、<br>おふたりの役に立つことはできるっ。このまま索敵を――）,102501000G,,chara_3
+message,ウェンディ,(Good...       I       can't       move       my       body;<br>but       I       can       still       be       useful       to       them.       I'll       keep       scanning       for       enemies--)<br> ,102501000G,,chara_3
 
 window,off
 wait,0.15
@@ -1284,7 +1284,7 @@ asynccharaemo,chara_3,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,あ……！<br>あの、おふたりとも……見てください……！,102501000G,,chara_3
+message,ウェンディ,Ah...!<br>Um，you       two...       look       at       that...!<br> ,102501000G,,chara_3
 
 window,off
 wait,0.15
@@ -1341,7 +1341,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ベリサ,ん～？　何よ、ウェンディ。<br>おばけ植物だったらあたしが焼き尽くして……,100201000G,,chara_1
+message,ベリサ,Hm~?       What       is       it;       Wendy?<br>If       it's       more       ghost       plants       I'll       just       burn       them       all--<br> ,100201000G,,chara_1
 
 window,off
 wait,0.15
@@ -1371,7 +1371,7 @@ asyncseplay,setag1_38,se4800011,0,1,CONT,0
 asynccharaemo,chara_2,ExclaQues,CONT,0
 
 window,on,0.15
-message,,ウェンディの指さす先を見たベリサとヴィーラが、ぎょっと目を見開く。<br>そこには――１００本を超える茨が蛇のように鎌首をもたげていた。
+message,,Verisa       and       Viera       look       where       Wendy       is       pointing       and       their       eyes       go<br>wide.       There--over       a       hundred       thorned       vines       rear       up       like       serpents       poised       to       strike.<br> 
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -1382,7 +1382,7 @@ asyncseplay,setag1_39,se4800015,0,1,CONT,0
 asynccharaemo,chara_2,Dull,CONT,0
 
 
-message,ヴィーラ,こ、これはさすがに……,100801000G,,chara_2
+message,ヴィーラ,Th-this       is       a       bit       much       even       for       us...<br> ,100801000G,,chara_2
 
 window,off
 wait,0.15
@@ -1431,7 +1431,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ベリサ,ヴィ、ヴィーラ！！　氷の壁でウェンディを守りなさい！！,100201000G,,chara_1
+message,ベリサ,V-Viera!!       Shield       Wendy       with       an       ice       wall!!<br> ,100201000G,,chara_1
 
 window,off
 wait,0.15
@@ -1476,7 +1476,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,はい……っ！,100801000G,,chara_2
+message,ヴィーラ,Yes...!<br> ,100801000G,,chara_2
 
 window,off
 wait,0.15
@@ -1512,7 +1512,7 @@ wait,1.5
 cleanall,EFFECT
 
 window,on,0.15
-message,,動けないウェンディを狙った茨が、<br>ヴィーラの作り出した氷の防壁に阻まれる。
+message,,The       vines       targeting       the       immobile       Wendy<br>slam       into       the       ice       barrier       Viera       conjures.<br> 
 
 window,off
 wait,0.15
@@ -1553,7 +1553,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,ベリサ,よしっ、そのまま防いでなさい！<br>あとはあたしが……全部焼き払ってあげる～～！！,100201000G,,chara_1
+message,ベリサ,Good，keep       holding       them       off!<br>Leave       the       rest       to       me...       I'll       burn       every       last       one~~!!<br> ,100201000G,,chara_1
 
 
 window,off
@@ -1584,7 +1584,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ベリサ,はぁ、はぁ、はぁ……！　こいつら、どんだけいるのよぉ～！？<br>ざこなくせに、数だけは多いんだからぁ～～！,100201000G,,chara_1
+message,ベリサ,Hah，hah，hah...!       How       many       of       these       things       are       there~!?<br>They're       just       weaklings，but       there's       so       many       of       them~~!<br> ,100201000G,,chara_1
 
 window,off
 wait,0.15
@@ -1628,7 +1628,7 @@ wait,2
 cleanall,EFFECT
 
 window,on,0.15
-message,,茨はベリサの魔法で片っ端から焼き払われるが、あまりにも数が多い。<br>ベリサの表情にも徐々に疲労が見えてきた。
+message,,The       vines       are       burned       away       one       after       another       by       Verisa's       magic，but<br>there       are       simply       too       many.       Exhaustion       gradually       shows       on       Verisa's       face.<br> 
 
 window,off
 wait,0.15
@@ -1679,9 +1679,9 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,こっちも数が多くて、これ以上は……！,100801000G,,chara_2
+message,ヴィーラ,There       are       too       many       on       this       side       too;       I       can't       hold       much       longer...!<br> ,100801000G,,chara_2
 
-message,,ヴィーラも氷の防壁で応戦しているが、<br>全方位から襲いかかる茨の波状攻撃を防ぐことで精一杯な様子だ。
+message,,Viera       fights       back       with       ice       barriers       of       her       own;       but       she       has       her<br>hands       full       fending       off       the       relentless       waves       of       vines       from       all       directions.<br> 
 
 window,off
 wait,0.15
@@ -1739,7 +1739,7 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,（どうしよう……このままじゃ、ふたりが――！<br>前線基地の誰かに、信号を送って助けを――！）,102501000G,,chara_3
+message,ウェンディ,(What       do       I       do...       at       this       rate，they'll       both--!<br>If       I       could       send       a       signal       to       someone       at       the       base       for       help--!)<br> ,102501000G,,chara_3
 
 asynccharaface,chara_3,FaceUnique02,CONT,0
 
@@ -1750,7 +1750,7 @@ asyncseplay,setag1_49,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,ウェンディ,（でも、誰に……？　司令官もいないのに……。<br>わたしには、ベリサさんとヴィーラさん以外に頼れる友だちは……）,102501000G,,chara_3
+message,ウェンディ,(But       who       would       I       call...?       The       Commander       isn't       here...<br>I       don't       have       any       friends       I       can       rely       on       besides       Verisa       and       Viera...)<br> ,102501000G,,chara_3
 
 window,off
 wait,0.15
@@ -1797,7 +1797,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ベリサ,っ、もう……追い、つかない……！<br>このままじゃ魔力が……っ！,100201000G,,chara_1
+message,ベリサ,Ngh;       I...       can't       keep       up...!<br>At       this       rate       my       mana       will...!<br> ,100201000G,,chara_1
 
 window,off
 wait,0.15
@@ -1840,7 +1840,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,お姉ちゃんっ！<br>っ、やっぱり氷じゃ効果が薄い……！,100801000G,,chara_2
+message,ヴィーラ,Onee-chan!<br>Ngh，my       ice       really       isn't       effective       enough...!<br> ,100801000G,,chara_2
 
 window,off
 wait,0.15
@@ -1877,7 +1877,7 @@ waitorclick,0.8
 
 
 window,on,0.15
-message,ウェンディ,――ッ！　お願い……！<br>誰か……！　誰か、ふたりを助けて――！,102501000G,,chara_3
+message,ウェンディ,--!       Please...!<br>Someone...!       Someone，save       them--!<br> ,102501000G,,chara_3
 
 bgmstop,bgmtag1_4,1.5,0
 
@@ -1907,7 +1907,7 @@ asyncfade,In,Black,0,STOP
 waitorclick,0
 
 window,on,0.15
-message,？？？,――引き受けた！！,900000001
+message,？？？,--You       got       it!!<br> ,900000001
 
 window,off
 wait,0.15
@@ -1941,7 +1941,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,,ウェンディの願いに、凛とした声が応える。直後、疾風のごとき勢いで<br>飛び込んできた何者かの振るう刃が、大量の茨をまとめて刈り取った。
+message,,A       clear，resolute       voice       answers       Wendy's       plea.       The       next<br>instant，someone       charges       in       like       a       gale       and       their       swinging       blade       mows       down       a       mass       of       vines       in       one       sweep.<br> 
 
 window,off
 wait,0.15
@@ -1982,7 +1982,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ベリサ,何！？　何が起こったのぉ～～！？,100201000G,,chara_1
+message,ベリサ,What!?       What       just       happened~~!?<br> ,100201000G,,chara_1
 
 window,off
 wait,0.15
@@ -2029,7 +2029,7 @@ asynccharaemo,chara_4,Speak,CONT,0
 
 
 window,on,0.15
-message,ラヴェリア,危ないところだったな。<br>だが、アタシが来たからには、もう大丈夫だ！,102001000G,,chara_4
+message,ラヴェリア,That       was       a       close       one.<br>But       now       that       I'm       here，you've       got       nothing       to       worry       about!<br> ,102001000G,,chara_4
 
 window,off
 wait,0.15
@@ -2086,7 +2086,7 @@ asynccharaemo,chara_3,Shock,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,ラヴェリアさん！？　どうして……！？,102501000G,,chara_3
+message,ヴィーラ,Raveria!?       How...!?<br> ,102501000G,,chara_3
 
 asynccharaface,chara_4,FaceHappy,CONT,0
 
@@ -2097,7 +2097,7 @@ asyncseplay,setag1_57,se4800004,0,1,CONT,0
 asynccharaemo,chara_4,Laugh,CONT,0
 
 
-message,ラヴェリア,アーデルハイトに事情を聞き、急いで追ってきたんだ。<br>ウェンディには、訓練につき合ってもらったからな。,102001000G,,chara_4
+message,ラヴェリア,I       heard       the       situation       from       Adelheid       and       rushed       after       you.<br>Wendy       helped       me       with       my       training，after       all.<br> ,102001000G,,chara_4
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -2108,7 +2108,7 @@ asyncseplay,setag1_58,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,ウェンディ,……え？　それだけのことで……助けてくれるんですか？,102501000G,,chara_3
+message,ウェンディ,...Huh?       Just       for       something       like       that...       you       came       to       help       us?<br> ,102501000G,,chara_3
 
 asynccharaface,chara_4,EyeOpen,CONT,0
 asynccharaface,chara_4,FaceNormal,CONT,0
@@ -2120,7 +2120,7 @@ asyncseplay,setag1_59,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,ラヴェリア,ふむ。そう言われてみれば、もうひとつ理由があったな。,102001000G,,chara_4
+message,ラヴェリア,Hmm.       Now       that       you       mention       it，there       is       one       more       reason.<br> ,102001000G,,chara_4
 
 window,off
 wait,0.15
@@ -2169,7 +2169,7 @@ asynccharaemo,chara_4,Spirits,CONT,0
 
 
 window,on,0.15
-message,ラヴェリア,アンタが司令官の兄さんのために頑張ってると聞いた。<br>そんなアンタを、アタシが気にいったんだ。理由はそれで十分さ。,102001000G,,chara_4
+message,ラヴェリア,I       heard       you've       been       working       hard       for       the       Commander.<br>I       took       a       liking       to       you       for       that.       That's       reason       enough.<br> ,102001000G,,chara_4
 
 window,off
 wait,0.15
@@ -2224,7 +2224,7 @@ asynccharaemo,chara_3,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,ラ、ラヴェリアさん……！　ありがとうございます！！,102501000G,,chara_3
+message,ウェンディ,R-Raveria...!       Thank       you       so       much!!<br> ,102501000G,,chara_3
 
 window,off
 wait,0.15
@@ -2284,7 +2284,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ベリサ,まったく、かっこつけちゃってぇ……どれだけタイミングいいのよ。<br>でも、来たからにはちゃんと働きなさいよぉ～？,100201000G,,chara_1
+message,ベリサ,Geez，showing       off       like       that...       talk       about       perfect       timing.<br>But       since       you're       here，you'd       better       pull       your       weight~       okay~?<br> ,100201000G,,chara_1
 
 window,off
 wait,0.15
@@ -2333,7 +2333,7 @@ asynccharaemo,chara_4,Elated,CONT,0
 
 
 window,on,0.15
-message,ラヴェリア,もちろんだ。<br>ここはこちらに任せて、ふたりは休むといい。,102001000G,,chara_4
+message,ラヴェリア,Of       course.<br>Leave       this       to       us       and       take       a       rest，you       two.<br> ,102001000G,,chara_4
 
 window,off
 wait,0.15
@@ -2388,7 +2388,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,休むって……ひとりでこれだけの茨をさばくつもりですかっ？,100801000G,,chara_2
+message,ヴィーラ,Rest...?       You're       planning       to       handle       all       these       vines       by       yourself?<br> ,100801000G,,chara_2
 
 window,off
 wait,0.15
@@ -2437,7 +2437,7 @@ asynccharaemo,chara_4,Speak,CONT,0
 
 
 window,on,0.15
-message,ラヴェリア,ふっ。ひとりで――とは言ってないさ。,102001000G,,chara_4
+message,ラヴェリア,Heh.       I       never       said--by       myself.<br> ,102001000G,,chara_4
 
 window,off
 wait,0.15
@@ -2479,7 +2479,7 @@ asynccharaemo,chara_5,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ホノカ,よ～～し！　やっと追いついたぞ！,106301000G,,chara_5
+message,ホノカ,All       ri~~ght!       I       finally       caught       up!<br> ,106301000G,,chara_5
 
 window,off
 wait,0.15
@@ -2523,7 +2523,7 @@ asynccharaemo,chara_6,Sweat,CONT,0
 
 
 window,on,0.15
-message,兵士A,おっと……これはいきなり、大変な状況だね。,401601000,,chara_6
+message,兵士A,Whoa...       we       walked       right       into       a       mess，didn't       we.<br> ,401601000,,chara_6
 
 window,off
 wait,0.15
@@ -2572,7 +2572,7 @@ asynccharaemo,chara_3,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,ホノカさん！？　兵士さんたちも！？,102501000G,,chara_3
+message,ウェンディ,Honoka!?       And       the       soldiers       too!?<br> ,102501000G,,chara_3
 
 window,off
 wait,0.15
@@ -2627,7 +2627,7 @@ asynccharaemo,chara_6,Speak,CONT,0
 
 
 window,on,0.15
-message,兵士A,ウェンディちゃんが大変だって聞いてね！<br>援護に来たよ！,401601000,,chara_6
+message,兵士A,We       heard       Wendy       was       in       trouble!<br>So       we       came       as       backup!<br> ,401601000,,chara_6
 
 asyncjump,CHARA,chara_7,-30,0.25,1,off,0,CONT
 
@@ -2636,7 +2636,7 @@ asyncseplay,setag1_70,se4800022,0,1,CONT,0
 asynccharaemo,chara_7,Speak,CONT,0
 
 
-message,兵士B,お世話になった恩を返すのは、当然のことですからねー！<br>ホノカちゃん、私たちがラヴェリアさんと茨を抑えてるうちに！,401101000,,chara_7
+message,兵士B,Repaying       a       debt       of       gratitude       is       only       natural!<br>Honoka，while       we       hold       the       vines       off       with       Raveria!<br> ,401101000,,chara_7
 
 window,off
 wait,0.15
@@ -2691,7 +2691,7 @@ asynccharaemo,chara_5,Spirits,CONT,0
 
 
 window,on,0.15
-message,ホノカ,まっかせてくれ！　さあっ、手早く改造しちゃうぞぉ～～！,106301000G,,chara_5
+message,ホノカ,Leave       it       to       me!       C'mon，let's       get       this       thing       modded       up       real       quick~~!<br> ,106301000G,,chara_5
 
 window,off
 wait,0.15
@@ -2748,7 +2748,7 @@ asyncseplay,setag1_72,se4800004,0,1,CONT,0
 asynccharaemo,chara_5,Laugh,CONT,0
 
 window,on,0.15
-message,,道具を手にしたホノカが荷車に駆け寄り、<br>何やら細工を始める。
+message,,Tools       in       hand;       Honoka       rushes       over       to       the       cart<br>and       starts       tinkering       with       it.<br> 
 
 window,off
 wait,0.15
@@ -2805,7 +2805,7 @@ asynccharaemo,chara_2,Question,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,ホノカさん……？　何をしているんですか？,100801000G,,chara_2
+message,ヴィーラ,Honoka...?       What       are       you       doing?<br> ,100801000G,,chara_2
 
 window,off
 wait,0.15
@@ -2855,7 +2855,7 @@ asynccharaemo,chara_5,Flower,CONT,0
 
 
 window,on,0.15
-message,ホノカ,改造してるんだぞ！　あたしがこの荷車を、ゴゴォ～～～ってなって、<br>バッビュ～～～～ンで、ズゴゴゴゴォ～～～～ってなるようにしてあげる！,106301000G,,chara_5
+message,ホノカ,I'm       modding       it!       I'm       gonna       make       this       cart       go       VROOOOM~~~       and       then<br>WHOOOOSH~~~~       and       BRRRRRRM~~~~!<br> ,106301000G,,chara_5
 
 window,off
 wait,0.15
@@ -2910,7 +2910,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,さっぱり分かりません！<br>どなたか通訳をお願いします……！,100801000G,,chara_2
+message,ヴィーラ,I       have       absolutely       no       idea       what       that       means!<br>Could       someone       please       translate...!<br> ,100801000G,,chara_2
 
 window,off
 wait,0.15
@@ -2968,7 +2968,7 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,えっと……速く動けるようにしてくれるのでしょうか……？<br>すごくありがたいんですけど……どうしてここまで？,102501000G,,chara_3
+message,ウェンディ,Um...       I       think       she's       making       it       go       faster...?<br>I       really       appreciate       it，but...       why       go       this       far?<br> ,102501000G,,chara_3
 
 asynccharaface,chara_5,FaceFun,CONT,0
 
@@ -2979,7 +2979,7 @@ asyncseplay,setag1_77,se4800003,0,1,CONT,0
 asynccharaemo,chara_5,Twinkle,CONT,0
 
 
-message,ホノカ,この前、一緒に鍛冶をしてくれて楽しかったからな！<br>一緒にいて楽しいなら、友だちだ！　友だちは助け合うんだぞ～！,106301000G,,chara_5
+message,ホノカ,We       had       so       much       fun       smithing       together       the       other       day!       If       it's       fun<br>being       together，that       makes       us       friends!       Friends       help       each       other       out~!<br> ,106301000G,,chara_5
 
 asynccharaface,chara_3,FaceShy,CONT,0
 
@@ -2990,7 +2990,7 @@ asyncseplay,setag1_78,se4800017,0,1,CONT,0
 asynccharaemo,chara_3,Shock,CONT,0
 
 
-message,ウェンディ,友だち……,102501000G,,chara_3
+message,ウェンディ,Friends...<br> ,102501000G,,chara_3
 
 window,off
 wait,0.15
@@ -3037,7 +3037,7 @@ asynccharaemo,chara_4,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ラヴェリア,よし、こっちはある程度数を減らしたぞ！<br>今なら突破できる！,102001000G,,chara_4
+message,ラヴェリア,Right，we've       thinned       their       numbers       enough       over       here!<br>Now's       your       chance       to       break       through!<br> ,102001000G,,chara_4
 
 window,off
 wait,0.15
@@ -3103,7 +3103,7 @@ asynccharaemo,chara_6,Speak,CONT,0
 
 
 window,on,0.15
-message,兵士A,それじゃあみんな、こっちへ！<br>抜け道がある！,401601000,,chara_6
+message,兵士A,Everyone，this       way!<br>There's       a       shortcut!<br> ,401601000,,chara_6
 
 window,off
 wait,0.15
@@ -3164,7 +3164,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ベリサ,こんなところに横道が……知らなかったぁ。,100201000G,,chara_1
+message,ベリサ,There's       a       side       passage       here...       I       had       no       idea.<br> ,100201000G,,chara_1
 
 window,off
 wait,0.15
@@ -3220,7 +3220,7 @@ asynccharaemo,chara_7,Laugh,CONT,0
 
 
 window,on,0.15
-message,兵士B,ここを通れば一気に目的地まで辿り着けますー！<br>私たちは引き続き、ラヴェリアさんと茨をひきつけますのでー！,401101000,,chara_7
+message,兵士B,Take       this       path       and       you'll       reach       the       destination       in       no       time!<br>We'll       keep       drawing       the       vines'       attention       with       Raveria!<br> ,401101000,,chara_7
 
 window,off
 wait,0.15
@@ -3283,7 +3283,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,ありがとうございます！　どうか、ご武運を！,100801000G,,chara_2
+message,ヴィーラ,Thank       you       so       much!       Please，stay       safe!<br> ,100801000G,,chara_2
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -3292,7 +3292,7 @@ asyncseplay,setag1_84,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ベリサ,あんたたちも必ず、パーティーに参加しなさいよねぇ～！,100201000G,,chara_1
+message,ベリサ,You'd       all       better       come       to       the       party       too，got       it~!<br> ,100201000G,,chara_1
 
 window,off
 wait,0.15
@@ -3349,7 +3349,7 @@ asynccharaemo,chara_5,Speak,CONT,0
 
 
 window,on,0.15
-message,ホノカ,こっちも改造が終わったぞ！<br>さあさあ、ベリサとヴィーラも荷車に乗って！　一気に行くぞ！,106301000G,,chara_5
+message,ホノカ,My       mods       are       done       over       here       too!<br>Come       on;       Verisa       and       Viera，get       on       the       cart!       We're       going       all       at       once!<br> ,106301000G,,chara_5
 
 window,off
 wait,0.15
@@ -3417,7 +3417,7 @@ asynccharaemo,chara_2,Question,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,こうですか？,100801000G,,chara_2
+message,ヴィーラ,Like       this?<br> ,100801000G,,chara_2
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -3428,7 +3428,7 @@ asyncseplay,setag1_87,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ベリサ,乗るのはいいけど、どうするってのよぉ？,100201000G,,chara_1
+message,ベリサ,Getting       on       is       fine       and       all，but       what       exactly       is       this       gonna       do~?<br> ,100201000G,,chara_1
 
 window,off
 wait,0.15
@@ -3481,7 +3481,7 @@ asynccharaemo,chara_5,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ホノカ,いっけぇ～！<br>ファイヤ～～～～～～～～～～！,106301000G,,chara_5
+message,ホノカ,Here       we       go~!<br>FIRE~~~~~~~~~~!<br> ,106301000G,,chara_5
 
 window,off
 wait,0.15
@@ -3602,7 +3602,7 @@ waitorclick,0
 
 
 window,on,0.15
-message,,ホノカが改造した荷車の仕掛けを発動する。直後、荷車後部に取りつけられた<br>筒が火柱を吹き、荷車は猛烈な加速で横道へ飛び込んだ――！
+message,,Honoka       triggers       the       contraption       she       installed       on       the       cart.       A       tube<br>mounted       on       the       back       erupts       with       a       pillar       of       flame，and       the       cart       rockets       into       the       side       passage       at       breakneck       speed--!<br> 
 
 window,off
 wait,0.15
@@ -3645,7 +3645,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ベリサ,あばばばばばばばばばっ……！<br>こ、こんなに速いんなら先に言いなさいよぉ～～～……！,100201000G,,chara_1
+message,ベリサ,Abababababababa...!<br>I-if       it       was       gonna       be       this       fast       you       should've       warned       us~~~...!<br> ,100201000G,,chara_1
 
 window,off
 wait,0.15
@@ -3703,7 +3703,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,あははは……これならあっという間だね。,100801000G,,chara_2
+message,ヴィーラ,Ahahaha...       at       this       speed       we'll       be       there       in       no       time.<br> ,100801000G,,chara_2
 
 asynccharaface,chara_2,FaceUnique01,CONT,0
 
@@ -3714,7 +3714,7 @@ asyncseplay,setag1_96,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,ヴィーラ,それにしても……ウェンディさんは、みんなから好かれていますね。,100801000G,,chara_2
+message,ヴィーラ,Even       so...       everyone       really       does       like       you;       Wendy.<br> ,100801000G,,chara_2
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -3725,7 +3725,7 @@ asyncseplay,setag1_97,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ベリサ,そうね～。もう友だちはあたしたちだけじゃない感じかぁ。<br>ふふ、人気者じゃない、ウェンディ♪,100201000G,,chara_1
+message,ベリサ,Yeah~.       Looks       like       we're       not       your       only       friends       anymore.<br>Hehe，quite       the       popular       girl，aren't       you;       Wendy♪<br> ,100201000G,,chara_1
 
 window,off
 wait,0.15
@@ -3774,7 +3774,7 @@ asynccharaemo,chara_3,Flower,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,……はいっ！<br>皆さん、素敵な友だちです！,102501000G,,chara_3
+message,ウェンディ,...Yes!<br>Everyone       is       such       a       wonderful       friend!<br> ,102501000G,,chara_3
 
 window,off
 bgmstop,bgmtag1_5,0.5

@@ -23,7 +23,7 @@ bgmplay,bgmtag1_1,bgm0025,0.75,1
 seplay,setag1_1,se4300001,0,1
 
 window,on,0.15
-message,,<size=28>Late at night，while I was working in the command room，Sylvia came to<br><size=28>visit.<br> 
+message,,Late       at       night，while       I       was       working       in       the       command       room，Sylvia       came       to<br>visit.<br> 
 
 window,off
 wait,0.15
@@ -40,7 +40,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,<size=28>What brings you here at this hour? Did you need to talk?<br> 
+message,<user>,What       brings       you       here       at       this       hour?       Did       you       need       to       talk?<br> 
 
 charaface,chara_1,FaceUnique01
 
@@ -48,7 +48,7 @@ asyncseplay,setag1_3,se4800014,0,1,CONT
 
 charaemo,chara_1,Silence
 
-message,,<size=28>From her flushed cheeks and downcast gaze，                          <br><size=28>I could tell she had something she wanted to say.<br> 
+message,,From       her       flushed       cheeks       and       downcast       gaze，<br>I       could       tell       she       had       something       she       wanted       to       say.<br> 
 
 charaface,chara_1,FaceSad
 
@@ -60,13 +60,13 @@ asynccharaemo,chara_1,Shy,STOP,1.8
 asynccharareaction,chara_1,nod,1,STOP
 
 asynccharaface,chara_1,FaceUnique01,STOP,1.8
-message,シルヴィア,<size=28>Onii-sama...?                                                       <br><size=28>I feel as though we have not been playing our game enough lately...<br> ,,vc_10260100031_001_01
+message,シルヴィア,Onii-sama...?<br>I       feel       as       though       we       have       not       been       playing       our       game       enough       lately...<br> ,,vc_10260100031_001_01
 
-message,,<size=28>With that one statement，I immediately understood why Sylvia had     <br><size=28>come. This was essentially her earnest version of a 'midnight visit.'<br> 
+message,,With       that       one       statement，I       immediately       understood       why       Sylvia       had<br>come.       This       was       essentially       her       earnest       version       of       a       'midnight       visit.'<br> 
 
-message,<user>,<size=28>Ah... you're right.                                                 <br><size=28>I've been so busy with work that it's been a while.<br> 
+message,<user>,Ah...       you're       right.<br>I've       been       so       busy       with       work       that       it's       been       a       while.<br> 
 
-message,<user>,<size=28>I'm sorry about that. Work has settled down，so shall we play        <br><size=28>together for the first time in a while?<br> 
+message,<user>,I'm       sorry       about       that.       Work       has       settled       down，so       shall       we       play<br>together       for       the       first       time       in       a       while?<br> 
 
 asyncseplay,setag1_5,se4800012,0,1,CONT
 
@@ -76,9 +76,9 @@ asynccharaemo,chara_1,Shy,STOP
 charaface,chara_1,FaceHappy
 
 asynccharareaction,chara_1,Nod,1,STOP
-message,シルヴィア,<size=28>Y-yes...!<br> ,,vc_10260100031_002_01
+message,シルヴィア,Y-yes...!<br> ,,vc_10260100031_002_01
 
-message,,<size=28>Sylvia's face instantly lit up.                                     <br><size=28>Thinking how cute she was，I stood up.<br> 
+message,,Sylvia's       face       instantly       lit       up.<br>Thinking       how       cute       she       was，I       stood       up.<br> 
 
 window,off
 wait,0.15
@@ -92,7 +92,7 @@ blur,on,BACK,0
 transitionCrossFade,Tra19,1
 wait,1
 window,on,0.15
-message,<user>,<size=28>Alright then... Here's fine，right?<br> 
+message,<user>,Alright       then...       Here's       fine，right?<br> 
 
 charaface,chara_1,FaceSurprise
 
@@ -104,18 +104,18 @@ asynccharaemo,chara_1,Shock,CONT
 asyncshake,CHARA,chara_1,20,15,0.25,1,off,off,0,off,CONT
 
 asynccharaface,chara_1,FaceSad,CONT,2.6
-message,シルヴィア,<size=28>Huh... h-here...?                                                   <br><size=28>But what if someone comes——<br> ,,vc_10260100031_003_01
+message,シルヴィア,Huh...       h-here...?<br>But       what       if       someone       comes——<br> ,,vc_10260100031_003_01
 
 asyncskipwait
 
-message,<user>,<size=28>Nobody comes at this hour. The only exception would be a cute girl  <br><size=28>sneaking in for a midnight visit.<br> 
+message,<user>,Nobody       comes       at       this       hour.       The       only       exception       would       be       a       cute       girl<br>sneaking       in       for       a       midnight       visit.<br> 
 
 charaface,chara_1,FaceShy
 
 asynccharareaction,chara_1,Shake,1,STOP
-message,シルヴィア,<size=28>Ah...<br> ,,vc_10260100031_004_01
+message,シルヴィア,Ah...<br> ,,vc_10260100031_004_01
 
-message,,<size=28>Sylvia's face turned crimson again                                  <br><size=28>as she looked down in embarrassment.<br> 
+message,,Sylvia's       face       turned       crimson       again<br>as       she       looked       down       in       embarrassment.<br> 
 
 charaface,chara_1,FaceUnique01
 
@@ -123,15 +123,15 @@ asyncseplay,setag1_7,se4800012,0,1,CONT
 
 asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
-message,シルヴィア,<size=28>...I have never played this game outside the brothel before...      <br><size=28>I am not sure how it works，but...<br> ,,vc_10260100031_005_01
+message,シルヴィア,...I       have       never       played       this       game       outside       the       brothel       before...<br>I       am       not       sure       how       it       works，but...<br> ,,vc_10260100031_005_01
 
-message,<user>,<size=28>Just follow my lead and you'll be fine.                             <br><size=28>Leave it to me.<br> 
+message,<user>,Just       follow       my       lead       and       you'll       be       fine.<br>Leave       it       to       me.<br> 
 
 asynccharareaction,chara_1,Nod,0.5,CONT
 
 asyncskipwait
 
-message,,<size=28>And so I took the hand of the slightly anxious girl...<br> 
+message,,And       so       I       took       the       hand       of       the       slightly       anxious       girl...<br> 
 
 
 labeljump,b

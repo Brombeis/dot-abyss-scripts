@@ -52,9 +52,9 @@ wait,1
 bgmplay,bgmtag1_1,bgm0037,0.75,1
 
 window,on,0.15
-message,,<size=28>With Kururu leading，the Commander's group crossed the cave.         <br><size=28>But what greeted them was no scene of hope.<br> 
+message,,With       Kururu       leading，the       Commander's       group       crossed       the       cave.<br>But       what       greeted       them       was       no       scene       of       hope.<br> 
 
-message,,<size=28>A silent plain of withered flowers spread endlessly.                <br><size=28>Crumbling monuments like gravestones dotted the land.<br> 
+message,,A       silent       plain       of       withered       flowers       spread       endlessly.<br>Crumbling       monuments       like       gravestones       dotted       the       land.<br> 
 
 window,off
 wait,0.15
@@ -87,7 +87,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,クルル,<size=28>Huh...?                                                             <br><size=28>Why are all the flowers wilted...?<br> ,106701000G,mcv_1001060701_001_01,chara_1
+message,クルル,Huh...?<br>Why       are       all       the       flowers       wilted...?<br> ,106701000G,mcv_1001060701_001_01,chara_1
 
 window,off
 wait,0.15
@@ -134,7 +134,7 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=28>Wh-what is this... no hypnotic stone energy here，                   <br><size=28>but what an eerie place...<br> ,100201000G,mcv_1001060701_002_01,chara_3
+message,ベリサ,Wh-what       is       this...       no       hypnotic       stone       energy       here，<br>but       what       an       eerie       place...<br> ,100201000G,mcv_1001060701_002_01,chara_3
 
 window,off
 wait,0.15
@@ -185,7 +185,7 @@ asynccharaemo,chara_5,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,<size=28>The air feels even heavier than before...                           <br><size=28>It's almost suffocating...<br> ,106601000G,mcv_1001060701_003_01,chara_5
+message,ヒマリ,The       air       feels       even       heavier       than       before...<br>It's       almost       suffocating...<br> ,106601000G,mcv_1001060701_003_01,chara_5
 
 window,off
 wait,0.15
@@ -248,7 +248,7 @@ asynccharaemo,chara_4,Speak,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=28>What are those...?                                                  <br><size=28>They look like graves...<br> ,100301000G,mcv_1001060701_004_01,chara_4
+message,マリナ,What       are       those...?<br>They       look       like       graves...<br> ,100301000G,mcv_1001060701_004_01,chara_4
 
 window,off
 wait,0.15
@@ -278,7 +278,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,<size=28>Crumbling and worn down，                                            <br><size=28>but they look like a mausoleum to me.<br> 
+message,<user>,Crumbling       and       worn       down，<br>but       they       look       like       a       mausoleum       to       me.<br> 
 
 window,off
 wait,0.15
@@ -333,7 +333,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=28>It's so quiet.                                                      <br><size=28>As if the land itself is grieving...<br> ,106501000G,mcv_1001060701_005_01,chara_2
+message,ソフィア,It's       so       quiet.<br>As       if       the       land       itself       is       grieving...<br> ,106501000G,mcv_1001060701_005_01,chara_2
 
 window,off
 wait,0.15
@@ -385,7 +385,7 @@ asynccharaemo,chara_5,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,<size=28>I can't hear those sad voices anymore.                              <br><size=28>But somehow，I just know...<br> ,106601000G,mcv_1001060701_006_01,chara_5
+message,ヒマリ,I       can't       hear       those       sad       voices       anymore.<br>But       somehow，I       just       know...<br> ,106601000G,mcv_1001060701_006_01,chara_5
 
 window,off
 wait,0.15
@@ -405,9 +405,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒマリ,<size=28>The bodies of the townspeople were brought here...                  <br><size=28>Unable to rest in peace...<br> ,106601000G,mcv_1001060701_007_01,chara_5
+message,ヒマリ,The       bodies       of       the       townspeople       were       brought       here...<br>Unable       to       rest       in       peace...<br> ,106601000G,mcv_1001060701_007_01,chara_5
 
-message,,<size=28>Just as the group stood speechless at the sight，                    <br><size=28>Goleinu's head sensor flashed with a shrill alarm.<br> 
+message,,Just       as       the       group       stood       speechless       at       the       sight，<br>Goleinu's       head       sensor       flashed       with       a       shrill       alarm.<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -438,7 +438,7 @@ waitorclick,0.8
 asyncshake,CHARA,chara_6,15,10,0.25,3,on,off,0,off,CONT,0
 
 window,on,0.15
-message,,<size=28>Beep beep beep beep beep!<br> 
+message,,Beep       beep       beep       beep       beep!<br> 
 
 bgmplay,bgmtag1_2,bgm0032,0.75,1
 
@@ -449,7 +449,7 @@ asyncseplay,setag1_8,se4800010,0,1,CONT,0
 asynccharaemo,chara_6,Exclamation,CONT,0
 
 
-message,ゴレイヌ,<size=28>——Warning. Warning.                                                 <br><size=28>Professor! High-energy reading at close range!<br> ,2037001,mcv_1001060701_008_01,chara_6
+message,ゴレイヌ,——Warning.       Warning.<br>Professor!       High-energy       reading       at       close       range!<br> ,2037001,mcv_1001060701_008_01,chara_6
 
 window,off
 wait,0.15
@@ -498,7 +498,7 @@ asynccharaemo,chara_7,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ロジー,<size=28>assistant-kun! What's coming with a high-energy reading!?<br> ,2036001,mcv_1001060701_009_01,chara_7
+message,ロジー,assistant-kun!       What's       coming       with       a       high-energy       reading!?<br> ,2036001,mcv_1001060701_009_01,chara_7
 
 asynccharaface,chara_6,EyeOpen,CONT,0
 asynccharaface,chara_6,FaceNormal,CONT,0
@@ -516,7 +516,7 @@ asyncseplay,setag1_11,se4800022,0,1,STOP,4
 asynccharaemo,chara_6,Speak,STOP,4
 
 
-message,ゴレイヌ,<size=28>Cross-referencing past combat data~!                                <br><size=28>...Energy waveform: 98.7% match.<br> ,2037001,mcv_1001060701_010_01,chara_6
+message,ゴレイヌ,Cross-referencing       past       combat       data~!<br>...Energy       waveform:       98.7%       match.<br> ,2037001,mcv_1001060701_010_01,chara_6
 
 asynccharaface,chara_7,FaceSad,CONT,0
 
@@ -527,7 +527,7 @@ asyncseplay,setag1_12,se4800007,0,1,CONT,0
 asynccharaemo,chara_7,Panic,CONT,0
 
 
-message,ロジー,<size=28>N-no way...!<br> ,2036001,mcv_1001060701_011_01,chara_7
+message,ロジー,N-no       way...!<br> ,2036001,mcv_1001060701_011_01,chara_7
 
 asynccharaface,chara_6,FaceAnger,CONT,0
 
@@ -538,7 +538,7 @@ asyncseplay,setag1_13,se4800001,0,1,CONT,0
 asynccharaemo,chara_6,Anger,CONT,0
 
 
-message,ゴレイヌ,<size=28>Target confirmed as the hostile that wrecked me                     <br><size=28>at the Black Tower!<br> ,2037001,mcv_1001060701_012_01,chara_6
+message,ゴレイヌ,Target       confirmed       as       the       hostile       that       wrecked       me<br>at       the       Black       Tower!<br> ,2037001,mcv_1001060701_012_01,chara_6
 
 asynccharaface,chara_7,FaceSurprise,CONT,0
 
@@ -549,7 +549,7 @@ asyncseplay,setag1_14,se4800008,0,1,CONT,0
 asynccharaemo,chara_7,Sweat,CONT,0
 
 
-message,ロジー,<size=28>I knew it! That hooded guy!?<br> ,2036001,mcv_1001060701_013_01,chara_7
+message,ロジー,I       knew       it!       That       hooded       guy!?<br> ,2036001,mcv_1001060701_013_01,chara_7
 
 asynccharaface,chara_6,EyeOpen,CONT,0
 asynccharaface,chara_6,FaceNormal,CONT,0
@@ -561,7 +561,7 @@ asyncseplay,setag1_15,se4800019,0,1,CONT,0
 asynccharaemo,chara_6,Elated,CONT,0
 
 
-message,ゴレイヌ,<size=28>Threat level: 'Calamity.'                                           <br><size=28>...He's on this floor，Professor!<br> ,2037001,mcv_1001060701_014_01,chara_6
+message,ゴレイヌ,Threat       level:       'Calamity.'<br>...He's       on       this       floor，Professor!<br> ,2037001,mcv_1001060701_014_01,chara_6
 
 window,off
 wait,0.15
@@ -626,7 +626,7 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=28>Threat level Calamity!?                                             <br><size=28>What does that mean!?<br> ,106501000G,mcv_1001060701_015_01,chara_2
+message,ソフィア,Threat       level       Calamity!?<br>What       does       that       mean!?<br> ,106501000G,mcv_1001060701_015_01,chara_2
 
 asyncshake,CHARA,chara_3,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -635,7 +635,7 @@ asyncseplay,setag1_17,se4800001,0,1,CONT,0
 asynccharaemo,chara_3,Anger,CONT,0
 
 
-message,ベリサ,<size=28>Haah~~~!? What are you saying!?                                     <br><size=28>You must be busted! I don't sense that kind of power!?<br> ,100201000G,mcv_1001060701_016_01,chara_3
+message,ベリサ,Haah~~~!?       What       are       you       saying!?<br>You       must       be       busted!       I       don't       sense       that       kind       of       power!?<br> ,100201000G,mcv_1001060701_016_01,chara_3
 
 asyncjump,CHARA,chara_4,-30,0.25,1,off,0,CONT
 
@@ -644,7 +644,7 @@ asyncseplay,setag1_18,se4800009,0,1,CONT,0
 asynccharaemo,chara_4,Question,CONT,0
 
 
-message,マリナ,<size=28>Don't Calamities give off miasma when near?<br> ,100301000G,mcv_1001060701_017_01,chara_4
+message,マリナ,Don't       Calamities       give       off       miasma       when       near?<br> ,100301000G,mcv_1001060701_017_01,chara_4
 
 window,off
 wait,0.15
@@ -693,7 +693,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 
 window,on,0.15
-message,クルル,<size=28>But there is a bad smell for sure...                                <br><size=28>Though it's a bit different from before...<br> ,106701000G,mcv_1001060701_018_01,chara_1
+message,クルル,But       there       is       a       bad       smell       for       sure...<br>Though       it's       a       bit       different       from       before...<br> ,106701000G,mcv_1001060701_018_01,chara_1
 
 window,off
 wait,0.15
@@ -745,7 +745,7 @@ asynccharaemo,chara_7,BePeevish,CONT,0
 
 
 window,on,0.15
-message,ロジー,<size=28>You're doubting Goleinu's sensors~!?<br> ,2036001,mcv_1001060701_019_01,chara_7
+message,ロジー,You're       doubting       Goleinu's       sensors~!?<br> ,2036001,mcv_1001060701_019_01,chara_7
 
 asyncjump,CHARA,chara_6,30,0.25,1,off,0,CONT
 
@@ -754,9 +754,9 @@ asyncseplay,setag1_21,se4800016,0,1,CONT,0
 asynccharaemo,chara_6,BePeevish,CONT,0
 
 
-message,ゴレイヌ,<size=28>I've touched both a Calamity and that hooded man.                   <br><size=28>No way I'd make a measurement error!<br> ,2037001,mcv_1001060701_020_01,chara_6
+message,ゴレイヌ,I've       touched       both       a       Calamity       and       that       hooded       man.<br>No       way       I'd       make       a       measurement       error!<br> ,2037001,mcv_1001060701_020_01,chara_6
 
-message,<user>,<size=28>Actually，calling him a Calamity isn't far off.<br> 
+message,<user>,Actually，calling       him       a       Calamity       isn't       far       off.<br> 
 
 window,off
 wait,0.15
@@ -811,9 +811,9 @@ asynccharaemo,chara_5,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,<size=28>No way... the bandit is... a Calamity!?<br> ,106601000G,mcv_1001060701_021_01,chara_5
+message,ヒマリ,No       way...       the       bandit       is...       a       Calamity!?<br> ,106601000G,mcv_1001060701_021_01,chara_5
 
-message,<user>,<size=28>The bandit boss isn't a Calamity himself.                           <br><size=28>Most likely，his body was taken over by one...<br> 
+message,<user>,The       bandit       boss       isn't       a       Calamity       himself.<br>Most       likely，his       body       was       taken       over       by       one...<br> 
 
 window,off
 wait,0.15
@@ -878,11 +878,11 @@ asynccharaemo,chara_2,Question,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=28>His body taken over by a Calamity!?                                 <br><size=28>Is that even possible...?<br> ,106501000G,mcv_1001060701_022_01,chara_2
+message,ソフィア,His       body       taken       over       by       a       Calamity!?<br>Is       that       even       possible...?<br> ,106501000G,mcv_1001060701_022_01,chara_2
 
-message,<user>,<size=28>I don't have sensors like Goleinu，                                  <br><size=28>but I sensed something dire from that hooded man.<br> 
+message,<user>,I       don't       have       sensors       like       Goleinu，<br>but       I       sensed       something       dire       from       that       hooded       man.<br> 
 
-message,<user>,<size=28>The same aura I felt facing the Calamity of Famine.<br> 
+message,<user>,The       same       aura       I       felt       facing       the       Calamity       of       Famine.<br> 
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -893,7 +893,7 @@ asyncseplay,setag1_24,se4800015,0,1,CONT,0
 asynccharaemo,chara_3,Dull,CONT,0
 
 
-message,ベリサ,<size=28>True，his head was all messed up yet he was alive...                 <br><size=28>He's definitely not ordinary.<br> ,100201000G,mcv_1001060701_023_01,chara_3
+message,ベリサ,True，his       head       was       all       messed       up       yet       he       was       alive...<br>He's       definitely       not       ordinary.<br> ,100201000G,mcv_1001060701_023_01,chara_3
 
 window,off
 wait,0.15
@@ -945,9 +945,9 @@ asynccharaemo,chara_6,Speak,CONT,0
 
 
 window,on,0.15
-message,ゴレイヌ,<size=28>Commander sir，you'll see what he really is soon~...<br> ,2037001,mcv_1001060701_024_01,chara_6
+message,ゴレイヌ,Commander       sir，you'll       see       what       he       really       is       soon~...<br> ,2037001,mcv_1001060701_024_01,chara_6
 
-message,<user>,<size=28>So it seems.<br> 
+message,<user>,So       it       seems.<br> 
 
 window,off
 wait,0.15
@@ -986,9 +986,9 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,,<size=28>All eyes turn to the towering monument at the center.               <br><size=28>From its shadow，a single figure slowly emerges.<br> 
+message,,All       eyes       turn       to       the       towering       monument       at       the       center.<br>From       its       shadow，a       single       figure       slowly       emerges.<br> 
 
-message,,<size=28>His body is the bandit boss's vessel，yet his ominous                <br><size=28>aura turns flowers in his path to black dust.<br> 
+message,,His       body       is       the       bandit       boss's       vessel，yet       his       ominous<br>aura       turns       flowers       in       his       path       to       black       dust.<br> 
 
 window,off
 wait,0.15
@@ -1039,7 +1039,7 @@ asynccharaemo,chara_6,Anger,CONT,0
 
 
 window,on,0.15
-message,ゴレイヌ,<size=28>That bastard...!<br> ,2037001,mcv_1001060701_025_01,chara_6
+message,ゴレイヌ,That       bastard...!<br> ,2037001,mcv_1001060701_025_01,chara_6
 
 asynccharaface,chara_7,FaceSurprise,CONT,0
 
@@ -1050,7 +1050,7 @@ asyncseplay,setag1_27,se4800007,0,1,CONT,0
 asynccharaemo,chara_7,Panic,CONT,0
 
 
-message,ロジー,<size=28>Goleinu! Don't let your emotions take over!                         <br><size=28>We can't make the same mistake as last time!<br> ,2036001,mcv_1001060701_026_01,chara_7
+message,ロジー,Goleinu!       Don't       let       your       emotions       take       over!<br>We       can't       make       the       same       mistake       as       last       time!<br> ,2036001,mcv_1001060701_026_01,chara_7
 
 asyncshake,CHARA,chara_6,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1059,7 +1059,7 @@ asyncseplay,setag1_28,se4800007,0,1,CONT,0
 asynccharaemo,chara_6,Panic,CONT,0
 
 
-message,ゴレイヌ,<size=28>Grrrrrr~~~...<br> ,2037001,mcv_1001060701_027_01,chara_6
+message,ゴレイヌ,Grrrrrr~~~...<br> ,2037001,mcv_1001060701_027_01,chara_6
 
 window,off
 wait,0.15
@@ -1101,26 +1101,26 @@ asyncjump,CHARA,chara_8,-30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,人型厄災,<size=28>——At last，you've arrived，humans.<br> ,301201000,mcv_1001060701_028_01,chara_8
+message,人型厄災,——At       last，you've       arrived，humans.<br> ,301201000,mcv_1001060701_028_01,chara_8
 
-message,<user>,<size=28>What are you doing here!?<br> 
+message,<user>,What       are       you       doing       here!?<br> 
 
 asyncshake,CHARA,chara_8,20,0,0.5,1,off,off,0,off,CONT,0
 
 
-message,人型厄災,<size=28>A foolish question.                                                 <br><size=28>I merely came to harvest the ripened fruit.<br> ,301201000,mcv_1001060701_029_01,chara_8
+message,人型厄災,A       foolish       question.<br>I       merely       came       to       harvest       the       ripened       fruit.<br> ,301201000,mcv_1001060701_029_01,chara_8
 
 asyncjump,CHARA,chara_8,-30,0.25,1,off,0,CONT
 
 
-message,人型厄災,<size=28>The exquisite despair of humans filling this land...                <br><size=28>The 'Fruit of Ruin' that grew from it.<br> ,301201000,mcv_1001060701_030_01,chara_8
+message,人型厄災,The       exquisite       despair       of       humans       filling       this       land...<br>The       'Fruit       of       Ruin'       that       grew       from       it.<br> ,301201000,mcv_1001060701_030_01,chara_8
 
 asyncjump,CHARA,chara_8,30,0.25,1,off,0,CONT
 
 
-message,人型厄災,<size=28>By devouring it，I have reclaimed my true power!<br> ,301201000,mcv_1001060701_031_01,chara_8
+message,人型厄災,By       devouring       it，I       have       reclaimed       my       true       power!<br> ,301201000,mcv_1001060701_031_01,chara_8
 
-message,<user>,<size=28>True power...?<br> 
+message,<user>,True       power...?<br> 
 
 window,off
 wait,0.15
@@ -1163,7 +1163,7 @@ asynccharaemo,chara_5,Anger,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,<size=28>You ate them...?                                                    <br><size=28>The souls of the townspeople buried here...<br> ,106601000G,mcv_1001060701_032_01,chara_5
+message,ヒマリ,You       ate       them...?<br>The       souls       of       the       townspeople       buried       here...<br> ,106601000G,mcv_1001060701_032_01,chara_5
 
 window,off
 wait,0.15
@@ -1203,31 +1203,31 @@ asyncjump,CHARA,chara_8,30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,人型厄災,<size=28>Those people chose the path to ruin themselves.                     <br><size=28>Surely it's better than wandering here forever?<br> ,301201000,mcv_1001060701_033_01,chara_8
+message,人型厄災,Those       people       chose       the       path       to       ruin       themselves.<br>Surely       it's       better       than       wandering       here       forever?<br> ,301201000,mcv_1001060701_033_01,chara_8
 
 asyncjump,CHARA,chara_8,-30.6,0.5,1,off,0,CONT
 
 
-message,人型厄災,<size=28>Now then，let us see once more.                                      <br><size=28>Show me how your fragile 'hearts' crack and crumble.<br> ,301201000,mcv_1001060701_034_01,chara_8
+message,人型厄災,Now       then，let       us       see       once       more.<br>Show       me       how       your       fragile       'hearts'       crack       and       crumble.<br> ,301201000,mcv_1001060701_034_01,chara_8
 
-message,<user>,<size=28>...What do you want?<br> 
+message,<user>,...What       do       you       want?<br> 
 
 asyncshake,CHARA,chara_8,20,0,0.5,1,off,off,0,off,CONT,0
 
 
-message,人型厄災,<size=28>What do I want? Did you think I'd mindlessly                        <br><size=28>devour this land like those other 'Calamities'?<br> ,301201000,mcv_1001060701_036_01,chara_8
+message,人型厄災,What       do       I       want?       Did       you       think       I'd       mindlessly<br>devour       this       land       like       those       other       'Calamities'?<br> ,301201000,mcv_1001060701_036_01,chara_8
 
 asyncjump,CHARA,chara_8,30,0.25,1,off,0,CONT
 
 
-message,人型厄災,<size=28>What I seek is a little game. Let me test                           <br><size=28>how strong your 'power' against Calamity truly is...<br> ,301201000,mcv_1001060701_037_01,chara_8
+message,人型厄災,What       I       seek       is       a       little       game.       Let       me       test<br>how       strong       your       'power'       against       Calamity       truly       is...<br> ,301201000,mcv_1001060701_037_01,chara_8
 
-message,<user>,<size=28>A game...!?<br> 
+message,<user>,A       game...!?<br> 
 
 asyncjump,CHARA,chara_8,-30,0.25,1,off,0,CONT
 
 
-message,人型厄災,<size=28>To lay bare all of humanity's desires and                           <br><size=28>destroy this world— that is my 'duty'...!<br> ,301201000,mcv_1001060701_038_01,chara_8
+message,人型厄災,To       lay       bare       all       of       humanity's       desires       and<br>destroy       this       world—       that       is       my       'duty'...!<br> ,301201000,mcv_1001060701_038_01,chara_8
 
 window,off
 wait,0.15
@@ -1265,14 +1265,14 @@ asyncjump,CHARA,chara_8,-30.6,0.5,1,off,0,CONT
 
 
 window,on,0.15
-message,人型厄災,<size=28>What humans cannot resist most is not violence，                     <br><size=28>not fear— but 'desire' welling from the soul's depths.<br> ,301201000,mcv_1001060701_039_01,chara_8
+message,人型厄災,What       humans       cannot       resist       most       is       not       violence，<br>not       fear—       but       'desire'       welling       from       the       soul's       depths.<br> ,301201000,mcv_1001060701_039_01,chara_8
 
 asyncjump,CHARA,chara_8,30,0.25,1,off,0,CONT
 
 
-message,人型厄災,<size=28>...Now，show me how far                                              <br><size=28>your 'hearts' can endure before that desire!<br> ,301201000,mcv_1001060701_040_01,chara_8
+message,人型厄災,...Now，show       me       how       far<br>your       'hearts'       can       endure       before       that       desire!<br> ,301201000,mcv_1001060701_040_01,chara_8
 
-message,<user>,<size=28>What are you planning...?<br> 
+message,<user>,What       are       you       planning...?<br> 
 
 window,off
 wait,0.15
@@ -1294,7 +1294,7 @@ asynccharamove,chara_8,Linear,Y,40,0.5,CONT,0
 asyncwait
 
 window,on,0.15
-message,,<size=28>The Calamity slowly extends a hand toward them.                     <br><size=28>——That was the signal.<br> 
+message,,The       Calamity       slowly       extends       a       hand       toward       them.<br>——That       was       the       signal.<br> 
 
 window,off
 wait,0.15
@@ -1375,7 +1375,7 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=28>Kyah...!?<br> ,106501000G,mcv_1001060701_041_01,chara_2
+message,ソフィア,Kyah...!?<br> ,106501000G,mcv_1001060701_041_01,chara_2
 
 window,off
 wait,0.15
@@ -1403,9 +1403,9 @@ asyncshake,CHARA,chara_7,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_8,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,,<size=28>Sophia was the first to cry out.                                    <br><size=28>She clutches her head and collapses to her knees.<br> 
+message,,Sophia       was       the       first       to       cry       out.<br>She       clutches       her       head       and       collapses       to       her       knees.<br> 
 
-message,<user>,<size=28>Sophia!?<br> 
+message,<user>,Sophia!?<br> 
 
 window,off
 wait,0.15
@@ -1443,7 +1443,7 @@ asyncseplay,setag1_32,se4800018,0,1,CONT,0
 asynccharaemo,chara_2,Flower,CONT,0
 
 window,on,0.15
-message,,<size=28>But the Commander's voice no longer reaches Sophia.                 <br><size=28>She gazes at nothing，smiling blissfully.<br> 
+message,,But       the       Commander's       voice       no       longer       reaches       Sophia.<br>She       gazes       at       nothing，smiling       blissfully.<br> 
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -1454,9 +1454,9 @@ asyncseplay,setag1_33,se4800003,0,1,CONT,0
 asynccharaemo,chara_2,Twinkle,CONT,0
 
 
-message,ソフィア,<size=28>Yes，it's an honor. I never imagined I'd be                          <br><size=28>awarded top student at the knight academy...!<br> ,106501000G,mcv_1001060701_042_01,chara_2
+message,ソフィア,Yes，it's       an       honor.       I       never       imagined       I'd       be<br>awarded       top       student       at       the       knight       academy...!<br> ,106501000G,mcv_1001060701_042_01,chara_2
 
-message,<user>,<size=28>Damn...! Sophia! Snap out of it!<br> 
+message,<user>,Damn...!       Sophia!       Snap       out       of       it!<br> 
 
 asyncseplay,setag1_34,se4400063,0,1,CONT,0
 
@@ -1470,7 +1470,7 @@ asyncseplay,setag1_36,se4400063,0,1,CONT,0
 
 wait,0.5
 
-message,,<size=28>Starting with Sophia，they fall one by one，                          <br><size=28>each with an ecstatic look as if lost in sweet dreams.<br> 
+message,,Starting       with       Sophia，they       fall       one       by       one，<br>each       with       an       ecstatic       look       as       if       lost       in       sweet       dreams.<br> 
 
 window,off
 wait,0.15
@@ -1511,7 +1511,7 @@ asynccharaemo,chara_3,Spirits,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=28>Finally~，everyone gets it~♪ That's right!                           <br><size=28>I'm the world's cutest strongest mage，Verisa-chan♡<br> ,100201000G,mcv_1001060701_043_01,chara_3
+message,ベリサ,Finally~，everyone       gets       it~♪       That's       right!<br>I'm       the       world's       cutest       strongest       mage，Verisa-chan♡<br> ,100201000G,mcv_1001060701_043_01,chara_3
 
 window,off
 wait,0.15
@@ -1552,7 +1552,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,クルル,<size=28>Mom and Dad... you were here all along...!<br> ,106701000G,mcv_1001060701_044_01,chara_1
+message,クルル,Mom       and       Dad...       you       were       here       all       along...!<br> ,106701000G,mcv_1001060701_044_01,chara_1
 
 window,off
 wait,0.15
@@ -1593,11 +1593,11 @@ asynccharaemo,chara_4,Twinkle,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=28>Ehehe♡ Ahaa♡ It's finally，finally complete♡                         <br><size=28>My dream golden Marina Castle♡<br> ,100301000G,mcv_1001060701_045_01,chara_4
+message,マリナ,Ehehe♡       Ahaa♡       It's       finally，finally       complete♡<br>My       dream       golden       Marina       Castle♡<br> ,100301000G,mcv_1001060701_045_01,chara_4
 
-message,<user>,<size=28>Damn...! A psychic attack!?                                         <br><size=28>Everyone，snap out of it! It's all an illusion!<br> 
+message,<user>,Damn...!       A       psychic       attack!?<br>Everyone，snap       out       of       it!       It's       all       an       illusion!<br> 
 
-message,,<size=28>But his cries are in vain—                                          <br><size=28>one by one they sink deeper into their sweet desires.<br> 
+message,,But       his       cries       are       in       vain—<br>one       by       one       they       sink       deeper       into       their       sweet       desires.<br> 
 
 window,off
 wait,0.15
@@ -1637,26 +1637,26 @@ asyncjump,CHARA,chara_8,-30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,人型厄災,<size=28>Heh... your companions are splendidly                               <br><size=28>enslaved by their own desires.<br> ,301201000,mcv_1001060701_046_01,chara_8
+message,人型厄災,Heh...       your       companions       are       splendidly<br>enslaved       by       their       own       desires.<br> ,301201000,mcv_1001060701_046_01,chara_8
 
-message,<user>,<size=28>Guh...!<br> 
+message,<user>,Guh...!<br> 
 
 asyncjump,CHARA,chara_8,30,0.25,1,off,0,CONT
 
 
-message,人型厄災,<size=28>You too will soon fall into the world of desire.                    <br><size=28>Do not resist— desire is the bedrock of humanity.<br> ,301201000,mcv_1001060701_047_01,chara_8
+message,人型厄災,You       too       will       soon       fall       into       the       world       of       desire.<br>Do       not       resist—       desire       is       the       bedrock       of       humanity.<br> ,301201000,mcv_1001060701_047_01,chara_8
 
 asyncshake,CHARA,chara_8,20,0,0.5,1,off,off,0,off,CONT,0
 
 
-message,人型厄災,<size=28>Do not look away. Accept your desires.<br> ,301201000,mcv_1001060701_048_01,chara_8
+message,人型厄災,Do       not       look       away.       Accept       your       desires.<br> ,301201000,mcv_1001060701_048_01,chara_8
 
-message,<user>,<size=28>Damn... you...!<br> 
+message,<user>,Damn...       you...!<br> 
 
 asyncjump,CHARA,chara_8,-30.6,0.5,1,off,0,CONT
 
 
-message,人型厄災,<size=28>Your companions will never return from desire.                      <br><size=28>Rot and crumble here!<br> ,301201000,mcv_1001060701_049_01,chara_8
+message,人型厄災,Your       companions       will       never       return       from       desire.<br>Rot       and       crumble       here!<br> ,301201000,mcv_1001060701_049_01,chara_8
 
 window,off
 wait,0.15
@@ -1686,7 +1686,7 @@ asynctransitionFade,Tra13,in,black,0,STOP,1
 waitorclick,0.5
 
 window,on,0.15
-message,,<size=28>He fights to resist，but consciousness fades.                        <br><size=28>And at last，he falls into the dream of desire——<br> 
+message,,He       fights       to       resist，but       consciousness       fades.<br>And       at       last，he       falls       into       the       dream       of       desire——<br> 
 
 window,off
 bgmstop,bgmtag1_2,0.5

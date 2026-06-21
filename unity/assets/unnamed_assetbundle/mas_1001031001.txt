@@ -65,7 +65,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=28>Himari...<br> ,300501000,mcv_1001031001_001_01,chara_1
+message,シエナ,Himari...<br> ,300501000,mcv_1001031001_001_01,chara_1
 
 window,off
 wait,0.15
@@ -101,7 +101,7 @@ asynccharaemo,chara_2,Sleepy,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,<size=28>...<br> ,106601001G,mcv_1001031001_002_01,chara_2
+message,ヒマリ,...<br> ,106601001G,mcv_1001031001_002_01,chara_2
 
 window,off
 wait,0.15
@@ -148,7 +148,7 @@ asyncseplay,setag1_4,se4800017,0,1,STOP,0.1
 asynccharaemo,chara_1,Shock,STOP,0.1
 
 window,on,0.15
-message,,<size=28>Knock knock!<br> 
+message,,Knock       knock!<br> 
 
 window,off
 wait,0.15
@@ -193,7 +193,7 @@ wait,0.5
 wait,0.5
 
 window,on,0.15
-message,<user>,<size=28>Sorry to intrude.<br> 
+message,<user>,Sorry       to       intrude.<br> 
 
 window,off
 wait,0.15
@@ -210,7 +210,7 @@ wait,0.5
 
 
 window,on,0.15
-message,シエナ,<size=28>Commander-san...<br> ,300501000,mcv_1001031001_003_01,chara_1
+message,シエナ,Commander-san...<br> ,300501000,mcv_1001031001_003_01,chara_1
 
 window,off
 wait,0.15
@@ -258,7 +258,7 @@ asynccharaemo,chara_3,Speak,CONT,0
 
 
 window,on,0.15
-message,アリシア,<size=28>Good evening，Shiena. Sorry to visit so late at night.<br> ,300201000,mcv_1001031001_004_01,chara_3
+message,アリシア,Good       evening，Shiena.       Sorry       to       visit       so       late       at       night.<br> ,300201000,mcv_1001031001_004_01,chara_3
 
 window,off
 wait,0.15
@@ -312,7 +312,7 @@ asynccharaemo,chara_4,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,<size=28>Kururu's here too〜!<br> ,106701000G,mcv_1001031001_005_01,chara_4
+message,クルル,Kururu's       here       too〜!<br> ,106701000G,mcv_1001031001_005_01,chara_4
 
 window,off
 wait,0.15
@@ -396,7 +396,7 @@ asynccharaemo,chara_5,Panic,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=28>Come on，squeeze in further—it's cramped〜.<br> ,100201000G,mcv_1001031001_006_01,chara_5
+message,ベリサ,Come       on，squeeze       in       further—it's       cramped〜.<br> ,100201000G,mcv_1001031001_006_01,chara_5
 
 asyncjump,CHARA,chara_6,-30.6,0.5,1,off,0,CONT
 
@@ -405,7 +405,7 @@ asyncseplay,setag1_10,se4800008,0,1,CONT,0
 asynccharaemo,chara_6,Sweat,CONT,0
 
 
-message,ソフィア,<size=28>Sorry about this. Barging in with such a large group...<br> ,106501000G,mcv_1001031001_007_01,chara_6
+message,ソフィア,Sorry       about       this.       Barging       in       with       such       a       large       group...<br> ,106501000G,mcv_1001031001_007_01,chara_6
 
 asynccharaface,chara_7,FaceFun,CONT,0
 
@@ -416,7 +416,7 @@ asyncseplay,setag1_11,se4800004,0,1,CONT,0
 asynccharaemo,chara_7,Laugh,CONT,0
 
 
-message,マリナ,<size=28>We were so worried，we all came charging over〜♪<br> ,100301000G,mcv_1001031001_008_01,chara_7
+message,マリナ,We       were       so       worried，we       all       came       charging       over〜♪<br> ,100301000G,mcv_1001031001_008_01,chara_7
 
 window,off
 wait,0.15
@@ -467,11 +467,11 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=28>Everyone too...<br> ,300501000,mcv_1001031001_009_01,chara_1
+message,シエナ,Everyone       too...<br> ,300501000,mcv_1001031001_009_01,chara_1
 
-message,<user>,<size=28>Sorry about this. Everyone is just dying                            <br><size=28>to see the girl from another world.<br> 
+message,<user>,Sorry       about       this.       Everyone       is       just       dying<br>to       see       the       girl       from       another       world.<br> 
 
-message,<user>,<size=28>So，how is Himari doing?<br> 
+message,<user>,So，how       is       Himari       doing?<br> 
 
 window,off
 wait,0.15
@@ -516,11 +516,11 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=28>...She hasn't woken up yet. She was quite exhausted...<br> ,300501000,mcv_1001031001_010_01,chara_1
+message,シエナ,...She       hasn't       woken       up       yet.       She       was       quite       exhausted...<br> ,300501000,mcv_1001031001_010_01,chara_1
 
-message,<user>,<size=28>She saw Shiena's face after being rescued                           <br><size=28>and immediately lost consciousness.<br> 
+message,<user>,She       saw       Shiena's       face       after       being       rescued<br>and       immediately       lost       consciousness.<br> 
 
-message,<user>,<size=28>She was freed from prolonged tension and fear，                      <br><size=28>and felt safe enough to collapse.<br> 
+message,<user>,She       was       freed       from       prolonged       tension       and       fear，<br>and       felt       safe       enough       to       collapse.<br> 
 
 window,off
 wait,0.15
@@ -540,7 +540,7 @@ wait,0.5
 
 
 window,on,0.15
-message,シエナ,<size=28>I think so too. The tension snapped，                                <br><size=28>and exhaustion took over all at once.<br> ,300501000,mcv_1001031001_011_01,chara_1
+message,シエナ,I       think       so       too.       The       tension       snapped，<br>and       exhaustion       took       over       all       at       once.<br> ,300501000,mcv_1001031001_011_01,chara_1
 
 window,off
 wait,0.15
@@ -583,7 +583,7 @@ asynccharaemo,chara_5,Dull,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=28>She was alone in the Abyss for days，right~?                         <br><size=28>Just being alive is impressive if you ask me.<br> ,100201000G,mcv_1001031001_012_01,chara_5
+message,ベリサ,She       was       alone       in       the       Abyss       for       days，right~?<br>Just       being       alive       is       impressive       if       you       ask       me.<br> ,100201000G,mcv_1001031001_012_01,chara_5
 
 window,off
 wait,0.15
@@ -640,7 +640,7 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,アリシア,<size=28>She must have felt so alone...                                      <br><size=28>I can't imagine how hard she fought to survive...<br> ,300201000,mcv_1001031001_013_01,chara_3
+message,アリシア,She       must       have       felt       so       alone...<br>I       can't       imagine       how       hard       she       fought       to       survive...<br> ,300201000,mcv_1001031001_013_01,chara_3
 
 window,off
 wait,0.15
@@ -697,7 +697,7 @@ asynccharaemo,chara_7,Trouble,STOP,5
 
 
 window,on,0.15
-message,マリナ,<size=28>I'd say it was thanks to that supply shed.                          <br><size=28>Ugh，I want to rummage through it again...!<br> ,100301000G,mcv_1001031001_014_01,chara_7
+message,マリナ,I'd       say       it       was       thanks       to       that       supply       shed.<br>Ugh，I       want       to       rummage       through       it       again...!<br> ,100301000G,mcv_1001031001_014_01,chara_7
 
 window,off
 wait,0.15
@@ -754,7 +754,7 @@ asynccharaemo,chara_4,Spirits,CONT,0
 
 
 window,on,0.15
-message,クルル,<size=28>Kururu knows where it is〜? Want to go together〜?<br> ,106701000G,mcv_1001031001_015_01,chara_4
+message,クルル,Kururu       knows       where       it       is〜?       Want       to       go       together〜?<br> ,106701000G,mcv_1001031001_015_01,chara_4
 
 asynccharaface,chara_7,FaceUnique02,CONT,0
 
@@ -765,7 +765,7 @@ asyncseplay,setag1_20,se4800003,0,1,CONT,0
 asynccharaemo,chara_7,Twinkle,CONT,0
 
 
-message,マリナ,<size=28>Absolutely!!!<br> ,100301000G,mcv_1001031001_016_01,chara_7
+message,マリナ,Absolutely!!!<br> ,100301000G,mcv_1001031001_016_01,chara_7
 
 window,off
 wait,0.15
@@ -814,7 +814,7 @@ asynccharaemo,chara_6,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=28>Don't even think about it! You'd get put to sleep                   <br><size=28>by a Hypnosis Stone and become monster food.<br> ,106501000G,mcv_1001031001_017_01,chara_6
+message,ソフィア,Don't       even       think       about       it!       You'd       get       put       to       sleep<br>by       a       Hypnosis       Stone       and       become       monster       food.<br> ,106501000G,mcv_1001031001_017_01,chara_6
 
 window,off
 wait,0.15
@@ -879,7 +879,7 @@ asynccharaemo,chara_7,Spirits,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=28>Hehehe. A merchant never repeats the same mistake♪                  <br><size=28>Rather，I'm thinking of bringing back a whole batch~♡<br> ,100301000G,mcv_1001031001_018_01,chara_7
+message,マリナ,Hehehe.       A       merchant       never       repeats       the       same       mistake♪<br>Rather，I'm       thinking       of       bringing       back       a       whole       batch~♡<br> ,100301000G,mcv_1001031001_018_01,chara_7
 
 window,off
 wait,0.15
@@ -932,7 +932,7 @@ asynccharaemo,chara_4,Panic,CONT,0
 
 
 window,on,0.15
-message,クルル,<size=28>Marina is making such an evil face〜!<br> ,106701000G,mcv_1001031001_019_01,chara_4
+message,クルル,Marina       is       making       such       an       evil       face〜!<br> ,106701000G,mcv_1001031001_019_01,chara_4
 
 window,off
 wait,0.15
@@ -993,7 +993,7 @@ asynccharaemo,chara_5,Laugh,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=28>When Marina's thinking about money，she always makes that face〜?<br> ,100201000G,mcv_1001031001_020_01,chara_5
+message,ベリサ,When       Marina's       thinking       about       money，she       always       makes       that       face〜?<br> ,100201000G,mcv_1001031001_020_01,chara_5
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -1004,7 +1004,7 @@ asyncseplay,setag1_25,se4800004,0,1,CONT,0
 asynccharaemo,chara_4,Laugh,CONT,0
 
 
-message,クルル,<size=28>Is that so〜!<br> ,106701000G,mcv_1001031001_021_01,chara_4
+message,クルル,Is       that       so〜!<br> ,106701000G,mcv_1001031001_021_01,chara_4
 
 window,off
 wait,0.15
@@ -1053,7 +1053,7 @@ asynccharaemo,chara_6,Anger,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=28>Can you keep it down a little! There's a sick person here...<br> ,106501000G,mcv_1001031001_022_01,chara_6
+message,ソフィア,Can       you       keep       it       down       a       little!       There's       a       sick       person       here...<br> ,106501000G,mcv_1001031001_022_01,chara_6
 
 window,off
 wait,0.15
@@ -1124,7 +1124,7 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,クルル,<size=28>Wawa! Sor〜ry!<br> ,106701000G,mcv_1001031001_023_01,chara_4
+message,クルル,Wawa!       Sor〜ry!<br> ,106701000G,mcv_1001031001_023_01,chara_4
 
 window,off
 wait,0.15
@@ -1189,9 +1189,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=28>Commander-san... thank you.                                         <br><size=28>For letting Himari use a room.<br> ,300501000,mcv_1001031001_024_01,chara_1
+message,シエナ,Commander-san...       thank       you.<br>For       letting       Himari       use       a       room.<br> ,300501000,mcv_1001031001_024_01,chara_1
 
-message,<user>,<size=28>We can't turn away someone in need. Besides，                        <br><size=28>Adelheid's equipped the base with medical gear.<br> 
+message,<user>,We       can't       turn       away       someone       in       need.       Besides，<br>Adelheid's       equipped       the       base       with       medical       gear.<br> 
 
 asynccharaface,chara_3,FaceFun,CONT,0
 
@@ -1202,7 +1202,7 @@ asyncseplay,setag1_31,se4800013,0,1,CONT,0
 asynccharaemo,chara_3,Spirits,CONT,0
 
 
-message,アリシア,<size=28>Don't worry—Adelheid and I are watching                             <br><size=28>Himari's condition closely!<br> ,300201000,mcv_1001031001_025_01,chara_3
+message,アリシア,Don't       worry—Adelheid       and       I       are       watching<br>Himari's       condition       closely!<br> ,300201000,mcv_1001031001_025_01,chara_3
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1213,7 +1213,7 @@ asyncseplay,setag1_32,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,シエナ,<size=28>Thank you...<br> ,300501000,mcv_1001031001_026_01,chara_1
+message,シエナ,Thank       you...<br> ,300501000,mcv_1001031001_026_01,chara_1
 
 window,off
 wait,0.15
@@ -1263,9 +1263,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=28>Himari... I'm so glad we rescued her...                             <br><size=28>being alone in a place like that...<br> ,300501000,mcv_1001031001_027_01,chara_1
+message,シエナ,Himari...       I'm       so       glad       we       rescued       her...<br>being       alone       in       a       place       like       that...<br> ,300501000,mcv_1001031001_027_01,chara_1
 
-message,<user>,<size=28>She survived there for days on her own.                             <br><size=28>You could call it a miracle，or good luck.<br> 
+message,<user>,She       survived       there       for       days       on       her       own.<br>You       could       call       it       a       miracle，or       good       luck.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1276,7 +1276,7 @@ asyncseplay,setag1_34,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,シエナ,<size=28>You worked so hard... I'm sorry we couldn't rescue you sooner...<br> ,300501000,mcv_1001031001_028_01,chara_1
+message,シエナ,You       worked       so       hard...       I'm       sorry       we       couldn't       rescue       you       sooner...<br> ,300501000,mcv_1001031001_028_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1287,9 +1287,9 @@ asyncseplay,setag1_35,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,シエナ,<size=28>From now on，I'll protect you...                                     <br><size=28>I'll definitely get you back to your world...!<br> ,300501000,mcv_1001031001_029_01,chara_1
+message,シエナ,From       now       on，I'll       protect       you...<br>I'll       definitely       get       you       back       to       your       world...!<br> ,300501000,mcv_1001031001_029_01,chara_1
 
-message,<user>,<size=28>Back to her original world... is there any way to do that?<br> 
+message,<user>,Back       to       her       original       world...       is       there       any       way       to       do       that?<br> 
 
 window,off
 wait,0.15
@@ -1309,7 +1309,7 @@ wait,0.5
 
 
 window,on,0.15
-message,シエナ,<size=28>No，we haven't found any method yet. But there must be one...<br> ,300501000,mcv_1001031001_030_01,chara_1
+message,シエナ,No，we       haven't       found       any       method       yet.       But       there       must       be       one...<br> ,300501000,mcv_1001031001_030_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1320,9 +1320,9 @@ asyncseplay,setag1_37,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,シエナ,<size=28>We came through the Abyss's spacetime distortion.                   <br><size=28>There must be a way back through it too...<br> ,300501000,mcv_1001031001_031_01,chara_1
+message,シエナ,We       came       through       the       Abyss's       spacetime       distortion.<br>There       must       be       a       way       back       through       it       too...<br> ,300501000,mcv_1001031001_031_01,chara_1
 
-message,<user>,<size=28>I see. Investigating that is one of your group's activities，right.<br> 
+message,<user>,I       see.       Investigating       that       is       one       of       your       group's       activities，right.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1333,7 +1333,7 @@ asyncseplay,setag1_38,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,シエナ,<size=28>Yes. I will definitely find a way. For Himari's sake too...<br> ,300501000,mcv_1001031001_032_01,chara_1
+message,シエナ,Yes.       I       will       definitely       find       a       way.       For       Himari's       sake       too...<br> ,300501000,mcv_1001031001_032_01,chara_1
 
 window,off
 wait,0.15
@@ -1393,7 +1393,7 @@ wait,0.5
 
 
 window,on,0.15
-message,アリシア,<size=28>Don't worry about Himari. The forward base                          <br><size=28>will take responsibility and nurse her to health!<br> ,300201000,mcv_1001031001_033_01,chara_3
+message,アリシア,Don't       worry       about       Himari.       The       forward       base<br>will       take       responsibility       and       nurse       her       to       health!<br> ,300201000,mcv_1001031001_033_01,chara_3
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1404,11 +1404,11 @@ asyncseplay,setag1_40,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,シエナ,<size=28>Thank you...<br> ,300501000,mcv_1001031001_034_01,chara_1
+message,シエナ,Thank       you...<br> ,300501000,mcv_1001031001_034_01,chara_1
 
-message,<user>,<size=28>Hey，what kind of place is this world that Shiena and Himari came    <br><size=28>from?<br> 
+message,<user>,Hey，what       kind       of       place       is       this       world       that       Shiena       and       Himari       came<br>from?<br> 
 
-message,<user>,<size=28>That shed and Himari's machines all seemed                          <br><size=28>to come from quite an advanced civilization...<br> 
+message,<user>,That       shed       and       Himari's       machines       all       seemed<br>to       come       from       quite       an       advanced       civilization...<br> 
 
 window,off
 wait,0.15
@@ -1457,7 +1457,7 @@ asynccharaemo,chara_6,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=28>Excuse me，Commander. Shouldn't we let Shiena rest for now...<br> ,106501000G,mcv_1001031001_035_01,chara_6
+message,ソフィア,Excuse       me，Commander.       Shouldn't       we       let       Shiena       rest       for       now...<br> ,106501000G,mcv_1001031001_035_01,chara_6
 
 window,off
 wait,0.15
@@ -1500,7 +1500,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 
 window,on,0.15
-message,シエナ,<size=28>No，it's fine，Sophia. This is my fault                               <br><size=28>for not telling everyone from the start.<br> ,300501000,mcv_1001031001_036_01,chara_1
+message,シエナ,No，it's       fine，Sophia.       This       is       my       fault<br>for       not       telling       everyone       from       the       start.<br> ,300501000,mcv_1001031001_036_01,chara_1
 
 window,off
 wait,0.15
@@ -1520,9 +1520,9 @@ wait,0.5
 
 
 window,on,0.15
-message,シエナ,<size=28>I've already told Adelheid，but I need to tell everyone else too.<br> ,300501000,mcv_1001031001_037_01,chara_1
+message,シエナ,I've       already       told       Adelheid，but       I       need       to       tell       everyone       else       too.<br> ,300501000,mcv_1001031001_037_01,chara_1
 
-message,<user>,<size=28>I'm not forcing you. But I thought staying                          <br><size=28>uninformed could cause problems later.<br> 
+message,<user>,I'm       not       forcing       you.       But       I       thought       staying<br>uninformed       could       cause       problems       later.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1533,7 +1533,7 @@ asyncseplay,setag1_44,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,シエナ,<size=28>It's fine，I can talk about it. It's only a matter of sooner or      <br><size=28>later.<br> ,300501000,mcv_1001031001_038_01,chara_1
+message,シエナ,It's       fine，I       can       talk       about       it.       It's       only       a       matter       of       sooner       or<br>later.<br> ,300501000,mcv_1001031001_038_01,chara_1
 
 window,off
 wait,0.15
@@ -1553,7 +1553,7 @@ wait,0.5
 
 
 window,on,0.15
-message,シエナ,<size=28>Himari and I came to this world from the same era and the same      <br><size=28>region.<br> ,300501000,mcv_1001031001_039_01,chara_1
+message,シエナ,Himari       and       I       came       to       this       world       from       the       same       era       and       the       same<br>region.<br> ,300501000,mcv_1001031001_039_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1565,7 +1565,7 @@ asyncseplay,setag1_46,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,シエナ,<size=28>From an era called Reiwa——from a country called Japan——<br> ,300501000,mcv_1001031001_040_01,chara_1
+message,シエナ,From       an       era       called       Reiwa——from       a       country       called       Japan——<br> ,300501000,mcv_1001031001_040_01,chara_1
 
 window,off
 bgmstop,bgmtag1_2,0.5

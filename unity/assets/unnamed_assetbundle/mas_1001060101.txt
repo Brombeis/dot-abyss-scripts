@@ -42,15 +42,15 @@ wait,0.15
 
 
 window,on,0.15
-message,,<size=28>Reports from the ruined city are scattered                          <br><size=28>across the desk. A dim lamp casts shadows.<br> 
+message,,Reports       from       the       ruined       city       are       scattered<br>across       the       desk.       A       dim       lamp       casts       shadows.<br> 
 
-message,,<size=28>The Commander sits alone，                                           <br><size=28>glaring at the reports with a deep frown.<br> 
+message,,The       Commander       sits       alone，<br>glaring       at       the       reports       with       a       deep       frown.<br> 
 
 asyncseplay,setag1_1,se4300001,0,1,CONT,0
 
-message,,<size=28>*Knock knock!*<br> 
+message,,*Knock       knock!*<br> 
 
-message,アリシア,<size=28>Excuse me!<br> ,300201000,mcv_1001060101_001_01,on
+message,アリシア,Excuse       me!<br> ,300201000,mcv_1001060101_001_01,on
 
 window,off
 wait,0.15
@@ -85,7 +85,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,,<size=28>The door opens quietly，breaking the silence，                        <br><size=28>and Alicia steps inside.<br> 
+message,,The       door       opens       quietly，breaking       the       silence，<br>and       Alicia       steps       inside.<br> 
 
 window,off
 wait,0.15
@@ -139,9 +139,9 @@ asynccharaemo,chara_1,Shock,STOP,3
 
 
 window,on,0.15
-message,アリシア,<size=28>Commander，good work today.                                          <br><size=28>...You've been reviewing files this late?<br> ,300201000,mcv_1001060101_002_01,chara_1
+message,アリシア,Commander，good       work       today.<br>...You've       been       reviewing       files       this       late?<br> ,300201000,mcv_1001060101_002_01,chara_1
 
-message,<user>,<size=28>Yeah.<br> 
+message,<user>,Yeah.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -152,7 +152,7 @@ asyncseplay,setag1_5,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,アリシア,<size=28>I read the report. A ruined city，robots，                            <br><size=28>Soul Memory Stones，AI，a black tower，a beast...<br> ,300201000,mcv_1001060101_003_01,chara_1
+message,アリシア,I       read       the       report.       A       ruined       city，robots，<br>Soul       Memory       Stones，AI，a       black       tower，a       beast...<br> ,300201000,mcv_1001060101_003_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -163,11 +163,11 @@ asyncseplay,setag1_6,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,アリシア,<size=28>And... is it true the bandit boss                                   <br><size=28>from before is still alive?<br> ,300201000,mcv_1001060101_004_01,chara_1
+message,アリシア,And...       is       it       true       the       bandit       boss<br>from       before       is       still       alive?<br> ,300201000,mcv_1001060101_004_01,chara_1
 
-message,<user>,<size=28>Yeah. He vanished while we were fighting                            <br><size=28>the mechanical beast，though.<br> 
+message,<user>,Yeah.       He       vanished       while       we       were       fighting<br>the       mechanical       beast，though.<br> 
 
-message,<user>,<size=28>He was alive. Though it might be more                               <br><size=28>accurate to say only his 'body' was.<br> 
+message,<user>,He       was       alive.       Though       it       might       be       more<br>accurate       to       say       only       his       'body'       was.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -178,9 +178,9 @@ asyncseplay,setag1_7,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,アリシア,<size=28>Only his body...?<br> ,300201000,mcv_1001060101_005_01,chara_1
+message,アリシア,Only       his       body...?<br> ,300201000,mcv_1001060101_005_01,chara_1
 
-message,<user>,<size=28>The report left something out.                                      <br><size=28>His body was the boss's，but inside was different.<br> 
+message,<user>,The       report       left       something       out.<br>His       body       was       the       boss's，but       inside       was       different.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -191,9 +191,9 @@ asyncseplay,setag1_8,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,アリシア,<size=28>His personality changed?                                            <br><size=28>There were reports of a severe head injury...<br> ,300201000,mcv_1001060101_006_01,chara_1
+message,アリシア,His       personality       changed?<br>There       were       reports       of       a       severe       head       injury...<br> ,300201000,mcv_1001060101_006_01,chara_1
 
-message,<user>,<size=28>No，not a head injury level thing.                                   <br><size=28>It was as if he'd become something... inhuman.<br> 
+message,<user>,No，not       a       head       injury       level       thing.<br>It       was       as       if       he'd       become       something...       inhuman.<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -202,11 +202,11 @@ asyncseplay,setag1_9,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,アリシア,<size=28>Something inhuman...!?<br> ,300201000,mcv_1001060101_007_01,chara_1
+message,アリシア,Something       inhuman...!?<br> ,300201000,mcv_1001060101_007_01,chara_1
 
-message,<user>,<size=28>His presence felt nothing like a human's.                           <br><size=28>And those eyes...<br> 
+message,<user>,His       presence       felt       nothing       like       a       human's.<br>And       those       eyes...<br> 
 
-message,<user>,<size=28>I've felt it before.                                                <br><size=28>That freezing gaze that sees into your soul.<br> 
+message,<user>,I've       felt       it       before.<br>That       freezing       gaze       that       sees       into       your       soul.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -217,9 +217,9 @@ asyncseplay,setag1_10,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,アリシア,<size=28>Before?<br> ,300201000,mcv_1001060101_008_01,chara_1
+message,アリシア,Before?<br> ,300201000,mcv_1001060101_008_01,chara_1
 
-message,<user>,<size=28>Yeah. During the Abyss exploration.                                 <br><size=28>Those eyes were watching me the whole time...<br> 
+message,<user>,Yeah.       During       the       Abyss       exploration.<br>Those       eyes       were       watching       me       the       whole       time...<br> 
 
 window,off
 wait,0.15
@@ -235,9 +235,9 @@ asynccrossfade,0.1,0,0,1,1,STOP
 
 
 window,on,0.15
-message,<user>,<size=28>(No，not just that...                                                <br><size=28>That gaze— same as the Glacier and Famine Calamities...)<br> 
+message,<user>,(No，not       just       that...<br>That       gaze—       same       as       the       Glacier       and       Famine       Calamities...)<br> 
 
-message,<user>,<size=28>(The same aura as the Calamities...!?                               <br><size=28>Why would that man have it...)<br> 
+message,<user>,(The       same       aura       as       the       Calamities...!?<br>Why       would       that       man       have       it...)<br> 
 
 window,off
 wait,0.15
@@ -262,7 +262,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,アリシア,<size=28>Commander...?<br> ,300201000,mcv_1001060101_009_01,chara_1
+message,アリシア,Commander...?<br> ,300201000,mcv_1001060101_009_01,chara_1
 
 window,off
 wait,0.15
@@ -278,7 +278,7 @@ asynccrossfade,0.1,0,0,1,1,STOP
 
 
 window,on,0.15
-message,<user>,<size=28>(A humanoid Calamity...?                                            <br><size=28>Could such a thing exist...)<br> 
+message,<user>,(A       humanoid       Calamity...?<br>Could       such       a       thing       exist...)<br> 
 
 window,off
 wait,0.15
@@ -303,7 +303,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,アリシア,<size=28>Commander!<br> ,300201000,mcv_1001060101_010_01,chara_1
+message,アリシア,Commander!<br> ,300201000,mcv_1001060101_010_01,chara_1
 
 window,off
 wait,0.15
@@ -318,9 +318,9 @@ asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_5,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,,<size=28>Alicia's voice snaps him back to reality.<br> 
+message,,Alicia's       voice       snaps       him       back       to       reality.<br> 
 
-message,<user>,<size=28>Ah，sorry.                                                           <br><size=28>Too many things on my mind lately.<br> 
+message,<user>,Ah，sorry.<br>Too       many       things       on       my       mind       lately.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -331,9 +331,9 @@ asyncseplay,setag1_13,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,アリシア,<size=28>Are you alright，Commander? You look                                 <br><size=28>exhausted lately. Please rest early tonight.<br> ,300201000,mcv_1001060101_011_01,chara_1
+message,アリシア,Are       you       alright，Commander?       You       look<br>exhausted       lately.       Please       rest       early       tonight.<br> ,300201000,mcv_1001060101_011_01,chara_1
 
-message,<user>,<size=28>Yeah.                                                               <br><size=28>I'll do that.<br> 
+message,<user>,Yeah.<br>I'll       do       that.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -345,9 +345,9 @@ asyncseplay,setag1_14,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,アリシア,<size=28>Also，Commander.<br> ,300201000,mcv_1001060101_012_01,chara_1
+message,アリシア,Also，Commander.<br> ,300201000,mcv_1001060101_012_01,chara_1
 
-message,<user>,<size=28>Hm?<br> 
+message,<user>,Hm?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -358,9 +358,9 @@ asyncseplay,setag1_15,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,アリシア,<size=28>Don't shoulder everything alone，okay?                               <br><size=28>We're all on your side，Commander.<br> ,300201000,mcv_1001060101_013_01,chara_1
+message,アリシア,Don't       shoulder       everything       alone，okay?<br>We're       all       on       your       side，Commander.<br> ,300201000,mcv_1001060101_013_01,chara_1
 
-message,<user>,<size=28>Yeah... got it.                                                     <br><size=28>Thank you...<br> 
+message,<user>,Yeah...       got       it.<br>Thank       you...<br> 
 
 
 bgmstop,bgmtag1_1,1.5,0
@@ -458,32 +458,32 @@ asyncjump,CHARA,chara_2,-30.6,0.5,1,off,0,CONT
 
 
 window,on,0.15
-message,？？？,<size=28>Ohh... I can feel it，I can feel it...                               <br><size=28>This scent... there's no mistaking it...!<br> ,301201000,mcv_1001060101_014_01,chara_2
+message,？？？,Ohh...       I       can       feel       it，I       can       feel       it...<br>This       scent...       there's       no       mistaking       it...!<br> ,301201000,mcv_1001060101_014_01,chara_2
 
 asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
 
 
-message,？？？,<size=28>At last I've found it...                                            <br><size=28>The 'Fruit of Ruin' lies in this stratum...!<br> ,301201000,mcv_1001060101_015_01,chara_2
+message,？？？,At       last       I've       found       it...<br>The       'Fruit       of       Ruin'       lies       in       this       stratum...!<br> ,301201000,mcv_1001060101_015_01,chara_2
 
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
 
-message,？？？,<size=28>...With this I can reclaim my true 'power'!                         <br><size=28>Foolish humans. Let me test you once more.<br> ,301201000,mcv_1001060101_016_01,chara_2
+message,？？？,...With       this       I       can       reclaim       my       true       'power'!<br>Foolish       humans.       Let       me       test       you       once       more.<br> ,301201000,mcv_1001060101_016_01,chara_2
 
 asyncshake,CHARA,chara_2,20,0,0.5,1,off,off,0,off,CONT,0
 
 
-message,？？？,<size=28>This next trial won't be like                                       <br><size=28>a beast that merely devours your flesh.<br> ,301201000,mcv_1001060101_017_01,chara_2
+message,？？？,This       next       trial       won't       be       like<br>a       beast       that       merely       devours       your       flesh.<br> ,301201000,mcv_1001060101_017_01,chara_2
 
 asyncjump,CHARA,chara_2,-30.6,0.5,1,off,0,CONT
 
 
-message,？？？,<size=28>Deeper... crueler...                                                <br><size=28>A trial that devours your very 'souls'...<br> ,301201000,mcv_1001060101_018_01,chara_2
+message,？？？,Deeper...       crueler...<br>A       trial       that       devours       your       very       'souls'...<br> ,301201000,mcv_1001060101_018_01,chara_2
 
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
 
-message,？？？,<size=28>...This should be entertaining.                                     <br><size=28>What ending will the humans of this land show me?<br> ,301201000,mcv_1001060101_019_01,chara_2
+message,？？？,...This       should       be       entertaining.<br>What       ending       will       the       humans       of       this       land       show       me?<br> ,301201000,mcv_1001060101_019_01,chara_2
 
 
 bgmstop,bgmtag1_2,1.5,0
@@ -553,7 +553,7 @@ asynccharaemo,chara_4,Flower,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=28>Hm hm hmm~ hmm hmm~♪ Hmm hmm，hmm~~♪<br> ,100301000G,mcv_1001060101_028_01,chara_4
+message,マリナ,Hm       hm       hmm~       hmm       hmm~♪       Hmm       hmm，hmm~~♪<br> ,100301000G,mcv_1001060101_028_01,chara_4
 
 window,off
 wait,0.15
@@ -593,7 +593,7 @@ asynccharaemo,chara_5,Speak,CONT,0
 
 
 window,on,0.15
-message,？？？,<size=28>My，Marina.                                                          <br><size=28>You seem to be in high spirits.<br> ,300801000,mcv_1001060101_029_01,chara_5
+message,？？？,My，Marina.<br>You       seem       to       be       in       high       spirits.<br> ,300801000,mcv_1001060101_029_01,chara_5
 
 window,off
 wait,0.15
@@ -651,7 +651,7 @@ asynccharaemo,chara_4,Shock,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=28>Whaaat~~~!? Lady Aura~~!?                                           <br><size=28>Wh-when did you arrive at the base~!?<br> ,100301000G,mcv_1001060101_030_01,chara_4
+message,マリナ,Whaaat~~~!?       Lady       Aura~~!?<br>Wh-when       did       you       arrive       at       the       base~!?<br> ,100301000G,mcv_1001060101_030_01,chara_4
 
 asynccharaface,chara_5,FaceHappy,CONT,0
 
@@ -662,7 +662,7 @@ asyncseplay,setag1_19,se4800013,0,1,CONT,0
 asynccharaemo,chara_5,Spirits,CONT,0
 
 
-message,アウラ,<size=28>Hehe，long time no see，Marina.                                       <br><size=28>Here on an investigation. Arrived yesterday.<br> ,300801000,mcv_1001060101_031_01,chara_5
+message,アウラ,Hehe，long       time       no       see，Marina.<br>Here       on       an       investigation.       Arrived       yesterday.<br> ,300801000,mcv_1001060101_031_01,chara_5
 
 window,off
 wait,0.15
@@ -719,9 +719,9 @@ asyncwait,subimage_0_1
 asyncwait,subimage_0_2
 
 
-messageTextUnder,,<size=28>The woman Marina bumped into at the market                          <br><size=28>is Aura，a top diplomat from Eldorana.<br> ,,,on
+messageTextUnder,,The       woman       Marina       bumped       into       at       the       market<br>is       Aura，a       top       diplomat       from       Eldorana.<br> ,,,on
 
-messageTextUnder,,<size=28>She attended the Tri-Nation Summit and                              <br><size=28>was one of those who nominated him as base commander.<br> ,,,on
+messageTextUnder,,She       attended       the       Tri-Nation       Summit       and<br>was       one       of       those       who       nominated       him       as       base       commander.<br> ,,,on
 
 window,off
 wait,0.15
@@ -780,7 +780,7 @@ asynccharaemo,chara_5,Speak,CONT,0
 
 
 window,on,0.15
-message,アウラ,<size=28>Anyway，you seem awfully chipper.                                    <br><size=28>Business must be good?<br> ,300801000,mcv_1001060101_032_01,chara_5
+message,アウラ,Anyway，you       seem       awfully       chipper.<br>Business       must       be       good?<br> ,300801000,mcv_1001060101_032_01,chara_5
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -791,7 +791,7 @@ asyncseplay,setag1_21,se4800003,0,1,CONT,0
 asynccharaemo,chara_4,Twinkle,CONT,0
 
 
-message,マリナ,<size=28>Ahaha~~♪ It's so-so~.                                               <br><size=28>I actually had an amazing business idea~♪<br> ,100301000G,mcv_1001060101_033_01,chara_4
+message,マリナ,Ahaha~~♪       It's       so-so~.<br>I       actually       had       an       amazing       business       idea~♪<br> ,100301000G,mcv_1001060101_033_01,chara_4
 
 asynccharaface,chara_5,FaceHappy,CONT,0
 
@@ -802,7 +802,7 @@ asyncseplay,setag1_22,se4800004,0,1,CONT,0
 asynccharaemo,chara_5,Laugh,CONT,0
 
 
-message,アウラ,<size=28>Oh my，how promising.                                                <br><size=28>I wish you the best of luck.<br> ,300801000,mcv_1001060101_034_01,chara_5
+message,アウラ,Oh       my，how       promising.<br>I       wish       you       the       best       of       luck.<br> ,300801000,mcv_1001060101_034_01,chara_5
 
 asynccharaface,chara_4,EyeOpen,CONT,0
 asynccharaface,chara_4,FaceNormal,CONT,0
@@ -814,7 +814,7 @@ asyncseplay,setag1_23,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,マリナ,<size=28>Yes~♪                                                               <br><size=28>I found a mineral in the Abyss that could be huge~...<br> ,100301000G,mcv_1001060101_035_01,chara_4
+message,マリナ,Yes~♪<br>I       found       a       mineral       in       the       Abyss       that       could       be       huge~...<br> ,100301000G,mcv_1001060101_035_01,chara_4
 
 window,off
 wait,0.15
@@ -873,7 +873,7 @@ asynccharaemo,chara_4,Silence,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=28>(...Even with Lady Aura，I should keep the                           <br><size=28>Hypnosis Stones secret. No monopoly，no profit...)<br> ,100301000G,mcv_1001060101_036_01,chara_4
+message,マリナ,(...Even       with       Lady       Aura，I       should       keep       the<br>Hypnosis       Stones       secret.       No       monopoly，no       profit...)<br> ,100301000G,mcv_1001060101_036_01,chara_4
 
 window,off
 wait,0.15
@@ -934,7 +934,7 @@ asynccharaemo,chara_5,Trouble,CONT,0
 
 
 window,on,0.15
-message,アウラ,<size=28>Abyss minerals，you say... Actually，                                 <br><size=28>my investigation involves Eldorana's black market.<br> ,300801000,mcv_1001060101_037_01,chara_5
+message,アウラ,Abyss       minerals，you       say...       Actually，<br>my       investigation       involves       Eldorana's       black       market.<br> ,300801000,mcv_1001060101_037_01,chara_5
 
 asynccharaface,chara_4,FaceSurprise,CONT,0
 
@@ -945,7 +945,7 @@ asyncseplay,setag1_26,se4800009,0,1,CONT,0
 asynccharaemo,chara_4,Question,CONT,0
 
 
-message,マリナ,<size=28>Eldorana's black market?                                            <br><size=28>A-are they selling something shady?<br> ,100301000G,mcv_1001060101_038_01,chara_4
+message,マリナ,Eldorana's       black       market?<br>A-are       they       selling       something       shady?<br> ,100301000G,mcv_1001060101_038_01,chara_4
 
 asynccharaface,chara_5,FaceSurprise,CONT,0
 
@@ -956,7 +956,7 @@ asyncseplay,setag1_27,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,アウラ,<size=28>'Hypnosis Stones'— minerals that cause                              <br><size=28>hallucinations. They're being traded as drugs...<br> ,300801000,mcv_1001060101_039_01,chara_5
+message,アウラ,'Hypnosis       Stones'—       minerals       that       cause<br>hallucinations.       They're       being       traded       as       drugs...<br> ,300801000,mcv_1001060101_039_01,chara_5
 
 window,off
 wait,0.15
@@ -1007,7 +1007,7 @@ asynccharaemo,chara_4,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=28>Wha!? H-H-H-Hypnosis Stones...                                      <br><size=28>in huge quantities~~!?<br> ,100301000G,mcv_1001060101_040_01,chara_4
+message,マリナ,Wha!?       H-H-H-Hypnosis       Stones...<br>in       huge       quantities~~!?<br> ,100301000G,mcv_1001060101_040_01,chara_4
 
 window,off
 wait,0.15
@@ -1064,7 +1064,7 @@ asynccharaemo,chara_5,Question,CONT,0
 
 
 window,on,0.15
-message,アウラ,<size=28>Hey，Marina.                                                         <br><size=28>You weren't planning to sell Hypnosis Stones，right?<br> ,300801000,mcv_1001060101_041_01,chara_5
+message,アウラ,Hey，Marina.<br>You       weren't       planning       to       sell       Hypnosis       Stones，right?<br> ,300801000,mcv_1001060101_041_01,chara_5
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -1075,7 +1075,7 @@ asyncseplay,setag1_30,se4800008,0,1,CONT,0
 asynccharaemo,chara_4,Sweat,CONT,0
 
 
-message,マリナ,<size=28>Huh!? N-n-n-no way!                                                 <br><size=28>I just found a pretty rock~♪<br> ,100301000G,mcv_1001060101_042_01,chara_4
+message,マリナ,Huh!?       N-n-n-no       way!<br>I       just       found       a       pretty       rock~♪<br> ,100301000G,mcv_1001060101_042_01,chara_4
 
 asynccharaface,chara_5,FaceHappy,CONT,0
 
@@ -1086,7 +1086,7 @@ asyncseplay,setag1_31,se4800022,0,1,CONT,0
 asynccharaemo,chara_5,Speak,CONT,0
 
 
-message,アウラ,<size=28>Good.                                                               <br><size=28>Glad you're not the type for shady business.<br> ,300801000,mcv_1001060101_043_01,chara_5
+message,アウラ,Good.<br>Glad       you're       not       the       type       for       shady       business.<br> ,300801000,mcv_1001060101_043_01,chara_5
 
 asyncshake,CHARA,chara_4,20,15,0.5,6,on,off,0,off,CONT,0
 
@@ -1095,7 +1095,7 @@ asyncseplay,setag1_32,se4800007,0,1,CONT,0
 asynccharaemo,chara_4,Panic,CONT,0
 
 
-message,マリナ,<size=28>What are you saying~!                                               <br><size=28>Of course not~♪<br> ,100301000G,mcv_1001060101_044_01,chara_4
+message,マリナ,What       are       you       saying~!<br>Of       course       not~♪<br> ,100301000G,mcv_1001060101_044_01,chara_4
 
 window,off
 wait,0.15
@@ -1154,7 +1154,7 @@ asynccharaemo,chara_4,Dull,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=28>(Th-that was close~...                                              <br><size=28>I almost got into a terrible business~...)<br> ,100301000G,mcv_1001060101_045_01,chara_4
+message,マリナ,(Th-that       was       close~...<br>I       almost       got       into       a       terrible       business~...)<br> ,100301000G,mcv_1001060101_045_01,chara_4
 
 window,off
 wait,0.15
@@ -1216,7 +1216,7 @@ asynccharaemo,chara_5,Speak,CONT,0
 
 
 window,on,0.15
-message,アウラ,<size=28>Also，there's another reason I came here.<br> ,300801000,mcv_1001060101_046_01,chara_5
+message,アウラ,Also，there's       another       reason       I       came       here.<br> ,300801000,mcv_1001060101_046_01,chara_5
 
 asynccharaface,chara_4,FaceSurprise,CONT,0
 
@@ -1227,7 +1227,7 @@ asyncseplay,setag1_35,se4800009,0,1,CONT,0
 asynccharaemo,chara_4,Question,CONT,0
 
 
-message,マリナ,<size=28>Another reason? What is it~?<br> ,100301000G,mcv_1001060101_047_01,chara_4
+message,マリナ,Another       reason?       What       is       it~?<br> ,100301000G,mcv_1001060101_047_01,chara_4
 
 window,off
 wait,0.15
@@ -1246,7 +1246,7 @@ wait,0.5
 
 
 window,on,0.15
-message,アウラ,<size=28>Heard any reports of a girl with glasses                            <br><size=28>in a white coat with a mechanical golem?<br> ,300801000,mcv_1001060101_048_01,chara_5
+message,アウラ,Heard       any       reports       of       a       girl       with       glasses<br>in       a       white       coat       with       a       mechanical       golem?<br> ,300801000,mcv_1001060101_048_01,chara_5
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -1257,7 +1257,7 @@ asyncseplay,setag1_37,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,マリナ,<size=28>Oh~! I know! I know~♪                                               <br><size=28>That's Logy and Goleinu~♪<br> ,100301000G,mcv_1001060101_049_01,chara_4
+message,マリナ,Oh~!       I       know!       I       know~♪<br>That's       Logy       and       Goleinu~♪<br> ,100301000G,mcv_1001060101_049_01,chara_4
 
 asynccharaface,chara_5,EyeOpen,CONT,0
 asynccharaface,chara_5,FaceNormal,CONT,0
@@ -1269,7 +1269,7 @@ asyncseplay,setag1_38,se4800003,0,1,CONT,0
 asynccharaemo,chara_5,Twinkle,CONT,0
 
 
-message,アウラ,<size=28>Oh my，you know them well.                                           <br><size=28>Logy is my little sister who went missing.<br> ,300801000,mcv_1001060101_050_01,chara_5
+message,アウラ,Oh       my，you       know       them       well.<br>Logy       is       my       little       sister       who       went       missing.<br> ,300801000,mcv_1001060101_050_01,chara_5
 
 asynccharaface,chara_4,FaceSurprise,CONT,0
 
@@ -1280,7 +1280,7 @@ asyncseplay,setag1_39,se4800017,0,1,CONT,0
 asynccharaemo,chara_4,Shock,CONT,0
 
 
-message,マリナ,<size=28>Y-your sister!? ...Really~?<br> ,100301000G,mcv_1001060101_051_01,chara_4
+message,マリナ,Y-your       sister!?       ...Really~?<br> ,100301000G,mcv_1001060101_051_01,chara_4
 
 asynccharaface,chara_5,FaceSurprise,CONT,0
 
@@ -1291,7 +1291,7 @@ asyncseplay,setag1_40,se4800006,0,1,CONT,0
 asynccharaemo,chara_5,Trouble,CONT,0
 
 
-message,アウラ,<size=28>A genius in engineering since childhood.                            <br><size=28>I paid for everything and let her skip grades...<br> ,300801000,mcv_1001060101_052_01,chara_5
+message,アウラ,A       genius       in       engineering       since       childhood.<br>I       paid       for       everything       and       let       her       skip       grades...<br> ,300801000,mcv_1001060101_052_01,chara_5
 
 asynccharaface,chara_5,FaceAnger,CONT,0
 
@@ -1302,7 +1302,7 @@ asyncseplay,setag1_41,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,アウラ,<size=28>I even set up a university lab for her，                             <br><size=28>then she vanished with a fortune in research funds.<br> ,300801000,mcv_1001060101_053_01,chara_5
+message,アウラ,I       even       set       up       a       university       lab       for       her，<br>then       she       vanished       with       a       fortune       in       research       funds.<br> ,300801000,mcv_1001060101_053_01,chara_5
 
 window,off
 wait,0.15
@@ -1361,7 +1361,7 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=28>(A university lab!?                                                 <br><size=28>That girl really was a 'Professor'~...)<br> ,100301000G,mcv_1001060101_054_01,chara_4
+message,マリナ,(A       university       lab!?<br>That       girl       really       was       a       'Professor'~...)<br> ,100301000G,mcv_1001060101_054_01,chara_4
 
 window,off
 wait,0.15
@@ -1422,7 +1422,7 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=28>Um，if you find your sister...                                       <br><size=28>wh-what are you going to do~?<br> ,100301000G,mcv_1001060101_055_01,chara_4
+message,マリナ,Um，if       you       find       your       sister...<br>wh-what       are       you       going       to       do~?<br> ,100301000G,mcv_1001060101_055_01,chara_4
 
 asynccharaface,chara_5,FaceUnique01,CONT,0
 
@@ -1433,9 +1433,9 @@ asyncseplay,setag1_44,se4800003,0,1,CONT,0
 asynccharaemo,chara_5,Twinkle,CONT,0
 
 
-message,アウラ,<size=28>Drag her home and teach her a lesson.                               <br><size=28>Look at this huge bill that just arrived!<br> ,300801000,mcv_1001060101_056_01,chara_5
+message,アウラ,Drag       her       home       and       teach       her       a       lesson.<br>Look       at       this       huge       bill       that       just       arrived!<br> ,300801000,mcv_1001060101_056_01,chara_5
 
-message,,<size=28>Aura pulls out a bill from her pocket.                              <br><size=28>The amount on it is staggering.<br> 
+message,,Aura       pulls       out       a       bill       from       her       pocket.<br>The       amount       on       it       is       staggering.<br> 
 
 asynccharaface,chara_5,FaceAnger,CONT,0
 
@@ -1446,7 +1446,7 @@ asyncseplay,setag1_45,se4800001,0,1,CONT,0
 asynccharaemo,chara_5,Anger,CONT,0
 
 
-message,アウラ,<size=28>This is definitely Logy's doing!                                    <br><size=28>What on earth is she spending this much on?<br> ,300801000,mcv_1001060101_057_01,chara_5
+message,アウラ,This       is       definitely       Logy's       doing!<br>What       on       earth       is       she       spending       this       much       on?<br> ,300801000,mcv_1001060101_057_01,chara_5
 
 window,off
 wait,0.15
@@ -1505,7 +1505,7 @@ asynccharaemo,chara_4,Panic,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=28>(Yikes... th-this is definitely                                     <br><size=28>Goleinu's repair bill~~...)<br> ,100301000G,mcv_1001060101_058_01,chara_4
+message,マリナ,(Yikes...       th-this       is       definitely<br>Goleinu's       repair       bill~~...)<br> ,100301000G,mcv_1001060101_058_01,chara_4
 
 window,off
 wait,0.15
@@ -1566,7 +1566,7 @@ asynccharaemo,chara_5,BePeevish,CONT,0
 
 
 window,on,0.15
-message,アウラ,<size=28>If you hear anything about Logy，tell me.                            <br><size=28>I'll hang her from a bridge for three days!<br> ,300801000,mcv_1001060101_059_01,chara_5
+message,アウラ,If       you       hear       anything       about       Logy，tell       me.<br>I'll       hang       her       from       a       bridge       for       three       days!<br> ,300801000,mcv_1001060101_059_01,chara_5
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -1577,7 +1577,7 @@ asyncseplay,setag1_48,se4800008,0,1,CONT,0
 asynccharaemo,chara_4,Sweat,CONT,0
 
 
-message,マリナ,<size=28>Y-yes~~~.                                                           <br><size=28>I-I'll let you know right away~...<br> ,100301000G,mcv_1001060101_060_01,chara_4
+message,マリナ,Y-yes~~~.<br>I-I'll       let       you       know       right       away~...<br> ,100301000G,mcv_1001060101_060_01,chara_4
 
 window,off
 wait,0.15
@@ -1638,7 +1638,7 @@ asynccharaemo,chara_4,Panic,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=28>(Oh no... I need to warn her fast                                   <br><size=28>or she'll end up dangling from a bridge~...)<br> ,100301000G,mcv_1001060101_061_01,chara_4
+message,マリナ,(Oh       no...       I       need       to       warn       her       fast<br>or       she'll       end       up       dangling       from       a       bridge~...)<br> ,100301000G,mcv_1001060101_061_01,chara_4
 
 window,off
 bgmstop,bgmtag1_3,0.5

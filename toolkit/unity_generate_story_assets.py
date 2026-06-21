@@ -25,6 +25,10 @@ MESSAGE_CHARS_PER_LINE = 68
 
 DOTMESSAGE_FONT_SIZE = 24
 
+# useProportional renders spaces at nearly zero width; repeat them to compensate.
+PROPORTIONAL_MODE = True
+PROPORTIONAL_SPACE = " " * 7
+
 # messageTextCenter is intentionally excluded — translated as plain text.
 MESSAGE_COMMANDS = frozenset({
     "dotmessage", "message", "l2dmessage", "messageTextUnder",
@@ -169,6 +173,11 @@ def _expand_shakeall(parts, loaded_charas):
     return lines
 
 
+def _expand_spaces(text):
+    """Replace each space with PROPORTIONAL_SPACE, preserving tags and markup."""
+    return text.replace(" ", PROPORTIONAL_SPACE)
+
+
 def format_dotmessage_text(en):
     """Size-tag a dotmessage text field without adding line breaks."""
     en_safe = common._comma_safe(en).replace('"', '""')
@@ -204,11 +213,19 @@ def format_message_text(en):
     else:
         line1, line2 = word_wrap_at(en_safe, cpl)
 
-    if line2:
-        line1_padded = pad_to(line1, cpl)
-        return f"<size={fs}>{line1_padded}<br><size={fs}>{line2}<br> "
+    if PROPORTIONAL_MODE:
+        line1 = _expand_spaces(line1)
+        line2 = _expand_spaces(line2) if line2 else ""
+        if line2:
+            return f"{line1}<br>{line2}<br> "
+        else:
+            return f"{line1}<br> "
     else:
-        return f"<size={fs}>{line1}<br> "
+        if line2:
+            line1_padded = pad_to(line1, cpl)
+            return f"<size={fs}>{line1_padded}<br><size={fs}>{line2}<br> "
+        else:
+            return f"<size={fs}>{line1}<br> "
 
 
 def word_wrap_at(text, per_line):

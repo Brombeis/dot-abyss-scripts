@@ -49,7 +49,7 @@ wait,1
 bgmplay,bgmtag1_1,bgm0034,0.75,1
 
 window,on,0.15
-message,<user>,<size=28>*huff*，*huff*... We managed to reach an open area...                <br><size=28>Is everyone okay?<br> 
+message,<user>,*huff*，*huff*...       We       managed       to       reach       an       open       area...<br>Is       everyone       okay?<br> 
 
 window,off
 wait,0.15
@@ -92,7 +92,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ソフィア,<size=28>*huff*，*huff*... I can't believe                                    <br><size=28>the buildings collapsed that easily...<br> ,106501000G,mcv_1001050501_001_01,chara_1
+message,ソフィア,*huff*，*huff*...       I       can't       believe<br>the       buildings       collapsed       that       easily...<br> ,106501000G,mcv_1001050501_001_01,chara_1
 
 window,off
 wait,0.15
@@ -139,7 +139,7 @@ asynccharaemo,chara_4,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,<size=28>Thank goodness... The earthquake stopped...<br> ,106601000G,mcv_1001050501_002_01,chara_4
+message,ヒマリ,Thank       goodness...       The       earthquake       stopped...<br> ,106601000G,mcv_1001050501_002_01,chara_4
 
 window,off
 wait,0.15
@@ -186,7 +186,7 @@ asynccharaemo,chara_3,Trouble,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=28>Wh-when was the last time I ran that hard...<br> ,100301000G,mcv_1001050501_003_01,chara_3
+message,マリナ,Wh-when       was       the       last       time       I       ran       that       hard...<br> ,100301000G,mcv_1001050501_003_01,chara_3
 
 window,off
 wait,0.15
@@ -227,7 +227,7 @@ asynccharaemo,chara_5,Panic,CONT,0
 
 
 window,on,0.15
-message,クルル,<size=28>Ptoo! Ptoo! Ptoo!                                                   <br><size=28>Kururu ate so much sand~~~!<br> ,106701000G,mcv_1001050501_004_01,chara_5
+message,クルル,Ptoo!       Ptoo!       Ptoo!<br>Kururu       ate       so       much       sand~~~!<br> ,106701000G,mcv_1001050501_004_01,chara_5
 
 window,off
 wait,0.15
@@ -290,7 +290,7 @@ asynccharaemo,chara_2,BePeevish,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=28>Hey~!                                                               <br><size=28>I thought buildings in your world were earthquake-resistant~!<br> ,100201000G,mcv_1001050501_005_01,chara_2
+message,ベリサ,Hey~!<br>I       thought       buildings       in       your       world       were       earthquake-resistant~!<br> ,100201000G,mcv_1001050501_005_01,chara_2
 
 window,off
 wait,0.15
@@ -341,9 +341,9 @@ asynccharaemo,chara_4,Dull,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,<size=28>Th-that's what Papa told me but... I'm sorry.<br> ,106601000G,mcv_1001050501_006_01,chara_4
+message,ヒマリ,Th-that's       what       Papa       told       me       but...       I'm       sorry.<br> ,106601000G,mcv_1001050501_006_01,chara_4
 
-message,<user>,<size=28>You don't need to apologize.                                        <br><size=28>Besides，this world is different from the one you came from，right?<br> 
+message,<user>,You       don't       need       to       apologize.<br>Besides，this       world       is       different       from       the       one       you       came       from，right?<br> 
 
 asyncjump,CHARA,chara_4,-30,0.25,1,off,0,CONT
 
@@ -352,7 +352,7 @@ asyncseplay,setag1_7,se4800008,0,1,CONT,0
 asynccharaemo,chara_4,Sweat,CONT,0
 
 
-message,ヒマリ,<size=28>Yeah. It looks similar but it's a bit different...                  <br><size=28>I think it might be... a parallel world.<br> ,106601000G,mcv_1001050501_007_01,chara_4
+message,ヒマリ,Yeah.       It       looks       similar       but       it's       a       bit       different...<br>I       think       it       might       be...       a       parallel       world.<br> ,106601000G,mcv_1001050501_007_01,chara_4
 
 window,off
 wait,0.15
@@ -415,9 +415,9 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=28>Parallel world?                                                     <br><size=28>That's a term I've never heard before.<br> ,106501000G,mcv_1001050501_008_01,chara_1
+message,ソフィア,Parallel       world?<br>That's       a       term       I've       never       heard       before.<br> ,106501000G,mcv_1001050501_008_01,chara_1
 
-message,<user>,<size=28>What do you mean?<br> 
+message,<user>,What       do       you       mean?<br> 
 
 window,off
 wait,0.15
@@ -468,7 +468,7 @@ asynccharaemo,chara_4,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,<size=28>Well~，it's a common concept in sci-fi novels and anime...           <br><size=28>How should I explain it...?<br> ,106601000G,mcv_1001050501_009_01,chara_4
+message,ヒマリ,Well~，it's       a       common       concept       in       sci-fi       novels       and       anime...<br>How       should       I       explain       it...?<br> ,106601000G,mcv_1001050501_009_01,chara_4
 
 asynccharaface,chara_4,EyeOpen,CONT,0
 asynccharaface,chara_4,FaceNormal,CONT,0
@@ -480,7 +480,7 @@ asyncseplay,setag1_10,se4800006,0,1,CONT,0
 asynccharaemo,chara_4,Trouble,CONT,0
 
 
-message,ヒマリ,<size=28>B-basically... this city isn't the exact same city                  <br><size=28>that I lived in transported here...<br> ,106601000G,mcv_1001050501_010_01,chara_4
+message,ヒマリ,B-basically...       this       city       isn't       the       exact       same       city<br>that       I       lived       in       transported       here...<br> ,106601000G,mcv_1001050501_010_01,chara_4
 
 asynccharaface,chara_4,FaceAnger,CONT,0
 
@@ -491,9 +491,9 @@ asyncseplay,setag1_11,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,ヒマリ,<size=28>I think a city from a different timeline that resembles mine        <br><size=28>is what ended up here...<br> ,106601000G,mcv_1001050501_011_01,chara_4
+message,ヒマリ,I       think       a       city       from       a       different       timeline       that       resembles       mine<br>is       what       ended       up       here...<br> ,106601000G,mcv_1001050501_011_01,chara_4
 
-message,<user>,<size=28>A different timeline...!?<br> 
+message,<user>,A       different       timeline...!?<br> 
 
 asynccharaface,chara_4,FaceSurprise,CONT,0
 
@@ -504,7 +504,7 @@ asyncseplay,setag1_12,se4800007,0,1,CONT,0
 asynccharaemo,chara_4,Panic,CONT,0
 
 
-message,ヒマリ,<size=28>U-um... Did that explanation...                                     <br><size=28>m-make sense... maybe?<br> ,106601000G,mcv_1001050501_012_01,chara_4
+message,ヒマリ,U-um...       Did       that       explanation...<br>m-make       sense...       maybe?<br> ,106601000G,mcv_1001050501_012_01,chara_4
 
 asynccharaface,chara_4,FaceSad,CONT,0
 
@@ -515,7 +515,7 @@ asyncseplay,setag1_13,se4800015,0,1,CONT,0
 asynccharaemo,chara_4,Dull,CONT,0
 
 
-message,ヒマリ,<size=28>The Japan Himari lived in                                           <br><size=28>was much more peaceful...<br> ,106601000G,mcv_1001050501_013_01,chara_4
+message,ヒマリ,The       Japan       Himari       lived       in<br>was       much       more       peaceful...<br> ,106601000G,mcv_1001050501_013_01,chara_4
 
 asyncjump,CHARA,chara_4,-30,0.25,1,off,0,CONT
 
@@ -524,7 +524,7 @@ asyncseplay,setag1_14,se4800006,0,1,CONT,0
 asynccharaemo,chara_4,Trouble,CONT,0
 
 
-message,ヒマリ,<size=28>Everyone was kind and polite，the streets were clean and safe...     <br><size=28>The only thing everyone complained about was the cost of living...<br> ,106601000G,mcv_1001050501_014_01,chara_4
+message,ヒマリ,Everyone       was       kind       and       polite，the       streets       were       clean       and       safe...<br>The       only       thing       everyone       complained       about       was       the       cost       of       living...<br> ,106601000G,mcv_1001050501_014_01,chara_4
 
 window,off
 wait,0.15
@@ -554,7 +554,7 @@ asyncseplay,setag1_15,se4030205,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,警備ロボット,<size=28>Intruder detected! Intruder detected!<br> ,900000001
+message,警備ロボット,Intruder       detected!       Intruder       detected!<br> ,900000001
 
 window,off
 wait,0.15
@@ -593,9 +593,9 @@ asynccharaemo,chara_1,Anger,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=28>Oh come on! Of all times!<br> ,106501000G,mcv_1001050501_015_01,chara_1
+message,ソフィア,Oh       come       on!       Of       all       times!<br> ,106501000G,mcv_1001050501_015_01,chara_1
 
-message,<user>,<size=28>We're in an open plaza with no cover— of course they'd find us!     <br><size=28>Avoid unnecessary fights and run!<br> 
+message,<user>,We're       in       an       open       plaza       with       no       cover—       of       course       they'd       find       us!<br>Avoid       unnecessary       fights       and       run!<br> 
 
 window,off
 wait,0.15
@@ -663,7 +663,7 @@ asynccharaemo,chara_6,Anger,CONT,0
 
 
 window,on,0.15
-message,ロジー,<size=28>Hey hey hey!                                                        <br><size=28>Thanks a lot for dragging us into that mess earlier~~~!<br> ,2036001,mcv_1001050501_016_01,chara_6
+message,ロジー,Hey       hey       hey!<br>Thanks       a       lot       for       dragging       us       into       that       mess       earlier~~~!<br> ,2036001,mcv_1001050501_016_01,chara_6
 
 window,off
 wait,0.15
@@ -712,7 +712,7 @@ asynccharaemo,chara_5,Shock,CONT,0
 
 
 window,on,0.15
-message,クルル,<size=28>Whoa! It's those two again!<br> ,106701000G,mcv_1001050501_017_01,chara_5
+message,クルル,Whoa!       It's       those       two       again!<br> ,106701000G,mcv_1001050501_017_01,chara_5
 
 window,off
 wait,0.15
@@ -765,7 +765,7 @@ asynccharaemo,chara_7,Laugh,CONT,0
 
 
 window,on,0.15
-message,ゴレイヌ,<size=28>You don't kno~w♪ You have no ide~a♪                                 <br><size=28>The Professor is scary when she's mad~~!?<br> ,2037001,mcv_1001050501_018_01,chara_7
+message,ゴレイヌ,You       don't       kno~w♪       You       have       no       ide~a♪<br>The       Professor       is       scary       when       she's       mad~~!?<br> ,2037001,mcv_1001050501_018_01,chara_7
 
 asynccharaface,chara_7,FaceSad,CONT,0
 
@@ -776,7 +776,7 @@ asyncseplay,setag1_20,se4800006,0,1,CONT,0
 asynccharaemo,chara_7,Trouble,CONT,0
 
 
-message,ゴレイヌ,<size=28>I just touched her butt a little and got                            <br><size=28>a week without energy drinks~ ...I almost died~.<br> ,2037001,mcv_1001050501_019_01,chara_7
+message,ゴレイヌ,I       just       touched       her       butt       a       little       and       got<br>a       week       without       energy       drinks~       ...I       almost       died~.<br> ,2037001,mcv_1001050501_019_01,chara_7
 
 asyncjump,CHARA,chara_6,30,0.25,1,off,0,CONT
 
@@ -785,7 +785,7 @@ asyncseplay,setag1_21,se4800016,0,1,CONT,0
 asynccharaemo,chara_6,BePeevish,CONT,0
 
 
-message,ロジー,<size=28>That's because you never learn your lesson!<br> ,2036001,mcv_1001050501_020_01,chara_6
+message,ロジー,That's       because       you       never       learn       your       lesson!<br> ,2036001,mcv_1001050501_020_01,chara_6
 
 window,off
 wait,0.15
@@ -850,7 +850,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=28>These two had to show up at a time like this.<br> ,106501000G,mcv_1001050501_021_01,chara_1
+message,ソフィア,These       two       had       to       show       up       at       a       time       like       this.<br> ,106501000G,mcv_1001050501_021_01,chara_1
 
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
@@ -859,7 +859,7 @@ asyncseplay,setag1_23,se4800001,0,1,CONT,0
 asynccharaemo,chara_2,Anger,CONT,0
 
 
-message,ベリサ,<size=28>Actually~，WE'RE the ones who should be complaining~!                <br><size=28>We've been chased by those robots because of you two!<br> ,100201000G,mcv_1001050501_022_01,chara_2
+message,ベリサ,Actually~，WE'RE       the       ones       who       should       be       complaining~!<br>We've       been       chased       by       those       robots       because       of       you       two!<br> ,100201000G,mcv_1001050501_022_01,chara_2
 
 window,off
 wait,0.15
@@ -895,7 +895,7 @@ asyncseplay,setag1_24,se4030205,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,警備ロボット,<size=28>Intruder detected! Intruder detected!<br> ,900000001
+message,警備ロボット,Intruder       detected!       Intruder       detected!<br> ,900000001
 
 window,off
 wait,0.15
@@ -940,7 +940,7 @@ asynccharaemo,chara_6,Shock,CONT,0
 
 
 window,on,0.15
-message,ロジー,<size=28>More importantly，aren't you guys being chased RIGHT NOW!?<br> ,2036001,mcv_1001050501_023_01,chara_6
+message,ロジー,More       importantly，aren't       you       guys       being       chased       RIGHT       NOW!?<br> ,2036001,mcv_1001050501_023_01,chara_6
 
 window,off
 wait,0.15
@@ -987,7 +987,7 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 
 window,on,0.15
-message,マリナ,<size=28>Please get out of the way~~!                                        <br><size=28>We're in a hurry~~!<br> ,100301000G,mcv_1001050501_024_01,chara_3
+message,マリナ,Please       get       out       of       the       way~~!<br>We're       in       a       hurry~~!<br> ,100301000G,mcv_1001050501_024_01,chara_3
 
 window,off
 wait,0.15
@@ -1040,7 +1040,7 @@ asynccharaemo,chara_6,Sweat,CONT,0
 
 
 window,on,0.15
-message,ロジー,<size=28>Waaah! These are ALL robots!?                                       <br><size=28>There's a crazy number of them~~~<br> ,2036001,mcv_1001050501_025_01,chara_6
+message,ロジー,Waaah!       These       are       ALL       robots!?<br>There's       a       crazy       number       of       them~~~<br> ,2036001,mcv_1001050501_025_01,chara_6
 
 window,off
 wait,0.15
@@ -1087,7 +1087,7 @@ asynccharaemo,chara_7,Spirits,CONT,0
 
 
 window,on,0.15
-message,ゴレイヌ,<size=28>Leave this to me，Professor!<br> ,2037001,mcv_1001050501_026_01,chara_7
+message,ゴレイヌ,Leave       this       to       me，Professor!<br> ,2037001,mcv_1001050501_026_01,chara_7
 
 window,off
 wait,0.15
@@ -1140,7 +1140,7 @@ asynccharaemo,chara_6,Speak,CONT,0
 
 
 window,on,0.15
-message,ロジー,<size=28>What what? My assistant equipped with the latest AI thinking chip!  <br><size=28>Did you come up with a good idea~~?<br> ,2036001,mcv_1001050501_027_01,chara_6
+message,ロジー,What       what?       My       assistant       equipped       with       the       latest       AI       thinking       chip!<br>Did       you       come       up       with       a       good       idea~~?<br> ,2036001,mcv_1001050501_027_01,chara_6
 
 asynccharaface,chara_7,EyeOpen,CONT,0
 asynccharaface,chara_7,FaceNormal,CONT,0
@@ -1152,7 +1152,7 @@ asyncseplay,setag1_30,se4800003,0,1,CONT,0
 asynccharaemo,chara_7,Twinkle,CONT,0
 
 
-message,ゴレイヌ,<size=28>Take a good look at them!                                           <br><size=28>At first glance，they look similar to me，right?<br> ,2037001,mcv_1001050501_028_01,chara_7
+message,ゴレイヌ,Take       a       good       look       at       them!<br>At       first       glance，they       look       similar       to       me，right?<br> ,2037001,mcv_1001050501_028_01,chara_7
 
 asynccharaface,chara_6,FaceFun,CONT,0
 
@@ -1163,7 +1163,7 @@ asyncseplay,setag1_31,se4800004,0,1,CONT,0
 asynccharaemo,chara_6,Laugh,CONT,0
 
 
-message,ロジー,<size=28>Yeah，yeah!                                                          <br><size=28>They do look similar~.<br> ,2036001,mcv_1001050501_029_01,chara_6
+message,ロジー,Yeah，yeah!<br>They       do       look       similar~.<br> ,2036001,mcv_1001050501_029_01,chara_6
 
 window,off
 wait,0.15
@@ -1212,7 +1212,7 @@ asynccharaemo,chara_7,Elated,CONT,0
 
 
 window,on,0.15
-message,ゴレイヌ,<size=28>I call it! ""Operation: I'm Your Friend""!<br> ,2037001,mcv_1001050501_030_01,chara_7
+message,ゴレイヌ,I       call       it!       ""Operation:       I'm       Your       Friend""!<br> ,2037001,mcv_1001050501_030_01,chara_7
 
 window,off
 wait,0.15
@@ -1267,9 +1267,9 @@ asynccharaemo,chara_6,Laugh,CONT,0
 
 
 window,on,0.15
-message,ロジー,<size=28>I see! A plan to make them think you're one of their own!           <br><size=28>Not bad，assistant-kun!<br> ,2036001,mcv_1001050501_031_01,chara_6
+message,ロジー,I       see!       A       plan       to       make       them       think       you're       one       of       their       own!<br>Not       bad，assistant-kun!<br> ,2036001,mcv_1001050501_031_01,chara_6
 
-message,<user>,<size=28>...What are they planning?<br> 
+message,<user>,...What       are       they       planning?<br> 
 
 asynccharaface,chara_6,EyeOpen,CONT,0
 asynccharaface,chara_6,FaceNormal,CONT,0
@@ -1281,7 +1281,7 @@ asyncseplay,setag1_34,se4800022,0,1,CONT,0
 asynccharaemo,chara_6,Speak,CONT,0
 
 
-message,ロジー,<size=28>You guys are lucky~!                                                <br><size=28>You'll owe me about 100 puddings for this~!<br> ,2036001,mcv_1001050501_032_01,chara_6
+message,ロジー,You       guys       are       lucky~!<br>You'll       owe       me       about       100       puddings       for       this~!<br> ,2036001,mcv_1001050501_032_01,chara_6
 
 window,off
 wait,0.15
@@ -1330,7 +1330,7 @@ asynccharaemo,chara_6,Elated,CONT,0
 
 
 window,on,0.15
-message,ロジー,<size=28>Now go! Assistant!                                                  <br><size=28>Operation: I'm Your Friend，commence!!<br> ,2036001,mcv_1001050501_033_01,chara_6
+message,ロジー,Now       go!       Assistant!<br>Operation:       I'm       Your       Friend，commence!!<br> ,2036001,mcv_1001050501_033_01,chara_6
 
 window,off
 wait,0.15
@@ -1395,7 +1395,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=28>I-I don't think I can keep up                                       <br><size=28>with these people's energy...<br> ,106501000G,mcv_1001050501_034_01,chara_1
+message,ソフィア,I-I       don't       think       I       can       keep       up<br>with       these       people's       energy...<br> ,106501000G,mcv_1001050501_034_01,chara_1
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -1406,7 +1406,7 @@ asyncseplay,setag1_37,se4800006,0,1,CONT,0
 asynccharaemo,chara_2,Trouble,CONT,0
 
 
-message,ベリサ,<size=28>Y-yeah... me neither...<br> ,100201000G,mcv_1001050501_035_01,chara_2
+message,ベリサ,Y-yeah...       me       neither...<br> ,100201000G,mcv_1001050501_035_01,chara_2
 
 asynccharaface,chara_3,EyeOpen,CONT,0
 asynccharaface,chara_3,FaceNormal,CONT,0
@@ -1418,7 +1418,7 @@ asyncseplay,setag1_38,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,マリナ,<size=28>W-well，they seem to have some kind of plan，                         <br><size=28>so shall we watch and see~?<br> ,100301000G,mcv_1001050501_036_01,chara_3
+message,マリナ,W-well，they       seem       to       have       some       kind       of       plan，<br>so       shall       we       watch       and       see~?<br> ,100301000G,mcv_1001050501_036_01,chara_3
 
 window,off
 wait,0.15
@@ -1478,7 +1478,7 @@ asynccharaemo,chara_6,Spirits,CONT,0
 
 
 window,on,0.15
-message,ロジー,<size=28>Assistant，operation start!<br> ,2036001,mcv_1001050501_037_01,chara_6
+message,ロジー,Assistant，operation       start!<br> ,2036001,mcv_1001050501_037_01,chara_6
 
 window,off
 wait,0.15
@@ -1525,7 +1525,7 @@ asynccharaemo,chara_7,Elated,CONT,0
 
 
 window,on,0.15
-message,ゴレイヌ,<size=28>I-AM-FRIEND. YOUR-ALLY.<br> ,2037001,mcv_1001050501_038_01,chara_7
+message,ゴレイヌ,I-AM-FRIEND.       YOUR-ALLY.<br> ,2037001,mcv_1001050501_038_01,chara_7
 
 asyncshake,CHARA,chara_7,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -1534,9 +1534,9 @@ asyncseplay,setag1_41,se4800003,0,1,CONT,0
 asynccharaemo,chara_7,Twinkle,CONT,0
 
 
-message,ゴレイヌ,<size=28>DO-NOT-ATTACK. BE-FRIENDS. BE-FRIENDS.<br> ,2037001,mcv_1001050501_039_01,chara_7
+message,ゴレイヌ,DO-NOT-ATTACK.       BE-FRIENDS.       BE-FRIENDS.<br> ,2037001,mcv_1001050501_039_01,chara_7
 
-message,警備ロボット,<size=28>...<br> ,900000001
+message,警備ロボット,...<br> ,900000001
 
 window,off
 wait,0.15
@@ -1599,7 +1599,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ソフィア,<size=28>The security robots... stopped moving!?<br> ,106501000G,mcv_1001050501_040_01,chara_1
+message,ソフィア,The       security       robots...       stopped       moving!?<br> ,106501000G,mcv_1001050501_040_01,chara_1
 
 asyncjump,CHARA,chara_3,30,0.25,1,off,0,CONT
 
@@ -1608,7 +1608,7 @@ asyncseplay,setag1_43,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,マリナ,<size=28>They actually think he's a friend~!?<br> ,100301000G,mcv_1001050501_041_01,chara_3
+message,マリナ,They       actually       think       he's       a       friend~!?<br> ,100301000G,mcv_1001050501_041_01,chara_3
 
 window,off
 wait,0.15
@@ -1672,7 +1672,7 @@ asyncseplay,setag1_46,se4800017,0,1,STOP,0.5
 asynccharaemo,chara_7,Shock,STOP,0.5
 
 window,on,0.15
-message,警備ロボット,<size=28>BEEP! BEEP! Alert mode! Alert mode!<br> ,900000001
+message,警備ロボット,BEEP!       BEEP!       Alert       mode!       Alert       mode!<br> ,900000001
 
 window,off
 wait,0.15
@@ -1735,7 +1735,7 @@ asynccharaemo,chara_2,Anger,CONT,0
 
 
 window,on,0.15
-message,ベリサ,<size=28>See!? It totally didn't work~~!<br> ,100201000G,mcv_1001050501_042_01,chara_2
+message,ベリサ,See!?       It       totally       didn't       work~~!<br> ,100201000G,mcv_1001050501_042_01,chara_2
 
 window,off
 wait,0.15
@@ -1806,7 +1806,7 @@ asynccharaface,chara_7,FaceSad,CONT,0
 
 
 window,on,0.15
-message,ゴレイヌ,<size=28>Damn，how'd they figure it out!?                                     <br><size=28>Hey... stop it! Ow! Ow!<br> ,2037001,mcv_1001050501_043_01,chara_7
+message,ゴレイヌ,Damn，how'd       they       figure       it       out!?<br>Hey...       stop       it!       Ow!       Ow!<br> ,2037001,mcv_1001050501_043_01,chara_7
 
 window,off
 wait,0.15
@@ -1861,7 +1861,7 @@ asynccharaemo,chara_6,Panic,CONT,0
 
 
 window,on,0.15
-message,ロジー,<size=28>Assistaaant! Operation failed! Retreat! Retreeeat!<br> ,2036001,mcv_1001050501_044_01,chara_6
+message,ロジー,Assistaaant!       Operation       failed!       Retreat!       Retreeeat!<br> ,2036001,mcv_1001050501_044_01,chara_6
 
 asyncjump,CHARA,chara_7,30,0.25,1,off,0,CONT
 
@@ -1870,7 +1870,7 @@ asyncseplay,setag1_52,se4800015,0,1,CONT,0
 asynccharaemo,chara_7,Dull,CONT,0
 
 
-message,ゴレイヌ,<size=28>Retreeeeeat!!!!<br> ,2037001,mcv_1001050501_045_01,chara_7
+message,ゴレイヌ,Retreeeeeat!!!!<br> ,2037001,mcv_1001050501_045_01,chara_7
 
 window,off
 wait,0.15
@@ -1895,7 +1895,7 @@ asynccharaemo,chara_6,Shock,CONT,0
 
 
 window,on,0.15
-message,ロジー,<size=28>W-w-wait，Assistaaant!                                               <br><size=28>Don't leave me behind! M-my legs gave out...!<br> ,2036001,mcv_1001050501_046_01,chara_6
+message,ロジー,W-w-wait，Assistaaant!<br>Don't       leave       me       behind!       M-my       legs       gave       out...!<br> ,2036001,mcv_1001050501_046_01,chara_6
 
 window,off
 wait,0.15
@@ -1931,7 +1931,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,<size=28>What are you doing... Geez!                                         <br><size=28>Everyone，run!!<br> 
+message,<user>,What       are       you       doing...       Geez!<br>Everyone，run!!<br> 
 
 window,off
 wait,0.15
@@ -1971,7 +1971,7 @@ asynctransitionFade,Tra02,in,black,0,STOP,1
 waitorclick,1.5
 
 window,on,0.15
-message,,<size=28>The Commander scoops up Logy，who can't stand on her own，            <br><size=28>and runs with her in his arms.<br> 
+message,,The       Commander       scoops       up       Logy，who       can't       stand       on       her       own，<br>and       runs       with       her       in       his       arms.<br> 
 
 window,off
 wait,0.15
@@ -2022,7 +2022,7 @@ asynccharaemo,chara_6,Panic,CONT,0
 
 
 window,on,0.15
-message,ロジー,<size=28>Huh!? Huh!? A-a princess carry!?<br> ,2036001,mcv_1001050501_047_01,chara_6
+message,ロジー,Huh!?       Huh!?       A-a       princess       carry!?<br> ,2036001,mcv_1001050501_047_01,chara_6
 
 window,off
 wait,0.15
@@ -2047,7 +2047,7 @@ asynccharaemo,chara_6,Shy,CONT,0
 
 
 window,on,0.15
-message,ロジー,<size=28>(Wh-what is this feeling...!? My heart is... pounding!)<br> ,2036001,mcv_1001050501_048_01,chara_6
+message,ロジー,(Wh-what       is       this       feeling...!?       My       heart       is...       pounding!)<br> ,2036001,mcv_1001050501_048_01,chara_6
 
 window,off
 wait,0.15
@@ -2106,7 +2106,7 @@ asynccharaemo,chara_7,Panic,CONT,0
 
 
 window,on,0.15
-message,ゴレイヌ,<size=28>Professooor~~~!                                                     <br><size=28>How could I possibly have left the Professor behind~~!<br> ,2037001,mcv_1001050501_049_01,chara_7
+message,ゴレイヌ,Professooor~~~!<br>How       could       I       possibly       have       left       the       Professor       behind~~!<br> ,2037001,mcv_1001050501_049_01,chara_7
 
 window,off
 wait,0.15
@@ -2149,9 +2149,9 @@ asynccharaemo,chara_7,Anger,CONT,0
 
 
 window,on,0.15
-message,ゴレイヌ,<size=28>Hey，what are you doing!? Don't touch the Professor!                 <br><size=28>Pervert! Groper! Harasser!<br> ,2037001,mcv_1001050501_050_01,chara_7
+message,ゴレイヌ,Hey，what       are       you       doing!?       Don't       touch       the       Professor!<br>Pervert!       Groper!       Harasser!<br> ,2037001,mcv_1001050501_050_01,chara_7
 
-message,<user>,<size=28>Shut up! YOU'RE the one who left her behind!                        <br><size=28>Here! Take her back!<br> 
+message,<user>,Shut       up!       YOU'RE       the       one       who       left       her       behind!<br>Here!       Take       her       back!<br> 
 
 window,off
 wait,0.15
@@ -2212,7 +2212,7 @@ asynccharaemo,chara_6,Anger,CONT,0
 
 
 window,on,0.15
-message,ロジー,<size=28>H-hey!                                                              <br><size=28>Don't treat me like some forgotten umbrella!<br> ,2036001,mcv_1001050501_051_01,chara_6
+message,ロジー,H-hey!<br>Don't       treat       me       like       some       forgotten       umbrella!<br> ,2036001,mcv_1001050501_051_01,chara_6
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -2248,7 +2248,7 @@ wait,0.5
 bgmplay,bgmtag1_3,bgm0028,0.75,1
 
 window,on,0.15
-message,警備ロボット,<size=28>Intruder confirmed! Intruder confirmed!<br> ,900000001
+message,警備ロボット,Intruder       confirmed!       Intruder       confirmed!<br> ,900000001
 
 window,off
 wait,0.15
@@ -2295,9 +2295,9 @@ asynccharaemo,chara_5,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,クルル,<size=28>Waaah~~! More coming from this side too~~!<br> ,106701000G,mcv_1001050501_052_01,chara_5
+message,クルル,Waaah~~!       More       coming       from       this       side       too~~!<br> ,106701000G,mcv_1001050501_052_01,chara_5
 
-message,<user>,<size=28>Damn，they cut us off!                                               <br><size=28>No choice! We're breaking through!<br> 
+message,<user>,Damn，they       cut       us       off!<br>No       choice!       We're       breaking       through!<br> 
 
 window,off
 bgmstop,bgmtag1_3,0.5

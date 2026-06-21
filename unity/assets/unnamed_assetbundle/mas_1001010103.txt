@@ -67,7 +67,7 @@ asyncshake,CHARA,chara_3,5,0,0.5,3,off,off,0,off,CONT
 
 
 window,on,0.15
-message,ソフィア,<size=28>Hah，hah...<br> ,,mcv_1001010103_001_01
+message,ソフィア,Hah，hah...<br> ,,mcv_1001010103_001_01
 
 charaface,chara_1,FaceSurprise
 
@@ -79,7 +79,7 @@ asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,STOP
 
 asynccharaface,chara_1,FaceHappy,STOP,2
 
-message,ベリサ,<size=28>Ahh that was scary~.                                                <br><size=28>Sophia，thank you for catching that!<br> ,,mcv_1001010103_002_01
+message,ベリサ,Ahh       that       was       scary~.<br>Sophia，thank       you       for       catching       that!<br> ,,mcv_1001010103_002_01
 
 charaface,chara_3,FaceSurprise
 
@@ -90,7 +90,7 @@ asynccharaemo,chara_3,ExclaQues,STOP
 
 asynccharaface,chara_3,FaceShy,STOP,1.5
 
-message,ソフィア,<size=28>Huh?　Oh，yeah...<br> ,,mcv_1001010103_003_01
+message,ソフィア,Huh?　Oh，yeah...<br> ,,mcv_1001010103_003_01
 
 asyncseplay,setag3_4,se4800008,0,1,STOP
 
@@ -98,7 +98,7 @@ asynccharaemo,chara_2,Sweat,STOP
 
 asyncshake,CHARA,chara_2,5,0,0.5,3,off,off,0,off,STOP
 
-message,マリナ,<size=28>If Sophia hadn't noticed，                                           <br><size=28>we all might have been done for~...<br> ,,mcv_1001010103_004_01
+message,マリナ,If       Sophia       hadn't       noticed，<br>we       all       might       have       been       done       for~...<br> ,,mcv_1001010103_004_01
 
 
 asyncseplay,setag3_5,se4800012,0,1,STOP
@@ -106,9 +106,9 @@ asyncseplay,setag3_5,se4800012,0,1,STOP
 asynccharaemo,chara_3,Shy,STOP
 
 asyncshake,CHARA,chara_3,20,0,0.5,1,off,off,0,off,STOP,0
-message,ソフィア,<size=28>W-well，I just... I could barely hear the bowstring...<br> ,,mcv_1001010103_005_01
+message,ソフィア,W-well，I       just...       I       could       barely       hear       the       bowstring...<br> ,,mcv_1001010103_005_01
 
-message,<user>,<size=28>Good eye，Sophia.                                                    <br><size=28>And your order was fast and precise.<br> 
+message,<user>,Good       eye，Sophia.<br>And       your       order       was       fast       and       precise.<br> 
 
 window,off
 wait,0.15
@@ -138,7 +138,7 @@ asynccharaemo,chara_3,Silence,CONT
 asynccharaface,chara_3,FaceUnique02,CONT,2
 
 window,on,0.15
-message,ソフィア,<size=28>(What are you talking about—you noticed before I did.               <br><size=28>Such a phony...)<br> ,,mcv_1001010103_006_01,ALLON
+message,ソフィア,(What       are       you       talking       about—you       noticed       before       I       did.<br>Such       a       phony...)<br> ,,mcv_1001010103_006_01,ALLON
 
 asyncskipwait
 
@@ -181,11 +181,11 @@ asyncseplay,setag3_7,se4800008,0,1,CONT
 asynccharaemo,chara_3,Sweat,CONT
 
 window,on,0.15
-message,ソフィア,<size=28>Whew~... I give up.                                                 <br><size=28>I finally understand the point of that formation...<br> ,,mcv_1001010103_007_01
+message,ソフィア,Whew~...       I       give       up.<br>I       finally       understand       the       point       of       that       formation...<br> ,,mcv_1001010103_007_01
 
 asyncskipwait
 
-message,<user>,<size=28>Oh? Not the picnic formation anymore?<br> 
+message,<user>,Oh?       Not       the       picnic       formation       anymore?<br> 
 
 charaface,chara_3,EyeClose
 charaface,chara_3,FaceNormal
@@ -194,16 +194,16 @@ asynccharareaction,chara_3,Nod,1,STOP
 
 asynccharaface,chara_3,EyeOpen,STOP,1.5
 asynccharaface,chara_3,FaceNormal,STOP,1.5
-message,ソフィア,<size=28>If we'd gone with the tight formation I suggested，                  <br><size=28>that ambush would've wiped us out. We'd be monster food by now.<br> ,,mcv_1001010103_008_01
+message,ソフィア,If       we'd       gone       with       the       tight       formation       I       suggested，<br>that       ambush       would've       wiped       us       out.       We'd       be       monster       food       by       now.<br> ,,mcv_1001010103_008_01
 
 
 asyncseplay,setag3_8,se4800014,0,1,STOP
 
 asynccharaemo,chara_3,Silence,STOP
 
-message,ソフィア,<size=28>Visibility's bad here because of the sandstorm. So you chose a loose<br><size=28>formation where everyone watches all sides，right?<br> ,,mcv_1001010103_009_01
+message,ソフィア,Visibility's       bad       here       because       of       the       sandstorm.       So       you       chose       a       loose<br>formation       where       everyone       watches       all       sides，right?<br> ,,mcv_1001010103_009_01
 
-message,<user>,<size=28>As expected of a top student from Milesgard's Knight Academy.       <br><size=28>You catch on fast.<br> 
+message,<user>,As       expected       of       a       top       student       from       Milesgard's       Knight       Academy.<br>You       catch       on       fast.<br> 
 
 charaface,chara_3,FaceSad
 
@@ -211,11 +211,11 @@ charaface,chara_3,FaceSad
 
 asyncshake,CHARA,chara_3,15,10,0.25,3,on,off,0,off,CONT,0
 
-message,ソフィア,<size=28>Ugh... what's with that all-knowing attitude...!!                   <br><size=28>It's so infuriating~.<br> ,,mcv_1001010103_010_01
+message,ソフィア,Ugh...       what's       with       that       all-knowing       attitude...!!<br>It's       so       infuriating~.<br> ,,mcv_1001010103_010_01
 
 asyncskipwait
 
-message,<user>,<size=28>Your tight formation wasn't wrong either，for the record.            <br><size=28>But that tactic is for a proper knight unit in heavy armor.<br> 
+message,<user>,Your       tight       formation       wasn't       wrong       either，for       the       record.<br>But       that       tactic       is       for       a       proper       knight       unit       in       heavy       armor.<br> 
 
 charaface,chara_3,FaceUnique01
 
@@ -224,11 +224,11 @@ asyncseplay,setag3_9,se4800006,0,1,CONT
 asynccharaemo,chara_3,Trouble,CONT
 
 asyncshake,CHARA,chara_3,15,10,0.25,3,on,off,0,off,CONT,0
-message,ソフィア,<size=28>Gnnnnngh...                                                         <br><size=28>I can't explain it but I'm so annoyed...<br> ,,mcv_1001010103_011_01
+message,ソフィア,Gnnnnngh...<br>I       can't       explain       it       but       I'm       so       annoyed...<br> ,,mcv_1001010103_011_01
 
 asyncskipwait
 
-message,<user>,<size=28>Hey，everyone!　Look over there!<br> 
+message,<user>,Hey，everyone!　Look       over       there!<br> 
 
 window,off
 wait,0.15
@@ -352,7 +352,7 @@ asyncseplay,setag3_11,se4800003,0,1,CONT
 asynccharaemo,chara_1,Twinkle,CONT
 
 window,on,0.15
-message,ベリサ,<size=28>Whoa!　Is something sparkling over there?                            <br><size=28>Could it be treasure that the monsters were hoarding~?<br> ,,mcv_1001010103_012_01
+message,ベリサ,Whoa!　Is       something       sparkling       over       there?<br>Could       it       be       treasure       that       the       monsters       were       hoarding~?<br> ,,mcv_1001010103_012_01
 
 asyncskipwait
 
@@ -364,7 +364,7 @@ asynccharaemo,chara_2,Heart,STOP
 
 asynccharareaction,chara_2,Shake,1,STOP
 
-message,マリナ,<size=28>Ohhhhh♡　Treasure!　Treasureeee~~~~♪<br> ,,mcv_1001010103_013_01
+message,マリナ,Ohhhhh♡　Treasure!　Treasureeee~~~~♪<br> ,,mcv_1001010103_013_01
 
 window,off
 wait,0.15
@@ -404,7 +404,7 @@ asynccharaemo,chara_3,Shock,CONT
 asyncshake,CHARA,chara_3,20,15,0.5,6,on,off,0,off,CONT,0
 
 window,on,0.15
-message,ソフィア,<size=28>Huh!?　W-wait!　Don't leave me behind! What about investigating the   <br><size=28>sandstorm!?　The missing persons search~!?<br> ,,mcv_1001010103_014_01
+message,ソフィア,Huh!?　W-wait!　Don't       leave       me       behind!       What       about       investigating       the<br>sandstorm!?　The       missing       persons       search~!?<br> ,,mcv_1001010103_014_01
 
 asyncskipwait
 
@@ -439,7 +439,7 @@ asynccharaemo,chara_3,BePeevish,CONT
 
 
 window,on,0.15
-message,ソフィア,<size=28>Ugh，honestly!　This team is the worst~~~~!!!!<br> ,,mcv_1001010103_015_01
+message,ソフィア,Ugh，honestly!　This       team       is       the       worst~~~~!!!!<br> ,,mcv_1001010103_015_01
 
 linework,off,Black,Middle
 
