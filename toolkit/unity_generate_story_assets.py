@@ -80,7 +80,7 @@ def build_one(scene_path, match=None, outdir=UNITY_ASSET_DIR):
         return None
 
     original_text, _ = common.read_story_text(src)
-    patched_text = apply_translation_unity(original_text, scene.get("lines", []))
+    patched_text = apply_translation_unity(original_text, scene.get("lines", []), script_name)
 
     os.makedirs(outdir, exist_ok=True)
     out_path = os.path.join(outdir, f"{script_name}.txt")
@@ -90,7 +90,7 @@ def build_one(scene_path, match=None, outdir=UNITY_ASSET_DIR):
     return script_name
 
 
-def apply_translation_unity(text, scene_records):
+def apply_translation_unity(text, scene_records, scene_name=""):
     """Rebuild the full script with translations and crash-fix patches applied."""
     body = {(r["line"], r["field"]): r.get("en", "") for r in scene_records}
     loaded_charas = []  # chara slot ids seen in charaload, in order
@@ -124,6 +124,13 @@ def apply_translation_unity(text, scene_records):
                 else:
                     replacement = body.get((line_no, field_idx), "")
                     if replacement:
+                        if "<user>" in replacement.lower():
+                            raise ValueError(
+                                f"{scene_name} line {line_no}, field {field_idx}: "
+                                f"translated text contains <user> which crashes the game. "
+                                f"Rephrase to avoid it.\n"
+                                f"  Text: {replacement}"
+                            )
                         replacement = re.sub(r'…+', '...', replacement)
                         if cmd == "dotmessage":
                             parts[field_idx] = format_dotmessage_text(replacement)
