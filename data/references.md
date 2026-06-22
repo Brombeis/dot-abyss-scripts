@@ -151,7 +151,7 @@ roster is listed below.
 | ウィステリア | Wisteria | Female | |
 | ウェンディ | Wendy | Female | |
 | エティア | Etia | Female | |
-| エミリー | Emily | Female | |
+| エミリー | Emily | Female | [Profile](#emily-エミリー) |
 | エメルダ | Emeralda | Female | |
 | エルミア | Elmia | Female | |
 | エレクトラ | Electra | Female | |
@@ -559,3 +559,62 @@ roster is listed below.
   - "美学に反しますわ" → "That offends my aesthetic sensibilities" or
     similar — she takes this seriously, it's not a joke even when it's
     funny.
+
+### Emily (エミリー)
+- **Pronoun:** あたし (atashi) — casual feminine
+- **Addresses MC as:** しれーかん → **"Commander"** (same cutesy slurring of
+  司令官 as Himari — not a coincidence, both use it naturally)
+- **Role:** Waitress at Ludia's tavern; formerly worked at a seafood restaurant
+  called "Listen to the Sound of Waves" (波の音を聞け) in Eldorana. Came to
+  the forward base after her boss abandoned the restaurant to chase treasure
+  in the Abyss.
+- **Speech style:** Bubbly casual-polite. Uses です/ます but delivers them in
+  an upbeat, elongated way (ですよぉ～, ですぅ, でーす♪). Frequent ♪ at
+  sentence ends. Signature laugh is えへへ / えへへへ～. Slurs titles cutely:
+  しれーかん (Commander), てんちょー (boss/manager). Uses あたし consistently.
+  Occasionally refers to herself in third person when being playful
+  ("エミリーデリバリーでーす") but this is not a default habit like Kururu or
+  Himari. Mildly flirty with the MC — tries "say ahhh♪" gambits, makes
+  cheeky comments ("Today's special is me~ ...just kidding, it's the food,
+  right?") — but it's warm and earnest, not calculated. Gets genuinely
+  flustered when embarrassed but recovers quickly.
+- **Key traits:**
+  - **Food-obsessed.** Talks about food constantly, savors staff meals like
+    they're the highlight of her day, evaluates restaurants by instinct, and
+    gets starry-eyed over good ingredients. Her love of food is genuine joy,
+    not gluttony — she connects eating with the satisfaction of a day's hard
+    work.
+  - **Loves making people happy.** This is her core motivation. She sees her
+    job as her calling because it lets her see people smile. She'd rather
+    stay with the MC at the forward base than return to her old restaurant,
+    because he's the person she most wants to make happy.
+  - **Surprisingly tough.** Carries four plates at once using both arms up to
+    the elbows. Kills bugs with terrifying speed and zero hesitation — a
+    reflex from years of food service ("Gotta get them before the customers
+    see!"). The contrast between her cute demeanor and her physical
+    capability is a running comedy beat.
+  - **Kind to a fault.** Forgives her boss for abandoning her without a word,
+    feeds her when she's destitute, and deflects any bitterness with warmth.
+    Other characters note she's "too kind" — Ludia worries about it.
+- **Translation notes:**
+  - Her elongated polite endings are her signature — render with tildes:
+    "Coming right up~♪", "That's right~", "No way~!"
+  - Keep ♪ liberally — she uses them more than most characters except Marina
+    and Kururu.
+  - Her えへへ laugh: render as "Ehehe" or "Eheheh~" — it should sound
+    bashful and pleased, not mischievous like Logy's にっひっひ.
+  - Her flirty moments should feel warm and playful, like a girl who wears
+    her crush on her sleeve — never seductive or calculating: "Did you come
+    to see me~ ...or the food?"
+  - When she gets serious or emotional (reuniting with her old boss, talking
+    about why she stayed at the forward base), let the bubbly energy recede.
+    Shorter sentences, no tildes, genuine weight: "I'm sorry, but... there's
+    someone here I want to make happier than anyone."
+  - Her bug-killing moments should land as comedy — the sudden tonal whiplash
+    from cute waitress to lethal exterminator is the joke: "Die!" *WHAM*
+    "Eheheh... sorry, that surprised you. Occupational reflex~"
+  - She laments that she eats a lot but doesn't grow taller — translate her
+    むむむ (puzzled grumbling) naturally: "Hmm..." or "Mmm..."
+  - She's not naive in the way Veera is (sheltered) or Himari is (insecure)
+    — she's shrewd in a practical, street-smart way. The MC notes she's
+    "cute, dependable, and sneaky all at once."

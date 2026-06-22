@@ -15,11 +15,11 @@ asynccharaemo,chara_1,Speak,STOP
 
 asynccharareaction,chara_1,HOP,0.5,STOP
 window,on,0.15
-message,エミリー,しれーかん、どうですか？<br>この衣装、似合ってます？,,vc_10280100013_001_01
+message,エミリー,Commander，what       do       you       think?<br>Does       this       outfit       suit       me?<br> ,,vc_10280100013_001_01
 
-message,,２階から戻ったエミリーは、ルディアに頼んで娼館の衣装を貸してもらい、<br>嬉しそうにそれを身につけた。
+message,,Back       from       upstairs，Emily       had       asked       Ludia       to       lend<br>her       a       brothel       outfit       and       happily       put       it       on.<br> 
 
-message,<user>,ああ、なかなか似合ってるぞ。
+message,<user>,Yeah，it       looks       pretty       good       on       you.<br> 
 
 asyncseplay,setag3_1,se4800002,0,1,CONT
 
@@ -28,17 +28,17 @@ asynccharaemo,chara_1,Heart,STOP
 charaface,chara_1,FaceFun
 
 asynccharareaction,chara_1,HOP,0.5,STOP
-message,エミリー,ほんとですか！？　えへへ、嬉しいなぁ。,,vc_10280100013_002_01
+message,エミリー,Really!?       Eheheh，that       makes       me       so       happy~<br> ,,vc_10280100013_002_01
 
-message,<user>,その衣装に着替えたってことは、２階の仕事をすることに決めたのか？
+message,<user>,If       you       changed       into       that       outfit，does       that       mean<br>you've       decided       to       work       upstairs?<br> 
 
 asynccharaemo,chara_1,Silence,STOP
 
 charaface,chara_1,EyeClose
 charaface,chara_1,FaceNormal
-message,エミリー,そうですね～……みんなに笑顔になってもらえるならって気持ちはあります。<br>ん～、でも悩んじゃいますね……,,vc_10280100013_003_01
+message,エミリー,Hmm~...       I       do       feel       like       I       would，if       it       makes       everyone<br>smile.       But       hmm~，I'm       still       not       sure...<br> ,,vc_10280100013_003_01
 
-message,<user>,まぁ、無理にする仕事じゃない。<br>ゆっくり考えるといい。
+message,<user>,Well，it's       not       something       to       force       yourself       into.<br>Take       your       time       thinking       about       it.<br> 
 
 asyncseplay,setag3_2,se4800012,0,1,CONT
 
@@ -46,23 +46,23 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
 charaface,chara_1,FaceShy
-message,エミリー,そうですね。まだ、上手く出来るか自信ないですし……<br>あ、あの……もう１回研修お願いしてもいいですか？,,vc_10280100013_004_01
+message,エミリー,You're       right.       I'm       not       confident       I       can       do       it       well...<br>U-um...       could       I       ask       for       one       more       training       session?<br> ,,vc_10280100013_004_01
 
 asyncseplay,setag3_3,se4800012,0,1,CONT
 
 asynccharaemo,chara_1,Imagination,STOP
 
 charaface,chara_1,FaceUnique02
-message,エミリー,今度は、この衣装を着て……<br>お、お願いしますっ！　しれーかん！,,vc_10280100013_005_01
+message,エミリー,This       time，wearing       this       outfit...<br>P-please，Commander!<br> ,,vc_10280100013_005_01
 
-message,<user>,いやいや、ちょっと待て。<br>これじゃ俺の身体が持ちそうにないな……
+message,<user>,Whoa，hold       on       a       second.<br>My       body       might       not       keep       up       at       this       rate...<br> 
 
-message,<user>,それじゃ、それを着てもう少し研修続けてみるか？
+message,<user>,Well       then，shall       we       continue       training       with       you<br>wearing       that?<br> 
 
 charaface,chara_1,FaceUnique01
 
 asynccharareaction,chara_1,Shake,0.5,STOP
-message,エミリー,え～、上手く出来るようになるまで付き合ってくださいよ～<br>しれーかーん……,,vc_10280100013_006_01
+message,エミリー,Ehh~，keep       at       it       with       me       until       I       get       good，okay~?<br>Commander~...<br> ,,vc_10280100013_006_01
 
 window,off
 bgmstop,bgmtag3_1,0.5
