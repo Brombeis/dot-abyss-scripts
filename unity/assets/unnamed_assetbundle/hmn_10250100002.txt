@@ -22,7 +22,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,ウェンディと魔法使い達
+title,Wendy and the Mages
 
 wait,1
 
@@ -58,7 +58,7 @@ asyncjump,CHARA,chara_1,40,0.5,2,off,0,CONT
 
 
 window,on,0.15
-message,ウェンディ,足元には気を付けてくださいね！<br>転んだらそのまま真っ逆さまですよ！,,vc_10250100002_001_01,chara_1
+message,ウェンディ,Watch       your       step!<br>If       you       trip，you'll       go       tumbling       straight       down!<br> ,,vc_10250100002_001_01,chara_1
 
 
 window,off
@@ -107,7 +107,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,ベリサ,う～っ……。ねえ、ウェンディ？<br>鉱石が採れる場所って、まだつかないのかな～？,,vc_10250100002_002_01,chara_2
+message,ベリサ,Ugh~...       Hey，Wendy?<br>Are       we       there       yet~?       Where       they       mine       the       ore~?<br> ,,vc_10250100002_002_01,chara_2
 
 asyncshake,CHARA,chara_2,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -116,7 +116,7 @@ asyncseplay,setag1_3,se4800006,0,1,CONT,0
 asynccharaemo,chara_2,Trouble,CONT,0
 
 
-message,ベリサ,あたし、そろそろ歩き疲れてきちゃったかも。,,vc_10250100002_003_01,chara_2
+message,ベリサ,I       think       I'm       getting       tired       from       all       this       walking.<br> ,,vc_10250100002_003_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -127,7 +127,7 @@ asyncseplay,setag1_4,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ウェンディ,まだ１時間ぐらいしか歩いてませんけど……。<br>もう疲れちゃったんですか？,,vc_10250100002_004_01,chara_1
+message,ウェンディ,We've       only       been       walking       for       about       an       hour...<br>Are       you       tired       already?<br> ,,vc_10250100002_004_01,chara_1
 
 asynccharaface,chara_2,FaceShy,CONT,0
 
@@ -138,7 +138,7 @@ asyncseplay,setag1_5,se4800017,0,1,CONT,0
 asynccharaemo,chara_2,Shock,CONT,0
 
 
-message,ベリサ,うっ……べ、別に疲れてないわよ～♪,,vc_10250100002_005_01,chara_2
+message,ベリサ,Ugh...       I-I'm       not       tired       at       all~♪<br> ,,vc_10250100002_005_01,chara_2
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -149,7 +149,7 @@ asyncseplay,setag1_6,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ウェンディ,え？　でも今そう言って……。,,vc_10250100002_006_01,chara_1
+message,ウェンディ,Huh?       But       you       just       said...<br> ,,vc_10250100002_006_01,chara_1
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -160,7 +160,7 @@ asyncseplay,setag1_7,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ベリサ,ハッ……あははっ、そうだった～！<br>ベリサったらうっかり♡　ごめんね～？,,vc_10250100002_007_01,chara_2
+message,ベリサ,Oh...       ahahah，right~!<br>Silly       me~♡       Sorry       about       that~?<br> ,,vc_10250100002_007_01,chara_2
 
 window,off
 wait,0.15
@@ -204,7 +204,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヴィーラ,すいません、ウェンディさん。<br>お姉ちゃんは負けず嫌いなんです。,,vc_10250100002_008_01,chara_3
+message,ヴィーラ,Sorry       about       her，Wendy-san.<br>Onee-chan       is       just       really       competitive.<br> ,,vc_10250100002_008_01,chara_3
 
 window,off
 wait,0.15
@@ -282,7 +282,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,ベリサ,ちょっ、ヴィーラ！？　言わないでよ！,,vc_10250100002_009_01,chara_2
+message,ベリサ,H-hey，Veera!?       Don't       tell       her       that!<br> ,,vc_10250100002_009_01,chara_2
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -290,7 +290,7 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncjump,CHARA,chara_1,-30,0.5,2,off,0,CONT
 
 
-message,ウェンディ,な、なるほど……でも、魔法使いさんですから<br>体力が少ないのはしょうがないと思います！,,vc_10250100002_010_01,chara_1
+message,ウェンディ,I-I       see...       But       you're       a       mage，so       it's       only<br>natural       to       have       less       stamina!<br> ,,vc_10250100002_010_01,chara_1
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -303,7 +303,7 @@ asyncseplay,setag1_11,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ウェンディ,わたしはオートマタですから、<br>文字通り疲れ知らずなんです！,,vc_10250100002_011_01,chara_1
+message,ウェンディ,I'm       an       automaton，so       I       literally<br>never       get       tired!<br> ,,vc_10250100002_011_01,chara_1
 
 window,off
 wait,0.15
@@ -355,7 +355,7 @@ asynccharaemo,chara_3,Flash,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,やはりそうでしたか！<br>ずっと気になっていたんです！,,vc_10250100002_012_01,chara_3
+message,ヴィーラ,I       knew       it!<br>I've       been       wondering       about       that!<br> ,,vc_10250100002_012_01,chara_3
 
 window,off
 wait,0.15
@@ -413,7 +413,7 @@ asynccharaemo,chara_3,Elated,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,ちなみに、あなたにはどういう機能があるんですか？<br>動力も気になるところです。後は皮膚の素材とかも……。,,vc_10250100002_013_01,chara_3
+message,ヴィーラ,By       the       way，what       kind       of       functions       do       you       have?<br>I'm       curious       about       your       power       source.       And       your       skin...<br> ,,vc_10250100002_013_01,chara_3
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -424,7 +424,7 @@ asyncseplay,setag1_14,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ウェンディ,ま、待ってください！　目が、目が怖いです！,,vc_10250100002_014_01,chara_1
+message,ウェンディ,W-wait，please!       Your       eyes，your       eyes       are       scary!<br> ,,vc_10250100002_014_01,chara_1
 
 window,off
 wait,0.15
@@ -452,7 +452,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヴィーラ,あっ、失礼しました。<br>知的好奇心がくすぐられちゃいまして。,,vc_10250100002_015_01,chara_3
+message,ヴィーラ,Oh，I'm       sorry.<br>My       intellectual       curiosity       got       the       better       of       me.<br> ,,vc_10250100002_015_01,chara_3
 
 asynccharaface,chara_3,FaceHappy,CONT,0
 
@@ -463,7 +463,7 @@ asyncseplay,setag1_17,se4800003,0,1,CONT,0
 asynccharaemo,chara_3,Twinkle,CONT,0
 
 
-message,ヴィーラ,ここまで高性能なオートマタには、<br>そうそうお目にはかかれませんから。,,vc_10250100002_016_01,chara_3
+message,ヴィーラ,It's       just       not       every       day       you       come       across<br>such       a       high-performance       automaton.<br> ,,vc_10250100002_016_01,chara_3
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -474,7 +474,7 @@ asyncseplay,setag1_18,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ウェンディ,ふっふー♪　お父様はすごい魔法使いですから！,,vc_10250100002_017_01,chara_1
+message,ウェンディ,Hehe~♪       That's       because       Father       is       an       amazing       mage!<br> ,,vc_10250100002_017_01,chara_1
 
 asynccharaface,chara_3,FaceSurprise,CONT,0
 
@@ -485,7 +485,7 @@ asyncseplay,setag1_19,se4800010,0,1,CONT,0
 asynccharaemo,chara_3,Exclamation,CONT,0
 
 
-message,ヴィーラ,お父様？　<br>……ああ、開発者のことを父と呼んでいるのですね。,,vc_10250100002_018_01,chara_3
+message,ヴィーラ,Father?<br>...Ah，so       you       call       your       creator       'Father'.<br> ,,vc_10250100002_018_01,chara_3
 
 window,off
 wait,0.15
@@ -533,7 +533,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,ベリサ,オートマタに「お父様」って呼ばせるなんて……<br>ちょっと変態さんっぽいかも？　な～んて♡,,vc_10250100002_019_01,chara_2
+message,ベリサ,Making       an       automaton       call       you       'Father'...<br>That's       kind       of       pervy，maybe~?       Just       kidding~♡<br> ,,vc_10250100002_019_01,chara_2
 
 window,off
 wait,0.15
@@ -577,7 +577,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,わたしはお父様の亡くなられた娘さんを<br>モデルとして作られていますからね！,,vc_10250100002_020_01,chara_1
+message,ウェンディ,I       was       modeled       after       Father's       daughter<br>who       passed       away!<br> ,,vc_10250100002_020_01,chara_1
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -586,7 +586,7 @@ asyncseplay,setag1_22,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ウェンディ,血の繋がりじゃなくて見た目だけの繋がりですけど<br>わたしのお父様はお父様です！,,vc_10250100002_021_01,chara_1
+message,ウェンディ,We're       not       connected       by       blood，only       by       looks，<br>but       my       father       is       my       father!<br> ,,vc_10250100002_021_01,chara_1
 
 window,off
 wait,0.15
@@ -643,7 +643,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ベリサ,…………,,vc_10250100002_022_01,chara_2
+message,ベリサ,......<br> ,,vc_10250100002_022_01,chara_2
 
 window,off
 wait,0.15
@@ -660,7 +660,7 @@ asynccharaemo,chara_3,Silence,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,お姉ちゃん。少しでも悪いと思ったなら<br>謝った方がいいんじゃない？,,vc_10250100002_023_01,chara_3
+message,ヴィーラ,Onee-chan.       If       you       feel       even       a       little       bad，<br>don't       you       think       you       should       apologize?<br> ,,vc_10250100002_023_01,chara_3
 
 asyncshake,CHARA,chara_2,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -669,7 +669,7 @@ asyncseplay,setag1_25,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,ベリサ,わ、分かってる、もん。,,vc_10250100002_024_01,chara_2
+message,ベリサ,I-I       know       that，okay.<br> ,,vc_10250100002_024_01,chara_2
 
 window,off
 wait,0.15
@@ -734,7 +734,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ベリサ,あの、その……ごめんね？<br>ウェンディのお父さんのこと、変態とか言って……,,vc_10250100002_025_01,chara_2
+message,ベリサ,Um，so...       I'm       sorry，okay?<br>For       calling       your       father       a       pervert...<br> ,,vc_10250100002_025_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -745,7 +745,7 @@ asyncseplay,setag1_27,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ウェンディ,変態？　それってどういう意味ですか？,,vc_10250100002_026_01,chara_1
+message,ウェンディ,Pervert?       What       does       that       mean?<br> ,,vc_10250100002_026_01,chara_1
 
 asynccharaface,chara_2,FaceShy,CONT,0
 
@@ -756,7 +756,7 @@ asyncseplay,setag1_28,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ベリサ,え？　えーっと……！<br>おにーさんみたいな人のことよ。,,vc_10250100002_027_01,chara_2
+message,ベリサ,Huh?       Uh，well...!<br>It       means       someone       like       Onii-san.<br> ,,vc_10250100002_027_01,chara_2
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -767,7 +767,7 @@ asyncseplay,setag1_29,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ウェンディ,なるほど……すごく立派な人ってことですよね！<br>褒めてるのにどうして謝るんですか？,,vc_10250100002_028_01,chara_1
+message,ウェンディ,I       see...       So       it       means       a       really       wonderful       person!<br>Why       apologize       when       you're       giving       a       compliment?<br> ,,vc_10250100002_028_01,chara_1
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -778,7 +778,7 @@ asyncseplay,setag1_30,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ベリサ,そ、そういう意味じゃなくって……。<br>あはは、この話は忘れて～♡,,vc_10250100002_029_01,chara_2
+message,ベリサ,Th-that's       not       what       it       means...<br>Ahahah，let's       just       forget       this~♡<br> ,,vc_10250100002_029_01,chara_2
 
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
@@ -787,7 +787,7 @@ asyncseplay,setag1_31,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,ベリサ,そんなことより、鉱石がとれる場所にはまだ着かないの……？,,vc_10250100002_030_01,chara_2
+message,ベリサ,More       importantly，are       we       still       not       there       yet...?<br> ,,vc_10250100002_030_01,chara_2
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -796,7 +796,7 @@ asyncseplay,setag1_32,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ウェンディ,もうすぐそこです。<br>ところで、あの鉱石を何に使うんですか？,,vc_10250100002_031_01,chara_1
+message,ウェンディ,We're       almost       there.<br>By       the       way，what       are       you       using       that       ore       for?<br> ,,vc_10250100002_031_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -807,7 +807,7 @@ asyncseplay,setag1_33,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ウェンディ,魔法の実験と言ってましたが……。,,vc_10250100002_032_01,chara_1
+message,ウェンディ,You       mentioned       a       magic       experiment...<br> ,,vc_10250100002_032_01,chara_1
 
 window,off
 wait,0.15
@@ -855,7 +855,7 @@ asynccharaemo,chara_2,Spirits,CONT,0
 
 
 window,on,0.15
-message,ベリサ,そうなの！　すっごいことに使うつもり♪,,vc_10250100002_033_01,chara_2
+message,ベリサ,That's       right!       I'm       gonna       use       it       for       something       amazing~♪<br> ,,vc_10250100002_033_01,chara_2
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -867,7 +867,7 @@ asyncseplay,setag1_35,se4800003,0,1,CONT,0
 asynccharaemo,chara_2,Twinkle,CONT,0
 
 
-message,ベリサ,あたしの魔法をパワーアップさせるのに<br>あの鉱石が必要なのよ。,,vc_10250100002_034_01,chara_2
+message,ベリサ,I       need       that       ore       to       power       up       my       magic.<br> ,,vc_10250100002_034_01,chara_2
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -878,7 +878,7 @@ asyncseplay,setag1_36,se4800019,0,1,CONT,0
 asynccharaemo,chara_2,Elated,CONT,0
 
 
-message,ベリサ,あたしは自分の魔法をもっと強くして<br>おにーさんをびっくりさせてやるの！,,vc_10250100002_035_01,chara_2
+message,ベリサ,I'm       gonna       make       my       magic       even       stronger<br>and       blow       Onii-san's       mind!<br> ,,vc_10250100002_035_01,chara_2
 
 asynccharaface,chara_2,FaceUnique02,CONT,0
 
@@ -889,7 +889,7 @@ asyncseplay,setag1_37,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,ベリサ,そしたらもう、あたしに生意気な口なんか<br>利けなくなっちゃうからね～♪,,vc_10250100002_036_01,chara_2
+message,ベリサ,Then       he       won't       be       able       to       mouth       off<br>to       me       anymore~♪<br> ,,vc_10250100002_036_01,chara_2
 
 window,off
 wait,0.15
@@ -942,7 +942,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,生意気な口……？,,vc_10250100002_037_01,chara_1
+message,ウェンディ,Mouth       off...?<br> ,,vc_10250100002_037_01,chara_1
 
 asynccharaface,chara_3,FaceHappy,CONT,0
 
@@ -953,7 +953,7 @@ asyncseplay,setag1_39,se4800014,0,1,CONT,0
 asynccharaemo,chara_3,Silence,CONT,0
 
 
-message,ヴィーラ,お姉ちゃんは司令官さまのことが大好きで、<br>ついからかってしまって……よく叱られるんです。,,vc_10250100002_038_01,chara_3
+message,ヴィーラ,Onee-chan       loves       Commander-sama       so       much       she<br>can't       help       teasing       him...       and       gets       scolded       a       lot.<br> ,,vc_10250100002_038_01,chara_3
 
 asynccharaface,chara_3,FaceUnique01,CONT,0
 
@@ -964,7 +964,7 @@ asyncseplay,setag1_40,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,ヴィーラ,素直に好きだと伝えればいいのに。<br>でも、こういうところも可愛いですよね？,,vc_10250100002_039_01,chara_3
+message,ヴィーラ,She       should       just       be       honest       about       her       feelings.<br>But       this       side       of       her       is       cute       too，don't       you       think?<br> ,,vc_10250100002_039_01,chara_3
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -975,7 +975,7 @@ asyncseplay,setag1_41,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ウェンディ,う、うーん……そうかなぁ。,,vc_10250100002_040_01,chara_1
+message,ウェンディ,U-umm...       you       think       so?<br> ,,vc_10250100002_040_01,chara_1
 
 window,off
 wait,0.15
@@ -1023,7 +1023,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ウェンディ,あ、えっと……着きましたよ！<br>ここが鉱石の採掘所です。,,vc_10250100002_041_01,chara_1
+message,ウェンディ,Oh，um...       we're       here!<br>This       is       the       ore       mining       site.<br> ,,vc_10250100002_041_01,chara_1
 
 window,off
 wait,0.15
@@ -1097,7 +1097,7 @@ asynccharaemo,chara_2,Question,STOP,3.75
 
 
 window,on,0.15
-message,ベリサ,うわっ、石がいっぱい～。<br>それで、これのどこにあるの？,,vc_10250100002_042_01,chara_2
+message,ベリサ,Whoa，rocks       everywhere~.<br>So，where       exactly       is       it?<br> ,,vc_10250100002_042_01,chara_2
 
 window,off
 wait,0.15
@@ -1147,7 +1147,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,ここのどこかです！,,vc_10250100002_043_01,chara_1
+message,ウェンディ,Somewhere       around       here!<br> ,,vc_10250100002_043_01,chara_1
 
 window,off
 wait,0.15
@@ -1201,7 +1201,7 @@ asynccharaemo,chara_2,Shock,CONT,0
 
 
 window,on,0.15
-message,ベリサ,えっ？　,,vc_10250100002_044_01,chara_2
+message,ベリサ,Huh?       <br> ,,vc_10250100002_044_01,chara_2
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -1212,7 +1212,7 @@ asyncseplay,setag1_47,se4800009,0,1,CONT,0
 asynccharaemo,chara_2,Question,CONT,0
 
 
-message,ベリサ,ど、どういうことかな～？<br>あたしはどこにあるのって聞いたんだよ～……？,,vc_10250100002_045_01,chara_2
+message,ベリサ,Wh-what       do       you       mean~?<br>I       asked       where       it       is，y'know~...?<br> ,,vc_10250100002_045_01,chara_2
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1224,7 +1224,7 @@ asyncseplay,setag1_48,se4800005,0,1,CONT,0
 asynccharaemo,chara_1,Flash,CONT,0
 
 
-message,ウェンディ,希少な鉱石なので、ここのどこかに<br>あるかもしれない、としか言えません！,,vc_10250100002_046_01,chara_1
+message,ウェンディ,It's       a       rare       ore，so       all       I       can       say       is<br>it       might       be       somewhere       around       here!<br> ,,vc_10250100002_046_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1235,7 +1235,7 @@ asyncseplay,setag1_49,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ウェンディ,掘ったところで見つからないかもしれないです。<br>だけど、みんなで頑張って掘りましょう！,,vc_10250100002_047_01,chara_1
+message,ウェンディ,We       might       not       find       it       even       after       digging.<br>But       let's       all       do       our       best       and       dig       anyway!<br> ,,vc_10250100002_047_01,chara_1
 
 asyncshake,CHARA,chara_2,20,15,0.5,6,on,off,0,off,CONT,0
 
@@ -1244,7 +1244,7 @@ asyncseplay,setag1_50,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ベリサ,うそ……め、めんどくさーいっ！,,vc_10250100002_048_01,chara_2
+message,ベリサ,No       way...       wh-what       a       pain!<br> ,,vc_10250100002_048_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1255,7 +1255,7 @@ asyncseplay,setag1_51,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ウェンディ,ええっ？　き、急にどうしたんですか？,,vc_10250100002_049_01,chara_1
+message,ウェンディ,Huh!?       Wh-what's       gotten       into       you       all       of       a       sudden?<br> ,,vc_10250100002_049_01,chara_1
 
 asyncjump,CHARA,chara_2,-30.6,0.5,1,off,0,CONT
 
@@ -1264,7 +1264,7 @@ asyncseplay,setag1_52,se4800006,0,1,CONT,0
 asynccharaemo,chara_2,Trouble,CONT,0
 
 
-message,ベリサ,はぁ……帰ろうかしら。,,vc_10250100002_050_01,chara_2
+message,ベリサ,Sigh...       Maybe       I'll       just       go       home.<br> ,,vc_10250100002_050_01,chara_2
 
 window,off
 wait,0.15
@@ -1312,7 +1312,7 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,お姉ちゃん。ここでお姉ちゃんが自分の手で<br>鉱石を掘り出せたら、司令官さま、きっと驚くんじゃないかな？,,vc_10250100002_051_01,chara_3
+message,ヴィーラ,Onee-chan.       If       you       dug       up       the       ore       yourself，<br>don't       you       think       Commander-sama       would       be       impressed?<br> ,,vc_10250100002_051_01,chara_3
 
 window,off
 wait,0.15
@@ -1368,7 +1368,7 @@ asynccharaemo,chara_2,Silence,CONT,0
 
 
 window,on,0.15
-message,ベリサ,…………,,vc_10250100002_052_01,chara_2
+message,ベリサ,......<br> ,,vc_10250100002_052_01,chara_2
 
 asynccharaface,chara_3,FaceUnique02,CONT,0
 
@@ -1381,7 +1381,7 @@ asynccharaemo,chara_3,Elated,CONT,0
 wait,0.5
 
 
-message,ヴィーラ,そうすれば、司令官さまもお姉ちゃんのこと、<br>リスペクトしちゃうと思うけどなぁ～……,,vc_10250100002_053_01,chara_3
+message,ヴィーラ,I       think       he'd       really       respect       you<br>if       you       did，Onee-chan~...<br> ,,vc_10250100002_053_01,chara_3
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -1392,7 +1392,7 @@ asyncseplay,setag1_56,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,ベリサ,……分かってるわよ。<br>最初っからあたしが見つけるつもりだったし～！,,vc_10250100002_054_01,chara_2
+message,ベリサ,...I       know       that       already.       I       was       planning<br>to       find       it       myself       from       the       start~!<br> ,,vc_10250100002_054_01,chara_2
 
 asynccharaface,chara_2,FaceUnique02,CONT,0
 
@@ -1403,7 +1403,7 @@ asyncseplay,setag1_57,se4800010,0,1,CONT,0
 asynccharaemo,chara_2,Exclamation,CONT,0
 
 
-message,ベリサ,あたしにかかれば、鉱石の１つや２つ<br>見つけるぐらい簡単だも～ん！,,vc_10250100002_055_01,chara_2
+message,ベリサ,For       someone       like       me，finding       an       ore       or       two<br>is       a       piece       of       cake~!<br> ,,vc_10250100002_055_01,chara_2
 
 window,off
 wait,0.15
@@ -1471,7 +1471,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,あはは……なるほど。<br>これが素のベリサさんなんですね。,,vc_10250100002_056_01,chara_1
+message,ウェンディ,Ahahah...       I       see.<br>So       this       is       the       real       Verisa-san.<br> ,,vc_10250100002_056_01,chara_1
 
 window,off
 wait,0.15
@@ -1521,7 +1521,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,じゃあみんなで頑張って掘り進めていきましょう！<br>目指せ、レア鉱石～！,,vc_10250100002_057_01,chara_1
+message,ウェンディ,Then       let's       all       dig       together!<br>Our       goal:       rare       ore~!<br> ,,vc_10250100002_057_01,chara_1
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -1567,7 +1567,7 @@ asynccharaemo,chara_2,Flower,CONT,0
 
 
 window,on,0.15
-message,ベリサ,あった～！　これよこれ！<br>これがほしかったの～！,,vc_10250100002_058_01,chara_2
+message,ベリサ,Found       it~!       This       is       it，this       is       it!<br>This       is       what       I       wanted~!<br> ,,vc_10250100002_058_01,chara_2
 
 window,off
 wait,0.15
@@ -1631,7 +1631,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヴィーラ,おめでとう♪　お姉ちゃん！,,vc_10250100002_059_01,chara_3
+message,ヴィーラ,Congratulations~♪       Onee-chan!<br> ,,vc_10250100002_059_01,chara_3
 
 asynccharaface,chara_2,FaceUnique02,CONT,0
 
@@ -1642,7 +1642,7 @@ asyncseplay,setag1_62,se4800002,0,1,CONT,0
 asynccharaemo,chara_2,Heart,CONT,0
 
 
-message,ベリサ,ざ～こ♡　ざ～こ♡<br>レアのくせにすぐ見つかるざこ鉱石♪,,vc_10250100002_060_01,chara_2
+message,ベリサ,Wea~kling~♡       Wea~kling~♡<br>Calling       yourself       rare       but       so       easy       to       find~♪<br> ,,vc_10250100002_060_01,chara_2
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1653,7 +1653,7 @@ asyncseplay,setag1_63,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ウェンディ,見つかって良かったです！<br>お１つで大丈夫ですか？,,vc_10250100002_061_01,chara_1
+message,ウェンディ,I'm       glad       we       found       it!<br>Will       just       the       one       be       enough?<br> ,,vc_10250100002_061_01,chara_1
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -1664,14 +1664,14 @@ asyncseplay,setag1_64,se4800003,0,1,CONT,0
 asynccharaemo,chara_2,Twinkle,CONT,0
 
 
-message,ベリサ,当然！　あたしは天才だもん。<br>実験ぐらい一発で成功させられるもんねぇ～。,,vc_10250100002_062_01,chara_2
+message,ベリサ,Obviously!       I'm       a       genius，after       all.<br>I       can       nail       an       experiment       on       the       first       try~.<br> ,,vc_10250100002_062_01,chara_2
 
 asynccharaface,chara_3,FaceFun,CONT,0
 
 asyncjump,CHARA,chara_3,-30,0.25,1,off,0,CONT
 
 
-message,ヴィーラ,わたしたちはこれから工房で、<br>実験の準備をしようと思います。,,vc_10250100002_063_01,chara_3
+message,ヴィーラ,We're       going       to       head       to       the       workshop       now<br>to       prepare       for       the       experiment.<br> ,,vc_10250100002_063_01,chara_3
 
 asynccharaface,chara_3,FaceUnique01,CONT,0
 
@@ -1682,7 +1682,7 @@ asyncseplay,setag1_65,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,ヴィーラ,ウェンディさん、今回はご協力いただき<br>ありがとうございました。,,vc_10250100002_064_01,chara_3
+message,ヴィーラ,Wendy-san，thank       you       so       much<br>for       your       help       today.<br> ,,vc_10250100002_064_01,chara_3
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -1691,7 +1691,7 @@ asyncseplay,setag1_66,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ウェンディ,わたしも、２人とたくさんお話しできて<br>楽しかったです！,,vc_10250100002_065_01,chara_1
+message,ウェンディ,I       had       a       great       time       too，<br>getting       to       talk       so       much       with       you       both!<br> ,,vc_10250100002_065_01,chara_1
 
 window,off
 wait,0.15
@@ -1739,7 +1739,7 @@ asynccharaemo,chara_2,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ベリサ,ちょっと！　その敬語もうやめてよね～。<br>あたしたち、もう友達なんだから♪,,vc_10250100002_066_01,chara_2
+message,ベリサ,Hey!       Drop       the       formal       speech       already~.<br>We're       friends       now，after       all~♪<br> ,,vc_10250100002_066_01,chara_2
 
 asynccharaface,chara_2,FaceUnique02,CONT,0
 
@@ -1750,7 +1750,7 @@ asyncseplay,setag1_68,se4800002,0,1,CONT,0
 asynccharaemo,chara_2,Heart,CONT,0
 
 
-message,ベリサ,それとも～？　あたしの下僕になるぅ？<br>ざーこ♪　って呼んであげよっか～？,,vc_10250100002_067_01,chara_2
+message,ベリサ,Or       would       you       rather~       be       my       servant~?<br>Want       me       to       call       you       'weakling'~♪?<br> ,,vc_10250100002_067_01,chara_2
 
 window,off
 wait,0.15
@@ -1812,7 +1812,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,友達……嬉しいです！<br>わたし、友達がいいです！,,vc_10250100002_068_01,chara_1
+message,ウェンディ,Friends...       I'm       so       happy!<br>I       want       to       be       friends，please!<br> ,,vc_10250100002_068_01,chara_1
 
 asynccharaface,chara_2,FaceShy,CONT,0
 
@@ -1823,7 +1823,7 @@ asyncseplay,setag1_71,se4800012,0,1,CONT,0
 asynccharaemo,chara_2,Shy,CONT,0
 
 
-message,ベリサ,なによ、嬉しそうにしちゃってぇ。,,vc_10250100002_069_01,chara_2
+message,ベリサ,Look       at       you，all       happy       about       it~.<br> ,,vc_10250100002_069_01,chara_2
 
 window,off
 wait,0.15
@@ -1887,7 +1887,7 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,ふふっ♪　お姉ちゃんも嬉しそうに見えるけどなぁ～。,,vc_10250100002_070_01,chara_3
+message,ヴィーラ,Hehe~♪       You       look       pretty       happy       yourself，Onee-chan~.<br> ,,vc_10250100002_070_01,chara_3
 
 asyncshake,CHARA,chara_2,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1896,7 +1896,7 @@ asyncseplay,setag1_73,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,ベリサ,そ、そんなことないもん！,,vc_10250100002_071_01,chara_2
+message,ベリサ,N-no       I       don't!<br> ,,vc_10250100002_071_01,chara_2
 
 window,off
 wait,0.15
@@ -1916,7 +1916,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ベリサ,それじゃあ、あたしたちはもう行くから！<br>じゃあね、ウェンディ！,,vc_10250100002_072_01,chara_2
+message,ベリサ,Anyway，we're       heading       out       now!<br>See       you，Wendy!<br> ,,vc_10250100002_072_01,chara_2
 
 asynccharaface,chara_3,FaceHappy,CONT,0
 
@@ -1927,7 +1927,7 @@ asyncseplay,setag1_75,se4800005,0,1,CONT,0
 asynccharaemo,chara_3,Flash,CONT,0
 
 
-message,ヴィーラ,次お会いした時は、いろいろと<br>体を調べさせてくださいね。,,vc_10250100002_073_01,chara_3
+message,ヴィーラ,Next       time       we       meet，please       let       me<br>examine       you       in       detail.<br> ,,vc_10250100002_073_01,chara_3
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -1936,7 +1936,7 @@ asyncseplay,setag1_76,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ウェンディ,うん！　２人とも、またね～！,,vc_10250100002_074_01,chara_1
+message,ウェンディ,Okay!       See       you       both       later~!<br> ,,vc_10250100002_074_01,chara_1
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -1997,7 +1997,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,えへへ～。今日は２人もお友達ができちゃいました。,,vc_10250100002_075_01,chara_1
+message,ウェンディ,Ehehe~.       I       made       two       new       friends       today.<br> ,,vc_10250100002_075_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -2009,7 +2009,7 @@ asyncseplay,setag1_78,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ウェンディ,お父様に報告しなくっちゃ♪<br>便箋はたしかこの辺りに……,,vc_10250100002_076_01,chara_1
+message,ウェンディ,I       have       to       tell       Father       about       this~♪<br>The       stationery       should       be       around       here       somewhere...<br> ,,vc_10250100002_076_01,chara_1
 
 window,off
 wait,0.15
@@ -2028,7 +2028,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ウェンディ,あったあった。<br>えっと、まずはーっと……。,,vc_10250100002_077_01,chara_1
+message,ウェンディ,There       it       is.<br>Okay，first       things       first...<br> ,,vc_10250100002_077_01,chara_1
 
 window,off
 wait,0.15
@@ -2052,7 +2052,7 @@ asyncwait,subimage_0_2
 
 asyncwait
 
-messageTextUnder,,ウェンディは便箋を机の上に置き、<br>今日あった出来事を書き連ねていく。,,,on
+messageTextUnder,,Wendy       placed       the       stationery       on       the       desk<br>and       began       writing       about       the       day's       events.<br> ,,,on
 
 
 window,off
@@ -2072,7 +2072,7 @@ asyncseplay,setag1_81,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-messageTextUnder,ウェンディ,お父様へ。わたしは今日、お友達ができました。<br>キュートで明るい子と、クールでかっこいい子です。,,vc_10250100002_078_01,on
+messageTextUnder,ウェンディ,Dear       Father.       I       made       friends       today.<br>One       cute       and       cheerful，one       cool       and       admirable.<br> ,,vc_10250100002_078_01,on
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -2083,7 +2083,7 @@ asyncseplay,setag1_82,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-messageTextUnder,ウェンディ,オートマタのわたしにも気後れせずに<br>友達として接してくれました。,,vc_10250100002_079_01,on
+messageTextUnder,ウェンディ,They       treated       me       as       a       friend       without       any<br>hesitation，even       though       I'm       an       automaton.<br> ,,vc_10250100002_079_01,on
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -2095,7 +2095,7 @@ asyncseplay,setag1_83,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-messageTextUnder,ウェンディ,今度、お父様にも紹介しますね……と。,,vc_10250100002_080_01,on
+messageTextUnder,ウェンディ,I'll       introduce       them       to       you       someday...       and       done.<br> ,,vc_10250100002_080_01,on
 
 window,off
 wait,0.15
@@ -2127,7 +2127,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,よっし、手紙を書き終わりました！<br>明日にでも送っておきましょう。えへへ～。,,vc_10250100002_081_01,chara_1
+message,ウェンディ,All       right，letter's       done!<br>I'll       send       it       off       tomorrow.       Ehehe~.<br> ,,vc_10250100002_081_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -2139,7 +2139,7 @@ asyncseplay,setag1_85,se4800020,0,1,CONT,0
 asynccharaemo,chara_1,Sleepy,CONT,0
 
 
-message,ウェンディ,ふわわ……そろそろ寝なくっちゃ。<br>明日もお仕事がありますし！,,vc_10250100002_082_01,chara_1
+message,ウェンディ,Fwaaah...       I       should       get       to       sleep       soon.<br>I've       got       work       again       tomorrow!<br> ,,vc_10250100002_082_01,chara_1
 
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
@@ -2152,9 +2152,9 @@ asynccharaface,chara_1,EyeClose,CONT
 asynccharaface,chara_1,FaceNormal,CONT
 
 
-message,ウェンディ,おやすみなさい……,,vc_10250100002_083_01,chara_1
+message,ウェンディ,Good       night...<br> ,,vc_10250100002_083_01,chara_1
 
-message,ウェンディ,『スリープモードに移行』,,vc_10250100002_083_02
+message,ウェンディ,'Entering       Sleep       Mode'<br> ,,vc_10250100002_083_02
 
 window,off
 wait,0.15

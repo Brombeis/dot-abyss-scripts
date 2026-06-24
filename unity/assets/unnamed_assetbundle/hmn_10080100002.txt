@@ -33,7 +33,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Sisters in the Abyss
 
 wait,1
 
@@ -43,7 +43,7 @@ bgmplay,bgmtag1_1,bgm0027,0.75,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――大穴内　簡易拠点への輸送部隊護衛任務</size>,,,on
+messageTextCenter,,<size=48>——Inside the Abyss: Transport Unit Escort Mission to Forward Outpost</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -91,9 +91,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ヴィーラ,ここが大穴の内部……。<br>聞いていたよりもずっと不思議な空間ですね。,100801000G,vc_10080100002_001_01,chara_1
+message,ヴィーラ,So       this       is       inside       the       Abyss...<br>It's       a       far       more       wondrous       place       than       I'd       heard.<br> ,100801000G,vc_10080100002_001_01,chara_1
 
-message,<user>,ヴィーラは初めての大穴だったな。<br>今回はあくまで護衛任務だ。気負わず落ち着いて仕事をしてくれ。
+message,<user>,This       is       your       first       time       in       the       Abyss，Veera.<br>It's       just       an       escort       mission.       Stay       calm       and       do       your       job.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -104,7 +104,7 @@ asyncseplay,setag1_2,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヴィーラ,はい。<br>お姉ちゃんの妹がどれほどの魔法使いかお見せします。,100801000G,vc_10080100002_002_01,chara_1
+message,ヴィーラ,Yes.<br>I'll       show       you       just       how       capable       Onee-chan's       sister       is.<br> ,100801000G,vc_10080100002_002_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -115,9 +115,9 @@ asyncseplay,setag1_3,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ヴィーラ,お姉ちゃんに恥をかかせない働きをしますから。<br>期待していてください、司令官さま。,100801000G,vc_10080100002_003_01,chara_1
+message,ヴィーラ,I'll       perform       in       a       way       that       won't       shame       Onee-chan.<br>Please       look       forward       to       it，Commander-sama.<br> ,100801000G,vc_10080100002_003_01,chara_1
 
-message,<user>,それを気負ってるというんだが……。<br>まあ、無理せずにな。
+message,<user>,That's       exactly       what       I       mean       by       overdoing       it，but...<br>Well，just       don't       push       yourself.<br> 
 
 window,off
 wait,0.15
@@ -136,7 +136,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヴィーラ,まかせてください。,100801000G,vc_10080100002_004_01,chara_1
+message,ヴィーラ,Leave       it       to       me.<br> ,100801000G,vc_10080100002_004_01,chara_1
 
 window,off
 wait,0.15
@@ -166,7 +166,7 @@ transitionCrossFade,Tra01,1
 wait,1
 
 window,on,0.15
-message,,意気込むヴィーラの様子を見ていたベリサが、<br>そっと<user>へ近づいてくる。
+message,,Watching       Veera's       eagerness，Verisa<br>quietly       sidled       up       to       the       Commander.<br> 
 
 window,off
 wait,0.15
@@ -203,7 +203,7 @@ asynccharaemo,chara_2,Spirits,CONT,0
 
 
 window,on,0.15
-message,ベリサ,ふふふ、気合いが入ってるみたいね、ヴィーラ。,100201000G,vc_10080100002_005_01,chara_2
+message,ベリサ,Heheh，looks       like       Veera's       really       fired       up.<br> ,100201000G,vc_10080100002_005_01,chara_2
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -214,9 +214,9 @@ asyncseplay,setag1_6,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,ベリサ,でもざーんねんっ！<br>今日はヴィーラより、あたしのほうが大活躍しちゃうんだから！,100201000G,vc_10080100002_006_01,chara_2
+message,ベリサ,But       too~       bad!<br>Today，I'm       gonna       outshine       Veera!<br> ,100201000G,vc_10080100002_006_01,chara_2
 
-message,<user>,お前、そんなこと考えてたのか……
+message,<user>,That's       what       you've       been       thinking       about...?<br> 
 
 asynccharaface,chara_2,FaceUnique02,CONT,0
 
@@ -227,7 +227,7 @@ asyncseplay,setag1_7,se4800019,0,1,CONT,0
 asynccharaemo,chara_2,Elated,CONT,0
 
 
-message,ベリサ,えー、何か悪いの？<br>妹に格の違いをわからせたい、なんて姉として当然の欲求でしょ？,100201000G,vc_10080100002_007_01,chara_2
+message,ベリサ,What，is       that       so       wrong?<br>Wanting       to       show       my       sister       who's       boss       is       totally       natural!<br> ,100201000G,vc_10080100002_007_01,chara_2
 
 asyncjump,CHARA,chara_2,-30,0.5,2,off,0,CONT
 
@@ -236,9 +236,9 @@ asyncseplay,setag1_8,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,ベリサ,それともおにーさん、自分以外がわからされちゃうのが嫌だった？<br>もしかして嫉妬しちゃったのかなぁ～♡,100201000G,vc_10080100002_008_01,chara_2
+message,ベリサ,Or       maybe       you       don't       want       anyone       else       getting       shown       up?<br>Could       it       be       you're       jealous~♡<br> ,100201000G,vc_10080100002_008_01,chara_2
 
-message,<user>,……ちなみにヴィーラはベリサに恥をかかせたくないって感じだったぞ。<br>人格面ではすでに負けているようだが？
+message,<user>,...For       the       record，Veera       was       focused       on       not       embarrassing       you.<br>Looks       like       you've       already       lost       on       the       character       front.<br> 
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -249,9 +249,9 @@ asyncseplay,setag1_9,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ベリサ,うぅっ……あの子はこれだから、もう！<br>妹に魔法でボロ負けして恥をかくのはこっちなのに……！,100201000G,vc_10080100002_009_01,chara_2
+message,ベリサ,Ugh...       that       girl，honestly~!<br>I'm       the       one       who'll       be       humiliated       losing       to       her       in       magic...!<br> ,100201000G,vc_10080100002_009_01,chara_2
 
-message,<user>,……ヴィーラと仲が悪いようには見えなかったが、<br>魔法の腕で負けているのは気に入らないのか？
+message,<user>,...You       didn't       seem       on       bad       terms       with       Veera，<br>but       you       don't       like       being       outmatched       in       magic?<br> 
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -262,7 +262,7 @@ asyncseplay,setag1_10,se4800016,0,1,CONT,0
 asynccharaemo,chara_2,BePeevish,CONT,0
 
 
-message,ベリサ,そんなわけないでしょっ！<br>妹が優秀だから嫌い、なんてこと、あたしが言うわけないじゃない！,100201000G,vc_10080100002_010_01,chara_2
+message,ベリサ,Of       course       not!<br>As       if       I'd       ever       hate       my       sister       for       being       talented!<br> ,100201000G,vc_10080100002_010_01,chara_2
 
 asynccharaface,chara_2,FaceShy,CONT,0
 
@@ -273,7 +273,7 @@ asyncseplay,setag1_11,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,ベリサ,ただ、その……ペルディオンではあの子のほうが期待されてたし、<br>ちゃんと才能もあって、結果も出してたから……,100201000G,vc_10080100002_011_01,chara_2
+message,ベリサ,It's       just...       in       Perdion，she       was       the       one       they       had       hopes       for，<br>and       she       had       real       talent       and       results       to       show       for       it...<br> ,100201000G,vc_10080100002_011_01,chara_2
 
 window,off
 wait,0.15
@@ -292,9 +292,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ベリサ,ここで姉の威厳を見せたいって、それだけよ。,100201000G,vc_10080100002_012_01,chara_2
+message,ベリサ,I       just       want       to       show       some       big-sister       dignity.       That's       all.<br> ,100201000G,vc_10080100002_012_01,chara_2
 
-message,<user>,別に威厳なんてなくても、<br>あいつはベリサをちゃんと尊敬してるじゃないか。
+message,<user>,Even       without       the       dignity       act，<br>she       clearly       respects       you       already.<br> 
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -305,11 +305,11 @@ asyncseplay,setag1_13,se4800010,0,1,CONT,0
 asynccharaemo,chara_2,Exclamation,CONT,0
 
 
-message,ベリサ,それも嫌なの！<br>尊敬に足るってところをしっかり見せたいでしょ！,100201000G,vc_10080100002_013_01,chara_2
+message,ベリサ,That's       what       makes       it       worse!<br>I       want       to       actually       earn       that       respect，you       know!<br> ,100201000G,vc_10080100002_013_01,chara_2
 
-message,<user>,確かに大穴で活躍してるのを見せれば、<br>さすがべリサだって話にはなるか。
+message,<user>,True，if       you       show       off       in       the       Abyss，<br>that'd       make       a       good       case       for       'typical       Verisa'.<br> 
 
-message,<user>,しかしヴィーラは凄腕の魔法使いなんだろう。<br>実際のところ、勝てるのか？
+message,<user>,But       Veera's       a       top-tier       mage，right?<br>Honestly，can       you       win?<br> 
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -320,7 +320,7 @@ asyncseplay,setag1_14,se4800003,0,1,CONT,0
 asynccharaemo,chara_2,Twinkle,CONT,0
 
 
-message,ベリサ,ふふーん！　あたしは大穴での戦いなら経験豊富！<br>相手がヴィーラだって負けるつもりはないんだから！,100201000G,vc_10080100002_014_01,chara_2
+message,ベリサ,Heh       heh~!       I'm       a       veteran       when       it       comes       to       the       Abyss!<br>Even       against       Veera，I       don't       plan       on       losing!<br> ,100201000G,vc_10080100002_014_01,chara_2
 
 asynccharaface,chara_2,FaceUnique02,CONT,0
 
@@ -331,9 +331,9 @@ asyncseplay,setag1_15,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,ベリサ,あたしが負けるところが見られなくて残念だった～？<br>ねえねえ、悔しい？　おに～さん？,100201000G,vc_10080100002_015_01,chara_2
+message,ベリサ,Bummed       you       won't       get       to       see       me       lose~?<br>Hm       hm?       Frustrated，Onii~san?<br> ,100201000G,vc_10080100002_015_01,chara_2
 
-message,<user>,……まあ、付き合いが長いのはベリサだ。<br>一応、応援だけはしておくよ。
+message,<user>,...Well，I've       known       you       longer，Verisa.<br>I'll       at       least       cheer       you       on.<br> 
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -344,7 +344,7 @@ asyncseplay,setag1_16,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,ベリサ,珍しく素直じゃない。いい心がけねっ！<br>見てなさい、このあたしの無敵の姉っぷりを！,100201000G,vc_10080100002_016_01,chara_2
+message,ベリサ,Aren't       you       honest       for       once~!       Good       attitude!<br>Just       watch       my       invincible       big-sister       performance!<br> ,100201000G,vc_10080100002_016_01,chara_2
 
 window,off
 wait,0.15
@@ -389,7 +389,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,ベリサは意気揚々とヴィーラに歩み寄り、<br>自信満々に声をかけた。
+message,,Verisa       strode       up       to       Veera       with       her       spirits       high<br>and       called       out       to       her，brimming       with       confidence.<br> 
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -400,7 +400,7 @@ asyncseplay,setag1_17,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,ベリサ,ヴィーラ。<br>初めての大穴はどう？　緊張してなーい？,100201000G,vc_10080100002_017_01,chara_2
+message,ベリサ,Veera~<br>How's       your       first       time       in       the       Abyss?       Nervous~?<br> ,100201000G,vc_10080100002_017_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -411,7 +411,7 @@ asyncseplay,setag1_18,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヴィーラ,あ、お姉ちゃん。<br>うん、やっぱり危険な場所だね。,100801000G,vc_10080100002_018_01,chara_1
+message,ヴィーラ,Oh，Onee-chan.<br>Yes，it       really       is       a       dangerous       place.<br> ,100801000G,vc_10080100002_018_01,chara_1
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -430,7 +430,7 @@ asyncseplay,setag1_20,se4800007,0,1,STOP,9.4
 asynccharaemo,chara_2,Panic,STOP,9.4
 
 
-message,ベリサ,そうなの、この大穴では少しの油断が命取りなんだから。<br>たとえば、危ないのは……えっと、ほら……,100201000G,vc_10080100002_019_01,chara_2
+message,ベリサ,That's       right，a       little       carelessness       can       be       fatal       here.<br>For       example，the       dangerous       things       are...       um，you       know...<br> ,100201000G,vc_10080100002_019_01,chara_2
 
 window,off
 wait,0.15
@@ -450,7 +450,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヴィーラ,大穴は内部の構造が変化することがある。<br>少しの気の緩みで道を誤ったり、奇襲を受けることもあるんだよね？,100801000G,vc_10080100002_020_01,chara_1
+message,ヴィーラ,The       Abyss's       internal       structure       can       shift.<br>A       moment's       lapse       could       lead       you       astray       or       into       an       ambush，right?<br> ,100801000G,vc_10080100002_020_01,chara_1
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -461,7 +461,7 @@ asyncseplay,setag1_22,se4800017,0,1,CONT,0
 asynccharaemo,chara_2,Shock,CONT,0
 
 
-message,ベリサ,え……ヴィーラ、大穴の情報を知ってるの？,100201000G,vc_10080100002_021_01,chara_2
+message,ベリサ,Huh...       Veera，you       already       know       about       the       Abyss?<br> ,100201000G,vc_10080100002_021_01,chara_2
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -472,7 +472,7 @@ asyncseplay,setag1_23,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ヴィーラ,お姉ちゃんたちが調べてくれた内容だから。<br>来る前にちゃんと勉強してきたよ。,100801000G,vc_10080100002_022_01,chara_1
+message,ヴィーラ,It's       from       the       research       you       and       the       others       gathered.<br>I       studied       up       properly       before       coming.<br> ,100801000G,vc_10080100002_022_01,chara_1
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -483,7 +483,7 @@ asyncseplay,setag1_24,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ベリサ,うっ……さすがはあたしの妹……！<br>でも大穴の危険はそれだけじゃないのよっ！,100201000G,vc_10080100002_023_01,chara_2
+message,ベリサ,Ngh...       as       expected       of       my       little       sister...!<br>But       that's       not       all       the       Abyss       has       in       store!<br> ,100201000G,vc_10080100002_023_01,chara_2
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -494,7 +494,7 @@ asyncseplay,setag1_25,se4800010,0,1,CONT,0
 asynccharaemo,chara_2,Exclamation,CONT,0
 
 
-message,ベリサ,特にモンスターには気をつけないといけなくて……,100201000G,vc_10080100002_024_01,chara_2
+message,ベリサ,You       especially       have       to       watch       out       for       monsters...<br> ,100201000G,vc_10080100002_024_01,chara_2
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -505,7 +505,7 @@ asyncseplay,setag1_26,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ヴィーラ,うん、大穴のモンスターは見た目が似ていても<br>属性が違っていたり特殊な能力があったり、油断ができないんだね。,100801000G,vc_10080100002_025_01,chara_1
+message,ヴィーラ,Yes，Abyss       monsters       can       look       alike       but       have       different<br>attributes       or       special       abilities.       You       can       never       let       your       guard       down.<br> ,100801000G,vc_10080100002_025_01,chara_1
 
 asynccharaface,chara_2,FaceUnique01,CONT,0
 
@@ -516,7 +516,7 @@ asyncseplay,setag1_27,se4800011,0,1,CONT,0
 asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
-message,ベリサ,う、ぅぅぅっ！,100201000G,vc_10080100002_026_01,chara_2
+message,ベリサ,Ngh，grrr...!<br> ,100201000G,vc_10080100002_026_01,chara_2
 
 asynccharaface,chara_2,FaceShy,CONT,0
 
@@ -527,7 +527,7 @@ asyncseplay,setag1_28,se4800006,0,1,CONT,0
 asynccharaemo,chara_2,Trouble,CONT,0
 
 
-message,ベリサ,なんでこういうときぐらい、<br>姉らしくさせてくれないのよぉ……！,100201000G,vc_10080100002_027_01,chara_2
+message,ベリサ,Why       can't       you       just       let       me       be       the       big       sister<br>at       a       time       like       this...!<br> ,100201000G,vc_10080100002_027_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -538,7 +538,7 @@ asyncseplay,setag1_29,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ヴィーラ,……？<br>どうしたの、お姉ちゃん？,100801000G,vc_10080100002_028_01,chara_1
+message,ヴィーラ,...?<br>What's       wrong，Onee-chan?<br> ,100801000G,vc_10080100002_028_01,chara_1
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -549,9 +549,9 @@ asyncseplay,setag1_30,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ベリサ,なんでもないわ……まだ、負けてないんだから……！,100201000G,vc_10080100002_029_01,chara_2
+message,ベリサ,It's       nothing...       I       haven't       lost       yet...!<br> ,100201000G,vc_10080100002_029_01,chara_2
 
-message,<user>,……やっぱりダメそうだなあ。<br>頑張れよ、ベリサ。姉の威厳を見せるんだ……
+message,<user>,...Yeah，this       isn't       looking       good.<br>Hang       in       there，Verisa.       Show       that       big-sister       dignity...<br> 
 
 
 window,off
@@ -598,9 +598,9 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,もうすぐリフトですね。<br>任務は終わり、ということでしょうか？,100801000G,vc_10080100002_030_01,chara_1
+message,ヴィーラ,We're       almost       at       the       lift.<br>Does       that       mean       the       mission       is       over?<br> ,100801000G,vc_10080100002_030_01,chara_1
 
-message,<user>,そうなるな。危険の少ない任務だったが、<br>本当に無事に戻ってきたな。
+message,<user>,Looks       like       it.       It       was       a       low-risk       mission，<br>and       we       really       did       make       it       back       safe       and       sound.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -611,9 +611,9 @@ asyncseplay,setag1_32,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ヴィーラ,出番がありません……。<br>お姉ちゃんにいいところを見せたかったんですが……,100801000G,vc_10080100002_031_01,chara_1
+message,ヴィーラ,I       didn't       get       to       do       anything...<br>I       wanted       to       show       Onee-chan       what       I       could       do...<br> ,100801000G,vc_10080100002_031_01,chara_1
 
-message,<user>,危険はないほうがいいだろうに。<br>お前ら、ちょっと似たもの姉妹だな……
+message,<user>,Isn't       it       better       when       there's       no       danger?<br>You       two       really       are       cut       from       the       same       cloth...<br> 
 
 bgmstop,bgmtag1_1,1,0
 
@@ -653,7 +653,7 @@ wait,0.5
 linework,on,Black,Middle
 
 window,on,0.15
-message,？？？,グオォォォンッ！！！,402001000
+message,？？？,GROOOOOON!!!<br> ,402001000
 
 window,off
 wait,0.15
@@ -663,7 +663,7 @@ charafocusonall
 linework,off,Black,Middle
 
 window,on,0.15
-message,<user>,っ！？　何事だ！？
+message,<user>,Wh—!?       What's       happening!?<br> 
 
 bgmplay,bgmtag1_2,bgm0028,0.75,1
 
@@ -751,7 +751,7 @@ asynccharaemo,chara_4,Anger,CONT,0
 wait,0.1
 
 window,on,0.15
-message,,リフトへ帰還しようとしていた輸送部隊は、<br>突然地面から出現したゴーレムの大群に取り囲まれていた。
+message,,The       transport       unit，on       its       way       back       to       the       lift，<br>was       surrounded       by       a       horde       of       golems       erupting       from       the       ground.<br> 
 
 window,off
 wait,0.15
@@ -803,9 +803,9 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,どうしてゴーレムがこんなところに！？,100801000G,vc_10080100002_032_01,chara_1
+message,ヴィーラ,Why       are       there       golems       here       of       all       places!?<br> ,100801000G,vc_10080100002_032_01,chara_1
 
-message,<user>,罠か、それとも偶然か。どちらにせよ戦うしかない。<br>総員、戦闘準備！
+message,<user>,A       trap，or       just       bad       luck.       Either       way，we       fight.<br>All       units，battle       stations!<br> 
 
 window,off
 wait,0.15
@@ -845,7 +845,7 @@ asynccharaemo,chara_6,Panic,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,で、でも私たちはただの輸送部隊で……！,401601000,vc_10080100002_033_01,chara_6
+message,兵士Ａ,B-but       we're       just       a       transport       unit...!<br> ,401601000,vc_10080100002_033_01,chara_6
 
 asyncshake,CHARA,chara_7,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -854,7 +854,7 @@ asyncseplay,setag1_41,se4800008,0,1,CONT,0
 asynccharaemo,chara_7,Sweat,CONT,0
 
 
-message,兵士Ｂ,ゴーレムとなんて戦えねえよぉ！,401501000,,chara_7
+message,兵士Ｂ,We       can't       fight       golems!<br> ,401501000,,chara_7
 
 window,off
 wait,0.15
@@ -900,7 +900,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,ベリサ,みんな落ち着いて！　<br>だいじょ～ぶ！　あたしたちなら勝てる相手よ！,100201000G,vc_10080100002_034_01,chara_2
+message,ベリサ,Everyone，calm       down!<br>It's       fi~ne!       These       are       enemies       we       can       beat!<br> ,100201000G,vc_10080100002_034_01,chara_2
 
 window,off
 wait,0.15
@@ -948,7 +948,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヴィーラ,お姉ちゃんっ！,100801000G,vc_10080100002_035_01,chara_1
+message,ヴィーラ,Onee-chan!<br> ,100801000G,vc_10080100002_035_01,chara_1
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -959,7 +959,7 @@ asyncseplay,setag1_43,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,ベリサ,ここはあたしに任せて、ヴィーラは下がってて。<br>新人にはちょっと大変そうだし、ここはベテランのお仕事、ってね。,100201000G,vc_10080100002_036_01,chara_2
+message,ベリサ,Leave       this       to       me       and       stay       back，Veera.<br>Might       be       a       bit       much       for       a       rookie.       Let       the       veteran       handle       it~<br> ,100201000G,vc_10080100002_036_01,chara_2
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -970,7 +970,7 @@ asyncseplay,setag1_44,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヴィーラ,でも……！<br>わたしも戦えるのに！,100801000G,vc_10080100002_037_01,chara_1
+message,ヴィーラ,But...!<br>I       can       fight       too!<br> ,100801000G,vc_10080100002_037_01,chara_1
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -982,7 +982,7 @@ asyncseplay,setag1_45,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,ベリサ,安心して、ヴィーラの魔力は疑ってないわ。<br>だからもしもあたしが危なくなったら、ちゃーんと助けるのよ？,100201000G,vc_10080100002_038_01,chara_2
+message,ベリサ,Don't       worry，I'm       not       doubting       your       magic，Veera.<br>So       if       I       get       in       trouble，you'd       better       come       save       me，okay~?<br> ,100201000G,vc_10080100002_038_01,chara_2
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -993,7 +993,7 @@ asyncseplay,setag1_46,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ヴィーラ,うん……。<br>頑張って、お姉ちゃん！,100801000G,vc_10080100002_039_01,chara_1
+message,ヴィーラ,Okay...<br>Do       your       best，Onee-chan!<br> ,100801000G,vc_10080100002_039_01,chara_1
 
 window,off
 wait,0.15
@@ -1046,9 +1046,9 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,ベリサ,ふう……みんな、よく聞いて。<br>こいつらは最下級のゴーレム、コアを攻撃すれば簡単に倒せちゃうわ！,100201000G,vc_10080100002_040_01,chara_2
+message,ベリサ,Phew...       listen       up，everyone.<br>These       are       low-rank       golems.       Strike       the       core       to       take       them       down!<br> ,100201000G,vc_10080100002_040_01,chara_2
 
-message,兵士Ｂ,そうは言っても、どうやってコアに攻撃を当てるんだ！？<br>近づくこともできないぞ！？,401501000
+message,兵士Ｂ,Easy       for       you       to       say，but       how       do       we       hit       the       core!?<br>We       can't       even       get       close!?<br> ,401501000
 
 asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
 
@@ -1057,9 +1057,9 @@ asyncseplay,setag1_48,se4800019,0,1,CONT,0
 asynccharaemo,chara_2,Elated,CONT,0
 
 
-message,ベリサ,そこはあたしの魔法に任せておいて♪<br>さあ、いくわよ～～～！,100201000G,vc_10080100002_041_01,chara_2
+message,ベリサ,Leave       that       part       to       my       magic♪<br>Now       then，here       we       gooo~!<br> ,100201000G,vc_10080100002_041_01,chara_2
 
-message,,ベリサが杖を掲げ、魔法陣を展開。<br>ゴーレムに狙いを定め、火球を出現させる。
+message,,Verisa       raised       her       staff       and       deployed       a       magic       circle，<br>taking       aim       at       a       golem       as       a       fireball       materialized.<br> 
 
 linework,on,White,Middle
 
@@ -1072,7 +1072,7 @@ asyncseplay,setag1_49,se4800010,0,1,CONT,0
 asynccharaemo,chara_2,Exclamation,CONT,0
 
 
-message,ベリサ,コアを狙い撃ち……！<br>焼き尽くしてっ！,100201000G,vc_10080100002_042_01,chara_2
+message,ベリサ,Pinpoint       shot       at       the       core...!<br>Burn       it       all       away!<br> ,100201000G,vc_10080100002_042_01,chara_2
 
 window,off
 wait,0.15
@@ -1162,7 +1162,7 @@ cleanall,EFFECT
 
 
 window,on,0.15
-message,ゴーレム,ォォォォ……！,402001000,,chara_3/chara_5/chara_4
+message,ゴーレム,Ooooo...!<br> ,402001000,,chara_3/chara_5/chara_4
 
 window,off
 wait,0.15
@@ -1205,7 +1205,7 @@ shake,CHARA,chara_6,40,0,0.25,20,off,off,0
 shake,CHARA,chara_7,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,,射出された火球はゴーレムを直撃。<br>高熱と強力な爆発にコアを破壊されたゴーレムはその場に崩れ去った。
+message,,The       fireball       struck       the       golem       dead-on.<br>Its       core       shattered       by       the       heat       and       blast，the       golem       crumbled       away.<br> 
 
 window,off
 wait,0.15
@@ -1239,7 +1239,7 @@ asyncseplay,setag1_56,se4800019,0,1,CONT,0
 asynccharaemo,chara_2,Elated,CONT,0
 
 window,on,0.15
-message,兵士Ｂ,おお……！　やるな、ベリサの嬢ちゃん！,401501000
+message,兵士Ｂ,Whoa...!       Nice       one，little       miss       Verisa!<br> ,401501000
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -1250,7 +1250,7 @@ asyncseplay,setag1_57,se4800003,0,1,CONT,0
 asynccharaemo,chara_2,Twinkle,CONT,0
 
 
-message,ベリサ,妹にいいところを見せないとねっ！<br>さあ、どんどんいっちゃうから！,100201000G,vc_10080100002_043_01,chara_2
+message,ベリサ,Gotta       show       my       sister       what       I've       got!<br>Now       then，here       comes       the       next       one!<br> ,100201000G,vc_10080100002_043_01,chara_2
 
 window,off
 wait,0.15
@@ -1291,7 +1291,7 @@ wait,1
 cleanall,EFFECT
 
 window,on,0.15
-message,,ベリサは複数の魔法陣を展開し、連続で火球を打ち放っていく。<br>しかし――
+message,,Verisa       deployed       multiple       magic       circles，launching       fireballs<br>in       rapid       succession.       However——<br> 
 
 window,off
 wait,0.15
@@ -1333,7 +1333,7 @@ asynccharaemo,chara_2,Anger,CONT,0
 
 
 window,on,0.15
-message,ベリサ,次……次っ！,100201000G,vc_10080100002_044_01,chara_2
+message,ベリサ,Next...       next!<br> ,100201000G,vc_10080100002_044_01,chara_2
 
 window,off
 wait,0.15
@@ -1385,7 +1385,7 @@ asynccharaemo,chara_6,Sweat,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,ベ、ベリサちゃん！？　<br>ゴーレムがどんどん近づいてきてるわよ！,401601000,vc_10080100002_045_01,chara_6
+message,兵士Ａ,V-Verisa-chan!?<br>The       golems       keep       getting       closer       and       closer!<br> ,401601000,vc_10080100002_045_01,chara_6
 
 window,off
 wait,0.15
@@ -1434,7 +1434,7 @@ asyncwait
 
 
 window,on,0.15
-message,ゴーレム,グォォンッ！！！,402001000,,chara_3
+message,ゴーレム,GROOON!!!<br> ,402001000,,chara_3
 
 window,off
 wait,0.15
@@ -1478,7 +1478,7 @@ asynccharaemo,chara_2,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ベリサ,そんなの分かってる～～～！！！　<br>でもきっちりコアに当てないとこいつらは倒せないの！,100201000G,vc_10080100002_046_01,chara_2
+message,ベリサ,I       know       thaaaat!!!<br>But       these       things       won't       go       down       unless       I       hit       the       core       dead-on!<br> ,100201000G,vc_10080100002_046_01,chara_2
 
 window,off
 wait,0.15
@@ -1530,7 +1530,7 @@ asynccharaemo,chara_7,Panic,CONT,0
 
 
 window,on,0.15
-message,兵士Ｂ,こ、このままじゃやられちまう……！<br>どうすりゃいいんだっ！？,401501000,,chara_7
+message,兵士Ｂ,A-at       this       rate       we're       done       for...!<br>What       do       we       do!?<br> ,401501000,,chara_7
 
 window,off
 wait,0.15
@@ -1578,7 +1578,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,……ありがとう、お姉ちゃん。<br>大体分かったよ。,100801000G,vc_10080100002_047_01,chara_1
+message,ヴィーラ,...Thank       you，Onee-chan.<br>I       think       I       understand       now.<br> ,100801000G,vc_10080100002_047_01,chara_1
 
 window,off
 wait,0.15
@@ -1647,7 +1647,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ベリサ,ヴィーラ……！？,100201000G,vc_10080100002_048_01,chara_2
+message,ベリサ,Veera...!?<br> ,100201000G,vc_10080100002_048_01,chara_2
 
 window,off
 wait,0.15
@@ -1693,7 +1693,7 @@ asyncseplay,setag1_67,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 window,on,0.15
-message,,足元に氷の床を作り出し、滑るようにベリサの前へと躍り出たヴィーラ。<br>その手に掲げた杖へと膨大な魔力が収束していく。
+message,,Creating       a       floor       of       ice       beneath       her，Veera       glided       in       front<br>of       Verisa.       Vast       magic       power       converged       into       her       raised       staff.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1704,7 +1704,7 @@ asyncseplay,setag1_68,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ヴィーラ,わたしとお姉ちゃんの任務、これ以上妨害させない。<br>永遠に凍てつけ、邪魔者たち……！,100801000G,vc_10080100002_049_01,chara_1
+message,ヴィーラ,I       won't       let       you       interfere       with       our       mission       any       longer.<br>Freeze       for       eternity，you       pests...!<br> ,100801000G,vc_10080100002_049_01,chara_1
 
 window,off
 wait,0.15
@@ -1778,7 +1778,7 @@ wait,0.5
 transitionFade,Tra03,in,white,0.15
 
 window,on,0.15
-message,,――キーン、と高い音が響く。杖から光が放たれた次の瞬間には、<br>周囲のゴーレムすべてが氷に包まれていた。
+message,,——A       piercing       ring       echoed.       The       instant       light       burst       from       the       staff，<br>every       golem       in       the       area       was       encased       in       ice.<br> 
 
 window,off
 wait,0.15
@@ -1831,7 +1831,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヴィーラ,……これで終わりです。,100801000G,vc_10080100002_050_01,chara_1
+message,ヴィーラ,...That       is       the       end       of       it.<br> ,100801000G,vc_10080100002_050_01,chara_1
 
 window,off
 wait,0.15
@@ -1861,7 +1861,7 @@ asyncseplay,setag1_72,se4900169,0,1,CONT,0
 wait,2
 
 window,on,0.15
-message,,ヴィーラが指を鳴らすと、氷に包まれたコアがバキンと砕け散る。<br>１体として残すことなくすべてのゴーレムが崩れて消えていった。
+message,,When       Veera       snapped       her       fingers，the       frozen       cores       shattered.<br>Without       a       single       one       remaining，every       golem       crumbled       to       nothing.<br> 
 
 window,off
 wait,0.15
@@ -1904,7 +1904,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヴィーラ,どこかにコアがあるのなら、<br>すべて凍らせればコアもまとめて壊せる。,100801000G,vc_10080100002_051_01,chara_1
+message,ヴィーラ,If       there's       a       core       hidden       somewhere，<br>freezing       everything       destroys       the       core       along       with       it.<br> ,100801000G,vc_10080100002_051_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1915,9 +1915,9 @@ asyncseplay,setag1_74,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ヴィーラ,お姉ちゃんと比べると<br>ずいぶん不格好な魔法ですね。,100801000G,vc_10080100002_052_01,chara_1
+message,ヴィーラ,Compared       to       Onee-chan's       magic，<br>mine       is       quite       inelegant.<br> ,100801000G,vc_10080100002_052_01,chara_1
 
-message,<user>,……お見事だ。<br>よくやってくれた、ヴィーラ。
+message,<user>,...That       was       splendid.<br>Well       done，Veera.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1928,7 +1928,7 @@ asyncseplay,setag1_75,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヴィーラ,いいえ、お姉ちゃんに面倒をかけないよう処理しただけです。<br>ね、お姉ちゃん？,100801000G,vc_10080100002_053_01,chara_1
+message,ヴィーラ,No，I       simply       dealt       with       them       so       as       not       to       burden       Onee-chan.<br>Right，Onee-chan?<br> ,100801000G,vc_10080100002_053_01,chara_1
 
 window,off
 wait,0.15
@@ -1988,7 +1988,7 @@ asynccharaemo,chara_2,Sweat,STOP,5.9
 
 
 window,on,0.15
-message,ベリサ,……すごいわ、ヴィーラ。本当に助けてもらっちゃった。<br>やっぱり、あたしなんて……,100201000G,vc_10080100002_054_01,chara_2
+message,ベリサ,...That       was       incredible，Veera.       You       really       saved       us.<br>I       guess       I'm       just...<br> ,100201000G,vc_10080100002_054_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1999,7 +1999,7 @@ asyncseplay,setag1_78,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ヴィーラ,お姉、ちゃん……？,100801000G,vc_10080100002_055_01,chara_1
+message,ヴィーラ,Onee...chan...?<br> ,100801000G,vc_10080100002_055_01,chara_1
 
 window,off
 wait,0.15
@@ -2044,7 +2044,7 @@ asyncseplay,setag1_79,se4800014,0,1,CONT,0
 asynccharaemo,chara_2,Silence,CONT,0
 
 window,on,0.15
-message,,ヴィーラの放った魔法でゴーレムは全滅。<br>その素晴らしい戦果に、ベリサは悔しげな顔を隠すことができなかった。
+message,,Veera's       magic       annihilated       every       last       golem.<br>Verisa       couldn't       hide       her       frustration       at       such       a       brilliant       display.<br> 
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -2075,7 +2075,7 @@ bgmplay,bgmtag1_3,bgm0030,0.75,1
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,,ベリサ、ヴィーラの護衛する輸送部隊は<br>ヴィーラの魔法によりゴーレムの奇襲を撃退、無事に前線基地へ帰還した。
+message,,The       transport       unit       escorted       by       Verisa       and       Veera<br>repelled       the       golem       ambush       with       Veera's       magic       and       returned       safely.<br> 
 
 window,off
 wait,0.15
@@ -2115,7 +2115,7 @@ asynccharaemo,chara_7,Laugh,CONT,0
 
 
 window,on,0.15
-message,兵士Ｂ,いやあ、この嬢ちゃんがすんげえ魔法を使ってよぉ！<br>ありゃビックリしたぜ！,401501000,,chara_7
+message,兵士Ｂ,Man，this       girl       used       the       most       amazing       magic!<br>That       blew       my       mind!<br> ,401501000,,chara_7
 
 asyncjump,CHARA,chara_6,-30,0.25,1,off,0,CONT
 
@@ -2124,7 +2124,7 @@ asyncseplay,setag1_81,se4800004,0,1,CONT,0
 asynccharaemo,chara_6,Laugh,CONT,0
 
 
-message,兵士Ａ,ええ、おかげで助かったわ！,401601000,vc_10080100002_056_01,chara_6
+message,兵士Ａ,I       know，we       were       saved       thanks       to       her!<br> ,401601000,vc_10080100002_056_01,chara_6
 
 window,off
 wait,0.15
@@ -2170,7 +2170,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,弱点を教えてくれたのはお姉ちゃんです。<br>わたしは魔法で壊しただけで、あんなのは誰にだって……,100801000G,vc_10080100002_057_01,chara_1
+message,ヴィーラ,Onee-chan       was       the       one       who       showed       their       weakness.<br>All       I       did       was       destroy       them       with       magic.       Anyone       could       have...<br> ,100801000G,vc_10080100002_057_01,chara_1
 
 window,off
 wait,0.15
@@ -2231,7 +2231,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,ベリサ,ううん、あたしじゃできなかった。<br>ヴィーラの力よ。,100201000G,vc_10080100002_058_01,chara_2
+message,ベリサ,No，I       couldn't       have       done       it.<br>It       was       your       power，Veera.<br> ,100201000G,vc_10080100002_058_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -2242,7 +2242,7 @@ asyncseplay,setag1_84,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,ヴィーラ,お姉ちゃん、どうしてそんなこと……,100801000G,vc_10080100002_059_01,chara_1
+message,ヴィーラ,Onee-chan，why       would       you       say       that...<br> ,100801000G,vc_10080100002_059_01,chara_1
 
 window,off
 wait,0.15
@@ -2296,7 +2296,7 @@ asynccharaemo,chara_7,Laugh,CONT,0
 
 
 window,on,0.15
-message,兵士Ｂ,ベリサの嬢ちゃんの言う通り！<br>あんたはとんでもない魔法使いだ！,401501000,,chara_7
+message,兵士Ｂ,The       young       miss       is       right!<br>You're       one       incredible       mage!<br> ,401501000,,chara_7
 
 asyncjump,CHARA,chara_6,30,0.25,1,off,0,CONT
 
@@ -2305,7 +2305,7 @@ asyncseplay,setag1_86,se4800004,0,1,CONT,0
 asynccharaemo,chara_6,Laugh,CONT,0
 
 
-message,兵士Ａ,ねえヴィーラちゃん、今から１杯おごらせてよ！　<br>助けてもらったお礼に！,401601000,vc_10080100002_060_01,chara_6
+message,兵士Ａ,Hey，Veera-chan，let       us       buy       you       a       drink!<br>As       thanks       for       saving       us!<br> ,401601000,vc_10080100002_060_01,chara_6
 
 window,off
 wait,0.15
@@ -2353,7 +2353,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,え……っ！？,100801000G,vc_10080100002_061_01,chara_1
+message,ヴィーラ,Huh...!?<br> ,100801000G,vc_10080100002_061_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -2364,9 +2364,9 @@ asyncseplay,setag1_88,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヴィーラ,司令官さま、どうしましょう……？,100801000G,vc_10080100002_062_01,chara_1
+message,ヴィーラ,Commander-sama，what       should       I       do...?<br> ,100801000G,vc_10080100002_062_01,chara_1
 
-message,<user>,いいんじゃないか？<br>初任務の達成祝いに１杯、ってのも。
+message,<user>,Why       not?<br>A       drink       to       celebrate       your       first       completed       mission.<br> 
 
 window,off
 wait,0.15
@@ -2411,7 +2411,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,よし、俺が金を出そう。<br>お前ら、今から酒場へ向かうぞ！
+message,<user>,All       right，drinks       are       on       me.<br>Everyone，we're       heading       to       the       tavern!<br> 
 
 asyncjump,CHARA,chara_7,30,0.25,1,off,0,CONT
 
@@ -2420,7 +2420,7 @@ asyncseplay,setag1_89,se4800004,0,1,CONT,0
 asynccharaemo,chara_7,Laugh,CONT,0
 
 
-message,兵士Ｂ,さすが司令官！　話が分かる！,401501000,,chara_7
+message,兵士Ｂ,That's       our       Commander!       A       man       of       taste!<br> ,401501000,,chara_7
 
 window,off
 wait,0.15
@@ -2447,7 +2447,7 @@ asynccharaemo,chara_6,Laugh,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,行きましょう、ヴィーラちゃん！,401601000,vc_10080100002_063_01,chara_6
+message,兵士Ａ,Let's       go，Veera-chan!<br> ,401601000,vc_10080100002_063_01,chara_6
 
 window,off
 wait,0.15
@@ -2504,7 +2504,7 @@ asynccharaemo,chara_1,Spirits,STOP,1.95
 
 
 window,on,0.15
-message,ヴィーラ,分かりました。<br>お姉ちゃん、一緒に行こう？,100801000G,vc_10080100002_064_01,chara_1
+message,ヴィーラ,All       right.<br>Let's       go       together，Onee-chan?<br> ,100801000G,vc_10080100002_064_01,chara_1
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -2515,7 +2515,7 @@ asyncseplay,setag1_92,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,ベリサ,ん……あたしはやめとく。<br>お腹いっぱいだし、そういう気分じゃないから。,100201000G,vc_10080100002_065_01,chara_2
+message,ベリサ,Mm...       I'll       pass.<br>I'm       full，and       I'm       not       really       in       the       mood.<br> ,100201000G,vc_10080100002_065_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -2526,7 +2526,7 @@ asyncseplay,setag1_93,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ヴィーラ,お姉ちゃんは来ないの？<br>じゃあわたしもやめておくね。,100801000G,vc_10080100002_066_01,chara_1
+message,ヴィーラ,You're       not       coming，Onee-chan?<br>Then       I'll       skip       it       too.<br> ,100801000G,vc_10080100002_066_01,chara_1
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -2538,7 +2538,7 @@ asyncseplay,setag1_94,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,ベリサ,ううん、ヴィーラは行ってきて？<br>仲間との交流もこの基地では大事なことなんだから。,100201000G,vc_10080100002_067_01,chara_2
+message,ベリサ,No，you       should       go，Veera.<br>Building       bonds       with       your       comrades       is       important       at       this       base.<br> ,100201000G,vc_10080100002_067_01,chara_2
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -2549,7 +2549,7 @@ asyncseplay,setag1_95,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヴィーラ,で、でも……,100801000G,vc_10080100002_068_01,chara_1
+message,ヴィーラ,B-but...<br> ,100801000G,vc_10080100002_068_01,chara_1
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -2560,7 +2560,7 @@ asyncseplay,setag1_96,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,ベリサ,いいから。ね？,100201000G,vc_10080100002_069_01,chara_2
+message,ベリサ,Just       go.       Okay?<br> ,100201000G,vc_10080100002_069_01,chara_2
 
 window,off
 wait,0.15
@@ -2579,7 +2579,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヴィーラ,……うん。<br>でも、いつでも来てね？,100801000G,vc_10080100002_070_01,chara_1
+message,ヴィーラ,...Okay.<br>But       come       join       us       anytime，all       right?<br> ,100801000G,vc_10080100002_070_01,chara_1
 
 window,off
 wait,0.15
@@ -2640,7 +2640,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,ベリサ……大丈夫か？
+message,<user>,Verisa...       you       okay?<br> 
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -2651,9 +2651,9 @@ asyncseplay,setag1_99,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,ベリサ,なになに、おにーさん？<br>妹に負けるダメダメな姉だ～って、笑いにきたの？,100201000G,vc_10080100002_071_01,chara_2
+message,ベリサ,What       is       it，Onii-san?<br>Come       to       laugh       at       the       hopeless       sister       who       lost       to       her       sibling~?<br> ,100201000G,vc_10080100002_071_01,chara_2
 
-message,<user>,誰がそんなことをするか。<br>お前は立派に戦っていただろう。
+message,<user>,Who       would       do       that?<br>You       fought       admirably       out       there.<br> 
 
 asynccharaface,chara_2,EyeClose,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -2665,7 +2665,7 @@ asyncseplay,setag1_100,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ベリサ,……ありがと、おにーさん。<br>でも今日はちょっと、疲れちゃったかな。,100201000G,vc_10080100002_072_01,chara_2
+message,ベリサ,...Thanks，Onii-san.<br>But       today，I'm       just       a       little       tired.<br> ,100201000G,vc_10080100002_072_01,chara_2
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -2676,11 +2676,11 @@ asyncseplay,setag1_101,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,ベリサ,あたしのことは気にしないで、<br>おにーさんはヴィーラの戦果を祝ってあげて。,100201000G,vc_10080100002_073_01,chara_2
+message,ベリサ,Don't       worry       about       me.<br>Go       celebrate       Veera's       victory       for       her，Onii-san.<br> ,100201000G,vc_10080100002_073_01,chara_2
 
-message,<user>,分かった。<br>だが、後から必ず顔を出せよ。
+message,<user>,All       right.<br>But       make       sure       you       show       your       face       later.<br> 
 
-message,<user>,ヴィーラは誰よりも<br>お前に祝ってほしいと思ってるはずだ。
+message,<user>,Veera       wants       you       to       celebrate       with       her<br>more       than       anyone       else.<br> 
 
 window,off
 wait,0.15
@@ -2712,7 +2712,7 @@ wait,1
 
 
 window,on,0.15
-message,ベリサ,……うん。分かってる。,100201000G,vc_10080100002_074_01,chara_2
+message,ベリサ,...Yeah.       I       know.<br> ,100201000G,vc_10080100002_074_01,chara_2
 
 window,off
 bgmstop,bgmtag1_3,0.5

@@ -24,7 +24,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,ウェンディの新しい職場
+title,Wendy's New Workplace
 
 wait,1
 
@@ -59,7 +59,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ウェンディ,皆さん！　この鉱石はどこに置いたらいいでしょうか？,,vc_10250100001_001_01,chara_1
+message,ウェンディ,Everyone!       Where       should       I       put       this       ore?<br> ,,vc_10250100001_001_01,chara_1
 
 
 window,off
@@ -104,7 +104,7 @@ asyncwait
 
 
 window,on,0.15
-message,作業員,あー、それはそっちの籠に置いといてくれ。,400801000,,chara_2
+message,作業員,Ah，just       put       that       in       the       basket       over       there.<br> ,400801000,,chara_2
 
 window,off
 wait,0.15
@@ -125,7 +125,7 @@ asyncjump,CHARA,chara_1,-30,0.5,2,off,0,CONT
 
 
 window,on,0.15
-message,ウェンディ,分かりました！　よいしょ、よいしょ……,,vc_10250100001_002_01,chara_1
+message,ウェンディ,Got       it!       Heave...       ho...<br> ,,vc_10250100001_002_01,chara_1
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -136,7 +136,7 @@ asyncseplay,setag1_3,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,作業員,すまねぇな。重くねぇか？,400801000,,chara_2
+message,作業員,Sorry       about       that.       Isn't       it       heavy?<br> ,400801000,,chara_2
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -147,7 +147,7 @@ asyncseplay,setag1_4,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ウェンディ,全然平気です！　わたし、オートマタですから！,,vc_10250100001_003_01,chara_1
+message,ウェンディ,Not       at       all!       I'm       an       automaton，after       all!<br> ,,vc_10250100001_003_01,chara_1
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -158,7 +158,7 @@ asyncseplay,setag1_5,se4800014,0,1,CONT,0
 asynccharaemo,chara_2,Silence,CONT,0
 
 
-message,作業員,そうなんだよな。見た目は普通の女の子だから、<br>つい忘れちまう。,400801000,,chara_2
+message,作業員,Right，right.       You       look       like       a       normal       girl，<br>so       I       keep       forgetting.<br> ,400801000,,chara_2
 
 asyncjump,CHARA,chara_2,-30,0.5,2,off,0,CONT
 
@@ -167,7 +167,7 @@ asyncseplay,setag1_6,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,作業員,ウェンディちゃんがこの前線基地に来てくれてから<br>大分楽になったよ。,400801000,,chara_2
+message,作業員,Things       have       been       a       lot       easier       since       you<br>came       to       the       forward       base，Wendy-chan.<br> ,400801000,,chara_2
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -176,7 +176,7 @@ asyncseplay,setag1_7,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ウェンディ,えへへ……,,vc_10250100001_004_01,chara_1
+message,ウェンディ,Ehehe...<br> ,,vc_10250100001_004_01,chara_1
 
 
 asynccharaface,chara_1,FaceFun,CONT,0
@@ -188,7 +188,7 @@ asyncseplay,setag1_8,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ウェンディ,でも、大したことはしてませんよ。<br>わたしはただ、任された仕事をこなしているだけですので！,,vc_10250100001_005_01,chara_1
+message,ウェンディ,But       I'm       really       not       doing       anything       special.<br>I       just       do       whatever       work       I'm       assigned!<br> ,,vc_10250100001_005_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -199,7 +199,7 @@ asyncseplay,setag1_9,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ウェンディ,それもこれもすべて司令官が<br>わたしにこの仕事を紹介してくれたおかげです。,,vc_10250100001_006_01,chara_1
+message,ウェンディ,And       it's       all       thanks       to       Commander<br>for       getting       me       this       job       in       the       first       place.<br> ,,vc_10250100001_006_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -210,7 +210,7 @@ asyncseplay,setag1_10,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ウェンディ,それに……皆さんも親切にしてくれて……<br>本当に感謝の気持ちでいっぱいなんです！,,vc_10250100001_007_01,chara_1
+message,ウェンディ,And...       everyone       has       been       so       kind       to       me...<br>I'm       just       overflowing       with       gratitude!<br> ,,vc_10250100001_007_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -221,7 +221,7 @@ asyncseplay,setag1_11,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ウェンディ,他の所ではオートマタという理由で<br>どうしても職場で浮いてしまっていましたから。,,vc_10250100001_008_01,chara_1
+message,ウェンディ,At       other       places，I       always       stuck       out<br>because       I'm       an       automaton.<br> ,,vc_10250100001_008_01,chara_1
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -232,7 +232,7 @@ asyncseplay,setag1_12,se4800009,0,1,CONT,0
 asynccharaemo,chara_2,Question,CONT,0
 
 
-message,作業員,ここに来るまでは何をしてたんだい？,400801000,,chara_2
+message,作業員,What       were       you       doing       before       you       came       here?<br> ,400801000,,chara_2
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -244,7 +244,7 @@ asyncseplay,setag1_13,se4800021,0,1,CONT,0
 asynccharaemo,chara_1,Imagination,CONT,0
 
 
-message,ウェンディ,お父様に世界を見て来いって言われて<br>いろんなところを旅していました！,,vc_10250100001_009_01,chara_1
+message,ウェンディ,Father       told       me       to       go       see       the       world，<br>so       I       was       traveling       all       sorts       of       places!<br> ,,vc_10250100001_009_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -255,7 +255,7 @@ asyncseplay,setag1_14,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ウェンディ,でも、その途中でお金が尽きちゃって……<br>さらに奴隷にされそうにもなって……,,vc_10250100001_010_01,chara_1
+message,ウェンディ,But       I       ran       out       of       money       along       the       way...<br>and       I       almost       got       sold       into       slavery       too...<br> ,,vc_10250100001_010_01,chara_1
 
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
@@ -264,7 +264,7 @@ asyncseplay,setag1_15,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,作業員,お、おいおい……,400801000,,chara_2
+message,作業員,W-whoa，hold       on...<br> ,400801000,,chara_2
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -275,7 +275,7 @@ asyncseplay,setag1_16,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ウェンディ,そんなところを司令官に助けてもらいました！,,vc_10250100001_011_01,chara_1
+message,ウェンディ,That's       when       Commander       rescued       me!<br> ,,vc_10250100001_011_01,chara_1
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -286,7 +286,7 @@ asyncseplay,setag1_17,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,作業員,ウェンディちゃん、苦労してたんだなぁ……,400801000,,chara_2
+message,作業員,Wendy-chan，you've       been       through       a       lot...<br> ,400801000,,chara_2
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -297,7 +297,7 @@ asyncseplay,setag1_18,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ウェンディ,でもでも、この前線基地だとそんなことありません！,,vc_10250100001_012_01,chara_1
+message,ウェンディ,But       here       at       the       forward       base，none       of       that!<br> ,,vc_10250100001_012_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -308,7 +308,7 @@ asyncseplay,setag1_19,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ウェンディ,いろんな出自の方がいますから<br>オートマタのわたしでも浮かずに済んでいます！,,vc_10250100001_013_01,chara_1
+message,ウェンディ,There       are       people       from       all       sorts       of       backgrounds，<br>so       even       an       automaton       like       me       fits       right       in!<br> ,,vc_10250100001_013_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -320,7 +320,7 @@ asyncseplay,setag1_20,se4800005,0,1,CONT,0
 asynccharaemo,chara_1,Flash,CONT,0
 
 
-message,ウェンディ,旅の続きも再開したいですけど<br>ここでずっと働くのも悪くないかもです！,,vc_10250100001_014_01,chara_1
+message,ウェンディ,I       do       want       to       continue       my       travels       someday，<br>but       staying       here       might       not       be       bad       either!<br> ,,vc_10250100001_014_01,chara_1
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -331,7 +331,7 @@ asyncseplay,setag1_21,se4800017,0,1,CONT,0
 asynccharaemo,chara_2,Shock,CONT,0
 
 
-message,作業員,ウェンディちゃん……！,400801000,,chara_2
+message,作業員,Wendy-chan...!<br> ,400801000,,chara_2
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -342,7 +342,7 @@ asyncseplay,setag1_22,se4800010,0,1,CONT,0
 asynccharaemo,chara_2,Exclamation,CONT,0
 
 
-message,作業員,よし！　ウェンディちゃんの笑顔のためにも、<br>気合い入れて働くぞ！,400801000,,chara_2
+message,作業員,All       right!       For       the       sake       of       Wendy-chan's       smile，<br>let's       put       our       backs       into       it!<br> ,400801000,,chara_2
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -353,7 +353,7 @@ asyncseplay,setag1_23,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ウェンディ,はい！　わたしも頑張りますよー！,,vc_10250100001_015_01,chara_1
+message,ウェンディ,Yes!       I'll       do       my       best       too!<br> ,,vc_10250100001_015_01,chara_1
 
 
 window,off
@@ -404,7 +404,7 @@ asynccharaemo,chara_3,Question,CONT,0
 
 
 window,on,0.15
-message,ベリサ,ふぅ……やっとついたー。ねぇ、ヴィーラ。<br>本当にここでいいのぉ？,,vc_10250100001_016_01,chara_3
+message,ベリサ,Phew...       we're       finally       here~.       Hey，Veera.<br>Are       you       sure       this       is       the       right       place~?<br> ,,vc_10250100001_016_01,chara_3
 
 
 window,off
@@ -439,7 +439,7 @@ asynccharaemo,chara_4,Speak,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,司令官さまから聞いた話だと、この辺りの坑道にガイドの方がいるんだって。,,vc_10250100001_017_01,chara_4
+message,ヴィーラ,According       to       Commander-sama，there       should       be<br>a       guide       somewhere       in       these       tunnels.<br> ,,vc_10250100001_017_01,chara_4
 
 asynccharaface,chara_3,EyeOpen,CONT,0
 asynccharaface,chara_3,FaceNormal,CONT,0
@@ -451,7 +451,7 @@ asyncseplay,setag1_26,se4800010,0,1,CONT,0
 asynccharaemo,chara_3,Exclamation,CONT,0
 
 
-message,ベリサ,へぇ。どんな子なのかしら？,,vc_10250100001_018_01,chara_3
+message,ベリサ,Hmm.       I       wonder       what       they're       like?<br> ,,vc_10250100001_018_01,chara_3
 
 window,off
 wait,0.15
@@ -493,7 +493,7 @@ wait,1
 
 
 window,on,0.15
-message,ウェンディ,あれ？　お客さんですか？,,vc_10250100001_019_01,chara_1
+message,ウェンディ,Hm?       Are       you       visitors?<br> ,,vc_10250100001_019_01,chara_1
 
 window,off
 wait,0.15
@@ -539,12 +539,12 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,ベリサ,こんにちは～♡,,vc_10250100001_020_01,chara_3
+message,ベリサ,Hello~♡<br> ,,vc_10250100001_020_01,chara_3
 
 asyncjump,CHARA,chara_4,-30.6,0.5,1,off,0,CONT
 
 
-message,ヴィーラ,ごめんなさい、いきなり押しかけてしまって。,,vc_10250100001_021_01,chara_4
+message,ヴィーラ,I'm       sorry       for       showing       up       so       suddenly.<br> ,,vc_10250100001_021_01,chara_4
 
 asynccharaface,chara_3,EyeOpen,CONT,0
 asynccharaface,chara_3,FaceNormal,CONT,0
@@ -556,7 +556,7 @@ asyncseplay,setag1_28,se4800009,0,1,CONT,0
 asynccharaemo,chara_3,Question,CONT,0
 
 
-message,ベリサ,あの子、あたしと同い歳くらいかなぁ？,,vc_10250100001_022_01,chara_3
+message,ベリサ,That       girl       looks       about       my       age，maybe?<br> ,,vc_10250100001_022_01,chara_3
 
 asyncjump,CHARA,chara_4,-30,0.25,1,off,0,CONT
 
@@ -565,7 +565,7 @@ asyncseplay,setag1_29,se4800014,0,1,CONT,0
 asynccharaemo,chara_4,Silence,CONT,0
 
 
-message,ヴィーラ,う～ん、見た目だけならそうかも……？<br>でも、普通の女の子ではないような……,,vc_10250100001_023_01,chara_4
+message,ヴィーラ,Hmm，just       going       by       appearance，maybe...?<br>But       she       doesn't       seem       like       a       normal       girl...<br> ,,vc_10250100001_023_01,chara_4
 
 asyncjump,CHARA,chara_4,-30.6,0.5,1,off,0,CONT
 
@@ -574,7 +574,7 @@ asyncseplay,setag1_30,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,ヴィーラ,すみません、あなたがウェンディさんでしょうか？,,vc_10250100001_024_01,chara_4
+message,ヴィーラ,Excuse       me，would       you       be       Wendy-san?<br> ,,vc_10250100001_024_01,chara_4
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -586,14 +586,14 @@ asyncseplay,setag1_31,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ウェンディ,はい！　あなたたちは？,,vc_10250100001_025_01,chara_1
+message,ウェンディ,Yes!       And       you       are?<br> ,,vc_10250100001_025_01,chara_1
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
 asyncjump,CHARA,chara_4,-30.6,0.5,1,off,0,CONT
 
 
-message,ヴィーラ,わたしはヴィーラ。<br>見ての通り、ペルディオンの魔法使いです。,,vc_10250100001_026_01,chara_4
+message,ヴィーラ,I'm       Veera.<br>As       you       can       see，I'm       a       mage       from       Perdion.<br> ,,vc_10250100001_026_01,chara_4
 
 asynccharaface,chara_4,EyeOpen,CONT,0
 asynccharaface,chara_4,FaceNormal,CONT,0
@@ -605,7 +605,7 @@ asyncseplay,setag1_32,se4800014,0,1,CONT,0
 asynccharaemo,chara_4,Silence,CONT,0
 
 
-message,ヴィーラ,そしてこちらがわたしの姉、べリサです。,,vc_10250100001_027_01,chara_4
+message,ヴィーラ,And       this       is       my       older       sister，Verisa.<br> ,,vc_10250100001_027_01,chara_4
 
 asynccharaface,chara_3,FaceFun,CONT,0
 
@@ -616,14 +616,14 @@ asyncseplay,setag1_33,se4800013,0,1,CONT,0
 asynccharaemo,chara_3,Spirits,CONT,0
 
 
-message,ベリサ,ベリサって呼んでほしいなぁ♡,,vc_10250100001_028_01,chara_3
+message,ベリサ,Call       me       Verisa，'kay~♡<br> ,,vc_10250100001_028_01,chara_3
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
 
-message,ウェンディ,よろしくお願いします、ベリサさん、ヴィーラさん。<br>えっと、それでそのペルディオンの人たちがここに何しに来たんですか？,,vc_10250100001_029_01,chara_1
+message,ウェンディ,Nice       to       meet       you，Verisa-san，Veera-san.<br>Um，so       what       brings       people       from       Perdion       here?<br> ,,vc_10250100001_029_01,chara_1
 
 asynccharaface,chara_4,FaceSad,CONT,0
 
@@ -634,7 +634,7 @@ asyncseplay,setag1_34,se4800008,0,1,CONT,0
 asynccharaemo,chara_4,Sweat,CONT,0
 
 
-message,ヴィーラ,実は、とある鉱石を探していまして。,,vc_10250100001_030_01,chara_4
+message,ヴィーラ,Actually，we're       looking       for       a       certain       ore.<br> ,,vc_10250100001_030_01,chara_4
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -645,14 +645,14 @@ asyncseplay,setag1_35,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ウェンディ,鉱石？,,vc_10250100001_031_01,chara_1
+message,ウェンディ,Ore?<br> ,,vc_10250100001_031_01,chara_1
 
 asynccharaface,chara_3,FaceSurprise,CONT,0
 
 asyncshake,CHARA,chara_3,15,10,0.25,3,on,off,0,off,CONT,0
 
 
-message,ベリサ,あたしの魔法の実験に必要な鉱石なんです～。<br>炎とよく馴染むレアものなんだけどぉ。,,vc_10250100001_032_01,chara_3
+message,ベリサ,It's       an       ore       I       need       for       my       magic       experiments~.<br>A       rare       one       that's       highly       compatible       with       fire~.<br> ,,vc_10250100001_032_01,chara_3
 
 asyncshake,CHARA,chara_4,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -661,7 +661,7 @@ asyncseplay,setag1_36,se4800008,0,1,CONT,0
 asynccharaemo,chara_4,Sweat,CONT,0
 
 
-message,ヴィーラ,お姉ちゃんの言う通り、その鉱石はとても珍しく<br>マーケットには売ってはいませんでした。,,vc_10250100001_033_01,chara_4
+message,ヴィーラ,Just       as       Onee-chan       says，the       ore       is       very       rare<br>and       wasn't       available       at       any       market.<br> ,,vc_10250100001_033_01,chara_4
 
 asynccharaface,chara_4,EyeOpen,CONT,0
 asynccharaface,chara_4,FaceNormal,CONT,0
@@ -673,7 +673,7 @@ asyncseplay,setag1_37,se4800005,0,1,CONT,0
 asynccharaemo,chara_4,Flash,CONT,0
 
 
-message,ヴィーラ,それで司令官さまに相談したところ<br>大穴でその鉱石がとれると言われまして……。,,vc_10250100001_034_01,chara_4
+message,ヴィーラ,So       when       we       asked       Commander-sama       about       it，<br>he       told       us       it       could       be       found       in       the       Abyss...<br> ,,vc_10250100001_034_01,chara_4
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -684,7 +684,7 @@ asyncseplay,setag1_38,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,ヴィーラ,司令官さまからは、ウェンディという方に<br>鉱床まで案内をしてもらえと仰せつかっています。,,vc_10250100001_035_01,chara_4
+message,ヴィーラ,Commander-sama       instructed       us       to       have       someone<br>named       Wendy       guide       us       to       the       deposit.<br> ,,vc_10250100001_035_01,chara_4
 
 window,off
 wait,0.15
@@ -734,7 +734,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,司令官がわたしに仕事を任せてくれたんですか！？,,vc_10250100001_036_01,chara_1
+message,ウェンディ,Commander       entrusted       me       with       a       job!?<br> ,,vc_10250100001_036_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -745,7 +745,7 @@ asyncseplay,setag1_40,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ウェンディ,ふふ……えへへぇ……こ、こほん！,,vc_10250100001_037_01,chara_1
+message,ウェンディ,Hehe...       eheheh...       A-ahem!<br> ,,vc_10250100001_037_01,chara_1
 
 window,off
 wait,0.15
@@ -811,7 +811,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ウェンディ,そういうことなら、わたしが案内してあげます！,,vc_10250100001_038_01,chara_1
+message,ウェンディ,In       that       case，I'll       be       your       guide!<br> ,,vc_10250100001_038_01,chara_1
 
 asynccharaface,chara_4,FaceHappy,CONT,0
 
@@ -822,7 +822,7 @@ asyncseplay,setag1_42,se4800004,0,1,CONT,0
 asynccharaemo,chara_4,Laugh,CONT,0
 
 
-message,ヴィーラ,ありがとうございます。,,vc_10250100001_039_01,chara_4
+message,ヴィーラ,Thank       you       very       much.<br> ,,vc_10250100001_039_01,chara_4
 
 asynccharaface,chara_3,FaceFun,CONT,0
 
@@ -833,7 +833,7 @@ asyncseplay,setag1_43,se4800018,0,1,CONT,0
 asynccharaemo,chara_3,Flower,CONT,0
 
 
-message,ベリサ,ウェンディ、頼りになりそう～♡<br>今日はよろしくねぇ♡,,vc_10250100001_040_01,chara_3
+message,ベリサ,Wendy，you       seem       so       dependable~♡<br>Take       care       of       us       today，'kay~♡<br> ,,vc_10250100001_040_01,chara_3
 
 asynccharaface,chara_3,FaceHappy,CONT,0
 
@@ -844,7 +844,7 @@ asyncseplay,setag1_44,se4800013,0,1,CONT,0
 asynccharaemo,chara_3,Spirits,CONT,0
 
 
-message,ベリサ,あたしぃ、そこまで強くないからぁ、<br>ウェンディに守ってもらえたら嬉しいな～？,,vc_10250100001_041_01,chara_3
+message,ベリサ,I'm       not       all       that       strong，y'know~，<br>so       I'd       love       it       if       you       could       protect       me~?<br> ,,vc_10250100001_041_01,chara_3
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -853,7 +853,7 @@ asyncseplay,setag1_45,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ウェンディ,そうなんですね。安心してください！,,vc_10250100001_042_01,chara_1
+message,ウェンディ,Is       that       so?       Don't       worry!<br> ,,vc_10250100001_042_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -864,7 +864,7 @@ asyncseplay,setag1_46,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ウェンディ,司令官からの大切なお仕事です。<br>上手くやりきってみせますよ！,,vc_10250100001_043_01,chara_1
+message,ウェンディ,This       is       an       important       job       from       Commander.<br>I'll       make       sure       it       goes       perfectly!<br> ,,vc_10250100001_043_01,chara_1
 
 asynccharaface,chara_3,FaceFun,CONT,0
 
@@ -875,7 +875,7 @@ asyncseplay,setag1_47,se4800018,0,1,CONT,0
 asynccharaemo,chara_3,Flower,CONT,0
 
 
-message,ベリサ,わ～い♪　ありがとう！<br>ウェンディ好き～っ♡,,vc_10250100001_044_01,chara_3
+message,ベリサ,Yay~♪       Thank       you!<br>I       love       you，Wendy~♡<br> ,,vc_10250100001_044_01,chara_3
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -886,7 +886,7 @@ asyncseplay,setag1_48,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ウェンディ,えへへへ……♪,,vc_10250100001_045_01,chara_1
+message,ウェンディ,Ehehehe...♪<br> ,,vc_10250100001_045_01,chara_1
 
 asynccharaface,chara_4,FaceUnique02,CONT,0
 
@@ -897,7 +897,7 @@ asyncseplay,setag1_49,se4800008,0,1,CONT,0
 asynccharaemo,chara_4,Sweat,CONT,0
 
 
-message,ヴィーラ,はぁ……お姉ちゃん、<br>また猫被って楽しようとしてる……。,,vc_10250100001_046_01,chara_4
+message,ヴィーラ,Sigh...       Onee-chan，you're       putting       on       your<br>cute       act       to       get       out       of       doing       work       again...<br> ,,vc_10250100001_046_01,chara_4
 
 asynccharaface,chara_3,FaceUnique02,CONT,0
 
@@ -908,7 +908,7 @@ asyncseplay,setag1_50,se4800009,0,1,CONT,0
 asynccharaemo,chara_3,Question,CONT,0
 
 
-message,ベリサ,え～、何言ってるの～？<br>変なこと言わないでほしいなぁ？,,vc_10250100001_047_01,chara_3
+message,ベリサ,Huh~?       What       are       you       talking       about~?<br>Don't       go       saying       weird       things，okay~?<br> ,,vc_10250100001_047_01,chara_3
 
 asynccharaface,chara_3,FaceSurprise,CONT,0
 
@@ -921,7 +921,7 @@ asyncseplay,setag1_51,se4800014,0,1,CONT,0
 asynccharaemo,chara_4,Silence,CONT,0
 
 
-message,ヴィーラ,……わたしはまだいいけど、<br>また司令官さまに叱られても知らないから！,,vc_10250100001_048_01,chara_4
+message,ヴィーラ,...I       don't       mind，but       don't       blame       me       when<br>Commander-sama       scolds       you       again!<br> ,,vc_10250100001_048_01,chara_4
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -930,7 +930,7 @@ asyncseplay,setag1_52,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ウェンディ,え、ベリサさんって、いつもお説教されてるんですか？,,vc_10250100001_049_01,chara_1
+message,ウェンディ,Wait，Verisa-san，you       get       scolded       a       lot?<br> ,,vc_10250100001_049_01,chara_1
 
 asynccharaface,chara_4,EyeOpen,CONT,0
 asynccharaface,chara_4,FaceNormal,CONT,0
@@ -942,7 +942,7 @@ asyncseplay,setag1_53,se4800014,0,1,CONT,0
 asynccharaemo,chara_4,Silence,CONT,0
 
 
-message,ヴィーラ,はい。お説教だけじゃなく、司令官さまから<br>逆にからかわれたりもしています。,,vc_10250100001_050_01,chara_4
+message,ヴィーラ,Yes.       And       it's       not       just       lectures       —<br>Commander-sama       ends       up       teasing       her       right       back.<br> ,,vc_10250100001_050_01,chara_4
 
 asynccharaface,chara_4,FaceUnique01,CONT,0
 
@@ -953,7 +953,7 @@ asyncseplay,setag1_54,se4800002,0,1,CONT,0
 asynccharaemo,chara_4,Heart,CONT,0
 
 
-message,ヴィーラ,そのたびに泣いちゃうんですよね……。<br>そういうところが可愛かったりするんですけど。,,vc_10250100001_051_01,chara_4
+message,ヴィーラ,She       cries       every       single       time，you       know...<br>Though       that's       part       of       what       makes       her       cute.<br> ,,vc_10250100001_051_01,chara_4
 
 asynccharaface,chara_3,FaceShy,CONT,0
 
@@ -964,7 +964,7 @@ asyncseplay,setag1_55,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,ベリサ,ヴィ、ヴィーラ！　あたしの秘密を勝手に<br>ぺらぺらと喋らないで！,,vc_10250100001_052_01,chara_3
+message,ベリサ,V-Veera!       Don't       just       go       blabbing<br>all       my       secrets       like       that!<br> ,,vc_10250100001_052_01,chara_3
 
 asynccharaface,chara_4,FaceHappy,CONT,0
 
@@ -975,7 +975,7 @@ asyncseplay,setag1_56,se4800013,0,1,CONT,0
 asynccharaemo,chara_4,Spirits,CONT,0
 
 
-message,ヴィーラ,えへへ！　ごめんなさい。つい……,,vc_10250100001_053_01,chara_4
+message,ヴィーラ,Ehehe!       Sorry.       I       couldn't       help       it...<br> ,,vc_10250100001_053_01,chara_4
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -987,7 +987,7 @@ asyncseplay,setag1_57,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ウェンディ,あの～……？,,vc_10250100001_054_01,chara_1
+message,ウェンディ,Um...?<br> ,,vc_10250100001_054_01,chara_1
 
 asynccharaface,chara_3,FaceHappy,CONT,0
 
@@ -998,7 +998,7 @@ asyncseplay,setag1_58,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,ベリサ,ハッ！？　な、なんてね～♡　ウソウソ♡<br>ほら、早く鉱石探しに行こ～！,,vc_10250100001_055_01,chara_3
+message,ベリサ,Ah!?       J-just       kidding~♡       All       lies~♡<br>Come       on，let's       go       find       that       ore       already~!<br> ,,vc_10250100001_055_01,chara_3
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1009,7 +1009,7 @@ asyncseplay,setag1_59,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ウェンディ,あっ、そうですね。<br>分かりました、ついてきてください！,,vc_10250100001_056_01,chara_1
+message,ウェンディ,Oh，right.       Okay       then，follow       me!<br> ,,vc_10250100001_056_01,chara_1
 
 window,off
 bgmstop,bgmtag1_1,0.5

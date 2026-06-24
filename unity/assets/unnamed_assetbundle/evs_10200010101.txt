@@ -27,7 +27,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトルを設定してください
+title,Please Set a Title
 
 wait,1
 
@@ -62,7 +62,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,これにて、今日の大穴調査は完了ですねっ！<br>皆さん、お疲れさまでした～！　無事に帰還できて、何よりです！,102501000G,,chara_1
+message,ウェンディ,That       wraps       up       today's       Abyss       survey!<br>Great       work，everyone~!       Glad       we       all       made       it       back       safe!<br> ,102501000G,,chara_1
 
 window,off
 wait,0.15
@@ -105,7 +105,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,兵士A,ウェンディちゃんのおかげだよ！<br>大活躍だったじゃない！,401601000,,chara_2
+message,兵士A,It's       all       thanks       to       you，Wendy-chan!<br>You       were       incredible       out       there!<br> ,401601000,,chara_2
 
 asyncjump,CHARA,chara_3,-30,0.25,1,off,0,CONT
 
@@ -114,7 +114,7 @@ asyncseplay,setag1_3,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,兵士B,ウェンディさんが前衛で暴れてくれるお陰で、とっても戦いやすかったですー。<br>おかげで怪我人も出なかったですしー。,401101000,,chara_3
+message,兵士B,With       Wendy-san       tearing       it       up       on       the       front       line，<br>it       was       so       easy       to       fight~.       Nobody       got       hurt，either~.<br> ,401101000,,chara_3
 
 window,off
 wait,0.15
@@ -156,7 +156,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,ああ、今日の功労者は間違いなくウェンディだな。<br>モンスターをちぎっては投げ、ちぎっては投げ――すごいパワーだったよ。
+message,<user>,Yeah，today's       MVP       is       definitely       Wendy.<br>Ripping       monsters       apart       and       tossing       them       —       what       a       powerhouse.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -167,7 +167,7 @@ asyncseplay,setag1_4,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ウェンディ,えへへ。わたし、オートマタですからね。<br>パワーには自信があるんです！,102501000G,,chara_1
+message,ウェンディ,Ehehe.       Well，I       am       an       automaton.<br>I'm       pretty       confident       in       my       strength!<br> ,102501000G,,chara_1
 
 window,off
 wait,0.15
@@ -189,11 +189,11 @@ asyncwait,subimage_0_1
 asyncwait,subimage_0_2
 
 
-messageTextUnder,,本人の言う通り、<br>ウェンディはペルディオンで作られたオートマタである。,,,on
+messageTextUnder,,As       she       says，<br>Wendy       is       an       automaton       built       in       Perdion.<br> ,,,on
 
-messageTextUnder,,親から『世界を見て来なさい』と送り出されて以来、<br>人の文化を学びながら各地を放浪していた。,,,on
+messageTextUnder,,Since       her       father       sent       her       off       to       'go       see       the       world'，<br>she       had       been       wandering       various       lands，learning       human       culture.<br> ,,,on
 
-messageTextUnder,,道中、運悪く奴隷にされそうになったところを<user>に<br>助けられ、以降は彼の頼れる仲間として前線基地で働いている。,,,on
+messageTextUnder,,Along       the       way       she       was       nearly       enslaved，but       was       rescued       by       Commander.<br>Since       then，she       has       worked       at       the       forward       base       as       a       dependable       ally.<br> ,,,on
 
 window,off
 wait,0.15
@@ -223,7 +223,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,――でもでも、司令官の的確な指示と、<br>それに素早く応えていた皆さんに比べれば、わたしなんてまだまだです。,102501000G,,chara_1
+message,ウェンディ,——But       compared       to       Commander's       precise       orders<br>and       how       quickly       everyone       responded，I'm       still       a       novice.<br> ,102501000G,,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -234,7 +234,7 @@ asyncseplay,setag1_6,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ウェンディ,だから、やっぱりすごいのは皆さんの方です！<br>わたしも、早く皆さんに追いつけるように頑張りますね！,102501000G,,chara_1
+message,ウェンディ,So       really，you're       all       the       amazing       ones!<br>I'll       work       hard       to       catch       up       to       everyone!<br> ,102501000G,,chara_1
 
 window,off
 wait,0.15
@@ -307,7 +307,7 @@ asynccrossfade,0.1,0,0,1,1,STOP
 
 
 window,on,0.15
-message,兵士A・兵士B,（あぁぁ……！　なんて愛らしい笑顔……！！<br>天使だ！　天使が、ここにいる！！）,,,chara_2/chara_3
+message,兵士A・兵士B,(Ahhh...!       What       an       adorable       smile...!!<br>An       angel!       There's       an       angel       right       here!!)<br> ,,,chara_2/chara_3
 
 window,off
 wait,0.15
@@ -356,7 +356,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,……ウェンディの向上心はすごいと思ってるが、<br>あんまり無理をするんじゃないぞ？
+message,<user>,...I       admire       your       drive，Wendy，<br>but       don't       push       yourself       too       hard，okay?<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -367,9 +367,9 @@ asyncseplay,setag1_9,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ウェンディ,大丈夫です！　わたしは、魔力があれば無限に働くことが<br>できますから！！　むんっ！,102501000G,,chara_1
+message,ウェンディ,I'll       be       fine!       As       long       as       I       have       mana，<br>I       can       work       forever!!       Hnngh!<br> ,102501000G,,chara_1
 
-message,<user>,力こぶを作るのはいいが、全然出てないぞー。<br>細くて心配になるくらいだな……
+message,<user>,Flexing       is       cute       and       all，but       nothing's       showing.<br>You're       so       thin       it's       almost       worrying...<br> 
 
 window,off
 wait,0.15
@@ -434,7 +434,7 @@ asynccharaemo,chara_2,Question,CONT,0
 
 
 window,on,0.15
-message,兵士A,そんな細い体のどこから、あんなパワーが湧いてくるのかしら……。<br>オートマタってすごいのね。,401601000,,chara_2
+message,兵士A,Where       does       all       that       power       come       from<br>in       such       a       slim       body...?       Automatons       are       amazing.<br> ,401601000,,chara_2
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -445,7 +445,7 @@ asyncseplay,setag1_11,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ウェンディ,これも魔法のお陰です！　魔法は、パワーなんです！<br>皆さんもご一緒に――！　魔法は～～～……,102501000G,,chara_1
+message,ウェンディ,It's       all       thanks       to       magic!       Magic       is       power!<br>Everyone，say       it       with       me——!       Magic       is~~~...<br> ,102501000G,,chara_1
 
 window,off
 wait,0.15
@@ -496,7 +496,7 @@ asyncjump,CHARA,chara_1,60,0.4,1,off,0,CONT
 
 
 window,on,0.15
-message,ウェンディ,<size=48>ぱわぁぁぁぁぁあああ！！！！</>,102501000G,,chara_1
+message,ウェンディ,<size=48>POWEEEERRRRR!!!!</>,102501000G,,chara_1
 
 window,off
 wait,0.15
@@ -563,7 +563,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,兵士A,急に振られても言えないってばぁ！　と、というか、もしかして、<br>なんだけど……ウェンディちゃんって、ちょっと脳筋だったりする……？,401601000,,chara_2
+message,兵士A,Don't       just       spring       that       on       us!       A-also，could       it       be...<br>that       Wendy-chan       is       a       bit       of       a       musclehead...?<br> ,401601000,,chara_2
 
 window,off
 wait,0.15
@@ -616,9 +616,9 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,のうきん……？<br>司令官、のうきんっていうのはなんでしょうか？,102501000G,,chara_1
+message,ウェンディ,Musclehead...?<br>Commander，what       does       'musclehead'       mean?<br> ,102501000G,,chara_1
 
-message,<user>,えっ？　あー、その……脳まで、筋肉で……い、いや！<br>まあ、なんでも解決できるほどのパワーを持っているってことだな！
+message,<user>,Huh?       Ah，well...       muscles       all       the       way       to       your       brain...       N-no!<br>It       means       having       enough       power       to       solve       anything!<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -629,7 +629,7 @@ asyncseplay,setag1_14,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ウェンディ,そうなんですねっ！　えへへぇ～♪<br>そんなに褒められると、照れちゃいますぅ。,102501000G,,chara_1
+message,ウェンディ,Is       that       so!       Eheheh~♪<br>Being       praised       that       much       makes       me       blush~.<br> ,102501000G,,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -640,7 +640,7 @@ asyncseplay,setag1_15,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ウェンディ,よ～～し！<br>のうきんパワーで、これからもがんばっちゃいますよ～～！！,102501000G,,chara_1
+message,ウェンディ,All       ri~~ght!<br>I'll       keep       doing       my       best       with       musclehead       power~~!!<br> ,102501000G,,chara_1
 
 window,off
 wait,0.15
@@ -654,7 +654,7 @@ subimagefade,subimage_1,0,0.6235,0
 asynccrossfade,0.1,0,0,1,1,STOP
 
 window,on,0.15
-message,<user>,（よし。本当の意味は伝えないでおこう。<br>俺には、この無邪気な笑顔を守る義務がある……）
+message,<user>,(Right.       I       won't       tell       her       the       real       meaning.<br>I       have       a       duty       to       protect       that       innocent       smile...)<br> 
 
 window,off
 wait,0.15
@@ -668,9 +668,9 @@ subimagefade,subimage_1,0.6235,0,0
 asynccrossfade,0.1,0,0,1,1,STOP
 
 window,on,0.15
-message,<user>,――とにかくだ。疲れを知らないからって、無理はするなよ。<br>オートマタだって無茶をすれば壊れることもあるだろうしな。
+message,<user>,——Anyway.       Just       because       you       don't       get       tired       doesn't<br>mean       you       should       overdo       it.       Even       automatons       can       break.<br> 
 
-message,<user>,自己管理も仕事のうち、ってな。<br>司令官としてちゃんと休むように命じる。いいな、ウェンディ？
+message,<user>,Taking       care       of       yourself       is       part       of       the       job.<br>As       Commander，I'm       ordering       you       to       rest.       Got       it，Wendy?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -681,7 +681,7 @@ asyncseplay,setag1_16,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ウェンディ,んうぅ……命令なら、分かりましたぁ……。<br>でも、お休みって何をすれば……？　皆さんは何をするんですか？,102501000G,,chara_1
+message,ウェンディ,Mmgh...       If       it's       an       order，fine...<br>But       what       do       I       do       on       a       break...?       What       does       everyone       else       do?<br> ,102501000G,,chara_1
 
 window,off
 wait,0.15
@@ -747,7 +747,7 @@ asynccharaemo,chara_3,Speak,CONT,0
 
 
 window,on,0.15
-message,兵士B,ふふふっ、今日はこれから誕生日パーティーなんですー。<br>ちょうど仲間のひとりが今日、誕生日なのでー。,401101000,,chara_3
+message,兵士B,Hehehe，we're       having       a       birthday       party       today~.<br>One       of       our       friends       has       her       birthday       today~.<br> ,401101000,,chara_3
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -758,7 +758,7 @@ asyncseplay,setag1_18,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ウェンディ,誕生日パーティー……？<br>なんですか、それ？,102501000G,,chara_1
+message,ウェンディ,Birthday       party...?<br>What's       that?<br> ,102501000G,,chara_1
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -769,9 +769,9 @@ asyncseplay,setag1_19,se4800017,0,1,CONT,0
 asynccharaemo,chara_2,Shock,CONT,0
 
 
-message,兵士A,ええっ？　誕生日パーティー、知らないの？,401601000,,chara_2
+message,兵士A,What?       You       don't       know       what       a       birthday       party       is?<br> ,401601000,,chara_2
 
-message,<user>,ウェンディはまだ、人の文化を学んでいる最中だからな。<br>知らなくても無理はない。誕生日パーティーっていうのはな――
+message,<user>,Wendy's       still       learning       about       human       culture.<br>It's       no       surprise       she       wouldn't       know.       A       birthday       party       is——<br> 
 
 
 window,off
@@ -821,7 +821,7 @@ asynccharaemo,chara_4,Speak,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,なるほど。生まれた日を祝ってあげるんですね……。誕生日だけじゃなくて、<br>他の記念日にも、その人に喜んでもらうために、パーティーを開くと……,102501000G,,chara_4
+message,ウェンディ,I       see.       You       celebrate       the       day       someone       was       born...       And       not       just<br>birthdays       —       other       occasions       too，to       make       someone       happy...<br> ,102501000G,,chara_4
 
 asynccharaface,chara_4,FaceHappy,CONT,0
 
@@ -832,7 +832,7 @@ asyncseplay,setag1_21,se4800003,0,1,CONT,0
 asynccharaemo,chara_4,Twinkle,CONT,0
 
 
-message,ウェンディ,――と～～～っても、ステキですね！！！！,102501000G,,chara_4
+message,ウェンディ,——That's       so~~~       wonderful!!!!<br> ,102501000G,,chara_4
 
 window,off
 wait,0.15
@@ -897,7 +897,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,兵士A,お、興味ある？　それじゃあ、ウェンディちゃんも一緒に行かない？<br>ぱ～っと飲んで騒いでお祝いして、疲れを吹き飛ばすぞ～～～！！,401601000,,chara_2
+message,兵士A,Oh，interested?       Then       come       with       us，Wendy-chan!<br>We'll       drink，party，celebrate，and       blow       off       some       steam~~~!!<br> ,401601000,,chara_2
 
 asyncjump,CHARA,chara_1,40,0.5,2,off,0,CONT
 
@@ -906,9 +906,9 @@ asyncseplay,setag1_23,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ウェンディ,おぉぉぉぉ～～～～！,102501000G,,chara_1
+message,ウェンディ,Ohhhhh~~~~!<br> ,102501000G,,chara_1
 
-message,<user>,それはいい。よし。<br>今日は俺も飲みまくって、日頃の鬱憤を晴らすとするか！
+message,<user>,Sounds       great.       All       right.<br>Today       I'm       drinking       my       fill       and       blowing       off       some       stress!<br> 
 
 window,off
 wait,0.15
@@ -961,9 +961,9 @@ asynccharaemo,chara_5,Speak,CONT,0
 
 
 window,on,0.15
-message,アリシア,あっ、帰ってきてたんですか、司令官。<br>よかった～、書類仕事が溜まってきたところだったんですよ。,300201000,,chara_5
+message,アリシア,Oh，you're       back，Commander.<br>Thank       goodness~，paperwork       has       been       piling       up.<br> ,300201000,,chara_5
 
-message,<user>,ア、アリシア……！？<br>えっと……それ、今度じゃだめか？
+message,<user>,A-Alicia...!?<br>Um...       Can't       that       wait       until       later?<br> 
 
 window,off
 wait,0.15
@@ -1002,7 +1002,7 @@ asynccharaemo,chara_5,BePeevish,CONT,0
 
 
 window,on,0.15
-message,アリシア,何言ってるんですか、だめに決まってます。<br>ほら、司令室に戻りますよ。,300201000,,chara_5
+message,アリシア,What       are       you       saying?       Absolutely       not.<br>Come       on，back       to       the       command       room.<br> ,300201000,,chara_5
 
 window,off
 wait,0.15
@@ -1018,7 +1018,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,い、いやだぁぁぁ～～～！<br>食って飲んで歌って、どんちゃんするんだぁ～～……！！
+message,<user>,N-nooo~~~!<br>I       wanna       eat，drink，sing，and       party~~...!!<br> 
 
 window,off
 wait,0.15
@@ -1098,7 +1098,7 @@ asyncseplay,setag1_28,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 window,on,0.15
-message,,アリシアに引きずられていく<user>を眺め、<br>兵士たちは合掌。
+message,,The       soldiers       clasped       their       hands       in       prayer<br>as       they       watched       Commander       being       dragged       away       by       Alicia.<br> 
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -1107,7 +1107,7 @@ asyncseplay,setag1_29,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ウェンディ,わ、わたしのパワーでもアリシアさんは止められません……。<br>司令官、どうかご無事で……！,102501000G,,chara_1
+message,ウェンディ,E-even       my       power       can't       stop       Alicia-san...<br>Commander，may       you       be       safe...!<br> ,102501000G,,chara_1
 
 asyncshake,CHARA,chara_2,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1116,7 +1116,7 @@ asyncseplay,setag1_30,se4800006,0,1,CONT,0
 asynccharaemo,chara_2,Trouble,CONT,0
 
 
-message,兵士A,大変ね、司令官……でも、代わりを務められる人もいないからね。<br>何か労える機会でもあればいいんだけど。,401601000,,chara_2
+message,兵士A,Poor       Commander...       But       nobody       else       can       do       the       job.<br>I       wish       we       could       reward       him       somehow.<br> ,401601000,,chara_2
 
 asynccharaface,chara_3,FaceHappy,CONT,0
 
@@ -1127,7 +1127,7 @@ asyncseplay,setag1_31,se4800022,0,1,CONT,0
 asynccharaemo,chara_3,Speak,CONT,0
 
 
-message,兵士B,そういえば、司令官の着任パーティー、<br>まだやってなかったですよねー？,401101000,,chara_3
+message,兵士B,Come       to       think       of       it，we       never       threw       a       welcome<br>party       for       Commander，did       we~?<br> ,401101000,,chara_3
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -1138,7 +1138,7 @@ asyncseplay,setag1_32,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,兵士A,そーね。でも、ああいう性格だし。<br>開催するって言っても、恥ずかしがって逃げるんじゃない？,401601000,,chara_2
+message,兵士A,True.       But       knowing       him，if       we       told       him       about       it，<br>he'd       get       embarrassed       and       run       away.<br> ,401601000,,chara_2
 
 asyncjump,CHARA,chara_3,-30,0.5,2,off,0,CONT
 
@@ -1147,7 +1147,7 @@ asyncseplay,setag1_33,se4800019,0,1,CONT,0
 asynccharaemo,chara_3,Elated,CONT,0
 
 
-message,兵士B,やるなら不意打ち、サプライズで……でしょうかー？<br>ふふ、そういうのも楽しそうですね――,401101000,,chara_3
+message,兵士B,If       we       do       it，it'd       have       to       be       a       surprise...<br>right~?       Hehe，that       does       sound       fun——<br> ,401101000,,chara_3
 
 window,off
 wait,0.15
@@ -1200,7 +1200,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,（司令官の着任パーティー……ですか……）,102501000G,,chara_1
+message,ウェンディ,(A       welcome       party       for       Commander...       huh...)<br> ,102501000G,,chara_1
 
 window,off
 bgmstop,bgmtag1_1,0.5
