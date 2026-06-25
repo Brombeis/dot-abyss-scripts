@@ -218,6 +218,13 @@ The `3494` in `CDN_VERSION` is a catalog version. On a game update:
   Set `translated` to the number of translated lines and `remaining` to `0`
   (or the correct count for partial translations). Never leave the status file
   out of sync with the actual translation JSONs.
+- **Hard length limit: 150 display characters per translated `en` field.**
+  Display length is measured after applying `…` → `...`, stripping `<br>`,
+  and counting `""` as 1 char. Lines over 150 chars will overflow or get
+  word-wrapped in ways that break dialogue pacing. When a translation is too
+  long, rephrase concisely — do not split into awkward fragments. Use
+  `data/long_lines_report.txt` to audit. The underlying per-line cap from
+  `data/references.md` (68 chars × 2 lines) still applies for the dialogue box.
 
 ---
 
