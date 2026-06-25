@@ -29,9 +29,10 @@ DOTMESSAGE_FONT_SIZE = 24
 PROPORTIONAL_MODE = True
 PROPORTIONAL_SPACE = " " * 7
 
-# messageTextCenter is intentionally excluded — translated as plain text.
+# messageTextCenter and messageTextUnder are intentionally excluded due to not needing spaces duplicated due to
+# their proportional text implementation being correct
 MESSAGE_COMMANDS = frozenset({
-    "dotmessage", "message", "l2dmessage", "messageTextUnder",
+    "dotmessage", "message", "l2dmessage"
 })
 
 UNITY_DIR = os.path.join(common.REPO_ROOT, "unity")
