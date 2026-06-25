@@ -30,11 +30,11 @@ asynccharaemo,chara_1,Speak,STOP
 
 asynccharareaction,chara_1,Nod,0.5,STOP,5
 window,on,0.15
-message,ウェンディ,司令官……こちらが、お父様が書いた、わたしの仕様書です。<br>存在自体、すっかり忘れていたのですが。,,vc_10250100013_001_01
+message,ウェンディ,Commander...       here       are       the       specifications       Father       wrote       for       me.<br>I'd       completely       forgotten       they       even       existed.<br> ,,vc_10250100013_001_01
 
-message,,翌日、そう言ってウェンディが差し出してきたのは、<br>彼女のすべての機能について記載された、ウェンディの仕様書だった。
+message,,The       next       day，what       Wendy       handed       me       was<br>a       full       specification       document       covering       all       of       her       functions.<br> 
 
-message,,それによれば、ウェンディが突然変貌したのは、彼女の体内に備えられた、<br>性行為時にのみ稼働する“特殊魔導炉”によるものらしい。
+message,,According       to       the       specs，Wendy's       sudden       transformation       was       caused       by       a<br>”special       mana       reactor”       built       into       her       body       that       activates       only       during       sex.<br> 
 
 asyncseplay,setag3_2,se4800014,0,1,CONT
 
@@ -46,12 +46,12 @@ asynccharaface,chara_1,FaceNormal,STOP,1
 asynccharaface,chara_1,EyeOpen,STOP,6
 asynccharaface,chara_1,FaceNormal,STOP,6
 
-message,ウェンディ,お父様は、わたしに好きな人ができた場合を考え、<br>わたしの体に“女性的な機能”と“特殊魔導炉”を装備させたようです。,,vc_10250100013_002_01
+message,ウェンディ,Father       anticipated       that       I       might       fall       for       someone       someday，       so       he<br>equipped       me       with       ”feminine       functions”       and       the       ”special       reactor.”<br> ,,vc_10250100013_002_01
 
 charaface,chara_1,FaceShy
 
 asynccharareaction,chara_1,Nod,1,STOP
-message,ウェンディ,女性的な機能を持つことで、<br>わたしは、好きな相手と体を重ねることができ……,,vc_10250100013_003_01
+message,ウェンディ,With       the       feminine       functions，I'm       able       to<br>be       intimate       with       the       person       I       love，and...<br> ,,vc_10250100013_003_01
 
 charaface,chara_1,FaceUnique02
 
@@ -60,7 +60,7 @@ asyncseplay,setag3_3,se4800012,0,1,CONT
 asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
-message,ウェンディ,さらに、特殊魔導炉を起動させることにより、わたしと相手に、<br>特別な性的快感を提供できるようにした、とのことです。,,vc_10250100013_004_01
+message,ウェンディ,On       top       of       that，the       special       reactor       activates       to       provide<br>heightened       pleasure       for       both       me       and       my       partner，it       says.<br> ,,vc_10250100013_004_01
 
 window,off
 wait,0.15
@@ -72,9 +72,9 @@ subimagefade,subimage_1,0,1,0.5
 wait,1
 
 window,on,0.15
-message,,ウェンディの父……娘の幸福を願う人格者か、<br>はたまた単なるエロオヤジなのか……
+message,,Wendy's       father...       a       noble       man       who       wished       for       his       daughter's<br>happiness，       or       just       a       dirty       old       man...?<br> 
 
-message,,いずれにしろ、不安に怯えていたウェンディに、<br>明るい笑顔を取り戻させたのだから、きっと良い“父親”なのだろう。
+message,,Either       way，he'd       given       Wendy       —       who       had       been       terrified       she       was<br>breaking       —       her       bright       smile       back.       He       must       be       a       good       ”father”       after       all.<br> 
 
 window,off
 bgmstop,bgmtag3_1,0.5
