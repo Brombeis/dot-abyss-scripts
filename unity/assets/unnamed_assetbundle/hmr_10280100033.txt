@@ -30,29 +30,29 @@ asynccharaemo,chara_1,Exclamation,STOP
 
 asynccharareaction,chara_1,HOP,0.5,STOP
 window,on,0.15
-message,エミリー,Oh，Commander!       This       is       bad，this       is       really       bad!<br> ,,vc_10280100033_001_01
+message,エミリー,Oh，Commander! This is bad，this is really bad!<br> ,,vc_10280100033_001_01
 
-message,<user>,What's       got       you       so       worked       up?<br> 
+message,<user>,What's got you so worked up?<br> 
 
 asyncseplay,setag3_2,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,STOP
 
 charaface,chara_1,FaceSad
-message,エミリー,Look，over       there.<br>...The       customer       who       passed       out       that       night.<br> ,,vc_10280100033_002_01
+message,エミリー,Look，over there.<br>...The customer who passed out that night.<br> ,,vc_10280100033_002_01
 
-message,,Sure       enough，drinking       with       friends       at       the       table<br>Emily       discreetly       pointed       to       was       that       customer       from       that       night.<br> 
+message,,Sure enough，drinking with friends at the table<br>Emily discreetly pointed to was that customer from that night.<br> 
 
-message,,Eavesdropping，they       seemed       to       be       having       a       great       time<br>talking       about       how       he       saw       something       really       hot       at       this       tavern.<br> 
+message,,Eavesdropping，they seemed to be having a great time<br>talking about how he saw something really hot at this tavern.<br> 
 
-message,,Apparently，a       waitress       was       getting       pounded       by       some<br>well-endowed       guy       on       this       very       table...<br> 
+message,,Apparently，a waitress was getting pounded by some<br>well-endowed guy on this very table...<br> 
 
 charaface,chara_1,FaceUnique02
 
 asynccharareaction,chara_1,Shake,0.5,STOP
-message,エミリー,See，he       totally       found       out       about       that       night~<br>What       do       we       do...<br> ,,vc_10280100033_003_01
+message,エミリー,See，he totally found out about that night~<br>What do we do...<br> ,,vc_10280100033_003_01
 
-message,,But       listening       further，the       man       capped       it       off       saying<br>it       was       actually       a       dream，drawing       laughs       from       his       friends.<br> 
+message,,But listening further，the man capped it off saying<br>it was actually a dream，drawing laughs from his friends.<br> 
 
 asyncseplay,setag3_3,se4800017,0,1,CONT
 
@@ -60,18 +60,18 @@ asynccharareaction,chara_1,Shake,1,STOP
 asynccharaemo,chara_1,Shock,STOP
 
 charaface,chara_1,FaceSurprise
-message,エミリー,A       dream!?       Haah，thank       goodness~...<br>Huh?       Commander，why       are       you       laughing?<br> ,,vc_10280100033_004_01
+message,エミリー,A dream!? Haah，thank goodness~...<br>Huh? Commander，why are you laughing?<br> ,,vc_10280100033_004_01
 
-message,<user>,Did       you       really       think       I'd       do       something       like       that<br>when       the       customer       could've       woken       up       at       any       moment?<br> 
+message,<user>,Did you really think I'd do something like that<br>when the customer could've woken up at any moment?<br> 
 
 charaface,chara_1,FaceSad
 
 asyncseplay,setag3_4,se4800009,0,1,CONT
 
 asynccharaemo,chara_1,Question,STOP
-message,エミリー,What       do       you       mean?<br> ,,vc_10280100033_005_01
+message,エミリー,What do you mean?<br> ,,vc_10280100033_005_01
 
-message,<user>,I       caught       a       faint       scent       of       brewed       sleep       herbs       from<br>that       customer's       drink.<br> 
+message,<user>,I caught a faint scent of brewed sleep herbs from<br>that customer's drink.<br> 
 
 asyncseplay,setag3_5,se4800009,0,1,CONT
 
@@ -79,13 +79,13 @@ asynccharaemo,chara_1,Question,STOP
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
-message,エミリー,Sleep       herbs?<br> ,,vc_10280100033_006_01
+message,エミリー,Sleep herbs?<br> ,,vc_10280100033_006_01
 
-message,<user>,You       said       that       customer       told       Ludia       he       couldn't       sleep，<br>right?<br> 
+message,<user>,You said that customer told Ludia he couldn't sleep，<br>right?<br> 
 
-message,<user>,And       Ludia，concerned       for       his       health，served       him       a<br>drink       brewed       with       sleep       herbs.<br> 
+message,<user>,And Ludia，concerned for his health，served him a<br>drink brewed with sleep herbs.<br> 
 
-message,<user>,Isn't       that       right，Ludia.<br> 
+message,<user>,Isn't that right，Ludia.<br> 
 
 window,off
 wait,0.15
@@ -104,7 +104,7 @@ crossfade,0.3,0,0,1,1
 wait,0.3
 
 window,on,0.15
-message,,Ludia       appeared       out       of       seemingly       nowhere.<br> 
+message,,Ludia appeared out of seemingly nowhere.<br> 
 
 asyncseplay,setag3_6,se4800004,0,1,CONT
 
@@ -112,7 +112,7 @@ asynccharareaction,chara_2,Nod,1,STOP
 asynccharaemo,chara_2,Laugh,STOP
 
 charaface,chara_2,FaceFun
-message,ルディア,Oh，about       that       —       the       effects       should       have       long       worn<br>off       by       the       time       you       came       to       the       shop，Commander-kun.<br> ,,vc_10280100033_007_01
+message,ルディア,Oh，about that — the effects should have long worn<br>off by the time you came to the shop，Commander-kun.<br> ,,vc_10280100033_007_01
 
 asyncseplay,setag3_7,se4800010,0,1,CONT
 
@@ -129,9 +129,9 @@ charapose,chara_2,2
 bgmplay,bgmtag3_2,bgm0026,0.75,1
 
 charaface,chara_2,FaceHappy
-message,ルディア,I       mean，I       can't       close       shop       if       he       sleeps       forever.<br>I       calculated       the       dosage       properly，of       course.<br> ,,vc_10280100033_008_01
+message,ルディア,I mean，I can't close shop if he sleeps forever.<br>I calculated the dosage properly，of course.<br> ,,vc_10280100033_008_01
 
-message,<user>,Y-you're       joking，right?<br> 
+message,<user>,Y-you're joking，right?<br> 
 
 asyncseplay,setag3_8,se4800004,0,1,CONT
 
@@ -144,10 +144,10 @@ charaface,chara_2,FaceNormal
 asynccharaface,chara_2,FaceUnique03,STOP,4
 
 charapose,chara_2,1
-message,ルディア,Hehe，now       who       can       say~?<br>What       were       you       two       up       to       while       the       customer       was       'asleep'?<br> ,,vc_10280100033_009_01
+message,ルディア,Hehe，now who can say~?<br>What were you two up to while the customer was 'asleep'?<br> ,,vc_10280100033_009_01
 
 
-message,,Put       on       the       spot       by       her       teasing，Emily       and       I       both<br>broke       out       in       a       cold       sweat.<br> 
+message,,Put on the spot by her teasing，Emily and I both<br>broke out in a cold sweat.<br> 
 
 charaface,chara_1,FaceShy
 

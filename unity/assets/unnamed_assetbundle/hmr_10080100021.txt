@@ -43,11 +43,11 @@ wait,2
 sestop,se1_1001,2
 
 window,on,0.15
-message,,Tonight，too，many       customers       had       come       to       the       bar.<br> 
+message,,Tonight，too，many customers had come to the bar.<br> 
 
-message,<user>,Good，good       —       business       is       booming       again       today.<br>Everyone       looks       satisfied，no       problems       in       sight—       hm?<br> 
+message,<user>,Good，good — business is booming again today.<br>Everyone looks satisfied，no problems in sight— hm?<br> 
 
-message,,A       young       mercenary       looking       dejected<br>and       the       men       consoling       him       caught       my       eye.<br> 
+message,,A young mercenary looking dejected<br>and the men consoling him caught my eye.<br> 
 
 window,off
 wait,0.15
@@ -66,13 +66,13 @@ transitionCrossFade,Tra02,1
 wait,1
 
 window,on,0.15
-message,傭兵Ａ,It's       hopeless...<br>I'll       never       be       able       to       have       proper       sex       in       my       life...<br> ,900000001
+message,傭兵Ａ,It's hopeless...<br>I'll never be able to have proper sex in my life...<br> ,900000001
 
-message,傭兵Ｂ,What       are       you       talking       about       —       you       just       messed       up       a       little.<br>Just       ask       a       different       girl       next       time.<br> ,900000001
+message,傭兵Ｂ,What are you talking about — you just messed up a little.<br>Just ask a different girl next time.<br> ,900000001
 
-message,傭兵Ａ,There's       no       way       I       can       do       it       anyway...!<br>I've       decided       —       I'm       never       setting       foot       in       a       brothel       again!<br> ,900000001
+message,傭兵Ａ,There's no way I can do it anyway...!<br>I've decided — I'm never setting foot in a brothel again!<br> ,900000001
 
-message,傭兵Ｂ,Hey，hey，don't       be       so       hard       on       yourself.<br> ,900000001
+message,傭兵Ｂ,Hey，hey，don't be so hard on yourself.<br> ,900000001
 
 window,off
 wait,0.15
@@ -84,13 +84,13 @@ asyncseplay,setag1_1,se4010010,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,<user>,...Hey，got       a       minute?<br> 
+message,<user>,...Hey，got a minute?<br> 
 
-message,傭兵Ａ,What       do       you       want       —       come       to       laugh       at       the       guy       who       paid       and       still<br>couldn't       lose       his—       Huh?       C-Commander!?       I-I'm       sorry!<br> ,900000001
+message,傭兵Ａ,What do you want — come to laugh at the guy who paid and still<br>couldn't lose his— Huh? C-Commander!? I-I'm sorry!<br> ,900000001
 
-message,<user>,Don't       worry       about       it       —       I       should       be       the       one       apologizing.<br>Sorry       we       couldn't       give       you       a       good       experience.<br> 
+message,<user>,Don't worry about it — I should be the one apologizing.<br>Sorry we couldn't give you a good experience.<br> 
 
-message,<user>,Which       brings       me       to       a       proposal...       how       about       a       rematch?<br> 
+message,<user>,Which brings me to a proposal... how about a rematch?<br> 
 
 bgmstop,bgmtag1_1,1,0
 
@@ -125,7 +125,7 @@ bgmplay,bgmtag1_2,bgm0033,0.75,1
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,<user>,——So       that's       the       situation.       I'd       like       you       to       take       a       young       mercenary's<br>first       time.       Guide       him       gently，as       his       'Onee-chan'.<br> 
+message,<user>,——So that's the situation. I'd like you to take a young mercenary's<br>first time. Guide him gently，as his 'Onee-chan'.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -136,11 +136,11 @@ asyncseplay,setag1_2,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ヴィーラ,...Why       me?<br>If       you       need       a       big       sister       type，wouldn't       Verisa-onee-chan       be       better?<br> ,100801000X,vc_10080100021_001_01,chara_1
+message,ヴィーラ,...Why me?<br>If you need a big sister type，wouldn't Verisa-onee-chan be better?<br> ,100801000X,vc_10080100021_001_01,chara_1
 
-message,<user>,Instead       of       chasing       after       your       sister，being       the       one       in       the       big       sister<br>role       —       I       thought       that'd       be       a       good       opportunity       for       you.<br> 
+message,<user>,Instead of chasing after your sister，being the one in the big sister<br>role — I thought that'd be a good opportunity for you.<br> 
 
-message,<user>,Besides，you've       been       watching       how       Verisa       does       it       up       close       all       this<br>time.       I       think       you       could       be       the       kindest，most       ideal       big       sister       of       all.<br> 
+message,<user>,Besides，you've been watching how Verisa does it up close all this<br>time. I think you could be the kindest，most ideal big sister of all.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -151,7 +151,7 @@ asyncseplay,setag1_3,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ヴィーラ,Me，the       ideal       big       sister...<br> ,100801000X,vc_10080100021_002_01,chara_1
+message,ヴィーラ,Me，the ideal big sister...<br> ,100801000X,vc_10080100021_002_01,chara_1
 
 window,off
 wait,0.15
@@ -170,7 +170,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,Veera       blinked       a       few       times，<br>then       slowly       nodded       in       answer.<br> 
+message,,Veera blinked a few times，<br>then slowly nodded in answer.<br> 
 
 window,off
 wait,0.15
@@ -189,9 +189,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ヴィーラ,All       right.       I'll       give       it       a       try.<br> ,100801000X,vc_10080100021_003_01,chara_1
+message,ヴィーラ,All right. I'll give it a try.<br> ,100801000X,vc_10080100021_003_01,chara_1
 
-message,<user>,It's       because       it's       you       that       I'm       asking.<br>I'm       counting       on       you.<br> 
+message,<user>,It's because it's you that I'm asking.<br>I'm counting on you.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -202,7 +202,7 @@ asyncseplay,setag1_6,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ヴィーラ,Yes.       I       won't       let       Onee-chan       or       Commander-sama       down.<br>I'll       do       my       best.<br> ,100801000X,vc_10080100021_004_01,chara_1
+message,ヴィーラ,Yes. I won't let Onee-chan or Commander-sama down.<br>I'll do my best.<br> ,100801000X,vc_10080100021_004_01,chara_1
 
 labeljump,b
 

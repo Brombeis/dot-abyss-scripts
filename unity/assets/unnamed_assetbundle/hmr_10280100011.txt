@@ -37,9 +37,9 @@ asynccharaemo,chara_1,Spirits,STOP
 
 asynccharareaction,chara_1,Hop,0.5,STOP
 window,on,0.15
-message,エミリー,Welcome~♪<br>Table       for       three，right       this       way!<br> ,,vc_10280100011_001_01
+message,エミリー,Welcome~♪<br>Table for three，right this way!<br> ,,vc_10280100011_001_01
 
-message,,Peeking       into       the       tavern，Emily       was       bustling       about       with       brisk<br>efficiency.<br> 
+message,,Peeking into the tavern，Emily was bustling about with brisk<br>efficiency.<br> 
 
 charahide,chara_1,0
 
@@ -55,16 +55,16 @@ asynccharaemo,chara_2,Speak,STOP
 
 charapose,chara_2,2
 
-message,ルディア,Oh       my，Commander-kun.<br>Did       you       come       to       check       on       Emily-san?<br> ,,vc_10280100011_002_01
+message,ルディア,Oh my，Commander-kun.<br>Did you come to check on Emily-san?<br> ,,vc_10280100011_002_01
 
-message,<user>,Something       like       that.<br>How's       Emily       doing?<br> 
+message,<user>,Something like that.<br>How's Emily doing?<br> 
 
 charaface,chara_2,FaceFun
 
 asynccharareaction,chara_2,Nod,0.5,STOP
-message,ルディア,She's       fast，cheerful，and       charming，so       the       customers<br>love       her.       Emily-san       is       really       quite       talented~<br> ,,vc_10280100011_003_01
+message,ルディア,She's fast，cheerful，and charming，so the customers<br>love her. Emily-san is really quite talented~<br> ,,vc_10280100011_003_01
 
-message,<user>,Emily       would       be       happy       to       hear       you       said       that.<br> 
+message,<user>,Emily would be happy to hear you said that.<br> 
 
 asyncseplay,setag1_3,se4800004,0,1,CONT
 
@@ -76,9 +76,9 @@ asynccharareaction,chara_2,Nod,1,STOP
 charapose,chara_2,1
 
 charaface,chara_2,FaceHappy
-message,ルディア,Ufufu，then       hurry       and       go       tell       her♪<br> ,,vc_10280100011_004_01
+message,ルディア,Ufufu，then hurry and go tell her♪<br> ,,vc_10280100011_004_01
 
-message,,Urged       on       by       Ludia，I       headed       over       to       the       busy       Emily.<br> 
+message,,Urged on by Ludia，I headed over to the busy Emily.<br> 
 
 window,off
 wait,0.15
@@ -105,7 +105,7 @@ charaface,chara_1,FaceFun
 
 asynccharareaction,chara_1,nod,1,STOP
 window,on,0.15
-message,エミリー,Oh!       Commander!<br> ,,vc_10280100011_005_01
+message,エミリー,Oh! Commander!<br> ,,vc_10280100011_005_01
 
 window,off
 wait,0.15
@@ -124,9 +124,9 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,,Spotting       me，Emily       happily       came       running       over.<br>That       friendly       nature       is       surely       part       of       why       the       customers       love       her.<br> 
+message,,Spotting me，Emily happily came running over.<br>That friendly nature is surely part of why the customers love her.<br> 
 
-message,<user>,Looks       like       you've       been       working       hard.<br>Ludia       was       singing       your       praises.<br> 
+message,<user>,Looks like you've been working hard.<br>Ludia was singing your praises.<br> 
 
 asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,ExclaQues,STOP
@@ -135,18 +135,18 @@ charaface,chara_1,FaceHappy
 
 
 asynccharareaction,chara_1,HOP,0.5,STOP
-message,エミリー,Really!?       Wow，that       makes       me       so       happy!<br> ,,vc_10280100011_006_01
+message,エミリー,Really!? Wow，that makes me so happy!<br> ,,vc_10280100011_006_01
 
-message,<user>,Is       anything       giving       you       trouble?<br>If       there's       anything       about       this       place       you       don't       get，just       ask.<br> 
+message,<user>,Is anything giving you trouble?<br>If there's anything about this place you don't get，just ask.<br> 
 
 asynccharaemo,chara_1,Question,STOP
 
 asynccharareaction,chara_1,shake,0.5,STOP
 
 charaface,chara_1,FaceSurprise
-message,エミリー,Huh?       Umm...       N-now       that       you       mention       it...<br> ,,vc_10280100011_007_01
+message,エミリー,Huh? Umm... N-now that you mention it...<br> ,,vc_10280100011_007_01
 
-message,<user>,What       is       it?       If       you       have       a       question，don't       hold       back.<br> 
+message,<user>,What is it? If you have a question，don't hold back.<br> 
 
 asyncseplay,setag1_6,se4800012,0,1,CONT
 
@@ -154,10 +154,10 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
 charaface,chara_1,FaceShy
-message,エミリー,...Wh-what       do       the       girls       who       go       upstairs       with<br>customers       sometimes       do       up       there?<br> ,,vc_10280100011_008_01
+message,エミリー,...Wh-what do the girls who go upstairs with<br>customers sometimes do up there?<br> ,,vc_10280100011_008_01
 
 charaface,chara_1,FaceUnique02
-message,,The       unexpected       question       threw       me       off       a       little.<br>I       figured       she       didn't       know，but       Emily's       face       was       oddly       red.<br> 
+message,,The unexpected question threw me off a little.<br>I figured she didn't know，but Emily's face was oddly red.<br> 
 
 charaface,chara_1,FaceShy
 
@@ -172,7 +172,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(Could       it       be       she       already       knows       and       is       asking       on       purpose?)<br> 
+message,<user>,(Could it be she already knows and is asking on purpose?)<br> 
 
 window,off
 wait,0.15
@@ -192,31 +192,31 @@ charaface,chara_1,FaceUnique02
 
 asynccharareaction,chara_1,shake,1,STOP
 window,on,0.15
-message,エミリー,I-if       everyone's       doing       it，maybe       I'd       like       to       work<br>upstairs       too...       I'd       be       happy       if       you       taught       me，Commander...?<br> ,,vc_10280100011_009_01
+message,エミリー,I-if everyone's doing it，maybe I'd like to work<br>upstairs too... I'd be happy if you taught me，Commander...?<br> ,,vc_10280100011_009_01
 
-message,,Emily       gazed       at       me       invitingly，her       face       flushed.<br>She       clearly       knew       what       the       second       floor       was       for       after       all.<br> 
+message,,Emily gazed at me invitingly，her face flushed.<br>She clearly knew what the second floor was for after all.<br> 
 
-message,<user>,Working       upstairs       requires       training       first...<br>Are       you       sure       you       want       me       to       train       you?<br> 
+message,<user>,Working upstairs requires training first...<br>Are you sure you want me to train you?<br> 
 
 asynccharaemo,chara_1,Speak,STOP
 
 charaface,chara_1,FaceUnique01
 
 asynccharareaction,chara_1,HOP,0.5,STOP
-message,エミリー,Oh，yes!       I       want       it       to       be       you，Commander!<br> ,,vc_10280100011_010_01
+message,エミリー,Oh，yes! I want it to be you，Commander!<br> ,,vc_10280100011_010_01
 
-message,,Emily       answered       instantly，looking       delighted.<br>She       really       had       been       hinting       all       along.<br> 
+message,,Emily answered instantly，looking delighted.<br>She really had been hinting all along.<br> 
 
-message,<user>,You're       sure       about       this?<br>You       already       know       what       goes       on       upstairs，don't       you?<br> 
+message,<user>,You're sure about this?<br>You already know what goes on upstairs，don't you?<br> 
 
 asyncseplay,setag1_8,se4800002,0,1,CONT
 
 asynccharaemo,chara_1,Heart,STOP
 
 charaface,chara_1,FaceHappy
-message,エミリー,Ehehehe~♪       I       don't       really       know，so       please       teach       me♪<br>I'm       in       your       care~♪<br> ,,vc_10280100011_011_01
+message,エミリー,Ehehehe~♪ I don't really know，so please teach me♪<br>I'm in your care~♪<br> ,,vc_10280100011_011_01
 
-message,,I       took       the       innocently       cheerful       Emily       upstairs.<br> 
+message,,I took the innocently cheerful Emily upstairs.<br> 
 
 labeljump,b
 

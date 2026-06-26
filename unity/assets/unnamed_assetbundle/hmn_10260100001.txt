@@ -21,9 +21,9 @@ wait,1
 bgmplay,bgmtag1_1,bgm0027,0.75,1
 
 window,on,0.15
-message,,Sylvia       —       a       girl       said       to       have       come       from       an       ice-bound       world.<br> 
+message,,Sylvia — a girl said to have come from an ice-bound world.<br> 
 
-message,,Worried       about       her       inability       to       get       along       with       anyone<br>and       her       constant       loneliness，he       came       to       check       on       her——<br> 
+message,,Worried about her inability to get along with anyone<br>and her constant loneliness，he came to check on her——<br> 
 
 window,off
 wait,0.15
@@ -34,11 +34,11 @@ asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,<user>,——Achoo!       Wh-what's       with       this       cold!?<br>It's       summer，yet       it       feels       like       the       dead       of       winter!<br> 
+message,<user>,——Achoo! Wh-what's with this cold!?<br>It's summer，yet it feels like the dead of winter!<br> 
 
-message,<user>,Where       is       all       this       frigid       air       coming       from...       Hm?<br>Over       there...       That's       Sylvia's       room.<br> 
+message,<user>,Where is all this frigid air coming from... Hm?<br>Over there... That's Sylvia's room.<br> 
 
-message,<user>,I       don't       know       what       she's       doing，but       at       this       rate       everyone       in       the<br>building       is       going       to       freeze       to       death.       I       need       to       stop       her       immediately...!<br> 
+message,<user>,I don't know what she's doing，but at this rate everyone in the<br>building is going to freeze to death. I need to stop her immediately...!<br> 
 
 
 window,off
@@ -59,7 +59,7 @@ asyncseplay,setag1_1,se4300007,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,<user>,Sylvia!       What       on       earth       are       you       doing!?<br> 
+message,<user>,Sylvia! What on earth are you doing!?<br> 
 
 
 window,off
@@ -91,9 +91,9 @@ bgmstop,bgmtag1_1,1.5,0
 
 
 window,on,0.15
-message,シルヴィア,My.       Barging       into       a       lady's       room       without       so       much       as       a       knock       —<br>do       the       men       of       this       world       know       nothing       of       etiquette?<br> ,102601000G,vc_10260100001_001_01,chara_1
+message,シルヴィア,My. Barging into a lady's room without so much as a knock —<br>do the men of this world know nothing of etiquette?<br> ,102601000G,vc_10260100001_001_01,chara_1
 
-message,<user>,If       you       want       courtesy，stop       being       a       nuisance       first.<br>The       dormitory       is       freezing       and       everyone       is       suffering       because       of       it.<br> 
+message,<user>,If you want courtesy，stop being a nuisance first.<br>The dormitory is freezing and everyone is suffering because of it.<br> 
 
 bgmplay,bgmtag1_2,bgm0035,0.75,1
 
@@ -106,7 +106,7 @@ asyncseplay,setag1_3,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,シルヴィア,I       am       not       cold       in       the       slightest.<br>Perhaps       everyone       else       is       simply       too       sensitive       to       the       cold?<br> ,102601000G,vc_10260100001_002_01,chara_1
+message,シルヴィア,I am not cold in the slightest.<br>Perhaps everyone else is simply too sensitive to the cold?<br> ,102601000G,vc_10260100001_002_01,chara_1
 
 window,off
 wait,0.15
@@ -125,9 +125,9 @@ wait,0.5
 
 
 window,on,0.15
-message,シルヴィア,As       you       can       see，I       am       simply       crafting       ice       sculptures.<br>The       ice       melts       if       the       room       is       too       warm.<br> ,102601000G,vc_10260100001_003_01,chara_1
+message,シルヴィア,As you can see，I am simply crafting ice sculptures.<br>The ice melts if the room is too warm.<br> ,102601000G,vc_10260100001_003_01,chara_1
 
-message,<user>,So       that's       the       cause...       I'm       not       saying       you       can't       do       creative       work，<br>but       couldn't       you       use       a       different       material?       We'll       all       freeze       to       death       at       this       rate...<br> 
+message,<user>,So that's the cause... I'm not saying you can't do creative work，<br>but couldn't you use a different material? We'll all freeze to death at this rate...<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -138,7 +138,7 @@ asyncseplay,setag1_5,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,シルヴィア,I       am       an       ice       wielder.       For       an       ice       wielder       to       work       with       anything       but<br>ice       would       be       nonsensical.<br> ,102601000G,vc_10260100001_004_01,chara_1
+message,シルヴィア,I am an ice wielder. For an ice wielder to work with anything but<br>ice would be nonsensical.<br> ,102601000G,vc_10260100001_004_01,chara_1
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -152,9 +152,9 @@ asynccharaface,chara_1,FaceNormal,STOP,5.9
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,STOP,5.9
 
 
-message,シルヴィア,Besides...       I       could       never       bring       myself<br>to       destroy       such       beautiful       ice       sculptures.<br> ,102601000G,vc_10260100001_005_01,chara_1
+message,シルヴィア,Besides... I could never bring myself<br>to destroy such beautiful ice sculptures.<br> ,102601000G,vc_10260100001_005_01,chara_1
 
-message,<user>,They       are       beautiful，I'll       give       you       that...<br>But       why       did       you       make       these?<br> 
+message,<user>,They are beautiful，I'll give you that...<br>But why did you make these?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -166,7 +166,7 @@ asyncseplay,setag1_7,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,シルヴィア,I       was       a       noblewoman，yes，but       also       an       artist.<br> ,102601000G,vc_10260100001_006_01,chara_1
+message,シルヴィア,I was a noblewoman，yes，but also an artist.<br> ,102601000G,vc_10260100001_006_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -177,11 +177,11 @@ asyncseplay,setag1_8,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,シルヴィア,Beautiful，are       they       not?       Surely       even       you，born       in       a       world<br>so       bereft       of       art，can       appreciate       this       beauty?<br> ,102601000G,vc_10260100001_007_01,chara_1
+message,シルヴィア,Beautiful，are they not? Surely even you，born in a world<br>so bereft of art，can appreciate this beauty?<br> ,102601000G,vc_10260100001_007_01,chara_1
 
-message,<user>,You       really       never       miss       a       chance       to       throw       in       a       jab.<br>...Even       I       can       see       how       beautiful       they       are.<br> 
+message,<user>,You really never miss a chance to throw in a jab.<br>...Even I can see how beautiful they are.<br> 
 
-message,<user>,Say，did       these       sculptures       have       models?<br> 
+message,<user>,Say，did these sculptures have models?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -193,9 +193,9 @@ asyncseplay,setag1_9,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,シルヴィア,Why       do       you       ask?<br> ,102601000G,vc_10260100001_008_01,chara_1
+message,シルヴィア,Why do you ask?<br> ,102601000G,vc_10260100001_008_01,chara_1
 
-message,<user>,That       sculpture       of       the       girl       looks       a       lot       like       you.<br>The       man       and       woman       on       either       side       —       are       they       people       you       know?<br> 
+message,<user>,That sculpture of the girl looks a lot like you.<br>The man and woman on either side — are they people you know?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -206,7 +206,7 @@ asyncseplay,setag1_10,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,シルヴィア,Yes.       These       are       my       fami——<br> ,102601000G,vc_10260100001_009_01,chara_1
+message,シルヴィア,Yes. These are my fami——<br> ,102601000G,vc_10260100001_009_01,chara_1
 
 window,off
 wait,0.15
@@ -235,11 +235,11 @@ wait,0.5
 
 
 window,on,0.15
-message,シルヴィア,N-no.       They're       nobody.<br>They       were       simply       easy       shapes       to       sculpt.<br> ,102601000G,vc_10260100001_010_01,chara_1
+message,シルヴィア,N-no. They're nobody.<br>They were simply easy shapes to sculpt.<br> ,102601000G,vc_10260100001_010_01,chara_1
 
-message,<user>,...I       see.<br> 
+message,<user>,...I see.<br> 
 
-message,<user>,Well，in       any       case，stop       making       ice       sculptures       in       your       room.<br>Do       it       outside       at       least.       The       cold       is       unbearable.<br> 
+message,<user>,Well，in any case，stop making ice sculptures in your room.<br>Do it outside at least. The cold is unbearable.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -251,7 +251,7 @@ asyncseplay,setag1_13,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,シルヴィア,Very       well.       I       suppose       I       shall       do       as       you       say.<br>I       was       in       need       of       a       change       of       scenery       regardless.<br> ,102601000G,vc_10260100001_011_01,chara_1
+message,シルヴィア,Very well. I suppose I shall do as you say.<br>I was in need of a change of scenery regardless.<br> ,102601000G,vc_10260100001_011_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -262,11 +262,11 @@ asyncseplay,setag1_14,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,シルヴィア,This       world       is       far       too       hot       as       it       is.       Cooling       it<br>with       my       ice       would       hardly       be       a       disservice.<br> ,102601000G,vc_10260100001_012_01,chara_1
+message,シルヴィア,This world is far too hot as it is. Cooling it<br>with my ice would hardly be a disservice.<br> ,102601000G,vc_10260100001_012_01,chara_1
 
-message,<user>,Are       you       trying       to       bring       on       an       ice       age!?<br> 
+message,<user>,Are you trying to bring on an ice age!?<br> 
 
-message,<user>,Good       grief，you're       still       the       same       spoiled       princess...<br>And       this       room       is       a       complete       mess.<br> 
+message,<user>,Good grief，you're still the same spoiled princess...<br>And this room is a complete mess.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -277,9 +277,9 @@ asyncseplay,setag1_15,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,シルヴィア,That       is       not       true       at       all.       This       is       perfectly       normal.<br> ,102601000G,vc_10260100001_013_01,chara_1
+message,シルヴィア,That is not true at all. This is perfectly normal.<br> ,102601000G,vc_10260100001_013_01,chara_1
 
-message,<user>,Normal?       In       what       world?<br>There       are       clothes       scattered       all       over       the       floor.<br> 
+message,<user>,Normal? In what world?<br>There are clothes scattered all over the floor.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -292,7 +292,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 message,シルヴィア,Ugh...<br> ,102601000G,vc_10260100001_014_01,chara_1
 
-message,<user>,At       least       wash       your       clothes       and       put       them       in       the       dresser.<br> 
+message,<user>,At least wash your clothes and put them in the dresser.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -303,9 +303,9 @@ asyncseplay,setag1_17,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,シルヴィア,I-I       can't.<br>I've...       never       done       it       before...<br> ,102601000G,vc_10260100001_015_01,chara_1
+message,シルヴィア,I-I can't.<br>I've... never done it before...<br> ,102601000G,vc_10260100001_015_01,chara_1
 
-message,<user>,*Sigh*...       So       on       top       of       being       a       nuisance，<br>you       also       lack       basic       life       skills.<br> 
+message,<user>,*Sigh*... So on top of being a nuisance，<br>you also lack basic life skills.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -316,7 +316,7 @@ asyncseplay,setag1_18,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,シルヴィア,I-it       can't       be       helped...!<br>The       maids       always       handled       such       things       in       my       world!<br> ,102601000G,vc_10260100001_016_01,chara_1
+message,シルヴィア,I-it can't be helped...!<br>The maids always handled such things in my world!<br> ,102601000G,vc_10260100001_016_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -327,7 +327,7 @@ asyncseplay,setag1_19,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,シルヴィア,I       never       once       imagined       I       would       have       to       do       household<br>chores       myself       until       I       came       to       this       world...<br> ,102601000G,vc_10260100001_017_01,chara_1
+message,シルヴィア,I never once imagined I would have to do household<br>chores myself until I came to this world...<br> ,102601000G,vc_10260100001_017_01,chara_1
 
 window,off
 wait,0.15
@@ -362,9 +362,9 @@ asynccharaface,chara_1,FaceNormal,STOP,6.8
 
 
 window,on,0.15
-message,シルヴィア,A-ahem!       A-anyway，you!       You've       come       at       just       the       right       time!<br>I       actually       have       a       favor       to       ask!<br> ,102601000G,vc_10260100001_018_01,chara_1
+message,シルヴィア,A-ahem! A-anyway，you! You've come at just the right time!<br>I actually have a favor to ask!<br> ,102601000G,vc_10260100001_018_01,chara_1
 
-message,<user>,If       it's       cleaning       your       room，I'll       pass.<br>I       have       no       intention       of       becoming       a       spoiled       princess's       butler.<br> 
+message,<user>,If it's cleaning your room，I'll pass.<br>I have no intention of becoming a spoiled princess's butler.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -375,9 +375,9 @@ asyncseplay,setag1_22,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,シルヴィア,Th-that's       not       it!       Forget       about       the       cleaning       for       now!<br> ,102601000G,vc_10260100001_019_01,chara_1
+message,シルヴィア,Th-that's not it! Forget about the cleaning for now!<br> ,102601000G,vc_10260100001_019_01,chara_1
 
-message,<user>,Then       what       is       it?<br> 
+message,<user>,Then what is it?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -393,9 +393,9 @@ wait,0.5
 bgmstop,bgmtag1_2,1.5,0
 
 
-message,シルヴィア,——I       wish       for       you       to       take       me       to       the       Abyss.<br> ,102601000G,vc_10260100001_020_01,chara_1
+message,シルヴィア,——I wish for you to take me to the Abyss.<br> ,102601000G,vc_10260100001_020_01,chara_1
 
-message,<user>,The       Abyss?       Why...?<br> 
+message,<user>,The Abyss? Why...?<br> 
 
 bgmplay,bgmtag1_3,bgm0030,0.75,1
 
@@ -408,7 +408,7 @@ asyncseplay,setag1_24,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シルヴィア,I       wish       to       return       to       my       world       as       soon       as       possible.<br>I       do       not       mean       to       say       this       place       is       bad，but       it       is       not       where       I       belong.<br> ,102601000G,vc_10260100001_021_01,chara_1
+message,シルヴィア,I wish to return to my world as soon as possible.<br>I do not mean to say this place is bad，but it is not where I belong.<br> ,102601000G,vc_10260100001_021_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -428,7 +428,7 @@ asyncseplay,setag1_26,se4800008,0,1,STOP,4.9
 asynccharaemo,chara_1,Sweat,STOP,4.9
 
 
-message,シルヴィア,And       so       I       looked       through       the       literature       of       this       world.<br>But       I       found       no       means       of       returning       to       my       own.<br> ,102601000G,vc_10260100001_022_01,chara_1
+message,シルヴィア,And so I looked through the literature of this world.<br>But I found no means of returning to my own.<br> ,102601000G,vc_10260100001_022_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -439,14 +439,14 @@ asyncseplay,setag1_27,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,シルヴィア,If       that       is       the       case，then       the       Abyss       is       the       only       place<br>where       a       way       home       might       yet       be       found——<br> ,102601000G,vc_10260100001_023_01,chara_1
+message,シルヴィア,If that is the case，then the Abyss is the only place<br>where a way home might yet be found——<br> ,102601000G,vc_10260100001_023_01,chara_1
 
-message,<user>,Just       so       you       know，we've       been       checking       for       that       sort       of       thing<br>during       our       Abyss       expeditions.       But       so       far       there's       been       no       leads.<br> 
+message,<user>,Just so you know，we've been checking for that sort of thing<br>during our Abyss expeditions. But so far there's been no leads.<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,シルヴィア,All       the       more       reason，then.<br>I       may       notice       clues       that       you       and       yours       have       overlooked.<br> ,102601000G,vc_10260100001_024_01,chara_1
+message,シルヴィア,All the more reason，then.<br>I may notice clues that you and yours have overlooked.<br> ,102601000G,vc_10260100001_024_01,chara_1
 
 window,off
 wait,0.15
@@ -463,7 +463,7 @@ wait,0.5
 
 
 window,on,0.15
-message,シルヴィア,From       your       perspective，I       am       nothing       more       than       a       nuisance<br>from       another       world       you       would       rather       be       rid       of，am       I       not?<br> ,102601000G,vc_10260100001_025_01,chara_1
+message,シルヴィア,From your perspective，I am nothing more than a nuisance<br>from another world you would rather be rid of，am I not?<br> ,102601000G,vc_10260100001_025_01,chara_1
 
 window,off
 wait,0.15
@@ -478,7 +478,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(...       I       know       people       get       difficult       when       they're       backed       into       a       corner，<br>but       I       didn't       expect       her       to       be       this       prickly.       She       must       really       miss       home...)<br> 
+message,<user>,(... I know people get difficult when they're backed into a corner，<br>but I didn't expect her to be this prickly. She must really miss home...)<br> 
 
 window,off
 wait,0.15
@@ -493,7 +493,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,Fine.       I'll       take       you.<br>But       what       if       we       don't       find       a       way       to       get       you       home?<br> 
+message,<user>,Fine. I'll take you.<br>But what if we don't find a way to get you home?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -507,7 +507,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,STOP,1.5
 
 
-message,シルヴィア,When       that       happens...       no.       I       shall       think       about       it       when       the       time       comes.<br> ,102601000G,vc_10260100001_026_01,chara_1
+message,シルヴィア,When that happens... no. I shall think about it when the time comes.<br> ,102601000G,vc_10260100001_026_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -518,7 +518,7 @@ asyncseplay,setag1_30,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,シルヴィア,For       now，I       wish       to       improve       my       chances，however       slightly.<br>I       have       no       intention       of       dwelling       on       needless       what-ifs.<br> ,102601000G,vc_10260100001_027_01,chara_1
+message,シルヴィア,For now，I wish to improve my chances，however slightly.<br>I have no intention of dwelling on needless what-ifs.<br> ,102601000G,vc_10260100001_027_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -529,7 +529,7 @@ asyncseplay,setag1_31,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,シルヴィア,Then       let       us       depart       at       once.       This       world       is       far       too       hot<br>compared       to       mine       —       stay       any       longer       and       I       shall       melt       away.<br> ,102601000G,vc_10260100001_028_01,chara_1
+message,シルヴィア,Then let us depart at once. This world is far too hot<br>compared to mine — stay any longer and I shall melt away.<br> ,102601000G,vc_10260100001_028_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -541,11 +541,11 @@ asyncseplay,setag1_32,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,シルヴィア,Besides...       there       are       people       waiting       for       me       back       there...<br> ,102601000G,vc_10260100001_029_01,chara_1
+message,シルヴィア,Besides... there are people waiting for me back there...<br> ,102601000G,vc_10260100001_029_01,chara_1
 
-message,<user>,Alright，alright.<br>I'll       take       you       right       away.<br> 
+message,<user>,Alright，alright.<br>I'll take you right away.<br> 
 
-message,<user>,But       you       must       never       go       off       alone.<br>That's       the       one       condition       for       me       taking       you       to       the       Abyss.<br> 
+message,<user>,But you must never go off alone.<br>That's the one condition for me taking you to the Abyss.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -556,9 +556,9 @@ asyncseplay,setag1_33,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,シルヴィア,Oh?       You       do       not       wish       to       let       the       nuisance       out       of       your       sight?<br> ,102601000G,vc_10260100001_030_01,chara_1
+message,シルヴィア,Oh? You do not wish to let the nuisance out of your sight?<br> ,102601000G,vc_10260100001_030_01,chara_1
 
-message,<user>,——No.       It's       to       keep       you       safe.<br> 
+message,<user>,——No. It's to keep you safe.<br> 
 
 window,off
 wait,0.15
@@ -585,7 +585,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,シルヴィア,...Hmph.       How       presumptuous.       Very       well，then.<br>I       shall       do       my       best       to       remain       within       your       sight.<br> ,102601000G,vc_10260100001_031_01,chara_1
+message,シルヴィア,...Hmph. How presumptuous. Very well，then.<br>I shall do my best to remain within your sight.<br> ,102601000G,vc_10260100001_031_01,chara_1
 
 window,off
 wait,0.15
@@ -629,7 +629,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,シルヴィア,(...Please       wait       for       me，Father，Mother.<br>This       time...       I       will       find       my       way       back       to       you.)<br> ,102601000G,vc_10260100001_032_01,chara_1
+message,シルヴィア,(...Please wait for me，Father，Mother.<br>This time... I will find my way back to you.)<br> ,102601000G,vc_10260100001_032_01,chara_1
 
 window,off
 bgmstop,bgmtag1_3,0.5

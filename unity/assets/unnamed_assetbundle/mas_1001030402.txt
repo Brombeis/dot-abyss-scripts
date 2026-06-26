@@ -65,7 +65,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,盗賊Ａ,Ugh!       Y-you're       strong...<br> ,2028301,,chara_1
+message,盗賊Ａ,Ugh! Y-you're strong...<br> ,2028301,,chara_1
 
 asyncjump,CHARA,chara_2,-30.6,0.5,1,off,0,CONT
 
@@ -74,7 +74,7 @@ asyncseplay,setag2_2,se4800001,0,1,CONT,0
 asynccharaemo,chara_2,Anger,CONT,0
 
 
-message,シエナ,I'll       ask       once       more.<br>Where       did       you       get       that       keychain?<br> ,300501000,mcv_1001030402_001_01,chara_2
+message,シエナ,I'll ask once more.<br>Where did you get that keychain?<br> ,300501000,mcv_1001030402_001_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -85,7 +85,7 @@ asyncseplay,setag2_3,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,盗賊Ｂ,Eeek!<br>Um，well，a       monster       was       carrying       it       in       its       mouth       over       there...<br> ,2028301,,chara_3
+message,盗賊Ｂ,Eeek!<br>Um，well，a monster was carrying it in its mouth over there...<br> ,2028301,,chara_3
 
 window,off
 wait,0.15
@@ -104,7 +104,7 @@ wait,0.5
 
 
 window,on,0.15
-message,シエナ,A       monster?<br>So       you       didn't       take       it       from       a       girl?<br> ,300501000,mcv_1001030402_002_01,chara_2
+message,シエナ,A monster?<br>So you didn't take it from a girl?<br> ,300501000,mcv_1001030402_002_01,chara_2
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -115,7 +115,7 @@ asyncseplay,setag2_5,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,盗賊Ａ,N-no!       The       monster       just       dropped       it<br>and       I       thought       it       was       unusual       so       I       picked       it       up...<br> ,2028301,,chara_1
+message,盗賊Ａ,N-no! The monster just dropped it<br>and I thought it was unusual so I picked it up...<br> ,2028301,,chara_1
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -126,7 +126,7 @@ asyncseplay,setag2_6,se4800015,0,1,CONT,0
 asynccharaemo,chara_2,Dull,CONT,0
 
 
-message,シエナ,...I       see.<br> ,300501000,mcv_1001030402_003_01,chara_2
+message,シエナ,...I see.<br> ,300501000,mcv_1001030402_003_01,chara_2
 
 asyncshake,CHARA,chara_3,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -135,9 +135,9 @@ asyncseplay,setag2_7,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,盗賊B,Y-yes!<br>It's       not       a       lie!<br> ,2028301,,chara_3
+message,盗賊B,Y-yes!<br>It's not a lie!<br> ,2028301,,chara_3
 
-message,<user>,I'll       let       you       go       this       time，now       get       out       of       here.<br> 
+message,<user>,I'll let you go this time，now get out of here.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -146,7 +146,7 @@ asyncseplay,setag2_8,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,盗賊Ａ,Y-yes       sir!<br> ,2028301,,chara_1
+message,盗賊Ａ,Y-yes sir!<br> ,2028301,,chara_1
 
 window,off
 wait,0.15
@@ -221,7 +221,7 @@ subimagefade,subimage_1,0,0.6235,0
 asynccrossfade,0.1,0,0,1,1,STOP
 
 window,on,0.15
-message,<user>,(Himari...?<br>Could       that       be       the       name       of       the       girl       she's       looking       for...?)<br> 
+message,<user>,(Himari...?<br>Could that be the name of the girl she's looking for...?)<br> 
 
 window,off
 wait,0.15
@@ -271,7 +271,7 @@ asynccharaemo,chara_4,Speak,CONT,0
 
 
 window,on,0.15
-message,マリナ,...A       Hypnosis       Stone~.<br>Used       correctly，it       sounds       like       a       shortcut       to       becoming       a       billionaire♪<br> ,100301000G,mcv_1001030402_005_01,chara_4
+message,マリナ,...A Hypnosis Stone~.<br>Used correctly，it sounds like a shortcut to becoming a billionaire♪<br> ,100301000G,mcv_1001030402_005_01,chara_4
 
 window,off
 wait,0.15
@@ -320,7 +320,7 @@ asynccharaemo,chara_4,Spirits,CONT,0
 
 
 window,on,0.15
-message,マリナ,Oops~       my       hand       slipped       and       the       Hypnosis       Stone       went       right       into       my<br>pocket~♡<br> ,100301000G,mcv_1001030402_006_01,chara_4
+message,マリナ,Oops~ my hand slipped and the Hypnosis Stone went right into my<br>pocket~♡<br> ,100301000G,mcv_1001030402_006_01,chara_4
 
 window,off
 bgmstop,bgmtag2_1,0.5

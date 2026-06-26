@@ -22,7 +22,7 @@ bgmplay,bgmtag1_1,bgm0025,0.75,1
 
 
 window,on,0.15
-message,,Wendy       came       into       the       room       saying       she       needed       to       talk，her       face       grave.<br>Given       the       late       hour，it       seemed       like       something       serious.<br> 
+message,,Wendy came into the room saying she needed to talk，her face grave.<br>Given the late hour，it seemed like something serious.<br> 
 
 asynccharashow,chara_1,0.3,STOP
 
@@ -31,16 +31,16 @@ asynccharareaction,chara_1,Nod,0.5,STOP,0.3
 asyncseplay,setag1_1,se4800015,0.3,1,CONT
 
 asynccharaemo,chara_1,Dull,STOP,0.3
-message,ウェンディ,Commander...       this       might       sound       strange，but...<br>I       think       I       might       be       broken.<br> ,,vc_10250100011_001_01
+message,ウェンディ,Commander... this might sound strange，but...<br>I think I might be broken.<br> ,,vc_10250100011_001_01
 
-message,,...What       did       she       mean       by       that?<br>I       asked       her       to       explain       in       detail.<br> 
+message,,...What did she mean by that?<br>I asked her to explain in detail.<br> 
 
 asyncseplay,setag1_2,se4800006,0,1,CONT
 
 asynccharaemo,chara_1,Trouble,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
-message,ウェンディ,My       body       isn't       working       right...<br>It's       like       I'm       in       thermal       runaway，I've       been       hot       all       the       time...<br> ,,vc_10250100011_002_01
+message,ウェンディ,My body isn't working right...<br>It's like I'm in thermal runaway，I've been hot all the time...<br> ,,vc_10250100011_002_01
 
 charaface,chara_1,FaceAnger
 
@@ -51,7 +51,7 @@ asynccharaemo,chara_1,Trouble,STOP
 asynccharareaction,chara_1,Nod,1,STOP
 
 asynccharaface,chara_1,FaceSad,STOP,5
-message,ウェンディ,I       think       this       is       a       sign       that       I'm       about       to       break       down...<br>Or       perhaps       I've       already       started       to.<br> ,,vc_10250100011_003_01
+message,ウェンディ,I think this is a sign that I'm about to break down...<br>Or perhaps I've already started to.<br> ,,vc_10250100011_003_01
 
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,STOP
@@ -64,7 +64,7 @@ asynccharaface,chara_1,FaceNormal,STOP,5
 
 asynccharaface,chara_1,EyeOpen,STOP,8
 asynccharaface,chara_1,FaceNormal,STOP,8
-message,ウェンディ,At       this       rate，I       won't       be       able       to       stay       by       your       side       anymore.<br>But       even       so，I       still       want       to       be       useful       to       you，Commander.<br> ,,vc_10250100011_004_01
+message,ウェンディ,At this rate，I won't be able to stay by your side anymore.<br>But even so，I still want to be useful to you，Commander.<br> ,,vc_10250100011_004_01
 
 window,off
 wait,0.15
@@ -82,13 +82,13 @@ asynccharareaction,chara_1,Nod,1,CONT
 
 asynccharaface,chara_1,FaceShy,CONT,3.5
 window,on,0.15
-message,ウェンディ,So...       please，put       me       to       use       as       equipment       at       the       brothel.<br> ,,vc_10250100011_005_01
+message,ウェンディ,So... please，put me to use as equipment at the brothel.<br> ,,vc_10250100011_005_01
 
 asyncskipwait
 
-message,,What       was       she       saying?       There       was       no       way       I       could       allow       that.       I       rejected<br>her       proposal       on       the       spot.<br> 
+message,,What was she saying? There was no way I could allow that. I rejected<br>her proposal on the spot.<br> 
 
-message,,We       didn't       even       know       if       she       was       really       broken       yet.<br>Even       if       she       was，there       had       to       be       a       solution.       I       told       her       as       much.<br> 
+message,,We didn't even know if she was really broken yet.<br>Even if she was，there had to be a solution. I told her as much.<br> 
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
@@ -103,7 +103,7 @@ asynccharaface,chara_1,FaceSurprise,STOP,2.5
 
 asynccharaface,chara_1,FaceFun,STOP,9
 
-message,ウェンディ,A       solution...       come       to       think       of       it，Father       did       teach       me<br>a       certain       method       to       try       if       I       ever       ended       up       in       this       state.<br> ,,vc_10250100011_006_01
+message,ウェンディ,A solution... come to think of it，Father did teach me<br>a certain method to try if I ever ended up in this state.<br> ,,vc_10250100011_006_01
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
@@ -114,9 +114,9 @@ asynccharareaction,chara_1,Nod,1,STOP,4
 asynccharaemo,chara_1,Shy,STOP,4
 
 asynccharaface,chara_1,FaceShy,STOP,4
-message,ウェンディ,May       I       try       it?<br>If       possible，I'd       like       your       help       with       it，Commander...<br> ,,vc_10250100011_007_01
+message,ウェンディ,May I try it?<br>If possible，I'd like your help with it，Commander...<br> ,,vc_10250100011_007_01
 
-message,,If       she       was       fine       with       me，I'd       gladly       help.       I       suggested       we       try       right<br>away.<br> 
+message,,If she was fine with me，I'd gladly help. I suggested we try right<br>away.<br> 
 
 window,off
 bgmstop,bgmtag1_1,1
@@ -135,9 +135,9 @@ wait,1
 fade,In,Black,1
 
 window,on,0.15
-message,,...Was       this       really       the       right       approach?<br>Feeling       uncertain，I       double-checked       with       Wendy.<br> 
+message,,...Was this really the right approach?<br>Feeling uncertain，I double-checked with Wendy.<br> 
 
-message,ウェンディ,...Yes.<br>If       my       memory       is       correct，this       is       definitely       the       right       method.<br> ,,vc_10250100011_008_01
+message,ウェンディ,...Yes.<br>If my memory is correct，this is definitely the right method.<br> ,,vc_10250100011_008_01
 
 labeljump,b
 

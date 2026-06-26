@@ -27,7 +27,7 @@ DOTMESSAGE_FONT_SIZE = 24
 
 # useProportional renders spaces at nearly zero width; repeat them to compensate.
 PROPORTIONAL_MODE = True
-PROPORTIONAL_SPACE = " " * 7
+PROPORTIONAL_SPACE = " " * 1
 
 # messageTextCenter and messageTextUnder are intentionally excluded due to not needing spaces duplicated due to
 # their proportional text implementation being correct

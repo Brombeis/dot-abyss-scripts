@@ -49,7 +49,7 @@ charafocusonall
 item,on,550100013
 
 window,on,0.15
-message,,As       soon       as       the       Onarimon       route       map       is       taken       out，<br>it       begins       moving       like       a       creature       and       changes       form.<br> 
+message,,As soon as the Onarimon route map is taken out，<br>it begins moving like a creature and changes form.<br> 
 
 window,off
 wait,0.15
@@ -94,7 +94,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ソフィア,The       map...       changed!?<br> ,106501000G,mcv_1001050801_001_01,chara_1
+message,ソフィア,The map... changed!?<br> ,106501000G,mcv_1001050801_001_01,chara_1
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -105,7 +105,7 @@ asyncseplay,setag1_2,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,ベリサ,Gross!       What       is       this       map~~~!<br> ,100201000G,mcv_1001050801_002_01,chara_2
+message,ベリサ,Gross! What is this map~~~!<br> ,100201000G,mcv_1001050801_002_01,chara_2
 
 window,off
 wait,0.15
@@ -155,7 +155,7 @@ asynccharaemo,chara_5,Shock,CONT,0
 
 
 window,on,0.15
-message,クルル,I-it       was       wriggling       around       like       bugs~~，right?<br> ,106701000G,mcv_1001050801_003_01,chara_5
+message,クルル,I-it was wriggling around like bugs~~，right?<br> ,106701000G,mcv_1001050801_003_01,chara_5
 
 window,off
 wait,0.15
@@ -204,9 +204,9 @@ asynccharaemo,chara_4,Flash,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,This...       could       it       be...<br> ,106601000G,mcv_1001050801_004_01,chara_4
+message,ヒマリ,This... could it be...<br> ,106601000G,mcv_1001050801_004_01,chara_4
 
-message,<user>,Hm?       Himari，did       you       notice       something?<br> 
+message,<user>,Hm? Himari，did you notice something?<br> 
 
 asynccharaface,chara_4,FaceHappy,CONT,0
 
@@ -217,9 +217,9 @@ asyncseplay,setag1_5,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,ヒマリ,Yeah.       These       line       shapes...<br>I       think       they're       the       roads       around       this       school.<br> ,106601000G,mcv_1001050801_005_01,chara_4
+message,ヒマリ,Yeah. These line shapes...<br>I think they're the roads around this school.<br> ,106601000G,mcv_1001050801_005_01,chara_4
 
-message,<user>,The       surrounding       roads!?<br> 
+message,<user>,The surrounding roads!?<br> 
 
 window,off
 wait,0.15
@@ -280,7 +280,7 @@ asynccharaemo,chara_2,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ベリサ,So       it       changed       into       a       map       of       where       we       are       now~!?<br>Could       this       be       an       amazing       magic       item~?<br> ,100201000G,mcv_1001050801_006_01,chara_2
+message,ベリサ,So it changed into a map of where we are now~!?<br>Could this be an amazing magic item~?<br> ,100201000G,mcv_1001050801_006_01,chara_2
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -289,7 +289,7 @@ asyncseplay,setag1_7,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ソフィア,If       that's       true，it's       almost       too       convenient.<br> ,106501000G,mcv_1001050801_007_01,chara_1
+message,ソフィア,If that's true，it's almost too convenient.<br> ,106501000G,mcv_1001050801_007_01,chara_1
 
 window,off
 wait,0.15
@@ -352,7 +352,7 @@ asynccharaemo,chara_5,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,Amazing，amazing~~~!<br>Now       we       won't       get       lost       anymore~!<br> ,106701000G,mcv_1001050801_008_01,chara_5
+message,クルル,Amazing，amazing~~~!<br>Now we won't get lost anymore~!<br> ,106701000G,mcv_1001050801_008_01,chara_5
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -404,9 +404,9 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 
 window,on,0.15
-message,マリナ,Th-this       is...       c-c-could       it       be!<br>A       M-M-Ma-Mya-Mya-Mya!?<br> ,100301000G,mcv_1001050801_009_01,chara_3
+message,マリナ,Th-this is... c-c-could it be!<br>A M-M-Ma-Mya-Mya-Mya!?<br> ,100301000G,mcv_1001050801_009_01,chara_3
 
-message,<user>,Hm?<br>Marina，do       you       know       what       this       is?<br> 
+message,<user>,Hm?<br>Marina，do you know what this is?<br> 
 
 window,off
 wait,0.15
@@ -425,7 +425,7 @@ asynccharaemo,chara_3,Flower,CONT,0
 
 
 window,on,0.15
-message,マリナ,This       is       a       'Ley       Line       Compass'!<br>An       ancient       tool       once       used       to       find       magic       stone       veins!<br> ,100301000G,mcv_1001050801_010_01,chara_3
+message,マリナ,This is a 'Ley Line Compass'!<br>An ancient tool once used to find magic stone veins!<br> ,100301000G,mcv_1001050801_010_01,chara_3
 
 window,off
 wait,0.15
@@ -484,7 +484,7 @@ asynccharaemo,chara_5,Trouble,CONT,0
 
 
 window,on,0.15
-message,クルル,Mya...       Mya-mya...       That       name's       hard       to       say!<br> ,106701000G,mcv_1001050801_011_01,chara_5
+message,クルル,Mya... Mya-mya... That name's hard to say!<br> ,106701000G,mcv_1001050801_011_01,chara_5
 
 window,off
 wait,0.15
@@ -533,7 +533,7 @@ asynccharaemo,chara_3,Spirits,CONT,0
 
 
 window,on,0.15
-message,マリナ,'Ley       Line       Compass，'       okay?<br> ,100301000G,mcv_1001050801_012_01,chara_3
+message,マリナ,'Ley Line Compass，' okay?<br> ,100301000G,mcv_1001050801_012_01,chara_3
 
 window,off
 wait,0.15
@@ -598,7 +598,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ソフィア,Is       it       really       that       valuable?<br> ,106501000G,mcv_1001050801_013_01,chara_1
+message,ソフィア,Is it really that valuable?<br> ,106501000G,mcv_1001050801_013_01,chara_1
 
 asynccharaface,chara_3,FaceUnique02,CONT,0
 
@@ -609,7 +609,7 @@ asyncseplay,setag1_14,se4800019,0,1,CONT,0
 asynccharaemo,chara_3,Elated,CONT,0
 
 
-message,マリナ,Valuable       is       an       understatement~~~!<br>Most       merchants       would       faint       at       the       sight       of       it!<br> ,100301000G,mcv_1001050801_014_01,chara_3
+message,マリナ,Valuable is an understatement~~~!<br>Most merchants would faint at the sight of it!<br> ,100301000G,mcv_1001050801_014_01,chara_3
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -620,7 +620,7 @@ asyncseplay,setag1_15,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,ベリサ,Huh~.       It's       that       incredible       an       item~?<br>Do       you       know       how       to       use       it       too?<br> ,100201000G,mcv_1001050801_015_01,chara_2
+message,ベリサ,Huh~. It's that incredible an item~?<br>Do you know how to use it too?<br> ,100201000G,mcv_1001050801_015_01,chara_2
 
 window,off
 wait,0.15
@@ -673,9 +673,9 @@ asynccharaemo,chara_3,Twinkle,CONT,0
 
 
 window,on,0.15
-message,マリナ,It       auto-changes       to       a       map       of       wherever       you       bring       it~!<br>So       what       it's       showing       now       is       this       very       spot~!<br> ,100301000G,mcv_1001050801_016_01,chara_3
+message,マリナ,It auto-changes to a map of wherever you bring it~!<br>So what it's showing now is this very spot~!<br> ,100301000G,mcv_1001050801_016_01,chara_3
 
-message,<user>,I       see.       Underground，it       showed       subway       routes.<br>Now       it's       changed       to       map       our       surroundings.<br> 
+message,<user>,I see. Underground，it showed subway routes.<br>Now it's changed to map our surroundings.<br> 
 
 window,off
 wait,0.15
@@ -690,9 +690,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(But       why       was       an       ancient       magic       tool       in       a       subway...?)<br> 
+message,<user>,(But why was an ancient magic tool in a subway...?)<br> 
 
-message,<user>,(The       original       owner       hid       the       Compass       somewhere，<br>and       spatial       distortion       brought       it       here...?)<br> 
+message,<user>,(The original owner hid the Compass somewhere，<br>and spatial distortion brought it here...?)<br> 
 
 window,off
 wait,0.15
@@ -772,7 +772,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ソフィア,Hm?       Part       of       the       map       is       glowing       again.<br>Does       that       mean       there's       a       magic       stone       here       too?<br> ,106501000G,mcv_1001050801_017_01,chara_1
+message,ソフィア,Hm? Part of the map is glowing again.<br>Does that mean there's a magic stone here too?<br> ,106501000G,mcv_1001050801_017_01,chara_1
 
 asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
 
@@ -781,7 +781,7 @@ asyncseplay,setag1_18,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,ベリサ,The       school's       location       was       glowing       earlier       too.<br> ,100201000G,mcv_1001050801_018_01,chara_2
+message,ベリサ,The school's location was glowing earlier too.<br> ,100201000G,mcv_1001050801_018_01,chara_2
 
 window,off
 wait,0.15
@@ -800,9 +800,9 @@ wait,0.5
 
 
 window,on,0.15
-message,マリナ,That       must       be       it~!<br>The       Compass       points       to       stones       with       strong       magic       power!<br> ,100301000G,mcv_1001050801_019_01,chara_3
+message,マリナ,That must be it~!<br>The Compass points to stones with strong magic power!<br> ,100301000G,mcv_1001050801_019_01,chara_3
 
-message,<user>,I       see.       If       we       follow       the       residents'       lingering       thoughts，<br>we       might       find       where       the       survivors       are.<br> 
+message,<user>,I see. If we follow the residents' lingering thoughts，<br>we might find where the survivors are.<br> 
 
 window,off
 wait,0.15
@@ -864,7 +864,7 @@ asynccharaemo,chara_5,Speak,CONT,0
 
 
 window,on,0.15
-message,クルル,We're       going       to       the       shiny       glowing       spot!<br> ,106701000G,mcv_1001050801_020_01,chara_5
+message,クルル,We're going to the shiny glowing spot!<br> ,106701000G,mcv_1001050801_020_01,chara_5
 
 window,off
 wait,0.15
@@ -907,7 +907,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,Himari，what's       at       the       glowing       spot       on       this       map?<br> 
+message,<user>,Himari，what's at the glowing spot on this map?<br> 
 
 asynccharaface,chara_4,FaceUnique02,CONT,0
 
@@ -920,7 +920,7 @@ asynccharaemo,chara_4,Silence,CONT,0
 wait,0.5
 
 
-message,ヒマリ,This       is...       'Daimon       Station'...<br>A       major       terminal       where       many       subway       lines       converge...<br> ,106601000G,mcv_1001050801_021_01,chara_4
+message,ヒマリ,This is... 'Daimon Station'...<br>A major terminal where many subway lines converge...<br> ,106601000G,mcv_1001050801_021_01,chara_4
 
 asynccharaface,chara_4,EyeOpen,CONT,0
 asynccharaface,chara_4,FaceNormal,CONT,0
@@ -932,9 +932,9 @@ asyncseplay,setag1_22,se4800008,0,1,CONT,0
 asynccharaemo,chara_4,Sweat,CONT,0
 
 
-message,ヒマリ,The       biggest       station       in       this       area.<br>Its       name       was       unchanged       on       the       subway       map       too...<br> ,106601000G,mcv_1001050801_022_01,chara_4
+message,ヒマリ,The biggest station in this area.<br>Its name was unchanged on the subway map too...<br> ,106601000G,mcv_1001050801_022_01,chara_4
 
-message,<user>,That       one       too，huh.<br> 
+message,<user>,That one too，huh.<br> 
 
 window,off
 wait,0.15
@@ -999,7 +999,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ソフィア,That's       odd，isn't       it?<br>Why       leave       only       some       names       unchanged?<br> ,106501000G,mcv_1001050801_023_01,chara_1
+message,ソフィア,That's odd，isn't it?<br>Why leave only some names unchanged?<br> ,106501000G,mcv_1001050801_023_01,chara_1
 
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
@@ -1008,7 +1008,7 @@ asyncseplay,setag1_24,se4800009,0,1,CONT,0
 asynccharaemo,chara_2,Question,CONT,0
 
 
-message,ベリサ,Maybe       they       just       forgot       to       change       those       ones~?<br> ,100201000G,mcv_1001050801_024_01,chara_2
+message,ベリサ,Maybe they just forgot to change those ones~?<br> ,100201000G,mcv_1001050801_024_01,chara_2
 
 window,off
 wait,0.15
@@ -1055,7 +1055,7 @@ asynctransitionCrossFade,Tra01,0.5,STOP
 waitorclick,1.5
 
 window,on,0.15
-message,<user>,Himari，which       stations       kept       their       original       names?<br> 
+message,<user>,Himari，which stations kept their original names?<br> 
 
 asynccharaface,chara_4,FaceUnique02,CONT,0
 
@@ -1066,7 +1066,7 @@ asyncseplay,setag1_25,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,ヒマリ,Yeah.       Onarimon，Shiba       Park，Daimon...<br>Only       those       three       stations.<br> ,106601000G,mcv_1001050801_025_01,chara_4
+message,ヒマリ,Yeah. Onarimon，Shiba Park，Daimon...<br>Only those three stations.<br> ,106601000G,mcv_1001050801_025_01,chara_4
 
 window,off
 wait,0.15
@@ -1131,9 +1131,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,All       places       where       Soul       Memory       Stones       were?<br> ,106501000G,mcv_1001050801_026_01,chara_1
+message,ソフィア,All places where Soul Memory Stones were?<br> ,106501000G,mcv_1001050801_026_01,chara_1
 
-message,<user>,That       too，but       I've       noticed       something       else.<br> 
+message,<user>,That too，but I've noticed something else.<br> 
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -1144,9 +1144,9 @@ asyncseplay,setag1_27,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,ベリサ,Ooh!       Here       it       comes!<br>Onii-san's       slightly       creepy       deduction~!<br> ,100201000G,mcv_1001050801_027_01,chara_2
+message,ベリサ,Ooh! Here it comes!<br>Onii-san's slightly creepy deduction~!<br> ,100201000G,mcv_1001050801_027_01,chara_2
 
-message,<user>,Remember       the       first       station       at       Onarimon?<br> 
+message,<user>,Remember the first station at Onarimon?<br> 
 
 asynccharaface,chara_3,FaceSurprise,CONT,0
 
@@ -1157,9 +1157,9 @@ asyncseplay,setag1_28,se4800009,0,1,CONT,0
 asynccharaemo,chara_3,Question,CONT,0
 
 
-message,マリナ,When       we       fled       underground       from       the       security       robots~?<br> ,100301000G,mcv_1001050801_028_01,chara_3
+message,マリナ,When we fled underground from the security robots~?<br> ,100301000G,mcv_1001050801_028_01,chara_3
 
-message,<user>,Right.       When       we       took       shelter       there，<br>the       robots       didn't       follow       us       to       the       platform.<br> 
+message,<user>,Right. When we took shelter there，<br>the robots didn't follow us to the platform.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1170,9 +1170,9 @@ asyncseplay,setag1_29,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ソフィア,Wasn't       that       because       we       shut       the       iron       door?<br>We       blocked       them       with       the       flood       shutters.<br> ,106501000G,mcv_1001050801_029_01,chara_1
+message,ソフィア,Wasn't that because we shut the iron door?<br>We blocked them with the flood shutters.<br> ,106501000G,mcv_1001050801_029_01,chara_1
 
-message,<user>,We       did       take       measures       to       block       their       entry.<br>But       they       didn't       even       try       to       attack       the       barrier.<br> 
+message,<user>,We did take measures to block their entry.<br>But they didn't even try to attack the barrier.<br> 
 
 window,off
 wait,0.15
@@ -1189,9 +1189,9 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,ベリサ,True，they       did       go       quiet       almost       instantly~.<br> ,100201000G,mcv_1001050801_030_01,chara_2
+message,ベリサ,True，they did go quiet almost instantly~.<br> ,100201000G,mcv_1001050801_030_01,chara_2
 
-message,<user>,This       gym       is       the       same.       Signs       of       people       living       here，<br>but       no       trace       of       robot       attacks       or       even       intrusion.<br> 
+message,<user>,This gym is the same. Signs of people living here，<br>but no trace of robot attacks or even intrusion.<br> 
 
 window,off
 wait,0.15
@@ -1253,9 +1253,9 @@ asynccharaemo,chara_5,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,Yeah，yeah!<br>The       robots       haven't       come       here       at       all~.<br> ,106701000G,mcv_1001050801_031_01,chara_5
+message,クルル,Yeah，yeah!<br>The robots haven't come here at all~.<br> ,106701000G,mcv_1001050801_031_01,chara_5
 
-message,<user>,My       theory:       these       three       areas       were       safe       zones<br>for       the       humans.       Sanctuaries，in       a       sense.<br> 
+message,<user>,My theory: these three areas were safe zones<br>for the humans. Sanctuaries，in a sense.<br> 
 
 window,off
 wait,0.15
@@ -1322,9 +1322,9 @@ asynccharaemo,chara_3,Question,CONT,0
 
 
 window,on,0.15
-message,マリナ,Sanctuaries...?<br>Was       there       something       they       had       to       protect       here~?<br> ,100301000G,mcv_1001050801_032_01,chara_3
+message,マリナ,Sanctuaries...?<br>Was there something they had to protect here~?<br> ,100301000G,mcv_1001050801_032_01,chara_3
 
-message,<user>,Hard       to       say.       Either       way，the       magic       stones       likely<br>kept       the       security       robots       at       bay.<br> 
+message,<user>,Hard to say. Either way，the magic stones likely<br>kept the security robots at bay.<br> 
 
 window,off
 wait,0.15
@@ -1377,9 +1377,9 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,The       people       here       and       those       robots...<br>What       happened       between       them...?<br> ,106601000G,mcv_1001050801_033_01,chara_4
+message,ヒマリ,The people here and those robots...<br>What happened between them...?<br> ,106601000G,mcv_1001050801_033_01,chara_4
 
-message,<user>,Who       knows.<br>We       may       find       out       at       the       last       sanctuary       on       this       map.<br> 
+message,<user>,Who knows.<br>We may find out at the last sanctuary on this map.<br> 
 
 asynccharaface,chara_4,FaceSurprise,CONT,0
 
@@ -1390,7 +1390,7 @@ asyncseplay,setag1_34,se4800017,0,1,CONT,0
 asynccharaemo,chara_4,Shock,CONT,0
 
 
-message,ヒマリ,If       we       go       to       Daimon       Station...?<br> ,106601000G,mcv_1001050801_034_01,chara_4
+message,ヒマリ,If we go to Daimon Station...?<br> ,106601000G,mcv_1001050801_034_01,chara_4
 
 window,off
 wait,0.15
@@ -1457,7 +1457,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ソフィア,If       it's       a       sanctuary       robots       can't       approach，<br>there       may       still       be       survivors       there.<br> ,106501000G,mcv_1001050801_035_01,chara_1
+message,ソフィア,If it's a sanctuary robots can't approach，<br>there may still be survivors there.<br> ,106501000G,mcv_1001050801_035_01,chara_1
 
 window,off
 wait,0.15
@@ -1518,11 +1518,11 @@ asynccharaemo,chara_5,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,Yeah!       Let's       go!       Let's       go!<br> ,106701000G,mcv_1001050801_036_01,chara_5
+message,クルル,Yeah! Let's go! Let's go!<br> ,106701000G,mcv_1001050801_036_01,chara_5
 
-message,<user>,Right，let's       move       out!<br>To       the       place       this       map       points       to.<br> 
+message,<user>,Right，let's move out!<br>To the place this map points to.<br> 
 
-message,<user>,If       we       run       into       security       robots，break       through!<br>If       it's       truly       a       sanctuary，they       can't       follow!<br> 
+message,<user>,If we run into security robots，break through!<br>If it's truly a sanctuary，they can't follow!<br> 
 
 window,off
 bgmstop,bgmtag1_2,0.5
