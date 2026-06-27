@@ -17,7 +17,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,彼女のダンスに足りないもの
+title,What Her Dance Is Missing
 
 wait,1
 
@@ -61,7 +61,7 @@ wait,0.5
 
 
 window,on,0.15
-message,レヴィエーヌ,嘘、でしょ……！？,100901000X,vc_10090100011_001_01,chara_1
+message,レヴィエーヌ,You're kidding...!?<br> ,100901000X,vc_10090100011_001_01,chara_1
 
 window,off
 wait,0.15
@@ -106,7 +106,7 @@ asynccharaemo,chara_2,Spirits,CONT,0
 asyncwait
 
 window,on,0.15
-message,,――前線基地ダンスコンテスト。優勝者を決める決勝のステージで、<br>レヴィエーヌは呆然とした表情でひとりの踊り子を見つめていた。
+message,,——The Forward Base Dance Contest. On the finals stage，<br>Levienne stared at a rival dancer in stunned disbelief.<br> 
 
 window,off
 wait,0.15
@@ -148,7 +148,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,レヴィエーヌ,ハイレベルな振り付け、完璧なステップ――でも、それ以上に！ <br>うちとは違う、あのセクシーな腰使い……！,100901000X,vc_10090100011_002_01,chara_1
+message,レヴィエーヌ,High-level choreography，flawless steps——but beyond that!<br>Those sexy hip moves，nothing like mine...!<br> ,100901000X,vc_10090100011_002_01,chara_1
 
 window,off
 wait,0.15
@@ -225,7 +225,7 @@ asynccharaemo,chara_2,Heart,CONT,0
 asyncwait
 
 window,on,0.15
-message,観客たち,ヒュウッ！　いいぞー、嬢ちゃんー！ <br>色っぽいじゃねえか！,900000001
+message,観客たち,Whew! Looking good，girl!<br>Now that's sexy!<br> ,900000001
 
 window,off
 wait,0.15
@@ -239,7 +239,7 @@ wait,2
 sestop,se1_1001,0.1
 
 window,on,0.15
-message,,その圧倒的な踊りに、観客たちも大いに盛り上がっている。<br>そして、大会の結果は――
+message,,The crowd went wild over the overwhelming performance.<br>And the results of the contest were——<br> 
 
 window,off
 wait,0.15
@@ -268,7 +268,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,踊り子,みんなー、ありがとー！,401401000,vc_10090100011_003_01,chara_2
+message,踊り子,Thanks，everyone~!<br> ,401401000,vc_10090100011_003_01,chara_2
 
 window,off
 wait,0.15
@@ -308,7 +308,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,レヴィエーヌ,うちの、負け……？　くぅぅ！　わざわざセクシーな衣装も新調したのに……<br>うぅぅぅぅっ！　ぐ、ぐやしい～っ！,100901000X,vc_10090100011_004_01,chara_1
+message,レヴィエーヌ,I... lost...? Grrr! I even got a new sexy outfit for this...<br>Ughhh! S-so frustrating~!<br> ,100901000X,vc_10090100011_004_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -319,7 +319,7 @@ asyncseplay,setag1_8,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,レヴィエーヌ,でも、あの踊りはすごかったわ。<br>それだけは、うちも認めるしかないわね……,100901000X,vc_10090100011_005_01,chara_1
+message,レヴィエーヌ,But that dance was incredible.<br>I have to admit that much...<br> ,100901000X,vc_10090100011_005_01,chara_1
 
 window,off
 wait,0.15
@@ -372,7 +372,7 @@ asynccharamove,chara_1,EaseOut,X,100,0.3,CONT,0
 asyncwait
 
 window,on,0.15
-message,,レヴィエーヌは優勝した踊り子に歩み寄り、<br>悔しさを押し殺して声をかけた。
+message,,Levienne approached the winning dancer，<br>swallowing her frustration to speak.<br> 
 
 window,off
 wait,0.15
@@ -389,7 +389,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,レヴィエーヌ,優勝おめでとう、完敗だったわ……。<br>あの色っぽい腰使い、どうやって身に付けたの？,100901000X,vc_10090100011_006_01,chara_1
+message,レヴィエーヌ,Congrats on the win，you beat me fair and square...<br>How did you learn those sexy hip moves?<br> ,100901000X,vc_10090100011_006_01,chara_1
 
 asyncjump,CHARA,chara_2,40,0.5,2,off,0,CONT
 
@@ -398,7 +398,7 @@ asyncseplay,setag1_10,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,踊り子,あら、チャンピオン――失礼、前チャンピオンじゃない！　<br>私の腰使いが気になるの？　気になるでしょうねえ？,401401000,vc_10090100011_007_01,chara_2
+message,踊り子,Oh my，if it isn't the champion——sorry，former champion!<br>Curious about my hips? I bet you are~<br> ,401401000,vc_10090100011_007_01,chara_2
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -409,7 +409,7 @@ asyncseplay,setag1_11,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,踊り子,あなたのダンスったら、元気で素敵な踊りだったけど、<br>色気はぜーんぜんなかったものねぇ～？,401401000,vc_10090100011_008_01,chara_2
+message,踊り子,Your dance was lively and cute，<br>but it had absolutely zero sex appeal，didn't it~?<br> ,401401000,vc_10090100011_008_01,chara_2
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -420,7 +420,7 @@ asyncseplay,setag1_12,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,レヴィエーヌ,ぐっ、ぐぅぅぅ……こっちが下手に出たら、なんて偉そうな……！ <br>そ、それで！　あの腰使いはどうやって覚えたかって聞いてるのよ！　,100901000X,vc_10090100011_009_01,chara_1
+message,レヴィエーヌ,Grr，grrr... I try to be humble and she gets all cocky...!<br>A-anyway! I asked how you learned those hip moves!<br> ,100901000X,vc_10090100011_009_01,chara_1
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -432,7 +432,7 @@ asyncseplay,setag1_13,se4800002,0,1,CONT,0
 asynccharaemo,chara_2,Heart,CONT,0
 
 
-message,踊り子,簡単よぉ？<br>毎晩、彼とベッドでレッスンしたの♡,401401000,vc_10090100011_010_01,chara_2
+message,踊り子,Easy~<br>I practiced in bed with my man every night♡<br> ,401401000,vc_10090100011_010_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -443,7 +443,7 @@ asyncseplay,setag1_14,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,レヴィエーヌ,ベッドで、レッスン……？,100901000X,vc_10090100011_011_01,chara_1
+message,レヴィエーヌ,In bed... practice...?<br> ,100901000X,vc_10090100011_011_01,chara_1
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -454,7 +454,7 @@ asyncseplay,setag1_15,se4800003,0,1,CONT,0
 asynccharaemo,chara_2,Twinkle,CONT,0
 
 
-message,踊り子,彼の上にまたがって、騎乗位っていうダンスを踊るの。<br>そのまま何度もイカせてあげて――この腰の動きを身に付けたのよ♡,401401000,vc_10090100011_012_01,chara_2
+message,踊り子,I'd straddle him and do a dance called cowgirl.<br>Made him come over and over——and mastered these hips♡<br> ,401401000,vc_10090100011_012_01,chara_2
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -465,7 +465,7 @@ asyncseplay,setag1_16,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,レヴィエーヌ,ききき、騎乗位っ！？　えーと、女性が上に乗る、アレでしょ！？<br>そ、そんな方法で……！？,100901000X,vc_10090100011_013_01,chara_1
+message,レヴィエーヌ,C-c-c-cowgirl!? Um，where the girl gets on top，right!?<br>Th-that's how you did it...!?<br> ,100901000X,vc_10090100011_013_01,chara_1
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -477,7 +477,7 @@ asyncseplay,setag1_17,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,踊り子,あなたにはちょっと難しいかもね？ <br>ま、精々頑張るといいわ～♪,401401000,vc_10090100011_014_01,chara_2
+message,踊り子,Might be a little too much for you，though~<br>Well，good luck with that~♪<br> ,401401000,vc_10090100011_014_01,chara_2
 
 window,off
 wait,0.15
@@ -547,11 +547,11 @@ wait,0.5
 
 
 window,on,0.15
-message,レヴィエーヌ,あ、あの女……！ <br>覚えてなさいよ、次は絶対にうちが勝つんだから……！,100901000X,vc_10090100011_015_01,chara_1
+message,レヴィエーヌ,Th-that woman...!<br>Just you wait，I'll definitely beat you next time...!<br> ,100901000X,vc_10090100011_015_01,chara_1
 
-message,,強く拳を握り、ぐぬぬと歯ぎしりをするレヴィエーヌ。 <br>そんな彼女に<user>が声をかける。
+message,,Levienne clenched her fists，grinding her teeth.<br>The Commander approached and called out to her.<br> 
 
-message,<user>,レヴィエーヌ、残念だったな。
+message,<user>,Levienne，tough break.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -562,9 +562,9 @@ asyncseplay,setag1_20,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,レヴィエーヌ,えっ……あんた、見に来てたの？,100901000X,vc_10090100011_016_01,chara_1
+message,レヴィエーヌ,Wha... you came to watch?<br> ,100901000X,vc_10090100011_016_01,chara_1
 
-message,<user>,レヴィエーヌの応援に来たんだが……あっちもなかなか凄腕だったな。<br>まあ、お前ならすぐに超えられるさ。これからも応援してるぞ。
+message,<user>,Came to cheer you on，but... she was really good too.<br>You'll surpass her in no time. I'll keep rooting for you.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -575,9 +575,9 @@ asyncseplay,setag1_21,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,レヴィエーヌ,うちのこと、応援……してくれるのね……？,100901000X,vc_10090100011_017_01,chara_1
+message,レヴィエーヌ,You'll... keep rooting for me...?<br> ,100901000X,vc_10090100011_017_01,chara_1
 
-message,<user>,……？ <br>あ、ああ、もちろん。
+message,<user>,...?<br>Y-yeah，of course.<br> 
 
 window,off
 wait,0.15
@@ -615,9 +615,9 @@ asynccharaemo,chara_1,Shy,CONT,0
 
 
 window,on,0.15
-message,レヴィエーヌ,ならっ！　今からレッスンに付き合って！<br>うちのダンスに何が足りないか分かったの！,100901000X,vc_10090100011_018_01,chara_1
+message,レヴィエーヌ,Then! Help me practice right now!<br>I figured out what my dance is missing!<br> ,100901000X,vc_10090100011_018_01,chara_1
 
-message,<user>,え、えええっ！？ <br>えええええええええ！？
+message,<user>,Wh-whaaat!?<br>Whaaaaaaaat!?<br> 
 
 window,off
 wait,0.15
@@ -643,7 +643,7 @@ emodelete,chara_1,0,0
 transitionFade,Tra16,in,black,1
 
 window,on,0.15
-message,,レヴィエーヌは<user>の腕を強く掴み、<br>引きずるようにして２階の個室へと駆け出した――　
+message,,Levienne grabbed the Commander's arm tightly<br>and practically dragged him to a private room upstairs——<br> 
 
 labeljump,b
 

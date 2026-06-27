@@ -46,6 +46,7 @@ should sound:
 | ワタシ (watashi, katakana) | Detached/artificial | Aura |
 | 僕 (boku) | Soft masculine/boyish | — |
 | わし (washi) | Elderly/archaic | Kururu (childish ironic use) |
+| うち (uchi) | Casual feminine, tomboyish | Levienne |
 | 我 (ware) | Grandiose/archaic | Used in dramatic or battle contexts |
 
 ### Formatting Conventions
@@ -193,6 +194,7 @@ roster is listed below.
 | ライム | Lime | Female | |
 | ラモーナ | Ramona | Female | |
 | ラヴェリア | Laveria | Female | |
+| レヴィエーヌ | Levienne | Female | [Profile](#levienne-レヴィエーヌ) |
 | リタ | Rita | Female | |
 | ルカ | Luca | Female | |
 | ローザ | Rosa | Female | |
@@ -618,3 +620,50 @@ roster is listed below.
   - She's not naive in the way Veera is (sheltered) or Himari is (insecure)
     — she's shrewd in a practical, street-smart way. The MC notes she's
     "cute, dependable, and sneaky all at once."
+
+### Levienne (レヴィエーヌ)
+- **Pronoun:** うち (uchi) — casual feminine, tomboyish
+- **Addresses MC as:** あんた → **no title** (casual, familiar — she doesn't
+  defer to his rank at all)
+- **Role:** Dancer from Eldorana; aspires to be the continent's greatest.
+  Competes in dance contests and trains obsessively.
+- **Speech style:** Energetic, direct, and consistently informal — she never
+  uses です/ます. Favors assertive feminine endings (わ, わよ, のよ) mixed
+  with punchy casual forms (でしょ, じゃない). Elongates vowels for emphasis
+  (そーよ, とーぜんよ！). Heavy use of exclamation marks and ～. Has a
+  boastful habit of declaring herself "Eldorana's number one dancer"
+  (エルドラーナで１番の踊り子) — delivered with total conviction even when
+  she's privately doubting herself. Pushy and physical — drags people along
+  without asking. Short, punchy sentences that match her high energy.
+  Exasperated ったく (geez) when fondly annoyed. Signature laugh is ふふっ
+  (soft, confident).
+- **Translation notes:**
+  - Her default tone is brash, lively, and confident — like a competitive
+    athlete who lives for the spotlight. She talks fast and loud. Keep
+    sentences short and punchy with lots of exclamation marks.
+  - She addresses the MC as "you" with no title or honorific — she's
+    familiar from the start, not rude but not deferential: "Hey, what did
+    you think of my dancing?"
+  - Her boasts should sound genuinely self-assured, not ironic: "The winner
+    is obviously Eldorana's number one dancer — Levienne!" The humor is
+    that she believes it completely even when the evidence says otherwise.
+  - When embarrassed, her bravado cracks into stammering and deflection:
+    "Wh-where are you looking!?", "Y-you're ten years too early to be
+    asking me out!" These moments work because of the contrast with her
+    usual boldness.
+  - When frustrated or defeated, she doesn't whine — she grits her teeth
+    and gets fierce: "That woman...! Just you wait, I'll definitely win
+    next time...!"
+  - When genuinely vulnerable (admitting a slump, questioning herself),
+    she gets quieter — shorter sentences, fewer exclamation marks, no
+    bravado: "So it really is a slump after all..." Let these moments
+    breathe; don't overwrite them.
+  - Her character arc is about learning that joy and audience connection
+    matter more than technical perfection. Lines reflecting this growth
+    should sound warm and sincere: "I'll dance more joyfully than anyone.
+    And make everyone smile. That's how I'll keep dancing!"
+  - Keep ～ as tildes in her excited moments: "Everyone's amazing~~~!",
+    "So frustrating~!"
+  - She uses ♡ and ♪ occasionally — preserve them, but she's less
+    decorated than Marina or Kururu. Her energy comes from volume and
+    pace, not ornamentation.

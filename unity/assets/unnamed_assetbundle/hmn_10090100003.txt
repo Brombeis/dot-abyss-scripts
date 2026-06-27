@@ -20,7 +20,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,最高の夜にしましょうっ！
+title,Let's Make This the Best Night Ever!
 
 wait,1
 
@@ -30,14 +30,14 @@ bgmplay,bgmtag1_1,bgm0035,0.75,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>コンテスト当日</size>,,,on
+messageTextCenter,,<size=48>The Day of the Contest</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
 
 
 window,on,0.15
-message,,街には凄腕の踊り子が世界中から集結していた。
+message,,Talented dancers from across the world<br>had gathered in town.<br> 
 
 window,off
 wait,0.15
@@ -75,9 +75,9 @@ wait,0.5
 
 
 window,on,0.15
-message,レヴィエーヌ,ふう……ついに本番ね……,100901000G,vc_10090100003_001_01,chara_1
+message,レヴィエーヌ,Phew... it's finally showtime...<br> ,100901000G,vc_10090100003_001_01,chara_1
 
-message,<user>,体調はどうだ？<br>しっかり食べてきたか？
+message,<user>,How are you feeling?<br>Did you eat properly?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -88,7 +88,7 @@ asyncseplay,setag1_2,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,レヴィエーヌ,ええ、たっぷりと。<br>体重は増えちゃったけど、まあいいわ！,100901000G,vc_10090100003_002_01,chara_1
+message,レヴィエーヌ,Yep，plenty.<br>I gained some weight，but oh well!<br> ,100901000G,vc_10090100003_002_01,chara_1
 
 window,off
 wait,0.15
@@ -110,7 +110,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,踊り子Ａ,……勝つのはわたしよ。<br>絶対にトップに立ってみせる……！,401401000,vc_10090100003_003_01,on
+message,踊り子Ａ,...I'm going to win.<br>I'll claim the top spot，no matter what...!<br> ,401401000,vc_10090100003_003_01,on
 
 window,off
 wait,0.15
@@ -128,7 +128,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,踊り子Ｂ,アタシがナンバーワン。<br>誰よりも華麗に舞って、全員叩き潰すんだから！,401401000,vc_10090100003_004_01,on
+message,踊り子Ｂ,I'm number one.<br>I'll dance circles around all of them and crush the competition!<br> ,401401000,vc_10090100003_004_01,on
 
 window,off
 wait,0.15
@@ -156,7 +156,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,……なんだかピリピリした雰囲気だな。
+message,<user>,...There's a tense vibe in the air.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -167,7 +167,7 @@ asyncseplay,setag1_3,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,レヴィエーヌ,みんなの緊張感が伝わってるのね。<br>気持ちは分かるわ。うちだって緊張してるし。,100901000G,vc_10090100003_005_01,chara_1
+message,レヴィエーヌ,Everyone's nerves are showing.<br>I get it. I'm nervous too.<br> ,100901000G,vc_10090100003_005_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -178,7 +178,7 @@ asyncseplay,setag1_4,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,レヴィエーヌ,だけど、これじゃダメよ。<br>こんな空気じゃ観客だって楽しめないでしょ！,100901000G,vc_10090100003_006_01,chara_1
+message,レヴィエーヌ,But this won't do.<br>The audience can't have fun in an atmosphere like this!<br> ,100901000G,vc_10090100003_006_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -189,7 +189,7 @@ asyncseplay,setag1_5,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,レヴィエーヌ,うちのダンスで空気を変える。<br>みんなを楽しませてやるわ。,100901000G,vc_10090100003_007_01,chara_1
+message,レヴィエーヌ,I'll change the mood with my dance.<br>I'm gonna show everyone a good time.<br> ,100901000G,vc_10090100003_007_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -201,9 +201,9 @@ asyncseplay,setag1_6,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,レヴィエーヌ,ちゃんと見ててね！,100901000G,vc_10090100003_008_01,chara_1
+message,レヴィエーヌ,Watch me!<br> ,100901000G,vc_10090100003_008_01,chara_1
 
-message,<user>,ああ、楽しみにしてるぞ！
+message,<user>,Yeah，I'm looking forward to it!<br> 
 
 
 window,off
@@ -239,7 +239,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,ルディア,次の踊り子はレヴィエーヌさんです！<br>皆さん、拍手でお迎えください――,300301000,vc_10090100003_009_01,chara_2
+message,ルディア,Our next dancer is Levienne-san!<br>Everyone，please welcome her with a round of applause——<br> ,300301000,vc_10090100003_009_01,chara_2
 
 window,off
 wait,0.15
@@ -285,11 +285,11 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,観客Ａ,待ってました！<br>レヴィエーヌちゃーん！,900000001
+message,観客Ａ,There she is!<br>Levienne-chaan!<br> ,900000001
 
-message,観客Ｂ,おい、あんまり声出すなよ。<br>そういう場じゃないだろ。,900000001
+message,観客Ｂ,Hey，keep it down.<br>This isn't that kind of event.<br> ,900000001
 
-message,観客Ａ,おっと、そうか……,900000001
+message,観客Ａ,Oh，right...<br> ,900000001
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -299,7 +299,7 @@ asyncseplay,setag1_9,se4800022,0,1,CONT,0
 
 asynccharaemo,chara_1,Speak,CONT,0
 
-message,,コンテストの場とあって、緊張感を持って見守る観客たち。<br>その視線の先でレヴィエーヌは不敵に微笑んだ。
+message,,The audience watched with tense anticipation.<br>Under their gaze，Levienne smiled fearlessly.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -311,9 +311,9 @@ asyncseplay,setag1_10,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,レヴィエーヌ,さあ……はじめるわよ！<br>みんな楽しんでいきましょっ！,100901000G,vc_10090100003_010_01,chara_1
+message,レヴィエーヌ,Alright... here we go!<br>Let's all have a blast!<br> ,100901000G,vc_10090100003_010_01,chara_1
 
-message,,大きく声を上げて、レヴィエーヌがステップを踏む。<br>ヒールでステージを強く叩き、観客の胸にリズムを染み込ませていく。
+message,,With a bold shout，Levienne began to step.<br>Her heels struck the stage hard，driving rhythm into every heart.<br> 
 
 window,off
 wait,0.15
@@ -408,7 +408,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,レヴィエーヌ,はっ、ふっ……はいっ！<br>ふふっ、ほらっ！,100901000G,vc_10090100003_011_01,chara_1
+message,レヴィエーヌ,Ha，hah... ha!<br>Hehe，c'mon!<br> ,100901000G,vc_10090100003_011_01,chara_1
 
 window,off
 wait,0.15
@@ -490,7 +490,7 @@ asynccharamove,chara_1,Linear,Y,0,0.2,CONT,0
 wait,0.2
 
 window,on,0.15
-message,,ダンスの中にアピールするような動きを交え、<br>どこまでも楽しげな笑顔で、ステージ狭しと動き回る。
+message,,She wove playful gestures into her dance，<br>beaming as she swept across every inch of the stage.<br> 
 
 window,off
 wait,0.15
@@ -595,9 +595,9 @@ asynccharamove,chara_1,Linear,Y,0,0.2,CONT,0
 wait,0.2
 
 window,on,0.15
-message,,とてもコンテストの最中とは思えない軽やかな踊り。<br>素晴らしい技術をそうと気づかせない、本物のダンスがそこにあった。
+message,,A dance so light you'd never guess it was a contest.<br>Flawless technique hidden behind pure，genuine performance.<br> 
 
-message,観客Ａ,なんか……楽しそうだな。,900000001
+message,観客Ａ,She looks like... she's having fun.<br> ,900000001
 
 window,off
 wait,0.15
@@ -742,7 +742,7 @@ asyncshake,CHARA,chara_1,0,30,2,4,off,off,0,off,CONT,0
 asyncwait
 
 window,on,0.15
-message,観客Ｂ,見てるこっちまで踊りたくなるぜ。<br>静かに見てるのが落ち着かねえよ！,900000001
+message,観客Ｂ,Makes me wanna get up and dance too.<br>Can't sit still just watching!<br> ,900000001
 
 window,off
 wait,0.15
@@ -793,7 +793,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,レヴィエーヌ,（ふふ、盛り上がってきたみたいね。<br>だったら……練習したステップなんて、もうどうでもいいわ！）,100901000G,vc_10090100003_012_01,chara_1
+message,レヴィエーヌ,(Hehe，they're getting into it.<br>In that case... forget the rehearsed steps!)<br> ,100901000G,vc_10090100003_012_01,chara_1
 
 window,off
 wait,0.15
@@ -810,7 +810,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,,緊張していた観客たちが熱気を高めていく。<br>その様子に、レヴィエーヌはアドリブでダンスを切り替えた。
+message,,The tense audience was warming up.<br>Seeing that，Levienne switched to improvisation.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -821,7 +821,7 @@ asyncseplay,setag1_25,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,レヴィエーヌ,さあみんなっ！　盛り上がってる！？,100901000G,vc_10090100003_013_01,chara_1
+message,レヴィエーヌ,Hey everyone! Are you feeling it!?<br> ,100901000G,vc_10090100003_013_01,chara_1
 
 window,off
 wait,0.15
@@ -839,9 +839,9 @@ asynccharamove,chara_1,Linear,X,-300,0.4,CONT
 asynccharamove,chara_1,Linear,Y,0,0.4,CONT,0
 
 window,on,0.15
-message,観客Ａ,お、おおっ！？,900000001
+message,観客Ａ,O-ohhh!?<br> ,900000001
 
-message,,軽やかなステップで大きく跳び、<br>レヴィエーヌが観客のほうへと手を伸ばす。
+message,,With a light step she leaped high，<br>reaching her hand out toward the audience.<br> 
 
 window,off
 wait,0.15
@@ -880,11 +880,11 @@ wait,0.2
 
 
 window,on,0.15
-message,レヴィエーヌ,もっと声を出して！　体を動かして！<br>みんなの熱気を、うちに見せてっ！,100901000G,vc_10090100003_014_01,chara_1
+message,レヴィエーヌ,Louder! Move your bodies!<br>Show me your energy!<br> ,100901000G,vc_10090100003_014_01,chara_1
 
-message,観客Ｂ,うおおお！<br>最高だぜ、レヴィエーヌちゃん！,900000001
+message,観客Ｂ,Whooooa!<br>You're the best，Levienne-chan!<br> ,900000001
 
-message,観客Ａ,可愛い！　格好いい！　素敵ー！,900000001
+message,観客Ａ,Cute! Cool! Amazing!<br> ,900000001
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -895,7 +895,7 @@ asyncseplay,setag1_28,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,レヴィエーヌ,ふふっ、みんなの思い、伝わったわ！,100901000G,vc_10090100003_015_01,chara_1
+message,レヴィエーヌ,Hehe，I can feel it! Your passion is coming through!<br> ,100901000G,vc_10090100003_015_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -907,7 +907,7 @@ asyncseplay,setag1_29,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,レヴィエーヌ,うちだけじゃない、この後のみんなも！<br>すっごく楽しいダンスを魅せるわっ！,100901000G,vc_10090100003_016_01,chara_1
+message,レヴィエーヌ,And it's not just me! Everyone after me<br>is gonna put on an amazing show too!<br> ,100901000G,vc_10090100003_016_01,chara_1
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -915,7 +915,7 @@ asyncseplay,setag1_30,se4800022,0,1,CONT,0
 
 asynccharaemo,chara_1,Speak,CONT,0
 
-message,,レヴィエーヌはステージをぐるりと一周。<br>観客全員と視線を合わせ、大きく声を上げた。
+message,,Levienne swept around the entire stage，<br>meeting every pair of eyes before calling out.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -926,9 +926,9 @@ asyncseplay,setag1_31,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,レヴィエーヌ,だからみんなも一緒に盛り上がって、<br>最高の夜にしましょうっ！,100901000G,vc_10090100003_017_01,chara_1
+message,レヴィエーヌ,So let's all get fired up together<br>and make this the best night ever!<br> ,100901000G,vc_10090100003_017_01,chara_1
 
-message,観客たち,おおおおおおっ！！！,900000001
+message,観客たち,YEAAAHHH!!!<br> ,900000001
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -939,9 +939,9 @@ asyncseplay,setag1_32,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,レヴィエーヌ,ありがとうっ！<br>みんな最高よーっ！！！,100901000G,vc_10090100003_018_01,chara_1
+message,レヴィエーヌ,Thank you!<br>You're all the best!!!<br> ,100901000G,vc_10090100003_018_01,chara_1
 
-message,,ピリピリとした空気から一転、大盛りあがりになった会場で、<br>レヴィエーヌはどこまでも楽しそうにダンスを終えた。
+message,,The tense atmosphere transformed into wild excitement，<br>and Levienne finished her dance looking happier than ever.<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -992,7 +992,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,ルディア,それでは、コンテストの結果を発表します。<br>まずは入賞の……,300301000,vc_10090100003_019_01,chara_2
+message,ルディア,Now then，we'll announce the contest results.<br>First，the runners-up...<br> ,300301000,vc_10090100003_019_01,chara_2
 
 window,off
 wait,0.15
@@ -1033,7 +1033,7 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,レヴィエーヌ,ふう……やっちゃった。,100901000G,vc_10090100003_020_01,chara_1
+message,レヴィエーヌ,Phew... I really went and did it.<br> ,100901000G,vc_10090100003_020_01,chara_1
 
 window,off
 wait,0.15
@@ -1057,7 +1057,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,レヴィエーヌ,（ダンスはアドリブだらけ、観客に声までかけてやりたい放題。<br>入賞すらも無理でしょうね）,100901000G,vc_10090100003_021_01,chara_1
+message,レヴィエーヌ,(My dance was all improv，I even called out to the crowd...<br>I probably can't even place，let alone win.)<br> ,100901000G,vc_10090100003_021_01,chara_1
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1069,7 +1069,7 @@ asyncseplay,setag1_36,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,レヴィエーヌ,（でも……最高に楽しかった。みんなにも楽しんでもらえた。<br>少しも悔いなんてないわ）,100901000G,vc_10090100003_022_01,chara_1
+message,レヴィエーヌ,(But... I had the best time. Everyone enjoyed it too.<br>I don't regret a single thing.)<br> ,100901000G,vc_10090100003_022_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1080,7 +1080,7 @@ asyncseplay,setag1_37,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,レヴィエーヌ,（結果を出せなかったこと、<br>あいつには謝らなきゃね）,100901000G,vc_10090100003_023_01,chara_1
+message,レヴィエーヌ,(I should apologize to him<br>for not getting results...)<br> ,100901000G,vc_10090100003_023_01,chara_1
 
 bgmstop,bgmtag1_2,1,0
 
@@ -1124,7 +1124,7 @@ wait,1
 
 
 window,on,0.15
-message,ルディア,そして優勝は……レヴィエーヌさん！,300301000,vc_10090100003_024_01,chara_2
+message,ルディア,And the winner is... Levienne-san!<br> ,300301000,vc_10090100003_024_01,chara_2
 
 bgmplay,bgmtag1_3,bgm0038,0.75,1
 
@@ -1168,7 +1168,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,レヴィエーヌ,……え？,100901000G,vc_10090100003_025_01,chara_1
+message,レヴィエーヌ,...Huh?<br> ,100901000G,vc_10090100003_025_01,chara_1
 
 window,off
 wait,0.15
@@ -1213,7 +1213,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,ルディア,さあ、ステージにどうぞ！,300301000,vc_10090100003_026_01,chara_2
+message,ルディア,Come on，up on the stage!<br> ,300301000,vc_10090100003_026_01,chara_2
 
 window,off
 wait,0.15
@@ -1244,7 +1244,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,レヴィエーヌ,え、ええ！？　うちが優勝！？<br>何かの間違いでしょ！？,100901000G,vc_10090100003_027_01,chara_1
+message,レヴィエーヌ,Wh-whaat!? I won!?<br>There's gotta be a mistake!?<br> ,100901000G,vc_10090100003_027_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1255,7 +1255,7 @@ asyncseplay,setag1_41,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,レヴィエーヌ,もっとすごい踊りをした人、他にいたんじゃないの！？,100901000G,vc_10090100003_028_01,chara_1
+message,レヴィエーヌ,Weren't there other dancers who did better!?<br> ,100901000G,vc_10090100003_028_01,chara_1
 
 charapose,chara_2,2
 
@@ -1268,7 +1268,7 @@ asyncseplay,setag1_42,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,ルディア,間違いなんかじゃないですよ？<br>審査員、観客、全員一致で文句なしの優勝です。,300301000,vc_10090100003_029_01,chara_2
+message,ルディア,There's no mistake.<br>Judges，audience，unanimous — a flawless victory.<br> ,300301000,vc_10090100003_029_01,chara_2
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1279,7 +1279,7 @@ asyncseplay,setag1_43,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,レヴィエーヌ,そんな……だって、あんなに好き勝手にして……,100901000G,vc_10090100003_030_01,chara_1
+message,レヴィエーヌ,No way... but I went totally off-script...<br> ,100901000G,vc_10090100003_030_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1289,9 +1289,9 @@ asyncseplay,setag1_44,se4800017,0,1,CONT,0
 
 asynccharaemo,chara_1,Shock,CONT,0
 
-message,観客Ａ,なーに言ってんだ！<br>最高のダンスだったぜ！,900000001
+message,観客Ａ,What are you talking about!<br>That was the best dance of the night!<br> ,900000001
 
-message,観客Ｂ,おめでとうレヴィエーヌちゃん！<br>また楽しい踊りを見せてくれよ！,900000001
+message,観客Ｂ,Congrats，Levienne-chan!<br>Show us another fun dance sometime!<br> ,900000001
 
 window,off
 wait,0.15
@@ -1339,7 +1339,7 @@ wait,0.5
 
 
 window,on,0.15
-message,レヴィエーヌ,楽しい、踊りを……！,100901000G,vc_10090100003_031_01,chara_1
+message,レヴィエーヌ,A fun... dance...!<br> ,100901000G,vc_10090100003_031_01,chara_1
 
 window,off
 wait,0.15
@@ -1365,9 +1365,9 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,レヴィエーヌ,……ありがとう！<br>みんなも最高だったわよ！,100901000G,vc_10090100003_032_01,chara_1
+message,レヴィエーヌ,...Thank you!<br>You were all amazing too!<br> ,100901000G,vc_10090100003_032_01,chara_1
 
-message,観客たち,おおぉぉぉぉぉぉっ！！！,900000001
+message,観客たち,OOOOOHHH!!!<br> ,900000001
 
 bgmstop,bgmtag1_3,1.5,0
 
@@ -1397,7 +1397,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,レヴィエーヌ,うちが、優勝……本当に……？,100901000G,vc_10090100003_033_01,chara_1
+message,レヴィエーヌ,I... won... really...?<br> ,100901000G,vc_10090100003_033_01,chara_1
 
 window,off
 wait,0.15
@@ -1449,7 +1449,7 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,踊り子Ａ,おめでとう、レヴィエーヌ！<br>すごいダンスだったわね！,401401000,vc_10090100003_034_01,chara_3
+message,踊り子Ａ,Congratulations，Levienne!<br>That was an incredible dance!<br> ,401401000,vc_10090100003_034_01,chara_3
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1460,7 +1460,7 @@ asyncseplay,setag1_49,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,レヴィエーヌ,……いいの？<br>もっとすごいダンスをした人もいたでしょう？,100901000G,vc_10090100003_035_01,chara_1
+message,レヴィエーヌ,...Are you okay with this?<br>There were dancers with better technique，right?<br> ,100901000G,vc_10090100003_035_01,chara_1
 
 asynccharaface,chara_3,EyeOpen,CONT,0
 asynccharaface,chara_3,FaceNormal,CONT,0
@@ -1472,7 +1472,7 @@ asyncseplay,setag1_50,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,踊り子Ａ,わたしたちみんな、勝つことに集中して、観客のことを忘れていたわ。<br>見ている人に楽しんでもらおうなんて考える余裕がなかった。,401401000,vc_10090100003_036_01,chara_3
+message,踊り子Ａ,We were all so focused on winning，we forgot the audience.<br>None of us had the presence of mind to make them enjoy it.<br> ,401401000,vc_10090100003_036_01,chara_3
 
 asynccharaface,chara_3,FaceHappy,CONT,0
 
@@ -1483,7 +1483,7 @@ asyncseplay,setag1_51,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,踊り子Ａ,なのにあなたは、最高の踊りで、観客も盛り上げて……。<br>こんなの負けを認めるしかないじゃない！,401401000,vc_10090100003_037_01,chara_3
+message,踊り子Ａ,But you danced your best and brought the crowd alive...<br>How can we not accept our loss!<br> ,401401000,vc_10090100003_037_01,chara_3
 
 window,off
 wait,0.15
@@ -1510,7 +1510,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,レヴィエーヌ,……ありがとう。<br>あなたの踊りも最高だったわ！,100901000G,vc_10090100003_038_01,chara_1
+message,レヴィエーヌ,...Thank you.<br>Your dance was amazing too!<br> ,100901000G,vc_10090100003_038_01,chara_1
 
 window,off
 wait,0.15
@@ -1557,7 +1557,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,ルディア,そもそも、技術の面でも優勝はレヴィエーヌさんでした。,300301000,vc_10090100003_039_01,chara_2
+message,ルディア,In fact，even on technique alone，the winner was you.<br> ,300301000,vc_10090100003_039_01,chara_2
 
 charapose,chara_2,1
 
@@ -1570,13 +1570,13 @@ asyncseplay,setag1_55,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,ルディア,さらに緊張した観客の心をつかみ、楽しませて、<br>他の参加者が踊りやすいように空気を変えて……,300301000,vc_10090100003_040_01,chara_2
+message,ルディア,On top of that，you captivated a nervous crowd，<br>and changed the atmosphere so others could dance freely...<br> ,300301000,vc_10090100003_040_01,chara_2
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
 
 
-message,ルディア,あなた以外に優勝はありえませんよ、レヴィエーヌさん。,300301000,vc_10090100003_041_01,chara_2
+message,ルディア,No one else could have won，Levienne-san.<br> ,300301000,vc_10090100003_041_01,chara_2
 
 window,off
 wait,0.15
@@ -1618,7 +1618,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,レヴィエーヌ,うちは楽しく踊っただけよ。<br>でも、みんなも楽しく踊れたなら……それは嬉しいわね！,100901000G,vc_10090100003_042_01,chara_1
+message,レヴィエーヌ,I just danced and had fun，that's all. But if everyone else could<br>enjoy their dances too... that makes me happy!<br> ,100901000G,vc_10090100003_042_01,chara_1
 
 window,off
 wait,0.15
@@ -1672,7 +1672,7 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,踊り子Ａ,これが本物の踊り子……。<br>ふふ、かなわないわね。,401401000,vc_10090100003_043_01,chara_3
+message,踊り子Ａ,So this is what a real dancer looks like...<br>Hehe，I can't compete with that.<br> ,401401000,vc_10090100003_043_01,chara_3
 
 asynccharaface,chara_3,FaceHappy,CONT,0
 
@@ -1683,7 +1683,7 @@ asyncseplay,setag1_58,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,踊り子Ａ,綺麗で、楽しそうで、でもどこか色気もあって……<br>レヴィエーヌ、ちょっと雰囲気が変わったわね。,401401000,vc_10090100003_044_01,chara_3
+message,踊り子Ａ,Beautiful，joyful，and yet a touch of allure...<br>Levienne，something about you has changed.<br> ,401401000,vc_10090100003_044_01,chara_3
 
 asynccharaface,chara_2,FaceUnique03,CONT,0
 
@@ -1694,7 +1694,7 @@ asyncseplay,setag1_59,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,ルディア,あら、もしかして、誰かさんの影響じゃない？,300301000,vc_10090100003_045_01,chara_2
+message,ルディア,My my，could it be a certain someone's influence?<br> ,300301000,vc_10090100003_045_01,chara_2
 
 window,off
 wait,0.15
@@ -1740,7 +1740,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,レヴィエーヌ,なっ……ち、違うわよ！<br>ただちょっと、楽しもうって思っただけ！,100901000G,vc_10090100003_046_01,chara_1
+message,レヴィエーヌ,Wha... N-no，that's not it!<br>I just decided to have fun，that's all!<br> ,100901000G,vc_10090100003_046_01,chara_1
 
 window,off
 wait,0.15
@@ -1795,7 +1795,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,ルディア,ふーん？<br>でも、お友達がこっちに来てるわよ？,300301000,vc_10090100003_047_01,chara_2
+message,ルディア,Hmm~?<br>Well，your friend is headed this way.<br> ,300301000,vc_10090100003_047_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1806,9 +1806,9 @@ asyncseplay,setag1_62,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,レヴィエーヌ,え……,100901000G,vc_10090100003_048_01,chara_1
+message,レヴィエーヌ,Wh...<br> ,100901000G,vc_10090100003_048_01,chara_1
 
-message,,レヴィエーヌの視線の先に、<br>歩み寄る<user>の姿があった。
+message,,In the direction Levienne was looking，<br>the Commander was walking toward her.<br> 
 
 window,off
 wait,0.15
@@ -1845,7 +1845,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,レヴィエーヌ、よくやったな！<br>優勝おめでとう！
+message,<user>,Levienne，you killed it!<br>Congrats on the win!<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1856,7 +1856,7 @@ asyncseplay,setag1_63,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,レヴィエーヌ,ちょっと、あんまり褒めないでよ……,100901000G,vc_10090100003_049_01,chara_1
+message,レヴィエーヌ,Hey，don't praise me too much...<br> ,100901000G,vc_10090100003_049_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1868,11 +1868,11 @@ asyncseplay,setag1_64,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,レヴィエーヌ,でも……ありがとう。<br>あんたのおかげよ。,100901000G,vc_10090100003_050_01,chara_1
+message,レヴィエーヌ,But... thanks.<br>It's all because of you.<br> ,100901000G,vc_10090100003_050_01,chara_1
 
-message,<user>,俺は何もしてないって。<br>でも、１つだけいいこと言ったかもな。
+message,<user>,I didn't do anything.<br>Though I might've said one good thing.<br> 
 
-message,<user>,やっぱりちゃんと食べなきゃダメだっただろ？
+message,<user>,See? You needed to eat properly after all，right?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1883,7 +1883,7 @@ asyncseplay,setag1_65,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,レヴィエーヌ,ふふ、そうね。<br>これからは無理なダイエットはやめる。,100901000G,vc_10090100003_051_01,chara_1
+message,レヴィエーヌ,Hehe，yeah.<br>No more extreme dieting from now on.<br> ,100901000G,vc_10090100003_051_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1895,7 +1895,7 @@ asyncseplay,setag1_66,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,レヴィエーヌ,自分が辛い気持ちで踊っていたら、<br>観客には気づかれちゃうんだもの。,100901000G,vc_10090100003_052_01,chara_1
+message,レヴィエーヌ,If I'm suffering while I dance，<br>the audience is gonna notice.<br> ,100901000G,vc_10090100003_052_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1906,7 +1906,7 @@ asyncseplay,setag1_67,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,レヴィエーヌ,うちが誰よりも楽しく踊る。<br>そしてみんなを楽しませる。,100901000G,vc_10090100003_053_01,chara_1
+message,レヴィエーヌ,I'll dance with more joy than anyone.<br>And make everyone smile.<br> ,100901000G,vc_10090100003_053_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1917,9 +1917,9 @@ asyncseplay,setag1_68,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,レヴィエーヌ,これからもそうやって踊っていくわ！,100901000G,vc_10090100003_054_01,chara_1
+message,レヴィエーヌ,That's how I'll keep dancing from now on!<br> ,100901000G,vc_10090100003_054_01,chara_1
 
-message,<user>,その意気だ。<br>俺も盛り上がって腹が減ったし、食事にでも行こうぜ。
+message,<user>,That's the spirit.<br>I got so pumped up I'm starving. Let's go eat.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1930,9 +1930,9 @@ asyncseplay,setag1_69,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,レヴィエーヌ,……ふーん？<br>コンテスト優勝者のうちを誘おうなんて、いい度胸じゃない。,100901000G,vc_10090100003_055_01,chara_1
+message,レヴィエーヌ,...Oh~?<br>You've got some nerve，asking out the contest champion.<br> ,100901000G,vc_10090100003_055_01,chara_1
 
-message,<user>,で、答えは？
+message,<user>,So，what's your answer?<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1943,7 +1943,7 @@ asyncseplay,setag1_70,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,レヴィエーヌ,あんたは特訓に付き合ってくれたし、<br>特別に許してあげる！,100901000G,vc_10090100003_056_01,chara_1
+message,レヴィエーヌ,Well，you did help me train，<br>so I'll make a special exception!<br> ,100901000G,vc_10090100003_056_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1955,7 +1955,7 @@ asyncseplay,setag1_71,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,レヴィエーヌ,うちとあんたで、<br>２人だけの祝勝会しましょ。,100901000G,vc_10090100003_057_01,chara_1
+message,レヴィエーヌ,Just you and me，<br>our own private victory party.<br> ,100901000G,vc_10090100003_057_01,chara_1
 
 window,off
 wait,0.15
@@ -1978,7 +1978,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,<user>とレヴィエーヌは、<br>誰よりも楽しげに街へと消えていった。
+message,,The Commander and Levienne disappeared into town，<br>looking happier than anyone.<br> 
 
 window,off
 bgmstop,bgmtag1_4,0.5

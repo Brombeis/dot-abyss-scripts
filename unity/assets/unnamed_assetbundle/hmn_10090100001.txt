@@ -14,7 +14,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,エルドラーナで１番の踊り子！
+title,Eldorana's Number One Dancer!
 
 wait,1
 
@@ -26,20 +26,20 @@ asyncseplay,se1_1001,se4600013,0,1,CONT,0
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――前線基地の街</size>。,,,on
+messageTextCenter,,<size=48>——The Forward Base Town</size>.,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
 
 
 window,on,0.15
-message,,今日もたくさんの人が行き交い、賑やかな空気が満ちていた。
+message,,As usual，crowds of people came and went，<br>filling the air with a lively energy.<br> 
 
 sestop,se1_1001,1.5
 
-message,<user>,はー、疲れた。<br>ストレスもたまるし、気晴らしになるようなことでもあればいいんだが。
+message,<user>,Haah，I'm beat.<br>Stress keeps piling up. Wish something fun would come along.<br> 
 
-message,<user>,今度ダンスコンテストがあるって聞いたが、<br>開催はまだ少し先だったな。
+message,<user>,I heard there's a dance contest coming up，<br>but it's still a little ways off.<br> 
 
 window,off
 wait,0.15
@@ -77,7 +77,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,……ん？　なんだあれは。<br>人が集まってるみたいだな。
+message,<user>,...Hm? What's that over there?<br>Looks like a crowd's gathering.<br> 
 
 window,off
 wait,0.15
@@ -115,7 +115,7 @@ asyncseplay,setag1_1,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 window,on,0.15
-message,,街角にできた人だかりへと近づいてみると、<br>そこには１人の少女が鮮やかなダンスを踊っていた。
+message,,Approaching the crowd on the street corner，<br>a girl was performing a dazzling dance.<br> 
 
 window,off
 wait,0.15
@@ -194,7 +194,7 @@ wait,0.5
 
 
 window,on,0.15
-message,レヴィエーヌ,ふっ……はっ！,100901000G,vc_10090100001_001_01,chara_1
+message,レヴィエーヌ,Hah... ha!<br> ,100901000G,vc_10090100001_001_01,chara_1
 
 window,off
 wait,0.15
@@ -237,7 +237,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,真剣な様子でキレのあるダンスを魅せる少女。<br>彼女は踊り終えると、優雅にお辞儀をしてみせる。
+message,,The girl performed a sharp，focused dance.<br>When she finished，she gave an elegant bow.<br> 
 
 window,off
 wait,0.15
@@ -249,7 +249,7 @@ asyncseplay,se1_1005,se4600008,0,1,CONT,0
 wait,1
 
 window,on,0.15
-message,街の人Ａ,いいぞー！　レヴィエーヌちゃーん！,400801000
+message,街の人Ａ,Yeah! Go Levienne-chan!<br> ,400801000
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -260,9 +260,9 @@ asyncseplay,setag1_5,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,レヴィエーヌ,みんな、ありがとっ！<br>本番も楽しみにしててよね！,100901000G,vc_10090100001_002_01,chara_1
+message,レヴィエーヌ,Thanks，everyone!<br>Look forward to the real show，got it!<br> ,100901000G,vc_10090100001_002_01,chara_1
 
-message,街の人Ｂ,おう、応援してるぜ！　レヴィエーヌちゃん！<br>あんたなら優勝間違いなしだな！,400301000
+message,街の人Ｂ,Yeah，we're rooting for you，Levienne-chan!<br>You've got first place in the bag!<br> ,400301000
 
 sestop,se1_1005,1.5
 
@@ -275,7 +275,7 @@ asyncseplay,setag1_6,se4800004,0,1,CONT,0
 
 asynccharaemo,chara_1,Laugh,CONT,0
 
-message,<user>,踊ってたのはレヴィエーヌか。<br>しかし、どうしてこんな場所で……？
+message,<user>,That was Levienne dancing，huh.<br>But why out here of all places...?<br> 
 
 
 window,off
@@ -305,7 +305,7 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,レヴィエーヌ,……ふう、やっぱり違うわね。<br>このままじゃ、うちは……,100901000G,vc_10090100001_003_01,chara_1
+message,レヴィエーヌ,...Phew，it's still not right.<br>At this rate，I'm...<br> ,100901000G,vc_10090100001_003_01,chara_1
 
 window,off
 wait,0.15
@@ -338,7 +338,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,レヴィエーヌ、いい踊りだったぞ。
+message,<user>,Levienne，that was some great dancing.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -349,9 +349,9 @@ asyncseplay,setag1_8,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,レヴィエーヌ,ああ、あんたも見てたの。<br>お世辞は結構よ、この程度じゃ優勝は遠いわ。,100901000G,vc_10090100001_004_01,chara_1
+message,レヴィエーヌ,Oh，you were watching too.<br>Save the flattery. This level won't win me first place.<br> ,100901000G,vc_10090100001_004_01,chara_1
 
-message,<user>,優勝ってのは今度酒場でやるという、ダンスコンテストか？
+message,<user>,First place，as in the dance contest<br>they're holding at the tavern?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -362,9 +362,9 @@ asyncseplay,setag1_9,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,レヴィエーヌ,そーよ。<br>コンテストに向けて特訓中ってわけ。,100901000G,vc_10090100001_005_01,chara_1
+message,レヴィエーヌ,That's right.<br>I'm in the middle of special training for the contest.<br> ,100901000G,vc_10090100001_005_01,chara_1
 
-message,<user>,路上ダンスで武者修行ね。<br>しかしレヴィエーヌでも優勝できないほどレベルの高い戦いなんだな。
+message,<user>,Honing your skills with street performances，huh.<br>The competition must be fierce if even you can't win.<br> 
 
 window,off
 wait,0.15
@@ -383,7 +383,7 @@ wait,0.5
 
 
 window,on,0.15
-message,レヴィエーヌ,あのねー、ここは世界中から人が集まる、<br>今一番勢いのある場所なのよ。,100901000G,vc_10090100001_006_01,chara_1
+message,レヴィエーヌ,Listen，this place draws people from all over the world.<br>It's the hottest spot there is right now.<br> ,100901000G,vc_10090100001_006_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -394,7 +394,7 @@ asyncseplay,setag1_11,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,レヴィエーヌ,踊り子っていうのはそういう場所に引き寄せられるわ。<br>夢、希望、情熱、熱気。それが踊り子の求めるものだから。,100901000G,vc_10090100001_007_01,chara_1
+message,レヴィエーヌ,Dancers are drawn to places like that.<br>Dreams，hope，passion，energy. That's what we live for.<br> ,100901000G,vc_10090100001_007_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -405,9 +405,9 @@ asyncseplay,setag1_12,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,レヴィエーヌ,そんな場所で開催されるコンテストよ？<br>油断なんてできるわけないじゃない。,100901000G,vc_10090100001_008_01,chara_1
+message,レヴィエーヌ,A contest held in a place like this?<br>There's no way I can let my guard down.<br> ,100901000G,vc_10090100001_008_01,chara_1
 
-message,<user>,熱気のある場所に集まるのが踊り子の本能、か。<br>そりゃ開催されるのが楽しみだ。
+message,<user>,So dancers instinctively flock to where the energy is，huh.<br>Now I'm really looking forward to it.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -418,7 +418,7 @@ asyncseplay,setag1_13,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,レヴィエーヌ,ま、でも？　勝つのは当然エルドラーナで一番の踊り子、レヴィエーヌ！<br>うちで決まり……,100901000G,vc_10090100001_009_01,chara_1
+message,レヴィエーヌ,But hey，the winner's obviously gonna be<br>Eldorana's number one dancer，Levienne! It's a done deal...<br> ,100901000G,vc_10090100001_009_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -429,9 +429,9 @@ asyncseplay,setag1_14,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,レヴィエーヌ,って、言いたいんだけどね……。<br>このままじゃ勝てないかもしれないわ。,100901000G,vc_10090100001_010_01,chara_1
+message,レヴィエーヌ,...is what I'd like to say.<br>But at this rate，I might not win.<br> ,100901000G,vc_10090100001_010_01,chara_1
 
-message,<user>,……妙に弱気だな？<br>何か問題でもあるのか？
+message,<user>,...That's weirdly timid coming from you.<br>Is something wrong?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -442,16 +442,16 @@ asyncseplay,setag1_15,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,レヴィエーヌ,別に、ふつーのことよ。<br>うちの思う通りの踊りができてない……スランプってやつ。,100901000G,vc_10090100001_011_01,chara_1
+message,レヴィエーヌ,It's nothing special.<br>I can't dance the way I want to... a slump，basically.<br> ,100901000G,vc_10090100001_011_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,レヴィエーヌ,ずっと同じことをしててもダメ。<br>自分を変えなきゃ！　って路上ダンスなんかもしてみたんだけど……,100901000G,vc_10090100001_012_01,chara_1
+message,レヴィエーヌ,Doing the same thing forever won't cut it.<br>I gotta change things up! So I tried street dancing，but...<br> ,100901000G,vc_10090100001_012_01,chara_1
 
-message,<user>,手応えはなかった、と。<br>原因の分からないスランプか、厄介だな。
+message,<user>,And it didn't help，huh.<br>A slump with no clear cause... that's rough.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -462,9 +462,9 @@ asyncseplay,setag1_16,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,レヴィエーヌ,ねえ、あんたから見て、うちの踊りはどうだった？<br>何か思うことってないの？,100901000G,vc_10090100001_013_01,chara_1
+message,レヴィエーヌ,Hey，what did you think of my dancing?<br>Got any thoughts at all?<br> ,100901000G,vc_10090100001_013_01,chara_1
 
-message,<user>,上手だとは思ったぞ？<br>ずいぶん真剣に踊ってるなと感心したぐらいだ。
+message,<user>,I thought it was great，honestly.<br>I was impressed by how seriously you were going at it.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -475,9 +475,9 @@ asyncseplay,setag1_17,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,レヴィエーヌ,……なるほどね。<br>うん、やっぱりあんたがいいわ！,100901000G,vc_10090100001_014_01,chara_1
+message,レヴィエーヌ,...I see.<br>Yep，you're definitely the one I want!<br> ,100901000G,vc_10090100001_014_01,chara_1
 
-message,<user>,は？
+message,<user>,Huh?<br> 
 
 window,off
 wait,0.15
@@ -507,7 +507,7 @@ shake,BACK,,40,0,0.25,20,off,off,0
 shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,,レヴィエーヌは<user>の腕をつかみ、<br>そのままずんずんと引っ張っていく。
+message,,Levienne grabbed the Commander's arm<br>and dragged him along without a second thought.<br> 
 
 window,off
 wait,0.15
@@ -549,7 +549,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,お、おい、レヴィエーヌ！？<br>どういうことだ！？
+message,<user>,H-hey，Levienne!?<br>What's the big idea!?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -560,9 +560,9 @@ asyncseplay,setag1_18,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,レヴィエーヌ,絶対優勝するために、うちの特訓に付き合ってよ！<br>あんたなら信用できるわ！,100901000G,vc_10090100001_015_01,chara_1
+message,レヴィエーヌ,Help me train so I can win for sure!<br>I can trust you!<br> ,100901000G,vc_10090100001_015_01,chara_1
 
-message,<user>,いやいや、俺は踊れないぞ！？<br>もっと他に適任がいるだろう！
+message,<user>,Whoa whoa，I can't dance!<br>There's gotta be someone better suited for this!<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -573,9 +573,9 @@ asyncseplay,setag1_19,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,レヴィエーヌ,たとえ踊れたって、うちに教えることがあると思う？<br>ほしいのは見る目のある観客よ！,100901000G,vc_10090100001_016_01,chara_1
+message,レヴィエーヌ,Even if you could dance，think you could teach me anything?<br>What I need is an audience with a good eye!<br> ,100901000G,vc_10090100001_016_01,chara_1
 
-message,<user>,んなこと言っても、俺だって忙しいんだぞ。<br>なんでレヴィエーヌの手伝いをしなきゃいけないんだ。
+message,<user>,Even so，I'm busy too，you know.<br>Why do I have to help you train?<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -586,9 +586,9 @@ asyncseplay,setag1_20,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,レヴィエーヌ,え、なんでって……。<br>頑張ってるところとか、あんまり他の人には見せたくないし……,100901000G,vc_10090100001_017_01,chara_1
+message,レヴィエーヌ,Wh-why? Well...<br>I don't really want other people seeing me struggle...<br> ,100901000G,vc_10090100001_017_01,chara_1
 
-message,<user>,他の人はダメで、俺ならいいのかよ……
+message,<user>,So other people are no good，but I'm fine...?<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -599,9 +599,9 @@ asyncseplay,setag1_21,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,レヴィエーヌ,もう、友達に手伝いを頼むのに、そんな深い理由とかいる？<br>コンテストはもうすぐだから、ちょっとうちに付き合ってよ。,100901000G,vc_10090100001_018_01,chara_1
+message,レヴィエーヌ,Oh come on，do you need a deep reason to help a friend?<br>The contest is coming up soon，so just tag along，okay?<br> ,100901000G,vc_10090100001_018_01,chara_1
 
-message,<user>,……そう言われると、なあ。<br>仕事のあとなら別に構わないけどさ。
+message,<user>,...When you put it that way，I guess.<br>After work is fine，I suppose.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -612,9 +612,9 @@ asyncseplay,setag1_22,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,レヴィエーヌ,ふふ、ありがと！<br>ステージを借りてるから、さっそく行きましょ！,100901000G,vc_10090100001_019_01,chara_1
+message,レヴィエーヌ,Hehe，thanks!<br>I've got a stage reserved，so let's get going!<br> ,100901000G,vc_10090100001_019_01,chara_1
 
-message,<user>,ああ、押し切られた……。<br>しょうがない、こうなったら最後まで付き合うか……
+message,<user>,Aah，she steamrolled me...<br>Well，guess I'm in it till the end now...<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -647,14 +647,14 @@ fade,In,Black,0
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――数日後</size>,,,on
+messageTextCenter,,<size=48>——A few days later</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
 
 
 window,on,0.15
-message,,<user>は連日、レヴィエーヌの特訓を見守っていた。
+message,,The Commander had been watching over<br>Levienne's training day after day.<br> 
 
 window,off
 wait,0.15
@@ -721,7 +721,7 @@ asyncwait
 
 
 window,on,0.15
-message,レヴィエーヌ,ふっ……はっ……ここで、ターンっ！,100901000G,vc_10090100001_020_01,chara_1
+message,レヴィエーヌ,Hah... ha... and here，a turn!<br> ,100901000G,vc_10090100001_020_01,chara_1
 
 window,off
 wait,0.15
@@ -752,7 +752,7 @@ asyncseplay,setag1_23,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 window,on,0.15
-message,,レヴィエーヌは額に汗を浮かべ、高難度のステップを華麗に踏む。<br>流れるような動きは目で追うのも難しく、圧倒的な実力が伝わってくる。
+message,,Sweat beading on her brow，Levienne nailed each step.<br>Her fluid movements were almost too fast to follow.<br> 
 
 window,off
 wait,0.15
@@ -793,7 +793,7 @@ asyncwait
 
 
 window,on,0.15
-message,レヴィエーヌ,ターン、反転、ターン――はいっ！,100901000G,vc_10090100001_021_01,chara_1
+message,レヴィエーヌ,Turn，reverse，turn——and ha!<br> ,100901000G,vc_10090100001_021_01,chara_1
 
 window,off
 wait,0.15
@@ -811,7 +811,7 @@ asynccharamove,chara_1,Linear,Y,0,0.4,CONT,0
 asyncwait
 
 window,on,0.15
-message,,静から動、動から静。<br>びしりと動きを止め、レヴィエーヌのダンスは見事に決まった。
+message,,From stillness to motion，motion to stillness.<br>She froze in place，and her dance ended flawlessly.<br> 
 
 window,off
 wait,0.15
@@ -845,9 +845,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,レヴィエーヌ,……どう、だった？,100901000G,vc_10090100001_022_01,chara_1
+message,レヴィエーヌ,...How... was it?<br> ,100901000G,vc_10090100001_022_01,chara_1
 
-message,<user>,今日も見事としか言えない。<br>見てるこっちが息を呑むようなすごい踊りだったよ。
+message,<user>,All I can say is it was stunning，same as always.<br>The kind of dancing that takes your breath away.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -858,9 +858,9 @@ asyncseplay,setag1_25,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,レヴィエーヌ,はあ……。<br>やっぱりそう、なのね……,100901000G,vc_10090100001_023_01,chara_1
+message,レヴィエーヌ,Haah...<br>So that's how it comes across，huh...<br> ,100901000G,vc_10090100001_023_01,chara_1
 
-message,<user>,……すごかった、と思うんだが。<br>自分では納得がいかないのか？
+message,<user>,...I thought it was amazing，though.<br>You're not satisfied with it yourself?<br> 
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -869,14 +869,14 @@ asyncseplay,setag1_26,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,レヴィエーヌ,あんたの目は疑ってないわ。<br>うちの問題。気にしないで。,100901000G,vc_10090100001_024_01,chara_1
+message,レヴィエーヌ,I'm not doubting your eyes.<br>It's my problem. Don't worry about it.<br> ,100901000G,vc_10090100001_024_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,レヴィエーヌ,また最初からやるわ。<br>しっかり見ててよね！,100901000G,vc_10090100001_025_01,chara_1
+message,レヴィエーヌ,I'm going again from the top.<br>Keep your eyes on me!<br> ,100901000G,vc_10090100001_025_01,chara_1
 
 window,off
 wait,0.15
@@ -939,7 +939,7 @@ asyncshake,CHARA,chara_1,50,0,1,2,off,off,0,off,CONT,0
 asyncwait
 
 window,on,0.15
-message,,レヴィエーヌは汗も拭わないままステージの中央に戻り、<br>再び激しいダンスを始めた。
+message,,Without even wiping her sweat，Levienne returned<br>to center stage and launched into another intense routine.<br> 
 
 window,off
 wait,0.15
@@ -954,7 +954,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（んー……何が不満なんだ。<br>アドバイスもできないってのは心苦しいもんだな）
+message,<user>,(Hmm... what is she unsatisfied with?<br>It's tough not being able to give her any advice.)<br> 
 
 window,off
 wait,0.15
@@ -992,7 +992,7 @@ asyncwait
 
 
 window,on,0.15
-message,レヴィエーヌ,ふっ……はいっ……！,100901000G,vc_10090100001_026_01,chara_1
+message,レヴィエーヌ,Hah... ha...!<br> ,100901000G,vc_10090100001_026_01,chara_1
 
 window,off
 wait,0.15
@@ -1007,7 +1007,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（しかしレヴィエーヌの踊りを独占ってのは、なかなか悪くない。<br>他人の目を気にせず、いくらでも見放題だ）
+message,<user>,(Having Levienne's dancing all to myself isn't bad at all.<br>No one else around，so I can stare as much as I want.)<br> 
 
 window,off
 wait,0.15
@@ -1051,7 +1051,7 @@ wait,0.5
 
 
 window,on,0.15
-message,レヴィエーヌ,ほっ、はっ、んっ！,100901000G,vc_10090100001_027_01,chara_1
+message,レヴィエーヌ,Ha，hah，nnh!<br> ,100901000G,vc_10090100001_027_01,chara_1
 
 window,off
 wait,0.15
@@ -1078,7 +1078,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（揺れる胸には期待できないが、あいつの魅力は体のラインだ。<br>特にほっそりとして、かつ肉付きもある腰回りは素晴らしいな）
+message,<user>,(Can't expect much in the chest department，but her appeal<br>is her figure. That slim yet shapely waist is something else.)<br> 
 
 window,off
 wait,0.15
@@ -1131,9 +1131,9 @@ asynccharaemo,chara_1,Anger,CONT,0
 
 
 window,on,0.15
-message,レヴィエーヌ,……ちょっとあんた、集中してる？<br>もっとこう……ちゃんと見て！,100901000G,vc_10090100001_028_01,chara_1
+message,レヴィエーヌ,...Hey，are you even paying attention?<br>C'mon，watch me properly!<br> ,100901000G,vc_10090100001_028_01,chara_1
 
-message,<user>,ん？　いや、見てるぞ。<br>むしろ今までで一番見てた。
+message,<user>,Hm? No，I'm watching.<br>More than ever，actually.<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -1142,9 +1142,9 @@ asyncseplay,setag1_29,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,レヴィエーヌ,本当に？　ぼーっとしてなかった？,100901000G,vc_10090100001_029_01,chara_1
+message,レヴィエーヌ,Really? You weren't just spacing out?<br> ,100901000G,vc_10090100001_029_01,chara_1
 
-message,<user>,いやいや、見てたって。<br>レヴィエーヌの腰回りは最高だなって考えてたんだ。
+message,<user>,I'm telling you，I was watching.<br>I was thinking how amazing your waist looks.<br> 
 
 window,off
 wait,0.15
@@ -1178,7 +1178,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,レヴィエーヌ,こ、腰っ！？<br>あんた、どこ見てんのよっ！,100901000G,vc_10090100001_030_01,chara_1
+message,レヴィエーヌ,M-my waist!?<br>Where do you think you're looking!?<br> ,100901000G,vc_10090100001_030_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1189,9 +1189,9 @@ asyncseplay,setag1_31,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,レヴィエーヌ,うちの体じゃなくて踊りを見なさい、踊りを！,100901000G,vc_10090100001_031_01,chara_1
+message,レヴィエーヌ,Watch my dancing，not my body! The dancing!<br> ,100901000G,vc_10090100001_031_01,chara_1
 
-message,<user>,えぇ……？　<br>踊り子の腰を見て怒られるのって理不尽じゃないか？
+message,<user>,Huh...? Getting yelled at for looking at a dancer's waist? Isn't<br>that unfair?<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -1200,9 +1200,9 @@ asyncseplay,setag1_32,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,レヴィエーヌ,うっさい！　いいから集中しなさい！,100901000G,vc_10090100001_032_01,chara_1
+message,レヴィエーヌ,Shut it! Just focus，will you!<br> ,100901000G,vc_10090100001_032_01,chara_1
 
-message,<user>,分かったよ、ったく……
+message,<user>,Fine，fine，geez...<br> 
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -1240,9 +1240,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,レヴィエーヌ,うーん……。<br>これじゃまだまだ、ね……,100901000G,vc_10090100001_033_01,chara_1
+message,レヴィエーヌ,Hmm...<br>This still isn't good enough...<br> ,100901000G,vc_10090100001_033_01,chara_1
 
-message,<user>,いい踊りだったと思うんだけどな。<br>毎日見てるってのに、何も力になれなくて悪い。
+message,<user>,I thought it was good，though.<br>Sorry I can't be more help despite watching every day.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1253,7 +1253,7 @@ asyncseplay,setag1_34,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,レヴィエーヌ,あんたのせいじゃないわ、すごく助かってるもの。<br>本当にありがと。,100901000G,vc_10090100001_034_01,chara_1
+message,レヴィエーヌ,It's not your fault. You've been a huge help，really.<br>Thanks.<br> ,100901000G,vc_10090100001_034_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1264,9 +1264,9 @@ asyncseplay,setag1_35,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,レヴィエーヌ,でも……なかなか思う通りにはいかないわね……,100901000G,vc_10090100001_035_01,chara_1
+message,レヴィエーヌ,But... things just won't go the way I want them to...<br> ,100901000G,vc_10090100001_035_01,chara_1
 
-message,<user>,ま、いつまでも気にしてても仕方ない。<br>何か食ってから帰ろうぜ。
+message,<user>,Well，no use dwelling on it forever.<br>Let's grab a bite before heading back.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1285,9 +1285,9 @@ asyncseplay,setag1_37,se4800007,0,1,STOP,3.36
 asynccharaemo,chara_1,Panic,STOP,3.36
 
 
-message,レヴィエーヌ,えっ！？<br>えーと……う、うちを誘うなんて１０年早いのよ！　出直してきなさいっ！,100901000G,vc_10090100001_036_01,chara_1
+message,レヴィエーヌ,Wha!? Um... Y-you're ten years too early to be asking me out! Try<br>again later!<br> ,100901000G,vc_10090100001_036_01,chara_1
 
-message,<user>,……マジで１０年待たないとダメか？
+message,<user>,...Do I seriously have to wait ten years?<br> 
 
 window,off
 wait,0.15
@@ -1306,9 +1306,9 @@ wait,0.5
 
 
 window,on,0.15
-message,レヴィエーヌ,……嘘よ、ごめん。<br>でも食事はちょっと、遠慮しとく。,100901000G,vc_10090100001_037_01,chara_1
+message,レヴィエーヌ,...That was a lie，sorry.<br>But I'll pass on the food.<br> ,100901000G,vc_10090100001_037_01,chara_1
 
-message,<user>,レヴィエーヌ、飯の誘いは毎回断るよな。<br>あんなに踊ったのに、腹減ってないのか？
+message,<user>,Levienne，you turn down food every time.<br>You danced that hard and you're not hungry?<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1319,7 +1319,7 @@ asyncseplay,setag1_39,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,レヴィエーヌ,特訓の前にしっかり食べてるから大丈夫なの！<br>ほら、あんたはちゃんと食べて帰りなさいよ！,100901000G,vc_10090100001_038_01,chara_1
+message,レヴィエーヌ,I eat plenty before training，so I'm fine!<br>Now go on，you eat up and head home!<br> ,100901000G,vc_10090100001_038_01,chara_1
 
 window,off
 wait,0.15
@@ -1372,9 +1372,9 @@ asyncwait
 asyncseplay,setag1_41,SE_DUMMY,0,1,STOP,0
 
 window,on,0.15
-message,,レヴィエーヌは疲れた様子で酒場を出ていった。<br>その背中はどこかふらついて見えた。
+message,,Levienne left the tavern looking exhausted.<br>Her retreating figure seemed a bit unsteady.<br> 
 
-message,<user>,スランプ、か……。<br>何か理由がありそうなんだがな……
+message,<user>,A slump，huh...<br>I feel like there's more to it than that...<br> 
 
 window,off
 bgmstop,bgmtag1_3,0.5

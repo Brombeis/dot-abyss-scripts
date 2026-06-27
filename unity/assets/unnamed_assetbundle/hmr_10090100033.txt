@@ -20,7 +20,7 @@ fade,In,Black,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――ダンス大会会場</size>,,,on
+messageTextCenter,,<size=48>——The Dance Contest Venue</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -43,7 +43,7 @@ asyncseplay,setag3_1,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 window,on,0.15
-message,,今回のダンスコンテスト優勝者は――レヴィエーヌさんです！<br>司会者の声が、会場に響き渡る。
+message,,This contest's winner is——Levienne-san!<br>The emcee's voice echoed through the venue.<br> 
 
 window,off
 wait,0.15
@@ -87,7 +87,7 @@ asynccharaemo,chara_1,Shy,CONT,0
 
 
 window,on,0.15
-message,レヴィエーヌ,や、やった……！　うちが……優勝……,100901000G,vc_10090100033_001_01,chara_1
+message,レヴィエーヌ,I-I did it...! I... won...<br> ,100901000G,vc_10090100033_001_01,chara_1
 
 window,off
 wait,0.15
@@ -101,9 +101,9 @@ wait,2
 sestop,se3_1001,0.1
 
 window,on,0.15
-message,,レヴィエーヌは溢れる嬉し涙で顔をくしゃくしゃにしてステージへと上がる。<br>周囲の観客はそんな彼女を大きな拍手と歓声で出迎える。
+message,,Face crumpled with tears of joy，Levienne climbed onto the stage.<br>The audience welcomed her with thunderous applause and cheers.<br> 
 
-message,観客たち,おめでとーっ！<br>最高だったぜ、レヴィエーヌちゃんっ！,900000001
+message,観客たち,Congrats!<br>You were the best，Levienne-chan!<br> ,900000001
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -114,7 +114,7 @@ asyncseplay,setag3_3,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,レヴィエーヌ,みんな、ありがと～～～～～っ！,100901000G,vc_10090100033_002_01,chara_1
+message,レヴィエーヌ,Thank you，everyone~~~~~!<br> ,100901000G,vc_10090100033_002_01,chara_1
 
 window,off
 wait,0.15
@@ -161,9 +161,9 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,踊り子,……素晴らしいダンスだったわ。 <br>今までの振り付けに、色っぽさも加わって……,401401000,vc_10090100033_003_01,chara_2
+message,踊り子,...That was a wonderful dance.<br>Your usual moves，but with a new sexiness to them...<br> ,401401000,vc_10090100033_003_01,chara_2
 
-message,,レヴィエーヌにそう賛辞を贈ったのは、<br>前回レヴィエーヌを負かせた、あのライバルの踊り子だった。
+message,,The one offering this praise was none other than<br>the rival dancer who'd beaten Levienne last time.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -174,7 +174,7 @@ asyncseplay,setag3_5,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,レヴィエーヌ,――ありがとう。 <br>あなたにそう言ってもらえて、何よりも嬉しいわ。,100901000G,vc_10090100033_004_01,chara_1
+message,レヴィエーヌ,——Thanks.<br>Hearing that from you means more than anything.<br> ,100901000G,vc_10090100033_004_01,chara_1
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -186,7 +186,7 @@ asyncseplay,setag3_6,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,踊り子,……ふふ、まあ、今日のところは負けておいてあげる。<br>それにしてもレヴィエーヌさん、恋人でもできたの？,401401000,vc_10090100033_005_01,chara_2
+message,踊り子,...Hehe，well，I'll let you have today's win.<br>By the way，Levienne，did you get a boyfriend?<br> ,401401000,vc_10090100033_005_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -197,9 +197,9 @@ asyncseplay,setag3_7,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,レヴィエーヌ,……え？　な、なんで、そう思ったのっ！？,100901000G,vc_10090100033_006_01,chara_1
+message,レヴィエーヌ,...Huh? Wh-why would you think that!?<br> ,100901000G,vc_10090100033_006_01,chara_1
 
-message,,予期せぬ『恋人』というワードに、レヴィエーヌは動揺が隠せない。
+message,,The unexpected word ""boyfriend"" sent Levienne into visible panic.<br> 
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -210,7 +210,7 @@ asyncseplay,setag3_8,se4800003,0,1,CONT,0
 asynccharaemo,chara_2,Twinkle,CONT,0
 
 
-message,踊り子,フフフ♪　だって～、あんな色っぽい腰つき、<br>独りじゃ磨けないはずだもの♪,401401000,vc_10090100033_007_01,chara_2
+message,踊り子,Hehehe♪ Because~ you can't polish hips like those<br>all by yourself♪<br> ,401401000,vc_10090100033_007_01,chara_2
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -221,7 +221,7 @@ asyncseplay,setag3_9,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,レヴィエーヌ,え？　あ、い、いや……<br>その……恋人って言うか……,100901000G,vc_10090100033_008_01,chara_1
+message,レヴィエーヌ,Wha? Ah，n-no...<br>I mean... boyfriend isn't exactly...<br> ,100901000G,vc_10090100033_008_01,chara_1
 
 window,off
 wait,0.15
@@ -260,11 +260,11 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,<user>,おめでとう、レヴィエーヌ！
+message,<user>,Congratulations，Levienne!<br> 
 
-message,,その時、大きな花束を持った<user>が<br>レヴィエーヌの前に姿を見せた。
+message,,Just then，the Commander appeared before Levienne，<br>carrying a large bouquet of flowers.<br> 
 
-message,<user>,本当に素晴らしいダンスだったな。 <br>レッスンの成果が出たんじゃないか？
+message,<user>,That was a truly incredible dance.<br>Your lessons really paid off，huh?<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -275,9 +275,9 @@ asyncseplay,setag3_10,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,レヴィエーヌ,はぁっ！？　もう、何言ってんのよ！<br>レッスン付き合ってくれないし、邪魔したりもしてきたくせに……,100901000G,vc_10090100033_009_01,chara_1
+message,レヴィエーヌ,Hah!? Oh，what are you even saying!<br>You barely helped with my lessons，and you kept getting in the way...<br> ,100901000G,vc_10090100033_009_01,chara_1
 
-message,,照れ隠しなのか、レヴィエーヌはそんなつっけんどんなリアクションを見せる。
+message,,Whether to hide her embarrassment or not，<br>Levienne gave a typically brusque reaction.<br> 
 
 window,off
 wait,0.15
@@ -329,7 +329,7 @@ asynccharaemo,chara_2,Shock,CONT,0
 
 
 window,on,0.15
-message,踊り子,……あ、あれ？<br>ひょっとしてレヴィエーヌさんの恋人ってまさか……,401401000,vc_10090100033_010_01,chara_2
+message,踊り子,...Oh，wait.<br>Don't tell me Levienne's boyfriend is actually...<br> ,401401000,vc_10090100033_010_01,chara_2
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -340,9 +340,9 @@ asyncseplay,setag3_12,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,レヴィエーヌ,ええっ？ <br>い、いや恋人とかそんなんじゃなくて、練習相手というか……,100901000G,vc_10090100033_011_01,chara_1
+message,レヴィエーヌ,What!?<br>N-no，he's not my boyfriend，more like my practice partner...<br> ,100901000G,vc_10090100033_011_01,chara_1
 
-message,,練習相手と言ってしまって、レヴィエーヌはハッとなる。<br>セクシーな腰使いのレッスン方法は、誰より彼女が詳しいのだ。
+message,,The words ""practice partner"" escaped her lips， and Levienne froze —<br>she knew better than anyone what that practice entailed.<br> 
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -353,7 +353,7 @@ asyncseplay,setag3_13,se4800005,0,1,CONT,0
 asynccharaemo,chara_2,Flash,CONT,0
 
 
-message,踊り子,……フフフ、次は負けないからね。 <br>あなたも負けたくなかったら、精一杯練習することね！,401401000,vc_10090100033_012_01,chara_2
+message,踊り子,...Hehehe，I won't lose next time.<br>If you don't want to lose either，you'd better practice hard!<br> ,401401000,vc_10090100033_012_01,chara_2
 
 window,off
 wait,0.15
@@ -379,11 +379,11 @@ asyncseplay,setag3_14,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 window,on,0.15
-message,,ライバルの踊り子は、<br>含み笑いを浮かべながらそう言って立ち去っていった。
+message,,The rival dancer departed<br>with a knowing smirk on her face.<br> 
 
-message,,次の大会に向けての戦いは、もう既に始まっている。<br>そのことはレヴィエーヌが誰よりも理解していた。
+message,,The battle for the next contest had already begun.<br>No one understood that better than Levienne.<br> 
 
-message,<user>,ええと……いいライバル関係、みたいだな……？
+message,<user>,Um... you two have a nice rivalry going...?<br> 
 
 window,off
 wait,0.15
@@ -430,7 +430,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,,そう声を掛けた<user>の腕を、<br>レヴィエーヌが素早く掴み、ぐっと引き寄せる。
+message,,As the Commander said that，<br>Levienne swiftly grabbed his arm and pulled him close.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -441,9 +441,9 @@ asyncseplay,setag3_16,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,レヴィエーヌ,さぁ、次の大会に向けてレッスンに付き合って！,100901000G,vc_10090100033_013_01,chara_1
+message,レヴィエーヌ,C'mon，help me practice for the next contest!<br> ,100901000G,vc_10090100033_013_01,chara_1
 
-message,,その目の輝きは、次の大会に向けて、<br>さらには世界一のダンサーになるための強い意志が感じられるものだった。
+message,,The fire in her eyes spoke of her resolve——<br>to win the next contest，and become the world's greatest dancer.<br> 
 
 window,off
 bgmstop,bgmtag3_1,0.5
