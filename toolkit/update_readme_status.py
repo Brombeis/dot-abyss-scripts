@@ -10,6 +10,7 @@ REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TRANSLATIONS_DIR = os.path.join(REPO_ROOT, "translations", "story")
 NAMES_PATH = os.path.join(REPO_ROOT, "translations", "names.json")
 README_PATH = os.path.join(REPO_ROOT, "README.md")
+STATUS_PATH = os.path.join(REPO_ROOT, "data", "translation_status.json")
 
 PREFIXES = {
     "mas": "Main Story",
@@ -205,6 +206,40 @@ def update_readme(table, char_table):
     return True
 
 
+def update_status_json():
+    status = {}
+    for prefix in PREFIXES:
+        entries = []
+        for fname in sorted(os.listdir(TRANSLATIONS_DIR)):
+            if not fname.startswith(prefix + "_") or not fname.endswith(".json"):
+                continue
+            with open(os.path.join(TRANSLATIONS_DIR, fname), "r", encoding="utf-8") as f:
+                data = json.load(f)
+            lines = data.get("lines", [])
+            total = len(lines)
+            translated = sum(1 for l in lines if l.get("en"))
+            entries.append({
+                "file": fname,
+                "total": total,
+                "translated": translated,
+                "remaining": total - translated,
+            })
+        status[prefix] = entries
+
+    existing = ""
+    if os.path.exists(STATUS_PATH):
+        with open(STATUS_PATH, "r", encoding="utf-8") as f:
+            existing = f.read()
+
+    new_content = json.dumps(status, indent=2, ensure_ascii=False) + "\n"
+    if new_content == existing:
+        return False
+
+    with open(STATUS_PATH, "w", encoding="utf-8") as f:
+        f.write(new_content)
+    return True
+
+
 def main():
     names = load_names()
     stats = gather_stats()
@@ -214,7 +249,10 @@ def main():
     changed = update_readme(table, char_table)
     if changed:
         print("README.md: translation status updated", file=sys.stderr)
-    return changed
+    status_changed = update_status_json()
+    if status_changed:
+        print("translation_status.json: updated", file=sys.stderr)
+    return changed or status_changed
 
 
 if __name__ == "__main__":

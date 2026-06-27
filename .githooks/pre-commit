@@ -3,5 +3,6 @@
 
 PYTHONUTF8=1 python toolkit/update_readme_status.py
 
-# If the script changed README.md, stage it so it's included in this commit.
+# If the script changed README.md or translation_status.json, stage them.
 git diff --quiet README.md || git add README.md
+git diff --quiet data/translation_status.json || git add data/translation_status.json
