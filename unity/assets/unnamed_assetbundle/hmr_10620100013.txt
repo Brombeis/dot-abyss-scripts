@@ -38,9 +38,9 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,アリシア,ほ、本当に良かったですっ！<br>ヒナギさんのおかげで……ほ、本当にっ！,300201000,vc_10620100013_001_01,chara_2
+message,アリシア,I-I'm so relieved!<br>It's all thanks to Hinagi-san... truly!<br> ,300201000,vc_10620100013_001_01,chara_2
 
-message,<user>,あぁ。正直、あんまり何をされたのか覚えていないんだが、<br>ヒナギには感謝しないとな。
+message,<user>,Yeah. Honestly，I don't really remember what she<br>did，but I owe Hinagi my thanks.<br> 
 
 window,off
 wait,0.15
@@ -77,7 +77,7 @@ screeneffect,SEPIATONE,on,1,0
 fade,In,White,1
 
 window,on,0.15
-message,,何時間悪夢にうなされていたのか分からない。<br>ただ、目覚めると全身に汗を掻いて抱き着いているヒナギの姿があった。
+message,,He did not know how many hours the nightmares lasted. He only knew<br>that when he woke，Hinagi was clinging to him，drenched in sweat.<br> 
 
 window,off
 wait,0.15
@@ -128,7 +128,7 @@ asynccharamove,chara_1,EaseOut,X,-100,0.3,CONT,0
 emodelete,chara_1,0,0
 
 window,on,0.15
-message,,しかし、意識を取り戻したヒナギは、何も語らず、<br>着衣の乱れを直してそそくさと部屋を出て行ってしまったのだ。
+message,,But when Hinagi regained consciousness，she said<br>nothing，straightened her clothes，and hurried out.<br> 
 
 asyncwait
 
@@ -165,7 +165,7 @@ screeneffect,SEPIATONE,off,1,0
 fade,In,White,1
 
 window,on,0.15
-message,<user>,陰陽師の秘術を使ったらしいが、どういうものだったんだろうな。<br>なんとなく想像できなくもないが、記憶にないのは惜しい……
+message,<user>,Apparently she used a secret onmyouji technique，<br>but I wonder what it involved. A shame I can't remember...<br> 
 
 asyncseplay,setag3_4,se4300001,0,1,CONT,0
 
@@ -179,7 +179,7 @@ asyncseplay,setag3_5,se4800022,0,1,CONT,0
 
 asynccharaemo,chara_2,Speak,CONT,0
 
-message,,――コンコン！
+message,,——Knock knock!<br> 
 
 window,off
 wait,0.15
@@ -237,7 +237,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,司令室のドアがノックされる。アリシアが開けると、ヒナギの姿が。<br>汚れた紙切れを手に、深刻そうな表情をしている。
+message,,There was a knock at the office door. Alicia opened<br>it to find Hinagi，holding a dirty scrap of paper，looking grave.<br> 
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -246,9 +246,9 @@ asyncseplay,setag3_8,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒナギ,まさかと思いましたが――<br>司令本部の入り口の土中から、こんなものが……,106201000G,vc_10620100013_002_01,chara_1
+message,ヒナギ,I did not want to believe it，but——<br>I found this buried in the soil at headquarters' entrance...<br> ,106201000G,vc_10620100013_002_01,chara_1
 
-message,<user>,ん？　紙切れ？　なんだそれは？
+message,<user>,Hm? A scrap of paper? What is that?<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -259,7 +259,7 @@ asyncseplay,setag3_9,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ヒナギ,<ruby=かたしろ>形代</>と言って、陰陽師が用いる呪符の１種です……,106201000G,vc_10620100013_003_01,chara_1
+message,ヒナギ,It is called a katashiro — a type of curse talisman<br>used by onmyouji...<br> ,106201000G,vc_10620100013_003_01,chara_1
 
 window,off
 wait,0.15
@@ -313,7 +313,7 @@ asynccharaemo,chara_2,Question,CONT,0
 
 
 window,on,0.15
-message,アリシア,なんでそれが司令本部の入り口に……！？,300201000,vc_10620100013_004_01,chara_2
+message,アリシア,Why was something like that at the entrance<br>to headquarters...!?<br> ,300201000,vc_10620100013_004_01,chara_2
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -324,9 +324,9 @@ asyncseplay,setag3_11,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒナギ,何者かがこれを仕掛けて、<br>司令官様に呪詛が掛かるように仕向けたのだと思います。,106201000G,vc_10620100013_005_01,chara_1
+message,ヒナギ,I believe someone planted it to direct<br>a curse at Commander-sama.<br> ,106201000G,vc_10620100013_005_01,chara_1
 
-message,<user>,俺に呪いを掛けたってことか？　いったい何の目的で……
+message,<user>,So someone cursed me?<br>What could they possibly want...?<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -337,9 +337,9 @@ asyncseplay,setag3_12,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ヒナギ,はっきりとは判りませんが、<br>おそらく由緒正しき血統をお持ちの司令官様の力を奪うことが目的でしょう。,106201000G,vc_10620100013_006_01,chara_1
+message,ヒナギ,I cannot say for certain，but their aim was likely<br>to steal the power of your noble bloodline，Commander-sama.<br> ,106201000G,vc_10620100013_006_01,chara_1
 
-message,<user>,とんだモノ好きもいたもんだなぁ。
+message,<user>,Some people really do have bizarre hobbies.<br> 
 
 window,off
 wait,0.15
@@ -385,9 +385,9 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,実は先日、私の部屋から呪術書が１冊、盗まれてしまったのです。<br>その呪術書に、この呪符の作り方があったはず――,106201000G,vc_10620100013_007_01,chara_1
+message,ヒナギ,Actually，a spellbook was stolen from my room<br>recently. It contained instructions for this very talisman——<br> ,106201000G,vc_10620100013_007_01,chara_1
 
-message,<user>,ふむ。<br>俺が標的なら、また狙ってくるかもしれないな。
+message,<user>,Hmm. If I'm the target，<br>they might come after me again.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -396,9 +396,9 @@ asyncseplay,setag3_14,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒナギ,申し訳ございません。私の管理ミスです。<br>まさか私の結界を破ることができる人間が前線基地にいるとは……,106201000G,vc_10620100013_008_01,chara_1
+message,ヒナギ,I am deeply sorry. It was my failure to protect it.<br>I never imagined someone here could break my barrier...<br> ,106201000G,vc_10620100013_008_01,chara_1
 
-message,<user>,気にするな。もともと、色々な奴から狙われている。<br>１人くらい増えても違いはない。
+message,<user>,Don't worry about it. I've always had people<br>after me. One more makes no difference.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -409,7 +409,7 @@ asyncseplay,setag3_15,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,ヒナギ,何を言ってるんですか！<br>司令官様の命が奪われでもしたら……わ、私は……,106201000G,vc_10620100013_009_01,chara_1
+message,ヒナギ,What are you saying!?<br>If Commander-sama's life were taken... I-I would...<br> ,106201000G,vc_10620100013_009_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -419,9 +419,9 @@ asyncseplay,setag3_16,se4800014,0,1,CONT,0
 
 asynccharaemo,chara_1,Silence,CONT,0
 
-message,,ヒナギは感情が昂り、目を潤ませる。<br>その瞳でこちらを見つめられては何も言えなくなってしまう。
+message,,Hinagi's emotions swelled，her eyes glistening.<br>Faced with that gaze，%user% could not say a word.<br> 
 
-message,<user>,俺も細心の注意を払うよ、ヒナギ。<br>だが、もしまた変な呪いに掛かってしまった時は、頼んだぞ。
+message,<user>,I'll be careful，Hinagi.<br>But if I get cursed again，I'm counting on you.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -432,7 +432,7 @@ asyncseplay,setag3_17,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ヒナギ,もちろんです。しかし、事の発端は私の本が奪われたせい。<br>必ずや犯人を突き止め、司令官様の危険を取り払ってみせます。,106201000G,vc_10620100013_010_01,chara_1
+message,ヒナギ,Of course. But this all began because my book was<br>stolen. I will find the culprit and eliminate the threat.<br> ,106201000G,vc_10620100013_010_01,chara_1
 
 window,off
 wait,0.15
@@ -486,7 +486,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,アリシア,犯人を突き止めるって言っても、いったいどうやって？,300201000,vc_10620100013_011_01,chara_2
+message,アリシア,Find the culprit? But how?<br> ,300201000,vc_10620100013_011_01,chara_2
 
 window,off
 wait,0.15
@@ -505,7 +505,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒナギ,この手の術式を扱う者には独特の邪気が漂うものです。<br>それに触れることができるならば……,106201000G,vc_10620100013_012_01,chara_1
+message,ヒナギ,Those who practice this type of sorcery carry<br>a distinct evil ki. If I can get close enough to sense it...<br> ,106201000G,vc_10620100013_012_01,chara_1
 
 window,off
 wait,0.15
@@ -544,7 +544,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,この時、すでにヒナギの中には犯人捜しをする為のあてが浮かんでいた。<br>そして、その危険に身を投じる覚悟も――
+message,,Hinagi already had a lead on how to find the culprit.<br>And the resolve to throw herself into danger——<br> 
 
 window,off
 bgmstop,bgmtag3_1,0.5

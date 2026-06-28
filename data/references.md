@@ -170,7 +170,7 @@ roster is listed below.
 | ニナ | Nina | Female | |
 | ノエミ | Noemi | Female | |
 | ハツネ | Hatsune | Female | [Profile](#hatsune-ハツネ) |
-| ヒナギ | Hinagi | Female | |
+| ヒナギ | Hinagi | Female | [Profile](#hinagi-ヒナギ) |
 | ヒマリ | Himari | Female | [Profile](#himari-ヒマリ) |
 | ヒュメナ | Humena | Female | |
 | ピコ | Pico | Female | |
@@ -738,3 +738,68 @@ roster is listed below.
     energy comes from volume and exclamation marks.
   - Her えへへ laugh: render as "Ehehe" — bashful and pleased, similar
     to Emily's but less frequent.
+
+### Hinagi (ヒナギ)
+- **Pronoun:** 私 (watashi) — polite/formal feminine; consistent across all
+  situations including internal monologue
+- **Addresses MC as:** 司令官様 → **"Commander-sama"** (always with -sama,
+  never drops the honorific even in her most emotional moments)
+- **Role:** Onmyouji (陰陽師, yin-yang arts practitioner) from Hourai Country
+  (ホウライ国), a far-eastern nation. Came to the forward base to investigate
+  whether the Abyss is a dragon's den (龍穴) — a sacred convergence of ley
+  lines. Specializes in divination, prayer rituals, water-based sorcery,
+  katashiro (paper talismans), ki manipulation, and purification arts.
+- **Speech style:** Polite です/ます as baseline, with occasional keigo
+  (ございます, いたします, 差し上げます) that comes naturally rather than
+  stiffly. Her most distinctive trait is ending sentences with an emphatic っ
+  before exclamation marks: 嬉しいですっ！, 楽しみですっ！, はいっ！ — this
+  gives her polite speech a bubbly, eager energy. Uses ふふっ as her
+  characteristic gentle laugh. When flustered (romance, embarrassment), she
+  stutters and trails off: し、司令官様……, は、はひっ！, で、デート……？
+  Professionally confident when discussing onmyoudou — speaks with authority,
+  uses technical jargon naturally (気, 龍脈, 龍穴, 形代, 丹田). Internal
+  monologues drop the politeness slightly and become more raw and urgent.
+- **Key traits:**
+  - **Earnest and warm.** Her enthusiasm is genuine — she lights up when
+    helping people and takes visible pride in her craft. Her っ！ endings
+    convey infectious eagerness, not nervous energy.
+  - **Professionally assured.** When explaining onmyoudou or assessing a
+    situation, she's calm, clear, and authoritative. She knows her field
+    and speaks about it with quiet confidence.
+  - **Romantically flustered.** She overthinks romantic situations and
+    becomes stammery and incomplete in her thoughts. The contrast with
+    her professional composure is the charm.
+  - **Self-sacrificing.** Puts others' safety above her own to a reckless
+    degree — absorbs dangerous ki, works undercover at a brothel to catch
+    a thief, nearly dies protecting the MC.
+  - **Endearingly clumsy.** Admits cooking is not her strength (her sushi
+    rolls fall apart), and has a pragmatic defense: "Even if it's a mess,
+    it all tastes the same once you eat it, right!?"
+- **Translation notes:**
+  - Her emphatic っ！ is her defining vocal quirk — render it by keeping
+    her polite lines punchy and enthusiastic with exclamation marks:
+    "I'm so glad!", "I can't wait!!", "Yes!" The っ adds snap to what
+    would otherwise be merely polite speech.
+  - Her ふふっ laugh: render as "Hehe" or "Fufu" — gentle and pleased,
+    not mischievous. It's a warm chuckle, not a giggle.
+  - When flustered, stutter lightly: "C-Commander-sama...",
+    "A-a d-date...? Just the two of us...?" — she doesn't recover
+    quickly like Shiena; she lingers in the fluster.
+  - Her professional explanations should sound knowledgeable and assured,
+    not lecturing. She enjoys sharing her expertise: "This river's
+    sharp curves are the root of the problem. Allow me to handle it!"
+  - When determined or protective, she becomes firm and declarative —
+    drop the soft hedging: "I will restore Commander-sama to normal,
+    no matter what!", "I will find the culprit and eliminate the threat
+    to Commander-sama."
+  - When emotionally vulnerable, the politeness fractures and real
+    feeling breaks through: "What are you saying!? If Commander-sama's
+    life were taken... I-I would..." — let these moments land with
+    raw sincerity.
+  - She uses ♪ and ♡ very rarely — her warmth comes through word choice
+    and っ！ energy, not decorative symbols. Preserve them on the rare
+    occasions they appear.
+  - Keep ～ as tildes in her elongated moments: "Hmm~", "Well~"
+  - Her keigo (ございます, いたします) should translate as slightly
+    elevated formality: "I am most grateful", "Please allow me to" —
+    but keep it natural, not archaic.

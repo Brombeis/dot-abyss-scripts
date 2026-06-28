@@ -14,7 +14,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,The Dragon's Den is...
 
 wait,1
 
@@ -24,14 +24,14 @@ bgmplay,bgmtag1_1,bgm0036,0.75,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――ヒナギが前線基地に到着してから数日後</size>,,,on
+messageTextCenter,,<size=48>——Several days after Hinagi arrived at the forward base</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
 
 
 window,on,0.15
-message,,ヒナギは宿舎のキッチンで巻き寿司を作っていた。
+message,,Hinagi was making sushi rolls<br>in the quarters' kitchen.<br> 
 
 window,off
 wait,0.15
@@ -69,7 +69,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,う～ん、おかしいですね～。<br>お母様から教えてもらった通りに作ってるはずなのに、どうしても形が……,106201000G,vc_10620100003_001_01,chara_1
+message,ヒナギ,Hmm~，how strange~.<br>I followed Mother's recipe exactly，but the shape...<br> ,106201000G,vc_10620100003_001_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -80,7 +80,7 @@ asyncseplay,setag1_2,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ヒナギ,やっぱり、料理は苦手です……。<br>はぁ……,106201000G,vc_10620100003_002_01,chara_1
+message,ヒナギ,I really am no good at cooking...<br>Haah...<br> ,106201000G,vc_10620100003_002_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -91,7 +91,7 @@ asyncseplay,setag1_3,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒナギ,ま、まぁでも、形がグチャグチャでも、食べてしまえば同じですよね！？,106201000G,vc_10620100003_003_01,chara_1
+message,ヒナギ,W-well，even if it's a total mess，<br>it all tastes the same once you eat it，right!?<br> ,106201000G,vc_10620100003_003_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -102,7 +102,7 @@ asyncseplay,setag1_4,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ヒナギ,誰かに召し上がっていただくわけでもなし！<br>自分で食べるなら、別に――,106201000G,vc_10620100003_004_01,chara_1
+message,ヒナギ,It's not like I'm serving it to anyone!<br>If it's just for me，then——<br> ,106201000G,vc_10620100003_004_01,chara_1
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -143,11 +143,11 @@ asyncseplay,setag1_5,se4010005,0,1,CONT,0
 asynccharaface,chara_1,FaceSurprise,STOP,0.5
 
 window,on,0.15
-message,,――ドタドタドタ！
+message,,——Stomp stomp stomp!<br> 
 
 sestop,setag1_5,0.1
 
-message,<user>,ここにいたのかヒナギ！　探したぞ！
+message,<user>,There you are，Hinagi! I've been looking for you!<br> 
 
 window,off
 wait,0.15
@@ -162,11 +162,11 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,司令官様？　どうされたんです？<br>そんなに疲れた顔をして……,106201000G,vc_10620100003_005_01,chara_1
+message,ヒナギ,Commander-sama? What is the matter?<br>You look so exhausted...<br> ,106201000G,vc_10620100003_005_01,chara_1
 
 bgmplay,bgmtag1_2,bgm0027,0.75,1
 
-message,<user>,疲れているからな……<br>お前、いったい前線基地の奴らになんの魔法を掛けたんだ！？
+message,<user>,Because I am exhausted...<br>What kind of spell did you cast on everyone here!?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -177,7 +177,7 @@ asyncseplay,setag1_7,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ヒナギ,魔法？<br>えぇと……,106201000G,vc_10620100003_006_01,chara_1
+message,ヒナギ,A spell?<br>Um...<br> ,106201000G,vc_10620100003_006_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -189,11 +189,11 @@ asyncseplay,setag1_8,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヒナギ,あっ。<br>ひょっとして、縁結びの『おまじない』のことですか？,106201000G,vc_10620100003_007_01,chara_1
+message,ヒナギ,Oh!<br>Could you be referring to the matchmaking charms?<br> ,106201000G,vc_10620100003_007_01,chara_1
 
-message,<user>,それだそれ！
+message,<user>,That's it!<br> 
 
-message,<user>,そのせいで俺は１日に何人もの相手と<br>デートしなきゃいけなくなっているんだぞ！？
+message,<user>,Because of those，I've had to go on dates<br>with multiple people every single day!?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -204,7 +204,7 @@ asyncseplay,setag1_9,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ヒナギ,え？,106201000G,vc_10620100003_008_01,chara_1
+message,ヒナギ,Huh?<br> ,106201000G,vc_10620100003_008_01,chara_1
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -213,9 +213,9 @@ asyncseplay,setag1_10,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒナギ,ま、まさか、そんなはずは……！？,106201000G,vc_10620100003_009_01,chara_1
+message,ヒナギ,Th-that cannot be...!?<br> ,106201000G,vc_10620100003_009_01,chara_1
 
-message,<user>,とにかく、確かめてみてくれ！
+message,<user>,Just check，please!<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -226,12 +226,12 @@ asyncseplay,setag1_11,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒナギ,わ、分かりました。,106201000G,vc_10620100003_010_01,chara_1
+message,ヒナギ,U-understood.<br> ,106201000G,vc_10620100003_010_01,chara_1
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,ヒナギ,『おまじない』に使用した<ruby=かたしろ>形代</>は宿舎に保管してあります。<br>見に行きましょう！,106201000G,vc_10620100003_011_01,chara_1
+message,ヒナギ,The katashiro I used for the charms are stored<br>in the quarters. Let us go take a look!<br> ,106201000G,vc_10620100003_011_01,chara_1
 
 
 
@@ -279,7 +279,7 @@ asyncwait
 sestop,setag1_12,0.1
 
 window,on,0.15
-message,,宿舎についたヒナギは、<user>の前に箱を持ってきた。
+message,,Back at the quarters，Hinagi brought a box<br>before %user%.<br> 
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -288,9 +288,9 @@ asyncseplay,setag1_13,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒナギ,こちらです。,106201000G,vc_10620100003_012_01,chara_1
+message,ヒナギ,Here they are.<br> ,106201000G,vc_10620100003_012_01,chara_1
 
-message,<user>,ん！？　ただの箱にしか見えないんだが……？
+message,<user>,Hm!? This just looks like a box...?<br> 
 
 window,off
 wait,0.15
@@ -316,9 +316,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,この箱の中身、全部が形代でして……<br>ここ最近請け負った『おまじない』の分、すべて入っています。,106201000G,vc_10620100003_013_01,chara_1
+message,ヒナギ,Everything inside this box is katashiro...<br>All the charms I have performed recently are here.<br> ,106201000G,vc_10620100003_013_01,chara_1
 
-message,<user>,多いな！？
+message,<user>,That's a lot!?<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -329,7 +329,7 @@ asyncseplay,setag1_16,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒナギ,おかげさまで、大盛況だったんです。,106201000G,vc_10620100003_014_01,chara_1
+message,ヒナギ,Thanks to everyone's interest，<br>business was booming!<br> ,106201000G,vc_10620100003_014_01,chara_1
 
 window,off
 wait,0.15
@@ -348,9 +348,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒナギ,司令官様は、ご自身がご多忙なのは皆様が『おまじない』を<br>たくさん掛けたせいだと思っていらっしゃるんですね？,106201000G,vc_10620100003_015_01,chara_1
+message,ヒナギ,So you believe you have been so busy because<br>everyone used the charms，Commander-sama?<br> ,106201000G,vc_10620100003_015_01,chara_1
 
-message,<user>,あぁ。アリシアに教えてもらって<br>その可能性に気が付けたんだ。
+message,<user>,Yeah. Alicia pointed it out to me<br>and I realized that might be why.<br> 
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -359,7 +359,7 @@ asyncseplay,setag1_18,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ヒナギ,分かりました。,106201000G,vc_10620100003_016_01,chara_1
+message,ヒナギ,I understand.<br> ,106201000G,vc_10620100003_016_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -370,7 +370,7 @@ asyncseplay,setag1_19,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒナギ,本当は、依頼者の方のお相手を確認するのは失礼かと思い、<br>見ないようにしていたのですが……確認します。,106201000G,vc_10620100003_017_01,chara_1
+message,ヒナギ,I thought it would be rude to check who<br>each person named，so I refrained... but let me look.<br> ,106201000G,vc_10620100003_017_01,chara_1
 
 window,off
 wait,0.15
@@ -395,7 +395,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,……あ、本当。<br>司令官様のお名前が。,106201000G,vc_10620100003_018_01,chara_1
+message,ヒナギ,...Oh my. It really does have<br>Commander-sama's name.<br> ,106201000G,vc_10620100003_018_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -406,7 +406,7 @@ asyncseplay,setag1_21,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ヒナギ,これも。……これも？,106201000G,vc_10620100003_019_01,chara_1
+message,ヒナギ,This one too. ...This one as well?<br> ,106201000G,vc_10620100003_019_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -417,7 +417,7 @@ asyncseplay,setag1_22,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,ヒナギ,え、え？<br>こ、これも司令官様、こっちも司令官様？,106201000G,vc_10620100003_020_01,chara_1
+message,ヒナギ,W-wait?<br>Th-this one too，and this one too!?<br> ,106201000G,vc_10620100003_020_01,chara_1
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -426,9 +426,9 @@ asyncseplay,setag1_23,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ヒナギ,ええっ！？<br>こんなにあるのに、ほとんどに司令官様のお名前が！？,106201000G,vc_10620100003_021_01,chara_1
+message,ヒナギ,What!?<br>There are so many，and almost all say Commander-sama!?<br> ,106201000G,vc_10620100003_021_01,chara_1
 
-message,<user>,やっぱりか……<br>忙しいわけだ。
+message,<user>,Just as I thought...<br>No wonder I've been so busy.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -439,7 +439,7 @@ asyncseplay,setag1_24,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒナギ,す、すみません。<br>悪気はなかったんです！,106201000G,vc_10620100003_022_01,chara_1
+message,ヒナギ,I-I am so sorry!<br>I did not mean any harm!<br> ,106201000G,vc_10620100003_022_01,chara_1
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -448,13 +448,13 @@ asyncseplay,setag1_25,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒナギ,ただ、皆様のお役に立ちたい一心で……,106201000G,vc_10620100003_023_01,chara_1
+message,ヒナギ,I only wanted to help everyone...<br> ,106201000G,vc_10620100003_023_01,chara_1
 
-message,,ヒナギは指先をくるくる回しながら、申し訳なさそうにしている。
+message,,Hinagi twiddled her fingers，<br>looking deeply apologetic.<br> 
 
-message,<user>,それは分かっている。<br>いいから、早くこの『おまじない』を解いてくれ。
+message,<user>,I know that.<br>Just undo these charms，quickly.<br> 
 
-message,<user>,……って、できるんだよな？
+message,<user>,...You can do that，right?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -465,7 +465,7 @@ asyncseplay,setag1_26,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒナギ,あ、はい。それはもちろん。,106201000G,vc_10620100003_024_01,chara_1
+message,ヒナギ,Oh，yes. Of course I can.<br> ,106201000G,vc_10620100003_024_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -477,7 +477,7 @@ asyncseplay,setag1_27,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヒナギ,『おまじない』を解きたいときは、<br>術に使用した形代を燃やしてしまえばいいんです。,106201000G,vc_10620100003_025_01,chara_1
+message,ヒナギ,To undo a charm，I simply need to burn<br>the katashiro that were used in the ritual.<br> ,106201000G,vc_10620100003_025_01,chara_1
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -501,7 +501,7 @@ emodelete,chara_1,0,0
 fade,In,Black,1
 
 window,on,0.15
-message,,ヒナギは手際よく、形代を燃やす準備を進め、すべて焼き払った。
+message,,Hinagi swiftly prepared and burned<br>every last katashiro.<br> 
 
 window,off
 wait,0.15
@@ -536,9 +536,9 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,はい。これで、『おまじない』の効果は消えたかと……<br>すみませんでした……,106201000G,vc_10620100003_026_01,chara_1
+message,ヒナギ,There. The charms' effects should be<br>gone now... I am truly sorry...<br> ,106201000G,vc_10620100003_026_01,chara_1
 
-message,<user>,あぁ。<br>……これで少しは休めそうだ。
+message,<user>,Yeah.<br>...I should finally be able to get some rest.<br> 
 
 window,off
 wait,0.15
@@ -560,7 +560,7 @@ asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,（……こんなことは初めてです）,106201000G,vc_10620100003_027_01,chara_1
+message,ヒナギ,(...This has never happened before.)<br> ,106201000G,vc_10620100003_027_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -571,7 +571,7 @@ asyncseplay,setag1_29,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ヒナギ,（でも、どうして皆が皆、司令官様をお慕いしているんだろう……？）,106201000G,vc_10620100003_028_01,chara_1
+message,ヒナギ,(But why does every single person<br>have feelings for Commander-sama...?)<br> ,106201000G,vc_10620100003_028_01,chara_1
 
 window,off
 wait,0.15
@@ -588,9 +588,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,もうこんな『おまじない』を掛けるのはやめてくれよ。
+message,<user>,Please don't do any more of these charms.<br> 
 
-message,<user>,俺は疲れたから、司令本部に戻って寝る！
+message,<user>,I'm exhausted.<br>I'm going back to headquarters to sleep!<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -601,9 +601,9 @@ asyncseplay,setag1_30,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヒナギ,あ。<br>お、お待ちください、司令官様。,106201000G,vc_10620100003_029_01,chara_1
+message,ヒナギ,Oh!<br>P-please wait，Commander-sama.<br> ,106201000G,vc_10620100003_029_01,chara_1
 
-message,<user>,うん？
+message,<user>,Hm?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -615,9 +615,9 @@ asyncseplay,setag1_31,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヒナギ,もし、よろしければなのですが――<br>巻き寿司を召し上がりませんか？,106201000G,vc_10620100003_030_01,chara_1
+message,ヒナギ,If it would not be too much trouble——<br>would you care for some sushi rolls?<br> ,106201000G,vc_10620100003_030_01,chara_1
 
-message,<user>,巻き寿司――確か、東方の料理だったかな？
+message,<user>,Sushi rolls—— that's an eastern dish，right?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -628,7 +628,7 @@ asyncseplay,setag1_32,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ヒナギ,はい！　エビ、クルミ、卵、黒ごまを使用して<br>私が作りました。,106201000G,vc_10620100003_031_01,chara_1
+message,ヒナギ,Yes! I made them myself using shrimp，<br>walnuts，egg，and black sesame.<br> ,106201000G,vc_10620100003_031_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -639,7 +639,7 @@ asyncseplay,setag1_33,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ヒナギ,陰と陽の食材を均等に取り入れた『薬膳巻き寿司』なので<br>疲労回復の効果があります。,106201000G,vc_10620100003_032_01,chara_1
+message,ヒナギ,They are ""medicinal sushi rolls"" that balance yin<br>and yang ingredients，so they help with fatigue!<br> ,106201000G,vc_10620100003_032_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -650,9 +650,9 @@ asyncseplay,setag1_34,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒナギ,せめてものお詫びです。<br>どうか、お召し上がりください。,106201000G,vc_10620100003_033_01,chara_1
+message,ヒナギ,It is the least I can do as an apology.<br>Please，have some.<br> ,106201000G,vc_10620100003_033_01,chara_1
 
-message,<user>,ふむ。<br>そういうことなら、頂いてみよう。
+message,<user>,Hmm.<br>Well，in that case，I'll try some.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -663,9 +663,9 @@ asyncseplay,setag1_35,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ヒナギ,……って、ああっ！,106201000G,vc_10620100003_034_01,chara_1
+message,ヒナギ,...Wait，oh no!<br> ,106201000G,vc_10620100003_034_01,chara_1
 
-message,<user>,どうした？
+message,<user>,What's wrong?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -676,9 +676,9 @@ asyncseplay,setag1_36,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ヒナギ,いけません……<br>形がグチャグチャで、とても他人様にお出しできるものでは――,106201000G,vc_10620100003_035_01,chara_1
+message,ヒナギ,Oh no...<br>They are all misshapen，I cannot possibly serve——<br> ,106201000G,vc_10620100003_035_01,chara_1
 
-message,<user>,味さえ確かなら、多少崩れている程度は気にしないぞ。<br>食べてしまえば同じだ。
+message,<user>,As long as they taste good，I don't mind<br>if they're a bit messy. It's all the same once you eat it.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -689,7 +689,7 @@ asyncseplay,setag1_37,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒナギ,そ、そうですよねっ！？<br>では、こちらを……,106201000G,vc_10620100003_036_01,chara_1
+message,ヒナギ,Y-you are absolutely right!<br>Then，please have this...<br> ,106201000G,vc_10620100003_036_01,chara_1
 
 window,off
 wait,0.15
@@ -703,7 +703,7 @@ asyncwait
 wait,1
 
 window,on,0.15
-message,<user>,……おおっ？　美味いな！？
+message,<user>,...Oh? This is good!?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -716,7 +716,7 @@ asyncseplay,setag1_38,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヒナギ,あ、良かったですっ！,106201000G,vc_10620100003_037_01,chara_1
+message,ヒナギ,Oh，I am so glad!<br> ,106201000G,vc_10620100003_037_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -727,9 +727,9 @@ asyncseplay,setag1_39,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ヒナギ,……さらに、私の気を司令官様に少し流し込んで<br>体内の気の流れも整えて差し上げます！,106201000G,vc_10620100003_038_01,chara_1
+message,ヒナギ,...And I will also channel a little of my ki<br>into you to balance the flow within your body!<br> ,106201000G,vc_10620100003_038_01,chara_1
 
-message,<user>,そんなことができるのか。<br>俺はどうすればいい？
+message,<user>,You can do that?<br>What do I need to do?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -737,7 +737,7 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,ヒナギ,食べながらで構いませんので、楽にしてください。<br>では、失礼します。,106201000G,vc_10620100003_039_01,chara_1
+message,ヒナギ,You may keep eating. Just relax.<br>Now then，please pardon me.<br> ,106201000G,vc_10620100003_039_01,chara_1
 
 window,off
 wait,0.15
@@ -776,7 +776,7 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,ヒナギは<user>の頭に手をかざし、<br>静かに目を閉じる。
+message,,Hinagi held her hand over %user%'s head<br>and gently closed her eyes.<br> 
 
 window,off
 wait,0.15
@@ -802,7 +802,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,（……えっ？<br>これが、司令官様の気！？）,106201000G,vc_10620100003_040_01,chara_1
+message,ヒナギ,(...Huh?<br>This is Commander-sama's ki!?)<br> ,106201000G,vc_10620100003_040_01,chara_1
 
 window,off
 wait,0.15
@@ -819,7 +819,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,,<user>の体内に流れる気を感じて、<br>ヒナギは驚きを隠せない。
+message,,Sensing the ki flowing through %user%'s body，<br>Hinagi could not hide her astonishment.<br> 
 
 window,off
 wait,0.15
@@ -846,7 +846,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,（すごく温かい……とても量が多くて、穏やか……）,106201000G,vc_10620100003_041_01,chara_1
+message,ヒナギ,(So warm... Such an immense volume，<br>and so tranquil...)<br> ,106201000G,vc_10620100003_041_01,chara_1
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -855,7 +855,7 @@ asyncseplay,setag1_42,se4800021,0,1,CONT,0
 asynccharaemo,chara_1,Imagination,CONT,0
 
 
-message,ヒナギ,（あぁ、でも、きっと、有事の際にはこれがすべて猛るモノに変わる――<br>見たわけでもないのに、それが、すぐに感じ取れる……）,106201000G,vc_10620100003_042_01,chara_1
+message,ヒナギ,(And yet，in a crisis，all of this would turn<br>ferocious—— I can feel it，even without seeing it...)<br> ,106201000G,vc_10620100003_042_01,chara_1
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -864,7 +864,7 @@ asyncseplay,setag1_43,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ヒナギ,（これが、英雄の血が持つ気の流れなんでしょうか……）,106201000G,vc_10620100003_043_01,chara_1
+message,ヒナギ,(Is this the ki flow that comes<br>with a hero's bloodline...?)<br> ,106201000G,vc_10620100003_043_01,chara_1
 
 
 
@@ -903,7 +903,7 @@ wait,1
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,<user>,……おおっ。体の疲れが抜けている。
+message,<user>,...Oh. The fatigue is fading from my body.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -914,11 +914,11 @@ asyncseplay,setag1_44,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヒナギ,気の流れが整い、強張りが解けたのでしょう。,106201000G,vc_10620100003_044_01,chara_1
+message,ヒナギ,Your ki flow has been balanced，<br>and the tension should have eased.<br> ,106201000G,vc_10620100003_044_01,chara_1
 
-message,<user>,『おまじない』には参ったが、助かったよ。<br>ありがとな。
+message,<user>,The charms were a headache，<br>but this really helped. Thanks.<br> 
 
-message,<user>,『薬膳巻き寿司』も、形はアレだったが本当に美味かった。<br>ごちそうさん。
+message,<user>,The medicinal sushi rolls were... well，they looked<br>rough，but they were delicious. Thanks for the meal.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -929,7 +929,7 @@ asyncseplay,setag1_45,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヒナギ,ふふっ。喜んでいただけて何よりですっ！,106201000G,vc_10620100003_045_01,chara_1
+message,ヒナギ,Hehe. Nothing makes me happier<br>than seeing you pleased!<br> ,106201000G,vc_10620100003_045_01,chara_1
 
 window,off
 wait,0.15
@@ -956,7 +956,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,（でも、本当にすごい……少し気を送っただけなのに<br>司令官様の体内にもうこんなに活力がみなぎっているなんて）,106201000G,vc_10620100003_046_01,chara_1
+message,ヒナギ,(But truly，how incredible... I only sent a small<br>amount of ki，yet his body is already overflowing with vitality.)<br> ,106201000G,vc_10620100003_046_01,chara_1
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -968,7 +968,7 @@ asyncseplay,setag1_47,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ヒナギ,（きっと、こういう方だから皆様が司令官様をお慕いして――）,106201000G,vc_10620100003_047_01,chara_1
+message,ヒナギ,(Surely，it is because he is this kind of person<br>that everyone is drawn to Commander-sama——)<br> ,106201000G,vc_10620100003_047_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -979,7 +979,7 @@ asyncseplay,setag1_48,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,ヒナギ,（……？　ちょっと待って。<br>皆様の恋慕――すなわち、気を集めている？）,106201000G,vc_10620100003_048_01,chara_1
+message,ヒナギ,(...? Wait a moment.<br>Everyone's affection—— in other words，he is gathering ki?)<br> ,106201000G,vc_10620100003_048_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -990,7 +990,7 @@ asyncseplay,setag1_49,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ヒナギ,（先ほどの温かい流れは、司令官様のモノだけではなく<br>皆様の気が流れ込んでいるから……？）,106201000G,vc_10620100003_049_01,chara_1
+message,ヒナギ,(That warm flow I felt was not his alone——<br>it was everyone's ki flowing into him...?)<br> ,106201000G,vc_10620100003_049_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1001,7 +1001,7 @@ asyncseplay,setag1_50,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ヒナギ,（まさか、この方こそ、私の探していた『龍穴』そのものでは！？）,106201000G,vc_10620100003_050_01,chara_1
+message,ヒナギ,(Could it be that this man himself is the very<br>""dragon's den"" I have been searching for!?)<br> ,106201000G,vc_10620100003_050_01,chara_1
 
 window,off
 wait,0.15
@@ -1018,7 +1018,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,……？<br>どうした、ヒナギ。
+message,<user>,...?<br>What's wrong，Hinagi?<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1027,9 +1027,9 @@ asyncseplay,setag1_51,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒナギ,あ、え？,106201000G,vc_10620100003_051_01,chara_1
+message,ヒナギ,Oh，huh?<br> ,106201000G,vc_10620100003_051_01,chara_1
 
-message,<user>,俺の顔に何かついているか？
+message,<user>,Is there something on my face?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1040,7 +1040,7 @@ asyncseplay,setag1_52,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒナギ,い、いえ、そうではなく――,106201000G,vc_10620100003_052_01,chara_1
+message,ヒナギ,N-no，that is not it——<br> ,106201000G,vc_10620100003_052_01,chara_1
 
 window,off
 wait,0.15
@@ -1066,7 +1066,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,（確かめたい……この方の器の大きさを……）,106201000G,vc_10620100003_053_01,chara_1
+message,ヒナギ,(I want to confirm it...<br>the magnitude of this man's capacity...)<br> ,106201000G,vc_10620100003_053_01,chara_1
 
 window,off
 wait,0.15
@@ -1089,7 +1089,7 @@ asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,……あの、司令官様。<br>先日お誘いいただいたお食事の件なのですが……,106201000G,vc_10620100003_054_01,chara_1
+message,ヒナギ,...Um，Commander-sama.<br>About the meal you invited me to the other day...<br> ,106201000G,vc_10620100003_054_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1100,7 +1100,7 @@ asyncseplay,setag1_54,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ヒナギ,も、もしお時間あるようでしたら、本日じゃだめですか？,106201000G,vc_10620100003_055_01,chara_1
+message,ヒナギ,I-if you have the time，<br>could we perhaps go today?<br> ,106201000G,vc_10620100003_055_01,chara_1
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -1109,9 +1109,9 @@ asyncseplay,setag1_55,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヒナギ,司令官様のお話、色々と聞きたくて……,106201000G,vc_10620100003_056_01,chara_1
+message,ヒナギ,I would love to hear all sorts of things<br>about you，Commander-sama...<br> ,106201000G,vc_10620100003_056_01,chara_1
 
-message,<user>,んー、そうだな……<br>夜までは休みたいが、その後でいいなら構わないぞ。
+message,<user>,Hmm，well...<br>I want to rest until evening，but after that is fine.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1122,9 +1122,9 @@ asyncseplay,setag1_56,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ヒナギ,はい！　ぜひ、お願いいたします！,106201000G,vc_10620100003_057_01,chara_1
+message,ヒナギ,Yes! I would love that!<br> ,106201000G,vc_10620100003_057_01,chara_1
 
-message,<user>,……結局、『おまじない』が解けてもデートをすることになるんだな。<br>まぁ、悪い気はしないが。
+message,<user>,...So even after undoing the charms，<br>I still end up on a date. Not that I mind.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1135,9 +1135,9 @@ asyncseplay,setag1_57,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ヒナギ,え、で、デート？,106201000G,vc_10620100003_058_01,chara_1
+message,ヒナギ,W-wait，a d-date?<br> ,106201000G,vc_10620100003_058_01,chara_1
 
-message,<user>,男と女、２人で食事をするんだ。<br>デートだろう？
+message,<user>,A man and a woman，having dinner together.<br>That's a date，isn't it?<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1146,7 +1146,7 @@ asyncseplay,setag1_58,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒナギ,た、確かに……？,106201000G,vc_10620100003_059_01,chara_1
+message,ヒナギ,W-well，I suppose...?<br> ,106201000G,vc_10620100003_059_01,chara_1
 
 window,off
 wait,0.15
@@ -1172,7 +1172,7 @@ asynccharaemo,chara_1,Shy,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,（で、デート……殿方と、２人きりで……）,106201000G,vc_10620100003_060_01,chara_1
+message,ヒナギ,(A-a date... alone with a gentleman...)<br> ,106201000G,vc_10620100003_060_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1183,7 +1183,7 @@ asyncseplay,setag1_60,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ヒナギ,（はっ！？　私の気脈が乱れている……？<br>これが、恋というものでしょうか！？）,106201000G,vc_10620100003_061_01,chara_1
+message,ヒナギ,(Wha!? My ki flow is in disarray...?<br>Is this what they call... love!?)<br> ,106201000G,vc_10620100003_061_01,chara_1
 
 window,off
 wait,0.15
@@ -1200,7 +1200,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,夜になったら部屋へ迎えに行くからな。<br>よろしく。
+message,<user>,I'll come to your room when evening comes.<br>Looking forward to it.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1209,7 +1209,7 @@ asyncseplay,setag1_61,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒナギ,は、はひっ！<br>こちらこそ、よろしくお願いいたします……っ！,106201000G,vc_10620100003_062_01,chara_1
+message,ヒナギ,Y-yesh!<br>I-I look forward to it as well...!<br> ,106201000G,vc_10620100003_062_01,chara_1
 
 bgmstop,bgmtag1_3,1.5,0
 
@@ -1234,7 +1234,7 @@ emodelete,chara_1,0,0
 fade,In,Black,1
 
 window,on,0.15
-message,,その後、<user>が来るまで、<br>ヒナギは正座をして宿舎の部屋で待った。
+message,,After that，Hinagi sat in formal seiza position<br>in her room，waiting until %user% arrived.<br> 
 
 window,off
 wait,0.15
@@ -1280,7 +1280,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,（英雄、色を好むと言いますが……<br>いやまさか、初めてのデートで、そんな、いきなりは……）,106201000G,vc_10620100003_063_01,chara_1
+message,ヒナギ,(They do say heroes have an eye for beauty，but...<br>no，surely on a first date，he would not just...)<br> ,106201000G,vc_10620100003_063_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1291,7 +1291,7 @@ asyncseplay,setag1_63,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒナギ,（で、でもでも、もしかしたら……？）,106201000G,vc_10620100003_064_01,chara_1
+message,ヒナギ,(B-but then again，what if...?)<br> ,106201000G,vc_10620100003_064_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1302,7 +1302,7 @@ asyncseplay,setag1_64,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ヒナギ,（うう～、こんなことになるなら、恥ずかしがらずに<br>お母様からもっと色々聞いておけばよかった～！！）,106201000G,vc_10620100003_065_01,chara_1
+message,ヒナギ,(Uuu~，if I knew this would happen，I should have<br>swallowed my pride and asked Mother more about this~!!)<br> ,106201000G,vc_10620100003_065_01,chara_1
 
 window,off
 wait,0.15
@@ -1330,7 +1330,7 @@ wait,1
 fade,In,Black,1
 
 window,on,0.15
-message,,しかし、期待していたことは何も起こらず、この日は健全解散となった。<br>緊張から解放されたヒナギは部屋の中で崩れ落ち、朝まで熟睡したのであった。
+message,,However，nothing she had anticipated came to pass，and the evening<br>ended innocently. Freed from her tension，Hinagi collapsed in her room and slept soundly until morning.<br> 
 
 window,off
 bgmstop,bgmtag1_4,0.5

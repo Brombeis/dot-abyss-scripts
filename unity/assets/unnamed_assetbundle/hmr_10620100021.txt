@@ -18,7 +18,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Infiltrating the Brothel
 
 wait,1
 
@@ -52,7 +52,7 @@ wait,1
 wait,0.5
 
 window,on,0.15
-message,,<user>の呪詛を取り除いてから数日が経過している。<br>ヒナギは娼館で働き、体調の優れない男たちに秘術を施すようになっていた。
+message,,Days had passed since %user%'s curse was lifted. Hinagi had begun<br>working at the brothel，treating ailing men with her secret arts.<br> 
 
 window,off
 wait,0.15
@@ -106,7 +106,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,ルディア,ヒナギさんすごい人気ね。<br>でも、どうしてここで働こうって思ったんですか？,300301000,vc_10620100021_001_01,chara_2
+message,ルディア,You're quite popular，Hinagi-san.<br>But what made you want to work here?<br> ,300301000,vc_10620100021_001_01,chara_2
 
 window,off
 wait,0.15
@@ -125,7 +125,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒナギ,最初は恥ずかしくてちょっと抵抗もあったんですが――<br>誰かのお役に立てることは、やっぱり嬉しいですから。,106201000X,vc_10620100021_002_01,chara_1
+message,ヒナギ,At first I was embarrassed and a bit reluctant——<br>but being able to help others makes me happy.<br> ,106201000X,vc_10620100021_002_01,chara_1
 
 asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
 
@@ -134,7 +134,7 @@ asyncseplay,setag1_3,se4800003,0,1,CONT,0
 asynccharaemo,chara_2,Twinkle,CONT,0
 
 
-message,ルディア,本当にいい子ね、あなたは。,300301000,vc_10620100021_003_01,chara_2
+message,ルディア,You really are a good girl.<br> ,300301000,vc_10620100021_003_01,chara_2
 
 window,off
 wait,0.15
@@ -174,15 +174,15 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,しかし、ヒナギが娼館で働き始めた理由は、<br>『誰かの役に立ちたい』という単純なものではなかった。
+message,,But Hinagi's reason for working at the brothel was<br>not as simple as wanting to help.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
-message,,ヒナギの部屋に張った結界を破り、呪術の本を盗み出し、<br><user>を狙った犯人の追究。
+message,,She was hunting the culprit who broke her barrier，<br>stole her spellbook，and targeted %user%.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
-message,,呪術に染まった人間が持つ独特の”邪気”の手がかりを得る為、<br>前線基地で数多くの欲望が集中して渦巻くこの店に潜入したのだ。
+message,,To find traces of the distinct evil ki carried by those tainted with<br>dark sorcery，she infiltrated this place where desires converge.<br> 
 
 window,off
 wait,0.15
@@ -208,7 +208,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒナギ,（犯人の邪気に直接触れなくても、その犯人に少しでも接触のあった<br>人間を見つけることができればきっと手掛かりに……）,106201000X,vc_10620100021_004_01,chara_1
+message,ヒナギ,(Even without directly touching the culprit's ki，if I can find<br>someone who has had even slight contact，it could be a lead...)<br> ,106201000X,vc_10620100021_004_01,chara_1
 
 window,off
 wait,0.15
@@ -267,7 +267,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,ルディア,……あら？<br>お客様ね。いらっしゃいませ～♪,300301000,vc_10620100021_005_01,chara_2
+message,ルディア,...Oh my?<br>A customer. Welcome~♪<br> ,300301000,vc_10620100021_005_01,chara_2
 
 
 window,off
@@ -314,7 +314,7 @@ wait,0.5
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
 window,on,0.15
-message,,客が指名したのはヒナギだった。<br>個室に移った男は、ヒナギに『最近、体調が優れなくて……』と語り始める。
+message,,The customer requested Hinagi. Once in a private room，<br>the man began: ""I haven't been feeling well lately...""<br> 
 
 
 window,off
@@ -334,7 +334,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒナギ,秘術の噂を聞いてご来店くださったんですね……<br>ありがとうございます。,106201000X,vc_10620100021_006_01,chara_1
+message,ヒナギ,You heard about the secret arts and came here...<br>Thank you for visiting.<br> ,106201000X,vc_10620100021_006_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -345,7 +345,7 @@ asyncseplay,setag1_7,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヒナギ,体内には陰と陽の気の流れがあります。<br>それらのバランスが崩れているのかもしれませんね……,106201000X,vc_10620100021_007_01,chara_1
+message,ヒナギ,There are yin and yang ki flows within the body.<br>Their balance may have been disrupted...<br> ,106201000X,vc_10620100021_007_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -356,9 +356,9 @@ asyncseplay,setag1_8,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ヒナギ,崩れた均衡を整えるだけで、気の浄化は可能です。<br>あちらに座って、肩の力を抜いてもらえますか？,106201000X,vc_10620100021_008_01,chara_1
+message,ヒナギ,Simply restoring that balance can purify the ki.<br>Please sit over there and relax.<br> ,106201000X,vc_10620100021_008_01,chara_1
 
-message,,頷いた男はベッドに座る。<br>ヒナギは衣装を脱ぎ、施術の準備に掛かる。
+message,,The man nodded and sat on the bed.<br>Hinagi undressed and prepared for the treatment.<br> 
 
 window,off
 wait,0.15
@@ -392,7 +392,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,人間が持つ邪気を感じるには、その身体に触れるだけでよかった。<br>しかし、気の種類まで詳細に感じ取る方法はただ１つだけ。
+message,,Sensing evil ki required only physical contact.<br>But to read its precise nature，there was only one way.<br> 
 
 window,off
 wait,0.15
@@ -406,7 +406,7 @@ asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 wait,0.5
 
 window,on,0.15
-message,,それは、人間の最も敏感な部分――<br>つまり、性器と性器で直接触れ合うことに他ならなかった……
+message,,Through the body's most sensitive point——<br>direct intimate contact...<br> 
 
 labeljump,b
 

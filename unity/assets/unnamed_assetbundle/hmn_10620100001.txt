@@ -20,7 +20,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,The Onmyouji from the East
 
 wait,1
 
@@ -36,9 +36,9 @@ asynccharashowalpha,chara_2,1,0.3,CONT,0
 asynccharashowalpha,chara_3,1,0.3,CONT,0
 
 window,on,0.15
-message,,――<user>は兵士たちを連れて<br>とある川の様子を見に来ていた。
+message,,%user% had brought some soldiers along<br>to inspect a certain river.<br> 
 
-message,<user>,ここが例の場所か。
+message,<user>,So this is the place.<br> 
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -49,7 +49,7 @@ asyncseplay,setag1_1,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,兵士Ａ,えぇ。大雨が降ると水位が上がる危険な場所です。,401001000,vc_10620100001_001_01,chara_2
+message,兵士Ａ,Yes. The water level rises dangerously<br>whenever there's heavy rain.<br> ,401001000,vc_10620100001_001_01,chara_2
 
 asyncshake,CHARA,chara_3,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -58,13 +58,13 @@ asyncseplay,setag1_2,se4800006,0,1,CONT,0
 asynccharaemo,chara_3,Trouble,CONT,0
 
 
-message,兵士Ｂ,過去に何度も氾濫していて、堤防を築いても<br>すぐに崩壊してしまうんですよ……,401301000,vc_10620100001_002_01,chara_3
+message,兵士Ｂ,It's flooded numerous times in the past，<br>and any levees we build just collapse...<br> ,401301000,vc_10620100001_002_01,chara_3
 
-message,<user>,ふーむ……早めに対応したいが……<br>いったい何が悪いんだ……？
+message,<user>,Hmm... I'd like to deal with this soon，<br>but what exactly is causing the problem...?<br> 
 
-message,<user>,んっ？
+message,<user>,Hm?<br> 
 
-message,,<user>は<br>近くに見慣れない格好をした女性がいるのに気が付いた。
+message,,%user% noticed a woman nearby<br>dressed in unfamiliar garb.<br> 
 
 window,off
 wait,0.15
@@ -108,7 +108,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,？？？,この川……<br>気の流れが悪いですね……,106201000G,vc_10620100001_003_01,chara_1
+message,？？？,This river...<br>The flow of ki is quite poor...<br> ,106201000G,vc_10620100001_003_01,chara_1
 
 window,off
 wait,0.15
@@ -143,7 +143,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,治水について、何か分かるのか？
+message,<user>,Do you know something about flood control?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -154,9 +154,9 @@ asyncseplay,setag1_4,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,？？？,えっ？,106201000G,vc_10620100001_004_01,chara_1
+message,？？？,Huh?<br> ,106201000G,vc_10620100001_004_01,chara_1
 
-message,<user>,あぁ、急にすまない。<br>俺も仕事で、川の様子を見に来ていたんだ。
+message,<user>,Ah，sorry for the sudden question.<br>I'm here on business to check on the river too.<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -165,9 +165,9 @@ asyncseplay,setag1_5,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,？？？,まぁっ、そうでしたか！<br>邪魔をしてしまって申し訳ございません。,106201000G,vc_10620100001_005_01,chara_1
+message,？？？,Oh my! Is that so!<br>I am terribly sorry for being in the way.<br> ,106201000G,vc_10620100001_005_01,chara_1
 
-message,<user>,いや、構わない。<br>それより、えぇと……名前はなんと言う？
+message,<user>,No，not at all.<br>More importantly，uh... what's your name?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -179,9 +179,9 @@ asyncseplay,setag1_6,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,？？？,ヒナギと申します。,106201000G,vc_10620100001_006_01,chara_1
+message,？？？,My name is Hinagi.<br> ,106201000G,vc_10620100001_006_01,chara_1
 
-message,,<user>はヒナギに<br>自分が前線基地の司令官であることを話した。
+message,,%user% told Hinagi<br>that he was the commander of the forward base.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -192,9 +192,9 @@ asyncseplay,setag1_7,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ヒナギ,司令官様でしたかっ！<br>お会いできて光栄です。,106201000G,vc_10620100001_007_01,chara_1
+message,ヒナギ,You are the Commander-sama!<br>It is an honor to meet you!<br> ,106201000G,vc_10620100001_007_01,chara_1
 
-message,<user>,ヒナギはどこの出身だ？
+message,<user>,Where are you from，Hinagi?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -206,9 +206,9 @@ asyncseplay,setag1_8,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ヒナギ,トレスリア地方のはるか東、ホウライ国からやってまいりました。<br>陰陽師を営んでおります。,106201000G,vc_10620100001_008_01,chara_1
+message,ヒナギ,I have come from Hourai Country，far to<br>the east of Treslia. I practice as an onmyouji.<br> ,106201000G,vc_10620100001_008_01,chara_1
 
-message,<user>,陰陽師……確か、主に吉凶を占う職業だな？
+message,<user>,An onmyouji... That's a profession that<br>mainly divines fortune and misfortune，right?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -219,7 +219,7 @@ asyncseplay,setag1_9,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヒナギ,その通りです。<br>司令官様は博識でいらっしゃいますね。,106201000G,vc_10620100001_009_01,chara_1
+message,ヒナギ,That is correct!<br>You are most knowledgeable，Commander-sama.<br> ,106201000G,vc_10620100001_009_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -231,7 +231,7 @@ asyncseplay,setag1_10,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヒナギ,私は占いだけではなく、祈祷や呪術にも長けております。,106201000G,vc_10620100001_010_01,chara_1
+message,ヒナギ,I am skilled not only in divination，<br>but also in prayer rituals and sorcery.<br> ,106201000G,vc_10620100001_010_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -242,9 +242,9 @@ asyncseplay,setag1_11,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ヒナギ,先ほど、川を見て『気が悪い』と口にしていたのも<br>水の流れを解いたうえでの言葉でした。,106201000G,vc_10620100001_011_01,chara_1
+message,ヒナギ,When I said the ki was ""poor"" while looking<br>at the river，it was based on reading the flow.<br> ,106201000G,vc_10620100001_011_01,chara_1
 
-message,<user>,ほう。詳しく聞かせてくれ。
+message,<user>,Oh? Tell me more.<br> 
 
 window,off
 wait,0.15
@@ -261,7 +261,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,はい。この川は曲線が急な形状をしているのがよくありません。,106201000G,vc_10620100001_012_01,chara_1
+message,ヒナギ,Yes! The problem is that this river has<br>very sharp curves in its shape.<br> ,106201000G,vc_10620100001_012_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -272,14 +272,14 @@ asyncseplay,setag1_13,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒナギ,そのせいで、曲線の外側は水と大地が強くぶつかり合ってしまい、<br>水流が乱れてしまうのです。,106201000G,vc_10620100001_013_01,chara_1
+message,ヒナギ,Because of that，the water and earth clash<br>violently on the outer bends，disrupting the flow.<br> ,106201000G,vc_10620100001_013_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
 
-message,ヒナギ,大雨で水量が増えると、水の流れは当然強く、大きくなりますよね。,106201000G,vc_10620100001_014_01,chara_1
+message,ヒナギ,When heavy rain increases the water volume，<br>the current naturally grows stronger，yes?<br> ,106201000G,vc_10620100001_014_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -290,7 +290,7 @@ asyncseplay,setag1_14,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ヒナギ,結果、大地は水の勢いを受け止めきれず、崩壊……<br>洪水が起きてしまうでしょう。,106201000G,vc_10620100001_015_01,chara_1
+message,ヒナギ,As a result，the earth cannot withstand the<br>force of the water，it collapses... and floods.<br> ,106201000G,vc_10620100001_015_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -301,9 +301,9 @@ asyncseplay,setag1_15,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒナギ,おそらくですが、堤防を築いても役に立たなかったのではないでしょうか？,106201000G,vc_10620100001_016_01,chara_1
+message,ヒナギ,I would imagine that building levees<br>has not been effective either，has it?<br> ,106201000G,vc_10620100001_016_01,chara_1
 
-message,<user>,……その通りだ。要は、水の流れが自然ではないことが<br>原因という見立てだな。
+message,<user>,...Exactly right. So you believe the cause is<br>that the water's flow is unnatural.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -314,11 +314,11 @@ asyncseplay,setag1_16,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヒナギ,はい。司令官様は本当に頭が良い方ですね。<br>理解が早くて、素晴らしいです！,106201000G,vc_10620100001_017_01,chara_1
+message,ヒナギ,Yes! You are truly sharp，Commander-sama.<br>Such quick understanding — how wonderful!<br> ,106201000G,vc_10620100001_017_01,chara_1
 
-message,<user>,ハハッ、ありがとう。
+message,<user>,Haha，thanks.<br> 
 
-message,<user>,しかし、そうなると川の流れを緩やかにするための工事が必要だな……<br>人手も時間も掛かりそうだ。
+message,<user>,But if that's the case，we'd need construction<br>to ease the flow... That would take manpower and time.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -330,9 +330,9 @@ asyncseplay,setag1_17,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヒナギ,……あの、もしよろしければ、私にお任せください。,106201000G,vc_10620100001_018_01,chara_1
+message,ヒナギ,...Um，if you would allow me，<br>please leave this to me.<br> ,106201000G,vc_10620100001_018_01,chara_1
 
-message,<user>,何か解決策があるのか？
+message,<user>,You have a solution?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -343,7 +343,7 @@ asyncseplay,setag1_18,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ヒナギ,はいっ！　陰陽師は気の流れを読むだけでなく、<br>呪術で気を調節する術も日々、研究しております。,106201000G,vc_10620100001_019_01,chara_1
+message,ヒナギ,Yes! Onmyouji do not merely read the flow of<br>ki — we also study the art of adjusting it daily!<br> ,106201000G,vc_10620100001_019_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -354,7 +354,7 @@ asyncseplay,setag1_19,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ヒナギ,たとえば、こういったものを使って――,106201000G,vc_10620100001_020_01,chara_1
+message,ヒナギ,For example，using something like this——<br> ,106201000G,vc_10620100001_020_01,chara_1
 
 window,off
 wait,0.15
@@ -371,12 +371,12 @@ asyncjump,CHARA,chara_1,-40,1.8,1,off,0,CONT
 asyncwait
 
 window,on,0.15
-message,,ヒナギは懐から紙を取り出す。<br>人型に切り抜いた紙だ。
+message,,Hinagi produced a piece of paper from her robes.<br>It was cut into the shape of a human figure.<br> 
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
 
-message,ヒナギ,<ruby=かたしろ>形代</>と呼ばれる護符です。,106201000G,vc_10620100001_021_01,chara_1
+message,ヒナギ,This is a talisman called a katashiro.<br> ,106201000G,vc_10620100001_021_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -387,7 +387,7 @@ asyncseplay,setag1_20,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヒナギ,こちらを使って、川の問題を解決してみせましょうっ！,106201000G,vc_10620100001_022_01,chara_1
+message,ヒナギ,Allow me to use this to solve<br>the river's problem!<br> ,106201000G,vc_10620100001_022_01,chara_1
 
 window,off
 wait,0.15
@@ -403,7 +403,7 @@ asyncjump,CHARA,chara_1,-20,2.5,2,off,0,CONT
 asyncwait
 
 window,on,0.15
-message,,自信たっぷりに言い放ったヒナギは筆で形代に文字を書き込み、<br>呪文を唱え始めた。
+message,,Brimming with confidence，Hinagi inscribed<br>characters onto the katashiro and began chanting.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -414,7 +414,7 @@ asyncseplay,setag1_21,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ヒナギ,清らかなる命の源、水よ……,106201000G,vc_10620100001_023_01,chara_1
+message,ヒナギ,O water，pure wellspring of life...<br> ,106201000G,vc_10620100001_023_01,chara_1
 
 linework,on,White,Middle
 
@@ -427,7 +427,7 @@ asyncseplay,setag1_22,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ヒナギ,その怒りの波を静め、恵の水と化せ！,106201000G,vc_10620100001_024_01,chara_1
+message,ヒナギ,Still your wrathful waves<br>and become water of blessing!<br> ,106201000G,vc_10620100001_024_01,chara_1
 
 window,off
 wait,0.15
@@ -454,9 +454,9 @@ transitionCrossFade,Tra01,1
 wait,1
 
 window,on,0.15
-message,,護符はヒナギの手から離れ、ふわふわと川に向かっていく。
+message,,The talisman left Hinagi's hand<br>and drifted gently toward the river.<br> 
 
-message,<user>,……川に沈んでしまったぞ？<br>いいのか？
+message,<user>,...It sank into the river?<br>Is that supposed to happen?<br> 
 
 window,off
 wait,0.15
@@ -495,7 +495,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,大丈夫です。ちゃんと作用しています。,106201000G,vc_10620100001_025_01,chara_1
+message,ヒナギ,It is fine. It is working as intended.<br> ,106201000G,vc_10620100001_025_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -506,7 +506,7 @@ asyncseplay,setag1_24,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ヒナギ,……ご覧ください。<br>来ますよ！,106201000G,vc_10620100001_026_01,chara_1
+message,ヒナギ,...Please，watch closely.<br>Here it comes!<br> ,106201000G,vc_10620100001_026_01,chara_1
 
 window,off
 wait,0.15
@@ -538,7 +538,7 @@ asyncshake,CHARA,chara_2,24,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_3,24,0,0.6,5,off,off,0,on,CONT,0
 
 window,on,0.15
-message,,――ゴゴゴゴゴ！
+message,,——RRRUMMMBBLE!<br> 
 
 window,off
 wait,0.15
@@ -587,9 +587,9 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 
 window,on,0.15
-message,兵士Ｂ,し、司令官！<br>川の水が勢いを増しています！？,401301000,vc_10620100001_027_01,chara_3
+message,兵士Ｂ,C-Commander!<br>The river is surging!?<br> ,401301000,vc_10620100001_027_01,chara_3
 
-message,<user>,おいおい！<br>洪水を起こしてどうするんだ！？
+message,<user>,Hey，hey!<br>What good is causing a flood!?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -600,7 +600,7 @@ asyncseplay,setag1_26,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヒナギ,どうぞご安心ください。<br>……川が自ら、在るべき姿に変わろうとしているだけですから。,106201000G,vc_10620100001_028_01,chara_1
+message,ヒナギ,Please，rest assured.<br>...The river is simply reshaping itself as it should.<br> ,106201000G,vc_10620100001_028_01,chara_1
 
 window,off
 wait,0.15
@@ -627,19 +627,19 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,落ち着き払っているヒナギを信じて<user>は<br>川の様子を見守る。すると――
+message,,Trusting Hinagi's calm composure，%user%<br>watched the river closely. Then——<br> 
 
-message,<user>,川の水が２股に分かれていく……！？
+message,<user>,The river is splitting in two...!?<br> 
 
 sestop,se1_1001,2.5
 
-message,兵士Ａ,水流も、だんだんと緩やかになっていませんか……？,401001000,vc_10620100001_029_01,
+message,兵士Ａ,Isn't the current gradually slowing down too...?<br> ,401001000,vc_10620100001_029_01,
 
 bgmstop,bgmtag1_1,1.5,0
 
-message,,しばらくすると、川の水は穏やかに流れるようになった。
+message,,Before long，the river settled into a calm flow.<br> 
 
-message,<user>,すごい……！<br>川が２つに分断されてしまった！
+message,<user>,Incredible...!<br>The river has split into two channels!<br> 
 
 window,off
 wait,0.15
@@ -690,7 +690,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,いかがでしょう？<br>問題は解決できましたでしょうか？,106201000G,vc_10620100001_030_01,chara_1
+message,ヒナギ,How is it?<br>Has the problem been resolved?<br> ,106201000G,vc_10620100001_030_01,chara_1
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -702,7 +702,7 @@ asyncseplay,setag1_28,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,兵士Ａ,これならもう氾濫の心配はなさそうです！,401001000,vc_10620100001_031_01,chara_2
+message,兵士Ａ,With this，there should be<br>no more risk of flooding!<br> ,401001000,vc_10620100001_031_01,chara_2
 
 window,off
 wait,0.15
@@ -748,9 +748,9 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,ふふっ。良かったですっ！,106201000G,vc_10620100001_032_01,chara_1
+message,ヒナギ,Hehe. I am so glad!<br> ,106201000G,vc_10620100001_032_01,chara_1
 
-message,<user>,ヒナギ、俺からも礼を言わせてくれ。<br>礼金は後でしっかり払わせてもらうからな。
+message,<user>,Hinagi，let me thank you as well.<br>I'll make sure you're properly compensated later.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -761,9 +761,9 @@ asyncseplay,setag1_30,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒナギ,あ、いえいえ！　お心遣いは結構です！<br>お力になれて、私も嬉しいですから！,106201000G,vc_10620100001_033_01,chara_1
+message,ヒナギ,Oh，no no! Your kindness is more than enough!<br>Being able to help makes me happy too!<br> ,106201000G,vc_10620100001_033_01,chara_1
 
-message,<user>,ハハッ。気持ちがいい奴だな。
+message,<user>,Haha. You're a good sort.<br> 
 
 window,off
 wait,0.15
@@ -778,7 +778,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（何より、この力はすごい……とんでもない奴が来てくれた。<br>このまま逃がす手はない）
+message,<user>,(Above all，that power is incredible...<br>I can't let someone like this slip away.)<br> 
 
 window,off
 wait,0.15
@@ -793,7 +793,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,せっかくだし、もっと陰陽師について話を聞きたい。<br>前線基地に寄ってくれないか？
+message,<user>,Since you're here，I'd love to hear more about<br>onmyoudou. Would you stop by the forward base?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -804,7 +804,7 @@ asyncseplay,setag1_31,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ヒナギ,ぜひ、よろしくお願いします。<br>願ったり叶ったりです。,106201000G,vc_10620100001_034_01,chara_1
+message,ヒナギ,By all means，I would be delighted!<br>That is exactly what I was hoping for!<br> ,106201000G,vc_10620100001_034_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -816,9 +816,9 @@ asyncseplay,setag1_32,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヒナギ,――と言いますのも、実は私、前線基地へ向かっていましたから。,106201000G,vc_10620100001_035_01,chara_1
+message,ヒナギ,——You see，I was actually on my way<br>to the forward base myself.<br> ,106201000G,vc_10620100001_035_01,chara_1
 
-message,<user>,なんだ、前線基地に用事だったのか？
+message,<user>,Oh? You had business at the forward base?<br> 
 
 window,off
 wait,0.15
@@ -837,9 +837,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒナギ,えぇ。正確には、大穴の調査をしたかったのですが――,106201000G,vc_10620100001_036_01,chara_1
+message,ヒナギ,Yes. To be precise，I wished to investigate<br>the Abyss，but——<br> ,106201000G,vc_10620100001_036_01,chara_1
 
-message,<user>,ふむ……？
+message,<user>,Hmm...?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -850,11 +850,11 @@ asyncseplay,setag1_34,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヒナギ,その件も含めて、ゆっくりお話しができると嬉しいですっ！,106201000G,vc_10620100001_037_01,chara_1
+message,ヒナギ,I would love to discuss that<br>and more at length!<br> ,106201000G,vc_10620100001_037_01,chara_1
 
-message,<user>,分かった。このまま前線基地へ行こう。<br>副司令官のアリシアも紹介したい。
+message,<user>,All right. Let's head to the forward base.<br>I'd like to introduce you to my adjutant，Alicia.<br> 
 
-message,<user>,着いたら、アリシアにお茶をいれさせるよ。
+message,<user>,I'll have Alicia make us some tea<br>when we arrive.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -865,7 +865,7 @@ asyncseplay,setag1_35,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ヒナギ,ありがとうございますっ！<br>楽しみですっ！！,106201000G,vc_10620100001_038_01,chara_1
+message,ヒナギ,Thank you so much!<br>I cannot wait!!<br> ,106201000G,vc_10620100001_038_01,chara_1
 
 window,off
 wait,0.15
@@ -880,7 +880,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（陰陽師のヒナギか……どんな話が聞けるか、楽しみだ）
+message,<user>,(An onmyouji named Hinagi...<br>I'm looking forward to hearing what she has to say.)<br> 
 
 window,off
 bgmstop,bgmtag1_2,0.5

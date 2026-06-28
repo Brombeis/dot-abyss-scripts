@@ -15,7 +15,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Your Turn to Save Me
 
 wait,1
 
@@ -27,9 +27,9 @@ asyncseplay,setag1_1,se4300007,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,<user>,ヒナギ！
+message,<user>,Hinagi!<br> 
 
-message,,娼館の１室のドアが開き、<br><user>が勢いよく飛び込んでくる。
+message,,The door to a room in the brothel burst open<br>as %user% rushed inside.<br> 
 
 window,off
 wait,0.15
@@ -60,7 +60,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,ベッドの上には顔面蒼白のヒナギが寝かされ、<br>苦悶の表情で荒い呼吸を繰り返していた。
+message,,On the bed lay Hinagi，deathly pale，<br>her face contorted in agony as she gasped for breath.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -71,11 +71,11 @@ asyncseplay,setag1_2,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ヒナギ,司令官、様……ごめんなさい……<br>ちょっと邪気払いに失敗してしまったみたいで――,106201000X,vc_10620100031_001_01,chara_1
+message,ヒナギ,Commander... sama... I am sorry...<br>It seems I failed the purification——<br> ,106201000X,vc_10620100031_001_01,chara_1
 
-message,,ヒナギは<user>に呪詛を掛けた犯人を突き止め、<br>その邪気を浄化してしまったことを告げる。
+message,,Hinagi told %user% that she had found the culprit<br>who cursed him and had purified the evil ki.<br> 
 
-message,<user>,まさか、その際に……？
+message,<user>,Don't tell me — in the process...?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -87,11 +87,11 @@ asyncseplay,setag1_3,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒナギ,はい。その者の邪気を吸収してしまい、体内の気のバランスが乱れています。<br>私と同等の能力を持つ陰陽師の協力がないと、このままでは……,106201000X,vc_10620100031_002_01,chara_1
+message,ヒナギ,Yes. I absorbed his evil ki and my internal balance is disrupted.<br>Without an onmyouji of equal skill，at this rate...<br> ,106201000X,vc_10620100031_002_01,chara_1
 
-message,,ヒナギの表情が曇る。<br>彼女の容体が危険な状態なのは、その顔色を見れば明らかだった。
+message,,Hinagi's expression darkened.<br>One look at her complexion told how dire her condition was.<br> 
 
-message,<user>,……お前以外に陰陽師の心当たりはない。<br>他に方法はないのか……？
+message,<user>,...I don't know any other onmyouji.<br>Is there no other way...?<br> 
 
 window,off
 wait,0.15
@@ -111,9 +111,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒナギ,司令官様が邪気に侵された時を思い出してください。<br>お薬も、回復魔法も通じなかった……ですよね？,106201000X,vc_10620100031_003_01,chara_1
+message,ヒナギ,Please remember when you were cursed，Commander-sama.<br>No medicine or healing magic worked... correct?<br> ,106201000X,vc_10620100031_003_01,chara_1
 
-message,<user>,何かあるだろう！？　お前は俺にとって命の恩人だ！<br>今度は俺がお前を助ける番だ！　なんでも言ってくれ！
+message,<user>,There must be something!? You saved my life!<br>It's my turn to save yours! Tell me anything!<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -124,7 +124,7 @@ asyncseplay,setag1_5,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ヒナギ,フフっ……もったいないお言葉です……司令官様……<br>司令官様が私を……,106201000X,vc_10620100031_004_01,chara_1
+message,ヒナギ,Hehe... such kind words... Commander-sama...<br>For Commander-sama to say he would save me...<br> ,106201000X,vc_10620100031_004_01,chara_1
 
 window,off
 wait,0.15
@@ -141,9 +141,9 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,はっ……！,106201000X,vc_10620100031_005_01,chara_1
+message,ヒナギ,Ah...!<br> ,106201000X,vc_10620100031_005_01,chara_1
 
-message,,ヒナギは、<user>の言葉にハッとなる。
+message,,Something in %user%'s words struck Hinagi.<br> 
 
 window,off
 wait,0.15
@@ -164,7 +164,7 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,（そ、そうだった……。司令官様の持つ気の流れは『龍脈』そのもの……<br>司令官様ならば、きっと――）,106201000X,vc_10620100031_006_01,chara_1
+message,ヒナギ,(Th-that is right... Commander-sama's ki flow is a dragon vein<br>itself... If it is Commander-sama，then surely——)<br> ,106201000X,vc_10620100031_006_01,chara_1
 
 window,off
 wait,0.15
@@ -181,7 +181,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,その顔は、何か思いついた顔だな？<br>俺にできることなら遠慮なく言ってくれ！
+message,<user>,That's the face of someone with an idea.<br>If it's something I can do，don't hold back!<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -192,9 +192,9 @@ asyncseplay,setag1_7,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒナギ,は、はい……１つ、方法を思いつきました。<br>司令官様ならば私と同等の強い術式を起こすことが可能かもしれません。,106201000X,vc_10620100031_007_01,chara_1
+message,ヒナギ,Y-yes... I have thought of one way.<br>Commander-sama may be able to perform a ritual as strong as mine.<br> ,106201000X,vc_10620100031_007_01,chara_1
 
-message,<user>,ん？　俺がお前と同じ技を……！？
+message,<user>,Hm? I can use the same technique as you...!?<br> 
 
 window,off
 wait,0.15
@@ -213,9 +213,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒナギ,はい……『陰陽和合の秘術』が……,106201000X,vc_10620100031_008_01,chara_1
+message,ヒナギ,Yes... the ""Secret Art of Yin-Yang Harmony""...<br> ,106201000X,vc_10620100031_008_01,chara_1
 
-message,<user>,それって、もしかして俺が意識を失った時にやった呪術なんじゃ……
+message,<user>,Wait，is that the technique you used<br>when I was unconscious...?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -227,7 +227,7 @@ asyncseplay,setag1_9,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒナギ,はい。今からそのやり方をお伝えします。<br>もう少し、耳をお近くに寄せてもらってもよろしいでしょうか……？,106201000X,vc_10620100031_009_01,chara_1
+message,ヒナギ,Yes. I will explain how it is done.<br>Could you please... bring your ear a little closer...?<br> ,106201000X,vc_10620100031_009_01,chara_1
 
 window,off
 wait,0.15
@@ -273,7 +273,7 @@ asyncseplay,setag1_11,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 window,on,0.15
-message,,ヒナギに顔を寄せると、<br>彼女は真っ赤になりながら、その方法を耳打ちしてくる――
+message,,As %user% leaned in close，Hinagi whispered<br>the method to him，her face burning crimson——<br> 
 
 labeljump,b
 

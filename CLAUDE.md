@@ -132,8 +132,6 @@ those would break scenes.
 
 Preserve `<br>`, `<size=N>...</size>`, and symbols like `♪ ♥ ♡ ～`.
 In translated text, replace `<user>` (player-name substitution) with `%user%`
-Make sure the files are valid JSON, with fields surrounded with `"`. Do not mix up `"` and the actual quote character that can be within the translated lines.
-In the translation json files, never ever modify the original "jp" line during the translation process. 
 
 The shared **name glossary** (`translations/names.json`) is applied to ALL name
 fields across ALL scenes for consistency. `extract_story.py` auto-seeds
