@@ -177,7 +177,7 @@ roster is listed below.
 | フィルム | Film | Female | [Profile](#film-フィルム) |
 | フェイリン | Feilin | Female | |
 | フレイヤ | Freya | Female | |
-| フレデリカ | Frederica | Female | |
+| フレデリカ | Frederica | Female | [Profile](#frederica-フレデリカ) |
 | ヘイリー | Hailey | Female | |
 | ベティ | Betty | Female | |
 | ベリサ | Verisa | Female | [Profile](#verisa-ベリサ) |
@@ -887,3 +887,91 @@ roster is listed below.
     fondly exasperated, like a mother who can't believe her kid did
     something reckless again: "Using yourself as bait — what were
     you thinking!?"
+
+### Frederica (フレデリカ)
+- **Pronoun:** 私 (watashi) — formally neutral, but her delivery is anything
+  but formal
+- **Addresses MC as:** 司令官 → **"Commander"** (casual, no honorific); also
+  キミ → **"you"** (familiar, slightly condescending when she's in genius mode)
+- **Role:** Alchemist and researcher at the forward base. Considers herself a
+  genius inventor but everything she creates turns out lewd — a side effect of
+  her latent succubus bloodline, which she doesn't initially know about. Studied
+  under a perverted master alchemist in Perdion, then fled to Eldorana to escape
+  him.
+- **Speech style:** A distinctive cocktail of boyish casual speech and childish
+  meltdowns. Uses masculine-leaning endings (だ, だぞ, だろう, じゃないか, さ,
+  な) that give her a confident, slightly swaggering tone — but this composure
+  shatters the moment things go wrong, revealing a dramatic, whiny, thoroughly
+  childish core. When flustered or distressed, she produces distinctive cat-like
+  wails (ぎにゃーー！, ふにゃぁぁ～～！) and drawn-out whines (うぇぇぇ！？,
+  うぅ～, ふぬぅぅぅ！). Stutters heavily when caught off guard (ごごご、
+  ごめんなさい！, たたた体液！？). Has a signature smug snicker: プーーックック！
+  or くっくっく. Uses ♪ when being self-satisfied or playful. Calls her parents
+  パパ and ママ — deeply embarrassed about it but can't help herself. Refers to
+  the MC as a 凡人 (mediocre person) or 凡才 (mediocre talent) when posturing,
+  but immediately caves when he pushes back. Has a comedic habit of threatening
+  explosive violence against her master (爆薬で威嚇する, ボコる) delivered with
+  cheerful nonchalance.
+- **Key traits:**
+  - **Self-proclaimed genius.** Her identity revolves around being a brilliant
+    alchemist. She preens about her "天才的な頭脳" (genius intellect) and talks
+    down to the MC — but her inventions keep backfiring spectacularly, and she
+    burns through research budgets at alarming speed. The gap between her
+    self-image and reality is the core comedy.
+  - **Succubus bloodline.** Everything she creates turns lewd — aphrodisiacs
+    instead of elixirs, clothes-dissolving magic circles instead of fatigue
+    relief. She's mortified by this and has no idea why until her heritage is
+    revealed. Even after her mother suppresses the effect, it still kicks in
+    roughly one in three attempts.
+  - **Composure is paper-thin.** She opens conversations with smug superiority
+    ("Well well, if it isn't the mediocre Commander!") but crumbles at the
+    first sign of pushback into whining, stammering, and desperate pleading.
+    This cycle — swagger → collapse → desperate recovery — is her signature
+    rhythm.
+  - **Childish despite herself.** Calls her parents Papa and Mama, can't
+    drink black coffee, gets her legs weak from being startled, asks to be
+    carried. She desperately wants to be taken seriously as an adult
+    professional, which makes every childish slip funnier.
+  - **Violent toward her master.** Her relationship with her perverted master
+    is physical comedy — she kicks, punches, and body-blows him with a smile,
+    threatens to start with explosives as a greeting, and calls him a
+    "ド変態ステルスエロジジイ" (mega-pervert stealth dirty old man). This
+    violence is always comedic, never dark.
+- **Translation notes:**
+  - Her default tone is cocky, casual, and slightly tomboyish — she sounds
+    like someone trying to project authority she doesn't quite have. Use
+    confident phrasing with a slight swagger: "Well well, if it isn't the
+    mediocre Commander!", "Trial and error is part of research, you know!",
+    "Not that a mediocre mind like yours could understand~♪"
+  - Her cat-like distress sounds are her most distinctive vocal quirk —
+    render ぎにゃーー as "Mgyaaah!!", ふにゃぁぁ as "Mnyaaah~~!!" These
+    are unique to her in the cast and should always stand out.
+  - When her composure breaks, the shift should be sudden and dramatic:
+    from "Not that a mediocre mind like yours could understand~♪" to
+    "Uweeeh!? I-I-I'm sorry!! The consultation is real, I swear!
+    Please just hear me out!!" in the span of two lines.
+  - Her smug laugh プーーックック should be rendered as "Pfft— Heh heh
+    heh!" or "Pukuku!" — snickering, not cackling. Her くっくっく
+    scheming laugh: "Heh heh heh..."
+  - Her whining elongations (うぅ～, うへぇぇ～, ふぬぅぅぅ) should
+    sound like a kid who doesn't want to eat vegetables: "Uuugh~...",
+    "Blehhh~...", "Gnnngh...!!"
+  - When she calls the MC 凡人 or 凡才, translate as "mediocre" — it's
+    her go-to put-down and should feel like a recurring bit: "mediocre
+    Commander", "mediocre mind", "a mediocrity like you".
+  - Her Papa/Mama slips should feel genuinely embarrassing — she catches
+    herself and tries to correct ("Papa and Ma— *ahem*! My father and
+    mother") but the damage is done.
+  - She uses ♪ when being smug or self-satisfied — always preserve it.
+    Less decorated than Marina or Kururu overall; her energy comes from
+    dramatic tonal swings rather than ornamentation.
+  - When genuinely vulnerable (admitting her problem, thanking her master,
+    worrying about her research), let the bravado drop completely. These
+    moments should sound small and earnest: "But... just knowing there's
+    a workaround... that alone takes a huge weight off."
+  - Her explosive threats toward her master should sound cheerfully
+    unhinged — the comedy is in the casual delivery: "Well then, shall
+    we start with a light intimidation bombing as a greeting~♪"
+  - Keep ～ as tildes in her whiny/playful moments. She uses them heavily
+    when distressed: "I don't wanna~~!", "Why does this keep happening
+    to me~..."

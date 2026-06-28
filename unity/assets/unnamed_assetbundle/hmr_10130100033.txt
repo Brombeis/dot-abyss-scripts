@@ -27,7 +27,7 @@ bgmplay,bgmtag3_1,bgm0026,1
 
 
 window,on,0.15
-message,<user>,それで、この後こいつはどうするんだ？
+message,<user>,So，what are you going to do with it now?<br> 
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -36,9 +36,9 @@ asyncseplay,setag3_1,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フレデリカ,……せっかく苦労して造ったんだ。<br>もう少しいろいろ試してみる。,101301000G,vc_10130100033_001_01,chara_1
+message,フレデリカ,...I worked hard to make it.<br>I want to experiment with it a bit more.<br> ,101301000G,vc_10130100033_001_01,chara_1
 
-message,<user>,あまり変なプレイを教え込むなよ？
+message,<user>,Don't go teaching it any weird tricks，okay?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -49,9 +49,9 @@ asyncseplay,setag3_2,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,フレデリカ,え、えっちなことをさせるつもりはないっ！<br>錬金術の実験を手伝わせるだけだ！,101301000G,vc_10130100033_002_01,chara_1
+message,フレデリカ,I-I'm not going to make it do lewd stuff!<br>It's just going to help with alchemy experiments!<br> ,101301000G,vc_10130100033_002_01,chara_1
 
-message,<user>,本当か？<br>本当にエッチなことはさせないのか？
+message,<user>,Really?<br>You're really not going to do anything lewd?<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -62,9 +62,9 @@ asyncseplay,setag3_3,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フレデリカ,ほ、本当だ……,101301000G,vc_10130100033_003_01,chara_1
+message,フレデリカ,R-really...<br> ,101301000G,vc_10130100033_003_01,chara_1
 
-message,<user>,それはそれでこいつが可哀想だな……
+message,<user>,That's kind of sad for the little guy...<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -75,11 +75,11 @@ asyncseplay,setag3_4,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,フレデリカ,なんでそうなるっ！？,101301000G,vc_10130100033_004_01,chara_1
+message,フレデリカ,How does that follow!?<br> ,101301000G,vc_10130100033_004_01,chara_1
 
-message,<user>,よし、ホムンクルス、せっかくだし今から２回戦だ！
+message,<user>,All right，Homunculus——<br>let's go for round two!<br> 
 
-message,ホムンクルス,……はい……パパ……,900000001
+message,ホムンクルス,...Yes... Papa...<br> ,900000001
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -90,7 +90,7 @@ asyncseplay,setag3_5,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,フレデリカ,だからなんでパパのときだけ返事するんだぁっ！？,101301000G,vc_10130100033_005_01,chara_1
+message,フレデリカ,Why does it only answer to Papa!?<br> ,101301000G,vc_10130100033_005_01,chara_1
 
 window,off
 wait,0.15
@@ -130,7 +130,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,フレデリカ,おい、やめろっ！　私に触るな、ホムンクルス！<br>少しは私の言うことも――あぁん♡,101301000G,vc_10130100033_006_01,chara_1
+message,フレデリカ,Hey，stop! Don't touch me，Homunculus!<br>Listen to me for onc—— aahn♡<br> ,101301000G,vc_10130100033_006_01,chara_1
 
 bgmstop,bgmtag3_1,1.5,0
 
@@ -159,9 +159,9 @@ bgmplay,bgmtag3_2,bgm0030,0.75,1
 fade,In,White,1
 
 window,on,0.15
-message,,――翌日、俺たちが目覚めると、<br>ホムンクルスの姿は跡形もなく消えてなくなっていた。
+message,,——The next day，when we woke up，<br>the Homunculus had vanished without a trace.<br> 
 
-message,,しょせんは錬金術で造った疑似生命体……<br>そうフレデリカは淡々と言っていたが……
+message,,""It was just an artificial life form made<br>through alchemy，"" Frederica said flatly，but...<br> 
 
 window,off
 wait,0.15
@@ -190,7 +190,7 @@ wait,1
 wait,0.5
 
 window,on,0.15
-message,,そのときの彼女の横顔は、どこか寂しそうに見えた――
+message,,Her profile，in that moment，<br>looked somehow lonely——<br> 
 
 window,off
 bgmstop,bgmtag3_2,0.5

@@ -14,7 +14,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
@@ -24,10 +24,10 @@ bgmplay,bgmtag1_1,bgm0026,0.75,1
 asyncseplay,setag1_1,se4300001,0,1,CONT,0
 
 window,on,0.15
-message,,――コンコン
+message,,——Knock knock<br> 
 
 
-message,<user>,どうぞ。
+message,<user>,Come in.<br> 
 
 
 window,off
@@ -61,14 +61,14 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,フレデリカ,失礼するよ、司令官。,101301000G,vc_10130100001_001_01,chara_1
+message,フレデリカ,Pardon the intrusion，Commander.<br> ,101301000G,vc_10130100001_001_01,chara_1
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,フレデリカ,実はキミに……相談したいことがあるんだ。,101301000G,vc_10130100001_002_01,chara_1
+message,フレデリカ,The thing is... there's something<br>I need to talk to you about.<br> ,101301000G,vc_10130100001_002_01,chara_1
 
-message,<user>,どうした？　神妙な顔をして。<br>今月の追加予算ならもちろん出さないぞ。
+message,<user>,What's up? You look awfully serious.<br>If it's about extra budget this month，the answer's no.<br> 
 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
@@ -80,9 +80,9 @@ asyncseplay,setag1_4,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,フレデリカ,金の話ではないわ！<br>というかなんだ、『もちろん出さない』とは！？,101301000G,vc_10130100001_003_01,chara_1
+message,フレデリカ,It's not about money!<br>And what do you mean，""the answer's no""!?<br> ,101301000G,vc_10130100001_003_01,chara_1
 
-message,<user>,自分の日頃の行いを思い出せ。
+message,<user>,Think about your track record.<br> 
 
 window,off
 wait,0.15
@@ -101,7 +101,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 wait,0.5
 
 window,on,0.15
-message,<user>,お前の研究費に、日頃からどれだけの<br>資金を投じてると思ってるんだ……まったく。
+message,<user>,Do you have any idea how much funding<br>goes into your research costs... honestly.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -112,7 +112,7 @@ asyncseplay,setag1_6,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フレデリカ,あー、いや、まあ、うん、それはそのー……,101301000G,vc_10130100001_004_01,chara_1
+message,フレデリカ,Ahh，well，uh，yeah，about that...<br> ,101301000G,vc_10130100001_004_01,chara_1
 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
@@ -125,7 +125,7 @@ asyncseplay,setag1_7,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,フレデリカ,け、研究に試行錯誤はつきものだからな！<br>追加予算も仕方ないというものさ！,101301000G,vc_10130100001_005_01,chara_1
+message,フレデリカ,T-trial and error is part of research，you know!<br>Extra budget is simply unavoidable!<br> ,101301000G,vc_10130100001_005_01,chara_1
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -137,11 +137,11 @@ asyncseplay,setag1_8,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,フレデリカ,まあ、キミのような凡才には到底理解できないだろうけどね♪,101301000G,vc_10130100001_006_01,chara_1
+message,フレデリカ,Not that a mediocre mind like yours<br>could ever understand，of course~♪<br> ,101301000G,vc_10130100001_006_01,chara_1
 
-message,<user>,なるほどなるほど。多忙な合間を縫ってわざわざ<br>俺を煽りに来てくれたわけか。
+message,<user>,I see，I see. So you took time out of your<br>busy schedule just to come mock me.<br> 
 
-message,<user>,よし、帰れ。<br>俺もお前ほどじゃあないが、それなりに忙しいんだ。
+message,<user>,Right，get out.<br>I'm not as busy as you，but I've got work to do.<br> 
 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
@@ -153,7 +153,7 @@ asyncseplay,setag1_9,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,フレデリカ,うぇぇぇぇ！？　ごごご、ごめんなさい！,101301000G,vc_10130100001_007_01,chara_1
+message,フレデリカ,Uweeeh!? I-I-I'm sorry!<br> ,101301000G,vc_10130100001_007_01,chara_1
 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
@@ -165,9 +165,9 @@ asyncseplay,setag1_10,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,フレデリカ,相談があるのはほんとなんだってばー！<br>お願いだから話を聞いてくれー！,101301000G,vc_10130100001_008_01,chara_1
+message,フレデリカ,I really do have something to talk about!<br>Please just hear me out~!<br> ,101301000G,vc_10130100001_008_01,chara_1
 
-message,<user>,分かった分かった……で、相談の内容は？
+message,<user>,Okay，okay... so what's this about?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -178,7 +178,7 @@ asyncseplay,setag1_11,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,フレデリカ,う……え、えぇと……<br>ちょっと信じがたい話に聞こえるかもしれないんだが……,101301000G,vc_10130100001_009_01,chara_1
+message,フレデリカ,Ugh... w-well...<br>This might sound a bit hard to believe，but...<br> ,101301000G,vc_10130100001_009_01,chara_1
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -187,9 +187,9 @@ asyncseplay,setag1_12,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フレデリカ,実は……実験をしていると、<br>必ずえっちなものを生み出してしまうんだ。,101301000G,vc_10130100001_010_01,chara_1
+message,フレデリカ,The truth is... whenever I do experiments，<br>I always end up creating something lewd.<br> ,101301000G,vc_10130100001_010_01,chara_1
 
-message,<user>,……ん？　なんだって？<br>すまない、もう１度言ってもらっていいか？
+message,<user>,...Hm? Come again?<br>Sorry，could you say that one more time?<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -200,7 +200,7 @@ asyncseplay,setag1_13,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,フレデリカ,う～……だ、だからぁ……！,101301000G,vc_10130100001_011_01,chara_1
+message,フレデリカ,Uugh~... I-I said...!<br> ,101301000G,vc_10130100001_011_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -211,18 +211,18 @@ asyncseplay,setag1_14,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,フレデリカ,何をしても……えっちなものしかできないんだー！,101301000G,vc_10130100001_012_01,chara_1
+message,フレデリカ,No matter what I do...<br>only lewd stuff comes out~!<br> ,101301000G,vc_10130100001_012_01,chara_1
 
-message,<user>,そ、そうか。いや……どういうことだ？
+message,<user>,I-I see. No... what do you mean exactly?<br> 
 
-message,<user>,えっちなものって……例えばどんなものができてしまうんだ？
+message,<user>,Lewd stuff... like what kind of things<br>end up getting made?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,フレデリカ,このあいだ、司令官に精力増強剤を見せたことがあっただろう？,101301000G,vc_10130100001_013_01,chara_1
+message,フレデリカ,Remember when I showed you that<br>stamina booster the other day?<br> ,101301000G,vc_10130100001_013_01,chara_1
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -231,9 +231,9 @@ asyncseplay,setag1_15,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フレデリカ,あの薬なんだが……<br>本当は、不老不死の薬を作ろうとしてできたものなんだ……,101301000G,vc_10130100001_014_01,chara_1
+message,フレデリカ,That drug... was actually the result<br>of trying to make an elixir of immortality...<br> ,101301000G,vc_10130100001_014_01,chara_1
 
-message,<user>,ドヤ顔で「これはすごい効果があるぞ！」と言っていたが、<br>あれは不本意にできたものだったのか……
+message,<user>,You bragged about it with a smug face saying<br>""This has amazing effects!"" but it was an accident...<br> 
 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
@@ -245,14 +245,14 @@ asyncseplay,setag1_16,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,フレデリカ,うっ。ま、まあ……とりあえず続きを聞いてくれ。,101301000G,vc_10130100001_015_01,chara_1
+message,フレデリカ,Urk. W-well... just let me finish.<br> ,101301000G,vc_10130100001_015_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
 
-message,フレデリカ,また別の日はな……疲れを吹き飛ばす魔法陣を作ったはずなのに、<br>なぜか服だけ吹き飛ばしてしまったんだ……,101301000G,vc_10130100001_016_01,chara_1
+message,フレデリカ,Then another time... I made a magic circle<br>to blow away fatigue，but it blew off clothes instead...<br> ,101301000G,vc_10130100001_016_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -263,9 +263,9 @@ asyncseplay,setag1_17,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,フレデリカ,ちょうど他の服をみんな洗濯してたから……<br>寝巻きで出歩くハメになってしまった……！,101301000G,vc_10130100001_017_01,chara_1
+message,フレデリカ,All my other clothes were in the wash，so...<br>I had to walk around in my pajamas...!<br> ,101301000G,vc_10130100001_017_01,chara_1
 
-message,<user>,ああ、基地内でやたらめったらに愛でられている日があったのは<br>そういうわけか。みんなに囲まれていて格好は見えなかったんだ。
+message,<user>,Ahh，so that's why you were getting fawned<br>over at the base that day. Everyone was crowding you.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -276,9 +276,9 @@ asyncseplay,setag1_18,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,フレデリカ,め、愛でるとか……人を犬か猫みたいに言うな！,101301000G,vc_10130100001_018_01,chara_1
+message,フレデリカ,F-fawned over...!?<br>Don't talk about me like I'm a dog or cat!<br> ,101301000G,vc_10130100001_018_01,chara_1
 
-message,<user>,……ん？　待てよ……今の話からすると、昨日のアレも……
+message,<user>,...Hm? Wait... based on what you just said，<br>yesterday's incident was also...<br> 
 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
@@ -290,7 +290,7 @@ asyncseplay,setag1_19,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,フレデリカ,うっ。う～～～……,101301000G,vc_10130100001_019_01,chara_1
+message,フレデリカ,Urk. Uuugh~~~...<br> ,101301000G,vc_10130100001_019_01,chara_1
 
 
 
@@ -316,18 +316,18 @@ screeneffect,SEPIATONE,on,1,0
 fade,In,White,1
 
 window,on,0.15
-message,<user>,報告書もまとめ終えたし、本でも読むか――
+message,<user>,Finished the reports，maybe I'll read a book——<br> 
 
 
 asyncseplay,setag1_20,se4400138,0,1,CONT,0
 
-message,,ボフンッ
+message,,POOF<br> 
 
-message,フレデリカ,ふにゃぁぁーーーーー！？,101301000G,vc_10130100001_020_01,
+message,フレデリカ,Mnyaaah~~!?<br> ,101301000G,vc_10130100001_020_01,
 
-message,<user>,研究所からピンクの煙……？<br>しかも今のは……フレデリカの声か！？
+message,<user>,Pink smoke from the lab...?<br>And that voice just now... was that Frederica!?<br> 
 
-message,<user>,待ってろ、すぐに行く！！
+message,<user>,Hang on，I'm coming!!<br> 
 
 window,off
 wait,0.15
@@ -365,7 +365,7 @@ asyncseplay,setag1_22,se4300007,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,<user>,はぁ、はぁ……フレデリカ、大丈夫か！？
+message,<user>,Hah，hah... Frederica，are you okay!?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -376,9 +376,9 @@ asyncseplay,setag1_23,se4800002,0,1,CONT,0
 asynccharaemo,chara_1,Heart,CONT,0
 
 
-message,フレデリカ,はひ……♡　ら、らいじょうぶ……♡,101301000G,vc_10130100001_021_01,chara_1
+message,フレデリカ,Hahi...♡ I-I'm fiiine...♡<br> ,101301000G,vc_10130100001_021_01,chara_1
 
-message,<user>,いや、全然大丈夫に見えないぞ。<br>待ってろ、今医務室に……
+message,<user>,No，you don't look fine at all.<br>Hold on，I'll take you to the infirmary...<br> 
 
 window,off
 wait,0.15
@@ -430,7 +430,7 @@ asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
 
 window,on,0.15
-message,フレデリカ,ほ、ほんとにらいじょうぶらからぁ……♡,101301000G,vc_10130100001_022_01,chara_1
+message,フレデリカ,I-I'm reawwy fiiine，I shwear...♡<br> ,101301000G,vc_10130100001_022_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -441,7 +441,7 @@ asyncseplay,setag1_25,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,フレデリカ,というか、その……お姫様抱っこされると……その……<br>色々と……やばい……あっ、ぁっ、あぁぁ……っ♡,101301000G,vc_10130100001_023_01,chara_1
+message,フレデリカ,Actually，um... being princess-carried is...<br>kind of... bad... ahh，ah，ahhh...♡<br> ,101301000G,vc_10130100001_023_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -452,7 +452,7 @@ asyncseplay,setag1_26,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,フレデリカ,ふにゃぁぁぁぁぁ～～～～……♡,101301000G,vc_10130100001_024_01,chara_1
+message,フレデリカ,Mnyaaahh~~~~...♡<br> ,101301000G,vc_10130100001_024_01,chara_1
 
 
 window,off
@@ -487,7 +487,7 @@ charashowalpha,chara_1,1,0
 fade,In,White,1
 
 window,on,0.15
-message,<user>,結局医務室には行かなかったが……なるほど、<br>あれも媚薬でムラムラしていただけということか。
+message,<user>,We never made it to the infirmary... I see，<br>so that was just the aphrodisiac getting to you.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -498,7 +498,7 @@ asyncseplay,setag1_27,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,フレデリカ,は、はっきり言うんじゃなーい！,101301000G,vc_10130100001_025_01,chara_1
+message,フレデリカ,D-don't just say it like that~!<br> ,101301000G,vc_10130100001_025_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -509,9 +509,9 @@ asyncseplay,setag1_28,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フレデリカ,でも……迷惑をかけたのは申し訳ない……うぅ。,101301000G,vc_10130100001_026_01,chara_1
+message,フレデリカ,But... I'm sorry for the trouble... uugh.<br> ,101301000G,vc_10130100001_026_01,chara_1
 
-message,<user>,あれくらい気にするな。<br>それにしても……不思議な現象だな。
+message,<user>,Don't worry about it.<br>Still... it's a strange phenomenon.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -522,9 +522,9 @@ asyncseplay,setag1_29,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,フレデリカ,うぅ～……なんでこんなことになってしまうんだ……。<br>私はただひたむきに研究に励んでるだけなのにぃ……,101301000G,vc_10130100001_027_01,chara_1
+message,フレデリカ,Uuugh~... why does this keep happening...<br>I'm just earnestly devoted to my research~...<br> ,101301000G,vc_10130100001_027_01,chara_1
 
-message,<user>,何か身に覚えはないのか？
+message,<user>,Do you have any idea what could be causing it?<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -533,7 +533,7 @@ asyncseplay,setag1_30,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フレデリカ,それがまったくないんだ。<br>私も、ここに来る前に書物で散々調べたんだけど……,101301000G,vc_10130100001_028_01,chara_1
+message,フレデリカ,Not a clue.<br>I looked through tons of books before coming here...<br> ,101301000G,vc_10130100001_028_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -544,9 +544,9 @@ asyncseplay,setag1_31,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,フレデリカ,こんなへんてこな状況、似たようなものさえ<br>見つからなかったんだよ……はぁ。,101301000G,vc_10130100001_029_01,chara_1
+message,フレデリカ,I couldn't find anything even remotely<br>similar to this weird situation... sigh.<br> ,101301000G,vc_10130100001_029_01,chara_1
 
-message,<user>,ふむ。それなら……<br>お前の錬金術の師匠に聞けば何かわかるんじゃないか？
+message,<user>,Hmm. In that case...<br>what if you asked your alchemy master?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -557,9 +557,9 @@ asyncseplay,setag1_32,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,フレデリカ,うぇっ！？　し、師匠にって……<br>やだやだ！　絶対に無理！,101301000G,vc_10130100001_030_01,chara_1
+message,フレデリカ,Uweh!? A-ask my master...!?<br>No no no! Absolutely not!<br> ,101301000G,vc_10130100001_030_01,chara_1
 
-message,<user>,んん？　どうしてまたそんなに嫌がるんだ？
+message,<user>,Hm? Why are you so against it?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -568,9 +568,9 @@ asyncseplay,setag1_33,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,フレデリカ,……ここに来る前、<br>私がエルドラーナに住んでいたのは知っているだろう？,101301000G,vc_10130100001_031_01,chara_1
+message,フレデリカ,...You know I was living in Eldorana<br>before coming here，right?<br> ,101301000G,vc_10130100001_031_01,chara_1
 
-message,<user>,そうだったな。錬金術師は普通、<br>ペルディオンに住んでいるから……不思議に思ってたんだ。
+message,<user>,Right. Alchemists usually live in Perdion，<br>so... I always thought that was odd.<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -579,7 +579,7 @@ asyncseplay,setag1_34,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,フレデリカ,私がエルドラーナに住んでいた理由はただ１つ……,101301000G,vc_10130100001_032_01,chara_1
+message,フレデリカ,There's only one reason I was living in Eldorana...<br> ,101301000G,vc_10130100001_032_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -590,9 +590,9 @@ asyncseplay,setag1_35,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,フレデリカ,師匠から……あいつから、一刻も早く離れたかったんだ～！,101301000G,vc_10130100001_033_01,chara_1
+message,フレデリカ,I wanted to get away from my master...<br>from that man，as fast as possible~!<br> ,101301000G,vc_10130100001_033_01,chara_1
 
-message,<user>,んん……？　師匠となれば、それなりの年月を一緒に<br>過ごしてきたんだろう？　どうしてまた？
+message,<user>,Hm...? You must have spent years together<br>as his apprentice，right? Why the hostility?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -603,7 +603,7 @@ asyncseplay,setag1_36,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フレデリカ,それなりの年月を一緒に過ごしてきたからこそなんだよ～！<br>無理なものは無理！　絶対に無理！！,101301000G,vc_10130100001_034_01,chara_1
+message,フレデリカ,It's BECAUSE I spent years with him~!<br>No means no! Absolutely no!!<br> ,101301000G,vc_10130100001_034_01,chara_1
 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
@@ -615,9 +615,9 @@ asyncseplay,setag1_37,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,フレデリカ,うぅ～……思い出すだけで頭がぁ～……！<br>くぅぅ……やめろ、頭から消えろぉ……！,101301000G,vc_10130100001_035_01,chara_1
+message,フレデリカ,Uuugh~... just remembering makes my head~...!<br>Grrgh... stop it，get out of my head...!<br> ,101301000G,vc_10130100001_035_01,chara_1
 
-message,<user>,いったいどんな目にあってきたんだ、お前は……。<br>とはいえ、今は他にとれる手段がないだろう？
+message,<user>,What on earth did he put you through...<br>Still，there's no other option right now，is there?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -628,9 +628,9 @@ asyncseplay,setag1_38,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,フレデリカ,た、確かに……それは、そうなんだけど……<br>うぐぐ……でもなぁ……,101301000G,vc_10130100001_036_01,chara_1
+message,フレデリカ,Y-yeah... that's true，but...<br>urghh... but still...<br> ,101301000G,vc_10130100001_036_01,chara_1
 
-message,<user>,死ぬほど嫌だということは伝わったが……このままだと、いずれは<br>お前の研究室がえっちなものであふれ返ってしまうぞ？
+message,<user>,I can tell you'd rather die，but... at this rate，<br>your lab's gonna be overflowing with lewd stuff.<br> 
 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
@@ -642,7 +642,7 @@ asyncseplay,setag1_39,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,フレデリカ,ふぬぅぅぅーー！　それは……あまりにもイヤだーーーー！！,101301000G,vc_10130100001_037_01,chara_1
+message,フレデリカ,Gnnngh~~!! That's... way too horrible~!!!<br> ,101301000G,vc_10130100001_037_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -653,7 +653,7 @@ asyncseplay,setag1_40,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フレデリカ,だけど師匠のところに行くのも……<br>ものすごく果てしなくイヤだ……！,101301000G,vc_10130100001_038_01,chara_1
+message,フレデリカ,But going to my master's place is...<br>also unspeakably，endlessly horrible...!<br> ,101301000G,vc_10130100001_038_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -664,9 +664,9 @@ asyncseplay,setag1_41,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,フレデリカ,うぐぐ……それでも……研究成果が出せないのは……。<br>一番イヤだなぁ……,101301000G,vc_10130100001_039_01,chara_1
+message,フレデリカ,Urghh... but still...<br>not being able to produce results... that's the worst...<br> ,101301000G,vc_10130100001_039_01,chara_1
 
-message,<user>,安心しろ。俺も同行するから。
+message,<user>,Relax. I'll come with you.<br> 
 
 
 asynccharaface,chara_1,FaceFun,CONT,0
@@ -678,7 +678,7 @@ asyncseplay,setag1_42,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,フレデリカ,本当か！？　司令官も来てくれるのか！！<br>それはひじょーーーに助かる！！,101301000G,vc_10130100001_040_01,chara_1
+message,フレデリカ,Really!? You'll come with me!?<br>That is tremendously helpful!!<br> ,101301000G,vc_10130100001_040_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -689,9 +689,9 @@ asyncseplay,setag1_43,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,フレデリカ,緊急時にアレをボコる人手は多いに越したことはないからな♪<br>いやー助かる！,101301000G,vc_10130100001_041_01,chara_1
+message,フレデリカ,You can never have too many hands to beat<br>him up in an emergency，after all~♪ What a relief!<br> ,101301000G,vc_10130100001_041_01,chara_1
 
-message,<user>,……今、『ボコる』って言ったか……？
+message,<user>,...Did you just say ""beat him up""...?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -700,9 +700,9 @@ asyncseplay,setag1_44,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,フレデリカ,ん？　言ったぞ？,101301000G,vc_10130100001_042_01,chara_1
+message,フレデリカ,Hm? I did，yeah?<br> ,101301000G,vc_10130100001_042_01,chara_1
 
-message,<user>,聞き間違いであってほしかったんだがな……
+message,<user>,I was hoping I'd misheard...<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -710,7 +710,7 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,フレデリカ,師匠の家はペルディオンの人里離れたところにあるんだ。<br>言わば隠れ家みたいなところに住んでるんだよ。,101301000G,vc_10130100001_043_01,chara_1
+message,フレデリカ,My master's place is deep in the middle of<br>nowhere in Perdion. He lives in a hidden retreat.<br> ,101301000G,vc_10130100001_043_01,chara_1
 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
@@ -722,9 +722,9 @@ asyncseplay,setag1_45,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,フレデリカ,挨拶代わりに……まずは爆薬で軽く威嚇するところから始めるか♪,101301000G,vc_10130100001_044_01,chara_1
+message,フレデリカ,As a greeting... let's start with a light<br>intimidation bombing，shall we~♪<br> ,101301000G,vc_10130100001_044_01,chara_1
 
-message,<user>,待て待て待て。戦争でも始める気か？
+message,<user>,Wait wait wait. Are you trying to start a war?<br> 
 
 
 asynccharaface,chara_1,FaceSad,CONT,0
@@ -736,9 +736,9 @@ asyncseplay,setag1_46,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,フレデリカ,それくらいイヤだし、それくらいやってもまったく<br>問題ないんだよ……会えば分かるさ……,101301000G,vc_10130100001_045_01,chara_1
+message,フレデリカ,That's how much I hate him，and trust me，<br>he can take it... you'll see when we get there...<br> ,101301000G,vc_10130100001_045_01,chara_1
 
-message,<user>,そ、そうか……。分かった、まずは行ってみるか。
+message,<user>,I-is that so... All right，let's just go.<br> 
 
 window,off
 bgmstop,bgmtag1_1,0.5

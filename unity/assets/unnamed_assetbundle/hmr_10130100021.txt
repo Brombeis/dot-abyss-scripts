@@ -18,7 +18,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,今度こそ完成！　『賢者の石』
+title,This Time for Sure! "The Philosopher's Stone"
 
 wait,1
 
@@ -60,7 +60,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,フレデリカ,やぁやぁ、ご機嫌ようルディア！,101301000X,vc_10130100021_001_01,chara_1
+message,フレデリカ,Why hello there，good day Ludia!<br> ,101301000X,vc_10130100021_001_01,chara_1
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -73,7 +73,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 asynccharaface,chara_2,EyeOpen,CONT,4
 asynccharaface,chara_2,FaceNormal,CONT,4
-message,ルディア,出勤ご苦労様です、フレデリカさん♪<br>フレデリカさんの方こそ、なんだかご機嫌ですね？,300301000,vc_10130100021_002_01,chara_2
+message,ルディア,Thank you for coming in，Frederica-san~♪<br>You seem to be in high spirits yourself?<br> ,300301000,vc_10130100021_002_01,chara_2
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -84,7 +84,7 @@ asyncseplay,setag1_3,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,フレデリカ,ああ、実は昨日の夜、ついに錬成することに成功したんだ！<br>かの有名な……『賢者の石』を！,101301000X,vc_10130100021_003_01,chara_1
+message,フレデリカ,Yes，last night I finally succeeded in<br>creating it! The legendary... Philosopher's Stone!<br> ,101301000X,vc_10130100021_003_01,chara_1
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -95,7 +95,7 @@ asyncseplay,setag1_4,se4800011,0,1,CONT,0
 asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
-message,ルディア,賢者の石……たしか、病気を治したり、<br>人を不老不死にする力を持つと言われている伝説の錬成物のことよね？,300301000,vc_10130100021_004_01,chara_2
+message,ルディア,The Philosopher's Stone... the legendary creation<br>said to cure illness and grant immortality，right?<br> ,300301000,vc_10130100021_004_01,chara_2
 
 window,off
 wait,0.15
@@ -141,9 +141,9 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,フレデリカ,そうだ！<br>そしてこれこそが、その賢者の石だ！,101301000X,vc_10130100021_005_01,chara_1
+message,フレデリカ,That's right!<br>And this is that very stone!<br> ,101301000X,vc_10130100021_005_01,chara_1
 
-message,,フレデリカが取り出したのは、赤い光を放つ手のひら大の石だった。
+message,,What Frederica produced was a palm-sized<br>stone radiating a red glow.<br> 
 
 window,off
 wait,0.15
@@ -197,7 +197,7 @@ asynccharaemo,chara_2,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ルディア,あらあら、まぁまぁ……これをフレデリカさんが？,300301000,vc_10130100021_006_01,chara_2
+message,ルディア,My my，well well...<br>Frederica-san made this?<br> ,300301000,vc_10130100021_006_01,chara_2
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -208,7 +208,7 @@ asyncseplay,setag1_7,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,フレデリカ,この天才的な頭脳を持つ私だからできたんだ！<br>どうだ、驚いたか！,101301000X,vc_10130100021_007_01,chara_1
+message,フレデリカ,Only someone with my genius intellect could<br>pull this off! Impressed?<br> ,101301000X,vc_10130100021_007_01,chara_1
 
 window,off
 wait,0.15
@@ -250,7 +250,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,ルディアは石を手に取り、様々な角度から観察する。
+message,,Ludia took the stone and examined it<br>from various angles.<br> 
 
 asyncjump,CHARA,chara_2,-30,0.5,2,off,0,CONT
 
@@ -260,7 +260,7 @@ asynccharaemo,chara_2,Silence,CONT,0
 
 
 asynccharaface,chara_2,FaceSurprise,STOP,8
-message,ルディア,ふーん……なるほどなるほど……たしかにそれっぽく作られてますね。<br>でも、これはどちらかというと――,300301000,vc_10130100021_008_01,chara_2
+message,ルディア,Hmm... I see，I see... it certainly looks the part.<br>But this is more like——<br> ,300301000,vc_10130100021_008_01,chara_2
 
 window,off
 wait,0.15
@@ -285,7 +285,7 @@ transitionCrossFade,Tra02,0.5
 wait,0.5
 
 window,on,0.15
-message,娼婦Ａ,はぁぁぁ～ん♡,900000001,vc_10130100021_009_01,
+message,娼婦Ａ,Haaahh~n♡<br> ,900000001,vc_10130100021_009_01,
 
 window,off
 wait,0.15
@@ -339,7 +339,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,フレデリカ,ん……な、なんだ……！？,101301000X,vc_10130100021_010_01,chara_1
+message,フレデリカ,Hm... wh-what...!?<br> ,101301000X,vc_10130100021_010_01,chara_1
 
 window,off
 wait,0.15
@@ -366,7 +366,7 @@ transitionCrossFade,Tra01,0.5
 wait,0.5
 
 window,on,0.15
-message,娼婦Ｂ,あはぁっ……身体が急に熱くなって……疼いちゃう……もうダメぇ～♡,900000001,vc_10130100021_011_01,
+message,娼婦Ｂ,Ahahh... my body's suddenly so hot...<br>I can't take it... no more~♡<br> ,900000001,vc_10130100021_011_01,
 
 window,off
 wait,0.15
@@ -380,7 +380,7 @@ shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 shake,CHARA,chara_2,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,,突然、フレデリカの周囲にいた娼婦たちが、<br>身悶えしながらバタバタと倒れた。
+message,,Suddenly，the courtesans around Frederica<br>collapsed one after another，writhing.<br> 
 
 window,off
 wait,0.15
@@ -452,9 +452,9 @@ asynccharaemo,chara_1,Shy,STOP,4.8
 
 
 window,on,0.15
-message,フレデリカ,ど、どうしたんだ？<br>周りの様子がおかしいぞ、ルディ――あぁ～ん♡,101301000X,vc_10130100021_012_01,chara_1
+message,フレデリカ,Wh-what's going on?<br>Everyone's acting strange，Ludi—— aahh~n♡<br> ,101301000X,vc_10130100021_012_01,chara_1
 
-message,,同じ現象が、フレデリカにも起こった。
+message,,The same thing happened to Frederica.<br> 
 
 window,off
 wait,0.15
@@ -509,7 +509,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,フレデリカ,（か、身体が熱い……アソコが疼く……あ、アレがほしくて……<br>たまらない……）,101301000X,vc_10130100021_013_01,chara_1
+message,フレデリカ,(M-my body's so hot... down there is throbbing...<br>I-I want it... so badly...)<br> ,101301000X,vc_10130100021_013_01,chara_1
 
 window,off
 wait,0.15
@@ -535,7 +535,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,フレデリカ,はぁっ……はぁっ……くっ……なん、だ……これは……？,101301000X,vc_10130100021_014_01,chara_1
+message,フレデリカ,Hahh... hahh... kh...<br>what... is this...?<br> ,101301000X,vc_10130100021_014_01,chara_1
 
 window,off
 wait,0.15
@@ -591,7 +591,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 charaface,chara_2,EyeOpen
 charaface,chara_2,FaceNormal
 window,on,0.15
-message,ルディア,あらあら、やっぱりね。,300301000,vc_10130100021_015_01,chara_2
+message,ルディア,My my，just as I thought.<br> ,300301000,vc_10130100021_015_01,chara_2
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -602,7 +602,7 @@ asyncseplay,setag1_19,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,ルディア,ただでさえフレデリカさんの魔力を使って錬成した石なのに、<br>それをこんな淫気が渦巻く場所で出したら、当然こうなっちゃうわよね。,300301000,vc_10130100021_016_01,chara_2
+message,ルディア,A stone crafted with your magic，brought out in<br>a place swirling with carnal energy... of course this happens.<br> ,300301000,vc_10130100021_016_01,chara_2
 
 asynccharaface,chara_2,FaceUnique03,CONT,0
 
@@ -613,7 +613,7 @@ asyncseplay,setag1_20,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,ルディア,差し詰め、賢者の石ならぬ、『淫者の石』というところかしら？<br>な～んて……うふふ♪,300301000,vc_10130100021_017_01,chara_2
+message,ルディア,Not so much the Philosopher's Stone as the<br>""Lecher's Stone""，I'd say? ...Ufufu~♪<br> ,300301000,vc_10130100021_017_01,chara_2
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -624,7 +624,7 @@ asyncseplay,setag1_21,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フレデリカ,る、ルディア……？,101301000X,vc_10130100021_018_01,chara_1
+message,フレデリカ,L-Ludia...?<br> ,101301000X,vc_10130100021_018_01,chara_1
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -635,7 +635,7 @@ asyncseplay,setag1_22,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,ルディア,あ……ごめんなさい。<br>冗談を言ってる場合じゃありませんよね。,300301000,vc_10130100021_019_01,chara_2
+message,ルディア,Ah... I'm sorry.<br>This isn't the time for jokes.<br> ,300301000,vc_10130100021_019_01,chara_2
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -647,7 +647,7 @@ asyncseplay,setag1_23,se4800003,0,1,CONT,0
 asynccharaemo,chara_2,Twinkle,CONT,0
 
 
-message,ルディア,でも大丈夫、安心してください。<br>今日は、たまたま強い魔力を持ったお客様の予約が入っていますから♪,300301000,vc_10130100021_020_01,chara_2
+message,ルディア,But don't worry.<br>We happen to have a client with strong magic booked today~♪<br> ,300301000,vc_10130100021_020_01,chara_2
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -658,7 +658,7 @@ asyncseplay,setag1_24,se4800005,0,1,CONT,0
 asynccharaemo,chara_2,Flash,CONT,0
 
 
-message,ルディア,その方の魔力をフレデリカさんにぶつけてもらえば、<br>必ずこの状況も収まるでしょう♪,300301000,vc_10130100021_021_01,chara_2
+message,ルディア,If we direct his magic at you，<br>it should definitely fix this~♪<br> ,300301000,vc_10130100021_021_01,chara_2
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -669,7 +669,7 @@ asyncseplay,setag1_25,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,フレデリカ,はぁっ、はぁっ……魔力を……ぶつける……？<br>それって、どういう――,101301000X,vc_10130100021_022_01,chara_1
+message,フレデリカ,Hahh，hahh... direct his magic... at me...?<br>What does that——<br> ,101301000X,vc_10130100021_022_01,chara_1
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -680,7 +680,7 @@ asyncseplay,setag1_26,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,ルディア,あ、お客様がいらしたみたいです。<br>では、がんばってくださいね、フレデリカさん♪,300301000,vc_10130100021_023_01,chara_2
+message,ルディア,Ah，it seems the client has arrived.<br>Do your best，Frederica-san~♪<br> ,300301000,vc_10130100021_023_01,chara_2
 
 labeljump,b
 
