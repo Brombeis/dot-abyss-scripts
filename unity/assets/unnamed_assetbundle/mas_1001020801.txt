@@ -328,7 +328,7 @@ asynccameramove,Linear,Y,80,0.5,CONT,0
 asyncwait
 
 window,on,0.15
-message,,Saying that，the Commander took out a blanket<br>and gently draped it over Kururu's back.<br> 
+message,,Saying that，%user% took out a blanket<br>and gently draped it over Kururu's back.<br> 
 
 window,off
 wait,0.15
@@ -464,7 +464,7 @@ asynctransitionFade,Tra01,in,black,0.5,STOP,0.5
 waitorclick,1.5
 
 window,on,0.15
-message,,Saying only that，the Commander turned away<br>and withdrew toward the cave entrance.<br> 
+message,,Saying only that，%user% turned away<br>and withdrew toward the cave entrance.<br> 
 
 
 window,off
@@ -713,7 +713,7 @@ asyncseplay,setag1_17,se4800014,0,1,CONT,0
 asynccharaemo,chara_4,Silence,CONT,0
 
 window,on,0.15
-message,,The Commander supported Marina and helped her drink the potion.<br>Gradually her color returned，and Marina's expression became more alert.<br> 
+message,,%user% supported Marina and helped her drink the potion. Gradually<br>her color returned，and Marina's expression became more alert.<br> 
 
 window,off
 wait,0.15

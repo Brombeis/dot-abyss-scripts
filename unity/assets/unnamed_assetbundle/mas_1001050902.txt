@@ -50,7 +50,7 @@ wait,0.15
 bgmplay,bgmtag2_1,bgm0026,0.75,1
 
 window,on,0.15
-message,,At the base of the massive black tower，<br>the Commander's group runs into the troublesome duo again.<br> 
+message,,At the base of the massive black tower，<br>%user%'s group runs into the troublesome duo again.<br> 
 
 window,off
 wait,0.15
@@ -758,7 +758,7 @@ asynctransitionFade,Tra09,in,black,0.5,STOP,0.5
 waitorclick,1.5
 
 window,on,0.15
-message,,The Commander touches part of the pattern on the floor.<br>Geometric light spreads across the floor from below.<br> 
+message,,%user% touches part of the pattern on the floor.<br>Geometric light spreads across the floor from below.<br> 
 
 window,off
 wait,0.15

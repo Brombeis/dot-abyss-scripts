@@ -19,7 +19,7 @@ bgmplay,bgmtag3_1,bgm0026,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,——Days Later，Commander's Room,,,on
+messageTextCenter,,——Days Later，%user%'s Room,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -221,7 +221,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,,For some time after that，<br>the Commander's days of sleep deprivation continued.<br> 
+message,,For some time after that，<br>%user%'s days of sleep deprivation continued.<br> 
 
 window,off
 bgmstop,bgmtag3_1,0.5
