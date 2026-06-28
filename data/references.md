@@ -20,6 +20,11 @@ character's unique voice and personality.
   Japanese (sentence endings, pronoun choice, verbal tics, energy level). The
   English must reflect these differences. A bubbly character should sound bubbly;
   a formal character should sound formal.
+- If stuttering happens on a capitalized letter, the letters after the hyphen also
+  need to be capitalized e.g. "W-Well" instead of "W-well", unless it's in the middle
+  of a sentence, then "w-well" fits.
+- Brothel scenes aren't from the commander's point of view, so they should refer
+  to the man in third person.
 
 ### Honorifics
 
