@@ -14,7 +14,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,怪奇！　前線基地の心霊現象！
+title,Mystery! Paranormal Activity at the Forward Base!
 
 wait,1
 
@@ -78,11 +78,11 @@ asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
 
 window,on,0.15
-message,フィルム,フィルムです、失礼しますね。<br>司令官くん、お呼びですか？,,vc_10070100002_001_01,chara_1
+message,フィルム,Film here，coming in~<br>You called for me，Commander-kun?<br> ,,vc_10070100002_001_01,chara_1
 
-message,<user>,わざわざすまない。フィルムに……いや、フィルムとノワールに<br>聞きたいことがあってな。
+message,<user>,Sorry to bother you. I have something to ask Film...<br>no，Film and Noir both.<br> 
 
-message,<user>,実はここ最近、前線基地で妙な事件が頻発しているんだ。
+message,<user>,Lately，there've been a string of strange incidents at the base.<br> 
 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
@@ -94,9 +94,9 @@ asyncseplay,setag1_3,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,フィルム,妙な、ですか？<br>どういった事件なんでしょう？,,vc_10070100002_002_01,chara_1
+message,フィルム,Strange，you say~?<br>What sort of incidents?<br> ,,vc_10070100002_002_01,chara_1
 
-message,<user>,オカルト的な事件、といえばいいだろうか。<br>まるで心霊現象のような報告がいくつも届いている。
+message,<user>,Occult incidents，you might call them.<br>We've received multiple reports of apparent paranormal activity.<br> 
 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
@@ -108,9 +108,9 @@ asyncseplay,setag1_4,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,フィルム,あらあら、若い子は噂話が好きですものね～,,vc_10070100002_003_01,chara_1
+message,フィルム,My my，young people do love their rumors~<br> ,,vc_10070100002_003_01,chara_1
 
-message,<user>,そんなレベルならいいんだがな。<br>噂が広まりすぎて仕事を拒否するやつも出てくる始末なんだ。
+message,<user>,I wish it were just that.<br>The rumors have spread so far that people are refusing to work.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -121,7 +121,7 @@ asyncseplay,setag1_5,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,フィルム,ふうん。それはたしかに放っておけないわねえ。,,vc_10070100002_004_01,chara_1
+message,フィルム,Hmm~ That certainly can't be left alone，can it~<br> ,,vc_10070100002_004_01,chara_1
 
 window,off
 wait,0.15
@@ -137,7 +137,7 @@ asynccharaface,chara_1,FaceSurprise,CONT,0
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 window,on,0.15
-message,<user>,犯人はお前たちだな、フィルム、ノワール！
+message,<user>,It was you two，wasn't it — Film，Noir!<br> 
 
 linework,off,Black,Middle
 
@@ -160,7 +160,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノワール,……！！！,550100001,vc_10070100002_005_01,chara_1
+message,ノワール,......!!!<br> ,550100001,vc_10070100002_005_01,chara_1
 
 window,off
 wait,0.15
@@ -187,7 +187,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,フィルム,うふふふ……<br>よくわかったわね。名推理よ、司令官くん……,,vc_10070100002_006_01,chara_1
+message,フィルム,Ufufu~...<br>Well spotted. Brilliant deduction，Commander-kun...<br> ,,vc_10070100002_006_01,chara_1
 
 window,off
 wait,0.15
@@ -216,11 +216,11 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,フィルム,……って褒めてあげたいところだけど、残念ながら不正解。<br>わたしにはコップの水を少し揺らす程度の霊能力しかないの。,,vc_10070100002_007_01,chara_1
+message,フィルム,...is what I'd love to say，but sadly — wrong answer~<br>My spirit power can barely wobble water in a cup.<br> ,,vc_10070100002_007_01,chara_1
 
-message,,そういうとフィルムは、<user>が飲みかけていた<br>カップの中のコーヒーを揺らして見せた。
+message,,As she said this，Film made the coffee in<br>%user%'s half-finished cup gently ripple.<br> 
 
-message,<user>,ふうん。たしかにこの程度の能力じゃ、大それた事件を<br>起こせはしないよな。
+message,<user>,Hmm. With power like that，you certainly<br>couldn't cause any major incidents.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -232,7 +232,7 @@ asyncseplay,setag1_8,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,フィルム,でしょ？<br>可能性があるしたら、ノワールだけど……,,vc_10070100002_008_01,chara_1
+message,フィルム,Right~?<br>If anyone could，it would be Noir，but...<br> ,,vc_10070100002_008_01,chara_1
 
 
 window,off
@@ -254,7 +254,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノワール,……！？　……！！！,550100001,vc_10070100002_009_01,chara_1
+message,ノワール,......!? ......!!!<br> ,550100001,vc_10070100002_009_01,chara_1
 
 window,off
 wait,0.15
@@ -283,9 +283,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,フィルム,ノワールはいたずらを隠したりしないものね。<br>犯人じゃないみたいよ～,,vc_10070100002_010_01,chara_1
+message,フィルム,Noir would never hide a prank，after all~<br>Doesn't seem like she's the culprit~<br> ,,vc_10070100002_010_01,chara_1
 
-message,<user>,まあ、そうだろうなとは思ってたよ。<br>だが、基地内にそういう噂が広まってるのは事実なんだ。
+message,<user>,Yeah，I figured as much.<br>But the rumors spreading around the base are real.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -296,9 +296,9 @@ asyncseplay,setag1_10,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,フィルム,え～、ショックだな～！,,vc_10070100002_011_01,chara_1
+message,フィルム,Aww~，that's upsetting~!<br> ,,vc_10070100002_011_01,chara_1
 
-message,<user>,ということで、本題はここからだ。<br>俺と一緒にこのオカルト事件を捜査してもらいたい。
+message,<user>,So here's the real reason I called you.<br>I want you to investigate these occult incidents with me.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -309,7 +309,7 @@ asyncseplay,setag1_11,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,フィルム,もちろんOKよ♪　霊に関することならお姉さんに任せて。<br>わたしたちが事件を解決してあげましょう！,,vc_10070100002_012_01,chara_1
+message,フィルム,Of course♪ Leave anything spirit-related to your big sis~<br>We'll solve these cases for you!<br> ,,vc_10070100002_012_01,chara_1
 
 window,off
 wait,0.15
@@ -330,7 +330,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノワール,……♪,550100001,vc_10070100002_013_01,chara_1
+message,ノワール,......♪<br> ,550100001,vc_10070100002_013_01,chara_1
 
 
 window,off
@@ -361,7 +361,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,フィルム,犯人扱いされたまんまじゃ居心地悪いしね。<br>汚名返上しないと。,,vc_10070100002_014_01,chara_1
+message,フィルム,I can't exactly relax while we're still<br>under suspicion~ We need to clear our names.<br> ,,vc_10070100002_014_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -372,9 +372,9 @@ asyncseplay,setag1_13,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,フィルム,長年呪われているのは伊達じゃないってところ、<br>見せてあげるわ～,,vc_10070100002_015_01,chara_1
+message,フィルム,I'll show you that years of being cursed<br>weren't for nothing~<br> ,,vc_10070100002_015_01,chara_1
 
-message,<user>,ずっと呪われていることに、胸を張られてもな……
+message,<user>,I'm not sure being cursed forever is something to brag about...<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -401,14 +401,14 @@ bgmplay,bgmtag1_2,bgm0041,0.75,1
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,<user>,ここが１つ目のスポットだ。<br>噂っていうのは……
+message,<user>,This is the first spot.<br>The rumor here is...<br> 
 
 asyncseplay,setag1_14,se4410024,0,1,CONT,0
 
 shake,BACK,,20,0,0.25,30,off,off,0
 shake,CHARA,chara_1,20,0,0.25,30,off,off,0
 
-message,,ドン！！！
+message,,BANG!!!<br> 
 
 window,off
 wait,0.15
@@ -444,7 +444,7 @@ shake,BACK,,40,0,0.25,20,off,off,0
 shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,<user>,うわっ！？
+message,<user>,Whoa!?<br> 
 
 
 
@@ -466,9 +466,9 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,フィルム,あらあら、驚いちゃった？<br>わたしがいるんだから、怖がらなくていいのよ～？,,vc_10070100002_016_01,chara_1
+message,フィルム,My my，did that startle you~?<br>I'm right here，so there's nothing to be scared of~<br> ,,vc_10070100002_016_01,chara_1
 
-message,<user>,こ、怖がったわけじゃない。<br>突然のことで警戒しただけだ。
+message,<user>,I-I'm not scared.<br>I was just on guard because it was sudden.<br> 
 
 
 window,off
@@ -509,9 +509,9 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,フィルム,うふふ、強がらなくていいのに～<br>フィルムお姉さんに甘えていいんだから。,,vc_10070100002_017_01,chara_1
+message,フィルム,Ufufu，you don't have to act tough~<br>You can always lean on your big sis Film，you know~<br> ,,vc_10070100002_017_01,chara_1
 
-message,<user>,強がってなんていない！<br>それより、今のが報告にあった心霊現象だ！
+message,<user>,I'm not acting tough!<br>More importantly，that was one of the reported phenomena!<br> 
 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
@@ -531,7 +531,7 @@ asyncseplay,setag1_18,se4800010,0,1,STOP,4.6
 asynccharaemo,chara_1,Exclamation,STOP,4.6
 
 
-message,フィルム,突然大きな音が聞こえる……<br>いわゆるラップ音、と呼ばれるものね。,,vc_10070100002_018_01,chara_1
+message,フィルム,Sudden loud noises out of nowhere...<br>What's commonly known as spirit rapping.<br> ,,vc_10070100002_018_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -542,7 +542,7 @@ asyncseplay,setag1_19,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,フィルム,でも特に霊力は感じないわよ。<br>ノワールはどう？,,vc_10070100002_019_01,chara_1
+message,フィルム,But I'm not sensing any spirit energy~<br>How about you，Noir?<br> ,,vc_10070100002_019_01,chara_1
 
 window,off
 wait,0.15
@@ -563,7 +563,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノワール,……？,550100001,vc_10070100002_020_01,chara_1
+message,ノワール,......?<br> ,550100001,vc_10070100002_020_01,chara_1
 
 window,off
 wait,0.15
@@ -592,11 +592,11 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,フィルム,ノワールも同じ意見みたい。<br>つまり心霊現象じゃないってことね。,,vc_10070100002_021_01,chara_1
+message,フィルム,Noir agrees~<br>In other words，this isn't a paranormal phenomenon.<br> ,,vc_10070100002_021_01,chara_1
 
-message,<user>,むしろそっちの方が厄介だな。<br>何が原因なのかさっぱりわからないぞ。
+message,<user>,That's actually more troublesome.<br>I have no idea what could be causing it.<br> 
 
-message,<user>,古い建物ならあちこちが軋むのもわかるが、<br>この辺りはまだ建てたばかりだしな……
+message,<user>,An old building creaking，I'd understand，<br>but this area was just built recently...<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -616,9 +616,9 @@ asyncseplay,setag1_22,se4800022,0,1,STOP,6.3
 asynccharaemo,chara_1,Speak,STOP,6.3
 
 
-message,フィルム,ふぅん。建てたばかり……か。<br>ねぇ、もう少し詳しく教えて。,,vc_10070100002_022_01,chara_1
+message,フィルム,Hmm~ Just built，you say...<br>Tell me a bit more about that.<br> ,,vc_10070100002_022_01,chara_1
 
-message,<user>,人員が増えてきて基地が手狭になってな。<br>慌てて拡張した区画なんだ。
+message,<user>,Our personnel grew and the base got too cramped.<br>This section was expanded in a hurry.<br> 
 
 
 asynccharaface,chara_1,FaceFun,CONT,0
@@ -630,9 +630,9 @@ asyncseplay,setag1_23,se4800005,0,1,CONT,0
 asynccharaemo,chara_1,Flash,CONT,0
 
 
-message,フィルム,なるほどね～。わかったわ、司令官くん。<br>このラップ音は、ただ建物が軋んでいるだけよ。,,vc_10070100002_023_01,chara_1
+message,フィルム,I see~. I've figured it out，Commander-kun~<br>This rapping is just the building settling.<br> ,,vc_10070100002_023_01,chara_1
 
-message,<user>,どういうことだ？　ここは建てたばかりだと言っただろう。
+message,<user>,What do you mean? I said it was just built.<br> 
 
 window,off
 wait,0.15
@@ -682,7 +682,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,フィルム,だからこそ、なのよ～。<br>新しい木材は湿度によって膨らんだり縮んだりするの。,,vc_10070100002_024_01,chara_1
+message,フィルム,That's exactly why~<br>New wood expands and contracts with humidity.<br> ,,vc_10070100002_024_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -693,7 +693,7 @@ asyncseplay,setag1_25,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,フィルム,建材が馴染むまでは、こうして音が鳴るのも、<br>よくあることなのよ～,,vc_10070100002_025_01,chara_1
+message,フィルム,Until the materials settle in，<br>these kinds of sounds are perfectly normal~<br> ,,vc_10070100002_025_01,chara_1
 
 asyncskipwait
 
@@ -707,7 +707,7 @@ asyncseplay,setag1_26,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,フィルム,昔、オカルト事案を調査した時に同じような事があったわ。<br>何週間かすれば、この音も静まるはず。,,vc_10070100002_026_01,chara_1
+message,フィルム,I encountered the same thing investigating an occult<br>case long ago. Give it a few weeks and the sounds will stop.<br> ,,vc_10070100002_026_01,chara_1
 
 window,off
 wait,0.15
@@ -749,7 +749,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,……なるほどな、理屈は通っている。<br>さすが、フィルムは詳しいな。
+message,<user>,...I see，that makes sense.<br>You really know your stuff，Film.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -760,9 +760,9 @@ asyncseplay,setag1_27,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,フィルム,ふふふ、お姉ちゃんの知恵袋よ。,,vc_10070100002_027_01,chara_1
+message,フィルム,Ufufu，just some wisdom from your big sis~<br> ,,vc_10070100002_027_01,chara_1
 
-message,<user>,お婆ちゃんの知恵袋……だよな。
+message,<user>,More like grandma's old wives' wisdom... right.<br> 
 
 window,off
 wait,0.15
@@ -796,9 +796,9 @@ asynccharaemo,chara_1,Anger,CONT,0
 
 
 window,on,0.15
-message,フィルム,何か言った、司令官くん？,,vc_10070100002_028_01,chara_1
+message,フィルム,Did you say something，Commander-kun?<br> ,,vc_10070100002_028_01,chara_1
 
-message,<user>,い、いや。次の現場へ行こう。
+message,<user>,N-no，nothing. Let's head to the next spot.<br> 
 
 
 window,off
@@ -824,7 +824,7 @@ charascale,chara_1,1,0
 transitionFade,Tra05,in,black,1
 
 window,on,0.15
-message,<user>,次のスポットはここだ。<br>天井から血が垂れてきた、と報告があった
+message,<user>,This is the next spot.<br>There were reports of blood dripping from the ceiling.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -835,7 +835,7 @@ asyncseplay,setag1_29,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,フィルム,へぇ。それが本当なら、間違いなく心霊現象ね～,,vc_10070100002_029_01,chara_1
+message,フィルム,Oh my~ If that's true，it's definitely<br>a paranormal phenomenon~<br> ,,vc_10070100002_029_01,chara_1
 
 window,off
 wait,0.15
@@ -849,7 +849,7 @@ colorfade,0.15,255,10,10,0,255
 colorfade,0.15,255,10,10,255,0
 
 window,on,0.15
-message,,ポトッ……
+message,,Drip......<br> 
 
 
 asyncshake,CHARA,chara_1,20,15,0.5,6,on,off,0,off,CONT,0
@@ -859,7 +859,7 @@ asyncseplay,setag1_31,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,フィルム,きゃっ！？　何か垂れてきたわ！,,vc_10070100002_030_01,chara_1
+message,フィルム,Eek!? Something dripped on me!<br> ,,vc_10070100002_030_01,chara_1
 
 
 
@@ -872,7 +872,7 @@ asyncseplay,setag1_32,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,フィルム,あら、この赤いのは……？,,vc_10070100002_031_01,chara_1
+message,フィルム,Oh my，this red stuff is...?<br> ,,vc_10070100002_031_01,chara_1
 
 window,off
 wait,0.15
@@ -905,7 +905,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,どうした、フィルム！？<br>まさか血が……
+message,<user>,What's wrong，Film!?<br>Don't tell me it's blood...<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -917,9 +917,9 @@ asyncseplay,setag1_33,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,フィルム,ううん。これ、血じゃないわよ。<br>匂いが全然違うし、触れた感触も別物ね～,,vc_10070100002_032_01,chara_1
+message,フィルム,No~ This isn't blood.<br>The smell is completely different，and so is the texture~<br> ,,vc_10070100002_032_01,chara_1
 
-message,<user>,……言われてみれば。<br>よく気づいたな、フィルム。
+message,<user>,...Now that you mention it.<br>Good catch，Film.<br> 
 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
@@ -931,9 +931,9 @@ asyncseplay,setag1_34,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,フィルム,それなりに長～～～～～～く騎士団に所属していますから。<br>血なんて慣れっこよ。,,vc_10070100002_033_01,chara_1
+message,フィルム,I've been part of the knight order for a lo~~~~~ng time，<br>after all~ Blood is old hat to me.<br> ,,vc_10070100002_033_01,chara_1
 
-message,<user>,つまりこの現象は、赤い液体が滴り落ちているだけか。<br>上の階は倉庫だったはずだ。行ってみよう。
+message,<user>,So this phenomenon is just red liquid dripping down.<br>The floor above should be storage. Let's check it out.<br> 
 
 
 window,off
@@ -960,7 +960,7 @@ transitionFade,Tra02,in,black,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――上階</size>,,,on
+messageTextCenter,,<size=48>——Upstairs</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -1013,9 +1013,9 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,フィルム,……赤いインクの缶が破損していたのね。<br>下の部屋に漏れ出して、血だなんて噂されてたんだわ。,,vc_10070100002_034_01,chara_1
+message,フィルム,...A can of red ink was damaged~<br>It leaked into the room below and got mistaken for blood.<br> ,,vc_10070100002_034_01,chara_1
 
-message,<user>,なんて単純な……。<br>思い込みとは恐ろしいものだな、まったく。
+message,<user>,How simple...<br>The power of suggestion really is something，good grief.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1026,7 +1026,7 @@ asyncseplay,setag1_36,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,フィルム,ちゃんとお掃除しておきましょうね～,,vc_10070100002_035_01,chara_1
+message,フィルム,Let's make sure to clean this up properly~<br> ,,vc_10070100002_035_01,chara_1
 
 
 window,off
@@ -1049,9 +1049,9 @@ emodelete,chara_1,0,0
 transitionFade,Tra05,in,black,1
 
 window,on,0.15
-message,<user>,ここが最後の場所だ。報告にあったのは――
+message,<user>,This is the last spot. The report mentioned——<br> 
 
-message,不気味なうめき声,ォォォォォン……,900000001
+message,不気味なうめき声,Ooooooon......<br> ,900000001
 
 window,off
 wait,0.15
@@ -1087,9 +1087,9 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,フィルム,あら、今の声は……？,,vc_10070100002_036_01,chara_1
+message,フィルム,Oh my，that sound just now...?<br> ,,vc_10070100002_036_01,chara_1
 
-message,<user>,聞こえたか。<br>謎のうめき声が聞こえてくる、という噂なんだ。
+message,<user>,You heard it too.<br>The rumor is that mysterious moaning sounds can be heard.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1103,7 +1103,7 @@ asyncseplay,setag1_38,se4800009,0,1,STOP,5
 asynccharaemo,chara_1,Question,STOP,5
 
 
-message,フィルム,確かに聞こえたわ。<br>でも……霊力は感じないわよね、ノワール？,,vc_10070100002_037_01,chara_1
+message,フィルム,I definitely heard it~<br>But... you don't sense any spirit energy either，do you，Noir?<br> ,,vc_10070100002_037_01,chara_1
 
 window,off
 wait,0.15
@@ -1122,7 +1122,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノワール,……♪,550100001,vc_10070100002_038_01,chara_1
+message,ノワール,......♪<br> ,550100001,vc_10070100002_038_01,chara_1
 
 window,off
 wait,0.15
@@ -1147,9 +1147,9 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,フィルム,ということは、これも心霊現象じゃないと思う。<br>何の音なのかしら……司令官くん、心当たりはない？,,vc_10070100002_039_01,chara_1
+message,フィルム,Then this probably isn't paranormal either~<br>What could it be... Any ideas，Commander-kun?<br> ,,vc_10070100002_039_01,chara_1
 
-message,<user>,この辺りに大きな音を立てるような装置はないはずだ。<br>人が集まるような場所でもないし……
+message,<user>,There shouldn't be any loud equipment around here.<br>It's not a place where people gather，either...<br> 
 
 window,off
 wait,0.15
@@ -1169,12 +1169,12 @@ wait,0.5
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
 window,on,0.15
-message,<user>,……待てよ？<br>ちょっといいか、ノワール。
+message,<user>,...Wait a moment.<br>Hey，Noir.<br> 
 
-message,<user>,お前なら壁を通り抜けられるだろう？<br>壁の中に入ってみてくれないか？
+message,<user>,You can pass through walls，right?<br>Could you go inside the wall and take a look?<br> 
 
 
-message,ノワール,……♪,550100001,vc_10070100002_040_01,chara_1
+message,ノワール,......♪<br> ,550100001,vc_10070100002_040_01,chara_1
 
 
 window,off
@@ -1199,9 +1199,9 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,フィルム,ノワールが壁の中に入っていったわ。便利ね～<br>司令官くん、うめき声の正体がわかったの？,,vc_10070100002_041_01
+message,フィルム,Noir went right into the wall~ How handy~<br>Commander-kun，did you figure out the moaning?<br> ,,vc_10070100002_041_01
 
-message,<user>,ああ、俺の予想が正しければ、おそらくは……
+message,<user>,Yeah，if my hunch is right，it's probably...<br> 
 
 
 window,off
@@ -1230,7 +1230,7 @@ asynccharashowalpha,chara_1,1,0.3,CONT,0
 wait,0.5
 
 window,on,0.15
-message,<user>,お！　出てきたな、ノワール。<br>どうだ、異常はあったか？
+message,<user>,Oh! There you are，Noir.<br>Well? Did you find anything wrong?<br> 
 
 
 window,off
@@ -1240,7 +1240,7 @@ charafocusonall
 
 
 window,on,0.15
-message,ノワール,……！　……！！！,550100001,vc_10070100002_042_01,chara_1
+message,ノワール,......! ......!!!<br> ,550100001,vc_10070100002_042_01,chara_1
 
 window,off
 wait,0.15
@@ -1296,9 +1296,9 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,フィルム,こっちの壁が気になるの？<br>……あら？,,vc_10070100002_043_01,chara_1
+message,フィルム,She's concerned about this wall over here?<br>...Oh my?<br> ,,vc_10070100002_043_01,chara_1
 
-message,不気味なうめき声,オオオオオォン！！！,900000001
+message,不気味なうめき声,OOOOOOON!!!<br> ,900000001
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1310,7 +1310,7 @@ asyncseplay,setag1_41,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,フィルム,なんだかうめき声が大きくなってるわ。<br>ここから聞こえているみたいよ。,,vc_10070100002_044_01,chara_1
+message,フィルム,The moaning's gotten louder~<br>It seems to be coming from right here.<br> ,,vc_10070100002_044_01,chara_1
 
 window,off
 wait,0.15
@@ -1346,7 +1346,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,やっぱりか。これは霊のうめき声なんかじゃない。<br>伝声管の音漏れだ。
+message,<user>,Just as I thought. This isn't any ghostly moaning.<br>It's sound leaking from a speaking tube.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1357,11 +1357,11 @@ asyncseplay,setag1_42,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,フィルム,伝声管……って、建物の離れた部屋同士で<br>会話をするために使うやつ？,,vc_10070100002_045_01,chara_1
+message,フィルム,A speaking tube... the kind used to communicate<br>between distant rooms in a building?<br> ,,vc_10070100002_045_01,chara_1
 
-message,<user>,ああ。拡張区域で試験的に導入してみたんだ。
+message,<user>,Yeah. We installed them as a trial in the expanded section.<br> 
 
-message,<user>,どうやらこの壁の奥で金属管が破損して、声が漏れているみたいだな。<br>壁の中に入れるノワールのお手柄だ。
+message,<user>,It looks like a metal pipe inside this wall broke and<br>is leaking sound. All thanks to Noir being able to go in.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1372,7 +1372,7 @@ asyncseplay,setag1_43,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,フィルム,あらあら、そういうことだったのね～<br>ちゃんと直してもらいましょう。,,vc_10070100002_046_01,chara_1
+message,フィルム,My my，so that's what it was~<br>Let's make sure it gets repaired.<br> ,,vc_10070100002_046_01,chara_1
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -1401,7 +1401,7 @@ bgmplay,bgmtag1_3,bgm0025,0.75,1
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,<user>,まったく、どれもこれも心理現象ではなかったな。<br>事実を公表すれば騒ぎをも収まるだろ。
+message,<user>,Well，none of them were paranormal after all.<br>Once we announce the facts，the commotion should die down.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1412,9 +1412,9 @@ asyncseplay,setag1_44,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,フィルム,ふふふ。大変だったけど、なんだか楽しかったですね。<br>司令官くんと一緒にあちこちを周って、たくさんお話をして……,,vc_10070100002_047_01,chara_1
+message,フィルム,Ufufu~ It was tough，but somehow... it was fun~<br>Going around everywhere with Commander-kun，talking so much...<br> ,,vc_10070100002_047_01,chara_1
 
-message,<user>,ああ、デートみたいだったな。
+message,<user>,Yeah，it was almost like a date.<br> 
 
 
 asynccharaface,chara_1,FaceShy,CONT,0
@@ -1426,7 +1426,7 @@ asyncseplay,setag1_45,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,フィルム,！！！,,vc_10070100002_048_01,chara_1
+message,フィルム,!!!<br> ,,vc_10070100002_048_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1437,9 +1437,9 @@ asyncseplay,setag1_46,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,フィルム,ももも、もう、デートだなんて。<br>年上をからかうのはよくないわよ、司令官くん！,,vc_10070100002_049_01,chara_1
+message,フィルム,D-d-d-don't say things like ""date""!<br>It's not nice to tease your elders，Commander-kun!<br> ,,vc_10070100002_049_01,chara_1
 
-message,<user>,なんだ、そう思ってたのは俺だけだったのか？
+message,<user>,What，was I the only one who thought so?<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1450,9 +1450,9 @@ asyncseplay,setag1_47,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,フィルム,そう言われちゃうと……わたしもちょっとそう思ったかな。<br>まるで、普通の女の子に戻ったようだったわ。,,vc_10070100002_050_01,chara_1
+message,フィルム,When you put it that way... maybe I thought so too~<br>It was like I'd gone back to being an ordinary girl.<br> ,,vc_10070100002_050_01,chara_1
 
-message,<user>,俺にとって、フィルムは普通の女の子だけどな。
+message,<user>,To me，you are an ordinary girl，Film.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1463,9 +1463,9 @@ asyncseplay,setag1_48,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,フィルム,ととと、年上をからかうのはやめなさい！<br>お説教するわよ！,,vc_10070100002_051_01,chara_1
+message,フィルム,S-s-stop teasing your elders!<br>I'll give you a lecture!<br> ,,vc_10070100002_051_01,chara_1
 
-message,<user>,怖い怖い。<br>それじゃあ今日はありがとうな。
+message,<user>,Scary，scary.<br>Thanks for today，though.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1476,7 +1476,7 @@ asyncseplay,setag1_49,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,フィルム,ええ。さようなら。,,vc_10070100002_052_01,chara_1
+message,フィルム,Yes. Goodbye~<br> ,,vc_10070100002_052_01,chara_1
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1485,7 +1485,7 @@ asyncseplay,setag1_50,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,フィルム,……。,,vc_10070100002_053_01,chara_1
+message,フィルム,......<br> ,,vc_10070100002_053_01,chara_1
 
 window,off
 wait,0.15
@@ -1576,7 +1576,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 
 window,on,0.15
-message,フィルム,終わっちゃったわね、ノワール。司令官くんとの楽しい心霊調査。<br>……もっともっとたくさん、心霊現象が起こればいいのに。,,vc_10070100002_054_01,chara_1
+message,フィルム,It's over，isn't it，Noir~ Our fun paranormal<br>investigation with Commander-kun... I wish more would happen.<br> ,,vc_10070100002_054_01,chara_1
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1588,7 +1588,7 @@ asyncseplay,setag1_53,se4800021,0,1,CONT,0
 asynccharaemo,chara_1,Imagination,CONT,0
 
 
-message,フィルム,そしたらまた、司令官くんと……,,vc_10070100002_055_01,chara_1
+message,フィルム,Then I could be with Commander-kun again...<br> ,,vc_10070100002_055_01,chara_1
 
 window,off
 wait,0.15
@@ -1607,7 +1607,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノワール,……？,550100001,vc_10070100002_056_01,chara_1
+message,ノワール,......?<br> ,550100001,vc_10070100002_056_01,chara_1
 
 window,off
 wait,0.15

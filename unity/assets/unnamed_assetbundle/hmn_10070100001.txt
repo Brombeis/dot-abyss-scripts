@@ -23,7 +23,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,調査せよ！　幽霊騒動！
+title,Investigate! The Ghost Incident!
 
 wait,1
 
@@ -74,9 +74,9 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,前線基地で噂になっている幽霊騒ぎの現場はこの辺りか。
+message,<user>,So this is the area where the ghost sightings<br>have been rumored at the forward base.<br> 
 
-message,<user>,昼間に幽霊を見たなんて馬鹿な噂だとは思ってはいたが……<br>どうやら異常はないみたいだな。
+message,<user>,I thought a ghost appearing in broad daylight<br>was a ridiculous rumor... Seems normal enough.<br> 
 
 window,off
 wait,0.15
@@ -104,7 +104,7 @@ shake,CHARA,chara_3,20,0,0.25,30,off,off,0
 shake,CHARA,chara_4,20,0,0.25,30,off,off,0
 
 window,on,0.15
-message,,グオォォォォォッ！！
+message,,GROOOOAAARR!!<br> 
 
 window,off
 wait,0.15
@@ -130,7 +130,7 @@ asynccameramove,EaseInTarget,Y,0,0.5,CONT,0
 wait,0.5
 
 window,on,0.15
-message,<user>,今のはモンスターの声……！？<br>あっちの方から聞こえたぞ！
+message,<user>,Was that a monster...!?<br>It came from over there!<br> 
 
 
 
@@ -166,9 +166,9 @@ charashowalpha,chara_1,1,0
 transitionFade,Tra15,in,black,0.5
 
 window,on,0.15
-message,<user>,見つけたぞ、モンスターの群れだ！<br>くっ、もう誰かが襲われてるっ！
+message,<user>,There they are，a pack of monsters!<br>Damn，someone's already under attack!<br> 
 
-message,<user>,おい！　そこのお前、早く逃げろ！
+message,<user>,Hey! You there，get out of here!<br> 
 
 
 window,off
@@ -203,9 +203,9 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,騎士風の女性,あら、もしかして司令官の<user>くんじゃない？<br>こんなところでどうしたの～？,100701000G,vc_10070100001_001_01,chara_1
+message,騎士風の女性,Oh my，could that be Commander %user%-kun?<br>What are you doing all the way out here~?<br> ,100701000G,vc_10070100001_001_01,chara_1
 
-message,<user>,何をのんきなっ！<br>俺がモンスターを引きつけている間に基地へ走れっ！
+message,<user>,How can you be so calm!?<br>I'll draw the monsters away — run to the base!<br> 
 
 window,off
 wait,0.15
@@ -239,9 +239,9 @@ linework,on,Black,Strong
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
 window,on,0.15
-message,,グオォォォォォッ！！
+message,,GROOOOAAARR!!<br> 
 
-message,<user>,――っ！<br>やられる……！？
+message,<user>,——!<br>It's gonna get me...!?<br> 
 
 
 linework,off,Black,Middle
@@ -310,13 +310,13 @@ item,on,550100001
 linework,on,White,Strong
 
 window,on,0.15
-message,フードの女性,……！！！,550100001,vc_10070100001_002_01,
+message,フードの女性,......!!!<br> ,550100001,vc_10070100001_002_01,
 
 asyncseplay,setag1_6,SE_DUMMY,0,1,CONT,0
 
-message,,ギャオォォォォォッ……
+message,,GYAOOOOOO......<br> 
 
-message,<user>,なっ！　フード姿の奴が一撃でモンスターを倒した！？<br>こいつは一体……！？
+message,<user>,Wha—! The hooded one took out that monster<br>in a single blow!? Who is that...!?<br> 
 
 window,off
 wait,0.15
@@ -364,7 +364,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,騎士風の女性,もう、無茶しちゃダメよ？<br>司令官くんはとっても大事な立場なんでしょう？,100701000G,vc_10070100001_003_01,chara_1
+message,騎士風の女性,Honestly，you mustn't be so reckless，okay~?<br>You hold a very important position，don't you?<br> ,100701000G,vc_10070100001_003_01,chara_1
 
 window,off
 wait,0.15
@@ -414,7 +414,7 @@ wait,0.5
 linework,on,Black,Middle
 
 window,on,0.15
-message,,グオォォォォォッ！！
+message,,GROOOOAAARR!!<br> 
 
 window,off
 wait,0.15
@@ -467,7 +467,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,騎士風の女性,あらあら。お説教をするのは、<br>この子たちを片付けてからにしましょうか。,100701000G,vc_10070100001_004_01,chara_1
+message,騎士風の女性,My my. I suppose the lecture will have to wait<br>until we've dealt with these little ones.<br> ,100701000G,vc_10070100001_004_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -478,7 +478,7 @@ asyncseplay,setag1_9,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,騎士風の女性,ノワール、お願いね～,100701000G,vc_10070100001_005_01,chara_1
+message,騎士風の女性,Noir，if you would~<br> ,100701000G,vc_10070100001_005_01,chara_1
 
 window,off
 wait,0.15
@@ -495,7 +495,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノワール,……♪,550100001,vc_10070100001_006_01,chara_1
+message,ノワール,......♪<br> ,550100001,vc_10070100001_006_01,chara_1
 
 window,off
 wait,0.15
@@ -524,9 +524,9 @@ transitionCrossFade,Tra03,0.5
 wait,0.5
 
 window,on,0.15
-message,,ギャオォォォォォッ……
+message,,GYAOOOOOO......<br> 
 
-message,<user>,あっという間にモンスターの群れを全滅させた！<br>たった１人で……
+message,<user>,She wiped out the entire pack in an instant!<br>All by herself...<br> 
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -565,11 +565,11 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,騎士風の女性,ご苦労さま、ノワール。,100701000G,vc_10070100001_007_01,chara_1
+message,騎士風の女性,Good work，Noir.<br> ,100701000G,vc_10070100001_007_01,chara_1
 
 
 
-message,ノワール,……♪　……♪,550100001,vc_10070100001_008_01,chara_1
+message,ノワール,......♪ ......♪<br> ,550100001,vc_10070100001_008_01,chara_1
 
 window,off
 wait,0.15
@@ -615,7 +615,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,たいしたもんだな。<br>お前はいったい誰なんだ？
+message,<user>,That was impressive.<br>Who exactly are you?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -626,13 +626,13 @@ asyncseplay,setag1_11,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,フィルム,ミレスガルド騎士団のフィルムよ。<br>よろしくね～、司令官くん。,,vc_10070100001_009_01,chara_1
+message,フィルム,I'm Film，of the Milesgard Knight Order.<br>Pleased to meet you~，Commander-kun.<br> ,,vc_10070100001_009_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
-message,<user>,騎士団員だったのか。<br>どうりで俺のことを知っているわけだな。
+message,<user>,A knight，huh.<br>No wonder you know who I am.<br> 
 
-message,<user>,だが、お前よりも気になるのはそいつだ。<br>そっちの浮いてるのは何だ？
+message,<user>,But what I'm more curious about is that thing.<br>What's the floating one over there?<br> 
 
 window,off
 wait,0.15
@@ -656,13 +656,13 @@ asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,フィルム,こっちはノワール。<br>見た通りの幽霊さんよ。,,vc_10070100001_010_01,chara_1
+message,フィルム,This is Noir.<br>A ghost，just as she looks~<br> ,,vc_10070100001_010_01,chara_1
 
-message,<user>,ゆ、幽霊！？
+message,<user>,A g-ghost!?<br> 
 
 
 
-message,ノワール,……♪,550100001,vc_10070100001_011_01,chara_1
+message,ノワール,......♪<br> ,550100001,vc_10070100001_011_01,chara_1
 
 window,off
 wait,0.15
@@ -691,9 +691,9 @@ asynccharaface,chara_1,FaceHappy,CONT,0
 
 
 window,on,0.15
-message,フィルム,ええ。<br>ずっと昔からわたしを呪ってる子なの。,,vc_10070100001_012_01,chara_1
+message,フィルム,That's right.<br>She's been cursing me since a lo~ng time ago.<br> ,,vc_10070100001_012_01,chara_1
 
-message,<user>,呪ってるって……<br>あっけらかんというワードじゃないだろ。
+message,<user>,""Cursing"" you...?<br>That's not exactly something you say so casually.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -709,11 +709,11 @@ asynccharaface,chara_1,FaceNormal,STOP,4.2
 asyncjump,CHARA,chara_1,30,0.25,1,off,4.2,STOP
 
 
-message,フィルム,あ、他の人に取り憑いたりはしないから、<br>心配しなくて大丈夫よ。,,vc_10070100001_013_01,chara_1
+message,フィルム,Oh，she won't possess anyone else，<br>so no need to worry~<br> ,,vc_10070100001_013_01,chara_1
 
-message,<user>,呪われているのに、めちゃくちゃ平然としている……<br>変わったやつだ。
+message,<user>,She's totally unfazed despite being cursed...<br>What a strange woman.<br> 
 
-message,<user>,しかもその幽霊……ノワールだったか。<br>フィルムの指示を聞いていたようだが？
+message,<user>,And that ghost... Noir，was it?<br>She seemed to be following your orders.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -724,7 +724,7 @@ asyncseplay,setag1_14,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,フィルム,付き合いが長いのよ～<br>今はわたしのお願いも聞いてくれるわ。,,vc_10070100001_014_01,chara_1
+message,フィルム,We go way~ back，you see~<br>She listens to my requests now.<br> ,,vc_10070100001_014_01,chara_1
 
 window,off
 wait,0.15
@@ -743,7 +743,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノワール,……♪,550100001,vc_10070100001_015_01,chara_1
+message,ノワール,......♪<br> ,550100001,vc_10070100001_015_01,chara_1
 
 window,off
 wait,0.15
@@ -761,7 +761,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,便利な幽霊だな。<br>もはや呪いでもなんでもない気が……
+message,<user>,That's one useful ghost.<br>This hardly feels like a curse anymore...<br> 
 
 
 window,off
@@ -796,9 +796,9 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,フィルム,それよりも！,,vc_10070100001_016_01,chara_1
+message,フィルム,More importantly!<br> ,,vc_10070100001_016_01,chara_1
 
-message,<user>,うわっ！　な、なんだ！？
+message,<user>,Whoa! Wh-what!?<br> 
 
 asyncjump,CHARA,chara_1,-30,0.5,2,off,0,CONT
 
@@ -807,9 +807,9 @@ asyncseplay,setag1_16,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,フィルム,お説教よ、司令官くん！,,vc_10070100001_017_01,chara_1
+message,フィルム,Time for a lecture，Commander-kun!<br> ,,vc_10070100001_017_01,chara_1
 
-message,<user>,どうして俺が説教されるんだ！？
+message,<user>,Why am I getting a lecture!?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -820,9 +820,9 @@ asyncseplay,setag1_17,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フィルム,決まってるでしょう！<br>自分が囮になるなんて、ダメじゃない！,,vc_10070100001_018_01,chara_1
+message,フィルム,Isn't it obvious!?<br>Using yourself as bait — what were you thinking!<br> ,,vc_10070100001_018_01,chara_1
 
-message,<user>,そうはいってもな、<br>女の子が襲われていれば、助けようとするもんだ。
+message,<user>,Be that as it may，<br>if a girl's being attacked，you try to help.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -837,7 +837,7 @@ asynccharaface,chara_1,FaceSad,STOP,5.3
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,STOP,5.3
 
 
-message,フィルム,それは素敵な心構えだけど、立場を考えないと。<br>司令官くんは前線基地に必要な人なんでしょう？,,vc_10070100001_019_01,chara_1
+message,フィルム,That's a lovely attitude，but think of your role.<br>The forward base needs you，doesn't it?<br> ,,vc_10070100001_019_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -848,9 +848,9 @@ asyncseplay,setag1_19,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,フィルム,しかもとっても強いならともかく、戦えないんだから。<br>ちゃ～んと反省しなきゃダメよ～？,,vc_10070100001_020_01,chara_1
+message,フィルム,And it's not like you're terribly strong —<br>you can't even fight. You need to prope~rly reflect~<br> ,,vc_10070100001_020_01,chara_1
 
-message,<user>,……確かに考える前に体が動いていた。ここにいたのが<br>フィルムじゃなければ危なかったな。反省はするよ。
+message,<user>,...You're right，my body moved before I could think.<br>If Film hadn't been here，it'd have been bad. I'll reflect.<br> 
 
 
 asynccharaface,chara_1,FaceFun,CONT,0
@@ -862,9 +862,9 @@ asyncseplay,setag1_20,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,フィルム,はい、よくできました♪<br>素直な子は好きですよ～,,vc_10070100001_021_01,chara_1
+message,フィルム,There，very good♪<br>I do like an obedient boy~<br> ,,vc_10070100001_021_01,chara_1
 
-message,<user>,ふん。<br>ずいぶんと子供扱いしてくれるじゃないか。
+message,<user>,Hmph.<br>You're really treating me like a child，huh.<br> 
 
 window,off
 wait,0.15
@@ -900,9 +900,9 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,フィルム,ええ、それはもう。フィルムお姉さんから見れば、<br>司令官くんはまだまだお子さまだもの。,,vc_10070100001_022_01,chara_1
+message,フィルム,Oh，absolutely. To your big sis Film，<br>you're still just a little boy~<br> ,,vc_10070100001_022_01,chara_1
 
-message,<user>,どういう意味だ？<br>それほど年齢差があるようには見えないが。
+message,<user>,What do you mean?<br>You don't look that much older than me.<br> 
 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
@@ -914,7 +914,7 @@ asyncseplay,setag1_22,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フィルム,実はわたし、ノワールの呪いのせいで、<br>見た目が全然成長していないだけなの。,,vc_10070100001_023_01,chara_1
+message,フィルム,The truth is，because of Noir's curse，<br>my appearance hasn't aged at all~<br> ,,vc_10070100001_023_01,chara_1
 
 
 window,off
@@ -934,7 +934,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノワール,……♪,550100001,vc_10070100001_024_01,chara_1
+message,ノワール,......♪<br> ,550100001,vc_10070100001_024_01,chara_1
 
 window,off
 wait,0.15
@@ -952,7 +952,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,げっ、マジか！？　<br>外見が固定される呪いとはおそろしい……
+message,<user>,Whoa，seriously!?<br>A curse that freezes your appearance... That's terrifying.<br> 
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -961,9 +961,9 @@ asyncseplay,setag1_23,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,フィルム,困っちゃうわよね。<br>説明してもなかなか信じてもらえないんだもの～,,vc_10070100001_025_01,chara_1
+message,フィルム,It's quite the predicament~<br>No one ever believes me when I explain it~<br> ,,vc_10070100001_025_01,chara_1
 
-message,<user>,実年齢はどのぐらいなんだ？
+message,<user>,How old are you really?<br> 
 
 
 asynccharaface,chara_1,FaceSad,CONT,0
@@ -975,9 +975,9 @@ asyncseplay,setag1_24,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,フィルム,あら、レディに年齢を聞くなんて失礼よ？<br>素敵な男の子になりたかったら気をつけないと！,,vc_10070100001_026_01,chara_1
+message,フィルム,My my，asking a lady her age? How rude~<br>If you want to be a fine young man，watch yourself!<br> ,,vc_10070100001_026_01,chara_1
 
-message,<user>,その余裕……俺よりも相当年上らしいな。
+message,<user>,That composure... You must be considerably older than me.<br> 
 
 
 asynccharaface,chara_1,FaceFun,CONT,0
@@ -989,9 +989,9 @@ asyncseplay,setag1_25,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,フィルム,そういうことです。わたしを心配するなんて、<br>まだまだまだまだまだまだ早いんですからね。,,vc_10070100001_027_01,chara_1
+message,フィルム,Exactly right. Worrying about me is still<br>fa~r，fa~r，fa~r too early for you.<br> ,,vc_10070100001_027_01,chara_1
 
-message,<user>,いや、心配はさせてもらうぞ。
+message,<user>,No，I'm going to worry about you whether you like it or not.<br> 
 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
@@ -1003,11 +1003,11 @@ asyncseplay,setag1_26,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,フィルム,あら？<br>どうしてかしら？,,vc_10070100001_028_01,chara_1
+message,フィルム,Oh?<br>And why is that，I wonder~?<br> ,,vc_10070100001_028_01,chara_1
 
-message,<user>,フィルムが俺よりずっと年上なことも、<br>戦う力があることもわかった。
+message,<user>,I understand that you're much older than me，<br>and that you have the strength to fight.<br> 
 
-message,<user>,だがいくら年上でも、女の子であることに変わりはない。<br>心配もするし、守りたいとも思う。
+message,<user>,But no matter how old you are，you're still a girl.<br>I'll worry about you，and I'll want to protect you.<br> 
 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
@@ -1019,7 +1019,7 @@ asyncseplay,setag1_27,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,フィルム,！！！,,vc_10070100001_029_01,chara_1
+message,フィルム,!!!<br> ,,vc_10070100001_029_01,chara_1
 
 window,off
 wait,0.15
@@ -1042,9 +1042,9 @@ asynccharaemo,chara_1,Shy,CONT,0
 
 
 window,on,0.15
-message,フィルム,も、もう司令官くんったら～！<br>格好つけちゃって！,,vc_10070100001_030_01,chara_1
+message,フィルム,G-goodness，Commander-kun~!<br>Trying to look all cool!<br> ,,vc_10070100001_030_01,chara_1
 
-message,<user>,男は可愛い女の子の前では、格好をつけるものだろ。
+message,<user>,A man shows off in front of a cute girl. It's only natural.<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -1061,9 +1061,9 @@ asyncseplay,setag1_30,se4800008,0,1,STOP,4.8
 asynccharaemo,chara_1,Sweat,STOP,4.8
 
 
-message,フィルム,かかか、可愛い女の子なんて……。<br>わたし、女の子だなんて呼ばれる歳じゃないのよ～？,,vc_10070100001_031_01,chara_1
+message,フィルム,C-c-cute girl...!?<br>I'm far too old to be called a girl，you know~?<br> ,,vc_10070100001_031_01,chara_1
 
-message,<user>,女性は年齢にかかわらずレディだ。<br>素敵な男ってのはそう考えるべきじゃないのか？
+message,<user>,A woman is a lady regardless of age.<br>Isn't that how a fine man should think?<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1074,11 +1074,11 @@ asyncseplay,setag1_31,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,フィルム,そそそそそ、そんなことばかり言って！<br>わたしなんかに優しくしても仕方ないんだから～♡,,vc_10070100001_032_01,chara_1
+message,フィルム,Y-y-y-you keep saying things like that!<br>There's no point being sweet to someone like me~♡<br> ,,vc_10070100001_032_01,chara_1
 
-message,<user>,ふん、何を言われても俺の意思は変わらないぞ。
+message,<user>,Hmph，nothing you say will change my mind.<br> 
 
-message,<user>,だから俺に無茶をさせたくないなら、<br>フィルムも危ない場所を１人で歩いたりするな。
+message,<user>,So if you don't want me doing anything reckless，<br>then don't go walking through dangerous places alone.<br> 
 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
@@ -1090,7 +1090,7 @@ asyncseplay,setag1_32,se4800012,0,1,STOP,3.6
 asynccharaemo,chara_1,Shy,STOP,3.6
 
 
-message,フィルム,……わかりました。<br>司令官くんがわたしを心配しちゃうもの、ね。,,vc_10070100001_033_01,chara_1
+message,フィルム,...Understood.<br>Because Commander-kun would worry about me，right~<br> ,,vc_10070100001_033_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1103,7 +1103,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 asynccharaface,chara_1,FaceHappy,STOP,8.7
 
 
-message,フィルム,それにしても、可愛い女の子なんて言ってもらったの<br>すごく久しぶりだわ。ね、ノワール。,,vc_10070100001_034_01,chara_1
+message,フィルム,Still... it's been so long since someone called<br>me a cute girl. Isn't that right，Noir~<br> ,,vc_10070100001_034_01,chara_1
 
 
 window,off
@@ -1123,7 +1123,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノワール,……♪,550100001,vc_10070100001_035_01,chara_1
+message,ノワール,......♪<br> ,550100001,vc_10070100001_035_01,chara_1
 
 window,off
 wait,0.15
@@ -1143,7 +1143,7 @@ wait,0.5
 asynccharaface,chara_1,FaceFun,CONT,0
 
 window,on,0.15
-message,<user>,昼間から飛び回るとは、ずいぶんと元気な幽霊だな。
+message,<user>,Flying around in broad daylight... That's one lively ghost.<br> 
 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
@@ -1155,9 +1155,9 @@ asyncseplay,setag1_34,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フィルム,そうなのよ～<br>元気でいたずら好きな子で、困っちゃうわ。,,vc_10070100001_036_01,chara_1
+message,フィルム,I know，right~?<br>She's such an energetic little prankster. What a handful~<br> ,,vc_10070100001_036_01,chara_1
 
-message,<user>,いたずら？　どんな……
+message,<user>,Pranks? What kind of...<br> 
 
 window,off
 wait,0.15
@@ -1177,13 +1177,13 @@ wait,0.5
 asyncseplay,setag1_35,se5010003,0,1,CONT,0
 
 window,on,0.15
-message,,――ムニッ
+message,,——Squish<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
-message,,突然、<user>の右手が、自らの意思とは<br>関係なく、フィルムの胸をやさしく揉んだ。
+message,,Suddenly，%user%'s right hand，moving entirely<br>on its own，gently squeezed Film's chest.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1194,7 +1194,7 @@ asyncseplay,setag1_36,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,フィルム,きゃっ！！！,,vc_10070100001_037_01,chara_1
+message,フィルム,Kyaa!!!<br> ,,vc_10070100001_037_01,chara_1
 
 window,off
 wait,0.15
@@ -1212,7 +1212,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,ち、違う！　俺は何もしていない！<br>いや、揉んだのは揉んだが、柔らかかったが、それは……
+message,<user>,I-it wasn't me! I didn't do anything!<br>Well，I did squeeze，and it was soft，but that's...<br> 
 
 
 asynccharaface,chara_1,FaceSad,CONT,0
@@ -1224,7 +1224,7 @@ asyncseplay,setag1_37,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フィルム,……あなたの仕業ね、ノワール？,,vc_10070100001_038_01,chara_1
+message,フィルム,...This was your doing，wasn't it，Noir?<br> ,,vc_10070100001_038_01,chara_1
 
 
 window,off
@@ -1244,7 +1244,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノワール,……♪,550100001,vc_10070100001_039_01,chara_1
+message,ノワール,......♪<br> ,550100001,vc_10070100001_039_01,chara_1
 
 window,off
 wait,0.15
@@ -1262,7 +1262,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,こいつ、幽霊のくせに人に干渉できるのか？
+message,<user>,She can physically manipulate people despite being a ghost?<br> 
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -1271,7 +1271,7 @@ asyncseplay,setag1_38,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フィルム,モンスターと戦えるぐらいだもの。<br>霊力を使えば、ちょっとしたいたずらぐらい簡単なの。,,vc_10070100001_040_01,chara_1
+message,フィルム,She can fight monsters，after all~<br>A little prank is nothing when she uses her spirit power.<br> ,,vc_10070100001_040_01,chara_1
 
 
 window,off
@@ -1291,7 +1291,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノワール,……♪　……♪♪,550100001,vc_10070100001_041_01,chara_1
+message,ノワール,......♪ ......♪♪<br> ,550100001,vc_10070100001_041_01,chara_1
 
 window,off
 wait,0.15
@@ -1318,9 +1318,9 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 
 window,on,0.15
-message,フィルム,褒めてないのよ、ノワール。,,vc_10070100001_042_01,chara_1
+message,フィルム,I'm not praising you，Noir.<br> ,,vc_10070100001_042_01,chara_1
 
-message,<user>,いたずら好きの昼間から元気な幽霊、か……<br>噂の正体はこいつだったんだな。
+message,<user>,A prank-loving ghost who's active in broad daylight...<br>She was the source of those rumors，then.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1331,9 +1331,9 @@ asyncseplay,setag1_40,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,フィルム,噂？,,vc_10070100001_043_01,chara_1
+message,フィルム,Rumors?<br> ,,vc_10070100001_043_01,chara_1
 
-message,<user>,最近、昼間から幽霊が出るって噂があってな。<br>俺はここに来たのは、その確認の為なんだ。
+message,<user>,There's been a rumor about ghost sightings in<br>broad daylight. I came here to investigate.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1344,7 +1344,7 @@ asyncseplay,setag1_41,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フィルム,じゃあ司令官くんが危ない目にあったのも、<br>そもそもノワールのいたずらのせいだったのね？,,vc_10070100001_044_01,chara_1
+message,フィルム,So Commander-kun being in danger was because of<br>Noir's pranks in the first place，wasn't it?<br> ,,vc_10070100001_044_01,chara_1
 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
@@ -1352,7 +1352,7 @@ asynccharaface,chara_1,FaceAnger,CONT,0
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
 
-message,フィルム,……あのね、ノワール。,,vc_10070100001_045_01,chara_1
+message,フィルム,...Listen here，Noir.<br> ,,vc_10070100001_045_01,chara_1
 
 window,off
 wait,0.15
@@ -1371,7 +1371,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノワール,……？,550100001,vc_10070100001_046_01,chara_1
+message,ノワール,......?<br> ,550100001,vc_10070100001_046_01,chara_1
 
 window,off
 wait,0.15
@@ -1396,7 +1396,7 @@ asynccharaemo,chara_1,Anger,CONT,0
 
 
 window,on,0.15
-message,フィルム,あんまりやりすぎると、<br>わたしもさすがに、怒るわよ？,,vc_10070100001_047_01,chara_1
+message,フィルム,If you go too far，<br>even I will get angry. Understood?<br> ,,vc_10070100001_047_01,chara_1
 
 window,off
 wait,0.15
@@ -1415,7 +1415,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノワール,……！！　……！！！,550100001,vc_10070100001_048_01,chara_1
+message,ノワール,......!! ......!!!<br> ,550100001,vc_10070100001_048_01,chara_1
 
 window,off
 wait,0.15
@@ -1433,7 +1433,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,ノワールがぷるぷる震えてるんだが……
+message,<user>,Noir's trembling all over...<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1444,9 +1444,9 @@ asyncseplay,setag1_43,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フィルム,本当にごめんなさいね、司令官くん。<br>この子にはちゃんと言い聞かせておくから。,,vc_10070100001_049_01,chara_1
+message,フィルム,I'm truly sorry，Commander-kun.<br>I'll make sure to have a proper talk with her.<br> ,,vc_10070100001_049_01,chara_1
 
-message,<user>,呪われているはずのフィルムが、<br>呪っている側のノワールに説教をするのか……？
+message,<user>,Film，the one who's cursed，is lecturing Noir，<br>the one doing the cursing...?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1458,7 +1458,7 @@ asyncseplay,setag1_44,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,フィルム,もちろんよ、<br>悪い子にはお仕置きが必要だもの。,,vc_10070100001_050_01,chara_1
+message,フィルム,But of course~<br>Naughty children need to be disciplined.<br> ,,vc_10070100001_050_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1469,9 +1469,9 @@ asyncseplay,setag1_45,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,フィルム,司令官くんも、ですよ？<br>お姉さんの言うことはちゃんと聞きましょうね？,,vc_10070100001_051_01,chara_1
+message,フィルム,That goes for you too，Commander-kun~<br>Be a good boy and listen to your big sis，okay?<br> ,,vc_10070100001_051_01,chara_1
 
-message,<user>,わかったわかった。<br>またモンスターが出ない内に引き上げるとしよう。
+message,<user>,All right，all right.<br>Let's head back before more monsters show up.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1482,9 +1482,9 @@ asyncseplay,setag1_46,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,フィルム,はい、いい子いい子。<br>帰ったらおやつをあげましょうね～,,vc_10070100001_052_01,chara_1
+message,フィルム,There there，good boy，good boy~<br>I'll get you a treat when we're back~<br> ,,vc_10070100001_052_01,chara_1
 
-message,<user>,本当に子供扱いだな、まったく……
+message,<user>,She really does treat me like a child，good grief...<br> 
 
 window,off
 bgmstop,bgmtag1_3,0.5

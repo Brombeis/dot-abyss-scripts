@@ -15,7 +15,7 @@ bgmplay,bgmtag3_1,bgm0024,1
 
 
 window,on,0.15
-message,,フィルムが目を覚ますまで世話をしていた兵士は、<br>起き上がった彼女に深く頭を下げていた。
+message,,The soldier，who had tended to Film until she woke，<br>bowed deeply to her as she sat up.<br> 
 
 charashow,chara_1,0
 
@@ -26,13 +26,13 @@ asyncseplay,setag3_1,se4800007,0,1,CONT
 asynccharaemo,chara_1,Panic,STOP
 
 charaface,chara_1,FaceSad
-message,フィルム,わたしがいいって言ったんだもの、<br>気にしなくていいのよ。,,vc_10070100023_001_01
+message,フィルム,I'm the one who said it was okay~<br>You don't need to worry about it.<br> ,,vc_10070100023_001_01
 
 charaface,chara_1,EyeClose
 charaface,chara_1,FaceNormal
-message,フィルム,誰かを求めてしまう気持ちは、<br>わたしにだって分かるもの……,,vc_10070100023_002_01
+message,フィルム,I understand the feeling of longing for someone~<br>Even I know what that's like...<br> ,,vc_10070100023_002_01
 
-message,,穏やかに言ったフィルムに、兵士は納得した様子だった。<br>やはり好きな人ができたんですね、と。
+message,,Film spoke gently，and the soldier seemed to understand.<br>""So you do have someone you love，"" he said.<br> 
 
 asyncseplay,setag3_2,se4800007,0,1,CONT
 
@@ -41,14 +41,14 @@ asynccharaemo,chara_1,Panic,STOP
 asynccharareaction,chara_1,shake,1,STOP
 
 charaface,chara_1,FaceUnique02
-message,フィルム,……えっ？<br>そ、そんなことは……,,vc_10070100023_003_01
+message,フィルム,...Huh?<br>Th-that's not...<br> ,,vc_10070100023_003_01
 
-message,,最近のフィルムさんはさらに綺麗になっていて、<br>素敵な恋をしてると思っていたと、兵士は続ける。
+message,,""You've become even more beautiful lately，"" the soldier continued.<br>""I figured you must be having a wonderful romance.""<br> 
 
 asynccharareaction,chara_1,nod,1,STOP
 
 charaface,chara_1,FaceSurprise
-message,フィルム,そんな風に見えていたのね……,,vc_10070100023_004_01
+message,フィルム,Is that how I looked to you...?<br> ,,vc_10070100023_004_01
 
 window,off
 wait,0.15
@@ -64,7 +64,7 @@ wait,0.1
 
 charaface,chara_1,FaceUnique02
 window,on,0.15
-message,フィルム,（わたしが……恋を……？）,,vc_10070100023_005_01
+message,フィルム,(Me... in love...?)<br> ,,vc_10070100023_005_01
 
 window,off
 wait,0.15
@@ -77,14 +77,14 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,,誰にも言いません、今日のことを思い出に明日からも頑張ります。<br>そう言って、兵士は満足げに礼を言った。
+message,,""I won't tell anyone. I'll treasure today as a memory and keep<br>working hard."" The soldier thanked her with a satisfied look.<br> 
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
 
 asynccharareaction,chara_1,Nod,1,STOP
 
-message,フィルム,え、ええ。<br>満足してもらえたなら、よかったわ。,,vc_10070100023_006_01
+message,フィルム,Y-yes~<br>I'm glad you were satisfied~<br> ,,vc_10070100023_006_01
 
 window,off
 wait,0.15
@@ -96,13 +96,13 @@ wait,1
 charaface,chara_1,EyeClose
 charaface,chara_1,FaceNormal
 window,on,0.15
-message,フィルム,……わたしは、素敵な恋をしてるのね。<br>だから司令官くんのことを思うと、毎日が幸せなんだわ。,,vc_10070100023_007_01
+message,フィルム,...So I am having a wonderful romance~<br>That's why thinking of Commander-kun makes every day feel happy.<br> ,,vc_10070100023_007_01
 
 charahide,chara_1,0.3
 
 item,on,550100001
 
-message,ノワール,…………,550100001,vc_10070100023_008_01,
+message,ノワール,............<br> ,550100001,vc_10070100023_008_01,
 
 item,off,550100001
 
@@ -115,19 +115,19 @@ asyncseplay,setag3_4,se4800022,0,1,CONT
 charaemo,chara_1,Speak
 
 charaface,chara_1,FaceSurprise
-message,フィルム,あら、どうしたの、ノワール。<br>何か納得のいかない様子だけど。,,vc_10070100023_009_01
+message,フィルム,Oh my，what's wrong，Noir~?<br>You look like something's bothering you.<br> ,,vc_10070100023_009_01
 
 asynccharaemo,chara_1,Sweat,STOP
 
 charaface,chara_1,FaceSad
 
-message,フィルム,……もしかして、色々助けてもらってるのに、<br>わたしだけ恋を楽しんでるから怒ってるの？,,vc_10070100023_010_01
+message,フィルム,...Could it be that you're upset because I'm<br>enjoying my love life while you help me with everything?<br> ,,vc_10070100023_010_01
 
 charahide,chara_1,0.3
 
 item,on,550100001
 
-message,ノワール,……,550100001,vc_10070100023_011_01,
+message,ノワール,......<br> ,550100001,vc_10070100023_011_01,
 
 item,off,550100001
 
@@ -141,7 +141,7 @@ charaface,chara_1,FaceUnique01
 
 charareaction,chara_1,Hop,1
 
-message,フィルム,ノ、ノワール？<br>ねえ、ノワールっ！？,,vc_10070100023_012_01
+message,フィルム,N-Noir?<br>Hey，Noir!?<br> ,,vc_10070100023_012_01
 
 window,off
 bgmstop,bgmtag3_1,0.5

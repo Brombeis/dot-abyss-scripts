@@ -174,7 +174,7 @@ roster is listed below.
 | ヒマリ | Himari | Female | [Profile](#himari-ヒマリ) |
 | ヒュメナ | Humena | Female | |
 | ピコ | Pico | Female | |
-| フィルム | Film | Female | |
+| フィルム | Film | Female | [Profile](#film-フィルム) |
 | フェイリン | Feilin | Female | |
 | フレイヤ | Freya | Female | |
 | フレデリカ | Frederica | Female | |
@@ -803,3 +803,87 @@ roster is listed below.
   - Her keigo (ございます, いたします) should translate as slightly
     elevated formality: "I am most grateful", "Please allow me to" —
     but keep it natural, not archaic.
+
+### Film (フィルム)
+- **Pronoun:** わたし (watashi, kana) — soft feminine
+- **Addresses MC as:** 司令官くん → **"Commander-kun"** (warm, familiar,
+  faintly teasing — the -kun signals she sees him as younger)
+- **Self-reference:** Refers to herself as **"Film-oneesama"** or
+  **"your big sis"** (フィルムお姉さん) when being playful or
+  lecturing — a signature habit that defines her dynamic with the MC
+- **Role:** Knight of the Milesgard Knight Order; looks young but is
+  actually far older than her appearance suggests due to Noir's curse
+  freezing her physical aging. Accompanied by Noir (ノワール), a ghost
+  that has cursed her since long ago — though Film has domesticated the
+  relationship to the point where Noir obeys her commands and fights
+  alongside her.
+- **Speech style:** Warm, composed, and gently maternal. Polite です/ます
+  form delivered with relaxed confidence — never stiff. Classic mature
+  feminine speech: あらあら, うふふ, ～かしら, ～わよ, ～わね, ～もの.
+  Elongates sentence endings with ～ for a leisurely, unhurried feel
+  (よ～, わ～, ね～). Uses ♪ and ♡ occasionally — less than Marina or
+  Kururu, but more than Sophia. Has a signature habit of lecturing and
+  scolding the MC like a mother hen (お説教よ！), then praising him
+  like a child when he complies (はい、よくできました♪). Unflappable
+  in dangerous situations — reacts to ghosts, monsters, and curses with
+  mild amusement rather than alarm. Her laugh is うふふ (gentle, knowing)
+  or ふふふ (quietly pleased).
+- **Key traits:**
+  - **Motherly big-sister energy.** She treats the MC as a child who needs
+    guidance, praises him when he's obedient ("Good boy, good boy~"),
+    offers snacks as rewards, and scolds him for recklessness. This is
+    her default mode, not an act — she genuinely sees herself as the
+    responsible adult in the room.
+  - **Hopelessly out of touch.** Despite looking young, her actual age
+    shows in her complete inability to understand modern slang or trends.
+    She misinterprets slang with confident wrongness (thinks "partygoer"
+    means "crispy bell pepper"), struggles with long drink names, and
+    tries to confess using a chaotic mix of outdated buzzwords from
+    multiple eras. This gap between her youthful appearance and her
+    old-fashioned sensibilities is a core comedy beat.
+  - **Teasing but easily flustered.** She maintains composure when
+    teasing the MC, but crumbles when he flirts back. Stuttering,
+    repeating syllables (ももも, かかか, そそそそそ, ととと), blushing,
+    and deflecting with "stop teasing your elders!" — she can dish it
+    out but cannot take it.
+  - **Secretly lonely.** Her inner monologues reveal someone who hasn't
+    been treated as a normal girl in a very long time. Being called
+    "cute" or having a date-like experience moves her deeply. She wishes
+    for more excuses to spend time with the MC — even hoping for more
+    paranormal incidents so they can investigate together again.
+  - **Latent spiritual power.** Claims to only be able to wobble water
+    in a cup, but actually possesses enormous unconscious psychic
+    abilities. Her repressed emotions can trigger poltergeist-scale
+    events without her realizing it. Noir knows this but Film doesn't.
+- **Translation notes:**
+  - Her "あらあら" is signature — render as "My my," or "Oh my,"
+    depending on context. Same register as Ludia's but with more
+    maternal warmth and less worldly sophistication.
+  - Her big-sister/motherly lines are her most distinctive feature —
+    they should sound genuinely nurturing, not condescending: "There
+    there, good boy~ I'll get you a snack when we get back~"
+  - The age-gap comedy must land naturally. She's not senile — she's
+    sharp, experienced, and knowledgeable. She just has a massive blind
+    spot for anything that evolved culturally after her time. Translate
+    her wrong guesses with confident delivery: "Ah, 'lit' — that must
+    mean the lanterns are on fire!"
+  - When flustered by the MC's compliments, the stutter should feel
+    like a composure break — sudden and charming because she's usually
+    so in control: "C-c-cute!? I'm far too old to be called a girl,
+    you know~!?"
+  - Her elongated ～ endings give her a leisurely, unhurried cadence —
+    render with tildes: "Is that so~?", "That's right~", "How
+    troublesome~"
+  - Keep ♪ and ♡ when they appear — they mark her playful/affectionate
+    moments.
+  - Her inner monologues should sound wistful and tender, revealing
+    the loneliness beneath the composed exterior: "It's over, Noir.
+    Our fun investigation with Commander-kun... I wish more paranormal
+    things would happen..."
+  - When she gets genuinely stern (scolding Noir for endangering the
+    MC), the warmth drops and a quiet authority emerges — short, firm
+    sentences: "If you go too far... even I will get angry, you know?"
+  - Her お説教 (lectures/scoldings) directed at the MC should sound
+    fondly exasperated, like a mother who can't believe her kid did
+    something reckless again: "Using yourself as bait — what were
+    you thinking!?"

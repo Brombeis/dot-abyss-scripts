@@ -17,7 +17,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,恐怖！　ポルターガイスト！
+title,Terror! Poltergeist!
 
 wait,1
 
@@ -29,7 +29,7 @@ asyncshake,CHARA,chara_1,24,0,0.6,7,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_2,24,0,0.6,7,off,off,0,on,CONT,0
 
 window,on,0.15
-message,,<size=48>ド―――――――ン！！！</>
+message,,<size=48>BOOOOOOOOM!!!!</>
 
 bgmplay,bgmtag1_1,bgm0028,0.75,1
 
@@ -43,7 +43,7 @@ charafocusonall
 shakeallstop
 
 window,on,0.15
-message,<user>,ど、どうした！？　何が起きた！？
+message,<user>,Wh-what happened!? What's going on!?<br> 
 
 window,off
 wait,0.15
@@ -73,9 +73,9 @@ asyncwait
 
 
 window,on,0.15
-message,慌てた兵士,家具や武具がめちゃくちゃに宙を舞っていますっ！<br>このままでは怪我人が出る可能性もっ！,401501000,,chara_2
+message,慌てた兵士,Furniture and weapons are flying through the air!<br>People could get hurt if this keeps up!<br> ,401501000,,chara_2
 
-message,<user>,はあっ！？　待て、そんな馬鹿なことがあるはず――
+message,<user>,What!? Wait，that can't possibly——<br> 
 
 
 
@@ -101,7 +101,7 @@ asyncseplay,setag1_4,se4300007,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,耳を疑う<user>の目の前を、<br>雑多な物品が殺人的な勢いで飛び回っていた！
+message,,Before %user%'s disbelieving eyes，assorted<br>objects hurtled through the air with deadly force!<br> 
 
 window,off
 wait,0.15
@@ -125,9 +125,9 @@ asyncseplay,setag1_8,se4400004,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,<user>,本当に飛んでるっ！？<br>どうしてこんなポルターガイストみたいなことが……
+message,<user>,They really are flying!?<br>How is this poltergeist-like stuff happening...?<br> 
 
-message,<user>,……まさか！　フィルムはどこだっ！？
+message,<user>,...Could it be!? Where's Film!?<br> 
 
 asyncseplay,setag1_9,se4010004,0,1,CONT,0
 
@@ -177,7 +177,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,フィルム,司令官くん、来たわよ～<br>急に呼び出してくれるなんて、うれし……,,vc_10070100003_001_01,chara_1
+message,フィルム,Commander-kun，I'm here~<br>Calling for me so suddenly，I'm so hap——<br> ,,vc_10070100003_001_01,chara_1
 
 
 window,off
@@ -208,7 +208,7 @@ asyncseplay,setag1_14,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 window,on,0.15
-message,,宿舎にやってきたフィルムは、眼前のポルターガイスト現象に<br>少しだけ目を見開いた。
+message,,Film arrived at the barracks and widened her eyes<br>slightly at the poltergeist unfolding before her.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -217,9 +217,9 @@ asyncseplay,setag1_15,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フィルム,あらあら、驚いた。<br>大変なことになってるわね～,,vc_10070100003_002_01,chara_1
+message,フィルム,My my，what a surprise~<br>This has gotten quite out of hand~<br> ,,vc_10070100003_002_01,chara_1
 
-message,<user>,フィルム、ようやく来たかっ！
+message,<user>,Film，you're finally here!<br> 
 
 window,off
 wait,0.15
@@ -253,9 +253,9 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,フィルム,司令官くんっ！<br>こんな危ない時に出歩いちゃダメじゃない！,,vc_10070100003_003_01,chara_1
+message,フィルム,Commander-kun!<br>You shouldn't be walking around when it's this dangerous!<br> ,,vc_10070100003_003_01,chara_1
 
-message,<user>,お説教している場合か！<br>このポルターガイスト、明らかに心霊現象だろう！
+message,<user>,This is no time for a lecture!<br>This poltergeist is clearly a paranormal phenomenon!<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -266,9 +266,9 @@ asyncseplay,setag1_17,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,フィルム,……ええ、確かな霊力を感じるわ。<br>間違いなく心霊現象ね～,,vc_10070100003_004_01,chara_1
+message,フィルム,...Yes，I can sense genuine spirit energy~<br>This is definitely paranormal~<br> ,,vc_10070100003_004_01,chara_1
 
-message,<user>,くっ、今度こそ本物か！<br>この規模の大きさ、原因はまさか……
+message,<user>,Damn，it's the real thing this time!<br>On this scale，the cause couldn't be...<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -279,7 +279,7 @@ asyncseplay,setag1_18,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,フィルム,あなたなの、ノワール？,,vc_10070100003_005_01,chara_1
+message,フィルム,Is it you，Noir?<br> ,,vc_10070100003_005_01,chara_1
 
 
 window,off
@@ -301,9 +301,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ノワール,……！？　……！！！,550100001,vc_10070100003_006_01,chara_1
+message,ノワール,......!? ......!!!<br> ,550100001,vc_10070100003_006_01,chara_1
 
-message,<user>,違う、か。<br>確かにいたずらと呼べるような規模じゃない。
+message,<user>,It's not her，huh.<br>This is definitely beyond anything you'd call a prank.<br> 
 
 window,off
 wait,0.15
@@ -327,7 +327,7 @@ item,off,550100001
 asynccharaface,chara_1,FaceSad,CONT,0
 
 window,on,0.15
-message,<user>,まずいな。怪我人が出る前に、早くなんとかしないと……！
+message,<user>,This is bad. We need to do something<br>before anyone gets hurt...!<br> 
 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
@@ -339,7 +339,7 @@ asyncseplay,setag1_19,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,フィルム,そうよね！<br>また２人で原因を探しましょう、司令官くん♪,,vc_10070100003_007_01,chara_1
+message,フィルム,You're right!<br>Let's find the cause together again，Commander-kun♪<br> ,,vc_10070100003_007_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -350,11 +350,11 @@ asyncseplay,setag1_20,se4800021,0,1,CONT,0
 asynccharaemo,chara_1,Imagination,CONT,0
 
 
-message,フィルム,きっとわたしたちなら、前みたいに解決できるわよ～,,vc_10070100003_008_01,chara_1
+message,フィルム,I'm sure we can solve it just like last time~<br> ,,vc_10070100003_008_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,STOP,1
 
-message,<user>,いいや、悪いが俺たちだけで解決できる規模じゃない。<br>前線基地の人材を総動員するぞ！
+message,<user>,No，sorry，but this is too big for just us.<br>I'm mobilizing everyone at the forward base!<br> 
 
 
 asynccharaface,chara_1,FaceSad,CONT,0
@@ -366,7 +366,7 @@ asyncseplay,setag1_21,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,フィルム,あ……そう、よね。<br>楽しく調べている場合じゃないもの。,,vc_10070100003_009_01,chara_1
+message,フィルム,Ah... you're right~<br>This is no time to be having fun investigating.<br> ,,vc_10070100003_009_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -377,9 +377,9 @@ asyncseplay,setag1_22,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フィルム,……ちょっと残念だけど。,,vc_10070100003_010_01,chara_1
+message,フィルム,...A little disappointing，though.<br> ,,vc_10070100003_010_01,chara_1
 
-message,<user>,どうしたんだ、フィルム？<br>ぼーっとしてる場合じゃ……
+message,<user>,What's wrong，Film?<br>Now's not the time to space out...<br> 
 
 window,off
 wait,0.15
@@ -401,7 +401,7 @@ asynccameramove,EaseInTarget,Y,150,0.5,CONT,0
 asyncwait
 
 window,on,0.15
-message,<user>,！！
+message,<user>,!!<br> 
 
 linework,on,Black,Middle
 
@@ -409,9 +409,9 @@ asyncseplay,setag1_23,se4900013,0,1,CONT,0
 
 wait,0.5
 
-message,,上の空のフィルムに向かって、ポルターガイストで浮かんだ大剣が<br>勢いよく飛んでくるのを、<user>は察知した。
+message,,%user% noticed a greatsword，lifted by the poltergeist，<br>hurtling straight toward the absentminded Film.<br> 
 
-message,<user>,フィルム、危ないっ！
+message,<user>,Film，look out!<br> 
 
 linework,off,Black,Middle
 
@@ -459,7 +459,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,フィルム,え……きゃっ！？,,vc_10070100003_011_01,chara_1
+message,フィルム,Huh... kyaa!?<br> ,,vc_10070100003_011_01,chara_1
 
 
 
@@ -472,9 +472,9 @@ asyncseplay,setag1_25,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,フィルム,し、司令官くん、わたしを庇ってくれたの！？,,vc_10070100003_012_01,chara_1
+message,フィルム,C-Commander-kun，you shielded me!?<br> ,,vc_10070100003_012_01,chara_1
 
-message,<user>,あんまり気を抜くな、<br>怪我をするところだったぞ！
+message,<user>,Don't let your guard down like that.<br>You almost got hurt!<br> 
 
 
 window,off
@@ -511,9 +511,9 @@ asynccharaemo,chara_1,Shy,CONT,0
 
 
 window,on,0.15
-message,フィルム,も、もう。わたしは大丈夫だってば。<br>司令官くんが庇うことなんてないのよ？,,vc_10070100003_013_01,chara_1
+message,フィルム,G-goodness~ I told you，I'm fine~<br>There's no need for you to protect me，okay?<br> ,,vc_10070100003_013_01,chara_1
 
-message,<user>,前にも言っただろう。お説教されても<br>女の子を助けるのはやめられないってな。
+message,<user>,I told you before. Even if you lecture me，<br>I'll never stop helping a girl in danger.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -522,7 +522,7 @@ asyncseplay,setag1_27,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フィルム,だってあの時は、<br>司令官くんと出会ったばかりだったじゃない。,,vc_10070100003_014_01,chara_1
+message,フィルム,But back then，<br>we had just met，hadn't we~<br> ,,vc_10070100003_014_01,chara_1
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -531,11 +531,11 @@ asyncseplay,setag1_28,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,フィルム,わたしがずっと年上のお婆ちゃんだって、<br>もうちゃんとわかってるでしょう？,,vc_10070100003_015_01,chara_1
+message,フィルム,You know full well by now that I'm an old granny<br>who's much older than you，don't you?<br> ,,vc_10070100003_015_01,chara_1
 
-message,<user>,ああ、あの時と今は違うよ。
+message,<user>,Yeah，things are different from back then.<br> 
 
-message,<user>,知れば知るほど、フィルムは可愛らしい女の子だ。
+message,<user>,The more I learn about you，the more I see a lovely girl.<br> 
 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
@@ -547,9 +547,9 @@ asyncseplay,setag1_29,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,フィルム,……え？,,vc_10070100003_016_01,chara_1
+message,フィルム,...Huh?<br> ,,vc_10070100003_016_01,chara_1
 
-message,<user>,フィルムは年齢なんて関係なく、素敵だって言ってるんだ。<br>だから心配になるし、守りたいと思う。
+message,<user>,I'm saying you're wonderful regardless of your age.<br>That's why I worry about you and want to protect you.<br> 
 
 
 asynccharaface,chara_1,FaceShy,CONT,0
@@ -561,7 +561,7 @@ asyncseplay,setag1_30,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,フィルム,し、司令官くん……♡,,vc_10070100003_017_01,chara_1
+message,フィルム,C-Commander-kun...♡<br> ,,vc_10070100003_017_01,chara_1
 
 window,off
 wait,0.15
@@ -577,7 +577,7 @@ asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
 asynccharaface,chara_1,FaceSurprise,STOP,0.1
 
 window,on,0.15
-message,,ドドン！！！
+message,,KA-BOOM!!!<br> 
 
 window,off
 wait,0.15
@@ -617,12 +617,12 @@ asyncseplay,setag1_35,se4900046,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,ひと際大きな爆音と共に、部屋中の家具や武器が一斉に浮かび上がり、<br>空中でぶつかり合った。
+message,,With an enormous explosion，every piece of furniture<br>and weapon in the room lifted up and collided midair.<br> 
 
-message,,そのうちの一つである大きな棚が、フィルムと<br><user>に向かって落下する――
+message,,Among them，a large shelf came crashing<br>down toward Film and %user%——<br> 
 
 
-message,ノワール,……！,550100001,vc_10070100003_018_01,
+message,ノワール,......!<br> ,550100001,vc_10070100003_018_01,
 
 window,off
 wait,0.15
@@ -634,7 +634,7 @@ shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 shake,CHARA,chara_2,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,<user>,うわっ！？<br>ノワール、いきなりぶつかってくるな……
+message,<user>,Whoa!?<br>Noir，don't just slam into me like that...<br> 
 
 window,off
 wait,0.15
@@ -682,7 +682,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,フィルム,きゃっ……,,vc_10070100003_019_01,chara_1
+message,フィルム,Kyaa......<br> ,,vc_10070100003_019_01,chara_1
 
 bgmstop,bgmtag1_1,0.5,0
 
@@ -707,9 +707,9 @@ blur,off,BACK,0
 fade,In,White,0
 
 window,on,0.15
-message,,――――――チュッ――――――,,vc_10070100003_020_01
+message,,——————Chu——————<br> ,,vc_10070100003_020_01
 
-message,<user>,（この柔らかい感触は……まさか……）
+message,<user>,(These soft lips... don't tell me...)<br> 
 
 window,off
 wait,0.15
@@ -745,7 +745,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,フィルム,ん……,,vc_10070100003_021_01,chara_1
+message,フィルム,Mm......<br> ,,vc_10070100003_021_01,chara_1
 
 window,off
 wait,0.15
@@ -778,7 +778,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,<user>,っ！？　あ……わ、悪い！
+message,<user>,—!? Ah... s-sorry!<br> 
 
 bgmplay,bgmtag1_2,bgm0033,0.75,1
 
@@ -792,9 +792,9 @@ asyncseplay,setag1_38,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,フィルム,も、もう、司令官くんったら。<br>無理矢理キスするなんて、びっくりするじゃない♡,,vc_10070100003_022_01,chara_1
+message,フィルム,G-goodness，Commander-kun~<br>Stealing a kiss like that... you surprised me♡<br> ,,vc_10070100003_022_01,chara_1
 
-message,<user>,違うんだ！<br>ノワールに、後ろから押されて……。
+message,<user>,That wasn't on purpose!<br>Noir pushed me from behind...<br> 
 
 
 window,off
@@ -816,12 +816,12 @@ wait,0.5
 
 
 window,on,0.15
-message,ノワール,……！,550100001,vc_10070100003_023_01,chara_1
+message,ノワール,......!<br> ,550100001,vc_10070100003_023_01,chara_1
 
-message,<user>,ん？　棚の方を見ているが……<br>そうか！　ポルターガイストから助けてくれたんだな。
+message,<user>,Hm? She's looking at the shelf...<br>I see! She saved us from the poltergeist.<br> 
 
 
-message,ノワール,……♪,550100001,vc_10070100003_024_01,chara_1
+message,ノワール,......♪<br> ,550100001,vc_10070100003_024_01,chara_1
 
 window,off
 wait,0.15
@@ -850,7 +850,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,フィルム,あ、ありがとうね、ノワール。,,vc_10070100003_025_01,chara_1
+message,フィルム,Th-thank you，Noir.<br> ,,vc_10070100003_025_01,chara_1
 
 
 window,off
@@ -863,7 +863,7 @@ asyncseplay,setag1_40,se4900169,0,1,CONT,0
 wait,2
 
 window,on,0.15
-message,<user>,これは……！？<br>飛んでいたものが全部落ちてきた……？
+message,<user>,What the...!?<br>Everything that was flying just dropped...?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -875,9 +875,9 @@ asyncseplay,setag1_41,se4800022,0,1,STOP,5.9
 asynccharaemo,chara_1,Speak,STOP,5.9
 
 
-message,フィルム,本当！　動き出す気配はないし、<br>ポルターガイストは収まったみたいね～,,vc_10070100003_026_01,chara_1
+message,フィルム,You're right! Nothing seems to be moving anymore~<br>The poltergeist appears to have stopped~<br> ,,vc_10070100003_026_01,chara_1
 
-message,<user>,そうだが、また動き出すかもしれな……
+message,<user>,Maybe，but it could start up agai——<br> 
 
 window,off
 wait,0.15
@@ -904,9 +904,9 @@ asynccharaemo,chara_1,Laugh,STOP,5.6
 
 
 window,on,0.15
-message,フィルム,そ、それじゃあ、わたしはもう行くわね。<br>司令官くん、お疲れ様！,,vc_10070100003_027_01,chara_1
+message,フィルム,W-well then，I'll be on my way~<br>Great work today，Commander-kun!<br> ,,vc_10070100003_027_01,chara_1
 
-message,<user>,え？　いや待て。<br>ポルタ―ガイストが起きた原因を調べないと……
+message,<user>,Huh? Wait.<br>We still need to figure out what caused the poltergeist...<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -915,7 +915,7 @@ asyncseplay,setag1_44,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,フィルム,ふふ、うふふ……♡,,vc_10070100003_028_01,chara_1
+message,フィルム,Fufu，ufufu...♡<br> ,,vc_10070100003_028_01,chara_1
 
 
 window,off
@@ -932,38 +932,38 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,<user>,行っちまった……
+message,<user>,She's gone...<br> 
 
-message,<user>,ったく。再発を防ぐためにも、<br>原因を突き止めないといけないってのに……
+message,<user>,Geez. We need to figure out the cause<br>to prevent this from happening again...<br> 
 
 
 item,on,550100001
 
-message,ノワール,……！,550100001,vc_10070100003_029_01,
+message,ノワール,......!<br> ,550100001,vc_10070100003_029_01,
 
-message,<user>,なんだよ、ノワール。<br>まさか原因がわかったのか？
+message,<user>,What is it，Noir?<br>Don't tell me you know the cause?<br> 
 
-message,ノワール,……！<br>……♡,550100001,vc_10070100003_030_01,
+message,ノワール,......!<br>......♡<br> ,550100001,vc_10070100003_030_01,
 
-message,<user>,フィルムが行ったほうを指してるが……<br>まさか、さっきの現象はフィルムが原因だと言いたいのか？
+message,<user>,She's pointing the way Film went...<br>Wait，are you saying Film caused that phenomenon?<br> 
 
-message,<user>,だがフィルムにそんな霊力はないんだろう？<br>コップの水を揺らすのが精々だと言っていたぞ。
+message,<user>,But Film doesn't have that kind of power，does she?<br>She said she could barely wobble water in a cup.<br> 
 
-message,<user>,……待て、本当にそうなのか？
+message,<user>,...Wait，is that actually true?<br> 
 
-message,<user>,ノワールに長年呪われ続けているが平気で、<br>それどころか、ノワールに言うことを聞かせている……
+message,<user>,She's been cursed by Noir for ages and is unfazed.<br>In fact，she has Noir obeying her commands...<br> 
 
-message,<user>,そんなフィルムに霊力がないのは妙だぞ。
+message,<user>,It's strange that someone like Film would have no power.<br> 
 
-message,ノワール,……♪,550100001,vc_10070100003_031_01,
+message,ノワール,......♪<br> ,550100001,vc_10070100003_031_01,
 
-message,<user>,自覚がないだけ、なのか。<br>本当はフィルムも強い霊力を持っている……そうだな？
+message,<user>,She just doesn't realize it，does she.<br>Film actually has powerful spirit energy... right?<br> 
 
-message,ノワール,……！,550100001,vc_10070100003_032_01,
+message,ノワール,......!<br> ,550100001,vc_10070100003_032_01,
 
-message,<user>,どうやら正解らしいな。<br>とすれば、ポルターガイストも起こせるだろう。
+message,<user>,Looks like I'm right.<br>Then she could certainly cause a poltergeist.<br> 
 
-message,<user>,しかし、どうしてフィルムはこんな事件を起こした？<br>そして、なぜ収まったんだ？
+message,<user>,But why did Film cause this incident?<br>And why did it suddenly stop?<br> 
 
 
 
@@ -1006,7 +1006,7 @@ asynccharaemo,chara_1,Heart,CONT,0
 
 
 window,on,0.15
-message,フィルム,キス、しちゃった……司令官くんと……！<br>ふふ、うふふふふっ♡,,vc_10070100003_033_01,chara_1
+message,フィルム,We kissed... Commander-kun and I...!<br>Fufu，ufufufu~♡<br> ,,vc_10070100003_033_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1017,7 +1017,7 @@ asyncseplay,setag1_46,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,フィルム,今日はデートよりもすごいこと、しちゃったのね。<br>なんて素敵な日なの……！,,vc_10070100003_034_01,chara_1
+message,フィルム,Today was even more amazing than a date~<br>What a wonderful day...!<br> ,,vc_10070100003_034_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1028,7 +1028,7 @@ asyncseplay,setag1_47,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,フィルム,どうしましょう、いい歳をして、ドキドキが止まらないわっ♡<br>これもあの心霊現象のおかげね！,,vc_10070100003_035_01,chara_1
+message,フィルム,Oh my，at my age，my heart just won't stop racing♡<br>And it's all thanks to that paranormal incident!<br> ,,vc_10070100003_035_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1039,7 +1039,7 @@ asyncseplay,setag1_48,se4800021,0,1,CONT,0
 asynccharaemo,chara_1,Imagination,CONT,0
 
 
-message,フィルム,……また、起きてくれないかしら～,,vc_10070100003_036_01,chara_1
+message,フィルム,...I wonder if it might happen again~<br> ,,vc_10070100003_036_01,chara_1
 
 
 window,off
@@ -1062,21 +1062,21 @@ item,on,550100001
 transitionFade,Tra02,in,black,1
 
 window,on,0.15
-message,<user>,心霊現象が起きれば、また俺と解決できる……<br>その気持ちが、無意識のうちに騒ぎを引き起こした……
+message,<user>,If a paranormal incident occurred，she could solve it<br>with me again... That desire unconsciously caused the chaos.<br> 
 
-message,<user>,そして、俺とキスをして満足したから、心霊現象が収まった。<br>これが事件の真相なのか？
+message,<user>,And once she was satisfied from our kiss，the phenomenon<br>stopped. Is that really the truth behind this incident?<br> 
 
-message,ノワール,……♡,550100001,vc_10070100003_037_01,
+message,ノワール,......♡<br> ,550100001,vc_10070100003_037_01,
 
-message,<user>,なんなんだよ、それ……<br>ただの可愛い女の子じゃないか、フィルム……
+message,<user>,What even is that...<br>She's just a cute girl after all，isn't she...<br> 
 
-message,ノワール,……♪,550100001,vc_10070100003_038_01,
+message,ノワール,......♪<br> ,550100001,vc_10070100003_038_01,
 
-message,<user>,しかし、こんなことを何度も繰り返されたら、<br>前線基地がメチャクチャになってしまう。
+message,<user>,But if this keeps happening，<br>the forward base will be torn apart.<br> 
 
-message,<user>,これからは、フィルムが欲求不満を溜めこむ前に、<br>可愛がってやらないといけないな。
+message,<user>,From now on，I'll have to spoil her<br>before she bottles up her feelings.<br> 
 
-message,ノワール,……♡,550100001,vc_10070100003_039_01,
+message,ノワール,......♡<br> ,550100001,vc_10070100003_039_01,
 
 window,off
 bgmstop,bgmtag1_2,0.5
