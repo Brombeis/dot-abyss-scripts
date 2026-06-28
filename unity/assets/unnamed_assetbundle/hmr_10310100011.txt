@@ -11,7 +11,7 @@ fade,In,Black,0.5
 
 
 seplay,seopening_tag,se5030001
-title,あたしは子どもじゃない！
+title,I'm Not a Kid!
 
 wait,1
 
@@ -32,13 +32,13 @@ charashow,chara_1,0.3
 
 asynccharareaction,chara_1,Hop,1,STOP
 window,on,0.15
-message,ハツネ,おい、あたしを娼館で働かせろ。,,vc_10310100011_001_01
+message,ハツネ,Hey，let me work at the brothel.<br> ,,vc_10310100011_001_01
 
 linework,off,White,Middle
 
-message,,いきなり部屋にやってきたハツネは、そう喚きたてた。
+message,,Hatsune barged into the room and loudly demanded just that.<br> 
 
-message,<user>,なんだ突然？　娼館で働かせろだと？
+message,<user>,What's this all of a sudden? Work at the brothel?<br> 
 
 asyncseplay,setag1_2,se4800016,0,1,CONT
 
@@ -47,9 +47,9 @@ asynccharaemo,chara_1,BePeevish,STOP
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,ハツネ,あたしが働いたっていいだろ！？<br>コトノだって働いてるらしいじゃないか！,,vc_10310100011_002_01
+message,ハツネ,What's wrong with me workin' there!?<br>Kotono's doin' it too，isn't she!?<br> ,,vc_10310100011_002_01
 
-message,<user>,コトノはな。だが……娼館だぞ？<br>お前みたいな子どもじゃ……
+message,<user>,Kotono，sure. But... it's a brothel.<br>A kid like you can't...<br> 
 
 asyncseplay,setag1_3,se4800001,0,1,CONT
 
@@ -59,11 +59,11 @@ asynccharaemo,chara_1,Anger,STOP
 asynccharareaction,chara_1,Hop,1,STOP
 
 asynccharaface,chara_1,FaceAnger,STOP
-message,ハツネ,誰が子どもだ！<br>あたしはゲンプクも済ませてる立派な大人だって言ってるだろ！,,vc_10310100011_003_01
+message,ハツネ,Who're you callin' a kid!<br>I told you，I've had my Genpuku! I'm a full-grown adult!<br> ,,vc_10310100011_003_01
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,<user>,そうは言ってもなぁ……
+message,<user>,Even so...<br> 
 
 window,off
 wait,0.15
@@ -77,7 +77,7 @@ asynccameramove,EaseInTarget,X,0,0.5,CONT,0
 asynccameramove,EaseInTarget,Y,-100,0.5,CONT,0
 
 window,on,0.15
-message,,ついハツネの控え目な胸元に目が行ってしまう。
+message,,His gaze drifted involuntarily to Hatsune's modest chest.<br> 
 
 window,off
 wait,0.15
@@ -97,9 +97,9 @@ asynccharaemo,chara_1,Shock,STOP
 
 asynccharaface,chara_1,FaceUnique01,STOP
 window,on,0.15
-message,ハツネ,なっ……む、胸か？　胸なのか！？　コトノは胸がでかいからいいのか！？<br>胸がでかくないと大人とは認められないのかよ！？,,vc_10310100011_004_01
+message,ハツネ,Wh... b-boobs!? Is it the boobs!? Kotono's fine 'cause hers are<br>big!? Gotta be stacked to be an adult!?<br> ,,vc_10310100011_004_01
 
-message,<user>,そうは言わないが。<br>とはいえ、これは客商売だからなぁ……
+message,<user>,I didn't say that.<br>But this is a business that caters to customers...<br> 
 
 asyncseplay,setag1_5,se4800001,0,1,CONT
 
@@ -109,9 +109,9 @@ asynccharaemo,chara_1,Anger,STOP
 asynccharaface,chara_1,FaceSurprise,STOP
 
 asynccharareaction,chara_1,Hop,1,STOP
-message,ハツネ,おいおい！　それじゃまるであたしの商品価値がないみたいじゃないか！<br>無礼すぎるだろうが！,,vc_10310100011_005_01
+message,ハツネ,Hey，hey，hey! That makes it sound like I've got<br>zero market value! That's way too rude!<br> ,,vc_10310100011_005_01
 
-message,<user>,確かに今のは言い過ぎたかもしれん。<br>しかし、コトノみたいにスタイルのいい女性がウケる世界であって……
+message,<user>,Fair enough，maybe I went too far.<br>But it's a world where figures like Kotono's are what sell...<br> 
 
 asyncseplay,setag1_6,se4800017,0,1,CONT
 
@@ -121,9 +121,9 @@ asynccharaemo,chara_1,Shock,STOP
 asynccharareaction,chara_1,Hop,1,STOP
 
 asynccharaface,chara_1,FaceAnger,STOP
-message,ハツネ,おい、おい、おーい！　侮辱するのもいい加減にしろ！<br>あたしだって脱いだら凄いんだぞ！,,vc_10310100011_006_01
+message,ハツネ,Hey，hey，heyyy! Enough with the insults already!<br>I look great with my clothes off，I'll have you know!<br> ,,vc_10310100011_006_01
 
-message,<user>,ほう、そうなのか？
+message,<user>,Oh? Is that so?<br> 
 
 asyncseplay,setag1_7,se4800016,0,1,CONT
 
@@ -134,21 +134,21 @@ asynccharaemo,chara_1,BePeevish,STOP
 asynccharareaction,chara_1,nod,1,STOP
 
 asynccharaface,chara_1,FaceAnger,STOP
-message,ハツネ,なんだその目は！　疑ってるのか？<br>ええい！　こうなったらここで決着をつけてやる！,,vc_10310100011_007_01
+message,ハツネ,What's with that look!? You doubtin' me!?<br>Fine! Then I'll settle this right here and now!<br> ,,vc_10310100011_007_01
 
-message,<user>,決着？　決着ってなんだよ？　決闘なら俺は受けないぞ？<br>圧倒的に不利だからな。
+message,<user>,Settle it? What do you mean? I'm not dueling you.<br>I'd be at a massive disadvantage.<br> 
 
 asynccharaface,chara_1,FaceFun,STOP
-message,ハツネ,今から、”研修”を始めろ！　知ってるんだぞ！　<br>娼館で働くためには、司令官の入隊試験みたいなのがあるんだろうが！,,vc_10310100011_008_01
+message,ハツネ,Start the 'training' right now! I know all about it!<br>To work at the brothel，you gotta pass some kinda test，right!?<br> ,,vc_10310100011_008_01
 
-message,<user>,入隊試験！？　ん～……ちょっとニュアンスは違う気もするが、<br>研修は俺がおこなう取り決めにはなっている。
+message,<user>,Entrance exam!? Hmm... that's not quite the right word，<br>but I am the one in charge of training，yeah.<br> 
 
 asynccharareaction,chara_1,nod,1,STOP
 
 asynccharaface,chara_1,FaceHappy,STOP
-message,ハツネ,よし！　じゃあ今すぐ勝負だ！<br>あたしが娼館で働ける身体かどうかお前の目で確かめてみるがいい！,,vc_10310100011_009_01
+message,ハツネ,Right! Then let's do this now!<br>See for yourself whether I've got what it takes!<br> ,,vc_10310100011_009_01
 
-message,,ハツネの勢いに押されるような形で、<br>ハツネの研修をする流れとなってしまった――
+message,,Swept up by Hatsune's sheer momentum，<br>the training session began——<br> 
 
 
 labeljump,b

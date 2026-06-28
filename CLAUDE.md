@@ -130,8 +130,9 @@ field 1 = display (translate), later field = handle (don't touch). Playable
 characters sometimes have a **Japanese handle** (e.g. `ラヴェリア`) — translating
 those would break scenes.
 
-Preserve `<user>` (player-name substitution), `<br>`, `<size=N>...</size>`, and
-symbols like `♪ ♥ ♡ ～`.
+Preserve `<br>`, `<size=N>...</size>`, and symbols like `♪ ♥ ♡ ～`.
+In translated text, replace `<user>` (player-name substitution) with `%user%`
+Make sure the files are valid JSON, with fields surrounded with `"`. Do not mix up `"` and the actual quote character that can be within the translated lines.
 
 The shared **name glossary** (`translations/names.json`) is applied to ALL name
 fields across ALL scenes for consistency. `extract_story.py` auto-seeds

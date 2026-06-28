@@ -14,7 +14,7 @@ charaface,chara_1,FaceSurprise
 
 
 window,on,0.15
-message,,幸い、何とか見つかることなく、ハツネと司令室に逃げ込んだ。
+message,,Fortunately，they made it to the command room undetected.<br> 
 
 charashow,chara_1,0.3
 
@@ -22,31 +22,31 @@ asyncseplay,setag3_1,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,STOP
 
-message,ハツネ,はぁ、はぁ……はぁぁぁ～～～……<br>最後の最後で気づかれちゃうなんてツイてないな。,,vc_10310100033_001_01
+message,ハツネ,Hah，hah... haaah~~~...<br>Almost getting caught at the very end... just our luck.<br> ,,vc_10310100033_001_01
 
-message,<user>,あれだけ声を出せばそりゃ気づかれるだろ。<br>まあ、とりあえずは見つからなくて良かったな。
+message,<user>,With all that noise，of course they'd notice.<br>Well，at least we weren't caught.<br> 
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
 
 asynccharareaction,chara_1,Nod,1,STOP
-message,ハツネ,そうだな、良かった。<br>若殿がちゃんと成長してるのも見られたしな。,,vc_10310100033_002_01
+message,ハツネ,Yeah，true.<br>And I got to see the young lord growin' up properly，too.<br> ,,vc_10310100033_002_01
 
-message,,どうやら発情の火照りは収まったらしく、<br>ハツネはすっかり冷静に戻っていた。
+message,,The flush of heat seemed to have subsided，<br>and Hatsune was fully back to her calm self.<br> 
 
-message,<user>,そういえば……若殿の武者修行が済んだら、ハツネもホウライの領国に<br>帰るつもりなのか？
+message,<user>,Come to think of it... once the young lord finishes<br>his training，are you going back to Hourai?<br> 
 
-message,,いい機会だと思い、気になってたことを訊ねてみる。
+message,,Figuring it was a good chance，he asked what was on his mind.<br> 
 
 asynccharaface,chara_1,EyeClose,STOP
 asynccharaface,chara_1,FaceNormal,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
-message,ハツネ,いや……できればまだ前線基地に残りたい。<br>司令官のために、な。,,vc_10310100033_003_01
+message,ハツネ,Nah... I'd rather stay at the forward base if I can.<br>For your sake，Commander.<br> ,,vc_10310100033_003_01
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,<user>,そうか、嬉しいことを言ってくれる。<br>俺も、できればハツネほどの剣の手練れは手放したくない。
+message,<user>,That's good to hear.<br>I wouldn't want to let go of a swordswoman as skilled as you.<br> 
 
 asyncseplay,setag3_2,se4800004,0,1,CONT
 
@@ -54,7 +54,7 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Laugh,STOP
 
 asynccharaface,chara_1,FaceHappy,STOP
-message,ハツネ,あははっ！　それこそ嬉しい言葉だぞ。<br>大丈夫だ、あたしはここから離れるつもりはない。だって……,,vc_10310100033_004_01
+message,ハツネ,Ahahah! Now that's what I like to hear.<br>Don't worry，I'm not goin' anywhere. Because...<br> ,,vc_10310100033_004_01
 
 asyncseplay,setag3_3,se4800012,0,1,CONT
 
@@ -62,16 +62,16 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
 asynccharaface,chara_1,FaceShy,STOP
-message,ハツネ,あたしの発情期を抑えられるのは……<br>司令官しかいないからな……,,vc_10310100033_005_01
+message,ハツネ,The only one who can handle my heat...<br>is you，Commander...<br> ,,vc_10310100033_005_01
 
 asyncseplay,setag3_4,se4800014,0,1,CONT
 
 asynccharaemo,chara_1,Silence,STOP
 
-message,,ハツネはまた赤くなると、キョロキョロと室内を見渡した。
+message,,Hatsune blushed again and glanced around the room.<br> 
 
 asynccharaface,chara_1,FaceFun,STOP
-message,ハツネ,ここなら、誰も来ないよな？<br>だったらもう１回……,,vc_10310100033_006_01
+message,ハツネ,Nobody's gonna come here，right?<br>Then how about one more...<br> ,,vc_10310100033_006_01
 
 crossfadeready
 
@@ -86,7 +86,7 @@ charashow,chara_1,0
 crossfade,0.3,0,0,1,1
 wait,0.3
 
-message,,まだまだ、ハツネの発情は収まってはいなかったらしく、<br>この夜はハツネが満足するまで何度も営みが繰り返されていった――
+message,,It seemed Hatsune's heat was far from over，and that night<br>they continued until she was finally satisfied——<br> 
 
 
 window,off

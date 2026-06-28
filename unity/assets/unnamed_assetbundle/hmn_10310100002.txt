@@ -17,7 +17,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,道しるべを追って
+title,Following the Trail
 
 wait,1
 
@@ -44,9 +44,9 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,コトノによれば、狼の襲撃を受けたのはこの周辺らしいが……。<br>思った通り、あちこちにモンスターや動物の気配があるな。
+message,<user>,According to Kotono，the wolf attack was around here...<br>Just as I thought，there are monsters and animals all over.<br> 
 
-message,<user>,ハツネ、モンスターの位置は分かるか？
+message,<user>,Hatsune，can you pinpoint the monsters?<br> 
 
 window,off
 wait,0.15
@@ -65,9 +65,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ハツネ,もちろんだ。<br>あたしの目と鼻をごまかせるやつなんて、そうそういないさ。,103101000G,vc_10310100002_001_01,chara_1
+message,ハツネ,'Course I can.<br>Ain't many who can fool my eyes and nose.<br> ,103101000G,vc_10310100002_001_01,chara_1
 
-message,<user>,よし。先導を頼む。
+message,<user>,Good. Lead the way.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -78,7 +78,7 @@ asyncseplay,setag1_2,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ハツネ,おうっ！　任せとけ！,103101000G,vc_10310100002_002_01,chara_1
+message,ハツネ,Yeah! Leave it to me!<br> ,103101000G,vc_10310100002_002_01,chara_1
 
 window,off
 wait,0.15
@@ -127,11 +127,11 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ハツネ,――こっちだ。足元に木の根があるからな。<br>気をつけてついてこいよ。,103101000G,vc_10310100002_003_01,chara_1
+message,ハツネ,——This way. Watch the tree roots underfoot.<br>Keep up and don't trip.<br> ,103101000G,vc_10310100002_003_01,chara_1
 
-message,<user>,了解だ。
+message,<user>,Roger.<br> 
 
-message,<user>,しかし、お前がいてくれてよかったよ。<br>俺だけじゃあ、灯りを使わなきゃ夜の森なんて歩くこともできないからな。
+message,<user>,Glad you're here，though.<br>Without you，I'd need a lantern just to walk this forest.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -142,9 +142,9 @@ asyncseplay,setag1_4,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ハツネ,だったらお前、なんの役に立つんだよ？<br>やっぱり、あたし１人でよかったんじゃないか？,103101000G,vc_10310100002_004_01,chara_1
+message,ハツネ,Then what good are you，huh?<br>Told ya I shoulda just come alone.<br> ,103101000G,vc_10310100002_004_01,chara_1
 
-message,<user>,こう見えて場数は踏んでいるんでね。<br>いずれ役に立って見せるさ。
+message,<user>,Believe it or not，I've got plenty of experience.<br>I'll prove my worth soon enough.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -163,7 +163,7 @@ asyncseplay,setag1_6,se4800010,0,1,STOP,3
 asynccharaemo,chara_1,Exclamation,STOP,3
 
 
-message,ハツネ,だといいけどな。<br>――む。この匂い……,103101000G,vc_10310100002_005_01,chara_1
+message,ハツネ,Better hope so.<br>——Hm. This smell...<br> ,103101000G,vc_10310100002_005_01,chara_1
 
 window,off
 wait,0.15
@@ -195,7 +195,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ハツネ,クンクン……クンクン……,103101000G,vc_10310100002_006_01,chara_1
+message,ハツネ,Sniff sniff... Sniff sniff...<br> ,103101000G,vc_10310100002_006_01,chara_1
 
 window,off
 wait,0.15
@@ -222,9 +222,9 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ハツネ,……間違ないっ！　若殿の匂いだ！,103101000G,vc_10310100002_007_01,chara_1
+message,ハツネ,...No doubt about it! It's the young lord's scent!<br> ,103101000G,vc_10310100002_007_01,chara_1
 
-message,<user>,獣人の嗅覚はさすがだな。<br>その匂い、追えそうか？
+message,<user>,Beastkin noses don't disappoint.<br>Can you follow the trail?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -239,7 +239,7 @@ asyncseplay,setag1_9,se4800014,0,1,STOP,1.2
 asynccharaemo,chara_1,Silence,STOP,1.2
 
 
-message,ハツネ,当然だ！<br>こっちに続いてる……,103101000G,vc_10310100002_008_01,chara_1
+message,ハツネ,Obviously!<br>It leads this way...<br> ,103101000G,vc_10310100002_008_01,chara_1
 
 window,off
 wait,0.15
@@ -258,7 +258,7 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,<user>,おい、ちょっと待て！
+message,<user>,Hey，hold on!<br> 
 
 window,off
 wait,0.15
@@ -296,7 +296,7 @@ asynccharaemo,chara_1,Anger,CONT,0
 
 
 window,on,0.15
-message,ハツネ,なんだよ！<br>邪魔すんな！,103101000G,vc_10310100002_009_01,chara_1
+message,ハツネ,What!?<br>Don't get in my way!<br> ,103101000G,vc_10310100002_009_01,chara_1
 
 window,off
 wait,0.15
@@ -312,7 +312,7 @@ asynccameramove,EaseInTarget,Y,0,0.5,CONT,0
 asyncwait
 
 window,on,0.15
-message,<user>,視野が狭くなってるぞ。<br>右の木を見ろ。
+message,<user>,You're getting tunnel vision.<br>Look at the tree on the right.<br> 
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -321,7 +321,7 @@ asyncseplay,setag1_11,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ハツネ,はぁ！？　木がどうかしたのかよ？<br>いったいなんのこと……,103101000G,vc_10310100002_010_01,chara_1
+message,ハツネ,Hah!? What about a stupid tree?<br>What are you even talkin' ab...<br> ,103101000G,vc_10310100002_010_01,chara_1
 
 window,off
 wait,0.15
@@ -369,11 +369,11 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ハツネ,…………っ！<br>この爪痕は……,103101000G,vc_10310100002_011_01,chara_1
+message,ハツネ,...!<br>These claw marks...<br> ,103101000G,vc_10310100002_011_01,chara_1
 
-message,<user>,大型の肉食獣が爪を研いだ痕跡だ。<br>この辺りを縄張りにしてるんだろう。
+message,<user>,A large predator sharpened its claws here.<br>This is probably its territory.<br> 
 
-message,<user>,急ぐ気持ちは分かるが、ここは慎重に迂回しよう。<br>獣を刺激してしまったら、行方不明者の捜索どころじゃない。
+message,<user>,I know you want to hurry，but let's detour around this.<br>Provoke it and the search'll be the least of our worries.<br> 
 
 window,off
 wait,0.15
@@ -393,9 +393,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ハツネ,……そうだな。お前の言う通りだ。<br>左から迂回していくぞ。,103101000G,vc_10310100002_012_01,chara_1
+message,ハツネ,...You're right.<br>We'll go around from the left.<br> ,103101000G,vc_10310100002_012_01,chara_1
 
-message,<user>,よし。素直なところもあるじゃないか。
+message,<user>,Good. You can be reasonable when you want to be.<br> 
 
 window,off
 wait,0.15
@@ -421,7 +421,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,ハツネ,（こいつ……ただ偉そうなだけじゃないみたいだな。<br>冷静だし、知識もある）,103101000G,vc_10310100002_013_01,chara_1
+message,ハツネ,(This guy... he's not just all talk after all.<br>He's calm and knows his stuff.)<br> ,103101000G,vc_10310100002_013_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -432,7 +432,7 @@ asyncseplay,setag1_15,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ハツネ,（そういえば、コトノが『旦那様』とか呼んでいたっけ……。<br>まさか、あのコトノがこいつを新しい主君に選んだのか？）,103101000G,vc_10310100002_014_01,chara_1
+message,ハツネ,(Come to think of it，Kotono called him 'my lord'...<br>Did she actually choose this guy as her new master?)<br> ,103101000G,vc_10310100002_014_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -443,7 +443,7 @@ asyncseplay,setag1_16,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ハツネ,（この男……いったい何者だ？）,103101000G,vc_10310100002_015_01,chara_1
+message,ハツネ,(This guy... who the heck is he?)<br> ,103101000G,vc_10310100002_015_01,chara_1
 
 
 window,off
@@ -497,7 +497,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ハツネ,これは……！,103101000G,vc_10310100002_016_01,chara_1
+message,ハツネ,This is...!<br> ,103101000G,vc_10310100002_016_01,chara_1
 
 window,off
 wait,0.15
@@ -513,7 +513,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,何か見つけたのか？<br>……ん？　地面になにか刺さっているな。それは……短刀か？
+message,<user>,Did you find something?<br>...Hm? Something's stuck in the ground. Is that... a dagger?<br> 
 
 window,off
 wait,0.15
@@ -563,11 +563,11 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ハツネ,この短刀は……領主さまが若殿に渡したものだ！<br>次期当主の証でもある大事なもので、若殿は肌身離さず持っていた……,103101000G,vc_10310100002_017_01,chara_1
+message,ハツネ,This dagger... our lord gave it to the young lord!<br>It's proof of succession. He always kept it on him...<br> ,103101000G,vc_10310100002_017_01,chara_1
 
-message,<user>,長さからして、せいぜい護身用だな。<br>実戦では、カタナを失くした時くらいしか使わないはずだ。
+message,<user>,Given its size，it's for self-defense at most.<br>In combat，he'd only use it if he lost his katana.<br> 
 
-message,<user>,つまり……最後の手段に頼らなきゃいけないくらい、<br>追い詰められていたってことか。
+message,<user>,Meaning... he was cornered badly enough<br>to resort to his last line of defense.<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -580,7 +580,7 @@ asyncseplay,setag1_19,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,ハツネ,っ……！　地面に血が……！<br>こんなにたくさん……！,103101000G,vc_10310100002_018_01,chara_1
+message,ハツネ,...! There's blood on the ground...!<br>So much of it...!<br> ,103101000G,vc_10310100002_018_01,chara_1
 
 window,off
 wait,0.15
@@ -612,7 +612,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,周りの草も踏み荒らされている。<br>ここでモンスターと戦ったらしいな。
+message,<user>,The grass around here is trampled，too.<br>Looks like there was a fight with a monster here.<br> 
 
 window,off
 wait,0.15
@@ -642,7 +642,7 @@ wait,0.5
 bgmplay,bgmtag1_2,bgm0030,0.75,1
 
 window,on,0.15
-message,<user>,近くには……もういないみたいだな。
+message,<user>,No one's nearby anymore，by the look of it.<br> 
 
 window,off
 wait,0.15
@@ -657,7 +657,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（戦いながら逃げたか、それとも敗北して巣穴に連れ帰られたか？<br>……いや、待てよ。この辺りの狼の生態を考えると……）
+message,<user>,(Did he escape while fighting，or get dragged to a lair?<br>...No，wait. Given how wolves behave around here...)<br> 
 
 window,off
 wait,0.15
@@ -679,7 +679,7 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,ハツネ,そんな……っ、若殿……！<br>あたしがお守りしなきゃいけなかったのに……！,103101000G,vc_10310100002_019_01,chara_1
+message,ハツネ,No... young lord...!<br>I was supposed to protect you...!<br> ,103101000G,vc_10310100002_019_01,chara_1
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -688,9 +688,9 @@ asyncseplay,setag1_21,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ハツネ,若殿……、若殿ぉ……,103101000G,vc_10310100002_020_01,chara_1
+message,ハツネ,Young lord... young lord...<br> ,103101000G,vc_10310100002_020_01,chara_1
 
-message,<user>,落ち着け。まだ死んだとは決まってない。
+message,<user>,Calm down. We don't know he's dead.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -701,9 +701,9 @@ asyncseplay,setag1_22,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ハツネ,気休めはよせ……！　これだけの出血で生きてるわけがない！<br>死体だってない……若殿はもう、モンスターの餌食に……！,103101000G,vc_10310100002_021_01,chara_1
+message,ハツネ,Don't try to comfort me...! No one survives this much blood loss!<br>There's no body... he's already been eaten by...!<br> ,103101000G,vc_10310100002_021_01,chara_1
 
-message,<user>,だから、落ち着けって。<br>見てみろ。血だまりに動物の毛が落ちている。
+message,<user>,I said calm down.<br>Look. There's animal fur in the blood.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -714,13 +714,13 @@ asyncseplay,setag1_23,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,ハツネ,え……？,103101000G,vc_10310100002_022_01,chara_1
+message,ハツネ,Huh...?<br> ,103101000G,vc_10310100002_022_01,chara_1
 
-message,<user>,お前の若殿はモンスターと戦う中で、相手にも手傷を負わせたってことだ。<br>だとすれば、この血は若殿のものだけじゃない。
+message,<user>,Your young lord wounded the monster during the fight.<br>Which means not all this blood is his.<br> 
 
-message,<user>,それに、狼型のモンスターは巣に獲物を持ち帰る習性はない。<br>そしてここに若殿の死体はない。
+message,<user>,Wolf-type monsters don't drag prey back to their dens.<br>And there's no body here.<br> 
 
-message,<user>,つまり、まだ生きている可能性は十分にあるってことだ。
+message,<user>,In other words，there's a real chance he's still alive.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -731,9 +731,9 @@ asyncseplay,setag1_24,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ハツネ,ほ……ほんとうか……？<br>若殿、無事なのか……？,103101000G,vc_10310100002_023_01,chara_1
+message,ハツネ,R-really...?<br>The young lord... he's okay...?<br> ,103101000G,vc_10310100002_023_01,chara_1
 
-message,<user>,恐らくな。だが、今も危険な状況にあるのは変わらないだろう。<br>お前が諦めたら、間に合うものも間に合わなくなる。分かるな？
+message,<user>,Most likely. But he's still in danger，that hasn't changed.<br>If you give up，we'll miss our chance. Understand?<br> 
 
 window,off
 wait,0.15
@@ -764,9 +764,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ハツネ,……うん。,103101000G,vc_10310100002_024_01,chara_1
+message,ハツネ,...Yeah.<br> ,103101000G,vc_10310100002_024_01,chara_1
 
-message,<user>,だったら、こんなところで泣いてる場合じゃない。<br>先へ進むぞ。若殿を助けられるのは、お前だけだ。
+message,<user>,Then there's no time to sit here crying.<br>Let's move. You're the only one who can save him.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -777,9 +777,9 @@ asyncseplay,setag1_27,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ハツネ,……分かった！　若殿の匂いは……<br>……こっちだ！　こっちに続いてる！,103101000G,vc_10310100002_025_01,chara_1
+message,ハツネ,...Got it! The young lord's scent is...<br>...This way! It goes this way!<br> ,103101000G,vc_10310100002_025_01,chara_1
 
-message,<user>,よし！　急ぐぞ、ハツネ！
+message,<user>,Let's go! Hurry，Hatsune!<br> 
 
 
 window,off
@@ -844,7 +844,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ハツネ,……いた！　あそこの木の上！　……若殿だ！<br>あそこの木の上にいるぞ！,103101000G,vc_10310100002_026_01,chara_1
+message,ハツネ,...There! Up in that tree! ...It's the young lord!<br>He's up in that tree!<br> ,103101000G,vc_10310100002_026_01,chara_1
 
 window,off
 wait,0.15
@@ -877,7 +877,7 @@ wait,1
 wait,0.5
 
 window,on,0.15
-message,<user>,走ってたんじゃ逃げられないと判断して、<br>木の上に登ったのか。賢明な判断だ。しかし……
+message,<user>,He figured he couldn't outrun it，<br>so he climbed a tree. Smart move. But...<br> 
 
 window,off
 wait,0.15
@@ -909,11 +909,11 @@ asynccharaemo,chara_2,Anger,CONT,0
 
 
 window,on,0.15
-message,狼,グルルルルル……,402001000,,chara_2
+message,狼,Grrrrr...<br> ,402001000,,chara_2
 
 bgmplay,bgmtag1_4,bgm0039,0.75,1
 
-message,<user>,狼が木の根元で狙っている……。<br>獲物が力尽きるのを待ってるってわけか。
+message,<user>,The wolf is waiting at the base of the tree...<br>Biding its time until its prey gives out.<br> 
 
 window,off
 wait,0.15
@@ -935,11 +935,11 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,ホウライの青年,はぁ……はぁ……はぁ……,900000001
+message,ホウライの青年,Hah... hah... hah...<br> ,900000001
 
-message,ハツネ,若殿、顔が真っ青だ……！,103101000G,vc_10310100002_027_01,
+message,ハツネ,Young lord，your face is white as a sheet...!<br> ,103101000G,vc_10310100002_027_01,
 
-message,<user>,だいぶ血を流したみたいだな。意識を保つのもやっとだろう。<br>……まずいな。あそこから落ちたら、一巻の終わりだ。
+message,<user>,He's lost a lot of blood. Must be barely conscious.<br>...This is bad. If he falls from there，it's over.<br> 
 
 window,off
 wait,0.15
@@ -981,9 +981,9 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ハツネ,若殿っ、今このハツネが助けに参ります！,103101000G,vc_10310100002_028_01,chara_1
+message,ハツネ,Young lord! Hatsune is coming to save you right now!<br> ,103101000G,vc_10310100002_028_01,chara_1
 
-message,<user>,待てっ！　相手はコトノが苦戦するほどの手合いだ！<br>闇雲に突っ込んでどうにかなる相手じゃない！
+message,<user>,Wait! That thing gave Kotono a run for her money!<br>You can't just charge in and expect to win!<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -992,9 +992,9 @@ asyncseplay,setag1_31,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ハツネ,なら、あたしが囮になる！<br>お前はその間に若殿を基地に連れ帰ってくれ！,103101000G,vc_10310100002_029_01,chara_1
+message,ハツネ,Then I'll be the decoy!<br>Get the young lord back to base while I hold it off!<br> ,103101000G,vc_10310100002_029_01,chara_1
 
-message,<user>,バカを言うな。<br>お前が犠牲になったと知って、お前の若殿は喜ぶのか？
+message,<user>,Don't be stupid.<br>Would your young lord be happy knowing you died for him?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1005,7 +1005,7 @@ asyncseplay,setag1_32,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ハツネ,それは……！,103101000G,vc_10310100002_030_01,chara_1
+message,ハツネ,That's...!<br> ,103101000G,vc_10310100002_030_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1016,9 +1016,9 @@ asyncseplay,setag1_33,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ハツネ,うぅ……！　それならあたしはどうしたらいいんだよ！,103101000G,vc_10310100002_031_01,chara_1
+message,ハツネ,Ugh...! Then what am I supposed to do!?<br> ,103101000G,vc_10310100002_031_01,chara_1
 
-message,<user>,俺に１つ考えがある。<br>上手く成功すれば、全員無事に帰れるはずだ。
+message,<user>,I've got an idea.<br>If it works，we all make it back safely.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1029,9 +1029,9 @@ asyncseplay,setag1_34,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,ハツネ,ほんとか！？<br>言ってくれ！　あたしはどうすればいい！,103101000G,vc_10310100002_032_01,chara_1
+message,ハツネ,Really!?<br>Tell me! What do I gotta do!?<br> ,103101000G,vc_10310100002_032_01,chara_1
 
-message,<user>,お前には少々危険な役割を頼むことになる。<br>協力してくれるか？
+message,<user>,I'll need you to take on a somewhat dangerous role.<br>You in?<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -1040,9 +1040,9 @@ asyncseplay,setag1_35,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ハツネ,当たり前だ！<br>若殿を助けられるなら何だってやってやる！,103101000G,vc_10310100002_033_01,chara_1
+message,ハツネ,Duh!<br>If it'll save the young lord，I'll do anything!<br> ,103101000G,vc_10310100002_033_01,chara_1
 
-message,<user>,いい覚悟だ！<br>それならハツネ、まずお前は――
+message,<user>,That's the spirit!<br>All right，Hatsune. First，you——<br> 
 
 window,off
 bgmstop,bgmtag1_4,0.5

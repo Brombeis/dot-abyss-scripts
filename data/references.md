@@ -56,9 +56,7 @@ should sound:
   when producing the final `.txt` output. Do not count the space after a comma
   toward the line length limit.
 - Preserve special tokens: `<br>`, `<size=N>...</size>`.
-- **Do not use `<user>`.** The `<user>` placeholder (player-name substitution)
-  crashes the game. When the original Japanese line contains `<user>`, rephrase
-  the translation to use "Commander" instead.
+-  When the original Japanese line contains `<user>`, use `%user%` in the translated line instead.
 - Preserve symbols: `♪`, `♥`, `♡`, `～`, etc.
 
 ### Line Length Limits
@@ -171,7 +169,7 @@ roster is listed below.
 | テルー | Teru | Female | |
 | ニナ | Nina | Female | |
 | ノエミ | Noemi | Female | |
-| ハツネ | Hatsune | Female | |
+| ハツネ | Hatsune | Female | [Profile](#hatsune-ハツネ) |
 | ヒナギ | Hinagi | Female | |
 | ヒマリ | Himari | Female | [Profile](#himari-ヒマリ) |
 | ヒュメナ | Humena | Female | |
@@ -667,3 +665,76 @@ roster is listed below.
   - She uses ♡ and ♪ occasionally — preserve them, but she's less
     decorated than Marina or Kururu. Her energy comes from volume and
     pace, not ornamentation.
+
+### Hatsune (ハツネ)
+- **Pronoun:** あたし (atashi) — casual feminine, but paired with rough
+  masculine sentence endings (だ, だぞ, だろ, てんだ, じゃんか) creating
+  a tomboy register
+- **Addresses MC as:** 司令官 → **"Commander"** (casual, no honorific —
+  initially didn't know what the title meant and called him お前/あんた;
+  switched to "Commander" after learning his rank, but keeps her brash tone)
+- **Also uses:** しれーかん (same cutesy slurring as Himari/Emily — but
+  only once in surprise when she first hears the title, not a habit)
+- **Role:** Fox beastkin (獣人) swordswoman from Hourai; retainer to her
+  young lord (若殿). Came to the forward base searching for him.
+- **Speech style:** Rough, energetic, and distinctly tomboyish. Uses blunt
+  masculine-coded endings (だ, だぞ, だろ, てんだ) despite being female —
+  a hallmark of her upbringing as a warrior. Short, punchy sentences with
+  lots of exclamation marks. Elongates vowels when excited or whining
+  (うっひゃ～～～っ, うっるさいなぁ～). Signature exasperated phrase is
+  だーかーらー (drawn-out "I keep telling you!"). Gets childishly excited
+  over new things (fountains, rainbows) but furiously denies being childish.
+  Clicks her tongue (チッ) when annoyed. Casual taunts in combat (へへん！,
+  はん！). Has an animal-keen sense of smell and night vision from her fox
+  beastkin nature — sniffs things out literally (クンクン). When addressing
+  her young lord, she code-switches to polite speech (します, ございます,
+  お護りいたします) — a striking contrast that shows her samurai
+  discipline. Her laugh is あはは or えへへ — open and unguarded.
+- **Key traits:**
+  - **Fiercely loyal.** Her entire motivation is protecting her young lord.
+    She crossed regions alone to find him, and the moment she learns he's
+    in danger, nothing else matters. "Repaying debts is a samurai's way!"
+  - **Insists she's an adult.** Hates being called a child — her go-to
+    retort is that she's completed her genpuku (coming-of-age ceremony).
+    The more people treat her like a kid, the more childishly she protests:
+    "I'm an adult! I already had my Genpuku! Don't treat me like a kid!
+    Dummy, du~mmy!"
+  - **Fox beastkin senses.** Her sharp nose and night vision are genuine
+    tactical assets, not flavor. She tracks by scent, spots threats in
+    darkness, and her ears pick up whispers. "My eyes and nose can't be
+    fooled easily."
+  - **Competitive warrior.** Considers Kotono a rival and measures herself
+    against her constantly. Supremely confident in her sword skills — she
+    dismantled trained soldiers for fun — but respects genuine strength.
+  - **Childlike wonder.** Gets wide-eyed over fountains, rainbows, and
+    unfamiliar technology. Denies the wonder is childish even as she's
+    visibly enthralled: "Wh-what!? That's so cool!! How does this thing
+    even work!?"
+- **Translation notes:**
+  - Her rough feminine register is her defining feature — she sounds like
+    a scrappy tomboy, not a refined warrior. Use contractions, casual
+    phrasing, and blunt language: "So what?" not "What of it?", "C'mon!"
+    not "Come now!", "No way!" not "Impossible!"
+  - Her だーかーらー (exasperated repetition) should sound like a kid
+    losing patience: "I keep tell-ing you!" or "For the last time!"
+  - When she code-switches to polite speech for her young lord, the shift
+    should be immediately noticeable: from "C'mon, let's go!" to "Please
+    wait, my lord! I shall explain later!" This contrast is deliberate and
+    important.
+  - Her excitement should feel genuine and infectious — she's not
+    performing, she's genuinely amazed by things she's never seen.
+    Translate with energy and wonder: "Whoa~~! Look! Look! There's a
+    rainbow~~! A rainbow!"
+  - When emotional about her young lord (worry, relief, devotion), she
+    drops the bravado and becomes earnest and raw: "I was supposed to
+    protect you..." — shorter sentences, no bluster, real weight.
+  - Her combat taunts should sound cocky and playful, like a kid who
+    knows she's winning: "Hah! That all you got!?", "Too slow!"
+  - Her sniffing (クンクン) should be rendered as "Sniff sniff..." —
+    it's literal, not figurative.
+  - Keep ～ as tildes in her excited/whiny moments: "So cool~~~!",
+    "C'mon~!", "So noisy~!"
+  - She uses ♪ sparingly — less decorated than Marina or Kururu. Her
+    energy comes from volume and exclamation marks.
+  - Her えへへ laugh: render as "Ehehe" — bashful and pleased, similar
+    to Emily's but less frequent.

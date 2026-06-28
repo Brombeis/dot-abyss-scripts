@@ -11,7 +11,7 @@ fade,In,Black,0.5
 
 
 seplay,seopening_tag,se5030001
-title,指令官しかいないから
+title,Only the Commander Will Do
 
 wait,1
 
@@ -21,11 +21,11 @@ bgmplay,bgmtag1_1,bgm0027,0.75,1
 
 
 window,on,0.15
-message,,訓練所の前を通りかかると、物陰に不審な人影を見つけた。<br>物陰に踞っているそれはハツネだった。
+message,,Passing by the training grounds，he spotted a suspicious<br>figure lurking in the shadows. It was Hatsune.<br> 
 
-message,,ハツネはこちらには気づかず、訓練所の中を一心に覗き込んでいる。<br>足音を立てずにそっと近付き、ハツネに声を掛ける。
+message,,Unaware of him，she was peering intently inside the grounds.<br>He crept up silently and called out to her.<br> 
 
-message,<user>,おい、何をしてるんだ？
+message,<user>,Hey，what are you doing?<br> 
 
 charashow,chara_1,0.3
 
@@ -37,7 +37,7 @@ asynccharaemo,chara_1,Shock,STOP
 asynccharaface,chara_1,FaceSurprise,STOP
 
 asynccharareaction,chara_1,Jump,1,STOP
-message,ハツネ,わっ！？　……って、なんだ、司令官か。<br>そんなところに突っ立ってたら見つかるだろ！,,vc_10310100031_001_01
+message,ハツネ,Wah!? ...Oh，it's just you，Commander.<br>Stand there like that and they'll spot us!<br> ,,vc_10310100031_001_01
 
 window,off
 wait,0.15
@@ -51,39 +51,39 @@ wait,0.3
 transitionFade,Tra02,in,black,1
 
 window,on,0.15
-message,,慌てた様子のハツネに腕を引っ張られ、物陰へと引っ張り込まれる。
+message,,The flustered Hatsune grabbed his arm and yanked him<br>into the shadows.<br> 
 
-message,<user>,何なんだいったい？<br>こんなところで何をコソコソしてるんだ？
+message,<user>,What is this about?<br>Why are you skulking around here?<br> 
 
 charashow,chara_1,0.3
 
 asynccharaface,chara_1,FaceAnger,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
-message,ハツネ,しーーっ！<br>若殿が訓練所でちゃんと修練に励んでいるかこっそり覗いているだけだって！,,vc_10310100031_002_01
+message,ハツネ,Shhh!<br>I'm just secretly checkin' if the young lord's trainin' properly!<br> ,,vc_10310100031_002_01
 
-message,,訓練所を覗くと、コトネが若殿を熱心に剣術を指導しているところだった。<br>ハツネはその様子に熱心に目を向けている。
+message,,Peeking inside，Kotono was earnestly instructing the young<br>lord in swordsmanship. Hatsune watched them intently.<br> 
 
 asynccharaface,chara_1,FaceFun,STOP
-message,ハツネ,こんな遅い時間まで頑張ってるんだな、若殿……<br>すっかり立派になられて……,,vc_10310100031_003_01
+message,ハツネ,Workin' hard this late at night，young lord...<br>He's really come into his own...<br> ,,vc_10310100031_003_01
 
-message,<user>,なるほどな。だが、コソコソ覗き見してるだけでいいのか？<br>お前も剣の腕は確かなんだし、若殿の指導をしてやればいいのに。
+message,<user>,I see. But is just spying on him really enough?<br>You're skilled too. Why not help train him yourself?<br> 
 
 asyncseplay,setag1_2,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
-message,ハツネ,いやいや、あたしは人に教えるのは下手だからなぁ～。<br>それに、若殿相手だとつい、甘やかしてしまいそうだし。,,vc_10310100031_004_01
+message,ハツネ,Nah，I'm terrible at teachin' people~<br>Plus，I'd end up going easy on the young lord.<br> ,,vc_10310100031_004_01
 
-message,<user>,ふむ、まあお前の心配も分からなくはないが。<br>……ん？
+message,<user>,Hmm，I suppose your concern makes sense.<br>...Hm?<br> 
 
 asynccharareaction,chara_1,Shake,1,STOP
 
 asynccharaface,chara_1,FaceShy,STOP
-message,ハツネ,はぁ、はぁ、はぁ、はぁ……,,vc_10310100031_005_01
+message,ハツネ,Hah，hah，hah，hah...<br> ,,vc_10310100031_005_01
 
-message,,気づけば、ハツネはなぜか顔を赤くし、息を乱していた。<br>ハツネと触れ合った肩に熱を感じる。はっとするほどの熱さだ。
+message,,Before he knew it，Hatsune's face was flushed red<br>and her breathing ragged. Her shoulder felt startlingly hot.<br> 
 
 asynccharareaction,chara_1,Shake,1,STOP
 
@@ -92,12 +92,12 @@ asyncseplay,setag1_3,se4800008,0,1,CONT
 asynccharaemo,chara_1,Sweat,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
-message,ハツネ,な、なんか……か、身体が、熱くなってきた……やばいな……きちゃったかも。<br>司令官……あたしから、離れて、くれ……,,vc_10310100031_006_01
+message,ハツネ,S-somethin's... m-my body's gettin' hot... this is bad...<br>it might be comin'. Commander... get away from me...<br> ,,vc_10310100031_006_01
 
-message,<user>,は？　どうしたんだよ急に。<br>ここに引っぱり込んだのはお前じゃないか。
+message,<user>,Huh? What's gotten into you all of a sudden?<br>You're the one who pulled me in here.<br> 
 
 asynccharaface,chara_1,FaceUnique02,STOP
-message,ハツネ,それは……あぅ……,,vc_10310100031_007_01
+message,ハツネ,That's... auu...<br> ,,vc_10310100031_007_01
 
 asynccharareaction,chara_1,Shake,1,STOP
 
@@ -120,35 +120,35 @@ wait,0.3
 shake,BACK,,0,0,0.5,1,off,off,0
 shake,CHARA,chara_1,0,0,0.5,1,off,off,0
 window,on,0.15
-message,,ハツネが急によろめき、こちらにもたれかかってきた。<br>離れるどころか、逆にさらに身体が密着してしまう。
+message,,Hatsune suddenly stumbled and leaned into him.<br>Rather than pulling away，their bodies pressed closer.<br> 
 
-message,<user>,お、おい、大丈夫か？<br>もしかしてお前、風邪でも引いたんじゃ……
+message,<user>,H-hey，are you okay?<br>Did you catch a cold or something...?<br> 
 
 asynccharareaction,chara_1,Shake,1,STOP
 
 asynccharaface,chara_1,FaceUnique02,STOP
-message,ハツネ,ち、ちがう、これはその……,,vc_10310100031_008_01
+message,ハツネ,N-no，this is，um...<br> ,,vc_10310100031_008_01
 
 bgmstop,bgmtag1_1,0,0
 
 asynccharaface,chara_1,FaceShy,STOP
-message,ハツネ,発情期……だ。,,vc_10310100031_009_01
+message,ハツネ,It's my... heat.<br> ,,vc_10310100031_009_01
 
 bgmplay,bgmtag1_2,bgm0026,0.75,1
 
-message,<user>,発情期ぃ～～！？
+message,<user>,Your HEAT!?<br> 
 
 asynccharareaction,chara_1,Shake,1,STOP
 
 asynccharaface,chara_1,FaceAnger,STOP
-message,ハツネ,あぁ……もう、ダメだ……<br>司令官、すまんっ！,,vc_10310100031_010_01
+message,ハツネ,Ahh... I can't... hold back anymore...<br>Commander，I'm sorry!<br> ,,vc_10310100031_010_01
 
 asyncseplay,setag1_4,se4400111,0,1,CONT
 
 shake,BACK,,350,0,0.25,2,off,off,0
 shake,CHARA,chara_1,350,0,0.25,2,off,off,0
 
-message,<user>,うわっ！？
+message,<user>,Whoa!?<br> 
 
 window,off
 wait,0.15
@@ -156,7 +156,7 @@ wait,0.15
 charahide,chara_1,0.3
 
 window,on,0.15
-message,,ハツネに不意打ちの足払いを食らい、その場に倒されてしまう。<br>するとハツネは見事な体裁きで抑え込み、そのまま馬乗りに――
+message,,Hatsune swept his legs out from under him with a sudden kick.<br>With expert body control，she pinned him down and straddled——<br> 
 
 
 

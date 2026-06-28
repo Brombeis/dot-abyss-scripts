@@ -14,29 +14,29 @@ charascale,chara_1,1.5,0
 charashow,chara_1,0.3
 
 window,on,0.15
-message,ハツネ,………………,,vc_10310100013_001_01
+message,ハツネ,............<br> ,,vc_10310100013_001_01
 
-message,,終わって着崩れた服を正しながらも、<br>ハツネはまだ意識がはっきりとしない様子だ。
+message,,Even as she straightened her disheveled clothes，<br>Hatsune still seemed not fully with it.<br> 
 
-message,<user>,おい、大丈夫だったか？
+message,<user>,Hey，you doing okay?<br> 
 
 asynccharareaction,chara_1,Shake,1,STOP
 
 asynccharaface,chara_1,FaceUnique02,STOP
-message,ハツネ,あ、あぁ……なんとか平気……,,vc_10310100013_002_01
+message,ハツネ,Y-yeah... I'm fine，somehow...<br> ,,vc_10310100013_002_01
 
-message,,その声は自信なさげだ。<br>初めての”マグワイ”に、畏怖してしまったのかもしれない。
+message,,Her voice lacked its usual confidence.<br>Her first taste of 'maguai' might have left her shaken.<br> 
 
-message,<user>,それでお前、娼館の仕事、まだやりたいと思うのか？<br>無理そうだったら、辞めたっていいんだぞ。
+message,<user>,So，you still want to work at the brothel?<br>If it's too much，it's fine to quit.<br> 
 
 asyncseplay,setag3_1,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,STOP
 
 asynccharaface,chara_1,FaceUnique01,STOP
-message,ハツネ,さ、さっきは初めてで驚いただけだ！<br>コトノにできるんならあたしだって！,,vc_10310100013_003_01
+message,ハツネ,Th-that was just 'cause it was my first time，is all!<br>If Kotono can do it，then so can I!<br> ,,vc_10310100013_003_01
 
-message,<user>,ホント負けず嫌いだなぁ……。そんな理由でやらなくていいと思うんだが。<br>そういうところが子どもだと……
+message,<user>,You really can't stand losing，huh... You don't have to<br>do this just to one-up her. That's what makes you a ki...<br> 
 
 asyncseplay,setag3_2,se4800012,0,1,CONT
 
@@ -46,11 +46,11 @@ asynccharaemo,chara_1,Shy,STOP
 asynccharaface,chara_1,FaceSad,STOP
 
 asynccharaface,chara_1,FaceShy,STOP,5.5
-message,ハツネ,もう子どもじゃないって！<br>だって……さっき、あたしは司令官に大人の女にしてもらったもの……,,vc_10310100013_004_01
+message,ハツネ,I told you，I'm not a kid anymore!<br>Because... just now，you made me a woman，Commander...<br> ,,vc_10310100013_004_01
 
-message,,そう言って、悪戯っぽい笑顔でこちらを見つめてくる。<br>この言葉には返す言葉が浮かばなかった。
+message,,She said it with a mischievous grin，eyes fixed on him.<br>To that，he had no comeback.<br> 
 
-message,,事実、彼女を大人の女性にしたのは自分なのだから――
+message,,After all，he was the one who'd made her a woman——<br> 
 
 window,off
 bgmstop,bgmtag3_1,0.5
