@@ -225,6 +225,8 @@ The `3494` in `CDN_VERSION` is a catalog version. On a game update:
   long, rephrase concisely — do not split into awkward fragments. Use
   `data/long_lines_report.txt` to audit. The underlying per-line cap from
   `data/references.md` (68 chars × 2 lines) still applies for the dialogue box.
+- **Spiritual energy = "qi", not "ki".** Always romanize 気/氣 as "qi" in
+  translations (e.g. "evil qi", "qi flow", "dragon vein qi").
 
 ---
 
