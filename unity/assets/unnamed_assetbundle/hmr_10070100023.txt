@@ -32,7 +32,7 @@ charaface,chara_1,EyeClose
 charaface,chara_1,FaceNormal
 message,フィルム,I understand the feeling of longing for someone~<br>Even I know what that's like...<br> ,,vc_10070100023_002_01
 
-message,,Film spoke gently，and the soldier seemed to understand.<br>""So you do have someone you love，"" he said.<br> 
+message,,Film spoke gently，and the soldier seemed to understand.<br>'So you do have someone you love，' he said.<br> 
 
 asyncseplay,setag3_2,se4800007,0,1,CONT
 
@@ -43,7 +43,7 @@ asynccharareaction,chara_1,shake,1,STOP
 charaface,chara_1,FaceUnique02
 message,フィルム,...Huh?<br>Th-that's not...<br> ,,vc_10070100023_003_01
 
-message,,""You've become even more beautiful lately，"" the soldier continued.<br>""I figured you must be having a wonderful romance.""<br> 
+message,,'You've become even more beautiful lately，' the soldier continued.<br>'I figured you must be having a wonderful romance.'<br> 
 
 asynccharareaction,chara_1,nod,1,STOP
 
@@ -77,7 +77,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,,""I won't tell anyone. I'll treasure today as a memory and keep<br>working hard."" The soldier thanked her with a satisfied look.<br> 
+message,,'I won't tell anyone. I'll treasure today as a memory and keep<br>working hard.' The soldier thanked her with a satisfied look.<br> 
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal

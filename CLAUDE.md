@@ -132,6 +132,9 @@ those would break scenes.
 
 Preserve `<br>`, `<size=N>...</size>`, and symbols like `♪ ♥ ♡ ～`.
 In translated text, replace `<user>` (player-name substitution) with `%user%`
+**Never embed a literal `"` inside a translated `en` field** — the Unity
+engine does not handle embedded double quotes in dialogue. Use
+`'single quotes'` for quotes-within-dialogue instead.
 
 The shared **name glossary** (`translations/names.json`) is applied to ALL name
 fields across ALL scenes for consistency. `extract_story.py` auto-seeds

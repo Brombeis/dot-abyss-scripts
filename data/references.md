@@ -63,6 +63,10 @@ should sound:
 - Preserve special tokens: `<br>`, `<size=N>...</size>`.
 -  When the original Japanese line contains `<user>`, use `%user%` in the translated line instead.
 - Preserve symbols: `♪`, `♥`, `♡`, `～`, etc.
+- **Never embed a literal `"` inside an `en` field's text.** The Unity engine
+  does not handle embedded double quotes in dialogue. Use `'single quotes'`
+  for quotes-within-dialogue (e.g. quoted speech, 「」 content, emphasis)
+  instead of `"double quotes"`.
 
 ### Line Length Limits
 
@@ -82,7 +86,7 @@ should sound:
 | …… (double ellipsis) | ... (single ellipsis) | そうか…… → "I see..." |
 | ーー (long dash) | —— (double em dash) | それはーー → "That was——" |
 | っ！ (glottal stop + !) | ! (just exclamation) | くそっ！ → "Damn!" |
-| 「」 quotes within speech | "double quotes" | 「楽園」→ "paradise" |
+| 「」 quotes within speech | 'single quotes' | 「楽園」→ 'paradise' |
 
 ---
 
