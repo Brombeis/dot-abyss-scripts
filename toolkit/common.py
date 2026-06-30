@@ -13,7 +13,7 @@ import UnityPy
 # Bump CDN_VERSION here when the game updates (old version 404s at the CDN).
 CDN_HOST = "api.abyss-prod-r18.dotabyss.dmmgames.com"
 CDN_CHANNEL = "r18"
-CDN_VERSION = "4394"
+CDN_VERSION = "4854"
 CDN_BASE = (f"https://{CDN_HOST}/resources/webgl/"
             f"{CDN_CHANNEL}/aas/{CDN_VERSION}/aa/")
 CATALOG_URL = CDN_BASE + "catalog_1.bin"
