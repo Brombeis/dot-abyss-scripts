@@ -32,7 +32,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトルを設定してください
+title,Title
 
 wait,1
 
@@ -64,7 +64,7 @@ asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,鬼族A,おらぁああああああああああっ！,402701000,,chara_1
+message,鬼族A,ORAAAAAAAAAAAAAH!<br> ,402701000,,chara_1
 
 window,off
 wait,0.15
@@ -136,7 +136,7 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,モンスター,ギギギィィィーー……！,402001000,,chara_2
+message,モンスター,SKREEEEE——...!<br> ,402001000,,chara_2
 
 window,off
 wait,0.15
@@ -196,9 +196,9 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,鬼族A,へへっ、どうだ！　人間たちには、１歩も近寄らせねぇぞぉ！！,402701000,,chara_1
+message,鬼族A,Heh，how's that! Not one step closer to the humans——!!<br> ,402701000,,chara_1
 
-message,<user>,よし、いい感じにモンスターが集まってきたな！<br>全員、射線を開けろ！
+message,<user>,Good，the monsters are nicely clustered!<br>Everyone，clear the line of fire!<br> 
 
 window,off
 wait,0.15
@@ -247,7 +247,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,鬼族A,おっと、こりゃいけねぇ！<br>おらぁ、散れ散れぇ、野郎ども！,402701000,,chara_1
+message,鬼族A,Oh，we can't be here! Scatter，scatter，everyone!<br> ,402701000,,chara_1
 
 window,off
 wait,0.15
@@ -273,7 +273,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,シラエス、今だ！
+message,<user>,Shiraes，now!<br> 
 
 window,off
 wait,0.15
@@ -308,7 +308,7 @@ asynccharaemo,chara_4,Laugh,CONT,0
 
 
 window,on,0.15
-message,シラエス,さあ、みんなに特大の花火をお見せしようか！,106801000G,,chara_4
+message,シラエス,Now then，let me put on a spectacular fireworks show for everyone!<br> ,106801000G,,chara_4
 
 window,off
 wait,0.15
@@ -416,7 +416,7 @@ asynccharaemo,chara_5,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,モンスター,ギ……！？　ギギーーーーーー……！？,402001000,,chara_2/chara_5
+message,モンスター,Skrr...!? SKREEEEEEE——...!?<br> ,402001000,,chara_2/chara_5
 
 window,off
 wait,0.15
@@ -492,7 +492,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,鬼族A,す、すげぇ……！　一網打尽だ……！<br>やっぱすげぇぜ、シラエスの姐さんはっ！,402701000,,chara_1
+message,鬼族A,Th-that's incredible...! Swept them all up in one shot...!<br>Big sis Shiraes is something else!!<br> ,402701000,,chara_1
 
 asynccharaface,chara_3,FaceAnger,CONT,0
 
@@ -503,7 +503,7 @@ asyncseplay,setag1_15,se4800019,0,1,CONT,0
 asynccharaemo,chara_3,Elated,CONT,0
 
 
-message,鬼族B,あたしたちも負けてらんないよ！<br>鬼族の意地、見せてやんな！,402801000,,chara_3
+message,鬼族B,We can't fall behind! Show 'em the oni-folk's pride!<br> ,402801000,,chara_3
 
 window,off
 wait,0.15
@@ -515,7 +515,7 @@ linework,on,White,Middle
 asynccharaface,chara_1,FaceAnger,CONT,0
 
 window,on,0.15
-message,鬼族たち,おおおぉぉぉ～～～～～～～～～～～～！！,900000001
+message,鬼族たち,OOOOOOOOOOO~~~~~~~~~~~!!<br> ,900000001
 
 window,off
 wait,0.15
@@ -531,7 +531,7 @@ subimagefade,subimage_1,0,0.6235,0
 asynccrossfade,0.1,0,0,1,1,STOP
 
 window,on,0.15
-message,<user>,（よし、いい具合に士気があがってるな。<br>鬼族たちはもともとタフだし、まだまだ戦えそうだ。だが……）
+message,<user>,(Good，morale's nicely elevated. The oni-folk are tough by nature，<br>they've still got plenty left. But...)<br> 
 
 window,off
 wait,0.15
@@ -631,7 +631,7 @@ asyncwait
 
 
 window,on,0.15
-message,モンスター,ギギィ～～～～～～～～～！,402001000,,chara_2/chara_6/chara_5
+message,モンスター,SKREEEE~~~~~~~~!<br> ,402001000,,chara_2/chara_6/chara_5
 
 window,off
 wait,0.15
@@ -645,7 +645,7 @@ subimagefade,subimage_1,0,0.6235,0
 asynccrossfade,0.1,0,0,1,1,STOP
 
 window,on,0.15
-message,<user>,（いくらタフだといっても体力は無限じゃない。<br>際限なく押し寄せてくるモンスター相手に、いつまでもつか……それが問題だ）
+message,<user>,(No matter how tough，stamina is finite. How long can they<br>last against endless monster waves... that's the problem.)<br> 
 
 window,off
 wait,0.15
@@ -659,7 +659,7 @@ subimagefade,subimage_1,0.6235,0,0
 asynccrossfade,0.1,0,0,1,1,STOP
 
 window,on,0.15
-message,<user>,……シラエス！　クリスタルの様子はどうだ！？
+message,<user>,...Shiraes! How's the crystal looking!?<br> 
 
 window,off
 wait,0.15
@@ -713,11 +713,11 @@ asynccharaemo,chara_4,Trouble,CONT,0
 
 
 window,on,0.15
-message,シラエス,モンスターを引き寄せる力は健在のようだ。<br>数日分の力が凝縮されていただろうから、いつ効果が切れるかはわからない。,106801000G,,chara_4
+message,シラエス,The monster-drawing force is still active. Days of<br>stored energy — no telling when it runs out.<br> ,106801000G,,chara_4
 
-message,<user>,そうか……あまり長引いて疲弊すると、すりつぶされかねないな。<br>……やむを得ない。
+message,<user>,I see... if this drags on and we're worn down，we'll be crushed.<br>...There's no other choice.<br> 
 
-message,<user>,シラエス、クリスタルを――破壊しろ。
+message,<user>,Shiraes，the crystal——destroy it.<br> 
 
 asynccharaface,chara_4,FaceSurprise,CONT,0
 
@@ -728,9 +728,9 @@ asyncseplay,setag1_20,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,シラエス,思い切りがいいね。<br>厄介ごとの種ではあっても、貴重な品であることは確かだろうに。,106801000G,,chara_4
+message,シラエス,Decisive as ever. It may be a source of trouble，<br>but it's undeniably a valuable artifact.<br> ,106801000G,,chara_4
 
-message,<user>,制御しきれないなら、人類にとっては害悪でしかない。<br>すべての責任は俺がもつ。やってくれ。
+message,<user>,If it can't be controlled，it's nothing but a threat to humanity.<br>I'll take full responsibility. Do it.<br> 
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -741,14 +741,14 @@ asyncseplay,setag1_21,se4800013,0,1,CONT,0
 asynccharaemo,chara_4,Spirits,CONT,0
 
 
-message,シラエス,ふふ、それでこそ司令官君だ。<br>大事なものを間違わない。,106801000G,,chara_4
+message,シラエス,Hehe，that's the Commander-kun I know.<br>You never lose sight of what matters.<br> ,106801000G,,chara_4
 
 asynccharaface,chara_4,FaceUnique01,CONT,0
 
 asyncjump,CHARA,chara_4,30,0.25,1,off,0,CONT
 
 
-message,シラエス,ただし、クリスタルの破壊に十分な魔力を練るのには時間がかかる。<br>その間、前線から離れることになるけれど、大丈夫かな？,106801000G,,chara_4
+message,シラエス,However，building up enough magic to destroy the crystal takes time.<br>I'll have to pull back from the front line — will you be alright?<br> ,106801000G,,chara_4
 
 window,off
 wait,0.15
@@ -813,9 +813,9 @@ asynccharaemo,chara_7,Elated,CONT,0
 
 
 window,on,0.15
-message,クレハ,――ご心配なく！　いくらでも持ちこたえてみせます！<br>鬼族の誇りにかけて、人間のみなさんを傷つけさせはしません！,105801000G,,chara_7
+message,クレハ,——No need to worry! We'll hold as long as it takes!<br>On the pride of the oni-folk，we won't let a single human be harmed!<br> ,105801000G,,chara_7
 
-message,<user>,クレハ……はは、先に言われちまったな。<br>そういうことだから、シラエス、頼んだ。
+message,<user>,Kureha... haha，you beat me to it.<br>That settles it，Shiraes. I'm counting on you.<br> 
 
 asynccharaface,chara_4,FaceHappy,CONT,0
 
@@ -826,7 +826,7 @@ asyncseplay,setag1_23,se4800004,0,1,CONT,0
 asynccharaemo,chara_4,Laugh,CONT,0
 
 
-message,シラエス,いい返事だ。それじゃあ、任せたよ。<br>必ず一緒に朝を迎えよう。,106801000G,,chara_4
+message,シラエス,Good answer. Then I'll leave it to you.<br>We'll see the morning together — I promise.<br> ,106801000G,,chara_4
 
 window,off
 wait,0.15
@@ -876,7 +876,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,ああ言われたからには、こっちも期待に応えないとな。<br>正念場だぞ！　全員、気合いを入れろ！
+message,<user>,Now that she's said that，we have to live up to it.<br>This is the moment! Everyone，dig deep!<br> 
 
 asynccharaface,chara_7,FaceAnger,CONT,0
 
@@ -887,7 +887,7 @@ asyncseplay,setag1_24,se4800019,0,1,CONT,0
 asynccharaemo,chara_7,Elated,CONT,0
 
 
-message,クレハ,はいっ！　旦那様に任されたお役目、必ず果たしてみせます！,105801000G,,chara_7
+message,クレハ,Yes! The duty my darling entrusted to me — I will fulfill it without<br>fail!<br> ,105801000G,,chara_7
 
 window,off
 wait,0.15
@@ -943,7 +943,7 @@ asynccharaemo,chara_2,Anger,CONT,0
 
 
 window,on,0.15
-message,モンスター,ギギィ！,402001000,,chara_2
+message,モンスター,SKREE!<br> ,402001000,,chara_2
 
 window,off
 wait,0.15
@@ -982,7 +982,7 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 
 window,on,0.15
-message,鬼族B,ぐぅ……！　まだまだっ！<br>そんなもんじゃ、あたいら鬼族は負けやしないよ！,402801000,,chara_3
+message,鬼族B,Ngh...! Not yet!<br>That's nowhere near enough to beat us oni-folk!<br> ,402801000,,chara_3
 
 window,off
 wait,0.15
@@ -1017,7 +1017,7 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,モンスター,ギギャアアアア……！,402001000,,chara_2
+message,モンスター,SKRYAAAH...!<br> ,402001000,,chara_2
 
 window,off
 wait,0.15
@@ -1083,7 +1083,7 @@ asyncjump,CHARA,chara_7,-30.6,0.5,1,off,0,CONT
 
 
 window,on,0.15
-message,クレハ,傷を見せてください――これは応急処置が必要ですね！<br>あなたは１度さがって、処置をしてきてください！,105801000G,,chara_7
+message,クレハ,Show me your wound — this needs first aid!<br>Step back and get it treated right away!<br> ,105801000G,,chara_7
 
 window,off
 wait,0.15
@@ -1138,7 +1138,7 @@ asynccharaemo,chara_3,Trouble,CONT,0
 
 
 window,on,0.15
-message,鬼族B,クレハお嬢……面目ないねぇ……！,402801000,,chara_3
+message,鬼族B,Miss Kureha... I'm ashamed of myself...!<br> ,402801000,,chara_3
 
 asynccrossfadeready,STOP
 
@@ -1146,7 +1146,7 @@ subimagefade,subimage_1,0,0.6235,0
 
 asynccrossfade,0.1,0,0,1,1,STOP
 
-message,<user>,（まずいな……！　さすがに鬼族たちも、疲れがでてきてる。<br>重傷者こそまだいないが、負傷して離脱するものも増えてきてる）
+message,<user>,(This is bad...! Even the oni-folk are showing signs of fatigue.<br>No severe injuries yet，but more are getting hurt and falling back.)<br> 
 
 window,off
 wait,0.15
@@ -1176,13 +1176,13 @@ asynctransitionFade,Tra01,in,black,0.5,STOP,0.5
 waitorclick,1.5
 
 window,on,0.15
-message,村人A,どういうことだ……？<br>鬼族はおれたちを騙して、殺そうとしてるんじゃなかったのか……？,900000001
+message,村人A,What's going on...? Weren't the oni-folk supposed to be<br>tricking us and trying to kill us...?<br> ,900000001
 
-message,村人B,あんなにぼろぼろになってまで戦って……。<br>あれ……おれたちを守ってくれてるよな……どういうことだ？,900000001
+message,村人B,Fighting that hard even when they're this beaten up...<br>Wait... they're protecting us，aren't they...? What's going on?<br> ,900000001
 
-message,,必死に戦う鬼族たちの姿に、村人たちは困惑する。<br>あれではまるで、身を挺して自分たち人間を守っているようではないか……と。
+message,,The oni-folk's desperate fighting left the villagers bewildered. It<br>was almost as if they were risking everything to protect humans...<br> 
 
-message,村人A,鬼族は……本当に、おれたちの敵なのか……？,900000001
+message,村人A,Are the oni-folk... really our enemies...?<br> ,900000001
 
 window,off
 wait,0.15
@@ -1196,7 +1196,7 @@ subimagefade,subimage_1,0,0.6235,0
 asynccrossfade,0.1,0,0,1,1,STOP
 
 window,on,0.15
-message,<user>,（村人たちも、少しずつ気づいてきてるみたいだな。<br>……そうだ。思い込みを捨てて、自分の目で見て、自分で判断しろ）
+message,<user>,(The villagers are starting to see it...<br>Right. Let go of assumptions，look，and judge for yourselves.)<br> 
 
 window,off
 wait,0.15
@@ -1264,7 +1264,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,鬼族A,やべぇ……！<br>１匹そっちにいったぞぉ！,402701000,,chara_1
+message,鬼族A,Watch out...! One got through that way!<br> ,402701000,,chara_1
 
 window,off
 wait,0.15
@@ -1305,9 +1305,9 @@ asynccharamove,chara_2,EaseOut,X,-100,0.3,CONT,0
 asyncwait
 
 window,on,0.15
-message,,鬼族の声にハッとする。鬼族たちの包囲網を突破した１匹のモンスター。<br>目を血走らせたその個体が向かう先には……怯える村人たち。
+message,,The oni-folk's shout rang out — one monster had broken through.<br>Its blood-shot eyes were fixed on... the cowering villagers.<br> 
 
-message,村人A,ひっ……！？<br>モ、モンスターがこっちに……！？,900000001
+message,村人A,Eek...!? The-the monster is coming this way...!?<br> ,900000001
 
 window,off
 wait,0.15
@@ -1350,7 +1350,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,鬼族A,っ…………！<br>くそっ、ここからじゃ間に合わねぇ……！,402701000,,chara_1
+message,鬼族A,Damn...! I can't make it from here in time...!<br> ,402701000,,chara_1
 
 window,off
 wait,0.15
@@ -1389,7 +1389,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,（まずい……！　シラエスはクリスタルに集中させている……！<br>村人が……！）
+message,<user>,(This is bad...! Shiraes is focused on the crystal...!<br>The villager...!)<br> 
 
 asyncjump,CHARA,chara_2,40,0.5,2,off,0,CONT
 
@@ -1398,9 +1398,9 @@ asyncseplay,setag1_34,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,モンスター,ギギギィィィ～～～～～～～！,402001000,,chara_2
+message,モンスター,SKREEEEEEE~~~~~~~!<br> ,402001000,,chara_2
 
-message,村人A,う、うわぁぁぁぁぁぁぁ……！！,900000001
+message,村人A,No，nooooooooo...!!<br> ,900000001
 
 window,off
 wait,0.15
@@ -1447,7 +1447,7 @@ wait,1
 cleanall,EFFECT
 
 window,on,0.15
-message,,モンスターの爪が村人へと振り下ろされ、赤い血飛沫が散る。<br>無力な村人は、なすすべなくモンスターに蹂躙された――はずだった。
+message,,The monster's claws came down，blood spattered.<br>The helpless villager was at its mercy — or so it should have been.<br> 
 
 window,off
 wait,0.15
@@ -1467,7 +1467,7 @@ asyncfade,In,Black,1,STOP,1
 waitorclick,2.5
 
 window,on,0.15
-message,村人A,うぅ……っ、…………？　あ、あれ……？<br>おれ、なんで生きて……？　……えっ！？,900000001
+message,村人A,Ugh...!? ............? H-huh...?<br>Why am I... still alive...? ...What!?<br> ,900000001
 
 window,off
 wait,0.15
@@ -1522,9 +1522,9 @@ asynccharaemo,chara_7,Sweat,CONT,0
 
 
 window,on,0.15
-message,クレハ,ご、ご無事、ですか……？,105801000G,,chara_7
+message,クレハ,A-are you... alright...?<br> ,105801000G,,chara_7
 
-message,,――村人が見たのは、その身を盾として<br>振り下ろされたモンスターの爪を受けるクレハの姿だった。
+message,,——What the villager saw was Kureha，shielding him with her own body，<br>taking the monster's claws upon herself.<br> 
 
 asynccharaface,chara_7,FaceAnger,CONT,0
 
@@ -1535,7 +1535,7 @@ asyncseplay,setag1_38,se4800019,0,1,CONT,0
 asynccharaemo,chara_7,Elated,CONT,0
 
 
-message,クレハ,ハァァッ！,105801000G,,chara_7
+message,クレハ,HAAH!<br> ,105801000G,,chara_7
 
 window,off
 wait,0.15
@@ -1595,7 +1595,7 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,モンスター,ギァアアア……！,402001000,,chara_2
+message,モンスター,GYAAAH...!<br> ,402001000,,chara_2
 
 window,off
 wait,0.15
@@ -1654,7 +1654,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,村人A,あ、あんた……どうして……？,900000001
+message,村人A,Wh-why... why did you...?<br> ,900000001
 
 window,off
 wait,0.15
@@ -1699,9 +1699,9 @@ asynccharaemo,chara_7,Speak,CONT,0
 
 
 window,on,0.15
-message,クレハ,どうして……？　ふふ、変なことをおっしゃいますね。<br>友人が危ない目に遭っているなら、助けるのは普通のことです。,105801000G,,chara_7
+message,クレハ,Why...? Hehe，what a strange thing to ask.<br>If a friend is in danger，it's only natural to help.<br> ,105801000G,,chara_7
 
-message,村人A,友人……？　だ、だって……おれたちは、あんたたちの言い分を<br>信じようともしなかったのに……！　なんで、そこまでして……！,900000001
+message,村人A,Friends...? B-but... we never even tried to believe<br>what you were saying...! Why would you go that far...!<br> ,900000001
 
 asynccharaface,chara_7,EyeClose,CONT,0
 asynccharaface,chara_7,FaceNormal,CONT,0
@@ -1713,7 +1713,7 @@ asyncseplay,setag1_43,se4800003,0,1,CONT,0
 asynccharaemo,chara_7,Twinkle,CONT,0
 
 
-message,クレハ,……昔、ある人に助けられたことがあるんです。その人は、<br>なんの関係もない私のために、私を傷つける人に立ち向かってくれた……,105801000G,,chara_7
+message,クレハ,...Once，long ago，someone saved me. That person stood up<br>against those who'd hurt me，with no obligation to do so...<br> ,105801000G,,chara_7
 
 window,off
 wait,0.15
@@ -1727,7 +1727,7 @@ subimagefade,subimage_1,0,0.6235,0
 asynccrossfade,0.1,0,0,1,1,STOP
 
 window,on,0.15
-message,<user>,（クレハ……）
+message,<user>,(Kureha...)<br> 
 
 window,off
 wait,0.15
@@ -1750,7 +1750,7 @@ asynccharaemo,chara_7,Elated,CONT,0
 
 
 window,on,0.15
-message,クレハ,だから……みなさんが私たちをどう思っているかは関係ないんです。<br>私は……私たちは、みなさんを守りたい！,105801000G,,chara_7
+message,クレハ,So it doesn't matter how you feel about us.<br>I... we want to protect you!<br> ,105801000G,,chara_7
 
 asynccharaface,chara_7,FaceHappy,CONT,0
 
@@ -1761,7 +1761,7 @@ asyncseplay,setag1_45,se4800004,0,1,CONT,0
 asynccharaemo,chara_7,Laugh,CONT,0
 
 
-message,クレハ,人間が……大好きだから！<br>そうですよねっ！？,105801000G,,chara_7
+message,クレハ,Because we love humans! Isn't that right!?<br> ,105801000G,,chara_7
 
 window,off
 wait,0.15
@@ -1825,7 +1825,7 @@ asyncseplay,setag1_47,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 window,on,0.15
-message,鬼族たち,おぉおおおおおおおおおおおおおおおお！,900000001
+message,鬼族たち,OHHHHHHHHHHHHHHH!<br> ,900000001
 
 window,off
 wait,0.15
@@ -1842,7 +1842,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,鬼族A,お嬢の言う通りだ！　てめぇら、気張れよ！<br>人間のみんなは怖いかもしれねぇが、もう少し我慢してくれ！,402701000,,chara_1
+message,鬼族A,Miss Kureha's right! Give it everything you've got!<br>The humans might be scared，but please hold on just a little longer!<br> ,402701000,,chara_1
 
 window,off
 wait,0.15
@@ -1891,7 +1891,7 @@ asynccharaemo,chara_7,Speak,CONT,0
 
 
 window,on,0.15
-message,クレハ,ねっ？　みんな、みなさんを助けたくって、一生懸命なんです。<br>だから……私たちに、みなさんを守らせてください――！,105801000G,,chara_7
+message,クレハ,See? Everyone here is giving everything they have to help you.<br>So please... let us protect you——!<br> ,105801000G,,chara_7
 
 window,off
 wait,0.15
@@ -1960,7 +1960,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,鬼族A,クレハお嬢に続けぇぇぇーーー！！,402701000,,chara_1
+message,鬼族A,Follow Miss Kureha——!<br> ,402701000,,chara_1
 
 window,off
 wait,0.15
@@ -1998,7 +1998,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,,再び前線に飛び出していくクレハを、<br>村人たちは呆然と見送る。
+message,,The villagers watched in stunned silence as Kureha rushed back to<br>the front.<br> 
 
 window,off
 wait,0.15
@@ -2012,7 +2012,7 @@ subimagefade,subimage_1,0,0.6235,0
 asynccrossfade,0.1,0,0,1,1,STOP
 
 window,on,0.15
-message,<user>,（へっ……クレハのやつ、古い話しやがって。<br>けど……その気持ちは届いたみたいだな）
+message,<user>,(Heh... Kureha going and bringing that old story up.<br>But... it seems her feelings got through.)<br> 
 
 window,off
 wait,0.15
@@ -2038,7 +2038,7 @@ asynctransitionFade,Tra01,in,black,0.5,STOP,0.5
 waitorclick,1.5
 
 window,on,0.15
-message,村人A,おれたちは……何をやってたんだ……？,900000001
+message,村人A,What... what were we doing...?<br> ,900000001
 
 window,off
 wait,0.15
@@ -2050,11 +2050,11 @@ asyncseplay,setag1_51,se4000108,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,やがて……１人の村人が、予備として集められていた武器を手に取る。<br>それに呼応するように、１人、また１人と武器を手にしていく。
+message,,Eventually... one villager reached for a weapon from the reserve<br>cache. One by one，the others followed suit.<br> 
 
-message,村人A,……おれたちも戦うぞ！<br>みんな、武器を持て！,900000001
+message,村人A,...We're fighting too! Everyone，grab a weapon!<br> ,900000001
 
-message,村人B,おおっ！　やってやる……やってやるぞ！<br>うぉおおおおおおおおおおおお！,900000001
+message,村人B,Yeah! We'll do it... we're doing this! WOOOOOOOOOOOO!<br> ,900000001
 
 bgmplay,bgmtag1_3,bgm0038,0.75,1
 
@@ -2078,7 +2078,7 @@ asynctransitionCrossFade,Tra03,0.5,STOP
 waitorclick,1
 
 window,on,0.15
-message,,村人たちは勇気を奮い立たせ、前線へと加わる。<br>必死に鬼族と肩を並べて戦い始める人間たちに、鬼族が目を丸くする。
+message,,The villagers rallied their courage and joined the front line. The<br>oni-folk stared wide-eyed as humans fought side by side with them.<br> 
 
 window,off
 wait,0.15
@@ -2125,11 +2125,11 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,鬼族A,お、おい！　お前らはそんなことしなくたっていいんだ！<br>ここはおれたちに任せて、安全な場所に……！,402701000,,chara_1
+message,鬼族A,H-hey! You don't have to do this!<br>Leave it to us and get to somewhere safe...!<br> ,402701000,,chara_1
 
-message,村人A,いいや、戦わせてくれ！<br>おれたちの力なんて、大したことないかもしれないけど……！,900000001
+message,村人A,No，let us fight! Our strength might not amount to much，but...!<br> ,900000001
 
-message,村人B,友だちだけを戦わせてたんじゃ、末代までの恥だ！<br>おれたちだって、あんたたちを守りたいんだ！！,900000001
+message,村人B,Leaving friends to fight alone would shame us for generations!<br>We want to protect you too!!<br> ,900000001
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -2142,9 +2142,9 @@ asyncseplay,setag1_53,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,鬼族A,お、お前らぁ……！,402701000,,chara_1
+message,鬼族A,Y-you guys...!<br> ,402701000,,chara_1
 
-message,<user>,やっと鬼族のまっすぐで素直な気持ちが通じたな――<br>人間とか鬼族とかの違いなんて、些細なものってことだな……
+message,<user>,The oni-folk's honest，earnest feelings finally got through——<br>In the end，the difference between human and oni is a small thing...<br> 
 
 window,off
 wait,0.15
@@ -2193,7 +2193,7 @@ asynccharaemo,chara_7,Anger,CONT,0
 
 
 window,on,0.15
-message,クレハ,同胞たちよ！　人間のみなさんが共に戦ってくれているんだ！<br>ここで意地を見せず、何が鬼族か！,105801000G,,chara_7
+message,クレハ,Brothers and sisters! The humans are fighting alongside us!<br>Show them what the oni-folk are made of!<br> ,105801000G,,chara_7
 
 asyncjump,CHARA,chara_7,-30,0.25,1,off,0,CONT
 
@@ -2202,7 +2202,7 @@ asyncseplay,setag1_55,se4800019,0,1,CONT,0
 asynccharaemo,chara_7,Elated,CONT,0
 
 
-message,クレハ,さあ！　モンスターを倒しきるまであと少しだ！<br>がんばりどころだぞぉぉぉ！！,105801000G,,chara_7
+message,クレハ,Come on! Just a little more until every last monster is down!<br>This is where we give it our all!!!<br> ,105801000G,,chara_7
 
 window,off
 wait,0.15
@@ -2252,7 +2252,7 @@ waitorclick,0.8
 linework,on,White,Middle
 
 window,on,0.15
-message,鬼族たち,おぉおおおおおおおおおおおおおおお――！！,900000001
+message,鬼族たち,OHHHHHHHHHHHHHHHH——!!<br> ,900000001
 
 window,off
 wait,0.15
@@ -2268,7 +2268,7 @@ subimagefade,subimage_1,0,0.6235,0
 asynccrossfade,0.1,0,0,1,1,STOP
 
 window,on,0.15
-message,<user>,（……正直、村人たちの戦力自体は大した足しにならない。<br>だが――士気が上がれば、兵士は化けるもんだ！）
+message,<user>,(...Honestly，the villagers' combat strength doesn't add up to much.<br>But — when morale rises，soldiers become something else entirely!)<br> 
 
 window,off
 wait,0.15
@@ -2282,7 +2282,7 @@ subimagefade,subimage_1,0.6235,0,0
 asynccrossfade,0.1,0,0,1,1,STOP
 
 window,on,0.15
-message,<user>,いいぞ！　そのまましのぎ続けろ！<br>時間さえ稼げば、きっとシラエスがクリスタルを――
+message,<user>,That's it! Keep holding on!<br>If we buy enough time，Shiraes will surely——<br> 
 
 window,off
 wait,0.15
@@ -2337,7 +2337,7 @@ asynccharaemo,chara_4,Laugh,CONT,0
 
 
 window,on,0.15
-message,シラエス,――待たせたね、君たち。,106801000G,,chara_4
+message,シラエス,——Sorry to keep you waiting，everyone.<br> ,106801000G,,chara_4
 
 window,off
 wait,0.15
@@ -2373,7 +2373,7 @@ asyncseplay,setag1_58,se4900134,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,途端、シラエスがその身に溜めた膨大な魔力を解き放つ。<br>閃光が夜空を白く染めあげ――耳を劈くような甲高い音が響いた。
+message,,Shiraes unleashed the enormous magic she had amassed. A blinding<br>flash bleached the night sky，and a piercing wail rang out.<br> 
 
 window,off
 wait,0.15
@@ -2414,7 +2414,7 @@ asynccharaemo,chara_4,Flower,CONT,0
 
 
 window,on,0.15
-message,シラエス,クリスタルは破壊したよ。これ以上の増援はない。<br>よく戦ったね……君たちは本当にがんばり屋だ、大好きだよ。,106801000G,,chara_4
+message,シラエス,The crystal is destroyed. No more reinforcements.<br>You've all fought so well... you're all such troopers. I love you.<br> ,106801000G,,chara_4
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -2425,7 +2425,7 @@ asyncseplay,setag1_60,se4800013,0,1,CONT,0
 asynccharaemo,chara_4,Spirits,CONT,0
 
 
-message,シラエス,さあ、モンスターも残るはあと少し――張り切っていってみようか。<br>まずは……反撃の狼煙だ！,106801000G,,chara_4
+message,シラエス,Now then，just a few monsters left——shall we press on with gusto?<br>First of all... fire the signal for our counterattack!<br> ,106801000G,,chara_4
 
 window,off
 wait,0.15
@@ -2547,7 +2547,7 @@ asynccharaemo,chara_5,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,モンスター,ギギャアアアアアア……！？,402001000,,chara_2/chara_6/chara_5
+message,モンスター,SKRYAAAAAAH...!?<br> ,402001000,,chara_2/chara_6/chara_5
 
 window,off
 wait,0.15
@@ -2617,7 +2617,7 @@ asynccharaemo,chara_7,Twinkle,CONT,0
 
 
 window,on,0.15
-message,クレハ,さすがです、シラエスママ！,105801000G,,chara_7
+message,クレハ,As expected of you，Mama Shiraes!<br> ,105801000G,,chara_7
 
 window,off
 wait,0.15
@@ -2677,11 +2677,11 @@ asyncseplay,setag1_69,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 window,on,0.15
-message,鬼族たち,姉御～～～～！,900000001
+message,鬼族たち,Big sis~~~~!<br> ,900000001
 
-message,<user>,よし！　戦力は整った！　士気も最高潮！<br>こいつは負ける理由がないな！
+message,<user>,Alright! Our forces are assembled! Morale at its peak!<br>There's absolutely no reason to lose!<br> 
 
-message,<user>,最後の仕上げだ！　隣の仲間を守りながら、殲滅にかかれ！<br>総員……前進っ！！
+message,<user>,Time for the final push! Protect your comrades，wipe them out!<br>All forces... ADVANCE!!<br> 
 
 window,off
 wait,0.15
@@ -2735,7 +2735,7 @@ waitorclick,0.8
 linework,on,White,Middle
 
 window,on,0.15
-message,一同,オォオオオオオオ～～～！！！！,900000001
+message,一同,WOOOOOOOOO~~~!!!!<br> ,900000001
 
 window,off
 wait,0.15

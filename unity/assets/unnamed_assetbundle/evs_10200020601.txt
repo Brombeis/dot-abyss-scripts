@@ -27,14 +27,14 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトルを設定してください
+title,Title
 
 wait,1
 
 asyncseplay,se1_1001,se4600015,0,1,CONT,0
 
 window,on,0.15
-message,,酒の席を通し、鬼ヶ島を訪れた人間たちはすっかり鬼族と打ち解け、<br>宴会は大いに盛り上がっていた。だが――
+message,,Through food and drink，the humans had fully opened up to the<br>oni-folk， and the banquet was in full swing. But——<br> 
 
 
 sestop,se1_1001,1
@@ -82,9 +82,9 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,クレハ,……っ！？　な、なんですか、今のは……？<br>何か、妙な感覚……魔力の波のようなものを感じましたが……？,105801000G,,chara_1
+message,クレハ,...!? Wh-what was that...?<br>Something odd... like a wave of magical energy just passed...?<br> ,105801000G,,chara_1
 
-message,<user>,……シラエス。気づいたな？
+message,<user>,...Shiraes. You felt it too?<br> 
 
 window,off
 wait,0.15
@@ -137,7 +137,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,シラエス,ああ。今のは、クリスタルの力だ。どうやら、アーデルハイト君が<br>作ってくれた箱から、クリスタルが解き放たれたらしい。,106801000G,,chara_2
+message,シラエス,Yes. That was the crystal's power. It seems the crystal has been<br>freed from the box that Adelheid-kun made for us.<br> ,106801000G,,chara_2
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -148,9 +148,9 @@ asyncseplay,setag1_4,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,クレハ,そんな！？　あれは私の部屋に置いておいたはず……。<br>鬼族の誰かが勝手に入るわけは……,105801000G,,chara_1
+message,クレハ,That can't be! I left it in my room...<br>None of the oni-folk would go in without permission...<br> ,105801000G,,chara_1
 
-message,<user>,となると……何者かが鬼ヶ島に侵入したのかもしれないな。<br>しかし……今の状況でクリスタルが力を発揮したとしたら、非常にまずいな。
+message,<user>,That means someone may have broken into Oni Island.<br>If the crystal activated now，in this situation... very bad.<br> 
 
 window,off
 wait,0.15
@@ -186,9 +186,9 @@ waitorclick,1
 asyncseplay,se1_1003,se4600005,0,1,CONT,0
 
 window,on,0.15
-message,村人A,な、なんだ、今のは……！？<br>地震か……！？,900000001
+message,村人A,Wh-what was that...!? An earthquake...!?<br> ,900000001
 
-message,村人B,い、いや、もっと変な感じだったぞ……！,900000001
+message,村人B,N-no，it felt weirder than that...!<br> ,900000001
 
 window,off
 wait,0.15
@@ -243,7 +243,7 @@ asynccharaemo,chara_2,Dull,CONT,0
 
 
 window,on,0.15
-message,シラエス,どうやら村人たちも感じたみたいだな。<br>あれだけ強い波動なのだから、無理もない。,106801000G,,chara_2
+message,シラエス,The villagers felt it too，it seems. With a pulse that strong，<br>that's hardly surprising.<br> ,106801000G,,chara_2
 
 window,off
 wait,0.15
@@ -294,9 +294,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,クレハ,み、みなさん、落ち着いてくださ～い。<br>ただいま、状況を確認しますから――,105801000G,,chara_1
+message,クレハ,E-everyone，please stay calm~. We're checking on the situation right<br>now——<br> ,105801000G,,chara_1
 
-message,,クレハが村人たちを落ち着かせようとしたその時、<br>突如として、怪しい風体の男が戸を破って乱入してきた！
+message,,Just as Kureha tried to calm the villagers，a suspicious-looking man<br>suddenly burst through the door and crashed in!<br> 
 
 window,off
 wait,0.15
@@ -358,9 +358,9 @@ asynccharaemo,chara_3,Exclamation,STOP,2
 
 
 window,on,0.15
-message,盗賊,ちっ、しつこいやつらめ……！<br>ここは……宴会場かっ？,2028301,,chara_3
+message,盗賊,Tch，persistent bunch...! Is this... a banquet hall?<br> ,2028301,,chara_3
 
-message,<user>,お前は……あの時の盗賊か！<br>そうか、クリスタルを奪ったのはお前だな！
+message,<user>,You're... the thief from before!<br>So you're the one who stole the crystal!<br> 
 
 asynccharaface,chara_3,FaceUnique01,CONT,0
 
@@ -371,7 +371,7 @@ asyncseplay,setag1_10,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,盗賊,ははっ、誰かと思えば、間抜けな司令官さんかよ！<br>そんなもん盗まれるほうが悪いんだ！　クリスタルはこのおれのもの――！,2028301,,chara_3
+message,盗賊,Hah，look who it is — the dumbass Commander!<br>If you get robbed it's your own fault! That crystal is mine——!<br> ,2028301,,chara_3
 
 window,off
 wait,0.15
@@ -398,7 +398,7 @@ asynccharaemo,chara_4,Anger,CONT,0
 
 
 window,on,0.15
-message,鬼族A,待ちやがれぇぇぇっ！！<br>何さらしとんじゃわれぇぇぇっ！！,402701000,,chara_4
+message,鬼族A,Hold it right there!!!! What do you think you're doing!!!!<br> ,402701000,,chara_4
 
 asynccharaface,chara_3,FaceSurprise,CONT,0
 
@@ -409,9 +409,9 @@ asyncseplay,setag1_12,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,盗賊,ぐぅっ……！？　ぬ、抜け出せねえ……！<br>ちくしょう、馬鹿力が……！,2028301,,chara_3
+message,盗賊,Ugh...!? I-I can't get free...! Damn，the brute strength...!<br> ,2028301,,chara_3
 
-message,村人たち,な、なんだ！？<br>いったい何が起きてるんだ……！？,900000001
+message,村人たち,Wh-what!? What on earth is happening...!?<br> ,900000001
 
 window,off
 wait,0.15
@@ -423,7 +423,7 @@ asyncseplay,setag1_13,se4400059,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,村人たちの間に混乱が広がる中、<br>盗賊の手から零れ落ちたクリスタルが地面に転がる。
+message,,As panic spread among the villagers， the crystal slipped from the<br>thief's hand and rolled across the floor.<br> 
 
 window,off
 wait,0.15
@@ -463,7 +463,7 @@ asyncfade,In,White,1,STOP,1
 waitorclick,2.5
 
 window,on,0.15
-message,<user>,クリスタルが光っている……完全に起動しているな。<br>盗賊が注いだ魔力が原因か？　いや……それにしては反応が強いな。
+message,<user>,The crystal is glowing... fully activated. Did the thief's<br>magic cause it? No... the reaction is too strong for that.<br> 
 
 window,off
 wait,0.15
@@ -514,7 +514,7 @@ asynccharaemo,chara_2,Question,CONT,0
 
 
 window,on,0.15
-message,シラエス,ふむ……確かに、この反応は妙だぞ。<br>モンスターを引き寄せる力を発揮し続けている。,106801000G,,chara_2
+message,シラエス,Mm... indeed，this reaction is strange.<br>It's continuously putting out the force that draws monsters.<br> ,106801000G,,chara_2
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -526,7 +526,7 @@ asyncseplay,setag1_16,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,シラエス,そこの盗賊君。ひとつ教えてもらいたいんだが、<br>このクリスタルが入っていた箱はどうしたんだい？,106801000G,,chara_2
+message,シラエス,You there，thief-kun. I have one question for you —<br>what happened to the box this crystal was in?<br> ,106801000G,,chara_2
 
 window,off
 wait,0.15
@@ -581,7 +581,7 @@ asynccharaemo,chara_4,Anger,CONT,0
 
 
 window,on,0.15
-message,村人A,おらぁ！　姐さんの質問におとなしく答えやがれ！,402701000,,chara_4
+message,村人A,Answer the lady's question like a good boy，ya hear!<br> ,402701000,,chara_4
 
 asynccharaface,chara_3,FaceUnique01,CONT,0
 
@@ -592,7 +592,7 @@ asyncseplay,setag1_18,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,盗賊,へっ、へへっ……！　そんなもん、壊してやったよ！<br>邪魔だったからなぁ！,2028301,,chara_3
+message,盗賊,Heh，heh heh...! I smashed it! It was in my way!<br> ,2028301,,chara_3
 
 window,off
 wait,0.15
@@ -641,7 +641,7 @@ asynccharaemo,chara_2,Trouble,CONT,0
 
 
 window,on,0.15
-message,シラエス,やはりそうか……。<br>司令官君、少々、困ったことになったぞ。,106801000G,,chara_2
+message,シラエス,As I suspected... Commander-kun，we have a bit of a problem.<br> ,106801000G,,chara_2
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -652,7 +652,7 @@ asyncseplay,setag1_20,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,シラエス,クリスタルは誰かが魔力を注がなくても、モンスターを引き寄せる波動を<br>発していたんだが、箱に入れている間、それは閉じ込められていた。,106801000G,,chara_2
+message,シラエス,The crystal emits a monster-drawing pulse on its own —<br>the box was simply containing that while it was sealed inside.<br> ,106801000G,,chara_2
 
 asynccharaface,chara_2,FaceUnique01,CONT,0
 
@@ -663,9 +663,9 @@ asyncseplay,setag1_21,se4800015,0,1,CONT,0
 asynccharaemo,chara_2,Dull,CONT,0
 
 
-message,シラエス,これがどういうことか、わかるかい？,106801000G,,chara_2
+message,シラエス,Do you understand what that means?<br> ,106801000G,,chara_2
 
-message,<user>,……密閉状態の箱に込められている間に蓄積された力が<br>一気に解き放たれて、波動を放ち続けている――ということか？
+message,<user>,...The power that built up while it was sealed in the box<br>was released all at once，and it keeps sending out the pulse——?<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -678,7 +678,7 @@ asyncseplay,setag1_22,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,シラエス,正解だ。つまり――このままではモンスターが絶えずこの鬼ヶ島に押し寄せる。<br>それも、これまでになかったほどの大量のモンスターがね。,106801000G,,chara_2
+message,シラエス,Correct. If left as is，monsters will swarm here without end.<br>And in greater numbers than ever before.<br> ,106801000G,,chara_2
 
 bgmplay,bgmtag1_2,bgm0039,0.75,1
 
@@ -725,9 +725,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,クレハ,そ、そんな……！,105801000G,,chara_1
+message,クレハ,Th-that can't be...!<br> ,105801000G,,chara_1
 
-message,<user>,……おい、そこの盗賊。大変なことをしてくれたな？
+message,<user>,...Hey，you. Thief. You've done something quite terrible.<br> 
 
 window,off
 wait,0.15
@@ -772,9 +772,9 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,盗賊,へへっ、知ったことかよ。<br>それよりも心配すべきことがあるんじゃねぇのか？,2028301,,chara_3
+message,盗賊,Heh，not my problem. Don't you have bigger things to worry about<br>right now?<br> ,2028301,,chara_3
 
-message,<user>,……何？
+message,<user>,...What?<br> 
 
 asynccharaface,chara_3,FaceAnger,CONT,0
 
@@ -785,7 +785,7 @@ asyncseplay,setag1_25,se4800010,0,1,CONT,0
 asynccharaemo,chara_3,Exclamation,CONT,0
 
 
-message,盗賊,おい、てめぇら！　今からここにモンスターが押し寄せるぞ！<br>鬼族のやつらは、モンスターを呼び寄せててめぇらを皆殺しにするつもりだ！,2028301,,chara_3
+message,盗賊,Hey，you lot! Monsters are about to swarm this place!<br>The oni-folk lured them here to slaughter every last one of you!<br> ,2028301,,chara_3
 
 window,off
 wait,0.15
@@ -830,9 +830,9 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,クレハ,なっ……！？　なんてでたらめを……！,105801000G,,chara_1
+message,クレハ,Wha...!? What a pack of lies...!<br> ,105801000G,,chara_1
 
-message,村人B,モ、モンスターが……？<br>い、いや、でも彼らは、おれたちに親切にしてくれて……,900000001
+message,村人B,M-monsters...? N-no，but they were so kind to us...<br> ,900000001
 
 window,off
 wait,0.15
@@ -877,7 +877,7 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 
 window,on,0.15
-message,盗賊,そんなもん、騙すために決まってんだろ！<br>鬼ヶ島に招待して、人間たちを一網打尽にするつもりなんだよ！,2028301,,chara_3
+message,盗賊,Obviously to trick you! They invited you to Oni Island<br>so they could wipe out every last human in one sweep!<br> ,2028301,,chara_3
 
 window,off
 wait,0.15
@@ -936,7 +936,7 @@ asynccharaemo,chara_5,Anger,CONT,0
 
 
 window,on,0.15
-message,鬼族B,アンタ、ふざけたこといってんじゃないよ！<br>ちょっと黙ってな……！！,402801000,,chara_5
+message,鬼族B,Don't you dare say that! Shut your mouth for a second...!!<br> ,402801000,,chara_5
 
 window,off
 wait,0.15
@@ -980,7 +980,7 @@ asynccharaemo,chara_3,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,盗賊,ぐあ……ッ！？,2028301,,chara_3
+message,盗賊,Gwaah...!?<br> ,2028301,,chara_3
 
 window,off
 wait,0.15
@@ -1005,7 +1005,7 @@ shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,村人B,殴って気絶させた……？<br>言われたらマズいことだから、口をふさいだのか……？,900000001
+message,村人B,She knocked him out...? Did she silence him because<br>there was something he shouldn't have said...?<br> ,900000001
 
 asynccharaface,chara_5,FaceSad,CONT,0
 
@@ -1016,7 +1016,7 @@ asyncseplay,setag1_32,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,鬼族B,なっ、なんだって！？　あたいにそんな気はないよ！<br>ただこいつが、ふざけたこと言うもんだから……！,402801000,,chara_5
+message,鬼族B,Wh-what!? I don't have any such intentions!<br>I just hit him because he was saying such outrageous things...!<br> ,402801000,,chara_5
 
 window,off
 wait,0.15
@@ -1030,7 +1030,7 @@ subimagefade,subimage_1,0,0.6235,0
 asynccrossfade,0.1,0,0,1,1,STOP
 
 window,on,0.15
-message,<user>,（マズいッ。村人たちは、この盗賊が原因を作ったとは知らない。<br>それにこの混乱の中じゃあ、冷静な判断も……！）
+message,<user>,(This is bad. The villagers don't know the thief caused this.<br>And in all this chaos，calm reasoning won't...!)<br> 
 
 window,off
 wait,0.15
@@ -1044,7 +1044,7 @@ subimagefade,subimage_1,0.6235,0,0
 asynccrossfade,0.1,0,0,1,1,STOP
 
 window,on,0.15
-message,村人A,こ、殺される……！　おれたちは罠にはめられたんだ！<br>やっぱり鬼族は恐ろしい一族なんだ……！,900000001
+message,村人A,We-we're going to be killed...! We were lured into a trap!<br>I knew the oni-folk were a fearsome clan...!<br> ,900000001
 
 window,off
 wait,0.15
@@ -1093,9 +1093,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,クレハ,ち、違います！　聞いてください！<br>私たちは、みなさんと本当に仲良くなりたくって……！,105801000G,,chara_1
+message,クレハ,Th-that's not it! Please listen!<br>We genuinely want to be friends with all of you...!<br> ,105801000G,,chara_1
 
-message,村人B,そ、そんなの信じられるか！,900000001
+message,村人B,H-how can we believe that!<br> ,900000001
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1106,11 +1106,11 @@ asyncseplay,setag1_34,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,クレハ,……っ！,105801000G,,chara_1
+message,クレハ,...!<br> ,105801000G,,chara_1
 
-message,鬼族の門番,緊急事態だっ！　モンスターたちの群れが迫ってやがる！<br>戦えるやつは構えろ！,900000001
+message,鬼族の門番,Emergency! A horde of monsters is approaching!<br>Anyone who can fight，take position!<br> ,900000001
 
-message,村人A,モンスター！？　その人の言ってたことは本当だったんだ！<br>やっぱり鬼族はおれたちを殺そうとしてるんだ……！,900000001
+message,村人A,Monsters!? So what that man said was true!<br>The oni-folk really are trying to kill us...!<br> ,900000001
 
 window,off
 wait,0.15
@@ -1165,9 +1165,9 @@ asynccharaemo,chara_5,Panic,CONT,0
 
 
 window,on,0.15
-message,鬼族B,はぁっ！？　なんでそうなるんだい！？<br>あたいらはあんたたちを守ろうと……！,402801000,,chara_5
+message,鬼族B,What!? How did you reach that conclusion!?<br>We're trying to protect you...!<br> ,402801000,,chara_5
 
-message,村人B,だ、騙されるもんか！　い、今っ、モンスターの声が聞こえたぞ！<br>囲まれてる……！？　に、逃げられねぇ……！,900000001
+message,村人B,W-we won't be fooled! I-I can hear the monsters now!<br>We're surrounded...!? Th-there's no escape...!<br> ,900000001
 
 window,off
 wait,0.15
@@ -1216,7 +1216,7 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,クレハ,だめ……こんなに混乱していたら、避難させることもできない……！<br>いったい、どうしたら……？,105801000G,,chara_1
+message,クレハ,No good... with everyone in this panic，we can't even<br>evacuate them...! What on earth can we do...?<br> ,105801000G,,chara_1
 
 window,off
 wait,0.15
@@ -1244,7 +1244,7 @@ asynctransitionCrossFade,Tra01,0.5,STOP
 waitorclick,1
 
 window,on,0.15
-message,<user>,<size=48>くっくっく……まんまと騙されたなぁ、馬鹿な人間どもぉ！！</>
+message,<user>,<size=48>Heh heh heh... fell right into our trap，you foolish humans!!</>
 
 window,off
 wait,0.15
@@ -1283,7 +1283,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,クレハ,えっ……！？　だ、旦那様！？<br>いったい何を……！？,105801000G,,chara_1
+message,クレハ,Wha...!? D-darling!? What are you doing...!?<br> ,105801000G,,chara_1
 
 window,off
 wait,0.15
@@ -1309,13 +1309,13 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,ああ、そうだ！　最初からお前たちを騙していたんだよ！<br>逃げ遅れたやつから食ってやるぞぉ！　うぉおおおおおおおおおおお！
+message,<user>,That's right! We've been deceiving you from the start!<br>We'll eat whoever's slowest to escape! WOOOOOOOOOO!<br> 
 
-message,村人A,ひ、ひぃぃぃぃぃぃぃ……！？,900000001
+message,村人A,Hiiiiiiiieeeek...!?<br> ,900000001
 
-message,,<user>に追い立てられ、<br>村人たちは一カ所へと追い込まれていく。
+message,,Herded by %user%，the villagers were driven together into one spot.<br> 
 
-message,<user>,うぉおおおおおおおお……！！<br>……と、まぁこんなもんだろ。
+message,<user>,WOOOOOOOOOO...!! ...Okay，that should do it.<br> 
 
 window,off
 wait,0.15
@@ -1346,7 +1346,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,シラエス,よくやった。えらいぞ、司令官君。<br>あとでなでなでしてあげよう。,106801000G,,chara_2
+message,シラエス,Well done. Good job，Commander-kun.<br>I'll give you a good pat-pat later.<br> ,106801000G,,chara_2
 
 window,off
 wait,0.15
@@ -1391,9 +1391,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,クレハ,……っ！　なるほど！　旦那様は村人たちを一カ所に集めて守るため、<br>わざと脅かすようなことを！　すごいです！　さすがは旦那様！,105801000G,,chara_1
+message,クレハ,...! I see! My darling threatened them on purpose to gather<br>the villagers for protection! Incredible! As expected!<br> ,105801000G,,chara_1
 
-message,<user>,嘘も方便だ。死なれたら、あとで誤解を解くこともできなくなるだろう？<br>だから……今はとにかく、全員の力で村人たちを守りきるぞ！
+message,<user>,The ends justify the means. If they die，we can never clear up the<br>misunderstanding. So right now — we protect every last one of them!<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1404,7 +1404,7 @@ asyncseplay,setag1_40,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,クレハ,はいっ！　鬼族のみなさん、聞いていましたね！？<br>旦那様の指示にしたがって、人間のみなさんを守りますよ！,105801000G,,chara_1
+message,クレハ,Yes! Everyone，did you hear that!?<br>Follow my darling's orders and protect the humans!<br> ,105801000G,,chara_1
 
 window,off
 wait,0.15
@@ -1460,11 +1460,11 @@ asynccharaemo,chara_5,Laugh,CONT,0
 
 
 window,on,0.15
-message,鬼族B,ああ！　司令官の旦那！<br>クレハお嬢の花婿に相応しいところ、見せておくれ！,402801000,,chara_5
+message,鬼族B,Yeah! Commander! Show us you're worthy of being Miss Kureha's groom!<br> ,402801000,,chara_5
 
-message,<user>,誰が花婿だ！<br>いや、今はそんなことを言ってる場合じゃないか！
+message,<user>,Who's a groom! — no，this isn't the time for that!<br> 
 
-message,<user>,鬼族は人間たちを守れるように、壁を作れ！
+message,<user>,Oni-folk，form a wall to shield the humans!<br> 
 
 asynccharaface,chara_4,FaceAnger,CONT,0
 
@@ -1475,7 +1475,7 @@ asyncseplay,setag1_42,se4800019,0,1,CONT,0
 asynccharaemo,chara_4,Elated,CONT,0
 
 
-message,鬼族A,おうっ、任せろ！　やってやるぜぇーーー！,402701000,,chara_4
+message,鬼族A,Got it，leave it to us! Let's gooo——!<br> ,402701000,,chara_4
 
 window,off
 wait,0.15
@@ -1499,7 +1499,7 @@ emodelete,chara_4,0,0
 asyncwait
 
 window,on,0.15
-message,<user>,クレハは腕利きを何人か連れて遊撃に出ろ！　判断は任せる！
+message,<user>,Kureha，take a few skilled fighters and mount a sortie!<br>The judgment calls are yours!<br> 
 
 window,off
 wait,0.15
@@ -1540,7 +1540,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,クレハ,承知しました！　このクレハ、お役目果たしてみせます！,105801000G,,chara_1
+message,クレハ,Understood! This Kureha will fulfill her duty!<br> ,105801000G,,chara_1
 
 window,off
 wait,0.15
@@ -1556,7 +1556,7 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,<user>,シラエス！　俺が残りの鬼族たちを指揮して、モンスターを一箇所に追い込む！<br>合図したら、とっておきの魔法で一網打尽にしろ！　できるな！？
+message,<user>,Shiraes! I'll command the oni-folk and drive the monsters<br>to one spot! On my signal，unleash everything! Can you do it!?<br> 
 
 window,off
 wait,0.15
@@ -1595,7 +1595,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,シラエス,いいだろう。せっかく今日はお客さんがたくさんいるんだ。<br>とっておきの花火をご覧に入れよう。,106801000G,,chara_2
+message,シラエス,Very well. We have so many guests here today.<br>Let me give them a special fireworks show.<br> ,106801000G,,chara_2
 
 window,off
 wait,0.15
@@ -1643,7 +1643,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,頼りにしてるぞ！　さあ、みんな正念場だ！<br>鬼族の強さ、俺に見せてくれ――！
+message,<user>,I'm counting on you! Alright，this is the moment of truth!<br>Show me the oni-folk's true strength——!<br> 
 
 window,off
 wait,0.15
@@ -1653,7 +1653,7 @@ charafocusonall
 linework,on,White,Middle
 
 window,on,0.15
-message,鬼族たち,うぉおおおおおおおおおおおおおおおおおおおおおおおおおおおおお――！！！,900000001
+message,鬼族たち,WOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO——!!!<br> ,900000001
 
 window,off
 wait,0.15

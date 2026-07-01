@@ -32,7 +32,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトルを設定してください
+title,Title
 
 wait,1
 
@@ -87,7 +87,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,よし……今日の任務もつつがなく終わったな。<br>シラエスのおかげだ。
+message,<user>,Good... today's mission went off without a hitch.<br>Thanks to Shiraes.<br> 
 
 window,off
 wait,0.15
@@ -124,7 +124,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,シラエス,私は司令官君をサポートしただけだよ。<br>任務達成は、君ががんばったからに他ならない。よしよし、えらいぞ。,106801000G,,chara_1
+message,シラエス,I only supported you，Commander-kun. The mission's<br>success is all your doing. Well done，good job~.<br> ,106801000G,,chara_1
 
 window,off
 wait,0.15
@@ -165,7 +165,7 @@ shake,CHARA,chara_6,20,0,0.25,30,off,off,0
 shake,CHARA,chara_7,20,0,0.25,30,off,off,0
 
 window,on,0.15
-message,<user>,お、おい、シラエス。頭を撫でるのは勘弁してくれよ。<br>うっかり赤ちゃん返りしそうになるだろ？
+message,<user>,H-hey，Shiraes. Do you have to pat my head?<br>It makes me want to regress into a baby，you know?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -176,7 +176,7 @@ asyncseplay,setag1_4,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,シラエス,ふふ。千年以上生きているエルフの私からすれば、君も子供のようなものさ。<br>甘えたければ甘えればいい。遠慮はいらないぞ。,106801000G,,chara_1
+message,シラエス,Hehe. From the perspective of an elf over a thousand years old，<br>you're still a child. Feel free to lean on me. No need to hold back.<br> ,106801000G,,chara_1
 
 window,off
 wait,0.15
@@ -214,11 +214,11 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,,彼女の言う通り、シラエスは高名なエルフだ。そして優秀な冒険者でもある。<br>長年培ってきた知識量もさることながら、特に魔法の腕前が抜きん出ている。
+message,,As mentioned，Shiraes is a renowned elf and skilled adventurer.<br>Her knowledge is vast，but her magic especially stands apart.<br> 
 
-message,,そんなシラエスが大好きなのが、人間だ。<br>短い人生を無駄にせず、必死に生きている人に尊敬の念を抱いているらしい。
+message,,What Shiraes loves above all else is humans. She holds deep respect<br>for those who live their short lives to the fullest，wasting nothing.<br> 
 
-message,,だからシラエスは人間に対して優しく接しているのだが、<br>彼女の意図しないところでママみが溢れてしまっているのだ。
+message,,That's why Shiraes treats humans with such kindness — though she<br>doesn't quite realize how much 'Mama energy' she radiates.<br> 
 
 window,off
 wait,0.15
@@ -256,7 +256,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,俺にだって体面というものがあるからな。兵士たちみたいに、<br>『シラエスママー』なんて呼んで甘えるわけにはいかないんだよ。
+message,<user>,I have my dignity to maintain. I can't go around calling<br>'Mama Shiraes~!' and leaning on her like the soldiers do.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -267,9 +267,9 @@ asyncseplay,setag1_5,se4800005,0,1,CONT,0
 asynccharaemo,chara_1,Flash,CONT,0
 
 
-message,シラエス,ふむ……それなら、帰ったらご褒美のマッサージをしてあげよう。<br>３日ほどかけてほぐせば、君の疲れもとれるだろう。,106801000G,,chara_1
+message,シラエス,Hmm... then when we get back，I'll give you a massage as a reward.<br>Three days or so should be enough to work out that tension.<br> ,106801000G,,chara_1
 
-message,<user>,逆に疲れる！　人間の時間感覚を考えてくれ！<br>前にも、ちょっと読書すると言って、数日読み続けてたことがあっただろう！
+message,<user>,That would exhaust me more! Think about human time!<br>Last time you said 'just a quick read，' you went for days!<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -280,7 +280,7 @@ asyncseplay,setag1_6,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シラエス,むぅ……そうだな、私の悪い癖だ。人間たちと同じ時を過ごしたいのに、<br>ついエルフの感覚で過ごして、交友を深める機会を逃してしまう……,106801000G,,chara_1
+message,シラエス,Mm... you're right，it's a bad habit. I want to spend the same<br>time as humans，yet I slip into elven time and miss chances...<br> ,106801000G,,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -291,9 +291,9 @@ asyncseplay,setag1_7,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,シラエス,だから、こうしてアドバイスをくれる君にはいつも助けられているよ。<br>本当に感謝しているぞ。,106801000G,,chara_1
+message,シラエス,That's why I'm always grateful for advice like yours.<br>Truly，thank you.<br> ,106801000G,,chara_1
 
-message,<user>,気にするな。俺もシラエスには世話になってるからな。<br>まさに今日も“こいつ”の回収任務に手を貸してもらったわけだしな。
+message,<user>,Don't mention it. You help me out plenty too.<br>Like today — lending a hand recovering this thing.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -302,7 +302,7 @@ asyncseplay,setag1_8,se4800014,0,1,CONT,0
 
 asynccharaemo,chara_1,Silence,CONT,0
 
-message,,握り締めたクリスタルを見やる。<br>それは神秘的な輝きと共に、怪しい雰囲気を孕んでいた。
+message,,He looked down at the crystal in his grip.<br>It gleamed with a mystical light，carrying a sinister aura.<br> 
 
 window,off
 wait,0.15
@@ -343,9 +343,9 @@ asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
 
 window,on,0.15
-message,シラエス,なかなかに興味深い品だ。<br>モンスターを呼び寄せるクリスタル、か……,106801000G,,chara_1
+message,シラエス,Quite the fascinating piece.<br>A crystal that draws monsters to it，hmm...<br> ,106801000G,,chara_1
 
-message,<user>,最近、モンスターの大量出没に頭を悩ませていたが、<br>まさかこいつが原因だったなんてな。
+message,<user>,We'd been plagued by monster swarms lately，<br>and to think this was the cause.<br> 
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -354,9 +354,9 @@ asyncseplay,setag1_9,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シラエス,まさに、綺麗な薔薇にはトゲがあったというわけだ。<br>盗掘家にでも持ち去られていたら、とんでもないことになっていただろうね。,106801000G,,chara_1
+message,シラエス,A beautiful rose with hidden thorns，as they say.<br>Had a looter gotten their hands on it，things would have been dire.<br> ,106801000G,,chara_1
 
-message,<user>,ああ。俺たちで確保できたのは運がよかった。<br>すぐにアーデルハイトに解析を頼むとしよう。
+message,<user>,Yeah. Lucky we managed to secure it.<br>Let's get Adelheid to analyze it right away.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -367,7 +367,7 @@ asyncseplay,setag1_10,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,シラエス,ルクスノヴァという勢力の、カガクシャという職業の人間だったか。<br>技術もそうだが、異世界の人間とは……うん、興味深いな。,106801000G,,chara_1
+message,シラエス,From Lux Nova，a 'scientist' — was that her role?<br>The technology aside，humans from another world... mm，fascinating.<br> ,106801000G,,chara_1
 
 window,off
 wait,0.15
@@ -377,7 +377,7 @@ charafocusonall
 bgmstop,bgmtag1_1,1,0
 
 window,on,0.15
-message,<user>,シラエスは勉強熱心だし、相性がいいかもしれないな。<br>それじゃ、アーデルハイトの研究所に……――っ！？
+message,<user>,Shiraes is a keen learner — might be a good match.<br>Then let's head to Adelheid's lab—— ...!?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -428,7 +428,7 @@ asynccharamove,chara_2,EaseOut,X,100,0.3,CONT,0
 asyncwait
 
 window,on,0.15
-message,,ふたりが歩き始めた直後――音もなく接近した何者かが、<br><user>の手からクリスタルを奪い去った。
+message,,Just as they set off——someone approached without a sound<br>and snatched the crystal from %user%'s hand.<br> 
 
 window,off
 wait,0.15
@@ -473,9 +473,9 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,盗賊,くっくっく……油断したな！<br>ずっと後をつけていた甲斐があったぜ！！,2028301,,chara_2
+message,盗賊,Heh heh heh... you let your guard down! Made tailing you<br>all this time worth it!!<br> ,2028301,,chara_2
 
-message,<user>,盗掘家……いや、盗賊か！<br>くそっ、金目当てならさっさと返せ！　そのクリスタルは危険なんだ！
+message,<user>,A tomb raider... no，a thief! Damn it，if you're after money just<br>hand it back! That crystal is dangerous!<br> 
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -494,7 +494,7 @@ asyncseplay,setag1_14,se4800017,0,1,STOP,5.5
 asynccharaemo,chara_2,Shock,STOP,5.5
 
 
-message,盗賊,へっ、こいつの秘めた力の調べはついてんだ！<br>国家転覆を狙ってる犯罪組織にでも売り込めば、高値がつくはず……――！？,2028301,,chara_2
+message,盗賊,Heh，I know what power this holds! Sell it to some<br>criminal org eyeing a coup — worth a fortune——!?<br> ,2028301,,chara_2
 
 window,off
 wait,0.15
@@ -530,7 +530,7 @@ asynctransitionCrossFade,Tra21,0.5,STOP
 waitorclick,1
 
 window,on,0.15
-message,,突如覚えた圧迫感に、盗賊が息を呑む。<br>その圧力の発信源は、小柄なエルフ。
+message,,The thief suddenly felt a crushing pressure and held their breath.<br>The source of that pressure: a small elf.<br> 
 
 window,off
 wait,0.15
@@ -598,7 +598,7 @@ asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
 
 window,on,0.15
-message,シラエス,――私は、短い生涯を懸命に生きる、君たち人間が大好きだ。<br>できれば、傷つけたくはない。たとえ盗人であってもね。,106801000G,,chara_1
+message,シラエス,——I love humans who live their brief lives with all they have.<br>I'd rather not harm you. Even a thief.<br> ,106801000G,,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -610,7 +610,7 @@ asyncseplay,setag1_16,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,シラエス,今ならまだ、君の過ちも今なら不問にできる。<br>いい子だから、そのクリスタル……おとなしく返してくれないかい？,106801000G,,chara_1
+message,シラエス,Right now，your mistake can still be forgiven.<br>Be a good boy and hand that crystal back quietly，won't you?<br> ,106801000G,,chara_1
 
 window,off
 wait,0.15
@@ -638,7 +638,7 @@ asyncseplay,setag1_17,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 window,on,0.15
-message,,膨大な魔力を放つシラエスが、ほんの僅か、盗賊に近づく。<br>小柄なエルフの放つ威圧感に、盗賊は冷や汗を流す。だが――
+message,,Radiating vast magical force，Shiraes stepped slightly closer.<br>Cold sweat ran down the thief's back. But——<br> 
 
 window,off
 wait,0.15
@@ -687,7 +687,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,盗賊,へ、へへ……そんな脅しにビビってちゃ、商売にならないんでね……！<br>こんな一攫千金のチャンス、みすみす手放すわけがねぇだろ！,2028301,,chara_2
+message,盗賊,He-heh... can't let a little scare get in the way of business...!<br>No way I'm passing up a jackpot like this!<br> ,2028301,,chara_2
 
 window,off
 wait,0.15
@@ -706,7 +706,7 @@ asynccharaemo,chara_2,Anger,CONT,0
 
 
 window,on,0.15
-message,盗賊,んぐぐ……おりゃああっ！<br>お前らは……こいつらの相手でもしてろ――！,2028301,,chara_2
+message,盗賊,Nngh... HYAAAH! You two... deal with these things——!<br> ,2028301,,chara_2
 
 window,off
 wait,0.15
@@ -740,7 +740,7 @@ asynctransitionFade,Tra21,in,white,0,STOP
 waitorclick,0
 
 window,on,0.15
-message,<user>,クリスタルに魔力を……！？<br>モンスターを呼ぶ気か！！
+message,<user>,He's channeling magic into the crystal...!?<br>He's going to call more monsters!!<br> 
 
 window,off
 wait,0.15
@@ -808,7 +808,7 @@ asynccharaemo,chara_5,Anger,CONT,0
 
 
 window,on,0.15
-message,モンスター,ギギィィィ！！,402001000,,chara_3/chara_5/chara_4
+message,モンスター,SKREEEE!!<br> ,402001000,,chara_3/chara_5/chara_4
 
 window,off
 wait,0.15
@@ -861,7 +861,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,シラエス,さっそく現れたか……！<br>人間たちに被害が出る前に、ここで食い止めないと……！,106801000G,,chara_1
+message,シラエス,Here they come already...!<br>We have to stop them here before humans get hurt...!<br> ,106801000G,,chara_1
 
 window,off
 wait,0.15
@@ -906,7 +906,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,盗賊,くっくっく！　今のうちだ――！<br>あばよ、間抜けども！,2028301,,chara_2
+message,盗賊,Heh heh heh! Now's my chance——! So long，suckers!<br> ,2028301,,chara_2
 
 window,off
 wait,0.15
@@ -922,7 +922,7 @@ emodelete,chara_2,0,0
 asyncwait
 
 window,on,0.15
-message,<user>,待て！　くそっ、あいつモンスターの群れの中を縫うように！<br>なんて身軽な奴だ……！
+message,<user>,Stop! Damn it，he's weaving through the monster horde!<br>What an agile bastard...!<br> 
 
 window,off
 wait,0.15
@@ -963,7 +963,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 
 window,on,0.15
-message,シラエス,その特技を良いことに活かしてくれればいいのにねッ。<br>モンスターを倒して、早く追わなければ……！,106801000G,,chara_1
+message,シラエス,If only he used that talent for good!<br>Take down the monsters — we need to give chase...!<br> ,106801000G,,chara_1
 
 window,off
 wait,0.15
@@ -1015,7 +1015,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,盗賊,へへっ、上手く逃げ切ったぞ。<br>あとは、この山さえ抜けりゃあ、大金が手に……,2028301,,chara_2
+message,盗賊,Heh，made a clean getaway. Once I'm through this mountain，<br>that fortune is as good as mine...<br> ,2028301,,chara_2
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -1026,7 +1026,7 @@ asyncseplay,setag1_29,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,盗賊,つっ……くっそ、モンスターの間を抜ける時に足をやっちまったか……<br>流石に無謀だったか……――うおっ！？,2028301,,chara_2
+message,盗賊,Tch... damn it，did I hurt my foot dodging the monsters...?<br>Maybe that was reckless after all... whoa!?<br> ,2028301,,chara_2
 
 window,off
 wait,0.15
@@ -1065,7 +1065,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,,悪路に足をとられ、転倒する盗賊。<br>その手からクリスタルが離れ――神秘的な輝きは谷底へと落ちていった。
+message,,The rough terrain caught his feet and he fell.<br>The crystal slipped away — its light vanishing into the gorge below.<br> 
 
 window,off
 wait,0.15
@@ -1106,7 +1106,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,盗賊,谷底の川に……！？<br>これじゃあ回収できねぇじゃねぇか……！,2028301,,chara_2
+message,盗賊,Into the river at the bottom...!? There's no way I can recover it<br>now...!<br> ,2028301,,chara_2
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -1117,7 +1117,7 @@ asyncseplay,setag1_32,se4800001,0,1,CONT,0
 asynccharaemo,chara_2,Anger,CONT,0
 
 
-message,盗賊,くっそ、諦めねえぞ……！<br>俺は絶対に、大金を掴んでやる……！,2028301,,chara_2
+message,盗賊,Damn it，I'm not giving up...! I'll get my fortune one way or<br>another...!<br> ,2028301,,chara_2
 
 
 window,off
@@ -1151,7 +1151,7 @@ waitorclick,2.5
 bgmplay,bgmtag1_4,bgm0033,0.75,1
 
 window,on,0.15
-message,,――とある草原地帯。山岳地帯から続く、緩やかな流れの川に、<br>額に角を生やした者たちの姿があった。
+message,,——In the grasslands. A gently flowing river from the mountains —<br>and by its banks，figures with horns upon their brows.<br> 
 
 window,off
 wait,0.15
@@ -1186,7 +1186,7 @@ asynccharaemo,chara_6,Trouble,CONT,0
 
 
 window,on,0.15
-message,鬼族A,ったく、なんでおれが洗濯の手伝いなんかしなきゃならねぇんだ。,402701000,,chara_6
+message,鬼族A,Geez，why do I have to help with the laundry?<br> ,402701000,,chara_6
 
 window,off
 wait,0.15
@@ -1235,7 +1235,7 @@ asynccharaemo,chara_7,Anger,CONT,0
 
 
 window,on,0.15
-message,鬼族B,文句言うんじゃないよ。<br>誰が汚した服だと思ってるんだい？,402801000,,chara_7
+message,鬼族B,Stop complaining. Whose clothes do you think got dirty?<br> ,402801000,,chara_7
 
 asynccharaface,chara_6,FaceSad,CONT,0
 
@@ -1254,7 +1254,7 @@ asyncseplay,setag1_36,se4800009,0,1,STOP,1.5
 asynccharaemo,chara_6,Question,STOP,1.5
 
 
-message,鬼族A,へいへい、わぁったよ……ん？　ありゃ、なんだ？<br>川の底に沈んでるやつ……石……にしては、妙にキラキラ光ってねぇか？,402701000,,chara_6
+message,鬼族A,Yeah yeah，I got it... hm? Hey，what's that?<br>Something on the riverbed... a stone，but — sparkling awful weird，no?<br> ,402701000,,chara_6
 
 asynccharaface,chara_7,EyeOpen,CONT,0
 asynccharaface,chara_7,FaceNormal,CONT,0
@@ -1266,7 +1266,7 @@ asyncseplay,setag1_37,se4800022,0,1,CONT,0
 asynccharaemo,chara_7,Speak,CONT,0
 
 
-message,鬼族B,おや、ほんとだ。なんだろうね？<br>……ちょっと見てみようか。,402801000,,chara_7
+message,鬼族B,Oh my，you're right. What could it be?<br>...Let's take a look.<br> ,402801000,,chara_7
 
 window,off
 wait,0.15
@@ -1302,7 +1302,7 @@ asynctransitionCrossFade,Tra03,0.5,STOP
 waitorclick,1
 
 window,on,0.15
-message,,怪しく煌めいたクリスタルを拾い上げる鬼族。<br>その光が導くのは希望か、災厄か。その未来は、まだ決まってはいない――
+message,,The oni-folk lifted the ominously gleaming crystal.<br>Hope or calamity — what lay ahead was still undecided——<br> 
 
 window,off
 bgmstop,bgmtag1_4,0.5

@@ -27,7 +27,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトルを設定してください
+title,Title
 
 wait,1
 
@@ -62,7 +62,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,クレハ,鬼ヶ島をプロデュース……つまり、鬼ヶ島のいいところを人間のみなさんに<br>知ってもらうには、紹介する側が鬼ヶ島を熟知してなければ話にならない――,105801000G,,chara_1
+message,クレハ,Promoting Oni Island — in order to let humans discover its charms，<br>those doing the promoting need to know it inside and out——<br> ,105801000G,,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -73,9 +73,9 @@ asyncseplay,setag1_2,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,クレハ,――ということでしたので、<br>まずは私が旦那様たちをご案内しますね♪,105801000G,,chara_1
+message,クレハ,——Which is why，first things first，<br>I'll be giving my darling a tour♪<br> ,105801000G,,chara_1
 
-message,<user>,ああ、よろしく頼む。
+message,<user>,Alright，I'm counting on you.<br> 
 
 window,off
 wait,0.15
@@ -129,9 +129,9 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,クレハ,まずはこちらが鬼ヶ島の象徴とも呼べる門です。<br>どうです？　鬼の頭が飾られていて、大迫力でしょうっ？,105801000G,,chara_1
+message,クレハ,First，this is Oni Island's symbol — the gate!<br>What do you think? Pretty intimidating with those oni heads，right?<br> ,105801000G,,chara_1
 
-message,<user>,大迫力……ではあるな。<br>むしろおどろおどろしいレベルだ。
+message,<user>,Intimidating is... one way to put it.<br>More like horrifying，honestly.<br> 
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -142,7 +142,7 @@ asyncseplay,setag1_4,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,シラエス,なるほど……これは趣深い。誰が住む集落かはっきりわかるし、<br>外敵への威嚇にもなる。一種の魔除けだろう。,106801000G,,chara_2
+message,シラエス,I see... quite fascinating. It makes clear who lives here，<br>serves as a deterrent to enemies. A sort of ward，I'd say.<br> ,106801000G,,chara_2
 
 window,off
 wait,0.15
@@ -207,7 +207,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,クレハ,え？　ま、魔除け……？<br>あの……歓迎の意味を込めているのですが……,105801000G,,chara_1
+message,クレハ,Hm? A-a ward...? Um... it's meant to convey a warm welcome...<br> ,105801000G,,chara_1
 
 window,off
 wait,0.15
@@ -272,9 +272,9 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,シラエス,…………。<br>なるほど、趣深い。,106801000G,,chara_2
+message,シラエス,............<br>I see. Quite fascinating.<br> ,106801000G,,chara_2
 
-message,<user>,ごまかせてないぞー。しかし、門をくぐった先にある灯篭まで<br>鬼の頭の形をしてるな。入り口からして物騒すぎるだろ。
+message,<user>,That's not a convincing cover. But even the lanterns past the gate<br>are shaped like oni heads. It's too ominous right from the entrance.<br> 
 
 window,off
 wait,0.15
@@ -325,7 +325,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,クレハ,さすがは旦那様、よくぞ気づかれました！　どうです、かっこいいでしょう？<br>鬼族はこういったおどろおどろしいものを、かっこいいと思う種族なのです！,105801000G,,chara_1
+message,クレハ,As expected of my darling! What do you think — cool，right?<br>The oni-folk are a people who find ominous things to be cool!<br> ,105801000G,,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -336,9 +336,9 @@ asyncseplay,setag1_10,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,クレハ,それにですね、この門。これには、ある仕掛けがございまして。<br>ささっ、こちら、鬼の頭の正面にお立ちください。,105801000G,,chara_1
+message,クレハ,And you see，this gate — it has a special mechanism!<br>Come，please stand right in front of the oni head.<br> ,105801000G,,chara_1
 
-message,<user>,ここか？
+message,<user>,Here?<br> 
 
 window,off
 wait,0.15
@@ -362,7 +362,7 @@ wait,0.5
 linework,on,Black,Middle
 
 window,on,0.15
-message,門の鬼飾りの声,『おぉぉぉぉぉ～～！！　悪い子はいねぇがぁぁ～～！！』,900000001
+message,門の鬼飾りの声,'Whooooo~~!! Are there any bad children out thereee~~!!'<br> ,900000001
 
 window,off
 wait,0.15
@@ -379,7 +379,7 @@ asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_5,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,<user>,しゃ、喋った……！？　それに鬼の目が光ったぞ！？
+message,<user>,I-it spoke...!? And the oni's eyes just lit up!?<br> 
 
 window,off
 wait,0.15
@@ -439,7 +439,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,シラエス,地獄の底から響いてくるような声だな。<br>盗賊が夜襲をかけようとしても、裸足で逃げていきそうだ。,106801000G,,chara_2
+message,シラエス,A voice that sounds like it rises from the depths of hell.<br>Any bandits planning a night raid would flee barefoot.<br> ,106801000G,,chara_2
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -450,7 +450,7 @@ asyncseplay,setag1_12,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,クレハ,うふふ、すごい仕掛けですよね？<br>鬼族の職人が腕によりをかけて作り、代々受け継いできたんです！,105801000G,,chara_1
+message,クレハ,Hehe，quite the mechanism，isn't it? Crafted by our<br>finest artisans and passed down through the generations!<br> ,105801000G,,chara_1
 
 window,off
 wait,0.15
@@ -495,9 +495,9 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,鬼族A,へっへっへ、今日も調子いいみたいだなぁ！<br>これで出迎えれば、人間の子供たちも喜んでくれるぜ！！,402701000,,chara_3
+message,鬼族A,Heh heh heh，working great today! Welcome guests with this<br>and the human kids'll love it!!<br> ,402701000,,chara_3
 
-message,<user>,喜ぶかぁっ！　怖すぎてギャン泣きするわ！！
+message,<user>,Love it!? They'll bawl their eyes out from pure terror!!<br> 
 
 asynccharaface,chara_3,FaceSurprise,CONT,0
 
@@ -510,9 +510,9 @@ asyncseplay,setag1_14,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,鬼族A,え……？　そうなの……？<br>……こんなにかっこいいのに？,402701000,,chara_3
+message,鬼族A,Huh...? Really...? ...But it's so cool?<br> ,402701000,,chara_3
 
-message,<user>,くっ……！　ダメだ、こいつら……！<br>人間と感覚が違い過ぎる……！
+message,<user>,Ugh...! It's hopeless... these guys...<br>They're just too different from humans...!<br> 
 
 window,off
 wait,0.15
@@ -563,9 +563,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,クレハ,え、えぇっと……だ、旦那様、鬼ヶ島には他にも魅力があるんですよ！<br>なんといっても温泉！　長旅の疲れを癒すにはぴったりです！,105801000G,,chara_1
+message,クレハ,U-um... d-darling，Oni Island has other charms too!<br>Hot springs! Perfect for soothing travel fatigue!<br> ,105801000G,,chara_1
 
-message,<user>,ほお？　それはいいな。客をもてなすのにぴったりじゃないか。<br>さっそく案内してくれるか？
+message,<user>,Oh? Now that's promising. Perfect for entertaining guests.<br>Take us there right away?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -577,7 +577,7 @@ asyncseplay,setag1_16,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,クレハ,はいっ、とぉってもいい泉質なんですよ～。<br>旦那様もぜひ、長旅の疲れを癒してくださいね♪,105801000G,,chara_1
+message,クレハ,Yes! The water quality is absolutely wonderful~.<br>Please，darling，let it wash away your travel fatigue♪<br> ,105801000G,,chara_1
 
 
 window,off
@@ -604,7 +604,7 @@ asynctransitionFade,Tra09,in,black,1,STOP,1
 waitorclick,2.5
 
 window,on,0.15
-message,<user>,……おい、クレハ。<br>これは……なんだ？
+message,<user>,...Hey，Kureha. This is... what exactly?<br> 
 
 window,off
 wait,0.15
@@ -643,9 +643,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,クレハ,何って、温泉ですよ？<br>旦那様が楽しみにされていた。,105801000G,,chara_1
+message,クレハ,What do you mean，it's a hot spring? The one you were looking forward<br>to.<br> ,105801000G,,chara_1
 
-message,<user>,……この、血みたいに真っ赤で、<br>グツグツと煮えたぎったものが、温泉……？
+message,<user>,...This blood-red，violently bubbling thing is... a hot spring...?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -656,7 +656,7 @@ asyncseplay,setag1_18,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,クレハ,はいっ。どうです、いい感じでしょう？<br>これが鬼ヶ島の名所、灼熱地獄温泉です♪,105801000G,,chara_1
+message,クレハ,Yes! How does it look? This is Oni Island's famous landmark:<br>the Scorching Hell Hot Spring♪<br> ,105801000G,,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -667,9 +667,9 @@ asyncseplay,setag1_19,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,クレハ,とっても気持ちいいので、せっかくですから入られてはいかがですか？<br>お背中、お流ししますよ～。,105801000G,,chara_1
+message,クレハ,It feels absolutely amazing，so how about a soak while you're here?<br>I'll even scrub your back~.<br> ,105801000G,,chara_1
 
-message,<user>,いやいやいや、絶対死ぬだろ！<br>いったい何度あるんだよ、そのお湯！
+message,<user>,No no no no，that would kill me! What temperature is that water!?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -680,7 +680,7 @@ asyncseplay,setag1_20,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,クレハ,今は……７３度ですね。,105801000G,,chara_1
+message,クレハ,Right now... 73 degrees.<br> ,105801000G,,chara_1
 
 window,off
 wait,0.15
@@ -735,9 +735,9 @@ asynccharaemo,chara_4,Laugh,CONT,0
 
 
 window,on,0.15
-message,鬼族B,なにさ、いい湯加減じゃないのよ。,402801000,,chara_4
+message,鬼族B,What's the fuss，that's a nice temperature.<br> ,402801000,,chara_4
 
-message,<user>,死・ぬ・わっ！！　どれだけ丈夫なんだよ、鬼族！？<br>それに名前も怖すぎるわ！！
+message,<user>,I'd — die — there!! How tough are you people!?<br>And that name is way too scary!!<br> 
 
 asynccharaface,chara_3,FaceSurprise,CONT,0
 
@@ -750,9 +750,9 @@ asyncseplay,setag1_22,se4800001,0,1,CONT,0
 asynccharaemo,chara_4,Anger,CONT,0
 
 
-message,鬼族B,見た目にピッタリの名前だってのに、<br>何が不満なのさ！,402801000,,chara_4
+message,鬼族B,The name fits perfectly，so what's your problem!<br> ,402801000,,chara_4
 
-message,<user>,あの世に直行させてどうする！<br>とことんずれてるな、鬼族は！
+message,<user>,That sends you straight to the afterlife! The oni-folk are<br>completely off-base!<br> 
 
 window,off
 wait,0.15
@@ -801,9 +801,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,クレハ,すみません、旦那様……。<br>やっぱり、プロデュースは難しいでしょうか……,105801000G,,chara_1
+message,クレハ,I'm sorry，darling... is promoting us<br>really that difficult...?<br> ,105801000G,,chara_1
 
-message,<user>,……早とちりするな。難しいが、無理だとは言ってない。<br>シラエス、どう思う？
+message,<user>,...Don't jump to conclusions. Hard，but not impossible.<br>Shiraes，what do you think?<br> 
 
 window,off
 wait,0.15
@@ -846,9 +846,9 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,シラエス,泉質自体はいいようだよ。<br>川の水か地下水を引き込んで温度を調整すれば、問題ないと思う。,106801000G,,chara_2
+message,シラエス,The water quality itself is quite good.<br>Mix in river or groundwater to adjust the heat，and it should work.<br> ,106801000G,,chara_2
 
-message,<user>,ほう？　確かに、硫黄の香りといい、温泉地らしい雰囲気もある。<br>ここまでの装飾も、そういう演出だと思えるように工夫すれば……いけるか？
+message,<user>,Hm. The sulfur smell，the atmosphere — there's something to work<br>with. If we reframe those decorations as part of the theme... could work?<br> 
 
 window,off
 wait,0.15
@@ -908,7 +908,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,……よし。クレハ、それに鬼族のみんなも聞いてくれ。<br>大仕事になるが、気張ってくれよ。まずはだな――
+message,<user>,...Alright. Kureha，and all the oni-folk too — listen up.<br>This'll be a big job，but give it your all. First off——<br> 
 
 window,off
 wait,0.15
@@ -940,7 +940,7 @@ asynctransitionCrossFade,Tra03,0.5,STOP
 waitorclick,1
 
 window,on,0.15
-message,,どうにも人間とズレた鬼族をプロデュースすべく、<br><user>は作戦を語り始めるのだった――
+message,,To promote these hopelessly out-of-sync oni-folk，<br>%user% began to lay out his plan——<br> 
 
 
 window,off
@@ -967,7 +967,7 @@ wait,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――翌日</size>,,,on
+messageTextCenter,,<size=48>——The next day.</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -993,11 +993,11 @@ waitorclick,2.5
 bgmplay,bgmtag1_2,bgm0024,0.75,1
 
 window,on,0.15
-message,,<user>は作戦の遂行状況を確認すべく、<br>人間と仲良くする方法を教える、青空シラエス教室へと向かっていた。
+message,,%user% set out to check progress at Shiraes's outdoor seminar:<br>lessons on befriending humans.<br> 
 
-message,<user>,さて……俺の方は順調だが、シラエスはうまくやってるだろうか。<br>人間と仲良くする方法には誰よりも詳しいはずなんだが……
+message,<user>,Well... my side is going smoothly，but I wonder about Shiraes.<br>She should know more about getting along with humans than anyone...<br> 
 
-message,<user>,こっちで青空教室を開くと言ってたけど……んん？<br>鬼族は集まってるが、みんな困った顔でぼーっとしてるな……？
+message,<user>,She said she'd open an outdoor class here，but... hmm?<br>The oni-folk are gathered，but they all have troubled，blank looks...<br> 
 
 window,off
 wait,0.15
@@ -1046,9 +1046,9 @@ asynccharaemo,chara_4,Dull,CONT,0
 
 
 window,on,0.15
-message,鬼族B,まいったな……どうしたもんかね、こりゃ。,402801000,,chara_4
+message,鬼族B,What are we gonna do... this is a problem.<br> ,402801000,,chara_4
 
-message,<user>,おい、どうして何もしていない？<br>何か問題でもあったのか？
+message,<user>,Hey，why isn't anything happening? Did something go wrong?<br> 
 
 asynccharaface,chara_4,FaceSurprise,CONT,0
 
@@ -1059,7 +1059,7 @@ asyncseplay,setag1_26,se4800007,0,1,CONT,0
 asynccharaemo,chara_4,Panic,CONT,0
 
 
-message,鬼族B,ああ、旦那かい。<br>いや、それがだね、シラエスの姐さんが……,402801000,,chara_4
+message,鬼族B,Oh，the Commander. Well，you see，big sis Shiraes...<br> ,402801000,,chara_4
 
 window,off
 wait,0.15
@@ -1108,7 +1108,7 @@ asynccharaemo,chara_2,Trouble,CONT,0
 
 
 window,on,0.15
-message,シラエス,ふむ……人間とどう接すれば仲良くなれるか、か……。<br>あれは……いや、違うか……ならばあれを……ふぅ～～む……,106801000G,,chara_2
+message,シラエス,Mm... how does one interact with humans to make friends...?<br>That... no，maybe not... then perhaps... hmm~~...<br> ,106801000G,,chara_2
 
 window,off
 wait,0.15
@@ -1163,9 +1163,9 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,鬼族B,もう、かれこれ５時間ほど、ああやって空を見上げて唸るばかりでね……。<br>あたいらもどうしたらいいかわからないんだ。,402801000,,chara_4
+message,鬼族B,She's been staring at the sky and muttering like that for<br>about 5 hours now... we don't know what to do either.<br> ,402801000,,chara_4
 
-message,<user>,第１回シラエス教室は１時間で終わる予定だっただろう！？<br>悩んでる間にどれだけオーバーするんだ、あいつは！
+message,<user>,The first Shiraes Seminar was supposed to end in one hour!<br>How far over is she going to run while she's thinking!?<br> 
 
 window,off
 wait,0.15
@@ -1207,7 +1207,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,おーい！　シラエス！　戻ってこーい！<br>悩んでる場合じゃないぞ！　さっさと授業を再開してくれ！
+message,<user>,Hey! Shiraes! Come back to us! This isn't the time for pondering!<br>Get the lesson going again，would you!<br> 
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -1218,7 +1218,7 @@ asyncseplay,setag1_29,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,シラエス,――うん、やはりこれに尽きるだろうな。<br>人間と仲良くなる方法……それは、同じ時を長く過ごすこと！,106801000G,,chara_2
+message,シラエス,——Mm，yes，this is what it comes down to. The way to make friends<br>with humans... is to spend a long time together!<br> ,106801000G,,chara_2
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -1229,7 +1229,7 @@ asyncseplay,setag1_30,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,シラエス,ふふふ、私にしてはすぐに答えを出せたな。<br>ずっと人間との触れ合いを学んできた成果だよ。,106801000G,,chara_2
+message,シラエス,Hehehe，quite fast for me to reach an answer.<br>The fruit of my years of studying human connection.<br> ,106801000G,,chara_2
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -1240,7 +1240,7 @@ asyncseplay,setag1_31,se4800018,0,1,CONT,0
 asynccharaemo,chara_2,Flower,CONT,0
 
 
-message,シラエス,そう、どんなに性格が違えども、１００年くらい一緒に過ごし、<br>同じ釜の飯を食えば仲良くなれるはず。,106801000G,,chara_2
+message,シラエス,Yes — no matter how different their personalities，100 years<br>of sharing a life and meals together should do it.<br> ,106801000G,,chara_2
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -1251,9 +1251,9 @@ asyncseplay,setag1_32,se4800019,0,1,CONT,0
 asynccharaemo,chara_2,Elated,CONT,0
 
 
-message,シラエス,どうかな？　名案だとは思わないか、司令官君？,106801000G,,chara_2
+message,シラエス,What do you think? Rather a good plan，don't you think，Commander-kun?<br> ,106801000G,,chara_2
 
-message,<user>,長時間考えてもらって悪いが……その計画には致命的な穴がある。<br>……俺たちの寿命は、そこまで長くはない。
+message,<user>,Sorry for making you think so long，but... there's a fatal flaw.<br>...Our lifespans aren't quite that long.<br> 
 
 asynccharaface,chara_2,FaceUnique02,CONT,0
 
@@ -1264,7 +1264,7 @@ asyncseplay,setag1_33,se4800017,0,1,CONT,0
 asynccharaemo,chara_2,Shock,CONT,0
 
 
-message,シラエス,んあぁぁぁ～～～っ！　そ、そうだったぁ～～っ！<br>なぜ私は、いつになってもエルフの時間感覚を正せないんだぁ～～～！,106801000G,,chara_2
+message,シラエス,Nnaahh~~~! R-right，that's right~~! Why can I never fix<br>my elven sense of time，no matter how long it's been~~~!<br> ,106801000G,,chara_2
 
 window,off
 wait,0.15
@@ -1329,7 +1329,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,クレハ,大丈夫ですっ！　シラエスママは一生懸命やってくれてます！<br>自分を卑下しないでください！,105801000G,,chara_1
+message,クレハ,You're doing wonderfully! Mama Shiraes is giving it everything!<br>Please don't be so hard on yourself!<br> ,105801000G,,chara_1
 
 asyncjump,CHARA,chara_4,-30,0.25,1,off,0,CONT
 
@@ -1338,7 +1338,7 @@ asyncseplay,setag1_35,se4800007,0,1,CONT,0
 asynccharaemo,chara_4,Panic,CONT,0
 
 
-message,鬼族B,そうだよ、姐さん！<br>あたいらもシラエスの姉御を信じてるよ！,402801000,,chara_4
+message,鬼族B,She's right，big sis! We all believe in you，Shiraes!<br> ,402801000,,chara_4
 
 window,off
 wait,0.15
@@ -1391,7 +1391,7 @@ asynccharaemo,chara_2,Twinkle,CONT,0
 
 
 window,on,0.15
-message,シラエス,き、君たちは……なんっって優しいんだぁ～！<br>本当に、本当にぃ、いい子たちばっかりだねぇ～～～！　好きだ～～～！,106801000G,,chara_2
+message,シラエス,Y-you all... how incredibly kind you are~~!<br>Truly，truly，you're all such good people~~~! I love you all~~~!<br> ,106801000G,,chara_2
 
 window,off
 wait,0.15
@@ -1456,7 +1456,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,クレハ,シラエスママっ！,105801000G,,chara_1
+message,クレハ,Mama Shiraes!<br> ,105801000G,,chara_1
 
 asyncshake,CHARA,chara_3,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1470,7 +1470,7 @@ asyncseplay,setag1_39,se4800004,0,1,CONT,0
 
 asynccharaemo,chara_4,Laugh,CONT,0
 
-message,鬼族たち,姉御～～～！,900000001
+message,鬼族たち,Big sis~~~!<br> ,900000001
 
 window,off
 wait,0.15
@@ -1484,7 +1484,7 @@ subimagefade,subimage_1,0,0.6235,0
 asynccrossfade,0.1,0,0,1,1,STOP
 
 window,on,0.15
-message,<user>,（もう仲良くなったのか、こいつら……いや、待てよ？<br>シラエスがこれだけ慕われてる理由――そこにヒントがあるんじゃないか？）
+message,<user>,(They're already friends... wait. Why is Shiraes<br>so beloved? There might be a hint in that.)<br> 
 
 
 
@@ -1532,7 +1532,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,シラエス、ちょっと聞きたいんだが、<br>お前は人間と接する時、何を考えている？
+message,<user>,Shiraes，can I ask — what are you thinking<br>when you interact with humans?<br> 
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -1543,9 +1543,9 @@ asyncseplay,setag1_40,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,シラエス,私か？　ふむ……別段、何も意識はしていないな。<br>ただ君たちを尊敬し、人間が大好きという気持ちを伝えているだけだ。,106801000G,,chara_2
+message,シラエス,Me? Mm... nothing in particular，I suppose.<br>I simply respect you all and convey my love for humans.<br> ,106801000G,,chara_2
 
-message,<user>,気持ちを伝える、か……うん、シンプルだが、<br>そういうことが大事なのかもしれないな。
+message,<user>,Conveying how you feel，huh... Simple，<br>but that might be what matters most.<br> 
 
 window,off
 wait,0.15
@@ -1588,9 +1588,9 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,クレハ,そういうこと……ですか？,105801000G,,chara_1
+message,クレハ,Is that... what it's about?<br> ,105801000G,,chara_1
 
-message,<user>,鬼族も、シラエスみたいに人間が大好きで、優しい心を持っている。<br>だったら――それを伝えるだけだ。策を練ればいいってもんじゃない。
+message,<user>,The oni-folk love humans and have kind hearts，just like Shiraes.<br>Then all that's needed is to convey that. Strategy isn't everything.<br> 
 
 window,off
 wait,0.15
@@ -1639,7 +1639,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,それについて、シラエスも交えてちょっと話そうか。<br>意外と、解決策は簡単なことかもしれないぞ？
+message,<user>,Let's talk it through，Shiraes included.<br>The solution might be simpler than you'd think.<br> 
 
 window,off
 wait,0.15
@@ -1669,7 +1669,7 @@ asynctransitionCrossFade,Tra03,0.5,STOP
 waitorclick,1
 
 window,on,0.15
-message,,鬼族の想いと、その伝え方を知った<user>。<br>彼の考えで、鬼ヶ島は大きく変化しようとしていた――
+message,,Having understood the oni-folk's feelings and how to express them，<br>%user%'s idea was about to bring great change to Oni Island——<br> 
 
 
 window,off
@@ -1696,7 +1696,7 @@ wait,1.5
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――数日後</size>,,,on
+messageTextCenter,,<size=48>——A few days later.</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -1772,7 +1772,7 @@ asyncseplay,setag1_44,se4800011,0,1,CONT,0
 asynccharaemo,chara_4,ExclaQues,CONT,0
 
 window,on,0.15
-message,,鬼ヶ島へと大勢の村人たちが向かってくるのを見て、<br>クレハたちは目を丸くした。
+message,,Kureha and the others stared wide-eyed as a large crowd of villagers<br>made their way toward Oni Island.<br> 
 
 window,off
 wait,0.15
@@ -1823,11 +1823,11 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,クレハ,す、すごい……！　あんなにたくさんの人たちが……！<br>旦那様、いったいどうやったのですか！？,105801000G,,chara_1
+message,クレハ,Th-this is incredible...! So many people...!<br>Darling，how on earth did you manage this!?<br> ,105801000G,,chara_1
 
-message,<user>,人を動かすのは得意でな。近隣の村に声をかけておいたんだ。<br>新しくできた観光地に無料で招待する。お土産もある――とな。
+message,<user>,Moving people is what I do. I reached out to nearby villages.<br>Free entry to a new tourist spot，plus souvenirs — that did it.<br> 
 
-message,<user>,最初は怪しんでいたが、結局はこの通りだ。<br>クックック――人間は無料という言葉に弱いからな！　俺の思った通りだ！
+message,<user>,They were suspicious at first，but here we are. Heh heh heh——<br>humans have a weakness for the word 'free'! Just as I thought!<br> 
 
 window,off
 wait,0.15
@@ -1884,7 +1884,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,シラエス,……鬼ヶ島っていうのを伏せてかい？　なんだか、騙してるようだな……。<br>私は君をそんな小悪党に育てた覚えはないぞ、司令官君。,106801000G,,chara_2
+message,シラエス,...You concealed it was Oni Island? That feels like deception...<br>I don't recall raising you to be a petty schemer，Commander-kun.<br> ,106801000G,,chara_2
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1895,9 +1895,9 @@ asyncseplay,setag1_47,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,クレハ,それでも……クレハは、旦那様がどんなに邪な心を持っていようと、<br>永遠に愛し続けます……！,105801000G,,chara_1
+message,クレハ,Even so... Kureha will love her darling forever，<br>no matter how wicked his heart may be...!<br> ,105801000G,,chara_1
 
-message,<user>,し、失敬なやつらだな……うまくいったんだからいいじゃねぇか。<br>それに見てみろ、鬼族たちの喜びようを！
+message,<user>,Y-you're all so rude... it worked，didn't it?<br>And just look at how happy the oni-folk are!<br> 
 
 window,off
 wait,0.15
@@ -1954,7 +1954,7 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,鬼族A,おおぉっ……！<br>おれたちの鬼ヶ島に、人間たちがあんなに遊びに来てくれてる……！,402701000,,chara_3
+message,鬼族A,Ohhh...! Humans are actually coming to visit<br>our Oni Island in droves...!<br> ,402701000,,chara_3
 
 asyncshake,CHARA,chara_4,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1963,7 +1963,7 @@ asyncseplay,setag1_49,se4800003,0,1,CONT,0
 asynccharaemo,chara_4,Twinkle,CONT,0
 
 
-message,鬼族B,こんな光景が見られるなんてね……！<br>夢みたいじゃないのさ、こんなの！,402801000,,chara_4
+message,鬼族B,To see a sight like this...! It's like a dream，isn't it!<br> ,402801000,,chara_4
 
 window,off
 wait,0.15
@@ -2022,7 +2022,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,シラエス,みんな、喜んでいるね。嘘も方便と思おう。<br>でも、ここからは鬼族のみんな次第だよ。,106801000G,,chara_2
+message,シラエス,Everyone's so happy. Let's call it a justified means.<br>But from here，it's up to the oni-folk.<br> ,106801000G,,chara_2
 
 window,off
 wait,0.15
@@ -2073,7 +2073,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,クレハ,シラエス様の言う通りです！　みなさん、まだ終わったわけじゃないですよ！<br>大切なのは、これからどうおもてなしするかです！,105801000G,,chara_1
+message,クレハ,Shiraes-sama is right! Everyone，it's not over yet!<br>What matters is how we welcome them from here!<br> ,105801000G,,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -2084,7 +2084,7 @@ asyncseplay,setag1_52,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,クレハ,絶対に成功させて、人間のみなさんと仲良くなりましょう！！,105801000G,,chara_1
+message,クレハ,Let's make this a success and become friends with humans!!<br> ,105801000G,,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -2095,7 +2095,7 @@ asyncseplay,setag1_53,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,クレハ,それではみんな、準備はいいですか？<br>せぇぇ～～～～のっ――！,105801000G,,chara_1
+message,クレハ,Alright everyone，are you ready? Here we go~~——!<br> ,105801000G,,chara_1
 
 window,off
 wait,0.15
@@ -2121,7 +2121,7 @@ asynctransitionCrossFade,Tra03,0.5,STOP
 waitorclick,1
 
 window,on,0.15
-message,鬼族たち,鬼ヶ島へようこそ～～～！！,900000001
+message,鬼族たち,Welcome to Oni Island~~~!!<br> ,900000001
 
 
 window,off
@@ -2174,7 +2174,7 @@ asyncjump,CHARA,chara_5,-30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,盗賊,……ここだな？　おれさまの宝が流れ着いたのは。<br>なぁにが鬼族だ。盗賊から宝を横取りしようなんて、そうはいくか……！,2028301,,chara_5
+message,盗賊,...This is where my treasure washed up. Oni-folk，huh.<br>Take a thief's loot? Not a chance...!<br> ,2028301,,chara_5
 
 window,off
 wait,0.15
@@ -2215,7 +2215,7 @@ linework,on,Black,Middle
 
 
 window,on,0.15
-message,盗賊,クリスタルは……おれのものだ！！,2028301,,chara_5
+message,盗賊,That crystal... is MINE!!<br> ,2028301,,chara_5
 
 window,off
 wait,0.15

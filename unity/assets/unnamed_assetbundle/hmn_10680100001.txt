@@ -25,7 +25,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
@@ -61,7 +61,7 @@ asynccharaemo,chara_2,Twinkle,CONT,0
 
 
 window,on,0.15
-message,アリシア,――というわけでっ！　高名なエルフの魔法使い、<br>シラエスさんがこの基地に来てくださることになりましたっ！,300201000,vc_10680100001_001_01,chara_2
+message,アリシア,——And so! The renowned elf mage，<br>Shiraes-san，will be joining our base!<br> ,300201000,vc_10680100001_001_01,chara_2
 
 window,off
 wait,0.15
@@ -71,7 +71,7 @@ charafocusonall
 linework,off,Black,Middle
 
 window,on,0.15
-message,<user>,へー？
+message,<user>,Oh yeah?<br> 
 
 window,off
 wait,0.15
@@ -115,9 +115,9 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,アリシア,シラエスさんは冒険者としても勇名を馳せている上に、<br>その幅広い知識を惜しみなく人々に与える、慈愛のエルフなのですっ！,300201000,vc_10680100001_002_01,chara_2
+message,アリシア,Not only is she a celebrated adventurer，<br>she freely shares her knowledge — a truly compassionate elf!<br> ,300201000,vc_10680100001_002_01,chara_2
 
-message,<user>,ほーん？
+message,<user>,Hm?<br> 
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -128,11 +128,11 @@ asyncseplay,setag1_3,se4800009,0,1,CONT,0
 asynccharaemo,chara_2,Question,CONT,0
 
 
-message,アリシア,……あの、誇張ではなく本当にすごい方なんですけど。<br>どうしてそんなに盛り下がってるんですか……？,300201000,vc_10680100001_003_01,chara_2
+message,アリシア,...Um，I'm not exaggerating — she's truly incredible.<br>Why aren't you more excited...?<br> ,300201000,vc_10680100001_003_01,chara_2
 
-message,<user>,シラエスってのがすんごいエルフなのは分かった。<br>いいヤツらしいってこともな。
+message,<user>,I get it — Shiraes is an incredible elf.<br>Sounds like a good person too.<br> 
 
-message,<user>,――で、そのエルフが家を出発するのは何ヶ月後だ？<br>この基地に到着するまで何年かかる？
+message,<user>,——So how many months before this elf even<br>leaves home? How many years to get here?<br> 
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -143,9 +143,9 @@ asyncseplay,setag1_4,se4800017,0,1,CONT,0
 asynccharaemo,chara_2,Shock,CONT,0
 
 
-message,アリシア,え、ええっ……！？,300201000,vc_10680100001_004_01,chara_2
+message,アリシア,Wh-what...!?<br> ,300201000,vc_10680100001_004_01,chara_2
 
-message,<user>,エルフってのはそういう時間感覚で生きてるんだよ。<br>寿命の桁が違うんだ、こればっかりはどうしようもない。
+message,<user>,That's just how elves experience time.<br>Their lifespans are on a whole different scale.<br> 
 
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
@@ -154,9 +154,9 @@ asyncseplay,setag1_5,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,アリシア,い、いえあの、司令官……,300201000,vc_10680100001_005_01,chara_2
+message,アリシア,W-well，um，Commander...<br> ,300201000,vc_10680100001_005_01,chara_2
 
-message,<user>,ま、世界が滅びる前に会えることを祈るとするさ――ん？<br>どうしたんだ、アリシア？
+message,<user>,Well，here's hoping I meet her before<br>the world ends—— hm? What's wrong，Alicia?<br> 
 
 asyncshake,CHARA,chara_2,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -165,9 +165,9 @@ asyncseplay,setag1_6,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,アリシア,その、エルフのシラエスさん……なんですが……、<br>もういらっしゃってます……,300201000,vc_10680100001_006_01,chara_2
+message,アリシア,Um，about Shiraes-san，the elf...<br>she's... already here...<br> ,300201000,vc_10680100001_006_01,chara_2
 
-message,<user>,……は？
+message,<user>,...Huh?<br> 
 
 window,off
 wait,0.15
@@ -210,7 +210,7 @@ asynccharamove,chara_1,EaseOut,X,-100,0.3,CONT,0
 asyncwait
 
 window,on,0.15
-message,,ふわりとスカートをひるがえし、<br>長い杖を携えた美しいエルフが司令室に足を踏み入れた。
+message,,A beautiful elf，her skirt swirling lightly，<br>stepped into the command room with a long staff in hand.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -221,9 +221,9 @@ asyncseplay,setag1_8,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,シラエス,やあ、はじめまして。<br>私はシラエスだ。よろしく、司令官君。,106801000G,vc_10680100001_007_01,chara_1
+message,シラエス,Well now. Nice to meet you.<br>I'm Shiraes. A pleasure，Commander-kun.<br> ,106801000G,vc_10680100001_007_01,chara_1
 
-message,<user>,うおおっ！？　本当にいるっ！？<br>わ、悪い、失礼なことを言ったな。
+message,<user>,Whoa...!? She's actually here...!?<br>S-sorry，I said some rude things.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -234,9 +234,9 @@ asyncseplay,setag1_9,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シラエス,むしろすまないな。<br>私たちエルフがのんびり屋さんなせいで、君に心配をかけたみたいだ。,106801000G,vc_10680100001_008_01,chara_1
+message,シラエス,If anything，I should apologize.<br>It seems us elves worried you with our leisurely ways.<br> ,106801000G,vc_10680100001_008_01,chara_1
 
-message,<user>,いやいや、謝ることないって。<br>しかし、なぜわざわざ前線基地に来てくれたんだ？
+message,<user>,No no，don't apologize.<br>But why come to the forward base of all places?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -247,7 +247,7 @@ asyncseplay,setag1_10,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,シラエス,何を隠そう、私は人間が大好きでね。<br>普段から人々と交流するため、各地を放浪しているんだ。,106801000G,vc_10680100001_009_01,chara_1
+message,シラエス,Truth be told，I'm rather fond of humans.<br>I wander the land to mingle with people.<br> ,106801000G,vc_10680100001_009_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -258,9 +258,9 @@ asyncseplay,setag1_11,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,シラエス,この基地を知ったのはただの偶然だ。<br>ふらっと来てみただけで、特に理由はない。,106801000G,vc_10680100001_010_01,chara_1
+message,シラエス,I came across this base by chance.<br>Just wandered in — no particular reason.<br> ,106801000G,vc_10680100001_010_01,chara_1
 
-message,<user>,えぇ……たまたま近くにいたから寄ってみた、っていうのか？<br>そんな酒場みたいなノリで最前線に来られてもなあ……
+message,<user>,You... just happened to be nearby and stopped in?<br>This isn't a tavern，it's the front line...<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -271,7 +271,7 @@ asyncseplay,setag1_12,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,シラエス,まあまあ。世界の危機ということは、すなわち人間の危機だろう？<br>しばらくは大穴の調査に協力させてもらうよ。,106801000G,vc_10680100001_011_01,chara_1
+message,シラエス,Now now. A crisis for the world means<br>a crisis for humans，yes? I'll help with the Abyss.<br> ,106801000G,vc_10680100001_011_01,chara_1
 
 window,off
 wait,0.15
@@ -315,9 +315,9 @@ asynccharaemo,chara_2,Twinkle,CONT,0
 
 
 window,on,0.15
-message,アリシア,や、やりましたね！<br>シラエスさんの協力を得られるなんて、本当に奇跡ですよ……！,300201000,vc_10680100001_012_01,chara_2
+message,アリシア,W-we did it! Having Shiraes-san on our side<br>is nothing short of a miracle...!<br> ,300201000,vc_10680100001_012_01,chara_2
 
-message,<user>,うーん……もうちょっとこう、使命感とか、正義の心とか、<br>そういう理由で参加してほしいもんだがなあ……
+message,<user>,Hmm... I'd have liked a bit more，y'know，<br>sense of duty or righteous spirit as a reason...<br> 
 
 asynccharaface,chara_2,FaceUnique03,CONT,0
 
@@ -328,7 +328,7 @@ asyncseplay,setag1_14,se4800016,0,1,CONT,0
 asynccharaemo,chara_2,BePeevish,CONT,0
 
 
-message,アリシア,司令官にないものを人に求めてどうするんですかっ！,300201000,vc_10680100001_013_01,chara_2
+message,アリシア,Why demand of others what you lack yourself?!<br> ,300201000,vc_10680100001_013_01,chara_2
 
 window,off
 wait,0.15
@@ -382,9 +382,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,シラエス,いいんだ、初対面のエルフを疑うのは無理のないことだ。<br>責任ある立場なら当然のことだな。,106801000G,vc_10680100001_014_01,chara_1
+message,シラエス,It's fine. Doubting a stranger elf is only natural.<br>In a position of responsibility — that's just how it should be.<br> ,106801000G,vc_10680100001_014_01,chara_1
 
-message,<user>,……本当に人間に理解のあるエルフだな、シラエス……
+message,<user>,...You really do understand humans，don't you，Shiraes...<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -395,9 +395,9 @@ asyncseplay,setag1_16,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,シラエス,ふふ、そうだろう？　まあ、君に信頼されるまでゆっくり待とう。<br>何十年……何百年、何千年だろうとな。,106801000G,vc_10680100001_015_01,chara_1
+message,シラエス,Hehe，that's right. I'll wait patiently until you trust me.<br>Decades... centuries，millennia — however long it takes.<br> ,106801000G,vc_10680100001_015_01,chara_1
 
-message,<user>,俺の寿命が先に尽きるんだが？
+message,<user>,I'll run out of lifespan first，you know.<br> 
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -409,11 +409,11 @@ asyncseplay,setag1_17,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,アリシア,あ、あはは……時間感覚は、やっぱりエルフなんですね……,300201000,vc_10680100001_016_01,chara_2
+message,アリシア,A-ahaha... she really does have an elf's sense of time...<br> ,300201000,vc_10680100001_016_01,chara_2
 
-message,<user>,悪いが俺はそんなに待てないぞ。<br>シラエスがどのぐらい信頼できるのか、さっさと確かめたい。
+message,<user>,Sorry，but I can't wait that long.<br>I want to find out how reliable you are，and fast.<br> 
 
-message,<user>,確か、森でゴブリンの姿を見たって報告があったな？
+message,<user>,There was a report of goblins spotted in the forest，wasn't there?<br> 
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -428,7 +428,7 @@ asynccharaemo,chara_2,Shock,CONT,0
 wait,0.5
 
 
-message,アリシア,はい――え、まさか……,300201000,vc_10680100001_017_01,chara_2
+message,アリシア,Yes—— wait，you can't possibly...<br> ,300201000,vc_10680100001_017_01,chara_2
 
 window,off
 wait,0.15
@@ -475,9 +475,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,シラエス,腕試し、ということかな？,106801000G,vc_10680100001_018_01,chara_1
+message,シラエス,A test of my abilities，is it?<br> ,106801000G,vc_10680100001_018_01,chara_1
 
-message,<user>,やってくれるか、シラエス。
+message,<user>,Would you handle it，Shiraes?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -488,7 +488,7 @@ asyncseplay,setag1_20,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,シラエス,基地の近くにモンスターだなんて、いつ人間を襲いに来ることか。<br>もちろん、やらせてもらうよ。,106801000G,vc_10680100001_019_01,chara_1
+message,シラエス,Monsters near the base — who knows when they might<br>attack the humans here. Of course I'll do it.<br> ,106801000G,vc_10680100001_019_01,chara_1
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -536,7 +536,7 @@ asynccharamove,chara_1,EaseOut,X,-100,0.3,CONT,0
 asyncwait
 
 window,on,0.15
-message,<user>,――この入り組んだ森でゴブリンを見つけるのは、<br>ちょっと苦労しそうだな。
+message,<user>,——Finding goblins in this dense forest<br>won't be easy.<br> 
 
 window,off
 wait,0.15
@@ -553,9 +553,9 @@ wait,0.5
 
 
 window,on,0.15
-message,シラエス,ゴブリンは悪賢いモンスターだ。<br>隠れ潜んでいるかもしれないな。,106801000G,vc_10680100001_020_01,chara_1
+message,シラエス,Goblins are cunning creatures.<br>They may well be in hiding.<br> ,106801000G,vc_10680100001_020_01,chara_1
 
-message,<user>,ああ、報告書によればかなり賢い種らしい。<br>どうしたもんかな。
+message,<user>,Yeah，the report says they're a clever species.<br>Not sure what to do about that.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -566,7 +566,7 @@ asyncseplay,setag1_22,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,シラエス,ふふ、心配はいらない。<br>私に任せておくといい。,106801000G,vc_10680100001_021_01,chara_1
+message,シラエス,Hehe. No need to worry.<br>Leave it to me.<br> ,106801000G,vc_10680100001_021_01,chara_1
 
 window,off
 wait,0.15
@@ -582,7 +582,7 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,<user>,シラエス……？
+message,<user>,Shiraes...?<br> 
 
 window,off
 wait,0.15
@@ -626,7 +626,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,,シラエスは穏やかなエルフの瞳で、ゆるりと周囲を見回した。<br>ゆっくりと足を進め、大木の下の湿った土、藪と藪の隙間と観察していく。
+message,,Shiraes surveyed her surroundings with calm elven eyes，<br>moving slowly — reading the damp soil，the gaps between thickets.<br> 
 
 window,off
 wait,0.15
@@ -694,9 +694,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,シラエス,うん……ちょっと知恵はあるようだけど、大した相手じゃない。,106801000G,vc_10680100001_022_01,chara_1
+message,シラエス,Mm... they have some cunning，but they're no great threat.<br> ,106801000G,vc_10680100001_022_01,chara_1
 
-message,<user>,何か分かったのか？
+message,<user>,Learn something?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -707,7 +707,7 @@ asyncseplay,setag1_24,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,シラエス,足跡に気をつける知恵はあるようだが、<br>こうして湿った場所には痕跡が残ってる。,106801000G,vc_10680100001_023_01,chara_1
+message,シラエス,They're clever enough to hide their tracks，<br>but traces still show in wet ground like this.<br> ,106801000G,vc_10680100001_023_01,chara_1
 
 asyncjump,CHARA,chara_1,-30,0.5,2,off,0,CONT
 
@@ -716,7 +716,7 @@ asyncseplay,setag1_25,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,シラエス,進んでいるのは歩きやすい獣道だね。<br>ほら、藪と藪の間に跡があるだろう？,106801000G,vc_10680100001_024_01,chara_1
+message,シラエス,They're moving along the easiest animal trail.<br>See those marks between the thickets?<br> ,106801000G,vc_10680100001_024_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -727,9 +727,9 @@ asyncseplay,setag1_26,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,シラエス,これだけ分かれば追いかけるのは簡単だ。<br>痕跡が途切れた場所を探すといい。きっと近くに潜んでいるだろう。,106801000G,vc_10680100001_025_01,chara_1
+message,シラエス,Knowing this，following them is easy. Find where the<br>trail ends — they'll be hiding somewhere nearby.<br> ,106801000G,vc_10680100001_025_01,chara_1
 
-message,<user>,さ、流石だな……。<br>魔法使いだってのに、狩人も顔負けじゃないか。
+message,<user>,I-impressive... You're a mage，yet you'd put<br>any hunter to shame.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -740,9 +740,9 @@ asyncseplay,setag1_27,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,シラエス,大したことはないよ。何百年も冒険者をやっていれば、<br>これくらいのことは誰でもできるようになる。,106801000G,vc_10680100001_026_01,chara_1
+message,シラエス,It's nothing. After centuries as an adventurer，<br>anyone could pick this up.<br> ,106801000G,vc_10680100001_026_01,chara_1
 
-message,<user>,人間は何百年も冒険者ができないんだよ。<br>闇雲に戦っているだけで、知識のないやつも多いし……
+message,<user>,Humans can't be adventurers for centuries.<br>Most just fight blindly，with no real knowledge...<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -751,9 +751,9 @@ asyncseplay,setag1_28,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,シラエス,まあ私は冒険者になる前、千年くらいは森にこもって本を読んでいたからね。<br>確かに、並みの冒険者より知識はあるだろう。,106801000G,vc_10680100001_027_01,chara_1
+message,シラエス,Well，before I became an adventurer I spent roughly<br>a thousand years reading in a forest. So yes，I'd know more.<br> ,106801000G,vc_10680100001_027_01,chara_1
 
-message,<user>,せん、ねん……。<br>何年生きてるんだよ、シラエス……
+message,<user>,A th-thousand years... Just how long have<br>you been alive，Shiraes...<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -764,9 +764,9 @@ asyncseplay,setag1_29,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,シラエス,ふっ、女性に年齢を聞くとは……。<br>君もまだまだ子どもだな？,106801000G,vc_10680100001_028_01,chara_1
+message,シラエス,Heh. Asking a woman her age...<br>You're still quite the child，aren't you?<br> ,106801000G,vc_10680100001_028_01,chara_1
 
-message,<user>,うっ……ぐぅ……
+message,<user>,Ugh... ngh...<br> 
 
 window,off
 wait,0.15
@@ -781,7 +781,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（見た目は小さいけど、すごい余裕と安心感だ。<br>子ども扱いされてるってのに腹が立たないし、なんか照れくさい……）
+message,<user>,(She's small，yet so incredibly at ease...<br>Getting treated like a kid and I can't even get mad. How strange...)<br> 
 
 window,off
 wait,0.15
@@ -796,7 +796,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,いいさ、笑うなら笑え！<br>気になるだろ、シラエスがどれだけ生きてるのかって！
+message,<user>,Go ahead and laugh! Anyone would be curious<br>how long Shiraes has actually lived!<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -807,7 +807,7 @@ asyncseplay,setag1_30,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,シラエス,そんなに興味を持ってもらえると悪い気はしないな。<br>別に隠すほどのものでもないし……ええっと、いくつだったか……,106801000G,vc_10680100001_029_01,chara_1
+message,シラエス,It's not bad to be so curious about me.<br>I don't mind telling... hmm，how old was I...<br> ,106801000G,vc_10680100001_029_01,chara_1
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -818,7 +818,7 @@ asyncseplay,setag1_31,se4800014,0,1,CONT,0
 
 asynccharaemo,chara_1,Silence,CONT,0
 
-message,,シラエスは足を止め、うんうんと考え始める。
+message,,Shiraes stopped walking and began to think，hmm-ing to herself.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -827,7 +827,7 @@ asyncseplay,setag1_32,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,シラエス,うぅ～～ん、えっと……ん～……,106801000G,vc_10680100001_030_01,chara_1
+message,シラエス,Hmm~~，let me see... mm~...<br> ,106801000G,vc_10680100001_030_01,chara_1
 
 window,off
 wait,0.15
@@ -851,7 +851,7 @@ fade,In,Black,0
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――考えること、５分</size>,,,on
+messageTextCenter,,<size=48>——Five minutes pass.</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -888,7 +888,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 
 window,on,0.15
-message,シラエス,そう、あの漁師と魚を捕りに行ったのが、２００年ぐらい前で。<br>そこから考えると……うん、だから……いや、違うか……？,106801000G,vc_10680100001_031_01,chara_1
+message,シラエス,Right，going fishing with that fisherman was about 200 years ago.<br>So counting from there... mm，that means... no，wait...?<br> ,106801000G,vc_10680100001_031_01,chara_1
 
 window,off
 wait,0.15
@@ -910,7 +910,7 @@ fade,In,Black,0
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――考えること、３０分</size>,,,on
+messageTextCenter,,<size=48>——Thirty minutes pass.</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -947,7 +947,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,シラエス,私が冒険者を始めたのは、４００年前の事件が……いや、そうじゃないか。<br>その前にも確か……いや、あれはまだ冒険を始める前か……？,106801000G,vc_10680100001_032_01,chara_1
+message,シラエス,My adventuring began after something 400 years ago... or did it?<br>There was something before... no，was I still in the forest...?<br> ,106801000G,vc_10680100001_032_01,chara_1
 
 window,off
 wait,0.15
@@ -969,7 +969,7 @@ fade,In,Black,0
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――考えること、さらに――</size>,,,on
+messageTextCenter,,<size=48>——And still more time passes——</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -1006,9 +1006,9 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,シラエス,ん～～、確かぁぁぁ～～～～……,106801000G,vc_10680100001_033_01,chara_1
+message,シラエス,Mm~~，I'm fairly certa~~in...<br> ,106801000G,vc_10680100001_033_01,chara_1
 
-message,<user>,ああー、もういいっ！<br>日が暮れるだろうがっ！
+message,<user>,Alright，enough! The sun's going to set!<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1019,7 +1019,7 @@ asyncseplay,setag1_36,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,シラエス,おっと、失礼。君の貴重な時間を奪ってしまったな。<br>すまない、どうしても考え事をしていると時間を忘れてしまうんだ。,106801000G,vc_10680100001_034_01,chara_1
+message,シラエス,Oh，my apologies. I wasted your precious time.<br>Sorry — whenever I lose myself in thought，I lose track of time.<br> ,106801000G,vc_10680100001_034_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1030,9 +1030,9 @@ asyncseplay,setag1_37,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シラエス,エルフよりも寿命が少ない人間にとって、<br>時間は大切なものだと分かっているつもりなんだが……,106801000G,vc_10680100001_035_01,chara_1
+message,シラエス,I know that time is precious for humans，<br>with so much less of it than elves... and yet.<br> ,106801000G,vc_10680100001_035_01,chara_1
 
-message,<user>,いや、聞いたこっちも悪かったよ。<br>……シラエス、本当に俺たちの時間感覚を理解してるんだな。
+message,<user>,No，I shouldn't have asked either.<br>...Shiraes，you really do understand our sense of time.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1043,7 +1043,7 @@ asyncseplay,setag1_38,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,シラエス,ふふ、人間が大好きだと言っただろう？<br>ちゃんと分かっていなければ、一緒に過ごすことなんてできないさ。,106801000G,vc_10680100001_036_01,chara_1
+message,シラエス,Hehe. I did say I love humans，didn't I?<br>If I didn't truly understand，I couldn't spend time with them.<br> ,106801000G,vc_10680100001_036_01,chara_1
 
 
 window,off
@@ -1105,7 +1105,7 @@ asynccharaemo,chara_5,Laugh,CONT,0
 asyncwait
 
 window,on,0.15
-message,<user>,いた……！　ゴブリンだ！<br>あんな奥まった場所に……こりゃ俺１人じゃ気付けなかったな。
+message,<user>,There...! A goblin! Way in that far corner...<br>I never would've spotted that on my own.<br> 
 
 window,off
 wait,0.15
@@ -1153,9 +1153,9 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,シラエス,司令官君、そこでストップだ。,106801000G,vc_10680100001_037_01,chara_1
+message,シラエス,Commander-kun，stop right there.<br> ,106801000G,vc_10680100001_037_01,chara_1
 
-message,<user>,ん？　何で……――っ！？
+message,<user>,Hm? Why——...!?<br> 
 
 window,off
 wait,0.15
@@ -1174,9 +1174,9 @@ wait,0.5
 
 
 window,on,0.15
-message,シラエス,気付いたようだね。そう。罠が仕掛けられている。<br>間違いなく落とし穴――おそらくは、中に動きを止めるような仕掛けも。,106801000G,vc_10680100001_038_01,chara_1
+message,シラエス,Good，you noticed. Yes — there's a trap set here.<br>A pit，certainly — likely with something inside to immobilize.<br> ,106801000G,vc_10680100001_038_01,chara_1
 
-message,<user>,参ったな、罠の解除なんて俺にはできないぞ。
+message,<user>,Great... I can't disarm a trap.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1187,9 +1187,9 @@ asyncseplay,setag1_44,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,シラエス,ああ、でも心配ない。<br>これだけ近づいた時点で、もう私たちの勝ちだ。,106801000G,vc_10680100001_039_01,chara_1
+message,シラエス,Don't worry. The moment we got this close，<br>we already won.<br> ,106801000G,vc_10680100001_039_01,chara_1
 
-message,<user>,お、おい？　どうする気だ？
+message,<user>,H-hey? What are you planning?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1200,7 +1200,7 @@ asyncseplay,setag1_45,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,シラエス,君の信頼に値する腕があるのかどうか。<br>しっかりと見ていてくれ。,106801000G,vc_10680100001_040_01,chara_1
+message,シラエス,Whether or not I'm worthy of your trust.<br>Keep your eyes open.<br> ,106801000G,vc_10680100001_040_01,chara_1
 
 window,off
 wait,0.15
@@ -1242,7 +1242,7 @@ asyncseplay,setag1_46,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 window,on,0.15
-message,,シラエスはゆらりと杖を振ると、くるりと回して罠の方角へと向けた。<br>その先にいるゴブリンに狙いをつけるように、意識を集中し――
+message,,Shiraes swayed her staff，then swung it around toward the trap.<br>Focusing her mind，taking aim at the goblins beyond——<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1253,7 +1253,7 @@ asyncseplay,setag1_47,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,シラエス,――ドン、とね。,106801000G,vc_10680100001_041_01,chara_1
+message,シラエス,——Boom.<br> ,106801000G,vc_10680100001_041_01,chara_1
 
 window,off
 wait,0.15
@@ -1285,7 +1285,7 @@ emodelete,chara_1,0,0
 transitionFade,Tra21,in,white,0
 
 window,on,0.15
-message,<user>,うわあぁぁぁっ！？
+message,<user>,Whuaaaah!?<br> 
 
 window,off
 wait,0.15
@@ -1364,9 +1364,9 @@ emodelete,chara_5,0,0
 fade,In,White,0
 
 window,on,0.15
-message,,視界の先が白く輝き、<br>一瞬遅れて猛烈な爆風が吹き上がる。
+message,,The horizon blazed white，<br>and a split second later，a tremendous shockwave erupted.<br> 
 
-message,,それは決して特別な魔法ではなかった。<br>だがシラエスの圧倒的な魔力が炸裂した、その先には――
+message,,It was no special spell.<br>Yet the point where Shiraes's overwhelming power exploded——<br> 
 
 window,off
 wait,0.15
@@ -1407,9 +1407,9 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,シラエス,これで全部綺麗になった。<br>感想はどうかな、司令官君？,106801000G,vc_10680100001_042_01,chara_1
+message,シラエス,That should clean things up nicely.<br>Well，Commander-kun? Thoughts?<br> ,106801000G,vc_10680100001_042_01,chara_1
 
-message,<user>,すごい……間違いなくすごいんだ、けど……
+message,<user>,Amazing... it's undeniably amazing，but...<br> 
 
 window,off
 wait,0.15
@@ -1424,7 +1424,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（このやることが大雑把な感じ、<br>やっぱりエルフだな……！）
+message,<user>,(That rough-and-ready approach to everything... yep，total elf move.)<br> 
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -1471,7 +1471,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,悪かったな、疑って。<br>シラエスの実力も、人間を愛してるって気持ちも、嘘じゃなかった。
+message,<user>,Sorry for doubting you. Your skill，<br>and your love for humans — none of it was a lie.<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -1480,7 +1480,7 @@ asyncseplay,setag1_51,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,シラエス,ん……ふふ、そうか。<br>何も思ってはいなかったが、そう言ってくれると嬉しいな。,106801000G,vc_10680100001_043_01,chara_1
+message,シラエス,Mm... hehe，is that so. I hadn't given it a thought，<br>but hearing you say that makes me happy.<br> ,106801000G,vc_10680100001_043_01,chara_1
 
 window,off
 wait,0.15
@@ -1514,13 +1514,13 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,シラエス,それに、素直に謝れるのはいい子の証だよ。<br>よしよし――,106801000G,vc_10680100001_044_01,chara_1
+message,シラエス,And being able to apologize honestly is proof<br>you're a good boy. There，there——<br> ,106801000G,vc_10680100001_044_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
-message,<user>,やめい、撫でるなっ！<br>見た目は小さいのになんか違和感がなくて、変な気分になるんだよっ！
+message,<user>,Stop，don't pat my head! You're small，but somehow<br>it doesn't feel weird at all，and that's just strange!<br> 
 
 window,off
 wait,0.15
@@ -1554,9 +1554,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,シラエス,ふむ、残念だな。,106801000G,vc_10680100001_045_01,chara_1
+message,シラエス,Hmm. A shame.<br> ,106801000G,vc_10680100001_045_01,chara_1
 
-message,<user>,……勝手な話だけど、シラエスは信頼できると思う。<br>良かったらこの基地に力を貸してくれないか。
+message,<user>,...This might be presumptuous，but I trust you，Shiraes.<br>If you're willing，would you lend your strength to this base?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1567,9 +1567,9 @@ asyncseplay,setag1_54,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,シラエス,もちろん構わないよ。最初からそのつもりだったからね。<br>最初に言ったように、しばらくは手を貸すよ。,106801000G,vc_10680100001_046_01,chara_1
+message,シラエス,Of course. That was my intention from the start.<br>As I said — I'll lend my hand for a while.<br> ,106801000G,vc_10680100001_046_01,chara_1
 
-message,<user>,できれば末永く頼みたいんだが……。<br>しばらくってのは、どのぐらいなんだ？
+message,<user>,I'd like you around for a long time if possible...<br>So how long is 'a while' exactly?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1580,7 +1580,7 @@ asyncseplay,setag1_55,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,シラエス,さて、ね……。ただ、エルフの言うしばらくは……<br>君たちには、きっと長いぞ？,106801000G,vc_10680100001_047_01,chara_1
+message,シラエス,Well，now... 'a while' by elven standards...<br>is probably quite long for you，I'd wager.<br> ,106801000G,vc_10680100001_047_01,chara_1
 
 window,off
 wait,0.15
@@ -1596,7 +1596,7 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,,シラエスは不敵に微笑んで、前線基地へと足を進めた。
+message,,Shiraes smiled with quiet confidence and walked toward the forward<br>base.<br> 
 
 window,off
 wait,0.15
@@ -1611,7 +1611,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（エルフのしばらく、ね。<br>俺の寿命がなくなるぐらいまで、ずっといてくれそうだな……）
+message,<user>,(An elf's 'a while，' huh.<br>She just might stay until I've used up my last breath...)<br> 
 
 window,off
 bgmstop,bgmtag1_3,0.5

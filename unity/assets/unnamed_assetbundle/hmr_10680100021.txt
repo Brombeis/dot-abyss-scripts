@@ -15,7 +15,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
@@ -43,7 +43,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,,娼館の衣装を身に着けたシラエス。<br>自身の姿を見下ろしつつ、らしくなく照れていた。
+message,,Shiraes wore the brothel outfit，glancing down at herself<br>with an uncharacteristic flush of embarrassment.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -54,7 +54,7 @@ asyncseplay,setag1_2,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,シラエス,――やはりこの格好は慣れないな。<br>普段の装束も薄着だけど、ここまでではないし……,106801000X,vc_10680100021_001_01,chara_1
+message,シラエス,——I can't quite get used to this outfit.<br>My usual clothes are light，but not this revealing...<br> ,106801000X,vc_10680100021_001_01,chara_1
 
 window,off
 wait,0.15
@@ -80,7 +80,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,シラエス,（だが、娼館の仕事は司令官君の助けになるからな。<br>それに、人をより深く知ることにも繋がる）,106801000X,vc_10680100021_002_01,chara_1
+message,シラエス,(But working at the brothel helps Commander-kun.<br>And it connects me to knowing people more deeply.)<br> ,106801000X,vc_10680100021_002_01,chara_1
 
 window,off
 wait,0.15
@@ -98,7 +98,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,シラエス,（多少恥ずかしくとも、仕方ないだろう。<br>早速、客を迎え入れるとしようか……）,106801000X,vc_10680100021_003_01,chara_1
+message,シラエス,(A bit embarrassing，but it can't be helped.<br>Time to welcome the first guest...)<br> ,106801000X,vc_10680100021_003_01,chara_1
 
 
 window,off
@@ -138,9 +138,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,シラエス,ふむ……疲れてしまって１週間仕事を休んでいる、と。,106801000X,vc_10680100021_004_01,chara_1
+message,シラエス,Mm... so you've burned out and taken a week off work.<br> ,106801000X,vc_10680100021_004_01,chara_1
 
-message,客の男,はい……気分転換をするように勧められて来たんですが、<br>こんなことをしていていいのかと焦ってしまって……,900000001
+message,客の男,Yes... I was told to come and take my mind off things，<br>but I can't help feeling anxious about being here...<br> ,900000001
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -152,9 +152,9 @@ asyncseplay,setag1_6,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シラエス,はあ……まったく、これだから人間は……,106801000X,vc_10680100021_005_01,chara_1
+message,シラエス,Sigh... honestly，this is so very like humans...<br> ,106801000X,vc_10680100021_005_01,chara_1
 
-message,,ため息をつかれて、男は身を硬くした。<br>責められる、そう思ったのだが、しかし……――
+message,,The man stiffened at her sigh. He braced for a scolding —<br>but instead——<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -165,9 +165,9 @@ asyncseplay,setag1_7,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,シラエス,たった１週間しか休んでいないのに焦るだなんて……<br>君はどれだけ頑張り屋さんなんだ！,106801000X,vc_10680100021_006_01,chara_1
+message,シラエス,Anxious after only one week's rest...<br>Just how hard a worker are you!<br> ,106801000X,vc_10680100021_006_01,chara_1
 
-message,客の男,……え？,900000001
+message,客の男,...Hm?<br> ,900000001
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -178,9 +178,9 @@ asyncseplay,setag1_8,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,シラエス,１週間――たったの７日だぞ？<br>その程度で疲れなんて取れるものか、もっと沢山休むべきだ！,106801000X,vc_10680100021_007_01,chara_1
+message,シラエス,One week — just seven days?<br>That's nowhere near enough to recover. You need much more rest!<br> ,106801000X,vc_10680100021_007_01,chara_1
 
-message,客の男,休んで……いいんですか？,900000001
+message,客の男,It's... alright if I rest?<br> ,900000001
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -191,7 +191,7 @@ asyncseplay,setag1_9,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,シラエス,当たり前だよ。君はたくさん頑張ったんだからな。<br>今日は、私がたっぷりと癒してあげよう……よしよし。,106801000X,vc_10680100021_008_01,chara_1
+message,シラエス,Of course. You've worked so hard.<br>Today，I'll take very good care of you... there，there.<br> ,106801000X,vc_10680100021_008_01,chara_1
 
 window,off
 wait,0.15
@@ -203,11 +203,11 @@ asyncshake,CHARA,chara_1,0,-30,2,2,off,off,0,off,CONT,0
 asyncwait
 
 window,on,0.15
-message,,シラエスは小さな手でそっと男の頭を撫でた。<br>その優しい手つきに、男のこわばった表情が緩んでいく。
+message,,Shiraes gently stroked the man's head with her small hand.<br>Under that tender touch，his tense expression gradually relaxed.<br> 
 
-message,客の男,……ぁっ……,900000001
+message,客の男,...Ah...<br> ,900000001
 
-message,,――そして、寄り添うエルフの薄く淫らな衣装に、<br>今更気づいたようだった。
+message,,——And then，it seemed，he finally noticed the thin，<br>suggestive outfit the elf leaning close wore.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -218,7 +218,7 @@ asyncseplay,setag1_10,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,シラエス,……ふふ、ここも元気が出てきたようだな。<br>しかし君が頑張る必要はない。すべて私に任せておくといい。,106801000X,vc_10680100021_009_01,chara_1
+message,シラエス,...Hehe，it seems you're perking up here too.<br>But there's nothing you need to do. Leave everything to me.<br> ,106801000X,vc_10680100021_009_01,chara_1
 
 window,off
 wait,0.15
@@ -245,7 +245,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,ズボンの膨らみに気づいたシラエスは、<br>穏やかな表情のまま身を寄せていくのだった。
+message,,Noticing the bulge in his trousers，Shiraes leaned in<br>with the same serene expression as ever.<br> 
 
 labeljump,b
 

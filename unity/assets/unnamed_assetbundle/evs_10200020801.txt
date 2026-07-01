@@ -24,7 +24,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトルを設定してください
+title,Title
 
 wait,1
 
@@ -58,9 +58,9 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,鬼族A,それじゃあ、改めて……乾杯といこうやぁぁっ！<br>かんぱ～～い！,402701000,,chara_1
+message,鬼族A,Then，once more... let's toast!!<br>CHEERS~~~!!<br> ,402701000,,chara_1
 
-message,村人A,かんぱ～～～い！<br>……かぁ～～、うまいねぇ、鬼ヶ島の酒は！,900000001
+message,村人A,CHEERS~~~~!<br>Ahhhh~~ that's good，Oni Island sake!<br> ,900000001
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -69,9 +69,9 @@ asyncseplay,setag1_2,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,鬼族A,おおっ、いい飲みっぷりじゃねぇか！,402701000,,chara_1
+message,鬼族A,Ohh，now that's what I call drinking!<br> ,402701000,,chara_1
 
-message,村人A,へへっ、あんたこそな！<br>もう１杯もらおうか！,900000001
+message,村人A,Heh，same to you! Let me get another!<br> ,900000001
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -80,7 +80,7 @@ asyncseplay,setag1_3,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,鬼族A,おうっ、グイッといってくれや、兄弟！<br>背中を預け合った仲だ！　遠慮なんてお互いなしだぜ！,402701000,,chara_1
+message,鬼族A,Come on，knock it back，brother!<br>We covered each other's backs! No holding back between us!<br> ,402701000,,chara_1
 
 window,off
 wait,0.15
@@ -125,7 +125,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,鬼族B,あんたたち、追加の料理がきたよ！<br>さあさあ、どんどん食べておくれ！,402801000,,chara_2
+message,鬼族B,More food's here everyone!<br>Come on，eat up!<br> ,402801000,,chara_2
 
 window,off
 wait,0.15
@@ -153,7 +153,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,,鬼族と人間――２つの種族はモンスターとの死闘の中で通じ合った。<br>両種族が膝を交えて酒を酌み交わす様子に、クレハは嬉しそうに微笑む。
+message,,Oni-folk and humans — two races connected through mortal combat.<br>Kureha smiled warmly as both peoples shared drinks side by side.<br> 
 
 window,off
 wait,0.15
@@ -191,7 +191,7 @@ asynccharaemo,chara_3,Twinkle,CONT,0
 
 
 window,on,0.15
-message,クレハ,よかった……鬼ヶ島のみんなが、人間のみなさんと仲良くなれて。,105801000G,,chara_3
+message,クレハ,I'm so glad... everyone on Oni Island got to make friends with<br>humans.<br> ,105801000G,,chara_3
 
 window,off
 wait,0.15
@@ -245,7 +245,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,ここにいたか、クレハ。
+message,<user>,There you are，Kureha.<br> 
 
 asyncjump,CHARA,chara_4,-30,0.25,1,off,0,CONT
 
@@ -254,7 +254,7 @@ asyncseplay,setag1_6,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,シラエス,ふぅ……ようやく後始末は終わったよ。,106801000G,,chara_4
+message,シラエス,Phew... the cleanup is finally done.<br> ,106801000G,,chara_4
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -265,9 +265,9 @@ asyncseplay,setag1_7,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,クレハ,旦那様、シラエス様。すみません、お任せしてしまって。<br>あの盗賊については、どうするか決まりましたか？,105801000G,,chara_3
+message,クレハ,Darling，Shiraes-sama. I'm sorry to have left it to you.<br>Have you decided what to do about that thief?<br> ,105801000G,,chara_3
 
-message,<user>,ああ。あの盗賊は拘束して、前線基地まで連行することにした。<br>鬼族に迷惑がかかったから、こっちで裁くのも筋かと思ったんだが……
+message,<user>,Yeah. We're restraining him and escorting him to the base. He caused<br>trouble for the oni-folk，so we ought to handle him ourselves...<br> 
 
 asynccharaface,chara_3,EyeOpen,CONT,0
 asynccharaface,chara_3,FaceNormal,CONT,0
@@ -279,9 +279,9 @@ asyncseplay,setag1_8,se4800022,0,1,CONT,0
 asynccharaemo,chara_3,Speak,CONT,0
 
 
-message,クレハ,鬼族は過ぎたことにはこだわりませんから。<br>旦那様のよきようにしてくれて大丈夫ですよ。,105801000G,,chara_3
+message,クレハ,The oni-folk don't dwell on things past. Whatever my darling sees<br>fit is fine.<br> ,105801000G,,chara_3
 
-message,<user>,他の連中にもそう言われたよ。もとはと言えばこっちの不手際が原因だから、<br>鬼ヶ島には迷惑料でも払うべきところなんだがな……
+message,<user>,That's what the others said too. The fault was ultimately ours，<br>so we ought to be paying Oni Island reparations...<br> 
 
 asynccharaface,chara_3,FaceSurprise,CONT,0
 
@@ -292,7 +292,7 @@ asyncseplay,setag1_9,se4800017,0,1,CONT,0
 asynccharaemo,chara_3,Shock,CONT,0
 
 
-message,クレハ,とんでもないです！　そんなもの、とても受け取れませんよ！<br>旦那様には鬼ヶ島のプロデュースを手伝ってもらったんですし！,105801000G,,chara_3
+message,クレハ,Absolutely not! We couldn't possibly accept that!<br>My darling helped us promote Oni Island after all!<br> ,105801000G,,chara_3
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -303,9 +303,9 @@ asyncseplay,setag1_10,se4800004,0,1,CONT,0
 asynccharaemo,chara_4,Laugh,CONT,0
 
 
-message,シラエス,ほらね、司令官君。クレハ君も他の鬼族もこう言ってることだし、<br>これ以上の野暮は言いっこなしだよ。,106801000G,,chara_4
+message,シラエス,See，Commander-kun? Kureha-kun and the rest of the oni-folk<br>all say the same — let's say no more about it.<br> ,106801000G,,chara_4
 
-message,<user>,そうだな……まあ、鬼ヶ島の連中には、これから先も世話になることも<br>あるかもしれないし、対等な関係でいこう。
+message,<user>,I suppose... well，we may need Oni Island's help again in the future.<br>Let's keep things on equal terms.<br> 
 
 window,off
 wait,0.15
@@ -356,9 +356,9 @@ asynccharaemo,chara_3,Flower,CONT,0
 
 
 window,on,0.15
-message,クレハ,これからも……？　それはつまり……義理の実家ともなる<br>私の故郷とはいい関係を築きたい――ということですねっ！,105801000G,,chara_3
+message,クレハ,In the future...? Which means... you want a good relationship with<br>the place that will be your in-laws' home——right!!<br> ,105801000G,,chara_3
 
-message,<user>,なんでそうなる！　鬼ヶ島との繋がりができたほうが、<br>交易やなんかで前線基地にも利があるってだけの話だよ！
+message,<user>,How did you get there! Having ties with Oni Island<br>would simply benefit the base through trade and the like!<br> 
 
 asynccharaface,chara_3,FaceFun,CONT,0
 
@@ -369,7 +369,7 @@ asyncseplay,setag1_12,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,クレハ,ふふっ、冗談ですよっ。人間のみなさんとの仲を取り持ってもらったのに、<br>これ以上求めたら罰が当たってしまいます。,105801000G,,chara_3
+message,クレハ,Hehe，I'm just joking! You helped bring us together with the humans —<br>it would be greedy to ask for anything more.<br> ,105801000G,,chara_3
 
 window,off
 wait,0.15
@@ -428,7 +428,7 @@ asynccharaemo,chara_3,Twinkle,CONT,0
 
 
 window,on,0.15
-message,クレハ,旦那様、シラエス様。本当に……本当に、ありがとうございました。<br>同胞たちのこんなに幸せそうな姿、見られるとは思っていませんでした。,105801000G,,chara_3
+message,クレハ,Darling，Shiraes-sama. Truly... truly，thank you so much.<br>I never thought I'd get to see my kin looking this happy.<br> ,105801000G,,chara_3
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -439,7 +439,7 @@ asyncseplay,setag1_14,se4800004,0,1,CONT,0
 asynccharaemo,chara_4,Laugh,CONT,0
 
 
-message,シラエス,いいんだよ。私が人間と仲良くなりたいように、鬼族も同じことを望んでいた。<br>そんな鬼族の後押しができたのなら、それは私にとっても誇らしいことだ。,106801000G,,chara_4
+message,シラエス,Don't mention it. Like me with humans，the oni-folk<br>wanted the same thing. Supporting that makes me proud too.<br> ,106801000G,,chara_4
 
 asynccharaface,chara_4,EyeOpen,CONT,0
 asynccharaface,chara_4,FaceNormal,CONT,0
@@ -451,7 +451,7 @@ asyncseplay,setag1_15,se4800013,0,1,CONT,0
 asynccharaemo,chara_4,Spirits,CONT,0
 
 
-message,シラエス,それに、クレハ君。君は人間を守るため、誰よりも体を張っていただろう。<br>君のがんばり、私は見ていたよ。がんばった子には、ご褒美が必要だろう？,106801000G,,chara_4
+message,シラエス,And Kureha-kun. You fought harder than anyone to protect the humans.<br>I saw it all. A child who works hard deserves a reward.<br> ,106801000G,,chara_4
 
 window,off
 wait,0.15
@@ -478,7 +478,7 @@ asynccharaemo,chara_4,Twinkle,CONT,0
 
 
 window,on,0.15
-message,シラエス,よしよし、よくやったね。,106801000G,,chara_4
+message,シラエス,There，there. Well done.<br> ,106801000G,,chara_4
 
 asynccharaface,chara_3,FaceFun,CONT,0
 
@@ -489,7 +489,7 @@ asyncseplay,setag1_17,se4800018,0,1,CONT,0
 asynccharaemo,chara_3,Flower,CONT,0
 
 
-message,クレハ,シ、シラエスママ～～……！　私、これからもがんばります～！<br>そして、シラエスママに親孝行します～～！　孫の顔も見せます～～～！,105801000G,,chara_3
+message,クレハ,M-Mama Shiraes~~...! I'll keep working hard~!<br>I'll make you proud~~! And show you grandchildren~~~!<br> ,105801000G,,chara_3
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -500,7 +500,7 @@ asyncseplay,setag1_18,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,シラエス,それは素敵だな。こう見えて、名づけ親を頼まれたこともあるんだよ。<br>大好きな者たちを子孫まで見守れるのは、エルフの特権だ。,106801000G,,chara_4
+message,シラエス,How wonderful. You know，I've been asked to be a godparent before.<br>Watching loved ones across generations — that's an elf's privilege.<br> ,106801000G,,chara_4
 
 asynccharaface,chara_3,FaceHappy,CONT,0
 
@@ -511,9 +511,9 @@ asyncseplay,setag1_19,se4800018,0,1,CONT,0
 asynccharaemo,chara_3,Flower,CONT,0
 
 
-message,クレハ,シラエスママに見守られるなら、私たちの子孫も安心です！<br>旦那様、がんばりましょうね！,105801000G,,chara_3
+message,クレハ,With Mama Shiraes watching over them，our descendants will be safe!<br>Let's do our best，darling!<br> ,105801000G,,chara_3
 
-message,<user>,俺がお前と何をがんばる必要があるのかは知らんが……。<br>ま、ともあれ、今回の協力への借りは返せたし、大団円ってとこか。
+message,<user>,I don't know what we'd even be working toward together，but...<br>Well，we've repaid our debt for this one. A happy ending，I'd say.<br> 
 
 asynccharaface,chara_3,FaceUnique01,CONT,0
 
@@ -524,9 +524,9 @@ asyncseplay,setag1_20,se4800019,0,1,CONT,0
 asynccharaemo,chara_3,Elated,CONT,0
 
 
-message,クレハ,……いいえ、旦那様。まだ終わりにしてもらっては困ります。<br>旦那様もシラエス様も、肝心なことを忘れています。,105801000G,,chara_3
+message,クレハ,...No no，darling. I can't let you wrap up just yet.<br>You and Shiraes-sama have forgotten something important.<br> ,105801000G,,chara_3
 
-message,<user>,何……？
+message,<user>,What...?<br> 
 
 asynccharaface,chara_4,FaceSurprise,CONT,0
 
@@ -537,7 +537,7 @@ asyncseplay,setag1_21,se4800017,0,1,CONT,0
 asynccharaemo,chara_4,Shock,CONT,0
 
 
-message,シラエス,肝心なこと？　何かな？,106801000G,,chara_4
+message,シラエス,Something important? What would that be?<br> ,106801000G,,chara_4
 
 asynccharaface,chara_3,FaceFun,CONT,0
 
@@ -548,7 +548,7 @@ asyncseplay,setag1_22,se4800003,0,1,CONT,0
 asynccharaemo,chara_3,Twinkle,CONT,0
 
 
-message,クレハ,まだお２人をもてなせていません！<br>これでもかっていうほど、おもてなしを受けてもらいますからね！,105801000G,,chara_3
+message,クレハ,I haven't treated the two of you yet!<br>You're going to be welcomed so thoroughly it hurts!<br> ,105801000G,,chara_3
 
 asynccharaface,chara_3,FaceHappy,CONT,0
 
@@ -559,7 +559,7 @@ asyncseplay,setag1_23,se4800013,0,1,CONT,0
 asynccharaemo,chara_3,Spirits,CONT,0
 
 
-message,クレハ,というわけで――さあさあ、こちらへどうぞ♪,105801000G,,chara_3
+message,クレハ,So then——come come，this way♪<br> ,105801000G,,chara_3
 
 window,off
 wait,0.15
@@ -579,7 +579,7 @@ asynccharamove,chara_4,Linear,Y,0,0.5,CONT,0
 asyncwait
 
 window,on,0.15
-message,,クレハは<user>とシラエスの手を取ると、<br>宴会の輪の中へと連れていく。
+message,,Kureha took %user% and Shiraes by the hand<br>and led them into the circle of the banquet.<br> 
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
@@ -587,7 +587,7 @@ asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
 
-message,<user>,お、おい、クレハ！　俺は別にそういうのは……くっ、すごい力だ……！
+message,<user>,H-hey，Kureha! I don't really need to... ugh，what strength...!<br> 
 
 asynccharaface,chara_4,FaceHappy,CONT,0
 
@@ -598,9 +598,9 @@ asyncseplay,setag1_24,se4800004,0,1,CONT,0
 asynccharaemo,chara_4,Laugh,CONT,0
 
 
-message,シラエス,どうやらこれは、断れそうにないな。<br>ここはありがたく、鬼族たちのもてなしを受けるとしよう。,106801000G,,chara_4
+message,シラエス,It seems there's no refusing this.<br>Let's graciously accept the oni-folk's hospitality.<br> ,106801000G,,chara_4
 
-message,<user>,シラエスはもともと好きだろ、こういうの……。<br>やれやれ……前線基地への帰還は、１日遅らせとくか。
+message,<user>,You've always been up for this kind of thing，Shiraes...<br>Good grief... let's push the return to the base back by a day.<br> 
 
 asynccharaface,chara_3,FaceFun,CONT,0
 
@@ -611,7 +611,7 @@ asyncseplay,setag1_25,se4800022,0,1,CONT,0
 asynccharaemo,chara_3,Speak,CONT,0
 
 
-message,クレハ,そうこなくっては！　主賓が来なければ、宴は盛りあがりませんからね！<br>自慢の旦那様を、人間のみなさんにも紹介しないといけませんし！,105801000G,,chara_3
+message,クレハ,Now that's the spirit! No party without the guests of honor!<br>Besides，I need to introduce my wonderful darling to everyone!<br> ,105801000G,,chara_3
 
 window,off
 wait,0.15
@@ -662,7 +662,7 @@ asynccharaemo,chara_3,Heart,CONT,0
 
 
 window,on,0.15
-message,クレハ,あっ、そうだ。<br>せっかくですから、このまま披露宴でもしちゃいましょうか♪,105801000G,,chara_3
+message,クレハ,Oh，that reminds me. Since we're here，why not hold a<br>proper wedding reception while we're at it♪<br> ,105801000G,,chara_3
 
 window,off
 wait,0.15
@@ -705,7 +705,7 @@ asynccharaemo,chara_4,Spirits,CONT,0
 
 
 window,on,0.15
-message,シラエス,なるほど、まさに鬼族と人族の融和の象徴だ。<br>さぞめでたい宴になるだろうね。,106801000G,,chara_4
+message,シラエス,Indeed，what a perfect symbol of unity between oni and human.<br>What a fine celebration that would be.<br> ,106801000G,,chara_4
 
 window,off
 wait,0.15
@@ -755,7 +755,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,や、やめろっ！　とんでもない大事になるっ！<br>俺はまだ、結婚はしない――っ！
+message,<user>,D-don't! This is going to spiral completely out of hand!<br>I am NOT getting married——!<br> 
 
 window,off
 wait,0.15
@@ -801,9 +801,9 @@ asynctransitionCrossFade,Tra03,0.5,STOP
 waitorclick,1
 
 window,on,0.15
-message,,――人族と鬼族を繋ぐ、絆の始まり。<br>鬼ヶ島に語り継がれるこの逸話は、いつだって同じ言葉で話を終える。
+message,,——The start of a bond between humans and oni-folk.<br>This legend，passed down through Oni Island，ends with the same words.<br> 
 
-message,,すなわち――めでたしめでたし、である。
+message,,Namely——and they all lived happily ever after.<br> 
 
 window,off
 bgmstop,bgmtag1_1,0.5

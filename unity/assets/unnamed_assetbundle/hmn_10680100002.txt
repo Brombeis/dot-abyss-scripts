@@ -20,7 +20,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
@@ -30,18 +30,18 @@ bgmplay,bgmtag1_1,bgm0025,0.75,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――シラエスが前線基地を訪れてから、１週間後</size>,,,on
+messageTextCenter,,<size=48>——One week after Shiraes's arrival at the forward base.</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
 
 
 window,on,0.15
-message,<user>,エルフってのは約束を破ったり、連絡が取れなくなったりと、<br>時間感覚の違いで問題を起こすもんなんだが……
+message,<user>,Elves tend to cause problems with their time perception —<br>breaking promises，going unreachable for months...<br> 
 
-message,<user>,シラエスは本当に何も苦情を聞かないんだよな。<br>むしろ酒場でみんなと交流して知恵を貸してるって、良い評判を聞くぐらいだ。
+message,<user>,But I haven't heard a single complaint about Shiraes.<br>If anything，she's been chatting and advising at the tavern.<br> 
 
-message,<user>,ちょっと様子を見に行くか。<br>せっかくなら俺も、悩み相談にでも乗ってもらおうかね。
+message,<user>,Might as well go check on her.<br>And maybe get her to hear me out on some of my own troubles.<br> 
 
 
 window,off
@@ -66,9 +66,9 @@ asyncseplay,setag1_1,SE_DUMMY,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,酒場でシラエスの姿を探すと、奥まった一角で、<br>多くの客が彼女を囲んで酒を飲み交わす姿が目に入った。
+message,,Searching for Shiraes in the tavern，he found her<br>in a tucked-away corner，surrounded by customers sharing drinks.<br> 
 
-message,<user>,へえ、やっぱり慕われてるんだな。<br>どんな話をしてるのか、ちょっと様子を見てみるか……
+message,<user>,Huh，she really is popular.<br>Let me see what kind of conversation's going on...<br> 
 
 window,off
 wait,0.15
@@ -107,7 +107,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,兵士,――それで嘘をついて１週間も仕事を休んでしまって。<br>その間も仲間は戦っていたと思うと、戻るのにも罪悪感が……,401301000,vc_10680100002_001_01,chara_2
+message,兵士,——I lied and took a week off，and now I feel<br>guilty returning while my comrades kept fighting...<br> ,401301000,vc_10680100002_001_01,chara_2
 
 window,off
 wait,0.15
@@ -122,7 +122,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（これは……罪を懺悔してるのか。<br>シラエスはなんだか神聖な雰囲気があるし、気持ちは分かるな）
+message,<user>,(Is he... confessing his sins?<br>Shiraes does have a kind of sacred air to her — I get it.)<br> 
 
 window,off
 wait,0.15
@@ -146,7 +146,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,シラエス,すごいな、君は……。１週間など光の速さだというのに、<br>すでに心身ともに回復して仲間を気遣う余裕すらあるだなんて……,106801000G,vc_10680100002_002_01,chara_1
+message,シラエス,Remarkable. One week — barely a blink —<br>yet you've already recovered and think of your comrades...<br> ,106801000G,vc_10680100002_002_01,chara_1
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -157,7 +157,7 @@ asyncseplay,setag1_4,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,兵士,そ、そうかな……？<br>こんなに休んじゃって良かったのかなって思ってるんだけど……,401301000,vc_10680100002_003_01,chara_2
+message,兵士,I-is that so...? I keep wondering if it was alright<br>to rest for so long...<br> ,401301000,vc_10680100002_003_01,chara_2
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -168,7 +168,7 @@ asyncseplay,setag1_5,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,シラエス,いいに決まっているよ！<br>たった１週間の休みで戦場に戻るだなんて、まるで神話の英雄じゃないか！,106801000G,vc_10680100002_004_01,chara_1
+message,シラエス,Of course it was! Returning to the battlefield<br>after only a week's rest — you're like a hero from legend!<br> ,106801000G,vc_10680100002_004_01,chara_1
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -179,7 +179,7 @@ asyncseplay,setag1_6,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,兵士,え、英雄……えへへ、そうかなぁ……,401301000,vc_10680100002_005_01,chara_2
+message,兵士,A-a hero... ehehe，you think so...?<br> ,401301000,vc_10680100002_005_01,chara_2
 
 window,off
 wait,0.15
@@ -194,7 +194,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（な、なんか思ってたのと様子が違うぞっ！？）
+message,<user>,(Wh-this is completely different from what I expected...!?)<br> 
 
 window,off
 wait,0.15
@@ -237,7 +237,7 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,市民,私も仕事に疲れて退職してから、<br>もう３ヶ月、何もしていないんです……,400101000,vc_10680100002_006_01,chara_3
+message,市民,I've been doing nothing for three months now，<br>ever since I quit my job from exhaustion...<br> ,400101000,vc_10680100002_006_01,chara_3
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -248,7 +248,7 @@ asyncseplay,setag1_8,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,シラエス,き、君は仕事を辞めるほどに疲れ切ったというのに、<br>たった３ヶ月でこうして出歩けるほど元気になったのか！？,106801000G,vc_10680100002_007_01,chara_1
+message,シラエス,Y-you were so exhausted you quit your job，yet<br>in only three months you're up and about like this!?<br> ,106801000G,vc_10680100002_007_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -259,7 +259,7 @@ asyncseplay,setag1_9,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,シラエス,なんて頑張り屋さんなんだ。<br>あと１０年ぐらいはゆっくりと休んだって誰も責めはしないよ？,106801000G,vc_10680100002_008_01,chara_1
+message,シラエス,What a hard worker you are. No one would blame you<br>for resting another 10 years or so，you know?<br> ,106801000G,vc_10680100002_008_01,chara_1
 
 asynccharaface,chara_3,FaceHappy,CONT,0
 
@@ -270,7 +270,7 @@ asyncseplay,setag1_10,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,市民,や、やっぱりそうですよね？<br>じゃあ何年かのんびりしようかなぁ……,400101000,vc_10680100002_009_01,chara_3
+message,市民,Y-you're right，aren't you? Maybe I'll take<br>a few years to relax...<br> ,400101000,vc_10680100002_009_01,chara_3
 
 bgmstop,bgmtag1_1,1,0
 
@@ -311,7 +311,7 @@ wait,1
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 window,on,0.15
-message,<user>,待て待て待てっ！<br>そこまでだっ！
+message,<user>,Hold on，hold on，hold on! That's enough!<br> 
 
 bgmplay,bgmtag1_2,bgm0026,0.75,1
 
@@ -324,9 +324,9 @@ asyncseplay,setag1_11,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,シラエス,おや、司令官君。<br>どうしたんだい、そんなに慌てて。,106801000G,vc_10680100002_010_01,chara_1
+message,シラエス,Oh my，Commander-kun. What's the rush?<br> ,106801000G,vc_10680100002_010_01,chara_1
 
-message,<user>,話を聞いてたんだが、シラエスは甘すぎるっ！<br>これじゃみんながダメになるぞ！
+message,<user>,I've been listening，and you're far too lenient!<br>Everyone's going to go soft like this!<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -337,9 +337,9 @@ asyncseplay,setag1_12,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,シラエス,そんなことはないだろう？　ぼーっとしていて、ふと気がつけば<br>１０年経っていることなどよくあることなのに、１週間や３ヶ月なんて……,106801000G,vc_10680100002_011_01,chara_1
+message,シラエス,Surely not? Drifting off and finding 10 years have<br>passed — that happens all the time. One week or three months is...<br> ,106801000G,vc_10680100002_011_01,chara_1
 
-message,<user>,それは人間にとっては十分すぎる時間なんだよっ！
+message,<user>,That's more than enough time for a human!<br> 
 
 window,off
 wait,0.15
@@ -391,7 +391,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,兵士,やめて、お願い！<br>シラエスママを攻めないで、司令官……！,401301000,vc_10680100002_012_01,chara_2
+message,兵士,Please，stop! Don't pick on Mama Shiraes，Commander...!<br> ,401301000,vc_10680100002_012_01,chara_2
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -402,7 +402,7 @@ asyncseplay,setag1_14,se4800003,0,1,CONT,0
 asynccharaemo,chara_2,Twinkle,CONT,0
 
 
-message,兵士,この厳しい人間社会に疲れた私たちは、こうして甘くされることで、<br>やっと頑張ろうって思える！　明日を生きていけるんです！,401301000,vc_10680100002_013_01,chara_2
+message,兵士,When we're worn down by this harsh world，<br>being treated warmly like this is what makes us want to keep going!<br> ,401301000,vc_10680100002_013_01,chara_2
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -413,9 +413,9 @@ asyncseplay,setag1_15,se4800010,0,1,CONT,0
 asynccharaemo,chara_2,Exclamation,CONT,0
 
 
-message,兵士,シラエスママは、私たちの救いなんです……！,401301000,vc_10680100002_014_01,chara_2
+message,兵士,Mama Shiraes is our salvation...!<br> ,401301000,vc_10680100002_014_01,chara_2
 
-message,<user>,お、大げさな……。<br>というか、シラエスママってなんだ……？
+message,<user>,O-oh come on... And 'Mama Shiraes'? What's that about...?<br> 
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -426,7 +426,7 @@ asyncseplay,setag1_16,se4800018,0,1,CONT,0
 asynccharaemo,chara_2,Flower,CONT,0
 
 
-message,兵士,シラエスさんのすべてを包み込んでくれるような慈愛が、<br>理想のママそのものなんです……！,401301000,vc_10680100002_015_01,chara_2
+message,兵士,Her all-encompassing warmth and compassion —<br>it's exactly what the ideal mother would be...!<br> ,401301000,vc_10680100002_015_01,chara_2
 
 asynccharaface,chara_3,FaceSurprise,CONT,0
 
@@ -437,9 +437,9 @@ asyncseplay,setag1_17,se4800017,0,1,CONT,0
 asynccharaemo,chara_3,Shock,CONT,0
 
 
-message,市民,た、確かに……シラエスさんは私のママだったのかもしれない……,400101000,vc_10680100002_016_01,chara_3
+message,市民,C-come to think of it... Shiraes-san might be my mama...<br> ,400101000,vc_10680100002_016_01,chara_3
 
-message,<user>,絶対違うだろ！　勝手にママ認定するなっ！
+message,<user>,She's definitely not! Stop declaring her your mama!<br> 
 
 window,off
 wait,0.15
@@ -485,7 +485,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,シラエス,ママか……。私にそういった自覚はないが、<br>まあ喜んでくれるのであれば、それに越したことはない。,106801000G,vc_10680100002_017_01,chara_1
+message,シラエス,'Mama'... I don't particularly see myself that way，<br>but if it makes them happy，that's all that matters.<br> ,106801000G,vc_10680100002_017_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -496,7 +496,7 @@ asyncseplay,setag1_19,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,シラエス,大好きな人間の役に立てるのは、<br>私としても本望だからな。,106801000G,vc_10680100002_018_01,chara_1
+message,シラエス,Being of use to the humans I love is all I could ask for.<br> ,106801000G,vc_10680100002_018_01,chara_1
 
 window,off
 wait,0.15
@@ -548,7 +548,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,兵士,あ、ああ……ママ！<br>私たちのシラエスママっ！,401301000,vc_10680100002_019_01,chara_2
+message,兵士,A-ah... Mama! Our Mama Shiraes!<br> ,401301000,vc_10680100002_019_01,chara_2
 
 window,off
 wait,0.15
@@ -593,7 +593,7 @@ asyncseplay,setag1_21,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 window,on,0.15
-message,酒場の客たち,シラエスママ～～～～ッッッ！！！！,900000001
+message,酒場の客たち,Mama Shiraes~~~~!!!<br> ,900000001
 
 window,off
 wait,0.15
@@ -609,7 +609,7 @@ asyncseplay,setag1_22,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 window,on,0.15
-message,<user>,ああもうっ、周りのやつまで悪ノリするなっ！
+message,<user>,Oh come on，now everyone's piling on...!<br> 
 
 window,off
 wait,0.15
@@ -671,7 +671,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,兵士,そうだ、ママ！　今度兵士たちで主催するお祭りをするんだけど、<br>ママも遊びに来てくれない？,401301000,vc_10680100002_020_01,chara_2
+message,兵士,Oh right，Mama! The soldiers are organizing a festival<br>soon — would you come?<br> ,401301000,vc_10680100002_020_01,chara_2
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -682,7 +682,7 @@ asyncseplay,setag1_24,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,シラエス,ほう、人間たちのお祭り！<br>こちらこそ、ぜひ参加させてほしい。,106801000G,vc_10680100002_021_01,chara_1
+message,シラエス,Oh，a human festival! I wouldn't miss it for the world.<br> ,106801000G,vc_10680100002_021_01,chara_1
 
 asyncjump,CHARA,chara_2,-30,0.5,2,off,0,CONT
 
@@ -691,9 +691,9 @@ asyncseplay,setag1_25,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,兵士,やった……！<br>日頃のお礼も込めて、ママが楽しめるようにするね！,401301000,vc_10680100002_022_01,chara_2
+message,兵士,Yes...! We'll make it fun for you as our thank-you gift，Mama!<br> ,401301000,vc_10680100002_022_01,chara_2
 
-message,<user>,はあ……まあ、うまくやってるみたいだし、別にいいか……。<br>しかし基地のメンタル管理は見直したほうがいいのかもしれないなぁ……
+message,<user>,Well... if it's working for them，I suppose it's fine...<br>Though maybe I should rethink how morale is managed at this base...<br> 
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -726,7 +726,7 @@ fade,In,Black,0
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――数日後</size>,,,on
+messageTextCenter,,<size=48>——A few days later.</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -764,13 +764,13 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,シラエス,…………,106801000G,vc_10680100002_023_01,chara_1
+message,シラエス,............<br> ,106801000G,vc_10680100002_023_01,chara_1
 
-message,,宿舎の一角で、シラエスが分厚い本を読みふけっていた。<br>その姿はどこか荘厳で、誰もが遠くから見守ることしかできないようだ。
+message,,In a corner of the barracks，Shiraes was absorbed in a thick tome.<br>There was something so solemn about her that no one dared approach.<br> 
 
-message,<user>,さすがエルフ、本を読んでいるだけで絵になるな。<br>しかしどうしてこんな場所で？
+message,<user>,An elf just reading looks like a painting.<br>But what is she doing here of all places?<br> 
 
-message,<user>,おーい、シラエスー！
+message,<user>,Heyyy，Shiraes!<br> 
 
 window,off
 wait,0.15
@@ -810,9 +810,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,シラエス,……？　ああ、司令官君。<br>何か用事かな？,106801000G,vc_10680100002_024_01,chara_1
+message,シラエス,...? Ah，Commander-kun. Need something?<br> ,106801000G,vc_10680100002_024_01,chara_1
 
-message,<user>,いや、妙なところで本を読んでるな、と思って。
+message,<user>,Just thought it was an odd place to be reading.<br> 
 
 window,off
 wait,0.15
@@ -831,7 +831,7 @@ wait,0.5
 
 
 window,on,0.15
-message,シラエス,ん……そうか、そうだったな。<br>ここは私の部屋ではないんだった。,106801000G,vc_10680100002_025_01,chara_1
+message,シラエス,Mm... right，I suppose it is. This isn't my room，is it.<br> ,106801000G,vc_10680100002_025_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -842,9 +842,9 @@ asyncseplay,setag1_29,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シラエス,珍しい魔術書を手に入れてね。<br>少し内容を見るだけのつもりが、つい読み込んでしまったみたいだ。,106801000G,vc_10680100002_026_01,chara_1
+message,シラエス,I acquired a rare arcana tome.<br>I only meant to glance at it，but I got absorbed somehow.<br> ,106801000G,vc_10680100002_026_01,chara_1
 
-message,<user>,見たところ、そこそこ読み進めてるみたいだけど……。<br>どれぐらいの時間ここにいたんだ？
+message,<user>,Looks like you've gotten pretty far through it...<br>How long have you been here?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -855,9 +855,9 @@ asyncseplay,setag1_30,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,シラエス,読み始めたときは、まだ日が高かったが……今も日は高いな。<br>１日ぐらいだろうか？,106801000G,vc_10680100002_027_01,chara_1
+message,シラエス,The sun was still high when I began... it's still high now.<br>About a day，I suppose?<br> ,106801000G,vc_10680100002_027_01,chara_1
 
-message,<user>,１日読み続けてたのか……
+message,<user>,You've been reading for an entire day...?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -877,9 +877,9 @@ asyncseplay,setag1_32,se4800007,0,1,STOP,3
 asynccharaemo,chara_1,Panic,STOP,3
 
 
-message,シラエス,まあ、たった１日……い、いや。そうか。人間にとっては長い時間だった。<br>すまない、キリのいいところまで読んだら部屋に戻るよ。,106801000G,vc_10680100002_028_01,chara_1
+message,シラエス,Well，just a day... n-no. Right. A long time for a human.<br>Sorry — I'll go back to my room at a good stopping point.<br> ,106801000G,vc_10680100002_028_01,chara_1
 
-message,<user>,あ、ああ……ほどほどにな……
+message,<user>,A-alright... don't overdo it...<br> 
 
 window,off
 wait,0.15
@@ -920,7 +920,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（やっぱり時間感覚はエルフか。<br>でも人間に合わせようとしてる辺り、シラエスはいいやつだよな）
+message,<user>,(Her time perception really is all elf.<br>But the fact she tries to adjust — she really is a good person.)<br> 
 
 window,off
 wait,0.15
@@ -944,7 +944,7 @@ fade,In,Black,0
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――さらに２日後</size>,,,on
+messageTextCenter,,<size=48>——Two more days later.</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -967,7 +967,7 @@ asyncmove,BACK,,0,100,0,Set,CONT
 fade,In,Black,1
 
 window,on,0.15
-message,<user>,あー、今日も疲れた……。<br>さっと帰って寝よう……
+message,<user>,Ahh，another exhausting day... Better get home and sleep quickly...<br> 
 
 window,off
 wait,0.15
@@ -1002,20 +1002,20 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,シラエス,…………,106801000G,vc_10680100002_029_01,chara_1
+message,シラエス,............<br> ,106801000G,vc_10680100002_029_01,chara_1
 
-message,<user>,うわっ！？　<br>びっくりした、何かと思ったらシラエスか……
+message,<user>,Whoa!? You scared me — I thought you were something else，Shiraes...<br> 
 
 asyncseplay,setag1_34,se4800014,0,1,CONT,0
 
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,シラエス,…………,106801000G,vc_10680100002_030_01,chara_1
+message,シラエス,............<br> ,106801000G,vc_10680100002_030_01,chara_1
 
-message,<user>,また本を読んでるのか。<br>それもこんな遅くまで……自分の部屋で読めばいいのにな。
+message,<user>,Reading again? And this late...<br>You have your own room，you know.<br> 
 
-message,<user>,いや、待て……？<br>これって、何日か前にシラエスが本を読んでいた場所……？
+message,<user>,Wait... isn't this the same spot where<br>Shiraes was reading a few days ago...?<br> 
 
 window,off
 wait,0.15
@@ -1049,7 +1049,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,シ、シラエスッ！<br>おーい！　気づいてくれー！
+message,<user>,Sh-Shiraes! Hey! Can you hear me!<br> 
 
 window,off
 wait,0.15
@@ -1074,9 +1074,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,シラエス,――ああ、また司令官君か。<br>今度はどうしたいんだい？,106801000G,vc_10680100002_031_01,chara_1
+message,シラエス,——Ah，Commander-kun again. What is it this time?<br> ,106801000G,vc_10680100002_031_01,chara_1
 
-message,<user>,今度は、じゃなくて。<br>どうしてこんなところで本を読んでるんだよ……
+message,<user>,'What is it this time'? Why are you<br>reading out here again...?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1087,9 +1087,9 @@ asyncseplay,setag1_36,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,シラエス,大丈夫、キリのいいところまで読んだら戻るよ。<br>さっき話をしたところだろう？,106801000G,vc_10680100002_032_01,chara_1
+message,シラエス,I'm fine，I'll head back at a good stopping point.<br>We talked about this already，didn't we?<br> ,106801000G,vc_10680100002_032_01,chara_1
 
-message,<user>,残念だがシラエス。<br>その話をしてから、もう２日が経ってる。
+message,<user>,Sorry to say，Shiraes. Two days have passed since that talk.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1101,7 +1101,7 @@ asyncseplay,setag1_37,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,シラエス,ん、２日ぐらいならまあ……,106801000G,vc_10680100002_033_01,chara_1
+message,シラエス,Mm，two days or so... well...<br> ,106801000G,vc_10680100002_033_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1112,7 +1112,7 @@ asyncseplay,setag1_38,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,シラエス,いや、違う！　そうだった！<br>人間にとって２日は長いんだった！,106801000G,vc_10680100002_034_01,chara_1
+message,シラエス,No，wait! That's right!<br>Two days is a long time for humans!<br> ,106801000G,vc_10680100002_034_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1123,9 +1123,9 @@ asyncseplay,setag1_39,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,シラエス,また時間を無駄にしてしまった……！<br>少しでも長く、大好きな人間と過ごしたいのにぃぃぃ……,106801000G,vc_10680100002_035_01,chara_1
+message,シラエス,I wasted time again...! I just want to spend<br>every precious moment with the humans I love~~...<br> ,106801000G,vc_10680100002_035_01,chara_1
 
-message,<user>,うーん……慰めるわけじゃないが、<br>２日で後悔できるのはエルフとしては優秀だぞ……？
+message,<user>,Well... not to comfort you，but regretting it<br>in two days is impressive for an elf...?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1136,9 +1136,9 @@ asyncseplay,setag1_40,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,シラエス,人間にとっては呆れるほどの長さなんだろう？<br>はぁ……人と生きるというのは難しいね……,106801000G,vc_10680100002_036_01,chara_1
+message,シラエス,That must seem absurdly long to a human...<br>Sigh... living alongside people is hard...<br> ,106801000G,vc_10680100002_036_01,chara_1
 
-message,<user>,ま、ゆっくり馴染んでいけばいいさ。<br>ああ、そういえば例の祭りはどうだった？
+message,<user>,You'll ease into it. Oh，by the way — how was that festival?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1149,9 +1149,9 @@ asyncseplay,setag1_41,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,シラエス,……祭り？,106801000G,vc_10680100002_037_01,chara_1
+message,シラエス,...Festival?<br> ,106801000G,vc_10680100002_037_01,chara_1
 
-message,<user>,昨日やってただろ？<br>兵士が主催してる、前線基地のお祭りだよ。
+message,<user>,Yesterday's? The one the soldiers organized，<br>the forward base festival.<br> 
 
 window,off
 wait,0.15
@@ -1176,9 +1176,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,シラエス,き、のう……？　まさか、冗談だろう？<br>楽しみにしていたお祭りが、もう終わっているというのか……？,106801000G,vc_10680100002_038_01,chara_1
+message,シラエス,Ye-yesterday...? Surely you jest.<br>The festival I was looking forward to... it's already over...?<br> ,106801000G,vc_10680100002_038_01,chara_1
 
-message,<user>,…………ご愁傷さま、シラエス。
+message,<user>,............My condolences，Shiraes.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1191,7 +1191,7 @@ asyncseplay,setag1_44,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,シラエス,や、やっでじまっだぁぁぁぁ～～～～！！！,106801000G,vc_10680100002_039_01,chara_1
+message,シラエス,I-I did it agaaaain~~~~!!!<br> ,106801000G,vc_10680100002_039_01,chara_1
 
 window,off
 wait,0.15
@@ -1222,7 +1222,7 @@ bgmplay,bgmtag1_4,bgm0030,0.75,1
 fade,In,Black,1
 
 window,on,0.15
-message,<user>,やれやれ、怒ってなくて良かったな、シラエス。
+message,<user>,Good grief... at least they weren't angry at you，Shiraes.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1231,9 +1231,9 @@ asyncseplay,setag1_45,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,シラエス,うう……私はなんてことをしてしまったんだ。<br>ママと慕ってくれる人々のお誘いだったのに……,106801000G,vc_10680100002_040_01,chara_1
+message,シラエス,Ohh... what have I done.<br>And it was an invitation from the very people who call me Mama...<br> ,106801000G,vc_10680100002_040_01,chara_1
 
-message,<user>,ママらしい、って笑ってたじゃないか。<br>ちゃんと謝ったんだし、次から気をつければいいだろ？
+message,<user>,They were laughing，saying it was very 'Mama-like.'<br>You apologized properly，so just be more careful next time.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1244,7 +1244,7 @@ asyncseplay,setag1_46,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,シラエス,次……そうだ、次だ。<br>２度とこんなことがあってはいけない。,106801000G,vc_10680100002_041_01,chara_1
+message,シラエス,Next time... right，yes. Next time.<br>I can't let this happen again.<br> ,106801000G,vc_10680100002_041_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1255,7 +1255,7 @@ asyncseplay,setag1_47,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,シラエス,早急に、エルフの時間感覚じゃなく、<br>人間の時間感覚を身に付けなきゃいけない……！,106801000G,vc_10680100002_042_01,chara_1
+message,シラエス,I must urgently fix this — unlearn the elven<br>sense of time and learn the human one...!<br> ,106801000G,vc_10680100002_042_01,chara_1
 
 window,off
 wait,0.15
@@ -1289,9 +1289,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,シラエス,そうだ、司令官君。<br>良ければ君に手伝ってはもらえないか。,106801000G,vc_10680100002_043_01,chara_1
+message,シラエス,Say，Commander-kun. Could I ask for your help with something?<br> ,106801000G,vc_10680100002_043_01,chara_1
 
-message,<user>,い、嫌な予感がするんだが……何をすればいいんだ？
+message,<user>,I-I have a bad feeling about this... What do I have to do?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1302,9 +1302,9 @@ asyncseplay,setag1_49,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,シラエス,明日から１週間、君と同じスケジュールで、<br>一緒に過ごしたいんだ。,106801000G,vc_10680100002_044_01,chara_1
+message,シラエス,Starting tomorrow，for one week，<br>I want to follow your schedule and spend the days with you.<br> ,106801000G,vc_10680100002_044_01,chara_1
 
-message,<user>,１週間も一緒に！？
+message,<user>,Together for a whole week!?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1315,7 +1315,7 @@ asyncseplay,setag1_50,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,シラエス,そうすればきっと人間の時間感覚を理解できる。<br>頼むよ司令官君。君が頼りなんだ……！,106801000G,vc_10680100002_045_01,chara_1
+message,シラエス,That should help me learn the human sense of time.<br>Please，Commander-kun. You're my only hope...!<br> ,106801000G,vc_10680100002_045_01,chara_1
 
 bgmstop,bgmtag1_4,1.5,0
 
@@ -1342,9 +1342,9 @@ bgmplay,bgmtag1_5,bgm0024,0.75,1
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,<user>,――なんて言ってたが。<br>案の定、シラエスは起きてこなかったなあ。
+message,<user>,——So she said. But sure enough，<br>Shiraes didn't show up in the morning.<br> 
 
-message,<user>,頼りにしてもらった以上、俺は甘やかさないぞ……！
+message,<user>,She said she's counting on me — I won't be soft with her...!<br> 
 
 
 window,off
@@ -1361,7 +1361,7 @@ scale,BACK,,0,1,1,Set
 transitionFade,Tra01,in,black,1
 
 window,on,0.15
-message,<user>,シラエス、いつまで寝てるんだ！<br>もう人間の１日は始まってるぞ！
+message,<user>,Shiraes，how long are you going to sleep!<br>A human's day has already begun!<br> 
 
 window,off
 wait,0.15
@@ -1397,7 +1397,7 @@ asynccharaemo,chara_1,Sleepy,CONT,0
 
 
 window,on,0.15
-message,シラエス,んにゃ……まぶ……んぁぐ……。<br>あ、あしゃ……にゃにょぉ……？,106801000G,vc_10680100002_046_01,chara_1
+message,シラエス,Mmnya... blurgh... nng...<br>Wh-whasa... whassagooo...?<br> ,106801000G,vc_10680100002_046_01,chara_1
 
 window,off
 wait,0.15
@@ -1413,7 +1413,7 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,<user>,ぐ、ぐにゃぐにゃになってる……。<br>朝はこんなにポンコツだったのか、シラエス……！
+message,<user>,Sh-she's totally limp...<br>She's this useless in the morning，Shiraes...!<br> 
 
 window,off
 wait,0.15
@@ -1442,7 +1442,7 @@ asynccharaemo,chara_1,Sleepy,CONT,0
 
 
 window,on,0.15
-message,シラエス,んぁぁ……ねむぅ……<br>むり、ねるのぉ……あちょ……５年……,106801000G,vc_10680100002_047_01,chara_1
+message,シラエス,Nnnhh... sleepy...<br>can't... sleep... more... five yearsh...<br> ,106801000G,vc_10680100002_047_01,chara_1
 
 window,off
 wait,0.15
@@ -1458,11 +1458,11 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,<user>,おねだりの規模がデカい！！<br>５年も寝てたら、苔が生えるぞー！
+message,<user>,That's a huge ask!! Sleep for five years<br>and you'll have moss growing on you!<br> 
 
-message,シラエス,もぉ……わがっだぁ……５時間で、おきるかりゃぁ……,106801000G,vc_10680100002_048_01,on
+message,シラエス,Fiine... unnershtood... five hoursh... I'll wake uph...<br> ,106801000G,vc_10680100002_048_01,on
 
-message,<user>,５分で起きるから、のテンションでしっかり寝ようとすんな！<br>人間の時間で生活するんじゃなかったのか！？
+message,<user>,Don't say 'I'll wake up in five hours' like you're<br>bargaining for five minutes! Weren't you living by human time!?<br> 
 
 window,off
 wait,0.15
@@ -1497,7 +1497,7 @@ asynccharamove,chara_1,Linear,Y,-100,0.2,CONT,0
 
 
 window,on,0.15
-message,シラエス,ぐっ……そ、そうりゃ……！<br>私は大好きなにんげんちょ、少ちでも長く過ごすと誓っら！,106801000G,vc_10680100002_049_01,chara_1
+message,シラエス,Ngh... r-right...!<br>I swore to shpend every moment I can with the humans I love!<br> ,106801000G,vc_10680100002_049_01,chara_1
 
 window,off
 wait,0.15
@@ -1528,9 +1528,9 @@ asyncwait
 
 
 window,on,0.15
-message,シラエス,負けるにゃ私！<br>起き上がりぇぇぇ～～～！,106801000G,vc_10680100002_050_01,chara_1
+message,シラエス,I won't loshe! I'm getting uuup~~~!<br> ,106801000G,vc_10680100002_050_01,chara_1
 
-message,<user>,……口だけ騒がしいのに、<br>さっぱりベッドから出てこない……！
+message,<user>,...All the noise with none of the movement —<br>she hasn't budged from the bed at all...!<br> 
 
 window,off
 wait,0.15
@@ -1553,9 +1553,9 @@ asyncwait
 
 
 window,on,0.15
-message,シラエス,のぉぉぉぉぉ～～～！！！,106801000G,vc_10680100002_051_01,chara_1
+message,シラエス,Nooooo~~~!!!<br> ,106801000G,vc_10680100002_051_01,chara_1
 
-message,<user>,本当に大丈夫なのか……？
+message,<user>,Is she actually going to be okay...?<br> 
 
 window,off
 wait,0.15

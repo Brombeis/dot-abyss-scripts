@@ -169,6 +169,7 @@ roster is listed below.
 | シェリル | Cheryl | Female | |
 | シャオレイ | Xiaolei | Female | |
 | シャノン | Shannon | Female | |
+| シラエス | Shiraes | Female | [Profile](#shiraes-シラエス) |
 | シルヴィア | Sylvia | Female | [Profile](#sylvia-シルヴィア) |
 | ジェンマ | Gemma | Female | |
 | スティーラ | Stila | Female | |
@@ -984,3 +985,83 @@ roster is listed below.
   - Keep ～ as tildes in her whiny/playful moments. She uses them heavily
     when distressed: "I don't wanna~~!", "Why does this keep happening
     to me~..."
+
+### Shiraes (シラエス)
+- **Pronoun:** 私 (watashi) — neutral/calm; delivered with sage warmth, not
+  feminine polish
+- **Addresses MC as:** 司令官君 → **"Commander-kun"** (affectionate, treats
+  him as a beloved younger person)
+- **Role:** Ancient elf wanderer and adventurer. Exact age unknown even to
+  herself — somewhere in the thousands of years. Spent roughly a millennium
+  doing nothing but reading in a forest before a chance encounter with a
+  human adventurer changed her life. Has since wandered among humans,
+  deeply in love with humanity as a whole. Joined the forward base drawn
+  by curiosity and a growing special feeling toward the MC.
+- **Speech style:** Calm, unhurried, and gently authoritative. Uses
+  だ/だよ/だな/だからな/だぞ endings — confident and slightly androgynous-sage,
+  neither stiffly formal nor casually girlish. Her warmth shows in action
+  rather than decoration: no ♪ or ♡, no elongated vowels in normal
+  speech. Three signature verbal habits define her:
+  - **Maternal praise:** よしよし ("there, there"), えらいぞ/えらいえらい
+    ("well done"), いい子だ ("good boy/girl") — delivered with complete
+    sincerity, as if petting a beloved pet or child.
+  - **Elven time scale:** She defaults to centuries and millennia as
+    natural units. "I'll find him within a century." "Rest for 10 years."
+    Catches herself mid-sentence and self-corrects with embarrassed
+    distress.
+  - **Time blindness:** She loses hours or days without noticing —
+    absorbed in a book, watching water, or lost in thought. When she
+    realizes it, she shifts from composed to genuinely mortified:
+    やってしまったぁぁ～～！ ("I did it again~~!")
+  - **Half-asleep mumbling:** When drowsy she loses all composure and
+    babbles garbled syllables: しれーかん、きゅん……おはにょぉぉ……
+  - Laughs with ふふ — gentle and knowing, never girlish.
+- **Key traits:**
+  - **Loves humans.** Her entire motivation. She left the forest because
+    human lives, though brief, shine more brightly than any eternity she
+    could spend alone. "A life so short, yet so dazzlingly bright —
+    that's what I fell in love with."
+  - **Genuinely maternal.** Pats heads, offers lap pillows, plans
+    multi-day massage sessions. Treats everyone as children she wants to
+    protect — but the MC has a special place in that warmth.
+  - **Hopelessly bad with human time.** She knows it's a problem,
+    actively tries to fix it, and keeps failing in increasingly
+    spectacular ways. The comedy is in the gap between her genuine
+    effort and her complete inability to improve.
+  - **Erudite but practical.** Spent a thousand years reading, so she
+    knows almost everything theoretically — including sex, which she
+    approaches with calm scholarly interest when it first happens.
+    "I have quite a lot of knowledge about this from books..."
+  - **Jealousy surfaces rarely.** When she misreads a situation and
+    thinks the MC has a special bond with someone else, her composure
+    cracks into a brief, quiet fluster before she recovers.
+- **Translation notes:**
+  - Her だ endings give her a calm, sage-firm quality — not masculine,
+    but direct and unhurried. Use confident, unhedged English: "Leave
+    it to me," "Don't worry," "I'll handle it," "You did well."
+  - "よしよし" → "There, there~" or "Good, good~" — always with gentle
+    warmth, never teasing.
+  - "えらいぞ/えらいえらい" → "Well done~" / "Good job, good job~" /
+    "You've done well~"
+  - "いい子だ" → "Good boy~" / "Such a good boy~" — sincere, not
+    condescending. She means it every single time.
+  - Time scale comedy: render her default centuries as natural delivery,
+    then make the self-correction feel genuine: "It shouldn't take more
+    than a century— *ahem*. I mean, I'll hurry." The humor is in how
+    automatic the wrong scale is.
+  - When she loses time and notices, shift from composed to distressed
+    with one sudden exclamation: "I did it again...! I've wasted their
+    precious time~~!"
+  - Her half-asleep lines should sound adorably garbled — render
+    slurred syllables phonetically: "C-Commander-kuuu... g'mornin'o..."
+    "Mm... can't... wake up... just... five years..."
+  - Her backstory about the human adventurer (recalled in hmn_003)
+    should sound wistful and reverent — this is the most emotionally
+    significant memory she has: "Her life, from my view, was barely
+    a blink... yet it shone more brilliantly than all my centuries."
+  - When she gets teased or jealous (evs files), her composure briefly
+    cracks — keep it subtle and swift: a short stammer, a quiet "...I
+    see," then immediate recovery.
+  - She uses ～ only in distressed moments (やってしまったぁぁ～～！) —
+    preserve them as tildes when they appear. Her normal speech has no
+    tildes.

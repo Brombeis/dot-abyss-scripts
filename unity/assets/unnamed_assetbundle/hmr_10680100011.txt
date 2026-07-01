@@ -15,7 +15,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
@@ -46,11 +46,11 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,シラエス,やあ、司令官君。今日も仕事に精を出しているね。<br>えらいえらい。,106801000G,vc_10680100011_001_01,chara_1
+message,シラエス,Well，Commander-kun. Hard at work again today，I see.<br>Good，good~.<br> ,106801000G,vc_10680100011_001_01,chara_1
 
-message,,我が子を褒める母親のように微笑みかけてくるシラエス。<br>最近の彼女は毎日のように司令室を訪れている。
+message,,Shiraes smiled down at him like a mother praising her child.<br>Lately，she had been visiting the command room nearly every day.<br> 
 
-message,<user>,嫌々だけどな……というより、シラエス……<br>よく司令室に顔を出してるけど、大丈夫なのか？
+message,<user>,I wouldn't say willingly... anyway，Shiraes —<br>you've been coming to the command room a lot. You okay?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -61,9 +61,9 @@ asyncseplay,setag1_2,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,シラエス,うん？　大丈夫、とは？,106801000G,vc_10680100011_002_01,chara_1
+message,シラエス,Mm? What do you mean by 'alright'?<br> ,106801000G,vc_10680100011_002_01,chara_1
 
-message,<user>,探索も仕事も手伝ってくれてるだろ？　エルフらしく、<br>１年ぐらい働かずにやりたいことをしたい……とか思わないのか？
+message,<user>,You help with exploration and work — don't you ever want<br>to take a year off and do your own thing，elf-style?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -74,7 +74,7 @@ asyncseplay,setag1_3,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,シラエス,ふふ、これが私のやりたいことだよ。,106801000G,vc_10680100011_003_01,chara_1
+message,シラエス,Hehe. This is what I want to do.<br> ,106801000G,vc_10680100011_003_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -85,9 +85,9 @@ asyncseplay,setag1_4,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,シラエス,少しでも長く君と過ごしたいんだ。<br>もっと君のことを知りたいからな。,106801000G,vc_10680100011_004_01,chara_1
+message,シラエス,I want to spend as much time with you as I can.<br>I want to know more about you.<br> ,106801000G,vc_10680100011_004_01,chara_1
 
-message,<user>,お、俺のことを……？
+message,<user>,M-me...?<br> 
 
 window,off
 wait,0.15
@@ -102,7 +102,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（い、いや……勘ぐりはよそう。シラエスは人間なら誰だって<br>大好きなんだ。別に俺だけが特別ってわけじゃないはず…………）
+message,<user>,(N-no... don't read too much into it. Shiraes loves all humans.<br>It's not like I'm anything special to her...........)<br> 
 
 window,off
 wait,0.15
@@ -117,7 +117,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,別に俺じゃなくてもいいだろ？<br>シラエスが大好きな人間はこの基地に沢山いるし。
+message,<user>,It doesn't have to be me，right?<br>There are plenty of humans you love at this base.<br> 
 
 window,off
 wait,0.15
@@ -137,7 +137,7 @@ wait,0.5
 
 
 window,on,0.15
-message,シラエス,――いや、君に感じている好意は他の人間とは違う。,106801000G,vc_10680100011_005_01,chara_1
+message,シラエス,——No. What I feel for you is different from what I feel for other<br>humans.<br> ,106801000G,vc_10680100011_005_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -148,9 +148,9 @@ asyncseplay,setag1_6,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,シラエス,上手く言葉では言い表せないが、そう――特別な、好きだ。<br>君でなければ駄目なんだよ。,106801000G,vc_10680100011_006_01,chara_1
+message,シラエス,I can't quite put it into words，but yes — a special kind of love.<br>It has to be you.<br> ,106801000G,vc_10680100011_006_01,chara_1
 
-message,<user>,お、おぉ……そ、そうなのか。
+message,<user>,O-oh... i-is that so.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -161,9 +161,9 @@ asyncseplay,setag1_7,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,シラエス,迷惑だったかい？,106801000G,vc_10680100011_007_01,chara_1
+message,シラエス,Is that a bother to you?<br> ,106801000G,vc_10680100011_007_01,chara_1
 
-message,<user>,い、いや……はっきり言われてちょっと驚いただけだ。<br>嬉しいよ、シラエス。
+message,<user>,N-no... I was just surprised to hear it said so plainly.<br>I'm glad，Shiraes.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -174,7 +174,7 @@ asyncseplay,setag1_8,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,シラエス,ふふっ……良かった……,106801000G,vc_10680100011_008_01,chara_1
+message,シラエス,Hehe... I'm glad...<br> ,106801000G,vc_10680100011_008_01,chara_1
 
 window,off
 wait,0.15
@@ -201,9 +201,9 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,微笑んだシラエスが、こちらへ歩み寄る。
+message,,Shiraes，still smiling，stepped closer.<br> 
 
-message,<user>,シラエス……？
+message,<user>,Shiraes...?<br> 
 
 window,off
 wait,0.15
@@ -223,14 +223,14 @@ wait,0.5
 
 
 window,on,0.15
-message,シラエス,君のことは、ゆっくり知っていこうと思っていた。だが、エルフの<br>時間感覚だとおそらく何十年とかけてしまう……それは私も本意じゃない。,106801000G,vc_10680100011_009_01,chara_1
+message,シラエス,I intended to come to know you slowly. But by elven standards，<br>that would likely take decades... and that's not what I want either.<br> ,106801000G,vc_10680100011_009_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,シラエス,だから司令官君――今すぐに君のことを教えてくれ……,106801000G,vc_10680100011_010_01,chara_1
+message,シラエス,So Commander-kun — let me know you right now...<br> ,106801000G,vc_10680100011_010_01,chara_1
 
 window,off
 wait,0.15
@@ -286,7 +286,7 @@ emodelete,chara_1,0,0
 fade,In,Black,0
 
 window,on,0.15
-message,,近づいたシラエスがそっと唇を重ねてくる。<br>そして彼女に導かれるようにして、寝室へと足を進めるのだった――
+message,,Shiraes drew close and gently pressed her lips to his.<br>Led by her，he found himself stepping toward the bedroom——<br> 
 
 labeljump,b
 

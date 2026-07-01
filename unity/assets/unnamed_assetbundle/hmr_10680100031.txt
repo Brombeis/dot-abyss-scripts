@@ -18,7 +18,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
@@ -56,9 +56,9 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,前線基地近郊の森の中。<br>シラエスと<user>が基地へと歩みを進めていた。
+message,,In the forest near the forward base，<br>Shiraes and %user% were making their way back.<br> 
 
-message,<user>,調査に付き合ってもらって助かったよ。<br>妙な植物の多い場所だったから、シラエスの知識が頼りだったんだ。
+message,<user>,Thanks for coming along for the survey.<br>There were so many unusual plants — I was relying on your knowledge.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -69,9 +69,9 @@ asyncseplay,setag1_1,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,シラエス,これでも長く森の中で生きていたからな。<br>植物のことなら少しは詳しいつもりだ。,106801000G,vc_10680100031_001_01,chara_1
+message,シラエス,I did live in the forest for a long time，after all.<br>I like to think I know plants reasonably well.<br> ,106801000G,vc_10680100031_001_01,chara_1
 
-message,<user>,少し、どころじゃなかったぞ。<br>俺には雑草にしか見えない草のことも、全部知ってたじゃないか。
+message,<user>,'Reasonably' is an understatement.<br>You knew every plant that just looked like weeds to me.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -82,7 +82,7 @@ asyncseplay,setag1_2,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,シラエス,雑草などという草はない。<br>世界の見え方は知識で変わるものだよ……,106801000G,vc_10680100031_002_01,chara_1
+message,シラエス,There are no such things as weeds.<br>Knowledge changes how you see the world...<br> ,106801000G,vc_10680100031_002_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -93,15 +93,15 @@ asyncseplay,setag1_3,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,シラエス,――おっと、司令官君。<br>危ないから少し止まったほうがいい。,106801000G,vc_10680100031_003_01,chara_1
+message,シラエス,——Whoa，Commander-kun.<br>Stop right there，it's dangerous.<br> ,106801000G,vc_10680100031_003_01,chara_1
 
-message,<user>,……え？　あっ！
+message,<user>,...Hm? Oh!<br> 
 
-message,,反射的に止まろうとしたが間に合わず、<br>足元で妙な形をした草がぐちゃりと潰れ、にごった液体を吹き出した。
+message,,He tried to stop on reflex but was too late — a strangely shaped<br>plant at his feet was crushed，spraying a cloudy liquid.<br> 
 
-message,<user>,うっわ、なんだこれっ！？
+message,<user>,Gah，what is this!?<br> 
 
-message,,避けようとしたが、液体が身体の一部に付着してしまう。<br>すぐに拭き取ったものの、肌が熱くなるような違和感があった。
+message,,He tried to dodge but some got on him.<br>He wiped it off immediately，but a strange heat lingered on his skin.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -112,11 +112,11 @@ asyncseplay,setag1_4,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,シラエス,間に合わなかったか……。<br>その類の植物は、強い衝撃を受けると毒性のある液体を出すんだ。,106801000G,vc_10680100031_004_01,chara_1
+message,シラエス,Didn't make it in time... That type of plant releases<br>a toxic liquid when struck hard.<br> ,106801000G,vc_10680100031_004_01,chara_1
 
-message,<user>,知ってるならもっと早く――って、エルフに言っても仕方ないか。<br>むしろ踏む直前に止めようとしたのはさすがシラエスだよ、くそう。
+message,<user>,If you knew，a faster warning would be nice — but，well，elf.<br>Still，nearly stopping me at the last second — that's Shiraes.<br> 
 
-message,<user>,で、この液体はどういう毒なんだ。<br>まさかとは思うが、俺は死ぬのか？
+message,<user>,So what kind of toxin is this liquid?<br>Don't tell me — am I going to die?<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -127,9 +127,9 @@ asyncseplay,setag1_5,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シラエス,いや。ただ、その液体は強い催淫作用があってね。<br>性欲を発散せずにいると大変なことにはなるだろう。,106801000G,vc_10680100031_005_01,chara_1
+message,シラエス,No. However，that liquid has a strong aphrodisiac effect.<br>If you don't release the urge，things will get difficult.<br> ,106801000G,vc_10680100031_005_01,chara_1
 
-message,<user>,さ、催淫作用！？　<br>なんでそんな草がこんな場所に……！
+message,<user>,An-an aphrodisiac!?<br>Why would a plant like that be here...!<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -140,9 +140,9 @@ asyncseplay,setag1_6,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,シラエス,心配はない。<br>性欲の発散は、私ですませればいいからな。,106801000G,vc_10680100031_006_01,chara_1
+message,シラエス,No need to worry.<br>I can take care of the release for you.<br> ,106801000G,vc_10680100031_006_01,chara_1
 
-message,<user>,いや、シラエスを物みたいに使うのは、さすがに……
+message,<user>,No，using Shiraes like some kind of tool is... a bit much...<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -153,9 +153,9 @@ asyncseplay,setag1_7,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,シラエス,ふむ……であれば……,106801000G,vc_10680100031_007_01,chara_1
+message,シラエス,Mm... in that case...<br> ,106801000G,vc_10680100031_007_01,chara_1
 
-message,,短く思考を巡らせたシラエスは、<br>ふわりと全身に魔法をかける。
+message,,Shiraes paused briefly in thought，<br>then cast a gentle spell over herself.<br> 
 
 window,off
 wait,0.15
@@ -221,9 +221,9 @@ asynccharaemo,chara_2,Spirits,CONT,0
 
 
 window,on,0.15
-message,シラエス,――これで、どうだ？,106801000X,vc_10680100031_008_01,chara_2
+message,シラエス,——How about this?<br> ,106801000X,vc_10680100031_008_01,chara_2
 
-message,,衣服をそっとずらし、シラエスが<user>を誘う。<br>すでに催淫効果がまわっており、我慢することなどできないのだった――
+message,,Shifting her clothing aside，Shiraes invited %user% in.<br>The aphrodisiac had already taken hold — there was no resisting——<br> 
 
 labeljump,b
 
