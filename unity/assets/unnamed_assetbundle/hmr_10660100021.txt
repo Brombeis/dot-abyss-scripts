@@ -15,7 +15,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
@@ -45,9 +45,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒマリ,うぅ……着替えてみたけど……<br>これ、露出が多くて恥ずかしいな……,106601000X,vc_10660100021_001_01,chara_1
+message,ヒマリ,Ngh... I tried it on，but...<br>this shows so much skin，it's embarrassing...<br> ,106601000X,vc_10660100021_001_01,chara_1
 
-message,,娼館衣装に身を包んだヒマリは、<br>鏡の前で頬を赤らめていた。
+message,,Dressed in a brothel outfit，Himari<br>blushes in front of the mirror.<br> 
 
 window,off
 wait,0.15
@@ -66,7 +66,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒマリ,って、このくらいで恥ずかしがってちゃだめ……だよね。<br>しれーかんのために娼館で働くって決めたんだし、頑張らないと……っ。,106601000X,vc_10660100021_002_01,chara_1
+message,ヒマリ,B-but，I can't be shy over something like this... right. I decided to<br>work at the brothel for the Commander's sake，so I have to try hard...!<br> ,106601000X,vc_10660100021_002_01,chara_1
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -75,7 +75,7 @@ asyncseplay,setag1_3,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ヒマリ,よし……行こう……。<br>お客さん――いるのかな？,106601000X,vc_10660100021_003_01,chara_1
+message,ヒマリ,Okay... let's go...<br>I wonder if there are any customers...<br> ,106601000X,vc_10660100021_003_01,chara_1
 
 window,off
 wait,0.15
@@ -138,7 +138,7 @@ wait,1
 asyncseplay,se1_1001,se4600009,0,1,CONT,0
 
 window,on,0.15
-message,,ヒマリが現れると、酒場に集まっていた男たちから<br>わぁっ！　と歓声が上がった。
+message,,When Himari appears，the men gathered in the tavern<br>let out a roar of cheers.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -148,9 +148,9 @@ asyncseplay,setag1_7,se4800017,0,1,CONT,0
 
 asynccharaemo,chara_1,Shock,CONT,0
 
-message,兵士Ａ,天使が降臨なされた……！,900000001
+message,兵士Ａ,An angel has descended...!<br> ,900000001
 
-message,兵士Ｂ,これは、売れっ子間違いなしだ……！！,900000001
+message,兵士Ｂ,She's guaranteed to be a top seller...!!<br> ,900000001
 
 sestop,se1_1001,2
 
@@ -163,11 +163,11 @@ asyncseplay,setag1_8,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ヒマリ,え、あ……うぅぅ……あ、りがと。,106601000X,vc_10660100021_004_01,chara_1
+message,ヒマリ,Eh，ah... ngh... th-thank you.<br> ,106601000X,vc_10660100021_004_01,chara_1
 
-message,兵士Ｃ,は、恥ずかしがっているぞ！<br>なんて、可愛いんだ……！！,900000001
+message,兵士Ｃ,S-she's shy!<br>How adorable...!!<br> ,900000001
 
-message,,その後、兵士たちは誰がヒマリに相手してもらうのか、協議を始める。<br>一番手を争う交渉は熱を帯び、喧嘩に発展しそうなほどの勢いだった。
+message,,Afterward，the soldiers begin arguing over who gets to be with Himari<br>first. The negotiation for first place grows so heated it nearly turns into a brawl.<br> 
 
 window,off
 wait,0.15
@@ -192,9 +192,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,あ、あの……。<br>喧嘩、ダメ……仲良くして？,106601000X,vc_10660100021_005_01,chara_1
+message,ヒマリ,Um，excuse me...<br>please don't fight... can't you all get along?<br> ,106601000X,vc_10660100021_005_01,chara_1
 
-message,,はい！！　と素直に返事をする兵士たち。<br>彼らは平和的に、じゃんけんで順番を決めることにした。そして――
+message,,Yes ma'am!! the soldiers reply obediently. They peacefully decide<br>the order with rock-paper-scissors. And then——<br> 
 
 labeljump,b
 

@@ -23,7 +23,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
@@ -31,9 +31,9 @@ bgmplay,bgmtag1_1,bgm0024,0.75,1
 
 
 window,on,0.15
-message,ヒマリ,ん……,106601000G,vc_10660100002_001_01,
+message,ヒマリ,Mm...<br> ,106601000G,vc_10660100002_001_01,
 
-message,,窓から差し込んだ朝日が少女の顔を照らす。<br>ヒマリはまぶしげに薄く目を開けて、ふらふらと片手をさまよわせた。
+message,,Morning sunlight through the window lights up the girl's face.<br>Himari squints，cracking her eyes open，and gropes with one hand.<br> 
 
 window,off
 wait,0.15
@@ -78,7 +78,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,朝……いま、何時……？　学校……行かなきゃ……。<br>そろそろ、スマホ……アラーム鳴っちゃう……あっ。,106601000G,vc_10660100002_002_01,chara_1
+message,ヒマリ,Morning... what time is it...? Gotta go to... school...<br>My phone alarm's about to go off... oh.<br> ,106601000G,vc_10660100002_002_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -89,7 +89,7 @@ asyncseplay,setag1_2,se4800014,0,1,CONT,0
 
 asynccharaemo,chara_1,Silence,CONT,0
 
-message,,しかし彼女が手にしていたのは、<br>愛用していたスマホではなくシエナからもらった通信機だった。
+message,,But what she's holding in her hand<br>isn't her beloved phone — it's the communicator Shiena gave her.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -100,9 +100,9 @@ asyncseplay,setag1_3,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒマリ,そっか……。<br>学校、行かなくて……いいんだった……,106601000G,vc_10660100002_003_01,chara_1
+message,ヒマリ,Oh，right...<br>I don't... have to go to school...<br> ,106601000G,vc_10660100002_003_01,chara_1
 
-message,,ヒマリはふと、昨日の大穴探索のことを思い出す。<br>戦闘中の情けない姿を思いだし、思わずため息をこぼしてしまう。
+message,,Himari suddenly remembers yesterday's Abyss expedition.<br>Recalling how pathetic she looked in battle，she can't help but sigh.<br> 
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -111,7 +111,7 @@ asyncseplay,setag1_4,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ヒマリ,はぁ…………,106601000G,vc_10660100002_004_01,chara_1
+message,ヒマリ,Haah.........<br> ,106601000G,vc_10660100002_004_01,chara_1
 
 window,off
 wait,0.15
@@ -138,7 +138,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,（なんか、動く気になれない、かも。<br>このまま寝てようかな……）,106601000G,vc_10660100002_005_01,chara_1
+message,ヒマリ,(I just... don't feel like moving，I guess.<br>Maybe I'll just stay in bed...)<br> ,106601000G,vc_10660100002_005_01,chara_1
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -147,7 +147,7 @@ asyncseplay,setag1_6,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒマリ,（見つけたお菓子も、みんな検査で持って行かれちゃったし……。<br>久々に食べてみたかったな……）,106601000G,vc_10660100002_006_01,chara_1
+message,ヒマリ,(They took all the snacks we found for testing，too...<br>I really wanted to try them again...)<br> ,106601000G,vc_10660100002_006_01,chara_1
 
 window,off
 wait,0.15
@@ -191,7 +191,7 @@ asynccharaemo,chara_2,Twinkle,CONT,0
 
 
 window,on,0.15
-message,クルル,ヒマリーっ！,106701000G,vc_10660100002_007_01,chara_2
+message,クルル,Himariii!<br> ,106701000G,vc_10660100002_007_01,chara_2
 
 window,off
 wait,0.15
@@ -245,9 +245,9 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,わっ……,106601000G,vc_10660100002_008_01,chara_1
+message,ヒマリ,Wah...<br> ,106601000G,vc_10660100002_008_01,chara_1
 
-message,,ノックもなく、勢いよく扉が開かれる。<br>室内に飛び込んできたのは満面の笑顔を浮かべたクルルだった。
+message,,With no knock，the door bursts open.<br>Bounding into the room is Kururu，grinning ear to ear.<br> 
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -258,7 +258,7 @@ asyncseplay,setag1_10,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,クルル,おはよー。<br>今日もお外はぽかぽかだよ～！,106701000G,vc_10660100002_009_01,chara_2
+message,クルル,Mornin'~.<br>It's nice and warm outside today too~!<br> ,106701000G,vc_10660100002_009_01,chara_2
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -270,7 +270,7 @@ asyncseplay,setag1_11,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒマリ,うん、いい天気みたいだね……？,106601000G,vc_10660100002_010_01,chara_1
+message,ヒマリ,Yeah，sounds like nice weather...?<br> ,106601000G,vc_10660100002_010_01,chara_1
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -282,7 +282,7 @@ asyncseplay,setag1_12,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,クルル,ヒマリ！<br>基地の探検に行こう！,106701000G,vc_10660100002_011_01,chara_2
+message,クルル,Himari!<br>Let's go explore the base!<br> ,106701000G,vc_10660100002_011_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -293,7 +293,7 @@ asyncseplay,setag1_13,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ヒマリ,えっ！？　……探検？,106601000G,vc_10660100002_012_01,chara_1
+message,ヒマリ,Eh!? ...Explore?<br> ,106601000G,vc_10660100002_012_01,chara_1
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -304,7 +304,7 @@ asyncseplay,setag1_14,se4800003,0,1,CONT,0
 asynccharaemo,chara_2,Twinkle,CONT,0
 
 
-message,クルル,うん！　だって、ヒマリいっつも部屋にいるでしょ？<br>だから一緒に探検するの！,106701000G,vc_10660100002_013_01,chara_2
+message,クルル,Yeah! 'Cause Himari's always in her room，right?<br>So let's go explore together!<br> ,106701000G,vc_10660100002_013_01,chara_2
 
 
 window,off
@@ -370,7 +370,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,えへへ～。<br>今日はクルルが基地の中、ぜーんぶ案内するから！,106701000G,vc_10660100002_014_01,chara_2
+message,クルル,Ehehe~.<br>Today Kururu's gonna show you the whole base!<br> ,106701000G,vc_10660100002_014_01,chara_2
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -381,7 +381,7 @@ asyncseplay,setag1_16,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヒマリ,うん、ありがとう……,106601000G,vc_10660100002_015_01,chara_1
+message,ヒマリ,Okay，thank you...<br> ,106601000G,vc_10660100002_015_01,chara_1
 
 window,off
 wait,0.15
@@ -436,7 +436,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,（勢いでついてきちゃったけど……やっぱり落ち着かないな、ここ。 <br>なんだかみんな、ちょっとピリピリしてる感じで……）,106601000G,vc_10660100002_016_01,chara_1
+message,ヒマリ,(I got swept up and came along，but... this place puts me on edge.<br>Everyone seems kind of on-edge too...)<br> ,106601000G,vc_10660100002_016_01,chara_1
 
 window,off
 wait,0.15
@@ -481,7 +481,7 @@ asynccharaemo,chara_4,BePeevish,CONT,0
 
 
 window,on,0.15
-message,傭兵の男,おいおい先週からまた値上がってるじゃねえか！ <br>こっちは命かけて戦ってんだぞ？,401501000,,chara_4
+message,傭兵の男,Hey now，prices went up again since last week!<br>We're the ones risking our necks out here!<br> ,401501000,,chara_4
 
 asynccharaface,chara_3,FaceAnger,CONT,0
 
@@ -492,7 +492,7 @@ asyncseplay,setag1_19,se4800001,0,1,CONT,0
 asynccharaemo,chara_3,Anger,CONT,0
 
 
-message,商人の男,食堂が新しいメニューを開発するって、薪を買い上げてったんだ。 <br>追加が届くまで節約して使え！,400301000,,chara_3
+message,商人の男,The mess hall bought up all the firewood for some new menu.<br>Ration what you've got till the next shipment comes in!<br> ,400301000,,chara_3
 
 window,off
 wait,0.15
@@ -546,7 +546,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,今日もわいわい賑やかだね～,106701000G,vc_10660100002_017_01,chara_2
+message,クルル,Nice and lively today too~<br> ,106701000G,vc_10660100002_017_01,chara_2
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -555,7 +555,7 @@ asyncseplay,setag1_21,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒマリ,う、うん……,106601000G,vc_10660100002_018_01,chara_1
+message,ヒマリ,Y-yeah...<br> ,106601000G,vc_10660100002_018_01,chara_1
 
 window,off
 wait,0.15
@@ -610,7 +610,7 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,（あちこちで危ない話をしてるし、みんな武器を持ってる。<br>あたりまえだよね……。ここは戦場なんだもの……）,106601000G,vc_10660100002_019_01,chara_1
+message,ヒマリ,(People are talking about dangerous stuff everywhere，everyone's<br>armed. I guess that makes sense... this is a battlefield，after all...)<br> ,106601000G,vc_10660100002_019_01,chara_1
 
 window,off
 wait,0.15
@@ -666,7 +666,7 @@ asynccharaemo,chara_2,Spirits,CONT,0
 
 
 window,on,0.15
-message,クルル,お買いものしていこ～！ <br>こっちこっち～！,106701000G,vc_10660100002_020_01,chara_2
+message,クルル,Let's go shopping~!<br>This way，this way~!<br> ,106701000G,vc_10660100002_020_01,chara_2
 
 window,off
 wait,0.15
@@ -695,7 +695,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,待って、クルル……！,106601000G,vc_10660100002_021_01,chara_1
+message,ヒマリ,Wait，Kururu...!<br> ,106601000G,vc_10660100002_021_01,chara_1
 
 window,off
 wait,0.15
@@ -751,7 +751,7 @@ asynccharaemo,chara_2,Twinkle,CONT,0
 
 
 window,on,0.15
-message,クルル,みてみて～！　ここ、い～～ぱい、便利なもの売ってるんだよ！<br>これしってる～？　岩山登る時にすっごく登りやすいの～！,106701000G,vc_10660100002_022_01,chara_2
+message,クルル,Look，look~! They sell tons of handy stuff here!<br>You know this~? It makes climbing rocky mountains super easy~!<br> ,106701000G,vc_10660100002_022_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -762,7 +762,7 @@ asyncseplay,setag1_28,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒマリ,そ、そうなんだ……,106601000G,vc_10660100002_023_01,chara_1
+message,ヒマリ,O-oh，really...<br> ,106601000G,vc_10660100002_023_01,chara_1
 
 window,off
 wait,0.15
@@ -817,7 +817,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,（登山の道具かな……？　こっちには罠みたいなものもあるし……。<br>なんか物騒なものばかり売ってる……）,106601000G,vc_10660100002_024_01,chara_1
+message,ヒマリ,(Climbing gear，maybe...? And this looks kind of like a trap...<br>Everything here seems so dangerous...)<br> ,106601000G,vc_10660100002_024_01,chara_1
 
 window,off
 wait,0.15
@@ -849,9 +849,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,……あれ？<br>これ、綺麗……,106601000G,vc_10660100002_025_01,chara_1
+message,ヒマリ,...Huh?<br>This is... pretty...<br> ,106601000G,vc_10660100002_025_01,chara_1
 
-message,,ヒマリは、キラキラと光るクリスタルに目が留まる。
+message,,Himari's eyes catch on a sparkling，glittering crystal.<br> 
 
 window,off
 wait,0.15
@@ -878,7 +878,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,（普通の宝石が売ってる。<br>こういうアクセサリーもあるんだ）,106601000G,vc_10660100002_026_01,chara_1
+message,ヒマリ,(They sell regular gems too.<br>So they have accessories like this here...)<br> ,106601000G,vc_10660100002_026_01,chara_1
 
 window,off
 wait,0.15
@@ -934,9 +934,9 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,ほんとだー、ピカピカ光ってキレイだね～！<br>おばちゃん、これなーに？,106701000G,vc_10660100002_027_01,chara_2
+message,クルル,Oh yeah，it's all shiny and pretty~!<br>Ma'am，what's this?<br> ,106701000G,vc_10660100002_027_01,chara_2
 
-message,商人の女,それは採掘用の爆弾だよ。 <br>ちょいっと魔力を込めて、軽く投げればどかーんさ。,900000001,vc_10660100002_028_01,
+message,商人の女,That's a mining bomb，dearie.<br>Just pump a bit of mana in and toss it lightly — boom.<br> ,900000001,vc_10660100002_028_01,
 
 window,off
 wait,0.15
@@ -991,7 +991,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,（ば、爆弾か……。や、やっぱり物騒なモノだった……）,106601000G,vc_10660100002_029_01,chara_1
+message,ヒマリ,(A-a bomb...? I-I knew it was dangerous...)<br> ,106601000G,vc_10660100002_029_01,chara_1
 
 window,off
 wait,0.15
@@ -1048,7 +1048,7 @@ asynccharaemo,chara_2,Twinkle,CONT,0
 
 
 window,on,0.15
-message,クルル,すごいねー、便利かも！<br>ヒマリ、買っていく～～？,106701000G,vc_10660100002_030_01,chara_2
+message,クルル,Wow，that could be handy!<br>Himari，wanna get one~?<br> ,106701000G,vc_10660100002_030_01,chara_2
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1060,9 +1060,9 @@ asyncseplay,setag1_36,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ヒマリ,……ううん、やめとく。,106601000G,vc_10660100002_031_01,chara_1
+message,ヒマリ,...No，I'll pass.<br> ,106601000G,vc_10660100002_031_01,chara_1
 
-message,,彼女には宝石に見えた爆弾を、恐る恐る棚へ戻す。<br>ヒマリはもう商品に手を伸ばす気分になれなかった。
+message,,She gingerly puts back the bomb that looked like a gem to her.<br>Himari no longer feels like reaching for anything else on the shelf.<br> 
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -1073,7 +1073,7 @@ asyncseplay,setag1_37,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,クルル,ヒマリ！　次はあっちにいこう！<br>クルルのお気に入りのところ、連れてくね！,106701000G,vc_10660100002_032_01,chara_2
+message,クルル,Himari! Let's go over there next!<br>I'll take you to Kururu's favorite spot!<br> ,106701000G,vc_10660100002_032_01,chara_2
 
 
 window,off
@@ -1117,7 +1117,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,ここはおいしーご飯を出してくれるところ！ <br>ねーねー、いつもの作ってー！,106701000G,vc_10660100002_033_01,chara_2
+message,クルル,This place serves yummy food!<br>Hey，hey，make me the usual~!<br> ,106701000G,vc_10660100002_033_01,chara_2
 
 window,off
 wait,0.15
@@ -1135,7 +1135,7 @@ emodelete,chara_2,0,0
 asyncwait
 
 window,on,0.15
-message,料理番,あら、クルルじゃない。<br>はいはい、ちょっと待ってなさいな。,900000001,vc_10660100002_034_01,
+message,料理番,Oh，if it isn't Kururu.<br>Alright，alright，just wait a bit.<br> ,900000001,vc_10660100002_034_01,
 
 window,off
 wait,0.15
@@ -1180,7 +1180,7 @@ asynccharamove,chara_2,EaseOut,X,-100,0.3,CONT,0
 asyncwait
 
 window,on,0.15
-message,,キッチンの奥から声がして、しばらくあと。<br>クルルはたっぷりとハチミツのかかったパンを持って戻ってきた。
+message,,A voice calls from deep in the kitchen，and a while later，<br>Kururu comes back with bread drenched in honey.<br> 
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -1191,7 +1191,7 @@ asyncseplay,setag1_40,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,クルル,ほら、ヒマリも食べて食べて！<br>クルル、これ大好きなんだ～！,106701000G,vc_10660100002_035_01,chara_2
+message,クルル,Here，Himari，eat up，eat up!<br>Kururu loves this stuff~!<br> ,106701000G,vc_10660100002_035_01,chara_2
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -1200,9 +1200,9 @@ asyncseplay,setag1_41,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヒマリ,ありがとう、いただきます……,106601000G,vc_10660100002_036_01,chara_1
+message,ヒマリ,Thanks，I'll dig in...<br> ,106601000G,vc_10660100002_036_01,chara_1
 
-message,,勧められるままにパンを口にしたヒマリが、大きく目を見開く。
+message,,Taking a bite as urged，Himari's eyes go wide.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1213,7 +1213,7 @@ asyncseplay,setag1_42,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ヒマリ,美味しい……すっごく！,106601000G,vc_10660100002_037_01,chara_1
+message,ヒマリ,It's good... so good!<br> ,106601000G,vc_10660100002_037_01,chara_1
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -1224,7 +1224,7 @@ asyncseplay,setag1_43,se4800003,0,1,CONT,0
 asynccharaemo,chara_2,Twinkle,CONT,0
 
 
-message,クルル,でしょっ？ <br>やったーっ！,106701000G,vc_10660100002_038_01,chara_2
+message,クルル,Right~!?<br>Yay!<br> ,106701000G,vc_10660100002_038_01,chara_2
 
 window,off
 wait,0.15
@@ -1280,7 +1280,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,（いつも食べてたハチミツよりずっと美味しく感じる。 <br>そっか……この世界は、自然がすごく豊かだから……）,106601000G,vc_10660100002_039_01,chara_1
+message,ヒマリ,(This tastes so much better than the honey I used to have.<br>Oh，right... nature's so much richer in this world...)<br> ,106601000G,vc_10660100002_039_01,chara_1
 
 window,off
 wait,0.15
@@ -1338,7 +1338,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,ヒマリ、美味しいもの食べて元気出たよね。 <br>それじゃあ行こっか！,106701000G,vc_10660100002_040_01,chara_2
+message,クルル,Himari，you got your energy back from the yummy food，right?<br>Then let's get going!<br> ,106701000G,vc_10660100002_040_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1349,7 +1349,7 @@ asyncseplay,setag1_46,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ヒマリ,行くって……どこに？,106601000G,vc_10660100002_041_01,chara_1
+message,ヒマリ,Going... where?<br> ,106601000G,vc_10660100002_041_01,chara_1
 
 
 bgmstop,bgmtag1_1,1.5,0
@@ -1429,9 +1429,9 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,ご主人さまー！　ヒマリ、連れてきたよ！,106701000G,vc_10660100002_042_01,chara_2
+message,クルル,Master~! I brought Himari!<br> ,106701000G,vc_10660100002_042_01,chara_2
 
-message,<user>,案内ご苦労さん。 <br>……ずいぶんと時間がかかったが、トラブルか？
+message,<user>,Good work showing her around.<br>...Took quite a while，though. Trouble?<br> 
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -1442,7 +1442,7 @@ asyncseplay,setag1_49,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,クルル,えー、何もないよ？ <br>楽しかったよね、ヒマリ？,106701000G,vc_10660100002_043_01,chara_2
+message,クルル,Huh，nothing happened!<br>It was fun，right，Himari?<br> ,106701000G,vc_10660100002_043_01,chara_2
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -1451,9 +1451,9 @@ asyncseplay,setag1_50,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒマリ,う、うん。,106601000G,vc_10660100002_044_01,chara_1
+message,ヒマリ,Y-yeah.<br> ,106601000G,vc_10660100002_044_01,chara_1
 
-message,<user>,……たっぷり寄り道をしてたようだな？ <br>ったく、さっさと連れてこいって言ったのに。
+message,<user>,...Sounds like you took quite the detour.<br>Geez，I told you to bring her here quickly.<br> 
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -1464,9 +1464,9 @@ asyncseplay,setag1_51,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,クルル,ごめんなさーい。 <br>次はもうちょっと早く来るね！,106701000G,vc_10660100002_045_01,chara_2
+message,クルル,Sorryyy~.<br>I'll come a little faster next time!<br> ,106701000G,vc_10660100002_045_01,chara_2
 
-message,<user>,もうちょっとって……改める気がないな、こいつ。 <br>ヒマリも付き合わせて悪かったな。
+message,<user>,A little... she's not even trying to fix it.<br>Sorry for dragging you along too，Himari.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1477,9 +1477,9 @@ asyncseplay,setag1_52,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒマリ,う、ううん。 <br>楽しかったよ……？,106601000G,vc_10660100002_046_01,chara_1
+message,ヒマリ,N-no，not at all.<br>It was fun...?<br> ,106601000G,vc_10660100002_046_01,chara_1
 
-message,<user>,そうか。 <br>ま、それなら良しとしておこう。
+message,<user>,I see.<br>Well，I'll let it slide，then.<br> 
 
 window,off
 wait,0.15
@@ -1506,7 +1506,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,（そんなに怒ってないみたい。<br>ヒマリのことも助けてくれたし……怖い人じゃない、よね）,106601000G,vc_10660100002_047_01,chara_1
+message,ヒマリ,(He doesn't seem that mad.<br>He's helped me before，too... he's not scary，right?)<br> ,106601000G,vc_10660100002_047_01,chara_1
 
 window,off
 wait,0.15
@@ -1523,7 +1523,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,さて、わざわざ来てもらったことだし、本題に入ろう。<br>大穴で見つかったこの鞄……ヒマリの元いた世界と同じものらしいな？
+message,<user>,Alright，since you're here，let's get to the point. This bag we found<br>in the Abyss... same as ones from your old world，right?<br> 
 
 window,off
 wait,0.15
@@ -1569,11 +1569,11 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,うん。スクールバッグだと思う……。<br>ヒマリたちの学校のとは違う色だけど……,106601000G,vc_10660100002_048_01,chara_1
+message,ヒマリ,Yeah. I think it's a school bag...<br>It's a different color from ours，but...<br> ,106601000G,vc_10660100002_048_01,chara_1
 
-message,<user>,中に入ってた袋も、調査の結果、危険性は特にないそうだ。<br>ヒマリの言ってたように、お菓子が入ってるみたいだな。
+message,<user>,The packets inside checked out safe，no danger at all.<br>Just like you said，Himari — looks like snacks.<br> 
 
-message,<user>,アーデルハイトが言うにはその袋の中身は食べられるらしいし、<br>ヒマリに渡しておくよ。お前たちの戦利品だからな。
+message,<user>,Adelheid says the contents are edible，<br>so I'll hand them over to you. It's your spoils，after all.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1584,7 +1584,7 @@ asyncseplay,setag1_55,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒマリ,戦利品……？<br>あ……ありがとう……,106601000G,vc_10660100002_049_01,chara_1
+message,ヒマリ,Spoils...?<br>Ah... thank you...<br> ,106601000G,vc_10660100002_049_01,chara_1
 
 window,off
 wait,0.15
@@ -1610,7 +1610,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,（これ……シエナが好きだったお菓子だ……。<br>今度、一緒に食べようかな……）,106601000G,vc_10660100002_050_01,chara_1
+message,ヒマリ,(This is... the snack Shiena used to like...<br>Maybe I'll share it with her next time...)<br> ,106601000G,vc_10660100002_050_01,chara_1
 
 window,off
 wait,0.15
@@ -1666,7 +1666,7 @@ asynccharaemo,chara_2,Question,CONT,0
 
 
 window,on,0.15
-message,クルル,食べものなの～？　それ、おいしいやつ～？,106701000G,vc_10660100002_051_01,chara_2
+message,クルル,Is that food~? Is it the yummy kind~?<br> ,106701000G,vc_10660100002_051_01,chara_2
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1677,7 +1677,7 @@ asyncseplay,setag1_58,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヒマリ,うん。美味しいよ。<br>あとでみんなで分けて食べようね？,106601000G,vc_10660100002_052_01,chara_1
+message,ヒマリ,Yeah，it's really good.<br>Let's all share it later，okay?<br> ,106601000G,vc_10660100002_052_01,chara_1
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -1688,7 +1688,7 @@ asyncseplay,setag1_59,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,クルル,やった、やったぁ～！,106701000G,vc_10660100002_053_01,chara_2
+message,クルル,Yay，yay~!<br> ,106701000G,vc_10660100002_053_01,chara_2
 
 window,off
 wait,0.15
@@ -1744,7 +1744,7 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,（戦利品って言ってたけど、わたしは何もしてない……。<br>これを食べる権利があるのはクルルのほうだよね……）,106601000G,vc_10660100002_054_01,chara_1
+message,ヒマリ,(He called it spoils，but I didn't do anything...<br>Kururu's the one with the right to eat this，really...)<br> ,106601000G,vc_10660100002_054_01,chara_1
 
 window,off
 wait,0.15
@@ -1761,7 +1761,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,……ヒマリ。<br>まだ昨日のこと、気にしてるのか？
+message,<user>,...Himari.<br>Still bothered about yesterday?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1772,9 +1772,9 @@ asyncseplay,setag1_61,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ヒマリ,うん……だって、何もできなかったし……,106601000G,vc_10660100002_055_01,chara_1
+message,ヒマリ,Yeah... 'cause I couldn't do anything...<br> ,106601000G,vc_10660100002_055_01,chara_1
 
-message,<user>,ヒマリが元いた世界は、もっともっと平和な世界だったんだろ？<br>急に生活が変わったんだ。混乱するのもしょうがない。
+message,<user>,Your old world was way more peaceful，wasn't it?<br>Your whole life changed overnight. No wonder you're overwhelmed.<br> 
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1786,9 +1786,9 @@ asyncseplay,setag1_62,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒマリ,うん……,106601000G,vc_10660100002_056_01,chara_1
+message,ヒマリ,Yeah...<br> ,106601000G,vc_10660100002_056_01,chara_1
 
-message,<user>,クルルと一緒に基地なのかを色々見て回ったんだろ？<br>感想はどうだ？
+message,<user>,You went around the base with Kururu，right?<br>What did you think?<br> 
 
 window,off
 wait,0.15
@@ -1813,7 +1813,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,いろいろと……驚いた……,106601000G,vc_10660100002_057_01,chara_1
+message,ヒマリ,I was... surprised，a lot...<br> ,106601000G,vc_10660100002_057_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1824,11 +1824,11 @@ asyncseplay,setag1_65,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒマリ,みんなピリピリしてて、ちょっと怖いなって……。<br>売ってるものも物騒なものばっかりだったし……,106601000G,vc_10660100002_058_01,chara_1
+message,ヒマリ,Everyone seemed on edge，and it was kind of scary...<br>Everything for sale was dangerous-looking，too...<br> ,106601000G,vc_10660100002_058_01,chara_1
 
-message,<user>,ああ、それは仕方ない。<br>ここは厄災に対抗する最前線、特殊な場所だからな。
+message,<user>,Yeah，that can't be helped. This is the front line against the<br>Calamities. It's a special kind of place.<br> 
 
-message,<user>,他の街には、もう少し娯楽もあって、<br>ヒマリの住みやすい場所もあるかもしれないがな。
+message,<user>,Other towns have more entertainment，though —<br>somewhere easier for you to live might exist among them.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1840,9 +1840,9 @@ asyncseplay,setag1_66,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒマリ,そうなんだ……,106601000G,vc_10660100002_059_01,chara_1
+message,ヒマリ,I see...<br> ,106601000G,vc_10660100002_059_01,chara_1
 
-message,<user>,ヒマリ。お前は、無理に戦うことはない。<br>もっと安全な場所に移り住んでもいいんだぞ？
+message,<user>,Himari. You don't have to force yourself to fight.<br>You could move somewhere safer，you know?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1853,7 +1853,7 @@ asyncseplay,setag1_67,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ヒマリ,え……？　そ、それは……,106601000G,vc_10660100002_060_01,chara_1
+message,ヒマリ,Eh...? Th-that's...<br> ,106601000G,vc_10660100002_060_01,chara_1
 
 window,off
 wait,0.15
@@ -1905,7 +1905,7 @@ asynccharaemo,chara_2,Trouble,CONT,0
 
 
 window,on,0.15
-message,クルル,え～～！　クルル、ヒマリと一緒がいいよ～。,106701000G,vc_10660100002_061_01,chara_2
+message,クルル,Ehh~! Kururu wants to stay with Himari~.<br> ,106701000G,vc_10660100002_061_01,chara_2
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1917,9 +1917,9 @@ asyncseplay,setag1_69,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒマリ,クルル……,106601000G,vc_10660100002_062_01,chara_1
+message,ヒマリ,Kururu...<br> ,106601000G,vc_10660100002_062_01,chara_1
 
-message,<user>,俺としても、ヒマリにはここに残ってもらいたいけどな。
+message,<user>,For what it's worth，I'd like you to stay here too，Himari.<br> 
 
 window,off
 wait,0.15
@@ -1965,9 +1965,9 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,しれーかん……,106601000G,vc_10660100002_063_01,chara_1
+message,ヒマリ,Commander...<br> ,106601000G,vc_10660100002_063_01,chara_1
 
-message,<user>,ヒマリ。俺はな、この前線基地を、<br>どこよりも安全で平和な場所にしたいと思ってるんだ。
+message,<user>,Himari. I want to make this forward base<br>into the safest，most peaceful place there is.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1978,11 +1978,11 @@ asyncseplay,setag1_71,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヒマリ,え？　この前線基地を……？,106601000G,vc_10660100002_064_01,chara_1
+message,ヒマリ,Eh? This forward base...?<br> ,106601000G,vc_10660100002_064_01,chara_1
 
-message,<user>,ああ。楽しいことでいっぱい、美味しいものでいっぱい。<br>毎日生きてて良かったと思えるような、そんな場所にするんだ。
+message,<user>,Yeah. Full of fun things，full of good food.<br>Somewhere that makes you glad to be alive every day.<br> 
 
-message,<user>,ヒマリの元いた世界って、そういう場所だったんだろ？
+message,<user>,Your old world was a place like that，wasn't it?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1994,9 +1994,9 @@ asyncseplay,setag1_72,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒマリ,えっ……！？<br>う、うん……,106601000G,vc_10660100002_065_01,chara_1
+message,ヒマリ,Eh...!?<br>Y-yeah...<br> ,106601000G,vc_10660100002_065_01,chara_1
 
-message,<user>,ヒマリの住んでいた街のこと、もっと詳しく教えてくれないか？<br>そんな平和でみんなが住みやすい場所を、俺も作ってみたいんだ。
+message,<user>,Could you tell me more about the town you lived in?<br>I want to try building a place that peaceful，too.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -2007,7 +2007,7 @@ asyncseplay,setag1_73,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ヒマリ,え……？　ヒマリの住んでた街みたいにしたいってこと？<br>この場所を……？,106601000G,vc_10660100002_066_01,chara_1
+message,ヒマリ,Eh...? You want to make this place like the town I lived in...?<br>This place...?<br> ,106601000G,vc_10660100002_066_01,chara_1
 
 window,off
 wait,0.15
@@ -2059,7 +2059,7 @@ asynccharaemo,chara_2,Twinkle,CONT,0
 
 
 window,on,0.15
-message,クルル,え～、なにそれ～！　それ、たのしそ～！,106701000G,vc_10660100002_067_01,chara_2
+message,クルル,Ehh，what's that~! Sounds like fun~!<br> ,106701000G,vc_10660100002_067_01,chara_2
 
 window,off
 wait,0.15
@@ -2114,7 +2114,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,（しれーかん、やっぱりいい人だ。<br>この基地の人たちのこと、こんなに思って……）,106601000G,vc_10660100002_068_01,chara_1
+message,ヒマリ,(The Commander really is a good person.<br>He cares about everyone here so much...)<br> ,106601000G,vc_10660100002_068_01,chara_1
 
 window,off
 wait,0.15
@@ -2131,7 +2131,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,そこで、まずヒマリたちの世界のことを知るうえでだ。<br>その、袋のお菓子を、少しだけ分けてくれないか？
+message,<user>,So，to start understanding your world a bit better...<br>could you share a little of those snacks with me?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -2142,7 +2142,7 @@ asyncseplay,setag1_76,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ヒマリ,えっ？　お菓子……？,106601000G,vc_10660100002_069_01,chara_1
+message,ヒマリ,Eh? The snacks...?<br> ,106601000G,vc_10660100002_069_01,chara_1
 
 window,off
 wait,0.15
@@ -2194,9 +2194,9 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,あはは！　なーんだ、ご主人さまも食べたかったんだ～！,106701000G,vc_10660100002_070_01,chara_2
+message,クルル,Ahaha! Oh，so Master wanted to eat them too~!<br> ,106701000G,vc_10660100002_070_01,chara_2
 
-message,<user>,いや、そりゃ気になるだろ？<br>俺だって、どんな味がするのか興味ある。
+message,<user>,Well，of course I'm curious.<br>I want to know what they taste like too.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -2207,7 +2207,7 @@ asyncseplay,setag1_78,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヒマリ,あははっ！　うん、分かった。<br>みんなで食べようね。,106601000G,vc_10660100002_071_01,chara_1
+message,ヒマリ,Ahaha! Okay，got it.<br>Let's all eat together.<br> ,106601000G,vc_10660100002_071_01,chara_1
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -2218,11 +2218,11 @@ asyncseplay,setag1_79,se4800018,0,1,CONT,0
 asynccharaemo,chara_2,Flower,CONT,0
 
 
-message,クルル,やった、やったぁ～～！,106701000G,vc_10660100002_072_01,chara_2
+message,クルル,Yay，yaaay~!<br> ,106701000G,vc_10660100002_072_01,chara_2
 
-message,,初めて見るスナック菓子に目を輝かせ、<br>夢中で頬張るクルルと<user>。
+message,,Eyes sparkling at the sight of unfamiliar snacks，<br>Kururu and %user% dig in eagerly.<br> 
 
-message,,それはヒマリにとって、どこか懐かしい喧騒だった――
+message,,For Himari，it was a bustle that felt strangely nostalgic——<br> 
 
 window,off
 bgmstop,bgmtag1_2,0.5

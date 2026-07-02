@@ -367,29 +367,74 @@ roster is listed below.
   in third person as **"Himari"** frequently
 - **Addresses MC as:** しれーかん → **"Commander"** (cutesy slurring of 司令官;
   her unique way of saying it)
+- **Backstory (established in hmn_10660100001 / hmn_10660100003):** An
+  ordinary Japanese high school girl, isekai'd into the Abyss world with no
+  warning and no combat experience. Everything about the new world is
+  unfamiliar — the food, the sky, the people, the danger — and she's
+  painfully aware she's bad at talking to people even under normal
+  circumstances, let alone this. Assigned as a ranged gunner despite having
+  zero real weapons training; her only frame of reference for aiming is FPS
+  games she played back home, which becomes a literal plot point — she
+  steadies her hands and lands a critical shot by mentally recreating the
+  "headshot the final boss" muscle memory from her old life. Early on she
+  freezes under pressure, misses her shots, and spirals into believing she's
+  useless and a burden on the squad. Her turning point comes from Kururu:
+  after nearly losing her in battle, Himari finds the resolve to pull the
+  trigger to protect a friend rather than just to follow orders — and
+  realizes, looking back, that she hadn't really smiled since arriving until
+  Kururu and the forward base gave her reasons to. From there her quiet
+  motivation shifts from "surviving in a world that scares her" to
+  "returning the kindness that brought her smile back," aimed at Kururu,
+  the Commander, and the forward base as a whole. This backstory is the
+  quiet core beneath her stammering — her fear is real, but so is the
+  resolve growing underneath it.
 - **Role:** Isekai'd Japanese high school girl; support/ranged fighter
 - **Speech style:** Shy, hesitant, fragmented. Lots of stuttering (う、うん),
   trailing ellipses, unfinished thoughts. Speaks in short bursts rather than
-  full sentences. Uses simple, everyday Japanese — no fancy vocabulary or
-  formal patterns. References her life in Japan (school, cities, shampoo,
-  police) naturally, as someone displaced from a modern world. Deeply insecure
-  — calls herself useless, doubts her abilities — but has a quiet inner
-  resolve that surfaces in key moments.
+  full sentences — she rarely completes a thought in one go, often trailing
+  into "……" instead of finishing. Uses simple, everyday Japanese — no fancy
+  vocabulary or formal patterns; she'd never reach for an elevated word when
+  a plain one works. References her life in Japan (school, video games,
+  shampoo, snacks, police) naturally and wistfully, as someone displaced from
+  a modern world she still measures everything against. Deeply insecure —
+  calls herself useless, doubts her abilities, apologizes reflexively — but
+  has a quiet inner resolve that surfaces in key moments, expressed through
+  action and short, plain resolutions rather than any sudden burst of
+  confidence or eloquence.
 - **Translation notes:**
   - **Keep her third-person self-reference:** "Himari wants to help too..."
     "Himari is useless after all..." This is a core character quirk, not
-    something to normalize.
-  - Stutter and hesitation are part of her voice — preserve them:
-    "I-I understand...", "B-but...", trailing "..." at sentence ends.
+    something to normalize. It appears most often in her interjections and
+    inner monologue, less so in fuller sentences (where she does use
+    "watashi"/"I") — preserve that mix rather than flattening her into
+    always using one or the other.
+  - **Stutter and hesitation are her most load-bearing tell** — lean on them
+    harder than for other stuttering characters (Alicia, Sylvia) since she
+    has almost no other register to fall back on: "う、うん……" → "Y-yeah...",
+    "で、でも……" → "B-but...". Nearly every line should carry a stutter, a
+    trailing ellipsis, or both — readers should be able to tell it's Himari
+    speaking from the shape of the line alone, without the speaker tag.
+  - Favor sentence fragments over complete sentences: "Um... maybe...",
+    "Okay... I'll try...", not "Okay, I understand what you're asking me to
+    do." She speaks in pieces, not paragraphs.
   - Her speech should feel young and unpolished compared to Sophia or Ludia.
-    Simple words, short sentences, no eloquence.
+    Simple words, short sentences, no eloquence — she wouldn't say
+    "understood," she'd say "o-okay..." or "got it...".
   - When she finds resolve, the shift is subtle — she doesn't suddenly become
-    bold. She still stutters, but pushes through: "Himari wants to know too.
-    What these people wished for... all of it."
-  - Her inner monologues reveal deeper self-doubt than she shows outwardly.
-    Translate these with raw honesty: "(Himari really is useless...)"
-  - She cares deeply about Shiena and aches to be stronger — these moments
-    should sound earnest and pained, not melodramatic.
+    bold or well-spoken. She still stutters and hedges, but pushes through
+    anyway: "Himari wants to know too. What these people wished for... all
+    of it." The determination shows in what she chooses to do, not in
+    suddenly confident phrasing.
+  - Her inner monologues (parentheses) reveal deeper self-doubt than she
+    shows outwardly, and often replay her old-world memories (games, school)
+    as a coping anchor. Translate with raw honesty, still fragmented: "(I-I
+    can't do this... my hands won't stop shaking...)"
+  - She cares deeply about Kururu and Shiena and aches to be stronger for
+    them — these moments should sound earnest and pained, not melodramatic:
+    plain, heartfelt lines rather than grand declarations.
+  - When something delights her (finding snacks from home, Kururu's antics),
+    let a little warmth break through the hesitation without erasing it —
+    she can be happy and still stammer: "T-thank you, Kururu... really."
 
 ### Shiena (シエナ)
 - **Pronoun:** 私 (watashi) — formal feminine

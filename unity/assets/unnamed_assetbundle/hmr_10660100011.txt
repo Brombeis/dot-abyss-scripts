@@ -15,7 +15,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
@@ -29,7 +29,7 @@ asyncseplay,setag1_1,se4300001,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,夜――。<br>自室で作業をしていると、扉が控え目にノックされた。
+message,,Night——. I'm working alone in my room when there's a hesitant knock<br>at the door.<br> 
 
 window,off
 wait,0.15
@@ -63,9 +63,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,……しれーかん、ちょっといい？,106601000G,vc_10660100011_001_01,chara_1
+message,ヒマリ,...Commander，got a minute?<br> ,106601000G,vc_10660100011_001_01,chara_1
 
-message,<user>,なんだ？　今日も授業してほしいのか？
+message,<user>,What is it? Want another lesson today?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -76,13 +76,13 @@ asyncseplay,setag1_4,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヒマリ,うん……こっちの世界のこと、もっと知りたいから……,106601000G,vc_10660100011_002_01,chara_1
+message,ヒマリ,Yeah... I want to learn more about this world...<br> ,106601000G,vc_10660100011_002_01,chara_1
 
-message,,夜遅くに、この世界についてヒマリに教示する。<br>それが最近の日課だった。
+message,,Teaching Himari about this world late at night——<br>that's become our recent routine.<br> 
 
-message,,異世界から来た自分が、早くみんなの役に立てるように――。<br>それは、最初の夜にヒマリが吐露した思いだ。
+message,,So that she，someone from another world，can be of use to everyone<br>sooner—— that's the wish Himari confided to me on our very first night.<br> 
 
-message,,その健気さを知って、断れるはずもない。<br>だからいつものように、もちろんだ――と机の方に手招きする。
+message,,Knowing how earnest she is，there's no way I could refuse.<br>So，as always，I wave her over to the desk — of course，I say.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -93,7 +93,7 @@ asyncseplay,setag1_5,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ヒマリ,えへへ、やった。,106601000G,vc_10660100011_003_01,chara_1
+message,ヒマリ,Ehehe，yay.<br> ,106601000G,vc_10660100011_003_01,chara_1
 
 window,off
 wait,0.15
@@ -120,7 +120,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,小さな笑みを描いたヒマリは、<br>トテトテと小動物のような足取りで歩み寄ってくるのだった……
+message,,Smiling a small smile，Himari<br>toddles over with the light steps of a small animal...<br> 
 
 
 
@@ -155,7 +155,7 @@ wait,1
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,<user>,……よし。もう遅いし、今日はそろそろ切り上げるか。<br>しかし勉強熱心だな、ヒマリは。ホント偉いよ。
+message,<user>,...Alright. It's getting late，let's wrap up for today.<br>Still，you're so eager to learn，Himari. Really admirable.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -166,9 +166,9 @@ asyncseplay,setag1_6,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒマリ,そ、そんな……。<br>別に偉くなんてないよ……わたし……,106601000G,vc_10660100011_004_01,chara_1
+message,ヒマリ,T-that's not... true.<br>I'm not admirable at all... me...<br> ,106601000G,vc_10660100011_004_01,chara_1
 
-message,<user>,みんなの役に立ちたいって思ってるんだろ？<br>その姿勢が偉いって言ってるんだ。
+message,<user>,You want to be useful to everyone，right?<br>That attitude is what makes you admirable.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -179,9 +179,9 @@ asyncseplay,setag1_7,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ヒマリ,もちろん、それもある……けど……,106601000G,vc_10660100011_005_01,chara_1
+message,ヒマリ,Of course，that's part of it... but...<br> ,106601000G,vc_10660100011_005_01,chara_1
 
-message,,いつも以上に歯切れ悪くしながら、俯いてしまうヒマリ。<br>艶のある黒髪から覗いている耳は、真っ赤に染まっている……
+message,,More tongue-tied than usual，Himari looks down.<br>The ear peeking out from her glossy black hair is dyed bright red...<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -192,15 +192,15 @@ asyncseplay,setag1_8,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ヒマリ,ここに来るのは……その……<br>し、しれーかんと、少しでも一緒にいたい、から……,106601000G,vc_10660100011_006_01,chara_1
+message,ヒマリ,The reason I come here is... um...<br>b-because I want to be with the Commander，even just a little...<br> ,106601000G,vc_10660100011_006_01,chara_1
 
-message,<user>,俺と……？
+message,<user>,With me...?<br> 
 
-message,,上目遣いでこちらを見詰める瞳は、涙で濡れていた。<br>必死に想いを伝えようとしている――弱々しくも、熱い眼差し……
+message,,Her upturned eyes staring at me are wet with tears. Desperately<br>trying to convey her feelings — a faint，yet burning gaze...<br> 
 
-message,,しばらく沈黙が続くが、<br>彼女の想いを察し、こちらから声を掛ける。
+message,,Silence lingers for a while，<br>but sensing her feelings，I speak up first.<br> 
 
-message,<user>,えーと、それは……そういう意味か？<br>だとしたら、俺も嬉しいが――
+message,<user>,Um，so... is that what you mean?<br>If so，I'm happy too——<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -211,9 +211,9 @@ asyncseplay,setag1_9,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ヒマリ,うん。そ、そう……,106601000G,vc_10660100011_007_01,chara_1
+message,ヒマリ,Yeah. Th-that's right...<br> ,106601000G,vc_10660100011_007_01,chara_1
 
-message,,ヒマリは、ゆっくりと控えめに頷いた。<br>恥ずかしがり屋な彼女にこれ以上を求めるのは酷というものだろう。
+message,,Himari nods slowly，bashfully.<br>Asking any more of her，shy as she is，would be too cruel.<br> 
 
 window,off
 wait,0.15
@@ -260,11 +260,11 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,ん……しれーかん……？,106601000G,vc_10660100011_008_01,chara_1
+message,ヒマリ,Mm... Commander...?<br> ,106601000G,vc_10660100011_008_01,chara_1
 
-message,,抱き締めると、ヒマリは華奢な身体をふるりと震わせた。しかし離しはしない。<br>彼女の精一杯の勇気を称えるように、愛情を伝えるように……熱く抱擁する。
+message,,As I hold her，Himari's slender body shivers — but I don't let go. As<br>if praising her hard-won courage，as if conveying my love... I embrace her warmly.<br> 
 
-message,,１人で何も知らない異世界に飛んで来た彼女――。<br>それがどんなに不安で心細い物なのかは計り知れない。
+message,,She was thrown alone into a world she knew nothing about——<br>there's no telling how frightening and lonely that must have been.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -275,11 +275,11 @@ asyncseplay,setag1_12,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヒマリ,しれーかん……温かい……。こうやってギュッとされると安心する……。<br>好き……,106601000G,vc_10660100011_009_01,chara_1
+message,ヒマリ,Commander... you're so warm... Being held tight like this makes me<br>feel safe... I like you...<br> ,106601000G,vc_10660100011_009_01,chara_1
 
-message,<user>,ありがとう……俺も、ヒマリが好きだ……
+message,<user>,Thank you... I like you too，Himari...<br> 
 
-message,,囁くように言うと、ヒマリは安堵したように身体の硬直を解いた。<br>そして、ゆっくりと優しく抱き締め返してくれる。
+message,,Whispering the words，Himari relaxes，her tension melting with relief.<br>Then，slowly and gently，she hugs me back.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -290,9 +290,9 @@ asyncseplay,setag1_13,se4800002,0,1,CONT,0
 asynccharaemo,chara_1,Heart,CONT,0
 
 
-message,ヒマリ,ヒマリも……好き……しれーかんのこと……大好き……,106601000G,vc_10660100011_010_01,chara_1
+message,ヒマリ,Himari likes you too... I really... really like the Commander...<br> ,106601000G,vc_10660100011_010_01,chara_1
 
-message,,名残惜しさを感じながら身体を離すと、ヒマリは穏やかな微笑みを湛えていた。<br>そして、どちらからともなく唇を寄せ――
+message,,Reluctantly pulling apart，Himari wears a gentle smile.<br>Then，without either of us starting it，our lips draw closer——<br> 
 
 labeljump,b
 

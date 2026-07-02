@@ -31,7 +31,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
@@ -39,15 +39,15 @@ bgmplay,bgmtag1_1,bgm0025,0.75,1
 
 
 window,on,0.15
-message,,――この世界に来て、これで何日目だろう。<br>ここにあるのは、ヒマリの知らないものばかり。,106601000G,vc_10660100001_001_01,
+message,,——How many days has it been，since I came to this world?<br>Everything here is something Himari doesn't know.<br> ,106601000G,vc_10660100001_001_01,
 
-message,,知らない景色。知らない人々。知らない空気。知らない食事。<br>知らない生き物に、知らない夜空、知らない星。,106601000G,vc_10660100001_002_01,
+message,,Unfamiliar sights，people，air，food.<br>Unfamiliar creatures，an unfamiliar night sky，unfamiliar stars.<br> ,106601000G,vc_10660100001_002_01,
 
-message,,ここはヒマリが生きていた場所とはまったく違う世界。,106601000G,vc_10660100001_003_01,
+message,,This world is nothing like the one Himari used to live in.<br> ,106601000G,vc_10660100001_003_01,
 
-message,,何も分からない環境、周りには知らない人ばっかり。<br>ただでさえ人と話すのは苦手なのに、どうしたらいいんだろう。,106601000G,vc_10660100001_004_01,
+message,,An environment I don't understand，surrounded by strangers.<br>I'm bad at talking to people even normally... what do I do?<br> ,106601000G,vc_10660100001_004_01,
 
-message,,困ったことばかりの生活。混乱ばかりの毎日。 <br>でも、この世界に来て一番大変なのは――。,106601000G,vc_10660100001_005_01,
+message,,A life full of nothing but trouble. Days full of nothing but<br>confusion. But the hardest part about coming to this world is——<br> ,106601000G,vc_10660100001_005_01,
 
 
 
@@ -87,9 +87,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,たいへん、なのは……,106601000G,vc_10660100001_006_01,chara_1
+message,ヒマリ,The hardest part... is...<br> ,106601000G,vc_10660100001_006_01,chara_1
 
-message,<user>,ヒマリ？　何を書いてるんだ？
+message,<user>,Himari? What are you writing?<br> 
 
 window,off
 wait,0.15
@@ -131,9 +131,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,わ、わわわっ！<br>しれーかん！？,106601000G,vc_10660100001_007_01,chara_1
+message,ヒマリ,W-wawawah!<br>C-Commander!?<br> ,106601000G,vc_10660100001_007_01,chara_1
 
-message,<user>,悪い、そんなに驚かせるつもりはなかったんだ。 <br>そろそろ休憩が終わるぞ。出発するけど、問題ないか？
+message,<user>,Sorry，I didn't mean to startle you that much.<br>Break's almost over. We're heading out — you good?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -145,7 +145,7 @@ asyncseplay,setag1_3,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヒマリ,う、うん、平気……,106601000G,vc_10660100001_008_01,chara_1
+message,ヒマリ,Y-yeah，I'm fine...<br> ,106601000G,vc_10660100001_008_01,chara_1
 
 window,off
 wait,0.15
@@ -196,7 +196,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,（――大変なのは、こうして大穴を探索して、危ないモンスターと戦うこと。<br>少し前までただの学生だったのに、戦いなんて慣れないよ……）,106601000G,vc_10660100001_009_01,chara_1
+message,ヒマリ,(——The hardest part is exploring this Abyss，fighting monsters.<br>I was just a student not long ago... I'm not used to this...)<br> ,106601000G,vc_10660100001_009_01,chara_1
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -208,7 +208,7 @@ asyncseplay,setag1_5,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒマリ,（銃の扱いだってゲームとは全然違う。<br>まだ、やっぱり怖いよ……）,106601000G,vc_10660100001_010_01,chara_1
+message,ヒマリ,(Handling a real gun is nothing like a game.<br>It's still... really scary...)<br> ,106601000G,vc_10660100001_010_01,chara_1
 
 window,off
 wait,0.15
@@ -270,7 +270,7 @@ asynccharaface,chara_2,FaceNormal,CONT,0
 
 
 window,on,0.15
-message,クルル,ヒマリ、平気～？　疲れちゃった～？,106701000G,vc_10660100001_011_01,chara_2
+message,クルル,Himari，you okay~? Are you tired~?<br> ,106701000G,vc_10660100001_011_01,chara_2
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -281,7 +281,7 @@ asyncseplay,setag1_7,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヒマリ,あ……うん、大丈夫。<br>ちょっと休んだからもう……,106601000G,vc_10660100001_012_01,chara_1
+message,ヒマリ,Ah... yeah，I'm okay.<br>I rested a bit，so I'm...<br> ,106601000G,vc_10660100001_012_01,chara_1
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -292,7 +292,7 @@ asyncseplay,setag1_8,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,クルル,ん。無理しちゃダメだよ～？,106701000G,vc_10660100001_013_01,chara_2
+message,クルル,Mm. You can't push yourself too hard~，okay?<br> ,106701000G,vc_10660100001_013_01,chara_2
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -303,7 +303,7 @@ asyncseplay,setag1_9,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ヒマリ,あ、ありがとね……クルル。,106601000G,vc_10660100001_014_01,chara_1
+message,ヒマリ,Th-thanks... Kururu.<br> ,106601000G,vc_10660100001_014_01,chara_1
 
 window,off
 wait,0.15
@@ -353,9 +353,9 @@ asynccharamove,chara_2,Linear,X,0,20,CONT
 asynccharamove,chara_2,Linear,Y,-150,20,CONT,0
 
 window,on,0.15
-message,,ヒマリはそう言って、目の前にいる自分と同じくらいの背丈の、<br>元気そうな女の子を見つめる。
+message,,With that，Himari looks at the energetic-looking girl in front of<br>her， about the same height as herself.<br> 
 
-message,,頭の上にあるフワフワの獣の耳。<br>腰のあたりから、嬉しそうに左右に揺れる、ふさふさの尻尾。
+message,,Fluffy animal ears on top of her head.<br>A bushy tail swaying happily back and forth at her waist.<br> 
 
 window,off
 wait,0.15
@@ -372,9 +372,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,ヒマリ,（ずっと気になってたけど、コスプレ……じゃないよね？<br>本物の耳と尻尾みたいだし……）,106601000G,vc_10660100001_015_01,
+message,ヒマリ,(I've been wondering this whole time，but... that's not<br>cosplay，right? They look like real ears and a real tail...)<br> ,106601000G,vc_10660100001_015_01,
 
-message,ヒマリ,（”犬人族”って言ってたな。漫画やアニメの世界では見たことあるけど、<br>こっちの世界には、本当にいるんだ……獣人が……）,106601000G,vc_10660100001_016_01,
+message,ヒマリ,(She said 'dog-folk，' right? I've seen that in manga and<br>anime，but... they're actually real in this world... beastkin，huh...)<br> ,106601000G,vc_10660100001_016_01,
 
 window,off
 wait,0.15
@@ -432,7 +432,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,クルル,……気になる～？,106701000G,vc_10660100001_017_01,chara_2
+message,クルル,...Curious~?<br> ,106701000G,vc_10660100001_017_01,chara_2
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -441,7 +441,7 @@ asyncseplay,setag1_11,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ヒマリ,え？ <br>な、なにが？,106601000G,vc_10660100001_018_01,chara_1
+message,ヒマリ,Huh?<br>W-what is?<br> ,106601000G,vc_10660100001_018_01,chara_1
 
 window,off
 wait,0.15
@@ -467,7 +467,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,クルルのお耳、ずっと見てたから。<br>はい、どうぞ～。,106701000G,vc_10660100001_019_01,chara_2
+message,クルル,You've been staring at Kururu's ears this whole time.<br>Here，go ahead~.<br> ,106701000G,vc_10660100001_019_01,chara_2
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -476,7 +476,7 @@ asyncseplay,setag1_13,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒマリ,わっ、わわっ！　耳、くるくる動いてる……！<br>えっと……。さ、さわって……いいの……？,106601000G,vc_10660100001_020_01,chara_1
+message,ヒマリ,Wah，wawah! Your ears are twitching around...!<br>Um... c-can I... really touch them...?<br> ,106601000G,vc_10660100001_020_01,chara_1
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -487,7 +487,7 @@ asyncseplay,setag1_14,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,クルル,えへへ～。<br>いいよ～、ヒマリにはトクベツ～♪,106701000G,vc_10660100001_021_01,chara_2
+message,クルル,Ehehe~.<br>Sure~，it's special just for Himari~♪<br> ,106701000G,vc_10660100001_021_01,chara_2
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -500,7 +500,7 @@ asyncseplay,setag1_15,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ヒマリ,すごい、もふもふ。,106601000G,vc_10660100001_022_01,chara_1
+message,ヒマリ,Wow... so fluffy.<br> ,106601000G,vc_10660100001_022_01,chara_1
 
 asyncshake,CHARA,chara_2,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -509,9 +509,9 @@ asyncseplay,setag1_16,se4800003,0,1,CONT,0
 asynccharaemo,chara_2,Twinkle,CONT,0
 
 
-message,クルル,ふふぅ♪ <br>なでなで、くすぐったい……,106701000G,vc_10660100001_023_01,chara_2
+message,クルル,Fufuu♪<br>Pet pet，that tickles...<br> ,106701000G,vc_10660100001_023_01,chara_2
 
-message,<user>,へぇ。クルルが耳を触らせるって珍しいな。<br>こないだはベリサに触られてブチ切れてたのに。
+message,<user>,Huh. It's rare for Kururu to let someone touch her ears.<br>She totally snapped when Verisa tried the other day.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -522,7 +522,7 @@ asyncseplay,setag1_17,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ヒマリ,えっ？　そ、そうなの……？,106601000G,vc_10660100001_024_01,chara_1
+message,ヒマリ,Huh? R-really...?<br> ,106601000G,vc_10660100001_024_01,chara_1
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -533,7 +533,7 @@ asyncseplay,setag1_18,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,クルル,だって、ヒマリとは仲良しだもんっ♪<br>ね～、ヒマリ～？,106701000G,vc_10660100001_025_01,chara_2
+message,クルル,'Cause Kururu and Himari are best friends♪<br>Right~，Himari~?<br> ,106701000G,vc_10660100001_025_01,chara_2
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -544,9 +544,9 @@ asyncseplay,setag1_19,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ヒマリ,あ、うん、えっと、はい……,106601000G,vc_10660100001_026_01,chara_1
+message,ヒマリ,A-ah，yeah，um，mm-hm...<br> ,106601000G,vc_10660100001_026_01,chara_1
 
-message,<user>,クルルが心を許してる証拠だな。<br>いつの間にそんなに仲良くなったんだ？
+message,<user>,Proof that Kururu really trusts you.<br>When did you two get so close?<br> 
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -557,7 +557,7 @@ asyncseplay,setag1_20,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,クルル,最初からだよ～。<br>だってヒマリの髪の毛、甘くていいニオイなんだもん。,106701000G,vc_10660100001_027_01,chara_2
+message,クルル,Right from the start~.<br>'Cause Himari's hair smells sweet and nice.<br> ,106701000G,vc_10660100001_027_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -568,9 +568,9 @@ asyncseplay,setag1_21,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ヒマリ,え？　髪の毛！？<br>つ、使ってたシャンプーの匂いかなぁ……？,106601000G,vc_10660100001_028_01,chara_1
+message,ヒマリ,Huh? My hair!?<br>M-maybe it's just the shampoo I used to use...?<br> ,106601000G,vc_10660100001_028_01,chara_1
 
-message,<user>,さて、休憩もそろそろ終わりだ。<br>この先はモンスターの目撃情報もある。慎重に進むぞ。
+message,<user>,Alright，break's about over.<br>There've been monster sightings up ahead. Let's proceed carefully.<br> 
 
 window,off
 wait,0.15
@@ -608,11 +608,11 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,モンスター……。<br>う、うん、分かった……,106601000G,vc_10660100001_029_01,chara_1
+message,ヒマリ,Monsters...<br>Y-yeah，got it...<br> ,106601000G,vc_10660100001_029_01,chara_1
 
-message,<user>,大丈夫かヒマリ？<br>震えているぞ。
+message,<user>,You okay，Himari?<br>You're shaking.<br> 
 
-message,<user>,覚醒したお前の力は、この中でもずば抜けてるんだ。<br>もっと自信を持っていい。
+message,<user>,Your awakened power is a cut above everyone else's here.<br>You can afford to have more confidence.<br> 
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -624,7 +624,7 @@ asyncseplay,setag1_23,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ヒマリ,自信、を……う、うん……,106601000G,vc_10660100001_030_01,chara_1
+message,ヒマリ,Confidence... o-okay...<br> ,106601000G,vc_10660100001_030_01,chara_1
 
 window,off
 wait,0.15
@@ -639,9 +639,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（……案の定、といったところか。<br>無理もない。戦場を知らない素人が、震えない方がおかしい）
+message,<user>,(...Just as expected，I suppose. Can't blame her. It'd be strange if<br>a battlefield novice didn't shake.)<br> 
 
-message,<user>,（だが、あの射撃の才能は、この先の戦いで、<br>必ず俺たちの切り札になる……）
+message,<user>,(But that shooting talent of hers will surely become<br>our trump card in the battles ahead...)<br> 
 
 window,off
 wait,0.15
@@ -685,7 +685,7 @@ asynccharaemo,chara_2,Exclamation,CONT,0
 
 
 window,on,0.15
-message,クルル,――っ！　ご主人さま！<br>なにか、来るよ。,106701000G,vc_10660100001_031_01,chara_2
+message,クルル,——! Master!<br>Something's coming.<br> ,106701000G,vc_10660100001_031_01,chara_2
 
 window,off
 wait,0.15
@@ -775,9 +775,9 @@ asyncshake,CHARA,chara_5,20,0,0.25,30,off,off,0,off,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,クルルの指差した先の空間が、陽炎のようにぐにゃりと歪み始める。<br>その中心から、異形の怪物たちが、次々と産み落とされるように現れた。
+message,,The space where Kururu points begins to warp like a heat haze. From<br>its center，monstrous creatures emerge one after another，as if being born.<br> 
 
-message,<user>,っ！　空間の歪みからモンスター！？
+message,<user>,! Monsters，from a warp in space!?<br> 
 
 window,off
 wait,0.15
@@ -836,7 +836,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,（なんだろう……この感じ？<br>あのぐにゃっとした空間、前にも見た気がする……）,106601000G,vc_10660100001_032_01,chara_1
+message,ヒマリ,(What... is this feeling?<br>I feel like I've seen that warped space before...)<br> ,106601000G,vc_10660100001_032_01,chara_1
 
 window,off
 wait,0.15
@@ -853,7 +853,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,ぼーっとするな、ヒマリ！ <br>敵だっ！　総員戦闘準備！
+message,<user>,Don't space out，Himari!<br>Enemy! Everyone，prepare for combat!<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -864,7 +864,7 @@ asyncseplay,setag1_29,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ヒマリ,え、あ……は、はいっ！,106601000G,vc_10660100001_033_01,chara_1
+message,ヒマリ,Eh，ah... y-yes sir!<br> ,106601000G,vc_10660100001_033_01,chara_1
 
 window,off
 wait,0.15
@@ -908,7 +908,7 @@ asyncwait
 
 
 window,on,0.15
-message,モンスター,ガァァァァァァ――！,402001000,,chara_3
+message,モンスター,Gyaaaaaargh——!<br> ,402001000,,chara_3
 
 window,off
 wait,0.15
@@ -947,7 +947,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,,空間の歪みから現れたモンスターが咆哮を上げる。<br>ヒマリが銃を構える前に、その巨躯が地を蹴った。
+message,,The monster from the warp lets out a roar. Before Himari can even<br>raise her gun，its huge body kicks off the ground.<br> 
 
 window,off
 wait,0.15
@@ -984,9 +984,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,あ、あっ……,106601000G,vc_10660100001_034_01,chara_1
+message,ヒマリ,A-ah...<br> ,106601000G,vc_10660100001_034_01,chara_1
 
-message,<user>,クルル、頼む！<br>動き回って奴の注意を、お前に集中させるんだ！
+message,<user>,Kururu，I need you!<br>Keep moving and pull its attention onto yourself!<br> 
 
 window,off
 wait,0.15
@@ -1026,7 +1026,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,クルル,うん、クルルに任せて！,106701000G,vc_10660100001_035_01,chara_2
+message,クルル,Okay，leave it to Kururu!<br> ,106701000G,vc_10660100001_035_01,chara_2
 
 window,off
 wait,0.15
@@ -1044,9 +1044,9 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,お前たちは遠距離攻撃でクルルを援護だ！<br>奴らの足元を狙うんだ！
+message,<user>,The rest of you，cover Kururu with ranged attacks!<br>Aim for its feet!<br> 
 
-message,兵士たち,はいっ！,900000001
+message,兵士たち,Yes sir!<br> ,900000001
 
 window,off
 wait,0.15
@@ -1082,7 +1082,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,ぇ、ぁ、ぅぅ……,106601000G,vc_10660100001_036_01,chara_1
+message,ヒマリ,Eh，ah，ngh...<br> ,106601000G,vc_10660100001_036_01,chara_1
 
 window,off
 wait,0.15
@@ -1106,7 +1106,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,（ど、どうしよう！？　わたしはどうしたらいいの……！？<br>ダメだ……手が震えて……な、何もできない……！）,106601000G,vc_10660100001_037_01,chara_1
+message,ヒマリ,(Wh-what do I do!? What am I supposed to do...!?<br>No good... my hands are shaking... I-I can't do anything...!)<br> ,106601000G,vc_10660100001_037_01,chara_1
 
 window,off
 wait,0.15
@@ -1123,7 +1123,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,ヒマリ、落ち着いて聞け！<br>あの敵がスタミナ切れして動きが止まる瞬間が来る。そこを狙うんだ！
+message,<user>,Himari，calm down and listen! That thing will run out of stamina and<br>freeze up for a moment. Aim for that!<br> 
 
 window,off
 wait,0.15
@@ -1165,9 +1165,9 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,え……ヒ、ヒマリが……！？,106601000G,vc_10660100001_038_01,chara_1
+message,ヒマリ,Eh... H-Himari...!?<br> ,106601000G,vc_10660100001_038_01,chara_1
 
-message,<user>,ヒマリの武器の威力ならば１発で仕留められるはずだ。<br>いいな？　しっかり的を狙って、俺が合図した瞬間に引き金を引くんだ。
+message,<user>,With your weapon's power，one shot should be enough to finish it.<br>Got it? Aim carefully，and pull the trigger the instant I signal.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1179,7 +1179,7 @@ asyncseplay,setag1_37,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒマリ,う、うん……やってみる！,106601000G,vc_10660100001_039_01,chara_1
+message,ヒマリ,O-okay... I'll try!<br> ,106601000G,vc_10660100001_039_01,chara_1
 
 window,off
 wait,0.15
@@ -1205,7 +1205,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,（的を狙って撃つだけ……的を狙って撃つだけ……<br>ただ……それだけ……）,106601000G,vc_10660100001_040_01,chara_1
+message,ヒマリ,(Just aim and shoot... just aim and shoot...<br>That's... all it is...)<br> ,106601000G,vc_10660100001_040_01,chara_1
 
 window,off
 wait,0.15
@@ -1222,7 +1222,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,ヒマリ！　今だ！
+message,<user>,Himari! Now!<br> 
 
 window,off
 wait,0.15
@@ -1241,7 +1241,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,……っ！！,106601000G,vc_10660100001_041_01,chara_1
+message,ヒマリ,...!!<br> ,106601000G,vc_10660100001_041_01,chara_1
 
 window,off
 wait,0.15
@@ -1269,7 +1269,7 @@ emodelete,chara_1,0,0
 transitionFade,Tra19,in,white,0
 
 window,on,0.15
-message,,合図と同時に、ヒマリは、意を決して引き金を引く。<br>しかし、微かに震える彼女の手が、致命的なほどに照準を狂わせてしまった。
+message,,At the signal，Himari steels herself and pulls the trigger.<br>But the faint tremble in her hands throws off her aim fatally.<br> 
 
 window,off
 wait,0.15
@@ -1296,7 +1296,7 @@ asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_5,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,,放たれた閃光は、モンスターを掠めることもなく、<br>遥か後方の岩壁へと着弾し、大爆発が起きる。
+message,,The flash of light doesn't even graze the monster，<br>slamming into a rock wall far behind it in a massive explosion.<br> 
 
 window,off
 wait,0.15
@@ -1334,9 +1334,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,外した……,106601000G,vc_10660100001_042_01,chara_1
+message,ヒマリ,...I missed.<br> ,106601000G,vc_10660100001_042_01,chara_1
 
-message,<user>,相変わらずとんでもない威力だな……。<br>落ち着けヒマリ！　よく狙って撃つんだ！
+message,<user>,That's some absurd firepower as always...<br>Calm down，Himari! Aim carefully and shoot!<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1347,7 +1347,7 @@ asyncseplay,setag1_43,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒマリ,ご、ごめんなさい……。<br>つ、次こそは……！,106601000G,vc_10660100001_043_01,chara_1
+message,ヒマリ,I-I'm sorry...<br>N-next time，for sure...!<br> ,106601000G,vc_10660100001_043_01,chara_1
 
 window,off
 wait,0.15
@@ -1357,7 +1357,7 @@ charafocusonall
 asynccharaface,chara_1,FaceSad,CONT,0
 
 window,on,0.15
-message,,しかし、集中しようとすればするほど、<br>ヒマリの手の震えは大きくなってしまう。
+message,,But the harder she tries to focus，<br>the worse her hands shake.<br> 
 
 window,off
 wait,0.15
@@ -1381,7 +1381,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,（ど、どうしよう……これじゃ、また外しちゃう……！）,106601000G,vc_10660100001_044_01,chara_1
+message,ヒマリ,(Wh-what do I do... at this rate，I'll miss again...!)<br> ,106601000G,vc_10660100001_044_01,chara_1
 
 window,off
 wait,0.15
@@ -1432,7 +1432,7 @@ asynccharaemo,chara_2,Elated,CONT,0
 
 
 window,on,0.15
-message,クルル,今だ～！　これでも、くらえーーーっ！！,106701000G,vc_10660100001_045_01,chara_2
+message,クルル,Now~! Eat this——!!<br> ,106701000G,vc_10660100001_045_01,chara_2
 
 window,off
 wait,0.15
@@ -1487,9 +1487,9 @@ asynccharaemo,chara_3,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,モンスター,グゥゥゥゥゥッ――！？,402001000,,chara_3
+message,モンスター,Guaaaaghh——!?<br> ,402001000,,chara_3
 
-message,,不意を突いてモンスターの懐に飛び込んだクルルが、<br>強烈なボディブローをお見舞いする。
+message,,Catching it off guard，Kururu leaps into the monster's chest<br>and delivers a devastating body blow.<br> 
 
 window,off
 wait,0.15
@@ -1509,9 +1509,9 @@ asynccharamove,chara_3,Linear,Y,-100,1,CONT,0
 asyncwait
 
 window,on,0.15
-message,,クルルの攻撃を受けたモンスターは、<br>たまらず腹部を押さえてその場にうずくまってしまった。
+message,,Hit by Kururu's attack，the monster<br>clutches its stomach and crumples to the ground.<br> 
 
-message,<user>,よし、これなら外さない！　ヒマリ、今だ！<br>ヒマリ今度こそよく狙って……
+message,<user>,Good，you can't miss this! Himari，now!<br>This time，aim carefully and...<br> 
 
 window,off
 wait,0.15
@@ -1560,7 +1560,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,（わ、分かってる……今度こそ、当てなきゃ……）,106601000G,vc_10660100001_046_01,chara_1
+message,ヒマリ,(I-I know... I have to hit it this time...)<br> ,106601000G,vc_10660100001_046_01,chara_1
 
 window,off
 wait,0.15
@@ -1579,7 +1579,7 @@ wait,0.1
 asynccharaface,chara_1,FaceSad,CONT,0
 
 window,on,0.15
-message,<user>,ヒマリ……？
+message,<user>,Himari...?<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1587,7 +1587,7 @@ asyncseplay,setag1_50,se4800007,0,1,CONT,0
 
 asynccharaemo,chara_1,Panic,CONT,0
 
-message,,再び訪れた、絶好の好機。<br>しかし、ヒマリの指は、引き金の上で震えるだけだった。
+message,,Another perfect opportunity has come.<br>But Himari's finger just trembles on the trigger.<br> 
 
 window,off
 wait,0.15
@@ -1639,7 +1639,7 @@ asynccharaemo,chara_3,Anger,CONT,0
 
 
 window,on,0.15
-message,モンスター,アァァァァァ――！！！,402001000,,chara_3
+message,モンスター,Aaaaaargh——!!!<br> ,402001000,,chara_3
 
 window,off
 wait,0.15
@@ -1649,9 +1649,9 @@ charafocusonall
 linework,off,Black,Middle
 
 window,on,0.15
-message,,モンスターが起き上がって体勢を整えると、<br>震えるヒマリ目掛けて突進してくる。
+message,,The monster rights itself and gets back on its feet，<br>then charges straight at the trembling Himari.<br> 
 
-message,<user>,ヒマリ！　逃げろ！
+message,<user>,Himari! Run!<br> 
 
 window,off
 wait,0.15
@@ -1691,9 +1691,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,あ……あぁ……,106601000G,vc_10660100001_047_01,chara_1
+message,ヒマリ,Ah... aah...<br> ,106601000G,vc_10660100001_047_01,chara_1
 
-message,,逃げなければ。そう思うのに、足が固まって動かない。<br>ヒマリは、ただ迫りくる絶望を目の前にするだけだった。
+message,,She has to run. She knows it，but her legs won't move.<br>Himari can only watch the closing despair，frozen in place.<br> 
 
 window,off
 wait,0.15
@@ -1732,7 +1732,7 @@ emodelete,chara_1,0,0
 fade,In,White,0
 
 window,on,0.15
-message,,モンスターが、ヒマリに牙を剥こうとした、その刹那。<br>横から飛び込んできた影が、凄まじい轟音と共に、その突進を食い止めた。
+message,,Just as the monster bares its fangs at Himari—— a shadow leaps in<br>from the side，stopping the charge with a tremendous crash.<br> 
 
 window,off
 wait,0.15
@@ -1776,7 +1776,7 @@ asynccharaemo,chara_2,Anger,CONT,0
 
 
 window,on,0.15
-message,クルル,ダメ……！<br>クルルの友だち、やらせないっ！,106701000G,vc_10660100001_048_01,chara_2
+message,クルル,No...!<br>Kururu won't let you hurt her friend!<br> ,106701000G,vc_10660100001_048_01,chara_2
 
 window,off
 wait,0.15
@@ -1820,7 +1820,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,クルル……！？,106601000G,vc_10660100001_049_01,chara_1
+message,ヒマリ,Kururu...!?<br> ,106601000G,vc_10660100001_049_01,chara_1
 
 window,off
 wait,0.15
@@ -1864,7 +1864,7 @@ asynccharaemo,chara_2,Anger,CONT,0
 
 
 window,on,0.15
-message,クルル,やあぁぁぁぁ～～～っ！！！！,106701000G,vc_10660100001_050_01,chara_2
+message,クルル,Yaaaaaah~~~!!!!<br> ,106701000G,vc_10660100001_050_01,chara_2
 
 window,off
 wait,0.15
@@ -1907,7 +1907,7 @@ asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_5,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,,クルルは、モンスターの突進の勢いを利用して、頭上へと持ち上げる。<br>そして、ありったけの力を込めて、地面へと叩きつけてしまった。
+message,,Kururu uses the monster's own momentum to hoist it overhead，<br>then slams it into the ground with everything she's got.<br> 
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -1966,7 +1966,7 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,モンスター,ァァァ――,402001000,,chara_3
+message,モンスター,Aaahh——<br> ,402001000,,chara_3
 
 window,off
 wait,0.15
@@ -2025,9 +2025,9 @@ asynccharaemo,chara_2,Spirits,CONT,0
 
 
 window,on,0.15
-message,クルル,ふ～。 <br>やったよ～！,106701000G,vc_10660100001_051_01,chara_2
+message,クルル,Phew~.<br>Got it~!<br> ,106701000G,vc_10660100001_051_01,chara_2
 
-message,,クルルの見事な背負い投げで、モンスターは地面に伸びてしまっている。
+message,,With a beautiful shoulder throw，Kururu leaves the monster sprawled<br>flat on the ground.<br> 
 
 window,off
 wait,0.15
@@ -2087,7 +2087,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,クルル,ヒマリ、大丈夫？,106701000G,vc_10660100001_052_01,chara_2
+message,クルル,Himari，you okay?<br> ,106701000G,vc_10660100001_052_01,chara_2
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -2098,7 +2098,7 @@ asyncseplay,setag1_62,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒマリ,あ……ありがとう、クルル。 <br>うん、平気。,106601000G,vc_10660100001_053_01,chara_1
+message,ヒマリ,Ah... thank you，Kururu.<br>Yeah，I'm fine.<br> ,106601000G,vc_10660100001_053_01,chara_1
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -2109,7 +2109,7 @@ asyncseplay,setag1_63,se4800003,0,1,CONT,0
 asynccharaemo,chara_2,Twinkle,CONT,0
 
 
-message,クルル,よかったぁ～。<br>安心してね！　ヒマリのことはクルルが守るから！,106701000G,vc_10660100001_054_01,chara_2
+message,クルル,Good~.<br>Don't worry! Kururu will protect Himari!<br> ,106701000G,vc_10660100001_054_01,chara_2
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -2118,7 +2118,7 @@ asyncseplay,setag1_64,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ヒマリ,――う、うん……ごめんね……,106601000G,vc_10660100001_055_01,chara_1
+message,ヒマリ,——Y-yeah... sorry...<br> ,106601000G,vc_10660100001_055_01,chara_1
 
 window,off
 wait,0.15
@@ -2164,7 +2164,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,（撃てなかった……何も、できなかった……）,106601000G,vc_10660100001_056_01,chara_1
+message,ヒマリ,(I couldn't shoot... I couldn't do anything...)<br> ,106601000G,vc_10660100001_056_01,chara_1
 
 window,off
 wait,0.15
@@ -2203,7 +2203,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,ヒマリは、銃口を見つめたまま、力なく肩を落とした。<br>その瞳は、ただ虚空を彷徨っていた。
+message,,Himari stares at the muzzle of her gun，shoulders slumping<br>powerlessly. Her eyes just wander through empty space.<br> 
 
 window,off
 wait,0.15
@@ -2223,9 +2223,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒマリ,ヒマリ……役立たずかも……,106601000G,vc_10660100001_057_01,chara_1
+message,ヒマリ,Himari... might really be useless...<br> ,106601000G,vc_10660100001_057_01,chara_1
 
-message,<user>,いや、外しはしたが、１発撃てたじゃないか。<br>これも、いい実戦経験なのは間違いない。
+message,<user>,No，you missed，but you managed to fire a shot.<br>This is good real-battle experience，no question.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -2236,9 +2236,9 @@ asyncseplay,setag1_67,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒマリ,でも……,106601000G,vc_10660100001_058_01,chara_1
+message,ヒマリ,But...<br> ,106601000G,vc_10660100001_058_01,chara_1
 
-message,<user>,焦ることはない。<br>少しずつ慣れてくれればそれでいい。
+message,<user>,No need to rush.<br>It's fine if you get used to it little by little.<br> 
 
 window,off
 wait,0.15
@@ -2262,9 +2262,9 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,,その時、倒れたモンスターの傍に何かが落ちていることに気が付く。
+message,,Just then，he notices something lying next to the fallen monster.<br> 
 
-message,<user>,うん？　何だ、これは？
+message,<user>,Hm? What's this?<br> 
 
 window,off
 wait,0.15
@@ -2284,11 +2284,11 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,,<user>が拾い上げたのは、<br>見慣れない素材でできた、バッグだった。
+message,,What %user% picks up<br>is a bag made of some unfamiliar material.<br> 
 
-message,<user>,見かけない素材だな。<br>さっきの空間の歪みから一緒に出てきたのか……？
+message,<user>,Never seen this material before.<br>Did it come out with that warp in space just now...?<br> 
 
-message,,慎重にジッパーを引き、中身を確認する。<br>バッグの中から出てきたのは色鮮やかな袋の数々だった。
+message,,He carefully pulls the zipper and checks inside.<br>What comes out are a bunch of brightly colored packets.<br> 
 
 window,off
 wait,0.15
@@ -2320,7 +2320,7 @@ asynccharaemo,chara_2,Question,CONT,0
 
 
 window,on,0.15
-message,クルル,なになに～？　何が入ってるの～？,106701000G,vc_10660100001_059_01,chara_2
+message,クルル,What what~? What's inside~?<br> ,106701000G,vc_10660100001_059_01,chara_2
 
 window,off
 wait,0.15
@@ -2362,9 +2362,9 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,これ……まさか……,106601000G,vc_10660100001_060_01,chara_1
+message,ヒマリ,This is... no way...<br> ,106601000G,vc_10660100001_060_01,chara_1
 
-message,,それはヒマリの故郷では誰もが知っている、<br>スナック菓子やチョコレート菓子の袋だった。
+message,,They were bags of snacks and chocolate everyone back<br>in Himari's homeland would recognize.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -2373,7 +2373,7 @@ asyncseplay,setag1_70,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒマリ,な、なんで、こんなものが……！？,106601000G,vc_10660100001_061_01,chara_1
+message,ヒマリ,H-how is this stuff here...!?<br> ,106601000G,vc_10660100001_061_01,chara_1
 
 window,off
 bgmstop,bgmtag1_3,0.5
