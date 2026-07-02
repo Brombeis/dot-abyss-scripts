@@ -165,6 +165,7 @@ roster is listed below.
 | エレクトラ | Electra | Female | |
 | カーラ | Carla | Female | |
 | クルル | Kururu | Female | [Profile](#kururu-クルル) |
+| クレハ | Kureha | Female | [Profile](#kureha-クレハ) |
 | クロエ | Chloe | Female | |
 | シェリル | Cheryl | Female | |
 | シャオレイ | Xiaolei | Female | |
@@ -448,6 +449,89 @@ roster is listed below.
   - Her moments of emotional sincerity (about her parents, about the MC)
     should hit harder precisely because she's usually so carefree — let these
     lines land gently without overwriting them.
+
+### Kureha (クレハ)
+- **Pronoun:** 私 (watashi) — formal feminine, delivered in constant keigo;
+  also refers to herself in third person as **"Kureha"** in moments of high
+  emotion (embarrassment, devotion, flusteredness) — a secondary quirk layered
+  on top of her politeness, not a full-time habit like Kururu or Himari
+- **Addresses MC as:** 旦那様/旦那さま → **"darling"** (never "Master" —
+  she considers herself his wife-to-be, not his servant; established usage in
+  evs_10200020201)
+- **Backstory (revealed in hmn_10580100003):** As an oni child, Kureha was
+  bullied and stoned by human children in a Hourai town for her horns and
+  inhuman strength. A traveling boy — later revealed to be the MC — stepped
+  into the thrown stones to shield her, brushed off the danger, and
+  half-jokingly promised that if he ever became someone great, he'd make her
+  his wife. She never forgot him or the promise. Her entire arrival at the
+  forward base — the unannounced proposal, the wedding hall already booked —
+  is her, years later, cashing in on a promise the MC has completely
+  forgotten making. This backstory is the emotional anchor beneath her
+  otherwise comedic pushiness — play the reveal scenes straight and sincere.
+- **Role:** Oni (鬼族) swordswoman from Hourai, the same far-eastern nation as
+  Hinagi and Hatsune. Traveled alone to the forward base and, within minutes of
+  arriving, announced to Alicia that she intends to marry the Commander —
+  already carrying betrothal gifts, family approval, and a booked wedding hall.
+  Her home village is Oni Island (鬼ヶ島), a community that historically kept
+  its distance from humans out of consideration, not hostility. Physically
+  stronger and tougher than an ordinary human — a genuine oni trait, not a
+  boast — and a formidable blade: she dispatches monsters efficiently and
+  maintains 残心 (zanshin, a warrior's post-strike vigilance) even Alicia and
+  the MC remark on.
+- **Speech style:** Extremely polite keigo baseline — ございます, いたします,
+  おります, ませ — delivered with complete sincerity, never sarcasm or
+  distance. Her devotion is stated as plain fact, not performance: she
+  discusses marriage, children, and moving in together with the calm
+  practicality of someone reading a itinerary. Under her composed surface she
+  is wildly bashful — the instant physical intimacy or her horns come up, the
+  polish cracks into stammering, ハァハァ panting, or lisping slurred syllables
+  (だめでしゅぅぅ, ひゃいぃ). Her third-person "Kureha" slips out specifically
+  at emotional peaks: mortified self-scolding ("Kureha, oh, Kureha—she'll
+  never marry now—!!") or quietly smitten asides ("Kureha knows you're just
+  making excuses..."). Laughs with ふふっ — gentle, composed. Uses ♪ and ♡
+  sparingly, mostly when giddy about the wedding.
+- **Key traits:**
+  - **Horns are her weak point — literally.** Any contact with her horns
+    (angel/oni horns) short-circuits her composure instantly and totally:
+    yelps, full-body shudders, broken speech. This is her single most
+    reliable "tell," used in both story and R18 content.
+  - **Marriage-minded, not naive.** She isn't clueless about romance — she has
+    already planned the wedding, the honeymoon, and a target number of
+    children (minimum two, ideally four) — but she frames all of it as
+    sincere devotion, never scheming or transactional. She takes visible pride
+    in being useful and capable, not just adoring.
+  - **Formality as armor.** Her keigo rarely drops, even mid-fluster — she
+    apologizes "for her rudeness" while melting down, which is part of the
+    comedy: the register stays polite even as the content becomes unhinged.
+  - **Physically unshakeable, emotionally very shakeable.** She shrugs off a
+    head-on collision or a monster fight without flinching, but a compliment
+    or a touch near her horns undoes her completely. Keep this contrast sharp.
+- **Translation notes:**
+  - Keep her keigo as elevated, formal English throughout — "I have come to
+    request...", "Might I ask...", "It would be my honor..." — even when
+    what she's saying is outrageous (unilaterally booking a wedding). The
+    humor is in the mismatch between register and content; don't undercut it
+    by making her sound casual.
+  - "旦那様/旦那さま" → always **"darling"**, never "Master" — she is
+    positioning herself as his wife, not his servant. This distinguishes her
+    from Marina and Kururu, who use the same address term but mean it
+    differently.
+  - Her third-person "Kureha" should appear only where the Japanese does —
+    at flustered or emotionally raw peaks — so it lands as a quirk breaking
+    through her composure, not a constant verbal tic: "Kureha... will never
+    be able to marry, ever, at all...!"
+  - Render her horn-related flusters with broken, slurring speech: "だめで
+    しゅぅぅ" → "N-not good~~~", "ひゃいぃ" → "Y-yesh~~" — these should read
+    distinctly messier than her usual crisp keigo, since that's the joke.
+  - Her matter-of-fact talk about marriage/children/moving in together should
+    sound calmly sincere, like she's confirming logistics — not breathless or
+    scheming: "I've already secured my family's blessing, and the hall is
+    booked — we could be properly wed any day now."
+  - Preserve ふふっ as "Hehe" or "Fufu" — measured and warm, not girlish.
+  - She should be readable as "the polite oni bride-to-be" purely from
+    register: no other character combines constant keigo with blunt marriage
+    talk and horn-triggered meltdowns — lean on that combination to make her
+    voice distinct without needing the speaker tag.
 
 ### Adelheid (アーデルハイト)
 - **Pronoun:** 私 (watashi) — formal/neutral

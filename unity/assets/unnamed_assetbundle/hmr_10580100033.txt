@@ -29,11 +29,11 @@ asynccharaface,chara_2,FaceNormal,STOP
 charashow,chara_2,0.3
 
 window,on,0.15
-message,アリシア,はい、次の書類です。 <br>しっかり確認してサインをお願いしますねっ！,,vc_10580100033_001_01
+message,アリシア,Here，the next document.<br>Please check it thoroughly and sign it!<br> ,,vc_10580100033_001_01
 
 asynccharaface,chara_2,EyeOpen,STOP
 asynccharaface,chara_2,FaceNormal,STOP
-message,<user>,あーあー分かってるよ……。<br>久々にしっかり休めたし、ちゃんと働くって。
+message,<user>,Yeah，yeah，I know...<br>I finally got a proper rest，so I'll work properly，promise.<br> 
 
 window,off
 wait,0.15
@@ -52,9 +52,9 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,クレハ,――旦那様、アリシア様。 <br>お仕事中、失礼しますね。,,vc_10580100033_002_01
+message,クレハ,——Darling，Alicia-sama.<br>Forgive the interruption while you're working.<br> ,,vc_10580100033_002_01
 
-message,<user>,ん、クレハか。 <br>どうしたんだー？
+message,<user>,Hm，Kureha. What's up?<br> 
 
 window,off
 wait,0.15
@@ -77,9 +77,9 @@ asynccharareaction,chara_1,nod,1,STOP
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
 window,on,0.15
-message,クレハ,先日のお休みの後、お体の調子はいかがかな、と思いまして……,,vc_10580100033_003_01
+message,クレハ,I simply wanted to know how you were feeling，darling，<br>after your day off the other day...<br> ,,vc_10580100033_003_01
 
-message,<user>,ああ、おかげで頭もすっきりして、気分もいいよ。 <br>ありがとな、クレハ。
+message,<user>,Ah，thanks to you my head feels clear and I'm in a great mood.<br>Thank you，Kureha.<br> 
 
 charapose,chara_2,3
 
@@ -90,9 +90,9 @@ asynccharaemo,chara_2,Question,STOP
 asynccharareaction,chara_2,nod,1,STOP
 
 asynccharaface,chara_2,FaceSurprise,STOP
-message,アリシア,司令官、お休みはクレハさんと一緒だったんですか？,,vc_10580100033_004_01
+message,アリシア,Commander，were you with Kureha-san on your day off?<br> ,,vc_10580100033_004_01
 
-message,<user>,ま、そんなところだ。 <br>疲れた心と身体をしっかり癒やしてもらったよ。
+message,<user>,Well，something like that.<br>She thoroughly soothed my tired mind and body.<br> 
 
 charapose,chara_2,2
 
@@ -102,15 +102,15 @@ asynccharareaction,chara_2,Nod,1,STOP
 asynccharaemo,chara_2,Laugh,STOP
 
 asynccharaface,chara_2,FaceHappy,STOP
-message,アリシア,マッサージとかですか？<br>司令官、本当に愛されてますねー。,,vc_10580100033_005_01
+message,アリシア,A massage，or something like that?<br>Commander，you're really quite loved，aren't you.<br> ,,vc_10580100033_005_01
 
 asynccharaface,chara_2,FaceUnique02,STOP
-message,アリシア,……責任、とってあげないんですか？,,vc_10580100033_006_01
+message,アリシア,...Aren't you going to take responsibility for that?<br> ,,vc_10580100033_006_01
 
 window,off
 wait,0.15
 window,on,0.15
-message,<user>,うるさい、こっちは結婚してる場合じゃないんだよ。
+message,<user>,Quiet，this isn't the time for me to be getting married.<br> 
 
 crossfadeready
 
@@ -128,18 +128,18 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 
-message,,そう話している<user>のそばへ、<br>クレハがそっと歩み寄った。
+message,,As %user% talks，<br>Kureha quietly steps closer to his side.<br> 
 
 asynccharareaction,chara_1,nod,1,STOP
 
 asynccharaface,chara_1,EyeClose,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,クレハ,――またスッキリされたい時は、<br>いつでもおっしゃってくださいね♡,,vc_10580100033_007_01
+message,クレハ,——Whenever you'd like to feel refreshed again，<br>please，just say the word♡<br> ,,vc_10580100033_007_01
 
 asynccharaface,chara_1,FaceFun,STOP
-message,クレハ,私は常に準備万端で――旦那様のおそばにいますから♡,,vc_10580100033_008_01
+message,クレハ,I am always fully prepared——and always by your side，darling♡<br> ,,vc_10580100033_008_01
 
-message,<user>,ああ、うん……覚えておくよ……
+message,<user>,Ah，yeah... I'll keep that in mind...<br> 
 
 window,off
 wait,0.15
@@ -152,7 +152,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（俺のことを考えるだけで濡れてしまう、と言っていたが。 <br>つまりこうして一緒にいる間は……）
+message,<user>,(She did say just thinking of me makes her wet.<br>Which means，while we're together like this...)<br> 
 
 window,off
 wait,0.15
@@ -170,9 +170,9 @@ asynccharaemo,chara_1,Heart,STOP
 
 asynccharaface,chara_1,FaceUnique02,STOP
 window,on,0.15
-message,クレハ,ふふ……愛していますよ、旦那様……,,vc_10580100033_009_01
+message,クレハ,Fufu... I love you，darling...<br> ,,vc_10580100033_009_01
 
-message,<user>,あ、ああ……ありがとうな……
+message,<user>,Ah，yeah... thanks...<br> 
 
 window,off
 wait,0.15
@@ -185,7 +185,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（やっぱり、その愛は重すぎる――！）
+message,<user>,(That love really is way too heavy——!)<br> 
 
 
 window,off

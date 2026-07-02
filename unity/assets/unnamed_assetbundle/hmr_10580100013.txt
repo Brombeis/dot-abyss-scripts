@@ -33,31 +33,31 @@ asynccharareaction,chara_1,Nod,1,CONT
 asynccharaemo,chara_1,Shy,CONT
 
 window,on,0.15
-message,クレハ,――ありがとうございました。 <br>とても……幸せな夜でした……,,vc_10580100013_001_01
+message,クレハ,——Thank you very much.<br>It was... such a happy night...<br> ,,vc_10580100013_001_01
 
-message,<user>,こちらこそ、と言えばいいのかな。 <br>なんか照れるな。
+message,<user>,I should say the same to you，huh.<br>This is a little embarrassing.<br> 
 
 asynccharaface,chara_1,FaceShy,STOP
-message,クレハ,ふふ……それで、いかがでしたでしょう？ <br>私たちの、身体の相性は……,,vc_10580100013_002_01
+message,クレハ,Fufu... so，how was it，I wonder?<br>Our compatibility... in body...<br> ,,vc_10580100013_002_01
 
-message,<user>,とても良かったと思うが……<br>クレハのほうはどう思った？
+message,<user>,I'd say it was very good...<br>What did you think，Kureha?<br> 
 
 asyncseplay,setag3_2,se4800002,0,1,CONT
 
 asynccharaemo,chara_1,Heart,CONT
 
 asynccharaface,chara_1,FaceUnique02,STOP
-message,クレハ,はい、私も……初めてですのに、最高の体験でした……♡,,vc_10580100013_003_01
+message,クレハ,Yes，I too... even for my first time，this was the best...♡<br> ,,vc_10580100013_003_01
 
-message,<user>,それは良かった……けど……<br>やっぱりまだ結婚するってわけには……
+message,<user>,I'm glad to hear that... but...<br>I still can't agree to marriage just yet...<br> 
 
 asynccharareaction,chara_1,nod,1,STOP
 
 asynccharaface,chara_1,EyeClose,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,クレハ,分かっています。最初にお約束した通り、<br>今日は相性を確かめただけですから……,,vc_10580100013_004_01
+message,クレハ,I understand. Just as we agreed at the start，<br>today was only to confirm our compatibility...<br> ,,vc_10580100013_004_01
 
-message,<user>,そうか……ありがとう。
+message,<user>,I see... thank you.<br> 
 
 window,off
 wait,0.15
@@ -70,7 +70,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（本当に、責任を取れとは言わないんだな。<br>それは助かったと思うけど……）
+message,<user>,(She really isn't demanding I take responsibility.<br>I'm grateful for that，but still...)<br> 
 
 window,off
 wait,0.15
@@ -84,7 +84,7 @@ wait,0.1
 
 asynccharaface,chara_1,FaceUnique01,STOP
 window,on,0.15
-message,クレハ,――ですが。,,vc_10580100013_005_01
+message,クレハ,——However.<br> ,,vc_10580100013_005_01
 
 window,off
 wait,0.15
@@ -108,9 +108,9 @@ asyncseplay,setag3_3,se4800002,0,1,CONT
 
 asynccharaemo,chara_1,Heart,CONT
 window,on,0.15
-message,クレハ,これから腕を磨き、必ず旦那様を堕としてみせますから。<br>どうか……お覚悟くださいね♡,,vc_10580100013_006_01
+message,クレハ,From here on，I'll hone my skills and win you over，darling.<br>So please... be prepared♡<br> ,,vc_10580100013_006_01
 
-message,<user>,お、おう……
+message,<user>,O-oh...<br> 
 
 window,off
 wait,0.15
@@ -123,7 +123,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（むしろここから攻勢が激しくなるんじゃないだろうか……。<br>は、早まったかな……？）
+message,<user>,(If anything，won't her advance get even more intense from here...?<br>D-did I move too soon...?)<br> 
 
 
 window,off

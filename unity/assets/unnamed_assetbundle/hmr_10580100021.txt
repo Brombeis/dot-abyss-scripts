@@ -16,7 +16,7 @@ fade,In,Black,0.5
 charapose,chara_3,1
 
 seplay,seopening_tag,se5030001
-title,愛する旦那様のために……
+title,For the Sake of My Beloved Darling...
 
 wait,1
 
@@ -32,12 +32,12 @@ asynccharaface,chara_3,FaceSad,STOP
 
 charashow,chara_3,0.5
 window,on,0.15
-message,<user>,――娼館の人手が足りない、か。
+message,<user>,——The brothel's short-staffed，huh.<br> 
 
 asynccharareaction,chara_3,nod,1,STOP
 
 asynccharaface,chara_3,FaceSad,STOP
-message,ルディア,勧誘活動は続けているから、いずれ問題は解決すると思うんだけど……<br>短期的な人手不足は避けられないわ。,,vc_10580100021_001_01
+message,ルディア,We're still recruiting，so it should sort itself out eventually...<br>but a short-term shortage is unavoidable.<br> ,,vc_10580100021_001_01
 
 charapose,chara_3,1
 
@@ -48,9 +48,9 @@ asynccharaemo,chara_3,Panic,CONT
 asynccharareaction,chara_3,shake,0.5,STOP
 
 asynccharaface,chara_3,FaceSad,STOP
-message,ルディア,でも、みんなに無理を言うわけにもいかないのよね。<br>みんなの協力あっての娼館だもの。,,vc_10580100021_002_01
+message,ルディア,But I can't ask everyone to overwork themselves either.<br>This brothel only works because of everyone's cooperation.<br> ,,vc_10580100021_002_01
 
-message,<user>,だが娼館がなければこの基地はまともに運営できなくなる。 <br>こりゃ大問題だな……
+message,<user>,But without the brothel，this base can't function properly.<br>That's a real problem...<br> 
 
 window,off
 wait,0.15
@@ -67,11 +67,11 @@ crossfade,0.3,0,0,1,1
 wait,0.3
 
 window,on,0.15
-message,クレハ,――旦那様。 <br>私がお力になりましょうか？,,vc_10580100021_003_01
+message,クレハ,——Darling.<br>Might I be of help?<br> ,,vc_10580100021_003_01
 
-message,,背後からの声に振り返ると、 <br>そこには真剣な表情で２人を見つめるクレハの姿があった。
+message,,Turning at the voice from behind，<br>he finds Kureha watching the two of them with a serious expression.<br> 
 
-message,<user>,クレハ……！？<br>いつからそこにいたんだ！？
+message,<user>,Kureha...!?<br>How long have you been there!?<br> 
 
 asyncseplay,setag1_2,se4800007,0,1,CONT
 
@@ -80,43 +80,43 @@ asynccharaemo,chara_1,Panic,CONT
 asynccharareaction,chara_1,shake,1,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
-message,クレハ,立ち聞きをするつもりはなかったのですが、 <br>旦那様の苦しげな声をお聞きして、つい……,,vc_10580100021_004_01
+message,クレハ,I didn't mean to eavesdrop，<br>but I heard your troubled voice，darling，and I just...<br> ,,vc_10580100021_004_01
 
-message,<user>,まあ、困ってはいるんだが……。<br>クレハが力になるっていうと、まさか……
+message,<user>,Well，I am having some trouble，but...<br>when you say you could help，don't tell me...<br> 
 
 asynccharaface,chara_1,EyeClose,STOP
 asynccharaface,chara_1,FaceNormal,STOP
 
 asynccharareaction,chara_1,Nod,1,STOP
-message,クレハ,はい。私でよろしければ、<br>こちらで働かせていただければと思います。,,vc_10580100021_005_01
+message,クレハ,Yes. If you'll have me，<br>I would like to work here.<br> ,,vc_10580100021_005_01
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
 
-message,<user>,働くって、ここは娼館だぞ？<br>何をするのか、ちゃんと分かってるのか？
+message,<user>,Work，here? This is a brothel，you know?<br>Do you really understand what that means?<br> 
 
 asynccharareaction,chara_1,Nod,1,STOP
-message,クレハ,ホウライで言うならば――遊郭、ですよね？ <br>もちろん認識しております。,,vc_10580100021_006_01
+message,クレハ,In Hourai terms — a pleasure district，is it not?<br>Of course，I understand fully.<br> ,,vc_10580100021_006_01
 
 asynccharaface,chara_1,FaceFun,STOP
-message,クレハ,私は鬼族の娘。身体は丈夫ですので、 <br>お客さまとの行為も、他の方より負担が少ないでしょう。,,vc_10580100021_007_01
+message,クレハ,I am a daughter of the oni-folk. My body is sturdy，<br>so serving customers should burden me less than most.<br> ,,vc_10580100021_007_01
 
-message,<user>,それはそうかもしれないが……本当にいいのか？<br>クレハは俺と結婚するために基地に来たんだろう？
+message,<user>,That may well be true... but are you sure?<br>Kureha，didn't you come to this base to marry me?<br> 
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
 
 asynccharareaction,chara_1,Nod,1,STOP
-message,クレハ,もちろんです。 <br>だからこそ旦那様のお力になりたいと思うのです。,,vc_10580100021_008_01
+message,クレハ,Of course.<br>That's precisely why I wish to be of help to you，darling.<br> ,,vc_10580100021_008_01
 
 asyncseplay,setag1_3,se4800022,0,1,CONT
 
 asynccharaemo,chara_1,Speak,STOP
 
 asynccharaface,chara_1,FaceFun,STOP
-message,クレハ,どんなことがあっても私の心が旦那様から離れることはありません。 <br>それを証明させてはいただけませんか。,,vc_10580100021_009_01
+message,クレハ,No matter what happens，my heart will never leave your side.<br>Please，allow me to prove it.<br> ,,vc_10580100021_009_01
 
-message,<user>,――分かった。<br>すまないクレハ、お前の力を貸してくれ。
+message,<user>,——Alright.<br>I'm sorry，Kureha，please lend me your strength.<br> 
 
 asynccharaface,chara_1,FaceHappy,STOP
 
@@ -125,7 +125,7 @@ asyncseplay,setag1_4,se4800002,0,1,CONT
 asynccharaemo,chara_1,Heart,CONT
 
 asynccharareaction,chara_1,Nod,1,STOP
-message,クレハ,はい……！<br>必ず旦那様の期待に応えてみせますね。,,vc_10580100021_010_01
+message,クレハ,Yes...!<br>I will surely live up to your expectations，darling.<br> ,,vc_10580100021_010_01
 
 
 labeljump,b

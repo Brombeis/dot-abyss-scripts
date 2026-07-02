@@ -17,7 +17,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
@@ -25,7 +25,7 @@ bgmplay,bgmtag1_1,bgm0024,0.75,1
 
 
 window,on,0.15
-message,<user>,ふう。訓練所の視察、なかなか手間取ったな。<br>さっさと戻らないとまたアリシアに説教をされちまう……。
+message,<user>,Phew. That training ground inspection took longer than expected.<br>I'd better hurry back，or Alicia will lecture me again...<br> 
 
 window,off
 wait,0.15
@@ -45,9 +45,9 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,アリシア,――なるほど、そんなに遠くからいらっしゃったんですか。,300201000,vc_10580100001_001_01,
+message,アリシア,——I see，you've come from so far away.<br> ,300201000,vc_10580100001_001_01,
 
-message,<user>,……ん？　司令室からアリシアの話し声が……？<br>ちょっと様子を見てみるか。
+message,<user>,...Hm? Is that Alicia's voice coming from the command room?<br>Guess I'll go take a look.<br> 
 
 
 window,off
@@ -98,7 +98,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,アリシア,お名前はクレハさん……とおっしゃるんですね？,300201000,vc_10580100001_002_01,chara_2
+message,アリシア,Your name is Kureha-san... is that right?<br> ,300201000,vc_10580100001_002_01,chara_2
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -109,7 +109,7 @@ asyncseplay,setag1_2,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,クレハ,はい。ホウライより参りました鬼族の剣士、クレハです。<br>どうぞお見知りおきをお願いしますね。,105801000G,vc_10580100001_003_01,chara_1
+message,クレハ,Yes. I am Kureha，an oni swordswoman from Hourai.<br>I hope we may become well acquainted.<br> ,105801000G,vc_10580100001_003_01,chara_1
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -121,7 +121,7 @@ asyncseplay,setag1_3,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,アリシア,本当は司令官のいない時に、部屋に入れたりはしないんですが……<br>遠方から来てくださったということで、ここでお待ちください。,300201000,vc_10580100001_004_01,chara_2
+message,アリシア,Normally I don't let visitors in while the Commander's away...<br>but since you've traveled so far，please wait here.<br> ,300201000,vc_10580100001_004_01,chara_2
 
 window,off
 wait,0.15
@@ -136,7 +136,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（ホウライ、はるか東方の大国だな。<br>あんな遠くからわざわざこの基地へ……？）
+message,<user>,(Hourai，that great nation far to the east.<br>Why would someone come all this way to this base...?)<br> 
 
 window,off
 wait,0.15
@@ -161,7 +161,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,クレハ,丁寧な対応に感謝いたします。<br>あなたのような方に彼を支えていただけてほっとしております。,105801000G,vc_10580100001_005_01,chara_1
+message,クレハ,Thank you for your courteous welcome.<br>It's a relief to know someone like you supports him.<br> ,105801000G,vc_10580100001_005_01,chara_1
 
 window,off
 wait,0.15
@@ -188,7 +188,7 @@ wait,0.5
 
 
 window,on,0.15
-message,クレハ,……ちなみにお聞きしますが。<br>まさかアリシア様、司令官様と恋仲などということは……,105801000G,vc_10580100001_006_01,chara_1
+message,クレハ,...By the way，may I ask something?<br>Alicia-sama，are you perhaps... involved with the Commander?<br> ,105801000G,vc_10580100001_006_01,chara_1
 
 window,off
 wait,0.15
@@ -213,7 +213,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,アリシア,司令官と、恋っ！？　<br>そ、そんなことはありせんよ！　全然まったく！,300201000,vc_10580100001_007_01,chara_2
+message,アリシア,Me，romantically involved with the Commander!?<br>N-no，nothing like that! Not at all!<br> ,300201000,vc_10580100001_007_01,chara_2
 
 window,off
 wait,0.15
@@ -243,7 +243,7 @@ wait,0.5
 
 
 window,on,0.15
-message,クレハ,そうでしたか、ええ、それは何より。<br>今後とも仲良くしていただけると嬉しいです。,105801000G,vc_10580100001_008_01,chara_1
+message,クレハ,I see，well，that's for the best.<br>I do hope we can get along well from here on.<br> ,105801000G,vc_10580100001_008_01,chara_1
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -254,7 +254,7 @@ asyncseplay,setag1_9,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,アリシア,は、はい……,300201000,vc_10580100001_009_01,chara_2
+message,アリシア,Y-yes...<br> ,300201000,vc_10580100001_009_01,chara_2
 
 window,off
 wait,0.15
@@ -269,7 +269,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（ううむ、妙な圧があるな……このクレハという剣士……。<br>なんだか嫌な予感がするし、ここは戦術的撤退を……）
+message,<user>,(Hmm，there's something unsettling about this Kureha...<br>I've got a bad feeling. Time for a tactical retreat...)<br> 
 
 window,off
 wait,0.15
@@ -294,7 +294,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,アリシア,ええと、司令官が不在なのでわたしが代わりにお話をうかがいますが、<br>どういったご要件なんでしょう？,300201000,vc_10580100001_010_01,chara_2
+message,アリシア,Um，since the Commander's away，I'll hear you out in his place.<br>What business brings you here?<br> ,300201000,vc_10580100001_010_01,chara_2
 
 window,off
 wait,0.15
@@ -340,7 +340,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,クレハ,実は私は司令官様――<br>旦那様と添い遂げたいと思っております。,105801000G,vc_10580100001_011_01,chara_1
+message,クレハ,The truth is，I wish to spend my life with the Commander——<br>with my darling，until death do us part.<br> ,105801000G,vc_10580100001_011_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -351,7 +351,7 @@ asyncseplay,setag1_12,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,クレハ,ゆえに婚姻の申込みのため、<br>こちらへと参りました。,105801000G,vc_10580100001_012_01,chara_1
+message,クレハ,And so，I have come here<br>to formally propose marriage.<br> ,105801000G,vc_10580100001_012_01,chara_1
 
 window,off
 wait,0.15
@@ -363,7 +363,7 @@ shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 shake,CHARA,chara_2,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,<user>,ぶふーっ！？
+message,<user>,Pfffbt!?<br> 
 
 window,off
 wait,0.15
@@ -417,9 +417,9 @@ asynccharaemo,chara_2,Shock,CONT,0
 
 
 window,on,0.15
-message,アリシア,わあっ！？　し、司令官っ！？<br>聞いてたんですか！？,300201000,vc_10580100001_013_01,chara_2
+message,アリシア,Waah!? C-Commander!?<br>Were you listening!?<br> ,300201000,vc_10580100001_013_01,chara_2
 
-message,<user>,やべっ！<br>驚いて吹き出しちゃったじゃないか！
+message,<user>,Crap!<br>You startled me and I spat it out!<br> 
 
 window,off
 wait,0.15
@@ -456,7 +456,7 @@ transitionCrossFade,Tra21,1
 wait,1
 
 window,on,0.15
-message,<user>,というか結婚！？　俺と！？　妻！？　俺のっ！？<br>どうしてそうなるっ！？
+message,<user>,Wait，marriage!? To me!? A wife!? Mine!?<br>How did it come to that!?<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -467,9 +467,9 @@ asyncseplay,setag1_14,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,クレハ,あ、ああ……ふわあ……,105801000G,vc_10580100001_014_01,chara_1
+message,クレハ,A-ah... fwaah...<br> ,105801000G,vc_10580100001_014_01,chara_1
 
-message,<user>,クレハ、といったな？<br>どういうことなんだ？　何が目的だ？
+message,<user>,Kureha，was it?<br>What's going on here? What's your goal?<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -480,9 +480,9 @@ asyncseplay,setag1_15,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,クレハ,はぁ……だ、旦那様……！<br>こんなに近くに、目の前に……私と目が合って……っ！,105801000G,vc_10580100001_015_01,chara_1
+message,クレハ,Haah... d-darling...!<br>So close，right in front of me... our eyes have met...!<br> ,105801000G,vc_10580100001_015_01,chara_1
 
-message,<user>,おい、聞いてるか？<br>詳しい話を――
+message,<user>,Hey，are you listening?<br>I need the details——<br> 
 
 window,off
 wait,0.15
@@ -528,7 +528,7 @@ wait,0.5
 
 
 window,on,0.15
-message,クレハ,ふあぁぁぁぁっ！？　<br>失礼いたしましたっ！,105801000G,vc_10580100001_016_01,chara_1
+message,クレハ,Fwyaaaah!?<br>Forgive my rudeness!<br> ,105801000G,vc_10580100001_016_01,chara_1
 
 window,off
 wait,0.15
@@ -552,7 +552,7 @@ asynccharamove,chara_1,EaseOut,X,100,0.3,CONT,0
 emodelete,chara_1,0,0
 
 window,on,0.15
-message,,真っ赤になったクレハは、顔を伏せて出口へと走る。<br>部屋に入ろうとする<user>とクレハの頭がぶつかった。
+message,,Bright red，Kureha lowers her face and bolts for the exit.<br>Her head collides with %user%'s as he steps into the room.<br> 
 
 window,off
 wait,0.15
@@ -589,7 +589,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,クレハ,きゃうっ！？,105801000G,vc_10580100001_017_01,chara_1
+message,クレハ,Kyauu!?<br> ,105801000G,vc_10580100001_017_01,chara_1
 
 window,off
 wait,0.15
@@ -624,7 +624,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,うわっ！？　だ、大丈夫か！？
+message,<user>,Whoa!? A-are you okay!?<br> 
 
 window,off
 wait,0.15
@@ -670,7 +670,7 @@ wait,0.5
 
 
 window,on,0.15
-message,クレハ,は、はわ、はわわわわわわっ！<br>きゃーっ！！！,105801000G,vc_10580100001_018_01,chara_1
+message,クレハ,H-hawa，hawawawawawa...!<br>Kyaaah!!!<br> ,105801000G,vc_10580100001_018_01,chara_1
 
 window,off
 wait,0.15
@@ -698,7 +698,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,,バランスを崩したクレハだが、見事な動きで受け身をとると<br>手を差し出した<user>から逃げるように出ていった。
+message,,Though thrown off balance，Kureha lands a flawless breakfall<br>and flees from %user%'s outstretched hand，dashing out the door.<br> 
 
 window,off
 wait,0.15
@@ -738,9 +738,9 @@ wait,0.5
 
 
 window,on,0.15
-message,アリシア,……行っちゃいましたね。,300201000,vc_10580100001_019_01,chara_2
+message,アリシア,...She's gone.<br> ,300201000,vc_10580100001_019_01,chara_2
 
-message,<user>,どういうことなんだアリシア。<br>わけが分からんぞ。
+message,<user>,What is going on，Alicia?<br>I have no idea what just happened.<br> 
 
 asynccharaface,chara_2,FaceUnique02,CONT,0
 
@@ -751,9 +751,9 @@ asyncseplay,setag1_21,se4800006,0,1,CONT,0
 asynccharaemo,chara_2,Trouble,CONT,0
 
 
-message,アリシア,わたしもまったく同じ気持ちです。<br>あんな子をどこで口説いてきたんですか、司令官。,300201000,vc_10580100001_020_01,chara_2
+message,アリシア,I feel exactly the same way.<br>Where did you even meet a girl like that，Commander?<br> ,300201000,vc_10580100001_020_01,chara_2
 
-message,<user>,待て待て、濡れ衣だっ！？<br>俺は何もしていないっ！
+message,<user>,Wait，wait，that's a false accusation!?<br>I haven't done anything!<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -778,7 +778,7 @@ fade,In,Black,0
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――翌日</size>,,,on
+messageTextCenter,,<size=48>——The next day</size>,,,on
 
 bgmplay,bgmtag1_2,bgm0033,0.75,1
 
@@ -819,7 +819,7 @@ charashowalpha,chara_2,1,0
 fade,In,Black,1
 
 window,on,0.15
-message,<user>,……結婚、なあ……
+message,<user>,...Marriage，huh...<br> 
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -830,9 +830,9 @@ asyncseplay,setag1_22,se4800009,0,1,CONT,0
 asynccharaemo,chara_2,Question,CONT,0
 
 
-message,アリシア,司令官、クレハさんとはちゃんとお話できたんですか？,300201000,vc_10580100001_021_01,chara_2
+message,アリシア,Commander，did you actually talk things through with Kureha-san?<br> ,300201000,vc_10580100001_021_01,chara_2
 
-message,<user>,ふん、俺は何も言われてないからな。<br>わざわざ話すことなんてない。
+message,<user>,Hmph，she hasn't said anything more to me.<br>There's nothing to talk about.<br> 
 
 asynccharaface,chara_2,FaceUnique02,CONT,0
 
@@ -843,11 +843,11 @@ asyncseplay,setag1_23,se4800016,0,1,CONT,0
 asynccharaemo,chara_2,BePeevish,CONT,0
 
 
-message,アリシア,もー、そんなこと言って逃げてるんでしょう？,300201000,vc_10580100001_022_01,chara_2
+message,アリシア,Come on，you're just saying that to avoid it，aren't you?<br> ,300201000,vc_10580100001_022_01,chara_2
 
 asyncseplay,setag1_24,se4300001,0,1,CONT,0
 
-message,,――コンコン。<br>司令室にノックの音が響く。
+message,,——Knock knock.<br>A knock echoes through the command room.<br> 
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -859,7 +859,7 @@ asyncseplay,setag1_25,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,アリシア,はい？　お客様ですか？<br>どうぞ、入ってください！,300201000,vc_10580100001_023_01,chara_2
+message,アリシア,Yes? Do we have a visitor?<br>Please，come in!<br> ,300201000,vc_10580100001_023_01,chara_2
 
 window,off
 wait,0.15
@@ -907,9 +907,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,クレハ,――失礼、いたします。,105801000G,vc_10580100001_024_01,chara_1
+message,クレハ,——Pardon my intrusion.<br> ,105801000G,vc_10580100001_024_01,chara_1
 
-message,<user>,クレハ……！？<br>くっ、向こうから来てしまったか……
+message,<user>,Kureha...!?<br>Ngh，she came to me first...<br> 
 
 
 window,off
@@ -939,9 +939,9 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,クレハ,昨日は大変な無礼をいたしました。<br>心より謝罪いたします。,105801000G,vc_10580100001_025_01,chara_1
+message,クレハ,I committed a grave discourtesy yesterday.<br>Please accept my sincerest apologies.<br> ,105801000G,vc_10580100001_025_01,chara_1
 
-message,<user>,別に気にしていないが……
+message,<user>,I wasn't bothered by it，really...<br> 
 
 window,off
 wait,0.15
@@ -987,7 +987,7 @@ asyncseplay,setag1_31,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 window,on,0.15
-message,,クレハは机の上に高価そうな品々を並べ、<br>丁寧に頭を下げる。
+message,,Kureha lays out an array of costly-looking gifts on the desk<br>and bows her head with care.<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -996,11 +996,11 @@ asyncseplay,setag1_32,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,クレハ,こちら、ホウライよりお持ちしました、挨拶の品です。<br>お詫びとしては些少ですが、どうかお納めくださいませ。,105801000G,vc_10580100001_026_01,chara_1
+message,クレハ,These are gifts of greeting I brought from Hourai.<br>A small token as an apology，but please accept them.<br> ,105801000G,vc_10580100001_026_01,chara_1
 
-message,<user>,ほー、ホウライ伝統の品々か。<br>こりゃ珍しいな。
+message,<user>,Ho，traditional Hourai goods，huh.<br>Quite the rarity.<br> 
 
-message,<user>,扇に焼き物。こっちは筆で描かれた絵画か。<br>どれも素晴らしい出来じゃないか。
+message,<user>,A fan，pottery... and this one's a hand-painted piece.<br>Every single one is beautifully made.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1012,7 +1012,7 @@ asyncseplay,setag1_33,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,クレハ,恐縮です。<br>御気に召していただければいいのですが……,105801000G,vc_10580100001_027_01,chara_1
+message,クレハ,You're too kind.<br>I do hope they're to your liking...<br> ,105801000G,vc_10580100001_027_01,chara_1
 
 window,off
 wait,0.15
@@ -1027,7 +1027,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（こうして見ていると、ただの可愛い女の子なんだが。<br>本当に俺と結婚するつもりなんだろうか……？）
+message,<user>,(Looking at her like this，she's just a cute girl.<br>Does she really intend to marry me...?)<br> 
 
 window,off
 wait,0.15
@@ -1042,7 +1042,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,はあ……あんまり後回しにしても仕方ないな。<br>昨日言っていた、俺と結婚するという話なんだが……
+message,<user>,Haah... no use putting this off any longer.<br>About what you said yesterday，wanting to marry me...<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1053,11 +1053,11 @@ asyncseplay,setag1_34,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,クレハ,はい、私は司令官様の妻となるため、この基地へと参りました。<br>そのことに一切の嘘はございません。,105801000G,vc_10580100001_028_01,chara_1
+message,クレハ,Yes. I came to this base to become the Commander's wife.<br>There is not a shred of falsehood in that.<br> ,105801000G,vc_10580100001_028_01,chara_1
 
-message,<user>,いっそ嘘があってほしかった……。
+message,<user>,I almost wish there were...<br> 
 
-message,<user>,で、どうして俺と結婚を？<br>鬼族に政略結婚を命じられたか？
+message,<user>,So，why marry me?<br>Were you ordered into an arranged marriage by your clan?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1068,7 +1068,7 @@ asyncseplay,setag1_35,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,クレハ,いいえ。鬼族も、ホウライの国も、何も関係はありません。<br>ただ私が司令官様と結婚したいと願っている、それだけが理由です。,105801000G,vc_10580100001_029_01,chara_1
+message,クレハ,No. It has nothing to do with the oni-folk or Hourai.<br>The only reason is that I wish to marry the Commander myself.<br> ,105801000G,vc_10580100001_029_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1079,9 +1079,9 @@ asyncseplay,setag1_36,se4800002,0,1,CONT,0
 asynccharaemo,chara_1,Heart,CONT,0
 
 
-message,クレハ,貴方様を心からお慕いしております。<br>どうか私と、生涯を共にすごしてください……！,105801000G,vc_10580100001_030_01,chara_1
+message,クレハ,I have come to love you from the bottom of my heart.<br>Please，spend the rest of your life with me...!<br> ,105801000G,vc_10580100001_030_01,chara_1
 
-message,<user>,お、おう……クレハの気持ちは嬉しいが、<br>急にそんなことを言われても……
+message,<user>,O-oh... I'm glad Kureha feels that way，<br>but hearing it so suddenly is a lot to take in...<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1093,9 +1093,9 @@ asyncseplay,setag1_37,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,クレハ,もちろん実家には了承を得ておりますし、式の予約も終わっていますので、<br>すぐにでも正式な<ruby=めおと>夫婦</>となれますよ！,105801000G,vc_10580100001_031_01,chara_1
+message,クレハ,I already have my family's blessing，and the hall's booked，<br>so we could be properly wed any day now!<br> ,105801000G,vc_10580100001_031_01,chara_1
 
-message,<user>,式の予約！？　<br>俺が了承してないのに！？
+message,<user>,You booked the hall!?<br>Without even asking me!?<br> 
 
 window,off
 wait,0.15
@@ -1131,7 +1131,7 @@ wait,0.5
 
 
 window,on,0.15
-message,クレハ,将来的にホウライへ来てくださるのであれば大歓迎ですし、<br>もちろん旦那様と世界を旅するというのも素敵です！,105801000G,vc_10580100001_032_01,chara_1
+message,クレハ,I'd be delighted if you came to Hourai someday，<br>though traveling the world with you sounds lovely too，darling!<br> ,105801000G,vc_10580100001_032_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1143,9 +1143,9 @@ asyncseplay,setag1_39,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,クレハ,子どもは最低２人、できれば４人ほしいと思っていますが、<br>こればかりは授かりものですので焦らずに相談できればと……,105801000G,vc_10580100001_033_01,chara_1
+message,クレハ,I'd like at least two children，ideally four，<br>though that's up to fate，so there's no need to rush...<br> ,105801000G,vc_10580100001_033_01,chara_1
 
-message,<user>,話を聞けって！<br>勝手に将来設計を進めるな！
+message,<user>,I said listen to me!<br>Don't plan out our future without me!<br> 
 
 window,off
 wait,0.15
@@ -1181,11 +1181,11 @@ wait,0.5
 
 
 window,on,0.15
-message,クレハ,ああっ、失礼いたしました！<br>ずっと旦那様のことを想っていたもので、つい……,105801000G,vc_10580100001_034_01,chara_1
+message,クレハ,Ah，forgive me!<br>I've been thinking of you so much，darling，that I just...<br> ,105801000G,vc_10580100001_034_01,chara_1
 
-message,<user>,……とりあえず、本気だってことは分かった。<br>だが、さすがに即答はできない。
+message,<user>,...Well，I understand you're serious about this，at least.<br>But I can't give you an answer right away.<br> 
 
-message,<user>,まずは時間をかけて、お互いをちゃんと知っていこう。<br>それでいいか？
+message,<user>,Let's take our time and get to know each other properly first.<br>Is that alright with you?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1196,7 +1196,7 @@ asyncseplay,setag1_41,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,クレハ,旦那様……私と仲を深める時間をもってくださるのですか……！<br>もちろんです、不満などあるはずがありません！,105801000G,vc_10580100001_035_01,chara_1
+message,クレハ,Darling... you'll spend time growing closer with me...!<br>Of course! I couldn't possibly object!<br> ,105801000G,vc_10580100001_035_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1208,9 +1208,9 @@ asyncseplay,setag1_42,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,クレハ,必ずや私の愛を旦那様に伝えてみせます！<br>どうぞ末永く、よろしくお願いいたしますね。,105801000G,vc_10580100001_036_01,chara_1
+message,クレハ,I will make certain my love reaches you，darling!<br>I look forward to a long future together.<br> ,105801000G,vc_10580100001_036_01,chara_1
 
-message,<user>,末永く、はまだ約束してないんだよ……。<br>ま、よろしくな。
+message,<user>,I haven't promised you 'a long future' yet...<br>Well，take care of me，I guess.<br> 
 
 window,off
 wait,0.15
@@ -1224,9 +1224,9 @@ asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 asyncwait
 
 window,on,0.15
-message,,クレハは丁寧な所作で礼をした。<br>美しい２本の角がはっきりと目に映る。
+message,,Kureha bows with graceful，practiced form.<br>Her two beautiful horns catch the light clearly.<br> 
 
-message,<user>,角……か。昨日は思いっきり頭にぶつかってしまったが、<br>クレハに怪我はなかったか？
+message,<user>,Horns... right. I really slammed into your head yesterday.<br>Kureha，are you hurt anywhere?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1238,7 +1238,7 @@ asyncseplay,setag1_43,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,クレハ,はい、何もございません。,105801000G,vc_10580100001_037_01,chara_1
+message,クレハ,No，I'm quite unharmed.<br> ,105801000G,vc_10580100001_037_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1249,11 +1249,11 @@ asyncseplay,setag1_44,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,クレハ,私は鬼族、鬼の血を引くものですので。<br>人よりもずっと丈夫な体をしております。,105801000G,vc_10580100001_038_01,chara_1
+message,クレハ,I am of the oni-folk，born of oni blood.<br>My body is far sturdier than a human's.<br> ,105801000G,vc_10580100001_038_01,chara_1
 
-message,<user>,ああ、ホウライの鬼族と言っていたな。<br>ならば強靭な肉体をもっているのも頷ける。
+message,<user>,Ah，right，you mentioned being oni from Hourai.<br>That explains the formidable physique，then.<br> 
 
-message,<user>,特に力はホウライでも並ぶものがないらしいな。<br>この基地に来てくれたこと、感謝する。
+message,<user>,I hear your strength has no equal even in Hourai.<br>I'm grateful you chose to come to this base.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1264,7 +1264,7 @@ asyncseplay,setag1_45,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,クレハ,はい、必ずや旦那様の助けとなりましょう。,105801000G,vc_10580100001_039_01,chara_1
+message,クレハ,Yes，I will surely be of help to you，darling.<br> ,105801000G,vc_10580100001_039_01,chara_1
 
 window,off
 wait,0.15
@@ -1315,9 +1315,9 @@ asynccharaemo,chara_2,Question,CONT,0
 
 
 window,on,0.15
-message,アリシア,へ～。司令官、鬼族のことに詳しいんですね。<br>お知り合いがいらっしゃるんですか？,300201000,vc_10580100001_040_01,chara_2
+message,アリシア,Heh~. You know a lot about the oni-folk，Commander.<br>Do you have an acquaintance among them?<br> ,300201000,vc_10580100001_040_01,chara_2
 
-message,<user>,別にそんなことはないが。<br>……あれ？　ならこの話、どこで聞いたんだ……？
+message,<user>,Not particularly，no.<br>...Huh? Then where did I even hear that from...?<br> 
 
 window,off
 wait,0.15
@@ -1365,9 +1365,9 @@ wait,0.5
 
 
 window,on,0.15
-message,クレハ,<size=30>…………やっぱり、私の旦那様。</size>,105801000G,vc_10580100001_041_01,chara_1
+message,クレハ,<size=30>.........Yes，he really is my darling.</size>,105801000G,vc_10580100001_041_01,chara_1
 
-message,<user>,ん、何か言ったか？
+message,<user>,Hm，did you say something?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1378,9 +1378,9 @@ asyncseplay,setag1_48,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,クレハ,いえ……さきほど怪我はないと言ってしまいましたが、<br>よろしければ、１つだけお願いしたいことがございます。,105801000G,vc_10580100001_042_01,chara_1
+message,クレハ,No... I did say I wasn't hurt just now，<br>but if you don't mind，there is one thing I'd like to ask.<br> ,105801000G,vc_10580100001_042_01,chara_1
 
-message,<user>,貴重な土産をもらったし、多少のことなら構わないが……。<br>あんまり変なことを言うなよ？
+message,<user>,I did receive some precious gifts，so a little something's fine...<br>Just don't ask anything too strange，alright?<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1391,7 +1391,7 @@ asyncseplay,setag1_49,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,クレハ,その、ですね……ぶつかった場所を……,105801000G,vc_10580100001_043_01,chara_1
+message,クレハ,Well，you see... where we collided...<br> ,105801000G,vc_10580100001_043_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1402,9 +1402,9 @@ asyncseplay,setag1_50,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,クレハ,頭を、撫でてはくださいませんか……？,105801000G,vc_10580100001_044_01,chara_1
+message,クレハ,Would you... pet my head for me...?<br> ,105801000G,vc_10580100001_044_01,chara_1
 
-message,<user>,……クレハの頭を、俺が？
+message,<user>,...Me，pet Kureha's head?<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1413,7 +1413,7 @@ asyncseplay,setag1_51,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,クレハ,あ……いえ、違うんです。<br>決して私が旦那様に甘えているということではなく……！,105801000G,vc_10580100001_045_01,chara_1
+message,クレハ,Ah... no，that's not it.<br>It's not that I'm trying to be spoiled by you，darling...!<br> ,105801000G,vc_10580100001_045_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1424,9 +1424,9 @@ asyncseplay,setag1_52,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,クレハ,ホウライには患部を撫でることで痛みがなくなる、<br>怪我が早く治るという言い伝えがありまして！,105801000G,vc_10580100001_046_01,chara_1
+message,クレハ,In Hourai，there's a saying that petting an injury<br>eases the pain and helps it heal faster!<br> ,105801000G,vc_10580100001_046_01,chara_1
 
-message,<user>,……ま、撫でるぐらいなら問題ないか。<br>ほら、頭を出してくれ。
+message,<user>,...Well，petting can't hurt.<br>Here，lean your head this way.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1438,7 +1438,7 @@ asyncseplay,setag1_53,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,クレハ,はい……よ、よろしくお願いいたします。,105801000G,vc_10580100001_047_01,chara_1
+message,クレハ,Yes... p-please，go ahead.<br> ,105801000G,vc_10580100001_047_01,chara_1
 
 window,off
 wait,0.15
@@ -1479,7 +1479,7 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,おずおずと頭を差し出すクレハに、<br>そっと手を伸ばす<user>。
+message,,Kureha timidly offers her head，<br>and %user% gently reaches out a hand.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1490,7 +1490,7 @@ asyncseplay,setag1_54,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,クレハ,ハァハァ……,105801000G,vc_10580100001_048_01,chara_1
+message,クレハ,Haah，haah...<br> ,105801000G,vc_10580100001_048_01,chara_1
 
 window,off
 wait,0.15
@@ -1516,7 +1516,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,クレハ,（ああ、旦那様の手が近づいてきます……！<br>どうしましょう、胸の鼓動がおさまりません……！）,105801000G,vc_10580100001_049_01,chara_1
+message,クレハ,(Ah，your hand is getting closer，darling...!<br>What should I do，my heart won't stop pounding...!)<br> ,105801000G,vc_10580100001_049_01,chara_1
 
 window,off
 wait,0.15
@@ -1542,9 +1542,9 @@ asynccharaemo,chara_1,Shy,CONT,0
 
 
 window,on,0.15
-message,クレハ,ハァハァ……ハァハァ……,105801000G,vc_10580100001_050_01,chara_1
+message,クレハ,Haah，haah... haah，haah...<br> ,105801000G,vc_10580100001_050_01,chara_1
 
-message,,緊張が限界を超え、クレハの体がびくりと震える。<br>その瞬間、<user>の指先が少女の角へと触れた。
+message,,Her tension past its limit，Kureha's body trembles sharply.<br>In that instant，%user%'s fingertips brush against her horn.<br> 
 
 window,off
 wait,0.15
@@ -1567,9 +1567,9 @@ wait,0.5
 
 
 window,on,0.15
-message,クレハ,――ひゃんっ！？,105801000G,vc_10580100001_051_01,chara_1
+message,クレハ,——Hyan!?<br> ,105801000G,vc_10580100001_051_01,chara_1
 
-message,<user>,おっと！？<br>悪い、角に手が当たったか。
+message,<user>,Whoa!?<br>Sorry，did my hand hit your horn?<br> 
 
 window,off
 wait,0.15
@@ -1603,9 +1603,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,クレハ,あ、ああ、あああああ……！,105801000G,vc_10580100001_052_01,chara_1
+message,クレハ,A-ah，ahh，ahhhhh...!<br> ,105801000G,vc_10580100001_052_01,chara_1
 
-message,<user>,おい、クレハ？　大丈夫か？<br>角を触られるのは苦手だったか？
+message,<user>,Hey，Kureha? Are you alright?<br>Are your horns sensitive to the touch?<br> 
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -1614,7 +1614,7 @@ asyncseplay,setag1_59,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,クレハ,結婚前に角を触られてしまうなんて……。<br>こんなはしたない声を聞かれてしまうだなんて……！,105801000G,vc_10580100001_053_01,chara_1
+message,クレハ,To have my horns touched before we're even married...<br>and to have you hear such an indecent voice...!<br> ,105801000G,vc_10580100001_053_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1625,7 +1625,7 @@ asyncseplay,setag1_60,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,クレハ,クレハは、クレハはっ！<br>もうお嫁に行けませんーっ！！！,105801000G,vc_10580100001_054_01,chara_1
+message,クレハ,Kureha，oh，Kureha is——<br>Kureha can never be a bride，ever——!!!<br> ,105801000G,vc_10580100001_054_01,chara_1
 
 window,off
 wait,0.15
@@ -1692,7 +1692,7 @@ asyncseplay,setag1_62,se4300008,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,クレハは真っ赤になった顔を伏せると、<br>猛烈な速さで部屋を飛び出して行った。
+message,,Her face burning red，Kureha lowers her head<br>and bolts from the room at blinding speed.<br> 
 
 window,off
 wait,0.15
@@ -1706,7 +1706,7 @@ wait,0.5
 wait,0.5
 
 window,on,0.15
-message,<user>,……俺のお嫁に来るんじゃなかったのか、あいつ。
+message,<user>,...Wasn't she supposed to be becoming my bride?<br> 
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -1717,9 +1717,9 @@ asyncseplay,setag1_64,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,アリシア,ど、独特な人ですね、クレハさん。<br>大丈夫なんですか、司令官……？,300201000,vc_10580100001_055_01,chara_2
+message,アリシア,Sh-she's certainly one of a kind，Kureha-san.<br>Are you going to be alright，Commander...?<br> ,300201000,vc_10580100001_055_01,chara_2
 
-message,<user>,まあ悪いやつではなさそうだし、<br>ちょっと付き合ってみるよ。
+message,<user>,Well，she doesn't seem like a bad person，<br>so I'll give this a shot.<br> 
 
 window,off
 bgmstop,bgmtag1_2,0.5
