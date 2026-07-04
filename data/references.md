@@ -82,6 +82,54 @@ should sound:
 - When a translation is too long, prefer rephrasing concisely over splitting
   into awkward fragments.
 
+### Em Dash (——) Usage
+
+The Japanese ーー marker is common in visual-novel scripts but maps to English
+`——` only in specific cases. Overusing it makes translations feel stilted and
+untranslated.
+
+**Keep `——` when:**
+- Speech is genuinely cut mid-word or mid-sentence by an interruption:
+  `"I can't possibly——"` (someone walks in).
+- The character trails off into silence and the `——` is the trailing-off itself
+  (see Rule D below for when to use `...` instead).
+- The previous JSON entry's `en` ends with `——` and this line continues from
+  that same break.
+- It is part of a sound effect: `"SLASH——!"`, `"SKREEEEE——"`.
+- It is inside a `<size=48>` scene-header (game visual style).
+- It is a mid-word self-correction: `"pla——I mean"`.
+- Moaning/phonetic fragments in R18 content: `"Fwaa, aah, auu——"`.
+- Stylised sound notation: `"——————Chu——————"`.
+
+**Rule A — `——.` remove the period:**
+`——` followed immediately by `.` is always wrong — the period contradicts the
+cutoff signal. **Delete the `.`, keep the `——`.**
+- `"She said so——."` → `"She said so——"`
+- Exception: if trailing off, replace `——.` with `...` instead.
+- Exception: bare scene-setting fragments like `"Night——."` should be rewritten
+  as a proper sentence, since `"Night——"` is also unnatural English.
+
+**Rule B — opening `——` as narrative device:**
+Japanese uses ーー at the start of a line to signal a scene transition or pause.
+English does not. **Remove the opening `——`** when the previous sentence was
+complete and the speaker is calmly continuing or starting a new thought.
+- `"——I see. So that's why..."` → `"I see. So that's why..."`
+- **Before removing any opening `——`, check the `en` of the previous JSON
+  entry.** If it ends mid-sentence with `——`, the opening `——` here is a
+  genuine continuation — keep it.
+
+**Rule C — `——` mid-sentence as filler:**
+`——` mid-sentence should be replaced by a comma, colon, or single em dash (`—`)
+when the pause is not a sharp interruption or dramatic apposition.
+- `"The dormitory——lodging assigned to those who brave the Abyss."` →
+  `"The dormitory — the lodging assigned to those who brave the Abyss."`
+
+**Rule D — `——` at sentence end when trailing off:**
+When `——` ends a line where the character is trailing off (thought unfinished,
+not sharply cut), replace with `...`.
+- `"...I wonder~~——"` → `"...I wonder~~..."`
+- Keep `——` if the speech is genuinely interrupted mid-sentence.
+
 ### Tone Markers in Japanese and How to Render Them
 
 | Japanese pattern | English rendering | Example |
