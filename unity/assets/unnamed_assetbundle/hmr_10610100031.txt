@@ -15,7 +15,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,ご奉仕させてください御主人様
+title,Please Allow Me to Serve You，Master
 
 wait,1
 
@@ -28,13 +28,13 @@ asyncseplay,setag1_1,se4300001,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,明日の探索に向けて先遣隊の提出してきた報告書に目を通していると、<br>司令室のドアを誰かがノックする。
+message,,While reading through the advance team's reports in preparation for<br>tomorrow's expedition， a knock came at the Commander's office door.<br> 
 
-message,ニナ,御主人様、よろしいでしょうか？,106101000G,vc_10610100031_001_01,
+message,ニナ,Master，do you have a moment?<br> ,106101000G,vc_10610100031_001_01,
 
-message,,今日も司令室で身の回りの世話をしてくれていたニナだった。
+message,,It was Nina，who had been attending to his needs in the Commander's<br>office again today.<br> 
 
-message,<user>,ああ、いいぞ。
+message,<user>,Yes，come in.<br> 
 
 window,off
 wait,0.15
@@ -74,9 +74,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ニナ,本日の給仕が済みました。お夜食も準備しましたので召し上がってください。<br>では、わたくしはそろそろ失礼しようかと思います。,106101000G,vc_10610100031_002_01,chara_1
+message,ニナ,I have finished my duties for the evening. A late supper is prepared<br>— please help yourself. I shall be taking my leave shortly.<br> ,106101000G,vc_10610100031_002_01,chara_1
 
-message,<user>,こんな遅い時間までお疲れ様。<br>今日はもう帰ってゆっくり休んでくれ。
+message,<user>,Thank you for staying this late.<br>Go on home and rest.<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -85,9 +85,9 @@ asyncseplay,setag1_4,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ニナ,昼間に御主人様からご依頼を受けたズボンはどちらにあるでしょうか？<br>明日の朝までには破れた箇所を修繕しようと思います。,106101000G,vc_10610100031_003_01,chara_1
+message,ニナ,The trousers you asked me to mend this afternoon — where might I<br>find them? I intend to have the tear repaired before morning.<br> ,106101000G,vc_10610100031_003_01,chara_1
 
-message,<user>,ああ、そういえばそんなこと頼んだっけかな。<br>ズボンならソファーの上に置いてあるぞ。でも、そんなに急がなくて大丈夫だ。
+message,<user>,Ah — right，I did ask you that，didn't I.<br>They're on the sofa. No rush，though.<br> 
 
 asynccharareaction,chara_1,Nod,1,CONT,0
 
@@ -96,11 +96,11 @@ asyncseplay,setag1_5,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ニナ,かしこまりました。,106101000G,vc_10610100031_004_01,chara_1
+message,ニナ,Understood.<br> ,106101000G,vc_10610100031_004_01,chara_1
 
-message,,目的のモノを手に取ったニナだったが、<br>なぜかすぐに部屋から出ていこうとはしなかった。
+message,,Nina took the trousers — but did not leave.<br> 
 
-message,<user>,どうした？<br>他にも何かあるのか？
+message,<user>,What is it?<br>Is there something else?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -111,9 +111,9 @@ asyncseplay,setag1_6,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ニナ,あの……差し出がましいことを申し上げますが……<br>御主人様はまだお休みにならないのですか？,106101000G,vc_10610100031_005_01,chara_1
+message,ニナ,Forgive me for being forward...... but are you not going to<br>bed，Master?<br> ,106101000G,vc_10610100031_005_01,chara_1
 
-message,<user>,ん？　ああ……探索の前の日はいろいろ考えちまってな。<br>目が冴えて、なかなか眠れなくなるんだ。
+message,<user>,Hm? Ah...... the night before an expedition，my mind just runs on.<br>I end up wide awake and can't get to sleep.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -124,9 +124,9 @@ asyncseplay,setag1_7,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ニナ,ですが、探索の前日だからこそ、早めに就寝すべきかと……,106101000G,vc_10610100031_006_01,chara_1
+message,ニナ,But that is precisely why you ought to sleep earlier，not later......<br> ,106101000G,vc_10610100031_006_01,chara_1
 
-message,<user>,ニナの言う通りなんだけどな。<br>まぁ、そのうち勝手に寝落ちするだろうさ。
+message,<user>,You're not wrong，Nina.<br>I'll probably just drift off on my own eventually.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -137,9 +137,9 @@ asyncseplay,setag1_8,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ニナ,お休みになるなら、キチンとベッドで眠っていただきたいのですが……,106101000G,vc_10610100031_007_01,chara_1
+message,ニナ,If you are going to sleep，I would very much prefer you do so in your<br>bed......<br> ,106101000G,vc_10610100031_007_01,chara_1
 
-message,<user>,分かってる……そのうちな、そのうち……
+message,<user>,I know，I know...... eventually......<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -149,7 +149,7 @@ asyncseplay,setag1_9,se4800014,0,1,CONT,0
 
 asynccharaemo,chara_1,Silence,CONT,0
 
-message,,資料を読みながら生返事をする俺に対し、ニナは何を思ったのか、<br>ズボンを置いて、こちらに近づいてきた。
+message,,He answered without looking up from the papers. Whatever Nina was<br>thinking， she set the trousers aside and walked toward him.<br> 
 
 window,off
 wait,0.15
@@ -185,11 +185,11 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,ニナ,御主人様……,106101000G,vc_10610100031_008_01,chara_1
+message,ニナ,Master......<br> ,106101000G,vc_10610100031_008_01,chara_1
 
-message,<user>,んー……？
+message,<user>,Mm...?<br> 
 
-message,,ニナの手が、俺の手にそっと重なる。
+message,,Nina's hand settled gently over his.<br> 
 
 window,off
 wait,0.15
@@ -225,9 +225,9 @@ asynccharaemo,chara_1,Shy,CONT,0
 
 
 window,on,0.15
-message,ニナ,でしたら、御主人様が今すぐベッドでお休みできるよう……<br>わたくしがご奉仕させていただきます……よろしいですね……？,106101000G,vc_10610100031_009_01,chara_1
+message,ニナ,In that case...... allow me to serve you in a way that will have you<br>asleep in your bed right away...... if you would permit me......<br> ,106101000G,vc_10610100031_009_01,chara_1
 
-message,,資料から顔を上げると、そこには頬を赤く染めたニナの、<br>恥じらいつつも有無を言わさぬ表情があった。
+message,,He looked up from the papers. Nina's cheeks were flushed — her<br>expression at once shy and utterly final，leaving no room for argument.<br> 
 
 labeljump,b
 

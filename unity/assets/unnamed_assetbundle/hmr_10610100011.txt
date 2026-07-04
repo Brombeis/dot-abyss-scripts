@@ -15,7 +15,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,悪戯はやめてください御主人様
+title,Please Stop Teasing Me，Master
 
 wait,1
 
@@ -26,7 +26,7 @@ asyncshake,BACK,,24,0,0.6,7,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_1,24,0,0.6,7,off,off,0,on,CONT,0
 
 window,on,0.15
-message,ニナ,きぃやぁ～～～～～～～～～～っ！？,106101000G,vc_10610100011_001_01,
+message,ニナ,KYAAAAAAAAAAAAAH——!?<br> ,106101000G,vc_10610100011_001_01,
 
 window,off
 wait,0.15
@@ -36,7 +36,7 @@ charafocusonall
 shakeallstop
 
 window,on,0.15
-message,,司令室にニナの悲鳴が響き渡る。
+message,,Nina's scream rang through the Commander's office.<br> 
 
 window,off
 wait,0.15
@@ -69,7 +69,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ニナ,む、むむむ虫ぃっ……！？<br>ご、御主人様ぁっ！　虫っ、虫ですっ！　芋虫が窓にぃっ！,106101000G,vc_10610100011_002_01,chara_1
+message,ニナ,A b-b-b-BUG——!?<br>M-Master——! A bug— a BUG— a caterpillar，on the window——!<br> ,106101000G,vc_10610100011_002_01,chara_1
 
 window,off
 wait,0.15
@@ -87,11 +87,11 @@ asynccharamove,chara_1,Linear,Y,0,0.4,CONT,0
 asyncwait
 
 window,on,0.15
-message,,窓掃除をしていたニナが、バックステップで窓から距離をとると、<br>素早い身のこなしで戦闘態勢に入る。
+message,,Nina had been cleaning the windows. She leapt back from the glass<br>and dropped into a combat stance in a single fluid motion.<br> 
 
-message,<user>,っ……ぷ……ぷぷっ！<br>くはっ！　あはははは！
+message,<user>,Pfft—... hah... hahah——!<br>Ha! Hahahaha!<br> 
 
-message,,予想外のリアクションで驚くニナを見て、<br>思わず声を上げて笑ってしまった。
+message,,The sight of Nina staring back in bewilderment at the unexpected<br>laughter made it impossible to stop.<br> 
 
 window,off
 wait,0.15
@@ -118,9 +118,9 @@ asynccharaemo,chara_1,Anger,CONT,0
 
 
 window,on,0.15
-message,ニナ,な、ななな、何がおかしいんですか！,106101000G,vc_10610100011_003_01,chara_1
+message,ニナ,Wh-wh-what is so funny——!<br> ,106101000G,vc_10610100011_003_01,chara_1
 
-message,<user>,すまない、ニナ……くくっ……そいつをよく見てくれ……
+message,<user>,Sorry，Nina... heheh... take a closer look at it...<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -131,7 +131,7 @@ asyncseplay,setag1_4,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ニナ,よ、よく見ろと言われましても……,106101000G,vc_10610100011_004_01,chara_1
+message,ニナ,L-look closely，you say......<br> ,106101000G,vc_10610100011_004_01,chara_1
 
 window,off
 wait,0.15
@@ -180,7 +180,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,,薄目を開け、いつでも逃げられるように距離を取りながら、<br>おそるおそる芋虫（？）に近付くニナ。
+message,,Nina crept toward the caterpillar (?) with squinted eyes，<br>keeping enough distance to bolt at any moment.<br> 
 
 window,off
 wait,0.15
@@ -199,9 +199,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ニナ,あ……こ、これ……ただの木の枝……？<br>それを芋虫の形に似せて削ってある……だ、誰がこんなものを……,106101000G,vc_10610100011_005_01,chara_1
+message,ニナ,Oh... th-this is... just a piece of wood...?<br>Carved to look like a caterpillar...... wh-who on earth would——<br> ,106101000G,vc_10610100011_005_01,chara_1
 
-message,<user>,悪い悪い。ニナの可愛い反応が見たくてな。<br>昨日俺が作って、そこに置いたんだ。
+message,<user>,My apologies，my apologies. I wanted to see that adorable reaction of<br>yours. I carved it yesterday and set it there.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -212,7 +212,7 @@ asyncseplay,setag1_6,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,ニナ,も、もうっ！　またそんなくだらないことを考えて！<br>子どもみたいな悪戯で、お掃除の邪魔をするのはやめてください！,106101000G,vc_10610100011_006_01,chara_1
+message,ニナ,G-goodness——! Thinking up such nonsense again!<br>Please stop disrupting my cleaning with these childish pranks!<br> ,106101000G,vc_10610100011_006_01,chara_1
 
 window,off
 wait,0.15
@@ -232,13 +232,13 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,,そう言うと、ニナは頬をぷくっと膨らませ、<br>背中を向けて窓掃除に戻ってしまった。
+message,,With that，Nina puffed out her cheeks，<br>turned her back，and returned to cleaning the window.<br> 
 
-message,ニナ,ホント、いつまでたってもやることが子どもみたい……<br>あ、ハーブティー淹れておきましたので御自由にどうぞ！,106101000G,vc_10610100011_007_01,
+message,ニナ,You never do grow up，do you......<br>Ah — I have prepared herbal tea. Please help yourself!<br> ,106101000G,vc_10610100011_007_01,
 
-message,,ブツブツと文句を言いながら窓掃除の続きを始める。<br>ニナは、普段はいたってクールで、あまり表情を変えることはなかった。
+message,,She resumed her work，grumbling quietly under her breath.<br>Nina was as a rule utterly composed，rarely letting anything show.<br> 
 
-message,,それ故に、こちらとしては彼女の普段見せない表情やリアクションを見たくて、<br>ついちょっかいを出してしまいたくなるのだ。
+message,,Which was exactly why he always wanted to provoke a reaction —<br>to catch a glimpse of the face she kept hidden.<br> 
 
 window,off
 wait,0.15
@@ -257,7 +257,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,ふむ……
+message,<user>,Hmm...<br> 
 
 window,off
 wait,0.15
@@ -267,7 +267,7 @@ charafocusonall
 asyncseplay,setag1_7,se4400232,0,1,CONT,0
 
 window,on,0.15
-message,,ニナが用意してくれていたハーブティーを口にする。<br>清涼感のある香りが拡がり、心が落ち着く――
+message,,He took a sip of the herbal tea Nina had prepared.<br>A cool，refreshing scent bloomed and settled through him——<br> 
 
 window,off
 wait,0.15
@@ -284,11 +284,11 @@ asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,<user>,ん……！？
+message,<user>,Hmm——!?<br> 
 
-message,,なんだか、急に体中が熱くなる。<br>そして、燃えるような血流が下腹部へと流れ込んでいく――
+message,,His whole body grew hot in an instant.<br>A burning rush of blood sank toward his lower abdomen——<br> 
 
-message,,目の前には可愛いお尻を無防備に突き出したニナの姿。<br>荒くなる呼吸を押さえながら、ゆっくりと彼女の方に近付いていく。
+message,,Right in front of him，Nina stood with her back to him，unguarded.<br>Fighting to control his breathing，he slowly moved toward her.<br> 
 
 window,off
 wait,0.15
@@ -326,9 +326,9 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ニナ,ひゃうぅっ！？,106101000G,vc_10610100011_008_01,chara_1
+message,ニナ,Hyauh——!?<br> ,106101000G,vc_10610100011_008_01,chara_1
 
-message,,気が付くと、ニナの柔らかい尻肉を触っている自分が居た。<br>体中のムラムラが抑えられない。
+message,,Before he knew it，his hands were on her. The heat coursing through<br>him would not be reined in.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -339,9 +339,9 @@ asyncseplay,setag1_10,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ニナ,ちょっ……御主人様！？<br>今度は何を！？,106101000G,vc_10610100011_009_01,chara_1
+message,ニナ,Wh-wha——! Master!?<br>What are you doing now!?<br> ,106101000G,vc_10610100011_009_01,chara_1
 
-message,<user>,だ、だめだ……ハーブティーに口を付けてから、<br>体中がムラムラして抑えが利かない……
+message,<user>,I— I can't help it... since I drank that herbal tea，<br>something's coursing through me and I can't hold it back...<br> 
 
 window,off
 wait,0.15
@@ -376,7 +376,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,理性より先に欲情がひた走っていく。<br>彼女の尻を撫でながら、もう片方の手をニナの胸へと滑らせる。
+message,,Desire outran reason. One hand still on her，his other<br>slid around toward Nina's chest.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -387,9 +387,9 @@ asyncseplay,setag1_11,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ニナ,あっ、やっ……！？<br>御主人様、ダメっ！　んんっ……あぁっ！,106101000G,vc_10610100011_010_01,chara_1
+message,ニナ,Ah— no——!?<br>Master，you mustn't——! Nnh... aah——!<br> ,106101000G,vc_10610100011_010_01,chara_1
 
-message,,俺から逃れようとニナは慌てて身をよじらせる。<br>しかし、そのせいでバランスが崩れ――
+message,,Nina twisted urgently，trying to pull away.<br>But in doing so she lost her balance——<br> 
 
 
 window,off
@@ -416,7 +416,7 @@ fade,In,Black,0
 asyncseplay,setag1_12,se4402001,0,1,CONT,0
 
 window,on,0.15
-message,ニナ,あぁんっ！！！！,106101000G,vc_10610100011_011_01,
+message,ニナ,Aahn——!!!!<br> ,106101000G,vc_10610100011_011_01,
 
 labeljump,b
 

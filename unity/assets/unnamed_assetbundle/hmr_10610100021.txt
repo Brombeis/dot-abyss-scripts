@@ -15,7 +15,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,ハーブティーが思い出させた事
+title,What the Herbal Tea Called to Mind
 
 wait,1
 
@@ -75,9 +75,9 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ニナ,どうぞ……こちらをお飲みになってください。,106101000X,vc_10610100021_001_01,chara_1
+message,ニナ,Please...... do have some of this.<br> ,106101000X,vc_10610100021_001_01,chara_1
 
-message,,ニナが差し出したティーカップと、その中に注がれたお茶の香りに、<br>娼館を訪れた客は驚いた表情を浮かべた。
+message,,The client who had come to the brothel looked surprised — at the<br>teacup Nina extended， and at the scent rising from what was poured inside.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -88,11 +88,11 @@ asyncseplay,setag1_2,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ニナ,ハーブティーです。<br>お嫌いですか？,106101000X,vc_10610100021_002_01,chara_1
+message,ニナ,Herbal tea.<br>Do you dislike it?<br> ,106101000X,vc_10610100021_002_01,chara_1
 
-message,,客はしばしニナの顔をじっと見つめてから、ゆっくりと首を横に振り、<br>ティーカップを受け取ると、少し冷ましてから一口すすった。
+message,,He studied Nina's face for a long moment，then slowly shook his head.<br>He took the cup， let it cool a little，and raised it to his lips.<br> 
 
-message,,客は、前線基地の門番として働く男だった。<br>ニナが娼館で働き始めてから、何人目かの客だ。
+message,,He was a gate guard at the forward base. One of several clients Nina<br>had attended to since she began working here.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -103,9 +103,9 @@ asyncseplay,setag1_3,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ニナ,……いかがです？,106101000X,vc_10610100021_003_01,chara_1
+message,ニナ,......And? How is it?<br> ,106101000X,vc_10610100021_003_01,chara_1
 
-message,,男は、ティーカップの中身がルイボスティーであることを言い当てた。<br>それは、男にとって故郷の味だという。
+message,,He named it: rooibos. The taste of home，he said.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -116,17 +116,17 @@ asyncseplay,setag1_4,se4800005,0,1,CONT,0
 asynccharaemo,chara_1,Flash,CONT,0
 
 
-message,ニナ,そうなんですか？<br>もしよろしければ、貴方様の故郷のお話などをお聞かせいただけたらと……,106101000X,vc_10610100021_004_01,chara_1
+message,ニナ,Is that so? If you are willing，I would be glad to hear about the<br>place you come from......<br> ,106101000X,vc_10610100021_004_01,chara_1
 
-message,,娼館を訪れてからほとんど口を開かない無口な男だったが、<br>懐かしい味に気持ちが和らいだのか、彼は故郷の話をポツポツと語り出した。
+message,,He had said almost nothing since arriving. But something in the<br>familiar taste softened him， and he began to speak — haltingly，a few words at a time.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
-message,,男はかつてハーブを育てる農夫だったという。<br>しかし、男の故郷は厄災で滅び、彼は愛する家族を失ってしまった。
+message,,He had been a herb farmer once. Then the Calamity came for his<br>hometown， and he lost his family.<br> 
 
-message,,男はそんな悲しい過去に蓋をし、故郷を離れ、遠く前線基地まで来て、<br>門番として働いていたのである。
+message,,He had sealed that grief away，left his home behind，and come all this<br>way to the forward base to work the gate.<br> 
 
-message,,門番という仕事を選んだのも、<br>人との接触をなるべく避けるためとのことだった。
+message,,He chose that post deliberately: to keep people at a distance，as<br>much as possible.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -137,7 +137,7 @@ asyncseplay,setag1_5,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ニナ,そうだったのですね……そんな悲しい過去が……<br>つらい記憶を思い出させてしまい、申し訳ございませんでした。,106101000X,vc_10610100021_005_01,chara_1
+message,ニナ,I see...... What a painful history you carry...... I am sorry — for<br>drawing such a difficult memory back to the surface.<br> ,106101000X,vc_10610100021_005_01,chara_1
 
 window,off
 wait,0.15
@@ -164,7 +164,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,ニナはそっと男の手を取ると、優しく自分の手を重ねた。
+message,,Nina gently reached out and covered his hand with her own.<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -173,7 +173,7 @@ asyncseplay,setag1_6,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ニナ,今だけ……今宵だけでも、貴方様からつらい過去を忘れさせ、<br>癒してさしあげたく思います……,106101000X,vc_10610100021_006_01,chara_1
+message,ニナ,Just for tonight......<br>allow me to help you forget that pain，even for a little while......<br> ,106101000X,vc_10610100021_006_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -184,7 +184,7 @@ asyncseplay,setag1_7,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ニナ,どうかお気を楽に……そして、わたくしに身を委ねてくださいませ……<br>わたくしが、ご奉仕させていただきますので……,106101000X,vc_10610100021_007_01,chara_1
+message,ニナ,Please set your mind at ease...... and leave yourself in my<br>care...... I am here to serve you......<br> ,106101000X,vc_10610100021_007_01,chara_1
 
 window,off
 wait,0.15
@@ -217,7 +217,7 @@ wait,1
 wait,0.5
 
 window,on,0.15
-message,,そう言うと、ニナは男の手からそっとカップを取り上げ、<br>ゆっくりとベッドへと男を誘った。
+message,,With that，she carefully took the cup from his hands<br>and led him，gently，toward the bed.<br> 
 
 labeljump,b
 

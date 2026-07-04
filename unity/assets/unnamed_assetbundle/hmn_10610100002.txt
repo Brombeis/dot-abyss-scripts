@@ -28,7 +28,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
@@ -38,11 +38,11 @@ bgmplay,bgmtag1_1,bgm0024,0.75,1
 asyncseplay,setag1_1,se5050013,0,1,CONT,0
 
 window,on,0.15
-message,,――ちゅんちゅん。
+message,,——Tweet tweet.<br> 
 
-message,<user>,ふぁぁぁ～……もう朝か。<br>……ん？　上着がないな。寝る前に確かにここに置いたはずだが……
+message,<user>,Mmmh~... morning already.<br>...Hm? My jacket's gone. I'm sure I left it here last night...<br> 
 
-message,,<user>はしばらく部屋を探したが、上着は見つからない。<br>首をかしげていると、ニナが部屋に入って来た。
+message,,%user% searched the room for a while without finding it.<br>He was still puzzling it over when Nina came in.<br> 
 
 window,off
 wait,0.15
@@ -82,9 +82,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ニナ,おはようございます、御主人様。,106101000G,vc_10610100002_001_01,chara_1
+message,ニナ,Good morning，Master.<br> ,106101000G,vc_10610100002_001_01,chara_1
 
-message,<user>,あぁ、おはよう――<br>って、お前が持っているその服、俺のか？
+message,<user>,Ah，morning——<br>Wait，is that my jacket you're carrying?<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -93,7 +93,7 @@ asyncseplay,setag1_4,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ニナ,左様でございます。,106101000G,vc_10610100002_002_01,chara_1
+message,ニナ,It is.<br> ,106101000G,vc_10610100002_002_01,chara_1
 
 window,off
 wait,0.15
@@ -129,7 +129,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,ニナ,胸元が破れていたので、修復しておきました。,106101000G,vc_10610100002_003_01,chara_1
+message,ニナ,The chest had torn. I have repaired it.<br> ,106101000G,vc_10610100002_003_01,chara_1
 
 window,off
 wait,0.15
@@ -159,7 +159,7 @@ wait,1
 wait,0.5
 
 window,on,0.15
-message,<user>,あぁ、そういえばこの間、大穴の探索中に木の枝に引っ掛けて<br>破れたんだったな。
+message,<user>,Ah，right — I snagged it on a branch during an Abyss expedition<br>the other day.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -170,9 +170,9 @@ asyncseplay,setag1_6,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ニナ,仰っていただければ、すぐに直しましたのに。,106101000G,vc_10610100002_004_01,chara_1
+message,ニナ,Had you mentioned it，I would have mended it at once.<br> ,106101000G,vc_10610100002_004_01,chara_1
 
-message,<user>,ニナは裁縫も得意なのか？
+message,<user>,You're skilled at sewing as well?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -183,7 +183,7 @@ asyncseplay,setag1_7,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ニナ,えぇ。得意ですし、好きです。<br>趣味と言って差し支えありません。,106101000G,vc_10610100002_005_01,chara_1
+message,ニナ,Yes. I am both skilled and fond of it.<br>One might call it a hobby.<br> ,106101000G,vc_10610100002_005_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -194,9 +194,9 @@ asyncseplay,setag1_8,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ニナ,もちろん、裁縫も『手際よく、無駄なく』がモットーですよ。,106101000G,vc_10610100002_006_01,chara_1
+message,ニナ,Naturally，sewing too is governed by 'Efficient and without waste.'<br> ,106101000G,vc_10610100002_006_01,chara_1
 
-message,<user>,ハハッ。それは頼もしいな。どれどれ……ん？<br>直したのはどこだ？
+message,<user>,Ha! That's reassuring. Let me see... hmm?<br>Where exactly did you mend it?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -208,9 +208,9 @@ asyncseplay,setag1_9,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ニナ,こちらです。,106101000G,vc_10610100002_007_01,chara_1
+message,ニナ,Here.<br> ,106101000G,vc_10610100002_007_01,chara_1
 
-message,<user>,……パッと見、修復されたのかどうか分からんな。<br>新品同様だぞ。
+message,<user>,...I can't even tell it was repaired at first glance.<br>It looks brand new.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -221,7 +221,7 @@ asyncseplay,setag1_10,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ニナ,『手際よく、無駄なく』、そして丁寧に仕上げましたので。,106101000G,vc_10610100002_008_01,chara_1
+message,ニナ,'Efficient and without waste' — and finished with care.<br> ,106101000G,vc_10610100002_008_01,chara_1
 
 window,off
 wait,0.15
@@ -238,7 +238,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,ニナ,修復には光の魔法を織り交ぜた糸を使用しました。<br>特別な糸なので丈夫ですし、修復した箇所も目立たない優れものです。,106101000G,vc_10610100002_009_01,chara_1
+message,ニナ,I used thread woven with light magic for the repair. It is an<br>exceptional material — exceptionally durable，and the mend becomes invisible.<br> ,106101000G,vc_10610100002_009_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -249,7 +249,7 @@ asyncseplay,setag1_12,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ニナ,御主人様は司令官というお立場ですから、<br>身だしなみには気を付けていただきませんと。,106101000G,vc_10610100002_010_01,chara_1
+message,ニナ,Given that Master holds the position of Commander，<br>one's appearance does warrant attention.<br> ,106101000G,vc_10610100002_010_01,chara_1
 
 window,off
 wait,0.15
@@ -264,7 +264,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（うーむ。至れり尽くせりでありがたいんだが、<br>アリシアがもう１人増えてしまった感じだな……油断していると叱られそうだ）
+message,<user>,(Hm. Thoroughly taken care of，which I appreciate， but it feels like<br>I've gained a second Alicia... I'll get a scolding if I let my guard down.)<br> 
 
 window,off
 wait,0.15
@@ -289,7 +289,7 @@ asynccharaface,chara_1,FaceSurprise,STOP,0.1
 asyncjump,CHARA,chara_1,30,0.25,1,off,0.1,STOP
 
 window,on,0.15
-message,,――バタンッ！
+message,,——BANG!<br> 
 
 window,off
 wait,0.15
@@ -331,9 +331,9 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,しっ、司令官にご報告です！<br>前線基地に向かってゴブリンの大群が！,401001000,vc_10610100002_011_01,chara_2
+message,兵士Ａ,R-reporting to the Commander!<br>A large goblin horde is heading for the forward base!<br> ,401001000,vc_10610100002_011_01,chara_2
 
-message,<user>,なんだと！？<br>……くそ、タイミングが悪いな。
+message,<user>,What!?<br>...Damn. Terrible timing.<br> 
 
 window,off
 wait,0.15
@@ -377,11 +377,11 @@ wait,0.5
 
 
 window,on,0.15
-message,ニナ,……基地内の兵士では防衛できないのですか？,106101000G,vc_10610100002_012_01,chara_1
+message,ニナ,...The soldiers currently stationed here are insufficient for the<br>defense?<br> ,106101000G,vc_10610100002_012_01,chara_1
 
-message,<user>,今は大穴の新しい階層を探索するために大量の兵士を送り込んでいるんだ。
+message,<user>,Most of our forces are deployed exploring a new Abyss stratum right<br>now.<br> 
 
-message,<user>,ゴブリン如き、大した相手ではないが……<br>こっちの主力がいないとなると……
+message,<user>,Goblins alone aren't much of a threat，but without our main force<br>here...<br> 
 
 window,off
 wait,0.15
@@ -415,11 +415,11 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,ニナ,でしたら、御主人様。わたくしも戦闘へ参加いたします！,106101000G,vc_10610100002_013_01,chara_1
+message,ニナ,Then，Master — I will join the defense!<br> ,106101000G,vc_10610100002_013_01,chara_1
 
-message,<user>,……そうだな。ニナが来てくれるなら心強い。
+message,<user>,...Good. Having Nina with us is reassuring.<br> 
 
-message,<user>,ただ、気を付けろ！　ゴブリンは悪知恵が働く連中だ。<br>油断だけは絶対にするな！
+message,<user>,But be careful! Goblins are cunning fighters.<br>Do not let your guard down. Not for a moment!<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -431,9 +431,9 @@ asyncseplay,setag1_17,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ニナ,はいっ！,106101000G,vc_10610100002_014_01,chara_1
+message,ニナ,Yes!<br> ,106101000G,vc_10610100002_014_01,chara_1
 
-message,,表向きは無表情だが、ニナは心に固く誓う。
+message,,Her face betrayed nothing，but Nina made a silent，iron vow.<br> 
 
 window,off
 wait,0.15
@@ -461,7 +461,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ニナ,（御主人様はわたくしが守ります……たとえ、命に代えても！）,106101000G,vc_10610100002_015_01,chara_1
+message,ニナ,(I will protect Master... even at the cost of my life!)<br> ,106101000G,vc_10610100002_015_01,chara_1
 
 
 
@@ -487,7 +487,7 @@ emodelete,chara_1,0,0
 transitionFade,Tra05,in,black,1
 
 window,on,0.15
-message,,兵士たちが前線基地の門の前に立ち、迎撃の陣を敷いている。<br>後方に<user>とニナの姿もあった。
+message,,The soldiers formed their defensive line at the base's gate.<br>%user% and Nina stood further back.<br> 
 
 window,off
 wait,0.15
@@ -527,11 +527,11 @@ wait,0.5
 
 
 window,on,0.15
-message,ニナ,御主人様も門の外に出るのですか？,106101000G,vc_10610100002_016_01,chara_1
+message,ニナ,Will Master be going out through the gate as well?<br> ,106101000G,vc_10610100002_016_01,chara_1
 
-message,<user>,前線の近くにいたほうが指示伝達のロスが減る。<br>……戦力に不安があるんだ。少しでも勝率を上げないとな。
+message,<user>,Being closer to the front reduces the lag in passing orders. ...Our<br>numbers worry me. I need to do whatever I can to improve our odds.<br> 
 
-message,<user>,ニナは俺の警護役としてそばにいてもらう。
+message,<user>,I'll have Nina stay close as my bodyguard.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -542,7 +542,7 @@ asyncseplay,setag1_20,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ニナ,かしこまりました。<br>存分に采配を振るってください。,106101000G,vc_10610100002_017_01,chara_1
+message,ニナ,As you wish.<br>Please command without reservation.<br> ,106101000G,vc_10610100002_017_01,chara_1
 
 window,off
 wait,0.15
@@ -578,7 +578,7 @@ asynccharaemo,chara_3,Exclamation,CONT,0
 
 
 window,on,0.15
-message,兵士Ｂ,来ました！　ゴブリンの大群です！,400901000,,chara_3
+message,兵士Ｂ,Here they come! The goblin horde!<br> ,400901000,,chara_3
 
 window,off
 wait,0.15
@@ -643,9 +643,9 @@ asynccharaemo,chara_6,Anger,CONT,0
 
 
 window,on,0.15
-message,ゴブリン,キシャアアアアアーッ！！,402001000,,chara_4/chara_6/chara_5
+message,ゴブリン,KSHAAAAAAH!!<br> ,402001000,,chara_4/chara_6/chara_5
 
-message,<user>,総員、前に出て出鼻をくじくんだ！<br>掛かれーっ！
+message,<user>,All units，advance and break their momentum!<br>Charge——!<br> 
 
 window,off
 wait,0.15
@@ -680,7 +680,7 @@ wait,0.5
 asyncseplay,setag1_25,SE_DUMMY,0,1,CONT,0
 
 window,on,0.15
-message,,兵士たちの雄叫びが上がり、戦闘が始まる。
+message,,The soldiers' battle cries rose and the fighting began.<br> 
 
 window,off
 wait,0.15
@@ -720,7 +720,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ニナ,御主人様。数は少ないですが、<br>ゴブリンが防衛線をすり抜けて向かってくるのが見えます。,106101000G,vc_10610100002_018_01,chara_1
+message,ニナ,Master. A small number，but I can see goblins<br>slipping through the defensive line and heading this way.<br> ,106101000G,vc_10610100002_018_01,chara_1
 
 window,off
 wait,0.15
@@ -768,9 +768,9 @@ asyncseplay,setag1_27,se4800004,0,1,CONT,0
 asynccharaemo,chara_4,Laugh,CONT,0
 
 window,on,0.15
-message,ゴブリン,キャハッハー！,402001000
+message,ゴブリン,Hehehehah!<br> ,402001000
 
-message,兵士Ａ,あっ、しまった！？<br>司令官、お逃げください！,401001000,vc_10610100002_019_01,
+message,兵士Ａ,Ah，no——!<br>Commander，get back!<br> ,401001000,vc_10610100002_019_01,
 
 window,off
 wait,0.15
@@ -813,7 +813,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,ニナ,……いえ、その必要はございません。<br>わたくしがいますから。,106101000G,vc_10610100002_020_01,chara_1
+message,ニナ,...That will not be necessary.<br>I am here.<br> ,106101000G,vc_10610100002_020_01,chara_1
 
 window,off
 wait,0.15
@@ -864,7 +864,7 @@ asyncjump,CHARA,chara_4,40,0.5,2,off,0,CONT
 
 
 window,on,0.15
-message,ゴブリン,ウッシャーッ！,402001000,,chara_4
+message,ゴブリン,YAAAH!<br> ,402001000,,chara_4
 
 window,off
 wait,0.15
@@ -940,7 +940,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ニナ,……！,106101000G,vc_10610100002_021_01,chara_1
+message,ニナ,...!<br> ,106101000G,vc_10610100002_021_01,chara_1
 
 window,off
 wait,0.15
@@ -956,7 +956,7 @@ asyncseplay,setag1_31,se4800001,0,1,CONT,0
 asynccharaemo,chara_4,Anger,CONT,0
 
 window,on,0.15
-message,,ゴブリンが<user>に飛び掛かろうとするが、<br>両者の間にニナが音もなく割って入った。
+message,,The goblin lunged at %user% —<br>but Nina slipped between them without a sound.<br> 
 
 window,off
 wait,0.15
@@ -1031,7 +1031,7 @@ asynccharamove,chara_1,Linear,X,50,0.5,CONT
 
 asynccharamove,chara_1,Linear,Y,-60,0.5,CONT,0
 
-messageTextUnder,,無駄のない動きで拳闘の構えを取り、舞うように身体を回転、<br>そして片足を鞭のようにしならせる。回し蹴りでゴブリンを吹き飛ばした。,,,on
+messageTextUnder,,She settled into a boxer's stance without a wasted motion，body spinning<br>like a dancer's — then whipped one leg out and sent the goblin flying.,,,on
 
 window,off
 wait,0.15
@@ -1101,7 +1101,7 @@ asynccharaemo,chara_4,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ゴブリン,ギャーッ！？,402001000,,chara_4
+message,ゴブリン,GYAAAH!?<br> ,402001000,,chara_4
 
 window,off
 wait,0.15
@@ -1170,7 +1170,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,す、すごい！？,401001000,vc_10610100002_022_01,chara_2
+message,兵士Ａ,Wh-whoa...!<br> ,401001000,vc_10610100002_022_01,chara_2
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -1179,7 +1179,7 @@ asyncseplay,setag1_36,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ニナ,気を抜かないでください。<br>またすり抜けたゴブリンたちが来ます。,106101000G,vc_10610100002_023_01,chara_1
+message,ニナ,Do not relax.<br>More goblins are breaking through.<br> ,106101000G,vc_10610100002_023_01,chara_1
 
 window,off
 wait,0.15
@@ -1482,7 +1482,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,,ニナの言葉通り、ゴブリンが隊列の隙間を走り抜けてくる。<br>だが、ニナがすべて迎撃して、突破を許さない。
+message,,True to her word，goblins kept slipping through the lines.<br>But Nina intercepted every one，allowing none to break through.<br> 
 
 window,off
 wait,0.15
@@ -1490,7 +1490,7 @@ wait,0.15
 charafocusonall
 
 window,on,0.15
-message,<user>,……前線が崩れているわけではないのに、<br>すり抜けてくる敵が後を絶たんな。
+message,<user>,...The line isn't breaking，but the ones slipping through<br>just keep coming.<br> 
 
 window,off
 wait,0.15
@@ -1509,9 +1509,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ニナ,数が多すぎて、前線だけでは対処できないようです……<br>それに、このままではいつか前線も――？,106101000G,vc_10610100002_024_01,chara_1
+message,ニナ,There are simply too many. The front line alone cannot manage......<br>And at this rate，even the line itself may eventually——?<br> ,106101000G,vc_10610100002_024_01,chara_1
 
-message,<user>,可能性はある。<br>うーむ……
+message,<user>,It's possible.<br>Hmm...<br> 
 
 window,off
 wait,0.15
@@ -1538,7 +1538,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,ニナ,（御主人様が困っていらっしゃる……<br>もっと……もっとお役に立たなくては）,106101000G,vc_10610100002_025_01,chara_1
+message,ニナ,(Master is troubled......<br>I must do more... I must be of more use.)<br> ,106101000G,vc_10610100002_025_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1549,7 +1549,7 @@ asyncseplay,setag1_49,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ニナ,（それに、ここへ御主人様がいるのはやはり危険です。<br>だったら……！）,106101000G,vc_10610100002_026_01,chara_1
+message,ニナ,(And Master being here is too dangerous. If that is the case——!)<br> ,106101000G,vc_10610100002_026_01,chara_1
 
 window,off
 wait,0.15
@@ -1576,11 +1576,11 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,ニナ,わたくしも最前線に出て、ゴブリンを蹴散らしてきます！<br>御主人様は基地の中、安全な場所へ後退してください！,106101000G,vc_10610100002_027_01,chara_1
+message,ニナ,I will move to the front line and rout them!<br>Please fall back inside the base to somewhere safe，Master!<br> ,106101000G,vc_10610100002_027_01,chara_1
 
-message,<user>,いや、ここは一時撤退だ！　このまま粘るには敵の数が多すぎる。
+message,<user>,No — we fall back! There are too many to hold this position.<br> 
 
-message,<user>,いったん籠城して、態勢を立て直してから反撃を試みるぞ！
+message,<user>,We'll fortify inside and regroup，then counterattack!<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1591,9 +1591,9 @@ asyncseplay,setag1_51,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ニナ,わたくしが前線に加勢すれば、戦局を打開が……,106101000G,vc_10610100002_028_01,chara_1
+message,ニナ,If I join the front line，we can turn this around——<br> ,106101000G,vc_10610100002_028_01,chara_1
 
-message,<user>,いいや、撤退だ！<br>ゴブリンたちの悪知恵を警戒する意味でも、ここは――
+message,<user>,No — we retreat! We have to account for goblin cunning，which means——<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1604,7 +1604,7 @@ asyncseplay,setag1_52,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ニナ,でも！,106101000G,vc_10610100002_029_01,chara_1
+message,ニナ,But——!<br> ,106101000G,vc_10610100002_029_01,chara_1
 
 window,off
 wait,0.15
@@ -1645,7 +1645,7 @@ asyncseplay,setag1_53,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 window,on,0.15
-message,<user>,っ、待て！？
+message,<user>,——Wait!?<br> 
 
 window,off
 wait,0.15
@@ -1669,7 +1669,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,,言い合いになりかけるが、<user>が遮る。<br>かすかだが魔法の詠唱が聞こえたのだ。
+message,,The argument was cut short when %user% raised a hand.<br>Faint — but unmistakable. A magical chant.<br> 
 
 window,off
 wait,0.15
@@ -1697,7 +1697,7 @@ asynccharashowalpha,chara_1,1,0.3,CONT,0
 asyncwait
 
 window,on,0.15
-message,<user>,伏せろ！　ニナ！
+message,<user>,Get down! Nina!<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1706,7 +1706,7 @@ asyncseplay,setag1_54,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,ニナ,えっ？,106101000G,vc_10610100002_030_01,chara_1
+message,ニナ,Eh?<br> ,106101000G,vc_10610100002_030_01,chara_1
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -1724,7 +1724,7 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,,普段から反応の良いニナは、考えるより先に体を動かした。<br>地面に伏せたニナの頭上を、マジックアローが通過する。
+message,,Nina，quick as ever，moved before she could think.<br>A magic arrow tore through the air above her as she hit the ground.<br> 
 
 window,off
 wait,0.15
@@ -1748,9 +1748,9 @@ asyncshake,CHARA,chara_5,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_6,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,<user>,ぐあっ！？
+message,<user>,Ghh——!?<br> 
 
-message,,マジックアローが胸元に突き刺さった。<br>衝撃を受け止めきれず、<user>は派手に吹き飛んでしまう。
+message,,The magic arrow struck him in the chest.<br>The force was more than he could absorb — %user% went flying.<br> 
 
 window,off
 wait,0.15
@@ -1782,9 +1782,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ニナ,ウソ……御主人……さ……ま？,106101000G,vc_10610100002_031_01,chara_1
+message,ニナ,No... Master... ...?<br> ,106101000G,vc_10610100002_031_01,chara_1
 
-message,,<user>が地面をもんどりうって倒れていく様を、<br>ニナは信じられない様子で見つめていた。
+message,,Nina watched %user% tumble and crash to the ground，<br>her face — always blank — now stricken with disbelief.<br> 
 
 window,off
 wait,0.15
@@ -1826,7 +1826,7 @@ asynccharamove,chara_1,Linear,Y,-100,0.5,CONT,0
 
 
 window,on,0.15
-message,ニナ,ご……御主人様！？,106101000G,vc_10610100002_032_01,chara_1
+message,ニナ,M... Master!?<br> ,106101000G,vc_10610100002_032_01,chara_1
 
 window,off
 wait,0.15
@@ -1849,9 +1849,9 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,ニナ,御主人様ーーーーーーーーーっ！！！！,106101000G,vc_10610100002_033_01,on
+message,ニナ,MASTER——————————!!!<br> ,106101000G,vc_10610100002_033_01,on
 
-message,,常に冷静沈着に仕事をこなしてきたメイドの悲痛な叫びが、<br>静まり返った戦場に響き渡った――
+message,,The anguished cry of a maid who had never once lost her composure<br>rang out across the suddenly silent battlefield——<br> 
 
 window,off
 bgmstop,bgmtag1_3,0.5

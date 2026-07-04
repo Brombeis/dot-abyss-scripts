@@ -16,7 +16,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
@@ -26,16 +26,16 @@ bgmplay,bgmtag1_1,bgm0036,0.75,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――昼の司令室</size>,,,on
+messageTextCenter,,<size=48>——The Commander's Office，Midday</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
 
 
 window,on,0.15
-message,,<user>は次の大穴探索に向けて<br>作戦を考えていた。
+message,,%user% was working out tactics for<br>the next Abyss expedition.<br> 
 
-message,<user>,まったく……いつになったら休めるのやら。
+message,<user>,Honestly... when am I ever going to get a day off.<br> 
 
 window,off
 wait,0.15
@@ -57,9 +57,9 @@ wait,0.5
 asyncseplay,setag1_1,se4300001,0,1,CONT,0
 
 window,on,0.15
-message,,――コンコン！
+message,,——Knock knock!<br> 
 
-message,<user>,アリシアか？<br>入っていいぞ。
+message,<user>,Alicia?<br>Come in.<br> 
 
 window,off
 wait,0.15
@@ -79,7 +79,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,？？？,失礼いたします。,900000001,vc_10610100001_001_01,on
+message,？？？,Pardon the intrusion.<br> ,900000001,vc_10610100001_001_01,on
 
 window,off
 wait,0.15
@@ -109,7 +109,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（ん？　……誰だ？）
+message,<user>,(Hm?... Who's this?)<br> 
 
 window,off
 wait,0.15
@@ -137,7 +137,7 @@ asynccharamove,chara_1,Linear,Y,-30,0.5,CONT,0
 asyncwait
 
 window,on,0.15
-message,,メイド服姿の幼い美少女はスカートを両手でつまみ、軽く膝を折って<br>丁寧に挨拶をする。まだ幼いが、仕草には気品があった。
+message,,The young girl in a maid's uniform took her skirt in both hands，<br>gave a slight curtsy，and offered a precise greeting. Young as she was，her bearing had grace.<br> 
 
 window,off
 wait,0.15
@@ -163,9 +163,9 @@ wait,0.5
 
 
 window,on,0.15
-message,？？？,お初にお目に掛かります、御主人様。<br>本日からよろしくお願いいたします。,106101000G,vc_10610100001_002_01,chara_1
+message,？？？,It is a pleasure to meet you，Master.<br>I am in your service from this day forward.<br> ,106101000G,vc_10610100001_002_01,chara_1
 
-message,<user>,……すまん。話がまったく見えないんだが。
+message,<user>,...Sorry. I have no idea what's going on.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -176,9 +176,9 @@ asyncseplay,setag1_3,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,？？？,……？<br>アリシア様からお聞きではないのですか？,106101000G,vc_10610100001_003_01,chara_1
+message,？？？,...?<br>Has Alicia-sama not informed you?<br> ,106101000G,vc_10610100001_003_01,chara_1
 
-message,<user>,さっぱりだ。とりあえず、名前を教えてくれるか？
+message,<user>,Not at all. Could you start with your name?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -190,7 +190,7 @@ asyncseplay,setag1_4,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,？？？,はい。自己紹介が遅れて申し訳ございません。,106101000G,vc_10610100001_004_01,chara_1
+message,？？？,Yes. My apologies for neglecting to introduce myself.<br> ,106101000G,vc_10610100001_004_01,chara_1
 
 window,off
 wait,0.15
@@ -207,7 +207,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ニナ,アリシア様の御依頼で<br>ペルディオンメイド協会から参りました、ニナと申します。,106101000G,vc_10610100001_005_01,chara_1
+message,ニナ,I am Nina. I have come from the Perdion Maid Association<br>at the request of Alicia-sama.<br> ,106101000G,vc_10610100001_005_01,chara_1
 
 window,off
 wait,0.15
@@ -222,7 +222,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（……言葉遣いや仕草は丁寧だが、完全に無表情とは。<br>まるで人形みたいな娘だな）
+message,<user>,(...Her manners and bearing are impeccable，but that face is<br>completely blank. She's like a doll.)<br> 
 
 window,off
 wait,0.15
@@ -248,9 +248,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ニナ,……あの。ペルディオンメイド協会と聞いても、お心当たりございませんか？<br>確かに御依頼を受けているのですが。,106101000G,vc_10610100001_006_01,chara_1
+message,ニナ,...Forgive me. Does the Perdion Maid Association<br>not ring a bell? I was indeed engaged by request.<br> ,106101000G,vc_10610100001_006_01,chara_1
 
-message,<user>,ん？　待てよ。そういえば、この間――
+message,<user>,Hmm? Wait. Come to think of it，the other day——<br> 
 
 
 
@@ -278,7 +278,7 @@ fade,In,White,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――数日前</size><br><size=48>夜の司令室</size>,,,on
+messageTextCenter,,<size=48>——Several Days Earlier</size><br><size=48>The Commander's Office，Night</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -291,7 +291,7 @@ shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 shake,CHARA,chara_2,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,<user>,うがああ～～～～！<br>仕事が！！　終わらんっ！！！
+message,<user>,Ughhhhh~~~~!<br>The work!! It never ends!!!<br> 
 
 window,off
 wait,0.15
@@ -330,9 +330,9 @@ asynccharaemo,chara_2,Dull,CONT,0
 
 
 window,on,0.15
-message,アリシア,司令官、お願いだから大声を出さないでください……<br>わたしもあまり寝ていないんですから……,300201000,vc_10610100001_007_01,chara_2
+message,アリシア,Commander，please，keep your voice down......<br>I haven't been sleeping much either......<br> ,300201000,vc_10610100001_007_01,chara_2
 
-message,,ここ数日、大穴の新しい階層の発見が続き、２人は多忙を極めていた。
+message,,The past few days had brought one new Abyss stratum after another，<br>and both of them were stretched to their limits.<br> 
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -343,9 +343,9 @@ asyncseplay,setag1_8,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,アリシア,書類仕事が終わったら、また訓練所へ行ってきますね……,300201000,vc_10610100001_008_01,chara_2
+message,アリシア,Once I finish the paperwork，I'll head to the training grounds<br>again......<br> ,300201000,vc_10610100001_008_01,chara_2
 
-message,<user>,またか……最近、ずっとだな。
+message,<user>,Again... you've been doing that every day lately.<br> 
 
 window,off
 wait,0.15
@@ -399,7 +399,7 @@ asynccharaemo,chara_2,Panic,STOP,11
 
 
 window,on,0.15
-message,アリシア,だって……新しく入って来た兵士の技量確認に部隊編成……<br>やることが山積みなんですよぅ……ふえええ～ん！,300201000,vc_10610100001_009_01,chara_2
+message,アリシア,Because... assessing the new soldiers，arranging the units...<br>There's just so much to do...... Waaah~!<br> ,300201000,vc_10610100001_009_01,chara_2
 
 window,off
 wait,0.15
@@ -445,9 +445,9 @@ asynccharaemo,chara_2,Trouble,CONT,0
 
 
 window,on,0.15
-message,アリシア,司令官のお部屋、汚くなってしまってごめんなさい……<br>お食事も全然作れていないし……,300201000,vc_10610100001_010_01,chara_2
+message,アリシア,I'm sorry your room has gotten into such a state......<br>I haven't been able to make you a proper meal either......<br> ,300201000,vc_10610100001_010_01,chara_2
 
-message,<user>,俺の世話をしてくれる奴は、お前以外にいないからなぁ。
+message,<user>,You're the only one around here who looks after me，after all.<br> 
 
 window,off
 wait,0.15
@@ -466,9 +466,9 @@ wait,0.5
 
 
 window,on,0.15
-message,アリシア,１ヶ月だけ、別の世話係を派遣してもらいますか？<br>ペルディオンメイド協会なら間違いないと思うんですけど。,300201000,vc_10610100001_011_01,chara_2
+message,アリシア,What if we had a substitute attendant sent over for one month?<br>The Perdion Maid Association should be more than reliable.<br> ,300201000,vc_10610100001_011_01,chara_2
 
-message,<user>,アリシアに余裕がないんだから、仕方ないな。<br>任せたぞ！
+message,<user>,If you're already run ragged，I can't argue.<br>I'll leave it to you!<br> 
 
 
 
@@ -505,7 +505,7 @@ screeneffect,SEPIATONE,off,1,0
 fade,In,White,1
 
 window,on,0.15
-message,<user>,――という話をしていたんだった。
+message,<user>,——That was the conversation we had.<br> 
 
 window,off
 wait,0.15
@@ -522,12 +522,12 @@ wait,0.5
 
 
 window,on,0.15
-message,ニナ,思い出していただけて何よりです。,106101000G,vc_10610100001_012_01,chara_1
+message,ニナ,I am glad it has come back to you.<br> ,106101000G,vc_10610100001_012_01,chara_1
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,ニナ,１ヶ月という短い期間ですが誠心誠意、お仕えいたします。,106101000G,vc_10610100001_013_01,chara_1
+message,ニナ,It is only one month，but I shall serve you with my utmost sincerity.<br> ,106101000G,vc_10610100001_013_01,chara_1
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -539,9 +539,9 @@ asyncseplay,setag1_14,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ニナ,何かお手伝いできることがありましたら、<br>なんなりとお申し付けください。,106101000G,vc_10610100001_014_01,chara_1
+message,ニナ,Should there be anything I may assist with，<br>please do not hesitate to say so.<br> ,106101000G,vc_10610100001_014_01,chara_1
 
-message,<user>,気持ちはありがたいんだが、何を手伝ってもらうかを考えるのが<br>つらいくらい、疲れていてな――
+message,<user>,I appreciate it，but I'm so exhausted I can barely think<br>about what to ask for help with——<br> 
 
 window,off
 wait,0.15
@@ -560,7 +560,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ニナ,そうでしたか。<br>疲労がたまると、そういう状況にもなりますよね。,106101000G,vc_10610100001_015_01,chara_1
+message,ニナ,I see.<br>When fatigue accumulates，that does tend to happen.<br> ,106101000G,vc_10610100001_015_01,chara_1
 
 window,off
 wait,0.15
@@ -602,7 +602,7 @@ asynccameramove,LinearTarget,Y,-150,1.5,CONT,0
 asyncwait
 
 window,on,0.15
-message,,ニナは言いながら、部屋を見回す。
+message,,As she spoke，Nina surveyed the room.<br> 
 
 window,off
 wait,0.15
@@ -648,9 +648,9 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,ニナ,本に会議の資料……散らかり放題ですね。<br>これでは部屋の中を歩くだけでも疲れてしまいそうです。,106101000G,vc_10610100001_016_01,chara_1
+message,ニナ,Books，meeting documents... quite thoroughly scattered.<br>One would tire simply navigating through this room.<br> ,106101000G,vc_10610100001_016_01,chara_1
 
-message,<user>,まぁ、細かい疲労は溜まるかもしれんな。<br>イライラもするし。
+message,<user>,Yeah，the low-level strain does pile up.<br>Makes you irritable too.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -662,7 +662,7 @@ asyncseplay,setag1_17,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ニナ,まずは、こちらの整理からいたしましょう。,106101000G,vc_10610100001_017_01,chara_1
+message,ニナ,In that case，I shall begin by putting this room in order.<br> ,106101000G,vc_10610100001_017_01,chara_1
 
 window,off
 wait,0.15
@@ -718,7 +718,7 @@ wait,0.5
 asyncjump,CHARA,chara_1,-30,0.5,2,off,0,CONT
 
 window,on,0.15
-message,,言うや否や、ニナは片付けに着手する。
+message,,The moment she said it，Nina set to work.<br> 
 
 window,off
 wait,0.15
@@ -760,9 +760,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ニナ,ちなみに、わたくしに見られたら困るものはございますでしょうか？,106101000G,vc_10610100001_018_01,chara_1
+message,ニナ,Incidentally，is there anything you would prefer I not see?<br> ,106101000G,vc_10610100001_018_01,chara_1
 
-message,<user>,特にないな。仕事の資料も転がっているが、部外秘ではないし。
+message,<user>,Not particularly. There's work material scattered about，<br>but none of it's confidential.<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -771,9 +771,9 @@ asyncseplay,setag1_19,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ニナ,ベッドの下などに隠しものはありませんか？,106101000G,vc_10610100001_019_01,chara_1
+message,ニナ,Nothing hidden under the bed，perhaps?<br> ,106101000G,vc_10610100001_019_01,chara_1
 
-message,<user>,ない。エロ本はそこの本棚に置いてある。
+message,<user>,No. My adult books are on that bookshelf over there.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -784,9 +784,9 @@ asyncseplay,setag1_20,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ニナ,分かりました。<br>さっそく御主人様がわたくしを信頼してくれて嬉しいです。,106101000G,vc_10610100001_020_01,chara_1
+message,ニナ,Understood.<br>I am pleased that Master has seen fit to trust me so promptly.<br> ,106101000G,vc_10610100001_020_01,chara_1
 
-message,<user>,ははは！　ただ明け透けなだけだぞ。
+message,<user>,Ha! I'm just an open book.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -794,7 +794,7 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,ニナ,いずれにせよ、人となりが分かってありがたいです。,106101000G,vc_10610100001_021_01,chara_1
+message,ニナ,Either way，it is helpful to know the sort of person you are.<br> ,106101000G,vc_10610100001_021_01,chara_1
 
 window,off
 wait,0.15
@@ -839,9 +839,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ニナ,それでは、掃除に集中します。<br>御主人様は好きにお過ごしください。,106101000G,vc_10610100001_022_01,chara_1
+message,ニナ,I shall focus on the cleaning now.<br>Please carry on as you please，Master.<br> ,106101000G,vc_10610100001_022_01,chara_1
 
-message,<user>,あぁ……では、仕事の続きをやらせてもらうよ。
+message,<user>,Right... I'll get back to work then.<br> 
 
 window,off
 wait,0.15
@@ -868,7 +868,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（片付けに１時間から２時間は掛かるだろうし、ちょうどいいだろう。<br>終わったらお茶でも淹れてもらうか）
+message,<user>,(Tidying this will take an hour or two，so the timing works out.<br>I'll have her brew some tea once she's done.)<br> 
 
 window,off
 wait,0.15
@@ -892,7 +892,7 @@ fade,In,Black,0
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――２分後</size>,,,on
+messageTextCenter,,<size=48>——Two Minutes Later</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -934,9 +934,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ニナ,お掃除、終わりました。,106101000G,vc_10610100001_023_01,chara_1
+message,ニナ,The cleaning is complete.<br> ,106101000G,vc_10610100001_023_01,chara_1
 
-message,<user>,早いな！？　どうやった！？
+message,<user>,Already!? How did you manage that!?<br> 
 
 window,off
 wait,0.15
@@ -955,9 +955,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ニナ,おそばで見ていただいた通り、です。,106101000G,vc_10610100001_024_01,chara_1
+message,ニナ,Exactly as you observed，Master.<br> ,106101000G,vc_10610100001_024_01,chara_1
 
-message,<user>,急いでいる雰囲気はまったくなかったんだが……？
+message,<user>,You didn't seem to be hurrying at all，though...?<br> 
 
 window,off
 wait,0.15
@@ -977,7 +977,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ニナ,手を早く動かす必要はないんです。<br>無駄のない順序、動線を心掛ければ何事も効率よく済みます。,106101000G,vc_10610100001_025_01,chara_1
+message,ニナ,There is no need to move one's hands quickly. Mind the sequence and<br>the path，eliminate the waste，and anything can be done efficiently.<br> ,106101000G,vc_10610100001_025_01,chara_1
 
 window,off
 wait,0.15
@@ -996,7 +996,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ニナ,『手際よく、無駄なく』<br>これがわたくしのモットーです。,106101000G,vc_10610100001_026_01,chara_1
+message,ニナ,'Efficient and without waste.'<br>That is my motto.<br> ,106101000G,vc_10610100001_026_01,chara_1
 
 window,off
 wait,0.15
@@ -1011,7 +1011,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（相変わらずの無表情で淡々と言ってくるが……<br>こいつ、とんでもない当たりメイドなんじゃないか？）
+message,<user>,(She says all this with the same blank face as ever...<br>But she might be the most remarkable maid I've ever encountered.)<br> 
 
 window,off
 wait,0.15
@@ -1058,9 +1058,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ニナ,しかし、このお部屋、少々飾り気がないですね。,106101000G,vc_10610100001_027_01,chara_1
+message,ニナ,This room is rather bare，if I may say so.<br> ,106101000G,vc_10610100001_027_01,chara_1
 
-message,<user>,以前はアリシアが花を飾っていたんだが、忙しくて世話ができなくて<br>弱ってしまったから、いったん人に譲ってしまったんだ。
+message,<user>,Alicia used to keep flowers here，but she's been too busy to tend<br>them. They started to wilt，so she passed them on.<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -1069,9 +1069,9 @@ asyncseplay,setag1_27,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ニナ,そうでしたか。差し支えなければ、新しい花を飾りませんか？<br>お世話はわたくしがいたしますので。,106101000G,vc_10610100001_028_01,chara_1
+message,ニナ,I see. If you have no objection，shall I bring in fresh flowers?<br>I will tend to them myself.<br> ,106101000G,vc_10610100001_028_01,chara_1
 
-message,<user>,そうだな。部屋に彩りがあると気分が良い。<br>アリシアも喜びそうだ。
+message,<user>,That sounds good. A bit of color makes a room feel better.<br>Alicia would be pleased too.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1082,7 +1082,7 @@ asyncseplay,setag1_28,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ニナ,ありがとうございます。<br>お庭に花が咲いていたので、鉢植えに移してきます。,106101000G,vc_10610100001_029_01,chara_1
+message,ニナ,Thank you. There are flowers blooming in the garden. I shall<br>transplant some into a pot.<br> ,106101000G,vc_10610100001_029_01,chara_1
 
 window,off
 wait,0.15
@@ -1118,7 +1118,7 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,,ニナはさっそうと部屋を出て行く。
+message,,Nina left the room without a moment's hesitation.<br> 
 
 window,off
 wait,0.15
@@ -1139,7 +1139,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（うーむ……まさに完璧。本当に無駄がない。<br>これはしばらく楽ができそうだ）
+message,<user>,(Good grief... absolutely flawless. Not a single wasted move.<br>I think I'm going to be very comfortable for a while.)<br> 
 
 window,off
 wait,0.15
@@ -1162,7 +1162,7 @@ asyncshake,CHARA,chara_1,12,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_2,12,0,0.6,5,off,off,0,on,CONT,0
 
 window,on,0.15
-message,ニナ,きぃやぁ～～～～～～～～～～っ！？,106101000G,vc_10610100001_030_01,on
+message,ニナ,KYAAAAAAAAAAAAAH——!?<br> ,106101000G,vc_10610100001_030_01,on
 
 window,off
 wait,0.15
@@ -1174,7 +1174,7 @@ linework,off,Black,Middle
 shakeallstop
 
 window,on,0.15
-message,<user>,な、なんだ！？
+message,<user>,What— what the——!?<br> 
 
 
 
@@ -1210,7 +1210,7 @@ asyncseplay,setag1_30,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 window,on,0.15
-message,,――庭へ駆け付けると、涙目のニナが両手のガントレットを突き出し、<br>戦闘態勢を取っていた。
+message,,——Rushing to the garden，he found Nina with tears in her eyes，<br>both gauntlets raised，standing in a full combat stance.<br> 
 
 window,off
 wait,0.15
@@ -1243,7 +1243,7 @@ transitionCrossFade,Tra21,0.5
 wait,0.5
 
 window,on,0.15
-message,<user>,どうした！？<br>敵の奇襲か！？
+message,<user>,What's wrong!?<br>An ambush!?<br> 
 
 asyncshake,CHARA,chara_1,20,15,0.5,6,on,off,0,off,CONT,0
 
@@ -1252,7 +1252,7 @@ asyncseplay,setag1_31,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ニナ,ちちちち、ちがっ、ちがいまっ……,106101000G,vc_10610100001_031_01,chara_1
+message,ニナ,Th-th-that's— that's not— it's not——<br> ,106101000G,vc_10610100001_031_01,chara_1
 
 asyncjump,CHARA,chara_1,40,0.5,2,off,0,CONT
 
@@ -1261,7 +1261,7 @@ asyncseplay,setag1_32,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ニナ,む、むむむむしぃっ……花に、むしぃぃいいっ！,106101000G,vc_10610100001_032_01,chara_1
+message,ニナ,A b-b-b-BUG——... on the flower— a BUG——!<br> ,106101000G,vc_10610100001_032_01,chara_1
 
 window,off
 wait,0.15
@@ -1286,9 +1286,9 @@ transitionCrossFade,Tra01,1
 wait,1
 
 window,on,0.15
-message,<user>,……んん？<br>虫……？
+message,<user>,...Hmm?<br>A bug...?<br> 
 
-message,,ニナが見つめる先に花がある。<br>近付いてよく見ると、花びらの上に芋虫がいた。
+message,,Following Nina's gaze，he spotted a flower.<br>Moving closer，he found a caterpillar sitting on one of the petals.<br> 
 
 window,off
 wait,0.15
@@ -1308,9 +1308,9 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,こいつか。
+message,<user>,This fellow?<br> 
 
-message,,<user>がひょい、と芋虫を拾い上げる。
+message,,%user% casually picked the caterpillar up.<br> 
 
 window,off
 wait,0.15
@@ -1373,7 +1373,7 @@ asyncseplay,setag1_34,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 window,on,0.15
-message,,――ニナはピューン！　と後方に跳んで間合いを取り、<br>ガチャリ、と音を立てて<user>に拳を向けてきた。
+message,,——Nina leapt backward with alarming speed，gauntlets clacking，<br>and leveled her fist at %user%.<br> 
 
 window,off
 wait,0.15
@@ -1415,7 +1415,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ニナ,ふーっ、ふーっ！！！,106101000G,vc_10610100001_033_01,chara_1
+message,ニナ,Hff—! Hff—!!!<br> ,106101000G,vc_10610100001_033_01,chara_1
 
 window,off
 wait,0.15
@@ -1458,7 +1458,7 @@ asyncseplay,setag1_36,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 window,on,0.15
-message,<user>,お、落ち着け……！　威嚇するな！<br>こいつを遠くへ逃がすだけだ！
+message,<user>,Easy...! Don't point that at me!<br>I'm just going to let it go somewhere far away!<br> 
 
 window,off
 wait,0.15
@@ -1484,7 +1484,7 @@ asyncseplay,setag1_38,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 window,on,0.15
-message,,近くの木へ芋虫を移すと、ニナはようやく殺気を引っ込める。
+message,,Once he moved the caterpillar to a nearby tree，Nina finally lowered<br>her guard.<br> 
 
 window,off
 wait,0.15
@@ -1520,9 +1520,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ニナ,も、申し訳ございませんでした……<br>わたくし、虫だけは……,106101000G,vc_10610100001_034_01,chara_1
+message,ニナ,I— I am deeply sorry......<br>Insects are the one thing I simply cannot——<br> ,106101000G,vc_10610100001_034_01,chara_1
 
-message,<user>,だめなんだな。<br>仕事は完璧なのに、意外だ……
+message,<user>,Can't handle them，huh.<br>Your work is flawless otherwise. Surprising...<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1533,9 +1533,9 @@ asyncseplay,setag1_40,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ニナ,……幻滅しましたか？,106101000G,vc_10610100001_035_01,chara_1
+message,ニナ,...Are you disappointed in me?<br> ,106101000G,vc_10610100001_035_01,chara_1
 
-message,<user>,馬鹿を言うな。誰だって苦手なものはある。それどころか、今ので<br>ますますお前を気に入ったよ。これからも頼んだぞ。
+message,<user>,Don't be ridiculous. Everyone has something they can't handle.<br>If anything，I like you more now. I'm counting on you going forward.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1546,7 +1546,7 @@ asyncseplay,setag1_41,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ニナ,……！,106101000G,vc_10610100001_036_01,chara_1
+message,ニナ,...!<br> ,106101000G,vc_10610100001_036_01,chara_1
 
 window,off
 wait,0.15
@@ -1571,13 +1571,13 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,ニナ,……かしこまりました。<br>優しい御主人様にお仕えできて、ニナも幸せです。,106101000G,vc_10610100001_037_01,chara_1
+message,ニナ,...As you wish.<br>Nina is happy to serve such a kind Master.<br> ,106101000G,vc_10610100001_037_01,chara_1
 
-message,<user>,ハハッ。そうか。<br>まぁ、よろしく頼む。
+message,<user>,Ha. I'm glad to hear it.<br>Well，I look forward to working with you.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
-message,,<user>は考える。さっきの鋭い反射神経に<br>無駄のない動き……ニナは高い戦闘能力を持っているに違いない。
+message,,%user% turned it over in his mind. Those reflexes，that precise<br>movement... Nina had to possess exceptional combat ability.<br> 
 
 window,off
 wait,0.15
@@ -1592,7 +1592,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（世話役だけでなく、警護役としても適任だ。<br>これは本当に、しばらく楽ができそうだぞ――）
+message,<user>,(She'd do just as well as a bodyguard as a caretaker.<br>I really am going to be comfortable for a while——)<br> 
 
 window,off
 bgmstop,bgmtag1_2,0.5
