@@ -146,7 +146,7 @@ asyncobjectemo,Sophia,Anger
 objectmotion,Sophia,N_Pointing,1,1,,0.1
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 
-dotmessage,ソフィア,<size=24>Hey!<br>You two，quit the idle chatter!,,mcv_1001000101_004_01,NORMAL,Mid,ANGER,Sophia,TOP,NORMAL,0,20
+dotmessage,ソフィア,<size=24>Hey!<br>You all，quit the idle chatter!,,mcv_1001000101_004_01,NORMAL,Mid,ANGER,Sophia,TOP,NORMAL,0,20
 objectmotion,Sophia,C_Wait,0,1,,0.1
 
 objectdirect,Belisa,RIGHT
@@ -305,11 +305,11 @@ objectmotion,Belisa,C_WeaponSkillCharge,1,1,,0
 objectmotion,Marina,C_Wait,0,1,,0
 //////////////////////////////////////////////////////////////////////////////////////////////
 
-dotmessage,ベリサ,<size=24>Shall the beautiful girl mage Verisa-chan<br>burn them all to a crisp for you~♪,,mcv_1001000101_010_01,NORMAL,Mid,HAPPY,Belisa,TOP,NORMAL,0,20
+dotmessage,ベリサ,<size=24>Shall the beautiful mage Verisa-chan<br>burn them all to a crisp for you~♪,,mcv_1001000101_010_01,NORMAL,Mid,HAPPY,Belisa,TOP,NORMAL,0,20
 
 objectmotion,user,N_talk,1,1,,0
 
-dotmessage,<user>,<size=24>Verisa，overconfidence<br>will get you hurt!,,,NORMAL,Mid,,user,TOP,NORMAL,0,20
+dotmessage,<user>,<size=24>Verisa，that attitude<br>is gonna get you injured!,,,NORMAL,Mid,,user,TOP,NORMAL,0,20
 
 objectmotion,Belisa,N_gesture,0,1,,0
 
@@ -321,7 +321,7 @@ asyncwait
 
 objectmotion,Belisa,N_embarrassing,1,1,,0
 
-dotmessage,ベリサ,<size=24>But if I do get hurt，<br>you'll princess carry me，okay~♡,,mcv_1001000101_012_01,NORMAL,Mid,SHY,Belisa,TOP,NORMAL,0,20
+dotmessage,ベリサ,<size=24>But if I do get hurt，<br>you'll carry me away like a princess，okay~♡,,mcv_1001000101_012_01,NORMAL,Mid,SHY,Belisa,TOP,NORMAL,0,20
 
 asyncseplay,se4800008,se4800008,0,1,CONT,0
 asyncobjectemo,user,Sweat
