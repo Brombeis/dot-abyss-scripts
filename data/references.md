@@ -141,6 +141,11 @@ not sharply cut), replace with `...`.
 | っ！ (glottal stop + !) | ! (just exclamation) | くそっ！ → "Damn!" |
 | 「」 quotes within speech | 'single quotes' | 「楽園」→ 'paradise' |
 
+### Spelling Conventions
+
+- **"jeez", not "geez"** — always spell this exclamation as *jeez* (including
+  stuttered forms: "J-jeez", "Jeez~~!", etc.).
+
 ---
 
 ## 2. World Building

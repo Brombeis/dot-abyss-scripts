@@ -148,8 +148,11 @@ def _comma_safe(value):
 
 def load_json(path, default):
     if os.path.exists(path):
-        with open(path, "r", encoding="utf-8") as fh:
-            return json.load(fh)
+        with open(path, "r", encoding="utf-8-sig") as fh:
+            try:
+                return json.load(fh)
+            except json.JSONDecodeError as e:
+                raise json.JSONDecodeError(f"{path}: {e.msg}", e.doc, e.pos) from None
     return default
 
 
