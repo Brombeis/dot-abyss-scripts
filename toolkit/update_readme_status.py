@@ -31,7 +31,7 @@ MARKER_END = "<!-- translation-status-end -->"
 
 
 def load_names():
-    with open(NAMES_PATH, "r", encoding="utf-8") as f:
+    with open(NAMES_PATH, "r", encoding="utf-8-sig") as f:
         return json.load(f)
 
 
@@ -75,7 +75,7 @@ def gather_stats():
         for fname in sorted(os.listdir(TRANSLATIONS_DIR)):
             if not fname.startswith(prefix + "_") or not fname.endswith(".json"):
                 continue
-            with open(os.path.join(TRANSLATIONS_DIR, fname), "r", encoding="utf-8") as f:
+            with open(os.path.join(TRANSLATIONS_DIR, fname), "r", encoding="utf-8-sig") as f:
                 data = json.load(f)
             lines = data.get("lines", [])
             t = sum(1 for l in lines if l.get("en"))
@@ -99,7 +99,7 @@ def gather_character_stats(names):
         for fname in sorted(os.listdir(TRANSLATIONS_DIR)):
             if not fname.startswith(prefix + "_") or not fname.endswith(".json"):
                 continue
-            with open(os.path.join(TRANSLATIONS_DIR, fname), "r", encoding="utf-8") as f:
+            with open(os.path.join(TRANSLATIONS_DIR, fname), "r", encoding="utf-8-sig") as f:
                 data = json.load(f)
             char = primary_character(data, names)
             if not char:
@@ -213,7 +213,7 @@ def update_status_json():
         for fname in sorted(os.listdir(TRANSLATIONS_DIR)):
             if not fname.startswith(prefix + "_") or not fname.endswith(".json"):
                 continue
-            with open(os.path.join(TRANSLATIONS_DIR, fname), "r", encoding="utf-8") as f:
+            with open(os.path.join(TRANSLATIONS_DIR, fname), "r", encoding="utf-8-sig") as f:
                 data = json.load(f)
             lines = data.get("lines", [])
             total = len(lines)
