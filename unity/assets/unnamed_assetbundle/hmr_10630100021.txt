@@ -15,7 +15,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,気持ちいいところを教えて！
+title,Teach Me What Feels Good!
 
 wait,1
 
@@ -42,9 +42,9 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,ホノカ,ふふふ～ん、誰がいいかなぁ～～。,106301000X,vc_10630100021_001_01,chara_1
+message,ホノカ,Hmhmhm~~，who looks good~~ ?<br> ,106301000X,vc_10630100021_001_01,chara_1
 
-message,,娼館で働き始めたホノカは、<br>どの客にしようかと指差しながら店内を見渡していた。
+message,,Honoka had started working at the brothel and was now<br>sizing up the customers，finger poised，scanning the room.<br> 
 
 window,off
 wait,0.15
@@ -70,7 +70,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ホノカ,（この前は、あたしばっかり気持ち良くなっちゃったもんな。<br>司令官も最後は、獣みたいに激しかったけど……）,106301000X,vc_10630100021_002_01,chara_1
+message,ホノカ,(Last time，I was the only one who got to feel good.<br>The Commander went all beast-mode at the end，but...)<br> ,106301000X,vc_10630100021_002_01,chara_1
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -79,7 +79,7 @@ asyncseplay,setag1_3,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ホノカ,（きっとそれまでは、あたしのために<br>気持ち良くなるの我慢してくれてたんだ……）,106301000X,vc_10630100021_003_01,chara_1
+message,ホノカ,(I bet up until then he was holding back<br>and trying not to feel good，for my sake...)<br> ,106301000X,vc_10630100021_003_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -91,7 +91,7 @@ asyncseplay,setag1_4,se4800002,0,1,CONT,0
 asynccharaemo,chara_1,Heart,CONT,0
 
 
-message,ホノカ,（でも次にする時は我慢なんてさせないぞっ。司令官にもたっくさん<br>気持ち良くなってもらって、もっともっといっぱいせーし出してもらうんだ♪）,106301000X,vc_10630100021_004_01,chara_1
+message,ホノカ,(Next time we do it，I won't let him hold back at all!<br>I'll make him feel SO good he shoots tons and tons♪)<br> ,106301000X,vc_10630100021_004_01,chara_1
 
 window,off
 wait,0.15
@@ -113,9 +113,9 @@ asyncjump,CHARA,chara_1,60,0.4,1,off,0,CONT
 
 
 window,on,0.15
-message,ホノカ,そのためにはおちんちんのこともっと知らないと――！<br>なにごとも修行だーーーーーーーーーー♪,106301000X,vc_10630100021_005_01,chara_1
+message,ホノカ,Which means I need to learn more about penises——!<br>Everything's training—GOOOOO♪<br> ,106301000X,vc_10630100021_005_01,chara_1
 
-message,,ホノカは燃えていた。<br>客を物色しているのも、その修行に相応しい相手を見つけるためだ。
+message,,Honoka was fired up.<br>She was casing the room to find the right study partner.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -127,9 +127,9 @@ asyncseplay,setag1_5,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ホノカ,……お！　あの人いいかもしれないぞ！！,106301000X,vc_10630100021_006_01,chara_1
+message,ホノカ,...Oh! That guy might work!!<br> ,106301000X,vc_10630100021_006_01,chara_1
 
-message,,ホノカが目を留めたのは、ちょうど店に入ってきた兵士だった。
+message,,The one who'd just walked in was a soldier.<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -138,7 +138,7 @@ asyncseplay,setag1_6,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ホノカ,あの人の剣、すっごくきれいに手入れされてるもんな！<br>あんなに武器を大事にする人だったら絶対いい人だぞ！,106301000X,vc_10630100021_007_01,chara_1
+message,ホノカ,His weapons are SO well maintained!!<br>Anyone who cares for their gear like that has to be a good person!<br> ,106301000X,vc_10630100021_007_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -149,7 +149,7 @@ asyncseplay,setag1_7,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ホノカ,あの人ならきっとやさしく丁寧にしゃらららん～～って、<br>おちんちんのこと教えてくれるぞ！,106301000X,vc_10630100021_008_01,chara_1
+message,ホノカ,He'll definitely teach me about penises all gently<br>and carefully with this SHALARALAAN~~ feeling!!<br> ,106301000X,vc_10630100021_008_01,chara_1
 
 window,off
 wait,0.15
@@ -167,7 +167,7 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,,そうと決まれば、ホノカはじっとしていられない。<br>あっという間にその兵士に向かって駆け出していくのだった……
+message,,Once her mind was made up，Honoka couldn't stand still.<br>She was already sprinting toward the soldier.<br> 
 
 labeljump,b
 

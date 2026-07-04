@@ -1173,6 +1173,77 @@ roster is listed below.
     when distressed: "I don't wanna~~!", "Why does this keep happening
     to me~..."
 
+### Honoka (ホノカ)
+- **Pronoun:** あたし (atashi) — casual feminine
+- **Addresses MC as:** 司令官 → **"Commander"** (casual, no honorific; drops to
+  "しれいかん" mid-panic, same cutesy slurring as Himari/Emily — but only when
+  she's crying or overwhelmed, not a habit)
+- **Role:** Blacksmith at the forward base. Arrived because she heard it was
+  full of fascinating technologies from the Abyss and that a smith could grow
+  there. Creates inventive, powerful weapons through pure intuition — but cannot
+  explain them in any language other than onomatopoeia.
+- **Backstory:** Honoka has extraordinary natural talent as a smith: her very
+  first creation for the base is a greatsword that, when swung with force, can
+  release a controlled burst of flame. But her ability to communicate her craft
+  in words is essentially zero. She describes every weapon, every technique,
+  and every sensation exclusively in sound effects — "BWONNNN! while swinging,
+  then press it and BWAWAWAWAWA~!" — leaving everyone around her completely
+  baffled. This spirals into a crisis when the base's soldiers refuse to use
+  her weapons not because they dislike them or her, but because they genuinely
+  don't know how to operate them. Honoka's turning point comes when the MC
+  volunteers to serve as her translator: she explains in onomatopoeia, he
+  decodes and relays to the soldiers. Through this partnership, her weapons
+  begin to see real use — and the soldiers discover they are devastatingly
+  effective.
+- **Speech style:** Extremely energetic, open, and unguarded. Casual plain-form
+  endings: だ, だぞ, ぞ, ～んだ. Short sentences, floods of exclamation marks.
+  Her defining quirk — and the character trait readers should be able to identify
+  instantly — is that she describes everything in pure onomatopoeia. Weapons,
+  sensations, actions, emotional states: all expressed as sound effects stated
+  with total confidence, as if they should be self-evident to any reasonable
+  person. She has no idea others can't understand her. She reacts to everything
+  with her whole body. When happy or being headpatted she makes dog-like sounds:
+  くぅん～♪, きゅぅ～～ん♪, わっふぅ～～ん♪ — the MC literally compares her
+  to a dog, internally. Cries easily and intensely, but bounces back in moments;
+  when crying hard, her whole mouth falls apart into garbled baby-talk. Her
+  laugh is えへへ / えへへへ～ — gleeful and slightly embarrassed. She is deeply
+  sincere, never calculating, and says exactly what she feels the instant she
+  feels it: "I love you, Commander!!!" delivered with zero preamble.
+- **Translation notes:**
+  - **All weapon and technique descriptions must be rendered as English
+    onomatopoeia/sound effects** — this is the soul of her character. "ブォンッ！
+    って振りながらポチっとするとブワワワワ～！ってなる" → "You go BWONNNN!
+    while swinging it and press the button and it goes BWAWAWAWAWA~!" The
+    reader should feel the same bewilderment the MC and soldiers feel — knowing
+    something is being communicated but unable to parse what. All-caps for the
+    big sounds, tildes for the trailing-off.
+  - Her dog-like sounds: くぅん～♪ → "Kyuun~♪", きゅぅ～～ん♪ →
+    "Kyuuuu~~n♪", わっふぅ～～ん♪ → "Woof~~n♪" — always keep them, they
+    are her physical expressiveness made audible.
+  - えへへ/えへへへ～ → "Ehehe~" / "Ehehehe~" — gleeful, not just bashful.
+  - When she tries to use formal/polite speech (desperately, on meeting the MC),
+    she mangles it immediately: "ホノカ、で、でしゅ！よよ、よろちくお願いしまちゅ！"
+    → "I'm, I'm Honoka, I ishhh! Nnn-nice to meetchyou~!" Slurred, mangled,
+    and immediately abandoned when the MC tells her to just speak normally.
+  - When crying hard, garble her speech with consonant swaps and broken pacing:
+    "あたちのぶきゅをだりぇもちゅかって" → "Nwobodyyy's uushing mwy weappons..."
+    The MC explicitly cannot understand her; the reader should barely manage.
+  - Her excitement about weapons and smithing is never childish — it is the joy
+    of genuine mastery. She lights up and her eyes sparkle. Let that come through
+    as passion, not naivety: "I found this super stiff chunk of steel and it
+    wouldn't melt so I went BWOOOO~! at it with the fire!!"
+  - Keep ♪ and ～ liberally — she uses them as much as Marina or Kururu.
+  - She addresses the MC casually from their very first meeting ("Commander"
+    with zero distance). This is not disrespect — it's just how she is.
+  - In R18 content: she approaches intimacy with the same open curiosity she
+    has about weapons — new thing, wants to understand it, guileless questions.
+    She describes sensations with her signature onomatopoeia. Her trust in the
+    MC is total and innocent. Her voice should be identical to her non-R18 voice;
+    the same enthusiastic, transparent person.
+  - Readers should be able to identify Honoka from line shape alone: all-caps
+    sound effects, strings of exclamation marks, dog-sounds, and zero filter
+    between thought and speech. No other character in the cast sounds like this.
+
 ### Shiraes (シラエス)
 - **Pronoun:** 私 (watashi) — neutral/calm; delivered with sage warmth, not
   feminine polish

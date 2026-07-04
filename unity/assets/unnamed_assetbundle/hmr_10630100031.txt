@@ -15,7 +15,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,気持ち良くしてあげるぞ！
+title,I'll Make You Feel Good!
 
 wait,1
 
@@ -23,7 +23,7 @@ bgmplay,bgmtag1_1,bgm0024,0.75,1
 
 
 window,on,0.15
-message,<user>,今夜は早く帰れそうだな。<br>最近残業続きだったからたまにはいいだろう。
+message,<user>,Finally getting out early tonight.<br>After all these late shifts，I deserve it.<br> 
 
 
 window,off
@@ -34,9 +34,9 @@ charafocusonall
 asyncseplay,se1_1001,se4000121,0,1,CONT,0
 
 window,on,0.15
-message,<user>,……ん？
+message,<user>,...Hm?<br> 
 
-message,,突如として、慌ただしい足音が聞こえてきた。<br>何事かと音のほうを振り返る。
+message,,Rapid footsteps. He turned toward the sound.<br> 
 
 window,off
 wait,0.15
@@ -76,9 +76,9 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ホノカ,司令か～～～～～～～～～～ん！,106301000X,vc_10630100031_001_01,chara_1
+message,ホノカ,Commannnnnnnnnnder!<br> ,106301000X,vc_10630100031_001_01,chara_1
 
-message,,すごい勢いでこっちに走ってくるのはホノカだった。<br>たちまち目の前までやってきて急ブレーキで立ち止まる。
+message,,Honoka came sprinting at him full speed and skidded to a stop<br>right in front of him.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -90,9 +90,9 @@ asyncseplay,setag1_2,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ホノカ,はぁ、はぁ、はぁ……<br>司令官みつけた！,106301000X,vc_10630100031_002_01,chara_1
+message,ホノカ,Hah，hah，hah...<br>Found you，Commander!<br> ,106301000X,vc_10630100031_002_01,chara_1
 
-message,<user>,なんだ、そんなに慌てて？<br>何かあったのか？
+message,<user>,What's going on? Why the rush?<br>Did something happen?<br> 
 
 window,off
 wait,0.15
@@ -128,7 +128,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,ホノカ,いいから一緒に来て！,106301000X,vc_10630100031_003_01,chara_1
+message,ホノカ,Just come with me!<br> ,106301000X,vc_10630100031_003_01,chara_1
 
 window,off
 wait,0.15
@@ -154,11 +154,11 @@ asyncmove,BACK,,0,0,0,Set,CONT
 transitionFade,Tra16,in,black,0.01
 
 window,on,0.15
-message,,いきなり手を取ると引っ張って走り出す。
+message,,She grabbed his hand and started running.<br> 
 
-message,<user>,うわっ！？　また走るのか！？<br>俺は今日は早く帰ろうと……ちょ、ちょっと待――
+message,<user>,Wha!? Running again!?<br>I was gonna head home early tonight—h-hey，wai——<br> 
 
-message,ホノカ,いいから～～～～～～～～～！！,106301000X,vc_10630100031_004_01,
+message,ホノカ,JUST COME!!<br> ,106301000X,vc_10630100031_004_01,
 
 sestop,se1_1003,1.5
 
@@ -190,9 +190,9 @@ wait,1
 fade,In,Black,1
 
 window,on,0.15
-message,,ホノカに引っ張ってこられたのは娼館だった。
+message,,Honoka had dragged him to the brothel.<br> 
 
-message,<user>,なんでこんなところに……<br>あ、もしかしてまたエッチしたくなったのか……？
+message,<user>,Why here of all places...<br>Wait，did you want to do ecchi again...?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -203,13 +203,13 @@ asyncseplay,setag1_4,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ホノカ,ただするだけじゃないぞ？<br>今日はあたしが司令官のこと気持ち良くしてあげるんだ♪,106301000X,vc_10630100031_005_01,chara_1
+message,ホノカ,Not just that~~♪<br>Tonight，I'm going to make YOU feel good，Commander♪<br> ,106301000X,vc_10630100031_005_01,chara_1
 
-message,,ホノカは自信満々に薄い胸を反らして見せる。
+message,,Honoka puffed out her flat little chest with absolute confidence.<br> 
 
-message,<user>,勉強？　いや、しかし、いきなりは無理だろ？
+message,<user>,You studied...? Still，this is pretty sudden...<br> 
 
-message,,なにしろ、ついこの前までは本当に何も知らなかったのだ。<br>いくら勉強したといっても大丈夫だろうかと逡巡してしまう。
+message,,It really had been no time at all since she knew nothing.<br>He wasn't sure about this，even with studying.<br> 
 
 window,off
 wait,0.15
@@ -253,7 +253,7 @@ asyncseplay,setag1_6,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 window,on,0.15
-message,,考えていると、クイクイと袖を引っ張られた。<br>見ると、ホノカが上目遣いにこちらを見つめている。
+message,,She tugged at his sleeve. He looked down.<br>Honoka was gazing up at him with big puppy eyes.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -264,7 +264,7 @@ asyncseplay,setag1_7,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ホノカ,だめかぁ……？,106301000X,vc_10630100031_006_01,chara_1
+message,ホノカ,...Is it no good...?<br> ,106301000X,vc_10630100031_006_01,chara_1
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -272,9 +272,9 @@ asyncseplay,setag1_8,se4800007,0,1,CONT,0
 
 asynccharaemo,chara_1,Panic,CONT,0
 
-message,,幼気な小犬のような目がこちらを見上げていた。
+message,,Those eyes. Like a small，earnest dog.<br> 
 
-message,<user>,……しょうがないな。
+message,<user>,...Oh，fine.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -282,7 +282,7 @@ asyncseplay,setag1_9,se4800007,0,1,CONT,0
 
 asynccharaemo,chara_1,Panic,CONT,0
 
-message,,そんな愛らしい眼差しを向けられては、<br>断れるはずもなかった……
+message,,There was no way anyone could say no to that look.<br> 
 
 labeljump,b
 

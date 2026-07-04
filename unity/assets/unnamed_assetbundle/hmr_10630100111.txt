@@ -13,7 +13,7 @@ subimage,UI/BG/Novel/abg18200a,subimage_1,0,CHARA,1,FRONT
 scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,Title
 
 wait,1
 
@@ -28,9 +28,9 @@ bgmplay,bgmtag1_1,bgm0024,0.75,1
 
 
 window,on,0.15
-message,？？？,わっふわふ～♪　わふ～♪,900000001,vc_10630100111_001_01,
+message,？？？,Wuffwuff~~♪ Wuff~~♪<br> ,900000001,vc_10630100111_001_01,
 
-message,,お昼時のマーケット。<br>買い物客で賑わう大通りに、ご機嫌な声が響いていた。
+message,,The midday market. Voices drifted through the busy main street.<br> 
 
 window,off
 wait,0.15
@@ -56,7 +56,7 @@ asynccameramove,LinearTarget,Y,0,45,CONT
 fade,In,White,1
 
 window,on,0.15
-message,ホノカ,わふ♪　わふ～ん♪,,vc_10630100111_002_01
+message,ホノカ,Wuff♪ Wuff~~n♪<br> ,,vc_10630100111_002_01
 
 window,off
 wait,0.15
@@ -79,29 +79,29 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,,声の主は気ぐるみを着たホノカだった。<br>跳ねるように道を歩きながら、楽しげに犬の鳴き真似をしている。
+message,,The voice belonged to Honoka，in a stuffed animal costume.<br>She bounced along the street，happily barking.<br> 
 
-message,<user>,ずいぶんと楽しそうだな。<br>そんなに気に入ったのか、その着ぐるみ。
+message,<user>,You look like you're having a great time.<br>You really like that costume，huh.<br> 
 
 asynccharaface,chara_1,FaceHappy,STOP
 
 asynccharareaction,chara_1,nod,1,STOP
-message,ホノカ,うん♪　これ着ると、きゃるきゃる～～ん♪　って楽しくなるんだぞ！ <br>本当に犬になったみたいだ！,,vc_10630100111_003_01
+message,ホノカ,Yeah♪ Wearing it makes me go KYARUKYA RUN~~N♪<br>It's like I really turned into a dog!<br> ,,vc_10630100111_003_01
 
-message,<user>,ははっ。きゃる～ん、は分からんが。<br>そんなに喜んでもらえたなら、買って良かったよ。
+message,<user>,Haha. I have no idea what kyarukya-run means.<br>But I'm glad you like it so much.<br> 
 
 asynccharaface,chara_1,FaceUnique02,STOP
 
 asynccharareaction,chara_1,nod,1,STOP
-message,ホノカ,ほんとにありがと、司令官！　わふ～ん♪,,vc_10630100111_004_01
+message,ホノカ,Thanks so much，Commander! Wuff~~n♪<br> ,,vc_10630100111_004_01
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
 
-message,<user>,わっと。元から犬みたいだったが、<br>着ぐるみのおかげで犬っぽさに拍車がかかったな……
+message,<user>,Whoa. You were already basically a dog before，<br>but the costume cranked the dog factor way up...<br> 
 
 charascale,chara_1,1.5,0.5
-message,,<user>が苦笑して頭を撫でると、<br>彼女は嬉しそうに顔を擦り寄せた。
+message,,%user% laughed and ruffled her head.<br>She leaned in，nuzzling his hand happily.<br> 
 
 asyncseplay,setag1_1,se4800013,0,1,CONT
 
@@ -111,28 +111,28 @@ asynccharaemo,chara_1,Spirits,CONT
 asynccharaface,chara_1,FaceFun,STOP
 
 asynccharareaction,chara_1,shake,0.5,STOP
-message,ホノカ,くぅ～ん♪,,vc_10630100111_005_01
+message,ホノカ,Kyuun~~♪<br> ,,vc_10630100111_005_01
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,<user>,あはは、本当に犬だな……
+message,<user>,Ahahaha，you really are a dog...<br> 
 
 charascale,chara_1,1,0.5
-message,,甘えるホノカはなんとも愛らしく、 <br>その姿を見た周囲の買い物客が歩み寄ってくる。
+message,,Honoka was impossibly endearing—<br>and nearby shoppers started drifting over.<br> 
 
 asynccharaface,chara_1,FaceHappy,STOP
-message,街の人Ａ,あらホノカちゃん、可愛らしい服ね～,,vc_10630100111_006_01
+message,街の人Ａ,Oh，Honoka—what a cute outfit~<br> ,,vc_10630100111_006_01
 
 asynccharaface,chara_1,FaceUnique02,STOP
-message,街の子供Ａ,わんちゃんだ～！,,vc_10630100111_007_01
+message,街の子供Ａ,A doggy~~!<br> ,,vc_10630100111_007_01
 
 
 asynccharareaction,chara_1,Jump,1,STOP
 
 asynccharaface,chara_1,FaceFun,STOP
-message,ホノカ,えへへ……わふわふ♪　わっふ～～ん♪,,vc_10630100111_008_01
+message,ホノカ,Ehehe... wuff wuff♪ Wufffn~~♪<br> ,,vc_10630100111_008_01
 
-message,,集まってきた人々に撫でられ、ホノカは嬉しそうに鳴き声をあげる。<br>多くは女性や子どもだが、中には男の姿もあった。
+message,,She was being petted by a crowd—women and children mostly，<br>but a few men too.<br> 
 
 crossfadeready
 
@@ -143,7 +143,7 @@ wait,0.1
 
 priority,chara_1,CHARA,1,BACK,
 
-message,<user>,（なんだ、撫でてくれるなら俺以外の男でもいいのか……？<br>まあ、ホノカが喜んでるならそれでいいんだけどな）
+message,<user>,(Wait，she's fine being petted by men other than me...?<br>Well. If Honoka's happy，that's what counts.)<br> 
 
 crossfadeready
 
@@ -157,19 +157,19 @@ asyncseplay,setag1_2,se4800009,0,1,CONT
 asynccharaemo,chara_1,Question,CONT
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,ホノカ,……？,,vc_10630100111_009_01
+message,ホノカ,...?<br> ,,vc_10630100111_009_01
 
 asyncseplay,setag1_3,se4030005,0,1,CONT
 
 charascale,chara_1,1.5,0.5
-message,,複雑な気分でホノカを眺めていると、<br>何かに気づいた彼女が<user>の元へ駆け寄ってきた。
+message,,He was watching with mixed feelings when she<br>suddenly noticed and came bounding over.<br> 
 
 asynccharareaction,chara_1,Hop,1,STOP
 
 asynccharaface,chara_1,FaceUnique02,STOP
-message,ホノカ,うぅぅ～っ、わふっ！ <br>司令官っ、こっちこっちっ！　ぐいぃ～んっ！,,vc_10630100111_010_01
+message,ホノカ,Uuuu~~，wuff! Commander—over here!!<br>Guiiiiiinn!<br> ,,vc_10630100111_010_01
 
-message,<user>,なっ、ちょっ、おいっ！？ <br>引っ張るなっ！　大型犬の散歩じゃないんだぞっ！
+message,<user>,Wha—hey! Don't pull——<br>This isn't a dog walk!!<br> 
 
 asyncseplay,setag1_4,se4800013,0,1,CONT
 
@@ -179,9 +179,9 @@ asynccharaemo,chara_1,Spirits,CONT
 asynccharaface,chara_1,FaceFun,STOP
 
 asynccharareaction,chara_1,Hop,1,STOP
-message,ホノカ,わふぅ～♪,,vc_10630100111_011_01
+message,ホノカ,Wuffuu~~♪<br> ,,vc_10630100111_011_01
 
-message,,有無を言わせないままホノカに手を引かれる形で、<br>ふたりは人混みを抜け出すのだった――
+message,,Honoka dragged him away by the hand，<br>and the two slipped free of the crowd.<br> 
 
 
 labeljump,b

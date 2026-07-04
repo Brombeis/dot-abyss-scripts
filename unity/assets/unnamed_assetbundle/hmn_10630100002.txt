@@ -14,7 +14,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,タイトル
+title,A Tour of the Base
 
 wait,1
 
@@ -22,7 +22,7 @@ bgmplay,bgmtag1_1,bgm0035,0.75,1
 
 
 window,on,0.15
-message,,翌日。<user>はホノカに前線基地を案内していた。
+message,,The next day. %user% was showing Honoka around the forward base.<br> 
 
 window,off
 wait,0.15
@@ -60,7 +60,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ホノカ,うわぁぁああ～！　店がいっぱいだぞ！,106301000G,vc_10630100002_001_01,chara_1
+message,ホノカ,Wooaahh~~! There are so many shops!!<br> ,106301000G,vc_10630100002_001_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -72,9 +72,9 @@ asyncseplay,setag1_2,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ホノカ,しかも見たことのないものがたくさんっ！<br>司令官～！　あの四角い黒い箱はなんだ！？,106301000G,vc_10630100002_002_01,chara_1
+message,ホノカ,And so many things I've never seen before!<br>Commander~! What's that square black box over there!?<br> ,106301000G,vc_10630100002_002_01,chara_1
 
-message,<user>,あれは大穴探索で発掘された異世界の動力源だな。<br>確か『ばってりー』とかいうやつだ。
+message,<user>,That's a power source from another world—dug up in the Abyss.<br>Something called a 'battery'，I believe.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -85,9 +85,9 @@ asyncseplay,setag1_3,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ホノカ,じゃあ、これはこれは！？<br>ふわふわ飛んでるぞ！？,106301000G,vc_10630100002_003_01,chara_1
+message,ホノカ,And then what about THIS!?<br>It's floating in mid-air!?<br> ,106301000G,vc_10630100002_003_01,chara_1
 
-message,<user>,これは時計らしい。最近、ペルディオンの商人が仕入れていた。<br>俺のところにも行商に来ていたな。
+message,<user>,That appears to be a clock. A merchant from Perdion started<br>stocking them recently—came to sell me one，actually.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -99,9 +99,9 @@ asyncseplay,setag1_4,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ホノカ,どうやって！？<br>どうやって浮いてるんだ～！？,106301000G,vc_10630100002_004_01,chara_1
+message,ホノカ,How does it do that!?<br>How is it floating~~!?<br> ,106301000G,vc_10630100002_004_01,chara_1
 
-message,<user>,確か魔石が動力源のはず――<br>……ほら、ここの下に装置がある。
+message,<user>,A magic stone's the power source，I believe——<br>...Look，there's a device underneath here.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -112,7 +112,7 @@ asyncseplay,setag1_5,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ホノカ,ほぉほぉ～～！　こんなところに！<br>しかも小さいぞ～！？,106301000G,vc_10630100002_005_01,chara_1
+message,ホノカ,Oho oho~~! It's in here!<br>And it's SO tiny~~!?<br> ,106301000G,vc_10630100002_005_01,chara_1
 
 window,off
 wait,0.15
@@ -155,7 +155,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,ホノカは時計をひっくり返したり、じっと見つめたりしている。
+message,,Honoka flipped the clock over and stared at it intently.<br> 
 
 window,off
 wait,0.15
@@ -170,7 +170,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（はは。まるで子どもと買い物してる気分だな……。<br>周りも、ホノカが凄腕の鍛冶師とは夢にも思わないだろう）
+message,<user>,(Haha. This feels exactly like shopping with a kid...<br>Nobody around would ever guess she's a master smith.)<br> 
 
 window,off
 wait,0.15
@@ -218,7 +218,7 @@ asyncseplay,setag1_7,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 window,on,0.15
-message,,<user>がそう考えた直後、<br>ホノカの目の色が変わった――
+message,,The moment %user% thought that，<br>something shifted in Honoka's eyes——<br> 
 
 window,off
 wait,0.15
@@ -235,7 +235,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ホノカ,おぉ～……こんなふうになっているのか～……,106301000G,vc_10630100002_006_01,chara_1
+message,ホノカ,Ohh~... so that's how it works~...<br> ,106301000G,vc_10630100002_006_01,chara_1
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -247,7 +247,7 @@ asyncseplay,setag1_9,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ホノカ,これだけ小さいと、柄にも組み込めるかも……？,106301000G,vc_10630100002_007_01,chara_1
+message,ホノカ,Something this small... could I fit it inside a hilt...?<br> ,106301000G,vc_10630100002_007_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -259,9 +259,9 @@ asyncseplay,setag1_10,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ホノカ,いや、できる！　絶対にできるぞ！！<br>ふわふわ～～ってなる剣とか作れそうだぞ！,106301000G,vc_10630100002_008_01,chara_1
+message,ホノカ,No—I CAN do it! Definitely can!!<br>I could make a sword that goes FLUFFY FLOATY~~!!<br> ,106301000G,vc_10630100002_008_01,chara_1
 
-message,<user>,ふわふわ浮く剣ってことか？　いい発想だな。さすがだ。<br>その調子で、良い武器をたくさん作ってくれよ。
+message,<user>,A floating sword，huh? Great idea. That's Honoka for you.<br>Keep it up and make us plenty more good weapons.<br> 
 
 window,off
 wait,0.15
@@ -288,7 +288,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,<user>はホノカの頭を撫で回す。
+message,,%user% reached over and ruffled Honoka's hair.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -299,7 +299,7 @@ asyncseplay,setag1_11,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ホノカ,えへへ……くぅ～ん……♪<br>やっぱり司令官に頭を撫でられると嬉しいなぁ～♪,106301000G,vc_10630100002_009_01,chara_1
+message,ホノカ,Ehehe... Kyuu~~n...♪<br>Haah，I just love it when Commander pets my head~~♪<br> ,106301000G,vc_10630100002_009_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -310,7 +310,7 @@ asyncseplay,setag1_12,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ホノカ,んっ……？,106301000G,vc_10630100002_010_01,chara_1
+message,ホノカ,Hmm...?<br> ,106301000G,vc_10630100002_010_01,chara_1
 
 window,off
 wait,0.15
@@ -353,7 +353,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ホノカ,あ～～～～～～～っ！？<br>あれ、すごいんだぞー！？　ちょっと行ってくる！！,106301000G,vc_10630100002_011_01,chara_1
+message,ホノカ,Aaaaaaa~~~!?<br>That thing over there is incredible!? I'll be right back!!<br> ,106301000G,vc_10630100002_011_01,chara_1
 
 window,off
 wait,0.15
@@ -369,7 +369,7 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,<user>,あっ、ホノカ！？
+message,<user>,Ah，Honoka!?<br> 
 
 
 
@@ -415,7 +415,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ホノカ,そこの！　そこのおまえ～～～～！！,106301000G,vc_10630100002_012_01,chara_1
+message,ホノカ,Hey! Hey YOU over there~~~~!!<br> ,106301000G,vc_10630100002_012_01,chara_1
 
 window,off
 wait,0.15
@@ -425,7 +425,7 @@ charafocusonall
 linework,off,Black,Middle
 
 window,on,0.15
-message,貴族,……？<br>私ですか？,900000001
+message,貴族,...?<br>Me?<br> ,900000001
 
 
 window,off
@@ -456,7 +456,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（あ、あれはっ！？　視察に来ている貴族じゃないか！？<br>粗相があるとまずいぞ……！？）
+message,<user>,(That's—!? Isn't that one of the nobles here for inspection!?<br>If she causes a scene we're in serious trouble...!?)<br> 
 
 window,off
 wait,0.15
@@ -471,7 +471,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,,すぐにでも止めたいが、まだまだ遠い。<br><user>は必死に走る。
+message,,He wanted to stop her but she was still too far away.<br>%user% ran as fast as he could.<br> 
 
 
 window,off
@@ -508,9 +508,9 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ホノカ,その剣！　その剣を見せてほしいぞ！,106301000G,vc_10630100002_013_01,chara_1
+message,ホノカ,That sword! Let me see that sword!!<br> ,106301000G,vc_10630100002_013_01,chara_1
 
-message,貴族,えっ、いや、しかし、これは玩具ではなくって――,900000001
+message,貴族,Er—no，but—this isn't a toy，you know——<br> ,900000001
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -521,7 +521,7 @@ asyncseplay,setag1_16,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ホノカ,そんなの分かってるってば～！<br>あぁ～～～っ！　もう我慢できない！　貸してっ！！,106301000G,vc_10630100002_014_01,chara_1
+message,ホノカ,I KNOW that，obviously~!<br>Ahhh~~~! I can't hold back anymore! Let me have it!!<br> ,106301000G,vc_10630100002_014_01,chara_1
 
 window,off
 wait,0.15
@@ -560,9 +560,9 @@ shake,BACK,,40,0,0.25,20,off,off,0
 shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,貴族,うわっ！？,900000001
+message,貴族,Whoa!?<br> ,900000001
 
-message,,ホノカが剣をひったくり、そのまま鞘から抜いてしまう。
+message,,Honoka snatched the sword and yanked it free of its scabbard.<br> 
 
 
 window,off
@@ -595,7 +595,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（うおおお！　バカっ！！！　やめろぉ～～～！！！）
+message,<user>,(NOOOO! You idiot!!! Stop~~~~!!!)<br> 
 
 window,off
 wait,0.15
@@ -610,7 +610,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,,心の中で叫ぶが、まだ遠かった……。
+message,,He screamed inwardly—but he was still too far away...<br> 
 
 
 window,off
@@ -649,7 +649,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,ホノカ,うわぁーーーーっ！<br>思った通り！　いい剣だな、これ！,106301000G,vc_10630100002_015_01,chara_1
+message,ホノカ,Wooaaah!<br>Just as I thought! This is a GREAT sword!!<br> ,106301000G,vc_10630100002_015_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -660,7 +660,7 @@ asyncseplay,setag1_18,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ホノカ,素材もいいし作った鍛冶師も手練れだけど、手入れもきちんとされていて、<br>大切に扱われているのが分かるぞ！,106301000G,vc_10630100002_016_01,chara_1
+message,ホノカ,The materials are excellent，the smith who forged it was skilled—<br>and it's been well cared for. You can tell it's cherished!!<br> ,106301000G,vc_10630100002_016_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -672,9 +672,9 @@ asyncseplay,setag1_19,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ホノカ,そうだろ！？,106301000G,vc_10630100002_017_01,chara_1
+message,ホノカ,Right!?<br> ,106301000G,vc_10630100002_017_01,chara_1
 
-message,貴族,……ははは。えぇ、その通りです。<br>その剣は祖父から受け継いだ大切なものでしてね。大事にしているんですよ。,900000001
+message,貴族,...Hahaha. Why yes，quite right.<br>That sword's my grandfather's heirloom. I treasure it greatly.<br> ,900000001
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -685,9 +685,9 @@ asyncseplay,setag1_20,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ホノカ,そうだよな～！　シャキーンとしてるから、<br>カチカチなのもスパパーンといけそうだ！,106301000G,vc_10630100002_018_01,chara_1
+message,ホノカ,Right~~! It's got this SHAKIIING quality about it，<br>so even the hardest things would go SPAZAPAANN right through!!<br> ,106301000G,vc_10630100002_018_01,chara_1
 
-message,貴族,ス、スパパーン……？　はは、独特な表現ですね。,900000001
+message,貴族,Sp-Spazapaann...? Haha，that's quite a unique way of putting it.<br> ,900000001
 
 
 window,off
@@ -723,7 +723,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,ようやく追いついた<user>だったが、<br>２人の雰囲気を感じ取り、物陰に隠れて様子を見守っていた。
+message,,%user% finally caught up—but sensing the friendly atmosphere，<br>slipped behind cover to watch quietly.<br> 
 
 window,off
 wait,0.15
@@ -738,9 +738,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（……あれは、刃の切れ味が鋭いから、硬い岩でもなんでも<br>簡単に切れそうだ、と言っているのか……？）
+message,<user>,(...Is she saying that because the blade is so sharp，<br>it could slice through hard rock without trouble...?)<br> 
 
-message,<user>,（俺でさえ何となく分かるくらいだから、<br>初めてホノカと話す貴族には、意味が分からないだろうなぁ……）
+message,<user>,(Even I can barely follow her，so<br>that noble must have absolutely no idea what she means...)<br> 
 
 
 window,off
@@ -786,7 +786,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ホノカ,いや、でも本当にいい剣だ、これ～！,106301000G,vc_10630100002_019_01,chara_1
+message,ホノカ,I mean it，this really is an amazing sword~~!<br> ,106301000G,vc_10630100002_019_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -797,9 +797,9 @@ asyncseplay,setag1_22,se4800002,0,1,CONT,0
 asynccharaemo,chara_1,Heart,CONT,0
 
 
-message,ホノカ,頬ずりしたいし、なんなら抱いて寝たいぞ……,106301000G,vc_10630100002_020_01,chara_1
+message,ホノカ,I want to nuzzle my cheek against it... I'd even sleep hugging it...<br> ,106301000G,vc_10630100002_020_01,chara_1
 
-message,貴族,ふふっ、そんなことをしたら怪我をしてしまいますよ。<br>可愛いお嬢さん。,900000001
+message,貴族,Fufu，you'd hurt yourself if you did that.<br>What a charming young lady.<br> ,900000001
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -810,9 +810,9 @@ asyncseplay,setag1_23,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ホノカ,わ、分かってるってば～！<br>でも、それくらい素敵な剣だぞってことだぞ！,106301000G,vc_10630100002_021_01,chara_1
+message,ホノカ,I-I know that~~!<br>That's how amazing I think this sword is，is all!!<br> ,106301000G,vc_10630100002_021_01,chara_1
 
-message,貴族,ええ、ありがとうございます。,900000001
+message,貴族,Indeed，thank you.<br> ,900000001
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -824,9 +824,9 @@ asyncseplay,setag1_24,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ホノカ,ちょっと試しに振らせてもらってもいいか！？,106301000G,vc_10630100002_022_01,chara_1
+message,ホノカ,Could I take a swing with it，just to try!?<br> ,106301000G,vc_10630100002_022_01,chara_1
 
-message,貴族,もちろん構いませんよ。,900000001
+message,貴族,Of course，go right ahead.<br> ,900000001
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -837,7 +837,7 @@ asyncseplay,setag1_25,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ホノカ,ありがとう～！！,106301000G,vc_10630100002_023_01,chara_1
+message,ホノカ,Thank you~~!!<br> ,106301000G,vc_10630100002_023_01,chara_1
 
 window,off
 wait,0.15
@@ -880,7 +880,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,ホノカは貴族に笑顔で見守られながら、楽しそうに剣を振る。
+message,,The noble smiled warmly as Honoka swung the sword with glee.<br> 
 
 
 window,off
@@ -896,9 +896,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（一時はどうなるかと思ったが、すっかり打ち解けたな。<br>あの人懐っこさを考えると、当たり前か……俺も少しは見習うべきか？）
+message,<user>,(Thought this would be a disaster—but they hit it off completely.<br>Given how friendly she is，of course... Maybe I should take notes.)<br> 
 
-message,<user>,（まぁ、とりあえず、これなら他の前線基地の者たちとも<br>すぐに仲良くなれるだろう――）
+message,<user>,(Well，at any rate，she should be able to get along<br>with the rest of the forward base in no time——)<br> 
 
 window,off
 wait,0.15
@@ -920,7 +920,7 @@ asyncjump,CHARA,chara_1,40,0.5,2,off,0,CONT
 wait,0.5
 
 window,on,0.15
-message,,物陰から見守りつつ、<user>は<br>そんなことを考えるのであった。
+message,,Watching from the shadows，<br>%user% turned it over in their mind.<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -942,7 +942,7 @@ emodelete,chara_1,0,0
 fade,In,Black,1
 
 window,on,0.15
-message,,しかし――
+message,,But——<br> 
 
 
 
@@ -956,7 +956,7 @@ wait,0.5
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――後日</size>,,,on
+messageTextCenter,,<size=48>——A Few Days Later</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -971,7 +971,7 @@ scale,BACK,,0,1,1,Set
 fade,In,Black,1
 
 window,on,0.15
-message,<user>,ふぅ……ようやく書類仕事が終わりそうだ。<br>ひと息つけそうかな。
+message,<user>,Phew... Looks like I'm finally about done with the paperwork.<br>Maybe I can take a breather now.<br> 
 
 window,off
 wait,0.15
@@ -981,7 +981,7 @@ charafocusonall
 asyncseplay,setag1_27,se4300007,0,1,CONT,0
 
 window,on,0.15
-message,,――がちゃっ！
+message,,——Click!<br> 
 
 window,off
 wait,0.15
@@ -1025,9 +1025,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ホノカ,うわ～～～～ん！<br>司令か～～～～ん！！,106301000G,vc_10630100002_024_01,chara_1
+message,ホノカ,Uwaaaaa~~~~n!<br>Commanderrrr~~~~!!<br> ,106301000G,vc_10630100002_024_01,chara_1
 
-message,<user>,ホ、ホノカ！？<br>どうしたんだ！？
+message,<user>,H-Honoka!?<br>What's wrong!?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1038,7 +1038,7 @@ asyncseplay,setag1_29,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ホノカ,うううっ……！,106301000G,vc_10630100002_025_01,chara_1
+message,ホノカ,Uuuugh...!<br> ,106301000G,vc_10630100002_025_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1049,9 +1049,9 @@ asyncseplay,setag1_30,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ホノカ,あたちのぶきゅをだりぇもちゅかって、ひっく……！<br>くりぇなきゅてぇ～～！！,106301000G,vc_10630100002_026_01,chara_1
+message,ホノカ,Mwy weawwons nobwy ushhing emm *hic*...!<br>Thwy jush wonn't ushe 'em~~~~!!<br> ,106301000G,vc_10630100002_026_01,chara_1
 
-message,<user>,……うん？
+message,<user>,...Hm?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1062,7 +1062,7 @@ asyncseplay,setag1_31,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ホノカ,だかりゃ、あたしのぶきゅをだりぇもぉぉおお～！,106301000G,vc_10630100002_027_01,chara_1
+message,ホノカ,Dat'sh why，mwy wepponsh，nwobwodyyy~~~~!<br> ,106301000G,vc_10630100002_027_01,chara_1
 
 window,off
 wait,0.15
@@ -1077,7 +1077,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（……だめだ、分からん！）
+message,<user>,(...Completely lost. I have no idea what she's saying.)<br> 
 
 
 
@@ -1105,7 +1105,7 @@ charascale,chara_1,1,0
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,,<user>はホノカにお菓子を与えて、<br>いったん落ち着かせる。
+message,,%user% gave Honoka some sweets<br>and let her calm down for a moment.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1116,9 +1116,9 @@ asyncseplay,setag1_32,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ホノカ,えへへ……おいしいぞっ！,106301000G,vc_10630100002_028_01,chara_1
+message,ホノカ,Ehehe... these are yummy!!<br> ,106301000G,vc_10630100002_028_01,chara_1
 
-message,<user>,来客用のいいやつだからな。<br>……さて、落ち着いたところで話を戻すか。いったい何があったんだ？
+message,<user>,The good ones I keep for guests.<br>...Now that you've calmed down—what happened?<br> 
 
 window,off
 wait,0.15
@@ -1160,7 +1160,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ホノカ,あっ！　そうだった！,106301000G,vc_10630100002_029_01,chara_1
+message,ホノカ,Oh! That's right!!<br> ,106301000G,vc_10630100002_029_01,chara_1
 
 window,off
 wait,0.15
@@ -1175,7 +1175,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（忘れてたのかよ！）
+message,<user>,(She forgot!?)<br> 
 
 window,off
 wait,0.15
@@ -1199,7 +1199,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ホノカ,みんなが、あたしの武器を使ってくれないんだぁ～！<br>うわーんんっ！！,106301000G,vc_10630100002_030_01,chara_1
+message,ホノカ,Nobody's using my weapons~~~~!<br>Uwaaannn!!<br> ,106301000G,vc_10630100002_030_01,chara_1
 
 window,off
 bgmstop,bgmtag1_2,0.5
