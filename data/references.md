@@ -15,7 +15,12 @@ character's unique voice and personality.
   preserve the ambiguity rather than resolving it.
 - **Natural English.** Translations should read as natural dialogue, not as
   stilted translated text. Restructure sentences when needed for flow, but
-  never at the cost of meaning.
+  never at the cost of meaning. Do not mirror Japanese sentence structure when
+  it produces unnatural English — rephrase freely as long as the meaning is
+  preserved. In particular, avoid overusing `——` (double em dash): the Japanese
+  ーー trailing-off convention maps to `——` only when a sentence is genuinely
+  cut off or trails into silence; in most other cases a comma, period, or simple
+  rephrasing reads more naturally.
 - **Preserve character voice.** Each character has a distinct way of speaking in
   Japanese (sentence endings, pronoun choice, verbal tics, energy level). The
   English must reflect these differences. A bubbly character should sound bubbly;
