@@ -20,7 +20,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,スマホのない異世界で
+title,In an Isekai Without a Smartphone
 
 wait,1
 
@@ -45,9 +45,9 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ピコ,ねー、次はどこへ行くの？,,vc_10140100003_001_01,chara_1
+message,ピコ,Hey~，where are we going next?<br> ,,vc_10140100003_001_01,chara_1
 
-message,<user>,マーケットで好きなものを買ってやる。<br>何か楽しい気分になれそうなものがあったら選べ。
+message,<user>,I'll buy you something at the market.<br>If anything looks fun to you，pick it out.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -58,7 +58,7 @@ asyncseplay,setag1_2,se4800005,0,1,CONT,0
 asynccharaemo,chara_1,Flash,CONT,0
 
 
-message,ピコ,マジで？<br>ゲームあるかな？,,vc_10140100003_002_01,chara_1
+message,ピコ,For real?<br>Think they'd have any games?<br> ,,vc_10140100003_002_01,chara_1
 
 
 window,off
@@ -81,7 +81,7 @@ emodelete,chara_1,0,0
 transitionFade,Tra01,in,black,1
 
 window,on,0.15
-message,<user>,よし、聞いてみるか。<br>店主、ゲームはどの辺りに置いてある？
+message,<user>,Alright，let's ask.<br>Excuse me — where would I find games?<br> 
 
 window,off
 wait,0.15
@@ -103,7 +103,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,店主,その辺りに固めてありますよー。,400301000,,chara_2
+message,店主,They're all gathered over in that section~.<br> ,400301000,,chara_2
 
 window,off
 wait,0.15
@@ -143,9 +143,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ピコ,あー、やっぱテレビゲームはなさそうだなぁ。<br>がっかり。,,vc_10140100003_003_01,chara_1
+message,ピコ,Ahh，figured there'd be no video games here.<br>Disappointing.<br> ,,vc_10140100003_003_01,chara_1
 
-message,<user>,欲しいものはなかったか……。<br>知っているゲームは？
+message,<user>,Nothing you'd want...<br>What games do you know?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -157,9 +157,9 @@ asyncseplay,setag1_5,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ピコ,あ、トランプだ。,,vc_10140100003_004_01,chara_1
+message,ピコ,Oh — playing cards!<br> ,,vc_10140100003_004_01,chara_1
 
-message,<user>,トランプ……カードゲームの類だな。
+message,<user>,Playing cards... a kind of card game，yes.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -170,9 +170,9 @@ asyncseplay,setag1_6,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ピコ,アナログゲーだけど、まぁゲームはゲームだね。,,vc_10140100003_005_01,chara_1
+message,ピコ,It's analog，but a game's a game.<br> ,,vc_10140100003_005_01,chara_1
 
-message,<user>,一応、買ってみよう。<br>店主、これをくれ。
+message,<user>,Let's get them then.<br>Excuse me — I'll take these.<br> 
 
 window,off
 wait,0.15
@@ -218,9 +218,9 @@ wait,1
 
 
 window,on,0.15
-message,店主,どうもー。,400301000,,chara_2
+message,店主,Thank you~.<br> ,400301000,,chara_2
 
-message,<user>,ピコ、ゲーム以外に探しているものは？
+message,<user>,Pico，is there anything else you're looking for besides games?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -231,7 +231,7 @@ asyncseplay,setag1_7,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ピコ,ゲーミングＰＣない？<br>あとスマホにＢｌｕｅｔｏｏｔｈで繋がる高級ヘッドホン！,,vc_10140100003_006_01,chara_1
+message,ピコ,Do they have a gaming PC?<br>Or high-end headphones that pair to a phone via Bluetooth!<br> ,,vc_10140100003_006_01,chara_1
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -242,9 +242,9 @@ asyncseplay,setag1_8,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,店主,……なんの呪文です？,400301000,,chara_2
+message,店主,...What manner of incantation is that?<br> ,400301000,,chara_2
 
-message,<user>,わからん……
+message,<user>,...No idea.<br> 
 
 window,off
 wait,0.15
@@ -292,9 +292,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ピコ,うああぁぁ～！<br>元の世界に帰りたいよ～！,,vc_10140100003_007_01,chara_1
+message,ピコ,Waaahhh~~!<br>I wanna go home~~!<br> ,,vc_10140100003_007_01,chara_1
 
-message,<user>,うーむ……<br>とりあえず移動するか……
+message,<user>,Hmm...<br>Let's just... move on...<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -349,9 +349,9 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ピコ,何ここ？,,vc_10140100003_008_01,chara_1
+message,ピコ,What's this place?<br> ,,vc_10140100003_008_01,chara_1
 
-message,<user>,司令室だ。
+message,<user>,My command room.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -362,9 +362,9 @@ asyncseplay,setag1_11,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ピコ,そんなの分かってるってば。<br>……急に連れ込んで何する気？,,vc_10140100003_009_01,chara_1
+message,ピコ,I could tell that much.<br>...You drag me in here out of nowhere，what are you planning?<br> ,,vc_10140100003_009_01,chara_1
 
-message,<user>,妙なことを言うな。さっき買ったトランプを一緒にやろうと思っただけだ。<br>ゲーム、好きなんだろう？
+message,<user>,Don't be weird about it. I just thought we'd play the cards we<br>bought. You like games，don't you?<br> 
 
 window,off
 wait,0.15
@@ -398,9 +398,9 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,ピコ,色々なゲームを遊べるけど２人だからなぁ……<br>「スピード」とかやってみる？　他だと「神経衰弱」「７並べ」かな。,,vc_10140100003_010_01,chara_1
+message,ピコ,There's a bunch you can play，but with just two people...<br>'Speed'? Or maybe 'Concentration'，or 'Sevens'.<br> ,,vc_10140100003_010_01,chara_1
 
-message,<user>,なんでも付き合うぞ。
+message,<user>,I'm up for anything.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -411,9 +411,9 @@ asyncseplay,setag1_13,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ピコ,あれ？　なんか自信ありそう？,,vc_10140100003_011_01,chara_1
+message,ピコ,Hmm? You sound pretty confident?<br> ,,vc_10140100003_011_01,chara_1
 
-message,<user>,頭の回転が速くないと司令官は務まらないからな。
+message,<user>,You can't be a Commander without quick thinking.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -424,9 +424,9 @@ asyncseplay,setag1_14,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ピコ,……ちょっと怖くなったんだけど、これ脱衣じゃないよね？,,vc_10140100003_012_01,chara_1
+message,ピコ,...I'm getting a little nervous. This isn't strip cards，right?<br> ,,vc_10140100003_012_01,chara_1
 
-message,<user>,違う！
+message,<user>,It is NOT!<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -437,9 +437,9 @@ asyncseplay,setag1_15,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ピコ,実は高レートで負けたら地下労働施設行きとか<br>マージで勘弁してよ！？,,vc_10140100003_013_01,chara_1
+message,ピコ,Please tell me losing isn't going to send me to<br>some underground labor camp or something!?<br> ,,vc_10140100003_013_01,chara_1
 
-message,<user>,それも無い。健全なゲームだから安心してくれ。
+message,<user>,None of that. It's a perfectly wholesome game，I promise.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -450,7 +450,7 @@ asyncseplay,setag1_16,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ピコ,それならよーし！<br>じゃ、ゲームスタートだー！,,vc_10140100003_014_01,chara_1
+message,ピコ,In that case — let's go!<br>Game start~!<br> ,,vc_10140100003_014_01,chara_1
 
 
 
@@ -491,7 +491,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ピコ,ま、また負けた……６連敗？,,vc_10140100003_015_01,chara_1
+message,ピコ,N-not again... six losses in a row?<br> ,,vc_10140100003_015_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -502,9 +502,9 @@ asyncseplay,setag1_18,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ピコ,うぅ、異世界のアナログゲーマーに初狩りされた……<br>絶対初見詐欺だよ……萎え萎え……,,vc_10140100003_016_01,chara_1
+message,ピコ,Ugh，got completely stomped by an isekai analog gamer...<br>You were totally sandbagging... so tilted...<br> ,,vc_10140100003_016_01,chara_1
 
-message,<user>,ゲームが好きだって言うから、手加減は悪いかと思ったんだが……<br>苦手なのに付き合わせて悪かった、許してくれ。
+message,<user>,You said you liked games so I thought going easy would be rude...<br>I'm sorry for making you sit through this，forgive me.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -515,7 +515,7 @@ asyncseplay,setag1_19,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,ピコ,こんなのクソゲーだよクソゲー。<br>司令官とカードゲームなんて２度とやらなーい。,,vc_10140100003_017_01,chara_1
+message,ピコ,This game is absolute trash，trash I tell you.<br>I am NEVER playing cards with Commander again.<br> ,,vc_10140100003_017_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -526,9 +526,9 @@ asyncseplay,setag1_20,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ピコ,……次までにパターンと優先度を確認しとかなきゃ。,,vc_10140100003_018_01,chara_1
+message,ピコ,...I need to map out the patterns and priority order before next<br>time.<br> ,,vc_10140100003_018_01,chara_1
 
-message,<user>,２度とやらないとか言って、<br>めちゃくちゃやる気じゃないか……
+message,<user>,You just said 'never again'<br>and you're already min-maxing for the rematch...<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -539,7 +539,7 @@ asyncseplay,setag1_21,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,ピコ,ぼくはやりこみゲーマーだから、慣れてからが本番なの！,,vc_10140100003_019_01,chara_1
+message,ピコ,I'm a hardcore gamer — the real game starts once I've learned the<br>meta!<br> ,,vc_10140100003_019_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -550,7 +550,7 @@ asyncseplay,setag1_22,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ピコ,うう、でもトランプの攻略を調べる方法がない……<br>ネットに繋げたいよぉ……,,vc_10140100003_020_01,chara_1
+message,ピコ,Ugh，but there's no way to look up a strategy guide...<br>I need internet access so baaaad...<br> ,,vc_10140100003_020_01,chara_1
 
 window,off
 wait,0.15
@@ -565,7 +565,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（気晴らしになればと思ったが、元の世界のゲームをしたせいで、<br>余計に思い出させてしまったか……）
+message,<user>,(I thought it might cheer her up，but playing a game from home<br>just made her miss it more... bad call.)<br> 
 
 window,off
 wait,0.15
@@ -589,15 +589,15 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,ピコ,じゃあしれーかん、そろそろアーデルハイトの所に行かない？　<br>もう充電終わってるんじゃないかな。,,vc_10140100003_021_01,chara_1
+message,ピコ,Okay Commander，can we head back to Adelheid now?<br>The charge has got to be done by now.<br> ,,vc_10140100003_021_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
-message,<user>,……いや、まだ行きたいところがある。<br>片付けたら出掛けるぞ。
+message,<user>,...No，I still have one more place in mind.<br>Let me tidy up and we'll head out.<br> 
 
 asyncseplay,setag1_24,se4300003,0,1,CONT,0
 
-message,,――ガチャ！
+message,,——BANG!<br> 
 
 window,off
 wait,0.15
@@ -647,7 +647,7 @@ wait,0.5
 
 
 window,on,0.15
-message,アリシア,司令官～！　酒場とマーケットから高額の請求が来てますよ！？<br>どういうことか説明してください～！,,vc_10140100003_022_01,chara_3
+message,アリシア,Commander~! There are massive bills in from the tavern AND the<br>market!? Please explain yourself~!<br> ,,vc_10140100003_022_01,chara_3
 
 window,off
 wait,0.15
@@ -688,7 +688,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,<user>,しまった！？<br>ピコ、窓から逃げるぞ！
+message,<user>,Oh no!?<br>Pico — out the window，we're running!<br> 
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -724,7 +724,7 @@ bgmplay,bgmtag1_3,bgm0036,0.75,1
 transitionFade,Tra15,in,black,1
 
 window,on,0.15
-message,<user>,ふう……なんとかアリシアを撒いたな。<br>で、どうだ？　ここ。
+message,<user>,Phew... we lost Alicia.<br>So — what do you think? Of this spot.<br> 
 
 window,off
 wait,0.15
@@ -788,9 +788,9 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ピコ,何もないけど？,,vc_10140100003_023_01,chara_1
+message,ピコ,There's nothing here?<br> ,,vc_10140100003_023_01,chara_1
 
-message,<user>,それがここの良いところだ。何も考えたくないときや仕事に嫌気が差したとき<br>大の字になって空を見に来ている。
+message,<user>,That's the whole point. When I don't want to think<br>or I'm sick of work，I come here and lie flat and watch the sky.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -801,9 +801,9 @@ asyncseplay,setag1_27,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ピコ,ふーん……しれーかんの休憩場所か。,,vc_10140100003_024_01,chara_1
+message,ピコ,Hmm... Commander's off-duty spot，huh.<br> ,,vc_10140100003_024_01,chara_1
 
-message,<user>,いい風景だろう。<br>こういう場所でのんびりするのも悪くないんじゃないか？
+message,<user>,It's a nice view，don't you think?<br>Just taking it easy in a place like this isn't so bad.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -814,9 +814,9 @@ asyncseplay,setag1_28,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ピコ,のんびりするなら部屋の中がいい～。<br>草の近くは虫が来るから嫌い。,,vc_10140100003_025_01,chara_1
+message,ピコ,If I'm taking it easy I'd rather be indoors~.<br>Bugs come near grass and I hate that.<br> ,,vc_10140100003_025_01,chara_1
 
-message,<user>,じゃあ、のんびりせずに運動でもしてみるか？
+message,<user>,What if we got some exercise instead of resting?<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -827,9 +827,9 @@ asyncseplay,setag1_29,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ピコ,ぼくが運動でストレス発散するようなタイプに見える？,,vc_10140100003_026_01,chara_1
+message,ピコ,Do I look like the type who relieves stress through exercise?<br> ,,vc_10140100003_026_01,chara_1
 
-message,<user>,……見えない。
+message,<user>,...No.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -840,9 +840,9 @@ asyncseplay,setag1_30,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ピコ,っていうか、しれーかんも運動が得意そうには見えないけど。,,vc_10140100003_027_01,chara_1
+message,ピコ,Also，Commander doesn't exactly look athletic either.<br> ,,vc_10140100003_027_01,chara_1
 
-message,<user>,……その通りだな。<br>いつもここでグダグダと寝転んでいるだけだ。
+message,<user>,...That's fair.<br>I usually just lie here doing nothing.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -853,7 +853,7 @@ asyncseplay,setag1_31,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ピコ,自爆じゃん！,,vc_10140100003_028_01,chara_1
+message,ピコ,You walked right into that one!<br> ,,vc_10140100003_028_01,chara_1
 
 window,off
 wait,0.15
@@ -888,7 +888,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,うーん……ここも楽しめる場所にはならないか。
+message,<user>,Hmm... this spot isn't going to work for her either.<br> 
 
 bgmstop,bgmtag1_3,1.5,0
 
@@ -916,7 +916,7 @@ bgmplay,bgmtag1_4,bgm0031,0.75,1
 transitionFade,Tra02,in,black,1
 
 window,on,0.15
-message,,――ピコが落ち着いたあと、２人は前線基地内へ戻って来た。<br>その足取りは重く、とぼとぼと力無く歩いている。
+message,,——After Pico calmed down，the two returned to the forward base.<br>Their steps were heavy，shuffling，utterly drained.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -928,7 +928,7 @@ asynccharascale,chara_1,1.3,0,CONT,0
 
 asynccharashowalpha,chara_1,1,0.3,CONT,0
 
-message,<user>,……ピコ、大丈夫か？
+message,<user>,...Pico，you okay?<br> 
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -937,9 +937,9 @@ asyncseplay,setag1_32,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ピコ,……あんまり。疲れた。,,vc_10140100003_029_01,chara_1
+message,ピコ,...Not really. I'm tired.<br> ,,vc_10140100003_029_01,chara_1
 
-message,<user>,そうか……
+message,<user>,I see...<br> 
 
 window,off
 wait,0.15
@@ -954,7 +954,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（色々手を打ってみたが、結局は力になれなかったな……）
+message,<user>,(I tried everything I could think of，but it wasn't enough...)<br> 
 
 window,off
 wait,0.15
@@ -987,9 +987,9 @@ asynccharaemo,chara_1,Twinkle,STOP,2.4
 
 
 window,on,0.15
-message,ピコ,あ……っ。<br>あ～～～～っ！！！！,,vc_10140100003_030_01,chara_1
+message,ピコ,A...<br>AHHHHHHH!!!!<br> ,,vc_10140100003_030_01,chara_1
 
-message,<user>,どうした？
+message,<user>,What is it?<br> 
 
 asyncjump,CHARA,chara_1,40,0.5,2,off,0,CONT
 
@@ -998,11 +998,11 @@ asyncseplay,setag1_35,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ピコ,猫ちゃんだー！<br>ほら見てあそこ！　あそこぉー！,,vc_10140100003_031_01,chara_1
+message,ピコ,A kitty~!!<br>Look，over there! Over there~!!<br> ,,vc_10140100003_031_01,chara_1
 
-message,<user>,猫……？
+message,<user>,A cat...?<br> 
 
-message,猫,にゃおーん？,900000003
+message,猫,Mrrrow~?<br> ,900000003
 
 window,off
 wait,0.15
@@ -1027,9 +1027,9 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ピコ,こっち来るかな？　来るかな？<br>チッチッチッチ……,,vc_10140100003_032_01,chara_1
+message,ピコ,Will it come? Will it come?<br>Here kitty kitty kitty...<br> ,,vc_10140100003_032_01,chara_1
 
-message,,――猫はピコにゆっくり近付いてきた。
+message,,——The cat slowly approached Pico.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1040,9 +1040,9 @@ asyncseplay,setag1_37,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ピコ,ほわあああ！　人懐っこい！<br>可愛い～！,,vc_10140100003_033_01,chara_1
+message,ピコ,Whoooa! So friendly!<br>Sooo cute~!<br> ,,vc_10140100003_033_01,chara_1
 
-message,<user>,この猫は確か基地内の誰かが餌付けしている奴だな。
+message,<user>,This cat — I think someone on base has been feeding it.<br> 
 
 window,off
 wait,0.15
@@ -1068,9 +1068,9 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ピコ,マジで！？<br>ぼくもやりたい！　ぬこと戯れたい！,,vc_10140100003_034_01,chara_1
+message,ピコ,Seriously!?<br>I want in! I wanna hang out with the kitty!<br> ,,vc_10140100003_034_01,chara_1
 
-message,<user>,……明日、紹介してやる。
+message,<user>,...I'll introduce you tomorrow.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1081,9 +1081,9 @@ asyncseplay,setag1_39,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ピコ,やったー！<br>嬉しいなぁ。,,vc_10140100003_035_01,chara_1
+message,ピコ,Yes~!<br>That makes me so happy.<br> ,,vc_10140100003_035_01,chara_1
 
-message,<user>,お前、猫好きなのか？
+message,<user>,You like cats?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1094,9 +1094,9 @@ asyncseplay,setag1_40,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ピコ,うん！　コスチュームと髪型も猫をモチーフにするくらいだからね～。<br>猫ちゃんと遊べるなら、こっちの世界でもやっていけるかも～。にゃーん？,,vc_10140100003_036_01,chara_1
+message,ピコ,Yeah! My whole look is cat-themed，after all~.<br>If I can hang out with a kitty，maybe this world's not so bad. Nyaa~?<br> ,,vc_10140100003_036_01,chara_1
 
-message,猫,にゃーん。,900000003
+message,猫,Nyaa.<br> ,900000003
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1107,7 +1107,7 @@ asyncseplay,setag1_41,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ピコ,にゃーんっ！　ふふふ。,,vc_10140100003_037_01,chara_1
+message,ピコ,Nyaa~! Hehehe.<br> ,,vc_10140100003_037_01,chara_1
 
 window,off
 wait,0.15
@@ -1122,11 +1122,11 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（ピコが笑っている！　良かった……）
+message,<user>,(Pico's smiling! That's a relief...)<br> 
 
-message,<user>,（……しかし）
+message,<user>,(...But...)<br> 
 
-message,<user>,（さっきまであんなに愚痴っていたのに、猫に会っただけで……？<br>お、俺が今日やったことはいったい……！！）
+message,<user>,(She was miserable two minutes ago and a cat just fixed<br>everything...? W-what was any of what I did today even FOR...!!)<br> 
 
 window,off
 wait,0.15
@@ -1151,7 +1151,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,ピコ,……あのさ、しれーかん。猫ちゃんのおかげで元気になれたから<br>このタイミングで言うんだけど――,,vc_10140100003_038_01,chara_1
+message,ピコ,...Hey，Commander. The kitty cheered me up so<br>I figured now's the time to say——<br> ,,vc_10140100003_038_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1162,9 +1162,9 @@ asyncseplay,setag1_43,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ピコ,今日１日、ありがとね。,,vc_10140100003_039_01,chara_1
+message,ピコ,Thanks for today. The whole day.<br> ,,vc_10140100003_039_01,chara_1
 
-message,<user>,どういたしまして。<br>……あまり役には立てなかったけどな。
+message,<user>,You're welcome.<br>...I wasn't much help though.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1176,7 +1176,7 @@ asyncseplay,setag1_44,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ピコ,え、そんなことないよ？　連れ回してくれたの、やっぱり嬉しかったもん。<br>アリシアたんから逃げるのも楽しかったしさ。,,vc_10140100003_040_01,chara_1
+message,ピコ,No way，it helped~! Being dragged around was fun，honestly.<br>And running from Alicia was actually kind of a blast.<br> ,,vc_10140100003_040_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1187,7 +1187,7 @@ asyncseplay,setag1_45,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ピコ,１人でいると、やっぱり色々考えて気分が落ちちゃうみたい。<br>それに気が付けたのも、しれーかんが連れ回してくれたからだよ。,,vc_10140100003_041_01,chara_1
+message,ピコ,Being alone just makes me spiral，I think.<br>I only figured that out because you dragged me out today.<br> ,,vc_10140100003_041_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1198,7 +1198,7 @@ asyncseplay,setag1_46,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ピコ,元の世界にいたときは部屋に１人でも、ネットで繋がってるみんながいたから<br>１人を感じなかった――でも、ここでは違うから。,,vc_10140100003_042_01,chara_1
+message,ピコ,Back home，even alone in my room I had everyone online —<br>so I never really felt alone. But here it's different.<br> ,,vc_10140100003_042_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1210,11 +1210,11 @@ asyncseplay,setag1_47,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ピコ,こっちの世界にいる間は、せっかくだから誰かといる時間を楽しんでみるよ。,,vc_10140100003_043_01,chara_1
+message,ピコ,While I'm stuck here，I might as well enjoy actually being with<br>people.<br> ,,vc_10140100003_043_01,chara_1
 
-message,<user>,そうか。そんなふうに前向きに考えてもらえるなら俺も安心だ。<br>連れ出した甲斐があった。
+message,<user>,I'm glad. That's a genuinely healthy way to look at it.<br>Worth dragging you out，then.<br> 
 
-message,<user>,ピコの劇的な変化には驚くしかないけどな。
+message,<user>,Though the speed of that turnaround is something else.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1225,7 +1225,7 @@ asyncseplay,setag1_48,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ピコ,えへへっ。<br>この世界も悪くないかなーって思えるようになったからね。,,vc_10140100003_044_01,chara_1
+message,ピコ,Ehehe~.<br>I'm starting to think this world might not be so bad after all.<br> ,,vc_10140100003_044_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1236,9 +1236,9 @@ asyncseplay,setag1_49,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ピコ,この世界のいいとこ、見つかったかもだし。,,vc_10140100003_045_01,chara_1
+message,ピコ,I might've found something this world has going for it.<br> ,,vc_10140100003_045_01,chara_1
 
-message,<user>,やれやれ。猫様々だな。
+message,<user>,Good grief. All hail the cat.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1249,9 +1249,9 @@ asyncseplay,setag1_50,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ピコ,違う違う。猫じゃないよー。猫は向こうの元の世界にもいるじゃん。<br>猫に会えてなくても、絶対にしれーかんにお礼してたと思うし。,,vc_10140100003_046_01,chara_1
+message,ピコ,Nope nope~. Not the cat. Cats exist back home too，you know.<br>Even without the cat，I would've thanked you. Definitely.<br> ,,vc_10140100003_046_01,chara_1
 
-message,<user>,その口振りだと、こっちの世界にだけあるものってことか？
+message,<user>,The way you say that — is it something that only exists in this<br>world?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1262,9 +1262,9 @@ asyncseplay,setag1_51,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ピコ,うんっ！,,vc_10140100003_047_01,chara_1
+message,ピコ,Yep!<br> ,,vc_10140100003_047_01,chara_1
 
-message,<user>,……そんなもの、今日紹介したっけ？
+message,<user>,...Did I introduce you to something like that today?<br> 
 
 window,off
 wait,0.15
@@ -1290,7 +1290,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,ピコ,（ふーん……しれーかんのくせに意外と鈍感なんだなぁ）,,vc_10140100003_048_01,chara_1
+message,ピコ,(Huh... for a Commander，he's surprisingly dense.)<br> ,,vc_10140100003_048_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1301,7 +1301,7 @@ asyncseplay,setag1_53,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ピコ,（ぼくのこと心配してるみたいだし、これからはいっぱい甘えちゃおっと♪）,,vc_10140100003_049_01,chara_1
+message,ピコ,(He's clearly worried about me — might as well lean on him way more<br>from now on♪)<br> ,,vc_10140100003_049_01,chara_1
 
 window,off
 wait,0.15
@@ -1318,7 +1318,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,何をニヤニヤしている？
+message,<user>,What are you grinning about?<br> 
 
 window,off
 wait,0.15
@@ -1352,7 +1352,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ピコ,べっつにー！　アーデルハイトからスマホを返して貰おうよ！<br>そのあと、また撮影手伝って～！,,vc_10140100003_050_01,chara_1
+message,ピコ,Noooothing~! Let's go get my phone back from Adelheid!<br>And then help me film again~!<br> ,,vc_10140100003_050_01,chara_1
 
 asyncjump,CHARA,chara_1,40,0.5,2,off,0,CONT
 
@@ -1360,7 +1360,7 @@ asyncseplay,setag1_55,se4800013,0,1,CONT,0
 
 asynccharaemo,chara_1,Spirits,CONT,0
 
-message,<user>,わかったわかった。引っ張るなよ。
+message,<user>,Alright，alright. Stop pulling.<br> 
 
 window,off
 bgmstop,bgmtag1_4,0.5

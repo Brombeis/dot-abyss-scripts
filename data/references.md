@@ -242,7 +242,7 @@ roster is listed below.
 | ヒナギ | Hinagi | Female | [Profile](#hinagi-ヒナギ) |
 | ヒマリ | Himari | Female | [Profile](#himari-ヒマリ) |
 | ヒュメナ | Humena | Female | |
-| ピコ | Pico | Female | |
+| ピコ | Pico | Female | [Profile](#pico-ピコ) |
 | フィルム | Film | Female | [Profile](#film-フィルム) |
 | フェイリン | Feilin | Female | |
 | フレイヤ | Freya | Female | |
@@ -1265,6 +1265,61 @@ roster is listed below.
   - **Headpat request:** her most hesitant, trailing formal speech — barely above a whisper: "...Should it not be too much of an imposition... on occasion... when my work meets with your approval... might you... pat my head...?" The ellipses are carrying her embarrassment because her face still won't.
   - She uses はいっ！ as a crisp, snapping affirmative — render as "Yes!" with energy, not "Of course~" — it's the one moment her voice has a spine.
   - She should be identifiable from line shape alone: complete sentences, no decoration, formal vocabulary, zero fragmentation — except in the two states above. No other character in the cast sounds like this.
+
+### Pico (ピコ)
+- **Pronoun:** ぼく (boku) — soft masculine/boyish; unusual for a female character and essential to her identity. In English this is just "I", but her speech style should feel gender-neutral and casual, matching a young content creator persona.
+- **Addresses MC as:** しれーかん → **"Commander"** (same cutesy slurring as Himari/Emily/Hatsune)
+- **Self-reference:** Refers to herself as **"Pikonyan"** (ピコにゃん) when in streaming mode or being playful — a cat-themed nickname that is her signature on-camera persona. Use it wherever the Japanese does; do NOT normalize it to "I".
+- **Backstory:** An isekai'd content creator (streamer/YouTuber) from modern Japan. She was transported to the Abyss world mid-stream and has been filming "isekai let's play footage" (異世界実況動画) to upload when she gets home. Her smartphone was repaired by Adelheid to run on magic power instead of electricity, but the internet cannot be connected — leaving her cut off from her audience. The phone is her sole lifeline to her home world; losing it for even an hour sends her into low-grade withdrawal. Her streaming persona is loud, cheerful, and always "on camera" — but underneath it she is profoundly lonely, describing the phone as an amulet that keeps her homesickness at bay. Her cat-themed costume and hairstyle are intentional branding choices. She found something worth staying for in the Commander — though she's not ready to say so plainly, her inner monologue makes it clear.
+- **Role:** Isekai'd streamer and adventurer. Competent fighter (she learned tactics from games, which transfer surprisingly well). Has her own smartphone, which she uses to film everything as content.
+- **Speech style:** High-energy streaming patter delivered in casual Japanese. Opens every "recording" with はいはーい！ はいどうもー！ and closes with ばいにゃー！. Refers to herself in third person as ピコにゃん on camera. Uses ぼく as pronoun. Peppers dialogue with gaming and streaming vocabulary used naturally, not as jokes — she genuinely processes the world through that lens. Uses raw casual endings: だよー, だしー, じゃん, けどさぁ, なんだけど, っていうか. Frequently uses:
+  - あざーっす → "Thanks a bunch!" / "Cheers!"
+  - らじゃー → "Roger!"
+  - やっほ → "Yo!"
+  - おーけーおーけー → "Okay okay!"
+  - へーきへーき → "No worries, no worries!"
+  - マジで / マジかー → "Seriously?" / "No way!"
+  - やっば → "Oh no!" / "Oh snap!"
+  - にゃははは → "Nyahaha!"
+  - ばいにゃー → **"Bye-nyan~!"** (always, as her stream sign-off)
+  - フフフッ (inner monologue) → "Heheh..."
+  Uses ～ tildes liberally. Uses ♪ when pleased or scheming. Laugh is フフフッ / にゃははは.
+- **Gaming/streaming vocabulary:** She uses this vocabulary naturally and unselfconsciously — the MC often has no idea what she's talking about, and that gap is a running comedy beat. Always render with English gaming/streaming equivalents:
+  - 実況動画 → "let's play video" / "commentary footage"
+  - 配信 → "stream" / "streaming"
+  - 撮れ高 → "footage" / "content"
+  - バズる → "go viral" / "blow up"
+  - 再生数 → "view count" / "views"
+  - チャンネル登録 → "subscribe"
+  - 編集 → "editing"
+  - クリア → "clear" / "clear it"
+  - ザコ → "weak enemy" / "trash mob"
+  - クソゲー → "trash game" / "this is garbage"
+  - 初撃破トロフィー → "first kill trophy"
+  - 撮れ高 → "footage" / "content"
+  - 攻略 → "strategy guide" / "look up the strat"
+  - 初狩り → "got stomped by a first-timer"
+  - 萎え萎え → "so tilted"
+  - 盛り上がってまいりました → "and we are HYPED"
+  - ネタになる → "good content" / "this'll make great content"
+  - 編集点 → "editing cut" / "good cut point"
+- **Key traits:**
+  - **Always filming.** Even surrounded by monsters, her first instinct is to get the shot. She sees every disaster as content. Her priorities are: (1) is the camera rolling, (2) everything else.
+  - **Gaming logic applied to reality.** She uses card game tactics she learned from video games against real enemies and they work. She calls a fighting retreat a "flag plant." She refers to real injuries as "taking damage." This is not irony — she genuinely thinks this way.
+  - **Streamer persona is armor.** When the camera is rolling, she's confident and loud. When it's off and she's alone, the homesickness creeps in. She's deliberately self-aware of this: "When I'm filming, I can forget the anxiety and just focus."
+  - **Cat identity.** Her costume is cat-themed. She calls herself Pikonyan. Her sign-off is "Bye-nyan~!" She meows at real cats and is instantly cheered up by them. This is genuine affection, not affectation.
+  - **Smartphone addict.** She calls herself a スマホ依存症 (smartphone addict) with zero shame. The phone is her comfort object, her work tool, and her emotional anchor.
+  - **Secretly attached to the Commander.** Her inner monologue (always in parentheses) reveals more feeling than she shows: she wants to film him because she wants to remember him even after returning home. She decides to "lean on him more" rather than say anything direct.
+- **Translation notes:**
+  - **Her streaming openings and closings are non-negotiable.** はいはーい！ はいどうもー！ → "Hey hey~! Hey everyone~!" or "Hey hey heeey~!" ばいにゃー → **always "Bye-nyan~!"** These are her brand — they should pop off the page.
+  - **Pikonyan** is her name for herself on camera. Keep it everywhere the Japanese uses ピコにゃん. "Pikonyan's first ever dungeon raid — let's go!"
+  - Use genuine gaming/streaming English: "first kill trophy," "no loot drop?? unacceptable," "this is gonna go viral," "footage is clean." The MC's confusion at these terms is the recurring joke — don't soften her lingo to make it more comprehensible.
+  - Her casual speech drops だ/です entirely in favor of raw assertion: "I'm Pikonyan!" not "This is Pikonyan." Short punchy sentences with lots of～ and exclamation marks.
+  - When the streaming persona drops (alone, no camera, phone dead), let the bubbly mask slip: shorter sentences, no tildes, real weight — but she snaps back fast. "I just want to go home..." → immediately corrects: "Anyway! Not the time to mope!"
+  - Her competitive gaming side: she rage-quits in words ("I'm NEVER playing this again!") and immediately plans her revenge meta ("...I should figure out the optimal pattern before the rematch."). Keep both halves — the tantrum and the immediate recalculation.
+  - Inner monologues use フフフッ → "Heheh..." and reveal genuine warmth/scheming: "(Heheh... if I stock up on footage, I can remember Commander even after I get back...)"
+  - She uses ♪ when plotting or privately pleased — always preserve it.
+  - She should be recognizable from line shape alone: streaming opener, Pikonyan self-reference, gaming vocab applied to fantasy, and the ばいにゃー sign-off. No other character sounds like this.
 
 ### Shiraes (シラエス)
 - **Pronoun:** 私 (watashi) — neutral/calm; delivered with sage warmth, not

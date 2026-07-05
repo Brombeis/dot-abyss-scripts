@@ -17,7 +17,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,スマホ依存症克服作戦
+title,Operation: Beat the Smartphone Addiction
 
 wait,1
 
@@ -37,13 +37,13 @@ asynccharaemo,chara_2,Exclamation,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,というわけで、例の研究につきましては――,,vc_10140100002_001_01,chara_2
+message,アーデルハイト,So，regarding that research——<br> ,,vc_10140100002_001_01,chara_2
 
-message,<user>,ふむふむ。
+message,<user>,Mm-hm.<br> 
 
 asyncseplay,setag1_2,se4300003,0,1,CONT,0
 
-message,,ガラッ
+message,,——SLAM<br> 
 
 window,off
 wait,0.15
@@ -91,9 +91,9 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ピコ,アーデルハイト、いたー！　やっと見つけた！,,vc_10140100002_002_01,chara_1
+message,ピコ,Adelheid，there you are~! Finally found you!<br> ,,vc_10140100002_002_01,chara_1
 
-message,<user>,うわっ、ピコか！？　<br>いきなり入ってきたから、びっくりした……
+message,<user>,Whoa，Pico!?<br>You just barged right in — nearly gave me a heart attack...<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -104,7 +104,7 @@ asyncseplay,setag1_4,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ピコ,アーデルハイト、しれーかんと何してんの？,,vc_10140100002_003_01,chara_1
+message,ピコ,Adelheid，what are you and Commander doing?<br> ,,vc_10140100002_003_01,chara_1
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -116,7 +116,7 @@ asyncseplay,setag1_5,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,アーデルハイト,仕事の話で呼び出されたんですよ。<br>私に用事ですか、ピコ？,,vc_10140100002_004_01,chara_2
+message,アーデルハイト,He called me in for a work discussion.<br>Is something the matter，Pico?<br> ,,vc_10140100002_004_01,chara_2
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -127,7 +127,7 @@ asyncseplay,setag1_6,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ピコ,うんっ！　アーデルハイト、スマホ返して！<br>もう充電終わってるよね？,,vc_10140100002_005_01,chara_1
+message,ピコ,Yep! Adelheid，give me my phone back!<br>It's done charging by now，right?<br> ,,vc_10140100002_005_01,chara_1
 
 asyncshake,CHARA,chara_2,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -136,7 +136,7 @@ asyncseplay,setag1_7,se4800014,0,1,CONT,0
 asynccharaemo,chara_2,Silence,CONT,0
 
 
-message,アーデルハイト,まだ終わっていませんよ。,,vc_10140100002_006_01,chara_2
+message,アーデルハイト,Not yet，I'm afraid.<br> ,,vc_10140100002_006_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -147,7 +147,7 @@ asyncseplay,setag1_8,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ピコ,えーっ！？<br>昨日渡したのに！？,,vc_10140100002_007_01,chara_1
+message,ピコ,Whaaaat!?<br>I handed it over yesterday!?<br> ,,vc_10140100002_007_01,chara_1
 
 asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
 
@@ -156,7 +156,7 @@ asyncseplay,setag1_9,se4800010,0,1,CONT,0
 asynccharaemo,chara_2,Exclamation,CONT,0
 
 
-message,アーデルハイト,現在は電力ではなく、魔力で稼働していますから。<br>本来よりも時間が掛かってしまうんですよ。,,vc_10140100002_008_01,chara_2
+message,アーデルハイト,It's running on magic power instead of electricity now.<br>That takes considerably longer than normal，I'm afraid.<br> ,,vc_10140100002_008_01,chara_2
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -167,7 +167,7 @@ asyncseplay,setag1_10,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ピコ,そっか……あとどれくらい掛かる？,,vc_10140100002_009_01,chara_1
+message,ピコ,I see... how much longer?<br> ,,vc_10140100002_009_01,chara_1
 
 asynccharaface,chara_2,FaceUnique01,CONT,0
 
@@ -178,7 +178,7 @@ asyncseplay,setag1_11,se4800014,0,1,CONT,0
 asynccharaemo,chara_2,Silence,CONT,0
 
 
-message,アーデルハイト,あと１時間ほどかと。,,vc_10140100002_010_01,chara_2
+message,アーデルハイト,About another hour，I'd estimate.<br> ,,vc_10140100002_010_01,chara_2
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -189,9 +189,9 @@ asyncseplay,setag1_12,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ピコ,そんなぁ～……スマホがないと、どこにも行けないよぅ。,,vc_10140100002_011_01,chara_1
+message,ピコ,Oh nooo~~... without my phone I can't go anywhere...<br> ,,vc_10140100002_011_01,chara_1
 
-message,<user>,そこまで困るものなのか？
+message,<user>,Is it really that bad without it?<br> 
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -202,7 +202,7 @@ asyncseplay,setag1_13,se4800009,0,1,CONT,0
 asynccharaemo,chara_2,Question,CONT,0
 
 
-message,アーデルハイト,生活に必要な機能は備わっていないはずなんですが。,,vc_10140100002_012_01,chara_2
+message,アーデルハイト,It doesn't contain any function essential to daily life，as far as I<br>can tell.<br> ,,vc_10140100002_012_01,chara_2
 
 window,off
 wait,0.15
@@ -252,7 +252,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ピコ,ピコにゃんは『スマホ依存症』なの！！,,vc_10140100002_013_01,chara_1
+message,ピコ,Pikonyan has a full-blown 'smartphone addiction'!!<br> ,,vc_10140100002_013_01,chara_1
 
 window,off
 wait,0.15
@@ -307,7 +307,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,気持ちいいくらい断言しましたね。,,vc_10140100002_014_01,chara_2
+message,アーデルハイト,You said that with impressive conviction.<br> ,,vc_10140100002_014_01,chara_2
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -316,7 +316,7 @@ asyncseplay,setag1_16,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,ピコ,ぼくにとってスマホだけが元の世界との繋がりなんだよ。<br>……唯一のね。,,vc_10140100002_015_01,chara_1
+message,ピコ,My phone is the only connection I have to home.<br>...The only one.<br> ,,vc_10140100002_015_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -327,7 +327,7 @@ asyncseplay,setag1_17,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ピコ,だからちょっとの時間も離れたくないんだ。,,vc_10140100002_016_01,chara_1
+message,ピコ,So I don't want to be apart from it even for a little while.<br> ,,vc_10140100002_016_01,chara_1
 
 window,off
 wait,0.15
@@ -366,7 +366,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,うん？<br>なんだかこの前に会ったときより元気がないな。
+message,<user>,Hmm?<br>You seem less energetic than when we last met.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -377,7 +377,7 @@ asyncseplay,setag1_18,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ピコ,そりゃあ、あのときは撮影してたもん……,,vc_10140100002_017_01,chara_1
+message,ピコ,Well，I was filming last time...<br> ,,vc_10140100002_017_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -388,9 +388,9 @@ asyncseplay,setag1_19,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ピコ,やっぱ早く元の世界に帰りたいよ。<br>ネットもないし、誰もぼくのことを見てくれないし、すごく寂しい――,,vc_10140100002_018_01,chara_1
+message,ピコ,I just really want to go home.<br>No internet，nobody watching me... it's so lonely——<br> ,,vc_10140100002_018_01,chara_1
 
-message,<user>,おいおい、本当に元気がないじゃないか。
+message,<user>,Hey now，you're genuinely not doing well，are you.<br> 
 
 window,off
 wait,0.15
@@ -442,7 +442,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 
 window,on,0.15
-message,ピコ,スマホが使えないから。こっちの世界に来てからは<br>不安を紛らわしてくれるお守りみたいなものだったんだよ。,,vc_10140100002_019_01,chara_1
+message,ピコ,It's because I can't use it. Since I got here it's been<br>like a charm — something to push the anxiety away.<br> ,,vc_10140100002_019_01,chara_1
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -451,9 +451,9 @@ asyncseplay,setag1_21,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ピコ,撮影してるときは、不安なんて忘れて集中できるしさ……,,vc_10140100002_020_01,chara_1
+message,ピコ,When I'm filming I can forget the anxiety and just focus...<br> ,,vc_10140100002_020_01,chara_1
 
-message,<user>,なるほど。<br>『異世界実況動画』もそのために始めたのか。
+message,<user>,I see.<br>So 'Isekai Let's Play' started for that reason too.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -462,11 +462,11 @@ asyncseplay,setag1_22,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ピコ,うん……<br>このまま帰れなかったら、どうしよう……,,vc_10140100002_021_01,chara_1
+message,ピコ,Yeah...<br>What if I never get back...<br> ,,vc_10140100002_021_01,chara_1
 
 asyncskipwait
 
-message,<user>,待て待て、ピコ。<br>そんなに落ち込むな。
+message,<user>,Easy，easy，Pico.<br>Don't spiral like that.<br> 
 
 window,off
 wait,0.15
@@ -507,7 +507,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,不安になるのは無理もないが――<br>お前が異世界に来たのも、やはり大穴絡みなんだろう？
+message,<user>,It's natural to feel anxious，but——<br>you got here through the Abyss too，didn't you?<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -516,11 +516,11 @@ asyncseplay,setag1_23,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ピコ,うん。たぶん……,,vc_10140100002_022_01,chara_1
+message,ピコ,Yeah. Probably...<br> ,,vc_10140100002_022_01,chara_1
 
-message,<user>,じゃあ、望みはある。大穴にはまだ、誰も見たことのない領域があるんだ。<br>探索を続ければ、お前が元の世界に戻る手がかりが見つかるかもしれない。
+message,<user>,Then there's hope. The Abyss still has regions no one has ever seen.<br>Keep exploring and we might find a way to send you home.<br> 
 
-message,<user>,幸いなことに、お前はちゃんと戦力になりそうだし、<br>探索中は実況動画の撮影をするから楽しい気分でいられるんだろう？
+message,<user>,And fortunately，you're capable of holding your own in a fight.<br>Filming during expeditions keeps your spirits up，doesn't it?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -531,9 +531,9 @@ asyncseplay,setag1_24,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ピコ,まぁ、うん……,,vc_10140100002_023_01,chara_1
+message,ピコ,Well，yeah...<br> ,,vc_10140100002_023_01,chara_1
 
-message,<user>,だったら気にするな。探索に行くときは声を掛ける。<br>実況動画の相方も付き合ってやるから。
+message,<user>,Then don't overthink it. I'll call on you when we head out.<br>I'll even keep playing co-star for your let's play.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -544,9 +544,9 @@ asyncseplay,setag1_25,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ピコ,……しれーかん、優しいじゃん。,,vc_10140100002_024_01,chara_1
+message,ピコ,...Commander，you're actually pretty kind.<br> ,,vc_10140100002_024_01,chara_1
 
-message,<user>,落ち込んでいる部下のケアも俺の仕事だからな。
+message,<user>,Looking after a struggling member of my crew is part of my job.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -557,7 +557,7 @@ asyncseplay,setag1_26,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ピコ,……そっか。<br>優しくしてくれてありがとね。,,vc_10140100002_025_01,chara_1
+message,ピコ,...Yeah.<br>Thanks for being kind to me.<br> ,,vc_10140100002_025_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -568,7 +568,7 @@ asyncseplay,setag1_27,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ピコ,でも、やっぱり気分はなかなかアガらないよ……<br>あ～、ゲームしたいゲームしたいゲームしたい！,,vc_10140100002_026_01,chara_1
+message,ピコ,But I still can't shake this feeling...<br>Ahh，I wanna play games，I wanna play games，I wanna play games!<br> ,,vc_10140100002_026_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -579,7 +579,7 @@ asyncseplay,setag1_28,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,ピコ,今年は楽しみにしてた新作がいっぱいあったんだよー！<br>発売日は徹夜でゲーム配信する予定だったのにぃっ！,,vc_10140100002_027_01,chara_1
+message,ピコ,There were so many new releases I was hyped for this year!<br>I was supposed to do all-night launch-day streams for all of them!!<br> ,,vc_10140100002_027_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -590,7 +590,7 @@ asyncseplay,setag1_29,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,ピコ,早く帰らないと旬が過ぎちゃう！<br>そんなのやだー！,,vc_10140100002_028_01,chara_1
+message,ピコ,If I don't get back soon the hype will be dead!<br>No no no no no!<br> ,,vc_10140100002_028_01,chara_1
 
 window,off
 wait,0.15
@@ -633,7 +633,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,うーむ……アーデルハイト。<br>スマホを改造して、新作ゲームができるようにするのは無理なんだよな？
+message,<user>,Hmm... Adelheid.<br>There's no way to modify the phone to run new games，is there?<br> 
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -644,11 +644,11 @@ asyncseplay,setag1_30,se4800014,0,1,CONT,0
 asynccharaemo,chara_2,Silence,CONT,0
 
 
-message,アーデルハイト,残念ながら無理です。そもそもスマホではなくて<br>デスクトップ型のパソコンか、ゲーム機でやるものだと思いますし。,,vc_10140100002_029_01,chara_2
+message,アーデルハイト,Unfortunately not. Those games would require<br>a desktop computer or a dedicated gaming console，I believe.<br> ,,vc_10140100002_029_01,chara_2
 
-message,<user>,さっぱりわからないが、ピコの希望を叶えられないことだけはわかった。<br>……他の楽しみを見つけてもらうしかなさそうだな。
+message,<user>,No idea what any of that means，but I understand we can't give Pico<br>what she wants. ...We'll have to find her something else to enjoy.<br> 
 
-message,<user>,ピコ。<br>スマホの充電が終わるまで少し俺に付き合え。
+message,<user>,Pico.<br>Come with me while your phone charges.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -659,9 +659,9 @@ asyncseplay,setag1_31,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ピコ,えー。<br>ぼく、アーデルハイトの研究室でスマホの充電が終わるまで待ちたい！,,vc_10140100002_030_01,chara_1
+message,ピコ,Ehh~.<br>I want to wait here in Adelheid's lab until it's done!<br> ,,vc_10140100002_030_01,chara_1
 
-message,<user>,そんなこと言うな。<br>この間はお前の実況動画に付き合っただろう？
+message,<user>,Don't be like that.<br>Didn't I go along with your let's play the other day?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -672,7 +672,7 @@ asyncseplay,setag1_32,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ピコ,えー、でも～……,,vc_10140100002_031_01,chara_1
+message,ピコ,Ehh，but~~...<br> ,,vc_10140100002_031_01,chara_1
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -683,7 +683,7 @@ asyncseplay,setag1_33,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,アーデルハイト,行ってきてください。その間にもう少しバッテリーを長持ちさせられないか<br>試してみますから。,,vc_10140100002_032_01,chara_2
+message,アーデルハイト,Please go. I'll use the time to see if I can extend the battery life<br>a little more while you're out.<br> ,,vc_10140100002_032_01,chara_2
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -694,7 +694,7 @@ asyncseplay,setag1_34,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ピコ,……わかったー。,,vc_10140100002_033_01,chara_1
+message,ピコ,...Fine~.<br> ,,vc_10140100002_033_01,chara_1
 
 window,off
 wait,0.15
@@ -757,7 +757,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（よし。とりあえず連れ出すのには成功した。<br>こっちの世界で好きになれるものを一緒に探してみよう）
+message,<user>,(Good. Got her out at least. Let's see if we can find something in<br>this world she actually likes.)<br> 
 
 wait,0.5
 
@@ -816,9 +816,9 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ピコ,ここってお酒飲むところだよね？<br>ぼく、お酒には興味がないんだけどー！？,,vc_10140100002_034_01,chara_1
+message,ピコ,This is a place for drinking，right?<br>I'm not into alcohol though~!?<br> ,,vc_10140100002_034_01,chara_1
 
-message,<user>,酒以外もうまい料理があるんだよ。<br>おごりでたくさん頼んだから味見してみてくれ。奮発したぞ！
+message,<user>,They do great food here besides the drinks.<br>I ordered a lot — on me — so have a taste. I splurged!<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -829,13 +829,13 @@ asyncseplay,setag1_37,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ピコ,ぼく、食べ物に興味なーい,,vc_10140100002_035_01,chara_1
+message,ピコ,I'm not really into food~<br> ,,vc_10140100002_035_01,chara_1
 
-message,<user>,そう言わずに。<br>ほーら、さっそく来たぞ！
+message,<user>,Just try it.<br>Oh，it's arriving now!<br> 
 
-message,,――テーブルの上にたくさんの料理が運ばれてくる。<br>高価な食材をふんだんに使った品々から漂う良い香りが、周囲に漂う。
+message,,——A spread of dishes arrives at the table.<br>The aroma of expensive ingredients fills the air around them.<br> 
 
-message,<user>,これなんかオススメだぞ。<br>新鮮野菜を使った絶品サラダだ。食ってくれ！
+message,<user>,This one's highly recommended.<br>A superb salad with fresh vegetables. Give it a try!<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -846,9 +846,9 @@ asyncseplay,setag1_38,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,ピコ,いらなーい。野菜嫌ーい！！,,vc_10140100002_036_01,chara_1
+message,ピコ,Don't want it~. Vegetables are gross!!<br> ,,vc_10140100002_036_01,chara_1
 
-message,<user>,肉と魚はどうだ？
+message,<user>,What about meat and fish?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -859,9 +859,9 @@ asyncseplay,setag1_39,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ピコ,うーん。一応食べるけどさぁ……<br>正直、栄養補給できるなら『なんでもー』なんだ。,,vc_10140100002_037_01,chara_1
+message,ピコ,Ehh. I'll eat it I guess...<br>Honestly，as long as it fills me up it's all the same~.<br> ,,vc_10140100002_037_01,chara_1
 
-message,<user>,そ、そうか……<br>だが、本当に好きな食べ物とかないのか？
+message,<user>,R-really...<br>But is there nothing you actually like to eat?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -872,9 +872,9 @@ asyncseplay,setag1_40,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ピコ,スナック菓子は好きだったよ。,,vc_10140100002_038_01,chara_1
+message,ピコ,I liked junk food snacks.<br> ,,vc_10140100002_038_01,chara_1
 
-message,<user>,……すまない。<br>それはどういう料理だ？
+message,<user>,...Sorry.<br>What kind of dish is that?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -886,9 +886,9 @@ asyncseplay,setag1_41,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ピコ,料理っていうか、ジャンルだよ。<br>「うますぎる棒」「しいたけさん次郎」とかさ～。,,vc_10140100002_039_01,chara_1
+message,ピコ,It's more of a category than a dish.<br>Like 'Umasugiru Stick' or 'Shiitake-san Jiro'~.<br> ,,vc_10140100002_039_01,chara_1
 
-message,<user>,どういう味がする？<br>食感は？
+message,<user>,What do they taste like?<br>What's the texture?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -899,7 +899,7 @@ asyncseplay,setag1_42,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ピコ,味なんて説明できないよ。<br>強いて言えば、ジャンク？,,vc_10140100002_040_01,chara_1
+message,ピコ,I can't really describe the taste.<br>If I had to say — junk?<br> ,,vc_10140100002_040_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -910,7 +910,7 @@ asyncseplay,setag1_43,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ピコ,油でベタベタするのがいかにもスナック菓子って感じでさー。<br>いくらでもパリパリポリポリしちゃう。,,vc_10140100002_041_01,chara_1
+message,ピコ,That greasy sticky coating is so perfectly snacky~.<br>I could just crunch through them forever.<br> ,,vc_10140100002_041_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -921,9 +921,9 @@ asyncseplay,setag1_44,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ピコ,っていうか、ゲームしたり、動画見ながら<br>食べられるっていうのがいいんだよね～。,,vc_10140100002_042_01,chara_1
+message,ピコ,Actually the best part is being able to eat them<br>while gaming or watching videos~.<br> ,,vc_10140100002_042_01,chara_1
 
-message,<user>,うーん……詳しく聞いてもよくわからんな。<br>やはり、食事でピコを喜ばせるのは無理か……
+message,<user>,Hmm... the more you explain the less I understand.<br>I suppose food isn't the way to cheer Pico up...<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -935,9 +935,9 @@ asyncseplay,setag1_45,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ピコ,諦めてアーデルハイトの所に行こうよ？,,vc_10140100002_043_01,chara_1
+message,ピコ,Just give up and let's go back to Adelheid?<br> ,,vc_10140100002_043_01,chara_1
 
-message,<user>,いや、まだいくつか行きたい場所がある。<br>食べ終わったら、もう少し付き合ってくれ。
+message,<user>,No，I have a few more places in mind.<br>After you finish eating，come with me a bit longer.<br> 
 
 window,off
 bgmstop,bgmtag1_2,0.5

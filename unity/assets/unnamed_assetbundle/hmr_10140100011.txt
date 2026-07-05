@@ -11,7 +11,7 @@ fade,In,Black,0.5
 
 
 seplay,seopening_tag,se5030001
-title,突撃！　しれーしつ！
+title,Charge! The Commander's Room!
 
 wait,1
 
@@ -20,7 +20,7 @@ bgmplay,bgmtag1_1,bgm0026,0.75,1
 
 
 window,on,0.15
-message,<user>,ふぅっ……仕事も一段落ついたし、一休みするか……
+message,<user>,Phew... work's at a stopping point. Time for a break...<br> 
 
 seplay,setag1_1,se4300003,0,1
 
@@ -34,20 +34,20 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Laugh,STOP
 
 asynccharareaction,chara_1,Jump,1,STOP
-message,ピコ,はいはーい！　おつかれちゃんでーす♪,,vc_10140100011_001_01
+message,ピコ,Hey hey heeey~! Good work out there~♪<br> ,,vc_10140100011_001_01
 
 linework,off,White,Middle
 
-message,<user>,うわっ、ビックリした！
+message,<user>,Whoa，you startled me!<br> 
 
 asyncseplay,setag1_3,se4800003,0,1,CONT
 
 asynccharaemo,chara_1,Twinkle,STOP
 
 charaface,chara_1,FaceFun
-message,ピコ,遊びにきたよ、しれーかん！,,vc_10140100011_002_01
+message,ピコ,Came to hang out，Commander!<br> ,,vc_10140100011_002_01
 
-message,<user>,ピコか……部屋に入るときは、ノックをだな――
+message,<user>,Pico... when you come into someone's room，you're supposed to knock——<br> 
 
 asyncseplay,setag1_4,se4800019,0,1,CONT
 
@@ -56,7 +56,7 @@ asynccharaemo,chara_1,Elated,STOP
 asynccharareaction,chara_1,Hop,1,STOP
 
 charaface,chara_1,FaceHappy
-message,ピコ,はいどうもー、ピコにゃんでーす♪,,vc_10140100011_003_01
+message,ピコ,Hey everyone~! It's Pikonyan~♪<br> ,,vc_10140100011_003_01
 
 asynccharareaction,chara_1,Hop,1,STOP
 
@@ -67,25 +67,25 @@ asyncseplay,setag1_5,se4800004,0,1,CONT
 
 asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Laugh,STOP
-message,ピコ,今日は、『突撃！　しれーしつ！』ということで、<br>しれーかんの部屋にやってきてまーす♪,,vc_10140100011_004_01
+message,ピコ,Today's episode is 'Charge! The Commander's Room!'<br>and we have arrived at the Commander's room~♪<br> ,,vc_10140100011_004_01
 
-message,,人の言うことも聞かずに、ピコは早速動画を撮り始めていた。
+message,,Without listening to a word，Pico had already started filming.<br> 
 
-message,<user>,ったく……またいつもの動画撮影か？
+message,<user>,Good grief... another one of your filming sessions?<br> 
 
 asynccharareaction,chara_1,nod,1,STOP
 
 asynccharaface,chara_1,FaceAnger,STOP
-message,ピコ,しれーかんも協力してよ。<br>元の世界に戻ったら、配信するからさ。,,vc_10140100011_005_01
+message,ピコ,Come on，play along，Commander.<br>I'm going to stream it when I get back to my world.<br> ,,vc_10140100011_005_01
 
-message,<user>,配信？　よくわからないが、俺は今から休憩時間だ。<br>撮影なら、好きに撮っていいぞ。
+message,<user>,A stream? I don't quite follow，but I'm on break now.<br>Film whatever you like.<br> 
 
 asynccharareaction,chara_1,nod,1,STOP
 
 asynccharaface,chara_1,FaceFun,STOP
 
 asynccharaface,chara_1,FaceHappy,STOP,1.5
-message,ピコ,りょうかーい。<br>じゃあ、好きにさせてもらうね。,,vc_10140100011_006_01
+message,ピコ,Roger~.<br>I'll take full advantage of that，then.<br> ,,vc_10140100011_006_01
 
 asynccharareaction,chara_1,Hop,1,STOP
 
@@ -95,9 +95,9 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Exclamation,STOP
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,ピコ,あ、見てください！　ここに謎のノートが置いてあります！<br>もしや、極秘資料なのではっ！？,,vc_10140100011_007_01
+message,ピコ,Oh! Check it out everyone! There's a mysterious notebook right here!<br>Could this be... top secret documents!?<br> ,,vc_10140100011_007_01
 
-message,<user>,いや、ただの日誌だが……
+message,<user>,It's just my diary...<br> 
 
 asyncseplay,setag1_7,se4800011,0,1,CONT
 
@@ -107,9 +107,9 @@ asynccharaemo,chara_1,ExclaQues,STOP
 asynccharareaction,chara_1,Hop,1,STOP
 
 asynccharaface,chara_1,FaceAnger,STOP
-message,ピコ,ややっ！　向こうにはボロボロになった使途不明の道具がっ！<br>あれこそは、大穴から発掘された古代文明の遺物っ！？,,vc_10140100011_008_01
+message,ピコ,Whoa! Over there — a beat-up tool of unknown purpose!<br>Could THAT be an ancient relic dug up from the Abyss!?<br> ,,vc_10140100011_008_01
 
-message,<user>,日頃から使っている探索道具だ。<br>たしかにだいぶくたびれてはいるな。
+message,<user>,Those are my exploration tools I use every day.<br>Admittedly they've seen better days.<br> 
 
 charaface,chara_1,FaceSurprise
 
@@ -119,9 +119,9 @@ asyncseplay,setag1_8,se4800017,0,1,CONT
 
 asynccharareaction,chara_1,Shake,1,STOP
 asynccharaemo,chara_1,Shock,STOP
-message,ピコ,ぎゃーっ！？<br>こんなところに動物の骨がーっ！？,,vc_10140100011_009_01
+message,ピコ,Yaaaaahh!?<br>There are animal BONES in here!?<br> ,,vc_10140100011_009_01
 
-message,<user>,すまん、昼に食ったもも肉の残骸だ。
+message,<user>,My apologies，that's the remains of the drumstick I had for lunch.<br> 
 
 asyncseplay,setag1_9,se4800016,0,1,CONT
 
@@ -129,25 +129,25 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,BePeevish,STOP
 
 charaface,chara_1,FaceAnger
-message,ピコ,もー、しれーかんの部屋、つまんない！<br>楽しそうなものが全然ない！,,vc_10140100011_010_01
+message,ピコ,Ugh，Commander's room is so BORING~!<br>There's absolutely nothing fun in here!<br> ,,vc_10140100011_010_01
 
 asynccharareaction,chara_1,Hop,1,STOP
 
 asynccharaface,chara_1,FaceSad,STOP,3.5
-message,ピコ,これじゃあ、撮れ高が全然稼げないじゃん！<br>なんでもいいからネタになるようなもの見せてよ！,,vc_10140100011_011_01
+message,ピコ,This is terrible footage value — there's nothing worth recording!<br>Show me something interesting，anything!<br> ,,vc_10140100011_011_01
 
-message,<user>,そんなこと言われてもな……
+message,<user>,That's a bit much to ask of me...<br> 
 
 asynccharareaction,chara_1,nod,1,STOP
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
-message,ピコ,その椅子とか、しれーかん専用の特別製だったりしない？<br>ゲーミングチェアみたいに座り心地が抜群にいいとか。,,vc_10140100011_012_01
+message,ピコ,Is that chair maybe a custom-made Commander exclusive?<br>Like，insane comfort — like a gaming chair?<br> ,,vc_10140100011_012_01
 
-message,<user>,これは普通の椅子だと思うが……<br>そのゲーミングチェアっていうのはどんな椅子なんだ？
+message,<user>,I believe it's just a normal chair...<br>What exactly is this 'gaming chair'?<br> 
 
 charaface,chara_1,FaceFun
-message,ピコ,ゲームするとき専用の椅子だよ。<br>ぼくの部屋にもあるんだけど、とっても柔らかくて、座り心地が最高なんだ。,,vc_10140100011_013_01
+message,ピコ,It's a chair specifically for gaming.<br>I've got one in my room — super soft，with the best seating comfort.<br> ,,vc_10140100011_013_01
 
 asynccharareaction,chara_1,nod,1,STOP
 
@@ -157,13 +157,13 @@ asynccharaface,chara_1,FaceNormal,STOP
 asyncseplay,setag1_10,se4800002,0,1,CONT
 
 asynccharaemo,chara_1,Heart,STOP
-message,ピコ,全身が包み込まれる感じで、それに座ってると、<br>何時間でもゲームに集中できるんだよ。,,vc_10140100011_014_01
+message,ピコ,It kind of wraps around your whole body，and when you sit in it，<br>you can focus on gaming for hours.<br> ,,vc_10140100011_014_01
 
-message,<user>,全身が包み込まれる、か……よくわからないが……
+message,<user>,Your whole body wrapped in... I can't quite picture it，but...<br> 
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,ピコ,んと、つまり、こんな感じで座って――,,vc_10140100011_015_01
+message,ピコ,Umm，basically，it feels like sitting like this——<br> ,,vc_10140100011_015_01
 
 window,off
 wait,0.15
@@ -185,25 +185,25 @@ asyncseplay,setag1_11,se4401001,0,1,CONT
 
 asynccharareaction,chara_1,nod,1,STOP
 window,on,0.15
-message,,ピコは、突然膝の上に座りこんでくると、そのまま身体を預けてきた。
+message,,Pico suddenly plopped herself down onto his lap and leaned her whole<br>body into him.<br> 
 
-message,<user>,お、おい……！？
+message,<user>,H-hey...!?<br> 
 
 asynccharaface,chara_1,EyeClose,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,ピコ,ほら、こうすれば全身が支えられるでしょ？<br>この感触がいいんだよねー。,,vc_10140100011_016_01
+message,ピコ,See? Your whole body gets supported like this~.<br>That's the feeling I'm talking about~.<br> ,,vc_10140100011_016_01
 
-message,,背中から頭までもたれかけてくるピコ。<br>さらに深く座ろうとして、お尻をグリグリと股間に押しつけてくる。
+message,,Pico leaned back into him，from her back up to her head.<br>Trying to sink in deeper，she ground her hips against his crotch.<br> 
 
 charaface,chara_1,FaceFun
-message,ピコ,あ、しれーかんの太ももの座り心地もなかなか悪くないね。<br>結構柔らかくて……柔らかく、て……,,vc_10140100011_017_01
+message,ピコ,Oh，Commander's thighs are actually not bad to sit on~.<br>Pretty soft... soft，ly...<br> ,,vc_10140100011_017_01
 
 asynccharareaction,chara_1,shake,1,STOP
 
 charaface,chara_1,FaceSurprise
-message,ピコ,はっ！？　なんか硬いの当たってる！？,,vc_10140100011_018_01
+message,ピコ,Huh!? Something hard is pressing against me!?<br> ,,vc_10140100011_018_01
 
-message,<user>,……気づいてしまったか。
+message,<user>,...So you noticed.<br> 
 
 asyncseplay,setag1_12,se4800012,0,1,CONT
 
@@ -211,12 +211,12 @@ charaface,chara_1,FaceShy
 
 asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
-message,ピコ,ね、ねぇ……これってさ……しれーかんの……だよね……？<br>な、なんでこんなふうに……おっきくなってんの……？,,vc_10140100011_019_01
+message,ピコ,H-hey... this is... Commander's... right...?<br>W-why is it... so big...<br> ,,vc_10140100011_019_01
 
-message,<user>,……ずっと仕事してたからな。<br>疲れていると、こうなりやすいんだ。
+message,<user>,...I've been at work for a long stretch.<br>When you're tired，it can just... happen.<br> 
 
 charaface,chara_1,FaceSad
-message,ピコ,う、嘘だよ……男の人って、えっちな気持ちになったときに大きくなるって<br>ネットに書いてあったもん……！,,vc_10140100011_020_01
+message,ピコ,N-no... I read online that guys get like that when they're<br>feeling... that kind of way...!<br> ,,vc_10140100011_020_01
 
 asyncseplay,setag1_13,se4800002,0,1,CONT
 
@@ -225,25 +225,25 @@ asynccharaemo,chara_1,Heart,STOP
 asynccharareaction,chara_1,shake,0.5,STOP
 
 charaface,chara_1,FaceUnique02
-message,ピコ,しれーかん……今、えっちな気持ちになってるんでしょ……？,,vc_10140100011_021_01
+message,ピコ,Commander... you're feeling that way right now... aren't you...?<br> ,,vc_10140100011_021_01
 
-message,,誤魔化そうと思ったが、ピコにもそれなりに知識はあるようだ。
+message,,He'd wanted to play it off，but Pico clearly knew more about these<br>things than he'd given her credit for.<br> 
 
-message,<user>,さっきから、ピコがグイグイとお尻を当ててるからだよ！<br>そのせいで反応してるだけだ！
+message,<user>,Because you've been grinding yourself against me this whole time!<br>This is just my body reacting — that's all it is!<br> 
 
 charaface,chara_1,FaceUnique01
-message,ピコ,ふぅん……そうなんだ……つまり、しれーかんは、<br>ピコにゃんに対してえっちな気持ちになっちゃってるんだ……？,,vc_10140100011_022_01
+message,ピコ,Hmmm... is that so... so what you're saying is，Commander，<br>you've gone and gotten that way because of Pikonyan...?<br> ,,vc_10140100011_022_01
 
-message,<user>,だから、違うって言ってるだろ！<br>これは条件反射的なものでだな……
+message,<user>,That's not what I said!<br>This is purely a reflexive response and——<br> 
 
 asyncseplay,setag1_14,se4800002,0,1,CONT
 
 asynccharaemo,chara_1,Heart,STOP
 
 charaface,chara_1,FaceSad
-message,ピコ,……ぼくはいいよ……<br>しれーかんとえっちなことしても……,,vc_10140100011_023_01
+message,ピコ,...I don't mind...<br>doing that kind of thing with Commander...<br> ,,vc_10140100011_023_01
 
-message,<user>,は……！？　
+message,<user>,Wh...!?<br> 
 
 asyncseplay,setag1_15,se4800012,0,1,CONT
 
@@ -251,9 +251,9 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
 charaface,chara_1,FaceShy
-message,ピコ,だ、だから……ぼくは……<br>しれーかんとならえっちな関係になってもいいって……,,vc_10140100011_024_01
+message,ピコ,I-I mean it... I...<br>with Commander... that kind of relationship would be okay...<br> ,,vc_10140100011_024_01
 
-message,,頬を紅潮させながら、こちらを振り向き見上げるピコ。<br>その視線を受けて、自分の中で何かがプツンと切れる音がした。
+message,,Pico turned and looked up at him，cheeks flushed red.<br>The moment their eyes met，something inside him snapped.<br> 
 
 labeljump,b
 

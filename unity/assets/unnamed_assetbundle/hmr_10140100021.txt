@@ -20,7 +20,7 @@ subimage,UI/BG/Novel/abg18200a,subimage_1,0,CHARA,1,FRONT
 scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 
 seplay,seopening_tag,se5030001
-title,風俗の起源、娼館いってみた！
+title,The Origins of the Sex Trade — I Visited a Brothel!
 
 wait,1
 
@@ -39,44 +39,44 @@ asyncseplay,setag1_1,se4800009,0,1,CONT
 
 asynccharaemo,chara_2,Question,STOP
 window,on,0.15
-message,ルディア,娼館で働く様子を撮影したい……？,,vc_10140100021_001_01
+message,ルディア,You want to film the inside workings of a brothel...?<br> ,,vc_10140100021_001_01
 
 charaface,chara_1,FaceAnger
 
 charaface,chara_1,FaceHappy
 
 asynccharareaction,chara_1,Hop,1,STOP
-message,ピコ,うん、そのために、ルディアさんの許可がほしいんだっ！,,vc_10140100021_002_01
+message,ピコ,Yeah! That's exactly why I need your permission，Ludia-san!<br> ,,vc_10140100021_002_01
 
 charaface,chara_1,FaceFun
 
 asynccharareaction,chara_1,nod,1,STOP
-message,ピコ,ぼくのチャンネル、刺激的な内容が一番再生数伸びるからさ。<br>娼婦さんの体験レポとか、建物の中の紹介とか、バズると思うんだよね。,,vc_10140100021_003_01
+message,ピコ,My channel gets the most view count from provocative stuff~.<br>A brothel experience report，building tour — bound to go viral.<br> ,,vc_10140100021_003_01
 
 charaface,chara_1,FaceHappy
 
 asyncseplay,setag1_2,se4800003,0,1,CONT
 
 asynccharaemo,chara_1,Twinkle,STOP
-message,ピコ,タイトルもズバリ、『【風俗の起源】娼館いってみた！』とか、どうかな？<br>これ絶対バズるの間違いないよ！,,vc_10140100021_004_01
+message,ピコ,The title? '[The Origins of the Sex Trade] I Visited a Brothel!'<br>This is absolutely guaranteed to go viral!<br> ,,vc_10140100021_004_01
 
 asyncseplay,setag1_3,se4800009,0,1,CONT
 
 asynccharareaction,chara_2,shake,0.5,STOP
 
 asynccharaemo,chara_2,Question,STOP
-message,ルディア,バズ……？　う～ん、よくわからないけど……<br>要するに、その撮影のために、ピコさんは娼館で働きたいのよね？,,vc_10140100021_005_01
+message,ルディア,'Go viral'...? Hmm，I'm not quite sure what that means...<br>But essentially，you want to work here to film it，is that right?<br> ,,vc_10140100021_005_01
 
 charaface,chara_1,FaceSad
 
 asynccharareaction,chara_1,Nod,0.5,STOP
-message,ピコ,ま、まぁね……<br>とりあえず、一日体験みたいな感じでやらせてもらえたらなと……,,vc_10140100021_006_01
+message,ピコ,W-well，kind of...<br>If you'd let me do a one-day trial，that'd be perfect...<br> ,,vc_10140100021_006_01
 
 asynccharareaction,chara_2,nod,1,STOP
 
 charaface,chara_2,EyeClose
 charaface,chara_2,FaceNormal
-message,ルディア,ふぅん……？<br>クンクン……なんだか匂うわね。,,vc_10140100021_007_01
+message,ルディア,Hmm...?<br>Sniff，sniff... I smell something interesting.<br> ,,vc_10140100021_007_01
 
 charaface,chara_1,FaceSurprise
 
@@ -84,12 +84,12 @@ asyncseplay,setag1_4,se4800011,0,1,CONT
 
 asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,ExclaQues,STOP
-message,ピコ,え……匂うって？,,vc_10140100021_008_01
+message,ピコ,Huh... smell what?<br> ,,vc_10140100021_008_01
 
 charapose,chara_2,2
 
 asynccharaface,chara_2,FaceUnique03,STOP
-message,ルディア,ピコさんから匂ってくるの。<br>恋をしている女の子の匂いが♪,,vc_10140100021_009_01
+message,ルディア,It's coming from you，Pico-san.<br>The scent of a girl in love♪<br> ,,vc_10140100021_009_01
 
 asynccharaface,chara_1,FaceShy,STOP
 
@@ -98,19 +98,19 @@ asyncseplay,setag1_5,se4800007,0,1,CONT
 asynccharaemo,chara_1,Panic,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
-message,ピコ,え……は……？<br>恋をしてる……ぼ、ぼくが！？　はぁぁぁっ！？,,vc_10140100021_010_01
+message,ピコ,Huh... wh...?<br>In love... m-me!? No wayyy!?<br> ,,vc_10140100021_010_01
 
 asynccharareaction,chara_2,nod,1,STOP
 
 charaface,chara_2,FaceFun
-message,ルディア,好きな人にもっと気持ちよくなってもらいたいから、<br>ここでいろいろ学びたいんでしょう？,,vc_10140100021_011_01
+message,ルディア,You want to make someone you care about feel better，don't you?<br>That's why you're here to learn，isn't it?<br> ,,vc_10140100021_011_01
 
 asyncseplay,setag1_6,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
-message,ピコ,ち、違っ……！<br>ぼくは、あくまでも自分のチャンネルのために――,,vc_10140100021_012_01
+message,ピコ,Th-that's not it...!<br>I'm here purely for my channel——<br> ,,vc_10140100021_012_01
 
 charapose,chara_2,1
 
@@ -122,7 +122,7 @@ asynccharareaction,chara_2,Nod,1,STOP
 asynccharaemo,chara_2,Laugh,STOP
 
 charaface,chara_2,FaceUnique03
-message,ルディア,細かいことはわからないけど、そういうことなら協力するわ♪<br>とりあえず、衣装を着替えましょ♪,,vc_10140100021_013_01
+message,ルディア,I don't need all the details，but if that's the case，I'll help♪<br>First things first — let's get you into a costume♪<br> ,,vc_10140100021_013_01
 
 asyncseplay,setag1_8,se4800007,0,1,CONT
 
@@ -131,7 +131,7 @@ asynccharaemo,chara_1,Panic,STOP
 asynccharaface,chara_1,FaceSurprise,STOP
 
 asynccharareaction,chara_1,Jump,1,STOP
-message,ピコ,あっ、ぼ、ぼくの話きいてる！？<br>ちょ、ちょっと待っ――,,vc_10140100021_014_01
+message,ピコ,H-hey，are you even listening to me!?<br>W-wait a——<br> ,,vc_10140100021_014_01
 
 
 window,off
@@ -158,7 +158,7 @@ asynccharareaction,chara_2,nod,1,STOP
 
 charaface,chara_2,FaceFun
 window,on,0.15
-message,ルディア,あら～、よく似合ってるわ～♪<br>可愛いわよ、ピコさん♪,,vc_10140100021_015_01
+message,ルディア,Oh my~，it suits you perfectly~♪<br>You look adorable，Pico-san♪<br> ,,vc_10140100021_015_01
 
 asyncseplay,setag1_10,se4800012,0,1,CONT
 
@@ -166,13 +166,13 @@ asynccharareaction,chara_3,Nod,1,STOP
 asynccharaemo,chara_3,Shy,STOP
 
 charaface,chara_3,FaceUnique02
-message,ピコ<娼館>,そ、そう……？,,vc_10140100021_016_01
+message,ピコ<娼館>,I-is that so...?<br> ,,vc_10140100021_016_01
 
 asynccharareaction,chara_1,nod,1,STOP
 
 charaface,chara_2,EyeOpen
 charaface,chara_2,FaceNormal
-message,ルディア,それじゃあ、早速お客様の相手をしてもらいたいんだけど、大丈夫？,,vc_10140100021_017_01
+message,ルディア,Now then，I'd like you to entertain a customer right away — is that<br>alright?<br> ,,vc_10140100021_017_01
 
 asyncseplay,setag1_11,se4800017,0,1,CONT
 
@@ -180,17 +180,17 @@ asynccharareaction,chara_3,Shake,1,STOP
 asynccharaemo,chara_3,Shock,STOP
 
 charaface,chara_3,FaceSurprise
-message,ピコ<娼館>,え、いきなりっ！？,,vc_10140100021_018_01
+message,ピコ<娼館>,Huh，right away!?<br> ,,vc_10140100021_018_01
 
 asynccharareaction,chara_1,nod,1,STOP
 
 charaface,chara_2,FaceSad
-message,ルディア,もちろん、あなたがイヤなら、他の子にお願いするけど？,,vc_10140100021_019_01
+message,ルディア,Of course，if you'd rather not，I can ask one of the other girls?<br> ,,vc_10140100021_019_01
 
 asynccharareaction,chara_3,shake,0.5,STOP
 
 charaface,chara_3,FaceAnger
-message,ピコ<娼館>,……ううん……やる！　だって、ぼくはそのために来たんだから……！,,vc_10140100021_020_01
+message,ピコ<娼館>,...No... I'll do it! That's why I came here in the first place...!<br> ,,vc_10140100021_020_01
 
 window,off
 bgmstop,bgmtag1_1,1
@@ -212,7 +212,7 @@ asynccharaface,chara_3,FaceNormal,STOP
 fade,In,Black,1
 
 window,on,0.15
-message,,客と共に部屋にやってきたピコは、プレイの前にスマホを取り出した。
+message,,When Pico came to the room with her client，she pulled out her phone<br>before anything else.<br> 
 
 asyncseplay,setag1_12,se4800004,0,1,CONT
 
@@ -220,20 +220,20 @@ asynccharareaction,chara_3,Nod,1,STOP
 asynccharaemo,chara_3,Laugh,STOP
 
 charaface,chara_3,FaceHappy
-message,ピコ<娼館>,ねぇ、おにーさん、撮影してもいいよね～？,,vc_10140100021_021_01
+message,ピコ<娼館>,Hey，mister，I can film this，right~?<br> ,,vc_10140100021_021_01
 
 asynccharaface,chara_3,EyeOpen,STOP
 asynccharaface,chara_3,FaceNormal,STOP
 
 asynccharareaction,chara_3,nod,1,STOP
-message,ピコ<娼館>,えっと、スマホはここでいいかな？<br>画角も……うん、大丈夫。,,vc_10140100021_022_01
+message,ピコ<娼館>,Umm，phone goes here...?<br>Angle looks good... yeah，that's fine.<br> ,,vc_10140100021_022_01
 
-message,,戸惑う客を尻目に、ピコは撮影の準備を進めていく。
+message,,While the bewildered client looked on，Pico calmly continued setting<br>up her shot.<br> 
 
 asynccharareaction,chara_1,nod,1,STOP
 
 charaface,chara_3,FaceFun
-message,ピコ<娼館>,よし……じゃ、じゃあ……始めよっか……,,vc_10140100021_023_01
+message,ピコ<娼館>,Okay... well，th-then... let's get started...<br> ,,vc_10140100021_023_01
 
 asyncseplay,setag1_13,se4800013,0,1,CONT
 
@@ -248,10 +248,10 @@ asynccharaemo,chara_3,Laugh,STOP
 asynccharareaction,chara_1,Hop,1,STOP
 
 charaface,chara_3,FaceHappy
-message,ピコ<娼館>,はいどうもー、ピコにゃんでーす♪,,vc_10140100021_024_01
+message,ピコ<娼館>,Hey everyone~! It's Pikonyan~♪<br> ,,vc_10140100021_024_01
 
 charaface,chara_3,FaceFun
-message,,突然スマホに向かって喋り始めたピコを見て、客はわけがわからず、<br>さらに戸惑ってしまう。
+message,,The client watched Pico suddenly start talking at her phone<br>and grew even more confused.<br> 
 
 asynccharareaction,chara_3,nod,1,STOP
 
@@ -261,12 +261,12 @@ asynccharareaction,chara_3,Jump,1,STOP
 asynccharaemo,chara_3,Flower,STOP
 
 charaface,chara_3,FaceHappy
-message,ピコ<娼館>,今日は、『【風俗の起源】娼館行ってみた！』ということで、<br>ピコにゃん自ら、娼館実況プレイ始めていきたいと思いまーす♪,,vc_10140100021_025_01
+message,ピコ<娼館>,Today's episode: '[The Sex Trade Origins] Visiting a Brothel!'<br>and Pikonyan herself will be doing a firsthand let's-play~♪<br> ,,vc_10140100021_025_01
 
 charaface,chara_3,FaceFun
-message,ピコ<娼館>,こちらはお相手のおにーさんです。<br>おにーさん、今日はよろしくねー！,,vc_10140100021_026_01
+message,ピコ<娼館>,This here is my client for today.<br>Mister，thanks for having me~!<br> ,,vc_10140100021_026_01
 
-message,,明るく話すピコにつられて、客はぎこちない笑みを浮かべながら、<br>スマホに向かってピースサインをしてしまう。
+message,,Swept along by Pico's cheerful energy，the client awkwardly smiled<br>and ended up throwing a peace sign at the phone.<br> 
 
 window,off
 wait,0.15
@@ -283,7 +283,7 @@ wait,0.1
 charaface,chara_3,EyeClose
 charaface,chara_3,FaceNormal
 window,on,0.15
-message,ピコ<娼館>,（おにーさん、おとなしそうな人だなぁ……あまり喋らないし……<br>おもしろトークは期待できそうにないから、ぼくがリードしないと）,,vc_10140100021_027_01
+message,ピコ<娼館>,(This guy seems pretty quiet... doesn't talk much...<br>Can't expect fun banter，so I'll have to lead this myself.)<br> ,,vc_10140100021_027_01
 
 window,off
 wait,0.15
@@ -297,7 +297,7 @@ wait,0.1
 
 charaface,chara_3,FaceFun
 window,on,0.15
-message,ピコ<娼館>,えっと……おにーさん、今日はぼくと何したい？<br>おにーさんがしたいこと、言ってみて？,,vc_10140100021_028_01
+message,ピコ<娼館>,Umm... mister，what would you like to do with me today?<br>Go ahead and tell me what you want~?<br> ,,vc_10140100021_028_01
 
 window,off
 wait,0.15
@@ -311,7 +311,7 @@ wait,0.1
 
 charaface,chara_3,FaceShy
 window,on,0.15
-message,ピコ<娼館>,（まずはキスとかかな……？<br>それとも、おっぱいを触りたいとか……）,,vc_10140100021_029_01
+message,ピコ<娼館>,(A kiss first，maybe...?<br>Or wanting to touch my chest...?)<br> ,,vc_10140100021_029_01
 
 window,off
 wait,0.15
@@ -333,9 +333,9 @@ asynccharaemo,chara_3,Panic,STOP
 
 asynccharaface,chara_3,FaceSurprise,STOP
 window,on,0.15
-message,ピコ<娼館>,え……なんでもしてくれるのかって？<br>う、うん……まぁ……できる限りのことはするけど……,,vc_10140100021_030_01
+message,ピコ<娼館>,Huh... will I do anything you want?<br>W-well... yeah... I'll do what I can，but...<br> ,,vc_10140100021_030_01
 
-message,,そんなピコに客が要望したのは、口で舐めてほしいというものだった。
+message,,What the client requested of Pico was for her to use her mouth on<br>him.<br> 
 
 window,off
 wait,0.15
@@ -354,7 +354,7 @@ asynccharaemo,chara_3,ExclaQues,STOP
 
 asynccharaface,chara_3,FaceUnique01,STOP
 window,on,0.15
-message,ピコ<娼館>,（そうきたかー！<br>おちんちんなんて舐めたことないけど……大丈夫かな？）,,vc_10140100021_031_01
+message,ピコ<娼館>,(Ah，so that's what he wants!<br>I've never done that before... can I manage this?)<br> ,,vc_10140100021_031_01
 
 asynccharaface,chara_3,FaceShy,STOP
 
@@ -374,10 +374,10 @@ asynccharaemo,chara_3,Sweat,STOP
 
 asynccharaface,chara_3,FaceUnique01,STOP
 window,on,0.15
-message,ピコ<娼館>,な、舐めるんだね……ぼくの口で……おにーさんのを……う、うん……<br>もちろん、全然おっけーだよ！,,vc_10140100021_032_01
+message,ピコ<娼館>,S-so I use my mouth on... your...<br>yeah，of course，totally fine with that!<br> ,,vc_10140100021_032_01
 
 charaface,chara_3,FaceUnique02
-message,ピコ<娼館>,えっと……じゃあ……早速はじめよー！,,vc_10140100021_033_01
+message,ピコ<娼館>,Umm... well then... let's get going!<br> ,,vc_10140100021_033_01
 
 
 labeljump,b

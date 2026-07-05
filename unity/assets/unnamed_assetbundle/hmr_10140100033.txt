@@ -16,21 +16,21 @@ asynccharareaction,chara_1,Nod,1,STOP
 
 asynccharaface,chara_1,FaceFun,STOP,3.5
 window,on,0.15
-message,ピコ,ん……今回はバッチリ撮れてるみたい。<br>よしよし、と。,,vc_10140100033_001_01
+message,ピコ,Mm... looks like this one recorded perfectly.<br>Nice，nice~.<br> ,,vc_10140100033_001_01
 
-message,<user>,なぁ……撮影した動画は配信で流すって前に言ってたよな？<br>本当にそうするのか？
+message,<user>,Hey... you said earlier you'd stream the footage you shot，right?<br>Are you actually going to do that?<br> 
 
 charaface,chara_1,FaceUnique01
-message,ピコ,んー……どうしよっかなー？,,vc_10140100033_002_01
+message,ピコ,Hmm... haven't decided yet~?<br> ,,vc_10140100033_002_01
 
 asyncseplay,setag3_1,se4800008,0,1,CONT
 
 asynccharaemo,chara_1,Sweat,STOP
 
 charaface,chara_1,FaceFun
-message,ピコ,さすがにピコにゃんのチャンネル的には、<br>ちょーっと過激すぎる気がしないでもないけど……,,vc_10140100033_003_01
+message,ピコ,Honestly even for Pikonyan's channel，<br>it might be juuust a tiny bit too extreme...<br> ,,vc_10140100033_003_01
 
-message,<user>,ちなみに配信で流すと、どうなるんだ？
+message,<user>,Just so I know — what happens if you stream it?<br> 
 
 asyncseplay,setag3_2,se4800004,0,1,CONT
 
@@ -38,16 +38,16 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Laugh,STOP
 
 charaface,chara_1,FaceHappy
-message,ピコ,そりゃあ、全世界の人たちが、<br>ピコにゃんとしれーかんの勝負をぜーんぶ見ることになるよ。,,vc_10140100033_004_01
+message,ピコ,Well，everyone in the entire world would get to watch<br>every single second of Pikonyan and Commander's match~.<br> ,,vc_10140100033_004_01
 
-message,<user>,待て待て待て！<br>さすがにそれはマズいだろ！
+message,<user>,Wait wait wait!<br>That would obviously be a problem!<br> 
 
 asyncseplay,setag3_3,se4800015,0,1,CONT
 
 asynccharaemo,chara_1,Dull,STOP
 
 charaface,chara_1,FaceSad
-message,ピコ,んー……確かに垢バンくらっちゃうかもしれないかなぁ。,,vc_10140100033_005_01
+message,ピコ,Hmm... yeah I guess I might get my account banned.<br> ,,vc_10140100033_005_01
 
 asyncseplay,setag3_4,se4800013,0,1,CONT
 
@@ -58,11 +58,11 @@ asynccharareaction,chara_1,nod,1,STOP
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
-message,ピコ,ま、しれーかんがどうしてもイヤだって言うのなら、<br>配信で流すのはやめておいてもいいけどね。,,vc_10140100033_006_01
+message,ピコ,Well，if Commander is absolutely opposed to it，<br>I could hold off on streaming it，I suppose.<br> ,,vc_10140100033_006_01
 
-message,,立ち上がり、部屋から出ていこうとするピコ。
+message,,Pico stood up and started toward the door.<br> 
 
-message,<user>,……一応聞くが、配信で流すのをやめるかわりに、<br>前線基地の誰かに見せるつもりじゃないだろうな……？
+message,<user>,...I have to ask — in place of streaming it，<br>you're not planning to show it to someone at the base，are you...?<br> 
 
 asyncseplay,setag3_5,se4800004,0,1,CONT
 
@@ -72,9 +72,9 @@ asynccharaemo,chara_1,Laugh,STOP
 asynccharareaction,chara_1,nod,1,STOP
 
 charaface,chara_1,FaceUnique01
-message,ピコ,う～ん……どうしよっかなぁ……,,vc_10140100033_007_01
+message,ピコ,Hmm... I wonder~...<br> ,,vc_10140100033_007_01
 
-message,<user>,おい！　それだけはダメだ！<br>絶対に誰にも見せるなよ！？
+message,<user>,Hey! That's absolutely off-limits!<br>Don't show it to ANYONE，okay!?<br> 
 
 asyncseplay,setag3_6,se4800013,0,1,CONT
 
@@ -84,7 +84,7 @@ asynccharaemo,chara_1,Spirits,STOP
 asynccharareaction,chara_1,Hop,1,STOP
 
 charaface,chara_1,FaceHappy
-message,ピコ,わかってるってば。<br>それじゃ、おつかれさま～♪,,vc_10140100033_008_01
+message,ピコ,I know，I know.<br>Good work today，Commander~♪<br> ,,vc_10140100033_008_01
 
 seplay,setag3_7,se4300003,0,1
 
@@ -112,22 +112,22 @@ transitionFade,Tra06,in,black,1
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
 window,on,0.15
-message,,ひとけのない路地へとやってきたピコは、<br>周囲を確認してから、密かにスマホの画面を覗く。
+message,,Pico made her way to a deserted alley，<br>checked that no one was watching，then quietly looked at her phone.<br> 
 
-message,,そこに映し出されたのは、先程の<user>との情事だった。
+message,,On screen was the footage of her encounter with %user% from just<br>moments ago.<br> 
 
 charaface,chara_1,EyeClose
 charaface,chara_1,FaceNormal
-message,ピコ,……バカだな、しれーかん……<br>こんなの、誰かに見せたりするわけないじゃん……,,vc_10140100033_009_01
+message,ピコ,...What a dummy，Commander...<br>As if I'd ever show this to anyone...<br> ,,vc_10140100033_009_01
 
 asyncseplay,setag3_8,se4800002,0,1,CONT
 
 asynccharaemo,chara_1,Heart,STOP
 
 charaface,chara_1,FaceShy
-message,ピコ,しれーかんとのことは、ぼくだけの思い出にするんだから、さ♪,,vc_10140100033_010_01
+message,ピコ,Everything with Commander is mine alone to remember，after all♪<br> ,,vc_10140100033_010_01
 
-message,,頬を赤く染めながら、スマホをポケットにしまい、<br>宿舎へと戻っていくピコだった。
+message,,Cheeks flushed red，Pico tucked her phone into her pocket<br>and made her way back to the barracks.<br> 
 
 
 window,off
