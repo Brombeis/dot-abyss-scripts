@@ -111,7 +111,7 @@ def import_csv(csv_path: Path, dry_run: bool = False) -> tuple[int, int, int]:
 
             used.add(idx)
             if not dry_run:
-                lines[idx]["en"] = en
+                lines[idx]["en"] = en.replace("\\n", "<br>")
             imported += 1
 
     if not dry_run and imported:
