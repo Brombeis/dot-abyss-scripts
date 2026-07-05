@@ -26,15 +26,15 @@ bgmplay,bgmtag1_1,bgm0036,0.75,1
 
 
 window,on,0.15
-message,,A few days after her first time with the Commander，\nKururu started<br>working at the brothel.<br> 
+message,,A few days after her first time with the Commander，<br>Kururu started working at the brothel.<br> 
 
-message,,Kururu believed that when men release their seed，they become<br>happy.\nShe wanted to increase the number of happy people at the Frontline Base，even if only a little.<br> 
+message,,Kururu believed that when men release their seed，they become happy.<br>She wanted to increase the number of happy people at the Frontline Base，even if only a little.<br> 
 
 asyncseplay,setag1_1,se4300003,0,1,CONT,0
 
 wait,0.5
 
-message,,With that pure-hearted feeling，Kururu once again opened the<br>brothel's door，\nan innocent smile on her face—<br> 
+message,,With that pure-hearted feeling，Kururu once again opened the<br>brothel's door， an innocent smile on her face—<br> 
 
 window,off
 wait,0.15
@@ -132,7 +132,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ルディア,Ah，Kururu，perfect timing.\nI hate to ask right after you've just<br>arrived，but could you spare a moment?<br> ,300301000,vc_10670100021_002_01,chara_2
+message,ルディア,Ah，Kururu，perfect timing. I hate to ask right after you've just<br>arrived，but could you spare a moment?<br> ,300301000,vc_10670100021_002_01,chara_2
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -152,7 +152,7 @@ asyncseplay,setag1_5,se4800006,0,1,CONT,0
 asynccharaemo,chara_2,Trouble,CONT,0
 
 
-message,ルディア,Take a look at that counter.\nI'd like you to attend to that<br>customer over there...<br> ,300301000,vc_10670100021_004_01,chara_2
+message,ルディア,Take a look at that counter.<br>I'd like you to attend to that customer over there...<br> ,300301000,vc_10670100021_004_01,chara_2
 
 window,off
 wait,0.15
@@ -284,7 +284,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,ルディア,He's a blacksmith，you see.\nApparently，he lost the important sword<br>he was asked to polish...<br> ,300301000,vc_10670100021_006_01,chara_2
+message,ルディア,He's a blacksmith，you see.<br>Apparently，he lost the important sword he was asked to polish...<br> ,300301000,vc_10670100021_006_01,chara_2
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -306,7 +306,7 @@ asyncseplay,setag1_9,se4800010,0,1,CONT,0
 asynccharaemo,chara_2,Exclamation,CONT,0
 
 
-message,ルディア,And what's more，the client who commissioned the work<br>is...\nCommander.<br> ,300301000,vc_10670100021_008_01,chara_2
+message,ルディア,And what's more，the client who commissioned the work is...<br>Commander.<br> ,300301000,vc_10670100021_008_01,chara_2
 
 window,off
 wait,0.15
@@ -394,7 +394,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,ルディア,Shhh! I saw him out front，looking pale and clutching his head.\nI<br>felt sorry for him and brought him inside.<br> ,300301000,vc_10670100021_010_01,chara_2
+message,ルディア,Shhh! I saw him out front，looking pale and clutching his head.<br>I felt sorry for him and brought him inside.<br> ,300301000,vc_10670100021_010_01,chara_2
 
 window,off
 wait,0.15
@@ -448,7 +448,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,クルル,Hmm... what should I do?\nShould we apologize to Master together?<br> ,106701000X,vc_10670100021_011_01,chara_1
+message,クルル,Hmm... what should I do?<br>Should we apologize to Master together?<br> ,106701000X,vc_10670100021_011_01,chara_1
 
 asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
 
@@ -457,7 +457,7 @@ asyncseplay,setag1_13,se4800010,0,1,CONT,0
 asynccharaemo,chara_2,Exclamation,CONT,0
 
 
-message,ルディア,First，though，I want you to help him get his spirits back.\nHe's so<br>upset that he's even talking about quitting the forge to take responsibility.<br> ,300301000,vc_10670100021_012_01,chara_2
+message,ルディア,First，though，I want you to help him get his spirits back. He's so<br>upset that he's even talking about quitting the forge to take responsibility.<br> ,300301000,vc_10670100021_012_01,chara_2
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -535,7 +535,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,クルル,(Feeding him lots of food is one way to cheer him up，but...\nmaybe<br>that other thing is better? For a man...)<br> ,106701000X,vc_10670100021_015_01,chara_1
+message,クルル,(Feeding him lots of food is one way to cheer him up，but...<br>maybe that other thing is better? For a man...)<br> ,106701000X,vc_10670100021_015_01,chara_1
 
 labeljump,b
 

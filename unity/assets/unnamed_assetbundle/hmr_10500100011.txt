@@ -38,7 +38,7 @@ asynccharaface,chara_1,FaceFun,STOP
 window,on,0.15
 message,ベティ,Commander，you called for me? I understand you require me to inspect<br>the safety of the underground cavern.<br> ,,vc_10500100011_001_01
 
-message,<user>,Thanks for coming，Betty. To get straight to it，I need you to check<br>the brothel's basement.\nIt seems the wall collapsed and connected to the cavern. I want you to make sure the ground is stable.<br> 
+message,<user>,Thanks for coming，Betty. To get straight to it，I need you to check<br>the brothel's basement. It seems the wall collapsed and connected to the cavern. I want you to make sure the ground is stable.<br> 
 
 asynccharareaction,chara_1,Nod,1,STOP
 
@@ -67,7 +67,7 @@ bgmplay,bgmtag1_2,bgm0027,0.75,1
 
 charashow,chara_1,0.3
 window,on,0.15
-message,,%user% and Betty carefully stepped into the cavern.\nJust as Betty<br>was about to examine the rock face，the entrance collapsed!<br> 
+message,,%user% and Betty carefully stepped into the cavern. Just as Betty<br>was about to examine the rock face，the entrance collapsed!<br> 
 
 
 
@@ -103,7 +103,7 @@ wait,0.5
 
 
 window,on,0.15
-message,,In the nick of time，%user% grabbed Betty's hand and she avoided<br>being crushed by the falling rocks.\nHowever... the path to the brothel's basement was completely blocked.<br> 
+message,,In the nick of time，%user% grabbed Betty's hand and she avoided<br>being crushed by the falling rocks. However... the path to the brothel's basement was completely blocked.<br> 
 
 asynccharareaction,chara_1,Hop,1,STOP
 
@@ -116,10 +116,10 @@ asynccharaemo,chara_1,Shy,STOP
 
 message,ベティ,Th-thank you，Commander...!<br> ,,vc_10500100011_004_01
 
-message,<user>,As long as you're not hurt，that's fine. Sorry for getting you<br>involved.\nThe staff must have noticed the collapse，so rescue should come soon.<br> 
+message,<user>,As long as you're not hurt，that's fine. Sorry for getting you<br>involved. The staff must have noticed the collapse，so rescue should come soon.<br> 
 
 asynccharaface,chara_1,FaceSad,STOP
-message,<user>,...Hm? Betty? What's wrong? You're pale as a ghost.\nNo... I see.<br>You've always been bad with confined spaces.<br> 
+message,<user>,...Hm? Betty? What's wrong? You're pale as a ghost.<br>No... I see. You've always been bad with confined spaces.<br> 
 
 
 asynccharareaction,chara_1,Shake,1,STOP
@@ -129,7 +129,7 @@ asyncseplay,setag1_6,se4800007,0,1,CONT
 asynccharaemo,chara_1,Panic,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
-message,ベティ,Y-yes...! As the Engineering Corps Captain，I am a total<br>disgrace，Commander...!\n*whimper*<br> ,,vc_10500100011_005_01
+message,ベティ,Y-yes...! As the Engineering Corps Captain，I am a total<br>disgrace，Commander...! *whimper*<br> ,,vc_10500100011_005_01
 
 
 window,off
@@ -145,7 +145,7 @@ wait,0.1
 bgmstop,bgmtag1_2,0,0
 
 window,on,0.15
-message,<user>,(This isn't going to calm down easily.\nIt'd be cruel to leave her<br>like this until rescue arrives. To calm her down—)<br> 
+message,<user>,(This isn't going to calm down easily. It'd be cruel to leave her<br>like this until rescue arrives. To calm her down—)<br> 
 
 window,off
 wait,0.15
@@ -184,7 +184,7 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,ベティ,Ah...\nCommander...?<br> ,,vc_10500100011_006_01
+message,ベティ,Ah...<br>Commander...?<br> ,,vc_10500100011_006_01
 
 message,<user>,How about this? Feeling any better?<br> 
 
@@ -206,11 +206,11 @@ asyncseplay,setag1_10,se4800009,0,1,CONT
 asynccharaemo,chara_1,Question,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
-message,ベティ,U-um... Commander.\nThere's... something hard against my stomach...<br>what is this...<br> ,,vc_10500100011_008_01
+message,ベティ,U-um... Commander.<br>There's... something hard against my stomach... what is this...<br> ,,vc_10500100011_008_01
 
 message,<user>,Ah... well，this is... I'm sorry. Actually，I came here today to visit<br>a Courtesan，but when I heard about the cavern，I put that on hold.<br> 
 
-message,<user>,In that state，with a cute girl like you pressed up against<br>me...\nEven if it's just a biological reaction，I'm sorry.<br> 
+message,<user>,In that state，with a cute girl like you pressed up against me...<br>Even if it's just a biological reaction，I'm sorry.<br> 
 
 
 asyncseplay,setag1_11,se4800017,0,1,CONT

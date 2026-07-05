@@ -35,10 +35,10 @@ charaface,chara_1,FaceSurprise
 
 
 charashow,chara_1,0.3
-message,フェイリン,Master...? Ah，wh-where am I!?\nI remember thinking it was nice<br>weather and going for a walk... and then my memory just...<br> ,,vc_10510100011_001_01
+message,フェイリン,Master...? Ah，wh-where am I!? I remember thinking it was nice<br>weather and going for a walk... and then my memory just...<br> ,,vc_10510100011_001_01
 
 
-message,<user>,You don't remember? You collapsed in front of the brothel.\nI found<br>you and carried you in here.<br> 
+message,<user>,You don't remember? You collapsed in front of the brothel.<br>I found you and carried you in here.<br> 
 
 asyncshake,CHARA,chara_1,20,0,0.5,2,off,off,0,off,CONT,0
 
@@ -47,17 +47,17 @@ asyncseplay,setag1_2,se4800007,0,1,CONT
 asynccharaemo,chara_1,Panic,CONT
 
 charaface,chara_1,FaceSad
-message,フェイリン,I see... I'm so sorry for causing you trouble...\nI was out for a<br>stroll，and suddenly my body went weak and I felt dizzy...<br> ,,vc_10510100011_002_01
+message,フェイリン,I see... I'm so sorry for causing you trouble... I was out for a<br>stroll，and suddenly my body went weak and I felt dizzy...<br> ,,vc_10510100011_002_01
 
 message,<user>,Are Jiangshi even supposed to be out walking in the daytime?<br> 
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
-message,フェイリン,Well，technically I'm a dead body，so I do try to avoid direct<br>sunlight.\nBut it was such a beautiful day，I just...<br> ,,vc_10510100011_003_01
+message,フェイリン,Well，technically I'm a dead body，so I do try to avoid direct<br>sunlight. But it was such a beautiful day，I just...<br> ,,vc_10510100011_003_01
 
-message,<user>,""Just""... That's way too careless.\nHmm，just as I suspected... looks<br>like you got too much sun and collapsed.<br> 
+message,<user>,""Just""... That's way too careless. Hmm，just as I suspected... looks<br>like you got too much sun and collapsed.<br> 
 
-message,<user>,When a Jiangshi is overexposed to sunlight，they lose vital<br>energy，become dizzy and lightheaded，\nand in some cases，can even fall into a critical unconscious state... I see.<br> 
+message,<user>,When a Jiangshi is overexposed to sunlight，they lose vital<br>energy，become dizzy and lightheaded， and in some cases，can even fall into a critical unconscious state... I see.<br> 
 
 
 asyncseplay,setag1_3,se4800009,0,1,CONT
@@ -68,7 +68,7 @@ charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
 message,フェイリン,Master，what's that book you're reading...?<br> ,,vc_10510100011_004_01
 
-message,<user>,Ah. A Jiangshi's body is special，after all.\nI've been collecting<br>books about Jiangshi to learn more about them.<br> 
+message,<user>,Ah. A Jiangshi's body is special，after all.<br>I've been collecting books about Jiangshi to learn more about them.<br> 
 
 asyncseplay,setag1_4,se4800002,0,1,CONT
 
@@ -87,14 +87,14 @@ charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
 message,フェイリン,Alchemy (Comedic)...<br> ,,vc_10510100011_006_01
 
-message,<user>,Let's see... treatment for a Jiangshi whose vital energy is depleted<br>from too much sun...\nAh，here it is! The ""Spirit Infusion Technique，"" huh? The procedure is...<br> 
+message,<user>,Let's see... treatment for a Jiangshi whose vital energy is depleted<br>from too much sun... Ah，here it is! The ""Spirit Infusion Technique，"" huh? The procedure is...<br> 
 
 message,<user>,...<br> 
 
 charaface,chara_1,FaceSurprise
 message,フェイリン,Master? Is something wrong?<br> ,,vc_10510100011_007_01
 
-message,<user>,Ah，no... I found a way to help you recover，but... it might be a bit<br>of a drastic treatment.\nIf you're not okay with it，we'll forget it. What do you say?<br> 
+message,<user>,Ah，no... I found a way to help you recover，but... it might be a bit<br>of a drastic treatment. If you're not okay with it，we'll forget it. What do you say?<br> 
 
 charahide,chara_1,0.5
 
@@ -107,7 +107,7 @@ asyncseplay,setag1_6,se4800003,0,1,CONT
 asynccharaemo,chara_1,Twinkle,CONT
 
 charaface,chara_1,FaceFun
-message,フェイリン,Please. I want to keep being useful to you，Master.\nFor that，I have<br>to get better，no matter what it takes.<br> ,,vc_10510100011_008_01
+message,フェイリン,Please. I want to keep being useful to you，Master.<br>For that，I have to get better，no matter what it takes.<br> ,,vc_10510100011_008_01
 
 message,<user>,...I understand. I'll give it my all to match that determination of<br>yours.<br> 
 

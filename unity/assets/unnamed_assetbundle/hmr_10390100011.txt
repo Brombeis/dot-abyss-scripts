@@ -43,14 +43,14 @@ asynccharaemo,chara_2,Speak,STOP
 
 asynccharareaction,chara_2,Nod,1,STOP
 window,on,0.15
-message,若い女性,Ahh，I'm so glad I consulted you，Sister Margaret!\nThank you so much!<br> ,,vc_10390100011_001_01
+message,若い女性,Ahh，I'm so glad I consulted you，Sister Margaret!<br>Thank you so much!<br> ,,vc_10390100011_001_01
 
 asyncseplay,setag1_2,se4800022,0,1,CONT
 
 asynccharaemo,chara_3,Speak,STOP
 
 asynccharareaction,chara_3,Nod,1,STOP
-message,若い男性,You said it! It feels like a lie that I was so hung up on<br>details...\nI need to live more openly! Ah，God，save me!<br> 
+message,若い男性,You said it! It feels like a lie that I was so hung up on details...<br>I need to live more openly! Ah，God，save me!<br> 
 
 asyncseplay,setag1_3,se4800003,0,1,CONT
 
@@ -60,7 +60,7 @@ asynccharareaction,chara_1,Nod,1,STOP
 
 asynccharaface,chara_1,EyeClose,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,マーガレット,As long as you remain devout，God will never abandon you.\nMay you<br>live in peace of heart.<br> ,,vc_10390100011_002_01
+message,マーガレット,As long as you remain devout，God will never abandon you.<br>May you live in peace of heart.<br> ,,vc_10390100011_002_01
 
 
 window,off
@@ -88,7 +88,7 @@ asynccharaemo,chara_1,Dull,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
 window,on,0.15
-message,,After finishing the consultations，Margaret saw the visitors off with<br>a smile.\nBut once alone，a troubled expression appeared on her face，unbeknownst to anyone.<br> 
+message,,After finishing the consultations，Margaret saw the visitors off with<br>a smile. But once alone，a troubled expression appeared on her face，unbeknownst to anyone.<br> 
 
 window,off
 wait,0.15
@@ -109,7 +109,7 @@ asynccharaemo,chara_1,Sweat,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
 window,on,0.15
-message,マーガレット,(...Those people are satisfied with my answers.\nBut surely some<br>others...)<br> ,,vc_10390100011_003_01
+message,マーガレット,(...Those people are satisfied with my answers.<br>But surely some others...)<br> ,,vc_10390100011_003_01
 
 window,off
 wait,0.15
@@ -122,7 +122,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,Yo，Margaret.\nStill as popular as ever，huh.<br> 
+message,<user>,Yo，Margaret.<br>Still as popular as ever，huh.<br> 
 
 asynccharareaction,chara_1,Nod,1,STOP
 
@@ -131,9 +131,9 @@ asyncseplay,setag1_6,se4800022,0,1,CONT
 asynccharaemo,chara_1,Speak,STOP
 
 asynccharaface,chara_1,FaceHappy,STOP
-message,マーガレット,Commander! You came to see me.\nDo you need to discuss something?<br> ,,vc_10390100011_004_01
+message,マーガレット,Commander! You came to see me.<br>Do you need to discuss something?<br> ,,vc_10390100011_004_01
 
-message,<user>,Nah，I just came to check on things.\nVisitors keep coming as always.<br>Seems like most of them come for you rather than to pray to God，though.<br> 
+message,<user>,Nah，I just came to check on things. Visitors keep coming as always.<br>Seems like most of them come for you rather than to pray to God，though.<br> 
 
 asynccharareaction,chara_1,Shake,1,STOP
 
@@ -142,9 +142,9 @@ asyncseplay,setag1_7,se4800007,0,1,CONT
 asynccharaemo,chara_1,Panic,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
-message,マーガレット,Um，if you don't mind，could I ask you to listen to my<br>concerns...?\nDo you have a moment?<br> ,,vc_10390100011_005_01
+message,マーガレット,Um，if you don't mind，could I ask you to listen to my concerns...?<br>Do you have a moment?<br> ,,vc_10390100011_005_01
 
-message,<user>,Margaret has worries?\nAh，if it's something I can handle，I'm all<br>ears.<br> 
+message,<user>,Margaret has worries?<br>Ah，if it's something I can handle，I'm all ears.<br> 
 
 asynccharareaction,chara_1,Nod,1,STOP
 
@@ -155,7 +155,7 @@ asynccharaemo,chara_1,Twinkle,STOP
 asynccharaface,chara_1,FaceHappy,STOP
 
 asynccharaface,chara_1,FaceSad,STOP,2
-message,マーガレット,Thank you.\nActually...<br> ,,vc_10390100011_006_01
+message,マーガレット,Thank you.<br>Actually...<br> ,,vc_10390100011_006_01
 
 window,off
 wait,0.15
@@ -170,7 +170,7 @@ transitionFade,Tra09,in,black,1
 
 
 window,on,0.15
-message,<user>,Oh?\nSo you're troubled because you've been getting many<br>consultations about intimate matters lately?<br> 
+message,<user>,Oh? So you're troubled because you've been getting many<br>consultations about intimate matters lately?<br> 
 
 asyncseplay,setag1_9,se4800008,0,1,CONT
 
@@ -179,7 +179,7 @@ asynccharaemo,chara_1,Sweat,STOP
 asynccharaface,chara_1,FaceSad,STOP
 
 asynccharareaction,chara_1,Nod,1,STOP
-message,マーガレット,Yes. I've been receiving more consultations and confessions<br>concerning acts between married couples and lovers...\nBut there's nothing wrong with having these concerns. Coming to me or God for counsel is a sacred act.<br> ,,vc_10390100011_007_01
+message,マーガレット,Yes. I've been receiving more consultations and confessions<br>concerning acts between married couples and lovers... But there's nothing wrong with having these concerns. Coming to me or God for counsel is a sacred act.<br> ,,vc_10390100011_007_01
 
 asyncseplay,setag1_10,se4800012,0,1,CONT
 
@@ -189,9 +189,9 @@ asynccharaemo,chara_1,Shy,STOP
 asynccharaface,chara_1,FaceShy,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
-message,マーガレット,The problem lies with me...\nThat is，I have no experience with such<br>matters...<br> ,,vc_10390100011_008_01
+message,マーガレット,The problem lies with me...<br>That is，I have no experience with such matters...<br> ,,vc_10390100011_008_01
 
-message,<user>,I see. So that's the problem.\nThat's a tough one. And you're a<br>sister，so...<br> 
+message,<user>,I see. So that's the problem.<br>That's a tough one. And you're a sister，so...<br> 
 
 asyncseplay,setag1_11,se4800008,0,1,CONT
 
@@ -202,7 +202,7 @@ asynccharaface,chara_1,FaceSad,STOP
 asynccharareaction,chara_1,Shake,1,STOP
 message,マーガレット,I'm not confident that I，without experience，can give truly<br>convincing responses...<br> ,,vc_10390100011_009_01
 
-message,<user>,But aren't clergy forbidden from such acts?\n...I'd think there's no<br>way to gain experience.<br> 
+message,<user>,But aren't clergy forbidden from such acts?<br>...I'd think there's no way to gain experience.<br> 
 
 asyncseplay,setag1_12,se4800022,0,1,CONT
 
@@ -210,7 +210,7 @@ asynccharaemo,chara_1,Speak,STOP
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,マーガレット,Ah，no. We sisters are only forbidden to marry;\nthe act itself is<br>not prohibited.<br> ,,vc_10390100011_010_01
+message,マーガレット,Ah，no. We sisters are only forbidden to marry;<br>the act itself is not prohibited.<br> ,,vc_10390100011_010_01
 
 message,<user>,Huh? Is that so?<br> 
 
@@ -221,7 +221,7 @@ asynccharaemo,chara_1,Panic,STOP
 asynccharaface,chara_1,FaceSad,STOP
 
 asynccharareaction,chara_1,Nod,1,STOP
-message,マーガレット,Yes. However，if one does engage in the act，\none must confess<br>honestly before God...<br> ,,vc_10390100011_011_01
+message,マーガレット,Yes. However，if one does engage in the act，<br>one must confess honestly before God...<br> ,,vc_10390100011_011_01
 
 message,<user>,I see. So it's as simple as confessing honestly before God... Then<br>I've got a clever plan. Can you trust me and come with me?<br> 
 

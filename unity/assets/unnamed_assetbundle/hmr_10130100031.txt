@@ -132,7 +132,7 @@ charafocusonall
 asyncseplay,setag1_6,SE_DUMMY,0,1,CONT,0
 
 window,on,0.15
-message,,*splash...* *gurgle!*\n*gurgle，gurgle，gurgle，gurgle!*<br> 
+message,,*splash...* *gurgle!*<br>*gurgle，gurgle，gurgle，gurgle!*<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -143,7 +143,7 @@ asyncseplay,setag1_7,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,フレデリカ,W-what...!\nTh-this...!<br> ,101301000G,vc_10130100031_003_01,chara_1
+message,フレデリカ,W-what...!<br>Th-this...!<br> ,101301000G,vc_10130100031_003_01,chara_1
 
 
 
@@ -169,9 +169,9 @@ emodelete,chara_1,0,0
 fade,In,Black,1
 
 window,on,0.15
-message,<user>,Ugh... I just felt a chill down my spine...!\nI have a bad<br>feeling... I hope it's just my imagination...<br> 
+message,<user>,Ugh... I just felt a chill down my spine...!<br>I have a bad feeling... I hope it's just my imagination...<br> 
 
-message,<user>,Still，that Frederica，is she going to skip the meeting again?\nShe's<br>probably just absorbed in her experiments again...<br> 
+message,<user>,Still，that Frederica，is she going to skip the meeting again?<br>She's probably just absorbed in her experiments again...<br> 
 
 message,<user>,This time，I really have to give her a piece of my mind. If she won't<br>come，I'll go to her myself!<br> 
 
@@ -195,11 +195,11 @@ asyncseplay,setag1_8,se4300002,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,<user>,Frederica! You're in there，right?\nHey--<br> 
+message,<user>,Frederica! You're in there，right?<br>Hey--<br> 
 
 message,フレデリカ,Hyaaaaaa...!<br> ,101301000G,vc_10130100031_004_01,
 
-message,<user>,A scream...?!\nFrederica! I'm coming in!<br> 
+message,<user>,A scream...?!<br>Frederica! I'm coming in!<br> 
 
 
 
@@ -218,7 +218,7 @@ transitionCrossFade,Tra21,1
 wait,1
 
 window,on,0.15
-message,<user>,Frederica!\nAre you okay!?<br> 
+message,<user>,Frederica!<br>Are you okay!?<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -243,7 +243,7 @@ message,<user>,Fre-- whaaaaa!<br>
 
 message,,When I burst into the room，I saw Frederica pinned down by something<br>with the same body and face as me.<br> 
 
-message,<user>,W-what is that!?\nWhy is there another me there--<br> 
+message,<user>,W-what is that!?<br>Why is there another me there--<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
