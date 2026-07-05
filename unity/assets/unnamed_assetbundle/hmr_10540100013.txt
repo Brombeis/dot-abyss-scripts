@@ -26,9 +26,9 @@ asynccharaemo,chara_1,Heart,STOP
 
 charashow,chara_1,0.3
 window,on,0.15
-message,フレイヤ,なんとなくですが、<br>ショーカンって場所で強くなれる理由が分かった気がします……,,vc_10540100013_001_01
+message,フレイヤ,I'm not really sure，but I feel like I understand why Shokan can help<br>me get stronger now.<br> ,,vc_10540100013_001_01
 
-message,,着衣を済ませたフレイヤが、そうポツリと呟く。
+message,,Having finished dressing，Freya muttered that quietly.<br> 
 
 asyncseplay,setag3_2,se4800018,0,1,CONT
 
@@ -36,9 +36,9 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Flower,STOP
 
 asynccharaface,chara_1,FaceHappy,STOP
-message,フレイヤ,きっと、こういう経験を通じて、精神や感性が磨かれるのかなって……。<br>それって、剣術においてすごく大切な部分ですから。,,vc_10540100013_002_01
+message,フレイヤ,I think experiences like this sharpen my spirit and senses... and<br>that's a crucial part of swordsmanship.<br> ,,vc_10540100013_002_01
 
-message,<user>,なるほど。それは一理あるかもしれないな。
+message,<user>,I see. That makes sense.<br> 
 
 asynccharareaction,chara_1,Jump,1,STOP
 
@@ -48,13 +48,13 @@ asynccharaemo,chara_1,Elated,STOP
 
 asynccharaface,chara_1,EyeClose,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,フレイヤ,わたし、ショーカンでの修行、<br>やっぱり受けてみようと思います。,,vc_10540100013_003_01
+message,フレイヤ,I think I'll train at Shokan after all.<br> ,,vc_10540100013_003_01
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,,フレイヤの目は真剣だ。
+message,,Freya's eyes were serious.<br> 
 
-message,<user>,止めても無駄だろうしな。<br>フレイヤの思うままに行動すればいいと思うよ、俺は。
+message,<user>,It's not like I could stop you. I think you should do what you want.<br> 
 
 asyncseplay,setag3_4,se4800022,0,1,CONT
 
@@ -63,9 +63,9 @@ asynccharaemo,chara_1,Speak,STOP
 asynccharareaction,chara_1,Hop,1,STOP
 
 asynccharaface,chara_1,FaceFun,STOP
-message,フレイヤ,ありがとうございます！　いっぱい修行して、<br>ちょっと触っただけでしれいかんをイカせちゃうような達人になってみせます！,,vc_10540100013_004_01
+message,フレイヤ,Thank you! I'll train hard and become a master who can make the<br>Commander come with just the slightest touch!<br> ,,vc_10540100013_004_01
 
-message,<user>,ちょっと触っただけで！？　ははっ、それはとんでもない達人技だな。<br>楽しみにしているよ。
+message,<user>,With just the slightest touch，you can make me come!? Ahaha，that's<br>some incredible master technique! I'm looking forward to it.<br> 
 
 
 asynccharaface,chara_1,FaceHappy,STOP,0
@@ -84,7 +84,7 @@ wait,0.5
 
 
 
-message,フレイヤ,はい！　覚悟してくださいよ～♪<br>わたし、すっごく強くなってきますから！,,vc_10540100013_005_01
+message,フレイヤ,Yes，get ready!♪ I'm going to get super strong and come back!<br> ,,vc_10540100013_005_01
 
 
 

@@ -22,7 +22,7 @@ charaface,chara_1,FaceFun
 
 asynccharareaction,chara_1,Nod,1,CONT
 window,on,0.15
-message,エティア,ありがとうございました、ルディアさん。<br>魔法の首輪、お返ししますね。,,vc_10120100013_001_01
+message,エティア,Thank you very much，Ludia. I'll return the Magic Collar now.<br> ,,vc_10120100013_001_01
 
 asyncskipwait
 
@@ -46,7 +46,7 @@ asyncseplay,setag3_2,se4800013,0,1,CONT
 asynccharareaction,chara_2,Jump,1,CONT
 asynccharaemo,chara_2,Spirits,CONT
 window,on,0.15
-message,ルディア,その様子だと、うまくいったみたいね。,,vc_10120100013_002_01
+message,ルディア,Judging by your expression，it seems it went well.<br> ,,vc_10120100013_002_01
 
 asyncskipwait
 
@@ -55,7 +55,7 @@ charaface,chara_1,FaceShy
 asyncseplay,setag3_3,se4800002,0,1,CONT
 
 asynccharaemo,chara_1,Heart,STOP
-message,エティア,え……あ、はい……とりあえず、まぁ……,,vc_10120100013_003_01
+message,エティア,Huh?... Oh，yes... For now，well...<br> ,,vc_10120100013_003_01
 
 charaface,chara_2,FaceFun
 
@@ -66,7 +66,7 @@ asynccharaemo,chara_2,Laugh,STOP,2
 
 asynccharaface,chara_2,EyeOpen,STOP,2
 asynccharaface,chara_2,FaceNormal,STOP,2
-message,ルディア,ふぅん？　良かったじゃない。<br>じゃあ、その首輪、記念にあなたにあげるわ。,,vc_10120100013_004_01
+message,ルディア,Hmm? That's good，isn't it? Then，I'll give you that collar as a<br>keepsake.<br> ,,vc_10120100013_004_01
 
 charaface,chara_1,FaceSurprise
 
@@ -76,7 +76,7 @@ asynccharaemo,chara_1,Question,STOP
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,エティア,え？　で、でも……,,vc_10120100013_005_01
+message,エティア,Huh? B-but...<br> ,,vc_10120100013_005_01
 
 charaface,chara_2,FaceHappy
 
@@ -84,7 +84,7 @@ asyncseplay,setag3_6,se4800004,0,1,CONT
 
 asynccharareaction,chara_2,Nod,1,STOP
 asynccharaemo,chara_2,Laugh,STOP
-message,ルディア,いいのよ。<br>本当は、なんの魔法の効果もない、ただの首輪だもの。,,vc_10120100013_006_01
+message,ルディア,It's fine. Actually，it's just an ordinary collar with no magical<br>effect at all.<br> ,,vc_10120100013_006_01
 
 charaface,chara_1,FaceSurprise
 
@@ -93,7 +93,7 @@ asyncseplay,setag3_7,se4800011,0,1,CONT
 asynccharaemo,chara_1,ExclaQues,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
-message,エティア,え……えええええ～～～～～っ！？,,vc_10120100013_007_01
+message,エティア,Eeeeeeh!<br> ,,vc_10120100013_007_01
 
 charaface,chara_1,FaceUnique02
 
@@ -101,9 +101,9 @@ asyncseplay,setag3_8,se4800012,0,1,CONT
 
 asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
-message,エティア,ただの首輪って……そ、そんな……じゃ、じゃあ、わたしは……<br>なんで、あんな大胆なことを……！？,,vc_10120100013_008_01
+message,エティア,Just an ordinary collar... th-that... then... I... Why did I do<br>something so bold...?<br> ,,vc_10120100013_008_01
 
-message,<user>,……やっぱりそういうことだったか。
+message,<user>,...So that's how it was，after all.<br> 
 
 charaface,chara_1,FaceSurprise
 
@@ -113,15 +113,15 @@ asynccharareaction,chara_1,Shake,1,STOP
 asynccharaemo,chara_1,Shock,STOP
 
 asyncshake,CHARA,chara_1,20,15,0.5,6,on,off,0,off,STOP
-message,エティア,ご、ご主人様……！？<br>もしかして……ご主人様は、気づいていたんですか……！？,,vc_10120100013_009_01
+message,エティア,M-Master...! Could it be... you already knew，Master...?<br> ,,vc_10120100013_009_01
 
-message,<user>,薄々そんな気はしていたんだ。<br>首輪からは、なんの魔力も感じなかったからな。
+message,<user>,I had a feeling. I couldn't sense any magic power from the collar.<br> 
 
 charaface,chara_2,EyeOpen
 charaface,chara_2,FaceNormal
 
 asynccharareaction,chara_2,Nod,0.5,STOP
-message,ルディア,あなたは自分の気持ちに素直に行動しただけよ。<br>私は首輪を使って、その背中を押してあげたにすぎないわ。,,vc_10120100013_010_01
+message,ルディア,You just acted on your true feelings. I only used the collar to give<br>you a little push.<br> ,,vc_10120100013_010_01
 
 charaface,chara_2,FaceUnique03
 
@@ -129,14 +129,14 @@ asyncseplay,setag3_10,se4800013,0,1,CONT
 
 asynccharareaction,chara_2,Jump,1,STOP
 asynccharaemo,chara_2,Spirits,STOP
-message,ルディア,あなたが大胆に動けたのなら、<br>あなたは元々そういう女の子だったってことね。,,vc_10120100013_011_01
+message,ルディア,If you could act so boldly，it means you were that kind of girl from<br>the start.<br> ,,vc_10120100013_011_01
 
 charaface,chara_1,FaceUnique02
 
 asyncseplay,setag3_11,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,STOP
-message,エティア,そ、それじゃあ……わたしは、元から……<br>あ、あんなにエッチな子だったってことですか……！？,,vc_10120100013_012_01
+message,エティア,Th-then... does that mean... I've always been... such a naughty<br>girl...?<br> ,,vc_10120100013_012_01
 
 charaface,chara_2,FaceSurprise
 
@@ -145,9 +145,9 @@ asyncseplay,setag3_12,se4800014,0,1,CONT
 asynccharaemo,chara_2,Silence,STOP
 
 asynccharaface,chara_2,FaceUnique03,STOP,2
-message,ルディア,エッチな子って……ああ、なるほどね。<br>大胆なことって、そういうことしちゃったわけね♪,,vc_10120100013_013_01
+message,ルディア,A naughty girl... Ah，I see. So ""bold things"" means you did that kind<br>of thing，huh!♪<br> ,,vc_10120100013_013_01
 
-message,<user>,ま、そういうことだ。
+message,<user>,Well，that's how it is.<br> 
 
 window,off
 wait,0.15
@@ -173,7 +173,7 @@ asynccharareaction,chara_1,Shake,1,CONT
 
 asynccharaface,chara_1,FaceSurprise,CONT
 window,on,0.15
-message,エティア,う……ううううう～～～～～っ！？<br>も、もうっ、知りませ～～～～～んっ！！,,vc_10120100013_014_01
+message,エティア,*whimper*... *whimper*! G-geez，I don't knooooow!<br> ,,vc_10120100013_014_01
 
 asyncskipwait
 

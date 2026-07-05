@@ -19,9 +19,9 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 
 charashow,chara_1,0.3
 window,on,0.15
-message,,行為を終えたあと、ヘイリーは青年と話をしていた。
+message,,After they finished，Hayley was talking with the young man.<br> 
 
-message,青年,……ありがとうございました。
+message,青年,...Thank you very much.<br> 
 
 
 asynccharareaction,chara_1,Nod,1,STOP
@@ -31,11 +31,11 @@ asyncseplay,setag3_1,se4800019,0,1,CONT
 asynccharaemo,chara_1,Elated,STOP
 
 asynccharaface,chara_1,FaceFun,STOP
-message,ヘイリー,礼には及ばぬ。其方が力を見せたまでだ。<br>我がおこなったのは、ただ<ruby=ラビリンス>迷路</>の中で道を示したに過ぎない。,,vc_10420100023_001_01
+message,ヘイリー,I need no thanks. Your power spoke for itself. I merely showed you<br>the way through the labyrinth.<br> ,,vc_10420100023_001_01
 
-message,青年,……ははは。確かに、親切に誘導してもらいました。
+message,青年,...Ahaha. Indeed，you guided me very kindly.<br> 
 
-message,青年,あと、感じているときのヘイリーさんの声がすごく可愛くて……<br>その姿に興奮して最後までイクことができました。
+message,青年,Also，your voice when you were feeling pleasure was really cute... I<br>was so turned on by the sight of you that I could come all the way.<br> 
 
 window,off
 wait,0.15
@@ -73,7 +73,7 @@ asynccharaemo,chara_1,ExclaQues,STOP
 
 asynccharaface,chara_1,FaceUnique01,STOP
 window,on,0.15
-message,ヘイリー,（ええっ！？　素のわたくしの姿に興奮したってこと！？<br>そ、そんなの……は、恥ずかしすぎる……）,,vc_10420100023_002_01
+message,ヘイリー,(Ee! He got excited by my natural self! Th-that's too<br>embarrassing...)<br> ,,vc_10420100023_002_01
 
 window,off
 bgmstop,bgmtag3_1,1
@@ -110,14 +110,14 @@ asynccharaemo,chara_3,Speak,STOP
 
 asynccharaface,chara_3,FaceHappy,STOP
 window,on,0.15
-message,ルディア,うまくいったみたいね。<br>やっぱり貴女は面倒見のいいコだって信じてたわ。,,vc_10420100023_003_01
+message,ルディア,Looks like it went well. I always knew you were a caring girl.<br> ,,vc_10420100023_003_01
 
 asyncseplay,setag3_4,se4800019,0,1,CONT
 
 asynccharaemo,chara_1,Elated,STOP
 
 asynccharaface,chara_1,FaceFun,STOP
-message,ヘイリー,ふふ、<ruby=ダークネス>暗黒の力</>に侵されし我が心に<br>一条の光を授けてくれたのは――我が主のおかげだ。,,vc_10420100023_004_01
+message,ヘイリー,Fufu. It is thanks to my master that a single ray of light was<br>granted to my heart，which had been corrupted by Darkness.<br> ,,vc_10420100023_004_01
 
 asyncseplay,setag3_5,se4800004,0,1,CONT
 
@@ -125,7 +125,7 @@ asynccharareaction,chara_3,Nod,1,STOP
 asynccharaemo,chara_3,Laugh,STOP
 
 asynccharaface,chara_3,FaceFun,STOP
-message,ルディア,フフフ。それって、司令官君のことね？,,vc_10420100023_005_01
+message,ルディア,Fufufu. You're talking about Commander，aren't you?<br> ,,vc_10420100023_005_01
 
 asynccharareaction,chara_1,Shake,1,STOP
 
@@ -135,7 +135,7 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
 asynccharaface,chara_1,FaceUnique02,STOP
-message,ヘイリー,あ、え、えっと、そ、それは……その……,,vc_10420100023_006_01
+message,ヘイリー,Ah，uh，um，w-well，that is... well...<br> ,,vc_10420100023_006_01
 
 asynccharareaction,chara_3,Nod,1,STOP
 
@@ -145,7 +145,7 @@ asynccharareaction,chara_3,Jump,1,STOP
 asynccharaemo,chara_3,Spirits,STOP
 
 asynccharaface,chara_3,FaceHappy,STOP
-message,ルディア,いいのよ、隠さなくったって♪<br>あなたのそういう素直で分かりやすいトコ、私はすごく好きよ。,,vc_10420100023_007_01
+message,ルディア,It's all right，you don't have to hide it!♪ I really like that honest<br>and straightforward side of you.<br> ,,vc_10420100023_007_01
 
 window,off
 wait,0.15
@@ -164,7 +164,7 @@ asynccharaemo,chara_1,Shy,STOP
 
 asynccharaface,chara_1,FaceShy,STOP
 window,on,0.15
-message,ヘイリー,（す、素直……か）,,vc_10420100023_008_01
+message,ヘイリー,(H-honest... huh...)<br> ,,vc_10420100023_008_01
 
 window,off
 wait,0.15
@@ -182,7 +182,7 @@ asynccharaemo,chara_1,Panic,STOP
 
 asynccharaface,chara_1,FaceUnique02,STOP
 window,on,0.15
-message,ヘイリー,あの……今日は……お、お仕事、これで終了で大丈夫ですか？<br>わたくし、ちょっと会いたい人がいて……,,vc_10420100023_009_01
+message,ヘイリー,Um... for today... is it all right if I finish work here? I have<br>someone I want to meet...<br> ,,vc_10420100023_009_01
 
 asynccharareaction,chara_3,Nod,1,STOP
 
@@ -191,7 +191,7 @@ asyncseplay,setag3_10,se4800022,0,1,CONT
 asynccharaemo,chara_3,Speak,STOP
 
 asynccharaface,chara_3,FaceFun,STOP
-message,ルディア,いいわよ。行ってらっしゃい♪,,vc_10420100023_010_01
+message,ルディア,Sure，go ahead!♪<br> ,,vc_10420100023_010_01
 
 window,off
 bgmstop,bgmtag3_2,1
@@ -212,7 +212,7 @@ bgmplay,bgmtag3_3,bgm0025,1
 asyncseplay,setag3_11,se4030021,0,1,CONT
 
 window,on,0.15
-message,,衣装を着替え、娼館を後にしたヘイリーは司令本部へと駆け出した。
+message,,After changing her clothes and leaving the brothel，Hayley dashed to<br>the Command HQ.<br> 
 
 sestop,setag3_11,1
 
@@ -253,7 +253,7 @@ asyncseplay,setag3_12,se4800014,0,1,CONT
 asynccharaemo,chara_2,Silence,STOP
 
 window,on,0.15
-message,ヘイリー<通常>,素直な自分……か……,,vc_10420100023_011_01,2/chara_2
+message,ヘイリー<通常>,My honest self... huh...<br> ,,vc_10420100023_011_01,2/chara_2
 
 window,off
 wait,0.15
@@ -271,7 +271,7 @@ wait,0.1
 asynccharaface,chara_2,EyeOpen,STOP
 asynccharaface,chara_2,FaceNormal,STOP
 window,on,0.15
-message,ヘイリー<通常>,（今日の青年は、わたくしの素の姿に興奮したと言っていた……<br>だから最後までイケたって……）,,vc_10420100023_012_01,2/chara_2
+message,ヘイリー<通常>,(The young man today said that my natural appearance excited him...<br>and that's why he could finish.)<br> ,,vc_10420100023_012_01,2/chara_2
 
 
 asyncseplay,setag3_13,se4800012,0,1,CONT
@@ -280,7 +280,7 @@ asynccharareaction,chara_2,Nod,1,STOP
 asynccharaemo,chara_2,Shy,STOP
 
 asynccharaface,chara_2,FaceShy,STOP
-message,ヘイリー<通常>,（そういえば、<user>様も、<br>素の姿で乱れてしまったわたくしを見て喜んでいたような……）,,vc_10420100023_013_01,2/chara_2
+message,ヘイリー<通常>,(Come to think of it，Master %user% also seemed delighted when he saw<br>me losing control in my natural form...)<br> ,,vc_10420100023_013_01,2/chara_2
 
 window,off
 wait,0.15
@@ -301,7 +301,7 @@ asynccharaemo,chara_2,Flower,STOP
 
 asynccharaface,chara_2,FaceFun,STOP
 window,on,0.15
-message,ヘイリー<通常>,今日会う時は、最初から素のわたくしのままで、会ってみようかな……？<br><user>様は、どっちのわたくしが好きなんだろう……,,vc_10420100023_014_01,2/chara_2
+message,ヘイリー<通常>,(Maybe when I meet him today，I should be my natural self from the<br>start? I wonder which me Master prefers...)<br> ,,vc_10420100023_014_01,2/chara_2
 
 
 asyncseplay,setag3_15,se4800002,0,1,CONT
@@ -309,7 +309,7 @@ asyncseplay,setag3_15,se4800002,0,1,CONT
 asynccharaemo,chara_2,Heart,STOP
 
 asynccharaface,chara_2,FaceHappy,STOP
-message,ヘイリー<通常>,き、きっと、どっちのわたくしの姿も受け入れてくれるはず……。<br>うん……<user>様なら、きっと……,,vc_10420100023_015_01,2/chara_2
+message,ヘイリー<通常>,(S-surely，he'll accept both versions of me... Yeah... Master will...<br>I'm sure...)<br> ,,vc_10420100023_015_01,2/chara_2
 
 
 window,off

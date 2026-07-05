@@ -23,7 +23,7 @@ bgmplay,bgmtag1_1,bgm0035,0.75,1
 
 
 window,on,0.15
-message,,Hours had passed since summoning Frederica.<br>Just as patience was wearing thin——<br> 
+message,,A few hours had passed since I called Frederica to talk. I had lost<br>my patience with her for not showing up—<br> 
 
 window,off
 wait,0.15
@@ -62,7 +62,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 window,on,0.15
 message,フレデリカ,Commander!<br> ,101301000G,vc_10130100011_001_01,chara_1
 
-message,,Frederica finally appeared，<br>looking unusually excited.<br> 
+message,,When Frederica finally appeared，she seemed oddly excited.<br> 
 
 window,off
 wait,0.15
@@ -98,7 +98,7 @@ wait,1
 wait,0.5
 
 window,on,0.15
-message,<user>,You're late，Frederica.<br>It's been hours since I called you——<br> 
+message,<user>,You're late，Frederica. How many hours has it been since I called<br>you—<br> 
 
 window,off
 wait,0.15
@@ -117,7 +117,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,フレデリカ,That doesn't matter right now!<br>More importantly，drink this!<br> ,101301000G,vc_10130100011_002_01,chara_1
+message,フレデリカ,That doesn't matter! More importantly，drink this!<br> ,101301000G,vc_10130100011_002_01,chara_1
 
 window,off
 wait,0.15
@@ -127,9 +127,9 @@ charafocusonall
 linework,off,Black,Middle
 
 window,on,0.15
-message,,Thrust before him was a small glass vial<br>filled with a suspicious liquid.<br> 
+message,,What she thrust in front of me was a suspicious-looking liquid in a<br>small glass bottle.<br> 
 
-message,<user>,What on earth is——<br> 
+message,<user>,What is this—<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -140,9 +140,9 @@ asyncseplay,setag1_4,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,フレデリカ,Just hurry up!<br>Drink it already!<br> ,101301000G,vc_10130100011_003_01,chara_1
+message,フレデリカ,Just drink it! Hurry up and drink it!<br> ,101301000G,vc_10130100011_003_01,chara_1
 
-message,,Overwhelmed by her insistence，<br>the liquid was reluctantly gulped down.<br> 
+message,,Defeated by her forceful persistence，I downed the liquid.<br> 
 
 window,off
 wait,0.15
@@ -153,7 +153,7 @@ shake,BACK,,20,0,0.25,30,off,off,0
 shake,CHARA,chara_1,20,0,0.25,30,off,off,0
 
 window,on,0.15
-message,<user>,Ugh... so nasty... what is this stuff?<br> 
+message,<user>,Uggh... that's gross... what the hell is this?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -164,7 +164,7 @@ asyncseplay,setag1_5,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,フレデリカ,I've finally succeeded in creating the Elixir<br>of Immortality! Now you're immortal!<br> ,101301000G,vc_10130100011_004_01,chara_1
+message,フレデリカ,I've finally succeeded in developing the Elixir of Immortality! With<br>this，you're immortal!<br> ,101301000G,vc_10130100011_004_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -175,9 +175,9 @@ asyncseplay,setag1_6,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,フレデリカ,Well? Do you feel any changes in your body?<br> ,101301000G,vc_10130100011_005_01,chara_1
+message,フレデリカ,So? Any changes in your body?<br> ,101301000G,vc_10130100011_005_01,chara_1
 
-message,<user>,...No，nothing at all.<br>Maybe it was a failure?<br> 
+message,<user>,Not really. It's a failure，isn't it?<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -190,7 +190,7 @@ asynccharaemo,chara_1,Anger,CONT,0
 
 message,フレデリカ,That can't be!<br> ,101301000G,vc_10130100011_006_01,chara_1
 
-message,<user>,Even if you say that... Anyway，I called you here<br>about secretly using base funds for experiments——<br> 
+message,<user>,Even so... Anyway，I called you here today because you've been<br>secretly using the Frontline Base's budget for your weird experiments—<br> 
 
 window,off
 wait,0.15
@@ -214,7 +214,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(...Hm? What's this... my body feels strangely<br>hot... especially around my crotch...)<br> 
+message,<user>,(...Huh? What's this... my body's getting hot... especially down<br>there... it's heating up fast...)<br> 
 
 window,off
 wait,0.15
@@ -238,11 +238,11 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,フレデリカ,Oh? What's wrong，Commander?<br>I knew it，your body is reacting，isn't it?<br> ,101301000G,vc_10130100011_007_01,chara_1
+message,フレデリカ,Oh? What's wrong，Commander? So there IS a change in your body，huh?<br> ,101301000G,vc_10130100011_007_01,chara_1
 
-message,<user>,...Yeah... it seems so... hff...<br>Take a look... right here... hff...<br> 
+message,<user>,...Yeah... looks like it... *huff*... look at this... *sigh*...<br> 
 
-message,,Before he knew it，a prominent tent had formed<br>at his crotch，which he showed to Frederica.<br> 
+message,,I showed Frederica the tent in my pants，which had become rock hard<br>without me noticing.<br> 
 
 window,off
 wait,0.15
@@ -261,7 +261,7 @@ wait,0.5
 
 
 window,on,0.15
-message,フレデリカ,O-oh... y-you certainly look，um... vigorous...<br>And that breathing... like a monkey in heat...<br> ,101301000G,vc_10130100011_008_01,chara_1
+message,フレデリカ,O-oh... th-that's... quite... throbbing，huh... and your breathing is<br>rough... just like a monkey in heat...<br> ,101301000G,vc_10130100011_008_01,chara_1
 
 window,off
 wait,0.15
@@ -287,7 +287,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,フレデリカ,(Could it be that the elixir's life-enhancing<br>effects only triggered his sex drive...?)<br> ,101301000G,vc_10130100011_009_01,chara_1
+message,フレデリカ,(Maybe the elixir's life-enhancing effect only targeted the sex<br>drive...?)<br> ,101301000G,vc_10130100011_009_01,chara_1
 
 window,off
 wait,0.15
@@ -304,7 +304,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,Hff... hfff... Frederica... as I was saying...<br>you need to be punished for misusing the budget...!<br> 
+message,<user>,*pant*，*pant*... Frederica... as I was about to say earlier... I'm<br>going to punish you for using the base's budget without permission... *huff*!<br> 
 
 window,off
 wait,0.15
@@ -344,7 +344,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,フレデリカ,Huh... wait，hold o——<br> ,101301000G,vc_10130100011_010_01,chara_1
+message,フレデリカ,Eh... no，wai—<br> ,101301000G,vc_10130100011_010_01,chara_1
 
 
 window,off
@@ -373,7 +373,7 @@ asyncseplay,setag1_12,se4402002,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,フレデリカ,Stoooooop!?<br> ,101301000G,vc_10130100011_011_01,
+message,フレデリカ,Stoooop it!<br> ,101301000G,vc_10130100011_011_01,
 
 labeljump,b
 

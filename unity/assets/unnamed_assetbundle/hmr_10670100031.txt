@@ -23,7 +23,7 @@ bgmplay,bgmtag1_1,bgm0036,0.75,1
 
 
 window,on,0.15
-message,,今日は前線基地の食料確保のため、<br>クルルを連れて森にキノコの採集にきていた。
+message,,Today，I came to the forest with Kururu to gather mushrooms to secure<br>food supplies for the Frontline Base.<br> 
 
 window,off
 wait,0.15
@@ -72,9 +72,9 @@ asynccharaemo,chara_1,Speak,STOP,3.25
 
 
 window,on,0.15
-message,クルル,クンクン……スンスンスン……<br>あっ！　ご主人さま、あったよ！,106701000G,vc_10670100031_001_01,chara_1
+message,クルル,Sniff，sniff... Snuffle，snuffle... Ah! Master，I found some!<br> ,106701000G,vc_10670100031_001_01,chara_1
 
-message,<user>,でかした、クルル！<br>さすがの嗅覚だな！
+message,<user>,Nice work，Kururu! That's your keen sense of smell for you!<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -85,7 +85,7 @@ asyncseplay,setag1_3,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,クルル,えっへん！,106701000G,vc_10670100031_002_01,chara_1
+message,クルル,Ehehe!<br> ,106701000G,vc_10670100031_002_01,chara_1
 
 window,off
 wait,0.15
@@ -108,9 +108,9 @@ charaface,chara_1,FaceNormal
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,,クルルの鋭い嗅覚のおかげで、採集は大成功。<br>大量のキノコを収穫することができた。
+message,,Thanks to Kururu's keen sense of smell，the mushroom gathering was a<br>great success，and we harvested a large quantity.<br> 
 
-message,<user>,これだけあれば十分だろう。<br>戻る前に、少し休憩するか。
+message,<user>,This should be enough. Let's take a short rest before we head back.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -121,7 +121,7 @@ asyncseplay,setag1_4,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,クルル,うん！<br>あ、ご主人さま、みて！　シカだよ！,106701000G,vc_10670100031_003_01,chara_1
+message,クルル,Yeah! Ah，Master，look! Deer!<br> ,106701000G,vc_10670100031_003_01,chara_1
 
 window,off
 wait,0.15
@@ -147,9 +147,9 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,,突然目の前にシカの親子が現れた。
+message,,Suddenly，a deer and its fawn appeared right before our eyes.<br> 
 
-message,,警戒させないように息を殺して見守ったが、親がこちらに気づくと、<br>すぐに子を促して逃げてしまった。
+message,,I held my breath and watched carefully so as not to startle them，but<br>the moment the parent noticed us，it quickly urged its young away and they fled.<br> 
 
 window,off
 wait,0.15
@@ -177,7 +177,7 @@ asynccharascale,chara_1,1.3,0,CONT,0
 asynccharashowalpha,chara_1,1,0.3,CONT,0
 
 window,on,0.15
-message,<user>,行っちまったか……別に獲って食べるつもりはなかったんだがな。
+message,<user>,And they're gone... Not that I was planning to catch and eat them or<br>anything.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -188,9 +188,9 @@ asyncseplay,setag1_5,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,クルル,子どもと一緒だったんだもん。<br>そりゃ、ケーカイするのも無理ないよ～。,106701000G,vc_10670100031_004_01,chara_1
+message,クルル,It had its baby with it，after all. No wonder it was being cautious!<br> ,106701000G,vc_10670100031_004_01,chara_1
 
-message,<user>,なるほど、親子だったもんな。
+message,<user>,Right，they were a parent and child.<br> 
 
 window,off
 wait,0.15
@@ -209,9 +209,9 @@ wait,0.5
 
 
 window,on,0.15
-message,クルル,……あのシカ、おとーさんかな？<br>それともおかーさんなのかな？,106701000G,vc_10670100031_005_01,chara_1
+message,クルル,... That deer，I wonder if it was the Papa or the Mama?<br> ,106701000G,vc_10670100031_005_01,chara_1
 
-message,<user>,さぁな。<br>……どうしてそんなことが気になるんだ？
+message,<user>,Beats me... What makes you so curious about that?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -222,11 +222,11 @@ asyncseplay,setag1_7,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,クルル,クルルね……パパの顔も、ママの顔もおぼえてないんだ……<br>だから、なんとなく気になっちゃって……,106701000G,vc_10670100031_006_01,chara_1
+message,クルル,I don't remember my Papa's face or my Mama's face... So that's why<br>I'm curious...<br> ,106701000G,vc_10670100031_006_01,chara_1
 
-message,<user>,親の記憶、か……ま、俺もクルルと同じようなもんだ。<br>物心ついた頃には、家族はバラバラになって……
+message,<user>,Memories of your parents，huh... Well，I'm pretty much the same as<br>you，Kururu. By the time I was old enough to remember，my family had already fallen apart...<br> 
 
-message,<user>,………………
+message,<user>,...<br> 
 
 window,off
 wait,0.15
@@ -274,7 +274,7 @@ wait,0.5
 
 
 window,on,0.15
-message,クルル,……ちゅっ♡,106701000G,vc_10670100031_007_01,chara_1
+message,クルル,... Mwah!♡<br> ,106701000G,vc_10670100031_007_01,chara_1
 
 window,off
 wait,0.15
@@ -303,9 +303,9 @@ wait,1
 wait,0.5
 
 window,on,0.15
-message,,不意にクルルが頬にキスをしてくる。
+message,,Suddenly，Kururu kissed me on the cheek.<br> 
 
-message,<user>,んっ！？　な、なんだよ、急に？
+message,<user>,Ngh!? W-what was that for，all of a sudden?<br> 
 
 window,off
 wait,0.15
@@ -325,9 +325,9 @@ wait,0.5
 
 
 window,on,0.15
-message,クルル,だって、ご主人さまの目、さびしそうだったから……,106701000G,vc_10670100031_008_01,chara_1
+message,クルル,But Master，your eyes looked so lonely...<br> ,106701000G,vc_10670100031_008_01,chara_1
 
-message,<user>,………………そうか？
+message,<user>,...Is that so?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -338,14 +338,14 @@ asyncseplay,setag1_10,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,クルル,うん。でも……クルルはさびしくないよ？<br>パパやママがいなくても、クルルにはご主人さまがいるからねっ！,106701000G,vc_10670100031_009_01,chara_1
+message,クルル,Yeah. But I'm not lonely，you know? Even without Mama and Papa，I have<br>Master!<br> ,106701000G,vc_10670100031_009_01,chara_1
 
-message,<user>,……そうか。ありがとう。
+message,<user>,I see... Thank you.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
 
-message,<user>,俺も、クルルがそばにいてくれるから寂しくないぞ。<br>お前がいると、いつも賑やかで元気になれるからな。
+message,<user>,I'm not lonely either，because you're by my side. You always keep<br>things lively and cheer me up.<br> 
 
 window,off
 wait,0.15
@@ -395,7 +395,7 @@ asyncseplay,setag1_11,se4800002,0,1,CONT,0
 asynccharaemo,chara_1,Heart,CONT,0
 
 window,on,0.15
-message,,そう言いながらクルルの小さな身体をそっと抱き寄せる。<br>そして、その小さく薄い口元に、唇を重ねる――
+message,,As he said this，he gently pulled Kururu's small body close. Then he<br>placed his lips on her small，thin lips—<br> 
 
 labeljump,b
 

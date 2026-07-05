@@ -26,17 +26,17 @@ bgmplay,bgmtag1_1,bgm0041,0.75,1
 
 
 window,on,0.15
-message,<user>,はぁ……ひとりで書類仕事ってのは、<br>どうにも気合いが入らないな……
+message,<user>,*sigh*... doing paperwork alone really doesn't get me fired up...<br> 
 
-message,,司令室で書類を確認しながら退屈でそう呟いた、<br>そんな時だった――
+message,,I was in the command room，checking the documents，and muttered that<br>out of boredom. It was then that—<br> 
 
-message,？？？,――なら少し、相談を聞いてもらえないか？,900000001,vc_10160100011_001_01,
+message,？？？,—Then，could I talk to you about something?<br> ,900000001,vc_10160100011_001_01,
 
 shake,BACK,,40,0,0.25,20,off,off,0
 shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 shake,CHARA,chara_2,40,0,0.25,20,off,off,0
 
-message,<user>,うわああああっ！？
+message,<user>,Whaaa!<br> 
 
 window,off
 wait,0.15
@@ -67,9 +67,9 @@ transitionCrossFade,Tra16,1
 wait,1
 
 window,on,0.15
-message,,背後から聞こえた声に慌てて振り向くと、<br>平然とした顔のウィステリアがたたずんでいた。
+message,,Startled by the voice from behind，I spun around to find Wisteria<br>standing there with a composed expression.<br> 
 
-message,<user>,び、びっくりした……。<br>いつの間にそんなところにいたんだ？
+message,<user>,Y-you scared me... When did you get there?<br> 
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -78,9 +78,9 @@ asyncseplay,setag1_1,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ウィステリア,ずっと前からだ。驚かせるつもりではなかったんだが……。<br>どう声をかけたものか悩んでいてな。,101601000G,vc_10160100011_002_01,chara_1
+message,ウィステリア,I've been here for a while. I didn't mean to startle you... I just<br>wasn't sure how to get your attention.<br> ,101601000G,vc_10160100011_002_01,chara_1
 
-message,<user>,相変わらず怖い技術だな……。<br>で、何の相談なんだ？
+message,<user>,That sneaky skill of yours is still as creepy as ever... So，what did<br>you want to talk about?<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -89,7 +89,7 @@ asyncseplay,setag1_2,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ウィステリア,ああ……その……私は普段から人目につくのが苦手で、<br>あまり目立たないよう、森で過ごしていることが多いんだが……,101601000G,vc_10160100011_003_01,chara_1
+message,ウィステリア,Ah... well... I'm not good with being in the spotlight，so I often<br>keep to the forest to avoid standing out，but—<br> ,101601000G,vc_10160100011_003_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -99,7 +99,7 @@ asyncseplay,setag1_3,se4800007,0,1,CONT,0
 
 asynccharaemo,chara_1,Panic,CONT,0
 
-message,,ウィステリアは恥ずかし気に視線を逸らし、<br>ほんのりと頬を染めて言う。
+message,,Wisteria looked away shyly，her cheeks faintly reddening as she<br>spoke.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -110,9 +110,9 @@ asyncseplay,setag1_4,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ウィステリア,私がいることに気づかなかったらしく、目の前で同僚が、<br>いわゆる、あの……情事を、始めてしまったんだ。,101601000G,vc_10160100011_004_01,chara_1
+message,ウィステリア,Apparently they didn't notice I was there. Right in front of me，a<br>colleague—well，um—started... making love.<br> ,101601000G,vc_10160100011_004_01,chara_1
 
-message,<user>,隠れてるウィステリアの前でエッチを始めたのか……。<br>そりゃ驚いただろうが……ええと、何が問題なんだ？
+message,<user>,They started having sex right in front of you while you were hiding?<br>That must have been a shock，but... what's the problem?<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -123,7 +123,7 @@ asyncseplay,setag1_5,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ウィステリア,その……それ以来、だな……同僚がしていたのと同じ体勢で……、<br>私が犯される夢を、何度も何度も見るようになって……,101601000G,vc_10160100011_005_01,chara_1
+message,ウィステリア,Well... ever since then... I keep having dreams... over and over...<br>where I'm being taken in the same position as that colleague was...<br> ,101601000G,vc_10160100011_005_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -134,9 +134,9 @@ asyncseplay,setag1_6,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ウィステリア,しかもその相手が――いつも、きみなんだ。,101601000G,vc_10160100011_006_01,chara_1
+message,ウィステリア,And the person doing it is always—always you.<br> ,101601000G,vc_10160100011_006_01,chara_1
 
-message,<user>,え……え、ええ！？
+message,<user>,Huh... Wh-what!<br> 
 
 window,off
 wait,0.15
@@ -151,7 +151,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（俺とエッチする夢を、何度も見てる……？<br>強くて物静か、それでいてちょっとミステリアスな、ウィステリアが？）
+message,<user>,(She's been having dreams of having sex with me...? That<br>strong，quiet，somewhat mysterious Wisteria?)<br> 
 
 window,off
 wait,0.15
@@ -175,9 +175,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ウィステリア,多分だが……私が見たことのある男性器が、<br>きみのものしかない、というのが理由だと思うんだ……,101601000G,vc_10160100011_007_01,chara_1
+message,ウィステリア,I think it's because... the only manhood I've ever seen is yours...<br> ,101601000G,vc_10160100011_007_01,chara_1
 
-message,<user>,あー……そういえば、見られたことがあったな。
+message,<user>,Ah... now that you mention it，I was seen once.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -188,7 +188,7 @@ asyncseplay,setag1_8,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,ウィステリア,きみが見せたんだろう……！<br>あんなにじっくりと……頭に残るに決まっている！,101601000G,vc_10160100011_008_01,chara_1
+message,ウィステリア,You're the one who showed it to me! Staring at it so intently... of<br>course it would stick in my head!<br> ,101601000G,vc_10160100011_008_01,chara_1
 
 window,off
 wait,0.15
@@ -203,7 +203,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（それはつまり、ウィステリアの脳内が俺の股間でいっぱいだった、と）
+message,<user>,(So basically，Wisteria's head is full of my crotch.)<br> 
 
 window,off
 wait,0.15
@@ -218,9 +218,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,,気恥ずかしいような興奮するような、<br>複雑な気持ちに、なんだかドキドキしてしまう。
+message,,A complicated mix of embarrassment and excitement had my heart<br>pounding.<br> 
 
-message,<user>,で……その、だな……。<br>具体的に、俺にどうしてほしいんだ……？
+message,<user>,So... well，then... what exactly do you want me to do...?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -231,11 +231,11 @@ asyncseplay,setag1_9,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ウィステリア,そ、それは……その……、<br>司令官に……うぅ……,101601000G,vc_10160100011_009_01,chara_1
+message,ウィステリア,W-well... um... Commander... *whimper*...<br> ,101601000G,vc_10160100011_009_01,chara_1
 
-message,,まさか、と息を呑む。<br>夢の中で何度も犯してきた相手の元に訪れて、彼女が何を望むのか。
+message,,I gasped in disbelief. What could she want from me，the man who had<br>violated her over and over in my own dreams?<br> 
 
-message,<user>,俺に……夢で見た行為を、してほしい、のか……？
+message,<user>,You want me... to do what you saw in the dreams...?<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -246,7 +246,7 @@ asyncseplay,setag1_10,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ウィステリア,…………,101601000G,vc_10160100011_010_01,chara_1
+message,ウィステリア,...<br> ,101601000G,vc_10160100011_010_01,chara_1
 
 window,off
 wait,0.15
@@ -260,11 +260,11 @@ asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 asyncwait
 
 window,on,0.15
-message,,赤面し、言葉すら出せないウィステリアだったが、<br>それでも誤魔化すことなくしっかりと頷いた。
+message,,Blushing furiously and unable to even speak，Wisteria still nodded<br>firmly without trying to deny it.<br> 
 
-message,,彼女の真剣な表情から、<br>夢についてはかなり深刻に悩んでいるのは間違いない。
+message,,From her serious expression，it was clear that the dreams were<br>troubling her deeply.<br> 
 
-message,,改めて異性として彼女のことを見てみる。スタイルは申し分はない。<br>だが、野営暮らしで慣らしているためか、今一つ色気が足りない気もする。
+message,,I looked at her again as a woman. Her figure was perfect. But<br>perhaps because she was used to camping out in the wild，she seemed to lack a certain feminine allure.<br> 
 
 window,off
 wait,0.15
@@ -297,7 +297,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,――分かった。<br>なら……来てくれるか。
+message,<user>,I understand. Then... will you come with me?<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -305,7 +305,7 @@ asyncseplay,setag1_11,se4800009,0,1,CONT,0
 
 asynccharaemo,chara_1,Question,CONT,0
 
-message,,ふと、思いつくことがあり、ウィステリアに試してみることにした。
+message,,I suddenly had an idea and decided to try it on Wisteria.<br> 
 
 
 window,off
@@ -352,11 +352,11 @@ wait,0.5
 
 
 window,on,0.15
-message,ウィステリア,……着たぞ……これで、いいのか？,101601000X,vc_10160100011_011_01,chara_2
+message,ウィステリア,...I came wearing this... Is this okay?<br> ,101601000X,vc_10160100011_011_01,chara_2
 
-message,,こちらがより興奮できるようにと渡した娼館衣装を、<br>ウィステリアは抵抗なく着てくれた。
+message,,Without resistance，Wisteria wore that brothel outfit I gave her to<br>heighten my excitement.<br> 
 
-message,,大人の色気が醸し出された黒のドレスにガーターベルト。<br>彼女の白い肌がより際立ち、気分が昂ってくるのを感じる。
+message,,The black dress and garter belt gave her a mature，seductive allure.<br>Her pale skin stood out even more，and I felt my excitement mounting.<br> 
 
 labeljump,b
 

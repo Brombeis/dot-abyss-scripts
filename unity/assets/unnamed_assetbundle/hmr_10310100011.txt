@@ -32,13 +32,13 @@ charashow,chara_1,0.3
 
 asynccharareaction,chara_1,Hop,1,STOP
 window,on,0.15
-message,ハツネ,Hey，let me work at the brothel.<br> ,,vc_10310100011_001_01
+message,ハツネ,Oi，let me work at the brothel!<br> ,,vc_10310100011_001_01
 
 linework,off,White,Middle
 
-message,,Hatsune barged into the room and loudly demanded just that.<br> 
+message,,Hatsune burst into the room without warning，shouting her demand.<br> 
 
-message,<user>,What's this all of a sudden? Work at the brothel?<br> 
+message,<user>,What's this all of a sudden? You want to work at the brothel?<br> 
 
 asyncseplay,setag1_2,se4800016,0,1,CONT
 
@@ -47,9 +47,9 @@ asynccharaemo,chara_1,BePeevish,STOP
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,ハツネ,What's wrong with me workin' there!?<br>Kotono's doin' it too，isn't she!?<br> ,,vc_10310100011_002_01
+message,ハツネ,I've got every right to work! I heard Kotono's working there too!<br> ,,vc_10310100011_002_01
 
-message,<user>,Kotono，sure. But... it's a brothel.<br>A kid like you can't...<br> 
+message,<user>,Kotono's one thing. But a brothel? A kid like you...<br> 
 
 asyncseplay,setag1_3,se4800001,0,1,CONT
 
@@ -59,11 +59,11 @@ asynccharaemo,chara_1,Anger,STOP
 asynccharareaction,chara_1,Hop,1,STOP
 
 asynccharaface,chara_1,FaceAnger,STOP
-message,ハツネ,Who're you callin' a kid!<br>I told you，I've had my Genpuku! I'm a full-grown adult!<br> ,,vc_10310100011_003_01
+message,ハツネ,Who're you calling a kid? I told you，I've already come of age! I'm a<br>full-fledged adult!<br> ,,vc_10310100011_003_01
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,<user>,Even so...<br> 
+message,<user>,That may be，but...<br> 
 
 window,off
 wait,0.15
@@ -77,7 +77,7 @@ asynccameramove,EaseInTarget,X,0,0.5,CONT,0
 asynccameramove,EaseInTarget,Y,-100,0.5,CONT,0
 
 window,on,0.15
-message,,His gaze drifted involuntarily to Hatsune's modest chest.<br> 
+message,,My eyes involuntarily drifted to Hatsune's small chest.<br> 
 
 window,off
 wait,0.15
@@ -97,9 +97,9 @@ asynccharaemo,chara_1,Shock,STOP
 
 asynccharaface,chara_1,FaceUnique01,STOP
 window,on,0.15
-message,ハツネ,Wh... b-boobs!? Is it the boobs!? Kotono's fine 'cause hers are<br>big!? Gotta be stacked to be an adult!?<br> ,,vc_10310100011_004_01
+message,ハツネ,Wha—! I-is it my chest? Is that what this is about? Kotono has huge<br>tits，so she gets a pass?! Are you telling me I'm not a proper adult without big tits?!<br> ,,vc_10310100011_004_01
 
-message,<user>,I didn't say that.<br>But this is a business that caters to customers...<br> 
+message,<user>,That's not what I'm saying. But this is a customer service<br>business，you know...<br> 
 
 asyncseplay,setag1_5,se4800001,0,1,CONT
 
@@ -109,9 +109,9 @@ asynccharaemo,chara_1,Anger,STOP
 asynccharaface,chara_1,FaceSurprise,STOP
 
 asynccharareaction,chara_1,Hop,1,STOP
-message,ハツネ,Hey，hey，hey! That makes it sound like I've got<br>zero market value! That's way too rude!<br> ,,vc_10310100011_005_01
+message,ハツネ,Oi，oi! That makes it sound like I'm completely worthless! That's way<br>too insulting!<br> ,,vc_10310100011_005_01
 
-message,<user>,Fair enough，maybe I went too far.<br>But it's a world where figures like Kotono's are what sell...<br> 
+message,<user>,Okay，maybe I said too much. But still，in this business，women with<br>figures like Kotono are the ones who succeed...<br> 
 
 asyncseplay,setag1_6,se4800017,0,1,CONT
 
@@ -121,9 +121,9 @@ asynccharaemo,chara_1,Shock,STOP
 asynccharareaction,chara_1,Hop,1,STOP
 
 asynccharaface,chara_1,FaceAnger,STOP
-message,ハツネ,Hey，hey，heyyy! Enough with the insults already!<br>I look great with my clothes off，I'll have you know!<br> ,,vc_10310100011_006_01
+message,ハツネ,Oi，oi，oii! That's enough insults! I'm amazing when I'm undressed，you<br>know!<br> ,,vc_10310100011_006_01
 
-message,<user>,Oh? Is that so?<br> 
+message,<user>,Oh ho，is that so?<br> 
 
 asyncseplay,setag1_7,se4800016,0,1,CONT
 
@@ -134,21 +134,21 @@ asynccharaemo,chara_1,BePeevish,STOP
 asynccharareaction,chara_1,nod,1,STOP
 
 asynccharaface,chara_1,FaceAnger,STOP
-message,ハツネ,What's with that look!? You doubtin' me!?<br>Fine! Then I'll settle this right here and now!<br> ,,vc_10310100011_007_01
+message,ハツネ,What's with that look! You don't believe me? Fine then! I'll settle<br>this right here!<br> ,,vc_10310100011_007_01
 
-message,<user>,Settle it? What do you mean? I'm not dueling you.<br>I'd be at a massive disadvantage.<br> 
+message,<user>,Settle this? Settle what? If you mean a duel，I'm not fighting. The<br>odds are way against me.<br> 
 
 asynccharaface,chara_1,FaceFun,STOP
-message,ハツネ,Start the 'training' right now! I know all about it!<br>To work at the brothel，you gotta pass some kinda test，right!?<br> ,,vc_10310100011_008_01
+message,ハツネ,Start the ""training"" right now! I know about it! There's something<br>like the Commander's enlistment test to work at the brothel，right!<br> ,,vc_10310100011_008_01
 
-message,<user>,Entrance exam!? Hmm... that's not quite the right word，<br>but I am the one in charge of training，yeah.<br> 
+message,<user>,Enlistment test?! Hmm... The nuance is a bit different，but it's true<br>that I'm the one who's supposed to conduct the training.<br> 
 
 asynccharareaction,chara_1,nod,1,STOP
 
 asynccharaface,chara_1,FaceHappy,STOP
-message,ハツネ,Right! Then let's do this now!<br>See for yourself whether I've got what it takes!<br> ,,vc_10310100011_009_01
+message,ハツネ,Good! Then we'll duel right now! I'll make you see for yourself if<br>I've got a body fit for the brothel!<br> ,,vc_10310100011_009_01
 
-message,,Swept up by Hatsune's sheer momentum，<br>the training session began——<br> 
+message,,Swept along by Hatsune's momentum，I ended up conducting her<br>training.<br> 
 
 
 labeljump,b

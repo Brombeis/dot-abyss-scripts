@@ -45,11 +45,11 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,——What do you say，Commander-sama?<br>Could I have your permission to work at the brothel?<br> ,100801000G,vc_10080100011_001_01,chara_1
+message,ヴィーラ,What do you think，Lord Commander? Would you permit me to work at a<br>brothel?<br> ,100801000G,vc_10080100011_001_01,chara_1
 
-message,,The command room. Faced with Veera's serious expression，<br>%user% wore a troubled look.<br> 
+message,,In the command room，Veera wore a serious expression while the<br>Commander's face was grim.<br> 
 
-message,<user>,...Why the brothel，of all places?<br>Veera，you're not exactly the type to be into that sort of thing...?<br> 
+message,<user>,Why a brothel，of all places? You're not the type to be interested in<br>that，are you，Veera?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -60,9 +60,9 @@ asyncseplay,setag1_2,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヴィーラ,I saw that Onee-chan is working at the brothel.<br>I thought I could help her by working there too...<br> ,100801000G,vc_10080100011_002_01,chara_1
+message,ヴィーラ,I saw Sis working at the brothel. I want to work there too so I can<br>help her.<br> ,100801000G,vc_10080100011_002_01,chara_1
 
-message,<user>,Ah，so that's what this is about.<br>Hmm，this is tricky...<br> 
+message,<user>,Ah，I see. Hmm，this is a problem...<br> 
 
 window,off
 wait,0.15
@@ -77,7 +77,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(According to Verisa，Veera has zero experience with men.<br>If I give permission too easily，Verisa might burn me alive.)<br> 
+message,<user>,(According to Verisa，Veera has no experience with men at all. If I<br>give permission too easily，Verisa will burn me to a crisp.)<br> 
 
 window,off
 wait,0.15
@@ -92,7 +92,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,Just to confirm，you do know what goes on at a brothel，right?<br>You're sure you can handle the work?<br> 
+message,<user>,Let me confirm—you do know what a brothel is for，right? Can you<br>actually handle the job?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -103,7 +103,7 @@ asyncseplay,setag1_3,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヴィーラ,Yes，of course.<br>I haven't actually done it before，but I should be fine.<br> ,100801000G,vc_10080100011_003_01,chara_1
+message,ヴィーラ,Yes，of course. I haven't actually done it myself，but it should be no<br>problem.<br> ,100801000G,vc_10080100011_003_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -114,9 +114,9 @@ asyncseplay,setag1_4,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ヴィーラ,——I can handle a hug，at least.<br> ,100801000G,vc_10080100011_004_01,chara_1
+message,ヴィーラ,After all，I can at least hug.<br> ,100801000G,vc_10080100011_004_01,chara_1
 
-message,<user>,...A hug? A hug???<br>No，it doesn't stop at hugging.<br> 
+message,<user>,Hug? A hug? No，it's not just a hug.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -127,9 +127,9 @@ asyncseplay,setag1_5,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ヴィーラ,...? A brothel is a place where men and women become...<br>intimate，right? So they hug... don't they...?<br> ,100801000G,vc_10080100011_005_01,chara_1
+message,ヴィーラ,A brothel is a place where men and women become intimate，right? So<br>they just hug...?<br> ,100801000G,vc_10080100011_005_01,chara_1
 
-message,<user>,You're serious. Sheltered doesn't even begin to cover it...<br>Fine，let's go there and I'll explain in detail.<br> 
+message,<user>,Are you serious? You're so naive，so sheltered... Fine，let's head<br>over there and I'll explain in detail.<br> 
 
 
 window,off
@@ -187,7 +187,7 @@ asyncseplay,setag1_7,se4800012,0,1,CONT,0
 asynccharaemo,chara_2,Shy,CONT,0
 
 window,on,0.15
-message,,We borrowed a room and I had Veera change into the work outfit.<br>Just changing clothes was enough to turn her face bright red.<br> 
+message,,The Commander rented a room in the brothel and told Veera to change<br>into the special outfit. The mere act of changing into it made her face flush bright red，and she seemed deeply embarrassed.<br> 
 
 asynccharaface,chara_2,FaceUnique02,CONT,0
 
@@ -198,7 +198,7 @@ asyncseplay,setag1_8,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,ヴィーラ,I-is this even doing its job as clothing?<br>Hugging someone in this outfit would take quite a lot of resolve...<br> ,100801000X,vc_10080100011_006_01,chara_2
+message,ヴィーラ,T-this... can this really be considered clothing? Hugging in an<br>outfit like this... it takes some resolve，doesn't it...<br> ,100801000X,vc_10080100011_006_01,chara_2
 
 window,off
 wait,0.15
@@ -213,7 +213,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(She has no idea what's going on，yet the outfit looks incredible on<br>her. A natural sensuality that gets your heart racing... a diamond in the rough.)<br> 
+message,<user>,(She doesn't have a clue，but the outfit looks ridiculously good on<br>her. Just looking at her makes my heart pound—she has a natural sensuality... a real diamond in the rough，but...)<br> 
 
 window,off
 wait,0.15
@@ -228,7 +228,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,...I'm afraid the work here doesn't stop at hugging.<br>You kiss，and... you have sex.<br> 
+message,<user>,Sorry，but the job here isn't just hugging. They'll kiss you and have<br>sex with you.<br> 
 
 window,off
 wait,0.15
@@ -259,11 +259,11 @@ asynccharaemo,chara_2,Shock,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,S-sex...!?<br>H-here，with men... that kind of thing...!?<br> ,100801000X,vc_10080100011_007_01,chara_2
+message,ヴィーラ,S-sex?! Here，with a man... doing that...?!<br> ,100801000X,vc_10080100011_007_01,chara_2
 
-message,<user>,So you know what sex is，at least.<br>But you had absolutely no idea what a brothel does...<br> 
+message,<user>,Looks like you know about sex. But you had no idea about<br>brothels，huh.<br> 
 
-message,<user>,Look，if you're this embarrassed from just changing into something<br>skimpy， working here would be too much. You should give up on this.<br> 
+message,<user>,Well，if you get this embarrassed just from changing into something<br>skimpy，working here will be tough. You should give up on this one.<br> 
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -274,7 +274,7 @@ asyncseplay,setag1_10,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ヴィーラ,...! But，if it's for Onee-chan...<br> ,100801000X,vc_10080100011_008_01,chara_2
+message,ヴィーラ,But... for Sis's sake...<br> ,100801000X,vc_10080100011_008_01,chara_2
 
 window,off
 wait,0.15
@@ -296,7 +296,7 @@ wait,0.5
 asynccharaface,chara_2,FaceAnger,CONT,0
 
 window,on,0.15
-message,,Veera nodded firmly，resolve hardening in her eyes.<br> 
+message,,Veera nodded firmly，her eyes hardening with determination.<br> 
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -308,11 +308,11 @@ asyncseplay,setag1_12,se4800010,0,1,CONT,0
 asynccharaemo,chara_2,Exclamation,CONT,0
 
 
-message,ヴィーラ,It's true that I lack both knowledge and experience.<br>So — please teach me the work. The... sexual kind.<br> ,100801000X,vc_10080100011_009_01,chara_2
+message,ヴィーラ,It's true that I lack knowledge and experience. So... please teach<br>me the sexual side of the work.<br> ,100801000X,vc_10080100011_009_01,chara_2
 
-message,,Having said that，Veera made no attempt to hide the brothel outfit<br>she'd been so embarrassed about， nor even her body showing through the sheer fabric.<br> 
+message,,Having said that，Veera made no attempt to hide either the brothel<br>costume she had been embarrassed about or her own figure showing through the thin fabric.<br> 
 
-message,<user>,...You're serious about this.<br>If you're that determined for Verisa's sake... come here.<br> 
+message,<user>,You seem serious. If you're that determined for Verisa's sake...<br>then come here.<br> 
 
 window,off
 wait,0.15
@@ -350,7 +350,7 @@ asynccharaemo,chara_2,Shy,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,Yes... please... teach me.<br> ,100801000X,vc_10080100011_010_01,chara_2
+message,ヴィーラ,Yes... please.<br> ,100801000X,vc_10080100011_010_01,chara_2
 
 labeljump,b
 

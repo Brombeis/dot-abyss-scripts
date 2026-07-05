@@ -28,7 +28,7 @@ wait,0.5
 
 charashow,chara_1,0.3
 window,on,0.15
-message,,夜、娼館の酒場でルディアと話しているところにマニョリアがやってきた。
+message,,One night，while I was talking with Ludia at the brothel bar，Magnolia<br>arrived.<br> 
 
 asyncseplay,setag1_1,se4800002,0,1,CONT
 
@@ -36,18 +36,18 @@ asynccharaemo,chara_2,Heart,STOP
 
 charaface,chara_2,FaceHappy
 
-message,ルディア,あら。可愛らしいお客様ね。いらっしゃい♪,,vc_10240100011_001_01
+message,ルディア,Oh my. What an adorable guest. Welcome!♪<br> ,,vc_10240100011_001_01
 
 charaface,chara_2,EyeOpen
 charaface,chara_2,FaceNormal
-message,<user>,こんな時間にこんなところにどうしたんだ？
+message,<user>,What are you doing here at this hour?<br> 
 
 asyncseplay,setag1_2,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,STOP
 
 charaface,chara_1,FaceSad
-message,マニョリア,えと……あの……その……,,vc_10240100011_002_01
+message,マニョリア,Um... well... you know...<br> ,,vc_10240100011_002_01
 
 asyncseplay,setag1_3,se4800006,0,1,CONT
 
@@ -55,7 +55,7 @@ asynccharaemo,chara_1,Trouble,STOP
 
 charareaction,chara_1,Shake,0.5
 
-message,,マニョリアは、初対面のルディアに早速人見知りを発揮しているようだ。
+message,,Magnolia was already showing her shyness around Ludia，who she had<br>just met.<br> 
 
 window,off
 wait,0.15
@@ -69,7 +69,7 @@ asynccameramove,EaseInTarget,X,400,0.5,CONT,0
 asynccameramove,EaseInTarget,Y,-300,0.5,CONT,0
 
 window,on,0.15
-message,マックン[マニョリア],マニョリアはな、店先に飾ってある花の名前が知りたいんだと。,900000003
+message,マックン[マニョリア],Hey，Magnolia wants to know the name of the flowers out front.<br> ,900000003
 
 window,off
 wait,0.15
@@ -85,18 +85,18 @@ asynccameramove,EaseOutTarget,Y,0,0.5,CONT,0
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
 window,on,0.15
-message,,モジモジして答えないマニョリアのかわりに魔法植物が答えた。
+message,,In place of Magnolia，who was fidgeting and unable to answer，the<br>magical plant spoke up.<br> 
 
 asyncseplay,setag1_4,se4800009,0,1,CONT
 
 asynccharaemo,chara_2,Question,STOP
 
 charaface,chara_2,FaceSurprise
-message,ルディア,店先の……ああ、あのお花ですか。,,vc_10240100011_003_01
+message,ルディア,The ones out front... Ah，those flowers?<br> ,,vc_10240100011_003_01
 
 charaface,chara_2,EyeOpen
 charaface,chara_2,FaceNormal
-message,<user>,マニョリアが知らないってことは珍しい花なのか？
+message,<user>,If Magnolia doesn't know them，are they rare flowers?<br> 
 
 asyncseplay,setag1_5,se4800004,0,1,CONT,4.5
 
@@ -104,21 +104,21 @@ asynccharareaction,chara_2,Nod,1,STOP,4.5
 asynccharaemo,chara_2,Laugh,STOP,4.5
 
 asynccharaface,chara_2,FaceFun,STOP,4.5
-message,ルディア,ええ、ちょっと珍しいお花なんですよね。<br>そうですねぇ……ここで働いてくれるなら教えてあげてもいいですよ。,,vc_10240100011_004_01
+message,ルディア,Yes，they're a little rare. Well then... if you work here，I could<br>tell you.<br> ,,vc_10240100011_004_01
 
 charaface,chara_1,FaceSurprise
-message,,ルディアは笑いながら驚くようなことを言う。
+message,,Ludia said something surprising with a laugh.<br> 
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
-message,<user>,ちょっと待て、この子をここで働かせるつもりか？<br>こんな小さな体の子を働かせるなんていくらなんでも無茶だろう。
+message,<user>,Wait a second，you're going to make her work here? A girl this small?<br>That's ridiculous.<br> 
 
 charaface,chara_2,FaceHappy
-message,ルディア,ふふ、本人は司令官君が思うよりずっと大人よ。<br>それにきっと人気になると思うわ。,,vc_10240100011_005_01
+message,ルディア,Fufu，she's far more mature than you give her credit for，Commander.<br>And I think she'll surely become popular.<br> ,,vc_10240100011_005_01
 
 charaface,chara_2,EyeOpen
 charaface,chara_2,FaceNormal
-message,<user>,そうか？　いや、だが……
+message,<user>,Is that so? No，still...<br> 
 
 window,off
 wait,0.15
@@ -132,10 +132,10 @@ asynccameramove,EaseInTarget,X,400,0.5,CONT,0
 asynccameramove,EaseInTarget,Y,-300,0.5,CONT,0
 
 window,on,0.15
-message,マックン[マニョリア],マニョリアはよ、ここで働いたら兄ちゃんと仲良くなれるのかが<br>気になってるみたいだぜ。,900000003
+message,マックン[マニョリア],Seems like Magnolia's wondering if she'll get to be buddies with Big<br>Bro if she works here.<br> ,900000003
 
 charaface,chara_1,FaceShy
-message,<user>,俺と仲良く？
+message,<user>,Get closer to me?<br> 
 
 window,off
 wait,0.15
@@ -154,17 +154,17 @@ asynccharaemo,chara_2,Flash,STOP
 
 charaface,chara_2,FaceHappy
 window,on,0.15
-message,ルディア,うふふ、そういうことですか。,,vc_10240100011_006_01
+message,ルディア,Ufufu，so that's what this is about.<br> ,,vc_10240100011_006_01
 
 charaface,chara_2,FaceFun
-message,ルディア,ここで働いてる子たちの研修は司令官君がやってるんですよ。<br>あなたもここで働けば司令官君ともっと仲良くなれますよ～。,,vc_10240100011_007_01
+message,ルディア,The Commander handles the training for the girls who work here. So<br>if you work here，you'll be able to get even closer to him.<br> ,,vc_10240100011_007_01
 
 charaface,chara_1,FaceFun
-message,,ルディアの言葉に、気のせいかマニョリアの目が輝いた気がした。
+message,,At Ludia's words，I thought I saw Magnolia's eyes sparkle—or maybe it<br>was just my imagination.<br> 
 
 charaface,chara_2,EyeOpen
 charaface,chara_2,FaceNormal
-message,<user>,マニョリア、もしかしてやる気なのか？
+message,<user>,Magnolia，are you seriously thinking about this?<br> 
 
 window,off
 wait,0.15
@@ -179,18 +179,18 @@ asynccameramove,EaseInTarget,Y,-300,0.5,CONT,0
 
 charaface,chara_1,FaceHappy
 window,on,0.15
-message,マックン[マニョリア],ああ、どうやらその気になったみたいだぜ。<br>そうか、マニョリアがここで”研修”を受けるのか。,900000003
+message,マックン[マニョリア],Yeah，looks like she's all in. So Magnolia's gonna get ""training""<br>here?<br> ,900000003
 
-message,マックン[マニョリア],なーに、心配はいらないぜ、マニョリア！<br>オレのアドバイス通りにすれば大丈夫だからな！,900000003
+message,マックン[マニョリア],Don't you worry，Magnolia! Just follow my advice and you'll be fine!<br> ,900000003
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
-message,<user>,え？　おい、まさかお前も研修に参加する気か？
+message,<user>,Huh? Hey，don't tell me you're planning to join the ""training"" too?<br> 
 
-message,マックン[マニョリア],当然だろ。<br>マニョリアはオレがいなくちゃな～んにもできないんだからよ。,900000003
+message,マックン[マニョリア],Of course! Magnolia can't do a thing without me.<br> ,900000003
 
 charaface,chara_2,FaceFun
-message,,魔法植物はやる気満々だ。<br>植物とはいえ、こうベラベラ喋るヤツに見られてたら落ち着かないぞ。
+message,,The magical plant was raring to go. But having a chatterbox like<br>that watching，even if it was a plant，was unnerving.<br> 
 
 window,off
 wait,0.15
@@ -205,17 +205,17 @@ asynccameramove,EaseOutTarget,Y,0,0.5,CONT,0
 
 charareaction,chara_2,Nod,0.5
 window,on,0.15
-message,ルディア,うふふ、あなたはちょっとお休みしてた方がよさそうですね～。,,vc_10240100011_008_01
+message,ルディア,Ufufu，I think you'd better take a little rest.<br> ,,vc_10240100011_008_01
 
 asynccharamove,chara_2,Set,X,-100,0.2,CONT
 
 asyncseplay,setag1_7,se4900013,0,1,CONT
 
 charareaction,chara_1,Shake,0.5
-message,マックン[マニョリア],ぐえっ！？,900000003
+message,マックン[マニョリア],Gweh!<br> ,900000003
 
 asynccharamove,chara_2,Set,X,-300,0.2,CONT
-message,,ルディアの手が素早く動き、魔法植物はグッタリと意識を失った。
+message,,Ludia's hand moved swiftly，and the magical plant went limp and lost<br>consciousness.<br> 
 
 asyncseplay,setag1_8,se4800011,0,1,CONT
 
@@ -225,7 +225,7 @@ asynccharaemo,chara_1,ExclaQues,STOP
 charareaction,chara_1,Hop,0.5
 
 charaface,chara_1,FaceSurprise
-message,マニョリア,マ……マックン！？,,vc_10240100011_009_01
+message,マニョリア,M-Makkun!<br> ,,vc_10240100011_009_01
 
 asyncseplay,setag1_9,se4800004,0,1,CONT
 
@@ -233,9 +233,9 @@ asynccharareaction,chara_2,Nod,1,STOP
 asynccharaemo,chara_2,Laugh,STOP
 
 charaface,chara_2,FaceUnique03
-message,ルディア,あらぁ、眠っちゃったみたいですねぇ。<br>さあ、静かになったところで２人は部屋へどうぞ～。,,vc_10240100011_010_01
+message,ルディア,Oh my，he seems to have dozed off. Now then，now that it's quiet，you<br>two，please head to the room.<br> ,,vc_10240100011_010_01
 
-message,マニョリア,え……あ……えと……<br>は、はい……,,vc_10240100011_011_01
+message,マニョリア,Huh?... Uh... Um... Y-yes...<br> ,,vc_10240100011_011_01
 
 window,off
 wait,0.15
@@ -267,22 +267,22 @@ wait,0.5
 transitionFade,Tra02,in,black,1
 
 window,on,0.15
-message,,ルディアに促され、マニョリアと部屋に入る。<br>マニョリアは、気を失った魔法植物を大事そうに抱きかかえたままだ。
+message,,Urged by Ludia，Magnolia and I entered the room. She was still<br>carefully cradling the unconscious magical plant.<br> 
 
-message,<user>,そいつはどうするんだ？
+message,<user>,What are you going to do with that thing?<br> 
 
-message,,魔法植物を、マニョリアは部屋の隅に置いた。
+message,,Magnolia placed the magical plant in the corner of the room.<br> 
 
-message,マニョリア<娼館>,う～ん……ここでマニョのこと見守ってもらう。,,vc_10240100011_012_01
+message,マニョリア<娼館>,Hmm... I'll have him keep watch over me here.<br> ,,vc_10240100011_012_01
 
 charaface,chara_3,EyeOpen
 charaface,chara_3,FaceNormal
-message,,やっぱり見ててもらうらしい。<br>さすがにちょっと気になるが、眠っているから大丈夫か。
+message,,Looks like she's having him watch after all. I'm a bit worried about<br>it，but since he's asleep，it should be fine.<br> 
 
-message,<user>,じゃあマニョリア、自分で服を脱げるか？
+message,<user>,Alright，Magnolia，can you undress yourself?<br> 
 
 charaface,chara_3,FaceShy
-message,マニョリア<娼館>,うん。で、でも恥ずかしいから……<br>おにいさんは、あっち向いてて……,,vc_10240100011_013_01
+message,マニョリア<娼館>,Yeah. B-but I'm embarrassed，so... Big Brother，please look away...<br> ,,vc_10240100011_013_01
 
 
 labeljump,b

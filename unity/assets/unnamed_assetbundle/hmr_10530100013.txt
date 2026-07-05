@@ -31,14 +31,14 @@ asynccharaemo,chara_2,Speak,STOP
 
 
 window,on,0.15
-message,ルディア,ふふっ、その衣装――やっぱりお似合いね、シャノンさん。,,vc_10530100013_001_01
+message,ルディア,Fufu，that outfit really does suit you，Shannon.<br> ,,vc_10530100013_001_01
 
 asyncseplay,setag3_2,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
-message,シャノン<娼館>,……褒められて悪い気はしないが、酒場の用心棒をするだけなのに<br>わざわざこんな格好をしなくても――,,vc_10530100013_002_01
+message,シャノン<娼館>,...I don't mind the compliments，but I don't think I need to dress<br>like this just to be a bouncer at a bar—<br> ,,vc_10530100013_002_01
 
 charapose,chara_2,2
 
@@ -48,14 +48,14 @@ asynccharaemo,chara_2,Question,STOP
 
 asynccharaface,chara_2,EyeOpen,STOP
 asynccharaface,chara_2,FaceNormal,STOP
-message,ルディア,だって物騒なカッコでウロウロされちゃ、お店の雰囲気が台無しでしょ？<br>お客様も落ち着いてお酒が飲めないじゃないの。,,vc_10530100013_003_01
+message,ルディア,If you wander around looking so intimidating，it ruins the place's<br>atmosphere，doesn't it? The customers wouldn't be able to enjoy their drinks.<br> ,,vc_10530100013_003_01
 
 
 asynccharareaction,chara_1,Nod,1,STOP
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,シャノン<娼館>,まぁ、この仕事はルディアさんが依頼人だ。<br>依頼人の指示通りに私は動くよ。,,vc_10530100013_004_01
+message,シャノン<娼館>,Well，you're the one who hired me for this gig，Ludia. I'll follow my<br>client's instructions.<br> ,,vc_10530100013_004_01
 
 charapose,chara_2,1
 
@@ -66,18 +66,18 @@ asynccharareaction,chara_2,Jump,1,STOP
 asynccharaemo,chara_2,Spirits,STOP
 
 asynccharaface,chara_2,FaceHappy,STOP
-message,ルディア,じゃあ、さっそく今夜から頼むわね！<br>行儀の悪い人にはしっかり、お仕置きしてちょうだい。用心棒さん♪,,vc_10530100013_005_01
+message,ルディア,Then I'm counting on you starting tonight! Give any troublemakers a<br>proper punishment，Miss Bouncer!♪<br> ,,vc_10530100013_005_01
 
-message,<user>,ちょ、ちょっと待った！
+message,<user>,W-wait a second!<br> 
 
 asyncseplay,setag3_5,se4800009,0,1,CONT
 
 asynccharaemo,chara_2,Question,STOP
 
 asynccharaface,chara_2,FaceSurprise,STOP
-message,ルディア,何よ、急に。どうかしたの？,,vc_10530100013_006_01
+message,ルディア,What is it，all of a sudden? Something wrong?<br> ,,vc_10530100013_006_01
 
-message,<user>,いや、その……用心棒ってどういうことだ？<br>まさか……シャノンがここで働くのって……用心棒としてってことなのか？
+message,<user>,No，I mean... what do you mean ""bouncer""? Don't tell me... Shannon's<br>working here... as a bouncer?<br> 
 
 
 asynccharareaction,chara_1,Shake,1,STOP
@@ -88,9 +88,9 @@ asynccharaemo,chara_1,Trouble,STOP
 
 asynccharaface,chara_1,EyeClose,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,シャノン<娼館>,だから最初からずっと、そう言っていたじゃないか。,,vc_10530100013_007_01
+message,シャノン<娼館>,I told you that from the very start，didn't I?<br> ,,vc_10530100013_007_01
 
-message,<user>,ええっ！？　最初から！？　そ、そうだった……っけ！？<br>お、俺はてっきり、娼婦として……
+message,<user>,Huh! From the start! I-Is that right...? I-I was sure she was<br>working as a courtesan...<br> 
 
 asyncseplay,setag3_7,se4800017,0,1,CONT
 
@@ -98,7 +98,7 @@ asynccharareaction,chara_1,Shake,1,STOP
 asynccharaemo,chara_1,Shock,STOP
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,シャノン<娼館>,はぁ！？　娼婦！？,,vc_10530100013_008_01
+message,シャノン<娼館>,Hah!? A courtesan!<br> ,,vc_10530100013_008_01
 
 
 asyncseplay,setag3_8,se4800004,0,1,CONT
@@ -107,7 +107,7 @@ asynccharareaction,chara_2,Nod,1,STOP
 asynccharaemo,chara_2,Laugh,STOP
 
 asynccharaface,chara_2,FaceSurprise,STOP
-message,ルディア,まぁっ…！　試着にずいぶん時間が掛かっていると思っていたけど――<br>まさか司令官君……シャノンさんに研修しちゃった？,,vc_10530100013_009_01
+message,ルディア,Oh my...! I wondered why the fitting was taking so long... Don't<br>tell me，Commander... did you give Shannon some training?<br> ,,vc_10530100013_009_01
 
 
 asyncseplay,setag3_9,se4800012,0,1,CONT
@@ -116,16 +116,16 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
 asynccharaface,chara_1,FaceShy,STOP
-message,シャノン<娼館>,え？　け、研修！？<br>あ、あれ？　じゃ、じゃあ、さっきのって……,,vc_10530100013_010_01
+message,シャノン<娼館>,Wh-what? T-training? Oh，oh? Then that earlier was...<br> ,,vc_10530100013_010_01
 
 asyncseplay,setag3_10,se4800006,0,1,CONT
 
 asynccharaemo,chara_2,Trouble,STOP
 
 asynccharaface,chara_2,FaceSad,STOP
-message,ルディア,正直に言いなさい。研修……しちゃったのね？,,vc_10530100013_011_01
+message,ルディア,Be honest now. You gave her training... didn't you?<br> ,,vc_10530100013_011_01
 
-message,<user>,……しちゃいました。
+message,<user>,...I did.<br> 
 
 asyncseplay,setag3_11,se4800012,0,1,CONT
 
@@ -133,7 +133,7 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
 asynccharaface,chara_1,FaceUnique02,STOP
-message,シャノン<娼館>,……されちゃいました。,,vc_10530100013_012_01
+message,シャノン<娼館>,...I was given it.<br> ,,vc_10530100013_012_01
 
 
 asynccharareaction,chara_2,Shake,1,STOP
@@ -143,7 +143,7 @@ asyncseplay,setag3_12,se4800008,0,1,CONT
 asynccharaemo,chara_2,Sweat,STOP
 
 asynccharaface,chara_2,FaceAnger,STOP
-message,ルディア,まったく、しょうがないわね～。,,vc_10530100013_013_01
+message,ルディア,Honestly，you two are hopeless.<br> ,,vc_10530100013_013_01
 
 
 
@@ -191,17 +191,17 @@ asynccharaemo,chara_1,Sweat,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
 window,on,0.15
-message,シャノン<娼館>,（はぁ……さっきのがオーナーの勘違いだったなんて……）,,vc_10530100013_014_01
+message,シャノン<娼館>,(*sigh*... to think that was all the Owner's misunderstanding...)<br> ,,vc_10530100013_014_01
 
 asynccharaface,chara_1,FaceUnique02,STOP
-message,シャノン<娼館>,（…………でも、まぁ、いいか。<br>オーナーとの初体験……すごく気持ち良かったし……）,,vc_10530100013_015_01
+message,シャノン<娼館>,(...But，well，I guess it's fine. My first time with the Owner felt<br>really good...)<br> ,,vc_10530100013_015_01
 
 asyncseplay,setag3_14,se4800002,0,1,CONT
 
 asynccharaemo,chara_1,Heart,STOP
 
 asynccharaface,chara_1,FaceHappy,STOP
-message,シャノン<娼館>,（それに、初めての相手がオーナーで……良かった……）,,vc_10530100013_016_01
+message,シャノン<娼館>,(...Besides，I'm glad my first partner was the Owner...)<br> ,,vc_10530100013_016_01
 
 
 window,off

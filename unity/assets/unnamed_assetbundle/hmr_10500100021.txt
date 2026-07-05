@@ -35,7 +35,7 @@ asyncseplay,setag1_1,se4800008,0,1,CONT
 asynccharaemo,chara_1,Sweat,STOP
 
 window,on,0.15
-message,ベティ,はぁ……。また、失敗してしまいました……,,vc_10500100021_001_01
+message,ベティ,*sigh*... I have failed again...<br> ,,vc_10500100021_001_01
 
 window,off
 wait,0.15
@@ -63,21 +63,21 @@ asyncseplay,setag1_4,se4800022,0,1,CONT
 asynccharaemo,chara_2,Speak,STOP
 
 window,on,0.15
-message,ルディア,落ち込んでいるみたいね。,,vc_10500100021_002_01
+message,ルディア,You seem quite down.<br> ,,vc_10500100021_002_01
 
 asyncseplay,setag1_5,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
-message,ベティ,ルディアさん。すみません……せっかく働かせてもらっているのに、<br>どうしても恥ずかしくって……。今日も最後までできませんでした。,,vc_10500100021_003_01
+message,ベティ,Ludia，I am sorry... Even though you are giving me the opportunity to<br>work，I just get so embarrassed... I could not finish today either.<br> ,,vc_10500100021_003_01
 
 asyncseplay,setag1_6,se4800009,0,1,CONT
 
 asynccharaemo,chara_2,Question,STOP
 
 asynccharaface,chara_2,FaceSad,STOP
-message,ルディア,ずいぶん弱気になっているようね。あなたらしくない。<br>……諦める？,,vc_10500100021_004_01
+message,ルディア,You seem quite discouraged. That's not like you. ... Going to give<br>up?<br> ,,vc_10500100021_004_01
 
 
 asynccharareaction,chara_1,Shake,1,STOP
@@ -87,7 +87,7 @@ asyncseplay,setag1_7,se4800006,0,1,CONT
 asynccharaemo,chara_1,Trouble,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
-message,ベティ,……いえ、まだ頑張りたいであります。<br>でも、どうしたら解決するか分からなくて……,,vc_10500100021_005_01
+message,ベティ,No，I still wish to do my best. But I do not know how to resolve<br>this...<br> ,,vc_10500100021_005_01
 
 
 asyncseplay,setag1_8,se4800005,0,1,CONT
@@ -98,7 +98,7 @@ charapose,chara_2,2
 
 asynccharaface,chara_2,EyeOpen,STOP
 asynccharaface,chara_2,FaceNormal,STOP
-message,ルディア,そうねぇ。ちょっと荒療治になるけど、今日のイベント、参加してみる？<br>常連だけが参加できる、特別なものなんだけど。,,vc_10500100021_006_01
+message,ルディア,Let's see. It might be a bit of a drastic treatment，but how about<br>joining today's event? It's a special one only regulars can attend.<br> ,,vc_10500100021_006_01
 
 
 asynccharareaction,chara_1,Nod,1,STOP
@@ -109,7 +109,7 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Exclamation,STOP
 
 asynccharaface,chara_1,FaceFun,STOP
-message,ベティ,イベント……参加してみたいであります！<br>それで解決する可能性が、少しでもあるのなら！,,vc_10500100021_007_01
+message,ベティ,An event... I would like to participate! If there is even a small<br>chance it could solve this!<br> ,,vc_10500100021_007_01
 
 charapose,chara_2,1
 
@@ -119,7 +119,7 @@ asynccharareaction,chara_2,Jump,1,STOP
 asynccharaemo,chara_2,Spirits,STOP
 
 asynccharaface,chara_2,FaceFun,STOP
-message,ルディア,分かったわ。それじゃあ、行きましょうか♪,,vc_10500100021_008_01
+message,ルディア,Got it. Well then，let's go!♪<br> ,,vc_10500100021_008_01
 
 
 window,off
@@ -142,11 +142,11 @@ charamove,chara_1,Set,X,0,0
 transitionFade,Tra02,in,black,0.5
 
 window,on,0.15
-message,,ルディアに連れていかれたのは、娼館でもあまり使われない<br>大部屋の扉の前だった。
+message,,Ludia led her to the door of a large room that was rarely used even<br>in the brothel.<br> 
 
-message,ルディア,この扉の向こうが、イベント会場よ。ここからは１人だけど、頑張ってね♪<br>でも、やっぱりダメだと思ったら、無理せずに出てくるのよ？,,vc_10500100021_009_01
+message,ルディア,Behind this door is the event venue. From here on，you're on your<br>own，but do your best!♪ But if you think it's too much，don't push yourself and come out，okay?<br> ,,vc_10500100021_009_01
 
-message,ベティ,…………？　分かったであります。<br>でも、簡単に逃げるわけにはいかないでありますから！　頑張ります！,,vc_10500100021_010_01
+message,ベティ,...? Understood. But I cannot simply run away! I will do my best!<br> ,,vc_10500100021_010_01
 
 
 window,off
@@ -184,7 +184,7 @@ asynccameramove,LinearTarget,X,-200,5,CONT,0
 bgmplay,bgmtag1_2,bgm0026,0.75,1
 
 window,on,0.15
-message,,ベティは気合を入れると、扉を開く。<br>直後――ベティに押し寄せてきたのは、むせ返るような熱気と男女の嬌声。
+message,,Betty steeled herself and opened the door. Immediately—what washed<br>over Betty was a suffocating wave of hot air and the moans of men and women.<br> 
 
 
 window,off
@@ -212,19 +212,19 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,ExclaQues,STOP
 
 window,on,0.15
-message,ベティ,え……！？　こ、これは、どういうことでありますか……！？,,vc_10500100021_011_01
+message,ベティ,Eh...!? Wh-what is the meaning of this...!?<br> ,,vc_10500100021_011_01
 
 asyncseplay,setag1_12,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,STOP
-message,,男女合わせて数十名はいる。娼婦は衣服をはだけて裸体をさらし、<br>客の男たちもまた裸だ。そして、至るところで思い思いに身体を重ねている。
+message,,There were dozens of men and women in total. The courtesans had<br>their clothes undone，exposing their naked bodies，and the male customers were also naked. Everywhere，bodies were entwined as each pleased.<br> 
 
-message,,不思議なのは、その場にいるものたちのいずれもが、<br>はっきり顔が見えないことだ。
+message,,What was strange was that the faces of all those present were not<br>clearly visible.<br> 
 
 
 sestop,se1_1,1
 
-message,ルディア,この乱交パーティの参加者たちは、互いに顔が分からなくなる魔法を<br>かけてあるの。あなたもそうよ。それじゃあ、頑張ってね～♪,,vc_10500100021_012_01
+message,ルディア,The participants in this orgy party have a spell cast on them that<br>makes their faces unrecognizable to each other. You too. Well then，do your best!♪<br> ,,vc_10500100021_012_01
 
 window,off
 wait,0.15
@@ -260,7 +260,7 @@ asynccharaemo,chara_1,Question,STOP
 
 asynccharaface,chara_1,FaceShy,STOP
 window,on,0.15
-message,ベティ,（頑張る……？　頑張るって、いったいどうすれば……）,,vc_10500100021_013_01
+message,ベティ,(Do my best...? What am I supposed to do...?)<br> ,,vc_10500100021_013_01
 
 window,off
 wait,0.15
@@ -274,9 +274,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,,ルディアに問おうにも、既に扉は閉じられた。<br>ふと……ベティは自分の背後に誰かが立ったことに気づく。
+message,,Even as she tried to ask Ludia，the door was already closed.<br>Then，suddenly... Betty noticed someone standing behind her.<br> 
 
-message,男性客,お、娼婦の補充か。ちょうどいい、相手してくれよ。<br>ついでに、このおもちゃも使わせてもらうぜ。,900000001
+message,男性客,Oi，a new courtesan? Just in time. Service me. And I'll be using this<br>toy too.<br> ,900000001
 
 
 labeljump,b

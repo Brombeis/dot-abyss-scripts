@@ -16,9 +16,9 @@ charashow,chara_1,0.3
 
 
 window,on,0.15
-message,,終わって服を身につけても、マニョリアはまだボーッとした様子だ。
+message,,Even after finishing and getting dressed，Magnolia still seemed<br>dazed.<br> 
 
-message,<user>,体は大丈夫か？<br>どこか痛くないか？
+message,<user>,Are you okay? Does it hurt anywhere?<br> 
 
 asynccharareaction,chara_1,shake,0.5,STOP
 
@@ -28,7 +28,7 @@ charaface,chara_1,FaceNormal
 asyncseplay,setag3_1,se4800014,0,1,CONT
 
 asynccharaemo,chara_1,Silence,STOP
-message,マニョリア,…………,,vc_10240100013_001_01
+message,マニョリア,...<br> ,,vc_10240100013_001_01
 
 window,off
 wait,0.15
@@ -44,7 +44,7 @@ asynccameramove,EaseInTarget,Y,-300,0.5,CONT,0
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
 window,on,0.15
-message,マックン[マニョリア],大丈夫だ、どこも痛くないってよ！,900000003
+message,マックン[マニョリア],She's fine! She says it doesn't hurt anywhere!<br> ,900000003
 
 window,off
 wait,0.15
@@ -58,9 +58,9 @@ asynccameramove,EaseOutTarget,X,0,0.5,CONT,0
 asynccameramove,EaseOutTarget,Y,0,0.5,CONT,0
 
 window,on,0.15
-message,,やっと目覚めた魔法植物が教えてくれる。
+message,,The magical plant，which had just awakened，told me.<br> 
 
-message,<user>,それならいいが。<br>無理してないか？
+message,<user>,Good. But you're not pushing yourself too hard，are you?<br> 
 
 window,off
 wait,0.15
@@ -74,7 +74,7 @@ asynccameramove,EaseInTarget,X,400,0.5,CONT,0
 asynccameramove,EaseInTarget,Y,-300,0.5,CONT,0
 
 window,on,0.15
-message,マックン[マニョリア],おにいさんにされることなら、痛いことも気持ちいいんだってよ！<br>けっ！　妬けるぜ！,900000003
+message,マックン[マニョリア],She says when Big brother does it，even the pain feels good! Hmph!<br>I'm jealous!<br> ,900000003
 
 window,off
 wait,0.15
@@ -96,9 +96,9 @@ asynccharareaction,chara_1,nod,1,STOP
 
 charaface,chara_1,FaceShy
 window,on,0.15
-message,マニョリア,ちょっと、マックン！　黙ってて！,,vc_10240100013_002_01
+message,マニョリア,Hey，Makkun! Be quiet!<br> ,,vc_10240100013_002_01
 
-message,,自分の気持ちを魔法植物にでかい声で曝露され、マニョリアは真っ赤になる。
+message,,With her feelings loudly exposed by the magical plant，Magnolia<br>turned bright red.<br> 
 
 crossfadeready
 
@@ -113,12 +113,12 @@ charashow,chara_1,0
 crossfade,1,0,0,1,1
 wait,1
 
-message,,そしてマニョリアはこっちに近づいてくると、袖をつかんでくる。
+message,,Then Magnolia approached and grabbed my sleeve.<br> 
 
 asynccharareaction,chara_1,shake,0.5,STOP
-message,マニョリア,えと…………あの……,,vc_10240100013_003_01
+message,マニョリア,Um... um...<br> ,,vc_10240100013_003_01
 
-message,<user>,どうした？
+message,<user>,What is it?<br> 
 
 asyncseplay,setag3_3,se4800002,0,1,CONT
 
@@ -127,9 +127,9 @@ asynccharaemo,chara_1,Heart,STOP
 asynccharareaction,chara_1,nod,1,STOP
 
 charaface,chara_1,FaceHappy
-message,マニョリア,……また……しようね？<br>さっきの、気持ちいい……こと……,,vc_10240100013_004_01
+message,マニョリア,...Let's do it again... okay，Big brother? That... good thing... from<br>earlier...<br> ,,vc_10240100013_004_01
 
-message,,マニョリアはそう言って魔法植物を抱きかかえると、<br>逃げるようにして部屋を出て行ってしまった。
+message,,With that，Magnolia hugged her magical plant and left the room as if<br>fleeing.<br> 
 
 
 window,off

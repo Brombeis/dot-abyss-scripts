@@ -34,7 +34,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,クルル,よっと！,106701000G,vc_10670100013_001_01,chara_1
+message,クルル,Hup!<br> ,106701000G,vc_10670100013_001_01,chara_1
 
 window,off
 wait,0.15
@@ -67,9 +67,9 @@ asynccharamove,chara_1,EaseOut,Y,-100,0.3,CONT,0
 asyncwait
 
 window,on,0.15
-message,,着衣の乱れを正したクルルが、ベッドから飛び降りる。
+message,,Kururu adjusted her clothes and jumped off the bed.<br> 
 
-message,<user>,そういえば、クルルはどうして俺のベッドの中にいたんだ？
+message,<user>,Come to think of it，Kururu，why were you in my bed?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -80,9 +80,9 @@ asyncseplay,setag3_2,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,クルル,……あれ？<br>どうしてだろ？,106701000G,vc_10670100013_002_01,chara_1
+message,クルル,... Huh? I wonder why?<br> ,106701000G,vc_10670100013_002_01,chara_1
 
-message,<user>,おいおい……目的を忘れたのかよ！
+message,<user>,Hey，hey... Did you forget what you came for?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -93,7 +93,7 @@ asyncseplay,setag3_3,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,クルル,えっとね……あ！　思い出した！<br>クルル、ご主人さまを起こしにきたんだった！,106701000G,vc_10670100013_003_01,chara_1
+message,クルル,Um，you see... Ah! I remember! I came to wake you up，Master!<br> ,106701000G,vc_10670100013_003_01,chara_1
 
 window,off
 wait,0.15
@@ -131,9 +131,9 @@ wait,0.5
 
 
 window,on,0.15
-message,クルル,ご主人さま、はやく支度しないと、チコクしちゃうよ！,106701000G,vc_10670100013_004_01,chara_1
+message,クルル,Master，if you don't hurry and get ready，you'll be late!<br> ,106701000G,vc_10670100013_004_01,chara_1
 
-message,<user>,そうか、今日は朝から新しい階層の探索の予定……。<br>って！　おい！　もうこんな時間じゃないか！
+message,<user>,Right，we're scheduled to explore a new floor this morning... Wait!<br>Hey! It's already this late!<br> 
 
 window,off
 wait,0.15
@@ -169,7 +169,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,クルル,じゃあ、クルルは先に行っとくね～！,106701000G,vc_10670100013_005_01,chara_1
+message,クルル,Then I'll go on ahead!<br> ,106701000G,vc_10670100013_005_01,chara_1
 
 window,off
 wait,0.15
@@ -185,7 +185,7 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,,慌ただしく部屋を出て行こうとしたクルルだったが、<br>急に立ち止まって振り返る。
+message,,Kururu was about to hurry out of the room，but she suddenly stopped<br>and turned around.<br> 
 
 window,off
 wait,0.15
@@ -216,7 +216,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,ご主人さま、またしっぽが苦しくなったら、いつでもクルルに言ってね！<br>クルルの中で、『せーし』出していいから！,106701000G,vc_10670100013_006_01,chara_1
+message,クルル,Master，if your tail gets all stiff again，just tell me! You can let<br>your seed out inside me，okay?<br> ,106701000G,vc_10670100013_006_01,chara_1
 
 
 window,off
@@ -241,9 +241,9 @@ asyncseplay,setag3_7,se4300008,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,クルルはそう無邪気に叫んで去っていく。<br>さっきまでの行為がどういうものなのかちゃんと理解しているかは疑わしい。
+message,,Kururu shouted that out innocently and left. It was doubtful whether<br>she truly understood what they had just done.<br> 
 
-message,<user>,少なくとも、<br>さっきの言葉を人前で言わないように口止めしとかないとまずいな……
+message,<user>,At the very least，I'd better make sure she doesn't say that in front<br>of others...<br> 
 
 window,off
 bgmstop,bgmtag3_1,0.5

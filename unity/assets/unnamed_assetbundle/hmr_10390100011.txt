@@ -43,14 +43,14 @@ asynccharaemo,chara_2,Speak,STOP
 
 asynccharareaction,chara_2,Nod,1,STOP
 window,on,0.15
-message,若い女性,あぁっ、やっぱりマーガレット様に御相談して良かったです！<br>ありがとうございます！,,vc_10390100011_001_01
+message,若い女性,Ahh，I'm so glad I consulted you，Sister Margaret!\nThank you so much!<br> ,,vc_10390100011_001_01
 
 asyncseplay,setag1_2,se4800022,0,1,CONT
 
 asynccharaemo,chara_3,Speak,STOP
 
 asynccharareaction,chara_3,Nod,1,STOP
-message,若い男性,まったくだ！　細かいことに悩んでいたのが嘘のようだぜ……<br>もっと広い心で生きねば……！　あぁ、神よ、我を救いたまえ……
+message,若い男性,You said it! It feels like a lie that I was so hung up on<br>details...\nI need to live more openly! Ah，God，save me!<br> 
 
 asyncseplay,setag1_3,se4800003,0,1,CONT
 
@@ -60,7 +60,7 @@ asynccharareaction,chara_1,Nod,1,STOP
 
 asynccharaface,chara_1,EyeClose,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,マーガレット,神は敬虔である限り、あなた方を見捨てることはございません。<br>どうか心安らかにお過ごしください。,,vc_10390100011_002_01
+message,マーガレット,As long as you remain devout，God will never abandon you.\nMay you<br>live in peace of heart.<br> ,,vc_10390100011_002_01
 
 
 window,off
@@ -88,7 +88,7 @@ asynccharaemo,chara_1,Dull,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
 window,on,0.15
-message,,マーガレットは皆の相談を聞き終えたあと、笑顔で彼らを見送る。<br>だが、１人になったあと、人知れず浮かない表情を見せていた。
+message,,After finishing the consultations，Margaret saw the visitors off with<br>a smile.\nBut once alone，a troubled expression appeared on her face，unbeknownst to anyone.<br> 
 
 window,off
 wait,0.15
@@ -109,7 +109,7 @@ asynccharaemo,chara_1,Sweat,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
 window,on,0.15
-message,マーガレット,（……さっきの方々は私の答えに納得してくださっている。<br>でも、一部の人々はきっと……）,,vc_10390100011_003_01
+message,マーガレット,(...Those people are satisfied with my answers.\nBut surely some<br>others...)<br> ,,vc_10390100011_003_01
 
 window,off
 wait,0.15
@@ -122,7 +122,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,よぅ、マーガレット。<br>相変わらず人気者だな。
+message,<user>,Yo，Margaret.\nStill as popular as ever，huh.<br> 
 
 asynccharareaction,chara_1,Nod,1,STOP
 
@@ -131,9 +131,9 @@ asyncseplay,setag1_6,se4800022,0,1,CONT
 asynccharaemo,chara_1,Speak,STOP
 
 asynccharaface,chara_1,FaceHappy,STOP
-message,マーガレット,司令官様！　来てくださってたんですね。<br>なにか御相談事ですか？,,vc_10390100011_004_01
+message,マーガレット,Commander! You came to see me.\nDo you need to discuss something?<br> ,,vc_10390100011_004_01
 
-message,<user>,いや、ちょっと様子を見に来ただけだ。相変わらず訪問者が絶えないな。<br>神に祈りを捧げるより、マーガレットが目的の人ばかりのようだが……
+message,<user>,Nah，I just came to check on things.\nVisitors keep coming as always.<br>Seems like most of them come for you rather than to pray to God，though.<br> 
 
 asynccharareaction,chara_1,Shake,1,STOP
 
@@ -142,9 +142,9 @@ asyncseplay,setag1_7,se4800007,0,1,CONT
 asynccharaemo,chara_1,Panic,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
-message,マーガレット,あの、もしよろしければ、私の悩みを聞いてほしいんですが……。<br>お時間大丈夫でしょうか？,,vc_10390100011_005_01
+message,マーガレット,Um，if you don't mind，could I ask you to listen to my<br>concerns...?\nDo you have a moment?<br> ,,vc_10390100011_005_01
 
-message,<user>,マーガレットが悩み？<br>あぁ、俺で聞ける内容だったら全然相談に乗るぞ。
+message,<user>,Margaret has worries?\nAh，if it's something I can handle，I'm all<br>ears.<br> 
 
 asynccharareaction,chara_1,Nod,1,STOP
 
@@ -155,7 +155,7 @@ asynccharaemo,chara_1,Twinkle,STOP
 asynccharaface,chara_1,FaceHappy,STOP
 
 asynccharaface,chara_1,FaceSad,STOP,2
-message,マーガレット,ありがとうございます。<br>実は……,,vc_10390100011_006_01
+message,マーガレット,Thank you.\nActually...<br> ,,vc_10390100011_006_01
 
 window,off
 wait,0.15
@@ -170,7 +170,7 @@ transitionFade,Tra09,in,black,1
 
 
 window,on,0.15
-message,<user>,ほう？<br>最近、夜の営みに関する相談が多くて困っていると。
+message,<user>,Oh?\nSo you're troubled because you've been getting many<br>consultations about intimate matters lately?<br> 
 
 asyncseplay,setag1_9,se4800008,0,1,CONT
 
@@ -179,7 +179,7 @@ asynccharaemo,chara_1,Sweat,STOP
 asynccharaface,chara_1,FaceSad,STOP
 
 asynccharareaction,chara_1,Nod,1,STOP
-message,マーガレット,えぇ。夫婦間や恋人との行為に関する相談や懺悔を聞く機会が増えていて……<br>ただ悩みを抱くことに問題はありません。私や神への相談も尊きおこないです。,,vc_10390100011_007_01
+message,マーガレット,Yes. I've been receiving more consultations and confessions<br>concerning acts between married couples and lovers...\nBut there's nothing wrong with having these concerns. Coming to me or God for counsel is a sacred act.<br> ,,vc_10390100011_007_01
 
 asyncseplay,setag1_10,se4800012,0,1,CONT
 
@@ -189,9 +189,9 @@ asynccharaemo,chara_1,Shy,STOP
 asynccharaface,chara_1,FaceShy,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
-message,マーガレット,問題は、私のほうにございまして……。<br>その、私、そういった経験がないので……,,vc_10390100011_008_01
+message,マーガレット,The problem lies with me...\nThat is，I have no experience with such<br>matters...<br> ,,vc_10390100011_008_01
 
-message,<user>,なるほど。そういうことか。<br>難しい問題だな。マーガレットは聖職者だし……
+message,<user>,I see. So that's the problem.\nThat's a tough one. And you're a<br>sister，so...<br> 
 
 asyncseplay,setag1_11,se4800008,0,1,CONT
 
@@ -200,9 +200,9 @@ asynccharaemo,chara_1,Sweat,STOP
 asynccharaface,chara_1,FaceSad,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
-message,マーガレット,経験のない私が、<br>ちゃんと説得力のあるお答えをできているのか自信がないんです……,,vc_10390100011_009_01
+message,マーガレット,I'm not confident that I，without experience，can give truly<br>convincing responses...<br> ,,vc_10390100011_009_01
 
-message,<user>,でも、聖職者は、そういうおこないを禁じられているんだろう？<br>……経験のしようがないと思うんだが。
+message,<user>,But aren't clergy forbidden from such acts?\n...I'd think there's no<br>way to gain experience.<br> 
 
 asyncseplay,setag1_12,se4800022,0,1,CONT
 
@@ -210,9 +210,9 @@ asynccharaemo,chara_1,Speak,STOP
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,マーガレット,あ、いえ。我々シスターは、婚姻が禁じられているだけで、<br>性行為自体は別に禁じられているわけではありません。,,vc_10390100011_010_01
+message,マーガレット,Ah，no. We sisters are only forbidden to marry;\nthe act itself is<br>not prohibited.<br> ,,vc_10390100011_010_01
 
-message,<user>,え？　そうなのか？
+message,<user>,Huh? Is that so?<br> 
 
 asyncseplay,setag1_13,se4800007,0,1,CONT
 
@@ -221,9 +221,9 @@ asynccharaemo,chara_1,Panic,STOP
 asynccharaface,chara_1,FaceSad,STOP
 
 asynccharareaction,chara_1,Nod,1,STOP
-message,マーガレット,はい。ただ、性行為をおこなった場合は、<br>神の前では正直に懺悔はしなければなりませんが……,,vc_10390100011_011_01
+message,マーガレット,Yes. However，if one does engage in the act，\none must confess<br>honestly before God...<br> ,,vc_10390100011_011_01
 
-message,<user>,なるほど。つまり、神の前で正直に懺悔すればいいってことか……<br>ならば名案がある。俺を信じてついてきてくれるか？
+message,<user>,I see. So it's as simple as confessing honestly before God... Then<br>I've got a clever plan. Can you trust me and come with me?<br> 
 
 asyncseplay,setag1_14,se4800011,0,1,CONT
 
@@ -231,7 +231,7 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,ExclaQues,STOP
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,マーガレット,え！？　あ……、は、はい！,,vc_10390100011_012_01
+message,マーガレット,Oh? Ah... Y-yes!<br> ,,vc_10390100011_012_01
 
 
 labeljump,b

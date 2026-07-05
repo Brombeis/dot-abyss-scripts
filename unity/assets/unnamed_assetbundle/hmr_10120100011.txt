@@ -39,7 +39,7 @@ asynccharareaction,chara_2,nod,1,STOP
 asynccharaface,chara_2,EyeOpen,CONT,2
 asynccharaface,chara_2,FaceNormal,CONT,2
 window,on,0.15
-message,ルディア,自分の気持ちを相手に伝える方法ねぇ……<br>お酒を飲んで、酔った勢いでっていうのはどうかしら？,,vc_10120100011_001_01
+message,ルディア,How to tell him how you feel，huh? How about having a drink and<br>letting the alcohol give you a push?<br> ,,vc_10120100011_001_01
 
 asyncskipwait
 
@@ -50,7 +50,7 @@ asynccharareaction,chara_1,shake,1,STOP
 asyncseplay,setag1_2,se4800008,0,1,CONT
 
 asynccharaemo,chara_1,Sweat,STOP
-message,エティア,そ、それだと、真面目に受け取ってもらえないような気が……,,vc_10120100011_002_01
+message,エティア,Th-then，I feel like he wouldn't take it seriously...<br> ,,vc_10120100011_002_01
 
 charapose,chara_2,2
 
@@ -61,7 +61,7 @@ charaface,chara_2,FaceUnique03
 asyncseplay,setag1_3,se4800009,0,1,CONT
 
 asynccharaemo,chara_2,Question,STOP
-message,ルディア,じゃあ、素直に真正面から伝えるとか？,,vc_10120100011_003_01
+message,ルディア,Then how about you just tell him straight to his face，honestly?<br> ,,vc_10120100011_003_01
 
 charaface,chara_1,FaceUnique02
 
@@ -70,7 +70,7 @@ asyncseplay,setag1_4,se4800006,0,1,CONT
 asynccharaemo,chara_1,Trouble,STOP
 
 asynccharareaction,chara_1,Shake,5,STOP
-message,エティア,そんな勇気がないから、ルディアさんに相談してるんですよぉ、<br>ううう～……,,vc_10120100011_004_01
+message,エティア,I-I don't have that kind of courage，so I'm asking you for<br>advice，Ludia... *whimper*...<br> ,,vc_10120100011_004_01
 
 charapose,chara_2,1
 
@@ -82,7 +82,7 @@ asynccharareaction,chara_2,Nod,1,STOP
 asynccharaemo,chara_2,Laugh,STOP
 
 asynccharaface,chara_2,FaceHappy,STOP,3.5
-message,ルディア,そうだったわね、ごめんごめん。<br>それなら、とっておきのものがあるから、ちょっと待っててね。,,vc_10120100011_005_01
+message,ルディア,Oh，right，sorry about that. In that case，I have something special.<br>Just wait a moment.<br> ,,vc_10120100011_005_01
 
 window,off
 wait,0.15
@@ -101,7 +101,7 @@ asynccharareaction,chara_2,nod,1,STOP
 
 asynccharaface,chara_2,FaceFun,CONT,2
 window,on,0.15
-message,ルディア,お待たせ。<br>これを使ってみたらどうかしら？,,vc_10120100011_006_01
+message,ルディア,Sorry for the wait. How about using this?<br> ,,vc_10120100011_006_01
 
 asyncskipwait
 
@@ -121,14 +121,14 @@ charaface,chara_2,FaceHappy
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
 window,on,0.15
-message,エティア,これ……首輪？,,vc_10120100011_007_01
+message,エティア,This... a collar?<br> ,,vc_10120100011_007_01
 
 window,off
 wait,0.15
 
 asynccharareaction,chara_2,Nod,0.5,CONT
 window,on,0.15
-message,ルディア,“真実の首輪”というマジックアイテムよ。,,vc_10120100011_008_01
+message,ルディア,It's a magic item called the ""Collar of Truth"".<br> ,,vc_10120100011_008_01
 
 asyncskipwait
 
@@ -137,7 +137,7 @@ charaface,chara_2,FaceUnique03
 asyncseplay,setag1_7,se4800019,0,1,CONT
 
 asynccharaemo,chara_2,Elated,STOP
-message,ルディア,これを身に着けて好きな人と会えば、<br>自分の気持ちに素直に行動出来るようになるわ。,,vc_10120100011_009_01
+message,ルディア,If you wear this and meet the person you like，you'll be able to act<br>on your true feelings.<br> ,,vc_10120100011_009_01
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
@@ -147,7 +147,7 @@ asynccharareaction,chara_1,nod,1,STOP
 asyncseplay,setag1_8,se4800014,0,1,CONT
 
 asynccharaemo,chara_1,Silence,STOP
-message,エティア,自分の気持ちに……素直に……,,vc_10120100011_010_01
+message,エティア,True to my feelings... honestly...<br> ,,vc_10120100011_010_01
 
 charaface,chara_2,EyeOpen
 charaface,chara_2,FaceNormal
@@ -160,7 +160,7 @@ asynccharaemo,chara_2,Spirits,STOP
 asynccharareaction,chara_2,Hop,1,STOP
 
 asynccharaface,chara_2,FaceFun,STOP,1.5
-message,ルディア,うまくいくといいわね。<br>がんばって！,,vc_10120100011_011_01
+message,ルディア,I hope it goes well. You can do it!<br> ,,vc_10120100011_011_01
 
 window,off
 wait,0.15
@@ -201,11 +201,11 @@ asyncseplay,setag1_12,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,CONT
 window,on,0.15
-message,エティア,あ、あの……こんな時間にお呼びして申し訳ありません、ご主人様……,,vc_10120100011_012_01
+message,エティア,A-ah，um... I'm so sorry for calling you at this hour，Master...<br> ,,vc_10120100011_012_01
 
 asyncskipwait
 
-message,<user>,いや、大丈夫だ。<br>それより、俺に話があるとのことだったが？
+message,<user>,No，it's fine. More importantly，you said you had something to talk to<br>me about?<br> 
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
@@ -215,9 +215,9 @@ asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,STOP
 asyncseplay,setag1_13,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,STOP
-message,エティア,じ、実は、ご主人様に、どうしてもお伝えしたいことがありまして……,,vc_10120100011_013_01
+message,エティア,W-well，actually，there's something I absolutely want to tell<br>you，Master...<br> ,,vc_10120100011_013_01
 
-message,<user>,どうしても？<br>何か緊急の事案でも発生したのか？
+message,<user>,Absolutely? Did something urgent happen?<br> 
 
 charaface,chara_1,FaceUnique02
 
@@ -227,7 +227,7 @@ asyncseplay,setag1_14,se4800012,0,1,CONT
 
 asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
-message,エティア,お、お伝えしたいのは……わたしの、本当の気持ち、です……,,vc_10120100011_014_01
+message,エティア,W-what I want to tell you... is my true feelings...<br> ,,vc_10120100011_014_01
 
 charaface,chara_1,EyeClose
 charaface,chara_1,FaceNormal
@@ -239,9 +239,9 @@ asynccharaemo,chara_1,Silence,STOP
 asynccharareaction,chara_1,nod,1,STOP
 
 asynccharaface,chara_1,FaceUnique02,STOP,3
-message,エティア,ご主人様に対する気持ち……わたしの想いを……<br>どうしてもご主人様に伝えたくて……それで……わたし……！,,vc_10120100011_015_01
+message,エティア,My feelings for you，Master... my affections... I absolutely wanted<br>to convey them to you... and so... I...!<br> ,,vc_10120100011_015_01
 
-message,<user>,お、おい、エティア？
+message,<user>,H-hey，Etia?<br> 
 
 window,off
 wait,0.15
@@ -264,7 +264,7 @@ bg,abg18200a
 fade,In,Black,0.1
 
 window,on,0.15
-message,,エティアが抱き着いてきた勢いで、ベッドの上へ押し倒されてしまう。<br>彼女の勢いは止まらず、服まで剥ぎ取られてしまった。
+message,,With the force of Etia hugging me，I ended up being pushed onto the<br>bed. She didn't stop—she even stripped off my clothes.<br> 
 
 
 labeljump,b

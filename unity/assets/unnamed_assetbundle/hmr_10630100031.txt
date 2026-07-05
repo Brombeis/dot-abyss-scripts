@@ -23,7 +23,7 @@ bgmplay,bgmtag1_1,bgm0024,0.75,1
 
 
 window,on,0.15
-message,<user>,Finally getting out early tonight.<br>After all these late shifts，I deserve it.<br> 
+message,<user>,Looks like I can go home early tonight. After all that overtime<br>lately，it's a nice change.<br> 
 
 
 window,off
@@ -34,9 +34,9 @@ charafocusonall
 asyncseplay,se1_1001,se4000121,0,1,CONT,0
 
 window,on,0.15
-message,<user>,...Hm?<br> 
+message,<user>,Hm?<br> 
 
-message,,Rapid footsteps. He turned toward the sound.<br> 
+message,,Suddenly，I heard hurried footsteps. I turned around to see what was<br>going on.<br> 
 
 window,off
 wait,0.15
@@ -76,9 +76,9 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ホノカ,Commannnnnnnnnnder!<br> ,106301000X,vc_10630100031_001_01,chara_1
+message,ホノカ,Commander!<br> ,106301000X,vc_10630100031_001_01,chara_1
 
-message,,Honoka came sprinting at him full speed and skidded to a stop<br>right in front of him.<br> 
+message,,It was Honoka，running this way at full speed. She reached me in an<br>instant and screeched to a halt.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -90,9 +90,9 @@ asyncseplay,setag1_2,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ホノカ,Hah，hah，hah...<br>Found you，Commander!<br> ,106301000X,vc_10630100031_002_01,chara_1
+message,ホノカ,*huff*，*huff*，*huff*... Found you，Commander!<br> ,106301000X,vc_10630100031_002_01,chara_1
 
-message,<user>,What's going on? Why the rush?<br>Did something happen?<br> 
+message,<user>,What's up? Why are you in such a rush? Did something happen?<br> 
 
 window,off
 wait,0.15
@@ -154,11 +154,11 @@ asyncmove,BACK,,0,0,0,Set,CONT
 transitionFade,Tra16,in,black,0.01
 
 window,on,0.15
-message,,She grabbed his hand and started running.<br> 
+message,,She grabbed my hand and started pulling me along at a run.<br> 
 
-message,<user>,Wha!? Running again!?<br>I was gonna head home early tonight—h-hey，wai——<br> 
+message,<user>,Whoa! Running again! I was trying to go home early... H-Hey，wait—<br> 
 
-message,ホノカ,JUST COME!!<br> ,106301000X,vc_10630100031_004_01,
+message,ホノカ,No buts! Come on!<br> ,106301000X,vc_10630100031_004_01,
 
 sestop,se1_1003,1.5
 
@@ -190,9 +190,9 @@ wait,1
 fade,In,Black,1
 
 window,on,0.15
-message,,Honoka had dragged him to the brothel.<br> 
+message,,Honoka dragged me to the brothel.<br> 
 
-message,<user>,Why here of all places...<br>Wait，did you want to do ecchi again...?<br> 
+message,<user>,Why here...? Wait，are you saying you want to go again?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -203,13 +203,13 @@ asyncseplay,setag1_4,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ホノカ,Not just that~~♪<br>Tonight，I'm going to make YOU feel good，Commander♪<br> ,106301000X,vc_10630100031_005_01,chara_1
+message,ホノカ,It's not just about that! Today，I'm going to make you feel really<br>good，Commander!<br> ,106301000X,vc_10630100031_005_01,chara_1
 
-message,,Honoka puffed out her flat little chest with absolute confidence.<br> 
+message,,Honoka puffed out her small chest with confidence.<br> 
 
-message,<user>,You studied...? Still，this is pretty sudden...<br> 
+message,<user>,Study? Come on，that's not something you can just do all of a sudden.<br> 
 
-message,,It really had been no time at all since she knew nothing.<br>He wasn't sure about this，even with studying.<br> 
+message,,After all，she knew nothing about it until just recently. Even if<br>she's studied，I can't help but doubt it'll be okay.<br> 
 
 window,off
 wait,0.15
@@ -253,7 +253,7 @@ asyncseplay,setag1_6,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 window,on,0.15
-message,,She tugged at his sleeve. He looked down.<br>Honoka was gazing up at him with big puppy eyes.<br> 
+message,,As I was thinking，she tugged repeatedly at my sleeve. When I<br>looked，she was staring up at me with pleading eyes.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -264,7 +264,7 @@ asyncseplay,setag1_7,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ホノカ,...Is it no good...?<br> ,106301000X,vc_10630100031_006_01,chara_1
+message,ホノカ,No good...?<br> ,106301000X,vc_10630100031_006_01,chara_1
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -272,9 +272,9 @@ asyncseplay,setag1_8,se4800007,0,1,CONT,0
 
 asynccharaemo,chara_1,Panic,CONT,0
 
-message,,Those eyes. Like a small，earnest dog.<br> 
+message,,She was looking up at me with innocent puppy-dog eyes.<br> 
 
-message,<user>,...Oh，fine.<br> 
+message,<user>,...Guess I can't say no.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -282,7 +282,7 @@ asyncseplay,setag1_9,se4800007,0,1,CONT,0
 
 asynccharaemo,chara_1,Panic,CONT,0
 
-message,,There was no way anyone could say no to that look.<br> 
+message,,When she looked at me with those adorable puppy-dog eyes，there was<br>no way I could refuse...<br> 
 
 labeljump,b
 

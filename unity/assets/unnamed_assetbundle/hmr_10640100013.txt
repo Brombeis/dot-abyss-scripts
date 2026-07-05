@@ -27,7 +27,7 @@ fade,In,Black,1
 bgmplay,bgmtag3_1,bgm0031,1
 
 window,on,0.15
-message,,翌朝。<br>再び森で、ラモーナに歌を聴かせてもらった。
+message,,The next morning. Once again，I asked Ramona to sing for me in the<br>forest.<br> 
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -37,9 +37,9 @@ asyncseplay,setag3_1,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ラモーナ,～～～～～～～～～～～～～～……♪,106401000G,vc_10640100013_001_01,chara_1
+message,ラモーナ,♪♪♪...<br> ,106401000G,vc_10640100013_001_01,chara_1
 
-message,,美しい歌声がいつまでも谺し、森の中に溶けるように消えていく。
+message,,Her beautiful singing echoed endlessly，then faded away as if melting<br>into the forest.<br> 
 
 window,off
 wait,0.15
@@ -88,9 +88,9 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,ラモーナ,……ふぅ。あの、どうでしょうか？,106401000G,vc_10640100013_002_01,chara_1
+message,ラモーナ,...*phew*. Um，how was it?<br> ,106401000G,vc_10640100013_002_01,chara_1
 
-message,<user>,ああ、すごくいいと思うぞ。前より声が楽に出ているように見えるし、<br>それが生き生きと森中にまで響き渡ってる。
+message,<user>,Yeah，I think it's really good. Your voice seems to come out more<br>easily than before，and it resonates vividly through the forest.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -101,7 +101,7 @@ asyncseplay,setag3_3,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ラモーナ,そうなんですっ！<br>実は前より広い音域の声が出るようになったんですよ！,106401000G,vc_10640100013_003_01,chara_1
+message,ラモーナ,That's right! Actually，I can sing in a wider range than before!<br> ,106401000G,vc_10640100013_003_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -113,9 +113,9 @@ asyncseplay,setag3_4,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ラモーナ,それも自然に気持ち良く出せるようになって。,106401000G,vc_10640100013_004_01,chara_1
+message,ラモーナ,And it flows out naturally and comfortably now.<br> ,106401000G,vc_10640100013_004_01,chara_1
 
-message,<user>,そうなのか、それはすごい成果だな。
+message,<user>,Is that so? That's amazing progress.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -126,9 +126,9 @@ asyncseplay,setag3_5,se4800002,0,1,CONT,0
 asynccharaemo,chara_1,Heart,CONT,0
 
 
-message,ラモーナ,はいっ。それもこれも、司令官さまのあの「レッスン」のおかげです。,106401000G,vc_10640100013_005_01,chara_1
+message,ラモーナ,Yes. That's all thanks to that ""lesson"" of yours，Commander.<br> ,106401000G,vc_10640100013_005_01,chara_1
 
-message,,ラモーナは頬を赤らめる。そんな表情をされると、こちらまであのレッスンを<br>思い出して妙な気分になってしまった。
+message,,Ramona's cheeks reddened. Seeing that expression，I remembered that<br>lesson and felt a strange sensation.<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -137,7 +137,7 @@ asyncseplay,setag3_6,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ラモーナ,あのとき、司令官さまのアドバイス通りに、今まで出したことのないような声を<br>思いきって出したのが良かったんだと思います。,106401000G,vc_10640100013_006_01,chara_1
+message,ラモーナ,I think it worked because I followed your advice，Commander，and<br>boldly let out a voice I'd never produced before.<br> ,106401000G,vc_10640100013_006_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -148,11 +148,11 @@ asyncseplay,setag3_7,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ラモーナ,そうすることで喉が開いて、今まで出せなかったような声が自然と出るように<br>なったんだと思います。,106401000G,vc_10640100013_007_01,chara_1
+message,ラモーナ,I think that opened my throat，and now voices I couldn't produce<br>before come out naturally.<br> ,106401000G,vc_10640100013_007_01,chara_1
 
-message,,ラモーナは少し恥ずかしそうに、だが嬉しそうに言った。
+message,,Ramona said it，looking a little embarrassed but happy.<br> 
 
-message,<user>,そうか、それは良かった。<br>だが、それも元々はラモーナが持っていた声のはずだからな。
+message,<user>,I see，that's good. But that voice was originally yours，Ramona.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -164,7 +164,7 @@ asyncseplay,setag3_8,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ラモーナ,そうだとしても、それを引き出してくれたのは司令官さまですから。<br>本当にありがとうございました。,106401000G,vc_10640100013_008_01,chara_1
+message,ラモーナ,Even so，you're the one who drew it out，Commander. Thank you so much.<br> ,106401000G,vc_10640100013_008_01,chara_1
 
 window,off
 wait,0.15
@@ -180,9 +180,9 @@ asynccharaemo,chara_1,Spirits,CONT,0
 asyncwait
 
 window,on,0.15
-message,,ラモーナの晴れやかな笑顔に心から良かったと思えた。<br>それでも、１度のレッスンで済んでしまったのは少し寂しい気もする。
+message,,I was genuinely glad to see Ramona's bright smile. Still，I couldn't<br>help feeling a little lonely that it ended with just one lesson.<br> 
 
-message,,まあ、ラモーナにとってはいいことだからな。<br>そう自分に言い聞かせた。
+message,,Well，it's a good thing for Ramona. I told myself that.<br> 
 
 window,off
 wait,0.15
@@ -216,9 +216,9 @@ asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
 
 window,on,0.15
-message,ラモーナ,あの、司令官さま……,106401000G,vc_10640100013_009_01,chara_1
+message,ラモーナ,Um，Commander...<br> ,106401000G,vc_10640100013_009_01,chara_1
 
-message,,それでも少し寂しく思っていると、ラモーナが辺りを窺いながらそっと<br>顔を寄せてきた。その顔がやけに赤くなっている。
+message,,As I was still feeling a bit lonely，Ramona looked around and quietly<br>leaned closer. Her face was unusually red.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -229,9 +229,9 @@ asyncseplay,setag3_11,se4800002,0,1,CONT,0
 asynccharaemo,chara_1,Heart,CONT,0
 
 
-message,ラモーナ,あの、司令官さまさえよろしければ……<br>またあのレッスンをしていただいても、よろしいですか？,106401000G,vc_10640100013_010_01,chara_1
+message,ラモーナ,Um，if you wouldn't mind，Commander... would it be alright if we had<br>that lesson again?<br> ,106401000G,vc_10640100013_010_01,chara_1
 
-message,,どうやら２人のレッスンはまだ、終わっていないようだ。
+message,,It seems the lesson between the two of them is not over yet.<br> 
 
 window,off
 bgmstop,bgmtag3_1,0.5

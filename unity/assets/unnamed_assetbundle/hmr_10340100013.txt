@@ -20,9 +20,9 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Spirits,STOP
 
 window,on,0.15
-message,カーラ,本当にありがとうございました、司令官。<br>作戦通り、必ずあの海賊を捕縛してみせます。,,vc_10340100013_001_01
+message,カーラ,Thank you very much，Commander. As planned，I will capture that pirate<br>without fail.<br> ,,vc_10340100013_001_01
 
-message,<user>,素手のまま海賊と対峙する危険な作戦だ。<br>くれぐれも無理だけはするなよ。
+message,<user>,This is a dangerous mission—you'll be facing pirates unarmed. Make<br>sure you don't overdo it.<br> 
 
 asynccharareaction,chara_1,Nod,1,STOP
 
@@ -31,7 +31,7 @@ asyncseplay,setag3_2,se4800022,0,1,CONT
 asynccharaemo,chara_1,Speak,STOP
 
 asynccharaface,chara_1,FaceAnger,STOP
-message,カーラ,危険なことは承知です。<br>でもエルドラーナ近海でやってきた数々の悪行は、絶対に許せませんから……,,vc_10340100013_002_01
+message,カーラ,I am aware of the danger. But I cannot forgive the countless crimes<br>they have committed in the Eldorana coastal waters.<br> ,,vc_10340100013_002_01
 
 asyncseplay,setag3_3,se4800010,0,1,CONT
 
@@ -39,9 +39,9 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Exclamation,STOP
 
 asynccharareaction,chara_1,Jump,1,STOP
-message,カーラ,絶対に捕まえてみせます！<br>共和国警備隊の誇りにかけて！,,vc_10340100013_003_01
+message,カーラ,I will capture them，no matter what! I swear on the pride of the<br>Republic Guard!<br> ,,vc_10340100013_003_01
 
-message,,カーラの表情は真剣だ。<br>相手は長い月日を掛けて追ってきた海賊なのだから当然だ。
+message,,Carla's expression is serious. It's only natural—this is a pirate<br>she has been pursuing for a long time.<br> 
 
 asynccharareaction,chara_1,Shake,1,STOP
 
@@ -50,9 +50,9 @@ asyncseplay,setag3_4,se4800007,0,1,CONT
 asynccharaemo,chara_1,Panic,STOP
 
 asynccharaface,chara_1,FaceUnique01,STOP
-message,カーラ,あ、あの……司令官に１つだけお願いがあるのですが……,,vc_10340100013_004_01
+message,カーラ,U-um，Commander... I have one favor to ask...<br> ,,vc_10340100013_004_01
 
-message,<user>,お願い……？<br>なんだ？　俺に協力できることだったら何でもしてやるぞ。
+message,<user>,A request? What is it? If I can help，I'll do anything.<br> 
 
 asyncseplay,setag3_5,se4800012,0,1,CONT
 
@@ -60,9 +60,9 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
 asynccharaface,chara_1,FaceShy,STOP
-message,カーラ,こ、この作戦が成功したあかつきには、その……えっと……,,vc_10340100013_005_01
+message,カーラ,W-when this operation succeeds... then... well...<br> ,,vc_10340100013_005_01
 
-message,<user>,ん？　なんだ？　褒美か報奨金でも欲しいのか？
+message,<user>,Hm? What is it? Do you want a reward or a bonus?<br> 
 
 asynccharareaction,chara_1,Shake,1,STOP
 
@@ -71,9 +71,9 @@ asyncseplay,setag3_6,se4800002,0,1,CONT
 asynccharaemo,chara_1,Heart,STOP
 
 asynccharaface,chara_1,FaceUnique02,STOP
-message,カーラ,も、もう１度、さっきの……研修を……<br>してもらえませんか……？,,vc_10340100013_006_01
+message,カーラ,C-could I... have that... training... again...?<br> ,,vc_10340100013_006_01
 
-message,<user>,研修を！？　え～と……<br>作戦が終わったらもう研修の必要はないんじゃ……
+message,<user>,Training!? Um... once the operation is over，there's no need for<br>training，right?<br> 
 
 asynccharareaction,chara_1,Nod,1,STOP
 
@@ -83,21 +83,21 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
 asynccharaface,chara_1,FaceUnique01,STOP
-message,カーラ,そ、そうかもしれませんが……！<br>えっと……、す、すごく気持ち良かったので……司令官との……研修……,,vc_10340100013_007_01
+message,カーラ,Y-you might be right...! But，um... it felt so good... the<br>training... with the Commander...<br> ,,vc_10340100013_007_01
 
 asynccharaface,chara_1,FaceShy,STOP
-message,,カーラはそのまま恥ずかしそうに俯いてしまう。<br>そんな彼女を見ているとすぐさま抱き締めてやりたいような気持ちになる。
+message,,Carla looks down，embarrassed. Watching her like that，I feel like<br>taking her in my arms right away.<br> 
 
-message,<user>,分かった、約束するよ。<br>だが、本当に無理だけはしないとカーラも約束してくれ！
+message,<user>,Alright，I promise. But you have to promise me you won't overdo<br>it，Carla.<br> 
 
-message,<user>,俺にとっては、共和国警備隊の誇りなんかより、<br>カーラが無事に戻ってくるほうが大事だからな。
+message,<user>,To me，your safe return is more important than the pride of the<br>Republic Guard.<br> 
 
 asyncseplay,setag3_8,se4800002,0,1,CONT
 
 asynccharaemo,chara_1,Heart,STOP
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,カーラ,司令官……,,vc_10340100013_008_01
+message,カーラ,Commander...<br> ,,vc_10340100013_008_01
 
 asyncseplay,setag3_9,se4800003,0,1,CONT
 
@@ -106,7 +106,7 @@ asynccharaemo,chara_1,Twinkle,STOP
 asynccharaface,chara_1,FaceHappy,STOP
 
 asynccharareaction,chara_1,Nod,1,STOP
-message,カーラ,分かりました、司令官！<br>司令官の元に無事に戻ってくることを約束いたします！,,vc_10340100013_009_01
+message,カーラ,Understood，Commander! I promise I will return safely to you!<br> ,,vc_10340100013_009_01
 
 
 window,off

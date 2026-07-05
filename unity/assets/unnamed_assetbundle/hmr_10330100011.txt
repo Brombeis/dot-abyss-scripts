@@ -28,7 +28,7 @@ priority,chara_2,CHARA,0,BACK,
 
 
 window,on,0.15
-message,,――その日、エメルダは特ダネを求めて酒場に張っていた。
+message,,—That day，Emeralda was staking out the tavern in search of a scoop.<br> 
 
 charashow,chara_1,0.3
 
@@ -40,7 +40,7 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Anger,STOP
 
 asynccharaface,chara_1,FaceAnger,STOP
-message,エメルダ,（クソ上司めぇえ……<br>『さっさと特ダネ持ってこい！』とか気軽に言いやがって～！）,,vc_10330100011_001_01
+message,エメルダ,(That damn boss of mine...\n'Just bring me a scoop already!"" he says<br>so casually!)<br> ,,vc_10330100011_001_01
 
 asynccharareaction,chara_1,Nod,1,STOP
 
@@ -48,7 +48,7 @@ asyncseplay,setag1_2,se4800019,0,1,CONT
 
 asynccharaemo,chara_1,Elated,STOP
 
-message,エメルダ,（どうせほしいのは前線基地の醜聞でしょ！<br>えぇ、えぇ、いいわよ、やってやろうじゃん）,,vc_10330100011_002_01
+message,エメルダ,(Like he really wants some dirt on the Frontline<br>Base!\nYeah，yeah，fine，I'll do it.)<br> ,,vc_10330100011_002_01
 
 
 asyncseplay,setag1_3,se4800021,0,1,CONT
@@ -57,7 +57,7 @@ asynccharaemo,chara_1,Imagination,STOP
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,エメルダ,（ここの酒場の２階……娼館に特ダネさんが頻繁に通ってるわ！）,,vc_10330100011_003_01
+message,エメルダ,(The second floor of this tavern... Scoop's been frequenting the<br>brothel!)<br> ,,vc_10330100011_003_01
 
 
 asyncseplay,setag1_4,se4800010,0,1,CONT
@@ -66,7 +66,7 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Exclamation,STOP
 
 asynccharaface,chara_1,FaceAnger,STOP
-message,エメルダ,（きっと複数の娼婦を抱えて悪いことしてるんでしょ！<br>知らんけど！）,,vc_10330100011_004_01
+message,エメルダ,(I bet he's got multiple courtesans and is up to no good!\nNot like<br>I know for sure!)<br> ,,vc_10330100011_004_01
 
 asynccharareaction,chara_1,Nod,1,STOP
 
@@ -75,7 +75,7 @@ asyncseplay,setag1_5,se4800003,0,1,CONT
 asynccharaemo,chara_1,Twinkle,STOP
 
 asynccharaface,chara_1,FaceUnique02,STOP
-message,エメルダ,（しばらくは客のふりして普通に飲んで――隙を見て２階の部屋に<br>潜り込んじゃうもんね～。特ダネさん、活きのいいネタ、頼みますよー！）,,vc_10330100011_005_01
+message,エメルダ,(I'll pretend to be a customer and have a drink for now—then slip<br>into a room upstairs when I get the chance.\nScoop，I'm counting on you for a juicy story!)<br> ,,vc_10330100011_005_01
 
 window,off
 bgmstop,bgmtag1_1,1
@@ -99,7 +99,7 @@ asynccharaemo,chara_1,Spirits,STOP
 
 asynccharaface,chara_1,FaceHappy,STOP
 window,on,0.15
-message,エメルダ,（よしっ、潜入成功♪<br>思ったより簡単だったなぁ。ザル警備、助かる～っ♪）,,vc_10330100011_006_01
+message,エメルダ,(Yes! Infiltration successful!\nThat was easier than I thought.<br>Shoddy security，just what I needed!)<br> ,,vc_10330100011_006_01
 
 
 
@@ -109,7 +109,7 @@ asynccharaemo,chara_1,Silence,STOP
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,エメルダ,（あとは、特ダネさんが入った部屋の様子をどうにかして――）,,vc_10330100011_007_01
+message,エメルダ,(Now I just need to somehow get a look at the room Scoop entered—)<br> ,,vc_10330100011_007_01
 
 charaMask,chara_1,0,400,0.5
 
@@ -119,7 +119,7 @@ charashow,chara_2,0.3
 
 
 
-message,ルディア,ふふふっ。だめですよーっ。<br>そぉーれっ♪,,vc_10330100011_008_01
+message,ルディア,Fufufu. That won't do!\nHere I go!<br> ,,vc_10330100011_008_01
 
 
 asynccharareaction,chara_1,Shake,1,STOP
@@ -130,7 +130,7 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,ExclaQues,STOP
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,エメルダ,はい！？,,vc_10330100011_009_01
+message,エメルダ,Huh?!<br> ,,vc_10330100011_009_01
 
 window,off
 wait,0.15
@@ -152,9 +152,9 @@ asynccharamove,chara_1,LinearTarget,CharaHeight,-100,1,STOP
 asynccharahide,chara_1,0.3,STOP,0
 
 window,on,0.15
-message,,エメルダの背後に現れたルディアが、<br>ぷしゅーっ、と香水を振り掛ける。眠り薬入りの香水だ。
+message,,Ludia appeared behind Emeralda and sprayed her with perfume laced<br>with a sleeping drug—pshew.<br> 
 
-message,エメルダ,はにゃぁっ…………ぐーっ。,,vc_10330100011_010_01
+message,エメルダ,Wha—?...Zzz.<br> ,,vc_10330100011_010_01
 
 
 window,off
@@ -185,7 +185,7 @@ asynccharaemo,chara_2,Spirits,STOP
 
 asynccharaface,chara_2,FaceUnique01,STOP
 window,on,0.15
-message,ルディア,ふふっ、悪い子にはお仕置きしないとですねー。<br>さて、あの方を呼んできましょうか♪,,vc_10330100011_011_01
+message,ルディア,Fufu，we'll have to punish a bad girl，won't we?\nNow then，shall I go<br>call that person?♪<br> ,,vc_10330100011_011_01
 
 window,off
 bgmstop,bgmtag1_2,1
@@ -206,15 +206,15 @@ transitionFade,Tra13,in,black,1
 
 
 window,on,0.15
-message,エメルダ,う、う～ん……あれ、あたし、寝て……？,,vc_10330100011_012_01
+message,エメルダ,Ugh，ugh... Huh，was I sleeping...?<br> ,,vc_10330100011_012_01
 
-message,,目が覚めると、エメルダは真っ暗な部屋の中にいた。<br>……と思ったのだが、すぐに違うことに気付く。
+message,,When Emeralda woke up，she found herself in a pitch-dark room. Or so<br>she thought—she soon realized something was different.<br> 
 
 
 asyncseplay,setag1_12,se4400132,0,1,CONT
 
 
-message,エメルダ,（違う！　これ、目隠しだ！？　しかも縛られてる！？<br>おまけに裸じゃん！　なにこれぇ～！？　服どこー！？）,,vc_10330100011_013_01
+message,エメルダ,(No! Is this a blindfold? And I'm tied up! On top of that，I'm naked!<br>What the hell is this? Where are my clothes?)<br> ,,vc_10330100011_013_01
 
 window,off
 wait,0.15
@@ -226,7 +226,7 @@ wait,1
 asyncseplay,setag1_14,se4300004,0,1,CONT
 
 window,on,0.15
-message,,暴れて逃れようとするが、身動きは取れない。<br>じたばたしているうちに、誰かが室内に入ってくる気配がした。
+message,,She thrashed around，trying to break free，but she couldn't move. As<br>she writhed，she sensed someone entering the room.<br> 
 
 
 labeljump,b

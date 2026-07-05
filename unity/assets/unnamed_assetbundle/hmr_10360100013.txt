@@ -18,13 +18,13 @@ bgmplay,bgmtag3_1,bgm0024,1
 asyncshake,BACK,,30,0,1,10,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_1,30,0,1,10,off,off,0,off,CONT,0
 window,on,0.15
-message,ライム,……は？　はぁ？　はぁぁぁぁっ！？,,vc_10360100013_001_01
+message,ライム,...Huh? What? Aaaah!<br> ,,vc_10360100013_001_01
 
-message,,翌朝、<user>は<br>隣から響く叫び声で目を覚ました。
+message,,The next morning，the Commander was awakened by a scream from beside<br>him.<br> 
 
 asyncshake,BACK,,30,0,1,10,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_1,30,0,1,10,off,off,0,off,CONT,0
-message,ライム,知らぬ間に寝ていて、服がなくて、隣には気に入らない男……！？<br>あ、あなたのせい――じゃ、ないっ！？　あぁ、全部わたくしのせいだわっ！,,vc_10360100013_002_01
+message,ライム,I fell asleep without realizing it，I'm not wearing any clothes，and<br>beside me is that detestable man...! Ah，it's your fault—no，it's not! Ah，it's all my fault!<br> ,,vc_10360100013_002_01
 
 
 asyncseplay,setag3_1,se4400119,0,1,CONT
@@ -38,9 +38,9 @@ charaface,chara_1,FaceUnique01
 
 charashow,chara_1,0.3
 window,on,0.15
-message,,どたばたと騒いだ後、ライムは慌てて衣服をまとった。
+message,,After a frantic commotion，Lime hastily put her clothes back on.<br> 
 
-message,<user>,……あー、記憶が残っていて良かったぞ、ライム。
+message,<user>,...Ah，good thing my memory's intact，Lime.<br> 
 
 
 asynccharareaction,chara_1,Shake,1,STOP
@@ -51,9 +51,9 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,BePeevish,STOP
 
 asynccharaface,chara_1,FaceAnger,STOP
-message,ライム,わたくしは記憶が消えていればと、心から思うわ！<br>この変態司令官、好き勝手やってくれたわね！,,vc_10360100013_003_01
+message,ライム,I honestly wish my memories had been erased! You perverted<br>Commander，you did whatever you pleased!<br> ,,vc_10360100013_003_01
 
-message,<user>,しっかり同意は得ていたと思うんだが。
+message,<user>,I think I had your full consent，though.<br> 
 
 asynccharareaction,chara_1,Jump,1,STOP
 
@@ -64,9 +64,9 @@ asynccharaemo,chara_1,Panic,STOP
 asynccharaface,chara_1,FaceUnique01,STOP
 
 asynccharaface,chara_1,FaceSad,STOP,8
-message,ライム,そうね！　全部わたくしも納得済みだったわ！　本当に忌々しいことにねっ！<br>もう、どうすれば……こんなの、レイゼリア様に顔向けできない……！,,vc_10360100013_004_01
+message,ライム,That's right! I was fully on board with everything! How utterly<br>infuriating! Ugh，what am I supposed to do... I can't face Lady Reyzeria now...!<br> ,,vc_10360100013_004_01
 
-message,<user>,ま、とりあえず飯でも食いに行こう。<br>たっぷり動いたから腹も減ってるだろ？
+message,<user>,Well，let's go grab a bite first. All that exercise made us<br>hungry，right?<br> 
 
 asynccharareaction,chara_1,Jump,1,STOP
 
@@ -76,9 +76,9 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,BePeevish,STOP
 
 asynccharaface,chara_1,FaceAnger,STOP
-message,ライム,あなたはなんで余裕そうなの！<br>わたくしなんかを相手にしたのよ、少しぐらいは動揺したらどう！？,,vc_10360100013_005_01
+message,ライム,Why are you so calm? You had me，of all people! Couldn't you be at<br>least a little flustered!<br> ,,vc_10360100013_005_01
 
-message,<user>,なんか、ってのはどういうことだ？<br>俺はライムみたいに強くて有能で、自分を曲げない女は好みだぞ？
+message,<user>,What's this ""someone like me"" business? I like women who are<br>strong，capable，and uncompromising—like you，Lime.<br> 
 
 asynccharareaction,chara_1,Shake,1,STOP
 
@@ -88,7 +88,7 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
 asynccharaface,chara_1,FaceUnique02,STOP
-message,ライム,っ……あ、あんなことがあったからって勘違いするんじゃないわよ！？<br>わたくしはあなたみたいな、軽薄八方美人男は大嫌いだから！,,vc_10360100013_006_01
+message,ライム,Tch... Don't you get the wrong idea just because of what happened! I<br>hate superficial，two-faced men like you!<br> ,,vc_10360100013_006_01
 
 
 asyncseplay,setag3_6,se4800016,0,1,CONT
@@ -99,9 +99,9 @@ asynccharaemo,chara_1,BePeevish,STOP
 asynccharaface,chara_1,FaceAnger,STOP
 
 asynccharaface,chara_1,FaceSad,STOP,8
-message,ライム,あの娼館もよ……！　監査対象に入れて、入念に監視してやるわ……！<br>ううう、どうしてこんなことにぃ……！,,vc_10360100013_007_01
+message,ライム,That brothel too...! I'll put it under audit and watch it<br>closely...! *whimper*... why did it come to this...!<br> ,,vc_10360100013_007_01
 
-message,,それからしばらくの間、ライムは頭を抱え続けるのだった……
+message,,For a while afterwards，Lime kept her head in her hands...<br> 
 
 window,off
 bgmstop,bgmtag3_1,0.5

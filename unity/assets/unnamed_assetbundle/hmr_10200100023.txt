@@ -13,11 +13,11 @@ bgmplay,bgmtag3_1,bgm0035,1
 
 
 window,on,0.15
-message,ラヴェリア,……ん、う……<br>あ、れ……ここ、は……？,,vc_10200100023_001_01
+message,ラヴェリア,Ngh... uh... What...? This is...?<br> ,,vc_10200100023_001_01
 
-message,,気づくと、そこはまだ娼館の１室だった。<br>客の姿はなく、ラヴェリア１人だ。
+message,,When she came to，she was still in one of the brothel's rooms. The<br>client was gone; Laveria was alone.<br> 
 
-message,,はっとして体を調べるが、どうやらケガや異常はない。<br>安堵の息を漏らしていると、ドアがノックされた。
+message,,Startled，she checked her body，but found no injuries or<br>abnormalities. As she breathed a sigh of relief，a knock came at the door.<br> 
 
 
 seplay,setag3_1,se4300001,0,1
@@ -30,7 +30,7 @@ wait,0.5
 
 charashow,chara_2,0.3
 
-message,ルディア,あ、ラヴェリアさんっ。<br>気がつきましたか？,,vc_10200100023_002_01
+message,ルディア,Oh，Laveria! You're awake?<br> ,,vc_10200100023_002_01
 
 window,off
 wait,0.15
@@ -57,7 +57,7 @@ asyncseplay,setag3_3,se4800007,0,1,CONT
 asynccharaemo,chara_1,Panic,STOP
 
 window,on,0.15
-message,ラヴェリア,あ、あぁ……。あの、お客は……,,vc_10200100023_003_01
+message,ラヴェリア,Ah，yes... Um，the client...?<br> ,,vc_10200100023_003_01
 
 charaface,chara_2,FaceHappy
 
@@ -69,9 +69,9 @@ asynccharaface,chara_2,FaceFun,STOP,4
 
 asynccharareaction,chara_2,Nod,1,STOP
 asynccharaemo,chara_2,Laugh,STOP
-message,ルディア,もう帰りましたよ。<br>とっても満足してね。ふふっ。,,vc_10200100023_004_01
+message,ルディア,He left already. And he was very satisfied. Fufu.<br> ,,vc_10200100023_004_01
 
-message,,それを聞いて全身から力が抜けた。<br>やっと解放されたという安堵で動けなくなる。
+message,,Hearing that，all the strength drained from her body. She couldn't<br>move，overcome with relief that she had finally been released.<br> 
 
 charapose,chara_2,1
 
@@ -81,7 +81,7 @@ asynccharaemo,chara_2,Trouble,STOP
 
 charaface,chara_2,EyeOpen
 charaface,chara_2,FaceNormal
-message,ルディア,あのお客様ね、とってもいい人なんですけど、あの体質でしょう？<br>そのせいで色々苦労しているんですよ。,,vc_10200100023_005_01
+message,ルディア,That client is a really nice person，but he has that<br>constitution，right? He goes through a lot because of it.<br> ,,vc_10200100023_005_01
 
 asyncseplay,setag3_6,se4800008,0,1,CONT
 
@@ -90,30 +90,30 @@ asynccharaemo,chara_1,Sweat,STOP
 asynccharareaction,chara_1,nod,1,STOP
 
 charaface,chara_1,FaceSad
-message,ラヴェリア,そう、だろうな……あれではさぞ、大変だろう……,,vc_10200100023_006_01
+message,ラヴェリア,Yeah，I suppose... That must be really hard for him...<br> ,,vc_10200100023_006_01
 
 asynccharareaction,chara_2,nod,1,STOP
 
 charaface,chara_2,FaceHappy
-message,ルディア,その点、ラヴェリアさんは最後気絶こそしてしまったものの、<br>身体に異常はないんだから大したものですね。,,vc_10200100023_007_01
+message,ルディア,But still，even though you passed out in the end，it's impressive that<br>you have no physical problems.<br> ,,vc_10200100023_007_01
 
 asynccharareaction,chara_1,shake,1,STOP
 
 asynccharaface,chara_1,FaceShy,STOP,3.6
-message,ラヴェリア,いや、さすがのアタシも死ぬかと……ん♡,,vc_10200100023_008_01
+message,ラヴェリア,No，even I thought I might die... mmm!♡<br> ,,vc_10200100023_008_01
 
-message,,先ほどの行為を思い出すと、また下半身が熱くなってきた。<br>ルディアはそんなラヴェリアを見逃さない。
+message,,As she recalled the earlier act，her lower body grew hot again. Ludia<br>didn't miss that.<br> 
 
 charapose,chara_2,2
 
 asynccharaface,chara_2,EyeClose,STOP
 asynccharaface,chara_2,FaceNormal,STOP
-message,ルディア,ちなみに、司令官君は今日は予定がないそうですよ。<br>お客様を満足させたボーナスとして、特別室を貸してあげてもいいですが……,,vc_10200100023_009_01
+message,ルディア,By the way，I hear the Commander has no plans today. As a bonus for<br>satisfying the client，I could lend you the special room，but...<br> ,,vc_10200100023_009_01
 
 asynccharareaction,chara_2,nod,1,STOP
 
 charaface,chara_2,FaceUnique03
-message,ルディア,どうします？,,vc_10200100023_010_01
+message,ルディア,How about it?<br> ,,vc_10200100023_010_01
 
 charaface,chara_1,FaceSurprise
 
@@ -127,13 +127,13 @@ asynccharaface,chara_1,FaceNormal,STOP,1
 
 asynccharaface,chara_1,EyeClose,STOP,1.5
 asynccharaface,chara_1,FaceNormal,STOP,1.5
-message,ラヴェリア,え？　ア、アタシは……,,vc_10200100023_011_01
+message,ラヴェリア,Huh? I... I...<br> ,,vc_10200100023_011_01
 
 asyncseplay,setag3_8,se4800012,0,1,CONT
 
 asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
-message,,ついさっきまで腰が抜けたようになっていたのに、<br>彼のことを思うと股間がまた疼き出してしまうラヴェリアだった。
+message,,Though her hips had given out just moments before，at the thought of<br>him，Laveria's crotch began to throb again.<br> 
 
 window,off
 bgmstop,bgmtag3_1,0.5

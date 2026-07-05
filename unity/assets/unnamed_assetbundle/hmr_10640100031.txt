@@ -50,14 +50,14 @@ wait,0.5
 window,on,0.15
 message,ラモーナ,～～～～～～～～～～～～～♪,106401000G,vc_10640100031_001_01,chara_1
 
-message,,ラモーナが気持ち良さそうに歌っている。その周囲には、その歌声に誘われた<br>リスや鳥など森の生き物たちがたくさん集まってきていた。
+message,,Ramona was singing with evident joy. Drawn by her song，many forest<br>creatures—squirrels，birds，and more—had gathered around her.<br> 
 
-message,,全員が耳を澄ませてラモーナの歌声に聴き入っている。
+message,,All of them listened intently，captivated by Ramona's voice.<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,1.3,STOP
 
 
-message,ラモーナ,～～～～～～…………ふぅ♪,106401000G,vc_10640100031_002_01,chara_1
+message,ラモーナ,mmmm... *sigh*.♪<br> ,106401000G,vc_10640100031_002_01,chara_1
 
 window,off
 wait,0.15
@@ -70,7 +70,7 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncseplay,setag1_2,SE_DUMMY,0,1,CONT,0
 
 window,on,0.15
-message,,ラモーナの歌が終わると、辺りから拍手や歓声が上がった。<br>森の生き物たちがそれぞれの仕方でラモーナの歌を讃えている。
+message,,When Ramona's song ended，applause and cheers rose from all around.<br>The forest creatures praised her song in their own ways.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -81,7 +81,7 @@ asyncseplay,setag1_3,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ラモーナ,あ……ありがとうございます♪,106401000G,vc_10640100031_003_01,chara_1
+message,ラモーナ,Ah... thank you very much.♪<br> ,106401000G,vc_10640100031_003_01,chara_1
 
 window,off
 wait,0.15
@@ -115,7 +115,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,ラモーナ、すごいな。<br>歌のことはよく分からないが、ますます上手くなってるんじゃないか？
+message,<user>,Ramona，that was incredible. I don't know much about singing，but<br>you're getting better and better，aren't you?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -126,7 +126,7 @@ asyncseplay,setag1_4,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ラモーナ,本当ですか？　司令官さまにそう言ってもらえると自信が持てます。<br>私も最近ますます歌いやすくて、歌うのがとっても楽しいんです。,106401000G,vc_10640100031_004_01,chara_1
+message,ラモーナ,Really? Hearing you say that，Commander，gives me confidence.<br>Lately，I've found singing easier，and I enjoy it so much.<br> ,106401000G,vc_10640100031_004_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -138,7 +138,7 @@ asyncseplay,setag1_5,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ラモーナ,これも、司令官さまのレッスンのおかげですね♪<br>ふふふ。,106401000G,vc_10640100031_005_01,chara_1
+message,ラモーナ,This is thanks to your lessons，too，Commander.♪ Fufufu.<br> ,106401000G,vc_10640100031_005_01,chara_1
 
 window,off
 wait,0.15
@@ -156,11 +156,11 @@ asynccharaemo,chara_1,Shy,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,レッスンのことを思い出したのか、ラモーナははにかむように頬を赤らめる。<br>その笑みに、こちらもくすぐったいような気分になってしまった。
+message,,Perhaps remembering the lessons，Ramona blushed shyly. Her smile made<br>me feel a bit tickled as well.<br> 
 
-message,<user>,本当に上手くなってるぞ。歌に集まってくる動物たちも増えているようだし。<br>ほら、置き土産もそんなに。
+message,<user>,You really are getting better，and it seems more animals are<br>gathering for your song. Look，even the offerings are piling up.<br> 
 
-message,,歌が終わると動物たちは、木の実などの置き土産を置いていく。<br>その量も、以前より増えているようだ。
+message,,When the song ended，the animals left offerings of nuts and fruit.<br>There seemed to be even more than before.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -172,11 +172,11 @@ asyncseplay,setag1_7,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ラモーナ,本当にたくさん……<br>私のことを仲間だと思ってくれているみたいで、それが何より嬉しいです。,106401000G,vc_10640100031_006_01,chara_1
+message,ラモーナ,There truly are so many... They seem to think of me as one of<br>them，and that makes me happier than anything.<br> ,106401000G,vc_10640100031_006_01,chara_1
 
-message,,動物たちの置き土産の中に、一つ鮮やかなピンク色の実が混ざっていた。<br>鮮やかすぎて、森の中では警戒すべき色だ。
+message,,Among the animals' offerings，a vivid pink fruit was mixed in. It was<br>so bright that it was a color to be wary of in the forest.<br> 
 
-message,<user>,この色……どんな動物が置いて行ったものだろう？<br>人には危険かもしれないから食べない方がいいな。
+message,<user>,This color... what kind of animal could have left this? It might be<br>dangerous for humans，so you'd better not eat it.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -187,7 +187,7 @@ asyncseplay,setag1_8,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ラモーナ,そんなことはありませんよ～。<br>森の皆さんが食べているものですから大丈夫です。,106401000G,vc_10640100031_007_01,chara_1
+message,ラモーナ,Not at all，Commander. The forest creatures eat it，so it's perfectly<br>safe.<br> ,106401000G,vc_10640100031_007_01,chara_1
 
 window,off
 wait,0.15
@@ -208,11 +208,11 @@ asyncjump,CHARA,chara_1,-10,0.8,2,off,0,CONT
 asyncwait
 
 window,on,0.15
-message,,そう言うとラモーナは、鮮やかなピンク色の木の実をポイッと口に<br>放り込んでしまった。そのまま噛みしめて飲み下してしまう。
+message,,Saying that，Ramona popped the vivid pink fruit into her mouth and<br>chewed and swallowed it down.<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
-message,<user>,おい、大丈夫か？
+message,<user>,Hey，are you okay?<br> 
 
 bgmplay,bgmtag1_2,bgm0027,0.75,1
 
@@ -225,9 +225,9 @@ asyncseplay,setag1_9,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ラモーナ,はい、とっても美味しいです♪,106401000G,vc_10640100031_008_01,chara_1
+message,ラモーナ,Yes，it's quite delicious!♪<br> ,106401000G,vc_10640100031_008_01,chara_1
 
-message,,ラモーナが蕩けそうな笑みを浮かべる。それを見てホッとしたのも束の間、<br>すぐにその頬は赤く上気し、瞳もうるうると潤んできた。
+message,,Ramona wore a melting smile. I felt a moment of relief，but soon her<br>cheeks flushed red and her eyes grew moist and hazy.<br> 
 
 window,off
 wait,0.15
@@ -245,7 +245,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 asyncwait
 
 window,on,0.15
-message,<user>,おい、本当に大丈夫か？
+message,<user>,Hey，are you really okay?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -256,7 +256,7 @@ asyncseplay,setag1_11,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ラモーナ,大丈夫ですってばぁ。<br>それより、司令官さま……,106401000G,vc_10640100031_009_01,chara_1
+message,ラモーナ,I told you，it's fine! More importantly，Commander...<br> ,106401000G,vc_10640100031_009_01,chara_1
 
 window,off
 wait,0.15
@@ -294,9 +294,9 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,ラモーナ,このまま……司令官さまのこと押し倒しちゃっても、<br>構いませんか……？,106401000G,vc_10640100031_010_01,chara_1
+message,ラモーナ,Would you mind if I just pushed you down like this，Commander...?<br> ,106401000G,vc_10640100031_010_01,chara_1
 
-message,<user>,……は？　押し倒す？<br>何を言ってるんだ？
+message,<user>,Huh? Push me down? What are you talking about?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -307,9 +307,9 @@ asyncseplay,setag1_13,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ラモーナ,えへへへへ♪,106401000G,vc_10640100031_011_01,chara_1
+message,ラモーナ,Ehehehehe!♪<br> ,106401000G,vc_10640100031_011_01,chara_1
 
-message,,ラモーナの様子が明らかにおかしい。<br>これはやはり、今の木の実のせいなのでは……
+message,,Ramona's behavior was clearly strange. It had to be because of that<br>fruit...<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -320,7 +320,7 @@ asyncseplay,setag1_14,se4800002,0,1,CONT,0
 asynccharaemo,chara_1,Heart,CONT,0
 
 
-message,ラモーナ,司令官さま……私、もう我慢できないんです……<br>身体が熱くて熱くて……ですから……はぁぁぁ～～～～♪,106401000G,vc_10640100031_012_01,chara_1
+message,ラモーナ,Commander... I can't hold back anymore... My body is so hot，so<br>hot... So... *pant*!♪<br> ,106401000G,vc_10640100031_012_01,chara_1
 
 
 window,off
@@ -345,9 +345,9 @@ seplay,setag1_15,se4400119,0,1
 transitionFade,Tra19,in,black,0
 
 window,on,0.15
-message,,ラモーナは、いきなり抱きつくように覆い被さってきた。<br>地面に押し倒し、その上に馬乗りに跨がってくる。
+message,,Ramona suddenly lunged at me，as if to embrace me. She pushed me to<br>the ground and straddled me.<br> 
 
-message,<user>,お、おい！　ラモーナ！？
+message,<user>,Hey! Ramona!<br> 
 
 labeljump,b
 

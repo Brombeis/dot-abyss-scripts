@@ -42,14 +42,14 @@ asynccharaemo,chara_1,Panic,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
 window,on,0.15
-message,イオラ,はぁぁ……困った。<br>お財布がすごく、すごーく軽い……,,vc_10450100011_001_01
+message,イオラ,*sigh*... This is bad. My wallet is really，really light...<br> ,,vc_10450100011_001_01
 
 asyncseplay,setag1_3,se4800008,0,1,CONT
 
 asynccharaemo,chara_1,Sweat,STOP
 
 asynccharareaction,chara_1,Nod,1,STOP
-message,イオラ,学費も払わなきゃだし、生活費も稼がなきゃだし、<br>出費がかさんでるのよねぇ……何かいい仕事があれば――,,vc_10450100011_002_01
+message,イオラ,I have to pay tuition and cover my living costs... expenses are<br>piling up. If only there were a good job—<br> ,,vc_10450100011_002_01
 
 window,off
 wait,0.15
@@ -71,7 +71,7 @@ charamove,chara_1,LinearTarget,X,-400,0.5
 sestop,se1_1001,0.1
 
 window,on,0.15
-message,,イオラは、娼館酒場前の張り紙に目を留めた。
+message,,Iola's gaze landed on a recruitment poster outside the brothel bar.<br> 
 
 asyncseplay,setag1_5,se4800017,0,1,CONT
 
@@ -81,7 +81,7 @@ asynccharaemo,chara_1,Shock,STOP
 asynccharaface,chara_1,FaceSurprise,STOP
 
 asynccharareaction,chara_1,Jump,1,STOP
-message,イオラ,従業員募集？　……えっ！？<br>なにこれ！？　お金メチャメチャいいし！,,vc_10450100011_003_01
+message,イオラ,Help wanted?... Huh! What's this! The pay is incredible!<br> ,,vc_10450100011_003_01
 
 asynccharashow,chara_2,0.3,CONT
 
@@ -90,7 +90,7 @@ asyncseplay,setag1_6,se4800013,0,1,CONT
 asynccharareaction,chara_2,Jump,1,STOP
 asynccharaemo,chara_2,Spirits,STOP
 
-message,ルディア,あらあら。興味を持ってもらえたかしら？<br>ありがとう～♪,,vc_10450100011_004_01
+message,ルディア,Oh my. Are you interested，dear? Thank you!♪<br> ,,vc_10450100011_004_01
 
 window,off
 wait,0.15
@@ -115,7 +115,7 @@ asynccharareaction,chara_1,Shake,1,STOP
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
 window,on,0.15
-message,イオラ,えっと～……こちらのお店の方ですか？,,vc_10450100011_005_01
+message,イオラ,Umm... Are you from this establishment?<br> ,,vc_10450100011_005_01
 
 asynccharaface,chara_2,EyeOpen,STOP
 asynccharaface,chara_2,FaceNormal,STOP
@@ -125,7 +125,7 @@ asyncseplay,setag1_9,se4800022,0,1,CONT
 asynccharaemo,chara_2,Speak,STOP
 
 asynccharareaction,chara_2,Nod,1,STOP
-message,ルディア,私はルディア。この娼館の店主よ。<br>ここのオーナーはこの前線基地の司令官君がやってるの。,,vc_10450100011_006_01
+message,ルディア,I'm Ludia，the madam of this brothel. The owner is the Commander of<br>this Frontline Base.<br> ,,vc_10450100011_006_01
 
 
 
@@ -167,7 +167,7 @@ asynccharaemo,chara_1,Question,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
 window,on,0.15
-message,イオラ,（ショーカン……ってなんだっけ？<br>確か、学校で男子たちが言ってたような……？）,,vc_10450100011_007_01
+message,イオラ,(""Summoner""... what's that again? I think I heard the boys at school<br>say it...?)<br> ,,vc_10450100011_007_01
 
 window,off
 wait,0.15
@@ -188,7 +188,7 @@ asynccharaemo,chara_1,Exclamation,STOP
 
 asynccharaface,chara_1,FaceSurprise,STOP
 window,on,0.15
-message,イオラ,って、ちょっと待って！<br>先生が、ここのお店のオーナー？,,vc_10450100011_008_01
+message,イオラ,Wait，hold on! Teacher is the owner of this place?<br> ,,vc_10450100011_008_01
 
 
 window,off
@@ -218,7 +218,7 @@ asynccharaemo,chara_2,Spirits,STOP
 
 asynccharaface,chara_2,FaceHappy,STOP
 window,on,0.15
-message,ルディア,あら、お知り合いだったのね。あなたみたいな可愛いコは大歓迎よ。<br>報酬も保障するわ。ちょうど司令官君も中にいるし、見学していく？,,vc_10450100011_009_01
+message,ルディア,Oh，you know him? Cute girls like you are always welcome. I can<br>guarantee the compensation. And since Commander is inside right now，would you like to have a look around?<br> ,,vc_10450100011_009_01
 
 
 asynccharareaction,chara_1,Hop,1,STOP
@@ -228,7 +228,7 @@ asyncseplay,setag1_13,se4800003,0,1,CONT
 asynccharaemo,chara_1,Twinkle,STOP
 
 asynccharaface,chara_1,FaceHappy,STOP
-message,イオラ,見学させてもらえるんですか！　ありがとうございます！,,vc_10450100011_010_01
+message,イオラ,You'll let me look around? Thank you so much!<br> ,,vc_10450100011_010_01
 
 window,off
 wait,0.15
@@ -259,7 +259,7 @@ asynccharaemo,chara_1,Shock,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
 window,on,0.15
-message,イオラ,えええっ！？　可愛いっ！！！,,vc_10450100011_011_01
+message,イオラ,Wow! So cute!<br> ,,vc_10450100011_011_01
 
 asyncseplay,setag1_15,se4800003,0,1,CONT
 
@@ -267,14 +267,14 @@ asynccharaemo,chara_1,Twinkle,STOP
 
 asynccharaface,chara_1,FaceHappy,STOP
 
-message,,建物の中に入ると、イオラは女性たちの娼館衣装を見て<br>目を輝かせた。
+message,,Once inside，Iola's eyes lit up as she saw the women's brothel<br>attire.<br> 
 
 asyncseplay,setag1_16,se4800022,0,1,CONT
 
 asynccharaemo,chara_2,Speak,STOP
 
 asynccharaface,chara_2,FaceFun,STOP
-message,ルディア,うちで働いてもらえるなら、あなたに似合う衣装を作ってあげるわよ。,,vc_10450100011_012_01
+message,ルディア,If you decide to work here，I'll have a custom outfit made just for<br>you.<br> ,,vc_10450100011_012_01
 
 asyncseplay,setag1_17,se4800004,0,1,CONT
 
@@ -286,7 +286,7 @@ asynccharareaction,chara_1,Shake,1,STOP
 asynccharaface,chara_1,FaceSurprise,STOP
 
 asynccharaface,chara_1,FaceFun,STOP,5
-message,イオラ,ええ～、あたし用の衣装まで作ってもらえるんですか！？<br>お金も稼げるし、服も可愛いならやってみようかな～。,,vc_10450100011_013_01
+message,イオラ,Really? They'd even make a costume just for me? I can make money and<br>the outfits are cute，so I think I'll give it a try!<br> ,,vc_10450100011_013_01
 
 window,off
 wait,0.15
@@ -300,7 +300,7 @@ wait,1
 asynccharaface,chara_2,EyeOpen,STOP
 asynccharaface,chara_2,FaceNormal,STOP
 window,on,0.15
-message,<user>,誰かと思えばイオラじゃないか。<br>……お前、本気で働く気なのか？
+message,<user>,Oh，it's Iola... Are you seriously thinking of working here?<br> 
 
 asyncseplay,setag1_19,se4800010,0,1,CONT
 
@@ -312,11 +312,11 @@ asyncseplay,setag1_20,se4800009,2,1,CONT
 asynccharaemo,chara_1,Question,STOP,2
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,イオラ,あっ、先生！<br>その言いかただと、けっこう大変な仕事……なカンジ？,,vc_10450100011_014_01
+message,イオラ,Oh，Teacher! The way you're saying that，it sounds like it's a pretty<br>tough job...?<br> ,,vc_10450100011_014_01
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,<user>,はぁっ！？　なんだよ。<br>まさか、どういう仕事かも知らずに働こうとしてたのか？
+message,<user>,*pant*! What the hell! Don't tell me you were about to work without<br>even knowing what the job is?<br> 
 
 asyncseplay,setag1_21,se4800007,0,1,CONT
 
@@ -325,7 +325,7 @@ asynccharaemo,chara_1,Panic,STOP
 asynccharaface,chara_1,FaceSad,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
-message,イオラ,先生にそう言われると……<br>あたしじゃ難しい仕事なのかな？,,vc_10450100011_015_01
+message,イオラ,If you say that，Teacher... does that mean it's too much for me?<br> ,,vc_10450100011_015_01
 
 charapose,chara_2,2
 
@@ -334,7 +334,7 @@ asyncseplay,setag1_22,se4800003,0,1,CONT
 asynccharaemo,chara_2,Twinkle,STOP
 
 asynccharaface,chara_2,FaceHappy,STOP
-message,ルディア,そんなことないわよ。<br>あなたみたいに可愛いコはすぐに人気が出ると思うわ。,,vc_10450100011_016_01
+message,ルディア,Not at all. I think a cute girl like you will become popular in no<br>time.<br> ,,vc_10450100011_016_01
 
 asynccharaface,chara_1,FaceFun,STOP
 
@@ -346,9 +346,9 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Spirits,STOP
 
 asynccharareaction,chara_1,Nod,1,STOP,4
-message,イオラ,ええっ！？　可愛いって言ってくれて嬉しいです！<br>なるほど、人気が重要なお仕事なんですねっ！,,vc_10450100011_017_01
+message,イオラ,Ehh! I'm so happy you said I'm cute! I see，so it's a job where<br>popularity is important!<br> ,,vc_10450100011_017_01
 
-message,<user>,おいおい、ルディアのペースにハメられるんじゃないぞ。
+message,<user>,Hey，don't let Ludia drag you into her pace.<br> 
 
 asynccharareaction,chara_1,Shake,1,STOP
 
@@ -364,9 +364,9 @@ asynccharaemo,chara_1,Question,STOP,9
 
 asynccharaface,chara_1,EyeOpen,STOP,9
 asynccharaface,chara_1,FaceNormal,STOP,9
-message,イオラ,え～……でも、あたしもああいう可愛い服、着てみたいしなぁ……<br>先生はどう思う？　あたしに似合うと思う？,,vc_10450100011_018_01
+message,イオラ,Ehh... but I kind of want to wear those cute clothes too...<br>Teacher，what do you think? Do you think they'd suit me?<br> ,,vc_10450100011_018_01
 
-message,<user>,そりゃ似合うだろうとは思うけどな。
+message,<user>,Well，I think they would suit you，but...<br> 
 
 asyncseplay,setag1_26,se4800013,0,1,CONT
 
@@ -376,9 +376,9 @@ asynccharaemo,chara_1,Spirits,STOP
 asynccharaface,chara_1,FaceUnique01,STOP
 
 asynccharareaction,chara_1,Jump,1,STOP
-message,イオラ,でしょでしょっ？<br>よーし、決めた！　あたし、ここで働く！,,vc_10450100011_019_01
+message,イオラ,See，see? Alright，I've decided! I'm gonna work here!<br> ,,vc_10450100011_019_01
 
-message,<user>,おいおい、そんなあっさりと……<br>お前、ここの仕事ちゃんと理解してないだろ？
+message,<user>,Hey，hey，just like that? You don't really understand what this job<br>is，do you?<br> 
 
 charapose,chara_2,1
 
@@ -388,7 +388,7 @@ asynccharareaction,chara_2,Nod,1,STOP
 asynccharaemo,chara_2,Laugh,STOP
 
 asynccharaface,chara_2,FaceFun,STOP
-message,ルディア,本人がやりたいって言ってるんだし、いいじゃないの。<br>じゃあ、お仕事については研修で教えてあげてね、『先生』♪,,vc_10450100011_020_01
+message,ルディア,If she says she wants to，then it's fine，isn't it? You can teach her<br>about the work during training，""Teacher""!♪<br> ,,vc_10450100011_020_01
 
 
 asynccharareaction,chara_1,Nod,1,STOP
@@ -398,9 +398,9 @@ asyncseplay,setag1_28,se4800022,0,1,CONT
 asynccharaemo,chara_1,Speak,STOP
 
 asynccharaface,chara_1,FaceHappy,STOP
-message,イオラ,よろしくお願いします！　先生！,,vc_10450100011_021_01
+message,イオラ,I'm counting on you，Teacher!<br> ,,vc_10450100011_021_01
 
-message,<user>,ったく……分かったよ。仕事の内容については俺が説明してやる。<br>でも、無理だと思ったら断ったっていいからな？
+message,<user>,Geez... Fine，I'll explain the job to you. But you can back out if<br>you think it's too much，okay?<br> 
 
 
 asynccharareaction,chara_1,Nod,1,STOP
@@ -411,9 +411,9 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Spirits,STOP
 
 asynccharaface,chara_1,FaceFun,STOP
-message,イオラ,はいっ！　先生！,,vc_10450100011_022_01
+message,イオラ,Yes，Teacher!<br> ,,vc_10450100011_022_01
 
-message,,仕事の内容を知ったらすぐに断りをいれてくるだろう。<br>そう思って、イオラと共に２階の空き部屋へと向かった。
+message,,She would probably refuse as soon as she found out what the job<br>really was. Thinking that，I headed to an empty room upstairs with Iola.<br> 
 
 
 

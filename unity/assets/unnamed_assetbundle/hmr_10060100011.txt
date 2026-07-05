@@ -56,7 +56,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,神よ……どうか皆さんを癒やせるよう、お導きください……,100601000G,vc_10060100011_001_01,chara_1
+message,ノエミ,Lord... please guide me so I can heal everyone...<br> ,100601000G,vc_10060100011_001_01,chara_1
 
 window,off
 wait,0.15
@@ -68,7 +68,7 @@ asyncseplay,setag1_1,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 window,on,0.15
-message,<user>,……こんな時間にお祈りか。<br>どこにもいないから探したんだぞ、ノエミ。
+message,<user>,Praying this late? I looked all over for you，Noemi.<br> 
 
 window,off
 wait,0.15
@@ -126,9 +126,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ノエミ,司令官さま……。<br>ごめんなさい、聖職者としてもっと皆さんを癒やしたくて、お祈りを……,100601000G,vc_10060100011_002_01,chara_1
+message,ノエミ,Lord Commander... I'm sorry. As a cleric，I want to heal everyone<br>more，so I was praying...<br> ,100601000G,vc_10060100011_002_01,chara_1
 
-message,<user>,ノエミはもう十分に頑張ってると思うけどな。<br>そんなに背負いこむ必要はないんだぞ。
+message,<user>,You're already working hard enough，Noemi. You don't have to shoulder<br>so much.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -140,7 +140,7 @@ asyncseplay,setag1_3,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ノエミ,ありがとうございます。<br>でも私は、もっと皆さんを癒やせるようになりたいんです！,100601000G,vc_10060100011_003_01,chara_1
+message,ノエミ,Thank you. But I want to be able to heal everyone even more!<br> ,100601000G,vc_10060100011_003_01,chara_1
 
 window,off
 wait,0.15
@@ -155,7 +155,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（ノエミは本当に清楚で純粋だな。<br>自然と人を惹きつけるみたいで――ん、そうか。癒やすっていうなら……）
+message,<user>,(Noemi really is so pure and innocent. She naturally draws people<br>in... Hmm，I see. If it's about healing...)<br> 
 
 window,off
 wait,0.15
@@ -170,7 +170,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,ならノエミ、娼館で働いてみるというのはどうだ？
+message,<user>,Then，Noemi，how about working at the brothel?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -181,9 +181,9 @@ asyncseplay,setag1_4,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ノエミ,はわわっ！？　司令官さまっ！？<br>教会でそんなこと言っちゃダメですよぉ～！,100601000G,vc_10060100011_004_01,chara_1
+message,ノエミ,Eep! Lord Commander! You can't say that in a church!<br> ,100601000G,vc_10060100011_004_01,chara_1
 
-message,<user>,恥じるようなことじゃない、疲れた兵士の心を癒やす素晴らしい仕事だぞ。<br>ノエミならたくさんの人を癒せるはずだ。
+message,<user>,It's nothing to be ashamed of. It's a wonderful job–you'd be healing<br>the hearts of weary soldiers. Noemi，you could heal so many people.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -194,9 +194,9 @@ asyncseplay,setag1_5,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ノエミ,で、でも……聖職者が娼館で働くのって、いいんでしょうか……？<br>そもそも私、そういったことの経験がなくて……,100601000G,vc_10060100011_005_01,chara_1
+message,ノエミ,But... is it really alright for a cleric to work at a brothel?<br>Besides，I have no experience with... that sort of thing...<br> ,100601000G,vc_10060100011_005_01,chara_1
 
-message,<user>,経験がない、か……。<br>なら、ひとまず俺を相手に研修をしてみるか？
+message,<user>,No experience，huh... Then how about a training session with me for<br>starters?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -207,13 +207,13 @@ asyncseplay,setag1_6,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ノエミ,ええええっ！？　ししし、司令官さまがお相手、ですか！？　,100601000G,vc_10060100011_006_01,chara_1
+message,ノエミ,Wh-what? Y-you，Lord Commander，would be my partner?<br> ,100601000G,vc_10060100011_006_01,chara_1
 
 asyncseplay,setag1_7,se4800008,0,1,CONT,0
 
 asynccharaemo,chara_1,Sweat,CONT,0
 
-message,<user>,誰かを癒やさなければと焦るぐらいなら、できることはやってみよう。<br>どうだ、俺と来てくれないか？
+message,<user>,If you're that desperate to heal someone，then let's try what we can.<br>How about it? Will you come with me?<br> 
 
 window,off
 wait,0.15
@@ -240,7 +240,7 @@ asynccharaemo,chara_1,Shy,CONT,0
 
 
 window,on,0.15
-message,ノエミ,そ、そうですね……はい、分かりました……。<br>司令官さま、あなたとなら……,100601000G,vc_10060100011_007_01,chara_1
+message,ノエミ,W-well... yes，I understand... If it's with you，Lord Commander...<br> ,100601000G,vc_10060100011_007_01,chara_1
 
 window,off
 wait,0.15
@@ -275,7 +275,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 asyncwait
 
 window,on,0.15
-message,,そうしてノエミは戸惑いながらも、<br>こちらが伸ばした手を握ってくれるのだった。
+message,,And so，despite her hesitation，Noemi took the hand I held out to her.<br> 
 
 
 window,off
@@ -322,9 +322,9 @@ asynccharaemo,chara_2,Shy,CONT,0
 
 
 window,on,0.15
-message,ノエミ,こ、こんないやらしい服を……。<br>聖職者が、こんな格好をしては……,100601000X,vc_10060100011_008_01,chara_2
+message,ノエミ,S-such a lewd outfit... A cleric shouldn't be dressed like this...<br> ,100601000X,vc_10060100011_008_01,chara_2
 
-message,<user>,普段とギャップがあって可愛いじゃないか。<br>さあノエミ、早速研修するぞ。
+message,<user>,The contrast from your usual look is cute. Come on，Noemi，let's start<br>the training.<br> 
 
 window,off
 wait,0.15
@@ -358,7 +358,7 @@ asynccharaemo,chara_2,Shy,CONT,0
 
 
 window,on,0.15
-message,ノエミ,は、はい……神よ、お許しください……,100601000X,vc_10060100011_009_01,chara_2
+message,ノエミ,Y-yes... God，please forgive me...<br> ,100601000X,vc_10060100011_009_01,chara_2
 
 labeljump,b
 

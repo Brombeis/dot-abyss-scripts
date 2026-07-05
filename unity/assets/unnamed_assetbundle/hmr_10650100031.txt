@@ -45,7 +45,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,今日の探索はなかなかキツかったな。<br>さすがのソフィアも疲れただろう？
+message,<user>,Today's exploration was pretty rough. Even you must be<br>tired，right，Sophia?<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -54,9 +54,9 @@ asyncseplay,setag1_1,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ソフィア,……そーね。,106501000G,vc_10650100031_001_01,chara_1
+message,ソフィア,I suppose.<br> ,106501000G,vc_10650100031_001_01,chara_1
 
-message,<user>,あー……成果もあまりなかったが、<br>時にはこういうこともある、よな？
+message,<user>,Ah... we didn't get much to show for it，but that happens<br>sometimes，right?<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -65,9 +65,9 @@ asyncseplay,setag1_2,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ソフィア,そーね。,106501000G,vc_10650100031_002_01,chara_1
+message,ソフィア,I suppose.<br> ,106501000G,vc_10650100031_002_01,chara_1
 
-message,<user>,…………
+message,<user>,...<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -76,9 +76,9 @@ asyncseplay,setag1_3,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ソフィア,そーね。,106501000G,vc_10650100031_003_01,chara_1
+message,ソフィア,I suppose.<br> ,106501000G,vc_10650100031_003_01,chara_1
 
-message,<user>,なあ、ソフィア。俺、何かしたか？<br>どうしてそんなに拗ねてるんだ？
+message,<user>,Hey，Sophia. Did I do something? Why are you so sulky?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -89,9 +89,9 @@ asyncseplay,setag1_4,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,ソフィア,…………司令官。<br>今日、一緒に調査をした女性の兵士に見惚れていたわよね？,106501000G,vc_10650100031_004_01,chara_1
+message,ソフィア,...Commander. You were ogling that female soldier from the joint<br>survey today，weren't you?<br> ,106501000G,vc_10650100031_004_01,chara_1
 
-message,<user>,……は？
+message,<user>,...Huh?<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -102,9 +102,9 @@ asyncseplay,setag1_5,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ソフィア,まあ、とても魅力的な女性だったから<br>仕方ないでしょうけれどぉ～～……,106501000G,vc_10650100031_005_01,chara_1
+message,ソフィア,Well，she was very attractive，so I guess it can't be helped，hmm...<br> ,106501000G,vc_10650100031_005_01,chara_1
 
-message,<user>,い、いやいやいや！　見惚れてなんかない！<br>露出が激しかったから、どうしても目がいってしまっただけだっ！
+message,<user>,N-no，not at all! I wasn't staring. It's just that her clothes were<br>so revealing，my eyes were drawn there.<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -113,9 +113,9 @@ asyncseplay,setag1_6,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ソフィア,へぇー？,106501000G,vc_10650100031_006_01,chara_1
+message,ソフィア,Oh，really?<br> ,106501000G,vc_10650100031_006_01,chara_1
 
-message,<user>,うわあ、全然信じてないな。<br>本当に何もないんだが……
+message,<user>,Ugh，you clearly don't believe me. There's really nothing going<br>on，you know.<br> 
 
 window,off
 wait,0.15
@@ -149,7 +149,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ソフィア,……いいわ。じゃあ、信じさせて。,106501000G,vc_10650100031_007_01,chara_1
+message,ソフィア,...Fine then. Make me believe you.<br> ,106501000G,vc_10650100031_007_01,chara_1
 
 window,off
 wait,0.15
@@ -161,7 +161,7 @@ asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 asyncwait
 
 window,on,0.15
-message,,強い眼差しはそのまま、ソフィアは<user>の手を取り、<br>強引に引っ張っていくのだった。
+message,,With a determined look，Sophia took the Commander's hand and forcibly<br>dragged him along.<br> 
 
 window,off
 wait,0.15
@@ -215,11 +215,11 @@ wait,0.5
 
 
 window,on,0.15
-message,ソフィア,……こ、これでどうなのよ、司令官？<br>露出が激しいと、目がいくんでしょう？,106501000X,vc_10650100031_008_01,chara_2
+message,ソフィア,...S-so，how about this，Commander? You said your eyes get drawn to<br>revealing clothes，right?<br> ,106501000X,vc_10650100031_008_01,chara_2
 
-message,,<user>を娼館の部屋に連れ込んだソフィアは、<br>衣装に着替え、真っ赤な顔で彼に迫っていた。
+message,,After dragging the Commander into a brothel room，Sophia changed into<br>a costume and confronted him，her face bright red.<br> 
 
-message,<user>,ど、どうと言われても、<br>そりゃ今のソフィアから目は離せないが……
+message,<user>,W-well，I mean... of course I can't take my eyes off you now，but...<br> 
 
 window,off
 wait,0.15
@@ -254,9 +254,9 @@ asynccharaemo,chara_2,Anger,CONT,0
 
 
 window,on,0.15
-message,ソフィア,……あの女性と私、どちらが魅力的なの……？,106501000X,vc_10650100031_009_01,chara_2
+message,ソフィア,...Which one of us is more attractive? That woman or me?<br> ,106501000X,vc_10650100031_009_01,chara_2
 
-message,<user>,もちろんソフィアだ。 <br>当然だろう。
+message,<user>,You，of course，Sophia. Obviously.<br> 
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -267,9 +267,9 @@ asyncseplay,setag1_10,se4800016,0,1,CONT,0
 asynccharaemo,chara_2,BePeevish,CONT,0
 
 
-message,ソフィア,……ふーん。<br>でも、言葉だけならどうとでも言えるもん。,106501000X,vc_10650100031_010_01,chara_2
+message,ソフィア,Hmph. But if it's just words，you can say anything.<br> ,106501000X,vc_10650100031_010_01,chara_2
 
-message,<user>,もん、って。<br>そんな子どもみたいな……
+message,<user>,""Y'know""? That's so childish...<br> 
 
 window,off
 wait,0.15
@@ -303,9 +303,9 @@ asynccharaemo,chara_2,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ソフィア,……誤魔化さないで、ちゃんと私を信じさせてよ。<br>私のほうが魅力的だって、ちゃんと証明して。,106501000X,vc_10650100031_011_01,chara_2
+message,ソフィア,Stop evading. Make me believe you. Prove that I'm the more<br>attractive one.<br> ,106501000X,vc_10650100031_011_01,chara_2
 
-message,,そうしてソフィアは常にない強引さで、<br><user>をベッドへと誘うのだった――
+message,,And so Sophia，with an uncharacteristic boldness，invited the<br>Commander to her bed.<br> 
 
 labeljump,b
 

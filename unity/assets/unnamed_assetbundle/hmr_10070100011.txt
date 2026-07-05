@@ -23,9 +23,9 @@ wait,1
 bgmplay,bgmtag1_1,bgm0025,0.75,1
 
 window,on,0.15
-message,,Late at night，as the long workday was finally<br>winding down，the contents of the last document caught his eye.<br> 
+message,,Late at night，just as the long workday was finally winding down，the<br>contents of the last document caught my eye.<br> 
 
-message,<user>,Tonight is... Film's first job.<br> 
+message,<user>,Tonight... it's Film's first job.<br> 
 
 window,off
 wait,0.15
@@ -51,7 +51,7 @@ wait,1
 charaface,chara_1,FaceHappy
 
 window,on,0.15
-message,,Though he thought there was no need to worry about Film，<br>who always played the big sister，part of him couldn't let go.<br> 
+message,,I told myself there was no need to worry about Film，who always acted<br>like a big sister，but deep down，I couldn't help but be concerned about her.<br> 
 
 window,off
 wait,0.15
@@ -72,19 +72,19 @@ wait,0.3
 item,on,550100001
 
 window,on,0.15
-message,ノワール,......!<br> ,550100001,vc_10070100011_001_01,
+message,ノワール,...!<br> ,550100001,vc_10070100011_001_01,
 
-message,<user>,Noir...!?<br> 
+message,<user>,Noir...!<br> 
 
-message,,Noir，the ghost who curses Film，appeared suddenly.<br>For her to leave Film's side and appear alone was rare.<br> 
+message,,Noir，the ghost who cursed Film，suddenly appeared. It was rare for<br>her to appear alone，without Film.<br> 
 
 asynccamerazoom,1.3,0.5,LinearTarget,CONT
 
 blur,on,BACK,0
 
-message,ノワール,......! ......!!<br> ,550100001,vc_10070100011_002_01,
+message,ノワール,...! ...!!<br> ,550100001,vc_10070100011_002_01,
 
-message,,Her gaze brimmed with resolve，drawing his eyes in.<br>Through Noir's power，a vivid image projected into his mind.<br> 
+message,,My eyes were naturally drawn to her gaze，so full of intent. It must<br>have been Noir's power—a clear image was projected into my mind.<br> 
 
 window,off
 wait,0.15
@@ -116,18 +116,18 @@ screeneffect,STRAIN,off,0,0.5
 wait,0.3
 
 window,on,0.15
-message,フィルム<娼館>,...I'm about to do something intimate<br>with a customer，aren't I~<br> ,,vc_10070100011_003_01
+message,フィルム<娼館>,I'm... about to do something lewd with a customer now.<br> ,,vc_10070100011_003_01
 
 charaface,chara_2,FaceSad
 
 asyncseplay,setag1_2,se4800014,0,1,CONT
 
 asynccharaemo,chara_2,Silence,STOP
-message,フィルム<娼館>,I know the brothel work is important，but...<br>I wish at least my first time could be with someone I care for.<br> ,,vc_10070100011_004_01
+message,フィルム<娼館>,I know the job at the brothel is important，but... I wish my first<br>time could have been with someone who liked me.<br> ,,vc_10070100011_004_01
 
 charaface,chara_2,EyeClose
 charaface,chara_2,FaceNormal
-message,フィルム<娼館>,...I wish it were Commander-kun.<br> ,,vc_10070100011_005_01
+message,フィルム<娼館>,Commander...<br> ,,vc_10070100011_005_01
 
 window,off
 wait,0.15
@@ -152,11 +152,11 @@ screeneffect,STRAIN,off,0,0.5
 wait,0.3
 
 window,on,0.15
-message,,Film's true feelings，whispered only to Noir.<br>They were shown to him with unmistakable clarity.<br> 
+message,,Film's true feelings—the ones she had revealed only to Noir—were now<br>shown to me clearly.<br> 
 
-message,ノワール,......!!!<br> ,550100001,vc_10070100011_006_01,
+message,ノワール,...!!!<br> ,550100001,vc_10070100011_006_01,
 
-message,,Knowing Film's feelings，<br>he could not stand idly by.<br> 
+message,,Knowing how Film truly felt，I couldn't just leave it alone.<br> 
 
 seplay,setag1_3,se4300003,0,1
 
@@ -181,10 +181,10 @@ wait,0.5
 
 seplay,setag1_4,se4300001,0,1
 window,on,0.15
-message,,——Knock knock<br> 
+message,,Knock，knock.<br> 
 
 charaface,chara_2,FaceSad
-message,フィルム<娼館>,...The customer's here.<br> ,,vc_10070100011_007_01
+message,フィルム<娼館>,...The customer has arrived.<br> ,,vc_10070100011_007_01
 
 window,off
 wait,0.15
@@ -201,7 +201,7 @@ wait,0.1
 charaface,chara_2,EyeClose
 charaface,chara_2,FaceNormal
 window,on,0.15
-message,フィルム<娼館>,(It's all right. Your big sis Film can handle this~<br>I've lived too long to feel sad over something like this.)<br> ,,vc_10070100011_008_01
+message,フィルム<娼館>,(It's okay，Big Sister Film is fine. I've had enough life experience<br>not to get sad over something like this.)<br> ,,vc_10070100011_008_01
 
 window,off
 wait,0.15
@@ -228,22 +228,22 @@ asynccharaemo,chara_2,ExclaQues,CONT
 charaface,chara_2,FaceSurprise
 
 window,on,0.15
-message,,Film's eyes widened at the sight of who appeared.<br> 
+message,,Film was visibly surprised by the person who appeared.<br> 
 
 asynccharareaction,chara_2,shake,1,STOP
 
 asyncseplay,setag1_7,se4800007,0,1,CONT
 
 asynccharaemo,chara_2,Panic,STOP
-message,フィルム<娼館>,C-Commander-kun!?<br>What are you doing here? Did you come to check on me?<br> ,,vc_10070100011_009_01
+message,フィルム<娼館>,C-Commander!? What's wrong? Did you come to check on me?<br> ,,vc_10070100011_009_01
 
-message,,He told the bewildered woman that he was her customer.<br> 
+message,,To her bewilderment，I told her that I was the customer.<br> 
 
 asyncseplay,setag1_8,se4800010,0,1,CONT
 
 asynccharareaction,chara_2,Jump,1,CONT
 asynccharaemo,chara_2,Exclamation,CONT
-message,フィルム<娼館>,No way... you can't be serious...<br>Commander-kun，you're here... for me...?<br> ,,vc_10070100011_010_01
+message,フィルム<娼館>,That... no way... Commander，you're here for me...?<br> ,,vc_10070100011_010_01
 
 window,off
 wait,0.15
@@ -260,7 +260,7 @@ charaface,chara_2,FaceNormal
 
 asynccharaface,chara_2,FaceSad,STOP,7
 window,on,0.15
-message,フィルム<娼館>,(If my first time is with Commander-kun...<br>I'm so happy...! But... is someone like me really okay...?)<br> ,,vc_10070100011_011_01
+message,フィルム<娼館>,(If my first time is with Commander... I'm so happy...! But... are<br>you sure you want me...?)<br> ,,vc_10070100011_011_01
 
 window,off
 wait,0.15
@@ -277,7 +277,7 @@ asynccharaface,chara_2,FaceUnique02,STOP
 asynccharareaction,chara_2,nod,1,STOP
 
 window,on,0.15
-message,フィルム<娼館>,But for an old granny like me<br>to be Commander-kun's partner...<br> ,,vc_10070100011_012_01
+message,フィルム<娼館>,But an old lady like me being your partner，Commander...<br> ,,vc_10070100011_012_01
 
 window,off
 wait,0.15
@@ -299,9 +299,9 @@ asynccharaface,chara_2,FaceUnique02,STOP
 
 seplay,setag1_9,se4010002,0,1
 window,on,0.15
-message,,He stepped toward the flustered Film.<br>He was the customer，after all — she had to attend to him.<br> 
+message,,I approached the flustered Film. As a customer，I had to insist she<br>attend to me.<br> 
 
-message,フィルム<娼館>,Ah... Commander-kun!?<br> ,,vc_10070100011_013_01
+message,フィルム<娼館>,Ah... Commander!<br> ,,vc_10070100011_013_01
 
 charahide,chara_2,0
 

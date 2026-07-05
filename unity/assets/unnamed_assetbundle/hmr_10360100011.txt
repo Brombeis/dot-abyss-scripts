@@ -23,7 +23,7 @@ charaface,chara_1,FaceUnique02
 
 
 window,on,0.15
-message,,――娼館の利用客と酒を求める飲食客で賑わう酒場。<br>その一角に、どこか不穏な空気が漂っていた。
+message,,The tavern was crowded with brothel patrons and drinkers. In one<br>corner，an uneasy atmosphere hung.<br> 
 
 
 window,off
@@ -45,9 +45,9 @@ asynccameramove,LinearTarget,X,-200,5,CONT
 
 
 window,on,0.15
-message,飲食客たち,おいおい、絶対にヤバいだろ、あの女。<br>絡まれる前に帰ろうぜ……,900000001
+message,飲食客たち,Whoa，that woman's definitely trouble. Let's get out of here before<br>she picks a fight.<br> ,900000001
 
-message,<user>,ヤバい女……？<br>誰が飲んでるんだ？
+message,<user>,A dangerous woman...? Who's that drinking?<br> 
 
 window,off
 wait,0.15
@@ -71,7 +71,7 @@ asynccharaemo,chara_1,Silence,STOP
 
 asynccharareaction,chara_1,Nod,1,STOP
 window,on,0.15
-message,,様子を見てみると、周囲にぽっかりとスペースの空いたカウンター席で<br>見覚えのある女がグラスを飲み干すところだった。
+message,,I looked and saw a familiar woman at the counter，alone in a wide<br>empty space，emptying her glass.<br> 
 
 
 asyncseplay,setag1_2,se4800016,0,1,CONT
@@ -80,9 +80,9 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,BePeevish,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
-message,ライム,っく、っく……ぷはぁぁぁ……！<br>ほんっとうにあの横着司令官は……隙あらば仕事をサボる……！,,vc_10360100011_001_01
+message,ライム,Glug，glug... *puff*...! That lazy Commander really... he takes any<br>chance to slack off!<br> ,,vc_10360100011_001_01
 
-message,<user>,げ、ライム……！？<br>しかもなんか、俺の愚痴を言ってないか……？
+message,<user>,Gah! Lime...! And she's bitching about me!<br> 
 
 asynccharareaction,chara_1,Shake,1,STOP
 
@@ -91,7 +91,7 @@ asyncseplay,setag1_3,se4800016,0,1,CONT
 asynccharaemo,chara_1,Trouble,STOP
 
 asynccharaface,chara_1,FaceUnique01,STOP
-message,ライム,なのにいざって時はどっしり構えて、レイゼリア様の信頼もあって……！<br>その癖にレイゼリア様に頼られる栄誉にも気づかないっ！,,vc_10360100011_002_01
+message,ライム,But when it counts，he's so calm and steady，and he has Lady<br>Reyzeria's trust...! And yet he doesn't even realize the honor of being relied on by her!<br> ,,vc_10360100011_002_01
 
 asyncseplay,setag1_4,se4800007,0,1,CONT
 
@@ -101,9 +101,9 @@ asynccharaemo,chara_1,Panic,STOP
 asynccharareaction,chara_1,Shake,1,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
-message,ライム,どうしてレイゼリア様はわたくしを頼ってくれないのぉっ！<br>もっと頼ってぇ、構ってぇ、可愛がってぇ……,,vc_10360100011_003_01
+message,ライム,Why won't Lady Reyzeria rely on me! I want her to rely on me，pay<br>attention to me，dote on me...<br> ,,vc_10360100011_003_01
 
-message,<user>,うわあ……とんでもなく見苦しい……。<br>こりゃ止めてやるのが司令官の情け、か……
+message,<user>,Geez... this is just pathetic... I suppose it's the Commander's<br>kindness to stop this...<br> 
 
 
 asyncseplay,setag1_5,se4010002,0,1,CONT
@@ -129,7 +129,7 @@ wait,0.5
 
 sestop,setag1_5,1
 window,on,0.15
-message,<user>,おーい、ライムー？<br>酒はほどほどにしておけよー？
+message,<user>,Hey，Lime? You should take it easy on the booze，okay?<br> 
 
 asynccharareaction,chara_1,Shake,1,STOP
 
@@ -139,9 +139,9 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,ExclaQues,STOP
 
 asynccharaface,chara_1,FaceUnique02,STOP
-message,ライム,しれーかーん！？　なんであなたがいるのっ！<br>来るならレイゼリア様でしょ～っ！？,,vc_10360100011_004_01
+message,ライム,Commander! Why are you here! If you were going to come，it should've<br>been Lady Reyzeria!<br> ,,vc_10360100011_004_01
 
-message,<user>,そこは俺で良かったと思えよ。<br>こんな姿をレイゼリアに見られたらどうする気だ。
+message,<user>,You should be thankful it's me. What would you do if Lady Reyzeria<br>saw you like this?<br> 
 
 asyncseplay,setag1_7,se4800016,0,1,CONT
 
@@ -149,9 +149,9 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,BePeevish,STOP
 
 asynccharareaction,chara_1,Jump,1,STOP
-message,ライム,うるっさいのよ！　構うんじゃないわ！<br>あなたみたいな鈍感唐変木、だいっきらいなんだから！,,vc_10360100011_005_01
+message,ライム,Shut up! Don't bother me! I hate blockheads like you!<br> ,,vc_10360100011_005_01
 
-message,<user>,好き嫌いはおいといて、酒はその辺にしとこうな？<br>それか、もうちょっといい飲みかたをしろよ。
+message,<user>,Forget about whether you like me or not and call it quits on the<br>drinking，okay? Or at least drink more responsibly.<br> 
 
 asyncseplay,setag1_8,se4800022,0,1,CONT
 
@@ -159,16 +159,16 @@ asynccharaemo,chara_1,Speak,STOP
 
 
 asynccharareaction,chara_1,Shake,1,STOP
-message,ライム,なーんで、だいっきらいなあなたのいうこと聞かなきゃいけないのー？<br>いうこと聞かせたかったらあなたも飲みなさいっ！,,vc_10360100011_006_01
+message,ライム,Why should I listen to someone I hate so much? If you want me to<br>listen，you drink too!<br> ,,vc_10360100011_006_01
 
-message,<user>,うわあ……面倒くせえ、この酔っぱらい……<br>はいはい、大嫌いな俺で悪いけど１杯付き合わせてもらうよ。
+message,<user>,Geez... you're such a pain，you drunk... Fine，fine，sorry I'm the one<br>you hate，but I'll have one with you.<br> 
 
 asyncseplay,setag1_9,se4800008,0,1,CONT
 
 asynccharaemo,chara_1,Sweat,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
-message,ライム,あのねえ、今日もレイゼリア様があなたの話をしたのよ！<br>口調だけで、信頼してるなーって分かっちゃうのぉ！,,vc_10360100011_007_01
+message,ライム,You know，Lady Reyzeria talked about you again today! Just from her<br>tone，you can tell she really trusts you!<br> ,,vc_10360100011_007_01
 
 
 asyncseplay,setag1_10,se4800016,0,1,CONT
@@ -179,9 +179,9 @@ asynccharaemo,chara_1,BePeevish,STOP
 asynccharareaction,chara_1,Hop,1,STOP
 
 asynccharaface,chara_1,FaceUnique02,STOP
-message,ライム,あなたが無能司令官だったらお諌めもするのにぃっ！<br>あなたも使える時は使えるから始末に負えないのよ！,,vc_10360100011_008_01
+message,ライム,If you were an incompetent commander，I could advise her against you!<br>But you're actually capable when it counts，so you're a handful!<br> ,,vc_10360100011_008_01
 
-message,<user>,はいはい、分かった分かった。<br>ほら、ついでやるから落ち着け……――
+message,<user>,Yeah，yeah，I get it. Here，I'll have one with you，so calm down...<br> 
 
 window,off
 bgmstop,bgmtag1_1,1
@@ -202,18 +202,18 @@ asynccharaemo,chara_1,Dull,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
 window,on,0.15
-message,ライム,レイゼリア様ぁ……わたくし、もっとお役に立ちますからぁ……,,vc_10360100011_009_01
+message,ライム,Lady Reyzeria... I'll be more useful to you...<br> ,,vc_10360100011_009_01
 
-message,<user>,はあ……やれやれ、なんとか連れて帰れたか。<br>俺は戻るから、ゆっくり寝ろよ。
+message,<user>,*sigh*... Well，I barely got you home. I'm heading back now，so get<br>some good sleep.<br> 
 
 asyncseplay,setag1_12,se4800009,0,1,CONT
 
 asynccharaemo,chara_1,Question,STOP
 
 asynccharaface,chara_1,FaceUnique02,STOP
-message,ライム,ん……何よ、帰る気？<br>襲わないわけー？,,vc_10360100011_010_01
+message,ライム,mmm... What，you're going back? You're not gonna make a move on me?<br> ,,vc_10360100011_010_01
 
-message,<user>,……どういう意味だ？
+message,<user>,...What do you mean by that?<br> 
 
 
 asynccharareaction,chara_1,Jump,1,STOP
@@ -224,9 +224,9 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,BePeevish,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
-message,ライム,わたくしを襲わないのか、って聞いてるんですー。<br>なーに？　野暮な鈍感、唐変木でぇ、しかも腰抜けなのぉ？,,vc_10360100011_011_01
+message,ライム,I'm asking if you're not gonna make a move on me. What's the matter?<br>You a tactless，thick-headed blockhead and a coward to boot?<br> ,,vc_10360100011_011_01
 
-message,<user>,この酔っ払いめ……ったく、襲うわけないだろ。酔って正常じゃないお前に<br>欲情するほど落ちぶれてない。素面の時ならいつでも抱いてやるさ。
+message,<user>,You drunkard... damn，no way I'd take advantage of you. I'm not<br>desperate enough to get turned on by you when you're like this. If you were sober，I'd sleep with you anytime.<br> 
 
 asyncseplay,setag1_14,se4800008,0,1,CONT
 
@@ -234,9 +234,9 @@ asynccharaemo,chara_1,Sweat,STOP
 
 asynccharaface,chara_1,EyeClose,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,ライム,ふん……根性なし。<br>やっぱり男なんてみんな大したことないじゃない。,,vc_10360100011_012_01
+message,ライム,Hmph... coward. As expected，men are all worthless.<br> ,,vc_10360100011_012_01
 
-message,<user>,っ……こっちが紳士でいてやってるのに、俺を男として否定するわけか。<br>分かった。そこまで言うなら俺という男がどんなモノか、教えてやるよ！
+message,<user>,Tch... I'm trying to be a gentleman here，and you're going to deny my<br>manhood? Fine. If that's how it is，I'll show you what kind of man I am!<br> 
 
 asynccharareaction,chara_1,Nod,1,STOP
 
@@ -245,7 +245,7 @@ asyncseplay,setag1_15,se4800019,0,1,CONT
 asynccharaemo,chara_1,Elated,STOP
 
 asynccharaface,chara_1,FaceUnique02,STOP
-message,ライム,ええ、きなさいよ。<br>その程度でわたくしが怯えると思ったら大間違いだから！,,vc_10360100011_013_01
+message,ライム,Yes，bring it on. If you think I'll be scared by that，you're sorely<br>mistaken!<br> ,,vc_10360100011_013_01
 
 
 labeljump,b

@@ -19,11 +19,11 @@ asyncseplay,setag3_1,se4800009,0,1,CONT
 
 asynccharaemo,chara_1,Question,STOP
 window,on,0.15
-message,シャオレイ,先生、いる？,,vc_10040100023_001_01
+message,シャオレイ,Teacher，are you here?<br> ,,vc_10040100023_001_01
 
-message,<user>,お、よく来たな、シャオレイ。<br>聞いたぞ。あの商人に値引きをかけあってくれたんだってな。
+message,<user>,Oh，you're here，Xiaolei. I heard you got that merchant to give us a<br>discount.<br> 
 
-message,<user>,おかげで、壁の修理代も前線基地の修繕も<br>タダでやってもらえることになったぞ。
+message,<user>,Thanks to you，we got the wall repairs and the Frontline Base repairs<br>done for free.<br> 
 
 asyncseplay,setag3_2,se4800017,0,1,CONT
 
@@ -32,9 +32,9 @@ asynccharaemo,chara_1,Shock,STOP
 
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,シャオレイ,え？　タダって、お金いらないってこと……？,,vc_10040100023_002_01
+message,シャオレイ,Huh? For free? As in，they're not charging us?<br> ,,vc_10040100023_002_01
 
-message,<user>,ああ。詳しくは聞いていないが、シャオレイのもてなしを受けたと言っていた。<br>妙にすっきりした顔をしてたが、いったい何をしたんだ？
+message,<user>,Yeah. I didn't ask for details，but he said he received hospitality<br>from you. He looked strangely satisfied. What exactly did you do?<br> 
 
 
 asyncseplay,setag3_3,se4800021,0,1,CONT
@@ -43,9 +43,9 @@ asynccharaemo,chara_1,Imagination,STOP
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,シャオレイ,…………,,vc_10040100023_003_01
+message,シャオレイ,...<br> ,,vc_10040100023_003_01
 
-message,<user>,ん？　どうした、黙り込んだりして。
+message,<user>,Hmm? What's wrong? Why are you so quiet?<br> 
 
 
 asyncseplay,setag3_4,se4800012,0,1,CONT
@@ -54,9 +54,9 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
 asynccharaface,chara_1,FaceShy,STOP
-message,シャオレイ,シャオレイのあな……よかったって。,,vc_10040100023_004_01
+message,シャオレイ,Xiaolei's place... he said it felt good.<br> ,,vc_10040100023_004_01
 
-message,<user>,……は？
+message,<user>,...Huh?<br> 
 
 
 window,off
@@ -83,9 +83,9 @@ asynccharaemo,chara_1,Heart,STOP
 
 charaface,chara_1,FaceUnique02
 window,on,0.15
-message,シャオレイ,先生も、ためす？<br>きっとシャオレイ、まえよりもきもちよくできるよ。,,vc_10040100023_005_01
+message,シャオレイ,Teacher，want to test too? Xiaolei can definitely make you feel<br>better than before.<br> ,,vc_10040100023_005_01
 
-message,,どこか色っぽい瞳で見つめられ、<br><user>は胸を高鳴らせてしまうのだった……。
+message,,She looked at him with seductive eyes，and %user% found his heart<br>racing...<br> 
 
 
 window,off

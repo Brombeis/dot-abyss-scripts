@@ -36,7 +36,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,ふう……なんだか新鮮な体験だったわね。<br>お客さんに満足してもらうためにも、まだまだ努力しないと……,106501000X,vc_10650100023_001_01,chara_1
+message,ソフィア,Phew... that was quite a new experience. I'll need to work harder if<br>I want to keep the customers satisfied.<br> ,106501000X,vc_10650100023_001_01,chara_1
 
 window,off
 wait,0.15
@@ -70,7 +70,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,――ソフィア。
+message,<user>,—Sophia.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -81,9 +81,9 @@ asyncseplay,setag3_2,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ソフィア,あ、司令官――どうしたの？,106501000X,vc_10650100023_002_01,chara_1
+message,ソフィア,Oh，Commander—what is it?<br> ,106501000X,vc_10650100023_002_01,chara_1
 
-message,<user>,たまたま通りかかったから、様子を見に来たんだ。<br>どうだ、上手くやれたか？
+message,<user>,I happened to be passing by，so I came to check on you. How'd it go?<br>Did you do well?<br> 
 
 window,off
 wait,0.15
@@ -109,7 +109,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ソフィア,（こんな時間に、たまたまだなんて。<br>私を心配して来てくれたのね……まったく、素直じゃないんだから）,106501000X,vc_10650100023_003_01,chara_1
+message,ソフィア,(At this hour，""just happened to be passing by""? He came because he<br>was worried about me... honestly，he's never straightforward.)<br> ,106501000X,vc_10650100023_003_01,chara_1
 
 window,off
 wait,0.15
@@ -135,9 +135,9 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ソフィア,そうね……おおむね上手くやれたと思うわ。,106501000X,vc_10650100023_004_01,chara_1
+message,ソフィア,Well... I think I did pretty well.<br> ,106501000X,vc_10650100023_004_01,chara_1
 
-message,<user>,ほー、さすが優等生。
+message,<user>,Hoh，that's the honor student for you.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -148,7 +148,7 @@ asyncseplay,setag3_5,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ソフィア,でしょう？,106501000X,vc_10650100023_005_01,chara_1
+message,ソフィア,Right?<br> ,106501000X,vc_10650100023_005_01,chara_1
 
 window,off
 wait,0.15
@@ -175,7 +175,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,ソフィアは<user>に歩み寄り、<br>その耳元で悪戯っぽく言う。
+message,,Sophia stepped up to the Commander and whispered playfully in his<br>ear.<br> 
 
 window,off
 wait,0.15
@@ -194,9 +194,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ソフィア,今なら司令官も骨抜きにできちゃうかもしれないわよ？　ふふっ。,106501000X,vc_10650100023_006_01,chara_1
+message,ソフィア,Right now，I might even be able to soften you up，Commander... Fufu.<br> ,106501000X,vc_10650100023_006_01,chara_1
 
-message,,大胆な言葉にドキリと身を跳ねさせた<user>を見て、<br>ソフィアは満足げに微笑むのだった。
+message,,The Commander jumped，startled by her bold words，and Sophia smiled<br>contentedly.<br> 
 
 window,off
 bgmstop,bgmtag3_1,0.5

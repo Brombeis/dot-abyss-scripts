@@ -27,7 +27,7 @@ bgmplay,bgmtag3_1,bgm0026,1
 
 
 window,on,0.15
-message,<user>,So，what are you going to do with it now?<br> 
+message,<user>,So，what are we going to do with this guy next?<br> 
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -36,9 +36,9 @@ asyncseplay,setag3_1,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フレデリカ,...I worked hard to make it.<br>I want to experiment with it a bit more.<br> ,101301000G,vc_10130100033_001_01,chara_1
+message,フレデリカ,...I went through all that trouble to make it，so I want to try a few<br>more things.<br> ,101301000G,vc_10130100033_001_01,chara_1
 
-message,<user>,Don't go teaching it any weird tricks，okay?<br> 
+message,<user>,Don't go teaching it any weird play，okay?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -49,9 +49,9 @@ asyncseplay,setag3_2,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,フレデリカ,I-I'm not going to make it do lewd stuff!<br>It's just going to help with alchemy experiments!<br> ,101301000G,vc_10130100033_002_01,chara_1
+message,フレデリカ,Huh? I have no intention of making it do anything lewd! I'm just<br>going to have it help me with alchemy experiments!<br> ,101301000G,vc_10130100033_002_01,chara_1
 
-message,<user>,Really?<br>You're really not going to do anything lewd?<br> 
+message,<user>,Really? You're really not going to make it do anything lewd?<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -62,9 +62,9 @@ asyncseplay,setag3_3,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フレデリカ,R-really...<br> ,101301000G,vc_10130100033_003_01,chara_1
+message,フレデリカ,I-I swear it's true...<br> ,101301000G,vc_10130100033_003_01,chara_1
 
-message,<user>,That's kind of sad for the little guy...<br> 
+message,<user>,That's just sad for the guy，you know...<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -75,9 +75,9 @@ asyncseplay,setag3_4,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,フレデリカ,How does that follow!?<br> ,101301000G,vc_10130100033_004_01,chara_1
+message,フレデリカ,How does that make any sense!<br> ,101301000G,vc_10130100033_004_01,chara_1
 
-message,<user>,All right，Homunculus —<br>let's go for round two!<br> 
+message,<user>,Alright，homunculus，since we're at it，let's start round two!<br> 
 
 message,ホムンクルス,...Yes... Papa...<br> ,900000001
 
@@ -90,7 +90,7 @@ asyncseplay,setag3_5,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,フレデリカ,Why does it only answer to Papa!?<br> ,101301000G,vc_10130100033_005_01,chara_1
+message,フレデリカ,Then why does it only answer when you say ""Papa""?<br> ,101301000G,vc_10130100033_005_01,chara_1
 
 window,off
 wait,0.15
@@ -130,7 +130,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,フレデリカ,Hey，stop! Don't touch me，Homunculus!<br>Listen to me for onc—— aahn♡<br> ,101301000G,vc_10130100033_006_01,chara_1
+message,フレデリカ,Hey，stop it! Don't touch me，homunculus! At least listen to me—Aahn!♡<br> ,101301000G,vc_10130100033_006_01,chara_1
 
 bgmstop,bgmtag3_1,1.5,0
 
@@ -159,9 +159,9 @@ bgmplay,bgmtag3_2,bgm0030,0.75,1
 fade,In,White,1
 
 window,on,0.15
-message,,The next day，when we woke up，<br>the Homunculus had vanished without a trace.<br> 
+message,,The next morning，when we awoke，the homunculus had vanished without a<br>trace.<br> 
 
-message,,'It was just an artificial life form made<br>through alchemy，' Frederica said flatly，but...<br> 
+message,,After all，it was just a Pseudo-lifeform created by alchemy... That's<br>what Frederica said flatly，but...<br> 
 
 window,off
 wait,0.15
@@ -190,7 +190,7 @@ wait,1
 wait,0.5
 
 window,on,0.15
-message,,Her profile，in that moment，<br>looked somehow lonely——<br> 
+message,,In that moment，her profile looked somehow lonely...<br> 
 
 window,off
 bgmstop,bgmtag3_2,0.5

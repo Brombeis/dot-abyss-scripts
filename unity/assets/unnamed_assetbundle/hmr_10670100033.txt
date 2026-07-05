@@ -17,7 +17,7 @@ bgmplay,bgmtag3_1,bgm0035,1
 
 
 window,on,0.15
-message,,キノコの採取を終えた<user>とクルルは、<br>前線基地へと戻って来ていた。
+message,,Having finished gathering mushrooms，the Commander and Kururu<br>returned to the Frontline Base.<br> 
 
 window,off
 wait,0.15
@@ -51,9 +51,9 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,キノコ、いっぱい採れてよかったね！,106701000G,vc_10670100033_001_01,chara_1
+message,クルル,I'm glad we got so many mushrooms!<br> ,106701000G,vc_10670100033_001_01,chara_1
 
-message,<user>,ああ、これで美味いキノコ料理が食えるぞ。<br>クルルのおかげだ。
+message,<user>,Yeah，now we can have some tasty mushroom dishes. Thanks to<br>you，Kururu.<br> 
 
 window,off
 wait,0.15
@@ -91,9 +91,9 @@ wait,0.5
 
 
 window,on,0.15
-message,クルル,えへへ……クルル、ここに来られてよかった♪,106701000G,vc_10670100033_002_01,chara_1
+message,クルル,Ehehe... I'm so glad I came here!♪<br> ,106701000G,vc_10670100033_002_01,chara_1
 
-message,<user>,ん？　どうした急に？
+message,<user>,Hm? What's with you all of a sudden?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -104,9 +104,9 @@ asyncseplay,setag3_3,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,クルル,だって、ご主人さまといっしょに食べるゴハン、おいしいんだもの！,106701000G,vc_10670100033_003_01,chara_1
+message,クルル,Because eating with Master is just so yummy!<br> ,106701000G,vc_10670100033_003_01,chara_1
 
-message,<user>,ん？　基地のゴハンがそんなに美味しいのか？
+message,<user>,Hm? Is the base food really that good?<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -117,7 +117,7 @@ asyncseplay,setag3_4,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,クルル,そうじゃなくってぇ～、クルルがひとりだけで食べてたときより、<br>ずっとずっとおいしいの！　フシギだよねっ！,106701000G,vc_10670100033_004_01,chara_1
+message,クルル,No，that's not it. It's way，way more delicious than when I ate alone!<br>It's strange，right?<br> ,106701000G,vc_10670100033_004_01,chara_1
 
 crossfadeready
 
@@ -126,7 +126,7 @@ subimagefade,subimage_1,0,0.6235,0
 crossfade,0.1,0,0,1,1
 wait,0.1
 
-message,<user>,（そういえば、俺も、幽閉中に１人で食ってたメシは、<br>ずいぶんと味気なかったっけ……）
+message,<user>,(Come to think of it，the meals I ate alone while imprisoned were<br>awfully bland...)<br> 
 
 crossfadeready
 
@@ -135,7 +135,7 @@ subimagefade,subimage_1,0.6235,0,0
 crossfade,0.1,0,0,1,1
 wait,0.1
 
-message,<user>,ああ、そうだな……きっと誰かと一緒に食べるから、<br>ゴハンは美味しいのかもしれないよな。
+message,<user>,Yeah，you're right... Maybe that's why meals taste better when you<br>eat with someone.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -146,9 +146,9 @@ asyncseplay,setag3_5,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,クルル,ご主人さまもそうなの？<br>クルルといっしょだ！,106701000G,vc_10670100033_005_01,chara_1
+message,クルル,Master feels that way too? That's the same as Kururu!<br> ,106701000G,vc_10670100033_005_01,chara_1
 
-message,<user>,よしっ！　それじゃあ、今夜は基地の連中を集めて、<br>キノコパーティーといくか！
+message,<user>,Alright! Then tonight，I'll gather everyone at the base and we'll<br>have a Mushroom Party!<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -159,7 +159,7 @@ asyncseplay,setag3_6,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,クルル,うん！　みんなと食べたら、<br>きっときっと、何十倍も、何百倍もおいしいよっ！,106701000G,vc_10670100033_006_01,chara_1
+message,クルル,Yeah! Eating with everyone will surely make it tens and hundreds of<br>times more delicious!<br> ,106701000G,vc_10670100033_006_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -170,7 +170,7 @@ asyncseplay,setag3_7,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,クルル,早くみんなにキノコ届けてあげなくちゃ！<br>きっとみんなお腹ペコペコだよ～,106701000G,vc_10670100033_007_01,chara_1
+message,クルル,Kururu has to hurry and get these mushrooms to everyone! They must<br>all be really hungry!<br> ,106701000G,vc_10670100033_007_01,chara_1
 
 window,off
 wait,0.15
@@ -215,7 +215,7 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,,両手にキノコを抱え、無邪気に駆け出して行くクルル。<br>今夜の食卓は、きっと今まで以上に美味しくなる……そんな気がした。
+message,,Kururu dashed off innocently，clutching mushrooms in both hands. I<br>had a feeling that tonight's dinner would be even more delicious than ever.<br> 
 
 window,off
 bgmstop,bgmtag3_1,0.5

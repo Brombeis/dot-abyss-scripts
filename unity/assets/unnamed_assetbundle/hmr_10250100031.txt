@@ -22,15 +22,15 @@ bgmplay,bgmtag1_1,bgm0025,0.75,1
 
 
 window,on,0.15
-message,ウェンディ,(Commander summoned me tonight...<br>I'm guessing it's to keep him company for the night.)<br> ,,vc_10250100031_001_01
+message,ウェンディ,The Commander's summons tonight... it's probably to be his companion<br>for the night.<br> ,,vc_10250100031_001_01
 
-message,ウェンディ,(Ever since I got the message this afternoon，my heart hasn't stopped<br>racing... Commander...♡)<br> ,,vc_10250100031_002_01
+message,ウェンディ,Ever since I got the message this afternoon，my heart has been<br>pounding with excitement... Commander!♡<br> ,,vc_10250100031_002_01
 
 seplay,setag1_1,se4300001,0,1
 
 wait,1
 
-message,ウェンディ,Commander... it's Wendy.<br>I'm coming in.<br> ,,vc_10250100031_003_01
+message,ウェンディ,Commander... it's Wendy. I'm coming in.<br> ,,vc_10250100031_003_01
 
 window,off
 wait,0.15
@@ -62,11 +62,11 @@ asynccharaface,chara_1,FaceNormal,CONT,2.5
 
 asynccharaface,chara_1,FaceUnique02,CONT,4
 window,on,0.15
-message,ウェンディ,Sorry to keep you waiting.<br>Um... what did you need me for tonight?<br> ,,vc_10250100031_004_01
+message,ウェンディ,I'm sorry to keep you waiting. Um... what do you need tonight?<br> ,,vc_10250100031_004_01
 
 asyncskipwait
 
-message,,Wendy gazed at me with barely concealed anticipation.<br>I told her to get ready — we were going to have sex.<br> 
+message,,I told Wendy，who looked at me expectantly，that we were going to have<br>sex and she should get ready.<br> 
 
 charaface,chara_1,FaceHappy
 
@@ -79,9 +79,9 @@ asynccharaemo,chara_1,Heart,STOP
 asynccharaface,chara_1,FaceFun,STOP,2
 
 asynccharaface,chara_1,FaceUnique02,STOP,5
-message,ウェンディ,Y-yes... understood.<br>I'll get ready right away.<br> ,,vc_10250100031_005_01
+message,ウェンディ,Y-yes... I understand. I'll get ready right away.<br> ,,vc_10250100031_005_01
 
-message,,I added that once she was ready，she should sit on my lap.<br> 
+message,,I also told her to sit on my lap once she was ready.<br> 
 
 charaface,chara_1,FaceSurprise
 
@@ -92,7 +92,7 @@ asynccharaemo,chara_1,Question,STOP
 asynccharareaction,chara_1,Nod,0.5,STOP,5
 
 asynccharaface,chara_1,FaceFun,STOP,5
-message,ウェンディ,On your lap，Commander?<br>Understood. Just a moment，please...<br> ,,vc_10250100031_006_01
+message,ウェンディ,On your lap，Commander? I understand. Please wait a moment...<br> ,,vc_10250100031_006_01
 
 window,off
 wait,0.15
@@ -113,12 +113,12 @@ asynccharaemo,chara_1,Shy,CONT
 
 asynccharaface,chara_1,FaceShy,CONT,5.5
 window,on,0.15
-message,ウェンディ,...Commander，I'm ready.<br>Um... how would you like to do things tonight...?<br> ,,vc_10250100031_007_01
+message,ウェンディ,...Commander，I'm ready. Um... tonight... how do you want me?<br> ,,vc_10250100031_007_01
 
 asyncskipwait
 
 charaface,chara_1,FaceUnique02
-message,,Wendy settled onto my lap as instructed，eyes full of expectation.<br>I told her tonight I wanted to find out her limits.<br> 
+message,,Wendy sat on my lap as instructed and gazed up at me expectantly. I<br>told her that tonight I wanted to test her limits.<br> 
 
 charaface,chara_1,FaceSurprise
 
@@ -127,26 +127,26 @@ asyncseplay,setag1_7,se4800009,0,1,CONT
 asynccharaemo,chara_1,Question,STOP
 message,ウェンディ,My limits?<br> ,,vc_10250100031_008_01
 
-message,,Specifically，the limits of her special mana reactor that activates<br>during sex.<br> 
+message,,Strictly speaking，it's the limit of Wendy's Special Magic Furnace<br>that activates during sex.<br> 
 
-message,,The reactor hadn't been running at full capacity yet， still holding<br>back significant reserves — so the workshop had told me.<br> 
+message,,I heard from the Workshop that the Special Magic Furnace isn't<br>operating at full capacity and still has plenty of headroom.<br> 
 
-message,,For future reference，I wanted to know how far it could go. It's a<br>commander's job to gauge and understand his subordinates' capabilities.<br> 
+message,,I want to confirm the limits of the Special Magic Furnace for future<br>reference too. It's a commanding officer's job to gauge a subordinate's strength and keep track of it.<br> 
 
 charaface,chara_1,FaceAnger
 
 asyncseplay,setag1_8,se4800014,0,1,CONT
 
 asynccharaemo,chara_1,Silence,STOP
-message,ウェンディ,...So you just want to run a test on the reactor?<br> ,,vc_10250100031_009_01
+message,ウェンディ,...So you just want to test the Special Magic Furnace?<br> ,,vc_10250100031_009_01
 
-message,,Disappointment clouded those eager eyes.<br>She was clearly let down... no，she was sulking.<br> 
+message,,Wendy's eyes，once so full of hope，now showed displeasure. She was<br>clearly disappointed... no，she was sulking.<br> 
 
-message,,This was bad... if Wendy was in a mood，<br>it could affect the reactor's performance.<br> 
+message,,This is bad... if Wendy gets sulky，it'll affect the Special Magic<br>Furnace's performance too.<br> 
 
-message,<user>,That's not it.<br>I want to see how wild my woman can get.<br> 
+message,<user>,That's not it. I'm curious how worked up my woman can get.<br> 
 
-message,,I rephrased it that way，hoping to smooth things over.<br>...Did it work?<br> 
+message,,To cheer her up，I corrected myself and said it again. ...I wonder if<br>that worked?<br> 
 
 charaface,chara_1,FaceUnique02
 
@@ -155,7 +155,7 @@ asyncseplay,setag1_9,se4800002,4,1,CONT
 asynccharaemo,chara_1,Heart,STOP,4
 
 asynccharaface,chara_1,FaceFun,STOP,4
-message,ウェンディ,Your... woman...?<br>Y-you should have just said so from the start...<br> ,,vc_10250100031_010_01
+message,ウェンディ,Your woman...? Y-you should have just said so from the start...<br> ,,vc_10250100031_010_01
 
 charaface,chara_1,FaceHappy
 
@@ -164,7 +164,7 @@ asyncseplay,setag1_10,se4800013,0,1,CONT
 asynccharareaction,chara_1,Jump,1,STOP
 charaemo,chara_1,Spirits
 
-message,,It seemed to have worked. Seeing the shy look on Wendy's face，<br>I breathed a silent sigh of relief.<br> 
+message,,She seemed to have cheered up. I breathed a sigh of relief at the<br>flustered Wendy.<br> 
 
 
 labeljump,b

@@ -16,7 +16,7 @@ bgmplay,bgmtag3_1,bgm0025,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>──翌日</size>,,,on
+messageTextCenter,,—The next day,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -27,10 +27,10 @@ asynccharashow,chara_1,0.3,CONT
 asynccharashow,chara_2,0.3,CONT
 
 window,on,0.15
-message,,1人娼館に訪れたヒュメナはルディアにとある申し出をしていた。
+message,,Humena visited the brothel alone and made a request to Ludia.<br> 
 
 charaface,chara_2,FaceSurprise
-message,ルディア,娼館で働きたい……？<br>何かあったんですか？,,vc_10210100013_001_01
+message,ルディア,You want to work at the brothel...? Did something happen?<br> ,,vc_10210100013_001_01
 
 asyncseplay,setag3_1,se4800012,0,1,CONT
 
@@ -40,13 +40,13 @@ asynccharaemo,chara_1,Shy,STOP
 asynccharareaction,chara_1,nod,1,STOP
 
 charaface,chara_1,FaceUnique02
-message,ヒュメナ,うん、実は……その……。<br>私も司令官君を気持ち良くさせてあげたいなって……,,vc_10210100013_002_01
+message,ヒュメナ,Yeah，actually... well...\nI want to make the Commander feel good<br>too.<br> ,,vc_10210100013_002_01
 
 asynccharareaction,chara_2,nod,1,STOP
 
 charaface,chara_2,EyeOpen
 charaface,chara_2,FaceNormal
-message,ルディア,それがここで働きたい理由なんですか？,,vc_10210100013_003_01
+message,ルディア,Is that the reason you want to work here?<br> ,,vc_10210100013_003_01
 
 asyncseplay,setag3_2,se4800022,0,1,CONT
 
@@ -55,7 +55,7 @@ asynccharaemo,chara_1,Speak,STOP
 asynccharareaction,chara_1,nod,1,STOP
 
 charaface,chara_1,FaceHappy
-message,ヒュメナ,う、うんっ！,,vc_10210100013_004_01
+message,ヒュメナ,Y-yeah!<br> ,,vc_10210100013_004_01
 
 asynccharareaction,chara_2,nod,1,STOP
 
@@ -64,16 +64,16 @@ charaface,chara_2,FaceUnique03
 asynccharaface,chara_2,FaceSad,STOP,5
 
 charapose,chara_2,2
-message,ルディア,そういうことでしたら反対する理由はありませんね。<br>ですが、司令官君以外のお客様もたくさんいらっしゃいますが……,,vc_10210100013_005_01
+message,ルディア,If that's the case，I have no reason to object.\nBut there are many<br>other customers besides Commander...<br> ,,vc_10210100013_005_01
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
-message,ヒュメナ,大丈夫……人間にとって性行為はとても大切なことっていうのが分かったから。<br>だから私が司令官君との行為で感じた安らぎを他の人にも伝えたいんだ。,,vc_10210100013_006_01
+message,ヒュメナ,It's okay... I've come to understand that sex is very important for<br>humans.\nSo I want to share with others the peace I felt with Commander.<br> ,,vc_10210100013_006_01
 
 asynccharareaction,chara_1,nod,1,STOP
 
 charaface,chara_1,FaceFun
-message,ヒュメナ,司令官君も、いいって言ってくれたし……,,vc_10210100013_007_01
+message,ヒュメナ,And Commander said it was okay too...<br> ,,vc_10210100013_007_01
 
 charapose,chara_2,1
 
@@ -84,7 +84,7 @@ asynccharaemo,chara_2,Laugh,STOP
 
 charaface,chara_2,EyeClose
 charaface,chara_2,FaceNormal
-message,ルディア,ふふ、司令官君は、ヒュメナさんが自分以外の男にはなびかないと<br>確信しているんですねぇ。,,vc_10210100013_008_01
+message,ルディア,Fufu，so Commander is confident that Humena won't be swayed by any<br>other man.<br> ,,vc_10210100013_008_01
 
 asyncseplay,setag3_4,se4800012,0,1,CONT
 
@@ -93,18 +93,18 @@ asynccharaemo,chara_1,Shy,STOP
 
 charaface,chara_1,EyeClose
 charaface,chara_1,FaceNormal
-message,ヒュメナ,ま、まあ、事実だしね……。<br>司令官君以外の男の人を好きになるなんて絶対ないし……えへ♪,,vc_10210100013_009_01
+message,ヒュメナ,W-well，it's true...\nI would never fall for anyone other than<br>Commander... Ehe!♪<br> ,,vc_10210100013_009_01
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
 
 charaface,chara_2,FaceFun
-message,ルディア,あらあら、お熱いこと。<br>ふふふ、でしたらこれからよろしくお願いしますね♪,,vc_10210100013_010_01
+message,ルディア,Oh my，how passionate.\nFufufu，then I look forward to working with<br>you from now on!♪<br> ,,vc_10210100013_010_01
 
 charaface,chara_1,FaceHappy
 
 asynccharareaction,chara_1,Nod,0.5,STOP
-message,ヒュメナ,うん！　よろしくね♪,,vc_10210100013_011_01
+message,ヒュメナ,Yeah! Looking forward to it!♪<br> ,,vc_10210100013_011_01
 
 
 window,off

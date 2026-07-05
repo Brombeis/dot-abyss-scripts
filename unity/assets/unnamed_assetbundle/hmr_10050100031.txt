@@ -29,7 +29,7 @@ bgmplay,bgmtag1_1,bgm0025,0.75,1
 
 
 window,on,0.15
-message,,仕事をしていると、開けっぱなしの窓の外から何やら音が聞こえてきた。<br>何事かと振り返ると――
+message,,I was working when I heard a sound from outside the open window. I<br>turned to see what it was—<br> 
 
 window,off
 wait,0.15
@@ -93,7 +93,7 @@ asynccharamove,chara_1,EaseOut,X,-100,0.3,CONT,0
 asyncwait
 
 window,on,0.15
-message,<user>,おわぁっ！？　え、エレクトラ……！？
+message,<user>,Wha—! E-Electra...!<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -104,9 +104,9 @@ asyncseplay,setag1_3,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,エレクトラ,はい、エレクトラでございます、ご主人様。<br>本日も夜遅くまでのお仕事、お疲れさまです。,100501000X,vc_10050100031_001_01,chara_1
+message,エレクトラ,Yes，I am Electra，Master. Thank you for working so late again<br>tonight.<br> ,100501000X,vc_10050100031_001_01,chara_1
 
-message,<user>,あ、ああ……それはいいんだが……飛んで来ずに、<br>普通にドアから入ってきてくれないか……ビックリするから……
+message,<user>,Ah，yeah... that's fine，but... couldn't you just come through the<br>door normally? It startles me...<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -117,9 +117,9 @@ asyncseplay,setag1_4,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,エレクトラ,失礼いたしました。<br>急ぎここへ来る必要がありましたので。,100501000X,vc_10050100031_002_01,chara_1
+message,エレクトラ,My apologies. I needed to come here urgently.<br> ,100501000X,vc_10050100031_002_01,chara_1
 
-message,<user>,急用か？<br>何があったんだ？
+message,<user>,An urgent matter? What happened?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -131,7 +131,7 @@ asyncseplay,setag1_5,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,エレクトラ,実は――,100501000X,vc_10050100031_003_01,chara_1
+message,エレクトラ,The truth is—<br> ,100501000X,vc_10050100031_003_01,chara_1
 
 
 
@@ -177,7 +177,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,アリシア,最近、司令官が無理をしてばっかりで、体調が心配なんです。<br>意地を張ってないで、ちゃんと寝てほしいんですけどね……,300201000,vc_10050100031_004_01,chara_2
+message,アリシア,Lately，the Commander's been pushing himself way too hard! I'm so<br>worried about his health! I wish he'd stop being stubborn and get some proper sleep!<br> ,300201000,vc_10050100031_004_01,chara_2
 
 asynccharaface,chara_3,FaceAnger,CONT,0
 
@@ -188,7 +188,7 @@ asyncseplay,setag1_7,se4800014,0,1,CONT,0
 asynccharaemo,chara_3,Silence,CONT,0
 
 
-message,ルディア,なるほど……それは確かに心配ね……,300301000,vc_10050100031_005_01,chara_3
+message,ルディア,I see... that certainly is worrying...<br> ,300301000,vc_10050100031_005_01,chara_3
 
 
 window,off
@@ -231,7 +231,7 @@ asynccharaemo,chara_3,Dull,CONT,0
 
 
 window,on,0.15
-message,ルディア,最近、司令官君があまり寝てないらしいんです。<br>いろいろ考えることもあるのでしょうけど、無理にでも寝てもらいたいですね。,300301000,vc_10050100031_006_01,chara_3
+message,ルディア,It seems the Commander hasn't been sleeping much lately. I'm sure he<br>has a lot to think about，but I'd like him to get some sleep even if we have to force him.<br> ,300301000,vc_10050100031_006_01,chara_3
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -240,7 +240,7 @@ asyncseplay,setag1_9,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,エレクトラ,ご主人様が眠れずにいる……,100501000X,vc_10050100031_007_01,chara_1
+message,エレクトラ,Master is unable to sleep...<br> ,100501000X,vc_10050100031_007_01,chara_1
 
 window,off
 wait,0.15
@@ -307,7 +307,7 @@ asynccharaemo,chara_1,Flash,STOP,8.1
 
 
 window,on,0.15
-message,エレクトラ,（考えすぎて眠れない→考えることをやめさせる→<br>考える余裕もないほど疲れさせる→グッスリ！）,100501000X,vc_10050100031_008_01,chara_1
+message,エレクトラ,Cannot sleep from thinking too much → make him stop thinking →<br>exhaust him so he cannot even think → sleep soundly!<br> ,100501000X,vc_10050100031_008_01,chara_1
 
 
 
@@ -357,11 +357,11 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,エレクトラ,というわけで、エレクトラがご奉仕することでご主人様を疲労させ、<br>強制的に睡眠を取っていただくことになりました。,100501000X,vc_10050100031_009_01,chara_1
+message,エレクトラ,And so，I have resolved to exhaust you with my service and force you<br>to get some sleep.<br> ,100501000X,vc_10050100031_009_01,chara_1
 
-message,<user>,なんだ、その連想ゲームは！？<br>導いた解決方法も脳筋すぎるぞ！！
+message,<user>,What's with that word association game! And the solution you came up<br>with is way too muscleheaded!<br> 
 
-message,<user>,そもそも無理をしている俺のことが心配なんだろ？<br>なのに、さらに無理矢理疲れさせて眠らせようというのはどうなんだ？
+message,<user>,In the first place，you're worried about me overworking，aren't you?<br>So how does it make sense to force me to exhaust myself even more just so I'll sleep?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -372,7 +372,7 @@ asyncseplay,setag1_14,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,エレクトラ,どうもこうもありません。<br>すべてはご主人様のお身体を思えばこそです。,100501000X,vc_10050100031_010_01,chara_1
+message,エレクトラ,It is not a matter of ""how."" It is all because I care about your<br>health，Master.<br> ,100501000X,vc_10050100031_010_01,chara_1
 
 window,off
 wait,0.15
@@ -400,7 +400,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,そう言うと、エレクトラは滑るようにこちらに近づいた。
+message,,With that，Electra slid closer.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -411,9 +411,9 @@ asyncseplay,setag1_15,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,エレクトラ,ご主人様……エレクトラのご奉仕を受けてくださいませ……<br>そして、そのままグッスリしましょう……,100501000X,vc_10050100031_011_01,chara_1
+message,エレクトラ,Master... please receive Electra's service... and then let us sleep<br>soundly...<br> ,100501000X,vc_10050100031_011_01,chara_1
 
-message,,トーンを抑えた甘く囁くような蠱惑的な声は、<br>耳からスルリと入ってきて、疲れた脳を痺れさせる。
+message,,Her voice，sweet and seductive in a hushed whisper，slipped into my<br>ear and numbed my tired brain.<br> 
 
 window,off
 wait,0.15
@@ -441,7 +441,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,そのままエレクトラの唇が近づいてくるが――
+message,,Then Electra's lips drew closer，but—<br> 
 
 window,off
 wait,0.15
@@ -468,7 +468,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,<user>,……待て。
+message,<user>,Wait.<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -477,11 +477,11 @@ asyncseplay,setag1_16,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,エレクトラ,ご主人様……？,100501000X,vc_10050100031_012_01,chara_1
+message,エレクトラ,Master...?<br> ,100501000X,vc_10050100031_012_01,chara_1
 
-message,<user>,奉仕をしてくれるのは構わん。<br>俺も無理をしている自覚はあるから、素直にそれを受け入れる。
+message,<user>,I don't mind you serving me. I'm aware I've been pushing myself too<br>hard，so I'll accept it.<br> 
 
-message,<user>,しかし、前回のようにやられるのは癪だ。<br>今回は最初から俺のやりたいようにやらせてもらうぞ……！
+message,<user>,But it's annoying to get screwed like last time. This time，I'm going<br>to do things my way from the start...!<br> 
 
 window,off
 wait,0.15
@@ -514,7 +514,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,そう言って自分からエレクトラの身体を抱きしめ、唇を貪った。
+message,,Having said that，he took Electra in his arms and devoured her lips.<br> 
 
 window,off
 wait,0.15
@@ -537,9 +537,9 @@ asynccharaemo,chara_1,Heart,CONT,0
 
 
 window,on,0.15
-message,エレクトラ,んぅっ……くぅっん……んっ……ちゅっ……ちゅむぅっ……んんふぅっ……<br>はぁ……ご主人様ぁ……,100501000X,vc_10050100031_013_01,chara_1
+message,エレクトラ,Mmph... Ngh... mm... *kiss*... *mwah*... mmm... *huff*... *pant*...<br>Master...<br> ,100501000X,vc_10050100031_013_01,chara_1
 
-message,,エレクトラの顔が蕩け、一気に女の表情になる。<br>それは彼女がこちらの提案を受け入れた証だった――
+message,,Electra's face melted，and she instantly took on a womanly<br>expression. That was proof that she had accepted his proposal.<br> 
 
 labeljump,b
 

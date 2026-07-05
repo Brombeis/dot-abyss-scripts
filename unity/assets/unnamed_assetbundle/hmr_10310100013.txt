@@ -14,29 +14,29 @@ charascale,chara_1,1.5,0
 charashow,chara_1,0.3
 
 window,on,0.15
-message,ハツネ,............<br> ,,vc_10310100013_001_01
+message,ハツネ,...<br> ,,vc_10310100013_001_01
 
-message,,Even as she straightened her disheveled clothes，<br>Hatsune still seemed not fully with it.<br> 
+message,,Adjusting her disheveled clothes after it was over，Hatsune still<br>seemed dazed.<br> 
 
-message,<user>,Hey，you doing okay?<br> 
+message,<user>,Hey，were you okay?<br> 
 
 asynccharareaction,chara_1,Shake,1,STOP
 
 asynccharaface,chara_1,FaceUnique02,STOP
-message,ハツネ,Y-yeah... I'm fine，somehow...<br> ,,vc_10310100013_002_01
+message,ハツネ,Y-yeah... I'm okay.<br> ,,vc_10310100013_002_01
 
-message,,Her voice lacked its usual confidence.<br>Her first taste of 'maguai' might have left her shaken.<br> 
+message,,Her voice lacked confidence. Perhaps she was intimidated by her<br>first ""mating"".<br> 
 
-message,<user>,So，you still want to work at the brothel?<br>If it's too much，it's fine to quit.<br> 
+message,<user>,So，do you still want to work at the brothel? If it's too much for<br>you，you can quit.<br> 
 
 asyncseplay,setag3_1,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,STOP
 
 asynccharaface,chara_1,FaceUnique01,STOP
-message,ハツネ,Th-that was just 'cause it was my first time，is all!<br>If Kotono can do it，then so can I!<br> ,,vc_10310100013_003_01
+message,ハツネ,Th-That was just because I was surprised since it was my first time!<br>If Kotono can do it，then I can too!<br> ,,vc_10310100013_003_01
 
-message,<user>,You really can't stand losing，huh... You don't have to<br>do this just to one-up her. That's what makes you a ki...<br> 
+message,<user>,You're really competitive，huh... I don't think you should do it just<br>for that reason. That kind of attitude is childish...<br> 
 
 asyncseplay,setag3_2,se4800012,0,1,CONT
 
@@ -46,11 +46,11 @@ asynccharaemo,chara_1,Shy,STOP
 asynccharaface,chara_1,FaceSad,STOP
 
 asynccharaface,chara_1,FaceShy,STOP,5.5
-message,ハツネ,I told you，I'm not a kid anymore!<br>Because... just now，you made me a woman，Commander...<br> ,,vc_10310100013_004_01
+message,ハツネ,I'm not a child anymore! After all... you just made me into an adult<br>woman，Commander.<br> ,,vc_10310100013_004_01
 
-message,,She said it with a mischievous grin，eyes fixed on him.<br>To that，he had no comeback.<br> 
+message,,Saying that，she looked at me with a mischievous smile. I was at a<br>loss for words.<br> 
 
-message,,After all，he was the one who'd made her a woman——<br> 
+message,,After all，I was the one who made her an adult woman—<br> 
 
 window,off
 bgmstop,bgmtag3_1,0.5

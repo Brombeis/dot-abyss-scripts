@@ -13,7 +13,7 @@ charaface,chara_1,FaceSurprise
 
 
 window,on,0.15
-message,,――数時間後、ようやく目隠しと縄を外してもらえたエメルダは、<br>さんざん自分を抱いた男を見て、呆然とした。
+message,,A few hours later，Emeralda finally had her blindfold and ropes<br>removed and stared blankly at the man who had so thoroughly taken her.<br> 
 
 charashow,chara_1,0.3
 
@@ -24,9 +24,9 @@ asyncseplay,setag3_1,se4800009,0,1,CONT
 asynccharaemo,chara_1,Question,STOP
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,エメルダ,……特ダネさん？,,vc_10330100013_001_01
+message,エメルダ,...Scoop?<br> ,,vc_10330100013_001_01
 
-message,<user>,あぁ、すまん。実は俺だったんだ。<br>ルディアに呼ばれて、ちょっとお仕置きに協力を……な。
+message,<user>,Ah，sorry. It was actually me. Ludia called me and I helped with the<br>discipline... yeah.<br> 
 
 asynccharareaction,chara_1,Shake,1,STOP
 
@@ -35,7 +35,7 @@ asyncseplay,setag3_2,se4800008,0,1,CONT
 asynccharaemo,chara_1,Sweat,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
-message,エメルダ,そ、そんな…………,,vc_10330100013_002_01
+message,エメルダ,N-no way...<br> ,,vc_10330100013_002_01
 
 asynccharareaction,chara_1,Shake,1,STOP
 
@@ -44,7 +44,7 @@ asyncseplay,setag3_3,se4800007,0,1,CONT
 asynccharaemo,chara_1,Panic,STOP
 
 asynccharaface,chara_1,FaceUnique01,STOP
-message,エメルダ,よ……良かったですぅぅぅう～～～～！！<br>うわああああんんんんんんっ！,,vc_10330100013_003_01
+message,エメルダ,I'm... so relieved! Waaaaah!<br> ,,vc_10330100013_003_01
 
 asynccharareaction,chara_1,Hop,1,STOP
 
@@ -52,16 +52,16 @@ asyncseplay,setag3_4,se4800006,0,1,CONT
 
 asynccharaemo,chara_1,Trouble,STOP
 
-message,エメルダ,初めての相手が特ダネさんで……っ！<br>しかも、大穴に捨てられることもない……！,,vc_10330100013_004_01
+message,エメルダ,My first partner was Scoop...! And I won't be thrown into the abyss<br>after all...!<br> ,,vc_10330100013_004_01
 
 asynccharareaction,chara_1,Shake,1,STOP
 
 asyncseplay,setag3_5,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,STOP
-message,エメルダ,良かったぁぁあっ！　良かったよぉぉおおっ！<br>わーーーーーんんんんっ！,,vc_10330100013_005_01
+message,エメルダ,I'm so glad! I'm so glad! Waaaaah!<br> ,,vc_10330100013_005_01
 
-message,<user>,感激しているところ悪いが、お前の行動は目に余る。<br>今回はお灸を据える程度だったが――次はこれくらいじゃ済まさんからな。
+message,<user>,I hate to interrupt your gratitude，but your actions are out of line.<br>This time it was just a light lesson，but next time it won't be this easy.<br> 
 
 asynccharareaction,chara_1,Hop,1,STOP
 
@@ -71,7 +71,7 @@ asynccharaemo,chara_1,Question,STOP
 
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,エメルダ,えっ……じゃあ……もっとひどいことしたり……激しくしたり？,,vc_10330100013_006_01
+message,エメルダ,Eh... then... will you do worse things... and be rougher?<br> ,,vc_10330100013_006_01
 
 asynccharareaction,chara_1,Shake,1,STOP
 
@@ -81,9 +81,9 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
 asynccharaface,chara_1,FaceShy,STOP
-message,,わずかに股を擦り合わせるエメルダ。<br>無意識の行動だったが、<user>は見逃さなかった。
+message,,Emeralda rubbed her thighs together slightly. It was an unconscious<br>movement，but the Commander didn't miss it.<br> 
 
-message,<user>,（こいつ、まさかＭに目覚めたのか……？）
+message,<user>,Has this girl just discovered she's an M...?<br> 
 
 
 asynccharareaction,chara_1,Nod,1,STOP
@@ -93,9 +93,9 @@ asyncseplay,setag3_8,se4800019,0,1,CONT
 asynccharaemo,chara_1,Elated,STOP
 
 charaface,chara_1,FaceUnique02
-message,エメルダ,じゃ、じゃあ、また忍び込んじゃいましょっかね～……？,,vc_10330100013_007_01
+message,エメルダ,Th-then... should I sneak in again...?<br> ,,vc_10330100013_007_01
 
-message,<user>,（お仕置きのはずがご褒美に早変わりか……やれやれ。<br>こいつには敵わないな……）
+message,<user>,What was supposed to be discipline has turned into a reward... Oh<br>well. I can't win with this girl...<br> 
 
 
 window,off

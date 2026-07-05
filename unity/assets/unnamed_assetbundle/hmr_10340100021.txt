@@ -43,7 +43,7 @@ asyncseplay,setag1_1,se4800007,0,1,CONT
 asynccharaemo,chara_2,Panic,STOP
 
 window,on,0.15
-message,カーラ<娼館>,い、いかがでしょうか？<br>どこかおかしくは見えませんか？,,vc_10340100021_001_01
+message,カーラ<娼館>,H-how do I look? Does anything seem off?<br> ,,vc_10340100021_001_01
 
 asyncseplay,setag1_2,se4800004,0,1,CONT
 
@@ -51,33 +51,33 @@ asynccharareaction,chara_3,Nod,1,STOP
 asynccharaemo,chara_3,Laugh,STOP
 
 asynccharaface,chara_3,FaceFun,STOP
-message,ルディア,いいえ、とってもよくお似合いよ、カーラさん。,,vc_10340100021_002_01
+message,ルディア,No，it suits you wonderfully，Carla.<br> ,,vc_10340100021_002_01
 
 asyncseplay,setag1_3,se4800008,0,1,CONT
 
 asynccharaemo,chara_2,Sweat,STOP
 
 asynccharaface,chara_2,FaceSad,STOP
-message,カーラ<娼館>,本当でしょうか……？ <br>これならあの海賊の警戒をとくことができるでしょうか？,,vc_10340100021_003_01
+message,カーラ<娼館>,Are you sure...? Can this really lower that pirate's guard?<br> ,,vc_10340100021_003_01
 
 asyncseplay,setag1_4,se4800003,0,1,CONT
 
 asynccharaemo,chara_3,Twinkle,STOP
 
 asynccharareaction,chara_3,Nod,1,STOP
-message,ルディア,ええ、いつもの格好なら共和国警備隊ってバレちゃうかもしれないけれど、<br>これなら大丈夫だわ。,,vc_10340100021_004_01
+message,ルディア,Yes，in your usual outfit you might be recognized as Republic<br>Guard，but with this you'll be fine.<br> ,,vc_10340100021_004_01
 
 asyncseplay,setag1_5,se4800022,0,1,CONT
 
 asynccharaemo,chara_3,Speak,STOP
 
 charapose,chara_3,2
-message,ルディア,さあ、そろそろあのお客様が来る時間よ。 <br>準備して。,,vc_10340100021_005_01
+message,ルディア,Now，it's almost time for that customer to arrive. Get ready.<br> ,,vc_10340100021_005_01
 
 asynccharareaction,chara_2,Nod,1,STOP
 
 asynccharaface,chara_2,FaceAnger,STOP
-message,カーラ<娼館>,では、個室のほうで待機していますね。,,vc_10340100021_006_01
+message,カーラ<娼館>,Then I'll be waiting in the private room.<br> ,,vc_10340100021_006_01
 
 
 window,off
@@ -106,12 +106,12 @@ asyncseplay,setag1_6,se4800007,0,1,CONT
 asynccharaemo,chara_2,Panic,STOP
 
 window,on,0.15
-message,カーラ<娼館>,ふぅ……さすがに緊張しますね……<br>で、でも、ずっと何か月もかけて追いかけていた海賊だもの……,,vc_10340100021_007_01
+message,カーラ<娼館>,*sigh*... I'm really nervous... B-but I've been chasing this pirate<br>for months after all...<br> ,,vc_10340100021_007_01
 
 asynccharaface,chara_2,FaceAnger,STOP
-message,カーラ<娼館>,私ならきっとできる……<br>司令官の研修を受けた私なら、絶対に……,,vc_10340100021_008_01
+message,カーラ<娼館>,I know I can do it... After training under the Commander，I<br>definitely can...<br> ,,vc_10340100021_008_01
 
-message,海賊の男,お、この部屋か？,900000001
+message,海賊の男,Oh，this the room?<br> ,900000001
 
 asyncseplay,setag1_7,se4300003,0,1,CONT
 
@@ -134,7 +134,7 @@ asynccharaemo,chara_2,Exclamation,STOP
 
 asynccharaface,chara_2,FaceSurprise,STOP
 window,on,0.15
-message,カーラ<娼館>,（……っ！　来た……！<br>手配書の通りの顔……間違いない！　あの海賊だ……）,,vc_10340100021_009_01
+message,カーラ<娼館>,(...! He's here...! The face matches the wanted poster... No doubt<br>about it! It's that pirate...)<br> ,,vc_10340100021_009_01
 
 window,off
 wait,0.15
@@ -173,11 +173,11 @@ asynccharaemo,chara_2,Shy,STOP
 
 asynccharaface,chara_2,FaceHappy,STOP
 window,on,0.15
-message,カーラ<娼館>,いらっしゃいませ……。<br>本日は、よろしくお願いします。,,vc_10340100021_010_01
+message,カーラ<娼館>,Welcome... I'll take good care of you.<br> ,,vc_10340100021_010_01
 
-message,海賊の男,ほぉ～、店の女が薦めるだけはあるな。 <br>こりゃなかなかの上玉じゃねえか。,900000001
+message,海賊の男,Whoa，I see why the girls here recommended you. This is a real<br>gem，ain't it?<br> ,900000001
 
-message,海賊の男,ほら、早速始めるぞ！ <br>俺が脱がしてやるからな！,900000001
+message,海賊の男,Come on，let's get started right away! I'll strip you down myself!<br> ,900000001
 
 asyncseplay,setag1_10,se4400119,0,1,CONT
 
@@ -191,7 +191,7 @@ asynccharaemo,chara_2,ExclaQues,STOP
 asynccharaface,chara_2,FaceSurprise,STOP
 
 asynccharaface,chara_2,FaceShy,STOP,2
-message,カーラ<娼館>,あっ……ちょ、ちょっと！<br>やっ……そんな乱暴にしちゃ……だ、ダメですっ！,,vc_10340100021_011_01
+message,カーラ<娼館>,Ah... h-hey! Don't be so rough... y-you can't!<br> ,,vc_10340100021_011_01
 
 
 labeljump,b

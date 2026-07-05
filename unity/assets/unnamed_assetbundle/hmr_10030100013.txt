@@ -30,7 +30,7 @@ bgmplay,bgmtag3_1,bgm0033,1
 
 
 window,on,0.15
-message,<user>,で、本当に娼館で働く気なのか？
+message,<user>,So，are you really planning to work at the brothel?<br> 
 
 window,off
 wait,0.15
@@ -49,9 +49,9 @@ wait,0.5
 
 
 window,on,0.15
-message,マリナ,う～ん、そうですね～……,100301000X,vc_10030100013_001_01,chara_1
+message,マリナ,Hmm，well...<br> ,100301000X,vc_10030100013_001_01,chara_1
 
-message,,研修は終わったが、あらためて彼女の意向を訊いてみる。<br>人手不足は否めないのだが、無理に働かせるつもりは毛頭ない。
+message,,The training was over，so I asked her about her intentions again. I<br>couldn't deny we were short-staffed，but I had no intention of forcing her to work at all.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -62,9 +62,9 @@ asyncseplay,setag3_2,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,マリナ,あの～、研修だけでこれだけの金貨が頂けるのなら、 <br>その……研修だけ何度もするってわけには……？,100301000X,vc_10030100013_002_01,chara_1
+message,マリナ,Um，if I can get this many gold coins just from the training... you<br>know... couldn't I just do the training multiple times...?<br> ,100301000X,vc_10030100013_002_01,chara_1
 
-message,<user>,は！？<br>いやいやいや！　研修は１回だけだ！
+message,<user>,Huh! No，no，no! The training is only once!<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -75,9 +75,9 @@ asyncseplay,setag3_3,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,マリナ,そりゃそうですよね～、あははぁ～！,100301000X,vc_10030100013_003_01,chara_1
+message,マリナ,Yeah，I figured you'd say that，Ahaha!<br> ,100301000X,vc_10030100013_003_01,chara_1
 
-message,,さすがに研修だけで稼がせるわけにはいかない。<br>マリナは素直に諦め、明るく笑って肩をすくめる。
+message,,I couldn't very well let her earn money from just training. Marina<br>gave in gracefully，laughed brightly，and shrugged her shoulders.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -89,9 +89,9 @@ asyncseplay,setag3_4,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,マリナ,上手くできるかどうかも不安ですしぃ、<br>もう少しゆっくり考えてみますね～。,100301000X,vc_10030100013_004_01,chara_1
+message,マリナ,I'm not sure if I can do it well or not，so I'll take a little more<br>time to think about it，okay?<br> ,100301000X,vc_10030100013_004_01,chara_1
 
-message,<user>,ああ、時間がかかってもいい。<br>ちゃんと考えてから答えを出してくれればそれでいい。
+message,<user>,Yeah，it's fine if it takes time. As long as you think it through<br>properly and give me your answer，that's fine.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -102,7 +102,7 @@ asyncseplay,setag3_5,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,マリナ,そうですよね。やっぱり、まだまだ自信ないですし……,100301000X,vc_10030100013_005_01,chara_1
+message,マリナ,You're right. I guess I really don't have much confidence yet...<br> ,100301000X,vc_10030100013_005_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -113,9 +113,9 @@ asyncseplay,setag3_6,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,マリナ,そこで１つ提案なのですがぁ～、<br>わたしの自信がつくまで何度か研修してもらう、というわけには……？,100301000X,vc_10030100013_006_01,chara_1
+message,マリナ,So，I have a proposal... Couldn't you give me a few more training<br>sessions until I build up my confidence...?<br> ,100301000X,vc_10030100013_006_01,chara_1
 
-message,<user>,いやいや、だから研修は１回だけだって言っただろ？
+message,<user>,No，no，I told you，the training is only once，right?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -126,9 +126,9 @@ asyncseplay,setag3_7,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,マリナ,いえいえいえっ！　そこを何とか！<br>もちろん、お金はなしでもいいのでぇ～！,100301000X,vc_10030100013_007_01,chara_1
+message,マリナ,No，no，no! Please，I'm begging you! Of course，I'd be happy to do it<br>for free!<br> ,100301000X,vc_10030100013_007_01,chara_1
 
-message,,そう言ってしつこくおねだりをし続けるマリナ。<br>どうやら、初めての体験がよっぽど気に入った様子だ。
+message,,Saying that，Marina continued to wheedle persistently. It seemed she<br>had really taken a liking to her first experience.<br> 
 
 window,off
 wait,0.15
@@ -164,9 +164,9 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,マリナ,そこをもう一声！　もうちょっとでコツが掴めそうな気がするんですよね～<br>わたしが立派に働けるかどうかの明暗は旦那さまにかかってるんですよぉ～,100301000X,vc_10030100013_008_01,chara_1
+message,マリナ,Come on，just one more! I feel like I'm almost getting the hang of<br>it! Whether I can do a good job or not is all up to you，Honey!<br> ,100301000X,vc_10030100013_008_01,chara_1
 
-message,<user>,いやいや、そう言われてもなぁ～……
+message,<user>,No，no... even when you say that...<br> 
 
 window,off
 wait,0.15
@@ -189,7 +189,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,商人モードの入ったマリナの交渉には叶うわけもなく、<br>結局、それから数回に渡って彼女に研修を施すハメになってしまったのだった。
+message,,I couldn't compete with Marina's merchant-mode negotiation，so I<br>ended up giving her several more ""training"" sessions.<br> 
 
 window,off
 bgmstop,bgmtag3_1,0.5

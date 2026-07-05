@@ -28,14 +28,14 @@ asynccharareaction,chara_1,Nod,1,CONT
 
 asynccharaface,chara_1,FaceFun,CONT,1
 window,on,0.15
-message,エティア,さて……今日もお仕事お仕事っと……,,vc_10120100031_001_01
+message,エティア,Alright then... back to work again...<br> ,,vc_10120100031_001_01
 
 asyncskipwait
 
 
-message,<user>,……ん？　あれはエティアか？<br>最近、司令本部に姿を見せないと思っていたが、どこへ行くんだ？
+message,<user>,Hm? Is that Etia? I was wondering why I haven't seen her at Command<br>HQ lately. Where is she heading?<br> 
 
-message,<user>,おい、エティア！
+message,<user>,Hey，Etia!<br> 
 
 
 charaface,chara_1,EyeOpen
@@ -46,9 +46,9 @@ asyncseplay,setag1_1,se4800022,0,1,CONT
 asynccharaemo,chara_1,Speak,STOP
 
 asynccharaface,chara_1,FaceSurprise,STOP,0.8
-message,エティア,え……あっ……！<br>ご、ご主人様……！？,,vc_10120100031_002_01
+message,エティア,Huh? Ah...! M-Master...?!<br> ,,vc_10120100031_002_01
 
-message,<user>,久しぶりだな。
+message,<user>,It's been a while.<br> 
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
@@ -56,9 +56,9 @@ charaface,chara_1,FaceNormal
 asynccharareaction,chara_1,Nod,0.5,STOP,0.8
 
 asynccharaface,chara_1,FaceShy,STOP,2
-message,エティア,ど、どうも……お久しぶり、です……,,vc_10120100031_003_01
+message,エティア,U-um... it's been a while，Master...<br> ,,vc_10120100031_003_01
 
-message,<user>,最近、姿を見なかったが、何かあったのか？
+message,<user>,I haven't seen you around lately. Has something happened?<br> 
 
 charaface,chara_1,FaceSad
 
@@ -67,11 +67,11 @@ asyncseplay,setag1_2,se4800008,0,1,CONT
 asynccharaemo,chara_1,Sweat,STOP
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,STOP
-message,エティア,えっと……その……まだ、自信が持てなくて……,,vc_10120100031_004_01
+message,エティア,Well... um... I still can't find the confidence...<br> ,,vc_10120100031_004_01
 
-message,<user>,自信？<br>なんの自信だ？
+message,<user>,Confidence? Confidence in what?<br> 
 
-message,<user>,おまえはすでに腕利きのハンターだろ？<br>そこは自信を持っていいと思うんだが？
+message,<user>,You're already a skilled hunter，aren't you? I'd say you can be<br>confident about that.<br> 
 
 charaface,chara_1,FaceUnique02
 
@@ -89,7 +89,7 @@ asynccharaemo,chara_1,Shy,STOP,7
 
 asynccharaface,chara_1,EyeClose,STOP,7
 asynccharaface,chara_1,FaceNormal,STOP,7
-message,エティア,そ、そっちじゃなくてですね……あの……なんと言いますか……<br>ご主人様を……気持ちよくさせる自信、です……,,vc_10120100031_005_01
+message,エティア,N-no，not that... um... how should I put this... confidence in making<br>you feel good，Master...<br> ,,vc_10120100031_005_01
 
 window,off
 wait,0.15
@@ -110,17 +110,17 @@ asynccharaemo,chara_1,Shy,STOP
 asynccharaface,chara_1,EyeOpen,CONT,3
 asynccharaface,chara_1,FaceNormal,CONT,3
 window,on,0.15
-message,エティア,……というわけで、ルディアさんにお願いして、<br>娼館で働かせてもらっているんです……自信が持てるようになるまで……,,vc_10120100031_006_01
+message,エティア,So... I asked Ludia and she's letting me work at the brothel...<br>until I can gain confidence...<br> ,,vc_10120100031_006_01
 
 asyncskipwait
 
-message,<user>,はぁっ……やれやれ……まさか、そんなことを考えていたとはな。<br>ちょっと一緒に来い。
+message,<user>,*sigh*... good grief... I never thought you'd be worrying about<br>something like that. Come with me.<br> 
 
 charaface,chara_1,FaceSurprise
 
 asyncshake,CHARA,chara_1,20,15,0.25,1,off,off,0,off,STOP
 
-message,エティア,え……ご主じ――ひゃっ！？,,vc_10120100031_007_01
+message,エティア,Huh... Mast— Eep!<br> ,,vc_10120100031_007_01
 
 window,off
 wait,0.15
@@ -137,9 +137,9 @@ transitionCrossFade,Tra01,1
 wait,1
 
 window,on,0.15
-message,,エティアの腕を掴んで、娼館まで引っ張ってくると、<br>彼女が持っていた娼館用の衣装に着替えるように命じた。
+message,,I grabbed Etia's arm and dragged her to the brothel，then ordered her<br>to change into the outfit she had for working there.<br> 
 
-message,,戸惑いながら着替えを終えたエティアを、鏡の前に立たせる。
+message,,After she finished changing，I stood her in front of a mirror，still<br>looking flustered.<br> 
 
 window,off
 wait,0.15
@@ -166,11 +166,11 @@ asynccharaemo,chara_2,Panic,CONT
 
 asynccharaface,chara_2,FaceUnique02,CONT,3
 window,on,0.15
-message,エティア<娼館>,あ、あの……ご主人様……これ、は……？,,vc_10120100031_008_01
+message,エティア<娼館>,U-um... Master... what is this...?<br> ,,vc_10120100031_008_01
 
 asyncskipwait
 
-message,,鏡に映るエティアに、よく似合っているじゃないかと感想を伝える。<br>事実、着替えたエティアは、いつもの彼女よりもずっと艶めかしく見えた。
+message,,I told Etia，as she looked at her reflection in the mirror，that it<br>really suited her. In fact，in her new clothes，she looked far more alluring than usual.<br> 
 
 charaface,chara_2,FaceUnique01
 
@@ -181,11 +181,11 @@ asynccharaemo,chara_2,Shy,STOP
 
 asynccharaface,chara_2,EyeOpen,STOP,2.8
 asynccharaface,chara_2,FaceNormal,STOP,2.8
-message,エティア<娼館>,あ、ありがとうございます……それで、あの……わたしは何をすれば……？,,vc_10120100031_009_01
+message,エティア<娼館>,Th-thank you... so，um... what should I do...?<br> ,,vc_10120100031_009_01
 
-message,,エティアはまだよく状況が飲み込めていない様子だった。
+message,,Etia still seemed unable to fully understand the situation.<br> 
 
-message,,しかし、そんなことは構わずに、彼女を背後から抱きしめると、<br>強引に下着に手をかけた。
+message,,Ignoring that，I pulled her into an embrace from behind and<br>forcefully grabbed her underwear.<br> 
 
 charaface,chara_2,FaceSurprise
 
@@ -196,7 +196,7 @@ asynccharaemo,chara_2,ExclaQues,STOP
 asyncshake,CHARA,chara_2,20,15,0.5,3,off,off,0,off,STOP
 
 asynccharaface,chara_2,FaceUnique02,STOP,2.5
-message,エティア<娼館>,きゃあっ！？<br>ご、ご主人様っ……何をっ……！？,,vc_10120100031_010_01
+message,エティア<娼館>,Kyaah!? M-Master... what are you...!?<br> ,,vc_10120100031_010_01
 
 
 

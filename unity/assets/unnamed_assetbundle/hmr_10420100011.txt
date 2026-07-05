@@ -44,7 +44,7 @@ asyncseplay,setag1_1,se4800002,0,1,CONT
 asynccharaemo,chara_1,Heart,STOP
 
 
-messageTextUnder,,娼館１階の酒場にて、<user>とヘイリーが食事をしている。<br>料理を食べ終え、２人はリラックスしていた。,,,on
+messageTextUnder,,At the tavern on the first floor of the brothel，the Commander and Hayley were having dinner. After finishing their meal，the two were relaxing.,,,on
 
 
 
@@ -76,7 +76,7 @@ wait,0.5
 
 
 window,on,0.15
-message,<user>,しかし、ヘイリーから食事に誘われるなんて珍しいな。<br>何か相談事でもあったのか？
+message,<user>,But it's rare for you to invite me to dinner，Hayley. Did you have<br>something to talk about?<br> 
 
 
 
@@ -87,7 +87,7 @@ asyncseplay,setag1_2,se4800007,0,1,CONT
 asynccharaemo,chara_1,Panic,STOP
 
 asynccharaface,chara_1,FaceShy,STOP
-message,ヘイリー,ど……どうしても、其方に伝えたいことがあってな。,,vc_10420100011_001_01
+message,ヘイリー,I... I absolutely must tell thee something.<br> ,,vc_10420100011_001_01
 
 asyncseplay,setag1_3,se4800019,0,1,CONT
 
@@ -95,7 +95,7 @@ asynccharaemo,chara_1,Elated,STOP
 
 asynccharaface,chara_1,EyeClose,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,ヘイリー,<ruby=ダークカオス>暗黒</>の深淵に眠る我の心は、其方の存在で輝き始めた。,,vc_10420100011_002_01
+message,ヘイリー,My heart，slumbering in the abyss of Dark Chaos，began to shine with<br>thy existence.<br> ,,vc_10420100011_002_01
 
 asyncseplay,setag1_4,se4800007,0,1,CONT
 
@@ -104,9 +104,9 @@ asynccharaemo,chara_1,Panic,STOP
 asynccharaface,chara_1,FaceSad,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
-message,ヘイリー,ぜ、前世の<ruby=レコード>因果</>を越え、今の其方の心も共に輝いているのか――<br>それを確かめたかったのだが……,,vc_10420100011_003_01
+message,ヘイリー,Transcending the records of past lives... I wanted to see if thy<br>heart now shines together with mine...<br> ,,vc_10420100011_003_01
 
-message,<user>,……すまない、さっぱり分からん。<br>酔っているのか？
+message,<user>,Sorry，I haven't got a clue. Are you drunk?<br> 
 
 window,off
 wait,0.15
@@ -129,7 +129,7 @@ asynccharaemo,chara_1,Laugh,STOP
 
 asynccharaface,chara_1,FaceUnique01,STOP
 window,on,0.15
-message,ヘイリー,……<ruby=カオスナイト>混沌の夜</>にも似たこの心に、突如として灯った炎。<br>これも前世の<ruby=レコード>因果</>に違いない。,,vc_10420100011_004_01
+message,ヘイリー,In this heart，like Chaos Knight，a flame suddenly sparked. This too<br>must be the records of past lives.<br> ,,vc_10420100011_004_01
 
 asyncseplay,setag1_7,se4800016,0,1,CONT
 
@@ -139,9 +139,9 @@ asynccharaemo,chara_1,BePeevish,STOP
 asynccharaface,chara_1,FaceAnger,STOP
 
 asynccharareaction,chara_1,Hop,1,STOP
-message,ヘイリー,わ、我が<ruby=フェイト>宿命</>を語るその答えを知るのは其方だけだ。<br>返答は如何に？,,vc_10420100011_005_01
+message,ヘイリー,W-well，you alone know the answer that speaks my Fate! What is thy<br>response?<br> ,,vc_10420100011_005_01
 
-message,<user>,…………解読に自信がないんだが、それってつまり……<br>告白か？
+message,<user>,I'm not confident I deciphered that correctly，but... is that<br>basically... a confession?<br> 
 
 asyncseplay,setag1_8,se4800017,0,1,CONT
 
@@ -151,10 +151,10 @@ asynccharaemo,chara_1,Shock,STOP
 asynccharaface,chara_1,FaceShy,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
-message,ヘイリー,ひうっ……,,vc_10420100011_006_01
+message,ヘイリー,Eep...<br> ,,vc_10420100011_006_01
 
 asyncshake,CHARA,chara_1,0,-50,1,2,off,off,0,off,STOP
-message,,素に戻ったヘイリーは、コクコクと２度頷いた。
+message,,Reverting to her normal self，Hayley nodded twice.<br> 
 
 
 asynccharareaction,chara_1,Shake,1,STOP
@@ -164,20 +164,20 @@ asyncseplay,setag1_9,se4800007,0,1,CONT
 asynccharaemo,chara_1,Panic,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
-message,ヘイリー,そ、そのぅ……これ以上、乙女心を傷付けないでくださいよぉ！,,vc_10420100011_007_01
+message,ヘイリー,U-um... Please don't hurt my maiden heart any more!<br> ,,vc_10420100011_007_01
 
 asyncseplay,setag1_10,se4800006,0,1,CONT
 
 asynccharaemo,chara_1,Trouble,STOP
 
 
-message,ヘイリー,わ、わたくし……勇気を振り絞って……<br>や、やっとの思いで気持ちを伝えたんですからぁ……ぐすんっ。,,vc_10420100011_008_01
+message,ヘイリー,I-I summoned up my courage... and with great difficulty，told you my<br>feelings... *sniff*.<br> ,,vc_10420100011_008_01
 
-message,<user>,わ、分かった分かった！　だから泣くな！
+message,<user>,O-okay，okay! So don't cry!<br> 
 
-message,,<user>が女の子を泣かせているのを周囲に気付かれ、<br>酒場全体が少しざわめき始める。これはさすがに気まずい。
+message,,The other patrons noticed that the Commander had made a girl cry，and<br>the entire tavern began to murmur. This was indeed awkward.<br> 
 
-message,<user>,えっと、前世からの因果かは知らんが……。<br>俺にとってもヘイリーは大切な存在なことは間違いない！
+message,<user>,Well，I don't know about that past-life karma stuff... But there's no<br>doubt that Hayley is really important to me too!<br> 
 
 asyncseplay,setag1_11,se4800010,0,1,CONT
 
@@ -187,7 +187,7 @@ asynccharaemo,chara_1,Exclamation,STOP
 asynccharaface,chara_1,FaceUnique01,STOP,1
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,ヘイリー,……！！　さすがは我が盟友！　其方との関係は、<br>切っても切れぬ鎖に縛られた関係か……これも無駄にならずに済みそうだ。,,vc_10420100011_009_01
+message,ヘイリー,...! As expected of my sworn ally! So our bond is bound by<br>unbreakable chains... Seems this won't go to waste after all.<br> ,,vc_10420100011_009_01
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
@@ -197,9 +197,9 @@ asyncseplay,setag1_12,se4400119,0,1,CONT
 asynccharareaction,chara_1,Shake,1,STOP
 
 asynccharareaction,chara_1,Nod,1,STOP
-message,,言いながら、ヘイリーは鎖の付いた拘束具を取り出す。
+message,,As she said that，Hayley pulled out a restraint device with chains<br>attached.<br> 
 
-message,<user>,ん！？　何だよ、いきなり！<br>それ、大人のおもちゃだぞ！？
+message,<user>,Huh! What's that all of a sudden? That's a sex toy!<br> 
 
 
 asynccharaface,chara_1,FaceFun,STOP
@@ -210,10 +210,10 @@ asyncseplay,setag1_13,se4800019,0,1,CONT
 
 asynccharaemo,chara_1,Elated,STOP
 
-message,,ヘイリーは分かってるとばかりに、２度コクコクと頷く。
+message,,Hayley nodded twice，as if to say she understood.<br> 
 
 
-message,<user>,……娼館に食事に誘い、告白して、鎖が無駄にならずに済みそうって――<br>まさかお前……ＳＭプレイに興味あるのか？
+message,<user>,... So you invited me to a brothel for dinner，confessed your<br>feelings，and all so the chains wouldn't go to waste? Don't tell me you're into BDSM.<br> 
 
 asynccharareaction,chara_1,Shake,1,STOP
 
@@ -223,7 +223,7 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
 asynccharaface,chara_1,FaceShy,STOP
-message,ヘイリー,<speed=2>じっ、実は幼いころ、両親がこのようなプレイを嗜んでいるところを<br>たまたま見てしまいまして……こっち系への興味が盛んになってしまい……</>,,vc_10420100011_010_01
+message,ヘイリー,W-well，actually，when I was little，I happened to see my parents<br>engaging in this sort of play... and my interest in this kind of thing just grew and grew...<br> ,,vc_10420100011_010_01
 
 window,off
 wait,0.15
@@ -237,7 +237,7 @@ wait,0.1
 
 
 window,on,0.15
-message,<user>,（……めちゃくちゃ早口で喋るじゃないか。<br>それだけ興味があるってことか？）
+message,<user>,(... She's speaking really fast. That means she's that<br>interested，huh?)<br> 
 
 window,off
 wait,0.15
@@ -251,7 +251,7 @@ wait,0.1
 
 
 window,on,0.15
-message,<user>,……まぁ、分かった。ヘイリーの好きにするといい。
+message,<user>,Well，I understand. Do whatever you like，Hayley.<br> 
 
 asynccharareaction,chara_1,Nod,1,STOP
 
@@ -261,7 +261,7 @@ asyncseplay,setag1_15,se4800003,0,1,CONT
 asynccharaemo,chara_1,Twinkle,STOP
 
 asynccharaface,chara_1,FaceUnique01,STOP
-message,,こくり、と強く頷いたヘイリーを連れて<br><user>は２階へ上がっていく。
+message,,Hayley gave a firm nod，and the Commander led her up to the second<br>floor.<br> 
 
 window,off
 bgmstop,bgmtag1_1,1
@@ -280,7 +280,7 @@ wait,1
 fade,In,Black,1
 
 window,on,0.15
-message,,――痛くないか？　……はい、といったやり取りと共に、<br>部屋の中に鎖の音が響いている。
+message,,The sound of chains echoed in the room，accompanied by the exchange:<br>""Does it hurt?"" ""...No.""<br> 
 
 
 labeljump,b

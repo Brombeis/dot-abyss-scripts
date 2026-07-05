@@ -15,7 +15,7 @@ bgmplay,bgmtag3_1,bgm0024,1
 
 
 window,on,0.15
-message,,The soldier，who had tended to Film until she woke，<br>bowed deeply to her as she sat up.<br> 
+message,,The soldier who had been caring for Film until she regained<br>consciousness bowed deeply to her as she sat up.<br> 
 
 charashow,chara_1,0
 
@@ -26,13 +26,13 @@ asyncseplay,setag3_1,se4800007,0,1,CONT
 asynccharaemo,chara_1,Panic,STOP
 
 charaface,chara_1,FaceSad
-message,フィルム,I'm the one who said it was okay~<br>You don't need to worry about it.<br> ,,vc_10070100023_001_01
+message,フィルム,I told you it's fine，so don't worry about it.<br> ,,vc_10070100023_001_01
 
 charaface,chara_1,EyeClose
 charaface,chara_1,FaceNormal
-message,フィルム,I understand the feeling of longing for someone~<br>Even I know what that's like...<br> ,,vc_10070100023_002_01
+message,フィルム,I understand what it's like to yearn for someone too...<br> ,,vc_10070100023_002_01
 
-message,,Film spoke gently，and the soldier seemed to understand.<br>'So you do have someone you love，' he said.<br> 
+message,,The soldier seemed convinced by Film's calm words. ""So you really<br>have found someone you love，haven't you?""<br> 
 
 asyncseplay,setag3_2,se4800007,0,1,CONT
 
@@ -41,14 +41,14 @@ asynccharaemo,chara_1,Panic,STOP
 asynccharareaction,chara_1,shake,1,STOP
 
 charaface,chara_1,FaceUnique02
-message,フィルム,...Huh?<br>Th-that's not...<br> ,,vc_10070100023_003_01
+message,フィルム,...Huh? Th-that's not...<br> ,,vc_10070100023_003_01
 
-message,,'You've become even more beautiful lately，' the soldier continued.<br>'I figured you must be having a wonderful romance.'<br> 
+message,,The soldier continued，saying that Film had become even more<br>beautiful lately and must be in the midst of a wonderful love.<br> 
 
 asynccharareaction,chara_1,nod,1,STOP
 
 charaface,chara_1,FaceSurprise
-message,フィルム,Is that how I looked to you...?<br> ,,vc_10070100023_004_01
+message,フィルム,So that's how I looked to you...<br> ,,vc_10070100023_004_01
 
 window,off
 wait,0.15
@@ -64,7 +64,7 @@ wait,0.1
 
 charaface,chara_1,FaceUnique02
 window,on,0.15
-message,フィルム,(Me... in love...?)<br> ,,vc_10070100023_005_01
+message,フィルム,(I... in love...?)<br> ,,vc_10070100023_005_01
 
 window,off
 wait,0.15
@@ -77,14 +77,14 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,,'I won't tell anyone. I'll treasure today as a memory and keep<br>working hard.' The soldier thanked her with a satisfied look.<br> 
+message,,""I won't tell anyone. I'll treasure this memory and do my best<br>starting tomorrow."" With that，the soldier thanked her contentedly.<br> 
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
 
 asynccharareaction,chara_1,Nod,1,STOP
 
-message,フィルム,Y-yes~<br>I'm glad you were satisfied~<br> ,,vc_10070100023_006_01
+message,フィルム,Ah，well... I'm glad you're satisfied，then.<br> ,,vc_10070100023_006_01
 
 window,off
 wait,0.15
@@ -96,13 +96,13 @@ wait,1
 charaface,chara_1,EyeClose
 charaface,chara_1,FaceNormal
 window,on,0.15
-message,フィルム,...So I am having a wonderful romance~<br>That's why thinking of Commander-kun makes every day feel happy.<br> ,,vc_10070100023_007_01
+message,フィルム,...I really am in love with someone wonderful. That's why thinking<br>of Commander makes every day so happy.<br> ,,vc_10070100023_007_01
 
 charahide,chara_1,0.3
 
 item,on,550100001
 
-message,ノワール,............<br> ,550100001,vc_10070100023_008_01,
+message,ノワール,...<br> ,550100001,vc_10070100023_008_01,
 
 item,off,550100001
 
@@ -115,19 +115,19 @@ asyncseplay,setag3_4,se4800022,0,1,CONT
 charaemo,chara_1,Speak
 
 charaface,chara_1,FaceSurprise
-message,フィルム,Oh my，what's wrong，Noir~?<br>You look like something's bothering you.<br> ,,vc_10070100023_009_01
+message,フィルム,Oh，what's wrong，Noir? You seem dissatisfied with something.<br> ,,vc_10070100023_009_01
 
 asynccharaemo,chara_1,Sweat,STOP
 
 charaface,chara_1,FaceSad
 
-message,フィルム,...Could it be that you're upset because I'm<br>enjoying my love life while you help me with everything?<br> ,,vc_10070100023_010_01
+message,フィルム,...Could it be that you're angry because I'm the only one enjoying<br>this love while you've been helping me all this time?<br> ,,vc_10070100023_010_01
 
 charahide,chara_1,0.3
 
 item,on,550100001
 
-message,ノワール,......<br> ,550100001,vc_10070100023_011_01,
+message,ノワール,...<br> ,550100001,vc_10070100023_011_01,
 
 item,off,550100001
 
@@ -141,7 +141,7 @@ charaface,chara_1,FaceUnique01
 
 charareaction,chara_1,Hop,1
 
-message,フィルム,N-Noir?<br>Hey，Noir!?<br> ,,vc_10070100023_012_01
+message,フィルム,N-Noir? Hey，Noir!<br> ,,vc_10070100023_012_01
 
 window,off
 bgmstop,bgmtag3_1,0.5

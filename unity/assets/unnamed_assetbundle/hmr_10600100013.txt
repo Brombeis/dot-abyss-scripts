@@ -38,7 +38,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,――服を着たあと、テルーはどこかウキウキとしていた。<br>その幸せそうな様子に、こちらまで嬉しくなってくる。
+message,,After we got dressed，Telu was in unusually high spirits. Seeing her<br>so happy made me feel happy too.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -49,9 +49,9 @@ asyncseplay,setag3_2,se4800005,0,1,CONT,0
 asynccharaemo,chara_1,Flash,CONT,0
 
 
-message,テルー,あ、そうだ……っ！<br>喉、乾いたよね？　新しい飲み物持ってくるね！,,vc_10600100013_001_01,chara_1
+message,テルー,Oh，that's right! You're thirsty，aren't you? I'll bring a new drink!<br> ,,vc_10600100013_001_01,chara_1
 
-message,<user>,俺もついていくよ。
+message,<user>,I'll come with you.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -62,7 +62,7 @@ asyncseplay,setag3_3,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,テルー,うんっ♪,,vc_10600100013_002_01,chara_1
+message,テルー,Yeah!♪<br> ,,vc_10600100013_002_01,chara_1
 
 window,off
 wait,0.15
@@ -95,9 +95,9 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,テルー,って、ああ！？,,vc_10600100013_003_01,chara_1
+message,テルー,Wait—ah!<br> ,,vc_10600100013_003_01,chara_1
 
-message,<user>,危ない！！
+message,<user>,Watch out!<br> 
 
 window,off
 wait,0.15
@@ -137,9 +137,9 @@ shake,BACK,,20,0,0.25,30,off,off,0
 shake,CHARA,chara_1,20,0,0.25,30,off,off,0
 
 window,on,0.15
-message,,またもや躓いたテルーを抱き止める――
+message,,I caught Telu as she tripped once again—<br> 
 
-message,,今度はなぜか、テルーに押し倒される形となった。<br>むぎゅう……と胸を押し当てられている。
+message,,*squish*... her chest pressed against mine.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -150,7 +150,7 @@ asyncseplay,setag3_7,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,テルー,は、はわわっ！　私ったらまた――ご、ごめんなさい！！！,,vc_10600100013_004_01,chara_1
+message,テルー,E-eep! I've done it again—I'm so sorry!<br> ,,vc_10600100013_004_01,chara_1
 
 window,off
 wait,0.15
@@ -175,9 +175,9 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,テルー,……あれ？,,vc_10600100013_005_01,chara_1
+message,テルー,...Huh?<br> ,,vc_10600100013_005_01,chara_1
 
-message,,むくむくむく、とズボンが膨らんでいく。<br>気まずそうにしていると、彼女が微笑みかけてきた。
+message,,My pants were swelling—bulge，bulge，bulge. Just as I was feeling<br>awkward，she smiled at me.<br> 
 
 window,off
 wait,0.15
@@ -196,7 +196,7 @@ wait,0.5
 
 
 window,on,0.15
-message,テルー,ふふふっ……いいよ？　またしよっか？,,vc_10600100013_006_01,chara_1
+message,テルー,Fufufu... It's okay? Wanna do it again?<br> ,,vc_10600100013_006_01,chara_1
 
 window,off
 wait,0.15
@@ -214,7 +214,7 @@ asynccharaemo,chara_1,Shy,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,優しく、妖艶な表情を向けられて、一気に情欲が滾る。<br>すぐさま起き上がり、彼女を抱き締める。
+message,,She looked at me with a gentle，bewitching expression，and my desire<br>instantly boiled over. I immediately sat up and pulled her into my arms.<br> 
 
 window,off
 wait,0.15
@@ -246,7 +246,7 @@ asyncmove,BACK,,0,0,0,Set,CONT
 fade,In,Black,1
 
 window,on,0.15
-message,,そして結局、朝まで離れられず、<br>書類仕事は進められなかったのだった……
+message,,And so，we ended up unable to part until morning，and the paperwork<br>never got done...<br> 
 
 window,off
 bgmstop,bgmtag3_1,0.5

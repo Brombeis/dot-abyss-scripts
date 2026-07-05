@@ -28,13 +28,13 @@ asyncseplay,setag1_1,se4300001,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,While reading through the advance team's reports in preparation for<br>tomorrow's expedition， a knock came at the Commander's office door.<br> 
+message,,As I was going through the advance team's report for tomorrow's<br>expedition，someone knocked on the command room door.<br> 
 
-message,ニナ,Master，do you have a moment?<br> ,106101000G,vc_10610100031_001_01,
+message,ニナ,Master，may I come in?<br> ,106101000G,vc_10610100031_001_01,
 
-message,,It was Nina，who had been attending to his needs in the Commander's<br>office again today.<br> 
+message,,It was Nina，who had been looking after me in the command room today<br>as well.<br> 
 
-message,<user>,Yes，come in.<br> 
+message,<user>,Yeah，go ahead.<br> 
 
 window,off
 wait,0.15
@@ -74,9 +74,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ニナ,I have finished my duties for the evening. A late supper is prepared<br>— please help yourself. I shall be taking my leave shortly.<br> ,106101000G,vc_10610100031_002_01,chara_1
+message,ニナ,Today's meal service is finished. I've also prepared a late-night<br>snack，so please eat. Well then，I think I'll take my leave now.<br> ,106101000G,vc_10610100031_002_01,chara_1
 
-message,<user>,Thank you for staying this late.<br>Go on home and rest.<br> 
+message,<user>,Thanks for working so late. Go home and get some proper rest.<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -85,9 +85,9 @@ asyncseplay,setag1_4,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ニナ,The trousers you asked me to mend this afternoon — where might I<br>find them? I intend to have the tear repaired before morning.<br> ,106101000G,vc_10610100031_003_01,chara_1
+message,ニナ,Where are the trousers you asked me about earlier today? I plan to<br>mend the torn sections by tomorrow morning.<br> ,106101000G,vc_10610100031_003_01,chara_1
 
-message,<user>,Ah — right，I did ask you that，didn't I.<br>They're on the sofa. No rush，though.<br> 
+message,<user>,Oh，right，did I ask you to do that? The trousers are on the sofa. But<br>there's no need to rush.<br> 
 
 asynccharareaction,chara_1,Nod,1,CONT,0
 
@@ -96,11 +96,11 @@ asyncseplay,setag1_5,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ニナ,Understood.<br> ,106101000G,vc_10610100031_004_01,chara_1
+message,ニナ,Certainly.<br> ,106101000G,vc_10610100031_004_01,chara_1
 
-message,,Nina took the trousers — but did not leave.<br> 
+message,,Nina picked up the item she had come for，but for some reason she<br>didn't leave the room right away.<br> 
 
-message,<user>,What is it?<br>Is there something else?<br> 
+message,<user>,What's up? Is there something else?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -111,9 +111,9 @@ asyncseplay,setag1_6,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ニナ,Forgive me for being forward...... but are you not going to<br>bed，Master?<br> ,106101000G,vc_10610100031_005_01,chara_1
+message,ニナ,Um... I know this is presumptuous，but... Master，are you not going to<br>sleep yet?<br> ,106101000G,vc_10610100031_005_01,chara_1
 
-message,<user>,Hm? Ah...... the night before an expedition，my mind just runs on.<br>I end up wide awake and can't get to sleep.<br> 
+message,<user>,Huh? Oh... before an expedition，I end up thinking about all sorts of<br>things. I get wide awake and can't get to sleep easily.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -124,9 +124,9 @@ asyncseplay,setag1_7,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ニナ,But that is precisely why you ought to sleep earlier，not later......<br> ,106101000G,vc_10610100031_006_01,chara_1
+message,ニナ,But precisely because it's the day before an expedition，I believe<br>you should retire early...<br> ,106101000G,vc_10610100031_006_01,chara_1
 
-message,<user>,You're not wrong，Nina.<br>I'll probably just drift off on my own eventually.<br> 
+message,<user>,You're right，Nina. But hey，I'll probably just crash on my own sooner<br>or later.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -137,9 +137,9 @@ asyncseplay,setag1_8,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ニナ,If you are going to sleep，I would very much prefer you do so in your<br>bed......<br> ,106101000G,vc_10610100031_007_01,chara_1
+message,ニナ,If you're going to sleep，I'd prefer you do so properly in bed...<br> ,106101000G,vc_10610100031_007_01,chara_1
 
-message,<user>,I know，I know...... eventually......<br> 
+message,<user>,I know... soon enough，soon enough...<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -149,7 +149,7 @@ asyncseplay,setag1_9,se4800014,0,1,CONT,0
 
 asynccharaemo,chara_1,Silence,CONT,0
 
-message,,He answered without looking up from the papers. Whatever Nina was<br>thinking， she set the trousers aside and walked toward him.<br> 
+message,,As I gave vague replies while reading through the documents，Nina，as<br>if considering something，set the trousers aside and approached me.<br> 
 
 window,off
 wait,0.15
@@ -185,11 +185,11 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,ニナ,Master......<br> ,106101000G,vc_10610100031_008_01,chara_1
+message,ニナ,Master...<br> ,106101000G,vc_10610100031_008_01,chara_1
 
-message,<user>,Mm...?<br> 
+message,<user>,Hmm...?<br> 
 
-message,,Nina's hand settled gently over his.<br> 
+message,,Nina's hand gently rested on mine.<br> 
 
 window,off
 wait,0.15
@@ -225,9 +225,9 @@ asynccharaemo,chara_1,Shy,CONT,0
 
 
 window,on,0.15
-message,ニナ,In that case...... allow me to serve you in a way that will have you<br>asleep in your bed right away...... if you would permit me......<br> ,106101000G,vc_10610100031_009_01,chara_1
+message,ニナ,Then，so that Master may rest in bed right away... I shall serve<br>you... Is that acceptable...?<br> ,106101000G,vc_10610100031_009_01,chara_1
 
-message,,He looked up from the papers. Nina's cheeks were flushed — her<br>expression at once shy and utterly final，leaving no room for argument.<br> 
+message,,I looked up from my papers to find Nina，her cheeks flushed，her<br>expression shy yet insistent.<br> 
 
 labeljump,b
 

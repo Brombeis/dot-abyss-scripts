@@ -24,28 +24,28 @@ bgmplay,bgmtag1_1,bgm0025,0.75,1
 
 
 window,on,0.15
-message,,深夜、ラヴェリアに呼び出されて娼館にやってきた。
+message,,Late at night，Laveria called me out to the brothel.<br> 
 
 asynccharareaction,chara_1,nod,1,STOP
 
 charashow,chara_1,0.3
-message,ラヴェリア,兄さん、こんな時間に呼び出してしまってすまない。,,vc_10200100031_001_01
+message,ラヴェリア,Brother，I'm sorry for calling you out at this hour.<br> ,,vc_10200100031_001_01
 
-message,<user>,それはいいが、いったいどうしたんだ？
+message,<user>,That's fine，but what's going on?<br> 
 
 asynccharareaction,chara_1,nod,1,STOP
 
 charaface,chara_1,FaceFun
-message,ラヴェリア,なに……お礼をしたいと思ってな……,,vc_10200100031_002_01
+message,ラヴェリア,Well... I wanted to repay you...<br> ,,vc_10200100031_002_01
 
-message,<user>,ははぁ、初めてした時のリベンジマッチということか？<br>それなら望むところだ。
+message,<user>,Ahaha，so it's a rematch from our first time? In that case，I'm all<br>for it.<br> 
 
 asynccharareaction,chara_1,shake,0.5,STOP
 
 charaface,chara_1,FaceShy
-message,ラヴェリア,あ、いや……そういうことじゃなくて、だな……,,vc_10200100031_003_01
+message,ラヴェリア,Ah，no... it's not like that...<br> ,,vc_10200100031_003_01
 
-message,<user>,違うのか？　じゃあ、お返しというのは？
+message,<user>,It's not? Then what's this about repayment?<br> 
 
 charaface,chara_1,EyeClose
 charaface,chara_1,FaceNormal
@@ -56,16 +56,16 @@ asyncseplay,setag1_1,se4800012,0,1,CONT
 
 asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
-message,ラヴェリア,今日は、その……。<br>アタシが兄さんを気持ちよくしてあげたいんだ。,,vc_10200100031_004_01
+message,ラヴェリア,Today，um... I want to make you feel good，Brother.<br> ,,vc_10200100031_004_01
 
-message,,赤面しながら衣服に手をかけ、胸元を強調するラヴェリア。<br>彼女が何をするつもりなのか、聞かずともそれは自明だった。
+message,,Blushing，Laveria placed her hands on her clothes，drawing attention<br>to her breasts. It was obvious what she intended without a word.<br> 
 
 charaface,chara_1,FaceUnique01
 
 asyncseplay,setag1_2,se4800002,0,1,CONT
 
 asynccharaemo,chara_1,Heart,STOP
-message,ラヴェリア,さあ、兄さん。<br>アタシを好きに使ってくれ。,,vc_10200100031_005_01
+message,ラヴェリア,Come on，Brother. Use me as you like.<br> ,,vc_10200100031_005_01
 
 labeljump,b
 

@@ -46,9 +46,9 @@ wait,0.5
 
 
 window,on,0.15
-message,セレスト,つ、疲れた……,104801000X,vc_10480100023_001_01,chara_1
+message,セレスト,Ugh... I'm beat...<br> ,104801000X,vc_10480100023_001_01,chara_1
 
-message,,満身創痍といった体で、セレストが１階の酒場へと降りてくる。
+message,,Looking thoroughly worn out，Celeste came down to the tavern on the<br>first floor.<br> 
 
 window,off
 wait,0.15
@@ -81,7 +81,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,へぇ～。しっかりサービスできたってことか。セレストも成長してるんだな。<br>今日は俺が１杯、奢るよ。
+message,<user>,Ohh... so you gave good service，huh? You're improving，Celeste. I'll<br>treat you to a drink today.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -92,7 +92,7 @@ asyncseplay,setag3_2,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,セレスト,ま、待って待って！　今日はサービスなんて全然できてない……<br>あと、お酒も今日はいいかも……,104801000X,vc_10480100023_002_01,chara_1
+message,セレスト,W-wait，hold on! I didn't give any decent service at all today... And<br>I think I'll skip the alcohol today too...<br> ,104801000X,vc_10480100023_002_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -103,7 +103,7 @@ asyncseplay,setag3_3,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,セレスト,（二日酔いの上、ガン突きされて、もうお酒は無理だっての……）,104801000X,vc_10480100023_003_01,chara_1
+message,セレスト,(On top of a hangover，I got pounded... no way I can handle alcohol<br>anymore...)<br> ,104801000X,vc_10480100023_003_01,chara_1
 
 window,off
 wait,0.15
@@ -149,7 +149,7 @@ asynccharaemo,chara_2,Flash,CONT,0
 
 
 window,on,0.15
-message,ルディア,ん～。お客様へのご奉仕のやり方、もっと司令官君に<br>ちゃんと研修してもらったら？,300301000,vc_10480100023_004_01,chara_2
+message,ルディア,Hmm... Maybe you should have the Commander give you some proper<br>training on how to serve the guests.<br> ,300301000,vc_10480100023_004_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -160,7 +160,7 @@ asyncseplay,setag3_5,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,セレスト,え、研修？,104801000X,vc_10480100023_005_01,chara_1
+message,セレスト,Huh，training?<br> ,104801000X,vc_10480100023_005_01,chara_1
 
 asynccharaface,chara_2,FaceUnique03,CONT,0
 
@@ -171,7 +171,7 @@ asyncseplay,setag3_6,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,ルディア,研修って言っても、接客マナーの研修よ？,300301000,vc_10480100023_006_01,chara_2
+message,ルディア,When I say training，I mean training in customer service manners，you<br>know?<br> ,300301000,vc_10480100023_006_01,chara_2
 
 window,off
 wait,0.15
@@ -217,7 +217,7 @@ asyncseplay,setag3_7,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 window,on,0.15
-message,,セレストはしばらく考える。
+message,,Celeste thought for a while.<br> 
 
 window,off
 wait,0.15
@@ -234,9 +234,9 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,セレスト,そうだなぁ……うん！　司令官との研修だったら、いつでも歓迎だ！<br>あ、でも、お尻叩くのは無しな！,104801000X,vc_10480100023_007_01,chara_1
+message,セレスト,Hmm... yeah! If it's training with the Commander，I'm all for it!<br>Oh，but no spanking!<br> ,104801000X,vc_10480100023_007_01,chara_1
 
-message,<user>,そうだなぁ～。<br>セレストには厳しめに教えないと身につかないからなぁ～。
+message,<user>,Hmm... I guess I'll have to be pretty strict for it to sink in with<br>you，Celeste.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -247,7 +247,7 @@ asyncseplay,setag3_9,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,セレスト,ペットのしつけじゃないんだから叩かなくたって分かるって！<br>なんだったら、今からでもいいよ……♡,104801000X,vc_10480100023_008_01,chara_1
+message,セレスト,It's not like training a pet! I can get it without being spanked! In<br>fact，we could start right now!♡<br> ,104801000X,vc_10480100023_008_01,chara_1
 
 window,off
 wait,0.15
@@ -295,7 +295,7 @@ wait,1
 
 
 window,on,0.15
-message,ルディア,あらあら、急に元気になっちゃったわね。<br>それじゃあ司令官君、よろしくね♪,300301000,vc_10480100023_009_01,chara_2
+message,ルディア,Oh my，you've suddenly gotten so energetic. Well then，Commander，I'll<br>leave it to you.♪<br> ,300301000,vc_10480100023_009_01,chara_2
 
 window,off
 wait,0.15
@@ -340,7 +340,7 @@ asyncseplay,setag3_10,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 window,on,0.15
-message,,さっきまでフラフラだったセレストが急に元気になる。<br>その顔には期待に満ちた笑顔が浮かんでいた――
+message,,Celeste，who had been unsteady just moments ago，suddenly perked up.<br>Her face lit up with an expectant smile.<br> 
 
 window,off
 bgmstop,bgmtag3_1,0.5

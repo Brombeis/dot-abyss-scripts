@@ -35,7 +35,7 @@ asynccharareaction,chara_2,Nod,1,STOP
 asynccharaemo,chara_2,Laugh,STOP
 
 window,on,0.15
-message,ルディア,さっきのお客様、マーガレットさんのことを絶賛してましたよ。<br>恥ずかしそうにしてる顔が興奮しましたって。,,vc_10390100023_001_01
+message,ルディア,The client from earlier was raving about Margaret! He said seeing<br>her embarrassed face got him worked up.<br> ,,vc_10390100023_001_01
 
 asyncseplay,setag3_2,se4800012,0,1,CONT
 
@@ -43,9 +43,9 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
 asynccharareaction,chara_1,Nod,1,STOP
-message,マーガレット,喜んでいただけてたなら良かったです。<br>お客様に顔を見られるのが恥ずかしくて顔を隠してしまいました……,,vc_10390100023_002_01
+message,マーガレット,I am glad he was pleased. I was so embarrassed to have him see my<br>face，so I hid it...<br> ,,vc_10390100023_002_01
 
-message,<user>,そうか……なんかつらい思いをさせてしまったかもだな。<br>すまなかった。
+message,<user>,I see... Maybe I put you through something rough. Sorry.<br> 
 
 
 window,off
@@ -82,14 +82,14 @@ asynccharaemo,chara_1,Panic,STOP
 
 asynccharaface,chara_1,FaceSurprise,STOP
 window,on,0.15
-message,マーガレット,いいえ！　人助けできたのですから謝らないでください。<br>私が引き受けたことですし。,,vc_10390100023_003_01
+message,マーガレット,No，not at all! I was able to help someone，so please do not<br>apologize. It was my choice.<br> ,,vc_10390100023_003_01
 
 
 
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,マーガレット,でも、さっき気がついたんです。あぁいう行為をしている時の顔って、<br>自分の一番無防備な表情が出てしまうんだなって。,,vc_10390100023_004_01
+message,マーガレット,But I realized something earlier. During that kind of act，your face<br>shows your most vulnerable expression.<br> ,,vc_10390100023_004_01
 
 asyncseplay,setag3_4,se4800002,0,1,CONT
 
@@ -98,9 +98,9 @@ asynccharaemo,chara_1,Heart,STOP
 asynccharaface,chara_1,FaceUnique01,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
-message,マーガレット,それをよく知らない誰かに見せるのって、<br>やっぱり恥ずかしくて……,,vc_10390100023_005_01
+message,マーガレット,Showing that to someone you barely know... it is still<br>embarrassing...<br> ,,vc_10390100023_005_01
 
-message,<user>,まぁ、それはそうだろうな。<br>マーガレットに限ったことではないと思うぞ。
+message,<user>,Well，that makes sense. I don't think it's just you，Margaret.<br> 
 
 asyncseplay,setag3_5,se4800012,0,1,CONT
 
@@ -108,9 +108,9 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
 asynccharaface,chara_1,FaceShy,STOP
-message,マーガレット,でも、もしかしたら、<br>一番、心を許している相手だとまた違うのかなとも思いました。,,vc_10390100023_006_01
+message,マーガレット,But I thought maybe it would be different with the person you trust<br>the most.<br> ,,vc_10390100023_006_01
 
-message,<user>,心を許している相手？<br>あー、えーと、マーガレットの場合は、”神”の存在になるのか？
+message,<user>,Someone you trust the most? Ah，well，for you，Margaret，that would be<br>God，right?<br> 
 
 
 
@@ -119,9 +119,9 @@ asyncseplay,setag3_6,se4800002,0,1,CONT
 asynccharaemo,chara_1,Heart,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
-message,マーガレット,”神”……も、そうかもしれませんが、<br>もう１人……えっと、司令官様がお相手なら……,,vc_10390100023_007_01
+message,マーガレット,God... might be one，but there is another... well，if you were my<br>partner，Commander...<br> ,,vc_10390100023_007_01
 
-message,,マーガレットはそう言うと、顔を真っ赤にして俯いてしまう。
+message,,Margaret said this，then her face turned bright red and she looked<br>down.<br> 
 
 
 window,off
@@ -157,11 +157,11 @@ asynccharaemo,chara_2,Laugh,STOP
 
 asynccharaface,chara_2,FaceFun,STOP
 window,on,0.15
-message,ルディア,ふふっ、良かったじゃない！<br>司令官君、神に並ぶ存在になったってことよ。,,vc_10390100023_008_01
+message,ルディア,Fufu，that's great! That means you've become an existence on par with<br>God，Commander.<br> ,,vc_10390100023_008_01
 
-message,,マーガレットに好意を抱かれるのはいいのだが、<br>神に並ぶ存在などとはさすがに恐れ多い。
+message,,It was nice that Margaret had feelings for me，but being put on the<br>same level as God was truly more than I deserved.<br> 
 
-message,<user>,えーと、それは……うん、マーガレットから俺への最大の<br>褒め言葉だと受け止めておくよ。
+message,<user>,Ah，well... yeah，I'll take that as the highest compliment from<br>you，Margaret.<br> 
 
 
 asyncseplay,setag3_8,se4800012,0,1,CONT
@@ -170,7 +170,7 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
 asynccharareaction,chara_1,Nod,1,STOP
-message,マーガレット,は、はい――,,vc_10390100023_009_01
+message,マーガレット,Y-yes...<br> ,,vc_10390100023_009_01
 
 
 
@@ -218,7 +218,7 @@ asynccharaemo,chara_1,Silence,STOP
 asynccharaface,chara_1,EyeClose,STOP
 asynccharaface,chara_1,FaceNormal,STOP
 window,on,0.15
-message,マーガレット,（神よ……私の心に芽生えてしまった正直な気持ち、<br>お許しになってくれますよね？）,,vc_10390100023_010_01
+message,マーガレット,(God... You will forgive these honest feelings that have sprouted in<br>my heart，won't you?)<br> ,,vc_10390100023_010_01
 
 
 asyncseplay,setag3_10,se4800002,0,1,CONT
@@ -226,7 +226,7 @@ asyncseplay,setag3_10,se4800002,0,1,CONT
 asynccharaemo,chara_1,Heart,STOP
 
 asynccharaface,chara_1,FaceUnique02,STOP
-message,マーガレット,（時折、少しだけで構いません――ただ、１人の女性として<br>愛する人と接することを、どうか――お許しください……）,,vc_10390100023_011_01
+message,マーガレット,(Just once in a while，a little bit is enough—please，allow me to be<br>with the one I love as just a woman...)<br> ,,vc_10390100023_011_01
 
 
 window,off

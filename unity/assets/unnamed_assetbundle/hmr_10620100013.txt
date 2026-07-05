@@ -38,9 +38,9 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,アリシア,I-I'm so relieved!<br>It's all thanks to Hinagi-san... truly!<br> ,300201000,vc_10620100013_001_01,chara_2
+message,アリシア,I-I'm so relieved! Thanks to Hinagi... I really，truly am!<br> ,300201000,vc_10620100013_001_01,chara_2
 
-message,<user>,Yeah. Honestly，I don't really remember what she<br>did，but I owe Hinagi my thanks.<br> 
+message,<user>,Yeah. Honestly，I don't really remember what she did，but I've got to<br>thank Hinagi.<br> 
 
 window,off
 wait,0.15
@@ -77,7 +77,7 @@ screeneffect,SEPIATONE,on,1,0
 fade,In,White,1
 
 window,on,0.15
-message,,He did not know how many hours the nightmares lasted. He only knew<br>that when he woke，Hinagi was clinging to him，drenched in sweat.<br> 
+message,,I had no idea how many hours I'd been tormented by that nightmare.<br>When I came to，Hinagi was clinging to me，drenched in sweat.<br> 
 
 window,off
 wait,0.15
@@ -128,7 +128,7 @@ asynccharamove,chara_1,EaseOut,X,-100,0.3,CONT,0
 emodelete,chara_1,0,0
 
 window,on,0.15
-message,,But when Hinagi regained consciousness，she said<br>nothing，straightened her clothes，and hurried out.<br> 
+message,,But once Hinagi regained consciousness，she didn't say a<br>word，straightened her disheveled clothes，and quickly left the room.<br> 
 
 asyncwait
 
@@ -165,7 +165,7 @@ screeneffect,SEPIATONE,off,1,0
 fade,In,White,1
 
 window,on,0.15
-message,<user>,Apparently she used a secret onmyouji technique，<br>but I wonder what it involved. A shame I can't remember...<br> 
+message,<user>,I guess she used some Onmyoji secret technique. I wonder what it was<br>like. I can sort of imagine，but it's a shame I don't remember.<br> 
 
 asyncseplay,setag3_4,se4300001,0,1,CONT,0
 
@@ -179,7 +179,7 @@ asyncseplay,setag3_5,se4800022,0,1,CONT,0
 
 asynccharaemo,chara_2,Speak,CONT,0
 
-message,,Knock knock!<br> 
+message,,Knock，knock!<br> 
 
 window,off
 wait,0.15
@@ -237,7 +237,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,There was a knock at the office door. Alicia opened<br>it to find Hinagi，holding a dirty scrap of paper，looking grave.<br> 
+message,,There was a knock at the command room door. When Alicia opened<br>it，Hinagi was standing there，holding a dirty piece of paper，her expression grim.<br> 
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -246,9 +246,9 @@ asyncseplay,setag3_8,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒナギ,I did not want to believe it，but——<br>I found this buried in the soil at headquarters' entrance...<br> ,106201000G,vc_10620100013_002_01,chara_1
+message,ヒナギ,I didn't think it was possible，but... I found this buried in the<br>ground at the entrance to Command HQ.<br> ,106201000G,vc_10620100013_002_01,chara_1
 
-message,<user>,Hm? A scrap of paper? What is that?<br> 
+message,<user>,Huh? A piece of paper? What's that?<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -259,7 +259,7 @@ asyncseplay,setag3_9,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ヒナギ,It is called a katashiro — a type of curse talisman<br>used by onmyouji...<br> ,106201000G,vc_10620100013_003_01,chara_1
+message,ヒナギ,It's called a curse effigy—a type of cursed talisman used by<br>Onmyoji.<br> ,106201000G,vc_10620100013_003_01,chara_1
 
 window,off
 wait,0.15
@@ -313,7 +313,7 @@ asynccharaemo,chara_2,Question,CONT,0
 
 
 window,on,0.15
-message,アリシア,Why was something like that at the entrance<br>to headquarters...!?<br> ,300201000,vc_10620100013_004_01,chara_2
+message,アリシア,Why is that at the entrance to Command HQ?!<br> ,300201000,vc_10620100013_004_01,chara_2
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -324,9 +324,9 @@ asyncseplay,setag3_11,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒナギ,I believe someone planted it to direct<br>a curse at Commander-sama.<br> ,106201000G,vc_10620100013_005_01,chara_1
+message,ヒナギ,I believe someone placed this here to lay a curse on you，Commander.<br> ,106201000G,vc_10620100013_005_01,chara_1
 
-message,<user>,So someone cursed me?<br>What could they possibly want...?<br> 
+message,<user>,So someone cursed me? What could their goal be...<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -337,9 +337,9 @@ asyncseplay,setag3_12,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ヒナギ,I cannot say for certain，but their aim was likely<br>to steal the power of your noble bloodline，Commander-sama.<br> ,106201000G,vc_10620100013_006_01,chara_1
+message,ヒナギ,I cannot say for sure，but it is likely aimed at taking away your<br>power，Commander，given your noble bloodline.<br> ,106201000G,vc_10620100013_006_01,chara_1
 
-message,<user>,Some people really do have bizarre hobbies.<br> 
+message,<user>,Some people sure have strange hobbies.<br> 
 
 window,off
 wait,0.15
@@ -385,9 +385,9 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,Actually，a spellbook was stolen from my room<br>recently. It contained instructions for this very talisman——<br> ,106201000G,vc_10620100013_007_01,chara_1
+message,ヒナギ,Actually，the other day，a grimoire was stolen from my room. That book<br>should have contained the instructions for making this talisman—<br> ,106201000G,vc_10620100013_007_01,chara_1
 
-message,<user>,Hmm. If I'm the target，<br>they might come after me again.<br> 
+message,<user>,Hmm. If I'm the target，they might come after me again.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -396,9 +396,9 @@ asyncseplay,setag3_14,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒナギ,I am deeply sorry. It was my failure to protect it.<br>I never imagined someone here could break my barrier...<br> ,106201000G,vc_10620100013_008_01,chara_1
+message,ヒナギ,I sincerely apologize. This was my oversight. I never imagined there<br>was someone in the Frontline Base who could break my barrier...<br> ,106201000G,vc_10620100013_008_01,chara_1
 
-message,<user>,Don't worry about it. I've always had people<br>after me. One more makes no difference.<br> 
+message,<user>,Don't worry about it. I've been targeted by all sorts already. One<br>more doesn't make a difference.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -409,7 +409,7 @@ asyncseplay,setag3_15,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,ヒナギ,What are you saying!?<br>If Commander-sama's life were taken... I-I would...<br> ,106201000G,vc_10620100013_009_01,chara_1
+message,ヒナギ,What are you saying! If Commander's life were to be taken... I...<br>I...<br> ,106201000G,vc_10620100013_009_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -419,9 +419,9 @@ asyncseplay,setag3_16,se4800014,0,1,CONT,0
 
 asynccharaemo,chara_1,Silence,CONT,0
 
-message,,Hinagi's emotions swelled，her eyes glistening.<br>Faced with that gaze，%user% could not say a word.<br> 
+message,,Hinagi's emotions surged，and her eyes welled up. When she looked at<br>me with those eyes，I couldn't say a word.<br> 
 
-message,<user>,I'll be careful，Hinagi.<br>But if I get cursed again，I'm counting on you.<br> 
+message,<user>,I'll be extra careful too，Hinagi. But if I get caught in another<br>weird curse，I'm counting on you.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -432,7 +432,7 @@ asyncseplay,setag3_17,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ヒナギ,Of course. But this all began because my book was<br>stolen. I will find the culprit and eliminate the threat.<br> ,106201000G,vc_10620100013_010_01,chara_1
+message,ヒナギ,Of course. But this all began because my grimoire was stolen. I will<br>find the culprit and remove this threat from you，Commander.<br> ,106201000G,vc_10620100013_010_01,chara_1
 
 window,off
 wait,0.15
@@ -486,7 +486,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,アリシア,Find the culprit? But how?<br> ,300201000,vc_10620100013_011_01,chara_2
+message,アリシア,But even if you say you'll find the culprit，how exactly are you<br>going to do that?<br> ,300201000,vc_10620100013_011_01,chara_2
 
 window,off
 wait,0.15
@@ -505,7 +505,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒナギ,Those who practice this type of sorcery carry<br>a distinct evil qi. If I can get close enough to sense it...<br> ,106201000G,vc_10620100013_012_01,chara_1
+message,ヒナギ,Those who employ such techniques emit a unique malign energy. If we<br>can trace it...<br> ,106201000G,vc_10620100013_012_01,chara_1
 
 window,off
 wait,0.15
@@ -544,7 +544,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,Hinagi already had a lead on how to find the culprit.<br>And the resolve to throw herself into danger——<br> 
+message,,At that moment，Hinagi already had a plan for tracking down the<br>culprit. And the resolve to throw herself into that danger—<br> 
 
 window,off
 bgmstop,bgmtag3_1,0.5

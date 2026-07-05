@@ -28,7 +28,7 @@ asynccharareaction,chara_2,Nod,1,STOP
 asynccharaemo,chara_2,Laugh,STOP
 
 window,on,0.15
-message,ルディア,ありがとね。娼館のお仕事も受けてくれて。あのお客様、結局<br>泣きながら３倍の金貨を置いて帰っていったのよ。,,vc_10530100023_001_01
+message,ルディア,Thanks for taking the brothel job too. That customer ended up paying<br>triple the gold coins and left in tears.<br> ,,vc_10530100023_001_01
 
 asyncseplay,setag3_2,se4800003,0,1,CONT
 
@@ -37,7 +37,7 @@ asynccharaemo,chara_1,Twinkle,STOP
 asynccharareaction,chara_1,Nod,1,STOP
 
 asynccharaface,chara_1,FaceFun,STOP
-message,シャノン,そうか。そんなに喜んでくれたのなら、私もプロとして嬉しく思うよ。,,vc_10530100023_002_01
+message,シャノン,I see. If he was that happy，then as a professional，I'm glad too.<br> ,,vc_10530100023_002_01
 
 asyncseplay,setag3_3,se4800009,0,1,CONT
 
@@ -45,7 +45,7 @@ asynccharaemo,chara_2,Question,STOP
 
 asynccharaface,chara_2,EyeOpen,STOP
 asynccharaface,chara_2,FaceNormal,STOP
-message,ルディア,プロとしてするエッチってどうだった？<br>やっぱり司令官君とするのとは違う？,,vc_10530100023_003_01
+message,ルディア,How was it，doing it as a professional? Is it different from doing it<br>with the Commander?<br> ,,vc_10530100023_003_01
 
 asynccharareaction,chara_1,Shake,1,STOP
 
@@ -54,13 +54,13 @@ asyncseplay,setag3_4,se4800006,0,1,CONT
 asynccharaemo,chara_1,Trouble,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
-message,シャノン,そうだな……客を満足させることに必死で、<br>正直あまり自分の気持ち良さには集中できなかったな……,,vc_10530100023_004_01
+message,シャノン,Well... I was so focused on satisfying the customer that honestly，I<br>couldn't really concentrate on my own pleasure.<br> ,,vc_10530100023_004_01
 
 
 asynccharareaction,chara_2,Nod,1,STOP
 
 asynccharaface,chara_2,FaceFun,STOP
-message,ルディア,なるほどね～。やっぱり全然違うんだ？,,vc_10530100023_005_01
+message,ルディア,I see. So it really is completely different，huh?<br> ,,vc_10530100023_005_01
 
 asyncseplay,setag3_5,se4800012,0,1,CONT
 
@@ -68,7 +68,7 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
 asynccharaface,chara_1,FaceShy,STOP
-message,シャノン,オーナーとした時はもっと……身も心も、完全に委ねられたというか……<br>私も、もっと興奮してしまってた――,,vc_10530100023_006_01
+message,シャノン,When I was with the Owner，it was more... like I entrusted myself<br>completely，body and soul... I was even more excited.<br> ,,vc_10530100023_006_01
 
 window,off
 wait,0.15
@@ -92,7 +92,7 @@ asynccharaemo,chara_1,Heart,STOP
 
 asynccharaface,chara_1,FaceUnique02,STOP
 window,on,0.15
-message,シャノン,（そうだ……あのときはもっともっと、お腹の奥が疼いちゃってたものな……）,,vc_10530100023_007_01
+message,シャノン,(That's right... back then，the depths of my core were aching so much<br>more...)<br> ,,vc_10530100023_007_01
 
 window,off
 wait,0.15
@@ -105,10 +105,10 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,,その時、店の入り口から１人の男が入って来る。
+message,,At that moment，a man entered the shop.<br> 
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,<user>,なぁ、ルディア。俺、さっきここに財布忘れてなかったか？<br>ポケットの中にないんだが……
+message,<user>,Hey，Ludia，did I leave my wallet here earlier? It's not in my pocket.<br> 
 
 asyncseplay,setag3_7,se4800004,0,1,CONT
 
@@ -116,11 +116,11 @@ asynccharareaction,chara_2,Nod,1,STOP
 asynccharaemo,chara_2,Laugh,STOP
 
 asynccharaface,chara_2,FaceHappy,STOP
-message,ルディア,ふふっ、ここにあるわよ。<br>あんな急いで帰っちゃうからでしょ～？,,vc_10530100023_008_01
+message,ルディア,Fufu，it's right here. That's because you left in such a hurry，isn't<br>it?<br> ,,vc_10530100023_008_01
 
 asynccharaface,chara_2,EyeOpen,STOP
 asynccharaface,chara_2,FaceNormal,STOP
-message,<user>,おおっ！　やっぱりここだったか！<br>司令本部に戻ったら財布がないことに気付いてだなぁ……
+message,<user>,Oh! So it was here after all! When I got back to Command HQ，I<br>realized I didn't have my wallet.<br> 
 
 asynccharareaction,chara_1,Shake,1,STOP
 
@@ -129,9 +129,9 @@ asyncseplay,setag3_8,se4800007,0,1,CONT
 asynccharaemo,chara_1,Panic,STOP
 
 asynccharaface,chara_1,FaceUnique02,STOP
-message,シャノン,なぁ、オーナー……ちょっと頼みがあるんだが……,,vc_10530100023_009_01
+message,シャノン,Hey，Owner... I have a favor to ask.<br> ,,vc_10530100023_009_01
 
-message,<user>,ん？　頼み？　急にどうした？
+message,<user>,Hm? A favor? What's this all of a sudden?<br> 
 
 asyncseplay,setag3_9,se4800012,0,1,CONT
 
@@ -139,16 +139,16 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
 asynccharaface,chara_1,FaceUnique01,STOP
-message,シャノン,もう１度私にしてくれないだろうか？<br>そ、その……正式な”研修”を……,,vc_10530100023_010_01
+message,シャノン,Would you do it for me once more? That... the formal ""training""...<br> ,,vc_10530100023_010_01
 
-message,<user>,正式な研修！？<br>え～と……ど、どういうことだ？
+message,<user>,""Official training""!? Umm... what do you mean?<br> 
 
 asynccharaface,chara_1,FaceShy,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
-message,シャノン,もっと勉強したいんだよ！<br>私がプロとして仕事を全うするために。,,vc_10530100023_011_01
+message,シャノン,I want to study more! So I can do my job as a professional.<br> ,,vc_10530100023_011_01
 
-message,<user>,な、なるほど。そのプロってのは、娼館で働くプロって意味か？
+message,<user>,I-I see. So by ""professional""，do you mean the kind who works at the<br>brothel?<br> 
 
 asynccharaface,chara_1,FaceAnger,STOP
 
@@ -157,7 +157,7 @@ asyncseplay,setag3_10,se4800019,0,1,CONT
 asynccharaemo,chara_1,Elated,STOP
 
 asynccharareaction,chara_1,Nod,1,STOP
-message,,シャノンは真剣な顔で強く頷く。
+message,,Shannon nods firmly with a serious expression.<br> 
 
 
 
@@ -168,9 +168,9 @@ asyncseplay,setag3_11,se4800005,0,1,CONT
 asynccharaemo,chara_2,Flash,STOP
 
 asynccharaface,chara_2,FaceFun,STOP
-message,ルディア,――ってことだから、してあげたら？　『正式な研修』。<br>空いてる部屋を使っていいわよ。,,vc_10530100023_012_01
+message,ルディア,So why don't you give her the ""official training""? You can use an<br>empty room.<br> ,,vc_10530100023_012_01
 
-message,<user>,ルディアまで随分と乗り気だな……
+message,<user>,Even Ludia's pretty enthusiastic about this...<br> 
 
 asyncseplay,setag3_12,se4800013,0,1,CONT
 
@@ -180,7 +180,7 @@ asynccharaemo,chara_2,Spirits,STOP
 charapose,chara_2,1
 
 asynccharaface,chara_2,FaceHappy,STOP
-message,ルディア,だって、シャノンさんのファン、多いんですもの。,,vc_10530100023_013_01
+message,ルディア,After all，Shannon does have a lot of fans.<br> ,,vc_10530100023_013_01
 
 
 
@@ -215,9 +215,9 @@ asyncseplay,setag3_13,se4800022,0,1,CONT
 asynccharaemo,chara_1,Speak,STOP
 
 window,on,0.15
-message,シャノン,よろしく頼むよ、オーナー！<br>私はオーナーを満足させるくらいのプロフェッショナルになりたいんだ！,,vc_10530100023_014_01
+message,シャノン,I'm counting on you，Owner!\nI want to become a professional who can<br>satisfy you.<br> ,,vc_10530100023_014_01
 
-message,,シャノンの目は本気だった。<br>その後『正式な研修』は、彼女が納得いくまで一晩中続くこととなる――
+message,,Shannon's eyes were serious.\nAfter that，the ""official training""<br>would continue all night until she was satisfied.<br> 
 
 
 window,off

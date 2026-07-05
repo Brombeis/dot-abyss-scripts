@@ -23,7 +23,7 @@ charaface,chara_1,FaceHappy
 
 
 window,on,0.15
-message,男性客,ありがとうございました、メレムさん！<br>次の探索、がんばってきます！
+message,男性客,Thank you so much，Merem! I'll give it my all on the next survey!<br> 
 
 
 asynccharashow,chara_1,0.3,CONT
@@ -37,7 +37,7 @@ asynccharaemo,chara_1,Speak,STOP
 
 
 asynccharaface,chara_1,FaceFun,STOP
-message,メレム,はい、きっと良い結果になりますよ。,,vc_10470100023_001_01
+message,メレム,Yes，I'm sure you'll get good results.<br> ,,vc_10470100023_001_01
 
 window,off
 wait,0.15
@@ -59,18 +59,18 @@ asynccharaemo,chara_2,Speak,STOP
 
 asynccharaface,chara_2,FaceFun,STOP
 window,on,0.15
-message,ルディア,……あのお客様、とても晴れ晴れとした顔をしていたわね。<br>占いの結果、何が見えたんですか？,,vc_10470100023_002_01
+message,ルディア,...That customer looked so relieved. What did you see in your<br>reading?<br> ,,vc_10470100023_002_01
 
 asyncseplay,setag3_3,se4800003,0,1,CONT
 
 asynccharaemo,chara_1,Twinkle,STOP
 
 asynccharaface,chara_1,FaceHappy,STOP
-message,メレム,特別な未来をお伝えしたわけではありません。<br>ただ、前へ進めるように背中を押してあげただけです。,,vc_10470100023_003_01
+message,メレム,I didn't reveal any specific future. I just gave him a gentle push<br>forward.<br> ,,vc_10470100023_003_01
 
 asynccharaface,chara_1,EyeClose,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,メレム,大穴の調査に危険は避けられないですから……<br>そのことはきっと、お客様も分かっていたと思います。,,vc_10470100023_004_01
+message,メレム,Danger is unavoidable when surveying the Abyss... I think the<br>customer understood that too.<br> ,,vc_10470100023_004_01
 
 charapose,chara_2,2
 
@@ -81,21 +81,21 @@ asynccharaemo,chara_2,Silence,STOP
 asynccharareaction,chara_2,Nod,1,STOP
 
 asynccharaface,chara_2,FaceSad,STOP
-message,ルディア,命をかけて調査に向かうお客様は、<br>心も体も繋がった相手に、大丈夫だと言ってほしかったのね……。,,vc_10470100023_005_01
+message,ルディア,That customer，heading out on a life-threatening survey，just wanted<br>the one he's bonded with，heart and body，to tell him he'd be okay...<br> ,,vc_10470100023_005_01
 
 asyncseplay,setag3_5,se4800022,0,1,CONT
 
 asynccharaemo,chara_1,Speak,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
-message,メレム,……ルディアさん、ちょっと司令官のところに行ってきます。<br>明日の調査について、少し話しておきたいことがあるので……,,vc_10470100023_006_01
+message,メレム,...Ludia，I'm going to go see the Commander. There's something I need<br>to discuss about tomorrow's survey...<br> ,,vc_10470100023_006_01
 
 asyncseplay,setag3_6,se4800009,0,1,CONT
 
 asynccharaemo,chara_2,Question,STOP
 
 asynccharaface,chara_2,FaceSurprise,STOP
-message,ルディア,……危険な未来が見えたのね？,,vc_10470100023_007_01
+message,ルディア,...You saw a dangerous future，didn't you?<br> ,,vc_10470100023_007_01
 
 asynccharareaction,chara_1,Nod,1,STOP
 
@@ -104,7 +104,7 @@ asyncseplay,setag3_7,se4800003,0,1,CONT
 asynccharaemo,chara_1,Twinkle,STOP
 
 asynccharaface,chara_1,FaceFun,STOP
-message,メレム,はい。でも、大丈夫ですよ。<br>私と司令官なら、どんな運命だって変えられます！,,vc_10470100023_008_01
+message,メレム,Yes. But it's all right. The Commander and I can change any fate!<br> ,,vc_10470100023_008_01
 
 asyncseplay,setag3_8,se4800013,0,1,CONT
 
@@ -112,7 +112,7 @@ asynccharareaction,chara_2,Jump,1,STOP
 asynccharaemo,chara_2,Spirits,STOP
 
 asynccharaface,chara_2,FaceFun,STOP
-message,ルディア,ふふ……随分と自信があるのね。,,vc_10470100023_009_01
+message,ルディア,Fufu... You certainly have a lot of confidence.<br> ,,vc_10470100023_009_01
 
 window,off
 wait,0.15
@@ -143,7 +143,7 @@ asynccharaemo,chara_1,Flower,STOP
 
 asynccharaface,chara_1,FaceHappy,STOP
 window,on,0.15
-message,メレム,はい！<br>司令官は、私を導く運命の相手ですから！,,vc_10470100023_010_01
+message,メレム,Yes! Because you are my destined partner who guides me!<br> ,,vc_10470100023_010_01
 
 window,off
 bgmstop,bgmtag3_1,0.5

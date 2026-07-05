@@ -54,7 +54,7 @@ sestop,se1_1,1
 
 asynccharaface,chara_1,FaceSad,STOP
 window,on,0.15
-message,シェリル,うわぁ～～～！　遅刻遅刻～～～！<br>衛兵と娼婦の二足のわらじはやっぱりしんどいよぉ～～～っ！,,vc_10520100021_001_01
+message,シェリル,Waaaah! I'm late，I'm late! Juggling guard and courtesan work is<br>really wearing me out!<br> ,,vc_10520100021_001_01
 
 
 
@@ -90,14 +90,14 @@ asynccharaemo,chara_1,Sweat,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
 window,on,0.15
-message,シェリル,（……って、しまった。押収品の違法媚薬を持ってきちゃった……。<br>こんな怪しい品、さっさと本国に送って処分を任せたいんだけどなー）,,vc_10520100021_002_01
+message,シェリル,(... Oh crap. I ended up bringing the confiscated illegal<br>aphrodisiac... I wish I could just send this shady stuff back to headquarters and let them deal with it...)<br> ,,vc_10520100021_002_01
 
 asyncseplay,setag1_3,se4800014,0,1,CONT
 
 asynccharaemo,chara_1,Silence,STOP
 
 asynccharaface,chara_1,FaceFun,STOP
-message,シェリル,（間違って誰かが使わないように、ルディアさんに預かってもらおうかな？<br>ルディアさん、お店にいるかな？）,,vc_10520100021_003_01
+message,シェリル,(Maybe I'll ask Ludia to hold onto it so nobody uses it by mistake?<br>I wonder if she's at the shop...)<br> ,,vc_10520100021_003_01
 
 
 window,off
@@ -150,9 +150,9 @@ asynccharaemo,chara_3,Question,STOP
 
 asynccharaface,chara_3,FaceSurprise,STOP
 window,on,0.15
-message,娼婦,……え？,,vc_10520100021_004_01
+message,娼婦,Huh?<br> ,,vc_10520100021_004_01
 
-message,シェリル,わわっ！　あぶなーい！！,,vc_10520100021_005_01
+message,シェリル,Whoa! Watch out!<br> ,,vc_10520100021_005_01
 
 sestop,se1_2,1
 
@@ -218,7 +218,7 @@ asynccharareaction,chara_3,Shake,1,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
 window,on,0.15
-message,シェリル,あたた……ご、ごめんね、ぶつかっちゃって。<br>遅刻しそうで、先を急いでたんだ。怪我なかった？,,vc_10520100021_006_01
+message,シェリル,Owww... S-sorry，I bumped into you. I was rushing 'cause I'm late.<br>Are you hurt?<br> ,,vc_10520100021_006_01
 
 asyncseplay,setag1_8,se4800011,0,1,CONT
 
@@ -228,7 +228,7 @@ asynccharaemo,chara_3,ExclaQues,STOP
 asynccharareaction,chara_3,Nod,1,STOP
 
 asynccharaface,chara_3,FaceSurprise,STOP
-message,娼婦,はい。それより……大丈夫ですか？<br>びしょびしょですけど……,,vc_10520100021_007_01
+message,娼婦,I'm fine. More importantly... are you all right? You're drenched...<br> ,,vc_10520100021_007_01
 
 asyncseplay,setag1_9,se4800011,0,1,CONT
 
@@ -238,14 +238,14 @@ asynccharaemo,chara_1,ExclaQues,STOP
 asynccharareaction,chara_1,Shake,1,STOP
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,シェリル,あぁっ！？　違法媚薬が全身に！？,,vc_10520100021_008_01
+message,シェリル,Ah! The illegal aphrodisiac got all over me!<br> ,,vc_10520100021_008_01
 
 asyncseplay,setag1_10,se4800009,0,1,CONT
 
 asynccharaemo,chara_1,Question,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
-message,シェリル,……でも、特になんともないなぁ。<br>なんだ、不良品か。,,vc_10520100021_009_01
+message,シェリル,...But I don't feel any different. What a dud.<br> ,,vc_10520100021_009_01
 
 
 asynccharareaction,chara_1,Nod,1,STOP
@@ -255,7 +255,7 @@ asyncseplay,setag1_11,se4800022,0,1,CONT
 asynccharaemo,chara_1,Speak,STOP
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,シェリル,ともかく気にしないで！<br>私、これから仕事だから、急いで着替えなきゃ！　またね！,,vc_10520100021_010_01
+message,シェリル,Anyway，don't worry about it! I've gotta get to work，so I need to<br>change quickly! See you!<br> ,,vc_10520100021_010_01
 
 window,off
 wait,0.15
@@ -300,7 +300,7 @@ asynccharareaction,chara_2,Shake,1,STOP
 bgmplay,bgmtag1_3,bgm0027,0.75,1
 
 window,on,0.15
-message,シェリル<娼館>,はぁー……なーんか、だるいなぁ。仕事の疲れが溜まってるのかな？<br>でも、なんか身体が火照るっていうか、熱っぽい気も……,,vc_10520100021_011_01
+message,シェリル<娼館>,*pant*... I feel kinda sluggish. Maybe it's just work fatigue? But<br>my body feels kind of hot，maybe feverish...<br> ,,vc_10520100021_011_01
 
 
 asynccharareaction,chara_2,Nod,1,STOP
@@ -309,7 +309,7 @@ asyncseplay,setag1_14,se4800008,0,1,CONT
 
 asynccharaemo,chara_2,Sweat,STOP
 
-message,シェリル<娼館>,風邪ではないみたいだけど……。<br>まあ、お客さんを待たせるのも悪いし。とりあえずお仕事しなきゃね。,,vc_10520100021_012_01
+message,シェリル<娼館>,Doesn't seem like a cold... Well，I shouldn't keep customers waiting.<br>Guess I'll get to work.<br> ,,vc_10520100021_012_01
 
 
 window,off
@@ -326,7 +326,7 @@ fade,In,Black,1
 
 
 window,on,0.15
-message,男性客,きゅ、急になんなんだいったい！？　や、やめろぉ！？
+message,男性客,Wha-what's the big deal all of a sudden! S-stop it!<br> 
 
 
 labeljump,b

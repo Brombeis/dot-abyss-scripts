@@ -27,11 +27,11 @@ asynccharaemo,chara_1,Laugh,CONT
 
 asynccharaface,chara_1,FaceHappy,CONT,3.8
 window,on,0.15
-message,ウェンディ,Thank you very much.<br>We look forward to your next visit.<br> ,,vc_10250100023_001_01
+message,ウェンディ,Thank you very much! Please come again!<br> ,,vc_10250100023_001_01
 
 asyncskipwait
 
-message,,Wendy smiled as she saw off the customer，who staggered away in a<br>daze.<br> 
+message,,Wendy saw the customer off with a smile，his gaze distant and his<br>steps unsteady.<br> 
 
 window,off
 wait,0.15
@@ -61,7 +61,7 @@ asyncseplay,setag3_2,se4800007,0,1,CONT
 
 asynccharaemo,chara_2,Panic,CONT
 window,on,0.15
-message,先輩娼婦,...You okay?<br>He didn't do anything nasty to you，did he?<br> ,,vc_10250100023_002_01
+message,先輩娼婦,... Are you all right? He didn't do anything bad to you，did he?<br> ,,vc_10250100023_002_01
 
 asyncskipwait
 
@@ -78,7 +78,7 @@ asynccharaface,chara_1,FaceFun,STOP,2.5
 
 asynccharaface,chara_1,FaceSad,STOP,6
 
-message,ウェンディ,No，nothing in particular. He was a very nice customer.<br>It's just...<br> ,,vc_10250100023_003_01
+message,ウェンディ,No，nothing in particular. He was a very good customer. But...<br> ,,vc_10250100023_003_01
 
 charaface,chara_2,EyeOpen
 charaface,chara_2,FaceNormal
@@ -86,7 +86,7 @@ charaface,chara_2,FaceNormal
 asyncseplay,setag3_4,se4800009,0,1,CONT
 
 asynccharaemo,chara_2,Question,STOP
-message,先輩娼婦,Just?<br> ,,vc_10250100023_004_01
+message,先輩娼婦,But?<br> ,,vc_10250100023_004_01
 
 charaface,chara_1,EyeClose
 charaface,chara_1,FaceNormal
@@ -99,7 +99,7 @@ asynccharaemo,chara_1,Shy,STOP,2
 asynccharaface,chara_1,FaceUnique02,STOP,2
 
 asynccharaface,chara_1,FaceSad,STOP,8
-message,ウェンディ,If it were Commander，he wouldn't let me off with just one round...<br>In that sense，I'm still not fully satisfied.<br> ,,vc_10250100023_005_01
+message,ウェンディ,If it were the Commander，he wouldn't release me after just one<br>time... So in a sense，I'm still not satisfied.<br> ,,vc_10250100023_005_01
 
 charaface,chara_1,FaceSad
 
@@ -121,7 +121,7 @@ charafocuson,chara_2
 asyncseplay,setag3_7,se4800008,0,1,CONT
 
 charaemo,chara_2,Sweat
-message,,Looking back and forth between the wrung-out husk of a customer<br>and Wendy's face，the senior courtesan could only recoil in horror.<br> 
+message,,Comparing the customer's drained and withered back with Wendy's<br>face，the senior courtesan was utterly dumbfounded.<br> 
 
 window,off
 bgmstop,bgmtag3_1,0.5

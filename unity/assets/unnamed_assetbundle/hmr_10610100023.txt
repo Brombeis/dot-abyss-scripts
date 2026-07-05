@@ -38,7 +38,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 window,on,0.15
 message,ニナ,Have you forgotten anything?<br> ,106101000X,vc_10610100023_001_01,chara_1
 
-message,,Nina asked him as he finished dressing and prepared to leave. He<br>nodded once， then stopped — as if something had just come back to him.<br> 
+message,,When Nina asked the man—who had dressed again and was ready to leave<br>the room—if he had forgotten anything，he nodded once，then gave a start as if remembering something.<br> 
 
 window,off
 wait,0.15
@@ -77,7 +77,7 @@ asyncseplay,setag3_2,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 window,on,0.15
-message,,He turned to the table and picked up the teacup.<br> 
+message,,Then the man picked up the teacup that was on the table.<br> 
 
 window,off
 wait,0.15
@@ -111,9 +111,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ニナ,Ah...... if you would like more tea，I can prepare a fresh cup at<br>once——<br> ,106101000X,vc_10610100023_002_01,chara_1
+message,ニナ,Oh... if you would like tea，I can brew a fresh，hot cup right away—<br> ,106101000X,vc_10610100023_002_01,chara_1
 
-message,,Before Nina could finish，he drained the cold herbal tea in one long<br>swallow.<br> 
+message,,Without letting Nina finish，the man downed the cold herbal tea in<br>one gulp.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -121,7 +121,7 @@ asyncseplay,setag3_4,se4800008,0,1,CONT,0
 
 asynccharaemo,chara_1,Sweat,CONT,0
 
-message,,Nina stood speechless for a moment — then her smile returned——<br> 
+message,,Nina was taken aback，but quickly regained her smile—<br> 
 
 window,off
 wait,0.15
@@ -140,9 +140,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ニナ,Please do come again，won't you?<br> ,106101000X,vc_10610100023_003_01,chara_1
+message,ニナ,Please come again，won't you?<br> ,106101000X,vc_10610100023_003_01,chara_1
 
-message,,But he quietly shook his head.<br> 
+message,,But the man silently shook his head.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -153,11 +153,11 @@ asyncseplay,setag3_6,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ニナ,Oh...... you are leaving your post as gate guard? Returning home?<br> ,106101000X,vc_10610100023_004_01,chara_1
+message,ニナ,Oh... are you leaving your post as gatekeeper to return to your<br>hometown?<br> ,106101000X,vc_10610100023_004_01,chara_1
 
-message,,He told her that the herbal tea she had brewed brought back the<br>faces of his family — and the memory of home — that he had been trying so hard to forget.<br> 
+message,,The man told her that the herbal tea she had prepared reminded him<br>of his family's smiles and his hometown—things he had been trying to forget.<br> 
 
-message,,He wanted to go back，and tend the herbs again——<br> 
+message,,He also said he wanted to return to his hometown and resume his work<br>growing herbs.<br> 
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -169,9 +169,9 @@ asyncseplay,setag3_7,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ニナ,Is that so...... If that is what you have decided......<br>then I wish you well. Please take good care of yourself.<br> ,106101000X,vc_10610100023_005_01,chara_1
+message,ニナ,I see... so that is your decision，sir... I will support you. Please<br>do your best.<br> ,106101000X,vc_10610100023_005_01,chara_1
 
-message,,He thanked her，and told her that once the herbs were ready，he would<br>send some to her.<br> 
+message,,The man expressed his gratitude and said he would send Nina some<br>herbs once they were harvested.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -182,7 +182,7 @@ asyncseplay,setag3_8,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ニナ,Yes，I shall look forward to that day.<br>Please keep well.<br> ,106101000X,vc_10610100023_006_01,chara_1
+message,ニナ,Yes，I look forward to that day. Please take care.<br> ,106101000X,vc_10610100023_006_01,chara_1
 
 window,off
 wait,0.15
@@ -194,7 +194,7 @@ asynccharaface,chara_1,FaceFun,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,There was no question that meeting Nina had been what nudged him<br>forward. Nina watched him leave with a gentle smile.<br> 
+message,,There was no doubt that meeting Nina had given the tired man the<br>push he needed. Nina watched him leave the room with a gentle smile.<br> 
 
 window,off
 bgmstop,bgmtag3_1,0.5

@@ -17,12 +17,12 @@ asyncseplay,setag3_1,se4400119,0,1,CONT
 
 charashow,chara_2,0.3
 window,on,0.15
-message,,海賊の男は両手両足をロープで縛られ、床に転がされている。
+message,,The pirate lay on the floor，his hands and feet bound with rope.<br> 
 
 asyncshake,BACK,,20,0,0.5,5,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_2,20,0,0.5,5,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_1,20,0,0.5,5,off,off,0,off,CONT,0
-message,海賊の男,なんだこりゃ。<br>ずいぶんとマニアックなプレイだな、姉ちゃん。,900000001
+message,海賊の男,What's this? Quite a kinky game you've got here，lady.<br> ,900000001
 
 asyncseplay,setag3_2,se4800001,0,1,CONT
 
@@ -30,7 +30,7 @@ asynccharareaction,chara_2,Nod,1,STOP
 asynccharaemo,chara_2,Anger,STOP
 
 
-message,,まだ下品な笑みを浮かべている男を、<br>カーラは冷ややかな目で見つめる。
+message,,Carla fixed a cold stare on the man，who still wore a lewd smirk.<br> 
 
 
 asynccharareaction,chara_2,Nod,1,STOP
@@ -39,12 +39,12 @@ asyncseplay,setag3_3,se4800022,0,1,CONT
 
 asynccharaemo,chara_2,Speak,STOP
 
-message,カーラ,……あなたをエルドラーナ近海における商船略奪行為の容疑で逮捕します。,,vc_10340100023_001_01,2/chara_2
+message,カーラ,I am arresting you on suspicion of piracy in Eldorana coastal<br>waters.<br> ,,vc_10340100023_001_01,2/chara_2
 
 asyncshake,BACK,,20,0,0.5,5,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_2,20,0,0.5,5,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_1,20,0,0.5,5,off,off,0,off,CONT,0
-message,海賊の男,た、逮捕……？　なっ……！？　そ、そうか！<br>てめえ、あの日焼け跡！　エルドラーナの警備隊かよ！,900000001
+message,海賊の男,Ar-rest?! Wha—?! Oh，I see! You with those tan lines! You're from the<br>Eldorana Guard，aren't you!<br> ,900000001
 
 window,off
 bgmstop,bgmtag3_1,1
@@ -62,7 +62,7 @@ bgmplay,bgmtag3_2,bgm0031,1
 
 charashow,chara_1,0.3
 window,on,0.15
-message,<user>,ついにあの海賊を捕まえたそうじゃないか、 <br>よかったな、カーラ。
+message,<user>,I hear you finally caught that pirate. Glad to see you got<br>him，Carla.<br> 
 
 
 asyncseplay,setag3_4,se4800013,0,1,CONT
@@ -71,18 +71,18 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Spirits,STOP
 
 asynccharaface,chara_1,FaceFun,STOP
-message,カーラ,はい。ようやく共和国警備隊としての任務を達成することができました。<br>これは全て、ルディアさんと司令官の協力のおかげです。,,vc_10340100023_002_01
+message,カーラ,Yes. I was finally able to complete my mission as a Republic Guard<br>member. This is all thanks to Ludia and you，Commander.<br> ,,vc_10340100023_002_01
 
-message,<user>,ルディアから作戦の内容を聞いた時は心配したが……<br>とにかくカーラが無事に帰ってきてくれて良かったよ。
+message,<user>,I was worried when I heard your plan from Ludia，but... anyway，I'm<br>glad you came back safe.<br> 
 
 asyncseplay,setag3_5,se4800003,0,1,CONT
 
 asynccharaemo,chara_1,Twinkle,STOP
 
 asynccharaface,chara_1,FaceHappy,STOP
-message,カーラ,もったいないお言葉です、司令官。,,vc_10340100023_003_01
+message,カーラ,You are too kind，Commander.<br> ,,vc_10340100023_003_01
 
-message,<user>,なぁ、カーラ。<br>任務を達成したってことは、もうエルドラーナに帰国してしまうのか？
+message,<user>,Hey，Carla. Since you've accomplished your mission，are you going back<br>to Eldorana now?<br> 
 
 asynccharareaction,chara_1,Nod,1,STOP
 
@@ -92,7 +92,7 @@ asynccharaemo,chara_1,Speak,STOP
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,カーラ,海賊の護送の手配は済ませましたし、<br>本国には報告書も提出しましたので……,,vc_10340100023_004_01
+message,カーラ,I have already made arrangements to transport the pirate and<br>submitted a report to headquarters，so...<br> ,,vc_10340100023_004_01
 
 asynccharareaction,chara_1,Shake,1,STOP
 
@@ -102,9 +102,9 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
 asynccharaface,chara_1,FaceShy,STOP
-message,カーラ,あの、で、できれば、その……。<br>もうしばらくはこちらで司令官のお手伝いをさせてほしいのですが……,,vc_10340100023_005_01
+message,カーラ,Um，if possible... I'd like to stay here a little longer and help you<br>with your work.<br> ,,vc_10340100023_005_01
 
-message,<user>,そうか！　それは助かる！<br>お前みたいな戦力を失うのは前線基地としては痛手だからな。
+message,<user>,I see! That helps! Losing someone like you would be a heavy blow to<br>the Frontline Base.<br> 
 
 asyncseplay,setag3_8,se4800013,0,1,CONT
 
@@ -114,9 +114,9 @@ asynccharaemo,chara_1,Spirits,STOP
 asynccharareaction,chara_1,Hop,1,STOP
 
 asynccharaface,chara_1,FaceHappy,STOP
-message,カーラ,ありがとうございます、司令官。<br>これからは前線基地の探索隊の１人として誇りをもって働きます！,,vc_10340100023_006_01
+message,カーラ,Thank you，Commander! From now on，I will work with pride as a member<br>of the Frontline Base exploration party!<br> ,,vc_10340100023_006_01
 
-message,<user>,あぁ。よろしく頼むよ。
+message,<user>,Yeah. I'm counting on you.<br> 
 
 window,off
 wait,0.15
@@ -138,19 +138,19 @@ asynccharaemo,chara_1,Shy,STOP
 
 asynccharaface,chara_1,FaceUnique01,STOP
 window,on,0.15
-message,カーラ,と、ところで……そ、その……約束は、覚えていますか？<br>作戦が成功したときの……ご褒美のこと……,,vc_10340100023_007_01
+message,カーラ,B-by the way... um... do you remember our promise? About the<br>reward... for when the mission succeeded...<br> ,,vc_10340100023_007_01
 
 
 asyncseplay,setag3_10,se4400119,0,1,CONT
 
-message,,カーラが顔を真っ赤にして、モジモジと太ももを擦り合わせている。<br>それを見て、先日した約束をようやく思い出す。
+message,,Carla's face was bright red，and she fidgeted，rubbing her thighs<br>together. Seeing that，I finally remembered the promise we had made the other day.<br> 
 
 asyncseplay,setag3_11,se4800002,0,1,CONT
 
 asynccharaemo,chara_1,Heart,STOP
 
 asynccharaface,chara_1,FaceUnique02,STOP
-message,カーラ,や、約束通り、無事に司令官の元に戻ってきたじゃないですか……<br>だ、だから、その……もう１度研修を……,,vc_10340100023_008_01
+message,カーラ,I-I came back to you safely，just as I promised，didn't I...?<br>S-so，um... could we have another training session...?<br> ,,vc_10340100023_008_01
 
 
 window,off

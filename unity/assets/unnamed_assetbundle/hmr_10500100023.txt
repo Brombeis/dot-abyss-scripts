@@ -15,7 +15,7 @@ messagetextwindow,on,0.15
 
 asynccharaface,chara_1,FaceSad,STOP
 
-messageTextCenter,,<size=48>――数日後</size>,,,on
+messageTextCenter,,—A few days later.,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -30,9 +30,9 @@ asynccharaemo,chara_1,Panic,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
 window,on,0.15
-message,ベティ,はー……緊張するであります。お客様のお相手をさせてもらうのは、<br>あの特訓の日以来、初めてです……,,vc_10500100023_001_01
+message,ベティ,*sigh*... I am nervous. This is my first time serving a customer<br>since that special training day...<br> ,,vc_10500100023_001_01
 
-message,娼婦,大丈夫よ。あなた、司令官さんのお気に入りなんでしょ？<br>あの人に見込まれた娼婦は、みんな売れっ子になるんだから。胸を張りなさい。,900000001,vc_10500100023_002_01,on
+message,娼婦,Don't worry. You're the Commander's favorite，right? All the<br>courtesans he takes under his wing become top-earners. Hold your head high.<br> ,900000001,vc_10500100023_002_01,on
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
@@ -44,7 +44,7 @@ asynccharaemo,chara_1,Speak,STOP
 asynccharaface,chara_1,FaceFun,STOP,3
 
 asynccharareaction,chara_1,Jump,1,STOP
-message,ベティ,司令官殿の……。そうですよねっ！　信じてくれた司令官殿のためにも、<br>わたし、頑張って売れっ子になってみせるであります！,,vc_10500100023_003_01
+message,ベティ,Commander... That's right! For the Commander who believed in me，I<br>will work hard and become a top-earner!<br> ,,vc_10500100023_003_01
 
 window,off
 wait,0.15
@@ -66,7 +66,7 @@ asyncseplay,setag3_3,se4800022,0,1,CONT
 asynccharaemo,chara_2,Speak,STOP
 
 window,on,0.15
-message,ルディア,ベティさん、出番よ。常連のお客様だから、色々教えてもらうといいわ。,,vc_10500100023_004_01
+message,ルディア,Betty，it's your turn. He's a regular customer，so you should learn as<br>much as you can from him.<br> ,,vc_10500100023_004_01
 
 asynccharaface,chara_1,FaceHappy,STOP
 
@@ -75,7 +75,7 @@ asyncseplay,setag3_4,se4800003,0,1,CONT
 asynccharaemo,chara_1,Twinkle,STOP
 
 asynccharareaction,chara_1,Nod,1,STOP
-message,ベティ,はいっ！　あの特訓の成果を発揮して、お客様に<br>満足してもらえるように頑張るであります！,,vc_10500100023_005_01
+message,ベティ,Yes! I'll demonstrate the results of that special training and make<br>sure the customer is satisfied!<br> ,,vc_10500100023_005_01
 
 charapose,chara_2,1
 
@@ -85,7 +85,7 @@ asynccharareaction,chara_2,Nod,1,STOP
 asynccharaemo,chara_2,Laugh,STOP
 
 asynccharaface,chara_2,FaceFun,STOP
-message,ルディア,ふふっ。やっぱりあなた、いい根性しているわね。<br>司令官君のお気に入りなだけあるわ。それじゃあ、行ってきなさい。,,vc_10500100023_006_01
+message,ルディア,Fufu. You really do have good spirit. Just as you'd expect from the<br>Commander's favorite. Now，off you go.<br> ,,vc_10500100023_006_01
 
 asyncseplay,setag3_6,se4800013,0,1,CONT
 
@@ -95,7 +95,7 @@ asynccharaemo,chara_1,Spirits,STOP
 asynccharaface,chara_1,FaceFun,STOP
 
 asynccharareaction,chara_1,Nod,1,STOP
-message,ベティ,はいっ！　行ってくるであります♪,,vc_10500100023_007_01
+message,ベティ,Yes! I'm off!♪<br> ,,vc_10500100023_007_01
 
 
 window,off

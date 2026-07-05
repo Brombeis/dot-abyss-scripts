@@ -30,7 +30,7 @@ bgmplay,bgmtag3_1,bgm0029,1
 wait,0.5
 
 window,on,0.15
-message,<user>,Still though — what on earth was in that herbal tea?<br> 
+message,<user>,But what was that herbal tea，anyway?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -41,14 +41,14 @@ asyncseplay,setag3_1,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ニナ,It was a gift from Ludia-sama. A mix-up of some kind，most likely.<br>As it poses a risk，I will dispose of every last leaf.<br> ,106101000G,vc_10610100013_001_01,chara_1
+message,ニナ,I received it from Lady Ludia，so it must have been some kind of<br>mistake. Since it's dangerous，I'll dispose of all of it.<br> ,106101000G,vc_10610100013_001_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
 
-message,,Having tidied herself and scrubbed the floor clean — the floor she<br>had dirtied — Nina answered with the same composed expression she always wore.<br> 
+message,,Having tidied herself up and thoroughly cleaned the floor she'd<br>soiled，Nina answered with her usual cool expression.<br> 
 
-message,<user>,From Ludia，huh...... That figures. She has all kinds of suspicious<br>aphrodisiac things in that collection of hers...<br> 
+message,<user>,From Ludia，huh... That figures. She's got all sorts of suspicious<br>aphrodisiac stuff...<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -59,11 +59,11 @@ asyncseplay,setag3_2,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ニナ,Going forward，I must taste-test everything before it is served to<br>you，Master. If anything were to be poisoned，the consequences would be most grave.<br> ,106101000G,vc_10610100013_002_01,chara_1
+message,ニナ,From now on，I'll have to taste-test anything before serving it to<br>you，Master. If someone had poisoned it，it would be dangerous.<br> ,106101000G,vc_10610100013_002_01,chara_1
 
-message,<user>,No，no — that would put you in danger，Nina.<br>I'm not having you play taster for me.<br> 
+message,<user>,No，no，that would put you in danger，Nina. You don't have to go as far<br>as being a poison taster.<br> 
 
-message,,He said it — and yet found himself picturing Nina，<br>undone by an aphrodisiac，just as she had been moments ago.<br> 
+message,,Even as I say that，I can't help but briefly picture Nina's lewd<br>state after drinking the aphrodisiac herbal tea.<br> 
 
 window,off
 wait,0.15
@@ -109,9 +109,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ニナ,Ludia-sama... c-could it be......<br> ,106101000G,vc_10610100013_003_01,chara_1
+message,ニナ,Lady Ludia，c-could it be...<br> ,106101000G,vc_10610100013_003_01,chara_1
 
-message,,Nina's hand stopped halfway to the waste bin，the tin of tea leaves<br>still in her grip. Something had just occurred to her.<br> 
+message,,Nina stopped her hand just as she was about to throw the can of<br>herbal tea leaves into the trash. She seemed to have noticed something.<br> 
 
 window,off
 wait,0.15
@@ -146,7 +146,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,<user>,Hm? What is it? Did you figure something out?<br> 
+message,<user>,Hm? What is it? Did you notice something?<br> 
 
 window,off
 wait,0.15
@@ -163,9 +163,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ニナ,Ah — n-no，nothing at all...... M-most likely Ludia-sama simply gave<br>me the wrong thing by mistake......<br> ,106101000G,vc_10610100013_004_01,chara_1
+message,ニナ,Ah，n-no，nothing... It's，um，p-probably just that Lady Ludia handed it<br>to me by mistake...<br> ,106101000G,vc_10610100013_004_01,chara_1
 
-message,,Nina — always composed — was visibly flustered. A rare sight.<br> 
+message,,Nina，usually so composed，was unusually flustered.<br> 
 
 window,off
 wait,0.15
@@ -216,7 +216,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ニナ,(Could it be — because I confided in Ludia-sama that I could not<br>seem to grow any closer to Master——!?)<br> ,106101000G,vc_10610100013_005_01,chara_1
+message,ニナ,(Could it be because I consulted Lady Ludia about how the distance<br>between Master and me is not narrowing!?)<br> ,106101000G,vc_10610100013_005_01,chara_1
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -225,7 +225,7 @@ asyncseplay,setag3_6,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ニナ,(If that is what happened，then Ludia-sama went far too far with her<br>meddling...... Because of that tea，Master and I ended up...)<br> ,106101000G,vc_10610100013_006_01,chara_1
+message,ニナ,(If that is the case，Lady Ludia is being too mischievous... Because<br>of that herbal tea，I might have... with Master...)<br> ,106101000G,vc_10610100013_006_01,chara_1
 
 window,off
 wait,0.15
@@ -242,7 +242,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,Hey — you're hiding something. Your face is bright red.<br> 
+message,<user>,Hey，you're hiding something，aren't you? Your face is all red.<br> 
 
 window,off
 wait,0.15
@@ -284,7 +284,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ニナ,I am h-hiding absolutely nothing——! I shall t-take my leave for<br>today!<br> ,106101000G,vc_10610100013_007_01,chara_1
+message,ニナ,I-I am not hiding anything! I-I shall take my leave for today!<br> ,106101000G,vc_10610100013_007_01,chara_1
 
 window,off
 wait,0.15
@@ -318,7 +318,7 @@ asyncseplay,setag3_9,se4300004,0,1,STOP,0
 wait,0.5
 
 window,on,0.15
-message,,With a quick curtsy，Nina fled the Commander's office.<br> 
+message,,Saying that，Nina gave a slight bow and fled from the command room as<br>if escaping.<br> 
 
 window,off
 bgmstop,bgmtag3_1,0.5

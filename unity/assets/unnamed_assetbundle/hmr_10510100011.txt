@@ -25,7 +25,7 @@ bgmplay,bgmtag1_1,bgm0026,0.75,1
 
 
 window,on,0.15
-message,<user>,フェイリン、無事か！？
+message,<user>,Feilin，are you all right!?<br> 
 
 asyncseplay,setag1_1,se4800011,0,1,CONT
 
@@ -35,10 +35,10 @@ charaface,chara_1,FaceSurprise
 
 
 charashow,chara_1,0.3
-message,フェイリン,師父……？　あ、あれ、ここは！？<br>わたし、天気がいいなと思って外を散歩していて……そこから記憶が……,,vc_10510100011_001_01
+message,フェイリン,Master...? Ah，wh-where am I!?\nI remember thinking it was nice<br>weather and going for a walk... and then my memory just...<br> ,,vc_10510100011_001_01
 
 
-message,<user>,覚えてないのか？　お前、娼館の前で倒れてたんだぞ。<br>俺がそれを見つけてここに運び込んだんだ。
+message,<user>,You don't remember? You collapsed in front of the brothel.\nI found<br>you and carried you in here.<br> 
 
 asyncshake,CHARA,chara_1,20,0,0.5,2,off,off,0,off,CONT,0
 
@@ -47,17 +47,17 @@ asyncseplay,setag1_2,se4800007,0,1,CONT
 asynccharaemo,chara_1,Panic,CONT
 
 charaface,chara_1,FaceSad
-message,フェイリン,そうだったんですか……御迷惑をおかけして申し訳ありません……。<br>お散歩していたら突然、身体の力が入らなくなって、眩暈がしてきて……,,vc_10510100011_002_01
+message,フェイリン,I see... I'm so sorry for causing you trouble...\nI was out for a<br>stroll，and suddenly my body went weak and I felt dizzy...<br> ,,vc_10510100011_002_01
 
-message,<user>,キョンシーって昼間出歩いて大丈夫なのか？
+message,<user>,Are Jiangshi even supposed to be out walking in the daytime?<br> 
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
-message,フェイリン,一応死んだ身ですので、太陽の光は浴びないようにはしてたんですよね。<br>でも、いいお天気だったのでつい……,,vc_10510100011_003_01
+message,フェイリン,Well，technically I'm a dead body，so I do try to avoid direct<br>sunlight.\nBut it was such a beautiful day，I just...<br> ,,vc_10510100011_003_01
 
-message,<user>,ついって……不注意すぎるだろ。<br>フム、やはり、お前が倒れたのは日光を浴びすぎたのが原因っぽいなぁ……
+message,<user>,""Just""... That's way too careless.\nHmm，just as I suspected... looks<br>like you got too much sun and collapsed.<br> 
 
-message,<user>,キョンシーは日光を浴びすぎると、精気を失い、眩暈や立ち眩みを生じ、<br>場合によっては意識不明の重体になることも……なるほど。
+message,<user>,When a Jiangshi is overexposed to sunlight，they lose vital<br>energy，become dizzy and lightheaded，\nand in some cases，can even fall into a critical unconscious state... I see.<br> 
 
 
 asyncseplay,setag1_3,se4800009,0,1,CONT
@@ -66,18 +66,18 @@ asynccharaemo,chara_1,Question,CONT
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
-message,フェイリン,師父、その読んでいる書物はいったい……？,,vc_10510100011_004_01
+message,フェイリン,Master，what's that book you're reading...?<br> ,,vc_10510100011_004_01
 
-message,<user>,ああ。キョンシーの身体は特殊だからな。<br>俺も詳しく知りたくて、キョンシーに関する書物を集めておいたんだ。
+message,<user>,Ah. A Jiangshi's body is special，after all.\nI've been collecting<br>books about Jiangshi to learn more about them.<br> 
 
 asyncseplay,setag1_4,se4800002,0,1,CONT
 
 asynccharaemo,chara_1,Heart,CONT
 
 charaface,chara_1,FaceHappy
-message,フェイリン,わたしのために……？<br>あ……ありがとうございます、師父。,,vc_10510100011_005_01
+message,フェイリン,For my sake...? Ah... Thank you，Master.<br> ,,vc_10510100011_005_01
 
-message,<user>,特にこの『錬珍術』の本には、<br>キョンシーに関する対処法がびっしり書かれている。
+message,<user>,Especially this book，""Alchemy (Comedic)""—it's packed full of<br>treatments for Jiangshi.<br> 
 
 asyncseplay,setag1_5,se4800009,0,1,CONT
 
@@ -85,16 +85,16 @@ asynccharaemo,chara_1,Question,CONT
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
-message,フェイリン,レンチンジュツ……？,,vc_10510100011_006_01
+message,フェイリン,Alchemy (Comedic)...<br> ,,vc_10510100011_006_01
 
-message,<user>,え～と、日光を浴びすぎて精気が枯渇したキョンシーの対処法はと……<br>あ、これだ！　『精気注魂の法』か。やりかたは……
+message,<user>,Let's see... treatment for a Jiangshi whose vital energy is depleted<br>from too much sun...\nAh，here it is! The ""Spirit Infusion Technique，"" huh? The procedure is...<br> 
 
-message,<user>,……
+message,<user>,...<br> 
 
 charaface,chara_1,FaceSurprise
-message,フェイリン,あの……師父？　どうかしましたか？,,vc_10510100011_007_01
+message,フェイリン,Master? Is something wrong?<br> ,,vc_10510100011_007_01
 
-message,<user>,ああ、いや……お前を元気にする方法が分かったんだが、なんというか……<br>ちょっと荒療治になるかもしれない。お前が嫌ならやめておくが、どうする？
+message,<user>,Ah，no... I found a way to help you recover，but... it might be a bit<br>of a drastic treatment.\nIf you're not okay with it，we'll forget it. What do you say?<br> 
 
 charahide,chara_1,0.5
 
@@ -107,9 +107,9 @@ asyncseplay,setag1_6,se4800003,0,1,CONT
 asynccharaemo,chara_1,Twinkle,CONT
 
 charaface,chara_1,FaceFun
-message,フェイリン,お願いします。わたしは今後も師父の役に立ちたいです。<br>そのためには、何をしてでも元気にならないと。,,vc_10510100011_008_01
+message,フェイリン,Please. I want to keep being useful to you，Master.\nFor that，I have<br>to get better，no matter what it takes.<br> ,,vc_10510100011_008_01
 
-message,<user>,……分かった。お前のその気持ちに、全力で応えよう。
+message,<user>,...I understand. I'll give it my all to match that determination of<br>yours.<br> 
 
 
 labeljump,b

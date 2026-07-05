@@ -24,23 +24,23 @@ scale,SUBIMAGE,subimage_2,0,150,150,LinearTarget
 
 
 window,on,0.15
-message,<user>,バザーの報告はこんなもんか。<br>盛り上がってたみたいだし、問題なさそうだな。
+message,<user>,The bazaar report looks about right. Seems like it was lively<br>enough，no problems.<br> 
 
 charashow,chara_1,0.3
 
 asynccharareaction,chara_1,nod,1,STOP
-message,ミルティーユ,あの……しれーかんさま……,,vc_10290100033_001_01
+message,ミルティーユ,Um... Commander...<br> ,,vc_10290100033_001_01
 
-message,<user>,ん？　どうしたミルティーユ、そんな情けない声で。
+message,<user>,Huh? What's wrong，Myrtille? You sound so miserable.<br> 
 
 asyncseplay,setag3_1,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,STOP
 
 asynccharareaction,chara_1,shake,1,STOP
-message,ミルティーユ,その～、この前はご迷惑をおかけして……<br>ほんとに失礼しました～……,,vc_10290100033_002_01
+message,ミルティーユ,Well... about the other day... Mil caused you trouble... Mil is<br>really sorry...<br> ,,vc_10290100033_002_01
 
-message,<user>,……？　謝ることなんてないだろ？<br>むしろ迷惑をかけたのは俺なんじゃないかと……
+message,<user>,...? There's nothing to apologize for. If anything，I was the one who<br>caused you trouble...<br> 
 
 window,off
 wait,0.15
@@ -53,7 +53,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（特にミルティーユの尻には迷惑をかけた。<br>あれはちょっと暴走してたよな……）
+message,<user>,(Especially Myrtille's ass... I really went overboard there.)<br> 
 
 window,off
 wait,0.15
@@ -73,31 +73,31 @@ asynccharareaction,chara_1,Shake,1,STOP
 
 asynccharaface,chara_1,FaceShy,STOP
 window,on,0.15
-message,ミルティーユ,いえ、でも、あれはほんとはミルが悪くて……,,vc_10290100033_003_01
+message,ミルティーユ,No，but... it was really Mil's fault...<br> ,,vc_10290100033_003_01
 
-message,,もごもごと言ったあと、ミルティーユはぱっとクッキーを差し出した。
+message,,After mumbling that，Myrtille quickly held out some cookies.<br> 
 
 asynccharareaction,chara_1,Hop,1,STOP
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,ミルティーユ,今度はちゃんとしたクッキーを作ってきたので……<br>良かったら、お部屋で一緒に食べませんか～？,,vc_10290100033_004_01
+message,ミルティーユ,Mil made proper cookies this time... Would you like to eat them<br>together in Mil's room?<br> ,,vc_10290100033_004_01
 
-message,<user>,前のクッキーもちゃんとしてたと思うが……。<br>――ん、ここじゃなく、部屋で？
+message,<user>,I thought the previous cookies were fine too... Hm，not here，in your<br>room?<br> 
 
 asynccharareaction,chara_1,Nod,1,STOP
 
 asynccharaface,chara_1,FaceShy,STOP
-message,ミルティーユ,はい、お部屋で……♡,,vc_10290100033_005_01
+message,ミルティーユ,Yes，in Mil's room!♡<br> ,,vc_10290100033_005_01
 
-message,<user>,……分かった。<br>ふっふっふ、楽しみだな、ミルティーユのクッキー。
+message,<user>,...Alright. Fufufu，I'm looking forward to your cookies，Myrtille.<br> 
 
 asyncseplay,setag3_3,se4800002,0,1,CONT
 
 asynccharaemo,chara_1,Heart,STOP
 
 asynccharaface,chara_1,FaceUnique02,STOP
-message,ミルティーユ,きっと喜んでもらえると思いますよぉ～。<br>えへへ……♡,,vc_10290100033_006_01
+message,ミルティーユ,Mil thinks you'll really like them... Ehehe!♡<br> ,,vc_10290100033_006_01
 
 window,off
 wait,0.15
@@ -111,7 +111,7 @@ charahide,chara_1,0.3
 fade,In,Black,0.5
 
 window,on,0.15
-message,,ミルティーユのクッキーは、本当にただ美味しいだけの品だった。<br>しかし２人は、あの日にも劣らない熱い時間を過ごしたのだった――
+message,,Myrtille's cookies were simply delicious—nothing more. But the two<br>of them shared a passionate time that rivaled that day—<br> 
 
 
 window,off

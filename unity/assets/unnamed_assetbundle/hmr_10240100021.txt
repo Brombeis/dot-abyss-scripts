@@ -21,16 +21,16 @@ bgmplay,bgmtag1_1,bgm0036,0.75,1
 charashow,chara_1,0.3
 
 window,on,0.15
-message,,娼館衣装を着たマニョリアは、不安そうに娼館の部屋で座っていた。
+message,,Magnolia，dressed in a brothel outfit，sat nervously in the brothel<br>room.<br> 
 
-message,マックン[マニョリア],どうした、不安なのか？,900000003
+message,マックン[マニョリア],What's the matter? Are you nervous?<br> ,900000003
 
 asyncseplay,setag1_1,se4800014,0,1,CONT
 
 asynccharaemo,chara_1,Silence,STOP
-message,マニョリア,…………,,vc_10240100021_001_01
+message,マニョリア,...<br> ,,vc_10240100021_001_01
 
-message,,訊かれて、マニョリアは魔法植物を困ったように見つめ返す。
+message,,When asked，Magnolia looked back at the magical plant with a troubled<br>expression.<br> 
 
 charaface,chara_1,EyeClose
 charaface,chara_1,FaceNormal
@@ -40,11 +40,11 @@ asynccharareaction,chara_1,nod,1,STOP
 asyncseplay,setag1_2,se4800006,0,1,CONT
 
 asynccharaemo,chara_1,Trouble,STOP
-message,マニョリア,そりゃそうだよ……<br>マニョ、初対面の人とお話しするの苦手だし……,,vc_10240100021_002_01
+message,マニョリア,Well，of course... I'm not good at talking to people I've never met<br>before...<br> ,,vc_10240100021_002_01
 
 charaface,chara_1,FaceSad
 
-message,マックン[マニョリア],ああ、初めての人とどうやって話したらいいか分からないってか。<br>そういうことならオレに任せておけって！,900000003
+message,マックン[マニョリア],Ah，so you don't know how to talk to someone you've just met. If<br>that's the case，just leave it to me!<br> ,900000003
 
 charaface,chara_1,FaceSad
 
@@ -53,9 +53,9 @@ asynccharareaction,chara_1,shake,1,STOP
 asyncseplay,setag1_3,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,STOP
-message,マニョリア,マックンに任せてどうにかなるの？<br>あぁ……どうしよう……緊張してきちゃったぁ……,,vc_10240100021_003_01
+message,マニョリア,Will leaving it to Makkun really help? Ah... what should I do... I'm<br>getting so nervous...<br> ,,vc_10240100021_003_01
 
-message,マックン[マニョリア],兄ちゃんとまたするときのための練習だと思えばいいんだよ。<br>それならがんばれるんじゃないか？,900000003
+message,マックン[マニョリア],Just think of it as practice for when you're with big brother again.<br>Then you can do your best，right?<br> ,900000003
 
 charaface,chara_1,FaceUnique01
 
@@ -68,9 +68,9 @@ asynccharareaction,chara_1,nod,1,STOP
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
-message,マニョリア,おにいさんとの……練習……？,,vc_10240100021_004_01
+message,マニョリア,With big brother... practice...?<br> ,,vc_10240100021_004_01
 
-message,,魔法植物のアドバイスに、マニョリアは目を輝かせた。<br>そして途端に前向きな表情に変わって頷くのだった。
+message,,At the magical plant's advice，Magnolia's eyes lit up，and she<br>immediately changed to a positive expression and nodded.<br> 
 
 
 labeljump,b

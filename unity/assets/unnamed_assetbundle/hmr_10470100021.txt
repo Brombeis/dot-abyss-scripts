@@ -23,9 +23,9 @@ charaface,chara_2,FaceSad
 
 
 window,on,0.15
-message,,――娼館。<br>受付をつとめるルディアの前に、何人もの男がつめかけていた。
+message,,—The Brothel. Several men were crowding in front of Ludia at the<br>reception desk.<br> 
 
-message,一般客１,ええっ！？　メレムちゃんの予約、とれないのかよ！？,900000001
+message,一般客１,What! I can't get a reservation with Merem!<br> ,900000001
 
 asynccharashow,chara_2,0.3,CONT
 
@@ -35,9 +35,9 @@ asyncseplay,setag1_1,se4800008,0,1,CONT
 
 asynccharaemo,chara_2,Sweat,STOP
 
-message,ルディア,申し訳ありません、<br>メレムさんの予約は先まですべて埋まっていまして……,,vc_10470100021_001_01
+message,ルディア,I'm sorry，but Merem's reservations are all filled up for the<br>foreseeable future...<br> ,,vc_10470100021_001_01
 
-message,一般客２,なら、キャンセルとかは？<br>空きが出るまで待つよ！,900000001
+message,一般客２,Then，what about cancellations? I'll wait until a spot opens up!<br> ,900000001
 
 asynccharareaction,chara_2,Shake,1,STOP
 
@@ -45,13 +45,13 @@ asyncseplay,setag1_2,se4800007,0,1,CONT
 
 asynccharaemo,chara_2,Panic,STOP
 
-message,ルディア,キャンセル待ちの方もたくさんいまして、<br>お客様にご案内することはまずないかと……,,vc_10470100021_002_01
+message,ルディア,There are many people on the waiting list as well，so I'm afraid we<br>won't be able to accommodate you...<br> ,,vc_10470100021_002_01
 
-message,一般客１,クソ、残念だな……,900000001
+message,一般客１,Damn，that's too bad...<br> ,900000001
 
-message,一般客２,メレムさんに占って欲しかったんだけどなあ。,900000001
+message,一般客２,I really wanted Merem to do a reading for me...<br> ,900000001
 
-message,,悔しげに去っていく客たちに、<br>ルディアは小さくため息をついた。
+message,,The customers left looking disappointed，and Ludia let out a small<br>sigh.<br> 
 
 asynccharareaction,chara_2,Nod,1,STOP
 
@@ -60,7 +60,7 @@ asyncseplay,setag1_3,se4800008,0,1,CONT
 asynccharaemo,chara_2,Sweat,STOP
 
 asynccharaface,chara_2,FaceSurprise,STOP
-message,ルディア,メレムさんご希望の方には、なんとか帰ってもらえたわね。<br>それにしても、こんなにたくさんいらっしゃるなんて……,,vc_10470100021_003_01
+message,ルディア,I managed to send off those who specifically wanted Merem. But<br>still，to have so many come...<br> ,,vc_10470100021_003_01
 
 asyncseplay,setag1_4,se4800009,0,1,CONT
 
@@ -68,7 +68,7 @@ asynccharaemo,chara_2,Question,STOP
 
 asynccharaface,chara_2,EyeOpen,STOP
 asynccharaface,chara_2,FaceNormal,STOP
-message,ルディア,メレムさんの占いがよく当たるのは知ってるけど、<br>わざわざ娼館で高いお金を払って占ってもらうのは、どうしてかしら？,,vc_10470100021_004_01
+message,ルディア,I know Merem's fortune-telling is accurate，but why would they pay<br>top dollar to get a reading at a brothel?<br> ,,vc_10470100021_004_01
 
 window,off
 wait,0.15
@@ -94,28 +94,28 @@ asynccharaemo,chara_1,Speak,STOP
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
 window,on,0.15
-message,メレム,こんばんは、ルディアさん。<br>本日のお仕事に参りました。,,vc_10470100021_005_01
+message,メレム,Good evening，Ludia. I've come for today's work.<br> ,,vc_10470100021_005_01
 
 asyncseplay,setag1_6,se4800022,0,1,CONT
 
 asynccharaemo,chara_2,Speak,STOP
 
 asynccharaface,chara_2,FaceHappy,STOP
-message,ルディア,ああ、メレムさん。<br>今日も大人気で、事前予約ですべて埋まっていますよ。,,vc_10470100021_006_01
+message,ルディア,Ah，Merem. You're as popular as ever—everything's fully booked with<br>advance reservations.<br> ,,vc_10470100021_006_01
 
 asyncseplay,setag1_7,se4800009,0,1,CONT
 
 asynccharaemo,chara_1,Question,STOP
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,メレム,あら、そんなにですか？<br>やっぱり新しい占いが人気なんでしょうか。,,vc_10470100021_007_01
+message,メレム,Oh my，that many? I suppose it's because of the new fortune-telling<br>method?<br> ,,vc_10470100021_007_01
 
 asyncseplay,setag1_8,se4800009,0,1,CONT
 
 asynccharaemo,chara_2,Question,STOP
 
 asynccharaface,chara_2,FaceSurprise,STOP
-message,ルディア,新しい占いを始めたのね。<br>わざわざ娼館で受けるだなんて、どんな占いなんです？,,vc_10470100021_008_01
+message,ルディア,So you've started a new fortune-telling method. What kind of reading<br>is it that people would specifically come to a brothel for?<br> ,,vc_10470100021_008_01
 
 asynccharareaction,chara_1,Nod,1,STOP
 
@@ -125,7 +125,7 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
 asynccharaface,chara_1,FaceShy,STOP
-message,メレム,その方の未来を正確に見通せる素晴らしい占いなんですが、<br>実は……お客様の性器に触れる必要があるので、ここでしかできなく……,,vc_10470100021_009_01
+message,メレム,It's a wonderful reading that can accurately see the client's<br>future，but actually... I need to touch the client's intimate area，so I can only do it here...<br> ,,vc_10470100021_009_01
 
 asynccharareaction,chara_2,Nod,1,STOP
 
@@ -134,7 +134,7 @@ asyncseplay,setag1_10,se4800008,0,1,CONT
 asynccharaemo,chara_2,Sweat,STOP
 
 asynccharaface,chara_2,FaceSad,STOP
-message,ルディア,ああ……そういう……。<br>皆さん、それが目的なのね。,,vc_10470100021_010_01
+message,ルディア,Ah... I see... So that's what they're after.<br> ,,vc_10470100021_010_01
 
 
 asyncseplay,setag1_11,se4800022,0,1,CONT
@@ -143,7 +143,7 @@ asynccharaemo,chara_1,Speak,STOP
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,メレム,それに、占いにはプライベートな要素を含みますので、<br>完全に２人きりになれるこの場所は、占いに向いているんです。,,vc_10470100021_011_01
+message,メレム,Also，since fortune-telling involves private matters，this place where<br>we can be completely alone is well-suited for it.<br> ,,vc_10470100021_011_01
 
 asyncseplay,setag1_12,se4800009,0,1,CONT
 
@@ -158,7 +158,7 @@ asynccharaface,chara_2,EyeOpen,STOP
 asynccharaface,chara_2,FaceNormal,STOP
 
 asynccharaface,chara_2,FaceSurprise,STOP,3
-message,ルディア,いつからそんな新しい占いを編み出したの？<br>もしかして……司令官君！？,,vc_10470100021_012_01
+message,ルディア,When did you come up with that new method? Don't tell me... The<br>Commander?<br> ,,vc_10470100021_012_01
 
 asynccharareaction,chara_1,Shake,1,STOP
 
@@ -168,11 +168,11 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
 asynccharaface,chara_1,FaceShy,STOP
-message,メレム,は、はい……。あの、実はこないだ司令官とエッチをした時、<br>司令官の近い未来がハッキリ見えちゃったんですよね……,,vc_10470100021_013_01
+message,メレム,Well，yes... Actually，when I slept with the Commander the other day，I<br>saw his near future very clearly...<br> ,,vc_10470100021_013_01
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,メレム,それ以来、この占い方が最も正確に相手の方の<br>未来を占える方法だと気が付いてしまって……,,vc_10470100021_014_01
+message,メレム,Since then，I realized that this method is the most accurate way to<br>read someone's future...<br> ,,vc_10470100021_014_01
 
 asynccharareaction,chara_2,Shake,1,STOP
 
@@ -181,7 +181,7 @@ asyncseplay,setag1_15,se4800008,0,1,CONT
 asynccharaemo,chara_2,Sweat,STOP
 
 asynccharaface,chara_2,FaceSad,STOP
-message,ルディア,だからって娼館のお客様相手に身体を張らなくても……,,vc_10470100021_015_01
+message,ルディア,Even so，you don't have to go to such lengths for the customers at<br>the brothel...<br> ,,vc_10470100021_015_01
 
 
 asynccharareaction,chara_1,Nod,1,STOP
@@ -191,18 +191,18 @@ asyncseplay,setag1_16,se4800003,0,1,CONT
 asynccharaemo,chara_1,Twinkle,STOP
 
 asynccharaface,chara_1,FaceHappy,STOP
-message,メレム,初めはもちろん抵抗はあったんですが、<br>やはり誰かを正しい未来に導くのが我々占い師の使命な気がして……,,vc_10470100021_016_01
+message,メレム,Of course I was hesitant at first，but I feel that guiding people<br>toward the right future is our mission as fortune tellers after all...<br> ,,vc_10470100021_016_01
 
 asyncseplay,setag1_17,se4800009,0,1,CONT
 
 asynccharaemo,chara_2,Question,STOP
 
 asynccharaface,chara_2,FaceSad,STOP
-message,ルディア,でも……不幸な未来が見えてしまったらどうするんです？<br>望まぬ結果になった不満をぶつけられてしまったりは、しませんか？,,vc_10470100021_017_01
+message,ルディア,But what if you see an unfortunate future? Won't they take out their<br>disappointment on you if the result isn't what they wanted?<br> ,,vc_10470100021_017_01
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,メレム,そういう場合は注意点だけをお伝えして、<br>前向きにすごしていただけるように努力しています。,,vc_10470100021_018_01
+message,メレム,In such cases，I only tell them the things to watch out for，and I try<br>to help them stay positive.<br> ,,vc_10470100021_018_01
 
 
 asynccharareaction,chara_1,Nod,1,STOP
@@ -214,22 +214,22 @@ asynccharaemo,chara_1,Flower,STOP
 
 asynccharaface,chara_1,EyeClose,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,メレム,占い師の仕事はただ未来を見せるのではなく、<br>お客様が良い人生を手繰り寄せる、そのお手伝いをすることなんですから。,,vc_10470100021_019_01
+message,メレム,A fortune teller's job isn't just to show the future; it's to help<br>the customers draw a good life toward themselves.<br> ,,vc_10470100021_019_01
 
 asynccharaface,chara_2,FaceSurprise,STOP
-message,ルディア,カウンセラーのような、大変なお仕事なのね、占い師って。,,vc_10470100021_020_01
+message,ルディア,So being a fortune teller is a tough job，like a counselor.<br> ,,vc_10470100021_020_01
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
 
-message,男性客,あ、あの……メレムさんで予約したんですが……,900000001
+message,男性客,Ah，um... I made a reservation with Merem...<br> ,900000001
 
 asyncseplay,setag1_19,se4800022,0,1,CONT
 
 asynccharaemo,chara_2,Speak,STOP
 
 asynccharaface,chara_2,FaceFun,STOP
-message,ルディア,はい、いらっしゃいませ。<br>メレムさん、ご予約のお客様です。,,vc_10470100021_021_01
+message,ルディア,Yes，welcome. Merem，this is the customer with the reservation.<br> ,,vc_10470100021_021_01
 
 asynccharareaction,chara_1,Nod,1,STOP
 
@@ -239,7 +239,7 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Spirits,STOP
 
 asynccharaface,chara_1,FaceFun,STOP
-message,メレム,占い師メレムです。<br>……本日はよろしくお願いします。,,vc_10470100021_022_01
+message,メレム,I am Merem，the fortune teller. ... I look forward to working with<br>you today.<br> ,,vc_10470100021_022_01
 
 window,off
 bgmstop,bgmtag1_1,1
@@ -278,9 +278,9 @@ asynccharaemo,chara_1,Question,STOP
 
 asynccharaface,chara_1,FaceFun,STOP
 window,on,0.15
-message,メレム,さて、本日占いたいことはなんでしょうか？,,vc_10470100021_023_01
+message,メレム,Now，what would you like me to read for you today?<br> ,,vc_10470100021_023_01
 
-message,男性客,明日、新しく発見された階層の調査に向かうんです。<br>それがなんだか不安で、どうしても占ってほしくて……,900000001
+message,男性客,Tomorrow I'm heading out to explore a newly discovered stratum. I'm<br>feeling uneasy about it，and I just had to get a reading...<br> ,900000001
 
 asynccharareaction,chara_1,Nod,1,STOP
 
@@ -299,9 +299,9 @@ asynccharaemo,chara_1,Spirits,STOP,5
 
 
 asynccharaface,chara_1,FaceHappy,STOP,5
-message,メレム,なるほど……それはご不安でしょう。<br>ご安心ください。どんな未来が見えるか、しっかりと占ってみせます。,,vc_10470100021_024_01
+message,メレム,I see... That must be worrisome. Rest assured，I shall perform a<br>thorough divination to see what the future holds.<br> ,,vc_10470100021_024_01
 
-message,男性客,ありがとうございます！<br>それで、その……できれば、よく当たる占いをお願いしたくて……,900000001
+message,男性客,Thank you! And，well... if possible，I'd like to request the more<br>accurate reading...<br> ,900000001
 
 asynccharareaction,chara_1,Nod,1,STOP
 
@@ -310,16 +310,16 @@ asyncseplay,setag1_24,se4800022,0,1,CONT
 asynccharaemo,chara_1,Speak,STOP
 
 asynccharaface,chara_1,FaceFun,STOP
-message,メレム,……はい、分かっています。<br>私の身体にも負担がかかるので特別料金を頂いていますが大丈夫ですか？,,vc_10470100021_025_01
+message,メレム,... Yes，I understand. However，since it does place a strain on my<br>body，I charge a special fee. Is that acceptable?<br> ,,vc_10470100021_025_01
 
-message,男性客,はい！　もちろん大丈夫です！,900000001
+message,男性客,Yes! Of course that's fine.<br> ,900000001
 
 asyncseplay,setag1_25,se4800002,0,1,CONT
 
 asynccharaemo,chara_1,Heart,STOP
 
 asynccharaface,chara_1,FaceShy,STOP
-message,メレム,ありがとうございます。<br>では、早速占っていきましょうか……,,vc_10470100021_026_01
+message,メレム,Thank you. Then，shall we begin the reading right away...?<br> ,,vc_10470100021_026_01
 
 labeljump,b
 

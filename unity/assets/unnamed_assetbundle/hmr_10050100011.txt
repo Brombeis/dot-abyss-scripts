@@ -34,9 +34,9 @@ asynccharascale,chara_1,1,0,CONT,0
 asynccharashowalpha,chara_1,1,0.3,CONT,0
 
 window,on,0.15
-message,,仕事の後でエレクトラから相談があると持ちかけられたので、<br>部屋に彼女を招いて話を聞くことにした。
+message,,After work，Electra asked if she could talk to me about something，so<br>I invited her to my room to hear her out.<br> 
 
-message,<user>,……身体に異常がある？
+message,<user>,...Something wrong with your body?<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -45,7 +45,7 @@ asyncseplay,setag1_1,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,エレクトラ,はい。自己解析の結果、異常な数値が計測されました。<br>体温、心拍数など、すべての値が通常時より上昇しています。,100501000G,vc_10050100011_001_01,chara_1
+message,エレクトラ,Yes. According to my self-analysis，anomalous readings were<br>recorded.\nAll values—body temperature，heart rate，etc.—are elevated compared to normal.<br> ,100501000G,vc_10050100011_001_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -56,9 +56,9 @@ asyncseplay,setag1_2,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,エレクトラ,さらに、身体の一部に気になる変化もあります。<br>具体的に申し上げると、股間部分が疼いて仕方ありません。,100501000G,vc_10050100011_002_01,chara_1
+message,エレクトラ,Furthermore，there is a concerning change in one part of my body.\nTo<br>be specific，my groin area is throbbing unbearably.<br> ,100501000G,vc_10050100011_002_01,chara_1
 
-message,<user>,お、おう……それはまた……
+message,<user>,O-oh... That's... uh...<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -70,9 +70,9 @@ asyncseplay,setag1_3,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,エレクトラ,ご主人様はこの事象をどのように思われますか？,100501000G,vc_10050100011_003_01,chara_1
+message,エレクトラ,Master，what do you make of this phenomenon?<br> ,100501000G,vc_10050100011_003_01,chara_1
 
-message,<user>,そうだな……少し言いにくいんだが……<br>話を聞いている限りだと、エレクトラが発情しているように思える。
+message,<user>,Well... it's a bit hard to say... but from what I'm hearing，it<br>sounds like you're in estrus.<br> 
 
 window,off
 wait,0.15
@@ -106,9 +106,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,エレクトラ,やはりご主人様もそう思われますか。<br>実は、エレクトラも同じ見解です。,100501000G,vc_10050100011_004_01,chara_1
+message,エレクトラ,So you think so too，Master. Actually，Electra shares that view.<br> ,100501000G,vc_10050100011_004_01,chara_1
 
-message,<user>,しかし、機械の身体であるエレクトラが発情するというのもなぁ……
+message,<user>,But it's strange to think of you，with a mechanical body，going into<br>estrus...<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -119,7 +119,7 @@ asyncseplay,setag1_5,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,エレクトラ,エレクトラはセクサロイドです。<br>いついかなるときも、ご主人様の性処理対応が可能な身体です。,100501000G,vc_10050100011_005_01,chara_1
+message,エレクトラ,Electra is a Sexaroid. My body is designed to provide sexual relief<br>for Master at any time.<br> ,100501000G,vc_10050100011_005_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -130,9 +130,9 @@ asyncseplay,setag1_6,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,エレクトラ,発情モード……と、仮にそう呼びますが、<br>そのような機能があったとしても不思議ではありません。,100501000G,vc_10050100011_006_01,chara_1
+message,エレクトラ,If we tentatively call it ""Estrus Mode""... it would not be<br>surprising for such a function to exist.<br> ,100501000G,vc_10050100011_006_01,chara_1
 
-message,<user>,ということは、なんらかのきっかけで、<br>今はその発情モードのスイッチが入ってしまったということか。
+message,<user>,So you're saying that for some reason，the Estrus Mode has been<br>triggered now?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -143,9 +143,9 @@ asyncseplay,setag1_7,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,エレクトラ,その結論で間違いないと思います。,100501000G,vc_10050100011_007_01,chara_1
+message,エレクトラ,I believe that conclusion is correct.<br> ,100501000G,vc_10050100011_007_01,chara_1
 
-message,<user>,……うん？<br>エレクトラ自身もそう考えているのなら、どうして俺に相談してきたんだ？
+message,<user>,...Huh? If you yourself think that，then why did you come to talk to<br>me about it?<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -156,7 +156,7 @@ asyncseplay,setag1_8,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,エレクトラ,それは……この発情モードを解除するには……<br>セックスをしなければならないと考えられるからです……,100501000G,vc_10050100011_008_01,chara_1
+message,エレクトラ,That is because... to deactivate this Estrus Mode... I believe we<br>need to have sex...<br> ,100501000G,vc_10050100011_008_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -167,7 +167,7 @@ asyncseplay,setag1_9,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,エレクトラ,おそらく、セックスの相手は誰でもいいのでしょう。,100501000G,vc_10050100011_009_01,chara_1
+message,エレクトラ,Presumably，any partner would do.<br> ,100501000G,vc_10050100011_009_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -178,7 +178,7 @@ asyncseplay,setag1_10,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,エレクトラ,ですが、以前ご主人様は、エレクトラのやりたいようにやれと<br>おっしゃってくださいました。,100501000G,vc_10050100011_010_01,chara_1
+message,エレクトラ,However，Master once told me to do as I pleased.<br> ,100501000G,vc_10050100011_010_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -189,9 +189,9 @@ asyncseplay,setag1_11,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,エレクトラ,それならば……エレクトラの相手は、ご主人様にお願いしたいです……<br>ご主人様が……いいのです……,100501000G,vc_10050100011_011_01,chara_1
+message,エレクトラ,In that case... I would like to request that Master be my partner...<br>I want Master.<br> ,100501000G,vc_10050100011_011_01,chara_1
 
-message,,いつもと変わらない淡々とした表情と口調の中にも、<br>エレクトラの不安の色が見て取れた。
+message,,Despite her usual flat expression and tone，I could see traces of<br>anxiety in Electra.<br> 
 
 window,off
 wait,0.15
@@ -206,7 +206,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（エレクトラなりに不安を感じて、頼ってくれているんだろうな……）
+message,<user>,(She's feeling anxious and relying on me in her own way...)<br> 
 
 window,off
 wait,0.15
@@ -221,7 +221,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,,エレクトラに対する愛おしさと同時に、彼女の不安を拭い去り、<br>癒してやりたい……そんな気持ちが急激に湧いてくるのだった。
+message,,Along with a surge of tenderness for Electra，a desire to erase her<br>anxiety and heal her came over him... These feelings welled up inside him.<br> 
 
 labeljump,b
 

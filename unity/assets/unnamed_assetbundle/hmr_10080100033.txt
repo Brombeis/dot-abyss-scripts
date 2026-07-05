@@ -26,7 +26,7 @@ bgmplay,bgmtag3_1,bgm0024,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,——Days Later，Forward Base Town，General Store,,,on
+messageTextCenter,,—A few days later，at the General Store in Frontline Base Town.,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -66,7 +66,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ベリサ,Hey，hey，Veera — isn't this cute!?<br> ,100201000G,vc_10080100033_001_01,chara_2
+message,ベリサ,Hey hey，Veera! Isn't this cute!<br> ,100201000G,vc_10080100033_001_01,chara_2
 
 window,off
 wait,0.15
@@ -118,7 +118,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,Yes，it's lovely.<br>It would look great on you，Onee-chan.<br> ,100801000G,vc_10080100033_002_01,chara_1
+message,ヴィーラ,Yes，it's very nice. It looks great on you，Big Sis.<br> ,100801000G,vc_10080100033_002_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -129,7 +129,7 @@ asyncseplay,setag3_3,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヴィーラ,...Oh，this is...<br> ,100801000G,vc_10080100033_003_01,chara_1
+message,ヴィーラ,Ah... this is...<br> ,100801000G,vc_10080100033_003_01,chara_1
 
 window,off
 wait,0.15
@@ -171,7 +171,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,Veera picked up a mirror. It was the perfect size for doing makeup —<br>large enough to see her whole face clearly.<br> 
+message,,Veera picked up a mirror. It clearly reflected her face—the perfect<br>size for putting on makeup.<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -180,7 +180,7 @@ asyncseplay,setag3_4,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ヴィーラ,Maybe I should... get this one...<br> ,100801000G,vc_10080100033_004_01,chara_1
+message,ヴィーラ,This... maybe I'll buy it...<br> ,100801000G,vc_10080100033_004_01,chara_1
 
 window,off
 wait,0.15
@@ -235,7 +235,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,ベリサ,Oh，a makeup mirror?<br>That's unusual for you.<br> ,100201000G,vc_10080100033_005_01,chara_2
+message,ベリサ,Huh，a makeup mirror? That's unlike you，Veera.<br> ,100201000G,vc_10080100033_005_01,chara_2
 
 window,off
 wait,0.15
@@ -292,7 +292,7 @@ asynccharaemo,chara_2,Silence,CONT,0
 
 
 window,on,0.15
-message,ベリサ,(Well，she's been doing fine at the brothel too， and just because<br>she's my little sister doesn't mean she's a kid forever...)<br> ,100201000G,vc_10080100033_006_01,chara_2
+message,ベリサ,(Well，she's working hard at the brothel，and she's not a kid forever<br>just because she's my little sister...)<br> ,100201000G,vc_10080100033_006_01,chara_2
 
 window,off
 wait,0.15
@@ -350,7 +350,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,Um... Onee-chan.<br>I've never actually done my makeup before...<br> ,100801000G,vc_10080100033_007_01,chara_1
+message,ヴィーラ,Um... Big Sis. I've never done makeup before...<br> ,100801000G,vc_10080100033_007_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -390,7 +390,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ベリサ,...Hehe，can't be helped~.<br>Your reliable big sis will teach you♪<br> ,100201000G,vc_10080100033_009_01,chara_2
+message,ベリサ,...Fufu，well，I guess it can't be helped. Your reliable big sis will<br>teach you!♪<br> ,100201000G,vc_10080100033_009_01,chara_2
 
 window,off
 wait,0.15
@@ -448,7 +448,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,ベリサ,(Oh，so she's just finally getting interested in that kind of stuff.<br>Veera really is still a kid at heart♪)<br> ,100201000G,vc_10080100033_010_01,chara_2
+message,ベリサ,(Oh，so that's it—she's finally gotten interested in that sort of<br>thing. Veera's still just a kid after all!♪)<br> ,100201000G,vc_10080100033_010_01,chara_2
 
 window,off
 wait,0.15
@@ -507,9 +507,9 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,Thank you，Onee-chan...!<br> ,100801000G,vc_10080100033_011_01,chara_1
+message,ヴィーラ,Thank you，Big Sis...!<br> ,100801000G,vc_10080100033_011_01,chara_1
 
-message,,Still just a kid — Verisa smiled to herself，but what stirred within<br>Veera was not simply the flutter of a maiden's heart in love.<br> 
+message,,Verisa smiled，thinking ""still just a child，"" but what lay within<br>Veera was not only a maiden's heart fluttering with love.<br> 
 
 window,off
 wait,0.15
@@ -566,7 +566,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,(If I do my makeup properly and look pretty，maybe Commander-sama<br>will compliment me...)<br> ,100801000G,vc_10080100033_012_01,chara_1
+message,ヴィーラ,(If I do my makeup right and look pretty，the Lord Commander might<br>praise me...)<br> ,100801000G,vc_10080100033_012_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -577,7 +577,7 @@ asyncseplay,setag3_14,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ヴィーラ,(Will Commander-sama be pleased?<br>And will he... love me again... so very much...)<br> ,100801000G,vc_10080100033_013_01,chara_1
+message,ヴィーラ,(Will the Lord Commander be pleased? And then... will he love me a<br>lot again?)<br> ,100801000G,vc_10080100033_013_01,chara_1
 
 window,off
 wait,0.15
@@ -603,9 +603,9 @@ asynccharaemo,chara_1,Heart,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,...I can hardly wait.<br> ,100801000G,vc_10080100033_014_01,chara_1
+message,ヴィーラ,...I'm really looking forward to it.<br> ,100801000G,vc_10080100033_014_01,chara_1
 
-message,,Hidden beneath that sweet maiden's heart，<br>a woman's desire was quietly beginning to show its face——<br> 
+message,,Hidden beneath her sweet maiden's heart，a woman's desire was<br>beginning to stir—<br> 
 
 window,off
 bgmstop,bgmtag3_1,0.5

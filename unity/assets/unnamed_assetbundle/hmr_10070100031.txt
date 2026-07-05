@@ -30,14 +30,14 @@ asynccharareaction,chara_2,Nod,0.5,STOP
 charaface,chara_2,FaceFun
 
 window,on,0.15
-message,ルディア,Welcome♡ Commander-kun.<br> ,,vc_10070100031_001_01
+message,ルディア,Welcome，Commander!♡<br> ,,vc_10070100031_001_01
 
 charaface,chara_2,EyeOpen
 charaface,chara_2,FaceNormal
 
-message,<user>,I got an invitation，of all things.<br> 
+message,<user>,I got an invitation letter，you know.<br> 
 
-message,,An invitation from the brothel.<br>Drawn by its suspicious yet provocative allure，he'd come tonight.<br> 
+message,,An invitation letter from the brothel. I accepted its suspicious yet<br>provocative offer and came here tonight.<br> 
 
 charapose,chara_2,2
 
@@ -47,7 +47,7 @@ asyncseplay,setag1_2,se4800013,0,1,CONT
 
 asynccharareaction,chara_2,Jump,1,STOP
 asynccharaemo,chara_2,Spirits,STOP
-message,ルディア,Tonight's partner is quite formidable~<br>Do enjoy yourself thoroughly.<br> ,,vc_10070100031_002_01
+message,ルディア,Today's partner is quite a formidable opponent. Enjoy yourself to<br>the fullest.<br> ,,vc_10070100031_002_01
 
 charapose,chara_2,1
 
@@ -62,7 +62,7 @@ charamove,chara_2,LinearTarget,X,-100,0.3
 
 
 window,on,0.15
-message,,'Formidable' — who could she mean?<br>Puzzled but undaunted，he headed to the room.<br> 
+message,,Who could this ""formidable opponent"" be? With that question in<br>mind，I headed to the room，determined not to lose.<br> 
 
 seplay,setag1_3,se4010103,0,1
 

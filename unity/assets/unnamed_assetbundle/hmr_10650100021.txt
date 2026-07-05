@@ -49,7 +49,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ソフィア,雰囲気のある内装に、薄暗い照明。大きなベッド……。<br>ここでお客さんとエッチなことをするのね……,106501000X,vc_10650100021_001_01,chara_1
+message,ソフィア,Atmospheric interior，dim lighting. A large bed... So this is where I<br>do naughty things with a customer，huh...<br> ,106501000X,vc_10650100021_001_01,chara_1
 
 window,off
 wait,0.15
@@ -101,7 +101,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,（はぁ……、いくら人手が足りないとはいえ、<br>こんな慣れない仕事、引き受けるんじゃなかったかなぁ……）,106501000X,vc_10650100021_002_01,chara_1
+message,ソフィア,(*sigh*... even though we're short-staffed，I wonder if I shouldn't<br>have taken on this unfamiliar job...)<br> ,106501000X,vc_10650100021_002_01,chara_1
 
 window,off
 wait,0.15
@@ -118,7 +118,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,,イスに腰掛けたソフィアは、ドキドキと心臓を高鳴らせ、<br>初めての客が訪れるのを待っていた。
+message,,Sophia sat in a chair，her heart pounding as she waited for her first<br>customer to arrive.<br> 
 
 window,off
 wait,0.15
@@ -145,7 +145,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,（ここで待っていればお客さんが来るって、<br>ルディアさんは言っていたけれど……）,106501000X,vc_10650100021_003_01,chara_1
+message,ソフィア,(Ludia said that if I wait here，a customer will come，but...)<br> ,106501000X,vc_10650100021_003_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -156,7 +156,7 @@ asyncseplay,setag1_4,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ソフィア,（いったいどんな人が来るのかしら……。<br>まさかベテランのおじさまに、すごいことをされてしまう、とか……？）,106501000X,vc_10650100021_004_01,chara_1
+message,ソフィア,(I wonder what kind of person will come... Surely not an experienced<br>older gentleman who'll do something extreme to me...?)<br> ,106501000X,vc_10650100021_004_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -167,7 +167,7 @@ asyncseplay,setag1_5,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ソフィア,（……ま、まだなのかしら？　うぅ……早く来てよ～っ……。<br>待っている時間が長ければ長いほど、緊張しちゃうわ……）,106501000X,vc_10650100021_005_01,chara_1
+message,ソフィア,(...Still not here? *whimper*... hurry up and get here already...<br>The longer I wait，the more nervous I get...)<br> ,106501000X,vc_10650100021_005_01,chara_1
 
 window,off
 wait,0.15
@@ -208,7 +208,7 @@ wait,1
 asyncseplay,setag1_6,se4300001,0,1,CONT,0
 
 window,on,0.15
-message,,――コンコン、と扉をノックする音が響く。
+message,,Knock，knock—the sound of a knock on the door echoed.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -219,7 +219,7 @@ asyncseplay,setag1_7,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ソフィア,ひゃいっ！？,106501000X,vc_10650100021_006_01,chara_1
+message,ソフィア,Eep!<br> ,106501000X,vc_10650100021_006_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -240,7 +240,7 @@ asyncseplay,setag1_8,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ソフィア,（あっ！　へ、変な声が出ちゃった！<br>お仕事なんだから、ちゃんとしないと……！）,106501000X,vc_10650100021_007_01,chara_1
+message,ソフィア,(Ah! I-I made a weird noise! I'm on the job，so I have to pull myself<br>together...!)<br> ,106501000X,vc_10650100021_007_01,chara_1
 
 window,off
 wait,0.15
@@ -268,17 +268,17 @@ wait,0.5
 
 
 window,on,0.15
-message,ソフィア,ど、どうぞ……,106501000X,vc_10650100021_008_01,chara_1
+message,ソフィア,P-please，come in...<br> ,106501000X,vc_10650100021_008_01,chara_1
 
-message,？？？,ししし失礼します！,900000001
+message,？？？,S-s-sorry to intrude!<br> ,900000001
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
-message,,部屋に入ってきたのはまだ年若い兵士だった。<br>見るからに緊張して、ガチガチに固まっている。
+message,,The soldier who entered was young，clearly nervous and tense.<br> 
 
-message,客の青年,その、ここのお世話になるのは初めてで……<br>よろしくお願いいたしますっ！！！,900000001
+message,客の青年,Um，it's my first time here... Please take care of me!<br> ,900000001
 
 window,off
 wait,0.15
@@ -314,7 +314,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ソフィア,そ、そうなの？<br>こちらこそよろしくね……,106501000X,vc_10650100021_009_01,chara_1
+message,ソフィア,R-really? The pleasure's all mine...<br> ,106501000X,vc_10650100021_009_01,chara_1
 
 window,off
 wait,0.15
@@ -341,7 +341,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ソフィア,（すごく緊張してるみたい……なんだか可哀想。<br>私が慌てている場合じゃないわね――しっかりしないとっ）,106501000X,vc_10650100021_010_01,chara_1
+message,ソフィア,(He seems really nervous... poor thing. This isn't the time for me<br>to be flustered—I need to get it together.)<br> ,106501000X,vc_10650100021_010_01,chara_1
 
 window,off
 wait,0.15
@@ -369,9 +369,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ソフィア,大丈夫、きっと楽しませてみせるから。<br>私に任せて、ね？,106501000X,vc_10650100021_011_01,chara_1
+message,ソフィア,It's okay，I'll make sure you enjoy it. Leave it to me，okay?<br> ,106501000X,vc_10650100021_011_01,chara_1
 
-message,,ソフィアは決意の表情で、<br>ゆっくりと男の手を引くのだった――
+message,,With a determined expression，Sophia slowly took the man's hand and<br>led him.<br> 
 
 labeljump,b
 

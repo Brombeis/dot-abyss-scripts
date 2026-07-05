@@ -25,9 +25,9 @@ bgmplay,bgmtag1_1,bgm0025,0.75,1
 seplay,setag1_1,se4300001,0,1
 
 window,on,0.15
-message,,――夜。<br>司令室で仕事をしていると突然、ノックの音が響いた。
+message,,It was night. I was working in the command room when a knock<br>suddenly echoed.<br> 
 
-message,<user>,ん？<br>入っていいぞ。
+message,<user>,Hmm? Come in.<br> 
 
 window,off
 wait,0.15
@@ -45,10 +45,10 @@ asynccharaemo,chara_1,Speak,CONT
 
 asynccharareaction,chara_1,Nod,1,CONT
 window,on,0.15
-message,ダリア,……こんばんは、親方。,,vc_10320100011_001_01
+message,ダリア,Good evening，Boss.<br> ,,vc_10320100011_001_01
 
 
-message,<user>,ダリアか。どうしたんだこんな時間に。<br>それに、その格好は――
+message,<user>,Daria? What are you doing here at this hour? And that outfit—<br> 
 
 
 window,off
@@ -75,7 +75,7 @@ shake,CHARA,chara_1,20,0,0.25,1,off,off,0
 
 
 window,on,0.15
-message,<user>,な、なんだっ？　急に抱き着いてきたりして！？
+message,<user>,W-What? Why are you suddenly hugging me?!<br> 
 
 asynccharaface,chara_1,FaceUnique02,STOP
 
@@ -89,11 +89,11 @@ asynccharaface,chara_1,FaceUnique01,STOP,6
 asynccharaface,chara_1,FaceShy,STOP,10
 
 asynccharaface,chara_1,FaceUnique02,STOP,13
-message,ダリア,お礼したくて……色々教えてもらいに来たんです……。<br>うまくできないかもだけど、よろしくお願いします。ではまずはキスから――,,vc_10320100011_002_01
+message,ダリア,I want to repay you... so I came to learn from you... I might not be<br>good，but please... So，first，a kiss—<br> ,,vc_10320100011_002_01
 
 shake,BACK,,20,0,0.5,5,off,off,0
 shake,CHARA,chara_1,20,0,0.5,5,off,off,0
-message,<user>,ちょ、ちょっと待て～～っ！！
+message,<user>,W-Wait a minute!<br> 
 
 window,off
 wait,0.15
@@ -110,7 +110,7 @@ wait,0.5
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,<user>,――なるほど。要は先日、俺の世話になったから<br>恩返しがしたくてここへ来た――というわけか。
+message,<user>,I see. So，in short，because I helped you the other day，you came here<br>to repay that favor—is that it?<br> 
 
 asyncseplay,setag1_6,se4800008,0,1,CONT
 
@@ -119,7 +119,7 @@ asynccharaemo,chara_1,Sweat,STOP
 charaface,chara_1,FaceSad
 
 asynccharareaction,chara_1,Nod,1,STOP
-message,ダリア,はい……最初にそう言ったつもりだったのですが……,,vc_10320100011_003_01
+message,ダリア,Yes... I thought I said that from the start，but...<br> ,,vc_10320100011_003_01
 
 window,off
 wait,0.15
@@ -132,7 +132,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（言ってないだろ……やっぱり口下手だな……<br>それにあの時も、恩義を感じている様子はなかったんだがなぁ）
+message,<user>,(She didn't say that at all... she's really tongue-tied... And back<br>then，she didn't seem to feel any obligation either...)<br> 
 
 window,off
 wait,0.15
@@ -153,10 +153,10 @@ asynccharaface,chara_1,FaceHappy,STOP
 
 asynccharaface,chara_1,FaceShy,STOP,6
 window,on,0.15
-message,ダリア,私、親方の役に立ちたいから娼館で働きます。<br>……衣装も揃えてきました。,,vc_10320100011_004_01
+message,ダリア,I want to be useful to you，Boss，so I'll work at the brothel. I've<br>prepared an outfit too.<br> ,,vc_10320100011_004_01
 
 
-message,<user>,気持ちはありがたいが、そこまでしなくていいぞ。<br>大穴探索で力を貸してくれたら十分だ。
+message,<user>,I appreciate the sentiment，but you don't have to go that far. It's<br>enough that you help me explore the Abyss.<br> 
 
 
 window,off
@@ -177,7 +177,7 @@ asynccharaemo,chara_1,Shy,CONT
 
 asynccharareaction,chara_1,Shake,1,STOP
 window,on,0.15
-message,,ダリアはふるふると首を横に振って、無言で、静かに抱き着いてくる。
+message,,Daria shook her head，trembling slightly，and silently hugged me.<br> 
 
 
 
@@ -187,7 +187,7 @@ asyncseplay,setag1_9,se4800002,0,1,CONT
 asynccharaemo,chara_1,Heart,CONT
 
 asynccharaface,chara_1,FaceUnique02,STOP
-message,ダリア,研修……してください……,,vc_10320100011_005_01
+message,ダリア,Please... train me...<br> ,,vc_10320100011_005_01
 
 window,off
 wait,0.15
@@ -201,7 +201,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（研修って……まあそれは説明されずとも分かるが……<br>もしかしてこいつ、俺のことが……？）
+message,<user>,(Training... well，I understand that without needing an<br>explanation... Could it be that she has feelings for me...?)<br> 
 
 window,off
 wait,0.15
@@ -214,7 +214,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,,確信は得られないが、女性に恥をかかせるものではない――。<br>そうしてダリアの手を引き、娼館へ移動するのだった。
+message,,I couldn't be certain，but I couldn't embarrass a woman. And<br>so，taking Daria's hand，I led her to the brothel.<br> 
 
 
 labeljump,b

@@ -25,7 +25,7 @@ wait,1
 bgmplay,bgmtag1_1,bgm0024,0.75,1
 
 window,on,0.15
-message,<user>,困ったな……。<br>娼館が盛況なのはいいんだが、人手が足りなくなってきたか……
+message,<user>,This is a problem... The brothel is doing well，but we're running<br>short on staff.<br> 
 
 window,off
 wait,0.15
@@ -73,7 +73,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ローザ,お困りでしょうか、司令官殿！<br>散歩していたところ困ったという言葉が聞こえたので、駆けつけました！,100101000G,vc_10010100011_001_01,chara_1
+message,ローザ,Are you in trouble，Commander? I was out for a walk and heard you<br>were troubled，so I rushed over!<br> ,100101000G,vc_10010100011_001_01,chara_1
 
 window,off
 wait,0.15
@@ -83,7 +83,7 @@ charafocusonall
 linework,off,Black,Middle
 
 window,on,0.15
-message,<user>,耳が良すぎる！　<br>お、お前は相変わらずどこからでも現れるな……
+message,<user>,Your ears are too sharp! You always show up out of nowhere，don't<br>you...<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -94,9 +94,9 @@ asyncseplay,setag1_3,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ローザ,わたしは司令官殿の騎士ですから、困っている時に駆けつけるのは当然です！<br>それで、何があったのでしょう？　なんなりとお申し付けください！,100101000G,vc_10010100011_002_01,chara_1
+message,ローザ,I am your knight，Commander，so it's only natural to come when you're<br>in trouble! Now，what is the matter? Please，command me!<br> ,100101000G,vc_10010100011_002_01,chara_1
 
-message,<user>,気持ちはありがたいが、さすがにこれはな……
+message,<user>,I appreciate the sentiment，but this is... well...<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -107,9 +107,9 @@ asyncseplay,setag1_4,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ローザ,遠慮しないでください！　わたし、頑張りますから！,100101000G,vc_10010100011_003_01,chara_1
+message,ローザ,Please don't hold back! I'll do my best!<br> ,100101000G,vc_10010100011_003_01,chara_1
 
-message,<user>,……それじゃあ、言うだけ言うが。<br>実はな……
+message,<user>,...All right，I'll say it. The truth is...<br> 
 
 
 window,off
@@ -139,9 +139,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ローザ,しょ、娼婦が足りない、ですか……つ、つまり、わたしにできることはぁ……。<br>し、しかし、色恋沙汰に縁のないわたしに務まるでしょうか……？,100101000G,vc_10010100011_004_01,chara_1
+message,ローザ,C-courtesans? You're short on... T-that is，what I can do is...<br>B-but，can someone like me with no experience in such matters manage...?<br> ,100101000G,vc_10010100011_004_01,chara_1
 
-message,<user>,だから言っただろ？　これに関しては、こっちで何とかするから無理するな。<br>気持ちだけはありがたく受け取っておくから。
+message,<user>,That's what I said，right? I'll handle this，so don't push yourself.<br>I'm grateful for the offer.<br> 
 
 window,off
 wait,0.15
@@ -160,9 +160,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ローザ,い……いえ！　忠誠を捧げた主君を助けることが、騎士の役目です！<br>ここで退いては騎士の名折れ！　どうか司令官殿のお力にならせてください！,100101000G,vc_10010100011_005_01,chara_1
+message,ローザ,N-no! It is a knight's duty to aid the lord to whom I have sworn<br>loyalty! To retreat now would be a disgrace to knighthood! Please，allow me to be of use to you，Commander!<br> ,100101000G,vc_10010100011_005_01,chara_1
 
-message,<user>,そこまで言うなら……分かったよ。<br>お前の力を貸してもらおう。
+message,<user>,If you insist... alright. I'll accept your help.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -173,7 +173,7 @@ asyncseplay,setag1_7,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ローザ,はいっ！,100101000G,vc_10010100011_006_01,chara_1
+message,ローザ,Yes!<br> ,100101000G,vc_10010100011_006_01,chara_1
 
 window,off
 wait,0.15
@@ -200,9 +200,9 @@ asynccharaemo,chara_1,Shy,CONT,0
 
 
 window,on,0.15
-message,ローザ,あ、でも……わたしは、そういうことは初めてでして……。<br>お店の前に……し、司令官殿に、て、手ほどきをしてほしいのですが……,100101000G,vc_10010100011_007_01,chara_1
+message,ローザ,Ah，but... I've never done anything like this before... Before we go<br>in... C-Commander，I'd like you to give me some guidance...<br> ,100101000G,vc_10010100011_007_01,chara_1
 
-message,,モジモジとしながら上目遣いに見つめられる。<br>そのつもりだったこちらは、すぐに頷くのだった。
+message,,She fidgeted and looked up at me with pleading eyes. That was<br>already my plan，so I quickly nodded.<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -250,7 +250,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,ローザ,き、着替えてきましたぁ……,100101000X,vc_10010100011_008_01,chara_2
+message,ローザ,I-I've changed...<br> ,100101000X,vc_10010100011_008_01,chara_2
 
 window,off
 wait,0.15
@@ -265,7 +265,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（これは……思った以上に破壊力があるな）
+message,<user>,(This is... way more stunning than I expected.)<br> 
 
 window,off
 wait,0.15
@@ -289,9 +289,9 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,ローザ,えっと、その……<br>これは少々、ハ、ハレンチすぎるのではないでしょうか……？,100101000X,vc_10010100011_009_01,chara_2
+message,ローザ,Um，well... Isn't this a bit... too... sh-shameless...?<br> ,100101000X,vc_10010100011_009_01,chara_2
 
-message,<user>,安心しろ。ここでは普通だ。<br>それに、よく似合っているぞ。正直、驚いたくらいだ。
+message,<user>,Don't worry. It's normal here. And it really suits you. Honestly，I'm<br>surprised.<br> 
 
 asynccharaface,chara_2,FaceUnique02,CONT,0
 
@@ -302,9 +302,9 @@ asyncseplay,setag1_12,se4800012,0,1,CONT,0
 asynccharaemo,chara_2,Shy,CONT,0
 
 
-message,ローザ,そ、そうですか……？<br>司令官殿にそう言われると、嬉しいような……うぅ……,100101000X,vc_10010100011_010_01,chara_2
+message,ローザ,S-so...? When you say that，Commander，I feel a little happy... Uuh...<br> ,100101000X,vc_10010100011_010_01,chara_2
 
-message,<user>,それじゃあ、さっそく始めるか。<br>なるべく優しく教えてやるから……こっちに来てくれ。
+message,<user>,Alright then，let's get started. I'll teach you gently，so come here.<br> 
 
 window,off
 wait,0.15
@@ -341,7 +341,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,ローザ,は、はいっ！<br>ご指導、よろしくお願いします……！,100101000X,vc_10010100011_011_01,chara_2
+message,ローザ,Y-yes! Please instruct me，Commander...!<br> ,100101000X,vc_10010100011_011_01,chara_2
 
 labeljump,b
 

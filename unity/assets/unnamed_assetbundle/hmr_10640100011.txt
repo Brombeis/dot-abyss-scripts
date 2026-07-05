@@ -23,11 +23,11 @@ bgmplay,bgmtag1_1,bgm0024,0.75,1
 
 
 window,on,0.15
-message,<user>,うむ、ここはいい森だな。
+message,<user>,mmm，this is a nice forest.<br> 
 
-message,,自然が豊かで、命に満ちている。前線基地の環境把握のためと思い散策して<br>いたのだが、その森の奧からふと歌声が聴こえてきた。
+message,,The forest was lush and teeming with life. I had gone for a walk to<br>familiarize myself with the surroundings of the Frontline Base，when a song drifted out from deep among the trees.<br> 
 
-message,<user>,この歌は……
+message,<user>,This song...<br> 
 
 window,off
 wait,0.15
@@ -63,9 +63,9 @@ asynccharaemo,chara_1,Spirits,CONT,0
 wait,1
 
 window,on,0.15
-message,,声のする方に向かうと、やがて歌声の主が見えてきた。<br>それはやはりラモーナだった。
+message,,I headed toward the voice，and soon the singer came into view. It was<br>Ramona，just as I thought.<br> 
 
-message,<user>,いつもながらいい歌声だな。<br>でも……
+message,<user>,As always，a beautiful voice. But...<br> 
 
 window,off
 wait,0.15
@@ -81,7 +81,7 @@ asyncseplay,setag1_2,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 window,on,0.15
-message,,今日はその声に、どこか憂いを感じた。<br>心配になり佇んだまま見守っていると、歌はとうとう途中で止んでしまった。
+message,,Today，I sensed a hint of melancholy in her voice. I grew worried and<br>stood watching her，until the song broke off partway through.<br> 
 
 asyncjump,CHARA,chara_1,-40,1,1,off,0,CONT
 
@@ -90,9 +90,9 @@ asyncseplay,setag1_3,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ラモーナ,……はぁ。,106401000G,vc_10640100011_001_01,chara_1
+message,ラモーナ,...*sigh*.<br> ,106401000G,vc_10640100011_001_01,chara_1
 
-message,,急に歌うのを止めたラモーナは、憂鬱そうにため息をついている。<br>いったいどうしたのかと心配していると、ラモーナがこちらに気づいた。
+message,,Ramona stopped singing so abruptly and let out a dejected sigh. Just<br>as I was wondering what was wrong，she noticed me.<br> 
 
 window,off
 wait,0.15
@@ -138,9 +138,9 @@ sestop,setag1_5,0.1
 
 
 window,on,0.15
-message,ラモーナ,あ、司令官さま……<br>いつからいらしたんですか？,106401000G,vc_10640100011_002_01,chara_1
+message,ラモーナ,Ah，Commander... how long have you been there?<br> ,106401000G,vc_10640100011_002_01,chara_1
 
-message,<user>,少し前からだ。それよりどうしたんだ？<br>急に歌うのをやめてしまったみたいだが……何か悩んでいるのか？
+message,<user>,For a little while now. But more importantly，what's wrong? You<br>seemed to stop singing all of a sudden... Is something bothering you?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -151,7 +151,7 @@ asyncseplay,setag1_6,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ラモーナ,司令官さまに隠し事はできませんね。<br>実は、歌のことでちょっと……,106401000G,vc_10640100011_003_01,chara_1
+message,ラモーナ,I suppose I can't hide anything from you，Lord Commander.<br>Actually，it's about my singing...<br> ,106401000G,vc_10640100011_003_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -162,9 +162,9 @@ asyncseplay,setag1_7,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ラモーナ,かつてすぐれた吟遊詩人だった先輩の老婆から、あなたの歌には人生経験が<br>足りないと言われてしまって……,106401000G,vc_10640100011_004_01,chara_1
+message,ラモーナ,A venerable old woman who was once a great bard told me my songs<br>lack life experience...<br> ,106401000G,vc_10640100011_004_01,chara_1
 
-message,<user>,歌に人生経験がか？
+message,<user>,Life experience... for songs?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -175,7 +175,7 @@ asyncseplay,setag1_8,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ラモーナ,吟遊詩人というものは、深い人生経験があればあるほどいい歌が歌えるように<br>なるものなんです。,106401000G,vc_10640100011_005_01,chara_1
+message,ラモーナ,It's said that the more life experience a bard has，the better songs<br>they can sing.<br> ,106401000G,vc_10640100011_005_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -186,9 +186,9 @@ asyncseplay,setag1_9,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ラモーナ,ですが、私のようなその……男性も知らないおなごでは声に深みがないと……,106401000G,vc_10640100011_006_01,chara_1
+message,ラモーナ,But... for a maiden like myself who has never... known a man... my<br>voice lacks depth，she said...<br> ,106401000G,vc_10640100011_006_01,chara_1
 
-message,<user>,そんなことを言われたのか。手厳しいな。<br>まあ、ラモーナはまだ若いのだから仕方ないことだと思うが。
+message,<user>,She said that to you? That's harsh. But still，I suppose it can't be<br>helped—you're still young.<br> 
 
 window,off
 wait,0.15
@@ -215,9 +215,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ラモーナ,あの、司令官さま……,106401000G,vc_10640100011_007_01,chara_1
+message,ラモーナ,Um，Lord Commander...<br> ,106401000G,vc_10640100011_007_01,chara_1
 
-message,,ラモーナはふと、意を決したようにまっすぐにこちらを見つめてきた。<br>こちらも背筋を正してしまうような真剣な眼差しだ。
+message,,Suddenly，Ramona looked straight at me as if she had made up her<br>mind. Her gaze was so intense it made me straighten up.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -228,11 +228,11 @@ asyncseplay,setag1_12,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ラモーナ,あの、これは勝手なお願いなのですが……<br>私の歌に足りない経験を、与えてくださいませんか？,106401000G,vc_10640100011_008_01,chara_1
+message,ラモーナ,Um，this is a selfish request，but... would you please give me the<br>experience my songs lack?<br> ,106401000G,vc_10640100011_008_01,chara_1
 
-message,,その申し出はさすがに驚いた。経験とは明らかに男性経験のことだろう。<br>だがラモーナのその目は真剣だ。こちらも真剣に応えるしかない。
+message,,That request caught me off guard. ""Experience"" clearly meant<br>experience with a man. But her eyes were earnest. I had no choice but to answer her seriously.<br> 
 
-message,<user>,……分かった。そういうことならこれから部屋に来い。<br>そこでラモーナがより良い吟遊詩人になるためのレッスンをすることにしよう。
+message,<user>,... I understand. If that's the case，come to my room. We'll have a<br>lesson to help you become a better bard.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -243,7 +243,7 @@ asyncseplay,setag1_13,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ラモーナ,ありがとうございます！,106401000G,vc_10640100011_009_01,chara_1
+message,ラモーナ,Thank you very much，Commander!<br> ,106401000G,vc_10640100011_009_01,chara_1
 
 labeljump,b
 

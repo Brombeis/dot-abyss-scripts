@@ -16,9 +16,9 @@ charashow,chara_1,0.3
 
 
 window,on,0.15
-message,,すべてが終わり、客は満足そうに帰っていった。
+message,,When it was all over，the customer left looking satisfied.<br> 
 
-message,マックン[マニョリア],まさか出されたもんを全部飲んじまうなんてなぁ。<br>客のヤツ大喜びで、マニョリアは最高だ、また絶対来るって言ってたぞ。,900000003
+message,マックン[マニョリア],Can't believe you downed everything he gave you. That customer was<br>overjoyed，said Magnolia was the best and he'd definitely come again.<br> ,900000003
 
 asyncseplay,setag3_1,se4800012,0,1,CONT
 
@@ -26,20 +26,20 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
 charaface,chara_1,FaceShy
-message,マニョリア,びっくりして、ごっくん……しちゃった。,,vc_10240100023_001_01
+message,マニョリア,I was so surprised，I just... gulped it down.<br> ,,vc_10240100023_001_01
 
-message,マックン[マニョリア],まあ、びっくりしたならしょうがないか。,900000003
+message,マックン[マニョリア],Well，if you were surprised，it can't be helped.<br> ,900000003
 
 asyncseplay,setag3_2,se4800014,0,1,CONT
 
 asynccharaemo,chara_1,Silence,STOP
 
 charaface,chara_1,FaceSad
-message,マニョリア,マニョ……受精、しちゃうのかな？,,vc_10240100023_002_01
+message,マニョリア,I... could I get pregnant?<br> ,,vc_10240100023_002_01
 
-message,,マニョリアはそんなことを心配している。<br>魔法植物は思わず苦笑した。
+message,,Magnolia was worried about that. The magical plant couldn't help but<br>smile wryly.<br> 
 
-message,マックン[マニョリア],それなら心配ないぜ。<br>人間の体はそんなふうにはできていないからな。,900000003
+message,マックン[マニョリア],No need to worry about that. Human bodies aren't made that way.<br> ,900000003
 
 asyncseplay,setag3_3,se4800013,0,1,CONT
 
@@ -48,13 +48,13 @@ asynccharaemo,chara_1,Spirits,STOP
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
-message,マニョリア,そう、なんだ……じゃあ、また、飲もうかな……<br>あのお客さん、なんだか嬉しそうにしてたし……,,vc_10240100023_003_01
+message,マニョリア,I see... then maybe I'll swallow again... That customer looked so<br>happy...<br> ,,vc_10240100023_003_01
 
-message,マックン[マニョリア],おお、そいつはいいかもな！　きっとお客も喜ぶ！<br>しばらくはこの作戦でいこうぜ。,900000003
+message,マックン[マニョリア],Oh，that might be a good idea! The customer will definitely be happy!<br>Let's go with that plan for a while.<br> ,900000003
 
-message,,あの日、娼館の酒場でルディアが初めてマニョリアに出会い、<br>彼女について語った予想は的中だった。
+message,,That day，when Ludia first met Magnolia in the brothel's tavern，the<br>prediction she had made about her came true.<br> 
 
-message,,精子を飲んでくれることが話題となり、<br>マニョリアは娼館でも指折りの人気を博していくこととなる――
+message,,News of her swallowing sperm became a hot topic，and Magnolia soon<br>became one of the most popular girls in the brothel.<br> 
 
 
 window,off

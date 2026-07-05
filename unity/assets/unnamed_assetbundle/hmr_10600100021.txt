@@ -42,7 +42,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,テルー,司令官のためにやるぞーっ！<br>えい、えい、おー♪,106001000X,vc_10600100021_001_01,chara_1
+message,テルー,For the Boss，I'll give it my all!\nHey，hey，let's go!♪<br> ,106001000X,vc_10600100021_001_01,chara_1
 
 window,off
 wait,0.15
@@ -58,7 +58,7 @@ asyncseplay,setag1_2,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 window,on,0.15
-message,,『ここで頑張れば、司令官のためになる――』と聞かされたテルーは、<br>娼館で働くことを決めた。衣装に着替えて、気合いを入れている。
+message,,Telu was told that if she worked hard here，it would help the<br>Commander. So she decided to work at the brothel. She changed into her costume and psyched herself up.<br> 
 
 window,off
 wait,0.15
@@ -89,7 +89,7 @@ charashowalpha,chara_1,1,0
 transitionFade,Tra05,in,black,1
 
 window,on,0.15
-message,,そしてさっそく、客として兵士があてがわれた。<br>だが、彼の表情は暗く、重い。
+message,,And soon，a soldier was assigned as her customer. But his expression<br>was dark and heavy.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -100,9 +100,9 @@ asyncseplay,setag1_3,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,テルー,だ、大丈夫？　元気がなさそうだけど……,106001000X,vc_10600100021_002_01,chara_1
+message,テルー,A-are you okay? You seem kind of down...<br> ,106001000X,vc_10600100021_002_01,chara_1
 
-message,兵士,ちょ、ちょっと働き過ぎて、疲れてしまって――,900000001
+message,兵士,I-I've been working too much，and I'm exhausted...<br> ,900000001
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -113,9 +113,9 @@ asyncseplay,setag1_4,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,テルー,そっか……大変だったね。でも、頑張ってえらいよー♪,106001000X,vc_10600100021_003_01,chara_1
+message,テルー,I see... That must have been tough. But you've worked hard. Good<br>job!♪<br> ,106001000X,vc_10600100021_003_01,chara_1
 
-message,,兵士はテルーの微笑みに胸を打たれる。<br>感激した様子で、おずおずとおねだりしてきた。
+message,,The soldier was deeply moved by Telu's smile. Looking grateful，he<br>timidly pleaded with her.<br> 
 
 window,off
 wait,0.15
@@ -134,9 +134,9 @@ wait,0.5
 
 
 window,on,0.15
-message,テルー,ん？　してほしいことって？,106001000X,vc_10600100021_004_01,chara_1
+message,テルー,Hm? What is it you want me to do?<br> ,106001000X,vc_10600100021_004_01,chara_1
 
-message,,――ここでは言いにくい。<br>そう告げた兵士と共に、テルーは部屋へと向かうのだった。
+message,,He said it was hard to say here，so Telu went with him to the room.<br> 
 
 labeljump,b
 

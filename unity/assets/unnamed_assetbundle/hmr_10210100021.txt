@@ -26,9 +26,9 @@ bgmplay,bgmtag1_1,bgm0036,0.75,1
 
 
 window,on,0.15
-message,ルディア,まあ、お客様、そんなに疲れてるんですねぇ。,,vc_10210100021_001_01
+message,ルディア,Oh my，honored guest，you seem so tired.<br> ,,vc_10210100021_001_01
 
-message,,そんな話し声が聞こえてきて、ヒュメナは足を止めた。<br>客と話しているルディアは困った様子だ。
+message,,Hearing that，Humena stopped in her tracks. Ludia，talking to the<br>guest，looked troubled.<br> 
 
 charahide,chara_2,0
 
@@ -47,7 +47,7 @@ asynccharashow,chara_1,0.3,CONT
 charamove,chara_1,LinearTarget,X,-400,0.3
 
 charaface,chara_1,FaceSurprise
-message,ヒュメナ,ルディアさん、どうしたの？,,vc_10210100021_002_01
+message,ヒュメナ,Ludia，what's wrong?<br> ,,vc_10210100021_002_01
 
 asyncseplay,setag1_1,se4800005,0,1,CONT
 
@@ -56,7 +56,7 @@ asynccharaemo,chara_2,Flash,STOP
 charapose,chara_2,2
 
 charaface,chara_2,FaceHappy
-message,ルディア,あ、ヒュメナさん。<br>ちょうどよかった、お客様にはヒュメナさんみたいな子がいいかも。,,vc_10210100021_003_01
+message,ルディア,Oh，Humena. Perfect timing. I think a girl like you might be just<br>what this guest needs.<br> ,,vc_10210100021_003_01
 
 asyncseplay,setag1_2,se4800009,0,1,CONT
 
@@ -64,12 +64,12 @@ asynccharaemo,chara_1,Question,STOP
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
-message,ヒュメナ,私？　このお客さん、どうかしたの？,,vc_10210100021_004_01
+message,ヒュメナ,Me? What's up with this guest?<br> ,,vc_10210100021_004_01
 
 charapose,chara_2,1
 
 charaface,chara_2,FaceSad
-message,ルディア,それがね、と～っても疲れてるんですって。<br>それでとにかく癒やしを求めてるっていうの。,,vc_10210100021_005_01
+message,ルディア,You see，he says he's super tired. He's really seeking some healing.<br> ,,vc_10210100021_005_01
 
 asyncseplay,setag1_3,se4800022,0,1,CONT
 
@@ -78,7 +78,7 @@ asynccharaemo,chara_1,Speak,STOP
 asynccharareaction,chara_1,Hop,1,STOP
 
 charaface,chara_1,FaceFun
-message,ヒュメナ,なるほどね、それなら私にまかせて！<br>私がたーっぷり癒やしてあげるから！,,vc_10210100021_006_01
+message,ヒュメナ,I see. Then leave it to me! I'll soothe him plenty!<br> ,,vc_10210100021_006_01
 
 asyncseplay,setag1_4,se4800004,0,1,CONT
 
@@ -88,7 +88,7 @@ asynccharaemo,chara_2,Laugh,STOP
 asynccharareaction,chara_2,nod,1,STOP
 
 charaface,chara_2,FaceUnique03
-message,ルディア,ええ、それがいいわ。<br>じゃあお客様のことよろしくお願いしますね。,,vc_10210100021_007_01
+message,ルディア,Yes，that's good. Then I'll leave the guest in your hands.<br> ,,vc_10210100021_007_01
 
 window,off
 wait,0.15
@@ -108,7 +108,7 @@ bg,abg12500a
 transitionFade,Tra02,in,black,1
 
 window,on,0.15
-message,,ヒュメナは客と早速浴室に移動した。
+message,,Humena quickly went with the guest to the bathroom.<br> 
 
 asyncseplay,setag1_5,se4800004,0,1,CONT
 
@@ -118,9 +118,9 @@ asynccharaemo,chara_1,Laugh,STOP
 asynccharareaction,chara_1,Hop,1,STOP
 
 charaface,chara_1,FaceHappy
-message,ヒュメナ,さあ、ここで服を脱いでね！<br>たくさん気持ち良くしてあげるよっ！,,vc_10210100021_008_01
+message,ヒュメナ,Okay，undress here! I'll make you feel really good!<br> ,,vc_10210100021_008_01
 
-message,,ヒュメナは張り切って声を張り上げるが、<br>客はしょんぼりしたままだ。
+message,,Humena called out enthusiastically，but the guest remained dejected.<br> 
 
 window,off
 wait,0.15
@@ -141,7 +141,7 @@ asynccharaemo,chara_1,Silence,STOP
 charaface,chara_1,EyeClose
 charaface,chara_1,FaceNormal
 window,on,0.15
-message,ヒュメナ,（やっぱりすっごく疲れちゃってるんだ……。<br>まずは優しくして、元気にしてあげなくっちゃ）,,vc_10210100021_009_01
+message,ヒュメナ,(He really is exhausted... I've got to be gentle first and cheer him<br>up.)<br> ,,vc_10210100021_009_01
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
@@ -160,9 +160,9 @@ wait,0.1
 
 charaface,chara_1,FaceFun
 window,on,0.15
-message,ヒュメナ,大丈夫だよ……？<br>私がしっかり癒やしてあげるから。私に全部まかせてね。,,vc_10210100021_010_01
+message,ヒュメナ,It's okay... I'll take good care of you. Leave everything to me.<br> ,,vc_10210100021_010_01
 
-message,,慈愛のこもった優しい声をかけられ、客もようやく安心する。<br>そして、ヒュメナに身を任せるのだった。
+message,,Hearing her gentle，loving voice，the guest finally felt at ease. And<br>so，he entrusted himself to Humena.<br> 
 
 
 labeljump,b

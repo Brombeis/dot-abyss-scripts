@@ -17,14 +17,14 @@ seplay,setag3_1,se5050013,0,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――翌日</size>,,,on
+messageTextCenter,,—The next day.,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
 
 
 window,on,0.15
-message,,目が覚めると、すぐそばにダリアの寝顔があった。<br>どこか心地よさそうな表情が可愛くて、そのまま見続けてしまう。
+message,,When I woke up，Daria's sleeping face was right next to mine. She<br>looked so comfortable and cute that I kept staring at her.<br> 
 
 
 
@@ -37,7 +37,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 
-message,<user>,（しかし……普段はクールなダリアが、<br>あんなに情熱的になるなんてな……）
+message,<user>,But... the usually cool Daria was so passionate last night...<br> 
 
 window,off
 wait,0.15
@@ -50,7 +50,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,,すると、ぱちっとダリアが目覚めた。
+message,,Then，Daria blinked her eyes open.<br> 
 
 window,off
 wait,0.15
@@ -61,7 +61,7 @@ asynccharashow,chara_1,0.3,CONT
 charamove,chara_1,LinearTarget,CharaHeight,0,0.3
 
 window,on,0.15
-message,<user>,起きたか。おはよう。
+message,<user>,You're awake? Good morning.<br> 
 
 asyncseplay,setag3_3,se4800012,0,1,CONT
 
@@ -71,9 +71,9 @@ asynccharaemo,chara_1,Shy,CONT
 charaface,chara_1,FaceUnique01
 
 asynccharareaction,chara_1,Nod,1,STOP
-message,ダリア,……はい。おはようございます。,,vc_10320100013_001_01
+message,ダリア,...Yes. Good morning.<br> ,,vc_10320100013_001_01
 
-message,,口調が元通りになったな――そんなことを思っていると、<br>彼女が色っぽい表情で問い掛けてきた。
+message,,Her tone had returned to normal—just as I was thinking that，she<br>asked me with a seductive expression.<br> 
 
 
 
@@ -82,9 +82,9 @@ asyncseplay,setag3_4,se4800002,0,1,CONT
 asynccharaemo,chara_1,Heart,STOP
 
 charaface,chara_1,FaceShy
-message,ダリア,親方……このまま、もう１回研修したいです。,,vc_10320100013_002_01
+message,ダリア,Boss... I want to train again，like this.<br> ,,vc_10320100013_002_01
 
-message,,予想を裏切る甘い声での懇願に、思わず笑みを浮かべてしまうのだった。
+message,,Her plea，delivered in a sweet voice that defied my expectations，made<br>me smile despite myself.<br> 
 
 window,off
 bgmstop,bgmtag3_1,0.5

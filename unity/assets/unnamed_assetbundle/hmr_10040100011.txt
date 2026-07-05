@@ -20,9 +20,9 @@ bgmplay,bgmtag1_1,bgm0036,0.75,1
 
 
 window,on,0.15
-message,<user>,やれやれ……ようやく帰ってこれた。<br>けど、今日の探索は結構な収穫があったな。
+message,<user>,Man... I finally made it back. But today's expedition was pretty<br>productive.<br> 
 
-message,<user>,今日はもう他の仕事はないし、<br>少し早いが明日に備えてゆっくり休むとす――
+message,<user>,I've got no more work today. It's a bit early，but I'll take it slow<br>and rest up for tomorrow—<br> 
 
 window,off
 wait,0.15
@@ -31,9 +31,9 @@ seplay,setag1_1,se4900001,0,1
 
 shake,BACK,,20,0,0.5,3,off,off,0
 window,on,0.15
-message,,背伸びをした瞬間、ドッゴォォォン――！　という<br>盛大な破砕音と共に、司令室の扉が吹き飛んだ。
+message,,The moment I stretched，a thunderous BOOOOM! erupted，and the command<br>room door was blown clean off its hinges.<br> 
 
-message,<user>,……………………
+message,<user>,...<br> 
 
 asynccharashow,chara_1,0.3,CONT
 charamove,chara_1,LinearTarget,X,0,0.3
@@ -44,7 +44,7 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Spirits,STOP
 
 charaface,chara_1,FaceHappy
-message,シャオレイ,あ。先生。<br>やっぱりかえってきてた。,,vc_10040100011_001_01
+message,シャオレイ,Oh. Teacher. You really did come back.<br> ,,vc_10040100011_001_01
 
 asyncseplay,setag1_3,se4800022,0,1,CONT
 
@@ -52,9 +52,9 @@ asynccharaemo,chara_1,Speak,STOP
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
-message,シャオレイ,……げんき？,,vc_10040100011_002_01
+message,シャオレイ,...You good?<br> ,,vc_10040100011_002_01
 
-message,<user>,……ついさっき、心労が増えたところだ。
+message,<user>,...Yeah，my stress just shot up.<br> 
 
 asynccharareaction,chara_1,Shake,1,STOP
 
@@ -63,9 +63,9 @@ asyncseplay,setag1_4,se4800008,0,1,CONT
 asynccharaemo,chara_1,Sweat,STOP
 
 charaface,chara_1,FaceSad
-message,シャオレイ,とびら、ごめんなさい。<br>先生にあえるかもって思って、ウキウキして。,,vc_10040100011_003_01
+message,シャオレイ,Xiaolei is sorry about the door. Xiaolei was so excited thinking<br>she'd see Teacher.<br> ,,vc_10040100011_003_01
 
-message,<user>,力の制御を失敗した、か……
+message,<user>,So you lost control of your power...?<br> 
 
 
 asynccharareaction,chara_1,Nod,1,STOP
@@ -74,9 +74,9 @@ asyncseplay,setag1_5,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,STOP
 
-message,シャオレイ,うん……。<br>ごめんなさい……,,vc_10040100011_004_01
+message,シャオレイ,mm-hmm... Xiaolei is sorry...<br> ,,vc_10040100011_004_01
 
-message,<user>,ああ、いい、いい。そんな落ち込んだ顔をするな。<br>扉は修理すれば直るんだ。……修理代はかかるけどな。
+message,<user>,Ah，it's okay，it's okay. Don't make that sad face. The door can be<br>repaired. ...Though the repair bill won't be cheap.<br> 
 
 
 asyncseplay,setag1_6,se4800022,0,1,CONT
@@ -85,9 +85,9 @@ asynccharaemo,chara_1,Speak,STOP
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
-message,シャオレイ,……べんしょー、する。,,vc_10040100011_005_01
+message,シャオレイ,Xiaolei will compensate.<br> ,,vc_10040100011_005_01
 
-message,<user>,弁償？　って言っても、おまえ金はあるのか？<br>故郷に仕送りしてるんだろ？
+message,<user>,Compensation? But do you even have money? You're sending money to<br>your hometown，right?<br> 
 
 asynccharareaction,chara_1,Nod,1,STOP
 
@@ -98,9 +98,9 @@ asynccharaemo,chara_1,Trouble,STOP
 charaface,chara_1,FaceSad
 
 asynccharaface,chara_1,FaceSurprise,STOP,8
-message,シャオレイ,うん。あんまりお金、ない。<br>だから、あそこではたらく。しょー……かん？,,vc_10040100011_006_01
+message,シャオレイ,mm-hmm. Xiaolei doesn't have much money. So Xiaolei will work there.<br>Sum...mon?<br> ,,vc_10040100011_006_01
 
-message,<user>,……なんだって？
+message,<user>,...What did you say?<br> 
 
 
 asyncseplay,setag1_8,se4800003,0,1,CONT
@@ -108,9 +108,9 @@ asyncseplay,setag1_8,se4800003,0,1,CONT
 asynccharaemo,chara_1,Twinkle,STOP
 
 charaface,chara_1,FaceFun
-message,シャオレイ,ルディアに聞いた。お金もらえるって。<br>それに、先生の役にもたてるって。シャオレイ、しょーかんではたらきたい。,,vc_10040100011_007_01
+message,シャオレイ,Xiaolei heard from Ludia. Xiaolei can get money. And Xiaolei can<br>help Teacher. Xiaolei wants to work at summoning.<br> ,,vc_10040100011_007_01
 
-message,<user>,……そうか。<br>おまえがそこまで言ってくれるなら、止めるのも野暮だな。
+message,<user>,...I see. If you feel that strongly about it，I suppose it'd be wrong<br>of me to stop you.<br> 
 
 
 window,off
@@ -131,9 +131,9 @@ asynccharaemo,chara_1,Question,STOP
 
 charaface,chara_1,FaceSad
 window,on,0.15
-message,シャオレイ,でも、何をしたらいいのか分からない。<br>先生……おしえて？,,vc_10040100011_008_01
+message,シャオレイ,But Xiaolei doesn't know what to do. Teacher... will you teach<br>Xiaolei?<br> ,,vc_10040100011_008_01
 
-message,<user>,ああ……わかった。安心しろ。<br>俺がぜんぶ教えてやる。
+message,<user>,Yeah... got it. Don't worry. I'll teach you everything.<br> 
 
 
 asyncseplay,setag1_10,se4800002,0,1,CONT
@@ -141,7 +141,7 @@ asyncseplay,setag1_10,se4800002,0,1,CONT
 asynccharaemo,chara_1,Heart,STOP
 
 charaface,chara_1,FaceHappy
-message,シャオレイ,ふふっ。それでこそ、わたしの先生。,,vc_10040100011_009_01
+message,シャオレイ,Fufu. That's Xiaolei's Teacher.<br> ,,vc_10040100011_009_01
 
 
 labeljump,b

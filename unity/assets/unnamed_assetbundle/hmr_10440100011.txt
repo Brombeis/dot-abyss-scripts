@@ -23,7 +23,7 @@ bgmplay,bgmtag1_1,bgm0024,0.75,1
 
 
 window,on,0.15
-message,,――昼。<br>司令室で仕事をしているとヤチヨが訪ねてきた。
+message,,In the afternoon，as I was working in the command room，Yachiyo came<br>to visit.<br> 
 
 window,off
 wait,0.15
@@ -49,9 +49,9 @@ asyncseplay,setag1_3,se4800007,0,1,CONT
 asynccharaemo,chara_1,Panic,STOP
 
 window,on,0.15
-message,ヤチヨ,と、突然すみませんっ。<br>司令官さまに、どうしてもご相談したいことがあって――,,vc_10440100011_001_01
+message,ヤチヨ,I'm sorry for the sudden interruption，Lord Commander. There's<br>something I absolutely must discuss with you...<br> ,,vc_10440100011_001_01
 
-message,<user>,そうかしこまらなくていいぞ？　ヤチヨにはいつも助けてもらっているからな。<br>俺にできることなら、なんでも言ってくれ。
+message,<user>,You don't have to be so formal. You always help me out. If there's<br>anything I can do，just tell me.<br> 
 
 asynccharaface,chara_1,FaceHappy,STOP
 
@@ -63,16 +63,16 @@ asynccharaemo,chara_1,Panic,STOP,3
 
 asynccharaface,chara_1,FaceShy,STOP,3
 
-message,ヤチヨ,あ、ありがとうございます！<br>あのぅ、そのぅ……,,vc_10440100011_002_01
+message,ヤチヨ,Ah，thank you! Um，well...<br> ,,vc_10440100011_002_01
 
-message,,暫しヤチヨは恥ずかしそうにしていたが<br>覚悟を決めた様子で事情を話し始めた……
+message,,For a moment，Yachiyo looked embarrassed，but then she seemed to steel<br>herself and began to explain the situation...<br> 
 
 asyncseplay,setag1_5,se4800008,0,1,CONT
 
 asynccharaemo,chara_1,Sweat,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
-message,ヤチヨ,私、素敵な大人の女性になりたいと思って<br>ルディアさんに助言を求めたんです……,,vc_10440100011_003_01
+message,ヤチヨ,I want to become a wonderful，mature woman，so I asked Ludia for<br>advice...<br> ,,vc_10440100011_003_01
 
 asyncseplay,setag1_6,se4800003,0,1,CONT
 
@@ -81,7 +81,7 @@ asynccharaemo,chara_1,Twinkle,CONT
 asynccharaface,chara_1,FaceFun,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
-message,ヤチヨ,そっ、そうしたら、自分をドキドキさせてくれる男性と<br>一緒にいることが重要だと教えてくださいまして！,,vc_10440100011_004_01
+message,ヤチヨ,Th-then she taught me that it's important to spend time with a man<br>who makes my heart race!<br> ,,vc_10440100011_004_01
 
 asynccharareaction,chara_1,Nod,1,STOP
 
@@ -92,7 +92,7 @@ asynccharaemo,chara_1,Shy,CONT
 
 
 asynccharaface,chara_1,FaceUnique01,STOP
-message,ヤチヨ,それを言われた瞬間、<br>頭に浮かんだのが司令官さまだったんです――,,vc_10440100011_005_01
+message,ヤチヨ,The moment she said that，the person who came to mind was you，Lord<br>Commander...<br> ,,vc_10440100011_005_01
 
 asyncseplay,setag1_8,se4800018,0,1,CONT
 
@@ -100,9 +100,9 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Flower,STOP
 
 asynccharaface,chara_1,FaceShy,STOP
-message,ヤチヨ,意識してしまってからは、会いたい、甘えたい気持ちが<br>止まらなくなってしまって……そ、それで、ここへ――,,vc_10440100011_006_01
+message,ヤチヨ,After I became aware of it，my feelings of wanting to see you and be<br>close to you wouldn't stop... S-so I came here...<br> ,,vc_10440100011_006_01
 
-message,<user>,そうだったのか。<br>……それは、俺のことが好きだということ……だよな？
+message,<user>,I see. ...So that means you like me... right?<br> 
 
 asynccharareaction,chara_1,Nod,1,STOP
 
@@ -112,7 +112,7 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Spirits,STOP
 
 asynccharaface,chara_1,FaceFun,STOP
-message,ヤチヨ,は、はいっ！<br>私は――ヤチヨは、司令官さまをお慕いしています……,,vc_10440100011_007_01
+message,ヤチヨ,I—Yachiyo—adore you，Lord Commander...<br> ,,vc_10440100011_007_01
 
 window,off
 wait,0.15
@@ -136,7 +136,7 @@ asyncseplay,setag1_10,se4400119,0,1,CONT
 
 asynccharaface,chara_1,FaceSurprise,STOP
 window,on,0.15
-message,,潤んだ瞳に胸を打たれ、彼女の震える身体をそっと抱きしめる。<br>そして一言、嬉しいと告げた。
+message,,Moved by her teary eyes，I gently hugged her trembling body. Then I<br>told her，""I'm happy.""<br> 
 
 asynccharareaction,chara_1,Shake,1,STOP
 
@@ -146,9 +146,9 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
 asynccharaface,chara_1,FaceShy,STOP
-message,ヤチヨ,……あ、あうあう。ど、どうしましょう。<br>すごく、ドキドキしてしまいます……,,vc_10440100011_008_01
+message,ヤチヨ,...Ah，um，ah... W-what should I do? My heart's pounding so much...<br> ,,vc_10440100011_008_01
 
-message,,腕の中の彼女から、激しい鼓動が伝わってくる。<br>意を決して、もっとドキドキすることをしないか？　と耳打ちした。
+message,,I could feel her fierce heartbeat from within my arms. Making up my<br>mind，I whispered，""How about we do something that'll make your heart race even more?""<br> 
 
 window,off
 wait,0.15
@@ -167,7 +167,7 @@ asyncseplay,setag1_12,se4800002,0,1,CONT
 asynccharaemo,chara_1,Heart,STOP
 
 window,on,0.15
-message,,意図を察したヤチヨはハッとした様子で固まった。<br>だがそれも一瞬で、すぐにコクリと頷くのだった……
+message,,Realizing what I meant，Yachiyo stiffened in surprise. But only for a<br>moment; soon she nodded quietly...<br> 
 
 window,off
 bgmstop,bgmtag1_1,1
@@ -182,11 +182,11 @@ wait,1
 fade,In,Black,1
 
 window,on,0.15
-message,,司令室に衣擦れの音が響いている。<br>緊張で震えている彼女に心配の声をかけた。
+message,,The rustle of clothes echoed in the command room. I called out to<br>her with concern as she trembled with tension.<br> 
 
-message,ヤチヨ,だ、大丈夫です。<br>覚悟はしてきましたから！,,vc_10440100011_009_01
+message,ヤチヨ,I-I'm fine. I came prepared!<br> ,,vc_10440100011_009_01
 
-message,ヤチヨ,このまま、脱がせてください……<br>んっ……,,vc_10440100011_010_01
+message,ヤチヨ,Please，go ahead and undress me... Mmph...<br> ,,vc_10440100011_010_01
 
 
 blur,off,BACK,0

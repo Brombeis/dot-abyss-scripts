@@ -36,11 +36,11 @@ asynccharaface,chara_1,FaceUnique02,STOP
 
 asynccharareaction,chara_1,Nod,1,STOP
 window,on,0.15
-message,ミルティーユ,――うん、焼けましたね～。<br>匂いも見た目も、ちゃんと美味しそう。,,vc_10290100031_001_01
+message,ミルティーユ,mmm-hmm，they turned out great! They look and smell so tasty!<br> ,,vc_10290100031_001_01
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,ミルティーユ,バザーの最中で誰も来なかったから、<br>誰にも知られずにできたけど～……,,vc_10290100031_002_01
+message,ミルティーユ,Since no one came to the bazaar，Mil could make them without anyone<br>knowing，but...<br> ,,vc_10290100031_002_01
 
 window,off
 wait,0.15
@@ -60,10 +60,10 @@ asynccharaemo,chara_1,Silence,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
 window,on,0.15
-message,ミルティーユ,（本当にいいのかな～。<br>こんな薬の入ったクッキーを焼いちゃって……）,,vc_10290100031_003_01
+message,ミルティーユ,(Mil wonders if this is really okay... Baking cookies with this kind<br>of medicine in them...)<br> ,,vc_10290100031_003_01
 
 asynccharaface,chara_1,FaceShy,STOP
-message,ミルティーユ,（フレデリカさんが忘れていったお薬、<br>相手をえっちな気持ちにする、媚薬なんだって言ってたけど～）,,vc_10290100031_004_01
+message,ミルティーユ,(Frederica said the medicine she left behind is an aphrodisiac that<br>makes other people feel naughty，but...)<br> ,,vc_10290100031_004_01
 
 window,off
 wait,0.15
@@ -76,9 +76,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,ミルティーユ,……これをしれーかんさまに食べてもらったら、<br>きっとミルのことを……,,vc_10290100031_005_01
+message,ミルティーユ,If Mil lets Commander eat these，then surely he'll think of Mil...<br> ,,vc_10290100031_005_01
 
-message,<user>,俺がどうしたって？
+message,<user>,What about me?<br> 
 
 asyncseplay,setag1_3,se4800017,0,1,CONT
 
@@ -88,11 +88,11 @@ asynccharaemo,chara_1,Shock,STOP
 asynccharaface,chara_1,FaceSurprise,STOP
 
 asynccharareaction,chara_1,Jump,1,STOP
-message,ミルティーユ,――はわわわわっ！<br>しれーかんさま、どうしてここに～っ！？,,vc_10290100031_006_01
+message,ミルティーユ,Hawawa! Commander，why are you here?<br> ,,vc_10290100031_006_01
 
-message,<user>,バザーにミルティーユがいないから様子を見に来たんだよ。<br>そしたらいい匂いがするもんだから、ここだろうと思ってな。
+message,<user>,You weren't at the bazaar，so I came to check on you. Then I smelled<br>something good，so I figured you'd be here.<br> 
 
-message,<user>,お、クッキーが焼き立てじゃないか！<br>ちょっともらっていいか？　歩き回って腹が減ってるんだ。
+message,<user>,Oh，aren't those cookies fresh out of the oven! Can I have one? I've<br>been walking around，and I'm hungry.<br> 
 
 asyncseplay,setag1_4,se4800007,0,1,CONT
 
@@ -101,9 +101,9 @@ asynccharaemo,chara_1,Panic,STOP
 asynccharaface,chara_1,FaceShy,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
-message,ミルティーユ,えぇっ……！？　しれーかんさまには食べてほしいんですけど……、<br>えっと、そのぅ……まだ心の準備ができてないというか～……,,vc_10290100031_007_01
+message,ミルティーユ,Ehh...! Mil wants you to eat them，Commander... but，um，well... Mil is<br>not ready yet...<br> ,,vc_10290100031_007_01
 
-message,<user>,今まで散々ミルティーユのお菓子を食べてきたのに、<br>心の準備なんていらないって。
+message,<user>,I've been eating your sweets all this time; I don't need to be<br>mentally prepared for that.<br> 
 
 asyncseplay,setag1_5,se4800010,0,1,CONT
 
@@ -111,15 +111,15 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Exclamation,STOP
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,ミルティーユ,あっ――,,vc_10290100031_008_01
+message,ミルティーユ,Ah—<br> ,,vc_10290100031_008_01
 
-message,,<user>はひょいっとクッキーを手に取り、口に運んだ。<br>焼き立てのクッキーをサクサクと頬張る。
+message,,The Commander casually took a cookie and brought it to his<br>mouth.\nHe crunched on the freshly baked cookie.<br> 
 
-message,<user>,うん、うまい！　さすがミルティーユだな！<br>こんなにあるんだから、お前も１枚ぐらい食べておけよ。
+message,<user>,Yeah，delicious! As expected of Myrtille!\nThere's plenty here，so you<br>have one too.<br> 
 
-message,ミルティーユ,え……ふぁふぇっ！？,,vc_10290100031_009_01
+message,ミルティーユ,Mmf!?<br> ,,vc_10290100031_009_01
 
-message,,呆然としていたミルティーユの口にクッキーが放り込まれる。<br>吐き出すわけにもいかず、彼女は恐る恐る飲み込んだ。
+message,,A cookie was shoved into the stunned Myrtille's mouth.\nUnable to<br>spit it out，she nervously swallowed.<br> 
 
 window,off
 wait,0.15
@@ -137,7 +137,7 @@ asynccharaemo,chara_1,Panic,STOP
 
 asynccharaface,chara_1,FaceShy,STOP
 window,on,0.15
-message,ミルティーユ,（ど、どうしよう、お薬の入ったクッキー、食べちゃった～！<br>しれーかんさまも……わああっ、何枚も食べてる～！）,,vc_10290100031_010_01
+message,ミルティーユ,(W-what does Mil do? Mil ate the cookie with the medicine! And<br>Commander... waaah，he's eating so many!)<br> ,,vc_10290100031_010_01
 
 window,off
 wait,0.15
@@ -150,7 +150,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,うん、やっぱりクッキーは焼き立てが一番……ん……
+message,<user>,Yeah，cookies are definitely best fresh out of the oven... mm...<br> 
 
 window,off
 wait,0.15
@@ -162,12 +162,12 @@ asyncseplay,setag1_7,se4400023,0,1,CONT
 fade,In,White,0.25
 
 window,on,0.15
-message,,数枚のクッキーを食べたあと、<user>は<br>ミルティーユへと、瞳孔の開いた目を向ける――
+message,,After eating several cookies，the Commander turned toward<br>Myrtille，his pupils dilated—<br> 
 
-message,<user>,ミルティーユ……お前、今日は一段と可愛いな……
+message,<user>,Myrtille... you're especially cute today...<br> 
 
 asynccharaface,chara_1,FaceShy,STOP
-message,ミルティーユ,えっ、あっ、しれーかんさまっ！？<br>わわわわ～っ！,,vc_10290100031_011_01
+message,ミルティーユ,Eh，ah，Commander! Waaah!<br> ,,vc_10290100031_011_01
 
 window,off
 bgmstop,bgmtag1_1,1
@@ -182,9 +182,9 @@ wait,1
 fade,In,Black,1
 
 window,on,0.15
-message,<user>,いいよな、ミルティーユ。
+message,<user>,It's okay，right，Myrtille?<br> 
 
-message,ミルティーユ,で、でもぉ……ま、まって、しれーかんさまぁ……,,vc_10290100031_012_01
+message,ミルティーユ,Buuut... w-wait，Commander...<br> ,,vc_10290100031_012_01
 
 
 labeljump,b

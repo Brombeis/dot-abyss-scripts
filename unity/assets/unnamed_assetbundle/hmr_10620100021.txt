@@ -52,7 +52,7 @@ wait,1
 wait,0.5
 
 window,on,0.15
-message,,Days had passed since %user%'s curse was lifted. Hinagi had begun<br>working at the brothel，treating ailing men with her secret arts.<br> 
+message,,Several days had passed since the Commander's curse was removed.<br>Hinagi was now working at the brothel，performing her Secret Art on men who were unwell.<br> 
 
 window,off
 wait,0.15
@@ -106,7 +106,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,ルディア,You're quite popular，Hinagi-san.<br>But what made you want to work here?<br> ,300301000,vc_10620100021_001_01,chara_2
+message,ルディア,Hinagi，you're really popular. But what made you want to work here?<br> ,300301000,vc_10620100021_001_01,chara_2
 
 window,off
 wait,0.15
@@ -125,7 +125,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒナギ,At first I was embarrassed and a bit reluctant，<br>but being able to help others makes me happy.<br> ,106201000X,vc_10620100021_002_01,chara_1
+message,ヒナギ,At first I was embarrassed and a little reluctant，but... being able<br>to help someone brings me joy after all.<br> ,106201000X,vc_10620100021_002_01,chara_1
 
 asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
 
@@ -134,7 +134,7 @@ asyncseplay,setag1_3,se4800003,0,1,CONT,0
 asynccharaemo,chara_2,Twinkle,CONT,0
 
 
-message,ルディア,You really are a good girl.<br> ,300301000,vc_10620100021_003_01,chara_2
+message,ルディア,You're such a good girl.<br> ,300301000,vc_10620100021_003_01,chara_2
 
 window,off
 wait,0.15
@@ -174,15 +174,15 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,But Hinagi's reason for working at the brothel was<br>not as simple as wanting to help.<br> 
+message,,However，the reason Hinagi started working at the brothel was not as<br>simple as ""wanting to help someone.""<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
-message,,She was hunting the culprit who broke her barrier，<br>stole her spellbook，and targeted %user%.<br> 
+message,,She was investigating the culprit who had broken the barrier in her<br>room，stolen the curse magic books，and targeted the Commander.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
-message,,To find traces of the distinct evil qi carried by those tainted with<br>dark sorcery，she infiltrated this place where desires converge.<br> 
+message,,To find clues about the unique ""malign energy"" carried by those<br>tainted with curse magic，she infiltrated this shop—a place at the Frontline Base where countless desires converge and swirl.<br> 
 
 window,off
 wait,0.15
@@ -208,7 +208,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒナギ,(Even without directly touching the culprit's qi，if I can find<br>someone who has had even slight contact，it could be a lead...)<br> ,106201000X,vc_10620100021_004_01,chara_1
+message,ヒナギ,(Even if I do not directly touch the culprit's malign energy，if I<br>can find someone who has had even the slightest contact with them，that will surely be a clue...)<br> ,106201000X,vc_10620100021_004_01,chara_1
 
 window,off
 wait,0.15
@@ -267,7 +267,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,ルディア,...Oh my?<br>A customer. Welcome~♪<br> ,300301000,vc_10620100021_005_01,chara_2
+message,ルディア,Oh? A customer. Welcome!<br> ,300301000,vc_10620100021_005_01,chara_2
 
 
 window,off
@@ -314,7 +314,7 @@ wait,0.5
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
 window,on,0.15
-message,,The customer requested Hinagi. Once in a private room，<br>the man began: 'I haven't been feeling well lately...'<br> 
+message,,The customer had requested Hinagi. Once he moved to a private<br>room，the man began to tell her，""I haven't been feeling well lately...""<br> 
 
 
 window,off
@@ -334,7 +334,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒナギ,You heard about the secret arts and came here...<br>Thank you for visiting.<br> ,106201000X,vc_10620100021_006_01,chara_1
+message,ヒナギ,So you came to us because you heard rumors of my Secret Art... Thank<br>you very much.<br> ,106201000X,vc_10620100021_006_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -345,7 +345,7 @@ asyncseplay,setag1_7,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヒナギ,There are yin and yang qi flows within the body.<br>Their balance may have been disrupted...<br> ,106201000X,vc_10620100021_007_01,chara_1
+message,ヒナギ,There is a flow of yin and yang ki inside the body. Perhaps the<br>balance between them is disturbed...<br> ,106201000X,vc_10620100021_007_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -356,9 +356,9 @@ asyncseplay,setag1_8,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ヒナギ,Simply restoring that balance can purify the qi.<br>Please sit over there and relax.<br> ,106201000X,vc_10620100021_008_01,chara_1
+message,ヒナギ,We can purify your ki simply by restoring the disrupted balance.<br>Could you please sit over there and relax your shoulders?<br> ,106201000X,vc_10620100021_008_01,chara_1
 
-message,,The man nodded and sat on the bed.<br>Hinagi undressed and prepared for the treatment.<br> 
+message,,The man nodded and sat on the bed. Hinagi took off her clothes and<br>began preparing for the treatment.<br> 
 
 window,off
 wait,0.15
@@ -392,7 +392,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,Sensing evil qi required only physical contact.<br>But to read its precise nature，there was only one way.<br> 
+message,,To sense the malign energy within a person，simply touching their<br>body sufficed. However，there was only one way to perceive the specific type of ki in detail.<br> 
 
 window,off
 wait,0.15
@@ -406,7 +406,7 @@ asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 wait,0.5
 
 window,on,0.15
-message,,Through the body's most sensitive point——<br>direct intimate contact...<br> 
+message,,That was nothing other than the most sensitive part of a person—in<br>other words，direct contact between genitals...<br> 
 
 labeljump,b
 

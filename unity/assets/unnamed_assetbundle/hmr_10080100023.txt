@@ -19,17 +19,17 @@ bgmplay,bgmtag3_1,bgm0035,1
 
 
 window,on,0.15
-message,,The young mercenary ran back to his companions，<br>who had been waiting for his return.<br> 
+message,,The young mercenary ran over to the mercenaries who had been waiting<br>for him.<br> 
 
-message,傭兵Ａ,I'm back...!<br> ,900000001
+message,傭兵Ａ,I'm back!<br> ,900000001
 
 message,傭兵Ｂ,Hey，how'd it go?<br> ,900000001
 
-message,傭兵Ａ,It was——! The best!<br> ,900000001
+message,傭兵Ａ,Yes! It was amazing!<br> ,900000001
 
-message,傭兵Ｂ,...! Good for you!<br>Alright，this calls for a toast!<br> ,900000001
+message,傭兵Ｂ,...! That's great，isn't it! Alright，this calls for a celebration<br>drink!<br> ,900000001
 
-message,,The mercenaries celebrated the young man's coming of age with great<br>cheer. Stepping away from the group，one of them approached.<br> 
+message,,The mercenaries celebrated the young man who became a man，and they<br>got very excited. Leaving the circle，one mercenary approached.<br> 
 
 window,off
 wait,0.15
@@ -48,11 +48,11 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,傭兵Ｂ,...Thank you，Commander.<br>For making a man out of him.<br> ,900000001
+message,傭兵Ｂ,Thank you，Commander，for making a man out of him.<br> ,900000001
 
-message,<user>,Fighting to survive so they can spend another night here —<br>that's exactly the kind of tough soldier the front line needs.<br> 
+message,<user>,They muster their strength to survive and spend another night here.<br>That's the kind of tough soldier we need on the front lines.<br> 
 
-message,傭兵Ｂ,Sheesh，can't win against a Commander who works us this hard.<br>We'll keep serving under you.<br> ,900000001
+message,傭兵Ｂ,Ah，can't beat a hard-driving Commander. I'll keep working for you.<br> ,900000001
 
 window,off
 wait,0.15
@@ -60,7 +60,7 @@ wait,0.15
 charafocusonall
 
 window,on,0.15
-message,,The veteran mercenary walked away with a wry smile.<br>Taking his place，Veera appeared.<br> 
+message,,The veteran mercenary gave a wry smile and walked away. As if taking<br>his place，Veera appeared.<br> 
 
 window,off
 wait,0.15
@@ -115,9 +115,9 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,...Commander-sama.<br>You were waiting for me.<br> ,100801000X,vc_10080100023_001_01,chara_1
+message,ヴィーラ,Lord Commander... You waited for me.<br> ,100801000X,vc_10080100023_001_01,chara_1
 
-message,<user>,I was the one who asked，after all.<br>So，how did it go?<br> 
+message,<user>,I'm the one who asked you，after all. So，how was it?<br> 
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -129,9 +129,9 @@ asyncseplay,setag3_3,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヴィーラ,I think I managed，somehow...<br>But Verisa-onee-chan would have done a better job，I'm sure...<br> ,100801000X,vc_10080100023_002_01,chara_1
+message,ヴィーラ,I think I managed，but... I can't help thinking that，as expected，Sis<br>Verisa did better...<br> ,100801000X,vc_10080100023_002_01,chara_1
 
-message,<user>,He seemed more than satisfied，though...<br>You really do set the bar high for yourself.<br> 
+message,<user>,She seemed more than satisfied... You're quite ambitious，Veera.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -143,7 +143,7 @@ asyncseplay,setag3_4,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヴィーラ,Compared to Onee-chan，I still have a long way to go.<br> ,100801000X,vc_10080100023_003_01,chara_1
+message,ヴィーラ,Because compared to Sis，I still have so much to learn.<br> ,100801000X,vc_10080100023_003_01,chara_1
 
 window,off
 wait,0.15
@@ -181,9 +181,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ヴィーラ,So... would it be all right<br>if Commander-sama taught me again... so I can improve...?<br> ,100801000X,vc_10080100023_004_01,chara_1
+message,ヴィーラ,So... to get better，could I have you teach me again，Lord<br>Commander...?<br> ,100801000X,vc_10080100023_004_01,chara_1
 
-message,,Though they had just finished an act exhausting enough to leave her<br>drained， Veera's eyes were filled with a bewitching desire——<br> 
+message,,Even though the act that had utterly exhausted her had just<br>ended，Veera's eyes were filled with lascivious desire.<br> 
 
 window,off
 bgmstop,bgmtag3_1,0.5

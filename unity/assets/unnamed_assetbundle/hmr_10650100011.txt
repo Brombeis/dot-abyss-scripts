@@ -42,7 +42,7 @@ asynccharaemo,chara_1,Anger,CONT,0
 
 
 window,on,0.15
-message,ソフィア,――あなたねえ！　なんなの、この計画は！<br>装備も物資も、ほとんど本人任せじゃない！,106501000G,vc_10650100011_001_01,chara_1
+message,ソフィア,—You! What is this plan? You're leaving the equipment and supplies<br>almost entirely to them!<br> ,106501000G,vc_10650100011_001_01,chara_1
 
 window,off
 wait,0.15
@@ -52,7 +52,7 @@ charafocusonall
 linework,off,Black,Middle
 
 window,on,0.15
-message,<user>,次の作戦は少数精鋭部隊による調査だ。<br>大掛かりな準備よりも本人たちの希望が最優先なんだよ。
+message,<user>,The next operation is a recon mission by the Elite Squad. Their own<br>wishes take priority over large-scale preparations.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -63,7 +63,7 @@ asyncseplay,setag1_2,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ソフィア,またそうやって、危険なことを……！<br>だいたい少数精鋭による作戦なんてやるべきじゃないわ！,106501000G,vc_10650100011_002_01,chara_1
+message,ソフィア,There you go again with your dangerous ideas! In the first place，you<br>shouldn't be conducting operations with just the Elite Squad!<br> ,106501000G,vc_10650100011_002_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -74,11 +74,11 @@ asyncseplay,setag1_3,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ソフィア,勝敗を決めるのは兵の数よ！<br>潤沢な兵、充分な物資による安定した軍事作戦、それが常道でしょう！,106501000G,vc_10650100011_003_01,chara_1
+message,ソフィア,Victory is determined by numbers! A stable military operation with<br>ample troops and sufficient supplies—that's the standard approach!<br> ,106501000G,vc_10650100011_003_01,chara_1
 
-message,<user>,大穴なんていう常識の通じない場所で、教科書通りの作戦に意味があるのか？<br>司令官の仕事は余計な犠牲を増やすことじゃない！
+message,<user>,Does a textbook operation even mean anything in a place like the<br>abyss where common sense doesn't apply? A commander's job isn't to increase needless casualties!<br> 
 
-message,,そうして２人の熱い作戦会議は、半日以上も続き――
+message,,And so，their heated strategy session continued for more than half a<br>day—<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -113,9 +113,9 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,ソフィア,――じゃあ結論として。精鋭部隊を主力に、<br>後方へサポートの部隊を派遣する……ということでいいわね？,106501000G,vc_10650100011_004_01,chara_1
+message,ソフィア,—So，to conclude: we make the Elite Squad the main force and dispatch<br>a support unit to the rear... That's acceptable，right?<br> ,106501000G,vc_10650100011_004_01,chara_1
 
-message,<user>,分かったよ、それでいい。<br>ったく、動かす兵士が増えると準備が厄介だってのに……
+message,<user>,Alright，that works. Jeez，more troops to move means more hassle with<br>preparations...<br> 
 
 window,off
 wait,0.15
@@ -134,11 +134,11 @@ wait,0.5
 
 
 window,on,0.15
-message,ソフィア,でも納得したってことは、<br>私の意見に理があると認めたってことでしょう？,106501000G,vc_10650100011_005_01,chara_1
+message,ソフィア,But agreeing to it means you admit my argument has merit，doesn't it?<br> ,106501000G,vc_10650100011_005_01,chara_1
 
-message,<user>,まーな。いくら精鋭部隊でも大穴の調査には不安があるだろう。<br>後詰がいるかいないかで精神的な安定感が変わってくるからな。
+message,<user>,Yeah，well. Even the Elite Squad would be uneasy exploring the abyss.<br>Having a rear guard makes a difference for morale.<br> 
 
-message,<user>,こりゃ計画の練り直しだな。<br>しばらくは徹夜か……
+message,<user>,Looks like we're reworking the plan. All-nighter，huh...<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -149,9 +149,9 @@ asyncseplay,setag1_6,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ソフィア,……悪かったわね。<br>でも、事前の準備で手を抜くと、いざって時に痛い目みるんだから……,106501000G,vc_10650100011_006_01,chara_1
+message,ソフィア,...Sorry. But if you cut corners in preparation，you'll pay for it<br>when it counts...<br> ,106501000G,vc_10650100011_006_01,chara_1
 
-message,<user>,さすがは騎士学校の優等生。<br>真面目だな、本当に。
+message,<user>,As expected of the top student at the Knight Academy. You're really<br>diligent.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -162,11 +162,11 @@ asyncseplay,setag1_7,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ソフィア,……真面目、ね。学校では嬉しかったけれど、<br>最前線では褒め言葉じゃないってことぐらい、私も分かってるわ。,106501000G,vc_10650100011_007_01,chara_1
+message,ソフィア,...""Diligent，"" huh. It made me happy at school，but I'm well aware<br>that on the front lines，it's not exactly a compliment.<br> ,106501000G,vc_10650100011_007_01,chara_1
 
-message,<user>,気にしすぎだ。<br>俺はソフィアの真面目なところに助けられてるよ。
+message,<user>,You're overthinking it. Your diligence really helps me out.<br> 
 
-message,,少し落ち込んだソフィアの頭を撫でながら慰める。<br>すると彼女は頬を赤らめながら、小声で呟いた。
+message,,He patted the slightly dejected Sophia on the head to comfort her.<br>Then，her cheeks flushing，she whispered softly.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -177,9 +177,9 @@ asyncseplay,setag1_8,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ソフィア,<size=30>……私もよ。</>,106501000G,vc_10650100011_008_01,chara_1
+message,ソフィア,...Me too.<br> ,106501000G,vc_10650100011_008_01,chara_1
 
-message,<user>,――ん？　何か言ったか？
+message,<user>,—Huh? Did you say something?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -190,9 +190,9 @@ asyncseplay,setag1_9,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,ソフィア,……いつもだらしなくて、作戦も自由奔放行き当たりばったり――　<br>本当にどうしようもない人ね、と言ったの！,106501000G,vc_10650100011_009_01,chara_1
+message,ソフィア,...I said you're always a mess，your strategies are all over the<br>place—you're really a hopeless case!<br> ,106501000G,vc_10650100011_009_01,chara_1
 
-message,<user>,あのなぁ……
+message,<user>,Hey now...<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -203,7 +203,7 @@ asyncseplay,setag1_10,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ソフィア,……でも私は、そんな司令官に助けられているわ。,106501000G,vc_10650100011_010_01,chara_1
+message,ソフィア,...And yet，it's you，Commander，who helps me.<br> ,106501000G,vc_10650100011_010_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -214,9 +214,9 @@ asyncseplay,setag1_11,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ソフィア,私に足りない部分を、あなたが埋めてくれる。<br>いつだって私を成長させてくれる。そんなあなたが……,106501000G,vc_10650100011_011_01,chara_1
+message,ソフィア,You fill in what I'm missing. You always help me grow. You，who do<br>that...<br> ,106501000G,vc_10650100011_011_01,chara_1
 
-message,,ソフィアは顔を真っ赤に染め、<br>精一杯の勇気で、今までの想いを言葉に紡いだ。
+message,,Sophia's face turned bright red，and with all the courage she could<br>muster，she wove her long-held feelings into words.<br> 
 
 window,off
 wait,0.15
@@ -235,9 +235,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ソフィア,そ、その……好きよ。,106501000G,vc_10650100011_012_01,chara_1
+message,ソフィア,I，um... I love you.<br> ,106501000G,vc_10650100011_012_01,chara_1
 
-message,,ソフィアの思いがけない一言に、部屋の時が止まる。<br>張り詰めたような静寂が２人を包み込む。
+message,,At Sophia's unexpected words，time stood still in the room. A tense<br>silence enveloped the two of them.<br> 
 
 window,off
 wait,0.15
@@ -261,7 +261,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ソフィア,（なんなのよ……心臓のドキドキやばい……。<br>こ、これ、聞こえちゃってるのかな……？）,106501000G,vc_10650100011_013_01,chara_1
+message,ソフィア,(What is this...? My heart's pounding so hard... C-can he hear<br>it...?)<br> ,106501000G,vc_10650100011_013_01,chara_1
 
 window,off
 wait,0.15
@@ -278,7 +278,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,そうか……ありがとう……
+message,<user>,I see... thank you...<br> 
 
 window,off
 wait,0.15
@@ -315,7 +315,7 @@ wait,0.5
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
 window,on,0.15
-message,,言葉はそれだけで十分だった。ソフィアをそっと抱き寄せる。<br>２人切りの部屋に、甘い時間が流れ始めた――
+message,,Those words alone were enough. He gently pulled Sophia close. In the<br>room that was just for the two of them，sweet time began to flow—<br> 
 
 labeljump,b
 

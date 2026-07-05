@@ -36,9 +36,9 @@ asynccharaemo,chara_1,Speak,STOP
 
 asynccharaface,chara_1,FaceFun,STOP
 window,on,0.15
-message,ベティ,司令官殿、お呼びでしょうか？<br>なんでも、地下空洞の安全性を確認してほしいとか。,,vc_10500100011_001_01
+message,ベティ,Commander，you called for me? I understand you require me to inspect<br>the safety of the underground cavern.<br> ,,vc_10500100011_001_01
 
-message,<user>,よく来てくれたな、ベティ。さっそくだが、見てほしいのは娼館の地下室だ。<br>壁が崩れて空洞と繋がったらしくてな。地盤が大丈夫か、確認してほしいんだ。
+message,<user>,Thanks for coming，Betty. To get straight to it，I need you to check<br>the brothel's basement.\nIt seems the wall collapsed and connected to the cavern. I want you to make sure the ground is stable.<br> 
 
 asynccharareaction,chara_1,Nod,1,STOP
 
@@ -48,7 +48,7 @@ asynccharaemo,chara_1,Question,STOP
 
 
 asynccharaface,chara_1,FaceAnger,STOP
-message,ベティ,ここでありますね。ふむー……見た目は頑丈そうでありますね。<br>ちょっと中に入ってみるであります。,,vc_10500100011_002_01
+message,ベティ,This is the place，Commander. Hmm... it appears quite sturdy. I will<br>enter and inspect，Commander.<br> ,,vc_10500100011_002_01
 
 window,off
 bgmstop,bgmtag1_1,1
@@ -67,11 +67,11 @@ bgmplay,bgmtag1_2,bgm0027,0.75,1
 
 charashow,chara_1,0.3
 window,on,0.15
-message,,<user>とベティは慎重に空洞へと足を踏み入れる。<br>岩盤の状態をベティが調べようとした、その直後……入り口の岩盤が崩落した！
+message,,%user% and Betty carefully stepped into the cavern.\nJust as Betty<br>was about to examine the rock face，the entrance collapsed!<br> 
 
 
 
-message,<user>,ベティ、危ない！　こっちだ！
+message,<user>,Betty，watch out! Over here!<br> 
 
 
 asynccharareaction,chara_1,Shake,1,STOP
@@ -83,7 +83,7 @@ asyncseplay,setag1_3,se4800017,0,1,CONT
 asynccharareaction,chara_1,Shake,1,STOP
 asynccharaemo,chara_1,Shock,STOP
 
-message,ベティ,ひゃっ……！？,,vc_10500100011_003_01
+message,ベティ,Eep...!<br> ,,vc_10500100011_003_01
 
 window,off
 wait,0.15
@@ -103,7 +103,7 @@ wait,0.5
 
 
 window,on,0.15
-message,,間一髪、<user>に手を引かれたベティは落石に潰されずに済んだ。<br>しかし……娼館の地下室への道は、すっかり塞がれてしまっていた。
+message,,In the nick of time，%user% grabbed Betty's hand and she avoided<br>being crushed by the falling rocks.\nHowever... the path to the brothel's basement was completely blocked.<br> 
 
 asynccharareaction,chara_1,Hop,1,STOP
 
@@ -114,12 +114,12 @@ asyncseplay,setag1_5,se4800012,0,1,CONT
 asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
-message,ベティ,あ、ありがとうございます、司令官殿……！,,vc_10500100011_004_01
+message,ベティ,Th-thank you，Commander...!<br> ,,vc_10500100011_004_01
 
-message,<user>,怪我がなかったならそれでいい。それより、巻き込んでしまったな。<br>崩落には店の連中も気づいてるはずだから、そのうち助けが来るはずだ。
+message,<user>,As long as you're not hurt，that's fine. Sorry for getting you<br>involved.\nThe staff must have noticed the collapse，so rescue should come soon.<br> 
 
 asynccharaface,chara_1,FaceSad,STOP
-message,<user>,……ん？　ベティ？　どうした、顔色が真っ青だぞ。<br>いや……そうか。お前は狭いところが苦手だったな。
+message,<user>,...Hm? Betty? What's wrong? You're pale as a ghost.\nNo... I see.<br>You've always been bad with confined spaces.<br> 
 
 
 asynccharareaction,chara_1,Shake,1,STOP
@@ -129,7 +129,7 @@ asyncseplay,setag1_6,se4800007,0,1,CONT
 asynccharaemo,chara_1,Panic,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
-message,ベティ,は、はい……！　工兵隊長でありながら、面目次第もないであります……！<br>うぅぅ……,,vc_10500100011_005_01
+message,ベティ,Y-yes...! As the Engineering Corps Captain，I am a total<br>disgrace，Commander...!\n*whimper*<br> ,,vc_10500100011_005_01
 
 
 window,off
@@ -145,7 +145,7 @@ wait,0.1
 bgmstop,bgmtag1_2,0,0
 
 window,on,0.15
-message,<user>,（これは……ちょっとやそっとじゃ落ち着きそうにないな。<br>救助が来るまでこのままっていうのも可愛そうだ。安心させるには――）
+message,<user>,(This isn't going to calm down easily.\nIt'd be cruel to leave her<br>like this until rescue arrives. To calm her down—)<br> 
 
 window,off
 wait,0.15
@@ -172,7 +172,7 @@ bgmplay,bgmtag1_3,bgm0025,0.75,1
 
 asynccharaface,chara_1,FaceSurprise,STOP
 window,on,0.15
-message,,<user>はベティを抱き寄せると、幼子にそうするように背中を<br>軽くぽんぽんと叩く。
+message,,%user% pulled Betty close and patted her back gently，like one would<br>a child.<br> 
 
 
 
@@ -184,9 +184,9 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,ベティ,あっ……。<br>司令官、殿……？,,vc_10500100011_006_01
+message,ベティ,Ah...\nCommander...?<br> ,,vc_10500100011_006_01
 
-message,<user>,どうだ、少しは安心できないか？
+message,<user>,How about this? Feeling any better?<br> 
 
 asynccharareaction,chara_1,Nod,1,STOP
 
@@ -196,9 +196,9 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Flower,STOP
 
 asynccharaface,chara_1,FaceShy,STOP
-message,ベティ,……はい。司令官殿の鼓動が聞こえて、落ち着いてきたであります。,,vc_10500100011_007_01
+message,ベティ,...Yes，Commander. I can hear your heartbeat. I am starting to feel<br>calmer.<br> ,,vc_10500100011_007_01
 
-message,,しばし、静かな時間が流れる。崩落した岩盤の向こうから、慌ただしい足音や、<br>救助活動の指示を出す声が聞こえてくる。あと１時間もすれば救助が来そうだ。
+message,,A quiet moment passed. From beyond the collapsed rock，they could<br>hear hurried footsteps and voices calling out rescue instructions. It seemed help would arrive within the hour.<br> 
 
 
 asyncseplay,setag1_10,se4800009,0,1,CONT
@@ -206,11 +206,11 @@ asyncseplay,setag1_10,se4800009,0,1,CONT
 asynccharaemo,chara_1,Question,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
-message,ベティ,あ、あの……司令官殿。<br>その……お腹のあたりに、硬い感触があるのですが、これは……,,vc_10500100011_008_01
+message,ベティ,U-um... Commander.\nThere's... something hard against my stomach...<br>what is this...<br> ,,vc_10500100011_008_01
 
-message,<user>,あ……これは、その……すまん。実は今日、娼婦を抱きに来てたんだが、<br>空洞のことを聞いて、お預け状態でな。
+message,<user>,Ah... well，this is... I'm sorry. Actually，I came here today to visit<br>a Courtesan，but when I heard about the cavern，I put that on hold.<br> 
 
-message,<user>,そんな状況で、ベティみたいに可愛い娘と密着してたもんだから……。<br>生理現象とはいえ、すまないことをした。
+message,<user>,In that state，with a cute girl like you pressed up against<br>me...\nEven if it's just a biological reaction，I'm sorry.<br> 
 
 
 asyncseplay,setag1_11,se4800017,0,1,CONT
@@ -219,7 +219,7 @@ asynccharareaction,chara_1,Shake,1,STOP
 asynccharaemo,chara_1,Shock,STOP
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,ベティ,い、いえ、そんなことはないであります！　別に嫌とかじゃないですし、<br>もとはといえば、わたしを安心させるためですし、えっと……,,vc_10500100011_009_01
+message,ベティ,N-no，that is not so，Commander! I do not dislike it or anything，and<br>originally it was to comfort me，so... um...<br> ,,vc_10500100011_009_01
 
 window,off
 wait,0.15
@@ -241,7 +241,7 @@ asynccharaemo,chara_1,Silence,STOP
 asynccharaface,chara_1,FaceSad,STOP
 
 window,on,0.15
-message,<user>,（黙り込んでしまった……。さすがに気まずいな）
+message,<user>,(She's gone silent... This is really awkward.)<br> 
 
 window,off
 wait,0.15
@@ -261,9 +261,9 @@ asynccharaemo,chara_1,Heart,STOP
 
 asynccharaface,chara_1,FaceShy,STOP
 window,on,0.15
-message,ベティ,……あの、司令官殿。娼婦を抱きに来たというお話でしたが……。<br>わ……わたしでは、ダメでしょうかっ！？,,vc_10500100011_010_01
+message,ベティ,...Um，Commander. You said you came here for a Courtesan... W-would I<br>not do?<br> ,,vc_10500100011_010_01
 
-message,<user>,なに……？　それは……分かってて言ってるんだよな？<br>この状況でそんなこと言われたら、俺ももう、止められないぞ？
+message,<user>,What? You know what you're saying，don't you? If you say that in this<br>situation，I won't be able to stop myself.<br> 
 
 
 asynccharareaction,chara_1,Nod,1,STOP
@@ -274,9 +274,9 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Exclamation,STOP
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,ベティ,はっ、はい……っ！　か、覚悟はできているでありますっ！<br>それに……初めての相手が司令官殿なら、わたしも……嬉しいであります。,,vc_10500100011_011_01
+message,ベティ,Y-yes，Commander! I am prepared! And... if my first partner is<br>you，Commander，then I... would be happy.<br> ,,vc_10500100011_011_01
 
-message,<user>,そうか……分かった。優しく抱いてやる。<br>俺に全部任せろ。
+message,<user>,I see... Understood. I'll be gentle. Leave everything to me.<br> 
 
 asynccharareaction,chara_1,Nod,1,STOP
 
@@ -285,7 +285,7 @@ asyncseplay,setag1_15,se4800002,0,1,CONT
 asynccharaemo,chara_1,Heart,STOP
 
 asynccharaface,chara_1,FaceShy,STOP
-message,ベティ,は、はい……！<br>ふ、ふつつかものですがっ、よ、よろしくお願いするであります……っ！,,vc_10500100011_012_01
+message,ベティ,Y-yes! I... I may be inexperienced，but I entrust myself to<br>you，Commander!<br> ,,vc_10500100011_012_01
 
 asyncseplay,setag1_16,se4402004,0,1,CONT
 

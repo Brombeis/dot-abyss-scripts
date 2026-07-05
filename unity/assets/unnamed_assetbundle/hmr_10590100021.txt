@@ -57,7 +57,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 
 window,on,0.15
-message,スティーラ,（うぅ～……緊張するぅ……。<br>本当にこれから、初めて会うお、おお、男の人と……！）,105901000X,vc_10590100021_001_01,chara_1
+message,スティーラ,(*whimper*... I'm so nervous... I'm really about to meet a-a man for<br>the first time...!)<br> ,105901000X,vc_10590100021_001_01,chara_1
 
 window,off
 wait,0.15
@@ -117,7 +117,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,ルディア,スティーラさん、大丈夫？<br>さっきから顔色が悪いようだけど。,300301000,vc_10590100021_002_01,chara_2
+message,ルディア,Stille，are you okay? You've looked pale for a while now.<br> ,300301000,vc_10590100021_002_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -128,9 +128,9 @@ asyncseplay,setag1_3,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,スティーラ,ひゃわぁっ！？　ル、ルディアさん……。<br>そ、その、あの、別に具合が悪いというわけでは……,105901000X,vc_10590100021_003_01,chara_1
+message,スティーラ,Eeep! L-Ludia... U-um，well，it's not like I'm feeling bad or<br>anything...<br> ,105901000X,vc_10590100021_003_01,chara_1
 
-message,ブローチ,スティーラ様ハ、初メテノ接客デ緊張シテイルノデス。<br>モトモト人見知リデスノデ。,900000003,vc_10590100021_004_01,
+message,ブローチ,STILLE IS NERVOUS BECAUSE THIS IS HER FIRST TIME SERVING A CUSTOMER.<br>SHE IS INHERENTLY SHY AROUND STRANGERS.<br> ,900000003,vc_10590100021_004_01,
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -141,7 +141,7 @@ asyncseplay,setag1_4,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ルディア,そう……人見知りを克服したいから娼館で働きたいって話だったけど、<br>本当に大丈夫？　無理はしなくていいのよ？,300301000,vc_10590100021_005_01,chara_2
+message,ルディア,I see... So you wanted to work at a brothel to overcome your<br>shyness，but are you really okay? You don't have to push yourself.<br> ,300301000,vc_10590100021_005_01,chara_2
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -152,7 +152,7 @@ asyncseplay,setag1_5,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,スティーラ,い、いえっ！　じ、自分で……が、頑張るって、決めたのでっ……！<br>それに、こうでもしないと、わたし、いつまでたっても……,105901000X,vc_10590100021_006_01,chara_1
+message,スティーラ,N-no. I-I decided to... t-try my best...! Besides，if I don't do<br>this，I'll never be able to...<br> ,105901000X,vc_10590100021_006_01,chara_1
 
 asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
 
@@ -161,9 +161,9 @@ asyncseplay,setag1_6,se4800014,0,1,CONT,0
 asynccharaemo,chara_2,Silence,CONT,0
 
 
-message,ルディア,何か事情がありそうね。,300301000,vc_10590100021_007_01,chara_2
+message,ルディア,Sounds like there's a story behind this.<br> ,300301000,vc_10590100021_007_01,chara_2
 
-message,ブローチ,スティーラ様ハ、ワタクシヤ魔石細工ガナクテモ<br>素直ニオ喋リガシタイノデス。,900000003,vc_10590100021_008_01,
+message,ブローチ,STILLE WISHES TO SPEAK FRANKLY WITHOUT ME OR MAGIC STONE CRAFT.<br> ,900000003,vc_10590100021_008_01,
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -174,7 +174,7 @@ asyncseplay,setag1_7,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,ルディア,あら、そうなの？,300301000,vc_10590100021_009_01,chara_2
+message,ルディア,Oh，is that so?<br> ,300301000,vc_10590100021_009_01,chara_2
 
 window,off
 wait,0.15
@@ -219,7 +219,7 @@ asyncseplay,setag1_8,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 window,on,0.15
-message,,コク、コク……とスティーラがしきりに頷く。
+message,,Stille nodded emphatically，again and again.<br> 
 
 window,off
 wait,0.15
@@ -273,7 +273,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,ルディア,それはまた思い切ったことをしたわね。<br>そこまでして、誰とお喋りがしたいの？,300301000,vc_10590100021_010_01,chara_2
+message,ルディア,That was quite a bold move. Who do you want to talk to so badly that<br>you'd go this far?<br> ,300301000,vc_10590100021_010_01,chara_2
 
 window,off
 wait,0.15
@@ -321,9 +321,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,スティーラ,そ、それは、そのぉ……（ゴニョゴニョ）,105901000X,vc_10590100021_011_01,chara_1
+message,スティーラ,W-well，that is... um... mumble mumble...<br> ,105901000X,vc_10590100021_011_01,chara_1
 
-message,ブローチ,司令官様デス。,900000003,vc_10590100021_012_01,
+message,ブローチ,IT IS THE COMMANDER.<br> ,900000003,vc_10590100021_012_01,
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -334,7 +334,7 @@ asyncseplay,setag1_11,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,スティーラ,っ……！　だ、だめっ！　しーっ、しーっ！<br>もぉ、なんで言っちゃうのぉ……！,105901000X,vc_10590100021_013_01,chara_1
+message,スティーラ,Ah... N-no，don't. Shh，shh. Geez，why'd you have to say that...!<br> ,105901000X,vc_10590100021_013_01,chara_1
 
 window,off
 wait,0.15
@@ -388,7 +388,7 @@ asynccharaemo,chara_2,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ルディア,なるほど、想い人は司令官君か。<br>ふふっ、一途なのね。可愛いわ♪,300301000,vc_10590100021_014_01,chara_2
+message,ルディア,I see，so your crush is Commander. Fufu，you're so devoted. That's<br>cute!♪<br> ,300301000,vc_10590100021_014_01,chara_2
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -399,7 +399,7 @@ asyncseplay,setag1_13,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,スティーラ,あうっ……！　うぅ～……,105901000X,vc_10590100021_015_01,chara_1
+message,スティーラ,Ah...! *whimper*...<br> ,105901000X,vc_10590100021_015_01,chara_1
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -411,7 +411,7 @@ asyncseplay,setag1_14,se4800014,0,1,CONT,0
 asynccharaemo,chara_2,Silence,CONT,0
 
 
-message,ルディア,そろそろご予約のお客様が来る時間ね。<br>理由があるのは分かったからもう止めないけど、無理はしちゃだめよ？,300301000,vc_10590100021_016_01,chara_2
+message,ルディア,It's almost time for your reserved customer to arrive. I understand<br>you have your reasons，so I won't stop you，but don't overdo it，okay?<br> ,300301000,vc_10590100021_016_01,chara_2
 
 window,off
 wait,0.15
@@ -457,7 +457,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,スティーラ,は、はいっ……ががが、頑張りますっ……！！,105901000X,vc_10590100021_017_01,chara_1
+message,スティーラ,Y-yes... I-I-I'll do my best...!<br> ,105901000X,vc_10590100021_017_01,chara_1
 
 
 window,off
@@ -498,7 +498,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 
 window,on,0.15
-message,スティーラ,（とは言ったものの……ど、どどどどうしよう……！<br>き、緊張で、お客様の顔も見れない……）,105901000X,vc_10590100021_018_01,chara_1
+message,スティーラ,(That said... wh-what should I do...! I-I'm so nervous I can't even<br>look at the customer's face...)<br> ,105901000X,vc_10590100021_018_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -509,7 +509,7 @@ asyncseplay,setag1_17,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,スティーラ,（……そ、そうだっ！　と、とりあえず、今日は初日だし、<br>この前のランプを使っちゃおう……！）,105901000X,vc_10590100021_019_01,chara_1
+message,スティーラ,(...R-right! F-for now，it's my first day，so I'll use that lamp from<br>the other day...!)<br> ,105901000X,vc_10590100021_019_01,chara_1
 
 window,off
 wait,0.15

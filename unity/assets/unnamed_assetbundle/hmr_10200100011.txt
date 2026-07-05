@@ -24,7 +24,7 @@ bgmplay,bgmtag1_1,bgm0025,0.75,1
 
 
 window,on,0.15
-message,,訓練場を覗きに行く。もう深夜なのに、気合いの入った声が響いていたからだ。<br>中にいたのはラヴェリアで、熱心にトレーニングをしていた。
+message,,I went to check on the training ground. It was already late at<br>night，but I could hear a spirited voice echoing from inside. I found Laveria there，training diligently.<br> 
 
 window,off
 wait,0.15
@@ -32,14 +32,14 @@ wait,0.15
 charashow,chara_1,0.3
 
 window,on,0.15
-message,<user>,まだやっていたのかラヴェリア。お前、夕方からここにいるだろ？<br>明日も仕事があるんだし、早く帰って休め。
+message,<user>,Still at it，Laveria? You've been here since evening，right? We've got<br>work tomorrow，so go home and rest.<br> 
 
 charaface,chara_1,FaceSad
 
 asynccharaface,chara_1,EyeOpen,STOP,1
 asynccharaface,chara_1,FaceNormal,STOP,1
 
-message,ラヴェリア,兄さん……いや、まだまだ足りないくらいだ。<br>この程度じゃいざというときに仲間を守ることなどできないからな。,,vc_10200100011_001_01
+message,ラヴェリア,Brother... No，it's still far from enough. With just this，I won't be<br>able to protect my comrades when it really counts.<br> ,,vc_10200100011_001_01
 
 window,off
 wait,0.15
@@ -52,7 +52,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（やっぱり、仲間のこととなると自分が二の次になってしまうきらいがあるな。<br>このままじゃ身体を壊しかねないし、なんとか訓練を止めてもらわないと……）
+message,<user>,(As expected，when it comes to her comrades，she tends to put herself<br>second. At this rate，she'll burn out. I've got to get her to stop somehow...)<br> 
 
 window,off
 wait,0.15
@@ -65,15 +65,15 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,……じゃあ、勝負をしないか？　俺が勝ったらすぐに鍛錬を終わらせるんだ。<br>その代わり、お前が勝ったら好きにしていい。
+message,<user>,... Then how about a match? If I win，you stop training right now.<br>But if you win，you can do whatever you want.<br> 
 
 asynccharareaction,chara_1,nod,1,STOP
 
 asynccharaface,chara_1,FaceFun,STOP
-message,ラヴェリア,ほぅ……勝負か、面白い。<br>兄さんのことは尊敬しているが、腕っぷしでは負けないぞ？,,vc_10200100011_002_01
+message,ラヴェリア,Hoh... A match，huh? Interesting. I respect you，Brother，but I won't<br>lose in a test of strength!<br> ,,vc_10200100011_002_01
 
 
-message,ラヴェリア,……よし、いつでもきていいぞ。,,vc_10200100011_003_01
+message,ラヴェリア,... All right. Come at me anytime.<br> ,,vc_10200100011_003_01
 
 window,off
 wait,0.15
@@ -86,7 +86,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（流石だな……まったく隙がない。<br>だが、こういう攻撃はどうだ？）
+message,<user>,(Impressive... not a single opening. But what about this kind of<br>attack?)<br> 
 
 window,off
 wait,0.15
@@ -109,7 +109,7 @@ wait,0.3
 
 
 window,on,0.15
-message,,素早く動き、彼女の懐に入りながら腕を伸ばす。ラヴェリアは微動だにしない。<br>こちらが組み手を仕掛けてきたと思い、受けて立つつもりなのだろう。だが――
+message,,I moved quickly，extending my arm as I stepped into her guard.<br>Laveria stood perfectly still. She must have thought I was initiating a grapple and prepared to counter. But—<br> 
 
 asyncseplay,setag1_1,se5010003,0,1,CONT
 
@@ -121,17 +121,17 @@ asyncseplay,setag1_2,se4800010,0,1,CONT
 
 asynccharareaction,chara_1,Shake,1,STOP
 asynccharaemo,chara_1,ExclaQues,STOP
-message,ラヴェリア,きゃっ！？,,vc_10200100011_004_01
+message,ラヴェリア,Kyah!<br> ,,vc_10200100011_004_01
 
 asyncseplay,setag1_3,se5010002,0,1,CONT
-message,,自分の狙いは、その豊満な胸。<br>伸ばした手のひらで、思い切りわし掴みにしてみせた。
+message,,My target was her ample breasts. With my outstretched hand，I gave<br>them a hard squeeze.<br> 
 
 asynccharareaction,chara_1,shake,1,STOP
 
 charaface,chara_1,FaceUnique02
-message,ラヴェリア,な、ななななっ！　なにを――！！,,vc_10200100011_005_01
+message,ラヴェリア,Wh-what are you—!<br> ,,vc_10200100011_005_01
 
-message,,思いもしなかった不意打ちに、ラヴェリアはあからさまに動揺した。<br>その瞬間を逃さず、隙だらけの足元を払う。
+message,,Laveria was visibly shaken by the completely unexpected attack.<br>Seizing the moment，I swept her feet out from under her.<br> 
 
 asyncseplay,setag1_4,se4900069,0,1,CONT
 
@@ -146,11 +146,11 @@ asynccharahide,chara_1,0.25,CONT,0
 charamove,chara_1,EaseOutTarget,CharaHeight,-100,0.25
 
 window,on,0.15
-message,ラヴェリア,うわぁっ！？,,vc_10200100011_006_01
+message,ラヴェリア,Whoa!<br> ,,vc_10200100011_006_01
 
 asyncseplay,setag1_5,se4400111,0,1,CONT
 
-message,,最後に、倒れたラヴェリアに馬乗りになる形で組伏した。
+message,,Finally，I straddled the fallen Laveria and pinned her down.<br> 
 
 window,off
 wait,0.15
@@ -161,35 +161,35 @@ charamove,chara_1,EaseOutTarget,CharaHeight,0,0.3
 
 
 window,on,0.15
-message,ラヴェリア,くぅ……ひ、卑怯だぞ、兄さん！<br>勝負と言いながら真っ先に、む、むむ、胸を揉んでくるなんて！,,vc_10200100011_007_01
+message,ラヴェリア,Ngh... Th-that's dirty，Brother! You called it a match，but the first<br>thing you did was grope my tits!<br> ,,vc_10200100011_007_01
 
-message,<user>,勝負に卑怯もなにもあるか。<br>戦場でそんないいわけが通用すると思うか？
+message,<user>,There's no such thing as dirty in a battle. Do you think an excuse<br>like that would fly on the battlefield?<br> 
 
 charaface,chara_1,FaceSad
-message,ラヴェリア,そ、それは……,,vc_10200100011_008_01
+message,ラヴェリア,Th-that's...<br> ,,vc_10200100011_008_01
 
-message,<user>,とにかくこの勝負……俺の勝ちだな。
+message,<user>,Anyway，this match... I win.<br> 
 
 charaface,chara_1,FaceAnger
-message,ラヴェリア,ま……まだだ！<br>まだアタシは参ったと言っていない！　勝負は続行だ！,,vc_10200100011_009_01
+message,ラヴェリア,I... I'm not done yet! I haven't said I give up! The match<br>continues!<br> ,,vc_10200100011_009_01
 
-message,,戦士としてのプライドからか、簡単には負けを認めないラヴェリア。<br>しかし、もう奇襲が通じない今、普通に戦ってもこちらが勝つ算段がない。
+message,,Perhaps due to her pride as a warrior，Laveria refused to admit<br>defeat easily. But now that surprise attacks were no longer possible，I had no sure way to win in a fair fight.<br> 
 
-message,,何か参ったと言わせられるような勝負を仕掛けるしか――。<br>考えていたその時、ラヴェリアと目が合った。
+message,,I had no choice but to try something that would force her to<br>surrender... As I was thinking，my eyes met Laveria's.<br> 
 
 charaface,chara_1,FaceUnique02
-message,ラヴェリア,な、なんだ……？,,vc_10200100011_010_01
+message,ラヴェリア,W-What...?<br> ,,vc_10200100011_010_01
 
-message,,威勢よく睨み返してきたラヴェリアだが、その反面、顔は真っ赤になっていた。<br>そして、モゾモゾと擦り合わしている太腿……察すると同時に、閃いた――
+message,,Laveria glared back at me，but her face was bright red. And her<br>thighs were rubbing together restlessly... As I realized what that meant，an idea struck me.<br> 
 
-message,<user>,これなら参ったと言わせられそうだな……
+message,<user>,This might be enough to make her surrender...<br> 
 
 charaface,chara_1,FaceSurprise
 
 asyncseplay,setag1_6,se4800009,0,1,CONT
 
 asynccharaemo,chara_1,Question,STOP
-message,ラヴェリア,え？　……うわっ！？,,vc_10200100011_011_01
+message,ラヴェリア,Huh? ...Wah!<br> ,,vc_10200100011_011_01
 
 
 labeljump,b

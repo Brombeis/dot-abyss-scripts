@@ -21,7 +21,7 @@ asyncseplay,setag3_1,se5050013,0,1,CONT,0
 wait,1
 
 window,on,0.15
-message,,The morning light slanting through the room，the scent of coffee，the<br>smell of toast — they woke him.<br> 
+message,,The morning sunlight streaming into the room，the scent of coffee，and<br>the aroma of toasted bread roused me from sleep.<br> 
 
 window,off
 wait,0.15
@@ -57,13 +57,13 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 window,on,0.15
 message,ニナ,Good morning，Master.<br> ,106101000G,vc_10610100033_001_01,chara_1
 
-message,<user>,......Morning，Nina......<br> 
+message,<user>,...Good morning，Nina...<br> 
 
 asyncseplay,setag3_3,se4402003,0,1,CONT,0
 
-message,,He sat up. Nina was already dressed and composed，silently mending<br>the torn trousers with the same blank expression she always wore.<br> 
+message,,When I sat up in bed，Nina was already fully dressed，silently mending<br>the torn pants with a stoic expression.<br> 
 
-message,,Not a trace of last night remained. She was already herself again —<br>cool，composed，unreadable.<br> 
+message,,There was no trace of the alluring figure she had shown me last<br>night; she was already radiating her usual cool demeanor.<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -74,7 +74,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 message,ニナ,Master，did you sleep well last night?<br> ,106101000G,vc_10610100033_002_01,chara_1
 
-message,<user>,Yeah. Slept like a log，thanks to you.<br>Thank you.<br> 
+message,<user>,Yeah. I slept like a log thanks to you. Thanks.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -85,9 +85,9 @@ asyncseplay,setag3_5,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ニナ,I-is that so.<br>I am glad to hear it......<br> ,106101000G,vc_10610100033_003_01,chara_1
+message,ニナ,I-I see. That's good to hear...<br> ,106101000G,vc_10610100033_003_01,chara_1
 
-message,,The memory of last night must have come back to her — Nina's face<br>went faintly red.<br> 
+message,,Perhaps remembering last night's intimacy，Nina suddenly blushed.<br> 
 
 window,off
 wait,0.15
@@ -121,11 +121,11 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ニナ,The trousers are finished.<br>Please do wear them for today's expedition.<br> ,106101000G,vc_10610100033_004_01,chara_1
+message,ニナ,Ah，I've finished mending the pants. Please do wear them on today's<br>expedition.<br> ,106101000G,vc_10610100033_004_01,chara_1
 
-message,,She held them out to him. Mended with that invisible magic thread of<br>hers — they would hold far better than before.<br> 
+message,,With that，she handed me the repaired pants. There was no doubt they<br>had been reinforced with that transparent magic thread.<br> 
 
-message,<user>,Thank you，Nina.<br>It's because of you that I always come back safely.<br> 
+message,<user>,Thanks，Nina. It's because of you that I can always explore safely.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -135,7 +135,7 @@ asyncseplay,setag3_7,se4800017,0,1,CONT,0
 
 asynccharaemo,chara_1,Shock,CONT,0
 
-message,,His words made her look up in momentary surprise — then her cheeks<br>went red again.<br> 
+message,,At my words，Nina was momentarily surprised，then her cheeks flushed<br>again.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -146,7 +146,7 @@ asyncseplay,setag3_8,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ニナ,......Of course it is. Supporting Master with everything we have —<br>that is the motto of a maid.<br> ,106101000G,vc_10610100033_005_01,chara_1
+message,ニナ,...Of course. Supporting Master with all our might is our motto as<br>maids.<br> ,106101000G,vc_10610100033_005_01,chara_1
 
 window,off
 wait,0.15
@@ -184,7 +184,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ニナ,Come，now. Let us have breakfast.<br>The coffee will go cold.<br> ,106101000G,vc_10610100033_006_01,chara_1
+message,ニナ,Now then，let's have breakfast. It would be a shame to let the coffee<br>get cold.<br> ,106101000G,vc_10610100033_006_01,chara_1
 
 window,off
 wait,0.15
@@ -235,7 +235,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,The morning light fell across Nina's profile — and on her usually<br>expressionless lips， the faintest smile had settled.<br> 
+message,,The morning sunlight fell on Nina's profile，and a faint smile<br>crossed her usually expressionless lips.<br> 
 
 window,off
 bgmstop,bgmtag3_1,0.5

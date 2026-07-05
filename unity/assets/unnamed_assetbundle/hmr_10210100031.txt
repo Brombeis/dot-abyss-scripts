@@ -31,18 +31,18 @@ asynccharareaction,chara_1,nod,1,STOP
 
 asyncjump,CHARA,chara_1,30,0.5,1,off,0,STOP
 window,on,0.15
-message,ヒュメナ,そうなの、ウパちゃんもわかる？<br>司令官君ってもう、すっごく優しいんだよ～。,,vc_10210100031_001_01
+message,ヒュメナ,Right，Upa? The Commander is super sweet.<br> ,,vc_10210100031_001_01
 
-message,ウパ,ウパ！,900000003,vc_10210100031_002_01,
+message,ウパ,Upa!<br> ,900000003,vc_10210100031_002_01,
 
 asyncseplay,setag1_2,se4800012,0,1,CONT
 
 asynccharaemo,chara_1,Shy,CONT
 
 charaface,chara_1,FaceFun
-message,ヒュメナ,えへへ……私はね、そんな司令官君のことが大好きなんだぁ～。,,vc_10210100031_003_01
+message,ヒュメナ,Ehehe... I really love the Commander.<br> ,,vc_10210100031_003_01
 
-message,ウパ,ウパウパッ！,900000003,vc_10210100031_004_01,
+message,ウパ,Upa upa!<br> ,900000003,vc_10210100031_004_01,
 
 asyncseplay,setag1_3,se4800009,0,1,CONT
 
@@ -51,7 +51,7 @@ asynccharaemo,chara_1,Question,CONT
 asynccharareaction,chara_1,shake,0.5,STOP
 
 charaface,chara_1,FaceSurprise
-message,ヒュメナ,え～？　司令官君に直してほしいところはないのかって？<br>う～～ん、そうだなぁ～～。,,vc_10210100031_005_01
+message,ヒュメナ,Huh? You're asking if there's anything I'd like the Commander to do<br>differently? Hmm，let's see...<br> ,,vc_10210100031_005_01
 
 asyncseplay,setag1_4,se4800014,0,1,CONT
 
@@ -64,30 +64,30 @@ charaface,chara_1,FaceSad
 asynccharareaction,chara_1,nod,1,STOP
 
 asyncshake,CHARA,chara_1,10,0,0.5,3,off,off,0,off,STOP,0
-message,ヒュメナ,あ～、司令官君の優しすぎるところが、<br>ちょっと物足りない時もあるかなぁ……,,vc_10210100031_006_01
+message,ヒュメナ,Ah，sometimes the fact that he's so kind leaves me a bit<br>unsatisfied...<br> ,,vc_10210100031_006_01
 
-message,ウパ,ウパ～？,900000003,vc_10210100031_007_01,
+message,ウパ,Upaa?<br> ,900000003,vc_10210100031_007_01,
 
 asynccharareaction,chara_1,Nod,0.5,STOP
 
 charaface,chara_1,FaceFun
-message,ヒュメナ,普段はいいんだよ？<br>いつもは優しくしてもらって嬉しいんだけど……,,vc_10210100031_008_01
+message,ヒュメナ,Normally it's fine，you know? I'm always happy when he's gentle with<br>me，but...<br> ,,vc_10210100031_008_01
 
 asyncseplay,setag1_5,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,CONT
 
 charaface,chara_1,FaceShy
-message,ヒュメナ,でも……その……エッチの時くらいは、<br>もうちょっと激しくしてくれてもいいのになぁって思ったりして……あはは！,,vc_10210100031_009_01
+message,ヒュメナ,But... um... at least when we're having sex，I wish he'd be a bit<br>rougher... Ahaha!<br> ,,vc_10210100031_009_01
 
-message,ウパ,ウパ！,900000003,vc_10210100031_010_01,
+message,ウパ,Upa!<br> ,900000003,vc_10210100031_010_01,
 
 asyncseplay,setag1_6,se4800009,0,1,CONT
 
 asynccharaemo,chara_1,Question,CONT
 
 charaface,chara_1,FaceSurprise
-message,ヒュメナ,え？　任せろって？　……どういうこと？,,vc_10210100031_011_01
+message,ヒュメナ,Huh? ""Leave it to me""? What do you mean?<br> ,,vc_10210100031_011_01
 
 window,off
 wait,0.15
@@ -100,7 +100,7 @@ charaface,chara_1,FaceNormal
 transitionFade,Tra02,in,black,1
 
 window,on,0.15
-message,<user>,それで？　ウパに無理やり連れて来られたわけだが……<br>一体何のようなんだ？
+message,<user>,So? Upa dragged me here... What's this all about?<br> 
 
 asyncseplay,setag1_7,se4800008,0,1,CONT
 
@@ -109,20 +109,20 @@ asynccharaemo,chara_1,Sweat,CONT
 asynccharareaction,chara_1,shake,0.5,STOP
 
 charaface,chara_1,FaceSad
-message,ヒュメナ,ご、ごめんね、私にもよくわからないの。<br>ウパちゃんが任せろって急に言い出して……,,vc_10210100031_012_01
+message,ヒュメナ,S-sorry，I don't really know either. Upa suddenly said ""leave it to<br>me""...<br> ,,vc_10210100031_012_01
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
-message,<user>,任せろって何のことだ？
+message,<user>,""Leave it to me""? What are you talking about?<br> 
 
 charaface,chara_1,FaceSurprise
-message,ヒュメナ,それは……ウパちゃん、いったい何なの？,,vc_10210100031_013_01
+message,ヒュメナ,Well... Upa，what's going on?<br> ,,vc_10210100031_013_01
 
-message,ウパ,ウパッ！,900000003,vc_10210100031_014_01,
+message,ウパ,Upa!<br> ,900000003,vc_10210100031_014_01,
 
 bgmstop,bgmtag1_1,0,0
 
-message,,ウパが一際大きく一声鳴いた、その瞬間――！
+message,,At that moment，Upa let out an especially loud cry—!<br> 
 
 asyncseplay,setag1_8,se4900135,0,1,CONT
 
@@ -140,7 +140,7 @@ fade,In,White,1
 shake,BACK,,0,0,0.25,1,off,off,0
 shake,CHARA,chara_1,0,0,0.25,1,off,off,0
 window,on,0.15
-message,<user>,……うっ！？
+message,<user>,...Ugh!<br> 
 
 asyncseplay,setag1_9,se4800007,0,1,CONT
 
@@ -149,7 +149,7 @@ asynccharaemo,chara_1,Panic,CONT
 asynccharareaction,chara_1,Shake,0.5,STOP
 
 charaface,chara_1,FaceSad
-message,ヒュメナ,し、司令官君！？　どうしたの！？,,vc_10210100031_015_01
+message,ヒュメナ,C-Commander! What's wrong?<br> ,,vc_10210100031_015_01
 
 charaface,chara_1,FaceSurprise
 
@@ -165,7 +165,7 @@ wait,0.1
 
 bgmplay,bgmtag1_2,bgm0026,0.75,1
 window,on,0.15
-message,<user>,（な、なんだこれは……身体が自分のものじゃなくなっていく感覚……<br>意識が……遠く……なって…………い……く……――）
+message,<user>,(W-what is this... The sensation of losing control of my body... My<br>consciousness is going down... going down...—)<br> 
 
 window,off
 wait,0.15
@@ -184,22 +184,22 @@ asyncseplay,setag1_10,se4800011,0,1,CONT
 asynccharaemo,chara_1,ExclaQues,CONT
 
 window,on,0.15
-message,ヒュメナ,え？　え？　えぇぇぇ～～！？<br>司令官君が、触手の生えた巨大水棲生物に～～！？,,vc_10210100031_016_01
+message,ヒュメナ,Huh? Huh? Eeeeeh!? The Commander turned into a giant aquatic<br>creature with tentacles!?<br> ,,vc_10210100031_016_01
 
 charaface,chara_1,FaceSad
-message,ウパ,ウパ～♪,900000003,vc_10210100031_017_01,
+message,ウパ,Upaa!♪<br> ,900000003,vc_10210100031_017_01,
 
 asyncseplay,setag1_11,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,STOP
 
 charaface,chara_1,FaceSurprise
-message,ヒュメナ,あとは若い２人でごゆっくり～って――ウパちゃん！<br>司令官君をこんな姿にしてどういうつもりなのーーー！？,,vc_10210100031_018_01
+message,ヒュメナ,""Now you two young people enjoy yourselves""—Upa! What do you mean by<br>turning the Commander into this?!<br> ,,vc_10210100031_018_01
 
 charaface,chara_1,FaceSad
-message,<user>,――！
+message,<user>,—!<br> 
 
-message,,途端、うねる触手がヒュメナに襲い掛かる。
+message,,At once，the writhing tentacles lunge at Humena.<br> 
 
 crossfadeready
 
@@ -224,7 +224,7 @@ asynccharaemo,chara_1,Exclamation,STOP
 asynccharareaction,chara_1,Hop,1,STOP
 
 charaface,chara_1,FaceSurprise
-message,ヒュメナ,きゃあっ！？　し、司令官君～～～！？,,vc_10210100031_019_01
+message,ヒュメナ,Kyaa!? C-Commander!?<br> ,,vc_10210100031_019_01
 
 linework,off,White,Middle
 

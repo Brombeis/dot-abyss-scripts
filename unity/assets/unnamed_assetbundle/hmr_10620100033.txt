@@ -18,7 +18,7 @@ bgmplay,bgmtag3_1,bgm0031,1
 
 
 window,on,0.15
-message,,Hours later，Hinagi finally regained consciousness. She appeared<br>fully recovered，so he decided to escort her back to the quarters——<br> 
+message,,A few hours later，Hinagi finally regained consciousness.\nShe seemed<br>to have fully recovered，but I decided to escort her to the dormitory—<br> 
 
 window,off
 wait,0.15
@@ -56,13 +56,13 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒナギ,U-um，thank you so very much.<br>If Commander-sama had not come，my life would have...<br> ,106201000G,vc_10620100033_001_01,chara_1
+message,ヒナギ,Ah，um，thank you very much，Commander. If you had not come rushing to<br>help，my life would be...<br> ,106201000G,vc_10620100033_001_01,chara_1
 
 message,,Hinagi bowed deeply in gratitude.<br> 
 
-message,<user>,No，you saved my life too.<br>It scares me to think what would have happened without you here.<br> 
+message,<user>,No，you saved my life too.\nWhen I think about what would have<br>happened if you hadn't been at the Frontline Base，I shudder.<br> 
 
-message,,That was no flattery. Without this onmyouji，an amateur's curse could<br>have consumed him.<br> 
+message,,That was no flattery at all.\nWithout her，the Onmyoji，I might have<br>died，my body eroded by that hastily prepared curse.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -75,9 +75,9 @@ asynccharaemo,chara_1,Flower,CONT,0
 wait,0.5
 
 
-message,ヒナギ,I am so happy to be able to serve you，Commander-sama...<br> ,106201000G,vc_10620100033_002_01,chara_1
+message,ヒナギ,I am also very happy to serve you，Commander...<br> ,106201000G,vc_10620100033_002_01,chara_1
 
-message,,Hinagi said，her cheeks flushing.<br> 
+message,,Hinagi said that，her cheeks flushing.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -88,9 +88,9 @@ asyncseplay,setag3_3,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒナギ,...U-um，may I ask just one favor?<br> ,106201000G,vc_10620100033_003_01,chara_1
+message,ヒナギ,...Ah，um，may I ask one favor?<br> ,106201000G,vc_10620100033_003_01,chara_1
 
-message,<user>,Hm? A favor?<br>Sure，if it's something I can do.<br> 
+message,<user>,Hm? A favor?\nAh，if it's something I can do，sure.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -101,9 +101,9 @@ asyncseplay,setag3_4,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ヒナギ,Um... would you... hold my hand?<br> ,106201000G,vc_10620100033_004_01,chara_1
+message,ヒナギ,Well... if you do not mind，could you hold my hand?<br> ,106201000G,vc_10620100033_004_01,chara_1
 
-message,<user>,Your hand?<br>Uh，that's all?<br> 
+message,<user>,Hand?\nUh，is that all you want?<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -116,7 +116,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 message,ヒナギ,Yes!<br> ,106201000G,vc_10620100033_005_01,chara_1
 
-message,,%user% gently took Hinagi's hand.<br>It was small，and very soft.<br> 
+message,,I gently took her hand as she requested.\nIt was very small and<br>soft.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -127,9 +127,9 @@ asyncseplay,setag3_6,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ヒナギ,......<br> ,106201000G,vc_10620100033_006_01,chara_1
+message,ヒナギ,...<br> ,106201000G,vc_10620100033_006_01,chara_1
 
-message,<user>,Hm? Your face is bright red. You okay?<br>Don't tell me your qi flow went haywire again?<br> 
+message,<user>,Hm? Your face is bright red.\nYou okay?\nYou haven't gotten that<br>weird ki flow again，have you?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -140,9 +140,9 @@ asyncseplay,setag3_7,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ヒナギ,Th-this is different!<br>This is a perfectly good flow of qi!<br> ,106201000G,vc_10620100033_007_01,chara_1
+message,ヒナギ,Th-this is different!\nIt is—it is a perfectly good flow of ki!<br> ,106201000G,vc_10620100033_007_01,chara_1
 
-message,,Hinagi tried to keep a composed face，but her heart pounded so loudly<br>she feared he could feel it through their joined hands.<br> 
+message,,Hinagi tried to keep a composed face，but her heart pounded，and she<br>worried that he might feel it through their joined hands.<br> 
 
 window,off
 wait,0.15
@@ -168,7 +168,7 @@ asynccharaemo,chara_1,Heart,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,(Of course it is a good flow of qi...<br>After all，I am holding hands with the one I love...)<br> ,106201000G,vc_10620100033_008_01,chara_1
+message,ヒナギ,(Of course it is a good flow of ki... because I am holding hands<br>with the person I love...)<br> ,106201000G,vc_10620100033_008_01,chara_1
 
 window,off
 wait,0.15
@@ -193,7 +193,7 @@ asyncseplay,setag3_9,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 window,on,0.15
-message,,They walked hand in hand down the main<br>road of the forward base toward the quarters.<br> 
+message,,Still holding hands with Hinagi，we walked down the Main Street of<br>the Frontline Base toward the dormitory.<br> 
 
 window,off
 wait,0.15
@@ -212,11 +212,11 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒナギ,Oh! Could we stop by the market?<br>I found a stall that looks wonderful!<br> ,106201000G,vc_10620100033_009_01,chara_1
+message,ヒナギ,Ah，um! Would you like to stop by the Market?\nI found a food stall<br>that looks delicious!<br> ,106201000G,vc_10620100033_009_01,chara_1
 
-message,,Hinagi realized the walk back was shorter than she'd hoped，and<br>blurted the suggestion on impulse.<br> 
+message,,Hinagi realized the walk to the dormitory was surprisingly short，and<br>on a whim，she blurted out that suggestion.<br> 
 
-message,<user>,Sure. I'm getting hungry anyway.<br>Let's stop by.<br> 
+message,<user>,Yeah. I'm getting hungry too，so let's stop by.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -227,7 +227,7 @@ asyncseplay,setag3_11,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ヒナギ,Yes!<br>This way!<br> ,106201000G,vc_10620100033_010_01,chara_1
+message,ヒナギ,Yes! This way，Commander!<br> ,106201000G,vc_10620100033_010_01,chara_1
 
 window,off
 wait,0.15
@@ -244,7 +244,7 @@ asyncseplay,setag3_12,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 window,on,0.15
-message,,The two headed to the market，still hand in hand. Feeling his warmth<br>through their fingers，Hinagi made a quiet decision——<br> 
+message,,The two of them headed to the Market，still holding hands. Feeling<br>the warmth from their clasped hands，Hinagi had made up her mind—<br> 
 
 window,off
 wait,0.15
@@ -270,7 +270,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,(Yes. I have made up my mind.<br>I will live here，with this person——)<br> ,106201000G,vc_10620100033_011_01,chara_1
+message,ヒナギ,(Yes. I've decided... I'm going to live here，with this person—)<br> ,106201000G,vc_10620100033_011_01,chara_1
 
 window,off
 bgmstop,bgmtag3_1,0.5

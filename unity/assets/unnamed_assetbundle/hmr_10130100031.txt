@@ -25,7 +25,7 @@ bgmplay,bgmtag1_1,bgm0040,0.75,1
 asyncseplay,setag1_1,SE_DUMMY,0,1,CONT,0
 
 window,on,0.15
-message,,*Bubble bubble bubble*<br> 
+message,,*bubble，bubble，bubble，bubble...*<br> 
 
 window,off
 wait,0.15
@@ -95,7 +95,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,フレデリカ,Crescent moon dew... herbs...<br>horse ××... Commander's semen...<br> ,101301000G,vc_10130100031_001_01,chara_1
+message,フレデリカ,Crescent moon night dew... Herbs... Horse's cum... Commander's<br>semen...<br> ,101301000G,vc_10130100031_001_01,chara_1
 
 window,off
 wait,0.15
@@ -105,7 +105,7 @@ charafocusonall
 asyncseplay,setag1_4,SE_DUMMY,0,1,CONT,0
 
 window,on,0.15
-message,,Drip... sprinkle... plop... drizzle...<br> 
+message,,*drip...* *drop...* *plop...* *drip...*<br> 
 
 window,off
 wait,0.15
@@ -122,7 +122,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,フレデリカ,And then，as the finishing touch，<br>I add my own fluids...<br> ,101301000G,vc_10130100031_002_01,chara_1
+message,フレデリカ,And then，to finish，if I add my own bodily fluids...<br> ,101301000G,vc_10130100031_002_01,chara_1
 
 window,off
 wait,0.15
@@ -132,7 +132,7 @@ charafocusonall
 asyncseplay,setag1_6,SE_DUMMY,0,1,CONT,0
 
 window,on,0.15
-message,,Splash... GURGLE!<br>BUBLBUBLBUBLBUBLBUBL!!<br> 
+message,,*splash...* *gurgle!*\n*gurgle，gurgle，gurgle，gurgle!*<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -143,7 +143,7 @@ asyncseplay,setag1_7,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,フレデリカ,Wh-what...!?<br>Th-this is...!?<br> ,101301000G,vc_10130100031_003_01,chara_1
+message,フレデリカ,W-what...!\nTh-this...!<br> ,101301000G,vc_10130100031_003_01,chara_1
 
 
 
@@ -169,11 +169,11 @@ emodelete,chara_1,0,0
 fade,In,Black,1
 
 window,on,0.15
-message,<user>,Ugh... a chill just ran down my spine...!?<br>I've got a bad feeling... hope I'm wrong...<br> 
+message,<user>,Ugh... I just felt a chill down my spine...!\nI have a bad<br>feeling... I hope it's just my imagination...<br> 
 
-message,<user>,And Frederica's ignoring my summons again?<br>She's probably absorbed in another experiment...<br> 
+message,<user>,Still，that Frederica，is she going to skip the meeting again?\nShe's<br>probably just absorbed in her experiments again...<br> 
 
-message,<user>,This time I'm going to give her a piece of<br>my mind. If she won't come，I'll go to her!<br> 
+message,<user>,This time，I really have to give her a piece of my mind. If she won't<br>come，I'll go to her myself!<br> 
 
 
 window,off
@@ -195,11 +195,11 @@ asyncseplay,setag1_8,se4300002,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,<user>,Frederica! You're in there，right?<br>Hey——<br> 
+message,<user>,Frederica! You're in there，right?\nHey--<br> 
 
-message,フレデリカ,Hiyaaahh...!?<br> ,101301000G,vc_10130100031_004_01,
+message,フレデリカ,Hyaaaaaa...!<br> ,101301000G,vc_10130100031_004_01,
 
-message,<user>,A scream...!?<br>Frederica! I'm coming in!<br> 
+message,<user>,A scream...?!\nFrederica! I'm coming in!<br> 
 
 
 
@@ -218,7 +218,7 @@ transitionCrossFade,Tra21,1
 wait,1
 
 window,on,0.15
-message,<user>,Frederica!<br>Are you okay!?<br> 
+message,<user>,Frederica!\nAre you okay!?<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -237,13 +237,13 @@ asyncseplay,setag1_9,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フレデリカ,Uugh... C-Commander...<br> ,101301000G,vc_10130100031_005_01,chara_1
+message,フレデリカ,Ugh... C-Commander...<br> ,101301000G,vc_10130100031_005_01,chara_1
 
-message,<user>,Frede—— WHAAAAT!?<br> 
+message,<user>,Fre-- whaaaaa!<br> 
 
-message,,What I saw when I burst in was Frederica，<br>pinned down by something with my face and body.<br> 
+message,,When I burst into the room，I saw Frederica pinned down by something<br>with the same body and face as me.<br> 
 
-message,<user>,Wh-what is that thing!?<br>Why am I over there——<br> 
+message,<user>,W-what is that!?\nWhy is there another me there--<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -254,7 +254,7 @@ asyncseplay,setag1_10,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,フレデリカ,I-I'll explain later...<br>but first，could you help me...<br> ,101301000G,vc_10130100031_006_01,chara_1
+message,フレデリカ,I-I'll explain the situation later... but for now，can you please<br>help me...?<br> ,101301000G,vc_10130100031_006_01,chara_1
 
 message,<user>,R-right... got it...!<br> 
 
@@ -289,7 +289,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,,The moment I touched the thing with my face<br>to pull it off Frederica——<br> 
+message,,I reached out to pull that thing with my face off Frederica，and that<br>was when I touched it.<br> 
 
 window,off
 wait,0.15
@@ -304,7 +304,7 @@ shake,BACK,,40,0,0.25,20,off,off,0
 shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,<user>,...!<br> 
+message,<user>,Ha...!<br> 
 
 window,off
 wait,0.15
@@ -325,7 +325,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 window,on,0.15
 message,フレデリカ,C-Commander...?<br> ,101301000G,vc_10130100031_007_01,chara_1
 
-message,<user>,..................<br> 
+message,<user>,...<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -336,9 +336,9 @@ asyncseplay,setag1_12,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フレデリカ,D-don't tell me...<br>you resonated with the Homunculus——<br> ,101301000G,vc_10130100031_008_01,chara_1
+message,フレデリカ,N-no way... You... you're resonating with this homunculus...<br> ,101301000G,vc_10130100031_008_01,chara_1
 
-message,<user>,...Yeah... that's right...<br>let's take her together and have some fun...<br> 
+message,<user>,Ah... yeah... let's fuck this thing together and get off.<br> 
 
 window,off
 wait,0.15
@@ -378,7 +378,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,フレデリカ,Huh... wait，hold o——<br> ,101301000G,vc_10130100031_009_01,chara_1
+message,フレデリカ,Huh? No，w-wait...<br> ,101301000G,vc_10130100031_009_01,chara_1
 
 
 window,off
@@ -405,7 +405,7 @@ emodelete,chara_1,0,0
 fade,In,Black,1
 
 window,on,0.15
-message,フレデリカ,Stoooooop!?<br> ,101301000G,vc_10130100031_010_01,
+message,フレデリカ,Stooooop!<br> ,101301000G,vc_10130100031_010_01,
 
 labeljump,b
 

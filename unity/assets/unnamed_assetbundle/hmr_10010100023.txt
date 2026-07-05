@@ -22,7 +22,7 @@ bgmplay,bgmtag3_1,bgm0031,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>それからしばらくして――</size>,,,on
+messageTextCenter,,And then，after a while—,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -57,7 +57,7 @@ wait,1
 
 asynccharaface,chara_2,FaceHappy,STOP,10
 window,on,0.15
-message,ルディア,最近、ローザさんを指名したいお客様がすごい増えてるんですよね。<br>こんなに急成長するとは思いませんでした。何かきっかけでもあったんですか？,300301000,vc_10010100023_001_01,chara_2
+message,ルディア,Recently，the number of customers requesting you has increased<br>dramatically. I didn't expect you to grow so quickly. Was there some kind of catalyst?<br> ,300301000,vc_10010100023_001_01,chara_2
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -66,7 +66,7 @@ asyncseplay,setag3_1,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ローザ,実は……お客様のことを司令官殿と思ってご奉仕するようにしたんです。,100101000X,vc_10010100023_002_01,chara_1
+message,ローザ,Actually... I started serving customers by imagining them as<br>Commander.<br> ,100101000X,vc_10010100023_002_01,chara_1
 
 window,off
 wait,0.15
@@ -112,7 +112,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,ローザ,司令官殿に気持ち良くなって、身も心もリフレッシュしてほしい……。<br>そう思ってご奉仕したら、お客様にも満足してもらえるようになりました！,100101000X,vc_10010100023_003_01,chara_1
+message,ローザ,I wanted Commander to feel good and refresh his body and mind... So<br>when I served with that intention，the customers became satisfied as well!<br> ,100101000X,vc_10010100023_003_01,chara_1
 
 window,off
 wait,0.15
@@ -166,7 +166,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,ルディア,あらあら。本当に司令官君が好きなんですね♪,300301000,vc_10010100023_004_01,chara_2
+message,ルディア,My，my. You really do love Commander，don't you?♪<br> ,300301000,vc_10010100023_004_01,chara_2
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -177,7 +177,7 @@ asyncseplay,setag3_4,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ローザ,そ、そそ、それは……！　……それは、そうなんですけど～。<br>改めて言われると、恥ずかしいです……,100101000X,vc_10010100023_005_01,chara_1
+message,ローザ,W-well...! ...Well，it's true，but... When you say it outright，I'm<br>embarrassed...<br> ,100101000X,vc_10010100023_005_01,chara_1
 
 asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
 
@@ -194,7 +194,7 @@ asyncseplay,setag3_6,se4800022,0,1,STOP,3
 asynccharaemo,chara_2,Speak,STOP,3
 
 
-message,ルディア,ふふっ、可愛いですね。<br>――あら？　噂をすれば……,300301000,vc_10010100023_006_01,chara_2
+message,ルディア,Fufu，how cute.—Oh? Speak of the devil...<br> ,300301000,vc_10010100023_006_01,chara_2
 
 window,off
 wait,0.15
@@ -233,7 +233,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,調子はどうだ、ローザ？
+message,<user>,How's it going，Rosa?<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -244,9 +244,9 @@ asyncseplay,setag3_7,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ローザ,し、司令官殿っ！？　い、いい、今の話、聞いてましたか……！？,100101000X,vc_10010100023_007_01,chara_1
+message,ローザ,C-Commander!? D-did you... hear what we were talking about...!?<br> ,100101000X,vc_10010100023_007_01,chara_1
 
-message,<user>,話……？　いや、特に聞いてはいないが。<br>何かあったのか？
+message,<user>,Talk...? No，I didn't really hear anything. Did something happen?<br> 
 
 asyncjump,CHARA,chara_1,40,0.5,2,off,0,CONT
 
@@ -255,9 +255,9 @@ asyncseplay,setag3_8,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ローザ,い、いえいえっ！　なんでもないですよっ！？<br>気にしないでください！,100101000X,vc_10010100023_008_01,chara_1
+message,ローザ,N-no，not at all! It's nothing! Please don't worry about it!<br> ,100101000X,vc_10010100023_008_01,chara_1
 
-message,<user>,…………？　そうか？　なら、いいんだが。
+message,<user>,...? Is that right? Well，if you say so.<br> 
 
 window,off
 wait,0.15
@@ -305,7 +305,7 @@ wait,1
 
 
 window,on,0.15
-message,ルディア,ローザさん。今日は十分人手が足りてるので、<br>接客は他の子に任せていいですよ。,300301000,vc_10010100023_009_01,chara_2
+message,ルディア,Rosa，we have plenty of staff today，so feel free to let the other<br>girls handle the customers.<br> ,300301000,vc_10010100023_009_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -316,7 +316,7 @@ asyncseplay,setag3_9,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ローザ,え？　でも……,100101000X,vc_10010100023_010_01,chara_1
+message,ローザ,Eh? But...<br> ,100101000X,vc_10010100023_010_01,chara_1
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -327,7 +327,7 @@ asyncseplay,setag3_10,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,ルディア,いいから、いいから。最近はあなたのおかげで稼がせてもらっているもの。<br>そろそろ、ご褒美をもらってもいい頃合いでしょう？,300301000,vc_10010100023_011_01,chara_2
+message,ルディア,Go on，go on. Thanks to you，we've been earning a lot recently. Isn't<br>it about time you got a reward?<br> ,300301000,vc_10010100023_011_01,chara_2
 
 asynccharaface,chara_2,FaceUnique03,CONT,0
 
@@ -338,7 +338,7 @@ asyncseplay,setag3_11,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,ルディア,彼のところに行っていいですよ。<br>空いている部屋も、好きに使ってくださいね♪,300301000,vc_10010100023_012_01,chara_2
+message,ルディア,You may go to him. And feel free to use an empty room as you like!♪<br> ,300301000,vc_10010100023_012_01,chara_2
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -349,7 +349,7 @@ asyncseplay,setag3_12,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ローザ,そ、それは、あの……っ。<br>……はい。お言葉に甘えさせていただきます。,100101000X,vc_10010100023_013_01,chara_1
+message,ローザ,W-well，that is，um... Yes. I gratefully accept your offer.<br> ,100101000X,vc_10010100023_013_01,chara_1
 
 window,off
 wait,0.15
@@ -403,9 +403,9 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ローザ,――司令官殿～！,100101000X,vc_10010100023_014_01,chara_1
+message,ローザ,—Commander!<br> ,100101000X,vc_10010100023_014_01,chara_1
 
-message,<user>,ん？　どうした、ローザ。仕事はいいのか？
+message,<user>,Hm? What's up，Rosa? What about work?<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -416,9 +416,9 @@ asyncseplay,setag3_14,se4800002,0,1,CONT,0
 asynccharaemo,chara_1,Heart,CONT,0
 
 
-message,ローザ,は、はい。それなのですが……よ、よろしければ、ですね。<br>わたしの上達ぶりを確認していただきたいのですが……？,100101000X,vc_10010100023_015_01,chara_1
+message,ローザ,Y-yes. Actually... if you wouldn't mind，I'd like you to see how much<br>I've improved...?<br> ,100101000X,vc_10010100023_015_01,chara_1
 
-message,<user>,上達ぶり……？　……ああ、そういうことか。もちろん、いいぞ。<br>俺も、なんていうか……またお前としたかったしな。
+message,<user>,Progress...? Ah，I see. Sure，I'm up for it. I mean... I wanted to do<br>this with you again too.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -429,7 +429,7 @@ asyncseplay,setag3_15,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ローザ,ほ、本当ですか……！？　で、では……精一杯、鍛錬の成果を<br>お見せしますのでっ……ご指導、よろしくお願いします……っ！,100101000X,vc_10010100023_016_01,chara_1
+message,ローザ,R-really...!? Th-then... I will show you the very best of my<br>training... So please... guide me，Commander...!<br> ,100101000X,vc_10010100023_016_01,chara_1
 
 window,off
 bgmstop,bgmtag3_1,0.5

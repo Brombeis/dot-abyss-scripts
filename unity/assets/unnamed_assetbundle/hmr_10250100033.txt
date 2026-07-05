@@ -30,9 +30,9 @@ asynccharaface,chara_2,FaceNormal,STOP,2
 
 asynccharareaction,chara_2,Nod,1,STOP
 window,on,0.15
-message,アーデルハイト,The examination shows no damaged parts whatsoever.<br>In other words，you are in perfect health.<br> ,,vc_10250100033_001_01
+message,アーデルハイト,The examination results show no broken parts whatsoever. In other<br>words，you are in perfect health.<br> ,,vc_10250100033_001_01
 
-message,,Afterward，I had Wendy checked at the workshop just to be safe.<br>Adelheid's conclusion was exactly as stated.<br> 
+message,,After the incident，as a precaution，I had Wendy's body checked in the<br>workshop. Adelheid's diagnosis was as above.<br> 
 
 window,off
 wait,0.15
@@ -61,7 +61,7 @@ charamove,chara_1,LinearTarget,X,200,0.3
 
 asynccharareaction,chara_1,Hop,1,CONT
 window,on,0.15
-message,ウェンディ,R-really? Nothing is wrong at all?<br>Truly?<br> ,,vc_10250100033_002_01
+message,ウェンディ,R-really? I'm not broken anywhere? Are you sure?<br> ,,vc_10250100033_002_01
 
 asyncskipwait
 
@@ -72,9 +72,9 @@ asyncseplay,setag3_2,se4800019,0,1,CONT
 asynccharaemo,chara_2,Elated,STOP
 
 asynccharareaction,chara_2,Nod,1,STOP
-message,アーデルハイト,I have no reason to lie.<br>I'll say it again: there is nothing wrong with your body.<br> ,,vc_10250100033_003_01
+message,アーデルハイト,I have no reason to lie. To reiterate，there is nothing wrong with<br>your body.<br> ,,vc_10250100033_003_01
 
-message,,She'd kept insisting she was going to break，but... well，figures.<br> 
+message,,She herself kept saying she'd break，but... well，I guess that's just<br>how these things go.<br> 
 
 window,off
 wait,0.15
@@ -90,7 +90,7 @@ asynccharaemo,chara_1,Shy,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
 window,on,0.15
-message,ウェンディ,Th-this is so embarrassing... auuu...<br> ,,vc_10250100033_004_01
+message,ウェンディ,Th-this is so embarrassing... *whimper*<br> ,,vc_10250100033_004_01
 
 charaface,chara_2,EyeClose
 charaface,chara_2,FaceNormal
@@ -99,14 +99,14 @@ asyncshake,CHARA,chara_2,20,0,0.5,1,off,off,0,off,STOP
 
 asynccharaface,chara_2,EyeOpen,STOP,1.5
 asynccharaface,chara_2,FaceNormal,STOP,1.5
-message,アーデルハイト,That said，you should take care not to run<br>the special reactor at full power too often.<br> ,,vc_10250100033_005_01
+message,アーデルハイト,That said，it would be best not to run the special magic furnace at<br>full power too often.<br> ,,vc_10250100033_005_01
 
 charaface,chara_2,FaceSad
 
 asyncseplay,setag3_4,se4800014,0,1,CONT
 
 asynccharaemo,chara_2,Silence,STOP
-message,アーデルハイト,There's a risk it could go haywire and stay active permanently.<br> ,,vc_10250100033_006_01
+message,アーデルハイト,If it goes out of control，it could become constantly active.<br> ,,vc_10250100033_006_01
 
 charaface,chara_1,FaceUnique02
 
@@ -117,7 +117,7 @@ asyncseplay,setag3_5,se4800017,0,1,CONT
 asynccharareaction,chara_1,Shake,1,STOP
 asynccharaemo,chara_1,Shock,STOP
 
-message,ウェンディ,You mean... even in my normal state，I'd feel<br>sexually aroused all the time...?<br> ,,vc_10250100033_007_01
+message,ウェンディ,So that means... even under normal conditions，I'd feel aroused...<br>and I'd be sensitive...?<br> ,,vc_10250100033_007_01
 
 charaface,chara_2,FaceFun
 
@@ -125,7 +125,7 @@ asynccharareaction,chara_2,Nod,1,STOP
 
 asynccharaface,chara_2,EyeOpen,STOP,2
 asynccharaface,chara_2,FaceNormal,STOP,2
-message,アーデルハイト,Precisely. Unless you want everyone calling you a 'perverted<br>automaton，' exercise restraint.<br> ,,vc_10250100033_008_01
+message,アーデルハイト,Precisely. If you don't want to be called a ""perverted automaton，"" I<br>suggest you exercise restraint.<br> ,,vc_10250100033_008_01
 
 charaface,chara_1,FaceSad
 
@@ -141,7 +141,7 @@ asynccharareaction,chara_1,Nod,1,STOP,6
 asynccharaemo,chara_1,Shy,STOP,6
 
 asynccharaface,chara_1,FaceUnique02,STOP,6
-message,ウェンディ,Uuu... you're right，I definitely don't want to be called that...<br>B-but... if Commander called me that... I wouldn't really mind...<br> ,,vc_10250100033_009_01
+message,ウェンディ,*whimper*... I really don't want to be called that... B-but... if<br>it's from the Commander，then... I wouldn't really mind...<br> ,,vc_10250100033_009_01
 
 window,off
 wait,0.15
@@ -165,7 +165,7 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
 window,on,0.15
-message,,As Wendy gazed at me shyly，I begged her to give me a break —<br>she was the one making this awkward for me.<br> 
+message,,Wendy gave me an embarrassed look，so I asked her to spare me—it was<br>making me uncomfortable.<br> 
 
 
 window,off

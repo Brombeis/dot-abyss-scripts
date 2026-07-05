@@ -35,7 +35,7 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,BePeevish,STOP
 
 window,on,0.15
-message,ライム,まったく……必要である以上、働くのは構わないけど……<br>あの男がオーナーだっていうのが気に入らないわね……,,vc_10360100021_001_01
+message,ライム,Honestly... I don't mind working since it's necessary，but I can't<br>stand that man being the Owner.<br> ,,vc_10360100021_001_01
 
 asynccharareaction,chara_1,Shake,1,STOP
 
@@ -45,7 +45,7 @@ asynccharaemo,chara_1,Sweat,STOP
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,ライム,まあいいわ、お客様に罪はないし。<br>レイゼリア様の副官として、しっかり仕事はしましょう。,,vc_10360100021_002_01
+message,ライム,Oh well，the clients are blameless. As Lady Reyzeria's adjutant，I'll<br>do my job properly.<br> ,,vc_10360100021_002_01
 
 window,off
 wait,0.15
@@ -71,7 +71,7 @@ asynccharaemo,chara_2,Speak,STOP
 charapose,chara_2,2
 
 window,on,0.15
-message,ルディア,ライムさん、ちょっといいかしら？<br>あなたに特別な指名があるんだけど……,,vc_10360100021_003_01
+message,ルディア,Lime，do you have a moment? There's a special request for you...<br> ,,vc_10360100021_003_01
 
 asyncseplay,setag1_4,se4800009,0,1,CONT
 
@@ -79,7 +79,7 @@ asynccharaemo,chara_1,Question,STOP
 
 asynccharaface,chara_1,FaceSurprise,STOP
 
-message,ライム,特別な……？　まさかどこかの国の高官でも来ましたか？,,vc_10360100021_004_01
+message,ライム,Special...? Don't tell me a high-ranking official from some country<br>has come?<br> ,,vc_10360100021_004_01
 
 asynccharareaction,chara_2,Shake,1,STOP
 
@@ -88,7 +88,7 @@ asyncseplay,setag1_5,se4800007,0,1,CONT
 asynccharaemo,chara_2,Panic,STOP
 
 asynccharaface,chara_2,FaceSad,STOP
-message,ルディア,いいえ、この店はそのぐらいで特別扱いはしないわ。<br>そのお客様は……女の子、なのよ。,,vc_10360100021_005_01
+message,ルディア,No，we don't give special treatment for that sort of thing here. That<br>client... is a girl.<br> ,,vc_10360100021_005_01
 
 asynccharareaction,chara_1,Shake,1,STOP
 
@@ -98,7 +98,7 @@ asynccharareaction,chara_1,Shake,1,STOP
 asynccharaemo,chara_1,Shock,STOP
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,ライム,女の子、ですって……！？,,vc_10360100021_006_01
+message,ライム,A girl...!?<br> ,,vc_10360100021_006_01
 
 
 window,off
@@ -126,7 +126,7 @@ wait,0.5
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
 window,on,0.15
-message,,ルディアの視線を追うと、娼館の入口脇の椅子でどこか不安そうな女性が<br>座っているのが見えた。歳はライムよりも少し下といったところか。
+message,,Following Ludia's gaze，Lime saw a woman sitting on a chair by the<br>brothel entrance，looking somewhat anxious. She seemed to be a few years younger than Lime.<br> 
 
 
 window,off
@@ -156,14 +156,14 @@ asynccharaemo,chara_2,Sweat,STOP
 charapose,chara_2,1
 
 window,on,0.15
-message,ルディア,詳しい事情は聞いていないんだけど<br>ライムさん、相手はあなたがいいんだそうよ。,,vc_10360100021_007_01
+message,ルディア,I don't know the details，but Lime，it seems she specifically<br>requested you.<br> ,,vc_10360100021_007_01
 
 asyncseplay,setag1_8,se4800009,0,1,CONT
 
 asynccharaemo,chara_1,Question,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
-message,ライム,あんな綺麗で可憐な子が、わたくしを……？<br>嬉しい……の、かしら。どう思えばいいのか、難しいけど……,,vc_10360100021_008_01
+message,ライム,A girl that beautiful and lovely wants me...? I wonder if I should<br>be happy... It's hard to know how to feel，but...<br> ,,vc_10360100021_008_01
 
 asynccharareaction,chara_2,Nod,1,STOP
 
@@ -172,7 +172,7 @@ asyncseplay,setag1_9,se4800006,0,1,CONT
 asynccharaemo,chara_2,Trouble,STOP
 
 asynccharaface,chara_2,FaceSad,STOP
-message,ルディア,そうなるわよね……。<br>受けるか受けないかは自由よ、あなたに任せるわ。,,vc_10360100021_009_01
+message,ルディア,I figured as much... It's your choice whether to accept or not. I'll<br>leave it up to you.<br> ,,vc_10360100021_009_01
 
 
 
@@ -221,13 +221,13 @@ asynccharaemo,chara_1,Trouble,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
 window,on,0.15
-message,ライム,（どうしましょう……働く覚悟は持ってたけど、<br>まさかこんなことになるだなんて思ってなかったわ……）,,vc_10360100021_010_01
+message,ライム,What should I do... I was ready to work，but I never thought it would<br>come to this...<br> ,,vc_10360100021_010_01
 
 asyncseplay,setag1_11,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,STOP
 
-message,ライム,（それに、女性との行為なんてしたことがないし……。<br>支払ってもらったお金に相応しい奉仕ができる自信もない……）,,vc_10360100021_011_01
+message,ライム,Besides，I've never been with a woman... And I'm not confident I can<br>provide service worth the money she'd pay...<br> ,,vc_10360100021_011_01
 
 
 asynccharareaction,chara_1,Nod,1,STOP
@@ -238,7 +238,7 @@ asynccharaemo,chara_1,Sweat,STOP
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,ライム,（なにより、こうして躊躇っている気持ちが彼女に伝われば<br>傷つける結果にもなるかもしれないし……今回は断りましょう）,,vc_10360100021_012_01
+message,ライム,Above all，if she picks up on my hesitation，it might end up hurting<br>her... I'll turn it down this time.<br> ,,vc_10360100021_012_01
 
 window,off
 wait,0.15
@@ -254,7 +254,7 @@ wait,0.1
 
 asynccharaface,chara_1,FaceSurprise,STOP
 window,on,0.15
-message,,心に決めて、ライムは顔を上げる。<br>その視線の先に、どこか寂しそうにうつむく女性の姿が見えた。
+message,,Having made up her mind，Lime looked up. In her line of sight stood a<br>woman，her head bowed with a lonely expression.<br> 
 
 
 window,off
@@ -276,7 +276,7 @@ asynccharaemo,chara_1,Trouble,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
 window,on,0.15
-message,ライム,（どうしてそんな顔を……う、うぅぅぅっ！）,,vc_10360100021_013_01
+message,ライム,Why is she making that face... *whimper*!<br> ,,vc_10360100021_013_01
 
 
 window,off
@@ -319,7 +319,7 @@ asyncseplay,setag1_14,se4800022,0,1,CONT
 asynccharaemo,chara_1,Speak,STOP
 
 window,on,0.15
-message,ライム,……ル、ルディア、さん。<br>わたくし、このお仕事――,,vc_10360100021_014_01
+message,ライム,...L-Ludia... I，this job—<br> ,,vc_10360100021_014_01
 
 
 labeljump,b

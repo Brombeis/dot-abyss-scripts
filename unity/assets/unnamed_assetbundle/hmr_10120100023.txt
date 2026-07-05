@@ -25,7 +25,7 @@ asyncseplay,setag3_1,se4800004,0,1,CONT
 asynccharareaction,chara_2,Nod,1,CONT
 asynccharaemo,chara_2,Laugh,CONT
 window,on,0.15
-message,ルディア,お疲れ様。<br>さっきのお客様、あなたのこと褒めてたわよ。,,vc_10120100023_001_01
+message,ルディア,Good work today. That client from earlier was praising you.<br> ,,vc_10120100023_001_01
 
 asyncskipwait
 
@@ -37,11 +37,11 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Flower,STOP
 
 asynccharaface,chara_1,FaceShy,STOP,3
-message,エティア,ほ、本当ですか？<br>よかった……うれしいです……あはっ……,,vc_10120100023_002_01
+message,エティア,R-really? I'm glad... I'm happy... Ahah...<br> ,,vc_10120100023_002_01
 
 charaface,chara_2,EyeClose
 charaface,chara_2,FaceNormal
-message,ルディア,実を言うとね、あなたのことだから、<br>いざとなったら泣いて逃げ出すんじゃないかって心配してたの。,,vc_10120100023_003_01
+message,ルディア,To be honest，because it's you，I was worried you might cry and run<br>away when it came down to it.<br> ,,vc_10120100023_003_01
 
 charaface,chara_2,FaceHappy
 
@@ -49,21 +49,21 @@ asyncseplay,setag3_3,se4800004,0,1,CONT
 
 asynccharareaction,chara_2,Nod,1,STOP
 asynccharaemo,chara_2,Laugh,STOP
-message,ルディア,でも、杞憂だったみたいね。,,vc_10120100023_004_01
+message,ルディア,But it looks like I was worried for nothing.<br> ,,vc_10120100023_004_01
 
 charaface,chara_1,FaceUnique02
 
 asyncseplay,setag3_4,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,STOP
-message,エティア,に、逃げたりなんてしませんよ……！<br>以前のわたしなら、そうしていたかもしれませんけど……,,vc_10120100023_005_01
+message,エティア,I-I wouldn't run away...! The old me might have，but...<br> ,,vc_10120100023_005_01
 
 charaface,chara_1,FaceUnique01
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,STOP
 
 asynccharaface,chara_1,FaceFun,STOP,4.5
-message,エティア,で、でも……誰かに気持ちよくなってもらうのは、<br>とても誇らしいことだって分かりましたから……,,vc_10120100023_006_01
+message,エティア,B-but... I learned that being made to feel good by someone is<br>something to be proud of...<br> ,,vc_10120100023_006_01
 
 charaface,chara_2,EyeOpen
 charaface,chara_2,FaceNormal
@@ -74,10 +74,10 @@ asyncseplay,setag3_5,se4800013,0,1,CONT
 
 asynccharareaction,chara_2,Jump,1,STOP
 asynccharaemo,chara_2,Spirits,STOP
-message,ルディア,少しは自信が持てるようになったみたいね。<br>今のあなた、いい顔してるわよ、フフッ♪,,vc_10120100023_007_01
+message,ルディア,It seems you've gained some confidence. You look good now! Fufu!♪<br> ,,vc_10120100023_007_01
 
 charaface,chara_2,FaceUnique03
-message,ルディア,それで、どうする？<br>早速司令官君に会いにいくの？,,vc_10120100023_008_01
+message,ルディア,So，what are you going to do? Going to see Commander right away?<br> ,,vc_10120100023_008_01
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
@@ -88,7 +88,7 @@ asyncseplay,setag3_6,se4800012,0,1,CONT
 
 asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
-message,エティア,あ……いえ、それは……も、もうちょっとだけ、<br>自分に自信が持てるようになってからにしようかなって……,,vc_10120100023_009_01
+message,エティア,Ah... no，that's... I think I'll wait until I'm a bit more<br>confident...<br> ,,vc_10120100023_009_01
 
 charaface,chara_1,FaceHappy
 
@@ -96,7 +96,7 @@ asyncseplay,setag3_7,se4800018,0,1,CONT
 
 asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Flower,STOP
-message,エティア,なので、それまではお仕事がんばります……！,,vc_10120100023_010_01
+message,エティア,So，I'll keep working hard until then...!<br> ,,vc_10120100023_010_01
 
 charaface,chara_2,FaceFun
 
@@ -112,7 +112,7 @@ asyncseplay,setag3_9,se4800013,0,1,STOP,5.5
 asynccharareaction,chara_2,Jump,1,STOP,5.5
 asynccharaemo,chara_2,Spirits,STOP,5.5
 
-message,ルディア,ふふっ、真面目な子ね。<br>早く会いに行けるといいわね、大好きな司令官君に。,,vc_10120100023_011_01
+message,ルディア,Fufu，you're such a diligent girl. I hope you get to see your beloved<br>Commander soon.<br> ,,vc_10120100023_011_01
 
 charaface,chara_1,FaceShy
 
@@ -121,7 +121,7 @@ asynccharareaction,chara_1,Nod,1,STOP
 asyncseplay,setag3_10,se4800002,0,1,CONT
 
 asynccharaemo,chara_1,Heart,STOP
-message,エティア,は、はい……！<br>えへへ……,,vc_10120100023_012_01
+message,エティア,Y-yes...! Ehehe...<br> ,,vc_10120100023_012_01
 
 
 

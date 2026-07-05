@@ -57,7 +57,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,ルディア,クロエさん……ちょっと相談があるんだけど、いいかしら？,300301000,vc_10490100021_001_01,chara_2
+message,ルディア,Chloe... I have something I'd like to talk to you about. Do you<br>mind?<br> ,300301000,vc_10490100021_001_01,chara_2
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -68,7 +68,7 @@ asyncseplay,setag1_2,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,クロエ,ど、どうしたんですか？ <br>そんなふうに真剣に言われると、ちょっと怖いんですがぁ……,104901000X,vc_10490100021_002_01,chara_1
+message,クロエ,Wh-what is it? \nWhen you say it so seriously like that，it's a<br>little scary...<br> ,104901000X,vc_10490100021_002_01,chara_1
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -79,7 +79,7 @@ asyncseplay,setag1_3,se4800014,0,1,CONT,0
 asynccharaemo,chara_2,Silence,CONT,0
 
 
-message,ルディア,その……クロエさんに、<br>２人同時に相手してほしいってお客様が来てるのよ……,300301000,vc_10490100021_003_01,chara_2
+message,ルディア,Well... there are clients who want you to handle both of them at<br>once...<br> ,300301000,vc_10490100021_003_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -90,7 +90,7 @@ asyncseplay,setag1_4,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,クロエ,ふ、２人同時！？<br>そ、そんなこと私、できるんでしょうか……！？,104901000X,vc_10490100021_004_01,chara_1
+message,クロエ,T-two at once!? C-can I even do something like that...!?<br> ,104901000X,vc_10490100021_004_01,chara_1
 
 charapose,chara_2,2
 
@@ -103,7 +103,7 @@ asyncseplay,setag1_5,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,ルディア,お客様からの要望だから、<br>クロエさんのできる範囲で頑張ってもらえれば大丈夫よ。,300301000,vc_10490100021_005_01,chara_2
+message,ルディア,It's what the clients want，so as long as you do your best within<br>your abilities，it'll be fine.<br> ,300301000,vc_10490100021_005_01,chara_2
 
 charapose,chara_2,1
 
@@ -116,7 +116,7 @@ asyncseplay,setag1_6,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,ルディア,もちろん、２人分のお金は頂くわよ。<br>クロエさんにも、ちゃんと倍の報酬を払うから。,300301000,vc_10490100021_006_01,chara_2
+message,ルディア,Of course，we'll charge for two people. \nAnd you'll get double the<br>pay as well.<br> ,300301000,vc_10490100021_006_01,chara_2
 
 window,off
 wait,0.15
@@ -162,7 +162,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,クロエ,ほ、報酬が、倍……！？<br>それだけあれば、姫騎士への推し活がより一層充実したものに……！,104901000X,vc_10490100021_007_01,chara_1
+message,クロエ,D-double the pay...!? With that much，I can really boost my fan<br>activities for the Princess Knight even more...!<br> ,104901000X,vc_10490100021_007_01,chara_1
 
 window,off
 wait,0.15
@@ -217,7 +217,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,クロエ,わ、分かりました！<br>自信はないですが、やってみます……！,104901000X,vc_10490100021_008_01,chara_1
+message,クロエ,O-okay! I'm not confident，but I'll give it a try...!<br> ,104901000X,vc_10490100021_008_01,chara_1
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -262,7 +262,7 @@ asyncseplay,setag1_9,se4300003,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,部屋のドアを開き、２人の男が姿を見せた。<br>期待に満ちた表情の男たちを、クロエは緊張気味に出迎える。
+message,,The door opened，and two men appeared. \nTheir faces brimming with<br>expectation，Chloe greeted them with a hint of nervousness.<br> 
 
 window,off
 wait,0.15
@@ -286,7 +286,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,クロエ,（ほ、本当に２人も……！<br>これからこの人たちを、私１人で……うぅ～……）,104901000X,vc_10490100021_009_01,chara_1
+message,クロエ,(R-really two people...! I'm going to have to handle them all by<br>myself... ugh...)<br> ,104901000X,vc_10490100021_009_01,chara_1
 
 window,off
 wait,0.15
@@ -330,15 +330,15 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,クロエ,こ、こんにちは～…… <br>えへへ……よ、よろしくお願いしますね～……,104901000X,vc_10490100021_010_01,chara_1
+message,クロエ,H-hello... \nEhehe... p-please go easy on me...<br> ,104901000X,vc_10490100021_010_01,chara_1
 
-message,,必死の笑顔を浮かべ、よそ行きの挨拶をするクロエ。 <br>しかし男たちは顔を見合わせ、ひそひそと声を交わす。
+message,,Chloe forced a smile and gave a polite greeting. \nBut the men<br>exchanged glances and whispered among themselves.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
-message,男性客Ａ,ほら、やっぱりそうだろ？,900000001
+message,男性客Ａ,See，I told you，right?<br> ,900000001
 
-message,男性客Ｂ,ほんとだ……顔も、声も、あの胸元のほくろも……！ <br>間違いなくクロエさんだ！,900000001
+message,男性客Ｂ,It really is... her face，voice，even that mole on her chest...!<br>There's no doubt，it's Chloe!<br> ,900000001
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -347,11 +347,11 @@ asyncseplay,setag1_12,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,クロエ,は、はい、クロエですが…… <br>えっと……どういうお話で……？,104901000X,vc_10490100021_011_01,chara_1
+message,クロエ,Y-yes，I'm Chloe... \nUm... what is this about...?<br> ,104901000X,vc_10490100021_011_01,chara_1
 
-message,男性客Ａ,あー、俺たちのこと覚えてないのか？,900000001
+message,男性客Ａ,Ah，you don't remember us?<br> ,900000001
 
-message,男性客Ｂ,ほら、ミレスガルドで一緒に姫騎士のおっかけをしてた……,900000001
+message,男性客Ｂ,Come on，we used to chase after the Princess Knight together in<br>Milesgard...<br> ,900000001
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -362,7 +362,7 @@ asyncseplay,setag1_13,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,クロエ,ふぇぇっ！？,104901000X,vc_10490100021_012_01,chara_1
+message,クロエ,Eep!<br> ,104901000X,vc_10490100021_012_01,chara_1
 
 window,off
 wait,0.15
@@ -388,7 +388,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,クロエ,（同好の方……それもミレスガルドにいた頃の……！？<br>ど、どうしよう、姫騎士さんに夢中で、まったく覚えてません……！）,104901000X,vc_10490100021_013_01,chara_1
+message,クロエ,(Fellow fans... from my days in Milesgard...! \nW-what do I do? I<br>was so obsessed with the Princess Knight that I don't remember them at all...!)<br> ,104901000X,vc_10490100021_013_01,chara_1
 
 window,off
 wait,0.15
@@ -405,9 +405,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,男性客Ａ,そ、そりゃ覚えてないですよね！<br>でも、俺たちの間では、クロエさんは有名だったんですから！,900000001
+message,男性客Ａ,O-of course you don't remember us! \nBut you were famous among us!<br> ,900000001
 
-message,男性客Ｂ,そうそう！ <br>騎士活界隈の姫として！,900000001
+message,男性客Ｂ,That's right! As the Princess of the knight fandom community!<br> ,900000001
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -418,9 +418,9 @@ asyncseplay,setag1_15,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,クロエ,ひ、姫ぇっ！？ <br>私なんかが……！？,104901000X,vc_10490100021_014_01,chara_1
+message,クロエ,P-Princess!? Someone like me...!?<br> ,104901000X,vc_10490100021_014_01,chara_1
 
-message,,その言葉が嘘ではないと示すように、 <br>男たちの目は興奮の色に染まっていた。そして――
+message,,As if to prove their words weren't lies，the men's eyes burned with<br>excitement. And then—<br> 
 
 labeljump,b
 

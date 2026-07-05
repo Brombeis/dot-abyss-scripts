@@ -21,9 +21,9 @@ bgmplay,bgmtag3_1,bgm0035,1
 charashow,chara_1,0.3
 
 window,on,0.15
-message,,――それからしばらくして。<br>フェイリンはすっかり元気になり、心なしか血色も良くなったようだ。
+message,,Some time later，Feilin had completely recovered，and if anything，her<br>complexion seemed better.<br> 
 
-message,<user>,元気になって良かったな。
+message,<user>,Good to see you've recovered.<br> 
 
 
 
@@ -33,45 +33,45 @@ asynccharareaction,chara_1,Jump,1,CONT
 asynccharaemo,chara_1,Flower,CONT
 
 charaface,chara_1,FaceHappy
-message,フェイリン,助けていただき、ありがとうございました！<br>師父はわたしの命の恩人です！,,vc_10510100013_001_01
+message,フェイリン,Thank you so much for saving me! Master，you are my savior!<br> ,,vc_10510100013_001_01
 
 charaface,chara_1,FaceUnique02
-message,フェイリン,まぁ、命の方はもうないんですけど……,,vc_10510100013_002_01
+message,フェイリン,Well，it's not like I have a life left to save，but...<br> ,,vc_10510100013_002_01
 
-message,,しかし、『錬珍術』の本には気になる記述があった。<br>それを彼女に伝える。
+message,,However，there was a troubling passage in the book on Alchemy<br>(Comedic). I told her about it.<br> 
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
-message,<user>,実はな、本によると、<br>この『精気注魂の法』は定期的にやらないと良くないらしいぞ。
+message,<user>,Actually，according to the book，this Spirit Infusion Technique needs<br>to be performed regularly，or it's not good.<br> 
 
 
 
 charaface,chara_1,FaceSurprise
-message,フェイリン,え？　そうなんですね……<br>でも、それはそれで……すごく、気持ち良かったし……,,vc_10510100013_003_01
+message,フェイリン,Huh? Is that so... But，well... it did feel really good...<br> ,,vc_10510100013_003_01
 
-message,<user>,なんだか嬉しそうだな……。でも俺が面倒見れる時は大丈夫なんだが、<br>四六時中相手するわけにもいかんしなぁ……
+message,<user>,You seem happy about that... It's fine when I can look after you，but<br>I can't be there all the time.<br> 
 
 asyncseplay,setag3_2,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,CONT
 
 charaface,chara_1,FaceSad
-message,フェイリン,あ……そうですよね。<br>師父はお忙しい立場の方ですし……,,vc_10510100013_004_01
+message,フェイリン,Ah... you're right. Master is a busy person，after all...<br> ,,vc_10510100013_004_01
 
-message,フェイリン,え～と……<br>では、わたしが娼館で働かせていただくなんてのはどうでしょうか？,,vc_10510100013_005_01
+message,フェイリン,Um... then，how about I work at the brothel?<br> ,,vc_10510100013_005_01
 
-message,<user>,フェイリンが娼館で？
+message,<user>,Feilin，at the brothel?<br> 
 
 asyncseplay,setag3_3,se4800006,0,1,CONT
 
 asynccharaemo,chara_1,Trouble,CONT
 
 charaface,chara_1,FaceSad
-message,フェイリン,はい。わたしみたいな死体とエッチがしたいなんていう<br>お客さんがいるかは分かりませんが……,,vc_10510100013_006_01
+message,フェイリン,Yes. I do not know if there are customers who would want to have sex<br>with a corpse like me，but...<br> ,,vc_10510100013_006_01
 
-message,<user>,（いや、フェイリンの抱き心地は独特で、<br>アレはアレでクセになりそうなくらい気持ち良かったからな……）
+message,<user>,(No，Feilin's embrace is unique，and it felt so good it could become<br>addictive...)<br> 
 
-message,<user>,分かった。ルディアには俺の方から相談しておこう。<br>だが、身体の具合が悪くなったらまずは俺のとこに来てくれ。
+message,<user>,Got it. I'll talk to Ludia about it. But if you feel unwell，come to<br>me first.<br> 
 
 
 asyncseplay,setag3_4,se4800002,0,1,CONT
@@ -79,11 +79,11 @@ asyncseplay,setag3_4,se4800002,0,1,CONT
 asynccharaemo,chara_1,Heart,CONT
 
 charaface,chara_1,FaceShy
-message,フェイリン,はい！　分かりました！<br>わたしも師父が相手の方が嬉しいですから……,,vc_10510100013_007_01
+message,フェイリン,Yes，I understand! I would be happier if Master is my partner，after<br>all...<br> ,,vc_10510100013_007_01
 
-message,,フェイリンはそう言って頬を染める。<br>『錬珍術』の効果か、その血色は生きている人間と変わらない。
+message,,Feilin said that，her cheeks flushing. Perhaps due to the effects of<br>Alchemy (Comedic)，her complexion was no different from a living person's.<br> 
 
-message,<user>,（ふむ。『錬珍術』をもっと詳しく調べれば、<br>フェイリンを生き返らせる方法も見つかるかもしれないな……）
+message,<user>,(Hmm. If I research Alchemy (Comedic) more thoroughly，I might find a<br>way to bring Feilin back to life...)<br> 
 
 
 asyncseplay,setag3_5,se4800009,0,1,CONT
@@ -92,32 +92,32 @@ asynccharaemo,chara_1,Question,CONT
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
-message,フェイリン,あの……師父、どうかしました？<br>わたしの顔見て黙っちゃって……,,vc_10510100013_008_01
+message,フェイリン,Um... Master，is something wrong? You are staring at my face and you<br>have gone quiet...<br> ,,vc_10510100013_008_01
 
-message,<user>,いや、もう少しキョンシーについて調べてみようと思ったんだ。<br>もしかしたら元の身体に戻る方法も見つかるかもしれない。
+message,<user>,No，I thought I'd look into Jiangshi a bit more. Maybe we can find a<br>way to return you to your original body.<br> 
 
 asyncseplay,setag3_6,se4800003,0,1,CONT
 
 asynccharaemo,chara_1,Twinkle,CONT
 
 charaface,chara_1,FaceFun
-message,フェイリン,本当ですか！？<br>元の身体に戻れたら、その時は……,,vc_10510100013_009_01
+message,フェイリン,Is that true!? If I can get my original body back，then...!<br> ,,vc_10510100013_009_01
 
 charaface,chara_1,FaceShy
-message,,フェイリンがまた恥ずかしそうに顔を赤らめて俯いてしまう。
+message,,Feilin's face flushed red again，and she shyly lowered her head.<br> 
 
 
 
 asyncseplay,setag3_7,se4800002,0,1,CONT
 
 asynccharaemo,chara_1,Heart,CONT
-message,フェイリン,そ、その時は……さっきみたいに抱っこしてくださいね。<br>わたしの温もりも師父に感じてほしいですから……,,vc_10510100013_010_01
+message,フェイリン,Th-then，when that time comes... please hold me like you did earlier.<br>I want you to feel my warmth too，Master.<br> ,,vc_10510100013_010_01
 
-message,<user>,ハハッ、抱っこか。<br>分かった、約束するよ。
+message,<user>,Haha，a hug? Okay，I promise.<br> 
 
-message,,キョンシーを元の身体に戻す方法が本当にあるかは分からない。<br>しかし、純粋無垢で心優しいフェイリンの為ならば――
+message,,He didn't know if there really was a way to restore a Jiangshi to<br>her original body. But for Feilin，who was pure and kind-hearted—<br> 
 
-message,,<user>はキョンシーに関する古文書から最新の研究論文まで<br>あらゆる文献を読み漁る決意を固めるのであった。
+message,,The Commander steeled his resolve to pore over every document<br>related to Jiangshi，from ancient texts to the latest research papers.<br> 
 
 
 window,off

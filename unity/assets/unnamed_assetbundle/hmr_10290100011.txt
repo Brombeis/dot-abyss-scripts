@@ -27,7 +27,7 @@ bgmplay,bgmtag1_1,bgm0025,0.75,1
 
 
 window,on,0.15
-message,<user>,――よし、これで終わり、と。<br>やっと今日の仕事が片付いたが、もうこんな時間か……
+message,<user>,Alright，that's that. I've finally finished today's work，but it's<br>already this late...<br> 
 
 seplay,setag1_1,se4300001,0,1
 
@@ -37,9 +37,9 @@ seplay,setag1_2,se4300003,0,1
 
 charashow,chara_1,0.3
 
-message,ミルティーユ,しれーかんさま、いますか～？,,vc_10290100011_001_01
+message,ミルティーユ,Commander，are you there?<br> ,,vc_10290100011_001_01
 
-message,<user>,ミルティーユ……？<br>どうした、こんな遅い時間に。
+message,<user>,Myrtille...? What's wrong，at this late hour?<br> 
 
 asyncseplay,setag1_3,se4800007,0,1,CONT
 
@@ -48,33 +48,33 @@ asynccharaemo,chara_1,Panic,STOP
 asynccharaface,chara_1,FaceUnique01,STOP
 
 asynccharareaction,chara_1,nod,1,STOP
-message,ミルティーユ,ちょっとお話ができないかな～と思って来ちゃったんです～。,,vc_10290100011_002_01
+message,ミルティーユ,Mil thought maybe we could talk a little，so Mil came by.<br> ,,vc_10290100011_002_01
 
-message,<user>,仕事も終わったところだし、話ぐらいなら構わないぞ。<br>何か相談ごとでもあるのか？
+message,<user>,Since I just finished work，I don't mind chatting. Do you have<br>something you want to talk about?<br> 
 
-message,<user>,お菓子の国からこちらに来て、まだ慣れないか？<br>寮生活に不便や困ったことがあるならなんでも言ってくれ。
+message,<user>,Are you still not used to being here from Sweets Kingdom? If there's<br>anything inconvenient or troubling about dorm life，just let me know.<br> 
 
 asynccharareaction,chara_1,shake,0.4,STOP
 
 asynccharaface,chara_1,FaceFun,STOP
-message,ミルティーユ,ぜんぜん困ってなんてないですよぉ～<br>みんな優しくて、いい人ばっかりですし～。,,vc_10290100011_003_01
+message,ミルティーユ,Mil's not having any trouble at all. Everyone's kind，they're all<br>good people.<br> ,,vc_10290100011_003_01
 
 asynccharaface,chara_1,FaceSad,STOP
 
 asynccharareaction,chara_1,nod,1,STOP
-message,ミルティーユ,ただ……ミルの世界のお部屋では、<br>た～くさんの、可愛いくまさんのぬいぐるみと一緒に寝ていたんです～。,,vc_10290100011_004_01
+message,ミルティーユ,But... in Mil's room back in Mil's world，Mil used to sleep with sooo<br>many cute Mr. Bear plushies.<br> ,,vc_10290100011_004_01
 
 asyncseplay,setag1_4,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,STOP
 
 asynccharareaction,chara_1,shake,0.4,STOP
-message,ミルティーユ,寮のお部屋にはみんながいないから、<br>なんだか寂しくて眠れないんですよぉ～！,,vc_10290100011_005_01
+message,ミルティーユ,They're not in the dorm room with Mil，so Mil feels so lonely Mil<br>can't sleep!<br> ,,vc_10290100011_005_01
 
 asynccharaface,chara_1,FaceShy,STOP
-message,ミルティーユ,しれーかんさま、<br>今日だけでいいから一緒に寝てくれませんか？,,vc_10290100011_006_01
+message,ミルティーユ,Commander，could you please sleep with Mil，just for tonight?<br> ,,vc_10290100011_006_01
 
-message,<user>,……くま扱いか、と思わなくもないが。<br>探索者の体調管理は司令官の務めだしな、寝るだけなら構わないぞ。
+message,<user>,I can't help feeling like I'm being treated as a bear，but... It's a<br>Commander's duty to look after the explorers' health，so if it's just sleeping，I don't mind.<br> 
 
 asyncseplay,setag1_5,se4800013,0,1,CONT
 
@@ -84,7 +84,7 @@ asynccharaemo,chara_1,Spirits,STOP
 asynccharareaction,chara_1,Hop,1,STOP
 
 asynccharaface,chara_1,FaceHappy,STOP
-message,ミルティーユ,ありがと～しれーかんさま～。,,vc_10290100011_007_01
+message,ミルティーユ,Thank you，Commander.<br> ,,vc_10290100011_007_01
 
 window,off
 wait,0.15
@@ -101,7 +101,7 @@ asynccharaface,chara_1,FaceNormal,STOP
 transitionFade,Tra02,in,black,1
 
 window,on,0.15
-message,<user>,可愛いぬいぐるみなんてどこにもない部屋だが<br>それでも大丈夫か？
+message,<user>,There's not a single cute plushie in this room，but is that still<br>okay?<br> 
 
 asyncseplay,setag1_6,se4800022,0,1,CONT
 
@@ -110,7 +110,7 @@ asynccharaemo,chara_1,Speak,STOP
 asynccharaface,chara_1,FaceUnique01,STOP
 
 asynccharareaction,chara_1,Nod,1,STOP
-message,ミルティーユ,うん、お部屋にしれーかんさまがいてくれたら<br>とっても安心するから～。,,vc_10290100011_008_01
+message,ミルティーユ,mm，having you here in the room makes Mil feel so safe.<br> ,,vc_10290100011_008_01
 
 window,off
 wait,0.15
@@ -124,7 +124,7 @@ wait,0.1
 
 
 window,on,0.15
-message,<user>,（……信用されてるなあ。<br>こっちはミルティーユに興奮しないよう、何とか抑えてるってのに）
+message,<user>,(...She really trusts me. And here I am，barely restraining myself<br>from getting excited around Myrtille.)<br> 
 
 window,off
 wait,0.15
@@ -144,13 +144,13 @@ asynccharareaction,chara_1,nod,1,STOP
 
 asynccharaface,chara_1,FaceShy,STOP
 window,on,0.15
-message,ミルティーユ,でも……ちょっとだけ胸がドキドキしてるみたいで<br>すぐには寝られないかもしれません～。,,vc_10290100011_009_01
+message,ミルティーユ,But... Mil's heart is pounding a little，so Mil might not be able to<br>sleep right away.<br> ,,vc_10290100011_009_01
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,ミルティーユ,少しお話してもいいですか～？,,vc_10290100011_010_01
+message,ミルティーユ,Can Mil talk a little?<br> ,,vc_10290100011_010_01
 
-message,<user>,……ああ、いくらでも付き合うよ。
+message,<user>,...Yeah，I'll listen as much as you like.<br> 
 
 crossfadeready
 
@@ -161,7 +161,7 @@ wait,0.1
 
 
 
-message,<user>,（……もしかすると、ミルティーユも同じ気持ち、なのかもしれないな）
+message,<user>,(...Perhaps Myrtille is feeling the same way.)<br> 
 
 window,off
 wait,0.15
@@ -189,11 +189,11 @@ asynccharareaction,chara_1,nod,1,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
 window,on,0.15
-message,ミルティーユ,ミルはお菓子の国でもお菓子作りばかりしていて、<br>何も知らないんだから～、なんてよく言われてたんですよぉ～。,,vc_10290100011_011_01
+message,ミルティーユ,In Sweets Kingdom，Mil was always just making sweets，so people often<br>said，""You don't know anything.""<br> ,,vc_10290100011_011_01
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,ミルティーユ,こっちの世界でも、ショーカンっていうところで働いてる子が<br>なんの仕事をしてるのかよく分からなくて～。,,vc_10290100011_012_01
+message,ミルティーユ,Even in this world，Mil still doesn't really understand what the<br>girls working at the Commander's place do...<br> ,,vc_10290100011_012_01
 
 window,off
 wait,0.15
@@ -206,7 +206,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（話をしている間に、段々とミルティーユの距離が近くなってる。<br>会話の内容も意味深なものが増えている、ような……）
+message,<user>,(As we talk，Myrtille is gradually drawing closer. And the things she<br>says seem to be becoming more suggestive...)<br> 
 
 window,off
 wait,0.15
@@ -222,14 +222,14 @@ asynccharareaction,chara_1,shake,0.4,STOP
 
 asynccharaface,chara_1,FaceAnger,STOP
 window,on,0.15
-message,ミルティーユ,話を聞いても、オトナの人がすることだよ～って<br>はっきりは教えてくれないんです～。,,vc_10290100011_013_01
+message,ミルティーユ,Even when Mil asks，they just say it's something adults do，and never<br>give Mil a clear answer...<br> ,,vc_10290100011_013_01
 
 asynccharaface,chara_1,FaceShy,STOP
-message,ミルティーユ,しれーかんさま……ミルに、教えて……くれませんか～？,,vc_10290100011_014_01
+message,ミルティーユ,Commander... would you... teach Mil...?<br> ,,vc_10290100011_014_01
 
-message,,本人に自覚があるのかは分からない。<br>しかしその声は、どこか誘っているようにも聞こえて――
+message,,It was unclear whether she herself was aware of it. But her voice<br>somehow sounded like an invitation—<br> 
 
-message,<user>,……ああ、教えてやる。<br>こっちに来い、ミルティーユ。
+message,<user>,...Yeah，I'll teach you. Come here，Myrtille.<br> 
 
 window,off
 bgmstop,bgmtag1_1,1
@@ -250,7 +250,7 @@ wait,1
 fade,In,Black,1
 
 window,on,0.15
-message,ミルティーユ,しれーかんさま、これでいいですか……？,,vc_10290100011_015_01
+message,ミルティーユ,Commander，is this okay...?<br> ,,vc_10290100011_015_01
 
 
 labeljump,b

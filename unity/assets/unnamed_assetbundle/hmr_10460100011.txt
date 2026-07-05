@@ -29,9 +29,9 @@ asyncseplay,setag1_1,se4800007,0,1,CONT
 asynccharaemo,chara_1,Panic,STOP
 
 window,on,0.15
-message,エルミア,うーむ、入るべきか、やめるべきか――。<br>悩ましい……,,vc_10460100011_001_01
+message,エルミア,Hmm... Should I go in or not... This is troubling.<br> ,,vc_10460100011_001_01
 
-message,<user>,ん？　エルミアじゃないか。<br>何をやっているんだ？
+message,<user>,Hm? Elmia? What are you doing?<br> 
 
 asyncseplay,setag1_2,se4800017,0,1,CONT
 
@@ -41,18 +41,18 @@ asynccharaemo,chara_1,Shock,STOP
 asynccharaface,chara_1,FaceSurprise,STOP
 
 asynccharareaction,chara_1,Jump,1,STOP
-message,エルミア,ひうっ！？,,vc_10460100011_002_01
+message,エルミア,Eep!<br> ,,vc_10460100011_002_01
 
-message,<user>,そんなに驚かなくてもいいだろ……。<br>どうしたんだ？　酒場に入りたいなら入ればいいじゃないか。
+message,<user>,You don't have to be that startled... What's wrong? If you want to<br>go to the tavern，just go in.<br> 
 
 asyncseplay,setag1_3,se4800008,0,1,CONT
 
 asynccharaemo,chara_1,Sweat,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
-message,エルミア,い、いやいやぁ～……。<br>酒場というのは、どうも苦手で……,,vc_10460100011_003_01
+message,エルミア,N-no，no... I'm not really comfortable in taverns...<br> ,,vc_10460100011_003_01
 
-message,<user>,へぇ。お酒が飲めないのか？
+message,<user>,Huh? You can't drink?<br> 
 
 asyncseplay,setag1_4,se4800007,0,1,CONT
 
@@ -62,14 +62,14 @@ asynccharareaction,chara_1,Shake,1,STOP
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,エルミア,いや、そうではなく、酒場って人が多いだろ？<br>私みたいなエルフが居ると、周囲にジロジロ見られてしまって……,,vc_10460100011_004_01
+message,エルミア,No，it's not that. Taverns have a lot of people，right? When an elf<br>like me is there，people stare at me...<br> ,,vc_10460100011_004_01
 
-message,<user>,まぁ、この周辺じゃエルフはあまり見かけないからなぁ……。<br>でも、そんな苦手な店の前で何をしていたんだ？
+message,<user>,Well，elves aren't common around here... But what were you doing in<br>front of a place you don't like?<br> 
 
 asynccharaface,chara_1,FaceSad,STOP
-message,エルミア,……人間観察だ。,,vc_10460100011_005_01
+message,エルミア,...People-watching.<br> ,,vc_10460100011_005_01
 
-message,<user>,人間観察！？
+message,<user>,People-watching!?<br> 
 
 asyncseplay,setag1_5,se4800010,0,1,CONT
 
@@ -79,9 +79,9 @@ asynccharaemo,chara_1,Exclamation,STOP
 asynccharareaction,chara_1,Nod,1,STOP
 
 asynccharaface,chara_1,FaceAnger,STOP
-message,エルミア,そうだ。酒場の中で、男女が何か言葉を交わしては２階へと上がっていくんだ。<br>アレは怪しい！　怪しすぎるだろうが！,,vc_10460100011_006_01
+message,エルミア,That's right! Inside the tavern，men and women talk and then go<br>upstairs. That's suspicious! Way too suspicious!<br> ,,vc_10460100011_006_01
 
-message,<user>,ん～……それを覗いているエルミアが１番、怪しいんだが――
+message,<user>,Hmm... You're the one peeking at them，so you're the most suspicious.<br> 
 
 asynccharareaction,chara_1,Shake,1,STOP
 
@@ -92,20 +92,20 @@ asynccharaemo,chara_1,ExclaQues,STOP
 
 
 asynccharaface,chara_1,FaceUnique02,STOP
-message,エルミア,なっ、なんだとっ！？　でも、本当に怪しい空気だったんだぞ！？<br>なんか、妙に興奮しているというか、浮足立っているというか――,,vc_10460100011_007_01
+message,エルミア,Wh-What did you say! But it really had a suspicious vibe! They<br>seemed oddly excited and restless...<br> ,,vc_10460100011_007_01
 
-message,<user>,それはそうだろう。娼館なんだから。
+message,<user>,Well，of course. It's a brothel.<br> 
 
 asyncseplay,setag1_7,se4800009,0,1,CONT
 
 asynccharaemo,chara_1,Question,STOP
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,エルミア,ショーカン……！？,,vc_10460100011_008_01
+message,エルミア,Brothel...!<br> ,,vc_10460100011_008_01
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,,そこからかよ。そう思いつつ、<user>は<br>エルミアに娼館がどういう場所なのか説明する。
+message,,""Starting from there?"" the Commander thought，but he explained to<br>Elmia what a brothel was.<br> 
 
 
 asyncseplay,setag1_8,se4800005,0,1,CONT
@@ -113,9 +113,9 @@ asyncseplay,setag1_8,se4800005,0,1,CONT
 asynccharaemo,chara_1,Flash,STOP
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,エルミア,ほほぉ……な、なかなか刺激的じゃないか――！<br>頼む！　私もそこで働かせてくれ！,,vc_10460100011_009_01
+message,エルミア,Hoh... Pretty exciting，isn't it! Please! Let me work there too!<br> ,,vc_10460100011_009_01
 
-message,<user>,いや、お前みたいな子供には早い場所だ。<br>やめておけ。
+message,<user>,No，a place like that is too early for a kid like you. Forget it.<br> 
 
 asyncseplay,setag1_9,se4800016,0,1,CONT
 
@@ -123,9 +123,9 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,BePeevish,STOP
 
 asynccharaface,chara_1,FaceUnique02,STOP
-message,エルミア,きーーーっ！　こ、子供扱いするな！<br>私を何歳だと思っている！！,,vc_10460100011_010_01
+message,エルミア,Grrr! Don't treat me like a child! How old do you think I am!<br> ,,vc_10460100011_010_01
 
-message,<user>,エルミアが長く生きていることは知っている。<br>だが……
+message,<user>,I know you've lived a long time，but...<br> 
 
 window,off
 wait,0.15
@@ -151,7 +151,7 @@ wait,0.5
 
 
 window,on,0.15
-message,,身体はどう見ても……と思いながら、<br>エルミアの『絶壁』な胸元に視線を落としてしまう。
+message,,No matter how I looked at her，her body seemed childlike... I<br>couldn't help but drop my gaze to Elmia's ""cliff-like"" chest.<br> 
 
 window,off
 wait,0.15
@@ -168,9 +168,9 @@ asynccharaemo,chara_1,Anger,STOP
 
 asynccharaface,chara_1,FaceAnger,STOP
 window,on,0.15
-message,エルミア,あっ！　なんだその目は！<br>私の胸が未成熟だとでも言いたいのか！,,vc_10460100011_011_01
+message,エルミア,Hey! What's with that look! Are you trying to say my chest is<br>immature?<br> ,,vc_10460100011_011_01
 
-message,<user>,…………
+message,<user>,...<br> 
 
 asyncseplay,setag1_11,se4800016,0,1,CONT
 
@@ -178,7 +178,7 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,BePeevish,STOP
 
 asynccharaface,chara_1,FaceUnique02,STOP
-message,エルミア,黙るなよ！　それって、未成熟って認めてるようなもんじゃないか！<br>胸がないだけで子供扱いは理不尽だろうが！,,vc_10460100011_012_01
+message,エルミア,Don't go silent! That's as good as admitting I'm not grown up! It's<br>absurd to treat me like a kid just because I'm flat-chested!<br> ,,vc_10460100011_012_01
 
 window,off
 wait,0.15
@@ -191,7 +191,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（そうやってすぐにムキになるところが子供なんだが……）
+message,<user>,(But that kind of overreaction is exactly why you seem like a<br>child...)<br> 
 
 window,off
 wait,0.15
@@ -212,9 +212,9 @@ asynccharaemo,chara_1,Question,STOP
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
 window,on,0.15
-message,エルミア,なぁ、司令官が”研修”すればあそこで働けるんだったな？,,vc_10460100011_013_01
+message,エルミア,Hey，boss，if you do the ""training""，I can work there，right?<br> ,,vc_10460100011_013_01
 
-message,<user>,あぁ。一応そういう決まりになっている。
+message,<user>,Yeah. That's the rule.<br> 
 
 asynccharareaction,chara_1,Jump,1,STOP
 
@@ -223,9 +223,9 @@ asyncseplay,setag1_13,se4800022,0,1,CONT
 asynccharaemo,chara_1,Speak,STOP
 
 asynccharaface,chara_1,FaceFun,STOP
-message,エルミア,よし、だったら今すぐ”研修”を始めてくれ！<br>私が立派な大人だということを証明してやる！,,vc_10460100011_014_01
+message,エルミア,Alright! Then start the ""training"" right now! I'll prove I'm a<br>full-fledged adult!<br> ,,vc_10460100011_014_01
 
-message,,エルミアは意地でも娼館で働くつもりらしい。<br>彼女の勢いに押され、娼館の空き部屋を借りて”研修”をすることに――
+message,,Elmia seemed determined to work at the brothel no matter what.<br>Overwhelmed by her fervor，the Commander ended up borrowing a vacant room at the brothel and doing the ""training""—<br> 
 
 
 

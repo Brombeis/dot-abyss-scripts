@@ -27,9 +27,9 @@ asyncseplay,setag3_1,se4800022,0,1,CONT
 asynccharaemo,chara_1,Speak,CONT
 
 window,on,0.15
-message,フィルム,Oh my，Commander-kun~<br>You look well~ Good afternoon.<br> ,,vc_10070100033_001_01
+message,フィルム,Oh my，Commander. You look well. Hello.<br> ,,vc_10070100033_001_01
 
-message,<user>,Film，huh. You seem to be in a good mood.<br> 
+message,<user>,Film，huh? You seem in good spirits.<br> 
 
 asyncseplay,setag3_2,se4800004,0,1,CONT
 
@@ -37,12 +37,12 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Laugh,STOP
 
 charaface,chara_1,FaceHappy
-message,フィルム,Actually，Noir has stopped pulling pranks lately~<br>So things have been much more relaxing.<br> ,,vc_10070100033_002_01
+message,フィルム,Actually，Noir has stopped her pranks recently，so I've been much more<br>at ease.<br> ,,vc_10070100033_002_01
 
 
-message,ノワール,............<br> ,550100001,vc_10070100033_003_01,
+message,ノワール,...<br> ,550100001,vc_10070100033_003_01,
 
-message,<user>,How are you getting her to behave?<br> 
+message,<user>,How do you get her to behave?<br> 
 
 asyncseplay,setag3_3,se4800013,0,1,CONT
 
@@ -50,16 +50,16 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Spirits,STOP
 
 charaface,chara_1,FaceFun
-message,フィルム,Simple~ I just tell her，'If you do anything，<br>I'll call Commander-kun over again~'<br> ,,vc_10070100033_004_01
+message,フィルム,Simple. I just tell her that if she does anything，I'll call<br>Commander again.<br> ,,vc_10070100033_004_01
 
-message,<user>,...You're using me as a threat now?<br>You were so nervous at first，but you've grown bold.<br> 
+message,<user>,... So you're using being held by me as a threat? You were so<br>nervous at first，but you've gotten bold.<br> 
 
 asyncseplay,setag3_4,se4800019,0,1,CONT
 
 asynccharaemo,chara_1,Elated,STOP
 
 charaface,chara_1,FaceHappy
-message,フィルム,Ufufu，a woman can always grow stronger，you know~?<br> ,,vc_10070100033_005_01
+message,フィルム,Fufufu. A woman can be as bold as she wants.<br> ,,vc_10070100033_005_01
 
 window,off
 bgmstop,bgmtag3_1,0.5

@@ -23,7 +23,7 @@ bgmplay,bgmtag1_1,bgm0025,0.75,1
 
 
 window,on,0.15
-message,,――<user>に恩返しをするため、<br>娼館で働くことにしたダリア。今日は初出勤の日だった。
+message,,Daria decided to work at the brothel to repay the Commander. Today<br>was her first day on the job.<br> 
 
 window,off
 wait,0.15
@@ -51,7 +51,7 @@ asynccharaemo,chara_1,Shy,STOP
 asynccharaface,chara_1,FaceShy,STOP
 
 window,on,0.15
-message,ダリア,（そろそろお客様が来る頃ですね……。<br>親方以外の人と、うまくやれるでしょうか――）,,vc_10320100021_001_01
+message,ダリア,(Customer will come soon... Can I do well with someone other than<br>Boss...?)<br> ,,vc_10320100021_001_01
 
 
 window,off
@@ -67,9 +67,9 @@ wait,0.1
 seplay,setag1_2,se4300003,0,1
 
 window,on,0.15
-message,,――ガチャ。
+message,,—Click.<br> 
 
-message,青年,ここっ、こんばんは……,900000001
+message,青年,G-good evening...<br> ,900000001
 
 window,off
 wait,0.15
@@ -103,7 +103,7 @@ asynccharaemo,chara_1,Imagination,STOP
 
 charaface,chara_1,FaceSurprise
 window,on,0.15
-message,ダリア,（来ましたね。ここは、笑顔で迎えなければ……っ！）,,vc_10320100021_002_01
+message,ダリア,(He's here. I must greet him with a smile...!)<br> ,,vc_10320100021_002_01
 
 
 window,off
@@ -125,11 +125,11 @@ asynccharareaction,chara_1,Nod,1,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
 window,on,0.15
-message,ダリア,……いらっしゃいませ。,,vc_10320100021_003_01
+message,ダリア,...Welcome.<br> ,,vc_10320100021_003_01
 
-message,,思いとは裏腹に、ダリアはまったく笑顔を浮かべられてなかった。
+message,,Despite her best intentions，Daria couldn't manage a smile.<br> 
 
-message,青年,ひ、あ……お、怒ってます……？,900000001
+message,青年,H-huh? A-are you angry...?<br> ,900000001
 
 asyncseplay,setag1_5,se4800014,0,1,CONT
 
@@ -140,11 +140,11 @@ asynccharareaction,chara_1,Shake,1,STOP
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,ダリア,いえ、まったく。,,vc_10320100021_004_01
+message,ダリア,No，not at all.<br> ,,vc_10320100021_004_01
 
-message,,やはり無表情のダリアーー
+message,,Sure enough，Daria was expressionless—<br> 
 
-message,青年,や、やっぱり帰ります……！,900000001
+message,青年,A-ah，as I thought，I'll go home...!<br> ,900000001
 
 asynccharareaction,chara_1,Shake,1,STOP
 
@@ -155,11 +155,11 @@ asynccharaemo,chara_1,Panic,STOP
 asynccharaface,chara_1,FaceSurprise,STOP
 
 asynccharaface,chara_1,FaceSad,STOP,2
-message,ダリア,あ、待ってください。帰られると――困ります。,,vc_10320100021_005_01
+message,ダリア,Ah，please wait. If you leave... that's a problem.<br> ,,vc_10320100021_005_01
 
-message,,本来は優しい言葉をかけるべきだが、ダリアの声音は冷たい。<br>圧力に怯んだ男性が、うぅっ、と話し始める。
+message,,Normally she should have said something gentle，but Daria's voice was<br>cold. Intimidated by the pressure，the man whimpered and began to speak.<br> 
 
-message,青年,そ、その……すみません。<br>実は俺、童貞で――こういう店も、初めてで……,900000001
+message,青年,U-um... I'm sorry. Actually，I'm a virgin—and this is my first time<br>at a place like this too...<br> ,900000001
 
 window,off
 wait,0.15
@@ -180,7 +180,7 @@ asynccharaemo,chara_1,Trouble,STOP
 
 asynccharaface,chara_1,FaceUnique01,STOP
 window,on,0.15
-message,ダリア,（……困りました。こんな状況は、研修で教えてもらってない。<br>どうしましょう……私も、素直に言ってみましょうか……）,,vc_10320100021_006_01
+message,ダリア,(...This is a problem. They didn't teach me about this situation in<br>training. What should I do... Maybe I should be honest too...)<br> ,,vc_10320100021_006_01
 
 window,off
 wait,0.15
@@ -201,7 +201,7 @@ asynccharaemo,chara_1,Speak,STOP
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
 window,on,0.15
-message,ダリア,私も、客を取るのは初めてです。,,vc_10320100021_007_01
+message,ダリア,I've never had a customer before either.<br> ,,vc_10320100021_007_01
 
 asynccharaface,chara_1,FaceUnique02,STOP
 
@@ -211,9 +211,9 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
 asynccharaface,chara_1,FaceShy,STOP,8
-message,ダリア,けど、あなたが望むことならなんでもしますので、<br>気兼ねなく仰ってください……私は――ダリアは今夜、あなたのものですから。,,vc_10320100021_008_01
+message,ダリア,But I'll do anything you want. So please，don't hesitate to tell<br>me... I—Daria—am yours tonight.<br> ,,vc_10320100021_008_01
 
-message,青年,ほ、本当ですかっ？,900000001
+message,青年,R-really?<br> ,900000001
 
 
 asynccharareaction,chara_1,Nod,1,STOP
@@ -222,7 +222,7 @@ asyncseplay,setag1_10,se4800002,0,1,CONT
 
 asynccharaemo,chara_1,Heart,STOP
 
-message,,ダリアの言葉に、ようやく青年の顔に笑みが浮かぶ。<br>そして、じゃあ――とダリアにしてもらいたいことを口にするのだった。
+message,,At Daria's words，a smile finally appeared on the young man's face.<br>And then，""Well then—"" he began to tell her what he wanted her to do.<br> 
 
 
 labeljump,b

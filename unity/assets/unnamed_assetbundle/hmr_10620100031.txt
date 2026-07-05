@@ -29,7 +29,7 @@ wait,0.5
 window,on,0.15
 message,<user>,Hinagi!<br> 
 
-message,,The door to a room in the brothel burst open<br>as %user% rushed inside.<br> 
+message,,The door to a room in the brothel opened，and the Commander burst in.<br> 
 
 window,off
 wait,0.15
@@ -60,7 +60,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,On the bed lay Hinagi，deathly pale，<br>her face contorted in agony as she gasped for breath.<br> 
+message,,On the bed，Hinagi lay pale-faced，her breaths ragged and pained.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -71,11 +71,11 @@ asyncseplay,setag1_2,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ヒナギ,Commander... sama... I am sorry...<br>It seems I failed the purification——<br> ,106201000X,vc_10620100031_001_01,chara_1
+message,ヒナギ,Commander... I'm sorry... I seem to have failed somewhat in<br>purifying the evil aura...<br> ,106201000X,vc_10620100031_001_01,chara_1
 
-message,,Hinagi told %user% that she had found the culprit<br>who cursed him and had purified the evil qi.<br> 
+message,,Hinagi told the Commander that she had tracked down the culprit who<br>had cursed him and had purified the evil aura.<br> 
 
-message,<user>,Don't tell me — in the process...?<br> 
+message,<user>,No way... during that...?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -87,11 +87,11 @@ asyncseplay,setag1_3,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒナギ,Yes. I absorbed his evil qi and my internal balance is disrupted.<br>Without an onmyouji of equal skill，at this rate...<br> ,106201000X,vc_10620100031_002_01,chara_1
+message,ヒナギ,Yes. I absorbed that person's evil aura，and the balance of ki inside<br>me is disturbed. Without the cooperation of an Onmyoji with ability equal to mine，at this rate...<br> ,106201000X,vc_10620100031_002_01,chara_1
 
-message,,Hinagi's expression darkened.<br>One look at her complexion told how dire her condition was.<br> 
+message,,Hinagi's expression clouded. It was clear from her complexion that<br>her condition was critical.<br> 
 
-message,<user>,...I don't know any other onmyouji.<br>Is there no other way...?<br> 
+message,<user>,...I don't know any other Onmyoji besides you. Isn't there another<br>way...?<br> 
 
 window,off
 wait,0.15
@@ -111,9 +111,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒナギ,Please remember when you were cursed，Commander-sama.<br>No medicine or healing magic worked... correct?<br> ,106201000X,vc_10620100031_003_01,chara_1
+message,ヒナギ,Please recall when you were afflicted by evil aura，Commander.<br>Neither medicine nor Healing Magic worked... did they?<br> ,106201000X,vc_10620100031_003_01,chara_1
 
-message,<user>,There must be something!? You saved my life!<br>It's my turn to save yours! Tell me anything!<br> 
+message,<user>,There has to be something! You're my lifesaver! This time it's my<br>turn to help you! Tell me anything!<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -124,7 +124,7 @@ asyncseplay,setag1_5,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ヒナギ,Hehe... such kind words... Commander-sama...<br>For Commander-sama to say he would save me...<br> ,106201000X,vc_10620100031_004_01,chara_1
+message,ヒナギ,Fufu... you are too kind，Lord Commander... Lord Commander，you...<br> ,106201000X,vc_10620100031_004_01,chara_1
 
 window,off
 wait,0.15
@@ -141,9 +141,9 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,Ah...!<br> ,106201000X,vc_10620100031_005_01,chara_1
+message,ヒナギ,*gasp!*<br> ,106201000X,vc_10620100031_005_01,chara_1
 
-message,,Something in %user%'s words struck Hinagi.<br> 
+message,,Hinagi gasped at the Commander's words.<br> 
 
 window,off
 wait,0.15
@@ -164,7 +164,7 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,(Th-that is right... Commander-sama's qi flow is a dragon vein<br>itself... If it is Commander-sama，then surely——)<br> ,106201000X,vc_10620100031_006_01,chara_1
+message,ヒナギ,(O-oh，that's right... The Lord Commander's ki flow is the Dragon<br>Pulse itself... If it's the Lord Commander，then surely—)<br> ,106201000X,vc_10620100031_006_01,chara_1
 
 window,off
 wait,0.15
@@ -181,7 +181,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,That's the face of someone with an idea.<br>If it's something I can do，don't hold back!<br> 
+message,<user>,That look on your face... you've thought of something，haven't you?<br>If it's something I can do，don't hesitate to tell me!<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -192,9 +192,9 @@ asyncseplay,setag1_7,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒナギ,Y-yes... I have thought of one way.<br>Commander-sama may be able to perform a ritual as strong as mine.<br> ,106201000X,vc_10620100031_007_01,chara_1
+message,ヒナギ,Y-yes... I've thought of one method. If it's you，Lord Commander，you<br>might be able to perform a spell as strong as mine.<br> ,106201000X,vc_10620100031_007_01,chara_1
 
-message,<user>,Hm? I can use the same technique as you...!?<br> 
+message,<user>,Huh? Me，perform the same technique as you!?<br> 
 
 window,off
 wait,0.15
@@ -213,9 +213,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒナギ,Yes... the 'Secret Art of Yin-Yang Harmony'...<br> ,106201000X,vc_10620100031_008_01,chara_1
+message,ヒナギ,Yes... the Yin-Yang Harmony Secret Art...<br> ,106201000X,vc_10620100031_008_01,chara_1
 
-message,<user>,Wait，is that the technique you used<br>when I was unconscious...?<br> 
+message,<user>,Wait，isn't that the curse magic you performed when I was<br>unconscious...?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -227,7 +227,7 @@ asyncseplay,setag1_9,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒナギ,Yes. I will explain how it is done.<br>Could you please... bring your ear a little closer...?<br> ,106201000X,vc_10620100031_009_01,chara_1
+message,ヒナギ,Yes. I will explain the method now. Could you bring your ear a<br>little closer...?<br> ,106201000X,vc_10620100031_009_01,chara_1
 
 window,off
 wait,0.15
@@ -273,7 +273,7 @@ asyncseplay,setag1_11,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 window,on,0.15
-message,,As %user% leaned in close，Hinagi whispered<br>the method to him，her face burning crimson——<br> 
+message,,As the Commander brought his face close，Hinagi，blushing<br>furiously，whispered the method into his ear—<br> 
 
 labeljump,b
 

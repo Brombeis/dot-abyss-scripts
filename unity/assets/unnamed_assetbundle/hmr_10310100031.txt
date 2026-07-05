@@ -21,9 +21,9 @@ bgmplay,bgmtag1_1,bgm0027,0.75,1
 
 
 window,on,0.15
-message,,Passing by the training grounds，he spotted a suspicious<br>figure lurking in the shadows. It was Hatsune.<br> 
+message,,As I passed the training grounds，I spotted a suspicious figure in<br>the shadows. It was Hatsune，crouching there.<br> 
 
-message,,Unaware of him，she was peering intently inside the grounds.<br>He crept up silently and called out to her.<br> 
+message,,Hatsune didn't notice me; she was intently peering into the training<br>grounds. I approached silently and called out to her.<br> 
 
 message,<user>,Hey，what are you doing?<br> 
 
@@ -37,7 +37,7 @@ asynccharaemo,chara_1,Shock,STOP
 asynccharaface,chara_1,FaceSurprise,STOP
 
 asynccharareaction,chara_1,Jump,1,STOP
-message,ハツネ,Wah!? ...Oh，it's just you，Commander.<br>Stand there like that and they'll spot us!<br> ,,vc_10310100031_001_01
+message,ハツネ,Wah! ...Oh，it's you，Commander. Standing around like that，you'll get<br>caught!<br> ,,vc_10310100031_001_01
 
 window,off
 wait,0.15
@@ -51,39 +51,39 @@ wait,0.3
 transitionFade,Tra02,in,black,1
 
 window,on,0.15
-message,,The flustered Hatsune grabbed his arm and yanked him<br>into the shadows.<br> 
+message,,Flustered，Hatsune grabbed my arm and pulled me into the shadows.<br> 
 
-message,<user>,What is this about?<br>Why are you skulking around here?<br> 
+message,<user>,What's this all about? What are you sneaking around for?<br> 
 
 charashow,chara_1,0.3
 
 asynccharaface,chara_1,FaceAnger,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
-message,ハツネ,Shhh!<br>I'm just secretly checkin' if the young lord's trainin' properly!<br> ,,vc_10310100031_002_01
+message,ハツネ,Shh! I'm just secretly checking to see if the young lord is training<br>hard.<br> ,,vc_10310100031_002_01
 
-message,,Peeking inside，Kotono was earnestly instructing the young<br>lord in swordsmanship. Hatsune watched them intently.<br> 
+message,,When I peered into the training grounds，Kotone was enthusiastically<br>teaching the young lord swordsmanship. Hatsune was watching with rapt attention.<br> 
 
 asynccharaface,chara_1,FaceFun,STOP
-message,ハツネ,Workin' hard this late at night，young lord...<br>He's really come into his own...<br> ,,vc_10310100031_003_01
+message,ハツネ,He's working hard even at this late hour... The young lord has<br>become so impressive.<br> ,,vc_10310100031_003_01
 
-message,<user>,I see. But is just spying on him really enough?<br>You're skilled too. Why not help train him yourself?<br> 
+message,<user>,I see. But are you okay with just sneaking a peek? You're skilled<br>with a sword yourself—you could teach him.<br> 
 
 asyncseplay,setag1_2,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
-message,ハツネ,Nah，I'm terrible at teachin' people~<br>Plus，I'd end up going easy on the young lord.<br> ,,vc_10310100031_004_01
+message,ハツネ,Nah，nah，I'm no good at teaching others. Besides，if it were the young<br>lord，I'd end up spoiling him.<br> ,,vc_10310100031_004_01
 
-message,<user>,Hmm，I suppose your concern makes sense.<br>...Hm?<br> 
+message,<user>,Hmm，well，I can understand your concern. ...Huh?<br> 
 
 asynccharareaction,chara_1,Shake,1,STOP
 
 asynccharaface,chara_1,FaceShy,STOP
-message,ハツネ,Hah，hah，hah，hah...<br> ,,vc_10310100031_005_01
+message,ハツネ,*pant，pant，pant，pant*<br> ,,vc_10310100031_005_01
 
-message,,Before he knew it，Hatsune's face was flushed red<br>and her breathing ragged. Her shoulder felt startlingly hot.<br> 
+message,,Before I knew it，Hatsune's face was flushed，and her breath was<br>ragged. I felt heat from my shoulder where it touched hers. It was startlingly hot.<br> 
 
 asynccharareaction,chara_1,Shake,1,STOP
 
@@ -92,12 +92,12 @@ asyncseplay,setag1_3,se4800008,0,1,CONT
 asynccharaemo,chara_1,Sweat,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
-message,ハツネ,S-somethin's... m-my body's gettin' hot... this is bad...<br>it might be comin'. Commander... get away from me...<br> ,,vc_10310100031_006_01
+message,ハツネ,N-no way... my body's heating up... this is bad... I think it's<br>starting... Commander，get away from me...<br> ,,vc_10310100031_006_01
 
-message,<user>,Huh? What's gotten into you all of a sudden?<br>You're the one who pulled me in here.<br> 
+message,<user>,Huh? What's with you all of a sudden? You're the one who pulled me<br>in here，aren't you?<br> 
 
 asynccharaface,chara_1,FaceUnique02,STOP
-message,ハツネ,That's... auu...<br> ,,vc_10310100031_007_01
+message,ハツネ,That's... ah...<br> ,,vc_10310100031_007_01
 
 asynccharareaction,chara_1,Shake,1,STOP
 
@@ -120,35 +120,35 @@ wait,0.3
 shake,BACK,,0,0,0.5,1,off,off,0
 shake,CHARA,chara_1,0,0,0.5,1,off,off,0
 window,on,0.15
-message,,Hatsune suddenly stumbled and leaned into him.<br>Rather than pulling away，their bodies pressed closer.<br> 
+message,,Hatsune suddenly staggered and leaned against me.\nInstead of<br>pulling away，our bodies only pressed even closer together.<br> 
 
-message,<user>,H-hey，are you okay?<br>Did you catch a cold or something...?<br> 
+message,<user>,H-hey，are you okay? Could it be you've caught a cold...?<br> 
 
 asynccharareaction,chara_1,Shake,1,STOP
 
 asynccharaface,chara_1,FaceUnique02,STOP
-message,ハツネ,N-no，this is，um...<br> ,,vc_10310100031_008_01
+message,ハツネ,N-no，that's not it，this is... um...<br> ,,vc_10310100031_008_01
 
 bgmstop,bgmtag1_1,0,0
 
 asynccharaface,chara_1,FaceShy,STOP
-message,ハツネ,It's my... heat.<br> ,,vc_10310100031_009_01
+message,ハツネ,I'm... in heat.<br> ,,vc_10310100031_009_01
 
 bgmplay,bgmtag1_2,bgm0026,0.75,1
 
-message,<user>,Your HEAT!?<br> 
+message,<user>,Heat!<br> 
 
 asynccharareaction,chara_1,Shake,1,STOP
 
 asynccharaface,chara_1,FaceAnger,STOP
-message,ハツネ,Ahh... I can't... hold back anymore...<br>Commander，I'm sorry!<br> ,,vc_10310100031_010_01
+message,ハツネ,Ahh... I can't take it anymore...\nSorry，Commander!<br> ,,vc_10310100031_010_01
 
 asyncseplay,setag1_4,se4400111,0,1,CONT
 
 shake,BACK,,350,0,0.25,2,off,off,0
 shake,CHARA,chara_1,350,0,0.25,2,off,off,0
 
-message,<user>,Whoa!?<br> 
+message,<user>,Whoa!<br> 
 
 window,off
 wait,0.15
@@ -156,7 +156,7 @@ wait,0.15
 charahide,chara_1,0.3
 
 window,on,0.15
-message,,Hatsune swept his legs out from under him with a sudden kick.<br>With expert body control，she pinned him down and straddled——<br> 
+message,,Hatsune caught me off guard with a sudden leg sweep and I fell to<br>the ground. Then，with expert body control，she pinned me down and mounted me—<br> 
 
 
 

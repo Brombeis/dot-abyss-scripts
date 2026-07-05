@@ -33,7 +33,7 @@ asynccharashowalpha,chara_2,1,0.3,CONT,0
 wait,0.5
 
 window,on,0.15
-message,<user>,そうか……やっぱり娼館を盛り上げるには、<br>魅力的な女の子を雇い入れるのが一番なんだな。
+message,<user>,I see... so to spice things up at the brothel，hiring attractive<br>girls is the best way.<br> 
 
 asyncshake,CHARA,chara_2,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -42,7 +42,7 @@ asyncseplay,setag1_1,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ルディア,可能な限りの施策は打つけれど、 <br>女の子の数と質を上げる、それ以上の手段はないわね～。,300301000,vc_10030100011_001_01,chara_2
+message,ルディア,We can take every possible measure，but there's no better way than<br>increasing the number and quality of the girls，you know.<br> ,300301000,vc_10030100011_001_01,chara_2
 
 asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
 
@@ -51,9 +51,9 @@ asyncseplay,setag1_2,se4800006,0,1,CONT,0
 asynccharaemo,chara_2,Trouble,CONT,0
 
 
-message,ルディア,そのために求人も出してるんだけど……。<br>最前線だもの、なかなかねぇ。,300301000,vc_10030100011_002_01,chara_2
+message,ルディア,We've been putting up job ads for that，but... we're on the front<br>lines，so it's not easy，you know.<br> ,300301000,vc_10030100011_002_01,chara_2
 
-message,,娼館を繁盛させるべく議論を重ねるふたり。<br>その時、酒場の扉が開き、ひとりの女性が姿を見せた。
+message,,The two continued their discussion on how to make the brothel<br>flourish. Just then，the tavern door opened，and a woman appeared.<br> 
 
 window,off
 wait,0.15
@@ -106,7 +106,7 @@ wait,0.5
 
 
 window,on,0.15
-message,マリナ,あ、あのぉ～……表の求人の貼り紙を見まして。 <br>そ、その、詳しく仕事内容をお聞かせいただけないかとっ！,100301000G,vc_10030100011_003_01,chara_1
+message,マリナ,Ah，um... I saw the job posting outside. I-I was hoping you could<br>tell me more about the details of the job!<br> ,100301000G,vc_10030100011_003_01,chara_1
 
 window,off
 wait,0.15
@@ -154,7 +154,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,娼館にやって来たのは商人のマリナ。 <br>その肉感的な身体とやさしげな相貌に、逸材だ！　と顔を見合わせるふたり。
+message,,The woman who appeared at the brothel was the merchant Marina. Her<br>voluptuous body and gentle features made the two exchange glances—she was a real find!<br> 
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -165,7 +165,7 @@ asyncseplay,setag1_5,se4800003,0,1,CONT,0
 asynccharaemo,chara_2,Twinkle,CONT,0
 
 
-message,ルディア,あなたみたいな可愛らしい子は大歓迎よ♪ <br>即採用ね！　いつから働く？　今からでもどうかしら？,300301000,vc_10030100011_004_01,chara_2
+message,ルディア,A cute girl like you is more than welcome!♪ You're hired on the<br>spot! When can you start? How about now?<br> ,300301000,vc_10030100011_004_01,chara_2
 
 window,off
 wait,0.15
@@ -184,7 +184,7 @@ wait,0.5
 
 
 window,on,0.15
-message,マリナ,い、いえ、まずは詳しいお話を聞かせてください。 <br>働くかどうかはそのあとで決めますので。,100301000G,vc_10030100011_005_01,chara_1
+message,マリナ,N-no，please let me hear the full details first. I'll decide whether<br>to take the job after that.<br> ,100301000G,vc_10030100011_005_01,chara_1
 
 asyncjump,CHARA,chara_2,-30.6,0.5,1,off,0,CONT
 
@@ -193,7 +193,7 @@ asyncseplay,setag1_7,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,ルディア,あら、冷静ねえ……。 <br>何が聞きたいの？　何でも答えるわよ～？,300301000,vc_10030100011_006_01,chara_2
+message,ルディア,My，how calm you are... What do you want to know? I'll answer<br>anything，you know.<br> ,300301000,vc_10030100011_006_01,chara_2
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -205,7 +205,7 @@ asyncseplay,setag1_8,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,マリナ,まず、あのお給料は本当でしょうかぁ？,100301000G,vc_10030100011_007_01,chara_1
+message,マリナ,First，is that posted salary really true?<br> ,100301000G,vc_10030100011_007_01,chara_1
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -216,7 +216,7 @@ asyncseplay,setag1_9,se4800019,0,1,CONT,0
 asynccharaemo,chara_2,Elated,CONT,0
 
 
-message,ルディア,ええ、本当よ？ <br>あなたなら特別指名料で追加料金を乗せる形でも構わないわ。,300301000,vc_10030100011_008_01,chara_2
+message,ルディア,Yes，that's right. For someone like you，I don't mind adding an extra<br>charge on top of the special request fee.<br> ,300301000,vc_10030100011_008_01,chara_2
 
 window,off
 wait,0.15
@@ -273,7 +273,7 @@ wait,0.5
 
 
 window,on,0.15
-message,マリナ,（好条件、ですね……。 <br>ですがこういう美味しい話には、きっと裏が……）,100301000G,vc_10030100011_009_01,chara_1
+message,マリナ,(The terms look good，don't they? But deals that sound this sweet<br>always have a catch...)<br> ,100301000G,vc_10030100011_009_01,chara_1
 
 window,off
 wait,0.15
@@ -331,7 +331,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,マリナ,……もう少し、詳しくお話を聞かせてください。,100301000G,vc_10030100011_010_01,chara_1
+message,マリナ,...Could you please go into a bit more detail?<br> ,100301000G,vc_10030100011_010_01,chara_1
 
 
 window,off
@@ -390,7 +390,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,マリナ,――プレイの内容でお支払いいただく金額が変動し、 <br>こちらへのバックもそれに応じた額になる、と。,100301000G,vc_10030100011_011_01,chara_1
+message,マリナ,--So the pay varies depending on the services performed，and my<br>commission changes accordingly，is that correct?<br> ,100301000G,vc_10030100011_011_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -401,7 +401,7 @@ asyncseplay,setag1_14,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,マリナ,つまり、貼り紙に書いてある金額は、 <br>本番をした時の報酬、ということなんですねぇ？,100301000G,vc_10030100011_012_01,chara_1
+message,マリナ,In other words，the salary written on the ad is for when you go all<br>the way，right?<br> ,100301000G,vc_10030100011_012_01,chara_1
 
 window,off
 wait,0.15
@@ -451,7 +451,7 @@ asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,ルディア,そういうことよ。 <br>マリナさんはお話が上手ね、全部喋っちゃったわ。,300301000,vc_10030100011_013_01,chara_2
+message,ルディア,That's right. Marina，you're certainly good at explaining—you said it<br>all yourself.<br> ,300301000,vc_10030100011_013_01,chara_2
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -462,7 +462,7 @@ asyncseplay,setag1_15,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,マリナ,け、契約上、絶対に話しておくべき内容だと思いますよぉ～っ！？,100301000G,vc_10030100011_014_01,chara_1
+message,マリナ,B-but I think that's information that absolutely has to be disclosed<br>in the contract!<br> ,100301000G,vc_10030100011_014_01,chara_1
 
 window,off
 wait,0.15
@@ -517,7 +517,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,マリナ,（ま、まあ、報酬額は良心的ですし。<br>悪い娼館ではないのだと思いますが……）,100301000G,vc_10030100011_015_01,chara_1
+message,マリナ,(W-well，the pay is fair. It doesn't seem like a bad brothel，but...)<br> ,100301000G,vc_10030100011_015_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -528,7 +528,7 @@ asyncseplay,setag1_17,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,マリナ,（それにしても……はぁ……。<br>やっぱりお客さまとエッチなことしたらあのお給料、ですかぁ……）,100301000G,vc_10030100011_016_01,chara_1
+message,マリナ,(But still... *sigh*... So that pay is for doing the real thing with<br>customers after all，huh...)<br> ,100301000G,vc_10030100011_016_01,chara_1
 
 window,off
 wait,0.15
@@ -567,7 +567,7 @@ transitionCrossFade,Tra02,0.5
 wait,0.5
 
 window,on,0.15
-message,<user>,<size=30>おい、悩んじゃってるじゃないか。</size><br><size=30>どうするんだ、やっぱりやめるとか言い出したら！</size>
+message,<user>,Hey，she's having second thoughts! What do we do if she says she<br>wants to back out!<br> 
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -579,7 +579,7 @@ asyncseplay,setag1_18,se4800019,0,1,CONT,0
 asynccharaemo,chara_2,Elated,CONT,0
 
 
-message,ルディア,<size=30>仕方ないわね……ここで切り札を使うわ。</size>,300301000,vc_10030100011_017_01,chara_2
+message,ルディア,Very well，then... I'll use my trump card.<br> ,300301000,vc_10030100011_017_01,chara_2
 
 window,off
 wait,0.15
@@ -638,7 +638,7 @@ asynccharaface,chara_2,FaceFun,STOP,6
 
 asynccharapose,chara_2,2,STOP,6
 window,on,0.15
-message,ルディア,それで、もう１つ伝えなきゃいけないことがあって、 <br>――研修は司令官君にお願いしてるのよ。,300301000,vc_10030100011_018_01,chara_2
+message,ルディア,And there's one more thing I need to tell you... I've asked the<br>Commander to handle your training.<br> ,300301000,vc_10030100011_018_01,chara_2
 
 window,off
 wait,0.15
@@ -684,7 +684,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,マリナ,ぶほぉっ！　な、ななななななんとっ！？　だ、旦那さまがっ！？<br>つ、つまりそれって、旦那さまと……,100301000G,vc_10030100011_019_01,chara_1
+message,マリナ,Bwuh! W-W-W-What! H-Honey! S-So that means me and Honey...<br> ,100301000G,vc_10030100011_019_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -695,7 +695,7 @@ asyncseplay,setag1_21,se4800021,0,1,CONT,0
 asynccharaemo,chara_1,Imagination,CONT,0
 
 
-message,マリナ,そ、それはいくらなんでも美味しすぎる特典ですねぇ～……,100301000G,vc_10030100011_020_01,chara_1
+message,マリナ,Th-That's an awfully tempting perk，isn't it...<br> ,100301000G,vc_10030100011_020_01,chara_1
 
 window,off
 wait,0.15
@@ -749,7 +749,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,ルディア,でも司令官君は忙しいし。<br>この機会を逃したら、別の研修担当がつくことになるかも……,300301000,vc_10030100011_021_01,chara_2
+message,ルディア,But the Commander is quite busy. If you miss this chance，you might<br>end up with a different trainer...<br> ,300301000,vc_10030100011_021_01,chara_2
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -760,7 +760,7 @@ asyncseplay,setag1_23,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,マリナ,分かりました！　まずは体験入店という形でお願いします！<br>い、１週間以内であればクーリングオフもできるってことで……,100301000G,vc_10030100011_022_01,chara_1
+message,マリナ,Alright! I'll start with a trial shift! A-And I can still use the<br>cooling-off period within a week，right?<br> ,100301000G,vc_10030100011_022_01,chara_1
 
 charapose,chara_2,2
 
@@ -773,7 +773,7 @@ asyncseplay,setag1_24,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,ルディア,安心して、違約金なんて請求しないから。<br>ちょっと待っててね♪　あなたにお似合いの衣装を準備してくるわ♪,300301000,vc_10030100011_023_01,chara_2
+message,ルディア,Relax，I won't charge you any penalty. Just wait a moment!♪ I'll get<br>a costume that suits you!♪<br> ,300301000,vc_10030100011_023_01,chara_2
 
 labeljump,b
 

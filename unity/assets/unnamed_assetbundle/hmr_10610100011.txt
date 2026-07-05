@@ -26,7 +26,7 @@ asyncshake,BACK,,24,0,0.6,7,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_1,24,0,0.6,7,off,off,0,on,CONT,0
 
 window,on,0.15
-message,ニナ,KYAAAAAAAAAAAAAH——!?<br> ,106101000G,vc_10610100011_001_01,
+message,ニナ,Kyaaa!<br> ,106101000G,vc_10610100011_001_01,
 
 window,off
 wait,0.15
@@ -36,7 +36,7 @@ charafocusonall
 shakeallstop
 
 window,on,0.15
-message,,Nina's scream rang through the Commander's office.<br> 
+message,,Nina's scream echoed through the command room.<br> 
 
 window,off
 wait,0.15
@@ -69,7 +69,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ニナ,A b-b-b-BUG——!?<br>M-Master——! A bug— a BUG— a caterpillar，on the window——!<br> ,106101000G,vc_10610100011_002_01,chara_1
+message,ニナ,B-b-bug...! M-Master! A bug! A caterpillar on the window!<br> ,106101000G,vc_10610100011_002_01,chara_1
 
 window,off
 wait,0.15
@@ -87,11 +87,11 @@ asynccharamove,chara_1,Linear,Y,0,0.4,CONT,0
 asyncwait
 
 window,on,0.15
-message,,Nina had been cleaning the windows. She leapt back from the glass<br>and dropped into a combat stance in a single fluid motion.<br> 
+message,,Nina，who had been cleaning the window，backstepped away from it and<br>swiftly assumed a combat stance.<br> 
 
-message,<user>,Pfft—... hah... hahah——!<br>Ha! Hahahaha!<br> 
+message,<user>,Tch... pfft... pfft! Hah! Ahahaha!<br> 
 
-message,,The sight of Nina staring back in bewilderment at the unexpected<br>laughter made it impossible to stop.<br> 
+message,,Seeing Nina's surprise at my unexpected reaction，I couldn't help but<br>laugh out loud.<br> 
 
 window,off
 wait,0.15
@@ -118,9 +118,9 @@ asynccharaemo,chara_1,Anger,CONT,0
 
 
 window,on,0.15
-message,ニナ,Wh-wh-what is so funny——!<br> ,106101000G,vc_10610100011_003_01,chara_1
+message,ニナ,W-what's so funny?!<br> ,106101000G,vc_10610100011_003_01,chara_1
 
-message,<user>,Sorry，Nina... heheh... take a closer look at it...<br> 
+message,<user>,Sorry，Nina... heh heh... take a closer look at that...<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -131,7 +131,7 @@ asyncseplay,setag1_4,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ニナ,L-look closely，you say......<br> ,106101000G,vc_10610100011_004_01,chara_1
+message,ニナ,E-even if you tell me to look closely...<br> ,106101000G,vc_10610100011_004_01,chara_1
 
 window,off
 wait,0.15
@@ -180,7 +180,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,,Nina crept toward the caterpillar (?) with squinted eyes，<br>keeping enough distance to bolt at any moment.<br> 
+message,,With her eyes half-open，keeping her distance so she could bolt at<br>any moment，Nina cautiously approached the caterpillar (?).<br> 
 
 window,off
 wait,0.15
@@ -199,9 +199,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ニナ,Oh... th-this is... just a piece of wood...?<br>Carved to look like a caterpillar...... wh-who on earth would——<br> ,106101000G,vc_10610100011_005_01,chara_1
+message,ニナ,Ah... th-this... it's just a wooden stick...? It's been carved to<br>look like a caterpillar... Who would do such a thing，Master?<br> ,106101000G,vc_10610100011_005_01,chara_1
 
-message,<user>,My apologies，my apologies. I wanted to see that adorable reaction of<br>yours. I carved it yesterday and set it there.<br> 
+message,<user>,My bad，my bad. I just wanted to see your cute reaction. I made it<br>yesterday and put it there.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -212,7 +212,7 @@ asyncseplay,setag1_6,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,ニナ,G-goodness——! Thinking up such nonsense again!<br>Please stop disrupting my cleaning with these childish pranks!<br> ,106101000G,vc_10610100011_006_01,chara_1
+message,ニナ,Oh，honestly! Thinking up such nonsense again! Master，please stop<br>interfering with my cleaning with these childish pranks!<br> ,106101000G,vc_10610100011_006_01,chara_1
 
 window,off
 wait,0.15
@@ -232,13 +232,13 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,,With that，Nina puffed out her cheeks，<br>turned her back，and returned to cleaning the window.<br> 
+message,,With that，Nina puffed out her cheeks and turned her back to resume<br>cleaning the window.<br> 
 
-message,ニナ,You never do grow up，do you......<br>Ah — I have prepared herbal tea. Please help yourself!<br> ,106101000G,vc_10610100011_007_01,
+message,ニナ,Really，you never grow up，do you... Oh，I made some herbal<br>tea，Master，so feel free to have some!<br> ,106101000G,vc_10610100011_007_01,
 
-message,,She resumed her work，grumbling quietly under her breath.<br>Nina was as a rule utterly composed，rarely letting anything show.<br> 
+message,,Grumbling under her breath，she resumed cleaning the window.<br>Normally，Nina was very cool and rarely showed much expression.<br> 
 
-message,,Which was exactly why he always wanted to provoke a reaction —<br>to catch a glimpse of the face she kept hidden.<br> 
+message,,That was why I couldn't help wanting to tease her，to see the<br>expressions and reactions she usually didn't show.<br> 
 
 window,off
 wait,0.15
@@ -267,7 +267,7 @@ charafocusonall
 asyncseplay,setag1_7,se4400232,0,1,CONT,0
 
 window,on,0.15
-message,,He took a sip of the herbal tea Nina had prepared.<br>A cool，refreshing scent bloomed and settled through him——<br> 
+message,,I took a sip of the herbal tea Nina had prepared for me. A<br>refreshing aroma spread，and my mind calmed...<br> 
 
 window,off
 wait,0.15
@@ -284,11 +284,11 @@ asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,<user>,Hmm——!?<br> 
+message,<user>,mmm...!<br> 
 
-message,,His whole body grew hot in an instant.<br>A burning rush of blood sank toward his lower abdomen——<br> 
+message,,Somehow，my body suddenly heated up.\nAnd then，a burning surge of<br>blood rushed down into my groin—<br> 
 
-message,,Right in front of him，Nina stood with her back to him，unguarded.<br>Fighting to control his breathing，he slowly moved toward her.<br> 
+message,,In front of me was Nina，her cute butt thrust out<br>defenselessly.\nSuppressing my ragged breathing，I slowly approached her.<br> 
 
 window,off
 wait,0.15
@@ -326,9 +326,9 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ニナ,Hyauh——!?<br> ,106101000G,vc_10610100011_008_01,chara_1
+message,ニナ,Eeek!<br> ,106101000G,vc_10610100011_008_01,chara_1
 
-message,,Before he knew it，his hands were on her. The heat coursing through<br>him would not be reined in.<br> 
+message,,Before I knew it，I was touching Nina's soft ass.\nI can't hold back<br>the lust surging through my body.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -339,9 +339,9 @@ asyncseplay,setag1_10,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ニナ,Wh-wha——! Master!?<br>What are you doing now!?<br> ,106101000G,vc_10610100011_009_01,chara_1
+message,ニナ,H-Hey，Master!\nWhat are you doing now?<br> ,106101000G,vc_10610100011_009_01,chara_1
 
-message,<user>,I— I can't help it... since I drank that herbal tea，<br>something's coursing through me and I can't hold it back...<br> 
+message,<user>,I-I can't... Ever since I drank that herbal tea，\nmy whole body is<br>throbbing and I can't control myself...<br> 
 
 window,off
 wait,0.15
@@ -376,7 +376,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,Desire outran reason. One hand still on her，his other<br>slid around toward Nina's chest.<br> 
+message,,Lust raced ahead of reason.\nWhile stroking her ass，I slid my other<br>hand onto her breast.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -387,9 +387,9 @@ asyncseplay,setag1_11,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ニナ,Ah— no——!?<br>Master，you mustn't——! Nnh... aah——!<br> ,106101000G,vc_10610100011_010_01,chara_1
+message,ニナ,Ah，no...!\nMaster，don't! Mmph! Aah!<br> ,106101000G,vc_10610100011_010_01,chara_1
 
-message,,Nina twisted urgently，trying to pull away.<br>But in doing so she lost her balance——<br> 
+message,,Nina frantically twisted her body，trying to escape from me.\nBut<br>that caused her to lose her balance—<br> 
 
 
 window,off
@@ -416,7 +416,7 @@ fade,In,Black,0
 asyncseplay,setag1_12,se4402001,0,1,CONT,0
 
 window,on,0.15
-message,ニナ,Aahn——!!!!<br> ,106101000G,vc_10610100011_011_01,
+message,ニナ,Aahn!<br> ,106101000G,vc_10610100011_011_01,
 
 labeljump,b
 
