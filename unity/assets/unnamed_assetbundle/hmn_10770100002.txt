@@ -48,7 +48,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,メリッサ,ふんふんふふ～～ん♪,107701000G,vc_10770100002_001_01,chara_1
+message,メリッサ,Hmm hmm，hmm hmm!<br> ,107701000G,vc_10770100002_001_01,chara_1
 
 window,off
 wait,0.15
@@ -68,11 +68,11 @@ waitorclick,0.5
 
 
 window,on,0.15
-message,メリッサ,はぁ～～、いい香り～。<br>やっぱり紅茶は落ち着くね～～♪,107701000G,vc_10770100002_002_01,chara_1
+message,メリッサ,Aaah，this smells wonderful! Tea really is so relaxing!<br> ,107701000G,vc_10770100002_002_01,chara_1
 
-message,<user>,……いつモンスターが来るかも分からない大穴の中で、<br>わざわざお湯を沸かしてティータイムだと……？
+message,<user>,...In the Abyss，where monsters could appear at any moment，you<br>actually go to the trouble of boiling water for tea...?<br> 
 
-message,<user>,お前……暢気すぎるだろ……
+message,<user>,You... you're way too carefree...<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -83,9 +83,9 @@ asyncseplay,setag1_3,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,メリッサ,え～？　キミは大穴で探索している時は、お茶の時間を作らないの？,107701000G,vc_10770100002_003_01,chara_1
+message,メリッサ,Huh? You don't have tea time when you're exploring the Abyss?<br> ,107701000G,vc_10770100002_003_01,chara_1
 
-message,<user>,休憩は取ることもあるっちゃあるが……。<br>少なくとも周囲の危険がないことを確認した後だ。
+message,<user>,I do take breaks now and then... But only after I've made sure<br>there's no danger around.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -96,7 +96,7 @@ asyncseplay,setag1_4,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,メリッサ,そう言われてもね～。<br>ワタシのティータイムはもう、習慣みたいなものだし。,107701000G,vc_10770100002_004_01,chara_1
+message,メリッサ,Even so... My tea time is already a habit，you know.<br> ,107701000G,vc_10770100002_004_01,chara_1
 
 window,off
 wait,0.15
@@ -111,7 +111,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（ティータイムが習慣か……。やっぱりこいつ、意外に育ちがいいのか？<br>紅茶を入れる所作も堂に入ってるし、一介の冒険者とは思えない）
+message,<user>,(Tea time as a habit... So she's surprisingly well-bred after all?<br>Her tea-pouring is practiced too. She's no ordinary adventurer.)<br> 
 
 window,off
 wait,0.15
@@ -126,7 +126,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,……なあ、メリッサ。<br>お前はなんで、トレジャーハンターなんてやってるんだ？
+message,<user>,Hey，Melissa... Why are you a treasure hunter of all things?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -137,9 +137,9 @@ asyncseplay,setag1_5,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,メリッサ,え？　そんなの、儲かるからに決まってるじゃん。<br>一攫千金はトレジャーハンターの夢だよ！　お金はいくらあってもいいからね！,107701000G,vc_10770100002_005_01,chara_1
+message,メリッサ,Huh? Obviously because it pays well! Striking it rich is a treasure<br>hunter's dream! You can never have too much money!<br> ,107701000G,vc_10770100002_005_01,chara_1
 
-message,<user>,まあ、それはそうだが。それにしたって、危険を冒してまで<br>財宝を狙うからには、それなりの理由があるんじゃないのか？
+message,<user>,Well，that's true. But still，if you're going to risk danger for<br>treasure，there's got to be a real reason，right?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -151,7 +151,7 @@ asyncseplay,setag1_6,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,メリッサ,えー、なになに～？　キミ、ワタシにそんなに興味あるんだ？<br>ひょっとして、ひと目惚れでもしちゃった～？,107701000G,vc_10770100002_006_01,chara_1
+message,メリッサ,Oh? What's this? You're that interested in me? Could it be love at<br>first sight?<br> ,107701000G,vc_10770100002_006_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -162,7 +162,7 @@ asyncseplay,setag1_7,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,メリッサ,ワタシの家の婿に入ろうっていうなら、<br>それなりの品格がないとお父様が納得しないけど大丈夫～？,107701000G,vc_10770100002_007_01,chara_1
+message,メリッサ,If you're thinking of marrying into my family，you'll need some class<br>or my father won't approve. You think you're up to it?<br> ,107701000G,vc_10770100002_007_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -177,7 +177,7 @@ asynccharaface,chara_1,FaceShy,STOP,4.68
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,4.68,STOP
 
 
-message,メリッサ,あ～……もう、そういうのはいいんだっけ。<br>ごめん、なんでもないや。,107701000G,vc_10770100002_008_01,chara_1
+message,メリッサ,Ah... wait，I shouldn't talk about that. Sorry，forget it.<br> ,107701000G,vc_10770100002_008_01,chara_1
 
 window,off
 wait,0.15
@@ -192,7 +192,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（婿に、格……か。<br>……まるで名家の息女みたいな物言いだな）
+message,<user>,(A son-in-law，and class... Sounds just like something a daughter of<br>a noble family would say.)<br> 
 
 window,off
 wait,0.15
@@ -216,9 +216,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,メリッサ,ま、そういうのはさておいて～。はい、キミの分の紅茶とスコーンだよ。<br>特別にわけてあげる。この先も長いんだからさ、栄養補給はしとかなきゃね。,107701000G,vc_10770100002_009_01,chara_1
+message,メリッサ,Well，anyway. Here，your tea and scone. I'm sharing since we've got a<br>long way ahead. Need to fuel up，right?<br> ,107701000G,vc_10770100002_009_01,chara_1
 
-message,<user>,……そうだな。何を暢気にとは思ったが、お前の言う通りだ。<br>２人で協力している以上、万全の体力で挑まないとな。
+message,<user>,...You're right. I thought you were being too carefree，but you have<br>a point. Since we're in this together，we need to be in top form.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -230,9 +230,9 @@ asyncseplay,setag1_10,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,メリッサ,そういうこと～♪<br>ほらほらっ！　遠慮しなくていいからね♪,107701000G,vc_10770100002_010_01,chara_1
+message,メリッサ,That's right! Here，go ahead! Don't hold back!<br> ,107701000G,vc_10770100002_010_01,chara_1
 
-message,<user>,いただくとしよう。……うん、これはいい茶葉を使ってるな。<br>蒸らしかたも十分だ。
+message,<user>,Let me have some... Yeah，these are good tea leaves. The steeping is<br>perfect，too.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -243,9 +243,9 @@ asyncseplay,setag1_11,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,メリッサ,おっ、分かる？　いけるクチだねぇ。<br>味の分かる人にはごちそうのしがいもあるよ。,107701000G,vc_10770100002_011_01,chara_1
+message,メリッサ,Oh，you can tell? You've got good taste. It's rewarding to treat<br>someone who knows quality.<br> ,107701000G,vc_10770100002_011_01,chara_1
 
-message,<user>,スコーンもサクサクしていて美味いな。<br>ほどよい甘みで、疲れも吹っ飛ぶよ。
+message,<user>,The scones are flaky and great. Just the right sweetness—it knocks<br>the fatigue right out of you.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -256,9 +256,9 @@ asyncseplay,setag1_12,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,メリッサ,でしょ～？　いいお店、知ってるんだ～。<br>それじゃあ……はいっ。,107701000G,vc_10770100002_012_01,chara_1
+message,メリッサ,Right? I know a good shop. So then... here you go!<br> ,107701000G,vc_10770100002_012_01,chara_1
 
-message,<user>,ん？　なんだ、この手は？
+message,<user>,Huh? What's this hand for?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -269,9 +269,9 @@ asyncseplay,setag1_13,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,メリッサ,紅茶とスコーンの代金、ちょうだいしま～～す♪,107701000G,vc_10770100002_013_01,chara_1
+message,メリッサ,Pay up for the tea and scones!♪<br> ,107701000G,vc_10770100002_013_01,chara_1
 
-message,<user>,はぁっ！？<br>金取るのかよ！？
+message,<user>,What!? You're charging me!?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -283,9 +283,9 @@ asyncseplay,setag1_14,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,メリッサ,もっちろん！<br>儲けるチャンスは逃さないのが、ワタシの信条さ～♪,107701000G,vc_10770100002_014_01,chara_1
+message,メリッサ,You bet! I never let a chance to make some money slip by—that's my<br>motto!♪<br> ,107701000G,vc_10770100002_014_01,chara_1
 
-message,<user>,くっ、守銭奴め……！<br>あとで覚えてろよ……！
+message,<user>,*tch*，you money-grubber...! I'll remember this...!<br> 
 
 
 bgmstop,bgmtag1_1,1.5,0
@@ -315,7 +315,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,メリッサ,えーっと、三叉路を直進してから１００歩分まっすぐ行って、<br>２つ目の横穴に入ったから……うんっ、目的地は近いねっ。,107701000G,vc_10770100002_015_01,chara_1
+message,メリッサ,Okay，from the fork we went straight for a hundred paces，then into<br>the second side tunnel... yep，we're almost there!<br> ,107701000G,vc_10770100002_015_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -326,9 +326,9 @@ asyncseplay,setag1_16,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,メリッサ,……って、うっわ！　ここの道、泥だらけになってる！<br>地下水が流れ込んできたのかな。汚れるのやだなぁ……,107701000G,vc_10770100002_016_01,chara_1
+message,メリッサ,Whoa，this path is all muddy! Underground water must have flooded it.<br>I really don't want to get dirty...<br> ,107701000G,vc_10770100002_016_01,chara_1
 
-message,<user>,探索中なんだから、少々の汚れなんて気にしてる余裕ないだろ。<br>ホラ、行くぞ！
+message,<user>,We're in the middle of exploring. We can't be bothered with a little<br>dirt. Come on，let's go!<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -347,9 +347,9 @@ asyncseplay,setag1_18,se4800005,0,1,STOP,5.21
 asynccharaemo,chara_1,Flash,STOP,5.21
 
 
-message,メリッサ,えー、靴とか服とか汚れるのやだよ～。<br>あ、そうだ！　キミがおんぶしてくれたら、汚れないで済むんじゃない？,107701000G,vc_10770100002_017_01,chara_1
+message,メリッサ,Aww，I don't want to get my shoes and clothes dirty. Oh，I know! What<br>if you give me a piggyback ride? Then I won't get dirty，right?<br> ,107701000G,vc_10770100002_017_01,chara_1
 
-message,<user>,はぁ！？　嫌に決まってるだろ！？
+message,<user>,Ha! Hell no!<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -360,11 +360,11 @@ asyncseplay,setag1_19,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,メリッサ,あははっ、冗談冗談～。キミ、いい反応するよね～。<br>からかい甲斐があるよ。クックック……,107701000G,vc_10770100002_018_01,chara_1
+message,メリッサ,Ahaha，just kidding! You have such great reactions. So easy to tease.<br>Heh heh heh...<br> ,107701000G,vc_10770100002_018_01,chara_1
 
-message,<user>,この野郎……
+message,<user>,You bastard...<br> 
 
-message,<user>,……お？　あそこにある宝箱は……！<br>間違いない！　情報通りだな！
+message,<user>,Oh! That chest over there...! No mistake! It's just like the<br>information said!<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -375,9 +375,9 @@ asyncseplay,setag1_20,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,メリッサ,え……？　ちょっと待って、キミに聞いた情報が確かなら、<br>目的地はまだ少し先のはず……,107701000G,vc_10770100002_019_01,chara_1
+message,メリッサ,Huh...? Hold on，if the information you heard was correct，the<br>destination should still be a little further ahead...<br> ,107701000G,vc_10770100002_019_01,chara_1
 
-message,<user>,情報に誤差があったんだろう。問題ない。<br>ようやく見つけたぞ！　あれが夢にまで見たお宝……！
+message,<user>,There must have been an error in the information. No problem. I<br>finally found it! That's the treasure I've dreamed of!<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -388,7 +388,7 @@ asyncseplay,setag1_21,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,メリッサ,あっ、ちょっと！<br>不用意に開けたら、何があるか……！,107701000G,vc_10770100002_020_01,chara_1
+message,メリッサ,Ah，wait! If you open it without caution，something might jump out...!<br> ,107701000G,vc_10770100002_020_01,chara_1
 
 window,off
 wait,0.15
@@ -414,7 +414,7 @@ waitorclick,0.5
 bgmstop,bgmtag1_2,1.5,0
 
 window,on,0.15
-message,,メリッサの制止を無視し、<user>は宝箱を開ける。<br>その直後――
+message,,Ignoring Melissa's protests，the Commander opened the chest. The very<br>next instant—<br> 
 
 window,off
 wait,0.15
@@ -427,11 +427,11 @@ asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
 bgmplay,bgmtag1_3,bgm0028,0.75,1
 
 window,on,0.15
-message,ミミック,ガギギっ！,402001000
+message,ミミック,*snap*!<br> ,402001000
 
-message,<user>,何っ……！？　宝箱がモンスターに……！？
+message,<user>,What! The chest is a monster!<br> 
 
-message,メリッサ,いけないっ、ミミックだ！<br>逃げて～～！,107701000G,vc_10770100002_021_01,
+message,メリッサ,Oh no，it's a Mimic! Run!<br> ,107701000G,vc_10770100002_021_01,
 
 window,off
 wait,0.15
@@ -457,9 +457,9 @@ prefabshowAll,alleffect_0,Roar/Prefabs/NovelEF_Roar
 asyncwait
 
 window,on,0.15
-message,ミミック,ガァァァァァァ～～！,402001000
+message,ミミック,GRAAAAAAGH!<br> ,402001000
 
-message,<user>,あ、危なかった……！　メリッサの呼びかけがなければ、<br>今頃、腕を噛み切られてたかもしれない……！
+message,<user>,*phew*，that was close...! If you hadn't called out，Melissa，I<br>could've had my arm bitten off!<br> 
 
 window,off
 wait,0.15
@@ -488,9 +488,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,メリッサ,完全にこっちを敵とみなしてるね……。<br>ここはひとまず……逃げよう！,107701000G,vc_10770100002_022_01,chara_1
+message,メリッサ,It definitely sees us as enemies now... Let's get out of here!<br> ,107701000G,vc_10770100002_022_01,chara_1
 
-message,<user>,りょ、了解だ！
+message,<user>,R-roger that!<br> 
 
 window,off
 wait,0.15
@@ -547,9 +547,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,メリッサ,ふぅ……この岩陰にいれば、ひとまず姿は隠せそうだね。,107701000G,vc_10770100002_023_01,chara_1
+message,メリッサ,*phew*... We should be able to hide behind this rock for now.<br> ,107701000G,vc_10770100002_023_01,chara_1
 
-message,<user>,すまん、メリッサ。俺のせいで、お前まで危険な目にあわせてしまった。<br>詫びのしようもない……
+message,<user>,I'm sorry，Melissa. Because of me，you got caught up in danger too. I<br>can't apologize enough...<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -560,7 +560,7 @@ asyncseplay,setag1_25,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,メリッサ,そんなこと気にしなくていいって。<br>困っている人を助けるのは、騎士として当然のことだし。,107701000G,vc_10770100002_024_01,chara_1
+message,メリッサ,Don't worry about it. As a knight，helping people in need is only<br>natural.<br> ,107701000G,vc_10770100002_024_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -571,9 +571,9 @@ asyncseplay,setag1_26,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,メリッサ,……あ。,107701000G,vc_10770100002_025_01,chara_1
+message,メリッサ,...Ah.<br> ,107701000G,vc_10770100002_025_01,chara_1
 
-message,<user>,騎士……！？　お前、騎士だったのか？<br>じゃあ、トレジャーハンターってのは……？
+message,<user>,A knight! You were a knight? Then what's the treasure hunter thing<br>all about?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -585,9 +585,9 @@ asyncseplay,setag1_27,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,メリッサ,ハハハ、口が滑っちゃったなぁ……。<br>まあ、絶対に人に知られたくないこと、ってわけでもないんだけどさ。,107701000G,vc_10770100002_026_01,chara_1
+message,メリッサ,Hahaha，I let that slip... Well，it's not like it's a huge secret or<br>anything.<br> ,107701000G,vc_10770100002_026_01,chara_1
 
-message,<user>,それじゃあ、本当に騎士の家の出なのか……。<br>それがどうしてトレジャーハンターなんて地に足のつかないことをしてるんだ？
+message,<user>,So you really are from a knightly family... Then why are you doing<br>something as flighty as treasure hunting?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -598,7 +598,7 @@ asyncseplay,setag1_28,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,メリッサ,……ま、バレちゃったからには、隠してもしょうがないよね。,107701000G,vc_10770100002_027_01,chara_1
+message,メリッサ,Well，now that the cat's out of the bag，there's no point in hiding<br>it.<br> ,107701000G,vc_10770100002_027_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -609,7 +609,7 @@ asyncseplay,setag1_29,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,メリッサ,お察しの通り、ワタシの実家はミレスガルドじゃ割と有名な名家だったんだ。<br>立派な騎士になるべく、剣技も教養もスパルタ式で叩き込まれてきたってわけ。,107701000G,vc_10770100002_028_01,chara_1
+message,メリッサ,As you guessed，my family was a famous noble house in Milesgard. They<br>trained me Spartan-style to become a proper knight.<br> ,107701000G,vc_10770100002_028_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -620,7 +620,7 @@ asyncseplay,setag1_30,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,メリッサ,鍛練は厳しかったけど、ワタシも嫌じゃなかったしね。騎士ってカッコいいし。<br>でも、ワタシが騎士になる前に、実家が没落しちゃってさ～。,107701000G,vc_10770100002_029_01,chara_1
+message,メリッサ,The training was strict，but I didn't hate it. Knights are cool，you<br>know? But before I could become one，my family fell into ruin.<br> ,107701000G,vc_10770100002_029_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -631,7 +631,7 @@ asyncseplay,setag1_31,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,メリッサ,とんでもない額の借金ができたせいで、家族みんなで貧乏生活。<br>こうなったらもう、騎士はすっぱり諦めて、一攫千金狙うっきゃない！,107701000G,vc_10770100002_030_01,chara_1
+message,メリッサ,We ended up with a huge debt and the whole family in poverty. So I<br>had to give up being a knight and go for quick riches.<br> ,107701000G,vc_10770100002_030_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -642,9 +642,9 @@ asyncseplay,setag1_32,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,メリッサ,……っていうわけで、トレジャーハンターになったってわけ。,107701000G,vc_10770100002_031_01,chara_1
+message,メリッサ,And that's how I ended up as a treasure hunter.<br> ,107701000G,vc_10770100002_031_01,chara_1
 
-message,<user>,なるほど……事情は分かったが、それにしたってずいぶん思い切りがいいな。<br>……抵抗はなかったのか？
+message,<user>,I see... I understand the circumstances，but that's quite a decisive<br>move. Didn't you have any second thoughts?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -655,7 +655,7 @@ asyncseplay,setag1_33,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,メリッサ,道が１つダメになったからって、落ち込んでる場合じゃないでしょ。<br>それに、騎士には憧れてたけど、ルールとか規律を守るのは苦手だったし。,107701000G,vc_10770100002_032_01,chara_1
+message,メリッサ,It's not like I could mope because one path closed. Besides，I<br>admired knights，but was never good at rules and order.<br> ,107701000G,vc_10770100002_032_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -666,11 +666,11 @@ asyncseplay,setag1_34,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,メリッサ,なってみたら、案外トレジャーハンターの方が自由で向いてたみたい。<br>今は毎日が楽しいよ～。その日暮らしってのも、悪くないね♪,107701000G,vc_10770100002_033_01,chara_1
+message,メリッサ,I tried the treasure hunter life，and it surprisingly suited me<br>better. Now I have fun every day. Hand-to-mouth isn't so bad，you know!<br> ,107701000G,vc_10770100002_033_01,chara_1
 
-message,<user>,すごいポジティブだな……。けど、納得ができたよ。<br>どうりで、行動や仕草の端々に教養を感じたわけだ。
+message,<user>,You're seriously positive... but now I understand. No wonder I could<br>sense your upbringing in every action and gesture.<br> 
 
-message,<user>,それに、体力も筋力も十分あるみたいだしな。<br>お前のその肉体……活かさない手はないな。
+message,<user>,Plus，you clearly have stamina and strength. I'd be a fool not to put<br>that body of yours to use.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -682,9 +682,9 @@ asyncseplay,setag1_35,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,メリッサ,肉体！？　いや～ん、エッチ～！<br>言っとくけど身体を売る気なんてないからね！,107701000G,vc_10770100002_034_01,chara_1
+message,メリッサ,My body! Eek，you perv! I'll have you know I have no intention of<br>selling myself!<br> ,107701000G,vc_10770100002_034_01,chara_1
 
-message,<user>,違うわっ！　騎士としての鍛錬を積んだやつがいて、<br>頼りになるって言ってんだよ！
+message,<user>,No，that's not it! I'm saying it's a relief to have someone with<br>knight training around!<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -695,11 +695,11 @@ asyncseplay,setag1_36,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,メリッサ,あはははっ、冗談だってば。<br>で……その様子だと、何か考えがあるみたいだね。,107701000G,vc_10770100002_035_01,chara_1
+message,メリッサ,Ahaha，just kidding. So... from that look，you've got something in<br>mind，huh?<br> ,107701000G,vc_10770100002_035_01,chara_1
 
-message,<user>,ああ。俺の不手際でミミックに追われることになったからな。<br>２人だけであれを相手にするのは危ないかと思っていたが……
+message,<user>,Yeah. Since it's my fault we got chased by that Mimic. I was<br>thinking it'd be too dangerous for just the two of us to take it on，but...<br> 
 
-message,<user>,お前が騎士なら話は別だ。目的を変更して、ミミックをこの場で何とかしたい。<br>別の探索者が襲われないとも限らないからな。協力してくれるか？
+message,<user>,But if you're a knight，that changes things. Let's take care of that<br>Mimic here. It could attack others. Help?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -710,7 +710,7 @@ asyncseplay,setag1_37,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,メリッサ,宝は諦めてでも、あとから来る人たちのために、ってことか……。<br>へぇ、キミ、なかなかいいトコあるじゃない。,107701000G,vc_10770100002_036_01,chara_1
+message,メリッサ,So you'd give up the treasure for the people who come after...<br>Huh，you've got some good points after all.<br> ,107701000G,vc_10770100002_036_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -721,9 +721,9 @@ asyncseplay,setag1_38,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,メリッサ,ワタシにも一応、騎士の血が流れてるからね。<br>キミの心意気、乗ってやろうじゃない！　２人であのミミックをやっつけよう！,107701000G,vc_10770100002_037_01,chara_1
+message,メリッサ,I've got knight's blood flowing through me，you know. I'm with you!<br>Let's beat that Mimic together!<br> ,107701000G,vc_10770100002_037_01,chara_1
 
-message,<user>,そう言ってくれると思ったよ。<br>さっそく作戦を聞いてくれ。まずは――
+message,<user>,I knew you'd say that. Alright，here's the plan. First—<br> 
 
 window,off
 bgmstop,bgmtag1_4,0.5

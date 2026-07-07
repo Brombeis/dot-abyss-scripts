@@ -32,7 +32,7 @@ bgmplay,bgmtag1_1,bgm0027,0.75,1
 asyncseplay,setag1_1,SE_DUMMY,0,1,STOP,0
 
 window,on,0.15
-message,,That night，after Honoka's crying visit，<br>%user% went to find the soldiers at the tavern.<br> 
+message,,The night Honoka came to the Commander in tears，he visited the<br>soldiers at the tavern.<br> 
 
 window,off
 wait,0.15
@@ -60,7 +60,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,<user>,Sorry to interrupt your fun.<br>Could I have a word with you?<br> 
+message,<user>,Sorry to interrupt your fun. Could I talk to you for a bit?<br> 
 
 asyncjump,CHARA,chara_3,30,0.25,1,off,0,CONT
 
@@ -69,9 +69,9 @@ asyncseplay,setag1_2,se4800022,0,1,CONT,0
 asynccharaemo,chara_3,Speak,CONT,0
 
 
-message,兵士Ａ,Yes? What is it?<br> ,401001000,vc_10630100003_001_01,chara_3
+message,兵士Ａ,Huh? What is it?<br> ,401001000,vc_10630100003_001_01,chara_3
 
-message,<user>,It's about the new blacksmith—Honoka.<br>Why aren't any of you using her weapons?<br> 
+message,<user>,It's about the new blacksmith，Honoka. Why aren't you guys using her<br>weapons?<br> 
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -82,7 +82,7 @@ asyncseplay,setag1_3,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,兵士Ｂ,Honoka's weapons... we know she put her heart into making them<br>and we want to use them，but... you know?<br> ,400901000,,chara_2
+message,兵士Ｂ,Honoka's weapons... I know she works hard on them，and I want to use<br>them for her，but... you know?<br> ,400901000,,chara_2
 
 asynccharaface,chara_4,FaceSad,CONT,0
 
@@ -93,7 +93,7 @@ asyncseplay,setag1_4,se4800006,0,1,CONT,0
 asynccharaemo,chara_4,Trouble,CONT,0
 
 
-message,兵士Ｃ,W-well... her explanations are just so... unique，<br>we genuinely can't tell how to use them...<br> ,401601000,vc_10630100003_002_01,chara_4
+message,兵士Ｃ,Uh，yeah... Her explanations are just too weird，we can't figure out<br>how to use them...<br> ,401601000,vc_10630100003_002_01,chara_4
 
 window,off
 wait,0.15
@@ -108,7 +108,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(R-right... I can relate to that far too well...)<br> 
+message,<user>,(I-I see... I can relate to that a little too well...)<br> 
 
 window,off
 wait,0.15
@@ -123,7 +123,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,I-I see... I understand the situation.<br>Leave the rest to me...<br> 
+message,<user>,Ah，r-right... I get it. Leave the rest to me.<br> 
 
 
 
@@ -165,7 +165,7 @@ emodelete,chara_4,0,0
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,<user>,——So that's what they said.<br> 
+message,<user>,So that's how it is.<br> 
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -177,7 +177,7 @@ asyncseplay,setag1_5,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ホノカ,Oh，thank goodness~~...<br>So they don't actually hate me.<br> ,106301000G,vc_10630100003_003_01,chara_1
+message,ホノカ,Oh，thank goodness... So it's not that they hate me.<br> ,106301000G,vc_10630100003_003_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -188,7 +188,7 @@ asyncseplay,setag1_6,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ホノカ,I'm so relieved!!<br>Thank you for going to hear them out，Commander!!<br> ,106301000G,vc_10630100003_004_01,chara_1
+message,ホノカ,I'm so relieved! Thanks for going to ask them，Commander!<br> ,106301000G,vc_10630100003_004_01,chara_1
 
 window,off
 wait,0.15
@@ -209,7 +209,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ホノカ,——Wait，this isn't the time to celebrate——!?<br> ,106301000G,vc_10630100003_005_01,chara_1
+message,ホノカ,Wait，this is no time to be happy!<br> ,106301000G,vc_10630100003_005_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -220,7 +220,7 @@ asyncseplay,setag1_8,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ホノカ,I need to fix how bad I am at explaining things... uugh.<br> ,106301000G,vc_10630100003_006_01,chara_1
+message,ホノカ,I have to do something about my bad explanations... ugh.<br> ,106301000G,vc_10630100003_006_01,chara_1
 
 window,off
 wait,0.15
@@ -235,7 +235,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(Her expressions just keep cycling and she never stops talking...<br>I never get bored watching her.)<br> 
+message,<user>,(Her expressions change all the time，and she talks so much... I<br>never get bored watching her.)<br> 
 
 window,off
 wait,0.15
@@ -260,7 +260,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ホノカ,Oh，wait!<br>I just had a great idea!!<br> ,106301000G,vc_10630100003_007_01,chara_1
+message,ホノカ,Ah，I know! I've got a great idea!<br> ,106301000G,vc_10630100003_007_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -271,9 +271,9 @@ asyncseplay,setag1_10,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ホノカ,How about I do test swings with each soldier one-on-one，<br>just like I did with you，Commander!?<br> ,106301000G,vc_10630100003_008_01,chara_1
+message,ホノカ,How about I do test cuts with each soldier，like I did with you，so<br>they can learn how to use them?<br> ,106301000G,vc_10630100003_008_01,chara_1
 
-message,<user>,Wouldn't that take too much time and effort?<br>You'd have no time left to actually make weapons.<br> 
+message,<user>,Wouldn't that take too much time and effort? You won't have time to<br>make weapons.<br> 
 
 window,off
 wait,0.15
@@ -292,7 +292,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ホノカ,Kuuugh...!<br>I see... then what do I even do...?<br> ,106301000G,vc_10630100003_009_01,chara_1
+message,ホノカ,*whimper*... I see... Then what should I do...?<br> ,106301000G,vc_10630100003_009_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -303,7 +303,7 @@ asyncseplay,setag1_12,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ホノカ,Working so hard to make them just for nobody to use...<br>I feel awful for the weapons...<br> ,106301000G,vc_10630100003_010_01,chara_1
+message,ホノカ,They don't get used even though I made them... I feel bad for the<br>weapons...<br> ,106301000G,vc_10630100003_010_01,chara_1
 
 window,off
 wait,0.15
@@ -318,7 +318,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(...Nothing for it. Time for me to take the plunge.)<br> 
+message,<user>,(...No choice. I'll just have to bite the bullet and step in.)<br> 
 
 window,off
 wait,0.15
@@ -333,11 +333,11 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,I'll support you until the soldiers trust your weapons enough.<br> 
+message,<user>,I'll support you until the soldiers trust you enough.<br> 
 
-message,<user>,I've been able to decode your... unique descriptions，a little...<br> 
+message,<user>,I can decode some of your unique expressions.<br> 
 
-message,<user>,From now on，explain every weapon you make to me，all right?<br>I'll work on breaking it down so I can explain it to the soldiers.<br> 
+message,<user>,Can you tell me about every weapon you make from now on? I'll work<br>hard to break them down so I can explain them to the soldiers.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -348,9 +348,9 @@ asyncseplay,setag1_13,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ホノカ,I-I'm glad you'd help，but are you sure...?<br>You'd get exhausted doing that，Commander...<br> ,106301000G,vc_10630100003_011_01,chara_1
+message,ホノカ,I-I'm glad you'd help，but is it really okay...? Won't that wear you<br>out，Commander?<br> ,106301000G,vc_10630100003_011_01,chara_1
 
-message,<user>,It's fine. I told you，didn't I? Rely on me when you need help.<br>That's what the Commander is for.<br> 
+message,<user>,It's fine. I told you，didn't I? 'If you're in trouble，I'll help，so<br>rely on me.' That's the Commander's duty.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -361,9 +361,9 @@ asyncseplay,setag1_14,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ホノカ,...Uh... uaahu...<br> ,106301000G,vc_10630100003_012_01,chara_1
+message,ホノカ,U... uwaaah...<br> ,106301000G,vc_10630100003_012_01,chara_1
 
-message,<user>,Uaahu...?<br> 
+message,<user>,Uwaaah...?<br> 
 
 window,off
 wait,0.15
@@ -403,7 +403,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ホノカ,Uwaaaaaannn!<br>Commanderrrrrr~~~~!!<br> ,106301000G,vc_10630100003_013_01,chara_1
+message,ホノカ,Uwaaaaaaah! Commander!<br> ,106301000G,vc_10630100003_013_01,chara_1
 
 asyncjump,CHARA,chara_1,40,0.5,2,off,0,CONT
 
@@ -412,9 +412,9 @@ asyncseplay,setag1_16,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ホノカ,I-I'll gah-gyahnn byahrdly *hic* *sniff*...<br>Puh-pwease taake cawre of mwee~~!<br> ,106301000G,vc_10630100003_014_01,chara_1
+message,ホノカ,I-I'll do my bwess... *sob*，*sniff*... P-pwease take care of me!<br> ,106301000G,vc_10630100003_014_01,chara_1
 
-message,<user>,Yes，yes... there，there.<br> 
+message,<user>,There，there... it's okay.<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -462,7 +462,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,,Honoka immediately went and retrieved a weapon.<br> 
+message,,Honoka immediately brought out her weapons.<br> 
 
 window,off
 wait,0.15
@@ -497,7 +497,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ホノカ,This sword—go BWONNNN! while swinging and press the button，<br>and it goes BWAWAWAWAWA~!!<br> ,106301000G,vc_10630100003_015_01,chara_1
+message,ホノカ,This sword，when you swing it *swoosh* and click the button，it goes<br>*bwahahaha*!<br> ,106301000G,vc_10630100003_015_01,chara_1
 
 window,off
 wait,0.15
@@ -512,7 +512,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(...Completely lost.)<br> 
+message,<user>,(...I haven't a clue.)<br> 
 
 window,off
 wait,0.15
@@ -527,9 +527,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,,%user%'s head was already starting to throb—<br>but he steeled himself and pressed on.<br> 
+message,,The Commander's head began to ache，but he steeled himself and<br>refused to give up.<br> 
 
-message,<user>,So... you go bwunn! while swinging and press the hilt，right...?<br> 
+message,<user>,Umm，you swing it like *swish* and click the handle，right...?<br> 
 
 window,off
 wait,0.15
@@ -546,7 +546,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ホノカ,Wrong!! It's BWONNNN!! Got it!?<br> ,106301000G,vc_10630100003_016_01,chara_1
+message,ホノカ,No! It's *swoosh*!<br> ,106301000G,vc_10630100003_016_01,chara_1
 
 window,off
 wait,0.15
@@ -569,7 +569,7 @@ transitionCrossFade,Tra01,1
 wait,1
 
 window,on,0.15
-message,<user>,More force，you mean... like this!?<br> 
+message,<user>,So，more forcefully... like this?!<br> 
 
 window,off
 wait,0.15
@@ -635,7 +635,7 @@ asyncseplay,setag1_24,se4900013,0,1,CONT,0
 prefabshowUI,uieffect_4
 
 window,on,0.15
-message,,——BWAWAWAWAWA~!<br> 
+message,,*bwahahaha!*<br> 
 
 window,off
 wait,0.15
@@ -651,7 +651,7 @@ shake,CHARA,chara_3,40,0,0.25,20,off,off,0
 shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,<user>,Whoa!?<br>The sword split apart and went BWAWAWAWAWA~!?<br> 
+message,<user>,Whoa! The sword split and went *bwahahaha*?!<br> 
 
 window,off
 wait,0.15
@@ -689,7 +689,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ホノカ,That's a success~~!<br> ,106301000G,vc_10630100003_017_01,chara_1
+message,ホノカ,Success!<br> ,106301000G,vc_10630100003_017_01,chara_1
 
 window,off
 wait,0.15
@@ -704,7 +704,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(All right，I'll keep at this for Honoka's sake!)<br> 
+message,<user>,(Alright，I'll keep this up for Honoka!)<br> 
 
 
 
@@ -732,7 +732,7 @@ emodelete,chara_1,0,0
 fade,In,Black,1
 
 window,on,0.15
-message,,%user%'s Honoka-translation sessions continued day and night.<br> 
+message,,The Commander's deciphering of Honoka-speak went on day and night.<br> 
 
 window,off
 wait,0.15
@@ -771,7 +771,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ホノカ,This spear—you spin it KYURURURURUN! and then go GYUN!<br>and it goes SHUGOGOGO~~~!!<br> ,106301000G,vc_10630100003_018_01,chara_1
+message,ホノカ,This spear，when you twirl it with a 'Whirrrl!' and then 'Zing!'，goes<br>'Shoooosh!'<br> ,106301000G,vc_10630100003_018_01,chara_1
 
 window,off
 wait,0.15
@@ -793,7 +793,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ホノカ,With this staff you swing it with a KILARALAAN★ feeling<br>and the enemy goes PYURUN PYURURUN PYURURURUN♪~~!<br> ,106301000G,vc_10630100003_019_01,chara_1
+message,ホノカ,This staff，when you swing it with a 'Sparkle sparkle!' feeling，the<br>enemy goes 'Pyurun pyururun pyurururun♪'!<br> ,106301000G,vc_10630100003_019_01,chara_1
 
 window,off
 wait,0.15
@@ -814,9 +814,9 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,ホノカ,This hammer—you just KABOOOM!!! the enemy!<br>And then everything goes all——————MUSH.<br> ,106301000G,vc_10630100003_020_01,chara_1
+message,ホノカ,This hammer，you just hit the opponent with a 'BOOM!' and everything<br>turns to mush.<br> ,106301000G,vc_10630100003_020_01,chara_1
 
-message,<user>,That's terrifying!?<br> 
+message,<user>,That's terrifying!<br> 
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -845,7 +845,7 @@ fade,In,Black,0
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>——And Then，Some Days Later</size>,,,on
+messageTextCenter,,<size=48>—And then，some days later.</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -891,7 +891,7 @@ wait,0.5
 window,on,0.15
 message,ホノカ,C-Commander... are you okay?<br> ,106301000G,vc_10630100003_021_01,chara_1
 
-message,<user>,...Why do you ask?<br> 
+message,<user>,...What?<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -900,9 +900,9 @@ asyncseplay,setag1_30,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ホノカ,You've got these huge dark circles under your eyes...<br>You look like a panda...?<br> ,106301000G,vc_10630100003_022_01,chara_1
+message,ホノカ,You've got huge bags under your eyes... You look like a panda!<br> ,106301000G,vc_10630100003_022_01,chara_1
 
-message,<user>,Daytime work's been busy too...<br>But，well，I'm fine.<br> 
+message,<user>,Well，I've been busy with my day job too... But I'm fine.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -913,7 +913,7 @@ asyncseplay,setag1_31,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ホノカ,I-I see.<br> ,106301000G,vc_10630100003_023_01,chara_1
+message,ホノカ,I see...<br> ,106301000G,vc_10630100003_023_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -924,9 +924,9 @@ asyncseplay,setag1_32,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ホノカ,...Thank you... for doing all this for me...<br> ,106301000G,vc_10630100003_024_01,chara_1
+message,ホノカ,...Thanks for doing this for me...<br> ,106301000G,vc_10630100003_024_01,chara_1
 
-message,<user>,Save the thanks. The real part starts now.<br> 
+message,<user>,It's too early to thank me. The real work starts now.<br> 
 
 window,off
 wait,0.15
@@ -946,7 +946,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ホノカ,Right!! All right，let's give it everything~~!<br> ,106301000G,vc_10630100003_025_01,chara_1
+message,ホノカ,You're right! Alright，I'll do my best!<br> ,106301000G,vc_10630100003_025_01,chara_1
 
 window,off
 wait,0.15
@@ -969,7 +969,7 @@ transitionCrossFade,Tra02,1
 wait,1
 
 window,on,0.15
-message,<user>,Everyone，gather round!<br>We're presenting Honoka's new weapons!<br> 
+message,<user>,Everyone，gather up! I'm going to explain Honoka's new weapons!<br> 
 
 window,off
 wait,0.15
@@ -1026,7 +1026,7 @@ sestop,se1_1001,0.1
 wait,0.5
 
 window,on,0.15
-message,,Answering the call，the soldiers gathered one after another.<br> 
+message,,At his command，the soldiers quickly assembled.<br> 
 
 window,off
 wait,0.15
@@ -1077,7 +1077,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ホノカ,This sword—go BWUNN! while swinging and press the button，<br>and it goes BWAWAWAWAWA~!!<br> ,106301000G,vc_10630100003_026_01,chara_1
+message,ホノカ,This sword，when you swing it like 'Swoosh!' and press the button，it<br>goes 'Bwaaaaaah!'<br> ,106301000G,vc_10630100003_026_01,chara_1
 
 window,off
 wait,0.15
@@ -1102,9 +1102,9 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,Let me explain. Swing this sword hard and press the hilt button——<br>and the blade splits into dozens of flying pieces!!<br> 
+message,<user>,I'll explain. Swing this sword hard and press the button—the blade<br>splits into dozens of pieces that fly forward!<br> 
 
-message,<user>,One important note: when you swing，go big—full force!<br>...Like this!<br> 
+message,<user>,But a word of warning: swing hard and wide! Like this!<br> 
 
 window,off
 wait,0.15
@@ -1170,7 +1170,7 @@ asyncseplay,setag1_40,se4900009,0,1,CONT,0
 prefabshowUI,uieffect_4
 
 window,on,0.15
-message,,——BWUNN!<br>BWAWAWAWAWA~!<br> 
+message,,—Swoosh!<br>Bwaaaaaah!<br> 
 
 window,off
 wait,0.15
@@ -1228,7 +1228,7 @@ asynccharaemo,chara_3,Shock,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,Whoooa~~~~!?<br> ,401001000,vc_10630100003_027_01,chara_3
+message,兵士Ａ,Whoooa!<br> ,401001000,vc_10630100003_027_01,chara_3
 
 asyncshake,CHARA,chara_2,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1237,7 +1237,7 @@ asyncseplay,setag1_42,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,兵士Ｂ,Amazing!!<br>The blade really did split apart and fly out!?<br> ,400901000,,chara_2
+message,兵士Ｂ,That's amazing! The sword really split apart and flew off!<br> ,400901000,,chara_2
 
 window,off
 wait,0.15
@@ -1280,7 +1280,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,You can call the blades back with this button，right?<br> 
+message,<user>,The blades that flew off can be pulled back with this button，right?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1292,7 +1292,7 @@ asyncseplay,setag1_43,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ホノカ,Yep!!<br>I used that same gadget from the floating clock we saw in the shop~!<br> ,106301000G,vc_10630100003_028_01,chara_1
+message,ホノカ,Yeah! I used the mechanism from one of those floating clocks I saw<br>at the store!<br> ,106301000G,vc_10630100003_028_01,chara_1
 
 window,off
 wait,0.15
@@ -1357,7 +1357,7 @@ wait,0.5
 
 
 window,on,0.15
-message,兵士Ｃ,So you can fight even outside the sword's normal reach?<br> ,401601000,vc_10630100003_029_01,chara_4
+message,兵士Ｃ,So even if you're outside the sword's range，you can still fight to<br>some extent?<br> ,401601000,vc_10630100003_029_01,chara_4
 
 asyncjump,CHARA,chara_3,30,0.25,1,off,0,CONT
 
@@ -1366,7 +1366,7 @@ asyncseplay,setag1_45,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,兵士Ａ,What a weapon!!<br>Can I have that sword!?<br> ,401001000,vc_10630100003_030_01,chara_3
+message,兵士Ａ,Great weapon! Please let me use that sword!<br> ,401001000,vc_10630100003_030_01,chara_3
 
 asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
 
@@ -1375,7 +1375,7 @@ asyncseplay,setag1_46,se4800010,0,1,CONT,0
 asynccharaemo,chara_2,Exclamation,CONT,0
 
 
-message,兵士Ｂ,Let me try it too!<br>I can see this getting results on the field!<br> ,400901000,,chara_2
+message,兵士Ｂ,Let me try too! I feel like I can get some good results!<br> ,400901000,,chara_2
 
 asynccharaface,chara_4,FaceHappy,CONT,0
 
@@ -1386,7 +1386,7 @@ asyncseplay,setag1_47,se4800004,0,1,CONT,0
 asynccharaemo,chara_4,Laugh,CONT,0
 
 
-message,兵士Ｃ,Me too! Me too!<br> ,401601000,vc_10630100003_031_01,chara_4
+message,兵士Ｃ,Me too，me too!<br> ,401601000,vc_10630100003_031_01,chara_4
 
 window,off
 wait,0.15
@@ -1429,7 +1429,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,Hold on，everyone.<br> 
+message,<user>,Hold on，hold on，you guys.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1441,9 +1441,9 @@ asyncseplay,setag1_48,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ホノカ,I'm super happy，but there are still SO many more weapons~~!<br>Please hear them all out first，then pick your favorite!!<br> ,106301000G,vc_10630100003_032_01,chara_1
+message,ホノカ,I'm so happy! But I've still got plenty more weapons! I want you to<br>hear about all of them first and then pick your favorites!<br> ,106301000G,vc_10630100003_032_01,chara_1
 
-message,兵士たち,Yes，sir!!<br> ,900000001
+message,兵士たち,Got it!<br> ,900000001
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1454,7 +1454,7 @@ asyncseplay,setag1_49,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ホノカ,Ehehehe... All right，on to the next weapon!<br>Next up——<br> ,106301000G,vc_10630100003_033_01,chara_1
+message,ホノカ,Ehehe... Well then，here's the next weapon! Next is—<br> ,106301000G,vc_10630100003_033_01,chara_1
 
 window,off
 wait,0.15
@@ -1469,7 +1469,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(...It was a struggle，but this looks like it'll work out.)<br> 
+message,<user>,(...It was a lot of work，but it looks like it's going well.)<br> 
 
 bgmstop,bgmtag1_3,1.5,0
 
@@ -1501,7 +1501,7 @@ fade,In,Black,0
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>——And Yet Again，Some Days Later</size>,,,on
+messageTextCenter,,<size=48>—Some days later.</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -1523,7 +1523,7 @@ bgmplay,bgmtag1_4,bgm0031,0.75,1
 fade,In,Black,1
 
 window,on,0.15
-message,<user>,Phew... Looks like work is finally settling down.<br>Maybe I can take a moment to breathe.<br> 
+message,<user>,Phew... looks like work is finally winding down. Time to take a<br>breather.<br> 
 
 window,off
 wait,0.15
@@ -1533,7 +1533,7 @@ charafocusonall
 asyncseplay,setag1_50,se4300007,0,1,CONT,0
 
 window,on,0.15
-message,,——Click!<br> 
+message,,—Clack!<br> 
 
 window,off
 wait,0.15
@@ -1578,9 +1578,9 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,ホノカ,Commander~~~~♪<br>Listen，listen!! Tell me you'll hear me out~~♪<br> ,106301000G,vc_10630100003_034_01,chara_1
+message,ホノカ,Commander! Listen，listen! Please listen to what I have to say!<br> ,106301000G,vc_10630100003_034_01,chara_1
 
-message,<user>,You're in quite a good mood. What's up?<br> 
+message,<user>,You're in a great mood. What's up?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1591,7 +1591,7 @@ asyncseplay,setag1_52,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ホノカ,So so so—everyone's actually using my weapons now!!<br> ,106301000G,vc_10630100003_035_01,chara_1
+message,ホノカ,You know what，you know what? Everyone's using my weapons!<br> ,106301000G,vc_10630100003_035_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1603,7 +1603,7 @@ asyncseplay,setag1_53,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ホノカ,Lately，when I'm in the forge they're constantly coming to me<br>for repairs and tune-ups~~!<br> ,106301000G,vc_10630100003_036_01,chara_1
+message,ホノカ,Lately，when I'm in the workshop，I'm constantly getting requests for<br>weapon repairs and adjustments!<br> ,106301000G,vc_10630100003_036_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1614,9 +1614,9 @@ asyncseplay,setag1_54,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ホノカ,They're even asking 'could you do this instead?'<br>so I'm learning SO much as a smith!!<br> ,106301000G,vc_10630100003_037_01,chara_1
+message,ホノカ,They also come to me with ideas like 'could you do it more like<br>this?' so as a blacksmith，I'm learning a ton!<br> ,106301000G,vc_10630100003_037_01,chara_1
 
-message,<user>,Haha，is that right. I'm glad to hear it!<br> 
+message,<user>,Ahaha，really? That's great!<br> 
 
 window,off
 wait,0.15
@@ -1648,7 +1648,7 @@ asyncseplay,setag1_55,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 window,on,0.15
-message,,%user% reached over and patted Honoka on the head.<br> 
+message,,%user% patted Honoka's head as she came close.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1659,7 +1659,7 @@ asyncseplay,setag1_56,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ホノカ,Kyuuu~~n... pat pat... that feels so good~~♪<br> ,106301000G,vc_10630100003_038_01,chara_1
+message,ホノカ,*whimper*... pat，pat... that feels so good!♪<br> ,106301000G,vc_10630100003_038_01,chara_1
 
 window,off
 wait,0.15
@@ -1687,9 +1687,9 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,I have a report for you as well.<br>About what happened once the soldiers started using your weapons——<br> 
+message,<user>,I have a report too. It's about the results of the soldiers using<br>your weapons.<br> 
 
-message,<user>,The results have been extraordinary.<br>It's no wonder your popularity is rising.<br> 
+message,<user>,They're getting amazing combat results. It's only natural that your<br>popularity went up，Honoka.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1700,9 +1700,9 @@ asyncseplay,setag1_57,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ホノカ,Really!?<br> ,106301000G,vc_10630100003_039_01,chara_1
+message,ホノカ,Really!<br> ,106301000G,vc_10630100003_039_01,chara_1
 
-message,<user>,That's right. You really worked hard.<br>You should be proud.<br> 
+message,<user>,Yeah. You really did great. Good job.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1713,7 +1713,7 @@ asyncseplay,setag1_58,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ホノカ,Mm，mmmm... I'm happy to be praised，but...<br> ,106301000G,vc_10630100003_040_01,chara_1
+message,ホノカ,Umm... I'm happy to be praised，but...<br> ,106301000G,vc_10630100003_040_01,chara_1
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1725,11 +1725,11 @@ asyncseplay,setag1_59,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ホノカ,It wasn't really my power—it's thanks to you，Commander!!<br> ,106301000G,vc_10630100003_041_01,chara_1
+message,ホノカ,More than my own efforts，it's all thanks to you，Commander!<br> ,106301000G,vc_10630100003_041_01,chara_1
 
-message,<user>,Ah，no，I just——<br> 
+message,<user>,Ah，no，I—<br> 
 
-message,<user>,......<br> 
+message,<user>,...<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1756,7 +1756,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(Maybe I should take a page from Honoka's book and be more direct.)<br> 
+message,<user>,(Maybe I should learn to be as honest as Honoka.)<br> 
 
 window,off
 wait,0.15
@@ -1771,7 +1771,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,Thank you. Being praised for hard work does feel good.<br> 
+message,<user>,Thanks. It feels good to be praised for working hard.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1782,7 +1782,7 @@ asyncseplay,setag1_61,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ホノカ,Yeah!!! Ehehe...♪<br> ,106301000G,vc_10630100003_043_01,chara_1
+message,ホノカ,Yeah! Ehehe!♪<br> ,106301000G,vc_10630100003_043_01,chara_1
 
 window,off
 wait,0.15
@@ -1828,7 +1828,7 @@ asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,,Honoka flung her arms around %user% and squeezed tight.<br> 
+message,,Honoka hugged %user% tightly.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1839,9 +1839,9 @@ asyncseplay,setag1_64,se4800002,0,1,CONT,0
 asynccharaemo,chara_1,Heart,CONT,0
 
 
-message,ホノカ,Commander!!<br>I LOVE you!!!<br> ,106301000G,vc_10630100003_044_01,chara_1
+message,ホノカ,Commander! I love you!<br> ,106301000G,vc_10630100003_044_01,chara_1
 
-message,<user>,Haha，I see.<br> 
+message,<user>,Ahaha，yeah.<br> 
 
 window,off
 wait,0.15
@@ -1856,7 +1856,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(I could never be quite that open about my feelings...)<br> 
+message,<user>,(I can't be that honest...)<br> 
 
 window,off
 wait,0.15
@@ -1880,7 +1880,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,ホノカ,Ehehehe~~♡<br> ,106301000G,vc_10630100003_045_01,chara_1
+message,ホノカ,Ehehehe!♡<br> ,106301000G,vc_10630100003_045_01,chara_1
 
 window,off
 bgmstop,bgmtag1_4,0.5

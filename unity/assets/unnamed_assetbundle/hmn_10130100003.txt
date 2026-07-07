@@ -256,19 +256,19 @@ asyncseplay,setag1_13,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,フレデリカ,B-b-bodily fluids!?<br>Why!? What for!?<br> ,101301000G,vc_10130100003_015_01,chara_1
+message,フレデリカ,B-b-body fluids!? Why!? Why the hell!?<br> ,101301000G,vc_10130100003_015_01,chara_1
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
 asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
 
 
-message,アーデルハイト,Science thoroughly analyzes the subject's makeup.<br>A different approach from magic.<br> ,108701000G,vc_10130100003_016_01,chara_2
+message,アーデルハイト,Science thoroughly analyzes the structure of its subject. It's a<br>similar yet different approach from magic.<br> ,108701000G,vc_10130100003_016_01,chara_2
 
 asynccharaface,chara_2,FaceUnique01,CONT,0
 
 
-message,アーデルハイト,To analyze your body's composition，<br>we need to collect your bodily fluids.<br> ,108701000G,vc_10130100003_017_01,chara_2
+message,アーデルハイト,In order to analyze the composition of your body，I need to collect a<br>sample of your bodily fluids.<br> ,108701000G,vc_10130100003_017_01,chara_2
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -279,9 +279,9 @@ asyncseplay,setag1_14,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フレデリカ,I-I get the reason，but... but still...!<br> ,101301000G,vc_10130100003_018_01,chara_1
+message,フレデリカ,I-I understand the reasoning，but... but still...!<br> ,101301000G,vc_10130100003_018_01,chara_1
 
-message,<user>,What's the matter，Frederica?<br>It's not that big a deal，is it?<br> 
+message,<user>,What's wrong，Frederica? It's not something to hesitate over，is it?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -292,7 +292,7 @@ asyncseplay,setag1_15,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,フレデリカ,You too，Commander!?<br>Uuugh~... what is it with you two...!<br> ,101301000G,vc_10130100003_019_01,chara_1
+message,フレデリカ,Even you，Commander!? Ugh... what's with you two...!<br> ,101301000G,vc_10130100003_019_01,chara_1
 
 
 window,off
@@ -315,7 +315,7 @@ asyncjump,CHARA,chara_2,-30.6,0.5,1,off,0,CONT
 
 
 window,on,0.15
-message,アーデルハイト,Now then，please provide your fluids<br>into this dish...<br> ,108701000G,vc_10130100003_020_01,chara_2
+message,アーデルハイト,Now，if you would please deposit your bodily fluids into this petri<br>dish...<br> ,108701000G,vc_10130100003_020_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -326,7 +326,7 @@ asyncseplay,setag1_16,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,フレデリカ,R-right here!?<br>You want to collect it right here!?<br> ,101301000G,vc_10130100003_021_01,chara_1
+message,フレデリカ,R-right here!? You're saying you'll collect them right here!?<br> ,101301000G,vc_10130100003_021_01,chara_1
 
 asynccharaface,chara_2,FaceUnique01,CONT,0
 
@@ -335,7 +335,7 @@ asyncseplay,setag1_17,se4800009,0,1,CONT,0
 asynccharaemo,chara_2,Question,CONT,0
 
 
-message,アーデルハイト,The sooner we start the analysis，the better，<br>wouldn't you say?<br> ,108701000G,vc_10130100003_022_01,chara_2
+message,アーデルハイト,It's better to proceed with the analysis quickly，isn't it?<br> ,108701000G,vc_10130100003_022_01,chara_2
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -346,7 +346,7 @@ asyncseplay,setag1_18,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,フレデリカ,That's true，but... it's true，but...!<br>Uuugh~...!<br> ,101301000G,vc_10130100003_023_01,chara_1
+message,フレデリカ,That's certainly true... it is，but...! Ughhh...!<br> ,101301000G,vc_10130100003_023_01,chara_1
 
 window,off
 wait,0.15
@@ -394,7 +394,7 @@ asynccharaemo,chara_1,Anger,CONT,0
 
 
 window,on,0.15
-message,フレデリカ,I-I can't do something that lewd~~~!!<br> ,101301000G,vc_10130100003_024_01,chara_1
+message,フレデリカ,I-I can't do something so lewd!<br> ,101301000G,vc_10130100003_024_01,chara_1
 
 window,off
 wait,0.15
@@ -447,7 +447,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,<user>,...Hm?<br> 
+message,<user>,...Huh?<br> 
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -458,7 +458,7 @@ asyncseplay,setag1_20,se4800009,0,1,CONT,0
 asynccharaemo,chara_2,Question,CONT,0
 
 
-message,アーデルハイト,...I was trying to collect saliva...?<br>Is that really so indecent?<br> ,108701000G,vc_10130100003_025_01,chara_2
+message,アーデルハイト,...I was trying to collect saliva. Is that really so obscene?<br> ,108701000G,vc_10130100003_025_01,chara_2
 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
@@ -470,7 +470,7 @@ asyncseplay,setag1_21,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,フレデリカ,Eh.<br> ,101301000G,vc_10130100003_026_01,chara_1
+message,フレデリカ,Eh?<br> ,101301000G,vc_10130100003_026_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -481,9 +481,9 @@ asyncseplay,setag1_22,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,フレデリカ,...O-of course! I knew that!<br>Saliva，obviously，saliva!<br> ,101301000G,vc_10130100003_027_01,chara_1
+message,フレデリカ,...Y-yeah，that's right! I knew that! It's saliva，right，saliva!<br> ,101301000G,vc_10130100003_027_01,chara_1
 
-message,<user>,Hmm. So am I to understand you consider<br>saliva to be indecent?<br> 
+message,<user>,Hmm. So you think saliva is lewd，is that it?<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -494,7 +494,7 @@ asyncseplay,setag1_23,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,フレデリカ,That's not what I meant~!!!<br> ,101301000G,vc_10130100003_028_01,chara_1
+message,フレデリカ,Nooo!<br> ,101301000G,vc_10130100003_028_01,chara_1
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -505,7 +505,7 @@ asyncseplay,setag1_24,se4800009,0,1,CONT,0
 asynccharaemo,chara_2,Question,CONT,0
 
 
-message,アーデルハイト,Then what did you mean... ah.<br>I see，you thought not saliva，but love ju— mmph?<br> ,108701000G,vc_10130100003_029_01,chara_2
+message,アーデルハイト,Then what does that mean... Ah. I see. So it's not saliva，but love<br>ju—?<br> ,108701000G,vc_10130100003_029_01,chara_2
 
 
 window,off
@@ -535,7 +535,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,フレデリカ,Shh! Shhh!!<br>Don't say another word! Please!!<br> ,101301000G,vc_10130100003_030_01,chara_1
+message,フレデリカ,Shh! Shh! Don't say another word! Please!<br> ,101301000G,vc_10130100003_030_01,chara_1
 
 window,off
 wait,0.15
@@ -566,7 +566,7 @@ asynccharaemo,chara_2,Spirits,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,Well then，let us resume... Now，Frederica-san.<br>Stick out your tongue and let your saliva drip slowly.<br> ,108701000G,vc_10130100003_031_01,chara_2
+message,アーデルハイト,Now，to start anew，Frederica. Please slowly stick out your tongue<br>fully，narrow your eyes，and let your saliva drip thick and sticky.<br> ,108701000G,vc_10130100003_031_01,chara_2
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -577,7 +577,7 @@ asyncseplay,setag1_27,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,フレデリカ,What kind of instructions are those!?<br>That's way more than necessary!?<br> ,101301000G,vc_10130100003_032_01,chara_1
+message,フレデリカ,What kind of demand is that! There's no need to go that far!<br> ,101301000G,vc_10130100003_032_01,chara_1
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -588,7 +588,7 @@ asyncseplay,setag1_28,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,アーデルハイト,True. I simply want to observe what expressions<br>Frederica-san makes during the act.<br> ,108701000G,vc_10130100003_033_01,chara_2
+message,アーデルハイト,Indeed，I just wanted to see what expression you make when you<br>proceed with the act.<br> ,108701000G,vc_10130100003_033_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -599,7 +599,7 @@ asyncseplay,setag1_29,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,フレデリカ,Don't just casually say something outrageous!!<br> ,101301000G,vc_10130100003_034_01,chara_1
+message,フレデリカ,Don't say something so outrageous so casually!<br> ,101301000G,vc_10130100003_034_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -610,9 +610,9 @@ asyncseplay,setag1_30,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,フレデリカ,...Hey，C-Commander!<br>Don't look at me with those perverted eyes!<br> ,101301000G,vc_10130100003_035_01,chara_1
+message,フレデリカ,W-Wait，Commander! Don't look at me with such lewd eyes!<br> ,101301000G,vc_10130100003_035_01,chara_1
 
-message,<user>,Don't lump me in with your master...<br> 
+message,<user>,Don't lump me in with your teacher...<br> 
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -643,7 +643,7 @@ fade,In,Black,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>——A few days later</size>,,,on
+messageTextCenter,,<size=48>—A few days later—</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -692,9 +692,9 @@ asynccharaemo,chara_2,Question,STOP,1
 
 
 window,on,0.15
-message,アーデルハイト,Excuse me... oh? Where is Frederica-san?<br> ,108701000G,vc_10130100003_036_01,chara_2
+message,アーデルハイト,Excuse me... Oh? Where is Frederica?<br> ,108701000G,vc_10130100003_036_01,chara_2
 
-message,<user>,I came alone.<br>I wanted to hear the results first.<br> 
+message,<user>,I came alone. I wanted to hear the analysis results first.<br> 
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -707,14 +707,14 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 asynccharaface,chara_2,EyeOpen,STOP,8
 asynccharaface,chara_2,FaceNormal,STOP,8
-message,アーデルハイト,...I see. Depending on the results，she might be<br>better off not hearing them directly. Wise judgment.<br> ,108701000G,vc_10130100003_037_01,chara_2
+message,アーデルハイト,I see. Indeed，depending on the results，it might be better not to<br>tell her directly. Excellent judgment.<br> ,108701000G,vc_10130100003_037_01,chara_2
 
 asynccharaface,chara_2,FaceUnique01,CONT,0
 
 
-message,アーデルハイト,Well then，to start with the conclusion...<br>Frederica-san likely carries the blood of a high succubus.<br> ,108701000G,vc_10130100003_038_01,chara_2
+message,アーデルハイト,First，I'll give you the conclusion... Frederica is likely descended<br>from a high-level succubus.<br> ,108701000G,vc_10130100003_038_01,chara_2
 
-message,<user>,A succubus... and a high-ranking one at that?<br> 
+message,<user>,Succubus... and even high-level?<br> 
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -722,7 +722,7 @@ asynccharaface,chara_2,FaceNormal,CONT,0
 asyncjump,CHARA,chara_2,-30.6,0.5,1,off,0,CONT
 
 
-message,アーデルハイト,Most succubi bear children with humans，<br>and the bloodline dilutes over generations.<br> ,108701000G,vc_10130100003_039_01,chara_2
+message,アーデルハイト,Many succubi bear children with humans and gradually dilute their<br>blood.<br> ,108701000G,vc_10130100003_039_01,chara_2
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -733,7 +733,7 @@ asyncseplay,setag1_34,se4800014,0,1,CONT,0
 asynccharaemo,chara_2,Silence,CONT,0
 
 
-message,アーデルハイト,However，Frederica-san's blood contains succubus<br>genes so powerful they haven't diluted over generations.<br> ,108701000G,vc_10130100003_040_01,chara_2
+message,アーデルハイト,However，Frederica's blood contains succubus genetic factors so<br>strong that they haven't been diluted even after generations.<br> ,108701000G,vc_10130100003_040_01,chara_2
 
 asynccharaface,chara_2,FaceUnique01,CONT,0
 
@@ -744,9 +744,9 @@ asyncseplay,setag1_35,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,アーデルハイト,I said high-ranking，but given this concentration...<br>she may be descended from a legendary succubus.<br> ,108701000G,vc_10130100003_041_01,chara_2
+message,アーデルハイト,Earlier I only said high-level，but at this concentration... she<br>might be a descendant of a legendary succubus.<br> ,108701000G,vc_10130100003_041_01,chara_2
 
-message,<user>,So succubus blood runs in Frederica's family...<br>Thank you，Adelheid. The mystery is finally solved.<br> 
+message,<user>,So a succubus was involved in Frederica's lineage... Thank<br>you，Adelheid. The mystery has finally been solved.<br> 
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -756,9 +756,9 @@ asyncseplay,setag1_36,se4800009,0,1,CONT,0
 asynccharaemo,chara_2,Question,CONT,0
 
 
-message,アーデルハイト,Will you tell Frederica-san about this?<br> ,108701000G,vc_10130100003_042_01,chara_2
+message,アーデルハイト,Shall I tell Frederica about this?<br> ,108701000G,vc_10130100003_042_01,chara_2
 
-message,<user>,No... let's keep it a secret. This is too good.<br> 
+message,<user>,No... it'll be more interesting if we don't tell her.<br> 
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -769,9 +769,9 @@ asyncseplay,setag1_37,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,アーデルハイト,Fufu... what a mischievous plan you've devised.<br> ,108701000G,vc_10130100003_043_01,chara_2
+message,アーデルハイト,Fufu... You've come up with quite a mischievous prank.<br> ,108701000G,vc_10130100003_043_01,chara_2
 
-message,<user>,But telling her we found nothing would hurt<br>Lux Nova's credibility. So，after this...<br> 
+message,<user>,But if we say we found nothing，it'll hurt Lux Nova's credibility. So<br>afterwards，I'll...<br> 
 
 
 
@@ -828,7 +828,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,フレデリカ,So... what were the results?<br> ,101301000G,vc_10130100003_044_01,chara_1
+message,フレデリカ,So，what were the results?<br> ,101301000G,vc_10130100003_044_01,chara_1
 
 asynccharaface,chara_2,FaceUnique01,CONT,0
 
@@ -839,7 +839,7 @@ asyncseplay,setag1_39,se4800014,0,1,CONT,0
 asynccharaemo,chara_2,Silence,CONT,0
 
 
-message,アーデルハイト,I'll be blunt.<br>Frederica-san. You have——<br> ,108701000G,vc_10130100003_045_01,chara_2
+message,アーデルハイト,To put it bluntly，Frederica.<br>You are—<br> ,108701000G,vc_10130100003_045_01,chara_2
 
 asynccharaface,chara_2,EyeClose,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -847,7 +847,7 @@ asynccharaface,chara_2,FaceNormal,CONT,0
 asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
 
 
-message,アーデルハイト,Acute Lewdness Syndrome.<br> ,108701000G,vc_10130100003_046_01,chara_2
+message,アーデルハイト,You have Acute Obscene Syndrome.<br> ,108701000G,vc_10130100003_046_01,chara_2
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -858,7 +858,7 @@ asyncseplay,setag1_40,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,フレデリカ,Wha——!?<br>A-Acute Lewdness Syndrome!?<br> ,101301000G,vc_10130100003_047_01,chara_1
+message,フレデリカ,Wha...! A-Acute Obscene Syndrome!<br> ,101301000G,vc_10130100003_047_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -869,14 +869,14 @@ asyncseplay,setag1_41,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,フレデリカ,I've never heard of it，but...<br>it's definitely nothing good!?<br> ,101301000G,vc_10130100003_048_01,chara_1
+message,フレデリカ,I've never heard of it，but it's gotta be a terrible disease!<br> ,101301000G,vc_10130100003_048_01,chara_1
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
 asyncjump,CHARA,chara_2,-30.6,0.5,1,off,0,CONT
 
 
-message,アーデルハイト,Yes，it is quite magnifi—— terrible. A terrible disease.<br> ,108701000G,vc_10130100003_049_01,chara_2
+message,アーデルハイト,Yes，it's a truly magnifi... terrible disease.<br> ,108701000G,vc_10130100003_049_01,chara_2
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -887,7 +887,7 @@ asyncseplay,setag1_42,se4800015,0,1,CONT,0
 asynccharaemo,chara_2,Dull,CONT,0
 
 
-message,アーデルハイト,As symptoms progress，you will acceleratingly<br>become an increasingly lewd creature.<br> ,108701000G,vc_10130100003_050_01,chara_2
+message,アーデルハイト,As the symptoms progress，you will become a lewd creature at an<br>accelerating pace.<br> ,108701000G,vc_10130100003_050_01,chara_2
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -898,7 +898,7 @@ asyncseplay,setag1_43,se4800006,0,1,CONT,0
 asynccharaemo,chara_2,Trouble,CONT,0
 
 
-message,アーデルハイト,As you become consumed by lust，your magic is<br>tainted too. Hence，everything you create turns lewd.<br> ,108701000G,vc_10130100003_051_01,chara_2
+message,アーデルハイト,Since you're steeped in lust，your magical power is affected. So any<br>alchemy you do will only produce the most obscene things.<br> ,108701000G,vc_10130100003_051_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -911,7 +911,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 message,フレデリカ,Wh-what a terrifying condition...!<br> ,101301000G,vc_10130100003_052_01,chara_1
 
-message,<user>,I read about this disease once in a book.<br>If I recall，a kiss from someone you love eases it?<br> 
+message,<user>,I actually read about this condition once in a book. If I recall，a<br>kiss from a loved one can improve the symptoms?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -922,7 +922,7 @@ asyncseplay,setag1_45,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,フレデリカ,A k-k-k-kiss... from someone you l-love!?<br> ,101301000G,vc_10130100003_053_01,chara_1
+message,フレデリカ,A-a loved one's... k-k-kiss!<br> ,101301000G,vc_10130100003_053_01,chara_1
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -933,7 +933,7 @@ asyncseplay,setag1_46,se4800019,0,1,CONT,0
 asynccharaemo,chara_2,Elated,CONT,0
 
 
-message,アーデルハイト,Precisely. A passionate，brain-melting kiss<br>with plenty of tongue and saliva is required.<br> ,108701000G,vc_10130100003_054_01,chara_2
+message,アーデルハイト,That's right. You need a passionate kiss，one that entwines tongues<br>and saliva until your brain melts.<br> ,108701000G,vc_10130100003_054_01,chara_2
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -944,9 +944,9 @@ asyncseplay,setag1_47,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,フレデリカ,Tongue and saliva intertwined...<br>A deep kiss...<br> ,101301000G,vc_10130100003_055_01,chara_1
+message,フレデリカ,A kiss where tongues and saliva intertwine... deep and passionate...<br> ,101301000G,vc_10130100003_055_01,chara_1
 
-message,<user>,...Hm? What is it? Why are you staring at me...?<br> 
+message,<user>,Huh? What's wrong? Why are you staring at me?<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -957,9 +957,9 @@ asyncseplay,setag1_48,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フレデリカ,Ahem，ahem. Uhh... Commander.<br>You haven't been sleeping well lately，have you?<br> ,101301000G,vc_10130100003_056_01,chara_1
+message,フレデリカ,Ahem. Ah... Commander. Come to think of it，haven't you been lacking<br>sleep lately?<br> ,101301000G,vc_10130100003_056_01,chara_1
 
-message,<user>,Yeah... I have been swamped with work lately.<br> 
+message,<user>,Ah... true，I've been swamped with work lately.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -970,9 +970,9 @@ asyncseplay,setag1_49,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,フレデリカ,I see，I see. Uhh... you know，I've heard<br>that kissing helps you sleep better~.<br> ,101301000G,vc_10130100003_057_01,chara_1
+message,フレデリカ,I see，I see. Ah... you know，I've heard that a kiss can help you<br>sleep better.<br> ,101301000G,vc_10130100003_057_01,chara_1
 
-message,<user>,Hmm...? H-hey，Frederica.<br>This conversation is going in a weird direction.<br> 
+message,<user>,Huh...? H-hey，Frederica. This conversation is going in a weird<br>direction?<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -983,7 +983,7 @@ asyncseplay,setag1_50,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,フレデリカ,What are you saying!? This is for both our sakes!<br>If we k-kiss... you sleep better，and my symptoms ease!<br> ,101301000G,vc_10130100003_058_01,chara_1
+message,フレデリカ,What are you talking about? This is for our own good! If we<br>k-kiss... you'll get better sleep and I can ease my symptoms!<br> ,101301000G,vc_10130100003_058_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -995,16 +995,16 @@ asyncseplay,setag1_51,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,フレデリカ,So shouldn't we... just go for it，big time!?<br> ,101301000G,vc_10130100003_059_01,chara_1
+message,フレデリカ,Then let's go for it with a bang!<br> ,101301000G,vc_10130100003_059_01,chara_1
 
-message,<user>,What are you suddenly saying!?<br> 
+message,<user>,What the hell are you saying all of a sudden!?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
 
-message,フレデリカ,Actually，no reason to stop at once.<br>Two or three times would surely be more effective.<br> ,101301000G,vc_10130100003_060_01,chara_1
+message,フレデリカ,No，there's no need to limit it to just once. Doing it two or three<br>times would surely be more effective.<br> ,101301000G,vc_10130100003_060_01,chara_1
 
 window,off
 wait,0.15
@@ -1045,9 +1045,9 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,フレデリカ,Now，Commander... hah，hah...<br>Come on，come on!!<br> ,101301000G,vc_10130100003_061_01,chara_1
+message,フレデリカ,Come on，Commander... *pant*，*pant*... come on，come on!<br> ,101301000G,vc_10130100003_061_01,chara_1
 
-message,<user>,C-calm down!<br>Adelheid，do something...!<br> 
+message,<user>,C-calm down! Adelheid，do something...!<br> 
 
 asynccharaface,chara_2,EyeClose,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -1059,9 +1059,9 @@ asyncseplay,setag1_53,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,アーデルハイト,You're the one who recalled the treatment，<br>Commander. I'll focus on documenting the procedure.<br> ,108701000G,vc_10130100003_062_01,chara_2
+message,アーデルハイト,You are the one who remembered the treatment method，Commander. I<br>will focus on recording the session.<br> ,108701000G,vc_10130100003_062_01,chara_2
 
-message,<user>,You just said something outrageous with a<br>completely straight face，didn't you!?<br> 
+message,<user>,You said that as if it's nothing!<br> 
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1073,7 +1073,7 @@ asyncseplay,setag1_54,se4800002,0,1,CONT,0
 asynccharaemo,chara_1,Heart,CONT,0
 
 
-message,フレデリカ,Mmhm~... Commander~...♡<br> ,101301000G,vc_10130100003_063_01,chara_1
+message,フレデリカ,Mmph... Commander...!♡<br> ,101301000G,vc_10130100003_063_01,chara_1
 
 bgmstop,bgmtag1_3,1.5,0
 
@@ -1129,7 +1129,7 @@ asyncwait,subimage_0_2
 
 transitionFade,Tra09,in,black,1
 
-messageTextUnder,,After learning the truth，Frederica went home alone.<br>Her mother confessed that she was，in fact，a succubus.,,,on
+messageTextUnder,,A few days later，Frederica went home alone. She explained to her mother and learned she was a succubus.,,,on
 
 
 window,off
@@ -1143,11 +1143,11 @@ asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 asyncwait
 
-messageTextUnder,,The ward's strength varies by generation，and<br>Frederica's was exceptionally powerful.,,,on
+messageTextUnder,,It seemed the strength of the inherited secret art varied，and Frederica was apparently under a particularly strong one.,,,on
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
-messageTextUnder,,Her mother suppressed the ward's effects. Frederica<br>was thrilled to finally focus on research，but...,,,on
+messageTextUnder,,Her mother suppressed the technique's effects，and Frederica was overjoyed that she could now throw herself into her research... but...,,,on
 
 bgmstop,bgmtag1_4,1,0
 
@@ -1182,11 +1182,11 @@ fade,In,Black,1
 asyncseplay,setag1_55,se4400138,0,1,CONT,0
 
 window,on,0.15
-message,,POOF<br> 
+message,,*poof*<br> 
 
-message,フレデリカ,Mnyaaah~~!?<br> ,101301000G,vc_10130100003_064_01,on
+message,フレデリカ,Funyaaaah!<br> ,101301000G,vc_10130100003_064_01,on
 
-message,<user>,Hm? Pink smoke from Frederica's lab...!?<br>Again...!<br> 
+message,<user>,Huh? From Frederica's lab... pink smoke! Not again...!<br> 
 
 window,off
 wait,0.15
@@ -1221,7 +1221,7 @@ seplay,setag1_57,se4300007,0,1
 transitionFade,Tra01,in,black,1
 
 window,on,0.15
-message,<user>,Frederica! Are you okay!?<br> 
+message,<user>,Frederica! You okay!?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1232,9 +1232,9 @@ asyncseplay,setag1_58,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,フレデリカ,Hahi...♡ N-nooo... being held like this...<br>hyawaaah...♡<br> ,101301000G,vc_10130100003_065_01,chara_1
+message,フレデリカ,*pant*...♡ N-nooo... when I'm held... hyawaaa...♡<br> ,101301000G,vc_10130100003_065_01,chara_1
 
-message,<user>,...Another fine aphrodisiac，I see.<br> 
+message,<user>,...Looks like she's gone and made an aphrodisiac again.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1245,7 +1245,7 @@ asyncseplay,setag1_59,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,フレデリカ,Uuugh~... this wasn't supposed to happen~...<br>Every third try... something super lewd comes out~...♡<br> ,101301000G,vc_10130100003_066_01,chara_1
+message,フレデリカ,Ugh... this wasn't supposed to happen... one in three times... I end<br>up making something super lewd...♡<br> ,101301000G,vc_10130100003_066_01,chara_1
 
 message,<user>,...It's going to be a long road.<br> 
 
@@ -1258,7 +1258,7 @@ asyncseplay,setag1_60,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,フレデリカ,Ah，hyawah♡ N-no，just being held by<br>Commander is... hnn，fah，ah，ahhh...♡<br> ,101301000G,vc_10130100003_067_01,chara_1
+message,フレデリカ,Ah，hyawaa!♡ N-no，just being held by the Commander... Hn! *gasp* Ah!<br>Aaaah...♡<br> ,101301000G,vc_10130100003_067_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1269,7 +1269,7 @@ asyncseplay,setag1_61,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,フレデリカ,Mnyaahhhh~~~~...♡<br> ,101301000G,vc_10130100003_068_01,chara_1
+message,フレデリカ,Funyaaaaaaa...♡<br> ,101301000G,vc_10130100003_068_01,chara_1
 
 window,off
 bgmstop,bgmtag1_5,0.5

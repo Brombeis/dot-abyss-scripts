@@ -350,11 +350,11 @@ asyncseplay,setag1_20,se4800021,0,1,CONT,0
 asynccharaemo,chara_1,Imagination,CONT,0
 
 
-message,フィルム,I'm sure we can solve it just like last time~<br> ,,vc_10070100003_008_01,chara_1
+message,フィルム,I'm sure we can handle it just like last time.<br> ,,vc_10070100003_008_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,STOP,1
 
-message,<user>,No，sorry，but this is too big for just us.<br>I'm mobilizing everyone at the forward base!<br> 
+message,<user>,No，sorry，but this is way too big for just the two of us. We'll have<br>to mobilize everyone on the Frontline Base!<br> 
 
 
 asynccharaface,chara_1,FaceSad,CONT,0
@@ -366,7 +366,7 @@ asyncseplay,setag1_21,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,フィルム,Ah... you're right~<br>This is no time to be having fun investigating.<br> ,,vc_10070100003_009_01,chara_1
+message,フィルム,Ah... right，I suppose. This isn't the time to be having fun<br>investigating.<br> ,,vc_10070100003_009_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -377,9 +377,9 @@ asyncseplay,setag1_22,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フィルム,...A little disappointing，though.<br> ,,vc_10070100003_010_01,chara_1
+message,フィルム,... I'm a little disappointed，though.<br> ,,vc_10070100003_010_01,chara_1
 
-message,<user>,What's wrong，Film?<br>Now's not the time to space out...<br> 
+message,<user>,What's wrong，Film? This isn't the time to be spacing out...<br> 
 
 window,off
 wait,0.15
@@ -401,7 +401,7 @@ asynccameramove,EaseInTarget,Y,150,0.5,CONT,0
 asyncwait
 
 window,on,0.15
-message,<user>,!!<br> 
+message,<user>,...!<br> 
 
 linework,on,Black,Middle
 
@@ -409,9 +409,9 @@ asyncseplay,setag1_23,se4900013,0,1,CONT,0
 
 wait,0.5
 
-message,,%user% noticed a greatsword，lifted by the poltergeist，<br>hurtling straight toward the absentminded Film.<br> 
+message,,Just as Film was spacing out，%user% noticed a great sword flying<br>straight toward her，lifted by the poltergeist.<br> 
 
-message,<user>,Film，look out!<br> 
+message,<user>,Film，watch out!<br> 
 
 linework,off,Black,Middle
 
@@ -459,7 +459,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,フィルム,Huh... kyaa!?<br> ,,vc_10070100003_011_01,chara_1
+message,フィルム,Wha... Kyaa!<br> ,,vc_10070100003_011_01,chara_1
 
 
 
@@ -472,9 +472,9 @@ asyncseplay,setag1_25,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,フィルム,C-Commander-kun，you shielded me!?<br> ,,vc_10070100003_012_01,chara_1
+message,フィルム,C-Commander，did you shield me?!<br> ,,vc_10070100003_012_01,chara_1
 
-message,<user>,Don't let your guard down like that.<br>You almost got hurt!<br> 
+message,<user>,Don't be so careless! You could've been hurt!<br> 
 
 
 window,off
@@ -511,9 +511,9 @@ asynccharaemo,chara_1,Shy,CONT,0
 
 
 window,on,0.15
-message,フィルム,G-goodness~ I told you，I'm fine~<br>There's no need for you to protect me，okay?<br> ,,vc_10070100003_013_01,chara_1
+message,フィルム,Geez，I said I'm fine. There was no need for you to protect<br>me，Commander.<br> ,,vc_10070100003_013_01,chara_1
 
-message,<user>,I told you before. Even if you lecture me，<br>I'll never stop helping a girl in danger.<br> 
+message,<user>,Like I told you before，even if you scold me，I can't stop myself from<br>coming to a girl's rescue.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -522,7 +522,7 @@ asyncseplay,setag1_27,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フィルム,But back then，<br>we had just met，hadn't we~<br> ,,vc_10070100003_014_01,chara_1
+message,フィルム,But that was back when we'd only just met，Commander.<br> ,,vc_10070100003_014_01,chara_1
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -531,11 +531,11 @@ asyncseplay,setag1_28,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,フィルム,You know full well by now that I'm an old granny<br>who's much older than you，don't you?<br> ,,vc_10070100003_015_01,chara_1
+message,フィルム,You know I'm an old woman，way older than you，right?<br> ,,vc_10070100003_015_01,chara_1
 
-message,<user>,Yeah，things are different from back then.<br> 
+message,<user>,Yeah，but it's different now.<br> 
 
-message,<user>,The more I learn about you，the more I see a lovely girl.<br> 
+message,<user>,The more I get to know you，the more I see you're an adorable<br>girl，Film.<br> 
 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
@@ -547,9 +547,9 @@ asyncseplay,setag1_29,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,フィルム,...Huh?<br> ,,vc_10070100003_016_01,chara_1
+message,フィルム,...What?<br> ,,vc_10070100003_016_01,chara_1
 
-message,<user>,I'm saying you're wonderful regardless of your age.<br>That's why I worry about you and want to protect you.<br> 
+message,<user>,I'm saying you're wonderful regardless of your age. That's why I<br>worry about you and want to protect you.<br> 
 
 
 asynccharaface,chara_1,FaceShy,CONT,0
@@ -561,7 +561,7 @@ asyncseplay,setag1_30,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,フィルム,C-Commander-kun...♡<br> ,,vc_10070100003_017_01,chara_1
+message,フィルム,C-Commander...!♡<br> ,,vc_10070100003_017_01,chara_1
 
 window,off
 wait,0.15
@@ -577,7 +577,7 @@ asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
 asynccharaface,chara_1,FaceSurprise,STOP,0.1
 
 window,on,0.15
-message,,KA-BOOM!!!<br> 
+message,,BOOM!<br> 
 
 window,off
 wait,0.15
@@ -617,12 +617,12 @@ asyncseplay,setag1_35,se4900046,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,With an enormous explosion，every piece of furniture<br>and weapon in the room lifted up and collided midair.<br> 
+message,,Along with a particularly loud explosion，all the furniture and<br>weapons in the room rose up at once and collided in midair.<br> 
 
-message,,Among them，a large shelf came crashing<br>down toward Film and %user%——<br> 
+message,,One of them，a large shelf，fell toward Film and the Commander—<br> 
 
 
-message,ノワール,......!<br> ,550100001,vc_10070100003_018_01,
+message,ノワール,...!<br> ,550100001,vc_10070100003_018_01,
 
 window,off
 wait,0.15
@@ -634,7 +634,7 @@ shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 shake,CHARA,chara_2,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,<user>,Whoa!?<br>Noir，don't just slam into me like that...<br> 
+message,<user>,Whoa! Noir，don't bump into me all of a sudden...<br> 
 
 window,off
 wait,0.15
@@ -682,7 +682,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,フィルム,Kyaa......<br> ,,vc_10070100003_019_01,chara_1
+message,フィルム,Eek...!<br> ,,vc_10070100003_019_01,chara_1
 
 bgmstop,bgmtag1_1,0.5,0
 
@@ -707,9 +707,9 @@ blur,off,BACK,0
 fade,In,White,0
 
 window,on,0.15
-message,,——————Chu——————<br> ,,vc_10070100003_020_01
+message,,*smooch*<br> ,,vc_10070100003_020_01
 
-message,<user>,(These soft lips... don't tell me...)<br> 
+message,<user>,(This soft sensation... no way...)<br> 
 
 window,off
 wait,0.15
@@ -745,7 +745,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,フィルム,Mm......<br> ,,vc_10070100003_021_01,chara_1
+message,フィルム,Mmm...<br> ,,vc_10070100003_021_01,chara_1
 
 window,off
 wait,0.15
@@ -778,7 +778,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,<user>,—!? Ah... s-sorry!<br> 
+message,<user>,*gasp*! Ah... s-sorry!<br> 
 
 bgmplay,bgmtag1_2,bgm0033,0.75,1
 
@@ -792,9 +792,9 @@ asyncseplay,setag1_38,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,フィルム,G-goodness，Commander-kun~<br>Stealing a kiss like that... you surprised me♡<br> ,,vc_10070100003_022_01,chara_1
+message,フィルム,Oh my，Commander! Forcing a kiss on me like that really surprised<br>me!♡<br> ,,vc_10070100003_022_01,chara_1
 
-message,<user>,That wasn't on purpose!<br>Noir pushed me from behind...<br> 
+message,<user>,That's not it! Noir pushed me from behind...<br> 
 
 
 window,off
@@ -816,12 +816,12 @@ wait,0.5
 
 
 window,on,0.15
-message,ノワール,......!<br> ,550100001,vc_10070100003_023_01,chara_1
+message,ノワール,...!<br> ,550100001,vc_10070100003_023_01,chara_1
 
-message,<user>,Hm? She's looking at the shelf...<br>I see! She saved us from the poltergeist.<br> 
+message,<user>,Hm? You're looking at the shelf... I get it! You saved me from the<br>poltergeist.<br> 
 
 
-message,ノワール,......♪<br> ,550100001,vc_10070100003_024_01,chara_1
+message,ノワール,....♪<br> ,550100001,vc_10070100003_024_01,chara_1
 
 window,off
 wait,0.15
@@ -850,7 +850,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,フィルム,Th-thank you，Noir.<br> ,,vc_10070100003_025_01,chara_1
+message,フィルム,Oh，thank you，Noir.<br> ,,vc_10070100003_025_01,chara_1
 
 
 window,off
@@ -863,7 +863,7 @@ asyncseplay,setag1_40,se4900169,0,1,CONT,0
 wait,2
 
 window,on,0.15
-message,<user>,What the...!?<br>Everything that was flying just dropped...?<br> 
+message,<user>,What is this...? Everything that was flying came crashing down...?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -875,9 +875,9 @@ asyncseplay,setag1_41,se4800022,0,1,STOP,5.9
 asynccharaemo,chara_1,Speak,STOP,5.9
 
 
-message,フィルム,You're right! Nothing seems to be moving anymore~<br>The poltergeist appears to have stopped~<br> ,,vc_10070100003_026_01,chara_1
+message,フィルム,Really! There's no sign of it starting up again，so it looks like the<br>poltergeist has settled down...<br> ,,vc_10070100003_026_01,chara_1
 
-message,<user>,Maybe，but it could start up agai——<br> 
+message,<user>,True，but it might start again...<br> 
 
 window,off
 wait,0.15
@@ -904,9 +904,9 @@ asynccharaemo,chara_1,Laugh,STOP,5.6
 
 
 window,on,0.15
-message,フィルム,W-well then，I'll be on my way~<br>Great work today，Commander-kun!<br> ,,vc_10070100003_027_01,chara_1
+message,フィルム,W-well then，I'll be going now. Commander，good work!<br> ,,vc_10070100003_027_01,chara_1
 
-message,<user>,Huh? Wait.<br>We still need to figure out what caused the poltergeist...<br> 
+message,<user>,Huh? No，wait. We need to find out what caused the poltergeist...<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -915,7 +915,7 @@ asyncseplay,setag1_44,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,フィルム,Fufu，ufufu...♡<br> ,,vc_10070100003_028_01,chara_1
+message,フィルム,Fufu，ufufu!♡<br> ,,vc_10070100003_028_01,chara_1
 
 
 window,off
@@ -932,38 +932,38 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,<user>,She's gone...<br> 
+message,<user>,And she's gone...<br> 
 
-message,<user>,Jeez. We need to figure out the cause<br>to prevent this from happening again...<br> 
+message,<user>,Geez. We need to figure out the cause to prevent a recurrence，but...<br> 
 
 
 item,on,550100001
 
-message,ノワール,......!<br> ,550100001,vc_10070100003_029_01,
+message,ノワール,...!<br> ,550100001,vc_10070100003_029_01,
 
-message,<user>,What is it，Noir?<br>Don't tell me you know the cause?<br> 
+message,<user>,What is it，Noir? Don't tell me you know what caused it?<br> 
 
-message,ノワール,......!<br>......♡<br> ,550100001,vc_10070100003_030_01,
+message,ノワール,...!<br>...!♡<br> ,550100001,vc_10070100003_030_01,
 
-message,<user>,She's pointing the way Film went...<br>Wait，are you saying Film caused that phenomenon?<br> 
+message,<user>,You're pointing toward where Film went... Don't tell me you're<br>saying the phenomenon earlier was caused by Film?<br> 
 
-message,<user>,But Film doesn't have that kind of power，does she?<br>She said she could barely wobble water in a cup.<br> 
+message,<user>,But Film shouldn't have that kind of spiritual power，right? She said<br>the most she can do is make water in a glass ripple.<br> 
 
-message,<user>,...Wait，is that actually true?<br> 
+message,<user>,...Wait，is that really true?<br> 
 
-message,<user>,She's been cursed by Noir for ages and is unfazed.<br>In fact，she has Noir obeying her commands...<br> 
+message,<user>,She's been cursed by Noir for years but seems unfazed—if<br>anything，she's the one making Noir obey her...<br> 
 
-message,<user>,It's strange that someone like Film would have no power.<br> 
+message,<user>,It doesn't make sense for Film—who can do all that—to have no<br>spiritual power.<br> 
 
-message,ノワール,......♪<br> ,550100001,vc_10070100003_031_01,
+message,ノワール,...!♪<br> ,550100001,vc_10070100003_031_01,
 
-message,<user>,She just doesn't realize it，does she.<br>Film actually has powerful spirit energy... right?<br> 
+message,<user>,So she's just unaware，isn't she? The truth is，Film also has strong<br>spiritual power... am I right?<br> 
 
-message,ノワール,......!<br> ,550100001,vc_10070100003_032_01,
+message,ノワール,...!<br> ,550100001,vc_10070100003_032_01,
 
-message,<user>,Looks like I'm right.<br>Then she could certainly cause a poltergeist.<br> 
+message,<user>,Looks like I'm right on the money. In that case，she could've caused<br>the poltergeist.<br> 
 
-message,<user>,But why did Film cause this incident?<br>And why did it suddenly stop?<br> 
+message,<user>,But why would Film cause something like this? And why did it stop?<br> 
 
 
 
@@ -1006,7 +1006,7 @@ asynccharaemo,chara_1,Heart,CONT,0
 
 
 window,on,0.15
-message,フィルム,We kissed... Commander-kun and I...!<br>Fufu，ufufufu~♡<br> ,,vc_10070100003_033_01,chara_1
+message,フィルム,I kissed Commander...! Fufu，ufufufufu!♡<br> ,,vc_10070100003_033_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1017,7 +1017,7 @@ asyncseplay,setag1_46,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,フィルム,Today was even more amazing than a date~<br>What a wonderful day...!<br> ,,vc_10070100003_034_01,chara_1
+message,フィルム,Today we did something even better than a date. What a splendid<br>day...!<br> ,,vc_10070100003_034_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1028,7 +1028,7 @@ asyncseplay,setag1_47,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,フィルム,Oh my，at my age，my heart just won't stop racing♡<br>And it's all thanks to that paranormal incident!<br> ,,vc_10070100003_035_01,chara_1
+message,フィルム,Oh my，at my age，my heart is still pounding away!♡ All thanks to that<br>psychic phenomenon!<br> ,,vc_10070100003_035_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1039,7 +1039,7 @@ asyncseplay,setag1_48,se4800021,0,1,CONT,0
 asynccharaemo,chara_1,Imagination,CONT,0
 
 
-message,フィルム,...I wonder if it might happen again~<br> ,,vc_10070100003_036_01,chara_1
+message,フィルム,...I wonder if it might happen again...<br> ,,vc_10070100003_036_01,chara_1
 
 
 window,off
@@ -1062,21 +1062,21 @@ item,on,550100001
 transitionFade,Tra02,in,black,1
 
 window,on,0.15
-message,<user>,If a paranormal incident occurred，she could solve it<br>with me again... That desire unconsciously caused the chaos.<br> 
+message,<user>,If a psychic phenomenon happened，we could solve it together again...<br>That feeling unconsciously caused the disturbance...<br> 
 
-message,<user>,And once she was satisfied from our kiss，the phenomenon<br>stopped. Is that really the truth behind this incident?<br> 
+message,<user>,And then，after kissing me，she was satisfied，so the psychic<br>phenomenon stopped. Is that the truth behind this incident?<br> 
 
-message,ノワール,......♡<br> ,550100001,vc_10070100003_037_01,
+message,ノワール,...♡<br> ,550100001,vc_10070100003_037_01,
 
-message,<user>,What even is that...<br>She's just a cute girl after all，isn't she...<br> 
+message,<user>,What's that supposed to mean...<br>She's just a cute girl，isn't she，Film...<br> 
 
-message,ノワール,......♪<br> ,550100001,vc_10070100003_038_01,
+message,ノワール,...♪<br> ,550100001,vc_10070100003_038_01,
 
-message,<user>,But if this keeps happening，<br>the forward base will be torn apart.<br> 
+message,<user>,But if this keeps happening over and over，<br>the Frontline Base will end up a total mess.<br> 
 
-message,<user>,From now on，I'll have to spoil her<br>before she bottles up her feelings.<br> 
+message,<user>,From now on，I need to spoil her before her pent-up desire builds up.<br> 
 
-message,ノワール,......♡<br> ,550100001,vc_10070100003_039_01,
+message,ノワール,...♡<br> ,550100001,vc_10070100003_039_01,
 
 window,off
 bgmstop,bgmtag1_2,0.5

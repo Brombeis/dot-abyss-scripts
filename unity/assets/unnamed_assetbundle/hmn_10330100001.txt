@@ -289,7 +289,7 @@ asynccharaemo,chara_2,Trouble,STOP
 
 message,アリシア,は、はい……<br>実はその記事、基地内で話題になっていたんですよ～……,,vc_10330100001_007_01
 
-message,<user>,根も葉もないデマ――と完全には否定できないが、悪意が見える記事だな。<br>どこの新聞社だ？
+message,<user>,I can't completely dismiss it as a groundless rumor，but this article<br>is clearly written with malice. Which newspaper is it?<br> 
 
 charapose,chara_2,2
 
@@ -300,16 +300,16 @@ asyncseplay,setag1_10,se4800016,0,1,CONT
 asynccharareaction,chara_2,Jump,1,STOP
 asynccharaemo,chara_2,BePeevish,STOP
 
-message,アリシア,エルドラーナです……<br>抗議しますか？,,vc_10330100001_008_01
+message,アリシア,It's from Eldorana...<br>Should we lodge a complaint?<br> ,,vc_10330100001_008_01
 
-message,<user>,ふん、放っておけ。どうせみんな、すぐに忘れるだろう。<br>……んっ？
+message,<user>,Hmph，leave it. Everyone will forget soon enough.<br>...Huh?<br> 
 
 asyncseplay,setag1_11,se4800009,0,1,CONT
 
 asynccharaemo,chara_2,Question,STOP
 
 asynccharaface,chara_2,FaceSurprise,STOP
-message,アリシア,どうしました、司令官？,,vc_10330100001_009_01
+message,アリシア,What's wrong，Commander?<br> ,,vc_10330100001_009_01
 
 window,off
 wait,0.15
@@ -324,7 +324,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（……窓の外に誰かいたような気がしたが、気のせいか？）
+message,<user>,(...I thought I saw someone outside the window，but maybe it's my<br>imagination.)<br> 
 
 window,off
 wait,0.15
@@ -358,11 +358,11 @@ asynccharaemo,chara_1,Panic,STOP
 asynccharareaction,chara_1,Jump,1,STOP,1
 asynccharaemo,chara_1,Spirits,STOP,1
 window,on,0.15
-message,エメルダ,あっぶなー！　あたしの気配に気づくなんて……司令官だけあって、<br>なかなか勘が鋭いですね。それに、この程度では動じない、と。,,vc_10330100001_010_01
+message,エメルダ,That was close! To think he'd notice my presence... As expected of<br>the Commander，his instincts are sharp. He doesn't even flinch at this.<br> ,,vc_10330100001_010_01
 
 
 asynccharaface,chara_1,FaceHappy,STOP
-message,エメルダ,でも、その余裕――いつまで続きますかね～？<br>ふふふっ♪,,vc_10330100001_011_01
+message,エメルダ,But that composure—how long do you think it'll last?<br>Fufufu!♪<br> ,,vc_10330100001_011_01
 
 window,off
 bgmstop,bgmtag1_2,1
@@ -407,7 +407,7 @@ wait,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――翌日</size>,,,on
+messageTextCenter,,<size=48>—The Next Day—</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -419,10 +419,10 @@ asynccharashow,chara_12,0.3,STOP
 
 asynccharareaction,chara_11,Shake,0.5,STOP
 window,on,0.15
-message,女性市民A,……ひそひそ,,vc_10330100001_012_01
+message,女性市民A,...Whisper，whisper.<br> ,,vc_10330100001_012_01
 
 asynccharareaction,chara_12,Shake,0.5,STOP
-message,女性市民B,……こそこそ,,vc_10330100001_013_01
+message,女性市民B,...Gossip，gossip.<br> ,,vc_10330100001_013_01
 
 window,off
 wait,0.15
@@ -441,7 +441,7 @@ transitionFade,Tra02,in,black,1
 
 charaface,chara_2,FaceSad
 window,on,0.15
-message,<user>,やたらと視線を感じるが……いったいなんなんだ？
+message,<user>,I keep feeling eyes on me... What the hell is going on?<br> 
 
 window,off
 wait,0.15
@@ -460,9 +460,9 @@ asynccharaemo,chara_2,Panic,STOP
 
 asynccharareaction,chara_2,Shake,1,STOP
 window,on,0.15
-message,アリシア,し、司令官～！　大変！　大変なんです～！　これを見てください！<br>例のエルドラーナの新聞なんですけど……,,vc_10330100001_014_01
+message,アリシア,C-Commander! Big trouble! Please look at this!<br>It's that Eldorana newspaper...<br> ,,vc_10330100001_014_01
 
-message,<user>,……『緊急スクープ！　前線基地の司令官はクズの極み！？』<br>『彼に近しい女性陣のインタビューがこちら↓』
+message,<user>,...'Urgent Scoop! Frontline Base Commander: Trash Incarnate!'<br>'Interviews with the Women Close to Him ↓'<br> 
 
 window,off
 wait,0.15
@@ -498,7 +498,7 @@ transitionFade,Tra06,in,black,0.5
 
 asynccharaface,chara_3,FaceUnique02,STOP,2
 window,on,0.15
-message,Ｓさん,『司令官がどんなひとか？<br>……まぁ、英雄らしい英雄といいましょうか――悪い意味で』,900000001
+message,Ｓさん,'What's the Commander like?<br>...Well，he's a hero in the worst sense of the word.'<br> ,900000001
 
 window,off
 wait,0.15
@@ -524,10 +524,10 @@ transitionFade,Tra05,in,black,0.5
 
 charaface,chara_4,FaceSurprise
 window,on,0.15
-message,Ｂさん,『え？　おにーさんにいじめられたことあるかって？』,900000001
+message,Ｂさん,'Huh? You want to know if Big Bro has ever bullied me?'<br> ,900000001
 
 charaface,chara_4,FaceFun
-message,Ｂさん,『ノーコメントかな～♪』,900000001
+message,Ｂさん,'No comment!♪'<br> ,900000001
 
 window,off
 wait,0.15
@@ -554,7 +554,7 @@ wait,0.5
 transitionFade,Tra06,in,black,0.5
 
 window,on,0.15
-message,Ａさん,『ま、まぁ、けっして生真面目な方ではないですよね～』,900000001
+message,Ａさん,'W-well，he's definitely not the serious type，is he?'<br> ,900000001
 
 window,off
 wait,0.15
@@ -583,7 +583,7 @@ wait,0.5
 transitionFade,Tra05,in,black,0.5
 
 window,on,0.15
-message,<user>,『……等と言っているが、明らかに司令官に怯えている様子が見て取れた。<br>パワハラの証拠には十分だろう。女をとっかえひっかえという点も――』
+message,<user>,'Saying that，but the women were clearly terrified. Evidence of power<br>harassment. And him going through women one after another—'<br> 
 
 window,off
 wait,0.15
@@ -614,7 +614,7 @@ wait,0.5
 transitionFade,Tra06,in,black,0.5
 
 window,on,0.15
-message,Ｍさん,『はいぃ。それはもぉ。旦那さまは前線基地の主みたいなものですからねぇ。<br>わたしのことだって……ねぇ？　ふふふ♡』,900000001
+message,Ｍさん,'Yeees，that's right. Honey is like the master of this base，you know.<br>And as for me... right? Fufufu!♡'<br> ,900000001
 
 window,off
 wait,0.15
@@ -639,7 +639,7 @@ wait,0.5
 transitionFade,Tra05,in,black,0.5
 
 window,on,0.15
-message,Ｋさん,『ご、ご主人さまの言うことは絶対！』,900000001
+message,Ｋさん,'M-Master's word is absolute!'<br> ,900000001
 
 window,off
 wait,0.15
@@ -664,7 +664,7 @@ wait,0.5
 transitionFade,Tra06,in,black,0.5
 
 window,on,0.15
-message,Ｈさん,『エッチ……』,900000001
+message,Ｈさん,Lewd...<br> ,900000001
 
 window,off
 wait,0.15
@@ -694,11 +694,11 @@ transitionFade,Tra05,in,black,0.5
 charamove,chara_1,Set,X,400,0
 
 window,on,0.15
-message,<user>,『……というわけで、裏は取れてしまった。実際、尾行をしてみると<br>司令官は酒場へ毎晩のように足を運び、贅沢の限りを尽くしているご様子』
+message,<user>,'...And so，the background check confirmed it. Tailing the Commander<br>shows he visits the tavern nightly，indulging in luxury.'<br> 
 
-message,<user>,『権力を利用した卑劣な暴挙は断じて許されない。<br>本紙記者は引き続き、取材を続けてクズ司令官を探る。次回を待て！』
+message,<user>,'This underhanded abuse of power is absolutely unforgivable. Our<br>reporter will continue investigating this trash Commander. Wait for the next issue!'<br> 
 
-message,<user>,……って、なんだこれは！
+message,<user>,...What the hell is this!<br> 
 
 charareaction,chara_2,Hop,0.5
 
@@ -706,18 +706,18 @@ asyncseplay,setag1_15,se4800016,0,1,CONT
 
 asynccharareaction,chara_2,Jump,1,STOP
 asynccharaemo,chara_2,BePeevish,STOP
-message,アリシア,ひ、ひどいですよね！？,,vc_10330100001_015_01
+message,アリシア,I-It's horrible，isn't it?<br> ,,vc_10330100001_015_01
 
-message,<user>,というか……アリシアもしれっと<br>インタビューでひどいこと言ってないか！？
+message,<user>,And come to think of it，Alicia，didn't you say something awful in<br>that interview too?<br> 
 
 asynccharaface,chara_2,FaceSurprise,STOP
 
 asyncseplay,setag1_16,se4800007,0,1,CONT
 
 asynccharaemo,chara_2,Panic,STOP
-message,アリシア,ご、誤解です！　わたしもソフィアさんたちも、<br>司令官の良いところをたくさん話したんですよ！？,,vc_10330100001_016_01
+message,アリシア,N-No，that's a misunderstanding! Sophia，the others，and I talked a lot<br>about your good points，Commander!<br> ,,vc_10330100001_016_01
 
-message,<user>,悪意を持って切り取られた、ということか？
+message,<user>,So they were maliciously taken out of context?<br> 
 
 asynccharaface,chara_2,FaceUnique03,STOP
 
@@ -725,14 +725,14 @@ asyncseplay,setag1_17,se4800016,0,1,CONT
 
 asynccharareaction,chara_2,Jump,1,STOP
 asynccharaemo,chara_2,BePeevish,STOP
-message,アリシア,そうですよ～！　こんな記事を書かれるなんて心外です！<br>断じて許せません！,,vc_10330100001_017_01
+message,アリシア,Exactly! I'm appalled that they'd write something like this! It's<br>absolutely unforgivable!<br> ,,vc_10330100001_017_01
 
-message,<user>,ん？　待て、インタビューに応じたということは――<br>お前、この記事を誰が書いたか知っている？
+message,<user>,Huh? Wait，if you were interviewed—do you know who wrote this<br>article?<br> 
 
 asynccharaface,chara_2,FaceUnique02,STOP
-message,アリシア,はい！　女性記者の――エメルダさんと名乗っていました！,,vc_10330100001_018_01
+message,アリシア,Yes! A female reporter—she called herself Emeralda!<br> ,,vc_10330100001_018_01
 
-message,<user>,なるほどな……。<br>よし！　エメルダを探しにいくぞ！
+message,<user>,I see... All right! Let's go find Emeralda!<br> 
 
 window,off
 wait,0.15
@@ -761,7 +761,7 @@ asyncseplay,setag1_18,se4800022,0,1,CONT
 asynccharaemo,chara_1,Speak,STOP
 
 window,on,0.15
-message,エメルダ,は～い？　あたしのこと、呼びました～？,,vc_10330100001_019_01
+message,エメルダ,Yoo-hoo? Did someone call me?<br> ,,vc_10330100001_019_01
 
 window,off
 wait,0.15
@@ -796,7 +796,7 @@ charaemo,chara_2,Shock
 
 charareaction,chara_2,Hop,0.5
 window,on,0.15
-message,アリシア,あーっ！？　司令官、この方ですよ！<br>この人がエメルダさんです！,,vc_10330100001_020_01
+message,アリシア,Ah! Commander，this is her! This is Emeralda!<br> ,,vc_10330100001_020_01
 
 window,off
 wait,0.15
@@ -828,13 +828,13 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Laugh,STOP
 
 window,on,0.15
-message,エメルダ,はい、どうも。エルドラーナの新聞記者、エメルダと申します！<br>アリシアさん、先日は取材にご協力いただき、ありがとうございました！,,vc_10330100001_021_01
+message,エメルダ,Hello! I'm Emeralda，a newspaper reporter from Eldorana. Thank you<br>for your cooperation with the interview the other day，Alicia!<br> ,,vc_10330100001_021_01
 
 asyncseplay,setag1_22,se4800018,0,1,CONT
 
 asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Flower,STOP
-message,エメルダ,あの記事、読者の反響がすごくて！　上司もニコニコですよ。<br>ボーナスもらえちゃった。これなら昇進できちゃうかも～！,,vc_10330100001_022_01
+message,エメルダ,That article was a huge hit with readers! My boss is all smiles. I<br>even got a bonus. Maybe I'll get promoted!<br> ,,vc_10330100001_022_01
 
 asynccharaface,chara_2,FaceAnger,STOP
 
@@ -844,19 +844,19 @@ asynccharareaction,chara_2,Nod,1,STOP
 asynccharaemo,chara_2,Anger,STOP
 
 charareaction,chara_2,Hop,0.5
-message,アリシア,なんなんですか、あの記事！？　訂正してください！,,vc_10330100001_023_01
+message,アリシア,What was that article all about! Issue a correction!<br> ,,vc_10330100001_023_01
 
 asynccharaface,chara_1,FaceSurprise,STOP
 
 asyncseplay,setag1_24,se4800009,0,1,CONT
 
 asynccharaemo,chara_1,Question,STOP
-message,エメルダ,訂正って何をです？　あたし、聞いたままを書いただけですよ？<br>嘘は書いてないですよね？,,vc_10330100001_024_01
+message,エメルダ,Retract what? I only wrote what I was told. I didn't print any<br>lies，did I?<br> ,,vc_10330100001_024_01
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
 
-message,アリシア,だけど、他にもいっぱいお話ししたじゃないですか！<br>最初の数分だけをあんなに脚色するのは変ですよ！　不公平です！,,vc_10330100001_025_01
+message,アリシア,But we talked about so many other things! It's not fair to only<br>dramatize the first few minutes like that!<br> ,,vc_10330100001_025_01
 
 asynccharaface,chara_1,FaceFun,STOP
 
@@ -864,34 +864,34 @@ asyncseplay,setag1_25,se4800013,0,1,CONT
 
 asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Spirits,STOP
-message,エメルダ,でも、事実は事実ですし～。「表現の自由」です～。,,vc_10330100001_026_01
+message,エメルダ,But the facts are the facts. It's called freedom of the press.<br> ,,vc_10330100001_026_01
 
 asynccharaface,chara_2,FaceSad,STOP
 
 asynccharareaction,chara_2,Shake,0.5,STOP,2
-message,アリシア,で、でもぉ、でもぉ……たとえそうだとしても……うううっ……！！,,vc_10330100001_027_01
+message,アリシア,B-but... even so... *sob*...!<br> ,,vc_10330100001_027_01
 
-message,<user>,エメルダ、といったな。一応確認だ。お前の記事は全て、<br>取材に基づいた真実だから取り下げるつもりはない――――そうだな？
+message,<user>,Emeralda，right? Just to confirm. All your articles are based on true<br>reporting，so you have no intention of retracting them. Right?<br> 
 
 asynccharaface,chara_1,FaceUnique02,STOP
 
 asyncseplay,setag1_26,se4800019,0,1,CONT
 
 asynccharaemo,chara_1,Elated,STOP
-message,エメルダ,そうです！　あたし、特ダネさんが酒場にせっせと通っているところ<br>バッチリ見ましたから！,,vc_10330100001_028_01
+message,エメルダ,That's right! I caught you，Scoop，visiting the tavern every single<br>day!<br> ,,vc_10330100001_028_01
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
 
 asynccharaface,chara_1,EyeClose,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,エメルダ,５日前は２２時４分から３時５分まで。４日前は２２時１４分から２時４６分。<br>３日前は２１時８分から４時２９分。,,vc_10330100001_029_01
+message,エメルダ,Five days ago: from 10:04 PM to 3:05 AM. Four days ago: from 10:14<br>PM to 2:46 AM. Three days ago: from 9:08 PM to 4:29 AM.<br> ,,vc_10330100001_029_01
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
 
 asynccharaface,chara_1,FaceFun,STOP
-message,エメルダ,毎日毎日、違う女性と朝まで飲んで騒いで、楽しませる――<br>……なかなか女泣かせですよね。,,vc_10330100001_030_01
+message,エメルダ,Every day，a different woman，partying until dawn — quite the<br>heartbreaker，aren't you?<br> ,,vc_10330100001_030_01
 
 asynccharaface,chara_1,FaceHappy,STOP
 
@@ -899,20 +899,20 @@ asyncseplay,setag1_27,se4800004,0,1,CONT
 
 asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Laugh,STOP
-message,エメルダ,いつか痴情のもつれで刺されそうで、あなたから目が離せませんよ。<br>ふふふっ♪,,vc_10330100001_031_01
+message,エメルダ,One of these days you're going to get stabbed in a lovers'<br>quarrel，so I can't take my eyes off you. Fufufu!♪<br> ,,vc_10330100001_031_01
 
-message,<user>,参ったな。<br>さすがに時間はうろ覚えだが、たぶん合っている。
+message,<user>,You got me. I don't remember the exact times，but they're probably<br>spot on.<br> 
 
 asynccharaface,chara_1,FaceFun,STOP
 
 asyncseplay,setag1_28,se4800019,0,1,CONT
 
 asynccharaemo,chara_1,Elated,STOP
-message,エメルダ,だから言ったでしょう？　嘘は書いてないって。,,vc_10330100001_032_01
+message,エメルダ,See? I told you I don't write lies.<br> ,,vc_10330100001_032_01
 
-message,<user>,そうなると、俺はお前にずっと尾行されていたのに<br>まったく気配に気付かなかったということになる。
+message,<user>,So that means you've been tailing me all along，and I never noticed a<br>thing.<br> 
 
-message,<user>,それ――めちゃくちゃすごいことじゃないか！？
+message,<user>,That's absolutely incredible!<br> 
 
 asyncseplay,setag1_29,se4800011,0,1,CONT
 
@@ -920,45 +920,45 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,ExclaQues,STOP
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,エメルダ,……え？,,vc_10330100001_033_01
+message,エメルダ,...Huh?<br> ,,vc_10330100001_033_01
 
-message,<user>,俺は命を狙われることも多いから、周囲には気を付けているし、<br>身辺警護もさせている。
+message,<user>,I'm often targeted for assassination，so I'm always alert，and I have<br>bodyguards.<br> 
 
-message,<user>,にも関わらず、エメルダは尾行を察知されなかった。<br>相当な敏腕記者だ。
+message,<user>,And yet you managed to tail me without being detected. You're a<br>top-notch journalist.<br> 
 
 asyncseplay,setag1_30,se4800010,0,1,CONT
 
 asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Exclamation,STOP
-message,エメルダ,……！　,,vc_10330100001_034_01
+message,エメルダ,...!<br> ,,vc_10330100001_034_01
 
 asynccharaface,chara_1,FaceHappy,STOP
 
 charareaction,chara_1,Hop,0.5
-message,エメルダ,そう！　分かってくれます！？<br>あたしの取材力の高さが！！,,vc_10330100001_035_01
+message,エメルダ,Yes! You get it! My reporting skills are amazing!<br> ,,vc_10330100001_035_01
 
 asyncseplay,setag1_31,se4800004,0,1,CONT
 
 asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Laugh,STOP
-message,エメルダ,特ダネさんの言う通りなんですよ！<br>あたし、けっこうすごいんです！,,vc_10330100001_036_01
+message,エメルダ,Just like Scoop said! I'm pretty incredible!<br> ,,vc_10330100001_036_01
 
 asynccharaface,chara_2,FaceSurprise,STOP
 
 asynccharaface,chara_1,FaceUnique02,STOP
-message,<user>,お、おぉ……？
+message,<user>,O-oh...?<br> 
 
 asyncseplay,setag1_32,se4800003,0,1,CONT
 
 asynccharaemo,chara_1,Twinkle,STOP
-message,エメルダ,取材対象からクレームを受けたって動じませんし、<br>嘘だって１度も書いたことありません！,,vc_10330100001_037_01
+message,エメルダ,I don't even flinch when my subjects complain，and I've never once<br>written a lie!<br> ,,vc_10330100001_037_01
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
 
 asynccharaface,chara_1,EyeClose,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,エメルダ,加えて、読者の「知りたい」を巧みにくすぐる取材対象の選択に、<br>思わず読んでしまう軽妙な筆致――,,vc_10330100001_038_01
+message,エメルダ,Plus，I skillfully choose subjects that tickle readers' curiosity and<br>write in a light，compelling style that makes you want to keep reading.<br> ,,vc_10330100001_038_01
 
 asynccharaface,chara_2,FaceSad,STOP
 
@@ -968,7 +968,7 @@ asynccharaface,chara_1,FaceNormal,STOP
 asynccharaface,chara_1,FaceUnique02,STOP
 
 charareaction,chara_1,Hop,0.5
-message,エメルダ,ただのゴシップではないんです！　あたしの記事は情報を素材にした娯楽！<br>極上の料理！　すなわちエンターテイメントなんですよ！,,vc_10330100001_039_01
+message,エメルダ,They're not just gossip! My articles are entertainment made from<br>information! Exquisite cuisine! In other words，they're pure entertainment!<br> ,,vc_10330100001_039_01
 
 asynccharaface,chara_2,FaceUnique02,STOP,1
 
@@ -978,11 +978,11 @@ asyncseplay,setag1_33,se4800001,0,1,CONT
 
 asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Anger,STOP
-message,エメルダ,なのに！　本社はこんな田舎にあたしを送り込んでしまいました……<br>こんなことがあっていいのでしょうか！？,,vc_10330100001_040_01
+message,エメルダ,And yet! The head office shipped me off to this backwater... How is<br>that even fair!<br> ,,vc_10330100001_040_01
 
 asynccharaface,chara_2,EyeOpen,STOP
 asynccharaface,chara_2,FaceNormal,STOP
-message,<user>,んっ……？<br>お前、自分から望んで前線基地に来たわけではないのか？
+message,<user>,Hm...? You didn't come to the Frontline Base of your own free<br>will，did you?<br> 
 
 
 asynccharaface,chara_1,FaceSad,STOP
@@ -990,45 +990,45 @@ asynccharaface,chara_1,FaceSad,STOP
 asyncseplay,setag1_34,se4800015,0,1,CONT
 
 asynccharaemo,chara_1,Dull,STOP
-message,エメルダ,あったりまえですよ～！　こんな辺境、好みじゃないです。<br>さっさと都会に帰りたい！！,,vc_10330100001_041_01
+message,エメルダ,Of course not! This frontier isn't my style. I wanna get back to the<br>city ASAP!<br> ,,vc_10330100001_041_01
 
 asynccharaface,chara_1,FaceFun,STOP
 
 asyncseplay,setag1_35,se4800002,0,1,CONT
 
 asynccharaemo,chara_1,Heart,STOP
-message,エメルダ,オシャレなカフェでラテをテイクアウトして、ブランドショップを巡って、<br>スムージー片手にスイーツ巡りして、ヨガやスパでリフレッシュして…,,vc_10330100001_042_01
+message,エメルダ,Grabbing a latte from a trendy café，browsing brand-name stores，doing<br>a dessert crawl with a smoothie in hand，and refreshing with yoga and spa treatments...<br> ,,vc_10330100001_042_01
 
 asynccharaface,chara_1,FaceHappy,STOP
 
 asynccharaface,chara_1,FaceUnique01,STOP,0.5
-message,エメルダ,それからやっぱり、オシャレなバーで合コン！ <br>こんな生活が恋しいんですよ～！,,vc_10330100001_043_01
+message,エメルダ,And of course，a mixer at a chic bar! I really miss that life!<br> ,,vc_10330100001_043_01
 
 asynccharaface,chara_2,FaceSad,STOP
 
-message,<user>,これは……相当ストレス溜まってるな……。
+message,<user>,Looks like you've got a lot of pent-up stress...<br> 
 
 shake,CHARA,chara_1,10,0,0.5,3,off,off,0
-message,エメルダ,テキーラのショットで乾杯したーい！,,vc_10330100001_044_01
+message,エメルダ,I wanna do tequila shots and toast!<br> ,,vc_10330100001_044_01
 
-message,<user>,それはオシャレじゃないだろう？
+message,<user>,That's not very chic，is it?<br> 
 
 charaface,chara_1,FaceUnique02
-message,エメルダ,あたしは飲みませんけど。,,vc_10330100001_045_01
+message,エメルダ,I'm not the one drinking，though.<br> ,,vc_10330100001_045_01
 
 charaface,chara_2,FaceSurprise
-message,<user>,……余計にタチが悪い！
+message,<user>,...That's even worse!<br> 
 
 asyncseplay,setag1_36,se4800015,0,1,CONT
 
 asynccharaemo,chara_1,Dull,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
-message,エメルダ,でも、本社と上司は超特大のネタを取ってくるまで<br>エルドラーナに戻さないって言うし……はぁ……,,vc_10330100001_046_01
+message,エメルダ,But the head office and my boss say I can't return to Eldorana until<br>I get a super huge scoop... *sigh*<br> ,,vc_10330100001_046_01
 
 asynccharaface,chara_2,EyeOpen,STOP
 asynccharaface,chara_2,FaceNormal,STOP
-message,<user>,ふむ……<br>そういうことなら、しばらく俺に張り付いて密着取材をしてはどうだ？
+message,<user>,Hmm... In that case，how about you shadow me for a while and do some<br>embedded reporting?<br> 
 
 asynccharaface,chara_2,FaceSurprise,STOP
 
@@ -1038,12 +1038,12 @@ asyncseplay,setag1_37,se4800017,0,1,CONT
 
 asynccharareaction,chara_1,Shake,1,STOP
 asynccharaemo,chara_1,Shock,STOP
-message,エメルダ,えっ、いいんですか！？,,vc_10330100001_047_01
+message,エメルダ,Eh，are you sure?<br> ,,vc_10330100001_047_01
 
-message,<user>,あぁ。自慢じゃないが、俺はこの基地で一番目立っているから<br>いい記事ネタになると思うぞ。お前も尾行の手間が省けていいだろう？
+message,<user>,Yeah. Not to brag，but I'm the most conspicuous person here，so I make<br>great article material. Saves you the trouble of tailing me，right?<br> 
 
 asynccharareaction,chara_1,Nod,0.5,STOP
-message,エメルダ,それは、まぁ、はい。<br>良い記事が書けたら都会に帰れるわけですし。願ってもないです。,,vc_10330100001_048_01
+message,エメルダ,Well，yes，I suppose. I mean，if I can write a good article，I can go<br>back to the city. It's a dream come true.<br> ,,vc_10330100001_048_01
 
 asynccharaface,chara_1,FaceHappy,STOP
 
@@ -1075,9 +1075,9 @@ asynccharaemo,chara_2,Panic,STOP
 
 asynccharaface,chara_2,FaceSad,STOP
 window,on,0.15
-message,アリシア,<size=30>司令官、大丈夫なんですか……？</>,,vc_10330100001_049_01
+message,アリシア,Commander，are you sure about this...?<br> ,,vc_10330100001_049_01
 
-message,<user>,<size=30>問題ない。下手に隠すより開示したほうがいい。</>
+message,<user>,No problem. Better to come clean than to try and cover things up.<br> 
 
 window,off
 wait,0.15
@@ -1098,7 +1098,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,さて、まずは……大穴探索にでも同行してもらおうか。
+message,<user>,Now then，first off... how about you tag along on an expedition to<br>the Abyss?<br> 
 
 
 window,off

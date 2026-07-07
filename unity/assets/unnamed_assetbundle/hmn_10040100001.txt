@@ -164,16 +164,16 @@ message,<user>,……おい、今なんて言った？
 
 
 asynccharaface,chara_1,FaceFun,STOP
-message,？？？,キノコ……たべたって言った……<br>ここに生えてた……きれいな、キノコ……,100401000G,vc_10040100001_006_01,chara_1
+message,？？？,Mushroom... Xiaolei told you Xiaolei ate it...<br>The one growing here... A pretty mushroom...<br> ,100401000G,vc_10040100001_006_01,chara_1
 
 asyncshake,CHARA,chara_1,3,0,0.5,3,off,off,0,off,CONT
 
-message,<user>,……きれいなキノコってのは、<br>この地面に生えてる、とんでもなく派手な色と模様をしたキノコか？
+message,<user>,By 'pretty mushroom'，do you mean that one on the ground with those<br>ridiculously loud colors and patterns?<br> 
 
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,？？？,そう……それ……,100401000G,vc_10040100001_007_01,chara_1
+message,？？？,Yeah... that one...<br> ,100401000G,vc_10040100001_007_01,chara_1
 
 asyncseplay,setag1_8,se4800015,0,1,CONT
 
@@ -181,10 +181,10 @@ asynccharaemo,chara_1,Dull,STOP
 
 
 asynccharaface,chara_1,FaceSad,STOP
-message,？？？,たべたら……からだ、うごかなく……なった……。<br>りゆう、わからない……ふしぎ……,100401000G,vc_10040100001_008_01,chara_1
+message,？？？,When Xiaolei ate it... body... couldn't move...<br>Reason... unknown... Strange...<br> ,100401000G,vc_10040100001_008_01,chara_1
 
 asyncshake,CHARA,chara_1,2,0,0.5,2,off,off,0,off,CONT
-message,<user>,いやいやいや！<br>これは体を痺れさせる毒キノコだぞ！？
+message,<user>,No，no，no! This is a poison mushroom that paralyzes you!<br> 
 
 asyncseplay,setag1_9,se4800009,0,1,CONT
 
@@ -192,13 +192,13 @@ asynccharaemo,chara_1,Question,STOP
 
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,？？？,ど、く？<br>あいやぁー……,100401000G,vc_10040100001_009_01,chara_1
+message,？？？,P-poison? Aiyaa...<br> ,100401000G,vc_10040100001_009_01,chara_1
 
-message,<user>,なんでビックリしてるんだ……。<br>この森だけにしか生えていないとはいえ、かなり有名な毒キノコだぞ。
+message,<user>,Why are you so surprised? Even if it only grows in this forest，it's<br>a pretty famous poison mushroom.<br> 
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,<user>,まあ、百歩譲って知らなかったのは仕方ないとはいえ、<br>こんな見るからに怪しいキノコを食べるなよ……
+message,<user>,Well，okay，maybe it's understandable you didn't know，but still，don't<br>eat a mushroom that looks this suspicious...<br> 
 
 asyncseplay,setag1_10,se4800007,6,1,CONT
 
@@ -208,9 +208,9 @@ asyncshake,CHARA,chara_1,3,0,0.5,2,off,off,0,off,CONT
 
 
 asynccharaface,chara_1,FaceSad,CONT,6
-message,？？？,だって……おなか、へってたし……おいしかったし……。<br>どく、あるなんて……うぅ……ふかく……,100401000G,vc_10040100001_010_01,chara_1
+message,？？？,But... Xiaolei was hungry... and it tasted good... Xiaolei didn't<br>know it had poison... *whimper*... Xiaolei is sorry...<br> ,100401000G,vc_10040100001_010_01,chara_1
 
-message,<user>,ったく……ちょっと待ってろ。<br>簡単な解毒剤ぐらいなら、俺にも作れるから――
+message,<user>,Honestly... hold on a second. I can at least make a simple antidote.<br> 
 
 window,off
 wait,0.15
@@ -233,16 +233,16 @@ asynccharaface,chara_1,FaceHappy,STOP
 
 charareaction,chara_1,Hop,0.5
 window,on,0.15
-message,？？？,やた！　からだ、うごく！<br>しぇしぇ！,100401000G,vc_10040100001_011_01,chara_1
+message,？？？,Yay! Body can move! Sheshe!<br> ,100401000G,vc_10040100001_011_01,chara_1
 
 asyncseplay,setag1_12,se4800013,0,1,CONT
 
 asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Spirits,STOP
 
-message,<user>,解毒剤を飲んだとはいえ、こんなにも早く治るなんてな。<br>なかなか丈夫な体をしてるじゃないか。
+message,<user>,Even after taking the antidote，you recovered this fast. You've got a<br>pretty sturdy body.<br> 
 
-message,<user>,ところで、その『しぇしぇ』ってのはなんだ？
+message,<user>,So，what's this 'sheshe' you keep saying?<br> 
 
 asyncseplay,setag1_13,se4800009,0,1,CONT
 
@@ -251,19 +251,19 @@ asynccharaemo,chara_1,Question,STOP
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,？？？,かんしゃのことば。<br>シャオレイのこきょうの、お礼。,100401000G,vc_10040100001_012_01,chara_1
+message,？？？,Word of thanks. A thank-you from Xiaolei's homeland.<br> ,100401000G,vc_10040100001_012_01,chara_1
 
-message,<user>,ほー、初めて聞く言葉だな。<br>シャオレイといったか？　遠方から来てるのか？
+message,<user>,Huh，never heard that before. So your name's Xiaolei? You came from<br>far away?<br> 
 
 charareaction,chara_1,Nod,0.5
-message,シャオレイ,そう。わたし、シャオレイ。<br>ずーっと、とおくから、来た。,,vc_10040100001_013_01
+message,シャオレイ,Yes. Xiaolei came from very，very far away.<br> ,,vc_10040100001_013_01
 
-message,<user>,１人で？<br>どうしてわざわざ、こんな危険な場所に？
+message,<user>,By yourself? Why come all the way to a place this dangerous?<br> 
 
 asynccharaface,chara_1,FaceFun,STOP
-message,シャオレイ,それは、おじーちゃんとのやくそく。<br>シャオレイ、強くなる。,,vc_10040100001_014_01
+message,シャオレイ,That promise with Grandpa. Xiaolei will become strong.<br> ,,vc_10040100001_014_01
 
-message,<user>,爺さんとの約束？
+message,<user>,A promise with your grandpa?<br> 
 
 asynccharareaction,chara_1,Nod,0.5,STOP
 
@@ -273,7 +273,7 @@ asynccharaemo,chara_1,Imagination,STOP
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,シャオレイ,うん。<br>あれは、シャオレイがまだ、こきょうにいたころ……,,vc_10040100001_015_01
+message,シャオレイ,Yeah. It was back when Xiaolei was still in the homeland.<br> ,,vc_10040100001_015_01
 
 window,off
 wait,0.15
@@ -296,54 +296,54 @@ bgmplay,bgmtag1_4,bgm0036,0.75,1
 fade,In,White,1.5
 
 window,on,0.15
-message,シャオレイの祖父,シャオレイ……我が孫よ。お主は物心ついた頃からこれまで、<br>わしと２人っきりで修行に励んできたわけだが…………
+message,シャオレイの祖父,Xiaolei... my grandchild. From the time you were a child，you have<br>trained with me，just the two of us，all these years...<br> 
 
-message,シャオレイの祖父,よくぞここまで強くなった！　代々格闘家を生業とする我が一族の中でも、<br>お主ほどの若さでこれほどに武を練り上げたものはおらぬぞ！！
+message,シャオレイの祖父,You've grown so strong! In our clan，no one has ever matched your<br>skill at your age!<br> 
 
 asyncseplay,setag1_15,se4800013,0,1,CONT
 
 charaemo,chara_1,Spirits
 
 asynccharaface,chara_1,FaceHappy,STOP
-message,シャオレイ,おじーちゃんのおかげ。しぇしぇ。,,vc_10040100001_016_01
+message,シャオレイ,Xiaolei thanks Grandpa. Thanks，thanks!<br> ,,vc_10040100001_016_01
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,シャオレイの祖父,……まあ、わしが何も教えんでも、<br>シャオレイは生まれつき強かったがのう。
+message,シャオレイの祖父,Well，even if I had not taught her anything，Xiaolei was born<br>strong，you know.<br> 
 
-message,シャオレイの祖父,しかしシャオレイよ、お主の強さにはまだ足らぬものがある。<br>それが何か、わかるか？
+message,シャオレイの祖父,But Xiaolei，your strength still lacks something. Do you know what it<br>is?<br> 
 
 asyncseplay,setag1_16,se4800009,0,1,CONT
 
 charaemo,chara_1,Question
 
 asynccharaface,chara_1,FaceFun,STOP
-message,シャオレイ,……？　たいかく、とか？<br>シャオレイ、ちっちゃい。,,vc_10040100001_017_01
+message,シャオレイ,...? Like，physique? Xiaolei is small.<br> ,,vc_10040100001_017_01
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,シャオレイの祖父,違うのう。確かに体は大きくないが、<br>それを補うだけの技は教えたつもりだ。
+message,シャオレイの祖父,No，not that. It is true your body is small，but I have taught you<br>enough technique to compensate.<br> 
 
-message,シャオレイの祖父,いいか我が孫よ！<br>お主に足らぬもの、それは知恵よ！
+message,シャオレイの祖父,Listen，my grandchild! What you lack is wisdom!<br> 
 
 asyncseplay,setag1_17,se4800010,0,1,CONT
 
 charaemo,chara_1,Exclamation
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,シャオレイ,ちえ……,,vc_10040100001_018_01
+message,シャオレイ,Wisdom...<br> ,,vc_10040100001_018_01
 
-message,シャオレイの祖父,うむ！　真の強さには、力と技――そして、知が必要だ！<br>だが、わしには力と技しか教えられん！　正直、わし頭悪いからのう！
+message,シャオレイの祖父,Indeed! True strength requires power，technique，and wisdom! But I can<br>only teach you power and technique! Honestly，I am not very bright.<br> 
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,シャオレイの祖父,そこで我が孫よ！　外の世界へ出て多くを学び、経験し、賢くなるのじゃ！<br>そうすればお主はまた強くなれる！　説明終わり！　いってこーい！！！
+message,シャオレイの祖父,So，my grandchild! Go out into the world，learn，experience，and become<br>wise! Then you will grow stronger! Explanation over! Off you go!<br> 
 
 asyncseplay,setag1_18,se4800013,0,1,CONT
 
 charaemo,chara_1,Spirits
 
-message,シャオレイ,はーい。,,vc_10040100001_019_01
+message,シャオレイ,Okaaay.<br> ,,vc_10040100001_019_01
 
 window,off
 wait,0.15
@@ -365,9 +365,9 @@ bgmplay,bgmtag1_5,bgm0035,0.75,1
 fade,In,White,1.5
 
 window,on,0.15
-message,シャオレイ,という、わけ。,,vc_10040100001_020_01
+message,シャオレイ,So that's how it is.<br> ,,vc_10040100001_020_01
 
-message,<user>,随分と思い切りのいい爺さんだな……！！<br>お前も、受け入れるのが早すぎるだろう！！
+message,<user>,That's one decisive old man...! And you accepted it way too quickly!<br> 
 
 asyncseplay,setag1_19,se4800004,0,1,CONT
 
@@ -375,36 +375,36 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Laugh,STOP
 
 asynccharaface,chara_1,FaceFun,STOP
-message,シャオレイ,だってわたし、強くなりたいもん。,,vc_10040100001_021_01
+message,シャオレイ,But Xiaolei wants to become stronger!<br> ,,vc_10040100001_021_01
 
-message,<user>,そ、そうか……とにかくお前は武者修行の最中ってわけだな。<br>１人で故郷を離れるなんて寂しいだろうに、頑張ってるな。
+message,<user>,I-I see... So you're on a martial pilgrimage. Leaving your home<br>alone must be lonely，but you're doing your best.<br> 
 
 asynccharaface,chara_1,FaceHappy,STOP
-message,シャオレイ,あいやぁー。そうでもない。シャオレイ、１人じゃないから。<br>ね、パンパン、ダンダン。,,vc_10040100001_022_01
+message,シャオレイ,Aiyaa—not really. Xiaolei isn't alone. Right，Panpan，Dandan?<br> ,,vc_10040100001_022_01
 
-message,パンパン[シャオレイ],くぴゅ！,900000003
+message,パンパン[シャオレイ],Kupyu!<br> ,900000003
 
-message,ダンダン[シャオレイ],くぴゅ～！,900000003
+message,ダンダン[シャオレイ],Kupyu!<br> ,900000003
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,シャオレイ,パンパンとダンダン、あいさつしてる。<br>よろしく、って。,,vc_10040100001_023_01
+message,シャオレイ,Panpan and Dandan are greeting you. They say，'Nice to meet you.'<br> ,,vc_10040100001_023_01
 
-message,<user>,あ、ああ……よろしく……。<br>というか、どうしてパンダと意思疎通できてるんだ？
+message,<user>,Oh，uh... nice to meet you too.<br>But how can you talk to pandas?<br> 
 
 asynccharaface,chara_1,FaceFun,STOP
 
 asynccharareaction,chara_1,Nod,1,STOP
-message,シャオレイ,ずっといっしょに育ったから、当たり前。,,vc_10040100001_024_01
+message,シャオレイ,We grew up together，so it's natural.<br> ,,vc_10040100001_024_01
 
 asynccharaface,chara_1,FaceHappy,STOP
-message,シャオレイ,ふたりといっしょに、わたし、つよくなる。<br>だからがんばれる。,,vc_10040100001_025_01
+message,シャオレイ,With Dandan and Panpan，Xiaolei can get stronger.<br>That's why Xiaolei can do her best.<br> ,,vc_10040100001_025_01
 
-message,<user>,ふたり、か……そうだな。
+message,<user>,The two of them，huh... I see.<br> 
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,<user>,じゃあ心配はいらないな。頑張れよシャオレイ。<br>またどこかで――
+message,<user>,Well，no need to worry then. Good luck，Xiaolei.<br>See you around—<br> 
 
 window,off
 wait,0.15
@@ -415,7 +415,7 @@ shake,BACK,,10,0,0.5,1,off,off,0
 
 charascale,chara_1,1.5,0
 window,on,0.15
-message,<user>,っと！？　
+message,<user>,Huh!<br> 
 
 window,off
 wait,0.15
@@ -427,38 +427,38 @@ blur,on,BACK,0
 charashow,chara_1,0.3
 
 window,on,0.15
-message,シャオレイ,まって。,,vc_10040100001_026_01
+message,シャオレイ,Wait.<br> ,,vc_10040100001_026_01
 
-message,<user>,どうした、服の裾なんてつかんで。<br>まだ何か用があるのか？
+message,<user>,What's wrong? Grabbing my sleeve like that.<br>Is there something else?<br> 
 
 asynccharareaction,chara_1,Nod,1,STOP
-message,シャオレイ,おねがい。<br>わたしの師匠――先生に、なってほしい。,,vc_10040100001_027_01
+message,シャオレイ,Please.<br>Xiaolei wants you to be her master—teacher.<br> ,,vc_10040100001_027_01
 
-message,<user>,は？　先生？　なんで俺が！？<br>見てわかるだろうが、格闘家じゃないぞっ？
+message,<user>,Huh? Teacher? Why me!<br>You can see I'm not a martial artist，right?<br> 
 
 asyncseplay,setag1_20,se4800014,0,1,CONT
 
 asynccharaemo,chara_1,Silence,STOP
 
-message,シャオレイ,あなた、ひょろひょろでよわそうだけど、あたまいい。<br>毒キノコも知ってた。くすりも作った。,,vc_10040100001_028_01
+message,シャオレイ,You look skinny and weak，but you're smart.<br>You knew about poison mushrooms. Made medicine.<br> ,,vc_10040100001_028_01
 
 asyncseplay,setag1_21,se4800003,0,1,CONT
 
 asynccharaemo,chara_1,Twinkle,STOP
 
 asynccharaface,chara_1,FaceFun,STOP
-message,シャオレイ,わたしが強くなるには、そういう知恵、ひつよう。<br>たくさん、おしえてほしい。,,vc_10040100001_029_01
+message,シャオレイ,To get stronger，Xiaolei needs that wisdom.<br>Please teach Xiaolei a lot.<br> ,,vc_10040100001_029_01
 
-message,<user>,あー……その辺に生えてる毒キノコを食うようじゃ、<br>最低限の常識は学ぶべきかもな……
+message,<user>,Ugh... if you eat poison mushrooms growing around here，<br>you might need to learn some basic common sense...<br> 
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,<user>,でも、俺が教えられることなんて限られてるぞ。<br>もっと頭のいい人を見つけて――
+message,<user>,But there's only so much I can teach.<br>Find someone smarter—<br> 
 
 asynccharareaction,chara_1,Shake,1,STOP
-message,シャオレイ,いや。あなたに、おしえてほしい。,,vc_10040100001_030_01
+message,シャオレイ,No. Xiaolei wants you to teach her.<br> ,,vc_10040100001_030_01
 
-message,<user>,あ～、あれだ。俺は弟子なんて受けつけてないんだ。<br>というわけで、じゃあな――っ！？
+message,<user>,Uh，look，I don't take disciples.<br>So with that，see ya—!<br> 
 
 window,off
 wait,0.15
@@ -476,7 +476,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（う、動けないっ！　どうなってるんだ！？<br>服の袖をつかんだシャオレイの手が微動だにしないぞ！？）
+message,<user>,(Wha—I can't move! What's going on!?<br>Xiaolei's hand gripping my sleeve doesn't budge at all!)<br> 
 
 window,off
 wait,0.15
@@ -490,9 +490,9 @@ wait,0.1
 
 charareaction,chara_1,HOP,0.5
 window,on,0.15
-message,シャオレイ,あなたに、おしえて、ほしい。,,vc_10040100001_031_01
+message,シャオレイ,Xiaolei wants you to teach her.<br> ,,vc_10040100001_031_01
 
-message,<user>,あ、あ～、悪いがそういうわけにはいかない。<br>俺は前線基地の司令官でな、これでも忙しいんだよ。
+message,<user>,Ah，uh，sorry，but I can't do that.<br>I'm the commander of the Frontline Base，and I'm busy as it is.<br> 
 
 asyncseplay,setag1_22,se4800010,0,1,CONT
 
@@ -500,7 +500,7 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Exclamation,STOP
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,シャオレイ,ぜんせんきち……知ってる。そこのしれいかんなの？<br>すごい。シャオレイ、見る目ある。,,vc_10040100001_032_01
+message,シャオレイ,Frontline Base... Xiaolei knows it. You're the commander there?<br>Amazing. Xiaolei has a good eye.<br> ,,vc_10040100001_032_01
 
 asyncseplay,setag1_23,se4800022,0,1,CONT
 
@@ -508,13 +508,13 @@ asynccharaemo,chara_1,Speak,STOP
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,シャオレイ,わたしの家、びんぼーだから、ぜんせんきちにいってお金もかせぎたい。<br>あなたにおしえてもらって、強くなれるし、いっせきにちょう。,,vc_10040100001_033_01
+message,シャオレイ,Xiaolei's family's poor，and she wants to earn money at Frontline<br>Base. If Teacher teaches her，she'll get stronger—two birds one stone.<br> ,,vc_10040100001_033_01
 
-message,<user>,だから俺は忙しいんだって。<br>その手を離して……離しっ……くそ、ぜんぜん離れねえ……っ！
+message,<user>,I told you I'm busy! Let go of my sleeve... let go—... dammit，it<br>won't let go...!<br> 
 
-message,シャオレイ,先生？,,vc_10040100001_034_01
+message,シャオレイ,Teacher?<br> ,,vc_10040100001_034_01
 
-message,<user>,先生じゃないっての！　あーもう……。<br>じゃあ仮にお前の先生になったとして、俺に何か得はあるのか？
+message,<user>,I said I'm not your teacher! Ah，man... Well，what's in it for me if I<br>become your teacher?<br> 
 
 asyncseplay,setag1_24,se4800004,0,1,CONT
 
@@ -522,11 +522,11 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Laugh,STOP
 
 asynccharaface,chara_1,FaceFun,STOP
-message,シャオレイ,わたし、強い。力もある。<br>かならず、先生のやくにたつ。,,vc_10040100001_035_01
+message,シャオレイ,Xiaolei is strong. Has power. Will definitely be useful to Teacher.<br> ,,vc_10040100001_035_01
 
-message,<user>,確かにすごい力で袖をつかまれてはいるけど、<br>そこまで言うほど強いのか……？
+message,<user>,You're grabbing my sleeve with incredible strength，but are you<br>really as strong as all that...?<br> 
 
-message,<user>,んー、じゃあ試しに聞いてみるが、この大きな倒木を動かせたりするか？<br>道が通れなくて困ってたんだ。
+message,<user>,Hmm，well then let me ask: can you move this big fallen tree? I've<br>been having trouble getting through here.<br> 
 
 asyncseplay,setag1_25,se4800009,0,1,CONT
 
@@ -534,7 +534,7 @@ asynccharaemo,chara_1,Question,STOP
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,シャオレイ,ん、この木？,,vc_10040100001_036_01
+message,シャオレイ,Hm，this tree?<br> ,,vc_10040100001_036_01
 
 window,off
 wait,0.15
@@ -555,18 +555,18 @@ asynccharaemo,chara_1,Speak,STOP
 
 charareaction,chara_1,JUMP,0.5
 window,on,0.15
-message,シャオレイ,ほっ。,,vc_10040100001_037_01
+message,シャオレイ,*huff*<br> ,,vc_10040100001_037_01
 
 
-message,<user>,なっ！？　片手で持ち上げた！？
+message,<user>,Wha—! She lifted it with one hand!<br> 
 
 charareaction,chara_1,JUMP,0.5
-message,シャオレイ,はい。,,vc_10040100001_038_01
+message,シャオレイ,Yes.<br> ,,vc_10040100001_038_01
 
 asyncseplay,setag1_27,se5050040,0,1,CONT
 
 shake,BACK,,0,10,0.5,1,off,off,0
-message,,倒木がぽいっと脇に投げ捨てられる。<br>ズシンという重い音が響き、足元が大きく揺れた。
+message,,The fallen tree was tossed aside with a flick. A heavy thud rang<br>out，and the ground shook beneath them.<br> 
 
 window,off
 wait,0.15
@@ -579,7 +579,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（こんな大きな倒木を、片手で簡単に持つなんて――！<br>小さな体でどんな怪力だっ！？）
+message,<user>,(To be able to lift such a big fallen tree easily with one hand...!<br>What incredible strength for such a small body!)<br> 
 
 window,off
 wait,0.15
@@ -596,16 +596,16 @@ asyncseplay,setag1_28,se4800009,0,1,CONT
 asynccharaemo,chara_1,Question,STOP
 
 window,on,0.15
-message,シャオレイ,これでいい？,,vc_10040100001_039_01
+message,シャオレイ,Is this good?<br> ,,vc_10040100001_039_01
 
-message,<user>,…………わかった、採用だ。<br>今日から俺のことは先生と呼べ。
+message,<user>,...All right，I'll take you on. From today，call me Teacher.<br> 
 
 asyncseplay,setag1_29,se4800004,0,1,CONT
 
 asynccharaemo,chara_1,Laugh,STOP
 
 asynccharaface,chara_1,FaceHappy,STOP
-message,シャオレイ,ふふっ。しぇしぇ。<br>よろしく、先生。,,vc_10040100001_040_01
+message,シャオレイ,Fufu. Sheshe. Please take care of Xiaolei，Teacher.<br> ,,vc_10040100001_040_01
 
 
 

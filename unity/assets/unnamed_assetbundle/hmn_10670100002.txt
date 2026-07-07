@@ -36,7 +36,7 @@ bgmplay,bgmtag1_1,bgm0036,0.75,1
 
 
 window,on,0.15
-message,,クルルが前線基地で暮らすことになった、その翌日。<br><user>たちは再び大穴の探索に向かっていた。
+message,,It was the day after Kururu started living at the Frontline Base.<br>The Commander and the others were heading into the Abyss once more.<br> 
 
 window,off
 wait,0.15
@@ -74,9 +74,9 @@ asynccharaemo,chara_1,Sleepy,CONT,0
 
 
 window,on,0.15
-message,クルル,ふわ～、ねむねむ……。 <br>また大穴に用事～？,106701000G,vc_10670100002_001_01,chara_1
+message,クルル,Fwaa，so sleeeepy... Another errand in the Abyss?<br> ,106701000G,vc_10670100002_001_01,chara_1
 
-message,<user>,ああ、それはそれは大事な用事だ。 <br>クルルが来てくれて助かったよ。
+message,<user>,Yeah，it's really important business. I'm glad you came along，Kururu.<br> 
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -88,9 +88,9 @@ asyncseplay,setag1_2,se4800020,0,1,CONT,0
 asynccharaemo,chara_1,Sleepy,CONT,0
 
 
-message,クルル,うん、クルルはご主人さまの役に立つよ～！<br>ぐぅぅ……,106701000G,vc_10670100002_002_01,chara_1
+message,クルル,Yeah! Kururu will be useful to Master! *Zzz...*<br> ,106701000G,vc_10670100002_002_01,chara_1
 
-message,<user>,寝るな寝るな。<br>クルルには大事な仕事をしてもらうんだ。
+message,<user>,Don't go to sleep. I've got an important job for you，Kururu.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -101,7 +101,7 @@ asyncseplay,setag1_3,se4800022,0,1,CONT,0
 
 asynccharaemo,chara_1,Speak,CONT,0
 
-message,<user>,今回の目的はこの階層で見つかった特殊な鉱石。<br>――こいつ、セイカリオンだ。
+message,<user>,Our objective this time is a special ore found in this stratum—this<br>is it，Seikarion.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -112,11 +112,11 @@ asyncseplay,setag1_4,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,クルル,せいかりおん？,106701000G,vc_10670100002_003_01,chara_1
+message,クルル,Seikarion?<br> ,106701000G,vc_10670100002_003_01,chara_1
 
-message,,<user>は小さな鉱石の欠片を取り出す。<br>手の平に乗る程度の破片だった。
+message,,The Commander took out a small fragment of the ore. It was a piece<br>small enough to fit in his palm.<br> 
 
-message,<user>,非常に珍しい鉱石なんだが、<br>こいつは加熱すると鉄より固くなる。
+message,<user>,This is an extremely rare ore. When heated，it becomes harder than<br>iron.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -127,11 +127,11 @@ asyncseplay,setag1_5,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,クルル,へ～！　鉄よりカッチカチになるの～？,106701000G,vc_10670100002_004_01,chara_1
+message,クルル,Ooh! It gets super hard，even harder than iron?<br> ,106701000G,vc_10670100002_004_01,chara_1
 
-message,<user>,そうだ。こいつが大量に見つかれば、<br>厄災に対抗するための強力な装備が開発できる。
+message,<user>,That's right. If we find a large amount，we can develop powerful<br>equipment to fight the Calamity.<br> 
 
-message,<user>,こないだの厄災の被害で前線基地の壁もボロボロだからな。<br>こいつが見つかれば復旧が一気に楽になるんだ。
+message,<user>,The last Calamity really tore up the Frontline Base's walls，you<br>know. Finding this ore would make repairs a breeze.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -142,9 +142,9 @@ asyncseplay,setag1_6,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,クルル,そっかぁ～！　みんな喜ぶね！　ぜったい！,106701000G,vc_10670100002_005_01,chara_1
+message,クルル,I see! Everyone will be happy! Definitely!<br> ,106701000G,vc_10670100002_005_01,chara_1
 
-message,<user>,この鉱石には独特の香りがあるのが特徴だ。<br>そこでクルルの鼻でこいつの鉱脈を探り当ててほしいんだ。
+message,<user>,This ore has a distinctive smell. So I want you to use your nose to<br>find a vein of it.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -155,7 +155,7 @@ asyncseplay,setag1_7,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,クルル,うん、わかった！<br>クルルにまかせといて～！,106701000G,vc_10670100002_006_01,chara_1
+message,クルル,Yeah，got it! Leave it to Kururu!<br> ,106701000G,vc_10670100002_006_01,chara_1
 
 window,off
 wait,0.15
@@ -196,7 +196,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,頼んだぜ、クルルのお嬢ちゃん！,401601000,vc_10670100002_007_01,chara_2
+message,兵士Ａ,We're counting on you，Kururu!<br> ,401601000,vc_10670100002_007_01,chara_2
 
 asyncjump,CHARA,chara_3,-30,0.25,1,off,0,CONT
 
@@ -205,7 +205,7 @@ asyncseplay,setag1_9,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,兵士Ｂ,お願い、力を貸して……！,401001000,vc_10670100002_008_01,chara_3
+message,兵士Ｂ,Please，lend us your strength!<br> ,401001000,vc_10670100002_008_01,chara_3
 
 window,off
 wait,0.15
@@ -251,7 +251,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,クルル,もちろん！　一緒に探そうね！,106701000G,vc_10670100002_009_01,chara_1
+message,クルル,Of course! Let's search together!<br> ,106701000G,vc_10670100002_009_01,chara_1
 
 
 window,off
@@ -278,7 +278,7 @@ wait,0.5
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,<user>,ん～……なかなか見つからないな……。<br>ま、そう簡単に発見できるとは思ってなかったが。
+message,<user>,Hmm... It's not easy to find. Well，I didn't expect it to be simple.<br> 
 
 window,off
 wait,0.15
@@ -312,9 +312,9 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,クルル,スンスン……スンスン……,106701000G,vc_10670100002_010_01,chara_1
+message,クルル,*sniff，sniff... sniff，sniff...*<br> ,106701000G,vc_10670100002_010_01,chara_1
 
-message,<user>,どうだクルル。 <br>何か気になる匂いはないか？
+message,<user>,How about it，Kururu? Smell anything interesting?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -325,7 +325,7 @@ asyncseplay,setag1_12,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,クルル,うーん、今は何も……,106701000G,vc_10670100002_011_01,chara_1
+message,クルル,Hmm，nothing right now...<br> ,106701000G,vc_10670100002_011_01,chara_1
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -338,9 +338,9 @@ asyncseplay,setag1_13,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,クルル,ん、んんー？<br>あれー？　このニオイって？,106701000G,vc_10670100002_012_01,chara_1
+message,クルル,Mmm，mmm? Huh? This smell...<br> ,106701000G,vc_10670100002_012_01,chara_1
 
-message,<user>,お、何かあったか？ <br>もしかしてセイカリオンか！？
+message,<user>,Oh，did you find something? Could it be Seikarion!?<br> 
 
 window,off
 wait,0.15
@@ -382,7 +382,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,クルル,ううん、そうじゃなくて、でも……こっち！,106701000G,vc_10670100002_013_01,chara_1
+message,クルル,No，not that，but... this way!<br> ,106701000G,vc_10670100002_013_01,chara_1
 
 window,off
 wait,0.15
@@ -400,7 +400,7 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,,クルルは匂いをたどりながら、 <br>足早に大穴の奥へと進んでいく。
+message,,Following the scent，Kururu quickly advanced deeper into the Abyss.<br> 
 
 window,off
 wait,0.15
@@ -441,7 +441,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,<user>,クルルを追うぞ！
+message,<user>,Let's go after Kururu!<br> 
 
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
@@ -450,7 +450,7 @@ asyncseplay,setag1_16,se4800010,0,1,CONT,0
 asynccharaemo,chara_2,Exclamation,CONT,0
 
 
-message,兵士Ａ,はいっ！,401601000,vc_10670100002_014_01,chara_2
+message,兵士Ａ,Yes!<br> ,401601000,vc_10670100002_014_01,chara_2
 
 
 window,off
@@ -515,9 +515,9 @@ asynccharaemo,chara_6,Anger,CONT,0
 
 
 window,on,0.15
-message,ゴブリン,クキキーッ！,402001000,,chara_4/chara_5/chara_6
+message,ゴブリン,Kukiki!<br> ,402001000,,chara_4/chara_5/chara_6
 
-message,<user>,ゴブリン！？　かなりの数だな……！ <br>群れか？　いや、何かを取り囲んでる？
+message,<user>,Goblins! Quite a few... A pack? No，they're surrounding something?<br> 
 
 window,off
 wait,0.15
@@ -568,9 +568,9 @@ asynccharaemo,chara_4,Spirits,CONT,0
 
 
 window,on,0.15
-message,ボスゴブリン,クケケー！,402001000,,chara_4
+message,ボスゴブリン,Kukeke!<br> ,402001000,,chara_4
 
-message,<user>,１匹、妙にガタイのいいゴブリンもいる。 <br>油断ならないな……
+message,<user>,One goblin is unusually well-built. Can't let our guard down...<br> 
 
 window,off
 wait,0.15
@@ -610,9 +610,9 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,クルル,……,106701000G,vc_10670100002_015_01,chara_1
+message,クルル,...<br> ,106701000G,vc_10670100002_015_01,chara_1
 
-message,<user>,よく気づいてくれたな、クルル。 <br>全員音を立てるな、離れて様子を見るぞ。
+message,<user>,Good catch，Kururu. Everyone，keep quiet，stay back and observe.<br> 
 
 window,off
 wait,0.15
@@ -679,9 +679,9 @@ asynccharaemo,chara_4,Laugh,CONT,0
 
 
 window,on,0.15
-message,ゴブリン,グケエェェ！,402001000,,chara_4
+message,ゴブリン,Gukeeee!<br> ,402001000,,chara_4
 
-message,,ゴブリンの１匹がゆらりと動く。<br>取り囲んだ何かへ向けて、その腕を大きく振り上げた。
+message,,One of the goblins swayed as it moved. It raised its arm high toward<br>whatever they had surrounded.<br> 
 
 window,off
 wait,0.15
@@ -733,7 +733,7 @@ asynccharaemo,chara_1,Anger,CONT,0
 
 
 window,on,0.15
-message,クルル,あーーダメーっ！！！,106701000G,vc_10670100002_016_01,chara_1
+message,クルル,Aaaah，no!<br> ,106701000G,vc_10670100002_016_01,chara_1
 
 window,off
 wait,0.15
@@ -798,9 +798,9 @@ asyncseplay,setag1_25,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 window,on,0.15
-message,,クルルが弾かれたように物陰から飛び出すと、<br>そのままクルルは猛烈な勢いでゴブリンへと突進していく。
+message,,Kururu burst out from cover as if launched，and charged at the<br>goblins with tremendous force.<br> 
 
-message,<user>,はっ！？　ちょっ、おいっ！
+message,<user>,What! Hey，wait!<br> 
 
 window,off
 wait,0.15
@@ -879,9 +879,9 @@ asynccharaemo,chara_6,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ゴブリン,クケッ！？　グギギー！,402001000,,chara_4/chara_5/chara_6
+message,ゴブリン,Kukeh! Gugigi!<br> ,402001000,,chara_4/chara_5/chara_6
 
-message,<user>,くっ、気づかれたか！ <br>全員戦闘態勢！　正面から潰すぞ！
+message,<user>,Tch，we've been spotted! Everyone battle-ready! We'll crush them<br>head-on!<br> 
 
 window,off
 wait,0.15
@@ -896,7 +896,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（何をしてるんだ、クルル！<br>様子を見ろって言ったのに、１人で突っ込んで……！）
+message,<user>,(What are you doing，Kururu! I said to observe，and you charge in<br>alone...!)<br> 
 
 window,off
 wait,0.15
@@ -959,7 +959,7 @@ asynccharaemo,chara_1,Anger,CONT,0
 
 
 window,on,0.15
-message,クルル,どいてーっ！　ええーいっ！,106701000G,vc_10670100002_017_01,chara_1
+message,クルル,Move it! Heeyah!<br> ,106701000G,vc_10670100002_017_01,chara_1
 
 window,off
 wait,0.15
@@ -1013,7 +1013,7 @@ asynccharamove,chara_1,EaseOut,X,-100,0.3,CONT,0
 asyncwait
 
 window,on,0.15
-message,,クルルはゴブリンの間をすり抜けるように突き進んでいく。 <br>その進路に大きなゴブリンが立ちふさがった。
+message,,Kururu darted forward，slipping between the goblins. A large goblin<br>blocked her path.<br> 
 
 asyncjump,CHARA,chara_4,30,0.25,1,off,0,CONT
 
@@ -1022,9 +1022,9 @@ asyncseplay,setag1_30,se4800001,0,1,CONT,0
 asynccharaemo,chara_4,Anger,CONT,0
 
 
-message,ボスゴブリン,グゲゲ……！,402001000,,chara_4
+message,ボスゴブリン,Grrrr...!<br> ,402001000,,chara_4
 
-message,<user>,止まれクルル！　そいつは危険だ
+message,<user>,Stop，Kururu! That one's dangerous!<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1035,7 +1035,7 @@ asyncseplay,setag1_31,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,クルル,だいじょぶっ！,106701000G,vc_10670100002_018_01,chara_1
+message,クルル,I'm okay!<br> ,106701000G,vc_10670100002_018_01,chara_1
 
 window,off
 wait,0.15
@@ -1091,7 +1091,7 @@ asynccharamove,chara_4,Linear,Y,160,0.7,CONT,0
 asyncwait
 
 window,on,0.15
-message,,大柄なゴブリンが両手を振り上げる。 <br>だがクルルは止まることなく、素早いステップで腕の内側へと滑り込む。
+message,,The large goblin raised both arms. But Kururu didn't stop; she slid<br>inside its reach with a nimble step.<br> 
 
 window,off
 wait,0.15
@@ -1135,7 +1135,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,クルル,じゃ、ま～っ！,106701000G,vc_10670100002_019_01,chara_1
+message,クルル,Hup—there!<br> ,106701000G,vc_10670100002_019_01,chara_1
 
 window,off
 wait,0.15
@@ -1167,7 +1167,7 @@ asynccharamove,chara_1,Linear,Y,-100,0.2,CONT,0
 asyncwait
 
 window,on,0.15
-message,,そして体を回すように回転させ、<br>大きなゴブリンを一気に投げ飛ばした。
+message,,Then she twisted her body and hurled the large goblin away in one<br>go.<br> 
 
 window,off
 wait,0.15
@@ -1236,7 +1236,7 @@ asynccharaemo,chara_4,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ボスゴブリン,ギギガッ！？,402001000,,chara_4
+message,ボスゴブリン,Grrggh!<br> ,402001000,,chara_4
 
 window,off
 wait,0.15
@@ -1262,7 +1262,7 @@ shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 shake,CHARA,chara_6,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,<user>,あれだけ体格差があるってのに、投げ落とした！？ <br>クマを投げ飛ばしたってのはあの技か？
+message,<user>,(Despite that size difference，she threw it! Is that the same<br>technique she used to toss a bear?)<br> 
 
 window,off
 wait,0.15
@@ -1339,7 +1339,7 @@ asynccharaemo,chara_6,Panic,CONT,0
 
 
 window,on,0.15
-message,ゴブリン,キィッ！？,402001000,,chara_4/chara_5/chara_6
+message,ゴブリン,Eeek!<br> ,402001000,,chara_4/chara_5/chara_6
 
 window,off
 wait,0.15
@@ -1377,7 +1377,7 @@ emodelete,chara_6,0,0
 asyncwait
 
 window,on,0.15
-message,,大きなゴブリンは立ち上がることも出来ずに倒れ伏す。　 <br>ボスがやられたことに動揺したのか、ゴブリンは散り散り逃げ出していった。
+message,,The large goblin collapsed，unable to get up. Shaken by their boss's<br>defeat，the other goblins scattered and fled.<br> 
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -1408,7 +1408,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,無事か、クルル。 <br>どうしたんだ、俺の指示を無視して。
+message,<user>,You all right，Kururu? What's the big idea ignoring my orders?<br> 
 
 window,off
 wait,0.15
@@ -1450,13 +1450,13 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,クルル,だってご主人さま、この子が……,106701000G,vc_10670100002_020_01,chara_1
+message,クルル,But Master，this puppy...<br> ,106701000G,vc_10670100002_020_01,chara_1
 
 bgmplay,bgmtag1_3,bgm0030,0.75,1
 
-message,,戻ってきたクルルの腕の中に子犬が抱えられていた。 <br>普通ならまだまだ親犬と一緒にいるような小さな犬だった。
+message,,In Kururu's arms was a puppy. A small one that would normally still<br>be with its mother.<br> 
 
-message,<user>,犬……？ <br>どうしてこんなところに？
+message,<user>,A dog...? What's it doing out here?<br> 
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -1465,13 +1465,13 @@ asyncseplay,setag1_40,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,クルル,あのゴブリンに襲われてた。<br>きっと迷子になっちゃったんだよ。,106701000G,vc_10670100002_021_01,chara_1
+message,クルル,The goblins were attacking it. It must've gotten lost.<br> ,106701000G,vc_10670100002_021_01,chara_1
 
-message,<user>,あいつら、何を囲んでるのかと思ったら……。 <br>脚を怪我してるみたいだな、それで逃げられなかったんだ。
+message,<user>,So that's what they were surrounding... Its leg looks injured.<br>That's why it couldn't escape.<br> 
 
-message,子犬,クゥン……,900000003
+message,子犬,*whimper*...<br> ,900000003
 
-message,,苦しげな鳴き声をあげる子犬。 <br>クルルはその背中にそっと手を当てた。
+message,,The puppy let out a pained whimper. Kururu gently placed her hand on<br>its back.<br> 
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -1480,7 +1480,7 @@ asyncseplay,setag1_41,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,クルル,だいじょうぶ？　足、痛い……？,106701000G,vc_10670100002_022_01,chara_1
+message,クルル,Are you okay? Does your paw hurt...?<br> ,106701000G,vc_10670100002_022_01,chara_1
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1489,9 +1489,9 @@ asyncseplay,setag1_42,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,クルル,ねえ、ご主人さま？<br>この子、連れて帰ってもいい？,106701000G,vc_10670100002_023_01,chara_1
+message,クルル,Hey，Master? Can I take this puppy home?<br> ,106701000G,vc_10670100002_023_01,chara_1
 
-message,<user>,ああ、それは構わないが……
+message,<user>,Yeah，that's fine，but...<br> 
 
 window,off
 wait,0.15
@@ -1544,7 +1544,7 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,兵士Ｂ,司令官、いいんですか？<br>まだセイカリオンの鉱脈はおろか、鉱石の１つも見つかっていませんが……,401001000,vc_10670100002_024_01,chara_3
+message,兵士Ｂ,Commander，is that really okay? We haven't found any Seikarion<br>ore，let alone a vein...<br> ,401001000,vc_10670100002_024_01,chara_3
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -1555,7 +1555,7 @@ asyncseplay,setag1_44,se4800006,0,1,CONT,0
 asynccharaemo,chara_2,Trouble,CONT,0
 
 
-message,兵士Ａ,ケガした犬っころなんて連れてちゃ、血の匂いでやつらが集まってきますよ。<br>探索になりゃしない、ここに置いていきましょう,401601000,vc_10670100002_025_01,chara_2
+message,兵士Ａ,If we bring that injured mutt along，the scent of blood will attract<br>the enemies. We won't get any searching done; let's leave it here.<br> ,401601000,vc_10670100002_025_01,chara_2
 
 window,off
 wait,0.15
@@ -1601,7 +1601,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,クルル,置いてくなんてダメ！　この子、このままじゃ死んじゃう！ <br>この子はまだ生きられる。まだ戦える！,106701000G,vc_10670100002_026_01,chara_1
+message,クルル,No! We can't leave it behind! It'll die if we do! It can still live.<br>It can still fight!<br> ,106701000G,vc_10670100002_026_01,chara_1
 
 window,off
 wait,0.15
@@ -1665,7 +1665,7 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,兵士Ｂ,クルルちゃん……今回の探索はセイカリオンの鉱脈を見つけること。<br>次に厄災が出てきた時のためにその鉱石が必要なの。,401001000,vc_10670100002_027_01,chara_3
+message,兵士Ｂ,Kururu... our mission this time is to find the Seikarion vein. We<br>need that ore for when the Calamity comes again.<br> ,401001000,vc_10670100002_027_01,chara_3
 
 asyncshake,CHARA,chara_3,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1674,7 +1674,7 @@ asyncseplay,setag1_47,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,兵士Ｂ,こないだの厄災の被害で前線基地はボロボロ。<br>早急に対策をしないと危険なのよ。分かるでしょ？,401001000,vc_10670100002_028_01,chara_3
+message,兵士Ｂ,The Frontline Base is in shambles from the last Calamity's damage.<br>We need to act quickly，or it'll be dangerous. You understand，right?<br> ,401001000,vc_10670100002_028_01,chara_3
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1685,7 +1685,7 @@ asyncseplay,setag1_48,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,クルル,でも、でも……！,106701000G,vc_10670100002_029_01,chara_1
+message,クルル,But，but...!<br> ,106701000G,vc_10670100002_029_01,chara_1
 
 asynccharaface,chara_3,FaceAnger,CONT,0
 
@@ -1696,7 +1696,7 @@ asyncseplay,setag1_49,se4800014,0,1,CONT,0
 asynccharaemo,chara_3,Silence,CONT,0
 
 
-message,兵士Ｂ,次に厄災が出てきたら、その犬だけじゃなく、<br>前線基地のみんなが死んでしまうかもしれないのよ？,401001000,vc_10670100002_030_01,chara_3
+message,兵士Ｂ,If the Calamity appears again，it won't be just that dog—everyone at<br>the Frontline Base could die，you know?<br> ,401001000,vc_10670100002_030_01,chara_3
 
 window,off
 wait,0.15
@@ -1746,9 +1746,9 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 
 window,on,0.15
-message,クルル,うぅぅ……<br>でも……ほっとけないよ……,106701000G,vc_10670100002_031_01,chara_1
+message,クルル,*whimper*... but... I can't just abandon him...<br> ,106701000G,vc_10670100002_031_01,chara_1
 
-message,<user>,…………
+message,<user>,...<br> 
 
 window,off
 wait,0.15
@@ -1805,7 +1805,7 @@ wait,0.5
 bgmstop,bgmtag1_3,1.5,0
 
 window,on,0.15
-message,<user>,みんな、<br>すまないが探索はここで中止だ。
+message,<user>,Everyone，I'm sorry，but we're calling off the search here.<br> 
 
 bgmplay,bgmtag1_4,bgm0033,0.75,1
 
@@ -1818,9 +1818,9 @@ asyncseplay,setag1_51,se4800011,0,1,CONT,0
 asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
-message,兵士Ａ,司令官！？,401601000,vc_10670100002_032_01,chara_2
+message,兵士Ａ,Commander!<br> ,401601000,vc_10670100002_032_01,chara_2
 
-message,<user>,探索途中で負傷者を１名確保。 <br>負傷者の救助を優先し、退却する。
+message,<user>,We've found a wounded person. Rescue and retreat are the priority.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1831,7 +1831,7 @@ asyncseplay,setag1_52,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,クルル,ご主人さま……！,106701000G,vc_10670100002_033_01,chara_1
+message,クルル,Master...!<br> ,106701000G,vc_10670100002_033_01,chara_1
 
 asyncshake,CHARA,chara_3,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -1840,9 +1840,9 @@ asyncseplay,setag1_53,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,兵士Ｂ,い、いいんですか？　セイカリオンは？,401001000,vc_10670100002_034_01,chara_3
+message,兵士Ｂ,A-are you sure? What about Seikarion?<br> ,401001000,vc_10670100002_034_01,chara_3
 
-message,<user>,前線基地を強化する方法は１つだけじゃない。<br>今回収穫を得られなかったなら別の手を考えるさ。
+message,<user>,There's more than one way to strengthen the Frontline Base. If we<br>didn't find any ore this time，we'll think of another way.<br> 
 
 asynccharaface,chara_3,FaceHappy,CONT,0
 
@@ -1853,7 +1853,7 @@ asyncseplay,setag1_54,se4800022,0,1,CONT,0
 asynccharaemo,chara_3,Speak,CONT,0
 
 
-message,兵士Ｂ,なるほど……司令官がそうおっしゃるなら。<br>分かりました。撤退しましょう。,401001000,vc_10670100002_035_01,chara_3
+message,兵士Ｂ,I see... If the Commander says so. Understood. Let's retreat.<br> ,401001000,vc_10670100002_035_01,chara_3
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1864,7 +1864,7 @@ asyncseplay,setag1_55,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,クルル,ありがとう、ご主人さま！,106701000G,vc_10670100002_036_01,chara_1
+message,クルル,Thank you，Master!<br> ,106701000G,vc_10670100002_036_01,chara_1
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -1875,7 +1875,7 @@ asyncseplay,setag1_56,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,兵士Ａ,そうと決まったら子犬の体力が持つ間に帰らないとな。<br>さっさと撤退するぞ！,401601000,vc_10670100002_037_01,chara_2
+message,兵士Ａ,Alright，then we need to get back while the puppy's still got<br>strength. Let's move out!<br> ,401601000,vc_10670100002_037_01,chara_2
 
 asyncjump,CHARA,chara_3,-30,0.25,1,off,0,CONT
 
@@ -1884,7 +1884,7 @@ asyncseplay,setag1_57,se4800022,0,1,CONT,0
 asynccharaemo,chara_3,Speak,CONT,0
 
 
-message,兵士Ｂ,クルルちゃんに代わって私が先頭に立つわ。 <br>あなたはその子を守ってあげて。,401001000,vc_10670100002_038_01,chara_3
+message,兵士Ｂ,I'll take the lead instead of Kururu. You protect that little one.<br> ,401001000,vc_10670100002_038_01,chara_3
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1895,7 +1895,7 @@ asyncseplay,setag1_58,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,クルル,みんなも、ありがとう……！,106701000G,vc_10670100002_039_01,chara_1
+message,クルル,Thank you，everyone...!<br> ,106701000G,vc_10670100002_039_01,chara_1
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -1906,7 +1906,7 @@ asyncseplay,setag1_59,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,兵士Ｂ,さっきは、ごめんね。<br>きつい言い方しちゃって。,401001000,vc_10670100002_040_01,chara_3
+message,兵士Ｂ,Sorry about earlier. I was a bit harsh.<br> ,401001000,vc_10670100002_040_01,chara_3
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1918,9 +1918,9 @@ asyncseplay,setag1_60,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,クルル,ううん！　クルル、気にしてないよ！,106701000G,vc_10670100002_041_01,chara_1
+message,クルル,No! Kururu doesn't mind at all!<br> ,106701000G,vc_10670100002_041_01,chara_1
 
-message,<user>,クルル、負傷者の応急処置と保護を頼む。<br>丁寧に運ぶんだぞ。
+message,<user>,Kururu，take care of the injured and give them first aid. Carry them<br>gently，okay?<br> 
 
 window,off
 wait,0.15
@@ -1971,9 +1971,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,クルル,うん！ <br>すぐ治してあげるからね、がんばって……！,106701000G,vc_10670100002_042_01,chara_1
+message,クルル,Yeah! Kururu will patch you up soon，so hang in there...!<br> ,106701000G,vc_10670100002_042_01,chara_1
 
-message,<user>,基地に戻ったら、世話はクルルに任せたからな。
+message,<user>,When we get back to base，I'm leaving the care to you，Kururu.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1984,7 +1984,7 @@ asyncseplay,setag1_62,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,クルル,もちろん！　クルルに任せておいてっ！,106701000G,vc_10670100002_043_01,chara_1
+message,クルル,Of course! Leave it to Kururu!<br> ,106701000G,vc_10670100002_043_01,chara_1
 
 window,off
 bgmstop,bgmtag1_4,0.5

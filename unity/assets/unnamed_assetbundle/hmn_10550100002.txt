@@ -37,7 +37,7 @@ bgmplay,bgmtag1_1,bgm0024,0.75,1
 
 
 window,on,0.15
-message,,<user>と別れたあと、<br>アリシアはリタを連れて司令室へ移動した。
+message,,After parting with the Commander，Alicia took Rita to the command<br>room.<br> 
 
 window,off
 wait,0.15
@@ -71,7 +71,7 @@ asynccharaemo,chara_1,BePeevish,CONT,0
 
 
 window,on,0.15
-message,リタ,まったく！　本当に失礼で無礼な方！<br>怒りが収まりません！,105501000G,vc_10550100002_001_01,chara_1
+message,リタ,Unbelievable! What a rude and discourteous person! My anger won't<br>subside!<br> ,105501000G,vc_10550100002_001_01,chara_1
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -82,7 +82,7 @@ asyncseplay,setag1_2,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,アリシア,まぁまぁ……そんなに怒らないでください。<br>わたしがリタさんのお話、聞きますから。,300201000,vc_10550100002_002_01,chara_2
+message,アリシア,Now，now... please don't be so angry. I'll listen to you，Rita.<br> ,300201000,vc_10550100002_002_01,chara_2
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -93,7 +93,7 @@ asyncseplay,setag1_3,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,リタ,……ありがとうございます。アリシアさんみたいな素敵な方が<br>あんな方の下で働いているなんて、納得できません。可哀想です。,105501000G,vc_10550100002_003_01,chara_1
+message,リタ,...Thank you，Alicia. I can't accept that someone as wonderful as you<br>has to work for someone like that. I feel so sorry for you.<br> ,105501000G,vc_10550100002_003_01,chara_1
 
 asynccharaface,chara_2,FaceUnique01,CONT,0
 
@@ -104,7 +104,7 @@ asyncseplay,setag1_4,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,アリシア,あはは……でも、司令官にもいいところ、あるんですよ～。,300201000,vc_10550100002_004_01,chara_2
+message,アリシア,Ahaha... but the Commander does have his good points，you know.<br> ,300201000,vc_10550100002_004_01,chara_2
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -115,7 +115,7 @@ asyncseplay,setag1_5,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,リタ,……信じられませんわっ！,105501000G,vc_10550100002_005_01,chara_1
+message,リタ,...I simply can't believe it!<br> ,105501000G,vc_10550100002_005_01,chara_1
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -126,7 +126,7 @@ asyncseplay,setag1_6,se4800006,0,1,CONT,0
 asynccharaemo,chara_2,Trouble,CONT,0
 
 
-message,アリシア,ま、まぁ、今日の様子だけ見ていたら、そうでしょうね……,300201000,vc_10550100002_006_01,chara_2
+message,アリシア,Well，if you only saw how he was today，I suppose it would seem that<br>way...<br> ,300201000,vc_10550100002_006_01,chara_2
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -138,7 +138,7 @@ asyncseplay,setag1_7,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,アリシア,それはさておき、ちょっとお花にお水をあげてもいいですか？,300201000,vc_10550100002_007_01,chara_2
+message,アリシア,Anyway，would you mind if I water the flowers?<br> ,300201000,vc_10550100002_007_01,chara_2
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -150,7 +150,7 @@ asyncseplay,setag1_8,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,リタ,あ、はい。もちろんです！,105501000G,vc_10550100002_008_01,chara_1
+message,リタ,Oh，yes. Of course!<br> ,105501000G,vc_10550100002_008_01,chara_1
 
 asynccharaface,chara_2,FaceUnique01,CONT,0
 
@@ -161,16 +161,16 @@ asyncseplay,setag1_9,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,アリシア,ありがとうございます！<br>みんな～、ご飯ですよ～♪,300201000,vc_10550100002_009_01,chara_2
+message,アリシア,Thank you! Everyone，it's time to eat!♪<br> ,300201000,vc_10550100002_009_01,chara_2
 
-message,,アリシアは花に声を掛けながら、楽しそうにじょうろで水をあげていく。
+message,,Alicia cheerfully called out to the flowers as she watered them with<br>a watering can.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,リタ,司令室にはたくさん、鉢植えがあるんですね。,105501000G,vc_10550100002_010_01,chara_1
+message,リタ,The command room has so many potted plants，doesn't it?<br> ,105501000G,vc_10550100002_010_01,chara_1
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -182,7 +182,7 @@ asyncseplay,setag1_10,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,アリシア,わたしが置いたんです。<br>何もないと殺風景ですから。ちょっとでも安らぐといいなー、って。,300201000,vc_10550100002_011_01,chara_2
+message,アリシア,I put them here. It's too bare without anything. I thought it might<br>bring a little comfort，you know.<br> ,300201000,vc_10550100002_011_01,chara_2
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -193,7 +193,7 @@ asyncseplay,setag1_11,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,リタ,素敵ですわ……！　育てているお花の選び方も最高です。,105501000G,vc_10550100002_012_01,chara_1
+message,リタ,Wonderful...! The way you choose the flowers you grow is perfect.<br> ,105501000G,vc_10550100002_012_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -204,7 +204,7 @@ asyncseplay,setag1_12,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,リタ,ルミナローズに、サンライズデイジー……<br>フェアリーフロックスまで……,105501000G,vc_10550100002_013_01,chara_1
+message,リタ,Lumina Rose，Sunrise Daisy... even Fairy Phlox...<br> ,105501000G,vc_10550100002_013_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -215,7 +215,7 @@ asyncseplay,setag1_13,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,リタ,あ、そのお花にはお水をあげすぎないほうがいいですよ。<br>そのほうが、長持ちします。,105501000G,vc_10550100002_014_01,chara_1
+message,リタ,Oh，you should be careful not to water that flower too much. It'll<br>last longer that way.<br> ,105501000G,vc_10550100002_014_01,chara_1
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -226,7 +226,7 @@ asyncseplay,setag1_14,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,アリシア,そうなんですか？<br>リタさん、お花に詳しいんですね！,300201000,vc_10550100002_015_01,chara_2
+message,アリシア,Is that so? You really know your flowers，Rita!<br> ,300201000,vc_10550100002_015_01,chara_2
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -237,7 +237,7 @@ asyncseplay,setag1_15,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,リタ,はいっ！　わたし、お花が大好きで――<br>だからドレスや装備も、お花をモチーフにしたものを使っているんです。,105501000G,vc_10550100002_016_01,chara_1
+message,リタ,Yes! I love flowers，so my dress and equipment are all flower-themed.<br> ,105501000G,vc_10550100002_016_01,chara_1
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -248,7 +248,7 @@ asyncseplay,setag1_16,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,アリシア,ふふっ。<br>とてもよくお似合いで、素敵ですよー。,300201000,vc_10550100002_017_01,chara_2
+message,アリシア,Fufu. It suits you perfectly. It's lovely.<br> ,300201000,vc_10550100002_017_01,chara_2
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -257,7 +257,7 @@ asyncseplay,setag1_17,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,リタ,ありがとうございます……♪,105501000G,vc_10550100002_018_01,chara_1
+message,リタ,Thank you!♪<br> ,105501000G,vc_10550100002_018_01,chara_1
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -269,7 +269,7 @@ asyncseplay,setag1_18,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,アリシア,あ、そうだ。ちょっと見ていただきたいお花があるんですけど<br>お願いできますか？,300201000,vc_10550100002_019_01,chara_2
+message,アリシア,Oh，right! There's a flower I'd like you to take a look at. Could<br>you?<br> ,300201000,vc_10550100002_019_01,chara_2
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -281,7 +281,7 @@ asyncseplay,setag1_19,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,リタ,もちろんです！,105501000G,vc_10550100002_020_01,chara_1
+message,リタ,Of course!<br> ,105501000G,vc_10550100002_020_01,chara_1
 
 window,off
 wait,0.15
@@ -319,7 +319,7 @@ asynccharamove,chara_2,Linear,Y,0,0.3,CONT,0
 asyncwait
 
 window,on,0.15
-message,,アリシアは窓際に置いてあった鉢植えを持ち上げ、<br>リタのところまで持ってきた。
+message,,Alicia lifted the potted plant that had been by the window and<br>brought it over to Rita.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -330,7 +330,7 @@ asyncseplay,setag1_20,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,リタ,……？　見慣れないお花ですね？,105501000G,vc_10550100002_021_01,chara_1
+message,リタ,...? This is an unfamiliar flower，isn't it?<br> ,105501000G,vc_10550100002_021_01,chara_1
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -341,7 +341,7 @@ asyncseplay,setag1_21,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,アリシア,やっぱり、そうですよね……,300201000,vc_10550100002_022_01,chara_2
+message,アリシア,I thought so...<br> ,300201000,vc_10550100002_022_01,chara_2
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -352,7 +352,7 @@ asyncseplay,setag1_22,se4800006,0,1,CONT,0
 asynccharaemo,chara_2,Trouble,CONT,0
 
 
-message,アリシア,少し前に基地へやってきた行商人から種を頂いて、育ててみたんです。<br>でも、図鑑を見てもどんな花か全然分からなくて――,300201000,vc_10550100002_023_01,chara_2
+message,アリシア,I got seeds from a traveling merchant and tried growing them，but<br>even with an encyclopedia，I couldn't tell what kind it was at all.<br> ,300201000,vc_10550100002_023_01,chara_2
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -363,7 +363,7 @@ asyncseplay,setag1_23,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,アリシア,肥料をあげて、お水も気を付けながらあげていたら<br>なんとか育ってくれたんですけど、枯れてしまわないか不安なんですよ～……,300201000,vc_10550100002_024_01,chara_2
+message,アリシア,I've been giving it fertilizer and watering it carefully，and it<br>managed to grow，but I'm worried it might wither and die...<br> ,300201000,vc_10550100002_024_01,chara_2
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -374,7 +374,7 @@ asyncseplay,setag1_24,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,リタ,なるほど……お力になれず、申し訳ございません……,105501000G,vc_10550100002_025_01,chara_1
+message,リタ,I see... I'm sorry I couldn't be of help...<br> ,105501000G,vc_10550100002_025_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -385,7 +385,7 @@ asyncseplay,setag1_25,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,リタ,ただ、蕾もつけていますし、元気そうです。<br>今のやり方で問題ないと思いますよ。,105501000G,vc_10550100002_026_01,chara_1
+message,リタ,However，it does have buds，and it looks healthy. I think what you're<br>doing is fine.<br> ,105501000G,vc_10550100002_026_01,chara_1
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -396,13 +396,13 @@ asyncseplay,setag1_26,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,アリシア,分かりました。このまま育ててみますね！,300201000,vc_10550100002_027_01,chara_2
+message,アリシア,Got it! I'll keep taking care of it like this!<br> ,300201000,vc_10550100002_027_01,chara_2
 
 asyncseplay,setag1_27,se4300003,0,1,CONT,0
 
-message,,――ガチャ。
+message,,—click.<br> 
 
-message,<user>,ん？　なんだお前たち、ここにいたのか。
+message,<user>,Hm? You two were here?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -413,7 +413,7 @@ asyncseplay,setag1_28,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,リタ,……！　司令官さま……！,105501000G,vc_10550100002_028_01,chara_1
+message,リタ,...! Lord Commander...!<br> ,105501000G,vc_10550100002_028_01,chara_1
 
 window,off
 wait,0.15
@@ -463,7 +463,7 @@ asynccharamove,chara_5,EaseOut,X,-100,0.3,CONT,0
 asyncwait
 
 window,on,0.15
-message,,<user>が入ってくると、数名の兵士たちがあとに続いた。
+message,,As %user% entered，several soldiers followed behind.<br> 
 
 asynccharaface,chara_3,FaceSurprise,CONT,0
 
@@ -474,9 +474,9 @@ asyncseplay,setag1_29,se4800022,0,1,CONT,0
 asynccharaemo,chara_3,Speak,CONT,0
 
 
-message,一般兵Ａ,場所を変えますか？,401101000,vc_10550100002_029_01,chara_3
+message,一般兵Ａ,Shall we move to another location?<br> ,401101000,vc_10550100002_029_01,chara_3
 
-message,<user>,構わん。リタ、悪いが出て行ってもらえるか。<br>アリシアを交えて少し話がある。部外者は立ち入り禁止だ。
+message,<user>,No need. Rita，sorry，but could you step out? I have something to<br>discuss with Alicia. No outsiders allowed.<br> 
 
 window,off
 wait,0.15
@@ -526,7 +526,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,リタ,まぁっ！　わざわざ嫌な言い方を……！<br>言われなくても、出て行きますわよ！,105501000G,vc_10550100002_030_01,chara_1
+message,リタ,Well! You had to say it so rudely...! I would have left without<br>being told!<br> ,105501000G,vc_10550100002_030_01,chara_1
 
 window,off
 wait,0.15
@@ -580,7 +580,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,アリシア,ご、ごめんなさい、リタさん。,300201000,vc_10550100002_031_01,chara_2
+message,アリシア,I-I'm sorry，Rita.<br> ,300201000,vc_10550100002_031_01,chara_2
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -592,7 +592,7 @@ asyncseplay,setag1_32,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,リタ,いえ。アリシアさんが悪いわけではありません。<br>失礼しますね。,105501000G,vc_10550100002_032_01,chara_1
+message,リタ,No，it's not your fault，Alicia. I'll take my leave.<br> ,105501000G,vc_10550100002_032_01,chara_1
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -603,7 +603,7 @@ asyncseplay,setag1_33,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,アリシア,あとで宿の手配をしますから、基地内で待っていてください～！,300201000,vc_10550100002_033_01,chara_2
+message,アリシア,I'll arrange a place for you to stay later，so please wait inside the<br>Forward Base!<br> ,300201000,vc_10550100002_033_01,chara_2
 
 
 
@@ -656,9 +656,9 @@ asynccharaemo,chara_1,BePeevish,CONT,0
 
 
 window,on,0.15
-message,リタ,本当にもう！　嫌味な人！,105501000G,vc_10550100002_034_01,chara_1
+message,リタ,I can't believe him! What a spiteful man!<br> ,105501000G,vc_10550100002_034_01,chara_1
 
-message,,しばらくは<user>への怒りを抱えていたリタだったが、<br>落ち着いたあとは、先ほど見た花のことを考え始める。
+message,,Rita had been holding onto her anger at the Commander，but once she<br>calmed down，she began to think about the flower she had seen earlier.<br> 
 
 window,off
 wait,0.15
@@ -702,7 +702,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,リタ,アリシアさんが分からないって言っていたお花……<br>あれ、最近できた品種なのでしょうか……？,105501000G,vc_10550100002_035_01,chara_1
+message,リタ,That flower Alicia said she didn't recognize... I wonder if it's a<br>recently developed variety?<br> ,105501000G,vc_10550100002_035_01,chara_1
 
 window,off
 wait,0.15
@@ -721,7 +721,7 @@ wait,0.5
 
 
 window,on,0.15
-message,リタ,外見はナイトシェイドリリーに似ていたけど、色も違ったし、<br>あれは砂漠でしか育たないはず……,105501000G,vc_10550100002_036_01,chara_1
+message,リタ,Its appearance was similar to a Nightshade Lily，but the color was<br>different，and that species should only grow in the desert...<br> ,105501000G,vc_10550100002_036_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -733,7 +733,7 @@ asyncseplay,setag1_37,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,リタ,そもそもナイトシェイドリリーは、毒のある瘴気を吐き出すから、<br>観賞用には向いてないわ。何かの間違いよね。,105501000G,vc_10550100002_037_01,chara_1
+message,リタ,Besides，Nightshade Lilies emit poisonous miasma，so they're not fit<br>for ornamental purposes. It must be some kind of mistake.<br> ,105501000G,vc_10550100002_037_01,chara_1
 
 window,off
 wait,0.15
@@ -775,7 +775,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,リタ,……あら？,105501000G,vc_10550100002_038_01,chara_1
+message,リタ,...Oh?<br> ,105501000G,vc_10550100002_038_01,chara_1
 
 window,off
 wait,0.15
@@ -797,7 +797,7 @@ asynccharamove,chara_1,Linear,Y,-80,0.5,CONT,0
 asyncwait
 
 window,on,0.15
-message,,リタは視界の端に花の蕾を見つけて足を止めた。<br>近付いて、形状をよく見る。
+message,,Rita noticed a flower bud in the corner of her vision and stopped.<br>She approached and examined its shape closely.<br> 
 
 window,off
 wait,0.15
@@ -814,7 +814,7 @@ wait,0.5
 
 
 window,on,0.15
-message,リタ,……アリシアさんが育てていたお花と、同じ蕾。<br>よく見たら、たくさん生えているわね。,105501000G,vc_10550100002_039_01,chara_1
+message,リタ,...It's the same bud as the flower Alicia was growing. Now that I<br>look，there are a lot of them，aren't there?<br> ,105501000G,vc_10550100002_039_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -826,7 +826,7 @@ asyncseplay,setag1_40,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,リタ,これが全部ナイトシェイドリリーで、<br>すべてが瘴気を吐き出したら――大事件よね。ふふっ。,105501000G,vc_10550100002_040_01,chara_1
+message,リタ,If these are all Nightshade Lilies，and they all release miasma...<br>that would be a disaster. Fufu.<br> ,105501000G,vc_10550100002_040_01,chara_1
 
 window,off
 wait,0.15
@@ -840,7 +840,7 @@ asynccharamove,chara_1,Linear,Y,80,0.5,CONT,0
 asyncwait
 
 window,on,0.15
-message,,リタは立ち上がり、再び歩き出そうとした。<br>……しかし、胸に立ちのぼった不安が黒い霧のように広がり、落ち着かない。
+message,,Rita stood and tried to walk on. ...But the anxiety surged in her<br>chest，spreading like black fog and leaving her unable to relax.<br> 
 
 bgmstop,bgmtag1_1,1,0
 
@@ -886,7 +886,7 @@ wait,0.5
 
 
 window,on,0.15
-message,リタ,……もしも、本当にそうだったら？,105501000G,vc_10550100002_041_01,chara_1
+message,リタ,...What if it really is that?<br> ,105501000G,vc_10550100002_041_01,chara_1
 
 bgmplay,bgmtag1_2,bgm0041,0.75,1
 
@@ -899,7 +899,7 @@ asyncseplay,setag1_42,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,リタ,アリシアさんに種を渡したのは、本当に行商人だったの……？,105501000G,vc_10550100002_042_01,chara_1
+message,リタ,Was the one who gave Alicia the seeds really a traveling<br>merchant...?<br> ,105501000G,vc_10550100002_042_01,chara_1
 
 window,off
 wait,0.15
@@ -918,11 +918,11 @@ wait,0.5
 
 
 window,on,0.15
-message,リタ,司令官さまのおそば――ううん、前線基地の中枢の近くで<br>瘴気を吐き出す花を育てさせるのが目的だったら……？,105501000G,vc_10550100002_043_01,chara_1
+message,リタ,What if the aim was to cultivate miasma-emitting flowers near the<br>Lord Commander—no，near the core of the Frontline Base...?<br> ,105501000G,vc_10550100002_043_01,chara_1
 
-message,,前線基地へ来ることを反対したリタの父は言っていた。<br>『前線基地には利権が集まり、色々な人が狙っている』
+message,,Rita's father，who opposed her coming to the Frontline Base，had<br>said，'The Frontline Base attracts interests and various people target it.'<br> 
 
-message,,『司令官も命を狙われているって噂だ。危険だよ！！！』<br>……と。
+message,,'And there are rumors the Commander's life is targeted too. It's<br>dangerous!' ...he'd said.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -933,7 +933,7 @@ asyncseplay,setag1_44,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,リタ,伝えなきゃ……妄想だって、また叱られるかも、だけど……！,105501000G,vc_10550100002_044_01,chara_1
+message,リタ,I have to tell them... Even if I get scolded for being paranoid<br>again...!<br> ,105501000G,vc_10550100002_044_01,chara_1
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -942,7 +942,7 @@ asyncseplay,setag1_45,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,リタ,アリシアさんが危ない！　それに、司令官さまだって……<br>どんな方でも、失っていい命なんて、ありません！,105501000G,vc_10550100002_045_01,chara_1
+message,リタ,Alicia is in danger! And the Lord Commander too... No one's life is<br>worth losing，no matter who they are!<br> ,105501000G,vc_10550100002_045_01,chara_1
 
 window,off
 wait,0.15
@@ -999,9 +999,9 @@ asyncjump,CHARA,chara_3,-30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,一般兵Ａ,……というわけで、どうも不穏な動きが見られます。<br>しばらくは警戒したほうがよろしいかと。,401101000,vc_10550100002_046_01,chara_3
+message,一般兵Ａ,...That being the case，we've spotted some suspicious movements. I<br>believe it would be wise to be on guard for the time being.<br> ,401101000,vc_10550100002_046_01,chara_3
 
-message,<user>,やれやれ。最近は命を狙われてばかりだな。<br>そういう意味では、割に合わん仕事だ。
+message,<user>,Good grief. People have been after me a lot lately. In that<br>sense，this job isn't worth the trouble.<br> 
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -1012,9 +1012,9 @@ asyncseplay,setag1_46,se4800006,0,1,CONT,0
 asynccharaemo,chara_2,Trouble,CONT,0
 
 
-message,アリシア,……うーん？,300201000,vc_10550100002_047_01,chara_2
+message,アリシア,...Hmm?<br> ,300201000,vc_10550100002_047_01,chara_2
 
-message,<user>,どうした、アリシア。
+message,<user>,What's wrong，Alicia?<br> 
 
 asyncshake,CHARA,chara_2,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -1023,9 +1023,9 @@ asyncseplay,setag1_47,se4800009,0,1,CONT,0
 asynccharaemo,chara_2,Question,CONT,0
 
 
-message,アリシア,……なんだか妙な香りがしませんか？<br>何かが腐ったときみたいな……,300201000,vc_10550100002_048_01,chara_2
+message,アリシア,...Doesn't it smell a bit strange? Like something rotting...<br> ,300201000,vc_10550100002_048_01,chara_2
 
-message,<user>,……んん？　言われてみれば、確かに。
+message,<user>,...Hmm? Now that you mention it，I do.<br> 
 
 window,off
 wait,0.15
@@ -1049,7 +1049,7 @@ emodelete,chara_2,0,0
 fade,In,Black,0
 
 window,on,0.15
-message,？？？,……,402001000
+message,？？？,...<br> ,402001000
 
 window,off
 wait,0.15
@@ -1071,7 +1071,7 @@ transitionFade,Tra02,in,black,0.5
 asyncseplay,setag1_48,se4300003,0,1,CONT,0
 
 window,on,0.15
-message,,――バタン！
+message,,—bam!<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1094,9 +1094,9 @@ asyncseplay,setag1_49,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,リタ,失礼します！,105501000G,vc_10550100002_049_01,chara_1
+message,リタ,Excuse me!<br> ,105501000G,vc_10550100002_049_01,chara_1
 
-message,<user>,……またお前か。<br>そんなに慌ててどうした？
+message,<user>,...You again? What's with the rush?<br> 
 
 window,off
 wait,0.15
@@ -1150,7 +1150,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,リタ,花が……はぁっ、はぁっ……,105501000G,vc_10550100002_050_01,chara_1
+message,リタ,The flower... *pant，pant*...<br> ,105501000G,vc_10550100002_050_01,chara_1
 
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
@@ -1159,7 +1159,7 @@ asyncseplay,setag1_51,se4800009,0,1,CONT,0
 asynccharaemo,chara_2,Question,CONT,0
 
 
-message,アリシア,花……？,300201000,vc_10550100002_051_01,chara_2
+message,アリシア,The flower...?<br> ,300201000,vc_10550100002_051_01,chara_2
 
 window,off
 wait,0.15
@@ -1207,7 +1207,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,リタ,窓際の！,105501000G,vc_10550100002_052_01,chara_1
+message,リタ,The one by the window!<br> ,105501000G,vc_10550100002_052_01,chara_1
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -1251,7 +1251,7 @@ asyncmove,BACK,,0,0,0,Set,CONT
 transitionFade,Tra20,in,white,0
 
 window,on,0.15
-message,,リタが叫んだ瞬間、窓際に咲いていた例の花が大きく膨れ上がった。
+message,,The moment Rita cried out，the flower on the windowsill swelled up.<br> 
 
 window,off
 wait,0.15
@@ -1283,7 +1283,7 @@ asyncwait
 
 
 window,on,0.15
-message,モンスター,グアアァァァアアっ！！！,402001000,,chara_6
+message,モンスター,*guaaaaaagh*!<br> ,402001000,,chara_6
 
 window,off
 wait,0.15
@@ -1297,7 +1297,7 @@ linework,off,Black,Middle
 bgmplay,bgmtag1_3,bgm0028,0.75,1
 
 window,on,0.15
-message,<user>,な、何ぃっ！？
+message,<user>,Wha-What!<br> 
 
 window,off
 wait,0.15
@@ -1349,7 +1349,7 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,アリシア,嘘！？,300201000,vc_10550100002_053_01,chara_2
+message,アリシア,No way!<br> ,300201000,vc_10550100002_053_01,chara_2
 
 window,off
 wait,0.15
@@ -1397,7 +1397,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,リタ,司令官さま、離れてぇぇっ！,105501000G,vc_10550100002_054_01,chara_1
+message,リタ,Lord Commander，get back!<br> ,105501000G,vc_10550100002_054_01,chara_1
 
 window,off
 wait,0.15
@@ -1435,7 +1435,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,,リタが叫ぶと同時に、モンスターは一番近くにいた<br><user>に攻撃を放っていた。
+message,,The moment Rita screamed，the monster lunged at %user%，who was<br>closest.<br> 
 
 window,off
 wait,0.15
@@ -1465,7 +1465,7 @@ prefabshowUI,uieffect_1
 prefabshowUI,uieffect_2
 
 window,on,0.15
-message,<user>,うおっ！？
+message,<user>,Whoa!<br> 
 
 cleanall,EFFECT
 
@@ -1515,9 +1515,9 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,アリシア,司令官、大丈夫ですか！？,300201000,vc_10550100002_055_01,chara_2
+message,アリシア,Commander，are you alright?<br> ,300201000,vc_10550100002_055_01,chara_2
 
-message,<user>,ど、どうにかな……<br>あいつのおかげで、ギリギリ……
+message,<user>,I-I just barely made it... thanks to her...<br> 
 
 window,off
 wait,0.15
@@ -1552,7 +1552,7 @@ transitionCrossFade,Tra02,1
 wait,1
 
 window,on,0.15
-message,,<user>はリタに視線を送るが、<br>リタは悪い想像が現実になったことに動揺を隠せない。
+message,,The Commander glanced at Rita，but she couldn't hide her shock that<br>her worst fears had come true.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1561,7 +1561,7 @@ asyncseplay,setag1_58,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,リタ,あ、あぁっ……なんてこと……,105501000G,vc_10550100002_056_01,chara_1
+message,リタ,Ah... oh no...<br> ,105501000G,vc_10550100002_056_01,chara_1
 
 window,off
 wait,0.15
@@ -1605,7 +1605,7 @@ prefabshowAll,alleffect_0,Roar/Prefabs/NovelEF_Roar
 asyncwait
 
 window,on,0.15
-message,,――夜の司令室。まんまと前線基地の中枢へ入り込んだモンスターは<br>雄々しく、叫び声を上げるのだった。
+message,,—At night in the command room，the monster that infiltrated the<br>Frontline Base let out a triumphant roar.<br> 
 
 window,off
 bgmstop,bgmtag1_3,0.5

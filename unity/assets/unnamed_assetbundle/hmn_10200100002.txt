@@ -156,12 +156,12 @@ asynccharaface,chara_1,FaceNormal,STOP,3
 asynccharaface,chara_1,EyeOpen,STOP,5
 asynccharaface,chara_1,FaceNormal,STOP,5
 
-message,ラヴェリア,明日も明後日もか……<br>まぁいい。しばらく前線基地に滞在させてもらうよ。,,vc_10200100002_011_01
+message,ラヴェリア,Tomorrow and the day after too，huh? Well，fine. I'll be staying at<br>the Frontline Base for a while.<br> ,,vc_10200100002_011_01
 
-message,<user>,そうこないとな！　ホント助かる！
+message,<user>,That's the spirit! You're a huge help!<br> 
 
 charaface,chara_1,FaceFun
-message,ラヴェリア,まったく、人使いの荒い司令官だな、兄さんは。<br>今日はこれで失礼するよ。お疲れ様！,,vc_10200100002_012_01
+message,ラヴェリア,Honestly，you're a real hard taskmaster，Brother. I'll head out for<br>today. Good work!<br> ,,vc_10200100002_012_01
 
 window,off
 wait,0.15
@@ -173,7 +173,7 @@ asynccharahide,chara_1,0.3,STOP,0
 asynccharamove,chara_1,LinearTarget,X,100,0.3,STOP
 
 window,on,0.15
-message,<user>,よし、これで事務のできる人員を１人確保だ。<br>なんとかこの状況を乗り切れそうだ。
+message,<user>,Alright，that's one more person who can handle office work. I think<br>we can get through this now.<br> 
 
 window,off
 wait,0.15
@@ -190,23 +190,23 @@ asyncseplay,setag1_11,se4800016,0,1,CONT
 asynccharareaction,chara_2,Jump,1,STOP,0.6
 asynccharaemo,chara_2,BePeevish,STOP,0.6
 window,on,0.15
-message,アリシア,もう、司令官。<br>ラヴェリアさんも忙しいでしょうに、無理強いは駄目ですよ。,,vc_10200100002_013_01
+message,アリシア,Oh，Commander. Laveria is busy too，you know. You shouldn't push her<br>too hard.<br> ,,vc_10200100002_013_01
 
-message,<user>,ちゃんと報酬も払ってるから無理強いではないだろ？
+message,<user>,I'm paying her properly，so it's not like I'm forcing her，right?<br> 
 
-message,<user>,それにラヴェリアは金なんて払わなくても手伝ってくれたさ。<br>本当に頼りになる。
+message,<user>,Besides，Laveria would help even without pay. She's really reliable.<br> 
 
 charaface,chara_2,FaceHappy
 
 asynccharareaction,chara_2,Nod,1,STOP
-message,アリシア,はい、ラヴェリアさんのおかげで助かりました。<br>戦場では強くて頼れて、事務仕事も有能なんて……。,,vc_10200100002_014_01
+message,アリシア,Yes，we're really grateful to Laveria. She's strong and dependable on<br>the battlefield，and also great at paperwork...<br> ,,vc_10200100002_014_01
 
-message,<user>,ラヴェリアがあと５人ぐらい欲しいところだ。<br>日替わりで司令室に待機させたい。
+message,<user>,I could use about five more Laverias. I'd have them take turns in<br>the command room.<br> 
 
 charaface,chara_2,FaceSad
 
 asynccharareaction,chara_2,Shake,1,STOP
-message,アリシア,うう、それだとわたしがいらなくなっちゃうじゃないですかぁ～……,,vc_10200100002_015_01
+message,アリシア,Aww，then I'd become unnecessary...<br> ,,vc_10200100002_015_01
 
 
 window,off
@@ -265,12 +265,12 @@ asyncseplay,setag1_13,se4800004,0,1,CONT
 asynccharareaction,chara_2,Nod,1,STOP
 asynccharaemo,chara_2,Laugh,STOP
 window,on,0.15
-message,アリシア,ラヴェリアさん、今日もお手伝いありがとうございます。,,vc_10200100002_016_01
+message,アリシア,Laveria，thank you for helping again today.<br> ,,vc_10200100002_016_01
 
 charaface,chara_1,FaceFun
-message,ラヴェリア,兄さんと約束したからね。<br>暇もあるし、手伝いぐらいはするよ。,,vc_10200100002_017_01
+message,ラヴェリア,I promised Brother. And I have free time，so helping out is no<br>problem.<br> ,,vc_10200100002_017_01
 
-message,<user>,ラヴェリアのおかげで徹夜作業は免れそうだ。<br>今日もお願いします！　強くて事務処理も出来て美人のラヴェリア様！
+message,<user>,Thanks to you，Laveria，we might avoid night work. I'm counting on you<br>today too! The strong，office-savvy，beautiful Lady Laveria!<br> 
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
@@ -281,35 +281,35 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
 asynccharaface,chara_1,FaceFun,STOP,2.5
-message,ラヴェリア,変なお世辞はよしてくれ。<br>ほら、さっさと次の書類を渡してくれ。,,vc_10200100002_018_01
+message,ラヴェリア,Stop with the weird flattery. Come on，just give me the next file.<br> ,,vc_10200100002_018_01
 
-message,<user>,ああ、任せたぞラヴェリア。
+message,<user>,Alright，I'm counting on you，Laveria.<br> 
 
 charaface,chara_2,FaceSad
 
 asyncseplay,setag1_15,se4800014,0,1,CONT
 
 asynccharaemo,chara_2,Silence,STOP
-message,アリシア,……いいなあ。,,vc_10200100002_019_01
+message,アリシア,Lucky...<br> ,,vc_10200100002_019_01
 
 asyncseplay,setag1_16,se4800009,0,1,CONT
 
 asynccharaemo,chara_1,Question,STOP
-message,ラヴェリア,うん？<br>どうかしたか、アリシア？,,vc_10200100002_020_01
+message,ラヴェリア,Hm? Something wrong，Alicia?<br> ,,vc_10200100002_020_01
 
 charaface,chara_2,FaceUnique06
 
 asyncseplay,setag1_17,se4800003,0,1,CONT
 
 asynccharaemo,chara_2,Twinkle,STOP
-message,アリシア,強くて格好よくて、司令官にも頼られて……。<br>ラヴェリアさんはすごいなって思ってたんです！,,vc_10200100002_021_01
+message,アリシア,You're strong，cool，and the Commander depends on you... I've always<br>thought you're incredible，Laveria!<br> ,,vc_10200100002_021_01
 
 
 charaface,chara_1,FaceFun
 
 asynccharaface,chara_1,EyeOpen,STOP,3.5
 asynccharaface,chara_1,FaceNormal,STOP,3.5
-message,ラヴェリア,はは、すごくなんてない。<br>やれることが少し多いだけだ。,,vc_10200100002_022_01
+message,ラヴェリア,Haha，I'm not that great. I just happen to be good at a few things.<br> ,,vc_10200100002_022_01
 
 charaface,chara_1,FaceSad
 
@@ -322,16 +322,16 @@ asynccharaface,chara_1,FaceNormal,STOP,2
 
 asynccharaface,chara_1,EyeClose,STOP,5.1
 asynccharaface,chara_1,FaceNormal,STOP,5.1
-message,ラヴェリア,苦手なものだってたくさんある。<br>この前も戦っている内に熱くなって、つい前に出てしまっただろう。,,vc_10200100002_023_01
+message,ラヴェリア,I've got plenty of weak points too. The other day，I got carried away<br>during a fight and rushed in too far，right?<br> ,,vc_10200100002_023_01
 
 charaface,chara_2,FaceSad
-message,アリシア,そんなの欠点に入りませんよっ！<br>わたしもラヴェリアさんみたいになれたら……。,,vc_10200100002_024_01
+message,アリシア,That's not a flaw at all! I wish I could become like you，Miss<br>Laveria...<br> ,,vc_10200100002_024_01
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
 
 asynccharaface,chara_1,FaceUnique01,STOP,2.3
-message,ラヴェリア,アリシアはそのままでいい。<br>兄さんの横にはアリシアみたいな子が必要なんだ。,,vc_10200100002_025_01
+message,ラヴェリア,You're fine as you are. Brother needs someone like you by his side.<br> ,,vc_10200100002_025_01
 
 
 charaface,chara_2,FaceSurprise
@@ -340,12 +340,12 @@ asyncseplay,setag1_19,se4800010,0,1,CONT
 
 asynccharareaction,chara_2,Jump,1,STOP
 asynccharaemo,chara_2,Exclamation,STOP
-message,アリシア,えっ……そう、ですか？,,vc_10200100002_026_01
+message,アリシア,Huh... is that right?<br> ,,vc_10200100002_026_01
 
 charaface,chara_1,FaceFun
 
 asynccharareaction,chara_1,Nod,1,STOP
-message,ラヴェリア,ああ、アリシアがいるおかげで空気が和むんだ。<br>しかめっ面の兄さん１人じゃ指揮もやりにくいだろう。,,vc_10200100002_027_01
+message,ラヴェリア,Yeah，you help lighten the mood. It'd be hard to give orders with<br>just a frowning Brother around.<br> ,,vc_10200100002_027_01
 
 charaface,chara_2,FaceFun
 
@@ -353,14 +353,14 @@ asyncseplay,setag1_20,se4800004,0,1,CONT
 
 asynccharareaction,chara_2,Nod,1,STOP
 asynccharaemo,chara_2,Laugh,STOP
-message,アリシア,本当ですか？<br>司令官、わたしは役に立ってるんですねっ！,,vc_10200100002_028_01
+message,アリシア,Really? Commander，I am useful after all!<br> ,,vc_10200100002_028_01
 
-message,<user>,ああ、お前は役立っているさ。<br>なんていうか……前線基地のマスコット的な立ち位置というか……
+message,<user>,Yeah，you're useful. How to put it... you're kind of like the base's<br>mascot.<br> 
 
 charaface,chara_2,FaceSad
 
 asynccharareaction,chara_2,Shake,1,STOP
-message,アリシア,うう……マスコット……,,vc_10200100002_029_01
+message,アリシア,Ugh... a mascot...<br> ,,vc_10200100002_029_01
 
 
 charaface,chara_1,FaceHappy
@@ -371,30 +371,30 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Laugh,STOP
 
 asynccharaface,chara_1,FaceFun,STOP,1.6
-message,ラヴェリア,フフ……アリシアがかわいい存在だってことだよ。,,vc_10200100002_030_01
+message,ラヴェリア,Fufu... it means you're a cute presence，Alicia.<br> ,,vc_10200100002_030_01
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
-message,ラヴェリア,ちょっと聞きたいんだけど、さ。<br>兄さんはアタシに、どんなイメージを持ってる？,,vc_10200100002_031_01
+message,ラヴェリア,Hey，I want to ask you something. Brother，what kind of image do you<br>have of me?<br> ,,vc_10200100002_031_01
 
-message,<user>,ん？　俺から見たラヴェリアか？<br>そうだな……
+message,<user>,Hm? How I see you? Well...<br> 
 
-message,<user>,優れた戦闘力に、危機的状況でも安定したメンタル、<br>周囲からの信頼も厚い優秀な戦士。
+message,<user>,Excellent combat ability，a stable mind even in crisis，and a warrior<br>trusted by everyone around her.<br> 
 
-message,<user>,戦闘に集中する癖があり、指揮官としては今後に期待。<br>総じて言うなら、頼れる美女ってところだな。
+message,<user>,You have a habit of focusing on combat，so as a commander I look<br>forward to your growth. All in all，you're a reliable beauty.<br> 
 
 charaface,chara_1,FaceSad
 
 asyncseplay,setag1_22,se4800014,0,1,CONT
 
 asynccharaemo,chara_1,Silence,STOP
-message,ラヴェリア,頼れる、か。<br>ありがたい評価だな……。,,vc_10200100002_032_01
+message,ラヴェリア,Reliable，is it? That's quite a compliment...<br> ,,vc_10200100002_032_01
 
-message,<user>,それなりに高評価のつもりなんだが、<br>あんまりうれしそうじゃないな。
+message,<user>,I meant that as a high compliment，but you don't look very pleased.<br> 
 
 
 charaface,chara_1,FaceHappy
-message,ラヴェリア,いいや、気合が入ったところだ。<br>これからも兄さんにとって頼れる存在でいないと、ってな。,,vc_10200100002_033_01
+message,ラヴェリア,No，it's got me motivated. I need to stay reliable for you，Brother.<br> ,,vc_10200100002_033_01
 
 charaface,chara_2,FaceSad
 
@@ -404,7 +404,7 @@ asynccharaemo,chara_2,Dull,STOP
 
 asynccharaface,chara_2,FaceFun,STOP,1
 
-message,アリシア,わたしも頼れる副司令官になりたいです……。<br>機会があったらもっとお話を聞かせてください！,,vc_10200100002_034_01
+message,アリシア,I want to become a reliable Deputy Commander too... If you have the<br>chance，please tell me more!<br> ,,vc_10200100002_034_01
 
 charaface,chara_2,FaceHappy
 
@@ -412,17 +412,17 @@ asyncseplay,setag1_24,se4800004,0,1,CONT
 
 asynccharareaction,chara_2,Nod,1,STOP
 asynccharaemo,chara_2,Laugh,STOP
-message,アリシア,あ、今度ルクスノヴァの皆さんも一緒に、<br>街へ遊びに行くなんてどうですかっ？,,vc_10200100002_035_01
+message,アリシア,Ah，how about next time we all go into town together with everyone<br>from Lux Nova?<br> ,,vc_10200100002_035_01
 
 charaface,chara_1,FaceFun
 
 asynccharareaction,chara_1,Nod,1,STOP
-message,ラヴェリア,ああ、それは楽しみだ。<br>ぜひ誘ってほしい。,,vc_10200100002_036_01
+message,ラヴェリア,Yeah，that sounds fun. Please do invite me.<br> ,,vc_10200100002_036_01
 
 charaface,chara_2,FaceUnique01
 
 charareaction,chara_2,Nod,1
-message,アリシア,はい、必ず！<br>新しいお店が開店したそうなので、案内します！,,vc_10200100002_037_01
+message,アリシア,Yes，for sure! I hear a new store just opened，so I'll guide you<br>there!<br> ,,vc_10200100002_037_01
 
 
 asyncseplay,setag1_25,se4800014,0,1,CONT
@@ -432,7 +432,7 @@ charaemo,chara_1,Silence
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
 
-message,ラヴェリア,新しい店……。<br>どんな店ができたんだ？,,vc_10200100002_038_01,chara_1
+message,ラヴェリア,A new store... What kind of store is it?<br> ,,vc_10200100002_038_01,chara_1
 
 charaface,chara_2,FaceUnique07
 
@@ -440,7 +440,7 @@ asyncseplay,setag1_26,se4800013,0,1,CONT
 
 asynccharareaction,chara_2,Jump,1,STOP
 asynccharaemo,chara_2,Spirits,STOP
-message,アリシア,かわいいものがたくさんのお店なんです。<br>わたしも行くのを楽しみにしてます！,,vc_10200100002_039_01
+message,アリシア,It's a shop full of cute things. I'm looking forward to going too!<br> ,,vc_10200100002_039_01
 
 charaface,chara_1,FaceSurprise
 
@@ -448,16 +448,16 @@ asyncseplay,setag1_27,se4800010,0,1,CONT
 
 asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Exclamation,STOP
-message,ラヴェリア,……かわいいものがたくさんの、お店……！<br>そうか、あの店がついに……。,,vc_10200100002_040_01
+message,ラヴェリア,...A shop full of cute things...! So that store's finally...!<br> ,,vc_10200100002_040_01
 
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
-message,ラヴェリア,よしっ！　雑談に興じている場合じゃないな！<br>さあ、仕事に戻るぞ！,,vc_10200100002_041_01
+message,ラヴェリア,Alright! No time for small talk! Let's get back to work!<br> ,,vc_10200100002_041_01
 
 charaface,chara_2,EyeOpen
 charaface,chara_2,FaceNormal
-message,<user>,どうしたラヴェリア、急にやる気になって。
+message,<user>,What's up，Laveria? You're suddenly so motivated.<br> 
 
 window,off
 wait,0.15
@@ -481,11 +481,11 @@ linework,on,White,Light
 
 charaface,chara_1,FaceAnger
 window,on,0.15
-message,ラヴェリア,いいから口よりも手を動かせっ！<br>さっさと終わらせるんだ！,,vc_10200100002_042_01
+message,ラヴェリア,Less talk，more work! We're finishing this up fast!<br> ,,vc_10200100002_042_01
 
 linework,off,White,Light
 
-message,<user>,わ、分かった……<br>どうしたんだ。とんでもない気合だな……
+message,<user>,O-okay... What's gotten into you? That's some incredible<br>motivation...<br> 
 
 
 window,off
@@ -517,9 +517,9 @@ bgmplay,bgmtag1_3,bgm0035,0.5,1
 transitionFade,Tra02,in,black,0.5
 
 window,on,0.15
-message,<user>,はあ、やっと自由の身になったか。<br>ラヴェリアの手伝いがなかったらどうなってたことか……
+message,<user>,Ahh，finally free. Without Laveria's help，I don't know how things<br>would have turned out...<br> 
 
-message,<user>,ん……？　あそこにいるのは……。
+message,<user>,Hm...? That person over there is...<br> 
 
 window,off
 wait,0.15
@@ -541,9 +541,9 @@ asyncseplay,setag1_28,se4800014,0,1,CONT
 
 asynccharaemo,chara_1,Silence,STOP
 window,on,0.15
-message,ラヴェリア,……。,,vc_10200100002_043_01
+message,ラヴェリア,...<br> ,,vc_10200100002_043_01
 
-message,<user>,ラヴェリア、か。<br>妙に真剣な様子だが、何をしてるんだ、あいつ。
+message,<user>,Laveria，huh. She looks oddly serious... what's she up to?<br> 
 
 window,off
 wait,0.15
@@ -562,16 +562,16 @@ charamove,chara_1,EaseOutTarget,X,-200,0.3
 
 asynccharareaction,chara_1,Nod,1,STOP
 window,on,0.15
-message,ラヴェリア,よ、よし、誰も見てないね？<br>誰もアタシに気づいてない、よな……？,,vc_10200100002_044_01
+message,ラヴェリア,O-okay，no one's watching，right? No one's noticed me，right...?<br> ,,vc_10200100002_044_01
 
-message,<user>,なんだか辺りを気にしてるみたいだな。<br>しかし警戒しているというよりは、浮足立っているようにも見えるが……。
+message,<user>,She seems to be looking around nervously... But more than being on<br>guard，she looks giddy...<br> 
 
 charaface,chara_1,FaceShy
 
 asyncseplay,setag1_29,se4800014,0,1,CONT
 
 asynccharaemo,chara_1,Silence,STOP
-message,ラヴェリア,いいのか、本当に……でも……。<br>１回だけ、ちょっとだけだから……！,,vc_10200100002_045_01
+message,ラヴェリア,Is it really okay...? But... Just once，just a little...!<br> ,,vc_10200100002_045_01
 
 window,off
 wait,0.15
@@ -589,18 +589,18 @@ wait,0.3
 charamove,chara_1,EaseOutTarget,X,-100,0.3
 
 window,on,0.15
-message,<user>,あちこち見回しながらコソコソと歩いていく……。<br>怪しい、あまりにも露骨に怪しいっ！
+message,<user>,She's sneaking along while glancing around... Suspicious，way too<br>obviously suspicious!<br> 
 
-message,<user>,こんな街中で何をする気なんだ、ラヴェリア……？
+message,<user>,What's Laveria planning to do in the middle of town...?<br> 
 
-message,<user>,……追ってみるか。<br>何か厄介事なら、放ってはおけないし、な。
+message,<user>,...Should I follow? If she's in trouble，I can't just leave her<br>alone.<br> 
 
 charaface,chara_1,FaceHappy
 
 asyncseplay,setag1_30,se4800003,6,1,CONT
 
 asynccharaemo,chara_1,Twinkle,STOP,6
-message,ラヴェリア,さ、さあ行くよ、決戦の地へ……！<br>ふふ、ふふふふふっ！,,vc_10200100002_046_01
+message,ラヴェリア,A-alright，let's go to the decisive battlefield...! Fufu，fufufufufu!<br> ,,vc_10200100002_046_01
 
 window,off
 bgmstop,bgmtag1_3,0.5

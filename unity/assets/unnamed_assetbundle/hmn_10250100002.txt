@@ -586,7 +586,7 @@ asyncseplay,setag1_22,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ウェンディ,We're not connected by blood，only by looks，<br>but my father is my father!<br> ,,vc_10250100002_021_01,chara_1
+message,ウェンディ,We may not be related by blood，only in looks，but my father's my<br>father!<br> ,,vc_10250100002_021_01,chara_1
 
 window,off
 wait,0.15
@@ -643,7 +643,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ベリサ,......<br> ,,vc_10250100002_022_01,chara_2
+message,ベリサ,...<br> ,,vc_10250100002_022_01,chara_2
 
 window,off
 wait,0.15
@@ -660,7 +660,7 @@ asynccharaemo,chara_3,Silence,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,Onee-chan. If you feel even a little bad，<br>don't you think you should apologize?<br> ,,vc_10250100002_023_01,chara_3
+message,ヴィーラ,Sis，if you think you did something wrong，you should apologize.<br> ,,vc_10250100002_023_01,chara_3
 
 asyncshake,CHARA,chara_2,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -669,7 +669,7 @@ asyncseplay,setag1_25,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,ベリサ,I-I know that，okay.<br> ,,vc_10250100002_024_01,chara_2
+message,ベリサ,I-I know that!<br> ,,vc_10250100002_024_01,chara_2
 
 window,off
 wait,0.15
@@ -734,7 +734,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ベリサ,Um，so... I'm sorry，okay?<br>For calling your father a pervert...<br> ,,vc_10250100002_025_01,chara_2
+message,ベリサ,Um，well... sorry for calling your dad a pervert...<br> ,,vc_10250100002_025_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -756,7 +756,7 @@ asyncseplay,setag1_28,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ベリサ,Huh? Uh，well...!<br>It means someone like Onii-san.<br> ,,vc_10250100002_027_01,chara_2
+message,ベリサ,Huh? Well... it means someone like Mister.<br> ,,vc_10250100002_027_01,chara_2
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -767,7 +767,7 @@ asyncseplay,setag1_29,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ウェンディ,I see... So it means a really wonderful person!<br>Why apologize when you're giving a compliment?<br> ,,vc_10250100002_028_01,chara_1
+message,ウェンディ,I see... so it means a really impressive person! Why are you<br>apologizing when you're complimenting him?<br> ,,vc_10250100002_028_01,chara_1
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -778,7 +778,7 @@ asyncseplay,setag1_30,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ベリサ,Th-that's not what it means...<br>Ahahah，let's just forget this~♡<br> ,,vc_10250100002_029_01,chara_2
+message,ベリサ,Th-that's not what it means... Ahaha，forget about this!♡<br> ,,vc_10250100002_029_01,chara_2
 
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
@@ -787,7 +787,7 @@ asyncseplay,setag1_31,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,ベリサ,More importantly，are we still not there yet...?<br> ,,vc_10250100002_030_01,chara_2
+message,ベリサ,Anyway，aren't we at the spot where the ore is yet...?<br> ,,vc_10250100002_030_01,chara_2
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -796,7 +796,7 @@ asyncseplay,setag1_32,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ウェンディ,We're almost there.<br>By the way，what are you using that ore for?<br> ,,vc_10250100002_031_01,chara_1
+message,ウェンディ,We're almost there. By the way，what are you going to use that ore<br>for?<br> ,,vc_10250100002_031_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -807,7 +807,7 @@ asyncseplay,setag1_33,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ウェンディ,You mentioned a magic experiment...<br> ,,vc_10250100002_032_01,chara_1
+message,ウェンディ,You mentioned it was for experimental magic...<br> ,,vc_10250100002_032_01,chara_1
 
 window,off
 wait,0.15
@@ -855,7 +855,7 @@ asynccharaemo,chara_2,Spirits,CONT,0
 
 
 window,on,0.15
-message,ベリサ,That's right! I'm gonna use it for something amazing~♪<br> ,,vc_10250100002_033_01,chara_2
+message,ベリサ,That's right! I'm planning to use it for something amazing!♪<br> ,,vc_10250100002_033_01,chara_2
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -878,7 +878,7 @@ asyncseplay,setag1_36,se4800019,0,1,CONT,0
 asynccharaemo,chara_2,Elated,CONT,0
 
 
-message,ベリサ,I'm gonna make my magic even stronger<br>and blow Onii-san's mind!<br> ,,vc_10250100002_035_01,chara_2
+message,ベリサ,I'm going to make my magic even stronger and surprise Mister!<br> ,,vc_10250100002_035_01,chara_2
 
 asynccharaface,chara_2,FaceUnique02,CONT,0
 
@@ -889,7 +889,7 @@ asyncseplay,setag1_37,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,ベリサ,Then he won't be able to mouth off<br>to me anymore~♪<br> ,,vc_10250100002_036_01,chara_2
+message,ベリサ,Then he won't be able to talk back to me anymore!♪<br> ,,vc_10250100002_036_01,chara_2
 
 window,off
 wait,0.15
@@ -942,7 +942,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,Mouth off...?<br> ,,vc_10250100002_037_01,chara_1
+message,ウェンディ,Talk back...?<br> ,,vc_10250100002_037_01,chara_1
 
 asynccharaface,chara_3,FaceHappy,CONT,0
 
@@ -953,7 +953,7 @@ asyncseplay,setag1_39,se4800014,0,1,CONT,0
 asynccharaemo,chara_3,Silence,CONT,0
 
 
-message,ヴィーラ,Onee-chan loves Commander-sama so much she<br>can't help teasing him... and gets scolded a lot.<br> ,,vc_10250100002_038_01,chara_3
+message,ヴィーラ,Sis really likes the Commander，so she ends up teasing him，and he<br>often scolds her.<br> ,,vc_10250100002_038_01,chara_3
 
 asynccharaface,chara_3,FaceUnique01,CONT,0
 
@@ -964,7 +964,7 @@ asyncseplay,setag1_40,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,ヴィーラ,She should just be honest about her feelings.<br>But this side of her is cute too，don't you think?<br> ,,vc_10250100002_039_01,chara_3
+message,ヴィーラ,She should just honestly say she likes him. But that side of her is<br>cute too，don't you think?<br> ,,vc_10250100002_039_01,chara_3
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -975,7 +975,7 @@ asyncseplay,setag1_41,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ウェンディ,U-umm... you think so?<br> ,,vc_10250100002_040_01,chara_1
+message,ウェンディ,U-umm... I'm not sure.<br> ,,vc_10250100002_040_01,chara_1
 
 window,off
 wait,0.15
@@ -1023,7 +1023,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ウェンディ,Oh，um... we're here!<br>This is the ore mining site.<br> ,,vc_10250100002_041_01,chara_1
+message,ウェンディ,Ah，um... we've arrived!<br>This is the ore mining site.<br> ,,vc_10250100002_041_01,chara_1
 
 window,off
 wait,0.15
@@ -1097,7 +1097,7 @@ asynccharaemo,chara_2,Question,STOP,3.75
 
 
 window,on,0.15
-message,ベリサ,Whoa，rocks everywhere~.<br>So，where exactly is it?<br> ,,vc_10250100002_042_01,chara_2
+message,ベリサ,Whoa，so many rocks...<br>So，where is it in all this?<br> ,,vc_10250100002_042_01,chara_2
 
 window,off
 wait,0.15
@@ -1147,7 +1147,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,Somewhere around here!<br> ,,vc_10250100002_043_01,chara_1
+message,ウェンディ,It's somewhere around here!<br> ,,vc_10250100002_043_01,chara_1
 
 window,off
 wait,0.15
@@ -1201,7 +1201,7 @@ asynccharaemo,chara_2,Shock,CONT,0
 
 
 window,on,0.15
-message,ベリサ,Huh? <br> ,,vc_10250100002_044_01,chara_2
+message,ベリサ,Huh?<br> ,,vc_10250100002_044_01,chara_2
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -1212,7 +1212,7 @@ asyncseplay,setag1_47,se4800009,0,1,CONT,0
 asynccharaemo,chara_2,Question,CONT,0
 
 
-message,ベリサ,Wh-what do you mean~?<br>I asked where it is，y'know~...?<br> ,,vc_10250100002_045_01,chara_2
+message,ベリサ,Wh-what do you mean?<br>I asked where it is，you know...?<br> ,,vc_10250100002_045_01,chara_2
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1224,7 +1224,7 @@ asyncseplay,setag1_48,se4800005,0,1,CONT,0
 asynccharaemo,chara_1,Flash,CONT,0
 
 
-message,ウェンディ,It's a rare ore，so all I can say is<br>it might be somewhere around here!<br> ,,vc_10250100002_046_01,chara_1
+message,ウェンディ,Because it's a rare ore，I can only say it might be somewhere around<br>here!<br> ,,vc_10250100002_046_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1235,7 +1235,7 @@ asyncseplay,setag1_49,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ウェンディ,We might not find it even after digging.<br>But let's all do our best and dig anyway!<br> ,,vc_10250100002_047_01,chara_1
+message,ウェンディ,We might not find it even if we dig.<br>But let's all do our best and dig together!<br> ,,vc_10250100002_047_01,chara_1
 
 asyncshake,CHARA,chara_2,20,15,0.5,6,on,off,0,off,CONT,0
 
@@ -1244,7 +1244,7 @@ asyncseplay,setag1_50,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ベリサ,No way... wh-what a pain!<br> ,,vc_10250100002_048_01,chara_2
+message,ベリサ,No way... so，so annoying!<br> ,,vc_10250100002_048_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1255,7 +1255,7 @@ asyncseplay,setag1_51,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ウェンディ,Huh!? Wh-what's gotten into you all of a sudden?<br> ,,vc_10250100002_049_01,chara_1
+message,ウェンディ,Huh? W-what's wrong all of a sudden?<br> ,,vc_10250100002_049_01,chara_1
 
 asyncjump,CHARA,chara_2,-30.6,0.5,1,off,0,CONT
 
@@ -1264,7 +1264,7 @@ asyncseplay,setag1_52,se4800006,0,1,CONT,0
 asynccharaemo,chara_2,Trouble,CONT,0
 
 
-message,ベリサ,Sigh... Maybe I'll just go home.<br> ,,vc_10250100002_050_01,chara_2
+message,ベリサ,*sigh*... maybe I'll go home.<br> ,,vc_10250100002_050_01,chara_2
 
 window,off
 wait,0.15
@@ -1312,7 +1312,7 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,Onee-chan. If you dug up the ore yourself，<br>don't you think Commander-sama would be impressed?<br> ,,vc_10250100002_051_01,chara_3
+message,ヴィーラ,Big Sis，if you dig out the ore with your own hands here，don't you<br>think the Commander would be really surprised?<br> ,,vc_10250100002_051_01,chara_3
 
 window,off
 wait,0.15
@@ -1368,7 +1368,7 @@ asynccharaemo,chara_2,Silence,CONT,0
 
 
 window,on,0.15
-message,ベリサ,......<br> ,,vc_10250100002_052_01,chara_2
+message,ベリサ,...<br> ,,vc_10250100002_052_01,chara_2
 
 asynccharaface,chara_3,FaceUnique02,CONT,0
 
@@ -1381,7 +1381,7 @@ asynccharaemo,chara_3,Elated,CONT,0
 wait,0.5
 
 
-message,ヴィーラ,I think he'd really respect you<br>if you did，Onee-chan~...<br> ,,vc_10250100002_053_01,chara_3
+message,ヴィーラ,If you do that，I think the Commander would respect you too...<br> ,,vc_10250100002_053_01,chara_3
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -1392,7 +1392,7 @@ asyncseplay,setag1_56,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,ベリサ,...I know that already. I was planning<br>to find it myself from the start~!<br> ,,vc_10250100002_054_01,chara_2
+message,ベリサ,...I know that.<br>I was planning to find it from the start!<br> ,,vc_10250100002_054_01,chara_2
 
 asynccharaface,chara_2,FaceUnique02,CONT,0
 
@@ -1403,7 +1403,7 @@ asyncseplay,setag1_57,se4800010,0,1,CONT,0
 asynccharaemo,chara_2,Exclamation,CONT,0
 
 
-message,ベリサ,For someone like me，finding an ore or two<br>is a piece of cake~!<br> ,,vc_10250100002_055_01,chara_2
+message,ベリサ,For someone like me，finding one or two ores is easy!<br> ,,vc_10250100002_055_01,chara_2
 
 window,off
 wait,0.15
@@ -1471,7 +1471,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,Ahahah... I see.<br>So this is the real Verisa-san.<br> ,,vc_10250100002_056_01,chara_1
+message,ウェンディ,Ahaha... I see.<br>So this is the real Verisa.<br> ,,vc_10250100002_056_01,chara_1
 
 window,off
 wait,0.15
@@ -1521,7 +1521,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,Then let's all dig together!<br>Our goal: rare ore~!<br> ,,vc_10250100002_057_01,chara_1
+message,ウェンディ,Then let's all work hard and dig.<br>Aim for the rare ore!<br> ,,vc_10250100002_057_01,chara_1
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -1567,7 +1567,7 @@ asynccharaemo,chara_2,Flower,CONT,0
 
 
 window,on,0.15
-message,ベリサ,Found it~! This is it，this is it!<br>This is what I wanted~!<br> ,,vc_10250100002_058_01,chara_2
+message,ベリサ,Found it!<br>This is it.<br>This is what I wanted!<br> ,,vc_10250100002_058_01,chara_2
 
 window,off
 wait,0.15
@@ -1631,7 +1631,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヴィーラ,Congratulations~♪ Onee-chan!<br> ,,vc_10250100002_059_01,chara_3
+message,ヴィーラ,Congratulations!♪<br>Big Sis!<br> ,,vc_10250100002_059_01,chara_3
 
 asynccharaface,chara_2,FaceUnique02,CONT,0
 
@@ -1642,7 +1642,7 @@ asyncseplay,setag1_62,se4800002,0,1,CONT,0
 asynccharaemo,chara_2,Heart,CONT,0
 
 
-message,ベリサ,Wea~kling~♡ Wea~kling~♡<br>Calling yourself rare but so easy to find~♪<br> ,,vc_10250100002_060_01,chara_2
+message,ベリサ,Loooser!♡ Loooser!♡<br>For a 'rare ore'，you sure are easy to find—you loser ore!<br> ,,vc_10250100002_060_01,chara_2
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1653,7 +1653,7 @@ asyncseplay,setag1_63,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ウェンディ,I'm glad we found it!<br>Will just the one be enough?<br> ,,vc_10250100002_061_01,chara_1
+message,ウェンディ,I'm glad we found it! Is just one piece enough?<br> ,,vc_10250100002_061_01,chara_1
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -1664,14 +1664,14 @@ asyncseplay,setag1_64,se4800003,0,1,CONT,0
 asynccharaemo,chara_2,Twinkle,CONT,0
 
 
-message,ベリサ,Obviously! I'm a genius，after all.<br>I can nail an experiment on the first try~.<br> ,,vc_10250100002_062_01,chara_2
+message,ベリサ,Obviously! I'm a genius，after all. I can ace an experiment on the<br>first try!<br> ,,vc_10250100002_062_01,chara_2
 
 asynccharaface,chara_3,FaceFun,CONT,0
 
 asyncjump,CHARA,chara_3,-30,0.25,1,off,0,CONT
 
 
-message,ヴィーラ,We're going to head to the workshop now<br>to prepare for the experiment.<br> ,,vc_10250100002_063_01,chara_3
+message,ヴィーラ,We'll head to the workshop now to prepare for the experiment.<br> ,,vc_10250100002_063_01,chara_3
 
 asynccharaface,chara_3,FaceUnique01,CONT,0
 
@@ -1682,7 +1682,7 @@ asyncseplay,setag1_65,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,ヴィーラ,Wendy-san，thank you so much<br>for your help today.<br> ,,vc_10250100002_064_01,chara_3
+message,ヴィーラ,Wendy，thank you very much for your help today.<br> ,,vc_10250100002_064_01,chara_3
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -1691,7 +1691,7 @@ asyncseplay,setag1_66,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ウェンディ,I had a great time too，<br>getting to talk so much with you both!<br> ,,vc_10250100002_065_01,chara_1
+message,ウェンディ,I had a lot of fun talking with you two as well!<br> ,,vc_10250100002_065_01,chara_1
 
 window,off
 wait,0.15
@@ -1739,7 +1739,7 @@ asynccharaemo,chara_2,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ベリサ,Hey! Drop the formal speech already~.<br>We're friends now，after all~♪<br> ,,vc_10250100002_066_01,chara_2
+message,ベリサ,Hey! You can drop the formal speech already. We're friends now，after<br>all!♪<br> ,,vc_10250100002_066_01,chara_2
 
 asynccharaface,chara_2,FaceUnique02,CONT,0
 
@@ -1750,7 +1750,7 @@ asyncseplay,setag1_68,se4800002,0,1,CONT,0
 asynccharaemo,chara_2,Heart,CONT,0
 
 
-message,ベリサ,Or would you rather~ be my servant~?<br>Want me to call you 'weakling'~♪?<br> ,,vc_10250100002_067_01,chara_2
+message,ベリサ,Or what? You wanna be my underling? Should I call you 'loser'?♪<br> ,,vc_10250100002_067_01,chara_2
 
 window,off
 wait,0.15
@@ -1812,7 +1812,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,Friends... I'm so happy!<br>I want to be friends，please!<br> ,,vc_10250100002_068_01,chara_1
+message,ウェンディ,Friends... I'm so happy! I want friends!<br> ,,vc_10250100002_068_01,chara_1
 
 asynccharaface,chara_2,FaceShy,CONT,0
 
@@ -1823,7 +1823,7 @@ asyncseplay,setag1_71,se4800012,0,1,CONT,0
 asynccharaemo,chara_2,Shy,CONT,0
 
 
-message,ベリサ,Look at you，all happy about it~.<br> ,,vc_10250100002_069_01,chara_2
+message,ベリサ,Geez，you look all happy.<br> ,,vc_10250100002_069_01,chara_2
 
 window,off
 wait,0.15
@@ -1887,7 +1887,7 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,Hehe~♪ You look pretty happy yourself，Onee-chan~.<br> ,,vc_10250100002_070_01,chara_3
+message,ヴィーラ,Fufu!♪ I think you look happy too，Big Sis.<br> ,,vc_10250100002_070_01,chara_3
 
 asyncshake,CHARA,chara_2,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1896,7 +1896,7 @@ asyncseplay,setag1_73,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,ベリサ,N-no I don't!<br> ,,vc_10250100002_071_01,chara_2
+message,ベリサ,Th-that's not true!<br> ,,vc_10250100002_071_01,chara_2
 
 window,off
 wait,0.15
@@ -1916,7 +1916,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ベリサ,Anyway，we're heading out now!<br>See you，Wendy!<br> ,,vc_10250100002_072_01,chara_2
+message,ベリサ,Anyway，we're heading off! See ya，Wendy!<br> ,,vc_10250100002_072_01,chara_2
 
 asynccharaface,chara_3,FaceHappy,CONT,0
 
@@ -1927,7 +1927,7 @@ asyncseplay,setag1_75,se4800005,0,1,CONT,0
 asynccharaemo,chara_3,Flash,CONT,0
 
 
-message,ヴィーラ,Next time we meet，please let me<br>examine you in detail.<br> ,,vc_10250100002_073_01,chara_3
+message,ヴィーラ,Next time we meet，please let me examine your body in detail.<br> ,,vc_10250100002_073_01,chara_3
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -1936,7 +1936,7 @@ asyncseplay,setag1_76,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ウェンディ,Okay! See you both later~!<br> ,,vc_10250100002_074_01,chara_1
+message,ウェンディ,Yeah! See you two later!<br> ,,vc_10250100002_074_01,chara_1
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -1997,7 +1997,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,Ehehe~. I made two new friends today.<br> ,,vc_10250100002_075_01,chara_1
+message,ウェンディ,Ehehe. I made two new friends today.<br> ,,vc_10250100002_075_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -2009,7 +2009,7 @@ asyncseplay,setag1_78,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ウェンディ,I have to tell Father about this~♪<br>The stationery should be around here somewhere...<br> ,,vc_10250100002_076_01,chara_1
+message,ウェンディ,I have to report this to Father!♪ The stationery should be around<br>here...<br> ,,vc_10250100002_076_01,chara_1
 
 window,off
 wait,0.15
@@ -2028,7 +2028,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ウェンディ,There it is.<br>Okay，first things first...<br> ,,vc_10250100002_077_01,chara_1
+message,ウェンディ,Found it! Um，first...<br> ,,vc_10250100002_077_01,chara_1
 
 window,off
 wait,0.15
@@ -2052,7 +2052,7 @@ asyncwait,subimage_0_2
 
 asyncwait
 
-messageTextUnder,,Wendy placed the stationery on the desk<br>and began writing about the day's events.,,,on
+messageTextUnder,,Wendy set the stationery on the desk and began writing about the day's events.,,,on
 
 
 window,off
@@ -2074,7 +2074,7 @@ asyncseplay,setag1_81,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-messageTextUnder,ウェンディ,Dear Father. I made friends today.<br>One cute and cheerful，one cool and admirable.,,vc_10250100002_078_01,on
+messageTextUnder,ウェンディ,Dear Father，Today I made friends. One is a cute and cheerful girl，and the other is a cool and awesome girl.,,vc_10250100002_078_01,on
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -2085,7 +2085,7 @@ asyncseplay,setag1_82,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-messageTextUnder,ウェンディ,They treated me as a friend without any<br>hesitation，even though I'm an automaton.,,vc_10250100002_079_01,on
+messageTextUnder,ウェンディ,Even though I'm an automaton，they treated me as a friend without any hesitation.,,vc_10250100002_079_01,on
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -2097,7 +2097,7 @@ asyncseplay,setag1_83,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-messageTextUnder,ウェンディ,I'll introduce them to you someday... and done.,,vc_10250100002_080_01,on
+messageTextUnder,ウェンディ,Next time，I'll introduce you to Father too...,,vc_10250100002_080_01,on
 
 window,off
 wait,0.15
@@ -2129,7 +2129,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,All right，letter's done!<br>I'll send it off tomorrow. Ehehe~.<br> ,,vc_10250100002_081_01,chara_1
+message,ウェンディ,Alright，I finished writing the letter! I'll send it tomorrow. Ehehe.<br> ,,vc_10250100002_081_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -2141,7 +2141,7 @@ asyncseplay,setag1_85,se4800020,0,1,CONT,0
 asynccharaemo,chara_1,Sleepy,CONT,0
 
 
-message,ウェンディ,Fwaaah... I should get to sleep soon.<br>I've got work again tomorrow!<br> ,,vc_10250100002_082_01,chara_1
+message,ウェンディ,*yawn*... I'd better get to sleep soon. I have work tomorrow too!<br> ,,vc_10250100002_082_01,chara_1
 
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
@@ -2156,7 +2156,7 @@ asynccharaface,chara_1,FaceNormal,CONT
 
 message,ウェンディ,Good night...<br> ,,vc_10250100002_083_01,chara_1
 
-message,ウェンディ,'Entering Sleep Mode'<br> ,,vc_10250100002_083_02
+message,ウェンディ,Entering Sleep Mode.<br> ,,vc_10250100002_083_02
 
 window,off
 wait,0.15

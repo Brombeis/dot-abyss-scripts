@@ -23,7 +23,7 @@ bgmplay,bgmtag1_1,bgm0025,0.75,1
 seplay,setag1_1,se4300001,0,1
 
 window,on,0.15
-message,,I was working late at night in the command room when Sylvia came in.<br> 
+message,,I was working late in the command room when Sylvia came in.<br> 
 
 window,off
 wait,0.15
@@ -48,7 +48,7 @@ asyncseplay,setag1_3,se4800014,0,1,CONT
 
 charaemo,chara_1,Silence
 
-message,,Her cheeks were flushed and she looked down. I could tell she had<br>something she wanted to say.<br> 
+message,,Her cheeks were flushed and she looked down. She clearly had<br>something to say.<br> 
 
 charaface,chara_1,FaceSad
 
@@ -62,7 +62,7 @@ asynccharareaction,chara_1,nod,1,STOP
 asynccharaface,chara_1,FaceUnique01,STOP,1.8
 message,シルヴィア,Elder Brother...? Lately，I feel that our play has been lacking...<br> ,,vc_10260100031_001_01
 
-message,,With that one statement，I understood at once why Sylvia had come.<br>This was，in her own earnest way，her version of a ""night visit"".<br> 
+message,,With that one statement，I understood at once why Sylvia had come.<br>This was，in her own earnest way，her version of a 'night visit'.<br> 
 
 message,<user>,Ah... you're right. I've been so busy with work that we haven't<br>played recently.<br> 
 
@@ -78,7 +78,7 @@ charaface,chara_1,FaceHappy
 asynccharareaction,chara_1,Nod,1,STOP
 message,シルヴィア,Y-yes...!<br> ,,vc_10260100031_002_01
 
-message,,Sylvia's face lit up immediately. I stood up，thinking how cute she<br>was.<br> 
+message,,Sylvia's face lit up. I stood up，thinking how cute she was.<br> 
 
 window,off
 wait,0.15

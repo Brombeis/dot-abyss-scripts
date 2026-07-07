@@ -607,7 +607,7 @@ asyncseplay,setag1_20,se4800007,0,1,CONT,0
 asynccharaemo,chara_6,Panic,CONT,0
 
 
-message,兵士Ｃ,い、いや、本当に痛いんで！<br>マジっす！　治してほしいっす！,401501000,,chara_6
+message,兵士Ｃ,N-no，I'm really in pain! I'm serious! Please heal me!<br> ,401501000,,chara_6
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -616,7 +616,7 @@ asyncseplay,setag1_21,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ノエミ,もー、信じますからね～？,100601000G,vc_10060100002_012_01,chara_1
+message,ノエミ,Geez，I'll believe you，okay?<br> ,100601000G,vc_10060100002_012_01,chara_1
 
 asynccharaface,chara_6,FaceHappy,CONT,0
 
@@ -627,7 +627,7 @@ asyncseplay,setag1_22,se4800002,0,1,CONT,0
 asynccharaemo,chara_6,Heart,CONT,0
 
 
-message,兵士Ｃ,す、すんません……。<br>ああ、怒られながら治してもらうのも、イイな……,401501000,,chara_6
+message,兵士Ｃ,S-sorry... Ah，getting healed while being scolded is kinda nice<br>too...<br> ,401501000,,chara_6
 
 window,off
 wait,0.15
@@ -675,7 +675,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,き・い・て・ま・す・か～！？,100601000G,vc_10060100002_013_01,chara_1
+message,ノエミ,Are you even listening!<br> ,100601000G,vc_10060100002_013_01,chara_1
 
 window,off
 wait,0.15
@@ -772,7 +772,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,ふう……入ってくる人もいなくなりましたし、<br>そろそろ患者さんも終わりでしょうか？,100601000G,vc_10060100002_014_01,chara_1
+message,ノエミ,Phew... Looks like no one else is coming in. I guess that's the last<br>of the patients for now?<br> ,100601000G,vc_10060100002_014_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -783,7 +783,7 @@ asyncseplay,setag1_26,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ノエミ,ではちょっと休憩にお外へ……,100601000G,vc_10060100002_015_01,chara_1
+message,ノエミ,Well then，I'll just step outside for a quick break...<br> ,100601000G,vc_10060100002_015_01,chara_1
 
 window,off
 wait,0.15
@@ -819,7 +819,7 @@ transitionFade,Tra01,in,black,1
 asyncseplay,se1_1001,se4600005,0,1,CONT,0
 
 window,on,0.15
-message,,ノエミが治療所を出ると、<br>そこには思いもよらない光景があった。
+message,,When Noemi stepped out of the treatment room，she was met with an<br>unexpected sight.<br> 
 
 window,off
 wait,0.15
@@ -836,7 +836,7 @@ asynccharaemo,chara_7,Anger,CONT,0
 
 
 window,on,0.15
-message,街の人Ｂ,ずっと待ってたんだぞ！<br>次は俺の番だろ！,400301000,,chara_7
+message,街の人Ｂ,I've been waiting forever! It's my turn now!<br> ,400301000,,chara_7
 
 asyncjump,CHARA,chara_8,30,0.25,1,off,0,CONT
 
@@ -845,7 +845,7 @@ asyncseplay,setag1_28,se4800001,0,1,CONT,0
 asynccharaemo,chara_8,Anger,CONT,0
 
 
-message,街の人Ｃ,兵士ばっかり優先されるのはおかしいだろ！<br>俺たちだってノエミちゃんに治してもらいたいんだよ！,401701000,,chara_8
+message,街の人Ｃ,It's not fair that soldiers always get priority! We want Noemi to<br>heal us too!<br> ,401701000,,chara_8
 
 window,off
 wait,0.15
@@ -894,7 +894,7 @@ asynccharaemo,chara_2,Exclamation,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,騒ぐな、ノエミさんに聞こえるでしょう！<br>全員平等です！　並んで並んで！,401201000,,chara_2
+message,兵士Ａ,Quiet down，or Noemi will hear you! Everyone's equal! Line up，line<br>up!<br> ,401201000,,chara_2
 
 asynccharaface,chara_9,FaceAnger,CONT,0
 
@@ -905,7 +905,7 @@ asyncseplay,setag1_30,se4800001,0,1,CONT,0
 asynccharaemo,chara_9,Anger,CONT,0
 
 
-message,街の人Ｄ,お前はさっき治してもらったじゃねえか！<br>肩はどうしたんだ、肩は！,400801000,,chara_9
+message,街の人Ｄ,Hey，you just got treated，didn't you? What about your shoulder? Your<br>shoulder!<br> ,400801000,,chara_9
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -916,9 +916,9 @@ asyncseplay,setag1_31,se4800001,0,1,CONT,0
 asynccharaemo,chara_2,Anger,CONT,0
 
 
-message,兵士Ａ,次は腰です！<br>文句ありますか！？,401201000,,chara_2
+message,兵士Ａ,Next is my waist! Got a problem?<br> ,401201000,,chara_2
 
-message,,たくさんの男たちが怒号をあげ、<br>治療所に入る順番をめぐって言い争っていた。
+message,,A crowd of men were shouting and arguing over whose turn it was to<br>go into the treatment room.<br> 
 
 window,off
 wait,0.15
@@ -966,7 +966,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,ど、どうしてこんなことになってるの～！？,100601000G,vc_10060100002_016_01,chara_1
+message,ノエミ,W-why has it turned into this!<br> ,100601000G,vc_10060100002_016_01,chara_1
 
 window,off
 wait,0.15
@@ -1001,9 +1001,9 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,兵士Ａ,あ！　ノエミさん！<br>治療お願いします！,401201000
+message,兵士Ａ,Ah! Noemi! Please treat me!<br> ,401201000
 
-message,兵士Ｂ,順番を抜かすんじゃねえ！<br>お前は最後だ最後！,400901000
+message,兵士Ｂ,Don't cut in line! You're last，last!<br> ,400901000
 
 window,off
 wait,0.15
@@ -1021,11 +1021,11 @@ asynccharaemo,chara_1,Sweat,CONT,0
 asyncwait
 
 window,on,0.15
-message,兵士Ａ,だってノエミさんは、この前の任務で俺を１番に心配してくれたんだ！<br>ちょっとぐらい先にやってもらったていいでしょう！,401201000
+message,兵士Ａ,But Noemi was most worried about me on the last mission! Surely it's<br>okay if I go a little ahead!<br> ,401201000
 
-message,街の人Ａ,はあ！？　俺のことだって心配してくれてたよ！<br>さっきの治療中にずっと目が合ってたんだぞ！？,2028301
+message,街の人Ａ,Hah! She was worried about me too! We kept making eye contact during<br>my treatment，you know!<br> ,2028301
 
-message,兵士Ｃ,ノエミちゃんはお前らのことなんか覚えてねえよ！<br>俺は誰よりもひどい怪我だったから、絶対忘れてないはずだ！,401501000
+message,兵士Ｃ,Noemi doesn't remember you lot! I had the worst injury by far，so<br>there's no way she's forgotten me!<br> ,401501000
 
 window,off
 wait,0.15
@@ -1042,7 +1042,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,み、皆さんちゃんと心配してます！　覚えてます！<br>大丈夫ですよ～！,100601000G,vc_10060100002_017_01,chara_1
+message,ノエミ,I-I worry about all of you! I remember! It's okay!<br> ,100601000G,vc_10060100002_017_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1053,11 +1053,11 @@ asyncseplay,setag1_35,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ノエミ,順番に治療しますから、落ち着いてください～！,100601000G,vc_10060100002_018_01,chara_1
+message,ノエミ,I'll treat you in order，so please calm down!<br> ,100601000G,vc_10060100002_018_01,chara_1
 
-message,兵士Ｂ,なんだとテメエ！　怪我がひどかったってのは、<br>一番ノエミさんを苦労させたってことだろうが！,400901000
+message,兵士Ｂ,What did you say? If your injury was that serious，that means you<br>made Noemi work the hardest，right?<br> ,400901000
 
-message,兵士Ｃ,ああん！？　大した怪我でもないのに、<br>ノエミちゃんに手間かけさせたやつは黙ってろよ！,401501000
+message,兵士Ｃ,Hah! Someone who didn't even have a serious injury and still made<br>Noemi waste her time should shut up!<br> ,401501000
 
 window,off
 wait,0.15
@@ -1099,7 +1099,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ノエミ,あああっ！　喧嘩は、喧嘩はやめて～！<br>治療ならいくらでもしますから～！,100601000G,vc_10060100002_019_01,chara_1
+message,ノエミ,Aaaah! Stop fighting，please stop! I'll treat as many as you want!<br> ,100601000G,vc_10060100002_019_01,chara_1
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -1108,7 +1108,7 @@ asyncseplay,setag1_37,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ノエミ,どうしよう、どうしよう……！<br>神よ、どうか迷える子に助けを……,100601000G,vc_10060100002_020_01,chara_1
+message,ノエミ,What do I do，what do I do...! Oh God，please help this lost child...<br> ,100601000G,vc_10060100002_020_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1119,9 +1119,9 @@ asyncseplay,setag1_38,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ノエミ,ってこんなことで神様に頼ってどうするんですかっ！<br>ふえええ、誰か～！,100601000G,vc_10060100002_021_01,chara_1
+message,ノエミ,What am I doing praying to God over something like this? Waaaaah!<br>Someone!<br> ,100601000G,vc_10060100002_021_01,chara_1
 
-message,,自分の声が届かず、慌ててしまうノエミ。<br>その背後から声がかかった。
+message,,Noemi panicked，her voice unable to reach anyone. Then a voice called<br>out from behind her.<br> 
 
 window,off
 wait,0.15
@@ -1156,7 +1156,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,――何をそんなに騒いでるんだ、お前ら。
+message,<user>,--What are you all making such a racket about?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1167,7 +1167,7 @@ asyncseplay,setag1_39,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ノエミ,あ……司令官さま！,100601000G,vc_10060100002_022_01,chara_1
+message,ノエミ,Ah... Lord Commander!<br> ,100601000G,vc_10060100002_022_01,chara_1
 
 window,off
 wait,0.15
@@ -1217,7 +1217,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,司令官殿！　いえ、大したことじゃないんですが……,401201000,,chara_2
+message,兵士Ａ,Lord Commander! No，it's nothing serious...<br> ,401201000,,chara_2
 
 asyncjump,CHARA,chara_4,-30.6,0.5,1,off,0,CONT
 
@@ -1226,7 +1226,7 @@ asyncseplay,setag1_41,se4800008,0,1,CONT,0
 asynccharaemo,chara_4,Sweat,CONT,0
 
 
-message,兵士Ｂ,まあ、治療所の順番待ちでちょっと……,400901000,,chara_4
+message,兵士Ｂ,Well，we were just waiting our turn at the clinic and...<br> ,400901000,,chara_4
 
 window,off
 wait,0.15
@@ -1265,7 +1265,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,……そうなのか、ノエミ？
+message,<user>,...Is that so，Noemi?<br> 
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -1274,9 +1274,9 @@ asyncseplay,setag1_42,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ノエミ,は、はい。皆さん治療が必要だそうで……。<br>落ち着いてってお願いしても聞いてもらえないんです～！,100601000G,vc_10060100002_023_01,chara_1
+message,ノエミ,Y-yes. They all say they need treatment... Even when I ask them to<br>calm down，they won't listen!<br> ,100601000G,vc_10060100002_023_01,chara_1
 
-message,<user>,ふむ。基地内にこれだけ怪我人がいるってのは、<br>指揮官としては放置できない事案だな？
+message,<user>,Hmm. Having this many injured in the base is an incident I can't<br>ignore as the Commander，right?<br> 
 
 window,off
 wait,0.15
@@ -1321,7 +1321,7 @@ asynccharaface,chara_6,FaceNormal,CONT,0
 
 
 window,on,0.15
-message,兵士Ｃ,い、いえ、怪我人っていうか。<br>ノエミさんの治療が素晴らしいんで、どうしても受けたくて……,401501000,,chara_6
+message,兵士Ｃ,N-no，it's not really injuries... Noemi's treatment is just so<br>amazing that we really want to receive it...<br> ,401501000,,chara_6
 
 asynccharaface,chara_6,FaceSurprise,CONT,0
 
@@ -1332,9 +1332,9 @@ asyncseplay,setag1_44,se4800011,0,1,CONT,0
 asynccharaemo,chara_6,ExclaQues,CONT,0
 
 
-message,兵士Ｃ,そ、そもそも司令官は何しに来たんですか！<br>まさかノエミさんを狙って……！？,401501000,,chara_6
+message,兵士Ｃ,A-and what are you here for，Commander? You're not after Noemi，are<br>you?<br> ,401501000,,chara_6
 
-message,<user>,いやいや、俺はただの患者だよ。
+message,<user>,No，no，I'm just a patient.<br> 
 
 window,off
 wait,0.15
@@ -1376,9 +1376,9 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ノエミ,え……！？　司令官さまもお怪我を！？,100601000G,vc_10060100002_024_01,chara_1
+message,ノエミ,Eh! Lord Commander，you're injured too?<br> ,100601000G,vc_10060100002_024_01,chara_1
 
-message,<user>,大したもんじゃない、書類仕事の最中にちょっと手が滑ってな。<br>紙で指先を切ったってだけだ。
+message,<user>,It's nothing serious. My hand just slipped while I was doing<br>paperwork. Just a paper cut.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1389,11 +1389,11 @@ asyncseplay,setag1_46,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ノエミ,そんな！　すぐに治療します！,100601000G,vc_10060100002_025_01,chara_1
+message,ノエミ,Oh no! I'll treat you right away!<br> ,100601000G,vc_10060100002_025_01,chara_1
 
-message,兵士Ｃ,ええー！？<br>司令官、順番飛ばすんすか！？,401501000
+message,兵士Ｃ,Hey! Commander，are you cutting in line?<br> ,401501000
 
-message,<user>,いや、俺は別にノエミじゃなくていいんだが。<br>ノエミが忙しいなら他のヒーラーを探すぞ。
+message,<user>,Nah，I don't necessarily need Noemi. If she's busy，I'll find another<br>healer.<br> 
 
 window,off
 wait,0.15
@@ -1414,9 +1414,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ノエミ,あ……そう、ですよね……,100601000G,vc_10060100002_026_01,chara_1
+message,ノエミ,Oh... right，that's true...<br> ,100601000G,vc_10060100002_026_01,chara_1
 
-message,<user>,だがまあ、選んでいいならノエミに頼みたいところだな。<br>こいつは頼りになるし、信用してる。
+message,<user>,But if I get to choose，I'd want Noemi. She's dependable，and I trust<br>her.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1427,9 +1427,9 @@ asyncseplay,setag1_48,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ノエミ,え……！？<br>司令官さま、本当……ですか？,100601000G,vc_10060100002_027_01,chara_1
+message,ノエミ,Wha...! Lord Commander，is that really true...?<br> ,100601000G,vc_10060100002_027_01,chara_1
 
-message,<user>,ああ、いつも頼りにしてるぞ、ノエミ。
+message,<user>,Yeah，I always count on you，Noemi.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1440,7 +1440,7 @@ asyncseplay,setag1_49,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ノエミ,えへへ……はい、これからも頑張ります～！,100601000G,vc_10060100002_028_01,chara_1
+message,ノエミ,Ehehe... yes，I'll keep doing my best!<br> ,100601000G,vc_10060100002_028_01,chara_1
 
 window,off
 wait,0.15
@@ -1492,7 +1492,7 @@ asynccharaemo,chara_6,Anger,CONT,0
 
 
 window,on,0.15
-message,兵士Ｃ,おいおいおいおい！<br>やっぱ司令官もノエミさん狙いじゃないっすか！,401501000,,chara_6
+message,兵士Ｃ,Whoa，whoa，whoa，whoa! So even the Commander's after Noemi，huh!<br> ,401501000,,chara_6
 
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
@@ -1501,9 +1501,9 @@ asyncseplay,setag1_51,se4800001,0,1,CONT,0
 asynccharaemo,chara_2,Anger,CONT,0
 
 
-message,兵士Ａ,いかに司令官様とはいえ、これは看過できません……！<br>ルールを守って最後尾に並んでください！,401201000,,chara_2
+message,兵士Ａ,Even if you are Lord Commander，I cannot overlook this! Please follow<br>the rules and get in line at the back!<br> ,401201000,,chara_2
 
-message,<user>,おっと、余計なことを言ったか。<br>こりゃしばらく収まりそうにないな。
+message,<user>,Oops，looks like I said too much. This isn't going to calm down<br>anytime soon.<br> 
 
 window,off
 wait,0.15
@@ -1551,7 +1551,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,さっきより大騒ぎになってます～！<br>ど、どうしよう～！！！,100601000G,vc_10060100002_029_01,chara_1
+message,ノエミ,It's even more chaotic than before! Wh-what do I do?<br> ,100601000G,vc_10060100002_029_01,chara_1
 
 window,off
 bgmstop,bgmtag1_2,0.5

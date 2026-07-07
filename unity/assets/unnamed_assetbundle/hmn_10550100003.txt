@@ -61,7 +61,7 @@ asynccharaemo,chara_2,Anger,CONT,0
 
 
 window,on,0.15
-message,モンスター,シャアアアっ……！,402001000,,chara_2
+message,モンスター,SHAAAHH...!<br> ,402001000,,chara_2
 
 window,off
 wait,0.15
@@ -99,12 +99,12 @@ asynccharaemo,chara_3,Exclamation,CONT,0
 
 
 window,on,0.15
-message,一般兵Ａ,司令官、副司令官！　お下がりください！,401101000,vc_10550100003_001_01,chara_3
+message,一般兵Ａ,Commander，Deputy Commander! Fall back!<br> ,401101000,vc_10550100003_001_01,chara_3
 
 asyncjump,CHARA,chara_4,-30,0.25,1,off,0,CONT
 
 
-message,一般兵Ｂ,たかがモンスターの１匹！<br>我々がすぐに――,401001000,vc_10550100003_002_01,chara_4
+message,一般兵Ｂ,It's only one monster! We'll quickly—<br> ,401001000,vc_10550100003_002_01,chara_4
 
 window,off
 wait,0.15
@@ -150,7 +150,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,リタ,あ、いけません！<br>不用意に近付くと――っ！,105501000G,vc_10550100003_003_01,chara_1
+message,リタ,Ah，no! If you get too close—!<br> ,105501000G,vc_10550100003_003_01,chara_1
 
 window,off
 wait,0.15
@@ -193,7 +193,7 @@ asynccharaemo,chara_2,Anger,CONT,0
 
 
 window,on,0.15
-message,モンスター,ブフーッ！！,402001000,,chara_2
+message,モンスター,BUFF!<br> ,402001000,,chara_2
 
 window,off
 wait,0.15
@@ -278,7 +278,7 @@ shake,CHARA,chara_8,40,0,0.25,20,off,off,0
 shake,CHARA,chara_9,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,,モンスターが兵士たちに向けて、毒々しい色の霧を放つ。<br>それをまともに浴びた兵士たちはうめき声をあげて、床に倒れた。
+message,,The monster unleashed a cloud of poisonous mist toward the soldiers.<br>Those caught directly groaned and collapsed to the floor.<br> 
 
 window,off
 wait,0.15
@@ -307,7 +307,7 @@ transitionCrossFade,Tra02,0.5
 wait,0.5
 
 window,on,0.15
-message,<user>,毒か！？
+message,<user>,Poison!<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -316,7 +316,7 @@ asyncseplay,setag1_9,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,リタ,毒の瘴気です！　肌に触れただけでも体が痺れて動けなくなります！<br>なるべく吸い込まないで！,105501000G,vc_10550100003_004_01,chara_1
+message,リタ,It's a toxic miasma! Even touching it numbs your body and makes you<br>unable to move! Try not to inhale it!<br> ,105501000G,vc_10550100003_004_01,chara_1
 
 window,off
 wait,0.15
@@ -351,7 +351,7 @@ wait,0.5
 
 
 window,on,0.15
-message,モンスター,ブフフフーッ！！,402001000,,chara_2
+message,モンスター,BUFFUFF!<br> ,402001000,,chara_2
 
 window,off
 wait,0.15
@@ -392,9 +392,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,リタ,あっ……！？,105501000G,vc_10550100003_005_01,chara_1
+message,リタ,Ah...!<br> ,105501000G,vc_10550100003_005_01,chara_1
 
-message,,リタの大声に反応したモンスターが、彼女に向けて瘴気を放つ。
+message,,Reacting to Rita's shout，the monster released a cloud of miasma at<br>her.<br> 
 
 window,off
 wait,0.15
@@ -429,7 +429,7 @@ transitionCrossFade,Tra21,1
 wait,1
 
 window,on,0.15
-message,<user>,危ない！
+message,<user>,Watch out!<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -438,7 +438,7 @@ asyncseplay,setag1_12,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,リタ,えっ？,105501000G,vc_10550100003_006_01,chara_1
+message,リタ,Eh?<br> ,105501000G,vc_10550100003_006_01,chara_1
 
 window,off
 wait,0.15
@@ -464,9 +464,9 @@ emodelete,chara_1,0,0
 fade,In,White,0
 
 window,on,0.15
-message,<user>,ぐっ……！
+message,<user>,Guh...!<br> 
 
-message,,リタを庇い、<user>が瘴気を背中に浴びた。
+message,,Shielding Rita，the Commander caught the miasma on his back.<br> 
 
 window,off
 wait,0.15
@@ -500,7 +500,7 @@ asynccharaemo,chara_5,Panic,CONT,0
 
 
 window,on,0.15
-message,アリシア,い、いやぁあっ！　司令官！！！,300201000,vc_10550100003_007_01,chara_5
+message,アリシア,N-No! Commander!<br> ,300201000,vc_10550100003_007_01,chara_5
 
 window,off
 wait,0.15
@@ -564,7 +564,7 @@ asynccharaemo,chara_6,Panic,CONT,0
 
 
 window,on,0.15
-message,一般兵Ｃ,だめです、副司令官！<br>近付いては瘴気の餌食です！　私の後ろに隠れて！,401301000,vc_10550100003_008_01,chara_6
+message,一般兵Ｃ,No，Deputy Commander! If you go near，you'll fall prey to the miasma!<br>Get behind me!<br> ,401301000,vc_10550100003_008_01,chara_6
 
 window,off
 wait,0.15
@@ -603,7 +603,7 @@ transitionCrossFade,Tra02,0.5
 wait,0.5
 
 window,on,0.15
-message,<user>,っ、はぁ、はぁ……リタ、無事だな？
+message,<user>,*pant，pant*... Rita，are you okay?<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -612,7 +612,7 @@ asyncseplay,setag1_16,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,リタ,ぶ、無事ですけど……<br>なんで……どうしてあなたがわたしを庇うんです！,105501000G,vc_10550100003_009_01,chara_1
+message,リタ,I-I'm fine，but... Why... why did you protect me?<br> ,105501000G,vc_10550100003_009_01,chara_1
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -621,18 +621,18 @@ asyncseplay,setag1_17,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,リタ,あなたは司令官でしょう！？<br>兵士を守ってどうするんですかぁ！？,105501000G,vc_10550100003_010_01,chara_1
+message,リタ,You're the Commander! Why would you protect a soldier?!<br> ,105501000G,vc_10550100003_010_01,chara_1
 
-message,<user>,……バカを言うな。お前はうちの兵士じゃない。<br>アリシアの話し相手に過ぎん。俺にとっては、ただの一般人だ。
+message,<user>,Don't talk nonsense. You're not one of our soldiers. You're just<br>someone to keep Alicia company. To me，you're just a civilian.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
 
-message,リタ,だったら、なおさらです！<br>あなたがわたしを庇う理由なんてないでしょうに……,105501000G,vc_10550100003_011_01,chara_1
+message,リタ,If that's the case，all the more reason! There's no reason for you to<br>protect me...<br> ,105501000G,vc_10550100003_011_01,chara_1
 
-message,<user>,そんなことはない！　俺にはモンスターと戦う力はないが、<br>それでも軍人だ。人民を命懸けで守るのが役目――
+message,<user>,That's not true! I may not have the power to fight monsters，but I'm<br>still a soldier. It's my duty to protect the people with my life.<br> 
 
-message,<user>,誰かが目の前で危ない目に遭っていたら、命がけで守るに決まってるだろう。<br>それがお前を守った理由だ……何かおかしいか？
+message,<user>,If someone's in danger right in front of me，I'll put my life on the<br>line for them. That's why I saved you. Something wrong with that?<br> 
 
 window,off
 wait,0.15
@@ -662,7 +662,7 @@ asynccharaemo,chara_1,Heart,CONT,0
 
 
 window,on,0.15
-message,リタ,（キューーーーーーーーーンっ！！！）,105501000G,vc_10550100003_012_01,chara_1
+message,リタ,(thump，thump，thump!)<br> ,105501000G,vc_10550100003_012_01,chara_1
 
 bgmplay,bgmtag1_2,bgm0030,0.75,1
 
@@ -673,7 +673,7 @@ asyncseplay,setag1_19,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,リタ,（そ、そんな……司令官さま……わたし……<br>あなたさまのこと、誤解してた……？）,105501000G,vc_10550100003_013_01,chara_1
+message,リタ,(N-no...Lord Commander...I...did I misunderstand you...?)<br> ,105501000G,vc_10550100003_013_01,chara_1
 
 
 
@@ -707,7 +707,7 @@ screeneffect,SEPIATONE,on,1,0
 fade,In,White,1
 
 window,on,0.15
-message,<user>,だいいち、見ず知らずの人間に護衛なんて任せられん。<br>強いかどうかも分からないし――そもそも、弱そうだ。
+message,<user>,First of all，I can't entrust my protection to a complete stranger. I<br>don't even know if you're strong—and honestly，you look weak.<br> 
 
 crossfadeready
 
@@ -717,13 +717,13 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 
-message,リタ,（言われたときは粗暴な発言と嫌悪したけれど……<br>今思えば、言われて当然だわ……）,105501000G,vc_10550100003_014_01,chara_1
+message,リタ,(When he said that，I resented it as a rude remark...but now that I<br>think about it，I deserved it...)<br> ,105501000G,vc_10550100003_014_01,chara_1
 
 
-message,リタ,（命を狙われているなら、見ず知らずの人間をそばになんて<br>置けないもの……わたしが刺客かもしれないし……）,105501000G,vc_10550100003_015_01,chara_1
+message,リタ,(If someone's after your life，you can't keep a stranger by your<br>side...I could be an assassin...)<br> ,105501000G,vc_10550100003_015_01,chara_1
 
 
-message,リタ,（なのに、司令官さまは<br>いきなり攻撃したわたしを牢にも入れず、許してくれた）,105501000G,vc_10550100003_016_01,chara_1
+message,リタ,(And yet，Lord Commander forgave me for suddenly attacking<br>him，without even putting me in a cell.)<br> ,105501000G,vc_10550100003_016_01,chara_1
 
 
 
@@ -771,7 +771,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,リタ,（そして今、この方はわたしを守ったのだわ！<br>……お優しくて、勇敢で！　立派な御方！！）,105501000G,vc_10550100003_017_01,chara_1
+message,リタ,(And now，he protected me!...He's so kind and brave—a truly noble<br>person!)<br> ,105501000G,vc_10550100003_017_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -782,7 +782,7 @@ asyncseplay,setag1_21,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,リタ,（なのに、わたしはなんて自分勝手な――恥ずかしい……！）,105501000G,vc_10550100003_018_01,chara_1
+message,リタ,(And yet，I was so selfish...how shameful...!)<br> ,105501000G,vc_10550100003_018_01,chara_1
 
 window,off
 wait,0.15
@@ -801,7 +801,7 @@ wait,0.1
 cleanall,EFFECT
 
 window,on,0.15
-message,<user>,リタ、瘴気が晴れたら、お前は逃げろ……<br>助けを呼んでくるんだ……
+message,<user>,Rita，when the miasma clears，run...Go get help...<br> 
 
 window,off
 wait,0.15
@@ -820,16 +820,16 @@ wait,0.5
 
 
 window,on,0.15
-message,リタ,いいえ。そのお言葉には従えません。,105501000G,vc_10550100003_019_01,chara_1
+message,リタ,No. I cannot obey that command.<br> ,105501000G,vc_10550100003_019_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,リタ,司令官さま。一生のお願いです。わたしにあなたの護衛を命じてください。<br>俺を命懸けで守れとおっしゃって！,105501000G,vc_10550100003_020_01,chara_1
+message,リタ,Lord Commander，I beg you with all my heart. Please order me to be<br>your bodyguard. Command me to protect you with my life!<br> ,105501000G,vc_10550100003_020_01,chara_1
 
-message,<user>,ば、バカを言うな……お前に、何ができる……？
+message,<user>,D-don't be stupid...What can you do...?<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -838,12 +838,12 @@ asyncseplay,setag1_23,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,リタ,花のことなら詳しいです！<br>あのモンスター、変化前の花の生態と必ず関連があります！,105501000G,vc_10550100003_021_01,chara_1
+message,リタ,I know a lot about flowers! That monster must be linked to the<br>flower it was before it transformed!<br> ,105501000G,vc_10550100003_021_01,chara_1
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,リタ,それに、わたしはペルディオンの魔法剣士！<br>あなたが求める戦う力だって――！,105501000G,vc_10550100003_022_01,chara_1
+message,リタ,Besides，I'm a magic swordsman from Perdion! I have the fighting<br>power you need!<br> ,105501000G,vc_10550100003_022_01,chara_1
 
 window,off
 wait,0.15
@@ -858,7 +858,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（……１人で逃がすのも危険か。<br>あのモンスターを放った奴がどこかで見ているかもしれん――）
+message,<user>,(...It might be dangerous to let her escape alone. Whoever released<br>that monster might be watching somewhere—)<br> 
 
 window,off
 wait,0.15
@@ -882,15 +882,15 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,リタ,司令官さま！,105501000G,vc_10550100003_023_01,chara_1
+message,リタ,Lord Commander!<br> ,105501000G,vc_10550100003_023_01,chara_1
 
-message,<user>,……分かった。お前を護衛に任命する。<br>だが、死ぬのは絶対に許さん。必ず、生き、延びろ……っ！
+message,<user>,Got it. I appoint you as my bodyguard. But I absolutely won't let<br>you die. You have to survive...!<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
-message,,毒が身体に巡り、喋るのもつらそうになった<user>。<br>そんな彼を安心させるためか、リタは力強く頷いた。
+message,,The poison spread through his body，and %user% seemed to have<br>difficulty speaking. Perhaps to reassure him，Rita nodded firmly.<br> 
 
 window,off
 wait,0.15
@@ -937,7 +937,7 @@ asynccharaemo,chara_2,Anger,CONT,0
 
 
 window,on,0.15
-message,モンスター,シャアァァ！,402001000,,chara_2
+message,モンスター,SHAAA!<br> ,402001000,,chara_2
 
 window,off
 wait,0.15
@@ -990,7 +990,7 @@ asynccharaemo,chara_6,Anger,CONT,0
 
 
 window,on,0.15
-message,一般兵Ｃ,いつまでもいい気になるなよ！　所詮は花のくせに！<br>火炎魔法で消し炭にしてやる！,401301000,vc_10550100003_024_01,chara_6
+message,一般兵Ｃ,Don't get too cocky! After all，you're just a flower! I'll burn you<br>to ashes with fire magic!<br> ,401301000,vc_10550100003_024_01,chara_6
 
 window,off
 wait,0.15
@@ -1040,12 +1040,12 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,リタ,お待ちください！　その花は砂漠育ちです！<br>暑さや熱には強いはず――,105501000G,vc_10550100003_025_01,chara_1
+message,リタ,Please wait! That flower is desert-born! It should be resistant to<br>heat and—<br> ,105501000G,vc_10550100003_025_01,chara_1
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,リタ,魔法が使えるなら冷気魔法を！,105501000G,vc_10550100003_026_01,chara_1
+message,リタ,If you can use magic，use Cold Magic!<br> ,105501000G,vc_10550100003_026_01,chara_1
 
 window,off
 wait,0.15
@@ -1087,7 +1087,7 @@ asynccharaemo,chara_6,Exclamation,CONT,0
 
 
 window,on,0.15
-message,一般兵Ｃ,了解！　はぁぁあっ！,401301000,vc_10550100003_027_01,chara_6
+message,一般兵Ｃ,Understood! *pant*!<br> ,401301000,vc_10550100003_027_01,chara_6
 
 window,off
 wait,0.15
@@ -1137,9 +1137,9 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,モンスター,シャアアアッ！？,402001000,,chara_2
+message,モンスター,SHAAA!<br> ,402001000,,chara_2
 
-message,,リタの言葉通りに放たれた冷気魔法がモンスターを急冷する。<br>瘴気を吐き出そうとしていた動きが鈍り、身体もしおれていく。
+message,,The Cold Magic，fired as Rita instructed，rapidly cooled the monster.<br>Its movement to emit miasma slowed，and its body wilted.<br> 
 
 window,off
 wait,0.15
@@ -1193,7 +1193,7 @@ wait,0.5
 
 
 window,on,0.15
-message,一般兵Ｃ,よし、このまま……！,401301000,vc_10550100003_028_01,chara_6
+message,一般兵Ｃ,Alright，just like this...!<br> ,401301000,vc_10550100003_028_01,chara_6
 
 window,off
 wait,0.15
@@ -1240,7 +1240,7 @@ asynccharaemo,chara_2,Anger,CONT,0
 
 
 window,on,0.15
-message,モンスター,ブフフフフーッ！,402001000,,chara_2
+message,モンスター,BFFFFFF!<br> ,402001000,,chara_2
 
 window,off
 wait,0.15
@@ -1294,9 +1294,9 @@ asynccharaemo,chara_6,Panic,CONT,0
 
 
 window,on,0.15
-message,一般兵Ｃ,あっ！？,401301000,vc_10550100003_029_01,chara_6
+message,一般兵Ｃ,Ah!<br> ,401301000,vc_10550100003_029_01,chara_6
 
-message,,最後の力を振り絞り、モンスターが大量の瘴気を吐き出した。
+message,,Mustering its last strength，the monster spewed out a massive amount<br>of miasma.<br> 
 
 window,off
 wait,0.15
@@ -1362,11 +1362,11 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,リタ,させません！,105501000G,vc_10550100003_030_01,chara_1
+message,リタ,I won't let you!<br> ,105501000G,vc_10550100003_030_01,chara_1
 
-message,,リタが兵士の前に立ち、盾を構えて瘴気を受け止める。
+message,,Rita stood in front of the soldier and raised her shield to block<br>the miasma.<br> 
 
-message,<user>,リタ、それでは、お前が――
+message,<user>,Rita，then you'll—<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -1375,7 +1375,7 @@ asyncseplay,setag1_37,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,リタ,いいえ！　我が剣と盾に宿りし花の魔力――<br>その力を解き放ちます！！　ハァァァアアッ！！！,105501000G,vc_10550100003_031_01,chara_1
+message,リタ,No! The flower magic dwelling in my sword and shield—I release that<br>power! *pant*!<br> ,105501000G,vc_10550100003_031_01,chara_1
 
 window,off
 wait,0.15
@@ -1387,9 +1387,9 @@ charafocusonall
 transitionFade,Tra11,in,white,1
 
 window,on,0.15
-message,,瘴気を受け止めている盾、そしてリタが掲げた剣から<br>多くの花びらが生まれ、良い香りを放ちながら室内に舞った。
+message,,From the shield blocking the miasma and Rita's raised sword，many<br>flower petals danced through the room，releasing a sweet fragrance.<br> 
 
-message,,リタの周囲に舞う花びらは彼女の体を癒し、<br>モンスターのそばに流れた花びらは敵を斬り刻む。
+message,,The flower petals dancing around Rita healed her body，while the<br>petals that flowed near the monster slashed and tore at the enemy.<br> 
 
 window,off
 wait,0.15
@@ -1482,7 +1482,7 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,モンスター,シャアアアァッ！？<br>シャア、ア、アァァ……,402001000,,chara_2
+message,モンスター,SHAAAA! SHAA... ah... aaah...<br> ,402001000,,chara_2
 
 window,off
 wait,0.15
@@ -1515,7 +1515,7 @@ shake,CHARA,chara_9,40,0,0.25,20,off,off,0
 bgmstop,bgmtag1_3,1.5,0
 
 window,on,0.15
-message,,モンスターが倒れて、動かなくなった。<br>瘴気もリタの花びらに浄化されて、薄れていく。
+message,,The monster collapsed and stopped moving. The miasma was also<br>purified by Rita's petals and faded away.<br> 
 
 window,off
 wait,0.15
@@ -1573,7 +1573,7 @@ asynccharaemo,chara_6,Sweat,CONT,0
 
 
 window,on,0.15
-message,一般兵Ｃ,……倒せたようです。もう問題ありません。,401301000,vc_10550100003_032_01,chara_6
+message,一般兵Ｃ,It seems we've taken it down. There's no more threat.<br> ,401301000,vc_10550100003_032_01,chara_6
 
 window,off
 wait,0.15
@@ -1619,9 +1619,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,リタ,司令官さま！！　ご無事ですか！？,105501000G,vc_10550100003_033_01,chara_1
+message,リタ,Lord Commander! Are you all right?<br> ,105501000G,vc_10550100003_033_01,chara_1
 
-message,<user>,あぁ……まだ痺れているけどな……<br>それよりも、リタ……よくやってくれた……
+message,<user>,Ah... I'm still numb，but... Rita，you did great.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1632,9 +1632,9 @@ asyncseplay,setag1_47,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,リタ,司令官さま、まだ終わりではありません。<br>前線基地内に先ほどの花がたくさん植えられていました。,105501000G,vc_10550100003_034_01,chara_1
+message,リタ,Lord Commander，this isn't over yet.<br> ,105501000G,vc_10550100003_034_01,chara_1
 
-message,<user>,なんだと……？
+message,<user>,What...?<br> 
 
 window,off
 wait,0.15
@@ -1649,14 +1649,14 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,リタ,司令室にあった花は<br>アリシアさんから肥料を与えられて成長が早かったはず。,105501000G,vc_10550100003_035_01,chara_1
+message,リタ,The flower in the command room—Alicia gave it fertilizer，so it must<br>have grown fast.<br> ,105501000G,vc_10550100003_035_01,chara_1
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,リタ,放っておけば、基地内の至るところでモンスターが生まれます。<br>早く掃討しないと！,105501000G,vc_10550100003_036_01,chara_1
+message,リタ,If we ignore them，monsters will spawn all over the base. We need to<br>wipe them out fast!<br> ,105501000G,vc_10550100003_036_01,chara_1
 
-message,<user>,分かった……アリシア、俺が指揮を執る。<br>冷気魔法の使い手を集めてくれ――
+message,<user>,Alright... Alicia，I'll take charge. Gather the Cold Magic users—<br> 
 
 window,off
 wait,0.15
@@ -1708,7 +1708,7 @@ asynccharaemo,chara_5,Panic,CONT,0
 
 
 window,on,0.15
-message,アリシア,な、何を言っているんですか！？<br>だめですよ！　司令官は体を治してください！,300201000,vc_10550100003_037_01,chara_5
+message,アリシア,Wha— What are you saying? No way! Commander，you need to rest and<br>heal!<br> ,300201000,vc_10550100003_037_01,chara_5
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1719,7 +1719,7 @@ asyncseplay,setag1_50,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,リタ,アリシアさんの言う通りですわ。……司令官さま。<br>わたしに皆さんの指示を任せてくださいませんか？,105501000G,vc_10550100003_038_01,chara_1
+message,リタ,Alicia's right... Lord Commander. Would you allow me to take command<br>of everyone?<br> ,105501000G,vc_10550100003_038_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1731,16 +1731,16 @@ asyncseplay,setag1_51,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,リタ,まだ花をつけていなくても、<br>わたしなら葉を見ただけでどれが危険な植物か判別できます。,105501000G,vc_10550100003_039_01,chara_1
+message,リタ,Even without flowers，I can identify the dangerous ones just from<br>their leaves.<br> ,105501000G,vc_10550100003_039_01,chara_1
 
-message,<user>,……分かった。<br>お前に、任せる……みなと、協力、して……
+message,<user>,Got it... I'll leave it to you... work with the others...<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,リタ,はいっ！！,105501000G,vc_10550100003_040_01,chara_1
+message,リタ,Yes!<br> ,105501000G,vc_10550100003_040_01,chara_1
 
 window,off
 wait,0.15
@@ -1767,7 +1767,7 @@ wait,0.5
 wait,0.5
 
 window,on,0.15
-message,,<user>は診療所に運ばれ、<br>リタはアリシアが選んだ冷気魔法の使い手と共に出発した。
+message,,%user% was carried to the clinic，and Rita departed with the Cold<br>Magic users chosen by Alicia.<br> 
 
 bgmstop,bgmtag1_4,1.5,0
 
@@ -1793,7 +1793,7 @@ bgmplay,bgmtag1_5,bgm0033,0.75,1
 fade,In,Black,0.5
 
 window,on,0.15
-message,,――翌日。ベッドで療養中の<user>を<br>リタが訪ねてきた。
+message,,—The next day，Rita visited %user% while he rested in bed.<br> 
 
 window,off
 wait,0.15
@@ -1837,9 +1837,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,リタ,具合はいかがですか、司令官さま。,105501000G,vc_10550100003_041_01,chara_1
+message,リタ,How are you feeling，Lord Commander?<br> ,105501000G,vc_10550100003_041_01,chara_1
 
-message,<user>,医者の見立てでは、数日かかるらしい。<br>アリシアの看病のおかげで、ずいぶん良くなったけどな。
+message,<user>,The doctor says it'll take a few days，but thanks to Alicia's<br>care，I'm much better now.<br> 
 
 window,off
 wait,0.15
@@ -1893,7 +1893,7 @@ asynccharaemo,chara_5,Laugh,CONT,0
 
 
 window,on,0.15
-message,アリシア,痺れも取れたようですし、もう大丈夫ですよ～。,300201000,vc_10550100003_042_01,chara_5
+message,アリシア,The numbness seems to have gone away，so you're good to go.<br> ,300201000,vc_10550100003_042_01,chara_5
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1904,9 +1904,9 @@ asyncseplay,setag1_54,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,リタ,ふふっ。ご無事で何よりです。,105501000G,vc_10550100003_043_01,chara_1
+message,リタ,Fufu. I'm relieved you're all right.<br> ,105501000G,vc_10550100003_043_01,chara_1
 
-message,<user>,基地内に植えられていた花は駆除できたか？
+message,<user>,Did you manage to eliminate the flowers planted in the base?<br> 
 
 window,off
 wait,0.15
@@ -1953,7 +1953,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,リタ,はい。<br>モンスターへ変化する前にほとんどの花を駆除して――,105501000G,vc_10550100003_044_01,chara_1
+message,リタ,Yes. Before they could transform into monsters，we removed most of<br>them—<br> ,105501000G,vc_10550100003_044_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1964,20 +1964,20 @@ asyncseplay,setag1_56,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,リタ,少しだけモンスターになってしまった花もあったんですけど、<br>皆さんと協力して討伐できました。,105501000G,vc_10550100003_045_01,chara_1
+message,リタ,There were a few that had already turned into monsters，but we worked<br>together and defeated them.<br> ,105501000G,vc_10550100003_045_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,リタ,しばらくは見回りを続けて、見落としがないか、警戒するつもりです。<br>新たに植えられる可能性もゼロではないですしね……,105501000G,vc_10550100003_046_01,chara_1
+message,リタ,I intend to continue patrols for a while to check for any we missed.<br>There's still a possibility new ones could be planted...<br> ,105501000G,vc_10550100003_046_01,chara_1
 
-message,<user>,そうだな……でも、リタがいれば大丈夫そうだ。
+message,<user>,I see... but with you here，Rita，I'm sure it'll be fine.<br> 
 
-message,<user>,正直、こんな形で基地内にモンスターが放たれるとは思っていなかった。<br>お前のおかげで助かったよ。ありがとう。
+message,<user>,Honestly，I never expected monsters to be set loose in the base like<br>this. Thanks to you，we were saved. Thank you.<br> 
 
-message,<user>,それと『弱そうだ』と発言したことも謝る。<br>失礼なことを言って、申し訳ない。
+message,<user>,And I also apologize for saying you looked weak. I'm sorry for being<br>rude.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1988,7 +1988,7 @@ asyncseplay,setag1_57,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,リタ,そ、そんな！　わたしのほうこそ、失礼なことをたくさん――<br>命を狙われていることも知らずに、勝手なことばかり言ってしまいました。,105501000G,vc_10550100003_047_01,chara_1
+message,リタ,Th-that's not true! I'm the one who said many rude things—selfish<br>things—without knowing you were in danger.<br> ,105501000G,vc_10550100003_047_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1999,9 +1999,9 @@ asyncseplay,setag1_58,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,リタ,本当に、申し訳ございません……,105501000G,vc_10550100003_048_01,chara_1
+message,リタ,I truly am sorry...<br> ,105501000G,vc_10550100003_048_01,chara_1
 
-message,<user>,気にするな。ちゃんと助けてもらえたしな。
+message,<user>,Don't worry about it. You helped us when it counted.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -2012,7 +2012,7 @@ asyncseplay,setag1_59,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,リタ,……ありがとうございます。,105501000G,vc_10550100003_049_01,chara_1
+message,リタ,...Thank you.<br> ,105501000G,vc_10550100003_049_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -2023,9 +2023,9 @@ asyncseplay,setag1_60,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,リタ,そ、それと、わたしも瘴気から守っていただけて、<br>とても嬉しかったです……ありがとうございました……♡,105501000G,vc_10550100003_050_01,chara_1
+message,リタ,A-and also，I was so happy that you protected me from the miasma...<br>thank you so much!♡<br> ,105501000G,vc_10550100003_050_01,chara_1
 
-message,<user>,あぁ。……さて、お互いに分かり合えたところで<br>１つリタにお願いだ。
+message,<user>,Yeah... Well，now that we understand each other，I have a request for<br>you，Rita.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -2035,9 +2035,9 @@ asyncseplay,setag1_61,se4800022,0,1,CONT,0
 
 asynccharaemo,chara_1,Speak,CONT,0
 
-message,<user>,お前の実力は今回の件で十分わかった。花の深い知識に、<br>魔法剣士としての力――どちらも前線基地に役立つ。
+message,<user>,I've seen enough of your abilities from this incident. Your flower<br>knowledge and magic swordsmanship—both are assets to the Frontline Base.<br> 
 
-message,<user>,改めて、お前に護衛を頼みたい。<br>引き受けてくれるか？
+message,<user>,I want to formally ask you to be my bodyguard. Will you accept?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -2048,9 +2048,9 @@ asyncseplay,setag1_62,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,リタ,は、はい！　命に代えても、お守りいたします……！,105501000G,vc_10550100003_051_01,chara_1
+message,リタ,Y-yes! I'll protect you even if it costs me my life!<br> ,105501000G,vc_10550100003_051_01,chara_1
 
-message,<user>,それじゃあ困る。絶対に生き延びろ。<br>俺にとっては、お前も守るべき存在だ。それを忘れるな。
+message,<user>,That won't do. You absolutely have to survive. To me，you're also<br>someone I need to protect. Don't forget that.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -2061,7 +2061,7 @@ asyncseplay,setag1_63,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,リタ,は、はい……♡,105501000G,vc_10550100003_052_01,chara_1
+message,リタ,Y-yes!♡<br> ,105501000G,vc_10550100003_052_01,chara_1
 
 window,off
 wait,0.15
@@ -2085,7 +2085,7 @@ asynccharaemo,chara_1,Heart,CONT,0
 
 
 window,on,0.15
-message,リタ,（なんて勇ましくて、お優しい……<br>お父さま、やっぱり司令官さまは想像していた通りの英雄でした！）,105501000G,vc_10550100003_053_01,chara_1
+message,リタ,(How brave and kind... Father，as expected，Lord Commander is exactly<br>the Hero I always imagined!)<br> ,105501000G,vc_10550100003_053_01,chara_1
 
 window,off
 wait,0.15
@@ -2118,7 +2118,7 @@ bgmstop,bgmtag1_5,1,0
 asyncseplay,setag1_65,se4300007,0,1,CONT,0
 
 window,on,0.15
-message,,――ガチャ！
+message,,The door slid open with a clatter.<br> 
 
 window,off
 wait,0.15
@@ -2153,7 +2153,7 @@ asynccharaemo,chara_8,Exclamation,CONT,0
 
 
 window,on,0.15
-message,用心棒Ａ,あ！　いたぞ！,401501000,,chara_8
+message,用心棒Ａ,Ah! There he is!<br> ,401501000,,chara_8
 
 asyncjump,CHARA,chara_7,30,0.25,1,off,0,CONT
 
@@ -2162,7 +2162,7 @@ asyncseplay,setag1_68,se4800016,0,1,CONT,0
 asynccharaemo,chara_7,BePeevish,CONT,0
 
 
-message,用心棒Ｂ,入り口に立て！<br>今日は逃がすなよ！,401601000,vc_10550100003_054_01,chara_7
+message,用心棒Ｂ,Block the entrance! Don't let him escape today!<br> ,401601000,vc_10550100003_054_01,chara_7
 
 bgmplay,bgmtag1_6,bgm0026,0.75,1
 
@@ -2220,7 +2220,7 @@ asynccharaemo,chara_5,Shock,CONT,0
 
 
 window,on,0.15
-message,アリシア,え？<br>酒場の用心棒さん……？,300201000,vc_10550100003_055_01,chara_5
+message,アリシア,Huh? The bouncers from the tavern...?<br> ,300201000,vc_10550100003_055_01,chara_5
 
 window,off
 wait,0.15
@@ -2274,7 +2274,7 @@ asynccharaemo,chara_9,Anger,CONT,0
 
 
 window,on,0.15
-message,踊り子,そう！　司令官がツケ払いにしてる酒場のね！,401401000,vc_10550100003_056_01,chara_9
+message,踊り子,That's right! The tavern where the Commander has a tab!<br> ,401401000,vc_10550100003_056_01,chara_9
 
 asyncshake,CHARA,chara_9,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -2283,9 +2283,9 @@ asyncseplay,setag1_72,se4800001,0,1,CONT,0
 asynccharaemo,chara_9,Anger,CONT,0
 
 
-message,踊り子,昨日、飲み直しに来たと思ったら、目を離した隙に兵士が<br>連れて行っちゃったのさ！　もうツケは許さないて言ったよ？,401401000,vc_10550100003_057_01,chara_9
+message,踊り子,Yesterday，he came back for more drinks，but while I looked<br>away，soldiers took him away! I told him no more tabs，didn't I?<br> ,401401000,vc_10550100003_057_01,chara_9
 
-message,<user>,ま、待て！　あれは逃げたわけじゃなくて、本当に仕事が――
+message,<user>,W-wait! I didn't run away，I really had work—<br> 
 
 asyncjump,CHARA,chara_9,30,0.25,1,off,0,CONT
 
@@ -2294,7 +2294,7 @@ asyncseplay,setag1_73,se4800016,0,1,CONT,0
 asynccharaemo,chara_9,BePeevish,CONT,0
 
 
-message,踊り子,金を払ってから出て行けばよかっただろー！<br>利息分も払ってもらうよ！　あと、痛い目も見てもらう！,401401000,vc_10550100003_058_01,chara_9
+message,踊り子,You should've paid before you left! You're paying with interest! And<br>we're gonna rough you up!<br> ,401401000,vc_10550100003_058_01,chara_9
 
 window,off
 wait,0.15
@@ -2356,7 +2356,7 @@ asynccharaemo,chara_5,Panic,CONT,0
 
 
 window,on,0.15
-message,アリシア,だ、だめですー！？<br>療養中なので、それだけは～！！,300201000,vc_10550100003_059_01,chara_5
+message,アリシア,N-no，you can't! He's still recovering，please stop—!<br> ,300201000,vc_10550100003_059_01,chara_5
 
 window,off
 wait,0.15
@@ -2413,7 +2413,7 @@ wait,0.5
 
 
 window,on,0.15
-message,リタ,（お、お父さま……司令官さまは立派な人物……ですよね？）,105501000G,vc_10550100003_060_01,chara_1
+message,リタ,(F-Father... Lord Commander is a fine person... right?)<br> ,105501000G,vc_10550100003_060_01,chara_1
 
 window,off
 bgmstop,bgmtag1_6,0.5

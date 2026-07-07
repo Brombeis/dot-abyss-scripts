@@ -30,7 +30,7 @@ bgmplay,bgmtag1_1,bgm0035,0.75,1
 
 
 window,on,0.15
-message,,――氷河の災厄を打ち払い、クルルが前線基地に残ると決めたその夜。
+message,,That night，after the Glacier Calamity had been driven back and<br>Kururu had decided to stay at the Frontline Base.<br> 
 
 window,off
 wait,0.15
@@ -68,9 +68,9 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,えへへ～、ということでクルル、 <br>これからもみんなと一緒にいるね！,106701000G,vc_10670100001_001_01,chara_1
+message,クルル,Ehehe! So I'll be with everyone from now on!<br> ,106701000G,vc_10670100001_001_01,chara_1
 
-message,<user>,おう、もちろん大歓迎だ。<br>アリシア、クルルの手続きを頼む。
+message,<user>,Yeah，of course you're welcome. Alicia，handle Kururu's registration.<br> 
 
 window,off
 wait,0.15
@@ -119,7 +119,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,アリシア,もちろんです！ <br>ちょうど宿舎には空き部屋もありますし、そこで寝泊まりしてくださいね。,300201000,vc_10670100001_002_01,chara_2
+message,アリシア,Of course! There's a vacant room in the dormitory，so please make<br>yourself at home!<br> ,300201000,vc_10670100001_002_01,chara_2
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -130,9 +130,9 @@ asyncseplay,setag1_3,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,クルル,やったっ、うれしい～！<br>よろしくね、ご主人さま！,106701000G,vc_10670100001_003_01,chara_1
+message,クルル,Yay，I'm so happy! Please take care of me，Master!<br> ,106701000G,vc_10670100001_003_01,chara_1
 
-message,<user>,祝勝パーティーで遅くなったし、クルルの部屋まで送ろう。 <br>アリシア、案内を頼む。
+message,<user>,The victory party ran late，so let's take Kururu to her room.<br>Alicia，show us the way.<br> 
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -144,7 +144,7 @@ asyncseplay,setag1_4,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,アリシア,はいっ！　こっちですよクルルちゃん。,300201000,vc_10670100001_004_01,chara_2
+message,アリシア,Yes! This way，Kururu.<br> ,300201000,vc_10670100001_004_01,chara_2
 
 asyncjump,CHARA,chara_1,-30,0.5,2,off,0,CONT
 
@@ -153,7 +153,7 @@ asyncseplay,setag1_5,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,クルル,うん、楽しみ～！ <br>おへやっ！　おへや～っ！,106701000G,vc_10670100001_005_01,chara_1
+message,クルル,Yeah，I can't wait! Room! My room!<br> ,106701000G,vc_10670100001_005_01,chara_1
 
 
 window,off
@@ -181,7 +181,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,アリシア,ここがクルルちゃんのお部屋になります。<br>自由に使ってくださいね。,300201000,vc_10670100001_006_01,chara_2
+message,アリシア,This will be your room，Kururu. Make yourself at home.<br> ,300201000,vc_10670100001_006_01,chara_2
 
 window,off
 wait,0.15
@@ -227,7 +227,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,クルル,クルルのおへや……！<br>わぁ～！,106701000G,vc_10670100001_007_01,chara_1
+message,クルル,My own room! Wow!<br> ,106701000G,vc_10670100001_007_01,chara_1
 
 window,off
 wait,0.15
@@ -280,7 +280,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,ちゃんと屋根がある！　壁もすごーい！ <br>これならざーって雨がふっても、ぶわーって風が吹いても平気～！,106701000G,vc_10670100001_008_01,chara_1
+message,クルル,It's got a proper roof! And the walls are amazing! Even if the rain<br>pours down or the wind roars，I'm fine now!<br> ,106701000G,vc_10670100001_008_01,chara_1
 
 window,off
 wait,0.15
@@ -323,7 +323,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,クルル,これ寝床？　 <br>ふわふわでぽわんぽわん！　雲の上にいるみたい,106701000G,vc_10670100001_009_01,chara_1
+message,クルル,Is this my bed? It's so soft and puffy! I feel like I'm on a cloud.<br> ,106701000G,vc_10670100001_009_01,chara_1
 
 window,off
 wait,0.15
@@ -377,9 +377,9 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,アリシア,ふふっ、小さい子どもみたいにはしゃいでますね。,300201000,vc_10670100001_010_01,chara_2
+message,アリシア,Fufu，she's all excited like a little child.<br> ,300201000,vc_10670100001_010_01,chara_2
 
-message,<user>,クルル落ち着け、<br>あんまり暴れると周りの部屋に迷惑だぞ？
+message,<user>,Kururu，calm down. If you keep that up，you'll disturb the other<br>rooms.<br> 
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -391,9 +391,9 @@ asyncseplay,setag1_14,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,クルル,ん～……んん？,106701000G,vc_10670100001_011_01,chara_1
+message,クルル,Mmm... Hmm?<br> ,106701000G,vc_10670100001_011_01,chara_1
 
-message,,と、クルルはくんくんと鼻をヒクつかせる。<br>そして部屋を飛び出すと、廊下を駆けていった。
+message,,Then Kururu sniffed，her nose twitching. She bolted out of the room<br>and raced down the hallway.<br> 
 
 window,off
 wait,0.15
@@ -439,7 +439,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,クルル,スンスン……なんだかいいニオイ！<br>こっちからだ～っ！,106701000G,vc_10670100001_012_01,chara_1
+message,クルル,*sniff sniff*... Something smells nice! This way!<br> ,106701000G,vc_10670100001_012_01,chara_1
 
 window,off
 wait,0.15
@@ -491,9 +491,9 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,アリシア,あっ、クルルちゃん！？<br>食堂のほうに走って行きましたね。,300201000,vc_10670100001_013_01,chara_2
+message,アリシア,Ah，Kururu! She ran off toward the mess hall.<br> ,300201000,vc_10670100001_013_01,chara_2
 
-message,<user>,ったく、自由すぎるだろう……。 <br>おーいクルル、待てーっ！
+message,<user>,Sheesh，she's way too free-spirited... Hey，Kururu，wait!<br> 
 
 asyncseplay,setag1_18,se4000106,0,1,CONT,0
 
@@ -535,7 +535,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,クルル,おいひぃぃぃぃぃ！ <br>あったかくて、飲んだら口の中が幸せ～！,106701000G,vc_10670100001_014_01,chara_1
+message,クルル,Mmm，delicious! It's warm，and every sip makes my mouth so happy!<br> ,106701000G,vc_10670100001_014_01,chara_1
 
 window,off
 wait,0.15
@@ -581,7 +581,7 @@ asynccharaemo,chara_4,Question,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,残り物のスープなのに、そんなに喜ぶもんかねえ。,401601000,vc_10670100001_015_01,chara_4
+message,兵士Ａ,She's making such a big deal over some leftover soup.<br> ,401601000,vc_10670100001_015_01,chara_4
 
 asyncjump,CHARA,chara_3,-30,0.25,1,off,0,CONT
 
@@ -590,7 +590,7 @@ asyncseplay,setag1_21,se4800022,0,1,CONT,0
 asynccharaemo,chara_3,Speak,CONT,0
 
 
-message,兵士Ｂ,良かったらこれも一緒にどうかしら。 <br>ハチミツをたっぷりかけたパンよ。,401001000,vc_10670100001_016_01,chara_3
+message,兵士Ｂ,If you'd like，how about some of this too? It's bread topped with<br>lots of honey.<br> ,401001000,vc_10670100001_016_01,chara_3
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -601,7 +601,7 @@ asyncseplay,setag1_22,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,クルル,ありがと～！ <br>わわっ、あまーい！　んんん～っ！,106701000G,vc_10670100001_017_01,chara_1
+message,クルル,Thank you! Wow，it's so sweet! Mmm!<br> ,106701000G,vc_10670100001_017_01,chara_1
 
 asyncjump,CHARA,chara_3,30,0.25,1,off,0,CONT
 
@@ -610,7 +610,7 @@ asyncseplay,setag1_23,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,兵士Ｂ,気に入った？ <br>ハチミツは自然の甘さだから、クルルちゃんに合うと思ったの。,401001000,vc_10670100001_018_01,chara_3
+message,兵士Ｂ,You like it? I thought honey's natural sweetness would be just right<br>for you.<br> ,401001000,vc_10670100001_018_01,chara_3
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -621,7 +621,7 @@ asyncseplay,setag1_24,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,クルル,うん、これ大好きっ！ <br>こんなに美味しいものはじめて～！,106701000G,vc_10670100001_019_01,chara_1
+message,クルル,Uh-huh，Kururu loves this! Kururu's never had anything so yummy!<br> ,106701000G,vc_10670100001_019_01,chara_1
 
 asynccharaface,chara_4,EyeOpen,CONT,0
 asynccharaface,chara_4,FaceNormal,CONT,0
@@ -633,7 +633,7 @@ asyncseplay,setag1_25,se4800008,0,1,CONT,0
 asynccharaemo,chara_4,Sweat,CONT,0
 
 
-message,兵士Ａ,あんまり食べ過ぎるんじゃねえぞ？ <br>……いや、この細っこい体ならもっと食ったほうがいいな。食え食え！,401601000,vc_10670100001_020_01,chara_4
+message,兵士Ａ,Don't eat too much，now. ...Actually，with a frame that skinny，you<br>need to eat more. Go on，eat up!<br> ,401601000,vc_10670100001_020_01,chara_4
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -644,7 +644,7 @@ asyncseplay,setag1_26,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,クルル,うん、いただきまーす！,106701000G,vc_10670100001_021_01,chara_1
+message,クルル,Let's eat!<br> ,106701000G,vc_10670100001_021_01,chara_1
 
 window,off
 wait,0.15
@@ -688,7 +688,7 @@ transitionCrossFade,Tra01,1
 wait,1
 
 window,on,0.15
-message,<user>,クルル、すっかりみんなと馴染んじゃってるな。
+message,<user>,Kururu's really blending in with everyone，isn't she?<br> 
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -699,7 +699,7 @@ asyncseplay,setag1_27,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,アリシア,それは厄災との戦いでクルルちゃんは最前線で戦っていましたから。<br>皆さん、クルルちゃんに感謝してるんですよ。,300201000,vc_10670100001_022_01,chara_2
+message,アリシア,That's because Kururu fought on the front lines against the<br>Calamity. Everyone here appreciates her.<br> ,300201000,vc_10670100001_022_01,chara_2
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -755,9 +755,9 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,クルル,ふわ～、お腹いっぱい……。 <br>基地ってすごいね、ご主人さま～。,106701000G,vc_10670100001_023_01,chara_1
+message,クルル,Phew，Kururu's so full... This base is amazing，Master.<br> ,106701000G,vc_10670100001_023_01,chara_1
 
-message,<user>,ははっ！　気に入ったか？
+message,<user>,Ahaha! You like it?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -768,7 +768,7 @@ asyncseplay,setag1_29,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,クルル,うんっ！　こんなにすごいところで暮らせるなんて、<br>まるで天国だよぉ～～～♪　ごはんもおいしいしっ♪,106701000G,vc_10670100001_024_01,chara_1
+message,クルル,Yes! Kururu gets to live in a place this amazing... It's like<br>heaven!♪ And the food is yummy!♪<br> ,106701000G,vc_10670100001_024_01,chara_1
 
 window,off
 wait,0.15
@@ -823,7 +823,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,アリシア,宿舎の家賃や食費は天引きになりますが。ちゃんとご飯は３食出ますよ。<br>共同ですが、お風呂とトイレも完備してます。,300201000,vc_10670100001_025_01,chara_2
+message,アリシア,Dorm rent and meal costs are deducted from your pay，but you'll get<br>three proper meals a day. Shared baths and toilets are fully equipped!<br> ,300201000,vc_10670100001_025_01,chara_2
 
 asynccharaface,chara_2,FaceUnique01,CONT,0
 
@@ -834,7 +834,7 @@ asyncseplay,setag1_31,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,アリシア,お掃除とごみ捨てはしっかりお願いしますね。<br>皆さんと一緒に暮らすためのルールです。,300201000,vc_10670100001_026_01,chara_2
+message,アリシア,Please make sure to clean up and take out the trash. These are the<br>rules for living with everyone else.<br> ,300201000,vc_10670100001_026_01,chara_2
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -843,9 +843,9 @@ asyncseplay,setag1_32,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,クルル,ふわわ～～まいにちあんな美味しいのが食べられるの？<br>ホントに天国みたいな暮らしだよ～！,106701000G,vc_10670100001_027_01,chara_1
+message,クルル,Whoa! Kururu can eat such yummy food every day? This is really like<br>heaven!<br> ,106701000G,vc_10670100001_027_01,chara_1
 
-message,<user>,え～と……そういえば、クルルはこれまでどんな生活をしていたんだ？
+message,<user>,So... come to think of it，what kind of life has Kururu been living<br>until now?<br> 
 
 window,off
 wait,0.15
@@ -891,9 +891,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,クルル,クルルはね～、<br>普通に森で暮らしてたよ？,106701000G,vc_10670100001_028_01,chara_1
+message,クルル,Well，Kururu was just living in a forest，you know?<br> ,106701000G,vc_10670100001_028_01,chara_1
 
-message,<user>,森で……普通に？
+message,<user>,In the forest... just normally?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -905,9 +905,9 @@ asyncseplay,setag1_34,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,クルル,うん、森のみんなと一緒に！,106701000G,vc_10670100001_029_01,chara_1
+message,クルル,Yeah，together with all Kururu's forest friends!<br> ,106701000G,vc_10670100001_029_01,chara_1
 
-message,<user>,自然の中でずっと暮らしてたのか！？<br>寝る時はどうしてたんだ？
+message,<user>,You've been living in the wild all this time?! How did you sleep?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -918,9 +918,9 @@ asyncseplay,setag1_35,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,クルル,んっと～……洞窟とか大きな木の枝の上とか？<br>ご主人さま知ってる？　根っこの間って、あったかくてよく寝られるんだよ。,106701000G,vc_10670100001_030_01,chara_1
+message,クルル,Hmm... caves or big tree branches? Master，did you know? It's warm<br>between the roots and you can sleep really well!<br> ,106701000G,vc_10670100001_030_01,chara_1
 
-message,<user>,まるで野生動物みたいな暮らしだな……。<br>寒くはなかったのか？
+message,<user>,That's like living as a wild animal... Weren't you cold?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -932,9 +932,9 @@ asyncseplay,setag1_36,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,クルル,もちろん、冬の夜は寒いよ～？<br>そんな時はみんなの毛皮を寄せ合ってあたたまるんだ～。,106701000G,vc_10670100001_031_01,chara_1
+message,クルル,Of course winter nights are cold! When that happens，we all huddle<br>together in each other's fur and get warm!<br> ,106701000G,vc_10670100001_031_01,chara_1
 
-message,<user>,みんなって……森の動物か？
+message,<user>,By everyone... you mean the forest animals?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -945,9 +945,9 @@ asyncseplay,setag1_37,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,クルル,うん、森の仲間だよ。 <br>魚をとったり、食べられる木の実を集めてみんなで分け合うんだ。,106701000G,vc_10670100001_032_01,chara_1
+message,クルル,Yeah，my forest buddies! We catch fish，gather edible nuts，and share<br>them with everyone.<br> ,106701000G,vc_10670100001_032_01,chara_1
 
-message,<user>,仲間といっても野生の動物だろう。<br>危ない目には合わなかったのか？
+message,<user>,Even if you call them friends，they're wild animals. Didn't you ever<br>get into trouble?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -958,7 +958,7 @@ asyncseplay,setag1_38,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,クルル,ん～時々はそういうこともあったかも？<br>クルルが１０歳ぐらいのころ、お～っきなクマが森にやって来たんだ～。,106701000G,vc_10670100001_033_01,chara_1
+message,クルル,Hmm，maybe sometimes. When Kururu was about ten，a huge bear came to<br>the forest.<br> ,106701000G,vc_10670100001_033_01,chara_1
 
 window,off
 wait,0.15
@@ -1012,7 +1012,7 @@ asynccharaemo,chara_2,Shock,CONT,0
 
 
 window,on,0.15
-message,アリシア,クマ！？　大変じゃないですか！,300201000,vc_10670100001_034_01,chara_2
+message,アリシア,A bear! That must have been awful!<br> ,300201000,vc_10670100001_034_01,chara_2
 
 window,off
 wait,0.15
@@ -1058,7 +1058,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,みんながびっくりしてたから、クルルが相撲をとったんだ。 <br>どーんって投げてやっつけたんだよ。,106701000G,vc_10670100001_035_01,chara_1
+message,クルル,Since everyone was scared，Kururu sumo-wrestled that bear! Kururu<br>went *boom*，threw it，and beat it!<br> ,106701000G,vc_10670100001_035_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1069,9 +1069,9 @@ asyncseplay,setag1_41,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,クルル,それからはクルルが森のボス！ <br>すごいでしょっ！,106701000G,vc_10670100001_036_01,chara_1
+message,クルル,After that，Kururu became the forest boss! Amazing，right!<br> ,106701000G,vc_10670100001_036_01,chara_1
 
-message,<user>,童話みたいな世界で生きてたんだな、クルル……
+message,<user>,You were living in a fairy-tale world，Kururu...<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1083,9 +1083,9 @@ asyncseplay,setag1_42,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,クルル,でも最近、モンスターがいっぱい出てくるようになって、<br>仲間はいっぱい食べられちゃったんだけどね！,106701000G,vc_10670100001_037_01,chara_1
+message,クルル,But lately，lots of monsters started showing up，and a lot of Kururu's<br>friends got eaten!<br> ,106701000G,vc_10670100001_037_01,chara_1
 
-message,<user>,そうか……森にも大穴の影響があったんだな。
+message,<user>,I see... So the Abyss affected the forest too.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1096,7 +1096,7 @@ asyncseplay,setag1_43,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,クルル,うん、食べ物もそいつらに取られちゃったからお腹すいちゃって、<br>で、クルルは大きな穴を冒険するようになったの！,106701000G,vc_10670100001_038_01,chara_1
+message,クルル,Yeah，they stole Kururu's food too，so Kururu got hungry，and then<br>Kururu started exploring the Abyss!<br> ,106701000G,vc_10670100001_038_01,chara_1
 
 window,off
 wait,0.15
@@ -1152,9 +1152,9 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,アリシア,そこで皆さんと出会ったんですね。,300201000,vc_10670100001_039_01,chara_2
+message,アリシア,So that's where you met everyone，then.<br> ,300201000,vc_10670100001_039_01,chara_2
 
-message,<user>,お前、本当によくそんな苦労話をニコニコして話せるな。<br>仲間をモンスターに殺されちゃったんだろ？
+message,<user>,You can really talk about such a tough story with a smile，huh. Your<br>friends were killed by monsters，right?<br> 
 
 window,off
 wait,0.15
@@ -1201,7 +1201,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,クルル,しかたないよ。クルルは食べる。モンスターも食べる。<br>強いのが弱いのを食べるのは森のルールだもん。,106701000G,vc_10670100001_040_01,chara_1
+message,クルル,It can't be helped. Kururu eats. Monsters eat too. The strong eat<br>the weak—that's the rule of the forest!<br> ,106701000G,vc_10670100001_040_01,chara_1
 
 window,off
 wait,0.15
@@ -1221,9 +1221,9 @@ wait,0.5
 
 
 window,on,0.15
-message,クルル,それに、みんなと一緒に暮らしてた思い出は、<br>ずっとクルルの中に残ってるしね！,106701000G,vc_10670100001_041_01,chara_1
+message,クルル,Besides，the memories of living with everyone will always stay with<br>Kururu!<br> ,106701000G,vc_10670100001_041_01,chara_1
 
-message,<user>,クルル……
+message,<user>,Kururu...<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1234,9 +1234,9 @@ asyncseplay,setag1_47,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,クルル,だからクルルは、仲間の分もがんばって生きるんだ！,106701000G,vc_10670100001_042_01,chara_1
+message,クルル,That's why Kururu will live strong for her friends too!<br> ,106701000G,vc_10670100001_042_01,chara_1
 
-message,<user>,そうか……。 <br>強いんだな、クルルは。
+message,<user>,I see... You're strong，Kururu.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1247,7 +1247,7 @@ asyncseplay,setag1_48,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,クルル,うん、クルルはつよいよ！,106701000G,vc_10670100001_043_01,chara_1
+message,クルル,Yep，Kururu is strong!<br> ,106701000G,vc_10670100001_043_01,chara_1
 
 window,off
 wait,0.15
@@ -1262,9 +1262,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（だがやはり、少しだけ寂しそうに見える）
+message,<user>,(But still，she looks a little lonely.)<br> 
 
-message,<user>,（森に戻らず、俺たちと共に戦うと決意してくれた。 <br>それは慣れ親しんだ森を離れるってことだからな）
+message,<user>,(She chose to fight alongside us rather than go back to the forest.<br>That means leaving the home she's so attached to.)<br> 
 
 window,off
 wait,0.15
@@ -1322,7 +1322,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,クルル,はぁ～。 <br>お腹いっぱいになったら眠くなってきちゃった～。,106701000G,vc_10670100001_044_01,chara_1
+message,クルル,*sigh*... My belly's full，so now I'm getting sleepy...<br> ,106701000G,vc_10670100001_044_01,chara_1
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -1333,9 +1333,9 @@ asyncseplay,setag1_50,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,アリシア,クルルちゃん、お疲れのところ恐縮なんですけど、<br>明日も大穴探索の予定があるんですがお願いできますか？,300201000,vc_10670100001_045_01,chara_2
+message,アリシア,Kururu，I'm sorry to bother you when you're tired，but we have plans<br>to explore the Abyss tomorrow. Could you lend a hand?<br> ,300201000,vc_10670100001_045_01,chara_2
 
-message,<user>,そうか。緊急で調査が必要な階層があるんだったな。<br>クルル、悪いが協力してもらえるか？
+message,<user>,Right. There's an urgent floor that needs investigation.<br>Kururu，sorry to ask，but can you help out?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1346,7 +1346,7 @@ asyncseplay,setag1_51,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,クルル,んん～まかせて～。<br>朝になったら起こしてね～。,106701000G,vc_10670100001_046_01,chara_1
+message,クルル,Mmm... Leave it to me. Just wake me up in the morning...<br> ,106701000G,vc_10670100001_046_01,chara_1
 
 window,off
 wait,0.15
@@ -1362,7 +1362,7 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,,クルルはぽわぽわと揺れながら、 <br>自分の部屋に帰っていった。
+message,,Kururu，swaying dizzily，made her way back to her room.<br> 
 
 window,off
 wait,0.15
@@ -1406,11 +1406,11 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,アリシア,大丈夫でしょうか……？,300201000,vc_10670100001_047_01,chara_2
+message,アリシア,Will she be all right...?<br> ,300201000,vc_10670100001_047_01,chara_2
 
-message,<user>,お腹が空いたら食べる、眠くなったから寝る。<br>クルルはいつも自然体なだけだ。
+message,<user>,She eats when she's hungry，sleeps when she's tired. Kururu just<br>lives naturally.<br> 
 
-message,<user>,森育ちの野生児か。 <br>なんだかんだ、心強い味方が来てくれたと思うよ。
+message,<user>,A wild child raised in the forest，huh. All things considered，I think<br>we've got a dependable ally.<br> 
 
 window,off
 bgmstop,bgmtag1_2,0.5

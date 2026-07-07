@@ -26,11 +26,11 @@ bgmplay,bgmtag1_1,bgm0035,0.75,1
 asyncseplay,setag1_1,se4300001,0,1,CONT,0
 
 window,on,0.15
-message,,コンコン――
+message,,There was a knock at the door.<br> 
 
-message,<user>,入っていいぞ。
+message,<user>,Come in.<br> 
 
-message,？？？,はい！　失礼するであります！,900000001,vc_10500100001_001_01,
+message,？？？,Yes! Pardon the intrusion!<br> ,900000001,vc_10500100001_001_01,
 
 
 window,off
@@ -69,7 +69,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 wait,0.5
 
 window,on,0.15
-message,<user>,お前が今日着任した志願兵か。
+message,<user>,So you're the volunteer who arrived today.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -81,9 +81,9 @@ asyncseplay,setag1_4,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ベティ,はいっ！　<br>ミレスガルド出身のベティであります！,105001000G,vc_10500100001_002_01,chara_1
+message,ベティ,Yes! I am Betty of Milesgard!<br> ,105001000G,vc_10500100001_002_01,chara_1
 
-message,<user>,はは、元気なやつだな。<br>前線基地への配属を希望しているみたいだが、どうしてだ？
+message,<user>,Haha，you're a lively one. I heard you requested assignment to the<br>Frontline Base—why's that?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -94,7 +94,7 @@ asyncseplay,setag1_5,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ベティ,はい！　わたしの実家は代々騎士の家柄で<br>幼いころより父や兄の戦場での活躍を目の当たりにしてきたであります！,105001000G,vc_10500100001_003_01,chara_1
+message,ベティ,Yes! My family has been knights for generations. Since<br>childhood，I've witnessed my father and brother's heroic deeds on the battlefield!<br> ,105001000G,vc_10500100001_003_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -105,9 +105,9 @@ asyncseplay,setag1_6,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ベティ,だからわたしも父や兄のような<br>立派な兵士になって活躍するのが目標なのであります！,105001000G,vc_10500100001_004_01,chara_1
+message,ベティ,That's why my goal is to become a great soldier like my father and<br>brother，and to make a name for myself!<br> ,105001000G,vc_10500100001_004_01,chara_1
 
-message,<user>,なるほど。家族にもさぞかし期待されているんだろうな。
+message,<user>,I see. Your family must be expecting great things from you.<br> 
 
 window,off
 wait,0.15
@@ -159,9 +159,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ベティ,え？　そ、それはそのぅ……,105001000G,vc_10500100001_005_01,chara_1
+message,ベティ,Huh? Th-that is... um...<br> ,105001000G,vc_10500100001_005_01,chara_1
 
-message,<user>,なんだ？
+message,<user>,What's wrong?<br> 
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -170,9 +170,9 @@ asyncseplay,setag1_9,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ベティ,実は家族からは、兵士になることを反対されておりまして……,105001000G,vc_10500100001_006_01,chara_1
+message,ベティ,Actually，my family has opposed my becoming a soldier...<br> ,105001000G,vc_10500100001_006_01,chara_1
 
-message,<user>,ほう。なぜだ？
+message,<user>,Oh? Why is that?<br> 
 
 window,off
 wait,0.15
@@ -189,9 +189,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ベティ,わたしのような小柄な女性に<br>危険な戦場の任務など務まるはずはないと……,105001000G,vc_10500100001_007_01,chara_1
+message,ベティ,They said that a small woman like me could never handle dangerous<br>battlefield duties...<br> ,105001000G,vc_10500100001_007_01,chara_1
 
-message,<user>,……なるほどな。だったらここに来たのは正解だな。
+message,<user>,...I see. Then you came to the right place.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -202,9 +202,9 @@ asyncseplay,setag1_11,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ベティ,え？,105001000G,vc_10500100001_008_01,chara_1
+message,ベティ,Huh?<br> ,105001000G,vc_10500100001_008_01,chara_1
 
-message,<user>,ここは戦場の最前線。手柄を取るチャンスはそこかしこに転がっている。<br>ここで手柄をあげて家族に自分が兵士に相応しいと認めさせてやるといい。
+message,<user>,This is the front line. Chances to prove yourself are everywhere.<br>Earn merits here and show your family you've got what it takes.<br> 
 
 window,off
 wait,0.15
@@ -224,7 +224,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ベティ,はっ、はいっ！　きっと司令官殿のご期待に応えてみせるであります！<br>それでは、失礼するであります！,105001000G,vc_10500100001_009_01,chara_1
+message,ベティ,Yes，sir! I will surely meet your expectations，Commander! Now，I shall<br>take my leave!<br> ,105001000G,vc_10500100001_009_01,chara_1
 
 
 window,off
@@ -313,9 +313,9 @@ asynccharaemo,chara_2,Spirits,CONT,0
 
 
 window,on,0.15
-message,アリシア,とても元気で、いい子ですね。,300201000,vc_10500100001_010_01,chara_2
+message,アリシア,She is quite spirited，and seems like a fine girl.<br> ,300201000,vc_10500100001_010_01,chara_2
 
-message,<user>,ああ。ああいうやつがいると、場の空気がよくなる。
+message,<user>,Yeah. Having someone like that around really lifts the mood.<br> 
 
 charapose,chara_2,3
 
@@ -328,9 +328,9 @@ asyncseplay,setag1_16,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,アリシア,活躍できるといいですね。,300201000,vc_10500100001_011_01,chara_2
+message,アリシア,I hope she does well!<br> ,300201000,vc_10500100001_011_01,chara_2
 
-message,<user>,そうだな。
+message,<user>,Yeah.<br> 
 
 
 bgmstop,bgmtag1_1,1.5,0
@@ -357,7 +357,7 @@ wait,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――数か月後</size>,,,on
+messageTextCenter,,<size=48>—A few months later.</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -395,7 +395,7 @@ asynccharaemo,chara_2,Trouble,CONT,0
 
 
 window,on,0.15
-message,アリシア,……というわけで、大穴内の掘削作業は現在、難航しております。<br>専門技術を持った工兵隊には期待していたのですが……,300201000,vc_10500100001_012_01,chara_2
+message,アリシア,So，excavation inside the Abyss is proving difficult. We had high<br>hopes for the Engineer Corps with their specialized skills，but...<br> ,300201000,vc_10500100001_012_01,chara_2
 
 charapose,chara_2,3
 
@@ -408,9 +408,9 @@ asyncseplay,setag1_18,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,アリシア,蓋を開けてみれば、誰が隊長として現場を取り仕切るかで揉めてばかりで<br>仕事がろくに進まない状態です。,300201000,vc_10500100001_013_01,chara_2
+message,アリシア,When we actually looked into it，they've been fighting endlessly over<br>who should take charge as captain，and work has hardly progressed.<br> ,300201000,vc_10500100001_013_01,chara_2
 
-message,<user>,……認めた相手の言うことしか聞かないってところか。<br>職人気質な連中ってのは、こういう時厄介だな。
+message,<user>,So they'll only listen to someone they acknowledge. These<br>craftsman-types can be a real handful at times like this.<br> 
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -420,9 +420,9 @@ asyncseplay,setag1_19,se4800015,0,1,CONT,0
 
 asynccharaemo,chara_2,Dull,CONT,0
 
-message,<user>,隊長か……いっそ、俺が指名してしまうか？<br>いや、頭ごなしの行動をとればやつらはより反発するだけだな……
+message,<user>,The captain，huh... Should I just appoint one myself? No，if I take a<br>high-handed approach，they'll only resist more...<br> 
 
-message,<user>,……考えてもらちが明かないな。<br>ちょっと外の空気を吸ってくる。
+message,<user>,Thinking about it isn't getting me anywhere. I'm going out to get<br>some fresh air.<br> 
 
 
 window,off
@@ -445,7 +445,7 @@ emodelete,chara_2,0,0
 transitionFade,Tra05,in,black,1
 
 window,on,0.15
-message,<user>,荒くれ者揃いの工兵隊のまとめ役、か……<br>どうしたものか……　ん？
+message,<user>,A leader for that rowdy bunch of engineers，huh... What to do... Hmm?<br> 
 
 window,off
 wait,0.15
@@ -486,7 +486,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ベティ,はぁ……<br>どうしたらいいんだろう……,105001000G,vc_10500100001_014_01,chara_1
+message,ベティ,*sigh*... What should I do...<br> ,105001000G,vc_10500100001_014_01,chara_1
 
 window,off
 wait,0.15
@@ -521,7 +521,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,ベティ、久しぶりだな。
+message,<user>,Betty，long time no see.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -534,7 +534,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 wait,0.5
 
 
-message,ベティ,あ、司令官殿……！？,105001000G,vc_10500100001_015_01,chara_1
+message,ベティ,Ah，Lord Commander...!<br> ,105001000G,vc_10500100001_015_01,chara_1
 
 
 window,off
@@ -564,9 +564,9 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ベティ,まさか司令官殿に名前を憶えていてもらえたなんて……！<br>感激であります！,105001000G,vc_10500100001_016_01,chara_1
+message,ベティ,To think you remembered my name，Lord Commander... I'm deeply<br>honored!<br> ,105001000G,vc_10500100001_016_01,chara_1
 
-message,<user>,大げさだな。<br>それはそうと……なにかあったのか？
+message,<user>,You're exaggerating. But anyway... Did something happen?<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -577,9 +577,9 @@ asyncseplay,setag1_23,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ベティ,え？,105001000G,vc_10500100001_017_01,chara_1
+message,ベティ,Huh?<br> ,105001000G,vc_10500100001_017_01,chara_1
 
-message,<user>,浮かない顔でため息ついてたろ？
+message,<user>,You were sighing with a gloomy face，weren't you?<br> 
 
 window,off
 wait,0.15
@@ -598,7 +598,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ベティ,……はは。バレちゃいましたか。<br>さすがは司令官殿であります。,105001000G,vc_10500100001_018_01,chara_1
+message,ベティ,...Haha，you caught me. That's the Lord Commander for you.<br> ,105001000G,vc_10500100001_018_01,chara_1
 
 window,off
 wait,0.15
@@ -617,9 +617,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ベティ,実は……モンスターを討伐する部隊に配属されたでありますが<br>洞窟の中で動けなくなって、仲間に迷惑をかけてしまいまして……,105001000G,vc_10500100001_019_01,chara_1
+message,ベティ,Actually... I was assigned to a monster-hunting squad，but I froze up<br>in a cave and caused trouble for my comrades.<br> ,105001000G,vc_10500100001_019_01,chara_1
 
-message,<user>,動けなくなった？　ケガでもしたのか？
+message,<user>,You froze? Were you injured?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -630,9 +630,9 @@ asyncseplay,setag1_26,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ベティ,それが、そのぅ……わたし、暗い場所が苦手でして。<br>怖くて動けなくなってしまったのであります。,105001000G,vc_10500100001_020_01,chara_1
+message,ベティ,Well，um... I'm not good with dark places. I got scared and couldn't<br>move.<br> ,105001000G,vc_10500100001_020_01,chara_1
 
-message,<user>,それは難儀だな……<br>だったら配置転換を願い出ればどうだ？
+message,<user>,That's tough... If so，why not request a transfer?<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -643,7 +643,7 @@ asyncseplay,setag1_27,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ベティ,そう思って、主計兵に配置換えしてもらったであります。<br>消耗品の管理や調理を担当する主計兵なら、お役に立てると思いまして。,105001000G,vc_10500100001_021_01,chara_1
+message,ベティ,That's why I had myself reassigned as a quartermaster. I thought<br>that as a quartermaster handling supplies and cooking，I could be of use.<br> ,105001000G,vc_10500100001_021_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -654,9 +654,9 @@ asyncseplay,setag1_28,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ベティ,ですが、そこでも失敗を……,105001000G,vc_10500100001_022_01,chara_1
+message,ベティ,But even there，I failed...<br> ,105001000G,vc_10500100001_022_01,chara_1
 
-message,<user>,なんだ、料理が苦手なのか？
+message,<user>,What，you're bad at cooking?<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -667,7 +667,7 @@ asyncseplay,setag1_29,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ベティ,いえ、料理はむしろ得意であります。<br>ですが……,105001000G,vc_10500100001_023_01,chara_1
+message,ベティ,No，cooking is actually my strong suit. But...<br> ,105001000G,vc_10500100001_023_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -678,9 +678,9 @@ asyncseplay,setag1_30,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ベティ,コース料理を振る舞ってしまい<br>戦場でこんなもの呑気に食べてられるか！　と怒られまして……,105001000G,vc_10500100001_024_01,chara_1
+message,ベティ,I served a full-course meal，and they got angry，saying，'Who's got the<br>leisure to eat something like this on the battlefield!'<br> ,105001000G,vc_10500100001_024_01,chara_1
 
-message,<user>,コ、コース料理？
+message,<user>,A f-full-course meal?<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -689,7 +689,7 @@ asyncseplay,setag1_31,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ベティ,おいしい食事で元気になってもらおうと思ったのが<br>仇となったであります。,105001000G,vc_10500100001_025_01,chara_1
+message,ベティ,I thought a tasty meal would cheer them up，but it backfired.<br> ,105001000G,vc_10500100001_025_01,chara_1
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -698,7 +698,7 @@ asyncseplay,setag1_32,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ベティ,そんなことが度々あった末に、ついには兵士失格だと言われ、<br>仕事を任せてもらえなくなったであります……,105001000G,vc_10500100001_026_01,chara_1
+message,ベティ,After a string of such failures，I was eventually told I was a<br>failure as a soldier，and they stopped giving me any tasks...<br> ,105001000G,vc_10500100001_026_01,chara_1
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -707,7 +707,7 @@ asyncseplay,setag1_33,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ベティ,こんなダメダメ兵士、手柄を立てるなんて夢のまた夢であります。<br>故郷の両親に手紙でどう報告すれば……。はぁ……,105001000G,vc_10500100001_027_01,chara_1
+message,ベティ,A useless soldier like me earning merits? A pipe dream. How can I<br>write home? *sigh*...<br> ,105001000G,vc_10500100001_027_01,chara_1
 
 window,off
 wait,0.15
@@ -722,7 +722,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（これはかなり参ってるな。……ん？）
+message,<user>,(She's really down... Huh?)<br> 
 
 window,off
 wait,0.15
@@ -741,9 +741,9 @@ asyncseplay,setag1_34,se4400152,0,1,CONT,0
 asyncjump,CHARA,chara_1,-30,0.5,2,off,0,CONT
 
 window,on,0.15
-message,,ゴシゴシ……
+message,,She scrubbed at the stone.<br> 
 
-message,<user>,ベティ。さっきから何をしているんだ？
+message,<user>,Betty，what have you been doing?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -754,9 +754,9 @@ asyncseplay,setag1_35,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ベティ,ああ、すみません、つい癖で……。<br>これを磨いていたであります。,105001000G,vc_10500100001_028_01,chara_1
+message,ベティ,Ah，sorry，it's a habit... I was polishing this.<br> ,105001000G,vc_10500100001_028_01,chara_1
 
-message,<user>,これは……石か？<br>なんでそんなことを。
+message,<user>,This... is a stone? Why would you do that?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -768,9 +768,9 @@ asyncseplay,setag1_36,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ベティ,わたしの趣味であります！,105001000G,vc_10500100001_029_01,chara_1
+message,ベティ,It's my hobby!<br> ,105001000G,vc_10500100001_029_01,chara_1
 
-message,<user>,石を磨くことがか？
+message,<user>,Polishing stones?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -781,7 +781,7 @@ asyncseplay,setag1_37,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ベティ,はい！,105001000G,vc_10500100001_030_01,chara_1
+message,ベティ,Yes!<br> ,105001000G,vc_10500100001_030_01,chara_1
 
 window,off
 wait,0.15
@@ -797,7 +797,7 @@ asyncseplay,setag1_39,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 window,on,0.15
-message,,――キラッ
+message,,The stone sparkled.<br> 
 
 window,off
 wait,0.15
@@ -807,7 +807,7 @@ charafocusonall
 asyncscreeneffect,BLOOM,off,1,0.5,CONT,0
 
 window,on,0.15
-message,<user>,ん？　その石、随分と光ってないか？
+message,<user>,Huh? That stone，it's shining awfully bright，isn't it?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -818,7 +818,7 @@ asyncseplay,setag1_40,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ベティ,えへっ、そーなんです。,105001000G,vc_10500100001_031_01,chara_1
+message,ベティ,Eheh! That's right.<br> ,105001000G,vc_10500100001_031_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -829,7 +829,7 @@ asyncseplay,setag1_41,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ベティ,長年、土に埋もれて一見、くすんだ石ころも<br>丁寧に根気よく磨いてあげると宝石みたいに綺麗に輝くのであります！,105001000G,vc_10500100001_032_01,chara_1
+message,ベティ,Even a dull pebble buried in the earth for years can shine like a<br>beautiful gem if you polish it carefully and patiently!<br> ,105001000G,vc_10500100001_032_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -841,7 +841,7 @@ asyncseplay,setag1_42,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ベティ,石と言えば、大穴にはきっと、<br>地上では見られない色々な石があると思うのです！,105001000G,vc_10500100001_033_01,chara_1
+message,ベティ,Speaking of stones，I am sure there are all sorts of stones in the<br>Abyss that you cannot see on the surface!<br> ,105001000G,vc_10500100001_033_01,chara_1
 
 window,off
 wait,0.15
@@ -860,9 +860,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ベティ,ああ。大穴には一体どんな石があるんだろう……,105001000G,vc_10500100001_034_01,chara_1
+message,ベティ,Ah... I wonder just what kind of stones are in the Abyss...<br> ,105001000G,vc_10500100001_034_01,chara_1
 
-message,<user>,…………
+message,<user>,...<br> 
 
 window,off
 wait,0.15
@@ -891,11 +891,11 @@ wait,0.5
 
 
 window,on,0.15
-message,ベティ,……わわっ！？　す、すみません、１人ではしゃいでしまって！<br>司令官殿を前にして、つい自分だけの世界に！,105001000G,vc_10500100001_035_01,chara_1
+message,ベティ,Wah! I-I'm sorry，I got carried away all by myself! In front of the<br>Lord Commander，I ended up lost in my own world...<br> ,105001000G,vc_10500100001_035_01,chara_1
 
-message,<user>,いや、構わないさ。<br>夢中になれるものがあるってのはいいことだ。
+message,<user>,No，it's fine. Having something you can get so into is a good thing.<br> 
 
-message,<user>,石のことなら何でも詳しいのか？
+message,<user>,So you know all about stones，then?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -914,7 +914,7 @@ asyncseplay,setag1_47,se4800008,0,1,STOP,1.7
 asynccharaemo,chara_1,Sweat,STOP,1.7
 
 
-message,ベティ,もちろんであります！<br>ただこんな趣味、戦場では何の役にも立ちませんが……,105001000G,vc_10500100001_036_01,chara_1
+message,ベティ,Of course! But a hobby like this is completely useless on the<br>battlefield...<br> ,105001000G,vc_10500100001_036_01,chara_1
 
 window,off
 wait,0.15
@@ -930,7 +930,7 @@ asynccharaemo,chara_1,Dull,CONT,0
 asyncwait
 
 window,on,0.15
-message,<user>,……ベティ。
+message,<user>,...Betty.<br> 
 
 window,off
 wait,0.15
@@ -950,9 +950,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ベティ,って、くよくよなんかしていられませんよね！<br>明日から、また頑張らないと！,105001000G,vc_10500100001_037_01,chara_1
+message,ベティ,I mean，I cannot be moping around，right! I have to work hard again<br>starting tomorrow!<br> ,105001000G,vc_10500100001_037_01,chara_1
 
-message,<user>,大丈夫なのか？
+message,<user>,Are you sure you're okay?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -963,9 +963,9 @@ asyncseplay,setag1_50,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ベティ,もちろんであります！　元気だけがわたしの取柄でありますから！<br>司令官殿も笑顔でファイトでありますよ！,105001000G,vc_10500100001_038_01,chara_1
+message,ベティ,Of course! Enthusiasm is the only thing I have going for me! So you<br>too must give it your all with a smile，Lord Commander!<br> ,105001000G,vc_10500100001_038_01,chara_1
 
-message,<user>,ふっ。そうだな。
+message,<user>,Heh. Yeah，I guess so.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -977,7 +977,7 @@ asyncseplay,setag1_51,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ベティ,では、これで失礼します！,105001000G,vc_10500100001_039_01,chara_1
+message,ベティ,Well then，I shall take my leave!<br> ,105001000G,vc_10500100001_039_01,chara_1
 
 window,off
 wait,0.15
@@ -993,7 +993,7 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,<user>,……ちょっと待ってくれ。
+message,<user>,...Hold on a second.<br> 
 
 window,off
 wait,0.15
@@ -1026,9 +1026,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ベティ,はい？　何でしょう？,105001000G,vc_10500100001_040_01,chara_1
+message,ベティ,Yes? What is it?<br> ,105001000G,vc_10500100001_040_01,chara_1
 
-message,<user>,ベティ、ちょっと俺に付き合ってくれないか？
+message,<user>,Betty，would you come with me for a bit?<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1039,7 +1039,7 @@ asyncseplay,setag1_53,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ベティ,？,105001000G,vc_10500100001_041_01,chara_1
+message,ベティ,...?<br> ,105001000G,vc_10500100001_041_01,chara_1
 
 window,off
 bgmstop,bgmtag1_2,0.5

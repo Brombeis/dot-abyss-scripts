@@ -395,7 +395,7 @@ asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,ミルティーユ,実は知らない間に<br>宿舎のキッチンから売りもののタルトがなくなっていて。,102901000G,vc_10290100001_012_01,chara_1
+message,ミルティーユ,While I wasn't paying attention，the tarts I was selling vanished<br>from the kitchen in the lodgings.<br> ,102901000G,vc_10290100001_012_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -406,9 +406,9 @@ asyncseplay,setag1_16,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ミルティーユ,誰かが持っていっちゃったみたいなんですよ～。,102901000G,vc_10290100001_013_01,chara_1
+message,ミルティーユ,It looks like someone took them.<br> ,102901000G,vc_10290100001_013_01,chara_1
 
-message,<user>,売りもののタルトがなくなっていた、か……
+message,<user>,So the tarts for sale had gone missing，huh...<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -419,9 +419,9 @@ asyncseplay,setag1_17,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,ミルティーユ,それに～、作り直そうとしたら食料庫の果物も減ってるみたいで～。<br>ミルが使ったんじゃないかって言われちゃったんですよ～！,102901000G,vc_10290100001_014_01,chara_1
+message,ミルティーユ,And when I tried to make more，the fruit in the pantry was running<br>low too! They said Mil must have used it!<br> ,102901000G,vc_10290100001_014_01,chara_1
 
-message,<user>,ひどい濡れ衣だな。<br>いくらミルティーユでもそんなに大量のお菓子は作らないだろう。
+message,<user>,That's a terrible false accusation. Not even Myrtille would make<br>that many sweets.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -432,9 +432,9 @@ asyncseplay,setag1_18,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ミルティーユ,いえ～、目の前に材料があると作っちゃうんですけど～……,102901000G,vc_10290100001_015_01,chara_1
+message,ミルティーユ,Well，if I have ingredients right in front of me，I end up making<br>them...<br> ,102901000G,vc_10290100001_015_01,chara_1
 
-message,<user>,作るのかよ！<br>そりゃ疑われても仕方ないぞ！
+message,<user>,So you do make them! No wonder they suspect you!<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -445,7 +445,7 @@ asyncseplay,setag1_19,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ミルティーユ,うううぅ～！<br>だって材料のみんなが美味しくしてねって言うんですよぉ～！,102901000G,vc_10290100001_016_01,chara_1
+message,ミルティーユ,Ugh! But the ingredients all tell me to make them yummy!<br> ,102901000G,vc_10290100001_016_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -456,7 +456,7 @@ asyncseplay,setag1_20,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ミルティーユ,でも今回は本当にミルじゃないんです～！<br>信じてくださいぃ～！！,102901000G,vc_10290100001_017_01,chara_1
+message,ミルティーユ,But it really wasn't Mil this time! Please believe me!<br> ,102901000G,vc_10290100001_017_01,chara_1
 
 window,off
 wait,0.15
@@ -503,7 +503,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,ま、ミルティーユが嘘を言う理由もないか。<br>タルトと果物が消えたのは事実なんだろう。
+message,<user>,Well，Myrtille has no reason to lie. The tarts and fruit really did<br>vanish.<br> 
 
 asynccharaface,chara_2,FaceUnique03,CONT,0
 
@@ -514,9 +514,9 @@ asyncseplay,setag1_21,se4800016,0,1,CONT,0
 asynccharaemo,chara_2,BePeevish,CONT,0
 
 
-message,アリシア,つまり宿舎に泥棒が出てるってことですか？<br>基地で盗難事件なんて困りますよ！,300201000,vc_10290100001_018_01,chara_2
+message,アリシア,So you're saying there's a thief in the lodgings? We can't have<br>theft at the base!<br> ,300201000,vc_10290100001_018_01,chara_2
 
-message,<user>,ああ、司令官として放ってはおけない。<br>さっそく現場の調査に向かうぞ！
+message,<user>,Yeah，I can't ignore this as the Commander. Let's head to the scene<br>now!<br> 
 
 
 window,off
@@ -568,9 +568,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ミルティーユ,ここだよ～！<br>机に置いておいたタルトがなくなってたの～。,102901000G,vc_10290100001_019_01,chara_1
+message,ミルティーユ,Right here! The tarts I left on the table are gone.<br> ,102901000G,vc_10290100001_019_01,chara_1
 
-message,<user>,宿舎の人間なら誰でも持っていけそうな場所、か。<br>犯人の特定は難しそうだな……
+message,<user>,A place any resident could have taken from，huh. Identifying the<br>culprit will be tough...<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -581,7 +581,7 @@ asyncseplay,setag1_22,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ミルティーユ,うう、タルトがほしいなら言ってくれればいいのに～！<br>どうしてこっそり持っていっちゃうのかな～？,102901000G,vc_10290100001_020_01,chara_1
+message,ミルティーユ,Ugh，if they wanted tarts，they could have just asked! Why sneak them<br>away?<br> ,102901000G,vc_10290100001_020_01,chara_1
 
 window,off
 wait,0.15
@@ -605,7 +605,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,ん……？　これは……。<br>ミルティーユ、こっちに来てみろ。
+message,<user>,Hm? What's this...? Myrtille，come here.<br> 
 
 window,off
 wait,0.15
@@ -655,9 +655,9 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ミルティーユ,どうしたんですか、しれーかんさま？,102901000G,vc_10290100001_021_01,chara_1
+message,ミルティーユ,What is it，Commander?<br> ,102901000G,vc_10290100001_021_01,chara_1
 
-message,,<user>の示した先、<br>キッチン隅の裏口に小さな足跡が残っていた。
+message,,Where %user% pointed，small footprints remained at the back door in<br>the corner of the kitchen.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -666,9 +666,9 @@ asyncseplay,setag1_24,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ミルティーユ,これ……足跡～？,102901000G,vc_10290100001_022_01,chara_1
+message,ミルティーユ,These... footprints?<br> ,102901000G,vc_10290100001_022_01,chara_1
 
-message,<user>,ああ。かなり小さいが間違いない。<br>短いゴワゴワした毛も落ちているし、誰かが侵入したのは確かだろう。
+message,<user>,Yeah，they're quite small，but no doubt about it. Some short，coarse<br>hair is scattered here too，so someone definitely broke in.<br> 
 
 window,off
 wait,0.15
@@ -685,9 +685,9 @@ asyncwait
 
 
 window,on,0.15
-message,ミルティーユ,じゃあタルトを持っていったのは……,102901000G,vc_10290100001_023_01,chara_1
+message,ミルティーユ,So the one who took my tarts was...<br> ,102901000G,vc_10290100001_023_01,chara_1
 
-message,<user>,足跡の主って可能性がある。<br>追ってみようじゃないか。
+message,<user>,There's a chance it's whoever left those footprints. Let's go after<br>them.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -699,7 +699,7 @@ asyncseplay,setag1_26,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ミルティーユ,うん～！<br>どうしてタルトを持っていったのか、教えてもらおう～！,102901000G,vc_10290100001_024_01,chara_1
+message,ミルティーユ,Yeah! Let's go ask why they took my tarts!<br> ,102901000G,vc_10290100001_024_01,chara_1
 
 
 window,off
@@ -737,9 +737,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ミルティーユ,基地を出て森に入っちゃいましたね～。,102901000G,vc_10290100001_025_01,chara_1
+message,ミルティーユ,We've left the base and gone into the forest.<br> ,102901000G,vc_10290100001_025_01,chara_1
 
-message,<user>,ここまで足跡を追ってきたが、<br>あまり基地から離れるのは危険だな……
+message,<user>,We've tracked the footprints this far，but straying too far from base<br>is risky...<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -748,9 +748,9 @@ asyncseplay,setag1_28,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ミルティーユ,あれれ？　あそこにいるのって……,102901000G,vc_10290100001_026_01,chara_1
+message,ミルティーユ,Huh? Isn't that over there...?<br> ,102901000G,vc_10290100001_026_01,chara_1
 
-message,,森に入ってすぐ、木々の合間に隠れるように、<br>もふもふとした小さな動物がうずくまっていた。
+message,,Just inside the forest，a small fluffy animal lay crouched，as if<br>hiding among the trees.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -762,9 +762,9 @@ asyncseplay,setag1_29,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ミルティーユ,熊さん、かな～？,102901000G,vc_10290100001_027_01,chara_1
+message,ミルティーユ,Mr. Bear，I wonder?<br> ,102901000G,vc_10290100001_027_01,chara_1
 
-message,<user>,子熊のようだな。<br>あんなところで何をしてるんだ……？
+message,<user>,It looks like a bear cub. What's it doing out here...?<br> 
 
 window,off
 wait,0.15
@@ -792,9 +792,9 @@ asyncseplay,setag1_30,se4403002,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,子熊,……がう？,900000003
+message,子熊,...*grr*?<br> ,900000003
 
-message,,気配に気づいたのか、子熊が<user>たちへ振り向く。<br>その口元にはミルティーユのタルトが詰め込まれ、足元に果物が落ちていた。
+message,,Sensing their presence，the bear cub turned toward them. Its mouth<br>was stuffed with Myrtille's tart，and fruit was scattered at its feet.<br> 
 
 window,off
 wait,0.15
@@ -824,7 +824,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,く、熊がタルトを食ってるー！！！
+message,<user>,Th-there's a bear eating the tarts!<br> 
 
 asyncshake,CHARA,chara_1,20,15,0.5,6,on,off,0,off,CONT,0
 
@@ -833,11 +833,11 @@ asyncseplay,setag1_31,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ミルティーユ,えええ～！<br>犯人は熊さんだったのぉ～？,102901000G,vc_10290100001_028_01,chara_1
+message,ミルティーユ,Eeeh! So the culprit was Mr. Bear?<br> ,102901000G,vc_10290100001_028_01,chara_1
 
-message,子熊,が、がう……がうがう……,900000003
+message,子熊,*G-grr... grr，grr...*<br> ,900000003
 
-message,,子熊は残ったタルトの残骸、そしてミルティーユの姿を見比べて、<br>どこかすまなそうな顔でうなった。
+message,,The cub glanced between the leftover tart scraps and Myrtille，then<br>gave an apologetic growl.<br> 
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -846,9 +846,9 @@ asyncseplay,setag1_32,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ミルティーユ,なんだかごめんなさいをしてるみたい～？,102901000G,vc_10290100001_029_01,chara_1
+message,ミルティーユ,Mr. Bear looks like he's saying sorry?<br> ,102901000G,vc_10290100001_029_01,chara_1
 
-message,<user>,そうだな……妙にリアクションの上手い熊だ……
+message,<user>,Yeah... this bear is surprisingly expressive...<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -856,7 +856,7 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,ミルティーユ,熊さんも悪いことをしたって分かってるんだねぇ～。,102901000G,vc_10290100001_030_01,chara_1
+message,ミルティーユ,Mr. Bear knows he did something bad，doesn't he?<br> ,102901000G,vc_10290100001_030_01,chara_1
 
 window,off
 wait,0.15
@@ -868,9 +868,9 @@ asyncseplay,setag1_33,se4403002,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,子熊,がうぅ……,900000003
+message,子熊,*Grrr...*<br> ,900000003
 
-message,,ごめんなさい、怒ってますか……？　とでも言うように、<br>恐る恐るミルティーユを見上げる子熊。
+message,,As if to say 'I'm sorry... are you upset...?' the cub nervously<br>looked up at Myrtille.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -881,9 +881,9 @@ asyncseplay,setag1_34,se4800002,0,1,CONT,0
 asynccharaemo,chara_1,Heart,CONT,0
 
 
-message,ミルティーユ,どうしよう～！　とっても可愛いぃ～！！,102901000G,vc_10290100001_031_01,chara_1
+message,ミルティーユ,Oh my! He's so cuteee!<br> ,102901000G,vc_10290100001_031_01,chara_1
 
-message,<user>,熊のくせに表情豊かだな……。<br>まあ、反省してるのは分かったが。
+message,<user>,You're pretty expressive for a bear... Well，I can tell you're<br>sorry，though.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -894,11 +894,11 @@ asyncseplay,setag1_35,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ミルティーユ,いい子みたいなのに、どうしてこんなことしたのかな～？,102901000G,vc_10290100001_032_01,chara_1
+message,ミルティーユ,Why would a nice kid like him do something like this? Mil wonders.<br> ,102901000G,vc_10290100001_032_01,chara_1
 
-message,<user>,今年は果物が不作だったらしいし、<br>食べるものが見つからなかったのかもしれん。
+message,<user>,The fruit crop was apparently poor this year，so maybe he couldn't<br>find food.<br> 
 
-message,<user>,見ろ、こいつの耳。<br>縄張り争いに負けたんだろう、大きな噛み傷がついてるぞ。
+message,<user>,Look at this ear. He probably lost a territory fight—there's a big<br>bite mark.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -909,14 +909,14 @@ asyncseplay,setag1_36,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ミルティーユ,……そっか。<br>お腹が減ってたんだ～。,102901000G,vc_10290100001_033_01,chara_1
+message,ミルティーユ,Mil sees... He was hungry...<br> ,102901000G,vc_10290100001_033_01,chara_1
 
-message,子熊,がうう……,900000003
+message,子熊,Rufff...<br> ,900000003
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,ミルティーユ,勝手に持っていったのは良くないけど、でもぉ～。,102901000G,vc_10290100001_034_01,chara_1
+message,ミルティーユ,He shouldn't have taken it without asking，but...<br> ,102901000G,vc_10290100001_034_01,chara_1
 
 window,off
 wait,0.15
@@ -945,7 +945,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,,ミルティーユは子熊へ歩み寄り、<br>いくつかのタルトをそっと足元へ置いた。
+message,,Myrtille walked up to the bear cub and gently placed several tarts<br>at its feet.<br> 
 
 window,off
 wait,0.15
@@ -972,9 +972,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ミルティーユ,はい、これ。<br>食べていいよぉ～。,102901000G,vc_10290100001_035_01,chara_1
+message,ミルティーユ,Here you go. You can eat.<br> ,102901000G,vc_10290100001_035_01,chara_1
 
-message,子熊,がうっ！？　がうがうっ！？,900000003
+message,子熊,Ruff!? Ruff ruff!?<br> ,900000003
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -985,13 +985,13 @@ asyncseplay,setag1_38,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ミルティーユ,うん、遠慮しなくて大丈夫～。,102901000G,vc_10290100001_036_01,chara_1
+message,ミルティーユ,Mm-hmm，you don't have to be shy.<br> ,102901000G,vc_10290100001_036_01,chara_1
 
 asyncseplay,setag1_39,se4403003,0,1,CONT,0
 
-message,子熊,がうぅぅぅっ！,900000003
+message,子熊,Rufffff!<br> ,900000003
 
-message,,子熊は何度もミルティーユの表情を確認し、<br>大喜びでタルトにかぶりついた。
+message,,The bear cub checked Myrtille's expression several times，then<br>happily gobbled up the tarts.<br> 
 
 window,off
 wait,0.15
@@ -1027,7 +1027,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,いいのか？　大事な売りものなんだろう？
+message,<user>,Are you sure? Those were meant to be sold，weren't they?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1038,7 +1038,7 @@ asyncseplay,setag1_40,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ミルティーユ,売りものっていっても、お店をしているわけじゃないの。<br>ほしいって思ってくれる人に買ってもらってるだけなんだ～。,102901000G,vc_10290100001_037_01,chara_1
+message,ミルティーユ,Well，even if they're merchandise，it's not like Mil runs a shop. Mil<br>just lets people buy them if they want.<br> ,102901000G,vc_10290100001_037_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1050,7 +1050,7 @@ asyncseplay,setag1_41,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ミルティーユ,それに、これはお試しで作ったり、<br>失敗しちゃった分だから、大丈夫～！,102901000G,vc_10290100001_038_01,chara_1
+message,ミルティーユ,Besides，these are just trial runs or rejects，so it's fine!<br> ,102901000G,vc_10290100001_038_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1061,18 +1061,18 @@ asyncseplay,setag1_42,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ミルティーユ,ほら、ハチミツたっぷりの試作品、<br>美味しそうに食べてくれてるよぉ～。,102901000G,vc_10290100001_039_01,chara_1
+message,ミルティーユ,Look! He's enjoying the honey-filled sample so much!<br> ,102901000G,vc_10290100001_039_01,chara_1
 
-message,子熊,がうぅ～♪,900000003
+message,子熊,Ruff!♪<br> ,900000003
 
-message,<user>,それにしたって熊にやるのはもったいないと思うがな。<br>試作品でも食べたがるやつはたくさんいるだろ？
+message,<user>,Even so，I think it's a waste to give them to a bear. There are<br>plenty of people who'd want them，even if they're just samples，right?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,ミルティーユ,うん～、きっと食べてくれる人はいると思う～。<br>でもね、本当にほしがってる相手にあげたいなって。,102901000G,vc_10290100001_040_01,chara_1
+message,ミルティーユ,Mm，Mil thinks there are people who'd eat them... but Mil wants to<br>give them to someone who really wants them，you know~<br> ,102901000G,vc_10290100001_040_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1087,9 +1087,9 @@ asynccharaface,chara_1,FaceHappy,STOP,4.8
 asyncjump,CHARA,chara_1,-30,0.25,1,off,4.8,STOP
 
 
-message,ミルティーユ,やっぱりミルが作ったお菓子を美味しそうに食べてくれるのが<br>何よりも一番嬉しいんだ～。,102901000G,vc_10290100001_041_01,chara_1
+message,ミルティーユ,After all，the thing that makes Mil happiest is seeing someone<br>happily eat the treats Mil made~<br> ,102901000G,vc_10290100001_041_01,chara_1
 
-message,<user>,……そうか。
+message,<user>,...I see.<br> 
 
 window,off
 wait,0.15
@@ -1104,9 +1104,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（ミルティーユは俺が悩んでいるのを察したように差し入れをくれた。<br>そうやって自分のお菓子で誰かを救おうとがんばってるんだろう）
+message,<user>,(Myrtille gave me that treat as if she sensed I was troubled. She's<br>trying to save people with her sweets，isn't she?)<br> 
 
-message,<user>,（人間が相手でも熊が相手でも、<br>その気持ちに変わりはない、か）
+message,<user>,(Whether it's a person or a bear，that feeling doesn't change，huh.)<br> 
 
 window,off
 wait,0.15
@@ -1148,9 +1148,9 @@ asyncseplay,setag1_44,se4403002,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,子熊,がぅ……がうがうっ！,900000003
+message,子熊,Grr... grr grr!<br> ,900000003
 
-message,,子熊はタルトを食べ終え、<br>ありがとうございます！　と言うかのように片手を上げた。
+message,,The bear cub finished the tart and raised a paw，as if to say 'Thank<br>you!'<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1161,7 +1161,7 @@ asyncseplay,setag1_45,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ミルティーユ,うん、お礼ができていい子だね～。,102901000G,vc_10290100001_042_01,chara_1
+message,ミルティーユ,Yes，you said thank you，good boy~<br> ,102901000G,vc_10290100001_042_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1172,9 +1172,9 @@ asyncseplay,setag1_46,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ミルティーユ,お腹が減ったら勝手に持っていくんじゃなくて、<br>ちゃんと相談してね～？,102901000G,vc_10290100001_043_01,chara_1
+message,ミルティーユ,Next time you're hungry，don't just take things without permission.<br>Come talk to Mil first，okay?<br> ,102901000G,vc_10290100001_043_01,chara_1
 
-message,子熊,がうがう～！,900000003
+message,子熊,Grr grr!<br> ,900000003
 
 window,off
 wait,0.15
@@ -1214,7 +1214,7 @@ bgmplay,bgmtag1_3,bgm0025,0.75,1
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,<user>,やれやれ、これで問題解決か。
+message,<user>,Well，well，problem solved，huh.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1225,7 +1225,7 @@ asyncseplay,setag1_48,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ミルティーユ,ありがと～、しれーかんさま！<br>宿舎のみんなに、心配しなくていいよって言ってあげられるよ～。,102901000G,vc_10290100001_044_01,chara_1
+message,ミルティーユ,Thank you~ Commander! Now I can tell everyone at the lodgings not to<br>worry!<br> ,102901000G,vc_10290100001_044_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1236,7 +1236,7 @@ asyncseplay,setag1_49,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ミルティーユ,熊さんとも仲良くなれたし、<br>たくさんお菓子を食べてもらえた～！,102901000G,vc_10290100001_045_01,chara_1
+message,ミルティーユ,I made friends with Mr. Bear，and he ate lots of treats~<br> ,102901000G,vc_10290100001_045_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1247,9 +1247,9 @@ asyncseplay,setag1_50,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ミルティーユ,全部しれーかんさまのおかげです～。,102901000G,vc_10290100001_046_01,chara_1
+message,ミルティーユ,It's all thanks to you，Commander~<br> ,102901000G,vc_10290100001_046_01,chara_1
 
-message,<user>,俺は少し手伝っただけで、ミルティーユががんばっただけだ。<br>このぐらいで良ければいつでも手を貸すよ。
+message,<user>,I only helped a little. You did all the work，Myrtille. If that's<br>enough to help，I'll lend a hand anytime.<br> 
 
 window,off
 wait,0.15
@@ -1268,7 +1268,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ミルティーユ,……優しいんですね、しれーかんさま。,102901000G,vc_10290100001_047_01,chara_1
+message,ミルティーユ,...You're so kind，Commander.<br> ,102901000G,vc_10290100001_047_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1280,9 +1280,9 @@ asyncseplay,setag1_52,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ミルティーユ,それならしれーかんさまも、<br>お腹が減ったらいつでもミルのところに来てね～！,102901000G,vc_10290100001_048_01,chara_1
+message,ミルティーユ,In that case，you should come to Mil anytime you're hungry too~<br> ,102901000G,vc_10290100001_048_01,chara_1
 
-message,<user>,……じゃあさっそくで悪いんだが、<br>森まで歩いて腹が減っていてな……
+message,<user>,...Well then，sorry to ask right away，but I walked all the way to the<br>forest and I'm hungry...<br> 
 
 window,off
 wait,0.15
@@ -1316,7 +1316,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ミルティーユ,ふふ～。<br>じゃあ一緒にキッチンにいこ～！,102901000G,vc_10290100001_049_01,chara_1
+message,ミルティーユ,Fufu~ Then let's go to the kitchen together!<br> ,102901000G,vc_10290100001_049_01,chara_1
 
 window,off
 bgmstop,bgmtag1_3,0.5

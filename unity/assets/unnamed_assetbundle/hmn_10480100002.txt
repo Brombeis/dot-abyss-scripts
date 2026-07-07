@@ -34,7 +34,7 @@ bgmplay,bgmtag1_1,bgm0041,0.75,1
 
 
 window,on,0.15
-message,<user>,どれどれ。セレストは……んっ、あそこか。
+message,<user>,Let's see. Celeste... mm，there she is.<br> 
 
 window,off
 wait,0.15
@@ -86,7 +86,7 @@ asynccharaemo,chara_1,Elated,STOP,7.86
 
 
 window,on,0.15
-message,セレスト,あーあ、せっかくラッキーだと思ったのに……<br>やってらんなーい……こういうときは、あの場所に行って――,104801000G,vc_10480100002_001_01,chara_1
+message,セレスト,Aah，just when I thought I'd gotten lucky...<br>Can't be bothered... Times like this，I head to that place—<br> ,104801000G,vc_10480100002_001_01,chara_1
 
 window,off
 wait,0.15
@@ -119,7 +119,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,よぅ、セレスト。
+message,<user>,Hey，Celeste.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -130,15 +130,15 @@ asyncseplay,setag1_3,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,セレスト,げっ、あんたは……,104801000G,vc_10480100002_002_01,chara_1
+message,セレスト,Ugh，it's you...<br> ,104801000G,vc_10480100002_002_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
 
 
-message,セレスト,なんだよ。あたしに恨み言でもぶつけに来た？,104801000G,vc_10480100002_003_01,chara_1
+message,セレスト,What? You come here to give me a piece of your mind?<br> ,104801000G,vc_10480100002_003_01,chara_1
 
-message,<user>,そういうわけじゃない。ただ、お前のことが気になってな。
+message,<user>,Not really. Just wondering about you.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -149,9 +149,9 @@ asyncseplay,setag1_4,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,セレスト,えっ……新手のナンパ？<br>それとも、誤認逮捕の弱みに付け込んで……！？,104801000G,vc_10480100002_004_01,chara_1
+message,セレスト,Huh... A new pickup line? Or trying to exploit that mistaken arrest<br>weakness...?<br> ,104801000G,vc_10480100002_004_01,chara_1
 
-message,<user>,……いや、単に、強盗犯を追うのが大変なんじゃないか、と。
+message,<user>,...No，I just figured chasing down that robber must be pretty rough.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -163,9 +163,9 @@ asyncseplay,setag1_5,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,セレスト,あぁ、そう――,104801000G,vc_10480100002_005_01,chara_1
+message,セレスト,Oh，right—<br> ,104801000G,vc_10480100002_005_01,chara_1
 
-message,<user>,これから真犯人を探すんだろう？<br>奴の顔を見た俺の力は必要なはずだ。役に立つぞ。
+message,<user>,You're going after the real culprit，aren't you?<br>You'll need me—I saw his face. I can help.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -176,9 +176,9 @@ asyncseplay,setag1_6,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,セレスト,えー、あー、うーん……,104801000G,vc_10480100002_006_01,chara_1
+message,セレスト,Eh，ah，umm...<br> ,104801000G,vc_10480100002_006_01,chara_1
 
-message,<user>,……？
+message,<user>,...<br> 
 
 window,off
 wait,0.15
@@ -201,7 +201,7 @@ wait,0.5
 
 
 window,on,0.15
-message,セレスト,ま、あたしと一緒にいたいなら、別に止めないわよ。,104801000G,vc_10480100002_007_01,chara_1
+message,セレスト,Well，if you want to stick around，I'm not gonna stop you.<br> ,104801000G,vc_10480100002_007_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -212,9 +212,9 @@ asyncseplay,setag1_8,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,セレスト,ただ、あたしはやりたいようにやらせてもらうわ。<br>それでいい？,104801000G,vc_10480100002_008_01,chara_1
+message,セレスト,But I'm gonna do things my way.<br>That cool?<br> ,104801000G,vc_10480100002_008_01,chara_1
 
-message,<user>,捜査方針に口を出すな、ということか。<br>分かった。それでいこう。
+message,<user>,So don't question my methods，huh?<br>Got it. I'm fine with that.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -229,9 +229,9 @@ asynccharaface,chara_1,FaceSad,STOP,3.7
 asyncjump,CHARA,chara_1,-30,0.25,1,off,3.7,STOP
 
 
-message,セレスト,あ～……まぁ、はい。それでいいや。,104801000G,vc_10480100002_009_01,chara_1
+message,セレスト,Ah... well，yeah. That works.<br> ,104801000G,vc_10480100002_009_01,chara_1
 
-message,<user>,……？
+message,<user>,...<br> 
 
 
 
@@ -270,7 +270,7 @@ asyncseplay,setag1_10,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 window,on,0.15
-message,<user>,ちょっといいか？　昼頃、ここで強盗があったんだが――<br>こんな感じの奴を見かけなかったか？
+message,<user>,Excuse me? There was a robbery around here this afternoon—<br>Have<br>you seen a guy like this?<br> 
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -281,7 +281,7 @@ asyncseplay,setag1_11,se4800009,0,1,CONT,0
 asynccharaemo,chara_2,Question,CONT,0
 
 
-message,通行人Ａ,うーん？　知らないねぇ……,400101000,vc_10480100002_010_01,chara_2
+message,通行人Ａ,Hmm? No，haven't seen anyone...<br> ,400101000,vc_10480100002_010_01,chara_2
 
 window,off
 wait,0.15
@@ -326,7 +326,7 @@ wait,0.5
 
 
 window,on,0.15
-message,セレスト,ふわ～ぁぁ……,104801000G,vc_10480100002_011_01,chara_1
+message,セレスト,yaaawn...<br> ,104801000G,vc_10480100002_011_01,chara_1
 
 
 
@@ -359,7 +359,7 @@ charashowalpha,chara_3,1,0
 transitionFade,Tra01,in,black,1
 
 window,on,0.15
-message,<user>,たぶん、あっちのほうへ逃げたんだが――知らないか？
+message,<user>,He probably ran that way... you haven't seen him?<br> 
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -370,9 +370,9 @@ asyncseplay,setag1_13,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,通行人Ｂ,見たような、見なかったような……<br>要するに見てない。,400801000,,chara_3
+message,通行人Ｂ,I feel like I saw him，but also like I didn't... so no，I didn't.<br> ,400801000,,chara_3
 
-message,<user>,そうか……
+message,<user>,I see...<br> 
 
 window,off
 wait,0.15
@@ -422,9 +422,9 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,セレスト,ふぅ……,104801000G,vc_10480100002_012_01,chara_1
+message,セレスト,*sigh*...<br> ,104801000G,vc_10480100002_012_01,chara_1
 
-message,<user>,……セレスト。さっきから欠伸やため息ばっかりで、<br>まったくやる気がないように見えるんだが？
+message,<user>,...Celeste. All you've done is yawn and sigh. You don't look<br>motivated at all.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -436,7 +436,7 @@ asyncseplay,setag1_15,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,セレスト,そんなことないでーすよー。ちゃんと隣で聞いてますぅ。,104801000G,vc_10480100002_013_01,chara_1
+message,セレスト,That's so not truuue... I've been listening the whole time，right<br>next to yooou.<br> ,104801000G,vc_10480100002_013_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -447,7 +447,7 @@ asyncseplay,setag1_16,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,セレスト,ただ、時間も経ってるし、ここで聞き込みしても<br>あまり手掛かりは掴めないと思うよ。そういうのは犯行直後にやんなきゃ。,104801000G,vc_10480100002_014_01,chara_1
+message,セレスト,But it's been a while. Even if we ask around here，I don't think<br>we'll learn much. You gotta do that right after the crime happens.<br> ,104801000G,vc_10480100002_014_01,chara_1
 
 window,off
 wait,0.15
@@ -462,7 +462,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（そのタイミングを逃したのは誰のせいだったかな……？）
+message,<user>,(And whose fault was it that we missed that window...?)<br> 
 
 window,off
 wait,0.15
@@ -486,9 +486,9 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,セレスト,とりあえず、別のところで聞き込みしない？<br>あたしオススメの場所があるんだけど。,104801000G,vc_10480100002_015_01,chara_1
+message,セレスト,Anyway，why don't we try a different spot? I know a place I<br>recommend.<br> ,104801000G,vc_10480100002_015_01,chara_1
 
-message,<user>,ほう。分かった。ついていく。
+message,<user>,Oh? All right. I'll follow you.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -499,7 +499,7 @@ asyncseplay,setag1_18,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,セレスト,あいあい。それじゃ、ごあんなーい。,104801000G,vc_10480100002_016_01,chara_1
+message,セレスト,Aye aye! Then，follow me...<br> ,104801000G,vc_10480100002_016_01,chara_1
 
 
 window,off
@@ -551,7 +551,7 @@ asynccharamove,chara_1,EaseOut,X,-100,0.3,CONT,0
 asyncwait
 
 window,on,0.15
-message,<user>,って、ここは酒場じゃないか。<br>こんなところで聞き込みを？
+message,<user>,Wait，isn't this a tavern? We're doing our investigation here?<br> 
 
 window,off
 wait,0.15
@@ -598,7 +598,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,セレスト,ルディアー、怪しい奴が来なかった～？<br>いかにも強盗しそうな男～。,104801000G,vc_10480100002_017_01,chara_1
+message,セレスト,Ludia... have any shady guys been in? You know，the type who looks<br>like he'd pull a robbery...<br> ,104801000G,vc_10480100002_017_01,chara_1
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -609,7 +609,7 @@ asyncseplay,setag1_20,se4800004,0,1,CONT,0
 asynccharaemo,chara_4,Laugh,CONT,0
 
 
-message,ルディア,見てないわよー？,300301000,vc_10480100002_018_01,chara_4
+message,ルディア,Not that I've seen?<br> ,300301000,vc_10480100002_018_01,chara_4
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -618,7 +618,7 @@ asyncseplay,setag1_21,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,セレスト,そっかー、ざんねーん。<br>それはそれとして、お酒ちょうだーい。,104801000G,vc_10480100002_019_01,chara_1
+message,セレスト,Oh well，too bad. Anyway，give me a drink.<br> ,104801000G,vc_10480100002_019_01,chara_1
 
 asynccharaface,chara_4,EyeOpen,CONT,0
 asynccharaface,chara_4,FaceNormal,CONT,0
@@ -630,7 +630,7 @@ asyncseplay,setag1_22,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,ルディア,はーい、ただいま～♪,300301000,vc_10480100002_020_01,chara_4
+message,ルディア,Okay! Coming right up!♪<br> ,300301000,vc_10480100002_020_01,chara_4
 
 window,off
 wait,0.15
@@ -653,7 +653,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（……なんで酒がいるんだ？）
+message,<user>,(...Why does she need a drink?)<br> 
 
 
 
@@ -696,9 +696,9 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,セレスト,ぶはーっ、うまぁー。,104801000G,vc_10480100002_021_01,chara_1
+message,セレスト,Pwah! That hits the spot.<br> ,104801000G,vc_10480100002_021_01,chara_1
 
-message,<user>,……ずーっと飲んだくれているが、もしかしてサボってる？
+message,<user>,...You've been boozing nonstop. Are you slacking off?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -709,7 +709,7 @@ asyncseplay,setag1_24,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,セレスト,せいか～い。,104801000G,vc_10480100002_022_01,chara_1
+message,セレスト,Bingo!<br> ,104801000G,vc_10480100002_022_01,chara_1
 
 window,off
 wait,0.15
@@ -728,7 +728,7 @@ wait,0.5
 
 
 window,on,0.15
-message,セレスト,あたしはねー、仕事と面倒が大嫌いなの。安月給でこき使われてるのに<br>真面目に聞き込んで情報を探すとか、割に合わないでしょ。,104801000G,vc_10480100002_023_01,chara_1
+message,セレスト,I mean，I hate work and trouble. I'm already slaving away for a<br>pittance，so seriously digging for info? Not worth it.<br> ,104801000G,vc_10480100002_023_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -739,7 +739,7 @@ asyncseplay,setag1_26,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,セレスト,知ってる？　警備隊の給料ってマジで低いの。<br>なのに、仕事は超ハードワーク。,104801000G,vc_10480100002_024_01,chara_1
+message,セレスト,You know? The patrol squad's pay is seriously low. But the work is<br>super hard.<br> ,104801000G,vc_10480100002_024_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -750,9 +750,9 @@ asyncseplay,setag1_27,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,セレスト,ぜーんぶ、この基地の司令官のせいよ！！,104801000G,vc_10480100002_025_01,chara_1
+message,セレスト,It's all that stingy Commander's fault!<br> ,104801000G,vc_10480100002_025_01,chara_1
 
-message,<user>,なぜそうなる！？
+message,<user>,How does that make sense!<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -761,11 +761,11 @@ asyncseplay,setag1_28,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,セレスト,あいつがケチなのが悪い！<br>金も貰えないのに、下が真面目に働くわけないじゃん。,104801000G,vc_10480100002_026_01,chara_1
+message,セレスト,It's that cheapskate's fault! If we don't get paid，why would the<br>grunts work hard!<br> ,104801000G,vc_10480100002_026_01,chara_1
 
-message,<user>,ほう……なるほどな。お前なりに色々考えているわけか。
+message,<user>,Huh... I see. So you've been thinking about things in your own way.<br> 
 
-message,<user>,では、こんなのはどうだ？　安月給が原因で働く気になれないなら、<br>今回の強盗事件――俺が懸賞金をかけよう。
+message,<user>,Then how about this? If the low pay is killing your motivation，I'll<br>offer a bounty for this robbery case.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -776,9 +776,9 @@ asyncseplay,setag1_29,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,セレスト,はぁ？　何それ、どういうこと？,104801000G,vc_10480100002_027_01,chara_1
+message,セレスト,Huh? What's that? What do you mean?<br> ,104801000G,vc_10480100002_027_01,chara_1
 
-message,<user>,そのままの意味だ。強盗犯を捕まえてきたら、俺が金を渡してやる。<br>どうだ。ボーナス目当てでやる気満々だったときの状況に戻ったぞ？
+message,<user>,Just what I said. Catch the robber，and I'll give you the cash. How<br>about it? Now you're back to being all hyped for a bonus，right?<br> 
 
 window,off
 wait,0.15
@@ -803,9 +803,9 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,セレスト,懸賞金って、どれくらいよ。,104801000G,vc_10480100002_028_01,chara_1
+message,セレスト,How much is this bounty?<br> ,104801000G,vc_10480100002_028_01,chara_1
 
-message,<user>,そうだな……こんなもんでどうだ？
+message,<user>,Let's see... how about this much?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -816,7 +816,7 @@ asyncseplay,setag1_32,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,セレスト,おほっ！？　なになになに！？<br>警備隊の臨時ボーナスより高いじゃん！　あんたマジで何者！？,104801000G,vc_10480100002_029_01,chara_1
+message,セレスト,Whoa，what，what，what! That's higher than the patrol squad's temporary<br>bonus! Who the hell are you?!<br> ,104801000G,vc_10480100002_029_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -827,9 +827,9 @@ asyncseplay,setag1_33,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,セレスト,あ、いいや。あんたが誰だとか、別に関係ないし。<br>早く捜査を再開しないとお金が逃げちゃう。,104801000G,vc_10480100002_030_01,chara_1
+message,セレスト,Oh，never mind. Who you are doesn't matter anyway. I gotta get back<br>to investigating before the money runs away.<br> ,104801000G,vc_10480100002_030_01,chara_1
 
-message,<user>,やる気になったのはいいが、そこは犯人って言っておけよ……
+message,<user>,It's good that you're motivated，but you should be saying 'the<br>criminal' there.<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -838,7 +838,7 @@ asyncseplay,setag1_34,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,セレスト,へへへっ♪　細かいことはいーじゃん♪,104801000G,vc_10480100002_031_01,chara_1
+message,セレスト,Hehehe!♪ Who cares about the little things!♪<br> ,104801000G,vc_10480100002_031_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -857,7 +857,7 @@ asyncseplay,setag1_36,se4800022,0,1,STOP,3.64
 asynccharaemo,chara_1,Speak,STOP,3.64
 
 
-message,セレスト,さっそく、仕事しないとね。えーっと……あ、いたいた。,104801000G,vc_10480100002_032_01,chara_1
+message,セレスト,Alright，time to get to work. Um... oh，there they are.<br> ,104801000G,vc_10480100002_032_01,chara_1
 
 asyncjump,CHARA,chara_1,40,0.5,2,off,0,CONT
 
@@ -866,7 +866,7 @@ asyncseplay,setag1_37,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,セレスト,ねぇねぇ、あんたたちーっ。ちょっとこっち来てよー。,104801000G,vc_10480100002_033_01,chara_1
+message,セレスト,Hey，hey，you guuys. Come over here a sec.<br> ,104801000G,vc_10480100002_033_01,chara_1
 
 window,off
 wait,0.15
@@ -900,9 +900,9 @@ asynccharamove,chara_5,EaseOut,X,-100,0.3,CONT,0
 asyncwait
 
 window,on,0.15
-message,,セレストが声を掛けると、別のテーブルにいた男たちが集まってくる。
+message,,When Celeste called out，the men from the other table gathered<br>around.<br> 
 
-message,<user>,なんだこいつらは？
+message,<user>,Who are these guys?<br> 
 
 window,off
 wait,0.15
@@ -944,7 +944,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,セレスト,情報屋だよ。裏のね。,104801000G,vc_10480100002_034_01,chara_1
+message,セレスト,Info brokers. The underground kind.<br> ,104801000G,vc_10480100002_034_01,chara_1
 
 window,off
 wait,0.15
@@ -991,7 +991,7 @@ wait,1
 
 
 window,on,0.15
-message,情報屋Ａ,仕事か？　セレスト。,401501000,,chara_5
+message,情報屋Ａ,A job，Celeste?<br> ,401501000,,chara_5
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -1000,9 +1000,9 @@ asyncseplay,setag1_39,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,セレスト,まぁね。マーケットで強盗をした男を探してる。<br>特徴はこの人が今から伝えるから。,104801000G,vc_10480100002_035_01,chara_1
+message,セレスト,Yeah，sort of. I'm looking for a guy who robbed the market. He'll<br>fill you in on the details.<br> ,104801000G,vc_10480100002_035_01,chara_1
 
-message,<user>,あ、ああ。まず、身なりは……
+message,<user>,Ah，right. First，his clothes...<br> 
 
 window,off
 wait,0.15
@@ -1024,7 +1024,7 @@ asyncwait,subimage_0_1
 asyncwait,subimage_0_2
 
 
-messageTextUnder,,<user>が特徴を伝えると、男たちは神妙な顔で頷いていく。<br>話を聞き終えると、彼らは表情を曇らせた。,,,on
+messageTextUnder,,When %user% finished describing him，the men nodded gravely. Their expressions darkened after hearing the details.,,,on
 
 window,off
 wait,0.15
@@ -1045,7 +1045,7 @@ subimagedelete,subimage_0_2
 
 
 window,on,0.15
-message,情報屋Ｂ,思ったより情報が薄いな。こいつは高くつくぜ？,900000001
+message,情報屋Ｂ,The info's thinner than I thought. This one's gonna cost you.<br> ,900000001
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1056,9 +1056,9 @@ asyncseplay,setag1_40,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,セレスト,大丈夫だよ。ちゃんと払うから。,104801000G,vc_10480100002_036_01,chara_1
+message,セレスト,Don't worry，I'll pay up properly.<br> ,104801000G,vc_10480100002_036_01,chara_1
 
-message,情報屋Ｃ,気前がいいじゃねぇか。金が貰えるなら文句はねぇ。<br>待ってな。数時間もありゃあ、こいつの足取りが掴めてるだろうよ。,900000001
+message,情報屋Ｃ,Pretty generous，huh? Long as there's money，no complaints. Just wait.<br>Give us a few hours and we'll have his trail.<br> ,900000001
 
 window,off
 wait,0.15
@@ -1103,7 +1103,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,男たちは散っていく。<br>残ったセレストは、再び酒に口をつけ始めた。
+message,,The men dispersed. Left alone，Celeste started drinking again.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1114,9 +1114,9 @@ asyncseplay,setag1_41,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,セレスト,あとは待つだけ。あいつら、金さえ払えば<br>なんでも調べてきてくれるわ。楽勝でしょ？,104801000G,vc_10480100002_037_01,chara_1
+message,セレスト,Now we just wait. Those guys'll dig up anything as long as you pay.<br>Easy，right?<br> ,104801000G,vc_10480100002_037_01,chara_1
 
-message,<user>,最初から使えばいいじゃないか！？
+message,<user>,Why didn't you just use them from the beginning!?<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1127,7 +1127,7 @@ asyncseplay,setag1_42,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,セレスト,え～、嫌よ。身銭は切りたくないもん。,104801000G,vc_10480100002_038_01,chara_1
+message,セレスト,Ehh，no way. I don't wanna spend my own money.<br> ,104801000G,vc_10480100002_038_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1138,9 +1138,9 @@ asyncseplay,setag1_43,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,セレスト,今回は特別。あんたが懸賞金をたんまり出してくれるからね。<br>手取りが多少減ってもお釣りがくるわ。,104801000G,vc_10480100002_039_01,chara_1
+message,セレスト,This time's special. 'Cause you're putting up a hefty bounty. Even<br>after I pay them，I'll still come out ahead.<br> ,104801000G,vc_10480100002_039_01,chara_1
 
-message,<user>,強盗犯を追うのはマーケットの商人たちや市民たちのためではなく、<br>あくまでも自分と金のため、か。
+message,<user>,So you're chasing the robber not for the merchants or citizens，but<br>purely for yourself and the money，huh?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1151,7 +1151,7 @@ asyncseplay,setag1_44,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,セレスト,当然。分かりやすいでしょ？,104801000G,vc_10480100002_040_01,chara_1
+message,セレスト,Of course. Makes it simple，right?<br> ,104801000G,vc_10480100002_040_01,chara_1
 
 window,off
 wait,0.15
@@ -1166,7 +1166,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（目的のためには手段も問わず、か……良く言えば<br>型にはまっていない、と言えるが――確かにこれは不良だな）
+message,<user>,(She doesn't care about the means to achieve her goal... To put it<br>nicely，she's unorthodox，but—yeah，she's definitely a delinquent.)<br> 
 
 window,off
 wait,0.15
@@ -1190,9 +1190,9 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,セレスト,あたしはお金のために強盗犯を捕まえる。強盗犯が捕まったら<br>結果としてみんな喜ぶ。それでいいじゃん。,104801000G,vc_10480100002_041_01,chara_1
+message,セレスト,I catch the robber for the money. When he's caught，everyone's happy.<br>That's good enough，isn't it?<br> ,104801000G,vc_10480100002_041_01,chara_1
 
-message,<user>,まぁ、確かにな。<br>結果が同じなら、目的や動機、行程は関係がないとも言える。
+message,<user>,Well，true. If the result is the same，you could say the<br>purpose，motive，and process don't matter.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1203,9 +1203,9 @@ asyncseplay,setag1_46,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,セレスト,……ふぅん。誰だか知らないけど、あんたもそういう考え方をするんだ。<br>やっぱり前線基地は楽だね。,104801000G,vc_10480100002_042_01,chara_1
+message,セレスト,... Huh. I don't know who you are，but you think that way too. I<br>guess the Frontline Base really is easygoing.<br> ,104801000G,vc_10480100002_042_01,chara_1
 
-message,<user>,違う場所を知っているような口振りだな。<br>お前も隊長と同じ、ミレスガルド出身か？
+message,<user>,You talk like you know other places. Are you from Milesgard too，like<br>the Captain?<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -1214,7 +1214,7 @@ asyncseplay,setag1_47,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,セレスト,うん。衛兵隊で働いてた。前線基地には仕事で嫌々来たんだけど<br>来てみたら、聞いてた以上に治外法権でビックリ！,104801000G,vc_10480100002_043_01,chara_1
+message,セレスト,Yeah，I was in the Guard Corps. Reluctantly sent to the Frontline<br>Base. But it was way more lawless than I'd heard—shocked me!<br> ,104801000G,vc_10480100002_043_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1225,7 +1225,7 @@ asyncseplay,setag1_48,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,セレスト,結果的には、あたし向けの職場だったわけ。ミレスガルドで規律が<br>厳しかった分、ここでは好き勝手やらせてもらってる。,104801000G,vc_10480100002_044_01,chara_1
+message,セレスト,Guess it ended up being the perfect gig for me. Milesgard was all<br>strict discipline，but here they let me do whatever I want.<br> ,104801000G,vc_10480100002_044_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1236,7 +1236,7 @@ asyncseplay,setag1_49,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,セレスト,警備隊を安月給でこき使う司令官は気に入らないけど――<br>縛りが緩いとこは、けっこう好きかな。,104801000G,vc_10480100002_045_01,chara_1
+message,セレスト,I don't like how the Commander works the Guard Force to the bone for<br>peanuts—but the lack of restrictions? Yeah，I'm pretty into that.<br> ,104801000G,vc_10480100002_045_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1247,9 +1247,9 @@ asyncseplay,setag1_50,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,セレスト,ルールを守れとか、風紀がどうとか、<br>聖職者どもにガンガン口出しされないからね。,104801000G,vc_10480100002_046_01,chara_1
+message,セレスト,It's 'cause those clergy assholes aren't constantly shoving 'follow<br>the rules' and 'maintain decorum' down my throat.<br> ,104801000G,vc_10480100002_046_01,chara_1
 
-message,<user>,なるほどな。<br>仕事中、酒場で飲んでても上司に通報する奴もいない？
+message,<user>,Got it. So even if you're drinking at a bar on the job，there's no<br>one to rat you out to the higher-ups?<br> 
 
 asyncjump,CHARA,chara_1,-30,0.5,2,off,0,CONT
 
@@ -1258,9 +1258,9 @@ asyncseplay,setag1_51,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,セレスト,あっはっは！　そゆこと～。<br>どうせだし、あんたも飲めば？,104801000G,vc_10480100002_047_01,chara_1
+message,セレスト,Ahaha! You got it. So，since we're here，why don't you grab a drink<br>too?<br> ,104801000G,vc_10480100002_047_01,chara_1
 
-message,<user>,そうするか。ルディア、俺にも１杯くれ。
+message,<user>,Guess so. Ludia，give me one too.<br> 
 
 window,off
 wait,0.15
@@ -1305,7 +1305,7 @@ asynccharaemo,chara_4,Speak,CONT,0
 
 
 window,on,0.15
-message,ルディア,は～い♪,300301000,vc_10480100002_048_01,chara_4
+message,ルディア,Coming right up!♪<br> ,300301000,vc_10480100002_048_01,chara_4
 
 window,off
 wait,0.15
@@ -1355,7 +1355,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,セレスト,おっ、ノリいいじゃん。酒がきたら乾杯しよ、乾杯♪,104801000G,vc_10480100002_049_01,chara_1
+message,セレスト,Ooh，you're game. Once the booze gets here，let's cheers，cheers!♪<br> ,104801000G,vc_10480100002_049_01,chara_1
 
 
 
@@ -1379,7 +1379,7 @@ charaface,chara_1,FaceHappy
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,,<user>とセレストは酒を飲みながらじっくり待つ。
+message,,The Commander and Celeste waited patiently，drinking.<br> 
 
 window,off
 wait,0.15
@@ -1394,7 +1394,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（……不良ではあるが、一緒にいて楽しい奴ではあるな）
+message,<user>,(She's a delinquent，but she's fun to be around.)<br> 
 
 window,off
 wait,0.15
@@ -1433,7 +1433,7 @@ asyncwait,subimage_0_2
 crossfade,1,0,0,1,1
 wait,1
 
-messageTextUnder,,――そして数時間後、情報屋たちが強盗犯の居場所を割り出して戻ってきた。,,,on
+messageTextUnder,,—And several hours later，the info brokers tracked down the robber's location and returned.,,,on
 
 window,off
 bgmstop,bgmtag1_2,0.5

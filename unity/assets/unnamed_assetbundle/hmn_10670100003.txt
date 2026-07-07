@@ -30,7 +30,7 @@ bgmplay,bgmtag1_1,bgm0036,0.75,1
 
 
 window,on,0.15
-message,,――クルルが迷子の犬を保護してからしばらくあと。
+message,,—Some time after Kururu took in the lost dog.<br> 
 
 window,off
 wait,0.15
@@ -65,9 +65,9 @@ asynccharaemo,chara_2,Trouble,CONT,0
 
 
 window,on,0.15
-message,アリシア,司令官、少し確認したいことがあるんですが……,300201000,vc_10670100003_001_01,chara_2
+message,アリシア,Commander，there's something I'd like to confirm...<br> ,300201000,vc_10670100003_001_01,chara_2
 
-message,<user>,ん、どうした？
+message,<user>,Hm? What is it?<br> 
 
 asyncshake,CHARA,chara_2,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -76,7 +76,7 @@ asyncseplay,setag1_2,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,アリシア,クルルちゃんが最近探索に参加してくれないんです。<br>何かあったんですか？　ケガとか、病気とか？,300201000,vc_10670100003_002_01,chara_2
+message,アリシア,Kururu hasn't been joining us on exploration missions lately. Did<br>something happen? Is she hurt or sick?<br> ,300201000,vc_10670100003_002_01,chara_2
 
 asyncjump,CHARA,chara_2,-30.6,0.5,1,off,0,CONT
 
@@ -85,9 +85,9 @@ asyncseplay,setag1_3,se4800015,0,1,CONT,0
 asynccharaemo,chara_2,Dull,CONT,0
 
 
-message,アリシア,セイカリオンの収集も全然進んでいないですし、<br>このままじゃ前線基地の復旧もまだまだ時間がかかりそうです。,300201000,vc_10670100003_003_01,chara_2
+message,アリシア,And we haven't made any progress on Seikarion collection at all. At<br>this rate，restoring the Frontline Base is going to take even longer.<br> ,300201000,vc_10670100003_003_01,chara_2
 
-message,<user>,なるほど。それは問題だな。<br>やはり、クルルの嗅覚が必要か……
+message,<user>,I see. That is a problem. As I thought，we need Kururu's sense of<br>smell...<br> 
 
 asyncshake,CHARA,chara_2,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -96,9 +96,9 @@ asyncseplay,setag1_4,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,アリシア,はい。クルルちゃんに期待してましたから。<br>できれば探索には協力してほしいところです。,300201000,vc_10670100003_004_01,chara_2
+message,アリシア,Yes. We were counting on Kururu. If possible，we'd like her to help<br>with the explorations.<br> ,300201000,vc_10670100003_004_01,chara_2
 
-message,<user>,分かった。<br>今からクルルの様子を見に行ってくるか。
+message,<user>,Got it. I'll go check on Kururu now.<br> 
 
 asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
 
@@ -107,7 +107,7 @@ asyncseplay,setag1_5,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,アリシア,わたしも心配なのでついていきます！<br>クルルちゃん、お元気ならいいんですけど……,300201000,vc_10670100003_005_01,chara_2
+message,アリシア,I'll come too，I'm worried! I hope she's doing okay...<br> ,300201000,vc_10670100003_005_01,chara_2
 
 
 window,off
@@ -151,9 +151,9 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,クルル,あれ、ご主人さま？<br>どうしたのー？,106701000G,vc_10670100003_006_01,chara_1
+message,クルル,Oh? Master? What's up?<br> ,106701000G,vc_10670100003_006_01,chara_1
 
-message,<user>,おっと、元気そうだな、クルル。
+message,<user>,Whoa，you seem energetic，Kururu.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -164,7 +164,7 @@ asyncseplay,setag1_7,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,クルル,うん、クルルはとっても元気だよ～！,106701000G,vc_10670100003_007_01,chara_1
+message,クルル,Yeah! I'm super energetic!<br> ,106701000G,vc_10670100003_007_01,chara_1
 
 window,off
 wait,0.15
@@ -218,7 +218,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,アリシア,でしたらクルルちゃん、どうして探索に来てくれないんでしょう？<br>何かあったんですか？,300201000,vc_10670100003_008_01,chara_2
+message,アリシア,Then，Kururu，why haven't you been joining us on explorations? Did<br>something happen?<br> ,300201000,vc_10670100003_008_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -229,7 +229,7 @@ asyncseplay,setag1_9,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,クルル,探索？　大穴のー？ <br>あ、ごめんね。ちょっとハチミツを放っておけなくて……,106701000G,vc_10670100003_009_01,chara_1
+message,クルル,Exploration? The Abyss? Ah，sorry. I couldn't leave Hachimitsu<br>alone...<br> ,106701000G,vc_10670100003_009_01,chara_1
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -240,7 +240,7 @@ asyncseplay,setag1_10,se4800009,0,1,CONT,0
 asynccharaemo,chara_2,Question,CONT,0
 
 
-message,アリシア,ハチミツ……？,300201000,vc_10670100003_010_01,chara_2
+message,アリシア,Hachimitsu...?<br> ,300201000,vc_10670100003_010_01,chara_2
 
 window,off
 wait,0.15
@@ -268,9 +268,9 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,ハチミツ,――くぅん。,900000003
+message,ハチミツ,*whimper*<br> ,900000003
 
-message,,鳴き声と共に、部屋のベッドからむくりと子犬が起き上がるのが見えた。<br>小さな脚に白い包帯が巻かれている。
+message,,At the sound，a puppy slowly sat up from the bed in the room. Its<br>small leg was wrapped in a white bandage.<br> 
 
 window,off
 wait,0.15
@@ -320,7 +320,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,アリシア,可愛い！　ワンちゃん飼ってるんですかぁ！？,300201000,vc_10670100003_011_01,chara_2
+message,アリシア,How cute! Are you keeping a puppy?<br> ,300201000,vc_10670100003_011_01,chara_2
 
 window,off
 wait,0.15
@@ -360,7 +360,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,<user>,ハチミツって、その犬の名前か？
+message,<user>,Is Hachimitsu the dog's name?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -371,11 +371,11 @@ asyncseplay,setag1_12,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,クルル,うんっ！　そうだよ～。,106701000G,vc_10670100003_012_01,chara_1
+message,クルル,Yeah! That's right.<br> ,106701000G,vc_10670100003_012_01,chara_1
 
-message,ハチミツ,わふっ！,900000003
+message,ハチミツ,Woof!<br> ,900000003
 
-message,<user>,まだ足を引きずってる様子だな。
+message,<user>,The puppy is still limping，huh.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -387,11 +387,11 @@ asyncseplay,setag1_13,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,クルル,うん、でも少しずつ歩けるようになったし<br>もうすぐいっぱい走れるようになると思うよ！,106701000G,vc_10670100003_013_01,chara_1
+message,クルル,Yeah，but he's starting to walk a little. I think he'll be running<br>around soon!<br> ,106701000G,vc_10670100003_013_01,chara_1
 
-message,ハチミツ,くぅん……,900000003
+message,ハチミツ,Whimper...<br> ,900000003
 
-message,,子犬は怪我をした脚を気にしたように小さく鳴き、 <br>クルルの腕にそっと鼻先を押し付けた。
+message,,The puppy whimpered softly，as if worried about its injured leg，and<br>gently pressed its nose against Kururu's arm.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -402,9 +402,9 @@ asyncseplay,setag1_14,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,クルル,だいじょうぶだよ、ハチミツはクルルの家族だから。<br>治るまでちゃんと面倒見るからねー。,106701000G,vc_10670100003_014_01,chara_1
+message,クルル,It's okay，Hachimitsu is my family now. I'll take good care of you<br>until you're all better!<br> ,106701000G,vc_10670100003_014_01,chara_1
 
-message,<user>,しかし、なんで名前がハチミツなんだ？
+message,<user>,But why the name Hachimitsu?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -416,9 +416,9 @@ asyncseplay,setag1_15,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,クルル,クルル、ハチミツ大好きだもん！,106701000G,vc_10670100003_015_01,chara_1
+message,クルル,'Cause I love honey!<br> ,106701000G,vc_10670100003_015_01,chara_1
 
-message,<user>,お、おお……なるほど。
+message,<user>,Oh，oh... I see.<br> 
 
 window,off
 wait,0.15
@@ -473,7 +473,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,アリシア,そういえばクルルちゃん、食堂でハチミツたっぷりのパン、<br>美味しそうに食べてましたよね。,300201000,vc_10670100003_016_01,chara_2
+message,アリシア,Come to think of it，Kururu，I saw you eating bread with lots of honey<br>in the cafeteria. You looked like you were really enjoying it.<br> ,300201000,vc_10670100003_016_01,chara_2
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -484,7 +484,7 @@ asyncseplay,setag1_17,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,アリシア,えっと……、<br>つまりクルルちゃんはこのワンちゃんの世話で手一杯ってことですよね。,300201000,vc_10670100003_017_01,chara_2
+message,アリシア,Um... so that means Kururu's hands are full taking care of this<br>puppy，right?<br> ,300201000,vc_10670100003_017_01,chara_2
 
 asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
 
@@ -493,9 +493,9 @@ asyncseplay,setag1_18,se4800006,0,1,CONT,0
 asynccharaemo,chara_2,Trouble,CONT,0
 
 
-message,アリシア,どうしましょう、司令官……？,300201000,vc_10670100003_018_01,chara_2
+message,アリシア,What should we do，Commander...?<br> ,300201000,vc_10670100003_018_01,chara_2
 
-message,<user>,……
+message,<user>,...<br> 
 
 window,off
 wait,0.15
@@ -541,13 +541,13 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,いい子だねー、ハチミツ！ <br>ぎゅ～！,106701000G,vc_10670100003_019_01,chara_1
+message,クルル,Good dog，Hachimitsu! *hug*!<br> ,106701000G,vc_10670100003_019_01,chara_1
 
-message,ハチミツ,くぅん……！,900000003
+message,ハチミツ,Whimper...!<br> ,900000003
 
-message,,子犬を抱きしめて微笑むクルル。 <br><user>とアリシアは目を合わせて頷きあった。
+message,,Kururu hugged the puppy and smiled. The Commander and Alicia<br>exchanged glances and nodded.<br> 
 
-message,<user>,クルルの家族がケガで療養中なんだ。<br>しばらくはそっとしておこう。
+message,<user>,Kururu's family member is injured and recuperating. Let's give them<br>some space for now.<br> 
 
 window,off
 wait,0.15
@@ -602,7 +602,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,アリシア,分かりました。<br>クルルちゃん、何かあれば声をかけてください、皆さん力になりますから。,300201000,vc_10670100003_020_01,chara_2
+message,アリシア,Understood. Kururu，if you need anything，please let us know. Everyone<br>here will help.<br> ,300201000,vc_10670100003_020_01,chara_2
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -613,9 +613,9 @@ asyncseplay,setag1_21,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,クルル,うん、ありがとー！,106701000G,vc_10670100003_021_01,chara_1
+message,クルル,Yeah，thank you!<br> ,106701000G,vc_10670100003_021_01,chara_1
 
-message,ハチミツ,くぅんっ！,900000003
+message,ハチミツ,Whimper!<br> ,900000003
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -626,9 +626,9 @@ asyncseplay,setag1_22,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,クルル,ハチミツもありがとうだって。,106701000G,vc_10670100003_022_01,chara_1
+message,クルル,Hachimitsu also says thank you!<br> ,106701000G,vc_10670100003_022_01,chara_1
 
-message,<user>,ははは、気にするなって言っておいてくれ。
+message,<user>,Ahaha，tell him not to worry about it.<br> 
 
 
 bgmstop,bgmtag1_1,1.5,0
@@ -657,7 +657,7 @@ fade,In,Black,0
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――数日後</size>,,,on
+messageTextCenter,,<size=48>—A few days later—</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -702,7 +702,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,アリシア,司令官。前線基地の壁の復旧は進んではいるのですが、<br>突貫工事のため、強度にかなり不安が……,300201000,vc_10670100003_023_01,chara_2
+message,アリシア,Commander. The restoration of the Frontline Base's walls is<br>progressing，but since it was a rush job，I'm worried about the durability...<br> ,300201000,vc_10670100003_023_01,chara_2
 
 asyncshake,CHARA,chara_2,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -711,9 +711,9 @@ asyncseplay,setag1_24,se4800015,0,1,CONT,0
 asynccharaemo,chara_2,Dull,CONT,0
 
 
-message,アリシア,このまま、またこのあいだくらいの厄災に襲撃されてしまったら、<br>さすがに耐えられるかどうか……,300201000,vc_10670100003_024_01,chara_2
+message,アリシア,If we were attacked by a calamity like the last one again，I doubt we<br>could withstand it...<br> ,300201000,vc_10670100003_024_01,chara_2
 
-message,<user>,なるほどな。やはり、セイカリオンが大量に必要か。
+message,<user>,I see. So we really do need a lot of Seikarion after all.<br> 
 
 asyncjump,CHARA,chara_2,-30.6,0.5,1,off,0,CONT
 
@@ -722,9 +722,9 @@ asyncseplay,setag1_25,se4800006,0,1,CONT,0
 asynccharaemo,chara_2,Trouble,CONT,0
 
 
-message,アリシア,はい。でもあの階層の調査も進んでおらず、<br>セイカリオンはまだ少量しか収集できてないんですよね……,300201000,vc_10670100003_025_01,chara_2
+message,アリシア,Yes. But the survey of that layer hasn't progressed，so we've only<br>been able to collect a small amount of Seikarion...<br> ,300201000,vc_10670100003_025_01,chara_2
 
-message,<user>,やはりクルルが頼みの綱か。
+message,<user>,So we're counting on Kururu after all.<br> 
 
 asyncshake,CHARA,chara_2,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -733,9 +733,9 @@ asyncseplay,setag1_26,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,アリシア,はい。<br>でも、ハチミツちゃんが元気になるまでは無理ですよね……？,300201000,vc_10670100003_026_01,chara_2
+message,アリシア,Yes. But it's no use until Hachimitsu is better，right?<br> ,300201000,vc_10670100003_026_01,chara_2
 
-message,<user>,そうだな。<br>クルルのことを信じて待とう。
+message,<user>,Yeah. Let's trust Kururu and wait.<br> 
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -747,7 +747,7 @@ asyncseplay,setag1_27,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,アリシア,……司令官。<br>分かりました、わたしもクルルちゃんを信じます。,300201000,vc_10670100003_027_01,chara_2
+message,アリシア,...Commander. I understand. I'll trust Kururu too.<br> ,300201000,vc_10670100003_027_01,chara_2
 
 window,off
 wait,0.15
@@ -765,7 +765,7 @@ asyncseplay,setag1_29,se4800017,0,1,STOP,1
 asynccharaemo,chara_2,Shock,STOP,1
 
 window,on,0.15
-message,,と、その時、ドドドドド、と勢いよく走る音が聞こえてくる。<br>そして大きな音が司令室の前に迫り――
+message,,Just then，the sound of hurried footsteps approached the command room<br>door—<br> 
 
 asyncseplay,setag1_30,se4300007,0,1,CONT,0
 
@@ -811,7 +811,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,クルル,ご主人さまーっ！,106701000G,vc_10670100003_028_01,chara_1
+message,クルル,Master!<br> ,106701000G,vc_10670100003_028_01,chara_1
 
 window,off
 wait,0.15
@@ -821,9 +821,9 @@ charafocusonall
 linework,off,Black,Middle
 
 window,on,0.15
-message,,どーん！　と司令室のドアが開かれた。
+message,,Bam! The command room door burst open.<br> 
 
-message,<user>,クルル！？ <br>ど、どうしたいきなり！？
+message,<user>,Kururu! W-What's with the sudden rush?!<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -834,9 +834,9 @@ asyncseplay,setag1_32,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,クルル,聞いて聞いて、ご主人さま！<br>ハチミツ、すっごくかしこいの！,106701000G,vc_10670100003_029_01,chara_1
+message,クルル,Listen，listen，Master! Hachimitsu is really，really smart!<br> ,106701000G,vc_10670100003_029_01,chara_1
 
-message,<user>,おっ！　包帯も取れたな。<br>もう元気に歩けるようになったのか？
+message,<user>,Oh! The bandages are off too. So he can walk well now?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -848,7 +848,7 @@ asyncseplay,setag1_33,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,クルル,うん！　それでね！<br>ハチミツ、あの石がいっぱいある場所、知ってるって！,106701000G,vc_10670100003_030_01,chara_1
+message,クルル,Yeah! And you know what! Hachimitsu knows where there's loads of<br>that stone!<br> ,106701000G,vc_10670100003_030_01,chara_1
 
 window,off
 wait,0.15
@@ -903,9 +903,9 @@ asynccharaemo,chara_2,Shock,CONT,0
 
 
 window,on,0.15
-message,アリシア,あの石って、まさかセイカリオンのことですか！？,300201000,vc_10670100003_031_01,chara_2
+message,アリシア,That stone，you don't mean Seikarion，do you?!<br> ,300201000,vc_10670100003_031_01,chara_2
 
-message,<user>,というかクルル、犬と話せるのか！？
+message,<user>,Wait，Kururu，you can talk to dogs?!<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -916,9 +916,9 @@ asyncseplay,setag1_35,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,クルル,もちろんだよ～！<br>森で仲間たちといっぱいお話ししてたもん！,106701000G,vc_10670100003_032_01,chara_1
+message,クルル,Of course! I used to talk with my forest friends all the time!<br> ,106701000G,vc_10670100003_032_01,chara_1
 
-message,<user>,よしアリシア！　捜索隊を再編成だ！　<br>すぐにセイカリオン捜索に向かうぞ！
+message,<user>,Alright，Alicia! Reform the search party! We're heading out to find<br>Seikarion immediately!<br> 
 
 window,off
 wait,0.15
@@ -959,7 +959,7 @@ emodelete,chara_1,0,0
 fade,In,Black,1
 
 window,on,0.15
-message,ハチミツ,わんわん！,900000003
+message,ハチミツ,Woof，woof!<br> ,900000003
 
 window,off
 wait,0.15
@@ -997,9 +997,9 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,クルル,ハチミツがこっちだって言ってる！<br>いっそげー！,106701000G,vc_10670100003_033_01,chara_1
+message,クルル,Hachimitsu says it's this way! Hurry!<br> ,106701000G,vc_10670100003_033_01,chara_1
 
-message,<user>,よし、このまま進むぞ！
+message,<user>,Alright，let's keep moving!<br> 
 
 window,off
 wait,0.15
@@ -1040,7 +1040,7 @@ asynccharaemo,chara_3,Trouble,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,はぁ……構いませんけどねえ。 <br>ここは前にも探索したところで、もう何もないと思いますよ？,401601000,vc_10670100003_034_01,chara_3
+message,兵士Ａ,*sigh*... I don't mind，but... We've already searched this area<br>before. I think there's nothing there，you know?<br> ,401601000,vc_10670100003_034_01,chara_3
 
 asynccharaface,chara_4,FaceSurprise,CONT,0
 
@@ -1051,9 +1051,9 @@ asyncseplay,setag1_39,se4800008,0,1,CONT,0
 asynccharaemo,chara_4,Sweat,CONT,0
 
 
-message,兵士Ｂ,こんな場所に鉱脈があるんでしょうか……,401001000,vc_10670100003_035_01,chara_4
+message,兵士Ｂ,I wonder if there really is a vein in a place like this...<br> ,401001000,vc_10670100003_035_01,chara_4
 
-message,<user>,まぁ、ここはクルルとハチミツを信じよう。<br>俺たちにはない感性の持ち主だからな。
+message,<user>,Well，let's trust Kururu and Hachimitsu. They have instincts we<br>don't，after all.<br> 
 
 asyncjump,CHARA,chara_3,-30,0.25,1,off,0,CONT
 
@@ -1062,7 +1062,7 @@ asyncseplay,setag1_40,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,兵士Ａ,それはそうなんでしょうが……,401601000,vc_10670100003_036_01,chara_3
+message,兵士Ａ,I suppose that's true，but...<br> ,401601000,vc_10670100003_036_01,chara_3
 
 window,off
 wait,0.15
@@ -1102,7 +1102,7 @@ transitionCrossFade,Tra02,1
 wait,1
 
 window,on,0.15
-message,<user>,どうだ、クルル。 <br>まだ遠いのか？
+message,<user>,How is it，Kururu? Is it still far?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1121,7 +1121,7 @@ asyncseplay,setag1_42,se4800022,0,1,STOP,3
 asynccharaemo,chara_1,Speak,STOP,3
 
 
-message,クルル,うーん、もう少し……。 <br>あっ！　こっちだって！,106701000G,vc_10670100003_037_01,chara_1
+message,クルル,Hmm，a little more... Ah! It's this way!<br> ,106701000G,vc_10670100003_037_01,chara_1
 
 window,off
 wait,0.15
@@ -1145,7 +1145,7 @@ emodelete,chara_1,0,0
 transitionFade,Tra02,in,black,0
 
 window,on,0.15
-message,,ハチミツは岩壁の下の、人が１人やっと通れるような隙間へ滑り込んでいく。<br>一行は、その後を追い――
+message,,Hachimitsu slipped into a gap beneath the rock wall just barely wide<br>enough for one person to squeeze through，and the group followed.<br> 
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -1165,11 +1165,11 @@ screeneffect,BLOOM,on,0.08,0
 fade,In,Black,1
 
 window,on,0.15
-message,,隙間を抜けた先、目の前に広がる光景に、誰もが言葉を失った。<br>洞窟の壁一面が、不思議な輝きを放つ鉱脈となっていたのだ。
+message,,Everyone was speechless after passing through the gap: the entire<br>cave wall was a mineral vein glowing mysteriously.<br> 
 
 bgmplay,bgmtag1_3,bgm0037,0.75,1
 
-message,<user>,これは――セイカリオンの鉱脈！？<br>すごいぞ、これだけあれば……！
+message,<user>,This is—a Seikarion vein! Amazing，with this much...!<br> 
 
 window,off
 wait,0.15
@@ -1215,7 +1215,7 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,こ、こんな隙間の先にこれだけの大量のセイカリオンがあるなんて……,401601000,vc_10670100003_038_01,chara_3
+message,兵士Ａ,T-to think there was this much Seikarion in a crevice like this...!<br> ,401601000,vc_10670100003_038_01,chara_3
 
 asyncjump,CHARA,chara_4,-30,0.25,1,off,0,CONT
 
@@ -1224,7 +1224,7 @@ asyncseplay,setag1_44,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,兵士Ｂ,なるほど、風が逆に吹いている。<br>それで匂いにも気付けなかったのね。,401001000,vc_10670100003_039_01,chara_4
+message,兵士Ｂ,I see，the wind is blowing in the opposite direction. That's why we<br>didn't notice the scent.<br> ,401001000,vc_10670100003_039_01,chara_4
 
 window,off
 wait,0.15
@@ -1264,7 +1264,7 @@ transitionCrossFade,Tra02,1
 wait,1
 
 window,on,0.15
-message,<user>,よーし、よくやったぞ、クルル！　ハチミツ！<br>大手柄だ！
+message,<user>,Alright，great work，Kururu! Hachimitsu! That's a huge achievement!<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1275,9 +1275,9 @@ asyncseplay,setag1_45,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,クルル,えへへ　やったやった！ <br>さすがハチミツ～,106701000G,vc_10670100003_040_01,chara_1
+message,クルル,Ehehe! We did it，we did it! That's my Hachimitsu!<br> ,106701000G,vc_10670100003_040_01,chara_1
 
-message,<user>,ここまでの地図をまとめて採掘部隊の手配をするぞ。 <br>一刻も早く基地へ届けないとな。
+message,<user>,I'll compile a map of the route and arrange for a mining team. We<br>need to get this back to base ASAP.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1288,11 +1288,11 @@ asyncseplay,setag1_46,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,クルル,ふふ～！ <br>ハチミツはかしこいし、すごいんだよ～！,106701000G,vc_10670100003_041_01,chara_1
+message,クルル,Fufu! Hachimitsu is smart and amazing，you know!<br> ,106701000G,vc_10670100003_041_01,chara_1
 
 bgmstop,bgmtag1_3,1.5,0
 
-message,ハチミツ,わふっ……きゅーん？,900000003
+message,ハチミツ,Woof... whimper?<br> ,900000003
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1302,7 +1302,7 @@ asyncseplay,setag1_47,se4800017,0,1,CONT,0
 
 asynccharaemo,chara_1,Shock,CONT,0
 
-message,,クルルが頬ずりをしようとしたその時、ハチミツは身を震わせると、<br>遠くの岩陰に向けて小さな鳴き声を上げた。
+message,,Just as Kururu moved to nuzzle Hachimitsu，the puppy trembled and let<br>out a small cry toward a distant rock shadow.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1313,13 +1313,13 @@ asyncseplay,setag1_48,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,クルル,――っ！　あれ……！,106701000G,vc_10670100003_042_01,chara_1
+message,クルル,—! That...!<br> ,106701000G,vc_10670100003_042_01,chara_1
 
 bgmplay,bgmtag1_4,bgm0034,0.75,1
 
-message,,ハチミツの視線の先。<br>そこには岩陰に隠れるように、輝く１対の瞳がこちらを睨んでいた。
+message,,In the direction of Hachimitsu's gaze，hidden in the shadow of the<br>rocks，a pair of glowing eyes glared back at them.<br> 
 
-message,<user>,あれは――まさか、モンスターか！？
+message,<user>,Is that—a monster?!<br> 
 
 window,off
 wait,0.15
@@ -1371,7 +1371,7 @@ asynccharaemo,chara_3,Exclamation,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,なっ……みんな、身構えて！,401601000,vc_10670100003_043_01,chara_3
+message,兵士Ａ,Wha—... Everyone，on guard!<br> ,401601000,vc_10670100003_043_01,chara_3
 
 window,off
 wait,0.15
@@ -1414,7 +1414,7 @@ asynccharamove,chara_1,EaseOut,X,-100,0.3,CONT,0
 asyncwait
 
 window,on,0.15
-message,,慌てて戦闘態勢を取る兵士たち。 <br>だが、クルルは慌てて彼らの前に立ちふさがった。
+message,,The soldiers hurriedly prepared for battle. But Kururu rushed to<br>stand in their way.<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -1423,7 +1423,7 @@ asyncseplay,setag1_50,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,クルル,ううん、違うよ！ <br>みんな武器をしまってっ！,106701000G,vc_10670100003_044_01,chara_1
+message,クルル,No，that's not it! Everyone，put your weapons away!<br> ,106701000G,vc_10670100003_044_01,chara_1
 
 window,off
 wait,0.15
@@ -1475,7 +1475,7 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 
 window,on,0.15
-message,兵士Ｂ,クルルちゃん！？ <br>気を付けて、危ないわよ！,401001000,vc_10670100003_045_01,chara_4
+message,兵士Ｂ,Kururu! Be careful! It's dangerous!<br> ,401001000,vc_10670100003_045_01,chara_4
 
 bgmstop,bgmtag1_4,1.5,0
 
@@ -1523,15 +1523,15 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,クルル,だいじょうぶ！<br>あれは――ハチミツのママだって！,106701000G,vc_10670100003_046_01,chara_1
+message,クルル,It's okay! That's—Hachimitsu's mama!<br> ,106701000G,vc_10670100003_046_01,chara_1
 
-message,ハチミツ,くぅーん！,900000003
+message,ハチミツ,Whimper!<br> ,900000003
 
 bgmplay,bgmtag1_5,bgm0031,0.75,1
 
-message,,ハチミツが岩陰に飛び出していく。 <br>それに応えるように、ハチミツとよく似た大きな犬が姿を見せた。
+message,,Hachimitsu dashed out towards the shadow of the rocks. As if<br>responding，a large dog that looked very similar to Hachimitsu appeared.<br> 
 
-message,<user>,母犬が来ていたのか……
+message,<user>,So the mother dog was here...<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1543,11 +1543,11 @@ asyncseplay,setag1_53,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,クルル,きっとママもハチミツのこと探してたんだと思う。<br>だからハチミツのニオイが残ったこの場所で待ってたんだよ。,106701000G,vc_10670100003_047_01,chara_1
+message,クルル,I bet mama was looking for Hachimitsu too. That's why she waited<br>here，where Hachimitsu's scent lingered.<br> ,106701000G,vc_10670100003_047_01,chara_1
 
-message,ハチミツ,きゅぅーん！,900000003
+message,ハチミツ,Whimper!<br> ,900000003
 
-message,,ハチミツは母犬の周りをぐるぐるとまわる。<br>母犬はハチミツの脚をくんくんと匂い、安心したように座り込んだ。
+message,,Hachimitsu circled around its mother. The mother dog sniffed at<br>Hachimitsu's legs and then sat down，looking relieved.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1558,13 +1558,13 @@ asyncseplay,setag1_54,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,クルル,ハチミツ、うれしそう……,106701000G,vc_10670100003_048_01,chara_1
+message,クルル,Hachimitsu seems so happy...<br> ,106701000G,vc_10670100003_048_01,chara_1
 
-message,<user>,母親と再会できたんだもんな。
+message,<user>,The puppy got to reunite with its mother，after all.<br> 
 
-message,ハチミツ,……くぅん,900000003
+message,ハチミツ,... whimper.<br> ,900000003
 
-message,,母犬の隣に座ったハチミツは、 <br>戸惑ったようにクルルと母犬に視線をさまよわせる。
+message,,Hachimitsu sat down next to its mother，then glanced hesitantly<br>between Kururu and its mother.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1576,9 +1576,9 @@ asyncseplay,setag1_55,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,クルル,……ハチミツ、いいんだよ。<br>ママと一緒に行って。,106701000G,vc_10670100003_049_01,chara_1
+message,クルル,...Hachimitsu，it's okay. Go with your mama.<br> ,106701000G,vc_10670100003_049_01,chara_1
 
-message,ハチミツ,きゃぃん……,900000003
+message,ハチミツ,*yip...*<br> ,900000003
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1589,11 +1589,11 @@ asyncseplay,setag1_56,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,クルル,良かったね。<br>もう迷子なっちゃダメだよ！,106701000G,vc_10670100003_050_01,chara_1
+message,クルル,I'm glad! Don't get lost again!<br> ,106701000G,vc_10670100003_050_01,chara_1
 
-message,ハチミツ,――わふっ！,900000003
+message,ハチミツ,*woof!*<br> ,900000003
 
-message,,元気な吠え声をあげて、ハチミツと母犬は穴の奥へと姿を消す。<br>クルルはじっとその背中を見つめていた。
+message,,With a lively bark，Hachimitsu and the mother dog vanished into the<br>depths of the cave. Kururu stared intently at their backs.<br> 
 
 window,off
 wait,0.15
@@ -1613,9 +1613,9 @@ wait,0.5
 
 
 window,on,0.15
-message,クルル,ばいばい、ハチミツ。,106701000G,vc_10670100003_051_01,chara_1
+message,クルル,Bye-bye，Hachimitsu.<br> ,106701000G,vc_10670100003_051_01,chara_1
 
-message,<user>,……お母さんが見つかって良かったな。
+message,<user>,...I'm glad the mother was found.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1626,7 +1626,7 @@ asyncseplay,setag1_58,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,クルル,……うん！<br>ハチミツにとっては　ママと一緒が何より幸せだから……,106701000G,vc_10670100003_052_01,chara_1
+message,クルル,...Yeah! Being with Mama makes Hachimitsu the happiest...<br> ,106701000G,vc_10670100003_052_01,chara_1
 
 window,off
 wait,0.15
@@ -1641,7 +1641,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（クルルにとってはやっとできた家族なのにな。<br>森を離れて、基地でも一緒にいられる仲間だったのに）
+message,<user>,(For Kururu，this was finally a family she had found... even though<br>it was a companion who could have stayed with her at the base.)<br> 
 
 window,off
 wait,0.15
@@ -1656,7 +1656,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,……本当は寂しいんだろ。<br>泣きたいときには我慢しなくたっていいんだぞ。
+message,<user>,...You're really sad，aren't you? You don't have to hold it in if you<br>want to cry.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1668,7 +1668,7 @@ asyncseplay,setag1_59,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,クルル,ううん、クルルは寂しくないよ。,106701000G,vc_10670100003_053_01,chara_1
+message,クルル,No，I'm not sad.<br> ,106701000G,vc_10670100003_053_01,chara_1
 
 window,off
 wait,0.15
@@ -1715,7 +1715,7 @@ transitionCrossFade,Tra01,1
 wait,1
 
 window,on,0.15
-message,,クルルは<user>の、<br>そして兵士たちを見つめて、本当に幸せそうに微笑んだ。
+message,,Kururu looked at the Commander and then at the soldiers，smiling with<br>genuine happiness.<br> 
 
 window,off
 wait,0.15
@@ -1761,9 +1761,9 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,クルル,クルルには、ご主人さまや、みんなが家族だもん！,106701000G,vc_10670100003_054_01,chara_1
+message,クルル,Master and everyone are my family!<br> ,106701000G,vc_10670100003_054_01,chara_1
 
-message,<user>,――そうだな。<br>基地のみんながお前の家族だ。
+message,<user>,—That's right. Everyone at the base is your family.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1774,11 +1774,11 @@ asyncseplay,setag1_61,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,クルル,えへへ……ずっと一緒だよ、ご主人さま♪,106701000G,vc_10670100003_055_01,chara_1
+message,クルル,Ehehe... we'll be together forever，Master!♪<br> ,106701000G,vc_10670100003_055_01,chara_1
 
-message,,クルルのその屈託のない自然な笑顔に嘘はなかった。
+message,,There was no lie in Kururu's carefree，natural smile.<br> 
 
-message,,森を離れ、独りぼっちだった彼女にとって、この前線基地こそが、<br>新しい『家』であり、ここにいる仲間たちこそが、新しい『家族』なのだから。
+message,,For her，who had left the forest and been all alone，this Frontline<br>Base was her new home，and the companions here were her new family.<br> 
 
 window,off
 bgmstop,bgmtag1_5,0.5

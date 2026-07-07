@@ -69,7 +69,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒマリ,Mm... too bright...<br> ,106601000G,vc_10660100003_001_01,chara_1
+message,ヒマリ,Mmm... it's bright...<br> ,106601000G,vc_10660100003_001_01,chara_1
 
 window,off
 wait,0.15
@@ -97,7 +97,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,It's early morning，when the forward base begins to stir. Himari<br>frowns slightly at the brightness outside，then slowly opens her eyes.<br> 
+message,,It was early morning at the Frontline Base as it began to stir.<br>Himari frowned at the brightness outside and slowly opened her eyes.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -108,9 +108,9 @@ asyncseplay,setag1_3,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヒマリ,Morning... gotta wash my face.<br>Go to the washroom... hnn...<br> ,106601000G,vc_10660100003_002_01,chara_1
+message,ヒマリ,Morning... I gotta wash my face. Head to the washstand... fwaa...<br> ,106601000G,vc_10660100003_002_01,chara_1
 
-message,,Even with her thoughts still hazy from sleep， Himari moves without<br>hesitation through this world's morning routine.<br> 
+message,,Even in her sleepy，hazy thoughts，Himari began moving without<br>hesitation，following the routine of this world.<br> 
 
 window,off
 wait,0.15
@@ -137,7 +137,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,(Somehow，it doesn't feel so strange anymore.<br>Maybe it's 'cause I'm slowly learning about this world...?)<br> ,106601000G,vc_10660100003_003_01,chara_1
+message,ヒマリ,(Somehow，it doesn't feel so strange anymore. Maybe because I'm<br>starting to understand this world little by little...?)<br> ,106601000G,vc_10660100003_003_01,chara_1
 
 window,off
 wait,0.15
@@ -164,9 +164,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,Get ready... today's an expedition，huh.<br> ,106601000G,vc_10660100003_004_01,chara_1
+message,ヒマリ,Get ready... today's the expedition，right.<br> ,106601000G,vc_10660100003_004_01,chara_1
 
-message,,Last time's Abyss survey ended in failure.<br>But somehow，she feels a bit more at ease this time.<br> 
+message,,The investigation of the Abyss had ended in failure last time，but<br>she felt oddly calm about it.<br> 
 
 window,off
 wait,0.15
@@ -192,7 +192,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,(Everyone here is working so hard...<br>so I have to do what I can，too.)<br> ,106601000G,vc_10660100003_005_01,chara_1
+message,ヒマリ,(Everyone's working so hard here... So I have to do what I can too.)<br> ,106601000G,vc_10660100003_005_01,chara_1
 
 
 bgmstop,bgmtag1_1,1.5,0
@@ -238,7 +238,7 @@ bgmplay,bgmtag1_2,bgm0041,0.75,1
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,,Himari and the others are back for another Abyss survey.<br>Same members as before，but Kururu alone seems oddly restless.<br> 
+message,,Himari and the others came to investigate the Abyss again. The team<br>was the same as before，but Kururu seemed restless and unsettled.<br> 
 
 asyncjump,CHARA,chara_3,30,0.25,1,off,0,CONT
 
@@ -247,7 +247,7 @@ asyncseplay,setag1_7,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,クルル,You okay，Himari?<br>If it gets dangerous，Kururu will protect you!<br> ,106701000G,vc_10660100003_006_01,chara_3
+message,クルル,Are you okay，Himari? If it gets dangerous，Kururu will protect you!<br> ,106701000G,vc_10660100003_006_01,chara_3
 
 asyncjump,CHARA,chara_2,-30.6,0.5,1,off,0,CONT
 
@@ -256,7 +256,7 @@ asyncseplay,setag1_8,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,ヒマリ,I'm okay... thank you.<br> ,106601000G,vc_10660100003_007_01,chara_2
+message,ヒマリ,I'm fine，thank you.<br> ,106601000G,vc_10660100003_007_01,chara_2
 
 asyncshake,CHARA,chara_3,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -265,7 +265,7 @@ asyncseplay,setag1_9,se4800015,0,1,CONT,0
 asynccharaemo,chara_3,Dull,CONT,0
 
 
-message,クルル,Isn't your pack heavy~? Want Kururu to carry it~?<br> ,106701000G,vc_10660100003_008_01,chara_3
+message,クルル,Is your bag heavy? Want Kururu to carry it?<br> ,106701000G,vc_10660100003_008_01,chara_3
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -276,7 +276,7 @@ asyncseplay,setag1_10,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,ヒマリ,No，this much is fine.<br>I can't keep relying on everyone...<br> ,106601000G,vc_10660100003_009_01,chara_2
+message,ヒマリ,No，this is nothing. I can't always rely on everyone...<br> ,106601000G,vc_10660100003_009_01,chara_2
 
 asynccharaface,chara_3,FaceFun,CONT,0
 
@@ -287,9 +287,9 @@ asyncseplay,setag1_11,se4800022,0,1,CONT,0
 asynccharaemo,chara_3,Speak,CONT,0
 
 
-message,クルル,Ahaha，Himari's strong~!<br>Then Kururu will go check things out around here!<br> ,106701000G,vc_10660100003_010_01,chara_3
+message,クルル,Ahaha，you're so strong，Himari! Then Kururu will go check out the<br>area!<br> ,106701000G,vc_10660100003_010_01,chara_3
 
-message,<user>,Hey now，Kururu，don't get ahead of yourself. This is where the space<br>warp appeared last time. There's a risk of ambush.<br> 
+message,<user>,Hey hey，Kururu，don't get ahead of yourself. There were spatial<br>distortions in this area last time. There's a risk of ambush.<br> 
 
 asynccharaface,chara_3,EyeOpen,CONT,0
 asynccharaface,chara_3,FaceNormal,CONT,0
@@ -301,7 +301,7 @@ asyncseplay,setag1_12,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,クルル,Yup! I know!<br>Kururu will scout on ahead~!<br> ,106701000G,vc_10660100003_011_01,chara_3
+message,クルル,Mhm! I know! Kururu will go ahead and do some scoot-and-scout!<br> ,106701000G,vc_10660100003_011_01,chara_3
 
 window,off
 wait,0.15
@@ -319,7 +319,7 @@ emodelete,chara_3,0,0
 asyncwait
 
 window,on,0.15
-message,<user>,Ah，hey!<br>What's gotten into her...<br> 
+message,<user>,Ah，hey! What's gotten into her...<br> 
 
 window,off
 wait,0.15
@@ -387,7 +387,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,(What's going on...?<br>Kururu seems more restless than usual，can't settle down...)<br> ,106601000G,vc_10660100003_013_01,chara_1
+message,ヒマリ,(What's wrong? Kururu seems more fidgety than usual，like she can't<br>settle down...)<br> ,106601000G,vc_10660100003_013_01,chara_1
 
 window,off
 wait,0.15
@@ -438,7 +438,7 @@ emodelete,chara_3,0,0
 asyncwait
 
 window,on,0.15
-message,,As if drawn by something，Kururu<br>dashes off down the passage ahead.<br> 
+message,,Kururu，as if drawn by something，dashed into the passage ahead.<br> 
 
 window,off
 wait,0.15
@@ -466,7 +466,7 @@ wait,0.5
 bgmplay,bgmtag1_3,bgm0028,0.75,1
 
 window,on,0.15
-message,,The next moment，a monster's roar echoes as if from the depths of the<br>earth. Then，the sound of claws clashing violently reaches her ears.<br> 
+message,,The next moment，a monster's roar boomed from deep underground. Then<br>the violent clash of claws sent sparks flying.<br> 
 
 window,off
 wait,0.15
@@ -501,7 +501,7 @@ asyncseplay,setag1_20,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 window,on,0.15
-message,<user>,Damn it! Kururu's in trouble!<br>Hurry! Everyone，cover her!<br> 
+message,<user>,This is bad! Kururu! Hurry，everyone! Support Kururu!<br> 
 
 window,off
 wait,0.15
@@ -543,7 +543,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,Kururu...!<br> ,106601000G,vc_10660100003_014_01,chara_1
+message,ヒマリ,Kururu...<br> ,106601000G,vc_10660100003_014_01,chara_1
 
 window,off
 wait,0.15
@@ -611,7 +611,7 @@ asynccharaemo,chara_3,Anger,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,She gasps at the sight before her.<br>Kururu is locked hand-to-hand with a massive monster.<br> 
+message,,Himari gasped at the sight. Kururu was grappling with the giant<br>monster，their hands locked together.<br> 
 
 window,off
 wait,0.15
@@ -660,7 +660,7 @@ asynccharaemo,chara_4,Anger,CONT,0
 
 
 window,on,0.15
-message,モンスター,Gyaaaargh!<br> ,402001000,,chara_4
+message,モンスター,GAAAAAH!<br> ,402001000,,chara_4
 
 window,off
 wait,0.15
@@ -704,9 +704,9 @@ asynccharaemo,chara_3,Exclamation,CONT,0
 
 
 window,on,0.15
-message,クルル,Grrrnnnghhh~~~!<br> ,106701000G,vc_10660100003_015_01,chara_3
+message,クルル,Nnnnngh!<br> ,106701000G,vc_10660100003_015_01,chara_3
 
-message,,Claws dug in on both sides，their strength dead even.<br>Both bodies are locked completely still.<br> 
+message,,Their claws dug into each other，evenly matched. Both were frozen in<br>place.<br> 
 
 window,off
 wait,0.15
@@ -750,9 +750,9 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,Kururu...!<br> ,106601000G,vc_10660100003_016_01,chara_1
+message,ヒマリ,Kururu...<br> ,106601000G,vc_10660100003_016_01,chara_1
 
-message,<user>,Himari! You're the one who can save Kururu!<br> 
+message,<user>,Himari! You're going to save Kururu!<br> 
 
 window,off
 wait,0.15
@@ -794,9 +794,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,Eh? Me...?<br> ,106601000G,vc_10660100003_017_01,chara_1
+message,ヒマリ,Huh? Me...?<br> ,106601000G,vc_10660100003_017_01,chara_1
 
-message,<user>,Yeah. Thanks to Kururu，the target's locked in place.<br>Cover her with your gun，Himari!<br> 
+message,<user>,Yeah. Thanks to Kururu，the target's stopped. Use your gun to back<br>her up!<br> 
 
 window,off
 wait,0.15
@@ -820,7 +820,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,(Me...? B-but the enemy's so close to Kururu...<br>if I hit her by mistake...)<br> ,106601000G,vc_10660100003_018_01,chara_1
+message,ヒマリ,(Me...? B-but the enemy and Kururu are too close... W-what if I hit<br>her...)<br> ,106601000G,vc_10660100003_018_01,chara_1
 
 window,off
 wait,0.15
@@ -837,9 +837,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,Himari... just calm down and aim carefully.<br> 
+message,<user>,Himari... calm down and aim carefully.<br> 
 
-message,,Himari raises her gun and takes aim.<br>But her hands won't stop shaking.<br> 
+message,,Himari raised her gun and took aim. But her hands wouldn't stop<br>trembling.<br> 
 
 window,off
 wait,0.15
@@ -866,7 +866,7 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,(Himari really is useless after all...)<br> ,106601000G,vc_10660100003_019_01,chara_1
+message,ヒマリ,(See，Himari really is useless...)<br> ,106601000G,vc_10660100003_019_01,chara_1
 
 window,off
 wait,0.15
@@ -883,9 +883,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,Himari! You're the only one who can save Kururu right now!<br>Believe in yourself! You can do this!<br> 
+message,<user>,Himari! You're the only one who can save Kururu right now! Believe<br>in yourself! You can do it!<br> 
 
-message,<user>,Listen，Himari! Don't think about anything else!<br>Aim for its head and shoot! That's all you need to think about!<br> 
+message,<user>,Listen up，Himari! Don't think about anything else! Aim for its head<br>and shoot! Focus only on that!<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -896,9 +896,9 @@ asyncseplay,setag1_31,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒマリ,Aim for the head... and shoot...<br> ,106601000G,vc_10660100003_020_01,chara_1
+message,ヒマリ,Aim for the head... shoot...<br> ,106601000G,vc_10660100003_020_01,chara_1
 
-message,,Himari takes a deep breath. Drawing in air from a world so different<br>from the one she grew up in，she raises her head.<br> 
+message,,Himari took a deep breath. Inhaling the air of this unfamiliar<br>world，she resolutely lifted her face.<br> 
 
 window,off
 wait,0.15
@@ -925,7 +925,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,(...Oh. Huh，I get it now.<br>This is something I've always done...)<br> ,106601000G,vc_10660100003_021_01,chara_1
+message,ヒマリ,(I see... So that's it. This is something I've always done...)<br> ,106601000G,vc_10660100003_021_01,chara_1
 
 window,off
 wait,0.15
@@ -942,9 +942,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,,As she regains her composure，a vivid image<br>rises up in Himari's mind.<br> 
+message,,A vivid image surfaced in Himari's mind as she regained her calm.<br> 
 
-message,,It's a memory of gaming — gripping a controller in front of her<br>bedroom monitor，landing a perfect headshot on the final boss.<br> 
+message,,It was a memory from a game—sitting before the monitor in her<br>room，controller in hand，she had aimed at the Final Boss and landed a perfect headshot.<br> 
 
 window,off
 wait,0.15
@@ -970,7 +970,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,(My hands aren't shaking anymore.<br>I'm okay——I can do this!)<br> ,106601000G,vc_10660100003_022_01,chara_1
+message,ヒマリ,(My hands aren't shaking anymore. I'm okay—I can do this!)<br> ,106601000G,vc_10660100003_022_01,chara_1
 
 window,off
 wait,0.15
@@ -1038,7 +1038,7 @@ asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,,Himari pulls the trigger. The flash from her muzzle<br>strikes true，piercing the monster right between the eyes.<br> 
+message,,Himari pulled the trigger. The flash from the muzzle pierced the<br>monster's forehead without the slightest deviation.<br> 
 
 asyncshake,CHARA,chara_4,20,15,0.5,6,on,off,0,off,CONT,0
 
@@ -1047,7 +1047,7 @@ asyncseplay,setag1_36,se4800011,0,1,CONT,0
 asynccharaemo,chara_4,ExclaQues,CONT,0
 
 
-message,モンスター,Gwohh!?<br> ,402001000,,chara_4
+message,モンスター,Gwoah!<br> ,402001000,,chara_4
 
 window,off
 wait,0.15
@@ -1075,7 +1075,7 @@ wait,0.5
 bgmplay,bgmtag1_4,bgm0025,0.75,1
 
 window,on,0.15
-message,<user>,Well done，Himari!!<br> 
+message,<user>,Well done，Himari!<br> 
 
 window,off
 wait,0.15
@@ -1129,7 +1129,7 @@ asynccharaemo,chara_3,Twinkle,CONT,0
 
 
 window,on,0.15
-message,クルル,Himari...! Amazing，amazing~~~!<br> ,106701000G,vc_10660100003_023_01,chara_3
+message,クルル,Himari...! Amazing! Amazing!<br> ,106701000G,vc_10660100003_023_01,chara_3
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1141,7 +1141,7 @@ asyncseplay,setag1_39,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒマリ,I did it... I actually did it...<br> ,106601000G,vc_10660100003_024_01,chara_1
+message,ヒマリ,I did it... I actually did it... I...<br> ,106601000G,vc_10660100003_024_01,chara_1
 
 window,off
 wait,0.15
@@ -1166,9 +1166,9 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,Hiiii~~~maaa~~~riii~~~!!<br>Amazing! You're amaziiing~~~!<br> ,106701000G,vc_10660100003_025_01,chara_3
+message,クルル,Hiii—Maaa—Riii! Amazing! So amazing!<br> ,106701000G,vc_10660100003_025_01,chara_3
 
-message,,Kururu dashes over and hugs the still-stunned<br>Himari tightly.<br> 
+message,,Kururu ran up to Himari，who was still in a daze，and hugged her.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1179,9 +1179,9 @@ asyncseplay,setag1_41,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ヒマリ,Kururu... th-that's too tight，c'mon~...<br> ,106601000G,vc_10660100003_026_01,chara_1
+message,ヒマリ,Kururu... it's hard to breathe... Come on...<br> ,106601000G,vc_10660100003_026_01,chara_1
 
-message,<user>,Great job，Himari!<br>That was a magnificent shot.<br> 
+message,<user>,Great job，Himari! That was a perfect shot.<br> 
 
 asynccharaface,chara_3,FaceFun,CONT,0
 
@@ -1192,7 +1192,7 @@ asyncseplay,setag1_42,se4800003,0,1,CONT,0
 asynccharaemo,chara_3,Twinkle,CONT,0
 
 
-message,クルル,Yup，yup!<br>One shot on that huge monster! Himari's so strong~~!<br> ,106701000G,vc_10660100003_027_01,chara_3
+message,クルル,Mhm mhm! That huge monster，one shot! Himari's so strooong!<br> ,106701000G,vc_10660100003_027_01,chara_3
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1204,7 +1204,7 @@ asyncseplay,setag1_43,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒマリ,I'm so glad you're okay，Kururu...<br>Are you hurt?<br> ,106601000G,vc_10660100003_028_01,chara_1
+message,ヒマリ,Kururu，I'm glad you're safe... Are you hurt?<br> ,106601000G,vc_10660100003_028_01,chara_1
 
 asynccharaface,chara_3,FaceHappy,CONT,0
 
@@ -1215,7 +1215,7 @@ asyncseplay,setag1_44,se4800013,0,1,CONT,0
 asynccharaemo,chara_3,Spirits,CONT,0
 
 
-message,クルル,Ehehe~♪ Of course not!<br>Kururu's just as strong as Himari!<br> ,106701000G,vc_10660100003_029_01,chara_3
+message,クルル,Ehehe! Of course! Kururu is so strong she won't lose to Himari!<br> ,106701000G,vc_10660100003_029_01,chara_3
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1226,9 +1226,9 @@ asyncseplay,setag1_45,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヒマリ,...Fufu，I guess you are.<br> ,106601000G,vc_10660100003_030_01,chara_1
+message,ヒマリ,Fufu... you're right.<br> ,106601000G,vc_10660100003_030_01,chara_1
 
-message,<user>,Don't 'ehehe~♪' me，Kururu. That was insubordination.<br>Why'd you ignore orders and run off ahead?<br> 
+message,<user>,Don't 'Ehehe' me，Kururu. You went off on your own，honestly. Why did<br>you ignore orders and go ahead?<br> 
 
 window,off
 wait,0.15
@@ -1286,7 +1286,7 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 
 window,on,0.15
-message,クルル,'Cause... I thought if I searched that spot，<br>I might find some more~~...<br> ,106701000G,vc_10660100003_031_01,chara_3
+message,クルル,Because... if Kururu searched that place，she might find them<br>again... That's why...<br> ,106701000G,vc_10660100003_031_01,chara_3
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1297,7 +1297,7 @@ asyncseplay,setag1_47,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ヒマリ,Find some...? Of what?<br> ,106601000G,vc_10660100003_032_01,chara_1
+message,ヒマリ,Find...? What?<br> ,106601000G,vc_10660100003_032_01,chara_1
 
 asynccharaface,chara_3,FaceShy,CONT,0
 
@@ -1308,9 +1308,9 @@ asyncseplay,setag1_48,se4800022,0,1,CONT,0
 asynccharaemo,chara_3,Speak,CONT,0
 
 
-message,クルル,Those snacks in the bag...<br> ,106701000G,vc_10660100003_033_01,chara_3
+message,クルル,The sweets in that bag...<br> ,106701000G,vc_10660100003_033_01,chara_3
 
-message,<user>,Wha!?<br>You were that restless just to find more snacks?<br> 
+message,<user>,*pant*!? You were that restless just because you wanted to find the<br>sweets?<br> 
 
 asynccharaface,chara_3,FaceHappy,CONT,0
 
@@ -1321,7 +1321,7 @@ asyncseplay,setag1_49,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,クルル,Yup! 'Cause when everyone was eating those snacks，<br>Himari kept smiling the whole time...<br> ,106701000G,vc_10660100003_034_01,chara_3
+message,クルル,Uh-huh! Because when we were all eating sweets，Himari was smiling<br>the whole time!<br> ,106701000G,vc_10660100003_034_01,chara_3
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -1330,7 +1330,7 @@ asyncseplay,setag1_50,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ヒマリ,Eh!? Me...!?<br> ,106601000G,vc_10660100003_035_01,chara_1
+message,ヒマリ,Eh! Me...!<br> ,106601000G,vc_10660100003_035_01,chara_1
 
 asynccharaface,chara_3,EyeOpen,CONT,0
 asynccharaface,chara_3,FaceNormal,CONT,0
@@ -1342,7 +1342,7 @@ asyncseplay,setag1_51,se4800022,0,1,CONT,0
 asynccharaemo,chara_3,Speak,CONT,0
 
 
-message,クルル,Yeah. That's the first time I ever saw Himari smile like that.<br>So I thought，maybe if I found more，you'd smile again~...<br> ,106701000G,vc_10660100003_036_01,chara_3
+message,クルル,Right. It was the first time I saw Himari smiling like that. So I<br>thought，maybe if I find the sweets again，she'll smile for me...<br> ,106701000G,vc_10660100003_036_01,chara_3
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1353,7 +1353,7 @@ asyncseplay,setag1_52,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ヒマリ,I see... you did it for me...<br> ,106601000G,vc_10660100003_037_01,chara_1
+message,ヒマリ,I see... For my sake...<br> ,106601000G,vc_10660100003_037_01,chara_1
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -1364,7 +1364,7 @@ asyncseplay,setag1_53,se4800006,0,1,CONT,0
 asynccharaemo,chara_3,Trouble,CONT,0
 
 
-message,クルル,But we didn't find any.<br>Sorry...<br> ,106701000G,vc_10660100003_038_01,chara_3
+message,クルル,But I couldn't find any. Sorry...<br> ,106701000G,vc_10660100003_038_01,chara_3
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1376,7 +1376,7 @@ asyncseplay,setag1_54,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヒマリ,Kururu... don't apologize.<br>I'm way，way happier that you're safe than about any snacks.<br> ,106601000G,vc_10660100003_039_01,chara_1
+message,ヒマリ,Kururu... don't apologize. More than sweets，I'm so，so much happier<br>that you're safe.<br> ,106601000G,vc_10660100003_039_01,chara_1
 
 asynccharaface,chara_3,FaceFun,CONT,0
 
@@ -1387,7 +1387,7 @@ asyncseplay,setag1_55,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,クルル,Eh? Really?<br>Then if Kururu's doing well，will you smile again?<br> ,106701000G,vc_10660100003_040_01,chara_3
+message,クルル,Eh? Really? Then，if I'm well，will you smile for me again?<br> ,106701000G,vc_10660100003_040_01,chara_3
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1398,7 +1398,7 @@ asyncseplay,setag1_56,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヒマリ,Yeah. Of course!<br> ,106601000G,vc_10660100003_041_01,chara_1
+message,ヒマリ,Mhm. Of course!<br> ,106601000G,vc_10660100003_041_01,chara_1
 
 window,off
 wait,0.15
@@ -1420,7 +1420,7 @@ asynccharaface,chara_3,FaceHappy,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,With that，Himari smiles<br>and pulls Kururu into a tight hug.<br> 
+message,,Himari said that with a smile，then hugged Kururu tightly.<br> 
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1432,9 +1432,9 @@ asyncseplay,setag1_58,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ヒマリ,Kururu is Himari's precious，precious friend，after all.<br> ,106601000G,vc_10660100003_042_01,chara_1
+message,ヒマリ,Kururu is a very，very important friend to me.<br> ,106601000G,vc_10660100003_042_01,chara_1
 
-message,<user>,Himari，Kururu.<br>Good news for you two who wanted those snacks so badly.<br> 
+message,<user>,Himari，Kururu. I have good news for you two who were dying to have<br>those sweets.<br> 
 
 window,off
 wait,0.15
@@ -1457,7 +1457,7 @@ wait,0.5
 window,on,0.15
 message,ヒマリ,Good news...?<br> ,106601000G,vc_10660100003_043_01,chara_1
 
-message,<user>,That's right.<br>Remember I said Adelheid was analyzing those snacks?<br> 
+message,<user>,That's right. I told you I had Adelheid analyze those sweets，didn't<br>I?<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1466,7 +1466,7 @@ asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 message,ヒマリ,Yeah...<br> ,106601000G,vc_10660100003_044_01,chara_1
 
-message,<user>,Turns out we might be able to recreate them —<br>even using ingredients and techniques from this world.<br> 
+message,<user>,It might be possible to recreate them. Even using ingredients and<br>techniques from this world.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1477,7 +1477,7 @@ asyncseplay,setag1_60,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒマリ,Eh...? Really? Something like that's possible...?<br> ,106601000G,vc_10660100003_045_01,chara_1
+message,ヒマリ,Huh...? It's possible? Something like that...<br> ,106601000G,vc_10660100003_045_01,chara_1
 
 asynccharaface,chara_3,FaceHappy,CONT,0
 
@@ -1488,7 +1488,7 @@ asyncseplay,setag1_61,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,クルル,Yay，yaaay~~!<br>We get to eat lots more of that yummy snack!<br> ,106701000G,vc_10660100003_046_01,chara_3
+message,クルル,Yay，yay! We can eat lots again! Those delicious sweets!<br> ,106701000G,vc_10660100003_046_01,chara_3
 
 window,off
 wait,0.15
@@ -1506,9 +1506,9 @@ asynccharaemo,chara_1,Flower,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,Seeing Kururu's carefree smile，<br>something warm slowly spreads through Himari's chest.<br> 
+message,,Seeing Kururu's unreserved smile，a warm feeling spread gently<br>through Himari's chest.<br> 
 
-message,,A taste of memory from her old world<br>is what's bringing this much joy to her new friend.<br> 
+message,,The nostalgic taste from her original world was making her new<br>friends in front of her smile like this.<br> 
 
 asynccharaface,chara_3,FaceFun,CONT,0
 
@@ -1519,7 +1519,7 @@ asyncseplay,setag1_63,se4800003,0,1,CONT,0
 asynccharaemo,chara_3,Twinkle,CONT,0
 
 
-message,クルル,Yay!<br>With those snacks around，Himari will keep smiling forever!<br> ,106701000G,vc_10660100003_047_01,chara_3
+message,クルル,Yay! With those sweets，Himari will be smiling forever and ever!<br> ,106701000G,vc_10660100003_047_01,chara_3
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1530,7 +1530,7 @@ asyncseplay,setag1_64,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ヒマリ,Ahaha♪ Yeah，you're right~.<br> ,106601000G,vc_10660100003_048_01,chara_1
+message,ヒマリ,Ahaha!♪ Yeah，that's right!<br> ,106601000G,vc_10660100003_048_01,chara_1
 
 window,off
 wait,0.15
@@ -1586,7 +1586,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,(I didn't notice until Kururu pointed it out.<br>I really hadn't smiled much since coming here...)<br> ,106601000G,vc_10660100003_049_01,chara_1
+message,ヒマリ,(I didn't realize until Kururu said it.<br>I haven't been smiling much since I came here...)<br> ,106601000G,vc_10660100003_049_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1597,7 +1597,7 @@ asyncseplay,setag1_66,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ヒマリ,(I was so scared when I looked around the forward base.<br>Everyone was armed，with such scary faces...)<br> ,106601000G,vc_10660100003_050_01,chara_1
+message,ヒマリ,(When I looked around the Frontline Base，I was really scared.<br>Because everyone was carrying weapons and had scary faces...)<br> ,106601000G,vc_10660100003_050_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1608,7 +1608,7 @@ asyncseplay,setag1_67,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ヒマリ,(But the people here gave my smile back to me.<br>Now it's my turn to bring smiles to the people who live here...)<br> ,106601000G,vc_10660100003_051_01,chara_1
+message,ヒマリ,(But the people here helped me get my smile back.<br>Now I have to bring smiles to the people living here...)<br> ,106601000G,vc_10660100003_051_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1619,7 +1619,7 @@ asyncseplay,setag1_68,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ヒマリ,(Not just Kururu and the Commander，<br>but everyone who lives at that forward base too...)<br> ,106601000G,vc_10660100003_052_01,chara_1
+message,ヒマリ,(Not just Kururu and Commander，but also the smiles of the people at<br>that Frontline Base...)<br> ,106601000G,vc_10660100003_052_01,chara_1
 
 window,off
 wait,0.15
@@ -1636,9 +1636,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,,As Himari lifts her head，her eyes<br>no longer carry any trace of loneliness or unease.<br> 
+message,,When Himari raised her head，her eyes no longer held loneliness or<br>uncertainty.<br> 
 
-message,,Because the girl who once could only be protected<br>has finally found a clear reason to fight in this harsh world——<br> 
+message,,The girl who had only been protected at first had now clearly found<br>a reason to fight in this harsh world—<br> 
 
 window,off
 bgmstop,bgmtag1_4,0.5

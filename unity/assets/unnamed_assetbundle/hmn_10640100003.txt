@@ -33,7 +33,7 @@ bgmplay,bgmtag1_1,bgm0031,0.75,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――数日後</size>,,,on
+messageTextCenter,,<size=48>—A few days later</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -115,7 +115,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,兵士A,ほぉ……,400901000,,chara_2
+message,兵士A,Wow...<br> ,400901000,,chara_2
 
 asyncjump,CHARA,chara_3,-30.6,0.5,1,off,0,CONT
 
@@ -124,7 +124,7 @@ asyncseplay,setag1_3,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,兵士B,これは……すごいですね。,401301000,vc_10640100003_002_01,chara_3
+message,兵士B,This is... incredible.<br> ,401301000,vc_10640100003_002_01,chara_3
 
 window,off
 wait,0.15
@@ -139,7 +139,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（何度聴いても、ラモーナの歌は見事だな。<br>兵士たちも聴き惚れてる。……お、終わったか）
+message,<user>,(No matter how many times I hear it，Ramona's singing is amazing.<br>The soldiers are captivated.<br>...Oh，it's over.)<br> 
 
 window,off
 wait,0.15
@@ -197,7 +197,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ラモーナ,――ご清聴、ありがとうございます。<br>いかがでしたか？,106401000G,vc_10640100003_003_01,chara_1
+message,ラモーナ,—Thank you for listening.<br>How was it?<br> ,106401000G,vc_10640100003_003_01,chara_1
 
 window,off
 wait,0.15
@@ -260,7 +260,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,兵士A,いや、驚いたな！<br>すごいじゃないか！,400901000,,chara_2
+message,兵士A,Wow，I'm surprised!<br>That was incredible!<br> ,400901000,,chara_2
 
 asyncjump,CHARA,chara_3,-30.6,0.5,1,off,0,CONT
 
@@ -269,7 +269,7 @@ asyncseplay,setag1_6,se4800003,0,1,CONT,0
 asynccharaemo,chara_3,Twinkle,CONT,0
 
 
-message,兵士B,綺麗な歌声ですね。<br>思わずうっとりしてしまいました。,401301000,vc_10640100003_004_01,chara_3
+message,兵士B,What a beautiful voice.<br>I was completely entranced.<br> ,401301000,vc_10640100003_004_01,chara_3
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -281,7 +281,7 @@ asyncseplay,setag1_7,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,兵士A,吟遊詩人とは聞いてたが、歌で十分稼げそうだな！,400901000,,chara_2
+message,兵士A,I heard you were a Bard，but you could make a living just from<br>singing!<br> ,400901000,,chara_2
 
 window,off
 wait,0.15
@@ -300,7 +300,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ラモーナ,ふふ、ありがとうございます♪<br>喜んでいただけて、なによりです。,106401000G,vc_10640100003_005_01,chara_1
+message,ラモーナ,Fufu，thank you!♪<br>I'm so glad you liked it.<br> ,106401000G,vc_10640100003_005_01,chara_1
 
 window,off
 wait,0.15
@@ -315,7 +315,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（この２人がまたラモーナと組むと知った時は不安そうな顔をしてたが、<br>すっかり打ち解けたみたいで良かった）
+message,<user>,(When I heard these two would be paired with Ramona again，they<br>looked uneasy，but they've really warmed up to her now.)<br> 
 
 window,off
 wait,0.15
@@ -365,9 +365,9 @@ asyncseplay,setag1_9,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 window,on,0.15
-message,<user>,ありがとう、ラモーナ。おかげでいい休憩になったよ。<br>みんな、周辺への警戒に意識を張り続けていたからな。
+message,<user>,Thanks，Ramona. That was a nice break.<br>Everyone's been on edge from the constant vigilance.<br> 
 
-message,<user>,森のこのあたりは探索が不十分だから、<br>生息するモンスターもはっきりしていないしな。
+message,<user>,This part of the forest isn't fully explored，so we don't even know<br>what monsters live here.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -378,7 +378,7 @@ asyncseplay,setag1_10,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ラモーナ,ふふっ、お役に立てて良かったです♪,106401000G,vc_10640100003_006_01,chara_1
+message,ラモーナ,Fufu，I'm glad I could help!♪<br> ,106401000G,vc_10640100003_006_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -389,7 +389,7 @@ asyncseplay,setag1_11,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ラモーナ,警戒することは大事ですが、張り詰めてばかりですと、<br>かえって注意力が散漫になってしまいますからね。,106401000G,vc_10640100003_007_01,chara_1
+message,ラモーナ,Vigilance is important，but if you're always tense，it can actually<br>make your attention wander.<br> ,106401000G,vc_10640100003_007_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -401,7 +401,7 @@ asyncseplay,setag1_12,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ラモーナ,私の歌が息抜きになったのなら、これほど嬉しいことはありません。<br>歌でお役に立てるのは、吟遊詩人には一番の喜びですから♪,106401000G,vc_10640100003_008_01,chara_1
+message,ラモーナ,If my songs helped you relax，I couldn't be happier!♪<br>Being able to help through song is a Bard's greatest joy!♪<br> ,106401000G,vc_10640100003_008_01,chara_1
 
 window,off
 wait,0.15
@@ -466,7 +466,7 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,兵士B,歌だけではなく、ラモーナさん自身が一緒にいて心が落ち着きますね。<br>兵士だけだと、もっと張り詰めてしまいますから。,401301000,vc_10640100003_009_01,chara_3
+message,兵士B,It's not just your singing; having you with us puts us at ease.<br>With just soldiers，we'd be more tense.<br> ,401301000,vc_10640100003_009_01,chara_3
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -477,7 +477,7 @@ asyncseplay,setag1_14,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ラモーナ,ありがとうございます♪,106401000G,vc_10640100003_010_01,chara_1
+message,ラモーナ,Thank you!♪<br> ,106401000G,vc_10640100003_010_01,chara_1
 
 window,off
 wait,0.15
@@ -492,7 +492,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（この調子なら、他の連中と組ませても大丈夫か。<br>あとは、弱点を克服できれば言うことなしだが）
+message,<user>,(At this rate，she should be fine with other squads.<br>Now if she could overcome her weakness，that'd be perfect.)<br> 
 
 window,off
 wait,0.15
@@ -507,7 +507,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,よし、そろそろ行くぞ。<br>全員、準備しろ。
+message,<user>,Alright，time to move out.<br>Everyone，get ready.<br> 
 
 window,off
 wait,0.15
@@ -558,7 +558,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,ラモーナ,はいっ！,106401000G,vc_10640100003_011_01,chara_1
+message,ラモーナ,Yes!<br> ,106401000G,vc_10640100003_011_01,chara_1
 
 
 window,off
@@ -585,7 +585,7 @@ emodelete,chara_1,0,0
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,<user>,枝葉が茂って、ほとんど森の奥が見通せないな……。<br>植生もだいたい把握できたし、このへんで引き返すか。
+message,<user>,The foliage is thick; we can barely see into the forest... We've got<br>a good grasp of the vegetation，so let's head back.<br> 
 
 window,off
 wait,0.15
@@ -617,7 +617,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ラモーナ,承知しました、司令官さま。<br>それでは皆さん、帰りましょうか。,106401000G,vc_10640100003_012_01,chara_1
+message,ラモーナ,Understood，Commander. Well then，everyone，let's head back.<br> ,106401000G,vc_10640100003_012_01,chara_1
 
 window,off
 wait,0.15
@@ -632,7 +632,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（問題が起きなくてよかった。<br>このまますんなり帰れれば万々歳だが……）
+message,<user>,(Thankfully nothing went wrong. If we can get back without a<br>hitch，that'd be great...)<br> 
 
 window,off
 wait,0.15
@@ -666,11 +666,11 @@ bgmstop,bgmtag1_1,1,0
 asyncseplay,setag1_17,se4403003,0,1,CONT,0
 
 window,on,0.15
-message,,ガサガサッ――！
+message,,*rustle!*<br> 
 
 bgmplay,bgmtag1_2,bgm0034,0.75,1
 
-message,<user>,そう都合よくはいかないか……！<br>全員、武器を抜け！　ラモーナは俺の横に！
+message,<user>,Of course it couldn't be that easy...! Everyone，draw your weapons!<br>Ramona，to my side!<br> 
 
 window,off
 wait,0.15
@@ -710,9 +710,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ラモーナ,承知しました！<br>……モンスターでしょうか？,106401000G,vc_10640100003_013_01,chara_1
+message,ラモーナ,Understood! ...Is it a monster?<br> ,106401000G,vc_10640100003_013_01,chara_1
 
-message,<user>,分からない。枝葉の揺れかたからして、<br>そこまで大きな生きものじゃないはずだが……
+message,<user>,I don't know. From the way the branches are shaking，it shouldn't be<br>that big... but...<br> 
 
 window,off
 wait,0.15
@@ -765,9 +765,9 @@ asynccharaemo,chara_2,Exclamation,CONT,0
 
 
 window,on,0.15
-message,兵士A,さあ、なんでも出てきやがれ！<br>こっちはいつでも……って。,400901000,,chara_2
+message,兵士A,Come on，come out，whatever it is! We're ready... Hey.<br> ,400901000,,chara_2
 
-message,,ガサッ……！
+message,,*rustle...!*<br> 
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -779,7 +779,7 @@ asyncseplay,setag1_20,se4800006,0,1,CONT,0
 asynccharaemo,chara_2,Trouble,CONT,0
 
 
-message,兵士A,ヘビ……？<br>なんだ、こんなちっこいヘビか。びびって損したぜ。,400901000,,chara_2
+message,兵士A,A snake...? Huh，just a little snake? Got scared for nothing.<br> ,400901000,,chara_2
 
 window,off
 wait,0.15
@@ -825,9 +825,9 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ラモーナ,ヘビ……っ！,106401000G,vc_10640100003_014_01,chara_1
+message,ラモーナ,A snake...!<br> ,106401000G,vc_10640100003_014_01,chara_1
 
-message,<user>,大丈夫か、ラモーナ？
+message,<user>,You okay，Ramona?<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -838,7 +838,7 @@ asyncseplay,setag1_22,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ラモーナ,は、はい……驚きはしましたが、大丈夫です。<br>もう、足手まといにはなりません……！,106401000G,vc_10640100003_015_01,chara_1
+message,ラモーナ,Y-yes... It startled me，but I'm fine. I won't be a burden<br>anymore...!<br> ,106401000G,vc_10640100003_015_01,chara_1
 
 window,off
 wait,0.15
@@ -853,7 +853,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（震えてはいるが、弓はしっかり握れている……。<br>なんとかやれそうだな）
+message,<user>,(She's trembling，but she's got a firm grip on her bow... She'll<br>manage somehow.)<br> 
 
 window,off
 wait,0.15
@@ -912,16 +912,16 @@ asynccharaemo,chara_3,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,兵士B,油断しないで！　１匹や２匹じゃない！<br>５、６……どれだけいるのよ！？,401301000,vc_10640100003_016_01,chara_3
+message,兵士B,Don't let your guard down! There's not just one or two! Five，six...<br>how many are there!?<br> ,401301000,vc_10640100003_016_01,chara_3
 
-message,<user>,……妙だな。群れで狩りをするヘビは確かにいるが、<br>自分たちよりはるかにでかい人間を狙うなんて聞いたことがない。
+message,<user>,Strange. There are snakes that hunt in packs，sure，but I've never<br>heard of them targeting humans so much larger than themselves.<br> 
 
-message,<user>,とはいえ、足場の悪い森の中で駆け抜けてまくのも危険だ。<br>ここで対処するぞ。
+message,<user>,Still，trying to run through this rough terrain is dangerous too.<br>We'll deal with them here.<br> 
 
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
 
-message,兵士A,了解だ、司令官！,400901000,,chara_2
+message,兵士A,Got it，Commander!<br> ,400901000,,chara_2
 
 window,off
 wait,0.15
@@ -960,7 +960,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,<user>,ラモーナ、いけるか？
+message,<user>,Ramona，can you handle this?<br> 
 
 window,off
 wait,0.15
@@ -973,9 +973,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ラモーナ,……はい！　大丈夫です！<br>私は弓で援護します！,106401000G,vc_10640100003_017_01,chara_1
+message,ラモーナ,...Yes! I'm fine! I'll provide support with my bow!<br> ,106401000G,vc_10640100003_017_01,chara_1
 
-message,<user>,よし、任せたぞ！
+message,<user>,Alright，I'm counting on you!<br> 
 
 
 window,off
@@ -999,7 +999,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ラモーナ,危ない！,106401000G,vc_10640100003_018_01,chara_1
+message,ラモーナ,Look out!<br> ,106401000G,vc_10640100003_018_01,chara_1
 
 window,off
 wait,0.15
@@ -1049,7 +1049,7 @@ wait,1
 cleanall,EFFECT
 
 window,on,0.15
-message,,シュッ――！<br>ザグッ！
+message,,*swoosh——*<br>*thud!*<br> 
 
 window,off
 wait,0.15
@@ -1074,7 +1074,7 @@ asynccharaemo,chara_2,Exclamation,CONT,0
 
 
 window,on,0.15
-message,兵士A,おっと！　後ろから狙われてたか……！<br>助かったぜ！,400901000,,chara_2
+message,兵士A,Whoa! They were aiming from behind...! Thanks for the save!<br> ,400901000,,chara_2
 
 window,off
 wait,0.15
@@ -1112,7 +1112,7 @@ asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,ラモーナ,皆さんの死角は私がカバーします！<br>安心して目の前の敵に集中してください！,106401000G,vc_10640100003_019_01,chara_1
+message,ラモーナ,I'll cover your blind spots! Please focus on the enemies ahead!<br> ,106401000G,vc_10640100003_019_01,chara_1
 
 window,off
 wait,0.15
@@ -1127,7 +1127,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（ラモーナ、しっかり狙えてるな。<br>ヘビへの恐怖は克服できたかな？）
+message,<user>,(Ramona's aim is on point. Has she overcome her fear of snakes?)<br> 
 
 window,off
 wait,0.15
@@ -1184,7 +1184,7 @@ wait,0.5
 
 
 window,on,0.15
-message,兵士B,あらかた片付いたみたいね。<br>数が多いのは厄介だったけど、人間に挑むのは無謀だったようね。,401301000,vc_10640100003_020_01,chara_3
+message,兵士B,Looks like we've dealt with most of them. They were a pain with<br>their numbers，but challenging humans was reckless.<br> ,401301000,vc_10640100003_020_01,chara_3
 
 window,off
 wait,0.15
@@ -1199,7 +1199,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（気がかりなのはそれだ。<br>なぜ、人間を襲った？　勝てる相手じゃないと分かるはずだが……）
+message,<user>,(That's what bothers me. Why did they attack humans? They should<br>have known they weren't a match for us...)<br> 
 
 bgmstop,bgmtag1_2,1,0
 
@@ -1236,7 +1236,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,,……ズル。
+message,,*...slither.*<br> 
 
 window,off
 wait,0.15
@@ -1282,7 +1282,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ラモーナ,……っ！　皆さん！　森の奥にまだ何かいます！<br>何かが動く音が聞こえました！,106401000G,vc_10640100003_021_01,chara_1
+message,ラモーナ,...! Everyone! There's still something deeper in the forest! I heard<br>something moving!<br> ,106401000G,vc_10640100003_021_01,chara_1
 
 window,off
 wait,0.15
@@ -1334,7 +1334,7 @@ asynccharaemo,chara_2,Question,CONT,0
 
 
 window,on,0.15
-message,兵士A,え？　おれには何も聞こえなかったが……,400901000,,chara_2
+message,兵士A,Huh? I didn't hear anything though...<br> ,400901000,,chara_2
 
 window,off
 wait,0.15
@@ -1382,7 +1382,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ラモーナ,……っ！　いけませんっ！<br>下がって――！,106401000G,vc_10640100003_022_01,chara_1
+message,ラモーナ,...! No! Get back—!<br> ,106401000G,vc_10640100003_022_01,chara_1
 
 window,off
 wait,0.15
@@ -1418,7 +1418,7 @@ asyncseplay,setag1_32,se4800001,0,1,CONT,0
 asynccharaemo,chara_4,Anger,CONT,0
 
 window,on,0.15
-message,,ラモーナの警告に仲間が反応するよりも早く――<br>木立の奥から、巨大なヘビの怪物が飛び出してきた！
+message,,Before her comrades could react to Ramona's warning，a giant snake<br>monster burst out of the thicket!<br> 
 
 window,off
 wait,0.15
@@ -1477,7 +1477,7 @@ shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 
 
 window,on,0.15
-message,兵士A,なっ！？<br>ぐあぁっ……！？,400901000,,chara_2
+message,兵士A,What! Ugh...!<br> ,400901000,,chara_2
 
 window,off
 wait,0.15
@@ -1542,7 +1542,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（鍛えてる兵士があっさり吹き飛ばされた……！<br>巨大なヘビのモンスター……バジリスクか！）
+message,<user>,(A trained soldier got sent flying in an instant...! A giant snake<br>monster... A Basilisk!)<br> 
 
 window,off
 wait,0.15
@@ -1557,7 +1557,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,ヘビの群れが襲ってきたのはこいつが操ったからか……！<br>こっちがヘビの相手で疲弊したところを狙ってきたわけだ！
+message,<user>,So this one controlled the snake swarm...! It waited until we were<br>exhausted from dealing with the snakes!<br> 
 
 window,off
 wait,0.15
@@ -1599,7 +1599,7 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,兵士B,モンスターがそんな知恵を！？<br>なんて厄介な……！,401301000,vc_10640100003_023_01,chara_3
+message,兵士B,A monster with that kind of intelligence! How troublesome...!<br> ,401301000,vc_10640100003_023_01,chara_3
 
 window,off
 wait,0.15
@@ -1641,9 +1641,9 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ラモーナ,あっ……ああぁ……っ！,106401000G,vc_10640100003_024_01,chara_1
+message,ラモーナ,Ah... Aaah...!<br> ,106401000G,vc_10640100003_024_01,chara_1
 
-message,<user>,ラモーナ！？
+message,<user>,Ramona!<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1652,7 +1652,7 @@ asyncseplay,setag1_38,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ラモーナ,ヘ、ヘビ……大きなヘビが……！<br>い、いやぁ……！,106401000G,vc_10640100003_025_01,chara_1
+message,ラモーナ,S-snake... a huge snake...! N-no...!<br> ,106401000G,vc_10640100003_025_01,chara_1
 
 window,off
 wait,0.15
@@ -1672,7 +1672,7 @@ asynccharamove,chara_1,Linear,Y,-100,0.5,CONT,0
 asyncwait
 
 window,on,0.15
-message,,ラモーナが悲鳴を上げてへたり込む。<br>弓を手放した指先は恐怖に震えている。
+message,,Ramona screamed and collapsed. The fingers that released the bow<br>trembled in fear.<br> 
 
 window,off
 wait,0.15
@@ -1687,7 +1687,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（そうか……！　ラモーナは子どものころにヘビに襲われたと言っていた……。<br>巨大なヘビが、子どものころに見た記憶を呼び起こしたのか……！）
+message,<user>,(I see...! Ramona said she was attacked by snakes as a child... That<br>giant snake must have brought back those memories...!)<br> 
 
 window,off
 wait,0.15
@@ -1702,7 +1702,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,,バジリスクに弾き飛ばされた兵士は気を失ったらしく、ぴくりとも動かない。<br>残る兵士は慎重に間合いを測っているが、明らかに手に余る相手だ。
+message,,The soldier thrown by the Basilisk passed out. The other soldier<br>kept his distance，clearly outmatched.<br> 
 
 window,off
 wait,0.15
@@ -1744,7 +1744,7 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 
 window,on,0.15
-message,兵士B,司令官！　私１人でどうにかできる相手ではありません！<br>ご指示を……！,401301000,vc_10640100003_026_01,chara_3
+message,兵士B,Commander! This is not an opponent I can handle alone! Give me your<br>orders...!<br> ,401301000,vc_10640100003_026_01,chara_3
 
 window,off
 wait,0.15
@@ -1795,9 +1795,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（バジリスクの表皮は分厚いゴムのようなものだ。<br>ただの剣じゃ、ほとんど傷をつけられない）
+message,<user>,(The Basilisk's hide is like thick rubber. A normal sword can barely<br>scratch it.)<br> 
 
-message,<user>,（倒す手段があるとしたら、表皮を貫いて急所を一撃で貫けるほどの<br>貫通力を持った攻撃。それができるのは――）
+message,<user>,To defeat it，we'd need an attack that can pierce its hide and strike<br>a vital point in one blow. The one who can do that is—<br> 
 
 window,off
 wait,0.15
@@ -1836,7 +1836,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,――ラモーナ。<br>立ち上がれ。
+message,<user>,—Ramona. Get up.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1847,9 +1847,9 @@ asyncseplay,setag1_42,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ラモーナ,……え？,106401000G,vc_10640100003_027_01,chara_1
+message,ラモーナ,...Huh?<br> ,106401000G,vc_10640100003_027_01,chara_1
 
-message,<user>,あのバジリスクを倒せるのは、お前が魔力を込めた矢だけだ。
+message,<user>,Only your magic-infused arrow can beat that Basilisk.<br> 
 
 window,off
 wait,0.15
@@ -1868,9 +1868,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ラモーナ,私が……あのモンスターを……？,106401000G,vc_10640100003_028_01,chara_1
+message,ラモーナ,I... take down that monster...?<br> ,106401000G,vc_10640100003_028_01,chara_1
 
-message,<user>,そうだ。お前がやれなきゃ、この場にいる仲間、全員が死ぬ。
+message,<user>,Right. If you can't，everyone here dies.<br> 
 
 asyncshake,CHARA,chara_1,20,15,0.5,6,on,off,0,off,CONT,0
 
@@ -1879,7 +1879,7 @@ asyncseplay,setag1_44,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,ラモーナ,…………！,106401000G,vc_10640100003_029_01,chara_1
+message,ラモーナ,...!<br> ,106401000G,vc_10640100003_029_01,chara_1
 
 window,off
 wait,0.15
@@ -1927,7 +1927,7 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 
 window,on,0.15
-message,兵士B,ぐっ……！<br>凌ぎきれない……！,401301000,vc_10640100003_030_01,chara_3
+message,兵士B,*Guh...!* I can't hold out...!<br> ,401301000,vc_10640100003_030_01,chara_3
 
 window,off
 wait,0.15
@@ -1976,7 +1976,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ラモーナ,（あ……っ！　仲間が……仲間がやられてしまう……！）,106401000G,vc_10640100003_031_01,chara_1
+message,ラモーナ,(Ah...! My comrades... they're going to be killed...!)<br> ,106401000G,vc_10640100003_031_01,chara_1
 
 window,off
 wait,0.15
@@ -2019,7 +2019,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ラモーナ,（私が……私がやらなきゃいけないんだ。<br>私が――！）,106401000G,vc_10640100003_032_01,chara_1
+message,ラモーナ,(I have to... I'm the one who has to do it. I—!)<br> ,106401000G,vc_10640100003_032_01,chara_1
 
 
 window,off
@@ -2077,7 +2077,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ラモーナ,（矢に魔力は込めた。でも、手が震える……！<br>だめ、このままじゃ外してしまう……！）,106401000G,vc_10640100003_033_01,chara_1
+message,ラモーナ,(I infused the arrow with magic. But my hands are shaking...! No，at<br>this rate I'll miss...!)<br> ,106401000G,vc_10640100003_033_01,chara_1
 
 window,off
 wait,0.15
@@ -2092,7 +2092,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,ラモーナ。お前ならできる。
+message,<user>,Ramona. You can do it.<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -2101,11 +2101,11 @@ asyncseplay,setag1_52,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ラモーナ,え……？,106401000G,vc_10640100003_034_01,chara_1
+message,ラモーナ,...Huh?<br> ,106401000G,vc_10640100003_034_01,chara_1
 
-message,<user>,お前ならやれると信じている。<br>だから、俺の命はお前に預ける。
+message,<user>,I believe you can do it. That's why I'm entrusting my life to you.<br> 
 
-message,<user>,だから、お前も信じろ。<br>お前なら、必ずやれると。
+message,<user>,So trust yourself. Believe that you can definitely do it.<br> 
 
 window,off
 wait,0.15
@@ -2133,7 +2133,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ラモーナ,（…………！<br>震えが……止まった！）,106401000G,vc_10640100003_035_01,chara_1
+message,ラモーナ,(...! The trembling... stopped!)<br> ,106401000G,vc_10640100003_035_01,chara_1
 
 window,off
 wait,0.15
@@ -2161,7 +2161,7 @@ linework,on,White,Middle
 
 
 window,on,0.15
-message,ラモーナ,――伏せてください！,106401000G,vc_10640100003_036_01,chara_1
+message,ラモーナ,—Get down!<br> ,106401000G,vc_10640100003_036_01,chara_1
 
 window,off
 wait,0.15
@@ -2207,7 +2207,7 @@ wait,0.5
 
 
 window,on,0.15
-message,兵士B,っ……！,401301000,vc_10640100003_037_01,chara_3
+message,兵士B,Ngh...!<br> ,401301000,vc_10640100003_037_01,chara_3
 
 window,off
 wait,0.15
@@ -2235,7 +2235,7 @@ asyncmove,BACK,,0,0,0,Set,CONT
 transitionFade,Tra22,in,white,0
 
 window,on,0.15
-message,,引き絞られた弓につがえられた矢が、<br>魔力を込められて眩い光を放つ。
+message,,The arrow，nocked and drawn，glowed brilliantly with magic power.<br> 
 
 window,off
 wait,0.15
@@ -2266,7 +2266,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ラモーナ,皆さんは――私が守ります！,106401000G,vc_10640100003_038_01,chara_1
+message,ラモーナ,Everyone—I will protect you!<br> ,106401000G,vc_10640100003_038_01,chara_1
 
 bgmstop,bgmtag1_3,1,0
 
@@ -2311,7 +2311,7 @@ emodelete,chara_1,0,0
 transitionFade,Tra21,in,white,0
 
 window,on,0.15
-message,,放たれた矢は彗星のように光の尾を引きながら、<br>バジリスクへと飛翔する！
+message,,The released arrow flew toward the Basilisk like a comet，trailing<br>light.<br> 
 
 window,off
 wait,0.15
@@ -2358,7 +2358,7 @@ asyncseplay,setag1_58,se4800011,0,1,CONT,0
 asynccharaemo,chara_4,ExclaQues,CONT,0
 
 window,on,0.15
-message,,彗星は寸分の狂いもなくバジリスクの額へと迫り――<br>その堅い表皮を貫き、脳髄を貫通した。
+message,,The comet struck the Basilisk's forehead without error，piercing its<br>thick hide and brain.<br> 
 
 window,off
 wait,0.15
@@ -2396,7 +2396,7 @@ shake,CHARA,chara_3,40,0,0.25,20,off,off,0
 shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,,バジリスクは巨体をのけぞらせて硬直すると、<br>やがて重い音を立てて倒れ伏す。
+message,,The Basilisk's massive body arched back，stiffened，and then collapsed<br>to the ground with a heavy thud.<br> 
 
 window,off
 wait,0.15
@@ -2432,9 +2432,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ラモーナ,ハァ、ハァ、ハァ……！,106401000G,vc_10640100003_039_01,chara_1
+message,ラモーナ,*pant，pant，pant...!*<br> ,106401000G,vc_10640100003_039_01,chara_1
 
-message,<user>,ラモーナ。<br>よく頑張ったな。
+message,<user>,Ramona. You did great.<br> 
 
 window,off
 wait,0.15
@@ -2453,9 +2453,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ラモーナ,司令官さま……,106401000G,vc_10640100003_040_01,chara_1
+message,ラモーナ,Lord Commander...<br> ,106401000G,vc_10640100003_040_01,chara_1
 
-message,<user>,お前のおかげで、仲間が全員助かった。<br>自分の弱さを克服した気分はどうだ？
+message,<user>,Thanks to you，all our comrades are safe. How does it feel to have<br>overcome your weakness?<br> 
 
 window,off
 wait,0.15
@@ -2474,7 +2474,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ラモーナ,えっと……そうですね。<br>なんだか不思議な気分です。でも、今はただ……,106401000G,vc_10640100003_041_01,chara_1
+message,ラモーナ,Um... well，it feels strange. But right now，I just...<br> ,106401000G,vc_10640100003_041_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -2485,7 +2485,7 @@ asyncseplay,setag1_64,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ラモーナ,皆さんが無事で良かったですっ。,106401000G,vc_10640100003_042_01,chara_1
+message,ラモーナ,I am so glad everyone is safe!<br> ,106401000G,vc_10640100003_042_01,chara_1
 
 
 window,off
@@ -2514,7 +2514,7 @@ fade,In,Black,0
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――数日後</size>,,,on
+messageTextCenter,,<size=48>—A few days later.</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -2593,7 +2593,7 @@ asyncseplay,setag1_66,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 window,on,0.15
-message,<user>,喉の調子はいいみたいだな。
+message,<user>,Looks like your voice is in good shape.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -2604,9 +2604,9 @@ asyncseplay,setag1_67,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ラモーナ,はいっ。弾き語りのほうも、最近は口コミでお客さんが増えて、<br>たくさんの人に聴いてもらえるようになりました。,106401000G,vc_10640100003_044_01,chara_1
+message,ラモーナ,Yes! Thanks to word of mouth，more people have been coming to my<br>shows，and I've been able to sing for many.<br> ,106401000G,vc_10640100003_044_01,chara_1
 
-message,<user>,すっかり前線基地の日常に溶け込んだな。<br>お前の歌を楽しみにしているやつは、兵士にも多いぞ。
+message,<user>,You've really become part of the Frontline Base. Plenty of soldiers<br>look forward to your singing.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -2618,9 +2618,9 @@ asyncseplay,setag1_68,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ラモーナ,ふふっ、嬉しいです♪<br>それでは、その方たちとお仕事をするときは、張り切って歌いますね。,106401000G,vc_10640100003_045_01,chara_1
+message,ラモーナ,Fufu，I am glad!♪ Then I will sing with all my energy when I work<br>with them.<br> ,106401000G,vc_10640100003_045_01,chara_1
 
-message,<user>,ああ、それがいい。体の傷を癒す方法は他にもあるが、<br>心を癒せる人間はあまりいないからな。
+message,<user>,Yeah，that's good. There are other ways to heal physical wounds，but<br>not many people can heal the heart.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -2631,9 +2631,9 @@ asyncseplay,setag1_69,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ラモーナ,あら、司令官さまはお上手ですね。<br>でも、喜んでもらえるなら、頑張らなくっちゃいけませんね。,106401000G,vc_10640100003_046_01,chara_1
+message,ラモーナ,Oh，Commander，you're so good with words. But if it brings you joy，I<br>must do my best.<br> ,106401000G,vc_10640100003_046_01,chara_1
 
-message,<user>,ああ。けど、あまり頑張りすぎるなよ？<br>お前が倒れでもしたら元も子もない。好きなことでもして、息抜きもしろよ。
+message,<user>,Yeah. But don't push yourself too hard，all right? If you<br>collapse，it'll be for nothing. Do something you like and take a breather.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -2644,7 +2644,7 @@ asyncseplay,setag1_70,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ラモーナ,好きなこと、ですか……。<br>やっぱり、歌うのが一番好きですね～♪,106401000G,vc_10640100003_047_01,chara_1
+message,ラモーナ,Something I enjoy... I suppose singing is what I love most.♪<br> ,106401000G,vc_10640100003_047_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -2656,9 +2656,9 @@ asyncseplay,setag1_71,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ラモーナ,あ、でもー……。<br>最近、もっと好きなことがあるんです。,106401000G,vc_10640100003_048_01,chara_1
+message,ラモーナ,Ah，but... lately，I've found something I love even more.<br> ,106401000G,vc_10640100003_048_01,chara_1
 
-message,<user>,ほう？　それはいったいなんだ？
+message,<user>,Oh? And what's that?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -2669,9 +2669,9 @@ asyncseplay,setag1_72,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ラモーナ,この場所で、動物たちや司令官さまに歌を聴いてもらうことです♪,106401000G,vc_10640100003_049_01,chara_1
+message,ラモーナ,I get to sing for you and the animals right here!♪<br> ,106401000G,vc_10640100003_049_01,chara_1
 
-message,<user>,……って、結局歌ってるじゃないか。
+message,<user>,...See，that's still singing after all.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -2682,7 +2682,7 @@ asyncseplay,setag1_73,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ラモーナ,歌は歌でも、ここで司令官さまと静かな時間を過ごしながら<br>歌うことに意味があるんですよ～。,106401000G,vc_10640100003_050_01,chara_1
+message,ラモーナ,It may be singing，but it has meaning because I'm here with you in<br>this quiet time.<br> ,106401000G,vc_10640100003_050_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -2694,7 +2694,7 @@ asyncseplay,setag1_74,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ラモーナ,戦うことは本当は苦手ですけど、この時間があるから、<br>私は頑張れるんです。,106401000G,vc_10640100003_051_01,chara_1
+message,ラモーナ,I'm really not good at fighting，but because of moments like this，I<br>can keep going.<br> ,106401000G,vc_10640100003_051_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -2705,9 +2705,9 @@ asyncseplay,setag1_75,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ラモーナ,ですから、これからも聴きに来てくださいね？,106401000G,vc_10640100003_052_01,chara_1
+message,ラモーナ,So，will you keep coming to listen from now on?<br> ,106401000G,vc_10640100003_052_01,chara_1
 
-message,<user>,ああ、俺も息抜きに寄らせてもらうよ。
+message,<user>,Sure，I'll drop by to take a break too.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -2718,9 +2718,9 @@ asyncseplay,setag1_76,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ラモーナ,ふふっ、やったぁ～♪,106401000G,vc_10640100003_053_01,chara_1
+message,ラモーナ,Fufu，Yaaay!♪<br> ,106401000G,vc_10640100003_053_01,chara_1
 
-message,<user>,それじゃ、さっそくだが……１曲頼めるか？
+message,<user>,Well then，sorry for the sudden request... could you sing me one?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -2732,7 +2732,7 @@ asyncseplay,setag1_77,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ラモーナ,はい、喜んで♪<br>それでは、私の故郷に伝わる歌を歌わせていただきます。,106401000G,vc_10640100003_054_01,chara_1
+message,ラモーナ,Yes，with pleasure.♪<br>Then I'll sing a traditional song from my homeland.<br> ,106401000G,vc_10640100003_054_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -2752,7 +2752,7 @@ asyncseplay,setag1_79,se4800013,0,1,STOP,3.5
 asynccharaemo,chara_1,Spirits,STOP,3.5
 
 
-message,ラモーナ,ご清聴ください。<br>～～～～♪　～～♪,106401000G,vc_10640100003_055_01,chara_1
+message,ラモーナ,Please listen.♪ ♪<br> ,106401000G,vc_10640100003_055_01,chara_1
 
 window,off
 bgmstop,bgmtag1_4,0.5

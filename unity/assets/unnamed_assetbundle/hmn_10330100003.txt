@@ -48,7 +48,7 @@ priority,chara_1,CHARA,1,FRONT,
 
 
 window,on,0.15
-message,,――エメルダは特ダネを求めて、<br><user>の尾行を続けていた。
+message,,——Emeralda，seeking a scoop，continued tailing the Commander.<br> 
 
 window,off
 wait,0.15
@@ -65,15 +65,15 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,エメルダ,（さて、特ダネさん。<br>夜遊びへ向かうつもりのようですが行き先はどこかな？）,,vc_10330100003_001_01
+message,エメルダ,(Now then，Scoop. You seem to be heading out for a night on the<br>town，but where are you going?)<br> ,,vc_10330100003_001_01
 
 asynccharaface,chara_1,EyeClose,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,エメルダ,（法外なレートの闇賭博？　それとも隠し子のお世話？）,,vc_10330100003_002_01
+message,エメルダ,(Underground gambling with insane stakes? Or maybe looking after a<br>secret child?)<br> ,,vc_10330100003_002_01
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,エメルダ,（……いや、本当は分かってるよ。<br>特ダネさんは不真面目なところがあるけど根っこのところは――）,,vc_10330100003_003_01
+message,エメルダ,(No，actually，I know. Scoop can be flaky，but deep down，he—)<br> ,,vc_10330100003_003_01
 
 bgmstop,bgmtag1_1,0.5,0
 
@@ -91,7 +91,7 @@ asynccharaface,chara_1,FaceSurprise,STOP
 
 asynccharaemo,chara_1,Question,STOP
 window,on,0.15
-message,エメルダ,んっ？,,vc_10330100003_004_01
+message,エメルダ,Hn?<br> ,,vc_10330100003_004_01
 
 window,off
 wait,0.15
@@ -106,7 +106,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,？？？,ククッ！　うまくいったぜ……！,2028301
+message,？？？,Kuku! It went perfectly...!<br> ,2028301
 
 window,off
 wait,0.15
@@ -117,7 +117,7 @@ asynccharamove,chara_3,EaseOutTarget,X,-100,0.5,STOP,0
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
 window,on,0.15
-message,,――エメルダは、マーケットから走り去る男に目を留めた。
+message,,——Emeralda's eyes caught a man running from the Market.<br> 
 
 window,off
 wait,0.15
@@ -126,7 +126,7 @@ bgmplay,bgmtag1_2,bgm0034,1.5,1
 
 charashow,chara_1,0.3
 window,on,0.15
-message,エメルダ,……なんだろう。<br>今の人、何か気になる。,,vc_10330100003_005_01
+message,エメルダ,...Huh? That man，something about him is bothering me.<br> ,,vc_10330100003_005_01
 
 window,off
 wait,0.15
@@ -150,7 +150,7 @@ asynccharaemo,chara_5,Panic,STOP
 
 charareaction,chara_5,Shake,1
 window,on,0.15
-message,露天商,あれっ……な、ない！？　ないぞ！？<br>今日の売り上げが、どこにもないー！？
+message,露天商,H-huh? I-it's gone! It's not here! Today's sales are nowhere to be<br>found!<br> 
 
 window,off
 wait,0.15
@@ -173,10 +173,10 @@ wait,1
 asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Exclamation,STOP
 window,on,0.15
-message,エメルダ,（……まさか、さっきの男が！）,,vc_10330100003_006_01
+message,エメルダ,(...No way，that man from earlier!)<br> ,,vc_10330100003_006_01
 
 asynccharaface,chara_1,FaceSad,STOP
-message,エメルダ,（あ、でも特ダネさんはもうあんな遠くへ……このままだと<br>どこかへ行っちゃう――でも追いかけたら怪しい男を見失うわけで……）,,vc_10330100003_007_01
+message,エメルダ,(Ah，but Scoop is already so far away... at this rate he'll disappear<br>somewhere—but if I chase him，I'll lose the suspicious man...)<br> ,,vc_10330100003_007_01
 
 window,off
 wait,0.15
@@ -193,14 +193,14 @@ asynccharaface,chara_1,FaceUnique01,STOP
 
 asynccharaemo,chara_1,Trouble,STOP
 window,on,0.15
-message,エメルダ,ああぁ……ううぅう……,,vc_10330100003_008_01
+message,エメルダ,Aah... *sniff*...<br> ,,vc_10330100003_008_01
 
 asyncshake,CHARA,chara_1,10,0,0.5,1,off,off,0,off,STOP
 
 asynccharaface,chara_1,FaceAnger,STOP
 
 charareaction,chara_1,Hop,0.5
-message,エメルダ,あぁぁぁあ、もぉぉ！<br>なんで体を２つに割れないのよーっ！,,vc_10330100003_009_01
+message,エメルダ,Aaaah，geez! Why can't I split my body in two!<br> ,,vc_10330100003_009_01
 
 window,off
 wait,0.15
@@ -224,17 +224,17 @@ transitionFade,Tra09,in,black,1
 
 asynccharaemo,chara_1,Dull,STOP
 window,on,0.15
-message,エメルダ,（……ううっ。結局、ジャーナリスト魂を優先して<br>男のほうを追い掛けちゃった……）,,vc_10330100003_010_01
+message,エメルダ,(...*sniff* In the end，my journalistic spirit wins out and I chase<br>after the man...)<br> ,,vc_10330100003_010_01
 
 shake,CHARA,chara_1,10,0,0.5,3,off,off,0
-message,エメルダ,（あたしの……あたしの特ダネがぁぁぁあ～～～～～っ！！）,,vc_10330100003_011_01
+message,エメルダ,(My... my scoop is goooone!)<br> ,,vc_10330100003_011_01
 
 asynccharaface,chara_1,FaceAnger,STOP
-message,エメルダ,（でも、耐えなさいエメルダ！<br>切り替えてこっちのネタをしっかり追わないと……）,,vc_10330100003_012_01
+message,エメルダ,(But endure，Emeralda! I have to switch gears and follow this story<br>properly...)<br> ,,vc_10330100003_012_01
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,エメルダ,（あ、さっきの男いたっ！）,,vc_10330100003_013_01
+message,エメルダ,(Ah，there's the man from earlier!)<br> ,,vc_10330100003_013_01
 
 window,off
 wait,0.15
@@ -249,7 +249,7 @@ wait,0.1
 
 asynccharaface,chara_1,FaceSurprise,STOP
 window,on,0.15
-message,,エメルダの視線の先に、大勢の盗賊たちが集まっていた。<br>１……５……２０……３０人近くいる？　とエメルダは驚く。
+message,,A large number of thieves had gathered in Emeralda's line of sight.<br>One... five... twenty... close to thirty? Emeralda was astonished.<br> 
 
 window,off
 wait,0.15
@@ -273,9 +273,9 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,盗賊Ａ,へへっ、見ろよ。すげー金だぜ！<br>あの露天商、やっぱり貯め込んでやがった！
+message,盗賊Ａ,Heheh，look at this! That's a ton of money! That street vendor was<br>hoarding it after all!<br> 
 
-message,盗賊Ｂ,私もかっぱらってきたよ！<br>前線基地ってのはチョロいところねぇ！,,vc_10330100003_014_01
+message,盗賊Ｂ,I snagged some too! The Frontline Base is an easy mark!<br> ,,vc_10330100003_014_01
 
 window,off
 wait,0.15
@@ -299,10 +299,10 @@ wait,0.5
 
 asynccharaemo,chara_1,Sweat,STOP
 window,on,0.15
-message,エメルダ,（……これ、けっこう大きな盗賊団っぽくない？）,,vc_10330100003_015_01
+message,エメルダ,(...this seems like a pretty big bandit gang，doesn't it?)<br> ,,vc_10330100003_015_01
 
 asynccharaface,chara_1,FaceAnger,STOP
-message,エメルダ,（あたしだけじゃ、さすがに危ない……<br>早く特ダネさんに知らせて対処を――）,,vc_10330100003_016_01
+message,エメルダ,(It's too dangerous for me alone... I need to quickly warn Scoop and<br>have him handle this—)<br> ,,vc_10330100003_016_01
 
 window,off
 wait,0.15
@@ -321,7 +321,7 @@ bgmstop,bgmtag1_3,0.5,0
 asyncseplay,setag1_2,se4403003,0,1,CONT
 
 window,on,0.15
-message,,――パキッ。
+message,,*snap*<br> 
 
 window,off
 wait,0.15
@@ -335,7 +335,7 @@ asynccharaface,chara_1,FaceSurprise,STOP
 
 bgmplay,bgmtag1_4,bgm0039,0.75,1
 window,on,0.15
-message,盗賊Ａ,誰だ！？
+message,盗賊Ａ,Who's there!?<br> 
 
 window,off
 wait,0.15
@@ -344,13 +344,13 @@ asyncseplay,setag1_4,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,STOP
 window,on,0.15
-message,エメルダ,やば！？　枝踏んだーっ！？,,vc_10330100003_017_01
+message,エメルダ,Crap! I stepped on a branch!<br> ,,vc_10330100003_017_01
 
 window,off
 wait,0.15
 
 window,on,0.15
-message,盗賊Ｂ,女だよ！<br>逃がすな！,,vc_10330100003_018_01
+message,盗賊Ｂ,It's a woman! Don't let her escape!<br> ,,vc_10330100003_018_01
 
 window,off
 wait,0.15
@@ -361,7 +361,7 @@ asynccharaemo,chara_1,Sweat,STOP
 
 asynccharaface,chara_1,FaceAnger,STOP
 window,on,0.15
-message,エメルダ,くっ！,,vc_10330100003_019_01
+message,エメルダ,Tch!<br> ,,vc_10330100003_019_01
 
 window,off
 wait,0.15
@@ -377,7 +377,7 @@ asyncseplay,setag1_8,se4400063,0.5,1,CONT
 asyncseplay,setag1_9,se4400063,1,1,CONT
 
 window,on,0.15
-message,,――エメルダは素早く矢をつがえて盗賊団に向けて放つ。<br>１人、２人、３人……前方に立っていた男たちが瞬く間に倒れていく。
+message,,Emeralda nocked an arrow and loosed it at the bandits.<br>One，two，three... the men ahead fell in an instant.<br> 
 
 window,off
 wait,0.15
@@ -401,7 +401,7 @@ asynccharaemo,chara_1,Shock,STOP
 asynccharaface,chara_1,FaceSurprise,STOP
 
 window,on,0.15
-message,,だが、その間にも盗賊団の仲間が集まっていた。<br>反転して走り去ろうとしたエメルダは、驚きと共に立ち止まる。
+message,,But during that time，more bandits had gathered. As she turned to<br>flee，Emeralda stopped in surprise.<br> 
 
 window,off
 wait,0.15
@@ -413,7 +413,7 @@ asyncseplay,setag1_11,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,STOP
 window,on,0.15
-message,エメルダ,か、囲まれた……？<br>いつの間に！？,,vc_10330100003_020_01
+message,エメルダ,I-I'm surrounded...? When did this happen!?<br> ,,vc_10330100003_020_01
 
 window,off
 wait,0.15
@@ -445,7 +445,7 @@ asynccharareaction,chara_3,Hop,1,STOP
 asynccharaemo,chara_3,Laugh,STOP
 
 window,on,0.15
-message,盗賊Ａ,俺たちの縄張りに入って逃げられるわけねーだろ。<br>覚悟しろよ……へへへっ。
+message,盗賊Ａ,You think you can get away after entering our turf? Prepare<br>yourself... Hehehe.<br> 
 
 window,off
 wait,0.15
@@ -478,7 +478,7 @@ asynccharaemo,chara_1,Trouble,STOP
 
 asynccharaface,chara_1,FaceUnique01,STOP
 window,on,0.15
-message,エメルダ,（あ～、もう、最悪……素直に特ダネさんを追い掛けていれば<br>いいネタを掴んで都会に帰れて、楽しいシティライフが待ってたのに……）,,vc_10330100003_021_01
+message,エメルダ,(If only I had been following Scoop，I would have snagged a great<br>story and returned to the city，with a fun city life waiting for me...)<br> ,,vc_10330100003_021_01
 
 window,off
 wait,0.15
@@ -509,26 +509,26 @@ wait,0.1
 wait,0.3
 
 window,on,0.15
-message,盗賊Ａ,それじゃまぁ、とりあえず裸に剥いて――
+message,盗賊Ａ,Well then，first let's strip her naked—<br> 
 
 bgmstop,bgmtag1_4,0.5,0
-message,<user>,ほう？　その後はどうするんだ？
+message,<user>,Oh? And then what?<br> 
 
 asynccharaface,chara_1,FaceSurprise,STOP
 
 asyncseplay,setag1_14,se4800011,0,1,CONT
 
 asynccharaemo,chara_3,ExclaQues,STOP
-message,盗賊Ａ,んなっ！？
+message,盗賊Ａ,Wha—!<br> 
 
 asyncseplay,setag1_15,se4800011,0,1,CONT
 
 asynccharaemo,chara_1,ExclaQues,STOP
 
 charareaction,chara_1,Hop,0.5
-message,エメルダ,えっ……特ダネさん！？,,vc_10330100003_022_01
+message,エメルダ,Huh... Scoop!?<br> ,,vc_10330100003_022_01
 
-message,<user>,俺だけじゃないぞ。<br>暗闇によく目を凝らしてみろ。
+message,<user>,It's not just me. Take a good look in the dark.<br> 
 
 window,off
 wait,0.15
@@ -545,7 +545,7 @@ asynccharaemo,chara_1,Exclamation,STOP
 wait,1
 
 window,on,0.15
-message,,――エメルダと盗賊団が言う通りにする。<br><user>の背後に前線基地の警備隊がずらりと並んでいた。
+message,,Emeralda and the bandits did as they were told. Behind the<br>Commander，the security guards of the Frontline Base were lined up.<br> 
 
 window,off
 wait,0.15
@@ -571,11 +571,11 @@ wait,1
 linework,on,White,Middle
 
 window,on,0.15
-message,<user>,ねずみ捕りだ！　全員、かかれーっ！
+message,<user>,It's a trap! Everyone，attack!<br> 
 
-message,警備隊Ａ,はっ！,,vc_10330100003_023_01
+message,警備隊Ａ,Yes，sir!<br> ,,vc_10330100003_023_01
 
-message,警備隊Ｂ,お前たちーっ！　覚悟しろー！,,vc_10330100003_024_01
+message,警備隊Ｂ,You lot! Prepare yourselves!<br> ,,vc_10330100003_024_01
 
 linework,off,White,Middle
 
@@ -597,14 +597,14 @@ asyncshake,CHARA,chara_1,10,0,0.5,1,off,off,0,off,STOP
 
 charamove,chara_8,Set,X,400,0
 window,on,0.15
-message,<user>,エメルダ。無事か？
+message,<user>,Emeralda. Are you alright?<br> 
 
 asyncseplay,setag1_18,se4800009,0,1,CONT
 
 asynccharaemo,chara_1,Question,STOP
-message,エメルダ,あ、はい――でも、どうしてここに？,,vc_10330100003_025_01
+message,エメルダ,Ah，yes—but why are you here?<br> ,,vc_10330100003_025_01
 
-message,<user>,……以前、俺はエメルダの尾行に気が付けなかっただろう？<br>あの反省を生かして、一応、お前の尾行を警備隊に依頼していたんだ。
+message,<user>,I didn't notice you were tailing me before，did I? So I learned from<br>that and had the guards tail you，just in case.<br> 
 
 asyncseplay,setag1_19,se4800017,0,1,CONT
 
@@ -612,15 +612,15 @@ asynccharareaction,chara_1,Shake,1,STOP
 asynccharaemo,chara_1,Shock,STOP
 
 asyncshake,CHARA,chara_1,10,0,0.5,3,off,off,0,off,STOP
-message,エメルダ,えぇぇっ！？<br>全然気が付かなかったんですけどー！？,,vc_10330100003_026_01
+message,エメルダ,Ehhh! I didn't notice at all!<br> ,,vc_10330100003_026_01
 
-message,<user>,俺の部下もそっちに負けず劣らず、凄腕だからな。
+message,<user>,My subordinates are just as skilled，you know.<br> 
 
-message,<user>,最近は仲良くなったし、尾行もやめさせようと思っていたんだが<br>アリシアがお前を心配して――運が良かったよ。
+message,<user>,We've gotten closer lately，so I was going to call off the tail. But<br>Alicia was worried about you—lucky thing，too.<br> 
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,エメルダ,そ、そうでしたか――,,vc_10330100003_027_01
+message,エメルダ,S-So that's how it was...<br> ,,vc_10330100003_027_01
 
 window,off
 wait,0.15
@@ -639,18 +639,18 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,――エメルダは警備隊の大捕り物に目を向ける。<br>盗賊たちは警備隊に歯が立たず、一網打尽にされていた。
+message,,—Emeralda turned her eyes to the guards' massive bust. The bandits<br>couldn't stand up to the guards and were caught en masse.<br> 
 
 charareaction,chara_8,Hop,0.5
 
-message,警備隊Ａ,抵抗するな！　観念しろ！,,vc_10330100003_028_01
+message,警備隊Ａ,Stop resisting! Surrender!<br> ,,vc_10330100003_028_01
 
 asyncseplay,setag1_20,se4800007,0,1,CONT
 
 asynccharaemo,chara_4,Panic,STOP
 
 asyncshake,CHARA,chara_4,10,0,0.5,3,off,off,0,off,STOP
-message,盗賊Ｂ,ひぃぃ～……,,vc_10330100003_029_01
+message,盗賊Ｂ,Eeep...<br> ,,vc_10330100003_029_01
 
 window,off
 wait,0.15
@@ -667,11 +667,11 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,エメルダ,うわぁ、めちゃくちゃ叩かれてる……<br>こわぁー……,,vc_10330100003_030_01
+message,エメルダ,Whoa，they're getting pummeled... That's scary...<br> ,,vc_10330100003_030_01
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,<user>,でも、味方だと頼もしいだろう？
+message,<user>,But when they're on our side，they're reassuring，aren't they?<br> 
 
 asyncseplay,setag1_21,se4800004,0,1,CONT
 
@@ -679,9 +679,9 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Laugh,STOP
 
 asynccharaface,chara_1,FaceFun,STOP
-message,エメルダ,まぁ、確かに。自分に危害を加えようとしていた悪人相手なので、<br>わりとスカッと爽快です。,,vc_10330100003_031_01
+message,エメルダ,Well，yes. Since they were bad guys trying to harm me，it's actually<br>pretty satisfying.<br> ,,vc_10330100003_031_01
 
-message,<user>,そうだろう、そうだろう。<br>これならまた良い記事が書けるな？
+message,<user>,Right，right! With this，you can write another good article，can't you?<br> 
 
 asyncseplay,setag1_22,se4800017,0,1,CONT
 
@@ -695,7 +695,7 @@ asyncseplay,setag1_23,se4800006,0,1,CONT
 asynccharaemo,chara_1,Trouble,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
-message,エメルダ,そ、それは……。,,vc_10330100003_032_01
+message,エメルダ,W-Well...<br> ,,vc_10330100003_032_01
 
 window,off
 bgmstop,bgmtag1_5,1
@@ -712,7 +712,7 @@ wait,1
 fade,In,Black,1
 
 window,on,0.15
-message,先輩記者,司令官の良いところなんて誰も欲しがってねーよ！ <br>前線基地は醜聞以外いらん！
+message,先輩記者,Nobody wants the Commander's good points! The Frontline Base doesn't<br>need anything but scandals!<br> 
 
 
 window,off
@@ -731,7 +731,7 @@ fade,In,Black,1
 bgmplay,bgmtag1_6,bgm0025,1
 
 window,on,0.15
-message,<user>,まぁ、どんな風に書くかは、エメルダに任せるよ。<br>『表現の自由』ってやつに、文句つける気はない。
+message,<user>,Well，I'll leave how to write it up to you，Emeralda. I'm not about to<br>complain about 'freedom of the press.'<br> 
 
 asyncseplay,setag1_24,se4800014,0,1,CONT
 
@@ -739,14 +739,14 @@ asynccharaemo,chara_1,Silence,STOP
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,エメルダ,……分かりました！,,vc_10330100003_033_01
+message,エメルダ,...Got it!<br> ,,vc_10330100003_033_01
 
 asyncseplay,setag1_25,se4800019,0,1,CONT
 
 asynccharaemo,chara_1,Elated,STOP
 
 asynccharaface,chara_1,FaceUnique02,STOP
-message,エメルダ,この凄腕記者が最高の記事を書いてみせます！　<br>待っててくださいよ！,,vc_10330100003_034_01
+message,エメルダ,This ace reporter will write the best article! You just wait and<br>see!<br> ,,vc_10330100003_034_01
 
 window,off
 bgmstop,bgmtag1_6,1
@@ -763,7 +763,7 @@ wait,1
 fade,In,Black,1
 
 window,on,0.15
-message,<user>,ふっふっふ……
+message,<user>,Fufufu...<br> 
 
 window,off
 wait,0.15
@@ -774,9 +774,9 @@ asyncseplay,setag1_26,se4800022,0,1,CONT
 
 asynccharaemo,chara_2,Speak,STOP
 window,on,0.15
-message,アリシア,司令官、ご機嫌ですねぇ。,,vc_10330100003_035_01
+message,アリシア,Commander，you're in a good mood.<br> ,,vc_10330100003_035_01
 
-message,<user>,そりゃあ、そうだろう。<br>読んでみてくれよ、エメルダが書いたこの記事。
+message,<user>,Well，of course. Just read this article Emeralda wrote.<br> 
 
 asyncseplay,setag1_27,se4800018,0,1,CONT
 
@@ -784,18 +784,18 @@ asynccharareaction,chara_2,Jump,1,STOP
 asynccharaemo,chara_2,Flower,STOP
 
 asynccharaface,chara_2,FaceHappy,STOP
-message,アリシア,もちろん読みましたとも！　前線基地の皆さんと司令官のいいところが<br>たーくさん書いてあって、最高の紙面です！,,vc_10330100003_036_01
+message,アリシア,Of course I read it! It's full of so many good things about everyone<br>at the Frontline Base and you，Commander—a fantastic piece!<br> ,,vc_10330100003_036_01
 
 asynccharaface,chara_2,EyeOpen,STOP
 asynccharaface,chara_2,FaceNormal,STOP
-message,<user>,盗賊団の捕縛劇も絡んだスリリングな事件だったからな。<br>読者が喜びそうな痛快な記事だ。
+message,<user>,It was a thrilling incident involving the capture of a bandit gang.<br>It's an exciting article readers will love.<br> 
 
-message,<user>,評判や売り上げもいいはず。<br>きっと、これでエメルダも本社に戻れるだろう。
+message,<user>,The reviews and sales should be good. Surely this will let Emeralda<br>return to head office.<br> 
 
 asynccharaface,chara_2,FaceSad,STOP,2
-message,アリシア,そうですね！<br>エメルダさんとお別れになるのは寂しいですけれど……。,,vc_10330100003_037_01
+message,アリシア,That's right! It'll be sad to say goodbye to Emeralda，though...<br> ,,vc_10330100003_037_01
 
-message,<user>,まぁ、たしかに。<br>ここしばらくは、ずっと一緒に行動していたものな……。
+message,<user>,Well，yeah. We've been working together a lot lately...<br> 
 
 window,off
 wait,0.15
@@ -819,9 +819,9 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,一般兵Ａ,司令官、湿っぽいのはよしましょうよ。<br>せっかく壮行会の準備をしてるんですから。
+message,一般兵Ａ,Commander，let's not get all sentimental. We've prepared a send-off<br>party after all.<br> 
 
-message,一般兵Ｂ,もうすぐエメルダが辞令を持って戻ってくるはずなんで、<br>パーッといきましょう！
+message,一般兵Ｂ,Emeralda should be back soon with her orders，so let's party it up!<br> 
 
 window,off
 wait,0.15
@@ -858,7 +858,7 @@ asyncseplay,setag1_28,se4800015,0,1,CONT
 
 asynccharaemo,chara_1,Dull,STOP
 window,on,0.15
-message,エメルダ,はぁぁ……お疲れ様でーす……,,vc_10330100003_038_01
+message,エメルダ,*sigh*... Good evening...<br> ,,vc_10330100003_038_01
 
 window,off
 wait,0.15
@@ -889,32 +889,32 @@ asynccharaemo,chara_2,Exclamation,STOP
 
 asynccharaface,chara_2,FaceHappy,STOP
 window,on,0.15
-message,アリシア,あっ、噂をすれば！,,vc_10330100003_039_01
+message,アリシア,Ah，speak of the devil!<br> ,,vc_10330100003_039_01
 
 asynccharaface,chara_2,FaceSurprise,STOP
-message,アリシア,って、エメルダさん、どうしてそんなにへこんでいるんです？,,vc_10330100003_040_01
+message,アリシア,Hey，Emeralda，why are you so down?<br> ,,vc_10330100003_040_01
 
 asyncseplay,setag1_30,se4800006,0,1,CONT
 
 asynccharaemo,chara_1,Trouble,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
-message,エメルダ,どうしても何も……本社から<br>このまま前線基地に留まるように、って連絡がきまして。,,vc_10330100003_041_01
+message,エメルダ,It's not like I can help it... I got word from head office that I'm<br>to stay at the Frontline Base.<br> ,,vc_10330100003_041_01
 
 asyncseplay,setag1_31,se4800011,0,1,CONT
 
 asynccharareaction,chara_2,Jump,1,STOP
 asynccharaemo,chara_2,ExclaQues,STOP
-message,アリシア,えっ！？<br>戻れなかったんですか！？,,vc_10330100003_042_01
+message,アリシア,What?! You can't go back?!<br> ,,vc_10330100003_042_01
 
-message,<user>,おいおい。どういうことだ？<br>この記事には反響があったんだろう？　新聞も売れたんじゃないのか？
+message,<user>,Hey，hey，what's going on? There was a reaction to the article，right?<br>The paper sold，didn't it?<br> 
 
 asyncseplay,setag1_32,se4800008,0,1,CONT
 
 asynccharaemo,chara_1,Sweat,STOP
 
 asynccharaface,chara_1,FaceUnique01,STOP
-message,エメルダ,新聞は売れましたけどぉ、上司の意向はがーっつり無視したんでぇ、<br>その腹いせにぃ、希望を却下されたんですぅー。,,vc_10330100003_043_01
+message,エメルダ,The paper sold，but I completely ignored my boss's intentions，so out<br>of spite he rejected my request.<br> ,,vc_10330100003_043_01
 
 asyncseplay,setag1_33,se4800001,0,1,CONT
 
@@ -922,9 +922,9 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Anger,STOP
 
 asynccharaface,chara_1,FaceAnger,STOP
-message,エメルダ,上司は１人で本社に戻っちゃいましたし……,,vc_10330100003_044_01
+message,エメルダ,And my boss went back to the head office alone...<br> ,,vc_10330100003_044_01
 
-message,<user>,はぁ？<br>なんだそれ！？
+message,<user>,Hah? What the hell?!<br> 
 
 asynccharaface,chara_2,EyeOpen,STOP
 asynccharaface,chara_2,FaceNormal,STOP
@@ -932,12 +932,12 @@ asynccharaface,chara_2,FaceNormal,STOP
 asyncshake,CHARA,chara_1,10,0,0.5,3,off,off,0,off,STOP
 
 asynccharaface,chara_1,FaceUnique01,STOP,1
-message,エメルダ,あたしが言いたいですよーっ！<br>あぁぁぁ、あたしのシティライフがぁぁぁああ～～～～～！！,,vc_10330100003_045_01
+message,エメルダ,That's what I'm saying! Aaaah，my city life is ruuined!<br> ,,vc_10330100003_045_01
 
 asynccharaface,chara_1,FaceSad,STOP
-message,エメルダ,まぁ、記事を書く前から、こうなることは分かってましたけど。,,vc_10330100003_046_01
+message,エメルダ,Well，I knew this would happen even before I wrote the article.<br> ,,vc_10330100003_046_01
 
-message,<user>,だったらやめればよかったんじゃ――あっ。
+message,<user>,Then you should've just not written it—ah.<br> 
 
 window,off
 wait,0.15
@@ -952,7 +952,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（……そうか。<br>エメルダはたぶん、俺に借りを返すために――）
+message,<user>,(...I see. Emeralda probably wrote it to repay me—)<br> 
 
 window,off
 wait,0.15
@@ -965,13 +965,13 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,……ありがとな、エメルダ。
+message,<user>,...Thanks，Emeralda.<br> 
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,エメルダ,何に対するお礼です？,,vc_10330100003_047_01
+message,エメルダ,What are you thanking me for?<br> ,,vc_10330100003_047_01
 
-message,<user>,もちろん、良い記事を書いてくれたことに対する礼だ。<br>おかげでみんなの士気も上がった。
+message,<user>,For writing a good article，of course. Thanks to you，everyone's<br>morale improved.<br> 
 
 asyncseplay,setag1_34,se4800004,0,1,CONT
 
@@ -980,7 +980,7 @@ asynccharaemo,chara_1,Laugh,STOP
 
 asynccharaface,chara_1,EyeClose,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,エメルダ,それは何よりです。<br>助けてもらった件は、貸し借り無しですからねー。,,vc_10330100003_048_01
+message,エメルダ,That's a relief. And since you saved me，we're even now.<br> ,,vc_10330100003_048_01
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
@@ -990,9 +990,9 @@ asyncseplay,setag1_35,se4800007,0,1,CONT
 asynccharaemo,chara_2,Panic,STOP
 
 asynccharaface,chara_2,FaceSad,STOP
-message,アリシア,えーと、司令官……壮行会どうします？<br>準備できちゃってますけど……,,vc_10330100003_049_01
+message,アリシア,Um，Commander... what should we do about the farewell party? It's<br>already prepared，but...<br> ,,vc_10330100003_049_01
 
-message,<user>,問題ない。<br>壮行会ではなく、エメルダの歓迎会をやるからな！
+message,<user>,No problem. Instead of a farewell party，we'll throw a welcome party<br>for Emeralda!<br> 
 
 asynccharaface,chara_2,EyeOpen,STOP
 asynccharaface,chara_2,FaceNormal,STOP
@@ -1002,9 +1002,9 @@ asyncseplay,setag1_36,se4800009,0,1,CONT
 asynccharaemo,chara_1,Question,STOP
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,エメルダ,え、あたしの？,,vc_10330100003_050_01
+message,エメルダ,Huh? For me?<br> ,,vc_10330100003_050_01
 
-message,<user>,だってお前、しばらくはここで仕事をするんだろう？<br>俺たちの活躍を報道する凄腕記者だ。歓迎させてくれ！
+message,<user>,After all，you'll be working here for a while，right? You're a<br>talented reporter covering our exploits. Let us welcome you!<br> 
 
 window,off
 wait,0.15
@@ -1032,21 +1032,21 @@ asyncseplay,setag1_37,se4800022,0,1,CONT
 
 asynccharaemo,chara_7,Speak,STOP
 window,on,0.15
-message,一般兵Ｂ,ははは！　そいつぁいいですね！<br>エメルダ、今日はとことん飲むぞーっ！
+message,一般兵Ｂ,Hahaha! That sounds great! Emeralda，we're drinking to the fullest<br>today!<br> 
 
 asyncseplay,setag1_38,se4800008,0,1,CONT
 
 asynccharaemo,chara_1,Sweat,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
-message,エメルダ,えぇぇ～……あたし今、傷心してるんですけどぉぉー？,,vc_10330100003_051_01
+message,エメルダ,Ehhh... I'm nursing a broken heart here，you know?<br> ,,vc_10330100003_051_01
 
 asyncseplay,setag1_39,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,STOP
 
 asynccharaface,chara_1,FaceUnique01,STOP
-message,エメルダ,こんなところでお酒飲むより都会に戻りたいんですよぉぉおーっ！,,vc_10330100003_052_01
+message,エメルダ,I'd rather go back to the city than drink at a place like this!<br> ,,vc_10330100003_052_01
 
 window,off
 wait,0.15
@@ -1064,7 +1064,7 @@ asynccharareaction,chara_7,Nod,1,STOP
 asynccharaemo,chara_7,Laugh,STOP
 
 window,on,0.15
-message,,――<user>とエメルダを囲んでいた全員が大笑いをする。<br>どこからともなく乾杯の波が起こり、歓迎会が始まった。
+message,,Everyone surrounding Commander and Emeralda burst out laughing. A<br>wave of toasts arose from somewhere，and the welcome party began.<br> 
 
 window,off
 wait,0.15
@@ -1081,7 +1081,7 @@ wait,0.1
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
 window,on,0.15
-message,エメルダ,（……まぁ、口が裂けても言わないけど――<br>この空気は正直、嫌いじゃないんだよね）,,vc_10330100003_053_01
+message,エメルダ,(...Well，I'd never say this out loud，but... to be honest，I don't<br>really hate this atmosphere.)<br> ,,vc_10330100003_053_01
 
 asyncseplay,setag1_42,se4800022,0,1,CONT
 
@@ -1089,7 +1089,7 @@ asynccharaemo,chara_1,Imagination,STOP
 
 asynccharaface,chara_1,EyeClose,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,エメルダ,（特ダネさんも思ったより気が利くみたいだし……<br>前線基地暮らし、もう少し続けてみるかぁー）,,vc_10330100003_054_01
+message,エメルダ,(Scoop seems more considerate than I thought... maybe I'll try<br>living at the Frontline Base a little longer.)<br> ,,vc_10330100003_054_01
 
 
 

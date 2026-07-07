@@ -27,7 +27,7 @@ bgmplay,bgmtag1_1,bgm0024,0.75,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――前線基地の街</size>,,,on
+messageTextCenter,,<size=48>—Frontline Base Town</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -80,9 +80,9 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ジェンマ,ほっほっほ、今日も街は栄えておるなあ。<br>こうして賑やかな場に出てくると、ワシも若返るような心持ちだ。,104301000G,vc_10430100001_001_01,chara_1
+message,ジェンマ,Ho ho ho，the town is thriving today as well. Stepping out into<br>bustling places like this makes this old dwarf feel young again.<br> ,104301000G,vc_10430100001_001_01,chara_1
 
-message,<user>,それ以上若返ってどうするんだよ……、<br>って思うような見た目なんだけどなあ。
+message,<user>,But you look so spry already... what would you do if you got even<br>younger?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -93,7 +93,7 @@ asyncseplay,setag1_2,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ジェンマ,ワシはドワーフじゃと言うておろう？<br>このジェンマはかよわーい老人なんじゃよ。,104301000G,vc_10430100001_002_01,chara_1
+message,ジェンマ,I told you，I'm a dwarf! This old Gemma is just a frail little old<br>lady.<br> ,104301000G,vc_10430100001_002_01,chara_1
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -105,9 +105,9 @@ asyncseplay,setag1_3,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ジェンマ,老人に付き添うのは若いものの仕事じゃ。<br>小僧にはしっかり付き添ってもらわんとな？,104301000G,vc_10430100001_003_01,chara_1
+message,ジェンマ,It's a young person's job to accompany the elderly. So I'll have you<br>stick close，boy.<br> ,104301000G,vc_10430100001_003_01,chara_1
 
-message,<user>,何が付き添いだ、ただの荷物持ちじゃないか。<br>こんなに持たせやがって、ったく……。
+message,<user>,What do you mean accompany? I'm just a pack mule! Look at all this<br>stuff you've made me carry! Geez...<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -118,9 +118,9 @@ asyncseplay,setag1_4,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ジェンマ,ワシの目利きを間近で見られたと思えば、<br>その程度は安い勉強代じゃぞ。,104301000G,vc_10430100001_004_01,chara_1
+message,ジェンマ,Think of it as a cheap lesson fee for getting to see this old<br>dwarf's discerning eye up close.<br> ,104301000G,vc_10430100001_004_01,chara_1
 
-message,<user>,まあな。いつも俺が適当に買ってるものでも、<br>ジェンマはしっかりと吟味してるってのが分かったよ。
+message,<user>,Yeah，I guess. I see that even when I buy things on a whim，you always<br>examine them carefully.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -131,7 +131,7 @@ asyncseplay,setag1_5,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ジェンマ,そうじゃろうそうじゃろう！<br>学ぶ機会を逃さぬのは、小僧の良いところだ。,104301000G,vc_10430100001_005_01,chara_1
+message,ジェンマ,That's right，that's right! Not missing a chance to learn is a fine<br>quality of yours，boy.<br> ,104301000G,vc_10430100001_005_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -139,11 +139,11 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,ジェンマ,道すがら聞かせてやったドワーフの知恵も、<br>ちゃんと覚えているな？,104301000G,vc_10430100001_006_01,chara_1
+message,ジェンマ,You remember the dwarf wisdom I shared along the way，don't you?<br> ,104301000G,vc_10430100001_006_01,chara_1
 
-message,<user>,建物の建材のこと、道の舗装のこと……色々勉強にはなったよ。<br>指揮をする上で役に立つこともあるかもしれない、が……
+message,<user>,Building materials，road paving... I learned a lot. It might even<br>help in my command，but...<br> 
 
-message,<user>,ジェンマは話が回りくどくて長いんだよ！<br>もうちょっと簡潔に話せないのか？
+message,<user>,You're so roundabout and long-winded! Can't you be more concise?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -154,7 +154,7 @@ asyncseplay,setag1_6,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ジェンマ,かー、分かっておらんのう。<br>お主にワシの全てを伝えてやろうという思いやりなんじゃぞ？,104301000G,vc_10430100001_007_01,chara_1
+message,ジェンマ,Gaaah，you just don't get it. This is out of care for you，trying to<br>impart all my knowledge!<br> ,104301000G,vc_10430100001_007_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -166,9 +166,9 @@ asyncseplay,setag1_7,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ジェンマ,小僧を気に入っているからこそ、ゆっくりと話してやっておるのに。<br>少しの回り道ぐらい付き合う気概を持たんか。,104301000G,vc_10430100001_008_01,chara_1
+message,ジェンマ,It's because I like you，boy，that I take my time telling you things.<br>Can't you have the spirit to indulge me a little?<br> ,104301000G,vc_10430100001_008_01,chara_1
 
-message,<user>,だからこうして付き合ってるだろーに。<br>まぁ……別にジェンマの長い話は、嫌いってわけでもないしな。
+message,<user>,That's why I'm putting up with you，isn't it? Well... it's not like I<br>hate your long stories.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -187,7 +187,7 @@ asyncseplay,setag1_9,se4800004,0,1,STOP,2.5
 asynccharaemo,chara_1,Laugh,STOP,2.5
 
 
-message,ジェンマ,ほう！　なんじゃ小僧、素直なことも言えるではないか！<br>うむうむ、良い子じゃ！　褒めてやろう！　,104301000G,vc_10430100001_009_01,chara_1
+message,ジェンマ,Oh ho! What's this，boy? You can speak honestly too! Mm-hmm，good boy!<br>Let me praise you!<br> ,104301000G,vc_10430100001_009_01,chara_1
 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
@@ -198,7 +198,7 @@ asyncseplay,setag1_10,se4800018,0,1,CONT,0
 
 asynccharaemo,chara_1,Flower,CONT,0
 
-message,<user>,やめろ、背伸びをして撫でるなっ！<br>周りから変な目で見られるんだよっ！
+message,<user>,Stop that，don't reach up to pat my head! People are giving us weird<br>looks!<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -209,7 +209,7 @@ asyncseplay,setag1_11,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ジェンマ,ほっほっほ、ワシから見れば可愛い小僧じゃ。<br>何も変ではないわ。,104301000G,vc_10430100001_010_01,chara_1
+message,ジェンマ,Ho ho ho，to me you are just a cute boy. Nothing strange about that.<br> ,104301000G,vc_10430100001_010_01,chara_1
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -222,9 +222,9 @@ asyncseplay,setag1_12,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,ジェンマ,……む？,104301000G,vc_10430100001_011_01,chara_1
+message,ジェンマ,... Hmm?<br> ,104301000G,vc_10430100001_011_01,chara_1
 
-message,<user>,どうした、ジェンマ？
+message,<user>,What is it，Gemma?<br> 
 
 bgmplay,bgmtag1_2,bgm0027,0.75,1
 
@@ -237,9 +237,9 @@ asyncseplay,setag1_13,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ジェンマ,あそこに置かれているのは……まさか……,104301000G,vc_10430100001_012_01,chara_1
+message,ジェンマ,That ring over there... could it be...?<br> ,104301000G,vc_10430100001_012_01,chara_1
 
-message,<user>,アクセサリーの店か。<br>ジェンマ、そういうのも興味があるのか？
+message,<user>,An accessory shop? Gemma，are you interested in that kind of thing<br>too?<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -250,7 +250,7 @@ asyncseplay,setag1_14,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ジェンマ,…………っ！,104301000G,vc_10430100001_013_01,chara_1
+message,ジェンマ,...!<br> ,104301000G,vc_10430100001_013_01,chara_1
 
 
 window,off
@@ -306,9 +306,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ジェンマ,……なぜだ。<br>どうしてこれが、ここに売られておるんじゃっ！？,104301000G,vc_10430100001_014_01,chara_1
+message,ジェンマ,...Why?! Why is this being sold here?!<br> ,104301000G,vc_10430100001_014_01,chara_1
 
-message,<user>,お、おい？　何をみつけたんだ、ジェンマ？
+message,<user>,H-hey? What did you find，Gemma?<br> 
 
 window,off
 wait,0.15
@@ -338,7 +338,7 @@ asyncseplay,setag1_17,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 window,on,0.15
-message,,ジェンマは店先にあった指輪を手に取り、<br>震える指で持ち上げた。
+message,,Gemma picked up the ring from the storefront and lifted it with<br>trembling fingers.<br> 
 
 window,off
 wait,0.15
@@ -387,9 +387,9 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,店主,ちょっ、何してんだお客さんっ！<br>そいつは売りものだぞ！？,400301000,,chara_2
+message,店主,Hey，what do you think you're doing?! That's for sale!<br> ,400301000,,chara_2
 
-message,<user>,店主か？　悪い、勝手に触っちまって。
+message,<user>,You're the shopkeeper? Sorry，we touched it without asking.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -400,7 +400,7 @@ asyncseplay,setag1_19,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ジェンマ,お主、これをどこで手に入れた！？<br>これはワシが友に贈った、世界に１つだけの品なんじゃぞっ！？,104301000G,vc_10430100001_015_01,chara_1
+message,ジェンマ,You there，where did you get this?! This is a one-of-a-kind item I<br>gave to a friend!<br> ,104301000G,vc_10430100001_015_01,chara_1
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -411,7 +411,7 @@ asyncseplay,setag1_20,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,店主,お、おお？<br>元はアンタが持ってた……ってのかい？,400301000,,chara_2
+message,店主,O-oh? So you're the one who originally owned it?<br> ,400301000,,chara_2
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -420,7 +420,7 @@ asyncseplay,setag1_21,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ジェンマ,そうじゃ！　友の結婚祝いにと、<br>ワシがこの手で掘った鉱石を、特別に加工してもらったんだ！,104301000G,vc_10430100001_016_01,chara_1
+message,ジェンマ,That's right! I had the ore I dug with these hands specially crafted<br>into a ring as a wedding gift for a friend!<br> ,104301000G,vc_10430100001_016_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -431,11 +431,11 @@ asyncseplay,setag1_22,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ジェンマ,一生大切にすると、そう言っておったんじゃぞ……！,104301000G,vc_10430100001_017_01,chara_1
+message,ジェンマ,He promised he'd treasure it forever...!<br> ,104301000G,vc_10430100001_017_01,chara_1
 
-message,<user>,ジェンマ……。
+message,<user>,Gemma...<br> 
 
-message,<user>,店主、そいつの来歴を教えてくれないか。
+message,<user>,Shopkeeper，can you tell me where that ring came from?<br> 
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -446,7 +446,7 @@ asyncseplay,setag1_23,se4800006,0,1,CONT,0
 asynccharaemo,chara_2,Trouble,CONT,0
 
 
-message,店主,これはペルディオン本国で仕入れたもんで、<br>質に入ってたのをオレが買い取ったんだ。,400301000,,chara_2
+message,店主,I got it from Perdion itself. It was pawned，so I bought it.<br> ,400301000,,chara_2
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -455,7 +455,7 @@ asyncseplay,setag1_24,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ジェンマ,ペルディオンで、質に……じゃと……？,104301000G,vc_10430100001_018_01,chara_1
+message,ジェンマ,Pawned... in Perdion... you say...?<br> ,104301000G,vc_10430100001_018_01,chara_1
 
 asyncshake,CHARA,chara_2,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -464,7 +464,7 @@ asyncseplay,setag1_25,se4800015,0,1,CONT,0
 asynccharaemo,chara_2,Dull,CONT,0
 
 
-message,店主,モノはいいんだが、ちっとばかし高いってことで、<br>ずっと売れてなかったらしくてよ。,400301000,,chara_2
+message,店主,It's a nice piece，but it was a bit pricey，so it never sold，I guess.<br> ,400301000,,chara_2
 
 asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
 
@@ -473,7 +473,7 @@ asyncseplay,setag1_26,se4800014,0,1,CONT,0
 asynccharaemo,chara_2,Silence,CONT,0
 
 
-message,店主,質に流れたのは１０年以上前。<br>……そう聞いてるぜ。,400301000,,chara_2
+message,店主,It ended up in a pawnshop over ten years ago... or so I'm told.<br> ,400301000,,chara_2
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -484,9 +484,9 @@ asyncseplay,setag1_27,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ジェンマ,１０年……。<br>そんなにも前に……じゃったか……,104301000G,vc_10430100001_019_01,chara_1
+message,ジェンマ,Ten years... that long ago... was it...?<br> ,104301000G,vc_10430100001_019_01,chara_1
 
-message,<user>,大丈夫か、ジェンマ。
+message,<user>,You okay，Gemma?<br> 
 
 window,off
 wait,0.15
@@ -531,7 +531,7 @@ asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,ジェンマ,……ほっ、なんじゃ小僧。<br>ワシの心配なぞまだまだ早い。,104301000G,vc_10430100001_020_01,chara_1
+message,ジェンマ,...Ho，young'un. You need not worry about me just yet.<br> ,104301000G,vc_10430100001_020_01,chara_1
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -543,9 +543,9 @@ asyncseplay,setag1_28,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ジェンマ,出会いも別れも数限りなく経験してきたんじゃ。<br>驚きはしたが、それだけのことだ。,104301000G,vc_10430100001_021_01,chara_1
+message,ジェンマ,I have experienced countless meetings and partings. I was just<br>surprised，that is all.<br> ,104301000G,vc_10430100001_021_01,chara_1
 
-message,<user>,……そう、か。
+message,<user>,...I see.<br> 
 
 window,off
 wait,0.15
@@ -599,7 +599,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ジェンマ,店主も、感謝するぞ。<br>騒がせて悪かったのう。,104301000G,vc_10430100001_022_01,chara_1
+message,ジェンマ,Thank you as well，shopkeeper. Sorry for causing such a fuss.<br> ,104301000G,vc_10430100001_022_01,chara_1
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -610,7 +610,7 @@ asyncseplay,setag1_30,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,店主,いや、構わねえが……,400301000,,chara_2
+message,店主,Nah，it's all right，but...<br> ,400301000,,chara_2
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -618,7 +618,7 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,ジェンマ,……では、ワシはこれで失礼しようかの。,104301000G,vc_10430100001_023_01,chara_1
+message,ジェンマ,...Well then，I will be taking my leave.<br> ,104301000G,vc_10430100001_023_01,chara_1
 
 
 window,off
@@ -639,7 +639,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,お、おい、ジェンマ？
+message,<user>,H-hey，Gemma?<br> 
 
 window,off
 wait,0.15
@@ -683,7 +683,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ジェンマ,すまんな小僧、ワシは先に戻っておるよ。<br>買ったものはお主にやるでな、好きにするといい。,104301000G,vc_10430100001_024_01,chara_1
+message,ジェンマ,Sorry，young'un. I am heading back first. I will leave the purchases<br>with you–do whatever you like with them.<br> ,104301000G,vc_10430100001_024_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -695,7 +695,7 @@ asyncseplay,setag1_32,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ジェンマ,ワシは稀有な出会いを肴に、１杯やるとするわ。<br>ほっほっほ……,104301000G,vc_10430100001_025_01,chara_1
+message,ジェンマ,I think I will have a drink and reflect on this rare encounter. Ho<br>ho ho...<br> ,104301000G,vc_10430100001_025_01,chara_1
 
 
 window,off
@@ -729,9 +729,9 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,ジェンマ……笑ってたけど、泣いてたな……
+message,<user>,Gemma... she was laughing，but she was crying...<br> 
 
-message,<user>,今日の買いもの、俺に必要なものばかり買ってるな、とは思ってたんだ。<br>元々俺に渡すつもりで選んでたのか……あいつ……
+message,<user>,I'd noticed she was only buying stuff I needed today. She'd been<br>picking them out to give to me all along... that woman...<br> 
 
 
 window,off
@@ -768,9 +768,9 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,店主,あのお嬢さん、長命の種族か。<br>悪いことを言っちまったな……,400301000,,chara_2
+message,店主,That young lady，she's from a long-lived race，isn't she? I said<br>something I shouldn't have...<br> ,400301000,,chara_2
 
-message,<user>,いいや、店主は悪くないさ。<br>聞かせてくれてありがとよ。
+message,<user>,No，you didn't do anything wrong. Thanks for telling me.<br> 
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -782,9 +782,9 @@ asyncseplay,setag1_34,se4800019,0,1,CONT,0
 asynccharaemo,chara_2,Elated,CONT,0
 
 
-message,店主,……で、旦那は追いかけなくていいのかい？<br>泣いてる女は慰めてやるのが甲斐性だと思うがな。,400301000,,chara_2
+message,店主,So，you're not going after her，mister? I figure a real man comforts a<br>crying woman.<br> ,400301000,,chara_2
 
-message,<user>,もちろん慰めるさ。<br>ただ、その前に必要なものがあるーーそうだろ？
+message,<user>,Of course I'll comfort her. But first，there's something I<br>need–right?<br> 
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -795,9 +795,9 @@ asyncseplay,setag1_35,se4800005,0,1,CONT,0
 asynccharaemo,chara_2,Flash,CONT,0
 
 
-message,店主,……へっ、そういうことなら安くしとくぜ。,400301000,,chara_2
+message,店主,...Heh，if that's the case，I'll cut you a discount.<br> ,400301000,,chara_2
 
-message,<user>,話が早いな。<br>じゃあ、ジェンマが贈ったこの指輪と……これも、もらえるか？
+message,<user>,You catch on quick. Then，this ring Gemma gave me... and can I also<br>get this?<br> 
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -808,9 +808,9 @@ asyncseplay,setag1_36,se4800009,0,1,CONT,0
 asynccharaemo,chara_2,Question,CONT,0
 
 
-message,店主,ん、そいつでいいのか？<br>もっと高いやつでも値引きしてやるぜ？,400301000,,chara_2
+message,店主,Hmm，that's the one you want? I could give you a deal on a pricier<br>one，you know?<br> ,400301000,,chara_2
 
-message,<user>,いいや、これでいいんだ。<br>それから――ジェンマの指輪をどこの店で買ったのか、教えて欲しい。
+message,<user>,No，this is fine. Also，I want you to tell me which shop you bought<br>Gemma's ring from.<br> 
 
 
 window,off
@@ -897,7 +897,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,ジェンマ,（ワシの友はいくら金に困ったとて、<br>贈りものを質に入れたりはせぬ）,104301000G,vc_10430100001_026_01,chara_1
+message,ジェンマ,(My friend，no matter how short on money，would never pawn a gift.)<br> ,104301000G,vc_10430100001_026_01,chara_1
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -906,7 +906,7 @@ asyncseplay,setag1_39,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ジェンマ,（誰ぞに盗まれ、売り払われたのであっても、<br>ペルディオンの質屋にあったのなら、探して買い戻したはずじゃ）,104301000G,vc_10430100001_027_01,chara_1
+message,ジェンマ,(Even if someone stole it and sold it，if it turned up in a Perdion<br>pawnshop，they'd have searched for and bought it back.)<br> ,104301000G,vc_10430100001_027_01,chara_1
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -918,7 +918,7 @@ asyncseplay,setag1_40,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ジェンマ,（ならばあやつらは約束を守り、一生大切にして……、<br>そして、次の持ち主に売られたのじゃろう）,104301000G,vc_10430100001_028_01,chara_1
+message,ジェンマ,(Then they kept their promise，treasured it all their lives... before<br>it was sold to the next owner.)<br> ,104301000G,vc_10430100001_028_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -929,7 +929,7 @@ asyncseplay,setag1_41,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ジェンマ,（……もう生きておらぬのじゃな。<br>１０年以上も前に、この世を去っておったか……）,104301000G,vc_10430100001_029_01,chara_1
+message,ジェンマ,(...They're dead. They must have passed away over ten years ago...)<br> ,104301000G,vc_10430100001_029_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -940,7 +940,7 @@ asyncseplay,setag1_42,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ジェンマ,ワシはまた、友を失っていたんじゃな……,104301000G,vc_10430100001_030_01,chara_1
+message,ジェンマ,I've lost another friend...<br> ,104301000G,vc_10430100001_030_01,chara_1
 
 window,off
 bgmstop,bgmtag1_3,0.5

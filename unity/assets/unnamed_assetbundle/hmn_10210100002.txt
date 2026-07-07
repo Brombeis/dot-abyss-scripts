@@ -218,7 +218,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 message,ヒュメナ,言ったんだけど聞いてくれなくてぇ……<br>とにかくウパちゃんを奪い取ろうと追いかけてくるの～っ！,,vc_10210100002_010_01,chara_1
 
-message,<user>,まったく、あいつらときたら……。<br>精霊の加護で活躍してやろう――って考えで頭いっぱいなんだろうな。
+message,<user>,Man，those guys... They're probably so fixated on using the spirit's<br>blessing to make a big splash.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -229,9 +229,9 @@ asyncseplay,setag1_12,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒュメナ,どうしよぉ～っ。みんな私のこと探してるし、私の部屋は<br>見張られてるしで、逃げるところがなくてもう大変なの～っ！,,vc_10210100002_011_01,chara_1
+message,ヒュメナ,What am I gonna do! Everyone's looking for me，and my room's being<br>watched—I've got nowhere to run! It's so terrible!<br> ,,vc_10210100002_011_01,chara_1
 
-message,<user>,……分かった、俺がヒュメナを匿おう。
+message,<user>,...Alright，I'll hide you，Humena.<br> 
 
 window,off
 wait,0.15
@@ -260,9 +260,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒュメナ,え……？　い、いいの？,,vc_10210100002_012_01,chara_1
+message,ヒュメナ,Huh...? A-Are you sure?<br> ,,vc_10210100002_012_01,chara_1
 
-message,<user>,ああ。俺は腐っても司令官。<br>ヒュメナの上司みたいなもんだし、このまま放っておけないだろ？
+message,<user>,Yeah. Even if I'm a lousy commander，I'm still the Commander. I'm<br>kind of Humena's boss，so I can't just leave her，right?<br> 
 
 window,off
 wait,0.15
@@ -281,11 +281,11 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒュメナ,し、司令官くぅん……！　ありがとぉ～～～！！<br>やっぱり君はいい子だよ！　一生ついていきますぅ～～！！,,vc_10210100002_013_01,chara_1
+message,ヒュメナ,C-Commander...! Thank youuu! I knew it，you're such a good boy! I'll<br>stick with you forever!<br> ,,vc_10210100002_013_01,chara_1
 
-message,<user>,大袈裟だなぁ……あと、いい子言うな。
+message,<user>,You're exaggerating... And quit calling me a good boy.<br> 
 
-message,<user>,とにかく移動するぞ。ここには兵士が来ることもあるし、<br>とりあえず俺の部屋に隠れてもらうのがよさそうだな。
+message,<user>,Anyway，let's move. Soldiers might come here，so I think it's best if<br>you hide in my room for now.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -296,9 +296,9 @@ asyncseplay,setag1_16,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ヒュメナ,宿舎に行くの？<br>でも基地のあちこちにウパちゃんを追いかけてる人がいるよ？,,vc_10210100002_014_01,chara_1
+message,ヒュメナ,Go to the living quarters? But there are people after Upa all over<br>the base，you know?<br> ,,vc_10210100002_014_01,chara_1
 
-message,<user>,心配ない、こっちは前線基地司令官だぞ。<br>基地の中のことなら任せておけ。
+message,<user>,Don't worry. I'm the Commander of this Frontline Base. Leave<br>everything inside the base to me.<br> 
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -343,7 +343,7 @@ asynccharamove,chara_1,EaseOut,X,-100,1,CONT,0
 asyncwait
 
 window,on,0.15
-message,<user>,こっちだ、急ぐぞっ！
+message,<user>,This way，let's hurry!<br> 
 
 window,off
 wait,0.15
@@ -366,9 +366,9 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ヒュメナ,ね、ねえ、司令官君。<br>普通に歩いてるだけなのに、なんで誰とも会わないの？,,vc_10210100002_015_01,chara_1
+message,ヒュメナ,Hey，hey，Commander. We're just walking normally，so how come we<br>haven't run into anyone?<br> ,,vc_10210100002_015_01,chara_1
 
-message,<user>,ここは主要施設を繋ぐ動線から外れた、裏道のようなところだからな。<br>詳しいやつ以外は通らないルートだ。
+message,<user>,This is a kind of back route off the main corridors that connect the<br>facilities. Only people who really know the base use it.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -379,11 +379,11 @@ asyncseplay,setag1_18,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヒュメナ,なるほど！　やるね司令官君！,,vc_10210100002_016_01,chara_1
+message,ヒュメナ,I see! Way to go，Commander!<br> ,,vc_10210100002_016_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
-message,<user>,とはいえ、少しは人と会うこともありそうだが……<br>ちっ、出くわしたか。
+message,<user>,That said，we were bound to run into someone... Tch，and there they<br>are.<br> 
 
 
 window,off
@@ -426,7 +426,7 @@ asynccharaemo,chara_2,Trouble,CONT,0
 
 
 window,on,0.15
-message,前線基地の兵士,くっ、あの精霊どこに行ったんだ……っ。,400901000,,chara_2
+message,前線基地の兵士,Tch，where did that Spirit go...?<br> ,400901000,,chara_2
 
 window,off
 wait,0.15
@@ -468,9 +468,9 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ヒュメナ,うわ、ウパちゃんを探してる兵士さんだ！<br>どどど、どうしようっ？,,vc_10210100002_017_01,chara_1
+message,ヒュメナ,Eek，it's the soldier that's after Upa! Wh-what do we do?<br> ,,vc_10210100002_017_01,chara_1
 
-message,<user>,問題ない。<br>すぐに来るぞ、見ていろ。
+message,<user>,No problem. Just watch—he'll be here soon.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -481,7 +481,7 @@ asyncseplay,setag1_21,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ヒュメナ,来るって……あっ！,,vc_10210100002_018_01,chara_1
+message,ヒュメナ,He's coming...? Ah!<br> ,,vc_10210100002_018_01,chara_1
 
 
 window,off
@@ -517,7 +517,7 @@ transitionCrossFade,Tra01,1
 wait,1
 
 window,on,0.15
-message,前線基地の上級兵,何をしているッ？<br>仕事はどうした？,900000001
+message,前線基地の上級兵,What are you doing? What about your duties?<br> ,900000001
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -528,9 +528,9 @@ asyncseplay,setag1_22,se4800011,0,1,CONT,0
 asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
-message,前線基地の兵士,あ……！　し、失礼しました！<br>すぐに戻りますっ！,400901000,,chara_2
+message,前線基地の兵士,Ah... M-my apologies! I'll head back right away.<br> ,400901000,,chara_2
 
-message,前線基地の上級兵,まったく……サボりもほどほどにしろよ。,900000001
+message,前線基地の上級兵,Honestly... don't slack off too much.<br> ,900000001
 
 
 window,off
@@ -587,9 +587,9 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,ヒュメナ,わ、行っちゃった。<br>今の人は？,,vc_10210100002_019_01,chara_1
+message,ヒュメナ,Whoa，he's gone. Who was that?<br> ,,vc_10210100002_019_01,chara_1
 
-message,<user>,人員が足りなくてな、この時間だけ警備に出てる上級兵だ。<br>これで安心して通れるな。
+message,<user>,We're short on personnel，so he's a senior soldier assigned to patrol<br>just during this time. We can get through safely now.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -600,9 +600,9 @@ asyncseplay,setag1_26,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ヒュメナ,すごーい！　そんなことも知ってるんだ！　さっすが司令官君！<br>いい子の上に、できる子なんて！　一生ついていきます！！,,vc_10210100002_020_01,chara_1
+message,ヒュメナ,Amazing. You even know stuff like that. As expected of Commander.<br>You're a good boy and a capable one too. I'll stick with you forever!<br> ,,vc_10210100002_020_01,chara_1
 
-message,<user>,だから大袈裟……あと、子ども扱いは……はぁ、まあいいか。<br>ほら、今の内に俺の部屋に行くぞ。
+message,<user>,You're exaggerating again... and don't treat me like a kid...<br>*sigh*，whatever. Come on，let's head to my room while it's clear.<br> 
 
 bgmstop,bgmtag1_3,1,0
 
@@ -658,9 +658,9 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,ヒュメナ,お邪魔しまーす。<br>ここが司令官君の部屋なんだ～。,,vc_10210100002_021_01,chara_1
+message,ヒュメナ,Coming in. So this is Commander's room!<br> ,,vc_10210100002_021_01,chara_1
 
-message,<user>,どうにかヒュメナが自由に動けるように対処する。<br>それまでくつろいでいてくれ。
+message,<user>,I'll take care of things so you can move around freely. Just relax<br>until then.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -671,7 +671,7 @@ asyncseplay,setag1_28,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒュメナ,う、うん、ありがとう……,,vc_10210100002_022_01,chara_1
+message,ヒュメナ,U-um，thank you...<br> ,,vc_10210100002_022_01,chara_1
 
 window,off
 wait,0.15
@@ -697,7 +697,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,ヒュメナ,（そういえば、男の人の部屋って初めてだな。<br>なんだか知らない香りがする……）,,vc_10210100002_023_01,chara_1
+message,ヒュメナ,(Come to think of it，this is my first time in a man's room. It has<br>some unfamiliar scent...)<br> ,,vc_10210100002_023_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -708,7 +708,7 @@ asyncseplay,setag1_30,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ヒュメナ,（これが男の人の匂い？　それとも司令官君の……）,,vc_10210100002_024_01,chara_1
+message,ヒュメナ,(Is this what a man smells like? Or is it Commander's...?)<br> ,,vc_10210100002_024_01,chara_1
 
 window,off
 wait,0.15
@@ -725,7 +725,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,ヒュメナ？<br>ぼーっとしているが大丈夫か？
+message,<user>,Humena? You're spacing out，are you okay?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -740,9 +740,9 @@ asyncseplay,setag1_32,se4800007,0,1,STOP,1
 asynccharaemo,chara_1,Panic,STOP,1
 
 
-message,ヒュメナ,ひゃあっ！？　あっ、う、うん！　平気だよ！<br>安全な場所に来て、ちょっと気が緩んじゃったかもっ。あははっ！,,vc_10210100002_025_01,chara_1
+message,ヒュメナ,Hyaah! Ah，y-yeah. I'm fine. I guess I just relaxed a bit now that<br>we're somewhere safe. Ahaha.<br> ,,vc_10210100002_025_01,chara_1
 
-message,<user>,別に構わないぞ。ここなら兵士に見つかる心配もないだろうし……<br>来たら、俺が追い返すからな。
+message,<user>,Don't worry about it. There's no chance of soldiers finding us<br>here... even if they do，I'll send them packing.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -754,7 +754,7 @@ asyncseplay,setag1_33,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ヒュメナ,うん……ほんと、司令官君は頼もしいね……,,vc_10210100002_026_01,chara_1
+message,ヒュメナ,Yeah... you're really dependable，Commander.<br> ,,vc_10210100002_026_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -773,9 +773,9 @@ asyncseplay,setag1_35,se4800005,0,1,STOP,4.9
 asynccharaemo,chara_1,Flash,STOP,4.9
 
 
-message,ヒュメナ,でも、頼ってばかりなのは申し訳ないし……<br>そうだ！　お礼に私の得意料理をご馳走するよ！,,vc_10210100002_027_01,chara_1
+message,ヒュメナ,But I feel bad for always relying on you... Oh，I know. Let me treat<br>you to my specialty dish as thanks!<br> ,,vc_10210100002_027_01,chara_1
 
-message,<user>,ん、いいのか？
+message,<user>,Oh，really?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -786,7 +786,7 @@ asyncseplay,setag1_36,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヒュメナ,うん、ちょっとキッチンを借りるね！,,vc_10210100002_028_01,chara_1
+message,ヒュメナ,Yeah，I'll just borrow your kitchen for a bit!<br> ,,vc_10210100002_028_01,chara_1
 
 
 
@@ -829,9 +829,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒュメナ,どうぞ、ヒュメナさんの手作り肉団子パラダイスだよ！,,vc_10210100002_029_01,chara_1
+message,ヒュメナ,Here you go! Humena's homemade meatball paradise.<br> ,,vc_10210100002_029_01,chara_1
 
-message,<user>,お、おぅ……まあ、間違いなく美味そうではあるが……<br>やけに小さくないか？　山盛りにするくらいなら、もう少し大きい方が……
+message,<user>,Oh，uh... well，there's no doubt it looks delicious... but aren't they<br>kinda small? If you're gonna heap them up，bigger ones might...<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -842,18 +842,18 @@ asyncseplay,setag1_38,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ヒュメナ,ウパちゃんたちはこの大きさが好きなの！<br>口が小さいから、食べやすいみたい！　司令官君もきっと気にいるよ！,,vc_10210100002_030_01,chara_1
+message,ヒュメナ,Upa and the others like this size! Their mouths are small，so it's<br>easy for them to eat! I'm sure you'll like them too，Commander!<br> ,,vc_10210100002_030_01,chara_1
 
-message,<user>,俺は人間なんだが！？
+message,<user>,But I'm a human!<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
 
-message,<user>,せっかく作ってくれたんだから、いただくけど――
+message,<user>,Since you went out of your way to make them，I'll have one，but—<br> 
 
-message,,団子を１つ手に取り、口に含む。<br>独特な風味と食感だが、意外と悪くない味だった。
+message,,I picked up a dumpling and put it in my mouth. The flavor and<br>texture were unique，but the taste was surprisingly good.<br> 
 
-message,<user>,おお、なかなか美味いじゃないか。
+message,<user>,Oh，this is pretty good!<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -864,9 +864,9 @@ asyncseplay,setag1_39,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ヒュメナ,ふふふー。自信作ですから♪,,vc_10210100002_031_01,chara_1
+message,ヒュメナ,Fufufu! It's my pride and joy!♪<br> ,,vc_10210100002_031_01,chara_1
 
-message,ウパ,ウパッ！,900000003,vc_10210100002_032_01,
+message,ウパ,Upa!<br> ,900000003,vc_10210100002_032_01,
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -877,17 +877,17 @@ asyncseplay,setag1_40,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヒュメナ,うん、ウパちゃんも食べていいよ。<br>はいどうぞ～。,,vc_10210100002_033_01,chara_1
+message,ヒュメナ,Yeah，Upa can eat too.<br>Here you go.<br> ,,vc_10210100002_033_01,chara_1
 
-message,ウパ,ウパ～ッ！,900000003,vc_10210100002_034_01,
+message,ウパ,Upaa!<br> ,900000003,vc_10210100002_034_01,
 
-message,<user>,美味そうに食ってるな。
+message,<user>,You sure are enjoying that.<br> 
 
-message,ウパ,ウパ～～～！,900000003,vc_10210100002_035_01,
+message,ウパ,Upaaa!<br> ,900000003,vc_10210100002_035_01,
 
 message,水の精霊たち,～～～～♪,900000003
 
-message,<user>,おい、なんかたくさん出てきたぞっ！？
+message,<user>,Hey，a lot of them are coming out!<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -899,9 +899,9 @@ asyncseplay,setag1_41,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ヒュメナ,水槽にはウパちゃん以外も住んでるからね。<br>教会の秘術で、この水槽はとっても広い空間になってるんだ～。,,vc_10210100002_036_01,chara_1
+message,ヒュメナ,There are other spirits living in the aquarium besides Upa. Thanks<br>to the church's secret arts，this aquarium is actually a very spacious area.<br> ,,vc_10210100002_036_01,chara_1
 
-message,<user>,ほー、精霊にとって暮らしやすい空間なんだな。
+message,<user>,Huh，so it's a comfortable place for spirits to live.<br> 
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -910,7 +910,7 @@ asyncseplay,setag1_42,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒュメナ,うん……それでもやっぱり自然には敵わないから、<br>たまに海とかに行って、自由に泳がせてあげてるんだけどね……,,vc_10210100002_037_01,chara_1
+message,ヒュメナ,Yeah... but even so，it can't beat nature.<br>So I take them to the sea sometimes and let them swim freely，but...<br> ,,vc_10210100002_037_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -921,7 +921,7 @@ asyncseplay,setag1_43,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ヒュメナ,そろそろ海に連れて行ってあげたいんだけど、今のままだと難しいし……。<br>困ったな……ウパちゃんたちのために早く解決しないと……,,vc_10210100002_038_01,chara_1
+message,ヒュメナ,I want to take them to the sea soon，but it's difficult now.<br>I'm troubled... I need to resolve this soon for Upa and the others.<br> ,,vc_10210100002_038_01,chara_1
 
 window,off
 wait,0.15
@@ -936,7 +936,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（自分のことよりも、ウパちゃんたちのことを考えているのか……。<br>ふっ、いい子なのはどっちだ）
+message,<user>,(She's thinking about Upa and the others more than herself...<br>Heh，who's the good one here?)<br> 
 
 window,off
 wait,0.15
@@ -951,9 +951,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,お前たちも安心しろよ？　俺が絶対になんとかしてやるからな。<br>ほら、食え食え。
+message,<user>,You guys don't worry，okay? I'll definitely sort things out.<br>Come on，eat up.<br> 
 
-message,ウパ,ウパ～♪,900000003,vc_10210100002_039_01,
+message,ウパ,Upaa!♪<br> ,900000003,vc_10210100002_039_01,
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -964,7 +964,7 @@ asyncseplay,setag1_44,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ヒュメナ,あ、司令官君のあげた餌を食べてる！<br>水の精霊は信頼してる人からもらったものしか口にしないんだよ！,,vc_10210100002_040_01,chara_1
+message,ヒュメナ,Ah，they're eating the food you gave them!<br>Water spirits only eat from people they trust!<br> ,,vc_10210100002_040_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -975,11 +975,11 @@ asyncseplay,setag1_45,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヒュメナ,守ってくれてることに気づいてるんだ。<br>信頼されたね、司令官君。,,vc_10210100002_041_01,chara_1
+message,ヒュメナ,They realize you're protecting them. You've earned their<br>trust，Commander.<br> ,,vc_10210100002_041_01,chara_1
 
-message,<user>,精霊と仲良くなるってのは悪い気分じゃないな。<br>しかし水の精霊に懐かれても、別に強くなるわけじゃないし……
+message,<user>,Getting chummy with spirits isn't a bad feeling. But even if water<br>spirits warm up to me，it's not like they make me stronger...<br> 
 
-message,<user>,いや、そうか！<br>これなら上手くいくかもしれない！
+message,<user>,No，that's it! This might just work!<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -990,9 +990,9 @@ asyncseplay,setag1_46,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ヒュメナ,どうしたの司令官君？<br>何か思いついたの？,,vc_10210100002_042_01,chara_1
+message,ヒュメナ,What is it，Commander? Did you think of something?<br> ,,vc_10210100002_042_01,chara_1
 
-message,<user>,ああ、いい作戦がある。<br>ヒュメナも協力してくれるか？
+message,<user>,Yeah，I've got a good plan. Humena，will you help me out?<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1003,9 +1003,9 @@ asyncseplay,setag1_47,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ヒュメナ,もちろんだよ！<br>私にできることなら、なんでも言って！,,vc_10210100002_043_01,chara_1
+message,ヒュメナ,Of course! If there's anything I can do，just say the word!<br> ,,vc_10210100002_043_01,chara_1
 
-message,<user>,ではヒュメナ……俺を殴ってくれ！
+message,<user>,Then，Humena... hit me!<br> 
 
 window,off
 wait,0.15
@@ -1032,7 +1032,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒュメナ,え、えええええっ！？,,vc_10210100002_044_01,chara_1
+message,ヒュメナ,Ehhh，wh-what?<br> ,,vc_10210100002_044_01,chara_1
 
 window,off
 bgmstop,bgmtag1_4,0.5

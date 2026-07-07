@@ -51,7 +51,7 @@ wait,1
 charaface,chara_1,FaceHappy
 
 window,on,0.15
-message,,I told myself there was no need to worry about Film，who always acted<br>like a big sister，but deep down，I couldn't help but be concerned about her.<br> 
+message,,I told myself not to worry about Film，who always acted like a big<br>sister，but deep down，I was still concerned about her.<br> 
 
 window,off
 wait,0.15
@@ -72,7 +72,7 @@ wait,0.3
 item,on,550100001
 
 window,on,0.15
-message,ノワール,...!<br> ,550100001,vc_10070100011_001_01,
+message,ノワール,...<br> ,550100001,vc_10070100011_001_01,
 
 message,<user>,Noir...!<br> 
 
@@ -184,7 +184,7 @@ window,on,0.15
 message,,Knock，knock.<br> 
 
 charaface,chara_2,FaceSad
-message,フィルム<娼館>,...The customer has arrived.<br> ,,vc_10070100011_007_01
+message,フィルム<娼館>,... The customer has arrived.<br> ,,vc_10070100011_007_01
 
 window,off
 wait,0.15
@@ -235,15 +235,15 @@ asynccharareaction,chara_2,shake,1,STOP
 asyncseplay,setag1_7,se4800007,0,1,CONT
 
 asynccharaemo,chara_2,Panic,STOP
-message,フィルム<娼館>,C-Commander!? What's wrong? Did you come to check on me?<br> ,,vc_10070100011_009_01
+message,フィルム<娼館>,C-Commander! What's wrong? Did you come to check on me?<br> ,,vc_10070100011_009_01
 
-message,,To her bewilderment，I told her that I was the customer.<br> 
+message,,She was bewildered，so I told her I was the customer.<br> 
 
 asyncseplay,setag1_8,se4800010,0,1,CONT
 
 asynccharareaction,chara_2,Jump,1,CONT
 asynccharaemo,chara_2,Exclamation,CONT
-message,フィルム<娼館>,That... no way... Commander，you're here for me...?<br> ,,vc_10070100011_010_01
+message,フィルム<娼館>,That's... no way... Commander，you're here for me...?<br> ,,vc_10070100011_010_01
 
 window,off
 wait,0.15
@@ -301,7 +301,7 @@ seplay,setag1_9,se4010002,0,1
 window,on,0.15
 message,,I approached the flustered Film. As a customer，I had to insist she<br>attend to me.<br> 
 
-message,フィルム<娼館>,Ah... Commander!<br> ,,vc_10070100011_013_01
+message,フィルム<娼館>,Ah... Commander!?<br> ,,vc_10070100011_013_01
 
 charahide,chara_2,0
 

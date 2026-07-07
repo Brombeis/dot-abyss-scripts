@@ -554,14 +554,14 @@ asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
 
 window,on,0.15
-message,エティア,わかりました、司令官のところに行きます。<br>みんなもどうか、死なないでください……！,,vc_10120100003_014_01,chara_1
+message,エティア,Understood. I'm heading to the Commander. Everyone，please don't<br>die...!<br> ,,vc_10120100003_014_01,chara_1
 
 asynccharaface,chara_4,FaceHappy,CONT,0
 
 asyncjump,CHARA,chara_4,60,0.4,1,off,0,CONT
 
 
-message,狩猟隊の女猟師,当たり前よ。<br>そっちもミスって怪我しないようにね！,401601000,vc_10120100003_015_01,chara_4
+message,狩猟隊の女猟師,Of course. Try not to screw up and get hurt over there!<br> ,401601000,vc_10120100003_015_01,chara_4
 
 window,off
 wait,0.15
@@ -608,11 +608,11 @@ transitionFade,Tra16,in,black,1
 
 
 window,on,0.15
-message,モンスター,グルルルル……,402001000,,chara_2
+message,モンスター,*grrrrrrr...*<br> ,402001000,,chara_2
 
-message,<user>,あー……こいつはしくじったな。<br>いつもの連中と狩猟隊の違いに、完璧に合わせられなかった、か。
+message,<user>,Ah... I really botched this one. Couldn't fully adjust to the<br>difference between the usual lot and the hunting party，huh.<br> 
 
-message,<user>,……なあお前、俺が逃げるまで、<br>ちょっとだけ待ってみるってのはどうだ？
+message,<user>,...Hey，you. How about you wait just a second until I get out of<br>here?<br> 
 
 window,off
 wait,0.15
@@ -643,11 +643,11 @@ linework,on,Black,Middle
 
 
 window,on,0.15
-message,モンスター,グォオオオオオ！！！,402001000,,chara_2
+message,モンスター,*groooaaar!*<br> ,402001000,,chara_2
 
 linework,off,Black,Middle
 
-message,<user>,だよなあ、ちくしょうっ！<br>ええい、相手をしてやる！　来やがれっ！
+message,<user>,Yeah，I figured，dammit! Enough! I'll take you on! Come at me!<br> 
 
 asyncseplay,setag1_10,se4900046,0,1,CONT,0
 
@@ -663,15 +663,15 @@ shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 shake,CHARA,chara_6,40,0,0.25,20,off,off,0
 
-message,,一撃で命を奪おうとするモンスターの攻撃を、頭上ギリギリで防ぐ。<br>ギィン、と鈍い金属音が響いた。
+message,,He barely managed to block the monster's killing strike right above<br>his head. A dull metallic clang resounded.<br> 
 
 
-message,<user>,ぐうううっ！<br>何とか受け止めた、が……！
+message,<user>,Guuh! I managed to block it，but...!<br> 
 
 
 asyncseplay,setag1_11,se4900054,0,1,CONT,0
 
-message,<user>,お、重い……！　こんなもの長く止めていられないぞ！<br>くそ、こんなところで死ねないってのに……！
+message,<user>,S-so heavy...! I can't keep this up for long! Shit，I can't die in a<br>place like this...!<br> 
 
 
 window,off
@@ -710,9 +710,9 @@ asyncwait
 
 
 window,on,0.15
-message,エティア,司令官、ご無事ですか！,,vc_10120100003_016_01,chara_1
+message,エティア,Commander，are you alright?<br> ,,vc_10120100003_016_01,chara_1
 
-message,<user>,エティア！　いいところに来てくれたっ！
+message,<user>,Etia! Great timing!<br> 
 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
@@ -724,7 +724,7 @@ asyncseplay,setag1_12,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,エティア,えええっ！？　司令官が襲われてますーっ！,,vc_10120100003_017_01,chara_1
+message,エティア,Whaaa! The Commander's under attack!<br> ,,vc_10120100003_017_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -735,9 +735,9 @@ asyncseplay,setag1_13,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,エティア,だ、誰かいませんかっ！？<br>司令官を助けてくださいっ！,,vc_10120100003_018_01,chara_1
+message,エティア,I-isn't anyone here? Please，someone help the Commander!<br> ,,vc_10120100003_018_01,chara_1
 
-message,<user>,そんな時間はないっ！<br>エティア、今すぐこいつの頭をぶち抜いてくれっ！
+message,<user>,There's no time for that! Etia，blow its head off right now!<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -748,9 +748,9 @@ asyncseplay,setag1_14,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,エティア,わ、わたしが……ですか……っ！？,,vc_10120100003_019_01,chara_1
+message,エティア,M-me... you mean me...?<br> ,,vc_10120100003_019_01,chara_1
 
-message,<user>,他に誰もいないだろう！<br>頼む、もう長くは耐えられないっ！
+message,<user>,There's no one else! Please，I can't hold out much longer!<br> 
 
 
 asynccharaface,chara_1,FaceSad,CONT,0
@@ -762,7 +762,7 @@ asyncseplay,setag1_15,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,エティア,で、でも……。,,vc_10120100003_020_01,chara_1
+message,エティア,B-but...<br> ,,vc_10120100003_020_01,chara_1
 
 window,off
 wait,0.15
@@ -812,14 +812,14 @@ asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
 
 window,on,0.15
-message,エティア,（モンスターが司令官のすぐそばに……。<br>　少しでも外したら司令官に当たるかもしれない……！）,,vc_10120100003_021_01,chara_1
+message,エティア,(The monster is right next to the Commander... If I'm off by even a<br>bit，I could hit him...!)<br> ,,vc_10120100003_021_01,chara_1
 
 asyncseplay,setag1_16,se4800007,0,1,CONT,0
 
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,エティア,（わたしの手で司令官を撃つだなんて、そんなの……！）,,vc_10120100003_022_01,chara_1
+message,エティア,(Shoot the Commander myself? There's no way...!)<br> ,,vc_10120100003_022_01,chara_1
 
 window,off
 wait,0.15
@@ -867,9 +867,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,エティア,無理、ですよ……！<br>わたしの腕じゃ、司令官に当てちゃうかも……！,,vc_10120100003_023_01,chara_1
+message,エティア,I-I can't...!<br>With my aim，I might hit you，Commander...!<br> ,,vc_10120100003_023_01,chara_1
 
-message,<user>,それならそれで構わん！<br>このまま死ぬのもお前に撃たれるのも同じだっ！
+message,<user>,Then so be it!<br>Dying like this or being shot by you—it's all the same!<br> 
 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
@@ -881,9 +881,9 @@ asyncseplay,setag1_18,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,エティア,そ、そんなっ！？<br>全然同じじゃないですよっ！？,,vc_10120100003_024_01,chara_1
+message,エティア,Wh-what!<br>That's not the same at all!<br> ,,vc_10120100003_024_01,chara_1
 
-message,<user>,むしろエティアに撃たれたほうが悔いはないぞっ！<br>俺はいつだって、自分の命令に命をかけているからなっ！
+message,<user>,If anything，I'd have no regrets being shot by you!<br>I always put my life on the line for my own orders!<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -894,22 +894,22 @@ asyncseplay,setag1_19,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,エティア,司令官……。,,vc_10120100003_025_01,chara_1
+message,エティア,Commander...<br> ,,vc_10120100003_025_01,chara_1
 
-message,<user>,いいかエティア、自信を持てとは、もう言わないっ！
+message,<user>,Listen，Etia，I'm not going to tell you to have confidence anymore!<br> 
 
-message,<user>,俺は指揮官として、エティアならできると判断し、命じたっ！<br>ならばお前の行動に責任を持つのは俺だっ！
+message,<user>,As your commander，I judged that you could do it，and I gave the<br>order! That means I'm responsible for your actions!<br> 
 
-message,<user>,エティアはただ俺を信じて、<br>実力を発揮すればそれでいい！
+message,<user>,All you have to do is trust me and show your skill!<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
 
-message,エティア,わたしの実力を……。,,vc_10120100003_026_01,chara_1
+message,エティア,My ability...<br> ,,vc_10120100003_026_01,chara_1
 
-message,<user>,そう、すればっ！　お前は失敗なんてしないっ！<br>ぐうううっ！　エティア、俺を信じて撃てっ！　
+message,<user>,Yes，do that! Then you won't fail!<br>Urghh! Etia，trust me and shoot!<br> 
 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
@@ -971,21 +971,21 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,エティア,（わたしの実力なんて、信じられません。<br>　司令官の命が自分にかかっているなんて、耐えられないです）,,vc_10120100003_028_01,chara_1
+message,エティア,(I can't believe in my own ability.<br>I can't bear that the Commander's life depends on me.)<br> ,,vc_10120100003_028_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,エティア,（でも、でも……。<br>　司令官の言葉は信じられます）,,vc_10120100003_029_01,chara_1
+message,エティア,(But，but...<br>I can believe in what the Commander says.)<br> ,,vc_10120100003_029_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,エティア,（司令官は撃てって言ったんです。<br>　わたしなら当てられるって信じてくれたんです）,,vc_10120100003_030_01,chara_1
+message,エティア,(The Commander told me to shoot.<br>He believed that I could hit it.)<br> ,,vc_10120100003_030_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -993,7 +993,7 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,エティア,（なら、わたしは……）,,vc_10120100003_031_01,chara_1
+message,エティア,(Then I...)<br> ,,vc_10120100003_031_01,chara_1
 
 window,off
 wait,0.15
@@ -1021,7 +1021,7 @@ linework,on,White,Strong
 
 
 window,on,0.15
-message,エティア,司令官を、信じます。,,vc_10120100003_032_01,chara_1
+message,エティア,I believe in you，Commander.<br> ,,vc_10120100003_032_01,chara_1
 
 window,off
 wait,0.15
@@ -1080,7 +1080,7 @@ wait,0.5
 
 
 window,on,0.15
-message,エティア,（集中、集中して）,,vc_10120100003_033_01,chara_1
+message,エティア,(Focus，focus.)<br> ,,vc_10120100003_033_01,chara_1
 
 seplay,setag1_21,se4900054,0,1
 
@@ -1091,7 +1091,7 @@ asyncseplay,setag1_22,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,エティア,（銃を構えたまま体はリラックス。<br>　心の緊張を銃に伝えずに、照準の先だけを見て……）,,vc_10120100003_034_01,chara_1
+message,エティア,(I relax my body while holding the gun. Without letting my tension<br>affect the gun，I focus only on the target...)<br> ,,vc_10120100003_034_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1110,7 +1110,7 @@ wait,0.5
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
 
-message,エティア,（……不思議です。自分の鼓動がゆっくりに感じます。<br>　獲物の動きも少しずつ遅くなっていくみたい……）,,vc_10120100003_035_01,chara_1
+message,エティア,(It's strange. My heartbeat feels slow.<br>The prey's movements seem to slow down...)<br> ,,vc_10120100003_035_01,chara_1
 
 asynccamerazoom,1.2,0.5,EaseInTarget,CONT,0
 
@@ -1125,7 +1125,7 @@ wait,0.5
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,エティア,（空気の流れが見える。弾丸の飛ぶ先がわかる。<br>　銃口が獲物の急所へ導かれてるように思う）,,vc_10120100003_036_01,chara_1
+message,エティア,(I can see the air currents. I know where the bullet will go.<br>It feels like the muzzle is being guided to the prey's vital point.)<br> ,,vc_10120100003_036_01,chara_1
 
 asynccamerazoom,1.3,0.5,EaseInTarget,CONT,0
 
@@ -1140,7 +1140,7 @@ wait,0.5
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,エティア,（偶然もたまたまも必要ない。<br>　司令官からもらった自信が、この体を支えてくれるから……）,,vc_10120100003_037_01,chara_1
+message,エティア,(I don't need luck or chance. Because the confidence the Commander<br>gave me is supporting my body...)<br> ,,vc_10120100003_037_01,chara_1
 
 window,off
 wait,0.15
@@ -1157,7 +1157,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,モンスター,ガァァァァッ！！！,402001000
+message,モンスター,GAAAAH!<br> ,402001000
 
 
 
@@ -1179,7 +1179,7 @@ seplay,setag1_25,se4900046,0,1
 wait,0.5
 
 window,on,0.15
-message,<user>,もう、ダメだっ！<br>エティアーっ！！！
+message,<user>,I can't hold on any longer! Etiaa!<br> 
 
 window,off
 wait,0.15
@@ -1206,7 +1206,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,エティア,――ここですっ！,,vc_10120100003_038_01,chara_1
+message,エティア,—Right here!<br> ,,vc_10120100003_038_01,chara_1
 
 
 
@@ -1240,11 +1240,11 @@ scale,BACK,,0,1,1,Set
 fade,In,White,0.15
 
 window,on,0.15
-message,,――タァン！<br>エティアの銃口はわずかなブレもなく、狙いすました弾丸が放たれた。
+message,,—Bang! Etia's muzzle didn't waver in the slightest as she fired a<br>carefully aimed bullet.<br> 
 
-message,エティア,……,,vc_10120100003_039_01
+message,エティア,...<br> ,,vc_10120100003_039_01
 
-message,<user>,…………
+message,<user>,...<br> 
 
 window,off
 wait,0.15
@@ -1276,7 +1276,7 @@ asyncshake,CHARA,chara_2,20,15,0.5,6,on,off,0,off,CONT,0
 
 
 window,on,0.15
-message,モンスター,グオオ……ォォォ……ッ！！！,402001000,,chara_2
+message,モンスター,GUOO... OOO...!<br> ,402001000,,chara_2
 
 
 window,off
@@ -1308,7 +1308,7 @@ wait,0.5
 bgmplay,bgmtag1_2,bgm0038,0.75,1
 
 window,on,0.15
-message,<user>,……１発で急所を貫通、か。<br>はあ……なんとか助かったな……
+message,<user>,...A single shot through the vitals，huh. *sigh*... we made it...<br> 
 
 
 window,off
@@ -1336,9 +1336,9 @@ asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,エティア,あ……当たったん、ですね。<br>ちゃんとわたしが当てたんだ……。,,vc_10120100003_040_01,chara_1
+message,エティア,Ah... it hit. I actually hit it myself...<br> ,,vc_10120100003_040_01,chara_1
 
-message,<user>,よく当ててくれたよ。<br>やっぱりいい腕だ、エティア。
+message,<user>,Nice shot. You really do have good aim，Etia.<br> 
 
 
 window,off
@@ -1397,16 +1397,16 @@ asyncjump,CHARA,chara_4,30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,狩猟隊の女猟師,こっちにもモンスターが来てたのっ！？<br>司令官、エティアっ！　無事っ！？,401601000,vc_10120100003_041_01,chara_4
+message,狩猟隊の女猟師,There were monsters over here too! Commander，Etia! Are you two okay?<br> ,401601000,vc_10120100003_041_01,chara_4
 
-message,<user>,大丈夫だ、エティアがきっちり狩ってくれたよ。
+message,<user>,We're fine. Etia took it down cleanly.<br> 
 
 asynccharaface,chara_3,FaceHappy,CONT,0
 
 asyncjump,CHARA,chara_3,30,0.25,1,off,0,CONT
 
 
-message,狩猟隊の男猟師,こいつは大物だな……。<br>流石、やるじゃねえか、エティア！,401501000,,chara_3
+message,狩猟隊の男猟師,This is a big one... As expected，you're not bad，Etia!<br> ,401501000,,chara_3
 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
@@ -1418,7 +1418,7 @@ asyncseplay,setag1_29,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,エティア,はい、はいっ！　やった、やりました！<br>わたしにもできました、司令官っ！,,vc_10120100003_042_01,chara_1
+message,エティア,Yes，yes! I did it，I actually did it! Even I could do it，Commander!<br> ,,vc_10120100003_042_01,chara_1
 
 window,off
 wait,0.15
@@ -1461,7 +1461,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,ああ、見事な射撃だったぞ。<br>……どうだ、これでもまだ自信が持てないか？
+message,<user>,Yeah，that was an impressive shot... So? Still can't have confidence<br>after that?<br> 
 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
@@ -1473,7 +1473,7 @@ asyncseplay,setag1_30,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,エティア,え……うぅ、それは……。<br>司令官を信じて夢中で撃っただけで、自信なんて、全然……,,vc_10120100003_043_01,chara_1
+message,エティア,Huh... u-um，well... I just fired in a daze，trusting the Commander，so<br>I don't have any confidence at all...<br> ,,vc_10120100003_043_01,chara_1
 
 
 asynccharaface,chara_1,FaceFun,CONT,0
@@ -1481,13 +1481,13 @@ asynccharaface,chara_1,FaceFun,CONT,0
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,エティア,でも……それでもいいって思って撃ちました。<br>司令官を信じて、精一杯やればいいんじゃないかなって……,,vc_10120100003_044_01,chara_1
+message,エティア,But... I thought that would be okay，and I fired. I figured if I<br>trusted the Commander and did my best，that would be enough...<br> ,,vc_10120100003_044_01,chara_1
 
-message,<user>,ははは、よくわかってるじゃないか、エティア。
+message,<user>,Hahaha，you really get it，don't you，Etia?<br> 
 
-message,<user>,自信や余裕、頼りがいなんてのは、<br>たくさんの経験を積んでゆっくり身につけていくものだ。
+message,<user>,Confidence，composure，reliability—those are things you build slowly<br>through lots of experience.<br> 
 
-message,<user>,今は俺の自信を借りておけ。<br>なんせ他人に押し付けても余るぐらいに持ってるからな。
+message,<user>,For now，just borrow my confidence. I've got more than enough to<br>spare，after all.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1498,7 +1498,7 @@ asyncseplay,setag1_31,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,エティア,はい、ありがとうございますっ！<br>これからは司令官を信じて戦います！,,vc_10120100003_045_01,chara_1
+message,エティア,Yes，thank you so much! From now on，I'll trust the Commander and<br>fight!<br> ,,vc_10120100003_045_01,chara_1
 
 window,off
 wait,0.15
@@ -1555,7 +1555,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,……だとさ。悪いなお前たち、こいつはもらっていくぞ。<br>俺を信じて戦うっていうんだから仕方ないよな？
+message,<user>,...You heard her. Sorry，guys，but I'm taking her. She says she'll<br>trust me and fight，so I've got no choice，right?<br> 
 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
@@ -1567,7 +1567,7 @@ asyncseplay,setag1_32,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,エティア,え……わたしが、司令官の部下に……？<br>いいんですかっ！？,,vc_10120100003_046_01,chara_1
+message,エティア,Eh... me，become the Commander's subordinate...? Is it really okay?<br> ,,vc_10120100003_046_01,chara_1
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -1578,7 +1578,7 @@ asyncseplay,setag1_33,se4800006,0,1,CONT,0
 asynccharaemo,chara_3,Trouble,CONT,0
 
 
-message,狩猟隊の男猟師,はー、モンスターは狩り終わったってのに、<br>うちのエティアが司令官に捕まっちまったか。,401501000,,chara_3
+message,狩猟隊の男猟師,Hah，monsters are all dealt with，and now our Etia's been caught by<br>the Commander.<br> ,401501000,,chara_3
 
 asyncjump,CHARA,chara_4,-30,0.5,2,off,0,CONT
 
@@ -1587,7 +1587,7 @@ asyncseplay,setag1_34,se4800001,0,1,CONT,0
 asynccharaemo,chara_4,Anger,CONT,0
 
 
-message,狩猟隊の女猟師,これからが楽しみな子だったのにねえ。<br>たとえ司令官でも、エティアを泣かせたら承知しないよ！？,401601000,vc_10120100003_047_01,chara_4
+message,狩猟隊の女猟師,She was such a promising girl，too. Even if you're the Commander，if<br>you make her cry，I won't forgive you!<br> ,401601000,vc_10120100003_047_01,chara_4
 
 
 asynccharaface,chara_1,FaceSad,CONT,0
@@ -1599,14 +1599,14 @@ asyncseplay,setag1_35,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,エティア,み、みんな……！？<br>司令官に失礼なこと言っちゃダメですよ……！,,vc_10120100003_048_01,chara_1
+message,エティア,E-everyone...! You can't say rude things to the Commander...!<br> ,,vc_10120100003_048_01,chara_1
 
 asynccharaface,chara_4,FaceHappy,CONT,0
 
 asyncjump,CHARA,chara_4,30,0.25,1,off,0,CONT
 
 
-message,狩猟隊の女猟師,ちょっと、さっそく泣かせてるじゃないの。<br>これじゃエティアは渡せないわねえ？,401601000,vc_10120100003_049_01,chara_4
+message,狩猟隊の女猟師,Hey，you're already making her cry. At this rate，we can't hand Etia<br>over，can we?<br> ,401601000,vc_10120100003_049_01,chara_4
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1615,11 +1615,11 @@ asyncseplay,setag1_36,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,エティア,こ、これは違うんです！<br>みんなにそう言ってもらえたのがうれしくて、だから……っ！,,vc_10120100003_050_01,chara_1
+message,エティア,Th-this is different! I'm just so happy that everyone said<br>that，so...!<br> ,,vc_10120100003_050_01,chara_1
 
-message,<user>,安心しろ、こちらの手が空いたら狩猟隊にも参加させてやる。<br>俺を信じてついてこい。
+message,<user>,Don't worry. Once I have some free time，I'll let you join the<br>hunting party too. Trust me and follow my lead.<br> 
 
-message,<user>,頼りにしているぞ、エティア。
+message,<user>,I'm counting on you，Etia.<br> 
 
 
 window,off
@@ -1670,9 +1670,9 @@ asynccharaemo,chara_1,Heart,CONT,0
 
 
 window,on,0.15
-message,エティア,はい！　ご主人様！,,vc_10120100003_051_01,chara_1
+message,エティア,Yes! Master!<br> ,,vc_10120100003_051_01,chara_1
 
-message,<user>,……は？
+message,<user>,...Huh?<br> 
 
 window,off
 wait,0.15
@@ -1735,7 +1735,7 @@ asynccharaemo,chara_3,Anger,CONT,0
 
 
 window,on,0.15
-message,狩猟隊の男猟師,おい、今なんて言った？<br>ご主人様だあ？,401501000,,chara_3
+message,狩猟隊の男猟師,Hey，what did you just say? 'Master'?<br> ,401501000,,chara_3
 
 asynccharaface,chara_4,FaceAnger,CONT,0
 
@@ -1746,9 +1746,9 @@ asyncseplay,setag1_39,se4800001,0,1,CONT,0
 asynccharaemo,chara_4,Anger,CONT,0
 
 
-message,狩猟隊の女猟師,まさか無理やり呼ばせてるんじゃないでしょうね？<br>この変態司令官っ！！！,401601000,vc_10120100003_052_01,chara_4
+message,狩猟隊の女猟師,You're not making her call you that by force，are you? You pervert<br>Commander!<br> ,401601000,vc_10120100003_052_01,chara_4
 
-message,<user>,違う！　俺はやめろと言ったんだ！<br>俺の趣味じゃない！　信じてくれ！
+message,<user>,No! I told her to stop! That's not my thing! Believe me!<br> 
 
 
 window,off
@@ -1799,9 +1799,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,エティア,ご、ごめんなさいぃ……！,,vc_10120100003_053_01,chara_1
+message,エティア,I-I'm so sorry...!<br> ,,vc_10120100003_053_01,chara_1
 
-message,<user>,泣いてないで説明しろエティア！<br>今こそ自信を持てっ！
+message,<user>,Don't just cry，explain，Etia! Now's the time to have confidence!<br> 
 
 asyncshake,CHARA,chara_1,20,15,0.5,6,on,off,0,off,CONT,0
 
@@ -1810,7 +1810,7 @@ asyncseplay,setag1_41,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,エティア,わたしに自信なんてないです！<br>ダメダメなんですーっ！,,vc_10120100003_054_01,chara_1
+message,エティア,I don't have any confidence! I'm hopeless!<br> ,,vc_10120100003_054_01,chara_1
 
 window,off
 bgmstop,bgmtag1_2,0.5

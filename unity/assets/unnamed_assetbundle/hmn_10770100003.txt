@@ -23,9 +23,9 @@ wait,1
 bgmplay,bgmtag1_1,bgm0028,0.75,1
 
 window,on,0.15
-message,ミミック,ギッ、ギッ、ギッ――！,402001000
+message,ミミック,Gik，gik，gik—!<br> ,402001000
 
-message,,ミミックは、獲物を探して周辺をゆっくりと徘徊している。<br>その動きは単調だったが、油断ならない雰囲気を漂わせていた。
+message,,The Mimic prowled slowly，searching for prey. Its monotonous<br>movements were deceptively dangerous.<br> 
 
 window,off
 wait,0.15
@@ -54,9 +54,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,メリッサ,ヘイヘ～イ、そこのミミック！<br>ワタシたちをお探しかな？,107701000G,vc_10770100003_001_01,chara_1
+message,メリッサ,Hey heeey，Mimic! Looking for us?<br> ,107701000G,vc_10770100003_001_01,chara_1
 
-message,ミミック,ギッ？　ギィ～～～……！,402001000
+message,ミミック,Greeh...!<br> ,402001000
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -67,11 +67,11 @@ asyncseplay,setag1_2,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,メリッサ,どうやら、縄張りを荒らされて機嫌が悪いみたいだね。<br>でも、そんなノロマな動きで、ワタシを捕まえられるかな～？,107701000G,vc_10770100003_002_01,chara_1
+message,メリッサ,Looks like you're upset we trampled your territory. But with moves<br>that slow，think you can catch me?<br> ,107701000G,vc_10770100003_002_01,chara_1
 
 asyncseplay,setag1_3,se5050044,0,1,CONT,0
 
-message,ミミック,ギィ……ギギィィィィ！,402001000
+message,ミミック,Greeh... GIGIIIIH!<br> ,402001000
 
 window,off
 wait,0.15
@@ -102,7 +102,7 @@ asyncwait
 
 
 window,on,0.15
-message,メリッサ,おっと！,107701000G,vc_10770100003_003_01,chara_1
+message,メリッサ,Whoops!<br> ,107701000G,vc_10770100003_003_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -113,11 +113,11 @@ asyncseplay,setag1_5,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,メリッサ,へっへ～ん、残念でした～！<br>そう簡単には当たらないよっ！,107701000G,vc_10770100003_004_01,chara_1
+message,メリッサ,Heh heh heh，too bad! You won't hit me that easily!<br> ,107701000G,vc_10770100003_004_01,chara_1
 
 asyncseplay,setag1_6,se5050044,0,1,CONT,0
 
-message,ミミック,ギィィィ……！,402001000
+message,ミミック,Greeeeh...!<br> ,402001000
 
 window,off
 wait,0.15
@@ -162,7 +162,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,メリッサ,しめしめ、挑発に乗ったみたいだね。<br>ワタシが攻撃を避け続けて時間を稼いでいる間に……頼むよ、相棒――！,107701000G,vc_10770100003_005_01,chara_1
+message,メリッサ,Gotcha! He took the bait. I'll keep dodging to buy us time... Your<br>turn，partner!<br> ,107701000G,vc_10770100003_005_01,chara_1
 
 
 window,off
@@ -198,11 +198,11 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（……よし、メリッサのほうは大丈夫そうだな。あいつがミミックを<br>引きつけてくれている間に、条件が合う場所を探さなきゃな……！）
+message,<user>,(...Alright，Melissa's fine. While she distracts it，I need to find<br>the right spot...!)<br> 
 
-message,<user>,（あのミミックは凶暴な上に猛毒を持っていて危険だ。<br>だが……何も馬鹿正直に真っ向から挑む必要はない）
+message,<user>,(That Mimic is vicious and venomous—no joke. But... there's no need<br>to take it head-on like an idiot.)<br> 
 
-message,<user>,（どこだ……ミミックを撃退する条件がそろった地形は……！<br>……ん？　ここは――）
+message,<user>,(Where is it... the terrain to drive the Mimic off...! ...Hm? This<br>place is—)<br> 
 
 
 window,off
@@ -240,7 +240,7 @@ waitorclick,2.5
 asyncseplay,setag1_8,se5050044,0,1,CONT,0
 
 window,on,0.15
-message,ミミック,ギギィィィィィイッ！,402001000
+message,ミミック,Greeh!<br> ,402001000
 
 window,off
 wait,0.15
@@ -271,7 +271,7 @@ asyncwait
 
 
 window,on,0.15
-message,メリッサ,おぉっと！　また外れだよ！<br>そんなんじゃいつまで経っても、ワタシは捕まえられないよ！,107701000G,vc_10770100003_006_01,chara_1
+message,メリッサ,Ooh-oh! Missed again! At this rate，you'll never catch me!<br> ,107701000G,vc_10770100003_006_01,chara_1
 
 window,off
 wait,0.15
@@ -320,7 +320,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,メリッサ,（……なんて挑発してみたけど、だんだんしんどくなってきたな……。<br>……大丈夫だよね？）,107701000G,vc_10770100003_007_01,chara_1
+message,メリッサ,(...I tried provoking it，but it's getting rough... I'll be<br>fine，right?)<br> ,107701000G,vc_10770100003_007_01,chara_1
 
 window,off
 wait,0.15
@@ -362,7 +362,7 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 window,on,0.15
-message,<user>,――メリッサ！　待たせてすまん！　こっちだ！
+message,<user>,Melissa! Sorry for the wait! Over here!<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -373,9 +373,9 @@ asyncseplay,setag1_11,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,メリッサ,あはっ！　もぉ～、遅いよー。<br>危うくワタシひとりで倒しちゃうところだったよ。,107701000G,vc_10770100003_008_01,chara_1
+message,メリッサ,Ahah! Geez，you're late! I almost had to take it down myself!<br> ,107701000G,vc_10770100003_008_01,chara_1
 
-message,<user>,それだけ軽口が叩けるんなら問題ないな！
+message,<user>,If you can still crack jokes like that，you're fine!<br> 
 
 window,off
 wait,0.15
@@ -399,7 +399,7 @@ asyncwait
 asyncjump,CHARA,chara_1,40,0.5,2,off,0.5,STOP
 
 window,on,0.15
-message,,先導する<user>に続き、<br>メリッサはつかず離れずの距離を保ちながらミミックを誘導する。
+message,,Melissa followed the Commander's lead，keeping a careful distance<br>while luring the Mimic.<br> 
 
 window,off
 wait,0.15
@@ -417,7 +417,7 @@ asyncwait
 asyncseplay,setag1_12,se5050044,0,1,CONT,0
 
 window,on,0.15
-message,ミミック,ギィ！　ギギィィィッ！,402001000
+message,ミミック,Grah! Greeegh!<br> ,402001000
 
 window,off
 wait,0.15
@@ -452,9 +452,9 @@ waitorclick,1
 
 
 window,on,0.15
-message,メリッサ,よっぽどお腹がすいてるみたいだね～。<br>でも、そう簡単に食べられるわけにはいかないんだよね～！,107701000G,vc_10770100003_009_01,chara_1
+message,メリッサ,Looks like you're really hungry! But I can't let you eat me that<br>easily!<br> ,107701000G,vc_10770100003_009_01,chara_1
 
-message,<user>,そこだ、メリッサ！　その崖際に誘導しろ！
+message,<user>,There，Melissa! Lure it to the edge of that cliff!<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -465,9 +465,9 @@ asyncseplay,setag1_13,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,メリッサ,了解！　あとはワタシに任せて、キミは下がってて！,107701000G,vc_10770100003_010_01,chara_1
+message,メリッサ,Got it! Leave the rest to me，you stay back!<br> ,107701000G,vc_10770100003_010_01,chara_1
 
-message,<user>,悪いが、そうさせてもらう！　――頼んだ！
+message,<user>,Sorry to leave it to you，but I'm counting on you!<br> 
 
 window,off
 wait,0.15
@@ -513,7 +513,7 @@ asynccharamove,chara_1,EaseOut,X,100,0.3,CONT,0
 asyncwait
 
 window,on,0.15
-message,,<user>が岩陰に飛び込む。<br>ミミックがそちらに注意を向けないよう、メリッサは大声をあげて挑発する。
+message,,%user% dove behind a rock. To keep the Mimic from looking his<br>way，Melissa shouted to provoke it.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -524,11 +524,11 @@ asyncseplay,setag1_14,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,メリッサ,こっちだよ！<br>ほらほら、鬼さんこちら♪　手の鳴るほうへ～～♪,107701000G,vc_10770100003_011_01,chara_1
+message,メリッサ,Over here! Come on，come on，Mr. Demon，this way!♪ Follow the sound of<br>my clapping!♪<br> ,107701000G,vc_10770100003_011_01,chara_1
 
 asyncseplay,setag1_15,se5050044,0,1,CONT,0
 
-message,ミミック,ギギィィィィィイイイイイッ！,402001000
+message,ミミック,Greeeeeh!<br> ,402001000
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -539,7 +539,7 @@ asyncseplay,setag1_16,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,メリッサ,大きな口を開けちゃって……そんなにお腹が減った？<br>それなら……たっぷりごちそうしてあげるよ！　それぇっ！,107701000G,vc_10770100003_012_01,chara_1
+message,メリッサ,With your mouth wide open... Are you that hungry? If so... I'll give<br>you a feast! Take this!<br> ,107701000G,vc_10770100003_012_01,chara_1
 
 window,off
 wait,0.15
@@ -549,9 +549,9 @@ charafocusonall
 asyncjump,CHARA,chara_1,60,0.4,2,off,0,CONT
 
 window,on,0.15
-message,,メリッサは背負っていたリュックの口を開けると……<br>襲いかかってきたミミックの口の中に、集めた財宝を次々と放り込む。
+message,,Melissa opened the flap of her backpack... and tossed her treasures<br>one after another into the charging Mimic's mouth.<br> 
 
-message,ミミック,ギギィィ……！？,402001000
+message,ミミック,Greeh...!<br> ,402001000
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -562,7 +562,7 @@ asyncseplay,setag1_17,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,メリッサ,どう？　ワタシの集めた金銀財宝の味は！　重すぎて胃もたれしちゃうかな？<br>こちらはおかげで今日の儲けがパーだよ！,107701000G,vc_10770100003_013_01,chara_1
+message,メリッサ,How is it? How does my gold and silver taste? Giving you<br>indigestion? Thanks to you，today's profits are down the drain!<br> ,107701000G,vc_10770100003_013_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -573,9 +573,9 @@ asyncseplay,setag1_18,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,メリッサ,あはははっ！　もうやけくそだ！<br>お腹いっぱいになるまで食べちゃえ！,107701000G,vc_10770100003_014_01,chara_1
+message,メリッサ,Ahahaha! I'm totally reckless now! Eat until you're full!<br> ,107701000G,vc_10770100003_014_01,chara_1
 
-message,<user>,よしっ！　動きが鈍ったぞ！<br>メリッサ、今がチャンスだ！！
+message,<user>,Yes! It's slowing down! Melissa，now's the chance!<br> 
 
 window,off
 wait,0.15
@@ -620,7 +620,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,メリッサ,はいよ！　喜べ、ミミック！<br>本日のフルコースだぁ！,107701000G,vc_10770100003_015_01,chara_1
+message,メリッサ,Here you go! Rejoice，Mimic! Today's full course meal!<br> ,107701000G,vc_10770100003_015_01,chara_1
 
 window,off
 wait,0.15
@@ -634,7 +634,7 @@ asynccharamove,chara_1,Linear,Y,100,1,CONT,0
 asyncwait
 
 window,on,0.15
-message,,跳び上がったメリッサが、ピッケルを高く掲げる。
+message,,Melissa leapt up，raising her pickaxe high.<br> 
 
 window,off
 wait,0.15
@@ -647,7 +647,7 @@ asynccharaface,chara_1,FaceHappy,CONT,0
 
 
 window,on,0.15
-message,メリッサ,これがデザートだよ！　たーんと、召し上がれ～～～～！,107701000G,vc_10770100003_016_01,chara_1
+message,メリッサ,This is dessert! Eat up，enjoy!<br> ,107701000G,vc_10770100003_016_01,chara_1
 
 window,off
 wait,0.15
@@ -668,9 +668,9 @@ asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,,ガギィィン――！
+message,,*clang!*<br> 
 
-message,,破城槌が頑強な城門を打ったかのような音を響かせ、<br>ピッケルがミミックを真上から殴りつける！
+message,,With a sound like a battering ram striking a sturdy castle gate，the<br>pickaxe slammed down onto the Mimic from above!<br> 
 
 window,off
 wait,0.15
@@ -713,7 +713,7 @@ bgmstop,bgmtag1_1,1.5,0
 asyncseplay,setag1_21,se5050044,0,1,CONT,0
 
 window,on,0.15
-message,ミミック,ギギィィイ……ッ！？,402001000
+message,ミミック,Greeh...!<br> ,402001000
 
 window,off
 wait,0.15
@@ -726,9 +726,9 @@ asyncshake,BACK,,12,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_1,12,0,0.6,5,off,off,0,on,CONT,0
 
 window,on,0.15
-message,,飲み込んだ財宝の重さとピッケルによる叩きつけが、<br>ミミックを地面に半ばめり込ませる。その直後――地面にひび割れが走った！
+message,,The swallowed treasure's weight and the pickaxe's force drove the<br>Mimic halfway into the ground. Then cracks raced across the ground!<br> 
 
-message,<user>,よしっ！　狙い通り、崖が崩れるぞ！
+message,<user>,Yes! Just as planned，the cliff's coming down!<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -739,7 +739,7 @@ asyncseplay,setag1_22,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,メリッサ,うわっ！？　おっとっとっと……！？,107701000G,vc_10770100003_017_01,chara_1
+message,メリッサ,Whoa! Whoa，whoa，whoa...!<br> ,107701000G,vc_10770100003_017_01,chara_1
 
 window,off
 wait,0.15
@@ -754,7 +754,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（まずい……！　このままだとメリッサまで崖の下に！）
+message,<user>,(Shit...! At this rate，Melissa will fall too!)<br> 
 
 window,off
 wait,0.15
@@ -769,7 +769,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,メリッサーーー！！<br>手を伸ばせ！！
+message,<user>,Melissa! Reach out your hand!<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -780,7 +780,7 @@ asyncseplay,setag1_23,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,メリッサ,……っ、うん！,107701000G,vc_10770100003_018_01,chara_1
+message,メリッサ,... Yeah!<br> ,107701000G,vc_10770100003_018_01,chara_1
 
 window,off
 wait,0.15
@@ -816,7 +816,7 @@ asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 asyncseplay,setag1_24,se4400119,0,1,CONT,0
 
 window,on,0.15
-message,,間一髪、伸ばされたメリッサの手が<user>の手に届く。<br>掴んだ手を引き寄せ、メリッサを抱きとめる。
+message,,In the nick of time，Melissa's outstretched hand reached %user%'s. He<br>pulled her closer and caught her in his arms.<br> 
 
 window,off
 wait,0.15
@@ -847,9 +847,9 @@ waitorclick,0.8
 asyncseplay,setag1_25,se5050044,0,1,CONT,0
 
 window,on,0.15
-message,ミミック,ギィィィ～～～～～……！,402001000
+message,ミミック,Greeeeeeh...!<br> ,402001000
 
-message,,遥か下層へと転落していくミミックの断末魔が、<br>大穴の暗闇に長く響き渡る。
+message,,The death throes of the Mimic，plummeting to the depths below，echoed<br>long into the darkness of the Abyss.<br> 
 
 window,off
 wait,0.15
@@ -873,7 +873,7 @@ sestop,se1_1001,1.5
 shakeallstop
 
 window,on,0.15
-message,,その音が完全に途絶えるまで、<br>２人は安堵と疲労に任せて地面に転がったままだった。
+message,,Until the sound faded completely，the two lay sprawled on the<br>ground，overcome with relief and exhaustion.<br> 
 
 window,off
 wait,0.15
@@ -915,9 +915,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,メリッサ,は……ははっ、やった……！<br>やったね、ワタシたち！,107701000G,vc_10770100003_019_01,chara_1
+message,メリッサ,Ha... haha，we did it...! We actually did it!<br> ,107701000G,vc_10770100003_019_01,chara_1
 
-message,<user>,ああ……危なかったが、なんとかやりとげたな。<br>……といっても、お前の戦利品を手放させてしまったが。
+message,<user>,Yeah... that was close，but we pulled through. ...Though I did make<br>you give up your loot.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -928,9 +928,9 @@ asyncseplay,setag1_27,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,メリッサ,あ～……まあ、それは正直がっかりだけどねー……。<br>はぁ……今日一日分の儲けがパーだよ……とほほ。,107701000G,vc_10770100003_020_01,chara_1
+message,メリッサ,Aww... well，honestly，that's a bummer... *sigh*... today's profits<br>are down the drain... boohoo.<br> ,107701000G,vc_10770100003_020_01,chara_1
 
-message,<user>,すまないな。だが、おかげで助かった。<br>今日の損害を埋め合わせは、きっとするよ。
+message,<user>,I'm sorry. But thanks to you，we made it. I'll make sure to<br>compensate you for today's losses.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -941,9 +941,9 @@ asyncseplay,setag1_28,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,メリッサ,それって……また一緒に宝探し、してくれるってこと！？,107701000G,vc_10770100003_021_01,chara_1
+message,メリッサ,Does that mean... you'll go treasure hunting with me again!?<br> ,107701000G,vc_10770100003_021_01,chara_1
 
-message,<user>,まぁ……そうだな。俺でよければ手伝うよ。
+message,<user>,Well... yeah. If you don't mind me helping out.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -954,7 +954,7 @@ asyncseplay,setag1_29,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,メリッサ,うんっ！　それじゃあ問題なしだね！<br>確かに、集めた財宝は失くしちゃったけど……,107701000G,vc_10770100003_022_01,chara_1
+message,メリッサ,Yeah! Then no problem! Sure，I lost the treasure I collected...<br> ,107701000G,vc_10770100003_022_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -965,9 +965,9 @@ asyncseplay,setag1_30,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,メリッサ,かわりに、キミっていう頼りになるパートナーができたことだしねっ！<br>にひひ～っ♪,107701000G,vc_10770100003_023_01,chara_1
+message,メリッサ,But instead，I got a reliable partner in you! Nihihi!♪<br> ,107701000G,vc_10770100003_023_01,chara_1
 
-message,<user>,宝探しのパートナーか……そういうことなら、大穴の調査と兼ねれば、<br>一石二鳥だな。
+message,<user>,A treasure-hunting partner，huh... In that case，I can combine it with<br>my survey of the Abyss. Kill two birds with one stone.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -978,9 +978,9 @@ asyncseplay,setag1_31,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,メリッサ,大穴の調査……！？<br>キミ、そんなことしてるの？　なんで？,107701000G,vc_10770100003_024_01,chara_1
+message,メリッサ,Survey of the Abyss...!? You're doing that? Why?<br> ,107701000G,vc_10770100003_024_01,chara_1
 
-message,<user>,ああ、今まで言ってなかったが、実はな――
+message,<user>,Yeah，I never mentioned it before，but actually—<br> 
 
 
 window,off
@@ -1012,9 +1012,9 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,メリッサ,えぇ～～～～～～！？<br>キミ、前線基地の司令官だったの～～～～！？,107701000G,vc_10770100003_025_01,chara_1
+message,メリッサ,Eeeeeh! You were the Commander of the Frontline Base!<br> ,107701000G,vc_10770100003_025_01,chara_1
 
-message,<user>,まあな。今日は私用で動いていたもんだから、<br>肩書きは伏せていたんだ。
+message,<user>,Well，yeah. I was out on personal business today，so I kept my title<br>under wraps.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1025,9 +1025,9 @@ asyncseplay,setag1_33,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,メリッサ,はぁ～～～。<br>人は見かけによらないね～。,107701000G,vc_10770100003_026_01,chara_1
+message,メリッサ,*pant*... People sure aren't what they seem，huh.<br> ,107701000G,vc_10770100003_026_01,chara_1
 
-message,<user>,はぁ！？<br>おい！　それはいったい、どういう意味だ？
+message,<user>,Huh! Hey，what's that supposed to mean?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1038,7 +1038,7 @@ asyncseplay,setag1_34,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,メリッサ,えへへっ、冗談冗談。さっきの冷静な状況判断を考えれば、<br>ウソじゃないってわかるよ。,107701000G,vc_10770100003_027_01,chara_1
+message,メリッサ,Ehehe，just kidding. Given how calmly you handled things back there，I<br>know it's true.<br> ,107701000G,vc_10770100003_027_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1049,9 +1049,9 @@ asyncseplay,setag1_35,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,メリッサ,でも……なんで司令官なんてえら～い人が、<br>危険な大穴を独りきりでウロウロしてたのさ？,107701000G,vc_10770100003_028_01,chara_1
+message,メリッサ,But still... why would a big shot like the Commander be wandering<br>the dangerous Abyss alone?<br> ,107701000G,vc_10770100003_028_01,chara_1
 
-message,<user>,それは、まあ……実は、目的の宝っていうのが、<br>基地の仲間とは探しづらい品でな。内密に見つけたかったんだ。
+message,<user>,Well，the thing is... the treasure I'm after is something I couldn't<br>search for with my base buddies. I wanted to find it discreetly.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1063,7 +1063,7 @@ asyncseplay,setag1_36,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,メリッサ,そうなの？　そういえば、宝箱に飛びついた時のキミ、<br>冷静じゃなかったよね。,107701000G,vc_10770100003_029_01,chara_1
+message,メリッサ,Oh really! Now that you mention it，you weren't exactly calm when you<br>dove for that chest.<br> ,107701000G,vc_10770100003_029_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1074,9 +1074,9 @@ asyncseplay,setag1_37,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,メリッサ,もしかして……そんなにすごいものなの？,107701000G,vc_10770100003_030_01,chara_1
+message,メリッサ,Could it be... is it really that amazing?<br> ,107701000G,vc_10770100003_030_01,chara_1
 
-message,<user>,まあな。……ここだけの話、異世界で作られた貴重な品だ。<br>この世界では、まだ再現することが不可能な一品と聞いている。
+message,<user>,Yeah... just between us，it's a valuable item from another world. I<br>hear it can't be reproduced in this world yet.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1087,9 +1087,9 @@ asyncseplay,setag1_38,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,メリッサ,異世界の財宝……！？　それ、ほんとなの！？<br>だとしたら、さっき失くした財宝なんて目じゃないくらいの値打ちものだよ！,107701000G,vc_10770100003_031_01,chara_1
+message,メリッサ,Treasure from another world! Is that for real? If so，it's worth way<br>more than the treasure I just lost!<br> ,107701000G,vc_10770100003_031_01,chara_1
 
-message,<user>,他ならない、あのルクスノヴァのメンバーからの情報だ。<br>間違いないだろう。
+message,<user>,The info came straight from those Lux Nova members. It's got to be<br>accurate.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1100,9 +1100,9 @@ asyncseplay,setag1_39,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,メリッサ,ごくり……！<br>それは、確かになんとしても見つけたいね……！,107701000G,vc_10770100003_032_01,chara_1
+message,メリッサ,*gulp*... Then we've definitely got to find that，no matter what!<br> ,107701000G,vc_10770100003_032_01,chara_1
 
-message,<user>,ああ、せっかくここまで来たんだ。<br>できれば見つけたいところだが……ん？
+message,<user>,Yeah，we've come all this way. I'd like to find it if I can... Huh!<br> 
 
 window,off
 wait,0.15
@@ -1128,7 +1128,7 @@ asynctransitionCrossFade,Tra02,0.5,STOP
 waitorclick,1
 
 window,on,0.15
-message,<user>,メリッサ……そこの横穴、見えるか？
+message,<user>,Melissa... do you see that side cavern over there?<br> 
 
 window,off
 wait,0.15
@@ -1157,9 +1157,9 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,メリッサ,あれ？　こんなところに横穴なんてあったかな……。<br>あ、さっきピッケルで崖を崩した時の衝撃で、岩壁が崩れて繋がったんだね。,107701000G,vc_10770100003_033_01,chara_1
+message,メリッサ,Huh! Was there a side cavern here? Ah，when I broke the cliff with my<br>pickaxe，the shock must have caved in the wall and opened a path.<br> ,107701000G,vc_10770100003_033_01,chara_1
 
-message,<user>,そんなことはいい！　崩れた石の中に、箱があるだろう！？<br>あれはルクスノヴァの連中に聞いてた特徴と一致する！
+message,<user>,Forget that! There's a chest in that rubble，right? That matches the<br>description those Lux Nova guys gave me!<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1170,9 +1170,9 @@ asyncseplay,setag1_41,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,メリッサ,え……！？　ということは、まさか……異世界の財宝！？,107701000G,vc_10770100003_034_01,chara_1
+message,メリッサ,Huh! That means... no way... the treasure from another world!<br> ,107701000G,vc_10770100003_034_01,chara_1
 
-message,<user>,ああ、そうに違いない！　諦めかけてたが、まさかこんな形で<br>見つかるなんてな！　メリッサ、お前のおかげだ！
+message,<user>,Yeah，it's gotta be! I was about to give up，but I never thought we'd<br>find it like this! Melissa，it's thanks to you!<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1183,9 +1183,9 @@ asyncseplay,setag1_42,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,メリッサ,いやぁ～、そこまで言われると照れちゃうなぁ～。気分がいいから、<br>特別にワタシの取り分は５割のところをおまけして、４割９分でいいよ～。,107701000G,vc_10770100003_035_01,chara_1
+message,メリッサ,Geez，you're making me blush talking like that. But since I'm in a<br>good mood，I'll make an exception and lower my share from 50% to 49%.<br> ,107701000G,vc_10770100003_035_01,chara_1
 
-message,<user>,とにかく中身だ！<br>衝撃で壊れてないといいんだが……掘り出すぞ！
+message,<user>,Anyway，let's see what's inside! I hope the impact didn't break it...<br>Let's dig it out!<br> 
 
 
 window,off
@@ -1221,11 +1221,11 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,メリッサ,いよいよだね……,107701000G,vc_10770100003_036_01,chara_1
+message,メリッサ,The moment of truth...<br> ,107701000G,vc_10770100003_036_01,chara_1
 
-message,<user>,ああ……それじゃあ、開けるぞ――！
+message,<user>,Yeah... I'm opening it now!<br> 
 
-message,,ついに、探し求めた箱の蓋が開き、異世界の財宝が露になる。<br>そこには――
+message,,At last，the lid of the long-sought box opened，revealing the treasure<br>from another world. And inside—<br> 
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -1238,17 +1238,17 @@ asyncseplay,setag1_44,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,メリッサ,……え？,107701000G,vc_10770100003_037_01,chara_1
+message,メリッサ,...Huh?<br> ,107701000G,vc_10770100003_037_01,chara_1
 
 bgmplay,bgmtag1_3,bgm0026,0.75,1
 
-message,<user>,おおぉ……！<br>これはまさしく、異世界の……エログッズ！
+message,<user>,Oooh...! This is unmistakably... erotic goods from another world!<br> 
 
-message,<user>,『ウスイホン』と呼ばれる伝説のポルノ本に、<br>いい夢を見られることが保証されるというマジックアイテム『ダキマクラ』！
+message,<user>,The legendary porn comic called the 'thin book'，and a magic item<br>called a 'body pillow' that guarantees you'll have sweet dreams!<br> 
 
-message,<user>,それに見てみろ、こんなに精密に裸の女性を偶像化した<br>『マカイゾーフィギュア』まで！
+message,<user>,And look at this! There's even a customized figurine that depicts a<br>naked woman with such precision!<br> 
 
-message,<user>,素晴らしい……どれも希少品ばかりだ。裏オークションでコレクターに売れば、<br>ひと財産が築ける……いや、だがやはり自分で堪能するのが先か……
+message,<user>,Amazing... all rare items. At an underground auction，I'd make a<br>fortune... but maybe I should enjoy them first...<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1259,11 +1259,11 @@ asyncseplay,setag1_45,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,メリッサ,……ねぇ、キミ。<br>これ……どういうこと？,107701000G,vc_10770100003_038_01,chara_1
+message,メリッサ,... Hey，you. What... is this supposed to be?<br> ,107701000G,vc_10770100003_038_01,chara_1
 
-message,<user>,うん？　どういうことも何も、ルクスノヴァのメンバーから聞いていた通り、<br>秘蔵のお宝だぞ。保存状態もいい。まさに至宝と呼ぶに相応しい。
+message,<user>,Hm? What do you mean? It's a secret treasure，just as the Lux Nova<br>members said. Pristine condition. A true masterpiece.<br> 
 
-message,<user>,ああ、心配するな。ちゃんと『ビーエル』とか言う女性向けのもあるぞ。<br>さあ、取り分を持っていくといい。
+message,<user>,Oh，don't worry. There's also stuff for women，like 'BL' and such. Go<br>ahead，take your share.<br> 
 
 window,off
 wait,0.15
@@ -1305,7 +1305,7 @@ asynccharaemo,chara_1,BePeevish,CONT,0
 
 
 window,on,0.15
-message,メリッサ,バカなの！？　キミもワタシも、こんなもののために、死にそうになったの！？<br>ワタシの財宝ちゃんたち、無駄死にじゃん！？,107701000G,vc_10770100003_039_01,chara_1
+message,メリッサ,Are you stupid! You and I almost died for this junk! My precious<br>treasure-babies died for nothing!<br> ,107701000G,vc_10770100003_039_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1316,7 +1316,7 @@ asyncseplay,setag1_48,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,メリッサ,返してよぉ！<br>ワタシの財宝ちゃんたちを返してよぉ～～～……！,107701000G,vc_10770100003_040_01,chara_1
+message,メリッサ,Give them back! Give me back my precious treasure-babies!<br> ,107701000G,vc_10770100003_040_01,chara_1
 
 window,off
 wait,0.15
@@ -1333,7 +1333,7 @@ asyncshake,BACK,,12,0,0.6,7,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_1,12,0,0.6,7,off,off,0,on,CONT,0
 
 window,on,0.15
-message,<user>,お、落ち着け、メリッサ……！<br>締まってる、首、締まってるから……ぐっ！
+message,<user>,C-calm down，Melissa...! My neck，it's too tight... ghk!<br> 
 
 window,off
 wait,0.15
@@ -1365,7 +1365,7 @@ asynctransitionFade,Tra14,in,black,0,STOP,0
 waitorclick,0.5
 
 window,on,0.15
-message,,財宝とは、かくも人を狂わせるものか――<br>そんなことを思いながら、<user>は意識を手放すのだった。
+message,,Could treasure really drive people this mad? Pondering that，%user%<br>lost consciousness.<br> 
 
 window,off
 bgmstop,bgmtag1_3,0.5

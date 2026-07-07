@@ -42,9 +42,9 @@ asynccharaface,chara_2,FaceNormal,CONT,0
 asynccharashowalpha,chara_2,1,0.3,CONT,0
 
 window,on,0.15
-message,<user>,悪いな。毎回毎回、大穴で見つかった武器を買い取りに<br>前線基地まで来てもらって。
+message,<user>,Sorry to have you come all the way to the Frontline Base every time<br>to buy the weapons we find in the Abyss.<br> 
 
-message,<user>,この辺りは治安も悪いから、大変だろ？
+message,<user>,It's not exactly safe around here，so it must be tough，right?<br> 
 
 
 asynccharaface,chara_2,FaceHappy,CONT,0
@@ -56,7 +56,7 @@ asyncseplay,setag1_1,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,商人,いえいえ。危険を冒すだけの価値のあるお宝と巡り合えますから。<br>毎度ご贔屓にしていただきありがとうございます。,400301000,,chara_2
+message,商人,Not at all. I come across treasures worth the risk. Thank you as<br>always for your business.<br> ,400301000,,chara_2
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -68,13 +68,13 @@ asyncseplay,setag1_2,se4800003,0,1,CONT,0
 asynccharaemo,chara_2,Twinkle,CONT,0
 
 
-message,商人,して、今回の買取商品はどちらに？,400301000,,chara_2
+message,商人,So，where are the goods for purchase this time?<br> ,400301000,,chara_2
 
-message,<user>,ああ、あそこに置いてある箱の中に入っている。
+message,<user>,Ah，they're in that box over there.<br> 
 
-message,<user>,綺麗なものもあるが、折れたり曲がったりしちまってるものも多い。<br>正直、玉石混合だ。
+message,<user>,There are some nice pieces，but many are broken or bent.<br>Honestly，it's a mixed bag.<br> 
 
-message,<user>,どれぐらいの価値があるか、確認してみてくれ。
+message,<user>,Take a look and see how much they're worth.<br> 
 
 asyncjump,CHARA,chara_2,-30.6,0.5,1,off,0,CONT
 
@@ -83,7 +83,7 @@ asyncseplay,setag1_3,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,商人,わかりました。<br>ではエルミア、頼んだよ。,400301000,,chara_2
+message,商人,Got it. Alright，Elmia，I'm counting on you.<br> ,400301000,,chara_2
 
 
 window,off
@@ -144,7 +144,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,エルミア,承知した、社長。,104601000G,vc_10460100001_001_01,chara_1
+message,エルミア,Understood，boss.<br> ,104601000G,vc_10460100001_001_01,chara_1
 
 window,off
 wait,0.15
@@ -162,7 +162,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,ん……？　彼女は、前回まではいなかったな。<br>新人か？
+message,<user>,Hm...? She wasn't here last time. New recruit?<br> 
 
 window,off
 wait,0.15
@@ -203,9 +203,9 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,商人,ええ。<br>つい先日、私が勤める貿易商社で雇った用心棒ですよ。,400301000,,chara_2
+message,商人,Yes. She's a bodyguard we hired just the other day at the trading<br>company I work for.<br> ,400301000,,chara_2
 
-message,<user>,ほう。貴重品の運搬は危険な旅だ。<br>そうとう腕の立つ用心棒を雇ったんだろうな。
+message,<user>,Oh. Transporting valuables is dangerous work. You must have hired a<br>pretty capable bodyguard.<br> 
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -216,9 +216,9 @@ asyncseplay,setag1_6,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,商人,もちろん。かなりの凄腕です。<br>それと便利な特技を持っておりまして……,400301000,,chara_2
+message,商人,Of course. She's extremely skilled. And she has a useful special<br>skill...<br> ,400301000,,chara_2
 
-message,<user>,特技？
+message,<user>,Special skill?<br> 
 
 window,off
 wait,0.15
@@ -259,7 +259,7 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,エルミア,この弓は……意匠だけ凝っているが大した価値はなかろう。,104601000G,vc_10460100001_002_01,chara_1
+message,エルミア,This bow... it's elaborately designed，but probably not worth much.<br> ,104601000G,vc_10460100001_002_01,chara_1
 
 window,off
 wait,0.15
@@ -278,7 +278,7 @@ wait,0.5
 
 
 window,on,0.15
-message,エルミア,こちらの槍は……少々欠けているが、価値としては申し分ない。<br>研ぎなおせば、実戦でも使用できるようになるはず。,104601000G,vc_10460100001_003_01,chara_1
+message,エルミア,This spear... it's slightly chipped，but its value is fine. If you<br>sharpen it，it should be usable in actual combat.<br> ,104601000G,vc_10460100001_003_01,chara_1
 
 window,off
 wait,0.15
@@ -297,9 +297,9 @@ wait,0.5
 
 
 window,on,0.15
-message,エルミア,この杖は……かなりの値打ちものだ。<br>大穴ではこんなものも手に入れられるのか……,104601000G,vc_10460100001_004_01,chara_1
+message,エルミア,This staff... it's quite valuable. So you can get things like this<br>from the Abyss...<br> ,104601000G,vc_10460100001_004_01,chara_1
 
-message,<user>,へえ……こいつは驚いた！
+message,<user>,Wow... that's amazing!<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -310,7 +310,7 @@ asyncseplay,setag1_10,se4800022,0,1,CONT,0
 
 asynccharaemo,chara_1,Speak,CONT,0
 
-message,<user>,エルミア……だったか。<br>お前、武器の鑑定ができるのか。
+message,<user>,Elmia，right? You can appraise weapons?<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -319,9 +319,9 @@ asyncseplay,setag1_11,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,エルミア,ああ。武器には昔から縁があったからね。,104601000G,vc_10460100001_005_01,chara_1
+message,エルミア,Yeah. I've always been involved with weapons.<br> ,104601000G,vc_10460100001_005_01,chara_1
 
-message,<user>,ほう。おもしろそうな話だな。<br>聞かせてくれよ。
+message,<user>,Oh? That sounds interesting. Go ahead，tell me.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -332,7 +332,7 @@ asyncseplay,setag1_12,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,エルミア,かまわないが……申し訳ないが、まったく面白くはないぞ。,104601000G,vc_10460100001_006_01,chara_1
+message,エルミア,I do not mind，but... sorry，it is not interesting at all.<br> ,104601000G,vc_10460100001_006_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -344,7 +344,7 @@ asyncseplay,setag1_13,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,エルミア,私はエルドラーナ出身で、元々はそこで倉庫番をしていたんだ。,104601000G,vc_10460100001_007_01,chara_1
+message,エルミア,I'm from Eldorana. I used to work there as a warehouse keeper.<br> ,104601000G,vc_10460100001_007_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -355,7 +355,7 @@ asyncseplay,setag1_14,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,エルミア,倉庫番とはいっても、平和な街だったからあまり<br>やることがなくてな。,104601000G,vc_10460100001_008_01,chara_1
+message,エルミア,Even though I was a warehouse keeper，it was a peaceful town，so there<br>wasn't much to do.<br> ,104601000G,vc_10460100001_008_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -367,7 +367,7 @@ asyncseplay,setag1_15,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,エルミア,空いた時間に荷物整理なんかを手伝っているうちに、<br>武器の鑑定眼を磨くことができたというわけさ。,104601000G,vc_10460100001_009_01,chara_1
+message,エルミア,In my free time，I helped organize shipments and stuff，and that's how<br>I honed my weapon appraisal skills.<br> ,104601000G,vc_10460100001_009_01,chara_1
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -376,9 +376,9 @@ asyncseplay,setag1_16,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,エルミア,本業には劣るが、値打ちのあるものがどれなのかぐらいは<br>簡単に見分けられる。ほぼ武器限定のスキルだがな。,104601000G,vc_10460100001_010_01,chara_1
+message,エルミア,It's not as good as a pro's，but I can easily spot valuable<br>items，though it's mostly limited to weapons.<br> ,104601000G,vc_10460100001_010_01,chara_1
 
-message,<user>,へえ、なるほどな。空いた時間を自分のスキルアップに使うなんて、<br>やるじゃないか。
+message,<user>,Wow，I see. Using your free time to improve your skills? That's<br>pretty impressive.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -389,9 +389,9 @@ asyncseplay,setag1_17,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,エルミア,どうだ？　まったく面白みのない退屈な話だっただろ？,104601000G,vc_10460100001_011_01,chara_1
+message,エルミア,See? A thoroughly boring tale，was it not?<br> ,104601000G,vc_10460100001_011_01,chara_1
 
-message,<user>,ん？　別にそんなことはなかったぞ。<br>もっと聞きたいぐらいだ。
+message,<user>,Huh? Not at all. I'd like to hear more，actually.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -402,11 +402,11 @@ asyncseplay,setag1_18,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,エルミア,変わったやつだ。,104601000G,vc_10460100001_012_01,chara_1
+message,エルミア,You're a strange one.<br> ,104601000G,vc_10460100001_012_01,chara_1
 
-message,<user>,俺がやったことがない仕事の話だからな。<br>新鮮だった。でもなあ……
+message,<user>,It's about a job I've never done，so it was fresh. But...<br> 
 
-message,<user>,少し気になったんだが、どうして商人の用心棒になったんだ？
+message,<user>,Just wondering，Elmia，but why did you become a merchant's bodyguard?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -417,13 +417,13 @@ asyncseplay,setag1_19,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,エルミア,変なことを気にするな……,104601000G,vc_10460100001_013_01,chara_1
+message,エルミア,Don't worry about that，boss...<br> ,104601000G,vc_10460100001_013_01,chara_1
 
-message,<user>,エルミアが働いていた倉庫は平和だったんだろ？<br>逆に前線基地の採掘品の護衛は、危険と隣り合わせだ。
+message,<user>,Elmia，the warehouse where you worked was peaceful，right? But<br>guarding the excavated goods at the Frontline Base is a constant danger.<br> 
 
-message,<user>,財宝目当ての盗賊団たちに目を付けられるだろうし、<br>大穴付近にはモンスターも多い。
+message,<user>,You'd get targeted by bandit gangs after the treasure，and there are<br>many monsters near the Abyss.<br> 
 
-message,<user>,わざわざ安全な仕事を捨ててまでやるような、<br>仕事とは思えんが。
+message,<user>,I can't imagine giving up a safe job just to do this one.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -434,7 +434,7 @@ asyncseplay,setag1_20,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,エルミア,そ、それは……話すと長いというか<br>山よりも高く海よりも深い事情があるというか……,104601000G,vc_10460100001_014_01,chara_1
+message,エルミア,W-well，boss，that's... it's a long story，or rather，there are<br>circumstances deeper than the ocean and higher than the mountains...<br> ,104601000G,vc_10460100001_014_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -445,7 +445,7 @@ asyncseplay,setag1_21,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,エルミア,そ、そんなことより！<br>ほら。鑑定が終わったぞ！,104601000G,vc_10460100001_015_01,chara_1
+message,エルミア,W-well，forget that! Look，boss，the appraisal is finished!<br> ,104601000G,vc_10460100001_015_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -457,13 +457,13 @@ asyncseplay,setag1_22,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,エルミア,お前が持ち込んだ武器の価値はこんなものだ。<br>贔屓目なしで鑑定したが、かなりいい額なんじゃないか？,104601000G,vc_10460100001_016_01,chara_1
+message,エルミア,This is the value of the weapons you brought. I appraised them<br>without any favoritism，and it's a pretty good price，isn't it?<br> ,104601000G,vc_10460100001_016_01,chara_1
 
-message,<user>,どれどれ……ふうん、手際もいいし、<br>査定に書かれた裏付けも、しっかりとしている。
+message,<user>,Let's see... hmm，Elmia，you've done a good job. The reasoning in the<br>appraisal is solid.<br> 
 
-message,<user>,いい鑑定士じゃないか。<br>ウチにも欲しいぐらいだ。
+message,<user>,Not a bad appraiser. I almost want to hire her for my place.<br> 
 
-message,<user>,だが……さすがに安すぎないか？<br>今回は、俺おススメの逸品があったはずだ。
+message,<user>,But... isn't this too cheap? There should have been a masterpiece I<br>recommended this time.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -474,9 +474,9 @@ asyncseplay,setag1_23,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,エルミア,逸品？　そんなものあったかな……,104601000G,vc_10460100001_017_01,chara_1
+message,エルミア,Masterpiece? I don't recall anything like that.<br> ,104601000G,vc_10460100001_017_01,chara_1
 
-message,<user>,その名も『星々の輝きを模した、まるで宇宙を切り裂くかのような<br>銀河の煌きであろう聖剣・コスミックエッジインフィニティブレード』だ！
+message,<user>,It's called the 'Cosmic Edge Infinite Blade'—a holy sword imitating<br>star radiance，cutting through the universe like a galaxy!<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -487,9 +487,9 @@ asyncseplay,setag1_24,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,エルミア,初めて聞く名の剣だ……,104601000G,vc_10460100001_018_01,chara_1
+message,エルミア,That's the first I've heard of a sword by that name.<br> ,104601000G,vc_10460100001_018_01,chara_1
 
-message,<user>,それはそうだろう。俺が名付けたんだからな。
+message,<user>,Well，of course. I named it myself.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -500,7 +500,7 @@ asyncseplay,setag1_25,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,エルミア,おい……,104601000G,vc_10460100001_019_01,chara_1
+message,エルミア,Hey，boss...<br> ,104601000G,vc_10460100001_019_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -511,9 +511,9 @@ asyncseplay,setag1_26,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,エルミア,『模した』とか『まるで』とか『ような』とか、まったく具体性のない<br>刀号だが？,104601000G,vc_10460100001_020_01,chara_1
+message,エルミア,'Imitates，' 'as if，' 'like'... That's a completely vague sword<br>name，isn't it?<br> ,104601000G,vc_10460100001_020_01,chara_1
 
-message,<user>,あまりにも美しい剣だったからそう名付けたんだ。<br>相当な価値のある名剣に違いないぞ、あれは。
+message,<user>,I named it that because it's such a beautiful sword，definitely a<br>valuable masterpiece.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -525,7 +525,7 @@ asyncseplay,setag1_27,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,エルミア,すがすがしいくらいの素人鑑定だな。,104601000G,vc_10460100001_021_01,chara_1
+message,エルミア,A refreshingly amateur appraisal.<br> ,104601000G,vc_10460100001_021_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -536,7 +536,7 @@ asyncseplay,setag1_28,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,エルミア,しかし……それほど美しい剣なんて、見かけなかったが？,104601000G,vc_10460100001_022_01,chara_1
+message,エルミア,But... I didn't see any sword that beautiful.<br> ,104601000G,vc_10460100001_022_01,chara_1
 
 window,off
 wait,0.15
@@ -590,7 +590,7 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,商人,ふ、2人とも！　あそこ！,400301000,,chara_2
+message,商人,Hey，both of you! Over there!<br> ,400301000,,chara_2
 
 
 
@@ -639,7 +639,7 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,盗賊Ａ,馬鹿な奴らだぜ！　武器を盗まれても<br>全く気づかねえとはな！,2028301,,chara_3
+message,盗賊Ａ,What a bunch of idiots! They didn't even notice their weapons being<br>stolen!<br> ,2028301,,chara_3
 
 asyncjump,CHARA,chara_4,30,0.25,1,off,0,CONT
 
@@ -648,7 +648,7 @@ asyncseplay,setag1_31,se4800004,0,1,CONT,0
 asynccharaemo,chara_4,Laugh,CONT,0
 
 
-message,盗賊B,こいつは俺が責任をもって金に換えといてやる！,2028301,,chara_4
+message,盗賊B,I'll take care of turning this into cash!<br> ,2028301,,chara_4
 
 asyncjump,CHARA,chara_5,30,0.25,1,off,0,CONT
 
@@ -657,7 +657,7 @@ asyncseplay,setag1_32,se4800004,0,1,CONT,0
 asynccharaemo,chara_5,Laugh,CONT,0
 
 
-message,盗賊C,あばよ、ボンクラども！,2028301,,chara_5
+message,盗賊C,See ya，morons!<br> ,2028301,,chara_5
 
 window,off
 wait,0.15
@@ -718,9 +718,9 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,エルミア,……,104601000G,vc_10460100001_023_01,chara_1
+message,エルミア,...<br> ,104601000G,vc_10460100001_023_01,chara_1
 
-message,<user>,……
+message,<user>,...<br> 
 
 window,off
 wait,0.15
@@ -735,9 +735,9 @@ shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,<user>,あー！　俺の『星々の輝きを模した、まるで宇宙を切り裂くかのような<br>銀河の煌きであろう聖剣・コスミックエッジインフィニティブレード』が！？
+message,<user>,Ah! My 'Cosmic Edge Infinite Blade'—the holy sword imitating star<br>radiance，cutting through the universe like a galaxy!<br> 
 
-message,<user>,何やってるんだ、用心棒！
+message,<user>,What are you doing，Bodyguard?<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -748,9 +748,9 @@ asyncseplay,setag1_34,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,エルミア,お前が話しかけてくるから、気が散ったんだ！,104601000G,vc_10460100001_024_01,chara_1
+message,エルミア,Because you kept talking to me，I got distracted!<br> ,104601000G,vc_10460100001_024_01,chara_1
 
-message,<user>,くそ、間違いなく、高値で売れる剣なのに！
+message,<user>,Damn it! That sword could've sold for a high price!<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -762,7 +762,7 @@ asyncseplay,setag1_35,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,エルミア,災難だな。同情してやる。,104601000G,vc_10460100001_025_01,chara_1
+message,エルミア,Tough break. I feel for you.<br> ,104601000G,vc_10460100001_025_01,chara_1
 
 window,off
 wait,0.15
@@ -814,7 +814,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,商人,エルミアも用心棒としての仕事を全うできていないから<br>減給だよ。,400301000,,chara_2
+message,商人,Elmia，since you haven't been doing your job as a bodyguard，I'm<br>cutting your pay.<br> ,400301000,,chara_2
 
 window,off
 wait,0.15
@@ -862,7 +862,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,エルミア,前言撤回！　何としてでも盗難品を取り戻すぞ！,104601000G,vc_10460100001_026_01,chara_1
+message,エルミア,I take it back! We're recovering those stolen goods no matter what!<br> ,104601000G,vc_10460100001_026_01,chara_1
 
 window,off
 wait,0.15
@@ -888,7 +888,7 @@ charaface,chara_1,FaceNormal
 transitionFade,Tra15,in,black,1
 
 window,on,0.15
-message,<user>,コソ泥め！　待ちやがれーっ！
+message,<user>,You damn thief! Hold it right there!<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -897,9 +897,9 @@ asyncseplay,setag1_38,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,エルミア,おい！　お前はなんという名だ？,104601000G,vc_10460100001_027_01,chara_1
+message,エルミア,Hey! What's your name?<br> ,104601000G,vc_10460100001_027_01,chara_1
 
-message,<user>,<user>だ！　<user>さんでも、<br><user>様でも、司令官と呼んでもいいぞ。
+message,<user>,It's %user%! You can call me Mr. %user%，Lord %user%，or Commander.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -910,7 +910,7 @@ asyncseplay,setag1_39,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,エルミア,私はお前の部下じゃない。<br><user>と呼ばせてもらう。,104601000G,vc_10460100001_028_01,chara_1
+message,エルミア,I'm not your subordinate. I'll call you %user%.<br> ,104601000G,vc_10460100001_028_01,chara_1
 
 window,off
 wait,0.15
@@ -932,7 +932,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,うーん、子どもに呼び捨てにされるのはなぁ……
+message,<user>,Hmm，having a kid call me just by my name... that's a bit...<br> 
 
 window,off
 wait,0.15
@@ -963,7 +963,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,エルミア,今、私のどこを見て子ども呼ばわりした！？<br>私の胸が薄いのは生まれつきだ！,104601000G,vc_10460100001_029_01,chara_1
+message,エルミア,What about me makes you think I'm a child? I was born with a flat<br>chest!<br> ,104601000G,vc_10460100001_029_01,chara_1
 
 asyncjump,CHARA,chara_1,40,0.5,2,off,0,CONT
 
@@ -972,7 +972,7 @@ asyncseplay,setag1_41,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,エルミア,これでも二百歳は越えている！<br>お前よりも年上だぞ！？,104601000G,vc_10460100001_030_01,chara_1
+message,エルミア,I'm over 200 years old，you know! I'm older than you!<br> ,104601000G,vc_10460100001_030_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -983,9 +983,9 @@ asyncseplay,setag1_42,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,エルミア,くっ……どうしてこうも子ども扱いされる……！？<br>身長と胸が大きければ偉いのか……！？,104601000G,vc_10460100001_031_01,chara_1
+message,エルミア,Tch... why am I always treated like a child! Are height and breast<br>size all that matter!<br> ,104601000G,vc_10460100001_031_01,chara_1
 
-message,<user>,おい。急がないとあの盗賊たちを見失ってしまうぞ。
+message,<user>,Hey. If we don't get a move on，we'll lose those thieves.<br> 
 
 window,off
 wait,0.15
@@ -1026,7 +1026,7 @@ shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 
 
 window,on,0.15
-message,エルミア,誰のせいだ誰の！,104601000G,vc_10460100001_032_01,chara_1
+message,エルミア,Whose fault is that!<br> ,104601000G,vc_10460100001_032_01,chara_1
 
 window,off
 bgmstop,bgmtag1_2,0.5

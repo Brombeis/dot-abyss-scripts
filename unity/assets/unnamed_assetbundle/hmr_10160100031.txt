@@ -39,7 +39,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,On the night a large-scale operation concluded，Wisteria sat alone in<br>the forest camp，gazing into the fire.<br> 
+message,,On the night a major operation concluded，Wisteria sat alone in the<br>forest camp，gazing into the fire.<br> 
 
 window,off
 wait,0.15
@@ -91,7 +91,7 @@ wait,1
 window,on,0.15
 message,<user>,You're as hard on yourself as ever.<br> 
 
-message,,I called out to her as she muttered. She must have sensed my<br>presence，replying calmly.<br> 
+message,,I called out to her as she muttered. She must have sensed my<br>presence and replied calmly.<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -137,9 +137,9 @@ asyncseplay,setag1_6,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ウィステリア,I did try to socialize with the others a bit，like you said. But in<br>the end，my feelings haven't changed.<br> ,101601000G,vc_10160100031_005_01,chara_1
+message,ウィステリア,I tried socializing like you said. But my feelings haven't changed.<br> ,101601000G,vc_10160100031_005_01,chara_1
 
-message,,Wisteria's eyes blazed with intensity. Her voice，weaving together<br>the words，was utterly sincere.<br> 
+message,,Wisteria's eyes blazed. Her voice was utterly sincere.<br> 
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -148,7 +148,7 @@ asyncseplay,setag1_7,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ウィステリア,You're the only one I want by my side.<br> ,101601000G,vc_10160100031_006_01,chara_1
+message,ウィステリア,...You're the only one I want by my side.<br> ,101601000G,vc_10160100031_006_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -210,7 +210,7 @@ asyncseplay,setag1_12,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ウィステリア,mmm... you remembered well. I recall saying that，though...<br> ,101601000G,vc_10160100031_011_01,chara_1
+message,ウィステリア,Mmm... you remembered well. I recall saying that，though...<br> ,101601000G,vc_10160100031_011_01,chara_1
 
 message,<user>,...Right now，there's no one around，you know?<br> 
 

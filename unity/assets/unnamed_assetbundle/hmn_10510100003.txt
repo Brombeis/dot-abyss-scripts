@@ -72,7 +72,7 @@ wait,0.5
 
 
 window,on,0.15
-message,フェイリン,今日は<ruby=しふ>師父</>もアリシアさんもおでかけ……,105101000G,vc_10510100003_001_01,chara_1
+message,フェイリン,Master and Alicia are both out today...<br> ,105101000G,vc_10510100003_001_01,chara_1
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -81,7 +81,7 @@ asyncseplay,setag1_2,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,フェイリン,寝床のお世話までしてもらっているのにお手伝いもできないのは<br>心苦しいですけど、わたしがでしゃばるわけにもいかないし……,105101000G,vc_10510100003_002_01,chara_1
+message,フェイリン,It pains me that I can't help even after they've taken care of my<br>bed，but I shouldn't interfere either...<br> ,105101000G,vc_10510100003_002_01,chara_1
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -90,7 +90,7 @@ asyncseplay,setag1_3,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フェイリン,……死体は死体らしく、机の下で縮こまっていましょう。,105101000G,vc_10510100003_003_01,chara_1
+message,フェイリン,...A corpse should act like a corpse. I'll just curl up under the<br>desk.<br> ,105101000G,vc_10510100003_003_01,chara_1
 
 window,off
 wait,0.15
@@ -125,7 +125,7 @@ wait,1
 wait,0.5
 
 window,on,0.15
-message,フェイリン,…………。,105101000G,vc_10510100003_004_01,
+message,フェイリン,...<br> ,105101000G,vc_10510100003_004_01,
 
 window,off
 wait,0.15
@@ -162,7 +162,7 @@ wait,0.5
 
 
 window,on,0.15
-message,フェイリン,……部屋の主がいないと静かですね。<br>わたしだけこの世界に取り残されたみたい……,105101000G,vc_10510100003_005_01,chara_1
+message,フェイリン,...Without the room's owner，it certainly is quiet. It feels like I'm<br>the only one left in this world...<br> ,105101000G,vc_10510100003_005_01,chara_1
 
 window,off
 wait,0.15
@@ -187,7 +187,7 @@ wait,1
 asyncseplay,setag1_5,se4000001,0,1,CONT,0
 
 window,on,0.15
-message,,コツ、コツ、コツ――
+message,,Tap，tap，tap—<br> 
 
 window,off
 wait,0.15
@@ -225,7 +225,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,フェイリン,……ん？　これは、足音？　２人……いえ、３人でしょうか。<br>この部屋に近づいてくる……隠れなきゃ！,105101000G,vc_10510100003_006_01,chara_1
+message,フェイリン,...Huh? Are those footsteps? Two... no，three people? They're<br>approaching this room... I have to hide!<br> ,105101000G,vc_10510100003_006_01,chara_1
 
 window,off
 wait,0.15
@@ -272,7 +272,7 @@ wait,0.5
 asyncseplay,setag1_8,se4300003,0,1,CONT,0
 
 window,on,0.15
-message,,コン、コン……ガチャ。
+message,,Knock，knock... the door slid open.<br> 
 
 window,off
 wait,0.15
@@ -316,7 +316,7 @@ wait,0.5
 
 
 window,on,0.15
-message,兵士A,司令官、おられませんか？,401001000,vc_10510100003_007_01,chara_2
+message,兵士A,Commander，are you here?<br> ,401001000,vc_10510100003_007_01,chara_2
 
 window,off
 wait,0.15
@@ -382,7 +382,7 @@ wait,0.5
 
 
 window,on,0.15
-message,兵士B,……いないようだな。<br>例の動く死体について、問いただしたかったのだが。,400801000,,chara_3
+message,兵士B,...Doesn't look like it. I wanted to question him about that moving<br>corpse.<br> ,400801000,,chara_3
 
 bgmplay,bgmtag1_2,bgm0034,0.75,1
 
@@ -448,7 +448,7 @@ wait,0.1
 
 
 window,on,0.15
-message,フェイリン,（わたしのことだ……でも、問いただすというのは……？）,105101000G,vc_10510100003_008_01,chara_1
+message,フェイリン,(They're talking about me... but 'question'...?)<br> ,105101000G,vc_10510100003_008_01,chara_1
 
 window,off
 wait,0.15
@@ -516,7 +516,7 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,兵士C,しかし、噂は本当でしょうか？<br>そんな怪しい輩と司令官が一緒にいたなんて……,401201000,,chara_4
+message,兵士C,But is the rumor true? The Commander was together with such a<br>suspicious creature...<br> ,401201000,,chara_4
 
 asyncjump,CHARA,chara_3,30,0.25,1,off,0,CONT
 
@@ -525,7 +525,7 @@ asyncseplay,setag1_15,se4800010,0,1,CONT,0
 asynccharaemo,chara_3,Exclamation,CONT,0
 
 
-message,兵士B,その真偽を確かめに来たのだ。<br>もしも司令官が怪物の類をかくまっているとしたら……,400801000,,chara_3
+message,兵士B,I came to verify it. If the Commander is harboring some kind of<br>monster...<br> ,400801000,,chara_3
 
 asynccharaface,chara_4,FaceAnger,CONT,0
 
@@ -538,7 +538,7 @@ asynccharaemo,chara_4,Silence,CONT,0
 wait,0.5
 
 
-message,兵士C,前線基地の司令官として、信用できなくなりますね。,401201000,,chara_4
+message,兵士C,As the Commander of the Frontline Base，he'd become untrustworthy.<br> ,401201000,,chara_4
 
 window,off
 wait,0.15
@@ -604,7 +604,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,フェイリン,（そんな……！<br>わたしのせいで師父に迷惑が……）,105101000G,vc_10510100003_009_01,chara_1
+message,フェイリン,(No...! I'm causing trouble for Master...!)<br> ,105101000G,vc_10510100003_009_01,chara_1
 
 window,off
 wait,0.15
@@ -629,7 +629,7 @@ asyncseplay,setag1_18,se4400061,0,1,CONT,0
 asyncshake,CHARA,chara_1,20,15,0.5,6,on,off,0,off,CONT,0
 
 window,on,0.15
-message,,ガタッ！
+message,,A thump sounded.<br> 
 
 window,off
 wait,0.15
@@ -657,7 +657,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,フェイリン,（いけないっ、身じろぎしたせいで音が……！）,105101000G,vc_10510100003_010_01,chara_1
+message,フェイリン,(Oh no，I made a sound when I moved...!)<br> ,105101000G,vc_10510100003_010_01,chara_1
 
 window,off
 wait,0.15
@@ -725,7 +725,7 @@ asynccharaemo,chara_3,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,兵士B,なんだ、今の音は？　誰かいるのか！？,400801000,,chara_3
+message,兵士B,What was that sound? Is someone there?<br> ,400801000,,chara_3
 
 asynccharaface,chara_4,FaceAnger,CONT,0
 
@@ -736,7 +736,7 @@ asyncseplay,setag1_21,se4800010,0,1,CONT,0
 asynccharaemo,chara_4,Exclamation,CONT,0
 
 
-message,兵士C,机のほうから聞こえてきたぞ！,401201000,,chara_4
+message,兵士C,It came from the desk!<br> ,401201000,,chara_4
 
 asyncjump,CHARA,chara_3,30,0.25,1,off,0,CONT
 
@@ -745,7 +745,7 @@ asyncseplay,setag1_22,se4800001,0,1,CONT,0
 asynccharaemo,chara_3,Anger,CONT,0
 
 
-message,兵士B,そこにいるやつ、出てこい！,400801000,,chara_3
+message,兵士B,You in there! Come out!<br> ,400801000,,chara_3
 
 window,off
 wait,0.15
@@ -800,7 +800,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,フェイリン,…………っ！,105101000G,vc_10510100003_011_01,chara_1
+message,フェイリン,...<br> ,105101000G,vc_10510100003_011_01,chara_1
 
 
 window,off
@@ -883,7 +883,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,フェイリン,…………,105101000G,vc_10510100003_012_01,chara_1
+message,フェイリン,...<br> ,105101000G,vc_10510100003_012_01,chara_1
 
 window,off
 wait,0.15
@@ -908,7 +908,7 @@ asynccharaemo,chara_4,Exclamation,CONT,0
 
 
 window,on,0.15
-message,兵士C,そんなところに隠れていたか！<br>まさか、本当に司令官がかくまって……！？,401201000,,chara_4
+message,兵士C,So you were hiding in a place like that! I can't believe the<br>Commander was actually hiding you!<br> ,401201000,,chara_4
 
 asyncjump,CHARA,chara_3,30,0.25,1,off,0,CONT
 
@@ -917,7 +917,7 @@ asyncseplay,setag1_27,se4800010,0,1,CONT,0
 asynccharaemo,chara_3,Exclamation,CONT,0
 
 
-message,兵士B,とにかく捕まえるぞ！,400801000,,chara_3
+message,兵士B,We're catching her anyway!<br> ,400801000,,chara_3
 
 window,off
 wait,0.15
@@ -970,7 +970,7 @@ transitionCrossFade,Tra21,1
 wait,1
 
 window,on,0.15
-message,,フェイリンを捕まえようと、兵士が飛び掛かる。<br>だが――
+message,,The soldiers lunged to catch Feilin. But—<br> 
 
 
 window,off
@@ -1083,7 +1083,7 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,兵士B,くそっ、すばしっこいやつだ！<br>全然捕まらねぇ……！,400801000,,chara_3
+message,兵士B,Damn，you're quick! Can't catch you at all...!<br> ,400801000,,chara_3
 
 asyncjump,CHARA,chara_4,30,0.25,1,off,0,CONT
 
@@ -1092,7 +1092,7 @@ asyncseplay,setag1_34,se4800010,0,1,CONT,0
 asynccharaemo,chara_4,Exclamation,CONT,0
 
 
-message,兵士C,気をつけろ！　とんでもない腕力だという話だ！<br>見た目は人間だからって躊躇うな、剣を使え！,401201000,,chara_4
+message,兵士C,Watch out! They say she's got incredible strength! Don't hold back<br>just because she looks human—use your sword!<br> ,401201000,,chara_4
 
 asynccharaface,chara_3,FaceAnger,CONT,0
 
@@ -1103,7 +1103,7 @@ asyncseplay,setag1_35,se4800010,0,1,CONT,0
 asynccharaemo,chara_3,Exclamation,CONT,0
 
 
-message,兵士B,お、おう！,400801000,,chara_3
+message,兵士B,Uh，right!<br> ,400801000,,chara_3
 
 window,off
 wait,0.15
@@ -1149,7 +1149,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,兵士A,…………,401001000,vc_10510100003_013_01,chara_2
+message,兵士A,...<br> ,401001000,vc_10510100003_013_01,chara_2
 
 
 window,off
@@ -1237,7 +1237,7 @@ wait,0.5
 
 
 window,on,0.15
-message,兵士B,ハァ、ハァ……！<br>だ、だめだ、ぜんぜん攻撃が当たらねぇ……！,400801000,,chara_3
+message,兵士B,*pant，pant*... N-no use，I can't land a hit at all...!<br> ,400801000,,chara_3
 
 window,off
 wait,0.15
@@ -1254,7 +1254,7 @@ wait,0.5
 
 
 window,on,0.15
-message,兵士C,とんでもない動きだ……！<br>やっぱり、人間じゃないのか……！,401201000,,chara_4
+message,兵士C,Incredible movements...! Just as I suspected，she's not human...!<br> ,401201000,,chara_4
 
 asynccharaface,chara_3,FaceAnger,CONT,0
 
@@ -1265,7 +1265,7 @@ asyncseplay,setag1_40,se4800010,0,1,CONT,0
 asynccharaemo,chara_3,Exclamation,CONT,0
 
 
-message,兵士B,だが、もう後がないな。部屋の隅に追い詰めたぞ。<br>そこからは逃げられないだろう！,400801000,,chara_3
+message,兵士B,But there's no escape now. We've got her cornered. She can't get<br>away from there!<br> ,400801000,,chara_3
 
 window,off
 wait,0.15
@@ -1324,7 +1324,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,フェイリン,（……ここまで、ですか）,105101000G,vc_10510100003_014_01,chara_1
+message,フェイリン,(So this is as far as it goes...)<br> ,105101000G,vc_10510100003_014_01,chara_1
 
 window,off
 wait,0.15
@@ -1368,7 +1368,7 @@ asynccharaemo,chara_2,Silence,CONT,0
 
 
 window,on,0.15
-message,兵士A,…………,401001000,vc_10510100003_015_01,chara_2
+message,兵士A,...<br> ,401001000,vc_10510100003_015_01,chara_2
 
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
@@ -1377,7 +1377,7 @@ asyncseplay,setag1_43,se4800010,0,1,CONT,0
 asynccharaemo,chara_2,Exclamation,CONT,0
 
 
-message,兵士A,お前。どうして反撃しない？,401001000,vc_10510100003_016_01,chara_2
+message,兵士A,Hey you. Why aren't you fighting back?<br> ,401001000,vc_10510100003_016_01,chara_2
 
 window,off
 wait,0.15
@@ -1445,7 +1445,7 @@ asynccharaemo,chara_3,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,兵士B,お、おい、どういうつもりだ？<br>話しかけたところで、返事なんて……,400801000,,chara_3
+message,兵士B,H-hey，what are you doing? It's not like she'll answer you...<br> ,400801000,,chara_3
 
 window,off
 wait,0.15
@@ -1462,7 +1462,7 @@ wait,0.5
 
 
 window,on,0.15
-message,兵士A,どうなんだ？<br>言葉は通じているだろう？,401001000,vc_10510100003_017_01,chara_2
+message,兵士A,So? You understand what I'm saying，right?<br> ,401001000,vc_10510100003_017_01,chara_2
 
 window,off
 wait,0.15
@@ -1518,9 +1518,9 @@ asyncwait
 
 
 window,on,0.15
-message,フェイリン,……わたしは師父に護衛として拾ってもらいました。,105101000G,vc_10510100003_018_01,chara_1
+message,フェイリン,...Master took me in as his guard.<br> ,105101000G,vc_10510100003_018_01,chara_1
 
-message,兵士A,師父というのは、司令官のことだな？,401001000,vc_10510100003_019_01,
+message,兵士A,By 'Master'，you mean the Commander，don't you?<br> ,401001000,vc_10510100003_019_01,
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1531,7 +1531,7 @@ asyncseplay,setag1_47,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フェイリン,はい。師父から、前線基地の兵士さんたちはみんな仲間だと教わりました。<br>仲間を傷つけるわけにはいきません。それに……,105101000G,vc_10510100003_020_01,chara_1
+message,フェイリン,Yes. Master taught me that all the soldiers at the Frontline Base<br>are my comrades. I can't hurt my comrades. Besides...<br> ,105101000G,vc_10510100003_020_01,chara_1
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -1544,7 +1544,7 @@ asyncseplay,setag1_48,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,フェイリン,わたしも、人を傷つけるのは嫌ですから。,105101000G,vc_10510100003_021_01,chara_1
+message,フェイリン,I do not want to hurt people either.<br> ,105101000G,vc_10510100003_021_01,chara_1
 
 window,off
 wait,0.15
@@ -1596,7 +1596,7 @@ asynccharaemo,chara_4,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,兵士C,なっ……！？　それで反撃しなかったのか……？<br>自分が怪我をするかもしれないのに？,401201000,,chara_4
+message,兵士C,Huh...! So that's why you didn't fight back...? Even though you<br>might have been hurt?<br> ,401201000,,chara_4
 
 window,off
 wait,0.15
@@ -1645,7 +1645,7 @@ asynccharaemo,chara_2,Exclamation,CONT,0
 
 
 window,on,0.15
-message,兵士A,もう分かったでしょう？<br>この子は、私たちの敵なんかじゃない。,401001000,vc_10510100003_022_01,chara_2
+message,兵士A,You see now? She's not our enemy at all.<br> ,401001000,vc_10510100003_022_01,chara_2
 
 window,off
 wait,0.15
@@ -1664,7 +1664,7 @@ wait,0.5
 
 
 window,on,0.15
-message,兵士A,司令官から口止めされていたけど、<br>私は大穴でこの子に救われた。,401001000,vc_10510100003_023_01,chara_2
+message,兵士A,I was sworn to secrecy by the Commander，but this girl saved me at<br>the Abyss.<br> ,401001000,vc_10510100003_023_01,chara_2
 
 window,off
 wait,0.15
@@ -1716,7 +1716,7 @@ asynccharaemo,chara_3,Shock,CONT,0
 
 
 window,on,0.15
-message,兵士B,そ、そうだったのか？,400801000,,chara_3
+message,兵士B,R-Really?<br> ,400801000,,chara_3
 
 asynccharaface,chara_4,FaceSad,CONT,0
 
@@ -1727,7 +1727,7 @@ asyncseplay,setag1_53,se4800008,0,1,CONT,0
 asynccharaemo,chara_4,Sweat,CONT,0
 
 
-message,兵士C,それじゃあ、なんでこんな回りくどいことを？,401201000,,chara_4
+message,兵士C,Then why such a roundabout way?<br> ,401201000,,chara_4
 
 window,off
 wait,0.15
@@ -1773,7 +1773,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,兵士A,みんなに見てもらう必要があったんだ。<br>――そうですよね、司令官？,401001000,vc_10510100003_024_01,chara_2
+message,兵士A,Everyone needed to see for themselves. Isn't that right，Commander?<br> ,401001000,vc_10510100003_024_01,chara_2
 
 
 window,off
@@ -1820,7 +1820,7 @@ asynccharamove,chara_5,EaseOut,X,100,0.3,CONT,0
 asyncwait
 
 window,on,0.15
-message,<user>,あぁ、そういうことだ。
+message,<user>,Yeah，that's right.<br> 
 
 asynccharaface,chara_5,FaceFun,CONT,0
 
@@ -1831,7 +1831,7 @@ asyncseplay,setag1_55,se4800022,0,1,CONT,0
 asynccharaemo,chara_5,Speak,CONT,0
 
 
-message,アリシア,一部始終、聞かせてもらいましたよ♪,300201000,vc_10510100003_025_01,chara_5
+message,アリシア,I heard the whole story，you know!♪<br> ,300201000,vc_10510100003_025_01,chara_5
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -1840,9 +1840,9 @@ asyncseplay,setag1_56,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,フェイリン,師父……それにアリシアさんも……？,105101000G,vc_10510100003_026_01,chara_1
+message,フェイリン,Master... and Miss Alicia too...?<br> ,105101000G,vc_10510100003_026_01,chara_1
 
-message,<user>,フェイリン、危険な目に合わせて悪かった。
+message,<user>,Feilin，I'm sorry for putting you in danger.<br> 
 
 window,off
 wait,0.15
@@ -1896,13 +1896,13 @@ asynccharaemo,chara_3,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,兵士B,司令官、これはいったい……？,400801000,,chara_3
+message,兵士B,Commander，what's going on...?<br> ,400801000,,chara_3
 
-message,<user>,俺が彼女に頼んで、お前たちがここに来るように誘導してもらったんだ。<br>フェイリンに会わせるためにな。
+message,<user>,I asked her to lead you here so you could meet Feilin.<br> 
 
-message,<user>,フェイリンの悪い噂を払しょくするには、ただ言葉で否定するより、<br>その身で実感してもらうのが一番だからだ。
+message,<user>,To dispel the bad rumors about Feilin，I figured the best way was to<br>let you see the truth for yourselves，rather than just denying them.<br> 
 
-message,<user>,で、どうだ？<br>お前たちの目から見て、フェイリンは前線基地の脅威だと思ったか？
+message,<user>,So，what do you think? Did she seem like a threat to the Frontline<br>Base in your eyes?<br> 
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -1913,7 +1913,7 @@ asyncseplay,setag1_58,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,兵士B,……いいえ。その子は、多分いつでも俺たちに反撃できたのに、<br>しようとしませんでした。,400801000,,chara_3
+message,兵士B,No. That girl could have fought back at any time，but she didn't.<br> ,400801000,,chara_3
 
 asynccharaface,chara_4,FaceSad,CONT,0
 
@@ -1924,11 +1924,11 @@ asyncseplay,setag1_59,se4800015,0,1,CONT,0
 asynccharaemo,chara_4,Dull,CONT,0
 
 
-message,兵士C,なのに俺たちは危険な相手だと思い込んで、<br>冷静に相手を見ようとしてなかった……,401201000,,chara_4
+message,兵士C,But we assumed she was dangerous and never even tried to see her<br>clearly...<br> ,401201000,,chara_4
 
-message,<user>,分かってくれたみたいだな。<br>フェイリンは俺たちの敵ではなく、仲間だと。
+message,<user>,Seems you understand. Feilin isn't our enemy—she's a comrade.<br> 
 
-message,<user>,そこで、だ。<br>俺はこれから、フェイリンのことを公表しようと思う。
+message,<user>,So，then. I'm going to publicly announce Feilin's presence from now<br>on.<br> 
 
 window,off
 wait,0.15
@@ -1974,9 +1974,9 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,フェイリン,え……！？　い、いいんですか？,105101000G,vc_10510100003_027_01,chara_1
+message,フェイリン,Huh...! A-Are you sure?<br> ,105101000G,vc_10510100003_027_01,chara_1
 
-message,<user>,むしろ、もっと早くそうするべきだった。<br>お前たちも、フェイリンが受け入れられるよう、力を貸してくれるか？
+message,<user>,Actually，I should have done this sooner. Can you all help me get<br>Feilin accepted?<br> 
 
 window,off
 wait,0.15
@@ -2038,9 +2038,9 @@ asynccharaemo,chara_3,Exclamation,CONT,0
 
 
 window,on,0.15
-message,兵士B,も、もちろんです！　さっきまでの俺たちみたいに勘違いしている連中にも、<br>なんにも危なくないって説得します！,400801000,,chara_3
+message,兵士B,O-of course! I'll convince the others who were as mistaken as we<br>were that she's completely harmless!<br> ,400801000,,chara_3
 
-message,<user>,それはありがたい。よろしく頼むよ。
+message,<user>,Thanks，I appreciate it. I'm counting on you.<br> 
 
 window,off
 wait,0.15
@@ -2083,7 +2083,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,……というわけだ、フェイリン。<br>お前はもう、この部屋でこそこそしている必要はない。
+message,<user>,So，Feilin，you don't have to hide in this room anymore.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -2102,11 +2102,11 @@ asyncseplay,setag1_63,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,フェイリン,本当、ですか……？<br>本当に、出歩いてもいいんですか？,105101000G,vc_10510100003_028_01,chara_1
+message,フェイリン,Master... truly? May I go out?<br> ,105101000G,vc_10510100003_028_01,chara_1
 
-message,<user>,ああ、もちろんだ。お前はこの前線基地の仲間だからな。<br>どこに行ったっていいんだ。
+message,<user>,Yeah，of course. You're a comrade of this Frontline Base. You can go<br>anywhere.<br> 
 
-message,<user>,せっかくだ、どこか行きたいところはあるか？<br>どこでも連れて行ってやるぞ。
+message,<user>,Well then，is there somewhere you'd like to go? I'll take you<br>anywhere.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -2117,7 +2117,7 @@ asyncseplay,setag1_64,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,フェイリン,行きたいところ……。<br>それじゃあ――,105101000G,vc_10510100003_029_01,chara_1
+message,フェイリン,A place I want to go... Well then—<br> ,105101000G,vc_10510100003_029_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -2128,7 +2128,7 @@ asyncseplay,setag1_65,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,フェイリン,わたし……師父と、デートに行きたいです！,105101000G,vc_10510100003_030_01,chara_1
+message,フェイリン,I... want to go on a date with Master!<br> ,105101000G,vc_10510100003_030_01,chara_1
 
 
 window,off
@@ -2159,7 +2159,7 @@ fade,In,Black,0
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――数日後</size>,,,on
+messageTextCenter,,<size=48>—Several days later</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -2221,9 +2221,9 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,フェイリン,わぁ……！,105101000G,vc_10510100003_031_01,chara_1
+message,フェイリン,Wow...!<br> ,105101000G,vc_10510100003_031_01,chara_1
 
-message,<user>,どうした、そんなに驚いて。<br>マーケットだったら、前にも寄ったことあっただろ？
+message,<user>,What's with the surprise? You've been to the Market before，right?<br> 
 
 window,off
 wait,0.15
@@ -2265,7 +2265,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,フェイリン,前に来た時は、人通りが少ない道ばっかりでしたし。<br>昼間の大通りって、こんなに賑やかなんですねっ。,105101000G,vc_10510100003_032_01,chara_1
+message,フェイリン,Last time we came，we only took the less crowded streets. Main Street<br>is so lively during the daytime!<br> ,105101000G,vc_10510100003_032_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -2277,7 +2277,7 @@ asyncseplay,setag1_68,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,フェイリン,前線基地に来て何日にもなるのに、知らなかったです。<br>こんなにたくさんのお店があって、こんなに活気で溢れてるなんて！,105101000G,vc_10510100003_033_01,chara_1
+message,フェイリン,Even though it's been days since I came to the Frontline Base，I had<br>no idea. So many shops，and so full of energy!<br> ,105101000G,vc_10510100003_033_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -2288,17 +2288,17 @@ asyncseplay,setag1_69,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,フェイリン,なんだかわたしもこの活気の影響で、<br>生き返っちゃいそうです！,105101000G,vc_10510100003_034_01,chara_1
+message,フェイリン,For some reason，I feel as though I might come back to life，thanks to<br>this lively atmosphere!<br> ,105101000G,vc_10510100003_034_01,chara_1
 
-message,<user>,はは、それはいい。<br>ただ、そうなったら頼りになる護衛がいなくなるのは困りものだな。
+message,<user>,Ahaha，glad to hear it. Though if you came back to life，I'd lose my<br>reliable escort. That'd be a problem.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
 
 
-message,フェイリン,それなら、しばらくは死んでおきますねっ。,105101000G,vc_10510100003_035_01,chara_1
+message,フェイリン,In that case，I will remain dead for a while.<br> ,105101000G,vc_10510100003_035_01,chara_1
 
-message,<user>,明るい口調でなんてことを……
+message,<user>,You say that so cheerfully...<br> 
 
 window,off
 wait,0.15
@@ -2342,7 +2342,7 @@ asynccharaemo,chara_6,Speak,CONT,0
 
 
 window,on,0.15
-message,店主,おや、司令官さん。今日は可愛い娘さんを連れてるねぇ。<br>……あれ？　君はひょっとして……,400301000,,chara_6
+message,店主,Oh，Commander. You've got a cute girl with you today. ...Huh? You<br>look familiar...<br> ,400301000,,chara_6
 
 window,off
 wait,0.15
@@ -2369,7 +2369,7 @@ wait,0.5
 
 
 window,on,0.15
-message,フェイリン,あ、その、わたしは……,105101000G,vc_10510100003_036_01,chara_1
+message,フェイリン,Ah，um，I...<br> ,105101000G,vc_10510100003_036_01,chara_1
 
 asyncjump,CHARA,chara_6,-30,0.5,2,off,0,CONT
 
@@ -2378,7 +2378,7 @@ asyncseplay,setag1_72,se4800004,0,1,CONT,0
 asynccharaemo,chara_6,Laugh,CONT,0
 
 
-message,店主,兵士さんたちから聞いてるよ。<br>元の体に戻るためにここに来たんだって？　若いのに苦労してるね。,400301000,,chara_6
+message,店主,I've heard about you from the soldiers. They said you came here to<br>get your original body back? Must be tough，being so young.<br> ,400301000,,chara_6
 
 window,off
 wait,0.15
@@ -2409,7 +2409,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,フェイリン,え……？<br>わたしのこと、知ってるんですか？,105101000G,vc_10510100003_037_01,chara_1
+message,フェイリン,Eh...? You know about me?<br> ,105101000G,vc_10510100003_037_01,chara_1
 
 asyncjump,CHARA,chara_6,-30,0.25,1,off,0,CONT
 
@@ -2418,7 +2418,7 @@ asyncseplay,setag1_75,se4800004,0,1,CONT,0
 asynccharaemo,chara_6,Laugh,CONT,0
 
 
-message,店主,ああ、兵士さんたちが話して回っててね。<br>いい子だからよろしく、ってさ。,400301000,,chara_6
+message,店主,Yeah，the soldiers have been telling everyone around. They<br>said，'She's a good girl，so please treat her well.'<br> ,400301000,,chara_6
 
 window,off
 wait,0.15
@@ -2464,11 +2464,11 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,フェイリン,兵士さんたちが……,105101000G,vc_10510100003_038_01,chara_1
+message,フェイリン,The soldiers...<br> ,105101000G,vc_10510100003_038_01,chara_1
 
-message,<user>,お前に申し訳ないことをしたから、せめてものお詫びだとさ。<br>もうお前を怖がるやつはいないよ。
+message,<user>,They said they did you wrong，so this is the least they could do. No<br>one's scared of you anymore.<br> 
 
-message,<user>,だから、お前もここでの生活を楽しんでいいんだ。
+message,<user>,So you're free to enjoy your life here.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -2481,11 +2481,11 @@ asynccharaemo,chara_1,Shock,CONT,0
 wait,0.5
 
 
-message,フェイリン,楽しむ……,105101000G,vc_10510100003_039_01,chara_1
+message,フェイリン,Enjoy my life...<br> ,105101000G,vc_10510100003_039_01,chara_1
 
-message,<user>,ああ。元の体に戻るっていう目標は大切だろうが、<br>それまでの日々を辛抱して過ごすことはないだろ？
+message,<user>,Yeah. Getting your original body back is important，but you don't<br>have to just tough it out until then，right?<br> 
 
-message,<user>,今のままのお前で、人生を楽しんでいいんだ。
+message,<user>,You can enjoy life just as you are now.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -2500,9 +2500,9 @@ asyncseplay,setag1_78,se4800004,0,1,STOP,2
 asynccharaemo,chara_1,Laugh,STOP,2
 
 
-message,フェイリン,人生……わたし、死んでますけどね。,105101000G,vc_10510100003_040_01,chara_1
+message,フェイリン,Life... I'm dead，though.<br> ,105101000G,vc_10510100003_040_01,chara_1
 
-message,<user>,死体ジョークか？
+message,<user>,A dead joke?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -2513,11 +2513,11 @@ asyncseplay,setag1_79,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,フェイリン,死体ジョークです♪,105101000G,vc_10510100003_041_01,chara_1
+message,フェイリン,It is a dead joke!♪<br> ,105101000G,vc_10510100003_041_01,chara_1
 
-message,<user>,はは、その意気だ。
+message,<user>,Ahaha，that's the spirit.<br> 
 
-message,<user>,そうだ、せっかくのデートだし、<br>特別に今日はフェイリンがほしいものを１つ、なんでも買ってやろう。
+message,<user>,That's right. Since it's a special date，I'll buy you one<br>thing—anything you want.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -2528,9 +2528,9 @@ asyncseplay,setag1_80,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,フェイリン,本当ですかっ？<br>本当に、なんでも買ってくれるんですかっ？,105101000G,vc_10510100003_042_01,chara_1
+message,フェイリン,Really?! You'll really buy me anything?!<br> ,105101000G,vc_10510100003_042_01,chara_1
 
-message,<user>,ああ、なんでもいいぞ。<br>アクセサリーか？　それとも服か？
+message,<user>,Sure，anything. Accessories? Or clothes?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -2542,9 +2542,9 @@ asyncseplay,setag1_81,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,フェイリン,それもいいんですけど……わたしはこれがほしいです！,105101000G,vc_10510100003_043_01,chara_1
+message,フェイリン,Those are nice too... but I want this!<br> ,105101000G,vc_10510100003_043_01,chara_1
 
-message,<user>,ん？　それは……香水か？
+message,<user>,Huh? That's... perfume?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -2555,7 +2555,7 @@ asyncseplay,setag1_82,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,フェイリン,はい。師父の好きな香りを選んでほしいなって。<br>いい香りがすると、大人の女性っぽくて素敵じゃないですか。,105101000G,vc_10510100003_044_01,chara_1
+message,フェイリン,Yes. I want Master to pick a scent you like. Doesn't smelling good<br>make a woman seem more mature?<br> ,105101000G,vc_10510100003_044_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -2566,9 +2566,9 @@ asyncseplay,setag1_83,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,フェイリン,それにわたしは死体ですから、うっかりしていると臭っちゃいますので。,105101000G,vc_10510100003_045_01,chara_1
+message,フェイリン,Besides，I'm a corpse，so if I'm not careful，I'll start to stink.<br> ,105101000G,vc_10510100003_045_01,chara_1
 
-message,<user>,それは死体ジョーク……だよな？
+message,<user>,That's a corpse joke... right?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -2579,7 +2579,7 @@ asyncseplay,setag1_84,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,フェイリン,さあ、どっちでしょう？,105101000G,vc_10510100003_046_01,chara_1
+message,フェイリン,Well，which do you think?<br> ,105101000G,vc_10510100003_046_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -2590,9 +2590,9 @@ asyncseplay,setag1_85,se4800002,0,1,CONT,0
 asynccharaemo,chara_1,Heart,CONT,0
 
 
-message,フェイリン,……師父の好きな香りになりたいのは、本当ですけどね。,105101000G,vc_10510100003_047_01,chara_1
+message,フェイリン,...but I really want to smell like Master's favorite scent.<br> ,105101000G,vc_10510100003_047_01,chara_1
 
-message,<user>,ん？　なんだって？
+message,<user>,Huh? What did you say?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -2603,7 +2603,7 @@ asyncseplay,setag1_86,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,フェイリン,ふふふっ、なんでもないです♪,105101000G,vc_10510100003_048_01,chara_1
+message,フェイリン,Fufufu，it's nothing!♪<br> ,105101000G,vc_10510100003_048_01,chara_1
 
 window,off
 bgmstop,bgmtag1_4,0.5

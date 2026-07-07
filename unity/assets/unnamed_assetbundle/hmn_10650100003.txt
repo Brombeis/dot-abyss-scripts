@@ -50,7 +50,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,,ソフィアの前線基地法度に対するストライキがおこなわれた後、<br>大穴へと出発する探索隊は、どうにも不満げな様子だった。
+message,,After the strike against Sophia's regulations at the Frontline<br>Base，the exploration party setting out for the Abyss seemed displeased.<br> 
 
 asyncshake,CHARA,chara_2,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -59,7 +59,7 @@ asyncseplay,setag1_1,se4800006,0,1,CONT,0
 asynccharaemo,chara_2,Trouble,CONT,0
 
 
-message,兵士Ａ,あ～あ……結局ストライキは中断かよ。,401501000,,chara_2
+message,兵士Ａ,Ahh... so the strike's off after all，huh.<br> ,401501000,,chara_2
 
 asyncjump,CHARA,chara_3,-30,0.25,1,off,0,CONT
 
@@ -68,7 +68,7 @@ asyncseplay,setag1_2,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,兵士Ｂ,出撃しろって言われたら仕方ないわ。<br>今回は危険な任務だし、仲間を見捨てるわけにもいかないでしょ。,401601000,vc_10650100003_001_01,chara_3
+message,兵士Ｂ,If we're ordered to deploy，what can we do? It's a dangerous<br>mission，and we can't just abandon our comrades，can we?<br> ,401601000,vc_10650100003_001_01,chara_3
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -79,15 +79,15 @@ asyncseplay,setag1_3,se4800015,0,1,CONT,0
 asynccharaemo,chara_2,Dull,CONT,0
 
 
-message,兵士Ａ,わーってるけどよぉ……,401501000,,chara_2
+message,兵士Ａ,I get it，but still...<br> ,401501000,,chara_2
 
-message,,任務中の酒、いたずら、室内の焚き火、サボり、その他にもあれこれ。<br>ストレス発散を禁止された兵士たちはどうにも士気が上がらない。
+message,,Banned from drinking on duty，pranks，indoor fires，slacking，and other<br>stress relievers，the soldiers' morale was low.<br> 
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
 
 
-message,兵士Ａ,ったく、こんな時こそ酒を入れて気分を上げたいってのに……,401501000,,chara_2
+message,兵士Ａ,Man，if ever there was a time for a drink to boost morale，it's now...<br> ,401501000,,chara_2
 
 window,off
 wait,0.15
@@ -139,7 +139,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,――そんなにお酒が飲みたいものかしら。,106501000G,vc_10650100003_002_01,chara_1
+message,ソフィア,Do you really crave alcohol that much?<br> ,106501000G,vc_10650100003_002_01,chara_1
 
 window,off
 wait,0.15
@@ -201,7 +201,7 @@ asynccharaemo,chara_2,Shock,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,ソ、ソフィアのお嬢ちゃん……！,401501000,,chara_2
+message,兵士Ａ,S-Sophia，young lady!<br> ,401501000,,chara_2
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -212,7 +212,7 @@ asyncseplay,setag1_6,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,兵士Ｂ,なによ騎士様、言われた通り酒は飲んでないわよっ。,401601000,vc_10650100003_003_01,chara_3
+message,兵士Ｂ,What，Knight? We're not drinking，just as you ordered.<br> ,401601000,vc_10650100003_003_01,chara_3
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -223,7 +223,7 @@ asyncseplay,setag1_7,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ソフィア,え、ええ……だから、その……お酒の代わりと言っては何だけど、<br>これを用意してみたの。,106501000G,vc_10650100003_004_01,chara_1
+message,ソフィア,W-well，yes... so，um... it's not exactly a replacement for<br>alcohol，but I tried making this.<br> ,106501000G,vc_10650100003_004_01,chara_1
 
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
@@ -232,7 +232,7 @@ asyncseplay,setag1_8,se4800009,0,1,CONT,0
 asynccharaemo,chara_2,Question,CONT,0
 
 
-message,兵士Ａ,なんだこれ……ドリンク……？,401501000,,chara_2
+message,兵士Ａ,What's this... a drink...?<br> ,401501000,,chara_2
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -243,7 +243,7 @@ asyncseplay,setag1_9,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ソフィア,私お手製の栄養ドリンクよ。<br>お酒じゃないけど、飲めば元気が出るし、健康にもいいんだから。,106501000G,vc_10650100003_005_01,chara_1
+message,ソフィア,It's a homemade energy drink. It's not alcohol，but it'll perk you up<br>and it's healthy too.<br> ,106501000G,vc_10650100003_005_01,chara_1
 
 asynccharaface,chara_3,FaceSurprise,CONT,0
 
@@ -254,7 +254,7 @@ asyncseplay,setag1_10,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,兵士Ｂ,栄養ドリンクねえ？<br>手作りっていうのはありがたいけど……,401601000,vc_10650100003_006_01,chara_3
+message,兵士Ｂ,Energy drink，huh? It's generous of you to make it yourself，but...<br> ,401601000,vc_10650100003_006_01,chara_3
 
 window,off
 wait,0.15
@@ -312,7 +312,7 @@ asynccharaemo,chara_2,ExclaQues,STOP,1.5
 
 
 window,on,0.15
-message,兵士Ａ,ま、せっかくの厚意だ、いただこうぜ。 <br>グビッ――んごふっ！？,401501000,,chara_2
+message,兵士Ａ,Well，it's a kind gesture，so I'll have some. *gulp*—*gahack*!<br> ,401501000,,chara_2
 
 window,off
 wait,0.15
@@ -374,7 +374,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ソフィア,えっ！？　 <br>ど、どうしたの！？,106501000G,vc_10650100003_007_01,chara_1
+message,ソフィア,What!? Wh-what's wrong!?<br> ,106501000G,vc_10650100003_007_01,chara_1
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -385,7 +385,7 @@ asyncseplay,setag1_14,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,兵士Ａ,にっが！　くっさ！　まっっっっっっず！！！ <br>健康に良さそうな味しかしねえぞ！,401501000,,chara_2
+message,兵士Ａ,Bitter! Rank! All kinds of awful! It only tastes like it's healthy!<br> ,401501000,,chara_2
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -396,7 +396,7 @@ asyncseplay,setag1_15,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ソフィア,えええ！？　な、何か間違ったのかしら？ <br>お酒って苦くて臭くて不味いものでしょう！？,106501000G,vc_10650100003_008_01,chara_1
+message,ソフィア,What!? Did I do something wrong? Alcohol is bitter，smelly，and tastes<br>bad，isn't it!?<br> ,106501000G,vc_10650100003_008_01,chara_1
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -407,7 +407,7 @@ asyncseplay,setag1_16,se4800001,0,1,CONT,0
 asynccharaemo,chara_2,Anger,CONT,0
 
 
-message,兵士Ａ,あれは心地いい苦み！　程良い熟成香！ <br>独特の風味っつうんだよ！,401501000,,chara_2
+message,兵士Ａ,That's a pleasant bitterness! A moderate aged aroma! It's called<br>'distinctive flavor'!<br> ,401501000,,chara_2
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -419,7 +419,7 @@ asyncseplay,setag1_17,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ソフィア,そ、そんな……！　このドリンクさえあれば、<br>お酒なんてなくても頑張れるはずなのに……！,106501000G,vc_10650100003_009_01,chara_1
+message,ソフィア,S-seriously...! With this drink，I thought you could manage without<br>alcohol...!<br> ,106501000G,vc_10650100003_009_01,chara_1
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -430,7 +430,7 @@ asyncseplay,setag1_18,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,兵士Ａ,いや、そんなにショックを受けられても……,401501000,,chara_2
+message,兵士Ａ,No，even if you look so shocked...<br> ,401501000,,chara_2
 
 window,off
 wait,0.15
@@ -447,7 +447,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,くぅ……栄養ドリンクがダメなのは分かったけど、やっぱり許可は<br>出せないわ。お酒が入ると判断力が鈍るし、あなたたちの安全にも関わるの。,106501000G,vc_10650100003_010_01,chara_1
+message,ソフィア,Ugh... I know the health drink's out of the question，but I still<br>can't allow it. Alcohol clouds your judgment and safety.<br> ,106501000G,vc_10650100003_010_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -459,7 +459,7 @@ asyncseplay,setag1_20,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ソフィア,もちろんお酒を飲むなとは言わないわ。<br>基地に戻るまでは我慢してちょうだい。,106501000G,vc_10650100003_011_01,chara_1
+message,ソフィア,Of course I'm not saying you can't drink at all. Just hold off until<br>we get back to base.<br> ,106501000G,vc_10650100003_011_01,chara_1
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -470,7 +470,7 @@ asyncseplay,setag1_21,se4800006,0,1,CONT,0
 asynccharaemo,chara_2,Trouble,CONT,0
 
 
-message,兵士Ａ,……分かってるよぉ。<br>真面目なんだよなあ……ったく……,401501000,,chara_2
+message,兵士Ａ,...I get it. You're so serious... geez...<br> ,401501000,,chara_2
 
 window,off
 wait,0.15
@@ -490,7 +490,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ソフィア,…………そんな真面目な私から、言っておきたいことがあるわ……,106501000G,vc_10650100003_012_01,chara_1
+message,ソフィア,...But even someone as serious as me has something I want to say...<br> ,106501000G,vc_10650100003_012_01,chara_1
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -501,7 +501,7 @@ asyncseplay,setag1_23,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,兵士Ｂ,なによ？　また苦言……？,401601000,vc_10650100003_013_01,chara_3
+message,兵士Ｂ,What now? More complaints...?<br> ,401601000,vc_10650100003_013_01,chara_3
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -512,7 +512,7 @@ asyncseplay,setag1_24,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ソフィア,――お酒に逃げず、仲間のため、世界のために命がけの戦いに向かう。<br>あなたたちはみんな、誇りある勇士たちだわ。,106501000G,vc_10650100003_014_01,chara_1
+message,ソフィア,—You don't drown your sorrows in alcohol. You fight for your<br>comrades and for the world. All of you are proud warriors.<br> ,106501000G,vc_10650100003_014_01,chara_1
 
 asynccharaface,chara_3,FaceSurprise,CONT,0
 
@@ -523,7 +523,7 @@ asyncseplay,setag1_25,se4800017,0,1,CONT,0
 asynccharaemo,chara_3,Shock,CONT,0
 
 
-message,兵士Ｂ,……え？,401601000,vc_10650100003_015_01,chara_3
+message,兵士Ｂ,...Huh?<br> ,401601000,vc_10650100003_015_01,chara_3
 
 window,off
 wait,0.15
@@ -573,7 +573,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ソフィア,ちゃんと頑張ったら、お酌ぐらいはしてあげるわ。<br>だからみんなで生きて帰りましょう。,106501000G,vc_10650100003_016_01,chara_1
+message,ソフィア,If you do your best，I'll even pour your sake for you. So let's all<br>make it back alive.<br> ,106501000G,vc_10650100003_016_01,chara_1
 
 window,off
 wait,0.15
@@ -597,7 +597,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,,ソフィアは照れた様子で言うと、早足でその場を去っていった。 <br>また別の兵に声をかけに行くようだった。
+message,,Sophia said with a blush，then hurried off to speak with other<br>soldiers.<br> 
 
 window,off
 wait,0.15
@@ -645,7 +645,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,ソフィア嬢が自らお酌ねえ……,401501000,,chara_2
+message,兵士Ａ,Lady Sophia herself will serve us drinks...<br> ,401501000,,chara_2
 
 asynccharaface,chara_3,FaceHappy,CONT,0
 
@@ -656,7 +656,7 @@ asyncseplay,setag1_28,se4800013,0,1,CONT,0
 asynccharaemo,chara_3,Spirits,CONT,0
 
 
-message,兵士Ｂ,あの子が酒に付き合ってくれるっての。<br>それはなかなか悪くない褒美ね。,401601000,vc_10650100003_017_01,chara_3
+message,兵士Ｂ,That girl's willing to drink with us. That's not a bad reward at<br>all.<br> ,401601000,vc_10650100003_017_01,chara_3
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -667,7 +667,7 @@ asyncseplay,setag1_29,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,兵士Ａ,ま、あそこまで言われちゃしゃあねえ。<br>誇りある勇士として、戦ってやるとしますかね。,401501000,,chara_2
+message,兵士Ａ,Well，if she's gone that far，we can't complain. I suppose we'll fight<br>as proud warriors.<br> ,401501000,,chara_2
 
 window,off
 wait,0.15
@@ -697,7 +697,7 @@ asyncwait,subimage_0_1
 asyncwait,subimage_0_2
 
 
-messageTextUnder,,――そうして部隊は高い士気を保ったまま、<br>負傷者もなく探索を終えるのだった。,,,on
+messageTextUnder,,——And so，the unit maintained high morale and completed the expedition without a single casualty.,,,on
 
 
 bgmstop,bgmtag1_1,1.5,0
@@ -739,7 +739,7 @@ asynccharaemo,chara_4,Dull,CONT,0
 
 
 window,on,0.15
-message,ベリサ,いたずら、からかい、そそのかし……。<br>ハァハァ……おにーさんに……みんなに……いたずらしたいぃ……,100201000G,vc_10650100003_018_01,chara_4
+message,ベリサ,Pranks，teasing，scheming... *pant*，*pant*... I wanna prank Mister...<br>everyone...<br> ,100201000G,vc_10650100003_018_01,chara_4
 
 window,off
 wait,0.15
@@ -793,7 +793,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,ベリサ、禁断症状出ちゃってる……！？<br>そんなに必要なことなの？,106501000G,vc_10650100003_019_01,chara_1
+message,ソフィア,Verisa，you're going through withdrawal...! Is it really that<br>essential?<br> ,106501000G,vc_10650100003_019_01,chara_1
 
 asynccharaface,chara_4,FaceAnger,CONT,0
 
@@ -804,7 +804,7 @@ asyncseplay,setag1_32,se4800007,0,1,CONT,0
 asynccharaemo,chara_4,Panic,CONT,0
 
 
-message,ベリサ,いたずらは生き甲斐なの～！<br>これなしじゃ生きていけないのよ～！,100201000G,vc_10650100003_020_01,chara_4
+message,ベリサ,Pranks are my reason for living! I can't survive without them!<br> ,100201000G,vc_10650100003_020_01,chara_4
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -815,7 +815,7 @@ asyncseplay,setag1_33,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ソフィア,そんなことを生き甲斐にしてどうするの！ <br>人生にはもっと色んな楽しみがあるわ！,106501000G,vc_10650100003_021_01,chara_1
+message,ソフィア,Why are you making that your purpose in life! There are so many<br>other joys in life!<br> ,106501000G,vc_10650100003_021_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -826,7 +826,7 @@ asyncseplay,setag1_34,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ソフィア,ベリサにだって必ず楽しめるものが他にあるはずよ。 <br>一緒に探してあげるから、ね？,106501000G,vc_10650100003_022_01,chara_1
+message,ソフィア,I'm sure there are other things you can enjoy，Verisa. I'll help you<br>find them，okay?<br> ,106501000G,vc_10650100003_022_01,chara_1
 
 asynccharaface,chara_4,FaceSad,CONT,0
 
@@ -837,7 +837,7 @@ asyncseplay,setag1_35,se4800006,0,1,CONT,0
 asynccharaemo,chara_4,Trouble,CONT,0
 
 
-message,ベリサ,はいはい。もー、分かったわよ……。<br>今日はソフィアに付き合ってあげるわ……はぁ……,100201000G,vc_10650100003_023_01,chara_4
+message,ベリサ,Fine，fine. Oh，all right... I'll humor you today... *sigh*...<br> ,100201000G,vc_10650100003_023_01,chara_4
 
 
 window,off
@@ -866,7 +866,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ソフィア,これはどう？　手紙をとじる時の封蝋よ。 <br>色んな形があるし、自作なんかもできるの。,106501000G,vc_10650100003_024_01,chara_1
+message,ソフィア,How about this? Sealing wax for letters. There are various<br>shapes，and you can even make your own.<br> ,106501000G,vc_10650100003_024_01,chara_1
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -877,7 +877,7 @@ asyncseplay,setag1_37,se4800018,0,1,CONT,0
 asynccharaemo,chara_4,Flower,CONT,0
 
 
-message,ベリサ,変な形の封蝋で手紙を送ったら、おにーさんがびっくりしそうね！<br>怒ってるアリシアの顔とか……！,100201000G,vc_10650100003_025_01,chara_4
+message,ベリサ,If I sent a letter with a weirdly shaped wax seal，Mister would be so<br>surprised! And Alicia's angry face too...!<br> ,100201000G,vc_10650100003_025_01,chara_4
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -888,7 +888,7 @@ asyncseplay,setag1_38,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ソフィア,こ、こっちは？　逆に手紙を開ける時のペーパーナイフ。 <br>ほら、オシャレなのがたくさんあるわよ？,106501000G,vc_10650100003_026_01,chara_1
+message,ソフィア,H-how about this? Over here，a paper knife for opening letters.<br>See，there are lots of stylish ones，right?<br> ,106501000G,vc_10650100003_026_01,chara_1
 
 asynccharaface,chara_4,FaceHappy,CONT,0
 
@@ -899,7 +899,7 @@ asyncseplay,setag1_39,se4800013,0,1,CONT,0
 asynccharaemo,chara_4,Spirits,CONT,0
 
 
-message,ベリサ,副官さんのペーパーナイフをこのカエルのナイフとすり替えておいたら、<br>気付いた時に腰を抜かすんじゃないかしら……,100201000G,vc_10650100003_027_01,chara_4
+message,ベリサ,If I swapped the adjutant's paper knife with this frog-shaped one，I<br>bet she'd be so shocked she'd fall flat on her ass when she noticed...<br> ,100201000G,vc_10650100003_027_01,chara_4
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -910,7 +910,7 @@ asyncseplay,setag1_40,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ソフィア,ベーリーサー！<br>なんで全部いたずらに結びつけちゃうのよ～。,106501000G,vc_10650100003_028_01,chara_1
+message,ソフィア,Veriiisa! Why do you have to turn everything into a prank?<br> ,106501000G,vc_10650100003_028_01,chara_1
 
 asynccharaface,chara_4,FaceAnger,CONT,0
 
@@ -921,7 +921,7 @@ asyncseplay,setag1_41,se4800016,0,1,CONT,0
 asynccharaemo,chara_4,BePeevish,CONT,0
 
 
-message,ベリサ,ふーんだ。どうせあたしは人をからかうことばっかり考えてるも～ん。<br>ソフィアみたいな優等生とは違いますよ～～だ。,100201000G,vc_10650100003_029_01,chara_4
+message,ベリサ,Hmph! I guess I only ever think about messing with people. Unlike a<br>perfect little student like you，huh.<br> ,100201000G,vc_10650100003_029_01,chara_4
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -932,7 +932,7 @@ asyncseplay,setag1_42,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ソフィア,あのね……優しすぎるのよ、ベリサは。,106501000G,vc_10650100003_030_01,chara_1
+message,ソフィア,You know... you're too kind，Verisa.<br> ,106501000G,vc_10650100003_030_01,chara_1
 
 asynccharaface,chara_4,FaceSurprise,CONT,0
 
@@ -943,7 +943,7 @@ asyncseplay,setag1_43,se4800017,0,1,CONT,0
 asynccharaemo,chara_4,Shock,CONT,0
 
 
-message,ベリサ,……へ？,100201000G,vc_10650100003_031_01,chara_4
+message,ベリサ,...Huh?<br> ,100201000G,vc_10650100003_031_01,chara_4
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -954,7 +954,7 @@ asyncseplay,setag1_44,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ソフィア,あなたは自分の好き嫌いじゃなくて、 <br>いつもいつも誰かのことばかり考えてるでしょう。,106501000G,vc_10650100003_032_01,chara_1
+message,ソフィア,It's not about your own likes or dislikes. You're always thinking<br>about others，aren't you?<br> ,106501000G,vc_10650100003_032_01,chara_1
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -963,7 +963,7 @@ asyncseplay,setag1_45,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ソフィア,この前だって、私は虫で驚いたけどクルルだったら気にもしないわ。 <br>いたずらでからかうってことは、その人をちゃんと理解してるってことよ。,106501000G,vc_10650100003_033_01,chara_1
+message,ソフィア,Like the other day—I was startled by a bug，but Kururu wouldn't even<br>care. Teasing someone with a prank means you truly understand them.<br> ,106501000G,vc_10650100003_033_01,chara_1
 
 asynccharaface,chara_4,FaceAnger,CONT,0
 
@@ -974,7 +974,7 @@ asyncseplay,setag1_46,se4800007,0,1,CONT,0
 asynccharaemo,chara_4,Panic,CONT,0
 
 
-message,ベリサ,はぁっ！？　そ、そんなつもりじゃないもん……。<br>かっこわるいところを見て笑っちゃおうってだけで……,100201000G,vc_10650100003_034_01,chara_4
+message,ベリサ,Huh! Th-that's not what I meant... I just wanted to see them mess up<br>and laugh...<br> ,100201000G,vc_10650100003_034_01,chara_4
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -985,7 +985,7 @@ asyncseplay,setag1_47,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ソフィア,いつもそうしているから、みんなベリサの前では自然体でいられるのね。 <br>でもあなただって自分の好きなものを見つけていいんだから。,106501000G,vc_10650100003_035_01,chara_1
+message,ソフィア,That's why everyone can be themselves around you，you know. But you<br>can find something you like too.<br> ,106501000G,vc_10650100003_035_01,chara_1
 
 asynccharaface,chara_4,FaceShy,CONT,0
 
@@ -996,7 +996,7 @@ asyncseplay,setag1_48,se4800012,0,1,CONT,0
 asynccharaemo,chara_4,Shy,CONT,0
 
 
-message,ベリサ,ソフィア……ちょ、ちょっと待ってよ！<br>そんなにまっすぐ言われたら、やりづらいじゃないのよ！,100201000G,vc_10650100003_036_01,chara_4
+message,ベリサ,Sophia... w-wait! When you say it so bluntly，it makes it awkward!<br> ,100201000G,vc_10650100003_036_01,chara_4
 
 window,off
 wait,0.15
@@ -1023,7 +1023,7 @@ asynccharaemo,chara_4,Question,CONT,0
 
 
 window,on,0.15
-message,ベリサ,…………ねぇ、ソフィアの趣味ってなんなの？<br>嫌いなものは知ってるけど、好きなものはあんまり聞いてないかも。,100201000G,vc_10650100003_037_01,chara_4
+message,ベリサ,...Hey，Sophia，what's your hobby? I know what you don't like，but I<br>don't think I've ever heard about what you like.<br> ,100201000G,vc_10650100003_037_01,chara_4
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1034,7 +1034,7 @@ asyncseplay,setag1_51,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ソフィア,私の……？ <br>わ、笑わない？,106501000G,vc_10650100003_038_01,chara_1
+message,ソフィア,My hobby...? You won't laugh?<br> ,106501000G,vc_10650100003_038_01,chara_1
 
 asynccharaface,chara_4,FaceHappy,CONT,0
 
@@ -1045,7 +1045,7 @@ asyncseplay,setag1_52,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,ベリサ,笑わない笑わない。 <br>ね、教えてよ～？,100201000G,vc_10650100003_039_01,chara_4
+message,ベリサ,I won't laugh，I promise. Come on，tell me!<br> ,100201000G,vc_10650100003_039_01,chara_4
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1056,7 +1056,7 @@ asyncseplay,setag1_53,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ソフィア,その……最近流行りだしたゆるキャラグッズを集めるのが好きで……,106501000G,vc_10650100003_040_01,chara_1
+message,ソフィア,Well... I like collecting these mascot character goods that have<br>become popular lately...<br> ,106501000G,vc_10650100003_040_01,chara_1
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -1067,7 +1067,7 @@ asyncseplay,setag1_54,se4800004,0,1,CONT,0
 asynccharaemo,chara_4,Laugh,CONT,0
 
 
-message,ベリサ,ゆるっ……騎士が、ゆるキャラ……ぷっ！,100201000G,vc_10650100003_041_01,chara_4
+message,ベリサ,Mascot...? A knight into mascot characters... pfft!<br> ,100201000G,vc_10650100003_041_01,chara_4
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1078,7 +1078,7 @@ asyncseplay,setag1_55,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ソフィア,笑わないって言ったじゃない！,106501000G,vc_10650100003_042_01,chara_1
+message,ソフィア,You said you wouldn't laugh!<br> ,106501000G,vc_10650100003_042_01,chara_1
 
 asynccharaface,chara_4,FaceHappy,CONT,0
 
@@ -1089,7 +1089,7 @@ asyncseplay,setag1_56,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,ベリサ,だってぇ～、意外過ぎなんだもん！ <br>どうせ参考書集めとか言うと思ったのに～！,100201000G,vc_10650100003_043_01,chara_4
+message,ベリサ,But it's just so unexpected! I thought you'd say you collect<br>textbooks or something!<br> ,100201000G,vc_10650100003_043_01,chara_4
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1100,7 +1100,7 @@ asyncseplay,setag1_57,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ソフィア,そ、それが趣味じゃないことぐらい私も分かってるわ。<br>いいじゃない、少しぐらい可愛いものを持ってたって……,106501000G,vc_10650100003_044_01,chara_1
+message,ソフィア,I-I know it's not a proper hobby. But can't I have something cute<br>once in a while...?<br> ,106501000G,vc_10650100003_044_01,chara_1
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -1111,7 +1111,7 @@ asyncseplay,setag1_58,se4800013,0,1,CONT,0
 asynccharaemo,chara_4,Spirits,CONT,0
 
 
-message,ベリサ,ふふ……それ、興味あるわ。 <br>ソフィアの好きな場所、連れて行ってよ。,100201000G,vc_10650100003_045_01,chara_4
+message,ベリサ,Fufu... I'm interested in that. Take me to your favorite<br>place，Sophia.<br> ,100201000G,vc_10650100003_045_01,chara_4
 
 
 window,off
@@ -1157,7 +1157,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,ソフィア,ふわわ～～、可愛い～～♡<br>このクマちゃん、ゆるゆるでちゅね～♡　うちの子になる？　なっちゃう？,106501000G,vc_10650100003_046_01,chara_1
+message,ソフィア,Fuwawaa! So cute!♡ This little bear is all soft and cuddly，isn't<br>it!♡ Will you be my baby? Huh? Will you?<br> ,106501000G,vc_10650100003_046_01,chara_1
 
 window,off
 wait,0.15
@@ -1209,7 +1209,7 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,ベリサ,う、わぁ……。<br>そこまでの反応になるのね……,100201000G,vc_10650100003_047_01,chara_4
+message,ベリサ,Whoa... You really react like that，huh...<br> ,100201000G,vc_10650100003_047_01,chara_4
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1220,7 +1220,7 @@ asyncseplay,setag1_61,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ソフィア,――はっ！　ち、違うのよ！？　<br>ベリサにこの子の可愛さを伝えようとしただけで――！,106501000G,vc_10650100003_048_01,chara_1
+message,ソフィア,—Ah! N-no，that's not it! I was just trying to show you how cute this<br>one is—!<br> ,106501000G,vc_10650100003_048_01,chara_1
 
 
 bgmstop,bgmtag1_2,1.5,0
@@ -1266,7 +1266,7 @@ asynccharaemo,chara_5,Panic,CONT,0
 
 
 window,on,0.15
-message,クルル,ふぁ……さむさむ……,106701000G,vc_10650100003_049_01,chara_5
+message,クルル,Brrr... cold，cold...<br> ,106701000G,vc_10650100003_049_01,chara_5
 
 asyncshake,CHARA,chara_5,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -1275,7 +1275,7 @@ asyncseplay,setag1_63,se4800015,0,1,CONT,0
 asynccharaemo,chara_5,Dull,CONT,0
 
 
-message,クルル,でも火を焚いたら怒られちゃう。 <br>うぅ～……,106701000G,vc_10650100003_050_01,chara_5
+message,クルル,But if I light a fire，I'll get told off. *whimper*<br> ,106701000G,vc_10650100003_050_01,chara_5
 
 window,off
 wait,0.15
@@ -1341,7 +1341,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ソフィア,クルル、まだ起きてるの？,106501000G,vc_10650100003_051_01,chara_1
+message,ソフィア,Kururu，are you still awake?<br> ,106501000G,vc_10650100003_051_01,chara_1
 
 asyncjump,CHARA,chara_5,30,0.25,1,off,0,CONT
 
@@ -1350,7 +1350,7 @@ asyncseplay,setag1_66,se4800007,0,1,CONT,0
 asynccharaemo,chara_5,Panic,CONT,0
 
 
-message,クルル,ソフィア……！ <br>ひ、火はつけてないよ？,106701000G,vc_10650100003_052_01,chara_5
+message,クルル,Sophia...! I-I didn't light a fire，okay?<br> ,106701000G,vc_10650100003_052_01,chara_5
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1361,7 +1361,7 @@ asyncseplay,setag1_67,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ソフィア,ええ、我慢していて偉いわね。<br>でも、今日の夜は一段と冷えるわ……だから、これ……,106501000G,vc_10650100003_053_01,chara_1
+message,ソフィア,Yes，you're being good by holding out. But it's even colder<br>tonight... so，here...<br> ,106501000G,vc_10650100003_053_01,chara_1
 
 window,off
 wait,0.15
@@ -1393,7 +1393,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,,ソフィアはクルルの隣に座ると、<br>その小さな肩にそっと毛布をかけた。
+message,,Sophia sat down next to Kururu and gently draped a blanket over her<br>small shoulders.<br> 
 
 window,off
 wait,0.15
@@ -1418,7 +1418,7 @@ asynccharaemo,chara_5,Twinkle,CONT,0
 
 
 window,on,0.15
-message,クルル,もうふ？ <br>わ～、あったかい……！,106701000G,vc_10650100003_054_01,chara_5
+message,クルル,Blankie? Wow，it's so warm...!<br> ,106701000G,vc_10650100003_054_01,chara_5
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1429,7 +1429,7 @@ asyncseplay,setag1_69,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ソフィア,編み物はちょっと得意なのよ。 <br>クルルに合うように編んでみたわ。,106501000G,vc_10650100003_055_01,chara_1
+message,ソフィア,I'm pretty good at knitting，you know. I knitted it to fit you.<br> ,106501000G,vc_10650100003_055_01,chara_1
 
 asynccharaface,chara_5,FaceHappy,CONT,0
 
@@ -1440,7 +1440,7 @@ asyncseplay,setag1_70,se4800018,0,1,CONT,0
 asynccharaemo,chara_5,Flower,CONT,0
 
 
-message,クルル,ソフィアが作ってくれたの！？　 <br>ありがと～！　ふわふわでぽかぽか～！,106701000G,vc_10650100003_056_01,chara_5
+message,クルル,Sophia made it for me! Thank you! It's so fluffy and warm!<br> ,106701000G,vc_10650100003_056_01,chara_5
 
 window,off
 wait,0.15
@@ -1486,7 +1486,7 @@ asyncseplay,setag1_71,se4800013,0,1,CONT,0
 asynccharaemo,chara_5,Spirits,CONT,0
 
 window,on,0.15
-message,,クルルは毛布にくるまって、暖かそうに目を細めた。<br>まるで火にあたるように、ゆらゆらと体を動かしている。
+message,,Kururu wrapped herself in the blanket and squinted happily. She<br>swayed her body as if warming herself by a fire.<br> 
 
 window,off
 wait,0.15
@@ -1544,7 +1544,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ソフィア,クルルは、火が好きなの？,106501000G,vc_10650100003_057_01,chara_1
+message,ソフィア,Do you like fire，Kururu?<br> ,106501000G,vc_10650100003_057_01,chara_1
 
 window,off
 wait,0.15
@@ -1564,7 +1564,7 @@ wait,0.5
 
 
 window,on,0.15
-message,クルル,わかんない。 <br>でも……森の中で火を焚いてると、普通の動物は近づいて来ないんだ。,106701000G,vc_10650100003_058_01,chara_5
+message,クルル,I dunno. But... when you light a fire in the forest，normal animals<br>don't come near.<br> ,106701000G,vc_10650100003_058_01,chara_5
 
 asynccharaface,chara_5,EyeClose,CONT,0
 asynccharaface,chara_5,FaceNormal,CONT,0
@@ -1576,7 +1576,7 @@ asyncseplay,setag1_74,se4800013,0,1,CONT,0
 asynccharaemo,chara_5,Spirits,CONT,0
 
 
-message,クルル,でもクルルの友だちの動物は段々と近づいて来てくれて……。<br>安全なものだってわかったら、みんなで焚き火を囲うようになってたの。,106701000G,vc_10650100003_059_01,chara_5
+message,クルル,But my animal friends slowly came closer... Once they knew it was<br>safe，they all gathered around the fire together.<br> ,106701000G,vc_10650100003_059_01,chara_5
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1587,7 +1587,7 @@ asyncseplay,setag1_75,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ソフィア,みんなが集まる、温かな場所だったのね。 <br>なら――寒くなった時には、いつでも私を呼びなさい。,106501000G,vc_10650100003_060_01,chara_1
+message,ソフィア,So it was a warm place where everyone gathered. Then—whenever you're<br>cold，just call for me，okay?<br> ,106501000G,vc_10650100003_060_01,chara_1
 
 asynccharaface,chara_5,FaceSurprise,CONT,0
 
@@ -1598,7 +1598,7 @@ asyncseplay,setag1_76,se4800017,0,1,CONT,0
 asynccharaemo,chara_5,Shock,CONT,0
 
 
-message,クルル,……いいの？,106701000G,vc_10650100003_061_01,chara_5
+message,クルル,...Is it really okay?<br> ,106701000G,vc_10650100003_061_01,chara_5
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1609,7 +1609,7 @@ asyncseplay,setag1_77,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ソフィア,私だってあなたの仲間だもの。 <br>そうでしょう、クルル？,106501000G,vc_10650100003_062_01,chara_1
+message,ソフィア,I'm your comrade too，you know. Right，Kururu?<br> ,106501000G,vc_10650100003_062_01,chara_1
 
 asynccharaface,chara_5,EyeClose,CONT,0
 asynccharaface,chara_5,FaceNormal,CONT,0
@@ -1621,7 +1621,7 @@ asyncseplay,setag1_78,se4800003,0,1,CONT,0
 asynccharaemo,chara_5,Twinkle,CONT,0
 
 
-message,クルル,うん……！ <br>ふわぁ……あったかくて、なんだか眠くなってきちゃった……,106701000G,vc_10650100003_063_01,chara_5
+message,クルル,Mm... *puff*... it's so warm，I'm getting sleepy...<br> ,106701000G,vc_10650100003_063_01,chara_5
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1632,7 +1632,7 @@ asyncseplay,setag1_79,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ソフィア,ええ、ゆっくりお休みなさい。,106501000G,vc_10650100003_064_01,chara_1
+message,ソフィア,Yes，sleep well.<br> ,106501000G,vc_10650100003_064_01,chara_1
 
 window,off
 wait,0.15
@@ -1659,7 +1659,7 @@ asynccharaemo,chara_5,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,帰っちゃうの？<br>ソフィアも一緒に寝ようよ～。,106701000G,vc_10650100003_065_01,chara_5
+message,クルル,Are you going back?<br>Let's sleep together，Sophia!<br> ,106701000G,vc_10650100003_065_01,chara_5
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1670,7 +1670,7 @@ asyncseplay,setag1_81,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ソフィア,え……？ <br>でも、私は……,106501000G,vc_10650100003_066_01,chara_1
+message,ソフィア,Huh...? But I...<br> ,106501000G,vc_10650100003_066_01,chara_1
 
 asynccharaface,chara_5,FaceHappy,CONT,0
 
@@ -1681,7 +1681,7 @@ asyncseplay,setag1_82,se4800018,0,1,CONT,0
 asynccharaemo,chara_5,Flower,CONT,0
 
 
-message,クルル,一緒ならもっとあったかいよ！ <br>ね？　ね～？,106701000G,vc_10650100003_067_01,chara_5
+message,クルル,If we're together it'll be even warmer!<br>Right? Right?<br> ,106701000G,vc_10650100003_067_01,chara_5
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1692,7 +1692,7 @@ asyncseplay,setag1_83,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ソフィア,もう……仕方ないわね……,106501000G,vc_10650100003_068_01,chara_1
+message,ソフィア,Oh... I suppose there's no helping it...<br> ,106501000G,vc_10650100003_068_01,chara_1
 
 window,off
 wait,0.15
@@ -1763,7 +1763,7 @@ asynccharaemo,chara_5,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,ソフィア……あったかい……,106701000G,vc_10650100003_069_01,chara_5
+message,クルル,Sophia... you're warm...<br> ,106701000G,vc_10650100003_069_01,chara_5
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1774,7 +1774,7 @@ asyncseplay,setag1_85,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ソフィア,クルルもふわふわね……。 <br>おやすみなさい……,106501000G,vc_10650100003_070_01,chara_1
+message,ソフィア,You're soft too，Kururu... Good night...<br> ,106501000G,vc_10650100003_070_01,chara_1
 
 window,off
 wait,0.15
@@ -1816,7 +1816,7 @@ asyncwait,subimage_0_1
 asyncwait,subimage_0_2
 
 
-messageTextUnder,,こうして、ソフィアが不満を持つそれぞれに話を聞くようになって、<br>少しずつ前線基地の空気は穏やかに変化していった……,,,on
+messageTextUnder,,And so，as Sophia began listening to the complaints of each person，the atmosphere at the Frontline Base gradually grew more peaceful...,,,on
 
 
 bgmstop,bgmtag1_3,1.5,0
@@ -1874,7 +1874,7 @@ asynccharaemo,chara_6,Speak,CONT,0
 
 
 window,on,0.15
-message,アリシア,――前線基地全体の規律は維持されたままですが、 <br>全体の士気は大きく向上しています。,300201000,vc_10650100003_071_01,chara_6
+message,アリシア,The discipline of the entire Frontline Base remains intact，but<br>overall morale has greatly improved.<br> ,300201000,vc_10650100003_071_01,chara_6
 
 asynccharaface,chara_6,FaceUnique01,CONT,0
 
@@ -1885,7 +1885,7 @@ asyncseplay,setag1_87,se4800003,0,1,CONT,0
 asynccharaemo,chara_6,Twinkle,CONT,0
 
 
-message,アリシア,皆さんも不満を言うことなく、頑張って働いてくれてます。<br>成果も上がるようになって完璧です！　すごいです、ソフィアさん！,300201000,vc_10650100003_072_01,chara_6
+message,アリシア,Everyone is working hard without complaints. Results are coming in<br>too—it's perfect! Amazing，Sophia!<br> ,300201000,vc_10650100003_072_01,chara_6
 
 window,off
 wait,0.15
@@ -1902,9 +1902,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ソフィア,それは良かったわ……。<br>司令官の言った通りだったわね。,106501000G,vc_10650100003_073_01,chara_1
+message,ソフィア,I'm glad... It was just as the Commander said.<br> ,106501000G,vc_10650100003_073_01,chara_1
 
-message,<user>,ま、鞭だけじゃなく飴も与えないとダメってことだな。
+message,<user>,Well，you've gotta offer treats along with the whip.<br> 
 
 window,off
 wait,0.15
@@ -1950,7 +1950,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 
 window,on,0.15
-message,ソフィア,ええ。でもそれは、ただご褒美をあげる甘さだけじゃない。<br>不満や欲求の本質にちゃんと向き合ってあげなきゃいけないのよね。,106501000G,vc_10650100003_074_01,chara_1
+message,ソフィア,Yes，but it's not just about giving sweet rewards. You have to<br>properly address the root of their complaints and desires.<br> ,106501000G,vc_10650100003_074_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1961,7 +1961,7 @@ asyncseplay,setag1_90,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ソフィア,周りに指示を出す前に理解すべきことだった……<br>本当にいい経験をさせてもらったわ。,106501000G,vc_10650100003_075_01,chara_1
+message,ソフィア,I should have understood this before giving orders... I've truly<br>gained valuable experience.<br> ,106501000G,vc_10650100003_075_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1972,9 +1972,9 @@ asyncseplay,setag1_91,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ソフィア,<size=30>やっぱり、あなたには学ぶことが多いわね……</>,106501000G,vc_10650100003_076_01,chara_1
+message,ソフィア,As I thought，there's so much I can learn from you...<br> ,106501000G,vc_10650100003_076_01,chara_1
 
-message,<user>,んー？　なんか言ったか？
+message,<user>,Hmm? Did you say something?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1985,9 +1985,9 @@ asyncseplay,setag1_92,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ソフィア,っ……なんでもないわ。<br>大したことじゃないから、気にしないで。,106501000G,vc_10650100003_077_01,chara_1
+message,ソフィア,Ah... it's nothing. It's not important，don't worry about it.<br> ,106501000G,vc_10650100003_077_01,chara_1
 
-message,<user>,俺に色々と学びたいのか？ <br>お望みならたーっぷり教えてやるぞ？
+message,<user>,You want to learn a lot from me? If you want，I'll teach you plenty.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1998,9 +1998,9 @@ asyncseplay,setag1_93,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ソフィア,聞こえてるんじゃない！<br>あなたって人は、本当にもう！,106501000G,vc_10650100003_078_01,chara_1
+message,ソフィア,You heard that，didn't you! Honestly，you're too much!<br> ,106501000G,vc_10650100003_078_01,chara_1
 
-message,<user>,はっはっはっ、調子が出てきたじゃないか。<br>それじゃ無事に問題解決ってことで、酒場にでも繰り出そうじゃないか。
+message,<user>,Hahaha，you've got your spirit back! Well then，since the problem's<br>solved，how about we head to the tavern?<br> 
 
 window,off
 wait,0.15
@@ -2019,9 +2019,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ソフィア,まさか、またサボりじゃないでしょうね？,106501000G,vc_10650100003_079_01,chara_1
+message,ソフィア,Wait，you are not trying to slack off again，are you?<br> ,106501000G,vc_10650100003_079_01,chara_1
 
-message,<user>,違う違う。ソフィアはよく頑張ってたって、<br>みんながお疲れ様会を準備してくれてるんだ。
+message,<user>,No，no. It's because you worked so hard，Sophia. Everyone's prepared a<br>little party to thank you.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -2032,11 +2032,11 @@ asyncseplay,setag1_95,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ソフィア,えっ……私のために……！？<br>こんなに基地を騒がせたのに？,106501000G,vc_10650100003_080_01,chara_1
+message,ソフィア,What... for me! Even though I caused so much trouble in the base?<br> ,106501000G,vc_10650100003_080_01,chara_1
 
-message,<user>,結果として基地の事故も減ったし成果も上がった。<br>それはソフィアの貢献に他ならない。
+message,<user>,As a result，accidents in the base decreased and our performance<br>improved. That's all thanks to your efforts.<br> 
 
-message,<user>,成果はちゃんと出たんだから、褒美があって当然だ。<br>そうだろ？
+message,<user>,Since the results spoke for themselves，you deserve a reward. Right?<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -2047,9 +2047,9 @@ asyncseplay,setag1_96,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ソフィア,司令官、あなた……,106501000G,vc_10650100003_081_01,chara_1
+message,ソフィア,Commander，you...<br> ,106501000G,vc_10650100003_081_01,chara_1
 
-message,<user>,俺としてもソフィアが基地にいてくれていつも助かってるからな。<br>頼れる部下をねぎらわさせてくれ。
+message,<user>,And for my part，I'm always grateful to have you here. So let me show<br>some appreciation for my reliable subordinate.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -2060,7 +2060,7 @@ asyncseplay,setag1_97,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ソフィア,かなわないわね、もう……。,106501000G,vc_10650100003_082_01,chara_1
+message,ソフィア,I cannot beat you，can I...<br> ,106501000G,vc_10650100003_082_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -2071,9 +2071,9 @@ asyncseplay,setag1_98,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ソフィア,分かったわ、今日は特別よ！<br>あくまでも明日には影響が出ないように！,106501000G,vc_10650100003_083_01,chara_1
+message,ソフィア,Very well，then. Today is a special exception，but absolutely no<br>impact on tomorrow!<br> ,106501000G,vc_10650100003_083_01,chara_1
 
-message,<user>,なかなか話が分かるようになったな！<br>よーし、行くぞ～！
+message,<user>,You're finally getting it! All right，let's go.<br> 
 
 
 window,off
@@ -2100,11 +2100,11 @@ wait,1.5
 fade,In,Black,1
 
 window,on,0.15
-message,,――当社の調べによれば、<br>ソフィア嬢が本当に前線基地を統率していたのかには疑問が残る。
+message,,——According to our investigation，doubts remained as to whether Lady<br>Sophia truly led the Frontline Base.<br> 
 
-message,,しかしソフィア嬢が基地のメンバーに愛され、<br>彼女もまた仲間たちを深く想っていたことに、疑いはないようだ。
+message,,However，it appeared there was no doubt that Lady Sophia was loved by<br>the base members，and she，in turn，deeply cared for her comrades.<br> 
 
-message,,――ミレスガルド王都の新聞社による、<br>前線基地の特集記事より。
+message,,——From a feature article on the Frontline Base by a newspaper in the<br>capital of Milesgard.<br> 
 
 window,off
 bgmstop,bgmtag1_4,0.5

@@ -349,7 +349,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,マリナ,(I got reeled in by that buzzword ""limited time"" and ended up buying<br>it... but does it really have that much of an effect?)<br> ,100301000G,vc_10030100031_006_01,chara_1
+message,マリナ,(I got reeled in by that buzzword 'limited time' and ended up buying<br>it... but does it really have that much of an effect?)<br> ,100301000G,vc_10030100031_006_01,chara_1
 
 window,off
 wait,0.15
@@ -456,7 +456,7 @@ wait,0.5
 window,on,0.15
 message,マリナ,U-um... I-I'm so sorry! I invited you to dinner，but I ended up being<br>so late...<br> ,100301000G,vc_10030100031_008_01,chara_1
 
-message,<user>,Oh，it's you，Marina. I've been busy with meetings all day too.<br>Sorry，but let's have dinner another time. Honestly，I just want to get some rest early tonight.<br> 
+message,<user>,Oh，it's you，Marina. Meetings all day too. Sorry，let's do dinner<br>another time. I just need rest early tonight.<br> 
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -590,7 +590,7 @@ asynccharaface,chara_1,FaceSurprise,CONT,0
 window,on,0.15
 message,<user>,*phew*... Huh? Oh? I feel like I'm already getting my energy back!<br> 
 
-message,,The moment he drank it，a burst of heat surged from the pit of his<br>stomach and blood rushed through his entire body. The exhaustion he'd felt just moments before vanished as if it had all been a lie.<br> 
+message,,The moment he drank，heat surged from his stomach and blood rushed<br>through his body，erasing all exhaustion.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -601,7 +601,7 @@ asyncseplay,setag1_20,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,マリナ,Oooh! As expected of a limited item! Already showing effects!<br> ,100301000G,vc_10030100031_014_01,chara_1
+message,マリナ,Oooh! As expected of a limited item! Already showing effects!♪<br> ,100301000G,vc_10030100031_014_01,chara_1
 
 window,off
 wait,0.15

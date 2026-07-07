@@ -25,7 +25,7 @@ bgmplay,bgmtag1_1,bgm0026,0.75,1
 
 
 window,on,0.15
-message,<user>,Feilin，are you all right!?<br> 
+message,<user>,Feilin，are you all right?<br> 
 
 asyncseplay,setag1_1,se4800011,0,1,CONT
 
@@ -35,7 +35,7 @@ charaface,chara_1,FaceSurprise
 
 
 charashow,chara_1,0.3
-message,フェイリン,Master...? Ah，wh-where am I!? I remember thinking it was nice<br>weather and going for a walk... and then my memory just...<br> ,,vc_10510100011_001_01
+message,フェイリン,Master...? Ah，wh-where am I! I remember thinking it was nice weather<br>and going for a walk... and then my memory just...<br> ,,vc_10510100011_001_01
 
 
 message,<user>,You don't remember? You collapsed in front of the brothel.<br>I found you and carried you in here.<br> 
@@ -55,9 +55,9 @@ charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
 message,フェイリン,Well，technically I'm a dead body，so I do try to avoid direct<br>sunlight. But it was such a beautiful day，I just...<br> ,,vc_10510100011_003_01
 
-message,<user>,""Just""... That's way too careless. Hmm，just as I suspected... looks<br>like you got too much sun and collapsed.<br> 
+message,<user>,'Just'... That's way too careless. Hmm，just as I suspected... looks<br>like you got too much sun and collapsed.<br> 
 
-message,<user>,When a Jiangshi is overexposed to sunlight，they lose vital<br>energy，become dizzy and lightheaded， and in some cases，can even fall into a critical unconscious state... I see.<br> 
+message,<user>,Overexposure to sunlight makes a Jiangshi lose vital energy，get<br>dizzy and lightheaded，and possibly collapse... I see.<br> 
 
 
 asyncseplay,setag1_3,se4800009,0,1,CONT
@@ -77,7 +77,7 @@ asynccharaemo,chara_1,Heart,CONT
 charaface,chara_1,FaceHappy
 message,フェイリン,For my sake...? Ah... Thank you，Master.<br> ,,vc_10510100011_005_01
 
-message,<user>,Especially this book，""Alchemy (Comedic)""—it's packed full of<br>treatments for Jiangshi.<br> 
+message,<user>,Especially this book，'Alchemy (Comedic)'—it's packed full of<br>treatments for Jiangshi.<br> 
 
 asyncseplay,setag1_5,se4800009,0,1,CONT
 
@@ -87,14 +87,14 @@ charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
 message,フェイリン,Alchemy (Comedic)...<br> ,,vc_10510100011_006_01
 
-message,<user>,Let's see... treatment for a Jiangshi whose vital energy is depleted<br>from too much sun... Ah，here it is! The ""Spirit Infusion Technique，"" huh? The procedure is...<br> 
+message,<user>,Let's see... treatment for a sun-depleted Jiangshi... Ah，here it is!<br>The Spirit Infusion Technique! Procedure is...<br> 
 
 message,<user>,...<br> 
 
 charaface,chara_1,FaceSurprise
 message,フェイリン,Master? Is something wrong?<br> ,,vc_10510100011_007_01
 
-message,<user>,Ah，no... I found a way to help you recover，but... it might be a bit<br>of a drastic treatment. If you're not okay with it，we'll forget it. What do you say?<br> 
+message,<user>,Ah，no... I found a way to help you，but... it's a drastic treatment.<br>If you're not okay with it，we'll forget it. What do you say?<br> 
 
 charahide,chara_1,0.5
 

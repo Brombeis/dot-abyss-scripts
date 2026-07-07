@@ -31,14 +31,14 @@ bgmplay,bgmtag1_1,bgm0036,0.75,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――大穴浅層</size>,,,on
+messageTextCenter,,<size=48>—The Shallow Layers of the Abyss</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
 
 
 window,on,0.15
-message,<user>,メレムの占いにあった、大穴で巡り合うすごい幸運！<br>どんなもんに出会うか楽しみだな！
+message,<user>,The great fortune Merem's divination said I'd encounter in the<br>Abyss! I can't wait to see what I'll meet!<br> 
 
 window,off
 wait,0.15
@@ -70,7 +70,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,メレム,占いの結果はあくまでも道標です。<br>それを元にどのような道を進むのかは、それぞれの決断です。,,vc_10470100002_001_01,chara_1
+message,メレム,The results of a divination are merely guideposts. It is up to each<br>individual to decide which path to take.<br> ,,vc_10470100002_001_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -78,7 +78,7 @@ asyncseplay,setag1_2,se4800022,0,1,CONT,0
 
 asynccharaemo,chara_1,Speak,CONT,0
 
-message,<user>,……ん？<br>マズイな、モンスターがいるぞ。
+message,<user>,Hm? That's not good，there's a monster.<br> 
 
 window,off
 wait,0.15
@@ -117,9 +117,9 @@ asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,モンスターA,グルゥ……,402001000,,chara_2
+message,モンスターA,Grrr...<br> ,402001000,,chara_2
 
-message,<user>,まだ気づかれてないみたいだが、どうするか。<br>２人がかりなら倒せるかもしれないが……？
+message,<user>,It doesn't seem to have noticed us yet. What should we do? We could<br>take it on together，but...?<br> 
 
 window,off
 wait,0.15
@@ -162,7 +162,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,メレム,少しお待ちください。<br>進むべき未来を占ってみましょう。,,vc_10470100002_002_01,chara_1
+message,メレム,Please wait a moment. Let me divine the path we should take.<br> ,,vc_10470100002_002_01,chara_1
 
 window,off
 wait,0.15
@@ -186,7 +186,7 @@ asyncseplay,setag1_4,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 window,on,0.15
-message,,メレムが手を振ると数枚のカードが飛び出し、<br>するりと彼女の手に収まった。
+message,,Merem waved her hand，and several cards shot out，sliding smoothly<br>into her grasp.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -198,9 +198,9 @@ asyncseplay,setag1_5,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,メレム,……なるほど。<br>焦りは禁物、じっと待つのが良い、と出ました。,,vc_10470100002_003_01,chara_1
+message,メレム,I see... The cards say not to rush，and that waiting is for the best.<br> ,,vc_10470100002_003_01,chara_1
 
-message,<user>,ふむ……それが占いの結果か。<br>よし、メレムの言う通りにしてみよう。
+message,<user>,Hmm... So that's the result of the divination. Alright，let's do as<br>Merem says.<br> 
 
 window,off
 wait,0.15
@@ -225,7 +225,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,メレム,ええ、動かないでじーっと、じーっと……,,vc_10470100002_004_01,chara_1
+message,メレム,Yes，don't move. Stay very，very still...<br> ,,vc_10470100002_004_01,chara_1
 
 window,off
 wait,0.15
@@ -297,11 +297,11 @@ asyncwait
 
 
 window,on,0.15
-message,モンスターB,ガァッ！！！,402001000,,chara_3
+message,モンスターB,Gaah!<br> ,402001000,,chara_3
 
-message,<user>,おっと、別のモンスターが寄ってきたぞ。<br>敵が増えたが、これでいいのか！？
+message,<user>,Whoa，another monster is coming. More enemies—but is this really<br>okay?!<br> 
 
-message,メレム,ふふ、焦らず見ていてください。,104701000G,vc_10470100002_005_01,on
+message,メレム,Fufu，don't worry，just watch.<br> ,104701000G,vc_10470100002_005_01,on
 
 window,off
 wait,0.15
@@ -324,7 +324,7 @@ asyncwait
 
 
 window,on,0.15
-message,モンスターA,グルルルルルッ！！！,402001000,,chara_2
+message,モンスターA,Grrrrr!<br> ,402001000,,chara_2
 
 window,off
 wait,0.15
@@ -342,7 +342,7 @@ asyncseplay,setag1_9,se4800001,0,1,CONT,0
 asynccharaemo,chara_3,Anger,CONT,0
 
 window,on,0.15
-message,モンスターB,ガァァァァッ！！！,402001000
+message,モンスターB,Gaaah!<br> ,402001000
 
 window,off
 wait,0.15
@@ -356,7 +356,7 @@ asynccharamove,chara_2,LinearTarget,X,400,0.1,CONT
 asynccharamove,chara_2,LinearTarget,CharaHeight,0,0.1,CONT,0
 
 window,on,0.15
-message,<user>,モンスター同士が戦い始めたっ！？<br>これが占いの導いた未来か……！
+message,<user>,The monsters started fighting each other! So this is the future your<br>divination led us to...!<br> 
 
 window,off
 wait,0.15
@@ -407,7 +407,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,メレム,さあ、この先に待つ幸運を探しに参りましょう。,,vc_10470100002_006_01,chara_1
+message,メレム,Now，let us seek the fortune that lies ahead.<br> ,,vc_10470100002_006_01,chara_1
 
 
 window,off
@@ -428,7 +428,7 @@ charascale,chara_1,1.3,0
 transitionFade,Tra01,in,black,1
 
 window,on,0.15
-message,<user>,順調に進んではいるが、幸運ってのはどこにあるのだろうな。<br>大雑把でもいいから進む方向を占ってくれないか？
+message,<user>,We're making good progress，but I wonder where this 'fortune' is.<br>Could you divine a rough direction to head in?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -439,9 +439,9 @@ asyncseplay,setag1_11,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,メレム,ええ、構いませんよ。<br>ではこの水盆で……,,vc_10470100002_007_01,chara_1
+message,メレム,Yes，of course. Then with this scrying basin...<br> ,,vc_10470100002_007_01,chara_1
 
-message,<user>,あ、足元に気をつけろよ。<br>この辺り、ちょっと地面がぬかるんでるから。
+message,<user>,Ah，watch your step. The ground's a bit muddy around here.<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -460,7 +460,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,メレム,……ふぁあああっ！？,,vc_10470100002_008_01,chara_1
+message,メレム,*gasp* Aaaah!<br> ,,vc_10470100002_008_01,chara_1
 
 window,off
 wait,0.15
@@ -487,7 +487,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,,水盆を持って両手の塞がったメレムは、<br>泥まみれの地面で盛大に足をすべらせた。
+message,,Merem，with her hands full from the scrying basin，slipped<br>spectacularly on the muddy ground.<br> 
 
 window,off
 wait,0.15
@@ -508,7 +508,7 @@ transitionCrossFade,Tra21,1
 wait,1
 
 window,on,0.15
-message,<user>,大丈夫かっ！？<br>悪い、言うのが遅れた！
+message,<user>,You okay? Sorry，I should've said something sooner!<br> 
 
 window,off
 wait,0.15
@@ -545,9 +545,9 @@ asynccharaemo,chara_1,Exclamation,STOP,6
 
 
 window,on,0.15
-message,メレム,い、いいえ、ただ転んだだけですから……っ！？<br>あああああぁぁぁぁぁ～っ！！,,vc_10470100002_009_01,chara_1
+message,メレム,N-no，I only tripped，so... Aaaaah!<br> ,,vc_10470100002_009_01,chara_1
 
-message,<user>,ど、どうした！？　<br>怪我か、モンスターか、それとも罠かっ！？
+message,<user>,Wh-what's wrong? An injury? A monster? A trap?<br> 
 
 asyncshake,CHARA,chara_1,20,15,0.5,6,on,off,0,off,CONT,0
 
@@ -556,7 +556,7 @@ asyncseplay,setag1_16,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,メレム,水盆に……泥が混じっちゃった……！<br>これじゃ占えないよぉ……,,vc_10470100002_010_01,chara_1
+message,メレム,The scrying basin... got mud in it...! I can't divine with this<br>nooow...<br> ,,vc_10470100002_010_01,chara_1
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -564,9 +564,9 @@ asyncseplay,setag1_17,se4800015,0,1,CONT,0
 
 asynccharaemo,chara_1,Dull,CONT,0
 
-message,,メレムは涙目で水盆を掲げた。<br>転んだ時に入ったのだろう、水にたくさんの泥が混入している。
+message,,Merem held up the scrying basin，teary-eyed. The water was<br>muddy，probably from her fall.<br> 
 
-message,<user>,……ただ泥が入っただけだろう。<br>水を入れ替えればいいじゃないか。
+message,<user>,...It's just some mud，right? Can't you just change the water?<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -585,7 +585,7 @@ asyncseplay,setag1_19,se4800007,0,1,STOP,3.4
 asynccharaemo,chara_1,Panic,STOP,3.4
 
 
-message,メレム,これは繊細な魔道具なんです～！　こんなにたくさん泥が混ざったら、<br>ちゃんと綺麗にしないと未来が映らないの～！,,vc_10470100002_011_01,chara_1
+message,メレム,This is a delicate magical tool! With so much mud in it，the future<br>won't show if I don't clean it properly!<br> ,,vc_10470100002_011_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -596,7 +596,7 @@ asyncseplay,setag1_20,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,メレム,うう、まだ魔導書もあるし、カードだって……。<br>落ち着いて、落ち着いて……,,vc_10470100002_012_01,chara_1
+message,メレム,Uuh，I still have the grimoire and cards... Calm down，calm down...<br> ,,vc_10470100002_012_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -618,9 +618,9 @@ asyncseplay,setag1_21,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,メレム,……おほん。<br>では占いましょう。進むべき道は……こちらですね。,,vc_10470100002_013_01,chara_1
+message,メレム,...Ahem. Well then，let us divine. The path we should take... is this<br>way，I believe.<br> ,,vc_10470100002_013_01,chara_1
 
-message,<user>,ええと、メレム？<br>さっきの情けない姿はなんなんだ？
+message,<user>,Um，Merem? What was that pathetic display just now?<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -631,9 +631,9 @@ asyncseplay,setag1_22,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,メレム,き、気にしないでください。<br>占いがある限り、私は問題ありませんので。,,vc_10470100002_014_01,chara_1
+message,メレム,D-don't worry about me. As long as I have my divination，I'm fine.<br> ,,vc_10470100002_014_01,chara_1
 
-message,<user>,それは占えなくなったら問題が起きるって意味じゃないのか！？<br>本当に大丈夫なのかっ！？
+message,<user>,Doesn't that mean you'll have a problem if you can't divine! Are you<br>really okay?<br> 
 
 
 window,off
@@ -659,7 +659,7 @@ transitionFade,Tra09,in,black,1
 
 
 window,on,0.15
-message,メレム,上につながる道か、下に向かう道か。<br>進むべきはこのカードが示すでしょう……っ！？,,vc_10470100002_015_01,chara_1
+message,メレム,A path leading up or a path going down. The cards will show which<br>way to go...!<br> ,,vc_10470100002_015_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -679,7 +679,7 @@ asyncseplay,setag1_24,se4700030,0,1,CONT,0
 wait,1
 
 window,on,0.15
-message,,吹き抜けた突風がメレムの手からカードを奪い去る。<br>空中を舞ったカードは大穴の遥か下へと落ちていった。
+message,,A gust of wind snatched the cards from Merem's hands. They danced<br>through the air and fell deep into the Abyss.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -690,9 +690,9 @@ asyncseplay,setag1_25,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,メレム,私のカードがぁ……！<br>大事にしてたのに～！！,,vc_10470100002_016_01,chara_1
+message,メレム,My cards...! I took such good care of them!<br> ,,vc_10470100002_016_01,chara_1
 
-message,<user>,俺が誘ったせい、だよな。<br>なんかすまん……
+message,<user>,It's my fault for bringing you here. Sorry...<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -703,7 +703,7 @@ asyncseplay,setag1_26,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,メレム,へ、平気です。この魔導書で占いましょう。<br>私たちが行くべきは……下、ですね。,,vc_10470100002_017_01,chara_1
+message,メレム,I-I'm fine. Let me divine with this grimoire. Where we should go...<br>is down，it seems.<br> ,,vc_10470100002_017_01,chara_1
 
 
 window,off
@@ -726,7 +726,7 @@ charaface,chara_1,FaceSad
 transitionFade,Tra01,in,black,1
 
 window,on,0.15
-message,<user>,この辺りは水場がある。<br>落ちないように気をつけよう。
+message,<user>,There's a pool of water around here. Let's be careful not to fall<br>in.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -737,7 +737,7 @@ asyncseplay,setag1_27,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,メレム,はい、もしも落ちたら魔導書まで使えなくなりますから……,,vc_10470100002_018_01,chara_1
+message,メレム,Yes，if we fall，even the grimoire will become unusable...<br> ,,vc_10470100002_018_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -748,7 +748,7 @@ asyncseplay,setag1_28,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,メレム,っ！　司令官、気をつけてください！<br>上から何か落ちてきますっ！,,vc_10470100002_019_01,chara_1
+message,メレム,Ah! Commander，be careful! Something's falling from above!<br> ,,vc_10470100002_019_01,chara_1
 
 window,off
 wait,0.15
@@ -780,7 +780,7 @@ asyncshake,CHARA,chara_2,24,0,0.6,7,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_3,24,0,0.6,7,off,off,0,on,CONT,0
 
 window,on,0.15
-message,,ガラガラという音が響き、水場へと大きな岩が転がり落ちた。<br>幸運にも２人にぶつかることはなかったが――
+message,,A rumbling sound echoed，and a large rock tumbled down into the pool.<br>Fortunately，it didn't hit either of them，but—<br> 
 
 window,off
 wait,0.15
@@ -806,7 +806,7 @@ asyncseplay,setag1_30,se4400175,0,1,CONT,0
 wait,1
 
 window,on,0.15
-message,<user>,うわっ、ここまで水が飛んできたぞっ！
+message,<user>,Whoa，the water splashed all the way over here!<br> 
 
 window,off
 wait,0.15
@@ -847,9 +847,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,メレム,あ、あああっ！　魔導書が濡れてびしゃびしゃに～～！！！<br>これじゃ占えないよぉ～！,,vc_10470100002_020_01,chara_1
+message,メレム,Ah，Aaah! The grimoire got completely soaked! I can't do any<br>fortune-telling like this!<br> ,,vc_10470100002_020_01,chara_1
 
-message,<user>,……やられたか。<br>それ、濡れたらもう使えないのか？
+message,<user>,...So it got us. Can't you use it once it's wet?<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -860,7 +860,7 @@ asyncseplay,setag1_33,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,メレム,ちゃんと乾かせば大丈夫だけど～！<br>濡れたまま開いたらページが破れちゃう～！,,vc_10470100002_021_01,chara_1
+message,メレム,If I dry it properly，it'll be fine! But if I open it while wet，the<br>pages will tear!<br> ,,vc_10470100002_021_01,chara_1
 
 window,off
 wait,0.15
@@ -889,9 +889,9 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,メレム,でも占える道具は……まだダイスがある！<br>これを転がして、私たちの未来を見通しましょう！,,vc_10470100002_022_01,chara_1
+message,メレム,But I still have a divination tool... the dice! Let's roll them and<br>see our future!<br> ,,vc_10470100002_022_01,chara_1
 
-message,<user>,……この大穴でダイスを転がすって時点で、<br>俺にすら未来が分かるんだが。
+message,<user>,...Just rolling dice in the Abyss，even I can see what'll happen.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -902,9 +902,9 @@ asyncseplay,setag1_35,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,メレム,あ、あああっ！<br>ダイスが転がって、割れた地面の間にーっ！,,vc_10470100002_023_01,chara_1
+message,メレム,Ah，Aaah! The dice rolled and fell into a crack in the ground!<br> ,,vc_10470100002_023_01,chara_1
 
-message,<user>,やっぱりな……
+message,<user>,Just as I thought...<br> 
 
 
 window,off
@@ -934,9 +934,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,メレム,どうしよう、道具が全部なくなっちゃった……<br>これじゃ占えない～！　うわぁ～～ん！！！,,vc_10470100002_024_01,chara_1
+message,メレム,What should I do? All my tools are gone... I can't divine like this!<br>Waaah!<br> ,,vc_10470100002_024_01,chara_1
 
-message,<user>,落ち着け、そこまで慌てることはないって。<br>占いは道標でしかないって言ったのはメレムだろ？
+message,<user>,Calm down，there's no need to panic so much. You're the one who said<br>fortune-telling is just a guide，right?<br> 
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -945,9 +945,9 @@ asyncseplay,setag1_37,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,メレム,無理なの～！　私には占いがないとダメ～！！,,vc_10470100002_025_01,chara_1
+message,メレム,It's impossible! I need my fortune-telling，or I can't do anything!<br> ,,vc_10470100002_025_01,chara_1
 
-message,<user>,本当にポンコツになってるな……。<br>どうしてそこまで占いを頼る？
+message,<user>,You're really in a state... Why do you rely on fortune-telling so<br>much?<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -958,14 +958,14 @@ asyncseplay,setag1_38,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,メレム,うぅ……私の故郷はすごく占いを大事にする国で、<br>ず～っと占いを大切にしてきたの。,,vc_10470100002_026_01,chara_1
+message,メレム,*whimper*... My homeland is a country that greatly values<br>fortune-telling，and I've cherished it my whole life.<br> ,,vc_10470100002_026_01,chara_1
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,メレム,毎日の夕食も、身につけるアクセサリーの色も、<br>なんでも占いを参考にしてるんです。,,vc_10470100002_027_01,chara_1
+message,メレム,They use fortune-telling for everything，from what to have for dinner<br>to what color accessories to wear.<br> ,,vc_10470100002_027_01,chara_1
 
-message,<user>,メレムが個人的に占い頼みの生活をしてたんじゃなく、<br>国単位でみんなそんな感じだったのか？
+message,<user>,So it wasn't just you living by fortune-telling，but the whole<br>country was like that?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -976,9 +976,9 @@ asyncseplay,setag1_39,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,メレム,そうですぅ～！　国の政治も軍事も経済も！　<br>全部占いを参考にしてたんだから～～！！！,,vc_10470100002_028_01,chara_1
+message,メレム,That's right! Politics，military，and the economy! Everything was<br>based on fortune-telling!<br> ,,vc_10470100002_028_01,chara_1
 
-message,<user>,なんだその独特な国！？<br>あくまで参考にしてるだけなんだよな！？
+message,<user>,What's with that bizarre country!<br>They only use it for reference，right?<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -989,7 +989,7 @@ asyncseplay,setag1_40,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,メレム,もちろん占いで決めてたわけじゃないけど～、<br>ちゃんと占いを大事にしてたんです～！,,vc_10470100002_029_01,chara_1
+message,メレム,Of course we didn't decide everything by divination，but... I really<br>cherished my divination!<br> ,,vc_10470100002_029_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1000,7 +1000,7 @@ asyncseplay,setag1_41,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,メレム,私が前線基地に来たのも占いの結果なの～！<br>大いなる災いを防ぐべく力になるべし、って！,,vc_10470100002_030_01,chara_1
+message,メレム,I came to this Frontline Base because of a divination result... It<br>said I should lend my strength to prevent a great calamity!<br> ,,vc_10470100002_030_01,chara_1
 
 asyncshake,CHARA,chara_1,20,15,0.5,6,on,off,0,off,CONT,0
 
@@ -1009,7 +1009,7 @@ asyncseplay,setag1_42,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,メレム,だけどこっちでも占いのお仕事はたくさんで忙しいし、<br>さっきみたいにモンスターと戦うこともあるし～！！,,vc_10470100002_031_01,chara_1
+message,メレム,But here too，I'm busy with lots of fortune-telling work，and<br>sometimes I have to fight monsters like earlier...!<br> ,,vc_10470100002_031_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1020,7 +1020,7 @@ asyncseplay,setag1_43,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,メレム,運命の中心になりそうな司令官を見つけたのに、<br>一緒に来たら占いの道具が全部使えなくなるなんて……,,vc_10470100002_032_01,chara_1
+message,メレム,Even though I found the Commander who seemed to be at the center of<br>fate，when I came with you，all my divination tools became unusable...<br> ,,vc_10470100002_032_01,chara_1
 
 window,off
 wait,0.15
@@ -1054,11 +1054,11 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 
 window,on,0.15
-message,メレム,うう、来るんじゃなかった……故郷に帰りたいよぉ……,,vc_10470100002_033_01,chara_1
+message,メレム,*sob*... I shouldn't have come... I want to go home...<br> ,,vc_10470100002_033_01,chara_1
 
-message,<user>,メレムが弱りきってる……。<br>さっきまであんなにクールな占い師だったのに……
+message,<user>,Merem's completely broken down... She was such a cool fortune-teller<br>until just now...<br> 
 
-message,<user>,大穴で巡り合う幸運ってのは、どこにあるんだ？<br>この状況はどう考えても幸運じゃなさそうなんだが……
+message,<user>,Where's the fortune we were supposed to encounter in the Abyss? No<br>matter how you look at it，this situation doesn't seem lucky...<br> 
 
 window,off
 wait,0.15
@@ -1092,9 +1092,9 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,メレム,ううぅ～！　占えない時にどうしたらいいのか、<br>私に占わせてよぉ～！！！,,vc_10470100002_034_01,chara_1
+message,メレム,*sob*! Let me divine what to do when I can't divine!<br> ,,vc_10470100002_034_01,chara_1
 
-message,<user>,それは無理、かなあ……
+message,<user>,That's impossible，I think...<br> 
 
 window,off
 bgmstop,bgmtag1_2,0.5

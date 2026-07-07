@@ -80,7 +80,7 @@ shake,CHARA,chara_7,20,0,0.25,30,off,off,0
 
 
 window,on,0.15
-message,モンスター,ギャォォォォッ！！！,402001000,,chara_2
+message,モンスター,GRAAAAH!<br> ,402001000,,chara_2
 
 window,off
 wait,0.15
@@ -124,9 +124,9 @@ asynccharaemo,chara_3,Exclamation,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,前方から複数の敵！ <br>迎撃に入ります！,400901000,,chara_3
+message,兵士Ａ,Multiple enemies from the front!<br>We're engaging!<br> ,400901000,,chara_3
 
-message,<user>,今日はヒーラーが部隊に参加していていない！<br>慎重に戦えよ！
+message,<user>,We don't have a healer with the unit today!<br>Fight carefully!<br> 
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -145,7 +145,7 @@ asyncseplay,setag1_4,se4800007,0,1,CONT,0
 asynccharaemo,chara_4,Panic,CONT,0
 
 
-message,兵士たち,は、はい……！,900000001,,chara_3/chara_4
+message,兵士たち,Y-yes...!<br> ,900000001,,chara_3/chara_4
 
 asyncseplay,setag1_5,se4900098,0,1,CONT,0
 
@@ -159,7 +159,7 @@ asyncseplay,setag1_7,se4900098,0,1,CONT,0
 
 wait,0.5
 
-message,,怯えた様子で武器を構える兵士たち。<br>その背後から、幾本もの矢が放たれた……！
+message,,The soldiers raised their weapons，fear on their faces.<br>From behind them，a volley of arrows was loosed...!<br> 
 
 window,off
 wait,0.15
@@ -253,7 +253,7 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,モンスター,ギャォ！？,402001000,,chara_2
+message,モンスター,GYAOH!<br> ,402001000,,chara_2
 
 window,off
 wait,0.15
@@ -319,7 +319,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,テルー,みんな大丈夫～？<br>援護射撃、いっくよぉ～！,106001000G,vc_10600100002_001_01,chara_1
+message,テルー,Is everyone alright?<br>Covering fire，here we go!<br> ,106001000G,vc_10600100002_001_01,chara_1
 
 window,off
 wait,0.15
@@ -429,7 +429,7 @@ wait,0.2
 asyncprefabshowUI,uieffect_2,ON,CONT,0
 
 window,on,0.15
-message,,前方から突進してくるモンスターへ、テルーの放った矢が突き刺さる。<br>まるで曲芸のような同時射撃で瞬く間にモンスターが倒れていく。
+message,,Telu's arrows pierced the monsters charging from ahead. With a<br>simultaneous volley like a circus act，the monsters fell in an instant.<br> 
 
 window,off
 wait,0.15
@@ -458,7 +458,7 @@ asynccharaemo,chara_6,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,モンスター,ギヤウゥゥゥッ！,402001000,,chara_2/chara_5/chara_6
+message,モンスター,GYAAAUUGH!<br> ,402001000,,chara_2/chara_5/chara_6
 
 window,off
 wait,0.15
@@ -541,7 +541,7 @@ asynccharaemo,chara_3,Exclamation,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,すごい！　なんて腕だ……！,400901000,,chara_3
+message,兵士Ａ,Amazing! Such skill...!<br> ,400901000,,chara_3
 
 window,off
 wait,0.15
@@ -581,7 +581,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,援護どころかすべて自分で倒してるじゃないか。<br>やるもんだな、テルー。
+message,<user>,You did all that yourself，not just covering fire.<br>Impressive，Telu.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -592,11 +592,11 @@ asyncseplay,setag1_22,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,テルー,これぐらいなんてことないよっ。<br>この調子でドンドンいこうね！　えい・えい・おー♪,106001000G,vc_10600100002_002_01,chara_1
+message,テルー,This is nothing at all!<br>Let's keep up this momentum! Hip hip hooray!♪<br> ,106001000G,vc_10600100002_002_01,chara_1
 
-message,兵士Ａ,お、おおー！ <br>テルーちゃんと一緒なら、きっと勝てるぞ！,400901000
+message,兵士Ａ,O-ohhh!<br>With Telu on our side，we can definitely win!<br> ,400901000
 
-message,<user>,よし！　このままテルーを中心に進むぞ！
+message,<user>,Alright! Let's push forward with Telu leading the way!<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -640,7 +640,7 @@ cleanall,EFFECT
 wait,0.5
 
 window,on,0.15
-message,<user>,これで調査は完了だ。<br>脱落者もなく戻って来られたか。
+message,<user>,The survey is complete.<br>We made it back without any losses.<br> 
 
 window,off
 wait,0.15
@@ -682,7 +682,7 @@ asyncseplay,setag1_23,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 window,on,0.15
-message,<user>,しかしテルーが元気にみんなを引っ張っていったから、<br>あんまり疲れた気がしないな。
+message,<user>,But with Telu cheerfully leading everyone，I don't really feel tired.<br> 
 
 window,off
 wait,0.15
@@ -701,9 +701,9 @@ wait,0.5
 
 
 window,on,0.15
-message,テルー,そんなことないよぉ～。<br>みんなで一緒に頑張ったおかげ！,106001000G,vc_10600100002_003_01,chara_1
+message,テルー,That's not true at all!<br>It's because we all worked hard together!<br> ,106001000G,vc_10600100002_003_01,chara_1
 
-message,<user>,お前は本当にいい子だな……
+message,<user>,You're a really good kid，Telu...<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -714,7 +714,7 @@ asyncseplay,setag1_25,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,テルー,もー、そんなに褒められたら照れちゃうよぉ～。,106001000G,vc_10600100002_004_01,chara_1
+message,テルー,Geez，you're going to make me blush with all that praise!<br> ,106001000G,vc_10600100002_004_01,chara_1
 
 window,off
 wait,0.15
@@ -733,7 +733,7 @@ wait,0.5
 
 
 window,on,0.15
-message,テルー,……あれ？ <br>あそこの兵士さんたち……,106001000G,vc_10600100002_005_01,chara_1
+message,テルー,...Huh?<br>Those soldiers over there...<br> ,106001000G,vc_10600100002_005_01,chara_1
 
 window,off
 wait,0.15
@@ -788,7 +788,7 @@ wait,1
 asyncjump,CHARA,chara_3,30,0.25,1,off,0,CONT
 
 window,on,0.15
-message,,テルーの視線の先には、怪我に苦しむ兵士と、 <br>彼に肩を貸す仲間の姿があった。
+message,,Before Telu's eyes，a wounded soldier leaned on his comrade.<br> 
 
 asyncshake,CHARA,chara_4,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -797,7 +797,7 @@ asyncseplay,setag1_28,se4800008,0,1,CONT,0
 asynccharaemo,chara_4,Sweat,CONT,0
 
 
-message,兵士Ｂ,痛え……。<br>腕を切られちまったぜ……,401201000,,chara_4
+message,兵士Ｂ,It hurts... My arm got cut...<br> ,401201000,,chara_4
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -808,7 +808,7 @@ asyncseplay,setag1_29,se4800010,0,1,CONT,0
 asynccharaemo,chara_3,Exclamation,CONT,0
 
 
-message,兵士Ａ,大した怪我じゃない！<br>早く基地に戻って治療所に行こう！,400901000,,chara_3
+message,兵士Ａ,It's not that bad! Let's head back to Forward Base and get to the<br>infirmary!<br> ,400901000,,chara_3
 
 asyncshake,CHARA,chara_4,20,15,0.5,6,on,off,0,off,CONT,0
 
@@ -817,7 +817,7 @@ asyncseplay,setag1_30,se4800007,0,1,CONT,0
 asynccharaemo,chara_4,Panic,CONT,0
 
 
-message,兵士Ｂ,ああ……ぐっ、イテテ……,401201000,,chara_4
+message,兵士Ｂ,Yeah... ngh，ow，ow...<br> ,401201000,,chara_4
 
 window,off
 wait,0.15
@@ -869,7 +869,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,テルー,怪我しちゃったのっ？　見せてっ。,106001000G,vc_10600100002_006_01,chara_1
+message,テルー,You got hurt? Let me see!<br> ,106001000G,vc_10600100002_006_01,chara_1
 
 window,off
 wait,0.15
@@ -922,7 +922,7 @@ asynccharaemo,chara_4,Shock,CONT,0
 
 
 window,on,0.15
-message,兵士Ｂ,テルーちゃん……？<br>もしかして、怪我の治療もできるのか……？,401201000,,chara_4
+message,兵士Ｂ,Telu...? Can you treat wounds too...?<br> ,401201000,,chara_4
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -934,7 +934,7 @@ asyncseplay,setag1_33,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,テルー,専門じゃないから応急処置だけどね……。<br>でも、いつもやってるから安心してね♪,106001000G,vc_10600100002_007_01,chara_1
+message,テルー,It's not my specialty，so it's just basic first aid... But I do this<br>all the time，so don't worry!♪<br> ,106001000G,vc_10600100002_007_01,chara_1
 
 window,off
 wait,0.15
@@ -992,9 +992,9 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,テルー,こうしてぎゅっと止血して、傷を洗浄。<br>傷まないように、しっかり包帯を巻いて～。,106001000G,vc_10600100002_008_01,chara_1
+message,テルー,I'll press down to stop the bleeding，clean the wound... Then wrap it<br>tight so it doesn't hurt.<br> ,106001000G,vc_10600100002_008_01,chara_1
 
-message,兵士Ａ,お、おお……すごい手際だ……,400901000
+message,兵士Ａ,Wh-whoa... That's some skill...<br> ,400901000
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1014,7 +1014,7 @@ asyncseplay,setag1_36,se4800003,0,1,STOP,5.1
 asynccharaemo,chara_1,Twinkle,STOP,5.1
 
 
-message,テルー,これで怪我の治療はよしっと……。<br>最後に――いたいのいたいのとんでいけ～♪,106001000G,vc_10600100002_009_01,chara_1
+message,テルー,That takes care of the wound... And finally—Pain，pain，fly away!♪<br> ,106001000G,vc_10600100002_009_01,chara_1
 
 window,off
 wait,0.15
@@ -1068,7 +1068,7 @@ wait,0.5
 
 
 window,on,0.15
-message,兵士Ｂ,え……今のは……？,401201000,,chara_4
+message,兵士Ｂ,Huh... what was that...?<br> ,401201000,,chara_4
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1079,7 +1079,7 @@ asyncseplay,setag1_38,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,テルー,ふふっ。おまじないの魔法だよ♪　 <br>少しは痛みが消えたかな？,106001000G,vc_10600100002_010_01,chara_1
+message,テルー,Fufu. It's a magic charm!♪ Feeling a bit better?<br> ,106001000G,vc_10600100002_010_01,chara_1
 
 window,off
 wait,0.15
@@ -1098,7 +1098,7 @@ wait,0.5
 
 
 window,on,0.15
-message,兵士Ｂ,て、天使だぁ……！<br>もうぜーんぜん痛くねえよっ！,401201000,,chara_4
+message,兵士Ｂ,An angel...! It doesn't hurt at all now!<br> ,401201000,,chara_4
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1109,9 +1109,9 @@ asyncseplay,setag1_40,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,テルー,ふふっ、良かった。<br>でも、ちゃんと基地で診てもらってねー？,106001000G,vc_10600100002_011_01,chara_1
+message,テルー,Fufu，that's good. But be sure to get it properly checked at the<br>Forward Base，okay?<br> ,106001000G,vc_10600100002_011_01,chara_1
 
-message,<user>,……こりゃ、またテルー親衛隊のメンバーが増えそうだな……<br>まあ、あんなに優しくされたら仕方ないか……
+message,<user>,Looks like the Telu Guard's going to get another member...<br>Well，can't blame him after being treated that nicely.<br> 
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -1174,7 +1174,7 @@ asynccharaemo,chara_7,Laugh,CONT,0
 
 
 window,on,0.15
-message,兵士Ｃ,おお、戻ってきたぞ！ <br>テルーちゃんだ！,401501000,,chara_7
+message,兵士Ｃ,Oh，they're back! It's Telu!<br> ,401501000,,chara_7
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1193,7 +1193,7 @@ asyncseplay,setag1_43,se4800009,0,1,STOP,1.7
 asynccharaemo,chara_1,Question,STOP,1.7
 
 
-message,テルー,みんなただいま～♪ <br>どうしたの、こんなところで～？,106001000G,vc_10600100002_012_01,chara_1
+message,テルー,I'm baaack!♪ What are you all doing out heeere?<br> ,106001000G,vc_10600100002_012_01,chara_1
 
 asynccharaface,chara_7,FaceSad,CONT,0
 
@@ -1204,7 +1204,7 @@ asyncseplay,setag1_44,se4800008,0,1,CONT,0
 asynccharaemo,chara_7,Sweat,CONT,0
 
 
-message,兵士Ｃ,今日も大道芸があるのかと思って待ってたんだ。 <br>そうか、探索に出てたのか……なら仕方ないな。,401501000,,chara_7
+message,兵士Ｃ,I was waiting，thinking you might be doing your street show again<br>today. So you were out exploring... That's fair.<br> ,401501000,,chara_7
 
 window,off
 wait,0.15
@@ -1258,7 +1258,7 @@ asynccharaemo,chara_1,Twinkle,STOP,3.9
 
 
 window,on,0.15
-message,テルー,ええ～、待っててくれたの～！？<br>ごめんね～、それじゃあさっそく今から始めるね！,106001000G,vc_10600100002_013_01,chara_1
+message,テルー,Aww，you waited for me! I'm sorry，I'll start right away!<br> ,106001000G,vc_10600100002_013_01,chara_1
 
 window,off
 wait,0.15
@@ -1311,7 +1311,7 @@ asynccharaemo,chara_7,Shock,CONT,0
 
 
 window,on,0.15
-message,兵士Ｃ,い、いいのかっ？　探索から戻ったところなんだろ？,401501000,,chara_7
+message,兵士Ｃ,A-are you sure? You just got back from exploring，didn't you?<br> ,401501000,,chara_7
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1322,7 +1322,7 @@ asyncseplay,setag1_48,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,テルー,みんなが喜んでくれるなら、<br>私は全然平気だよ♪,106001000G,vc_10600100002_014_01,chara_1
+message,テルー,If it makes everyone happy，I'm totally fine!<br> ,106001000G,vc_10600100002_014_01,chara_1
 
 window,off
 wait,0.15
@@ -1361,7 +1361,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,……テルー、俺も手伝おう。 <br>道具を準備したり、途中で矢を回収したり、人手はあったほうがいいだろ？
+message,<user>,...Telu，I'll help too. It'd be better to have extra hands to prepare<br>the tools and recover arrows along the way，right?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1373,9 +1373,9 @@ asyncseplay,setag1_49,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,テルー,ううん！　司令官はず～っと集中して、一番疲れてるでしょ？<br>私は大丈夫だから先に戻ってて♪,106001000G,vc_10600100002_015_01,chara_1
+message,テルー,Nope! Commander，you've been totally focused the whole time，so you're<br>the most tired，right? I'm fine，so you go on ahead!♪<br> ,106001000G,vc_10600100002_015_01,chara_1
 
-message,<user>,……分かった。<br>そっちも早めに切り上げろよ。
+message,<user>,...Got it. You wrap up early too，okay?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1386,9 +1386,9 @@ asyncseplay,setag1_50,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,テルー,りょうか～い！ <br>さあみんな！　テルーの大道芸、始まるよ～！,106001000G,vc_10600100002_016_01,chara_1
+message,テルー,Roger that! Alright everyone! Telu's street show is starting!<br> ,106001000G,vc_10600100002_016_01,chara_1
 
-message,兵士たち,おおー！！！,900000001
+message,兵士たち,Woooh!<br> ,900000001
 
 window,off
 wait,0.15
@@ -1432,7 +1432,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 wait,0.5
 
 window,on,0.15
-message,<user>,……テルーを見ていると、俺も休んでいられないな。<br>もうちょっと頑張るとするか。
+message,<user>,...Seeing Telu like that，I can't afford to slack off either. Guess<br>I'll keep at it a bit longer.<br> 
 
 bgmstop,bgmtag1_3,1.5,0
 
@@ -1461,7 +1461,7 @@ bgmplay,bgmtag1_4,bgm0025,0.75,1
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,<user>,よし、今日の報告書は完成だな。<br>やれやれ、テルーの影響でこんな遅くまで仕事をしてしまった。
+message,<user>,Okay，that's today's report done. Sheesh，thanks to Telu，I ended up<br>working this late.<br> 
 
 window,off
 wait,0.15
@@ -1481,9 +1481,9 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,テルー,司令官？ <br>まだ起きてるの～？,106001000G,vc_10600100002_017_01,
+message,テルー,Commander? Are you still up?<br> ,106001000G,vc_10600100002_017_01,
 
-message,<user>,……テルー？ <br>ああ、入っていいぞ。
+message,<user>,...Telu? Yeah，come in.<br> 
 
 window,off
 wait,0.15
@@ -1553,9 +1553,9 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,テルー,こんばんは、司令官～っ。これ、差し入れのお菓子。<br>キッチンで作ってきたんだぁ～♪,106001000G,vc_10600100002_018_01,chara_1
+message,テルー,Good evening，Commander! I brought you some homemade snacks. I made<br>them in the kitchen!♪<br> ,106001000G,vc_10600100002_018_01,chara_1
 
-message,<user>,おっ、ありがとな。<br>テルー、料理までできるのか。
+message,<user>,Oh，thanks. Telu，you can cook too?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1574,11 +1574,11 @@ asyncseplay,setag1_55,se4800007,0,1,STOP,3.7
 asynccharaemo,chara_1,Panic,STOP,3.7
 
 
-message,テルー,うんっ。そんなに上手くはないけどね。<br>司令官はずっとお仕事してたの？　無理しすぎちゃダメだよ～？,106001000G,vc_10600100002_019_01,chara_1
+message,テルー,Mm-hmm. They're not that great，though. Commander，have you been<br>working all this time? Don't push yourself too hard，okay?<br> ,106001000G,vc_10600100002_019_01,chara_1
 
-message,<user>,……お前のほうこそ無理しすぎてないか？ <br>探索でも大活躍で、兵士の治療に、大道芸までやったんだろう？
+message,<user>,...Aren't you overdoing it? You played a huge part in the<br>exploration，treated the wounded，and even put on a street show，didn't you?<br> 
 
-message,<user>,その上にこうしてお菓子まで作って……。 <br>今日はずっと動きっぱなしじゃないか。
+message,<user>,And on top of that，you went and made snacks... You've been going<br>nonstop all day.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1597,9 +1597,9 @@ asyncseplay,setag1_57,se4800019,0,1,STOP,4.4
 asynccharaemo,chara_1,Elated,STOP,4.4
 
 
-message,テルー,大丈夫だよ～！ <br>私、体力には自信あるもん！　むんっ！,106001000G,vc_10600100002_020_01,chara_1
+message,テルー,I'm fine! I've got plenty of stamina! Mmph!<br> ,106001000G,vc_10600100002_020_01,chara_1
 
-message,,そうして力こぶを作ってみせるテルー。<br>思わず<user>も笑みをこぼした。
+message,,Telu showed off her bicep with a grin. The Commander couldn't help<br>but smile.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1610,9 +1610,9 @@ asyncseplay,setag1_58,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,テルー,それに私は好きでやってるんだもん。<br>頑張ってる人の役に立ちたくて、前線基地に来たんだから♪,106001000G,vc_10600100002_021_01,chara_1
+message,テルー,Besides，I do it because I enjoy it. I came to the Forward Base<br>because I wanted to support everyone who's working so hard!♪<br> ,106001000G,vc_10600100002_021_01,chara_1
 
-message,<user>,そうだな……。<br>確かにテルーの存在は基地で戦うやつらの支えになってるよ。
+message,<user>,Yeah，you're right... Your presence really does support the soldiers<br>fighting at this base.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1623,9 +1623,9 @@ asyncseplay,setag1_59,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,テルー,そう言ってもらえたら嬉しいっ！<br>みんなの喜ぶ顔でいくらでも頑張れちゃうよ～！,106001000G,vc_10600100002_022_01,chara_1
+message,テルー,I'm glad you said that! Just seeing everyone's happy smiles makes me<br>want to keep giving it my all!<br> ,106001000G,vc_10600100002_022_01,chara_1
 
-message,<user>,まあ、テルーがそこまで言うなら……
+message,<user>,Well，if Telu insists that much...<br> 
 
 window,off
 wait,0.15
@@ -1640,7 +1640,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（前線の兵にとって、生き甲斐ってのは一番大切なものだ。<br>無理に止めるのも問題か……）
+message,<user>,(For frontline soldiers，their purpose in life is the most important<br>thing. Forcing them to stop might cause problems too...)<br> 
 
 window,off
 wait,0.15
@@ -1655,7 +1655,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,ま、このお菓子はありがたくいただくよ。<br>明日も探索があるんだから、早く休めよ？
+message,<user>,Well，I'll gladly take these snacks. We have an exploration<br>tomorrow，so make sure you get some rest，okay?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1666,7 +1666,7 @@ asyncseplay,setag1_60,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,テルー,うんっ！,106001000G,vc_10600100002_023_01,chara_1
+message,テルー,Mhm!<br> ,106001000G,vc_10600100002_023_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1677,9 +1677,9 @@ asyncseplay,setag1_61,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,テルー,……でも司令官、お茶が冷えちゃってるよ？ <br>せっかくだから温かいのを用意してくるね♪,106001000G,vc_10600100002_024_01,chara_1
+message,テルー,...But Boss，your tea has gone cold! Since you're here anyway，I'll<br>make you some hot tea!♪<br> ,106001000G,vc_10600100002_024_01,chara_1
 
-message,<user>,おいおい、そんなことまでしなくていいんだぞ。
+message,<user>,Hey hey，you don't have to go that far.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1690,7 +1690,7 @@ asyncseplay,setag1_62,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,テルー,美味しくお菓子を食べてもらいたいんだもん！ <br>私に任せておいて～！,106001000G,vc_10600100002_025_01,chara_1
+message,テルー,But I want you to enjoy the snacks，you know! Leave it to me!<br> ,106001000G,vc_10600100002_025_01,chara_1
 
 window,off
 wait,0.15
@@ -1715,7 +1715,7 @@ asynccharamove,chara_1,Linear,Y,40,0.5,CONT,0
 asyncwait
 
 window,on,0.15
-message,,テルーは冷えたお茶の入ったコップを手に取る。 <br>そのまま胸元に引き寄せて、両手で持とうとし――つるりと手が滑った。
+message,,Telu picked up the cup of cold tea. She brought it to her<br>chest，trying to hold it with both hands—but her hand slipped.<br> 
 
 window,off
 wait,0.15
@@ -1732,7 +1732,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,テルー,きゃんっ！？,106001000G,vc_10600100002_026_01,chara_1
+message,テルー,Yip!<br> ,106001000G,vc_10600100002_026_01,chara_1
 
 window,off
 wait,0.15
@@ -1740,7 +1740,7 @@ wait,0.15
 charafocusonall
 
 window,on,0.15
-message,<user>,うわっ！？　服にこぼしたのか？<br>熱くなくて良かったな……
+message,<user>,Whoa! Did you spill it on your clothes? At least it wasn't hot...<br>that's good.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1751,7 +1751,7 @@ asyncseplay,setag1_64,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,テルー,うう、びっくりさせてごめんね。 <br>気をつけてたんだけど……,106001000G,vc_10600100002_027_01,chara_1
+message,テルー,Ugh，sorry for startling you. I was being careful，but...<br> ,106001000G,vc_10600100002_027_01,chara_1
 
 window,off
 wait,0.15
@@ -1766,7 +1766,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（……ん？ <br>濡れたせいで、テルーの胸元が透けて……）
+message,<user>,(...Huh? Since it got wet，Telu's chest is see-through...)<br> 
 
 window,off
 wait,0.15
@@ -1800,7 +1800,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（こ、これは……。<br>じっと見ると、服の下が見えそうだ……！）
+message,<user>,(Th-this is... If I stare hard enough，I can almost see under her<br>clothes...!)<br> 
 
 window,off
 wait,0.15
@@ -1826,7 +1826,7 @@ wait,0.5
 
 
 window,on,0.15
-message,テルー,司令官？　どうしてそんなにじっと……,106001000G,vc_10600100002_028_01,chara_1
+message,テルー,Boss? Why are you staring like that...?<br> ,106001000G,vc_10600100002_028_01,chara_1
 
 window,off
 wait,0.15
@@ -1853,7 +1853,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,テルー,……はわわっ！？,106001000G,vc_10600100002_029_01,chara_1
+message,テルー,Eep!<br> ,106001000G,vc_10600100002_029_01,chara_1
 
 window,off
 wait,0.15
@@ -1880,7 +1880,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,,テルーは透けた服に気づき、<br>ぱっと<user>から離れて胸を抑えた。
+message,,Telu noticed her see-through clothes and quickly moved away from<br>%user%，covering her chest.<br> 
 
 window,off
 wait,0.15
@@ -1907,9 +1907,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,テルー,司令官……み、見たぁ……？,106001000G,vc_10600100002_030_01,chara_1
+message,テルー,Boss... did，did you see...?<br> ,106001000G,vc_10600100002_030_01,chara_1
 
-message,<user>,見た。<br>じーっと見るとギリギリ透けて見えるぐらいだった。
+message,<user>,I saw. If I stared real hard，I could barely see through it.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1920,9 +1920,9 @@ asyncseplay,setag1_69,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,テルー,見ちゃダメでしょーっ！<br>もぅ、司令官のばかっ。そこは嘘でも見てないって言ってよぉ～～！,106001000G,vc_10600100002_031_01,chara_1
+message,テルー,You're not supposed to look! Geez，Boss，you dummy! Even if it was a<br>lie，you should have said you didn't see anything!<br> ,106001000G,vc_10600100002_031_01,chara_1
 
-message,<user>,ハハッ。テルーに嘘をつくのも悪いと思ってな。すまない。
+message,<user>,Haha. I thought it would be wrong to lie to Telu. Sorry.<br> 
 
 window,off
 wait,0.15
@@ -1937,7 +1937,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（ま、これだけ元気なら大丈夫か。 <br>テルーのやりたいようにやらせてやろう）
+message,<user>,(Well，if she's this energetic，she'll be fine. I'll let her do things<br>her way.)<br> 
 
 bgmstop,bgmtag1_4,1.5,0
 
@@ -1964,7 +1964,7 @@ fade,In,Black,0
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――翌日</size>,,,on
+messageTextCenter,,<size=48>—The Next Day—</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -2001,7 +2001,7 @@ asyncseplay,setag1_70,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 window,on,0.15
-message,,大穴の調査に備え、部隊が準備を整えていた。
+message,,The troops were preparing for the survey of the Abyss.<br> 
 
 window,off
 wait,0.15
@@ -2035,7 +2035,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,今日も頼んだぞ、テルー。<br>連日ですまないが、その弓の腕に期待してる。
+message,<user>,I'm counting on you again today，Telu. Sorry for asking two days in a<br>row，but I'm expecting great things from that bow arm of yours.<br> 
 
 window,off
 wait,0.15
@@ -2060,7 +2060,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,テルー,……う、うん、もちろん。<br>司令官の期待に応えるね……？,106001000G,vc_10600100002_032_01,chara_1
+message,テルー,...U-um，of course. I'll live up to your expectations，Boss...?<br> ,106001000G,vc_10600100002_032_01,chara_1
 
 window,off
 wait,0.15
@@ -2075,9 +2075,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（……？　なんだか様子がおかしいな）
+message,<user>,(...? Something seems off about her.)<br> 
 
-message,<user>,（テルーの性格から考えて <br>昨日のことを引きずっている……なんてことはないと思うが）
+message,<user>,(Knowing Telu's personality，I doubt she's still bothered by what<br>happened yesterday...)<br> 
 
 window,off
 wait,0.15
@@ -2103,9 +2103,9 @@ wait,1
 
 
 window,on,0.15
-message,テルー,ふぅ……はぁ……,106001000G,vc_10600100002_033_01,chara_1
+message,テルー,*puff*... *pant*...<br> ,106001000G,vc_10600100002_033_01,chara_1
 
-message,<user>,……テルー？　大丈夫か？ <br>少し息も荒いし、ふらついて見えるが……
+message,<user>,...Telu? Are you okay? You're breathing hard and you look<br>unsteady...<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -2116,7 +2116,7 @@ asyncseplay,setag1_74,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,テルー,へーき、だよ……？<br>心配しないで～。,106001000G,vc_10600100002_034_01,chara_1
+message,テルー,I'm f-fine... Don't worry.<br> ,106001000G,vc_10600100002_034_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -2131,7 +2131,7 @@ asyncseplay,setag1_75,se4800017,0,1,STOP,1
 asynccharaemo,chara_1,Shock,STOP,1
 
 
-message,テルー,ん、あっ……,106001000G,vc_10600100002_035_01,chara_1
+message,テルー,Mmm，Ah...<br> ,106001000G,vc_10600100002_035_01,chara_1
 
 window,off
 wait,0.15
@@ -2167,7 +2167,7 @@ shake,CHARA,chara_6,20,0,0.25,30,off,off,0
 shake,CHARA,chara_7,20,0,0.25,30,off,off,0
 
 window,on,0.15
-message,,元気元気、と両手を上げようとして、テルーはふらりとバランスを崩す。<br>そのままもたれるように<user>へ倒れ込んだ。
+message,,Saying 'I'm fine，I'm fine，' Telu raised both hands，then wobbled and<br>collapsed against the Commander.<br> 
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -2178,7 +2178,7 @@ asyncseplay,setag1_76,se4800014,0,1,CONT,0
 
 asynccharaemo,chara_1,Silence,CONT,0
 
-message,<user>,うわっ、またかっ！？<br>お前の親衛隊に見られたら、今度こそ殺され……ん？
+message,<user>,Whoa，again! If your guard squadron sees me，they'll kill me for sure<br>this time... Hm?<br> 
 
 window,off
 wait,0.15
@@ -2193,7 +2193,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（熱い？　とんでもない高熱だ。<br>それに体に力が入っていない？）
+message,<user>,(Hot? This is an incredibly high fever. And her body's all limp...?)<br> 
 
 window,off
 wait,0.15
@@ -2208,7 +2208,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,テルー、大丈夫か！？　一体どうしたんだ！？
+message,<user>,Telu，are you okay!? What happened!?<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -2221,7 +2221,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 wait,0.5
 
 
-message,テルー,へいき、へいきだから…… <br>ちゃんとできる、よ……,106001000G,vc_10600100002_036_01,chara_1
+message,テルー,I'm o-okay，I'm fine... I can still do it...<br> ,106001000G,vc_10600100002_036_01,chara_1
 
 window,off
 wait,0.15
@@ -2257,11 +2257,11 @@ shake,CHARA,chara_7,40,0,0.25,20,off,off,0
 asyncwait
 
 window,on,0.15
-message,<user>,テルー！？　 <br>おい、テルーっ！
+message,<user>,Telu!? Hey，Telu!<br> 
 
-message,テルー,…………,106001000G,vc_10600100002_037_01,on
+message,テルー,...<br> ,106001000G,vc_10600100002_037_01,on
 
-message,<user>,意識がない……！？ <br>しっかりしろ、テルーっ！
+message,<user>,She's unconscious...! Stay with me，Telu!<br> 
 
 window,off
 bgmstop,bgmtag1_5,0.5

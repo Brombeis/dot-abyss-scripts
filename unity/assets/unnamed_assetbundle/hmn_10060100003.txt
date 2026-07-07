@@ -298,9 +298,9 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ノエミ,司令官さま……ありがとうございます。,100601000G,vc_10060100003_011_01,chara_1
+message,ノエミ,Lord Commander... thank you so much.<br> ,100601000G,vc_10060100003_011_01,chara_1
 
-message,<user>,むしろノエミを独占できて得かもな。<br>あいつら、羨ましがるぞ。
+message,<user>,If anything，I'm the one who gets to keep Noemi all to myself.<br>They'll be jealous.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -311,7 +311,7 @@ asyncseplay,setag1_13,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ノエミ,も～、そんなことないですよ～。,100601000G,vc_10060100003_012_01,chara_1
+message,ノエミ,Geez，that's not true...<br> ,100601000G,vc_10060100003_012_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -322,7 +322,7 @@ asyncseplay,setag1_14,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ノエミ,ただ、その、ですね。<br>私は別に、お酒が飲めないというわけでは……,100601000G,vc_10060100003_013_01,chara_1
+message,ノエミ,But，um，it's not that I can't drink at all...<br> ,100601000G,vc_10060100003_013_01,chara_1
 
 window,off
 wait,0.15
@@ -376,7 +376,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,あ、ノエミさん！　司令官も！<br>こんなところにいたんですか！,400901000,,chara_2
+message,兵士Ａ,Ah，Miss Noemi! Commander too! So this is where you were!<br> ,400901000,,chara_2
 
 asynccharaface,chara_3,FaceHappy,CONT,0
 
@@ -387,7 +387,7 @@ asyncseplay,setag1_16,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,兵士Ｂ,みんな待ってるぜ！　ほら、酒場に！,401201000,,chara_3
+message,兵士Ｂ,Everyone's waiting! Come on，to the tavern!<br> ,401201000,,chara_3
 
 window,off
 wait,0.15
@@ -433,9 +433,9 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ノエミ,皆さんっ！？<br>こんなところまで……,100601000G,vc_10060100003_014_01,chara_1
+message,ノエミ,Everyone! You came all the way here...<br> ,100601000G,vc_10060100003_014_01,chara_1
 
-message,<user>,おっと、せっかくの宴が見つかっちまったな。<br>……さて、どうする？
+message,<user>,Oops，our private party's been busted... Well，what now?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -446,7 +446,7 @@ asyncseplay,setag1_18,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ノエミ,ふふふ、しかたありませんね。<br>一緒に行きましょう、司令官さま。,100601000G,vc_10060100003_015_01,chara_1
+message,ノエミ,Fufufu，I suppose there's no helping it. Let's go together，Lord<br>Commander.<br> ,100601000G,vc_10060100003_015_01,chara_1
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -492,7 +492,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ルディア,皆さーん！　主役の登場よー！,300301000,vc_10060100003_016_01,chara_4
+message,ルディア,Everyone! The star of the show has arrived!<br> ,300301000,vc_10060100003_016_01,chara_4
 
 window,off
 wait,0.15
@@ -543,9 +543,9 @@ asyncseplay,setag1_20,se4800017,0,1,STOP,1
 asynccharaemo,chara_1,Shock,STOP,1
 
 window,on,0.15
-message,兵士Ａ,うおおおお！　ノエミさーん！,400901000
+message,兵士Ａ,Whoooa! Miss Noemiiii!<br> ,400901000
 
-message,兵士Ｃ,俺らの女神ー！<br>やっと来てくれたかー！,401501000
+message,兵士Ｃ,Our goddess! You finally made it!<br> ,401501000
 
 window,off
 wait,0.15
@@ -564,7 +564,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,そんなに歓迎してもらうようなこと、<br>私はしてないですよ～！？,100601000G,vc_10060100003_017_01,chara_1
+message,ノエミ,I haven't done anything to deserve this kind of welcome!<br> ,100601000G,vc_10060100003_017_01,chara_1
 
 window,off
 wait,0.15
@@ -599,11 +599,11 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,兵士Ａ,主役が何を言ってるんですか！<br>ほらほら、まずは１杯！,400901000
+message,兵士Ａ,What are you talking about，you're the star! Come on，first drink!<br> ,400901000
 
-message,兵士Ｃ,こっちもあるぞ！<br>さあ飲んでくれ、ノエミちゃん！,401501000
+message,兵士Ｃ,There's some here too! Come on，drink up，Noemi!<br> ,401501000
 
-message,<user>,待て待て、それはダメだ。<br>ノエミは酒が……！
+message,<user>,Wait，wait，that's no good. Noemi and alcohol...!<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -614,7 +614,7 @@ asyncseplay,setag1_22,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ノエミ,いえ、大丈夫です。<br>私、ちゃんと飲みますから。,100601000G,vc_10060100003_018_01,chara_1
+message,ノエミ,No，I'll be fine. I can handle my drink.<br> ,100601000G,vc_10060100003_018_01,chara_1
 
 window,off
 wait,0.15
@@ -649,7 +649,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,いいのか？　我慢しなくていいんだぞ？
+message,<user>,Are you sure? You don't have to push yourself.<br> 
 
 window,off
 wait,0.15
@@ -668,9 +668,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,い、１杯ぐらいなら大丈夫です、<br>平気なはずですから……,100601000G,vc_10060100003_019_01,chara_1
+message,ノエミ,I-I'll be fine with one drink. I should be okay.<br> ,100601000G,vc_10060100003_019_01,chara_1
 
-message,<user>,なんだか妙な必死さがあるな……。<br>ちょっと嫌な予感がするんだが。
+message,<user>,You seem strangely desperate... I have a bad feeling about this.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -682,7 +682,7 @@ asyncseplay,setag1_24,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ノエミ,平気と言ったら平気なんです！<br>いただきますっ！,100601000G,vc_10060100003_020_01,chara_1
+message,ノエミ,I told you，I'm fine! Cheers!<br> ,100601000G,vc_10060100003_020_01,chara_1
 
 window,off
 wait,0.15
@@ -701,7 +701,7 @@ asynccharamove,chara_1,Linear,Y,-40,0.5,CONT,0
 asyncwait
 
 window,on,0.15
-message,,ノエミは酒の注がれたグラスを手に取ると、<br>ゆっくりと、しかし止まることなく飲み干した。
+message,,Noemi took the glass of alcohol and slowly，without pausing，drank it<br>all down.<br> 
 
 window,off
 wait,0.15
@@ -726,9 +726,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,ん……はぁ……。<br>ごちそうさまです～。,100601000G,vc_10060100003_021_01,chara_1
+message,ノエミ,Mmm... *sigh*... That was lovely. Thank you.<br> ,100601000G,vc_10060100003_021_01,chara_1
 
-message,<user>,お、おいおいおい！　全部飲んだのか！？<br>無理するなよ！？
+message,<user>,Whoa，hey now! You drank the whole thing?! Don't push yourself!<br> 
 
 window,off
 wait,0.15
@@ -745,7 +745,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,いえいえ、このぐらいなら平気です。<br>なので……もう１杯……もう１杯だけ……,100601000G,vc_10060100003_022_01,chara_1
+message,ノエミ,No，no，I'm f-fine with this much. So... juss one more... juss one<br>more...<br> ,100601000G,vc_10060100003_022_01,chara_1
 
 window,off
 wait,0.15
@@ -764,7 +764,7 @@ asynccharamove,chara_1,Linear,Y,-40,0.5,CONT,0
 asyncwait
 
 window,on,0.15
-message,,ノエミは次のグラスを取り、<br>１杯目よりもさらに早く飲み干してしまった。
+message,,Noemi grabbed the next glass and downed it even faster than the<br>first.<br> 
 
 window,off
 wait,0.15
@@ -791,9 +791,9 @@ asynccharaemo,chara_1,Flower,STOP,6
 
 
 window,on,0.15
-message,ノエミ,んっく、んっく……。<br>ふぁぁ……いいですねぇ……,100601000G,vc_10060100003_023_01,chara_1
+message,ノエミ,*gulp*，*gulp*... *sigh*... That's wonderful.<br> ,100601000G,vc_10060100003_023_01,chara_1
 
-message,<user>,もう２杯だぞ？<br>顔も赤くなってるし、このぐらいにしておいたほうが……
+message,<user>,That's two already，you know? Your face is all red，maybe you should<br>stop at...<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -804,7 +804,7 @@ asyncseplay,setag1_29,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ノエミ,だーいじょうぶです～！<br>もう少し、もーちょっとだけ……,100601000G,vc_10060100003_024_01,chara_1
+message,ノエミ,I'm fiiine! Juss a bit more，juss a little more...<br> ,100601000G,vc_10060100003_024_01,chara_1
 
 window,off
 wait,0.15
@@ -822,7 +822,7 @@ asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 asyncwait
 
 window,on,0.15
-message,<user>,あ、おいっ！
+message,<user>,Ah，hey!<br> 
 
 window,off
 wait,0.15
@@ -841,7 +841,7 @@ asynccharamove,chara_1,Linear,Y,-40,0.5,CONT,0
 asyncwait
 
 window,on,0.15
-message,,ノエミは<user>の前に置かれたグラスを取り、<br>ぐっと勢いよく喉に流し込んでいく。
+message,,Noemi grabbed the glass placed in front of the Commander and tossed<br>it back in one go.<br> 
 
 window,off
 wait,0.15
@@ -868,7 +868,7 @@ asynccharaemo,chara_1,Flower,STOP,6
 
 
 window,on,0.15
-message,ノエミ,ごっきゅごっきゅごっきゅ……ん～、おいしいっ！<br>お祝いのお酒って最高ですね～！,100601000G,vc_10060100003_025_01,chara_1
+message,ノエミ,*glug*，*glug*，*glug*... mmm，so good! Celebratory booze really is the<br>best!<br> ,100601000G,vc_10060100003_025_01,chara_1
 
 window,off
 wait,0.15
@@ -920,7 +920,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,なあ、ノエミさん、めっちゃ飲んでないか……？,400901000,,chara_2
+message,兵士Ａ,Hey，Noemi，aren't you drinking an awful lot...?<br> ,400901000,,chara_2
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -931,7 +931,7 @@ asyncseplay,setag1_33,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,兵士Ｂ,意外とイケる口なのかもな。<br>にしても、ちょっと勢いが……,401201000,,chara_3
+message,兵士Ｂ,Maybe she's got a hidden tolerance. Still，she's going at quite a<br>pace...<br> ,401201000,,chara_3
 
 window,off
 wait,0.15
@@ -977,7 +977,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ノエミ,おかわり、もう１杯～！<br>いえ、どうせ空けちゃうので３杯ぐらい持ってきてくださ～い！,100601000G,vc_10060100003_026_01,chara_1
+message,ノエミ,Another round! One more! No，actually，I'm juss gonna finish them all<br>anyway，so bring me about three!<br> ,100601000G,vc_10060100003_026_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -988,7 +988,7 @@ asyncseplay,setag1_35,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ノエミ,はやく！　は～や～くぅ～！！！,100601000G,vc_10060100003_027_01,chara_1
+message,ノエミ,Hurry! Hurry it uppp!<br> ,100601000G,vc_10060100003_027_01,chara_1
 
 window,off
 wait,0.15
@@ -1050,7 +1050,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,ま、まだ飲むんですか！？<br>大丈夫ですか、ノエミさん！？,400901000,,chara_2
+message,兵士Ａ,Y-you're still going to drink? Are you okay，Noemi?<br> ,400901000,,chara_2
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1061,7 +1061,7 @@ asyncseplay,setag1_37,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ノエミ,だいじょーぶです！<br>お祝いなんだからもっともっと飲みましょう！,100601000G,vc_10060100003_028_01,chara_1
+message,ノエミ,I'm toootally fine! This is a celebration，so let's drink and drink<br>and drink!<br> ,100601000G,vc_10060100003_028_01,chara_1
 
 asyncshake,CHARA,chara_3,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1070,7 +1070,7 @@ asyncseplay,setag1_38,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,兵士Ｂ,にしたって、ちょっと……！,401201000,,chara_3
+message,兵士Ｂ,Still，that's a bit...<br> ,401201000,,chara_3
 
 window,off
 wait,0.15
@@ -1120,13 +1120,13 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ノエミ,ほらあ！　もっとぉ！　もっとです！<br>もっとお酒を持ってきてくださーい！！！,100601000G,vc_10060100003_029_01,chara_1
+message,ノエミ,C'mooon! More! More! Bring more booze，pleeeease!<br> ,100601000G,vc_10060100003_029_01,chara_1
 
-message,,ノエミはぺちぺちとテーブルを叩き、陽気な笑い声を上げた。<br>その様子はどう見ても、厄介な酔っぱらいでしかなかった。
+message,,Noemi lightly slapped the table and let out a cheerful laugh. The<br>sight of her was nothing short of a troublesome drunk.<br> 
 
 bgmstop,bgmtag1_2,1.5,0
 
-message,<user>,どうなってるんだ、これは！？
+message,<user>,What the hell is this!?<br> 
 
 window,off
 wait,0.15
@@ -1176,9 +1176,9 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,ルディア,ああ、また始まったわね……,300301000,vc_10060100003_030_01,chara_4
+message,ルディア,Oh，here she goes again...<br> ,300301000,vc_10060100003_030_01,chara_4
 
-message,<user>,まさかルディア、これはいつものことなのか？
+message,<user>,Wait，Ludia，is this a regular thing?<br> 
 
 window,off
 wait,0.15
@@ -1214,9 +1214,9 @@ asynccharaemo,chara_4,Speak,CONT,0
 
 
 window,on,0.15
-message,ルディア,ええ。実はあの子、酒乱なのよ。<br>最初は遠慮して飲まないけど、１度飲み始めたら止まらないんだから。,300301000,vc_10060100003_031_01,chara_4
+message,ルディア,Yeah. Actually，she gets wild when she drinks. At first she holds<br>back，but once she starts she can't stop.<br> ,300301000,vc_10060100003_031_01,chara_4
 
-message,<user>,……なるほどな。宴に来るのを断ったのは酒が飲めないからじゃなく、<br>飲んだらこうなるから、か。
+message,<user>,...I see. So she refused to come to the party not because she can't<br>drink，but because she gets like this.<br> 
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -1227,9 +1227,9 @@ asyncseplay,setag1_42,se4800004,0,1,CONT,0
 asynccharaemo,chara_4,Laugh,CONT,0
 
 
-message,ルディア,いつも飲み代はツケになっちゃってねー。<br>昼間にこっそり回収してるのよ。,300301000,vc_10060100003_032_01,chara_4
+message,ルディア,Her tab always builds up too. I have to collect it secretly during<br>the day.<br> ,300301000,vc_10060100003_032_01,chara_4
 
-message,<user>,あの時に話していたのはこれか。<br>そりゃ大きな声では言えないわけだ。
+message,<user>,So that's what you were talking about back then. No wonder you<br>couldn't say it out loud.<br> 
 
 asynccharaface,chara_4,FaceSurprise,CONT,0
 
@@ -1240,7 +1240,7 @@ asyncseplay,setag1_43,se4800008,0,1,CONT,0
 asynccharaemo,chara_4,Sweat,CONT,0
 
 
-message,ルディア,それにしても、今日はかなり酔ってるわね。<br>ずいぶんとストレスをためてたのかしら。,300301000,vc_10060100003_033_01,chara_4
+message,ルディア,Still，she's really drunk today. I wonder if she's been building up a<br>lot of stress.<br> ,300301000,vc_10060100003_033_01,chara_4
 
 window,off
 wait,0.15
@@ -1281,7 +1281,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 wait,0.5
 
 window,on,0.15
-message,<user>,……ちょうどいいな。<br>ここで全部吐き出してもらおうじゃないか。
+message,<user>,...Perfect. Let's have her get it all out here.<br> 
 
 window,off
 wait,0.15
@@ -1324,7 +1324,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,周囲を男たちに囲まれたノエミは、<br>ぱっと立ち上がってグラスをかかげる。
+message,,Surrounded by the men，Noemi stood up abruptly and raised her glass.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1335,11 +1335,11 @@ asyncseplay,setag1_46,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,ノエミ,いーですかぁ、みなさん！<br>わたしはも～！　がまんの限界ですっ！,100601000G,vc_10060100003_034_01,chara_1
+message,ノエミ,Lissen up，everrryone! I'm—I've had it! I can't take it anymore!<br> ,100601000G,vc_10060100003_034_01,chara_1
 
-message,兵士Ｃ,おおっ！？　,401501000
+message,兵士Ｃ,Whoa!<br> ,401501000
 
-message,兵士Ｂ,なんだよノエミちゃん、<br>困ってることがあるなら俺たちが力になるぜ！,401201000
+message,兵士Ｂ,What's wrong，Noemi? If something's botherin' you，we'll help!<br> ,401201000
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -1348,11 +1348,11 @@ asyncseplay,setag1_47,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,ノエミ,わたしが困ってるのは！<br>みなさんがっ！　元気なのにっ！　ちりょーにくることですっ！,100601000G,vc_10060100003_035_01,chara_1
+message,ノエミ,What's botherin' me is! That you all! Come get treated! Even when<br>you're perfectly fine!<br> ,100601000G,vc_10060100003_035_01,chara_1
 
-message,兵士Ａ,げっ……バレてる……！<br>そのー、どうしてもノエミさんの治療が受けたくて……,400901000
+message,兵士Ａ,Gah! Busted...! Well，um，I just really wanted you to treat me，Miss<br>Noemi...<br> ,400901000
 
-message,兵士Ｂ,忙しくさせたのは悪かったよぉ……,401201000
+message,兵士Ｂ,Sorry for makin' you so busy...<br> ,401201000
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1364,9 +1364,9 @@ asyncseplay,setag1_48,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,ノエミ,わたしがいそがしーのは、別にいーんれすっ！<br>みなさんが！　しんぱいなんですぅっ！,100601000G,vc_10060100003_036_01,chara_1
+message,ノエミ,Me bein' busy，tha's toootally fine! I'm wooooorried about you all!<br> ,100601000G,vc_10060100003_036_01,chara_1
 
-message,兵士Ａ,……俺たちが心配？,400901000
+message,兵士Ａ,...You're worried about us?<br> ,400901000
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1377,7 +1377,7 @@ asyncseplay,setag1_49,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ノエミ,いつもいつも、けがをした～！　なんてうそを言ってたら、<br>ほんとーにおおけがしたとき、信じてもらえないのぉっ！,100601000G,vc_10060100003_037_01,chara_1
+message,ノエミ,If you keep lyin' sayin' you're hurt all the time，then when you<br>really do get badly hurt，no one'll believe youuu!<br> ,100601000G,vc_10060100003_037_01,chara_1
 
 asyncshake,CHARA,chara_1,20,15,0.5,6,on,off,0,off,CONT,0
 
@@ -1386,9 +1386,9 @@ asyncseplay,setag1_50,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ノエミ,それで後回しにされたら、死んじゃうかもしれないでしょー！<br>わらひは、それがしんぱいなんれすよっ！,100601000G,vc_10060100003_038_01,chara_1
+message,ノエミ,If injuwies get put off 'cause of that，people could die，y'know! I'm<br>worwied about that!<br> ,100601000G,vc_10060100003_038_01,chara_1
 
-message,兵士Ａ,あんなに忙しくても、自分じゃなくて俺たちのことを考えて……！？,400901000
+message,兵士Ａ,Even though she's so busy，she's thinking about us，not herself...!<br> ,400901000
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1399,9 +1399,9 @@ asyncseplay,setag1_51,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ノエミ,いーですか、いいこのみんな！<br>うそはダメ！　はい、ふくしょ～！,100601000G,vc_10060100003_039_01,chara_1
+message,ノエミ,Lis'en up，good kids，evewyone! No lying! 'Kay，repeat after me!<br> ,100601000G,vc_10060100003_039_01,chara_1
 
-message,兵士たち,う、嘘はダメ！,900000001
+message,兵士たち,N-no lying!<br> ,900000001
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1412,7 +1412,7 @@ asyncseplay,setag1_52,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ノエミ,よろひい！　<br>みーんな、とってもいい子れすうっ！,100601000G,vc_10060100003_040_01,chara_1
+message,ノエミ,Goooood! Evewyone's such good kids!<br> ,100601000G,vc_10060100003_040_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1423,9 +1423,9 @@ asyncseplay,setag1_53,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ノエミ,わらひもひーらーとして、もぉぉぉっとがんばるので、<br>みんなもがんばりまひょ～！,100601000G,vc_10060100003_041_01,chara_1
+message,ノエミ,I'mma work even hawder as a healer，so evewyone，wet's work hard<br>together!<br> ,100601000G,vc_10060100003_041_01,chara_1
 
-message,兵士Ａ,ノエミさん……,400901000
+message,兵士Ａ,Miss Noemi...<br> ,400901000
 
 window,off
 wait,0.15
@@ -1474,7 +1474,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,……この酔っぱらいども。<br>ノエミの話を聞いたか？
+message,<user>,...You drunken fools. Did you hear what Noemi said?<br> 
 
 asyncjump,CHARA,chara_3,30,0.25,1,off,0,CONT
 
@@ -1483,9 +1483,9 @@ asyncseplay,setag1_54,se4800017,0,1,CONT,0
 asynccharaemo,chara_3,Shock,CONT,0
 
 
-message,兵士Ｂ,あ、司令官……！,401201000,,chara_3
+message,兵士Ｂ,Ah，Commander...!<br> ,401201000,,chara_3
 
-message,<user>,酔った時には本音が出るというし、これがノエミの本当の気持ちだろう。<br>どうするんだ、これからもノエミに迷惑をかけるつもりか？
+message,<user>,Drunk words show true feelings，so this must be how Noemi feels. So<br>what'll it be? You gonna keep causing her trouble?<br> 
 
 asyncshake,CHARA,chara_2,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -1494,7 +1494,7 @@ asyncseplay,setag1_55,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,兵士Ａ,いえ……ノエミさんに甘えるのは、<br>頑張って戦って怪我をした時だけにします……,400901000,,chara_2
+message,兵士Ａ,No... I'll only rely on Miss Noemi when I've fought hard and gotten<br>injured...<br> ,400901000,,chara_2
 
 asynccharaface,chara_5,FaceHappy,CONT,0
 
@@ -1505,11 +1505,11 @@ asyncseplay,setag1_56,se4800004,0,1,CONT,0
 asynccharaemo,chara_5,Laugh,CONT,0
 
 
-message,兵士Ｃ,こんないい子に迷惑かけられねえな。<br>へへ……俺たちが心配なんだってよ……,401501000,,chara_5
+message,兵士Ｃ,Can't go causing trouble for such a sweet girl. Hehe... She said she<br>was worried about us...<br> ,401501000,,chara_5
 
-message,,男たちは反省しながらも、<br>それぞれに笑みを浮かべて、満足げにグラスを傾けた。
+message,,Though the men were chastened，they each smiled and contentedly<br>raised their glasses.<br> 
 
-message,<user>,これで問題なさそうだな。<br>やはりノエミの優しさには誰も勝てないか。
+message,<user>,Looks like that settles it. No one can beat Noemi's kindness，huh?<br> 
 
 window,off
 wait,0.15
@@ -1566,9 +1566,9 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,ノエミ,司令官さま～！,100601000G,vc_10060100003_042_01,chara_1
+message,ノエミ,Lord Commander!<br> ,100601000G,vc_10060100003_042_01,chara_1
 
-message,<user>,うわっ！？
+message,<user>,Uwah!<br> 
 
 window,off
 wait,0.15
@@ -1595,7 +1595,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,ぎゅっ！　と、ノエミが<user>の腕を抱いた。<br>そのまま肩へと寄りかかり、甘えた声で言う。
+message,,Noemi hugged the Commander's arm tightly. Leaning on his<br>shoulder，she spoke in a sweet voice.<br> 
 
 asyncjump,CHARA,chara_1,-30,0.5,2,off,0,CONT
 
@@ -1604,9 +1604,9 @@ asyncseplay,setag1_58,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ノエミ,えへ～……司令官さま、いつもありがとう～。,100601000G,vc_10060100003_043_01,chara_1
+message,ノエミ,Ehe... Lord Commander，fank you for evewything...<br> ,100601000G,vc_10060100003_043_01,chara_1
 
-message,<user>,……礼を言うのはこっちのほうだ。<br>ノエミ、酔ってるな。
+message,<user>,...I should be the one thanking you. Noemi，you're drunk.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1617,9 +1617,9 @@ asyncseplay,setag1_59,se4800002,0,1,CONT,0
 asynccharaemo,chara_1,Heart,CONT,0
 
 
-message,ノエミ,よってまへんよぉ～。<br>だいすきです、しれいかんさま～。,100601000G,vc_10060100003_044_01,chara_1
+message,ノエミ,'M not dwunk... Love you，Lord Commander.<br> ,100601000G,vc_10060100003_044_01,chara_1
 
-message,<user>,ったく。<br>その言葉は酔ってない時に、また聞かせてくれ。
+message,<user>,Geez. Tell me that again when you're sober.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1630,9 +1630,9 @@ asyncseplay,setag1_60,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ノエミ,それはあ……、<br>もうちょっとだけ待ってほしいです……えへ～。,100601000G,vc_10060100003_045_01,chara_1
+message,ノエミ,Well... just a little longer... please... Ehehe.<br> ,100601000G,vc_10060100003_045_01,chara_1
 
-message,<user>,……ああ、楽しみにしてるよ。
+message,<user>,...Yeah，I'm looking forward to it.<br> 
 
 window,off
 bgmstop,bgmtag1_3,0.5

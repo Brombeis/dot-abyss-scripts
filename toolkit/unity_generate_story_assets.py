@@ -129,13 +129,7 @@ def apply_translation_unity(text, scene_records, scene_name=""):
                 else:
                     replacement = body.get((line_no, field_idx), "")
                     if replacement:
-                        if "<user>" in replacement.lower():
-                            raise ValueError(
-                                f"{scene_name} line {line_no}, field {field_idx}: "
-                                f"translated text contains <user> which crashes the game. "
-                                f"Rephrase to avoid it.\n"
-                                f"  Text: {replacement}"
-                            )
+                        replacement = re.sub(r'<user>', '%user%', replacement, flags=re.IGNORECASE)
                         replacement = re.sub(r'…+', '...', replacement)
                         if cmd == "dotmessage":
                             parts[field_idx] = format_dotmessage_text(replacement)

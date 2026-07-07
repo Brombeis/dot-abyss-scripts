@@ -41,7 +41,7 @@ asyncseplay,se1_1001,se4600013,0,1,CONT,0
 wait,1
 
 window,on,0.15
-message,,大穴探索の予定はないはずの早朝、<br>城門に大勢の人間が集まっている。
+message,,Early morning，though no expedition to the Abyss was scheduled，a<br>crowd had gathered at the castle gate.<br> 
 
 sestop,se1_1001,1.5
 
@@ -78,7 +78,7 @@ asynccharaemo,chara_2,Dull,CONT,0
 
 
 window,on,0.15
-message,ベリサ,あぁ～……ねっむい……,100201000G,vc_10590100003_001_01,chara_2
+message,ベリサ,Aah... so sleepy...<br> ,100201000G,vc_10590100003_001_01,chara_2
 
 window,off
 wait,0.15
@@ -111,7 +111,7 @@ wait,0.5
 
 
 window,on,0.15
-message,クルル,ベリサ起きて起きて～！<br>おともだち、さがすんだからぁ～！,106701000G,vc_10590100003_002_01,chara_3
+message,クルル,Verisa，wake up，wake up! We're gonna find our friend!<br> ,106701000G,vc_10590100003_002_01,chara_3
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -122,7 +122,7 @@ asyncseplay,setag1_5,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,ベリサ,分かってるって。<br>気合い入れていくわよ。,100201000G,vc_10590100003_003_01,chara_2
+message,ベリサ,I know，I know. Time to get psyched.<br> ,100201000G,vc_10590100003_003_01,chara_2
 
 window,off
 wait,0.15
@@ -163,7 +163,7 @@ asynccharaemo,chara_4,Laugh,CONT,0
 
 
 window,on,0.15
-message,マリナ,ふふふ、商機ですわぁ♪<br>そこの兵士の方、鳥寄せの香水などいかがです？,100301000G,vc_10590100003_004_01,chara_4
+message,マリナ,Fufufu，it's a business opportunity!♪ Hey there，soldier，how about<br>some bird-attracting perfume?<br> ,100301000G,vc_10590100003_004_01,chara_4
 
 asynccharaface,chara_5,FaceSurprise,CONT,0
 
@@ -174,7 +174,7 @@ asyncseplay,setag1_7,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,捜索隊の兵士,い、いや、遠慮しとこうかな……<br>鳥に突っつかれたりするのはさすがにゴメンだ。,401501000,,chara_5
+message,捜索隊の兵士,U-uh，I think I'll pass... I don't want to get pecked by birds.<br> ,401501000,,chara_5
 
 window,off
 wait,0.15
@@ -216,9 +216,9 @@ asynccharaemo,chara_6,Speak,CONT,0
 
 
 window,on,0.15
-message,ソフィア,司令官、予定のメンバーは全員揃いました。 <br>いつでも出発可能です。,106501000G,vc_10590100003_005_01,chara_6
+message,ソフィア,Commander，all scheduled members are present. We can depart at any<br>time.<br> ,106501000G,vc_10590100003_005_01,chara_6
 
-message,<user>,よし、まあまあの人数が来てくれたな。 <br>悪いがスティーラ、このぐらいで我慢してくれ。
+message,<user>,Alright，we've got a decent crowd. Sorry，Steela，but you'll have to<br>make do with this.<br> 
 
 window,off
 wait,0.15
@@ -260,9 +260,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,スティーラ,な、何言ってるんですか……まあまあ、なんて人数じゃないです……<br>あ、あの……ど、どうやってこんなに集めたんですか……？,105901000G,vc_10590100003_006_01,chara_1
+message,スティーラ,W-what are you saying... this is more than 'a decent crowd'...<br>U-um... h-how did you gather this many...?<br> ,105901000G,vc_10590100003_006_01,chara_1
 
-message,<user>,ん？　いや、特別なことはしていない。<br>うちの魔石細工師が困っているから助けてくれ、と声をかけただけだ。
+message,<user>,Hm? No，nothing special. I just asked them to help because our magic<br>stone artisan was in trouble.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -273,9 +273,9 @@ asyncseplay,setag1_10,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,スティーラ,そ、それだけでこんなに来てくれるはずないじゃないですか……。<br>わたし……み、皆さんとお話したこと……１度もないですし……,105901000G,vc_10590100003_007_01,chara_1
+message,スティーラ,Th-there's no way they'd come just for that... I've never even<br>spoken to a-any of them...<br> ,105901000G,vc_10590100003_007_01,chara_1
 
-message,<user>,……だそうだが？
+message,<user>,That's what I hear，though?<br> 
 
 window,off
 wait,0.15
@@ -327,7 +327,7 @@ asynccharaemo,chara_6,Laugh,CONT,0
 
 
 window,on,0.15
-message,ソフィア,ふふ……司令本部に飾っているあの細工は、あなたが作ったんでしょう？<br>私たちの未来を照らすようなあの作品には、いつも勇気づけられてるんだから。,106501000G,vc_10590100003_008_01,chara_6
+message,ソフィア,Hehe... That piece displayed at Command HQ is yours，right? That work<br>that seems to illuminate our future always gives us courage.<br> ,106501000G,vc_10590100003_008_01,chara_6
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -338,7 +338,7 @@ asyncseplay,setag1_12,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,スティーラ,え、ええっ！？ <br>見てもらえたん、ですか……？,105901000G,vc_10590100003_009_01,chara_1
+message,スティーラ,Huh?! You've... actually seen it...?<br> ,105901000G,vc_10590100003_009_01,chara_1
 
 asynccharaface,chara_6,FaceFun,CONT,0
 
@@ -349,7 +349,7 @@ asyncseplay,setag1_13,se4800013,0,1,CONT,0
 asynccharaemo,chara_6,Spirits,CONT,0
 
 
-message,ソフィア,もちろん！<br>この場に集まったみんなは、あなたの作品のファンなんだから！,106501000G,vc_10590100003_010_01,chara_6
+message,ソフィア,Of course! Everyone gathered here is a fan of your work!<br> ,106501000G,vc_10590100003_010_01,chara_6
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -360,7 +360,7 @@ asyncseplay,setag1_14,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,スティーラ,えええ！？　わ、わたしの作品……の！？,105901000G,vc_10590100003_011_01,chara_1
+message,スティーラ,Eeee!? M-my work...!?<br> ,105901000G,vc_10590100003_011_01,chara_1
 
 window,off
 wait,0.15
@@ -409,7 +409,7 @@ asynccharaemo,chara_4,Laugh,CONT,0
 
 
 window,on,0.15
-message,マリナ,酒場に飾られた魔石のシャンデリアもスティーラさんの作品なんでしょ？<br>えーと、どうでしょう？　わたしが今度中間業者として営業するってのは～？,100301000G,vc_10590100003_012_01,chara_4
+message,マリナ,That magic stone chandelier in the Tavern is your work too，right? So<br>how about it? I could act as your distributor next time!♪<br> ,100301000G,vc_10590100003_012_01,chara_4
 
 window,off
 wait,0.15
@@ -443,7 +443,7 @@ asynccharaemo,chara_4,Elated,CONT,0
 
 
 window,on,0.15
-message,マリナ,そうすれば、今の倍……<br>いいえ、１０倍の儲けをお約束しますよぉ♪,100301000G,vc_10590100003_013_01,chara_4
+message,マリナ,That way，I can guarantee you twice... no，ten times the profit!♪<br> ,100301000G,vc_10590100003_013_01,chara_4
 
 window,off
 wait,0.15
@@ -495,7 +495,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,スティーラ,は、はわわっ！？　そんな高く売れるもの、作ってないです……！ <br>わたしはただの魔石細工師なので……,105901000G,vc_10590100003_014_01,chara_1
+message,スティーラ,F-fwawa!? I don't make things that sell for that much...! I'm just a<br>simple magic stone artisan...<br> ,105901000G,vc_10590100003_014_01,chara_1
 
 window,off
 wait,0.15
@@ -539,7 +539,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,ベリサ,どう考えても天才魔石細工師でしょ……。<br>普段からいいもの見せてもらってるし、手助けぐらいはするわ。,100201000G,vc_10590100003_015_01,chara_2
+message,ベリサ,You're obviously a genius artisan... You've shown us great stuff<br>before，so the least I can do is help.<br> ,100201000G,vc_10590100003_015_01,chara_2
 
 window,off
 wait,0.15
@@ -573,7 +573,7 @@ asynccharaemo,chara_2,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ベリサ,……ねえ、あとさ、<br>魔力を引き上げる魔石細工とか、作れたりしない？,100201000G,vc_10590100003_016_01,chara_2
+message,ベリサ,Hey，and another thing—could you make a magic stone that boosts magic<br>power?<br> ,100201000G,vc_10590100003_016_01,chara_2
 
 window,off
 wait,0.15
@@ -623,9 +623,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,スティーラ,え、えっと……あ、あの……<br>も、元の魔石にそういう力がないと、わたしにはちょっと……,105901000G,vc_10590100003_017_01,chara_1
+message,スティーラ,U-um，w-well... if the original magic stone doesn't have that kind of<br>power，then I'm afraid I can't...<br> ,105901000G,vc_10590100003_017_01,chara_1
 
-message,<user>,そのぐらいにしとけ、スティーラが困ってるだろ。
+message,<user>,That's enough，Steela's having a hard time，right?<br> 
 
 window,off
 wait,0.15
@@ -662,7 +662,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,……どうだ、スティーラ？　お前の生み出した作品が、<br>これだけの人間の心を動かしたんだ。
+message,<user>,How about that，Steela? Your creations have moved this many people's<br>hearts.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -673,7 +673,7 @@ asyncseplay,setag1_21,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,スティーラ,し、信じられません……。<br>ブローチを失くしちゃったのは、わたしの不注意なだけなのに……,105901000G,vc_10590100003_018_01,chara_1
+message,スティーラ,I-I can't believe it... I lost Brooch just because I was<br>careless，and yet...<br> ,105901000G,vc_10590100003_018_01,chara_1
 
 window,off
 wait,0.15
@@ -725,9 +725,9 @@ asynccharaemo,chara_6,Speak,CONT,0
 
 
 window,on,0.15
-message,ソフィア,”大切なお友達”……なんでしょ？　そんな大事なものを失くして困ってるって<br>聞いたら、助けてあげるに決まってるじゃない。,106501000G,vc_10590100003_019_01,chara_6
+message,ソフィア,It's your ""important friend，"" right? If I heard you were in trouble<br>over losing something so precious，of course I'd come to help.<br> ,106501000G,vc_10590100003_019_01,chara_6
 
-message,<user>,そういうことだ。<br>みんな、スティーラの為ならって集まってくれたんだ。
+message,<user>,Exactly. They all showed up because they wanted to help you，Steela.<br> 
 
 window,off
 wait,0.15
@@ -773,7 +773,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,スティーラ,わ、わたしの為に……！？<br>そ、そうなんだ……わ、わたしなんかの為に……,105901000G,vc_10590100003_020_01,chara_1
+message,スティーラ,F-for me...? R-really...? For someone like me...<br> ,105901000G,vc_10590100003_020_01,chara_1
 
 window,off
 wait,0.15
@@ -814,7 +814,7 @@ asynccharaemo,chara_3,Question,CONT,0
 
 
 window,on,0.15
-message,クルル,んー……？ <br>スンスン……,106701000G,vc_10590100003_021_01,chara_3
+message,クルル,Mmm...? *sniff，sniff*...<br> ,106701000G,vc_10590100003_021_01,chara_3
 
 window,off
 wait,0.15
@@ -888,7 +888,7 @@ asyncseplay,setag1_25,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 window,on,0.15
-message,,クルルが鼻をならして <br>スティーラの近くを嗅ぎ回る。
+message,,Kururu sniffed the air and started sniffing around Steela.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -899,7 +899,7 @@ asyncseplay,setag1_26,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,スティーラ,あ、あのぉ……？ <br>わたしに何か……ありましたか……？,105901000G,vc_10590100003_022_01,chara_1
+message,スティーラ,U-um...? Is there something on me...?<br> ,105901000G,vc_10590100003_022_01,chara_1
 
 window,off
 wait,0.15
@@ -927,7 +927,7 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,スティーラ、<br>お花みたいないい香りがするね～。,106701000G,vc_10590100003_023_01,chara_3
+message,クルル,Steela，you smell nice，like flowers.<br> ,106701000G,vc_10590100003_023_01,chara_3
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -938,7 +938,7 @@ asyncseplay,setag1_28,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,スティーラ,え、ええ！？<br>そ、そんなこと言われたの……は、はじめてですっ！,105901000G,vc_10590100003_024_01,chara_1
+message,スティーラ,W-what! No one's ever told me that before!<br> ,105901000G,vc_10590100003_024_01,chara_1
 
 asynccharaface,chara_3,FaceFun,CONT,0
 
@@ -949,7 +949,7 @@ asyncseplay,setag1_29,se4800013,0,1,CONT,0
 asynccharaemo,chara_3,Spirits,CONT,0
 
 
-message,クルル,この匂いをクンクン探したらいいんでしょ？ <br>クルルなら簡単だよ！,106701000G,vc_10590100003_025_01,chara_3
+message,クルル,I just need to sniff this scent and search，right? Easy for Kururu!<br> ,106701000G,vc_10590100003_025_01,chara_3
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -958,7 +958,7 @@ asyncseplay,setag1_30,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,スティーラ,ほ、本当ですか！？,105901000G,vc_10590100003_026_01,chara_1
+message,スティーラ,R-really?<br> ,105901000G,vc_10590100003_026_01,chara_1
 
 asynccharaface,chara_3,FaceHappy,CONT,0
 
@@ -969,7 +969,7 @@ asyncseplay,setag1_31,se4800003,0,1,CONT,0
 asynccharaemo,chara_3,Twinkle,CONT,0
 
 
-message,クルル,うん！　えへへへ～、クルルに任せてよ！,106701000G,vc_10590100003_027_01,chara_3
+message,クルル,Yeah! Ehehehe，leave it to me!<br> ,106701000G,vc_10590100003_027_01,chara_3
 
 window,off
 wait,0.15
@@ -1014,7 +1014,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,ベリサ,あたしのことも忘れないでよ？<br>魔石を使った道具には作り手の魔力が残ってるはずでしょ？,100201000G,vc_10590100003_028_01,chara_2
+message,ベリサ,Don't forget about me，okay? A magic stone tool should still have the<br>maker's magic power left in it，right?<br> ,100201000G,vc_10590100003_028_01,chara_2
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -1025,7 +1025,7 @@ asyncseplay,setag1_33,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,ベリサ,司令本部のインテリアで、スティーラの魔力はいつも感じ取っていたもの。<br>近くにブローチがあれば、その魔力であたしが気が付くはずよ。,100201000G,vc_10590100003_029_01,chara_2
+message,ベリサ,I've always sensed Steela's magic from Command HQ's decorations. If<br>Brooch is nearby，I can detect it from that magic.<br> ,100201000G,vc_10590100003_029_01,chara_2
 
 window,off
 wait,0.15
@@ -1074,7 +1074,7 @@ asynccharaemo,chara_6,Elated,CONT,0
 
 
 window,on,0.15
-message,ソフィア,では全体の統制は私が。<br>一応、安全な領域だけど、しっかりと護衛はするからね！,106501000G,vc_10590100003_030_01,chara_6
+message,ソフィア,I'll take charge of overall command. It's a safe area，but I'll still<br>make sure to keep everyone guarded!<br> ,106501000G,vc_10590100003_030_01,chara_6
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -1085,7 +1085,7 @@ asyncseplay,setag1_35,se4800004,0,1,CONT,0
 asynccharaemo,chara_4,Laugh,CONT,0
 
 
-message,マリナ,物資はしっかり準備しましたよぉ～。 <br>水や食料はこちらで受け取ってくださいな♪,100301000G,vc_10590100003_031_01,chara_4
+message,マリナ,I've got supplies all ready! Please come get water and food over<br>here!♪<br> ,100301000G,vc_10590100003_031_01,chara_4
 
 window,off
 wait,0.15
@@ -1131,7 +1131,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,スティーラ,み、皆さん……！<br>本当に、あ、あの……っ！　え、えっと……その……,105901000G,vc_10590100003_032_01,chara_1
+message,スティーラ,E-everyone...! I really，um...! Uh，well... that is...<br> ,105901000G,vc_10590100003_032_01,chara_1
 
 window,off
 wait,0.15
@@ -1144,9 +1144,9 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
 window,on,0.15
-message,,やる気満々に集まったメンバーへ、何か言おうとするが言葉に詰まり、<br>スティーラは涙目でただ深々と頭を下げた。
+message,,Steela tried to speak to the eager group but choked up. With teary<br>eyes，she simply bowed deeply.<br> 
 
-message,<user>,さあ出発しよう。<br>号令を頼むぞ、スティーラ。
+message,<user>,Alright，let's head out. I'll leave the command to you，Steela.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1157,9 +1157,9 @@ asyncseplay,setag1_37,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,スティーラ,ど、どうか、わたしのお友達を探してください……！<br>よろしくお願いします！,105901000G,vc_10590100003_033_01,chara_1
+message,スティーラ,P-please... please find my friend...! I'm counting on you!<br> ,105901000G,vc_10590100003_033_01,chara_1
 
-message,捜索隊一同,おーーっ！！！,900000001
+message,捜索隊一同,Whoooa!<br> ,900000001
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -1188,7 +1188,7 @@ bgmplay,bgmtag1_2,bgm0034,0.75,1
 transitionFade,Tra05,in,black,1
 
 window,on,0.15
-message,<user>,さて、ここが問題の池だ。 <br>どうだクルル、ベリサ。鼻に反応はあるか？
+message,<user>,Now，here's the pond in question. How about it，Kururu，Verisa? Any<br>scent?<br> 
 
 window,off
 wait,0.15
@@ -1235,7 +1235,7 @@ asynccharaemo,chara_2,Anger,CONT,0
 
 
 window,on,0.15
-message,ベリサ,ちょっと！　あたしは鼻で探してないからっ！<br>魔力よ魔力っ！,100201000G,vc_10590100003_034_01,chara_2
+message,ベリサ,Hey! I'm not using my nose! It's magic，magic!<br> ,100201000G,vc_10590100003_034_01,chara_2
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -1246,7 +1246,7 @@ asyncseplay,setag1_39,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ベリサ,ん～……ってゆか、反応は、あるような、ないような……？<br>本人が横にいるからちょっと分かりにくいわね。,100201000G,vc_10590100003_035_01,chara_2
+message,ベリサ,Hmm... well，there's a reaction，but then again there isn't...? It's<br>hard to tell because the owner is right next to me.<br> ,100201000G,vc_10590100003_035_01,chara_2
 
 asyncjump,CHARA,chara_3,-30,0.25,1,off,0,CONT
 
@@ -1255,7 +1255,7 @@ asyncseplay,setag1_40,se4800009,0,1,CONT,0
 asynccharaemo,chara_3,Question,CONT,0
 
 
-message,クルル,クンクン……ん～？ <br>もうこの辺には匂いが残ってないかも？,106701000G,vc_10590100003_036_01,chara_3
+message,クルル,*sniff*，*sniff*... Hmm? There's no smell left around here anymore，I<br>think.<br> ,106701000G,vc_10590100003_036_01,chara_3
 
 window,off
 wait,0.15
@@ -1301,7 +1301,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,スティーラ,そう、ですよね……,105901000G,vc_10590100003_037_01,chara_1
+message,スティーラ,You're right... of course...<br> ,105901000G,vc_10590100003_037_01,chara_1
 
 window,off
 wait,0.15
@@ -1347,11 +1347,11 @@ transitionCrossFade,Tra01,1
 wait,1
 
 window,on,0.15
-message,<user>,まぁ、そうだろうな。やはり鳥の巣を見つけるしかないか……。<br>よし！　ではここを中心に全員で散開だ！　ローラー作戦で行くぞ！
+message,<user>,I figured as much. We'll have to find the bird's nest after all.<br>Alright! Spread out from here! We'll do a line search!<br> 
 
-message,<user>,何人かは巨大な鳥が水を飲みに池に来ないか見張っててくれ！<br>そして鳥がどちらの方角に飛んでいくか観察して報告してほしい！
+message,<user>,A few of you keep watch at the pond to see if the giant birds come<br>to drink. Watch which direction they fly off in and report back!<br> 
 
-message,<user>,あと、鼻の利くやつらは俺が目星をつけた方向に一緒について来てくれ。<br>いいな、クルル、ベリサ！
+message,<user>,And those with a keen nose，follow me in the direction I've scoped<br>out. Got it，Kururu，Verisa?<br> 
 
 window,off
 wait,0.15
@@ -1405,7 +1405,7 @@ asynccharaemo,chara_3,Spirits,CONT,0
 
 
 window,on,0.15
-message,クルル,うん、がんばる！<br>見つけたらすぐに教えるね！,106701000G,vc_10590100003_038_01,chara_3
+message,クルル,Yeah，I'll try my best! I'll tell you right away if I find it!<br> ,106701000G,vc_10590100003_038_01,chara_3
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -1416,7 +1416,7 @@ asyncseplay,setag1_43,se4800001,0,1,CONT,0
 asynccharaemo,chara_2,Anger,CONT,0
 
 
-message,ベリサ,だーかーらー！　あたしのは鼻が利くんじゃなくて<br>魔力を感知するんだってばっ！,100201000G,vc_10590100003_039_01,chara_2
+message,ベリサ,I keep telling you! It's not that I have a good nose，I sense magic<br>power!<br> ,100201000G,vc_10590100003_039_01,chara_2
 
 window,off
 wait,0.15
@@ -1462,7 +1462,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,スティーラ,あ、あの……どうか、よ、よろしくお願いします……,105901000G,vc_10590100003_040_01,chara_1
+message,スティーラ,U-um... please... I-I'm counting on you...<br> ,105901000G,vc_10590100003_040_01,chara_1
 
 window,off
 wait,0.15
@@ -1518,7 +1518,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ベリサ,ふ～……でも、そのブローチって１回池で洗っちゃったんでしょ？<br>まだ匂いなんて残ってるのかしら？,100201000G,vc_10590100003_041_01,chara_2
+message,ベリサ,Hmm... but didn't you wash that brooch in the pond once? I doubt<br>there's any scent left.<br> ,100201000G,vc_10590100003_041_01,chara_2
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1529,7 +1529,7 @@ asyncseplay,setag1_46,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,スティーラ,あっ！　ぅぅ……そ、そう、ですよね……<br>やっぱりもう、あの子には会えないんでしょうか……,105901000G,vc_10590100003_042_01,chara_1
+message,スティーラ,Ah! Ugh... y-you're right，aren't you... I guess I'll never see that<br>little one again...<br> ,105901000G,vc_10590100003_042_01,chara_1
 
 asynccharaface,chara_2,FaceUnique01,CONT,0
 
@@ -1540,7 +1540,7 @@ asyncseplay,setag1_47,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,ベリサ,え、えええっ？<br>そんなことは言ってないわよ！？　,100201000G,vc_10590100003_043_01,chara_2
+message,ベリサ,Wha-what! I didn't say that!<br> ,100201000G,vc_10590100003_043_01,chara_2
 
 window,off
 wait,0.15
@@ -1590,7 +1590,7 @@ asynccharaemo,chara_4,BePeevish,CONT,0
 
 
 window,on,0.15
-message,マリナ,もぉ～、ベリサ、意地悪なこといわないの！<br>泣きそうになっちゃってるじゃないの。,100301000G,vc_10590100003_044_01,chara_4
+message,マリナ,Geez，Verisa，don't say such mean things! She's about to cry!<br> ,100301000G,vc_10590100003_044_01,chara_4
 
 window,off
 wait,0.15
@@ -1632,7 +1632,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,ベリサ,ちがうって！　匂いが消えてても、<br>あたしが魔力を感知してあげるって言いたかっただけだからね！,100201000G,vc_10590100003_045_01,chara_2
+message,ベリサ,That's not it! Even if the scent's gone，I was just saying I can<br>detect the magic power for you!<br> ,100201000G,vc_10590100003_045_01,chara_2
 
 window,off
 wait,0.15
@@ -1684,7 +1684,7 @@ asynccharaemo,chara_4,Laugh,CONT,0
 
 
 window,on,0.15
-message,マリナ,大丈夫ですよ～。 <br>毎日身に着けていたんですから、きっと匂いも残っていますよぉ♪,100301000G,vc_10590100003_046_01,chara_4
+message,マリナ,It's okay! Since you wore it every day，I'm sure the scent is still<br>there!♪<br> ,100301000G,vc_10590100003_046_01,chara_4
 
 window,off
 wait,0.15
@@ -1738,7 +1738,7 @@ asynccharaemo,chara_3,Twinkle,CONT,0
 
 
 window,on,0.15
-message,クルル,うん！ <br>クルルがぜったいに見つけてあげるから！,106701000G,vc_10590100003_047_01,chara_3
+message,クルル,Yeah! Kururu will definitely find it for you!<br> ,106701000G,vc_10590100003_047_01,chara_3
 
 asynccharaface,chara_6,FaceHappy,CONT,0
 
@@ -1749,7 +1749,7 @@ asyncseplay,setag1_52,se4800022,0,1,CONT,0
 asynccharaemo,chara_6,Speak,CONT,0
 
 
-message,ソフィア,みんなが全力で探してあげるからね！<br>どうか希望を捨てないで！　ねっ！,106501000G,vc_10590100003_048_01,chara_6
+message,ソフィア,We are all searching with all our might for you! Please do not give<br>up hope! Okay?<br> ,106501000G,vc_10590100003_048_01,chara_6
 
 window,off
 wait,0.15
@@ -1791,7 +1791,7 @@ asynccharaemo,chara_2,Elated,CONT,0
 
 
 window,on,0.15
-message,ベリサ,まっかせといて！<br>あたしが全力集中で見つけてあげるんだから！,100201000G,vc_10590100003_049_01,chara_2
+message,ベリサ,Just leave it to me! I'll focus all my power and find it!<br> ,100201000G,vc_10590100003_049_01,chara_2
 
 window,off
 wait,0.15
@@ -1833,7 +1833,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,スティーラ,は、はい……！<br>み、皆さんを信じています……,105901000G,vc_10590100003_050_01,chara_1
+message,スティーラ,Y-yes...! I-I believe in all of you...<br> ,105901000G,vc_10590100003_050_01,chara_1
 
 window,off
 wait,0.15
@@ -1860,7 +1860,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,スティーラ,（皆さんがこんなに一生懸命探してくれてるんだもの……<br>わたしがくよくよしてちゃいけないよね……）,105901000G,vc_10590100003_051_01,chara_1
+message,スティーラ,(Everyone's searching so hard for me... I can't be moping around...)<br> ,105901000G,vc_10590100003_051_01,chara_1
 
 window,off
 wait,0.15
@@ -1886,9 +1886,9 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,スティーラ,え、えと……！　わたしが話しかけたら絶対に応えてくれるはずです！<br>だ、だから……わ、わたしも、頑張って探しますのでっ！,105901000G,vc_10590100003_052_01,chara_1
+message,スティーラ,U-um...! If I call out to it，it should definitely answer! S-so...<br>I-I'll search hard too!<br> ,105901000G,vc_10590100003_052_01,chara_1
 
-message,<user>,その意気だ。<br>見落としがないように慎重に進むぞ！
+message,<user>,That's the spirit. We'll proceed carefully so we don't miss<br>anything.<br> 
 
 
 window,off
@@ -1932,7 +1932,7 @@ asynccharaemo,chara_6,Sweat,CONT,0
 
 
 window,on,0.15
-message,ソフィア,ん～……少しずつ日が傾いてきちゃったなぁ……。<br>そろそろ帰還を考えなければならないタイミングかしら。,106501000G,vc_10590100003_053_01,chara_6
+message,ソフィア,Hmm... the sun is starting to set... Perhaps we should consider<br>returning soon?<br> ,106501000G,vc_10590100003_053_01,chara_6
 
 asynccharaface,chara_6,EyeOpen,CONT,0
 asynccharaface,chara_6,FaceNormal,CONT,0
@@ -1944,7 +1944,7 @@ asyncseplay,setag1_58,se4800022,0,1,CONT,0
 asynccharaemo,chara_6,Speak,CONT,0
 
 
-message,ソフィア,スティーラ大丈夫？　歩き疲れちゃったんじゃない？,106501000G,vc_10590100003_054_01,chara_6
+message,ソフィア,Steela，are you okay? You must be tired from all this walking.<br> ,106501000G,vc_10590100003_054_01,chara_6
 
 window,off
 wait,0.15
@@ -1986,9 +1986,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,スティーラ,だ、大丈夫です。も、もう少しだけ……さ、探させてくれませんか……？<br>真っ暗になっちゃったら諦めます。だ、だから……,105901000G,vc_10590100003_055_01,chara_1
+message,スティーラ,I-it's okay. C-could you let me search just a little longer...? I'll<br>give up when it gets completely dark. S-so...<br> ,105901000G,vc_10590100003_055_01,chara_1
 
-message,<user>,そうだな。日が暮れても、匂いと魔力は消えるわけじゃない。<br>悪いが、もう少しだけ付き合ってくれないか？
+message,<user>,That's true. Even after dark，the scent and magic power won't just<br>disappear. Sorry to ask，but can you all bear with me a little longer?<br> 
 
 window,off
 wait,0.15
@@ -2040,7 +2040,7 @@ asynccharaemo,chara_6,Spirits,CONT,0
 
 
 window,on,0.15
-message,ソフィア,そう言うと思って、夜間調査用に松明も準備してきてるから安心して！,106501000G,vc_10590100003_056_01,chara_6
+message,ソフィア,I figured you'd say that，so I prepared torches for a nighttime<br>search. Don't worry!<br> ,106501000G,vc_10590100003_056_01,chara_6
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -2051,7 +2051,7 @@ asyncseplay,setag1_61,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,スティーラ,あ、ありがとうございます！<br>うう……。鳥さん、どこに持って行っちゃったんだろう……,105901000G,vc_10590100003_057_01,chara_1
+message,スティーラ,A-ah，thank you so much! Uu... Where did that bird take it...?<br> ,105901000G,vc_10590100003_057_01,chara_1
 
 window,off
 wait,0.15
@@ -2100,7 +2100,7 @@ asyncwait
 
 
 window,on,0.15
-message,スティーラ,お願い、帰ってきて……,105901000G,vc_10590100003_058_01,chara_1
+message,スティーラ,Please，come back...<br> ,105901000G,vc_10590100003_058_01,chara_1
 
 window,off
 wait,0.15
@@ -2152,7 +2152,7 @@ asynccharaemo,chara_3,Question,CONT,0
 
 
 window,on,0.15
-message,クルル,……スンスン……あれ？<br>ちょっとだけスティーラの匂いがするかも？,106701000G,vc_10590100003_059_01,chara_3
+message,クルル,...*sniff sniff*... Huh? Maybe I can smell a bit of Steela?<br> ,106701000G,vc_10590100003_059_01,chara_3
 
 window,off
 wait,0.15
@@ -2198,9 +2198,9 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,スティーラ,っ！？　本当ですか……！？,105901000G,vc_10590100003_060_01,chara_1
+message,スティーラ,...!? Really...!?<br> ,105901000G,vc_10590100003_060_01,chara_1
 
-message,<user>,ふむ。近くに昨日スティーラが作業していた魔石の採掘場があるからな。<br>もしかしたらその残り香かもしれんが……
+message,<user>,Hmm. There's a magic stone quarry nearby where Steela was working<br>yesterday. It might just be a lingering scent though...<br> 
 
 window,off
 wait,0.15
@@ -2255,7 +2255,7 @@ wait,0.5
 
 
 window,on,0.15
-message,クルル,うぅ～ん……。<br>そうかなあ……スンスン……,106701000G,vc_10590100003_061_01,chara_3
+message,クルル,Uuun... Is that so...? *sniff sniff*...<br> ,106701000G,vc_10590100003_061_01,chara_3
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -2266,7 +2266,7 @@ asyncseplay,setag1_66,se4800010,0,1,CONT,0
 asynccharaemo,chara_2,Exclamation,CONT,0
 
 
-message,ベリサ,クルルが言うんだし、何かあるかもしれないわ。<br>そう何度も使えないけど……魔力探知してみるわね！,100201000G,vc_10590100003_062_01,chara_2
+message,ベリサ,If Kururu says so，maybe there's something. I can't use this<br>often，but... I'll try Mana Detection!<br> ,100201000G,vc_10590100003_062_01,chara_2
 
 window,off
 wait,0.15
@@ -2318,7 +2318,7 @@ transitionFade,Tra20,out,white,1
 transitionFade,Tra19,in,white,1
 
 window,on,0.15
-message,,ベリサが緩やかに杖を振ると、 <br>先端に微かな光が灯った。
+message,,Verisa swung her staff in a slow arc，and a faint light flickered at<br>its tip.<br> 
 
 asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
 
@@ -2335,7 +2335,7 @@ asyncseplay,setag1_69,se4800010,0,1,STOP,3.2
 asynccharaemo,chara_2,Exclamation,STOP,3.2
 
 
-message,ベリサ,んっと～、ほんのちょっとだけど、反応してる！<br>方向は……あっちだわ！,100201000G,vc_10590100003_063_01,chara_2
+message,ベリサ,Hmm，just a tiny bit，but it's reacting! The direction... that way!<br> ,100201000G,vc_10590100003_063_01,chara_2
 
 window,off
 wait,0.15
@@ -2373,7 +2373,7 @@ asyncwait,subimage_0_1
 asyncwait,subimage_0_2
 
 
-messageTextUnder,,ベリサが杖を頭上に向ける。そちらへ視線を向けると、<br>岩壁の途中に細かい枝で組まれた鳥の巣らしきものが見える。,,,on
+messageTextUnder,,Verisa pointed her staff upward. Following her gaze，we saw a bird's nest woven from twigs midway up the rock face.,,,on
 
 window,off
 wait,0.15
@@ -2394,7 +2394,7 @@ subimagedelete,subimage_0_2
 
 
 window,on,0.15
-message,<user>,巨大な鳥の巣！？<br>これは……かなり可能性が見えてきたじゃないか！
+message,<user>,A giant bird's nest! This... it's starting to look really promising!<br> 
 
 window,off
 wait,0.15
@@ -2432,9 +2432,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,スティーラ,で、でも……あんな場所、た、高すぎますよ……,105901000G,vc_10590100003_064_01,chara_1
+message,スティーラ,B-but... up there，i-it's much too high...<br> ,105901000G,vc_10590100003_064_01,chara_1
 
-message,<user>,そんなことはない！<br>クルル！　お前なら、行けるよな！
+message,<user>,That's not true! Kururu! You can make it，right!<br> 
 
 window,off
 wait,0.15
@@ -2476,7 +2476,7 @@ asynccharaemo,chara_3,Spirits,CONT,0
 
 
 window,on,0.15
-message,クルル,うん、クルルに任せてっ！,106701000G,vc_10590100003_065_01,chara_3
+message,クルル,Yeah，leave it to me!<br> ,106701000G,vc_10590100003_065_01,chara_3
 
 window,off
 wait,0.15
@@ -2533,7 +2533,7 @@ asyncwait,subimage_0_1
 asyncwait,subimage_0_2
 
 
-messageTextUnder,,クルルはぴょんと飛び上がると、わずかな窪みへ軽やかに指をかけ、<br>スルスルと勢いよく壁面を登っていった。,,,on
+messageTextUnder,,Kururu sprang up，lightly catching her fingers on tiny cracks，and swiftly climbed the wall with ease.,,,on
 
 window,off
 wait,0.15
@@ -2575,7 +2575,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,スティーラ,す、すごい……こんな急な岩壁を簡単に……！,105901000G,vc_10590100003_066_01,chara_1
+message,スティーラ,S-so amazing... to climb such a steep wall so easily...!<br> ,105901000G,vc_10590100003_066_01,chara_1
 
 window,off
 wait,0.15
@@ -2618,7 +2618,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,,クルルは鳥の巣のある高さまでたどり着くと、<br>巣の中をこっそりと覗き込む。
+message,,Kururu climbed up to the bird's nest and peeked inside.<br> 
 
 asynccharaface,chara_3,EyeClose,CONT,0
 asynccharaface,chara_3,FaceNormal,CONT,0
@@ -2630,7 +2630,7 @@ asyncseplay,setag1_74,se4800019,0,1,CONT,0
 asynccharaemo,chara_3,Elated,CONT,0
 
 
-message,クルル,スンスン……やっぱりスティーラと同じ匂い……,106701000G,vc_10590100003_067_01,chara_3
+message,クルル,*sniff sniff*... just like Steela's scent...<br> ,106701000G,vc_10590100003_067_01,chara_3
 
 asynccharaface,chara_3,EyeOpen,CONT,0
 asynccharaface,chara_3,FaceNormal,CONT,0
@@ -2650,7 +2650,7 @@ asyncseplay,setag1_76,se4800010,0,1,STOP,6.1
 asynccharaemo,chara_3,Exclamation,STOP,6.1
 
 
-message,クルル,ちょっとお邪魔～。<br>卵が４つ……それと……あっ！,106701000G,vc_10590100003_068_01,chara_3
+message,クルル,Just a quick peek... Four eggs... and... Ah!<br> ,106701000G,vc_10590100003_068_01,chara_3
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -2667,7 +2667,7 @@ asyncjump,CHARA,chara_3,-30.6,0.5,1,off,0,CONT
 asyncwait
 
 window,on,0.15
-message,,クルルは鳥の巣から何かを手に取ると、<br>全員に見えるように大きく掲げた。
+message,,Kururu took something from the nest and held it up high for everyone<br>to see.<br> 
 
 asynccharaface,chara_3,FaceFun,CONT,0
 
@@ -2678,7 +2678,7 @@ asyncseplay,setag1_77,se4800022,0,1,CONT,0
 asynccharaemo,chara_3,Speak,CONT,0
 
 
-message,クルル,スティーラ、この子ー？,106701000G,vc_10590100003_069_01,chara_3
+message,クルル,Steela，is this the one?<br> ,106701000G,vc_10590100003_069_01,chara_3
 
 window,off
 wait,0.15
@@ -2719,7 +2719,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,スティーラ,あ、あぁぁぁぁっ！,105901000G,vc_10590100003_070_01,chara_1
+message,スティーラ,Ah，Aaaaah!<br> ,105901000G,vc_10590100003_070_01,chara_1
 
 bgmplay,bgmtag1_3,bgm0038,0.75,1
 
@@ -2732,7 +2732,7 @@ asyncseplay,setag1_79,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,スティーラ,そ、そうです！　その子です！<br>探していた、わたしの……わたしの……,105901000G,vc_10590100003_071_01,chara_1
+message,スティーラ,Y-yes! That's it! The one I was searching for，my... my...<br> ,105901000G,vc_10590100003_071_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -2743,9 +2743,9 @@ asyncseplay,setag1_80,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,スティーラ,わたしの、お友達です……！,105901000G,vc_10590100003_072_01,chara_1
+message,スティーラ,My friend...!<br> ,105901000G,vc_10590100003_072_01,chara_1
 
-message,,うおおおおお、と<br>捜索隊から歓声が上がる――
+message,,Whooooaa—cheers erupted from the search team.<br> 
 
 
 window,off
@@ -2768,7 +2768,7 @@ charaface,chara_1,FaceHappy
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,ブローチ,ゴ迷惑ヲオカケシマシタ、スティーラ様。,900000003,vc_10590100003_073_01,on
+message,ブローチ,I HAVE CAUSED YOU TROUBLE，STEELA.<br> ,900000003,vc_10590100003_073_01,on
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -2779,7 +2779,7 @@ asyncseplay,setag1_81,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,スティーラ,迷惑なんて……！ <br>無事で良かった……おかえり……っ！,105901000G,vc_10590100003_074_01,chara_1
+message,スティーラ,N-no trouble at all...! I'm so glad you're safe... welcome back...!<br> ,105901000G,vc_10590100003_074_01,chara_1
 
 window,off
 wait,0.15
@@ -2831,7 +2831,7 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,クルル,よかったね！　おともだち、みつかって！,106701000G,vc_10590100003_075_01,chara_3
+message,クルル,That's great! You found your friend!<br> ,106701000G,vc_10590100003_075_01,chara_3
 
 asynccharaface,chara_6,FaceHappy,CONT,0
 
@@ -2842,7 +2842,7 @@ asyncseplay,setag1_83,se4800004,0,1,CONT,0
 asynccharaemo,chara_6,Laugh,CONT,0
 
 
-message,ソフィア,ええ、本当に。<br>スティーラが諦めなかったおかげね！,106501000G,vc_10590100003_076_01,chara_6
+message,ソフィア,Indeed. It's thanks to Steela not giving up.<br> ,106501000G,vc_10590100003_076_01,chara_6
 
 window,off
 wait,0.15
@@ -2896,7 +2896,7 @@ asynccharaemo,chara_2,BePeevish,CONT,0
 
 
 window,on,0.15
-message,ベリサ,えええ～～、あたしが魔力を感知したおかげでしょ？,100201000G,vc_10590100003_077_01,chara_2
+message,ベリサ,Eee，it's thanks to me sensing the magic，isn't it?<br> ,100201000G,vc_10590100003_077_01,chara_2
 
 asyncjump,CHARA,chara_4,-30,0.25,1,off,0,CONT
 
@@ -2905,7 +2905,7 @@ asyncseplay,setag1_85,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,マリナ,ふふっ、それを言うならクルルちゃんのお手柄の方が大きいような……,100301000G,vc_10590100003_078_01,chara_4
+message,マリナ,Fufu，if you're going to say that，it seems like Kururu's achievement<br>was bigger...<br> ,100301000G,vc_10590100003_078_01,chara_4
 
 window,off
 wait,0.15
@@ -2951,9 +2951,9 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,スティーラ,いえっ！　み、皆さんのおかげですっ！<br>み、皆さんがこんなに集まって手伝ってくれたから……だから……,105901000G,vc_10590100003_079_01,chara_1
+message,スティーラ,N-no! It's thanks to a-all of you! Because you all gathered to help<br>me... that's why...<br> ,105901000G,vc_10590100003_079_01,chara_1
 
-message,<user>,良かったな、スティーラ。
+message,<user>,I'm glad，Steela.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -2964,11 +2964,11 @@ asyncseplay,setag1_87,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,スティーラ,はい……本当に良かったです……<br>見つかってくれて……わたしの唯一のお友達……,105901000G,vc_10590100003_080_01,chara_1
+message,スティーラ,Yes... I'm so glad... that you were found... my only friend...<br> ,105901000G,vc_10590100003_080_01,chara_1
 
-message,,スティーラがそう言うのを聞き、<user>は、<br>大きく首を横に振る。
+message,,Hearing Steela's words，Commander shook his head firmly.<br> 
 
-message,<user>,それはちがう。”唯一の友達”、ではないだろ？
+message,<user>,That's not right. It's not your 'only friend'，is it?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -2979,9 +2979,9 @@ asyncseplay,setag1_88,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,スティーラ,え……？,105901000G,vc_10590100003_081_01,chara_1
+message,スティーラ,Huh...?<br> ,105901000G,vc_10590100003_081_01,chara_1
 
-message,<user>,周りをよーく見てみろ。
+message,<user>,Take a good look around.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -2992,7 +2992,7 @@ asyncseplay,setag1_89,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,スティーラ,周りを……？,105901000G,vc_10590100003_082_01,chara_1
+message,スティーラ,Around...?<br> ,105901000G,vc_10590100003_082_01,chara_1
 
 window,off
 wait,0.15
@@ -3137,7 +3137,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,助けて、って言えば集まってくれる仲間がこんなにいるんだ。<br>ここにいるみんながスティーラの友達だろ？
+message,<user>,When you ask for help，you have so many friends who gather around.<br>Everyone here is your friend，aren't they?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -3148,7 +3148,7 @@ asyncseplay,setag1_94,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,スティーラ,あ……,105901000G,vc_10590100003_083_01,chara_1
+message,スティーラ,Ah...<br> ,105901000G,vc_10590100003_083_01,chara_1
 
 window,off
 wait,0.15
@@ -3174,7 +3174,7 @@ asynccharamove,chara_1,Linear,Y,40,0.5,CONT,0
 asyncwait
 
 window,on,0.15
-message,,再び出会えたスティーラとその友達を、穏やかに見つめる仲間たち。<br>スティーラは涙を拭って、ぺこりと頭を下げた。
+message,,The group gazed warmly at Steela and her newly-reunited friend.<br>Steela wiped her tears and bowed her head in gratitude.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -3185,7 +3185,7 @@ asyncseplay,setag1_95,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,スティーラ,み、皆さん……ありがとう！,105901000G,vc_10590100003_084_01,chara_1
+message,スティーラ,E-everyone... thank you so much!<br> ,105901000G,vc_10590100003_084_01,chara_1
 
 window,off
 wait,0.15
@@ -3197,7 +3197,7 @@ asyncseplay,se1_1003,se4600008,0,1,CONT,0
 wait,1
 
 window,on,0.15
-message,,小さいけれど、万感の想いがこもった言葉。<br>集まった捜索隊は拍手と口笛でそれに応えた。
+message,,Though small，her words were filled with deep emotion. The search<br>party responded with applause and whistles.<br> 
 
 sestop,se1_1003,1.5
 
@@ -3210,9 +3210,9 @@ asyncseplay,setag1_96,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,スティーラ,し、司令官様も……そ、その……本当にありがとうございました。,105901000G,vc_10590100003_085_01,chara_1
+message,スティーラ,A-And Lord Commander... um... thank you very much.<br> ,105901000G,vc_10590100003_085_01,chara_1
 
-message,<user>,俺は大したことはしていない。 <br>声をかけただけだからな。
+message,<user>,I didn't do much. I just called out to everyone.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -3223,7 +3223,7 @@ asyncseplay,setag1_97,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,スティーラ,いいえ、わたしじゃ、誰かに協力してもらおうだなんてできませんでした。<br>こんなにわたしの為に誰かが手伝ってくれるなんて想像も……,105901000G,vc_10590100003_086_01,chara_1
+message,スティーラ,N-no，I couldn't have asked someone for help... I never imagined<br>anyone would help me like this...<br> ,105901000G,vc_10590100003_086_01,chara_1
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -3232,7 +3232,7 @@ asyncseplay,setag1_98,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,スティーラ,司令官様に出会えて……わたしの魔石細工を皆さんに広めてくれて……<br>こんなに沢山の人たちが助けてくれて……,105901000G,vc_10590100003_087_01,chara_1
+message,スティーラ,M-meeting you，Lord Commander... you spread my magic stone craft to<br>everyone... so many people helped me...<br> ,105901000G,vc_10590100003_087_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -3243,7 +3243,7 @@ asyncseplay,setag1_99,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,スティーラ,この子しかお友達のいなかった私を変えてくれたのは、<br>し、司令官様……あなたと出会えたからです……,105901000G,vc_10590100003_088_01,chara_1
+message,スティーラ,What changed me，who had no friend but this little one，is... I-it's<br>because I met you，Lord Commander...<br> ,105901000G,vc_10590100003_088_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -3254,7 +3254,7 @@ asyncseplay,setag1_100,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,スティーラ,ほ、本当に……あ、ありがとう……ございました！,105901000G,vc_10590100003_089_01,chara_1
+message,スティーラ,I-I really... th-thank you... very much!<br> ,105901000G,vc_10590100003_089_01,chara_1
 
 window,off
 wait,0.15
@@ -3276,9 +3276,9 @@ asynccharamove,chara_1,Linear,Y,40,0.5,CONT,0
 asyncwait
 
 window,on,0.15
-message,,スティーラが、深々と頭を下げる。
+message,,Steela bowed deeply.<br> 
 
-message,<user>,おいおい。頭を上げろって！<br>えーと、言っとくが俺もスティーラの友達の１人に加えてくれよ！
+message,<user>,Hey hey，raise your head! And I'm telling you，count me as one of<br>Steela's friends too.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -3289,9 +3289,9 @@ asyncseplay,setag1_101,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,スティーラ,ぇ……ぁ……。司令官様がお友達！？<br>そ、それは……えっと……お友達にはしたくない……かも、です……,105901000G,vc_10590100003_090_01,chara_1
+message,スティーラ,Eh... ah... Lord Commander as my friend? Th-that is... um... I might<br>not want to be friends... maybe...<br> ,105901000G,vc_10590100003_090_01,chara_1
 
-message,<user>,はぁ！？　う、嘘だろ……？<br>なんで俺だけ仲間外れにするんだよ！
+message,<user>,Huh! W-wait，you're kidding...? Why am I the only one left out.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -3302,9 +3302,9 @@ asyncseplay,setag1_102,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,スティーラ,あ、い、いえ、そういうわけではなくて、その……,105901000G,vc_10590100003_091_01,chara_1
+message,スティーラ,Ah，n-no，that's not it，um...<br> ,105901000G,vc_10590100003_091_01,chara_1
 
-message,ブローチ,スティーラ様ハ、司令官様ト、<br>トモダチ以上ノ関係ヲ、希望シテイマス。,900000003,vc_10590100003_092_01,on
+message,ブローチ,STEELA WISHES FOR A RELATIONSHIP BEYOND FRIENDSHIP WITH THE LORD<br>COMMANDER.<br> ,900000003,vc_10590100003_092_01,on
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -3315,7 +3315,7 @@ asyncseplay,setag1_103,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,スティーラ,ちょ、ちょっと！<br>い、言っちゃだめえええええっ！,105901000G,vc_10590100003_093_01,chara_1
+message,スティーラ,W-wait，d-don't say that nooo!<br> ,105901000G,vc_10590100003_093_01,chara_1
 
 window,off
 wait,0.15
@@ -3339,7 +3339,7 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,,ブローチを胸に抱きしめて、<br>スティーラはリフトへ向かって走り去っていった。
+message,,Hugging Brooch to her chest，Steela ran off toward the lift.<br> 
 
 window,off
 wait,0.15
@@ -3360,9 +3360,9 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,行っちまった……。ホントはまた頼みたい魔石細工があったんだが……。<br>まあ、また店に顔を出すか。
+message,<user>,She's gone... I actually had more magic stone craft I wanted to<br>commission... Well，I'll just drop by her shop again.<br> 
 
-message,<user>,あの、夜だけ開いている、<br>腕利き魔石細工師の店に――
+message,<user>,That shop run by the skilled magic stone artisan that's only open at<br>night—<br> 
 
 window,off
 bgmstop,bgmtag1_3,0.5

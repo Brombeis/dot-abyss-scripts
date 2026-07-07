@@ -22,9 +22,9 @@ bgmplay,bgmtag1_1,bgm0025,0.75,1
 
 
 window,on,0.15
-message,ウェンディ,The Commander's summons tonight... it's probably to be his companion<br>for the night.<br> ,,vc_10250100031_001_01
+message,ウェンディ,The Commander called for me tonight... He probably wants me to be<br>his companion for the night!<br> ,,vc_10250100031_001_01
 
-message,ウェンディ,Ever since I got the message this afternoon，my heart has been<br>pounding with excitement... Commander!♡<br> ,,vc_10250100031_002_01
+message,ウェンディ,Ever since I got your message this afternoon，my heart has been<br>pounding with excitement... Commander!♡<br> ,,vc_10250100031_002_01
 
 seplay,setag1_1,se4300001,0,1
 
@@ -127,22 +127,22 @@ asyncseplay,setag1_7,se4800009,0,1,CONT
 asynccharaemo,chara_1,Question,STOP
 message,ウェンディ,My limits?<br> ,,vc_10250100031_008_01
 
-message,,Strictly speaking，it's the limit of Wendy's Special Magic Furnace<br>that activates during sex.<br> 
+message,,Strictly speaking，it's the limit of Wendy's special magic furnace<br>that activates during sex.<br> 
 
-message,,I heard from the Workshop that the Special Magic Furnace isn't<br>operating at full capacity and still has plenty of headroom.<br> 
+message,,I heard from the workshop that the special magic furnace isn't<br>operating at full capacity and still has plenty of headroom.<br> 
 
-message,,I want to confirm the limits of the Special Magic Furnace for future<br>reference too. It's a commanding officer's job to gauge a subordinate's strength and keep track of it.<br> 
+message,,I want to confirm the special magic furnace's limits for later<br>reference. It's my duty to gauge and track a subordinate's strength.<br> 
 
 charaface,chara_1,FaceAnger
 
 asyncseplay,setag1_8,se4800014,0,1,CONT
 
 asynccharaemo,chara_1,Silence,STOP
-message,ウェンディ,...So you just want to test the Special Magic Furnace?<br> ,,vc_10250100031_009_01
+message,ウェンディ,So you just want to test the special magic furnace?<br> ,,vc_10250100031_009_01
 
 message,,Wendy's eyes，once so full of hope，now showed displeasure. She was<br>clearly disappointed... no，she was sulking.<br> 
 
-message,,This is bad... if Wendy gets sulky，it'll affect the Special Magic<br>Furnace's performance too.<br> 
+message,,This is bad... if Wendy gets sulky，it'll affect the special magic<br>furnace's performance too.<br> 
 
 message,<user>,That's not it. I'm curious how worked up my woman can get.<br> 
 
@@ -164,7 +164,7 @@ asyncseplay,setag1_10,se4800013,0,1,CONT
 asynccharareaction,chara_1,Jump,1,STOP
 charaemo,chara_1,Spirits
 
-message,,She seemed to have cheered up. I breathed a sigh of relief at the<br>flustered Wendy.<br> 
+message,,She seemed to have cheered up. I breathe a sigh of relief at the<br>flustered Wendy.<br> 
 
 
 labeljump,b

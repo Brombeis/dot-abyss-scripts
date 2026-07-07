@@ -226,7 +226,7 @@ asynccharaface,chara_1,FaceFun,CONT,0
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
 
-message,エティア,ありがとう、ございます。,,vc_10120100001_006_01,chara_1
+message,エティア,Thank you very much.<br> ,,vc_10120100001_006_01,chara_1
 
 
 window,off
@@ -271,14 +271,14 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,エティアも買いものに来たのか？
+message,<user>,You came shopping too，Etia?<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,エティア,は、はい。<br>食料の補給を頼まれていて……。,,vc_10120100001_007_01,chara_1
+message,エティア,Y-yes. I was asked to restock supplies...<br> ,,vc_10120100001_007_01,chara_1
 
-message,<user>,よく働いているな。<br>今日は肉が安い。買いに来たのは正解だったぞ。
+message,<user>,You're really working hard. Meat is cheap today. You made the right<br>call coming here.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -289,9 +289,9 @@ asyncseplay,setag1_5,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,エティア,あ……そうなんですか……,,vc_10120100001_008_01,chara_1
+message,エティア,Oh... is that so...?<br> ,,vc_10120100001_008_01,chara_1
 
-message,<user>,エティアは聞いたか？<br>こいつは狩猟隊の活躍のおかげらしいぞ。
+message,<user>,Did you hear，Etia? This is apparently thanks to the Hunting Team's<br>efforts.<br> 
 
 
 window,off
@@ -321,9 +321,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,エティア,えっ……あ、そ、そうなんですね！<br>た、たすかりますね～！,,vc_10120100001_009_01,chara_1
+message,エティア,Huh...? Oh，r-really? Th-that's a big help!<br> ,,vc_10120100001_009_01,chara_1
 
-message,<user>,まったくだ。危険な野外で活動し、大量の獲物を確保して戻るとは。<br>並大抵の腕じゃないぞ。
+message,<user>,Exactly. Operating in dangerous wilderness and bringing back a huge<br>haul—that's no ordinary skill.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -334,9 +334,9 @@ asyncseplay,setag1_8,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,エティア,ほほほ、本当ですよね。,,vc_10120100001_010_01,chara_1
+message,エティア,Hoho，it really is，isn't it?<br> ,,vc_10120100001_010_01,chara_1
 
-message,<user>,モンスター以外の野生動物だって、油断すれば怪我をする。<br>駆除してもらえるのは街の人間にとってもありがたいよ。
+message,<user>,Even non-monster wild animals can hurt you if you're careless. It's<br>a real help for the townspeople to have them taken care of.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -347,9 +347,9 @@ asyncseplay,setag1_9,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,エティア,みんなも喜んでくれてるんだ……。<br>それは、とっても素敵ですねっ！,,vc_10120100001_011_01,chara_1
+message,エティア,Everyone's happy about it... That's really wonderful!<br> ,,vc_10120100001_011_01,chara_1
 
-message,<user>,狩猟隊の活躍はもっと評価すべきだな。<br>優秀なメンバーは俺の部下に欲しいぐらいだ。
+message,<user>,The Hunting Team's achievements deserve more recognition. Their best<br>members are the kind I'd love to have under my command.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -360,7 +360,7 @@ asyncseplay,setag1_10,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,エティア,そ、そんなにですか……えへへ……。,,vc_10120100001_012_01,chara_1
+message,エティア,R-really? You think so highly of me...? Ehehe...<br> ,,vc_10120100001_012_01,chara_1
 
 
 window,off
@@ -413,7 +413,7 @@ wait,0.5
 
 
 window,on,0.15
-message,肉屋の店主,よし、待たせたなエティアちゃん。<br>いいところだけ詰めといたぜ、狩猟隊の連中に礼を言っといてくれ。,400301000,,chara_2
+message,肉屋の店主,Alright，sorry to keep you waiting，Etia! I packed you the best<br>cuts—tell your Hunting Team buddies thanks.<br> ,400301000,,chara_2
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -424,9 +424,9 @@ asyncseplay,setag1_11,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,エティア,は、はい、ありがとうございます。<br>みんなにも伝えておきますね！,,vc_10120100001_013_01,chara_1
+message,エティア,Y-yes，thank you very much. I'll pass that along to everyone!<br> ,,vc_10120100001_013_01,chara_1
 
-message,<user>,狩猟隊？　なんだエティア、嬉しそうだと思ったら、<br>お前も狩猟隊の関係者だったのか。
+message,<user>,The Hunting Team? So that's why you looked so happy，Etia. You're<br>involved with them too，huh?<br> 
 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
@@ -438,7 +438,7 @@ asyncseplay,setag1_12,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,エティア,あっ……そのですね、関係者といえば関係者かもしれ、ない？<br>ぐらいの雰囲気もあったりなかったり、でして……。,,vc_10120100001_014_01,chara_1
+message,エティア,Ah... well，I suppose you could say I'm... kind of a member? Or maybe<br>not? It's a bit... ambiguous...<br> ,,vc_10120100001_014_01,chara_1
 
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
@@ -447,7 +447,7 @@ asyncseplay,setag1_13,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,肉屋の店主,なーに言ってんだ！　エティアちゃんは狩猟隊のひとりだよ！<br>今回の狩りにも同行してたんだぜ！,400301000,,chara_2
+message,肉屋の店主,What are you talking about! Etia is a member of the Hunting Team!<br>She was on this latest hunt too!<br> ,400301000,,chara_2
 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
@@ -459,9 +459,9 @@ asyncseplay,setag1_14,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,エティア,ふえっ！？,,vc_10120100001_015_01,chara_1
+message,エティア,Eep!<br> ,,vc_10120100001_015_01,chara_1
 
-message,<user>,この気弱なエティアが……！？<br>驚いたな、がんばっているじゃないか。
+message,<user>,This timid Etia...! I'm surprised. You're really working hard!<br> 
 
 
 asynccharaface,chara_1,FaceShy,CONT,0
@@ -473,7 +473,7 @@ asyncseplay,setag1_15,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,エティア,い、いえ、わたしなんて何もしてないので……,,vc_10120100001_016_01,chara_1
+message,エティア,N-no，I didn't do anything at all...<br> ,,vc_10120100001_016_01,chara_1
 
 asyncjump,CHARA,chara_2,-30,0.5,2,off,0,CONT
 
@@ -482,9 +482,9 @@ asyncseplay,setag1_16,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,肉屋の店主,いやいや聞いたぜ？<br>一番デカイ獲物はエティアちゃんが狩ったんだろう？,400301000,,chara_2
+message,肉屋の店主,No，no，I heard! The biggest catch was Etia's kill，wasn't it?<br> ,400301000,,chara_2
 
-message,<user>,ほー、そいつは大活躍だな！
+message,<user>,Whoa，that's some great work!<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -496,7 +496,7 @@ asyncseplay,setag1_17,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,エティア,それは偶然というか、たまたまというか……。,,vc_10120100001_017_01,chara_1
+message,エティア,It was more like luck，or just chance...<br> ,,vc_10120100001_017_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -507,9 +507,9 @@ asyncseplay,setag1_18,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,エティア,本当にわたしは狩猟隊のおまけみたいなものですからっ！,,vc_10120100001_018_01,chara_1
+message,エティア,I'm really just a tagalong in the Hunting Team!<br> ,,vc_10120100001_018_01,chara_1
 
-message,<user>,偶然に大物が狩れるような簡単な仕事じゃないだろ？<br>よくやってるじゃないか、もっと胸を張れって。
+message,<user>,You can't bag a big one on luck alone，right? You're doing great，so<br>hold your head high.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -520,16 +520,16 @@ asyncseplay,setag1_19,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,エティア,うう……。,,vc_10120100001_019_01,chara_1
+message,エティア,*whimper*<br> ,,vc_10120100001_019_01,chara_1
 
-message,<user>,俺もこの基地の司令官として、<br>狩猟隊としてがんばってるエティアには礼を言っておくか。
+message,<user>,As the Commander of this base，I suppose I should thank Etia for<br>working so hard in the Hunting Team.<br> 
 
 asyncjump,CHARA,chara_2,60,0.4,1,off,0,CONT
 
 
-message,肉屋の店主,お、そいつはいいな！<br>たまには兄ちゃんが仕事してるところを見せてもらわねえと！,400301000,,chara_2
+message,肉屋の店主,Oh，that sounds good! About time we got to see you doing your job，big<br>bro!<br> ,400301000,,chara_2
 
-message,<user>,今だって仕事中なんだよ！<br>俺が働いてないって誤解されるだろう！
+message,<user>,I'm working even now，you know! People might think I'm not doing<br>anything!<br> 
 
 asyncjump,CHARA,chara_2,-30,0.5,2,off,0,CONT
 
@@ -538,9 +538,9 @@ asyncseplay,setag1_20,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,肉屋の店主,わーってるよ！　みんな兄ちゃんが来るのを楽しみにしてんだぜ？<br>俺たちだって、顔も見たことねえ司令官になんざついていけねえからな！,400301000,,chara_2
+message,肉屋の店主,Yeah，I know! Everyone's looking forward to big bro coming，pal! After<br>all，we can't follow a Commander we've never even seen!<br> ,400301000,,chara_2
 
-message,<user>,調子がいいな、まったく。<br>それならもう少し尊敬してみせろっての。
+message,<user>,You're all talk，you know. If that's how it is，show me a bit more<br>respect.<br> 
 
 
 window,off
@@ -593,7 +593,7 @@ asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,エティア,（……やっぱり司令官、街のみんなにも慕われてるんだ……）,,vc_10120100001_020_01,chara_1
+message,エティア,(So the Commander really is loved by everyone in town...)<br> ,,vc_10120100001_020_01,chara_1
 
 window,off
 wait,0.15
@@ -612,7 +612,7 @@ wait,0.1
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 window,on,0.15
-message,<user>,ともかく、エティアはよくやってるよ。<br>ありがとうな、これからもよろしく頼む。
+message,<user>,Anyway，you're doing a great job，Etia. Thanks，and I look forward to<br>working with you.<br> 
 
 
 window,off
@@ -630,9 +630,9 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,エティア,っ！　お礼なんていらないんです！<br>わたしなんてダメダメのダメなのでっ！,,vc_10120100001_021_01,chara_1
+message,エティア,Ah! I don't need any thanks! I'm just useless，totally useless!<br> ,,vc_10120100001_021_01,chara_1
 
-message,<user>,どうしたんだ、そんなに謙遜することないだろう。
+message,<user>,What's wrong? You don't have to be so humble.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -644,7 +644,7 @@ asyncseplay,setag1_22,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,エティア,司令官に褒めてもらえるようなこと、<br>何もできてないから……！,,vc_10120100001_022_01,chara_1
+message,エティア,Because I haven't done anything worthy of the Commander's praise...!<br> ,,vc_10120100001_022_01,chara_1
 
 window,off
 wait,0.15
@@ -680,7 +680,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,エティア,ごめんなさいごめんなさい、<br>わたしなんかが狩猟隊にいてごめんなさいっ！,,vc_10120100001_023_01,chara_1
+message,エティア,I'm sorry，I'm sorry! I'm sorry someone like me is in the Hunting<br>Team!<br> ,,vc_10120100001_023_01,chara_1
 
 window,off
 wait,0.15
@@ -698,7 +698,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,エティア,ししし、失礼しますー！！！,,vc_10120100001_024_01,chara_1
+message,エティア,E-e-excuse me!<br> ,,vc_10120100001_024_01,chara_1
 
 
 window,off
@@ -719,12 +719,12 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,……すごい勢いで逃げられたぞ。<br>狩猟隊で活躍するような腕ききの猟師が、何に怯えてるんだか。
+message,<user>,She fled at an incredible speed... What's a skilled hunter who<br>performs so well in the Hunting Team so afraid of?<br> 
 
 
-message,<user>,それにしても、エティアがあの歳で大人と肩を並べて、<br>狩猟隊で働いていたとはな。
+message,<user>,Still，to think that Etia，at her age，was working alongside adults in<br>the Hunting Party.<br> 
 
-message,<user>,有能な上に将来性もある、か。<br>俺の直属の部下に欲しい人材だな……
+message,<user>,Capable，and with good prospects too... She's exactly the kind of<br>person I want as my direct subordinate.<br> 
 
 bgmstop,bgmtag1_1,1,0
 
@@ -757,7 +757,7 @@ bgmplay,bgmtag1_2,bgm0024,0.75,1
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,<user>,――ってことがあってな。<br>エティアを狩猟隊からスカウトしてもいいかなと思ってる。
+message,<user>,So that's what happened. I'm thinking of scouting Etia from the<br>Hunting Party.<br> 
 
 asynccharaface,chara_3,FaceSurprise,CONT,0
 
@@ -768,9 +768,9 @@ asyncseplay,setag1_25,se4800010,0,1,CONT,0
 asynccharaemo,chara_3,Exclamation,CONT,0
 
 
-message,アリシア,狩猟隊から、ですか。<br>そういえば狩猟隊から新しい申請が出ていましたよ。,,vc_10120100001_025_01,chara_3
+message,アリシア,From the Hunting Party? Come to think of it，they've submitted a new<br>application.<br> ,,vc_10120100001_025_01,chara_3
 
-message,<user>,ほう？　ちょっと見せてくれ。
+message,<user>,Oh? Let me take a look.<br> 
 
 window,off
 wait,0.15
@@ -792,23 +792,23 @@ asyncseplay,setag1_26,se4400022,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,<user>,……なるほど、外部活動の申請書か。
+message,<user>,I see... So it's an application for External Operations.<br> 
 
 asyncjump,CHARA,chara_3,-30,0.25,1,off,0,CONT
 
 
-message,アリシア,はい、今までより大規模な狩りを行いたいとのことで……,,vc_10120100001_026_01,chara_3
+message,アリシア,Yes，they want to conduct a larger-scale hunt than before...<br> ,,vc_10120100001_026_01,chara_3
 
-message,<user>,これまでしっかりと成果を出している、許可しない理由はないな。<br>それに……こいつは都合がいい。
+message,<user>,They've been producing solid results，so there's no reason not to<br>approve. Besides... this works out perfectly.<br> 
 
 asynccharaface,chara_3,FaceHappy,CONT,0
 
 asyncjump,CHARA,chara_3,30,0.25,1,off,0,CONT
 
 
-message,アリシア,では、許可ということで処理して問題ないですか？,,vc_10120100001_027_01,chara_3
+message,アリシア,Then shall I process it as approved?<br> ,,vc_10120100001_027_01,chara_3
 
-message,<user>,それで構わない。<br>ただし条件付きで、な。
+message,<user>,That's fine. But with conditions.<br> 
 
 asynccharaface,chara_3,FaceSurprise,CONT,0
 
@@ -819,9 +819,9 @@ asyncseplay,setag1_27,se4800022,0,1,CONT,0
 asynccharaemo,chara_3,Speak,CONT,0
 
 
-message,アリシア,大規模な遠征は大穴を刺激する可能性もありますし、<br>行動範囲を制限する、とかでしょうか？,,vc_10120100001_028_01,chara_3
+message,アリシア,A large-scale expedition might stir up the Abyss，so perhaps we<br>should restrict their area of operation?<br> ,,vc_10120100001_028_01,chara_3
 
-message,<user>,いや、そこは自由にしてくれていい。<br>狩猟隊は腕ききのようだ、多少のアクシデントは想定しているだろう。
+message,<user>,No，they can have free rein there. The Hunting Party seems skilled;<br>they'll have anticipated a few accidents.<br> 
 
 asyncshake,CHARA,chara_3,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -830,9 +830,9 @@ asyncseplay,setag1_28,se4800009,0,1,CONT,0
 asynccharaemo,chara_3,Question,CONT,0
 
 
-message,アリシア,……では、どんな条件を？,,vc_10120100001_029_01,chara_3
+message,アリシア,Then what conditions?<br> ,,vc_10120100001_029_01,chara_3
 
-message,<user>,簡単なことだ。<br>狩猟隊の狩りに、俺も同行する！
+message,<user>,It's simple. I'll accompany the Hunting Party on their hunt!<br> 
 
 bgmstop,bgmtag1_2,1,0
 
@@ -890,19 +890,19 @@ asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,エティア,司令官、やっぱりすごかったな……,,vc_10120100001_030_01,chara_1
+message,エティア,Commander... he really was amazing...<br> ,,vc_10120100001_030_01,chara_1
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
 
-message,エティア,いつも自信があって、みんなに認められて、慕われて……,,vc_10120100001_031_01,chara_1
+message,エティア,Always so confident，recognized by everyone，admired...<br> ,,vc_10120100001_031_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
 
-message,エティア,わたしも、司令官みたいになれたら……,,vc_10120100001_032_01,chara_1
+message,エティア,If only I could become like the Commander too...<br> ,,vc_10120100001_032_01,chara_1
 
 window,off
 wait,0.15
@@ -949,14 +949,14 @@ asyncjump,CHARA,chara_4,40,0.5,2,off,0,CONT
 
 
 window,on,0.15
-message,狩猟隊の女猟師,お、エティアじゃないか。<br>聞いたかい、次の狩りの許可が出たよ。,401601000,vc_10120100001_033_01,chara_4
+message,狩猟隊の女猟師,Oh，if it isn't Etia. Did you hear? We got permission for the next<br>hunt.<br> ,401601000,vc_10120100001_033_01,chara_4
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,エティア,あ……よかったですね！<br>みんながんばってきてくださいっ！,,vc_10120100001_034_01,chara_1
+message,エティア,Ah... That's great! Please do your best out there，everyone!<br> ,,vc_10120100001_034_01,chara_1
 
 asynccharaface,chara_4,FaceHappy,CONT,0
 
@@ -967,7 +967,7 @@ asyncseplay,setag1_30,se4800013,0,1,CONT,0
 asynccharaemo,chara_4,Spirits,CONT,0
 
 
-message,狩猟隊の女猟師,もちろんあんたも一緒だ。<br>次も期待してるよ！,401601000,vc_10120100001_035_01,chara_4
+message,狩猟隊の女猟師,Of course，you're coming too. I'm expecting great things from you<br>next time too!<br> ,401601000,vc_10120100001_035_01,chara_4
 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
@@ -979,7 +979,7 @@ asyncseplay,setag1_31,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,エティア,ふぇっ！？　<br>やっぱりわたしも行くんですか……！？,,vc_10120100001_036_01,chara_1
+message,エティア,Eep! So I have to go too after all...?<br> ,,vc_10120100001_036_01,chara_1
 
 asynccharaface,chara_4,EyeOpen,CONT,0
 asynccharaface,chara_4,FaceNormal,CONT,0
@@ -987,7 +987,7 @@ asynccharaface,chara_4,FaceNormal,CONT,0
 asyncjump,CHARA,chara_4,-30,0.25,1,off,0,CONT
 
 
-message,狩猟隊の女猟師,もちろんだよ。ああ、今回は司令官直々に視察に来るらしいから、<br>そっちの護衛も頼んだよ。,401601000,vc_10120100001_037_01,chara_4
+message,狩猟隊の女猟師,Of course. Yeah，I hear the Commander himself is coming for an<br>inspection this time，so I've put you on escort duty as well.<br> ,401601000,vc_10120100001_037_01,chara_4
 
 window,off
 wait,0.15
@@ -1035,7 +1035,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,エティア,え、ええええええええっ！？,,vc_10120100001_038_01,chara_1
+message,エティア,Eeeeeh!<br> ,,vc_10120100001_038_01,chara_1
 
 window,off
 bgmstop,bgmtag1_3,0.5

@@ -177,7 +177,7 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,BePeevish,STOP
 message,シャオレイ,先生、しつれい。そんなこと、ないもん。,,vc_10040100002_011_01
 
-message,<user>,うーん、自覚はない、か。<br>じゃあどうしてドアが吹き飛んだり、持ったコップが割れたんだと思う？
+message,<user>,Hmm，so you don't realize it，huh? Then why do you think the door flew<br>off and the cup you were holding shattered?<br> 
 
 asyncseplay,setag1_14,se4800009,0,1,CONT
 
@@ -185,11 +185,11 @@ asynccharaemo,chara_1,Question,STOP
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,シャオレイ,ここにあるもの、全部ひょろひょろだから。,,vc_10040100002_012_01
+message,シャオレイ,Because everything here is flimsy.<br> ,,vc_10040100002_012_01
 
-message,シャオレイ,家にあるものは取ってもこわれなかった。<br>こんなに、かるくもない。,,vc_10040100002_013_01
+message,シャオレイ,At home，things didn't break when Xiaolei picked them up. They<br>weren't this light either.<br> ,,vc_10040100002_013_01
 
-message,<user>,あー……そういや、シャオレイに聞いたな……
+message,<user>,Ah... now that you mention it，I did hear that from Xiaolei...<br> 
 
 window,off
 wait,0.15
@@ -207,7 +207,7 @@ wait,1
 fade,In,White,1.5
 
 window,on,0.15
-message,シャオレイの祖父,……まあ、ワシが何も教えんでも、<br>シャオレイは生まれつき強かったがのう。
+message,シャオレイの祖父,...Well，even if I didn't teach her anything，Xiaolei was born strong.<br> 
 
 window,off
 wait,0.15
@@ -223,40 +223,40 @@ wait,1
 fade,In,White,1.5
 
 window,on,0.15
-message,<user>,シャオレイの怪力は生まれつきだったんだよな。<br>それに合わせて家のものは全て丈夫な、重いものに交換してたんだろう。
+message,<user>,So Xiaolei's super strength is innate，huh. They must have replaced<br>everything at home with sturdy，heavy items to match it.<br> 
 
-message,<user>,もしかしたら鍛えるために、どんどん重くしてたのかもしれない。<br>重りをつけて生活するような感じでさ。
+message,<user>,Maybe they gradually made them heavier to train her. Like living<br>with weights on.<br> 
 
 asyncseplay,setag1_15,se4800009,0,1,CONT
 
 asynccharaemo,chara_1,Question,STOP
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,シャオレイ,……？<br>ものって、勝手に、重くなるんじゃ？,,vc_10040100002_014_01
+message,シャオレイ,...? Do things just get heavier on their own?<br> ,,vc_10040100002_014_01
 
-message,<user>,ならない！　それはもうトレーニングなんだよ！
+message,<user>,No，they don't! That's called training!<br> 
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,<user>,というわけで、だ。<br>シャオレイの力は戦闘なら有用だが、日常生活にはちょっと過剰気味だ。
+message,<user>,Anyway. Your strength is useful in combat，but it's a bit excessive<br>for daily life.<br> 
 
-message,<user>,これから問題なく生活できるように、<br>まずは力の制御を学んでもらおうと思う。
+message,<user>,I think you should start by learning to control your strength so you<br>can live without problems.<br> 
 
 asynccharaface,chara_1,FaceAnger,STOP
 
 asyncseplay,setag1_16,se4800006,0,1,CONT
 
 asynccharaemo,chara_1,Trouble,STOP
-message,シャオレイ,それ、はんたい。シャオレイ、強くなりたい。<br>力を弱めるひつようない。,,vc_10040100002_015_01
+message,シャオレイ,That's wrong. Xiaolei wants to get stronger. There's no need to<br>weaken it.<br> ,,vc_10040100002_015_01
 
-message,<user>,ところが必要あるんだよ。<br>力の制御は強くなるためにも大切なんだぞ。
+message,<user>,But there is a need. Controlling your strength is also important for<br>getting stronger.<br> 
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,<user>,常に全力を出してると、体力の減りも早いし、<br>フェイントなんかの搦手もやりにくい。
+message,<user>,If you always go all out，you'll burn through stamina quickly，and<br>feints and other tricky moves become harder to do.<br> 
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,<user>,それに本当に強い武人ってのは、<br>剛力よりも脱力を重視するもんだ。
+message,<user>,Besides，truly strong martial artists value relaxation over brute<br>strength.<br> 
 
 asyncseplay,setag1_17,se4800010,0,1,CONT
 
@@ -264,11 +264,11 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Exclamation,STOP
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,シャオレイ,だつりょく……。<br>きいたことある、さすが先生。,,vc_10040100002_016_01
+message,シャオレイ,Relaxation... Xiaolei has heard of that. As expected of Teacher.<br> ,,vc_10040100002_016_01
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,<user>,聞き分けがよくて大変よろしい。<br>じゃ、早速特訓だ。
+message,<user>,Good，you're listening well. Then，special training right away.<br> 
 
 window,off
 wait,0.15
@@ -285,7 +285,7 @@ transitionFade,Tra01,in,black,1
 
 
 window,on,0.15
-message,<user>,さ、まずはここで特訓するぞ！
+message,<user>,Alright，first let's train here!<br> 
 
 asynccharaface,chara_1,FaceFun,STOP
 
@@ -293,25 +293,25 @@ asyncseplay,setag1_18,se4800018,0,1,CONT
 
 asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Flower,STOP
-message,シャオレイ,おひるごはん食べるの？<br>やった。ちょうど、おなかへってた。,,vc_10040100002_017_01
+message,シャオレイ,Are we eating lunch? Yay! Xiaolei was just hungry.<br> ,,vc_10040100002_017_01
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,<user>,違う違う違う。シャオレイにはここで食器洗いをしてもらうんだ。<br>割れやすい皿を傷つけることなく洗う作業は、力加減の練習になるからな。
+message,<user>,No，no，no. I'm going to have you wash dishes here. Washing fragile<br>plates without damaging them is good practice for strength control.<br> 
 
 asyncseplay,setag1_19,se4800003,0,1,CONT
 
 asynccharaemo,chara_1,Twinkle,STOP
-message,シャオレイ,お皿洗い、とくい。<br>こきょうでも、お手伝いしてた。,,vc_10040100002_018_01
+message,シャオレイ,Xiaolei good at washing dishes. Xiaolei helped at home too.<br> ,,vc_10040100002_018_01
 
-message,<user>,お、そりゃよかった。<br>ゆっくりでいい、丁寧にやるんだぞ。
+message,<user>,Oh，that's good. Take your time and do it carefully.<br> 
 
 asynccharaface,chara_1,FaceHappy,STOP
 
 asyncseplay,setag1_20,se4800022,0,1,CONT
 
 asynccharaemo,chara_1,Speak,STOP
-message,シャオレイ,うん。どーんとまかせて。<br>じゃあ――,,vc_10040100002_019_01
+message,シャオレイ,Yeah. Leave it to Xiaolei. Then—<br> ,,vc_10040100002_019_01
 
 window,off
 wait,0.15
@@ -324,7 +324,7 @@ seplay,setag1_21,se4400032,0,1
 
 wait,1
 window,on,0.15
-message,,パリーン！　パリーン！　パリパリパリーン！
+message,,crash! crash! cr-cr-crash!<br> 
 
 window,off
 wait,0.15
@@ -337,13 +337,13 @@ asyncseplay,setag1_22,se4800019,0,1,CONT
 
 asynccharaemo,chara_1,Elated,STOP
 window,on,0.15
-message,シャオレイ,おわった。<br>洗う皿、なくなった。,,vc_10040100002_020_01
+message,シャオレイ,Xiaolei done. No more dishes.<br> ,,vc_10040100002_020_01
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,<user>,胸を張って言うな！！<br>洗い終わったんじゃなく、物理的に皿がなくなってるじゃないか！！
+message,<user>,Don't puff out your chest like that! You didn't finish washing<br>them—they're physically gone!<br> 
 
-message,<user>,くっ、仕方ない……。<br>それじゃあ、別の特訓だ！
+message,<user>,Ugh，fine... Then we'll do different special training!<br> 
 
 window,off
 wait,0.15
@@ -361,9 +361,9 @@ wait,1
 transitionFade,Tra02,in,black,1
 
 window,on,0.15
-message,<user>,いいかシャオレイ、今からやってもらうのは、マッサージだ。<br>俺の固まった筋肉をほぐしてもらう。
+message,<user>,Listen，Xiaolei. What I want you to do now is give me a massage.<br>Loosen up my stiff muscles.<br> 
 
-message,<user>,さすがに人は壊したりしないだろう。<br>……しないよな？　しないでくれよ？
+message,<user>,Surely you won't break a person... You won't，right? Please don't.<br> 
 
 asyncseplay,setag1_23,se4800009,0,1,CONT
 
@@ -372,9 +372,9 @@ asynccharaemo,chara_1,Question,STOP
 asynccharaface,chara_1,FaceSurprise,STOP
 
 asynccharaface,chara_1,FaceHappy,STOP,1
-message,シャオレイ,まっさーじ……あんま、のこと？<br>それならとくい。,,vc_10040100002_021_01
+message,シャオレイ,Massage... you mean that sort of thing? Then Xiaolei good at that.<br> ,,vc_10040100002_021_01
 
-message,<user>,本当か……？<br>じゃあ、俺はここに座ってるから。まずは肩叩きから頼む。
+message,<user>,Really? Then I'll sit here. First，start with tapping my shoulders.<br> 
 
 asynccharaface,chara_1,FaceFun,STOP
 
@@ -382,9 +382,9 @@ asyncseplay,setag1_24,se4800013,0,1,CONT
 
 asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Spirits,STOP
-message,シャオレイ,まかせて。<br>先生のかた、頑張って、たたく。,,vc_10040100002_022_01
+message,シャオレイ,Leave it to Xiaolei. Teacher's shoulders，Xiaolei will tap hard.<br> ,,vc_10040100002_022_01
 
-message,<user>,頑張らなくていい、絶対に頑張らなくていい。<br>可能な限り力を抜いてやってくれ。
+message,<user>,Don't try hard! Definitely don't try hard! Use as little strength as<br>possible.<br> 
 
 bgmstop,bgmtag1_2,6,0
 
@@ -396,28 +396,28 @@ asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
 
 asynccharaface,chara_1,FaceSurprise,STOP,3.5
-message,シャオレイ,わかった。<br>じゃあ、はじめる……ぁ……,,vc_10040100002_023_01
+message,シャオレイ,Xiaolei understands. Then begin... ah...<br> ,,vc_10040100002_023_01
 
-message,,開いた窓から部屋の中へ、<br>ふわふわと蝶が迷い込んできた。
+message,,A butterfly came fluttering into the room through the open window.<br> 
 
 asynccharaface,chara_1,FaceHappy,STOP
-message,シャオレイ,わ……ちょうちょ……,,vc_10040100002_024_01
+message,シャオレイ,Oh... a butterfly...<br> ,,vc_10040100002_024_01
 
 asyncshake,CHARA,chara_1,30,0,3,3,off,off,0,off,STOP
-message,,シャオレイの瞳がゆらゆらと飛ぶ蝶へと吸い寄せられる。<br>ゆらりゆらりと、羽ばたきに合わせて体が揺れた。
+message,,Xiaolei's eyes were drawn to the fluttering butterfly. Her body<br>swayed gently in time with its wings.<br> 
 
-message,<user>,シャオレイ？　どうした？<br>肩叩きだぞー？
+message,<user>,Xiaolei? What's wrong? Shoulder tapping?<br> 
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,シャオレイ,あ……そうだった。<br>先生のかたを、とん、とん。,,vc_10040100002_025_01
+message,シャオレイ,Ah... right. Teacher's shoulders，tap，tap.<br> ,,vc_10040100002_025_01
 
 shake,BACK,,0,25,0.5,1,off,off,0
 
 seplay,setag1_26,se4400063,0,1
-message,,ドゴンッ！
+message,,*bam*<br> 
 
-message,<user>,おわあああっ！？<br>椅子が！　椅子がぶっ壊れたっ！？
+message,<user>,Whoaahh! The chair! The chair's totally busted!<br> 
 
 asyncseplay,setag1_27,se4800017,0,1,CONT
 
@@ -425,13 +425,13 @@ asynccharareaction,chara_1,Shake,1,STOP
 asynccharaemo,chara_1,Shock,STOP
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,シャオレイ,わ……ちゃんと、見てなかった。<br>つぎ、先生のかた、たたく。,,vc_10040100002_026_01
+message,シャオレイ,Oh... Xiaolei wasn't watching properly.<br>Next，Xiaolei will tap Teacher's shoulder.<br> ,,vc_10040100002_026_01
 
-message,<user>,いや、もういい！　叩かなくていいぞ！<br>むしろ外れて良かった、本当に！
+message,<user>,No，that's enough! You don't need to tap! Actually，I'm glad it<br>missed，seriously!<br> 
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,<user>,ま、また別の特訓にしよう。<br>次はアプローチの方向を変えて――
+message,<user>,Well，let's do a different kind of training.<br>Next，we'll change our approach—<br> 
 
 window,off
 wait,0.15
@@ -452,33 +452,33 @@ transitionFade,Tra01,in,black,1
 
 asyncseplay,setag1_28,se4400032,0,1,CONT
 window,on,0.15
-message,,ガシャーンッ！
+message,,*crash*!<br> 
 
-message,<user>,掃除もダメ、か……
+message,<user>,So even cleaning's no good，huh...<br> 
 
 asynccharaface,chara_1,FaceSad,STOP
 
 charashow,chara_1,0.3
 
-message,シャオレイ,うぅ……ぜんぜん、できない……,,vc_10040100002_027_01
+message,シャオレイ,*whimper*... Xiaolei can't do anything...<br> ,,vc_10040100002_027_01
 
-message,<user>,すぐには難しかったか。<br>戦闘力がある代償と考えれば、仕方ない部分もあるしなあ。
+message,<user>,I guess it was tough right away. But if you think of it as the price<br>for your combat power，it's understandable.<br> 
 
 asyncseplay,setag1_29,se4800015,0,1,CONT
 
 asynccharaemo,chara_1,Dull,STOP
-message,シャオレイ,ごめん、なさい。<br>先生、おしえてくれた、のに……。,,vc_10040100002_028_01
+message,シャオレイ,Xiaolei is sorry.<br>Teacher taught Xiaolei，but...<br> ,,vc_10040100002_028_01
 
-message,<user>,心構えができたってことで、今日のところは良しとしよう。<br>気長にやっていくぞ。
+message,<user>,Let's see it as you getting into the right mindset，and call it good<br>for today. We'll take our time.<br> 
 
 asyncseplay,setag1_30,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,STOP
 
 shake,CHARA,chara_1,10,0,0.5,2,off,off,0
-message,シャオレイ,うぅ……つづけないと、ダメ？,,vc_10040100002_029_01
+message,シャオレイ,*whimper*... Does Xiaolei have to keep going?<br> ,,vc_10040100002_029_01
 
-message,<user>,そりゃダメだ。<br>なんでもかんでも壊してたら周りの人も困るんだからな。
+message,<user>,Of course you can't stop. If you go around breaking<br>everything，you'll cause trouble for others.<br> 
 
 asyncseplay,setag1_31,se4800009,0,1,CONT
 
@@ -486,7 +486,7 @@ asynccharaemo,chara_1,Question,STOP
 
 asynccharaface,chara_1,FaceSurprise,STOP
 
-message,シャオレイ,こまる……？,,vc_10040100002_030_01
+message,シャオレイ,Trouble...?<br> ,,vc_10040100002_030_01
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
@@ -495,19 +495,19 @@ window,off
 wait,0.15
 
 window,on,0.15
-message,兵士,司令官殿！　司令室の修理、完了いたしました！<br>新しい皿もすぐに納品される予定です！,900000001
+message,兵士,Lord Commander! Repairs to the command room are complete!<br>New plates will be delivered shortly!<br> ,900000001
 
-message,<user>,了解だ、ご苦労さん。
+message,<user>,Got it. Good work.<br> 
 
-message,兵士,はっ！　では私はこれで！,900000001
+message,兵士,Yes sir! I'll be off!<br> ,900000001
 
 window,off
 wait,0.15
 
 window,on,0.15
-message,シャオレイ,いまの人、だれ……？,,vc_10040100002_031_01
+message,シャオレイ,Who was that just now...?<br> ,,vc_10040100002_031_01
 
-message,<user>,ああ、シャオレイがぶっ飛ばしたドアの修理をしてくれたんだよ。<br>割れた皿の発注もしてくれたから、あとで礼を言っとけよ～？
+message,<user>,Oh，that's the guy who fixed the door you blew off. He also ordered<br>new plates for the broken ones，so go thank him later，okay?<br> 
 
 asyncseplay,setag1_32,se4800010,0,1,CONT
 
@@ -515,29 +515,29 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Exclamation,STOP
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,シャオレイ,しゅうり……。<br>シャオレイが、こわしたから？,,vc_10040100002_032_01
+message,シャオレイ,Repair...<br>Because Xiaolei broke it?<br> ,,vc_10040100002_032_01
 
 asynccharaface,chara_1,FaceSad,STOP
-message,<user>,壊れたものを放っておくわけにはいかないからな。<br>修理もするし片付けもする、補充だってするさ。
+message,<user>,We can't just leave broken things lying around.<br>We get them repaired，cleaned up，and restocked.<br> 
 
 asynccharaface,chara_1,FaceUnique01,STOP
-message,シャオレイ,わたしの、せい……。<br>シャオレイ、めいわく、かけてた。,,vc_10040100002_033_01
+message,シャオレイ,It's Xiaolei's fault... Xiaolei was causing trouble.<br> ,,vc_10040100002_033_01
 
 shake,CHARA,chara_1,10,0,0.5,2,off,off,0
-message,シャオレイ,ぐすっ……ごめん、なさい。,,vc_10040100002_034_01
+message,シャオレイ,*sniff*... Xiaolei is sorry.<br> ,,vc_10040100002_034_01
 
-message,パンパン[シャオレイ],くぴゅ……,900000003
+message,パンパン[シャオレイ],*squeak*...<br> ,900000003
 
-message,ダンダン[シャオレイ],くぴゅっ！,900000003
+message,ダンダン[シャオレイ],*squeak*!<br> ,900000003
 
 asynccharaface,chara_1,FaceSad,STOP
-message,シャオレイ,しぇしぇ、パンパン、ダンダン……。<br>シャオレイ、がんばる。,,vc_10040100002_035_01
+message,シャオレイ,Thank you，Panpan，Dandan... Xiaolei will do her best.<br> ,,vc_10040100002_035_01
 
-message,,シャオレイは涙をこらえ、<br>パンパンとダンダンを優しくなでた。
+message,,Xiaolei held back her tears and gently stroked Panpan and Dandan.<br> 
 
-message,<user>,まあ、そう焦る必要はないさ。その気持ちがあれば必ず改善する。<br>そいつらも支えてくれてるし…………
+message,<user>,Well，no need to rush. With that attitude，you'll improve. And those<br>two are supporting you too...<br> 
 
-message,<user>,ま、待てよ……！<br>そうか、これならもしかしたら――
+message,<user>,W-wait! I see... With this，maybe—<br> 
 
 
 

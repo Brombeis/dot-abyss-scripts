@@ -416,7 +416,7 @@ asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 message,エティア,あ……それは、<br>あんまり気を抜かないほうがいいかも、しれません。,,vc_10120100002_009_01,chara_1
 
-message,<user>,ほう、どういうことか詳しく聞かせてくれ。
+message,<user>,Oh? Tell me all about it.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -424,12 +424,12 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,エティア,狩りというのは普通の行軍とは違って、<br>決まった速度で進めないんです。,,vc_10120100002_010_01,chara_1
+message,エティア,Hunting isn't like ordinary marching. You can't move at a constant<br>speed.<br> ,,vc_10120100002_010_01,chara_1
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
 
-message,エティア,痕跡を探して足を止めたり、獲物を追って道なき道も歩いたりします。<br>風向きを考えてルートを変えることもあるんです。,,vc_10120100002_011_01,chara_1
+message,エティア,We stop to search for tracks，or walk through places with no path<br>when chasing prey. We even change our route depending on the wind.<br> ,,vc_10120100002_011_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -440,11 +440,11 @@ asyncseplay,setag1_13,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,エティア,だから知らない間にどんどん体力が削られて、<br>予想よりずっと疲れていた、なんてことも多くて……,,vc_10120100002_012_01,chara_1
+message,エティア,So without realizing it，your stamina gets drained，and often you end<br>up much more tired than you expected...<br> ,,vc_10120100002_012_01,chara_1
 
-message,<user>,……なるほど。<br>動物を相手にした軍事行動のようなものなんだな。
+message,<user>,...I see. So it's like military action against animals.<br> 
 
-message,<user>,油断していたら自分の体力を見誤るってわけか。<br>さすがベテランの狩人だ、勉強になるよ。
+message,<user>,So if you let your guard down，you misjudge your own stamina. As<br>expected of a veteran hunter，I'm learning a lot.<br> 
 
 
 asynccharaface,chara_1,FaceSad,CONT,0
@@ -456,11 +456,11 @@ asyncseplay,setag1_14,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,エティア,い、いえ……わたしなんて、全然なので……,,vc_10120100002_013_01,chara_1
+message,エティア,N-no... I'm nothing like that at all...<br> ,,vc_10120100002_013_01,chara_1
 
-message,<user>,前にもそう言っていたが、よくわからんな。<br>狩猟隊のメンバーに選ばれて、大きな獲物も狩ってるんだろう？
+message,<user>,You said that before，but I don't get it. You were chosen for the<br>Hunting party，and you hunt big prey，right?<br> 
 
-message,<user>,どうしてそう自信がない？<br>堂々としていればいいだろう？
+message,<user>,Why are you so lacking in confidence? You should just hold your head<br>high，shouldn't you?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -472,7 +472,7 @@ asyncseplay,setag1_15,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,エティア,……違うんです。<br>わたしが狩猟隊に参加してるのは、偶然でしかなくて……,,vc_10120100002_014_01,chara_1
+message,エティア,...That's not it. The only reason I'm in the Hunting party is pure<br>chance...<br> ,,vc_10120100002_014_01,chara_1
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -506,17 +506,17 @@ screeneffect,SEPIATONE,on,1,0
 fade,In,White,1
 
 window,on,0.15
-message,エティア,わたしが最初に狩猟隊に同行したのは、<br>狩りのための戦力じゃなく、サポートのためでした。,,vc_10120100002_015_01
+message,エティア,The first time I went with the Hunting party，it wasn't as combat<br>strength for the hunt，but as support.<br> ,,vc_10120100002_015_01
 
-message,エティア,隊の後ろで備品の管理をしたり、<br>狩りをしている人へ連絡を伝えに行ったり、そういう仕事だったんです。,,vc_10120100002_016_01
+message,エティア,I managed supplies in the rear，or ran messages to the hunters.<br>Things like that.<br> ,,vc_10120100002_016_01
 
-message,エティア,そうやってわたしにできることでお手伝いしていた時に、<br>狩るには大きすぎる危険な動物を見かけたって報告があって……。,,vc_10120100002_017_01
+message,エティア,While I was doing what little I could to help，there was a report of<br>a dangerous animal too big to hunt...<br> ,,vc_10120100002_017_01
 
-message,エティア,１度基地に戻りましょうって、連絡をしに行った時でした。,,vc_10120100002_018_01
+message,エティア,It was when I went to tell everyone we should head back to base.<br> ,,vc_10120100002_018_01
 
 bgmstop,bgmtag1_2,1.5,0
 
-message,大きな獣,グォォォォォ……,900000003
+message,大きな獣,*groar...*<br> ,900000003
 
 bgmplay,bgmtag1_3,bgm0039,0.75,1
 
@@ -538,17 +538,17 @@ asyncseplay,setag1_16,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,エティア,あ、ああ……,,vc_10120100002_019_01,chara_1
+message,エティア,A-ah...<br> ,,vc_10120100002_019_01,chara_1
 
 asynccharahide,chara_1,0.3,CONT,0
 
 emodelete,chara_1,0,0
 
-message,エティア,運悪く大きな野生動物に出会っちゃったんです。<br>人間を全然恐れていない、とても危ない子でした。,,vc_10120100002_020_01
+message,エティア,Bad luck，I ran into a huge wild beast. It had no fear of people at<br>all—a really dangerous one.<br> ,,vc_10120100002_020_01
 
 linework,on,Black,Strong
 
-message,大きな獣,オオオォォォォォッ！,900000003
+message,大きな獣,*roooooar!*<br> ,900000003
 
 window,off
 wait,0.15
@@ -576,7 +576,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,エティア,きゃああああっ！？,,vc_10120100002_021_01,chara_1
+message,エティア,Aaaah!<br> ,,vc_10120100002_021_01,chara_1
 
 window,off
 wait,0.15
@@ -598,12 +598,12 @@ scale,BACK,,0,1,1,Set
 fade,In,Black,0.0001
 
 window,on,0.15
-message,エティア,襲ってきたその子に、驚いて目を閉じてしまいました。<br>怖くて、ぎゅって身を固めた時に、思わず引き金を引いていて……。,,vc_10120100002_022_01
+message,エティア,When it charged at me，I was so scared I shut my eyes. I was<br>terrified，and as I braced myself，I pulled the trigger instinctively...<br> ,,vc_10120100002_022_01
 
 
 asyncseplay,setag1_18,se4900081,0,1,CONT,0
 
-message,,――タァンッ！！！<br>静かな森の中を、鋭い銃声が響く。
+message,,—Bang! A sharp gunshot echoed through the quiet forest.<br> 
 
 window,off
 wait,0.15
@@ -635,7 +635,7 @@ wait,1
 cleanall,EFFECT
 
 window,on,0.15
-message,大きな獣,グォッ！？　ォォォォ……,900000003
+message,大きな獣,Gwoah! oooo...<br> ,900000003
 
 
 asyncseplay,setag1_19,se4400063,0,1,CONT,0
@@ -664,7 +664,7 @@ asyncseplay,setag1_20,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,エティア,え……なんで……？,,vc_10120100002_023_01,chara_1
+message,エティア,Huh... why...?<br> ,,vc_10120100002_023_01,chara_1
 
 window,off
 wait,0.15
@@ -722,7 +722,7 @@ asynccharaemo,chara_3,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,狩猟隊の女猟師,おい、エティア！？　無事かっ！？<br>っと……こいつは、あんたがやったのか？,401601000,vc_10120100002_024_01,chara_3
+message,狩猟隊の女猟師,Hey，Etia! Are you okay!? Wait... Did you take it down?<br> ,401601000,vc_10120100002_024_01,chara_3
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -733,14 +733,14 @@ asyncseplay,setag1_22,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,エティア,え、ええ！？<br>いえ、わたしは何もっ！,,vc_10120100002_025_01,chara_1
+message,エティア,Wha—what! No，I didn't do anything!<br> ,,vc_10120100002_025_01,chara_1
 
 asynccharaface,chara_3,FaceHappy,CONT,0
 
 asyncjump,CHARA,chara_3,30,0.25,1,off,0,CONT
 
 
-message,狩猟隊の女猟師,何を言ってるんだ、あんたの銃声が聞こえたよ。,401601000,vc_10120100002_026_01,chara_3
+message,狩猟隊の女猟師,What are you talking about? I heard your gunshot.<br> ,401601000,vc_10120100002_026_01,chara_3
 
 asyncjump,CHARA,chara_3,-30,0.5,2,off,0,CONT
 
@@ -749,7 +749,7 @@ asyncseplay,setag1_23,se4800010,0,1,CONT,0
 asynccharaemo,chara_3,Exclamation,CONT,0
 
 
-message,狩猟隊の女猟師,ん？<br>ほー、急所を１発とは、やるじゃないか！,401601000,vc_10120100002_027_01,chara_3
+message,狩猟隊の女猟師,Huh? Oh，one shot right in the vital spot. Not bad!<br> ,401601000,vc_10120100002_027_01,chara_3
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -760,7 +760,7 @@ asyncseplay,setag1_24,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,エティア,偶然、偶然なんですっ！,,vc_10120100002_028_01,chara_1
+message,エティア,It was just luck，a total fluke!<br> ,,vc_10120100002_028_01,chara_1
 
 asynccharaface,chara_3,EyeOpen,CONT,0
 asynccharaface,chara_3,FaceNormal,CONT,0
@@ -768,7 +768,7 @@ asynccharaface,chara_3,FaceNormal,CONT,0
 asyncjump,CHARA,chara_3,-30,0.25,1,off,0,CONT
 
 
-message,狩猟隊の女猟師,謙遜することはないよ。<br>エティアの腕はわかってたが、こりゃ想像以上だ。,401601000,vc_10120100002_029_01,chara_3
+message,狩猟隊の女猟師,Don't be modest. I knew you had skill，but this is beyond what I<br>expected.<br> ,401601000,vc_10120100002_029_01,chara_3
 
 asyncjump,CHARA,chara_3,30,0.25,1,off,0,CONT
 
@@ -777,7 +777,7 @@ asyncseplay,setag1_25,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,狩猟隊の女猟師,よし、次からは狩りの方で同行してもらおう。<br>期待してるよ！,401601000,vc_10120100002_030_01,chara_3
+message,狩猟隊の女猟師,Alright，from now on you'll join us on the actual hunts. I'm counting<br>on you!<br> ,401601000,vc_10120100002_030_01,chara_3
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -788,7 +788,7 @@ asyncseplay,setag1_26,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,エティア,待ってください、わたしは、そんな……。<br>ええええええっ！？,,vc_10120100002_031_01,chara_1
+message,エティア,Wait，please! I'm not... Eeeeeh!<br> ,,vc_10120100002_031_01,chara_1
 
 bgmstop,bgmtag1_3,1,0
 
@@ -840,11 +840,11 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,エティア,というわけで……。<br>ただ偶然に狩ってしまっただけなんです。,,vc_10120100002_032_01,chara_1
+message,エティア,So that's what happened... I just killed it by pure accident.<br> ,,vc_10120100002_032_01,chara_1
 
-message,<user>,偶然に、か。<br>まあ１度ぐらいならそういうこともあるのかもしれない。
+message,<user>,A coincidence，huh? Well，maybe something like that can happen once.<br> 
 
-message,<user>,でも前回の狩りでも、<br>一番大きな獲物はエティアが狩ったんだろう？
+message,<user>,But during the last hunt，you also took down the biggest prey，didn't<br>you?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -856,15 +856,15 @@ asyncseplay,setag1_28,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,エティア,それも同じなんです。<br>びっくりして思わず撃ったら、たまたま当たっただけで……,,vc_10120100002_033_01,chara_1
+message,エティア,It was the same. I got startled and fired without thinking，and it<br>just happened to hit...<br> ,,vc_10120100002_033_01,chara_1
 
-message,<user>,いやいやいや！<br>そう何度も偶然が続くわけがないって！
+message,<user>,No，no，no! There's no way that many coincidences happen in a row!<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
-message,<user>,そもそもエティア、さっきも俺にアドバイスをくれたじゃないか。<br>狩人としては十分な実力があると思うぞ。
+message,<user>,And besides，you gave me advice earlier，didn't you? I think you've<br>got enough skill as a hunter.<br> 
 
-message,<user>,実力のある狩人が無意識に放った銃弾が獲物の急所を貫いた。<br>そりゃ偶然じゃなく、必然ってやつだ。
+message,<user>,A skilled hunter's bullet，fired without thinking，pierced the prey's<br>vital spot. That's not a coincidence—that's inevitable.<br> 
 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
@@ -876,7 +876,7 @@ asyncseplay,setag1_29,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,エティア,司令官……,,vc_10120100002_034_01,chara_1
+message,エティア,Commander...<br> ,,vc_10120100002_034_01,chara_1
 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
@@ -888,9 +888,9 @@ asyncseplay,setag1_30,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,エティア,……本当に、司令官ってすごいんですね。,,vc_10120100002_035_01,chara_1
+message,エティア,...You really are amazing，Commander.<br> ,,vc_10120100002_035_01,chara_1
 
-message,<user>,ん？　どうしてそうなる？<br>エティアはすごいって話をしているんだ。
+message,<user>,Hm? What makes you think that? I was just saying how amazing you<br>are.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -901,7 +901,7 @@ asyncseplay,setag1_31,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,エティア,だって司令官はいつも自信があって、<br>周りの人も、司令官の言葉を信じていて……,,vc_10120100002_036_01,chara_1
+message,エティア,But you're always so confident，Commander，and everyone around you<br>believes in what you say...<br> ,,vc_10120100002_036_01,chara_1
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -910,7 +910,7 @@ asyncseplay,setag1_32,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,エティア,司令官に認めてもらうと、<br>わたしも本当にできるんじゃないかって思っちゃうんです。,,vc_10120100002_037_01,chara_1
+message,エティア,When you acknowledge me，Commander，I start thinking that maybe I<br>really can do it.<br> ,,vc_10120100002_037_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -921,7 +921,7 @@ asyncseplay,setag1_33,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,エティア,いつも自信にあふれてて、堂々としていて。<br>わたしなんかでも、勇気をもらえるんですよ！,,vc_10120100002_038_01,chara_1
+message,エティア,You're always so full of confidence and poise. Even someone like me<br>can draw courage from you!<br> ,,vc_10120100002_038_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -933,9 +933,9 @@ asyncseplay,setag1_34,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,エティア,本当はわたしも、司令官みたいになりたいんです。<br>強い意志と信念のある、立派な狩人に……。,,vc_10120100002_039_01,chara_1
+message,エティア,Actually，I want to be like you，Commander. A splendid hunter with<br>strong will and conviction...<br> ,,vc_10120100002_039_01,chara_1
 
-message,<user>,評価してくれるのは嬉しいが、<br>俺なんかの真似をすると苦労するぞ？
+message,<user>,I'm glad you think so highly of me，but you'll have a rough time if<br>you try to imitate someone like me.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -946,9 +946,9 @@ asyncseplay,setag1_35,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,エティア,いいえ、そんなことないです！<br>司令官はとってもとっても、格好いいです……！,,vc_10120100002_040_01,chara_1
+message,エティア,No，not at all! You're really，really cool，Commander!<br> ,,vc_10120100002_040_01,chara_1
 
-message,<user>,そ、そうか……
+message,<user>,I-I see...<br> 
 
 window,off
 wait,0.15
@@ -965,11 +965,11 @@ wait,0.1
 asynccharaface,chara_1,FaceHappy,CONT,0
 
 window,on,0.15
-message,<user>,（司令官として意識的にカリスマを見せる俺への憧れ、か。<br>　あまりいい傾向とは思えないな）
+message,<user>,(So she admires me for the charisma I consciously project as the<br>Commander. I can't say that's a good sign.)<br> 
 
-message,<user>,（エティアが目指すべき姿は俺なんかじゃない。<br>　狩人に必要なメンタルと司令官の精神性はまったく別のものだ）
+message,<user>,(What Etia should strive to be isn't someone like me. The mindset of<br>a hunter and a commander are completely different.)<br> 
 
-message,<user>,（このまま放っておけば、どこかで失敗をしかねない。<br>　どうにかしたほうがよさそうだな……。）
+message,<user>,(If I leave this as is，she might fail somewhere down the line. I'd<br>better do something about it...)<br> 
 
 window,off
 wait,0.15
@@ -984,7 +984,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,とりあえずエティア、<br>司令官として１つだけ言っておくことがある。
+message,<user>,Anyway，Etia，as your Commander，there's one thing I want to say.<br> 
 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
@@ -996,9 +996,9 @@ asyncseplay,setag1_36,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,エティア,は、はいっ！　なんでしょうっ！,,vc_10120100002_041_01,chara_1
+message,エティア,Y-yes，Commander! What is it?<br> ,,vc_10120100002_041_01,chara_1
 
-message,<user>,仲間への誤射が怖いから、目を閉じて撃つのはやめろ。<br>エティアならちゃんと狙って当てられる。
+message,<user>,Stop closing your eyes when you shoot because you're afraid of<br>friendly fire. You can aim and hit your target，Etia.<br> 
 
 
 window,off
@@ -1030,7 +1030,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,エティア,あ……は、はいぃ……。,,vc_10120100002_042_01,chara_1
+message,エティア,Ah... Y-yes...<br> ,,vc_10120100002_042_01,chara_1
 
 bgmstop,bgmtag1_4,1.5,0
 
@@ -1070,16 +1070,16 @@ bgmplay,bgmtag1_5,bgm0036,0.75,1
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,<user>,少し太陽が傾いてきたな。<br>まだまだ時間はありそうだが……。
+message,<user>,The sun's starting to go down. We still have plenty of time，but...<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,エティア,安全を考えれば、もうすぐ狩りの終わる時間だと思います。<br>夜の森はとても怖い場所なんです。,,vc_10120100002_043_01,chara_1
+message,エティア,Considering safety，I think it's nearly time to call off the hunt.<br>The forest at night is a terrifying place.<br> ,,vc_10120100002_043_01,chara_1
 
-message,<user>,ま、そうなるか。悪いなエティア、<br>俺に付き合ってたせいで獲物が狩れなかっただろう。
+message,<user>,Well，I guess so. Sorry，Etia，I ended up keeping you from hunting any<br>game，didn't I?<br> 
 
 
 asynccharaface,chara_1,FaceShy,CONT,0
@@ -1091,7 +1091,7 @@ asyncseplay,setag1_39,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,エティア,い、いいえ……！<br>司令官とお話できて嬉しかったので……！,,vc_10120100002_044_01,chara_1
+message,エティア,N-no，not at all... I was happy to talk with you，Commander...!<br> ,,vc_10120100002_044_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1102,9 +1102,9 @@ asyncseplay,setag1_40,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,エティア,あ、あの……。ご主人様って、呼んでもいいですか？,,vc_10120100002_045_01,chara_1
+message,エティア,U-um... Can I call you Master?<br> ,,vc_10120100002_045_01,chara_1
 
-message,<user>,なんでだっ！？<br>やめろやめろ、他のやつに変な目で見られるだろう！
+message,<user>,Why?! Cut it out，cut it out! The others will give me weird looks!<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1115,9 +1115,9 @@ asyncseplay,setag1_41,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,エティア,じゃあ誰もいない時なら……！,,vc_10120100002_046_01,chara_1
+message,エティア,Then when there's no one around...!<br> ,,vc_10120100002_046_01,chara_1
 
-message,<user>,そんなところでだけ意地を見せるな！<br>その根性はもっと別の場所に使え！
+message,<user>,Don't be so stubborn about that! Use those guts for something else!<br> 
 
 
 window,off
@@ -1172,16 +1172,16 @@ wait,0.5
 
 
 window,on,0.15
-message,狩猟隊の男猟師,エティア、司令官！　ここにいたか！,401501000,,chara_2
+message,狩猟隊の男猟師,Etia，Commander! There you are!<br> ,401501000,,chara_2
 
 bgmplay,bgmtag1_6,bgm0039,0.75,1
 
-message,<user>,狩猟隊のメンバーか。<br>そんなに慌てて、どうしたんだ？
+message,<user>,A Hunting Party member? What's with the rush?<br> 
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
 
-message,狩猟隊の男猟師,モンスターの群れが見つかったっ！<br>ついさっき大穴から出てきたらしい！,401501000,,chara_2
+message,狩猟隊の男猟師,Found a pack of monsters! Looks like they just came out of the<br>Abyss!<br> ,401501000,,chara_2
 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
@@ -1193,9 +1193,9 @@ asyncseplay,setag1_42,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,エティア,モンスターがっ！？,,vc_10120100002_047_01,chara_1
+message,エティア,Monsters!<br> ,,vc_10120100002_047_01,chara_1
 
-message,<user>,危惧していたことが起きたか……
+message,<user>,Just what I was afraid of...<br> 
 
 window,off
 wait,0.15
@@ -1232,7 +1232,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,エティア、狩猟隊はただの猟師が集まってるだけじゃない。<br>いざとなれば戦える、腕ききの傭兵集団でもある。そうだな？
+message,<user>,Etia，the Hunting Party isn't just a bunch of hunters. When push<br>comes to shove，they can fight—they're a skilled mercenary group. Right?<br> 
 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
@@ -1240,9 +1240,9 @@ asynccharaface,chara_1,FaceAnger,CONT,0
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,エティア,……はい。みんなが動物だけじゃなく、<br>モンスターだって狩れる人たちですっ！,,vc_10120100002_048_01,chara_1
+message,エティア,Yes... Everyone here can hunt not just animals，but monsters too!<br> ,,vc_10120100002_048_01,chara_1
 
-message,<user>,よし、ならばこれより、俺が狩猟隊の指揮をとる。<br>モンスターはこの場で狩り尽くすぞ！
+message,<user>,Alright! From here on，I'll take command of the Hunting Party. We'll<br>hunt every last monster right here!<br> 
 
 window,off
 bgmstop,bgmtag1_6,0.5

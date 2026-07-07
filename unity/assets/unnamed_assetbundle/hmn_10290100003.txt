@@ -421,7 +421,7 @@ asynccharaemo,chara_2,Spirits,CONT,0
 
 
 window,on,0.15
-message,アリシア,あ、並ばれるんですか？<br>なら、わたしの後ろにどうぞ～。,300201000,vc_10290100003_012_01,chara_2
+message,アリシア,Oh，you're going to wait in line? Then please，get behind me.<br> ,300201000,vc_10290100003_012_01,chara_2
 
 window,off
 wait,0.15
@@ -466,7 +466,7 @@ wait,0.5
 
 
 window,on,0.15
-message,アリシア,……え？　今のって……？,300201000,vc_10290100003_013_01,chara_2
+message,アリシア,...Huh? What was that...?<br> ,300201000,vc_10290100003_013_01,chara_2
 
 window,off
 wait,0.15
@@ -488,7 +488,7 @@ wait,0.5
 asyncseplay,setag1_16,se4000019,0,1,CONT,0
 
 window,on,0.15
-message,,のっしのっし、と重い足音を立てて、<br>大きな熊が行列の最後尾に座り込んだ。
+message,,With heavy，lumbering footsteps，a large bear sat down at the very end<br>of the line.<br> 
 
 window,off
 wait,0.15
@@ -534,7 +534,7 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,アリシア,くっ、熊さんー！？,300201000,vc_10290100003_014_01,chara_2
+message,アリシア,Gah，Mr. Bear!<br> ,300201000,vc_10290100003_014_01,chara_2
 
 window,off
 wait,0.15
@@ -544,7 +544,7 @@ charafocusonall
 linework,off,Black,Middle
 
 window,on,0.15
-message,<user>,それもデカい……！<br>こんなところにまで入りこまれたのかっ！？
+message,<user>,And it's huge...! Did it really come all the way in here?<br> 
 
 window,off
 wait,0.15
@@ -590,7 +590,7 @@ asynccharaemo,chara_3,Exclamation,CONT,0
 
 
 window,on,0.15
-message,街の人Ａ,きゃああああ！　熊だわ！　<br>逃げてっ！　食べられちゃうー！,400101000,vc_10290100003_015_01,chara_3
+message,街の人Ａ,Aaaah! A bear! Run! We'll get eaten!<br> ,400101000,vc_10290100003_015_01,chara_3
 
 window,off
 wait,0.15
@@ -641,7 +641,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ミルティーユ,ほわわ、みんなで大騒ぎして、何事ですか～？,102901000G,vc_10290100003_016_01,chara_1
+message,ミルティーユ,Oh my，everyone's making such a commotion，what's going on?<br> ,102901000G,vc_10290100003_016_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -652,7 +652,7 @@ asyncseplay,setag1_22,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ミルティーユ,えええええっ！？<br>大きな熊さんがお店の前にっ！？,102901000G,vc_10290100003_017_01,chara_1
+message,ミルティーユ,Eeeeek! There's a huge Mr. Bear right in front of the shop!<br> ,102901000G,vc_10290100003_017_01,chara_1
 
 window,off
 wait,0.15
@@ -699,11 +699,11 @@ wait,0.5
 asyncseplay,setag1_24,se4000019,0,1,CONT,0
 
 window,on,0.15
-message,大熊,がうっ！？,900000003
+message,大熊,*growl*!<br> ,900000003
 
-message,,逃げ惑う人々、そして驚くミルティーユに熊は困惑した様子を見せる。<br><user>はその愛嬌のある動きに覚えがあった。
+message,,The bear looked confused as people fled and Myrtille stared in<br>shock. %user% recognized that endearing mannerism.<br> 
 
-message,<user>,ん……？<br>お前、まさか……
+message,<user>,Hm...? No way，you're...<br> 
 
 window,off
 wait,0.15
@@ -745,7 +745,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ミルティーユ,しれーかんさま、アリシアさん、危ないですよっ！<br>逃げてくださ～い！,102901000G,vc_10290100003_018_01,chara_1
+message,ミルティーユ,Commander，Alicia，it's dangerous! Please run!<br> ,102901000G,vc_10290100003_018_01,chara_1
 
 window,off
 wait,0.15
@@ -783,13 +783,13 @@ asynccharaemo,chara_4,Exclamation,CONT,0
 
 
 window,on,0.15
-message,兵士,みんなその熊から離れて！<br>私が駆除します！,401001000,vc_10290100003_019_01,chara_4
+message,兵士,Everyone，get away from that bear! I'll eliminate it!<br> ,401001000,vc_10290100003_019_01,chara_4
 
 linework,off,Black,Middle
 
-message,大熊,がうがうっ！？,900000003
+message,大熊,*growl，growl*!<br> ,900000003
 
-message,<user>,待て待て待て！<br>この熊を殺すな！
+message,<user>,Wait，wait，wait! Don't kill this bear!<br> 
 
 asynccharaface,chara_4,FaceSurprise,CONT,0
 
@@ -800,9 +800,9 @@ asyncseplay,setag1_27,se4800007,0,1,CONT,0
 asynccharaemo,chara_4,Panic,CONT,0
 
 
-message,兵士,は……？<br>ですが放置しては街の人を襲う危険も……,401001000,vc_10290100003_020_01,chara_4
+message,兵士,Huh...? But if we leave it alone，it might attack the townspeople...<br> ,401001000,vc_10290100003_020_01,chara_4
 
-message,<user>,こいつは俺たちの知り合いだ。<br>そうだよな、ミルティーユ。
+message,<user>,This bear is a friend of ours. Right，Myrtille?<br> 
 
 window,off
 wait,0.15
@@ -844,9 +844,9 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ミルティーユ,え……？,102901000G,vc_10290100003_021_01,chara_1
+message,ミルティーユ,Huh...?<br> ,102901000G,vc_10290100003_021_01,chara_1
 
-message,<user>,ほら、あの耳を見てみろ。
+message,<user>,Look，check out that ear.<br> 
 
 window,off
 wait,0.15
@@ -867,18 +867,18 @@ wait,0.5
 
 
 window,on,0.15
-message,ミルティーユ,右耳に大きな噛み傷……！<br>うそっ、いつもの熊さん～！？,102901000G,vc_10290100003_022_01,chara_1
+message,ミルティーユ,A big bite mark on the right ear! No way，it's Mr. Bear!<br> ,102901000G,vc_10290100003_022_01,chara_1
 
 asyncseplay,setag1_30,se4800013,0,1,CONT,0
 
-message,大熊,がうっ！,900000003
+message,大熊,Gaau!<br> ,900000003
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
 asyncshake,CHARA,chara_1,20,15,0.5,6,on,off,0,off,CONT,0
 
 
-message,ミルティーユ,なんでそんなに大きくなってるの～！？,102901000G,vc_10290100003_023_01,chara_1
+message,ミルティーユ,Why are you so big nooow?!<br> ,102901000G,vc_10290100003_023_01,chara_1
 
 
 window,off
@@ -910,13 +910,13 @@ bgmplay,bgmtag1_3,bgm0033,0.75,1
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,<user>,やれやれ、大騒ぎだったな。<br>おかげでミルティーユのタルトを食べそこねた。
+message,<user>,Good grief，that was quite a fuss. Thanks to you，I missed out on<br>Myrtille's tart.<br> 
 
-message,大熊,がうぅ……,900000003
+message,大熊,Gauuu...<br> ,900000003
 
-message,<user>,別に謝る必要はないが。<br>危ないから見つかるな、と言っただろ？
+message,<user>,No need to apologize. But I told you to stay out of sight because<br>it's dangerous，didn't I?<br> 
 
-message,大熊,がうがうぅ。,900000003
+message,大熊,Gaugauu.<br> ,900000003
 
 window,off
 wait,0.15
@@ -958,20 +958,20 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ミルティーユ,……ねえ、熊さん。<br>ミルがお店の準備をしている間にとっても大きくなったんだね。,102901000G,vc_10290100003_024_01,chara_1
+message,ミルティーユ,Hey，Mr. Bear... You got so big while Mil was preparing the<br>shop，didn't you?<br> ,102901000G,vc_10290100003_024_01,chara_1
 
 asyncseplay,setag1_32,se4020019,0,1,CONT,0
 
-message,大熊,がうっ！,900000003
+message,大熊,Gaau!<br> ,900000003
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,ミルティーユ,こんなに大きくなって、<br>きっと他の熊さんにも負けないよね～？,102901000G,vc_10290100003_025_01,chara_1
+message,ミルティーユ,Now that you're this big，you're definitely as strong as any other<br>bear，right?<br> ,102901000G,vc_10290100003_025_01,chara_1
 
-message,大熊,がうがう。,900000003
+message,大熊,Gaugau.<br> ,900000003
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -982,7 +982,7 @@ asyncseplay,setag1_33,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ミルティーユ,それなら、もうミルのところに来なくていいんだよ～？<br>森で自由に生きていいんだから～！,102901000G,vc_10290100003_026_01,chara_1
+message,ミルティーユ,Then you don't have to come to Mil anymore，okaaay? You can live<br>freely in the foreeeest!<br> ,102901000G,vc_10290100003_026_01,chara_1
 
 window,off
 wait,0.15
@@ -1019,9 +1019,9 @@ wait,1
 asyncseplay,setag1_34,se4900070,0,1,CONT,0
 
 window,on,0.15
-message,大熊,がうっ！？<br>がうーがうがう！　がーうっ！！！,900000003
+message,大熊,Gaau! Gauu，gau gau! Gaaau!<br> ,900000003
 
-message,,大熊は慌てた様子で、自分とミルティーユを交互に爪で示す。<br>その姿は、ボクたちは友だちじゃないか、と必死に訴えているように見えた。　
+message,,Flustered，Big Bear pointed its claw back and forth between itself<br>and Myrtille. It seemed to be desperately pleading，'Aren't we friends?'<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1032,7 +1032,7 @@ asyncseplay,setag1_35,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ミルティーユ,熊さん……！<br>うん、ミルだってこれからもあなたにタルトを食べてほしいよぉ～！,102901000G,vc_10290100003_027_01,chara_1
+message,ミルティーユ,Mr. Bear...! Yeah，Mil wants you to keep eating her tarts tooo!<br> ,102901000G,vc_10290100003_027_01,chara_1
 
 window,off
 wait,0.15
@@ -1074,9 +1074,9 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,ミルティーユ,しれーかんさま……。<br>熊さんを基地の中に入れちゃダメ、かな～？,102901000G,vc_10290100003_028_01,chara_1
+message,ミルティーユ,Commander... Can't we let Mr. Bear into the base，mayybe?<br> ,102901000G,vc_10290100003_028_01,chara_1
 
-message,<user>,ダメ。
+message,<user>,No.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1087,15 +1087,15 @@ asyncseplay,setag1_37,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ミルティーユ,えええぇ～！,102901000G,vc_10290100003_029_01,chara_1
+message,ミルティーユ,Eeee!<br> ,102901000G,vc_10290100003_029_01,chara_1
 
 asyncseplay,setag1_38,se4020019,0,1,CONT,0
 
-message,大熊,がうーっ！？,900000003
+message,大熊,Gauu!<br> ,900000003
 
-message,<user>,仕方ないだろ！<br>その気になったら人間を簡単に襲えるサイズに育っちまったんだから！
+message,<user>,What do you expect! It's grown big enough to easily attack humans if<br>it wanted to!<br> 
 
-message,<user>,そもそも俺がいいと言ったところで、<br>街の人たちは絶対に受け入れないぞ。
+message,<user>,Besides，even if I said it was fine，the townspeople would never<br>accept it.<br> 
 
 window,off
 wait,0.15
@@ -1137,11 +1137,11 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 
 window,on,0.15
-message,ミルティーユ,うう、そんな……熊さんは悪い子じゃないのにぃ～……,102901000G,vc_10290100003_030_01,chara_1
+message,ミルティーユ,But... Mr. Bear isn't a bad bear though...<br> ,102901000G,vc_10290100003_030_01,chara_1
 
-message,大熊,がうぅ……,900000003
+message,大熊,Grrr...<br> ,900000003
 
-message,<user>,……だが逆に言えば、街の住民が受け入れるのなら、<br>俺は喜んで許可を出そうじゃないか。
+message,<user>,But if the townspeople accept him，I'll gladly allow it.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1152,9 +1152,9 @@ asyncseplay,setag1_40,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ミルティーユ,え……しれーかんさま……？,102901000G,vc_10290100003_031_01,chara_1
+message,ミルティーユ,Huh... Commander...?<br> ,102901000G,vc_10290100003_031_01,chara_1
 
-message,<user>,同じタルトを食べた仲だ。<br>作戦は俺に任せておけ！
+message,<user>,We've shared tarts together! Leave the strategy to me!<br> 
 
 window,off
 wait,0.15
@@ -1196,7 +1196,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,ミルティーユ,ありがとう～！！！,102901000G,vc_10290100003_032_01,chara_1
+message,ミルティーユ,Thank you so much!<br> ,102901000G,vc_10290100003_032_01,chara_1
 
 
 window,off
@@ -1229,14 +1229,14 @@ fade,In,Black,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――数日後<br>ミルティーユのスイーツショップ前</size>,,,on
+messageTextCenter,,<size=48>—A few days later<br>In front of Myrtille's Sweets Shop</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
 
 
 window,on,0.15
-message,,大きな熊が店の前に置かれた椅子へ無理矢理に座り、<br>ナイフとフォークをつかって器用にタルトを切りわけていた。
+message,,The large bear forced itself onto a chair placed in front of the<br>shop and skillfully cut the tart with a knife and fork.<br> 
 
 window,off
 wait,0.15
@@ -1280,7 +1280,7 @@ asynccharaemo,chara_3,Shock,CONT,0
 
 
 window,on,0.15
-message,街の人Ａ,な、なにあの熊！<br>行儀良くタルトを食べてるわ……！,400101000,vc_10290100003_033_01,chara_3
+message,街の人Ａ,W-what is that bear! He's eating the tart so politely!<br> ,400101000,vc_10290100003_033_01,chara_3
 
 asynccharaface,chara_6,FaceHappy,CONT,0
 
@@ -1291,7 +1291,7 @@ asyncseplay,setag1_43,se4800002,0,1,CONT,0
 asynccharaemo,chara_6,Heart,CONT,0
 
 
-message,街の人Ｂ,大きな体でちまちまって……。<br>可愛いぃ～！,401401000,vc_10290100003_034_01,chara_6
+message,街の人Ｂ,With that huge body，eating so daintily... So cute!<br> ,401401000,vc_10290100003_034_01,chara_6
 
 asynccharaface,chara_3,FaceHappy,CONT,0
 
@@ -1302,7 +1302,7 @@ asyncseplay,setag1_44,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,街の人Ａ,それに、妙に美味そうに食べてるわね。<br>私までタルトが食べたくなってくるわ。,400101000,vc_10290100003_035_01,chara_3
+message,街の人Ａ,And he's eating it in a way that makes it look really delicious.<br>Even I'm starting to want some tart.<br> ,400101000,vc_10290100003_035_01,chara_3
 
 asynccharaface,chara_7,FaceHappy,CONT,0
 
@@ -1313,7 +1313,7 @@ asyncseplay,setag1_45,se4800004,0,1,CONT,0
 asynccharaemo,chara_7,Laugh,CONT,0
 
 
-message,街の人Ｃ,芸達者な熊じゃないか。<br>うちの犬よりずっとしつけられてるね。,400401000,vc_10290100003_036_01,chara_7
+message,街の人Ｃ,What a talented bear! He's better trained than my dog.<br> ,400401000,vc_10290100003_036_01,chara_7
 
 window,off
 wait,0.15
@@ -1357,11 +1357,11 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,ふっ、作戦通り。<br>こいつの可愛らしさにみんなメロメロだな！
+message,<user>,Heh，just as planned. Everyone's smitten with his cuteness!<br> 
 
-message,<user>,みんな、聞いてくれ。<br>見た通り、こいつは大人しくて賢い熊でな。
+message,<user>,Everyone，listen up. As you can see，he's a well-behaved and smart<br>bear.<br> 
 
-message,<user>,俺は子熊の頃から知っているが、<br>なかなか面白いやつなんだ。
+message,<user>,I've known him since he was a cub，and he's actually a pretty<br>interesting guy.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1372,7 +1372,7 @@ asyncseplay,setag1_46,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ミルティーユ,本当に優しくていい子で、<br>うちの看板熊になってもらおうと思ってるんです～！,102901000G,vc_10290100003_037_01,chara_1
+message,ミルティーユ,He's really sweet and kind! I'm thinking of making him our mascot<br>bear!<br> ,102901000G,vc_10290100003_037_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1383,11 +1383,11 @@ asyncseplay,setag1_47,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ミルティーユ,みんな、受け入れてあげてくれませんか～？,102901000G,vc_10290100003_038_01,chara_1
+message,ミルティーユ,Everyone，could you please accept him?<br> ,102901000G,vc_10290100003_038_01,chara_1
 
 asyncseplay,setag1_48,se4800002,0,1,CONT,0
 
-message,大熊,がう～！,900000003
+message,大熊,Grrr!<br> ,900000003
 
 window,off
 wait,0.15
@@ -1442,7 +1442,7 @@ transitionCrossFade,Tra02,1
 wait,1
 
 window,on,0.15
-message,,よろしく！　と片手を挙げる熊に、<br>街の人々は困惑しながら笑いを抑えられなかった。
+message,,When the bear raised a paw as if saying 'Please take care of<br>me!'，the townspeople couldn't help but laugh，despite being confused.<br> 
 
 asyncjump,CHARA,chara_3,30,0.25,1,off,0,CONT
 
@@ -1451,7 +1451,7 @@ asyncseplay,setag1_49,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,街の人Ａ,なに、あのユニークな動き。<br>でっかい熊だってのに、笑っちゃうじゃないか。,400101000,vc_10290100003_039_01,chara_3
+message,街の人Ａ,What's that quirky move? Even though he's a huge bear，he makes you<br>laugh，doesn't he?<br> ,400101000,vc_10290100003_039_01,chara_3
 
 asyncjump,CHARA,chara_7,-30,0.25,1,off,0,CONT
 
@@ -1460,7 +1460,7 @@ asyncseplay,setag1_50,se4800004,0,1,CONT,0
 asynccharaemo,chara_7,Laugh,CONT,0
 
 
-message,街の人Ｃ,看板熊というのはよく分からないけど、<br>司令官が言うなら信じてみようかね。,400401000,vc_10290100003_040_01,chara_7
+message,街の人Ｃ,I don't really get this whole ""mascot bear"" thing，but if the<br>Commander says so，I'll give it a try.<br> ,400401000,vc_10290100003_040_01,chara_7
 
 window,off
 wait,0.15
@@ -1510,9 +1510,9 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,ミルティーユ,良かった……！<br>みんな、ありがとうございますぅ～！,102901000G,vc_10290100003_041_01,chara_1
+message,ミルティーユ,Thank goodness...! Thank you all sooo much!<br> ,102901000G,vc_10290100003_041_01,chara_1
 
-message,大熊,がうがうー！,900000003
+message,大熊,Gaau，gaau!<br> ,900000003
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1523,7 +1523,7 @@ asyncseplay,setag1_52,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ミルティーユ,今日は熊さんの仲間入り記念に、タルトを大セールで販売しま～す！<br>ぜひ食べていってくださいね～！,102901000G,vc_10290100003_042_01,chara_1
+message,ミルティーユ,Today，to celebrate Mr. Bear joining our shop，Mil is having a big<br>sale on tarts! Please come and enjoy some!<br> ,102901000G,vc_10290100003_042_01,chara_1
 
 window,off
 wait,0.15
@@ -1579,23 +1579,23 @@ asynccharaemo,chara_5,Sweat,CONT,0
 
 
 window,on,0.15
-message,ミルティーユ,うう、大忙しでした～。,102901000G,vc_10290100003_043_01,chara_5
+message,ミルティーユ,Whew，Mil was sooo busy!<br> ,102901000G,vc_10290100003_043_01,chara_5
 
-message,<user>,あの熊が美味そうに食べてたタルトだからな。<br>みんなも味わいたかったんだろう。
+message,<user>,That bear was eating that tart so deliciously that everyone wanted a<br>taste，I guess.<br> 
 
 asyncseplay,setag1_54,se4000019,0,1,CONT,0
 
-message,大熊,がうがう！,900000003
+message,大熊,Gaau，gaau!<br> ,900000003
 
-message,<user>,ああ、お前もご苦労さん。<br>呼び込みに宣伝、子どもの相手と大活躍だったじゃないか。
+message,<user>,Yeah，good work to you too. You did great—calling out to<br>folks，advertising，and keeping the kids amused.<br> 
 
 asyncseplay,setag1_55,se4800013,0,1,CONT,0
 
-message,大熊,がう～♪,900000003
+message,大熊,Gaauu!♪<br> ,900000003
 
-message,,熊は自慢げに頷いたあと、片手を上げて去っていった。<br>今まで通り普段は森で過ごして、時々基地に遊びに来るようだ。
+message,,The bear nodded proudly，raised a paw，and trotted off. He'd stay in<br>the forest but come play at the base now and then.<br> 
 
-message,<user>,こりゃ基地のマスコットになる日も近いな。
+message,<user>,Looks like he'll become the base mascot before long.<br> 
 
 window,off
 wait,0.15
@@ -1630,9 +1630,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ミルティーユ,全部しれーかんさまのおかげです。<br>ミルは熊さんを見て、ちょっとだけびっくりしちゃったので～。,102901000G,vc_10290100003_044_01,chara_1
+message,ミルティーユ,It's all thanks to you，Commander. Mil was a little surprised when<br>she saw Mr. Bear，is all.<br> ,102901000G,vc_10290100003_044_01,chara_1
 
-message,<user>,そりゃこんなに大きな熊を見たら誰だって驚くよ。<br>それに、ミルティーユだってすぐに気づいただろ？
+message,<user>,Well，anyone would be startled seeing a bear that big. And<br>you，Myrtille，you recognized him right away，didn't you?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1643,9 +1643,9 @@ asyncseplay,setag1_57,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ミルティーユ,しれーかんさまがいつもの熊さんだよって言ってくれたおかげで、<br>この子だって分かったんですよ～！,102901000G,vc_10290100003_045_01,chara_1
+message,ミルティーユ,Because you told me he was the same Mr. Bear，Commander，that's how<br>Mil knew it was him!<br> ,102901000G,vc_10290100003_045_01,chara_1
 
-message,<user>,でも最初は怖かったからこそ、慣れたら余計に可愛く見えるもんだ。<br>きっとこれからは可愛がってもらえるんじゃないか。
+message,<user>,But because he was so intimidating at first，he seems even cuter now<br>that we're used to him. I'm sure he'll be well loved from now on.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1656,7 +1656,7 @@ asyncseplay,setag1_58,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ミルティーユ,……本当のことを言うと、<br>最初はしれーかんさまもちょっと怖い人かなって思ってたんです～。,102901000G,vc_10290100003_046_01,chara_1
+message,ミルティーユ,To tell you the truth... at first，Mil thought you might be a bit<br>scary too，Commander.<br> ,102901000G,vc_10290100003_046_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1664,7 +1664,7 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,ミルティーユ,でも盗み食いした熊さんを許してあげて、<br>タルトのことでも悩んでくれて……,102901000G,vc_10290100003_047_01,chara_1
+message,ミルティーユ,But you forgave Mr. Bear for stealing the tarts，and you even worried<br>about the tart problem...<br> ,102901000G,vc_10290100003_047_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1675,16 +1675,16 @@ asyncseplay,setag1_59,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ミルティーユ,こうして大きくなった熊さんにもすぐに気づいて、<br>また一緒に過ごせるように力を貸してくれました～。,102901000G,vc_10290100003_048_01,chara_1
+message,ミルティーユ,And you recognized Mr. Bear right away even though he'd gotten so<br>big，and you helped us so we could be together again.<br> ,102901000G,vc_10290100003_048_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
 asyncjump,CHARA,chara_1,-30,0.5,2,off,0,CONT
 
 
-message,ミルティーユ,怖そうに見えて、本当は優しくて素敵な人なんだって、<br>すぐに気づきましたよ！,102901000G,vc_10290100003_049_01,chara_1
+message,ミルティーユ,Even though you seemed intimidating，Mil knew right away that you're<br>actually a kind and wonderful person!<br> ,102901000G,vc_10290100003_049_01,chara_1
 
-message,<user>,ははは、なら俺はあの熊と同じだな。<br>最初は怖かった分、魅力的に見えるだろ？
+message,<user>,Ahaha，so that makes me just like that bear，huh? The more<br>intimidating at first，the more charming I look now，right?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1695,7 +1695,7 @@ asyncseplay,setag1_60,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ミルティーユ,……同じなんかじゃないですよ？,102901000G,vc_10290100003_050_01,chara_1
+message,ミルティーユ,...It's not the same thing at all，you know?<br> ,102901000G,vc_10290100003_050_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1703,7 +1703,7 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,ミルティーユ,熊さんは可愛くて優しいお友だちです。<br>でも、しれーかんさまは……,102901000G,vc_10290100003_051_01,chara_1
+message,ミルティーユ,Mr. Bear is a cute and kind friend. But Commander is...<br> ,102901000G,vc_10290100003_051_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1714,9 +1714,9 @@ asyncseplay,setag1_61,se4800002,0,1,CONT,0
 asynccharaemo,chara_1,Heart,CONT,0
 
 
-message,ミルティーユ,強くて優しくて、そばで支えたいと思う相手。<br>……ミルの大好きな人です。,102901000G,vc_10290100003_052_01,chara_1
+message,ミルティーユ,Strong and kind，someone I want to support by his side... Mil's most<br>beloved person.<br> ,102901000G,vc_10290100003_052_01,chara_1
 
-message,<user>,なっ……！
+message,<user>,Wha—!<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1727,11 +1727,11 @@ asyncseplay,setag1_62,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ミルティーユ,あ～！<br>しれーかんさま、照れてます～！,102901000G,vc_10290100003_053_01,chara_1
+message,ミルティーユ,Ah! Commander，you're blushing!<br> ,102901000G,vc_10290100003_053_01,chara_1
 
-message,<user>,うるさい、お前が直球で恥ずかしいことを言うからだ！
+message,<user>,Geez，that's because you say such embarrassing things so directly!<br> 
 
-message,<user>,ったく、口から出る言葉まで甘いやつだな、ミルティーユは。
+message,<user>,Geez，even your words are sweet，Myrtille.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1743,7 +1743,7 @@ asyncseplay,setag1_63,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ミルティーユ,えへへ♪　しれーかんさまが疲れた時は、<br>甘い甘いスイーツでいつでも癒やしてみせますよ～！,102901000G,vc_10290100003_054_01,chara_1
+message,ミルティーユ,Ehehe!♪ When Commander is tired，I'll always soothe you with my<br>sweet，sweet treats!<br> ,102901000G,vc_10290100003_054_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1754,7 +1754,7 @@ asyncseplay,setag1_64,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ミルティーユ,だからこれからは、ちゃんとミルに甘えてください、ね？,102901000G,vc_10290100003_055_01,chara_1
+message,ミルティーユ,So from now on，please rely on Mil，okay?<br> ,102901000G,vc_10290100003_055_01,chara_1
 
 window,off
 bgmstop,bgmtag1_5,0.5

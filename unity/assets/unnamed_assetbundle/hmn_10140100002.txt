@@ -366,7 +366,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,Hmm?<br>You seem less energetic than when we last met.<br> 
+message,<user>,Hmm? You seem less energetic than before.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -377,7 +377,7 @@ asyncseplay,setag1_18,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ピコ,Well，I was filming last time...<br> ,,vc_10140100002_017_01,chara_1
+message,ピコ,Well，I was filming then...<br> ,,vc_10140100002_017_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -388,9 +388,9 @@ asyncseplay,setag1_19,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ピコ,I just really want to go home.<br>No internet，nobody watching me... it's so lonely——<br> ,,vc_10140100002_018_01,chara_1
+message,ピコ,I still want to go back to my world. No internet，no one's watching<br>me... I'm so lonely.<br> ,,vc_10140100002_018_01,chara_1
 
-message,<user>,Hey now，you're genuinely not doing well，are you.<br> 
+message,<user>,Hey hey，you really are down，aren't you?<br> 
 
 window,off
 wait,0.15
@@ -442,7 +442,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 
 window,on,0.15
-message,ピコ,It's because I can't use it. Since I got here it's been<br>like a charm — something to push the anxiety away.<br> ,,vc_10140100002_019_01,chara_1
+message,ピコ,Because I can't use my smartphone. Since coming here，it's been like<br>a charm to fend off my anxiety.<br> ,,vc_10140100002_019_01,chara_1
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -451,9 +451,9 @@ asyncseplay,setag1_21,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ピコ,When I'm filming I can forget the anxiety and just focus...<br> ,,vc_10140100002_020_01,chara_1
+message,ピコ,When I'm filming，I can forget my anxiety and focus...<br> ,,vc_10140100002_020_01,chara_1
 
-message,<user>,I see.<br>So 'Isekai Let's Play' started for that reason too.<br> 
+message,<user>,I see. So you started the 'Otherworld Live Commentary' for that too.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -462,11 +462,11 @@ asyncseplay,setag1_22,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ピコ,Yeah...<br>What if I never get back...<br> ,,vc_10140100002_021_01,chara_1
+message,ピコ,Yeah... What if I can't go back...<br> ,,vc_10140100002_021_01,chara_1
 
 asyncskipwait
 
-message,<user>,Easy，easy，Pico.<br>Don't spiral like that.<br> 
+message,<user>,Wait，Pico，don't get so down.<br> 
 
 window,off
 wait,0.15
@@ -507,7 +507,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,It's natural to feel anxious，but——<br>you got here through the Abyss too，didn't you?<br> 
+message,<user>,It's understandable to be anxious，but you came here through the<br>Abyss too，didn't you?<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -516,11 +516,11 @@ asyncseplay,setag1_23,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ピコ,Yeah. Probably...<br> ,,vc_10140100002_022_01,chara_1
+message,ピコ,Yeah... probably.<br> ,,vc_10140100002_022_01,chara_1
 
-message,<user>,Then there's hope. The Abyss still has regions no one has ever seen.<br>Keep exploring and we might find a way to send you home.<br> 
+message,<user>,Then there's hope. The Abyss still has unexplored areas. If we keep<br>exploring，we might find clues to get you home.<br> 
 
-message,<user>,And fortunately，you're capable of holding your own in a fight.<br>Filming during expeditions keeps your spirits up，doesn't it?<br> 
+message,<user>,Luckily，you're a real asset，and you can film during exploration to<br>keep your spirits up，right?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -533,7 +533,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 message,ピコ,Well，yeah...<br> ,,vc_10140100002_023_01,chara_1
 
-message,<user>,Then don't overthink it. I'll call on you when we head out.<br>I'll even keep playing co-star for your let's play.<br> 
+message,<user>,Then don't worry. I'll call you when we explore. I'll co-host your<br>commentary streams.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -544,9 +544,9 @@ asyncseplay,setag1_25,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ピコ,...Commander，you're actually pretty kind.<br> ,,vc_10140100002_024_01,chara_1
+message,ピコ,...Commander，you're pretty kind.<br> ,,vc_10140100002_024_01,chara_1
 
-message,<user>,Looking after a struggling member of my crew is part of my job.<br> 
+message,<user>,It's my job to look after my subordinates when they're down.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -557,7 +557,7 @@ asyncseplay,setag1_26,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ピコ,...Yeah.<br>Thanks for being kind to me.<br> ,,vc_10140100002_025_01,chara_1
+message,ピコ,...I see. Thanks for being kind.<br> ,,vc_10140100002_025_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -568,7 +568,7 @@ asyncseplay,setag1_27,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ピコ,But I still can't shake this feeling...<br>Ahh，I wanna play games，I wanna play games，I wanna play games!<br> ,,vc_10140100002_026_01,chara_1
+message,ピコ,But I still can't get hyped... Ahh，I wanna game! I need to game!<br>Games!<br> ,,vc_10140100002_026_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -579,7 +579,7 @@ asyncseplay,setag1_28,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,ピコ,There were so many new releases I was hyped for this year!<br>I was supposed to do all-night launch-day streams for all of them!!<br> ,,vc_10140100002_027_01,chara_1
+message,ピコ,I was so hyped for the new games this year! I was gonna do an<br>all-nighter stream on release day!<br> ,,vc_10140100002_027_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -590,7 +590,7 @@ asyncseplay,setag1_29,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,ピコ,If I don't get back soon the hype will be dead!<br>No no no no no!<br> ,,vc_10140100002_028_01,chara_1
+message,ピコ,If I don't get back soon，I'll miss the new releases!<br>I don't wanna!<br> ,,vc_10140100002_028_01,chara_1
 
 window,off
 wait,0.15
@@ -633,7 +633,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,Hmm... Adelheid.<br>There's no way to modify the phone to run new games，is there?<br> 
+message,<user>,Hmm... Adelheid. There's no way you can modify the smartphone to<br>play new games，right?<br> 
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -644,11 +644,11 @@ asyncseplay,setag1_30,se4800014,0,1,CONT,0
 asynccharaemo,chara_2,Silence,CONT,0
 
 
-message,アーデルハイト,Unfortunately not. Those games would require<br>a desktop computer or a dedicated gaming console，I believe.<br> ,,vc_10140100002_029_01,chara_2
+message,アーデルハイト,Unfortunately，it's impossible. I believe those are meant to be<br>played on desktop or console，not a smartphone.<br> ,,vc_10140100002_029_01,chara_2
 
-message,<user>,No idea what any of that means，but I understand we can't give Pico<br>what she wants. ...We'll have to find her something else to enjoy.<br> 
+message,<user>,I don't have a clue，but I do know I can't grant Pico's wish.<br>...Looks like I'll have to find something else she can enjoy.<br> 
 
-message,<user>,Pico.<br>Come with me while your phone charges.<br> 
+message,<user>,Pico.<br>Come keep me company until your smartphone's done charging.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -659,9 +659,9 @@ asyncseplay,setag1_31,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ピコ,Ehh~.<br>I want to wait here in Adelheid's lab until it's done!<br> ,,vc_10140100002_030_01,chara_1
+message,ピコ,Ehh... I wanna wait in Adelheid's lab until my smartphone's done<br>charging!<br> ,,vc_10140100002_030_01,chara_1
 
-message,<user>,Don't be like that.<br>Didn't I go along with your let's play the other day?<br> 
+message,<user>,Don't say that. Didn't I join you for your live commentary video the<br>other day?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -672,7 +672,7 @@ asyncseplay,setag1_32,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ピコ,Ehh，but~~...<br> ,,vc_10140100002_031_01,chara_1
+message,ピコ,Ehh，but...<br> ,,vc_10140100002_031_01,chara_1
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -683,7 +683,7 @@ asyncseplay,setag1_33,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,アーデルハイト,Please go. I'll use the time to see if I can extend the battery life<br>a little more while you're out.<br> ,,vc_10140100002_032_01,chara_2
+message,アーデルハイト,Please go. In the meantime，I'll see if I can extend the battery life<br>a bit more.<br> ,,vc_10140100002_032_01,chara_2
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -694,7 +694,7 @@ asyncseplay,setag1_34,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ピコ,...Fine~.<br> ,,vc_10140100002_033_01,chara_1
+message,ピコ,...Fiiine.<br> ,,vc_10140100002_033_01,chara_1
 
 window,off
 wait,0.15
@@ -757,7 +757,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(Good. Got her out at least. Let's see if we can find something in<br>this world she actually likes.)<br> 
+message,<user>,(Good. At least I managed to get her out of there. Now let's find<br>something in this world she can enjoy.)<br> 
 
 wait,0.5
 
@@ -816,9 +816,9 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ピコ,This is a place for drinking，right?<br>I'm not into alcohol though~!?<br> ,,vc_10140100002_034_01,chara_1
+message,ピコ,This place is a bar，isn't it?<br>I'm not into alcohol，y'know!<br> ,,vc_10140100002_034_01,chara_1
 
-message,<user>,They do great food here besides the drinks.<br>I ordered a lot — on me — so have a taste. I splurged!<br> 
+message,<user>,There's good food here too，not just booze. I ordered a whole<br>bunch，so it's all on me. At least try some. I splurged!<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -829,13 +829,13 @@ asyncseplay,setag1_37,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ピコ,I'm not really into food~<br> ,,vc_10140100002_035_01,chara_1
+message,ピコ,I'm not interested in food at all.<br> ,,vc_10140100002_035_01,chara_1
 
-message,<user>,Just try it.<br>Oh，it's arriving now!<br> 
+message,<user>,Don't say that. Look，here it comes!<br> 
 
-message,,——A spread of dishes arrives at the table.<br>The aroma of expensive ingredients fills the air around them.<br> 
+message,,A multitude of dishes were brought to the table. The rich aroma of<br>dishes made with expensive ingredients wafted through the air.<br> 
 
-message,<user>,This one's highly recommended.<br>A superb salad with fresh vegetables. Give it a try!<br> 
+message,<user>,This is my pick. It's a fantastic salad made with fresh veggies. Go<br>on，give it a try!<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -846,9 +846,9 @@ asyncseplay,setag1_38,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,ピコ,Don't want it~. Vegetables are gross!!<br> ,,vc_10140100002_036_01,chara_1
+message,ピコ,I don't want it! I hate vegetables!<br> ,,vc_10140100002_036_01,chara_1
 
-message,<user>,What about meat and fish?<br> 
+message,<user>,How about meat and fish?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -859,9 +859,9 @@ asyncseplay,setag1_39,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ピコ,Ehh. I'll eat it I guess...<br>Honestly，as long as it fills me up it's all the same~.<br> ,,vc_10140100002_037_01,chara_1
+message,ピコ,Hmm. I'll eat，but... Honestly，as long as it's nutritious，I really<br>don't care.<br> ,,vc_10140100002_037_01,chara_1
 
-message,<user>,R-really...<br>But is there nothing you actually like to eat?<br> 
+message,<user>,S-so，I see... But seriously，isn't there any food you really like?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -872,9 +872,9 @@ asyncseplay,setag1_40,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ピコ,I liked junk food snacks.<br> ,,vc_10140100002_038_01,chara_1
+message,ピコ,I liked snack foods.<br> ,,vc_10140100002_038_01,chara_1
 
-message,<user>,...Sorry.<br>What kind of dish is that?<br> 
+message,<user>,... Sorry. What kind of dish is that?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -886,9 +886,9 @@ asyncseplay,setag1_41,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ピコ,It's more of a category than a dish.<br>Like 'Umasugiru Stick' or 'Shiitake-san Jiro'~.<br> ,,vc_10140100002_039_01,chara_1
+message,ピコ,It's not a dish，it's a genre. Like 'Too Delicious Sticks'，'Mr.<br>Shiitake Jiro' and stuff...<br> ,,vc_10140100002_039_01,chara_1
 
-message,<user>,What do they taste like?<br>What's the texture?<br> 
+message,<user>,What does it taste like? What's the texture?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -899,7 +899,7 @@ asyncseplay,setag1_42,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ピコ,I can't really describe the taste.<br>If I had to say — junk?<br> ,,vc_10140100002_040_01,chara_1
+message,ピコ,I can't really explain the taste. If I had to describe it，junk?<br> ,,vc_10140100002_040_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -910,7 +910,7 @@ asyncseplay,setag1_43,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ピコ,That greasy sticky coating is so perfectly snacky~.<br>I could just crunch through them forever.<br> ,,vc_10140100002_041_01,chara_1
+message,ピコ,The greasiness is what really makes it feel like snack food，y'know.<br>You can just keep crunching and munching away.<br> ,,vc_10140100002_041_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -921,9 +921,9 @@ asyncseplay,setag1_44,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ピコ,Actually the best part is being able to eat them<br>while gaming or watching videos~.<br> ,,vc_10140100002_042_01,chara_1
+message,ピコ,More than that，the best part is that you can eat them while playing<br>games or watching videos.<br> ,,vc_10140100002_042_01,chara_1
 
-message,<user>,Hmm... the more you explain the less I understand.<br>I suppose food isn't the way to cheer Pico up...<br> 
+message,<user>,Hmm... Even after hearing all that，I still don't get it. I guess<br>cheering Pico up with food is hopeless after all...<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -935,9 +935,9 @@ asyncseplay,setag1_45,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ピコ,Just give up and let's go back to Adelheid?<br> ,,vc_10140100002_043_01,chara_1
+message,ピコ,Let's just give up and head over to Adelheid's，okay?<br> ,,vc_10140100002_043_01,chara_1
 
-message,<user>,No，I have a few more places in mind.<br>After you finish eating，come with me a bit longer.<br> 
+message,<user>,No，there are still a few places I want to go. After we finish<br>eating，stick with me a bit longer.<br> 
 
 window,off
 bgmstop,bgmtag1_2,0.5

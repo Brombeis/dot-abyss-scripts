@@ -24,7 +24,7 @@ message,,The next morning，the Commander was awakened by a scream from beside<b
 
 asyncshake,BACK,,30,0,1,10,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_1,30,0,1,10,off,off,0,off,CONT,0
-message,ライム,I fell asleep without realizing it，I'm not wearing any clothes，and<br>beside me is that detestable man...! Ah，it's your fault—no，it's not! Ah，it's all my fault!<br> ,,vc_10360100013_002_01
+message,ライム,I fell asleep without realizing，I'm naked，and that detestable man is<br>beside me...! Ah，your fault—no，it's not! Ah，all my fault!<br> ,,vc_10360100013_002_01
 
 
 asyncseplay,setag3_1,se4400119,0,1,CONT
@@ -64,7 +64,7 @@ asynccharaemo,chara_1,Panic,STOP
 asynccharaface,chara_1,FaceUnique01,STOP
 
 asynccharaface,chara_1,FaceSad,STOP,8
-message,ライム,That's right! I was fully on board with everything! How utterly<br>infuriating! Ugh，what am I supposed to do... I can't face Lady Reyzeria now...!<br> ,,vc_10360100013_004_01
+message,ライム,Right! I fully agreed! How infuriating! Ugh，what do I do... I can't<br>face Lady Reyzeria!<br> ,,vc_10360100013_004_01
 
 message,<user>,Well，let's go grab a bite first. All that exercise made us<br>hungry，right?<br> 
 
@@ -78,7 +78,7 @@ asynccharaemo,chara_1,BePeevish,STOP
 asynccharaface,chara_1,FaceAnger,STOP
 message,ライム,Why are you so calm? You had me，of all people! Couldn't you be at<br>least a little flustered!<br> ,,vc_10360100013_005_01
 
-message,<user>,What's this ""someone like me"" business? I like women who are<br>strong，capable，and uncompromising—like you，Lime.<br> 
+message,<user>,What's this 'someone like me' business? I like women who are<br>strong，capable，and uncompromising—like you，Lime.<br> 
 
 asynccharareaction,chara_1,Shake,1,STOP
 

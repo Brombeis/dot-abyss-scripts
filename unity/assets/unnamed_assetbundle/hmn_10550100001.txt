@@ -34,7 +34,7 @@ bgmplay,bgmtag1_1,bgm0036,0.75,1
 
 
 window,on,0.15
-message,,――前線基地には各地から多くの者が訪れる。<br>今日もまたひとり、新しい人物がこの地に現れた。
+message,,Many people from all over came to the Frontline Base. Today，another<br>new face arrived at this place.<br> 
 
 window,off
 wait,0.15
@@ -79,7 +79,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,リタ,ここが前線基地――<br>わたしの、憧れの方がお勤めの場所……,105501000G,vc_10550100001_001_01,chara_1
+message,リタ,So this is the Frontline Base—the place where the one I admire<br>serves...<br> ,105501000G,vc_10550100001_001_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -90,7 +90,7 @@ asyncseplay,setag1_2,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,リタ,待っていてくださいね、司令官さま。<br>魔法剣士リタが今、会いにゆきます！,105501000G,vc_10550100001_002_01,chara_1
+message,リタ,Please wait for me，Commander! Magic Swordsman Rita is on her way to<br>meet you now!<br> ,105501000G,vc_10550100001_002_01,chara_1
 
 
 
@@ -114,7 +114,7 @@ asyncwait,subimage_0_1
 asyncwait,subimage_0_2
 
 
-messageTextUnder,,――リタが<user>に憧れるのは<br>父親からこんな話をされたからである。,,,on
+messageTextUnder,,Rita's admiration for the Commander came from a story her father once told her.,,,on
 
 window,off
 wait,0.15
@@ -140,7 +140,7 @@ screeneffect,SEPIATONE,on,1,0
 fade,In,White,1
 
 window,on,0.15
-message,リタの父親,街で面白い話を聞いたんだ。<br>前線基地で戦う英雄……司令官の武勇伝をね。,900000001
+message,リタの父親,I heard an interesting story in town. A tale of valor about the<br>Commander—the Hero fighting at the Frontline Base.<br> ,900000001
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -149,15 +149,15 @@ asyncseplay,setag1_3,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,リタ,前線基地の、司令官さま……？,105501000G,vc_10550100001_003_01,chara_1
+message,リタ,The Commander... at the Frontline Base?<br> ,105501000G,vc_10550100001_003_01,chara_1
 
-message,リタの父親,うん。彼はまだ若いのに、ずいぶん立派でね……<br>どんな劣勢でも諦めず、自ら剣を振るって逆転してしまうらしい。,900000001
+message,リタの父親,Yeah. He's young but impressive... They say no matter the odds，he<br>never gives up and turns things around with his own sword.<br> ,900000001
 
-message,リタの父親,その強さは武の極みと称されているとか。<br>ある戦いでは軍勢のピンチにたった１人で駆け付け、声高らかに叫んだ……,900000001
+message,リタの父親,His strength is the pinnacle of martial skill. In one battle，he<br>alone rescued an army in crisis and shouted at the top of his lungs.<br> ,900000001
 
-message,リタの父親,『悪しきモンスターたちめ！　我が必殺の剣を受けてみよ！<br><ruby=パーフェクトストラッシュ>完全無欠断罪剣</>！！！』,900000001
+message,リタの父親,'You evil monsters! Take my ultimate blade! Perfect Slash!'<br> ,900000001
 
-message,リタの父親,もちろん、モンスターの群れは真っ二つさ。,900000001
+message,リタの父親,'And of course，the monsters were split in two.'<br> ,900000001
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -168,9 +168,9 @@ asyncseplay,setag1_4,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,リタ,すごいっ！　それで、どうなったんです！？,105501000G,vc_10550100001_004_01,chara_1
+message,リタ,'Wow! So what happened next?!'<br> ,105501000G,vc_10550100001_004_01,chara_1
 
-message,リタの父親,戦場にはまだモンスターと戦い、苦戦している兵士たちがいる。<br>その中には、司令官を慕う女兵士も――,900000001
+message,リタの父親,'On the battlefield，soldiers were still fighting the<br>monsters，struggling badly. Among them was a female soldier who adored the Commander...'<br> ,900000001
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -181,9 +181,9 @@ asyncseplay,setag1_5,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,リタ,まぁっ……！？,105501000G,vc_10550100001_005_01,chara_1
+message,リタ,'Oh my...!'<br> ,105501000G,vc_10550100001_005_01,chara_1
 
-message,リタの父親,彼女は、モンスターの攻撃であえなく散ろうとしていた。,900000001
+message,リタの父親,'She was about to be taken down by the monsters' attack—she was on<br>the verge of death.'<br> ,900000001
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -194,11 +194,11 @@ asyncseplay,setag1_6,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,リタ,大変っ！,105501000G,vc_10550100001_006_01,chara_1
+message,リタ,'That's terrible!'<br> ,105501000G,vc_10550100001_006_01,chara_1
 
-message,リタの父親,だが心配無用！　駆け付けた司令官は彼女を庇う！<br>傷を負いながら、モンスターを斬り捨てる！！,900000001
+message,リタの父親,'But no need to worry! The Commander rushed in and shielded her!<br>Even as he took wounds，he cut the monsters down!'<br> ,900000001
 
-message,リタの父親,『司令官さま！　私如きのために負傷するなんて……！』<br>恐縮する女兵士に彼は言ったんだ。,900000001
+message,リタの父親,'Lord Commander! To get wounded for someone like me...!' said the<br>apologetic female soldier. And he told her...<br> ,900000001
 
 window,off
 wait,0.15
@@ -224,7 +224,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,リタ,（わくわく！）,105501000G,vc_10550100001_007_01,chara_1
+message,リタ,'(How exciting!)'<br> ,105501000G,vc_10550100001_007_01,chara_1
 
 window,off
 wait,0.15
@@ -241,7 +241,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,リタの父親,――『君の笑顔を守るためなら、俺の命なんて惜しくない』,900000001
+message,リタの父親,'If it's to protect your smile，my life means nothing to me.'<br> ,900000001
 
 window,off
 wait,0.15
@@ -267,7 +267,7 @@ asynccharaemo,chara_1,Heart,CONT,0
 
 
 window,on,0.15
-message,リタ,（キューーーーーンンンッ！）,105501000G,vc_10550100001_008_01,chara_1
+message,リタ,'(My heart is pounding!)'<br> ,105501000G,vc_10550100001_008_01,chara_1
 
 window,off
 wait,0.15
@@ -284,7 +284,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,リタの父親,リ、リタ？　大丈夫か？,900000001
+message,リタの父親,R-Rita? Are you all right?<br> ,900000001
 
 window,off
 wait,0.15
@@ -303,7 +303,7 @@ wait,0.5
 
 
 window,on,0.15
-message,リタ,……胸の高鳴りが、止まりません。,105501000G,vc_10550100001_009_01,chara_1
+message,リタ,My heart won't stop pounding.<br> ,105501000G,vc_10550100001_009_01,chara_1
 
 window,off
 wait,0.15
@@ -322,9 +322,9 @@ wait,0.5
 
 
 window,on,0.15
-message,リタ,お父さま……わたし、前線基地の司令官さまのところへ参ります。,105501000G,vc_10550100001_010_01,chara_1
+message,リタ,Father，I'm going to the Forward Base to meet the Commander.<br> ,105501000G,vc_10550100001_010_01,chara_1
 
-message,リタの父親,え？,900000001
+message,リタの父親,Huh?<br> ,900000001
 
 window,off
 wait,0.15
@@ -343,7 +343,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,リタ,司令官さまをお守りするためなら、この命――惜しくありません！,105501000G,vc_10550100001_011_01,chara_1
+message,リタ,To protect the Commander，I'd gladly give my life!<br> ,105501000G,vc_10550100001_011_01,chara_1
 
 window,off
 wait,0.15
@@ -353,7 +353,7 @@ charafocusonall
 linework,off,Black,Middle
 
 window,on,0.15
-message,リタの父親,え～～～っ！？,900000001
+message,リタの父親,What!<br> ,900000001
 
 
 
@@ -396,7 +396,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,リタ,（お父さまには猛反対されましたけど、<br>わたしの気持ちは止められませんわ……）,105501000G,vc_10550100001_012_01,chara_1
+message,リタ,(Father was strongly against it，but my feelings won't be stopped.)<br> ,105501000G,vc_10550100001_012_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -407,7 +407,7 @@ asyncseplay,setag1_13,se4800002,0,1,CONT,0
 asynccharaemo,chara_1,Heart,CONT,0
 
 
-message,リタ,（お優しく、真面目で清廉潔白なあなたにもうすぐお会いできると思うと……<br>あぁ……どうしましょう……っ♡）,105501000G,vc_10550100001_013_01,chara_1
+message,リタ,(Just thinking that I'll soon meet you—so kind，serious，and pure...<br>ah，what shall I do?♥)<br> ,105501000G,vc_10550100001_013_01,chara_1
 
 bgmstop,bgmtag1_1,1,0
 
@@ -426,7 +426,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,踊り子,はぁっ！？　お金がないですって～！？,401401000,vc_10550100001_014_01,on
+message,踊り子,Hah! You say you don't have any money?!<br> ,401401000,vc_10550100001_014_01,on
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -437,7 +437,7 @@ asyncseplay,setag1_14,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,リタ,……？<br>どうしたのかしら？,105501000G,vc_10550100001_015_01,chara_1
+message,リタ,...? I wonder what's going on?<br> ,105501000G,vc_10550100001_015_01,chara_1
 
 window,off
 wait,0.15
@@ -466,7 +466,7 @@ wait,1
 bgmplay,bgmtag1_2,bgm0026,0.75,1
 
 window,on,0.15
-message,<user>,無いんじゃない！　忘れてしまっただけだ！
+message,<user>,It's not that I don't have it! I just forgot!<br> 
 
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
@@ -475,9 +475,9 @@ asyncseplay,setag1_15,se4800001,0,1,CONT,0
 asynccharaemo,chara_2,Anger,CONT,0
 
 
-message,踊り子,先月もそう言って滞納したじゃない！<br>ツケ払いはこれっきりって言ったよねっ！？,401401000,vc_10550100001_016_01,chara_2
+message,踊り子,You said the same thing last month and then didn't pay! I told you<br>credit was over then，didn't I?!<br> ,401401000,vc_10550100001_016_01,chara_2
 
-message,<user>,わ、わざとじゃない！　信じてくれ！
+message,<user>,I-it wasn't on purpose! Believe me!<br> 
 
 asyncshake,CHARA,chara_2,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -486,7 +486,7 @@ asyncseplay,setag1_16,se4800010,0,1,CONT,0
 asynccharaemo,chara_2,Exclamation,CONT,0
 
 
-message,踊り子,だーめっ！　ちょっと痛い目見てもらうわよ！<br>……あんたたち！　おねが～い！,401401000,vc_10550100001_017_01,chara_2
+message,踊り子,No way! Time to teach you a lesson! ...Hey，you guys! Do me a favor!<br> ,401401000,vc_10550100001_017_01,chara_2
 
 window,off
 wait,0.15
@@ -527,7 +527,7 @@ asynccharaemo,chara_3,Elated,CONT,0
 
 
 window,on,0.15
-message,用心棒Ａ,おう！,401501000,,chara_3
+message,用心棒Ａ,Right!<br> ,401501000,,chara_3
 
 window,off
 wait,0.15
@@ -542,7 +542,7 @@ asynccharaemo,chara_4,Spirits,CONT,0
 
 
 window,on,0.15
-message,用心棒Ｂ,任せときな！,401601000,vc_10550100001_018_01,chara_4
+message,用心棒Ｂ,Leave it to us!<br> ,401601000,vc_10550100001_018_01,chara_4
 
 window,off
 wait,0.15
@@ -560,7 +560,7 @@ asyncjump,CHARA,chara_4,40,0.5,2,off,0,CONT
 asyncwait
 
 window,on,0.15
-message,,酒場に雇われている用心棒たちは、<br><user>をボコボコ殴り始めた。
+message,,The bouncers hired by the tavern started beating %user% soundly.<br> 
 
 asyncseplay,se1_1001,SE_DUMMY,0,1,CONT,0
 
@@ -571,7 +571,7 @@ asyncshake,CHARA,chara_3,24,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_4,24,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_5,24,0,0.6,5,off,off,0,on,CONT,0
 
-message,<user>,ぐわぁぁっ！？　勘弁してくれ～！！！
+message,<user>,Gwaaah! Give me a break!<br> 
 
 window,off
 wait,0.15
@@ -630,7 +630,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,リタ,（まぁ……なんということでしょう……でも、自業自得ですわ……）,105501000G,vc_10550100001_019_01,chara_1
+message,リタ,(Oh my... how dreadful... but he brought it upon himself.)<br> ,105501000G,vc_10550100001_019_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -641,7 +641,7 @@ asyncseplay,setag1_20,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,リタ,（前線基地には、あんなみっともない人もいらっしゃるのね）,105501000G,vc_10550100001_020_01,chara_1
+message,リタ,(So the Forward Base has such unsightly people as well.)<br> ,105501000G,vc_10550100001_020_01,chara_1
 
 window,off
 wait,0.15
@@ -691,9 +691,9 @@ wait,0.5
 
 
 window,on,0.15
-message,アリシア,あっ、司令官ー！　お財布！<br>忘れてたお財布！　持ってきましたよっ！！,300201000,vc_10550100001_021_01,chara_5
+message,アリシア,Ah，Commander! Your wallet! I brought the wallet you forgot!<br> ,300201000,vc_10550100001_021_01,chara_5
 
-message,<user>,で、でかしたー！！<br>よくやってくれたぞ！！！
+message,<user>,Nice one! You're a lifesaver!<br> 
 
 window,off
 wait,0.15
@@ -744,7 +744,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,リタ,（……は？　え？）,105501000G,vc_10550100001_022_01,chara_1
+message,リタ,(... Huh? What?)<br> ,105501000G,vc_10550100001_022_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -757,7 +757,7 @@ asyncseplay,setag1_23,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,リタ,（司令官んんんっ！？　あのダメ軟弱借金男が、憧れの司令官さまっ！？）,105501000G,vc_10550100001_023_01,chara_1
+message,リタ,(Commander!? That hopeless，weak，debt-ridden man is the Lord<br>Commander I've admired?!)<br> ,105501000G,vc_10550100001_023_01,chara_1
 
 window,off
 wait,0.15
@@ -820,7 +820,7 @@ wait,0.5
 
 
 window,on,0.15
-message,踊り子,……うん、確かに。<br>ちゃんと全額あるね。,401401000,vc_10550100001_024_01,chara_2
+message,踊り子,...Yeah，you're right. The full amount's here.<br> ,401401000,vc_10550100001_024_01,chara_2
 
 asyncjump,CHARA,chara_5,-30.6,0.5,1,off,0,CONT
 
@@ -829,7 +829,7 @@ asyncseplay,setag1_25,se4800007,0,1,CONT,0
 asynccharaemo,chara_5,Panic,CONT,0
 
 
-message,アリシア,すみませんでした……,300201000,vc_10550100001_025_01,chara_5
+message,アリシア,I'm sorry...<br> ,300201000,vc_10550100001_025_01,chara_5
 
 window,off
 wait,0.15
@@ -883,9 +883,9 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,用心棒Ａ,次からは気を付けろよ、司令官！,401501000,,chara_3
+message,用心棒Ａ,Watch yourself next time，Commander!<br> ,401501000,,chara_3
 
-message,<user>,あぁ、そうするよ！<br>まったく……
+message,<user>,Ah，I will! Honestly...<br> 
 
 window,off
 wait,0.15
@@ -940,7 +940,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,リタ,（そそそそっ、そんなはずは――そう、何かの間違いです。<br>確かめてみないと！）,105501000G,vc_10550100001_026_01,chara_1
+message,リタ,(N-no，that can't be—it must be some mistake! I have to confirm!)<br> ,105501000G,vc_10550100001_026_01,chara_1
 
 window,off
 wait,0.15
@@ -1062,7 +1062,7 @@ linework,on,White,Middle
 
 
 window,on,0.15
-message,リタ,えいっ！,105501000G,vc_10550100001_027_01,chara_1
+message,リタ,Hyah!<br> ,105501000G,vc_10550100001_027_01,chara_1
 
 window,off
 wait,0.15
@@ -1087,7 +1087,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,,リタは背後から忍び寄り、<user>の頭を<br>鞘に包まれた剣で思い切り叩いた。
+message,,Rita crept up behind the Commander and struck him on the head with<br>her sheathed sword.<br> 
 
 asyncseplay,setag1_28,se4900065,0,1,CONT,0
 
@@ -1098,9 +1098,9 @@ asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_5,40,0,0.25,20,off,off,0,off,CONT,0
 
-message,,<size=48>パッカーーーーーーーーーン！</size>
+message,,<size=48>thwack!</size>
 
-message,<user>,ぎゃあああああーーー！？
+message,<user>,Gyaaah!<br> 
 
 window,off
 wait,0.15
@@ -1146,7 +1146,7 @@ asynccharaemo,chara_5,Shock,CONT,0
 
 
 window,on,0.15
-message,アリシア,きゃああ！？　いきなり何しているんですかー！？,300201000,vc_10550100001_028_01,chara_5
+message,アリシア,Kyaa! What do you think you're doing?!<br> ,300201000,vc_10550100001_028_01,chara_5
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1157,11 +1157,11 @@ asyncseplay,setag1_30,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,リタ,そ、そんな……<br>この程度の攻撃が避けられないなんて……,105501000G,vc_10550100001_029_01,chara_1
+message,リタ,No way... you can't even dodge a simple attack like this...<br> ,105501000G,vc_10550100001_029_01,chara_1
 
-message,,床を転げ回る<user>の隣で、リタも崩れ落ちる。
+message,,As the Commander rolled on the floor，Rita collapsed beside him.<br> 
 
-message,<user>,お、お前～……何が目的だ！？<br>暗殺者か！？
+message,<user>,Hey... what are you after?! Are you an assassin?!<br> 
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -1170,7 +1170,7 @@ asyncseplay,setag1_31,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,リタ,……お尋ねしたいのはこちらのほうです。,105501000G,vc_10550100001_030_01,chara_1
+message,リタ,...I should be the one asking you that.<br> ,105501000G,vc_10550100001_030_01,chara_1
 
 window,off
 wait,0.15
@@ -1216,7 +1216,7 @@ asynccharaemo,chara_1,BePeevish,CONT,0
 
 
 window,on,0.15
-message,リタ,あなたが司令官だなんて嘘ですよね？<br>わたしの司令官さまは、強くて、お優しくて、借金なんかしませんーっ！,105501000G,vc_10550100001_031_01,chara_1
+message,リタ,You can't be the Commander，right? My Lord Commander is<br>strong，kind，and would never be in debt!<br> ,105501000G,vc_10550100001_031_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1227,7 +1227,7 @@ asyncseplay,setag1_33,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,リタ,部下を愛し、愛される司令官さまは……,105501000G,vc_10550100001_032_01,chara_1
+message,リタ,The Lord Commander who loves his subordinates and is loved by<br>them...<br> ,105501000G,vc_10550100001_032_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1238,9 +1238,9 @@ asyncseplay,setag1_34,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,リタ,女性兵士を庇い、笑顔で慈しむ司令官さまは<br>いったいどこにおられるんです！？,105501000G,vc_10550100001_033_01,chara_1
+message,リタ,Where is the Lord Commander who protects female soldiers and cares<br>for them with a gentle smile?!<br> ,105501000G,vc_10550100001_033_01,chara_1
 
-message,<user>,知るかーっ！！！！！　アリシア、こいつをひっ捕えろ！<br>牢にぶち込んでしまえー！！
+message,<user>,How should I know! Alicia，seize her! Throw her in the dungeon!<br> 
 
 window,off
 wait,0.15
@@ -1294,7 +1294,7 @@ asynccharaemo,chara_5,Panic,CONT,0
 
 
 window,on,0.15
-message,アリシア,お、落ち着いて～！！！,300201000,vc_10550100001_034_01,chara_5
+message,アリシア,O-oh，calm down!<br> ,300201000,vc_10550100001_034_01,chara_5
 
 window,off
 wait,0.15
@@ -1318,7 +1318,7 @@ asyncwait,subimage_0_2
 
 asyncwait
 
-messageTextUnder,,アリシアは必死に<user>をなだめたあと、<br>リタから詳しく事情を聞いた。その後、静かにリタを諭す。,,,on
+messageTextUnder,,After desperately calming the Commander down，Alicia heard the full story from Rita. Then，she gently reasoned with her.,,,on
 
 window,off
 wait,0.15
@@ -1348,7 +1348,7 @@ asynccharaemo,chara_5,Sweat,CONT,0
 
 
 window,on,0.15
-message,アリシア,……とまあ、司令官はこういった方なのです。,300201000,vc_10550100001_035_01,chara_5
+message,アリシア,So，as you can see，this is the kind of person the Commander is.<br> ,300201000,vc_10550100001_035_01,chara_5
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1359,7 +1359,7 @@ asyncseplay,setag1_37,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,リタ,……では、わたしがお父さまから聞いた武勇伝は<br>すべて幻想だというのですか？,105501000G,vc_10550100001_036_01,chara_1
+message,リタ,So，are you saying that all the heroic tales I heard from my father<br>were complete fantasies?<br> ,105501000G,vc_10550100001_036_01,chara_1
 
 asyncjump,CHARA,chara_5,-30.6,0.5,1,off,0,CONT
 
@@ -1368,7 +1368,7 @@ asyncseplay,setag1_38,se4800007,0,1,CONT,0
 asynccharaemo,chara_5,Panic,CONT,0
 
 
-message,アリシア,ま、間違いないかと――,300201000,vc_10550100001_037_01,chara_5
+message,アリシア,W-well，I'm afraid so...<br> ,300201000,vc_10550100001_037_01,chara_5
 
 asyncshake,CHARA,chara_1,20,15,0.5,6,on,off,0,off,CONT,0
 
@@ -1377,9 +1377,9 @@ asyncseplay,setag1_39,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,リタ,そ、そんな…………,105501000G,vc_10550100001_038_01,chara_1
+message,リタ,I-Impossible...<br> ,105501000G,vc_10550100001_038_01,chara_1
 
-message,<user>,ふんっ。まったく、ひどい目に遭った。
+message,<user>,Hmph. That was a terrible ordeal.<br> 
 
 asynccharaface,chara_5,EyeOpen,CONT,0
 asynccharaface,chara_5,FaceNormal,CONT,0
@@ -1391,7 +1391,7 @@ asyncseplay,setag1_40,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,アリシア,あまり怒らないであげてください～……<br>すっごく憧れて、ここまで来てくれたんですから……,300201000,vc_10550100001_039_01,chara_5
+message,アリシア,Please don't be too hard on her... She came all this way because she<br>admired you so incredibly much...<br> ,300201000,vc_10550100001_039_01,chara_5
 
 crossfadeready
 
@@ -1411,7 +1411,7 @@ asyncseplay,setag1_41,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,リタ,（……全然、優しくない。本当に幻想だったのだわ。<br>がっかり……）,105501000G,vc_10550100001_040_01,chara_1
+message,リタ,(...Not kind at all. So it really was a fantasy. How<br>disappointing...)<br> ,105501000G,vc_10550100001_040_01,chara_1
 
 window,off
 wait,0.15
@@ -1435,7 +1435,7 @@ asynccharaemo,chara_5,Speak,CONT,0
 
 
 window,on,0.15
-message,アリシア,えっと、リタさん……これからどうします？,300201000,vc_10550100001_041_01,chara_5
+message,アリシア,Um，Rita... What will you do now?<br> ,300201000,vc_10550100001_041_01,chara_5
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1446,7 +1446,7 @@ asyncseplay,setag1_43,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,リタ,……ペルディオンにいる父に、しばらく家には戻らないと<br>断言して家を飛び出してきました。,105501000G,vc_10550100001_042_01,chara_1
+message,リタ,I told my father back in Perdion that I wouldn't be coming home for<br>a while，and then I ran away from home.<br> ,105501000G,vc_10550100001_042_01,chara_1
 
 window,off
 wait,0.15
@@ -1465,7 +1465,7 @@ wait,0.5
 
 
 window,on,0.15
-message,リタ,すぐには戻れません。司令官さまの、護衛として<br>そばに置いていただけないでしょうか。,105501000G,vc_10550100001_043_01,chara_1
+message,リタ,I can't return right away. Would you allow me to stay by your side<br>as your guard，Lord Commander?<br> ,105501000G,vc_10550100001_043_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1485,7 +1485,7 @@ asyncseplay,setag1_45,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,リタ,（本当はこんなみっともない人の護衛なんて、まっぴらですけど……<br>仕方ありません……）,105501000G,vc_10550100001_044_01,chara_1
+message,リタ,(To be honest，I absolutely refuse to guard someone so disgraceful...<br>but I have no choice...)<br> ,105501000G,vc_10550100001_044_01,chara_1
 
 window,off
 wait,0.15
@@ -1502,11 +1502,11 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,不本意なのが滲み出ているぞ。
+message,<user>,Your reluctance is showing.<br> 
 
-message,<user>,第一、見ず知らずの人間に護衛なんて任せられん。<br>強いかどうかも分からないし――そもそも、弱そうだ。
+message,<user>,First of all，I can't entrust my protection to a complete stranger. I<br>don't even know if you're strong—and frankly，you look weak.<br> 
 
-message,<user>,護衛なんかより、アリシアの話し相手のほうが<br>よっぽど向いているんじゃないか。
+message,<user>,I think you'd be much better suited as a talk partner for Alicia<br>than as a guard.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1517,9 +1517,9 @@ asyncseplay,setag1_46,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,リタ,な、なんて無礼な！　粗暴な言葉ばかり並べて……<br>あなたは恥ずかしくないんです！？,105501000G,vc_10550100001_045_01,chara_1
+message,リタ,H-How rude! Stringing together such crude language... Don't you have<br>any shame!<br> ,105501000G,vc_10550100001_045_01,chara_1
 
-message,<user>,知らん。……アリシア。適当に相手をしてやれ。<br>どうするかは、その様子を聞いてから決める。
+message,<user>,I don't care. ...Alicia，handle her as you see fit. I'll decide what<br>to do once I see how things go.<br> 
 
 asynccharaface,chara_5,FaceSad,CONT,0
 
@@ -1530,9 +1530,9 @@ asyncseplay,setag1_47,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,アリシア,……分かりました。,300201000,vc_10550100001_046_01,chara_5
+message,アリシア,Understood!<br> ,300201000,vc_10550100001_046_01,chara_5
 
-message,<user>,じゃあな。
+message,<user>,See ya.<br> 
 
 asynccharaface,chara_5,FaceSurprise,CONT,0
 
@@ -1543,9 +1543,9 @@ asyncseplay,setag1_48,se4800009,0,1,CONT,0
 asynccharaemo,chara_5,Question,CONT,0
 
 
-message,アリシア,司令官、どちらへ？,300201000,vc_10550100001_047_01,chara_5
+message,アリシア,Commander，where are you going?<br> ,300201000,vc_10550100001_047_01,chara_5
 
-message,<user>,金がまだ残っているし、飲み直してくる。
+message,<user>,I've still got some money left，so I'm going back for another drink.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1556,7 +1556,7 @@ asyncseplay,setag1_49,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,リタ,まぁっ！　なんて退廃的な……！,105501000G,vc_10550100001_048_01,chara_1
+message,リタ,Oh my! How decadent...!<br> ,105501000G,vc_10550100001_048_01,chara_1
 
 window,off
 bgmstop,bgmtag1_2,0.5

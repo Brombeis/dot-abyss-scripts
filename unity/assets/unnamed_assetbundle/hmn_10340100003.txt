@@ -63,7 +63,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,アリシア,ふぅ～。これで司令官のお茶の準備は大丈夫ですね。<br>あとは来客用のお菓子の買い出しも……,300201000,vc_10340100003_001_01,chara_2
+message,アリシア,Phew... That should be everything for the Commander's tea.<br>Now I just need to buy some snacks for visitors...<br> ,300201000,vc_10340100003_001_01,chara_2
 
 
 
@@ -119,7 +119,7 @@ asynccharaemo,chara_4,Dull,CONT,0
 
 
 window,on,0.15
-message,困っている女,お願いします、やめてください。,400101000,vc_10340100003_002_01,chara_4
+message,困っている女,Please，stop! I'm begging you.<br> ,400101000,vc_10340100003_002_01,chara_4
 
 asyncjump,CHARA,chara_3,30,0.25,1,off,0,CONT
 
@@ -128,7 +128,7 @@ asyncseplay,setag1_4,se4800001,0,1,CONT,0
 asynccharaemo,chara_3,Anger,CONT,0
 
 
-message,酔った男,なんだよ、嫌そうな顔しやがって！<br>俺が悪いってのか？　ああ？,401201000,,chara_3
+message,酔った男,What's with that look on your face!<br>You blaming me? Huh?<br> ,401201000,,chara_3
 
 asyncshake,CHARA,chara_4,20,15,0.5,6,on,off,0,off,CONT,0
 
@@ -137,7 +137,7 @@ asyncseplay,setag1_5,se4800007,0,1,CONT,0
 asynccharaemo,chara_4,Panic,CONT,0
 
 
-message,困っている女,ち、違います！<br>あの、手を離して……！,400101000,vc_10340100003_003_01,chara_4
+message,困っている女,N-no，that's not it!<br>Please，let go of me...!<br> ,400101000,vc_10340100003_003_01,chara_4
 
 
 window,off
@@ -186,7 +186,7 @@ wait,0.5
 
 
 window,on,0.15
-message,アリシア,あれは……見過ごせません！<br>そこの人、離してあげてくださーい！,300201000,vc_10340100003_004_01,chara_2
+message,アリシア,That... I can't just stand by!<br>Hey，you! Let her go!<br> ,300201000,vc_10340100003_004_01,chara_2
 
 window,off
 wait,0.15
@@ -250,7 +250,7 @@ asynccharaemo,chara_3,Anger,CONT,0
 
 
 window,on,0.15
-message,酔った男,ああ？　お前には関係ないだろうが！<br>それとも代わりになってくれるってのか！？,401201000,,chara_3
+message,酔った男,Huh? This ain't none of your business!<br>Or what，you gonna take her place!<br> ,401201000,,chara_3
 
 
 asynccharaface,chara_2,FaceSad,CONT,0
@@ -262,7 +262,7 @@ asyncseplay,setag1_8,se4800011,0,1,CONT,0
 asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
-message,アリシア,っ……,300201000,vc_10340100003_005_01,chara_2
+message,アリシア,Hrk!<br> ,300201000,vc_10340100003_005_01,chara_2
 
 window,off
 wait,0.15
@@ -306,9 +306,9 @@ linework,on,White,Middle
 
 
 window,on,0.15
-message,カーラ,セクハラ男を確認！<br>確保ですっ！！！,103401000G,vc_10340100003_006_01,chara_1
+message,カーラ,Sexual harassment confirmed!<br>Apprehending the target!<br> ,103401000G,vc_10340100003_006_01,chara_1
 
-message,男たちの声,おおおおおお！！！,400301000
+message,男たちの声,Ooooooh!<br> ,400301000
 
 window,off
 wait,0.15
@@ -365,7 +365,7 @@ asynccharaemo,chara_3,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,酔った男,な、なんだお前ら！？,401201000,,chara_3
+message,酔った男,What the—What are you guys?<br> ,401201000,,chara_3
 
 window,off
 wait,0.15
@@ -402,7 +402,7 @@ asynccharaemo,chara_5,Anger,CONT,0
 
 
 window,on,0.15
-message,警棒を構えた男,セクハラは許さん！,400301000,,chara_5
+message,警棒を構えた男,Sexual harassment will not be tolerated!<br> ,400301000,,chara_5
 
 asyncjump,CHARA,chara_6,30,0.25,1,off,0,CONT
 
@@ -411,7 +411,7 @@ asyncseplay,setag1_11,se4800001,0,1,CONT,0
 asynccharaemo,chara_6,Anger,CONT,0
 
 
-message,汗をかいた男,その腐った根性を叩き直してやる！<br>覚悟しろ！,400801000,,chara_6
+message,汗をかいた男,We'll beat that rotten attitude out of you!<br>Prepare yourself!<br> ,400801000,,chara_6
 
 
 window,off
@@ -458,7 +458,7 @@ asynccharaemo,chara_2,Shock,CONT,0
 
 
 window,on,0.15
-message,アリシア,え、ええっ！？<br>これは……どういうこと……です……！？,300201000,vc_10340100003_007_01,chara_2
+message,アリシア,Wh-what!<br>What is... the meaning of this...?<br> ,300201000,vc_10340100003_007_01,chara_2
 
 
 window,off
@@ -521,7 +521,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,カーラ,ご無事ですか、アリシアさん。,103401000G,vc_10340100003_008_01,chara_1
+message,カーラ,Are you all right，Alicia?<br> ,103401000G,vc_10340100003_008_01,chara_1
 
 asyncshake,CHARA,chara_2,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -530,7 +530,7 @@ asyncseplay,setag1_14,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,アリシア,カーラさん……？<br>これは？　あの人たちは一体……？,300201000,vc_10340100003_009_01,chara_2
+message,アリシア,Carla...?<br>What is this? Who are those people...?<br> ,300201000,vc_10340100003_009_01,chara_2
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -541,7 +541,7 @@ asyncseplay,setag1_15,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,カーラ,我々は、司令官の認可のもとに設立された、<br>不条理なセクハラを許さぬ戦士の集い。,103401000G,vc_10340100003_010_01,chara_1
+message,カーラ,We are a band of warriors，established under the Commander's<br>authority， who will not tolerate unjust harassment.<br> ,103401000G,vc_10340100003_010_01,chara_1
 
 window,off
 wait,0.15
@@ -585,7 +585,7 @@ asyncseplay,setag1_16,SE_DUMMY,0,1,CONT,0
 
 
 window,on,0.15
-message,カーラ,前線基地セクハラ撃滅烈士隊です！,103401000G,vc_10340100003_011_01,chara_1
+message,カーラ,The Frontline Base Sexual Harassment Eradication Martyr Brigade!<br> ,103401000G,vc_10340100003_011_01,chara_1
 
 bgmplay,bgmtag1_2,bgm0038,0.75,1
 
@@ -644,7 +644,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,アリシア,セクハラ撃滅……！？,300201000,vc_10340100003_012_01,chara_2
+message,アリシア,Sexual Harassment Eradication...?<br> ,300201000,vc_10340100003_012_01,chara_2
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -655,7 +655,7 @@ asyncseplay,setag1_18,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,カーラ,紹介しましょう。傘スカートめくりのジョー、<br>そして混浴耐久ワニ男のカイマン！,103401000G,vc_10340100003_013_01,chara_1
+message,カーラ,Let me introduce you. Joe the Umbrella Skirt Flipper，<br>and Kaiman the Mixed-Bath Enduring Crocodile Man!<br> ,103401000G,vc_10340100003_013_01,chara_1
 
 
 window,off
@@ -720,7 +720,7 @@ asynccharaemo,chara_5,Exclamation,CONT,0
 
 
 window,on,0.15
-message,傘スカートめくりのジョー,棒術ならお任せください！,400301000,,chara_5
+message,傘スカートめくりのジョー,When it comes to the pole technique，I'm your guy!<br> ,400301000,,chara_5
 
 asyncjump,CHARA,chara_6,40,0.5,2,off,0,CONT
 
@@ -729,7 +729,7 @@ asyncseplay,setag1_20,se4800019,0,1,CONT,0
 asynccharaemo,chara_6,Elated,CONT,0
 
 
-message,混浴耐久ワニ男のカイマン,我慢強さには自信があります！,400801000,,chara_6
+message,混浴耐久ワニ男のカイマン,I'm confident in my endurance!<br> ,400801000,,chara_6
 
 window,off
 wait,0.15
@@ -767,7 +767,7 @@ wait,0.5
 
 
 window,on,0.15
-message,カーラ,スリーサイズソムリエのゴードン！<br>密着匂い嗅ぎのギー！,103401000G,vc_10340100003_014_01,chara_1
+message,カーラ,Gordon the Three-Sizes Sommelier! Ghee the Close-Contact Sniffer!<br> ,103401000G,vc_10340100003_014_01,chara_1
 
 
 window,off
@@ -815,7 +815,7 @@ asynccharaemo,chara_7,Spirits,CONT,0
 
 
 window,on,0.15
-message,スリーサイズソムリエのゴードン,どんな変装をしても見つけ出します！,400501000,,chara_7
+message,スリーサイズソムリエのゴードン,No matter what disguise they wear，I'll find them!<br> ,400501000,,chara_7
 
 asyncjump,CHARA,chara_8,30,0.25,1,off,0,CONT
 
@@ -824,7 +824,7 @@ asyncseplay,setag1_22,se4800019,0,1,CONT,0
 asynccharaemo,chara_8,Elated,CONT,0
 
 
-message,密着匂い嗅ぎのギー,軍用犬より正確に、<br>匂いを追ってみせます！,401701000,,chara_8
+message,密着匂い嗅ぎのギー,I'll track them more accurately than a military dog!<br> ,401701000,,chara_8
 
 window,off
 wait,0.15
@@ -882,7 +882,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,カーラ,彼らこそ、誇りある、<br>前線基地セクハラ撃滅烈士隊の隊員です！,103401000G,vc_10340100003_015_01,chara_1
+message,カーラ,They are the proud members of the Frontline Base Sexual Harassment<br>Eradication Martyr Brigade!<br> ,103401000G,vc_10340100003_015_01,chara_1
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -893,7 +893,7 @@ asyncseplay,setag1_24,se4800016,0,1,CONT,0
 asynccharaemo,chara_2,BePeevish,CONT,0
 
 
-message,アリシア,へんたいさんしかいないじゃないですかっ！<br>何を命じたんですか、司令官っ！？　司令官ー！！！,300201000,vc_10340100003_016_01,chara_2
+message,アリシア,They're nothing but perverts! What did you order，Commander?!<br>Commander!<br> ,300201000,vc_10340100003_016_01,chara_2
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -948,9 +948,9 @@ asynccharaemo,chara_2,Trouble,CONT,0
 
 
 window,on,0.15
-message,アリシア,――ということがあって……,300201000,vc_10340100003_017_01,chara_2
+message,アリシア,So that's what happened...<br> ,300201000,vc_10340100003_017_01,chara_2
 
-message,<user>,なるほど、<br>カーラは上手くやってるようだな。
+message,<user>,I see. Seems like Carla is doing well.<br> 
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -961,9 +961,9 @@ asyncseplay,setag1_26,se4800017,0,1,CONT,0
 asynccharaemo,chara_2,Shock,CONT,0
 
 
-message,アリシア,上手くやった結果があれですか！？<br>どんな命令をしたんです！？,300201000,vc_10340100003_018_01,chara_2
+message,アリシア,That's the result of doing well?! What kind of order did you give?!<br> ,300201000,vc_10340100003_018_01,chara_2
 
-message,<user>,俺は提案しただけだ。<br>セクハラを撃滅する部隊を作らないか、とな。
+message,<user>,I just made a suggestion. Like，why not create a unit to eradicate<br>sexual harassment?<br> 
 
 
 
@@ -1000,7 +1000,7 @@ screeneffect,SEPIATONE,on,1,0
 fade,In,White,1
 
 window,on,0.15
-message,<user>,どうだ、俺を信じられるのなら、やってみるか。
+message,<user>,So，if you trust me，want to give it a try?<br> 
 
 
 window,off
@@ -1034,7 +1034,7 @@ asyncjump,CHARA,chara_1,30,0.25,1,off,3,STOP
 
 
 window,on,0.15
-message,カーラ,……はい、司令官を信じます！<br>どうかやらせてくださいっ！,103401000G,vc_10340100003_019_01,chara_1
+message,カーラ,Yes，I trust you，Commander! Please let me do this!<br> ,103401000G,vc_10340100003_019_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1045,11 +1045,11 @@ asyncseplay,setag1_29,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,カーラ,ですが、具体的には何をすれば？,103401000G,vc_10340100003_020_01,chara_1
+message,カーラ,But，what specifically should I do?<br> ,103401000G,vc_10340100003_020_01,chara_1
 
-message,<user>,大穴に隣接された前線基地も、常に死と隣り合わせだ。<br>人の生存本能なのか、性欲が抑えられない奴もいる。
+message,<user>,The Frontline Base，next to the Abyss，is on the brink of death. Maybe<br>it's survival instinct，but some guys can't control their sexual urges.<br> 
 
-message,<user>,そのせいか、セクハラが大きな問題となっているんだ。
+message,<user>,Maybe that's why sexual harassment has become a major problem.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1060,9 +1060,9 @@ asyncseplay,setag1_30,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,カーラ,この基地だからこその問題なんですね。,103401000G,vc_10340100003_021_01,chara_1
+message,カーラ,So it's a problem unique to this base.<br> ,103401000G,vc_10340100003_021_01,chara_1
 
-message,<user>,そこでカーラに、セクハラ抑止の、<br>いいや、セクハラを撃滅する専門部隊を指揮してもらいたい。
+message,<user>,That's why I want you，Carla，to lead a specialized unit for sexual<br>harassment prevention—no，for eradicating sexual harassment.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1073,7 +1073,7 @@ asyncseplay,setag1_31,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,カーラ,セクハラを撃滅……！？,103401000G,vc_10340100003_022_01,chara_1
+message,カーラ,Eradicate sexual harassment...?!<br> ,103401000G,vc_10340100003_022_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1085,15 +1085,15 @@ asyncseplay,setag1_32,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,カーラ,はい、望むところです！<br>ですが部隊ということは、兵士が必要ですよね？,103401000G,vc_10340100003_023_01,chara_1
+message,カーラ,Yes，I'm ready for it! But a unit means we need soldiers，right?<br> ,103401000G,vc_10340100003_023_01,chara_1
 
-message,<user>,そうなるな。それもただの兵士ではない。<br>セクハラ男に詳しい奴らが必要だ。
+message,<user>,That's right. And not just any soldiers. We need guys who know the<br>type of men who harass.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
-message,<user>,そしてセクハラ男のことに最も詳しいのは、<br>セクハラ男本人だ。つまり……
+message,<user>,And who knows harassers best? The harassers themselves. In other<br>words...<br> 
 
-message,<user>,最強のセクハラ男を集めた無敵の部隊を、<br>カーラの手で作り出すんだ！
+message,<user>,Carla，you're going to create an invincible team of the strongest<br>harassers!<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1104,7 +1104,7 @@ asyncseplay,setag1_33,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,カーラ,私の手で、作り出す……！？,103401000G,vc_10340100003_024_01,chara_1
+message,カーラ,By my hand... create?!<br> ,103401000G,vc_10340100003_024_01,chara_1
 
 bgmstop,bgmtag1_3,1.5,0
 
@@ -1160,7 +1160,7 @@ asynccharaemo,chara_7,Dull,CONT,0
 
 
 window,on,0.15
-message,スリーサイズソムリエのゴードン,ちっ、見どころのある体が見つからねえな。<br>この街もつまらなくなっちまった……,400501000,,chara_7
+message,スリーサイズソムリエのゴードン,Tch，can't find any bodies worth looking at. This town's getting<br>boring...<br> ,400501000,,chara_7
 
 window,off
 wait,0.15
@@ -1216,7 +1216,7 @@ asynccharaemo,chara_1,Shy,CONT,0
 
 
 window,on,0.15
-message,カーラ,…………。,103401000G,vc_10340100003_025_01,chara_1
+message,カーラ,...<br> ,103401000G,vc_10340100003_025_01,chara_1
 
 
 asynccharaface,chara_7,FaceSurprise,CONT,0
@@ -1228,7 +1228,7 @@ asyncseplay,setag1_36,se4800011,0,1,CONT,0
 asynccharaemo,chara_7,ExclaQues,CONT,0
 
 
-message,スリーサイズソムリエのゴードン,ん？　お、おおっ！　９５、いや１００オーバー！？<br>なんて戦闘力だ！？,400501000,,chara_7
+message,スリーサイズソムリエのゴードン,Huh? Oh，oh! 95，no，over 100! What combat power!<br> ,400501000,,chara_7
 
 asynccharaface,chara_7,FaceHappy,CONT,0
 
@@ -1239,7 +1239,7 @@ asyncseplay,setag1_37,se4800013,0,1,CONT,0
 asynccharaemo,chara_7,Spirits,CONT,0
 
 
-message,スリーサイズソムリエのゴードン,素晴らしい逸品だぜ！<br>よぉ、姉ちゃん！　もっとよく見せてくれよ！,400501000,,chara_7
+message,スリーサイズソムリエのゴードン,What a fine piece! Hey，sis! Let me get a better look!<br> ,400501000,,chara_7
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1250,7 +1250,7 @@ asyncseplay,setag1_38,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,カーラ,あー、ご勘弁をーー,103401000G,vc_10340100003_026_01,chara_1
+message,カーラ,Ah，please spare me—<br> ,103401000G,vc_10340100003_026_01,chara_1
 
 
 window,off
@@ -1276,7 +1276,7 @@ asynccharaemo,chara_7,Laugh,CONT,0
 
 
 window,on,0.15
-message,スリーサイズソムリエのゴードン,へへへ、そうやって嫌がられると、セクハラ男ってのは<br>ますます燃え上がるんだ。,400501000,,chara_7
+message,スリーサイズソムリエのゴードン,Hehehe，the more you resist，the more it gets a harasser going.<br> ,400501000,,chara_7
 
 window,off
 wait,0.15
@@ -1314,7 +1314,7 @@ linework,on,Black,Middle
 
 
 window,on,0.15
-message,スリーサイズソムリエのゴードン,その乳、よく見せろーー！！！,400501000,,chara_7
+message,スリーサイズソムリエのゴードン,Let me see those tits!<br> ,400501000,,chara_7
 
 window,off
 wait,0.15
@@ -1352,7 +1352,7 @@ linework,on,White,Middle
 
 
 window,on,0.15
-message,カーラ,よし、セクハラの現行犯！　確保します！,103401000G,vc_10340100003_027_01,chara_1
+message,カーラ,Alright，caught in the act of harassment! I'm apprehending you!<br> ,103401000G,vc_10340100003_027_01,chara_1
 
 window,off
 wait,0.15
@@ -1423,7 +1423,7 @@ shake,CHARA,chara_7,40,0,0.25,20,off,off,0
 shake,CHARA,chara_8,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,,ガッ！！
+message,,*thwack!*<br> 
 
 asynccharaface,chara_7,FaceSad,CONT,0
 
@@ -1434,7 +1434,7 @@ asyncseplay,setag1_41,se4800011,0,1,CONT,0
 asynccharaemo,chara_7,ExclaQues,CONT,0
 
 
-message,スリーサイズソムリエのゴードン,ぐはっ……,400501000,,chara_7
+message,スリーサイズソムリエのゴードン,Guh...<br> ,400501000,,chara_7
 
 window,off
 wait,0.15
@@ -1476,7 +1476,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,カーラ,ふぅ。この人こそ私が求めたセクハラ男です。<br>まずは１人目……。,103401000G,vc_10340100003_028_01,chara_1
+message,カーラ,*phew*. This is exactly the harasser I was looking for. First one<br>down...<br> ,103401000G,vc_10340100003_028_01,chara_1
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -1485,7 +1485,7 @@ asyncseplay,setag1_44,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,カーラ,でもまだ足りない。<br>もっともっと集めないと……,103401000G,vc_10340100003_029_01,chara_1
+message,カーラ,But it's not enough yet. I need to gather more and more...<br> ,103401000G,vc_10340100003_029_01,chara_1
 
 bgmstop,bgmtag1_4,1.5,0
 
@@ -1553,7 +1553,7 @@ asynccharaemo,chara_6,Dull,CONT,0
 
 
 window,on,0.15
-message,混浴耐久ワニ男のカイマン,なんなんだよ、ここはっ！<br>混浴風呂に帰らせてくれ！,400801000,,chara_6
+message,混浴耐久ワニ男のカイマン,What the hell is this place! Let me go back to the mixed bath!<br> ,400801000,,chara_6
 
 asynccharaface,chara_8,FaceAnger,CONT,0
 
@@ -1564,7 +1564,7 @@ asyncseplay,setag1_46,se4800008,0,1,CONT,0
 asynccharaemo,chara_8,Sweat,CONT,0
 
 
-message,密着匂い嗅ぎのギー,ちくしょう、髪の匂いが嗅ぎてえ。,401701000,,chara_8
+message,密着匂い嗅ぎのギー,Dammit，I wanna sniff some hair.<br> ,401701000,,chara_8
 
 
 window,off
@@ -1622,7 +1622,7 @@ asynccharaemo,chara_1,Flash,CONT,0
 
 
 window,on,0.15
-message,カーラ,ようこそ皆さん、<br>セクハラ撃滅訓練所へ。,103401000G,vc_10340100003_030_01,chara_1
+message,カーラ,Welcome，everyone，to the Sexual Harassment Annihilation Training<br>Grounds.<br> ,103401000G,vc_10340100003_030_01,chara_1
 
 window,off
 wait,0.15
@@ -1674,7 +1674,7 @@ asynccharaemo,chara_8,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,密着匂い嗅ぎのギー,なんだそりゃ！？<br>俺は匂いを嗅いだだけで、悪いことはしてねえぞ！,401701000,,chara_8
+message,密着匂い嗅ぎのギー,What the hell is that! I just sniffed，I didn't do anything wrong!<br> ,401701000,,chara_8
 
 window,off
 wait,0.15
@@ -1720,7 +1720,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,カーラ,話を聞いてください。<br>皆さんは、司令官の指示で――,,vc_10340100003_031_01,chara_1
+message,カーラ,Please listen up. By the Commander's orders，you all—<br> ,,vc_10340100003_031_01,chara_1
 
 window,off
 wait,0.15
@@ -1772,7 +1772,7 @@ asynccharaemo,chara_7,Anger,CONT,0
 
 
 window,on,0.15
-message,スリーサイズソムリエのゴードン,俺だって女を見てただけだぞ！<br>こんなのは横暴だ！,400501000,,chara_7
+message,スリーサイズソムリエのゴードン,I was just looking at women! This is tyranny!<br> ,400501000,,chara_7
 
 window,off
 wait,0.15
@@ -1818,7 +1818,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,カーラ,だ、だから、命令でっ！,103401000G,vc_10340100003_032_01,chara_1
+message,カーラ,B-but，it's orders!<br> ,103401000G,vc_10340100003_032_01,chara_1
 
 window,off
 wait,0.15
@@ -1870,7 +1870,7 @@ asynccharaemo,chara_5,Anger,CONT,0
 
 
 window,on,0.15
-message,傘スカートめくりのジョー,せめてスカート履けよ！<br>傘をよこせ！,400301000,,chara_5
+message,傘スカートめくりのジョー,At least wear a skirt! Give me back my umbrella!<br> ,400301000,,chara_5
 
 
 window,off
@@ -1926,7 +1926,7 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,カーラ,（うう……何も聞いてくれない。<br>やっぱりセクハラ男に話なんて通じないんだ）,103401000G,vc_10340100003_033_01,chara_1
+message,カーラ,(Ugh... they won't listen to anything I say. As expected，reason<br>doesn't work on perverts.)<br> ,103401000G,vc_10340100003_033_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1937,7 +1937,7 @@ asyncseplay,setag1_54,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,カーラ,（せっかく司令官が任せてくれた初めての任務……<br>なんとかして成功させないといけない）,103401000G,vc_10340100003_034_01,chara_1
+message,カーラ,(This is my first mission the Commander entrusted to me... I have to<br>make it succeed no matter what.)<br> ,103401000G,vc_10340100003_034_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1948,7 +1948,7 @@ asyncseplay,setag1_55,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,カーラ,（でも私には教わったことしかできない。<br>今まで習ったことしかできない……）,103401000G,vc_10340100003_035_01,chara_1
+message,カーラ,(But I can only do what I was taught. Only what I've learned up to<br>now...)<br> ,103401000G,vc_10340100003_035_01,chara_1
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -1957,7 +1957,7 @@ asyncseplay,setag1_56,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,カーラ,（セクハラ男の指導なんてしたことないのに、<br>どうしたらいいの……？）,103401000G,vc_10340100003_036_01,chara_1
+message,カーラ,(I've never instructed perverts before. What am I supposed to<br>do...?)<br> ,103401000G,vc_10340100003_036_01,chara_1
 
 bgmstop,bgmtag1_5,1.5,0
 
@@ -1985,7 +1985,7 @@ asynccharaemo,chara_1,Flash,CONT,0
 
 
 window,on,0.15
-message,カーラ,（……いいえ、そうです。<br>できないことを急にやろうとしたって無理なんです）,103401000G,vc_10340100003_037_01,chara_1
+message,カーラ,(...No，that's right. There's no point trying to do something I don't<br>know how to do all of a sudden.)<br> ,103401000G,vc_10340100003_037_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1997,7 +1997,7 @@ asyncseplay,setag1_59,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,カーラ,（これまで学んできたことを！<br>軍人としての生きかたを！　見せるんですっ！！）,103401000G,vc_10340100003_038_01,chara_1
+message,カーラ,(What I've learned so far! My way of life as a soldier! I'll show<br>them!)<br> ,103401000G,vc_10340100003_038_01,chara_1
 
 
 window,off
@@ -2028,7 +2028,7 @@ linework,on,White,Middle
 
 
 window,on,0.15
-message,カーラ,――さえずるなっ！<br>誰の許可があって口を開いているっ！,103401000G,vc_10340100003_039_01,chara_1
+message,カーラ,—Stop your jabbering! Who gave you permission to speak?<br> ,103401000G,vc_10340100003_039_01,chara_1
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -2037,7 +2037,7 @@ asyncseplay,setag1_61,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,カーラ,貴様ら、まさか自分が人間のつもりか！<br>この生ゴミどもがっ！！！,103401000G,vc_10340100003_040_01,chara_1
+message,カーラ,You actually think you're human?! You garbage!<br> ,103401000G,vc_10340100003_040_01,chara_1
 
 window,off
 wait,0.15
@@ -2091,7 +2091,7 @@ asynccharaemo,chara_6,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,混浴耐久ワニ男のカイマン,なっ……生ゴミ……！？,400801000,,chara_6
+message,混浴耐久ワニ男のカイマン,Wha... garbage...?!<br> ,400801000,,chara_6
 
 window,off
 wait,0.15
@@ -2137,7 +2137,7 @@ asynccharaemo,chara_1,Anger,CONT,0
 
 
 window,on,0.15
-message,カーラ,女の尻を追いかけ回し、腐敗臭を垂れ流す！<br>クズでカスでゴミ以下の存在！　それが貴様らだ！,103401000G,vc_10340100003_041_01,chara_1
+message,カーラ,Chasing after women's bottoms and reeking of decay! You're<br>scum，dregs，less than garbage! That's what you are!<br> ,103401000G,vc_10340100003_041_01,chara_1
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -2146,7 +2146,7 @@ asyncseplay,setag1_64,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,カーラ,違うとでも思っているのか！？<br>何か言ってみろジョー！,103401000G,vc_10340100003_042_01,chara_1
+message,カーラ,You think I'm wrong?! Say something，Joe!<br> ,103401000G,vc_10340100003_042_01,chara_1
 
 window,off
 wait,0.15
@@ -2198,7 +2198,7 @@ asynccharaemo,chara_5,Sweat,CONT,0
 
 
 window,on,0.15
-message,傘スカートめくりのジョー,お、俺たちはゴミじゃ――,400301000,,chara_5
+message,傘スカートめくりのジョー,W-we're not garba—<br> ,400301000,,chara_5
 
 window,off
 wait,0.15
@@ -2240,10 +2240,10 @@ linework,on,White,Middle
 
 
 window,on,0.15
-message,カーラ,生ゴミが腐敗臭を撒き散らすなぁ！<br>貴様らが口から出していい言葉は２つだけだ！,103401000G,vc_10340100003_043_01,chara_1
+message,カーラ,Don't let garbage scatter its stench! There are only two words<br>you're allowed to say!<br> ,103401000G,vc_10340100003_043_01,chara_1
 
 
-message,カーラ,イエスと！　マムだ！　<br>言ってみろ生ゴミ！！！,103401000G,vc_10340100003_044_01,chara_1
+message,カーラ,Yes! And! Ma'am! Say it，you trash!<br> ,103401000G,vc_10340100003_044_01,chara_1
 
 window,off
 wait,0.15
@@ -2297,7 +2297,7 @@ asynccharaemo,chara_5,Panic,CONT,0
 
 
 window,on,0.15
-message,傘スカートめくりのジョー,い……いえす、まむ……,400301000,,chara_5
+message,傘スカートめくりのジョー,Y-yes，ma'am...<br> ,400301000,,chara_5
 
 window,off
 wait,0.15
@@ -2344,14 +2344,14 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,カーラ,そうだ！　いいか！？　<br>司令官閣下の認可のもと、私が貴様らを鍛え直す！,103401000G,vc_10340100003_045_01,chara_1
+message,カーラ,That's right! Listen up! Under the authority of His Excellency the<br>Commander，I'll retrain you!<br> ,103401000G,vc_10340100003_045_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
 linework,on,White,Middle
 
 
-message,カーラ,この基地の全てが、貴様らを見張っている！<br>逃げられると思うな！,103401000G,vc_10340100003_046_01,chara_1
+message,カーラ,Everyone at this base is watching you! Don't think you can escape!<br> ,103401000G,vc_10340100003_046_01,chara_1
 
 linework,off,Black,Middle
 
@@ -2405,7 +2405,7 @@ asynccharaemo,chara_7,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,スリーサイズソムリエのゴードン,う、嘘だろ……,400501000,,chara_7
+message,スリーサイズソムリエのゴードン,N-no way...<br> ,400501000,,chara_7
 
 window,off
 wait,0.15
@@ -2452,7 +2452,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,カーラ,生ゴミを卒業するまで、貴様らは断じて人ではない！<br>その役立たずの胸に刻んでおけ！,103401000G,vc_10340100003_047_01,chara_1
+message,カーラ,Until you graduate from trash，you are not human! Carve that into<br>your useless chests!<br> ,103401000G,vc_10340100003_047_01,chara_1
 
 window,off
 wait,0.15
@@ -2504,7 +2504,7 @@ asynccharaemo,chara_8,Dull,CONT,0
 
 
 window,on,0.15
-message,密着匂い嗅ぎのギー,なんでこんなことに……,401701000,,chara_8
+message,密着匂い嗅ぎのギー,Why did it have to come to this...?<br> ,401701000,,chara_8
 
 window,off
 wait,0.15
@@ -2552,7 +2552,7 @@ asynccharaemo,chara_1,Anger,CONT,0
 
 
 window,on,0.15
-message,カーラ,今なんと言ったギー！<br>私の前でもう１度言ってみろ！,103401000G,vc_10340100003_048_01,chara_1
+message,カーラ,What did you just say，Ghee? Say it again in front of me!<br> ,103401000G,vc_10340100003_048_01,chara_1
 
 window,off
 wait,0.15
@@ -2606,7 +2606,7 @@ asynccharaemo,chara_8,Exclamation,CONT,0
 
 
 window,on,0.15
-message,密着匂い嗅ぎのギー,い……イエス、マムッ！,401701000,,chara_8
+message,密着匂い嗅ぎのギー,Y-yes，Ma'am!<br> ,401701000,,chara_8
 
 window,off
 wait,0.15
@@ -2653,7 +2653,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,カーラ,それでよしっ！　無駄口を叩いた分、訓練場を１０周だ！<br>ジョー、ゴードン、カイマンも連帯責任！　駆け足っ！,103401000G,vc_10340100003_049_01,chara_1
+message,カーラ,That's more like it! For that backtalk，ten laps around the training<br>grounds! Joe，Gordon，Kaiman，you share the responsibility! At a run!<br> ,103401000G,vc_10340100003_049_01,chara_1
 
 window,off
 wait,0.15
@@ -2677,7 +2677,7 @@ emodelete,chara_1,0,0
 transitionFade,Tra03,in,white,0.5
 
 window,on,0.15
-message,男たち,ひ、ひいいいい。,400301000
+message,男たち,Eeeek!<br> ,400301000
 
 
 seplay,setag1_74,se4020104,0,1
@@ -2716,7 +2716,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,カーラ,……話を聞いてくれる。<br>ちゃんと指導ができてるっ！,103401000G,vc_10340100003_050_01,chara_1
+message,カーラ,(They listen to me... I'm actually teaching them properly!)<br> ,103401000G,vc_10340100003_050_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -2727,7 +2727,7 @@ asyncseplay,setag1_76,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,カーラ,私を導いてくれたエルドラーナ共和国警備隊の皆さん……<br>カーラは……カーラは頑張ります……！,103401000G,vc_10340100003_051_01,chara_1
+message,カーラ,(To the members of the Eldorana Republic Guard who guided me...<br>Carla... Carla will give it her all...!)<br> ,103401000G,vc_10340100003_051_01,chara_1
 
 
 window,off
@@ -2755,7 +2755,7 @@ asynccharaemo,chara_1,Anger,CONT,0
 
 
 window,on,0.15
-message,カーラ,なんだその気の抜けた走りはっ！<br>女の尻を追いかけてるつもりで走れ！　走れえぇっ！！！,103401000G,vc_10340100003_052_01,chara_1
+message,カーラ,What's that half-hearted running? Run like you're chasing a woman's<br>ass! Ruuun!<br> ,103401000G,vc_10340100003_052_01,chara_1
 
 
 
@@ -2784,9 +2784,9 @@ asynccharaemo,chara_1,Anger,CONT,0
 
 
 window,on,0.15
-message,カーラ,腕を止めるな！　泳ぎ続けろっ！<br>セクハラ男が海に逃げたら諦めるつもりかっ！？,103401000G,vc_10340100003_053_01,chara_1
+message,カーラ,Don't stop your arms! Keep swimming! Are you going to give up if a<br>harasser escapes into the sea?<br> ,103401000G,vc_10340100003_053_01,chara_1
 
-message,混浴耐久ワニ男のカイマン,む、無理だっ！<br>こんな鎧を着て泳げるわけねえだろっ！？,400801000
+message,混浴耐久ワニ男のカイマン,N-no way! There's no way I can swim wearing armor like this!<br> ,400801000
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -2798,9 +2798,9 @@ asyncseplay,setag1_79,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,カーラ,なんだカイマン、混浴に浸かっていた時間は無駄か！？<br>貴様は水の中でも無能かっ！？,103401000G,vc_10340100003_054_01,chara_1
+message,カーラ,What's this，Kaiman! Was all that time in mixed baths for nothing?<br>Are you useless even in the water?<br> ,103401000G,vc_10340100003_054_01,chara_1
 
-message,混浴耐久ワニ男のカイマン,そ、そんなことはねえ！<br>俺は、俺の混浴は無駄じゃねえ！,400801000
+message,混浴耐久ワニ男のカイマン,Th-that's not true! My... my mixed baths weren't for nothing!<br> ,400801000
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -2811,9 +2811,9 @@ asyncseplay,setag1_80,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,カーラ,それを証明したければ泳いで見せろ！<br>いいか、答えろ野郎ども！　セクハラ男は！？,103401000G,vc_10340100003_055_01,chara_1
+message,カーラ,Prove it by swimming! Now answer me，you bastards! What do we do to<br>sexual harassers?<br> ,103401000G,vc_10340100003_055_01,chara_1
 
-message,男たち,潰せええええ！！！,400301000
+message,男たち,Crush them!<br> ,400301000
 
 bgmstop,bgmtag1_6,1,0
 
@@ -2851,16 +2851,16 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,カーラ,これまでよく耐えた、生ゴミども。<br>これで全ての訓練を終了とする。,103401000G,vc_10340100003_056_01,chara_1
+message,カーラ,You've endured well up to now，you trash. This concludes all<br>training.<br> ,103401000G,vc_10340100003_056_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,カーラ,たった今をもって、貴様らは生ゴミを卒業する！<br>貴様らは誇り高き、前線基地セクハラ撃滅烈士隊員だ！,103401000G,vc_10340100003_057_01,chara_1
+message,カーラ,As of this moment，you graduate from trash! You are proud members of<br>the Frontline Base Sexual Harassment Eradication Martyr Brigade!<br> ,103401000G,vc_10340100003_057_01,chara_1
 
-message,男たち,イエス、マム！,400301000
+message,男たち,Yes，Ma'am!<br> ,400301000
 
 
 asynccharaface,chara_1,FaceFun,CONT,0
@@ -2872,7 +2872,7 @@ asyncseplay,setag1_82,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,カーラ,……皆さん、よくついてきてくれました。<br>これからは一緒に戦う仲間です。,103401000G,vc_10340100003_058_01,chara_1
+message,カーラ,...Everyone，you've followed me well. From now on，we are comrades<br>fighting together.<br> ,103401000G,vc_10340100003_058_01,chara_1
 
 window,off
 wait,0.15
@@ -2932,7 +2932,7 @@ asynccharaemo,chara_5,Exclamation,CONT,0
 
 
 window,on,0.15
-message,傘スカートめくりのジョー,た……隊長……！,400301000,,chara_5
+message,傘スカートめくりのジョー,C-Captain...!<br> ,400301000,,chara_5
 
 asyncshake,CHARA,chara_6,20,15,0.5,6,on,off,0,off,CONT,0
 
@@ -2941,7 +2941,7 @@ asyncseplay,setag1_84,se4800008,0,1,CONT,0
 asynccharaemo,chara_6,Sweat,CONT,0
 
 
-message,混浴耐久ワニ男のカイマン,俺たちが、隊長の仲間……！,400801000,,chara_6
+message,混浴耐久ワニ男のカイマン,We're your comrades，Captain...!<br> ,400801000,,chara_6
 
 asynccharaface,chara_6,FaceHappy,CONT,0
 
@@ -2956,7 +2956,7 @@ asyncseplay,setag1_85,se4800004,0,1,CONT,0
 asynccharaemo,chara_7,Laugh,CONT,0
 
 
-message,スリーサイズソムリエのゴードン,カーラ隊長！,400501000,,chara_7
+message,スリーサイズソムリエのゴードン,Captain Carla!<br> ,400501000,,chara_7
 
 asyncjump,CHARA,chara_6,30,0.25,1,off,0,CONT
 
@@ -2965,7 +2965,7 @@ asyncseplay,setag1_86,se4800004,0,1,CONT,0
 asynccharaemo,chara_6,Laugh,CONT,0
 
 
-message,混浴耐久ワニ男のカイマン,うおおお！　カーラ隊長！　カーラ隊長！,400801000,,chara_6
+message,混浴耐久ワニ男のカイマン,Wooo! Captain Carla! Captain Carla!<br> ,400801000,,chara_6
 
 window,off
 wait,0.15
@@ -3013,7 +3013,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,カーラ,一緒にセクハラ男たちを撃滅しましょう！,103401000G,vc_10340100003_059_01,chara_1
+message,カーラ,Let's annihilate those harassers together!<br> ,103401000G,vc_10340100003_059_01,chara_1
 
 bgmstop,bgmtag1_7,1.5,0
 
@@ -3062,9 +3062,9 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,アリシア,そ、そんなことが……,300201000,vc_10340100003_060_01,chara_2
+message,アリシア,S-so that's what happened...<br> ,300201000,vc_10340100003_060_01,chara_2
 
-message,<user>,この前線基地は、あいつにとって最適な配属先かもしれないぞ。<br>エルドラーナの警備隊なんかよりもな。
+message,<user>,This Frontline Base might be the best posting for her.<br>Even more than the Eldorana Guard.<br> 
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -3075,9 +3075,9 @@ asyncseplay,setag1_89,se4800015,0,1,CONT,0
 asynccharaemo,chara_2,Dull,CONT,0
 
 
-message,アリシア,そう……でしょうか……？,300201000,vc_10340100003_061_01,chara_2
+message,アリシア,Do you think so...?<br> ,300201000,vc_10340100003_061_01,chara_2
 
-message,<user>,なんといっても楽しそうだ。
+message,<user>,Above all，she looks happy.<br> 
 
 
 window,off
@@ -3127,7 +3127,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,カーラ,（ありがとうございます司令官。<br>私はこの基地のため、あなたのため、戦います！）,103401000G,vc_10340100003_062_01,chara_1
+message,カーラ,(Thank you，Commander.<br>I'll fight for this base and for you!)<br> ,103401000G,vc_10340100003_062_01,chara_1
 
 window,off
 wait,0.15
@@ -3153,9 +3153,9 @@ asynccharaemo,chara_1,Flash,CONT,0
 
 
 window,on,0.15
-message,カーラ,さあ、皆さん！<br>セクハラは！？,103401000G,vc_10340100003_063_01,chara_1
+message,カーラ,Now，everyone!<br>Sexual harassment!<br> ,103401000G,vc_10340100003_063_01,chara_1
 
-message,男たち,撃滅だー！,400301000
+message,男たち,Annihilate!<br> ,400301000
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -3166,7 +3166,7 @@ asyncseplay,setag1_92,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,カーラ,その通りです！　一緒に頑張りましょうね！,103401000G,vc_10340100003_064_01,chara_1
+message,カーラ,That's right! Let's work hard together!<br> ,103401000G,vc_10340100003_064_01,chara_1
 
 window,off
 bgmstop,bgmtag1_8,0.5

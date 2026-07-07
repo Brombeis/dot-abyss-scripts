@@ -268,7 +268,7 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 message,ミルティーユ,全部のタルトにそれぞれの素敵なところがあるんだよ？<br>一番なんて決められないよぉ～！,102901000G,vc_10290100002_010_01,chara_1
 
-message,<user>,タルト愛が強いからこその悩みか……。<br>ふむ、それなら誰かに試食を頼んでみたらどうだ？
+message,<user>,So your problem comes from loving tarts that much，huh... Well，why<br>not ask someone else to taste-test?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -279,9 +279,9 @@ asyncseplay,setag1_11,se4800005,0,1,CONT,0
 asynccharaemo,chara_1,Flash,CONT,0
 
 
-message,ミルティーユ,そっか、公平な意見を聞くんだね～！<br>それならお願い、しれーかんさま！　どのタルトか選んで～？,102901000G,vc_10290100002_011_01,chara_1
+message,ミルティーユ,I see! Mil needs a fair opinion! Then，Commander，please pick one for<br>Mil?<br> ,102901000G,vc_10290100002_011_01,chara_1
 
-message,<user>,俺か？　試食するのは構わないが、<br>そこまでお菓子に詳しいわけではないからな……
+message,<user>,Me? I can taste-test，but I'm not exactly a sweets expert...<br> 
 
 window,off
 wait,0.15
@@ -310,9 +310,9 @@ asyncseplay,setag1_12,se4010102,0,1,CONT,0
 wait,2
 
 window,on,0.15
-message,？？？,がうがう、がう？,900000003
+message,？？？,Gau，gau，gau?<br> ,900000003
 
-message,<user>,ああ、もっとミルティーユのスイーツに詳しい、<br>タルトを愛してるようなやつに選んでもらったほうが……
+message,<user>,Yeah，it'd be better to get someone more familiar with your sweets，a<br>real tart lover，to choose...<br> 
 
 window,off
 wait,0.15
@@ -325,15 +325,15 @@ asyncshake,BACK,,20,0,0.25,30,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_1,20,0,0.25,30,off,off,0,off,CONT,0
 
 window,on,0.15
-message,<user>,って、お前……熊っ！？
+message,<user>,Wait，you... a bear!<br> 
 
 bgmplay,bgmtag1_2,bgm0026,0.75,1
 
 asyncseplay,setag1_13,se5010015,0,1,CONT,0
 
-message,子熊,がうー。,900000003
+message,子熊,Gauu.<br> ,900000003
 
-message,,いつの間にかキッチンに入り込んでいた子熊が、<br>こんばんは！　とでも言うように片手を上げた。
+message,,The bear cub，who had slipped into the kitchen unnoticed，raised a paw<br>as if to say 'Good evening!'<br> 
 
 window,off
 wait,0.15
@@ -364,11 +364,11 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ミルティーユ,あ、熊さん～。<br>今日も来てたんだねぇ～。,102901000G,vc_10290100002_012_01,chara_1
+message,ミルティーユ,Oh，Mr. Bear! You came again today!<br> ,102901000G,vc_10290100002_012_01,chara_1
 
-message,子熊,がう～！,900000003
+message,子熊,Gauu!<br> ,900000003
 
-message,<user>,こいつ、結構来てるのか？
+message,<user>,This guy comes here a lot?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -376,11 +376,11 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,ミルティーユ,うん～！　人の来ない時間にこっそりタルトを食べに来てくれるんだ～。,102901000G,vc_10290100002_013_01,chara_1
+message,ミルティーユ,Yeah! He sneaks in when no one's around to eat Mil's tarts.<br> ,102901000G,vc_10290100002_013_01,chara_1
 
-message,子熊,がう、がうがう、が～う～！,900000003
+message,子熊,Gau，gau，gau，Gaaauuu!<br> ,900000003
 
-message,<user>,なんだか前に見たときよりもデカくなってる気がするぞ。<br>相当甘やかされてるんだろうな……
+message,<user>,He looks bigger than last time. He's been pretty spoiled.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -388,13 +388,13 @@ asyncseplay,setag1_15,se4800008,0,1,CONT,0
 
 asynccharaemo,chara_1,Sweat,CONT,0
 
-message,<user>,ま、見つからないように気をつけろよ。<br>この基地にはお前を１撃で鍋の具材にできるやつがたくさんいるんだ。
+message,<user>,Well，be careful not to get caught. There are plenty of people here<br>who could turn you into soup with one hit.<br> 
 
 asyncseplay,setag1_16,se4800006,0,1,CONT,0
 
-message,子熊,がぅぅ～……,900000003
+message,子熊,Gauu...<br> ,900000003
 
-message,,こわいですねぇ、と言いたげに眉をひそめる子熊。<br>妙に人間らしい仕草だった。
+message,,The bear cub furrowed its brow as if to say 'That's scary...' It was<br>a strangely human-like gesture.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -404,11 +404,11 @@ asyncseplay,setag1_17,se4800022,0,1,CONT,0
 
 asynccharaemo,chara_1,Speak,CONT,0
 
-message,<user>,だがこいつが来てくれたのはちょうどいいかもしれん。<br>何度も食べてるならミルティーユのタルトに詳しいんだろ？
+message,<user>,But maybe it's a good thing he showed up. He's eaten your tarts<br>plenty of times，so he knows them，right?<br> 
 
-message,子熊,がう？,900000003
+message,子熊,Gau?<br> ,900000003
 
-message,<user>,こいつに試食してもらえばいい。
+message,<user>,Let's have him taste-test.<br> 
 
 window,off
 wait,0.15
@@ -450,11 +450,11 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ミルティーユ,そっかぁ～！<br>お願い熊さん、どのタルトが一番美味しいか選んでくれる？,102901000G,vc_10290100002_014_01,chara_1
+message,ミルティーユ,I seee! Please，Mr. Bear，could you pick which tart tastes best?<br> ,102901000G,vc_10290100002_014_01,chara_1
 
-message,子熊,がう～！,900000003
+message,子熊,Gau!<br> ,900000003
 
-message,,子熊は、お任せあれ！　と胸を叩いてみせた。
+message,,The bear cub thumped his chest as if to say，'Leave it to me!'<br> 
 
 
 window,off
@@ -497,9 +497,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ミルティーユ,これが出品しようか悩んでるタルトなんだ～,102901000G,vc_10290100002_015_01,chara_1
+message,ミルティーユ,These are the tarts Mil's been worried about—which one to enter in<br>the contest.<br> ,102901000G,vc_10290100002_015_01,chara_1
 
-message,子熊,がう、がうがう！,900000003
+message,子熊,Gau，gau gau!<br> ,900000003
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -510,7 +510,7 @@ asyncseplay,setag1_20,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ミルティーユ,自信ある？<br>じゃあさっそく食べてみて～！,102901000G,vc_10290100002_016_01,chara_1
+message,ミルティーユ,You sure? Then go ahead and try it!<br> ,102901000G,vc_10290100002_016_01,chara_1
 
 window,off
 wait,0.15
@@ -549,13 +549,13 @@ asynccharamove,chara_1,Linear,Y,0,0.5,CONT,0
 asyncwait
 
 window,on,0.15
-message,子熊,がうー！,900000003
+message,子熊,Gau!<br> ,900000003
 
 asyncseplay,setag1_21,se4400232,0,1,CONT,0
 
-message,,子熊はナイフとフォークを構えると、<br>手慣れた様子でタルトの１つをカットした。
+message,,The bear cub brandished a knife and fork and cut one of the tarts<br>with practiced ease.<br> 
 
-message,<user>,いやいやいや！？<br>なんで熊が上品にカトラリーを使ってタルト食ってんだ！？
+message,<user>,Wait，wait，wait! Why's a bear using cutlery so elegantly to eat a<br>tart?<br> 
 
 window,off
 wait,0.15
@@ -595,9 +595,9 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ミルティーユ,手が汚れちゃうかなって持たせてあげたら、<br>すぐに使ってくれたんだよぉ～。,102901000G,vc_10290100002_017_01,chara_1
+message,ミルティーユ,Mil thought his paws would get messy，so Mil gave them to him，and he<br>used them right away.<br> ,102901000G,vc_10290100002_017_01,chara_1
 
-message,<user>,なんて多芸な熊だ……
+message,<user>,What a talented bear...<br> 
 
 window,off
 wait,0.15
@@ -633,11 +633,11 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,子熊は優雅にタルトを口へ運ぶと、<br>ふむふむと頷いて唸り始める。
+message,,The bear cub elegantly brought the tart to his mouth，nodded<br>thoughtfully，and began to grunt.<br> 
 
-message,子熊,がう、がうがう、がう～がうっ。,900000003
+message,子熊,Gau，gau gau，gau gau.<br> ,900000003
 
-message,<user>,……なんか語ってるっぽいが、何を言ってるかまったく分からん。
+message,<user>,... He seems to be talking about something，but I haven't got a clue<br>what he's saying.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -648,11 +648,11 @@ asyncseplay,setag1_23,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ミルティーユ,うーん、でも高評価ではないみたい～。<br>ちょっと具材のバランスが悪かったのかな～。,102901000G,vc_10290100002_018_01,chara_1
+message,ミルティーユ,Hmm... but it doesn't seem like a great review... Maybe the<br>ingredient balance was a little off.<br> ,102901000G,vc_10290100002_018_01,chara_1
 
-message,子熊,がーうがう、がううがう？,900000003
+message,子熊,Gau... gau，gau gau?<br> ,900000003
 
-message,,子熊は次のタルトをとると側面のかすかな焦げに鼻を近づけ、<br>やれやれと首を振ってみせた。
+message,,The bear cub took the next tart，brought his nose close to a faint<br>burn on the side，and shook his head as if to say 'tsk tsk'.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -663,9 +663,9 @@ asyncseplay,setag1_24,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,ミルティーユ,ああ～！　焦げちゃってたんだ～！<br>試作品をたくさん焼いたから温度管理が甘かったのかも……,102901000G,vc_10290100002_019_01,chara_1
+message,ミルティーユ,Ohh! It got burnt! Maybe 'cause Mil baked so many trial ones，Mil got<br>careless with the temperature...<br> ,102901000G,vc_10290100002_019_01,chara_1
 
-message,子熊,がうがう。がうがう。,900000003
+message,子熊,Gau gau. Gau gau.<br> ,900000003
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -676,15 +676,15 @@ asyncseplay,setag1_25,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ミルティーユ,うん、気をつけるねぇ～。,102901000G,vc_10290100002_020_01,chara_1
+message,ミルティーユ,Mm，Mil'll be careful.<br> ,102901000G,vc_10290100002_020_01,chara_1
 
-message,<user>,なんなんだこいつは。<br>どこかの食通か？
+message,<user>,What's with this guy? Is he some kind of gourmet?<br> 
 
 asyncseplay,setag1_26,se5010015,0,1,CONT,0
 
-message,子熊,がう。,900000003
+message,子熊,Gau.<br> ,900000003
 
-message,<user>,頷くな。違うだろうが。<br>ったく、すっかり舌が肥えてやがる。
+message,<user>,Don't nod. That's not right，is it? Jeez，he's got a seriously refined<br>palate.<br> 
 
 window,off
 wait,0.15
@@ -726,7 +726,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,ミルティーユ,ふふふ～。でも頼りになるね～。,102901000G,vc_10290100002_021_01,chara_1
+message,ミルティーユ,Fufufu. But he's reliable，huh?<br> ,102901000G,vc_10290100002_021_01,chara_1
 
 window,off
 wait,0.15
@@ -764,7 +764,7 @@ charashowalpha,chara_1,1,0
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,,子熊はタルトを食べ進め、最終的に１つのタルトをテーブルに残した。<br>ベリーが盛り付けけられたシンプルなタルトだ。
+message,,The bear cub ate through the tarts and ultimately left one on the<br>table. It was a simple tart adorned with berries.<br> 
 
 window,off
 wait,0.15
@@ -808,11 +808,11 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ミルティーユ,え……こ、これがいいの～！？<br>季節のベリータルトだよ？,102901000G,vc_10290100002_022_01,chara_1
+message,ミルティーユ,Ehh... th-this is the one? The Seasonal Berry Tart?<br> ,102901000G,vc_10290100002_022_01,chara_1
 
-message,子熊,がう、がうがう。,900000003
+message,子熊,Gau，gau，gau.<br> ,900000003
 
-message,<user>,ベリーのタルト、いいじゃないか。<br>何か問題なのか？
+message,<user>,The berry tart is good，isn't it? What's wrong with it?<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -823,7 +823,7 @@ asyncseplay,setag1_29,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ミルティーユ,定番で人気だけど意外性がないんだよ～！<br>コンテストじゃ他の作品の中に埋もれちゃうかも～！,102901000G,vc_10290100002_023_01,chara_1
+message,ミルティーユ,It's a classic and everyone loves it，but it's not original! In the<br>contest，it might get lost in the crowd!<br> ,102901000G,vc_10290100002_023_01,chara_1
 
 window,off
 wait,0.15
@@ -860,15 +860,15 @@ wait,1
 asyncseplay,setag1_30,se4900070,0,1,CONT,0
 
 window,on,0.15
-message,子熊,がう、がうがう、がう？<br>がーうがうがうがう、がうっ！,900000003
+message,子熊,Gau，gau，gau，gau? Gauu，gau，gau，gau，gau!<br> ,900000003
 
-message,<user>,熱く語られても分からんが……。<br>なんとなく、自信を持て、と言ってる気がする。
+message,<user>,I have no idea what he's so worked up about，but... I think he's<br>saying you should have confidence.<br> 
 
 asyncseplay,setag1_31,se4800003,0,1,CONT,0
 
-message,子熊,がうっ！,900000003
+message,子熊,Gau!<br> ,900000003
 
-message,<user>,シンプルってのはミルティーユの腕が出せるってことだろ？<br>俺もいい選択だと思うぞ。
+message,<user>,Simple tarts let Myrtille's skills shine，don't they? I think it's a<br>good choice too.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -877,7 +877,7 @@ asyncseplay,setag1_32,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ミルティーユ,スタンダードなタルトで優勝する……。<br>難しいよぉ、大変だよ～！,102901000G,vc_10290100002_024_01,chara_1
+message,ミルティーユ,Winning with a standard tart... That's so hard，it'll be so tough!<br> ,102901000G,vc_10290100002_024_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -888,9 +888,9 @@ asyncseplay,setag1_33,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ミルティーユ,でも……ミルはお菓子の国のパティシエだもん！<br>これで勝つぐらいじゃないとダメだよね～！,102901000G,vc_10290100002_025_01,chara_1
+message,ミルティーユ,But... Mil is a patissier from Sweets Kingdom! Mil's got to be able<br>to win with this，right!<br> ,102901000G,vc_10290100002_025_01,chara_1
 
-message,子熊,がうがう！<br>がーうがう、がう！,900000003
+message,子熊,Gau，gau! Gauu，gau，gau!<br> ,900000003
 
 window,off
 wait,0.15
@@ -932,7 +932,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,ミルティーユ,うん！　このタルトのクオリティをもっともっと上げて、<br>それでコンテストに優勝して見せるよぉ！,102901000G,vc_10290100002_026_01,chara_1
+message,ミルティーユ,Yeah! Mil will keep improving the quality of this tart，and then Mil<br>will win the contest!<br> ,102901000G,vc_10290100002_026_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -943,13 +943,13 @@ asyncseplay,setag1_35,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ミルティーユ,しれーかんさま、熊さん！<br>ミルは絶対に勝つからね～！,102901000G,vc_10290100002_027_01,chara_1
+message,ミルティーユ,Commander! Mr. Bear! Mil is definitely going to win，you hear!<br> ,102901000G,vc_10290100002_027_01,chara_1
 
-message,<user>,ああ、楽しみにしてるぞ。
+message,<user>,Yeah，I'm looking forward to it.<br> 
 
 asyncseplay,setag1_36,se4800002,0,1,CONT,0
 
-message,子熊,がうー！！！,900000003
+message,子熊,Gauuu!<br> ,900000003
 
 window,off
 bgmstop,bgmtag1_3,0.5

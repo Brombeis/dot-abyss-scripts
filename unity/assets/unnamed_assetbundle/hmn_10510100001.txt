@@ -84,7 +84,7 @@ asynccharaemo,chara_3,Anger,CONT,0
 
 
 window,on,0.15
-message,モンスター,ギギィッ！　ギギッ、ギィ！！,402001000,,chara_2/chara_4/chara_3
+message,モンスター,Grrrah! Grrr! Greee!<br> ,402001000,,chara_2/chara_4/chara_3
 
 window,off
 wait,0.15
@@ -151,7 +151,7 @@ asynccharaemo,chara_5,Sweat,CONT,0
 
 
 window,on,0.15
-message,兵士A,ぬかった……！　こんなに大量のモンスターと出くわすなんて！<br>でも、この道を抜ければ……,401001000,vc_10510100001_001_01,chara_5
+message,兵士A,We messed up... Running into this many monsters! But if we can make<br>it through this passage...<br> ,401001000,vc_10510100001_001_01,chara_5
 
 
 window,off
@@ -228,7 +228,7 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,モンスター,ギャギャァー！,402001000,,chara_2/chara_3
+message,モンスター,Graaah!<br> ,402001000,,chara_2/chara_3
 
 window,off
 wait,0.15
@@ -298,7 +298,7 @@ asynccharaemo,chara_6,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,兵士B,前からもモンスターが！？,401101000,vc_10510100001_002_01,chara_6
+message,兵士B,Monsters from the front too?!<br> ,401101000,vc_10510100001_002_01,chara_6
 
 window,off
 wait,0.15
@@ -321,7 +321,7 @@ asynccharaemo,chara_7,Panic,CONT,0
 
 
 window,on,0.15
-message,兵士C,後ろのも追いついてきました！<br>これじゃあ挟み撃ちです！,401301000,vc_10510100001_003_01,chara_7
+message,兵士C,The ones from behind have caught up too! We're caught in a pincer<br>attack!<br> ,401301000,vc_10510100001_003_01,chara_7
 
 window,off
 wait,0.15
@@ -344,7 +344,7 @@ asynccharaemo,chara_5,Sweat,CONT,0
 
 
 window,on,0.15
-message,兵士A,くっ……！<br>こんなところでやられてしまうのか……！？,401001000,vc_10510100001_004_01,chara_5
+message,兵士A,Tch... Is this where we fall?!<br> ,401001000,vc_10510100001_004_01,chara_5
 
 window,off
 wait,0.15
@@ -395,7 +395,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,モンスター,ギギッ！　ギィィ！,402001000,,chara_2
+message,モンスター,Grrr! Greee!<br> ,402001000,,chara_2
 
 window,off
 wait,0.15
@@ -423,7 +423,7 @@ asyncseplay,setag1_12,se4800011,0,1,CONT,0
 asynccharaemo,chara_2,ExclaQues,CONT,0
 
 window,on,0.15
-message,,獲物を狩るべく、モンスターたちがじりじりと距離を詰めてくる。<br>――その体が、突如として真横に吹き飛んだ。
+message,,The monsters slowly closed in，ready to claim their prey. Then，one of<br>them was suddenly sent flying sideways.<br> 
 
 window,off
 wait,0.15
@@ -443,7 +443,7 @@ emodelete,chara_2,0,0
 asyncwait
 
 window,on,0.15
-message,モンスター,ギギャァァ……！？,402001000
+message,モンスター,Graaah...!<br> ,402001000
 
 window,off
 wait,0.15
@@ -479,7 +479,7 @@ asynccharaemo,chara_6,Exclamation,CONT,0
 
 
 window,on,0.15
-message,兵士B,えっ……！？<br>モンスターが、吹き飛んだ……？,401101000,vc_10510100001_005_01,chara_6
+message,兵士B,Huh... The monster... was blown away?!<br> ,401101000,vc_10510100001_005_01,chara_6
 
 
 window,off
@@ -535,9 +535,9 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,？？？,…………,105101000G,vc_10510100001_006_01,chara_1
+message,？？？,...<br> ,105101000G,vc_10510100001_006_01,chara_1
 
-message,兵士C,女の子……？<br>まさか……あの子がモンスターを？,401301000,vc_10510100001_007_01,
+message,兵士C,A girl...? No way... she's the one who took down the monsters?<br> ,401301000,vc_10510100001_007_01,
 
 window,off
 wait,0.15
@@ -554,7 +554,7 @@ wait,0.5
 
 
 window,on,0.15
-message,？？？,……そーれ。,105101000G,vc_10510100001_008_01,chara_1
+message,？？？,...There we go!<br> ,105101000G,vc_10510100001_008_01,chara_1
 
 window,off
 wait,0.15
@@ -621,7 +621,7 @@ asyncshake,CHARA,chara_7,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_8,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,,ドッゴォォォン――！
+message,,*boooom—!*<br> 
 
 window,off
 wait,0.15
@@ -638,7 +638,7 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,モンスター,グゲェェェェ……！,402001000,,chara_2
+message,モンスター,Gyaaa...!<br> ,402001000,,chara_2
 
 window,off
 wait,0.15
@@ -708,7 +708,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,兵士A,あ、あんな身の丈ほどもある巨大な剣を軽々と……！？<br>とんでもない力だ……！,401001000,vc_10510100001_009_01,
+message,兵士A,A-a giant sword nearly as tall as she is... and she swings it like<br>it's nothing! She's incredibly strong...!<br> ,401001000,vc_10510100001_009_01,
 
 
 window,off
@@ -784,27 +784,27 @@ asynccharaemo,chara_6,Sweat,CONT,0
 
 
 window,on,0.15
-message,兵士B,すごい……あれだけのモンスターを、<br>全部１人で倒しちゃった……,401101000,vc_10510100001_010_01,chara_6
+message,兵士B,Amazing... She took down all those monsters on her own...<br> ,401101000,vc_10510100001_010_01,chara_6
 
 asynccharaface,chara_5,FaceHappy,CONT,0
 
 asyncjump,CHARA,chara_5,-30.6,0.5,1,off,0,CONT
 
 
-message,兵士A,ああ……とんでもない強さだ。<br>君、ありがとう。おかげで助かったよ。,401001000,vc_10510100001_011_01,chara_5
+message,兵士A,Yeah... that was incredible strength. Thank you，miss. You saved us.<br> ,401001000,vc_10510100001_011_01,chara_5
 
 asyncseplay,setag1_20,se4800014,0,1,CONT,0
 
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,？？？,…………,105101000G,vc_10510100001_012_01,chara_1
+message,？？？,...<br> ,105101000G,vc_10510100001_012_01,chara_1
 
 asynccharaface,chara_5,EyeOpen,CONT,0
 asynccharaface,chara_5,FaceNormal,CONT,0
 
 
-message,兵士A,……無口な人だな。,401001000,vc_10510100001_013_01,chara_5
+message,兵士A,... She's a quiet one.<br> ,401001000,vc_10510100001_013_01,chara_5
 
 window,off
 wait,0.15
@@ -854,7 +854,7 @@ asynccharaemo,chara_7,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,兵士C,あっ……！,401301000,vc_10510100001_014_01,chara_7
+message,兵士C,Ah...!<br> ,401301000,vc_10510100001_014_01,chara_7
 
 window,off
 wait,0.15
@@ -880,7 +880,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,兵士A,ど、どうした！？　まさか怪我を……！？,401001000,vc_10510100001_015_01,
+message,兵士A,W-What's wrong? Don't tell me you're injured...!<br> ,401001000,vc_10510100001_015_01,
 
 asynccharaface,chara_7,FaceSad,CONT,0
 
@@ -891,7 +891,7 @@ asyncseplay,setag1_23,se4800015,0,1,CONT,0
 asynccharaemo,chara_7,Dull,CONT,0
 
 
-message,兵士C,い、いえ。腰が抜けちゃって……,401301000,vc_10510100001_016_01,chara_7
+message,兵士C,N-No. My legs gave out...<br> ,401301000,vc_10510100001_016_01,chara_7
 
 window,off
 wait,0.15
@@ -949,7 +949,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,？？？,…………,105101000G,vc_10510100001_017_01,chara_1
+message,？？？,...<br> ,105101000G,vc_10510100001_017_01,chara_1
 
 window,off
 wait,0.15
@@ -980,7 +980,7 @@ asynccharaemo,chara_7,Laugh,CONT,0
 
 
 window,on,0.15
-message,兵士C,手……？　あ、起こしてくれようとしてるんですね。<br>ありがとうございます。お言葉に甘えて……,401301000,vc_10510100001_018_01,chara_7
+message,兵士C,Hand...? Ah，you're trying to help me up. Thank you. I'll gratefully<br>accept...<br> ,401301000,vc_10510100001_018_01,chara_7
 
 window,off
 wait,0.15
@@ -1008,15 +1008,15 @@ fade,In,Black,0
 asyncseplay,setag1_26,se4900197,0,1,CONT,0
 
 window,on,0.15
-message,,――ズル！　なんと突然少女の腕が肩から外れ、<br>兵士と手をつないだまま、だらりとぶら下がった！
+message,,Suddenly，with a slip，the girl's arm came off at the<br>shoulder，dangling limply while still clasping the soldier's hand.<br> 
 
-message,？？？,あ。,105101000G,vc_10510100001_019_01,
+message,？？？,Ah.<br> ,105101000G,vc_10510100001_019_01,
 
 bgmplay,bgmtag1_3,bgm0040,0.75,1
 
-message,兵士C,……え！？　手……手が、とれた！？<br>きゃあああああ……！,401301000,vc_10510100001_020_01,
+message,兵士C,Wha—! Your... your arm came off! Kyaaaaaa...!<br> ,401301000,vc_10510100001_020_01,
 
-message,,兵士は思わず腕を放り投げる。<br>少女はその腕を拾うと、元の位置に押し付け……
+message,,The soldier，without thinking，threw the arm away. The girl picked it<br>up and pressed it back into its original position...<br> 
 
 
 window,off
@@ -1062,9 +1062,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 wait,0.5
 
 window,on,0.15
-message,兵士A,う、嘘……！？　とれた腕が元通りに……！？,401001000,vc_10510100001_021_01,
+message,兵士A,I-Impossible...! The arm that came off... it's back to normal!<br> ,401001000,vc_10510100001_021_01,
 
-message,兵士C,う、腕、冷たかった……死体みたいに……。<br>まさか、化け物！？,401301000,vc_10510100001_022_01,
+message,兵士C,The... the arm was cold... like a dead body... Oh no，is she a<br>monster!?<br> ,401301000,vc_10510100001_022_01,
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1075,7 +1075,7 @@ asyncseplay,setag1_28,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,？？？,いえ、わたしは……,105101000G,vc_10510100001_023_01,chara_1
+message,？？？,No，I am...<br> ,105101000G,vc_10510100001_023_01,chara_1
 
 window,off
 wait,0.15
@@ -1137,7 +1137,7 @@ asynccharaemo,chara_6,Panic,CONT,0
 
 
 window,on,0.15
-message,兵士B,き、聞いたことがあるよ！<br>人を襲って食べる、人型のモンスターがいるって！,401101000,vc_10510100001_024_01,chara_6
+message,兵士B,I-I've heard stories! There are humanoid monsters that attack and<br>devour people!<br> ,401101000,vc_10510100001_024_01,chara_6
 
 window,off
 wait,0.15
@@ -1162,9 +1162,9 @@ wait,0.5
 
 
 window,on,0.15
-message,兵士A,油断させて、わたしたちを食べる気か！？<br>くっ、こうなったら、やられる前にやるしか……！,401001000,vc_10510100001_025_01,chara_5
+message,兵士A,You made us let our guard down so you could eat us，didn't you?<br>*Tch*，if it's come to this，we have no choice but to strike before being struck!<br> ,401001000,vc_10510100001_025_01,chara_5
 
-message,<user>,待て！！　お前たち、落ち着け！
+message,<user>,Wait! All of you，calm down!<br> 
 
 window,off
 wait,0.15
@@ -1189,9 +1189,9 @@ wait,0.5
 
 
 window,on,0.15
-message,兵士A,し、司令官！？,401001000,vc_10510100001_026_01,chara_5
+message,兵士A,C-Commander!<br> ,401001000,vc_10510100001_026_01,chara_5
 
-message,<user>,冷静になれ。こいつはお前たちを助けてくれただろう。<br>それに今だって、武器を向けるお前たちに剣を構えてはいない。
+message,<user>,Get a hold of yourselves. She saved you，didn't she? And even<br>now，she's not raising her sword at you，even though you're aiming at her.<br> 
 
 asynccharaface,chara_5,FaceSad,CONT,0
 
@@ -1202,7 +1202,7 @@ asyncseplay,setag1_32,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,兵士A,え……？,401001000,vc_10510100001_027_01,chara_5
+message,兵士A,Huh...?<br> ,401001000,vc_10510100001_027_01,chara_5
 
 window,off
 wait,0.15
@@ -1247,7 +1247,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,お前、とれた腕がくっついていたみたいだが……。<br>人間、だよな？
+message,<user>,Hey，your arm came off but it reattached... You're human，right?<br> 
 
 window,off
 wait,0.15
@@ -1264,9 +1264,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,フェイリン,……はい。わたしはフェイリン。<br>キョンシーのフェイリン。遥か東の地より来ました。,105101000G,vc_10510100001_028_01,chara_1
+message,フェイリン,...Yes. I am Feilin. Feilin，a Jiangshi from a far eastern land.<br> ,105101000G,vc_10510100001_028_01,chara_1
 
-message,<user>,キョンシー？　聞いたことのない言葉だな。
+message,<user>,Jiangshi? Never heard that word before.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1278,7 +1278,7 @@ asyncseplay,setag1_34,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,フェイリン,わたしの故郷に、死者の魂を死体にとどめる秘術があります。<br>それで生き返ったのが、わたし。,105101000G,vc_10510100001_029_01,chara_1
+message,フェイリン,In my homeland，there is a secret art that keeps the soul of the dead<br>in the body. That's how I was revived.<br> ,105101000G,vc_10510100001_029_01,chara_1
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -1287,9 +1287,9 @@ asyncseplay,setag1_35,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,フェイリン,腕とか足はちょっととれやすいけど、人間。<br>ごはんだって食べる。……辛いものが好き。,105101000G,vc_10510100001_030_01,chara_1
+message,フェイリン,My arms and legs fall off easily，but I am human.<br>I eat food too... I like spicy things.<br> ,105101000G,vc_10510100001_030_01,chara_1
 
-message,<user>,ほう……それはすごい術だな。<br>トレスリア地方の外の文化は奥が深い。
+message,<user>,Huh... that's quite a technique.<br>The cultures outside the Treslia Region run deep.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1300,9 +1300,9 @@ asyncseplay,setag1_36,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,フェイリン,……信じてくれるのですか？,105101000G,vc_10510100001_031_01,chara_1
+message,フェイリン,...Do you believe me?<br> ,105101000G,vc_10510100001_031_01,chara_1
 
-message,<user>,普段から大穴なんて得体のしれない場所を探索してるんだ。<br>驚きはしても、否定する意味なんてないだろう？
+message,<user>,I explore an unknown place like the Abyss every day.<br>I might be surprised，but there's no reason to deny it，right?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1313,11 +1313,11 @@ asyncseplay,setag1_37,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,フェイリン,……変わった人ですね。<br>大抵の人は、信じてくれたところで怯えるのですが。,105101000G,vc_10510100001_032_01,chara_1
+message,フェイリン,You are an unusual person.<br>Most people，even if they believe me，still get scared.<br> ,105101000G,vc_10510100001_032_01,chara_1
 
-message,<user>,言葉が通じるなら、理解し合えるってことだ。<br>それに、うちの兵士を助けてくれたようだしな。
+message,<user>,If we can communicate，we can understand each other.<br>Besides，you saved my soldiers.<br> 
 
-message,<user>,で、理解し合うための一環として尋ねるが、<br>フェイリンはこの大穴で何をしていたんだ？
+message,<user>,So，as part of understanding each other，I'll ask:<br>Feilin，what were you doing in the Abyss?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1329,7 +1329,7 @@ asyncseplay,setag1_38,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,フェイリン,わたしは……,105101000G,vc_10510100001_033_01,chara_1
+message,フェイリン,I...<br> ,105101000G,vc_10510100001_033_01,chara_1
 
 
 bgmstop,bgmtag1_4,1.5,0
@@ -1354,7 +1354,7 @@ bgmplay,bgmtag1_5,bgm0036,0.75,1
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,<user>,……なるほど。<br>元の体に戻る方法を探して、ここまで来たっていうわけか。
+message,<user>,I see. So you came all the way here looking for a way to return to<br>your original body.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1365,7 +1365,7 @@ asyncseplay,setag1_39,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フェイリン,はい。故郷ではキョンシーになる術は伝わっていましたが、<br>元に戻る術は見つかりませんでした。,105101000G,vc_10510100001_034_01,chara_1
+message,フェイリン,Yes. In my homeland，the art of becoming a Jiangshi was passed down，<br>but the art of turning back was never found.<br> ,105101000G,vc_10510100001_034_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1376,9 +1376,9 @@ asyncseplay,setag1_40,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,フェイリン,でも、この世界の外側に繋がっているといわれている大穴になら、<br>ひょっとしたらと……,105101000G,vc_10510100001_035_01,chara_1
+message,フェイリン,But if it were the Abyss，which is said to connect to the outside of<br>this world... might be...<br> ,105101000G,vc_10510100001_035_01,chara_1
 
-message,<user>,それで、大穴に希望を求めてきたっていうわけか。<br>雲をつかむような話だが、大穴には無限の可能性があるからな。
+message,<user>,So you sought hope in the Abyss. It's like grasping at straws，but<br>the Abyss holds infinite possibilities.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1390,9 +1390,9 @@ asyncseplay,setag1_41,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,フェイリン,はい。それで、今日も１人で探索をしていたら、<br>モンスターに襲われている人たちを見かけたので。,105101000G,vc_10510100001_036_01,chara_1
+message,フェイリン,Yes. So today I was exploring alone and I saw people being attacked<br>by monsters.<br> ,105101000G,vc_10510100001_036_01,chara_1
 
-message,<user>,助けてくれたってわけか。<br>なるほど……お前はいいやつだな。
+message,<user>,So you saved them.<br>I see... you're a good person.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1403,9 +1403,9 @@ asyncseplay,setag1_42,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,フェイリン,え？　どうしてそうなるんですか？,105101000G,vc_10510100001_037_01,chara_1
+message,フェイリン,Huh? What makes you say that?<br> ,105101000G,vc_10510100001_037_01,chara_1
 
-message,<user>,キョンシーだってこと、信じてもらえても怯えられるって言ってたろ？<br>さっき、うちの兵士たちがお前に怯えたように。
+message,<user>,You said even if people believe you're a Jiangshi，they still get<br>scared，right? Like how my soldiers were scared of you earlier.<br> 
 
 window,off
 wait,0.15
@@ -1453,7 +1453,7 @@ asynccharaemo,chara_5,Panic,CONT,0
 
 
 window,on,0.15
-message,兵士A,あ、その……さっきはすまなかった。<br>混乱していたとはいえ、恩人に対して剣を向けるなど……,401001000,vc_10510100001_038_01,chara_5
+message,兵士A,Ah，um... sorry about earlier.<br>Even though we were confused，pointing a sword at our benefactor...<br> ,401001000,vc_10510100001_038_01,chara_5
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1464,7 +1464,7 @@ asyncseplay,setag1_44,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,フェイリン,いえ、いいんです。慣れていますから。,105101000G,vc_10510100001_039_01,chara_1
+message,フェイリン,No，it's fine. I'm used to it.<br> ,105101000G,vc_10510100001_039_01,chara_1
 
 window,off
 wait,0.15
@@ -1503,7 +1503,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,ああなることが予想できていたのに、フェイリンは助けてくれたわけだ。<br>ほらな？　フェイリンは信用できる、いいやつだ。
+message,<user>,Even though I could've seen that coming，Feilin still helped out.<br>See? She's trustworthy，a good person.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1514,9 +1514,9 @@ asyncseplay,setag1_45,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,フェイリン,それは……ありがとうございます。,105101000G,vc_10510100001_040_01,chara_1
+message,フェイリン,That's... thank you very much.<br> ,105101000G,vc_10510100001_040_01,chara_1
 
-message,<user>,おいおい、礼を言うのはこっちだろ。<br>身の危険も顧みず、うちの兵士を助けてくれたんだから。
+message,<user>,Hey now，I should be the one thanking you. You helped our soldiers<br>without regard for your own safety.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1528,11 +1528,11 @@ asyncseplay,setag1_46,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,フェイリン,……そういえばそうですね。この体になってからはあまり人と<br>関わってこなかったので……感謝されるのは久しぶりです。,105101000G,vc_10510100001_041_01,chara_1
+message,フェイリン,...Now that you mention it，that's true. Since becoming like<br>this，I've not interacted much with people... I've not been thanked in ages.<br> ,105101000G,vc_10510100001_041_01,chara_1
 
-message,<user>,それはまた……随分寂しい思いをしてきたみたいだな。
+message,<user>,That sounds like you've been through some lonely times.<br> 
 
-message,<user>,……よし、決めた。<br>フェイリン。お前、俺の護衛をやらないか？
+message,<user>,...Alright，I've decided. Feilin. How about becoming my bodyguard?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1543,9 +1543,9 @@ asyncseplay,setag1_47,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,フェイリン,え……？<br>護衛、ですか？,105101000G,vc_10510100001_042_01,chara_1
+message,フェイリン,Huh...? A bodyguard?<br> ,105101000G,vc_10510100001_042_01,chara_1
 
-message,<user>,ああ。俺は常に腕利きを探してる。<br>お前が護衛をやってくれれば心強い。
+message,<user>,Yeah. I'm always on the lookout for skilled people. Having you as my<br>guard would be reassuring.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1556,9 +1556,9 @@ asyncseplay,setag1_48,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,フェイリン,わたしはこんな体質なので、<br>働き口があるのはありがたいですが……あなたはいったい？,105101000G,vc_10510100001_043_01,chara_1
+message,フェイリン,With my condition，I'm grateful for a job offer... but who exactly<br>are you?<br> ,105101000G,vc_10510100001_043_01,chara_1
 
-message,<user>,名乗るのが遅れたな。<br>俺は<user>。前線基地の司令官だ。
+message,<user>,I'm late to introduce myself. I'm %user%，Commander of the Frontline<br>Base.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1569,11 +1569,11 @@ asyncseplay,setag1_49,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,フェイリン,司令官、さん……？<br>それでさっき、うちの兵士と言っていたんですね。,105101000G,vc_10510100001_044_01,chara_1
+message,フェイリン,Commander...? So that's why you said 'our soldiers' earlier.<br> ,105101000G,vc_10510100001_044_01,chara_1
 
-message,<user>,俺のところに来れば、１人でやるより情報も集めやすいぞ。<br>元の体に戻る手がかりも見つかるかもしれない。
+message,<user>,Come to my base—it'll be easier to gather info than alone. You might<br>even find clues for your original body.<br> 
 
-message,<user>,持ちつ持たれつのいい案だと思うんだが、どうだ？
+message,<user>,I think it's a good give-and-take arrangement. What do you say?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1584,9 +1584,9 @@ asyncseplay,setag1_50,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フェイリン,でも……いいんでしょうか？<br>わたしみたいなのが、司令官さんのそばにいても。,105101000G,vc_10510100001_045_01,chara_1
+message,フェイリン,But... is it really okay? Even someone like me，staying by your<br>side，Commander?<br> ,105101000G,vc_10510100001_045_01,chara_1
 
-message,<user>,俺は合理的でね。お前の腕っぷしは頼りになる。<br>有能なやつをみすみす見逃すつもりはない。それに――
+message,<user>,I'm a pragmatic guy. Your combat skills are reliable. I don't intend<br>to let a capable person slip away. Besides—<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1597,9 +1597,9 @@ asyncseplay,setag1_51,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,フェイリン,…………？,105101000G,vc_10510100001_046_01,chara_1
+message,フェイリン,...?<br> ,105101000G,vc_10510100001_046_01,chara_1
 
-message,<user>,善良で素直なやつは扱いやすい。
+message,<user>,A good and honest person is easy to get along with.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1610,7 +1610,7 @@ asyncseplay,setag1_52,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,フェイリン,……あはは。はっきり言いますね。<br>でも、分かりやすくていいです。,105101000G,vc_10510100001_047_01,chara_1
+message,フェイリン,...Ahaha. You sure are blunt. But I like that it's clear and simple.<br> ,105101000G,vc_10510100001_047_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1621,9 +1621,9 @@ asyncseplay,setag1_53,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,フェイリン,そういうことなら、護衛のお仕事、頑張らせていただきます。<br>それと、これからは<ruby=しふ>師父</>と呼ばせていただきますね。,105101000G,vc_10510100001_048_01,chara_1
+message,フェイリン,In that case，I'll do my best as your bodyguard. And from now on，if I<br>may，I'll call you Master.<br> ,105101000G,vc_10510100001_048_01,chara_1
 
-message,<user>,師父？
+message,<user>,Master?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1635,9 +1635,9 @@ asyncseplay,setag1_54,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,フェイリン,尊敬する相手への呼びかたです。,105101000G,vc_10510100001_049_01,chara_1
+message,フェイリン,It's how I address someone I respect.<br> ,105101000G,vc_10510100001_049_01,chara_1
 
-message,<user>,そうか。ま、好きなように呼ぶといい。<br>さて、雇用主としてはまず、お前の滞在場所を用意しないとな。
+message,<user>,I see. Well，call me whatever you like. Now then，as your employer，I<br>need to arrange a place for you to stay.<br> 
 
 
 window,off
@@ -1664,7 +1664,7 @@ emodelete,chara_1,0,0
 transitionFade,Tra05,in,black,1
 
 window,on,0.15
-message,<user>,ここが俺が仕事で使っている部屋だ。
+message,<user>,This is the room I use for work.<br> 
 
 window,off
 wait,0.15
@@ -1695,11 +1695,11 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,フェイリン,おじゃましまーす。<br>……わあ、立派なお部屋ですね。,105101000G,vc_10510100001_050_01,chara_1
+message,フェイリン,Excuse me... Wow，what a magnificent room.<br> ,105101000G,vc_10510100001_050_01,chara_1
 
-message,<user>,お前がキョンシー……動く死体だってことがバレると、<br>色々面倒だろ？
+message,<user>,If it got out that you're a Jiangshi—a walking corpse—that'd be a<br>pain，wouldn't it?<br> 
 
-message,<user>,いずれは自由に出歩けるようにしたいところだが、準備が必要だ。<br>しばらくは騒ぎにならないよう、この部屋を使ってくれ。
+message,<user>,I'd like to let you come and go freely eventually，but it'll take<br>some preparation. For now，use this room so you don't cause a commotion.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1710,7 +1710,7 @@ asyncseplay,setag1_56,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,フェイリン,何から何まで、ありがとうございます。,105101000G,vc_10510100001_051_01,chara_1
+message,フェイリン,Thank you for everything.<br> ,105101000G,vc_10510100001_051_01,chara_1
 
 
 window,off
@@ -1764,7 +1764,7 @@ asyncjump,CHARA,chara_8,-30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,アリシア,失礼します。<br>司令官、今月の予算の話ですけど……,300201000,vc_10510100001_052_01,chara_8
+message,アリシア,Excuse me. Commander，about this month's budget...<br> ,300201000,vc_10510100001_052_01,chara_8
 
 asynccharaface,chara_8,FaceSurprise,CONT,0
 
@@ -1775,7 +1775,7 @@ asyncseplay,setag1_58,se4800022,0,1,CONT,0
 asynccharaemo,chara_8,Speak,CONT,0
 
 
-message,アリシア,……あれ？　お客様ですか？,300201000,vc_10510100001_053_01,chara_8
+message,アリシア,Huh? A guest?<br> ,300201000,vc_10510100001_053_01,chara_8
 
 window,off
 wait,0.15
@@ -1823,7 +1823,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,<user>,ちょうど良かった、紹介しておこう。<br>アリシア、こいつはフェイリンと言って――
+message,<user>,Perfect timing，let me introduce you. Alicia，this is Feilin—<br> 
 
 window,off
 wait,0.15
@@ -1851,12 +1851,12 @@ fade,In,Black,0
 asyncseplay,setag1_59,se4900197,0,1,CONT,0
 
 window,on,0.15
-message,,――ボトッ。
+message,,*plop.*<br> 
 
 
 bgmplay,bgmtag1_6,bgm0026,0.75,1
 
-message,フェイリン,あ。,105101000G,vc_10510100001_054_01,
+message,フェイリン,Oh.<br> ,105101000G,vc_10510100001_054_01,
 
 window,off
 wait,0.15
@@ -1897,7 +1897,7 @@ asynccharaemo,chara_8,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,アリシア,う、腕が……とれた！？<br>お……お化けーーーーーーーーーーーーーーー！？,300201000,vc_10510100001_055_01,chara_8
+message,アリシア,Wh-what?! Your arm... it came off?! A... a ghost!<br> ,300201000,vc_10510100001_055_01,chara_8
 
 window,off
 wait,0.15
@@ -1907,13 +1907,13 @@ charafocusonall
 linework,off,Black,Middle
 
 window,on,0.15
-message,フェイリン,……すみません、接着が甘かったみたいです。,105101000G,vc_10510100001_056_01,
+message,フェイリン,... Sorry，I guess the glue didn't hold.<br> ,105101000G,vc_10510100001_056_01,
 
 asynccharaface,chara_8,FaceUnique04,CONT,0
 
-message,<user>,お、落ち着けアリシア！<br>フェイリンはお化けとかじゃなくって……
+message,<user>,Calm down，Alicia! Feilin isn't a ghost or anything...<br> 
 
-message,フェイリン,ただの死体です。,105101000G,vc_10510100001_057_01,
+message,フェイリン,Just a dead body.<br> ,105101000G,vc_10510100001_057_01,
 
 asynccharaface,chara_8,FaceUnique05,CONT,0
 
@@ -1926,9 +1926,9 @@ asyncseplay,setag1_61,se4800007,0,1,CONT,0
 asynccharaemo,chara_8,Panic,CONT,0
 
 
-message,アリシア,死体！？　な、なんで死体が動くんですかぁ！？<br>いやぁーーーーーーーーーー！,300201000,vc_10510100001_058_01,chara_8
+message,アリシア,A corpse?! Wh-why is a corpse moving?! Aaaaah!<br> ,300201000,vc_10510100001_058_01,chara_8
 
-message,<user>,と、とにかく落ち着けーーーーーーー！
+message,<user>,A-anyway，calm down!<br> 
 
 window,off
 wait,0.15

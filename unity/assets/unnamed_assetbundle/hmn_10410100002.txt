@@ -16,7 +16,7 @@ scale,SUBIMAGE,subimage_1,0,150,150,LinearTarget
 fade,In,Black,0.5
 
 seplay,seopening_tag,se5030001
-title,殺すべきではありませんか？
+title,Shall we not kill them?
 
 wait,1
 
@@ -45,18 +45,18 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,アヤメ,殺したい相手、いらっしゃいませんか？,104101000G,vc_10410100002_001_01,chara_1
+message,アヤメ,Is there no one you would like me to kill?<br> ,104101000G,vc_10410100002_001_01,chara_1
 
-message,<user>,……俺はこの基地の司令だぞ？<br>暗殺したい相手などいない。
+message,<user>,...I'm the Commander of this base，you know? I don't have anyone I<br>want to assassinate.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
 
-message,アヤメ,そうでしょうか？<br>立場があれば、邪魔も増えるものだと思うのですが。,104101000G,vc_10410100002_002_01,chara_1
+message,アヤメ,Is that so? With a position like yours，I would think obstacles<br>naturally increase.<br> ,104101000G,vc_10410100002_002_01,chara_1
 
-message,<user>,完全に否定はできないが……
+message,<user>,I can't completely deny that...<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -67,11 +67,11 @@ asyncseplay,setag1_2,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,アヤメ,でしょう？　そういった相手を殺してしまえば、<br>日常が少し豊かになりますよ？,104101000G,vc_10410100002_003_01,chara_1
+message,アヤメ,Would you not agree? If you kill those people，your daily life<br>becomes a little richer，does it not?<br> ,104101000G,vc_10410100002_003_01,chara_1
 
-message,<user>,暗殺で豊かになる日常など願い下げだ。<br>そもそも、暗殺者など募集していない。
+message,<user>,I'd rather not have a daily life enriched by assassination.<br>Besides，I wasn't even recruiting an assassin.<br> 
 
-message,<user>,アヤメは事務員として応募したんだ、<br>あくまでも事務員として採用させてもらう。
+message,<user>,You applied as a secretary，so I'm hiring you strictly as a<br>secretary.<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -84,13 +84,13 @@ asyncseplay,setag1_3,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,アヤメ,採用……？<br>合格、ということですかっ！？,104101000G,vc_10410100002_004_01,chara_1
+message,アヤメ,Hire...? Does that mean I passed?<br> ,104101000G,vc_10410100002_004_01,chara_1
 
 bgmplay,bgmtag1_2,bgm0036,0.75,1
 
-message,<user>,アヤメが言ったように、まずは試用期間だ。<br>真っ当な事務員として働けるのか見せてもらおう。
+message,<user>,As you said，it's a probation period first. Let's see if you can work<br>as a proper secretary.<br> 
 
-message,<user>,……暗殺者と分かっている相手を、<br>基地から放り出すわけにもいかないしな。
+message,<user>,...I can't exactly throw someone I know is an assassin out of the<br>base.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -102,9 +102,9 @@ asyncseplay,setag1_4,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,アヤメ,ありがとうございます！<br>精一杯、働かせていただきますね。,104101000G,vc_10410100002_005_01,chara_1
+message,アヤメ,Thank you! I will work as hard as I can!<br> ,104101000G,vc_10410100002_005_01,chara_1
 
-message,<user>,重ねて言うが、<br>仕事内容は普通の事務員だからな。
+message,<user>,Let me say it again: the job is just a regular secretary.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -115,9 +115,9 @@ asyncseplay,setag1_5,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,アヤメ,となると、お仕事の内容は……,104101000G,vc_10410100002_006_01,chara_1
+message,アヤメ,Then，what would the work involve?<br> ,104101000G,vc_10410100002_006_01,chara_1
 
-message,<user>,部屋の掃除、書類の整理、<br>資材の管理や、雑用をやってもらう。
+message,<user>,You'll be cleaning the room，organizing documents，managing<br>supplies，and handling odd jobs.<br> 
 
 
 asynccharaface,chara_1,FaceSad,CONT,0
@@ -129,7 +129,7 @@ asyncseplay,setag1_6,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,アヤメ,どうしましょう。<br>少しも自信がありません……,104101000G,vc_10410100002_007_01,chara_1
+message,アヤメ,Oh dear. I do not have any confidence at all...<br> ,104101000G,vc_10410100002_007_01,chara_1
 
 
 window,off
@@ -154,7 +154,7 @@ transitionFade,Tra09,in,black,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――数時間後</size>,,,on
+messageTextCenter,,<size=48>—a few hours later</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -195,9 +195,9 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,アヤメ,司令官様、<br>書類の整理が終わりました。,104101000G,vc_10410100002_008_01,chara_1
+message,アヤメ,Lord Commander，I have finished organizing the documents.<br> ,104101000G,vc_10410100002_008_01,chara_1
 
-message,<user>,ほう。不安そうだったがなかなか早いな。<br>……ふむ、問題はなさそうだが。
+message,<user>,Hmm. You seemed worried，but you're pretty fast. ...Hmm，looks like no<br>issues.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -209,16 +209,16 @@ asyncseplay,setag1_8,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,アヤメ,それから、こちらも確認していただけますか？,104101000G,vc_10410100002_009_01,chara_1
+message,アヤメ,And could you check this as well?<br> ,104101000G,vc_10410100002_009_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
 
-message,アヤメ,ほとんどは私が見ても構わない書類でしたが、<br>機密情報がまぎれていたので、別にまとめました。,104101000G,vc_10410100002_010_01,chara_1
+message,アヤメ,Most were documents I was allowed to see，but since I found some<br>classified information mixed in，I separated them.<br> ,104101000G,vc_10410100002_010_01,chara_1
 
-message,<user>,……内容に機密事項がふくまれている、か。<br>こちらのミスだ。よく気づいたな。
+message,<user>,Contains classified info，huh. That one's on me. Good eye.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -229,9 +229,9 @@ asyncseplay,setag1_9,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,アヤメ,重要書類には特有の雰囲気がありますので。<br>見つけるのには慣れています。,104101000G,vc_10410100002_011_01,chara_1
+message,アヤメ,Important documents have a distinctive feel to them. I'm used to<br>identifying them.<br> ,104101000G,vc_10410100002_011_01,chara_1
 
-message,<user>,どういう経緯で慣れたんだろうな。 <br>まぁ、書類整理は文句なしか。
+message,<user>,How'd you get used to that，I wonder? Well，no complaints about the<br>filing.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -242,11 +242,11 @@ asyncseplay,setag1_10,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,アヤメ,お褒めいただけてうれしいです。<br>前職の経験が役に立って、ほっとしています。,104101000G,vc_10410100002_012_01,chara_1
+message,アヤメ,I'm honored by your praise. I'm relieved my previous experience is<br>proving useful.<br> ,104101000G,vc_10410100002_012_01,chara_1
 
-message,<user>,あー、詳しくは聞かないが、<br>ともかく期待できそうだ。
+message,<user>,Ah，I won't pry. But you seem promising.<br> 
 
-message,<user>,明日からしばらく、俺の補佐をしろ。<br>問題がなければ正式採用だ。
+message,<user>,Starting tomorrow，assist me. If no problems，you're officially hired.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -257,7 +257,7 @@ asyncseplay,setag1_11,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,アヤメ,ありがとうございます！,104101000G,vc_10410100002_013_01,chara_1
+message,アヤメ,Thank you very much，Commander!<br> ,104101000G,vc_10410100002_013_01,chara_1
 
 
 window,off
@@ -282,7 +282,7 @@ fade,In,Black,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――数日後</size>,,,on
+messageTextCenter,,<size=48>—a few days later</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -302,7 +302,7 @@ scale,BACK,,0,1,1,Set
 fade,In,Black,1
 
 window,on,0.15
-message,<user>,アヤメ、仕事だ。この書類の清書を頼む。<br>急がなくていいが、確実にな。
+message,<user>,Ayame，got work for you. I need a clean copy of this document. No<br>rush，but make sure it's accurate.<br> 
 
 window,off
 wait,0.15
@@ -333,7 +333,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,アヤメ,承りました。,104101000G,vc_10410100002_014_01,chara_1
+message,アヤメ,Understood，Commander.<br> ,104101000G,vc_10410100002_014_01,chara_1
 
 
 
@@ -411,9 +411,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,アヤメ,――はい、終わりました。,104101000G,vc_10410100002_015_01,chara_1
+message,アヤメ,Yes，I'm finished，Commander.<br> ,104101000G,vc_10410100002_015_01,chara_1
 
-message,<user>,もう終わったのか！？<br>これは……早い上に、達筆だな。
+message,<user>,Already done! This is...fast and beautiful handwriting.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -424,9 +424,9 @@ asyncseplay,setag1_14,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,アヤメ,ええ、書類の偽造は日常でしたから。<br>それに、書道にも親しんでおりますので。,104101000G,vc_10410100002_016_01,chara_1
+message,アヤメ,Yes，forging documents was a daily task，Commander. I'm also<br>well-versed in calligraphy.<br> ,104101000G,vc_10410100002_016_01,chara_1
 
-message,<user>,日常的に偽造をするな。<br>ともかく助かった、いい仕事だ。
+message,<user>,Don't make forgery a daily habit. Anyway，that helped. Good work.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -437,7 +437,7 @@ asyncseplay,setag1_15,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,アヤメ,はい、ありがとうございます。,104101000G,vc_10410100002_017_01,chara_1
+message,アヤメ,Yes，thank you，Commander.<br> ,104101000G,vc_10410100002_017_01,chara_1
 
 
 window,off
@@ -462,7 +462,7 @@ fade,In,Black,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――数日後</size>,,,on
+messageTextCenter,,<size=48>—a few days later</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -482,7 +482,7 @@ scale,BACK,,0,1,1,Set
 fade,In,Black,1
 
 window,on,0.15
-message,<user>,アヤメ、仕事だ。<br>俺の礼服の洗濯をしておけ。
+message,<user>,Ayame，a job. Wash my dress uniform.<br> 
 
 window,off
 wait,0.15
@@ -514,9 +514,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,アヤメ,礼服ですね、承りました。,104101000G,vc_10410100002_018_01,chara_1
+message,アヤメ,Your dress uniform，understood，Commander.<br> ,104101000G,vc_10410100002_018_01,chara_1
 
-message,<user>,面倒だが、お偉いさんの視察があってな。<br>任せたぞ。
+message,<user>,It's a pain，but some bigwig's coming for an inspection. I'm counting<br>on you.<br> 
 
 
 window,off
@@ -565,9 +565,9 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,アヤメ,司令官様、お洗濯、終わりました。,104101000G,vc_10410100002_019_01,chara_1
+message,アヤメ,Lord Commander，I've finished the laundry.<br> ,104101000G,vc_10410100002_019_01,chara_1
 
-message,<user>,ご苦労。<br>問題なく終わったか？
+message,<user>,Good work. No problems?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -578,9 +578,9 @@ asyncseplay,setag1_18,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,アヤメ,はい。ただ、肩周りのサイズにズレがありましたので、<br>私のほうで調整いたしました。,104101000G,vc_10410100002_020_01,chara_1
+message,アヤメ,Yes. The shoulder measurements were slightly off，so I adjusted them.<br> ,104101000G,vc_10410100002_020_01,chara_1
 
-message,<user>,少し大きいとは思っていたが。<br>よく見ているな、アヤメ。
+message,<user>,I did think it was a bit large. You're quite observant，Ayame.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -591,9 +591,9 @@ asyncseplay,setag1_19,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,アヤメ,ふふ、司令官様のことですから。,104101000G,vc_10410100002_021_01,chara_1
+message,アヤメ,Fufu，because it is for you，Commander.<br> ,104101000G,vc_10410100002_021_01,chara_1
 
-message,<user>,……というか、縫い物もできるのか。
+message,<user>,...Wait，you can sew too?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -604,9 +604,9 @@ asyncseplay,setag1_20,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,アヤメ,潜入のための衣服の調達や、<br>サイズの調整をするのは日常でしたので。,104101000G,vc_10410100002_022_01,chara_1
+message,アヤメ,It was routine for me to procure and adjust clothing for<br>infiltrations.<br> ,104101000G,vc_10410100002_022_01,chara_1
 
-message,<user>,当たり前のように窃盗行為を自白するな。<br>今後は必要な装備があれば申請してくれ。
+message,<user>,Don't confess to theft so casually. If you need equipment in the<br>future，put in a request.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -617,9 +617,9 @@ asyncseplay,setag1_21,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,アヤメ,用意していただけるんですか？<br>とても助かります、ありがとうございます。,104101000G,vc_10410100002_023_01,chara_1
+message,アヤメ,You will provide them? That is very helpful. Thank you.<br> ,104101000G,vc_10410100002_023_01,chara_1
 
-message,<user>,司令官として当然だ、そんなことで喜ぶな。
+message,<user>,It's only natural as the Commander. Don't make such a big deal out<br>of it.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -630,9 +630,9 @@ asyncseplay,setag1_22,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,アヤメ,他にお仕事はありませんか？<br>司令官様のご命令でしたら、なんでもいたしますよ？,104101000G,vc_10410100002_024_01,chara_1
+message,アヤメ,Are there any other tasks? I will do anything you command，Commander.<br> ,104101000G,vc_10410100002_024_01,chara_1
 
-message,<user>,そうだな……。<br>この際だ、肩たたきでも頼むか。
+message,<user>,Maybe I should ask for a shoulder rub.<br> 
 
 window,off
 wait,0.15
@@ -667,9 +667,9 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,アヤメ,はい、承りました。<br>とんとん、とんとん、ぎゅー、ぎゅー。,104101000G,vc_10410100002_025_01,chara_1
+message,アヤメ,Yes，right away. Pat，pat，squeeze，squeeze.<br> ,104101000G,vc_10410100002_025_01,chara_1
 
-message,<user>,ほう、なかなかいい感じだ。<br>経験があるのか？
+message,<user>,Hmm，that feels pretty good. Do you have experience with this?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -680,9 +680,9 @@ asyncseplay,setag1_24,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,アヤメ,職業柄、人の体の構造はよく分かっていますから。,104101000G,vc_10410100002_026_01,chara_1
+message,アヤメ,I know the human body well due to my profession.<br> ,104101000G,vc_10410100002_026_01,chara_1
 
-message,<user>,だから事務員はそういう職業柄じゃないからな？
+message,<user>,But a secretary isn't that kind of profession，you know.<br> 
 
 
 window,off
@@ -710,7 +710,7 @@ bgmplay,bgmtag1_3,bgm0035,0.75,1
 transitionFade,Tra07,in,black,1
 
 window,on,0.15
-message,<user>,……しかし正しい事務員をしていなかったわりに、<br>アヤメはなんでもできるな。
+message,<user>,...Still，even though you haven't been a proper secretary，you're<br>capable of just about anything，Ayame.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -721,11 +721,11 @@ asyncseplay,setag1_25,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,アヤメ,長らく１人で生きていましたので、<br>大抵のことはできるつもりです。,104101000G,vc_10410100002_027_01,chara_1
+message,アヤメ,I have lived on my own for quite some time，so I can handle most<br>things.<br> ,104101000G,vc_10410100002_027_01,chara_1
 
-message,<user>,ほとんどは暗殺者としての経験が理由だと思うが……
+message,<user>,I imagine most of that is thanks to your experience as an<br>assassin，though...<br> 
 
-message,<user>,ともかく、事務員としての仕事に文句はない。<br>そろそろ正式採用でもいいな。
+message,<user>,Anyway，I have no complaints about your work as a secretary. It's<br>about time I officially hire you.<br> 
 
 
 window,off
@@ -753,9 +753,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,アヤメ,あの……これだけでよろしいんですか？,104101000G,vc_10410100002_028_01,chara_1
+message,アヤメ,Um... is this all? Are you sure?<br> ,104101000G,vc_10410100002_028_01,chara_1
 
-message,<user>,大抵の雑用は頼んだつもりだが、<br>何か確認不足があるか？
+message,<user>,I think I've asked you to handle most of the chores，but is there<br>anything I've missed?<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -764,9 +764,9 @@ asyncseplay,setag1_28,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,アヤメ,本当に、誰も殺さなくていいのでしょうか？,104101000G,vc_10410100002_029_01,chara_1
+message,アヤメ,Are you certain we do not need to kill anyone?<br> ,104101000G,vc_10410100002_029_01,chara_1
 
-message,<user>,必要ない。<br>こちらの求めている事務員は、殺しなどしない。
+message,<user>,No need. The secretary we're after doesn't kill people.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -777,9 +777,9 @@ asyncseplay,setag1_29,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,アヤメ,ですが、できるのであれば、<br>殺したほうがいいのでは……,104101000G,vc_10410100002_030_01,chara_1
+message,アヤメ,But if we can，would it not be better to kill him...?<br> ,104101000G,vc_10410100002_030_01,chara_1
 
-message,<user>,この基地で、<br>誰を殺す必要があるというんだ。
+message,<user>,Why would we need to kill anyone at this base?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -790,9 +790,9 @@ asyncseplay,setag1_30,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,アヤメ,例えば、売店の店員さんとか、どうでしょう？<br>司令官様、殺したくありませんか？,104101000G,vc_10410100002_031_01,chara_1
+message,アヤメ,For example，what about the shop clerk? Commander，do you not want to<br>kill him?<br> ,104101000G,vc_10410100002_031_01,chara_1
 
-message,<user>,なんで俺が店員を殺さなきゃならない！？
+message,<user>,Why would I have to kill the shop clerk?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -804,9 +804,9 @@ asyncseplay,setag1_31,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,アヤメ,以前、営業終了直前に来店した司令官様を、<br>閉店済みだと言い張って追い出したんですよね？,104101000G,vc_10410100002_032_01,chara_1
+message,アヤメ,Earlier，when you visited right before closing，he insisted it was<br>closed and turned you away，did he not?<br> ,104101000G,vc_10410100002_032_01,chara_1
 
-message,<user>,……言われてみればそんなこともあったが、<br>どうしてアヤメが知っている？
+message,<user>,...Now that you mention it，that did happen，but how do you know about<br>it，Ayame?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -817,7 +817,7 @@ asyncseplay,setag1_32,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,アヤメ,司令官様のご指示で、基地の中を歩き回りましたから。<br>いろんなお話が聞けました。,104101000G,vc_10410100002_033_01,chara_1
+message,アヤメ,Because I walked around the base as you instructed，Commander. I<br>heard all kinds of stories.<br> ,104101000G,vc_10410100002_033_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -828,7 +828,7 @@ asyncseplay,setag1_33,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,アヤメ,他にも司令官様の挨拶を無視した兵士さん、<br>近くの街で肩がぶつかり、舌打ちをした男性とか……,104101000G,vc_10410100002_034_01,chara_1
+message,アヤメ,There is also the soldier who ignored your greeting，and that man in<br>the nearby town who clicked his tongue when his shoulder bumped yours.<br> ,104101000G,vc_10410100002_034_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -839,9 +839,9 @@ asyncseplay,setag1_34,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,アヤメ,こういった不愉快な要素を排除することができますよ？<br>私にお仕事として任せていただけませんか？,104101000G,vc_10410100002_035_01,chara_1
+message,アヤメ,We can eliminate these unpleasant elements，you know? Will you not<br>entrust it to me as a task?<br> ,104101000G,vc_10410100002_035_01,chara_1
 
-message,<user>,その程度のイライラで殺していたら<br>この場所は無人になるわ！
+message,<user>,If we killed people over every little annoyance，this place would be<br>empty!<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -852,7 +852,7 @@ asyncseplay,setag1_35,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,アヤメ,そうおっしゃらずに、<br>もっと軽い気持ちで殺しましょう？,104101000G,vc_10410100002_036_01,chara_1
+message,アヤメ,Do not say that. Let us kill with a lighter heart，shall we?<br> ,104101000G,vc_10410100002_036_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -863,7 +863,7 @@ asyncseplay,setag1_36,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,アヤメ,殺してしまえば、<br>２度と司令官様をイライラさせることはないんです。,104101000G,vc_10410100002_037_01,chara_1
+message,アヤメ,Once they are dead，they will never anger you again，Commander.<br> ,104101000G,vc_10410100002_037_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -874,9 +874,9 @@ asyncseplay,setag1_37,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,アヤメ,もうあの顔を見なくていいと思えば、<br>司令官様も穏やかな気持ちで眠れますよね？,104101000G,vc_10410100002_038_01,chara_1
+message,アヤメ,If you think you will not have to see that face again，you can sleep<br>peacefully，right，Commander?<br> ,104101000G,vc_10410100002_038_01,chara_1
 
-message,<user>,安眠のために人を殺すな！<br>ここはそこまで殺伐とした基地じゃない！
+message,<user>,Don't kill people for a good night's sleep! This base isn't that<br>murderous.<br> 
 
 
 asynccharaface,chara_1,FaceSad,CONT,0
@@ -888,9 +888,9 @@ asyncseplay,setag1_38,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,アヤメ,では私は、誰も殺さないでいいんですか……？,104101000G,vc_10410100002_039_01,chara_1
+message,アヤメ,So then，is it okay if I do not kill anyone...?<br> ,104101000G,vc_10410100002_039_01,chara_1
 
-message,<user>,残念そうにするな。<br>これからもただの事務員として働けばいい。
+message,<user>,Don't look so disappointed. From now on，you just have to work as an<br>ordinary secretary.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -903,7 +903,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 bgmstop,bgmtag1_3,1.5,0
 
 
-message,アヤメ,ですが……では、そうです。<br>倉庫の兵士さんとか、殺しませんか？,104101000G,vc_10410100002_040_01,chara_1
+message,アヤメ,But... well then，how about this? Shall we kill the warehouse<br>soldier?<br> ,104101000G,vc_10410100002_040_01,chara_1
 
 
 
@@ -974,7 +974,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,アヤメ,倉庫の水漏れがあって、<br>臨時の部屋へ資材を移したんですよね？,104101000G,vc_10410100002_041_01,chara_1
+message,アヤメ,There was a water leak in the warehouse，so they moved the materials<br>to a temporary room，correct?<br> ,104101000G,vc_10410100002_041_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -985,7 +985,7 @@ asyncseplay,setag1_42,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,アヤメ,それを利用して、水漏れで破損したと嘘をつき、<br>担当者が資材を横領している……でしょう？,104101000G,vc_10410100002_042_01,chara_1
+message,アヤメ,Taking advantage of that，the person in charge lied that the<br>materials were damaged in the leak and is embezzling them... isn't that right?<br> ,104101000G,vc_10410100002_042_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -998,7 +998,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 message,アヤメ,殺すべきではありませんか？,104101000G,vc_10410100002_043_01,chara_1
 
-message,<user>,…………
+message,<user>,...<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1009,7 +1009,7 @@ asyncseplay,setag1_44,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,アヤメ,今夜お会いしようと約束しておきましたので、<br>誰にも見られずに処分できますよ？,104101000G,vc_10410100002_044_01,chara_1
+message,アヤメ,I've already arranged to meet with him tonight，so I can dispose of<br>him without being seen.<br> ,104101000G,vc_10410100002_044_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1020,13 +1020,13 @@ asyncseplay,setag1_45,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,アヤメ,うふふ、とってもゆるんだお顔でしたので、<br>きっと誰にも言わず、１人でいらっしゃいます。,104101000G,vc_10410100002_045_01,chara_1
+message,アヤメ,Ufufu，he had such a relaxed look on his face，so I'm sure he'll come<br>alone without telling anyone.<br> ,104101000G,vc_10410100002_045_01,chara_1
 
-message,<user>,……ああ、アヤメの有能さはよく分かった。<br>事務員としても、殺しのほうもな。
+message,<user>,...Ah，Ayame，I've seen firsthand how capable you are. Both as a<br>secretary and as an assassin.<br> 
 
-message,<user>,分かった、仕事を依頼しよう<br>本番の、だ。
+message,<user>,Alright，I'm giving you a job. The real deal.<br> 
 
-message,<user>,準備をしておけ。いいな？
+message,<user>,Get ready. Got it?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1037,7 +1037,7 @@ asyncseplay,setag1_46,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,アヤメ,はいっ！<br>任せてください、司令官様っ！,104101000G,vc_10410100002_046_01,chara_1
+message,アヤメ,Yes! Leave it to me，Lord Commander!<br> ,104101000G,vc_10410100002_046_01,chara_1
 
 window,off
 bgmstop,bgmtag1_4,0.5

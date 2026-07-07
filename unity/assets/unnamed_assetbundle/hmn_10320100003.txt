@@ -352,7 +352,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 message,少女,私のために、いつもがんばってくれてるんだもんっ！,401901000,vc_10320100003_011_01,chara_2
 
-message,<user>,『私のために』……？　どういうことだ。
+message,<user>,'For me'...? What do you mean?<br> 
 
 window,off
 wait,0.15
@@ -404,7 +404,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ダリア,そ、それは……,103201000G,vc_10320100003_012_01,chara_1
+message,ダリア,Th-that's...<br> ,103201000G,vc_10320100003_012_01,chara_1
 
 asyncshake,CHARA,chara_2,20,15,0.5,6,on,off,0,off,CONT,0
 
@@ -413,7 +413,7 @@ asyncseplay,setag1_15,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,少女,うぅうううっ……！<br>うえぇえ～～～んっ！！,401901000,vc_10320100003_013_01,chara_2
+message,少女,*sob*...<br>Waaaaah!<br> ,401901000,vc_10320100003_013_01,chara_2
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -422,9 +422,9 @@ asyncseplay,setag1_16,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ダリア,！！　あわわわわっ……,103201000G,vc_10320100003_014_01,chara_1
+message,ダリア,Oh! No，no，no...!<br> ,103201000G,vc_10320100003_014_01,chara_1
 
-message,<user>,おい、泣くな！<br>あ～～……まったく、なんなんだ……
+message,<user>,Hey，don't cry!<br>Ah... jeez，what's all this...<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -483,7 +483,7 @@ asynccharaemo,chara_2,Trouble,CONT,0
 
 
 window,on,0.15
-message,少女,ぐすん……ぐす、ぐす……,401901000,vc_10320100003_015_01,chara_2
+message,少女,Sniff... sniff，sniff...<br> ,401901000,vc_10320100003_015_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -494,7 +494,7 @@ asyncseplay,setag1_18,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ダリア,……落ち着いた？,103201000G,vc_10320100003_016_01,chara_1
+message,ダリア,...Are you calm now?<br> ,103201000G,vc_10320100003_016_01,chara_1
 
 asyncjump,CHARA,chara_2,-30.6,0.5,1,off,0,CONT
 
@@ -503,9 +503,9 @@ asyncseplay,setag1_19,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,少女,ぐす……うん。<br>ありがとう、おねえちゃん。,401901000,vc_10320100003_017_01,chara_2
+message,少女,Sniff... uh-huh.<br>Thank you，big sister.<br> ,401901000,vc_10320100003_017_01,chara_2
 
-message,<user>,はぁ。大変な目にあった。
+message,<user>,*sigh*. That was rough.<br> 
 
 window,off
 wait,0.15
@@ -544,7 +544,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,とりあえず、詳しい話は聞かせてもらった。<br>１度整理させてもらいたいんだが、いいか？
+message,<user>,Alright，I've heard the full story. Let me organize my thoughts，okay?<br> 
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -553,9 +553,9 @@ asyncseplay,setag1_20,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ダリア,はい……,103201000G,vc_10320100003_018_01,chara_1
+message,ダリア,Yes...<br> ,103201000G,vc_10320100003_018_01,chara_1
 
-message,<user>,では……まず、ダリアが元盗賊という噂だが。<br>これは本当のことで間違いない。そうだな？
+message,<user>,So... first off，the rumor about you being a former thief. That's<br>correct，isn't it?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -567,9 +567,9 @@ asyncseplay,setag1_21,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ダリア,……はい。<br>採掘家になる前は、盗賊団に入っていました。,103201000G,vc_10320100003_019_01,chara_1
+message,ダリア,...Yes. Before I became a miner，I was in a thieves' gang.<br> ,103201000G,vc_10320100003_019_01,chara_1
 
-message,<user>,うむ。ちょうどその頃に、お前はこいつと出会った。
+message,<user>,Mhm. And that's when you met her.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -580,7 +580,7 @@ asyncseplay,setag1_22,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ダリア,……そうです。<br>この子の家が、お金持ちだという情報が流れてきて……,103201000G,vc_10320100003_020_01,chara_1
+message,ダリア,...That's right. There was word that her family was wealthy...<br> ,103201000G,vc_10320100003_020_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -592,7 +592,7 @@ asyncseplay,setag1_23,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ダリア,仲間が潜入するきっかけを作るために、<br>私はこの子と知り合い、仲良くなったんです。,103201000G,vc_10320100003_021_01,chara_1
+message,ダリア,To give my gang an entry，I got close to her and became friends.<br> ,103201000G,vc_10320100003_021_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -603,7 +603,7 @@ asyncseplay,setag1_24,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ダリア,やさしい人間のフリをして……。<br>本当に、ひどいことを……,103201000G,vc_10320100003_022_01,chara_1
+message,ダリア,I acted like a nice person... I did something truly awful.<br> ,103201000G,vc_10320100003_022_01,chara_1
 
 window,off
 wait,0.15
@@ -655,7 +655,7 @@ asynccharaemo,chara_2,Exclamation,CONT,0
 
 
 window,on,0.15
-message,少女,ちがうよ！<br>おねえちゃんは『そうしろ』って言われてただけでしょ？,401901000,vc_10320100003_023_01,chara_2
+message,少女,That's not true! Big sister was just following orders，right?<br> ,401901000,vc_10320100003_023_01,chara_2
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -666,13 +666,13 @@ asyncseplay,setag1_26,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,少女,おねえちゃんはやさしくしてくれたよ！<br>悪いことなんかしてない！,401901000,vc_10320100003_024_01,chara_2
+message,少女,Big sister was nice to me! She didn't do anything bad!<br> ,401901000,vc_10320100003_024_01,chara_2
 
-message,<user>,ああ。話を聞くかぎり、俺も同意見だな。
+message,<user>,Yeah. Based on the story，I think so too.<br> 
 
-message,<user>,当時のダリアの立場は弱かったんだろ？<br>だから盗賊団の奴らに命令されるまま、強引に働かされていた。
+message,<user>,Back then，you were in a tough spot，weren't you? So the thieves made<br>you do all the dirty work.<br> 
 
-message,<user>,だが……そんな中で、思わぬ事件が起きた。
+message,<user>,But then，something unexpected happened.<br> 
 
 window,off
 wait,0.15
@@ -728,7 +728,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 
 window,on,0.15
-message,ダリア,っ……。……はい……,103201000G,vc_10320100003_025_01,chara_1
+message,ダリア,Ah... yes...<br> ,103201000G,vc_10320100003_025_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -739,7 +739,7 @@ asyncseplay,setag1_29,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ダリア,私が作った隙を狙って、<br>盗賊団の仲間が、家に忍び込みました。,103201000G,vc_10320100003_026_01,chara_1
+message,ダリア,They took advantage of the opening I made and broke into the house.<br> ,103201000G,vc_10320100003_026_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -750,7 +750,7 @@ asyncseplay,setag1_30,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ダリア,でも……計画が上手くいかずに、家主と鉢合わせてしまい……,103201000G,vc_10320100003_027_01,chara_1
+message,ダリア,But the plan went wrong，and they came face to face with the<br>homeowner...<br> ,103201000G,vc_10320100003_027_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -761,9 +761,9 @@ asyncseplay,setag1_31,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ダリア,それで……。<br>そのせいで……この子の親はっ……,103201000G,vc_10320100003_028_01,chara_1
+message,ダリア,And then... because of that... her parents...<br> ,103201000G,vc_10320100003_028_01,chara_1
 
-message,<user>,ふん……。気分の悪い話だ。
+message,<user>,Hmph... That's a sickening story.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -774,7 +774,7 @@ asyncseplay,setag1_32,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ダリア,その時……もう、嫌になったんです。<br>盗賊団のことも。何より、その一味だった自分のことも。,103201000G,vc_10320100003_029_01,chara_1
+message,ダリア,That's when I couldn't take it anymore. I hated the gang. And I<br>hated myself for being one of them.<br> ,103201000G,vc_10320100003_029_01,chara_1
 
 window,off
 wait,0.15
@@ -826,9 +826,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ダリア,だけど……謝る私に、この子は言ってくれました。<br>『おねえちゃんのせいじゃないよ』って。,103201000G,vc_10320100003_030_01,chara_1
+message,ダリア,But... when I apologized，she said to me，'It's not your fault，big<br>sister.'<br> ,103201000G,vc_10320100003_030_01,chara_1
 
-message,<user>,！
+message,<user>,...!<br> 
 
 asyncshake,CHARA,chara_1,20,15,0.5,6,on,off,0,off,CONT,0
 
@@ -837,7 +837,7 @@ asyncseplay,setag1_34,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ダリア,私のせいで、あんなひどい目にあったのに。<br>それでも私のことを許してくれた……,103201000G,vc_10320100003_031_01,chara_1
+message,ダリア,Even though she went through such a terrible thing because of me，she<br>still forgave me...<br> ,103201000G,vc_10320100003_031_01,chara_1
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -849,7 +849,7 @@ asyncseplay,setag1_35,se4800005,0,1,CONT,0
 asynccharaemo,chara_2,Flash,CONT,0
 
 
-message,少女,うん！　だってそうでしょ？,401901000,vc_10320100003_032_01,chara_2
+message,少女,Yeah! 'Cause it's the truth!<br> ,401901000,vc_10320100003_032_01,chara_2
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -860,7 +860,7 @@ asyncseplay,setag1_36,se4800003,0,1,CONT,0
 asynccharaemo,chara_2,Twinkle,CONT,0
 
 
-message,少女,盗賊は悪いひとたちだったけど、<br>おねえちゃんだけはいいひとだったもん！,401901000,vc_10320100003_033_01,chara_2
+message,少女,The thieves were all bad，but you were the only nice one，big sister!<br> ,401901000,vc_10320100003_033_01,chara_2
 
 asyncjump,CHARA,chara_2,-30.6,0.5,1,off,0,CONT
 
@@ -869,7 +869,7 @@ asyncseplay,setag1_37,se4800018,0,1,CONT,0
 asynccharaemo,chara_2,Flower,CONT,0
 
 
-message,少女,私のこと、助けてくれたから……！,401901000,vc_10320100003_034_01,chara_2
+message,少女,'Cause you saved me!<br> ,401901000,vc_10320100003_034_01,chara_2
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -881,7 +881,7 @@ asyncseplay,setag1_38,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ダリア,……ありがとう……,103201000G,vc_10320100003_035_01,chara_1
+message,ダリア,Thank you...<br> ,103201000G,vc_10320100003_035_01,chara_1
 
 window,off
 wait,0.15
@@ -921,9 +921,9 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,事情はよく分かった。<br>お前が鉱石を集めていたのも説明がつく。
+message,<user>,I understand now. That explains why you've been gathering ore.<br> 
 
-message,<user>,ここにある鉱石はすべて、この子に渡すものだったんだな。<br>この子の生活を助けるために。
+message,<user>,So all this ore was for her，to help support her.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -934,7 +934,7 @@ asyncseplay,setag1_39,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ダリア,はい……そうです。,103201000G,vc_10320100003_036_01,chara_1
+message,ダリア,Yes，Boss... that's right.<br> ,103201000G,vc_10320100003_036_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -942,7 +942,7 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,ダリア,お仕事をちゃんと済ませた後で、<br>自由時間の内に、少しずつ集めていました。,103201000G,vc_10320100003_037_01,chara_1
+message,ダリア,After finishing my regular work，I gathered it bit by bit in my free<br>time.<br> ,103201000G,vc_10320100003_037_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -953,9 +953,9 @@ asyncseplay,setag1_40,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ダリア,だから、盗んだりなんてしてません。<br>ちゃんと、探索隊の皆さんにも、許可は取ってましたし……,103201000G,vc_10320100003_038_01,chara_1
+message,ダリア,So I wasn't stealing. I had proper permission from the exploration<br>team.<br> ,103201000G,vc_10320100003_038_01,chara_1
 
-message,<user>,一応聞くが、どんな風にだ？
+message,<user>,Just to be clear，how exactly?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -967,9 +967,9 @@ asyncseplay,setag1_41,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ダリア,えっと……。ノルマが終わったあとで、<br>『ひとりで掘ってていいですか』、とか……,103201000G,vc_10320100003_039_01,chara_1
+message,ダリア,Um... After I finish the quota，I ask 'Can I go dig by myself?' and<br>stuff...<br> ,103201000G,vc_10320100003_039_01,chara_1
 
-message,<user>,……やっぱり言葉が足りないな。
+message,<user>,Thought so. You weren't specific enough.<br> 
 
 window,off
 wait,0.15
@@ -1022,7 +1022,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,少女,あははっ♪　おねえちゃん、おもしろ～い♪,401901000,vc_10320100003_040_01,chara_2
+message,少女,Ahaha!♪ You're so funny，Big Sis!♪<br> ,401901000,vc_10320100003_040_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1033,9 +1033,9 @@ asyncseplay,setag1_43,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ダリア,そう……？,103201000G,vc_10320100003_041_01,chara_1
+message,ダリア,Is that so...?<br> ,103201000G,vc_10320100003_041_01,chara_1
 
-message,<user>,はぁ。しかし、もっと早く話してくれていればな。<br>もっと他にやりようがあっただろうに。
+message,<user>,*sigh*... If you'd told me sooner，we could have figured out a better<br>solution.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1046,7 +1046,7 @@ asyncseplay,setag1_44,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ダリア,すみません、親方……。<br>でも、そうしたらこの子を助けられなくなるかも、と思って……,103201000G,vc_10320100003_042_01,chara_1
+message,ダリア,I'm sorry，Boss... But I thought if I did that，I might not be able to<br>help this girl...<br> ,103201000G,vc_10320100003_042_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1057,9 +1057,9 @@ asyncseplay,setag1_45,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ダリア,本当は、兵舎にこの子を入れるのも、良くないことだし……,103201000G,vc_10320100003_043_01,chara_1
+message,ダリア,And honestly，it wasn't right to let her into the barracks either...<br> ,103201000G,vc_10320100003_043_01,chara_1
 
-message,<user>,規則上はそうだな。<br>前線基地で働く者しか出入りはできない決まりだ。
+message,<user>,Technically，that's correct. The rule is that only personnel assigned<br>to the Frontline Base can come and go.<br> 
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -1070,13 +1070,13 @@ asyncseplay,setag1_46,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,少女,えー？　じゃあもう来ちゃダメなの？<br>そんなぁ……！,401901000,vc_10320100003_044_01,chara_2
+message,少女,What? So I can't come anymore? Aw，man...!<br> ,401901000,vc_10320100003_044_01,chara_2
 
 bgmstop,bgmtag1_2,1.5,0
 
-message,<user>,まぁ慌てるな。<br>たった今、良い案を思いついたところだ。
+message,<user>,Hey，don't worry. I just came up with a good idea.<br> 
 
-message,<user>,なぁ、お前。<br>ダリアと一緒に、ここで働くつもりはないか？
+message,<user>,Hey，kid. How would you like to work here alongside Daria?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1087,9 +1087,9 @@ asyncseplay,setag1_47,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ダリア,っ！,103201000G,vc_10320100003_045_01,chara_1
+message,ダリア,Ah!<br> ,103201000G,vc_10320100003_045_01,chara_1
 
-message,<user>,生活が苦しいんだろう？<br>ここで仕事をするなら、金もやるし、住む場所も貸してやる。
+message,<user>,You're struggling to get by，aren't you? If you work here，I'll pay<br>you and give you a place to live.<br> 
 
 bgmplay,bgmtag1_3,bgm0038,0.75,1
 
@@ -1102,9 +1102,9 @@ asyncseplay,setag1_48,se4800003,0,1,CONT,0
 asynccharaemo,chara_2,Twinkle,CONT,0
 
 
-message,少女,いいのっ！？,401901000,vc_10320100003_046_01,chara_2
+message,少女,Really!?<br> ,401901000,vc_10320100003_046_01,chara_2
 
-message,<user>,あぁ。だが、俺はダリアほど甘くないぞ。<br>しっかり働かないと、即座に追い出して――
+message,<user>,Yeah. But I'm not as soft as Daria. If you don't work hard，I'll kick<br>you out right away—<br> 
 
 window,off
 wait,0.15
@@ -1158,13 +1158,13 @@ asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
 
 
 window,on,0.15
-message,少女,ありがとうっ、おじさーんっ♪,401901000,vc_10320100003_047_01,chara_2
+message,少女,Thank you，old maaan!♪<br> ,401901000,vc_10320100003_047_01,chara_2
 
 
 asyncseplay,setag1_50,se4400119,0,1,CONT,0
 
 
-message,<user>,おいおい、抱き着くな！<br>その前に、そのおじさんというのをやめろ！
+message,<user>,Hey hey，don't hug me! And first of all，cut out the 'old man'!<br> 
 
 window,off
 wait,0.15
@@ -1216,12 +1216,12 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ダリア,お、親方。本当にいいの……？,103201000G,vc_10320100003_048_01,chara_1
+message,ダリア,B-Boss... Is it really okay...?<br> ,103201000G,vc_10320100003_048_01,chara_1
 
-message,<user>,あぁ。探索隊の仕事も、まだまだ忙しくなりそうだからな。<br>それに……
+message,<user>,Yeah. The exploration party is going to have even more work<br>soon，so... And besides...<br> 
 
 
-message,<user>,なぁ、お前たちもそう思わないか。
+message,<user>,Hey，don't you all agree?<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -1230,7 +1230,7 @@ asyncseplay,setag1_52,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ダリア,……？,103201000G,vc_10320100003_049_01,chara_1
+message,ダリア,...?<br> ,103201000G,vc_10320100003_049_01,chara_1
 
 
 window,off
@@ -1290,7 +1290,7 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,は、はいっ！,401001000,vc_10320100003_050_01,chara_3
+message,兵士Ａ,Y-yes!<br> ,401001000,vc_10320100003_050_01,chara_3
 
 asyncjump,CHARA,chara_4,30,0.25,1,off,0,CONT
 
@@ -1299,7 +1299,7 @@ asyncseplay,setag1_56,se4800010,0,1,CONT,0
 asynccharaemo,chara_4,Exclamation,CONT,0
 
 
-message,兵士Ｂ,いいと思います……！,401301000,vc_10320100003_051_01,chara_4
+message,兵士Ｂ,I think it's a good idea...!<br> ,401301000,vc_10320100003_051_01,chara_4
 
 window,off
 wait,0.15
@@ -1353,9 +1353,9 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ダリア,！　皆さん！？　なんで、ここに……,103201000G,vc_10320100003_052_01,chara_1
+message,ダリア,...! Everyone!? Why are you here...?<br> ,103201000G,vc_10320100003_052_01,chara_1
 
-message,<user>,噂の真相が気になって、盗み聞きしてたようだ。<br>どうだ、すっきりしたか？
+message,<user>,They were curious about the truth behind the rumors，so they were<br>eavesdropping. So? All cleared up now?<br> 
 
 window,off
 wait,0.15
@@ -1407,7 +1407,7 @@ asyncjump,CHARA,chara_3,-30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,兵士Ａ,はい……納得しました。,401001000,vc_10320100003_053_01,chara_3
+message,兵士Ａ,Yes... I understand now.<br> ,401001000,vc_10320100003_053_01,chara_3
 
 asynccharaface,chara_4,FaceHappy,CONT,0
 
@@ -1418,7 +1418,7 @@ asyncseplay,setag1_58,se4800004,0,1,CONT,0
 asynccharaemo,chara_4,Laugh,CONT,0
 
 
-message,兵士Ｂ,私たちにできることがあったら、いつでも言ってね！,401301000,vc_10320100003_054_01,chara_4
+message,兵士Ｂ,If there's anything we can do，just let us know!<br> ,401301000,vc_10320100003_054_01,chara_4
 
 window,off
 wait,0.15
@@ -1464,9 +1464,9 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ダリア,……あ、はい……,103201000G,vc_10320100003_055_01,chara_1
+message,ダリア,...Ah，yes...<br> ,103201000G,vc_10320100003_055_01,chara_1
 
-message,<user>,これですべて、丸く収まったな。
+message,<user>,Well，everything's worked out nicely.<br> 
 
 window,off
 wait,0.15
@@ -1521,7 +1521,7 @@ transitionCrossFade,Tra01,1
 wait,1
 
 window,on,0.15
-message,<user>,では決定だ！<br>お前たち。こいつを案内してやれ。
+message,<user>,Then it's settled! You two，show her around.<br> 
 
 asyncjump,CHARA,chara_3,30,0.25,1,off,0,CONT
 
@@ -1530,7 +1530,7 @@ asyncseplay,setag1_60,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,兵士Ａ,はい！　それじゃあ行こうか？,401001000,vc_10320100003_056_01,chara_3
+message,兵士Ａ,Yes! So，shall we go?<br> ,401001000,vc_10320100003_056_01,chara_3
 
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
@@ -1539,7 +1539,7 @@ asyncseplay,setag1_61,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,少女,うんっ！<br>おじさん、ばいばーい！,401901000,vc_10320100003_057_01,chara_2
+message,少女,Yeah! Bye-bye，old man!<br> ,401901000,vc_10320100003_057_01,chara_2
 
 
 
@@ -1604,7 +1604,7 @@ transitionFade,Tra05,in,black,1
 wait,0.5
 
 window,on,0.15
-message,<user>,ふう……あぁ、いろいろ疲れた。
+message,<user>,*sigh*... Ah，that was a lot of hassle.<br> 
 
 window,off
 wait,0.15
@@ -1635,17 +1635,17 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 
 window,on,0.15
-message,ダリア,……あの、親方……。<br>迷惑かけちゃって、ごめんなさい……,103201000G,vc_10320100003_058_01,chara_1
+message,ダリア,...Um，Boss... I'm sorry for causing you so much trouble.<br> ,103201000G,vc_10320100003_058_01,chara_1
 
-message,<user>,ふん。まったくだ。<br>俺に面倒をかけた分は、仕事で返してもらうぞ。
+message,<user>,Hmph. You've got that right. You'll repay me for the trouble with<br>your work.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
-message,<user>,……ともあれダリア。<br>今までの採掘、大変だったろう。
+message,<user>,...Anyway，Daria. Your mining work up to now must have been tough.<br> 
 
-message,<user>,少しずつ貯めたとはいえ、よくこれだけの鉱石を集めた。<br>やはりお前は素晴らしい採掘家だ。
+message,<user>,Even though you saved up little by little，you managed to gather this<br>much ore. As I thought，you're an excellent miner.<br> 
 
-message,<user>,これからも、懸命にノルマをこなすがいいさ。<br>……無理をしすぎない程度にな。
+message,<user>,From now on，just focus on meeting your quotas. ...But don't overdo<br>it.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1664,7 +1664,7 @@ asyncseplay,setag1_67,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ダリア,……はい。<br>ありがとうございます、親方……♪,103201000G,vc_10320100003_059_01,chara_1
+message,ダリア,...Yes. Thank you，Boss.♪<br> ,103201000G,vc_10320100003_059_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1675,9 +1675,9 @@ asyncseplay,setag1_68,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ダリア,……でも、あの……。<br>もしよければなんですが……,103201000G,vc_10320100003_060_01,chara_1
+message,ダリア,...But，um... If it's all right with you...<br> ,103201000G,vc_10320100003_060_01,chara_1
 
-message,<user>,ん、どうした？
+message,<user>,Hm? What is it?<br> 
 
 
 window,off
@@ -1714,9 +1714,9 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,ダリア,もっと、いっぱい、掘ってもいいですか……？,103201000G,vc_10320100003_061_01,chara_1
+message,ダリア,Can I dig... a lot more...?<br> ,103201000G,vc_10320100003_061_01,chara_1
 
-message,<user>,……は？
+message,<user>,...Huh?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1727,7 +1727,7 @@ asyncseplay,setag1_71,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ダリア,宝石が大好き、って言ったの……本当なんです。<br>私、なんだか、色々と欲が強いみたいで……,103201000G,vc_10320100003_062_01,chara_1
+message,ダリア,What I said about loving gems... is true.<br>I guess I'm kind of greedy about a lot of things...<br> ,103201000G,vc_10320100003_062_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1738,9 +1738,9 @@ asyncseplay,setag1_72,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ダリア,宝石をいっぱい掘れると、すごくうれしくって。<br>あの子のためでもあったんですけど、それだけじゃなくって……,103201000G,vc_10320100003_063_01,chara_1
+message,ダリア,When I dig up lots of gems，I'm so happy.<br>It was for that girl too，but it's not just that...<br> ,103201000G,vc_10320100003_063_01,chara_1
 
-message,<user>,な、なるほど。そうなのか。
+message,<user>,I-I see. Is that so?<br> 
 
 asyncjump,CHARA,chara_1,40,0.5,2,off,0,CONT
 
@@ -1749,7 +1749,7 @@ asyncseplay,setag1_73,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ダリア,はい……。今まではむしろ、抑えてたくらいなんです。<br>できるなら、もっともっと、いっぱい掘りだしたいんです……,103201000G,vc_10320100003_064_01,chara_1
+message,ダリア,Yes... Actually，I've been holding back until now.<br>If I could，I'd dig even more...<br> ,103201000G,vc_10320100003_064_01,chara_1
 
 
 window,off
@@ -1779,7 +1779,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,……おい、待て。なぜ近づいてくる？
+message,<user>,...Hey，wait. Why are you coming closer?<br> 
 
 asyncjump,CHARA,chara_1,-30,0.5,2,off,0,CONT
 
@@ -1788,7 +1788,7 @@ asyncseplay,setag1_75,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ダリア,お願いします、親方……。<br>親方への恩返しにもなると思うし……,103201000G,vc_10320100003_065_01,chara_1
+message,ダリア,Please，Boss...<br>I think it would be a way to repay you too...<br> ,103201000G,vc_10320100003_065_01,chara_1
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -1797,7 +1797,7 @@ asyncseplay,setag1_76,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ダリア,この仕事は、私の人生を変えてくれました……。<br>きっと私にとっては天職なんです……,103201000G,vc_10320100003_066_01,chara_1
+message,ダリア,This job changed my life...<br>I'm sure it's my calling...<br> ,103201000G,vc_10320100003_066_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1808,16 +1808,16 @@ asyncseplay,setag1_77,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ダリア,私、宝石のためなら……なんだってしますから……,103201000G,vc_10320100003_067_01,chara_1
+message,ダリア,For gems... I'll do anything...<br> ,103201000G,vc_10320100003_067_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,ダリア,隊のために、親方のために……やらせてください……,103201000G,vc_10320100003_068_01,chara_1
+message,ダリア,For the team，for you，Boss...<br>please let me do it...<br> ,103201000G,vc_10320100003_068_01,chara_1
 
-message,<user>,……わ、分かった！　分かった！！<br>いいだろう。これからは、お前の好きにするといい。
+message,<user>,...O-Okay! Okay!<br>Fine. From now on，do as you like.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1828,7 +1828,7 @@ asyncseplay,setag1_78,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ダリア,……っ♡<br>ありがとうございます、親方……♪,103201000G,vc_10320100003_069_01,chara_1
+message,ダリア,Thank you so much，Boss!♡♪<br> ,103201000G,vc_10320100003_069_01,chara_1
 
 
 asyncseplay,setag1_79,se4400119,0,1,CONT,0
@@ -1840,7 +1840,7 @@ shake,CHARA,chara_2,40,0,0.25,20,off,off,0
 shake,CHARA,chara_3,40,0,0.25,20,off,off,0
 shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 
-message,<user>,お、おい、やめろ！<br>なんでお前まで抱きついてくるんだ！
+message,<user>,H-Hey，stop it!<br>Why are you hugging me too!<br> 
 
 window,off
 bgmstop,bgmtag1_4,0.5

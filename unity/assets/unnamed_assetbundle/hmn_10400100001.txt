@@ -38,14 +38,14 @@ bgmplay,bgmtag1_1,bgm0027,0.75,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――大穴内部　探索済み地域</size>,,,on
+messageTextCenter,,<size=48>—Inside the Abyss，explored area</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
 
 
 window,on,0.15
-message,,予備部隊による調査任務中。
+message,,A recon mission by the reserve unit is underway.<br> 
 
 window,off
 wait,0.15
@@ -72,7 +72,7 @@ shake,CHARA,chara_4,20,0,0.25,30,off,off,0
 shake,CHARA,chara_5,20,0,0.25,30,off,off,0
 
 window,on,0.15
-message,モンスター,グォォォォォッ！,402001000
+message,モンスター,GROOOOAR!<br> ,402001000
 
 cleanall,EFFECT
 
@@ -86,9 +86,9 @@ linework,off,Black,Middle
 bgmplay,bgmtag1_2,bgm0028,0.75,1
 
 window,on,0.15
-message,<user>,――っ！？　何事だっ！
+message,<user>,...! What's going on!<br> 
 
-message,兵士A,奇襲です！<br>後方の部隊がモンスターの攻撃を受けました！,900000001
+message,兵士A,Ambush!<br>The rear unit is under attack!<br> ,900000001
 
 
 window,off
@@ -154,7 +154,7 @@ asyncseplay,setag1_9,se4900067,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,<user>,クソッ！　すでに乱戦状態か！
+message,<user>,Damn! It's already a chaotic fight!<br> 
 
 window,off
 wait,0.15
@@ -203,7 +203,7 @@ asynccharaemo,chara_2,Anger,CONT,0
 
 
 window,on,0.15
-message,モンスター,ガァァァァァァアッ！！！,402001000,,chara_2
+message,モンスター,GAAAAAAAAAH!<br> ,402001000,,chara_2
 
 window,off
 wait,0.15
@@ -258,7 +258,7 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 
 window,on,0.15
-message,兵士B,誰かこいつをなんとかしてっ！<br>きゃあああぁっ！,401301000,vc_10400100001_001_01,chara_3
+message,兵士B,Someone handle this!<br>Kyaaaaa!<br> ,401301000,vc_10400100001_001_01,chara_3
 
 window,off
 wait,0.15
@@ -282,7 +282,7 @@ emodelete,chara_3,0,0
 fade,In,Black,0
 
 window,on,0.15
-message,？？？,まっかせて！,900000001,vc_10400100001_002_01,on
+message,？？？,Leave it to me!<br> ,900000001,vc_10400100001_002_01,on
 
 window,off
 wait,0.15
@@ -362,7 +362,7 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,モンスター,グォォォッ！？,402001000,,chara_2
+message,モンスター,Groor!<br> ,402001000,,chara_2
 
 window,off
 wait,0.15
@@ -376,7 +376,7 @@ asynccharamove,chara_2,EaseOut,X,-100,0.2,CONT,0
 emodelete,chara_2,0,0
 
 window,on,0.15
-message,,モンスターの懐へ１人の少女が飛び込む。<br>直後振るわれた小さな拳に、モンスターが大きく吹き飛んだ。
+message,,A girl dove into the monster's guard. The next instant，a small fist<br>sent it flying.<br> 
 
 window,off
 wait,0.15
@@ -419,7 +419,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,？？？,次っ！,104001000G,vc_10400100001_003_01,chara_1
+message,？？？,Next!<br> ,104001000G,vc_10400100001_003_01,chara_1
 
 window,off
 wait,0.15
@@ -532,7 +532,7 @@ asynccharaemo,chara_4,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,モンスター,ゴァァァ……,402001000,,chara_2/chara_5/chara_4
+message,モンスター,Groaaa...<br> ,402001000,,chara_2/chara_5/chara_4
 
 window,off
 wait,0.15
@@ -612,7 +612,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,？？？,こっちもっ！,104001000G,vc_10400100001_004_01,chara_1
+message,？？？,This one too!<br> ,104001000G,vc_10400100001_004_01,chara_1
 
 window,off
 wait,0.15
@@ -693,7 +693,7 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,モンスター,ガァッ！？,402001000,,chara_2
+message,モンスター,Gah!<br> ,402001000,,chara_2
 
 window,off
 wait,0.15
@@ -852,11 +852,11 @@ asynccharamove,chara_1,EaseOut,X,100,0.3,CONT,0
 asyncwait
 
 window,on,0.15
-message,,敵を打ち倒した次の瞬間には別の敵に飛び込んでいる少女。<br>モンスターは反応すらできずに沈んでいく。
+message,,She knocked down one foe and dove at the next in the same breath.<br>The monsters fell before they could react.<br> 
 
-message,兵士A,すごい……！　あの子は！？,900000001
+message,兵士A,Amazing! Who is that girl?<br> ,900000001
 
-message,<user>,ルカか！<br>やっぱりすごいな、あいつは。
+message,<user>,Luca! As expected，she's incredible.<br> 
 
 window,off
 wait,0.15
@@ -901,7 +901,7 @@ asynccharaemo,chara_2,Anger,CONT,0
 
 
 window,on,0.15
-message,モンスター,ゴォォアァァァ！,402001000,,chara_2
+message,モンスター,GOOOOAAAAR!<br> ,402001000,,chara_2
 
 window,off
 wait,0.15
@@ -955,7 +955,7 @@ asynccharamove,chara_2,EaseOut,X,100,0.3,CONT,0
 asyncwait
 
 window,on,0.15
-message,,残された巨大なモンスターがルカへと襲いかかる。<br>ルカは臆することなく懐へ入り込み、強く拳を握る。
+message,,The last giant monster lunged at Luca. Without flinching，she stepped<br>into its guard and clenched her fist.<br> 
 
 window,off
 wait,0.15
@@ -986,7 +986,7 @@ asyncwait
 
 
 window,on,0.15
-message,ルカ,これで、終わりっ！,104001000G,vc_10400100001_005_01,chara_1
+message,ルカ,And that's the end!<br> ,104001000G,vc_10400100001_005_01,chara_1
 
 window,off
 wait,0.15
@@ -1055,7 +1055,7 @@ wait,1
 cleanall,EFFECT
 
 window,on,0.15
-message,,ルカの拳が強烈な電撃をまとい、周囲へ雷光を撒き散らす。<br>全身に力を溜め、飛び上がって放たれた強烈な１撃がモンスターを貫いた。
+message,,Luca's electrified fist crackled，scattering lightning. She leaped<br>and pierced the monster with a devastating blow.<br> 
 
 window,off
 wait,0.15
@@ -1070,7 +1070,7 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,モンスター,ゴゥゥ……,402001000,,chara_2
+message,モンスター,*Grrrooo...*<br> ,402001000,,chara_2
 
 window,off
 wait,0.15
@@ -1134,7 +1134,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ルカ,ふう……これで終わりかな。<br>みんな、大丈夫だったー？,104001000G,vc_10400100001_006_01,chara_1
+message,ルカ,*phew*... I guess that's that. Is everyone okay?<br> ,104001000G,vc_10400100001_006_01,chara_1
 
 window,off
 wait,0.15
@@ -1195,7 +1195,7 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 
 window,on,0.15
-message,兵士B,え、ええ。ありがとうルカちゃん。<br>怪我はない？,401301000,vc_10400100001_007_01,chara_3
+message,兵士B,Y-Yes. Thank you，Luca. Are you hurt?<br> ,401301000,vc_10400100001_007_01,chara_3
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1206,7 +1206,7 @@ asyncseplay,setag1_48,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ルカ,へーきへーき。<br>いい運動になったし！,104001000G,vc_10400100001_008_01,chara_1
+message,ルカ,No problem! That was a good workout!<br> ,104001000G,vc_10400100001_008_01,chara_1
 
 window,off
 wait,0.15
@@ -1245,7 +1245,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,これだけ活躍したのに、いい運動扱いとは。<br>さすがだな、ルカ。
+message,<user>,You did all that and call it a good workout? That's impressive，Luca.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1256,7 +1256,7 @@ asyncseplay,setag1_49,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ルカ,あ、しれーかん！<br>へっへー、これぐらい余裕余裕！,104001000G,vc_10400100001_009_01,chara_1
+message,ルカ,Ah，Commaander! Hehe，that was no sweat at all!<br> ,104001000G,vc_10400100001_009_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1267,9 +1267,9 @@ asyncseplay,setag1_50,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ルカ,あたしは世界一の格闘家になるんだから、<br>こんなモンスターに負けないよっ！,104001000G,vc_10400100001_010_01,chara_1
+message,ルカ,I'm gonna be the world's greatest fighter，so no monster's gonna beat<br>me!<br> ,104001000G,vc_10400100001_010_01,chara_1
 
-message,<user>,世界一の格闘家、か。<br>あの戦い振りを見れば夢物語とも言えないな。
+message,<user>,World's greatest fighter，huh? After seeing you in action，it's not<br>just a pipe dream.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1281,11 +1281,11 @@ asyncseplay,setag1_51,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ルカ,大穴にはもっともっと強い敵もいるんだよね？<br>うーん、いい訓練になりそう！,104001000G,vc_10400100001_011_01,chara_1
+message,ルカ,There are even stronger enemies in the Abyss，right? Hmm，sounds like<br>great training!<br> ,104001000G,vc_10400100001_011_01,chara_1
 
-message,<user>,ほう、戦闘も訓練の一環というわけか。<br>成長が早いわけだ。
+message,<user>,Oh，so you see battle as part of training? No wonder you're growing<br>so fast.<br> 
 
-message,<user>,大穴だけじゃなく、前線基地にも強い相手はたくさんいる。<br>相手をしてもらうのもいいかもな。
+message,<user>,There are plenty of strong people at the Frontline Base too，not just<br>in the Abyss. Might be good to spar with them.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1296,7 +1296,7 @@ asyncseplay,setag1_52,se4800005,0,1,CONT,0
 asynccharaemo,chara_1,Flash,CONT,0
 
 
-message,ルカ,そっか、そうだよね！<br>基地に帰ったら強い人を探してみるー！,104001000G,vc_10400100001_012_01,chara_1
+message,ルカ,Right，that's true! I'll look for strong people when we get back to<br>base!<br> ,104001000G,vc_10400100001_012_01,chara_1
 
 window,off
 wait,0.15
@@ -1320,7 +1320,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,まだ探索は終わってない、油断するなよー！
+message,<user>,We're not done exploring yet，don't let your guard down!<br> 
 
 
 window,off
@@ -1347,7 +1347,7 @@ fade,In,Black,0
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>ーー数日後</size>,,,on
+messageTextCenter,,<size=48>—A few days later—</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -1364,7 +1364,7 @@ bgmplay,bgmtag1_4,bgm0036,0.75,1
 fade,In,Black,1
 
 window,on,0.15
-message,<user>,よし、今日の事務仕事は終わり、と。<br>毎日こうならいいんだが……
+message,<user>,Alright，today's paperwork is done. Wish every day could be like<br>this...<br> 
 
 window,off
 wait,0.15
@@ -1374,7 +1374,7 @@ charafocusonall
 asyncseplay,setag1_54,se4300007,0,1,CONT,0
 
 window,on,0.15
-message,,バンッ！　と大きな音を立ててドアが開く。
+message,,The door swung open with a loud bang!<br> 
 
 window,off
 wait,0.15
@@ -1413,9 +1413,9 @@ shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,<user>,何事――うわっ！？
+message,<user>,What's—whoa!<br> 
 
-message,,ドアに目を向けた時には、<br>眼前にルカが立っていた。
+message,,By the time I looked at the door，Luca was already standing in front<br>of me.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1426,9 +1426,9 @@ asyncseplay,setag1_55,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ルカ,しれーかん、たのもーっ！,104001000G,vc_10400100001_013_01,chara_1
+message,ルカ,Commaander，I challenge you!<br> ,104001000G,vc_10400100001_013_01,chara_1
 
-message,<user>,急に近いっ！<br>驚かすな、ルカっ！
+message,<user>,That's too close! Don't startle me，Luca!<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1440,9 +1440,9 @@ asyncseplay,setag1_56,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ルカ,え、近い？<br>別にそんなことないでしょー。,104001000G,vc_10400100001_014_01,chara_1
+message,ルカ,Huh? Close? I don't think so.<br> ,104001000G,vc_10400100001_014_01,chara_1
 
-message,<user>,至近距離で喋るな！　<br>ルカの匂いが、息がかかるっ！
+message,<user>,Don't talk right in my face! I can smell you and feel your breath!<br> 
 
 window,off
 wait,0.15
@@ -1460,9 +1460,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ルカ,ふんふん……あ、ほんとだ。<br>しれーかんの匂い！,104001000G,vc_10400100001_015_01,chara_1
+message,ルカ,Sniff，sniff... Oh，you're right. It's Commaander's smell!<br> ,104001000G,vc_10400100001_015_01,chara_1
 
-message,<user>,嗅ぐな嗅ぐな！<br>ほら、早く離れろ！
+message,<user>,Quit sniffing me! Come on，back off!<br> 
 
 window,off
 wait,0.15
@@ -1520,9 +1520,9 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ルカ,なになに、しれーかん。<br>もしかして照れてる？　あたしにドキドキした？,104001000G,vc_10400100001_016_01,chara_1
+message,ルカ,What's this，Commaander? Are you blushing? Did I get your heart<br>racing?<br> ,104001000G,vc_10400100001_016_01,chara_1
 
-message,<user>,うるさいぞ。<br>それで、なんの用だ？
+message,<user>,You're so noisy. So，what do you want?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1533,9 +1533,9 @@ asyncseplay,setag1_60,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ルカ,たのもーって言ったよね？<br>あたしはしれーかんと戦いに来たの！,104001000G,vc_10400100001_017_01,chara_1
+message,ルカ,I said 'I challenge you，' didn't I? I came here to fight Commaander!<br> ,104001000G,vc_10400100001_017_01,chara_1
 
-message,<user>,は？　俺と？<br>……どうしてそんな話になった？
+message,<user>,Huh? Me? ...How did that come up?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1547,9 +1547,9 @@ asyncseplay,setag1_61,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ルカ,しれーかんがこの基地で一番強いって聞いたんだ。<br>だから戦ってもらおうと思って！,104001000G,vc_10400100001_018_01,chara_1
+message,ルカ,I heard Commaander is the strongest at this base. So I want to fight<br>you!<br> ,104001000G,vc_10400100001_018_01,chara_1
 
-message,<user>,俺が一番強い……！？<br>誰がそんなことを言ったんだ！
+message,<user>,I'm the strongest! Who said that?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1560,7 +1560,7 @@ asyncseplay,setag1_62,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ルカ,この基地で強い人を知りませんかーって、みんなに声をかけたんだ。<br>そしたらあやしー商人のお姉さんとか、魔法使いの女の子が教えてくれたの！,104001000G,vc_10400100001_019_01,chara_1
+message,ルカ,I asked around if anyone knew the strongest person here. Then that<br>shady merchant lady and a magic-using girl told me!<br> ,104001000G,vc_10400100001_019_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1572,9 +1572,9 @@ asyncseplay,setag1_63,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ルカ,本気の本気で戦ったら、<br>この前線基地で一番強いのはしれーかんだよ、って！,104001000G,vc_10400100001_020_01,chara_1
+message,ルカ,They said that if you fought for real，Commaander would be the<br>strongest at the Frontline Base!<br> ,104001000G,vc_10400100001_020_01,chara_1
 
-message,<user>,あいつら……！<br>まあ、言いたいことは分かるが……
+message,<user>,Those guys...! Well，I can see why they'd say that，but...<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1585,7 +1585,7 @@ asyncseplay,setag1_64,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ルカ,やっぱりほんとに強いんだ！<br>ね、戦ってよー、しれーかん！,104001000G,vc_10400100001_021_01,chara_1
+message,ルカ,So you really are strong! Hey，fight me，Commaander!<br> ,104001000G,vc_10400100001_021_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1596,11 +1596,11 @@ asyncseplay,setag1_65,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ルカ,強い人とたくさん戦って、<br>あたしは世界一の格闘家になるんだからっ！,104001000G,vc_10400100001_022_01,chara_1
+message,ルカ,I'm going to become the World's Greatest Martial Artist by fighting<br>lots of strong people!<br> ,104001000G,vc_10400100001_022_01,chara_1
 
-message,<user>,単純な奴だなあ……。
+message,<user>,You're so simple...<br> 
 
-message,<user>,……そうだな、考えてやってもいい。
+message,<user>,...Alright，maybe I'll consider it.<br> 
 
 window,off
 wait,0.15
@@ -1634,9 +1634,9 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,ルカ,本当！？　やった、さっそく戦おっ！,104001000G,vc_10400100001_023_01,chara_1
+message,ルカ,For real? Yes，let's fight right now!<br> ,104001000G,vc_10400100001_023_01,chara_1
 
-message,<user>,落ち着け。そっちが挑んできたんだから<br>場所と時間ぐらいは俺に決めさせてくれ。構わないだろ？
+message,<user>,Take it easy. You're the one who challenged me，so let me at least<br>pick the where and when. That okay?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1648,9 +1648,9 @@ asyncseplay,setag1_67,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ルカ,もちろん！<br>いつでもどこでも戦うよ！,104001000G,vc_10400100001_024_01,chara_1
+message,ルカ,Of course. I'll fight anytime，anywhere!<br> ,104001000G,vc_10400100001_024_01,chara_1
 
-message,<user>,……本当に単純だな、ルカ。<br>よし、ちょっと遊んでやるか。
+message,<user>,...You really are simple，Luca. Fine，I'll play with you a little.<br> 
 
 
 window,off
@@ -1675,16 +1675,16 @@ fade,In,Black,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――数時間後</size>,,,on
+messageTextCenter,,<size=48>—A few hours later</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
 
 
 window,on,0.15
-message,,前線基地近郊、山岳地帯
+message,,Mountain area near the Frontline Base<br> 
 
-message,<user>,よし、準備は完了だな。<br>そろそろ時間か……
+message,<user>,Alright，preparations are complete. It's about time...<br> 
 
 window,off
 wait,0.15
@@ -1720,7 +1720,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ルカ,しれーかん！　来たよー！<br>待っててくれたんだ？,104001000G,vc_10400100001_025_01,chara_1
+message,ルカ,Commaander! I'm here. You waited for me?<br> ,104001000G,vc_10400100001_025_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1731,9 +1731,9 @@ asyncseplay,setag1_69,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ルカ,そんなにあたしと戦うのが楽しみだった？<br>あたしもだよ！,104001000G,vc_10400100001_026_01,chara_1
+message,ルカ,Were you that excited to fight me? Me too!<br> ,104001000G,vc_10400100001_026_01,chara_1
 
-message,<user>,ま、ここからが楽しみなのは事実だな。<br>さあ、いつでもいいぞ！　かかってこい！
+message,<user>,Well，gotta admit the fun part starts now. Come on，anytime you're<br>ready. Bring it on!<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1745,11 +1745,11 @@ asyncseplay,setag1_70,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ルカ,おっけー！<br>いくよ、しれーかん！,104001000G,vc_10400100001_027_01,chara_1
+message,ルカ,OK! Here I go，Commaander!<br> ,104001000G,vc_10400100001_027_01,chara_1
 
 bgmstop,bgmtag1_4,1.5,0
 
-message,<user>,ああ、試合開始だ！
+message,<user>,Yeah，the match begins!<br> 
 
 window,off
 wait,0.15
@@ -1776,7 +1776,7 @@ asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,ルカ,たああああっ！,104001000G,vc_10400100001_028_01,chara_1
+message,ルカ,Taaaaah!<br> ,104001000G,vc_10400100001_028_01,chara_1
 
 window,off
 wait,0.15
@@ -1792,7 +1792,7 @@ emodelete,chara_1,0,0
 wait,0.5
 
 window,on,0.15
-message,,前傾姿勢で身構えたルカの姿が、<br>ふっと視界から消える。
+message,,Luca，poised in a forward-leaning stance，suddenly vanished from<br>sight.<br> 
 
 window,off
 wait,0.15
@@ -1826,9 +1826,9 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,ルカ,せーのっ……,104001000G,vc_10400100001_029_01,chara_1
+message,ルカ,Ready...<br> ,104001000G,vc_10400100001_029_01,chara_1
 
-message,,次の瞬間には<user>の眼前で<br>拳に雷をまとったルカの姿があった。
+message,,The next moment，Luca appeared right before %user%，her fist wreathed<br>in lightning.<br> 
 
 window,off
 wait,0.15
@@ -1857,7 +1857,7 @@ asynccharaemo,chara_1,Shock,STOP,1.47
 
 
 window,on,0.15
-message,ルカ,はああああ――はぇっ！？,104001000G,vc_10400100001_030_01,chara_1
+message,ルカ,*pant*—Huh!<br> ,104001000G,vc_10400100001_030_01,chara_1
 
 window,off
 wait,0.15
@@ -1879,7 +1879,7 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,,全力で拳を振るおうと足を止めたその時、<br>ルカの足元がつるりと滑った。
+message,,Just as she stopped to throw a full-power punch，Luca's feet slipped<br>out from under her.<br> 
 
 window,off
 wait,0.15
@@ -1910,9 +1910,9 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ルカ,なにこれ、なにこれーっ！,104001000G,vc_10400100001_031_01,chara_1
+message,ルカ,What's this，what's this!<br> ,104001000G,vc_10400100001_031_01,chara_1
 
-message,<user>,おやおや？<br>こんなところに水たまりがあったのか、こりゃ驚いたなー。
+message,<user>,Oh my! A puddle here of all places? Well，color me surprised.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1923,9 +1923,9 @@ asyncseplay,setag1_79,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ルカ,水たまりじゃないでしょ！？<br>ぬるぬるして動けないーっ！,104001000G,vc_10400100001_032_01,chara_1
+message,ルカ,That's not a puddle. It's all slippery and I can't move!<br> ,104001000G,vc_10400100001_032_01,chara_1
 
-message,<user>,おっと、こりゃスライム素材の粘液みたいだなあ？<br>簡単には起き上がれないんじゃないかー？
+message,<user>,Whoa，this is Slime fluid，huh? You won't be getting up so easily<br>now，will you?<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1936,9 +1936,9 @@ asyncseplay,setag1_80,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ルカ,すべるー！<br>しれーかん、助けてーっ！,104001000G,vc_10400100001_033_01,chara_1
+message,ルカ,It's slippery! Commaander，help meee!<br> ,104001000G,vc_10400100001_033_01,chara_1
 
-message,<user>,はっはっは、戦いの最中に助けを求めるとは笑止。<br>こうしてくれよう！
+message,<user>,Ha ha ha! Asking for help in the middle of a fight? What a joke!<br>Here，let me give you a hand!<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1949,9 +1949,9 @@ asyncseplay,setag1_81,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ルカ,はわっ！？<br>待って、脇をくすぐるのはダメーっ！,104001000G,vc_10400100001_034_01,chara_1
+message,ルカ,Hwah! Wait，not the armpits! Don't tickle me there!<br> ,104001000G,vc_10400100001_034_01,chara_1
 
-message,<user>,ならこっちはどうだ？
+message,<user>,Then how about here?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1970,9 +1970,9 @@ asyncseplay,setag1_83,se4800004,0,1,STOP,3.45
 asynccharaemo,chara_1,Laugh,STOP,3.45
 
 
-message,ルカ,首も背中もダメだからっ！<br>ひゃうっ、ふふふっ、あはははっ！　お腹いたいーっ！,104001000G,vc_10400100001_035_01,chara_1
+message,ルカ,No，my neck and back are off-limits too! Hyah! Fufufu! Ahahaha! My<br>stomach hurts!<br> ,104001000G,vc_10400100001_035_01,chara_1
 
-message,<user>,ほーれほーれ、体が滑ってろくに抵抗できないだろう？<br>どうするルカ？　降参かー？
+message,<user>,See? Your body's all slippery so you can't fight back，can you?<br>What'll it be，Luca? Surrender?<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1983,9 +1983,9 @@ asyncseplay,setag1_84,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ルカ,きゃんっ、ふぁっ！　あははははっ！<br>やだっ、まだ負けてないっ！,104001000G,vc_10400100001_036_01,chara_1
+message,ルカ,Kyah! Fah! Ahahahaha! No，I haven't lost yet!<br> ,104001000G,vc_10400100001_036_01,chara_1
 
-message,<user>,いい根性をしてるじゃないか。<br>なら――ここだな！
+message,<user>,You've got guts! Then... how about here!<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -2002,7 +2002,7 @@ asyncseplay,setag1_86,se4800004,0,1,STOP,4.8
 asynccharaemo,chara_1,Laugh,STOP,4.8
 
 
-message,ルカ,ま、待って！　足の裏はほんとに無理っ！<br>くぅんっ、んんんっ！　あはははははははっ！　,104001000G,vc_10400100001_037_01,chara_1
+message,ルカ,W-wait! Not the soles of my feet，seriously! *whimper*! mmm!<br>Ahahahahaha!<br> ,104001000G,vc_10400100001_037_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -2013,7 +2013,7 @@ asyncseplay,setag1_87,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ルカ,ごめん、もうダメっ！<br>負けました、こうさんこうさんー！,104001000G,vc_10400100001_038_01,chara_1
+message,ルカ,Sorry，I can't take it anymore! I lost，surrender，surrender!<br> ,104001000G,vc_10400100001_038_01,chara_1
 
 window,off
 wait,0.15
@@ -2056,7 +2056,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,よーし、俺の勝ちだな。<br>ほらルカ、タオルだ。
+message,<user>,All right，I win. Here，Luca，a towel.<br> 
 
 window,off
 wait,0.15
@@ -2073,7 +2073,7 @@ asynccharamove,chara_1,Linear,Y,200,0.5,CONT,0
 
 
 window,on,0.15
-message,ルカ,ありがと、しれーかん。<br>んしょ、んしょ……,104001000G,vc_10400100001_039_01,chara_1
+message,ルカ,Thanks，Commaander. Hmph，hmph...<br> ,104001000G,vc_10400100001_039_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -2084,9 +2084,9 @@ asyncseplay,setag1_89,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ルカ,うう、何もできずに負けちゃった…‥。<br>本当にすごかったんだ、しれーかん！,104001000G,vc_10400100001_040_01,chara_1
+message,ルカ,Ugh，I lost without doing a thing... You really were<br>amazing，Commaander!<br> ,104001000G,vc_10400100001_040_01,chara_1
 
-message,<user>,……普通に褒められるのは想定外だな。<br>卑怯だとか、ズルいとか、苦情はないのか？
+message,<user>,...I wasn't expecting to be praised like that. No complaints about<br>me being unfair or cheating?<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -2097,7 +2097,7 @@ asyncseplay,setag1_90,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,ルカ,うん、ズルいよしれーかん！<br>このひきょーもの！,104001000G,vc_10400100001_041_01,chara_1
+message,ルカ,Yeah，you are unfair，Commaander! You cheater!<br> ,104001000G,vc_10400100001_041_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -2108,9 +2108,9 @@ asyncseplay,setag1_91,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ルカ,でも世界一の格闘家はズルされたって負けたりしない。<br>あたしに勝った司令官はすごいね！,104001000G,vc_10400100001_042_01,chara_1
+message,ルカ,But the World's Greatest Martial Artist doesn't lose just because of<br>a cheap trick. The Commander who beat me is amazing!<br> ,104001000G,vc_10400100001_042_01,chara_1
 
-message,<user>,お、おう。<br>本当に真っ直ぐだな、ルカ……
+message,<user>,O-oh. You're really straightforward，Luca...<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -2122,9 +2122,9 @@ asyncseplay,setag1_92,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ルカ,でも次は負けないから！<br>覚悟しといて！,104001000G,vc_10400100001_043_01,chara_1
+message,ルカ,But I won't lose next time! Prepare yourself!<br> ,104001000G,vc_10400100001_043_01,chara_1
 
-message,<user>,次があるのか……
+message,<user>,So there's a next time，huh...<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -2135,7 +2135,7 @@ asyncseplay,setag1_93,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ルカ,もちろん！　<br>しれーかんに勝ってあたしが前線基地で最強になるからっ！,104001000G,vc_10400100001_044_01,chara_1
+message,ルカ,Of course! I'll beat you，Commaander，and become the strongest at the<br>Frontline Base!<br> ,104001000G,vc_10400100001_044_01,chara_1
 
 window,off
 bgmstop,bgmtag1_6,0.5

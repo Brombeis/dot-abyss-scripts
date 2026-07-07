@@ -422,7 +422,7 @@ asyncseplay,setag1_15,se4800011,0,1,CONT,0
 asynccharaemo,chara_3,ExclaQues,CONT,0
 
 
-message,前線基地の兵士B,おいおいおい、どういう関係なんだ！？,401501000,,chara_3
+message,前線基地の兵士B,Hey，hey，hey! What's the deal between you two?<br> ,401501000,,chara_3
 
 window,off
 wait,0.15
@@ -459,7 +459,7 @@ transitionCrossFade,Tra16,0.5
 wait,0.5
 
 window,on,0.15
-message,<user>,見ての通りだ！　<br>貴様らの追い回していたヒュメナは、すっかり俺に心を許している！
+message,<user>,As you can see! Humena，who you've been chasing，has completely opened<br>her heart to me!<br> 
 
 asyncjump,CHARA,chara_1,40,0.5,2,off,0,CONT
 
@@ -468,9 +468,9 @@ asyncseplay,setag1_16,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒュメナ,心を許して、って！<br>と、というか、ここまでするなんて聞いてな――,,vc_10210100003_007_01,chara_1
+message,ヒュメナ,'Opened her heart，' he says! O-or rather，I wasn't told it would go<br>this far—<br> ,,vc_10210100003_007_01,chara_1
 
-message,<user>,なんだ、許していないのか？
+message,<user>,What? You haven't opened your heart to me yet?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -493,7 +493,7 @@ asynccharaemo,chara_1,Shy,CONT,0
 wait,0.5
 
 
-message,ヒュメナ,そ、それは……まあ、うん……許してる、けどぉ……,,vc_10210100003_008_01,chara_1
+message,ヒュメナ,W-well，I mean... yeah... I have，but...<br> ,,vc_10210100003_008_01,chara_1
 
 window,off
 wait,0.15
@@ -557,7 +557,7 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,前線基地の兵士B,認めたぞ！？<br>ラブラブってことか！？,401501000,,chara_3
+message,前線基地の兵士B,You admitted it! So you two are lovey-dovey?<br> ,401501000,,chara_3
 
 window,off
 wait,0.15
@@ -601,9 +601,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒュメナ,ラ、ラブラブとかじゃないよっ！？<br>そういうんじゃなくてねっ！,,vc_10210100003_009_01,chara_1
+message,ヒュメナ,L-lovey-dovey! No way! It's nothing like that!<br> ,,vc_10210100003_009_01,chara_1
 
-message,<user>,ともかく俺はヒュメナの信用を得た！<br>まさに懐に入ったのだ！
+message,<user>,Anyway，I've earned Humena's trust! I've truly won her over!<br> 
 
 window,off
 wait,0.15
@@ -667,7 +667,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,前線基地の兵士A,ということは、まさか……！,400901000,,chara_2
+message,前線基地の兵士A,Which means... could it be...?<br> ,400901000,,chara_2
 
 window,off
 wait,0.15
@@ -704,11 +704,11 @@ transitionCrossFade,Tra16,0.5
 wait,0.5
 
 window,on,0.15
-message,<user>,そう！　水の精霊もまた同様だ！<br>完璧に手なづけてやったぜ！
+message,<user>,Yes! The water spirits are no different! I've completely tamed them!<br> 
 
-message,,<user>が水の中へと団子の欠片を放り込むと、<br>ウパたちがうれしそうについばみ始める。
+message,,Commander tossed dumpling crumbs into the water，and the Upas began<br>pecking at them happily.<br> 
 
-message,ウパ,ウパ～♪,900000003,vc_10210100003_010_01,
+message,ウパ,Upaa!♪<br> ,900000003,vc_10210100003_010_01,
 
 window,off
 wait,0.15
@@ -772,7 +772,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,前線基地の兵士A,水の精霊が、司令官殿の餌を食べてる！,400901000,,chara_2
+message,前線基地の兵士A,The water spirits are eating the Lord Commander's food!<br> ,400901000,,chara_2
 
 asyncjump,CHARA,chara_3,30,0.25,1,off,0,CONT
 
@@ -781,7 +781,7 @@ asyncseplay,setag1_29,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,前線基地の兵士B,それもあんなに機嫌良さそうに……！<br>本当に懐いてるじゃねえか！,401501000,,chara_3
+message,前線基地の兵士B,And they look so happy about it! They're really attached to<br>him，aren't they!<br> ,401501000,,chara_3
 
 window,off
 wait,0.15
@@ -820,11 +820,11 @@ transitionCrossFade,Tra16,0.5
 wait,0.5
 
 window,on,0.15
-message,ウパ,ウパッ！,900000003,vc_10210100003_011_01,
+message,ウパ,Upa!<br> ,900000003,vc_10210100003_011_01,
 
-message,<user>,諸君も知っての通り、<br>ヒュメナは水の精霊から加護を得ている！
+message,<user>,As you all know，Humena has received a blessing from the water<br>spirits!<br> 
 
-message,<user>,水の精霊の信頼を得た俺は、<br>ヒュメナと同じく加護を身に付けたってわけだ！
+message,<user>,Having earned the water spirits' trust，I too have obtained the same<br>blessing as Humena!<br> 
 
 window,off
 wait,0.15
@@ -890,7 +890,7 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,前線基地の兵士B,なるほどな！<br>これなら勝てるかもしれねえ！,401501000,,chara_3
+message,前線基地の兵士B,I see! With that，maybe you can win!<br> ,401501000,,chara_3
 
 window,off
 wait,0.15
@@ -935,7 +935,7 @@ asyncseplay,setag1_33,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 window,on,0.15
-message,<user>,もはや水の精霊パワーは俺のものだ！<br>ふははははっ！
+message,<user>,The Water Spirit Power is now mine! Fuhahaha!<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -946,9 +946,9 @@ asyncseplay,setag1_34,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒュメナ,だ、だから水の精霊パワーなんてものはぁ……,,vc_10210100003_012_01,chara_1
+message,ヒュメナ,B-but I'm telling you，there's no such thing as Water Spirit Power...<br> ,,vc_10210100003_012_01,chara_1
 
-message,<user>,ごちゃごちゃうるさいぞヒュメナ！<br>さあ、かかってこい！
+message,<user>,Enough chatter，Humena! Now，bring it on!<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -981,9 +981,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒュメナ,……ほ、本当に、いいんだね？,,vc_10210100003_013_01,chara_1
+message,ヒュメナ,... A-are you sure about this?<br> ,,vc_10210100003_013_01,chara_1
 
-message,<user>,無論だ！　遠慮は不要！<br>かかってくるがいい！　がーっはっはっはぁ！
+message,<user>,Of course! No need to hold back! Come at me! Gahahahahah!<br> 
 
 window,off
 wait,0.15
@@ -1009,7 +1009,7 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,ヒュメナ,（司令官君、演技はしてるけど、ちょっと声が震えてるよ……。<br>私とウパちゃんのために頑張ってくれてるんだ。私も、しっかりしないとっ）,,vc_10210100003_014_01,chara_1
+message,ヒュメナ,(Commander，even though you're acting，your voice is trembling a<br>bit... You're trying so hard for me and Upa. I've got to be strong too.)<br> ,,vc_10210100003_014_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1020,7 +1020,7 @@ asyncseplay,setag1_39,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ヒュメナ,（絶対に怪我しないように、そーっと、そーっと……）,,vc_10210100003_015_01,chara_1
+message,ヒュメナ,(I have to make sure he doesn't get hurt... softly，softly...)<br> ,,vc_10210100003_015_01,chara_1
 
 window,off
 wait,0.15
@@ -1044,7 +1044,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ヒュメナ,え、えーいっ！,,vc_10210100003_016_01,chara_1
+message,ヒュメナ,Hiyah!<br> ,,vc_10210100003_016_01,chara_1
 
 bgmstop,bgmtag1_2,1,0
 
@@ -1068,9 +1068,9 @@ fade,In,White,0
 seplay,setag1_41,se4900006,0,1
 
 window,on,0.15
-message,<user>,はぐっ！？<br>ぐはああああああああっ！！！
+message,<user>,Guh! Gwaaaaaaaah!<br> 
 
-message,,ヒュメナの１撃を受けた<user>が吹き飛び、<br>ごろごろと道場の床を転がった。
+message,,Struck by Humena's blow，%user% was sent flying，tumbling across the<br>dojo floor.<br> 
 
 window,off
 wait,0.15
@@ -1109,7 +1109,7 @@ shakeallstop
 bgmplay,bgmtag1_3,bgm0026,0.75,1
 
 window,on,0.15
-message,<user>,馬鹿……な……水の精霊の加護があれば……。<br>強くなれるのではないのか……
+message,<user>,No... way... With the Water Spirit's Blessing... Shouldn't I be<br>stronger?<br> 
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -1118,16 +1118,16 @@ asyncseplay,setag1_43,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ヒュメナ,そんなわけないよ。<br>ウパちゃんに特別な力はないんだから。,,vc_10210100003_017_01,chara_1
+message,ヒュメナ,That's not true. Upa doesn't have any special powers.<br> ,,vc_10210100003_017_01,chara_1
 
-message,<user>,噂は嘘だった、というのか……？<br>では水の精霊パワーとはいったい……！？
+message,<user>,So the rumors were a lie...? Then what exactly is the Water Spirit<br>Power...?<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,ヒュメナ,この子たちは私の大事な友だちなの。<br>一緒にいれば頑張れる、強くなれる。それだけなんだよ。,,vc_10210100003_018_01,chara_1
+message,ヒュメナ,These little ones are my dear friends. Being with them gives me the<br>strength to do my best and become stronger. That's all.<br> ,,vc_10210100003_018_01,chara_1
 
-message,<user>,友を思う心こそが、本当の力……。<br>ああ……俺が愚かだった……見事だヒュメナ……ぐふっ！
+message,<user>,So the true power is the bond between friends... Ah... I was a<br>fool... Well done，Humena... *guh*!<br> 
 
 window,off
 wait,0.15
@@ -1156,7 +1156,7 @@ asyncseplay,setag1_46,se5010045,0,1,CONT,0
 wait,1
 
 window,on,0.15
-message,ウパ,ウ、ウパッ！？<br>ウパーッ！,900000003,vc_10210100003_019_01,
+message,ウパ,U-Upa! Upaa!<br> ,900000003,vc_10210100003_019_01,
 
 window,off
 wait,0.15
@@ -1208,7 +1208,7 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,前線基地の兵士B,なんだよ、水の精霊と一緒なら強くなれるってのは嘘だったのかよ……,401501000,,chara_3
+message,前線基地の兵士B,Hey，so all that about getting stronger with the water spirit was a<br>load of crap?<br> ,401501000,,chara_3
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -1220,7 +1220,7 @@ asyncseplay,setag1_48,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,前線基地の兵士A,水の精霊があんなに心配してるってのに<br>司令官殿はボロボロになってるもんなあ。,400901000,,chara_2
+message,前線基地の兵士A,And here the water spirits were so worried，but Lord Commander's a<br>total wreck.<br> ,400901000,,chara_2
 
 asynccharaface,chara_3,FaceAnger,CONT,0
 
@@ -1231,7 +1231,7 @@ asyncseplay,setag1_49,se4800006,0,1,CONT,0
 asynccharaemo,chara_3,Trouble,CONT,0
 
 
-message,前線基地の兵士B,ったく、解散だ解散ー！,401501000,,chara_3
+message,前線基地の兵士B,Geez，show's over，let's go!<br> ,401501000,,chara_3
 
 window,off
 wait,0.15
@@ -1253,7 +1253,7 @@ emodelete,chara_3,0,0
 asyncwait
 
 window,on,0.15
-message,,集まっていた野次馬たちは水の精霊に加護などないと知り、<br>残念そうにその場を立ち去った。
+message,,The gathered onlookers，realizing the water spirits had no blessing<br>to offer，left looking disappointed.<br> 
 
 window,off
 wait,0.15
@@ -1284,7 +1284,7 @@ transitionCrossFade,Tra02,1
 wait,1
 
 window,on,0.15
-message,<user>,さ、作戦……成功……
+message,<user>,W-well... the plan... worked...<br> 
 
 window,off
 wait,0.15
@@ -1312,9 +1312,9 @@ wait,1
 
 
 window,on,0.15
-message,ヒュメナ,だ、大丈夫！？　司令官君っ！？<br>ごめんね、できるだけ手加減したんだけど……！,,vc_10210100003_020_01,chara_1
+message,ヒュメナ,A-are you all right? Commander? I'm sorry，I held back as much as I<br>could...!<br> ,,vc_10210100003_020_01,chara_1
 
-message,<user>,手加減して……この威力、か……がくっ
+message,<user>,You held back... and this is the power... *gack*<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1325,9 +1325,9 @@ asyncseplay,setag1_50,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ヒュメナ,し、司令官君ー！,,vc_10210100003_021_01,chara_1
+message,ヒュメナ,C-Commander!<br> ,,vc_10210100003_021_01,chara_1
 
-message,ウパ,ウパーッ！,900000003,vc_10210100003_022_01,
+message,ウパ,Upa!<br> ,900000003,vc_10210100003_022_01,
 
 bgmstop,bgmtag1_3,1.5,0
 
@@ -1354,7 +1354,7 @@ fade,In,Black,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――数日後</size>,,,on
+messageTextCenter,,<size=48>A few days later.</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -1398,13 +1398,13 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ヒュメナ,さあウパちゃんたち、自由に泳いでいいよ♪,,vc_10210100003_023_01,chara_1
+message,ヒュメナ,Come on，Upas，you can swim all you want!♪<br> ,,vc_10210100003_023_01,chara_1
 
-message,ウパ,ウパー！,900000003,vc_10210100003_024_01,on
+message,ウパ,Upa!<br> ,900000003,vc_10210100003_024_01,on
 
-message,,水槽から解き放たれた水の精霊たちが、<br>美しい海の中を泳ぎ回り始める。
+message,,The water spirits，released from their tank，began swimming around the<br>beautiful ocean.<br> 
 
-message,<user>,楽しそうだな、ウパたち。
+message,<user>,They look happy，the Upas.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1416,9 +1416,9 @@ asyncseplay,setag1_52,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヒュメナ,うん！　久しぶりの海だからね。<br>みんな喜んでくれてよかったぁ～。,,vc_10210100003_025_01,chara_1
+message,ヒュメナ,Yeah! It's been a while since they've seen the sea. I'm so glad<br>they're all enjoying themselves!<br> ,,vc_10210100003_025_01,chara_1
 
-message,<user>,俺が回復するまで待たせてしまったな。<br>看病もしてもらったし、すまないヒュメナ。
+message,<user>,I made you wait until I recovered. And you took care of me too.<br>Sorry，Humena.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1429,7 +1429,7 @@ asyncseplay,setag1_53,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ヒュメナ,何を言ってるの。司令官君のおかげでこうして<br>ウパちゃんたちも楽しそうにしてるんだし、当然だよっ。,,vc_10210100003_026_01,chara_1
+message,ヒュメナ,Don't say that. Thanks to you，the Upas get to enjoy themselves like<br>this. It's only natural!<br> ,,vc_10210100003_026_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1441,13 +1441,13 @@ asyncseplay,setag1_54,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ヒュメナ,それに、司令官君にもこうやってみんなが海で泳ぐ姿を<br>絶対に見せたいって思ってたんだ。,,vc_10210100003_027_01,chara_1
+message,ヒュメナ,Besides，I always wanted you to see them swimming in the sea like<br>this.<br> ,,vc_10210100003_027_01,chara_1
 
-message,<user>,あぁ……綺麗な光景だな。<br>ウパが水の精霊だというのがよく分かる。
+message,<user>,Ah... it's a beautiful sight. You can really tell they're water<br>spirits.<br> 
 
-message,<user>,ほんと体を張って、水の精霊と仲良くなっても<br>強くはならんと奴らに教えてやった甲斐があった。
+message,<user>,It was worth risking my neck to show those idiots that getting cozy<br>with water spirits doesn't make you stronger.<br> 
 
-message,<user>,おまけに、私利私欲のためにヒュメナたちに近づけば、<br>末路はこうなるんだぞというのも見せつけたし、もう大丈夫だろう。
+message,<user>,And I also made sure to show what happens if anyone approaches you<br>for selfish reasons. So we should be fine now.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1458,7 +1458,7 @@ asyncseplay,setag1_55,se4800005,0,1,CONT,0
 asynccharaemo,chara_1,Flash,CONT,0
 
 
-message,ヒュメナ,うんっ。<br>誤解をといてくれて、本当にありがとうね。,,vc_10210100003_028_01,chara_1
+message,ヒュメナ,Mm-hmm. Thank you so much for clearing up the misunderstanding.<br> ,,vc_10210100003_028_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1469,7 +1469,7 @@ asyncseplay,setag1_56,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ヒュメナ,勘違いしてごめんって謝ってくれる人もいて、<br>訓練をつけてくれーなんて頼まれたりもするの。,,vc_10210100003_029_01,chara_1
+message,ヒュメナ,Some even apologize for misunderstanding，and some ask me to train<br>them.<br> ,,vc_10210100003_029_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1481,9 +1481,9 @@ asyncseplay,setag1_57,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒュメナ,……ウパちゃんに力がないって分かってから、<br>ちょっと食べ物をみるような目で見てきてるのは困るけどね。あはは。,,vc_10210100003_030_01,chara_1
+message,ヒュメナ,But... ever since they found out Upa doesn't have any power，they've<br>been looking at her like she's something to eat. That's a bit of a problem. Ahaha.<br> ,,vc_10210100003_030_01,chara_1
 
-message,<user>,まあ、美味そうではあるからな、そいつら……
+message,<user>,Well，they do look tasty，those things...<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1494,11 +1494,11 @@ asyncseplay,setag1_58,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ヒュメナ,ちょっと、司令官君っ！？,,vc_10210100003_031_01,chara_1
+message,ヒュメナ,Now，Commander!<br> ,,vc_10210100003_031_01,chara_1
 
-message,ウパ,ウパッ！？,900000003,vc_10210100003_032_01,on
+message,ウパ,Upa!<br> ,900000003,vc_10210100003_032_01,on
 
-message,<user>,ははは、冗談だ、冗談。
+message,<user>,Hahaha，just kidding，kidding.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1509,7 +1509,7 @@ asyncseplay,setag1_59,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒュメナ,もう……。<br>ねえ、司令官君。,,vc_10210100003_033_01,chara_1
+message,ヒュメナ,Geez...<br>Hey，Commander.<br> ,,vc_10210100003_033_01,chara_1
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1518,7 +1518,7 @@ asyncseplay,setag1_60,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒュメナ,私たちのために、<br>ここまでしてくれなくてもよかったんだよ？,,vc_10210100003_034_01,chara_1
+message,ヒュメナ,You didn't have to go this far for us，you know?<br> ,,vc_10210100003_034_01,chara_1
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -1527,9 +1527,9 @@ asyncseplay,setag1_61,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒュメナ,別に司令官君が殴られなくても、<br>もっと鍛えている兵士の人に頼むこともできたし……,,vc_10210100003_035_01,chara_1
+message,ヒュメナ,You didn't have to take the hit yourself.<br>You could have asked a more trained soldier to do it...<br> ,,vc_10210100003_035_01,chara_1
 
-message,<user>,そういう手も考えたんだが、<br>他の男にヒュメナと親しい振りをさせる、ってのは気分が悪くてな。
+message,<user>,I did consider that，but letting another man pretend to be close to<br>you didn't sit well with me.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1540,7 +1540,7 @@ asyncseplay,setag1_62,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ヒュメナ,……うん、想像したら、それは私も嫌だな。,,vc_10210100003_036_01,chara_1
+message,ヒュメナ,...Yeah，now that you mention it，I wouldn't like that either.<br> ,,vc_10210100003_036_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1551,9 +1551,9 @@ asyncseplay,setag1_63,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒュメナ,君以外の男の人と仲がいいって思われたくない。<br>肩なんて抱かれたら、すぐ逃げちゃうかも。,,vc_10210100003_037_01,chara_1
+message,ヒュメナ,I don't want anyone to think I'm close with another man. If they<br>tried to put an arm around my shoulder，I'd probably run away.<br> ,,vc_10210100003_037_01,chara_1
 
-message,<user>,なんだ、同じ考えだったか。<br>それなら俺がやってよかったな。
+message,<user>,Oh，so you felt the same way.<br>Then I'm glad I went through with it.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1564,9 +1564,9 @@ asyncseplay,setag1_64,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヒュメナ,うん……そうだね♪,,vc_10210100003_038_01,chara_1
+message,ヒュメナ,Yeah... that's right.♪<br> ,,vc_10210100003_038_01,chara_1
 
-message,<user>,しかし、少しだけ残念だな。<br>ウパたちの加護が本当にあれば、俺も少しは戦えるようになれたのにな。
+message,<user>,Still，I'm a little disappointed.<br>If the Upas' blessing were real，I could have learned to fight a bit.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1578,9 +1578,9 @@ asyncseplay,setag1_65,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ヒュメナ,……司令官君にはそんなのいらないよ。<br>必要があれば、いつだって私が司令官君の力になるから。,,vc_10210100003_039_01,chara_1
+message,ヒュメナ,...You don't need that，Commander.<br>Whenever you need it，I'll be your strength.<br> ,,vc_10210100003_039_01,chara_1
 
-message,<user>,ヒュメナが、か。<br>それは加護でパワーアップするよりも頼りになりそうだ。
+message,<user>,You，huh.<br>That sounds more dependable than powering up with a blessing.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1591,7 +1591,7 @@ asyncseplay,setag1_66,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ヒュメナ,うん、頼りにして。<br>困ったことがあったらいつでも言ってね。,,vc_10210100003_040_01,chara_1
+message,ヒュメナ,Yeah，rely on me.<br>Tell me whenever you're in trouble.<br> ,,vc_10210100003_040_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1602,7 +1602,7 @@ asyncseplay,setag1_67,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ヒュメナ,どんな時でも、誰が相手でも、<br>ウパちゃんと一緒に駆けつけるから。,,vc_10210100003_041_01,chara_1
+message,ヒュメナ,No matter when or who it is，<br>I'll come rushing with Upa.<br> ,,vc_10210100003_041_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1613,9 +1613,9 @@ asyncseplay,setag1_68,se4800002,0,1,CONT,0
 asynccharaemo,chara_1,Heart,CONT,0
 
 
-message,ヒュメナ,司令官君のためなら、なんでもするよ♪,,vc_10210100003_042_01,chara_1
+message,ヒュメナ,For you，Commander，I'll do anything!♪<br> ,,vc_10210100003_042_01,chara_1
 
-message,<user>,……さすが瓦１００枚割りのヒュメナ、<br>口説き文句も強力だな。
+message,<user>,As expected from Humena，who can break 100 roof tiles—her pickup<br>lines are just as powerful.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1626,7 +1626,7 @@ asyncseplay,setag1_69,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヒュメナ,ふふ、私にできるのは、<br>水の精霊パワーで正面からぶっ飛ばすことだけだから。,,vc_10210100003_043_01,chara_1
+message,ヒュメナ,Fufu，the only thing I can do is<br>blast things head-on with Water Spirit Power.<br> ,,vc_10210100003_043_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1637,9 +1637,9 @@ asyncseplay,setag1_70,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ヒュメナ,ね、ウパちゃん？,,vc_10210100003_044_01,chara_1
+message,ヒュメナ,Right，Upa?<br> ,,vc_10210100003_044_01,chara_1
 
-message,ウパ,ウパッ！,900000003,vc_10210100003_045_01,on
+message,ウパ,Upa!<br> ,900000003,vc_10210100003_045_01,on
 
 window,off
 bgmstop,bgmtag1_4,0.5

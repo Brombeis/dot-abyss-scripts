@@ -28,7 +28,7 @@ wait,0.5
 
 charashow,chara_1,0.3
 window,on,0.15
-message,,One night，while I was talking with Ludia at the brothel bar，Magnolia<br>arrived.<br> 
+message,,One night，I was chatting with Ludia at the brothel bar when Magnolia<br>arrived.<br> 
 
 asyncseplay,setag1_1,se4800002,0,1,CONT
 
@@ -55,7 +55,7 @@ asynccharaemo,chara_1,Trouble,STOP
 
 charareaction,chara_1,Shake,0.5
 
-message,,Magnolia was already showing her shyness around Ludia，who she had<br>just met.<br> 
+message,,Magnolia was already shy around Ludia，who she'd just met.<br> 
 
 window,off
 wait,0.15
@@ -85,7 +85,7 @@ asynccameramove,EaseOutTarget,Y,0,0.5,CONT,0
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
 window,on,0.15
-message,,In place of Magnolia，who was fidgeting and unable to answer，the<br>magical plant spoke up.<br> 
+message,,Since Magnolia was too shy to answer，the magical plant spoke for<br>her.<br> 
 
 asyncseplay,setag1_4,se4800009,0,1,CONT
 
@@ -104,10 +104,10 @@ asynccharareaction,chara_2,Nod,1,STOP,4.5
 asynccharaemo,chara_2,Laugh,STOP,4.5
 
 asynccharaface,chara_2,FaceFun,STOP,4.5
-message,ルディア,Yes，they're a little rare. Well then... if you work here，I could<br>tell you.<br> ,,vc_10240100011_004_01
+message,ルディア,Yes，they're quite rare. Well... if you work here，I might be<br>persuaded to tell you.<br> ,,vc_10240100011_004_01
 
 charaface,chara_1,FaceSurprise
-message,,Ludia said something surprising with a laugh.<br> 
+message,,Ludia laughed and said something surprising.<br> 
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
@@ -157,7 +157,7 @@ window,on,0.15
 message,ルディア,Ufufu，so that's what this is about.<br> ,,vc_10240100011_006_01
 
 charaface,chara_2,FaceFun
-message,ルディア,The Commander handles the training for the girls who work here. So<br>if you work here，you'll be able to get even closer to him.<br> ,,vc_10240100011_007_01
+message,ルディア,The Commander handles the training for all the girls here. So if you<br>work here，you'll get to spend more time with him.<br> ,,vc_10240100011_007_01
 
 charaface,chara_1,FaceFun
 message,,At Ludia's words，I thought I saw Magnolia's eyes sparkle—or maybe it<br>was just my imagination.<br> 
@@ -179,18 +179,18 @@ asynccameramove,EaseInTarget,Y,-300,0.5,CONT,0
 
 charaface,chara_1,FaceHappy
 window,on,0.15
-message,マックン[マニョリア],Yeah，looks like she's all in. So Magnolia's gonna get ""training""<br>here?<br> ,900000003
+message,マックン[マニョリア],Yeah，looks like she's all in. So Magnolia's gonna get 'training'<br>here?<br> ,900000003
 
 message,マックン[マニョリア],Don't you worry，Magnolia! Just follow my advice and you'll be fine!<br> ,900000003
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
-message,<user>,Huh? Hey，don't tell me you're planning to join the ""training"" too?<br> 
+message,<user>,Huh? Hey，don't tell me you're planning to join the 'training' too?<br> 
 
 message,マックン[マニョリア],Of course! Magnolia can't do a thing without me.<br> ,900000003
 
 charaface,chara_2,FaceFun
-message,,The magical plant was raring to go. But having a chatterbox like<br>that watching，even if it was a plant，was unnerving.<br> 
+message,,The magical plant was raring to go. But having a chatterbox like<br>that watching，even though it was a plant，was unnerving.<br> 
 
 window,off
 wait,0.15
@@ -233,7 +233,7 @@ asynccharareaction,chara_2,Nod,1,STOP
 asynccharaemo,chara_2,Laugh,STOP
 
 charaface,chara_2,FaceUnique03
-message,ルディア,Oh my，he seems to have dozed off. Now then，now that it's quiet，you<br>two，please head to the room.<br> ,,vc_10240100011_010_01
+message,ルディア,Oh my，he seems to have dozed off. Now that it's quiet，you two，please<br>head to the room.<br> ,,vc_10240100011_010_01
 
 message,マニョリア,Huh?... Uh... Um... Y-yes...<br> ,,vc_10240100011_011_01
 

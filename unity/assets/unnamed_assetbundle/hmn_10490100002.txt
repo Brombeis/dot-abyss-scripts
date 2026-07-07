@@ -38,7 +38,7 @@ asynccharascale,chara_1,1.5,0,CONT,0
 asynccharashowalpha,chara_1,1,0.3,CONT,0
 
 window,on,0.15
-message,<user>,いやあ、いい天気だな、クロエ。<br>まさにデート日和って感じだ。
+message,<user>,Man，great weather，Chloe. Really feels like perfect date weather.<br> 
 
 asyncjump,CHARA,chara_1,-30,0.5,2,off,0,CONT
 
@@ -47,11 +47,11 @@ asyncseplay,setag1_1,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,クロエ,…………。,104901000G,vc_10490100002_001_01,chara_1
+message,クロエ,...<br> ,104901000G,vc_10490100002_001_01,chara_1
 
-message,,<user>の手をぎこちなく握り、<br>クロエはカクカクと機械的に頷く。
+message,,Chloe awkwardly took %user%'s hand and nodded mechanically.<br> 
 
-message,<user>,まあデートってことだし、<br>とりあえずショッピングにでもいくか。
+message,<user>,Well，it's a date，so let's do some shopping，I guess.<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0.3,STOP
 
@@ -60,7 +60,7 @@ asyncseplay,setag1_2,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,クロエ,……………………。,104901000G,vc_10490100002_002_01,chara_1
+message,クロエ,...<br> ,104901000G,vc_10490100002_002_01,chara_1
 
 window,off
 wait,0.15
@@ -114,9 +114,9 @@ asynccharaemo,chara_2,BePeevish,CONT,0
 
 
 window,on,0.15
-message,アリシア,いいですか、２人とも！,300201000,vc_10490100002_003_01,chara_2
+message,アリシア,Listen up，you two!<br> ,300201000,vc_10490100002_003_01,chara_2
 
-message,<user>,うわっ！？　アリシア！
+message,<user>,Whoa! Alicia!<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -127,7 +127,7 @@ asyncseplay,setag1_4,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,クロエ,…………っ！？,104901000G,vc_10490100002_004_01,chara_1
+message,クロエ,...<br> ,104901000G,vc_10490100002_004_01,chara_1
 
 asynccharaface,chara_2,FaceUnique03,CONT,0
 
@@ -138,7 +138,7 @@ asyncseplay,setag1_5,se4800001,0,1,CONT,0
 asynccharaemo,chara_2,Anger,CONT,0
 
 
-message,アリシア,もっと仲を深めてください……！<br>女性騎士に興味がなくなっちゃうぐらいに！,300201000,vc_10490100002_005_01,chara_2
+message,アリシア,Please get closer... to the point where you lose interest in female<br>knights!<br> ,300201000,vc_10490100002_005_01,chara_2
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -149,7 +149,7 @@ asyncseplay,setag1_6,se4800016,0,1,CONT,0
 asynccharaemo,chara_2,BePeevish,CONT,0
 
 
-message,アリシア,ちゃんと見てますからね！　それじゃあ失礼します！,300201000,vc_10490100002_006_01,chara_2
+message,アリシア,I'm watching you，you know! Well，I'll be off!<br> ,300201000,vc_10490100002_006_01,chara_2
 
 window,off
 wait,0.15
@@ -167,7 +167,7 @@ charaMask,chara_1,1536,1536,0.5
 asyncwait
 
 window,on,0.15
-message,<user>,うわぁ……アリシアのやつ、監視までしてるのか。<br>こりゃ逃げられそうにないな……
+message,<user>,Ugh... Alicia's even monitoring us. No chance of escaping now...<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -178,7 +178,7 @@ asyncseplay,setag1_7,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,クロエ,………………………………。,104901000G,vc_10490100002_007_01,chara_1
+message,クロエ,...<br> ,104901000G,vc_10490100002_007_01,chara_1
 
 
 window,off
@@ -215,7 +215,7 @@ wait,1
 transitionFade,Tra01,in,black,1
 
 window,on,0.15
-message,<user>,色々と売っているが、興味のあるものは？
+message,<user>,There's a lot of stuff here. Anything catch your interest?<br> 
 
 asyncshake,CHARA,chara_1,20,0,0.5,3,off,off,0,off,CONT,0
 
@@ -224,11 +224,11 @@ asyncseplay,setag1_8,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,クロエ,…………………………………………。,104901000G,vc_10490100002_008_01,chara_1
+message,クロエ,...<br> ,104901000G,vc_10490100002_008_01,chara_1
 
-message,,クロエはガクガクと揺れながら首を振る。
+message,,Chloe trembled and shook her head.<br> 
 
-message,<user>,……そ、そうか。<br>まあ軽く見て回って、食事でもするか。
+message,<user>,...Right，well. Let's just look around and then grab a meal.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -239,7 +239,7 @@ asyncseplay,setag1_9,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,クロエ,……………………………………………………。,104901000G,vc_10490100002_009_01,chara_1
+message,クロエ,...<br> ,104901000G,vc_10490100002_009_01,chara_1
 
 
 window,off
@@ -274,7 +274,7 @@ wait,1
 transitionFade,Tra01,in,black,1
 
 window,on,0.15
-message,<user>,さて、こっちで勝手に注文してしまったが大丈夫か？<br>何か嫌いなものがあったりは？
+message,<user>,Anyway，I went ahead and ordered for us. That okay? Any food you<br>don't like?<br> 
 
 asyncshake,CHARA,chara_1,20,0,0.5,3,off,off,0,off,CONT,0
 
@@ -283,11 +283,11 @@ asyncseplay,setag1_10,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,クロエ,………………………………………………………………。,104901000G,vc_10490100002_010_01,chara_1
+message,クロエ,...<br> ,104901000G,vc_10490100002_010_01,chara_1
 
-message,<user>,そうか、なら良かった……
+message,<user>,I see，that's good then...<br> 
 
-message,<user>,……って、いい加減にしろーっ！
+message,<user>,...All right，that's enough!<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -298,9 +298,9 @@ asyncseplay,setag1_11,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,クロエ,ひゃうっ！？,104901000G,vc_10490100002_011_01,chara_1
+message,クロエ,Eep!<br> ,104901000G,vc_10490100002_011_01,chara_1
 
-message,<user>,やらされてるとはいえデートなのに、<br>１言も喋らないってのはどういうことだっ！
+message,<user>,I know this is a forced date，but how can you not say a single word!<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -311,7 +311,7 @@ asyncseplay,setag1_12,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,クロエ,だ、だって男の人とお出かけなんて初めてで、<br>しかも手を繋いで、なんて……,104901000G,vc_10490100002_012_01,chara_1
+message,クロエ,B-but it's my first time going out with a guy，and holding<br>hands，and...<br> ,104901000G,vc_10490100002_012_01,chara_1
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -320,11 +320,11 @@ asyncseplay,setag1_13,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,クロエ,緊張でドキドキしちゃって、<br>司令官くんとちゃんと話すなんて無理ですよぉ……,104901000G,vc_10490100002_013_01,chara_1
+message,クロエ,I'm so nervous my heart's pounding—there's no way I can talk<br>properly with you，Commander...<br> ,104901000G,vc_10490100002_013_01,chara_1
 
-message,<user>,……そういうことなら、まあいいが。<br>もう少しクロエが話しやすそうな話題を振るか。
+message,<user>,...If that's the case，then fine. Let me think of a topic that might<br>be easier for Chloe to talk about.<br> 
 
-message,<user>,そうだなあ、クロエは仕事以外の時間は何をしているんだ？
+message,<user>,So，Chloe，what do you do in your free time?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -335,9 +335,9 @@ asyncseplay,setag1_14,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,クロエ,それはもちろん、騎士活です。,104901000G,vc_10490100002_014_01,chara_1
+message,クロエ,Of course，it's my knightvities!<br> ,104901000G,vc_10490100002_014_01,chara_1
 
-message,<user>,……きしかつ、というのは？<br>クロエは魔法使いであって、騎士じゃないだろ？
+message,<user>,...'Knightvities'? But you're a mage，not a knight，right?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -345,7 +345,7 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,クロエ,ああ、一般の方には伝わらないですよねえ。<br>騎士活っていうのは騎士を推す活動のことなんです。,104901000G,vc_10490100002_015_01,chara_1
+message,クロエ,Ah，that's not something ordinary people understand. Knightvities is<br>the activity of supporting your favorite knights.<br> ,104901000G,vc_10490100002_015_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -356,9 +356,9 @@ asyncseplay,setag1_15,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,クロエ,好みの騎士を愛でて応援するファン活動って感じでぇ、<br>影から日向から、邪魔にならないよう、でも積極的に応援するんですぅ。,104901000G,vc_10490100002_016_01,chara_1
+message,クロエ,It's a fan activity where you adore and support your favorite<br>knights—from shadow to open，careful not to intrude but cheering them on.<br> ,104901000G,vc_10490100002_016_01,chara_1
 
-message,<user>,騎士へのファン活動ね、まあ分かる話だな。<br>街の人も、パレードする姿を見て惚れた、なんてよく聞くし。
+message,<user>,So，knight fandom，huh? I can see that. I hear people in town say they<br>fell for them during their parades.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -369,9 +369,9 @@ asyncseplay,setag1_16,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,クロエ,はい、同好の士もたくさんいる、<br>とても一般的な趣味なんですよ～！,104901000G,vc_10490100002_017_01,chara_1
+message,クロエ,Yes，there are plenty of like-minded people! It's a very common<br>hobby!<br> ,104901000G,vc_10490100002_017_01,chara_1
 
-message,<user>,一般的ってのは嘘だろ、さすがに……
+message,<user>,There's no way it's common，surely...<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -382,9 +382,9 @@ asyncseplay,setag1_17,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,クロエ,何を隠そう、この基地に来たのも推しを間近で見るためなんです。<br>ずっと異動願いを出し続けてたんですよぉ。,104901000G,vc_10490100002_018_01,chara_1
+message,クロエ,The truth is，I came to this base to see my favorite knight up close.<br>I've been submitting transfer requests forever，you know?<br> ,104901000G,vc_10490100002_018_01,chara_1
 
-message,<user>,女性騎士を見るためだけにこんな最前線に？<br>趣味に命をかけすぎなんじゃないか？
+message,<user>,You came to this frontline just to see female knights? That's<br>risking your life for a hobby，isn't it?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -396,7 +396,7 @@ asyncseplay,setag1_18,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,クロエ,そんなことありませんよぉ。<br>移動を報告したら、界隈からは祝福と嫉妬の嵐だったんですから～。,104901000G,vc_10490100002_019_01,chara_1
+message,クロエ,Not at all! When I reported my transfer，the community was a<br>whirlwind of congratulations and jealousy!<br> ,104901000G,vc_10490100002_019_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -407,7 +407,7 @@ asyncseplay,setag1_19,se4800002,0,1,CONT,0
 asynccharaemo,chara_1,Heart,CONT,0
 
 
-message,クロエ,この前の現場が初めての現地参戦でしたけど、<br>間近で推しが輝くところを見られて震えましたぁ～！,104901000G,vc_10490100002_020_01,chara_1
+message,クロエ,The last time was my first live show—I was trembling seeing my<br>favorite knight shine up close!<br> ,104901000G,vc_10490100002_020_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -418,11 +418,11 @@ asyncseplay,setag1_20,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,クロエ,しかも確定ファンサまでもらっちゃって……！<br>もう尊みが深すぎて昇天しかけましたよぉ。,104901000G,vc_10490100002_021_01,chara_1
+message,クロエ,And on top of that，I even got confirmed fan service...! The<br>preciousness was so deep I almost ascended.<br> ,104901000G,vc_10490100002_021_01,chara_1
 
-message,<user>,するなするな。<br>ソフィアも声をかけただけで天に昇られたら困るだろ。
+message,<user>,Don't do that，don't do that. If Sophia also ascended just from being<br>spoken to，I'd be in trouble.<br> 
 
-message,<user>,ちなみにクロエは誰のファンなんだ？<br>やっぱりソフィアか？
+message,<user>,By the way，Chloe，who's your favorite? I'm guessing Sophia?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -430,7 +430,7 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,クロエ,あー、私は単推しじゃなくミレスガルドの姫騎士箱推しなんですよねぇ。,104901000G,vc_10490100002_022_01,chara_1
+message,クロエ,Ah，I'm not a single-oshi—I'm a box-oshi of the Milesgard knights.<br> ,104901000G,vc_10490100002_022_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -441,9 +441,9 @@ asyncseplay,setag1_21,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,クロエ,けどあえて誰担かと聞かれたらイラ担ですね。<br>あえてですよ、あえて。,104901000G,vc_10490100002_023_01,chara_1
+message,クロエ,But if you ask me who I support，I'm an Elizafan. And I say it<br>deliberately.<br> ,104901000G,vc_10490100002_023_01,chara_1
 
-message,<user>,分からない単語がぽんぽん出てくるんだが、<br>そのイラ担ってのはなんなんだ？
+message,<user>,What's an 'Elizafan'?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -451,9 +451,9 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,クロエ,ええと、イライザさんを特に推してるってことです。,104901000G,vc_10490100002_024_01,chara_1
+message,クロエ,Um，it means I'm a particular fan of Lady Eliza.<br> ,104901000G,vc_10490100002_024_01,chara_1
 
-message,<user>,ああ、イライザのイラか。<br>確かにあいつは頼れるからな、応援するのも分かる。
+message,<user>,Ah，Eliza. Yeah，she's reliable—I get why you'd be a fan.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -464,9 +464,9 @@ asyncseplay,setag1_22,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,クロエ,なっ……担当の前で能天気にイライザさんを語るなんて……。<br>私が同担拒否じゃなくて良かったですね、司令官くん……！,104901000G,vc_10490100002_025_01,chara_1
+message,クロエ,Wh-wha...! Talking so casually about Lady Eliza in front of her<br>fan...! Good thing I'm not one to reject same-fans，Commander!<br> ,104901000G,vc_10490100002_025_01,chara_1
 
-message,<user>,何がなんだか分からんが、恩の押し売りはやめてくれ！<br>俺は普通に仲間について話しただけだ！
+message,<user>,I don't know what you're on about，but don't guilt-trip me! I was<br>just talking about a comrade!<br> 
 
 window,off
 wait,0.15
@@ -482,7 +482,7 @@ asynccameramove,EaseInTarget,Y,-400,0.5,CONT,0
 asyncwait
 
 window,on,0.15
-message,<user>,……ん、よく見ればクロエが腰につけてるそれ、<br>イライザのぬいぐるみなんだな。
+message,<user>,... Huh，now that I look，that thing on your waist—it's an Eliza<br>plushie，isn't it?<br> 
 
 window,off
 wait,0.15
@@ -507,14 +507,14 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,クロエ,あ、そうですそうです！　イラぬいなんです！<br>自分で作ったんですが、我ながらいいできで、ぐふふふふ……,104901000G,vc_10490100002_026_01,chara_1
+message,クロエ,Ah，that's right，that's right! It's an Elushie! I made it myself，and<br>it turned out well，gufufufu...<br> ,104901000G,vc_10490100002_026_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
 
-message,クロエ,まあ自給自足は良い文化ではあれど、<br>公式グッズではないので推しへ貢献してないって難しさもあるんですけども。,104901000G,vc_10490100002_027_01,chara_1
+message,クロエ,Well，DIY is all well and good，but since it's not official<br>merch，there's the dilemma that I'm not supporting my favorite.<br> ,104901000G,vc_10490100002_027_01,chara_1
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -523,9 +523,9 @@ asyncseplay,setag1_24,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,クロエ,その辺りは公式からの供給不足も１つの原因であって、<br>私の中ではその辺りで折り合いをつけているといいますかぁ。,104901000G,vc_10490100002_028_01,chara_1
+message,クロエ,That's partly due to the lack of official merchandise，so I've sort<br>of made peace with it，I suppose.<br> ,104901000G,vc_10490100002_028_01,chara_1
 
-message,<user>,そりゃ女性騎士のぬいぐるみなんてこっちが作るわけないだろ。<br>いや、売れるならやってみてもいいのか……？
+message,<user>,Well，we're not going to make female knight plushies. Then again，if<br>they'd sell，maybe we should think about it...<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -536,9 +536,9 @@ asyncseplay,setag1_25,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,クロエ,気軽なメッセージが公式を動かしちゃった……！？<br>嬉しいけど、他担からの目が怖い……！,104901000G,vc_10490100002_029_01,chara_1
+message,クロエ,A casual message actually made the official account move...! I'm<br>happy，but I'm terrified of the attention from other knights' fans...!<br> ,104901000G,vc_10490100002_029_01,chara_1
 
-message,<user>,他担、ねえ。他の騎士にもファンはいるわけか。<br>クロエは他に好きな騎士はいないのか？　ミレスガルド以外の騎士とかさ。
+message,<user>,Other knights have fans too，huh. Chloe，don't you have any favorite<br>knights from outside Milesgard?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -550,7 +550,7 @@ asyncseplay,setag1_26,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,クロエ,ミレ騎士メインではありますが、他箱もしっかり履修済みですよ。<br>そもそもイライザさんがペルディオンの方ですしね。,104901000G,vc_10490100002_030_01,chara_1
+message,クロエ,Milesgard knights are my main，but I've thoroughly covered the other<br>groups too. After all，Eliza herself is from Perdion.<br> ,104901000G,vc_10490100002_030_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -561,7 +561,7 @@ asyncseplay,setag1_27,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,クロエ,あ、もちろん雑食、ＤＤではありませんよ？<br>それはご理解くださいね！,104901000G,vc_10490100002_031_01,chara_1
+message,クロエ,Ah，of course I don't like everyone and everything equally! Please<br>understand that!<br> ,104901000G,vc_10490100002_031_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -572,7 +572,7 @@ asyncseplay,setag1_28,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,クロエ,推し箱があるからといって他箱を悪く言うのは反対派なんですよね～。<br>おとなりさんにもおとなりさんの良さがあるのは理解していますから。,104901000G,vc_10490100002_032_01,chara_1
+message,クロエ,Just because I have a favorite group doesn't mean I badmouth other<br>groups—I'm opposed to that. I understand each group has its own merits.<br> ,104901000G,vc_10490100002_032_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -583,7 +583,7 @@ asyncseplay,setag1_29,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,クロエ,そういうのを配慮せずにマウント合戦しちゃうような民度じゃ、<br>推しにまで白い目で見られちゃうんですよ。,104901000G,vc_10490100002_033_01,chara_1
+message,クロエ,If the fandom's so low they start one-upmanship wars without<br>consideration，even our favorites will give us the cold shoulder.<br> ,104901000G,vc_10490100002_033_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -595,9 +595,9 @@ asyncseplay,setag1_30,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,クロエ,それにぃ、ファンの民度が原因で推しが悪く思われるのは<br>一番情けないことですからね！,104901000G,vc_10490100002_034_01,chara_1
+message,クロエ,And besides，the most disgraceful thing is when our favorites are<br>looked down on because of the fans' quality.<br> ,104901000G,vc_10490100002_034_01,chara_1
 
-message,<user>,……分からん言葉が多すぎる。<br>もう雰囲気で理解しておくぞ。
+message,<user>,...There are too many words I don't understand. I'll just go with<br>the vibe.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -608,9 +608,9 @@ asyncseplay,setag1_31,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,クロエ,あ、そんな感じでどうぞです。<br>ごめんなさい、騎士活のことになるとついつい喋りすぎちゃってぇ……,104901000G,vc_10490100002_035_01,chara_1
+message,クロエ,Oh，that's fine! Sorry，when it comes to knight activities，I end up<br>talking too much...<br> ,104901000G,vc_10490100002_035_01,chara_1
 
-message,<user>,いや、聞いてて中々面白いぞ。<br>もっと色々教えてくれ。
+message,<user>,No，it's actually pretty interesting to listen to. Tell me more.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -621,9 +621,9 @@ asyncseplay,setag1_32,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,クロエ,ええっ！？　司令官くん、もしかして才能あります？<br>次の現場、一緒に参戦する？　最前狙っちゃう？,104901000G,vc_10490100002_036_01,chara_1
+message,クロエ,What! Commander，do you have a talent for this? Want to come to the<br>next event with me? Want to aim for the front row?<br> ,104901000G,vc_10490100002_036_01,chara_1
 
-message,<user>,俺は現場にいるし、前には出ないんだよ。<br>司令官なんだからな。
+message,<user>,I'm already on the field，and I don't go to the front. I'm the<br>Commander，after all.<br> 
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -635,7 +635,7 @@ asyncseplay,setag1_33,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,クロエ,あぁ～、その口ぶりは現場の楽しみを分かってないですね～。<br>いいですか、まず推しの姫騎士の見つけかたからお話を……,104901000G,vc_10490100002_037_01,chara_1
+message,クロエ,Aah，that tone means you don't get the fun of live events.<br>Alright，first，let me tell you how to find your favorite Princess Knight...<br> ,104901000G,vc_10490100002_037_01,chara_1
 
 window,off
 wait,0.15
@@ -696,7 +696,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,アリシア,――はい、ストップ！<br>そこまでですー！,300201000,vc_10490100002_038_01,chara_2
+message,アリシア,—Okay，stop! That's far enough!<br> ,300201000,vc_10490100002_038_01,chara_2
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -707,9 +707,9 @@ asyncseplay,setag1_35,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,クロエ,はぇ、アリシアさん？,104901000G,vc_10490100002_039_01,chara_1
+message,クロエ,Huh，Alicia?<br> ,104901000G,vc_10490100002_039_01,chara_1
 
-message,<user>,どうしたんだ、やっと話が盛り上がってきたところだぞ。
+message,<user>,What's wrong? The conversation was just getting good.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -720,7 +720,7 @@ asyncseplay,setag1_36,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,クロエ,そうですよ、楽しくお話してたのにぃ。,104901000G,vc_10490100002_040_01,chara_1
+message,クロエ,That's right，we were having a nice conversation...<br> ,104901000G,vc_10490100002_040_01,chara_1
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -731,7 +731,7 @@ asyncseplay,setag1_37,se4800010,0,1,CONT,0
 asynccharaemo,chara_2,Exclamation,CONT,0
 
 
-message,アリシア,その話の内容が女性騎士の皆さんのことになっちゃってるでしょう！<br>他のことに、司令官に興味を持ってもらわなきゃいけないのにっ！,300201000,vc_10490100002_041_01,chara_2
+message,アリシア,The conversation has become all about the female knights now! We<br>need to get the Commander interested in other things!<br> ,300201000,vc_10490100002_041_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -742,7 +742,7 @@ asyncseplay,setag1_38,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,クロエ,ふあっ！？　そうでした、気づけば推しの話をしちゃってました～！,104901000G,vc_10490100002_042_01,chara_1
+message,クロエ,Ohh! That's right，I got carried away talking about my favorite<br>again!<br> ,104901000G,vc_10490100002_042_01,chara_1
 
 asynccharaface,chara_2,FaceUnique03,CONT,0
 
@@ -753,9 +753,9 @@ asyncseplay,setag1_39,se4800016,0,1,CONT,0
 asynccharaemo,chara_2,BePeevish,CONT,0
 
 
-message,アリシア,それじゃダメなんです！<br>デート作戦はいったん中止です！,300201000,vc_10490100002_043_01,chara_2
+message,アリシア,That's no good! The date operation is on hold for now!<br> ,300201000,vc_10490100002_043_01,chara_2
 
-message,<user>,あー、アリシア？<br>いったん、ということはまだ諦めてないのか？
+message,<user>,Hey，Alicia? By 'for now，' you mean you haven't given up yet?<br> 
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -767,7 +767,7 @@ asyncseplay,setag1_40,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,アリシア,もちろんです！　デートでダメだった以上は、最終手段しかありません！<br>覚悟してくださいね、お２人とも！,300201000,vc_10490100002_044_01,chara_2
+message,アリシア,Of course! Since the date didn't work，we have no choice but the<br>final measure! Be prepared，both of you!<br> ,300201000,vc_10490100002_044_01,chara_2
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -778,7 +778,7 @@ asyncseplay,setag1_41,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,クロエ,何をやらされるんです、私たち～！,104901000G,vc_10490100002_045_01,chara_1
+message,クロエ,What are you going to make us do!<br> ,104901000G,vc_10490100002_045_01,chara_1
 
 window,off
 bgmstop,bgmtag1_1,0.5

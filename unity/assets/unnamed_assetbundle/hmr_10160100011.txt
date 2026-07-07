@@ -26,11 +26,11 @@ bgmplay,bgmtag1_1,bgm0041,0.75,1
 
 
 window,on,0.15
-message,<user>,*sigh*... doing paperwork alone really doesn't get me fired up...<br> 
+message,<user>,*sigh*... Doing paperwork alone really doesn't get me fired up...<br> 
 
-message,,I was in the command room，checking the documents，and muttered that<br>out of boredom. It was then that—<br> 
+message,,I was in the command room checking documents when I muttered that<br>out of boredom. That was when—<br> 
 
-message,？？？,—Then，could I talk to you about something?<br> ,900000001,vc_10160100011_001_01,
+message,？？？,...Then，could I talk to you about something?<br> ,900000001,vc_10160100011_001_01,
 
 shake,BACK,,40,0,0.25,20,off,off,0
 shake,CHARA,chara_1,40,0,0.25,20,off,off,0
@@ -67,7 +67,7 @@ transitionCrossFade,Tra16,1
 wait,1
 
 window,on,0.15
-message,,Startled by the voice from behind，I spun around to find Wisteria<br>standing there with a composed expression.<br> 
+message,,Startled by the voice from behind，I spun around to find Wisteria<br>standing there，her expression composed.<br> 
 
 message,<user>,Y-you scared me... When did you get there?<br> 
 
@@ -78,7 +78,7 @@ asyncseplay,setag1_1,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ウィステリア,I've been here for a while. I didn't mean to startle you... I just<br>wasn't sure how to get your attention.<br> ,101601000G,vc_10160100011_002_01,chara_1
+message,ウィステリア,I've been here a while. I didn't mean to startle you... Just wasn't<br>sure how to get your attention.<br> ,101601000G,vc_10160100011_002_01,chara_1
 
 message,<user>,That sneaky skill of yours is still as creepy as ever... So，what did<br>you want to talk about?<br> 
 
@@ -89,7 +89,7 @@ asyncseplay,setag1_2,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ウィステリア,Ah... well... I'm not good with being in the spotlight，so I often<br>keep to the forest to avoid standing out，but—<br> ,101601000G,vc_10160100011_003_01,chara_1
+message,ウィステリア,Ah... well... I'm not good in the spotlight，so I keep to the forest<br>to avoid standing out，but—<br> ,101601000G,vc_10160100011_003_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -110,7 +110,7 @@ asyncseplay,setag1_4,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ウィステリア,Apparently they didn't notice I was there. Right in front of me，a<br>colleague—well，um—started... making love.<br> ,101601000G,vc_10160100011_004_01,chara_1
+message,ウィステリア,Apparently they didn't notice I was there. Right in front of me，a<br>colleague... well，um... started... making love.<br> ,101601000G,vc_10160100011_004_01,chara_1
 
 message,<user>,They started having sex right in front of you while you were hiding?<br>That must have been a shock，but... what's the problem?<br> 
 
@@ -123,7 +123,7 @@ asyncseplay,setag1_5,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ウィステリア,Well... ever since then... I keep having dreams... over and over...<br>where I'm being taken in the same position as that colleague was...<br> ,101601000G,vc_10160100011_005_01,chara_1
+message,ウィステリア,Well... ever since then... I keep having dreams... over and over...<br>where I'm taken in the same position as that colleague...<br> ,101601000G,vc_10160100011_005_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -134,7 +134,7 @@ asyncseplay,setag1_6,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ウィステリア,And the person doing it is always—always you.<br> ,101601000G,vc_10160100011_006_01,chara_1
+message,ウィステリア,And the person doing it is always... always you.<br> ,101601000G,vc_10160100011_006_01,chara_1
 
 message,<user>,Huh... Wh-what!<br> 
 
@@ -151,7 +151,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(She's been having dreams of having sex with me...? That<br>strong，quiet，somewhat mysterious Wisteria?)<br> 
+message,<user>,(She's been dreaming about having sex with me...? That<br>strong，quiet，somewhat mysterious Wisteria?)<br> 
 
 window,off
 wait,0.15
@@ -264,7 +264,7 @@ message,,Blushing furiously and unable to even speak，Wisteria still nodded<br>
 
 message,,From her serious expression，it was clear that the dreams were<br>troubling her deeply.<br> 
 
-message,,I looked at her again as a woman. Her figure was perfect. But<br>perhaps because she was used to camping out in the wild，she seemed to lack a certain feminine allure.<br> 
+message,,I looked at her again as a woman. Her figure was perfect，but her<br>years of camping had left her with little feminine allure.<br> 
 
 window,off
 wait,0.15

@@ -486,7 +486,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ローザ,アリシアさん、何かお困りですか？,100101000G,vc_10010100002_013_01,chara_1
+message,ローザ,Alicia，is something troubling you?<br> ,100101000G,vc_10010100002_013_01,chara_1
 
 asynccharaface,chara_3,FaceSurprise,CONT,0
 
@@ -497,7 +497,7 @@ asyncseplay,setag1_18,se4800010,0,1,CONT,0
 asynccharaemo,chara_3,Exclamation,CONT,0
 
 
-message,アリシア,あ、ローザさん！<br>実は司令官が、仕事を放ってどこかへ行ってしまって……,300201000,vc_10010100002_014_01,chara_3
+message,アリシア,Oh，Rosa! Actually，the Commander abandoned his work and went off<br>somewhere...<br> ,300201000,vc_10010100002_014_01,chara_3
 
 window,off
 wait,0.15
@@ -543,7 +543,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ローザ,し、司令官殿がっ！？<br>仕事を放棄して、ですかっ！？,100101000G,vc_10010100002_015_01,chara_1
+message,ローザ,T-the Lord Commander! Abandoned his work?<br> ,100101000G,vc_10010100002_015_01,chara_1
 
 window,off
 wait,0.15
@@ -597,7 +597,7 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,アリシア,そうなんです。期限の近い報告書がたくさんあるのに……。<br>ローザさん、司令官を見てませんか？,300201000,vc_10010100002_016_01,chara_3
+message,アリシア,That's right! Even though there are so many reports coming due...<br>Rosa，have you seen the Commander?<br> ,300201000,vc_10010100002_016_01,chara_3
 
 window,off
 wait,0.15
@@ -622,7 +622,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ローザ,見ては……いるのです、が……,100101000G,vc_10010100002_017_01,chara_1
+message,ローザ,I have seen him... but...<br> ,100101000G,vc_10010100002_017_01,chara_1
 
 window,off
 wait,0.15
@@ -641,7 +641,7 @@ wait,0.5
 
 
 window,on,0.15
-message,アリシア,本当ですか！？<br>司令官はどこに行きましたっ！？,300201000,vc_10010100002_018_01,chara_3
+message,アリシア,Really! Where did he go?<br> ,300201000,vc_10010100002_018_01,chara_3
 
 window,off
 wait,0.15
@@ -658,7 +658,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ローザ,その、ですね……,100101000G,vc_10010100002_019_01,chara_1
+message,ローザ,Well，um...<br> ,100101000G,vc_10010100002_019_01,chara_1
 
 window,off
 wait,0.15
@@ -713,7 +713,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ローザ,（アリシアさんはとても困っていますが、<br>きっとこのまま店の中に通せば、司令官殿も困ってしまいます）,100101000G,vc_10010100002_020_01,chara_1
+message,ローザ,(Alicia is clearly distressed，but if I let her in，I'll only cause<br>trouble for the Lord Commander as well.)<br> ,100101000G,vc_10010100002_020_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -724,7 +724,7 @@ asyncseplay,setag1_26,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ローザ,（それでは護衛として任された仕事を果たせません。<br>ですがアリシアさんも放っておくわけには……）,100101000G,vc_10010100002_021_01,chara_1
+message,ローザ,(Then I can't fulfill my duty as his escort. But I can't just leave<br>Alicia to her own devices either...)<br> ,100101000G,vc_10010100002_021_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -735,7 +735,7 @@ asyncseplay,setag1_27,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ローザ,（ど、どうすればいいんでしょうっ！？）,100101000G,vc_10010100002_022_01,chara_1
+message,ローザ,(W-what should I do?)<br> ,100101000G,vc_10010100002_022_01,chara_1
 
 window,off
 wait,0.15
@@ -800,7 +800,7 @@ asynccharaemo,chara_3,Flash,STOP,1
 asyncjump,CHARA,chara_3,-30.6,0.5,1,off,1.5,STOP
 
 window,on,0.15
-message,,困り果てるローザ。<br>アリシアはその背後にある建物を見て、すべてを理解したように頷いた。
+message,,Rosa was utterly perplexed. Alicia looked at the building behind her<br>and nodded，as if understanding everything.<br> 
 
 asynccharaface,chara_3,FaceAnger,CONT,0
 
@@ -811,7 +811,7 @@ asyncseplay,setag1_30,se4800001,0,1,CONT,0
 asynccharaemo,chara_3,Anger,CONT,0
 
 
-message,アリシア,……ああ、そういうことですか。<br>酒場にいるんですね、司令官っ！,300201000,vc_10010100002_023_01,chara_3
+message,アリシア,...Ah，I see! So the Commander is in the tavern!<br> ,300201000,vc_10010100002_023_01,chara_3
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -822,7 +822,7 @@ asyncseplay,setag1_31,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ローザ,あ、アリシアさんっ！？<br>いけません、入ってはっ！,100101000G,vc_10010100002_024_01,chara_1
+message,ローザ,A-Alicia! You can't go in!<br> ,100101000G,vc_10010100002_024_01,chara_1
 
 asynccharaface,chara_3,FaceUnique03,CONT,0
 
@@ -833,7 +833,7 @@ asyncseplay,setag1_32,se4800016,0,1,CONT,0
 asynccharaemo,chara_3,BePeevish,CONT,0
 
 
-message,アリシア,問答無用です！,300201000,vc_10010100002_025_01,chara_3
+message,アリシア,No arguments!<br> ,300201000,vc_10010100002_025_01,chara_3
 
 window,off
 wait,0.15
@@ -878,7 +878,7 @@ bgmplay,bgmtag1_3,bgm0026,0.75,1
 transitionFade,Tra01,in,black,1
 
 window,on,0.15
-message,<user>,はっはっは！　いやー、今日の酒はいい！<br>仕事を放って飲む酒は、何よりも美味いな！
+message,<user>,Hahaha! Man，today's booze is hitting the spot! There's nothing<br>better than a drink when you've blown off work!<br> 
 
 window,off
 wait,0.15
@@ -920,7 +920,7 @@ asynccharaemo,chara_3,Anger,CONT,0
 
 
 window,on,0.15
-message,アリシア,司令官ーっ！<br>何をしてるんですかっ！！！,300201000,vc_10010100002_026_01,chara_3
+message,アリシア,Commander! What do you think you're doing?<br> ,300201000,vc_10010100002_026_01,chara_3
 
 window,off
 wait,0.15
@@ -930,7 +930,7 @@ charafocusonall
 linework,off,Black,Middle
 
 window,on,0.15
-message,<user>,ア、アリシアだとっ！？<br>なぜここにいる！？　護衛のローザはどうしたっ！？
+message,<user>,A-Alicia! Why are you here? What about my guard Rosa?<br> 
 
 window,off
 wait,0.15
@@ -990,7 +990,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ローザ,も、申し訳ありませんっ！　止めることができずっ！,100101000G,vc_10010100002_027_01,chara_1
+message,ローザ,I-I'm terribly sorry! I couldn't stop her!<br> ,100101000G,vc_10010100002_027_01,chara_1
 
 window,off
 wait,0.15
@@ -1031,16 +1031,16 @@ asynccharamove,chara_1,EaseOut,X,-100,0.3,CONT,0
 asyncwait
 
 window,on,0.15
-message,,慌てたローザは<user>を守るように、<br>アリシアの前へ立ちふさがる。
+message,,Panicked，Rosa stood in front of Alicia as if to protect the<br>Commander.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,ローザ,アリシアさん、それ以上はおやめくださいっ！<br>司令官殿へは手出しさせませんよっ！,100101000G,vc_10010100002_028_01,chara_1
+message,ローザ,Alicia，please stop! I won't let you lay a hand on the Lord<br>Commander!<br> ,100101000G,vc_10010100002_028_01,chara_1
 
-message,<user>,おお、さすが護衛だ！<br>どうかアリシアから守ってくれ！
+message,<user>,Oh，my trusty guard! Please protect me from Alicia!<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1051,9 +1051,9 @@ asyncseplay,setag1_36,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ローザ,はい、この身に代えても！,100101000G,vc_10010100002_029_01,chara_1
+message,ローザ,Yes，even at the cost of my life!<br> ,100101000G,vc_10010100002_029_01,chara_1
 
-message,<user>,ありがとう、ローザ！<br>頼れるのはお前だけだよ……
+message,<user>,Thanks，Rosa! You're the only one I can rely on...<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1064,7 +1064,7 @@ asyncseplay,setag1_37,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ローザ,司令官殿……！,100101000G,vc_10010100002_030_01,chara_1
+message,ローザ,Lord Commander...!<br> ,100101000G,vc_10010100002_030_01,chara_1
 
 window,off
 wait,0.15
@@ -1116,7 +1116,7 @@ asynccharaemo,chara_3,BePeevish,CONT,0
 
 
 window,on,0.15
-message,アリシア,なんでわたしが悪いことになってるんですか！<br>司令官のせいでしょうっ！,300201000,vc_10010100002_031_01,chara_3
+message,アリシア,Why am I the bad guy here?! It's your fault，Commander!<br> ,300201000,vc_10010100002_031_01,chara_3
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1127,7 +1127,7 @@ asyncseplay,setag1_39,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ローザ,アリシアさん、どうかご容赦を！,100101000G,vc_10010100002_032_01,chara_1
+message,ローザ,Miss Alicia，please forgive him!<br> ,100101000G,vc_10010100002_032_01,chara_1
 
 window,off
 wait,0.15
@@ -1183,7 +1183,7 @@ asynccharamove,chara_3,EaseOut,Y,0,1,CONT,0
 asyncwait
 
 window,on,0.15
-message,,<user>に詰め寄ろうとしたアリシアを<br>身を挺してローザが防ぐ。
+message,,As Alicia tried to corner the Commander，Rosa threw herself in to<br>block her.<br> 
 
 asynccharaface,chara_3,FaceUnique03,CONT,0
 
@@ -1194,7 +1194,7 @@ asyncseplay,setag1_41,se4800016,0,1,CONT,0
 asynccharaemo,chara_3,BePeevish,CONT,0
 
 
-message,アリシア,もうー！　何がどうなってるんですか！<br>どうして司令官がお酒を飲むのに、護衛なんてするんですっ！,300201000,vc_10010100002_033_01,chara_3
+message,アリシア,Geez! What's going on here?! Why does the Commander need a guard<br>just to drink?!<br> ,300201000,vc_10010100002_033_01,chara_3
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -1203,7 +1203,7 @@ asyncseplay,setag1_42,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ローザ,その、司令官殿がお困りだったので……,100101000G,vc_10010100002_034_01,chara_1
+message,ローザ,Well，the Lord Commander seemed troubled，so...<br> ,100101000G,vc_10010100002_034_01,chara_1
 
 asynccharaface,chara_3,FaceAnger,CONT,0
 
@@ -1214,7 +1214,7 @@ asyncseplay,setag1_43,se4800016,0,1,CONT,0
 asynccharaemo,chara_3,BePeevish,CONT,0
 
 
-message,アリシア,全然困ってるようには見えませんっ！<br>ちゃんと説明してください！,300201000,vc_10010100002_035_01,chara_3
+message,アリシア,He doesn't look troubled at all! Please explain properly!<br> ,300201000,vc_10010100002_035_01,chara_3
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -1223,7 +1223,7 @@ asyncseplay,setag1_44,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ローザ,実は司令官殿は、重要な業務中なのです。<br>わたしはその護衛を務めていまして。,100101000G,vc_10010100002_036_01,chara_1
+message,ローザ,Actually，the Lord Commander is in the middle of important duties. I<br>am serving as his guard.<br> ,100101000G,vc_10010100002_036_01,chara_1
 
 asynccharaface,chara_3,FaceSurprise,CONT,0
 
@@ -1234,16 +1234,16 @@ asyncseplay,setag1_45,se4800009,0,1,CONT,0
 asynccharaemo,chara_3,Question,CONT,0
 
 
-message,アリシア,重要な業務……？,300201000,vc_10010100002_037_01,chara_3
+message,アリシア,Important duties...?<br> ,300201000,vc_10010100002_037_01,chara_3
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
 
-message,ローザ,はい、そう聞いています。,100101000G,vc_10010100002_038_01,chara_1
+message,ローザ,Yes，that's what I've been told.<br> ,100101000G,vc_10010100002_038_01,chara_1
 
-message,<user>,そうだぞアリシアー、俺は仕事中だ、邪魔するなー。
+message,<user>,That's right，Alicia. I'm working，so don't bother me.<br> 
 
 asynccharaface,chara_3,FaceUnique03,CONT,0
 
@@ -1254,7 +1254,7 @@ asyncseplay,setag1_46,se4800001,0,1,CONT,0
 asynccharaemo,chara_3,Anger,CONT,0
 
 
-message,アリシア,どう見ても嘘でしょうっ！<br>こんな仕事があるわけないじゃないですか！,300201000,vc_10010100002_039_01,chara_3
+message,アリシア,That's obviously a lie! There's no such job as this!<br> ,300201000,vc_10010100002_039_01,chara_3
 
 window,off
 wait,0.15
@@ -1310,9 +1310,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ローザ,そう、なのですか、司令官殿？,100101000G,vc_10010100002_040_01,chara_1
+message,ローザ,Is that so，Lord Commander?<br> ,100101000G,vc_10010100002_040_01,chara_1
 
-message,<user>,俺は嘘なんて言ってないぞ？<br>街の経済状況についての報告書があってな、実地で調査をしてるんだ。
+message,<user>,I'm not lying. I have a report on the city's economic situation，so<br>I'm conducting field research.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1323,7 +1323,7 @@ asyncseplay,setag1_49,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ローザ,なるほど！　そういうことだったんですね！,100101000G,vc_10010100002_041_01,chara_1
+message,ローザ,I see! So that's how it is!<br> ,100101000G,vc_10010100002_041_01,chara_1
 
 window,off
 wait,0.15
@@ -1378,7 +1378,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ローザ,ということですので、アリシアさん、<br>どうか今しばらくお時間をいただけませんか？,100101000G,vc_10010100002_042_01,chara_1
+message,ローザ,So，Miss Alicia，could you please give us a little more time?<br> ,100101000G,vc_10010100002_042_01,chara_1
 
 asynccharaface,chara_3,FaceUnique03,CONT,0
 
@@ -1389,9 +1389,9 @@ asyncseplay,setag1_51,se4800010,0,1,CONT,0
 asynccharaemo,chara_3,Exclamation,CONT,0
 
 
-message,アリシア,騙されないでください、ただの言い訳ですっ！<br>お酒を飲んで遊んでいるだけじゃないですかっ！,300201000,vc_10010100002_043_01,chara_3
+message,アリシア,Don't be fooled，it's just an excuse! He's just drinking and having<br>fun!<br> ,300201000,vc_10010100002_043_01,chara_3
 
-message,<user>,いやいや、前に来た時よりも客が減ってるぞ？<br>俺はしーっかり見てるからな～？
+message,<user>,No，no，there are fewer customers than last time，right? I've been<br>keeping a sharp eye out，you know?<br> 
 
 asyncjump,CHARA,chara_3,40,0.5,2,off,0,CONT
 
@@ -1400,7 +1400,7 @@ asyncseplay,setag1_52,se4800016,0,1,CONT,0
 asynccharaemo,chara_3,BePeevish,CONT,0
 
 
-message,アリシア,入り口でローザさんが目を光らせてるから、<br>荒っぽい人が入ってこなかっただけでしょうーっ！,300201000,vc_10010100002_044_01,chara_3
+message,アリシア,That's only because Rosa's been keeping watch at the<br>entrance，keeping the rough customers out!<br> ,300201000,vc_10010100002_044_01,chara_3
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -1409,9 +1409,9 @@ asyncseplay,setag1_53,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ローザ,ええ、司令官殿の危険を未然に排除するのは<br>護衛として当然の仕事です。,100101000G,vc_10010100002_045_01,chara_1
+message,ローザ,Indeed，it is my duty as a guard to eliminate any danger to the Lord<br>Commander before it occurs.<br> ,100101000G,vc_10010100002_045_01,chara_1
 
-message,<user>,うむ、よくやったな、ローザ。<br>この調子で頼むぞ～。
+message,<user>,Mm，well done，Rosa. Keep it up.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1422,7 +1422,7 @@ asyncseplay,setag1_54,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ローザ,はい、お任せくださいっ！,100101000G,vc_10010100002_046_01,chara_1
+message,ローザ,Yes，leave it to me!<br> ,100101000G,vc_10010100002_046_01,chara_1
 
 window,off
 wait,0.15
@@ -1470,7 +1470,7 @@ asynccharaemo,chara_3,Anger,CONT,0
 
 
 window,on,0.15
-message,アリシア,もうー！！！,300201000,vc_10010100002_047_01,chara_3
+message,アリシア,Geez!<br> ,300201000,vc_10010100002_047_01,chara_3
 
 window,off
 wait,0.15
@@ -1510,9 +1510,9 @@ asynccharaemo,chara_4,Speak,CONT,0
 
 
 window,on,0.15
-message,踊り子,あら司令官さん、別の女の子も呼んじゃったの？,401401000,vc_10010100002_048_01,chara_4
+message,踊り子,Oh，Commander，did you call another girl over?<br> ,401401000,vc_10010100002_048_01,chara_4
 
-message,<user>,ははは、今日の相手は君だけだよ。
+message,<user>,Hahaha，you're the only one for me today.<br> 
 
 asynccharaface,chara_4,FaceHappy,CONT,0
 
@@ -1523,7 +1523,7 @@ asyncseplay,setag1_57,se4800004,0,1,CONT,0
 asynccharaemo,chara_4,Laugh,CONT,0
 
 
-message,踊り子,今日の相手、だなんて。<br>司令官さんは相変わらずね。,401401000,vc_10010100002_049_01,chara_4
+message,踊り子,'Today's partner，' you say? You never change，Commander.<br> ,401401000,vc_10010100002_049_01,chara_4
 
 window,off
 wait,0.15
@@ -1575,7 +1575,7 @@ asynccharaemo,chara_3,BePeevish,CONT,0
 
 
 window,on,0.15
-message,アリシア,ほら見てくださいローザさん！<br>女性を口説く業務なんてあるはずないでしょう！,300201000,vc_10010100002_050_01,chara_3
+message,アリシア,See，Rosa! There's no way seducing women is part of his duties!<br> ,300201000,vc_10010100002_050_01,chara_3
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1586,13 +1586,13 @@ asyncseplay,setag1_59,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ローザ,そ、それは……そうかもしれませんが……,100101000G,vc_10010100002_051_01,chara_1
+message,ローザ,W-well，that... may be true，but...<br> ,100101000G,vc_10010100002_051_01,chara_1
 
-message,<user>,いやいや、酒を飲み、女性と触れ合うことで病める心を開放し、<br>平和を守るための力にしているんだ。
+message,<user>,No，no，by drinking and spending time with women，I free my weary heart<br>and channel that into the power to protect the peace.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
-message,<user>,これもまた司令官の業務なんだよ。
+message,<user>,This is also part of a Commander's duties，you see.<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -1601,7 +1601,7 @@ asyncseplay,setag1_60,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ローザ,なるほど……想像もしていませんでした！<br>分かりました、わたしも司令官殿が平和を守るお手伝いをします！,100101000G,vc_10010100002_052_01,chara_1
+message,ローザ,I see... I never would have imagined! Understood! I，too，shall assist<br>the Lord Commander in protecting the peace!<br> ,100101000G,vc_10010100002_052_01,chara_1
 
 window,off
 wait,0.15
@@ -1632,7 +1632,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,お、おおっ！？
+message,<user>,O-oh!<br> 
 
 window,off
 wait,0.15
@@ -1675,7 +1675,7 @@ asyncseplay,setag1_61,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 window,on,0.15
-message,,ローザは<user>の隣に座り、<br>おずおずと不器用によりそった。
+message,,Rosa sat next to %user%，and hesitantly，awkwardly leaned into him.<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -1684,9 +1684,9 @@ asyncseplay,setag1_62,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ローザ,一緒にお酒を飲むことで司令官殿のお力になれるなら、<br>わたしも協力させていただきます……！,100101000G,vc_10010100002_053_01,chara_1
+message,ローザ,If drinking together can help the Lord Commander，then allow me to<br>assist as well...!<br> ,100101000G,vc_10010100002_053_01,chara_1
 
-message,<user>,あ、ああ……ありがとう……
+message,<user>,Ah，right... thanks...<br> 
 
 window,off
 wait,0.15
@@ -1728,9 +1728,9 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,アリシア,<size=30>心が痛みませんか、司令官？</size>,300201000,vc_10010100002_054_01,chara_3
+message,アリシア,<size=30>DON'T YOU FEEL ANY GUILT，COMMANDER?</size>,300201000,vc_10010100002_054_01,chara_3
 
-message,<user>,……正直、ちょっと。
+message,<user>,...Honestly，a little bit.<br> 
 
 window,off
 wait,0.15
@@ -1772,7 +1772,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ローザ,……？<br>何か間違っていましたか？,100101000G,vc_10010100002_055_01,chara_1
+message,ローザ,...? Did I do something wrong?<br> ,100101000G,vc_10010100002_055_01,chara_1
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1781,7 +1781,7 @@ asyncseplay,setag1_65,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ローザ,あ……そうですよね。<br>わたしのような騎士では司令官殿を癒やせるはずがありません。,100101000G,vc_10010100002_056_01,chara_1
+message,ローザ,Ah... that's right. A knight like me couldn't possibly soothe the<br>Commander.<br> ,100101000G,vc_10010100002_056_01,chara_1
 
 window,off
 wait,0.15
@@ -1819,9 +1819,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ローザ,わたしは護衛の任務に戻ります。<br>司令官殿はどうぞ心を休めてください。,100101000G,vc_10010100002_057_01,chara_1
+message,ローザ,I will return to my guard duty. Commander，please rest easy.<br> ,100101000G,vc_10010100002_057_01,chara_1
 
-message,<user>,いや、大丈夫だ、ローザ。<br>お前のおかげで十分に癒されたよ。
+message,<user>,No，I'm fine，Rosa. Thanks to you，I'm feeling a lot better.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1832,9 +1832,9 @@ asyncseplay,setag1_67,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ローザ,本当ですか？,100101000G,vc_10010100002_058_01,chara_1
+message,ローザ,Really?<br> ,100101000G,vc_10010100002_058_01,chara_1
 
-message,<user>,ああ。視察も終わったし、そろそろ仕事に戻るとするか。<br>な、アリシア。
+message,<user>,Yeah. The inspection's over，so I guess I'll get back to work.<br>Right，Alicia?<br> 
 
 window,off
 wait,0.15
@@ -1889,7 +1889,7 @@ asynccharaemo,chara_3,BePeevish,CONT,0
 
 
 window,on,0.15
-message,アリシア,最初から素直にそうしてください！,300201000,vc_10010100002_059_01,chara_3
+message,アリシア,You should have just done that from the start!<br> ,300201000,vc_10010100002_059_01,chara_3
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1900,9 +1900,9 @@ asyncseplay,setag1_69,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ローザ,お２人の困りごとがどちらも解消できたなら、<br>本当に良かったです！,100101000G,vc_10010100002_060_01,chara_1
+message,ローザ,I'm so glad both of your problems are taken care of!<br> ,100101000G,vc_10010100002_060_01,chara_1
 
-message,<user>,ああ、気晴らしに付き合ってくれてありがとな。<br>……そろそろ現実逃避している時間もなさそうだ。
+message,<user>,Yeah，thanks for keeping me company... Looks like I've got no more<br>time to run from reality.<br> 
 
 asynccharaface,chara_3,FaceAnger,CONT,0
 
@@ -1913,7 +1913,7 @@ asyncseplay,setag1_70,se4800001,0,1,CONT,0
 asynccharaemo,chara_3,Anger,CONT,0
 
 
-message,アリシア,そうですよ！　事務仕事を後回しにして、<br>これから困るのは司令官なんですから！,300201000,vc_10010100002_061_01,chara_3
+message,アリシア,That's right! If you keep putting off the paperwork，you're only<br>going to make things harder for yourself!<br> ,300201000,vc_10010100002_061_01,chara_3
 
 window,off
 wait,0.15
@@ -1959,7 +1959,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ローザ,司令官殿が、困ってしまう……！？,100101000G,vc_10010100002_062_01,chara_1
+message,ローザ,The Commander might be troubled...!<br> ,100101000G,vc_10010100002_062_01,chara_1
 
 window,off
 bgmstop,bgmtag1_3,0.5

@@ -43,9 +43,9 @@ asynccharashowalpha,chara_2,1,0.3,CONT,0
 
 
 window,on,0.15
-message,レイゼリア,……我々を主体とした作戦、か。,300601000,vc_10360100002_001_01,chara_2
+message,レイゼリア,...An operation centered on us，is it?<br> ,300601000,vc_10360100002_001_01,chara_2
 
-message,<user>,ああ。<br>ライム、説明を頼む。
+message,<user>,Yeah. Lime，I'll leave the explanation to you.<br> 
 
 window,off
 wait,0.15
@@ -101,12 +101,12 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,ライム,――今回の任務は前線基地部隊ではなく、<br>ミレスガルド騎士団単独での作戦です。,103601000G,vc_10360100002_002_01,chara_1
+message,ライム,—This mission is not to be carried out by the Frontline Base<br>Troops，but solely by the Milesgard Knights.<br> ,103601000G,vc_10360100002_002_01,chara_1
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,ライム,内容は大穴上層にて新たに発見された<br>未探索領域の調査となります。,103601000G,vc_10360100002_003_01,chara_1
+message,ライム,The mission is to survey a newly discovered unexplored area in the<br>upper layer of the Abyss.<br> ,103601000G,vc_10360100002_003_01,chara_1
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -117,7 +117,7 @@ asyncseplay,setag1_2,se4800014,0,1,CONT,0
 asynccharaemo,chara_2,Silence,CONT,0
 
 
-message,レイゼリア,……危険な任務だな。<br>なぜ我々だけで遂行する必要がある？,300601000,vc_10360100002_004_01,chara_2
+message,レイゼリア,...A dangerous mission. Why must we be the only ones to undertake<br>it?<br> ,300601000,vc_10360100002_004_01,chara_2
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -128,7 +128,7 @@ asyncseplay,setag1_3,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ライム,それには各国の意向が関係していまして……,103601000G,vc_10360100002_005_01,chara_1
+message,ライム,That has to do with the concerns of the various nations...<br> ,103601000G,vc_10360100002_005_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -136,7 +136,7 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,ライム,司令官の指揮のもと、<br>大穴探索はある程度の進捗を達成していると言えます。,103601000G,vc_10360100002_006_01,chara_1
+message,ライム,Under the Commander's leadership，the Abyss exploration has<br>progressed to a certain extent.<br> ,103601000G,vc_10360100002_006_01,chara_1
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -145,7 +145,7 @@ asyncseplay,setag1_4,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ライム,しかしその結果は、前線基地部隊の特殊な性質に依存しているのでは、<br>という懸念が出ているのです。,103601000G,vc_10360100002_007_01,chara_1
+message,ライム,However，concerns have been raised that this success might be due to<br>the unique capabilities of the Frontline Base Troops.<br> ,103601000G,vc_10360100002_007_01,chara_1
 
 asynccharaface,chara_2,EyeClose,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -157,7 +157,7 @@ asyncseplay,setag1_5,se4800014,0,1,CONT,0
 asynccharaemo,chara_2,Silence,CONT,0
 
 
-message,レイゼリア,……大穴探索が可能なのは前線基地の部隊だけ、となれば<br>出資している各国から不満が出てしまうわけか。,300601000,vc_10360100002_008_01,chara_2
+message,レイゼリア,...So if the Abyss can only be explored by the Frontline Base<br>Troops，the nations providing funding would voice complaints.<br> ,300601000,vc_10360100002_008_01,chara_2
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -168,7 +168,7 @@ asyncseplay,setag1_6,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ライム,さすが慧眼です！　レイゼリア様！,103601000G,vc_10360100002_009_01,chara_1
+message,ライム,As expected of your keen insight，Lady Reyzeria!<br> ,103601000G,vc_10360100002_009_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -180,14 +180,14 @@ asyncseplay,setag1_7,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ライム,そういった各国の不満を抑えるため、<br>ミレスガルド騎士団単独でおこなう必要があるのです。,103601000G,vc_10360100002_010_01,chara_1
+message,ライム,To suppress those grievances from the other nations，the Milesgard<br>Knights must undertake this mission alone.<br> ,103601000G,vc_10360100002_010_01,chara_1
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
 asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
 
 
-message,レイゼリア,概要は分かった。<br>それで……貴様は今回の作戦が成功すると思っているのか？,300601000,vc_10360100002_011_01,chara_2
+message,レイゼリア,I understand the outline. So... do you think this mission will<br>succeed?<br> ,300601000,vc_10360100002_011_01,chara_2
 
 window,off
 wait,0.15
@@ -228,9 +228,9 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,……危険な挑戦であることは否定しない。<br>だからこそ、お前にしか頼めないんだ。
+message,<user>,I won't deny it's a dangerous challenge. That's exactly why I'm<br>counting on you and no one else.<br> 
 
-message,<user>,レイゼリアの率いるミレスガルド騎士団。<br>この任務を達成できるとしたら、お前たちだけだろう。
+message,<user>,The Milesgard Knights led by Reyzeria. If anyone can accomplish this<br>mission，it's you all.<br> 
 
 asynccharaface,chara_2,FaceUnique04,CONT,0
 
@@ -241,7 +241,7 @@ asyncseplay,setag1_8,se4800014,0,1,CONT,0
 asynccharaemo,chara_2,Silence,CONT,0
 
 
-message,レイゼリア,ふん、調子のいいことを。,300601000,vc_10360100002_012_01,chara_2
+message,レイゼリア,Hmph. You're one to talk.<br> ,300601000,vc_10360100002_012_01,chara_2
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -252,9 +252,9 @@ asyncseplay,setag1_9,se4800003,0,1,CONT,0
 asynccharaemo,chara_2,Twinkle,CONT,0
 
 
-message,レイゼリア,……だが、我々を選んだのは正しい判断だ。,300601000,vc_10360100002_013_01,chara_2
+message,レイゼリア,...But choosing us was the correct call.<br> ,300601000,vc_10360100002_013_01,chara_2
 
-message,<user>,やってくれるのか？
+message,<user>,So you'll take it on?<br> 
 
 asynccharaface,chara_2,FaceUnique01,CONT,0
 
@@ -265,7 +265,7 @@ asyncseplay,setag1_10,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,レイゼリア,そこまで頼られて、断っては騎士失格だろう。<br>期待には応えてみせる。,300601000,vc_10360100002_014_01,chara_2
+message,レイゼリア,After being asked that way，refusing would make me unfit to be a<br>knight. I'll meet your expectations.<br> ,300601000,vc_10360100002_014_01,chara_2
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -276,7 +276,7 @@ asyncseplay,setag1_11,se4800019,0,1,CONT,0
 asynccharaemo,chara_2,Elated,CONT,0
 
 
-message,レイゼリア,困難な任務であればこそ、我々の真価が見せられるというもの。<br>貴様の選んだ騎士の強さをよく見ておくといい。,300601000,vc_10360100002_015_01,chara_2
+message,レイゼリア,It's precisely because this mission is difficult that we can prove<br>our true worth. You'd do well to witness the strength of the knights you selected.<br> ,300601000,vc_10360100002_015_01,chara_2
 
 window,off
 wait,0.15
@@ -300,7 +300,7 @@ asyncseplay,setag1_12,se4300004,0,1,STOP,0
 wait,0.5
 
 window,on,0.15
-message,,レイゼリアは機嫌良く笑い、<br>颯爽と司令室を出ていった。
+message,,Reyzeria laughed in good spirits and strode out of the command room.<br> 
 
 window,off
 wait,0.15
@@ -332,7 +332,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,……ふう、なんとか任務は受けてもらえたな。<br>あとはきっちりと成功してもらうだけだ。
+message,<user>,Phew，at least we got her to accept the mission. Now we just need to<br>make sure it's a success.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -343,9 +343,9 @@ asyncseplay,setag1_13,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ライム,こ、この男は……！,103601000G,vc_10360100002_016_01,chara_1
+message,ライム,Th-this man...!<br> ,103601000G,vc_10360100002_016_01,chara_1
 
-message,<user>,ん？　どうした、ライム？
+message,<user>,Hm? What's wrong，Lime?<br> 
 
 window,off
 wait,0.15
@@ -387,9 +387,9 @@ asynccharaemo,chara_1,Anger,CONT,0
 
 
 window,on,0.15
-message,ライム,朴念仁の八方美人の厚顔無恥……！<br>レイゼリア様にあんな笑顔を向けていただくなんて、許せない！,103601000G,vc_10360100002_017_01,chara_1
+message,ライム,A blockhead，a people-pleaser，and shameless...! I won't forgive you<br>for getting Lady Reyzeria to smile like that!<br> ,103601000G,vc_10360100002_017_01,chara_1
 
-message,<user>,はあ！？　今のは危険な任務を任せられて、<br>使命感に燃えていただけだろう！？
+message,<user>,*Sigh*!? That was just her being fired up by a sense of duty after<br>being entrusted with a dangerous mission，wasn't it!?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -400,7 +400,7 @@ asyncseplay,setag1_15,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,ライム,レイゼリア様は、あなたに任せられたからこそ、<br>あんなにも嬉しそうだったの！,103601000G,vc_10360100002_018_01,chara_1
+message,ライム,Lady Reyzeria was that happy precisely because it was you who<br>entrusted her with the mission!<br> ,103601000G,vc_10360100002_018_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -411,7 +411,7 @@ asyncseplay,setag1_16,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,ライム,そもそも！　わたくしの立案した作戦は<br>ここまで危険なものではなかったはずよ！？,103601000G,vc_10360100002_019_01,chara_1
+message,ライム,And besides，the operation I drafted shouldn't have been this<br>dangerous!<br> ,103601000G,vc_10360100002_019_01,chara_1
 
 asyncjump,CHARA,chara_1,40,0.5,2,off,0,CONT
 
@@ -420,9 +420,9 @@ asyncseplay,setag1_17,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,ライム,どうしてこんな<br>命の危険がある作戦に変わっているの！？,103601000G,vc_10360100002_020_01,chara_1
+message,ライム,Why did it turn into such a life-threatening operation?<br> ,103601000G,vc_10360100002_020_01,chara_1
 
-message,<user>,相手はあのレイゼリアだぞ？<br>活躍できるようにお膳立てされた作戦なんてすぐに見破るさ。
+message,<user>,Look，we're dealing with the one and only Reyzeria. She'd see right<br>through a plan that was just set up to let her shine.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -433,9 +433,9 @@ asyncseplay,setag1_18,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ライム,……そ、そうね。<br>レイゼリア様ならば……,103601000G,vc_10360100002_021_01,chara_1
+message,ライム,I-I suppose so. If it's Lady Reyzeria...<br> ,103601000G,vc_10360100002_021_01,chara_1
 
-message,<user>,本当に危険な作戦で正しく実力を発揮してもらう<br>そのほうが成果を出すだろ？
+message,<user>,Getting her to truly show her strength in a genuinely dangerous<br>operation—that'll produce better results，right?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -446,9 +446,9 @@ asyncseplay,setag1_19,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ライム,それは……否定はできないけれど……,103601000G,vc_10360100002_022_01,chara_1
+message,ライム,I can't deny that，but...<br> ,103601000G,vc_10360100002_022_01,chara_1
 
-message,<user>,探索には俺も同行する。<br>レイゼリアに俺とライムがいれば、どんな任務でも成し遂げられるさ。
+message,<user>,I'll be accompanying the exploration too. With me，Lime，and<br>Reyzeria，we can accomplish any mission.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -461,9 +461,9 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 wait,0.5
 
 
-message,ライム,……あなた、足は引っ張らないようにね。,103601000G,vc_10360100002_023_01,chara_1
+message,ライム,...Don't slow us down，you hear.<br> ,103601000G,vc_10360100002_023_01,chara_1
 
-message,<user>,もうちょっと司令官を敬えよ、お前……
+message,<user>,Show a little more respect for your Commander，will you...<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -494,9 +494,9 @@ transitionFade,Tra09,in,black,1
 wait,0.5
 
 window,on,0.15
-message,,ミレスガルド騎士団特別任務。<br>大穴探索作戦。
+message,,The Milesgard Knights' special mission: the Abyss exploration<br>operation.<br> 
 
-message,,大穴内部へと進んだミレスガルド騎士団は、<br>レイゼリアを中心に、破竹の進軍を見せていた。
+message,,Advancing into the Abyss，the Milesgard Knights showed unstoppable<br>progress with Reyzeria at the center.<br> 
 
 bgmplay,bgmtag1_2,bgm0028,0.75,1
 
@@ -532,7 +532,7 @@ linework,on,White,Middle
 
 
 window,on,0.15
-message,レイゼリア,はああああっ！<br>モンスターども、我らの邪魔はさせないっ！,300601000,vc_10360100002_024_01,chara_2
+message,レイゼリア,*pant*! You monsters，I won't let you stand in our way!<br> ,300601000,vc_10360100002_024_01,chara_2
 
 window,off
 wait,0.15
@@ -581,7 +581,7 @@ asynccharaemo,chara_3,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,モンスター,グォォォォッ！？,402001000,,chara_3
+message,モンスター,Gwooooooh!?<br> ,402001000,,chara_3
 
 window,off
 wait,0.15
@@ -634,7 +634,7 @@ asynccharaemo,chara_4,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ミレスガルド兵Ａ,レイゼリア様、すげえ……！<br>モンスターが相手になってねえ！,400901000,,chara_4
+message,ミレスガルド兵Ａ,Lady Reyzeria is amazing... The monsters don't stand a chance!<br> ,400901000,,chara_4
 
 asynccharaface,chara_5,FaceHappy,CONT,0
 
@@ -645,7 +645,7 @@ asyncseplay,setag1_25,se4800010,0,1,CONT,0
 asynccharaemo,chara_5,Exclamation,CONT,0
 
 
-message,ミレスガルド兵Ｂ,なんて美しい戦い……！<br>私たちも続きましょう！,401001000,vc_10360100002_025_01,chara_5
+message,ミレスガルド兵Ｂ,What a magnificent battle...! Let's keep going too!<br> ,401001000,vc_10360100002_025_01,chara_5
 
 window,off
 wait,0.15
@@ -689,7 +689,7 @@ asynccharaemo,chara_2,Exclamation,CONT,0
 
 
 window,on,0.15
-message,レイゼリア,無理はするな！　<br>モンスターには常に複数名で相対しろ！,300601000,vc_10360100002_026_01,chara_2
+message,レイゼリア,Don't overexert yourselves! Always engage monsters in groups!<br> ,300601000,vc_10360100002_026_01,chara_2
 
 window,off
 wait,0.15
@@ -745,9 +745,9 @@ asynccharaemo,chara_5,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ミレスガルド兵たち,はいっ！,400901000,,chara_4/chara_5
+message,ミレスガルド兵たち,Yes，ma'am!<br> ,400901000,,chara_4/chara_5
 
-message,,レイゼリアの戦いに呼応するように、<br>ミレスガルド兵もまた、限界を超えた力を発揮していた。
+message,,Echoing Reyzeria's combat，the Milesgard soldiers too were pushing<br>beyond their limits.<br> 
 
 window,off
 wait,0.15
@@ -792,7 +792,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ライム,さすがはレイゼリア様……！<br>先頭に立ってモンスターを駆逐しながら、配下への指示もよどみなく！,103601000G,vc_10360100002_027_01,chara_1
+message,ライム,As expected of Lady Reyzeria! She's at the forefront，driving back<br>the monsters while issuing flawless commands to her subordinates!<br> ,103601000G,vc_10360100002_027_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -803,9 +803,9 @@ asyncseplay,setag1_30,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ライム,本当にすごい方！<br>レイゼリア様の副官でいられることが誇らしい……！,103601000G,vc_10360100002_028_01,chara_1
+message,ライム,She's truly amazing! I'm proud to be Lady Reyzeria's adjutant...!<br> ,103601000G,vc_10360100002_028_01,chara_1
 
-message,<user>,確かにとんでもない強さだな。<br>困難な任務だと思ったが、あいつにかかれば問題はなさそうだ。
+message,<user>,Yeah，she's insanely strong. I thought this would be a tough<br>mission，but with her on it，it looks like no problem.<br> 
 
 window,off
 wait,0.15
@@ -863,11 +863,11 @@ asynccharaemo,chara_2,Dull,CONT,0
 
 
 window,on,0.15
-message,レイゼリア,……そう油断はできそうにない。,300601000,vc_10360100002_029_01,chara_2
+message,レイゼリア,...I wouldn't grow complacent just yet.<br> ,300601000,vc_10360100002_029_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
-message,<user>,レイゼリア？<br>どうした、前線はいいのか？
+message,<user>,Reyzeria? What's up? Aren't you supposed to be leading the front?<br> 
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -879,7 +879,7 @@ asyncseplay,setag1_32,se4800014,0,1,CONT,0
 asynccharaemo,chara_2,Silence,CONT,0
 
 
-message,レイゼリア,そちらは仲間たちが抑えている。<br>その間に貴様の意見を聞いておこうと思ってな。,300601000,vc_10360100002_030_01,chara_2
+message,レイゼリア,My squad has that handled. I wanted to hear your thoughts on this.<br> ,300601000,vc_10360100002_030_01,chara_2
 
 asynccharaface,chara_2,FaceUnique04,CONT,0
 
@@ -890,7 +890,7 @@ asyncseplay,setag1_33,se4800014,0,1,CONT,0
 asynccharaemo,chara_2,Silence,CONT,0
 
 
-message,レイゼリア,敵の数は多いが、どれも小物だ。<br>その割には逃げる様子がなく、止まることなく襲いかかってくる。,300601000,vc_10360100002_031_01,chara_2
+message,レイゼリア,There are many enemies，but they're all small fry. Yet they show no<br>sign of fleeing and keep attacking without pause.<br> ,300601000,vc_10360100002_031_01,chara_2
 
 asynccharaface,chara_2,EyeClose,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -902,9 +902,9 @@ asyncseplay,setag1_34,se4800015,0,1,CONT,0
 asynccharaemo,chara_2,Dull,CONT,0
 
 
-message,レイゼリア,いくら相手がモンスターとはいえ、どうも違和感がある。<br>この状況、貴様はどう見る？,300601000,vc_10360100002_032_01,chara_2
+message,レイゼリア,Even for monsters，this feels off. How do you interpret this<br>situation?<br> ,300601000,vc_10360100002_032_01,chara_2
 
-message,<user>,ふむ……
+message,<user>,Hmm...<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -915,7 +915,7 @@ asyncseplay,setag1_35,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ライム,あ、あの……レイゼリア様？,103601000G,vc_10360100002_033_01,chara_1
+message,ライム,U-um，Lady Reyzeria?<br> ,103601000G,vc_10360100002_033_01,chara_1
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -927,7 +927,7 @@ asyncseplay,setag1_36,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,レイゼリア,ああ、ライムも一緒に考えてくれ。<br>予測はしているが、なるべく確度を高めたい。,300601000,vc_10360100002_034_01,chara_2
+message,レイゼリア,Ah，Lime，think along with us. I have a guess，but I'd like to be more<br>certain.<br> ,300601000,vc_10360100002_034_01,chara_2
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -936,11 +936,11 @@ asyncseplay,setag1_37,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ライム,は、はい……,103601000G,vc_10360100002_035_01,chara_1
+message,ライム,Y-yes...<br> ,103601000G,vc_10360100002_035_01,chara_1
 
-message,<user>,おそらくだが、今戦っているモンスターは<br>背後から大物に追い立てられ、こちらに向かってきているんだろう。
+message,<user>,Probably，the monsters we're fighting now are being driven toward us<br>from behind by a larger one.<br> 
 
-message,<user>,だから小物のくせに逃げることもなく、<br>必死に襲いかかってくるわけだ。
+message,<user>,That's why，despite being small fry，they don't flee and keep<br>attacking desperately.<br> 
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -951,7 +951,7 @@ asyncseplay,setag1_38,se4800010,0,1,CONT,0
 asynccharaemo,chara_2,Exclamation,CONT,0
 
 
-message,レイゼリア,……私の考えと同じだな。<br>このあとに本番が控えている、と。,300601000,vc_10360100002_036_01,chara_2
+message,レイゼリア,...My thoughts exactly. The main event is still to come.<br> ,300601000,vc_10360100002_036_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -962,7 +962,7 @@ asyncseplay,setag1_39,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ライム,わ、わたくしも同意見です！,103601000G,vc_10360100002_037_01,chara_1
+message,ライム,I-I'm of the same opinion!<br> ,103601000G,vc_10360100002_037_01,chara_1
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -974,7 +974,7 @@ asyncseplay,setag1_40,se4800019,0,1,CONT,0
 asynccharaemo,chara_2,Elated,CONT,0
 
 
-message,レイゼリア,よし。ライム、進軍を停止だ。<br>陣形を組んで大物に備える。,300601000,vc_10360100002_038_01,chara_2
+message,レイゼリア,Good. Lime，halt the advance. Form ranks and prepare for the Beast.<br> ,300601000,vc_10360100002_038_01,chara_2
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -985,7 +985,7 @@ asyncseplay,setag1_41,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ライム,は、はい！<br>直ちに全部隊に指示を出します！,103601000G,vc_10360100002_039_01,chara_1
+message,ライム,Y-yes! I'll issue orders to all units immediately!<br> ,103601000G,vc_10360100002_039_01,chara_1
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -996,7 +996,7 @@ asyncseplay,setag1_42,se4800003,0,1,CONT,0
 asynccharaemo,chara_2,Twinkle,CONT,0
 
 
-message,レイゼリア,頼んだ。<br>私は前線で、少しでも数を減らそう！,300601000,vc_10360100002_040_01,chara_2
+message,レイゼリア,I'm counting on you. I'll head to the front and thin their numbers!<br> ,300601000,vc_10360100002_040_01,chara_2
 
 window,off
 wait,0.15
@@ -1049,11 +1049,11 @@ emodelete,chara_2,0,0
 asyncwait
 
 window,on,0.15
-message,,レイゼリアはその場を飛び出し、<br>またたくまに前線へ駆け戻っていった。
+message,,Reyzeria sprang from the spot and within an instant had rushed back<br>to the front lines.<br> 
 
-message,<user>,戦いの中でも冷静、か。<br>なるほど、上に立つものの器だな。
+message,<user>,Collected even in battle，huh. Truly the caliber of a leader.<br> 
 
-message,<user>,お前の見る目は確かだよ、ライム。<br>……ライム？
+message,<user>,Your judgment is sharp，Lime. ...Lime?<br> 
 
 window,off
 wait,0.15
@@ -1089,9 +1089,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ライム,……どうして？　なぜなの？,103601000G,vc_10360100002_041_01,chara_1
+message,ライム,...Why? How can this be?<br> ,103601000G,vc_10360100002_041_01,chara_1
 
-message,<user>,な、何がだ？
+message,<user>,Wh-what's the matter?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1102,9 +1102,9 @@ asyncseplay,setag1_44,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,ライム,レイゼリア様の副官はわたくしなのに！<br>なぜわたくしではなく、あなたに相談をしたの！？,103601000G,vc_10360100002_042_01,chara_1
+message,ライム,I am Lady Reyzeria's adjutant! Why did she consult you instead of<br>me?<br> ,103601000G,vc_10360100002_042_01,chara_1
 
-message,<user>,え、ええ……？<br>そりゃ、俺のほうが大穴には詳しいから、じゃないか？
+message,<user>,Uh，well... It's because I know the Abyss better，isn't it?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1115,9 +1115,9 @@ asyncseplay,setag1_45,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ライム,だとしても、こんな司令官改め大穴見物人なんかじゃなく、<br>副官であるわたくしに、最初に相談してほしいじゃない……！,103601000G,vc_10360100002_043_01,chara_1
+message,ライム,Even so，I wish she'd consulted me first，her adjutant，not some<br>Commander-turned-Abyss-sightseer...!<br> ,103601000G,vc_10360100002_043_01,chara_1
 
-message,<user>,レイゼリアに活躍してもらうため、見ているだけなのは事実だが。<br>そんなふうに言わなくてもいいだろうに……
+message,<user>,It's true I'm just watching so Reyzeria can shine，but you don't have<br>to put it that way...<br> 
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -1145,7 +1145,7 @@ wait,1
 fade,In,Black,1
 
 window,on,0.15
-message,,――そして予測通りに現れた大型モンスターは、<br>万全の準備で待ち構えるミレスガルド騎士団により、見事に撃破された。
+message,,—And as predicted，the Beast appeared and was magnificently defeated<br>by the Milesgard Knights，who were fully prepared and lying in wait.<br> 
 
 
 window,off
@@ -1187,7 +1187,7 @@ asynccharaemo,chara_2,Exclamation,CONT,0
 
 
 window,on,0.15
-message,レイゼリア,総員、交代で休憩に入れ！<br>休むことも任務の内だ、疲れが残っているなどとは言わないように！,300601000,vc_10360100002_044_01,chara_2
+message,レイゼリア,All troops，take rest in shifts! Resting is part of the mission，so<br>don't claim you're still tired!<br> ,300601000,vc_10360100002_044_01,chara_2
 
 window,off
 wait,0.15
@@ -1245,7 +1245,7 @@ asynccharaemo,chara_5,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ミレスガルド兵たち,はっ！,400901000,,chara_4/chara_5
+message,ミレスガルド兵たち,Sir!<br> ,400901000,,chara_4/chara_5
 
 window,off
 wait,0.15
@@ -1272,7 +1272,7 @@ wait,0.5
 wait,0.5
 
 window,on,0.15
-message,<user>,ここまで順調そのものだな。<br>この調子なら本当に任務を成功させられそうだ。
+message,<user>,Flawless so far. At this rate，we might actually pull off the<br>mission.<br> 
 
 window,off
 wait,0.15
@@ -1307,7 +1307,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ライム,ええ、すべてはレイゼリア様のお力ね！,103601000G,vc_10360100002_045_01,chara_1
+message,ライム,Yes，all thanks to Lady Reyzeria's power!<br> ,103601000G,vc_10360100002_045_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1318,7 +1318,7 @@ asyncseplay,setag1_50,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ライム,はあ……本当にレイゼリア様は素晴らしい方。<br>戦えば勝ち、民を守り、その精神には少しの曇りもない！,103601000G,vc_10360100002_046_01,chara_1
+message,ライム,*sigh*... Lady Reyzeria truly is wonderful. She wins every<br>battle，protects the people，and her spirit is without a single cloud!<br> ,103601000G,vc_10360100002_046_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1329,11 +1329,11 @@ asyncseplay,setag1_51,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,ライム,なのに本国の連中は<br>どうしてレイゼリア様の邪魔をするようなことを……。,103601000G,vc_10360100002_047_01,chara_1
+message,ライム,And yet the folks back home，why do they do things that get in Lady<br>Reyzeria's way...<br> ,103601000G,vc_10360100002_047_01,chara_1
 
-message,<user>,優秀だから、だろう。<br>優れているからこそ、妬み、恨み、敵対視する。
+message,<user>,It's because she's excellent，right? Precisely because she<br>excels，they envy，resent，and oppose her.<br> 
 
-message,<user>,遠く離れた今しか勝てないと思っているから、<br>全力で足を引っ張るわけだ。
+message,<user>,They believe they can only win if they keep their distance，so<br>they're doing everything they can to hold us back.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1344,7 +1344,7 @@ asyncseplay,setag1_52,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,ライム,なんて愚かな！　レイゼリア様と敵対するぐらいなら、<br>その下についたほうがずっと素晴らしい未来が待っているのに！,103601000G,vc_10360100002_048_01,chara_1
+message,ライム,How foolish! Rather than opposing Lady Reyzeria，you would have a far<br>brighter future serving under her!<br> ,103601000G,vc_10360100002_048_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1355,11 +1355,11 @@ asyncseplay,setag1_53,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ライム,あの方は民のため、正義のためにしか戦わない。<br>レイゼリア様に付き従うというのは本当に幸せなことなの。,103601000G,vc_10360100002_049_01,chara_1
+message,ライム,She only fights for the people and for justice. Following Lady<br>Reyzeria is truly a blessing.<br> ,103601000G,vc_10360100002_049_01,chara_1
 
-message,<user>,本当に尊敬しているんだな……。<br>まさにカリスマってやつか。
+message,<user>,You really do respect her... Now that's charisma.<br> 
 
-message,<user>,しかしなあ、確かにレイゼリアはすごいが、<br>俺はライムも同じぐらいすごいと思ってるんだけどな。
+message,<user>,Still，Reyzeria's amazing，no doubt，but I think you're just as<br>amazing，Lime.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1370,9 +1370,9 @@ asyncseplay,setag1_54,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,ライム,なっ……わたくしがレイゼリア様に並ぶ！？<br>なんて適当なことを！,103601000G,vc_10360100002_050_01,chara_1
+message,ライム,What... Me，on par with Lady Reyzeria? Don't say such irresponsible<br>things!<br> ,103601000G,vc_10360100002_050_01,chara_1
 
-message,<user>,別にお世辞で言ったわけじゃない。<br>指揮官としての本心だ。
+message,<user>,I'm not just flattering you. That's my sincere opinion as your<br>commander.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1383,7 +1383,7 @@ asyncseplay,setag1_55,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,ライム,なお悪いわね！<br>人を見極める才覚は指揮官として最も重要な資質！,103601000G,vc_10360100002_051_01,chara_1
+message,ライム,That is even worse! The ability to judge character is the most<br>important quality for a commander!<br> ,103601000G,vc_10360100002_051_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1394,7 +1394,7 @@ asyncseplay,setag1_56,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,ライム,あなたの指揮官としての能力に<br>疑問を持たざるを得ないわ！,103601000G,vc_10360100002_052_01,chara_1
+message,ライム,I cannot help but doubt your ability as a commander!<br> ,103601000G,vc_10360100002_052_01,chara_1
 
 bgmstop,bgmtag1_3,1,0
 
@@ -1410,9 +1410,9 @@ asyncseplay,setag1_57,se4900059,0,1,CONT,0
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 window,on,0.15
-message,<user>,お、おい、ライム！？
+message,<user>,H-hey，Lime!<br> 
 
-message,,ライムは厳しい表情で睨むと、<br>その手に持つ銃を構え、<user>へ銃口を向けた。
+message,,Lime glared sternly，raised her gun，and pointed it at %user%.<br> 
 
 window,off
 wait,0.15
@@ -1429,7 +1429,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ライム,わたくしの目が曇っていたわ……！<br>あなたはレイゼリア様のそばにいるべき人ではない！,103601000G,vc_10360100002_053_01,chara_1
+message,ライム,I was blind...! You don't deserve to be by Lady Reyzeria's side!<br> ,103601000G,vc_10360100002_053_01,chara_1
 
 window,off
 bgmstop,bgmtag1_3,0.5

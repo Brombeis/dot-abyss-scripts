@@ -15,7 +15,7 @@ charaface,chara_1,FaceShy
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,A few days later—,,,on
+messageTextCenter,,<size=48>A few days later—</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -41,18 +41,18 @@ asynccharaemo,chara_1,Panic,STOP
 charaface,chara_1,FaceSad
 message,エミリー,Look，Commaander. Over there.<br>...That customer who got dead drunk that day.<br> ,,vc_10280100033_002_01
 
-message,,The man drinking with his friends at the table Emily secretly<br>pointed to was indeed the customer who had passed out that night.<br> 
+message,,The man drinking with his friends at the table Emily secretly<br>pointed to was the customer who passed out that night.<br> 
 
-message,,From what I overheard，they were getting all riled up about the<br>insanely hot scene they saw at this store.<br> 
+message,,From what I overheard，they were riled up about the insanely hot<br>scene they saw at this store.<br> 
 
-message,,According to him，a waitress had been fucked by a man with a huge<br>cock on this very table...<br> 
+message,,He said a man with a huge cock fucked a waitress on this very<br>table...<br> 
 
 charaface,chara_1,FaceUnique02
 
 asynccharareaction,chara_1,Shake,0.5,STOP
 message,エミリー,So they really did find out about that day! What are we going to<br>do...<br> ,,vc_10280100033_003_01
 
-message,,But as they listened further，the man concluded with a joke that it<br>was just a dream，making his friends laugh.<br> 
+message,,But as they listened，the man joked it was a dream，making his friends<br>laugh.<br> 
 
 asyncseplay,setag3_3,se4800017,0,1,CONT
 

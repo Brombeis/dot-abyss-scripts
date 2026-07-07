@@ -43,7 +43,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,露天商,さーっ、今日も良い品をいっぱい仕入れてあるよ！<br>お客さん、ぜひ見ていってくんなぁっ！,400301000,,chara_2
+message,露天商,Step right up，folks! We've got a great haul today—come and take a<br>look!<br> ,400301000,,chara_2
 
 window,off
 wait,0.15
@@ -66,7 +66,7 @@ transitionCrossFade,Tra02,1
 wait,1
 
 window,on,0.15
-message,<user>,……うむ。マーケットは今日も賑やかだな。<br>この後に仕事がなければのんびり見て帰るんだが……
+message,<user>,Hmm... The market's as lively as ever today. If I don't have<br>work，I'll take my time browsing and head back...<br> 
 
 bgmstop,bgmtag1_1,1,0
 
@@ -76,9 +76,9 @@ asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
 
-message,露天商,ぎゃあっ！？,400301000
+message,露天商,Gyahh!<br> ,400301000
 
-message,<user>,んっ……？
+message,<user>,Hm...?<br> 
 
 window,off
 wait,0.15
@@ -132,7 +132,7 @@ asynccharaemo,chara_3,Anger,CONT,0
 
 
 window,on,0.15
-message,強盗犯,おらっ！　金よこせ！,2028301,,chara_3
+message,強盗犯,Hey! Hand over the money!<br> ,2028301,,chara_3
 
 asyncshake,CHARA,chara_2,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -141,9 +141,9 @@ asyncseplay,setag1_3,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,露天商,ひいっ、やめてください！　渡すから、蹴らないで……,400301000,,chara_2
+message,露天商,Eek，stop! I'll give it to you，just don't kick me...<br> ,400301000,,chara_2
 
-message,<user>,こ、こんな昼間から強盗だと！？
+message,<user>,A robbery，in broad daylight!<br> 
 
 window,off
 wait,0.15
@@ -189,7 +189,7 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,強盗犯,へへっ、あばよ！,2028301,,chara_3
+message,強盗犯,Heheh，see ya!<br> ,2028301,,chara_3
 
 window,off
 wait,0.15
@@ -222,7 +222,7 @@ transitionCrossFade,Tra02,0.5
 wait,0.5
 
 window,on,0.15
-message,<user>,くっ、待て！
+message,<user>,Tch，stop!<br> 
 
 window,off
 wait,0.15
@@ -256,7 +256,7 @@ linework,on,White,Middle
 
 
 window,on,0.15
-message,？？？,<size=48>おらぁぁあっ！</size>,104801000G,vc_10480100001_001_01,chara_1
+message,？？？,<size=48>Raaaagh!</size>,104801000G,vc_10480100001_001_01,chara_1
 
 window,off
 wait,0.15
@@ -272,7 +272,7 @@ asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,<user>,ぐわっ！？
+message,<user>,Gwaah!<br> 
 
 window,off
 wait,0.15
@@ -286,7 +286,7 @@ asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,,<user>は見知らぬ女から突然、タックルを受けた。<br>そのまま羽交い絞めにされる。
+message,,The Commander was suddenly tackled by an unknown woman and put in a<br>headlock.<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -295,9 +295,9 @@ asyncseplay,setag1_5,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,セレスト,白昼堂々、強盗をやらかしたのはお前だな？<br>セレストさまの前で犯行に及ぶとはいい度胸だ！,104801000G,vc_10480100001_002_01,chara_1
+message,セレスト,So you're the one who pulled a heist in broad daylight? You've got<br>some nerve committing a crime right in front of Lady Celeste!<br> ,104801000G,vc_10480100001_002_01,chara_1
 
-message,<user>,……お前、警備隊か？　ちょうどいい！<br>今、あっちに強盗犯が逃げ――
+message,<user>,Hey，you're with the guard? Perfect timing! The robber ran off that<br>way—<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -308,7 +308,7 @@ asyncseplay,setag1_6,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,セレスト,捕まらないとでも思ったのか、このお馬鹿さんめ。<br>まぁっ、おかげさんであたしは手柄をゲットできるわけだけど！,104801000G,vc_10480100001_003_01,chara_1
+message,セレスト,Did you think you wouldn't get caught，you dummy? Well，thanks to<br>you，I get the credit!<br> ,104801000G,vc_10480100001_003_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -319,9 +319,9 @@ asyncseplay,setag1_7,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,セレスト,美味しいなぁっ……ボーナス出ちゃうかも？　むふふっ。,104801000G,vc_10480100001_004_01,chara_1
+message,セレスト,Sweet... Maybe I'll even get a bonus? Mufufu.<br> ,104801000G,vc_10480100001_004_01,chara_1
 
-message,<user>,おい、話を聞け！
+message,<user>,Hey，listen to me!<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -332,9 +332,9 @@ asyncseplay,setag1_8,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,セレスト,あーはいはい分かった分かった。昼間っから強盗するくらい、<br>お腹が空いてるのかな？　言い訳と身の上話は詰所で聞くから大人しくね。,104801000G,vc_10480100001_005_01,chara_1
+message,セレスト,Uh-huh，sure sure，I hear ya. Must be starving to heist in broad<br>daylight? Save your excuses and sob story for the station and come quietly.<br> ,104801000G,vc_10480100001_005_01,chara_1
 
-message,<user>,違う！
+message,<user>,No!<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -346,9 +346,9 @@ asyncseplay,setag1_9,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,セレスト,うるさいっての強盗犯もといボーナスくん。<br>えーと、ヒトヨンマルマル、逮捕、っと……,104801000G,vc_10480100001_006_01,chara_1
+message,セレスト,Shut it，you robber—I mean，bonus boy. Let's see...<br>1-4-0-0，arrest，and... done.<br> ,104801000G,vc_10480100001_006_01,chara_1
 
-message,<user>,た、頼むから話を聞いてくれーっ！！！
+message,<user>,P-Please，just listen to me—!<br> 
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -378,7 +378,7 @@ bgmplay,bgmtag1_3,bgm0027,0.75,1
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,<user>,（結局、警備隊の詰所まで連れ込まれてしまったぞ……）
+message,<user>,(So they dragged me into the guard station after all...)<br> 
 
 window,off
 wait,0.15
@@ -428,9 +428,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,セレスト,それじゃ、調書とるよー。<br>名前と生年月日、ここに書いて。,104801000G,vc_10480100001_007_01,chara_1
+message,セレスト,Alright，I'm taking your statement. Name and date of birth，write 'em<br>here.<br> ,104801000G,vc_10480100001_007_01,chara_1
 
-message,<user>,いい加減、話を聞いてくれ。俺は強盗犯じゃない。<br>犯人は別にいる。逃げるところを見たんだ。
+message,<user>,Will you listen to me already? I'm not the robber. The real thief is<br>someone else—I saw him run off.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -442,9 +442,9 @@ asyncseplay,setag1_11,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,セレスト,またつまんない言い訳をするねぇ……往生際が悪いよ？,104801000G,vc_10480100001_008_01,chara_1
+message,セレスト,More boring excuses? You don't know when to quit，do you?<br> ,104801000G,vc_10480100001_008_01,chara_1
 
-message,<user>,事実なんだからしょうがないだろう。<br>お前の上司はいないのか？
+message,<user>,But it's the truth，so what can I do? Don't you have a superior or<br>something?<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -453,7 +453,7 @@ asyncseplay,setag1_12,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,セレスト,なんか用事があるって出掛けてる。,104801000G,vc_10480100001_009_01,chara_1
+message,セレスト,They went out on some errand.<br> ,104801000G,vc_10480100001_009_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -464,9 +464,9 @@ asyncseplay,setag1_13,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,セレスト,っていうか、何？　あたしが女だから舐めてるの？<br>強盗のくせに、女じゃ話にならないとか言っちゃうタイプ？,104801000G,vc_10480100001_010_01,chara_1
+message,セレスト,Or what? You looking down on me 'cause I'm a girl? For a<br>robber，you're the type to say a woman isn't even worth talking to?<br> ,104801000G,vc_10480100001_010_01,chara_1
 
-message,<user>,そうじゃない。俺のことを知っていそうな人間に<br>取り次いでほしかっただけだ。ここにはお前以外の奴はいないのか？
+message,<user>,No，that's not it. I just wanted you to call someone who might know<br>me. Isn't there anyone else here besides you?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -477,9 +477,9 @@ asyncseplay,setag1_14,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,セレスト,残念ながらね。みーんな出払ってるよ。,104801000G,vc_10480100001_011_01,chara_1
+message,セレスト,Sorry，but no. Everyone's out.<br> ,104801000G,vc_10480100001_011_01,chara_1
 
-message,<user>,……じゃあ、お前に頼むしかないか。被害者の店主を呼び出してくれ。<br>俺の潔白を証明してくれる。
+message,<user>,...Then I guess I'll have to rely on you. Call the victim<br>shopkeeper. He can prove I'm innocent.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -491,9 +491,9 @@ asyncseplay,setag1_15,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,セレスト,だから、今はあたししかいないから無理だってば。<br>あんたを１人にできない。,104801000G,vc_10480100001_012_01,chara_1
+message,セレスト,Like I said，I'm the only one here，so it's no good. I can't leave you<br>alone.<br> ,104801000G,vc_10480100001_012_01,chara_1
 
-message,<user>,俺のことは椅子にでも縛り付けてもいいから、さっさと行ってきてくれ。<br>ここで取り調べを続けるより、よっぽど話が早く進むぞ？
+message,<user>,You can tie me to a chair or something. Just go already. That'll get<br>things moving way faster than dragging this out here.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -504,9 +504,9 @@ asyncseplay,setag1_16,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,セレスト,とかなんとか言って、あたしがいなくなったら逃げるつもりでしょ？<br>縄抜けとかしちゃってさ。,104801000G,vc_10480100001_013_01,chara_1
+message,セレスト,Oh sure you say that，but you'd just slip out the second I'm<br>gone，wouldn't you? Escape artist routine.<br> ,104801000G,vc_10480100001_013_01,chara_1
 
-message,<user>,心配なら牢にでもぶちこんでおけばいいだろう！<br>さっきからまったく話が進んでないぞ！？
+message,<user>,If you're that worried，throw me in a cell! We're getting nowhere<br>like this!<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -517,7 +517,7 @@ asyncseplay,setag1_17,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,セレスト,当たり前でしょーが！　こちとら、お前の茶番に付き合ってる暇はないの！<br>逃がすつもりもないの！,104801000G,vc_10480100001_014_01,chara_1
+message,セレスト,Obviously! I don't have time for your little act! And I'm not about<br>to let you go!<br> ,104801000G,vc_10480100001_014_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -528,7 +528,7 @@ asyncseplay,setag1_18,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,セレスト,あたしにお金を運んでくれるボーナスちゃんだもん。<br>大人しく罪を認めて手柄が確定するまで絶対離さないわよ。,104801000G,vc_10480100001_015_01,chara_1
+message,セレスト,You're my little bonus，here to bring me money. So until you confess<br>quietly and I get my credit，I'm not letting you go anywhere.<br> ,104801000G,vc_10480100001_015_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -539,7 +539,7 @@ asyncseplay,setag1_19,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,セレスト,あたしはお金が大好き。でも面倒と仕事は大嫌い。,104801000G,vc_10480100001_016_01,chara_1
+message,セレスト,I love money. But I hate trouble and work.<br> ,104801000G,vc_10480100001_016_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -550,7 +550,7 @@ asyncseplay,setag1_20,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,セレスト,あんたは、そんなあたしのもとに降ってきた、千載一遇のチャンスっ……！<br>むふふふっ♪,104801000G,vc_10480100001_017_01,chara_1
+message,セレスト,And you're a once-in-a-lifetime chance that fell right into my lap!<br>Mufufu!♪<br> ,104801000G,vc_10480100001_017_01,chara_1
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -559,7 +559,7 @@ asyncseplay,setag1_21,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,セレスト,さっさと罪を認めなさい。恨むなら、<br>あたしみたいな不良警備員に捕まる自分の間抜けさを恨むのね。,104801000G,vc_10480100001_018_01,chara_1
+message,セレスト,Just confess already. And if you're gonna hold a grudge，blame<br>yourself for being dumb enough to get caught by a lousy guard like me.<br> ,104801000G,vc_10480100001_018_01,chara_1
 
 window,off
 wait,0.15
@@ -574,7 +574,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（こいつ、自分で不良って言ってしまってるぞ……<br>頼むから早くまともな奴が来てくれ……）
+message,<user>,(She's gone and called herself a delinquent...<br>Please，hurry up and get someone competent here...)<br> 
 
 window,off
 wait,0.15
@@ -591,7 +591,7 @@ wait,0.1
 asyncseplay,setag1_22,se4300003,0,1,CONT,0
 
 window,on,0.15
-message,,――ガチャッ。
+message,,—Clank.<br> 
 
 window,off
 wait,0.15
@@ -630,7 +630,7 @@ asynccharaemo,chara_4,Question,CONT,0
 
 
 window,on,0.15
-message,警備隊長,うぉーい、セレストー。<br>マーケットで強盗を捕まえたって聞いたけど、本当かぁ？,400901000,,chara_4
+message,警備隊長,Hey，Celeste! Heard you caught a robber at the market. That true?<br> ,400901000,,chara_4
 
 window,off
 wait,0.15
@@ -683,7 +683,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,セレスト,あ、警備隊長！　さっすが耳が早い♪,104801000G,vc_10480100001_019_01,chara_1
+message,セレスト,Ah，Guard Captain! As expected，you've got quick ears!♪<br> ,104801000G,vc_10480100001_019_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -694,7 +694,7 @@ asyncseplay,setag1_25,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,セレスト,そうです！　あたしが！　あたしが捕まえました！<br>現行犯です！　電光石火の逮捕劇！,104801000G,vc_10480100001_020_01,chara_1
+message,セレスト,That's right! I caught him! Caught in the act! Lightning-fast<br>arrest!<br> ,104801000G,vc_10480100001_020_01,chara_1
 
 asynccharaface,chara_4,FaceSurprise,CONT,0
 
@@ -705,7 +705,7 @@ asyncseplay,setag1_26,se4800008,0,1,CONT,0
 asynccharaemo,chara_4,Sweat,CONT,0
 
 
-message,警備隊長,ほう？　まさか、サボり魔のお前がなぁ……,400901000,,chara_4
+message,警備隊長,Huh? Never thought it'd be you，the chronic slacker...<br> ,400901000,,chara_4
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -716,7 +716,7 @@ asyncseplay,setag1_27,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,セレスト,えへへへへへ。ボーナス、出ちゃったりします？<br>しますよね？,104801000G,vc_10480100001_021_01,chara_1
+message,セレスト,Ehehehehehe. So，the bonus... It's coming，right? Right?<br> ,104801000G,vc_10480100001_021_01,chara_1
 
 asynccharaface,chara_4,EyeOpen,CONT,0
 asynccharaface,chara_4,FaceNormal,CONT,0
@@ -728,7 +728,7 @@ asyncseplay,setag1_28,se4800009,0,1,STOP,1
 asynccharaemo,chara_4,Question,STOP,1
 
 
-message,警備隊長,まぁ、考えてやらんとな。<br>で、肝心の強盗犯は？,400901000,,chara_4
+message,警備隊長,Well，I'll consider it. So，where's the actual robber?<br> ,400901000,,chara_4
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -739,9 +739,9 @@ asyncseplay,setag1_29,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,セレスト,こいつです！　自分はやってないとか言い張ってますけど<br>すぐに搾り上げます！,104801000G,vc_10480100001_022_01,chara_1
+message,セレスト,This guy! He's insisting he didn't do it，but I'll wring the truth<br>out of him!<br> ,104801000G,vc_10480100001_022_01,chara_1
 
-message,<user>,…………よぅ。
+message,<user>,... Yo.<br> 
 
 window,off
 wait,0.15
@@ -789,9 +789,9 @@ wait,0.5
 
 
 window,on,0.15
-message,警備隊長,…………,400901000,,chara_4
+message,警備隊長,...<br> ,400901000,,chara_4
 
-message,<user>,何度か会ったことがあるな。ミレスガルドから<br>派遣されている警備隊の、警備隊長だったか？
+message,<user>,We've met a few times. You're the Guard Captain of the security<br>patrol from Milesgard，right?<br> 
 
 asynccharaface,chara_4,FaceSad,CONT,0
 
@@ -804,7 +804,7 @@ asynccharaemo,chara_4,Sweat,CONT,0
 wait,0.5
 
 
-message,警備隊長,あ、あの、え、えっと……な、なぜ、ここにあなたが？,400901000,,chara_4
+message,警備隊長,Ah，um，er... w-why are you here?<br> ,400901000,,chara_4
 
 window,off
 wait,0.15
@@ -856,7 +856,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,セレスト,あたしが捕まえたからです！　逃げるところをタックルして！<br>こう――ぐわぁぁーっと！　がっしり羽交い絞めにして！,104801000G,vc_10480100001_023_01,chara_1
+message,セレスト,Because I caught him! I tackled him as he was running! Like<br>this—Rrraaaghh! And locked his arms tight!<br> ,104801000G,vc_10480100001_023_01,chara_1
 
 window,off
 wait,0.15
@@ -905,7 +905,7 @@ asynccharaemo,chara_4,Anger,CONT,0
 
 
 window,on,0.15
-message,警備隊長,<size=48>ば、ばっかもーーーーーーーーんんんんっ！！！！</size>,400901000,,chara_4
+message,警備隊長,<size=48>Y-YOUUUU STUPIIIIID IIIIDIIIOOOTTT!</size>,400901000,,chara_4
 
 window,off
 wait,0.15
@@ -959,7 +959,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,セレスト,んげえっっ！？,104801000G,vc_10480100001_024_01,chara_1
+message,セレスト,Ngeh!<br> ,104801000G,vc_10480100001_024_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -970,7 +970,7 @@ asyncseplay,setag1_35,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,セレスト,た、隊長？　急に叫ぶと、血圧が上がりますよ……？,104801000G,vc_10480100001_025_01,chara_1
+message,セレスト,C-Captain? Shouting like that'll raise your blood pressure，you<br>know...?<br> ,104801000G,vc_10480100001_025_01,chara_1
 
 asynccharaface,chara_4,FaceAnger,CONT,0
 
@@ -981,7 +981,7 @@ asyncseplay,setag1_36,se4800016,0,1,CONT,0
 asynccharaemo,chara_4,BePeevish,CONT,0
 
 
-message,警備隊長,余計な心配はせんでいい！　この大馬鹿野郎が！<br>お前、自分が何をしたのか分かっとらんのか！？,400901000,,chara_4
+message,警備隊長,Don't worry about me! You absolute moron! Don't you realize what<br>you've done?<br> ,400901000,,chara_4
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -992,7 +992,7 @@ asyncseplay,setag1_37,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,セレスト,えぇぇ～……？　何って、強盗犯を――,104801000G,vc_10480100001_026_01,chara_1
+message,セレスト,Eeeeeh...? What，the robber...<br> ,104801000G,vc_10480100001_026_01,chara_1
 
 asyncjump,CHARA,chara_4,30,0.25,1,off,0,CONT
 
@@ -1001,7 +1001,7 @@ asyncseplay,setag1_38,se4800001,0,1,CONT,0
 asynccharaemo,chara_4,Anger,CONT,0
 
 
-message,警備隊長,やかましいっ！　誤認逮捕だ！　やる気のない奴だとは思っていたが<br>ここまで馬鹿だったとは……警備隊長の名において、減給処分とする！,400901000,,chara_4
+message,警備隊長,Shut up! False arrest! I knew you were lazy，but this stupid... As<br>Guard Captain，I'm docking your salary!<br> ,400901000,,chara_4
 
 window,off
 wait,0.15
@@ -1047,9 +1047,9 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,セレスト,嘘ぉぉぉっ！？　なんでぇーっ！？,104801000G,vc_10480100001_027_01,chara_1
+message,セレスト,Nooo! Whyyy?!<br> ,104801000G,vc_10480100001_027_01,chara_1
 
-message,<user>,あぁ、いや、隊長――何もそこまでしなくても。迷惑だったのは事実だが<br>俺は身の潔白が証明されたなら、それでいい。
+message,<user>,Ah，no，Captain—there's no need to go that far. It's true I was<br>troubled，but if my innocence is proven，that's fine by me.<br> 
 
 window,off
 wait,0.15
@@ -1101,7 +1101,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,セレスト,えっ……？<br>やだ、あなた――ひょっとしていい人なの？　何者？,104801000G,vc_10480100001_028_01,chara_1
+message,セレスト,Huh...? Wait，you—are you actually a good person? Who are you?<br> ,104801000G,vc_10480100001_028_01,chara_1
 
 crossfadeready
 
@@ -1110,7 +1110,7 @@ subimagefade,subimage_1,0,0.6235,0
 crossfade,0.1,0,0,1,1
 wait,0.1
 
-message,<user>,（……調子がいい奴だな）
+message,<user>,(...What a piece of work.)<br> 
 
 window,off
 wait,0.15
@@ -1134,7 +1134,7 @@ asynccharaemo,chara_4,Exclamation,CONT,0
 
 
 window,on,0.15
-message,警備隊長,お気持ちは大変ありがたいのですが、それでは他の者に示しがつきません！<br>処分につきましては、私に一任していただきたい！,400901000,,chara_4
+message,警備隊長,I appreciate your kindness，but that won't serve as a lesson to the<br>others! Please leave the punishment to me!<br> ,400901000,,chara_4
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1145,7 +1145,7 @@ asyncseplay,setag1_42,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,セレスト,そ、そんなー！？　横暴よーっ！！,104801000G,vc_10480100001_029_01,chara_1
+message,セレスト,Th-that's ridiculous! You're being tyrannical!<br> ,104801000G,vc_10480100001_029_01,chara_1
 
 window,off
 wait,0.15
@@ -1193,7 +1193,7 @@ asynccharaemo,chara_4,Anger,CONT,0
 
 
 window,on,0.15
-message,警備隊長,うるさーい！　さっさと真犯人を捕まえてこい！,400901000,,chara_4
+message,警備隊長,Quiet! Get moving and catch the real criminal!<br> ,400901000,,chara_4
 
 window,off
 wait,0.15
@@ -1247,7 +1247,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,セレスト,ひぃ～！？　い、行ってきますーっ！,104801000G,vc_10480100001_030_01,chara_1
+message,セレスト,Eeek! I-I'm on it!<br> ,104801000G,vc_10480100001_030_01,chara_1
 
 window,off
 wait,0.15
@@ -1303,9 +1303,9 @@ wait,0.5
 
 
 window,on,0.15
-message,警備隊長,司令官、申し訳ございません！！,400901000,,chara_4
+message,警備隊長,Commander，my deepest apologies!<br> ,400901000,,chara_4
 
-message,<user>,構わん。それより、さっきの女――セレストと言ったか。<br>どういう奴だ？
+message,<user>,It's fine. More importantly，that woman earlier—her name was<br>Celeste，right? What kind of person is she?<br> 
 
 asyncshake,CHARA,chara_4,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -1314,9 +1314,9 @@ asyncseplay,setag1_47,se4800006,0,1,CONT,0
 asynccharaemo,chara_4,Trouble,CONT,0
 
 
-message,警備隊長,本人も自称していますが、とんだ不良警備員ですよ……<br>金、酒が生き甲斐で素行も悪い。とんでもない奴です。,400901000,,chara_4
+message,警備隊長,She calls herself a guard，but she's a delinquent who lives for money<br>and drink. Her behavior's atrocious. She's a real piece of work.<br> ,400901000,,chara_4
 
-message,<user>,それでもお前がクビにしないのは、腕が立つからだな？
+message,<user>,Even so，the reason you haven't fired her is because she's<br>capable，right?<br> 
 
 asynccharaface,chara_4,FaceSurprise,CONT,0
 
@@ -1327,7 +1327,7 @@ asyncseplay,setag1_48,se4800017,0,1,CONT,0
 asynccharaemo,chara_4,Shock,CONT,0
 
 
-message,警備隊長,……！？<br>なぜそれを……？,400901000,,chara_4
+message,警備隊長,...!? How did you...?<br> ,400901000,,chara_4
 
 window,off
 wait,0.15
@@ -1342,7 +1342,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（……やはりか）
+message,<user>,(...Just as I thought.)<br> 
 
 
 window,off
@@ -1382,7 +1382,7 @@ linework,on,White,Middle
 
 
 window,on,0.15
-message,セレスト,おらぁぁあっ！,104801000G,vc_10480100001_031_01,chara_1
+message,セレスト,Heyaah!<br> ,104801000G,vc_10480100001_031_01,chara_1
 
 window,off
 wait,0.15
@@ -1398,7 +1398,7 @@ asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,<user>,ぐわっ！？
+message,<user>,Gwah!<br> 
 
 window,off
 wait,0.15
@@ -1413,9 +1413,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（あいつに捕まったとき、飛び掛かられるまで一切気配がなかった）
+message,<user>,(When that woman grabbed me，I didn't notice her at all until she<br>pounced.)<br> 
 
-message,<user>,（俺は武力に自信はないが、司令官として危機察知能力は備えている。<br>その俺が、あいつの突撃に気が付けなかったんだ）
+message,<user>,(I don't have confidence in combat，but as Commander I have<br>situational awareness. And yet I didn't notice her charge at all.)<br> 
 
 
 
@@ -1460,7 +1460,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（使いこなせれば、面白い人材になりそうだ）
+message,<user>,(If I can put her to use，she might become an interesting asset.)<br> 
 
 window,off
 wait,0.15
@@ -1484,9 +1484,9 @@ asynccharaemo,chara_4,Panic,CONT,0
 
 
 window,on,0.15
-message,警備隊長,あの、司令官？,400901000,,chara_4
+message,警備隊長,Um，Commander?<br> ,400901000,,chara_4
 
-message,<user>,すまん、なんでもない。ちょっとセレストを探してくるよ。
+message,<user>,Sorry，it's nothing. I'll go look for Celeste.<br> 
 
 window,off
 wait,0.15
@@ -1501,7 +1501,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（強盗犯を追うと言っていたから、おそらくマーケットだろう。<br>行ってみるか）
+message,<user>,(She said she was going after the robber，so she's probably at the<br>Market. I'll go check it out.)<br> 
 
 window,off
 bgmstop,bgmtag1_3,0.5

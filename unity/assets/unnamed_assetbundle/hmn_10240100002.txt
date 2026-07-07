@@ -434,7 +434,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,マニョリア、魔法水はこの部屋からなくなったんだな？
+message,<user>,Magnolia，the Magical Water is gone from this room，right?<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -445,7 +445,7 @@ asyncseplay,setag1_11,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,マニョリア,うん、部屋に帰ったらこんなことになってて、<br>魔法水がどこにもなくて……。,,vc_10240100002_010_01,chara_1
+message,マニョリア,Yes... when I got back to my room，it was like this，and the Magical<br>Water was nowhere to be found...<br> ,,vc_10240100002_010_01,chara_1
 
 window,off
 wait,0.15
@@ -490,9 +490,9 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,ならば前線基地の宿舎での盗難事件だ……！<br>アリシア、緊急事態だ。すぐに警備を強化しろ。
+message,<user>,Then it's a theft at the Frontline Base barracks...! Alicia，this is<br>an emergency. Tighten security immediately.<br> 
 
-message,<user>,非番でも暇そうなやつは呼び出して構わん。<br>おかしなものを見つけたらすぐ捕らえるように伝えろ。
+message,<user>,Call in anyone who's off duty and free. Tell them to apprehend<br>anything suspicious immediately.<br> 
 
 charapose,chara_2,2
 
@@ -505,7 +505,7 @@ asyncseplay,setag1_12,se4800010,0,1,CONT,0
 asynccharaemo,chara_2,Exclamation,CONT,0
 
 
-message,アリシア,はい、直ちにっ！,,vc_10240100002_011_01,chara_2
+message,アリシア,Yes，right away!<br> ,,vc_10240100002_011_01,chara_2
 
 
 window,off
@@ -560,9 +560,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,マニョリア,どうしよう、どうしようおにいさん。<br>このままじゃマックンが……。,,vc_10240100002_012_01,chara_1
+message,マニョリア,What should I do，what should I do，big brother? At this rate，Makkun<br>will...<br> ,,vc_10240100002_012_01,chara_1
 
-message,<user>,大丈夫だ。<br>こいつは俺にとっても友人だ、必ず助ける。
+message,<user>,It's alright. He's my friend too. I'll definitely save him.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -571,7 +571,7 @@ asyncseplay,setag1_15,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,マニョリア,うん……うん……！,,vc_10240100002_013_01,chara_1
+message,マニョリア,Yes... yes...!<br> ,,vc_10240100002_013_01,chara_1
 
 window,off
 wait,0.15
@@ -589,7 +589,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,マックン,本当にありがてえダチだぜ……兄さん……。,900000003
+message,マックン,You're a really great friend... big bro...<br> ,900000003
 
 window,off
 wait,0.15
@@ -607,7 +607,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,もう１度確認しておくが、<br>マックンの魔法水は、街では手に入らないんだな？
+message,<user>,Just to confirm once more: Makkun's Magical Water isn't something<br>you can get in town，right?<br> 
 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
@@ -619,9 +619,9 @@ asyncseplay,setag1_16,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,マニョリア,うん、貴重な魔法水だから。<br>お父さんが送ってくれてるの。,,vc_10240100002_014_01,chara_1
+message,マニョリア,Yes，it's rare Magical Water. My father sends it to me.<br> ,,vc_10240100002_014_01,chara_1
 
-message,<user>,マックンを助けるには、犯人を見つけるしかないか……。<br>マニョリア、魔法水の他に盗まれたものはあるか？
+message,<user>,To save Makkun，we have no choice but to find the culprit...<br>Magnolia，is there anything else missing besides the Magical Water?<br> 
 
 window,off
 wait,0.15
@@ -640,9 +640,9 @@ wait,0.5
 
 
 window,on,0.15
-message,マニョリア,えっと……。<br>……何もない、と思う。,,vc_10240100002_015_01,chara_1
+message,マニョリア,Um... I don't think so... nothing else.<br> ,,vc_10240100002_015_01,chara_1
 
-message,<user>,ピンポイントで魔法水を狙った犯行か。<br>貴重なものだってことを知っていたんだな。
+message,<user>,So it was a targeted theft aimed at the Magical Water. They must<br>have known it was valuable.<br> 
 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
@@ -654,9 +654,9 @@ asyncseplay,setag1_18,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,マニョリア,魔法水を狙って……！？,,vc_10240100002_016_01,chara_1
+message,マニョリア,Targeting the Magical Water...!<br> ,,vc_10240100002_016_01,chara_1
 
-message,<user>,他に狙いが考えられない。<br>部屋を荒らしたのはただの泥棒だと偽装するためだろう。
+message,<user>,There's no other reason. They must have trashed the room to make it<br>look like a random theft.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -667,7 +667,7 @@ asyncseplay,setag1_19,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,マニョリア,でも、マニョが魔法水を持ってるなんて、<br>知ってる人はほとんどいないのに……。,,vc_10240100002_017_01,chara_1
+message,マニョリア,But hardly anyone knows that I have the Magical Water...<br> ,,vc_10240100002_017_01,chara_1
 
 window,off
 wait,0.15
@@ -685,7 +685,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,マックン,いや……オレが街で、大声で喋っちまったから……。,900000003
+message,マックン,No... it's because I was shouting about it in town...<br> ,900000003
 
 window,off
 wait,0.15
@@ -712,11 +712,11 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,マニョリア,そっか。あの時に誰か聞いてたのかも……。,,vc_10240100002_018_01,chara_1
+message,マニョリア,I see. Maybe someone heard us that time...<br> ,,vc_10240100002_018_01,chara_1
 
-message,<user>,その可能性は高い。<br>確証はないが、妙な視線も感じたしな……。
+message,<user>,That's very possible. I don't have proof，but I did notice some<br>strange looks...<br> 
 
-message,<user>,だが、それならばチャンスはある。<br>計画的なプロの仕業じゃなく、突発的な犯行だからな。
+message,<user>,But if that's the case，we have a chance. It wasn't a planned<br>professional job—it was an impulsive crime.<br> 
 
 window,off
 wait,0.15
@@ -773,7 +773,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,何かしらの手がかりが残ってる可能性は高い。<br>慎重に調べれば……
+message,<user>,There's a good chance some kind of clue remains. If we search<br>carefully...<br> 
 
 window,off
 wait,0.15
@@ -801,12 +801,12 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,……やっぱりか！<br>マニョリア、ここをよく見てみろ。
+message,<user>,Just as I thought! Magnolia，take a look here.<br> 
 
 
-message,マニョリア,あ、これ……足跡……！？,,vc_10240100002_019_01
+message,マニョリア,Ah，these... are those footprints?!<br> ,,vc_10240100002_019_01
 
-message,<user>,ああ、明かりに照らせば、薄くだが足跡が残ってる。<br>暗い中で盗みに入ったから気づかなかったんだな。
+message,<user>,Yeah，if you hold up a light，you can see faint footprints. The thief<br>must've missed them because he broke in while it was dark.<br> 
 
 window,off
 wait,0.15
@@ -834,7 +834,7 @@ asynccharashowalpha,chara_1,1,0.3,CONT,0
 wait,0.5
 
 window,on,0.15
-message,<user>,よし、足跡を追うぞ、マニョリア。<br>マックンを助けるぞ！
+message,<user>,Alright，let's follow these footprints，Magnolia. We're going to save<br>Makkun!<br> 
 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
@@ -846,7 +846,7 @@ asyncseplay,setag1_21,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,マニョリア,うん……！,,vc_10240100002_020_01,chara_1
+message,マニョリア,Yeah...!<br> ,,vc_10240100002_020_01,chara_1
 
 
 bgmstop,bgmtag1_2,1.5,0
@@ -876,7 +876,7 @@ bgmplay,bgmtag1_3,bgm0041,0.75,1
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,<user>,くっ、基地の外まで足跡が続いてるな。<br>外部へ逃げ出すつもりか。
+message,<user>,Tch，the footprints lead outside the base. Is he planning to escape?<br> 
 
 window,off
 wait,0.15
@@ -916,11 +916,11 @@ wait,0.5
 
 
 window,on,0.15
-message,マニョリア,この先はヘル・ラフレシアのみんなが住んでる森。<br>危ない場所なのに……。,,vc_10240100002_021_01,chara_1
+message,マニョリア,Ahead is the forest where all the Hell Rafflesia live. Even though<br>it's a dangerous place...<br> ,,vc_10240100002_021_01,chara_1
 
-message,<user>,ああ、一般人の立ち入りが禁止されてる場所だぞ。<br>モンスターに襲われる危険もあるのに、無茶しやがる。
+message,<user>,Yeah，it's off-limits to civilians. Despite the danger of monster<br>attacks，he's still pulling this crazy stunt.<br> 
 
-message,<user>,マニョリア、こんな夜中に危険な基地の外へ出るほどに、<br>魔法水は高値で取り引きされてるのか？
+message,<user>,Magnolia，is the Magical Water so valuable that someone would risk<br>leaving the base in the dead of night?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -931,9 +931,9 @@ asyncseplay,setag1_23,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,マニョリア,うん……強い力のこめられた魔法水は、<br>たくさんの使い道があるから……。,,vc_10240100002_022_01,chara_1
+message,マニョリア,Yeah... because the Magical Water has strong powers and so many<br>uses...<br> ,,vc_10240100002_022_01,chara_1
 
-message,<user>,となると、賊はリスクを承知で逃げているわけか。<br>金のために命をかけてるとなると、厄介だな。
+message,<user>,So the thief is fleeing knowing the risks. If he's risking his life<br>for money，that makes things complicated.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -944,7 +944,7 @@ asyncseplay,setag1_24,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,マニョリア,お金のためにマックンを苦しめるなんて……。,,vc_10240100002_023_01,chara_1
+message,マニョリア,To think he'd make Makkun suffer just for money...<br> ,,vc_10240100002_023_01,chara_1
 
 window,off
 wait,0.15
@@ -965,9 +965,9 @@ wait,0.5
 
 
 window,on,0.15
-message,マニョリア,あのね、おにいさん。<br>マニョは小さい頃から、植物のみんなとおしゃべりができたの。,,vc_10240100002_024_01,chara_1
+message,マニョリア,Hey，big brother. I've been able to talk to all the plants since I<br>was little.<br> ,,vc_10240100002_024_01,chara_1
 
-message,<user>,……ほう？<br>植物と会話できる特殊技能、か。
+message,<user>,Hmm? So you have a special ability to talk to plants.<br> 
 
 
 window,off
@@ -1016,9 +1016,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,マニョリア,お父さんはそういって喜んでくれた。<br>でもエルドラーナのお友達は誰も信じてくれなかった……。,,vc_10240100002_025_01,chara_1
+message,マニョリア,My father was happy to hear that. But none of my friends in Eldorana<br>believed me...<br> ,,vc_10240100002_025_01,chara_1
 
-message,<user>,植物が相手じゃ証明するのも難しいしな。<br>子どものいうことじゃ、中々信じてくれないだろう。
+message,<user>,Well，it's hard to prove when you're dealing with plants. And people<br>don't easily believe what a child says.<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -1027,9 +1027,9 @@ asyncseplay,setag1_27,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,マニョリア,うん……ずっと変な子だって思われてた。<br>だからお父さんは、マックンに魔法水をあげたの。,,vc_10240100002_026_01,chara_1
+message,マニョリア,Yeah... everyone always thought I was a strange child. So my father<br>gave the Magical Water to Makkun.<br> ,,vc_10240100002_026_01,chara_1
 
-message,<user>,マックンが喋れるようになれば、<br>マニョリアの力を証明できる……か。
+message,<user>,If Makkun could speak，that would prove your ability... I see.<br> 
 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
@@ -1045,9 +1045,9 @@ asynccharaface,chara_1,EyeClose,STOP,6.25
 asynccharaface,chara_1,FaceNormal,STOP,6.25
 
 
-message,マニョリア,うん。マックンはずっと言ってくれてたの。<br>自分がしゃべれるようになって、みんなにマニョのすごさを教えるって。,,vc_10240100002_027_01,chara_1
+message,マニョリア,Yes. Makkun always said that once he could talk，he'd show everyone<br>how amazing I am.<br> ,,vc_10240100002_027_01,chara_1
 
-message,<user>,そうか、マニョリアだけは最初からマックンと話せたんだもんな。
+message,<user>,I see. So you were the only one who could talk to Makkun from the<br>start.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1058,7 +1058,7 @@ asyncseplay,setag1_29,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,マニョリア,魔法水だけあっても、言葉なんてしゃべれるようにならない。<br>マックンはマニョのためにがんばってくれたんだ。,,vc_10240100002_028_01,chara_1
+message,マニョリア,Even with the magical water alone，you can't just start speaking.<br>Makkun worked hard for my sake.<br> ,,vc_10240100002_028_01,chara_1
 
 window,off
 wait,0.15
@@ -1093,7 +1093,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,……いいとこあるな、マックン。<br>マニョリアのことが大好きなんだろう。
+message,<user>,...He's got some good points，Makkun. He must really love<br>you，Magnolia.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1105,7 +1105,7 @@ asyncseplay,setag1_30,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,マニョリア,マックンは見た目は怖いけど、<br>優しくておしゃべりが上手な、特別なお友達。,,vc_10240100002_029_01,chara_1
+message,マニョリア,Makkun looks scary，but he's a kind，talkative，special friend.<br> ,,vc_10240100002_029_01,chara_1
 
 
 asynccharaface,chara_1,FaceSad,CONT,0
@@ -1117,7 +1117,7 @@ asyncseplay,setag1_31,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,マニョリア,でもね、やっぱりみんなに信じてもらえなかったことが、<br>ずっとずっと、忘れられない。,,vc_10240100002_030_01,chara_1
+message,マニョリア,But still，I can never，ever forget that no one believed me.<br> ,,vc_10240100002_030_01,chara_1
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -1126,7 +1126,7 @@ asyncseplay,setag1_32,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,マニョリア,だからマニョは人とおしゃべりをするのが苦手で……。<br>マックンはマニョの代わりに、みんなと話してくれてる。,,vc_10240100002_031_01,chara_1
+message,マニョリア,That's why I'm bad at talking to people... Makkun talks to everyone<br>in my place.<br> ,,vc_10240100002_031_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1138,7 +1138,7 @@ asyncseplay,setag1_33,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,マニョリア,マックンはずっと、マニョを助けてくれた……！,,vc_10240100002_032_01,chara_1
+message,マニョリア,Makkun has always helped me...!<br> ,,vc_10240100002_032_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1149,7 +1149,7 @@ asyncseplay,setag1_34,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,マニョリア,マックンのおかげで、みんながマニョを信じてくれた。<br>植物学者になりたいって言っても、誰も笑ったりしなかったの。,,vc_10240100002_033_01,chara_1
+message,マニョリア,Thanks to Makkun，everyone believed in me. Even when I said I wanted<br>to become a botanist，nobody laughed.<br> ,,vc_10240100002_033_01,chara_1
 
 window,off
 wait,0.15
@@ -1169,7 +1169,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,マックン,マ……ニョ……。,900000003
+message,マックン,M... Manio...<br> ,900000003
 
 window,off
 wait,0.15
@@ -1198,9 +1198,9 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,マニョリア,マックン……！　どんどん力がなくなってる……<br>早く魔法水をあげないと！,,vc_10240100002_034_01,chara_1
+message,マニョリア,Makkun...! He's getting weaker and weaker... I have to give him the<br>magical water soon!<br> ,,vc_10240100002_034_01,chara_1
 
-message,<user>,大丈夫だ、今のマニョリアは強い。<br>マックンが喋れなくても俺たちに事情を話すことができた。
+message,<user>,It's fine. You're strong now，Magnolia. Even if Makkun can't<br>speak，you were able to explain the situation to us.<br> 
 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
@@ -1212,9 +1212,9 @@ asyncseplay,setag1_36,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,マニョリア,おにいさん……。,,vc_10240100002_035_01,chara_1
+message,マニョリア,Big brother...<br> ,,vc_10240100002_035_01,chara_1
 
-message,<user>,こうして友達を助けるためにがんばれる、立派な女の子だ。<br>マニョリアと俺なら絶対にマックンを助けられる。
+message,<user>,You're a brave girl，working hard to save your friend like this. With<br>you and me，we'll definitely save Makkun.<br> 
 
 window,off
 wait,0.15
@@ -1233,7 +1233,7 @@ wait,0.5
 
 
 window,on,0.15
-message,マニョリア,……うん、ありがとう、おにいさん。,,vc_10240100002_036_01,chara_1
+message,マニョリア,...Yeah，thank you，Big brother.<br> ,,vc_10240100002_036_01,chara_1
 
 bgmstop,bgmtag1_3,1.5,0
 
@@ -1277,11 +1277,11 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,マニョリア,おにいさん、どんどん森の奥に入っていくね……。,,vc_10240100002_037_01,chara_1
+message,マニョリア,Big brother，we're going deeper into the forest...<br> ,,vc_10240100002_037_01,chara_1
 
-message,<user>,ああ、どんどん足元に草が増えてきたな。<br>くっそ、これじゃ足跡が見つけられない……！
+message,<user>,Yeah，the grass at our feet is getting thicker. Damn，we can't find<br>the footprints like this...!<br> 
 
-message,<user>,偉そうなことを言っておいて、ここで手詰まりか。<br>基地に戻って応援を呼ぶ時間はあるか……？
+message,<user>,After talking so big，we're stuck here. Is there time to go back to<br>base and call for backup...?<br> 
 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
@@ -1293,9 +1293,9 @@ asyncseplay,setag1_39,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,マニョリア,……っ！　向こうの森の木たちが、マニョを呼んでる。<br>変なやつがいるよ、って。,,vc_10240100002_038_01,chara_1
+message,マニョリア,...! The trees over there are calling me. They say there's a weird<br>guy.<br> ,,vc_10240100002_038_01,chara_1
 
-message,<user>,そうか、植物と話す力……！<br>マニョ！　案内してくれ！
+message,<user>,Right，the power to talk to plants...! Manio，lead the way!<br> 
 
 
 window,off
@@ -1347,7 +1347,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,マニョリア,こっち、だって……！,,vc_10240100002_039_01,chara_1
+message,マニョリア,This way...!<br> ,,vc_10240100002_039_01,chara_1
 
 window,off
 wait,0.15
@@ -1393,7 +1393,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,本当だ、下草が切り払われた痕跡がある！<br>なるほどな、無理やり森を抜けようとしてるらしい。
+message,<user>,You're right! There are traces of cut undergrowth. I see，so he's<br>trying to force his way through the forest.<br> 
 
 window,off
 wait,0.15
@@ -1428,7 +1428,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,マニョリア,あ……！<br>おにいさん、あそこに誰かいるっ……！,,vc_10240100002_040_01,chara_1
+message,マニョリア,Ah...! Big brother，there's someone over there...!<br> ,,vc_10240100002_040_01,chara_1
 
 
 window,off
@@ -1481,7 +1481,7 @@ asynccharaemo,chara_3,Anger,CONT,0
 
 
 window,on,0.15
-message,怪しげな男,くそっ！　なんだこの森、歩きにくいったらねえ！<br>草を切りながらじゃないと進めやしないぞ！,2028301,,chara_3
+message,怪しげな男,Damn it! This forest is so hard to walk through! I can't even move<br>without cutting the grass!<br> ,2028301,,chara_3
 
 asyncjump,CHARA,chara_3,60,0.4,1,off,0,CONT
 
@@ -1490,7 +1490,7 @@ asyncseplay,setag1_43,se4800001,0,1,CONT,0
 asynccharaemo,chara_3,Anger,CONT,0
 
 
-message,怪しげな男,道沿いに逃げたってすぐ捕まると思ったが……。<br>ええいこの森、いざとなったら全部焼き払ってやろうか！,2028301,,chara_3
+message,怪しげな男,I thought I'd get caught right away if I ran along the road...<br>*tch*，if it comes to that，I'll just burn this whole forest down!<br> ,2028301,,chara_3
 
 window,off
 wait,0.15
@@ -1523,7 +1523,7 @@ transitionCrossFade,Tra02,1
 wait,1
 
 window,on,0.15
-message,<user>,あれは街で見かけた妙な男！<br>あいつが魔法水を盗んだのかっ！
+message,<user>,That's the strange man I saw in town! He's the one who stole the<br>magical water!<br> 
 
 window,off
 wait,0.15
@@ -1541,7 +1541,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,マックン,…………。,900000003
+message,マックン,...<br> ,900000003
 
 window,off
 wait,0.15
@@ -1570,7 +1570,7 @@ wait,0.5
 
 
 window,on,0.15
-message,マニョリア,マックン……！<br>すぐに魔法水を取り返すから、待っててね……！,,vc_10240100002_041_01,chara_1
+message,マニョリア,Makkun...! I'll get the magical water back right away，so wait for<br>me...!<br> ,,vc_10240100002_041_01,chara_1
 
 window,off
 bgmstop,bgmtag1_4,0.5

@@ -44,7 +44,7 @@ asyncseplay,setag1_1,se4800002,0,1,CONT
 asynccharaemo,chara_1,Heart,STOP
 
 
-messageTextUnder,,At the tavern on the first floor of the brothel，the Commander and Hayley were having dinner. After finishing their meal，the two were relaxing.,,,on
+messageTextUnder,,After dinner at the brothel's first-floor tavern，the Commander and Hayley relaxed.,,,on
 
 
 
@@ -213,7 +213,7 @@ asynccharaemo,chara_1,Elated,STOP
 message,,Hayley nodded twice，as if to say she understood.<br> 
 
 
-message,<user>,... So you invited me to a brothel for dinner，confessed your<br>feelings，and all so the chains wouldn't go to waste? Don't tell me you're into BDSM.<br> 
+message,<user>,... So you invited me to a brothel，confessed，so the chains wouldn't<br>go to waste? Don't tell me you're into BDSM.<br> 
 
 asynccharareaction,chara_1,Shake,1,STOP
 
@@ -223,7 +223,7 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
 asynccharaface,chara_1,FaceShy,STOP
-message,ヘイリー,W-well，actually，when I was little，I happened to see my parents<br>engaging in this sort of play... and my interest in this kind of thing just grew and grew...<br> ,,vc_10420100011_010_01
+message,ヘイリー,W-well，actually，when I was little，I saw my parents doing this sort<br>of thing... and my interest just kept growing...<br> ,,vc_10420100011_010_01
 
 window,off
 wait,0.15
@@ -280,7 +280,7 @@ wait,1
 fade,In,Black,1
 
 window,on,0.15
-message,,The sound of chains echoed in the room，accompanied by the exchange:<br>""Does it hurt?"" ""...No.""<br> 
+message,,The sound of chains echoed in the room，accompanied by the exchange:<br>'Does it hurt?' '...No.'<br> 
 
 
 labeljump,b

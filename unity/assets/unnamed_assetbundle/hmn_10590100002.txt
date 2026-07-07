@@ -40,9 +40,9 @@ asyncwait,subimage_0_1
 asyncwait,subimage_0_2
 
 
-messageTextUnder,,スティーラの作った魔石細工のインテリアが、<br>司令本部に展示されるようになった、しばらく後。,,,on
+messageTextUnder,,Some time later，Steela's magic stone craft interior decorations were put on display at Command HQ.,,,on
 
-messageTextUnder,,大穴のある階層で魔石が大量に採掘できる鉱脈が発見される。<br>その階層のモンスターは全て掃討され、大がかりな採掘部隊が編制されていた。,,,on
+messageTextUnder,,A rich magic stone ore vein was found in an Abyss layer. After clearing all monsters，a large mining team was formed.,,,on
 
 window,off
 wait,0.15
@@ -68,7 +68,7 @@ asynccharaface,chara_2,FaceNormal,CONT,0
 asynccharashowalpha,chara_2,1,0.3,CONT,0
 
 window,on,0.15
-message,<user>,――よし、採掘は順調のようだな。<br>お前たちの働きに基地の未来がかかってる、期待しているぞ。
+message,<user>,—Alright，looks like the mining is going smoothly. The future of the<br>base depends on your efforts. I'm counting on you.<br> 
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -79,9 +79,9 @@ asyncseplay,setag1_1,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,採掘場の兵士,任せてくださいよ！<br>魔石採掘で一攫千金を狙う、命知らずの連中がどんどん来てますからね！,401501000,,chara_2
+message,採掘場の兵士,You can count on us! Tons of gutsy guys hoping to strike it rich<br>with magic stone mining have been pouring in!<br> ,401501000,,chara_2
 
-message,<user>,ほー、いろんなやつが堀りに来てるのか？
+message,<user>,Huh，so all sorts of people are coming to dig?<br> 
 
 asyncjump,CHARA,chara_2,-30,0.5,2,off,0,CONT
 
@@ -90,11 +90,11 @@ asyncseplay,setag1_2,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,採掘場の兵士,ええ、中にはちっこい女の子なんかもいましたよ。 <br>ピンポイントで良質な魔石を見つけていくもんだから、参りましたよ。,401501000,,chara_2
+message,採掘場の兵士,Yeah，there was even this tiny little girl. She'd pinpoint the<br>highest-quality magic stones every time，it was really something.<br> ,401501000,,chara_2
 
-message,<user>,小さくて腕利きの採掘師……？<br>安全な採掘場だし、スティーラかもしれんな。
+message,<user>,A small but skilled miner...? Well，the mining field is safe，so it<br>might be Steela.<br> 
 
-message,<user>,ま、何かあったら報告してくれ。<br>また様子を見に来る。
+message,<user>,Well，report to me if anything happens. I'll come check again later.<br> 
 
 window,off
 wait,0.15
@@ -129,7 +129,7 @@ asyncmove,BACK,,0,0,0,Set,CONT
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,<user>,採掘場は問題なし、と。<br>採掘隊の規模の拡大も検討してみるか……
+message,<user>,So，no problems at the mining field. Maybe I should consider<br>expanding the mining team...<br> 
 
 window,off
 wait,0.15
@@ -162,7 +162,7 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,スティーラ,ぅぅぅ……どこなのぉ……,105901000G,vc_10590100002_001_01,chara_1
+message,スティーラ,Uuu... where are you...?<br> ,105901000G,vc_10590100002_001_01,chara_1
 
 window,off
 wait,0.15
@@ -180,11 +180,11 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,……ん？ <br>あれはスティーラ……？
+message,<user>,Hm? Is that Steela...?<br> 
 
-message,,必死の形相で走っていくスティーラを目にして、 <br><user>の足が止まる。
+message,,Catching sight of Steela running with a desperate<br>expression，Commander stopped in his tracks.<br> 
 
-message,<user>,なんか様子がおかしいな……<br>おーい、スティーラ！　何があったんだ！？
+message,<user>,Something's wrong... Hey，Steela! What happened?<br> 
 
 window,off
 wait,0.15
@@ -217,9 +217,9 @@ asynccharaemo,chara_1,Shock,STOP,2.75
 
 
 window,on,0.15
-message,スティーラ,はぁ、はぁ……あ、司令官様……,105901000G,vc_10590100002_002_01,chara_1
+message,スティーラ,*pant，pant*... Ah，Lord Commander...<br> ,105901000G,vc_10590100002_002_01,chara_1
 
-message,<user>,どうしたんだ、こんなところで。<br>魔石の採掘に参加してたのか？
+message,<user>,What's wrong? Were you part of the mining team here?<br> 
 
 window,off
 wait,0.15
@@ -244,9 +244,9 @@ asynccharaemo,chara_1,Panic,STOP,4.8
 
 
 window,on,0.15
-message,スティーラ,ぁ……はい、そうなんです……。<br>で、でも、あの……その……わ、わわわ、わたし……,105901000G,vc_10590100002_003_01,chara_1
+message,スティーラ,Ah... yes，I was... B-but，um... that is... I-I-I...<br> ,105901000G,vc_10590100002_003_01,chara_1
 
-message,<user>,焦るな、ゆっくりでいい。 <br>何かあったんだな？
+message,<user>,Take your time. Something happened，didn't it?<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -257,9 +257,9 @@ asyncseplay,setag1_7,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,スティーラ,は、はいっ……！　え、えっと……<br>し、司令官様、わたしのブローチ、覚えてますか……？,105901000G,vc_10590100002_004_01,chara_1
+message,スティーラ,Y-yes! Um... L-Lord Commander，do you remember my Brooch...?<br> ,105901000G,vc_10590100002_004_01,chara_1
 
-message,<user>,ああ、あの喋るやつだろう？<br>今日もつけてるじゃないか。
+message,<user>,Oh，the talking one，right? You're wearing it today，aren't you?<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -270,9 +270,9 @@ asyncseplay,setag1_8,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,スティーラ,こ、これはあの子とは違います！<br>これは形だけ似せた、予備のブローチで……,105901000G,vc_10590100002_005_01,chara_1
+message,スティーラ,Th-this is different from my friend! This is just a spare I made to<br>look like her...<br> ,105901000G,vc_10590100002_005_01,chara_1
 
-message,<user>,そうなのか？<br>で、あの喋るブローチがどうかしたのか？
+message,<user>,Is that right? So what happened to that talking Brooch?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -283,7 +283,7 @@ asyncseplay,setag1_9,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,スティーラ,な、なくして、しまったんです！　わたしの……大切なブローチ……<br>あ、あの……っ！　池で……洗って、と、鳥が……バサーッて！,105901000G,vc_10590100002_006_01,chara_1
+message,スティーラ,I-I lost it! My precious Brooch... Um...! I was washing her at the<br>pond，and a bird... snatched her and flapped away!<br> ,105901000G,vc_10590100002_006_01,chara_1
 
 window,off
 wait,0.15
@@ -316,7 +316,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,お、落ち着けスティーラ！　落ち着いて、ゆっくり話してくれ。<br>俺なら力になれるかもしれん。まずはゆっくり深呼吸だ！
+message,<user>,Calm down，Steela! Take it easy and tell me slowly. I might be able<br>to help. First，take a deep breath!<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -329,7 +329,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,スティーラ,は、はいっ……司令官様……<br>あ、ありがとうございますっ！,105901000G,vc_10590100002_007_01,chara_1
+message,スティーラ,Y-yes... Lord Commander... Th-thank you so much!<br> ,105901000G,vc_10590100002_007_01,chara_1
 
 window,off
 wait,0.15
@@ -361,7 +361,7 @@ asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
 
 window,on,0.15
-message,,スティーラは１度大きく深呼吸をすると、<br>何が起きたのかを説明し始めた。
+message,,Steela took a deep breath and began to explain what had happened.<br> 
 
 
 window,off
@@ -381,7 +381,7 @@ wait,0.5
 
 
 window,on,0.15
-message,スティーラ,今日は魔石の鉱脈の採掘隊に参加して、<br>採掘場で良さそうな魔石がないか探していたんです。,105901000G,vc_10590100002_008_01,chara_1
+message,スティーラ,Today I joined a mining party for the magic stone vein，and I was<br>looking for good magic stones at the mining field.<br> ,105901000G,vc_10590100002_008_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -392,7 +392,7 @@ asyncseplay,setag1_12,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,スティーラ,でも採掘場って砂埃がすごくて、ブローチが汚れてしまって……<br>それで近くの池で綺麗に洗って、乾かしていたんですが……,105901000G,vc_10590100002_009_01,chara_1
+message,スティーラ,But the mining field was so dusty，and my Brooch got dirty... So I<br>washed her at a nearby pond and was drying her，but...<br> ,105901000G,vc_10590100002_009_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -403,9 +403,9 @@ asyncseplay,setag1_13,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,スティーラ,ふらっと飛んできた鳥さんがブローチをくわえて、<br>ばさーって飛んでいっちゃったんです……！,105901000G,vc_10590100002_010_01,chara_1
+message,スティーラ,A bird that just happened to fly by snatched Brooch and flapped<br>away...!<br> ,105901000G,vc_10590100002_010_01,chara_1
 
-message,<user>,な、なるほど……それは災難だな……
+message,<user>,Oh，I see... That's rough...<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -416,9 +416,9 @@ asyncseplay,setag1_14,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,スティーラ,急いで追いかけたんですけど、ぜんぜん追いつけなくて……。<br>鳥さんがどこに行ったかも分からなくなって……それで、わたし……,105901000G,vc_10590100002_011_01,chara_1
+message,スティーラ,I hurried after it，but I couldn't catch it at all... I lost track of<br>where the bird went... and then I...<br> ,105901000G,vc_10590100002_011_01,chara_1
 
-message,<user>,だから必死に走っていたわけか……。<br>なるほど、事情は理解した。
+message,<user>,So that's why you were running desperately... I see，I understand the<br>situation.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -429,9 +429,9 @@ asyncseplay,setag1_15,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,スティーラ,うう……あ、あのブローチがないと……わたし……,105901000G,vc_10590100002_012_01,chara_1
+message,スティーラ,Ugh... without that Brooch... I...<br> ,105901000G,vc_10590100002_012_01,chara_1
 
-message,<user>,慌てるな、まずは事件現場の確認から順を追って始めよう。<br>ブローチを洗った池ってのに案内してくれ。
+message,<user>,Don't panic，let's start by examining the scene of the incident. Lead<br>me to the pond where you washed Brooch.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -442,11 +442,11 @@ asyncseplay,setag1_16,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,スティーラ,さ、探すの……手伝ってもらえるんですか……？,105901000G,vc_10590100002_013_01,chara_1
+message,スティーラ,W-will you... help me look...?<br> ,105901000G,vc_10590100002_013_01,chara_1
 
-message,<user>,あぁ。スティーラには素晴らしい作品を作ってもらったし、<br>あのブローチとは多少は会話した仲だ。
+message,<user>,Yeah. You made me a wonderful piece，and I've talked with that Brooch<br>a fair bit.<br> 
 
-message,<user>,大事なブローチなんだろ？<br>もちろん、協力するさ。
+message,<user>,It's an important Brooch，right? Of course I'll help.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -457,7 +457,7 @@ asyncseplay,setag1_17,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,スティーラ,あ、ありがとうございます……！<br>よ、よろしく……お、お願いします！,105901000G,vc_10590100002_014_01,chara_1
+message,スティーラ,Th-thank you...! P-please help me...!<br> ,105901000G,vc_10590100002_014_01,chara_1
 
 
 window,off
@@ -488,9 +488,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,スティーラ,えっと……ここに置いて乾かしていたら大きな鳥が飛んできて、<br>くわえていっちゃったんです……,105901000G,vc_10590100002_015_01,chara_1
+message,スティーラ,Um... I left her here to dry，and a big bird flew by and snatched<br>her...<br> ,105901000G,vc_10590100002_015_01,chara_1
 
-message,<user>,……ふむ。鳥は光りものを好むし、<br>魔石細工なんて格好の獲物だろうな。
+message,<user>,Hmm. Birds like shiny things，and magic stone jewelry is the perfect<br>target.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -501,9 +501,9 @@ asyncseplay,setag1_19,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,スティーラ,うう、わたしがちゃんと見てなかったせいで……<br>あの子がいなかったらわたし……だ、誰ともお話しできないし……,105901000G,vc_10590100002_016_01,chara_1
+message,スティーラ,Ugh，it's because I wasn't watching carefully... Without her，I... I-I<br>can't talk to anyone...<br> ,105901000G,vc_10590100002_016_01,chara_1
 
-message,<user>,お店開いてる時の接客にはあのブローチが必要だものなぁ。
+message,<user>,You need that Brooch to serve customers when the shop's open，huh.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -514,9 +514,9 @@ asyncseplay,setag1_20,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,スティーラ,はい……採掘隊に参加してる時も、<br>あれがないと皆さんとお話し……難しくて……,105901000G,vc_10590100002_017_01,chara_1
+message,スティーラ,Y-yes... even when I'm with the mining party，without it，talking with<br>everyone... is really hard...<br> ,105901000G,vc_10590100002_017_01,chara_1
 
-message,<user>,まぁ、ここの鳥が階層をこえて移動することはない。<br>この階層のどこかにはあるはずだから諦めることはない。
+message,<user>,Well，these birds don't cross layers. It should be somewhere on this<br>floor，so no need to give up.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -527,9 +527,9 @@ asyncseplay,setag1_21,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,スティーラ,そ、そうなんでしょうけど……<br>いったい、どこを探せばいいのかも分かんないし……,105901000G,vc_10590100002_018_01,chara_1
+message,スティーラ,Th-that's probably true，but... I don't even know where to look...<br> ,105901000G,vc_10590100002_018_01,chara_1
 
-message,<user>,ん～、そうだな。<br>とりあえず、その鳥が飛んでいった方向を探してみよう。
+message,<user>,Hmm，right. For now，let's try searching in the direction that bird<br>flew.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -540,7 +540,7 @@ asyncseplay,setag1_22,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,スティーラ,は、はいっ！<br>鳥さんはこっちのほうに飛んでいったはずです！,105901000G,vc_10590100002_019_01,chara_1
+message,スティーラ,Y-yes! The bird definitely flew this way!<br> ,105901000G,vc_10590100002_019_01,chara_1
 
 window,off
 wait,0.15
@@ -556,7 +556,7 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,,<user>とスティーラは<br>ブローチを探して周囲の探索を進めた。
+message,,The Commander and Steela searched the surroundings for Brooch.<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -589,7 +589,7 @@ bgmplay,bgmtag1_2,bgm0030,0.75,1
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,<user>,その辺に落ちてる、なんて幸運はなかったか。<br>問題の鳥も見当たらないな……。
+message,<user>,No such luck as finding her dropped nearby. Can't see the bird in<br>question either...<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -600,9 +600,9 @@ asyncseplay,setag1_23,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,スティーラ,どうしよう、どうしよう……。<br>このままじゃあの子が……！,105901000G,vc_10590100002_020_01,chara_1
+message,スティーラ,What'll I do，what'll I do... At this rate，Brooch...!<br> ,105901000G,vc_10590100002_020_01,chara_1
 
-message,<user>,あのブローチはスティーラが作ったものなんだよな？<br>だったらもう１度新しく作り直すことはできないのか？
+message,<user>,That Brooch is one you made，right? So can't you make a new one from<br>scratch?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -613,7 +613,7 @@ asyncseplay,setag1_24,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,スティーラ,……それは無理なんです。<br>まったく同じ魔石なんて存在しないですし……,105901000G,vc_10590100002_021_01,chara_1
+message,スティーラ,...I-It's impossible. No two magic stones are exactly alike，and...<br> ,105901000G,vc_10590100002_021_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -624,9 +624,9 @@ asyncseplay,setag1_25,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,スティーラ,魔石の大きさや品質、こめられた魔力も、すべてが影響します。<br>まったく同じ魔石細工を作り出すのはほとんど無理なんです……,105901000G,vc_10590100002_022_01,chara_1
+message,スティーラ,The size，quality，and imbued magic power all play a part. It's nearly<br>impossible to create an identical piece of magic stone craft...<br> ,105901000G,vc_10590100002_022_01,chara_1
 
-message,<user>,魔石細工の難しさか……
+message,<user>,The difficulty of magic stone craft，huh...<br> 
 
 window,off
 wait,0.15
@@ -646,7 +646,7 @@ wait,0.5
 
 
 window,on,0.15
-message,スティーラ,それに、知っている人のほとんどいないこの基地で<br>わたしの話し相手になってくれたのはあの子だけなんです。,105901000G,vc_10590100002_023_01,chara_1
+message,スティーラ,Besides，in this base where I barely know anyone，the only one who<br>would talk with me was Brooch.<br> ,105901000G,vc_10590100002_023_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -658,7 +658,7 @@ asyncseplay,setag1_27,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,スティーラ,初めて大穴に入って、 <br>怖くて動けなくなったわたしの背中を押してくれたのも。,105901000G,vc_10590100002_024_01,chara_1
+message,スティーラ,When I first entered the Abyss and froze in fear，she gave me the<br>courage to go on.<br> ,105901000G,vc_10590100002_024_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -669,7 +669,7 @@ asyncseplay,setag1_28,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,スティーラ,誰も買いにきてくれなくて、 <br>店を閉めようか悩んでいたわたしを励ましてくれたのも。,105901000G,vc_10590100002_025_01,chara_1
+message,スティーラ,When no one came to buy and I was thinking of closing the shop，she<br>encouraged me.<br> ,105901000G,vc_10590100002_025_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -680,7 +680,7 @@ asyncseplay,setag1_29,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,スティーラ,ずっと支えてくれた、たった1人の大切なお友達なんです……。<br>あの子じゃないとダメなんです……,105901000G,vc_10590100002_026_01,chara_1
+message,スティーラ,She was my one and only dear friend who always supported me... It<br>has to be her...<br> ,105901000G,vc_10590100002_026_01,chara_1
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -689,11 +689,11 @@ asyncseplay,setag1_30,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,スティーラ,新しいブローチを作り直したとしても、<br>それはもう、あの子じゃないもの……,105901000G,vc_10590100002_027_01,chara_1
+message,スティーラ,Even if I made a new brooch，it wouldn't be her anymore...<br> ,105901000G,vc_10590100002_027_01,chara_1
 
-message,<user>,……なるほどな。
+message,<user>,...I see.<br> 
 
-message,<user>,よし、分かった。<br>基地のメンバーに声をかけて捜索隊を結成するぞ！
+message,<user>,Alright，I get it. I'll rally the base members and form a search<br>party!<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -704,7 +704,7 @@ asyncseplay,setag1_31,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,スティーラ,え……えぇ？,105901000G,vc_10590100002_028_01,chara_1
+message,スティーラ,Wh-what...?<br> ,105901000G,vc_10590100002_028_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -715,11 +715,11 @@ asyncseplay,setag1_32,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,スティーラ,そんな、わたしのブローチのために <br>そこまでしてもらうわけには……,105901000G,vc_10590100002_029_01,chara_1
+message,スティーラ,Th-that's... for my Brooch... I can't ask you to go that far...<br> ,105901000G,vc_10590100002_029_01,chara_1
 
-message,<user>,まあ、なくした魔石細工を探すだけなら<br>俺が個人的に手伝うぐらいが精一杯だ。
+message,<user>,Well，if it's just looking for a lost piece of magic stone<br>jewelry，the most I can do is help you personally.<br> 
 
-message,<user>,しかし行方不明になった友達を探すとなると話が違う。<br>全力を尽くすのが当然だろう。
+message,<user>,But if you're talking about searching for a missing friend，that's a<br>different story. Of course we'd put all our effort into it.<br> 
 
 window,off
 wait,0.15
@@ -738,7 +738,7 @@ wait,0.5
 
 
 window,on,0.15
-message,スティーラ,司令官様……,105901000G,vc_10590100002_030_01,chara_1
+message,スティーラ,Lord Commander...<br> ,105901000G,vc_10590100002_030_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -749,7 +749,7 @@ asyncseplay,setag1_34,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,スティーラ,ありがとう、ございます。<br>そう言ってもらえて本当に嬉しいです……,105901000G,vc_10590100002_031_01,chara_1
+message,スティーラ,Th-thank you very much... I'm truly happy to hear you say that...<br> ,105901000G,vc_10590100002_031_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -760,9 +760,9 @@ asyncseplay,setag1_35,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,スティーラ,でもこの階層は広いですし、砂浜で１粒の魔石を探すようなことを<br>皆さんにお願いするわけには……,105901000G,vc_10590100002_032_01,chara_1
+message,スティーラ,But this layer is so vast，it's like searching for a single magic<br>stone on a sandy beach. I can't ask everyone to do that...<br> ,105901000G,vc_10590100002_032_01,chara_1
 
-message,<user>,いいや、そこまで不可能な話ではない。
+message,<user>,No，it's not that impossible.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -774,13 +774,13 @@ asyncseplay,setag1_36,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,スティーラ,どういう、ことですか？,105901000G,vc_10590100002_033_01,chara_1
+message,スティーラ,W-what do you mean?<br> ,105901000G,vc_10590100002_033_01,chara_1
 
-message,<user>,いいか、小鳥はそうでもないが、 <br>大きな鳥は縄張り意識が強い。
+message,<user>,Listen，small birds aren't like that，but big birds have strong<br>territorial instincts.<br> 
 
-message,<user>,実際に見まわっても大きな鳥はまったく見かけなかった。<br>あの池に来るのはブローチを盗んだあの鳥だけだと考えていい。
+message,<user>,When I looked around，I didn't see a single big bird. So we can<br>assume the only bird coming to that pond is the one that stole Brooch.<br> 
 
-message,<user>,調査隊の報告では、この階層で発見された水源地はこの池くらいだと聞いた。<br>その鳥も水飲み場としていつも利用しているに違いない。
+message,<user>,According to the survey team's reports，the only water source in this<br>layer is this pond. So that bird must be using it as a drinking spot.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -791,11 +791,11 @@ asyncseplay,setag1_37,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,スティーラ,ふぇ……そ、そんなことまで考えながら<br>ずっと探してくれてたんですか……！？,105901000G,vc_10590100002_034_01,chara_1
+message,スティーラ,H-huh...? You were thinking about all that and searching for my<br>Brooch all this time?!<br> ,105901000G,vc_10590100002_034_01,chara_1
 
-message,<user>,あぁ。鳥は光る宝石なんかを収集する習性がある。<br>その鳥を追跡してその巣に辿り着けば、そこにブローチがある可能性は高い。
+message,<user>,Yeah. Birds collect shiny things like gems. If we track that bird to<br>its nest，Brooch will likely be there.<br> 
 
-message,<user>,調査隊の報告書を確認して、鳥が住処にしてそうな場所を割り出してみるか。<br>あとは仲間の手を借りれば十分に可能性はあるぞ。
+message,<user>,Let's check survey reports for nesting sites. With help from the<br>others，we should be able to find her.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -806,9 +806,9 @@ asyncseplay,setag1_38,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,スティーラ,で、でも……わたし、基地にお友達もいないし……。<br>一緒に探そうって言ってくれる人なんて、司令官様しか……,105901000G,vc_10590100002_035_01,chara_1
+message,スティーラ,B-but... I don't have any friends at the base... The only person who<br>would offer to search with me is you，Lord Commander...<br> ,105901000G,vc_10590100002_035_01,chara_1
 
-message,<user>,……本当にそう思うか？
+message,<user>,...Do you really think so?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -819,9 +819,9 @@ asyncseplay,setag1_39,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,スティーラ,え……？,105901000G,vc_10590100002_036_01,chara_1
+message,スティーラ,E-eh...?<br> ,105901000G,vc_10590100002_036_01,chara_1
 
-message,<user>,見ていろ、スティーラ。<br>俺がお前の価値を証明してやる。
+message,<user>,Just watch，Steela. I'll prove your worth.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -832,7 +832,7 @@ asyncseplay,setag1_40,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,スティーラ,わたしの……価値……,105901000G,vc_10590100002_037_01,chara_1
+message,スティーラ,My... worth...<br> ,105901000G,vc_10590100002_037_01,chara_1
 
 window,off
 bgmstop,bgmtag1_2,0.5

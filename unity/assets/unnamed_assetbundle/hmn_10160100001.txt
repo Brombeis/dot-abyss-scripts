@@ -558,7 +558,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 window,on,0.15
 message,ウィステリア,……戦況はどうだ、司令官。<br>命令は果たしたつもりだが。,101601000G,vc_10160100001_005_01,chara_1
 
-message,<user>,希望以上だ、助かったよ。<br>俺は<user>、お前は？
+message,<user>,Better than I'd hoped. You saved me. I'm %user%，and you?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -566,11 +566,11 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
 
-message,ウィステリア,……ウィステリアだ。<br>きみが新しい司令官だな。,101601000G,vc_10160100001_006_01,chara_1
+message,ウィステリア,...I'm Wisteria. You're the new Commander，then.<br> ,101601000G,vc_10160100001_006_01,chara_1
 
-message,<user>,ああ、そうだ、<br>初対面で危機を救われるとは、恥ずかしいところを見せたな。
+message,<user>,Yeah. Embarrassing to get rescued the first time we meet.<br> 
 
-message,<user>,お前みたいに頼れるやつには<br>いいところを見せておきたかったんだが……
+message,<user>,I was hoping to make a good impression on someone as reliable as<br>you，but...<br> 
 
 window,off
 wait,0.15
@@ -590,7 +590,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ウィステリア,……そう悪くはなかった。,101601000G,vc_10160100001_007_01,chara_1
+message,ウィステリア,...It wasn't bad.<br> ,101601000G,vc_10160100001_007_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -601,7 +601,7 @@ asyncseplay,setag1_16,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ウィステリア,乱戦の中でも諦めずに打開策を探していた。<br>生き汚いのは悪いことじゃない。,101601000G,vc_10160100001_008_01,chara_1
+message,ウィステリア,Even amidst the chaos，you never gave up—you kept seeking a way out.<br>There's nothing wrong with clinging to life.<br> ,101601000G,vc_10160100001_008_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -613,11 +613,11 @@ asyncseplay,setag1_17,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ウィステリア,私がいなくとも、きみは生きて帰っただろう。,101601000G,vc_10160100001_009_01,chara_1
+message,ウィステリア,Even without me，you'd have made it back alive.<br> ,101601000G,vc_10160100001_009_01,chara_1
 
-message,<user>,どーだかな。俺はウィステリアのおかげで命を拾った気分だよ。
+message,<user>,I dunno about that. I feel like you saved my life，Wisteria.<br> 
 
-message,<user>,ともかく頼れる戦力は貴重だ。<br>この先も頼んだぞ。
+message,<user>,Anyway，a reliable asset is hard to come by. I'm counting on you from<br>here on out.<br> 
 
 window,off
 wait,0.15
@@ -636,7 +636,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ウィステリア,……了解した。<br>私は警戒に戻る。,101601000G,vc_10160100001_010_01,chara_1
+message,ウィステリア,...Understood. I'll go back to my watch.<br> ,101601000G,vc_10160100001_010_01,chara_1
 
 window,off
 wait,0.15
@@ -654,9 +654,9 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,,そう言って離れていくウィステリアは普通に歩いているようにしか見えない。<br>しかしほんの少し目をそらした間に、視界から姿が消えていた。
+message,,With that，she walked off，looking as if she were just out for a<br>stroll. But the instant I looked away，she had vanished from sight.<br> 
 
-message,<user>,消えた……いや、俺が見失ったのか。<br>こりゃ面白いやつだな。
+message,<user>,She disappeared... no，did I just lose her? She's an interesting one.<br> 
 
 window,off
 wait,0.15
@@ -689,9 +689,9 @@ asynccharaemo,chara_5,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,兵士Ｂ,司令官、今のって……戦神、ですよね？,401001000,vc_10160100001_011_01,chara_5
+message,兵士Ｂ,Commander，that was... the War God，wasn't it?<br> ,401001000,vc_10160100001_011_01,chara_5
 
-message,<user>,戦神？<br>ウィステリアのことか？
+message,<user>,War God? You mean Wisteria?<br> 
 
 asynccharaface,chara_5,EyeOpen,CONT,0
 asynccharaface,chara_5,FaceNormal,CONT,0
@@ -703,16 +703,16 @@ asyncseplay,setag1_22,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,兵士Ｂ,ええ。たった１人の弓で戦局を変えてみせる。<br>まさに戦いの神、戦神と呼ばれてます。,401001000,vc_10160100001_012_01,chara_5
+message,兵士Ｂ,Yes. With just her bow，she can turn the tide of battle. That's why<br>she's called the War God—a true god of war.<br> ,401001000,vc_10160100001_012_01,chara_5
 
 asynccharaface,chara_5,FaceSad,CONT,0
 
 asyncshake,CHARA,chara_5,15,10,0.25,3,on,off,0,off,CONT,0
 
 
-message,兵士Ｂ,知らぬ間にそこにいて、気づけばもういない。<br>そんなところもまるで神のようだ、と……,401001000,vc_10160100001_013_01,chara_5
+message,兵士Ｂ,She's there before you know it，and gone before you notice. They say<br>that's also like a god...<br> ,401001000,vc_10160100001_013_01,chara_5
 
-message,<user>,なるほど、あいつに相応しい異名だな。<br>戦神ウィステリア、か……
+message,<user>,I see. A fitting title for her. War God Wisteria，huh...<br> 
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -739,11 +739,11 @@ bgmplay,bgmtag1_3,bgm0026,0.75,1
 fade,In,Black,1
 
 window,on,0.15
-message,,山岳地帯での戦いからしばらく後。<br><user>は基地周辺の地形調査におもむいていた。
+message,,Some time after the battle in the mountains，%user% set out to survey<br>the terrain around the base.<br> 
 
-message,<user>,ったく、基地周辺の地形すら完璧に把握できてないとは。<br>それでどうやって指揮をとれというんだか。
+message,<user>,Damn，I don't even have a complete grasp of the terrain around the<br>base. How am I supposed to command?<br> 
 
-message,<user>,ん……ちょっと尿意が……。<br>この辺で済ませていくか。
+message,<user>,Hmm... I need to take a piss. Might as well do it here.<br> 
 
 window,off
 wait,0.15
@@ -764,9 +764,9 @@ transitionCrossFade,Tra02,1
 wait,1
 
 window,on,0.15
-message,,茂みで用を足そうをズボンをおろした、その直後。
+message,,Just as I pulled down my pants in the bushes to take a piss—<br> 
 
-message,？？？,――止まれ。,900000001,vc_10160100001_014_01,
+message,？？？,—Stop.<br> ,900000001,vc_10160100001_014_01,
 
 window,off
 wait,0.15
@@ -781,21 +781,21 @@ shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,,背後から冷徹な声が飛び、思わず動きを止めてしまった。
+message,,A cold voice shot out from behind，and I froze on the spot.<br> 
 
-message,<user>,うぉぉっ！？<br>だ、誰だ！？
+message,<user>,Whoa! Wh-who's there?!<br> 
 
-message,？？？,止まれと言った。それ以上動くな。,900000001,vc_10160100001_015_01,
+message,？？？,I told you to stop. Don't move.<br> ,900000001,vc_10160100001_015_01,
 
-message,<user>,う、動くなと言われても……！<br>せめて仕舞うか出すかどちらかはさせてくれ……！
+message,<user>,If you tell me not to move... at least let me either put it away or<br>take it out!<br> 
 
-message,？？？,わけの分からないことを……何を出すつもりだ？,900000001,vc_10160100001_016_01,
+message,？？？,You're talking nonsense... What do you intend to take out?<br> ,900000001,vc_10160100001_016_01,
 
-message,<user>,何って……ナニとか……アレとか……
+message,<user>,What do I mean... my thing... you know，that...<br> 
 
-message,？？？,……もういい、両手を挙げてこちらを向け。,900000001,vc_10160100001_017_01,
+message,？？？,...Enough. Raise both hands and face me.<br> ,900000001,vc_10160100001_017_01,
 
-message,<user>,はあ……分かったよ……
+message,<user>,*sigh*... Fine...<br> 
 
 window,off
 wait,0.15
@@ -826,7 +826,7 @@ transitionCrossFade,Tra01,1
 wait,1
 
 window,on,0.15
-message,,ズボンをおろしたまま手を挙げて振り向く<user>。<br>そこには油断なく弓を構えたウィステリアの姿があった。
+message,,With my pants still down，I raised my hands and turned around.<br>Wisteria stood there，her bow aimed at me cautiously.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -837,9 +837,9 @@ asyncseplay,setag1_23,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,ウィステリア,は……？　司令官！？,101601000G,vc_10160100001_018_01,chara_1
+message,ウィステリア,Huh...? Commander!?<br> ,101601000G,vc_10160100001_018_01,chara_1
 
-message,<user>,なんだ、ウィステリアか。<br>この前もそうだったが、俺に気配を感じさせないとはやるじゃないか。
+message,<user>,Oh，it's you，Wisteria. Just like the other day，you're pretty good at<br>approaching without me noticing.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -850,7 +850,7 @@ asyncseplay,setag1_24,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ウィステリア,見知らぬ人影がうろついていたので、<br>少し慎重に背後をとったのだが……,101601000G,vc_10160100001_019_01,chara_1
+message,ウィステリア,I noticed an unfamiliar figure prowling about，so I cautiously<br>approached from behind，but...<br> ,101601000G,vc_10160100001_019_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -861,7 +861,7 @@ asyncseplay,setag1_25,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ウィステリア,まさか司令官だとは思わなかった。<br>非礼を詫びる。,101601000G,vc_10160100001_020_01,chara_1
+message,ウィステリア,I never thought it would be you，Commander. Forgive my rudeness.<br> ,101601000G,vc_10160100001_020_01,chara_1
 
 window,off
 wait,0.15
@@ -894,9 +894,9 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ウィステリア,だが……どうしてこんなところに？,101601000G,vc_10160100001_021_01,chara_1
+message,ウィステリア,But... why are you in a place like this?<br> ,101601000G,vc_10160100001_021_01,chara_1
 
-message,<user>,自分の目で基地周辺の地形を見ておきたくてな。<br>司令本部にはまだまだ情報が足りないんだ。
+message,<user>,I wanted to see the terrain around the base with my own eyes.<br>Command HQ still doesn't have enough information.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -907,11 +907,11 @@ asyncseplay,setag1_27,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,ウィステリア,わざわざ司令官が、自らの目で？,101601000G,vc_10160100001_022_01,chara_1
+message,ウィステリア,You took the trouble to come and see for yourself，Commander?<br> ,101601000G,vc_10160100001_022_01,chara_1
 
-message,<user>,地図にはないちょっとした起伏、使えそうな獣道、<br>植生の濃淡による視界の変化。
+message,<user>,Small elevation changes not on any map，animal trails we could<br>use，changes in visibility due to vegetation density.<br> 
 
-message,<user>,ちょっとした情報が兵の生死に直結する。<br>司令官としては知っておきたいだろう？
+message,<user>,A small bit of info like that can determine if a soldier lives or<br>dies. As Commander，I should know these things，right?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -922,9 +922,9 @@ asyncseplay,setag1_28,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ウィステリア,……仕事熱心だな。<br>悪くはない、という私の見立ては間違っていなかったらしい。,101601000G,vc_10160100001_023_01,chara_1
+message,ウィステリア,...You're diligent. My initial judgment that you're not half bad<br>appears to have been right.<br> ,101601000G,vc_10160100001_023_01,chara_1
 
-message,<user>,お褒めいただき何よりだよ。
+message,<user>,Glad to hear it.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -935,9 +935,9 @@ asyncseplay,setag1_29,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ウィステリア,隙をさらしたことは問題だがな。<br>相手が私でなければ死んでいたかもしれない。,101601000G,vc_10160100001_024_01,chara_1
+message,ウィステリア,But leaving yourself vulnerable is a problem. If it weren't me，you<br>might be dead.<br> ,101601000G,vc_10160100001_024_01,chara_1
 
-message,<user>,仕方ないだろう、用を足している最中だったんだ。
+message,<user>,What can I say? I was in the middle of taking a leak.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -948,7 +948,7 @@ asyncseplay,setag1_30,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ウィステリア,身動きのとれない状況こそ気を払う必要がある。<br>まして服をおろしたときなど……,101601000G,vc_10160100001_025_01,chara_1
+message,ウィステリア,It's precisely when you're immobilized that you need to be vigilant.<br>Especially with your pants down...<br> ,101601000G,vc_10160100001_025_01,chara_1
 
 window,off
 wait,0.15
@@ -989,9 +989,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ウィステリア,ふ、ふふ、服、を……,101601000G,vc_10160100001_026_01,chara_1
+message,ウィステリア,Fu... fufu，c-clothes...<br> ,101601000G,vc_10160100001_026_01,chara_1
 
-message,<user>,なんだ、ウィステリア。<br>急に口ごもって。
+message,<user>,What's wrong，Wisteria? Why are you suddenly stammering?<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -1000,7 +1000,7 @@ asyncseplay,setag1_33,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ウィステリア,そ、れは……,101601000G,vc_10160100001_027_01,chara_1
+message,ウィステリア,Th-that's...<br> ,101601000G,vc_10160100001_027_01,chara_1
 
 window,off
 wait,0.15
@@ -1035,7 +1035,7 @@ wait,1
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
 window,on,0.15
-message,<user>,どうしたんだ？<br>本当に様子がおかしいぞ？
+message,<user>,What's the matter? You're acting really strange.<br> 
 
 window,off
 wait,0.15
@@ -1077,9 +1077,9 @@ asynccharaemo,chara_1,Anger,CONT,0
 
 
 window,on,0.15
-message,ウィステリア,く、来るなっ！！！,101601000G,vc_10160100001_028_01,chara_1
+message,ウィステリア,D-don't come near!<br> ,101601000G,vc_10160100001_028_01,chara_1
 
-message,<user>,そんな危ないやつが近づいてきたような反応をしなくても。<br>いきなり避けられたら傷つくじゃないか。
+message,<user>,You don't have to act like I'm some dangerous creep. It hurts when<br>you dodge me like that.<br> 
 
 window,off
 wait,0.15
@@ -1102,9 +1102,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ウィステリア,き、気づいていないのか……？<br>どうしてこの状態で平然と話ができる……！？,101601000G,vc_10160100001_029_01,chara_1
+message,ウィステリア,H-have you not noticed...? How can you be so calm in this state...!<br> ,101601000G,vc_10160100001_029_01,chara_1
 
-message,<user>,ついに露骨に避け始めたんだが……。<br>目の前の司令官から顔をそむけるってのはどうなんだ。
+message,<user>,You've started blatantly avoiding me now. Turning your face away<br>from the Commander right in front of you—what's that about?<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1115,9 +1115,9 @@ asyncseplay,setag1_37,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,ウィステリア,直視できるわけがないだろう！<br>本気で言っているのか、司令官……！,101601000G,vc_10160100001_030_01,chara_1
+message,ウィステリア,Of course I can't look you in the eye! Are you serious，Commander...!<br> ,101601000G,vc_10160100001_030_01,chara_1
 
-message,<user>,本気も何も、話が分からん。<br>何に照れているんだ、ウィステリア。
+message,<user>,I have no idea what you're talking about. What are you getting shy<br>about，Wisteria?<br> 
 
 asyncjump,CHARA,chara_1,60,0.4,1,off,0,CONT
 
@@ -1126,9 +1126,9 @@ asyncseplay,setag1_38,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ウィステリア,だから……！<br>いい加減に、前をしまってくれ！,101601000G,vc_10160100001_031_01,chara_1
+message,ウィステリア,That's why...! For goodness' sake，do up your pants already!<br> ,101601000G,vc_10160100001_031_01,chara_1
 
-message,<user>,……前？<br>ああ、下をおろしたままだったな。すっかり忘れていた。
+message,<user>,...Pants? Oh，I left them undone. I completely forgot.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1139,11 +1139,11 @@ asyncseplay,setag1_39,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ウィステリア,忘れるようなことか……！？<br>本当に変態なんじゃないだろうな？,101601000G,vc_10160100001_032_01,chara_1
+message,ウィステリア,How can you forget something like that...! Are you sure you're not a<br>pervert?<br> ,101601000G,vc_10160100001_032_01,chara_1
 
-message,<user>,失礼だな。<br>動くな、手を挙げろ！　って言われたからそれに従ったまでだ。
+message,<user>,That's rude. You said 'Don't move，hands up!' so I just followed<br>orders.<br> 
 
-message,<user>,まあ、変なものを見せたのは悪かったよ。<br>すまなかったな。
+message,<user>,Well，sorry for showing you something weird. My bad.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1154,9 +1154,9 @@ asyncseplay,setag1_40,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ウィステリア,……こちらも失礼をしたのは事実だ。<br>これで貸し借りはなしだぞ。,101601000G,vc_10160100001_033_01,chara_1
+message,ウィステリア,...I was out of line as well. So we're even.<br> ,101601000G,vc_10160100001_033_01,chara_1
 
-message,<user>,……ズボンをおろしたところに来たのはウィステリアだと思うんだが。
+message,<user>,...I could swear you were the one who caught me with my pants down.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1167,11 +1167,11 @@ asyncseplay,setag1_41,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,ウィステリア,司令官？　何か言いたいことでも？,101601000G,vc_10160100001_034_01,chara_1
+message,ウィステリア,Commander? Is there something you want to say?<br> ,101601000G,vc_10160100001_034_01,chara_1
 
-message,<user>,いーや、なんにも。<br>ついでだウィステリア、基地に戻るから護衛をしてくれ。
+message,<user>,Nope，nothing. By the way，Wisteria，I'm heading back to base. Escort<br>me.<br> 
 
-message,<user>,おっと、用を足した後でな。
+message,<user>,Whoops，after I take care of business.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1182,7 +1182,7 @@ asyncseplay,setag1_42,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ウィステリア,はぁ……待っているからさっさと済ませろ。,101601000G,vc_10160100001_035_01,chara_1
+message,ウィステリア,*sigh*... I'll wait，so make it quick.<br> ,101601000G,vc_10160100001_035_01,chara_1
 
 window,off
 wait,0.15
@@ -1200,15 +1200,15 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,,ウィステリアは呆れたように肩をすくめて、木々の隙間に姿を消した。
+message,,Wisteria shrugged in exasperation and vanished into the trees.<br> 
 
-message,<user>,うん、やっぱり面白いやつだな。
+message,<user>,Yeah，she's definitely a character.<br> 
 
-message,ウィステリア,――聞こえている。<br>余計なことを言わずに早くしろ。,101601000G,vc_10160100001_036_01,
+message,ウィステリア,—I can hear you. Enough talk. Hurry up.<br> ,101601000G,vc_10160100001_036_01,
 
-message,<user>,おっと、悪かったな。<br>耳がいいのは素晴らしいが、音は聞かないでくれよ。
+message,<user>,Whoops，sorry. You have good ears，but don't listen，alright?<br> 
 
-message,ウィステリア,誰が聞くか……！,101601000G,vc_10160100001_037_01,
+message,ウィステリア,Like I'd listen to that...!<br> ,101601000G,vc_10160100001_037_01,
 
 
 window,off
@@ -1246,14 +1246,14 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ウィステリア,まったく、ふざけたやつだ。<br>羞恥心というものがないのか。,101601000G,vc_10160100001_038_01,chara_1
+message,ウィステリア,Honestly，what a joker. Does he have no shame?<br> ,101601000G,vc_10160100001_038_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
 
-message,ウィステリア,しかし……こんなに人と話したのは久しぶりだな。<br>気を許したつもりはないが、不思議と不快感もない。,101601000G,vc_10160100001_039_01,chara_1
+message,ウィステリア,But... it's been a while since I've talked this much with anyone. I<br>don't intend to let my guard down，but strangely，it doesn't bother me.<br> ,101601000G,vc_10160100001_039_01,chara_1
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1265,7 +1265,7 @@ asyncseplay,setag1_45,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ウィステリア,これがこの基地の司令官、か……,101601000G,vc_10160100001_040_01,chara_1
+message,ウィステリア,So this is the base commander，huh...<br> ,101601000G,vc_10160100001_040_01,chara_1
 
 window,off
 bgmstop,bgmtag1_3,0.5

@@ -351,7 +351,7 @@ asyncseplay,setag1_17,se4800011,0,1,CONT,0
 asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
-message,怪しげな男,なんだコイツ！　基地のやつかっ！？,2028301,,chara_2
+message,怪しげな男,What the hell! Is this one of them from the base?<br> ,2028301,,chara_2
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -362,7 +362,7 @@ asyncseplay,setag1_18,se4800010,0,1,CONT,0
 asynccharaemo,chara_2,Exclamation,CONT,0
 
 
-message,怪しげな男,いや……あの花を持ってた女と一緒だった野郎か！<br>だが相手が１人なら、まだ逃げられるはずだ……！,2028301,,chara_2
+message,怪しげな男,No... it's that bastard who was with the flower girl! But if it's<br>just one guy，I can still escape...!<br> ,2028301,,chara_2
 
 
 window,off
@@ -385,7 +385,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,よし、森の奥へ走って行ったな。作戦通りだ。<br>予定のポイントへ誘導する、頼んだぞマニョリア。
+message,<user>,Good，he's heading deeper into the forest. Just as planned. Guide him<br>to the designated point. I'm counting on you，Magnolia.<br> 
 
 
 window,off
@@ -422,7 +422,7 @@ asynccharaface,chara_1,FaceAnger,STOP,2.7
 
 
 window,on,0.15
-message,マニョリア,うん……みんな、お願い……！,,vc_10240100003_008_01,chara_1
+message,マニョリア,Yeah... Everyone，I'm counting on you!<br> ,,vc_10240100003_008_01,chara_1
 
 
 window,off
@@ -470,7 +470,7 @@ asynccharaemo,chara_2,Flash,CONT,0
 
 
 window,on,0.15
-message,怪しげな男,あの野郎はもう撒いたか？<br>このままさっさと森を抜けて……。,2028301,,chara_2
+message,怪しげな男,Did I shake that bastard off? I'll just make my way through the<br>forest quickly...<br> ,2028301,,chara_2
 
 window,off
 wait,0.15
@@ -519,7 +519,7 @@ asynccharaemo,chara_3,Anger,CONT,0
 
 
 window,on,0.15
-message,大口の魔法植物,ギチチギチギチッ！！！,402001000,,chara_3
+message,大口の魔法植物,Chatter，chatter!<br> ,402001000,,chara_3
 
 window,off
 wait,0.15
@@ -538,7 +538,7 @@ wait,0.5
 
 
 window,on,0.15
-message,怪しげな男,うわああっ！？<br>なんだこいつはっ！？,2028301,,chara_2
+message,怪しげな男,Whoa! What the hell is this!<br> ,2028301,,chara_2
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -550,7 +550,7 @@ asyncseplay,setag1_23,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,怪しげな男,花が噛みついてきやがる！？<br>ちくしょう、逃げねえと！,2028301,,chara_2
+message,怪しげな男,The flower's biting me! Shit，I gotta get out of here!<br> ,2028301,,chara_2
 
 
 window,off
@@ -603,9 +603,9 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,マニョリア,……ガチガチフラワーさんが見つけてくれた。<br>誘導できてる、みたい。,,vc_10240100003_009_01,chara_1
+message,マニョリア,... Mr. Chattering Flower found him. Looks like we're guiding him<br>well.<br> ,,vc_10240100003_009_01,chara_1
 
-message,<user>,よし、次だ。<br>またポイントを指定する、魔法植物に指示を！
+message,<user>,Good，next. I'll mark another point. Give the orders to the magical<br>plants!<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -614,7 +614,7 @@ asyncseplay,setag1_25,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,マニョリア,うん……！,,vc_10240100003_010_01,chara_1
+message,マニョリア,Yeah...!<br> ,,vc_10240100003_010_01,chara_1
 
 
 window,off
@@ -668,7 +668,7 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,消化液の魔法植物,グチャッ！　グチャグチャッ！,402001000,,chara_3
+message,消化液の魔法植物,*squelch!* *squelch，squelch!*<br> ,402001000,,chara_3
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -679,7 +679,7 @@ asyncseplay,setag1_27,se4800011,0,1,CONT,0
 asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
-message,怪しげな男,うわあっ！？　何か吐いてきやがったぞ、この木っ！<br>こっちはダメだ、あっちにっ！,2028301,,chara_2
+message,怪しげな男,Whoa! This tree spat something at me! Can't go this way! I'll go<br>that way!<br> ,2028301,,chara_2
 
 
 window,off
@@ -725,7 +725,7 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,刃の魔法植物,シャキッシャキッ！　シャキーッ！！！,402001000,,chara_3
+message,刃の魔法植物,*shing!* *shing!* *shing!*<br> ,402001000,,chara_3
 
 window,off
 wait,0.15
@@ -754,7 +754,7 @@ wait,0.5
 
 
 window,on,0.15
-message,怪しげな男,うわあああっ！？　草がノコギリみたいな葉を飛ばしてきやがるっ！<br>なんなんだよこの森はっ！,2028301,,chara_2
+message,怪しげな男,Whoa! The grass is throwing saw-like leaves at me! What the hell is<br>with this forest!<br> ,2028301,,chara_2
 
 
 window,off
@@ -806,9 +806,9 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,マニョリア,おじさんがこっちに向かってるって。<br>みんな上手くやってくれた、みたい。,,vc_10240100003_011_01,chara_1
+message,マニョリア,The old man is heading this way. It seems everyone did a great job.<br> ,,vc_10240100003_011_01,chara_1
 
-message,<user>,よし、上出来だ。<br>あとは最後の仕上げだ。やれるな、マニョリア。
+message,<user>,Good，excellent. Now for the finishing move. You can do it，Magnolia.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -819,7 +819,7 @@ asyncseplay,setag1_31,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,マニョリア,うん。<br>おにいさんが言った通りに、がんばってみる。,,vc_10240100003_012_01,chara_1
+message,マニョリア,Yeah. I'll do my best，just like Big Brother said.<br> ,,vc_10240100003_012_01,chara_1
 
 window,off
 wait,0.15
@@ -830,7 +830,7 @@ linework,on,White,Middle
 
 
 window,on,0.15
-message,マニョリア,マニョが、マックンを助ける……！,,vc_10240100003_013_01,chara_1
+message,マニョリア,Manny will save Makkun...!<br> ,,vc_10240100003_013_01,chara_1
 
 window,off
 wait,0.15
@@ -885,7 +885,7 @@ asynccharaemo,chara_2,Dull,CONT,0
 
 
 window,on,0.15
-message,怪しげな男,はあ……はあ……。<br>ここは安全、か……？,2028301,,chara_2
+message,怪しげな男,*pant*，*pant*... This place... is it safe...?<br> ,2028301,,chara_2
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -896,7 +896,7 @@ asyncseplay,setag1_33,se4800001,0,1,CONT,0
 asynccharaemo,chara_2,Anger,CONT,0
 
 
-message,怪しげな男,ちくしょう、ふざけやがって。<br>なんで植物ごときから逃げなきゃいけねえんだ……。,2028301,,chara_2
+message,怪しげな男,Shit，they're messing with me... Why do I have to run from a bunch of<br>damn plants?<br> ,2028301,,chara_2
 
 
 window,off
@@ -947,7 +947,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,マニョリア,……あなたが、みんなを傷つけた人？,,vc_10240100003_014_01,chara_1
+message,マニョリア,...Are you the one who hurt everyone?<br> ,,vc_10240100003_014_01,chara_1
 
 asynccharaface,chara_2,FaceUnique01,CONT,0
 
@@ -958,7 +958,7 @@ asyncseplay,setag1_35,se4800010,0,1,CONT,0
 asynccharaemo,chara_2,Exclamation,CONT,0
 
 
-message,怪しげな男,っ！？　お前、この花を持ってた女か……！<br>１人で来るとはな、ブラックマーケットで売る商品が増えそうだ。,2028301,,chara_2
+message,怪しげな男,Tch! You're the woman who had this flower... Coming alone，huh? Looks<br>like I'll have more goods for the black market.<br> ,2028301,,chara_2
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -970,7 +970,7 @@ asyncseplay,setag1_36,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,マニョリア,……おじさんは、なにも分かってない。,,vc_10240100003_015_01,chara_1
+message,マニョリア,...You don't understand anything，mister.<br> ,,vc_10240100003_015_01,chara_1
 
 
 window,off
@@ -1038,7 +1038,7 @@ asynccharaemo,chara_3,Anger,CONT,0
 
 
 window,on,0.15
-message,大口の魔法植物,ギチギチギチッ！,402001000,,chara_3
+message,大口の魔法植物,*chomp，chomp，chomp!*<br> ,402001000,,chara_3
 
 asyncjump,CHARA,chara_4,30,0.25,1,off,0,CONT
 
@@ -1047,7 +1047,7 @@ asyncseplay,setag1_38,se4800001,0,1,CONT,0
 asynccharaemo,chara_4,Anger,CONT,0
 
 
-message,消化液の魔法植物,グチャッ！　グチャグチャッ！,402001000,,chara_4
+message,消化液の魔法植物,*squelch!* *squelch，squelch!*<br> ,402001000,,chara_4
 
 asyncjump,CHARA,chara_5,30,0.25,1,off,0,CONT
 
@@ -1056,7 +1056,7 @@ asyncseplay,setag1_39,se4800001,0,1,CONT,0
 asynccharaemo,chara_5,Anger,CONT,0
 
 
-message,刃の魔法植物,シャキッシャキッ！　シャキーッ！！！,402001000,,chara_5
+message,刃の魔法植物,*shing，shing!* *shing!*<br> ,402001000,,chara_5
 
 window,off
 wait,0.15
@@ -1102,7 +1102,7 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,怪しげな男,なっ、俺を襲ってきた魔法植物……！？<br>ちくしょう、こんなところにもいやがったのか！,2028301,,chara_2
+message,怪しげな男,What! The magical plants that attacked me... Damn，they're here too!<br> ,2028301,,chara_2
 
 window,off
 wait,0.15
@@ -1152,7 +1152,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,怪しげな男,で、でも相手は草木や花、動けやしねえ。<br>逃げりゃいいだけだっ！,2028301,,chara_2
+message,怪しげな男,But they're just plants and flowers，they can't move! I just gotta<br>run!<br> ,2028301,,chara_2
 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
@@ -1164,7 +1164,7 @@ asyncseplay,setag1_42,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,マニョリア,マックンを苦しめて、理由もなくみんなを傷つけた。<br>森のみんなは、おじさんを許さない。,,vc_10240100003_016_01,chara_1
+message,マニョリア,You hurt Makkun and hurt everyone for no reason. The forest won't<br>forgive you，mister.<br> ,,vc_10240100003_016_01,chara_1
 
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
@@ -1173,7 +1173,7 @@ asyncseplay,setag1_43,se4800001,0,1,CONT,0
 asynccharaemo,chara_2,Anger,CONT,0
 
 
-message,怪しげな男,わけわかんねえこと言ってんじゃねえぞ！<br>何もできねえくせに、調子乗ってんじゃねえ！,2028301,,chara_2
+message,怪しげな男,Don't talk nonsense! You can't do anything，so don't get cocky!<br> ,2028301,,chara_2
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1185,7 +1185,7 @@ asyncseplay,setag1_44,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,マニョリア,おじさんはもう逃げられない。<br>全部おにいさんの作戦通り。,,vc_10240100003_017_01,chara_1
+message,マニョリア,You can't escape now，mister. Everything went just as Big Brother<br>planned.<br> ,,vc_10240100003_017_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1196,7 +1196,7 @@ asyncseplay,setag1_45,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,マニョリア,ね、ヘル・ラフレシアのみんな。,,vc_10240100003_018_01,chara_1
+message,マニョリア,Right，everyone from Hell Rafflesia?<br> ,,vc_10240100003_018_01,chara_1
 
 window,off
 wait,0.15
@@ -1283,7 +1283,7 @@ asynccharaemo,chara_4,Laugh,CONT,0
 
 
 window,on,0.15
-message,ラフレシアの群れ,ギュルギュルギュルギュルッ！！！,402001000,,chara_3/chara_4/chara_5
+message,ラフレシアの群れ,*gurgle，gurgle，gurgle，gurgle!*<br> ,402001000,,chara_3/chara_4/chara_5
 
 window,off
 wait,0.15
@@ -1331,7 +1331,7 @@ asynccharaemo,chara_2,Exclamation,CONT,0
 
 
 window,on,0.15
-message,怪しげな男,はあっ！？　なんだこいつらっ！？<br>周りのあちこちからデカイ花が……！,2028301,,chara_2
+message,怪しげな男,*pant*! What the hell are these? Huge flowers everywhere!<br> ,2028301,,chara_2
 
 asyncseplay,setag1_51,se5050017,0,1,CONT,0
 
@@ -1344,9 +1344,9 @@ asyncseplay,setag1_52,se4800011,0,1,CONT,0
 asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
-message,怪しげな男,蔓が伸びてきて……ぐああっ！？<br>やめろ、締め付けるんじゃねえ！　動けねえだろうが！,2028301,,chara_2
+message,怪しげな男,Vines are coming... Agh! Stop，don't squeeze! I can't move，damn it!<br> ,2028301,,chara_2
 
-message,<user>,よーし、ヘル・ラフレシアの群生地に誘導する作戦は成功だな！<br>さあ、魔法水は返してもらうぞ！
+message,<user>,Alright，the plan to lure him into the Hell Rafflesia patch worked!<br>Now，hand over the magic water!<br> 
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -1357,7 +1357,7 @@ asyncseplay,setag1_53,se4800001,0,1,CONT,0
 asynccharaemo,chara_2,Anger,CONT,0
 
 
-message,怪しげな男,な、やめろっ！　返せっ！　<br>俺はそいつを売って億万長者に……！？,2028301,,chara_2
+message,怪しげな男,Wha—stop! Give it back! I was gonna sell it and become a<br>billionaire...<br> ,2028301,,chara_2
 
 window,off
 wait,0.15
@@ -1399,7 +1399,7 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,怪しげな男,うわああああっ！？　引っ張られるっ！？<br>は、花に飲み込まれる……っ！,2028301,,chara_2
+message,怪しげな男,Waaaaah! I'm being pulled! I'm being swallowed by the flowers...<br> ,2028301,,chara_2
 
 
 window,off
@@ -1461,7 +1461,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,<user>,よし、取り返したぞ！<br>早くマックンに魔法水を！
+message,<user>,Good，we got it back! Hurry，give the magic water to Makkun!<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1472,7 +1472,7 @@ asyncseplay,setag1_58,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,マニョリア,うん！　ほらマックン、お水。<br>がんばって飲んで、元気になって……！,,vc_10240100003_019_01,chara_1
+message,マニョリア,Yeah! Here，Mak，some water.<br>Drink up and get better!<br> ,,vc_10240100003_019_01,chara_1
 
 window,off
 wait,0.15
@@ -1492,7 +1492,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,マックン,お……あ……ぉぉ……。,900000003
+message,マックン,Oh... Ah... Ooh...<br> ,900000003
 
 window,off
 wait,0.15
@@ -1510,7 +1510,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,ど、どうだ？<br>間に合ったのか？
+message,<user>,H-how is he? Did we make it in time?<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1521,7 +1521,7 @@ asyncseplay,setag1_59,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,マニョリア,わからない……お願いマックン……。,,vc_10240100003_020_01,chara_1
+message,マニョリア,I don't know... Please，Mak...<br> ,,vc_10240100003_020_01,chara_1
 
 window,off
 wait,0.15
@@ -1543,7 +1543,7 @@ wait,0.5
 bgmplay,bgmtag1_4,bgm0031,0.75,1
 
 window,on,0.15
-message,マックン,おお……おお……おおおおお！<br>うんめええええええ！！！,900000003
+message,マックン,Ooh... ooh... Ooooooh!<br>So goooood!<br> ,900000003
 
 window,off
 wait,0.15
@@ -1572,9 +1572,9 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,マニョリア,わ、あぁっ！？　マックン！？<br>飲みすぎ、全部飲んじゃダメ……！,,vc_10240100003_021_01,chara_1
+message,マニョリア,Wha- Aah! Mak!<br>You're drinking too much! Don't drink it all!<br> ,,vc_10240100003_021_01,chara_1
 
-message,<user>,うわ、瓶ごとラッパ飲みしてるぞ、こいつ。<br>高い魔法水なんだろ、これ……。
+message,<user>,Whoa，he's chugging it straight from the bottle.<br>That's expensive magic water，isn't it...<br> 
 
 window,off
 wait,0.15
@@ -1592,7 +1592,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,マックン,ぷっはー！！！<br>マニョ、魔法水おかわり頼むっ！！！,900000003
+message,マックン,*phew!*<br>Manny，another magic water!<br> ,900000003
 
 
 window,off
@@ -1622,7 +1622,7 @@ wait,0.5
 
 
 window,on,0.15
-message,マニョリア,ダメ！　マックン、元気になりすぎ！<br>これ以上飲んだらこのあとの分がなくなる！,,vc_10240100003_022_01,chara_1
+message,マニョリア,No! Mak，you're getting too hyper!<br>If you drink any more，there won't be any left for later!<br> ,,vc_10240100003_022_01,chara_1
 
 window,off
 wait,0.15
@@ -1640,11 +1640,11 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,マックン,かー、仕方ねえかー。<br>まあ問題ねえ！　オレ、完全復活よ！,900000003
+message,マックン,Hah，fine then.<br>No problem! I'm fully back!<br> ,900000003
 
-message,マックン,迷惑かけたなー、マニョ、兄さん。<br>感謝してるぜ２人とも！,900000003
+message,マックン,Sorry for all the trouble，Manny，Bro.<br>Thanks，you two!<br> ,900000003
 
-message,<user>,友達を助けるのは当然だ、気にするな。<br>マニョリアにも頼まれたしな。
+message,<user>,It's only natural to help a friend. Don't worry about it.<br>Besides，Magnolia asked me to.<br> 
 
 window,off
 wait,0.15
@@ -1671,7 +1671,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,マニョリア,うん、マックンを助けられてよかった。,,vc_10240100003_023_01,chara_1
+message,マニョリア,Yeah，I'm glad we could save Mak.<br> ,,vc_10240100003_023_01,chara_1
 
 
 window,off
@@ -1712,7 +1712,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,マニョリア,……本当にありがとう、おにいさん。,,vc_10240100003_024_01,chara_1
+message,マニョリア,...Thank you，Big Brother.<br> ,,vc_10240100003_024_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1723,11 +1723,11 @@ asyncseplay,setag1_64,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,マニョリア,おにいさんのおかげでマックンが元気になってくれた。<br>魔法水もちゃんと戻ってきた。,,vc_10240100003_025_01,chara_1
+message,マニョリア,Thanks to you，Big Brother，Mak recovered.<br>And we got the magic water back safely.<br> ,,vc_10240100003_025_01,chara_1
 
-message,<user>,がんばったのはマニョリアだ。<br>礼を言う必要なんてない。
+message,<user>,You're the one who did all the work，Magnolia.<br>No need to thank me.<br> 
 
-message,<user>,むしろこっちが褒めてやらないとな。<br>完璧な仕事だったぞマニョリア。
+message,<user>,Actually，I should be the one praising you.<br>That was a perfect job，Magnolia.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1736,9 +1736,9 @@ asyncseplay,setag1_65,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,マニョリア,え、へへ……。<br>おにいさんがいてくれたから、がんばれた。,,vc_10240100003_026_01,chara_1
+message,マニョリア,Hehe...<br>It's because you were there，Big Brother，that I could do my best.<br> ,,vc_10240100003_026_01,chara_1
 
-message,<user>,なら２人のお手柄だな。<br>よし、基地に戻るぞ。
+message,<user>,Then we both did great.<br>Alright，let's head back to the base.<br> 
 
 
 window,off
@@ -1780,7 +1780,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,マニョリア,……うん。<br>行こう、マックン。,,vc_10240100003_027_01,chara_1
+message,マニョリア,...Yeah.<br>Let's go，Mak.<br> ,,vc_10240100003_027_01,chara_1
 
 window,off
 wait,0.15
@@ -1800,7 +1800,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,マックン,おう！　しかしマニョ、いい顔してるじゃねえか！<br>オレが弱ってる間に成長したか！？,900000003
+message,マックン,Oi! But Manny，you've got a great look on your face! Did you grow up<br>while I was out of it?<br> ,900000003
 
 window,off
 wait,0.15
@@ -1827,7 +1827,7 @@ asynccharaemo,chara_1,Twinkle,STOP,4.6
 
 
 window,on,0.15
-message,マニョリア,……別に、成長なんてしてない。<br>マニョならできるって、おにいさんが教えてくれたの。,,vc_10240100003_028_01,chara_1
+message,マニョリア,...It's not like I've grown. Big Brother taught me that Manny can do<br>it.<br> ,,vc_10240100003_028_01,chara_1
 
 window,off
 wait,0.15
@@ -1847,7 +1847,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,マックン,そうかあ？<br>オレには変わって見えるけどな～！,900000003
+message,マックン,Oh really? You look different to me，though!<br> ,900000003
 
 window,off
 wait,0.15
@@ -1876,7 +1876,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,マニョリア,マックンの気のせい。<br>マニョは何も変わってなんてない。,,vc_10240100003_029_01,chara_1
+message,マニョリア,That's just your imagination，Makkun. Manny hasn't changed at all.<br> ,,vc_10240100003_029_01,chara_1
 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
@@ -1889,7 +1889,7 @@ asyncseplay,setag1_69,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,マニョリア,……ただ好きな人が、できただけ。,,vc_10240100003_030_01,chara_1
+message,マニョリア,...It's just that I've found someone I like.<br> ,,vc_10240100003_030_01,chara_1
 
 window,off
 wait,0.15
@@ -1909,9 +1909,9 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,マックン,おっとぉ！？<br>マニョに本物の春到来！　ついに花咲く時かよ！,900000003
+message,マックン,Whoa! Spring has truly arrived for Manny! Finally，it's time for her<br>flower to bloom!<br> ,900000003
 
-message,マックン,相手は誰だ！？<br>おいおいおい！　話を聞かせてくれよ！,900000003
+message,マックン,Who is it? Hey，hey，hey! Spill the details!<br> ,900000003
 
 
 window,off
@@ -1941,7 +1941,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,マニョリア,ふふ……マックンにも、ひみつ。,,vc_10240100003_031_01,chara_1
+message,マニョリア,Fufu... it's a secret，Makkun.<br> ,,vc_10240100003_031_01,chara_1
 
 window,off
 wait,0.15
@@ -1961,7 +1961,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,マックン,かーっ！　乙女じゃねえか！<br>こりゃ親父さんに伝えておかねえとな！,900000003
+message,マックン,Geez! You're such a maiden! I've gotta tell your old man about this!<br> ,900000003
 
 window,off
 wait,0.15
@@ -1990,7 +1990,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,マニョリア,お、お父さんにも、ひみつ！<br>誰にも言っちゃダメっ！,,vc_10240100003_032_01,chara_1
+message,マニョリア,I-It's a secret from my father too! You can't tell anyone!<br> ,,vc_10240100003_032_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -2001,7 +2001,7 @@ asyncseplay,setag1_72,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,マニョリア,ほらマックン、おにいさんを追いかけるよ。,,vc_10240100003_033_01,chara_1
+message,マニョリア,Come on，Makkun，let's catch up to Big Brother.<br> ,,vc_10240100003_033_01,chara_1
 
 window,off
 wait,0.15
@@ -2026,7 +2026,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,どうした、さっさと戻るぞ。
+message,<user>,What's the hold up? Let's get going.<br> 
 
 window,off
 wait,0.15
@@ -2057,7 +2057,7 @@ asynccharaemo,chara_1,Heart,CONT,0
 
 
 window,on,0.15
-message,マニョリア,うん……おにいさん、一緒に帰ろう♪,,vc_10240100003_034_01,chara_1
+message,マニョリア,Yeah... Big Brother，let's go home together!♪<br> ,,vc_10240100003_034_01,chara_1
 
 window,off
 wait,0.15
@@ -2075,7 +2075,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,マックン,……ま、相手が誰かはバレバレってやつか。<br>仲良くしろよ、ご両人！,900000003
+message,マックン,...Well，I guess it's obvious who the special someone is. Get<br>along，you two!<br> ,900000003
 
 window,off
 bgmstop,bgmtag1_4,0.5

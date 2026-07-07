@@ -66,7 +66,7 @@ asyncwait
 
 
 window,on,0.15
-message,モンスター,グォォ！,402001000,,chara_2
+message,モンスター,Graaah!<br> ,402001000,,chara_2
 
 window,off
 wait,0.15
@@ -106,7 +106,7 @@ asynccharaemo,chara_3,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,一般兵Ａ,司令官！　また新手です！,400901000,,chara_3
+message,一般兵Ａ,Commander! More enemies!<br> ,400901000,,chara_3
 
 window,off
 wait,0.15
@@ -121,7 +121,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（……まずいな。予測よりも敵の数が多い。<br>こんなところで足踏みしたくないんだが――）
+message,<user>,(...this is bad. More enemies than I expected.<br>I don't want to get stuck here—)<br> 
 
 window,off
 wait,0.15
@@ -136,7 +136,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,何か、突破口を――んっ？
+message,<user>,I need an opening—Hm?<br> 
 
 window,off
 wait,0.15
@@ -158,7 +158,7 @@ emodelete,chara_3,0,0
 transitionFade,Tra17,in,white,0.5
 
 window,on,0.15
-message,,そう思った矢先、モンスターの頭上へ高く跳躍した少女の姿が見えた。
+message,,Just then，a girl leaped high above the monster's head.<br> 
 
 window,off
 wait,0.15
@@ -204,7 +204,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,？？？,はぁぁあっ！,104201000G,vc_10420100001_001_01,chara_1
+message,？？？,Hyaaaah!<br> ,104201000G,vc_10420100001_001_01,chara_1
 
 window,off
 wait,0.15
@@ -281,7 +281,7 @@ asyncshake,CHARA,chara_6,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_7,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,,少女は手にした両手剣をモンスターに突き立て、大物を仕留める。<br>おぉっ、と兵士たちからどよめきが起こった。
+message,,The girl drove her greatsword into the monster，felling the massive<br>beast. The soldiers gasped in awe.<br> 
 
 window,off
 wait,0.15
@@ -318,7 +318,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,？？？,……フフッ。視える……視えるぞ。<br>敵をヴァルハラへ<ruby=いざな>誘</>う<ruby=ブラッディロード>血塗られた道</>が。,104201000G,vc_10420100001_002_01,chara_1
+message,？？？,Fufu... I see it! The Bloody Road—the path of bloodshed that beckons<br>my foes to Valhalla!<br> ,104201000G,vc_10420100001_002_01,chara_1
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -327,7 +327,7 @@ asyncseplay,setag1_8,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,？？？,組織の<ruby=フィクサー>黒幕</>に支配された<ruby=マリオネット>獣</>如きに<br>我が覇道を遮れるはずが無し！,104201000G,vc_10420100001_003_01,chara_1
+message,？？？,There's no way mere Beasts (Marionettes) controlled by the Fixer<br>could block my path to glory!<br> ,104201000G,vc_10420100001_003_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -338,7 +338,7 @@ asyncseplay,setag1_9,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,？？？,我が暗黒に飲まれて眠れ！　……ククク、クハハハ！<br><ruby=つわもの>兵</>たちよ、我に続くのだっ！　後れを取るなー！,104201000G,vc_10420100001_004_01,chara_1
+message,？？？,Sleep，consumed by my darkness!... Kukuku，Kuhahaha!<br>Warriors! Follow me! Don't fall behind!<br> ,104201000G,vc_10420100001_004_01,chara_1
 
 window,off
 wait,0.15
@@ -392,7 +392,7 @@ asynccharaemo,chara_4,Dull,CONT,0
 
 
 window,on,0.15
-message,一般兵Ｂ,……な、なんなの、あいつ？<br>気持ち悪いんだけど……,401101000,vc_10420100001_005_01,chara_4
+message,一般兵Ｂ,...W-what is she? She's kinda creepy...<br> ,401101000,vc_10420100001_005_01,chara_4
 
 asynccharaface,chara_3,EyeOpen,CONT,0
 asynccharaface,chara_3,FaceNormal,CONT,0
@@ -404,7 +404,7 @@ asyncseplay,setag1_11,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,一般兵Ａ,で、でもまぁ、強いし、とりあえずついていくか……？,400901000,,chara_3
+message,一般兵Ａ,B-but she's strong，so maybe we should follow her for now...?<br> ,400901000,,chara_3
 
 window,off
 wait,0.15
@@ -456,7 +456,7 @@ asyncwait
 
 
 window,on,0.15
-message,？？？,でやぁあぁっ！,104201000G,vc_10420100001_006_01,chara_1
+message,？？？,Hyaaaah!<br> ,104201000G,vc_10420100001_006_01,chara_1
 
 window,off
 wait,0.15
@@ -507,7 +507,7 @@ asyncwait
 asyncseplay,setag1_14,se4000212,0,1,CONT,0
 
 window,on,0.15
-message,,周囲に敬遠されつつも、再び娘がモンスターの頭上へ跳躍する。<br>形勢有利となり、<user>は安堵した。
+message,,Though the soldiers kept their distance，the girl leaped above the<br>monster again. The battle turned in their favor，and the Commander felt relieved.<br> 
 
 crossfadeready
 
@@ -516,7 +516,7 @@ subimagefade,subimage_1,0,0.6235,0
 crossfade,0.1,0,0,1,1
 wait,0.1
 
-message,<user>,（……動揺もあったみたいだが、あの娘に感謝しないといけないな。<br>戦闘が落ち着いたら話し掛けよう）
+message,<user>,(They seemed unsettled，but I should thank that girl.<br>Once the battle calms down，I'll talk to her.)<br> 
 
 
 
@@ -573,9 +573,9 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,？？？,ふぅっ……,104201000G,vc_10420100001_007_01,chara_1
+message,？？？,Phew...<br> ,104201000G,vc_10420100001_007_01,chara_1
 
-message,<user>,疲れているところ悪いが、少しいいか？
+message,<user>,Sorry，I know you're tired，but can I have a minute?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -587,9 +587,9 @@ asyncseplay,setag1_16,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,？？？,どうした、我がマスター。,104201000G,vc_10420100001_008_01,chara_1
+message,？？？,What is it，my Master?<br> ,104201000G,vc_10420100001_008_01,chara_1
 
-message,<user>,……ん？　マスター？　俺は司令官だが。
+message,<user>,Hm? Master? I'm the Commander.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -600,9 +600,9 @@ asyncseplay,setag1_17,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,？？？,我の上位存在なのだからマスターだ。もっとも、この次元の其方が<br>いつまで我と同じ道を歩めるかは未知数――神のみぞ知る世界だ。,104201000G,vc_10420100001_009_01,chara_1
+message,？？？,You are my superior being，so you are my Master. How long you'll walk<br>the same path in this dimension is uncertain—only the gods know.<br> ,104201000G,vc_10420100001_009_01,chara_1
 
-message,<user>,……な、なんかよく分からないが、活躍してくれた兵と話がしたかったんだ。<br>構わないか？
+message,<user>,...I don't really get it，but I wanted to talk to the soldier who did<br>so well. Is that okay?<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -613,7 +613,7 @@ asyncseplay,setag1_18,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,？？？,手短に頼むぞ。戦いの後は<ruby=ダークネス>暗黒の力</>が漏れやすい。<br>御し切れるといいのだが。,104201000G,vc_10420100001_010_01,chara_1
+message,？？？,Make it brief. After battle，the Darkness tends to leak.<br>I can but hope to contain it.<br> ,104201000G,vc_10420100001_010_01,chara_1
 
 window,off
 wait,0.15
@@ -632,9 +632,9 @@ wait,0.5
 
 
 window,on,0.15
-message,？？？,……ッ、アアッ！　封じている左目が疼き始めた――<br>我がマスター、話があるなら我が正気を保っているうちに、早く！,104201000G,vc_10420100001_011_01,chara_1
+message,？？？,...Ah! The sealed left eye has begun to throb— My Master，if thou<br>hast something to say，hurry whilst I still retain my sanity!<br> ,104201000G,vc_10420100001_011_01,chara_1
 
-message,<user>,お前の力には秘密があって、使うとリスクがあるのか！？<br>具合が悪いなら衛生兵を――
+message,<user>,So your power has a secret，and using it has risks!<br>If you're not feeling well，I'll call a medic—<br> 
 
 bgmstop,bgmtag1_2,0,0
 
@@ -649,9 +649,9 @@ asyncseplay,setag1_20,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,？？？,ちょっ……まままま、待て！　待つんだ我がマスター！,104201000G,vc_10420100001_012_01,chara_1
+message,？？？,W-w-w-wait just a moment! Wait，My Master!<br> ,104201000G,vc_10420100001_012_01,chara_1
 
-message,<user>,えっ、いや、しかし――
+message,<user>,Huh? No，but—<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -662,9 +662,9 @@ asyncseplay,setag1_21,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,？？？,……事を悪戯に大きくしたくないんだ。察してくれ。<br>用件を聞こう。,104201000G,vc_10420100001_013_01,chara_1
+message,？？？,...I wish not to make a pointless scene. Understand that.<br>I shall hear thy request.<br> ,104201000G,vc_10420100001_013_01,chara_1
 
-message,<user>,……そうだな。まずは名前を教えてもらおうか。
+message,<user>,...Right. First，tell me your name.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -675,9 +675,9 @@ asyncseplay,setag1_22,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,？？？,我の<ruby=コード>真名</>を知りたいと？,104201000G,vc_10420100001_014_01,chara_1
+message,？？？,Thou wishest to know my True Name?<br> ,104201000G,vc_10420100001_014_01,chara_1
 
-message,<user>,……<ruby=コード>真名</>ってなんだ？
+message,<user>,...What's a True Name?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -688,7 +688,7 @@ asyncseplay,setag1_23,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,？？？,む？,104201000G,vc_10420100001_015_01,chara_1
+message,？？？,Hm?<br> ,104201000G,vc_10420100001_015_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -699,7 +699,7 @@ asyncseplay,setag1_24,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,？？？,……<ruby=エンジェル>堕天使</>、どう思う？　とぼけたふりをしているが<br><ruby=フィクサー>黒幕</>の手先の可能性もありそうな展開だが。,104201000G,vc_10420100001_016_01,chara_1
+message,？？？,Pray，what do you think，'Angel'? You feign ignorance，<br>but it appears you may be a henchman of the Fixer.<br> ,104201000G,vc_10420100001_016_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -710,9 +710,9 @@ asyncseplay,setag1_25,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,？？？,あぁ、あぁ……そうだな。仮初の役とはいえ、今の我は駒の１つに過ぎん。<br>刃向かうのはよそう。ここは、通り名だけ明かす。,104201000G,vc_10420100001_017_01,chara_1
+message,？？？,Ah，ah... yes. Though it be a temporary role，I am but a single pawn.<br>I shall not oppose. Here，I shall reveal only my alias.<br> ,104201000G,vc_10420100001_017_01,chara_1
 
-message,<user>,いったい誰と話している？
+message,<user>,Who exactly are you talking to?<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -723,9 +723,9 @@ asyncseplay,setag1_26,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ヘイリー,それを知られると、我は其方を消すしかなくなる……,104201000G,vc_10420100001_018_01,chara_1
+message,ヘイリー,If thou learnest that，I would have no choice but to eliminate<br>thee...<br> ,104201000G,vc_10420100001_018_01,chara_1
 
-message,<user>,いきなり物騒になったな！？
+message,<user>,That got dangerous all of a sudden!<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -741,7 +741,7 @@ asynccharaface,chara_1,FaceFun,STOP,9
 asyncjump,CHARA,chara_1,-30,0.25,1,off,9,STOP
 
 
-message,？？？,未来科学に近付かれると、タイムパラドクスを誘発する。終末を防ぐためだ。<br>……なお、我のことは<ruby=ヘルド・デ・ジーガー>勝利の英雄</>と呼ぶがいい。,104201000G,vc_10420100001_019_01,chara_1
+message,？？？,...If one approaches the future sciences，it induces a time<br>paradox，preventing the apocalypse. ...Also，thou mayst call me Hield de Zieger.<br> ,104201000G,vc_10420100001_019_01,chara_1
 
 window,off
 wait,0.15
@@ -790,7 +790,7 @@ asynccharaemo,chara_5,Speak,CONT,0
 
 
 window,on,0.15
-message,一般兵Ｃ,おい、ヘイリー。<br>配給の非常食、忘れてたぞ。ここに置いとくからな。,401201000,,chara_5
+message,一般兵Ｃ,Hey，Hayley.<br>You forgot your emergency rations. I'll leave them here.<br> ,401201000,,chara_5
 
 window,off
 wait,0.15
@@ -819,7 +819,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ヘイリー,……んなっ！？<br>我が<ruby=コード>真名</>は特別だから気安く呼ぶなとあれほど言ったのに！！！,104201000G,vc_10420100001_020_01,chara_1
+message,ヘイリー,...Ngh! How many times must I say not to casually address me by my<br>True Name!<br> ,104201000G,vc_10420100001_020_01,chara_1
 
 window,off
 wait,0.15
@@ -860,7 +860,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 wait,0.5
 
 window,on,0.15
-message,<user>,ヘイリーと言うのか。いい名前じゃないか。
+message,<user>,So you're called Hayley. That's a nice name.<br> 
 
 window,off
 wait,0.15
@@ -883,13 +883,13 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヘイリー,ほう……<ruby=コード>真名</>の響きに興味を示すか。其方にも資格がありそうだ。<br>組織の<ruby=ブラフ>嘘</>が隠した<ruby=ユニヴァース>全宇宙</>の真実を追う資格が。,104201000G,vc_10420100001_021_01,chara_1
+message,ヘイリー,Hoh... You show interest in my True Name. Perhaps you qualify to<br>pursue the truth of the All Cosmos hidden by the organization's Bluff.<br> ,104201000G,vc_10420100001_021_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
-message,<user>,うーーーーーん……ちょっと待て。これ以上、情報を増やすな。<br>１度、お前の言葉を整理させろ。
+message,<user>,Uhhh... hold on. Don't throw out any more info.<br>Let me sort out what you've said first.<br> 
 
-message,<user>,話を統合すると、お前は<ruby=ダークネス>暗黒の力</>とやらで真実のために<br>戦っているが、何か敵がいて、それを警戒していると。
+message,<user>,So to sum up，you're fighting for the truth with that Darkness or<br>whatever，but there's some enemy you're on guard against.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -900,9 +900,9 @@ asyncseplay,setag1_32,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,ヘイリー,……！？,104201000G,vc_10420100001_022_01,chara_1
+message,ヘイリー,...!<br> ,104201000G,vc_10420100001_022_01,chara_1
 
-message,<user>,大穴に来て戦っているということは、大穴探索かモンスターにその敵が<br>絡んでいるのか？　……で、お前はそいつらを倒したい？
+message,<user>,You came to the Abyss and you're fighting，so that enemy is tied to<br>the expeditions or the monsters? ...and you want to take them down?<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -911,9 +911,9 @@ asyncseplay,setag1_33,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ヘイリー,……ば、馬鹿な！？　出会って間もないというのに、我が真意を――？<br>信じられん！　貴様、所属はどこだ！？　どこの旗を背負っている！？,104201000G,vc_10420100001_023_01,chara_1
+message,ヘイリー,...N-no way! We just met，yet you've seen through my true intent?<br>Unbelievable! You，what's your affiliation? Whose banner do you carry?<br> ,104201000G,vc_10420100001_023_01,chara_1
 
-message,<user>,前線基地に来る前は別の場所にいたが、今はここ以外には所属していない。
+message,<user>,I was somewhere else before coming to the Frontline Base，but right<br>now I'm not part of any other organization.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -924,9 +924,9 @@ asyncseplay,setag1_34,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ヘイリー,……まだ記憶が戻っていないようだな。,104201000G,vc_10420100001_024_01,chara_1
+message,ヘイリー,...It seems your memories have yet to return.<br> ,104201000G,vc_10420100001_024_01,chara_1
 
-message,<user>,ん？　俺はどこかでお前に会っていたのか？
+message,<user>,Huh? Have I met you somewhere before?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -937,9 +937,9 @@ asyncseplay,setag1_35,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ヘイリー,そうとも言えるし、そうとも言えない……,104201000G,vc_10420100001_025_01,chara_1
+message,ヘイリー,That is both true and not...<br> ,104201000G,vc_10420100001_025_01,chara_1
 
-message,<user>,え、えぇと……つまり、分からないと。<br>でも会えていたらいいな、と思ってくれている？
+message,<user>,Uh，well... so you don't know. But you're hoping we might have met?<br> 
 
 window,off
 wait,0.15
@@ -962,7 +962,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,ヘイリー,……おおおぉぉぉ！！！,104201000G,vc_10420100001_026_01,chara_1
+message,ヘイリー,...Ooooooh!<br> ,104201000G,vc_10420100001_026_01,chara_1
 
 window,off
 wait,0.15
@@ -977,7 +977,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（やったぞ、合ってた！　なんだこの謎の達成感！！！）
+message,<user>,(Yes，I got it right! What a mysterious sense of accomplishment!)<br> 
 
 window,off
 wait,0.15
@@ -1001,9 +1001,9 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ヘイリー,面白い！　実に面白いぞ！　我はとても高揚している！<br>我がマスター！　この胸の昂りも当然、理解できるのであろう！？,104201000G,vc_10420100001_027_01,chara_1
+message,ヘイリー,Fascinating! Truly fascinating! I am most exhilarated! My Master!<br>Surely you can understand this throbbing in my chest，can you not!<br> ,104201000G,vc_10420100001_027_01,chara_1
 
-message,<user>,コミュニケーションが成立して大変嬉しい、と言いたい？
+message,<user>,You're saying you're really happy we can communicate?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1014,7 +1014,7 @@ asyncseplay,setag1_38,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ヘイリー,フフフッ！　さすがだ――<br>我はついに前世との因果を結んだ様子――,104201000G,vc_10420100001_028_01,chara_1
+message,ヘイリー,Fufufu! Just as I'd expect——<br>It seems I have finally formed a karmic bond with my past life——<br> ,104201000G,vc_10420100001_028_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1026,7 +1026,7 @@ asyncseplay,setag1_39,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ヘイリー,前世で我らは唯一無二の友か、あるいは生涯に渡って戦い続けた<br>強敵だったのだろう。英雄か、悪人か――果たしてどちらだ？,104201000G,vc_10420100001_029_01,chara_1
+message,ヘイリー,In our past lives，we were either irreplaceable friends or lifelong<br>rivals. A hero or a villain——which one，I wonder?<br> ,104201000G,vc_10420100001_029_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1037,9 +1037,9 @@ asyncseplay,setag1_40,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヘイリー,記憶が戻ったあとは対立するのかもしれないが<br>今は再会を祝い、同じ立場で戦えることを喜ぼう。,104201000G,vc_10420100001_030_01,chara_1
+message,ヘイリー,After your memories return，we may become enemies，but for now let us<br>celebrate our reunion and rejoice that we can fight as equals.<br> ,104201000G,vc_10420100001_030_01,chara_1
 
-message,<user>,そ、そうだな。うまくやれると俺もありがたい。<br>何せお前は腕が立つ。この後の探索も頼むぞ。
+message,<user>,Y-yeah，I guess so. I'm glad we can get along. After all，you're<br>skilled. I'm counting on you for the rest of the expedition.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1051,7 +1051,7 @@ asyncseplay,setag1_41,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ヘイリー,フフッ、承知した。我がマスター。いや、其方たちの規則に則って<br>これからは司令官と呼ぶか。今宵、我は其方の剣となろう。……では、また。,104201000G,vc_10420100001_031_01,chara_1
+message,ヘイリー,Fufu，understood. My Master. No，by your rules，I will call you<br>Commander now. Tonight，I will become your sword...until we meet again.<br> ,104201000G,vc_10420100001_031_01,chara_1
 
 window,off
 wait,0.15
@@ -1081,7 +1081,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,……と、とりあえずうまくいったらしいが――<br>疲れる娘だったな……
+message,<user>,...Well，we managed somehow，but... what a handful she is.<br> 
 
 window,off
 wait,0.15
@@ -1122,7 +1122,7 @@ asynccharaemo,chara_5,Panic,CONT,0
 
 
 window,on,0.15
-message,一般兵Ｃ,ヘイリーはいつもあんな感じですよ……,401201000,,chara_5
+message,一般兵Ｃ,Hayley's always like that，you know...<br> ,401201000,,chara_5
 
 asynccharaface,chara_6,FaceSad,CONT,0
 
@@ -1133,9 +1133,9 @@ asyncseplay,setag1_44,se4800015,0,1,CONT,0
 asynccharaemo,chara_6,Dull,CONT,0
 
 
-message,一般兵Ｄ,あの調子なので、話が全然通じないんですよね。<br>ちゃんと会話が成立している場面を初めて見ましたよ……さすが司令官です。,401301000,vc_10420100001_032_01,chara_6
+message,一般兵Ｄ,We can't get through to her like that. First time I've seen a real<br>conversation... As expected of the Commander.<br> ,401301000,vc_10420100001_032_01,chara_6
 
-message,<user>,その言い様だと、お前たちも苦労させられていそうだな……<br>あいつと親しい奴っていないのか？
+message,<user>,From the sound of it，you guys have had your hands full too... Isn't<br>there anyone close to her?<br> 
 
 asynccharaface,chara_6,FaceSurprise,CONT,0
 
@@ -1146,7 +1146,7 @@ asyncseplay,setag1_45,se4800008,0,1,CONT,0
 asynccharaemo,chara_6,Sweat,CONT,0
 
 
-message,一般兵Ｄ,見たことないですね。<br>そもそも、まったく人が寄り付きません。,401301000,vc_10420100001_033_01,chara_6
+message,一般兵Ｄ,I haven't seen anyone. No one goes near her in the first place.<br> ,401301000,vc_10420100001_033_01,chara_6
 
 asynccharaface,chara_5,FaceSurprise,CONT,0
 
@@ -1157,9 +1157,9 @@ asyncseplay,setag1_46,se4800009,0,1,CONT,0
 asynccharaemo,chara_5,Question,CONT,0
 
 
-message,一般兵Ｃ,いったい、どういう経緯であんなふうになったのやら……<br>装備を見るに、貧しい出身ではないはずなんですけど。,401201000,,chara_5
+message,一般兵Ｃ,I wonder what led to her being like that... Judging by her<br>equipment，she doesn't seem to come from a poor background.<br> ,401201000,,chara_5
 
-message,<user>,ヘイリーの素性を知っている者は誰もいないのか？
+message,<user>,Does no one know about Hayley's origins?<br> 
 
 asynccharaface,chara_5,EyeOpen,CONT,0
 asynccharaface,chara_5,FaceNormal,CONT,0
@@ -1171,9 +1171,9 @@ asyncseplay,setag1_47,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,一般兵Ｃ,おそらくは。尋ねた者もいるそうなのですが<br>「英雄は雌伏するものである」とか言って、答えなかったそうで――,401201000,,chara_5
+message,一般兵Ｃ,Probably not. I've heard some people asked，but she said something<br>like ""A hero must bide their time"" and wouldn't answer.<br> ,401201000,,chara_5
 
-message,<user>,ふむ……
+message,<user>,Hmm...<br> 
 
 
 
@@ -1203,7 +1203,7 @@ fade,In,Black,0
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――数分後。</size>,,,on
+messageTextCenter,,<size=48>—A few minutes later.</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -1254,7 +1254,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ヘイリー,我が<ruby=ダークネス>暗黒の力</>に飲まれよ！　でやぁぁっ！,104201000G,vc_10420100001_034_01,chara_1
+message,ヘイリー,Be consumed by my Darkness! Hyaaah!<br> ,104201000G,vc_10420100001_034_01,chara_1
 
 window,off
 wait,0.15
@@ -1309,7 +1309,7 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,モンスター,ウガァァァッ！？,402001000,,chara_2
+message,モンスター,GRAAAH!<br> ,402001000,,chara_2
 
 window,off
 wait,0.15
@@ -1336,7 +1336,7 @@ asyncshake,CHARA,chara_6,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_7,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,,――バタッ。
+message,,*thud*<br> 
 
 window,off
 wait,0.15
@@ -1372,7 +1372,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,ヘイリー,哀れな<ruby=ソウル>魂</>に救済を――エイメン。,104201000G,vc_10420100001_035_01,chara_1
+message,ヘイリー,May salvation descend upon these wretched spirits... Amen.<br> ,104201000G,vc_10420100001_035_01,chara_1
 
 window,off
 wait,0.15
@@ -1387,7 +1387,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（わけは分からんが、腕は立つんだよなぁ）
+message,<user>,(I don't get it，but she's skilled，that's for sure.)<br> 
 
 window,off
 wait,0.15
@@ -1441,7 +1441,7 @@ asynccharaemo,chara_3,Exclamation,CONT,0
 
 
 window,on,0.15
-message,一般兵Ａ,……あまり近寄りたくないが、<br>ヘイリーのところが突破口だ！　続くぞー！,400901000,,chara_3
+message,一般兵Ａ,...I don't want to get too close，but Hayley's spot is the opening!<br>Follow me!<br> ,400901000,,chara_3
 
 
 
@@ -1486,16 +1486,16 @@ bgmplay,bgmtag1_5,bgm0035,0.75,1
 transitionFade,Tra05,in,black,1
 
 window,on,0.15
-message,<user>,ふぅっ……無事に戻ってこられたな。今回の探索は大成功だ。<br>お前のおかげだよ、ヘイリー。ありがとな。
+message,<user>,Phew... we made it back safe and sound. This expedition was a huge<br>success. It's thanks to you，Hayley. Thanks.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,ヘイリー,礼には及ばない、我が司令官。モンスターを滅するのは我が一族の宿願だ。<br>その<ruby=カルマ>業</>に従ったまで――,104201000G,vc_10420100001_036_01,chara_1
+message,ヘイリー,Spare your thanks，my Commander. Vanquishing monsters is my clan's<br>sworn burden. I answered the call of that karmic fate.<br> ,104201000G,vc_10420100001_036_01,chara_1
 
-message,<user>,ふむ？<br>ということは、お前の一族はモンスター退治を生業として――
+message,<user>,Hm? So your family's business is monster slaying—<br> 
 
 window,off
 wait,0.15
@@ -1531,7 +1531,7 @@ asynccharaemo,chara_7,Twinkle,CONT,0
 
 
 window,on,0.15
-message,？？？,お、おおっ……お嬢様！　ようやくお会いできました！<br>ご機嫌麗しゅう！！,401701000,,chara_7
+message,？？？,O-oh! Milady! I've finally found you! You are looking most radiant<br>today!<br> ,401701000,,chara_7
 
 window,off
 wait,0.15
@@ -1583,7 +1583,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ヘイリー,わひゃっ！？,104201000G,vc_10420100001_037_01,chara_1
+message,ヘイリー,Eep!<br> ,104201000G,vc_10420100001_037_01,chara_1
 
 asynccharaface,chara_7,FaceSad,CONT,0
 
@@ -1594,7 +1594,7 @@ asyncseplay,setag1_56,se4800009,0,1,CONT,0
 asynccharaemo,chara_7,Question,CONT,0
 
 
-message,付き人,どうされました？　じいやですよ。数年前まで、お嬢様の付き人を――<br>様子を見に、前線基地までやってまいりました！,401701000,,chara_7
+message,付き人,What's the matter? It's me，your former attendant. I've come to check<br>on you at the Frontline Base.<br> ,401701000,,chara_7
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1605,9 +1605,9 @@ asyncseplay,setag1_57,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヘイリー,わわわわ、分かってます！<br>分かってますから、どうか今はそっとしておいて！,104201000G,vc_10420100001_038_01,chara_1
+message,ヘイリー,I-I know，I know! So please，just leave me alone right now!<br> ,104201000G,vc_10420100001_038_01,chara_1
 
-message,<user>,急にどうしたんだ？<br>どうしてそんなに慌てている？
+message,<user>,What's wrong all of a sudden? Why are you so flustered?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1618,7 +1618,7 @@ asyncseplay,setag1_58,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ヘイリー,あっ、慌ててない！　我を怯ませるのは<ruby=パラレルワールド>多次元世界</>を<br>支配する<ruby=フィクサー>黒幕</>のみ――暗黒はどの色にも揺らがない！！,104201000G,vc_10420100001_039_01,chara_1
+message,ヘイリー,Nothing can make me flinch except the Mastermind，the Fixer who rules<br>the Parallel Worlds. The Darkness does not waver in any hue!<br> ,104201000G,vc_10420100001_039_01,chara_1
 
 asynccharaface,chara_7,FaceSurprise,CONT,0
 
@@ -1629,7 +1629,7 @@ asyncseplay,setag1_59,se4800011,0,1,CONT,0
 asynccharaemo,chara_7,ExclaQues,CONT,0
 
 
-message,付き人,……お嬢様。もしかして、また？,401701000,,chara_7
+message,付き人,...Milady. Don't tell me... it's that again?<br> ,401701000,,chara_7
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1641,7 +1641,7 @@ asyncseplay,setag1_60,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ヘイリー,うっ……,104201000G,vc_10420100001_040_01,chara_1
+message,ヘイリー,Ugh...<br> ,104201000G,vc_10420100001_040_01,chara_1
 
 asynccharaface,chara_7,EyeOpen,CONT,0
 asynccharaface,chara_7,FaceNormal,CONT,0
@@ -1653,7 +1653,7 @@ asyncseplay,setag1_61,se4800014,0,1,CONT,0
 asynccharaemo,chara_7,Silence,CONT,0
 
 
-message,付き人,……皆様、すみませぬ。少々、お嬢様と話がございます。<br>お嬢様、来ていただけますね？,401701000,,chara_7
+message,付き人,...I apologize to everyone. I have something to discuss with the<br>young lady. Young lady，would you be so kind as to come with me?<br> ,401701000,,chara_7
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1664,7 +1664,7 @@ asyncseplay,setag1_62,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヘイリー,は、はい……<user>様、本日はこれにて……,104201000G,vc_10420100001_041_01,chara_1
+message,ヘイリー,Y-yes... Commander，I'll be going now...<br> ,104201000G,vc_10420100001_041_01,chara_1
 
 window,off
 wait,0.15
@@ -1698,7 +1698,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,……うーん？　いったいなんなんだ？
+message,<user>,...Hmm? What was that all about?<br> 
 
 
 
@@ -1724,7 +1724,7 @@ fade,In,Black,0
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――翌日。</size>,,,on
+messageTextCenter,,<size=48>—The next day.</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -1765,7 +1765,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（さて。今日は昨日の探索の続きだな。<br>……おっ？　ヘイリーだ）
+message,<user>,(Alright. Today we continue yesterday's exploration. ...Oh? It's<br>Hayley.)<br> 
 
 window,off
 wait,0.15
@@ -1810,9 +1810,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ヘイリー,……あ、<user>様。<br>本日もどうか、よろしくお願いいたします！,104201000G,vc_10420100001_042_01,chara_1
+message,ヘイリー,...Ah，Commander. I look forward to working with you again today!<br> ,104201000G,vc_10420100001_042_01,chara_1
 
-message,<user>,……えっ？<br>お前、どうした？　話し方が昨日と全然違うじゃないか？
+message,<user>,...Huh? What's wrong with you? The way you talk is completely<br>different from yesterday!<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1823,7 +1823,7 @@ asyncseplay,setag1_65,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヘイリー,き、気にしないでください。喋り方を変えても、<br>ちゃんと責務は果たしますから……出撃の準備がありますので、失礼します。,104201000G,vc_10420100001_043_01,chara_1
+message,ヘイリー,P-please don't mind it. Even if I talk differently，I'll still<br>fulfill my duties... I have to prepare for departure，so I'll go.<br> ,104201000G,vc_10420100001_043_01,chara_1
 
 window,off
 wait,0.15
@@ -1847,9 +1847,9 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,<user>,あっ、ちょっと――
+message,<user>,Ah，wait—<br> 
 
-message,<user>,むぅ、行ってしまった。
+message,<user>,Hmph，she's already gone.<br> 
 
 window,off
 wait,0.15
@@ -1895,7 +1895,7 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,一般兵Ａ,……なぁ。ヘイリーと話したか？,400901000,,chara_3
+message,一般兵Ａ,...Hey. Did you talk to Hayley?<br> ,400901000,,chara_3
 
 asyncshake,CHARA,chara_5,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -1904,7 +1904,7 @@ asyncseplay,setag1_68,se4800007,0,1,CONT,0
 asynccharaemo,chara_5,Panic,CONT,0
 
 
-message,一般兵Ｃ,あ、あぁ……あんなヘイリー、初めて見たぞ。<br>いったい何があったんだろうな？,401201000,,chara_5
+message,一般兵Ｃ,Yeah... I'd never seen Hayley like that. I wonder what happened to<br>her.<br> ,401201000,,chara_5
 
 window,off
 wait,0.15
@@ -1919,7 +1919,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（兵士たちにも動揺が広がっている。<br>悪い影響がないといいんだが――）
+message,<user>,(The unease is spreading among the soldiers too. I hope it doesn't<br>have a negative effect...)<br> 
 
 window,off
 bgmstop,bgmtag1_6,0.5

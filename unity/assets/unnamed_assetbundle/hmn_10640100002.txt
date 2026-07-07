@@ -56,7 +56,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（ラモーナの歌声、ずっと聴いていられるな）
+message,<user>,(I could listen to Ramona's singing forever.)<br> 
 
 window,off
 wait,0.15
@@ -83,7 +83,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ラモーナ,～～～～♪　～～～……,106401000G,vc_10640100002_002_01,chara_1
+message,ラモーナ,La la la...<br> ,106401000G,vc_10640100002_002_01,chara_1
 
 window,off
 wait,0.15
@@ -102,7 +102,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ラモーナ,……あら？<br>そこにいるのは……司令官さまですか？,106401000G,vc_10640100002_003_01,chara_1
+message,ラモーナ,... Oh? Is that you，Commander?<br> ,106401000G,vc_10640100002_003_01,chara_1
 
 window,off
 wait,0.15
@@ -117,7 +117,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（……バレたか）
+message,<user>,(... She noticed.)<br> 
 
 window,off
 wait,0.15
@@ -132,7 +132,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,ああ、俺だ。
+message,<user>,Ah，it's me.<br> 
 
 window,off
 wait,0.15
@@ -175,11 +175,11 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ラモーナ,ふふ、やはりそうでしたか。<br>こんな森の中で出会うとは奇遇ですね。お仕事ですか？,106401000G,vc_10640100002_004_01,chara_1
+message,ラモーナ,Fufu，I thought so. What a coincidence meeting you in a forest like<br>this. Are you on duty?<br> ,106401000G,vc_10640100002_004_01,chara_1
 
-message,<user>,ああ。この辺りの森の環境を調査していたんだが、<br>歌声が聴こえて、引き寄せられてきた。
+message,<user>,Yeah. I was surveying the forest around here，but I heard your<br>singing and was drawn over.<br> 
 
-message,<user>,すまない、歌の邪魔をしちゃ悪いと思って、声をかけなかった。<br>盗み聞きみたいになってしまったな。
+message,<user>,Sorry，I thought I shouldn't interrupt your singing，so I didn't call<br>out. Ended up like I was eavesdropping.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -190,9 +190,9 @@ asyncseplay,setag1_5,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ラモーナ,ふふっ。いいんですよ、謝ったりしなくって。<br>私は吟遊詩人ですから。歌は聴いてもらってこそです♪,106401000G,vc_10640100002_005_01,chara_1
+message,ラモーナ,Fufu. It's all right，no need to apologize. I'm a bard，so songs are<br>meant to be heard.♪<br> ,106401000G,vc_10640100002_005_01,chara_1
 
-message,<user>,そうはいっても、歌を生業にしてるなら、おひねりが必要だろ？
+message,<user>,Even so，if you make your living through song，you need a tip，right?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -203,9 +203,9 @@ asyncseplay,setag1_6,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ラモーナ,あら、そうですか？<br>それでは……今度一緒に歌ってくださいますか？,106401000G,vc_10640100002_006_01,chara_1
+message,ラモーナ,Oh? Is that so? Then... would you sing with me sometime?<br> ,106401000G,vc_10640100002_006_01,chara_1
 
-message,<user>,え？　俺も歌うのか？
+message,<user>,Huh? I have to sing too?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -217,9 +217,9 @@ asyncseplay,setag1_7,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ラモーナ,歌を聴いたお代は、歌で返す。<br>分かりやすくてよくありませんか？,106401000G,vc_10640100002_007_01,chara_1
+message,ラモーナ,Pay for hearing a song with a song. Simple and clear，don't you<br>think?<br> ,106401000G,vc_10640100002_007_01,chara_1
 
-message,<user>,いや、俺の歌にそれほどの価値は……
+message,<user>,No，my singing isn't worth that much...<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -230,9 +230,9 @@ asyncseplay,setag1_8,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ラモーナ,ふふっ、冗談です♪<br>お代を払えなんて言いませんよ。私が好きで歌っていたんですもの。,106401000G,vc_10640100002_008_01,chara_1
+message,ラモーナ,Fufu，it's a joke!♪ I'm not asking you to pay. I was singing because<br>I wanted to.<br> ,106401000G,vc_10640100002_008_01,chara_1
 
-message,<user>,お前……結構茶目っ気があるんだな。
+message,<user>,You're pretty mischievous，aren't you?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -244,9 +244,9 @@ asyncseplay,setag1_9,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ラモーナ,そうですか？,106401000G,vc_10640100002_009_01,chara_1
+message,ラモーナ,Is that so?<br> ,106401000G,vc_10640100002_009_01,chara_1
 
-message,<user>,ラモーナならきっと、旅先でもすんなり受け入れられるんだろうな。
+message,<user>,Someone like you must fit right in wherever you travel.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -257,9 +257,9 @@ asyncseplay,setag1_10,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ラモーナ,子どもたちなんかは、すぐに懐いてくれますね～。<br>旅先の町や村を後にするときは、子どもたちが宝物をくれたりするんです。,106401000G,vc_10640100002_010_01,chara_1
+message,ラモーナ,The children warm up to me quickly. When I leave the towns and<br>villages I visit，they give me treasures.<br> ,106401000G,vc_10640100002_010_01,chara_1
 
-message,<user>,宝物？
+message,<user>,Treasures?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -270,7 +270,7 @@ asyncseplay,setag1_11,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ラモーナ,見ますか？　とっておきですよ～。<br>……ほら♪,106401000G,vc_10640100002_011_01,chara_1
+message,ラモーナ,Would you like to see? It's a special treasure.<br>... Look!♪<br> ,106401000G,vc_10640100002_011_01,chara_1
 
 window,off
 wait,0.15
@@ -294,7 +294,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,どんぐりに、四つ葉のクローバー、これは……石？
+message,<user>,An acorn，a four-leaf clover，and this... a stone?<br> 
 
 window,off
 wait,0.15
@@ -311,9 +311,9 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ラモーナ,その石、ネコちゃんみたいに見えるんですよ～。ほら♪,106401000G,vc_10640100002_012_01,chara_1
+message,ラモーナ,That stone looks like a kitty. Look!♪<br> ,106401000G,vc_10640100002_012_01,chara_1
 
-message,<user>,なるほど。これは確かに『宝物』だな。
+message,<user>,I see. This is indeed a 'treasure'.<br> 
 
 window,off
 wait,0.15
@@ -330,7 +330,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,ラモーナ,はいっ。大切な想い出です♪,106401000G,vc_10640100002_013_01,chara_1
+message,ラモーナ,Yes! It's a precious memory!♪<br> ,106401000G,vc_10640100002_013_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -342,7 +342,7 @@ asyncseplay,setag1_14,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ラモーナ,大人の人たちも保存食をくれたり、<br>途中まで馬車に乗せてくれたりするんです。,106401000G,vc_10640100002_014_01,chara_1
+message,ラモーナ,The adults also give me preserved food，or let me ride on their<br>wagons partway.<br> ,106401000G,vc_10640100002_014_01,chara_1
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -351,7 +351,7 @@ asyncseplay,setag1_15,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ラモーナ,私は人との縁に恵まれているんです。<br>だから、歌で少しでも恩返しができたらいいなって。,106401000G,vc_10640100002_015_01,chara_1
+message,ラモーナ,I've been blessed with connections to people. That's why I hope I<br>can repay them in some small way through my songs.<br> ,106401000G,vc_10640100002_015_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -364,7 +364,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 wait,0.5
 
 
-message,ラモーナ,でも……それだけじゃ、守れないものもあることを知っています。,106401000G,vc_10640100002_016_01,chara_1
+message,ラモーナ,But... I know there are things I can't protect with just that.<br> ,106401000G,vc_10640100002_016_01,chara_1
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -373,7 +373,7 @@ asyncseplay,setag1_17,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ラモーナ,いくら歌を歌っても、モンスターを止めることはできない。<br>歌を聴く気がない人は、武器を置いてはくれない……,106401000G,vc_10640100002_017_01,chara_1
+message,ラモーナ,No matter how much I sing，I can't stop a monster. People who don't<br>want to listen won't put down their weapons...<br> ,106401000G,vc_10640100002_017_01,chara_1
 
 window,off
 wait,0.15
@@ -392,9 +392,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ラモーナ,だから私は、平和な世界を守るために戦うことを決め、<br>弓を学びました。,106401000G,vc_10640100002_018_01,chara_1
+message,ラモーナ,So I decided to fight to protect a peaceful world，and I learned<br>archery.<br> ,106401000G,vc_10640100002_018_01,chara_1
 
-message,<user>,そうか……合点がいったよ。
+message,<user>,I see... That makes sense now.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -405,11 +405,11 @@ asyncseplay,setag1_19,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ラモーナ,え？,106401000G,vc_10640100002_019_01,chara_1
+message,ラモーナ,Eh?<br> ,106401000G,vc_10640100002_019_01,chara_1
 
-message,<user>,正直、ラモーナは戦いに向いている性格とは思えなかった。<br>けど、弓の腕は達人といっていいレベルだ。
+message,<user>,Honestly，I didn't think you had a personality suited for fighting.<br>But your skill with the bow is master-level.<br> 
 
-message,<user>,ラモーナは、自分以外の誰かのために頑張れる人間なんだな。<br>そういうやつは、好きだぞ。
+message,<user>,You're the kind of person who can work hard for someone other than<br>yourself. I like people like that.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -420,7 +420,7 @@ asyncseplay,setag1_20,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ラモーナ,えっ……？,106401000G,vc_10640100002_020_01,chara_1
+message,ラモーナ,Eh...?<br> ,106401000G,vc_10640100002_020_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -431,9 +431,9 @@ asyncseplay,setag1_21,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ラモーナ,あらあら、まあまあ……そんな、好きだなんて……。<br>私、困ってしまいます。,106401000G,vc_10640100002_021_01,chara_1
+message,ラモーナ,Oh my，oh dear... saying you like me... I'm at a loss.<br> ,106401000G,vc_10640100002_021_01,chara_1
 
-message,<user>,……うん？
+message,<user>,Hmm?<br> 
 
 window,off
 wait,0.15
@@ -448,7 +448,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（何か、困らせるようなこと言ったか？<br>でも、嫌がってる感じでもないか……）
+message,<user>,(Did I say something to embarrass her? But it doesn't seem like she<br>hates it...)<br> 
 
 window,off
 wait,0.15
@@ -463,7 +463,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,まあ、なんにせよ。お前の能力も、志もよく分かった。<br>よければ、これからも力を貸してほしい。
+message,<user>,Well，anyway. I now understand your abilities and your resolve. If<br>you're willing，I'd like your help from now on.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -474,9 +474,9 @@ asyncseplay,setag1_22,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ラモーナ,はい……それはもちろん、お力にはなりたいのですが……。<br>私なんかが、司令官さまのお役に立てるでしょうか……？,106401000G,vc_10640100002_022_01,chara_1
+message,ラモーナ,Yes... of course I want to help... But can someone like me truly be<br>of use to you，Commander...?<br> ,106401000G,vc_10640100002_022_01,chara_1
 
-message,<user>,どういうことだ？
+message,<user>,What do you mean?<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -487,9 +487,9 @@ asyncseplay,setag1_23,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ラモーナ,私は戦う覚悟を決めていたつもりでしたが、<br>苦手なヘビを前にしただけで、私は動けなくなってしまいます……,106401000G,vc_10640100002_023_01,chara_1
+message,ラモーナ,I thought I had steeled myself for combat，but I freeze up just at<br>the sight of a snake I fear...<br> ,106401000G,vc_10640100002_023_01,chara_1
 
-message,<user>,なんでそんなにヘビが苦手なんだ？
+message,<user>,Why are you so afraid of snakes?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -500,7 +500,7 @@ asyncseplay,setag1_24,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ラモーナ,実は、幼い頃にヘビに襲われたことがありまして……。<br>それ以来、あのぎょろりとした目で見られると体がすくんでしまうんです……！,106401000G,vc_10640100002_024_01,chara_1
+message,ラモーナ,Actually，I was attacked by a snake as a child... Ever since，whenever<br>those bulging eyes stare at me，my body freezes up...!<br> ,106401000G,vc_10640100002_024_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -511,7 +511,7 @@ asyncseplay,setag1_25,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ラモーナ,ヘビへの恐怖も克服できないまま、世界の平和のために戦いたいだなんて、<br>虫がよすぎますよね……,106401000G,vc_10640100002_025_01,chara_1
+message,ラモーナ,To want to fight for world peace while still unable to overcome my<br>fear of snakes... that's too presumptuous of me，isn't it...<br> ,106401000G,vc_10640100002_025_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -522,9 +522,9 @@ asyncseplay,setag1_26,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ラモーナ,やっぱり、私は前線に出るべきでないのだと思います……,106401000G,vc_10640100002_026_01,chara_1
+message,ラモーナ,After all，I think I shouldn't be on the front lines...<br> ,106401000G,vc_10640100002_026_01,chara_1
 
-message,<user>,ラモーナ……お前は強いな。
+message,<user>,Ramona... you're strong.<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -533,11 +533,11 @@ asyncseplay,setag1_27,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ラモーナ,え？　私がですか……？,106401000G,vc_10640100002_027_01,chara_1
+message,ラモーナ,Eh? Me...?<br> ,106401000G,vc_10640100002_027_01,chara_1
 
-message,<user>,ああ。お前は本来、戦いが向いた性格じゃないだろう？<br>けど、誰かの平和な生活を守るために、戦うことを選び、頑張れる。
+message,<user>,Yeah. You're not the type for fighting，are you? But you chose to<br>fight to protect someone's peaceful life，and you give it your all.<br> 
 
-message,<user>,優しいだけのやつは、いくらだっている。<br>けど、優しさを戦うための勇気に変えられる人間は、そうはいない。
+message,<user>,There are plenty of people who are just kind. But people who can<br>turn kindness into the courage to fight—there aren't many.<br> 
 
 window,off
 wait,0.15
@@ -556,11 +556,11 @@ wait,0.5
 
 
 window,on,0.15
-message,ラモーナ,優しさを、勇気に……,106401000G,vc_10640100002_028_01,chara_1
+message,ラモーナ,Kindness，into courage...<br> ,106401000G,vc_10640100002_028_01,chara_1
 
-message,<user>,それに、お前は自分の弱さに向き合える人間だ。<br>弱さを認められる人間は、他人の弱さにも寄り添える。
+message,<user>,Besides，you're someone who can face your own weaknesses. Someone who<br>can admit their weaknesses can also be there for others' weaknesses.<br> 
 
-message,<user>,だからお前は優しくて、強いんだ。<br>それはお前の歌にも現れてる。
+message,<user>,That's why you're kind and strong. That shows in your songs too.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -571,13 +571,13 @@ asyncseplay,setag1_29,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ラモーナ,私の歌に、ですか……？,106401000G,vc_10640100002_029_01,chara_1
+message,ラモーナ,In my songs，you say...?<br> ,106401000G,vc_10640100002_029_01,chara_1
 
-message,<user>,お前の歌は、人を元気にできる。<br>それはお前の歌に、強い気持ちが込められているからだ。
+message,<user>,Your songs can cheer people up. That's because your songs are filled<br>with strong feelings.<br> 
 
-message,<user>,その強い気持ちは、戦いの場でも必ず、誰かの助けになれる。
+message,<user>,Those strong feelings will surely help someone on the battlefield<br>too.<br> 
 
-message,<user>,俺は確信してるよ。ラモーナは、ラモーナ自身が思っている以上に強いって。<br>そしてラモーナは人のためなら、自分の苦手だって克服できるってさ。
+message,<user>,I'm certain of it. Ramona，you're stronger than you think. And for<br>others，you can overcome even your weaknesses.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -588,7 +588,7 @@ asyncseplay,setag1_30,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ラモーナ,司令官さま……,106401000G,vc_10640100002_030_01,chara_1
+message,ラモーナ,Commander...<br> ,106401000G,vc_10640100002_030_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -599,7 +599,7 @@ asyncseplay,setag1_31,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ラモーナ,ふふっ♪　司令官さまこそ、お優しい方です。<br>なんだか、本当に苦手を克服できる気がしてきました♪,106401000G,vc_10640100002_031_01,chara_1
+message,ラモーナ,Fufu!♪ You're so kind，Commander. Somehow，I feel like I really can<br>overcome my weakness now!♪<br> ,106401000G,vc_10640100002_031_01,chara_1
 
 window,off
 wait,0.15
@@ -619,9 +619,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ラモーナ,私、頑張ってみます。ですから司令官さま。<br>次に弓使いがご入用の時は、私を連れていってくださいますか？,106401000G,vc_10640100002_032_01,chara_1
+message,ラモーナ,I'll try my best. So，Commander，next time you need an archer，will you<br>take me with you?<br> ,106401000G,vc_10640100002_032_01,chara_1
 
-message,<user>,もちろんだ。お前の弓の腕は、俺が必ず活かしてみせる。<br>だからお前は、仲間のために自分の力を振るってくれ。
+message,<user>,Of course. I'll make sure to put your archery skills to good use. So<br>do your part for your comrades.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -632,9 +632,9 @@ asyncseplay,setag1_33,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ラモーナ,はいっ。私、きっと司令官さまのお役に立ってみせます！<br>ですから、どんなことでもお命じください！,106401000G,vc_10640100002_033_01,chara_1
+message,ラモーナ,Yes! I'll definitely prove myself useful to you，Lord Commander! So<br>please，give me any command!<br> ,106401000G,vc_10640100002_033_01,chara_1
 
-message,<user>,どんなことでも、か。<br>それなら差し当たって、やってもらいたいことがあるんだが、いいか？
+message,<user>,Anything at all，huh? In that case，there's something I'd like you to<br>do first. Is that okay?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -645,9 +645,9 @@ asyncseplay,setag1_34,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ラモーナ,今ですか？<br>いったい、どのようなことでしょうか？,106401000G,vc_10640100002_034_01,chara_1
+message,ラモーナ,Right now? What sort of thing might that be?<br> ,106401000G,vc_10640100002_034_01,chara_1
 
-message,<user>,さっきの歌の続きを頼むよ。<br>途中で止めさせちゃったからな。
+message,<user>,I'd like you to finish the song you were singing earlier. I made you<br>stop in the middle，after all.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -659,7 +659,7 @@ asyncseplay,setag1_35,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ラモーナ,……ふふっ、かしこまりました♪<br>それでは、ご清聴ください♪,106401000G,vc_10640100002_035_01,chara_1
+message,ラモーナ,...Fufu，certainly!♪ Then，please listen!♪<br> ,106401000G,vc_10640100002_035_01,chara_1
 
 window,off
 bgmstop,bgmtag1_1,0.5

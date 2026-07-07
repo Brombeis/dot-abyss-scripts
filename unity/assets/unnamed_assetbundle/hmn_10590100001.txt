@@ -24,9 +24,9 @@ bgmplay,bgmtag1_1,bgm0036,0.75,1
 
 
 window,on,0.15
-message,,夜のマーケット。昼と比べて人通りは少ないものの <br>夜の買い物を楽しむ人々が姿を見せていた。
+message,,The night market. Though less crowded than daytime，there were still<br>people out enjoying their evening shopping.<br> 
 
-message,<user>,ほぉ。昼間の雰囲気とはまた全然違うなぁ。<br>夜にしか開いてない店もあるみたいだし、ちょっと覗いてみるか。
+message,<user>,Ohh，it's got a totally different vibe from daytime. And there seem<br>to be shops that only open at night—might as well take a look.<br> 
 
 window,off
 wait,0.15
@@ -44,7 +44,7 @@ asyncmove,BACK,,0,0,0,Set,CONT
 transitionFade,Tra01,in,black,1
 
 window,on,0.15
-message,<user>,……ん、この店は？ <br>宝石……いや、魔石細工の店……？
+message,<user>,...Hmm，what's this shop? Gemstones... no，a magic stone craft<br>shop...?<br> 
 
 window,off
 wait,0.15
@@ -62,9 +62,9 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,,とある店の軒先に魔石を加工した装飾品が並んでいた。<br>昼間のマーケットではなかなか見かけることのない珍しい品だ。
+message,,Under a shop's eaves，magic stone accessories were displayed—rare<br>items not often seen in the daytime market.<br> 
 
-message,<user>,魔石細工ってだけでも珍しいが、このデザインは独創的で素晴らしい。<br>まるで芸術作品のようだな……
+message,<user>,It's rare enough just to see magic stone crafts，but the designs are<br>so original and wonderful. They're like works of art...<br> 
 
 window,off
 wait,0.15
@@ -104,9 +104,9 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,,店にならぶ商品を見ていると、<br>中からじっとこちらをうかがっている人影に気づいた。
+message,,As I was looking at the products arranged in the shop，I noticed a<br>figure inside，watching me intently.<br> 
 
-message,<user>,ん？　えーと、ここの店主か？<br>この店に並んでいるのはお前が作ったものなのか？
+message,<user>,Huh? Um，are you the shopkeeper? Did you make all these things<br>displayed here?<br> 
 
 window,off
 wait,0.15
@@ -133,9 +133,9 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,？？？,……ぁ……ぅぅ……,105901000G,vc_10590100001_001_01,chara_1
+message,？？？,Ah... uhh...<br> ,105901000G,vc_10590100001_001_01,chara_1
 
-message,<user>,……？　おーい？<br>あ、えーと……一応、俺は客のつもりなんだが……
+message,<user>,...? Hey? Ah，um... I'm a customer，you know...<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -146,9 +146,9 @@ asyncseplay,setag1_4,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,？？？,ぁ……あの……ぅぅ……,105901000G,vc_10590100001_002_01,chara_1
+message,？？？,Ah... um... uhh...<br> ,105901000G,vc_10590100001_002_01,chara_1
 
-message,,もごもごと言葉を漏らす女性。<br>彼女の身につけたブローチが、どこか片言な声色で喋り始めた。
+message,,A woman mumbled something unintelligible. Then the brooch she wore<br>began to speak in a stilted，broken voice.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -156,23 +156,23 @@ asyncseplay,setag1_5,se4800014,0,1,CONT,0
 
 asynccharaemo,chara_1,Silence,CONT,0
 
-message,ブローチ,――イラッシャイマセ。<br>ゴ用件ハ、ワタクシガ承リマス。,900000003,vc_10590100001_003_01,
+message,ブローチ,WELCOME. I SHALL ATTEND TO YOUR NEEDS.<br> ,900000003,vc_10590100001_003_01,
 
-message,<user>,うわっ！？　な、なんだ今のは！？<br>そのブローチが喋ってるのか……？
+message,<user>,Whoa! W-what was that just now? Is that brooch talking...?<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
-message,ブローチ,ハイ。スティーラ様ハ、会話ガ苦手デシテ……。<br>オ客様トハ、ワタクシガ、オ話シ致シマス。,900000003,vc_10590100001_004_01,
+message,ブローチ,YES. LADY STEELA HAS DIFFICULTY WITH CONVERSATION. I SHALL SPEAK<br>WITH THE CUSTOMER.<br> ,900000003,vc_10590100001_004_01,
 
-message,<user>,装飾品に喋らせる、か……。<br>さすが魔石細工の店だ。
+message,<user>,So it makes accessories talk... That's a magic stone craft shop for<br>you.<br> 
 
-message,<user>,それで、スティーラ、というんだな。 <br>この店に並んでる商品はスティーラの作ったものなのか？
+message,<user>,So her name is Steela. Are the products displayed here made by<br>Steela?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
-message,ブローチ,ハイ。全テ、スティーラ様ノ製作サレタ、品々デス。,900000003,vc_10590100001_005_01,
+message,ブローチ,YES. ALL ITEMS ARE CRAFTED BY LADY STEELA.<br> ,900000003,vc_10590100001_005_01,
 
-message,<user>,全部自分で作ったのか……そいつはすごいな。 <br>加工の難しい魔石をこうも見事に装飾品にするとは。
+message,<user>,She made all of them herself? That's incredible. To make such<br>beautiful accessories out of hard-to-work magic stones like this...<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -183,9 +183,9 @@ asyncseplay,setag1_6,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,スティーラ,ふ、ふぁ……！？,105901000G,vc_10590100001_006_01,chara_1
+message,スティーラ,F-fwah...!<br> ,105901000G,vc_10590100001_006_01,chara_1
 
-message,<user>,実用性と芸術性を兼ね備えたデザインは見事だし、加工も丁寧。<br>もはや商品というより作品と呼ぶべきだな。
+message,<user>,The designs blend practicality and artistry wonderfully，and the<br>craftsmanship is meticulous. They're works of art，not just products.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -196,9 +196,9 @@ asyncseplay,setag1_7,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,スティーラ,ぁ、ぁぅ……,105901000G,vc_10590100001_007_01,chara_1
+message,スティーラ,Ah，um...<br> ,105901000G,vc_10590100001_007_01,chara_1
 
-message,<user>,これだけ見事な装飾品は俺も初めて見るよ。<br>その若さでこの技術、余程の研鑽を積んできたんだろう。
+message,<user>,I've never seen ornaments this exquisite. For someone your age to<br>have this skill，you must have trained a lot.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -209,9 +209,9 @@ asyncseplay,setag1_8,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,スティーラ,ぁ、ぁぁ……ありがとう、ございます……,105901000G,vc_10590100001_008_01,chara_1
+message,スティーラ,Ah，th-thank you... very much...<br> ,105901000G,vc_10590100001_008_01,chara_1
 
-message,<user>,……なんだ、普通に喋れるんじゃないか。
+message,<user>,...Well，you can speak just fine，can't you?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -223,9 +223,9 @@ asyncseplay,setag1_9,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,スティーラ,あ、あぅ……え、えっと……<br>そ、そんなに褒めてもらえたの……その……初めてで……,105901000G,vc_10590100001_009_01,chara_1
+message,スティーラ,Ah，um... w-well... to receive such praise... it's... the first time<br>for me...<br> ,105901000G,vc_10590100001_009_01,chara_1
 
-message,<user>,そうなのか？　素晴らしいものを素晴らしいと言っただけだ。<br>お世辞を言ったわけじゃない。自信もっていいと思うぞ。
+message,<user>,Really? I just said something wonderful is wonderful. I wasn't<br>flattering you. You should be confident.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -236,9 +236,9 @@ asyncseplay,setag1_10,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,スティーラ,う……嬉しい……です。<br>え、えと……魔石の研究と細工は、小さい頃からやってきたので……,105901000G,vc_10590100001_010_01,chara_1
+message,スティーラ,U-um... that makes me happy... Well... I've been researching and<br>crafting magic stones since I was little...<br> ,105901000G,vc_10590100001_010_01,chara_1
 
-message,ブローチ,スティーラ様ハ、ペルディオンニテ最上位ノ<br>スグレタ魔石細工師デシタ。,900000003,vc_10590100001_011_01,
+message,ブローチ,LADY STEELA WAS THE FOREMOST MAGIC STONE CRAFTSMAN IN PERDION.<br> ,900000003,vc_10590100001_011_01,
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -249,9 +249,9 @@ asyncseplay,setag1_11,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,スティーラ,さ、最上位なんて言いすぎ……！<br>ま、まだまだ勉強中の身ですっ！,105901000G,vc_10590100001_012_01,chara_1
+message,スティーラ,T-that's too much，saying top-level...! I-I'm still training!<br> ,105901000G,vc_10590100001_012_01,chara_1
 
-message,<user>,これだけの作品を生み出せるんだ、トップクラスの腕前だと俺も思うぞ。<br>しかし、どうしてわざわざ危険な前線基地にまで来たんだ？
+message,<user>,To create works like these，I'd say you're top-class. But why would<br>you come all the way to a dangerous Frontline Base like this?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -262,9 +262,9 @@ asyncseplay,setag1_12,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,スティーラ,ふわ……そ、それは……,105901000G,vc_10590100001_013_01,chara_1
+message,スティーラ,Fuwah... w-well...<br> ,105901000G,vc_10590100001_013_01,chara_1
 
-message,ブローチ,高品質ナ魔石ヲ入手スルタメ、デス。<br>スティーラ様ノ作品ニハ、スグレタ魔石ガヒツヨウナノデス。,900000003,vc_10590100001_014_01,
+message,ブローチ,IT IS TO OBTAIN HIGH-QUALITY MAGIC STONES. LADY STEELA'S WORKS<br>REQUIRE SUPERB MAGIC STONES.<br> ,900000003,vc_10590100001_014_01,
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -276,11 +276,11 @@ asyncseplay,setag1_13,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,スティーラ,そ、そうなんです。大穴には、珍しい魔石がたくさん見つかるって聞いて、<br>そ、それで、ここに……,105901000G,vc_10590100001_015_01,chara_1
+message,スティーラ,Y-yes，that's right. I heard the Abyss has many rare magic<br>stones，s-so that's why I came here...<br> ,105901000G,vc_10590100001_015_01,chara_1
 
-message,ブローチ,スティーラ様ハ魔石ヲ探スタメ、<br>昼ハ採掘ニ参加シテイマス。,900000003,vc_10590100001_016_01,
+message,ブローチ,LADY STEELA PARTICIPATES IN MINING DURING THE DAY TO SEARCH FOR<br>MAGIC STONES.<br> ,900000003,vc_10590100001_016_01,
 
-message,<user>,ほう、採掘部隊に参加して自分で探しているのか？
+message,<user>,Oh，you join the mining team and search yourself?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -291,7 +291,7 @@ asyncseplay,setag1_14,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,スティーラ,は、はい。加工に適した魔石は、<br>自分で探さないとなかなか見つけられなくて……,105901000G,vc_10590100001_017_01,chara_1
+message,スティーラ,Y-yes. Stones suitable for crafting are hard to find unless I look<br>for them myself...<br> ,105901000G,vc_10590100001_017_01,chara_1
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -300,9 +300,9 @@ asyncseplay,setag1_15,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,スティーラ,魔石の大きさと品質、こめられた魔力の強さ、純度、属性……。 <br>どれが違っても理想的な作品にはならないんです。,105901000G,vc_10590100001_018_01,chara_1
+message,スティーラ,A magic stone's size，quality，mana strength，purity，and element—if any<br>is off，you can't make an ideal piece.<br> ,105901000G,vc_10590100001_018_01,chara_1
 
-message,<user>,なるほど。魔石に関しても相当詳しいようだな。<br>で、昼間は魔石探しがあるから、夜にしか店が開いてないわけか。
+message,<user>,I see. You're pretty knowledgeable about magic stones too. That's<br>why you only open the shop at night—you search during the day.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -314,11 +314,11 @@ asyncseplay,setag1_16,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,スティーラ,は、はい。加工作業に時間もかかりますし、<br>集中してやらなきゃいけないので、この時間にしか……,105901000G,vc_10590100001_019_01,chara_1
+message,スティーラ,Y-yes. The crafting takes time，and I need to concentrate，so I can<br>only open at this hour...<br> ,105901000G,vc_10590100001_019_01,chara_1
 
-message,ブローチ,スティーラ様ハ、 <br>人ノ多イ昼間ニ開店スルノガ怖イソウデス。,900000003,vc_10590100001_020_01,
+message,ブローチ,LADY STEELA IS AFRAID TO OPEN THE SHOP DURING THE BUSY DAYTIME.<br> ,900000003,vc_10590100001_020_01,
 
-message,<user>,怖い？　えーと、昼間のほうが客が多く来そうだが……
+message,<user>,Scared? Well，I'd think more customers would come during the<br>day，though...<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -329,9 +329,9 @@ asyncseplay,setag1_17,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,スティーラ,あ、あの……お客様がいっぱい来ちゃうと……<br>いっぱいお話ししなくちゃいけないし……そういうの、やっぱ苦手で……,105901000G,vc_10590100001_021_01,chara_1
+message,スティーラ,Ah，um... if a lot of customers come... I'd have to talk a lot... and<br>I'm really not good at that kind of thing...<br> ,105901000G,vc_10590100001_021_01,chara_1
 
-message,<user>,なるほどな。しかし、商売としては勿体ないよな。<br>このクオリティならほしがる客は多いだろうに。
+message,<user>,I see. But it's a waste as a business. With quality like<br>this，there'd be plenty of customers who'd want it.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -342,7 +342,7 @@ asyncseplay,setag1_18,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,スティーラ,えっと、えっと……そ、そんなにお客様来られちゃったら……。<br>や、やっぱり困っちゃいます……うぅ……,105901000G,vc_10590100001_022_01,chara_1
+message,スティーラ,Um，um... if that many customers came... I'd be in trouble... Uu...<br> ,105901000G,vc_10590100001_022_01,chara_1
 
 window,off
 wait,0.15
@@ -362,11 +362,11 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,……ん？ <br>そこにある、布をかぶったやつは……
+message,<user>,Hm? That one over there，covered with cloth...<br> 
 
-message,,<user>は店の奥にある、<br>大きな布をかけられた作品を示した。
+message,,Commander pointed to a large cloth-covered piece at the back of the<br>shop.<br> 
 
-message,<user>,ずいぶんと大きいが、あれも売りものなのか？
+message,<user>,It's pretty big—is that for sale too?<br> 
 
 window,off
 wait,0.15
@@ -396,7 +396,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,スティーラ,え、えっと、まだ制作途中で未完成なんですが……。 <br>見てもらえます、か？,105901000G,vc_10590100001_023_01,chara_1
+message,スティーラ,Um，it's still unfinished... but would you like to see it?<br> ,105901000G,vc_10590100001_023_01,chara_1
 
 window,off
 wait,0.15
@@ -424,7 +424,7 @@ screeneffect,BLOOM,on,0.08,0
 fade,In,White,1
 
 window,on,0.15
-message,,スティーラが布を取ると、 <br>太陽を模した金色の魔石細工が、夜の闇の中で穏やかな光を放った。
+message,,When Steela removed the cloth，a gold magic stone craft shaped like<br>the sun glowed softly in the night.<br> 
 
 window,off
 wait,0.15
@@ -438,9 +438,9 @@ asynccharamove,chara_1,Linear,Y,0,0.8,CONT,0
 asyncwait
 
 window,on,0.15
-message,<user>,これは……すごいな。 <br>丁寧な装飾も、使われた魔石の美しさも素晴らしい。
+message,<user>,This is... incredible. The detailed ornamentation and the beauty of<br>the magic stones are both exceptional.<br> 
 
-message,<user>,何より人に希望を与えるような力がある。 <br>まるで未来を照らす輝きだな……。
+message,<user>,Above all，it has the power to give people hope. It's like a light<br>shining into the future...<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -451,7 +451,7 @@ asyncseplay,setag1_21,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,スティーラ,つ……伝わりますか？　こ、これは、絶望に抗って戦う、<br>この前線基地の皆さんをイメージして作っているんです。,105901000G,vc_10590100001_024_01,chara_1
+message,スティーラ,Y-you can tell? I-I made this to represent everyone at this<br>Frontline Base fighting against despair.<br> ,105901000G,vc_10590100001_024_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -462,9 +462,9 @@ asyncseplay,setag1_22,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,スティーラ,ここで過ごすうちに、なんだかそういうイメージが湧いてきて……。<br>そ、それを形にしたいって思うようになって、それで……,105901000G,vc_10590100001_025_01,chara_1
+message,スティーラ,As I spent time here，that image just came to me... and I felt I<br>wanted to shape it into something，so...<br> ,105901000G,vc_10590100001_025_01,chara_1
 
-message,<user>,なるほど、誰かに依頼された商品ってわけじゃないのか。
+message,<user>,I see，so it wasn't commissioned by someone.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -475,9 +475,9 @@ asyncseplay,setag1_23,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,スティーラ,そ、そうですね。買う人……いるのかな……。<br>な、なんだか大きな作品になっちゃいましたし……,105901000G,vc_10590100001_026_01,chara_1
+message,スティーラ,Y-yes，that's right. I wonder if anyone will want to buy it... It<br>ended up being pretty big...<br> ,105901000G,vc_10590100001_026_01,chara_1
 
-message,<user>,なぁ、引き取り手が決まっていないなら、俺に譲ってくれないか。<br>これなら司令本部のインテリアに相応しい。
+message,<user>,Hey，if you don't have a buyer for it yet，can you let me have it?<br>This would be perfect for the Command HQ interior.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -488,9 +488,9 @@ asyncseplay,setag1_24,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,スティーラ,えっ……ええっ！？　司令本部！？<br>そ、そんな目立つところに飾られたら、ど、どうしよぉ……,105901000G,vc_10590100001_027_01,chara_1
+message,スティーラ,Huh? What?! Command HQ?! If it's put in such a noticeable place，I-I<br>wouldn't know what to do...<br> ,105901000G,vc_10590100001_027_01,chara_1
 
-message,<user>,ん？　何か不服か？
+message,<user>,Hm? Do you have a problem with that?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -501,9 +501,9 @@ asyncseplay,setag1_25,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,スティーラ,そ、そんなの……いっぱい色んな人に見られちゃうじゃないですかぁ……<br>な、なんか……恥ずかしいです……,105901000G,vc_10590100001_028_01,chara_1
+message,スティーラ,Th-that would mean... so many people would see it... I feel...<br>embarrassed...<br> ,105901000G,vc_10590100001_028_01,chara_1
 
-message,<user>,前線基地の人々をイメージして作ってるんだろ？<br>だからこそ、司令本部に飾らせてほしいんだ。
+message,<user>,You made it with the people of this Frontline Base in mind，right?<br>That's exactly why I want to have it displayed at Command HQ.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -522,9 +522,9 @@ asyncseplay,setag1_27,se4800017,0,1,STOP,5.6
 asynccharaemo,chara_1,Shock,STOP,5.6
 
 
-message,スティーラ,えっと……あれ？<br>ひょっとして……まさか、あなたは……,105901000G,vc_10590100001_029_01,chara_1
+message,スティーラ,Um... huh? Could it be... no way，you're...<br> ,105901000G,vc_10590100001_029_01,chara_1
 
-message,ブローチ,スティーラ様。<br>コチラノオ客様ハ、前線基地ノ司令官様デス。,900000003,vc_10590100001_030_01,
+message,ブローチ,LADY STEELA. THIS CUSTOMER IS THE LORD COMMANDER OF THE FRONTLINE<br>BASE.<br> ,900000003,vc_10590100001_030_01,
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -535,9 +535,9 @@ asyncseplay,setag1_28,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,スティーラ,はわわわわわわわっ！？　し、司令官様！？,105901000G,vc_10590100001_031_01,chara_1
+message,スティーラ,Eeek! L-Lord Commander!<br> ,105901000G,vc_10590100001_031_01,chara_1
 
-message,<user>,安心しろ、報酬はしっかり払うぞ。<br>俺の金じゃなく、基地の金だけどな。で、いくらで売ってくれるんだ？
+message,<user>,Don't worry，I'll pay you properly. Well，it's not my money，it's the<br>base's. So，how much will you sell it for?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -548,13 +548,13 @@ asyncseplay,setag1_29,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,スティーラ,え、えっと……ま、まだお値段なんて考えてなくて……<br>ど、どうしよう……,105901000G,vc_10590100001_032_01,chara_1
+message,スティーラ,U-um... I haven't thought about the price yet... Wh-what should I<br>do...<br> ,105901000G,vc_10590100001_032_01,chara_1
 
-message,<user>,とりあえず、手付金としてこれでどうだ？
+message,<user>,For now，how about this as a deposit?<br> 
 
 asyncseplay,setag1_30,se4400068,0,1,STOP,0
 
-message,,<user>は金貨のずっしり入った袋を<br>スティーラの目の前のテーブルに置く。
+message,,Commander placed a bag heavy with gold coins on the table before<br>Steela.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -565,9 +565,9 @@ asyncseplay,setag1_31,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,スティーラ,はわわっ！　こ、こんなに！？<br>い、いただけませんよ、こんな大金！,105901000G,vc_10590100001_033_01,chara_1
+message,スティーラ,Eeek! Th-this much! I-I can't accept such a huge amount!<br> ,105901000G,vc_10590100001_033_01,chara_1
 
-message,<user>,これは作品作りに集中してもらうための手付金としての半分だ。<br>作品が出来上がったらもう半分の料金を支払う。
+message,<user>,This is half as a deposit so you can focus on your work. When it's<br>finished，I'll pay the other half.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -578,11 +578,11 @@ asyncseplay,setag1_32,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,スティーラ,ひぃっ！？　これで半分！？<br>だ、ダメですよ、そんな無駄遣いは……,105901000G,vc_10590100001_034_01,chara_1
+message,スティーラ,Eep! This is half! Th-that's no good，such an extravagance...<br> ,105901000G,vc_10590100001_034_01,chara_1
 
-message,<user>,無駄遣いなんかじゃない。依頼してるのはこっちだ。<br>スティーラの作品には人の心を動かす力がある。
+message,<user>,It's not a waste. I'm the one making the request. Your works have<br>the power to move people.<br> 
 
-message,<user>,戦いに赴くものへ希望を与える作品。<br>前線基地の皆の象徴になる作品に対する報酬だ。
+message,<user>,It's a piece that gives hope to those heading into battle，and<br>compensation for a work that'll symbolize the Frontline Base.<br> 
 
 window,off
 wait,0.15
@@ -601,9 +601,9 @@ wait,0.5
 
 
 window,on,0.15
-message,スティーラ,ぜ、前線基地の皆さんの象徴になる作品……,105901000G,vc_10590100001_035_01,chara_1
+message,スティーラ,A symbol for everyone at the Frontline Base...<br> ,105901000G,vc_10590100001_035_01,chara_1
 
-message,<user>,ああ。だから、このくらいの報酬は受け取ってほしい。<br>完成を楽しみにしてるよ。
+message,<user>,Yeah. So I want you to accept this compensation. I'm looking forward<br>to its completion.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -614,9 +614,9 @@ asyncseplay,setag1_34,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,スティーラ,うぅ……け、結構なプレッシャーですけど……,105901000G,vc_10590100001_036_01,chara_1
+message,スティーラ,*whimper*... Th-that's quite a lot of pressure though...<br> ,105901000G,vc_10590100001_036_01,chara_1
 
-message,<user>,あ～、すまん。そんなつもりじゃなかったんだがな。<br>スティーラは、頭に浮かんだイメージをそのまま形にしてくれればそれでいい。
+message,<user>,Ah，sorry. I didn't mean it that way. Just shape the image in your<br>mind as is，that's fine.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -627,9 +627,9 @@ asyncseplay,setag1_35,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,スティーラ,は、はいっ！　わ、分かりました！<br>素敵な作品に仕上がるように……こ、心を込めてお作りいたします！,105901000G,vc_10590100001_037_01,chara_1
+message,スティーラ,Y-yes! I-I understand! I'll put my heart into it so that it turns<br>out to be a wonderful piece!<br> ,105901000G,vc_10590100001_037_01,chara_1
 
-message,<user>,ああ。作品の完成、楽しみにしてるぞ。<br>えーと、俺の部屋に飾る用のも１つ買って帰るかな……あとお土産用に……
+message,<user>,Yeah. I'm looking forward to its completion. Well，I think I'll buy<br>one to decorate my room too... and maybe one as a souvenir...<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -640,7 +640,7 @@ asyncseplay,setag1_36,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,スティーラ,はわわっ！　ま、まだ買うんですか！？,105901000G,vc_10590100001_038_01,chara_1
+message,スティーラ,Eeek! You're still buying more!<br> ,105901000G,vc_10590100001_038_01,chara_1
 
 window,off
 wait,0.15
@@ -676,7 +676,7 @@ asyncseplay,setag1_37,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 window,on,0.15
-message,,複数の魔石細工を購入して去っていった<user>。<br>その背中を見送り、スティーラは薄っすらと頬を染めて呟いた。
+message,,Commander purchased several magic stone crafts and left. Steela<br>watched him go，her cheeks faintly flushed，and murmured.<br> 
 
 window,off
 wait,0.15
@@ -718,7 +718,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,スティーラ,……司令官様って、なんか、もっと怖そうな人だと想像してたけど<br>……全然違ったね。,105901000G,vc_10590100001_039_01,chara_1
+message,スティーラ,I used to think you'd be much scarier，Lord Commander... but you were<br>completely different.<br> ,105901000G,vc_10590100001_039_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -729,9 +729,9 @@ asyncseplay,setag1_39,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,スティーラ,すごく、優しい人だった……,105901000G,vc_10590100001_040_01,chara_1
+message,スティーラ,He was so kind...<br> ,105901000G,vc_10590100001_040_01,chara_1
 
-message,ブローチ,ヨカッタデスネ、スティーラ様。,900000003,vc_10590100001_041_01,
+message,ブローチ,THAT IS GOOD，LADY STEELA.<br> ,900000003,vc_10590100001_041_01,
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -742,9 +742,9 @@ asyncseplay,setag1_40,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,スティーラ,うん……！　わたしの魔石細工……あんなに褒めてくれて……<br>嬉しかったな……,105901000G,vc_10590100001_042_01,chara_1
+message,スティーラ,Yeah...! He praised my magic stone craft so much... I was really<br>happy...<br> ,105901000G,vc_10590100001_042_01,chara_1
 
-message,,スティーラはふと、作成途中の魔石細工を見つめる。<br>その中心には、前線基地の人々を指揮する人間の姿が彫られていた。
+message,,Steela gazed at the unfinished magic stone craft. At its center was<br>carved the Commander of the Frontline Base.<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -753,9 +753,9 @@ asyncseplay,setag1_41,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,スティーラ,これ、前線基地の司令官様をイメージしたものだったんだけど……<br>フフッ、もうちょっと優しい顔に作り替えなきゃいけないね。,105901000G,vc_10590100001_043_01,chara_1
+message,スティーラ,This was modeled after the Lord Commander of the Frontline Base...<br>Fufu，I guess I need to recarve his face to be kinder.<br> ,105901000G,vc_10590100001_043_01,chara_1
 
-message,ブローチ,ソンナニ素敵ナ顔ダチデシタカ？<br>モシカシテ、一目ボレナサイマシタ？,900000003,vc_10590100001_044_01,
+message,ブローチ,WAS HIS FACE THAT WONDERFUL? PERHAPS YOU FELL IN LOVE AT FIRST<br>SIGHT?<br> ,900000003,vc_10590100001_044_01,
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -766,9 +766,9 @@ asyncseplay,setag1_42,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,スティーラ,ひ、一目惚れ！？　ちょ、ちょっと……な、何言ってるの！<br>そんなんじゃ……！,105901000G,vc_10590100001_045_01,chara_1
+message,スティーラ,L-Love at first sight! H-hold on... what are you saying! It's<br>nothing like that...!<br> ,105901000G,vc_10590100001_045_01,chara_1
 
-message,ブローチ,失礼シマシタ。司令官様ニツイテ語ッテル、スティーラ様ノ声ガ<br>ウレシソウダッタノデ、ツイ……,900000003,vc_10590100001_046_01,
+message,ブローチ,MY APOLOGIES，LADY STEELA. WHEN YOU SPOKE OF THE LORD COMMANDER，YOUR<br>VOICE SOUNDED SO HAPPY，I COULD NOT HELP IT...<br> ,900000003,vc_10590100001_046_01,
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -779,9 +779,9 @@ asyncseplay,setag1_43,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,スティーラ,もう、何言ってるの！<br>さてと、今日はお店閉じて、ご依頼された作品作りに集中しようかなぁ……,105901000G,vc_10590100001_047_01,chara_1
+message,スティーラ,Geez，what are you saying! Well then，I'm going to close up shop for<br>today and focus on the commissioned work...<br> ,105901000G,vc_10590100001_047_01,chara_1
 
-message,ブローチ,ソウシマショウ！<br>素敵ナ司令官様ノタメニ！,900000003,vc_10590100001_048_01,
+message,ブローチ,THAT IS A GOOD IDEA! FOR THE WONDERFUL LORD COMMANDER!<br> ,900000003,vc_10590100001_048_01,
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -800,7 +800,7 @@ asyncseplay,setag1_45,se4800012,0,1,STOP,5.14
 asynccharaemo,chara_1,Shy,STOP,5.14
 
 
-message,スティーラ,ちょ……ちょっと！　あんまりしつこいと怒るよっ！<br>ホ、ホントにそういうんじゃ……,105901000G,vc_10590100001_049_01,chara_1
+message,スティーラ,H-hey! If you keep teasing me，I'll get mad! I-it's really not like<br>that...<br> ,105901000G,vc_10590100001_049_01,chara_1
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -842,9 +842,9 @@ asyncwait,subimage_0_2
 
 fade,In,Black,1
 
-messageTextUnder,,数日後、スティーラの完成させた魔石細工のインテリアは、<br>司令本部の入り口の一番人目のつくとこに飾られることとなった。,,,on
+messageTextUnder,,A few days later，the finished magic stone craft was placed at Command HQ's entrance，right where everyone would see it.,,,on
 
-messageTextUnder,,その華麗な作品は、司令本部を訪れた前線基地の人々の目に止まり、<br>前線基地の象徴の１つとして多くの人々に賞賛されることとなる――,,,on
+messageTextUnder,,The splendid piece caught the eyes of Frontline Base personnel visiting Command HQ and was later praised as one of the base's symbols.,,,on
 
 window,off
 bgmstop,bgmtag1_1,0.5

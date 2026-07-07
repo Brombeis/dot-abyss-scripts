@@ -14,7 +14,7 @@ title,
 wait,1
 
 window,on,0.15
-message,ウィステリア,――止まれ。,101601000G
+message,ウィステリア,...Stop.<br> ,101601000G
 
 window,off
 wait,0.15
@@ -39,7 +39,7 @@ asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,ウィステリア,仮にも前線基地を預かる司令官がこんなところで何をしている？<br>なに？　散歩だと？,101601000G,,chara_1
+message,ウィステリア,Commander of the Frontline Base. What are you doing here? A walk?<br> ,101601000G,,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -50,7 +50,7 @@ asyncseplay,setag1_2,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ウィステリア,はぁ……戦場ではないからといって気を抜きすぎだ。<br>私が刺客であればとうに射られているぞ。,101601000G,,chara_1
+message,ウィステリア,*pant*... Not a battlefield. Don't be so careless. If I were an<br>assassin，you'd be shot.<br> ,101601000G,,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -61,14 +61,14 @@ asyncseplay,setag1_3,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ウィステリア,きみが倒れれば基地全体の士気に関わる。<br>まったく……護衛する方の身になってほしいものだ。,101601000G,,chara_1
+message,ウィステリア,If you fall，the base's morale suffers. Think of us.<br> ,101601000G,,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,ウィステリア,とにかく、司令官としての自覚を持つように。<br>いいな？,101601000G,,chara_1
+message,ウィステリア,Anyway，act like the Commander. Got it?<br> ,101601000G,,chara_1
 
 
 window,off,0.15

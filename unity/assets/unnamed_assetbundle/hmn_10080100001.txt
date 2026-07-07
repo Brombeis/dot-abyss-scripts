@@ -349,7 +349,7 @@ asyncseplay,setag1_16,se4800003,0,1,CONT,0
 asynccharaemo,chara_3,Twinkle,CONT,0
 
 
-message,ベリサ,Obviously~?<br>The brilliant mage Verisa-chan was in high demand!<br> ,100201000G,vc_10080100001_015_01,chara_3
+message,ベリサ,Obviously! The brilliant mage Verisa was in high demand，after all!<br> ,100201000G,vc_10080100001_015_01,chara_3
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -360,9 +360,9 @@ asyncseplay,setag1_17,se4800015,0,1,CONT,0
 asynccharaemo,chara_3,Dull,CONT,0
 
 
-message,ベリサ,...Though my little sister got called on more than me.<br> ,100201000G,vc_10080100001_016_01,chara_3
+message,ベリサ,...My little sister got more assignments than me，though.<br> ,100201000G,vc_10080100001_016_01,chara_3
 
-message,<user>,Oh，you have a sister?<br>And she outclassed you in skill，I take it.<br> 
+message,<user>,Oh，you have a little sister. So she's been outshining you，then?<br> 
 
 asynccharaface,chara_3,FaceShy,CONT,0
 
@@ -373,9 +373,9 @@ asyncseplay,setag1_18,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,ベリサ,That's not true at all，okay?<br>By Perdion's standards，she's just a teensy bit higher rated.<br> ,100201000G,vc_10080100001_017_01,chara_3
+message,ベリサ,That's not true! It's just that by Perdion's standards，she's rated a<br>teeeeny bit higher than me.<br> ,100201000G,vc_10080100001_017_01,chara_3
 
-message,<user>,...Doesn't that just mean she's better than you as a mage?<br> 
+message,<user>,...So that means you're just plain losing to her as a mage，doesn't<br>it?<br> 
 
 asynccharaface,chara_3,FaceAnger,CONT,0
 
@@ -386,7 +386,7 @@ asyncseplay,setag1_19,se4800010,0,1,CONT,0
 asynccharaemo,chara_3,Exclamation,CONT,0
 
 
-message,ベリサ,Wow~. You'd really say that，Onii-san~?<br> ,100201000G,vc_10080100001_018_01,chara_3
+message,ベリサ,Ugh. So that's the kind of thing you say，Mister?<br> ,100201000G,vc_10080100001_018_01,chara_3
 
 window,off
 wait,0.15
@@ -404,7 +404,7 @@ asynccharaemo,chara_3,Elated,CONT,0
 
 
 window,on,0.15
-message,ベリサ,Look，that girl has always been——<br> ,100201000G,vc_10080100001_019_01,chara_3
+message,ベリサ,Look，my sister's always been—<br> ,100201000G,vc_10080100001_019_01,chara_3
 
 bgmstop,bgmtag1_1,1,0
 
@@ -450,13 +450,13 @@ asynccharamove,chara_1,EaseOut,X,-100,0.3,CONT,0
 asyncwait
 
 window,on,0.15
-message,,——BANG!<br>The door flew open and a robed woman strode into the command room.<br> 
+message,,With a loud bang，the door burst open，and a robed woman stepped into<br>the command room.<br> 
 
 bgmplay,bgmtag1_2,bgm0036,0.75,1
 
-message,<user>,Who are you!?<br> 
+message,<user>,Who are you?<br> 
 
-message,<user>,I don't recognize you.<br>That outfit... you look like a Perdion mage.<br> 
+message,<user>,Never seen you before. That outfit... you're a mage from<br>Perdion，aren't you?<br> 
 
 window,off
 wait,0.15
@@ -498,9 +498,9 @@ asynccharaemo,chara_3,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ベリサ,Y-you...!<br>What are you doing here!?<br> ,100201000G,vc_10080100001_020_01,chara_3
+message,ベリサ,Y-you! What are you doing here?<br> ,100201000G,vc_10080100001_020_01,chara_3
 
-message,<user>,Someone you know，Verisa?<br> 
+message,<user>,A friend of yours，Verisa?<br> 
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -511,7 +511,7 @@ asyncseplay,setag1_23,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,ベリサ,K-know her? She's not just...<br> ,100201000G,vc_10080100001_021_01,chara_3
+message,ベリサ,F-friend? That's not even...<br> ,100201000G,vc_10080100001_021_01,chara_3
 
 window,off
 wait,0.15
@@ -573,9 +573,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,？？？,...It's been a while，Onee-chan.<br> ,100801000G,vc_10080100001_022_01,chara_1
+message,？？？,...Long time no see，Sis.<br> ,100801000G,vc_10080100001_022_01,chara_1
 
-message,<user>,Onee-chan...?<br> 
+message,<user>,Sis...? Did I hear that right...?<br> 
 
 window,off
 wait,0.15
@@ -594,7 +594,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ベリサ,Veera!?<br>What are you doing in a place like this...!<br> ,100201000G,vc_10080100001_023_01,chara_3
+message,ベリサ,Veera! Why are you here...!<br> ,100201000G,vc_10080100001_023_01,chara_3
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -605,7 +605,7 @@ asyncseplay,setag1_26,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヴィーラ,I volunteered for reinforcements from Perdion.<br>I thought I might get to see you，Onee-chan.<br> ,100801000G,vc_10080100001_024_01,chara_1
+message,ヴィーラ,I volunteered to join the reinforcements from Perdion. I thought I'd<br>get to see Sis if I came here.<br> ,100801000G,vc_10080100001_024_01,chara_1
 
 window,off
 wait,0.15
@@ -657,7 +657,7 @@ asynccharaemo,chara_3,Panic,STOP,1.4
 
 
 window,on,0.15
-message,ベリサ,Reinforcements...!?<br>H-hold on，come over here!<br> ,100201000G,vc_10080100001_025_01,chara_3
+message,ベリサ,Reinforcements! H-hey，come here a second!<br> ,100201000G,vc_10080100001_025_01,chara_3
 
 window,off
 wait,0.15
@@ -720,7 +720,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,Huh，Onee-chan?<br> ,100801000G,vc_10080100001_026_01,chara_1
+message,ヴィーラ,Huh? Sis?<br> ,100801000G,vc_10080100001_026_01,chara_1
 
 window,off
 wait,0.15
@@ -804,7 +804,7 @@ charaMask,chara_1,550,1536,0
 transitionFade,Tra01,in,black,1
 
 window,on,0.15
-message,,Verisa grabbed Veera's hand<br>and pulled her to the corner of the command room.<br> 
+message,,Verisa took Veera by the hand and led her to a corner of the command<br>room.<br> 
 
 asyncjump,CHARA,chara_3,30,0.25,1,off,0,CONT
 
@@ -813,7 +813,7 @@ asyncseplay,setag1_30,se4800001,0,1,CONT,0
 asynccharaemo,chara_3,Anger,CONT,0
 
 
-message,ベリサ,Veera，why did you come here?<br>You know how dangerous this place is，right?<br> ,100201000G,vc_10080100001_027_01,chara_3
+message,ベリサ,Veera，why are you here? You know this place is dangerous，don't you?<br> ,100201000G,vc_10080100001_027_01,chara_3
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -824,7 +824,7 @@ asyncseplay,setag1_31,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ヴィーラ,Yes. Because it's dangerous，<br>I thought you must be struggling，Onee-chan.<br> ,100801000G,vc_10080100001_028_01,chara_1
+message,ヴィーラ,Yeah. Because it's dangerous，I thought Sis must be having a hard<br>time.<br> ,100801000G,vc_10080100001_028_01,chara_1
 
 asynccharaface,chara_3,FaceShy,CONT,0
 
@@ -835,7 +835,7 @@ asyncseplay,setag1_32,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,ベリサ,I-I'm not struggling at all!<br>There haven't been any problems whatsoever!<br> ,100201000G,vc_10080100001_029_01,chara_3
+message,ベリサ,Wh—I'm not having any trouble at all! Nothing's been going wrong!<br> ,100201000G,vc_10080100001_029_01,chara_3
 
 window,off
 wait,0.15
@@ -855,7 +855,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヴィーラ,...Really?<br> ,100801000G,vc_10080100001_030_01,chara_1
+message,ヴィーラ,Really?<br> ,100801000G,vc_10080100001_030_01,chara_1
 
 asynccharaface,chara_3,FaceUnique02,CONT,0
 
@@ -866,7 +866,7 @@ asyncseplay,setag1_34,se4800019,0,1,CONT,0
 asynccharaemo,chara_3,Elated,CONT,0
 
 
-message,ベリサ,Of course! With my magic，<br>even the Abyss's huge monsters turn to ash like it's nothing!<br> ,100201000G,vc_10080100001_031_01,chara_3
+message,ベリサ,Of course! With my magic，even the huge monsters in the Abyss are<br>toast in no time!<br> ,100201000G,vc_10080100001_031_01,chara_3
 
 window,off
 wait,0.15
@@ -881,9 +881,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(So this Veera is apparently Verisa's sister...<br>Turning monsters to ash easily? That's a bold claim...)<br> 
+message,<user>,(So that's Veera—Verisa's little sister? Verisa's really talking<br>big，saying she can turn monsters to ash like it's nothing...)<br> 
 
-message,<user>,(But Veera is a renowned mage even in Perdion，right?<br>Surely she'd realize Verisa can't use magic that powerful...)<br> 
+message,<user>,(But Veera's a famous mage even in Perdion，isn't she? You'd think<br>she'd realize right away that Verisa can't use magic like that...)<br> 
 
 window,off
 wait,0.15
@@ -931,7 +931,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,Right，monsters are no match for you，Onee-chan.<br> ,100801000G,vc_10080100001_032_01,chara_1
+message,ヴィーラ,Uh-huh，monsters wouldn't stand a chance against Sis.<br> ,100801000G,vc_10080100001_032_01,chara_1
 
 window,off
 wait,0.15
@@ -946,7 +946,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(...Huh? This isn't going the way I expected?)<br> 
+message,<user>,(Huh? That's not going the way I expected...)<br> 
 
 window,off
 wait,0.15
@@ -970,7 +970,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,Because you're so amazing，Onee-chan，I'm sure<br>you've been going through a lot to help everyone，right?<br> ,100801000G,vc_10080100001_033_01,chara_1
+message,ヴィーラ,Sis is incredible，so you must be having a really tough time helping<br>everyone.<br> ,100801000G,vc_10080100001_033_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -981,7 +981,7 @@ asyncseplay,setag1_37,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ヴィーラ,Monsters only you can defeat，Onee-chan，<br>crises that need powerful magic to handle... there are many，right?<br> ,100801000G,vc_10080100001_034_01,chara_1
+message,ヴィーラ,There are monsters only you can beat，crises that only powerful magic<br>can handle... Plenty of them，right?<br> ,100801000G,vc_10080100001_034_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -992,7 +992,7 @@ asyncseplay,setag1_38,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ヴィーラ,It must be so hard on your own，Onee-chan.<br>That's why I came to help.<br> ,100801000G,vc_10080100001_035_01,chara_1
+message,ヴィーラ,It must be too much for just you. That's why I came to help.<br> ,100801000G,vc_10080100001_035_01,chara_1
 
 window,off
 wait,0.15
@@ -1046,7 +1046,7 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 
 window,on,0.15
-message,ベリサ,Ah... ngh... ghhh...!<br> ,100201000G,vc_10080100001_036_01,chara_3
+message,ベリサ,Ngh...!<br> ,100201000G,vc_10080100001_036_01,chara_3
 
 window,off
 wait,0.15
@@ -1061,7 +1061,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(Verisa's face is an absolute mess right now...!<br>It's a cocktail of joy and sheer awkwardness!)<br> 
+message,<user>,(Verisa has a really complicated look on her face! It's a mix of<br>happiness and awkwardness!)<br> 
 
 window,off
 wait,0.15
@@ -1095,7 +1095,7 @@ asynccharaemo,chara_3,Elated,CONT,0
 
 
 window,on,0.15
-message,ベリサ,A-as expected of my little sister，you get it~!<br>Verisa-chan is being relied on left and right，so busy~♪<br> ,100201000G,vc_10080100001_037_01,chara_3
+message,ベリサ,See? That's my little sis—you really get it! Your big sis Verisa is<br>way too in demand，you know!♪<br> ,100201000G,vc_10080100001_037_01,chara_3
 
 window,off
 wait,0.15
@@ -1110,7 +1110,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(She's rolling with it!<br>She's embellishing way too much!)<br> 
+message,<user>,(She totally ran with it! She's laying it on way too thick!)<br> 
 
 window,off
 wait,0.15
@@ -1132,7 +1132,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,I knew it.<br>That's Onee-chan for you.<br> ,100801000G,vc_10080100001_038_01,chara_1
+message,ヴィーラ,Just as I thought. That's Sis for you.<br> ,100801000G,vc_10080100001_038_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1143,7 +1143,7 @@ asyncseplay,setag1_43,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヴィーラ,From now on，I'll be here to help too，<br>so don't worry.<br> ,100801000G,vc_10080100001_039_01,chara_1
+message,ヴィーラ,From now on，I'll be here to help too，so you can count on me.<br> ,100801000G,vc_10080100001_039_01,chara_1
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -1154,7 +1154,7 @@ asyncseplay,setag1_44,se4800006,0,1,CONT,0
 asynccharaemo,chara_3,Trouble,CONT,0
 
 
-message,ベリサ,Y-yeah... right，Veera is reliable，but...<br> ,100201000G,vc_10080100001_040_01,chara_3
+message,ベリサ,Y-yeah... I guess you are reliable，Veera，but...<br> ,100201000G,vc_10080100001_040_01,chara_3
 
 window,off
 wait,0.15
@@ -1203,7 +1203,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,...Uh，Verisa?<br>If you two are done，mind introducing us?<br> 
+message,<user>,Uh，Verisa? Since that's settled，mind introducing me?<br> 
 
 asynccharaface,chara_3,FaceSurprise,CONT,0
 
@@ -1214,7 +1214,7 @@ asyncseplay,setag1_45,se4800022,0,1,CONT,0
 asynccharaemo,chara_3,Speak,CONT,0
 
 
-message,ベリサ,Oh，sorry sorry~<br> ,100201000G,vc_10080100001_041_01,chara_3
+message,ベリサ,Ah，sorry，sorry.<br> ,100201000G,vc_10080100001_041_01,chara_3
 
 window,off
 wait,0.15
@@ -1270,7 +1270,7 @@ asynccharaemo,chara_3,Spirits,CONT,0
 
 
 window,on,0.15
-message,ベリサ,This is my little sister Veera，who I mentioned earlier.<br>She's a mage just as talented as me，so be nice to her♪<br> ,100201000G,vc_10080100001_042_01,chara_3
+message,ベリサ,Oh，this is my sister Veera I mentioned. She's a mage just as amazing<br>as me，so treat her well，okay!♪<br> ,100201000G,vc_10080100001_042_01,chara_3
 
 window,off
 wait,0.15
@@ -1319,7 +1319,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,I apologize for the late introduction.<br>I'm Veera，dispatched from Perdion.<br> ,100801000G,vc_10080100001_043_01,chara_1
+message,ヴィーラ,My apologies for the belated introduction. I am Veera，sent here from<br>Perdion.<br> ,100801000G,vc_10080100001_043_01,chara_1
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -1328,9 +1328,9 @@ asyncseplay,setag1_48,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ヴィーラ,You must be Commander...sama?<br> ,100801000G,vc_10080100001_044_01,chara_1
+message,ヴィーラ,So you're... Lord Commander?<br> ,100801000G,vc_10080100001_044_01,chara_1
 
-message,<user>,Yeah，I’m %user%，the commander.<br> 
+message,<user>,Yeah，I'm Commander %user%.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1341,7 +1341,7 @@ asyncseplay,setag1_49,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ヴィーラ,Yes，it is a pleasure to meet you.<br> ,100801000G,vc_10080100001_045_01,chara_1
+message,ヴィーラ,Yes，it's a pleasure to meet you.<br> ,100801000G,vc_10080100001_045_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1352,9 +1352,9 @@ asyncseplay,setag1_50,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ヴィーラ,...Hehe.<br> ,100801000G,vc_10080100001_046_01,chara_1
+message,ヴィーラ,... Fufu.<br> ,100801000G,vc_10080100001_046_01,chara_1
 
-message,<user>,Hm? What is it? Something funny?<br> 
+message,<user>,Hm? What is it? What's so funny?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1365,7 +1365,7 @@ asyncseplay,setag1_51,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヴィーラ,As I thought，this base is led by Commander-sama<br>and Onee-chan.<br> ,100801000G,vc_10080100001_047_01,chara_1
+message,ヴィーラ,As I thought，the leaders of this base are Lord Commander and Sis.<br> ,100801000G,vc_10080100001_047_01,chara_1
 
 window,off
 wait,0.15
@@ -1419,7 +1419,7 @@ asynccharaemo,chara_3,Shock,CONT,0
 
 
 window,on,0.15
-message,ベリサ,Huh!?<br>V-Veera? What made you think that?<br> ,100201000G,vc_10080100001_048_01,chara_3
+message,ベリサ,Wha?! V-Veera? Why would you think that?<br> ,100201000G,vc_10080100001_048_01,chara_3
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1430,7 +1430,7 @@ asyncseplay,setag1_53,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヴィーラ,Well，the ones in the forward base's command room<br>were Commander-sama and Onee-chan.<br> ,100801000G,vc_10080100001_049_01,chara_1
+message,ヴィーラ,Because it was you and Lord Commander in the command room of the<br>Frontline Base.<br> ,100801000G,vc_10080100001_049_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1441,7 +1441,7 @@ asyncseplay,setag1_54,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ヴィーラ,You were discussing future operations<br>as key members of this base，right?<br> ,100801000G,vc_10080100001_050_01,chara_1
+message,ヴィーラ,You're the key members of this base，so you were discussing future<br>operations，right?<br> ,100801000G,vc_10080100001_050_01,chara_1
 
 asynccharaface,chara_3,FaceShy,CONT,0
 
@@ -1452,9 +1452,9 @@ asyncseplay,setag1_55,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,ベリサ,W-well... ugh...<br>We were just slacking off and eating sweets in there...<br> ,100201000G,vc_10080100001_051_01,chara_3
+message,ベリサ,W-Well... ugh... I was just using it to slack off and eat snacks...<br> ,100201000G,vc_10080100001_051_01,chara_3
 
-message,<user>,Well，Verisa being a key member is certainly true.<br> 
+message,<user>,Yeah，there's no doubt Verisa is a key member.<br> 
 
 asynccharaface,chara_3,FaceSurprise,CONT,0
 
@@ -1465,7 +1465,7 @@ asyncseplay,setag1_56,se4800017,0,1,CONT,0
 asynccharaemo,chara_3,Shock,CONT,0
 
 
-message,ベリサ,O-Onii-san!?<br> ,100201000G,vc_10080100001_052_01,chara_3
+message,ベリサ,M-Mister?!<br> ,100201000G,vc_10080100001_052_01,chara_3
 
 window,off
 wait,0.15
@@ -1513,11 +1513,11 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,I knew it.<br>Is Onee-chan dependable?<br> ,100801000G,vc_10080100001_053_01,chara_1
+message,ヴィーラ,As I thought. Sis is dependable，right?<br> ,100801000G,vc_10080100001_053_01,chara_1
 
-message,<user>,Indeed. She has extensive knowledge of magic，<br>and she's more caring than she looks.<br> 
+message,<user>,Yes，she's highly knowledgeable in magic，and she's actually quite<br>caring.<br> 
 
-message,<user>,Having her on the team really bolsters our stability.<br>She's what you'd call an invaluable asset.<br> 
+message,<user>,Having her in the squad really boosts its stability. She's what<br>you'd call valuable personnel.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1528,7 +1528,7 @@ asyncseplay,setag1_58,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ヴィーラ,You truly understand Onee-chan's worth...<br>As expected of you，Commander-sama.<br> ,100801000G,vc_10080100001_054_01,chara_1
+message,ヴィーラ,You really understand Sis's worth... As expected of Lord Commander.<br> ,100801000G,vc_10080100001_054_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1539,9 +1539,9 @@ asyncseplay,setag1_59,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヴィーラ,I'm so glad... I feel I can follow your lead.<br> ,100801000G,vc_10080100001_055_01,chara_1
+message,ヴィーラ,I'm truly relieved... I can trust you to lead.<br> ,100801000G,vc_10080100001_055_01,chara_1
 
-message,<user>,Haha! This base can't afford to let<br>a capable mage slack off!<br> 
+message,<user>,Haha，there's no way we can afford to let a talented mage like you<br>slack off! Not at this base!<br> 
 
 window,off
 wait,0.15
@@ -1595,9 +1595,9 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,ベリサ,Just because Veera's here，you're getting cocky...<br>Who do you think you are，Onii-san...!<br> ,100201000G,vc_10080100001_056_01,chara_3
+message,ベリサ,Just because Veera's here，you're getting cocky...<br>How cheeky of you，Mister!<br> ,100201000G,vc_10080100001_056_01,chara_3
 
-message,<user>,No，I mean it.<br>There's no one who could replace you.<br> 
+message,<user>,No，I'm being serious here.<br>There's no substitute for you.<br> 
 
 asynccharaface,chara_3,FaceShy,CONT,0
 
@@ -1608,7 +1608,7 @@ asyncseplay,setag1_61,se4800012,0,1,CONT,0
 asynccharaemo,chara_3,Shy,CONT,0
 
 
-message,ベリサ,...!? ...Jeez...<br>Don't say weird compliments at a time like this...<br> ,100201000G,vc_10080100001_057_01,chara_3
+message,ベリサ,Agh! ...Geez...<br>Don't give me weird compliments at a time like this...<br> ,100201000G,vc_10080100001_057_01,chara_3
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -1617,9 +1617,9 @@ asyncseplay,setag1_62,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ヴィーラ,...Commander-sama，you're close with Onee-chan，aren't you?<br> ,100801000G,vc_10080100001_058_01,chara_1
+message,ヴィーラ,...Lord Commander，you're close with my big sister，aren't you?<br> ,100801000G,vc_10080100001_058_01,chara_1
 
-message,<user>,Sure，you could call her my one and only partner.<br> 
+message,<user>,Yeah，I'd say she's my one and only partner.<br> 
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -1630,7 +1630,7 @@ asyncseplay,setag1_63,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,ベリサ,That is seriously way too much~!<br> ,100201000G,vc_10080100001_059_01,chara_3
+message,ベリサ,You're really exaggerating there!<br> ,100201000G,vc_10080100001_059_01,chara_3
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1641,9 +1641,9 @@ asyncseplay,setag1_64,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ヴィーラ,Hehe... you two really are close.<br>It's rare for Onee-chan to let her guard down like this...<br> ,100801000G,vc_10080100001_060_01,chara_1
+message,ヴィーラ,Fufu... you really are close.<br>It's rare for my big sister to let her guard down this much...<br> ,100801000G,vc_10080100001_060_01,chara_1
 
-message,<user>,I'd love to get along with you too，Veera.<br> 
+message,<user>,I'd like to get close to you too，Veera.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1654,7 +1654,7 @@ asyncseplay,setag1_65,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヴィーラ,Yes. If you're close with Onee-chan，you're most welcome.<br> ,100801000G,vc_10080100001_061_01,chara_1
+message,ヴィーラ,Yes，Lord Commander. I welcome you，since you're close with my big<br>sister.<br> ,100801000G,vc_10080100001_061_01,chara_1
 
 asynccharaface,chara_3,FaceAnger,CONT,0
 
@@ -1665,9 +1665,9 @@ asyncseplay,setag1_66,se4800010,0,1,CONT,0
 asynccharaemo,chara_3,Exclamation,CONT,0
 
 
-message,ベリサ,Hey，Onii-san!<br>Don't go ogling Veera just because she's cute，okay?<br> ,100201000G,vc_10080100001_062_01,chara_3
+message,ベリサ,Ah，Mister!<br>Don't look at her with weird eyes just because she's cute!<br> ,100201000G,vc_10080100001_062_01,chara_3
 
-message,<user>,Haha! You always call me Onii-san，so to return the favor，<br>how about I call you my dear sister-in-law?<br> 
+message,<user>,Haha，as payback for always calling me Mister，<br>I could call you Big Sis，you know?<br> 
 
 window,off
 wait,0.15
@@ -1717,9 +1717,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ベリサ,Ahaha... hey，Onii-san?<br>That joke... isn't... very... funny~~~?<br> ,100201000G,vc_10080100001_063_01,chara_3
+message,ベリサ,Ahaha... Hey，Mister?<br>That joke is... not funny... at all，now is it?<br> ,100201000G,vc_10080100001_063_01,chara_3
 
-message,<user>,...I'll never say it again，<br>so could you please stop radiating murderous intent...<br> 
+message,<user>,...I won't say it again，so I'd appreciate it if you'd stop directing<br>that murderous intent at me.<br> 
 
 window,off
 wait,0.15
@@ -1773,7 +1773,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,...Hehe. I'm glad Onee-chan seems to be doing well.<br> ,100801000G,vc_10080100001_064_01,chara_1
+message,ヴィーラ,...Fufu. I'm glad to see my big sister seems to be doing well.<br> ,100801000G,vc_10080100001_064_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1782,7 +1782,7 @@ asyncseplay,setag1_69,se4800022,0,1,CONT,0
 
 asynccharaemo,chara_1,Speak,CONT,0
 
-message,<user>,So，Veera.<br>What brings you to this base?<br> 
+message,<user>,So，Veera. What's your reason for coming to this base?<br> 
 
 window,off
 wait,0.15
@@ -1830,7 +1830,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,To fight alongside everyone，of course.<br> ,100801000G,vc_10080100001_065_01,chara_1
+message,ヴィーラ,Of course，to fight alongside everyone.<br> ,100801000G,vc_10080100001_065_01,chara_1
 
 window,off
 wait,0.15
@@ -1850,7 +1850,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヴィーラ,For the world's sake，yes，but...<br>I came to this base because I wanted to work with Onee-chan.<br> ,100801000G,vc_10080100001_066_01,chara_1
+message,ヴィーラ,Partly for the sake of the world，but... I came to this base because<br>I wanted to work together with my big sister.<br> ,100801000G,vc_10080100001_066_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1861,7 +1861,7 @@ asyncseplay,setag1_72,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヴィーラ,Please，let me join the fight here...<br>Could I be assigned to the same missions as Onee-chan?<br> ,100801000G,vc_10080100001_067_01,chara_1
+message,ヴィーラ,Please，in the battles here...<br>could you let me participate in the same missions as my big sister?<br> ,100801000G,vc_10080100001_067_01,chara_1
 
 window,off
 wait,0.15
@@ -1915,7 +1915,7 @@ asynccharaemo,chara_3,Shock,CONT,0
 
 
 window,on,0.15
-message,ベリサ,Wh-whaat!?<br>The same mission as me，just like that...? Will she be okay?<br> ,100201000G,vc_10080100001_068_01,chara_3
+message,ベリサ,Huh? W-what?!<br>Suddenly，the same missions as me... Is that really okay?<br> ,100201000G,vc_10080100001_068_01,chara_3
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1926,9 +1926,9 @@ asyncseplay,setag1_74,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ヴィーラ,I'll be fine. I promise I'll prove myself.<br> ,100801000G,vc_10080100001_069_01,chara_1
+message,ヴィーラ,I'll be fine. I'll definitely prove myself.<br> ,100801000G,vc_10080100001_069_01,chara_1
 
-message,<user>,Hmm... let's see...<br> 
+message,<user>,Hmm... you're right...<br> 
 
 window,off
 wait,0.15
@@ -1976,9 +1976,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(...Calm demeanor，confident bearing.<br>You can tell she's a skilled mage.)<br> 
+message,<user>,(...Her calm demeanor and confident attitude. I can tell she's a<br>skilled mage.)<br> 
 
-message,<user>,(But for all that，something about her feels childish.<br>Her oddly high opinion of Verisa，that fixation...)<br> 
+message,<user>,(But still，there's something childlike about her. The way she<br>overestimates Verisa and seems oddly fixated on her.)<br> 
 
 window,off
 wait,0.15
@@ -1993,7 +1993,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,Perfect timing，then. All right.<br>Veera，you'll join the mission I'd already planned for Verisa.<br> 
+message,<user>,Perfect timing，then. Alright. I'll have Veera join the mission I was<br>going to take Verisa on.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -2004,7 +2004,7 @@ asyncseplay,setag1_75,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ヴィーラ,Really?<br>I'm so happy...!<br> ,100801000G,vc_10080100001_070_01,chara_1
+message,ヴィーラ,Really? I'm so glad...!<br> ,100801000G,vc_10080100001_070_01,chara_1
 
 window,off
 wait,0.15
@@ -2058,9 +2058,9 @@ asynccharaemo,chara_3,Shock,CONT,0
 
 
 window,on,0.15
-message,ベリサ,Whaaaat!?<br>Onii-san，are you serious...?<br> ,100201000G,vc_10080100001_071_01,chara_3
+message,ベリサ,Ehhh!? Mister，are you for real...?<br> ,100201000G,vc_10080100001_071_01,chara_3
 
-message,<user>,I know you're worried about your sister，but it's an<br>escort mission for a transport unit. Not that dangerous.<br> 
+message,<user>,I get that you're worried about your sister，but it's just a<br>transport escort mission. It's not that dangerous.<br> 
 
 asynccharaface,chara_3,EyeOpen,CONT,0
 asynccharaface,chara_3,FaceNormal,CONT,0
@@ -2072,7 +2072,7 @@ asyncseplay,setag1_77,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,ベリサ,It's not that I'm worried，okay?<br>But... I never expected to be working with Veera...<br> ,100201000G,vc_10080100001_072_01,chara_3
+message,ベリサ,It's not like I'm worried or anything! But... I never imagined I'd<br>be working together with Veera...<br> ,100201000G,vc_10080100001_072_01,chara_3
 
 window,off
 bgmstop,bgmtag1_2,0.5

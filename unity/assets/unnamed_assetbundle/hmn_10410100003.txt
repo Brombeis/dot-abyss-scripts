@@ -61,7 +61,7 @@ asynccharaemo,chara_2,Anger,CONT,0
 
 
 window,on,0.15
-message,モンスター,グオオォォーーー！！,402001000,,chara_2
+message,モンスター,groooaaar!<br> ,402001000,,chara_2
 
 window,off
 wait,0.15
@@ -97,7 +97,7 @@ asynccharaemo,chara_3,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,倉庫警備の兵士,うわ、うわあああああ！,401201000,,chara_3
+message,倉庫警備の兵士,Wha，aaaaaaah!<br> ,401201000,,chara_3
 
 
 window,off
@@ -157,7 +157,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,アヤメ,失礼いたしますね。,104101000G,vc_10410100003_001_01,chara_1
+message,アヤメ,Pardon me.<br> ,104101000G,vc_10410100003_001_01,chara_1
 
 window,off
 wait,0.15
@@ -178,7 +178,7 @@ asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_5,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,,――ダアァーーン！！
+message,,bang!<br> 
 
 window,off
 wait,0.15
@@ -231,7 +231,7 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,モンスター,グギャアァァーー……,402001000,,chara_2
+message,モンスター,gyaaaaaa...<br> ,402001000,,chara_2
 
 
 window,off
@@ -304,7 +304,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,アヤメ,うふふ、誘導と囮のお仕事、<br>ご苦労さまです。,104101000G,vc_10410100003_002_01,chara_1
+message,アヤメ,Ufufu. Thank you for your hard work with the decoy and diversion.<br> ,104101000G,vc_10410100003_002_01,chara_1
 
 window,off
 wait,0.15
@@ -359,7 +359,7 @@ linework,on,Black,Middle
 
 
 window,on,0.15
-message,モンスターたち,グオオォォーーー！！,402001000,,chara_2/chara_5/chara_4
+message,モンスターたち,groooaaar!<br> ,402001000,,chara_2/chara_5/chara_4
 
 window,off
 wait,0.15
@@ -409,7 +409,7 @@ asynccharaemo,chara_3,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,倉庫警備の兵士,嫌だ、死にたくない、死にたくないっ！,401201000,,chara_3
+message,倉庫警備の兵士,No，I don't want to die，I don't want to die!<br> ,401201000,,chara_3
 
 window,off
 wait,0.15
@@ -512,7 +512,7 @@ asyncprefabshowUI,uieffect_2,ON,CONT,0
 wait,1.5
 
 window,on,0.15
-message,,――ダアァーーン！　ダアァーーン！　ダアァーーン！
+message,,bang! bang! bang!<br> 
 
 window,off
 wait,0.15
@@ -545,7 +545,7 @@ asynccharaemo,chara_5,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,モンスターたち,グギャアァァーー……,402001000,,chara_2/chara_4/chara_5
+message,モンスターたち,gyaaaaaa...<br> ,402001000,,chara_2/chara_4/chara_5
 
 window,off
 wait,0.15
@@ -603,7 +603,7 @@ transitionFade,Tra09,in,black,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――数時間後</size>,,,on
+messageTextCenter,,<size=48>—A few hours later.</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -646,9 +646,9 @@ asynccharaemo,chara_3,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,倉庫警備の兵士,あ、ああ……、<br>生きてる、俺は生きてるんだ……,401201000,,chara_3
+message,倉庫警備の兵士,Ah，ah... I'm alive，I'm alive...<br> ,401201000,,chara_3
 
-message,<user>,ふん、生き残ったか。幸運なやつだ。<br>まあいい、これで勘弁しておいてやる。
+message,<user>,Hmph，you survived. Lucky bastard. Well，fine，I'll let you off this<br>time.<br> 
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -659,9 +659,9 @@ asyncseplay,setag1_17,se4800015,0,1,CONT,0
 asynccharaemo,chara_3,Dull,CONT,0
 
 
-message,倉庫警備の兵士,あ、ありがとうございます！<br>に、２度と資材の横領などいたしませんので！,401201000,,chara_3
+message,倉庫警備の兵士,Th-thank you! I'll never embezzle supplies again!<br> ,401201000,,chara_3
 
-message,<user>,当然だろう、２度目があると思うな。<br>……俺たちは用がある、先に戻れ。
+message,<user>,Obviously. Don't think there'll be a second time. ...We have<br>business，go on ahead.<br> 
 
 asyncjump,CHARA,chara_3,-30.6,0.5,1,off,0,CONT
 
@@ -670,7 +670,7 @@ asyncseplay,setag1_18,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,倉庫警備の兵士,し、失礼します！,401201000,,chara_3
+message,倉庫警備の兵士,I-I'll excuse myself!<br> ,401201000,,chara_3
 
 
 window,off
@@ -726,11 +726,11 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,アヤメ,優しいんですね、司令官様。,104101000G,vc_10410100003_003_01,chara_1
+message,アヤメ,You're kind，Lord Commander.<br> ,104101000G,vc_10410100003_003_01,chara_1
 
-message,<user>,これであいつは俺を裏切れない。<br>十分な恐怖と、恩を与えたからな。
+message,<user>,He won't betray me now. I've given him enough fear and a reason to<br>be grateful.<br> 
 
-message,<user>,もはや殺す必要はない。<br>使い道はいくらでもある。
+message,<user>,There's no need to kill him. He can still be useful.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -741,9 +741,9 @@ asyncseplay,setag1_20,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,アヤメ,……ええ、そうですね。<br>今後、あの方が司令官様を不快にすることはありません。,104101000G,vc_10410100003_004_01,chara_1
+message,アヤメ,...Yes，indeed. He won't cause you any trouble from now on.<br> ,104101000G,vc_10410100003_004_01,chara_1
 
-message,<user>,問題は解決だ。<br>それで、殺しのほうはどうだ？
+message,<user>,That takes care of that. So，how about the killing?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -754,9 +754,9 @@ asyncseplay,setag1_21,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,アヤメ,ええ、道を塞ぐ障害はすべて掃除いたしました。<br>問題はありません、司令官様。,104101000G,vc_10410100003_005_01,chara_1
+message,アヤメ,Yes，I have cleared all obstacles blocking the path. There are no<br>issues at all，Lord Commander.<br> ,104101000G,vc_10410100003_005_01,chara_1
 
-message,<user>,ご苦労。<br>さて、事前調査ではこの先に……
+message,<user>,Good work. Now，according to the prior survey，up ahead...<br> 
 
 
 window,off
@@ -793,7 +793,7 @@ fade,In,White,1
 wait,0.5
 
 window,on,0.15
-message,<user>,よし、期待通りの財宝だ！<br>いい収穫になったな！
+message,<user>,Nice，just the treasure we expected! This is a good haul!<br> 
 
 window,off
 wait,0.15
@@ -832,9 +832,9 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,アヤメ,ありがとうございます。<br>司令官様のお役に立てて喜ばしいです。,104101000G,vc_10410100003_006_01,chara_1
+message,アヤメ,Thank you. I am pleased to have been of use to you，Lord Commander.<br> ,104101000G,vc_10410100003_006_01,chara_1
 
-message,<user>,見たところ問題はなさそうだが、<br>怪我などしていないだろうな？
+message,<user>,Looks fine to me，but you're not hurt or anything，are you?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -846,7 +846,7 @@ asyncseplay,setag1_24,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,アヤメ,ええ、もちろんです。,104101000G,vc_10410100003_007_01,chara_1
+message,アヤメ,No，of course not.<br> ,104101000G,vc_10410100003_007_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -857,9 +857,9 @@ asyncseplay,setag1_25,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,アヤメ,ですが、人以外を殺したのは、<br>少し新鮮な気分ですね。,104101000G,vc_10410100003_008_01,chara_1
+message,アヤメ,However，killing something other than a human was a rather novel<br>experience.<br> ,104101000G,vc_10410100003_008_01,chara_1
 
-message,<user>,……人を相手にするのは、<br>飽きていたのか。
+message,<user>,...So you were tired of going after humans?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -871,9 +871,9 @@ asyncseplay,setag1_26,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,アヤメ,お仕事ですから、飽きるということはありません。<br>ですが人を殺すことに強い興味もありませんので。,104101000G,vc_10410100003_009_01,chara_1
+message,アヤメ,It is my job，so I never get bored. But I do not have a strong<br>interest in killing people either.<br> ,104101000G,vc_10410100003_009_01,chara_1
 
-message,<user>,そうか……アヤメは珍しい暗殺者だな。
+message,<user>,I see... You're a rare kind of assassin，Ayame.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -884,9 +884,9 @@ asyncseplay,setag1_27,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,アヤメ,本職は事務員ですから。<br>暗殺者だなんて呼ばれると、ドキドキしてしまいます。,104101000G,vc_10410100003_010_01,chara_1
+message,アヤメ,My real job is secretary，so being called an assassin makes me a bit<br>flustered.<br> ,104101000G,vc_10410100003_010_01,chara_1
 
-message,<user>,そういう話ではない。<br>俺の考える暗殺者はもっと偏った人種だという話だ。
+message,<user>,That's not what I meant. I'm saying the assassins I think of are a<br>more twisted breed.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -897,11 +897,11 @@ asyncseplay,setag1_28,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,アヤメ,偏った……ですか？,104101000G,vc_10410100003_011_01,chara_1
+message,アヤメ,Twisted，you say?<br> ,104101000G,vc_10410100003_011_01,chara_1
 
-message,<user>,ああ、感情を廃した機械のようであったり、<br>逆に感情に支配されていたり、な。
+message,<user>,Yeah，either like machines devoid of emotion，or conversely，ruled by<br>their emotions.<br> 
 
-message,<user>,アヤメのように穏やかで笑顔を絶やさない、<br>とぼけたところはあれど、話の通じる暗殺者は珍しい。
+message,<user>,An assassin like you，who is calm，always smiling，and approachable<br>despite being a bit absentminded，is a rarity.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -912,9 +912,9 @@ asyncseplay,setag1_29,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,アヤメ,お褒めいただいて光栄です。<br>……喜んでいいんですよね？,104101000G,vc_10410100003_012_01,chara_1
+message,アヤメ,I am honored by your praise... It is okay for me to be happy about<br>this，is it not?<br> ,104101000G,vc_10410100003_012_01,chara_1
 
-message,<user>,構わん。<br>ただしその笑顔が本物ならば、だがな。
+message,<user>,I don't mind. But only if that smile is genuine，mind you.<br> 
 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
@@ -926,15 +926,15 @@ asyncseplay,setag1_30,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,アヤメ,私が常に笑みを浮かべていること、<br>ご不快でしたか？,104101000G,vc_10410100003_013_01,chara_1
+message,アヤメ,Has my constant smile been displeasing to you?<br> ,104101000G,vc_10410100003_013_01,chara_1
 
-message,<user>,そういうわけではない。<br>ただ、それが本当の笑顔だとも思っていない。
+message,<user>,That's not it. I just don't think that's your true smile.<br> 
 
-message,<user>,ここは殺しの腕を称賛される場ではあるが、<br>そんな自分に苦しむものも少なくはない。
+message,<user>,This is a place where skill at killing is praised，but many struggle<br>with being that kind of person.<br> 
 
-message,<user>,笑みで覆い隠して、<br>生きものを殺すことへの嫌悪感を抑えているのなら……
+message,<user>,If you're hiding behind a smile，suppressing your disgust at taking a<br>life...<br> 
 
-message,<user>,殺しの仕事は捨てて、ただの事務員として働く。<br>そんな選択をしても、誰も責めはしないぞ。
+message,<user>,You could quit the assassination work and become a regular<br>secretary. No one would blame you for that choice.<br> 
 
 
 bgmstop,bgmtag1_2,1.5,0
@@ -948,7 +948,7 @@ asyncseplay,setag1_31,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,アヤメ,ああ……どうしましょうか。,104101000G,vc_10410100003_014_01,chara_1
+message,アヤメ,Ah... what should I do?<br> ,104101000G,vc_10410100003_014_01,chara_1
 
 bgmplay,bgmtag1_3,bgm0031,0.75,1
 
@@ -961,7 +961,7 @@ asyncseplay,setag1_32,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,アヤメ,司令官様に私の心情を思っていただいて、<br>こんなにも考えていただいて。,104101000G,vc_10410100003_015_01,chara_1
+message,アヤメ,Lord Commander，you consider my feelings and think of me so much...<br> ,104101000G,vc_10410100003_015_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -972,9 +972,9 @@ asyncseplay,setag1_33,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,アヤメ,嬉しいです、司令官様。<br>ええ、とても……,104101000G,vc_10410100003_016_01,chara_1
+message,アヤメ,I'm happy，Lord Commander. Yes，very...<br> ,104101000G,vc_10410100003_016_01,chara_1
 
-message,<user>,喜ばせるつもりはない。<br>部下を適切に使うのは、司令の責務だ。
+message,<user>,I'm not trying to please you. Using my subordinates properly is my<br>duty as Commander.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -985,7 +985,7 @@ asyncseplay,setag1_34,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,アヤメ,うふふ、分かりますよ。<br>司令官様の優しいお心遣い。,104101000G,vc_10410100003_017_01,chara_1
+message,アヤメ,Ufufu，I understand. Lord Commander's kind concern.<br> ,104101000G,vc_10410100003_017_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -996,9 +996,9 @@ asyncseplay,setag1_35,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,アヤメ,ただ、申し訳ないのですが、<br>私は人を殺すのがそんなに嫌いでもなくて……,104101000G,vc_10410100003_018_01,chara_1
+message,アヤメ,But，I'm sorry，I don't really dislike killing people all that much...<br> ,104101000G,vc_10410100003_018_01,chara_1
 
-message,<user>,そう、なのか。
+message,<user>,Is... that so?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1010,16 +1010,16 @@ asyncseplay,setag1_36,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,アヤメ,最初は生活のためでした。少し変だとは思ったんですが、<br>私にできる単価の高い仕事は他になくて……,104101000G,vc_10410100003_019_01,chara_1
+message,アヤメ,At first，it was simply to earn a living. I thought it was a little<br>strange，but there were no other well-paying jobs I could do...<br> ,104101000G,vc_10410100003_019_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,アヤメ,それでも頑張っていれば、<br>やりがいというのは見つかるものですから。,104101000G,vc_10410100003_020_01,chara_1
+message,アヤメ,But if you work hard at it，you eventually find a sense of<br>fulfillment.<br> ,104101000G,vc_10410100003_020_01,chara_1
 
-message,<user>,だが、望まない殺しをすることもあっただろう？
+message,<user>,But there must have been times when you killed someone you didn't<br>want to，right?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1031,7 +1031,7 @@ asyncseplay,setag1_37,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,アヤメ,もちろん嫌な思いをすることはありました。<br>でもそのぐらいは、働いていれば普通のことですもの。,104101000G,vc_10410100003_021_01,chara_1
+message,アヤメ,Of course，there were unpleasant experiences. But that's just part of<br>any job，isn't it?<br> ,104101000G,vc_10410100003_021_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1042,7 +1042,7 @@ asyncseplay,setag1_38,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,アヤメ,少し嫌なことがあっても、お仕事だからと我慢する。<br>酒場のお嬢さんも、兵士の方も、同じでしょう？,104101000G,vc_10410100003_022_01,chara_1
+message,アヤメ,Even when something unpleasant happens，you endure it because it's<br>work. The barmaid and the soldiers are the same，aren't they?<br> ,104101000G,vc_10410100003_022_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1054,7 +1054,7 @@ asyncseplay,setag1_39,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,アヤメ,そして私は、耐えきれない嫌な思いが溢れた時に、<br>それを解消するお手伝いができるんです。,104101000G,vc_10410100003_023_01,chara_1
+message,アヤメ,And when the pain becomes too much to bear，I can help them get rid<br>of it.<br> ,104101000G,vc_10410100003_023_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1065,9 +1065,9 @@ asyncseplay,setag1_40,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,アヤメ,ずっと憎んでいた相手がやっと死んだと、<br>皆さん解き放たれたように笑ってくださるんです。,104101000G,vc_10410100003_024_01,chara_1
+message,アヤメ,When someone they've hated for so long finally dies，they smile like<br>they've been set free.<br> ,104101000G,vc_10410100003_024_01,chara_1
 
-message,<user>,そ、そうか。<br>暗殺業にやりがいを感じることもあるんだな……
+message,<user>,I... see. So you can find meaning in assassination after all...<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1079,9 +1079,9 @@ asyncseplay,setag1_41,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,アヤメ,死んだほうがいい人間、というのが存在する。<br>前職ではよく言われました。,104101000G,vc_10410100003_025_01,chara_1
+message,アヤメ,There are people who are better off dead. That's what I was always<br>told in my previous line of work.<br> ,104101000G,vc_10410100003_025_01,chara_1
 
-message,<user>,……人の生死はそんな易々と決めていいことではない。
+message,<user>,...You can't decide who lives and who dies so easily.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1092,7 +1092,7 @@ asyncseplay,setag1_42,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,アヤメ,ふふふ、もちろんです。<br>でも、人から笑顔を奪う人間は、確実にいますから。,104101000G,vc_10410100003_026_01,chara_1
+message,アヤメ,Fufufu，of course. But there are certainly people who steal smiles<br>from others.<br> ,104101000G,vc_10410100003_026_01,chara_1
 
 
 window,off
@@ -1119,7 +1119,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,アヤメ,――死んだ母がいつも言っていたんです。<br>笑っていれば、そのうち本当に楽しくなる、って。,104101000G,vc_10410100003_027_01,chara_1
+message,アヤメ,My late mother always used to say: if you keep smiling，you'll<br>eventually become truly happy.<br> ,104101000G,vc_10410100003_027_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1130,9 +1130,9 @@ asyncseplay,setag1_45,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,アヤメ,つらい時も苦しい時も、無理にでも笑顔でいれば、<br>いつか本当に幸せになれるんだと、私も信じています。,104101000G,vc_10410100003_028_01,chara_1
+message,アヤメ,I too believe that if you force yourself to smile even in times of<br>pain and hardship，someday you'll be truly happy.<br> ,104101000G,vc_10410100003_028_01,chara_1
 
-message,<user>,……それでアヤメはいつも笑っているのか。<br>苦しみを隠すためじゃなく、本当に笑う未来のために。
+message,<user>,So that's why you're always smiling. Not to hide your pain，but for a<br>future where you can truly smile.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1143,7 +1143,7 @@ asyncseplay,setag1_46,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,アヤメ,はい、私はいつでも笑顔でいるように、<br>そして皆さんを笑顔にできるように働いてきました。,104101000G,vc_10410100003_029_01,chara_1
+message,アヤメ,Yes，I have always tried to keep a smile on my face，and I have worked<br>to bring smiles to everyone else as well.<br> ,104101000G,vc_10410100003_029_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1154,7 +1154,7 @@ asyncseplay,setag1_47,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,アヤメ,でも、他人の笑顔を望まない人もいました。<br>周囲の笑顔を奪いながら生きているような人です。,104101000G,vc_10410100003_030_01,chara_1
+message,アヤメ,But there were also people who did not wish for others to smile.<br>People who lived by stealing the smiles around them.<br> ,104101000G,vc_10410100003_030_01,chara_1
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -1163,7 +1163,7 @@ asyncseplay,setag1_48,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,アヤメ,そういう人を殺すと、<br>たくさんの人が笑顔になって……,104101000G,vc_10410100003_031_01,chara_1
+message,アヤメ,When I killed people like that，many others would smile...<br> ,104101000G,vc_10410100003_031_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1175,7 +1175,7 @@ asyncseplay,setag1_49,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,アヤメ,だから、そんな人間を殺すことに、<br>嫌な気持ちはありませんでした。,104101000G,vc_10410100003_032_01,chara_1
+message,アヤメ,So I never felt bad about killing such people.<br> ,104101000G,vc_10410100003_032_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1186,7 +1186,7 @@ asyncseplay,setag1_50,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,アヤメ,でも今から思うと、<br>誰かを殺して生まれる笑顔は、どこか歪んでいました。,104101000G,vc_10410100003_033_01,chara_1
+message,アヤメ,But looking back now，the smiles born from taking someone's life were<br>somehow twisted.<br> ,104101000G,vc_10410100003_033_01,chara_1
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -1195,7 +1195,7 @@ asyncseplay,setag1_51,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,アヤメ,死ぬべき人間だった。正当な報いだ。<br>そんな言葉で後悔を誤魔化していたように思います。,104101000G,vc_10410100003_034_01,chara_1
+message,アヤメ,I think I was just hiding my regret with words like 'They deserved<br>to die' or 'It was just punishment.'<br> ,104101000G,vc_10410100003_034_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1206,11 +1206,11 @@ asyncseplay,setag1_52,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,アヤメ,そんな間違った笑顔しか生み出せないから、<br>私も心からは笑えなかったのかもしれません。,104101000G,vc_10410100003_035_01,chara_1
+message,アヤメ,Perhaps because I could only create those false smiles，I could not<br>genuinely smile.<br> ,104101000G,vc_10410100003_035_01,chara_1
 
-message,<user>,……俺は命の価値に差があることを否定しない。<br>でなければ司令官などやっていられない。
+message,<user>,I'm not going to deny that some lives are worth more than others. If<br>I didn't believe that，I couldn't be the Commander.<br> 
 
-message,<user>,だが普通の人間は情を捨てることなどできん。<br>いくら憎しみに取り憑かれていてもだ。
+message,<user>,But the average person can't just cast aside their emotions. No<br>matter how consumed by hatred they are.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1221,7 +1221,7 @@ asyncseplay,setag1_53,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,アヤメ,はい。きっと殺すことでは、<br>本当の意味で笑顔にはなれないんです。,104101000G,vc_10410100003_036_01,chara_1
+message,アヤメ,Yes. Killing can never truly bring a genuine smile.<br> ,104101000G,vc_10410100003_036_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1232,7 +1232,7 @@ asyncseplay,setag1_54,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,アヤメ,でもここに来て、司令官様の元で働くようになってから、<br>心から笑っていられるようになったんです。,104101000G,vc_10410100003_037_01,chara_1
+message,アヤメ,But ever since I came here，working under you，Lord Commander，I have<br>been able to smile from the heart.<br> ,104101000G,vc_10410100003_037_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1243,7 +1243,7 @@ asyncseplay,setag1_55,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,アヤメ,今日も本当に楽しかった。<br>司令官様と一緒に敵を殺して、宝物を見つけて……,104101000G,vc_10410100003_038_01,chara_1
+message,アヤメ,Today was really fun，too. Killing enemies alongside you，Lord<br>Commander，finding treasure...<br> ,104101000G,vc_10410100003_038_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1255,7 +1255,7 @@ asyncseplay,setag1_56,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,アヤメ,殺していい人が、殺さないほうがいい人に変わる。<br>そんな場面を見せてもらいました。,104101000G,vc_10410100003_039_01,chara_1
+message,アヤメ,I got to see a situation where someone who deserved to die became<br>someone better left alive.<br> ,104101000G,vc_10410100003_039_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1266,9 +1266,9 @@ asyncseplay,setag1_57,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,アヤメ,大穴と司令官様のおかげで、<br>本当に素敵なお仕事が見つかりました。,104101000G,vc_10410100003_040_01,chara_1
+message,アヤメ,Thanks to the Abyss and you，Lord Commander，I have found a truly<br>wonderful job.<br> ,104101000G,vc_10410100003_040_01,chara_1
 
-message,<user>,ふん、こんな場所がいい職場だとはな。<br>趣味の悪いやつだ。
+message,<user>,Hmph，so this place is a good workplace，huh? You've got terrible<br>taste.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1279,9 +1279,9 @@ asyncseplay,setag1_58,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,アヤメ,そうでしょうか？<br>私、見る目はあるつもりですよ？,104101000G,vc_10410100003_041_01,chara_1
+message,アヤメ,Do you think so? I would like to think I have good judgment.<br> ,104101000G,vc_10410100003_041_01,chara_1
 
-message,<user>,暗殺集団のことを、親切な人だと言っていただろうが。<br>アヤメの評価は全く信用できん。
+message,<user>,You said the assassin group were kind，didn't you? I can't trust your<br>judgment at all.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1292,7 +1292,7 @@ asyncseplay,setag1_59,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,アヤメ,あら、残念です。<br>本心なのですけど。,104101000G,vc_10410100003_042_01,chara_1
+message,アヤメ,Oh，that's disappointing.<br>But I was being sincere.<br> ,104101000G,vc_10410100003_042_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1303,7 +1303,7 @@ asyncseplay,setag1_60,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,アヤメ,この基地は本当に素敵な場所です。<br>私にとって理想の職場なんですよ。,104101000G,vc_10410100003_043_01,chara_1
+message,アヤメ,This base is truly a wonderful place.<br>It's the ideal workplace for me.<br> ,104101000G,vc_10410100003_043_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1311,11 +1311,11 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,アヤメ,そして司令官様、この場所を守り続けるのは、<br>決して簡単なことではないのでしょう？,104101000G,vc_10410100003_044_01,chara_1
+message,アヤメ,And，Commander，protecting this place is no easy task，<br>is it not?<br> ,104101000G,vc_10410100003_044_01,chara_1
 
-message,<user>,簡単ではないからこそ、基地に集まった者たちは、<br>それぞれの力を尽くして働いている。
+message,<user>,Because it's not easy，<br>everyone here works their hardest.<br> 
 
-message,<user>,金のため、名誉のため、異性のため。<br>理由はそれぞれだがな。
+message,<user>,Some for money，some for honor，some for romance.<br>People have their own reasons.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1326,9 +1326,9 @@ asyncseplay,setag1_61,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,アヤメ,……では私は、司令官様のために戦いましょう。<br>事務員としても――暗殺者としても。,104101000G,vc_10410100003_045_01,chara_1
+message,アヤメ,...Then I shall fight for you，Commander.<br>As both a secretary and an assassin.<br> ,104101000G,vc_10410100003_045_01,chara_1
 
-message,<user>,……いいのか。<br>これからも、殺しを続けることになるぞ。
+message,<user>,...Is that alright?<br>You'll continue killing from now on.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1339,7 +1339,7 @@ asyncseplay,setag1_62,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,アヤメ,私は、司令官様の周りに生まれる、<br>本当の笑顔を守りたいと思っています。,104101000G,vc_10410100003_046_01,chara_1
+message,アヤメ,I wish to protect the genuine smiles<br>that appear around you，Commander.<br> ,104101000G,vc_10410100003_046_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1351,14 +1351,14 @@ asyncseplay,setag1_63,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,アヤメ,ですから、必要があれば、<br>どんなことでも命じてください。,104101000G,vc_10410100003_047_01,chara_1
+message,アヤメ,So，if need be，<br>please command me to do anything.<br> ,104101000G,vc_10410100003_047_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,アヤメ,それが人間でも、厄災でも――,104101000G,vc_10410100003_048_01,chara_1
+message,アヤメ,Whether it be a person or a Calamity—<br> ,104101000G,vc_10410100003_048_01,chara_1
 
 
 window,off
@@ -1402,7 +1402,7 @@ asynccharaemo,chara_2,Anger,CONT,0
 
 
 window,on,0.15
-message,モンスター,グオオォォーーー！！,402001000,,chara_2
+message,モンスター,GROOOAAARRR!<br> ,402001000,,chara_2
 
 window,off
 wait,0.15
@@ -1442,9 +1442,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,アヤメ,あら？,104101000G,vc_10410100003_049_01,chara_1
+message,アヤメ,Oh?<br> ,104101000G,vc_10410100003_049_01,chara_1
 
-message,<user>,っ！？　モンスターの奇襲かっ！？<br>アヤメ――
+message,<user>,...?! A monster ambush?<br>Ayame—<br> 
 
 asyncseplay,setag1_66,se4900081,0,1,CONT,0
 
@@ -1464,7 +1464,7 @@ emodelete,chara_1,0,0
 
 fade,In,White,0
 
-message,,――ダアァーーン！！
+message,,*bang!*<br> 
 
 
 window,off
@@ -1565,9 +1565,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,アヤメ,ふぅ……お話の途中に、<br>失礼いたしました。,104101000G,vc_10410100003_050_01,chara_1
+message,アヤメ,*phew*...<br>Please excuse the interruption.<br> ,104101000G,vc_10410100003_050_01,chara_1
 
-message,<user>,……死角からの奇襲攻撃を、<br>一瞬で返り討ちに……
+message,<user>,...A surprise attack from a blind spot，<br>and you countered it in an instant...<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1579,7 +1579,7 @@ asyncseplay,setag1_70,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,アヤメ,こほん。<br>それが人間でも、厄災でも――,104101000G,vc_10410100003_051_01,chara_1
+message,アヤメ,Ahem.<br>Whether a person or a Calamity—<br> ,104101000G,vc_10410100003_051_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1590,11 +1590,11 @@ asyncseplay,setag1_71,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,アヤメ,私は必ず殺してみせます。<br>司令官様が、それを望むのなら。,104101000G,vc_10410100003_052_01,chara_1
+message,アヤメ,I will kill it without fail.<br>If you so wish，Commander.<br> ,104101000G,vc_10410100003_052_01,chara_1
 
-message,<user>,……よく分かった。<br>遠慮なくこき使わせてもらおう。
+message,<user>,...I see.<br>I'll put you to work without holding back.<br> 
 
-message,<user>,その分だけ、たっぷり稼がせてやるさ。<br>今日のようにな。
+message,<user>,In return，I'll make sure you earn plenty. Just like today.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1605,7 +1605,7 @@ asyncseplay,setag1_72,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,アヤメ,はい、楽しみにしています。,104101000G,vc_10410100003_053_01,chara_1
+message,アヤメ,Yes，I look forward to it.<br> ,104101000G,vc_10410100003_053_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1617,7 +1617,7 @@ asyncseplay,setag1_73,se4800002,0,1,CONT,0
 asynccharaemo,chara_1,Heart,CONT,0
 
 
-message,アヤメ,これからも、殺したい方がいれば、<br>いつでもお声掛けくださいね、私の司令官様。,104101000G,vc_10410100003_054_01,chara_1
+message,アヤメ,From now on，if there's someone you want dead，please call on me<br>anytime，my Lord Commander.<br> ,104101000G,vc_10410100003_054_01,chara_1
 
 window,off
 bgmstop,bgmtag1_3,0.5

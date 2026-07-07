@@ -81,9 +81,9 @@ wait,0.5
 
 
 window,on,0.15
-message,アリシア,司令官、大穴の新しい資料です。<br>こちらに置いておきますね～。,,vc_10470100001_001_01,chara_2
+message,アリシア,Commander，here are the new documents on the Abyss! I'll just leave<br>them here for you!<br> ,,vc_10470100001_001_01,chara_2
 
-message,<user>,ああ、確認しておくよ。
+message,<user>,Yeah，I'll take a look.<br> 
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -94,9 +94,9 @@ asyncseplay,setag1_3,se4800017,0,1,CONT,0
 asynccharaemo,chara_2,Shock,CONT,0
 
 
-message,アリシア,たくさんデータを集めていますが、<br>指揮をするにはこんなに多くの情報が必要なんですね。,,vc_10470100001_002_01,chara_2
+message,アリシア,We've been gathering so much data，but I had no idea that commanding<br>required all this information.<br> ,,vc_10470100001_002_01,chara_2
 
-message,<user>,運頼みは最後の手段にしたいからな。<br>事前にできる限りのことはしておきたいってだけだ。
+message,<user>,I want to rely on luck only as a last resort. I just want to do<br>everything I can beforehand.<br> 
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -107,9 +107,9 @@ asyncseplay,setag1_4,se4800003,0,1,CONT,0
 asynccharaemo,chara_2,Twinkle,CONT,0
 
 
-message,アリシア,……運頼みがお嫌いなら、占いとかに興味はないですか？<br>わたしは大好きなんですけど……,,vc_10470100001_003_01,chara_2
+message,アリシア,If you don't like relying on luck，how about fortune telling? I<br>absolutely love it，personally...<br> ,,vc_10470100001_003_01,chara_2
 
-message,<user>,興味はあるな。信じる人間がいるってことは、<br>それなりの説得力が備わってるってことだからな。
+message,<user>,I'm interested. The fact that there are people who believe in it<br>means it's got some persuasive power.<br> 
 
 asynccharaface,chara_2,FaceUnique06,CONT,0
 
@@ -120,9 +120,9 @@ asyncseplay,setag1_5,se4800019,0,1,CONT,0
 asynccharaemo,chara_2,Elated,CONT,0
 
 
-message,アリシア,でしたら、一緒に占ってもらいませんか？<br>街によく当たるって評判の占い師さんがいるそうで……,,vc_10470100001_004_01,chara_2
+message,アリシア,In that case，let's get our fortunes told together? I hear there's a<br>fortune teller in town who's supposed to be really accurate...<br> ,,vc_10470100001_004_01,chara_2
 
-message,<user>,ほう、よく当たる占い師、か。そりゃ気になるな。<br>恋愛運か、それとも武運……いや、金運を占ってもらいたいな！
+message,<user>,Hoh，an accurate fortune teller，huh? That's got me curious. Should I<br>get my love or war fortune?... No，I want my money fortune!<br> 
 
 asynccharaface,chara_2,FaceUnique01,CONT,0
 
@@ -133,7 +133,7 @@ asyncseplay,setag1_6,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,アリシア,やった、楽しみですねっ！,,vc_10470100001_005_01,chara_2
+message,アリシア,Yay，I'm so excited!<br> ,,vc_10470100001_005_01,chara_2
 
 
 window,off
@@ -163,9 +163,9 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,アリシア,あそこが占い師・メレムさんのお店なんですが……<br>すごく並んでますね。,,vc_10470100001_006_01,chara_2
+message,アリシア,That's the fortune teller Merem's shop over there... It's really<br>crowded.<br> ,,vc_10470100001_006_01,chara_2
 
-message,<user>,「見通すもの・メレムの占い館」か。<br>並ぶほど人気ってことは期待できそうだな。
+message,<user>,'The House of Divination of Merem，the One Who Sees Through'，huh. If<br>it's popular enough to have a line，it sounds promising.<br> 
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -176,7 +176,7 @@ asyncseplay,setag1_8,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,アリシア,はい、並びましょう、司令官っ！,,vc_10470100001_007_01,chara_2
+message,アリシア,Yes，let's get in line，Commander!<br> ,,vc_10470100001_007_01,chara_2
 
 window,off
 wait,0.15
@@ -198,7 +198,7 @@ wait,0.5
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,<user>,ふう。ようやく順番が回ってきたか。
+message,<user>,Phew. Finally our turn.<br> 
 
 window,off
 wait,0.15
@@ -267,11 +267,11 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,メレム,ようこそ、占いの館へ。<br>占い師メレムと申します。,,vc_10470100001_008_01,chara_1
+message,メレム,Welcome to the House of Divination. I am Merem，the fortune teller.<br> ,,vc_10470100001_008_01,chara_1
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
-message,<user>,ああ、よろしく頼む。<br>どんな占いでもできるのか？
+message,<user>,Yeah，nice to meet you. Can you do any kind of fortune?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -282,7 +282,7 @@ asyncseplay,setag1_10,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,メレム,ええ、カード、水晶、ダイス、未来を語る魔導書……<br>お望みの手法であなたの運勢を明らかにしましょう。,,vc_10470100001_009_01,chara_1
+message,メレム,Yes，cards，crystal，dice，the grimoire that speaks of the future... I<br>can reveal your fortune using whichever method you desire.<br> ,,vc_10470100001_009_01,chara_1
 
 window,off
 wait,0.15
@@ -309,7 +309,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,メレム,さてどのような占いをお望みですか？,,vc_10470100001_010_01,chara_1
+message,メレム,So，what kind of fortune would you like?<br> ,,vc_10470100001_010_01,chara_1
 
 window,off
 wait,0.15
@@ -359,9 +359,9 @@ asynccharaemo,chara_2,Elated,CONT,0
 
 
 window,on,0.15
-message,アリシア,相性を見てください！<br>わたしと司令官の相性を！,,vc_10470100001_011_01,chara_2
+message,アリシア,Please check our compatibility! Mine and the Commander's!<br> ,,vc_10470100001_011_01,chara_2
 
-message,<user>,そんなもの占ってもらってどうするんだよ……
+message,<user>,What are you gonna do with a reading like that?<br> 
 
 linework,off,Black,Middle
 
@@ -374,7 +374,7 @@ asyncseplay,setag1_14,se4800016,0,1,CONT,0
 asynccharaemo,chara_2,BePeevish,CONT,0
 
 
-message,アリシア,一番知りたいことじゃないですかっ！<br>メレムさん、お願いします！,,vc_10470100001_012_01,chara_2
+message,アリシア,Isn't that the thing you'd most want to know? Please，Merem!<br> ,,vc_10470100001_012_01,chara_2
 
 window,off
 wait,0.15
@@ -428,7 +428,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,メレム,かしこまりました。では、今回はカードを使いましょうか。<br>カードよ、過去を教え、現在を示し、未来を描け――,,vc_10470100001_013_01,chara_1
+message,メレム,Understood. Then，shall we use the cards this time?<br>O cards，teach the past，show the present，and paint the future—<br> ,,vc_10470100001_013_01,chara_1
 
 window,off
 wait,0.15
@@ -452,7 +452,7 @@ asyncseplay,setag1_17,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 window,on,0.15
-message,,メレムが手を振るとたくさんのカードが空中を舞い、<br>その内の数枚がするりとテーブルに並んだ。　
+message,,Merem waved her hand，and countless cards danced through the air，<br>before a few of them slid smoothly into place on the table.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -463,7 +463,7 @@ asyncseplay,setag1_18,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,メレム,あなたたちの相性は……<br>なるほど、良好といえるでしょう。,,vc_10470100001_014_01,chara_1
+message,メレム,Your compatibility...<br>Indeed，I would say it is favorable.<br> ,,vc_10470100001_014_01,chara_1
 
 asynccharaface,chara_2,FaceUnique01,CONT,0
 
@@ -474,9 +474,9 @@ asyncseplay,setag1_19,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,アリシア,相性がいいんですって、司令官！,,vc_10470100001_015_01,chara_2
+message,アリシア,Our compatibility is good，Commander!<br> ,,vc_10470100001_015_01,chara_2
 
-message,<user>,そりゃ連れ立って占いに来てる２人に<br>相性が悪いなんて言わないだろ。
+message,<user>,Well，they wouldn't tell two people who came together for a reading<br>that their compatibility is bad，would they?<br> 
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -487,7 +487,7 @@ asyncseplay,setag1_20,se4800006,0,1,CONT,0
 asynccharaemo,chara_2,Trouble,CONT,0
 
 
-message,アリシア,もう！　ロマンがないですよ！,,vc_10470100001_016_01,chara_2
+message,アリシア,Geez! You're so unromantic!<br> ,,vc_10470100001_016_01,chara_2
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -498,9 +498,9 @@ asyncseplay,setag1_21,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,メレム,ですがこの関係性は……<br>協力者、いいえ、共犯者？,,vc_10470100001_017_01,chara_1
+message,メレム,But this relationship...<br>Partners，no—co-conspirators?<br> ,,vc_10470100001_017_01,chara_1
 
-message,<user>,む……？
+message,<user>,Hm...?<br> 
 
 window,off
 wait,0.15
@@ -546,7 +546,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,メレム,滅びの運命へと相手をいざなった……。<br>それがゆえに、生み出されし混沌の運命から逃げることができない。,,vc_10470100001_018_01,chara_1
+message,メレム,You have beckoned one another toward a fate of destruction...<br>And for that reason，you cannot escape the chaotic fate born from it.<br> ,,vc_10470100001_018_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -557,7 +557,7 @@ asyncseplay,setag1_23,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,メレム,栄光も絶望も全てが結び付けられている……。<br>ええ、とても面白いチームですね。,,vc_10470100001_019_01,chara_1
+message,メレム,Glory and despair—all of it is bound together...<br>Yes，a very interesting team.<br> ,,vc_10470100001_019_01,chara_1
 
 window,off
 wait,0.15
@@ -610,7 +610,7 @@ asyncseplay,setag1_24,se4800018,0,1,CONT,0
 asynccharaemo,chara_2,Flower,CONT,0
 
 window,on,0.15
-message,<user>,……ちょっと納得してしまうような結果だったんだが、<br>まさかマジで当たる占い師なんじゃ？
+message,<user>,That result was kind of convincing... Could she really be the real<br>deal?<br> 
 
 window,off
 wait,0.15
@@ -635,9 +635,9 @@ asynccharaemo,chara_2,BePeevish,CONT,0
 
 
 window,on,0.15
-message,アリシア,だからそう言ったじゃないですかっ！,,vc_10470100001_020_01,chara_2
+message,アリシア,That's what I told you!<br> ,,vc_10470100001_020_01,chara_2
 
-message,<user>,よし、俺も占ってもらっていいか？
+message,<user>,Alright，can I get a reading too?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -647,9 +647,9 @@ asynccharaface,chara_2,FaceSurprise,CONT,0
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,メレム,もちろんです。<br>どのような内容をお望みでしょう？,,vc_10470100001_021_01,chara_1
+message,メレム,Of course. What kind of reading would you like?<br> ,,vc_10470100001_021_01,chara_1
 
-message,<user>,あー、相性は要らんが、恋愛運は知りたいな。<br>カードでもなんでも、一番当たるやつで占ってくれ。
+message,<user>,Ah，I don't need compatibility，but I want to know my love luck. Use<br>whatever—cards or whatever—and give me your most accurate reading.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -660,7 +660,7 @@ asyncseplay,setag1_27,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,メレム,では私の最も得意とする、水盆でおこないましょう。,,vc_10470100001_022_01,chara_1
+message,メレム,Then I shall use my greatest specialty—the scrying basin.<br> ,,vc_10470100001_022_01,chara_1
 
 window,off
 wait,0.15
@@ -699,7 +699,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,ほう、その盆で占えるのか。
+message,<user>,Oh，you can tell fortunes with that scrying basin?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -710,7 +710,7 @@ asyncseplay,setag1_28,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,メレム,水に映る景色に未来を見る。<br>私の部族に伝わる占いなのですよ。,,vc_10470100001_023_01,chara_1
+message,メレム,We see the future in the reflections upon the water.<br>It is a divination method passed down through my people.<br> ,,vc_10470100001_023_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -721,7 +721,7 @@ asyncseplay,setag1_29,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,メレム,さあ万物を知る器よ、<br>その水面に未来を映して――,,vc_10470100001_024_01,chara_1
+message,メレム,Now，O vessel that knows all things，<br>Reflect the future upon your waters—<br> ,,vc_10470100001_024_01,chara_1
 
 window,off
 wait,0.15
@@ -747,7 +747,7 @@ seplay,setag1_30,se4400094,0,1
 fade,In,White,1
 
 window,on,0.15
-message,,水盆を満たした水がなめらかに動き、<br>ゆらめきの中に１つの景色を映し出した。
+message,,The water in the scrying basin rippled gently，<br>and a scene appeared within its shimmering surface.<br> 
 
 window,off
 wait,0.15
@@ -784,7 +784,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,メレム,これは、星……？<br>眩く世界を照らす輝かしい星ではない。光をも呑み込むような、昏き星……,,vc_10470100001_025_01,chara_1
+message,メレム,This is... a star? Not a brilliant star that illuminates the world.<br>It's a Dark Star that devours even light itself...<br> ,,vc_10470100001_025_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -795,7 +795,7 @@ asyncseplay,setag1_32,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,メレム,周囲を取り巻くのは、大いなる運命……。<br>いいえ、昏き星こそが、運命の流れを変えようとしている。,,vc_10470100001_026_01,chara_1
+message,メレム,A grand fate surrounds it... No，the Dark Star itself is trying to<br>alter the course of fate.<br> ,,vc_10470100001_026_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -806,9 +806,9 @@ asyncseplay,setag1_33,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,メレム,あまたの乙女を率いて、<br>新たなる災いの中心となる……それがあなた……,,vc_10470100001_027_01,chara_1
+message,メレム,Leading a host of maidens，you will become the heart of a new<br>disaster... That is who you are...<br> ,,vc_10470100001_027_01,chara_1
 
-message,<user>,ややこしいことを言ってるが、<br>俺の運はどうなんだ？
+message,<user>,That's all a bit convoluted，but how's my fortune looking?<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -819,9 +819,9 @@ asyncseplay,setag1_34,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,メレム,……昏き星よ、あなたの恋愛運について、<br>水盆の語る運命を教えましょう。,,vc_10470100001_028_01,chara_1
+message,メレム,...Dark Star，allow me to tell you what fate the scrying basin<br>reveals about your love life.<br> ,,vc_10470100001_028_01,chara_1
 
-message,<user>,おう、どうなってる？
+message,<user>,Yeah，how is it?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -832,9 +832,9 @@ asyncseplay,setag1_35,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,メレム,あなたはたくさんの女性と深い縁で結ばれています。<br>彼女たちの運命は、あなたの行動で大きく左右される。,,vc_10470100001_029_01,chara_1
+message,メレム,You have deep ties to many women，and your actions greatly sway their<br>fates.<br> ,,vc_10470100001_029_01,chara_1
 
-message,<user>,ほうほう。
+message,<user>,Hmm，interesting.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -845,9 +845,9 @@ asyncseplay,setag1_36,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,メレム,要するにあなたは、かなり多くの女性に手を出し、<br>自分の都合で振り回す方のようですね。,,vc_10470100001_030_01,chara_1
+message,メレム,In short，you seem the type to make moves on many women and then toy<br>with them for your own convenience.<br> ,,vc_10470100001_030_01,chara_1
 
-message,<user>,歯に衣を着せぬ言い方だな！
+message,<user>,You certainly don't mince words!<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -858,9 +858,9 @@ asyncseplay,setag1_37,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,メレム,ちょっとどうかと思います。<br>誠意と節度を持って付き合うべきではないでしょうか。,,vc_10470100001_031_01,chara_1
+message,メレム,I have to say，I find that rather questionable.<br>Shouldn't you be interacting with sincerity and moderation?<br> ,,vc_10470100001_031_01,chara_1
 
-message,<user>,いや、ええと……それは占いというか、<br>メレム個人の感想じゃないか……？
+message,<user>,No，well... isn't that more like your own opinion，Merem?<br> 
 
 window,off
 wait,0.15
@@ -914,9 +914,9 @@ asyncjump,CHARA,chara_2,60,0.4,1,off,0,CONT
 
 
 window,on,0.15
-message,アリシア,わたしも改めたほうがいいと思います！,,vc_10470100001_032_01,chara_2
+message,アリシア,I also think you should mend your ways!<br> ,,vc_10470100001_032_01,chara_2
 
-message,<user>,それは完全にアリシアの気持ちだろう！<br>別に俺は節操なしに女性と仲良くなったりしていない！
+message,<user>,That's just your own feeling，Alicia! It's not like I'm hitting on<br>every woman I meet without restraint!<br> 
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -927,7 +927,7 @@ asyncseplay,setag1_39,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,アリシア,自覚がないんですよね……。<br>いえ、分かってて改めるつもりがないんでしょうか……,,vc_10470100001_033_01,chara_2
+message,アリシア,You just don't realize it，do you... or maybe you know but don't plan<br>to change...<br> ,,vc_10470100001_033_01,chara_2
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -938,9 +938,9 @@ asyncseplay,setag1_40,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,メレム,……これが昏き星。<br>周囲を巻き込み、惹きつけ、流れに巻き込む、災厄の中心……,,vc_10470100001_034_01,chara_1
+message,メレム,...This is the Dark Star. The center of calamity that draws in those<br>around it，captivates them，and sweeps them into its current...<br> ,,vc_10470100001_034_01,chara_1
 
-message,<user>,なんか分からんが、褒められてはいないような気がするぞ。<br>この水盆で本当に未来なんてわかるのか？
+message,<user>,I don't really get it，but I've got a feeling I'm not being<br>complimented. Can this scrying basin really tell the future?<br> 
 
 window,off
 wait,0.15
@@ -985,7 +985,7 @@ asyncseplay,setag1_41,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 window,on,0.15
-message,,<user>はメレムの手から水盆を持ち上げ、<br>覗き込もうと自分の手元に引き寄せた。
+message,,%user% lifted the scrying basin from Merem's hands and drew it<br>closer to get a look inside.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -996,9 +996,9 @@ asyncseplay,setag1_42,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,メレム,あ、ああ～っ！<br>返して、水盆を返してぇ……！,,vc_10470100001_035_01,chara_1
+message,メレム,Ah，aah! Give it back，give back my scrying basin...!<br> ,,vc_10470100001_035_01,chara_1
 
-message,<user>,おお？<br>そ、そうだな、悪い。商売道具だもんな。
+message,<user>,Oh? Uh，you're right，sorry. It's your livelihood，after all.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1009,7 +1009,7 @@ asyncseplay,setag1_43,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,メレム,返ってきた……良かった……,,vc_10470100001_036_01,chara_1
+message,メレム,It came back... thank goodness...<br> ,,vc_10470100001_036_01,chara_1
 
 window,off
 wait,0.15
@@ -1045,7 +1045,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,メレム,い、いけませんよ、そういったことをなさっては。,,vc_10470100001_037_01,chara_1
+message,メレム,Y-You must not do things like that.<br> ,,vc_10470100001_037_01,chara_1
 
 window,off
 wait,0.15
@@ -1060,7 +1060,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（今の反応は……？<br>道具を勝手に持たれて困っただけ、なのか？）　
+message,<user>,(That reaction... was it just that she was upset about me taking her<br>tool?)<br> 
 
 window,off
 wait,0.15
@@ -1081,7 +1081,7 @@ asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
 
 window,on,0.15
-message,メレム,では、占いは以上になりますが……,,vc_10470100001_038_01,chara_1
+message,メレム,Well then，that concludes the reading... but...<br> ,,vc_10470100001_038_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1091,14 +1091,14 @@ asyncseplay,setag1_45,se4800022,0,1,CONT,0
 
 asynccharaemo,chara_1,Speak,CONT,0
 
-message,<user>,ちょっと待ってくれ。説教をされて終わりってのは悲しいな。<br>もう少し実用的なことも占ってくれよ。
+message,<user>,Hold on. Ending with a scolding is a bit sad. Can you divine<br>something more practical?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
-message,<user>,一番知りたいのは金運！<br>最後に俺の金運を見てくれ！
+message,<user>,What I really want to know is my financial fortune! So，for the last<br>thing，check my luck with money!<br> 
 
 window,off
 wait,0.15
@@ -1132,7 +1132,7 @@ asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
 
 window,on,0.15
-message,メレム,……分かりました。<br>ではこの魔導書を使いましょうか。,,vc_10470100001_039_01,chara_1
+message,メレム,...Very well. Then shall we use this grimoire?<br> ,,vc_10470100001_039_01,chara_1
 
 window,off
 wait,0.15
@@ -1160,7 +1160,7 @@ asyncseplay,setag1_47,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 window,on,0.15
-message,,メレムが魔導書に手をかざすと、<br>輝きながらぱらぱらとページがめくられていく。
+message,,Merem held her hand over the grimoire，and the pages flipped open<br>with a shimmering glow.<br> 
 
 window,off
 wait,0.15
@@ -1179,9 +1179,9 @@ asyncwait
 
 
 window,on,0.15
-message,メレム,これは……驚きました。<br>とても大きな幸運が見えます。,,vc_10470100001_040_01,chara_1
+message,メレム,This... I am surprised. I can see a very great fortune.<br> ,,vc_10470100001_040_01,chara_1
 
-message,<user>,ほほう！　すぐ近くに儲け話があるってことか？
+message,<user>,Oh ho! So there's a profitable opportunity nearby?<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1192,14 +1192,14 @@ asyncseplay,setag1_49,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,メレム,ええ、あなたの近く……危険とも近い場所。<br>これは大穴でしょうね。,,vc_10470100001_041_01,chara_1
+message,メレム,Yes，near you... a place close to danger. This must be the Abyss.<br> ,,vc_10470100001_041_01,chara_1
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
 
-message,メレム,あなたにはとても強い運気が共にあり、<br>大穴にて素晴らしい幸運と巡り合うことになるでしょう。,,vc_10470100001_042_01,chara_1
+message,メレム,You are accompanied by a very strong fortune. At the Abyss，you will<br>encounter a wonderful stroke of luck.<br> ,,vc_10470100001_042_01,chara_1
 
-message,<user>,本当か！？　大穴に行けば、<br>ものすごい幸運に出会えるんだな！
+message,<user>,Really? If I go to the Abyss，I'll meet incredible luck!<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1207,9 +1207,9 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
 
-message,メレム,ですが占いはあくまで道標。<br>ただ待っていても幸運が訪れることはないでしょう。,,vc_10470100001_043_01,chara_1
+message,メレム,But fortune-telling is merely a guidepost. You will not encounter<br>good fortune by simply waiting.<br> ,,vc_10470100001_043_01,chara_1
 
-message,<user>,まあ、場所が大穴だしな……。<br>分かった、今から１人で行ってみるか！
+message,<user>,Well，it is the Abyss after all... All right，I'll head there alone<br>now!<br> 
 
 window,off
 wait,0.15
@@ -1264,9 +1264,9 @@ asynccharaemo,chara_2,Shock,CONT,0
 
 
 window,on,0.15
-message,アリシア,え、えええっ！？<br>ダメですよ、司令官お１人でなんてっ！,,vc_10470100001_044_01,chara_2
+message,アリシア,Wh-What! You can't go alone，Commander!<br> ,,vc_10470100001_044_01,chara_2
 
-message,<user>,それもそうか……ならメレム、一緒に来てくれ。
+message,<user>,That's true too... then Merem，come with me.<br> 
 
 window,off
 wait,0.15
@@ -1320,9 +1320,9 @@ asynccharaemo,chara_1,Spirits,STOP,8.2
 
 
 window,on,0.15
-message,メレム,……昏き星、あなたの運命には私も関心があります。<br>構いませんよ、ご一緒しましょう。,,vc_10470100001_045_01,chara_1
+message,メレム,... Dark Star，I too am interested in your fate. Very well，I will<br>accompany you.<br> ,,vc_10470100001_045_01,chara_1
 
-message,<user>,よし、早速出発だ！
+message,<user>,Alright，let's get going right away!<br> 
 
 window,off
 bgmstop,bgmtag1_2,0.5

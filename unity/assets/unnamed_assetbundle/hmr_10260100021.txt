@@ -62,7 +62,7 @@ asynccharaface,chara_1,EyeOpen,STOP,8
 asynccharaface,chara_1,FaceNormal,STOP,8
 message,シルヴィア,...Since I started working at the brothel，the clients have not<br>stopped coming. Just as Elder Brother said，this establishment truly is popular.<br> ,,vc_10260100021_002_01
 
-message,,The brothel's popularity aside，the fact that she was constantly<br>booked also meant that Sylvia herself was highly popular—though she didn't seem to realize it.<br> 
+message,,The brothel's popularity aside，her constant bookings meant Sylvia<br>herself was highly popular—though she didn't realize it.<br> 
 
 window,off
 wait,0.15
@@ -114,7 +114,7 @@ asynccharaemo,chara_2,Silence,STOP
 asynccharareaction,chara_2,Shake,1,STOP
 message,ルディア,It's about your next client，Sylvia. He's a rather special<br>individual... He's requested that you wear these.<br> ,,vc_10260100021_005_01
 
-message,,What Ludia held out was a perfectly ordinary pair of black tights.<br> 
+message,,Ludia held out a simple pair of black tights.<br> 
 
 asyncseplay,setag1_4,se4800009,0,1,CONT
 
@@ -167,7 +167,7 @@ asyncseplay,setag1_7,se4800009,0,1,CONT
 asynccharaemo,chara_1,Question,CONT
 
 window,on,0.15
-message,シルヴィア,He is quite the peculiar client，is he not? Requesting that I wear<br>black tights... I wonder what he finds so intriguing about that.<br> ,,vc_10260100021_008_01
+message,シルヴィア,...He is quite the peculiar client，is he not? Requesting that I wear<br>black tights... I wonder what he finds so intriguing about that?<br> ,,vc_10260100021_008_01
 
 asyncskipwait
 
@@ -192,7 +192,7 @@ fade,In,Black,1
 window,on,0.15
 message,,Soon after Sylvia had put on the black tights and was waiting，the<br>client arrived.<br> 
 
-message,,The client looked at Sylvia，nodded in satisfaction，and promptly<br>directed her to sit on his lap.<br> 
+message,,The client looked at Sylvia，nodded in satisfaction，and directed her<br>to sit on his lap.<br> 
 
 
 labeljump,b

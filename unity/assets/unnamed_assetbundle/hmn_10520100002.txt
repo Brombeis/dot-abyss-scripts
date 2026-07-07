@@ -65,7 +65,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,……ふう。ようやく自由になれた。
+message,<user>,*phew*... finally free.<br> 
 
 window,off
 wait,0.15
@@ -113,7 +113,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,シェリル,武器も返すよ、ほら。,105201000G,vc_10520100002_001_01,chara_1
+message,シェリル,Here，you can have your weapons back too.<br> ,105201000G,vc_10520100002_001_01,chara_1
 
 window,off
 wait,0.15
@@ -176,7 +176,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,兵士A,ああ、助かる。,400901000,,chara_2
+message,兵士A,Ah，that's a relief.<br> ,400901000,,chara_2
 
 window,off
 wait,0.15
@@ -226,7 +226,7 @@ asynccharaemo,chara_3,Exclamation,CONT,0
 
 
 window,on,0.15
-message,兵士C,司令官、あそこを見てください！,401101000,vc_10520100002_002_01,chara_3
+message,兵士C,Commander，look over there!<br> ,401101000,vc_10520100002_002_01,chara_3
 
 
 window,off
@@ -252,11 +252,11 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,<user>,盗賊団だ。すごい数だな……
+message,<user>,It's the bandits. Quite a lot of them...<br> 
 
-message,シェリル,あいつらのアジトを見張る為に、ここで野営してるってわけ。,105201000G,vc_10520100002_003_01,
+message,シェリル,That's why I'm camping here，to keep an eye on their hideout.<br> ,105201000G,vc_10520100002_003_01,
 
-message,<user>,張り込み捜査中ってことか。
+message,<user>,So you're on a stakeout.<br> 
 
 
 window,off
@@ -295,7 +295,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 
 window,on,0.15
-message,シェリル,寝床は堅いし、お風呂にもあまり入れないし……,105201000G,vc_10520100002_004_01,chara_1
+message,シェリル,The bed is hard，and I can't really take a bath...<br> ,105201000G,vc_10520100002_004_01,chara_1
 
 window,off
 wait,0.15
@@ -312,7 +312,7 @@ wait,0.5
 
 
 window,on,0.15
-message,シェリル,それにこの辺、たまにトカゲとかヘビとか出るんですよね。<br>爬虫類が苦手な私としては、気が休まらないというか。,105201000G,vc_10520100002_005_01,chara_1
+message,シェリル,Plus，lizards and snakes show up around here sometimes. As someone<br>who's not a fan of reptiles，it's hard to relax，you know?<br> ,105201000G,vc_10520100002_005_01,chara_1
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -321,7 +321,7 @@ asyncseplay,setag1_6,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シェリル,それに食事がねー。<br>あまり街に近づけないんで、堅いパンと干し肉ばかり……,105201000G,vc_10520100002_006_01,chara_1
+message,シェリル,And the food... Since I can't get close to town，it's just hard bread<br>and dried meat all the time.<br> ,105201000G,vc_10520100002_006_01,chara_1
 
 window,off
 wait,0.15
@@ -340,11 +340,11 @@ wait,0.5
 
 
 window,on,0.15
-message,シェリル,あーもう！　レストランに行きたーい、ふかふかのベッドで惰眠を貪りたーい！<br>仕事なんてクソくらえだー！,105201000G,vc_10520100002_007_01,chara_1
+message,シェリル,Ah，screw this! I want to go to a restaurant，I want to sleep in a<br>fluffy bed! Screw this job!<br> ,105201000G,vc_10520100002_007_01,chara_1
 
-message,<user>,……とんでもない警官がいたもんだ。
+message,<user>,...What an outrageous police officer.<br> 
 
-message,<user>,それで、その魔法警官が俺たちを捕まえた理由は？
+message,<user>,So then，why did you catch us?<br> 
 
 window,off
 wait,0.15
@@ -363,9 +363,9 @@ wait,0.5
 
 
 window,on,0.15
-message,シェリル,あなたたちに用があったわけじゃないんですよー。<br>ただ、あの盗賊団が数日後に大きな取引を控えてまして。,105201000G,vc_10520100002_008_01,chara_1
+message,シェリル,It's not like I had business with you all. It's just that those<br>bandits have a big deal coming up in a few days.<br> ,105201000G,vc_10520100002_008_01,chara_1
 
-message,<user>,取引？
+message,<user>,A deal?<br> 
 
 window,off
 wait,0.15
@@ -384,7 +384,7 @@ wait,0.5
 
 
 window,on,0.15
-message,シェリル,あいつらがこの大穴で盗掘した値打ちものの魔石や遺物と、,105201000G,vc_10520100002_009_01,chara_1
+message,シェリル,The valuable magic stones and artifacts they dug up from the<br>Abyss，and...<br> ,105201000G,vc_10520100002_009_01,chara_1
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -393,9 +393,9 @@ asyncseplay,setag1_10,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,シェリル,武器商人が用意した、１０億ゴールド相当の魔導爆石を<br>交換する……って情報を掴んだんですよ。,105201000G,vc_10520100002_010_01,chara_1
+message,シェリル,...the arms dealer has prepared magic explosive stones worth 10<br>billion gold to exchange—that's the intel I got.<br> ,105201000G,vc_10520100002_010_01,chara_1
 
-message,<user>,１０億ゴールド相当の取引か……そいつはすごいな。
+message,<user>,A deal worth 10 billion gold... That's huge.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -406,7 +406,7 @@ asyncseplay,setag1_11,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,シェリル,ですですー。あそこで君たちに盗賊を捕まえさせるわけには<br>いかなかったんで、邪魔させてもらいました。,105201000G,vc_10520100002_011_01,chara_1
+message,シェリル,That's right. Since I couldn't let you guys capture the bandits over<br>there，I had to interfere.<br> ,105201000G,vc_10520100002_011_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -417,9 +417,9 @@ asyncseplay,setag1_12,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,シェリル,そういうわけで、取引が終わるまで私と行動を共にしてください。<br>捜査にご協力、お願いしますよー。,105201000G,vc_10520100002_012_01,chara_1
+message,シェリル,So，I need you to stick with me until the deal is done. I'm asking<br>for your cooperation on this investigation，okay?<br> ,105201000G,vc_10520100002_012_01,chara_1
 
-message,<user>,いや、それだとちょっとまずいかもな。
+message,<user>,No，that might be a problem.<br> 
 
 window,off
 wait,0.15
@@ -438,9 +438,9 @@ wait,0.5
 
 
 window,on,0.15
-message,シェリル,はい？　どういうことです？,105201000G,vc_10520100002_013_01,chara_1
+message,シェリル,Huh? What do you mean?<br> ,105201000G,vc_10520100002_013_01,chara_1
 
-message,<user>,俺は前線基地の司令官だ。
+message,<user>,I'm the Commander of the Frontline Base.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -451,9 +451,9 @@ asyncseplay,setag1_14,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,シェリル,……え？<br>司令官……って、前線基地の統率役の？,105201000G,vc_10520100002_014_01,chara_1
+message,シェリル,...What? Commander... as in the one in charge of the Frontline Base?<br> ,105201000G,vc_10520100002_014_01,chara_1
 
-message,<user>,ああ。俺が行方をくらませたとなると、部下が徹底して行方を追い始める。<br>ここに兵士が大挙して押し寄せるのも、時間の問題だろう。
+message,<user>,Yeah. If it gets out I've gone missing，my men will search<br>thoroughly. It's only a matter of time before soldiers swarm this place.<br> 
 
 window,off
 wait,0.15
@@ -472,9 +472,9 @@ wait,0.5
 
 
 window,on,0.15
-message,シェリル,…………マジ？,105201000G,vc_10520100002_015_01,chara_1
+message,シェリル,...For real?<br> ,105201000G,vc_10520100002_015_01,chara_1
 
-message,<user>,マジだ。
+message,<user>,For real.<br> 
 
 window,off
 wait,0.15
@@ -493,7 +493,7 @@ wait,0.5
 
 
 window,on,0.15
-message,シェリル,それは……困ったことになりましたねぇ……,105201000G,vc_10520100002_016_01,chara_1
+message,シェリル,Well... that's a problem，isn't it...<br> ,105201000G,vc_10520100002_016_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -505,7 +505,7 @@ asyncseplay,setag1_17,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,シェリル,ペルディオン本国に応援要請をかけていて、取引当日に<br>腕利きの警察本隊が到着するようになってまして。,105201000G,vc_10520100002_017_01,chara_1
+message,シェリル,I've sent a request for reinforcements to Perdion proper. A skilled<br>police squad is scheduled to arrive on the day of the deal.<br> ,105201000G,vc_10520100002_017_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -516,9 +516,9 @@ asyncseplay,setag1_18,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,シェリル,それまでは事を荒立てられちゃ困るんだよなあ～。,105201000G,vc_10520100002_018_01,chara_1
+message,シェリル,So until then，I can't have things getting stirred up，you know.<br> ,105201000G,vc_10520100002_018_01,chara_1
 
-message,<user>,シェリルが手引きしたペルディオン警察が取引現場に踏み込み、<br>盗賊団と武器商人を一網打尽にする作戦だった、というわけか。
+message,<user>,So the plan was for the Perdion police，with you as their guide，to<br>raid the deal and catch the bandits and arms dealer in one go，right?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -529,9 +529,9 @@ asyncseplay,setag1_19,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シェリル,はい。ついでにいえば、魔導爆石はペルディオン警察から盗まれたもので、<br>それを無事に取り返すようにとも言われてますねー。,105201000G,vc_10520100002_019_01,chara_1
+message,シェリル,Yes. And on top of that，the magic explosive stones were stolen from<br>the Perdion police，so I'm also supposed to recover them safely.<br> ,105201000G,vc_10520100002_019_01,chara_1
 
-message,<user>,ただでさえ厄介な任務なのに、<br>魔導爆石を取り戻すっていう任務が追加されちまったとは、災難だな。
+message,<user>,As if this mission wasn't tough enough，now you've got the extra job<br>of recovering the magic explosive stones. That's rough.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -542,11 +542,11 @@ asyncseplay,setag1_20,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,シェリル,そうなんだ～。もー、人使い荒くていやになっちゃいますよー。<br>公僕は仕事を断れないから辛いですねー。,105201000G,vc_10520100002_020_01,chara_1
+message,シェリル,Yeah... Geez，they work us to the bone. It's just awful. Being a<br>public servant means you can't refuse work，so it's tough.<br> ,105201000G,vc_10520100002_020_01,chara_1
 
-message,<user>,とはいえ、魔導の力で大爆発を引き起こせる魔導爆石が危険物であることは<br>間違いないし、放置するわけにもいかない。
+message,<user>,Still，there's no doubt that a magic explosive stone that can cause a<br>huge explosion is dangerous. We can't just leave it alone.<br> 
 
-message,<user>,ペルディオン警察にとっても大きな任務だな。<br>それを任されるんだから、シェリルは相当有能みたいだな。
+message,<user>,It's a major mission for the Perdion police too. Since they trusted<br>you with it，you must be pretty capable.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -557,9 +557,9 @@ asyncseplay,setag1_21,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,シェリル,お？　分かっちゃいます？<br>さすがに司令官、人を見る目がありますね～。,105201000G,vc_10520100002_021_01,chara_1
+message,シェリル,Oh? Can you tell? As expected of the Commander，you've got a keen eye<br>for people.<br> ,105201000G,vc_10520100002_021_01,chara_1
 
-message,<user>,判断力も高いが、さっきの銃の腕前もそうだ。<br>一歩間違えば大怪我するところを、全員軽傷ですんでる。
+message,<user>,You've got good judgment，your shooting skills proved it. One wrong<br>move and we could've been badly hurt，but everyone got minor injuries.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -570,7 +570,7 @@ asyncseplay,setag1_22,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,シェリル,ふっふ～～ん♪　そうでしょう、そうでしょう。<br>この魔法銃だって、銃の腕前を見込まれて与えられたんですよ～。,105201000G,vc_10520100002_022_01,chara_1
+message,シェリル,Fufuun!♪ That's right，that's right. Even this magic gun was given to<br>me because of my shooting skills，you know.<br> ,105201000G,vc_10520100002_022_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -581,9 +581,9 @@ asyncseplay,setag1_23,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,シェリル,射撃の腕はペルディオンでもトップクラス！<br>勲章だって、何度も貰っちゃってるんですからね。えっへん！,105201000G,vc_10520100002_023_01,chara_1
+message,シェリル,My shooting skills are top-class even in Perdion! I've gotten medals<br>plenty of times，you know! Ahem!<br> ,105201000G,vc_10520100002_023_01,chara_1
 
-message,<user>,とはいえ、性格はあまり警察むきじゃなさそうだな。
+message,<user>,Still，your personality doesn't seem very suited for police work.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -594,7 +594,7 @@ asyncseplay,setag1_24,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シェリル,あはは～、分かっちゃいます？　本当はゆるく生きたいのに、<br>警察組織は規律が厳しくてたいへんなんですよー。,105201000G,vc_10520100002_024_01,chara_1
+message,シェリル,Ahaha，you can tell? I really want to take it easy，but the police<br>organization is strict and tough，you know...<br> ,105201000G,vc_10520100002_024_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -605,7 +605,7 @@ asyncseplay,setag1_25,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,シェリル,あーあ、仕事なんかしないで、楽に生きていきたいなー。,105201000G,vc_10520100002_025_01,chara_1
+message,シェリル,Ugh，I wish I didn't have to work and could just take it easy.<br> ,105201000G,vc_10520100002_025_01,chara_1
 
 window,off
 wait,0.15
@@ -657,7 +657,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,兵士A,警察官がそんなことを言っていていいのですか……？,400901000,,chara_2
+message,兵士A,Is it okay for a police officer to say things like that...?<br> ,400901000,,chara_2
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -668,9 +668,9 @@ asyncseplay,setag1_27,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,シェリル,いやー、だってですよ？　警察官である私が暇であるということは、<br>世界が平和ってことだし～。私がサボれる世界が理想なんです！,105201000G,vc_10520100002_026_01,chara_1
+message,シェリル,Think about it，right? If a police officer is idle，that means world<br>peace. The ideal world is one where I can slack off!<br> ,105201000G,vc_10520100002_026_01,chara_1
 
-message,<user>,厳しい規律が性に合わないってのは、俺も同意だな。<br>三大国は歴史が長いぶんしがらみも多くて、非合理的な決まりが多い。
+message,<user>,I agree that strict discipline isn't for me. The Three Great Nations<br>have a long history，so many constraints and irrational rules.<br> 
 
 window,off
 wait,0.15
@@ -716,9 +716,9 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,シェリル,ですよねー！<br>司令官、気が合うじゃないですかー。,105201000G,vc_10520100002_027_01,chara_1
+message,シェリル,Right? Commander，we really get along，don't we?<br> ,105201000G,vc_10520100002_027_01,chara_1
 
-message,<user>,その点、前線基地は割と自由だぞ。
+message,<user>,In that regard，the Frontline Base is pretty free.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -729,7 +729,7 @@ asyncseplay,setag1_29,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,シェリル,ほほーう？　それはなんとも羨ましいですねー。,105201000G,vc_10520100002_028_01,chara_1
+message,シェリル,Oho? That's quite enviable，isn't it?<br> ,105201000G,vc_10520100002_028_01,chara_1
 
 window,off
 wait,0.15
@@ -773,9 +773,9 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,兵士B,あの、司令官。暢気に話し込んでいる場合ではないと思いますが……。,401701000,,chara_4
+message,兵士B,Um，Commander. I don't think this is the time for idle chat...<br> ,401701000,,chara_4
 
-message,<user>,ああ、そうだな。このまま俺たちがここにいると、<br>シェリルにとっても都合が悪いんだったな。
+message,<user>,Ah，right. If we keep staying here，it'll be troublesome for Cheryl as<br>well.<br> 
 
 window,off
 wait,0.15
@@ -795,7 +795,7 @@ wait,0.5
 
 
 window,on,0.15
-message,シェリル,ええ。司令官を探して前線基地の兵士たちがここに集まると、<br>取引自体が流れる恐れがあります。,105201000G,vc_10520100002_029_01,chara_1
+message,シェリル,Yes. If soldiers from the Frontline Base come here looking for<br>you，Commander，there's a risk the whole deal could fall through.<br> ,105201000G,vc_10520100002_029_01,chara_1
 
 window,off
 wait,0.15
@@ -837,9 +837,9 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,シェリル,ですが～、逆にいえば……,105201000G,vc_10520100002_030_01,chara_1
+message,シェリル,But then again，on the flip side...<br> ,105201000G,vc_10520100002_030_01,chara_1
 
-message,<user>,俺が基地に戻って兵士たちの指揮を執って、<br>取引現場の鎮圧に協力することもできるな。
+message,<user>,I can go back to the base，take charge of the soldiers，and cooperate<br>in suppressing the deal location.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -850,9 +850,9 @@ asyncseplay,setag1_33,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,シェリル,いや～、話が早くて助かります～。,105201000G,vc_10520100002_031_01,chara_1
+message,シェリル,Well，you're quick on the uptake—that helps.<br> ,105201000G,vc_10520100002_031_01,chara_1
 
-message,<user>,もちろん異論はない。協力しよう。<br>それで、取引の日程は？
+message,<user>,Of course，I have no objections. I'll help. So，when's the deal?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -863,9 +863,9 @@ asyncseplay,setag1_34,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,シェリル,２日後の正午からです。場所はこのアジトの北の草原、<br>尖った岩が目印ですー。,105201000G,vc_10520100002_032_01,chara_1
+message,シェリル,Noon，two days from now. The location is the grassland north of this<br>hideout—look for a pointed rock as a landmark.<br> ,105201000G,vc_10520100002_032_01,chara_1
 
-message,<user>,了解した。必ず応援を送る。<br>……それじゃ、俺たちはさっそく基地に戻ろう。
+message,<user>,Understood. I'll make sure to send reinforcements. ...Alright，let's<br>head back to the base now.<br> 
 
 window,off
 wait,0.15
@@ -917,7 +917,7 @@ asynccharaemo,chara_4,Laugh,CONT,0
 
 
 window,on,0.15
-message,兵士B,了解しました！<br>ではシェリルさん、また２日後に！,401701000,,chara_4
+message,兵士B,Understood! Then，Cheryl，see you in two days!<br> ,401701000,,chara_4
 
 window,off
 wait,0.15
@@ -969,7 +969,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,シェリル,……さ～てと、私は盗賊団の張り込みを続けますか～,105201000G,vc_10520100002_033_01,chara_1
+message,シェリル,...Well then，I suppose I'll continue the stakeout on the bandits.<br> ,105201000G,vc_10520100002_033_01,chara_1
 
 
 window,off
@@ -996,7 +996,7 @@ emodelete,chara_1,0,0
 transitionFade,Tra05,in,black,1
 
 window,on,0.15
-message,<user>,……。
+message,<user>,...<br> 
 
 window,off
 wait,0.15
@@ -1027,9 +1027,9 @@ wait,0.5
 
 
 window,on,0.15
-message,兵士A,どうしたんです、司令官？　何か気になることでも？,400901000,,chara_2
+message,兵士A,What's wrong，Commander? Is there something bothering you?<br> ,400901000,,chara_2
 
-message,<user>,いや、そうじゃない。だが……
+message,<user>,No，that's not it. But...<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -1056,7 +1056,7 @@ transitionFade,Tra09,in,black,0
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――数時間後</size>,,,on
+messageTextCenter,,<size=48>—A few hours later</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -1108,7 +1108,7 @@ wait,0.5
 
 
 window,on,0.15
-message,シェリル,（あー、めんどうくさい……。<br>これが終わったら休暇を貰って、ゆっくりバカンスにでも行こうかなー）,105201000G,vc_10520100002_034_01,chara_1
+message,シェリル,(Ah，what a pain... After this is over，maybe I'll take a vacation and<br>go on a relaxing trip somewhere...)<br> ,105201000G,vc_10520100002_034_01,chara_1
 
 crossfadeready
 
@@ -1129,7 +1129,7 @@ asyncseplay,setag1_39,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,シェリル,……あ、あれ？,105201000G,vc_10520100002_035_01,chara_1
+message,シェリル,...Huh?<br> ,105201000G,vc_10520100002_035_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1140,7 +1140,7 @@ asyncseplay,setag1_40,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,シェリル,えー！　盗賊団が移動し始めてる！<br>どういうこと～？,105201000G,vc_10520100002_036_01,chara_1
+message,シェリル,What! The bandits are starting to move!<br>What's going on?<br> ,105201000G,vc_10520100002_036_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1151,7 +1151,7 @@ asyncseplay,setag1_41,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シェリル,まさか……取引が前倒しになったんじゃ！？,105201000G,vc_10520100002_037_01,chara_1
+message,シェリル,No way... Did the deal get moved up?<br> ,105201000G,vc_10520100002_037_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1162,7 +1162,7 @@ asyncseplay,setag1_42,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,シェリル,もしそうなら、前線基地からの増援も、<br>ペルディオンの本隊到着も間に合わない！,105201000G,vc_10520100002_038_01,chara_1
+message,シェリル,If that's the case，then the reinforcements from the Frontline Base<br>and the Perdion main force won't arrive in time!<br> ,105201000G,vc_10520100002_038_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1173,7 +1173,7 @@ asyncseplay,setag1_43,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シェリル,このままでは……作戦が失敗する……！,105201000G,vc_10520100002_039_01,chara_1
+message,シェリル,At this rate... the operation is going to fail...!<br> ,105201000G,vc_10520100002_039_01,chara_1
 
 window,off
 bgmstop,bgmtag1_2,0.5

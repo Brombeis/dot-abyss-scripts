@@ -245,7 +245,7 @@ asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 window,on,0.15
 message,シルヴィア,...Um，Commander.<br> ,102601000G,vc_10260100003_013_01,chara_1
 
-message,<user>,Oh? That's the first time you've called me Commander.<br>Are you finally warming up to me?<br> 
+message,<user>,Oh? That's the first time you've called me Commander. Have you<br>finally opened up to me?<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -256,7 +256,7 @@ asyncseplay,setag1_15,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,シルヴィア,Do not tease me!<br>Honestly，I am trying to be serious here.<br> ,102601000G,vc_10260100003_014_01,chara_1
+message,シルヴィア,Don't tease me! Honestly，just when I'm trying to be serious.<br> ,102601000G,vc_10260100003_014_01,chara_1
 
 window,off
 wait,0.15
@@ -279,7 +279,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,シルヴィア,So，um... if you wouldn't mind...<br>would you talk with me like this from time to time?<br> ,102601000G,vc_10260100003_015_01,chara_1
+message,シルヴィア,So，um... if it's alright with you，Commander... would you talk with<br>me like this sometimes?<br> ,102601000G,vc_10260100003_015_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -291,7 +291,7 @@ asyncseplay,setag1_17,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,シルヴィア,Just as you said，I still cannot fully trust<br>the people of this world.<br> ,102601000G,vc_10260100003_016_01,chara_1
+message,シルヴィア,As you said，Commander，I still haven't been able to fully trust the<br>people of this world.<br> ,102601000G,vc_10260100003_016_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -302,9 +302,9 @@ asyncseplay,setag1_18,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,シルヴィア,But you... I believe I can trust you.<br>N-not that I've let my guard down entirely or anything!<br> ,102601000G,vc_10260100003_017_01,chara_1
+message,シルヴィア,But you，Commander... I thought that maybe I could trust you.<br>Ah，n-no，it's not like I've opened my heart to you or anything!<br> ,102601000G,vc_10260100003_017_01,chara_1
 
-message,<user>,Suit yourself. I'm not exactly free，so I can't do it every day.<br>Just because you're lonely doesn't mean I can always be there.<br> 
+message,<user>,Suit yourself. I'm not free，so I can't do it every day. Just because<br>you're lonely doesn't mean I can always be there for you.<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -313,9 +313,9 @@ asyncseplay,setag1_19,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,シルヴィア,W-will you stop treating me like a child!?<br>Nobody said anything about every day!<br> ,102601000G,vc_10260100003_018_01,chara_1
+message,シルヴィア,C-could you please stop treating me like a child? No one said<br>anything about every day!<br> ,102601000G,vc_10260100003_018_01,chara_1
 
-message,<user>,Haha. I'm joking，I'm joking. Feel free to come talk to me anytime. I<br>said I'd do whatever I can so you won't feel lonely. I won't turn you away.<br> 
+message,<user>,Ahaha，just kidding. Don't hesitate，feel free to talk to me. I said<br>I'd do what I can so you wouldn't be lonely. I won't refuse.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -326,7 +326,7 @@ asyncseplay,setag1_20,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,シルヴィア,That is right. You are the one who said it.<br>I shall hold you to your word. Fufu.<br> ,102601000G,vc_10260100003_019_01,chara_1
+message,シルヴィア,That's right. Because you said so. You'll at least take<br>responsibility for your words. Fufu.<br> ,102601000G,vc_10260100003_019_01,chara_1
 
 window,off
 wait,0.15
@@ -356,7 +356,7 @@ fade,In,Black,0
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,——A Few Days Later,,,on
+messageTextCenter,,<size=48>—A few days later</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -378,9 +378,9 @@ bgmplay,bgmtag1_2,bgm0036,0.75,1
 fade,In,Black,1
 
 window,on,0.15
-message,,Since then，Sylvia had been visiting %user% frequently.<br> 
+message,,After that，Sylvia began to visit %user% often.<br> 
 
-message,,While Sylvia smiled more often than before，<br>she would sometimes gaze out the window with a look of melancholy...<br> 
+message,,Sylvia smiled more than before，but occasionally she would gaze out<br>the window with a dejected look...<br> 
 
 
 window,off
@@ -421,9 +421,9 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,シルヴィア,*Sigh*... Father，Mother...<br> ,102601000G,vc_10260100003_020_01,chara_1
+message,シルヴィア,*sigh*... Father，Mother...<br> ,102601000G,vc_10260100003_020_01,chara_1
 
-message,<user>,Don't sigh like that — you'll chase away your happiness.<br> 
+message,<user>,Don't sigh，happiness will run away.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -442,7 +442,7 @@ asyncseplay,setag1_23,se4800008,0,1,STOP,6.2
 asynccharaemo,chara_1,Sweat,STOP,6.2
 
 
-message,シルヴィア,Commander... Do not nitpick over every little sigh.<br>If I do not let it out，the heaviness in my heart becomes unbearable.<br> ,102601000G,vc_10260100003_021_01,chara_1
+message,シルヴィア,Commander... please do not point out every sigh. If I didn't，my<br>heart would grow too heavy to bear.<br> ,102601000G,vc_10260100003_021_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -454,7 +454,7 @@ asyncseplay,setag1_24,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,シルヴィア,I have been to the Abyss many times since then，and I have combed<br>through every document in the forward base's archives，but... nothing.<br> ,102601000G,vc_10260100003_022_01,chara_1
+message,シルヴィア,I've descended into the Abyss many times since then，and I've<br>thoroughly searched the archives in the base，but no results...<br> ,102601000G,vc_10260100003_022_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -465,7 +465,7 @@ asyncseplay,setag1_25,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シルヴィア,I am aware I must be patient and keep looking.<br>...But it is not so easy to accept...<br> ,102601000G,vc_10260100003_023_01,chara_1
+message,シルヴィア,I know I have to be patient and search... But I can't simply resign<br>myself to that so easily...<br> ,102601000G,vc_10260100003_023_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -476,9 +476,9 @@ asyncseplay,setag1_26,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,シルヴィア,Oh，I do apologize. You came to talk and here I am<br>burdening you with my gloomy complaints.<br> ,102601000G,vc_10260100003_024_01,chara_1
+message,シルヴィア,Ah，I'm sorry，even though you kindly reached out to me. I ended up<br>burdening you with such gloomy complaints.<br> ,102601000G,vc_10260100003_024_01,chara_1
 
-message,<user>,Yeah. You sure are.<br> 
+message,<user>,Yeah. You're exactly right.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -489,9 +489,9 @@ asyncseplay,setag1_27,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シルヴィア,Ow... Could you at least offer some words of comfort?<br>You truly do not know how to treat a lady.<br> ,102601000G,vc_10260100003_025_01,chara_1
+message,シルヴィア,Eep... Could you at least offer me some words of comfort? You're not<br>treating me like a proper lady at all!<br> ,102601000G,vc_10260100003_025_01,chara_1
 
-message,<user>,There's nothing more wasteful than spending time feeling sorry for<br>yourself.<br> 
+message,<user>,There's nothing more pointless than moping around.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -502,9 +502,9 @@ asyncseplay,setag1_28,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,シルヴィア,Um，that is quite possibly the worst thing one could say<br>to someone heartbroken over being separated from her family...<br> ,102601000G,vc_10260100003_026_01,chara_1
+message,シルヴィア,Um... Are those really the kind of words you should say to<br>me，devastated by not being able to see my family back home?<br> ,102601000G,vc_10260100003_026_01,chara_1
 
-message,<user>,Haha，you're probably right. Anyway，you've been cooped up so long<br>that it's dragging you down. So I'm going to take you outside.<br> 
+message,<user>,Ahaha，maybe so. But anyway，staying cooped up all the time is what's<br>bringing you down. So I'm going to take you outside.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -515,9 +515,9 @@ asyncseplay,setag1_29,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,シルヴィア,Huh? Outside? I would rather not. It is too hot out there...<br> ,102601000G,vc_10260100003_027_01,chara_1
+message,シルヴィア,Eh? Outside? I'd rather not. It's hot out there，after all...<br> ,102601000G,vc_10260100003_027_01,chara_1
 
-message,<user>,No arguments. This is an order from the Commander.<br>Besides，it should be arriving any moment now——<br> 
+message,<user>,Stop complaining. This is a Commander's order. Besides，it should be<br>arriving any moment now...<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -528,9 +528,9 @@ asyncseplay,setag1_30,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,シルヴィア,Arriving? What exactly...<br> ,102601000G,vc_10260100003_028_01,chara_1
+message,シルヴィア,Arriving? What in the world...<br> ,102601000G,vc_10260100003_028_01,chara_1
 
-message,<user>,Just come on. Walk on your own unless you want to be dragged.<br> 
+message,<user>,Just come on. If you don't want to be dragged，walk on your own.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -542,7 +542,7 @@ asynccharamove,chara_1,EaseOut,X,100,1.5,CONT,0
 
 emodelete,chara_1,0,0
 
-message,シルヴィア,W-wait，I'm not done ta— Kyaah!? W-wait!<br>My skirt，my skirt is riding up! Hey，are you listening!?<br> ,102601000G,vc_10260100003_029_01,on
+message,シルヴィア,Hey，we were still talking—Kyah! W-wait，please! My skirt is getting<br>flipped up! Hey，I said!<br> ,102601000G,vc_10260100003_029_01,on
 
 window,off
 wait,0.15
@@ -592,9 +592,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,シルヴィア,I really was dragged all the way here...<br>My clothes are not torn，are they...?<br> ,102601000G,vc_10260100003_030_01,chara_1
+message,シルヴィア,I-I really got dragged all the way here... My clothes aren't<br>torn，are they...?<br> ,102601000G,vc_10260100003_030_01,chara_1
 
-message,<user>,I told you to walk on your own.<br> 
+message,<user>,I told you to walk on your own，didn't I?<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -605,9 +605,9 @@ asyncseplay,setag1_32,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,シルヴィア,Consider the difference in our sizes!<br>I am petite，as you can plainly see!<br> ,102601000G,vc_10260100003_031_01,chara_1
+message,シルヴィア,Have a little consideration for the difference in our builds! I'm<br>clearly petite，you know!<br> ,102601000G,vc_10260100003_031_01,chara_1
 
-message,<user>,Sorry，sorry. But you wouldn't have come outside otherwise，right?<br> 
+message,<user>,Sorry，sorry. But if I hadn't done that，you wouldn't have come<br>outside，would you?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -618,7 +618,7 @@ asyncseplay,setag1_33,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シルヴィア,W-well，that is true，but... *sigh*. I suppose my staying cooped up<br>was part of the problem. I shall let it slide.<br> ,102601000G,vc_10260100003_032_01,chara_1
+message,シルヴィア,W-well，that's true，but... *sigh* And it's partly because I kept<br>shutting myself in，so I'll forgive you.<br> ,102601000G,vc_10260100003_032_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -630,9 +630,9 @@ asyncseplay,setag1_34,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,シルヴィア,So? You went through the trouble of dragging me outside —<br>where exactly are you taking me?<br> ,102601000G,vc_10260100003_033_01,chara_1
+message,シルヴィア,So? Where do you intend to take me after going to the trouble of<br>dragging me outside?<br> ,102601000G,vc_10260100003_033_01,chara_1
 
-message,<user>,That would be—— there it is. I have business at that shop over<br>there.<br> 
+message,<user>,Well，you see... Ah，there it is. I've got business at that shop.<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -641,9 +641,9 @@ asyncseplay,setag1_35,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,シルヴィア,That is... what sort of shop is it?<br>It appears to have various goods...<br> ,102601000G,vc_10260100003_034_01,chara_1
+message,シルヴィア,What is that shop? From the looks of it，it seems to have various<br>knick-knacks...<br> ,102601000G,vc_10260100003_034_01,chara_1
 
-message,<user>,Exactly. Before I explain，take a look at the merchandise.<br> 
+message,<user>,That's right. Before I explain the shop，you should take a look at<br>the goods.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -662,7 +662,7 @@ asyncseplay,setag1_37,se4800011,0,1,STOP,9
 asynccharaemo,chara_1,ExclaQues,STOP,9
 
 
-message,シルヴィア,*Sigh*. You dragged me out just to go shopping?<br>And what would I even want with— w-what is this...!?<br> ,102601000G,vc_10260100003_035_01,chara_1
+message,シルヴィア,*sigh* You dragged me all the way out here just to go shopping?<br>Besides，even if I look at this sort of thing... Th-this is...!<br> ,102601000G,vc_10260100003_035_01,chara_1
 
 window,off
 wait,0.15
@@ -679,9 +679,9 @@ wait,0.5
 
 
 window,on,0.15
-message,シルヴィア,The painting is moving!? What manner of trick is this!?<br>It is not mechanical... is it!?<br> ,102601000G,vc_10260100003_036_01,chara_1
+message,シルヴィア,The painting is moving! What kind of trick is this? It's not some<br>mechanical contraption，is it?<br> ,102601000G,vc_10260100003_036_01,chara_1
 
-message,<user>,It's magic.<br> 
+message,<user>,This is magic.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -693,7 +693,7 @@ asyncseplay,setag1_39,se4800005,0,1,CONT,0
 asynccharaemo,chara_1,Flash,CONT,0
 
 
-message,シルヴィア,You can make things like this with magic!?<br>I see — so infusing magic into the paint makes it move...<br> ,102601000G,vc_10260100003_037_01,chara_1
+message,シルヴィア,You can create things like this with magic! I see，so by infusing<br>paint with magic power，you can make them move...<br> ,102601000G,vc_10260100003_037_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -704,7 +704,7 @@ asyncseplay,setag1_40,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,シルヴィア,And over here... a moving stone sculpture?<br>It is stone，yet it moves with such fine detail.<br> ,102601000G,vc_10260100003_038_01,chara_1
+message,シルヴィア,And this... is it a moving statue? Even though it's made of stone，it<br>moves so intricately.<br> ,102601000G,vc_10260100003_038_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -715,9 +715,9 @@ asyncseplay,setag1_41,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,シルヴィア,Wait，did that stone sculpture just change its expression!?<br>This is incredible — I have never seen anything like it...!<br> ,102601000G,vc_10260100003_039_01,chara_1
+message,シルヴィア,Wait，didn't that statue just change expression? Amazing，I've never<br>seen anything like this...!<br> ,102601000G,vc_10260100003_039_01,chara_1
 
-message,<user>,Haha. Looks like you're enjoying yourself.<br> 
+message,<user>,Ahaha. It seems you've taken a liking to it.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -736,13 +736,13 @@ asyncseplay,setag1_43,se4800008,0,1,STOP,3
 asynccharaemo,chara_1,Sweat,STOP,3
 
 
-message,シルヴィア,Oh—! A-ahem. Wh-what are you saying?<br>I was merely... browsing the merchandise...<br> ,102601000G,vc_10260100003_040_01,chara_1
+message,シルヴィア,—*gasp*! A-hem. Wh-what are you saying? I was merely browsing the<br>merchandise，that's all...<br> ,102601000G,vc_10260100003_040_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
-message,<user>,I gathered from our recent talks that<br>your world didn't have anything like this.<br> 
+message,<user>,I knew from our recent conversations that there's nothing like this<br>in your world.<br> 
 
-message,<user>,So I contacted the shop owner and had them set up here.<br> 
+message,<user>,So I contacted the shopkeeper and had them set up shop here.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -753,18 +753,18 @@ asyncseplay,setag1_44,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シルヴィア,Y-you mean... this was all for me...?<br>Why would you go to such lengths?<br> ,102601000G,vc_10260100003_041_01,chara_1
+message,シルヴィア,Surely not... for me...? Why would you go this far for me?<br> ,102601000G,vc_10260100003_041_01,chara_1
 
-message,<user>,You're the type who sculpts ice and loves art.<br>So I figured you might be interested in this world's art as well.<br> 
+message,<user>,You're the type who makes ice sculptures and loves art. So I figured<br>you'd be interested in this world's art too.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
 
-message,<user>,Seeing art you've never encountered before should take your mind off<br>things. That's why I brought the shop here.<br> 
+message,<user>,Seeing unfamiliar art ought to take your mind off things. That's why<br>I brought this shop here.<br> 
 
-message,<user>,After all，I can't have you moping around forever<br>until we find a way to get you home.<br> 
+message,<user>,I can't have you moping around forever until we find a way back to<br>your world.<br> 
 
-message,<user>,And，well... I did say I'd do whatever I can.<br> 
+message,<user>,Well，you know... I did say I'd do whatever I could，after all.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -775,9 +775,9 @@ asyncseplay,setag1_45,se4800005,0,1,CONT,0
 asynccharaemo,chara_1,Flash,CONT,0
 
 
-message,シルヴィア,...Could it be that you are embarrassed?<br> ,102601000G,vc_10260100003_042_01,chara_1
+message,シルヴィア,...Could it be... you're embarrassed?<br> ,102601000G,vc_10260100003_042_01,chara_1
 
-message,<user>,D-don't point out unnecessary things. Nobody's embarrassed.<br> 
+message,<user>,D-don't point that out. I'm not embarrassed at all.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -788,7 +788,7 @@ asyncseplay,setag1_46,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,シルヴィア,Fufu. I shall let you have that.<br> ,102601000G,vc_10260100003_043_01,chara_1
+message,シルヴィア,Fufu. I'll let you have that，then.<br> ,102601000G,vc_10260100003_043_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -799,9 +799,9 @@ asyncseplay,setag1_47,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,シルヴィア,But this alone is not quite enough.<br>There is something else I need to keep my melancholy at bay.<br> ,102601000G,vc_10260100003_044_01,chara_1
+message,シルヴィア,But this still isn't enough，you know. I'll need something more to<br>alleviate my melancholy.<br> ,102601000G,vc_10260100003_044_01,chara_1
 
-message,<user>,Something else?<br> 
+message,<user>,Something more you need?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -819,7 +819,7 @@ asyncjump,CHARA,chara_1,-30,0.25,1,off,3.6,STOP
 wait,0.5
 
 
-message,シルヴィア,I am all alone in this world.<br>In other words，I have no family here.<br> ,102601000G,vc_10260100003_045_01,chara_1
+message,シルヴィア,I am completely alone in this world. That means，in this world，I have<br>no family.<br> ,102601000G,vc_10260100003_045_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -830,9 +830,9 @@ asyncseplay,setag1_49,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,シルヴィア,So... would you mind if I called you Onii-sama?<br> ,102601000G,vc_10260100003_046_01,chara_1
+message,シルヴィア,So... would you mind if I called you Elder Brother?<br> ,102601000G,vc_10260100003_046_01,chara_1
 
-message,<user>,Onii-sama!? No，that's...<br> 
+message,<user>,Onii!? No，that's...<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -843,9 +843,9 @@ asyncseplay,setag1_50,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,シルヴィア,You said you would do whatever you can，did you not?<br>Or were those words a lie?<br> ,102601000G,vc_10260100003_047_01,chara_1
+message,シルヴィア,Didn't you say you'd do anything for me? Or were those words a lie?<br> ,102601000G,vc_10260100003_047_01,chara_1
 
-message,<user>,...*Sigh*. You win. Call me whatever you like.<br> 
+message,<user>,*sigh*... You win. Call me whatever you like.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -856,7 +856,7 @@ asyncseplay,setag1_51,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,シルヴィア,Fufu. Thank you.<br>Then I shall take you up on that and call you Onii-sama from now on.<br> ,102601000G,vc_10260100003_048_01,chara_1
+message,シルヴィア,Fufu. Thank you. Then，if I may，I shall call you Onii from now on.<br> ,102601000G,vc_10260100003_048_01,chara_1
 
 window,off
 wait,0.15
@@ -896,7 +896,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,シルヴィア,I am in your care — Onii-sama♪<br> ,102601000G,vc_10260100003_049_01,chara_1
+message,シルヴィア,I shall be in your care，Onii!♪<br> ,102601000G,vc_10260100003_049_01,chara_1
 
 window,off
 bgmstop,bgmtag1_2,0.5

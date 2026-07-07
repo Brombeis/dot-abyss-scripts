@@ -42,7 +42,7 @@ bgmplay,bgmtag1_1,bgm0041,0.75,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――数日後</size>,,,on
+messageTextCenter,,<size=48>—A few days later.</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -374,7 +374,7 @@ asynccharaemo,chara_2,Shock,CONT,0
 window,on,0.15
 message,アリシア,えっ！？　そ、そうなんですか！？,300201000,vc_10050100003_010_01,chara_2
 
-message,<user>,バカなことを言うな。これくらいなんとも――くっ
+message,<user>,Don't be ridiculous. This is nothing—ugh!<br> 
 
 window,off
 wait,0.15
@@ -399,7 +399,7 @@ shakeallstop
 transitionFade,Tra13,in,black,1
 
 window,on,0.15
-message,,ベッドから出て立ち上がろうとした瞬間、<user>は<br>大きくよろめいた。
+message,,The moment %user% tried to get out of bed and stand up，he staggered<br>heavily.<br> 
 
 window,off
 wait,0.15
@@ -445,7 +445,7 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,エレクトラ,ご覧のとおりです、アリシアさん。<br>高熱で動ける状態ではありません。,100501000G,vc_10050100003_011_01,chara_1
+message,エレクトラ,As you can see，Alicia，he is in no condition to move with that high<br>fever.<br> ,100501000G,vc_10050100003_011_01,chara_1
 
 window,off
 wait,0.15
@@ -491,9 +491,9 @@ asynccharaemo,chara_2,Exclamation,CONT,0
 
 
 window,on,0.15
-message,アリシア,分かりました。司令官、わたしたちでなんとかします。<br>休んでください。,300201000,vc_10050100003_012_01,chara_2
+message,アリシア,Understood，Commander. We'll handle it. Please rest.<br> ,300201000,vc_10050100003_012_01,chara_2
 
-message,<user>,だめだ！　俺は司令官だぞ？　仲間の危機に寝てなんていられるか！<br>救助隊の指揮は俺がとる！
+message,<user>,No! I'm the Commander! I can't just lie here while our comrades are<br>in danger! I'll take command of the rescue team!<br> 
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -504,9 +504,9 @@ asyncseplay,setag1_15,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,アリシア,で、でも……休んだほうが……,300201000,vc_10050100003_013_01,chara_2
+message,アリシア,B-but... you should rest...<br> ,300201000,vc_10050100003_013_01,chara_2
 
-message,<user>,うろたえるな。<br>エレクトラ、着替えを早く持ってきてくれ。
+message,<user>,Don't panic. Electra，bring me my change of clothes，now.<br> 
 
 window,off
 wait,0.15
@@ -549,7 +549,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,エレクトラ,……。,100501000G,vc_10050100003_014_01,chara_1
+message,エレクトラ,...<br> ,100501000G,vc_10050100003_014_01,chara_1
 
 window,off
 wait,0.15
@@ -567,7 +567,7 @@ asyncwait
 
 
 window,on,0.15
-message,エレクトラ,……ご主人様、申し訳ございません。<br>失礼いたします。,100501000G,vc_10050100003_015_01,chara_1
+message,エレクトラ,...Master，I apologize. I'm afraid I must be rude.<br> ,100501000G,vc_10050100003_015_01,chara_1
 
 window,off
 wait,0.15
@@ -591,9 +591,9 @@ emodelete,chara_1,0,0
 transitionFade,Tra17,in,black,0
 
 window,on,0.15
-message,<user>,っ、何をするっ！？
+message,<user>,Wha— What are you doing!?<br> 
 
-message,,エレクトラは<user>をベッドに押し付けて<br>素早く縄で拘束した。
+message,,Electra pressed %user% onto the bed and quickly bound him with rope.<br> 
 
 window,off
 wait,0.15
@@ -625,7 +625,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,<user>,エレクトラ、縄を解け！　命令違反だぞ！
+message,<user>,Electra，untie me! That's insubordination!<br> 
 
 window,off
 wait,0.15
@@ -645,7 +645,7 @@ wait,0.5
 
 
 window,on,0.15
-message,エレクトラ,……承知しています。ですが、ご主人様の健康を守るためには<br>これが最善だと判断しました。,100501000G,vc_10050100003_016_01,chara_1
+message,エレクトラ,...I am aware. However，I judged this to be the best course to<br>protect your health，Master.<br> ,100501000G,vc_10050100003_016_01,chara_1
 
 window,off
 wait,0.15
@@ -696,9 +696,9 @@ asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,エレクトラ,アリシアさん、進言いたします。ご主人様は体調が優れません。<br>代わりに、エレクトラに調査隊を救出するよう命じてください。,100501000G,vc_10050100003_017_01,chara_1
+message,エレクトラ,Alicia，I have a recommendation. Master is unwell. Please order me to<br>rescue the Survey Team in his stead.<br> ,100501000G,vc_10050100003_017_01,chara_1
 
-message,<user>,勝手に話を進めるな！<br>俺の代わりが務まる奴は、この基地にいない！
+message,<user>,Don't make decisions without me! There's no one in this base who can<br>take my place!<br> 
 
 window,off
 wait,0.15
@@ -746,7 +746,7 @@ wait,0.5
 
 
 window,on,0.15
-message,エレクトラ,分かっています。ご主人様の代わりになんてなれません。<br>それでも、ご主人様の力になりたいんです。,100501000G,vc_10050100003_018_01,chara_1
+message,エレクトラ,I understand. I can never replace you，Master. But even so，I want to<br>be of help to you.<br> ,100501000G,vc_10050100003_018_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -757,7 +757,7 @@ asyncseplay,setag1_19,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,エレクトラ,危険なのも予測済みです。それでも行かせてください。<br>必ず、調査隊を守ってみせます。,100501000G,vc_10050100003_019_01,chara_1
+message,エレクトラ,I have already accounted for the danger. Still，please allow me to<br>go. I will protect the Survey Team，no matter what.<br> ,100501000G,vc_10050100003_019_01,chara_1
 
 window,off
 wait,0.15
@@ -784,7 +784,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,エレクトラ,（……そう。たとえ、エレクトラが犠牲になったとしても）,100501000G,vc_10050100003_020_01,chara_1
+message,エレクトラ,(...Yes. Even if I have to sacrifice myself.)<br> ,100501000G,vc_10050100003_020_01,chara_1
 
 window,off
 wait,0.15
@@ -801,7 +801,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,エレクトラ。何を考えている？
+message,<user>,Electra. What are you thinking?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -812,9 +812,9 @@ asyncseplay,setag1_21,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,エレクトラ,ご主人様の思考を予測していました。聡明なご主人様なら今の自分が行くより<br>エレクトラに命じたほうが、成功率が高いと見抜いているはずです。,100501000G,vc_10050100003_021_01,chara_1
+message,エレクトラ,I anticipated your thoughts，Master. You would surely see that<br>ordering me is more likely to succeed than going in your current state.<br> ,100501000G,vc_10050100003_021_01,chara_1
 
-message,<user>,うっ……
+message,<user>,Ugh...<br> 
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -822,9 +822,9 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
 
-message,エレクトラ,ご主人様、どうかご命令を――,100501000G,vc_10050100003_022_01,chara_1
+message,エレクトラ,Master，please give your orders—<br> ,100501000G,vc_10050100003_022_01,chara_1
 
-message,<user>,……
+message,<user>,...<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -835,7 +835,7 @@ asyncseplay,setag1_22,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,エレクトラ,ご主人様？,100501000G,vc_10050100003_023_01,chara_1
+message,エレクトラ,Master?<br> ,100501000G,vc_10050100003_023_01,chara_1
 
 window,off
 wait,0.15
@@ -889,7 +889,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,アリシア,……眠っていますね。限界だったんだと思います。<br>こんな状態で前線に立とうとしたなんて……,300201000,vc_10050100003_024_01,chara_2
+message,アリシア,...He's asleep，isn't he? He must have been at his limit.<br>To think he tried to go to the front line in this state...<br> ,300201000,vc_10050100003_024_01,chara_2
 
 asynccharaface,chara_2,FaceUnique03,CONT,0
 
@@ -900,7 +900,7 @@ asyncseplay,setag1_24,se4800010,0,1,CONT,0
 asynccharaemo,chara_2,Exclamation,CONT,0
 
 
-message,アリシア,エレクトラさん。わたしからお願いです。司令官の代わりに出撃を！<br>わたしもサポートします！,300201000,vc_10050100003_025_01,chara_2
+message,アリシア,Electra. I'm begging you. Please sortie in the Commander's place!<br>I'll support you too!<br> ,300201000,vc_10050100003_025_01,chara_2
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -908,7 +908,7 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
 
-message,エレクトラ,よろしくお願いいたします。,100501000G,vc_10050100003_026_01,chara_1
+message,エレクトラ,I am counting on you.<br> ,100501000G,vc_10050100003_026_01,chara_1
 
 window,off
 wait,0.15
@@ -957,7 +957,7 @@ wait,0.5
 
 
 window,on,0.15
-message,エレクトラ,……ご主人様。命令違反につきましては、どんな罰でも受け入れますから。,100501000G,vc_10050100003_027_01,chara_1
+message,エレクトラ,...Master. I will accept any punishment for my insubordination.<br> ,100501000G,vc_10050100003_027_01,chara_1
 
 crossfadeready
 
@@ -973,7 +973,7 @@ asynccharaface,chara_1,FaceAnger,CONT,0
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,エレクトラ,（ですが、その前に調査隊の救出を――<br>ご主人様の部隊に勝利をっ！）,100501000G,vc_10050100003_028_01,chara_1
+message,エレクトラ,(But first，I will rescue the Survey Team—<br>And deliver victory to Master's unit!)<br> ,100501000G,vc_10050100003_028_01,chara_1
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -1003,7 +1003,7 @@ fade,In,Black,0
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――数時間後</size>,,,on
+messageTextCenter,,<size=48>—Several Hours Later—</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -1044,7 +1044,7 @@ charashowalpha,chara_3,1,0
 fade,In,Black,0.5
 
 window,on,0.15
-message,,大穴にはエレクトラと、彼女が率いる部隊の姿があった。
+message,,Electra and her unit were at the Abyss.<br> 
 
 asyncjump,CHARA,chara_3,30,0.25,1,off,0,CONT
 
@@ -1053,7 +1053,7 @@ asyncseplay,setag1_26,se4800010,0,1,CONT,0
 asynccharaemo,chara_3,Exclamation,CONT,0
 
 
-message,一般兵Ａ,見つけた！　調査隊よっ！<br>モンスターに囲まれているわ！,401101000,vc_10050100003_029_01,chara_3
+message,一般兵Ａ,Found them! The Survey Team!<br>They're surrounded by monsters!<br> ,401101000,vc_10050100003_029_01,chara_3
 
 window,off
 wait,0.15
@@ -1101,7 +1101,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,エレクトラ,エレクトラが打開します！<br>目標捕捉！　攻撃開始！,100501000G,vc_10050100003_030_01,chara_1
+message,エレクトラ,I'll clear the way!<br>Target acquired! Commencing attack!<br> ,100501000G,vc_10050100003_030_01,chara_1
 
 window,off
 wait,0.15
@@ -1266,7 +1266,7 @@ shake,CHARA,chara_6,40,0,0.25,20,off,off,0
 shake,CHARA,chara_7,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,,エレクトラは包囲網を形成しているモンスターの群れに銃弾を撃ち込む。<br>銃撃を受けたモンスターたちは悲鳴を上げて倒れていった。
+message,,Electra opened fire on the swarm of monsters that had surrounded the<br>Survey Team. The monsters that were hit screamed and fell.<br> 
 
 window,off
 wait,0.15
@@ -1308,7 +1308,7 @@ asynccharaemo,chara_7,Shock,CONT,0
 
 
 window,on,0.15
-message,一般兵Ｂ,すごい……<br>あっという間に退路を確保したわ！？,401301000,vc_10050100003_031_01,chara_7
+message,一般兵Ｂ,Incredible...<br>She secured an escape route in an instant!<br> ,401301000,vc_10050100003_031_01,chara_7
 
 window,off
 wait,0.15
@@ -1350,7 +1350,7 @@ asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,エレクトラ,救出を急いでください！<br>司令官不在の状況で長居は禁物です！,100501000G,vc_10050100003_032_01,chara_1
+message,エレクトラ,Speed up the rescue!<br>We can't stay long without the Commander!<br> ,100501000G,vc_10050100003_032_01,chara_1
 
 window,off
 wait,0.15
@@ -1414,7 +1414,7 @@ asyncwait,subimage_0_1
 asyncwait,subimage_0_2
 
 
-messageTextUnder,,エレクトラは包囲網の中へ侵入――<br>要救助者である調査隊の面々を確保した退路へ誘導していく。,,,on
+messageTextUnder,,Electra pushed into the encirclement—<br>and guided the Survey Team，who were in need of rescue，to the secured escape route.,,,on
 
 window,off
 wait,0.15
@@ -1435,7 +1435,7 @@ subimagedelete,subimage_0_2
 
 
 window,on,0.15
-message,一般兵Ａ,エレクトラ、危ない！<br>後ろ！,401101000,vc_10050100003_033_01,on
+message,一般兵Ａ,Electra，look out!<br>Behind you!<br> ,401101000,vc_10050100003_033_01,on
 
 window,off
 wait,0.15
@@ -1477,7 +1477,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,エレクトラ,捕捉済みです！,100501000G,vc_10050100003_034_01,chara_1
+message,エレクトラ,Already locked on!<br> ,100501000G,vc_10050100003_034_01,chara_1
 
 window,off
 wait,0.15
@@ -1532,7 +1532,7 @@ asynccharaemo,chara_4,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,モンスター,ギィッ！？,402001000,,chara_4
+message,モンスター,Screech!<br> ,402001000,,chara_4
 
 window,off
 wait,0.15
@@ -1561,7 +1561,7 @@ shake,CHARA,chara_6,40,0,0.25,20,off,off,0
 shake,CHARA,chara_7,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,,――バタッ。
+message,,—Thump.<br> 
 
 window,off
 wait,0.15
@@ -1601,7 +1601,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,エレクトラ,さぁ行ってください！<br>エレクトラは最後尾で敵を食い止めます！,100501000G,vc_10050100003_035_01,chara_1
+message,エレクトラ,Now go! I'll hold the enemy off from the rear!<br> ,100501000G,vc_10050100003_035_01,chara_1
 
 window,off
 wait,0.15
@@ -1644,7 +1644,7 @@ wait,1
 
 wait,0.5
 
-messageTextUnder,,しんがりを務めるエレクトラはモンスターを倒し続ける。<br>そんな中、救助隊の前進が止まってしまう。,,,on
+messageTextUnder,,Electra，acting as the rear guard，continued to cut down monsters. Meanwhile，the rescue team's advance ground to a halt.,,,on
 
 window,off
 wait,0.15
@@ -1685,7 +1685,7 @@ asynccharaemo,chara_7,Panic,CONT,0
 
 
 window,on,0.15
-message,一般兵Ｂ,だ、だめだわ、エレクトラ！<br>先頭が巨大なモンスターに襲われていて進めない！,401301000,vc_10050100003_036_01,chara_7
+message,一般兵Ｂ,No good，Electra! The front line is being attacked by a giant<br>monster—we can't advance!<br> ,401301000,vc_10050100003_036_01,chara_7
 
 window,off
 wait,0.15
@@ -1773,7 +1773,7 @@ asyncseplay,setag1_40,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 window,on,0.15
-message,,エレクトラは遠くへ目を凝らす。
+message,,Electra peered into the distance.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1784,7 +1784,7 @@ asyncseplay,setag1_41,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,エレクトラ,敵影捕捉。距離１２０……発射！,100501000G,vc_10050100003_037_01,chara_1
+message,エレクトラ,Enemy sighted. Range one twenty... Fire!<br> ,100501000G,vc_10050100003_037_01,chara_1
 
 window,off
 wait,0.15
@@ -1869,7 +1869,7 @@ shake,CHARA,chara_6,40,0,0.25,20,off,off,0
 shake,CHARA,chara_7,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,,エレクトラが放った銃弾が、遠くで暴れていたモンスターの頭に着弾した。<br>急所を射抜かれたモンスターは力を失い、その場に倒れ込む。
+message,,Electra's bullet hit the head of a monster rampaging in the<br>distance. Struck in a vital spot，it collapsed on the spot.<br> 
 
 window,off
 wait,0.15
@@ -1907,7 +1907,7 @@ asynccharaemo,chara_7,Sweat,CONT,0
 
 
 window,on,0.15
-message,一般兵Ｂ,す、すごい……あんなに遠くの奴を！,401301000,vc_10050100003_038_01,chara_7
+message,一般兵Ｂ,A-amazing... She got one that far away!<br> ,401301000,vc_10050100003_038_01,chara_7
 
 window,off
 wait,0.15
@@ -1949,7 +1949,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,エレクトラ,急ぐように伝えてください！<br>敵の数が多いんです！　長くは持ちませんよっ！,100501000G,vc_10050100003_039_01,chara_1
+message,エレクトラ,Please tell them to hurry! There are too many enemies! We cannot<br>hold out much longer!<br> ,100501000G,vc_10050100003_039_01,chara_1
 
 window,off
 wait,0.15
@@ -2009,7 +2009,7 @@ prefabshowAll,alleffect_0,Roar/Prefabs/NovelEF_Roar
 
 
 window,on,0.15
-message,モンスター,グオオォォォーーー！！,402001000,,chara_4
+message,モンスター,GROOAAAR!<br> ,402001000,,chara_4
 
 window,off
 wait,0.15
@@ -2053,7 +2053,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,エレクトラ,くっ……,100501000G,vc_10050100003_040_01,chara_1
+message,エレクトラ,Ngh...<br> ,100501000G,vc_10050100003_040_01,chara_1
 
 window,off
 wait,0.15
@@ -2072,7 +2072,7 @@ wait,0.5
 
 
 window,on,0.15
-message,エレクトラ,攻撃……継続します！,100501000G,vc_10050100003_041_01,chara_1
+message,エレクトラ,Continuing the attack!<br> ,100501000G,vc_10050100003_041_01,chara_1
 
 window,off
 wait,0.15
@@ -2226,7 +2226,7 @@ asynccharamove,chara_6,EaseOut,Y,-100,0.25,STOP,0.9
 
 emodelete,chara_6,0,0
 
-messageTextUnder,,エレクトラはモンスターを退け、皆の矛と盾であり続けた。<br>死闘に次ぐ死闘を乗り越え、調査隊はどうにか救出されたのである――,,,on
+messageTextUnder,,Electra drove back monsters as their spear and shield. After one fierce battle after another，the Survey Team was finally rescued.,,,on
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -2298,9 +2298,9 @@ wait,0.5
 
 
 window,on,0.15
-message,エレクトラ,ご主人様。お体の具合はいかがですか？,100501000G,vc_10050100003_042_01,chara_1
+message,エレクトラ,Master. How are you feeling?<br> ,100501000G,vc_10050100003_042_01,chara_1
 
-message,<user>,すっかりいいぞ。数日間もベッドに縛り付けられていたんだからな。<br>さすがの俺も寝るしかなかった。
+message,<user>,I'm perfectly fine. I was tied to the bed for days，after all. Even I<br>had no choice but to rest.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -2309,9 +2309,9 @@ asyncseplay,setag1_53,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,エレクトラ,……ご主人様はエレクトラに怒りを抱いているんですね。,100501000G,vc_10050100003_043_01,chara_1
+message,エレクトラ,...You're holding a grudge against me，aren't you，Master?<br> ,100501000G,vc_10050100003_043_01,chara_1
 
-message,<user>,当たり前だ。命令違反を許すわけにはいかない。
+message,<user>,Of course. I can't let insubordination slide.<br> 
 
 window,off
 wait,0.15
@@ -2330,7 +2330,7 @@ wait,0.5
 
 
 window,on,0.15
-message,エレクトラ,はい。いかなる罰も受け入れます。,100501000G,vc_10050100003_044_01,chara_1
+message,エレクトラ,Yes. I will accept any punishment.<br> ,100501000G,vc_10050100003_044_01,chara_1
 
 window,off
 wait,0.15
@@ -2357,7 +2357,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,エレクトラ,（それがたとえ廃棄処分だとしても――）,100501000G,vc_10050100003_045_01,chara_1
+message,エレクトラ,(Even if it means decommissioning...)<br> ,100501000G,vc_10050100003_045_01,chara_1
 
 window,off
 wait,0.15
@@ -2374,9 +2374,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,分かった。では処分を言い渡す。
+message,<user>,Alright. Then I'll hand down your punishment.<br> 
 
-message,<user>,しっぺ、デコピンの刑だ。
+message,<user>,The sentence is a snap and a forehead flick.<br> 
 
 window,off
 wait,0.15
@@ -2395,9 +2395,9 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,エレクトラ,……えっ？,100501000G,vc_10050100003_046_01,chara_1
+message,エレクトラ,...Pardon?<br> ,100501000G,vc_10050100003_046_01,chara_1
 
-message,<user>,不服か？
+message,<user>,You have an objection?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -2408,13 +2408,13 @@ asyncseplay,setag1_57,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,エレクトラ,あ、いえ――ただ、ご主人様。<br>その罰はご主人様にとって一般的なものなのでしょうか？,100501000G,vc_10050100003_047_01,chara_1
+message,エレクトラ,Ah，no—Master. Is that a standard punishment for you?<br> ,100501000G,vc_10050100003_047_01,chara_1
 
-message,<user>,こんなふざけた罰が一般的であってたまるか。
+message,<user>,As if a joke punishment like that could be standard!<br> 
 
-message,<user>,……エレクトラが命令違反の罰を受けるかも、という話を聞いた<br>調査隊、救助隊の奴らが許すように嘆願書を出してきたんだよ。
+message,<user>,...When the Survey Team and Rescue Team heard you might be punished<br>for insubordination，they submitted a petition asking me to forgive you.<br> 
 
-message,<user>,ただし、命令違反を許していたら今後の指揮に影響が出る。<br>罰を無くすことはできないから、こうなった。
+message,<user>,However，if I let insubordination slide，it would affect my future<br>command. I couldn't do away with the punishment，so this is what happened.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -2425,13 +2425,13 @@ asyncseplay,setag1_58,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,エレクトラ,……エレクトラを許してくださる、ということですか？,100501000G,vc_10050100003_048_01,chara_1
+message,エレクトラ,...Does that mean you will forgive Electra?<br> ,100501000G,vc_10050100003_048_01,chara_1
 
-message,<user>,まぁ、な。今でも思い返すと多少ムカムカするが<br>お前は俺の命令を守ったんだろう？
+message,<user>,Well，yeah. Even now，it still annoys me a bit when I think back，but<br>you did follow my order，didn't you?<br> 
 
-message,<user>,俺とアリシアの命令が競合したとき、お前のやりたいようにやれ、と言った。
+message,<user>,When my orders and Alicia's conflicted，I told you to do as you saw<br>fit.<br> 
 
-message,<user>,あの場では俺をベッドに縛り付けることが最善だと判断した。<br>そうなんだろう？
+message,<user>,At that time，you judged that tying me to the bed was the best<br>option. That's right，isn't it?<br> 
 
 window,off
 wait,0.15
@@ -2451,11 +2451,11 @@ wait,0.5
 
 
 window,on,0.15
-message,エレクトラ,はい。<br>判断に至った経緯は間違いございません。,100501000G,vc_10050100003_049_01,chara_1
+message,エレクトラ,Yes. The reasoning behind that decision is correct.<br> ,100501000G,vc_10050100003_049_01,chara_1
 
-message,<user>,だったら、厳罰なんて不要だ。しっぺ、デコピンが妥当だろう？
+message,<user>,Then strict punishment isn't needed. A snap and a forehead flick are<br>fitting，don't you think?<br> 
 
-message,<user>,やりたいことをやれ、と言った俺の命令を守った点は<br>大きく評価している。偉かったぞ。
+message,<user>,I highly value the fact that you followed my order to do as you<br>wanted. You did well.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -2466,9 +2466,9 @@ asyncseplay,setag1_60,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,エレクトラ,……！<br>褒めていただけるのですか？,100501000G,vc_10050100003_050_01,chara_1
+message,エレクトラ,...! You would praise me?<br> ,100501000G,vc_10050100003_050_01,chara_1
 
-message,<user>,あぁ。お前がいると、とても心強い。<br>これからもその調子で頼む。
+message,<user>,Yeah. It's very reassuring to have you around. Keep it up.<br> 
 
 window,off
 wait,0.15
@@ -2487,9 +2487,9 @@ wait,0.5
 
 
 window,on,0.15
-message,エレクトラ,……引き続き、エレクトラの判断を尊重していただけると？,100501000G,vc_10050100003_051_01,chara_1
+message,エレクトラ,...So you will continue to respect Electra's judgment?<br> ,100501000G,vc_10050100003_051_01,chara_1
 
-message,<user>,あ、でもベッドにまた縛り付けろって意味じゃないからな？
+message,<user>,Ah，but that doesn't mean you can tie me to the bed again，alright?<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -2500,9 +2500,9 @@ asyncseplay,setag1_62,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,エレクトラ,……,100501000G,vc_10050100003_052_01,chara_1
+message,エレクトラ,...<br> ,100501000G,vc_10050100003_052_01,chara_1
 
-message,<user>,何をフリーズしてる？<br>またフレーム問題とやらか？
+message,<user>,What are you freezing up for? Is it that frame problem again?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -2510,9 +2510,9 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
 
-message,エレクトラ,いえ、違います。,100501000G,vc_10050100003_053_01,chara_1
+message,エレクトラ,No，it is not.<br> ,100501000G,vc_10050100003_053_01,chara_1
 
-message,<user>,じゃあ、俺の器の広さに感激でもしていたか？
+message,<user>,Then，were you moved by my magnanimity?<br> 
 
 window,off
 wait,0.15
@@ -2532,7 +2532,7 @@ wait,0.5
 
 
 window,on,0.15
-message,エレクトラ,それも違います、ご主人様。<br>エレクトラには感情がありません。心もありません。,100501000G,vc_10050100003_054_01,chara_1
+message,エレクトラ,That is also not the case，Master. Electra has no emotions. She has<br>no heart.<br> ,100501000G,vc_10050100003_054_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -2540,7 +2540,7 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
 
-message,エレクトラ,エレクトラの中に存在するのは、ご主人様にとって何が最善なのか<br>何が正しいのかを検証して判断する思考プログラムです。,100501000G,vc_10050100003_055_01,chara_1
+message,エレクトラ,What exists within Electra is a thought program that determines what<br>is best for Master and what is right.<br> ,100501000G,vc_10050100003_055_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -2551,7 +2551,7 @@ asyncseplay,setag1_64,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,エレクトラ,そのプログラムが今、答えを出しました。<br>エレクトラは仕えるべき、正しい御方のおそばに置いていただけている、と。,100501000G,vc_10050100003_056_01,chara_1
+message,エレクトラ,That program has now given its answer: Electra has been allowed to<br>serve at the side of the correct Master.<br> ,100501000G,vc_10050100003_056_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -2563,9 +2563,9 @@ asyncseplay,setag1_65,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,エレクトラ,あなたが望んでくれる限り、エレクトラはあなたのおそばに仕え続けます。<br>お役に立つよう、存在し続けます。,100501000G,vc_10050100003_057_01,chara_1
+message,エレクトラ,As long as you wish it，Electra will continue to serve by your side.<br>Electra will continue to exist to be of use.<br> ,100501000G,vc_10050100003_057_01,chara_1
 
-message,<user>,……言葉だけ取ると、感激して<br>幸せになってくれているようにしか聞こえないんだがなぁ。
+message,<user>,...If I just take your words at face value，it only sounds like<br>you're grateful and happy.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -2576,14 +2576,14 @@ asyncseplay,setag1_66,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,エレクトラ,そのほうがご主人様は気分がよろしいですか？,100501000G,vc_10050100003_058_01,chara_1
+message,エレクトラ,Would that make you feel better，Master?<br> ,100501000G,vc_10050100003_058_01,chara_1
 
-message,<user>,それはもちろん。司令官冥利に尽きる。男としてもな。
+message,<user>,Of course. It's the greatest honor as a Commander. And as a man，too.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
 
-message,エレクトラ,では言い換えます。,100501000G,vc_10050100003_059_01,chara_1
+message,エレクトラ,Then I will rephrase.<br> ,100501000G,vc_10050100003_059_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -2594,9 +2594,9 @@ asyncseplay,setag1_67,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,エレクトラ,エレクトラはご主人様にお仕えできて、とても幸せです。,100501000G,vc_10050100003_060_01,chara_1
+message,エレクトラ,Electra is very happy to be able to serve you，Master.<br> ,100501000G,vc_10050100003_060_01,chara_1
 
-message,<user>,ハハッ。やっぱりそっちのほうがいいな。
+message,<user>,Ahaha. I knew it. That's better.<br> 
 
 window,off
 bgmstop,bgmtag1_3,0.5

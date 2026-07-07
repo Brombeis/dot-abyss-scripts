@@ -22,11 +22,11 @@ bgmplay,bgmtag1_1,bgm0040,0.75,1
 
 
 window,on,0.15
-message,<user>,……参ったな。道が分からなくなった……。<br>やっぱり、１人で来るのは不用意だったか……
+message,<user>,...Damn. I'm lost... I guess coming alone was too reckless，huh...<br> 
 
-message,<user>,とはいえ、今回ばかりは基地の兵士たちを巻き込むわけにはいかないしな。<br>……あのお宝は、部下に頼らず見つけなきゃならない。
+message,<user>,Still，I can't involve the base soldiers this time. I have to find<br>that treasure without relying on my subordinates.<br> 
 
-message,<user>,報告書の地形から考えるに、こっちのはずなんだが……<br>もっと下の層か？　ちょっと、あの縦穴から確認してみるか。
+message,<user>,Based on the terrain in the report，I thought it was this way... but<br>maybe it's a lower level? Let me check from that vertical pit.<br> 
 
 window,off
 wait,0.15
@@ -46,7 +46,7 @@ asyncwait
 waitorclick,0.5
 
 window,on,0.15
-message,,下の階層の様子を確かめようと、<user>は縦穴から<br>身を乗り出して下を覗きこむ。その直後――足元の地面が崩れた！
+message,,Just as the Commander leaned out from the vertical pit to check the<br>lower level，the ground beneath his feet gave way!<br> 
 
 window,off
 wait,0.15
@@ -66,7 +66,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（っ…………！！　しまった、思ったより足場が脆かった……！<br>落ちる――！）
+message,<user>,(...! Damn，the footing was weaker than I thought...! I'm falling—!)<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -100,7 +100,7 @@ waitorclick,0.5
 asyncseplay,setag1_2,se4400132,0,1,CONT,0
 
 window,on,0.15
-message,,縦穴に落ちていく、その寸前――<br>反射的に掴めるものを求めて伸ばした手が、何者かに掴み返された。
+message,,Right before he fell into the vertical pit，his hand，reaching out<br>reflexively for something to grab，was caught by someone.<br> 
 
 asyncfade,Out,Black,0,STOP
 
@@ -131,7 +131,7 @@ asyncseplay,setag1_3,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,？？？,おっとっと。いやー、危なかったねー。<br>お兄さん、大丈夫～？,107701000G,vc_10770100001_001_01,chara_1
+message,？？？,Whoa! That was close，huh? Hey，mister，you okay?<br> ,107701000G,vc_10770100001_001_01,chara_1
 
 
 window,off
@@ -154,7 +154,7 @@ waitorclick,2.5
 bgmplay,bgmtag1_2,bgm0036,0.75,1
 
 window,on,0.15
-message,<user>,ふぅ……もう少しで転落死するところだったな……。<br>すまない、助かったよ。恩に着る。
+message,<user>,Phew... I almost fell to my death... Sorry，you saved me. I owe you<br>one.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -165,7 +165,7 @@ asyncseplay,setag1_4,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,？？？,いいって、いいって～。困った時は、お互い様だもんね！<br>この辺は地盤が脆いから、気をつけなよ～。,107701000G,vc_10770100001_002_01,chara_1
+message,？？？,It's fine，it's fine! We all help each other out when we're in<br>trouble，right? The ground is unstable around here，so be careful!<br> ,107701000G,vc_10770100001_002_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -176,9 +176,9 @@ asyncseplay,setag1_5,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,メリッサ,あ、名乗るのが遅れちゃったね。ワタシはメリッサ！<br>トレジャーハンターをやってるんだ～。,107701000G,vc_10770100001_003_01,chara_1
+message,メリッサ,Oh，I forgot to introduce myself. I'm Melissa! I'm a treasure hunter!<br> ,107701000G,vc_10770100001_003_01,chara_1
 
-message,<user>,<user>だ。<br>なるほど、トレジャーハンター、か……
+message,<user>,I'm %user%. I see... a treasure hunter，huh...<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -189,7 +189,7 @@ asyncseplay,setag1_6,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,メリッサ,あ、胡散臭いって思った？<br>安心してよ、ちゃんとミレスガルド王国の認可は受けてるから。,107701000G,vc_10770100001_004_01,chara_1
+message,メリッサ,Oh，you thought I seemed shady? Don't worry，I've got proper<br>authorization from the Kingdom of Milesgard.<br> ,107701000G,vc_10770100001_004_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -200,7 +200,7 @@ asyncseplay,setag1_7,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,メリッサ,ほら、これ見て！　印鑑付きの許可証ね。,107701000G,vc_10770100001_005_01,chara_1
+message,メリッサ,Look，see this? It's a license with an official stamp.<br> ,107701000G,vc_10770100001_005_01,chara_1
 
 window,off
 wait,0.15
@@ -215,7 +215,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（ほぉ、王国公認のトレジャーハンターか……。<br>何より命の恩人だ、ひとまず、信用できそうだ）
+message,<user>,(Hmm，a kingdom-licensed treasure hunter... And above all，she saved<br>my life. I think I can trust her for now.)<br> 
 
 window,off
 wait,0.15
@@ -239,9 +239,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,メリッサ,日々一攫千金を狙って、いろんなところの遺跡に潜ってるんだ。<br>で、最近は前線基地を拠点にして、大穴に潜ってるってワケ。,107701000G,vc_10770100001_006_01,chara_1
+message,メリッサ,I'm always delving into ruins，hoping to strike it rich. Lately，I've<br>been using the Frontline Base to explore the Abyss.<br> ,107701000G,vc_10770100001_006_01,chara_1
 
-message,<user>,その大きなリュックもトレジャーハンターの装備ってわけか。<br>中には何が入ってるんだ？
+message,<user>,So that big backpack is part of your treasure hunter gear? What's<br>inside?<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -252,7 +252,7 @@ asyncseplay,setag1_9,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,メリッサ,あ、見たい？　見たいんでしょ～。<br>そんなに見たいんだ～。ど～うしよっかな～。,107701000G,vc_10770100001_007_01,chara_1
+message,メリッサ,Oh，you want to see? You really want to see，don't you? You're just<br>dying to see... What should I do?<br> ,107701000G,vc_10770100001_007_01,chara_1
 
 window,off
 wait,0.15
@@ -267,7 +267,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（……わざとらしすぎるだろ！<br>どう考えても中身見せたいのバレバレなんだが……）
+message,<user>,(...That's way too obvious! She clearly wants to show me what's<br>inside...)<br> 
 
 window,off
 wait,0.15
@@ -291,9 +291,9 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,メリッサ,しょうがないなぁ～。特別に見せてあげるね♪<br>……はいっ！,107701000G,vc_10770100001_008_01,chara_1
+message,メリッサ,Oh，I guess I have no choice. I'll give you a special look!♪ ...Here!<br> ,107701000G,vc_10770100001_008_01,chara_1
 
-message,<user>,こ、これは……！？　王冠に、宝石付きのペンダント、他にも<br>金や銀製の値打ちものがいろいろ……これ、全部大穴で拾ったのか！？
+message,<user>,Th-this is...! A crown，a jeweled pendant，and other valuables... Did<br>you find all these in the Abyss?<br> 
 
 asyncjump,CHARA,chara_1,-30,0.5,2,off,0,CONT
 
@@ -302,9 +302,9 @@ asyncseplay,setag1_11,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,メリッサ,そうだよー。こう見えて、お宝に対しては鼻が利くんだよね～。<br>すごいでしょ～？,107701000G,vc_10770100001_009_01,chara_1
+message,メリッサ,That's right. Despite how I look，I've got a good nose for<br>treasure，y'know. Pretty amazing，right?<br> ,107701000G,vc_10770100001_009_01,chara_1
 
-message,<user>,……正直、驚いた。<br>腕がいいトレジャーハンターなんだな、メリッサ。
+message,<user>,To be honest，I'm surprised. You're a skilled treasure<br>hunter，Melissa.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -316,7 +316,7 @@ asyncseplay,setag1_12,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,メリッサ,にひひひ～♪　そうでしょう、そうでしょ～♪<br>よ～し、褒められて気分もいいし、ここを出たら１杯奢ってあげるよ～♪,107701000G,vc_10770100001_010_01,chara_1
+message,メリッサ,Nihihihi!♪ Right!♪ Alright，I'm in a good mood from the praise，so<br>I'll treat you to a drink when we get out!♪<br> ,107701000G,vc_10770100001_010_01,chara_1
 
 window,off
 wait,0.15
@@ -331,7 +331,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（……腕はいいが、警戒心がなさすぎないか……？<br>俺が盗賊なら、根こそぎ戦利品を盗みかねないぞ。お人好しすぎるだろ……）
+message,<user>,(She's skilled，but way too careless... If I were a bandit，I could<br>steal all her loot. She's too trusting...)<br> 
 
 window,off
 wait,0.15
@@ -346,7 +346,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,なあ、メリッサ。ものは相談なんだが……<br>俺の宝探しを手伝ってくれるつもりはないか？
+message,<user>,Hey，Melissa. I've got a favor to ask... Would you be willing to help<br>me with my treasure hunt?<br> 
 
 window,off
 wait,0.15
@@ -393,9 +393,9 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,メリッサ,宝探しだって！？<br>その話……詳しくっ！,107701000G,vc_10770100001_011_01,chara_1
+message,メリッサ,A treasure hunt! I wanna hear more about that!<br> ,107701000G,vc_10770100001_011_01,chara_1
 
-message,<user>,めっちゃ食いついたな……。実は、ある筋から宝の情報を貰ったんだが、<br>目的の階層までの道が分からなくてな。お前の力を借りたい。
+message,<user>,You really latched onto that... I got a tip about a treasure，but I<br>don't know the way to the target floor. Could use your help.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -406,9 +406,9 @@ asyncseplay,setag1_15,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,メリッサ,なるほどね～。ワタシの宝探しのついででいいなら、手伝ってあげるよ。<br>――ただし！　分け前として、半分はもらうけどね～♪,107701000G,vc_10770100001_012_01,chara_1
+message,メリッサ,I see. If it's along with my own treasure hunt，I'll help you. —But!<br>As my share，I'll take half，okay!♪<br> ,107701000G,vc_10770100001_012_01,chara_1
 
-message,<user>,半分か……俺だけじゃ辿り着けそうにないし、妥当だな。<br>その条件で頼む。よろしくな、メリッサ。
+message,<user>,Half，huh... I can't seem to get there on my own，so that's fair. I'll<br>take those terms. Let's work together，Melissa.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -420,7 +420,7 @@ asyncseplay,setag1_16,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,メリッサ,うん、よろしくね～♪<br>それじゃあさっそく、キミが聞いたっていう宝の在り処の情報を聞こっか。,107701000G,vc_10770100001_013_01,chara_1
+message,メリッサ,Yep，nice to work with you!♪ Now then，let's hear about that treasure<br>location info you got.<br> ,107701000G,vc_10770100001_013_01,chara_1
 
 
 window,off
@@ -446,9 +446,9 @@ asynccharaemo,chara_1,Flash,CONT,0
 
 
 window,on,0.15
-message,メリッサ,――なるほど～。その地形だったら、心当たりあるよ。<br>この地図で言えば……この辺！,107701000G,vc_10770100001_014_01,chara_1
+message,メリッサ,—I see. With that terrain，I have an idea. On this map... around<br>here!<br> ,107701000G,vc_10770100001_014_01,chara_1
 
-message,<user>,これ……大穴内の地図か？<br>こんなに詳細な地図、どこで買ったんだ？
+message,<user>,This... is a map of the Abyss? Where did you buy such a detailed<br>map?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -459,7 +459,7 @@ asyncseplay,setag1_18,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,メリッサ,買ってないよ。ワタシが自分で書いたの。<br>地図を作るの、得意なんだよね～。,107701000G,vc_10770100001_015_01,chara_1
+message,メリッサ,I didn't buy it. I drew it myself. I'm good at making maps.<br> ,107701000G,vc_10770100001_015_01,chara_1
 
 window,off
 wait,0.15
@@ -474,9 +474,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（こんな詳細な地図を自分で……？　驚いたな……。<br>前線基地のどこの勢力もこんなに出来のいい地図は持ってないぞ）
+message,<user>,(She drew such a detailed map herself...? I'm amazed. None of the<br>factions at the Frontline Base have such a well-made map.)<br> 
 
-message,<user>,（ちゃんとした教育を受けてなければ、こんな緻密な地図は作れないはずだ。<br>こいつ、何者だ？　只者じゃないな……）
+message,<user>,(She couldn't have made such a precise map without proper education.<br>Who is she? She's not just anyone...)<br> 
 
 window,off
 wait,0.15
@@ -520,7 +520,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,メリッサ,じゃ、いこっか♪,107701000G,vc_10770100001_016_01,chara_1
+message,メリッサ,Well then，let's go!♪<br> ,107701000G,vc_10770100001_016_01,chara_1
 
 
 bgmstop,bgmtag1_2,1.5,0
@@ -544,7 +544,7 @@ waitorclick,2.5
 bgmplay,bgmtag1_3,bgm0026,0.75,1
 
 window,on,0.15
-message,,ひょんなことから共に宝探しをすることとなった２人だったが――<br><user>は間もなく、予想外の問題に直面することとなる。
+message,,The two ended up treasure hunting together due to a strange turn of<br>events—but %user% would soon face an unexpected problem.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -555,7 +555,7 @@ asyncseplay,setag1_20,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,メリッサ,おおっ！　あんなところに金貨見っけ！<br>いっただきぃ～！,107701000G,vc_10770100001_017_01,chara_1
+message,メリッサ,Ooh! I see a gold coin over there! I'm taking it!<br> ,107701000G,vc_10770100001_017_01,chara_1
 
 window,off
 wait,0.15
@@ -571,7 +571,7 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,<user>,お、おい、バカ！　周囲をよく見ろ！<br>すぐそばに不安定な大岩があるぞ！
+message,<user>,Hey，you idiot! Look around you! There's an unstable boulder right<br>next to you!<br> 
 
 window,off
 wait,0.15
@@ -617,7 +617,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,メリッサ,うわぁ～～～！？　岩が転がってきたぁ～～！<br>潰される～～！,107701000G,vc_10770100001_018_01,chara_1
+message,メリッサ,Whoaaa! The boulder is rolling over! I'm gonna get crushed!<br> ,107701000G,vc_10770100001_018_01,chara_1
 
 
 window,off
@@ -653,9 +653,9 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,メリッサ,おぉっ！　あの短剣、すっごい装飾が綺麗！<br>あれは値打ちものだね！,107701000G,vc_10770100001_019_01,chara_1
+message,メリッサ,Oh! That dagger has such beautiful decorations! That must be worth a<br>fortune!<br> ,107701000G,vc_10770100001_019_01,chara_1
 
-message,<user>,待て待て！　値打ちものなのは否定しないが、<br>モンスターがすぐそばで寝てるだろ！？
+message,<user>,Hold on，hold on! I'm not saying it's not valuable，but there's a<br>monster sleeping right next to it!<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -666,9 +666,9 @@ asyncseplay,setag1_24,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,メリッサ,そういう時は～……必殺！　抜き足差し足、忍び足～、ってね！,107701000G,vc_10770100001_020_01,chara_1
+message,メリッサ,When that happens... Special move! Sneak in on<br>tiptoe，ninja-style—that's the trick!<br> ,107701000G,vc_10770100001_020_01,chara_1
 
-message,<user>,起きたらどうするつもりだ！？　袋叩きにされるぞ！？
+message,<user>,And what are you gonna do when it wakes up! We'll get clobbered!<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -680,7 +680,7 @@ asyncseplay,setag1_25,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,メリッサ,ふっ、覚えておくといいよ、キミ。<br>宝探しに危険はつきもの！　それを乗り越えてこそのプロだってね！,107701000G,vc_10770100001_021_01,chara_1
+message,メリッサ,Heh，let me tell you，danger is part of treasure hunting! Overcoming<br>it is what makes a pro!<br> ,107701000G,vc_10770100001_021_01,chara_1
 
 window,off
 wait,0.15
@@ -696,7 +696,7 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,<user>,だからって、モンスターの巣に飛び込むのはやりすぎだ……！
+message,<user>,That still doesn't mean you should dive into a monster's nest...!<br> 
 
 
 bgmstop,bgmtag1_3,1.5,0
@@ -721,7 +721,7 @@ sestop,se1_1001,1
 bgmplay,bgmtag1_4,bgm0035,0.75,1
 
 window,on,0.15
-message,<user>,ぜぇ、ぜぇ、ぜぇ……っ！
+message,<user>,*pant，pant，pant...*<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -746,9 +746,9 @@ asyncseplay,setag1_26,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,メリッサ,いやぁ～、参っちゃったね～。<br>まさか枯れ枝踏んづけちゃって、モンスター全員が起きるなんてさ～。,107701000G,vc_10770100001_022_01,chara_1
+message,メリッサ,Whew，that was a close one! Who'd have thought stepping on a twig<br>would wake up every monster!<br> ,107701000G,vc_10770100001_022_01,chara_1
 
-message,<user>,笑いごとじゃないだろう！？　お前、いつもこんなことやってんのか！？<br>よく今まで無事だったな！？
+message,<user>,This isn't funny! Do you always pull stunts like this! How are you<br>even still alive!<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -759,7 +759,7 @@ asyncseplay,setag1_27,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,メリッサ,罠だろうがモンスターだろうが、いざとなったら走って逃げるまで！<br>体力には自信があるからねっ！,107701000G,vc_10770100001_023_01,chara_1
+message,メリッサ,Traps or monsters，when it comes down to it，you just run for it! I've<br>got the stamina to back it up!<br> ,107701000G,vc_10770100001_023_01,chara_1
 
 window,off
 wait,0.15
@@ -774,9 +774,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（そういえばこいつ、息も切らしてもいないな……。<br>追いついてきそうなモンスターも撃退してもいたし、腕も立つみたいだ）
+message,<user>,(Come to think of it，she's not even winded... She drove off the<br>monsters that were chasing us too. She seems pretty skilled.)<br> 
 
-message,<user>,（地図の作成能力もあるし、財宝を手に入れる嗅覚もある。<br>不用意な行動で危険に首を突っ込んだかと思えば、それを切り抜ける腕もある）
+message,<user>,(She can make maps and has a nose for treasure. I thought she was<br>just reckless，but she's got skills to get herself out of trouble.)<br> 
 
 window,off
 wait,0.15
@@ -820,9 +820,9 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,メリッサ,ねぇねぇ、見てよ見てよ！<br>さっき手に入れた短剣！　これ、いい値で売れそうじゃない？　ねぇっ？,107701000G,vc_10770100001_024_01,chara_1
+message,メリッサ,Hey hey，look at this! The dagger I just snagged! Think this'll fetch<br>a good price? Huh，huh?<br> ,107701000G,vc_10770100001_024_01,chara_1
 
-message,<user>,……随分楽しそうだな。ついさっき死にかけたってのに……
+message,<user>,...You sure are chipper. Even though we nearly died just a minute<br>ago.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -833,7 +833,7 @@ asyncseplay,setag1_29,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,メリッサ,そりゃ楽しいよ～。冒険はロマン！　宝探しもロマン！<br>それで、宝がいい値段で売れたら超ハッピー！,107701000G,vc_10770100001_025_01,chara_1
+message,メリッサ,Well duh，I'm having fun! Adventure is romance! Treasure hunting is<br>romance! And if we sell it for a good price，that makes me super happy!<br> ,107701000G,vc_10770100001_025_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -844,9 +844,9 @@ asyncseplay,setag1_30,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,メリッサ,やっぱり冒険の醍醐味は、お宝だよ、お宝っ！<br>目指せ一攫千金！　目指せ、億万長者～！,107701000G,vc_10770100001_026_01,chara_1
+message,メリッサ,That's right，the real thrill of adventure is the loot，the loot! Aim<br>for the jackpot! Aim to become a millionaire!<br> ,107701000G,vc_10770100001_026_01,chara_1
 
-message,<user>,危なっかしいやら、たくましいやら……。<br>まあ、嗅覚は確かなようだから、頼りにはさせてもらうけどな。
+message,<user>,(She's nerve-wracking，but also tough... Well，her instincts seem<br>solid，so I'll rely on her.)<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -858,7 +858,7 @@ asyncseplay,setag1_31,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,メリッサ,大船に乗ったつもりで、どーんと任せてよね！,107701000G,vc_10770100001_027_01,chara_1
+message,メリッサ,Just relax and leave it all to me—I've got you covered!<br> ,107701000G,vc_10770100001_027_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -869,7 +869,7 @@ asyncseplay,setag1_32,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,メリッサ,……あ。ちょっと待って！,107701000G,vc_10770100001_028_01,chara_1
+message,メリッサ,...Oh. Hold on a sec!<br> ,107701000G,vc_10770100001_028_01,chara_1
 
 window,off
 wait,0.15
@@ -884,7 +884,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（なんだ？　急に真面目な顔になったな……。<br>まさか、罠でも察知したのか？）
+message,<user>,(What is it? She suddenly looks serious... Did she detect a trap or<br>something?)<br> 
 
 window,off
 wait,0.15
@@ -899,7 +899,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,どうした、何か問題があったか……？
+message,<user>,What's wrong? Did something happen?<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -910,7 +910,7 @@ asyncseplay,setag1_33,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,メリッサ,あのね……。<br>うっかり忘れそうになっていたけど……,107701000G,vc_10770100001_029_01,chara_1
+message,メリッサ,Hey，you know... I almost forgot，but...<br> ,107701000G,vc_10770100001_029_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -921,9 +921,9 @@ asyncseplay,setag1_34,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,メリッサ,そろそろお茶の時間だから、ここでティータイムにしよ～♪,107701000G,vc_10770100001_030_01,chara_1
+message,メリッサ,It's almost tea time，so let's have it here!♪<br> ,107701000G,vc_10770100001_030_01,chara_1
 
-message,<user>,……は？　ティータイム……？
+message,<user>,...Huh? Tea time...?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -934,7 +934,7 @@ asyncseplay,setag1_35,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,メリッサ,うんっ。洞窟とか遺跡の中って、時間の感覚を忘れがちだけど、<br>ティータイムは忘れちゃいけないよねっ。,107701000G,vc_10770100001_031_01,chara_1
+message,メリッサ,Yeah，in caves and ruins you tend to lose track of time，but you can't<br>forget tea time，right?<br> ,107701000G,vc_10770100001_031_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -945,7 +945,7 @@ asyncseplay,setag1_36,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,メリッサ,今日は、美味しいスコーンを用意してきてるんだ～。<br>キミにもわけてあげるねっ。まずは、お湯を沸かして～♪,107701000G,vc_10770100001_032_01,chara_1
+message,メリッサ,Today，I brought some delicious scones! I'll share some with you too.<br>First，let's boil some water!♪<br> ,107701000G,vc_10770100001_032_01,chara_1
 
 window,off
 wait,0.15
@@ -960,7 +960,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（モンスターに襲われた直後に、お茶の用意だと！？<br>こいつ……やっぱり分からない……！）
+message,<user>,(After being attacked by monsters，she's preparing tea! This girl...<br>I just don't get her...!)<br> 
 
 window,off
 bgmstop,bgmtag1_4,0.5

@@ -40,7 +40,7 @@ bgmplay,bgmtag1_1,bgm0024,0.75,1
 asyncseplay,setag1_1,SE_DUMMY,0,1,STOP,0
 
 window,on,0.15
-message,,――前線基地近くの森の中を、数台の馬車が歩いている。<br>１人の女性騎士が車内で手紙を書いていた。
+message,,—Several carriages were traveling through the forest near the<br>Frontline Base. Inside one carriage，a female knight was writing a letter.<br> 
 
 window,off
 wait,0.15
@@ -89,7 +89,7 @@ wait,0.5
 
 
 window,on,0.15
-message,フレイヤ,（……お父さま、お姉さま。とつぜんいなくなってごめんなさい。<br>わたしは今、前線基地へ向かっています）,105401000G,vc_10540100001_001_01,chara_1
+message,フレイヤ,(...Dear Father and Sister. I'm sorry for disappearing all of a<br>sudden. I'm on my way to the Frontline Base now.)<br> ,105401000G,vc_10540100001_001_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -100,7 +100,7 @@ asyncseplay,setag1_3,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,フレイヤ,（うわさによると、前線基地では兵が足りなくて大変だそうです。<br>それを聞いて、だまっていられませんでした）,105401000G,vc_10540100001_002_01,chara_1
+message,フレイヤ,(I heard a rumor that the Frontline Base is short on soldiers and in<br>trouble. After hearing that，I couldn't stay silent.)<br> ,105401000G,vc_10540100001_002_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -111,7 +111,7 @@ asyncseplay,setag1_4,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,フレイヤ,（そこで、こっそり前線基地へ向かう馬車に飛び込んだのです）,105401000G,vc_10540100001_003_01,chara_1
+message,フレイヤ,(So I snuck onto a carriage heading for the Frontline Base.)<br> ,105401000G,vc_10540100001_003_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -122,7 +122,7 @@ asyncseplay,setag1_5,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,フレイヤ,（どうか心配しないでください。わたしの剣で、前線基地の、<br>正義のお役に立ってみせます。また手紙を書きます。待っててね）,105401000G,vc_10540100001_004_01,chara_1
+message,フレイヤ,(Please don't worry. With my sword，I will serve the cause of justice<br>at the Frontline Base. I'll write again. Wait for me.)<br> ,105401000G,vc_10540100001_004_01,chara_1
 
 window,off
 wait,0.15
@@ -140,7 +140,7 @@ wait,0.1
 
 
 window,on,0.15
-message,御者,そろそろ前線基地ですよー。用意してくださいねー。,900000001
+message,御者,We'll be at the Frontline Base soon. Please get ready.<br> ,900000001
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -151,7 +151,7 @@ asyncseplay,setag1_6,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,フレイヤ,……♪,105401000G,vc_10540100001_005_01,chara_1
+message,フレイヤ,...♪<br> ,105401000G,vc_10540100001_005_01,chara_1
 
 
 
@@ -200,11 +200,11 @@ wait,0.5
 
 
 window,on,0.15
-message,兵士Ａ,し、司令官。とりあえず人は集めてみましたが……<br>明日の大穴探索、本当にこの戦力で出撃するんですか？,401201000,,chara_2
+message,兵士Ａ,C-Commander. We've gathered some people for now，but... are we really<br>going into the Abyss tomorrow with this force?<br> ,401201000,,chara_2
 
-message,<user>,言いたいことは分かるが、仕方ないんだよ……手練れは家庭の事情等で留守。<br>昨日の探索で、経験のある兵士たちは疲労困憊――休ませてやりたい。
+message,<user>,I understand，but it can't be helped... The veterans are away and the<br>experienced soldiers from yesterday are exhausted. They need rest.<br> 
 
-message,<user>,だが昨日、安全を確保したエリアの調査は進めておきたいんだ。<br>戦力に不安があっても、明日の探索は外せん。
+message,<user>,But I want to proceed with surveying the areas we secured yesterday.<br>Even if our force is lacking，we can't put off tomorrow's exploration.<br> 
 
 window,off
 wait,0.15
@@ -221,9 +221,9 @@ wait,0.5
 
 
 window,on,0.15
-message,兵士Ｂ,とはいえ、厳しい探索になりそうですね……,401301000,vc_10540100001_006_01,chara_3
+message,兵士Ｂ,Still，it looks like it's going to be a tough exploration...<br> ,401301000,vc_10540100001_006_01,chara_3
 
-message,<user>,この時期に苦労するのは分かっていたから、手は打っているんだけどな――<br>果たして、間に合うかどうか――
+message,<user>,I knew it would be tough this time of year，so I've taken some<br>measures—but whether they'll arrive in time is another story...<br> 
 
 window,off
 wait,0.15
@@ -269,9 +269,9 @@ asynccharaemo,chara_4,Laugh,CONT,0
 
 
 window,on,0.15
-message,兵士Ｃ,司令官！　ミレスガルドから兵士が到着しました！<br>援軍とのことです！,401101000,vc_10540100001_007_01,chara_4
+message,兵士Ｃ,Commander! Soldiers have arrived from Milesgard! They're<br>reinforcements!<br> ,401101000,vc_10540100001_007_01,chara_4
 
-message,<user>,……！　来てくれたか！<br>要請を出して正解だった！
+message,<user>,...! They came! Glad I put in that request!<br> 
 
 window,off
 wait,0.15
@@ -317,16 +317,16 @@ wait,0.5
 
 
 window,on,0.15
-message,援軍Ａ,あなたが司令官ですね？　お待たせして申し訳ございません！,400901000,,chara_5
+message,援軍Ａ,You're the Commander，correct? Sorry to have kept you waiting!<br> ,400901000,,chara_5
 
 asyncjump,CHARA,chara_6,30,0.25,1,off,0,CONT
 
 
-message,援軍Ｂ,これより、我々はあなたの指揮下に入ります！<br>よろしくお願いいたします！,401001000,vc_10540100001_008_01,chara_6
+message,援軍Ｂ,From now on，we are under your command! We look forward to working<br>with you!<br> ,401001000,vc_10540100001_008_01,chara_6
 
-message,<user>,こちらこそ、よろしく頼む。<br>さっそくだが、人員を各隊へ割り振りたい。
+message,<user>,Likewise，I look forward to it. But first，I'd like to assign<br>personnel to each unit.<br> 
 
-message,<user>,口頭でいいから兵士たちについて聞かせてもらえると――ん？
+message,<user>,Just a verbal report is fine，so if you could give me some info on<br>the soldiers—huh?<br> 
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -391,9 +391,9 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,フレイヤ,……ここが、前線基地。<br>わたしの冒険が始まる場所……！,105401000G,vc_10540100001_009_01,chara_1
+message,フレイヤ,...So this is the Frontline Base. The place where my adventure<br>begins...!<br> ,105401000G,vc_10540100001_009_01,chara_1
 
-message,<user>,……ずいぶんと小さな娘がいるな？
+message,<user>,...We've sure got a young girl here，don't we?<br> 
 
 window,off
 wait,0.15
@@ -448,7 +448,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,あの娘も兵士なのか？<br>実は手練れとか……？,401201000,,chara_2
+message,兵士Ａ,Is that girl also a soldier? Or maybe she's actually a veteran...<br> ,401201000,,chara_2
 
 asyncshake,CHARA,chara_5,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -457,9 +457,9 @@ asyncseplay,setag1_14,se4800009,0,1,CONT,0
 asynccharaemo,chara_5,Question,CONT,0
 
 
-message,援軍Ａ,……はて。<br>あんな娘、連れてきた覚えはないんだが――,400901000,,chara_5
+message,援軍Ａ,Hmm... I don't recall bringing a girl like that along...<br> ,400901000,,chara_5
 
-message,<user>,ふむ……
+message,<user>,Hmm...<br> 
 
 window,off
 wait,0.15
@@ -499,7 +499,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,お前、少しいいか？
+message,<user>,Hey，you. Got a minute?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -510,7 +510,7 @@ asyncseplay,setag1_15,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,フレイヤ,あ、はい！,105401000G,vc_10540100001_010_01,chara_1
+message,フレイヤ,Ah，yes!<br> ,105401000G,vc_10540100001_010_01,chara_1
 
 window,off
 wait,0.15
@@ -537,7 +537,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,フレイヤ,（しれいかんがわたしのところへ……！<br>チャンスだわ！）,105401000G,vc_10540100001_011_01,chara_1
+message,フレイヤ,(The Commander is coming over to me! This is my chance!)<br> ,105401000G,vc_10540100001_011_01,chara_1
 
 window,off
 wait,0.15
@@ -554,7 +554,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,お前のことをミレスガルド兵たちは知らないようなんだが――<br>いったい何者だ？
+message,<user>,The Milesgard soldiers don't seem to know who you are... So who<br>exactly are you?<br> 
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -563,9 +563,9 @@ asyncseplay,setag1_17,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,フレイヤ,わたしはフレイヤです！　ミレスガルドの騎士です！<br>戦力が足りないと聞いて、やってまいりました！,105401000G,vc_10540100001_012_01,chara_1
+message,フレイヤ,I am Freya! A knight of Milesgard! I heard you were short on<br>manpower，so I came!<br> ,105401000G,vc_10540100001_012_01,chara_1
 
-message,<user>,やってきた……というのは、無断でじゃないよな。<br>正規の入隊手続きは取っているんだろ？
+message,<user>,When you say 'came，' you didn't just sneak in，right? You went<br>through proper enlistment procedures?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -576,9 +576,9 @@ asyncseplay,setag1_18,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,フレイヤ,いいえ、とってませんっ。,105401000G,vc_10540100001_013_01,chara_1
+message,フレイヤ,No，I didn't!<br> ,105401000G,vc_10540100001_013_01,chara_1
 
-message,<user>,なにっ！？
+message,<user>,What!<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -589,7 +589,7 @@ asyncseplay,setag1_19,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,フレイヤ,でもでも、やる気だけは誰にも負けないんですっ！,105401000G,vc_10540100001_014_01,chara_1
+message,フレイヤ,But still，my motivation is second to none!<br> ,105401000G,vc_10540100001_014_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -600,7 +600,7 @@ asyncseplay,setag1_20,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,フレイヤ,厄災と戦う前線基地は正義の剣であり盾！,105401000G,vc_10540100001_015_01,chara_1
+message,フレイヤ,The Frontline Base that fights the Calamity is a sword and shield of<br>justice!<br> ,105401000G,vc_10540100001_015_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -611,9 +611,9 @@ asyncseplay,setag1_21,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,フレイヤ,わたしも正義のために戦いたいんです！<br>そのためなら、何も怖くありませんっ！,105401000G,vc_10540100001_016_01,chara_1
+message,フレイヤ,I want to fight for justice too! For that，I'm not afraid of<br>anything!<br> ,105401000G,vc_10540100001_016_01,chara_1
 
-message,<user>,……そうか。
+message,<user>,I see...<br> 
 
 window,off
 wait,0.15
@@ -628,7 +628,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（やれやれ……厄介なやつが紛れていたな。<br>どうしたもんか……）
+message,<user>,(Well，well... a troublesome one has slipped in. What should I do...)<br> 
 
 window,off
 wait,0.15
@@ -682,7 +682,7 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,兵士Ｃ,要するに、子どもが正義に憧れて、勝手に紛れ込んできたってこと？,401101000,vc_10540100001_017_01,chara_4
+message,兵士Ｃ,So basically，a kid got inspired by justice and snuck in on her own?<br> ,401101000,vc_10540100001_017_01,chara_4
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -693,7 +693,7 @@ asyncseplay,setag1_23,se4800006,0,1,CONT,0
 asynccharaemo,chara_3,Trouble,CONT,0
 
 
-message,兵士Ｂ,せっかく来てくれた援軍だが……あいつらみんな、大丈夫なのか？,401301000,vc_10540100001_018_01,chara_3
+message,兵士Ｂ,These reinforcements came all this way，but... are they all right?<br> ,401301000,vc_10540100001_018_01,chara_3
 
 window,off
 wait,0.15
@@ -748,9 +748,9 @@ asynccharaemo,chara_5,Panic,CONT,0
 
 
 window,on,0.15
-message,援軍Ａ,す、すみません、司令官……<br>隊の管理が行き届いていなかったようで……,400901000,,chara_5
+message,援軍Ａ,I-I'm sorry，Commander... It seems our squad's oversight was<br>inadequate...<br> ,400901000,,chara_5
 
-message,<user>,いや、謝ることはない。まだ幼いが、俺たちを助けようとして<br>来てくれたのは間違いないんだ。邪険にすることはないだろう。
+message,<user>,No，there's no need to apologize. She's still young，but it's clear<br>she came to help us. There's no reason to turn her away.<br> 
 
 window,off
 wait,0.15
@@ -798,13 +798,13 @@ wait,0.5
 
 
 window,on,0.15
-message,フレイヤ,わぁ！　さすがはしれいかん！<br>わたしの気持ちを分かってくれましたか……やりますねぇ♪,105401000G,vc_10540100001_019_01,chara_1
+message,フレイヤ,Wow! Just as I'd expect from the Commander! You understand my<br>feelings... You're really good at this!♪<br> ,105401000G,vc_10540100001_019_01,chara_1
 
-message,援軍Ｂ,こ、こら！　司令官になんて失礼な！,401001000,vc_10540100001_020_01,
+message,援軍Ｂ,H-hey! That's rude to the Commander!<br> ,401001000,vc_10540100001_020_01,
 
-message,<user>,ハハッ！　いい。気にするな。
+message,<user>,Haha! It's fine. Don't worry about it.<br> 
 
-message,<user>,頼りにしているぞ、フレイヤ。
+message,<user>,I'm counting on you，Freya.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -815,11 +815,11 @@ asyncseplay,setag1_26,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,フレイヤ,はい！　何からやりますか？<br>大穴探索ですか？　モンスター退治ですかっ？,105401000G,vc_10540100001_021_01,chara_1
+message,フレイヤ,Yes! What should I start with? Abyss exploration? Monster<br>extermination?<br> ,105401000G,vc_10540100001_021_01,chara_1
 
-message,<user>,うんうん、頼もしいな。<br>だが、その一方で、問題もあるんだ。
+message,<user>,Yeah，that's reassuring. But we've got a problem，too.<br> 
 
-message,<user>,お前は正規の手順を踏んで入隊していないから、<br>俺たちはお前がどんなことをできるのか分からない。フレイヤは何ができる？
+message,<user>,You didn't go through the proper enlistment process，so we don't know<br>what you can do. What can you do，Freya?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -831,9 +831,9 @@ asyncseplay,setag1_27,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,フレイヤ,剣が得意です！<br>幼い頃からずっと練習していますっ！,105401000G,vc_10540100001_022_01,chara_1
+message,フレイヤ,I'm skilled with a sword! I've been training since I was a child!<br> ,105401000G,vc_10540100001_022_01,chara_1
 
-message,<user>,ほほう。なるほどなるほど、剣が扱えるのか！<br>ちょうどいい！　頼みたい仕事があるんだ。ついてきてくれるか？
+message,<user>,Ohh? So you can handle a sword! Perfect! I've got a job for you.<br>Will you come with me?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -844,7 +844,7 @@ asyncseplay,setag1_28,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,フレイヤ,もちろんです！,105401000G,vc_10540100001_023_01,chara_1
+message,フレイヤ,Of course!<br> ,105401000G,vc_10540100001_023_01,chara_1
 
 window,off
 wait,0.15
@@ -870,7 +870,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,フレイヤ,（わたしの初仕事ですね……行き先は大穴かな？<br>それともモンスターの巣？）,105401000G,vc_10540100001_024_01,chara_1
+message,フレイヤ,(This is my first assignment... I wonder if it's the Abyss? Or maybe<br>a monster's nest?)<br> ,105401000G,vc_10540100001_024_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -881,7 +881,7 @@ asyncseplay,setag1_30,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,フレイヤ,（どっちにしろ、絶対成功させます！<br>お父さまたちにさっそく手紙を書けそう……♪）,105401000G,vc_10540100001_025_01,chara_1
+message,フレイヤ,(Either way，I'll definitely succeed! I might be able to write to<br>Father and the others right away!♪)<br> ,105401000G,vc_10540100001_025_01,chara_1
 
 
 
@@ -920,11 +920,11 @@ wait,0.5
 
 
 window,on,0.15
-message,フレイヤ,……？　あの、しれいかん。<br>ここはキッチンですよね？　こんなところに、わたしの仕事が？,105401000G,vc_10540100001_026_01,chara_1
+message,フレイヤ,...? Um，Commander. This is the kitchen，right? Is my job here?<br> ,105401000G,vc_10540100001_026_01,chara_1
 
-message,<user>,最近、厨房にネズミが出るようでな……<br>外のゴミ捨て場をカラスが荒らすこともある。
+message,<user>,Lately，rats have been appearing in the kitchen... And crows have<br>been raiding the garbage dump outside.<br> 
 
-message,<user>,フレイヤには、そいつらの駆除を頼みたい！
+message,<user>,Freya，I want you to get rid of them!<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -935,7 +935,7 @@ asyncseplay,setag1_32,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,フレイヤ,なっ……ななっ、なっ……！！,105401000G,vc_10540100001_027_01,chara_1
+message,フレイヤ,Wha... what!<br> ,105401000G,vc_10540100001_027_01,chara_1
 
 window,off
 wait,0.15
@@ -969,7 +969,7 @@ asynccharaemo,chara_1,Anger,CONT,0
 
 
 window,on,0.15
-message,フレイヤ,しれいかんっ！　がっかりですっ！<br>わたしは騎士ですよ！　それなのに害獣を倒せなんて……,105401000G,vc_10540100001_028_01,chara_1
+message,フレイヤ,Commander! I'm disappointed! I am a knight! Yet you want me to fight<br>vermin...<br> ,105401000G,vc_10540100001_028_01,chara_1
 
 asyncjump,CHARA,chara_1,40,0.5,2,off,0,CONT
 
@@ -978,11 +978,11 @@ asyncseplay,setag1_34,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,フレイヤ,頼りにしている、というのはウソでしたか！？,105401000G,vc_10540100001_029_01,chara_1
+message,フレイヤ,Was that 'I'm counting on you' a lie?!<br> ,105401000G,vc_10540100001_029_01,chara_1
 
-message,<user>,違う違う。本当に困っているんだ。<br>このままだと、みーんな腹を空かせることになるからなぁ。
+message,<user>,No，no. I'm really in trouble. If we don't take care of<br>this，everyone's going to go hungry.<br> 
 
-message,<user>,これも立派な正義のための仕事！<br>俺たちのために堪えてくれ！　頼むっ！！
+message,<user>,This is also a noble task for justice! Bear with it for our sake!<br>Please!<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -993,9 +993,9 @@ asyncseplay,setag1_35,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フレイヤ,し、しかし――,105401000G,vc_10540100001_030_01,chara_1
+message,フレイヤ,B-but...<br> ,105401000G,vc_10540100001_030_01,chara_1
 
-message,<user>,お前だけが頼りなんだ！<br>分かってくれーっ！
+message,<user>,You're my only hope! Please，understand!<br> 
 
 window,off
 wait,0.15
@@ -1022,11 +1022,11 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,フレイヤ,な、なるほど～<br>そんなにわたしの力が必要なんですね……！,105401000G,vc_10540100001_031_01,chara_1
+message,フレイヤ,Oh，I see... So you really do need my strength...!<br> ,105401000G,vc_10540100001_031_01,chara_1
 
-message,<user>,あ、あと、俺は司令官だから。お前や部隊を守るため、<br>お前の実力を見極めないといけない。
+message,<user>,Oh，and I'm the Commander. To protect you and the unit，I need to<br>gauge your abilities.<br> 
 
-message,<user>,この仕事をちゃんとやってくれたら、兵士たちも説得しやすくなるだろう？
+message,<user>,If you do this job properly，it'll make it easier to convince the<br>soldiers，won't it?<br> 
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -1035,7 +1035,7 @@ asyncseplay,setag1_38,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,フレイヤ,ふっふっふ……分かりました！<br>騎士フレイヤ、しれいかんの期待に必ず応えます！,105401000G,vc_10540100001_032_01,chara_1
+message,フレイヤ,Fufufu... Understood! Knight Freya will surely meet the Commander's<br>expectations!<br> ,105401000G,vc_10540100001_032_01,chara_1
 
 window,off
 wait,0.15
@@ -1061,7 +1061,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,フレイヤ,（思ってたのとはちがうけど――これも立派な仕事！<br>ここで力を示せばいいだけ！）,105401000G,vc_10540100001_033_01,chara_1
+message,フレイヤ,(It's not what I expected，but this is still a worthy task! I just<br>need to prove my power here!)<br> ,105401000G,vc_10540100001_033_01,chara_1
 
 window,off
 wait,0.15
@@ -1096,7 +1096,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（よしよし。その気になってくれたぞ。<br>うまくいけばネズミたちも駆除できる――我ながら完璧だ。ふふ）
+message,<user>,(Good，good. She's on board. If this works，we'll get rid of the rats<br>too... Pretty perfect if I do say so myself. Fufu.)<br> 
 
 window,off
 wait,0.15
@@ -1127,7 +1127,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,ネズミ,チューッ！！！,900000003
+message,ネズミ,Squeak!<br> ,900000003
 
 window,off
 wait,0.15
@@ -1171,9 +1171,9 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,フレイヤ,ややっ！　さっそく出ましたね！？,105401000G,vc_10540100001_034_01,chara_1
+message,フレイヤ,Yikes! There it is already，huh!<br> ,105401000G,vc_10540100001_034_01,chara_1
 
-message,<user>,そうらしい。お手並み拝見だ。<br>任せたぞ、フレイヤ！
+message,<user>,So it seems. Let's see what you've got. I'm counting on you，Freya.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1185,7 +1185,7 @@ asyncseplay,setag1_42,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,フレイヤ,はいっ！,105401000G,vc_10540100001_035_01,chara_1
+message,フレイヤ,Yes!<br> ,105401000G,vc_10540100001_035_01,chara_1
 
 window,off
 wait,0.15
@@ -1229,7 +1229,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,フレイヤ,食べ物に手を付ける悪のネズミ！<br>そこになおりなさい！,105401000G,vc_10540100001_036_01,chara_1
+message,フレイヤ,Evil rat who steals food! You're under pest control—I mean，arrest!<br> ,105401000G,vc_10540100001_036_01,chara_1
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1241,7 +1241,7 @@ asyncseplay,setag1_44,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,フレイヤ,わたしはフレイヤ！<br>世のため人のため、人々の剣と盾になる者！,105401000G,vc_10540100001_037_01,chara_1
+message,フレイヤ,I am Freya! For the sake of the world and its people，I am she who<br>becomes their sword and shield!<br> ,105401000G,vc_10540100001_037_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1252,7 +1252,7 @@ asyncseplay,setag1_45,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,フレイヤ,きみを成敗して、わたしは大穴に――,105401000G,vc_10540100001_038_01,chara_1
+message,フレイヤ,I will punish you，and then I'm off to the Abyss—<br> ,105401000G,vc_10540100001_038_01,chara_1
 
 window,off
 wait,0.15
@@ -1289,7 +1289,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,……フレイヤ。<br>ネズミが大声に驚いて逃げてしまったぞ……
+message,<user>,...Freya. The rat got startled by your loud voice and ran away...<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1300,9 +1300,9 @@ asyncseplay,setag1_46,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,フレイヤ,え～っ！？,105401000G,vc_10540100001_039_01,chara_1
+message,フレイヤ,Ehh!<br> ,105401000G,vc_10540100001_039_01,chara_1
 
-message,<user>,追い払ってくれたのはありがたいんだがな。<br>駆除しないと根本の解決にならん。
+message,<user>,I appreciate you chasing it away，but unless we get rid of it，it's<br>not a proper solution.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1313,7 +1313,7 @@ asyncseplay,setag1_47,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,フレイヤ,は、はい……ごめんなさい……,105401000G,vc_10540100001_040_01,chara_1
+message,フレイヤ,Y-yes... I'm sorry...<br> ,105401000G,vc_10540100001_040_01,chara_1
 
 window,off
 wait,0.15
@@ -1332,7 +1332,7 @@ wait,0.5
 
 
 window,on,0.15
-message,フレイヤ,次こそはちゃんとやってみせますので！,105401000G,vc_10540100001_041_01,chara_1
+message,フレイヤ,I'll definitely do it right next time!<br> ,105401000G,vc_10540100001_041_01,chara_1
 
 window,off
 bgmstop,bgmtag1_3,0.5

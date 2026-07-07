@@ -23,9 +23,9 @@ bgmplay,bgmtag1_1,bgm0024,0.75,1
 
 
 window,on,0.15
-message,<user>,mmm，this is a nice forest.<br> 
+message,<user>,Mmm，this is a nice forest.<br> 
 
-message,,The forest was lush and teeming with life. I had gone for a walk to<br>familiarize myself with the surroundings of the Frontline Base，when a song drifted out from deep among the trees.<br> 
+message,,The forest teemed with life. I walked to get familiar with the<br>Frontline Base's area when a song drifted from deep among the trees.<br> 
 
 message,<user>,This song...<br> 
 
@@ -81,7 +81,7 @@ asyncseplay,setag1_2,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 window,on,0.15
-message,,Today，I sensed a hint of melancholy in her voice. I grew worried and<br>stood watching her，until the song broke off partway through.<br> 
+message,,Today，I sensed a hint of melancholy in her voice. Worried，I stood<br>watching until the song broke off partway through.<br> 
 
 asyncjump,CHARA,chara_1,-40,1,1,off,0,CONT
 
@@ -151,7 +151,7 @@ asyncseplay,setag1_6,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ラモーナ,I suppose I can't hide anything from you，Lord Commander.<br>Actually，it's about my singing...<br> ,106401000G,vc_10640100011_003_01,chara_1
+message,ラモーナ,I suppose I can't hide anything from you，Commander. Actually，it's<br>about my singing...<br> ,106401000G,vc_10640100011_003_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -162,7 +162,7 @@ asyncseplay,setag1_7,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ラモーナ,A venerable old woman who was once a great bard told me my songs<br>lack life experience...<br> ,106401000G,vc_10640100011_004_01,chara_1
+message,ラモーナ,A venerable old woman，once a great bard，told me my songs lack life<br>experience...<br> ,106401000G,vc_10640100011_004_01,chara_1
 
 message,<user>,Life experience... for songs?<br> 
 
@@ -186,7 +186,7 @@ asyncseplay,setag1_9,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ラモーナ,But... for a maiden like myself who has never... known a man... my<br>voice lacks depth，she said...<br> ,106401000G,vc_10640100011_006_01,chara_1
+message,ラモーナ,But... for a maiden like me who has never... known a man... my voice<br>lacks depth...<br> ,106401000G,vc_10640100011_006_01,chara_1
 
 message,<user>,She said that to you? That's harsh. But still，I suppose it can't be<br>helped—you're still young.<br> 
 
@@ -215,7 +215,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ラモーナ,Um，Lord Commander...<br> ,106401000G,vc_10640100011_007_01,chara_1
+message,ラモーナ,Um，Commander...<br> ,106401000G,vc_10640100011_007_01,chara_1
 
 message,,Suddenly，Ramona looked straight at me as if she had made up her<br>mind. Her gaze was so intense it made me straighten up.<br> 
 
@@ -230,9 +230,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 message,ラモーナ,Um，this is a selfish request，but... would you please give me the<br>experience my songs lack?<br> ,106401000G,vc_10640100011_008_01,chara_1
 
-message,,That request caught me off guard. ""Experience"" clearly meant<br>experience with a man. But her eyes were earnest. I had no choice but to answer her seriously.<br> 
+message,,That request caught me off guard. 'Experience' clearly meant with a<br>man，but her earnest eyes left me no choice but to answer seriously.<br> 
 
-message,<user>,... I understand. If that's the case，come to my room. We'll have a<br>lesson to help you become a better bard.<br> 
+message,<user>,Got it. Then come to my room. We'll have a lesson to make you a<br>better bard.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 

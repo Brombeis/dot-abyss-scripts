@@ -766,7 +766,7 @@ asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,ノエミ,あなたも、皆さんも、全員治しますっ！,100601000G,vc_10060100001_007_01,chara_1
+message,ノエミ,I'll heal you all—every single one of you!<br> ,100601000G,vc_10060100001_007_01,chara_1
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -775,7 +775,7 @@ asyncseplay,setag1_23,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ノエミ,私は誰１人見捨てたりしません！<br>全員で生きて帰るんですっ！,100601000G,vc_10060100001_008_01,chara_1
+message,ノエミ,I won't abandon a single person! We're all going home alive!<br> ,100601000G,vc_10060100001_008_01,chara_1
 
 window,off
 wait,0.15
@@ -828,7 +828,7 @@ wait,0.5
 
 
 window,on,0.15
-message,兵士Ａ,ノエミの嬢ちゃん……すまねえ、弱気になっちまってた……<br>俺を、みんなを助けてくれ……！,400901000,,chara_3
+message,兵士Ａ,Miss Noemi... I'm sorry，I lost my nerve... Please save me and<br>everyone else...<br> ,400901000,,chara_3
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -839,7 +839,7 @@ asyncseplay,setag1_25,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ノエミ,はい、必ず！,100601000G,vc_10060100001_009_01,chara_1
+message,ノエミ,Yes，absolutely!<br> ,100601000G,vc_10060100001_009_01,chara_1
 
 
 window,off
@@ -894,7 +894,7 @@ asynccharaemo,chara_4,Laugh,CONT,0
 
 
 window,on,0.15
-message,兵士Ｂ,……へっ、うちのヒーラーは気合いが入ってるな<br>こっちも気の抜けた戦いをしてる場合じゃねえぞ。,401501000,,chara_4
+message,兵士Ｂ,Heh，our healer's got some fire. We can't afford to slack off either.<br> ,401501000,,chara_4
 
 asyncjump,CHARA,chara_5,30,0.25,1,off,0,CONT
 
@@ -903,7 +903,7 @@ asyncseplay,setag1_27,se4800010,0,1,CONT,0
 asynccharaemo,chara_5,Exclamation,CONT,0
 
 
-message,兵士Ｃ,どんな怪我をしたって、ノエミちゃんは見捨てないんだ。<br>なら俺は、まだ頑張れる……！,401201000,,chara_5
+message,兵士Ｃ,No matter how bad the injury，Noemi won't abandon us. So I can still<br>keep fighting!<br> ,401201000,,chara_5
 
 window,off
 wait,0.15
@@ -918,7 +918,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（――ノエミの奮闘で、部隊の士気が上がってる。<br>今なら押し返せる！）
+message,<user>,(Noemi's hard work has boosted the unit's morale. We can push them<br>back now!)<br> 
 
 window,off
 wait,0.15
@@ -933,7 +933,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,ヒーラーのところに敵を通すな！　そうすれば俺たちは死なない！　<br>ノエミを、傷ついた仲間を守れ！
+message,<user>,Don't let any enemies through to the healer! That way，we won't die!<br>Protect Noemi and our wounded comrades!<br> 
 
 window,off
 wait,0.15
@@ -959,7 +959,7 @@ asynccharaemo,chara_5,Exclamation,CONT,0
 wait,0.5
 
 window,on,0.15
-message,兵士たち,うおおおおおおっ！！！,900000001
+message,兵士たち,Uoooooh!<br> ,900000001
 
 window,off
 wait,0.15
@@ -1021,7 +1021,7 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,モンスター,グォォォォォッ！？,402001000,,chara_2
+message,モンスター,Gwooooh!<br> ,402001000,,chara_2
 
 window,off
 wait,0.15
@@ -1050,7 +1050,7 @@ shake,CHARA,chara_7,40,0,0.25,20,off,off,0
 wait,0.5
 
 window,on,0.15
-message,,力を振り絞り、ついに兵士たちはモンスターを撃退した。<br>残った負傷者を癒やすべく、ノエミも全力を尽くしている。
+message,,Mustering their strength，the soldiers finally drove back the<br>monster. Noemi was doing her utmost to heal the remaining wounded.<br> 
 
 window,off
 wait,0.15
@@ -1098,7 +1098,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,神のご加護を受けた聖職者として、<br>傷ついた人を救わないと……！,100601000G,vc_10060100001_010_01,chara_1
+message,ノエミ,As a cleric blessed by God，I have to save the wounded...<br> ,100601000G,vc_10060100001_010_01,chara_1
 
 window,off
 wait,0.15
@@ -1153,7 +1153,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,えっと、あなたの傷は腕ですね！<br>すぐに治療します～！,100601000G,vc_10060100001_011_01,chara_1
+message,ノエミ,Um，your wound is in the arm! I'll treat it right away!<br> ,100601000G,vc_10060100001_011_01,chara_1
 
 window,off
 wait,0.15
@@ -1177,7 +1177,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,神よ、どうか我が友を冷やしたまえ……！,100601000G,vc_10060100001_012_01,chara_1
+message,ノエミ,Lord，please cool my friend...!<br> ,100601000G,vc_10060100001_012_01,chara_1
 
 window,off
 wait,0.15
@@ -1215,7 +1215,7 @@ wait,0.5
 bgmplay,bgmtag1_3,bgm0026,0.75,1
 
 window,on,0.15
-message,<user>,……冷やし？　
+message,<user>,Cool...?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1225,7 +1225,7 @@ asyncseplay,setag1_36,se4800017,0,1,CONT,0
 
 asynccharaemo,chara_1,Shock,CONT,0
 
-message,,ノエミの詠唱、そして<user>の呟いた声が、<br>不思議と全員の耳に届いた。
+message,,Noemi's incantation，and the Commander's muttered words，somehow<br>reached everyone's ears.<br> 
 
 window,off
 wait,0.15
@@ -1267,7 +1267,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ノエミ,あっ……！<br>違います！　癒やしっ！　癒やしたまえです～っ！,100601000G,vc_10060100001_013_01,chara_1
+message,ノエミ,Ah...! No! Heal! I meant to say 'heal'!<br> ,100601000G,vc_10060100001_013_01,chara_1
 
 window,off
 wait,0.15
@@ -1286,7 +1286,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,大丈夫、大丈夫……！<br>ちゃんと治せますから～！,100601000G,vc_10060100001_014_01,chara_1
+message,ノエミ,It's okay，it's okay...! I can still heal properly!<br> ,100601000G,vc_10060100001_014_01,chara_1
 
 window,off
 wait,0.15
@@ -1305,7 +1305,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,詠唱を間違えたノエミが大慌てで治療を再開する。<br>その声を聞いていた兵士たちは肩を震わせて笑いをこらえていた。
+message,,Having messed up her incantation，Noemi frantically resumed<br>treatment. The soldiers who heard her were shaking with suppressed laughter.<br> 
 
 window,off
 wait,0.15
@@ -1359,7 +1359,7 @@ wait,0.5
 
 
 window,on,0.15
-message,兵士Ｃ,傷ってのは、冷やしたほうがいいんだっけ？,401201000,,chara_5
+message,兵士Ｃ,For wounds，is it better to cool them?<br> ,401201000,,chara_5
 
 window,off
 wait,0.15
@@ -1376,7 +1376,7 @@ wait,0.5
 
 
 window,on,0.15
-message,兵士Ｂ,くくっ……からかうなよ、詠唱を間違えるぐらい必死になってたんだ。<br>しかし、頑張ってるなあノエミさん……,401501000,,chara_4
+message,兵士Ｂ,Heh heh... give me a break. I was so desperate I flubbed the chant.<br>But Noemi's really working hard...<br> ,401501000,,chara_4
 
 asyncjump,CHARA,chara_5,30,0.25,1,off,0,CONT
 
@@ -1385,7 +1385,7 @@ asyncseplay,setag1_42,se4800004,0,1,CONT,0
 asynccharaemo,chara_5,Laugh,CONT,0
 
 
-message,兵士Ｃ,ほんと、可愛いな！,401201000,,chara_5
+message,兵士Ｃ,Really，she's so cute!<br> ,401201000,,chara_5
 
 window,off
 wait,0.15
@@ -1414,7 +1414,7 @@ transitionCrossFade,Tra02,1
 wait,1
 
 window,on,0.15
-message,<user>,高い士気に、仲間を守ろうとする意識、そして笑う余裕が戻ってきた。<br>ふう……無事に帰れそうだな。
+message,<user>,Morale was high，they were looking out for each other，and they could<br>laugh again. *Phew*... Looks like we'll make it home safe.<br> 
 
 window,off
 wait,0.15
@@ -1450,9 +1450,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,司令官さま！　あなたも怪我をしてるじゃないですか！<br>治療しますよ～！,100601000G,vc_10060100001_015_01,chara_1
+message,ノエミ,Lord Commander! You're injured too!<br>I'll treat you!<br> ,100601000G,vc_10060100001_015_01,chara_1
 
-message,<user>,ん、怪我？<br>ああ、ただのかすり傷だ。俺は最後で構わないぞ。
+message,<user>,Hm? Injury?<br>Ah，it's just a scratch. I'm fine going last.<br> 
 
 window,off
 wait,0.15
@@ -1488,9 +1488,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,そんなこと言わないでください！<br>少しの怪我もすぐに悪化するんですよ、ちゃんと治療します！,100601000G,vc_10060100001_016_01,chara_1
+message,ノエミ,Don't say that!<br>Even a small injury can get worse quickly. I'll treat you properly!<br> ,100601000G,vc_10060100001_016_01,chara_1
 
-message,<user>,……了解だ。<br>俺もノエミにはかなわないな。
+message,<user>,...Got it.<br>I can't win against Noemi，can I?<br> 
 
 bgmstop,bgmtag1_3,1.5,0
 
@@ -1554,11 +1554,11 @@ wait,0.5
 
 
 window,on,0.15
-message,アリシア,お帰りなさい、司令官！<br>今回は大変だったみたいですね。,300201000,vc_10060100001_017_01,chara_6
+message,アリシア,Welcome back，Commander!<br>Looks like this one was tough.<br> ,300201000,vc_10060100001_017_01,chara_6
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
-message,<user>,まあな。だが、たった１人で仲間を癒やし続けた<br>ノエミのおかげでなんとかなったよ。
+message,<user>,Yeah，but thanks to Noemi，who kept healing everyone all by herself，we<br>managed.<br> 
 
 asynccharaface,chara_6,FaceUnique01,CONT,0
 
@@ -1569,7 +1569,7 @@ asyncseplay,setag1_46,se4800003,0,1,CONT,0
 asynccharaemo,chara_6,Twinkle,CONT,0
 
 
-message,アリシア,すごい！　さすがです、ノエミさん！,300201000,vc_10060100001_018_01,chara_6
+message,アリシア,Amazing! As expected of Noemi!<br> ,300201000,vc_10060100001_018_01,chara_6
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1580,7 +1580,7 @@ asyncseplay,setag1_47,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ノエミ,い、いえ、私なんて……。<br>慌ててしまって、詠唱を間違ったりもしましたし……,100601000G,vc_10060100001_019_01,chara_1
+message,ノエミ,N-no，I'm nothing...<br>I panicked and even made a mistake in my incantation...<br> ,100601000G,vc_10060100001_019_01,chara_1
 
 window,off
 wait,0.15
@@ -1635,7 +1635,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ノエミ,（もし私より優秀なヒーラーの方なら、<br>皆さんを不安にさせることもなく、ちゃんと癒やすことができたはずです）,100601000G,vc_10060100001_020_01,chara_1
+message,ノエミ,(If a more skilled healer had been there，they could have healed<br>everyone properly without making them anxious.)<br> ,100601000G,vc_10060100001_020_01,chara_1
 
 window,off
 wait,0.15
@@ -1652,7 +1652,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,（きっと、あの兵士の方にも自分を見捨てていい、<br>なんて覚悟をさせることはなかったでしょうし……）,100601000G,vc_10060100001_021_01,chara_1
+message,ノエミ,(And that soldier surely wouldn't have had to resign himself to<br>being left behind...)<br> ,100601000G,vc_10060100001_021_01,chara_1
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1660,7 +1660,7 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
 
-message,ノエミ,（私がもっと上手にできたら……、<br>どんな状況でも慌てずに、冷静に対処できるようにならなきゃ……）,100601000G,vc_10060100001_022_01,chara_1
+message,ノエミ,(If only I could do better... I need to learn to handle any<br>situation calmly，without panicking...)<br> ,100601000G,vc_10060100001_022_01,chara_1
 
 window,off
 wait,0.15
@@ -1712,7 +1712,7 @@ wait,0.5
 
 
 window,on,0.15
-message,兵士Ａ,ノエミちゃん、本当にありがとうな！,400901000,,chara_3
+message,兵士Ａ,Noemi，thank you so much!<br> ,400901000,,chara_3
 
 window,off
 wait,0.15
@@ -1765,7 +1765,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ノエミ,あ……あなたは、さっき大怪我をしていた……<br>もう痛みはありませんか？,100601000G,vc_10060100001_023_01,chara_1
+message,ノエミ,Ah... you were gravely injured earlier...<br>Is the pain gone now?<br> ,100601000G,vc_10060100001_023_01,chara_1
 
 asynccharaface,chara_3,FaceHappy,CONT,0
 
@@ -1776,7 +1776,7 @@ asyncseplay,setag1_52,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,兵士Ａ,おう！　おかげでこうして帰ってこれたぜ！<br>嬢ちゃんがいなかったら諦めてたところだ、感謝してるよ。,400901000,,chara_3
+message,兵士Ａ,Yeah! Thanks to you，I made it back like this!<br>If you weren't here，missy，I would have given up. I'm grateful.<br> ,400901000,,chara_3
 
 window,off
 wait,0.15
@@ -1830,7 +1830,7 @@ asynccharaemo,chara_4,Laugh,CONT,0
 
 
 window,on,0.15
-message,兵士Ｂ,俺もだ！<br>ノエミちゃんに治してもらったから、最後まで戦えたんだ。,401501000,,chara_4
+message,兵士Ｂ,Me too!<br>Because Noemi healed me，I could fight to the end.<br> ,401501000,,chara_4
 
 asyncjump,CHARA,chara_5,-30,0.5,2,off,0,CONT
 
@@ -1839,7 +1839,7 @@ asyncseplay,setag1_54,se4800004,0,1,CONT,0
 asynccharaemo,chara_5,Laugh,CONT,0
 
 
-message,兵士Ｃ,次の戦いも頼りにしてるよ。<br>よろしくな、ノエミさん！,401201000,,chara_5
+message,兵士Ｃ,I'm counting on you for the next battle too.<br>Take care of us，Noemi!<br> ,401201000,,chara_5
 
 window,off
 wait,0.15
@@ -1887,7 +1887,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,皆さん……。<br>私は聖職者として当然のことをしただけですから……,100601000G,vc_10060100001_024_01,chara_1
+message,ノエミ,Everyone...<br>I just did what any cleric would do...<br> ,100601000G,vc_10060100001_024_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1898,7 +1898,7 @@ asyncseplay,setag1_56,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ノエミ,でも、えへへ……これからも頑張りますね！,100601000G,vc_10060100001_025_01,chara_1
+message,ノエミ,But，ehehe... I'll keep doing my best from now on!<br> ,100601000G,vc_10060100001_025_01,chara_1
 
 window,off
 wait,0.15
@@ -1926,7 +1926,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,（不出来でも、失敗することがあっても、<br>自分にできることで皆さんを助ける）,100601000G,vc_10060100001_026_01,chara_1
+message,ノエミ,Even if I'm inadequate or make mistakes，I'll help everyone with what<br>I can do.<br> ,100601000G,vc_10060100001_026_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1937,7 +1937,7 @@ asyncseplay,setag1_58,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ノエミ,（それが聖職者のありかたです！<br>もっともっと成長して、皆さんの役に立ちます！）,100601000G,vc_10060100001_027_01,chara_1
+message,ノエミ,That is what it means to be a cleric! I'll keep growing and be of<br>use to everyone!<br> ,100601000G,vc_10060100001_027_01,chara_1
 
 window,off
 wait,0.15
@@ -1983,7 +1983,7 @@ asynccharaemo,chara_4,Laugh,CONT,0
 
 
 window,on,0.15
-message,兵士Ｂ,ノエミちゃんさえいれば俺たちは無敵だな！,401501000,,chara_4
+message,兵士Ｂ,We're invincible as long as Noemi's with us!<br> ,401501000,,chara_4
 
 window,off
 wait,0.15
@@ -2025,7 +2025,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ノエミ,……はえ？<br>いえいえ、私はヒーラーとしてはまだまだで……,100601000G,vc_10060100001_028_01,chara_1
+message,ノエミ,Huh? No，no，as a healer I still have a long way to go...<br> ,100601000G,vc_10060100001_028_01,chara_1
 
 window,off
 wait,0.15
@@ -2067,7 +2067,7 @@ asynccharaemo,chara_5,Laugh,CONT,0
 
 
 window,on,0.15
-message,兵士Ｃ,ああ、ノエミさんは俺たちの癒やしの女神だ！,401201000,,chara_5
+message,兵士Ｃ,Ah，Noemi is our healing goddess!<br> ,401201000,,chara_5
 
 window,off
 wait,0.15
@@ -2109,7 +2109,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ノエミ,待ってください！<br>私は神のご加護を受けただけで、女神なんかじゃ……,100601000G,vc_10060100001_029_01,chara_1
+message,ノエミ,Wait! I've only received God's blessing... I'm no goddess or<br>anything...<br> ,100601000G,vc_10060100001_029_01,chara_1
 
 window,off
 wait,0.15
@@ -2151,7 +2151,7 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,これからもノエミの嬢ちゃんについていくぜ！,400901000,,chara_3
+message,兵士Ａ,From now on，I'm sticking with Noemi!<br> ,400901000,,chara_3
 
 window,off
 wait,0.15
@@ -2193,9 +2193,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ノエミ,私はそんなに偉くなんてないんですー！,100601000G,vc_10060100001_030_01,chara_1
+message,ノエミ,I'm not that great at all!<br> ,100601000G,vc_10060100001_030_01,chara_1
 
-message,兵士たち,ノーエ―ミ！　ノーエーミ！,900000001
+message,兵士たち,Noemi! Noemi!<br> ,900000001
 
 window,off
 wait,0.15
@@ -2210,7 +2210,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 
 window,on,0.15
-message,ノエミ,話を聞いてくださいー！<br>どど、どうすればいいんですか～！！！,100601000G,vc_10060100001_031_01,chara_1
+message,ノエミ,Please listen to me! Wh-what should I do?!<br> ,100601000G,vc_10060100001_031_01,chara_1
 
 
 window,off
@@ -2257,9 +2257,9 @@ asynccharaemo,chara_6,Speak,CONT,0
 
 
 window,on,0.15
-message,アリシア,ノエミさん、大人気ですね。,300201000,vc_10060100001_032_01,chara_6
+message,アリシア,Noemi，you're really popular，aren't you?<br> ,300201000,vc_10060100001_032_01,chara_6
 
-message,<user>,そーだな。単純な野郎ばっかりで、<br>まるで保険医に惚れる男子学生みたいだ。
+message,<user>,Yeah，that's right. They're all simple guys，like schoolboys with a<br>crush on the school nurse.<br> 
 
 asynccharaface,chara_6,FaceUnique02,CONT,0
 
@@ -2270,7 +2270,7 @@ asyncseplay,setag1_67,se4800008,0,1,CONT,0
 asynccharaemo,chara_6,Sweat,CONT,0
 
 
-message,アリシア,もー、そんな言いかたをして。<br>ノエミさんが素敵だから、皆さんが憧れるんですよ？,300201000,vc_10060100001_033_01,chara_6
+message,アリシア,Oh，come on. Everyone admires Noemi because she's so wonderful.<br> ,300201000,vc_10060100001_033_01,chara_6
 
 asynccharaface,chara_6,FaceUnique01,CONT,0
 
@@ -2281,9 +2281,9 @@ asyncseplay,setag1_68,se4800004,0,1,CONT,0
 asynccharaemo,chara_6,Laugh,CONT,0
 
 
-message,アリシア,う～、わたしもあんなふうになりたいです！,300201000,vc_10060100001_034_01,chara_6
+message,アリシア,Ohh，I want to be like that too!<br> ,300201000,vc_10060100001_034_01,chara_6
 
-message,<user>,ま、アリシアも別方向で愛されてるとは思うがな。
+message,<user>,Well，I think Alicia is also loved in her own way.<br> 
 
 window,off
 wait,0.15
@@ -2321,7 +2321,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,……ん？　あれはルディア？<br>わざわざこんなところに、出迎えか？
+message,<user>,Huh? Is that Ludia? She came all the way here to greet us?<br> 
 
 window,off
 wait,0.15
@@ -2374,7 +2374,7 @@ asynccharamove,chara_7,EaseOut,X,-100,0.3,CONT,0
 asyncwait
 
 window,on,0.15
-message,,兵士に囲まれたノエミへ、<br>ルディアがするりと近づいていく。
+message,,Ludia slipped smoothly through the soldiers around Noemi and<br>approached her.<br> 
 
 window,off
 wait,0.15
@@ -2401,7 +2401,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ルディア,<size=30>――ノエミさん。</size><br><size=30>例の件なんだけど……</size>,300301000,vc_10060100001_035_01,chara_7
+message,ルディア,<size=30>Noemi... about that matter...</size>,300301000,vc_10060100001_035_01,chara_7
 
 window,off
 wait,0.15
@@ -2420,7 +2420,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,<size=30>あ……ご、ごめんなさい。</size><br><size=30>すぐに行きます……！</size>,100601000G,vc_10060100001_036_01,chara_1
+message,ノエミ,<size=30>Ah... s-sorry. I'll be right there...!</size>,100601000G,vc_10060100001_036_01,chara_1
 
 asynccharaface,chara_7,FaceSad,CONT,0
 
@@ -2431,7 +2431,7 @@ asyncseplay,setag1_71,se4800008,0,1,CONT,0
 asynccharaemo,chara_7,Sweat,CONT,0
 
 
-message,ルディア,<size=30>悪いわね、これ以上は待てなくて……</size>,300301000,vc_10060100001_037_01,chara_7
+message,ルディア,<size=30>Sorry，I couldn't wait any longer...</size>,300301000,vc_10060100001_037_01,chara_7
 
 window,off
 wait,0.15
@@ -2451,7 +2451,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,<size=30>いいえ、すべて私が悪いんです。</size><br><size=30>責任は、とりますから……</size>,100601000G,vc_10060100001_038_01,chara_1
+message,ノエミ,<size=30>No，it's all my fault.</size><br><size=30>I'll take responsibility...</size>,100601000G,vc_10060100001_038_01,chara_1
 
 window,off
 wait,0.15
@@ -2475,7 +2475,7 @@ emodelete,chara_7,0,0
 asyncwait
 
 window,on,0.15
-message,,周囲の目から隠れるようにこそこそと話をして、<br>ルディアとノエミは連れ立ってどこかへと去っていった。
+message,,Hiding from prying eyes，Ludia and Noemi spoke in hushed tones，then<br>left together.<br> 
 
 window,off
 wait,0.15
@@ -2506,7 +2506,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,……内容はよく聞こえなかったが<br>なんだか重大そうな話をしてたな。
+message,<user>,I couldn't catch what they were saying，but it sounded serious.<br> 
 
 asynccharaface,chara_6,FaceSad,CONT,0
 
@@ -2517,9 +2517,9 @@ asyncseplay,setag1_73,se4800008,0,1,CONT,0
 asynccharaemo,chara_6,Sweat,CONT,0
 
 
-message,アリシア,そうですね、真剣な様子で……。<br>大丈夫でしょうか……？,300201000,vc_10060100001_039_01,chara_6
+message,アリシア,Yes，they seemed very serious... I hope everything's okay...<br> ,300201000,vc_10060100001_039_01,chara_6
 
-message,<user>,ルディアが絡んでるんだ、そう悪いことじゃないと思うが……<br>ちょっと気にしておくか。
+message,<user>,Ludia's involved，so it's probably nothing bad... but I'll keep an<br>eye on it.<br> 
 
 window,off
 bgmstop,bgmtag1_4,0.5

@@ -35,7 +35,7 @@ asyncseplay,setag1_1,se4800008,0,1,CONT
 
 asynccharaemo,chara_2,Sweat,STOP
 
-message,ルディア,I'm sorry，but Merem's reservations are all filled up for the<br>foreseeable future...<br> ,,vc_10470100021_001_01
+message,ルディア,I'm sorry，but Merem is fully booked for the foreseeable future...<br> ,,vc_10470100021_001_01
 
 message,一般客２,Then，what about cancellations? I'll wait until a spot opens up!<br> ,900000001
 
@@ -45,7 +45,7 @@ asyncseplay,setag1_2,se4800007,0,1,CONT
 
 asynccharaemo,chara_2,Panic,STOP
 
-message,ルディア,There are many people on the waiting list as well，so I'm afraid we<br>won't be able to accommodate you...<br> ,,vc_10470100021_002_01
+message,ルディア,There's a long waiting list，so I'm afraid we can't accommodate<br>you...<br> ,,vc_10470100021_002_01
 
 message,一般客１,Damn，that's too bad...<br> ,900000001
 
@@ -125,7 +125,7 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
 asynccharaface,chara_1,FaceShy,STOP
-message,メレム,It's a wonderful reading that can accurately see the client's<br>future，but actually... I need to touch the client's intimate area，so I can only do it here...<br> ,,vc_10470100021_009_01
+message,メレム,It's a wonderful reading that can see the client's future，but... I<br>need to touch their intimate area，so I can only do it here.<br> ,,vc_10470100021_009_01
 
 asynccharareaction,chara_2,Nod,1,STOP
 
@@ -143,7 +143,7 @@ asynccharaemo,chara_1,Speak,STOP
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,メレム,Also，since fortune-telling involves private matters，this place where<br>we can be completely alone is well-suited for it.<br> ,,vc_10470100021_011_01
+message,メレム,Also，since fortune-telling involves private matters，this place where<br>we can be alone is perfect for it.<br> ,,vc_10470100021_011_01
 
 asyncseplay,setag1_12,se4800009,0,1,CONT
 
@@ -191,18 +191,18 @@ asyncseplay,setag1_16,se4800003,0,1,CONT
 asynccharaemo,chara_1,Twinkle,STOP
 
 asynccharaface,chara_1,FaceHappy,STOP
-message,メレム,Of course I was hesitant at first，but I feel that guiding people<br>toward the right future is our mission as fortune tellers after all...<br> ,,vc_10470100021_016_01
+message,メレム,Of course I was hesitant at first，but guiding people toward the<br>right future is our mission as fortune tellers...<br> ,,vc_10470100021_016_01
 
 asyncseplay,setag1_17,se4800009,0,1,CONT
 
 asynccharaemo,chara_2,Question,STOP
 
 asynccharaface,chara_2,FaceSad,STOP
-message,ルディア,But what if you see an unfortunate future? Won't they take out their<br>disappointment on you if the result isn't what they wanted?<br> ,,vc_10470100021_017_01
+message,ルディア,But what if you see an unfortunate future? Won't they take their<br>disappointment out on you if the result isn't what they wanted?<br> ,,vc_10470100021_017_01
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,メレム,In such cases，I only tell them the things to watch out for，and I try<br>to help them stay positive.<br> ,,vc_10470100021_018_01
+message,メレム,In such cases，I only tell them what to watch out for，and try to help<br>them stay positive.<br> ,,vc_10470100021_018_01
 
 
 asynccharareaction,chara_1,Nod,1,STOP
@@ -214,7 +214,7 @@ asynccharaemo,chara_1,Flower,STOP
 
 asynccharaface,chara_1,EyeClose,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,メレム,A fortune teller's job isn't just to show the future; it's to help<br>the customers draw a good life toward themselves.<br> ,,vc_10470100021_019_01
+message,メレム,A fortune teller's job isn't just to show the future; it's to help<br>customers draw a good life toward themselves.<br> ,,vc_10470100021_019_01
 
 asynccharaface,chara_2,FaceSurprise,STOP
 message,ルディア,So being a fortune teller is a tough job，like a counselor.<br> ,,vc_10470100021_020_01
@@ -239,7 +239,7 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Spirits,STOP
 
 asynccharaface,chara_1,FaceFun,STOP
-message,メレム,I am Merem，the fortune teller. ... I look forward to working with<br>you today.<br> ,,vc_10470100021_022_01
+message,メレム,I am Merem，the fortune teller... I look forward to working with you<br>today.<br> ,,vc_10470100021_022_01
 
 window,off
 bgmstop,bgmtag1_1,1
@@ -280,7 +280,7 @@ asynccharaface,chara_1,FaceFun,STOP
 window,on,0.15
 message,メレム,Now，what would you like me to read for you today?<br> ,,vc_10470100021_023_01
 
-message,男性客,Tomorrow I'm heading out to explore a newly discovered stratum. I'm<br>feeling uneasy about it，and I just had to get a reading...<br> ,900000001
+message,男性客,Tomorrow I'm heading out to explore a newly discovered stratum. I'm<br>feeling uneasy，so I had to get a reading...<br> ,900000001
 
 asynccharareaction,chara_1,Nod,1,STOP
 
@@ -299,7 +299,7 @@ asynccharaemo,chara_1,Spirits,STOP,5
 
 
 asynccharaface,chara_1,FaceHappy,STOP,5
-message,メレム,I see... That must be worrisome. Rest assured，I shall perform a<br>thorough divination to see what the future holds.<br> ,,vc_10470100021_024_01
+message,メレム,I see... That must be worrisome. Rest assured，I'll perform a<br>thorough divination to see what the future holds.<br> ,,vc_10470100021_024_01
 
 message,男性客,Thank you! And，well... if possible，I'd like to request the more<br>accurate reading...<br> ,900000001
 
@@ -310,7 +310,7 @@ asyncseplay,setag1_24,se4800022,0,1,CONT
 asynccharaemo,chara_1,Speak,STOP
 
 asynccharaface,chara_1,FaceFun,STOP
-message,メレム,... Yes，I understand. However，since it does place a strain on my<br>body，I charge a special fee. Is that acceptable?<br> ,,vc_10470100021_025_01
+message,メレム,... Yes，I understand. However，it does place a strain on my body，so I<br>charge a special fee. Is that acceptable?<br> ,,vc_10470100021_025_01
 
 message,男性客,Yes! Of course that's fine.<br> ,900000001
 

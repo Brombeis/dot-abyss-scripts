@@ -22,13 +22,13 @@ bgmplay,bgmtag1_1,bgm0036,0.75,1
 
 
 window,on,0.15
-message,<user>,ふぅ……本を読み終えてしまったか。<br>いい加減、そろそろ仕事をしないとなぁ。
+message,<user>,Phew... I've finished reading that book. I really should get to work<br>now.<br> 
 
-message,<user>,ちゃんとやっておかないと、またアリシアに文句を言われてしまう。<br>ここから挽回するぞ、集中だ！
+message,<user>,If I don't do it properly，Alicia will complain again. Time to turn<br>things around—focus!<br> 
 
 asyncseplay,setag1_1,se4300001,0,1,CONT,0
 
-message,,――コンコン。
+message,,*knock，knock*.<br> 
 
 window,off
 wait,0.15
@@ -36,7 +36,7 @@ wait,0.15
 charafocusonall
 
 window,on,0.15
-message,<user>,ノック？　ぐっ……せっかく集中したところだったのに……。<br>入っていいぞ。
+message,<user>,A knock? Tch... just when I finally got focused... Come in.<br> 
 
 window,off
 wait,0.15
@@ -75,9 +75,9 @@ wait,0.5
 
 
 window,on,0.15
-message,？？？,お邪魔しまーす。<br>あ！　あんたが司令官よね？,104501000G,vc_10450100001_001_01,chara_1
+message,？？？,Excuse me! Ah! You're the Commander，right?<br> ,104501000G,vc_10450100001_001_01,chara_1
 
-message,<user>,！？
+message,<user>,...!<br> 
 
 window,off
 wait,0.15
@@ -119,9 +119,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,イオラ,はっじめまして～！<br>あたし、ペルディオンの魔法学校から来たイオラよ！　,104501000G,vc_10450100001_002_01,chara_1
+message,イオラ,Nice to meet you! I'm Iola，from the Perdion Magic Academy!<br> ,104501000G,vc_10450100001_002_01,chara_1
 
-message,<user>,んんっ？　魔法学校？<br>教員には見えないな――学生か？
+message,<user>,Huh? Magic Academy? You don't look like a teacher—are you a student?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -133,7 +133,7 @@ asyncseplay,setag1_5,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,イオラ,うん、そうそう。見ての通り、美少女魔法使いなのっ！,104501000G,vc_10450100001_003_01,chara_1
+message,イオラ,Yep，that's right! As you can see，I'm a beautiful magical girl!<br> ,104501000G,vc_10450100001_003_01,chara_1
 
 window,off
 wait,0.15
@@ -148,7 +148,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（……自分で言うか？）
+message,<user>,(Did she just say that about herself?)<br> 
 
 window,off
 wait,0.15
@@ -172,9 +172,9 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,イオラ,あらあら、見惚れちゃった？,104501000G,vc_10450100001_004_01,chara_1
+message,イオラ,Oh my，have I already stunned you?<br> ,104501000G,vc_10450100001_004_01,chara_1
 
-message,<user>,ん……まぁ……そんなところだ……。<br>それで、可憐な美少女魔法使いが俺に何の用事だ？
+message,<user>,Well... something like that. So，what does a lovely magical girl want<br>with me?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -185,9 +185,9 @@ asyncseplay,setag1_7,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,イオラ,えっ？　連絡、行ってないです？<br>臨時であんたに教官をやってもらうよう、お願いしたはずなんだけど？,104501000G,vc_10450100001_005_01,chara_1
+message,イオラ,Huh? Didn't they tell you? I asked them to make you my temporary<br>instructor.<br> ,104501000G,vc_10450100001_005_01,chara_1
 
-message,<user>,は？　教員？　司令官の俺が？<br>そんな連絡は来た覚えが――
+message,<user>,What? Instructor? The Commander，me? I don't recall any such message—<br> 
 
 window,off
 wait,0.15
@@ -202,7 +202,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（あ、いや待てよ？　そういえばこの間、学校から郵便がきていたな。<br>見ないで放置していたが、あれがもしかして……！？）
+message,<user>,(Oh，wait. Now that I think about it，I did get some mail from the<br>school the other day. I just left it unread... Could that be...?)<br> 
 
 window,off
 wait,0.15
@@ -227,9 +227,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,イオラ,その様子だと、心当たりがありそうだね先生！,104501000G,vc_10450100001_006_01,chara_1
+message,イオラ,Looks like you have an idea，Teacher!<br> ,104501000G,vc_10450100001_006_01,chara_1
 
-message,<user>,たしかにそうなんだが……もう生徒気分か！？<br>まだやると返事をしたわけじゃ――
+message,<user>,Well，that's true... but you're already treating me like your<br>teacher! I haven't even agreed to it yet—<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -240,7 +240,7 @@ asyncseplay,setag1_9,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,イオラ,えーっ！？　やってもらわないと困るよぉ！,104501000G,vc_10450100001_007_01,chara_1
+message,イオラ,Ehh! I'll be in trouble if you don't!<br> ,104501000G,vc_10450100001_007_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -251,9 +251,9 @@ asyncseplay,setag1_10,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,イオラ,ここで合格して単位もらわないと、あたし落第になっちゃう！,104501000G,vc_10450100001_008_01,chara_1
+message,イオラ,If I don't pass here and get my credits，I'm gonna flunk out!<br> ,104501000G,vc_10450100001_008_01,chara_1
 
-message,<user>,んっ？　なんだお前、ひょっとして成績が悪いのか？
+message,<user>,Huh? Wait，are your grades really that bad?<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -264,14 +264,14 @@ asyncseplay,setag1_11,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,イオラ,た、たまたまだよ！　素質はあるんだから！,104501000G,vc_10450100001_009_01,chara_1
+message,イオラ,I-It was just a fluke! I do have talent，you know.<br> ,104501000G,vc_10450100001_009_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
 
-message,イオラ,前線基地で行われている大穴探索の様子をレポートにして出せば、<br>自由研究として単位をくれるって学校が約束してくれてるの。,104501000G,vc_10450100001_010_01,chara_1
+message,イオラ,The school promised to give me credit as independent research if I<br>turn in a report on the Abyss exploration at the Frontline Base.<br> ,104501000G,vc_10450100001_010_01,chara_1
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -288,9 +288,9 @@ asyncseplay,setag1_13,se4800007,0,1,STOP,4.5
 asynccharaemo,chara_1,Panic,STOP,4.5
 
 
-message,イオラ,未来ある可愛い学生を助けると思って、お願い！<br>先生っ！！,104501000G,vc_10450100001_011_01,chara_1
+message,イオラ,Please，think of it as helping a cute student with a future，Teacher!<br> ,104501000G,vc_10450100001_011_01,chara_1
 
-message,<user>,マジか……仕事で忙しいんだがなぁ。
+message,<user>,Seriously? I'm busy with work，you know...<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -301,9 +301,9 @@ asyncseplay,setag1_14,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,イオラ,その割には、机の上にエロ本が転がってますけど？,104501000G,vc_10450100001_012_01,chara_1
+message,イオラ,And yet，there's a porno mag lying on your desk，isn't there?<br> ,104501000G,vc_10450100001_012_01,chara_1
 
-message,<user>,……これも立派な社会勉強だ。
+message,<user>,...This，too，is a valuable social education.<br> 
 
 window,off
 wait,0.15
@@ -321,9 +321,9 @@ asynccharaemo,chara_1,Shock,CONT,0
 asyncwait
 
 window,on,0.15
-message,<user>,それはさておき、魔法学校の連中は前線基地を教育の場だと<br>勘違いしているようだが、そんな心構えでいられると大怪我をする。
+message,<user>,Anyway，the magic school people are wrong to think the Frontline Base<br>is for education. Come with that attitude and you'll get hurt.<br> 
 
-message,<user>,まずはお前の実力を見せてもらおう！<br>どんな魔法を使えるのか、やってみてくれっ！
+message,<user>,First，let me see what you've got! Show me what kind of magic you can<br>do.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -348,11 +348,11 @@ asyncseplay,setag1_17,se4800014,0,1,STOP,12
 asynccharaemo,chara_1,Silence,STOP,12
 
 
-message,イオラ,お、おっけ～……じゃあ、まずは基礎を――大穴探索で役立ちそうな、<br>小さな明かりを出す魔法をやるわね……ぶつぶつぶつぶつ――,104501000G,vc_10450100001_013_01,chara_1
+message,イオラ,O-okay... Alright，first the basics—I'll do a light spell for the<br>Abyss... mutter，mutter，mutter...<br> ,104501000G,vc_10450100001_013_01,chara_1
 
 bgmstop,bgmtag1_1,1.5,0
 
-message,,イオラは呪文を唱えながら意識を高めていく。<br>だが、手先は震えて、どこか落ち着きがない。
+message,,Iola chanted the spell，concentrating，but her hands trembled and she<br>seemed unsettled.<br> 
 
 window,off
 wait,0.15
@@ -365,7 +365,7 @@ asynccharaface,chara_1,FaceAnger,CONT,0
 
 
 window,on,0.15
-message,イオラ,いでよ！　光の玉！　でやぁぁぁっ！,104501000G,vc_10450100001_014_01,chara_1
+message,イオラ,Come forth，orb of light，Hyaaah!<br> ,104501000G,vc_10450100001_014_01,chara_1
 
 window,off
 wait,0.15
@@ -383,7 +383,7 @@ transitionFade,Tra19,in,white,1
 bgmplay,bgmtag1_2,bgm0026,0.75,1
 
 window,on,0.15
-message,,――バシュウウウッ！
+message,,A blinding flash of light and a loud whoosh erupted.<br> 
 
 window,off
 wait,0.15
@@ -394,9 +394,9 @@ asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,<user>,ぐわあああっ！？<br>目がっ！？　目がぁぁあっ！？
+message,<user>,Gwaaaah，my eyes，my eyes!<br> 
 
-message,,目前で光が弾けた。光を直視した<user>が<br>顔を押さえて床を転がり回る。
+message,,A light burst in front of %user% and he covered his face and rolled<br>on the floor after looking directly at it.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -407,9 +407,9 @@ asyncseplay,setag1_18,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,イオラ,……ま、まぁ、こんな感じ？,104501000G,vc_10450100001_015_01,chara_1
+message,イオラ,...W-well，something like that?<br> ,104501000G,vc_10450100001_015_01,chara_1
 
-message,<user>,用途が全然違うだろう！<br>これじゃあ目くらましだ！
+message,<user>,That's completely different from what I asked for—that's a flash<br>bang!<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -420,9 +420,9 @@ asyncseplay,setag1_19,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,イオラ,ご、ごめ～ん……,104501000G,vc_10450100001_016_01,chara_1
+message,イオラ,S-sorry...<br> ,104501000G,vc_10450100001_016_01,chara_1
 
-message,<user>,イオラ。お前、落第寸前だけあって、魔法学校の生徒のくせに<br>魔法の扱いが得意じゃなかったりする？
+message,<user>,Iola. You're about to flunk out，and for a magic school<br>student，you're not exactly great at magic，are you?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -433,11 +433,11 @@ asyncseplay,setag1_20,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,イオラ,ギクッ！,104501000G,vc_10450100001_017_01,chara_1
+message,イオラ,Gah!<br> ,104501000G,vc_10450100001_017_01,chara_1
 
-message,<user>,うーむ、やっぱりか。
+message,<user>,Hmm，as I thought.<br> 
 
-message,<user>,余計な助言かもしれないが、もう少し集中してみたらどうだ？<br>魔法を得意としている奴と比べて、詠唱中の動作に違和感があるぞ。
+message,<user>,Maybe unsolicited，but try focusing more. Compared to magic<br>users，your form feels off.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -448,9 +448,9 @@ asyncseplay,setag1_21,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,イオラ,それが簡単にできたら苦労しないわよーっ！,104501000G,vc_10450100001_018_01,chara_1
+message,イオラ,If it was that easy，I wouldn't be struggling!<br> ,104501000G,vc_10450100001_018_01,chara_1
 
-message,<user>,まぁ、それもそうか……<br>できてたら、落第寸前までいかないもんなぁ。
+message,<user>,Well，I guess that's true... If you could do it，you wouldn't be on<br>the verge of failing.<br> 
 
 window,off
 wait,0.15
@@ -486,7 +486,7 @@ asynccharaface,chara_1,FaceAnger,STOP,4
 
 
 window,on,0.15
-message,イオラ,う、うるさいうるさいうるさーい！　いくら本当のことだからって<br>そこまでバカにしなくていいじゃないのよ！　バカーっ！,104501000G,vc_10450100001_019_01,chara_1
+message,イオラ,Shut up，shut up，shut UP! Even if it's true，you don't have to make<br>fun of me that much! Stupid!<br> ,104501000G,vc_10450100001_019_01,chara_1
 
 window,off
 wait,0.15
@@ -507,7 +507,7 @@ asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,,――ボグゥッ！！！
+message,,Wham!<br> 
 
 window,off
 wait,0.15
@@ -547,11 +547,11 @@ asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,<user>,ぐほおっ！？
+message,<user>,Guhh!<br> 
 
-message,,イオラが放ったパンチが<br><user>のこめかみにクリーンヒットした。
+message,,Iola's punch cleanly hit the Commander in the temple.<br> 
 
-message,<user>,ぐあああっ！　頭が、頭がぁぁ～～～っ！？
+message,<user>,Gwaaaaah! My head，my heeead!<br> 
 
 window,off
 wait,0.15
@@ -585,7 +585,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,イオラ,きゃああ～！？　ごめーんっ！！！,104501000G,vc_10450100001_020_01,chara_1
+message,イオラ,Kyaaah! I'm so sorry!<br> ,104501000G,vc_10450100001_020_01,chara_1
 
 
 
@@ -609,7 +609,7 @@ bgmplay,bgmtag1_3,bgm0035,0.75,1
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,<user>,いててて……まだ視界がグラついてるような――？
+message,<user>,Ow，ow，ow... My vision is still swimming...?<br> 
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -618,9 +618,9 @@ asyncseplay,setag1_26,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,イオラ,ご、ごめんっ……当てるつもりじゃなかったんだけど……,104501000G,vc_10450100001_021_01,chara_1
+message,イオラ,I-I'm sorry... I didn't mean to hit you...<br> ,104501000G,vc_10450100001_021_01,chara_1
 
-message,<user>,魔法使いのくせに、ずいぶんパワフルなパンチを持っているな。
+message,<user>,For a mage，you sure have a powerful punch.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -631,7 +631,7 @@ asyncseplay,setag1_27,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,イオラ,あっ。やっと褒めてくれたわね！,104501000G,vc_10450100001_022_01,chara_1
+message,イオラ,Ah! You finally praised me!<br> ,104501000G,vc_10450100001_022_01,chara_1
 
 window,off
 wait,0.15
@@ -649,7 +649,7 @@ shake,BACK,,20,0,0.25,30,off,off,0
 shake,CHARA,chara_1,20,0,0.25,30,off,off,0
 
 window,on,0.15
-message,<user>,（ギロッ！）
+message,<user>,(Glare!)<br> 
 
 window,off
 wait,0.15
@@ -673,7 +673,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,イオラ,あ、ごめんごめん……嬉しかったから、ついつい……えへへ。,104501000G,vc_10450100001_023_01,chara_1
+message,イオラ,Ah，sorry，sorry... I got carried away because I was so happy...<br>Ehehe.<br> ,104501000G,vc_10450100001_023_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -685,7 +685,7 @@ asyncseplay,setag1_29,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,イオラ,まぁ、称賛されて当然よ。<br>このパンチは日々の努力の成果なんだから。,104501000G,vc_10450100001_024_01,chara_1
+message,イオラ,Well，I deserve the praise. This punch is the result of my daily<br>training.<br> ,104501000G,vc_10450100001_024_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -696,7 +696,7 @@ asyncseplay,setag1_30,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,イオラ,あたしのパパ、格闘家でね～。<br>ダイエット目的で教わっているうちに上達したってわけ♪,104501000G,vc_10450100001_025_01,chara_1
+message,イオラ,My dad's a fighter，y'know. I started learning from him to lose<br>weight，but I got pretty good at it.<br> ,104501000G,vc_10450100001_025_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -708,9 +708,9 @@ asyncseplay,setag1_31,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,イオラ,おかげでプロの格闘家も認めるパンチを打てるようになったわ！<br>チャンピオン並みだって！　すごいでしょ～？,104501000G,vc_10450100001_026_01,chara_1
+message,イオラ,Thanks to that，I can throw a punch that even pro fighters<br>acknowledge! They say it's on par with a champion! Pretty amazing，right?<br> ,104501000G,vc_10450100001_026_01,chara_1
 
-message,<user>,ダイエット目的が、チャンピオン並みに……。<br>た、確かにすごいな。
+message,<user>,From dieting to champion-level... W-well，it truly is impressive.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -721,9 +721,9 @@ asyncseplay,setag1_32,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,イオラ,でしょでしょー！,104501000G,vc_10450100001_027_01,chara_1
+message,イオラ,See，see!<br> ,104501000G,vc_10450100001_027_01,chara_1
 
-message,<user>,魔法も同じくらい才能があれば……
+message,<user>,If only you had as much talent for magic...<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -734,9 +734,9 @@ asyncseplay,setag1_33,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,イオラ,うーわ、最悪。<br>そういうこと言っちゃう？,104501000G,vc_10450100001_028_01,chara_1
+message,イオラ,Ugh，that's the worst. Can you really say that?<br> ,104501000G,vc_10450100001_028_01,chara_1
 
-message,<user>,魔法使いをやめて、格闘家になろうとは思わなかったのか？　<br>そっちのほうが大成しそうだが。
+message,<user>,Didn't you ever think of giving up being a mage and becoming a<br>fighter? You'd probably go further that way.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -747,9 +747,9 @@ asyncseplay,setag1_34,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,イオラ,嫌よ！,104501000G,vc_10450100001_029_01,chara_1
+message,イオラ,No way!<br> ,104501000G,vc_10450100001_029_01,chara_1
 
-message,<user>,んっ？　なんでだ？
+message,<user>,Huh? Why not?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -760,9 +760,9 @@ asyncseplay,setag1_35,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,イオラ,魔法使いのほうが可愛くてモテるから。,104501000G,vc_10450100001_030_01,chara_1
+message,イオラ,Because being a mage is cuter and more popular.<br> ,104501000G,vc_10450100001_030_01,chara_1
 
-message,<user>,お、おう……
+message,<user>,Uh，right...<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -773,7 +773,7 @@ asyncseplay,setag1_36,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,イオラ,格闘技は筋肉がついて体が太くなりそうで<br>控えてるのよねぇ。,104501000G,vc_10450100001_031_01,chara_1
+message,イオラ,I hold back from martial arts because it builds muscle and makes me<br>look bulky.<br> ,104501000G,vc_10450100001_031_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -784,9 +784,9 @@ asyncseplay,setag1_37,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,イオラ,ごつくなったら、彼氏に嫌われちゃいそうじゃない？,104501000G,vc_10450100001_032_01,chara_1
+message,イオラ,If I got all bulky，wouldn't it turn my boyfriend off?<br> ,104501000G,vc_10450100001_032_01,chara_1
 
-message,<user>,ほう。恋人がいるのか。
+message,<user>,Oh? You have a boyfriend?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -797,9 +797,9 @@ asyncseplay,setag1_38,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,イオラ,いないわよ。もしいたら、って話。,104501000G,vc_10450100001_033_01,chara_1
+message,イオラ,I don't have one. I was just talking hypothetically.<br> ,104501000G,vc_10450100001_033_01,chara_1
 
-message,<user>,いないのかよ！　いたことは？
+message,<user>,You don't! Have you ever had one?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -810,7 +810,7 @@ asyncseplay,setag1_39,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,イオラ,それがないのよ……,104501000G,vc_10450100001_034_01,chara_1
+message,イオラ,Nope，never had one.<br> ,104501000G,vc_10450100001_034_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -821,7 +821,7 @@ asyncseplay,setag1_40,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,イオラ,魔法学校に入学してからずーっと彼氏募集してるのに<br>魔法がうまく使えない子はお呼びじゃないんですって。みんな見る目が無いわ。,104501000G,vc_10450100001_035_01,chara_1
+message,イオラ,I've been looking for a boyfriend since starting magic school，but<br>they say girls who can't use magic aren't wanted. They've got no taste.<br> ,104501000G,vc_10450100001_035_01,chara_1
 
 window,off
 wait,0.15
@@ -836,7 +836,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（それ、本当に魔法が原因か……？<br>マイペースな性格の方が問題のような……）
+message,<user>,(Is it really because of her magic...? Her carefree personality<br>might be the real problem...)<br> 
 
 window,off
 wait,0.15
@@ -861,7 +861,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,イオラ,そんなわけで、あたしは１人前の可愛い魔法使いになるため、<br>落第なんてしてられないの！,104501000G,vc_10450100001_036_01,chara_1
+message,イオラ,So that's why，to become a proper cute magic girl，I can't afford to<br>fail!<br> ,104501000G,vc_10450100001_036_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -872,13 +872,13 @@ asyncseplay,setag1_42,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,イオラ,絶対にレポートを書いて学校に帰るから、先生よろしくね？,104501000G,vc_10450100001_037_01,chara_1
+message,イオラ,I'm definitely going to write that report and go back to school，so<br>I'm counting on you，Teacher!<br> ,104501000G,vc_10450100001_037_01,chara_1
 
-message,<user>,なるほどな。概ね事情は分かった。決意は固いらしい。<br>だが、俺も暇な身分じゃない。厳しく見ていくぞ！
+message,<user>,I see. I get the picture. You seem determined. But I don't have free<br>time to spare. I'll be strict with you!<br> 
 
-message,<user>,前線基地は学び場でも遊び場でもない。<br>戦力にならない外部の人間を置いておくわけにはいかん。
+message,<user>,This Frontline Base isn't a school or a playground. I can't keep an<br>outsider who doesn't contribute to the mission.<br> 
 
-message,<user>,ある程度、魔法を使えるようにならないと探索メンバーには加えられない！<br>魔法の猛特訓をしてもらうっ！
+message,<user>,Unless you can use magic to some extent，I can't add you to the<br>exploration team—you're going to get intensive magic training!<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -889,9 +889,9 @@ asyncseplay,setag1_43,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,イオラ,わ、分かってるわよ。そう言われるかも、と思って<br>１学期の復習で出された課題、全部持ってきたんだから……,104501000G,vc_10450100001_038_01,chara_1
+message,イオラ,I-I know，Teacher! I thought you'd say that，so I brought all the<br>review assignments from the first semester.<br> ,104501000G,vc_10450100001_038_01,chara_1
 
-message,<user>,おっ、ちょうどいいじゃないか。<br>それを全て、１週間で終わらせろ！
+message,<user>,Oh，that's perfect. Finish all of that in one week!<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -902,11 +902,11 @@ asyncseplay,setag1_44,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,イオラ,えぇぇぇぇっ～！？,104501000G,vc_10450100001_039_01,chara_1
+message,イオラ,Eeeeeh!<br> ,104501000G,vc_10450100001_039_01,chara_1
 
-message,<user>,復習なんだろう？<br>現場に出るなら、できて当然だ。
+message,<user>,It's review，isn't it? If you're going to be in the field，you should<br>be able to do this.<br> 
 
-message,<user>,真面目にやってない、諦めた、と思ったらその場で失格。<br>学校に帰ってもらう。
+message,<user>,If I think you're not taking it seriously or you've given up，you're<br>disqualified on the spot. I'll send you back to school.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -917,9 +917,9 @@ asyncseplay,setag1_45,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,イオラ,な、なにそれ！？<br>厳し過ぎない！？,104501000G,vc_10450100001_040_01,chara_1
+message,イオラ,W-what's that，Teacher! Isn't that too strict?<br> ,104501000G,vc_10450100001_040_01,chara_1
 
-message,<user>,先生の言うことが聞けないのか？
+message,<user>,Are you going to disobey your teacher?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -930,7 +930,7 @@ asyncseplay,setag1_46,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,イオラ,う～、分かったわよぉ……頑張ればいいんでしょ。はぁっ。,104501000G,vc_10450100001_041_01,chara_1
+message,イオラ,*whimper*... Fine，I'll do it. I just have to work hard，right?<br>*sigh*.<br> ,104501000G,vc_10450100001_041_01,chara_1
 
 window,off
 bgmstop,bgmtag1_3,0.5

@@ -36,7 +36,7 @@ asynccharashowalpha,chara_2,1,0.3,CONT,0
 asynccharashowalpha,chara_3,1,0.3,CONT,0
 
 window,on,0.15
-message,,%user% had brought some soldiers along<br>to inspect a certain river.<br> 
+message,,The Commander brought some soldiers to check on a certain river.<br> 
 
 message,<user>,So this is the place.<br> 
 
@@ -49,7 +49,7 @@ asyncseplay,setag1_1,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,兵士Ａ,Yes. The water level rises dangerously<br>whenever there's heavy rain.<br> ,401001000,vc_10620100001_001_01,chara_2
+message,兵士Ａ,Yes，it's a dangerous spot where the water level rises during heavy<br>rain.<br> ,401001000,vc_10620100001_001_01,chara_2
 
 asyncshake,CHARA,chara_3,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -58,13 +58,13 @@ asyncseplay,setag1_2,se4800006,0,1,CONT,0
 asynccharaemo,chara_3,Trouble,CONT,0
 
 
-message,兵士Ｂ,It's flooded numerous times in the past，<br>and any levees we build just collapse...<br> ,401301000,vc_10620100001_002_01,chara_3
+message,兵士Ｂ,It's flooded many times in the past，and any embankments we build<br>collapse immediately.<br> ,401301000,vc_10620100001_002_01,chara_3
 
-message,<user>,Hmm... I'd like to deal with this soon，<br>but what exactly is causing the problem...?<br> 
+message,<user>,Hmm... I'd like to deal with this soon，but... what exactly is the<br>problem?<br> 
 
-message,<user>,Hm?<br> 
+message,<user>,Huh?<br> 
 
-message,,%user% noticed a woman nearby<br>dressed in unfamiliar garb.<br> 
+message,,The Commander noticed a woman in unfamiliar attire nearby.<br> 
 
 window,off
 wait,0.15
@@ -108,7 +108,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,？？？,This river...<br>The flow of qi is quite poor...<br> ,106201000G,vc_10620100001_003_01,chara_1
+message,？？？,This river... the flow of ki is poor，is it not...<br> ,106201000G,vc_10620100001_003_01,chara_1
 
 window,off
 wait,0.15
@@ -154,9 +154,9 @@ asyncseplay,setag1_4,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,？？？,Huh?<br> ,106201000G,vc_10620100001_004_01,chara_1
+message,？？？,Pardon?<br> ,106201000G,vc_10620100001_004_01,chara_1
 
-message,<user>,Ah，sorry for the sudden question.<br>I'm here on business to check on the river too.<br> 
+message,<user>,Ah，sorry for asking abruptly. I'm also here on duty，checking on the<br>river.<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -165,9 +165,9 @@ asyncseplay,setag1_5,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,？？？,Oh my! Is that so!<br>I am terribly sorry for being in the way.<br> ,106201000G,vc_10620100001_005_01,chara_1
+message,？？？,Oh my，is that so! I apologize for getting in your way.<br> ,106201000G,vc_10620100001_005_01,chara_1
 
-message,<user>,No，not at all.<br>More importantly，uh... what's your name?<br> 
+message,<user>,No，it's fine. More importantly，um... what's your name?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -181,7 +181,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 message,？？？,My name is Hinagi.<br> ,106201000G,vc_10620100001_006_01,chara_1
 
-message,,%user% told Hinagi<br>that he was the commander of the forward base.<br> 
+message,,The Commander told Hinagi that he was the Commander of the Frontline<br>Base.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -192,7 +192,7 @@ asyncseplay,setag1_7,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ヒナギ,You are the Commander-sama!<br>It is an honor to meet you!<br> ,106201000G,vc_10620100001_007_01,chara_1
+message,ヒナギ,So you are the Lord Commander! It is an honor to meet you.<br> ,106201000G,vc_10620100001_007_01,chara_1
 
 message,<user>,Where are you from，Hinagi?<br> 
 
@@ -206,9 +206,9 @@ asyncseplay,setag1_8,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ヒナギ,I have come from Hourai Country，far to<br>the east of Treslia. I practice as an onmyouji.<br> ,106201000G,vc_10620100001_008_01,chara_1
+message,ヒナギ,I have come from the country of Hourai，far to the east of the<br>Treslia Region. I work as an onmyoji.<br> ,106201000G,vc_10620100001_008_01,chara_1
 
-message,<user>,An onmyouji... That's a profession that<br>mainly divines fortune and misfortune，right?<br> 
+message,<user>,An onmyoji... if I recall，that's a profession that divines good and<br>bad fortune，right?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -219,7 +219,7 @@ asyncseplay,setag1_9,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヒナギ,That is correct!<br>You are most knowledgeable，Commander-sama.<br> ,106201000G,vc_10620100001_009_01,chara_1
+message,ヒナギ,Exactly. You are very knowledgeable，Lord Commander.<br> ,106201000G,vc_10620100001_009_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -231,7 +231,7 @@ asyncseplay,setag1_10,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヒナギ,I am skilled not only in divination，<br>but also in prayer rituals and sorcery.<br> ,106201000G,vc_10620100001_010_01,chara_1
+message,ヒナギ,I am skilled not only in fortune-telling，but also in prayers and<br>spellcraft.<br> ,106201000G,vc_10620100001_010_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -242,7 +242,7 @@ asyncseplay,setag1_11,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ヒナギ,When I said the qi was 'poor' while looking<br>at the river，it was based on reading the flow.<br> ,106201000G,vc_10620100001_011_01,chara_1
+message,ヒナギ,Also，that remark I made earlier about the river's ki being bad was<br>based on my understanding of the water's flow.<br> ,106201000G,vc_10620100001_011_01,chara_1
 
 message,<user>,Oh? Tell me more.<br> 
 
@@ -261,7 +261,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,Yes! The problem is that this river has<br>very sharp curves in its shape.<br> ,106201000G,vc_10620100001_012_01,chara_1
+message,ヒナギ,Yes. The problem with this river is that its curves are too sharp.<br> ,106201000G,vc_10620100001_012_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -272,14 +272,14 @@ asyncseplay,setag1_13,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒナギ,Because of that，the water and earth clash<br>violently on the outer bends，disrupting the flow.<br> ,106201000G,vc_10620100001_013_01,chara_1
+message,ヒナギ,Because of that，on the outer side of the bends，the water and land<br>collide violently，disrupting the current.<br> ,106201000G,vc_10620100001_013_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
 
-message,ヒナギ,When heavy rain increases the water volume，<br>the current naturally grows stronger，yes?<br> ,106201000G,vc_10620100001_014_01,chara_1
+message,ヒナギ,When heavy rain increases the volume，the flow naturally becomes<br>stronger and larger，doesn't it?<br> ,106201000G,vc_10620100001_014_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -290,7 +290,7 @@ asyncseplay,setag1_14,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ヒナギ,As a result，the earth cannot withstand the<br>force of the water，it collapses... and floods.<br> ,106201000G,vc_10620100001_015_01,chara_1
+message,ヒナギ,As a result，the land cannot withstand the water's force and<br>collapses... leading to flooding.<br> ,106201000G,vc_10620100001_015_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -301,9 +301,9 @@ asyncseplay,setag1_15,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒナギ,I would imagine that building levees<br>has not been effective either，has it?<br> ,106201000G,vc_10620100001_016_01,chara_1
+message,ヒナギ,I suspect that building levees did not help either—is that correct?<br> ,106201000G,vc_10620100001_016_01,chara_1
 
-message,<user>,...Exactly right. So you believe the cause is<br>that the water's flow is unnatural.<br> 
+message,<user>,That's right. In short，you're saying the cause is the unnatural<br>flow.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -314,11 +314,11 @@ asyncseplay,setag1_16,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヒナギ,Yes! You are truly sharp，Commander-sama.<br>Such quick understanding — how wonderful!<br> ,106201000G,vc_10620100001_017_01,chara_1
+message,ヒナギ,Yes. Lord Commander，you are truly a clever person. You understand so<br>quickly; it is wonderful!<br> ,106201000G,vc_10620100001_017_01,chara_1
 
 message,<user>,Haha，thanks.<br> 
 
-message,<user>,But if that's the case，we'd need construction<br>to ease the flow... That would take manpower and time.<br> 
+message,<user>,But if that's the case，we'll need construction to slow the river's<br>flow... It'll take both manpower and time.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -330,9 +330,9 @@ asyncseplay,setag1_17,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヒナギ,...Um，if you would allow me，<br>please leave this to me.<br> ,106201000G,vc_10620100001_018_01,chara_1
+message,ヒナギ,If it is acceptable，please let me handle it.<br> ,106201000G,vc_10620100001_018_01,chara_1
 
-message,<user>,You have a solution?<br> 
+message,<user>,So you have a solution?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -343,7 +343,7 @@ asyncseplay,setag1_18,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ヒナギ,Yes! Onmyouji do not merely read the flow of<br>qi — we also study the art of adjusting it daily!<br> ,106201000G,vc_10620100001_019_01,chara_1
+message,ヒナギ,Yes! Onmyoji are constantly studying not only how to read the flow<br>of ki，but also how to adjust it through spellcraft.<br> ,106201000G,vc_10620100001_019_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -354,7 +354,7 @@ asyncseplay,setag1_19,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ヒナギ,For example，using something like this——<br> ,106201000G,vc_10620100001_020_01,chara_1
+message,ヒナギ,For example，using something like this—<br> ,106201000G,vc_10620100001_020_01,chara_1
 
 window,off
 wait,0.15
@@ -371,12 +371,12 @@ asyncjump,CHARA,chara_1,-40,1.8,1,off,0,CONT
 asyncwait
 
 window,on,0.15
-message,,Hinagi produced a piece of paper from her robes.<br>It was cut into the shape of a human figure.<br> 
+message,,Hinagi produced a piece of paper from inside her robe—a paper cutout<br>in the shape of a human.<br> 
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
 
-message,ヒナギ,This is a talisman called a katashiro.<br> ,106201000G,vc_10620100001_021_01,chara_1
+message,ヒナギ,This is a talisman called a curse effigy.<br> ,106201000G,vc_10620100001_021_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -387,7 +387,7 @@ asyncseplay,setag1_20,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヒナギ,Allow me to use this to solve<br>the river's problem!<br> ,106201000G,vc_10620100001_022_01,chara_1
+message,ヒナギ,I'll show you how I can solve the river's problem with this!<br> ,106201000G,vc_10620100001_022_01,chara_1
 
 window,off
 wait,0.15
@@ -403,7 +403,7 @@ asyncjump,CHARA,chara_1,-20,2.5,2,off,0,CONT
 asyncwait
 
 window,on,0.15
-message,,Brimming with confidence，Hinagi inscribed<br>characters onto the katashiro and began chanting.<br> 
+message,,Hinagi，full of confidence，declared，wrote characters on the curse<br>effigy with a brush，and began chanting a spell.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -414,7 +414,7 @@ asyncseplay,setag1_21,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ヒナギ,O water，pure wellspring of life...<br> ,106201000G,vc_10620100001_023_01,chara_1
+message,ヒナギ,Water，pure source of life...<br> ,106201000G,vc_10620100001_023_01,chara_1
 
 linework,on,White,Middle
 
@@ -427,7 +427,7 @@ asyncseplay,setag1_22,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ヒナギ,Still your wrathful waves<br>and become water of blessing!<br> ,106201000G,vc_10620100001_024_01,chara_1
+message,ヒナギ,Quell your angry waves and become a blessing!<br> ,106201000G,vc_10620100001_024_01,chara_1
 
 window,off
 wait,0.15
@@ -454,9 +454,9 @@ transitionCrossFade,Tra01,1
 wait,1
 
 window,on,0.15
-message,,The talisman left Hinagi's hand<br>and drifted gently toward the river.<br> 
+message,,The talisman left Hinagi's hand and floated gently toward the river.<br> 
 
-message,<user>,...It sank into the river?<br>Is that supposed to happen?<br> 
+message,<user>,... It sank into the river. Is that okay?<br> 
 
 window,off
 wait,0.15
@@ -495,7 +495,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,It is fine. It is working as intended.<br> ,106201000G,vc_10620100001_025_01,chara_1
+message,ヒナギ,It is fine. It is working properly.<br> ,106201000G,vc_10620100001_025_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -506,7 +506,7 @@ asyncseplay,setag1_24,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ヒナギ,...Please，watch closely.<br>Here it comes!<br> ,106201000G,vc_10620100001_026_01,chara_1
+message,ヒナギ,... Please look. Here it comes!<br> ,106201000G,vc_10620100001_026_01,chara_1
 
 window,off
 wait,0.15
@@ -538,7 +538,7 @@ asyncshake,CHARA,chara_2,24,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_3,24,0,0.6,5,off,off,0,on,CONT,0
 
 window,on,0.15
-message,,——RRRUMMMBBLE!<br> 
+message,,A low rumble echoed from the river.<br> 
 
 window,off
 wait,0.15
@@ -587,9 +587,9 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 
 window,on,0.15
-message,兵士Ｂ,C-Commander!<br>The river is surging!?<br> ,401301000,vc_10620100001_027_01,chara_3
+message,兵士Ｂ,C-Commander! The river's flow is getting stronger!<br> ,401301000,vc_10620100001_027_01,chara_3
 
-message,<user>,Hey，hey!<br>What good is causing a flood!?<br> 
+message,<user>,Whoa! What are you doing causing a flood?!<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -600,7 +600,7 @@ asyncseplay,setag1_26,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヒナギ,Please，rest assured.<br>...The river is simply reshaping itself as it should.<br> ,106201000G,vc_10620100001_028_01,chara_1
+message,ヒナギ,Please do not worry. ... The river is simply transforming into its<br>natural state.<br> ,106201000G,vc_10620100001_028_01,chara_1
 
 window,off
 wait,0.15
@@ -627,19 +627,19 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,Trusting Hinagi's calm composure，%user%<br>watched the river closely. Then——<br> 
+message,,Trusting Hinagi，who remained perfectly calm，the Commander kept watch<br>over the river. Then—<br> 
 
-message,<user>,The river is splitting in two...!?<br> 
+message,<user>,The river's water is splitting in two...!<br> 
 
 sestop,se1_1001,2.5
 
-message,兵士Ａ,Isn't the current gradually slowing down too...?<br> ,401001000,vc_10620100001_029_01,
+message,兵士Ａ,And the current is gradually slowing down，isn't it...?<br> ,401001000,vc_10620100001_029_01,
 
 bgmstop,bgmtag1_1,1.5,0
 
-message,,Before long，the river settled into a calm flow.<br> 
+message,,After a short while，the river's water settled into a gentle flow.<br> 
 
-message,<user>,Incredible...!<br>The river has split into two channels!<br> 
+message,<user>,Amazing... The river's been split into two branches!<br> 
 
 window,off
 wait,0.15
@@ -690,7 +690,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,How is it?<br>Has the problem been resolved?<br> ,106201000G,vc_10620100001_030_01,chara_1
+message,ヒナギ,How does it look? Is the problem resolved?<br> ,106201000G,vc_10620100001_030_01,chara_1
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -702,7 +702,7 @@ asyncseplay,setag1_28,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,兵士Ａ,With this，there should be<br>no more risk of flooding!<br> ,401001000,vc_10620100001_031_01,chara_2
+message,兵士Ａ,Looks like we don't have to worry about flooding anymore!<br> ,401001000,vc_10620100001_031_01,chara_2
 
 window,off
 wait,0.15
@@ -748,9 +748,9 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,Hehe. I am so glad!<br> ,106201000G,vc_10620100001_032_01,chara_1
+message,ヒナギ,Fufu. I am so glad!<br> ,106201000G,vc_10620100001_032_01,chara_1
 
-message,<user>,Hinagi，let me thank you as well.<br>I'll make sure you're properly compensated later.<br> 
+message,<user>,Hinagi，I want to thank you too. I'll be sure to pay you properly<br>later.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -761,9 +761,9 @@ asyncseplay,setag1_30,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒナギ,Oh，no no! Your kindness is more than enough!<br>Being able to help makes me happy too!<br> ,106201000G,vc_10620100001_033_01,chara_1
+message,ヒナギ,Oh，no，not at all! There is no need for that! I am just glad I could<br>help!<br> ,106201000G,vc_10620100001_033_01,chara_1
 
-message,<user>,Haha. You're a good sort.<br> 
+message,<user>,Haha. You're refreshing.<br> 
 
 window,off
 wait,0.15
@@ -778,7 +778,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(Above all，that power is incredible...<br>I can't let someone like this slip away.)<br> 
+message,<user>,(Above all，this power is incredible... She's amazing. I can't just<br>let her get away.)<br> 
 
 window,off
 wait,0.15
@@ -793,7 +793,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,Since you're here，I'd love to hear more about<br>onmyoudou. Would you stop by the forward base?<br> 
+message,<user>,Since we've got the chance，I'd like to hear more about Onmyoji.<br>Could you stop by the Frontline Base?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -804,7 +804,7 @@ asyncseplay,setag1_31,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ヒナギ,By all means，I would be delighted!<br>That is exactly what I was hoping for!<br> ,106201000G,vc_10620100001_034_01,chara_1
+message,ヒナギ,Absolutely，I'd be delighted. That's exactly what I was hoping for.<br> ,106201000G,vc_10620100001_034_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -816,9 +816,9 @@ asyncseplay,setag1_32,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヒナギ,You see，I was actually on my way<br>to the forward base myself.<br> ,106201000G,vc_10620100001_035_01,chara_1
+message,ヒナギ,That's because I was actually on my way to the Frontline Base.<br> ,106201000G,vc_10620100001_035_01,chara_1
 
-message,<user>,Oh? You had business at the forward base?<br> 
+message,<user>,Oh，so you had business at the Frontline Base?<br> 
 
 window,off
 wait,0.15
@@ -837,7 +837,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒナギ,Yes. To be precise，I wished to investigate<br>the Abyss，but——<br> ,106201000G,vc_10620100001_036_01,chara_1
+message,ヒナギ,Yes. To be precise，I wanted to investigate the Abyss，but—<br> ,106201000G,vc_10620100001_036_01,chara_1
 
 message,<user>,Hmm...?<br> 
 
@@ -850,11 +850,11 @@ asyncseplay,setag1_34,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヒナギ,I would love to discuss that<br>and more at length!<br> ,106201000G,vc_10620100001_037_01,chara_1
+message,ヒナギ,I'd love to talk about that and more at our leisure!<br> ,106201000G,vc_10620100001_037_01,chara_1
 
-message,<user>,All right. Let's head to the forward base.<br>I'd like to introduce you to my adjutant，Alicia.<br> 
+message,<user>,Alright，let's head to the Frontline Base. I'd like to introduce you<br>to the Deputy Commander，Alicia.<br> 
 
-message,<user>,I'll have Alicia make us some tea<br>when we arrive.<br> 
+message,<user>,When we get there，I'll have Alicia make us some tea.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -865,7 +865,7 @@ asyncseplay,setag1_35,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ヒナギ,Thank you so much!<br>I cannot wait!!<br> ,106201000G,vc_10620100001_038_01,chara_1
+message,ヒナギ,Thank you so much! I'm looking forward to it!<br> ,106201000G,vc_10620100001_038_01,chara_1
 
 window,off
 wait,0.15
@@ -880,7 +880,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(An onmyouji named Hinagi...<br>I'm looking forward to hearing what she has to say.)<br> 
+message,<user>,(Hinagi the Onmyoji... I'm looking forward to hearing what she has<br>to say.)<br> 
 
 window,off
 bgmstop,bgmtag1_2,0.5

@@ -371,9 +371,9 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 window,on,0.15
 message,ハツネ,...!<br>These claw marks...<br> ,103101000G,vc_10310100002_011_01,chara_1
 
-message,<user>,A large predator sharpened its claws here.<br>This is probably its territory.<br> 
+message,<user>,These are claw marks from a large carnivore. It's probably staked<br>out this area as its territory.<br> 
 
-message,<user>,I know you want to hurry，but let's detour around this.<br>Provoke it and the search'll be the least of our worries.<br> 
+message,<user>,I know you want to rush，but let's detour carefully. If we provoke<br>the beast，finding the missing person will be the least of our worries.<br> 
 
 window,off
 wait,0.15
@@ -393,9 +393,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ハツネ,...You're right.<br>We'll go around from the left.<br> ,103101000G,vc_10310100002_012_01,chara_1
+message,ハツネ,...Yeah，you're right. We'll circle around from the left.<br> ,103101000G,vc_10310100002_012_01,chara_1
 
-message,<user>,Good. You can be reasonable when you want to be.<br> 
+message,<user>,Good. You can listen when you want to，huh.<br> 
 
 window,off
 wait,0.15
@@ -421,7 +421,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,ハツネ,(This guy... he's not just all talk after all.<br>He's calm and knows his stuff.)<br> ,103101000G,vc_10310100002_013_01,chara_1
+message,ハツネ,(This guy... he's not just all talk. He's calm and knows his stuff.)<br> ,103101000G,vc_10310100002_013_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -432,7 +432,7 @@ asyncseplay,setag1_15,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ハツネ,(Come to think of it，Kotono called him 'my lord'...<br>Did she actually choose this guy as her new master?)<br> ,103101000G,vc_10310100002_014_01,chara_1
+message,ハツネ,(Now that I think about it，Kotono was calling him 'Master'... Could<br>it be that Kotono actually chose this guy as her new Master?)<br> ,103101000G,vc_10310100002_014_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -443,7 +443,7 @@ asyncseplay,setag1_16,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ハツネ,(This guy... who the heck is he?)<br> ,103101000G,vc_10310100002_015_01,chara_1
+message,ハツネ,(This guy... who the hell is he?)<br> ,103101000G,vc_10310100002_015_01,chara_1
 
 
 window,off
@@ -513,7 +513,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,Did you find something?<br>...Hm? Something's stuck in the ground. Is that... a dagger?<br> 
+message,<user>,Did you find something? ...Huh? There's something stuck in the<br>ground. Is that a short sword?<br> 
 
 window,off
 wait,0.15
@@ -563,11 +563,11 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ハツネ,This dagger... our lord gave it to the young lord!<br>It's proof of succession. He always kept it on him...<br> ,103101000G,vc_10310100002_017_01,chara_1
+message,ハツネ,This short sword... the Lord gave it to the Young Master as proof of<br>succession! He always kept it close.<br> ,103101000G,vc_10310100002_017_01,chara_1
 
-message,<user>,Given its size，it's for self-defense at most.<br>In combat，he'd only use it if he lost his katana.<br> 
+message,<user>,Judging by its length，it's only good for self-defense. In a real<br>fight，you'd only use it if you lost your katana.<br> 
 
-message,<user>,Meaning... he was cornered badly enough<br>to resort to his last line of defense.<br> 
+message,<user>,So... he was desperate enough to have to fall back on his last<br>resort.<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -580,7 +580,7 @@ asyncseplay,setag1_19,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,ハツネ,...! There's blood on the ground...!<br>So much of it...!<br> ,103101000G,vc_10310100002_018_01,chara_1
+message,ハツネ,*gasp*... Blood on the ground! So much...<br> ,103101000G,vc_10310100002_018_01,chara_1
 
 window,off
 wait,0.15
@@ -612,7 +612,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,The grass around here is trampled，too.<br>Looks like there was a fight with a monster here.<br> 
+message,<user>,The grass around here is trampled too. Looks like they fought a<br>monster here.<br> 
 
 window,off
 wait,0.15
@@ -642,7 +642,7 @@ wait,0.5
 bgmplay,bgmtag1_2,bgm0030,0.75,1
 
 window,on,0.15
-message,<user>,No one's nearby anymore，by the look of it.<br> 
+message,<user>,He's not nearby... seems like he's gone.<br> 
 
 window,off
 wait,0.15
@@ -657,7 +657,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(Did he escape while fighting，or get dragged to a lair?<br>...No，wait. Given how wolves behave around here...)<br> 
+message,<user>,(Did he escape while fighting，or was he defeated and taken to its<br>den? ...No，wait. Considering wolf behavior around here...)<br> 
 
 window,off
 wait,0.15
@@ -679,7 +679,7 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,ハツネ,No... young lord...!<br>I was supposed to protect you...!<br> ,103101000G,vc_10310100002_019_01,chara_1
+message,ハツネ,No... Young Master... I was supposed to protect you!<br> ,103101000G,vc_10310100002_019_01,chara_1
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -688,9 +688,9 @@ asyncseplay,setag1_21,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ハツネ,Young lord... young lord...<br> ,103101000G,vc_10310100002_020_01,chara_1
+message,ハツネ,Young Master... Young Master...<br> ,103101000G,vc_10310100002_020_01,chara_1
 
-message,<user>,Calm down. We don't know he's dead.<br> 
+message,<user>,Calm down. It's not certain he's dead yet.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -701,9 +701,9 @@ asyncseplay,setag1_22,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ハツネ,Don't try to comfort me...! No one survives this much blood loss!<br>There's no body... he's already been eaten by...!<br> ,103101000G,vc_10310100002_021_01,chara_1
+message,ハツネ,Don't give me that crap. There's no way he's alive with this much<br>blood，and no body... The Young Master's been eaten by the monster!<br> ,103101000G,vc_10310100002_021_01,chara_1
 
-message,<user>,I said calm down.<br>Look. There's animal fur in the blood.<br> 
+message,<user>,Like I said，calm down. Look—there's animal hair in the pool of<br>blood.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -716,11 +716,11 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 message,ハツネ,Huh...?<br> ,103101000G,vc_10310100002_022_01,chara_1
 
-message,<user>,Your young lord wounded the monster during the fight.<br>Which means not all this blood is his.<br> 
+message,<user>,It means your Young Lord fought the monster and wounded it too. If<br>that's the case，then not all this blood is his.<br> 
 
-message,<user>,Wolf-type monsters don't drag prey back to their dens.<br>And there's no body here.<br> 
+message,<user>,Besides，wolf-type monsters don't carry prey back to their dens. And<br>there's no body of the Young Lord here.<br> 
 
-message,<user>,In other words，there's a real chance he's still alive.<br> 
+message,<user>,In short，there's a strong possibility he's still alive.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -731,9 +731,9 @@ asyncseplay,setag1_24,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ハツネ,R-really...?<br>The young lord... he's okay...?<br> ,103101000G,vc_10310100002_023_01,chara_1
+message,ハツネ,R...really...? Is the Young Lord... safe...?<br> ,103101000G,vc_10310100002_023_01,chara_1
 
-message,<user>,Most likely. But he's still in danger，that hasn't changed.<br>If you give up，we'll miss our chance. Understand?<br> 
+message,<user>,Probably. But he's still in danger. If you give up，even what could<br>still be done will be too late. You get that?<br> 
 
 window,off
 wait,0.15
@@ -766,7 +766,7 @@ wait,0.5
 window,on,0.15
 message,ハツネ,...Yeah.<br> ,103101000G,vc_10310100002_024_01,chara_1
 
-message,<user>,Then there's no time to sit here crying.<br>Let's move. You're the only one who can save him.<br> 
+message,<user>,Then there's no time for crying. We're moving forward. You're the<br>only one who can save the Young Lord.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -777,9 +777,9 @@ asyncseplay,setag1_27,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ハツネ,...Got it! The young lord's scent is...<br>...This way! It goes this way!<br> ,103101000G,vc_10310100002_025_01,chara_1
+message,ハツネ,...Okay! The Young Lord's scent... this way! It leads this way!<br> ,103101000G,vc_10310100002_025_01,chara_1
 
-message,<user>,Let's go! Hurry，Hatsune!<br> 
+message,<user>,Alright! Let's go，Hatsune!<br> 
 
 
 window,off
@@ -844,7 +844,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ハツネ,...There! Up in that tree! ...It's the young lord!<br>He's up in that tree!<br> ,103101000G,vc_10310100002_026_01,chara_1
+message,ハツネ,...There! Up on that tree! It's the Young Lord! He's up there!<br> ,103101000G,vc_10310100002_026_01,chara_1
 
 window,off
 wait,0.15
@@ -877,7 +877,7 @@ wait,1
 wait,0.5
 
 window,on,0.15
-message,<user>,He figured he couldn't outrun it，<br>so he climbed a tree. Smart move. But...<br> 
+message,<user>,He must have realized he couldn't escape by running and climbed a<br>tree. Clever decision. But...<br> 
 
 window,off
 wait,0.15
@@ -909,11 +909,11 @@ asynccharaemo,chara_2,Anger,CONT,0
 
 
 window,on,0.15
-message,狼,Grrrrr...<br> ,402001000,,chara_2
+message,狼,*grrrr...*<br> ,402001000,,chara_2
 
 bgmplay,bgmtag1_4,bgm0039,0.75,1
 
-message,<user>,The wolf is waiting at the base of the tree...<br>Biding its time until its prey gives out.<br> 
+message,<user>,The wolf is circling at the base of the tree... Waiting for its prey<br>to tire out.<br> 
 
 window,off
 wait,0.15
@@ -935,11 +935,11 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,ホウライの青年,Hah... hah... hah...<br> ,900000001
+message,ホウライの青年,*pant*，*pant*，*pant*<br> ,900000001
 
-message,ハツネ,Young lord，your face is white as a sheet...!<br> ,103101000G,vc_10310100002_027_01,
+message,ハツネ,Young Lord，you're pale as a ghost...!<br> ,103101000G,vc_10310100002_027_01,
 
-message,<user>,He's lost a lot of blood. Must be barely conscious.<br>...This is bad. If he falls from there，it's over.<br> 
+message,<user>,He's lost a lot of blood. He must be struggling to stay conscious.<br>...Not good. If he falls from there，it's game over.<br> 
 
 window,off
 wait,0.15
@@ -981,9 +981,9 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ハツネ,Young lord! Hatsune is coming to save you right now!<br> ,103101000G,vc_10310100002_028_01,chara_1
+message,ハツネ,Young Lord! I'm coming to save you!<br> ,103101000G,vc_10310100002_028_01,chara_1
 
-message,<user>,Wait! That thing gave Kotono a run for her money!<br>You can't just charge in and expect to win!<br> 
+message,<user>,Hold on! That thing gave Kotono a hard time! It's not the kind of<br>enemy you can take on by charging in recklessly!<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -992,9 +992,9 @@ asyncseplay,setag1_31,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ハツネ,Then I'll be the decoy!<br>Get the young lord back to base while I hold it off!<br> ,103101000G,vc_10310100002_029_01,chara_1
+message,ハツネ,Then I'll be the decoy! You take the Young Master back to base while<br>I distract it!<br> ,103101000G,vc_10310100002_029_01,chara_1
 
-message,<user>,Don't be stupid.<br>Would your young lord be happy knowing you died for him?<br> 
+message,<user>,Don't be stupid. Do you think your Young Master would be happy<br>knowing you sacrificed yourself?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1005,7 +1005,7 @@ asyncseplay,setag1_32,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ハツネ,That's...!<br> ,103101000G,vc_10310100002_030_01,chara_1
+message,ハツネ,But...!<br> ,103101000G,vc_10310100002_030_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1016,9 +1016,9 @@ asyncseplay,setag1_33,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ハツネ,Ugh...! Then what am I supposed to do!?<br> ,103101000G,vc_10310100002_031_01,chara_1
+message,ハツネ,Ugh...! Then what am I supposed to do?!<br> ,103101000G,vc_10310100002_031_01,chara_1
 
-message,<user>,I've got an idea.<br>If it works，we all make it back safely.<br> 
+message,<user>,I have a plan. If it works，everyone should be able to return safely.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1029,9 +1029,9 @@ asyncseplay,setag1_34,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,ハツネ,Really!?<br>Tell me! What do I gotta do!?<br> ,103101000G,vc_10310100002_032_01,chara_1
+message,ハツネ,Really? Tell me! What should I do?!<br> ,103101000G,vc_10310100002_032_01,chara_1
 
-message,<user>,I'll need you to take on a somewhat dangerous role.<br>You in?<br> 
+message,<user>,I need you to take on a somewhat dangerous role. Will you help me?<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -1040,9 +1040,9 @@ asyncseplay,setag1_35,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ハツネ,Duh!<br>If it'll save the young lord，I'll do anything!<br> ,103101000G,vc_10310100002_033_01,chara_1
+message,ハツネ,Of course! If I can help the Young Master，I'll do anything!<br> ,103101000G,vc_10310100002_033_01,chara_1
 
-message,<user>,That's the spirit!<br>All right，Hatsune. First，you——<br> 
+message,<user>,That's the spirit! Then，Hatsune，first you—<br> 
 
 window,off
 bgmstop,bgmtag1_4,0.5

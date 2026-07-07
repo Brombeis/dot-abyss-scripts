@@ -233,7 +233,7 @@ asyncseplay,setag1_11,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,エレクトラ,承知しました。エレクトラの性能を存分にご覧ください。,100501000G,vc_10050100001_010_01,chara_1
+message,エレクトラ,Understood，Master. Please witness my full capabilities.<br> ,100501000G,vc_10050100001_010_01,chara_1
 
 window,off
 wait,0.15
@@ -251,7 +251,7 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,,走り出したエレクトラは、モンスターの群れへ突撃していく。
+message,,Electra dashed off，charging straight into the horde of monsters.<br> 
 
 window,off
 wait,0.15
@@ -266,7 +266,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（……速いっ！）
+message,<user>,(So fast!)<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -319,7 +319,7 @@ wait,0.5
 
 
 window,on,0.15
-message,エレクトラ,敵影捕捉。ロックオン。攻撃開始。,100501000G,vc_10050100001_011_01,chara_1
+message,エレクトラ,Enemy sighted. Locking on. Commencing attack.<br> ,100501000G,vc_10050100001_011_01,chara_1
 
 window,off
 wait,0.15
@@ -368,7 +368,7 @@ wait,0.5
 
 
 window,on,0.15
-message,モンスター,ギッ！？,402001000,,chara_2
+message,モンスター,Yelp!<br> ,402001000,,chara_2
 
 cleanall,EFFECT
 
@@ -416,7 +416,7 @@ prefabshowUI,uieffect_2
 prefabshowUI,uieffect_2
 
 window,on,0.15
-message,,――モンスターに接近したエレクトラが至近距離で足を打ち抜く。<br>さらに、動けなくなったモンスターを集中砲火で絶命させた。
+message,,Electra closed in on the monsters and shot out their legs at<br>point-blank range，then finished them off with a concentrated barrage.<br> 
 
 window,off
 wait,0.15
@@ -482,7 +482,7 @@ wait,0.5
 
 
 window,on,0.15
-message,エレクトラ,対象１体討伐完了。攻撃継続。殲滅完了まで継続します。,100501000G,vc_10050100001_012_01,chara_1
+message,エレクトラ,One target eliminated. Continuing attack. I will continue until all<br>are destroyed.<br> ,100501000G,vc_10050100001_012_01,chara_1
 
 window,off
 wait,0.15
@@ -770,7 +770,7 @@ shake,CHARA,chara_7,40,0,0.25,20,off,off,0
 shake,CHARA,chara_8,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,,突撃したエレクトラにモンスターの群れが襲い掛かった。だが眉１つ動かさない<br>エレクトラの掃射によって、モンスターたちはバタバタと倒れる。
+message,,The monster horde charged at Electra as she rushed forward. Without<br>a flicker of emotion，she opened fire，and the monsters fell one by one.<br> 
 
 window,off
 wait,0.15
@@ -816,7 +816,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 wait,0.5
 
 window,on,0.15
-message,<user>,攻撃力も高水準か。<br>……なるほど。これは自信を持つのも納得だ。
+message,<user>,So her firepower is top-notch as well... I see. No wonder she's<br>confident.<br> 
 
 window,off
 wait,0.15
@@ -857,7 +857,7 @@ wait,1
 
 wait,0.5
 
-messageTextUnder,,敵の数はけっして少なくなかったが、エレクトラの力は圧倒的だった。<br>無駄のない動きで、あっという間にモンスターを殲滅した。,,,on
+messageTextUnder,,The enemies were by no means few，but Electra's power was overwhelming. With streamlined movements，she annihilated the monsters in no time.,,,on
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -898,7 +898,7 @@ bgmplay,bgmtag1_3,bgm0036,0.75,1
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,<user>,――というわけで怪我人もなし。鉱脈の採掘も無事完了。<br>エレクトラのおかげだ。
+message,<user>,So，no injuries. The mining of the ore vein was completed safely. All<br>thanks to Electra.<br> 
 
 asynccharaface,chara_5,FaceUnique01,CONT,0
 
@@ -909,7 +909,7 @@ asyncseplay,setag1_32,se4800022,0,1,CONT,0
 asynccharaemo,chara_5,Speak,CONT,0
 
 
-message,アリシア,なるほど！　大活躍だったんですね！,300201000,vc_10050100001_013_01,chara_5
+message,アリシア,I see! She was a huge help!<br> ,300201000,vc_10050100001_013_01,chara_5
 
 window,off
 wait,0.15
@@ -928,7 +928,7 @@ wait,0.5
 
 
 window,on,0.15
-message,エレクトラ,お褒めに預かり光栄です。,100501000G,vc_10050100001_014_01,chara_1
+message,エレクトラ,I am honored by your praise.<br> ,100501000G,vc_10050100001_014_01,chara_1
 
 window,off
 wait,0.15
@@ -969,9 +969,9 @@ asynccharaemo,chara_6,Elated,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,だから言ったでしょう？　エレクトラは完璧なアンドロイド。<br>必ず助けになります、と。,108701000G,vc_10050100001_015_01,chara_6
+message,アーデルハイト,That is what I told you，was it not? Electra is a perfect android.<br>She would surely be of help.<br> ,108701000G,vc_10050100001_015_01,chara_6
 
-message,<user>,んっ？　アンド……ロイド……？
+message,<user>,Huh? An and...roid...?<br> 
 
 asynccharaface,chara_6,FaceSurprise,CONT,0
 
@@ -982,7 +982,7 @@ asyncseplay,setag1_35,se4800006,0,1,CONT,0
 asynccharaemo,chara_6,Trouble,CONT,0
 
 
-message,アーデルハイト,お忘れですか？<br>司令官、以前も説明をしたじゃないですか……。,108701000G,vc_10050100001_016_01,chara_6
+message,アーデルハイト,Have you forgotten，Commander? I explained it to you before...<br> ,108701000G,vc_10050100001_016_01,chara_6
 
 window,off
 wait,0.15
@@ -1036,7 +1036,7 @@ asynccharaemo,chara_6,Speak,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,エレクトラ。もう１度、説明してください。,108701000G,vc_10050100001_017_01,chara_6
+message,アーデルハイト,Electra，please explain again.<br> ,108701000G,vc_10050100001_017_01,chara_6
 
 window,off
 wait,0.15
@@ -1053,7 +1053,7 @@ wait,0.5
 
 
 window,on,0.15
-message,エレクトラ,アンドロイドとは高い処理能力と運動機能を持つロボットのことです。<br>機械仕掛けの人形、と言えば伝わりますでしょうか。,100501000G,vc_10050100001_018_01,chara_1
+message,エレクトラ,An android is a robot with high processing capacity and physical<br>capabilities. In other words，a mechanical doll.<br> ,100501000G,vc_10050100001_018_01,chara_1
 
 asynccharaface,chara_6,FaceUnique01,CONT,0
 
@@ -1064,7 +1064,7 @@ asyncseplay,setag1_38,se4800003,0,1,CONT,0
 asynccharaemo,chara_6,Twinkle,CONT,0
 
 
-message,アーデルハイト,人間ではない、ということですね。,108701000G,vc_10050100001_019_01,chara_6
+message,アーデルハイト,So you are saying she is not human.<br> ,108701000G,vc_10050100001_019_01,chara_6
 
 window,off
 wait,0.15
@@ -1113,7 +1113,7 @@ wait,0.5
 
 
 window,on,0.15
-message,エレクトラ,エレクトラは食事や睡眠を必要としません。<br>アーデルハイトさんのメンテを定期的に受ければ、活動を継続できます。,100501000G,vc_10050100001_020_01,chara_1
+message,エレクトラ,I do not require food or sleep. If I receive regular maintenance<br>from Adelheid，I can continue functioning indefinitely.<br> ,100501000G,vc_10050100001_020_01,chara_1
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -1122,7 +1122,7 @@ asyncseplay,setag1_40,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,エレクトラ,そのため、人間の皆さんが活動するには困難な場所や<br>補給が難しい環境での任務で活躍が期待できるでしょう。,100501000G,vc_10050100001_021_01,chara_1
+message,エレクトラ,Thus，I will excel in missions in areas difficult for humans or with<br>resupply challenges.<br> ,100501000G,vc_10050100001_021_01,chara_1
 
 window,off
 wait,0.15
@@ -1175,9 +1175,9 @@ asynccharaemo,chara_6,Twinkle,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,しかも、エレクトラは普通のアンドロイドよりも性能が格段に高い。<br>そのために量産は難しいですが、１人で大きな成果をもたらすはずです。,108701000G,vc_10050100001_022_01,chara_6
+message,アーデルハイト,Moreover，Electra's performance far exceeds a normal Android，so mass<br>production is hard，but she alone yields significant results.<br> ,108701000G,vc_10050100001_022_01,chara_6
 
-message,<user>,すごいな。<br>人形なのに会話の受け応えにまったく違和感がない……
+message,<user>,Amazing. Even though she's a machine，her conversational responses<br>feel completely natural...<br> 
 
 window,off
 wait,0.15
@@ -1223,7 +1223,7 @@ asynccharaemo,chara_6,Laugh,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,それは、エレクトラに搭載されている思考プログラムが優秀だからでしょう。,108701000G,vc_10050100001_023_01,chara_6
+message,アーデルハイト,That is probably because the thought program installed in Electra is<br>excellent.<br> ,108701000G,vc_10050100001_023_01,chara_6
 
 asyncjump,CHARA,chara_6,-30,0.25,1,off,0,CONT
 
@@ -1232,9 +1232,9 @@ asyncseplay,setag1_43,se4800013,0,1,CONT,0
 asynccharaemo,chara_6,Spirits,CONT,0
 
 
-message,アーデルハイト,人間と違って心がないので司令官には従順です。<br>命令には忠実に従いますよ。理想の兵と言っても差し支えないかと。,108701000G,vc_10050100001_024_01,chara_6
+message,アーデルハイト,Unlike humans，she has no heart，so she obeys the Commander<br>faithfully. I daresay she is the ideal soldier.<br> ,108701000G,vc_10050100001_024_01,chara_6
 
-message,<user>,へぇっ。便利な存在だな。
+message,<user>,Huh. She's quite a useful asset.<br> 
 
 asynccharaface,chara_6,EyeOpen,CONT,0
 asynccharaface,chara_6,FaceNormal,CONT,0
@@ -1246,14 +1246,14 @@ asyncseplay,setag1_44,se4800019,0,1,CONT,0
 asynccharaemo,chara_6,Elated,CONT,0
 
 
-message,アーデルハイト,えぇ、本当に。ちなみに性欲を満たす機能を持ったアンドロイドは<br>セクサロイドと呼称されます。,108701000G,vc_10050100001_025_01,chara_6
+message,アーデルハイト,Yes，indeed. By the way，an Android equipped with functions to satisfy<br>sexual desires is referred to as a Sexaroid.<br> ,108701000G,vc_10050100001_025_01,chara_6
 
 asynccharaface,chara_6,FaceUnique01,CONT,0
 
 asyncjump,CHARA,chara_6,30,0.25,1,off,0,CONT
 
 
-message,アーデルハイト,どんな要望にも応えてくれる夢のような機械ですが<br>実はエレクトラも――,108701000G,vc_10050100001_026_01,chara_6
+message,アーデルハイト,It is a dream machine that responds to any request，but in<br>fact，Electra is also—<br> ,108701000G,vc_10050100001_026_01,chara_6
 
 window,off
 wait,0.15
@@ -1293,7 +1293,7 @@ asyncseplay,setag1_45,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 window,on,0.15
-message,<user>,なっ、そんな使い道も……！？<br>ということは、あんなコトやこんなコトを頼んでも嫌がられない……？
+message,<user>,What?! That's a use too...!? In other words，she won't refuse if I<br>ask her to do that kind of thing...?<br> 
 
 window,off
 wait,0.15
@@ -1348,7 +1348,7 @@ asynccharaemo,chara_5,Shy,CONT,0
 
 
 window,on,0.15
-message,アリシア,し、司令官！　セクサロイドについては後日、<br>別の場所で、アーデルハイトさんと話してください！,300201000,vc_10050100001_027_01,chara_5
+message,アリシア,C-Commander! Please discuss the matter of the Sexaroid with Adelheid<br>another day，in a different place!<br> ,300201000,vc_10050100001_027_01,chara_5
 
 window,off
 wait,0.15
@@ -1365,7 +1365,7 @@ wait,0.5
 
 
 window,on,0.15
-message,エレクトラ,お気遣いは不要です、アリシアさん。,100501000G,vc_10050100001_028_01,chara_1
+message,エレクトラ,No need to be concerned，Alicia.<br> ,100501000G,vc_10050100001_028_01,chara_1
 
 window,off
 wait,0.15
@@ -1411,7 +1411,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,エレクトラ,もしお望みでしたら<br>エレクトラはなんでもいたしますからね、ご主人様。,100501000G,vc_10050100001_029_01,chara_1
+message,エレクトラ,If it is your wish，Electra will do anything for you，Master.<br> ,100501000G,vc_10050100001_029_01,chara_1
 
 window,off
 wait,0.15
@@ -1465,7 +1465,7 @@ asynccharaemo,chara_5,Shock,CONT,0
 
 
 window,on,0.15
-message,<user>・アリシア,ご主人様……！？,300201000,vc_10050100001_030_01,chara_5
+message,<user>・アリシア,Master?!<br> ,300201000,vc_10050100001_030_01,chara_5
 
 window,off
 wait,0.15
@@ -1505,9 +1505,9 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,なるほど……男心をくすぐるな。<br>すばらしいセクサロイドだ。
+message,<user>,I see... That really does it for a guy. What an amazing Sexaroid.<br> 
 
-message,<user>,それに「なんでもいたします」とは……すごい。<br>エレクトラは具体的にどういったことができるんだ？
+message,<user>,And 'I'll do anything'... That's incredible. So，Electra，what exactly<br>are you capable of?<br> 
 
 window,off
 wait,0.15
@@ -1527,7 +1527,7 @@ wait,0.5
 
 
 window,on,0.15
-message,エレクトラ,すべてを挙げると司令官の時間を数日は間違いなく奪ってしまうので、<br>別の角度から要約して説明いたします。,100501000G,vc_10050100001_031_01,chara_1
+message,エレクトラ,If I were to list them all，I would consume several days，Commander，so<br>I shall summarize from another perspective.<br> ,100501000G,vc_10050100001_031_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1539,7 +1539,7 @@ asyncseplay,setag1_51,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,エレクトラ,エレクトラの主な役目は主人の健やかな生活を維持すること――<br>自分の行動によって身も心も満たし、人生を豊かにすることが理想です。,100501000G,vc_10050100001_032_01,chara_1
+message,エレクトラ,Electra's primary role is maintaining your well-being: to fulfill<br>you in body and mind through my actions and enrich your life.<br> ,100501000G,vc_10050100001_032_01,chara_1
 
 window,off
 wait,0.15
@@ -1556,9 +1556,9 @@ wait,0.5
 
 
 window,on,0.15
-message,エレクトラ,そのためならば、如何なる命令にも対応します。<br>よほどの内容でない限りは。,100501000G,vc_10050100001_033_01,chara_1
+message,エレクトラ,For that purpose，I will comply with any order. As long as it is not<br>too extreme.<br> ,100501000G,vc_10050100001_033_01,chara_1
 
-message,<user>,よほどの内容というと――どんなのだ？
+message,<user>,What would count as 'too extreme'? For example?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1569,7 +1569,7 @@ asyncseplay,setag1_53,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,エレクトラ,代表的なのは、その命令を実行することで主人が致命的に求心力を失い<br>破滅することが容易に想像できる、といったものでしょうか。,100501000G,vc_10050100001_034_01,chara_1
+message,エレクトラ,A representative example: an order that，if executed，would lead to<br>you fatally losing your authority and being ruined. Something like that.<br> ,100501000G,vc_10050100001_034_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1580,9 +1580,9 @@ asyncseplay,setag1_54,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,エレクトラ,どうしてもと命令されたら実行しますが――<br>健やかな生活に繋がらないのが明白な場合、進言はいたします。,100501000G,vc_10050100001_035_01,chara_1
+message,エレクトラ,Master，if you command it，I will carry it out. However，if it is<br>clearly not conducive to a healthy lifestyle，I will offer my advice.<br> ,100501000G,vc_10050100001_035_01,chara_1
 
-message,<user>,つまり、メイドや部下が仕事としておこなうような命令については<br>従ってくれるってことか？
+message,<user>,So if I give you orders that a maid or subordinate would do as part<br>of their job，you'll follow them?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1594,11 +1594,11 @@ asyncseplay,setag1_55,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,エレクトラ,常軌を逸脱していなければ、概ねその通りです。,100501000G,vc_10050100001_036_01,chara_1
+message,エレクトラ,Master，as long as it doesn't deviate from common sense，that is<br>essentially correct.<br> ,100501000G,vc_10050100001_036_01,chara_1
 
-message,<user>,なるほど。<br>エレクトラ、さっそくだが仕事を頼みたい。
+message,<user>,I see. Electra，I have a job for you right away.<br> 
 
-message,<user>,帳簿処理が溜まっているから、俺の代わりに片付けてくれないか。<br>これが台帳だ。
+message,<user>,Bookkeeping has piled up. Can you handle it for me? Here's the<br>ledger.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1609,7 +1609,7 @@ asyncseplay,setag1_56,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,エレクトラ,お安い御用です。,100501000G,vc_10050100001_037_01,chara_1
+message,エレクトラ,My pleasure，Master.<br> ,100501000G,vc_10050100001_037_01,chara_1
 
 window,off
 wait,0.15
@@ -1668,7 +1668,7 @@ asynccharaemo,chara_1,Speak,STOP,2.2
 
 
 window,on,0.15
-message,エレクトラ,……………………完了しました。,100501000G,vc_10050100001_038_01,chara_1
+message,エレクトラ,...Completed.<br> ,100501000G,vc_10050100001_038_01,chara_1
 
 asynccharaface,chara_5,FaceSurprise,CONT,0
 
@@ -1679,9 +1679,9 @@ asyncseplay,setag1_58,se4800017,0,1,CONT,0
 asynccharaemo,chara_5,Shock,CONT,0
 
 
-message,アリシア,早っ！？,300201000,vc_10050100001_039_01,chara_5
+message,アリシア,Already?!<br> ,300201000,vc_10050100001_039_01,chara_5
 
-message,<user>,すごい！　期待以上の働きだ！
+message,<user>,Amazing! You exceeded expectations!<br> 
 
 window,off
 wait,0.15
@@ -1723,7 +1723,7 @@ asynccharaemo,chara_7,Sweat,CONT,0
 
 
 window,on,0.15
-message,一般兵A,し、失礼します！　表通りで荷崩れです！<br>このままでは交通が滞ります！,401101000,vc_10050100001_040_01,chara_7
+message,一般兵A,E-excuse me! A cargo spill on the main street! Traffic is going to<br>be blocked!<br> ,401101000,vc_10050100001_040_01,chara_7
 
 window,off
 wait,0.15
@@ -1776,7 +1776,7 @@ asynccharascale,chara_1,1,0,CONT,0
 
 
 window,on,0.15
-message,エレクトラ,ご主人様。エレクトラにお任せいただけないでしょうか。<br>すぐに片付けてみせます。,100501000G,vc_10050100001_041_01,chara_1
+message,エレクトラ,Master，would you entrust this to Electra? Electra will take care of<br>it immediately.<br> ,100501000G,vc_10050100001_041_01,chara_1
 
 
 
@@ -1807,7 +1807,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,エレクトラ,……,100501000G,vc_10050100001_042_01,chara_1
+message,エレクトラ,...<br> ,100501000G,vc_10050100001_042_01,chara_1
 
 window,off
 wait,0.15
@@ -1847,7 +1847,7 @@ asyncwait
 
 
 window,on,0.15
-message,エレクトラ,……完了しました。,100501000G,vc_10050100001_043_01,chara_1
+message,エレクトラ,...Completed.<br> ,100501000G,vc_10050100001_043_01,chara_1
 
 window,off
 wait,0.15
@@ -1889,7 +1889,7 @@ asynccharaemo,chara_7,Shock,CONT,0
 
 
 window,on,0.15
-message,一般兵A,も、もうですか！？,401101000,vc_10050100001_044_01,chara_7
+message,一般兵A,A-already?!<br> ,401101000,vc_10050100001_044_01,chara_7
 
 window,off
 wait,0.15
@@ -1925,7 +1925,7 @@ wait,0.5
 
 
 window,on,0.15
-message,一般兵B,司令官！　家畜が逃げ出してしまって……,401301000,vc_10050100001_045_01,chara_8
+message,一般兵B,Commander! The livestock have escaped...<br> ,401301000,vc_10050100001_045_01,chara_8
 
 window,off
 wait,0.15
@@ -1974,7 +1974,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,エレクトラ,おまかせください、ご主人様。,100501000G,vc_10050100001_046_01,chara_1
+message,エレクトラ,Leave it to me，Master.<br> ,100501000G,vc_10050100001_046_01,chara_1
 
 
 
@@ -2026,7 +2026,7 @@ wait,0.5
 
 
 window,on,0.15
-message,エレクトラ,……豚、確保。,100501000G,vc_10050100001_047_01,chara_1
+message,エレクトラ,...pig secured.<br> ,100501000G,vc_10050100001_047_01,chara_1
 
 window,off
 wait,0.15
@@ -2078,7 +2078,7 @@ wait,0.5
 
 
 window,on,0.15
-message,エレクトラ,……牛、確保。,100501000G,vc_10050100001_048_01,chara_1
+message,エレクトラ,...cow secured.<br> ,100501000G,vc_10050100001_048_01,chara_1
 
 window,off
 wait,0.15
@@ -2130,7 +2130,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,エレクトラ,……鶏、確保。完了しました。,100501000G,vc_10050100001_049_01,chara_1
+message,エレクトラ,...chicken secured. Completed.<br> ,100501000G,vc_10050100001_049_01,chara_1
 
 window,off
 wait,0.15
@@ -2181,7 +2181,7 @@ asynccharaemo,chara_8,Laugh,CONT,0
 
 
 window,on,0.15
-message,一般兵B,す、すごい！　ありがとうございます！,401301000,vc_10050100001_050_01,chara_8
+message,一般兵B,A-amazing! Thank you so much!<br> ,401301000,vc_10050100001_050_01,chara_8
 
 
 
@@ -2239,9 +2239,9 @@ asynccharaemo,chara_5,Sweat,CONT,0
 
 
 window,on,0.15
-message,アリシア,ほ、本当にすぐに片付けてしまいましたね。,300201000,vc_10050100001_051_01,chara_5
+message,アリシア,Y-you really cleaned up in no time at all!<br> ,300201000,vc_10050100001_051_01,chara_5
 
-message,<user>,ああ、大したものだ。
+message,<user>,Yeah，that was impressive.<br> 
 
 window,off
 wait,0.15
@@ -2260,13 +2260,13 @@ wait,0.5
 
 
 window,on,0.15
-message,エレクトラ,ありがとうございます。<br>ご希望やご要望がございましたら、なんなりとお申し付けください。,100501000G,vc_10050100001_052_01,chara_1
+message,エレクトラ,Thank you very much.<br>If you have any requests or desires，please don't hesitate to ask.<br> ,100501000G,vc_10050100001_052_01,chara_1
 
 bgmstop,bgmtag1_3,1.5,0
 
 bgmplay,bgmtag1_4,bgm0026,0.75,1
 
-message,<user>,んっ？　じゃあ、可愛いポーズを取ってみてくれ。<br>胸の谷間を突き出すような感じで頼む。
+message,<user>,Hmm? Then strike a cute pose for me.<br>Like，push your chest out to emphasize your cleavage.<br> 
 
 window,off
 wait,0.15
@@ -2312,11 +2312,11 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,エレクトラ,こう、でしょうか。,100501000G,vc_10050100001_053_01,chara_1
+message,エレクトラ,Like this?<br> ,100501000G,vc_10050100001_053_01,chara_1
 
-message,<user>,……柔らかそうだな。<br>それに良い香りもする。
+message,<user>,Looks soft.<br>And you smell nice，too.<br> 
 
-message,<user>,……ちなみに、もうちょっと可愛く言えたりもできる？
+message,<user>,By the way，can you say that a little cuter?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -2327,7 +2327,7 @@ asyncseplay,setag1_73,se4800002,0,1,CONT,0
 asynccharaemo,chara_1,Heart,CONT,0
 
 
-message,エレクトラ,ご主人様っ！　エレクトラはご主人様が一番ですっ！<br>好きに見て、触って、私を感じてくださいねっ♡,100501000G,vc_10050100001_054_01,chara_1
+message,エレクトラ,Master! You are Electra's number one!<br>Look，touch，and feel me all you want!♥<br> ,100501000G,vc_10050100001_054_01,chara_1
 
 window,off
 wait,0.15
@@ -2381,7 +2381,7 @@ asynccharaemo,chara_5,Shock,CONT,0
 
 
 window,on,0.15
-message,<user>・アリシア,！？,300201000,vc_10050100001_055_01,chara_5
+message,<user>・アリシア,...!<br> ,300201000,vc_10050100001_055_01,chara_5
 
 window,off
 wait,0.15
@@ -2422,9 +2422,9 @@ wait,1
 
 
 window,on,0.15
-message,エレクトラ,といった具合でいかがでしょう？,100501000G,vc_10050100001_056_01,chara_1
+message,エレクトラ,How was that? Is it to your liking?<br> ,100501000G,vc_10050100001_056_01,chara_1
 
-message,<user>,……最高だな。<br>あとで膝枕もしてくれ。
+message,<user>,That was perfect.<br>Give me a lap pillow later，too.<br> 
 
 window,off
 wait,0.15
@@ -2479,7 +2479,7 @@ asynccharaemo,chara_5,BePeevish,CONT,0
 
 
 window,on,0.15
-message,アリシア,し、司令官！<br>エレクトラさんを弄ぶのはやめてください！,300201000,vc_10050100001_057_01,chara_5
+message,アリシア,C-Commander!<br>Please stop toying with Miss Electra!<br> ,300201000,vc_10050100001_057_01,chara_5
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -2488,7 +2488,7 @@ asyncseplay,setag1_76,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,エレクトラ,構いませんよ。<br>人間の命令にはすべて、お応えします。,100501000G,vc_10050100001_058_01,chara_1
+message,エレクトラ,I don't mind.<br>I carry out all human orders.<br> ,100501000G,vc_10050100001_058_01,chara_1
 
 asynccharaface,chara_5,FaceSad,CONT,0
 
@@ -2499,7 +2499,7 @@ asyncseplay,setag1_77,se4800015,0,1,CONT,0
 asynccharaemo,chara_5,Dull,CONT,0
 
 
-message,アリシア,でも……,300201000,vc_10050100001_059_01,chara_5
+message,アリシア,But...<br> ,300201000,vc_10050100001_059_01,chara_5
 
 window,off
 wait,0.15
@@ -2539,7 +2539,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,エレクトラ、アリシアをドキッとさせられるか？<br>俺の気持ちを分かってもらいたいんだ。
+message,<user>,Electra，can you make Alicia's heart pound?<br>I want her to get a taste of how I feel.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -2550,9 +2550,9 @@ asyncseplay,setag1_78,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,エレクトラ,ドキッと――具体的には、どのように？,100501000G,vc_10050100001_060_01,chara_1
+message,エレクトラ,Heart pound? ... How exactly?<br> ,100501000G,vc_10050100001_060_01,chara_1
 
-message,<user>,イケメンに扮して、アリシアを口説いてみてくれ。
+message,<user>,Act like a heartthrob and try hitting on Alicia.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -2564,7 +2564,7 @@ asyncseplay,setag1_79,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,エレクトラ,承知しました。,100501000G,vc_10050100001_061_01,chara_1
+message,エレクトラ,Understood.<br> ,100501000G,vc_10050100001_061_01,chara_1
 
 window,off
 wait,0.15
@@ -2631,7 +2631,7 @@ wait,0.5
 
 
 window,on,0.15
-message,エレクトラ,……へい、子猫ちゃん。そんなに怒らないでくれよ。<br>美人が台無しだぜ？,100501000G,vc_10050100001_062_01,chara_1
+message,エレクトラ,Hey，kitten. Don't get so worked up. You're way too pretty to be<br>angry.<br> ,100501000G,vc_10050100001_062_01,chara_1
 
 asynccharaface,chara_5,FaceSurprise,CONT,0
 
@@ -2642,7 +2642,7 @@ asyncseplay,setag1_81,se4800012,0,1,CONT,0
 asynccharaemo,chara_5,Shy,CONT,0
 
 
-message,アリシア,ひゃわっ！？　な、何を急に――,300201000,vc_10050100001_063_01,chara_5
+message,アリシア,Eeek! Wh-What's all this—<br> ,300201000,vc_10050100001_063_01,chara_5
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -2653,7 +2653,7 @@ asyncseplay,setag1_82,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,エレクトラ,何って、事実さ。<br>俺の子猫ちゃん――さぁ胸に飛び込んでおいで？,100501000G,vc_10050100001_064_01,chara_1
+message,エレクトラ,What do you mean? It's the truth. My little kitten—come，leap into my<br>arms.<br> ,100501000G,vc_10050100001_064_01,chara_1
 
 window,off
 wait,0.15
@@ -2701,9 +2701,9 @@ asynccharaemo,chara_5,Panic,CONT,0
 
 
 window,on,0.15
-message,アリシア,わ～っ！　司令官！　これだめです！<br>やめるように伝えてください～！,300201000,vc_10050100001_065_01,chara_5
+message,アリシア,Waaah! Commander，this is no good! Please tell her to stop!<br> ,300201000,vc_10050100001_065_01,chara_5
 
-message,<user>,だがアリシア。照れ以外の気持ちもあるだろう？<br>俺の気持ち、分かってくれるな？
+message,<user>,But Alicia，you've got other feelings besides embarrassment，don't<br>you? You get what I'm feeling，right?<br> 
 
 asynccharaface,chara_5,FaceSad,CONT,0
 
@@ -2714,7 +2714,7 @@ asyncseplay,setag1_84,se4800012,0,1,CONT,0
 asynccharaemo,chara_5,Shy,CONT,0
 
 
-message,アリシア,う、うぅ～……,300201000,vc_10050100001_066_01,chara_5
+message,アリシア,*whimper*<br> ,300201000,vc_10050100001_066_01,chara_5
 
 window,off
 wait,0.15
@@ -2748,7 +2748,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,エレクトラ、よくやってくれた。とても満足したぞ。
+message,<user>,Electra，you did well. I'm very satisfied.<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -2757,9 +2757,9 @@ asyncseplay,setag1_85,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,エレクトラ,――本当ですか？,100501000G,vc_10050100001_067_01,chara_1
+message,エレクトラ,—Is that true?<br> ,100501000G,vc_10050100001_067_01,chara_1
 
-message,<user>,あぁ。最高の気分だ。お前がきてくれたおかげでまた楽しくなりそうだよ。<br>あらためてよろしくな。
+message,<user>,Yeah. I feel great. Thanks for coming，things are going to be fun<br>again. Let's get along from now on.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -2770,7 +2770,7 @@ asyncseplay,setag1_86,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,エレクトラ,……！<br>……ありがとう、ございます。,100501000G,vc_10050100001_068_01,chara_1
+message,エレクトラ,...! ...Thank you very much.<br> ,100501000G,vc_10050100001_068_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -2781,7 +2781,7 @@ asyncseplay,setag1_87,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,エレクトラ,その言葉こそエレクトラの存在理由です。<br>今後ともよろしくお願いします。ご主人様――,100501000G,vc_10050100001_069_01,chara_1
+message,エレクトラ,Those words are Electra's reason for existence. I look forward to<br>working with you from now on，Master—<br> ,100501000G,vc_10050100001_069_01,chara_1
 
 window,off
 bgmstop,bgmtag1_4,0.5

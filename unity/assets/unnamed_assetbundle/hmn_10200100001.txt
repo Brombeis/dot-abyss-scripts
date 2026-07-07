@@ -494,7 +494,7 @@ asynccharamove,chara_11,EaseOutTarget,CharaHeight,-100,0.3,CONT
 asyncshake,CHARA,chara_11,20,15,0.3,6,on,off,0,off,CONT
 
 window,on,0.15
-message,モンスター,ギャオォォォォォッ……
+message,モンスター,*roar*...<br> 
 
 window,off
 wait,0.15
@@ -645,9 +645,9 @@ wait,0.15
 charascale,chara_1,1,0
 
 window,on,0.15
-message,<user>,待て待て待て、１人で全部倒すつもりかっ！？
+message,<user>,Wait，wait，wait! Are you trying to take them all down by yourself?<br> 
 
-message,<user>,全員で援護しろ！<br>ラヴェリアが全て終わらせる前に、急げーっ！！！
+message,<user>,Everyone，provide covering fire! Hurry before Laveria finishes them<br>all!<br> 
 
 window,off
 wait,0.15
@@ -675,9 +675,9 @@ transitionFade,Tra09,in,black,1
 
 asynccharareaction,chara_1,Nod,1,STOP
 window,on,0.15
-message,ラヴェリア,ふう……もう敵の気配はないか。,,vc_10200100001_011_01
+message,ラヴェリア,*phew*... no sign of any more enemies.<br> ,,vc_10200100001_011_01
 
-message,<user>,お疲れさん、ラヴェリア。<br>大活躍だったな。
+message,<user>,Good work，Laveria. That was incredible.<br> 
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
@@ -689,13 +689,13 @@ asynccharaface,chara_1,EyeOpen,CONT,2.2
 asynccharaface,chara_1,FaceNormal,CONT,2.2
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
-message,ラヴェリア,いいや、失敗した。<br>少し熱くなって、やりすぎたみたいだ。,,vc_10200100001_012_01
+message,ラヴェリア,No，I failed. I got a little too into it and overdid it.<br> ,,vc_10200100001_012_01
 
 asyncwait
 
-message,<user>,「勝手に倒すな」なんて指示はしてないからな。<br>できるなら倒してしまって構わないさ。
+message,<user>,I never said not to take them out yourself. If you can take them<br>out，that's fine by me.<br> 
 
-message,<user>,ベリサのカバーもよく間に合わせてくれた。<br>おかげであいつに怪我はなかった。
+message,<user>,You also covered Verisa in time. Thanks to you，she didn't get hurt.<br> 
 
 charaface,chara_1,FaceFun
 
@@ -703,7 +703,7 @@ asyncseplay,setag1_17,se4800004,0,1,CONT
 
 asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Laugh,STOP
-message,ラヴェリア,そうか、ベリサも無事だったか。<br>それはよかった。,,vc_10200100001_013_01
+message,ラヴェリア,So Verisa's safe too. That's good.<br> ,,vc_10200100001_013_01
 
 window,off
 wait,0.15
@@ -744,7 +744,7 @@ asynccharaemo,chara_4,Shy,STOP,1
 
 asynccharaface,chara_4,FaceShy,STOP,1
 window,on,0.15
-message,ベリサ,すっごく怖かった～。<br>ありがと～、ラヴェリア。,,vc_10200100001_014_01
+message,ベリサ,I was soooo scared! Thank youuu，Laveria!<br> ,,vc_10200100001_014_01
 
 window,off
 wait,0.15
@@ -766,7 +766,7 @@ charaface,chara_1,FaceFun
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 window,on,0.15
-message,ラヴェリア,アタシに援護の指示を出したのは兄さんだ。<br>礼を言うならそちらにしておくといい。,,vc_10200100001_015_01
+message,ラヴェリア,Brother ordered me to cover you. If you're going to thank<br>anyone，thank him.<br> ,,vc_10200100001_015_01
 
 asyncwait
 
@@ -796,9 +796,9 @@ asyncseplay,setag1_19,se4800004,0,1,CONT
 asynccharareaction,chara_4,Nod,1,STOP
 asynccharaemo,chara_4,Laugh,STOP
 window,on,0.15
-message,ベリサ,えー、おにーさんがあたしを助けるのは当然でしょ？<br>っていうか、指揮がへっぽこだったのが悪いんじゃな～い？,,vc_10200100001_016_01
+message,ベリサ,Ehh，it's only natural for Mister to help me，right? I mean，isn't it<br>his fault his command was so sloppy?<br> ,,vc_10200100001_016_01
 
-message,<user>,おいおい……遊軍まで用意して備えていた俺に、その言い草はないだろ。<br>なら今回の反省を踏まえ、ベリサには接近戦の特訓を受けてもらおうか。
+message,<user>,Oh come on... I even had reserves ready. That's no way to talk to<br>me. Fine，reflecting on today，I'll give you close-combat training.<br> 
 
 charaface,chara_4,FaceSurprise
 
@@ -808,9 +808,9 @@ asyncseplay,setag1_20,se4800017,0,1,CONT
 
 asynccharareaction,chara_4,Shake,1,STOP
 asynccharaemo,chara_4,Shock,STOP
-message,ベリサ,え、えええっ！？<br>なんで、あたしがそんなことっ！？,,vc_10200100001_017_01
+message,ベリサ,Wh-WHAA? Why do I have to do that?<br> ,,vc_10200100001_017_01
 
-message,<user>,ベリサが遠近万能の魔法騎士なら問題なかったってことだろ？<br>司令官として部隊の欠点をそのままにはしておけないだろうが。
+message,<user>,If you were a magic knight who could handle both ranges，it wouldn't<br>be a problem，right? As commander，I can't ignore a weakness.<br> 
 
 charaface,chara_4,FaceUnique01
 
@@ -821,9 +821,9 @@ asyncseplay,setag1_21,se4800007,0,1,CONT
 asynccharaemo,chara_4,Panic,STOP
 
 asynccharaface,chara_4,FaceShy,STOP,1
-message,ベリサ,えっと～、ベリサちゃんは～、<br>女の子はちょっと欠点があるほうがかわいいって思うな～？,,vc_10200100001_018_01
+message,ベリサ,Umm，I think girls are cuter when they have a little flaw，don't you<br>think?<br> ,,vc_10200100001_018_01
 
-message,<user>,自分で自分をかわいいって言うな！<br>お前もラヴェリアみたいな万能タイプを目指せ！
+message,<user>,Don't call yourself cute! You should aim to be an all-rounder like<br>Laveria!<br> 
 
 window,off
 wait,0.15
@@ -862,7 +862,7 @@ charaface,chara_1,FaceSad
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 window,on,0.15
-message,ラヴェリア,……欠点があるほうがかわいい、か。,,vc_10200100001_019_01
+message,ラヴェリア,...Flaws make you cuter，huh.<br> ,,vc_10200100001_019_01
 
 asyncwait
 
@@ -893,7 +893,7 @@ asyncseplay,setag1_23,se4800022,0,1,CONT
 
 asynccharaemo,chara_6,Speak,STOP
 window,on,0.15
-message,ヒマリ,ラヴェリアさん、どうしたの。,,vc_10200100001_020_01
+message,ヒマリ,Laveria，is something wrong?<br> ,,vc_10200100001_020_01
 
 charafocuson,chara_1
 
@@ -913,7 +913,7 @@ asyncseplay,setag1_25,se4800004,0,1,CONT
 
 asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Laugh,STOP
-message,ラヴェリア,いいや、何もない。もう戦闘は終了だな。<br>では基地へと帰還するぞ。,,vc_10200100001_021_01
+message,ラヴェリア,No，nothing. The battle's over. Let's head back to base.<br> ,,vc_10200100001_021_01
 
 
 charaface,chara_6,FaceFun
@@ -922,7 +922,7 @@ asyncseplay,setag1_26,se4800013,0,1,CONT
 
 asynccharareaction,chara_6,Jump,1,STOP
 asynccharaemo,chara_6,Spirits,STOP
-message,ヒマリ,うん、帰ろう。,,vc_10200100001_022_01
+message,ヒマリ,Yeah，let's go home.<br> ,,vc_10200100001_022_01
 
 window,off
 wait,0.15
@@ -935,7 +935,7 @@ asyncwait
 asynccharamove,chara_1,LinearTarget,X,600,1,CONT
 
 window,on,0.15
-message,<user>,そうだな。モンスターの襲撃はこれ以上ないようだし……<br>撃墜数ゴブリン１３体っと……
+message,<user>,Right. Doesn't look like there'll be any more monster attacks...<br>Kill count: 13 goblins.<br> 
 
 window,off
 wait,0.15
@@ -958,9 +958,9 @@ asyncseplay,setag1_29,se4800009,0,1,CONT
 
 asynccharaemo,chara_1,Question,STOP
 window,on,0.15
-message,ラヴェリア,そうやって毎回記録を取っているのか？<br>司令官ってのは大変な仕事なんだな。,,vc_10200100001_023_01
+message,ラヴェリア,You keep records every time like that? Being a commander is a tough<br>job，Brother.<br> ,,vc_10200100001_023_01
 
-message,<user>,こういう報告書をまとめておかないと次の作戦が立てられないからな。<br>っていうか報告書が溜まってるんだった……帰りたくねえ……
+message,<user>,I need to compile these reports or I can't plan the next operation.<br>Actually，they've been piling up... I don't wanna go back.<br> 
 
 
 window,off
@@ -1011,7 +1011,7 @@ charareaction,chara_5,Nod,1
 seplay,setag1_32,se4400137,0,1
 
 window,on,0.15
-message,<user>,未処理の書類が１山、２山……！<br>足りない、全く人手が足りない！
+message,<user>,Piles of unprocessed documents，one after another! We're<br>shorthanded，completely shorthanded!<br> 
 
 window,off
 wait,0.15
@@ -1040,7 +1040,7 @@ asyncseplay,setag1_36,se4800015,0,1,CONT
 
 asynccharaemo,chara_5,Dull,STOP
 window,on,0.15
-message,アリシア,最近は作戦行動が多かったので、<br>報告書が間に合ってないですね……。,,vc_10200100001_024_01
+message,アリシア,We've had so many operations lately that the reports haven't been<br>able to keep up，I'm afraid...<br> ,,vc_10200100001_024_01
 
 window,off
 wait,0.15
@@ -1059,7 +1059,7 @@ seplay,setag1_38,se4400137,0,1
 
 asynccharamove,chara_5,0.3,X,-200,0.5,CONT
 window,on,0.15
-message,<user>,アリシアも処理を手伝ってくれ。<br>くっそ、誰か他に事務処理が得意なやつは居ないのか？
+message,<user>,Alicia，help me with these too. Damn，isn't there anyone else good at<br>paperwork?<br> 
 
 asyncwait
 
@@ -1078,11 +1078,11 @@ asyncseplay,setag1_40,se4800015,0,1,STOP,5
 asynccharaemo,chara_5,Dull,STOP,5
 
 asynccharaface,chara_5,FaceSad,STOP,5
-message,アリシア,この量をこなすのは、さすがにわたし１人では……<br>でも、こういうの頼めそうな人も皆さん出払っていて……,,vc_10200100001_025_01
+message,アリシア,It's a lot for just me to handle... and everyone who might be able<br>to help is out right now...<br> ,,vc_10200100001_025_01
 
 seplay,setag1_41,se4400065,0,1
 
-message,<user>,あー！　事務仕事も戦場での活躍も、なんでもできるやつはいないのか！<br>ついでに美女ならなおいいぞ！
+message,<user>,Argh! Isn't there anyone who can handle both paperwork and combat!<br>And if she's a beauty，even better!<br> 
 
 window,off
 wait,0.15
@@ -1113,13 +1113,13 @@ asyncshake,CHARA,chara_5,20,15,0.5,6,on,off,0,off,CONT,0
 
 asynccharaface,chara_5,FaceSad,CONT,2
 window,on,0.15
-message,アリシア,し、司令官！　しっかりしてください！<br>錯乱してるのかいつも通りなのか分かりませんっ！,,vc_10200100001_026_01
+message,アリシア,C-Commander! Get a hold of yourself! I can't tell if you're losing<br>your mind or just being your usual self!<br> ,,vc_10200100001_026_01
 
 linework,off,White,Middle
 
 asyncwait
 
-message,<user>,こんなのがいつも通りなわけがあるかっ！！！<br>くっそ、猫の手も借りたいとはこのことだな……
+message,<user>,As if this is normal for me! Damn，this is the kind of situation<br>where I'd take any help I can get...<br> 
 
 window,off
 wait,0.15
@@ -1144,7 +1144,7 @@ seplay,setag1_44,se4300001,0,1
 wait,1
 
 window,on,0.15
-message,ラヴェリア,兄さん、ちょっといいかい？,,vc_10200100001_027_01
+message,ラヴェリア,Brother，got a minute?<br> ,,vc_10200100001_027_01
 
 window,off
 wait,0.15
@@ -1160,7 +1160,7 @@ blur,on,BACK,0.5
 asyncwait
 
 window,on,0.15
-message,<user>,あー、ラヴェリアか？<br>構わないぞー、どうしたー？
+message,<user>,Oh，Laveria? Sure，what's up?<br> 
 
 window,off
 wait,0.15
@@ -1187,9 +1187,9 @@ bgmplay,bgmtag1_4,bgm0035,0.5,1
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 window,on,0.15
-message,ラヴェリア,忙しいところにすまない。<br>大穴の偵察に出た部隊から報告があった。,,vc_10200100001_028_01
+message,ラヴェリア,Sorry to interrupt when you're busy. There was a report from the<br>reconnaissance unit that went to the Abyss.<br> ,,vc_10200100001_028_01
 
-message,<user>,ああ、話は聞いてる。<br>ラヴェリアが報告に来てくれたのか。
+message,<user>,Oh，I heard about it. You came to deliver it yourself，Laveria?<br> 
 
 charaface,chara_1,FaceFun
 
@@ -1197,7 +1197,7 @@ asyncseplay,setag1_46,se4800004,0,1,CONT
 
 asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Laugh,STOP
-message,ラヴェリア,兄さんの顔を見るついでに、ね。,,vc_10200100001_029_01
+message,ラヴェリア,And to see your face while I was at it.<br> ,,vc_10200100001_029_01
 
 window,off
 wait,0.15
@@ -1222,18 +1222,18 @@ charaface,chara_1,FaceNormal
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 window,on,0.15
-message,ラヴェリア,大穴のほうは前回の作戦以降、<br>特に異常はないそうだよ。,,vc_10200100001_030_01
+message,ラヴェリア,As for the Abyss，there's been nothing unusual since the last<br>operation.<br> ,,vc_10200100001_030_01
 
-message,<user>,そうか、まずは安心だな。だが大穴については不明なことが多い、<br>急な活発化には警戒していないとな……。
+message,<user>,I see，that's a relief. But there's still a lot we don't know about<br>the Abyss，so we need to stay on alert for any sudden activity.<br> 
 
 charaface,chara_1,FaceSad
 
 asyncseplay,setag1_47,se4800008,0,1,CONT
 
 asynccharaemo,chara_1,Sweat,STOP
-message,ラヴェリア,そうやって色々なことを警戒しているから、<br>兄さんは疲れた顔をしてるってわけかな。,,vc_10200100001_031_01
+message,ラヴェリア,That's why you look so tired，Brother—because you're always on guard<br>for so many things.<br> ,,vc_10200100001_031_01
 
-message,<user>,……そんなに分かりやすく疲れた顔をしていたか？
+message,<user>,...Was my tired expression that obvious?<br> 
 
 charaface,chara_1,FaceFun
 
@@ -1241,10 +1241,10 @@ asyncseplay,setag1_48,se4800004,0,1,CONT
 
 asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Laugh,STOP
-message,ラヴェリア,仲間に気を配るのは得意でね。<br>これでもルクスノヴァじゃ頼りにされてる立場なんだ。,,vc_10200100001_032_01
+message,ラヴェリア,I'm good at looking after my comrades. Believe it or not，I'm someone<br>people rely on in Lux Nova.<br> ,,vc_10200100001_032_01
 
 
-message,<user>,なるほど、周りにとっては姉貴分って感じなんだろうな。<br>ま、書類仕事で忙しいってだけだ、心配することはないぞ。
+message,<user>,I see，so you're like a big sister to them. Well，I'm just busy with<br>paperwork. Nothing to worry about.<br> 
 
 window,off
 wait,0.15
@@ -1277,11 +1277,11 @@ asynccharaface,chara_5,FaceHappy,STOP,2
 
 asynccharareaction,chara_5,Nod,1,STOP
 window,on,0.15
-message,アリシア,はい、この数日を乗り切ればなんとかなります。<br>がんばりましょう、司令官……！,,vc_10200100001_033_01
+message,アリシア,Yes，if we get through these next few days，we'll be fine. Let's work<br>hard together，Commander...!<br> ,,vc_10200100001_033_01
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
-message,<user>,はぁ～……書類の処理だけで数日かかるのかよ……
+message,<user>,*sigh*... it's going to take days just to process the paperwork!<br> 
 
 
 charaface,chara_5,FaceSad
@@ -1291,7 +1291,7 @@ asyncseplay,setag1_49,se4800007,0,1,CONT
 asynccharaemo,chara_5,Panic,CONT
 
 asyncshake,CHARA,chara_5,20,15,0.5,6,on,off,0,off,CONT,0
-message,アリシア,わ、わたしも出来る限りお手伝いしますので<br>少しずつ片付けていきましょう！,,vc_10200100001_034_01
+message,アリシア,I-I'll help as much as I can! Let's sort through them little by<br>little!<br> ,,vc_10200100001_034_01
 
 window,off
 wait,0.15
@@ -1315,7 +1315,7 @@ asyncshake,CHARA,chara_1,20,0,0.5,3,on,off,0,off,CONT,0
 
 asynccharaemo,chara_1,Speak,STOP
 window,on,0.15
-message,ラヴェリア,ん、何が原因で困ってるんだい？<br>アタシが知っていい内容なら、ちょっと話してみな。,,vc_10200100001_035_01
+message,ラヴェリア,Hmm，what's got you in trouble? If it's something I'm allowed to<br>know，tell me about it.<br> ,,vc_10200100001_035_01
 
 window,off
 wait,0.15
@@ -1352,7 +1352,7 @@ asyncseplay,setag1_50,se4800008,0,1,CONT
 
 asynccharaemo,chara_5,Sweat,STOP
 window,on,0.15
-message,アリシア,実はですね、各国に提出する正式な作戦報告書が溜まっていまして……<br>こればかりは処理できる人が司令官しかいないんですよ。,,vc_10200100001_036_01
+message,アリシア,Actually，we've got a backlog of formal operation reports that need<br>to go to each country... Only the Commander can handle these.<br> ,,vc_10200100001_036_01
 
 asyncwait
 
@@ -1363,10 +1363,10 @@ asyncshake,CHARA,chara_5,20,0,0.5,1,off,off,0,off,CONT,0
 asyncseplay,setag1_51,se4800006,0,1,CONT
 
 asynccharaemo,chara_5,Trouble,STOP
-message,アリシア,物資や資金、戦力の提供を受けている以上、<br>正確な情報共有が必要なので……。,,vc_10200100001_037_01
+message,アリシア,Since we're receiving supplies，funds，and military support，we need to<br>share accurate information with them...<br> ,,vc_10200100001_037_01
 
 
-message,<user>,今回は内容を誤魔化す必要もないからな、<br>そのまま報告して構わないんだが……。
+message,<user>,We don't need to fudge the content this time，so I could just report<br>it as-is... but...<br> 
 
 asynccharareaction,chara_5,Nod,1,CONT
 
@@ -1382,7 +1382,7 @@ charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
 
 
-message,<user>,この手の書類に強いやつがみんな出払っていてな……。<br>これを俺が１人で処理すると思うと……はあ……。
+message,<user>,All the people who are good with this kind of paperwork are out in<br>the field... The thought of having to do all this alone... *sigh*<br> 
 
 window,off
 wait,0.15
@@ -1420,10 +1420,10 @@ charaemo,chara_1,Silence
 
 asynccharareaction,chara_1,Nod,1,STOP
 window,on,0.15
-message,ラヴェリア,なるほどね……。<br>手伝えそうなやつに、心当たりはあるよ。,,vc_10200100001_038_01
+message,ラヴェリア,I see... I've got an idea of someone who could help.<br> ,,vc_10200100001_038_01
 
 charaface,chara_5,FaceSurprise
-message,<user>,本当か！？　<br>誰だ、どこの部隊だ！？
+message,<user>,Really? Who? What unit are they from?<br> 
 
 window,off
 wait,0.15
@@ -1451,7 +1451,7 @@ asynccharareaction,chara_1,Nod,1,STOP
 
 asynccharaface,chara_1,FaceHappy,STOP,6.5
 window,on,0.15
-message,ラヴェリア,ふふ、このアタシだよ。こっちに来る前は事務仕事をしていたんだ。<br>こういう報告書ならお手のものだ。,,vc_10200100001_039_01
+message,ラヴェリア,Fufu，it's me. Before I came here，I did office work. These kinds of<br>reports are a piece of cake.<br> ,,vc_10200100001_039_01
 
 window,off
 wait,0.15
@@ -1461,7 +1461,7 @@ linework,on,White,Middle
 charaface,chara_5,EyeOpen
 charaface,chara_5,FaceNormal
 window,on,0.15
-message,<user>,いた！　戦えて事務作業も出来る美人がここにいた！
+message,<user>,Bingo! A beauty who can fight and handle paperwork，right here!<br> 
 
 linework,off,White,Middle
 
@@ -1472,7 +1472,7 @@ asyncseplay,setag1_56,se4800017,0,1,CONT
 asynccharaemo,chara_1,Shock,STOP
 
 asyncshake,CHARA,chara_1,20,15,0.5,6,on,off,0,off,CONT,0
-message,ラヴェリア,び、美人っ！！！？？？,,vc_10200100001_040_01
+message,ラヴェリア,B-beauty?<br> ,,vc_10200100001_040_01
 
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
@@ -1480,9 +1480,9 @@ asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 asyncseplay,setag1_57,se4800012,0,1,CONT
 
 asynccharaemo,chara_1,Shy,STOP
-message,ラヴェリア,なっ……兄さんはまたそんなことを言って……。,,vc_10200100001_041_01
+message,ラヴェリア,Wh-what... Brother，you're saying that again...<br> ,,vc_10200100001_041_01
 
-message,<user>,確保だアリシア！<br>お茶と茶菓子を用意しろ！　絶対に逃がすな！
+message,<user>,Secure her，Alicia! Prepare tea and sweets! Don't let her escape!<br> 
 
 window,off
 wait,0.15
@@ -1519,7 +1519,7 @@ asyncseplay,setag1_58,se4800009,0,1,CONT
 
 asynccharaemo,chara_5,Question,CONT,2
 window,on,0.15
-message,アリシア,はい！　司令官！<br>でも本当にいいんですか、ラヴェリアさん？,,vc_10200100001_042_01
+message,アリシア,Yes，Commander! But are you sure it's okay，Laveria?<br> ,,vc_10200100001_042_01
 
 asyncwait
 
@@ -1530,7 +1530,7 @@ asyncseplay,setag1_59,se4800004,0,1,CONT
 asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Laugh,STOP
 
-message,ラヴェリア,平気だ、しばらくはこっちにいる予定だからな。<br>困っているなら手伝おう。,,vc_10200100001_043_01
+message,ラヴェリア,It's fine. I'm planning to stay here for a while anyway. I'll help<br>if you're in a bind.<br> ,,vc_10200100001_043_01
 
 charapose,chara_5,3
 
@@ -1543,7 +1543,7 @@ asynccharaemo,chara_5,Spirits,STOP
 
 asynccharaface,chara_5,EyeOpen,STOP,1
 asynccharaface,chara_5,FaceNormal,STOP,1
-message,アリシア,助かりますが、前線基地で他にご用事があったのなら、<br>そちらを優先して大丈夫ですよ？,,vc_10200100001_044_01
+message,アリシア,We really appreciate it，but if you have other things to do at the<br>Frontline Base，please prioritize those，okay?<br> ,,vc_10200100001_044_01
 
 charaface,chara_1,FaceShy
 
@@ -1552,17 +1552,17 @@ asyncseplay,setag1_61,se4800012,0,1,CONT
 asynccharaemo,chara_1,Shy,STOP
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
-message,ラヴェリア,用事……は……別に、なにも？<br>ちょっとした気まぐれ、だが？,,vc_10200100001_045_01
+message,ラヴェリア,Business...? Nothing，really. Just a whim，I suppose.<br> ,,vc_10200100001_045_01
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
 
-message,<user>,ならば頼む！　すぐに手伝ってくれ！<br>俺とアリシアじゃ徹夜作業が続いてしまう！
+message,<user>,Then I'm begging you! Help us out right now! With just Alicia and<br>me，we'll end up working all night!<br> 
 
 charaface,chara_1,FaceFun
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
-message,ラヴェリア,はいはい、分かった。<br>じゃあアリシア、アタシが見ていい書類だけ渡してくれるか。,,vc_10200100001_046_01
+message,ラヴェリア,Alright，alright，I get it. Then Alicia，just pass me the documents I'm<br>allowed to see，okay?<br> ,,vc_10200100001_046_01
 
 charapose,chara_5,1
 
@@ -1572,7 +1572,7 @@ asyncseplay,setag1_62,se4800004,0,1,CONT
 
 asynccharareaction,chara_5,Nod,1,STOP
 asynccharaemo,chara_5,Laugh,STOP
-message,アリシア,かしこまりました！<br>よろしくおねがいします、ラヴェリアさん！,,vc_10200100001_047_01
+message,アリシア,Of course! We're counting on you，Laveria!<br> ,,vc_10200100001_047_01
 
 window,off
 bgmstop,bgmtag1_4,0.5

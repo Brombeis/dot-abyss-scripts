@@ -108,24 +108,24 @@ message,シャオレイ,あ……それが、力をよわくする、こと？,,
 
 message,<user>,その通り！　つまり、パンダたちを優しく撫でる気持ちで、<br>全てのものを扱えばいいんだ！
 
-message,<user>,さあ、パンパンだと思ってコップを、<br>ダンダンだと思って皿を持ってみろ！
+message,<user>,Come on，imagine the cup is Panpan and the plate is Dandan，and try<br>picking them up!<br> 
 
 asynccharaface,chara_1,FaceSad,STOP
 
 asyncseplay,setag1_5,se4800006,0,1,CONT
 
 asynccharaemo,chara_1,Trouble,STOP
-message,シャオレイ,えぇ……お皿、コップ。<br>ふたりみたく、かわいくない……,,vc_10040100003_008_01
+message,シャオレイ,Plates，cups... Not cute like Panpan and Dandan.<br> ,,vc_10040100003_008_01
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,<user>,ええいわかった！　パンダ柄の食器を買いに行くぞっ！<br>それなら文句ないだろうっ！
+message,<user>,Gaaah! Fine! We're going to buy panda-pattern dishes! That should be<br>fine，right?<br> 
 
 asyncseplay,setag1_6,se4800018,0,1,CONT
 
 asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Flower,STOP
-message,シャオレイ,パンダがら……。<br>うん、ほしい。,,vc_10040100003_009_01
+message,シャオレイ,Panda pattern... Mm，I want it.<br> ,,vc_10040100003_009_01
 
 window,off
 wait,0.15
@@ -151,35 +151,35 @@ asyncseplay,setag1_7,se4800022,0,1,CONT
 
 asynccharaemo,chara_1,Speak,STOP
 window,on,0.15
-message,シャオレイ,先生、おわった。,,vc_10040100003_010_01
+message,シャオレイ,Teacher，I'm done.<br> ,,vc_10040100003_010_01
 
-message,<user>,お疲れさん。よくやったぞ。<br>この調子で慣れていけば日常生活で困ることはなくなりそうだ。
+message,<user>,Good work. You did well. If you keep getting used to it at this<br>pace，you won't have any trouble in everyday life.<br> 
 
 asyncseplay,setag1_8,se4800008,0,1,CONT
 
 asynccharaemo,chara_1,Sweat,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
-message,シャオレイ,でも、まだしっぱい、ある……。<br>さいごの方で、何枚か割っちゃった……,,vc_10040100003_011_01
+message,シャオレイ,But I still failed... At the end，I broke a few plates.<br> ,,vc_10040100003_011_01
 
-message,<user>,今はパンパンとダンダンを撫でる時をイメージして力を調整してる状態だ。<br>集中力が切れればミスすることもあるさ。
+message,<user>,Right now you're adjusting your strength by imagining you're petting<br>Panpan and Dandan. If you lose focus，you'll make mistakes.<br> 
 
-message,<user>,大丈夫だ、やっている内にどんどん慣れていく。<br>気付けば自然とできるようになるだろう。
+message,<user>,It's okay. You'll get used to it the more you practice. Before you<br>know it，it'll come naturally.<br> 
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
 
 charareaction,chara_1,Nod,0.5
-message,シャオレイ,うん……しぇしぇ、先生。,,vc_10040100003_012_01
+message,シャオレイ,Mm... fank you，Teacher.<br> ,,vc_10040100003_012_01
 
 asynccharaface,chara_1,FaceHappy,STOP,1
 
 asyncseplay,setag1_9,se4800003,0,1,CONT
 
 asynccharaemo,chara_1,Twinkle,STOP
-message,シャオレイ,すこしだけど、できるようになった。<br>やっぱり先生、すごい。,,vc_10040100003_013_01
+message,シャオレイ,Only a little，but I can do it now. As expected，Teacher is amazing.<br> ,,vc_10040100003_013_01
 
-message,<user>,そこまで感謝されるようなことじゃないけどな。
+message,<user>,You don't need to thank me that much.<br> 
 
 asyncseplay,setag1_10,se4800012,0,1,CONT
 
@@ -187,17 +187,17 @@ asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
 
 asynccharaface,chara_1,FaceShy,STOP
-message,シャオレイ,お礼したい。シャオレイ、なんでもする。<br>先生、何がいい？,,vc_10040100003_014_01
+message,シャオレイ,I want to thank you. I'll do anything. Teacher，what do you want?<br> ,,vc_10040100003_014_01
 
-message,<user>,簡単になんでもとか言うんじゃない。<br>安請け合いは地獄の入口だって、俺はよく知ってるんだ。
+message,<user>,Don't just say 'anything' so lightly. I know all too well that a<br>thoughtless promise is the gateway to hell.<br> 
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
 
 charareaction,chara_1,Nod,1
-message,シャオレイ,ん、学んだ。,,vc_10040100003_015_01
+message,シャオレイ,Mm，I learned.<br> ,,vc_10040100003_015_01
 
-message,<user>,ふっ、いい子だな。なら、そうだな……礼のかわりに、<br>司令室にある使い終わったコップを持ってきてくれ。
+message,<user>,Heh，you're a good girl. Alright then... Instead of thanks，bring me<br>the used cups from the Command Room.<br> 
 
 asynccharaface,chara_1,FaceFun,STOP
 
@@ -205,25 +205,25 @@ asyncseplay,setag1_11,se4800013,0,1,CONT
 
 asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Spirits,STOP
-message,シャオレイ,わかった……っ！,,vc_10040100003_016_01
+message,シャオレイ,Got it!<br> ,,vc_10040100003_016_01
 
 asynccharahide,chara_1,1,STOP,0
 asynccharamove,chara_1,EaseOutTarget,X,-800,1,STOP,0
 
-message,<user>,よしよし、問題解決だな。<br>力の制御さえできれば、シャオレイは優秀な戦力で、素直ないいやつだ。
+message,<user>,Good，good，problem solved. As long as you control your<br>strength，Xiaolei is an excellent asset and a good，honest kid.<br> 
 
-message,<user>,まあ、この次に何を教えるかが問題だけどな。<br>先生なんて俺には向いてないってのに――
+message,<user>,Well，the question is what to teach next. I'm not cut out to be a<br>teacher，but...<br> 
 
 window,off
 wait,0.15
 
 seplay,setag1_12,se4900001,0,1
 window,on,0.15
-message,,<size=48>ドカーンッ！！！</>
+message,,*kaboom!*<br> 
 
 shake,BACK,,0,10,0.5,3,off,off,0
 
-message,<user>,な、なな、なんの音だっ！？<br>ま、まさか――！！
+message,<user>,W-what was that sound!? No way!<br> 
 
 window,off
 wait,0.15
@@ -246,14 +246,14 @@ wait,1
 transitionFade,Tra16,in,black,1
 
 window,on,0.15
-message,<user>,ああ……またドアがぶっ飛んでる……。<br>しかも、壁にめり込んでしまって……。
+message,<user>,Ah... the door's blown off again... And it's stuck in the wall...<br> 
 
 asyncseplay,setag1_13,se4800015,0,1,CONT
 
 asynccharaemo,chara_1,Dull,STOP
-message,シャオレイ,先生……ごめん。,,vc_10040100003_017_01
+message,シャオレイ,Teacher... sorry.<br> ,,vc_10040100003_017_01
 
-message,<user>,…………今度はどうしたんだ？<br>また蝶々か？
+message,<user>,...What happened this time? A butterfly again?<br> 
 
 asyncseplay,setag1_14,se4800007,0,1,CONT
 
@@ -267,9 +267,9 @@ asyncseplay,setag1_15,se4800012,1,1,CONT
 
 asynccharareaction,chara_1,Nod,1,STOP,1
 asynccharaemo,chara_1,Shy,STOP,1
-message,シャオレイ,えっと……先生にたよられて、ウキウキして……。<br>パンパン、ダンダンを撫でるイメージ……忘れてた……,,vc_10040100003_018_01
+message,シャオレイ,Um... Teacher relied on me，and I got all excited... I forgot about<br>petting Panpan and Dandan...<br> ,,vc_10040100003_018_01
 
-message,<user>,そりゃ油断だったな。ま、高揚して失敗するのはよくあることだ。<br>これも経験だし、気にするな
+message,<user>,That was careless. Well，it's common to mess up when you're excited.<br>It's all part of the experience，so don't worry about it.<br> 
 
 window,off
 wait,0.15
@@ -282,7 +282,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（しかし、この前ドアを修理したばかりだからな。<br>今度は壁もだし、アリシアに小言を言われそうだ、やれやれ…………）
+message,<user>,(But we just fixed the door last time. Now the wall too... Alicia's<br>going to scold me. Good grief...)<br> 
 
 window,off
 wait,0.15
@@ -299,7 +299,7 @@ bgmstop,bgmtag1_3,0,0
 bgcolor,160,160,160,255,0.3
 
 window,on,0.15
-message,,その時、壁に激突して止まっていたドアが、<br>ゆっくりとこちらへ倒れてきた――！
+message,,At that moment，the door that had crashed into the wall and stopped<br>slowly began to fall toward them—!<br> 
 
 window,off
 wait,0.15
@@ -312,7 +312,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（げっ、まずい！　下敷きに――！）
+message,<user>,(Gulp! This is bad! It's going to crush me—!)<br> 
 
 window,off
 wait,0.15
@@ -326,7 +326,7 @@ wait,0.1
 
 asynccharaface,chara_1,FaceSurprise,STOP
 window,on,0.15
-message,シャオレイ,<size=48>先生！</>,,vc_10040100003_019_01
+message,シャオレイ,Teacher!<br> ,,vc_10040100003_019_01
 
 window,off
 wait,0.15
@@ -353,7 +353,7 @@ asyncseplay,setag1_16,se4400063,0,1,CONT
 
 bgcolor,255,255,255,255,0
 window,on,0.15
-message,,シャオレイに押され、倒れるようにしてその場を離れた直後。<br>ドアが倒れて、ズシンと音を立てた。
+message,,The moment he was pushed by Xiaolei and stumbled out of the way，the<br>door fell with a heavy thud.<br> 
 
 bgmplay,bgmtag1_4,bgm0036,0.75,1
 
@@ -364,12 +364,12 @@ asynccharaface,chara_1,FaceUnique02,STOP
 asyncseplay,setag1_17,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,STOP
-message,シャオレイ,先生、ぶじ？　はい、おてて。,,vc_10040100003_020_01
+message,シャオレイ,Teacher，are you okay? Here，take my hand.<br> ,,vc_10040100003_020_01
 
 window,off
 wait,0.15
 window,on,0.15
-message,<user>,ああ、ありがとう……
+message,<user>,Yeah，thanks...<br> 
 
 charahide,chara_1,0.3
 
@@ -385,24 +385,24 @@ asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
 
 charashow,chara_1,0.3
-message,<user>,ふぅ……しかし、危なかったな。<br>よく咄嗟に助けてくれたな。
+message,<user>,*phew*... That was close. You saved me just in time.<br> 
 
 asynccharaface,chara_1,FaceFun,STOP
 
 asyncseplay,setag1_18,se4800022,0,1,CONT
 
 asynccharaemo,chara_1,Speak,STOP
-message,シャオレイ,とうぜん。先生、わたしが守る。,,vc_10040100003_021_01
+message,シャオレイ,Of course. I'll protect you，Teacher.<br> ,,vc_10040100003_021_01
 
 asynccharaface,chara_1,FaceSad,STOP
-message,<user>,まったく、頼りになるよ。<br>しぇしぇ、ってやつだな。
+message,<user>,You're really reliable. The 'thanks' thing，huh.<br> 
 
 asyncseplay,setag1_19,se4800015,0,1,CONT
 
 asynccharaemo,chara_1,Dull,STOP
-message,シャオレイ,でも……元はといえば、シャオレイのせい……。わたしがドアを<br>ふき飛ばさなければ、先生が下敷きになりそうになることもなかった。,,vc_10040100003_022_01
+message,シャオレイ,But... it's all my fault. If I hadn't blown the door off，Teacher<br>wouldn't have been nearly crushed.<br> ,,vc_10040100003_022_01
 
-message,<user>,だから、そう気にするなって。<br>結果として、怪我はしてないんだし――
+message,<user>,So don't worry about it. In the end，I'm not hurt—<br> 
 
 window,off
 wait,0.15
@@ -417,7 +417,7 @@ wait,0.5
 
 cameramove,LinearTarget,X,0,0.5
 window,on,0.15
-message,<user>,……あれ？<br>俺、本当に何も怪我してない、な？
+message,<user>,...Huh? I'm really not hurt at all，am I?<br> 
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
@@ -425,35 +425,35 @@ charaface,chara_1,FaceNormal
 asyncseplay,setag1_20,se4800009,0,1,CONT
 
 asynccharaemo,chara_1,Question,STOP
-message,シャオレイ,……？　シャオレイ、ちゃんと守った。,,vc_10040100003_023_01
+message,シャオレイ,...? I protected you properly.<br> ,,vc_10040100003_023_01
 
-message,<user>,いや、そうではなく。<br>俺はシャオレイに押されたんだよな？
+message,<user>,No，that's not what I mean.<br>You pushed me，didn't you?<br> 
 
 charareaction,chara_1,Nod,0.5
-message,シャオレイ,うん。,,vc_10040100003_024_01
+message,シャオレイ,Yeah.<br> ,,vc_10040100003_024_01
 
-message,<user>,突然のことだったから、<br>シャオレイは何も考えずに飛び込んできたはずだ。
+message,<user>,It happened so suddenly，<br>you must have jumped in without thinking.<br> 
 
-message,<user>,つまり俺がぶっ飛ばされてもおかしくなかったと思うんだが……、<br>怪我どころか、どこも痛くないぞ。
+message,<user>,In other words，it wouldn't have been strange if I'd been sent<br>flying... But I'm not hurt at all，not even a little sore.<br> 
 
 asynccharaface,chara_1,FaceAnger,STOP
 
 asyncseplay,setag1_21,se4800006,0,1,CONT
 
 asynccharaemo,chara_1,Trouble,STOP
-message,シャオレイ,むぅ。当たり前。,,vc_10040100003_025_01
+message,シャオレイ,Hmm.<br>Of course.<br> ,,vc_10040100003_025_01
 
 asynccharaface,chara_1,FaceSad,STOP
 
 asyncseplay,setag1_22,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,STOP
-message,シャオレイ,先生に、教えてもらわないと、<br>シャオレイ、何も知らず、色んな人をこまらせた。,,vc_10040100003_026_01
+message,シャオレイ,Without Teacher teaching，<br>Xiaolei knew nothing and caused trouble for many people.<br> ,,vc_10040100003_026_01
 
 asyncseplay,setag1_23,se4800008,0,1,CONT
 
 asynccharaemo,chara_1,Sweat,STOP
-message,シャオレイ,そんなの、強い格闘家じゃない。<br>めーわくなひと。,,vc_10040100003_027_01
+message,シャオレイ,That's not a strong fighter.<br>Just a troublesome person.<br> ,,vc_10040100003_027_01
 
 asynccharaface,chara_1,FaceShy,STOP
 
@@ -461,12 +461,12 @@ asyncseplay,setag1_24,se4800012,0,1,CONT
 
 asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Shy,STOP
-message,シャオレイ,先生、シャオレイに、道をおしえてくれた。<br>とっても、大切なそんざい。,,vc_10040100003_028_01
+message,シャオレイ,Teacher showed Xiaolei the way.<br>Teacher is very important to Xiaolei.<br> ,,vc_10040100003_028_01
 
 asynccharaface,chara_1,FaceHappy,STOP
-message,シャオレイ,どんな時も、傷つけない。<br>信じて、先生。,,vc_10040100003_029_01
+message,シャオレイ,Xiaolei would never hurt Teacher.<br>Trust Xiaolei，Teacher.<br> ,,vc_10040100003_029_01
 
-message,<user>,……ああ、信じるよ。<br>お前は俺の可愛い教え子だからな。
+message,<user>,...Yeah，I trust you.<br>You're my cute student，after all.<br> 
 
 asyncseplay,setag1_25,se4800013,0,1,CONT
 
@@ -474,7 +474,7 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Spirits,STOP
 
 asynccharaface,chara_1,FaceFun,STOP
-message,シャオレイ,うん、しぇしぇ、先生。,,vc_10040100003_030_01
+message,シャオレイ,Yeah，shanks，Teacher.<br> ,,vc_10040100003_030_01
 
 asynccharaface,chara_1,FaceSurprise,STOP
 
@@ -482,18 +482,18 @@ asyncseplay,setag1_26,se4800017,0,1,CONT
 
 asynccharareaction,chara_1,Shake,1,STOP
 asynccharaemo,chara_1,Shock,STOP
-message,シャオレイ,あ……そういえば、ドア、どうしよ……,,vc_10040100003_031_01
+message,シャオレイ,Ah... Oh yeah，the door... what now?<br> ,,vc_10040100003_031_01
 
-message,<user>,壊れたものは廃棄するしかないな。<br>シャオレイ、外まで持っていってくれるか？
+message,<user>,We'll just have to throw away the broken door.<br>Xiaolei，can you take it outside?<br> 
 
-message,<user>,力加減は、そうだな……。<br>俺を運ぶぐらいで頼むよ。
+message,<user>,As for force...<br>hmm... use about as much as when you carry me.<br> 
 
 asynccharaface,chara_1,FaceFun,STOP
 
 asyncseplay,setag1_27,se4800022,0,1,CONT
 
 asynccharaemo,chara_1,Speak,STOP
-message,シャオレイ,まかせて、先生。<br>よい、しょっ。,,vc_10040100003_032_01
+message,シャオレイ,Leave it to Xiaolei，Teacher.<br>Hup!<br> ,,vc_10040100003_032_01
 
 window,off
 wait,0.15
@@ -508,27 +508,27 @@ charamove,chara_1,LinearTarget,CharaHeight,0,1
 
 asynccharaface,chara_1,FaceSurprise,STOP
 window,on,0.15
-message,,バキッ！！！
+message,,Crack!<br> 
 
-message,,シャオレイの持ち上げたドアは、中央から真っ二つに割れた。
+message,,The door Xiaolei had lifted snapped clean in two right down the<br>middle.<br> 
 
-message,<user>,…………背筋がヒヤッとしたんだが。<br>俺を運ぶつもりの力加減だったんだよな？
+message,<user>,...That gave me a chill.<br>That was supposed to be the same as carrying me，right?<br> 
 
 asyncseplay,setag1_29,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
-message,シャオレイ,せ、先生はこんなにふうには壊れない、から……,,vc_10040100003_033_01
+message,シャオレイ,Te-Teacher won't break like this... so...<br> ,,vc_10040100003_033_01
 
-message,<user>,俺は！　簡単に！　壊れるんだよ！
+message,<user>,I break easily!<br> 
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,<user>,やれやれ……。<br>完璧に制御できるようになるまで、まだまだ時間はかかるか……
+message,<user>,Good grief... It's gonna be a while until you can control it<br>perfectly，huh...<br> 
 
 asynccharaface,chara_1,FaceShy,STOP
-message,シャオレイ,ん、よろしく、先生。<br>もっと、色々、おしえて。,,vc_10040100003_034_01
+message,シャオレイ,Mm，Xiaolei is in your care，Teacher. Please teach Xiaolei more<br>things.<br> ,,vc_10040100003_034_01
 
 
 

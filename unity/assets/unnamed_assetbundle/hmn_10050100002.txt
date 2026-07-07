@@ -416,7 +416,7 @@ asyncseplay,setag1_11,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,エレクトラ,……申し訳ございません。エラーが発生していました。,100501000G,vc_10050100002_012_01,chara_1
+message,エレクトラ,...I apologize. An error occurred.<br> ,100501000G,vc_10050100002_012_01,chara_1
 
 window,off
 wait,0.15
@@ -435,7 +435,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,エレクトラ,可能な範囲で、２つの命令を同時に遂行いたします。<br>ご主人様お許しください！,100501000G,vc_10050100002_013_01,chara_1
+message,エレクトラ,I will execute both orders simultaneously to the best of my ability.<br>Please forgive me，Master!<br> ,100501000G,vc_10050100002_013_01,chara_1
 
 window,off
 wait,0.15
@@ -460,7 +460,7 @@ shake,CHARA,chara_2,40,0,0.25,20,off,off,0
 shake,CHARA,chara_3,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,<user>,うっ！？<br>本を取られた……いつの間にっ？
+message,<user>,Guh! She took the book... When did she?!<br> 
 
 window,off
 wait,0.15
@@ -511,7 +511,7 @@ asyncwait
 
 
 window,on,0.15
-message,エレクトラ,アリシアさん、お受け取りください。,100501000G,vc_10050100002_014_01,chara_1
+message,エレクトラ,Alicia，please take it.<br> ,100501000G,vc_10050100002_014_01,chara_1
 
 window,off
 wait,0.15
@@ -534,14 +534,14 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,アリシア,ありがとうございます、エレクトラさん！,300201000,vc_10050100002_015_01,chara_3
+message,アリシア,Thank you，Electra!<br> ,300201000,vc_10050100002_015_01,chara_3
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,エレクトラ,不躾なお願いで恐縮なのですが<br>本を開いて中身を見せていただけますでしょうか。,100501000G,vc_10050100002_016_01,chara_1
+message,エレクトラ,I apologize for the impertinent request，but could you please open<br>the book and show me the contents?<br> ,100501000G,vc_10050100002_016_01,chara_1
 
 asynccharaface,chara_3,EyeOpen,CONT,0
 asynccharaface,chara_3,FaceNormal,CONT,0
@@ -553,7 +553,7 @@ asyncseplay,setag1_15,se4800009,0,1,CONT,0
 asynccharaemo,chara_3,Question,CONT,0
 
 
-message,アリシア,……？　こう、ですか？,300201000,vc_10050100002_017_01,chara_3
+message,アリシア,...? Like this?<br> ,300201000,vc_10050100002_017_01,chara_3
 
 window,off
 wait,0.15
@@ -602,7 +602,7 @@ wait,0.5
 
 
 window,on,0.15
-message,エレクトラ,『奥さん。そんなに叫んだって助けは来ないぜ』<br>底冷えするような男の声が、女の火照る身体に突き刺さる。,100501000G,vc_10050100002_018_01,chara_1
+message,エレクトラ,""Hey，lady. Yell all you want—no one's coming to help."" The<br>bone-chilling male voice pierces the woman's flushed body.<br> ,100501000G,vc_10050100002_018_01,chara_1
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -616,7 +616,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 wait,0.5
 
 
-message,エレクトラ,その一方で、下腹部では男の指が的確に急所を弄んでいた。<br>ゴツゴツした指の感触からは想像できないような優しい指遣いに、女は――,100501000G,vc_10050100002_019_01,chara_1
+message,エレクトラ,Meanwhile，fingers precisely toyed with her sensitive spot below her<br>abdomen. With gentle touch unimaginable from those rough fingers，she—<br> ,100501000G,vc_10050100002_019_01,chara_1
 
 window,off
 wait,0.15
@@ -671,9 +671,9 @@ asynccharaemo,chara_3,Shock,CONT,0
 
 
 window,on,0.15
-message,アリシア,え、エレクトラさん、何を！？,300201000,vc_10050100002_020_01,chara_3
+message,アリシア,E-Electra，what are you doing?!<br> ,300201000,vc_10050100002_020_01,chara_3
 
-message,<user>,……なるほど。その発想はなかったな。<br>美人に音読してもらうというのもなかなか――
+message,<user>,...I see. Never thought of that. Having a beauty read it to me is<br>quite—<br> 
 
 window,off
 wait,0.15
@@ -721,7 +721,7 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,アリシア,新しい扉を開いていらっしゃる！？,300201000,vc_10050100002_021_01,chara_3
+message,アリシア,You're opening a new door!?<br> ,300201000,vc_10050100002_021_01,chara_3
 
 window,off
 wait,0.15
@@ -764,7 +764,7 @@ wait,0.5
 
 
 window,on,0.15
-message,エレクトラ,『あぁっ、お願いします――もう、やめて……』<br>息も絶え絶えの状態で喘ぐ様子は、男の情欲をさらに煽り――,100501000G,vc_10050100002_022_01,chara_1
+message,エレクトラ,""Ahh，please—no more，stop..."" Her breathless moans only stoke the<br>man's lust further—<br> ,100501000G,vc_10050100002_022_01,chara_1
 
 window,off
 wait,0.15
@@ -819,7 +819,7 @@ asynccharaemo,chara_3,Shy,CONT,0
 
 
 window,on,0.15
-message,アリシア,ひーっ！<br>お願いしますー！　もうやめてくださいーっ！,300201000,vc_10050100002_023_01,chara_3
+message,アリシア,Eeeek! Please—please stop!<br> ,300201000,vc_10050100002_023_01,chara_3
 
 window,off
 wait,0.15
@@ -865,7 +865,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,ふふ、これは愉快です。,108701000G,vc_10050100002_024_01,chara_2
+message,アーデルハイト,Fufu，this is amusing.<br> ,108701000G,vc_10050100002_024_01,chara_2
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -910,9 +910,9 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,エレクトラ,……申し訳ございません。<br>お２人のご要望を叶えることができませんでした。,100501000G,vc_10050100002_025_01,chara_1
+message,エレクトラ,...I apologize. I was unable to fulfill both of your wishes.<br> ,100501000G,vc_10050100002_025_01,chara_1
 
-message,<user>,いや、俺はそんなふうに思っていないぞ。<br>むしろ感謝している。
+message,<user>,No，I don't think that at all. If anything，I'm grateful.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -921,9 +921,9 @@ asyncseplay,setag1_24,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,エレクトラ,先ほど謝罪を申し上げましたが、未だに正解が分かりません。<br>どちらが正しかったのでしょう……,100501000G,vc_10050100002_026_01,chara_1
+message,エレクトラ,I apologized earlier，but I still don't know the correct answer.<br>Which was right...<br> ,100501000G,vc_10050100002_026_01,chara_1
 
-message,<user>,ふむ？　奇妙なことを言うな。<br>お前がやりたいようにやればいいだろうに。
+message,<user>,Hmm? That's a strange thing to say. You should just do as you see<br>fit.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -934,7 +934,7 @@ asyncseplay,setag1_25,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,エレクトラ,やりたいことですか？　エレクトラのやりたいことは、<br>皆さんの要望に応えて健やかな生活を維持することです。,100501000G,vc_10050100002_027_01,chara_1
+message,エレクトラ,What I want to do? I want to respond to everyone's needs and<br>maintain a healthy life.<br> ,100501000G,vc_10050100002_027_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -945,9 +945,9 @@ asyncseplay,setag1_26,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,エレクトラ,先ほどの状況下では、そのすべてを満たすことが難しく――,100501000G,vc_10050100002_028_01,chara_1
+message,エレクトラ,In that situation，it was difficult to satisfy them all—<br> ,100501000G,vc_10050100002_028_01,chara_1
 
-message,<user>,んんっ……？
+message,<user>,Hmm...?<br> 
 
 window,off
 wait,0.15
@@ -1001,9 +1001,9 @@ wait,0.5
 
 
 window,on,0.15
-message,アーデルハイト,フレーム問題ですよ、司令官。,108701000G,vc_10050100002_029_01,chara_2
+message,アーデルハイト,It's the frame problem，Commander.<br> ,108701000G,vc_10050100002_029_01,chara_2
 
-message,<user>,なんだ、それは？
+message,<user>,What's that?<br> 
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -1015,7 +1015,7 @@ asyncseplay,setag1_28,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,アーデルハイト,断片的にですけど、何が起こったかは想像がつきます。<br>エレクトラ、フレーム問題について説明を。,108701000G,vc_10050100002_030_01,chara_2
+message,アーデルハイト,From just a few fragments，but I can imagine what happened.<br>Electra，explain the frame problem.<br> ,108701000G,vc_10050100002_030_01,chara_2
 
 window,off
 wait,0.15
@@ -1064,7 +1064,7 @@ wait,0.5
 
 
 window,on,0.15
-message,エレクトラ,アンドロイドは、人間の命令に従うように設計されています。<br>それがエレクトラの行動、すべてに適用される前提条件です。,100501000G,vc_10050100002_031_01,chara_1
+message,エレクトラ,Androids are designed to obey human commands. That is a precondition<br>that applies to all my actions.<br> ,100501000G,vc_10050100002_031_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1075,11 +1075,11 @@ asyncseplay,setag1_30,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,エレクトラ,それゆえに、相反する命令が同時に下された場合――<br>片方を満たせば片方が満たせない状況になると、強く負荷が掛かるのです。,100501000G,vc_10050100002_032_01,chara_1
+message,エレクトラ,Thus，when contradictory orders are given simultaneously，fulfilling<br>one makes the other impossible，and a heavy strain is placed on me.<br> ,100501000G,vc_10050100002_032_01,chara_1
 
-message,<user>,なるほどな。分かったぞ。アリシアは俺の本を取り上げるように命じた。<br>しかし、俺は取り上げるのをやめて読ませろと言ったからか――
+message,<user>,I see. I get it. Alicia ordered you to confiscate my book. But I<br>told you to stop taking it and let me read，so—<br> 
 
-message,<user>,……そんな大げさな話でもないと思うんだが。<br>しかし、ロボットとはそういうもの、ってことなんだな。
+message,<user>,...I don't think it's that big a deal. But I guess that's just how<br>robots are.<br> 
 
 window,off
 wait,0.15
@@ -1131,7 +1131,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,理解が早くて助かりますよ、司令官。<br>命令に従順であることはアンドロイドにとって絶対です。,108701000G,vc_10050100002_033_01,chara_2
+message,アーデルハイト,It helps that you understand quickly，Commander. For an<br>android，obedience to commands is absolute.<br> ,108701000G,vc_10050100002_033_01,chara_2
 
 window,off
 wait,0.15
@@ -1171,7 +1171,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,となれば解決はできないのか？
+message,<user>,So there's no solution?<br> 
 
 window,off
 wait,0.15
@@ -1188,9 +1188,9 @@ wait,0.5
 
 
 window,on,0.15
-message,エレクトラ,先ほどのような状況に備えてあらかじめ方針を決めておいていただけると<br>判断が早くなり、間違いを犯すこともなくなります。,100501000G,vc_10050100002_034_01,chara_1
+message,エレクトラ,If you could set a policy in advance for situations like that，I'd be<br>able to decide faster and avoid mistakes.<br> ,100501000G,vc_10050100002_034_01,chara_1
 
-message,<user>,それは、俺に好きな条件をつけろと言っている？
+message,<user>,So you're saying I should set whatever conditions I like?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1201,9 +1201,9 @@ asyncseplay,setag1_33,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,エレクトラ,はい。ご自由になさってください。,100501000G,vc_10050100002_035_01,chara_1
+message,エレクトラ,Yes. Please feel free to do so.<br> ,100501000G,vc_10050100002_035_01,chara_1
 
-message,<user>,うーん……困ったな。
+message,<user>,Hmm... this is tough.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1214,9 +1214,9 @@ asyncseplay,setag1_34,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,エレクトラ,何を悩んでいるのです？,100501000G,vc_10050100002_036_01,chara_1
+message,エレクトラ,What's troubling you?<br> ,100501000G,vc_10050100002_036_01,chara_1
 
-message,<user>,俺の命令を最優先しろ、と言いたいが<br>それをやるとアリシアからずーっと小言を言われそうでなぁ。
+message,<user>,I want to say 'make my orders your top priority，' but if I do，Alicia<br>will never let me hear the end of it.<br> 
 
 window,off
 wait,0.15
@@ -1270,9 +1270,9 @@ asynccharaemo,chara_3,BePeevish,CONT,0
 
 
 window,on,0.15
-message,アリシア,司令官～？<br>聞こえてますからねぇ～？,300201000,vc_10050100002_037_01,chara_3
+message,アリシア,Commander? I can hear you，you knooow?<br> ,300201000,vc_10050100002_037_01,chara_3
 
-message,<user>,ほら、言われた。
+message,<user>,See? There it is.<br> 
 
 window,off
 wait,0.15
@@ -1312,7 +1312,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,えぇい、もう面倒だ！<br>エレクトラ！　お前のやりたいようにやれ！
+message,<user>,Ugh，what a pain! Electra，do whatever you want!<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1323,9 +1323,9 @@ asyncseplay,setag1_36,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,エレクトラ,えっ……？,100501000G,vc_10050100002_038_01,chara_1
+message,エレクトラ,Eh...?<br> ,100501000G,vc_10050100002_038_01,chara_1
 
-message,<user>,自由に、だと却って揉めそうな答えしか思い浮かばない。<br>お前に決めてもらうのが一番、丸く収まりそうだ。
+message,<user>,If I said 'act freely，' I'd only think of answers that cause more<br>trouble，so you decide to keep things smooth.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1336,9 +1336,9 @@ asyncseplay,setag1_37,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,エレクトラ,……！<br>ご主人様……,100501000G,vc_10050100002_039_01,chara_1
+message,エレクトラ,...! Master...<br> ,100501000G,vc_10050100002_039_01,chara_1
 
-message,<user>,ただ、俺に問題がないときは従ってくれよ？
+message,<user>,But when there's no problem on my end，follow my orders，okay?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1349,7 +1349,7 @@ asyncseplay,setag1_38,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,エレクトラ,もちろんです。<br>これからも、ご主人様のおそばに仕えさせてください。,100501000G,vc_10050100002_040_01,chara_1
+message,エレクトラ,Of course. Please let me continue to serve by your side，Master.<br> ,100501000G,vc_10050100002_040_01,chara_1
 
 window,off
 bgmstop,bgmtag1_2,0.5

@@ -27,9 +27,9 @@ bgmplay,bgmtag1_1,bgm0028,0.75,1
 asyncseplay,se1_1001,se4000121,0,1,CONT,0
 
 window,on,0.15
-message,<user>,はぁっ、はぁっ……くそ！
+message,<user>,*pant*，*pant*... dammit!<br> 
 
-message,,――前線基地付近の山岳地帯で、<user>は<br>狼型のモンスターの群れに追い掛け回されていた。
+message,,In the mountainous terrain near the Frontline Base，the Commander was<br>being chased by a pack of wolves.<br> 
 
 window,off
 wait,0.15
@@ -57,7 +57,7 @@ wait,0.5
 linework,on,Black,Middle
 
 window,on,0.15
-message,狼たち,グルルルル！！<br>ワオーンンンっ！！,900000003
+message,狼たち,Grrrrrrr! Awooooo!<br> ,900000003
 
 window,off
 wait,0.15
@@ -67,7 +67,7 @@ charafocusonall
 linework,off,Black,Middle
 
 window,on,0.15
-message,<user>,くそっ！　お前らしつこいな！？
+message,<user>,Dammit! You guys are relentless!<br> 
 
 window,off
 wait,0.15
@@ -82,7 +82,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（このまま逃げ続けても追い込まれる……<br>どうしたものか……）
+message,<user>,(If I keep running like this，they'll corner me... What should I<br>do...)<br> 
 
 crossfadeready
 
@@ -105,7 +105,7 @@ asyncseplay,setag1_2,se4900081,0,1,CONT,0
 asyncprefabshowUI,uieffect_0,ON,CONT,0
 
 window,on,0.15
-message,,――バキューン！！
+message,,BANG!<br> 
 
 window,off
 wait,0.15
@@ -115,7 +115,7 @@ charafocusonall
 cleanall,EFFECT
 
 window,on,0.15
-message,狼,キャウン！？,900000003
+message,狼,Yipe!<br> ,900000003
 
 window,off
 wait,0.15
@@ -129,7 +129,7 @@ shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 shake,CHARA,chara_2,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,<user>,んっ？
+message,<user>,Huh?<br> 
 
 window,off
 wait,0.15
@@ -173,9 +173,9 @@ cleanall,EFFECT
 asyncwait
 
 window,on,0.15
-message,,狼の悲鳴を受けて、<user>は背後の様子を確認する。<br>連発する破裂音が聞こえたあと、追走してきた狼たちが次々と倒れていく。
+message,,Hearing the wolf's yelp，the Commander checked behind him. Gunshots<br>rang out，and the wolves chasing him fell one by one.<br> 
 
-message,<user>,銃声……？　狙撃か！？
+message,<user>,Gunshots...? A sniper!<br> 
 
 window,off
 wait,0.15
@@ -204,7 +204,7 @@ charashowalpha,chara_1,1,0
 transitionFade,Tra01,in,black,1
 
 window,on,0.15
-message,,音の出所に目を向けると、１人の女性が長銃を構えて立っていた。
+message,,He looked toward the sound and saw a woman standing there with a<br>long rifle.<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -213,7 +213,7 @@ asyncseplay,setag1_7,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,シャノン,グッバイ、狼たち。,105301000G,vc_10530100001_001_01,chara_1
+message,シャノン,Goodbye，wolves.<br> ,105301000G,vc_10530100001_001_01,chara_1
 
 window,off
 wait,0.15
@@ -250,7 +250,7 @@ asyncseplay,setag1_10,se4900081,0,1,CONT,0
 wait,1
 
 window,on,0.15
-message,,狼たちは散らばって逃げていく。女性はそのすべてを撃ち抜いたあと、<br>銃を下ろして<user>のほうへ歩いてくる。
+message,,The wolves scattered and fled. After shooting every last one，the<br>woman lowered her rifle and walked toward the Commander.<br> 
 
 window,off
 wait,0.15
@@ -297,9 +297,9 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,シャノン,無事かい？,105301000G,vc_10530100001_002_01,chara_1
+message,シャノン,Are you okay?<br> ,105301000G,vc_10530100001_002_01,chara_1
 
-message,<user>,あぁ、おかげさまでな。助かった。
+message,<user>,Yeah，thanks to you. You saved my life.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -310,9 +310,9 @@ asyncseplay,setag1_12,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,シャノン,あんた、ツイてたね。<br>私が通り掛かってなかったらたぶん、死んでたよ。,105301000G,vc_10530100001_003_01,chara_1
+message,シャノン,You got lucky. If I hadn't come along，you'd probably be dead.<br> ,105301000G,vc_10530100001_003_01,chara_1
 
-message,<user>,そうかもしれんな……
+message,<user>,Yeah，you're probably right...<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -323,9 +323,9 @@ asyncseplay,setag1_13,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,シャノン,うん。……ってなわけで、今度は私のことを助けてもらえると<br>嬉しいんだけど、頼める？,105301000G,vc_10530100001_004_01,chara_1
+message,シャノン,Yeah... so，anyway，I'd really appreciate it if you could help me out.<br>Think you can?<br> ,105301000G,vc_10530100001_004_01,chara_1
 
-message,<user>,んっ？　何か困っているのか？
+message,<user>,Huh? You in some kind of trouble?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -336,7 +336,7 @@ asyncseplay,setag1_14,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,シャノン,エルドラーナから来たんだけど、顔を洗っている最中、<br>書類を入れていたポーチをカラスたちに取られてね……,105301000G,vc_10530100001_005_01,chara_1
+message,シャノン,I'm from Eldorana，but while I was washing my face，crows stole the<br>pouch with my documents in it...<br> ,105301000G,vc_10530100001_005_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -348,7 +348,7 @@ asyncseplay,setag1_15,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シャノン,その中に地図も入っていたから、道に迷っていたんだ。,105301000G,vc_10530100001_006_01,chara_1
+message,シャノン,There was a map in there too，so I ended up lost.<br> ,105301000G,vc_10530100001_006_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -359,9 +359,9 @@ asyncseplay,setag1_16,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,シャノン,前線基地まで行きたい。<br>あんた、道分かったりする？,105301000G,vc_10530100001_007_01,chara_1
+message,シャノン,I want to go to the Frontline Base. owner，you know the way?<br> ,105301000G,vc_10530100001_007_01,chara_1
 
-message,<user>,なんだ、前線基地へ向かっていたのか。<br>案内するよ。ちょうど、戻るところだったしな。
+message,<user>,Oh，heading to the Frontline Base? I'll guide you. I was about to<br>head back anyway.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -372,7 +372,7 @@ asyncseplay,setag1_17,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,シャノン,いいね。これでお互い貸し借りなしってことだ。,105301000G,vc_10530100001_008_01,chara_1
+message,シャノン,Good. That makes us even.<br> ,105301000G,vc_10530100001_008_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -383,9 +383,9 @@ asyncseplay,setag1_18,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,シャノン,ようやく、私にも運が回ってきたみたい。<br>道案内よろしく。,105301000G,vc_10530100001_009_01,chara_1
+message,シャノン,Seems like luck's finally on my side. Thanks for showing me the way.<br> ,105301000G,vc_10530100001_009_01,chara_1
 
-message,<user>,あぁ。ついてきてくれ。
+message,<user>,Yeah. Follow me.<br> 
 
 
 
@@ -421,9 +421,9 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,シャノン,どれくらいで着くかな？,105301000G,vc_10530100001_010_01,chara_1
+message,シャノン,How long will it take?<br> ,105301000G,vc_10530100001_010_01,chara_1
 
-message,<user>,そんなに遠くない。日が暮れる前には到着するだろう。
+message,<user>,Not that far. We'll arrive before sundown.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -434,9 +434,9 @@ asyncseplay,setag1_20,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,シャノン,いいね。,105301000G,vc_10530100001_011_01,chara_1
+message,シャノン,Good.<br> ,105301000G,vc_10530100001_011_01,chara_1
 
-message,<user>,……しかし、見事な銃の腕前だったな。<br>１発も外してなかったんじゃないか？
+message,<user>,...but that was some impressive shooting. You didn't miss a single<br>shot，did you?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -447,7 +447,7 @@ asyncseplay,setag1_21,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,シャノン,あいつら、あんたに夢中で<br>周りを全然警戒してなかったしね。,105301000G,vc_10530100001_012_01,chara_1
+message,シャノン,owner，those wolves were too busy going after you to watch their<br>surroundings.<br> ,105301000G,vc_10530100001_012_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -458,9 +458,9 @@ asyncseplay,setag1_22,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,シャノン,数はそれなりだったけど、ただの的当てだったよ。<br>あれで外してるようじゃプロとはいえないな。,105301000G,vc_10530100001_013_01,chara_1
+message,シャノン,There were a fair number，but they were just target practice. If I'd<br>missed in that situation，I wouldn't call myself a pro.<br> ,105301000G,vc_10530100001_013_01,chara_1
 
-message,<user>,プロか――まるで暗殺者だな。
+message,<user>,A pro，huh—sounds just like an assassin.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -471,7 +471,7 @@ asyncseplay,setag1_23,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,シャノン,ななな、なぁっ！？,105301000G,vc_10530100001_014_01,chara_1
+message,シャノン,Wh-wh-what!<br> ,105301000G,vc_10530100001_014_01,chara_1
 
 window,off
 wait,0.15
@@ -511,9 +511,9 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,シャノン,なぜ分かったっっ！？,105301000G,vc_10530100001_015_01,chara_1
+message,シャノン,How did you know!?<br> ,105301000G,vc_10530100001_015_01,chara_1
 
-message,<user>,あ、すまん……<br>まさか本当にそうだとは――
+message,<user>,Ah，sorry... I didn't think you actually were one.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -524,7 +524,7 @@ asyncseplay,setag1_26,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,シャノン,ぐっ！？　黙っていればよかった……<br>不覚！,105301000G,vc_10530100001_016_01,chara_1
+message,シャノン,Guh! I should've kept my mouth shut... How careless of me!<br> ,105301000G,vc_10530100001_016_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -535,9 +535,9 @@ asyncseplay,setag1_27,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,シャノン,……このことは黙っておいてくれる？,105301000G,vc_10530100001_017_01,chara_1
+message,シャノン,owner，can you keep this between us?<br> ,105301000G,vc_10530100001_017_01,chara_1
 
-message,<user>,分かった。恩人だしな。従おう。
+message,<user>,Got it. You saved me，so I'll go along with it.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -548,9 +548,9 @@ asyncseplay,setag1_28,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,シャノン,助かる。これであんたに借りができたな。,105301000G,vc_10530100001_018_01,chara_1
+message,シャノン,Appreciate it，owner. Now I owe you one.<br> ,105301000G,vc_10530100001_018_01,chara_1
 
-message,<user>,ただ、ひとつ気になるんだが――<br>前線基地には仕事で向かっているのか？
+message,<user>,But there's one thing I'm curious about...<br>Are you heading to the Frontline Base on business?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -562,9 +562,9 @@ asyncseplay,setag1_29,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,シャノン,……その通り。,105301000G,vc_10530100001_019_01,chara_1
+message,シャノン,...That is right.<br> ,105301000G,vc_10530100001_019_01,chara_1
 
-message,<user>,ふむ。いったい誰を狙っている？
+message,<user>,Hmm. So who exactly are you after?<br> 
 
 window,off
 wait,0.15
@@ -579,7 +579,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（俺の知る範囲では、前線基地に暗殺者を差し向けられるような<br>悪人はいないはずなんだが――）
+message,<user>,(As far as I know，there's no one at the Frontline Base worth<br>assassinating.)<br> 
 
 window,off
 wait,0.15
@@ -605,7 +605,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,シャノン,決まっている。前線基地の司令官さ。,105301000G,vc_10530100001_020_01,chara_1
+message,シャノン,Obviously. The Commander of the Frontline Base.<br> ,105301000G,vc_10530100001_020_01,chara_1
 
 bgmplay,bgmtag1_3,bgm0041,0.75,1
 
@@ -626,7 +626,7 @@ asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,<user>,（ぶーーーーーっ！？）
+message,<user>,(Bwah!)<br> 
 
 window,off
 wait,0.15
@@ -648,9 +648,9 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,シャノン,依頼人によると、とんでもない奴らしいな！,105301000G,vc_10530100001_021_01,chara_1
+message,シャノン,According to the client，he is apparently a terrible man!<br> ,105301000G,vc_10530100001_021_01,chara_1
 
-message,<user>,ええっ！？
+message,<user>,What!<br> 
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -659,9 +659,9 @@ asyncseplay,setag1_32,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,シャノン,前線基地に住む人々は皆、奴の圧政に苦しんでいるのだとか――,105301000G,vc_10530100001_022_01,chara_1
+message,シャノン,Apparently，all the people in the Frontline Base are suffering under<br>his tyranny...<br> ,105301000G,vc_10530100001_022_01,chara_1
 
-message,<user>,あ、えっと……
+message,<user>,Ah，um...<br> 
 
 window,off
 wait,0.15
@@ -676,7 +676,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（まったく身に覚えがないんだが……？）
+message,<user>,(I have absolutely no recollection of that...)<br> 
 
 window,off
 wait,0.15
@@ -700,7 +700,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,シャノン,その様子だと、あんたもだいぶ苦労させられているようだな。,105301000G,vc_10530100001_023_01,chara_1
+message,シャノン,From the looks of it，you have been having a difficult time，too.<br> ,105301000G,vc_10530100001_023_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -711,7 +711,7 @@ asyncseplay,setag1_34,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,シャノン,だが、私が来たからにはもう安心だ。,105301000G,vc_10530100001_024_01,chara_1
+message,シャノン,But now that I am here，you are safe.<br> ,105301000G,vc_10530100001_024_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -722,7 +722,7 @@ asyncseplay,setag1_35,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,シャノン,勘が鋭く、小賢しい奴らしいが<br>どんな奴でも私の狙撃からは逃げられない。,105301000G,vc_10530100001_025_01,chara_1
+message,シャノン,They say he is sharp and cunning，<br>but no one can escape my sniping.<br> ,105301000G,vc_10530100001_025_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -733,9 +733,9 @@ asyncseplay,setag1_36,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,シャノン,すぐに住みやすくしてやるからな。期待していてくれ。,105301000G,vc_10530100001_026_01,chara_1
+message,シャノン,I will make this place livable again soon. Look forward to it.<br> ,105301000G,vc_10530100001_026_01,chara_1
 
-message,<user>,……司令官の名前や人相とかは、分かっているのか？
+message,<user>,...Do you know his name or what he looks like?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -746,7 +746,7 @@ asyncseplay,setag1_37,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,シャノン,それが、依頼人からもらった資料も地図と一緒に無くしちゃってね。,105301000G,vc_10530100001_027_01,chara_1
+message,シャノン,I lost the documents the client gave me along with the map.<br> ,105301000G,vc_10530100001_027_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -757,9 +757,9 @@ asyncseplay,setag1_38,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,シャノン,でも名前は覚えてるよ。<br>確か<user>だったはず。,105301000G,vc_10530100001_028_01,chara_1
+message,シャノン,But I remember the name.<br>It was %user%，I am certain.<br> ,105301000G,vc_10530100001_028_01,chara_1
 
-message,<user>,……
+message,<user>,...<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -770,11 +770,11 @@ asyncseplay,setag1_39,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,シャノン,そういえば名乗ってなかったね。<br>私はシャノン。あんたは？,105301000G,vc_10530100001_029_01,chara_1
+message,シャノン,Come to think of it，I never introduced myself.<br>I am Shannon. What is your name?<br> ,105301000G,vc_10530100001_029_01,chara_1
 
-message,<user>,俺は……
+message,<user>,I...<br> 
 
-message,<user>,僕は、エドワード・トーマス・セバスチャンです。
+message,<user>,I am Edward Thomas Sebastian.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -785,7 +785,7 @@ asyncseplay,setag1_40,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,シャノン,ん？　急に口調が変わったな？,105301000G,vc_10530100001_030_01,chara_1
+message,シャノン,Huh? You suddenly changed how you talk?<br> ,105301000G,vc_10530100001_030_01,chara_1
 
 window,off
 wait,0.15
@@ -800,9 +800,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（当たり前だろ！　あんな凄腕の狙撃者に狙われたら<br>命がいくつあっても足りん！）
+message,<user>,(Of course! If a sniper as skilled as that is after me，not even a<br>dozen lives would be enough!)<br> 
 
-message,<user>,（とりあえず正体がバレないように――<br>前線基地まで案内したら、さっさと逃げよう……）
+message,<user>,(For now，to avoid blowing my cover—once I guide her to the base，I'll<br>make a run for it...)<br> 
 
 window,off
 wait,0.15
@@ -824,9 +824,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,シャノン,どうしたんだ？,105301000G,vc_10530100001_031_01,chara_1
+message,シャノン,What's wrong?<br> ,105301000G,vc_10530100001_031_01,chara_1
 
-message,<user>,なんでもない！　なんでもないです！　アハハハ！<br>さぁ、行きましょうシャノンさん。なるべく早くね！
+message,<user>,Nothing! Nothing at all! Ahahaha! Come on，let's go，Shannon! As fast<br>as we can!<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -837,7 +837,7 @@ asyncseplay,setag1_42,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,シャノン,……？,105301000G,vc_10530100001_032_01,chara_1
+message,シャノン,...?<br> ,105301000G,vc_10530100001_032_01,chara_1
 
 
 
@@ -859,7 +859,7 @@ emodelete,chara_1,0,0
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,<user>,シャノンさん、着きましたよー。
+message,<user>,Shannon，we're here!<br> 
 
 window,off
 wait,0.15
@@ -895,7 +895,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,シャノン,へぇっ……ここが前線基地なんだ。<br>思ってたより、しっかりしてる。,105301000G,vc_10530100001_033_01,chara_1
+message,シャノン,So this is the Frontline Base... It's sturdier than I imagined.<br> ,105301000G,vc_10530100001_033_01,chara_1
 
 window,off
 wait,0.15
@@ -928,7 +928,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,<user>,マーケットや美味しい料理を出す酒場もあるんで<br>しばらくはゆっくり過ごすのがおすすめです。休みましょう！
+message,<user>,There's the Market and a tavern with great food，so I'd recommend<br>taking it easy for a while. Let's take a break!<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -939,9 +939,9 @@ asyncseplay,setag1_44,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,シャノン,いや、そうはいかない。プロはどんなときも仕事を優先するものさ。<br><user>を探さないと。,105301000G,vc_10530100001_034_01,chara_1
+message,シャノン,No，I can't do that. A professional always puts the job first. I have<br>to find %user%.<br> ,105301000G,vc_10530100001_034_01,chara_1
 
-message,<user>,そ、そうですかぁ～……<br>じゃあ、僕はここで……
+message,<user>,I-I see... Well then，I'll be going now...<br> 
 
 window,off
 wait,0.15
@@ -984,7 +984,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,一般兵,あ、司令官！,401001000,vc_10530100001_035_01,chara_2
+message,一般兵,Oh，Commander!<br> ,401001000,vc_10530100001_035_01,chara_2
 
 window,off
 wait,0.15
@@ -999,7 +999,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（げっ！？）
+message,<user>,(Guh!)<br> 
 
 window,off
 wait,0.15
@@ -1045,7 +1045,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,シャノン,……司令官だと？,105301000G,vc_10530100001_036_01,chara_1
+message,シャノン,...Commander?<br> ,105301000G,vc_10530100001_036_01,chara_1
 
 window,off
 wait,0.15
@@ -1081,7 +1081,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,,通り掛かった兵士は、シャノンと<user>たちを<br>見ながら声を張る。
+message,,A passing soldier raised his voice as he looked at Shannon and<br>%user%.<br> 
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -1092,7 +1092,7 @@ asyncseplay,setag1_47,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,一般兵,副司令官が探してましたよー！<br>あとでちゃんと会いに行ってくださいねー！,401001000,vc_10530100001_037_01,chara_2
+message,一般兵,The Deputy Commander has been looking for you! Make sure you go see<br>them later!<br> ,401001000,vc_10530100001_037_01,chara_2
 
 window,off
 wait,0.15
@@ -1119,7 +1119,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（あのバカっ……！！）
+message,<user>,(That idiot...!)<br> 
 
 window,off
 wait,0.15
@@ -1159,7 +1159,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,シャノン,ん～っ？<br>あの兵士、こっちを見ていたよな……？,105301000G,vc_10530100001_038_01,chara_1
+message,シャノン,Hmm? That soldier was looking this way，wasn't he...?<br> ,105301000G,vc_10530100001_038_01,chara_1
 
 window,off
 wait,0.15
@@ -1174,7 +1174,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（ま、まずい！！　どどどど、どうする……っっッッ！？）
+message,<user>,(Oh no! Wh-wh-wh-wh-what do I do!?)<br> 
 
 window,off
 bgmstop,bgmtag1_3,0.5

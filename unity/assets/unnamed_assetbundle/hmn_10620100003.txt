@@ -24,14 +24,14 @@ bgmplay,bgmtag1_1,bgm0036,0.75,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>——Several days after Hinagi arrived at the forward base</size>,,,on
+messageTextCenter,,<size=48>—Several days after Hinagi arrived at the Frontline Base.</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
 
 
 window,on,0.15
-message,,Hinagi was making sushi rolls<br>in the quarters' kitchen.<br> 
+message,,Hinagi was making rolled sushi in the dormitory kitchen.<br> 
 
 window,off
 wait,0.15
@@ -69,7 +69,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,Hmm~，how strange~.<br>I followed Mother's recipe exactly，but the shape...<br> ,106201000G,vc_10620100003_001_01,chara_1
+message,ヒナギ,Hmm... that is strange. I am making it just as Mother taught me，but<br>the shape will not come out right...<br> ,106201000G,vc_10620100003_001_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -80,7 +80,7 @@ asyncseplay,setag1_2,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ヒナギ,I really am no good at cooking...<br>Haah...<br> ,106201000G,vc_10620100003_002_01,chara_1
+message,ヒナギ,I really am bad at cooking... *sigh*...<br> ,106201000G,vc_10620100003_002_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -91,7 +91,7 @@ asyncseplay,setag1_3,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒナギ,W-well，even if it's a total mess，<br>it all tastes the same once you eat it，right!?<br> ,106201000G,vc_10620100003_003_01,chara_1
+message,ヒナギ,W-well，even if they are all misshapen，they taste the same once you<br>eat them，right!<br> ,106201000G,vc_10620100003_003_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -102,7 +102,7 @@ asyncseplay,setag1_4,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ヒナギ,It's not like I'm serving it to anyone!<br>If it's just for me，then——<br> ,106201000G,vc_10620100003_004_01,chara_1
+message,ヒナギ,It is not as if I am serving them to someone else! If I am eating<br>them myself，it should be fine—<br> ,106201000G,vc_10620100003_004_01,chara_1
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -143,7 +143,7 @@ asyncseplay,setag1_5,se4010005,0,1,CONT,0
 asynccharaface,chara_1,FaceSurprise,STOP,0.5
 
 window,on,0.15
-message,,——Stomp stomp stomp!<br> 
+message,,—Thump，thump，thump!<br> 
 
 sestop,setag1_5,0.1
 
@@ -162,11 +162,11 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,Commander-sama? What is the matter?<br>You look so exhausted...<br> ,106201000G,vc_10620100003_005_01,chara_1
+message,ヒナギ,Lord Commander? What is wrong? You look so exhausted...<br> ,106201000G,vc_10620100003_005_01,chara_1
 
 bgmplay,bgmtag1_2,bgm0027,0.75,1
 
-message,<user>,Because I am exhausted...<br>What kind of spell did you cast on everyone here!?<br> 
+message,<user>,Because I'm exhausted... What sort of magic did you cast on the<br>people at the Frontline Base!?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -177,7 +177,7 @@ asyncseplay,setag1_7,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ヒナギ,A spell?<br>Um...<br> ,106201000G,vc_10620100003_006_01,chara_1
+message,ヒナギ,Magic? Um...<br> ,106201000G,vc_10620100003_006_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -189,11 +189,11 @@ asyncseplay,setag1_8,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヒナギ,Oh!<br>Could you be referring to the matchmaking charms?<br> ,106201000G,vc_10620100003_007_01,chara_1
+message,ヒナギ,Ah! Could it be about the matchmaking charm?<br> ,106201000G,vc_10620100003_007_01,chara_1
 
-message,<user>,That's it!<br> 
+message,<user>,That's the one!<br> 
 
-message,<user>,Because of those，I've had to go on dates<br>with multiple people every single day!?<br> 
+message,<user>,Because of that，I have to go on dates with several people every day!<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -213,9 +213,9 @@ asyncseplay,setag1_10,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒナギ,Th-that cannot be...!?<br> ,106201000G,vc_10620100003_009_01,chara_1
+message,ヒナギ,N-no way，that cannot be right...!<br> ,106201000G,vc_10620100003_009_01,chara_1
 
-message,<user>,Just check，please!<br> 
+message,<user>,Anyway，just go check!<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -226,12 +226,12 @@ asyncseplay,setag1_11,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒナギ,U-understood.<br> ,106201000G,vc_10620100003_010_01,chara_1
+message,ヒナギ,R-right... I understand.<br> ,106201000G,vc_10620100003_010_01,chara_1
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,ヒナギ,The katashiro I used for the charms are stored<br>in the quarters. Let us go take a look!<br> ,106201000G,vc_10620100003_011_01,chara_1
+message,ヒナギ,The paper dolls I used for the charm are stored in the dormitory.<br>Let us go check them!<br> ,106201000G,vc_10620100003_011_01,chara_1
 
 
 
@@ -279,7 +279,7 @@ asyncwait
 sestop,setag1_12,0.1
 
 window,on,0.15
-message,,Back at the quarters，Hinagi brought a box<br>before %user%.<br> 
+message,,When they reached the dormitory，Hinagi brought a box and set it<br>before the Commander.<br> 
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -288,9 +288,9 @@ asyncseplay,setag1_13,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒナギ,Here they are.<br> ,106201000G,vc_10620100003_012_01,chara_1
+message,ヒナギ,Here it is.<br> ,106201000G,vc_10620100003_012_01,chara_1
 
-message,<user>,Hm!? This just looks like a box...?<br> 
+message,<user>,Huh!? It just looks like an ordinary box to me...<br> 
 
 window,off
 wait,0.15
@@ -316,9 +316,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,Everything inside this box is katashiro...<br>All the charms I have performed recently are here.<br> ,106201000G,vc_10620100003_013_01,chara_1
+message,ヒナギ,The contents of this box are all curse effigies... They contain all<br>the love charms I have recently accepted.<br> ,106201000G,vc_10620100003_013_01,chara_1
 
-message,<user>,That's a lot!?<br> 
+message,<user>,That's a lot!<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -329,7 +329,7 @@ asyncseplay,setag1_16,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒナギ,Thanks to everyone's interest，<br>business was booming!<br> ,106201000G,vc_10620100003_014_01,chara_1
+message,ヒナギ,Thanks to that，business has been booming.<br> ,106201000G,vc_10620100003_014_01,chara_1
 
 window,off
 wait,0.15
@@ -348,9 +348,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒナギ,So you believe you have been so busy because<br>everyone used the charms，Commander-sama?<br> ,106201000G,vc_10620100003_015_01,chara_1
+message,ヒナギ,Lord Commander，so you believe that your busy schedule is because<br>many people cast love charms on you?<br> ,106201000G,vc_10620100003_015_01,chara_1
 
-message,<user>,Yeah. Alicia pointed it out to me<br>and I realized that might be why.<br> 
+message,<user>,Yeah. Alicia pointed it out，and I realized that possibility.<br> 
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -370,7 +370,7 @@ asyncseplay,setag1_19,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒナギ,I thought it would be rude to check who<br>each person named，so I refrained... but let me look.<br> ,106201000G,vc_10620100003_017_01,chara_1
+message,ヒナギ,I thought it would be rude to verify who the clients' intended<br>partners were，so I was avoiding looking... but I will check.<br> ,106201000G,vc_10620100003_017_01,chara_1
 
 window,off
 wait,0.15
@@ -395,7 +395,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,...Oh my. It really does have<br>Commander-sama's name.<br> ,106201000G,vc_10620100003_018_01,chara_1
+message,ヒナギ,...Ah，indeed. It is your name，Lord Commander.<br> ,106201000G,vc_10620100003_018_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -406,7 +406,7 @@ asyncseplay,setag1_21,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ヒナギ,This one too. ...This one as well?<br> ,106201000G,vc_10620100003_019_01,chara_1
+message,ヒナギ,This one too... and this one?<br> ,106201000G,vc_10620100003_019_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -417,7 +417,7 @@ asyncseplay,setag1_22,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,ヒナギ,W-wait?<br>Th-this one too，and this one too!?<br> ,106201000G,vc_10620100003_020_01,chara_1
+message,ヒナギ,Wh-what? Th-this one is also you，Lord Commander? And this one?<br> ,106201000G,vc_10620100003_020_01,chara_1
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -426,9 +426,9 @@ asyncseplay,setag1_23,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ヒナギ,What!?<br>There are so many，and almost all say Commander-sama!?<br> ,106201000G,vc_10620100003_021_01,chara_1
+message,ヒナギ,What?! There are so many，and almost all of them have Lord<br>Commander's name?!<br> ,106201000G,vc_10620100003_021_01,chara_1
 
-message,<user>,Just as I thought...<br>No wonder I've been so busy.<br> 
+message,<user>,Just as I thought... No wonder I've been so busy.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -439,7 +439,7 @@ asyncseplay,setag1_24,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒナギ,I-I am so sorry!<br>I did not mean any harm!<br> ,106201000G,vc_10620100003_022_01,chara_1
+message,ヒナギ,I-I am sorry. I meant no harm.<br> ,106201000G,vc_10620100003_022_01,chara_1
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -448,11 +448,11 @@ asyncseplay,setag1_25,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒナギ,I only wanted to help everyone...<br> ,106201000G,vc_10620100003_023_01,chara_1
+message,ヒナギ,I only wanted to be of use to everyone...<br> ,106201000G,vc_10620100003_023_01,chara_1
 
-message,,Hinagi twiddled her fingers，<br>looking deeply apologetic.<br> 
+message,,Hinagi twirled her fingers，looking apologetic.<br> 
 
-message,<user>,I know that.<br>Just undo these charms，quickly.<br> 
+message,<user>,I know that. So just undo these charms now.<br> 
 
 message,<user>,...You can do that，right?<br> 
 
@@ -465,7 +465,7 @@ asyncseplay,setag1_26,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒナギ,Oh，yes. Of course I can.<br> ,106201000G,vc_10620100003_024_01,chara_1
+message,ヒナギ,Ah，yes. Of course.<br> ,106201000G,vc_10620100003_024_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -477,7 +477,7 @@ asyncseplay,setag1_27,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヒナギ,To undo a charm，I simply need to burn<br>the katashiro that were used in the ritual.<br> ,106201000G,vc_10620100003_025_01,chara_1
+message,ヒナギ,If you want to dispel the charm，you just need to burn the curse<br>effigy used in the ritual.<br> ,106201000G,vc_10620100003_025_01,chara_1
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -501,7 +501,7 @@ emodelete,chara_1,0,0
 fade,In,Black,1
 
 window,on,0.15
-message,,Hinagi swiftly prepared and burned<br>every last katashiro.<br> 
+message,,Hinagi deftly prepared to burn the curse effigies and incinerated<br>them all.<br> 
 
 window,off
 wait,0.15
@@ -536,9 +536,9 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,There. The charms' effects should be<br>gone now... I am truly sorry...<br> ,106201000G,vc_10620100003_026_01,chara_1
+message,ヒナギ,There. That should have dispelled the charm's effects... I'm so<br>sorry...<br> ,106201000G,vc_10620100003_026_01,chara_1
 
-message,<user>,Yeah.<br>...I should finally be able to get some rest.<br> 
+message,<user>,Ahh... Now I might actually get some rest.<br> 
 
 window,off
 wait,0.15
@@ -571,7 +571,7 @@ asyncseplay,setag1_29,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ヒナギ,(But why does every single person<br>have feelings for Commander-sama...?)<br> ,106201000G,vc_10620100003_028_01,chara_1
+message,ヒナギ,(But why does everyone adore the Commander so much...?)<br> ,106201000G,vc_10620100003_028_01,chara_1
 
 window,off
 wait,0.15
@@ -588,9 +588,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,Please don't do any more of these charms.<br> 
+message,<user>,Don't put any more charms like that on me，okay?<br> 
 
-message,<user>,I'm exhausted.<br>I'm going back to headquarters to sleep!<br> 
+message,<user>,I'm exhausted，so I'm heading back to HQ to sleep!<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -601,7 +601,7 @@ asyncseplay,setag1_30,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヒナギ,Oh!<br>P-please wait，Commander-sama.<br> ,106201000G,vc_10620100003_029_01,chara_1
+message,ヒナギ,Ah. P-please wait，Commander.<br> ,106201000G,vc_10620100003_029_01,chara_1
 
 message,<user>,Hm?<br> 
 
@@ -615,9 +615,9 @@ asyncseplay,setag1_31,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヒナギ,If it would not be too much trouble —<br>would you care for some sushi rolls?<br> ,106201000G,vc_10620100003_030_01,chara_1
+message,ヒナギ,If you wouldn't mind—would you care for some rolled sushi?<br> ,106201000G,vc_10620100003_030_01,chara_1
 
-message,<user>,Sushi rolls — that's an eastern dish，right?<br> 
+message,<user>,Rolled sushi—that's an Eastern dish，right?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -628,7 +628,7 @@ asyncseplay,setag1_32,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ヒナギ,Yes! I made them myself using shrimp，<br>walnuts，egg，and black sesame.<br> ,106201000G,vc_10620100003_031_01,chara_1
+message,ヒナギ,Yes! I made it myself with shrimp，walnuts，egg，and black sesame.<br> ,106201000G,vc_10620100003_031_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -639,7 +639,7 @@ asyncseplay,setag1_33,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ヒナギ,They are 'medicinal sushi rolls' that balance yin<br>and yang ingredients，so they help with fatigue!<br> ,106201000G,vc_10620100003_032_01,chara_1
+message,ヒナギ,It's a ""medicinal rolled sushi"" that balances yin and yang<br>ingredients，so it's excellent for recovering from exhaustion.<br> ,106201000G,vc_10620100003_032_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -650,9 +650,9 @@ asyncseplay,setag1_34,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒナギ,It is the least I can do as an apology.<br>Please，have some.<br> ,106201000G,vc_10620100003_033_01,chara_1
+message,ヒナギ,It's the least I can do to apologize. Please，have some.<br> ,106201000G,vc_10620100003_033_01,chara_1
 
-message,<user>,Hmm.<br>Well，in that case，I'll try some.<br> 
+message,<user>,Hmm. Well，if that's the case，I'll try some.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -663,7 +663,7 @@ asyncseplay,setag1_35,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ヒナギ,...Wait，oh no!<br> ,106201000G,vc_10620100003_034_01,chara_1
+message,ヒナギ,...Wait，Aah!<br> ,106201000G,vc_10620100003_034_01,chara_1
 
 message,<user>,What's wrong?<br> 
 
@@ -676,9 +676,9 @@ asyncseplay,setag1_36,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ヒナギ,Oh no...<br>They are all misshapen，I cannot possibly serve——<br> ,106201000G,vc_10620100003_035_01,chara_1
+message,ヒナギ,No，no... It's a complete mess. I can't serve this to anyone—<br> ,106201000G,vc_10620100003_035_01,chara_1
 
-message,<user>,As long as they taste good，I don't mind<br>if they're a bit messy. It's all the same once you eat it.<br> 
+message,<user>,As long as it tastes good，I don't care if it's a bit messy. It all<br>goes down the same way.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -689,7 +689,7 @@ asyncseplay,setag1_37,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒナギ,Y-you are absolutely right!<br>Then，please have this...<br> ,106201000G,vc_10620100003_036_01,chara_1
+message,ヒナギ,R-right，of course! Then，please have this...<br> ,106201000G,vc_10620100003_036_01,chara_1
 
 window,off
 wait,0.15
@@ -703,7 +703,7 @@ asyncwait
 wait,1
 
 window,on,0.15
-message,<user>,...Oh? This is good!?<br> 
+message,<user>,...Oh? Hey，this is delicious!<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -716,7 +716,7 @@ asyncseplay,setag1_38,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヒナギ,Oh，I am so glad!<br> ,106201000G,vc_10620100003_037_01,chara_1
+message,ヒナギ,Ah，I am so glad!<br> ,106201000G,vc_10620100003_037_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -727,9 +727,9 @@ asyncseplay,setag1_39,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ヒナギ,...And I will also channel a little of my qi<br>into you to balance the flow within your body!<br> ,106201000G,vc_10620100003_038_01,chara_1
+message,ヒナギ,...Furthermore，I will send some of my ki into you，Lord Commander，and<br>regulate the flow of ki in your body.<br> ,106201000G,vc_10620100003_038_01,chara_1
 
-message,<user>,You can do that?<br>What do I need to do?<br> 
+message,<user>,You can do that? What should I do?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -737,7 +737,7 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,ヒナギ,You may keep eating. Just relax.<br>Now then，please pardon me.<br> ,106201000G,vc_10620100003_039_01,chara_1
+message,ヒナギ,You can just keep eating，so please relax. Then，if you will excuse<br>me.<br> ,106201000G,vc_10620100003_039_01,chara_1
 
 window,off
 wait,0.15
@@ -776,7 +776,7 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,Hinagi held her hand over %user%'s head<br>and gently closed her eyes.<br> 
+message,,Hinagi held her hand over the Commander's head and quietly closed<br>her eyes.<br> 
 
 window,off
 wait,0.15
@@ -802,7 +802,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,(...Huh?<br>This is Commander-sama's qi!?)<br> ,106201000G,vc_10620100003_040_01,chara_1
+message,ヒナギ,(...What? This is Lord Commander's ki!)<br> ,106201000G,vc_10620100003_040_01,chara_1
 
 window,off
 wait,0.15
@@ -819,7 +819,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,,Sensing the qi flowing through %user%'s body，<br>Hinagi could not hide her astonishment.<br> 
+message,,Feeling the ki flowing inside the Commander，Hinagi couldn't hide her<br>surprise.<br> 
 
 window,off
 wait,0.15
@@ -846,7 +846,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,(So warm... Such an immense volume，<br>and so tranquil...)<br> ,106201000G,vc_10620100003_041_01,chara_1
+message,ヒナギ,(It is so warm... so much of it，and so gentle...)<br> ,106201000G,vc_10620100003_041_01,chara_1
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -855,7 +855,7 @@ asyncseplay,setag1_42,se4800021,0,1,CONT,0
 asynccharaemo,chara_1,Imagination,CONT,0
 
 
-message,ヒナギ,(And yet，in a crisis，all of this would turn<br>ferocious — I can feel it，even without seeing it...)<br> ,106201000G,vc_10620100003_042_01,chara_1
+message,ヒナギ,(Ah，but I am sure，in a crisis，it would all turn into something<br>raging—I can feel that immediately，even without having seen it...)<br> ,106201000G,vc_10620100003_042_01,chara_1
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -864,7 +864,7 @@ asyncseplay,setag1_43,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ヒナギ,(Is this the qi flow that comes<br>with a hero's bloodline...?)<br> ,106201000G,vc_10620100003_043_01,chara_1
+message,ヒナギ,(Is this the ki flow that comes with the blood of a Hero...?)<br> ,106201000G,vc_10620100003_043_01,chara_1
 
 
 
@@ -903,7 +903,7 @@ wait,1
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,<user>,...Oh. The fatigue is fading from my body.<br> 
+message,<user>,...Whoa. The fatigue in my body is gone.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -914,11 +914,11 @@ asyncseplay,setag1_44,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヒナギ,Your qi flow has been balanced，<br>and the tension should have eased.<br> ,106201000G,vc_10620100003_044_01,chara_1
+message,ヒナギ,Your ki flow must have been regulated，releasing your tension.<br> ,106201000G,vc_10620100003_044_01,chara_1
 
-message,<user>,The charms were a headache，<br>but this really helped. Thanks.<br> 
+message,<user>,Those 'love charms' were rough on me，but you helped me out. Thanks.<br> 
 
-message,<user>,The medicinal sushi rolls were... well，they looked<br>rough，but they were delicious. Thanks for the meal.<br> 
+message,<user>,The 'medicinal rolled sushi' too—the shape was whatever，but it was<br>delicious. Thanks for the meal.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -929,7 +929,7 @@ asyncseplay,setag1_45,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヒナギ,Hehe. Nothing makes me happier<br>than seeing you pleased!<br> ,106201000G,vc_10620100003_045_01,chara_1
+message,ヒナギ,Fufu. I am so glad you liked it!<br> ,106201000G,vc_10620100003_045_01,chara_1
 
 window,off
 wait,0.15
@@ -956,7 +956,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,(But truly，how incredible... I only sent a small<br>amount of qi，yet his body is already overflowing with vitality.)<br> ,106201000G,vc_10620100003_046_01,chara_1
+message,ヒナギ,(But it is truly amazing... even though I only sent a little ki，Lord<br>Commander's body is already brimming with so much vitality.)<br> ,106201000G,vc_10620100003_046_01,chara_1
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -968,7 +968,7 @@ asyncseplay,setag1_47,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ヒナギ,(Surely，it is because he is this kind of person<br>that everyone is drawn to Commander-sama...)<br> ,106201000G,vc_10620100003_047_01,chara_1
+message,ヒナギ,(It must be because he is like this that everyone loves Lord<br>Commander—)<br> ,106201000G,vc_10620100003_047_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -979,7 +979,7 @@ asyncseplay,setag1_48,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,ヒナギ,(...? Wait a moment.<br>Everyone's affection — in other words，he is gathering qi?)<br> ,106201000G,vc_10620100003_048_01,chara_1
+message,ヒナギ,(...? Wait. Everyone's love for Lord Commander—could it be gathering<br>ki?)<br> ,106201000G,vc_10620100003_048_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -990,7 +990,7 @@ asyncseplay,setag1_49,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ヒナギ,(That warm flow I felt was not his alone —<br>it was everyone's qi flowing into him...?)<br> ,106201000G,vc_10620100003_049_01,chara_1
+message,ヒナギ,(The warm flow from earlier isn't just from the Lord<br>Commander—everyone's ki is flowing into it...?)<br> ,106201000G,vc_10620100003_049_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1001,7 +1001,7 @@ asyncseplay,setag1_50,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ヒナギ,(Could it be that this man himself is the very<br>'dragon's den' I have been searching for!?)<br> ,106201000G,vc_10620100003_050_01,chara_1
+message,ヒナギ,(Could it be... this person himself is the 'Dragon's Den' I've been<br>searching for!)<br> ,106201000G,vc_10620100003_050_01,chara_1
 
 window,off
 wait,0.15
@@ -1018,7 +1018,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,...?<br>What's wrong，Hinagi?<br> 
+message,<user>,...? What's wrong，Hinagi.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1027,7 +1027,7 @@ asyncseplay,setag1_51,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒナギ,Oh，huh?<br> ,106201000G,vc_10620100003_051_01,chara_1
+message,ヒナギ,Ah—what?<br> ,106201000G,vc_10620100003_051_01,chara_1
 
 message,<user>,Is there something on my face?<br> 
 
@@ -1040,7 +1040,7 @@ asyncseplay,setag1_52,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒナギ,N-no，that is not it——<br> ,106201000G,vc_10620100003_052_01,chara_1
+message,ヒナギ,N-no，it's not that—<br> ,106201000G,vc_10620100003_052_01,chara_1
 
 window,off
 wait,0.15
@@ -1066,7 +1066,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,(I want to confirm it...<br>the magnitude of this man's capacity...)<br> ,106201000G,vc_10620100003_053_01,chara_1
+message,ヒナギ,(I want to confirm... the size of his vessel...)<br> ,106201000G,vc_10620100003_053_01,chara_1
 
 window,off
 wait,0.15
@@ -1089,7 +1089,7 @@ asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,...Um，Commander-sama.<br>About the meal you invited me to the other day...<br> ,106201000G,vc_10620100003_054_01,chara_1
+message,ヒナギ,... Um，Lord Commander. About the meal you invited me to the other<br>day...<br> ,106201000G,vc_10620100003_054_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1100,7 +1100,7 @@ asyncseplay,setag1_54,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ヒナギ,I-if you have the time，<br>could we perhaps go today?<br> ,106201000G,vc_10620100003_055_01,chara_1
+message,ヒナギ,W-well，if you have time，would today be okay?<br> ,106201000G,vc_10620100003_055_01,chara_1
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -1109,9 +1109,9 @@ asyncseplay,setag1_55,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヒナギ,I would love to hear all sorts of things<br>about you，Commander-sama...<br> ,106201000G,vc_10620100003_056_01,chara_1
+message,ヒナギ,I want to hear all kinds of stories from you，Lord Commander...<br> ,106201000G,vc_10620100003_056_01,chara_1
 
-message,<user>,Hmm，well...<br>I want to rest until evening，but after that is fine.<br> 
+message,<user>,Hmm，let's see... I want to rest until evening，but if after that is<br>fine，I don't mind.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1122,9 +1122,9 @@ asyncseplay,setag1_56,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ヒナギ,Yes! I would love that!<br> ,106201000G,vc_10620100003_057_01,chara_1
+message,ヒナギ,Yes! I'd love to!<br> ,106201000G,vc_10620100003_057_01,chara_1
 
-message,<user>,...So even after undoing the charms，<br>I still end up on a date. Not that I mind.<br> 
+message,<user>,...In the end，even after the 'love charm' is broken，I end up going<br>on a date. Well，I don't feel bad about it.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1135,9 +1135,9 @@ asyncseplay,setag1_57,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ヒナギ,W-wait，a d-date?<br> ,106201000G,vc_10620100003_058_01,chara_1
+message,ヒナギ,Eh，d-date?<br> ,106201000G,vc_10620100003_058_01,chara_1
 
-message,<user>,A man and a woman，having dinner together.<br>That's a date，isn't it?<br> 
+message,<user>,A man and a woman eating together. That's a date，right?<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1183,7 +1183,7 @@ asyncseplay,setag1_60,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ヒナギ,(Wha!? My qi flow is in disarray...?<br>Is this what they call... love!?)<br> ,106201000G,vc_10620100003_061_01,chara_1
+message,ヒナギ,(Hah! My ki channels are disturbed... Is this what love is?)<br> ,106201000G,vc_10620100003_061_01,chara_1
 
 window,off
 wait,0.15
@@ -1200,7 +1200,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,I'll come to your room when evening comes.<br>Looking forward to it.<br> 
+message,<user>,I'll come to your room to pick you up when it gets dark. See you.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1209,7 +1209,7 @@ asyncseplay,setag1_61,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒナギ,Y-yesh!<br>I-I look forward to it as well...!<br> ,106201000G,vc_10620100003_062_01,chara_1
+message,ヒナギ,Y-yes! I look forward to it...!<br> ,106201000G,vc_10620100003_062_01,chara_1
 
 bgmstop,bgmtag1_3,1.5,0
 
@@ -1234,7 +1234,7 @@ emodelete,chara_1,0,0
 fade,In,Black,1
 
 window,on,0.15
-message,,After that，Hinagi sat in formal seiza position<br>in her room，waiting until %user% arrived.<br> 
+message,,After that，Hinagi waited in her dormitory room，kneeling<br>formally，until %user% arrived.<br> 
 
 window,off
 wait,0.15
@@ -1280,7 +1280,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒナギ,(They do say heroes have an eye for beauty，but...<br>no，surely on a first date，he would not just...)<br> ,106201000G,vc_10620100003_063_01,chara_1
+message,ヒナギ,(They say heroes are fond of pleasure... but no，surely not so<br>suddenly on a first date...)<br> ,106201000G,vc_10620100003_063_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1291,7 +1291,7 @@ asyncseplay,setag1_63,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒナギ,(B-but then again，what if...?)<br> ,106201000G,vc_10620100003_064_01,chara_1
+message,ヒナギ,(B-but... what if...?)<br> ,106201000G,vc_10620100003_064_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1302,7 +1302,7 @@ asyncseplay,setag1_64,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ヒナギ,(Uuu~，if I knew this would happen，I should have<br>swallowed my pride and asked Mother more about this~!!)<br> ,106201000G,vc_10620100003_065_01,chara_1
+message,ヒナギ,(Ugh，if I had known it would come to this，I should have asked Mother<br>for more details without being so shy!)<br> ,106201000G,vc_10620100003_065_01,chara_1
 
 window,off
 wait,0.15
@@ -1330,7 +1330,7 @@ wait,1
 fade,In,Black,1
 
 window,on,0.15
-message,,However，an uneventful evening finally came to an end. Freed from<br>tension，Hinagi collapsed in her room and slept soundly until morning.<br> 
+message,,However，none of her expectations came true; the day ended<br>wholesomely，and she collapsed in her room，sleeping soundly until morning.<br> 
 
 window,off
 bgmstop,bgmtag1_4,0.5

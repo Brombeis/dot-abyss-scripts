@@ -61,7 +61,7 @@ wait,0.5
 window,on,0.15
 message,ニナ,...!<br> ,106101000G,vc_10610100003_001_01,chara_1
 
-message,,The anguished cry faded. Nina's eyes，now sharp as blades，<br>turned toward the goblin horde.<br> 
+message,,After a pained cry，Nina turned her sharp gaze toward the goblins.<br> 
 
 window,off
 wait,0.15
@@ -105,7 +105,7 @@ asynccharaemo,chara_1,Anger,CONT,0
 
 
 window,on,0.15
-message,ニナ,You... will... PAY for this——!!!<br> ,106101000G,vc_10610100003_002_01,chara_1
+message,ニナ,You wretches!<br> ,106101000G,vc_10610100003_002_01,chara_1
 
 window,off
 wait,0.15
@@ -121,7 +121,7 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,,Blood rushing to her head，Nina broke into a sprint.<br>It was raw fury driving her feet.<br> 
+message,,With blood rushing to her head，Nina dashed forward. It was a furious<br>sprint driven by anger.<br> 
 
 window,off
 wait,0.15
@@ -220,7 +220,7 @@ linework,on,White,Strong
 
 
 window,on,0.15
-message,ニナ,RAAAAAHHH——!!!<br> ,106101000G,vc_10610100003_003_01,chara_1
+message,ニナ,Uwaaaaah!<br> ,106101000G,vc_10610100003_003_01,chara_1
 
 window,off
 wait,0.15
@@ -371,7 +371,7 @@ asynccharaemo,chara_4,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ゴブリン,GYABOO!?<br> ,402001000,,chara_2/chara_3/chara_4
+message,ゴブリン,Gyabuu!<br> ,402001000,,chara_2/chara_3/chara_4
 
 window,off
 wait,0.15
@@ -411,7 +411,7 @@ shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 shake,CHARA,chara_6,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,,She hammered goblins down with both gauntleted fists<br>and swept them aside with sweeping roundhouse kicks.<br> 
+message,,She struck with her gauntlets and mowed down the goblins with a<br>graceful spinning kick.<br> 
 
 window,off
 wait,0.15
@@ -460,7 +460,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ニナ,(A mage，hidden among the goblins — I never saw it!)<br> ,106101000G,vc_10610100003_004_01,chara_1
+message,ニナ,(To think a mage was hiding among the goblins!)<br> ,106101000G,vc_10610100003_004_01,chara_1
 
 window,off
 wait,0.15
@@ -482,7 +482,7 @@ asynccharaface,chara_1,FaceAnger,CONT,0
 
 
 window,on,0.15
-message,ニナ,You COWARD——!!!<br> ,106101000G,vc_10610100003_005_01,chara_1
+message,ニナ,You coward!<br> ,106101000G,vc_10610100003_005_01,chara_1
 
 window,off
 wait,0.15
@@ -603,7 +603,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,,Even as she raged and screamed，Nina was turning inward.<br> 
+message,,Despite cursing and shouting，Nina was reflecting on herself.<br> 
 
 window,off
 wait,0.15
@@ -632,7 +632,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ニナ,(The true coward here is... me.)<br> ,106101000G,vc_10610100003_006_01,chara_1
+message,ニナ,(I'm the truly cowardly one...!)<br> ,106101000G,vc_10610100003_006_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -643,7 +643,7 @@ asyncseplay,setag1_25,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ニナ,(Letting rage carry me so I don't have to face the fact that I<br>failed to protect Master — that makes me the worst coward of all. How shameful. How foolish.)<br> ,106101000G,vc_10610100003_007_01,chara_1
+message,ニナ,(By losing myself in rage to avoid facing my failure to protect<br>Master，I'm the worst coward... how disgraceful and foolish!)<br> ,106101000G,vc_10610100003_007_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -654,7 +654,7 @@ asyncseplay,setag1_26,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ニナ,(No amount of regret will undo it... but I am on this battlefield，<br>and there is still something I must do!)<br> ,106101000G,vc_10610100003_008_01,chara_1
+message,ニナ,(I can never regret this enough... but—now that I'm on the front<br>lines，there's something I must do!)<br> ,106101000G,vc_10610100003_008_01,chara_1
 
 window,off
 wait,0.15
@@ -702,7 +702,7 @@ asyncseplay,setag1_27,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 window,on,0.15
-message,,Nina cut through goblin after goblin，her eyes sweeping the<br>battlefield.<br> 
+message,,While defeating goblins on the battlefield，Nina scanned her<br>surroundings.<br> 
 
 window,off
 wait,0.15
@@ -755,7 +755,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ニナ,(The mage has to be somewhere! Moving to escape me——!)<br> ,106101000G,vc_10610100003_009_01,chara_1
+message,ニナ,(The mage must be somewhere，trying to escape from me!)<br> ,106101000G,vc_10610100003_009_01,chara_1
 
 window,off
 wait,0.15
@@ -801,7 +801,7 @@ asyncseplay,setag1_29,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 window,on,0.15
-message,,And then she saw it.<br>A robed mage，trying to run.<br> 
+message,,And then，Nina found the mage. A robed mage was trying to flee.<br> 
 
 window,off
 wait,0.15
@@ -845,7 +845,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ニナ,MAGE——!!!<br> ,106101000G,vc_10610100003_010_01,chara_1
+message,ニナ,Mage!<br> ,106101000G,vc_10610100003_010_01,chara_1
 
 window,off
 wait,0.15
@@ -886,9 +886,9 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,魔術師,Hkkk——!<br> ,402001000,,chara_2
+message,魔術師,Hic...!<br> ,402001000,,chara_2
 
-message,,The terrified mage began to chant.<br> 
+message,,The intimidated mage began to chant a spell.<br> 
 
 window,off
 wait,0.15
@@ -939,7 +939,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ニナ,(Here it comes! The same magic arrow that struck Master!)<br> ,106101000G,vc_10610100003_011_01,chara_1
+message,ニナ,(It's coming—the Magic Arrow that shot Master!)<br> ,106101000G,vc_10610100003_011_01,chara_1
 
 window,off
 wait,0.15
@@ -1091,7 +1091,7 @@ wait,0.5
 asynccharaface,chara_1,FaceAnger,CONT,0
 
 window,on,0.15
-message,,One，two，three magic arrows flew.<br>Nina evaded every shaft of light and closed the distance.<br> 
+message,,One，two，three Magic Arrows were fired. Nina dodged all the incoming<br>arrows of light and closed in on the mage.<br> 
 
 linework,on,White,Middle
 
@@ -1102,7 +1102,7 @@ asyncseplay,setag1_39,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ニナ,HAAAH——!!!<br> ,106101000G,vc_10610100003_012_01,chara_1
+message,ニナ,*pant*!<br> ,106101000G,vc_10610100003_012_01,chara_1
 
 window,off
 wait,0.15
@@ -1179,7 +1179,7 @@ asynccharamove,chara_2,EaseOut,Y,-100,0.25,CONT,0
 emodelete,chara_2,0,0
 
 window,on,0.15
-message,魔術師,BWGAAAH!?<br> ,402001000
+message,魔術師,Bwaaaaaah!<br> ,402001000
 
 window,off
 wait,0.15
@@ -1187,7 +1187,7 @@ wait,0.15
 charafocusonall
 
 window,on,0.15
-message,,Nina's rage-driven right cross sank into the mage's face.<br>The mage flew back，rolled across the ground，and did not move again.<br> 
+message,,Nina's rage-filled right straight buried itself in the mage's<br>face，sending him flying and rolling across the ground before he lay still.<br> 
 
 window,off
 wait,0.15
@@ -1262,7 +1262,7 @@ asynccharaemo,chara_4,Sweat,CONT,0
 
 
 window,on,0.15
-message,ゴブリン,Gi... giiii...<br> ,402001000,,chara_2/chara_3/chara_4
+message,ゴブリン,Eek，eeeeek...<br> ,402001000,,chara_2/chara_3/chara_4
 
 window,off
 wait,0.15
@@ -1293,7 +1293,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,兵士Ｃ,The goblins are wavering after that hit!<br>Now's our chance — push them back——!!!<br> ,401301000,vc_10610100003_013_01,
+message,兵士Ｃ,The goblins flinched from that attack! This is our chance! Push them<br>back!<br> ,401301000,vc_10610100003_013_01,
 
 window,off
 wait,0.15
@@ -1303,7 +1303,7 @@ charafocusonall
 asyncseplay,setag1_44,SE_DUMMY,0,1,CONT,0
 
 window,on,0.15
-message,,Nina's strike was the turning point. The goblins were on the back<br>foot from that moment，and it was not long before they retreated.<br> 
+message,,With Nina's attack as the turning point，the goblins were at a<br>disadvantage. It didn't take long before they began to retreat.<br> 
 
 
 bgmstop,bgmtag1_1,1.5,0
@@ -1336,7 +1336,7 @@ charashowalpha,chara_1,1,0
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,,Nina remained on the front line until most of the goblins had<br>retreated. Fallen goblins lay scattered all around her.<br> 
+message,,Nina remained at the front line until most of the goblins had<br>retreated. Many goblins lay fallen around her.<br> 
 
 bgmplay,bgmtag1_2,bgm0030,0.75,1
 
@@ -1349,9 +1349,9 @@ asyncseplay,setag1_45,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ニナ,Hah... hah... hah...... We won.<br> ,106101000G,vc_10610100003_014_01,chara_1
+message,ニナ,*pant*，*pant*，*pant*... We won，didn't we?<br> ,106101000G,vc_10610100003_014_01,chara_1
 
-message,,Composure returned to her，little by little.<br>And then she remembered.<br> 
+message,,She gradually regained her composure. And then，she realized.<br> 
 
 window,off
 wait,0.15
@@ -1393,7 +1393,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ニナ,...Th-that's right!<br>M-Master——!?<br> ,106101000G,vc_10610100003_015_01,chara_1
+message,ニナ,Th-that's right! M-Master!?<br> ,106101000G,vc_10610100003_015_01,chara_1
 
 window,off
 wait,0.15
@@ -1409,7 +1409,7 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,,Nina rushed back to where %user% had fallen.<br> 
+message,,Nina hurried back to where %user% had fallen.<br> 
 
 window,off
 wait,0.15
@@ -1445,7 +1445,7 @@ asynccharaemo,chara_5,Panic,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,...Commander，are you all right?<br> ,401001000,vc_10610100003_016_01,chara_5
+message,兵士Ａ,...Commander，are you okay?<br> ,401001000,vc_10610100003_016_01,chara_5
 
 asynccharaface,chara_6,FaceSurprise,CONT,0
 
@@ -1456,9 +1456,9 @@ asyncseplay,setag1_48,se4800008,0,1,CONT,0
 asynccharaemo,chara_6,Sweat,CONT,0
 
 
-message,兵士Ｂ,I-is he... dead...?<br> ,400901000,,chara_6
+message,兵士Ｂ,He's... d-dead...?<br> ,400901000,,chara_6
 
-message,ニナ,Let me through!<br>Please，let me——<br> ,106101000G,vc_10610100003_017_01,
+message,ニナ,Let me through! Please，let me through...<br> ,106101000G,vc_10610100003_017_01,
 
 window,off
 wait,0.15
@@ -1495,7 +1495,7 @@ transitionCrossFade,Tra21,0.5
 wait,0.5
 
 window,on,0.15
-message,,She pushed through the soldiers standing at a distance<br>and at last reached %user%，still lying on the ground.<br> 
+message,,Pushing past the soldiers who were watching from a distance，Nina<br>finally rushed up to %user%，who lay collapsed.<br> 
 
 window,off
 wait,0.15
@@ -1516,7 +1516,7 @@ wait,0.5
 window,on,0.15
 message,ニナ,Master...<br> ,106101000G,vc_10610100003_018_01,chara_1
 
-message,,The sight of %user% lying limp before her<br>brought the self-reproach crashing back.<br> 
+message,,Seeing %user%'s limp form，strong self-reproach welled up in Nina<br>again.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1527,9 +1527,9 @@ asyncseplay,setag1_50,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ニナ,I am so sorry，Master......<br>Because you shielded me... y-your injury，how bad is it——?<br> ,106101000G,vc_10610100003_019_01,chara_1
+message,ニナ,I'm so sorry，Master... Because you shielded me... H-how is your<br>injury...?<br> ,106101000G,vc_10610100003_019_01,chara_1
 
-message,,She searched for where the magic arrow had struck，murmuring as she<br>did.<br> 
+message,,Nina murmured while searching for the spot where the Magic Arrow had<br>struck.<br> 
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1541,7 +1541,7 @@ asyncseplay,setag1_51,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ニナ,If there is any means to save you，<br>I will employ every one of them......<br> ,106101000G,vc_10610100003_020_01,chara_1
+message,ニナ,If there is a way to save you，I will use any means necessary to<br>rescue you，Master...<br> ,106101000G,vc_10610100003_020_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1552,7 +1552,7 @@ asyncseplay,setag1_52,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ニナ,And if any lasting harm keeps you from living as you once did，<br>I will serve at your side for the rest of my life in penance......<br> ,106101000G,vc_10610100003_021_01,chara_1
+message,ニナ,If you cannot live a normal life due to aftereffects，I will stay by<br>your side forever and atone for it...<br> ,106101000G,vc_10610100003_021_01,chara_1
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1560,9 +1560,9 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncshake,CHARA,chara_1,20,15,0.5,6,on,off,0,off,CONT,0
 
 
-message,ニナ,So please，Master... just your life，at least——!<br>Please... please be breathing——!!<br> ,106101000G,vc_10610100003_022_01,chara_1
+message,ニナ,Master，please... at least hold on to life...!<br>Please，keep breathing...!<br> ,106101000G,vc_10610100003_022_01,chara_1
 
-message,,Nina kept searching for the wound.<br>But——<br> 
+message,,Nina kept searching the spot where the Magic Arrow had struck.<br>However—<br> 
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -1583,13 +1583,13 @@ wait,0.5
 
 
 window,on,0.15
-message,ニナ,...?<br>Where is the wound...?<br> ,106101000G,vc_10610100003_023_01,chara_1
+message,ニナ,...?<br>Where's the wound...?<br> ,106101000G,vc_10610100003_023_01,chara_1
 
-message,<user>,...Give me a moment，Nina.<br>I'm getting up.<br> 
+message,<user>,...Wait，Nina.<br>I'm getting up now.<br> 
 
 bgmplay,bgmtag1_3,bgm0025,0.75,1
 
-message,,%user% coughed once and pushed himself upright.<br> 
+message,,%user% coughed lightly and sat up.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1600,11 +1600,11 @@ asyncseplay,setag1_54,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ニナ,Eh? ...Eh?<br>How... how is this...?<br> ,106101000G,vc_10610100003_024_01,chara_1
+message,ニナ,Huh? Huh?<br>What's going on...?<br> ,106101000G,vc_10610100003_024_01,chara_1
 
-message,<user>,Relax. Fortunate placement，it seems...<br>Here — where the arrow hit. Does this spot remind you of anything?<br> 
+message,<user>,Don't worry. Looks like it hit a good spot... See，this place where<br>the Magic Arrow struck... Doesn't it remind you of something?<br> 
 
-message,,She looked closely and there — barely visible — a faint shimmer of<br>thread.<br> 
+message,,When he looked closely，he could see a faint glimmer of thread.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1615,9 +1615,9 @@ asyncseplay,setag1_55,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ニナ,Ah——! That is where I made the repair，with the magic thread——!!!<br> ,106101000G,vc_10610100003_025_01,chara_1
+message,ニナ,Ah! That's the spot where I repaired it with magic thread...!<br> ,106101000G,vc_10610100003_025_01,chara_1
 
-message,<user>,That's right. Between the thread's strength and your careful work，<br>you saved my life.<br> 
+message,<user>,That's right. Thanks to the sturdy material and your careful work.<br>I was lucky to survive.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1628,7 +1628,7 @@ asyncseplay,setag1_56,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ニナ,......<br> ,106101000G,vc_10610100003_026_01,chara_1
+message,ニナ,...<br> ,106101000G,vc_10610100003_026_01,chara_1
 
 message,<user>,Nina?<br> 
 
@@ -1641,7 +1641,7 @@ asyncseplay,setag1_57,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ニナ,I am so relieved... that Master is safe......<br> ,106101000G,vc_10610100003_027_01,chara_1
+message,ニナ,Master，I am truly glad that you are safe...<br> ,106101000G,vc_10610100003_027_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1652,7 +1652,7 @@ asyncseplay,setag1_58,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ニナ,But I am sorry...... Protecting Master was my duty，<br>and I failed in that......<br> ,106101000G,vc_10610100003_028_01,chara_1
+message,ニナ,But I apologize，Master... It was my duty to protect you...<br> ,106101000G,vc_10610100003_028_01,chara_1
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -1661,7 +1661,7 @@ asyncseplay,setag1_59,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ニナ,To be the one protected by Master，of all things——<br>I have failed as a maid......<br> ,106101000G,vc_10610100003_029_01,chara_1
+message,ニナ,Instead，I was the one protected by you...<br>I am a failure as a maid...<br> ,106101000G,vc_10610100003_029_01,chara_1
 
 asyncshake,CHARA,chara_1,20,15,0.5,6,on,off,0,off,CONT,0
 
@@ -1670,18 +1670,18 @@ asyncseplay,setag1_60,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ニナ,I am sorry...<br>Truly...... I am so sorry......<br> ,106101000G,vc_10610100003_030_01,chara_1
+message,ニナ,I am so sorry...<br>Truly... I am so sorry...<br> ,106101000G,vc_10610100003_030_01,chara_1
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
-message,,Eyes welling with tears，Nina repeated her apologies<br>to %user% in a small voice.<br> 
+message,,Nina's eyes welled up with tears，and she repeated her apologies to<br>%user% in a small voice.<br> 
 
-message,<user>,There's nothing to apologize for.<br>You did save my life，Nina.<br> 
+message,<user>,There's no need to apologize.<br>You saved my life，didn't you?<br> 
 
-message,,%user% tapped his chest twice.<br> 
+message,,%user% tapped his chest while pointing at it.<br> 
 
 window,off
 wait,0.15
@@ -1700,11 +1700,11 @@ wait,0.5
 
 
 window,on,0.15
-message,ニナ,You forgive me...?<br> ,106101000G,vc_10610100003_031_01,chara_1
+message,ニナ,Will you forgive me...?<br> ,106101000G,vc_10610100003_031_01,chara_1
 
-message,<user>,Of course.<br>And besides — you were right in the end.<br> 
+message,<user>,Of course. Besides，in the end，you were right.<br> 
 
-message,<user>,I heard the soldiers talking. It sounds like you were the one who<br>turned the battle around out there.<br> 
+message,<user>,I heard the soldiers talking. It seems you went to the front lines<br>and turned the tide of battle.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1715,9 +1715,9 @@ asyncseplay,setag1_62,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ニナ,I only — when I believed Master had been gravely hurt，I acted<br>without thinking——<br> ,106101000G,vc_10610100003_032_01,chara_1
+message,ニナ,That was because I thought you were injured，Master，and I was beside<br>myself...<br> ,106101000G,vc_10610100003_032_01,chara_1
 
-message,<user>,Ha! Is that so.<br>Maybe getting knocked down on the battlefield isn't all bad.<br> 
+message,<user>,Ahaha，I see. It's not bad to collapse on the battlefield once in a<br>while.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1728,9 +1728,9 @@ asyncseplay,setag1_63,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,ニナ,M-Master!?<br> ,106101000G,vc_10610100003_033_01,chara_1
+message,ニナ,M-Master!<br> ,106101000G,vc_10610100003_033_01,chara_1
 
-message,<user>,...Sorry. That was meant as a joke，but the timing was poor.<br>Forgive me.<br> 
+message,<user>,...Sorry. I meant it as a joke，but that was in bad taste. Forgive<br>me.<br> 
 
 window,off
 wait,0.15
@@ -1756,7 +1756,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ニナ,(...!<br>Master... he made that joke to change my mood...?)<br> ,106101000G,vc_10610100003_034_01,chara_1
+message,ニナ,(...! Master... is he joking to lighten my mood...?)<br> ,106101000G,vc_10610100003_034_01,chara_1
 
 window,off
 wait,0.15
@@ -1773,9 +1773,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,Nina — if you would be willing — I'd like you to forget<br>about the one month and stay here at the forward base.<br> 
+message,<user>,Nina，if you're willing，instead of just one month，would you stay at<br>the Frontline Base permanently?<br> 
 
-message,<user>,And work as my maid.<br> 
+message,<user>,And I'd like you to work as my maid.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1786,7 +1786,7 @@ asyncseplay,setag1_65,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ニナ,...!!<br> ,106101000G,vc_10610100003_035_01,chara_1
+message,ニナ,...!<br> ,106101000G,vc_10610100003_035_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1808,9 +1808,9 @@ asyncseplay,setag1_67,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ニナ,I will contact the Perdion Maid Association the moment we return.<br>After that，I am Master's exclusive maid!<br> ,106101000G,vc_10610100003_037_01,chara_1
+message,ニナ,I'll contact the Perdion Maid Association as soon as we return. Then<br>I'll be your personal maid，Master!<br> ,106101000G,vc_10610100003_037_01,chara_1
 
-message,<user>,Good.<br>Then I won't have a thing to worry about.<br> 
+message,<user>,I see. With that，I won't have to worry about anything around me.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1821,7 +1821,7 @@ asyncseplay,setag1_68,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ニナ,Ah，but Master's clothes have torn again......<br>From when you fell during the fighting，I imagine.<br> ,106101000G,vc_10610100003_038_01,chara_1
+message,ニナ,Ah，but Master，your clothes are torn again... Perhaps from when you<br>fell in the earlier battle?<br> ,106101000G,vc_10610100003_038_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1832,9 +1832,9 @@ asyncseplay,setag1_69,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ニナ,We should return promptly so I may repair it.<br>I would like my Master to always be presentable.<br> ,106101000G,vc_10610100003_039_01,chara_1
+message,ニナ,I need to get back quickly and repair them. I want my Master to<br>always look wonderful.<br> ,106101000G,vc_10610100003_039_01,chara_1
 
-message,<user>,I appreciate that，but could we also arrange a meal when we get back?<br> 
+message,<user>,I appreciate that，but when we get back，could you make us a meal?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1845,9 +1845,9 @@ asyncseplay,setag1_70,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ニナ,As you wish. For the menu — a dish from my home region of Perdion.<br>How does mushroom stew sound?<br> ,106101000G,vc_10610100003_040_01,chara_1
+message,ニナ,Certainly. For the menu，how about Perdion local cuisine... Mushroom<br>Stew?<br> ,106101000G,vc_10610100003_040_01,chara_1
 
-message,<user>,That sounds wonderful. Please.<br> 
+message,<user>,Sounds delicious. Go with that!<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -1867,9 +1867,9 @@ asyncseplay,setag1_72,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ニナ,If there is ever anything else you wish to eat，<br>please say so. Whatever it may be，I will prepare it.<br> ,106101000G,vc_10610100003_042_01,chara_1
+message,ニナ,If there is anything you would like to eat，please let me<br>know，Master. I will prepare anything you desire.<br> ,106101000G,vc_10610100003_042_01,chara_1
 
-message,<user>,R-right. Understood...<br> 
+message,<user>,R-right. Got it...<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1880,7 +1880,7 @@ asyncseplay,setag1_73,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ニナ,I will also protect Master from any who seek your life.<br> ,106101000G,vc_10610100003_043_01,chara_1
+message,ニナ,Furthermore，I will protect you from anyone who would seek your<br>life，Master.<br> ,106101000G,vc_10610100003_043_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1891,9 +1891,9 @@ asyncseplay,setag1_74,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ニナ,...I intend to serve in a manner that earns my place at your side.<br> ,106101000G,vc_10610100003_044_01,chara_1
+message,ニナ,I will do my best so that you will always let me stay by your<br>side，Master.<br> ,106101000G,vc_10610100003_044_01,chara_1
 
-message,<user>,Thoroughly taken care of.<br>Well，let's head back to the office.<br> 
+message,<user>,You really do think of everything，don't you? Let's head back to the<br>command room for now.<br> 
 
 window,off
 wait,0.15
@@ -1913,7 +1913,7 @@ charaface,chara_1,FaceUnique01
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,,——On the way back，<br>Nina addressed %user% with uncharacteristic hesitation.<br> 
+message,,—On their way back，Nina timidly spoke to %user%.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1924,7 +1924,7 @@ asyncseplay,setag1_75,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ニナ,Um，Master......<br>I hope this is not too presumptuous of me to ask，but......<br> ,106101000G,vc_10610100003_045_01,chara_1
+message,ニナ,Um，Master... I'm terribly sorry to be so presumptuous，but...<br> ,106101000G,vc_10610100003_045_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1935,11 +1935,11 @@ asyncseplay,setag1_76,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ニナ,When my work meets with your approval... on occasion... that<br>is...... might you... pat my head...?<br> ,106101000G,vc_10610100003_046_01,chara_1
+message,ニナ,When I have done my work well... occasionally... well... would it be<br>all right if you... patted my head...?<br> ,106101000G,vc_10610100003_046_01,chara_1
 
-message,<user>,Your head...?<br>Well，that's a small enough thing to ask.<br> 
+message,<user>,Pat your head...? Well，that's easy enough.<br> 
 
-message,,As he said it，%user% reached over and ruffled her hair.<br> 
+message,,As he said this，%user% patted Nina's head all over.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1950,9 +1950,9 @@ asyncseplay,setag1_77,se4800002,0,1,CONT,0
 asynccharaemo,chara_1,Heart,CONT,0
 
 
-message,ニナ,......♡<br> ,106101000G,vc_10610100003_047_01,chara_1
+message,ニナ,...!♡<br> ,106101000G,vc_10610100003_047_01,chara_1
 
-message,,Nina's expression broke open. It was the first genuine，unguarded<br>smile she had shown since coming to the forward base.<br> 
+message,,Nina's face broke into a smile. It was the first innocent smile she<br>had shown since being dispatched to the Frontline Base.<br> 
 
 window,off
 wait,0.15
@@ -1967,7 +1967,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(Well...<br>So she can make a face like that.)<br> 
+message,<user>,(Huh... so she can make such a cute expression...)<br> 
 
 window,off
 wait,0.15
@@ -1991,7 +1991,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ニナ,Now then，shall we go，Master?<br>All that exertion has left me rather hungry as well!<br> ,106101000G,vc_10610100003_048_01,chara_1
+message,ニナ,Now then，let's be on our way，Master. It must be from all that<br>exercise earlier，but I'm getting hungry now too!<br> ,106101000G,vc_10610100003_048_01,chara_1
 
 window,off
 bgmstop,bgmtag1_3,0.5

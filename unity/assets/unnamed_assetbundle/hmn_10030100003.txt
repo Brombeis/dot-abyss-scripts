@@ -479,7 +479,7 @@ asynccharaemo,chara_4,Panic,CONT,0
 
 
 window,on,0.15
-message,住民A,きゃああ！　モ、モンスターよ！　,400101000,vc_10030100003_010_01,chara_4
+message,住民A,Kyaaa! A monster!<br> ,400101000,vc_10030100003_010_01,chara_4
 
 window,off
 wait,0.15
@@ -496,7 +496,7 @@ asynccharaemo,chara_4,Panic,CONT,0
 
 
 window,on,0.15
-message,住民A,逃げてえっ！,400101000,vc_10030100003_011_01,chara_4
+message,住民A,Run away!<br> ,400101000,vc_10030100003_011_01,chara_4
 
 window,off
 wait,0.15
@@ -570,7 +570,7 @@ asyncshake,CHARA,chara_5,24,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_6,24,0,0.6,5,off,off,0,on,CONT,0
 
 window,on,0.15
-message,,モンスターが巨体を動かすと、みるみるオークション会場が崩れていく。<br>参加者や見物客たちは一目散に逃げだす。
+message,,As the monster shifted its massive frame，the auction hall collapsed<br>rapidly. Participants and onlookers fled in all directions.<br> 
 
 window,off
 wait,0.15
@@ -607,7 +607,7 @@ transitionCrossFade,Tra01,0.5
 wait,0.5
 
 window,on,0.15
-message,<user>,チッ！　余計な面倒ごとを……<br>なんとかしてここで倒さないとな。
+message,<user>,Tch! Just what we needed... We've got to take it down here somehow.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -618,11 +618,11 @@ asyncseplay,setag1_17,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,マリナ,あの１００万ゴールド、さすがに強そうですねぇ。,100301000G,vc_10030100003_012_01,chara_1
+message,マリナ,That million-gold monster sure looks tough，doesn't it?<br> ,100301000G,vc_10030100003_012_01,chara_1
 
-message,<user>,モンスターを落札価格で呼ぶな。<br>しかし……確かに厄介だな。
+message,<user>,Don't call a monster by its winning bid. But... yeah，it's a pain.<br> 
 
-message,<user>,頼れるのはオークションを警備している、雇われ警備兵の連中と……<br>そしてマリナ、お前ぐらいだ。
+message,<user>,The only ones we can count on are those hired guards securing the<br>auction... and you，Marina.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -633,9 +633,9 @@ asyncseplay,setag1_18,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,マリナ,わたし、ですか？<br>あんな強そうなモンスター、いくらなんでも無理ですよぉ。,100301000G,vc_10030100003_013_01,chara_1
+message,マリナ,Me? A monster that looks that tough? There's no way，even for me!<br> ,100301000G,vc_10030100003_013_01,chara_1
 
-message,<user>,落札した武器やアイテムがあるだろう！<br>あれを使えば、充分な痛手が与えられるはずだ！
+message,<user>,You've got the weapons and items you just won! Use them and we can<br>deal some real damage!<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -646,9 +646,9 @@ asyncseplay,setag1_19,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,マリナ,ええっ！？　そんなもったいないことできません！<br>落札した代金は返ってくるんですか！？,100301000G,vc_10030100003_014_01,chara_1
+message,マリナ,Ehh! I can't be so wasteful! Am I getting my winning bid refunded!?<br> ,100301000G,vc_10030100003_014_01,chara_1
 
-message,<user>,言ってる場合か！？
+message,<user>,Is this really the time for that!?<br> 
 
 window,off
 wait,0.15
@@ -688,7 +688,7 @@ asynccharaemo,chara_5,Panic,CONT,0
 
 
 window,on,0.15
-message,オークション警備兵Ａ,逃げろーーー！！,401601000,vc_10030100003_015_01,chara_5
+message,オークション警備兵Ａ,Run away!<br> ,401601000,vc_10030100003_015_01,chara_5
 
 window,off
 wait,0.15
@@ -720,7 +720,7 @@ emodelete,chara_6,0,0
 asyncwait
 
 window,on,0.15
-message,主催者,あー！　どこへ行くお前ら！,900000001
+message,主催者,Hey! Where do you think you're going?<br> ,900000001
 
 window,off
 wait,0.15
@@ -751,7 +751,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,<user>,くそっ！　あの主催者、ろくな警備兵を雇っていないな……
+message,<user>,Damn! That organizer really hired lousy guards...<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -763,9 +763,9 @@ asyncseplay,setag1_22,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,マリナ,旦那さま、どうか少しだけ時間をください。<br>このマリナはかならず旦那さまの期待に応えますよぉ♪,100301000G,vc_10030100003_016_01,chara_1
+message,マリナ,Honey，please give me a little time. This Marina will surely live up<br>to your expectations!♪<br> ,100301000G,vc_10030100003_016_01,chara_1
 
-message,<user>,分かった！　俺は逃げた警備兵を集めてみる！
+message,<user>,Alright! I'll round up the fleeing guards!<br> 
 
 window,off
 wait,0.15
@@ -801,7 +801,7 @@ transitionCrossFade,Tra21,0.5
 wait,0.5
 
 window,on,0.15
-message,<user>,まずは……落札したばかりの『護りの石灯』を使うぞ。<br>それっ！
+message,<user>,First，I'll use that Shield Stone Lantern I just won. Here goes!<br> 
 
 window,off
 wait,0.15
@@ -863,9 +863,9 @@ asyncseplay,setag1_24,se4800017,0,1,CONT,0
 asynccharaemo,chara_6,Shock,CONT,0
 
 window,on,0.15
-message,,逃げ惑う警備兵たちの前に、光り輝く防壁が展開された。
+message,,A radiant barrier deployed before the scattering guards.<br> 
 
-message,<user>,お前ら、落ち着け！　ここは前線基地だ、<br>１体のモンスターなど敵ではない！
+message,<user>,You lot，get a grip! This is the Frontline Base! One monster is<br>nothing!<br> 
 
 asynccharaface,chara_5,FaceSurprise,CONT,0
 
@@ -883,7 +883,7 @@ asyncseplay,setag1_26,se4800014,0,1,CONT,0
 
 asynccharaemo,chara_6,Silence,CONT,0
 
-message,<user>,これより前線基地司令官の俺が指揮をとる！<br>武器を構えろ、一般人が避難する時間を稼ぐぞ！
+message,<user>,As Commander of this base，I'm taking command! Ready your weapons;<br>we'll buy time for the civilians to evacuate!<br> 
 
 window,off
 wait,0.15
@@ -910,7 +910,7 @@ wait,0.05
 
 
 window,on,0.15
-message,オークション警備兵Ａ,わ、分かりました……！,401601000,vc_10030100003_017_01,chara_5/chara_6
+message,オークション警備兵Ａ,U-understood...!<br> ,401601000,vc_10030100003_017_01,chara_5/chara_6
 
 
 window,off
@@ -937,7 +937,7 @@ emodelete,chara_6,0,0
 transitionFade,Tra07,in,black,1
 
 window,on,0.15
-message,主催者,と、とんでもないことになってしまった……。,900000001
+message,主催者,S-something terrible has happened...<br> ,900000001
 
 window,off
 wait,0.15
@@ -972,9 +972,9 @@ wait,0.5
 
 
 window,on,0.15
-message,マリナ,……さてさて、そこの主催者さん。<br>困ったことになりましたねぇ？,100301000G,vc_10030100003_018_01,chara_1
+message,マリナ,Well now，Mr. Organizer. We seem to have a problem，don't we?<br> ,100301000G,vc_10030100003_018_01,chara_1
 
-message,主催者,あ、ああ……？<br>あんたはさっきあれこれ買い漁ってた商人の……,900000001
+message,主催者,A-ah...? You're that merchant who was buying up everything<br>earlier...<br> ,900000001
 
 window,off
 wait,0.15
@@ -1006,7 +1006,7 @@ asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,STOP,4.9
 
 
 window,on,0.15
-message,マリナ,旦那さまの機転で、まだ怪我人はあなたの部下だけ。<br>ですがこのまま放っておけば街は大損害です。,100301000G,vc_10030100003_019_01,chara_1
+message,マリナ,Thanks to my Honey's quick thinking，only your men are hurt so far.<br>But if we don't act，the city will suffer massive damage.<br> ,100301000G,vc_10030100003_019_01,chara_1
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1018,9 +1018,9 @@ asyncseplay,setag1_30,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,マリナ,もしも死人でも出れば、賠償金はどれほどになるでしょう？<br>オーブを持ち込んだあなたの破産は避けられませんねえ……？,100301000G,vc_10030100003_020_01,chara_1
+message,マリナ,If someone dies，reparations will bankrupt you. Your orb—bankruptcy<br>would be unavoidable，wouldn't it?<br> ,100301000G,vc_10030100003_020_01,chara_1
 
-message,主催者,そんな……こんなことで終わりなんて……！,900000001
+message,主催者,No... it can't end like this...!<br> ,900000001
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1031,7 +1031,7 @@ asyncseplay,setag1_31,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,マリナ,そこでご相談です。わたしの提案を受け入れるのなら、<br>あのモンスターをなんとかしてみせましょう♪,100301000G,vc_10030100003_021_01,chara_1
+message,マリナ,So here's a proposal. If you accept my terms，I'll take care of that<br>monster for you.♪<br> ,100301000G,vc_10030100003_021_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1043,13 +1043,13 @@ asyncseplay,setag1_32,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,マリナ,契約書はこちらになります。<br>内容に納得いただけたら了承のサインを♪,100301000G,vc_10030100003_022_01,chara_1
+message,マリナ,Here's the contract. If the terms are agreeable，please sign.♪<br> ,100301000G,vc_10030100003_022_01,chara_1
 
-message,,走り書きのような短い文面の、しかし必要な要素のそろった契約書。<br>その内容を目にしたオークション主催者が青ざめる。
+message,,The contract was a brief，scrawled document，yet it contained all the<br>necessary clauses. The organizer's face paled as he read the terms.<br> 
 
-message,主催者,受け取った金貨の返却に、競売品の提供……だって！？,900000001
+message,主催者,Return the gold coins I've received and hand over the auction<br>items...!<br> ,900000001
 
-message,主催者,こんな無茶な契約をしろと！？<br>本当に倒せるという保証もないというのに！,900000001
+message,主催者,You expect me to agree to such a ridiculous deal! And there's no<br>guarantee you can actually beat that thing!<br> ,900000001
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1060,13 +1060,13 @@ asyncseplay,setag1_33,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,マリナ,そこはご信頼いただくしかありませんねぇ。<br>あなたという商人の目に、わたしはどう見えますか？,100301000G,vc_10030100003_023_01,chara_1
+message,マリナ,You'll simply have to trust me on that. What do your merchant's eyes<br>see when you look at me?<br> ,100301000G,vc_10030100003_023_01,chara_1
 
-message,主催者,く……うぅぅ……,900000001
+message,主催者,Kuh... ughh...<br> ,900000001
 
-message,,危機的状況にあって揺らぐことなく自信に満ちて立つマリナに、<br>主催者は苦渋の表情でペンを握った。
+message,,Amid the crisis，Marina stood firm，confident. The<br>organizer，bitter，picked up his pen.<br> 
 
-message,主催者,分かった、頼む……！,900000001
+message,主催者,Fine. I'm counting on you...!<br> ,900000001
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1078,7 +1078,7 @@ asyncseplay,setag1_34,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,マリナ,……あなたのご判断に敬意を。<br>この商人マリナ、必ずや契約を守ってみせましょう♪,100301000G,vc_10030100003_024_01,chara_1
+message,マリナ,I commend your decision. This merchant，Marina，will most certainly<br>uphold her end of the deal.♪<br> ,100301000G,vc_10030100003_024_01,chara_1
 
 
 window,off
@@ -1123,7 +1123,7 @@ asynccharaemo,chara_3,Anger,CONT,0
 
 
 window,on,0.15
-message,古代のモンスター,グォォォォォンッ！　ガアァァァァッ！！！,402001000,,chara_3
+message,古代のモンスター,GRROOOAAAR! GAAAHHH!<br> ,402001000,,chara_3
 
 window,off
 wait,0.15
@@ -1174,7 +1174,7 @@ charashowalpha,chara_3,1,0
 transitionFade,Tra17,in,white,1
 
 window,on,0.15
-message,,苛立ったモンスターの打撃で、展開された光の壁はきしみ、<br>明滅しながら崩壊してしまった。
+message,,With an irritated strike from the monster，the deployed barrier of<br>light groaned，flickered，and collapsed.<br> 
 
 window,off
 wait,0.15
@@ -1224,7 +1224,7 @@ asynccharaemo,chara_6,Panic,CONT,0
 
 
 window,on,0.15
-message,オークション警備兵Ｂ,う、うわぁぁーーー！！,401501000,,chara_6
+message,オークション警備兵Ｂ,U，waaaaaah!<br> ,401501000,,chara_6
 
 window,off
 wait,0.15
@@ -1268,7 +1268,7 @@ asyncseplay,setag1_37,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 window,on,0.15
-message,<user>,そろそろ限界か……。<br>まだか、マリナ……！
+message,<user>,I'm about at my limit... Hurry up，Marina...!<br> 
 
 window,off
 wait,0.15
@@ -1315,9 +1315,9 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,マリナ,お待たせしました、旦那さま！<br>商談成立です♪,100301000G,vc_10030100003_025_01,chara_1
+message,マリナ,Sorry for the wait，Honey! The deal is done!♪<br> ,100301000G,vc_10030100003_025_01,chara_1
 
-message,<user>,マリナ！　準備は終わったのか！？
+message,<user>,Marina! Are you ready?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1328,7 +1328,7 @@ asyncseplay,setag1_39,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,マリナ,ええ、お任せください♪,100301000G,vc_10030100003_026_01,chara_1
+message,マリナ,Yes，leave it to me!♪<br> ,100301000G,vc_10030100003_026_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1339,7 +1339,7 @@ asyncseplay,setag1_40,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,マリナ,契約が結ばれた以上、ためらう理由はありませんよぉ。<br>ここからは大盤振る舞い、特別セールのはじまりです♪,100301000G,vc_10030100003_027_01,chara_1
+message,マリナ,Now that the contract is settled，I've got no reason to hesitate.<br>From here on，it's a big bonanza—the start of a special sale!♪<br> ,100301000G,vc_10030100003_027_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1350,7 +1350,7 @@ asyncseplay,setag1_41,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,マリナ,取り出しますは、落札したばかりの『爆炎の戦斧』。<br>苦労して競り落としました『大氷樹の豪槍』も一緒に、そーれ！,100301000G,vc_10030100003_028_01,chara_1
+message,マリナ,First，the Explosive Battle Axe I just won at auction! And along with<br>it，the Great Ice Tree Spear I fought hard to secure—there you go!<br> ,100301000G,vc_10030100003_028_01,chara_1
 
 window,off
 wait,0.15
@@ -1414,13 +1414,13 @@ asynccharaemo,chara_3,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,古代のモンスター,グォォォォッ！？,402001000,,chara_3
+message,古代のモンスター,GROOOARGH!<br> ,402001000,,chara_3
 
-message,,マリナが投擲した武具が内に秘めた魔力を暴走させた。<br>生み出された爆発にモンスターが体勢を崩す。
+message,,The weapons Marina threw caused the magic hidden within to go<br>berserk. The resulting explosion threw the monster off balance.<br> 
 
 cleanall,EFFECT
 
-message,<user>,落札した道具を使ったのか……！？<br>本当に契約を結んできたんだな！
+message,<user>,You're using the items you just won...! So you really did finalize a<br>contract!<br> 
 
 asyncjump,CHARA,chara_3,30,0.25,1,off,0,CONT
 
@@ -1428,7 +1428,7 @@ asyncseplay,setag1_45,se4800001,0,1,CONT,0
 
 asynccharaemo,chara_3,Anger,CONT,0
 
-message,<user>,しかしあいつを倒すには、<br>まだ破壊力が足りない……！
+message,<user>,But to take that thing down，we still don't have enough destructive<br>power...!<br> 
 
 window,off
 wait,0.15
@@ -1470,7 +1470,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,マリナ,あら、大盤振る舞いと申し上げたでしょう？<br>マリナのセールはまだまだ終わりませんよ！,100301000G,vc_10030100003_029_01,chara_1
+message,マリナ,Oh my，didn't I tell you it was going to be a big bonanza? Marina's<br>sale is nowhere near over!<br> ,100301000G,vc_10030100003_029_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1481,9 +1481,9 @@ asyncseplay,setag1_47,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,マリナ,本日の特価品はこちら、『雷閃のファルシオン』と『常闇の水晶』、<br>『風狼の魔力核』に『獄炎の火山結晶』、『虹の欠片』――,100301000G,vc_10030100003_030_01,chara_1
+message,マリナ,Today's specials: Lightning Flash Falchion，Eternal Darkness<br>Crystal，Wind Wolf Magic Core，Hellfire Volcano Crystal，Rainbow Fragment—<br> ,100301000G,vc_10030100003_030_01,chara_1
 
-message,<user>,ちょっと待て！　どれだけ用意したんだ！？<br>いくらなんでもそんなには落札してなかっただろ！？
+message,<user>,Hold on! How many did you bring!? There's no way you won that many<br>at auction!<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1495,7 +1495,7 @@ asyncseplay,setag1_48,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,マリナ,公正な取引でいただいた品々ですので、どうぞご安心を。<br>さあ商人の力というものをたっぷり味わってくださいな♪,100301000G,vc_10030100003_031_01,chara_1
+message,マリナ,These were all gained through fair dealings，so rest assured.<br>Now，have a good taste of a merchant's true power!♪<br> ,100301000G,vc_10030100003_031_01,chara_1
 
 window,off
 wait,0.15
@@ -1619,7 +1619,7 @@ asynccharaemo,chara_3,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,古代のモンスター,ガアウォォォォッ！？,402001000,,chara_3
+message,古代のモンスター,GAAARGH!<br> ,402001000,,chara_3
 
 window,off
 wait,0.15
@@ -1633,7 +1633,7 @@ asyncseplay,setag1_53,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 window,on,0.15
-message,,止まることなく魔法の武器や道具を投げ続けるマリナ。<br>雷に闇、風と炎と閃光の魔力が炸裂し、モンスターが苦しげに動きを止める。
+message,,Marina threw magical weapons and items nonstop.<br>Lightning，darkness，wind，fire，flash magic detonated，and the monster，agonized，stopped.<br> 
 
 window,off
 wait,0.15
@@ -1676,7 +1676,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,マリナ,そして目玉商品はこちら。<br>前線基地のため、必要なら使う――旦那さまとお約束した『魔導爆石』！,100301000G,vc_10030100003_032_01,chara_1
+message,マリナ,And now，the star of the show. For the Frontline Base，if needed，I'll<br>use it—the Magic Explosive Stone I promised you，Honey!<br> ,100301000G,vc_10030100003_032_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1687,7 +1687,7 @@ asyncseplay,setag1_55,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,マリナ,どうぞ最後までご堪能くださいっ！,100301000G,vc_10030100003_033_01,chara_1
+message,マリナ,Please savor this to the very end!<br> ,100301000G,vc_10030100003_033_01,chara_1
 
 window,off
 wait,0.15
@@ -1753,7 +1753,7 @@ emodelete,chara_3,0,0
 transitionFade,Tra19,in,white,0
 
 window,on,0.15
-message,,身動きの取れないモンスターへ『魔導爆石』をぶつけるマリナ。<br>強大な爆発力が一気に開放され――
+message,,Marina threw the Magic Explosive Stone at the immobile monster. The<br>immense explosive power was unleashed in one go—<br> 
 
 window,off
 wait,0.15
@@ -1765,7 +1765,7 @@ asyncseplay,setag1_57,se4900002,0,1,CONT,0
 wait,1
 
 window,on,0.15
-message,古代のモンスター,ゴアアアアアアアアッ！？,402001000
+message,古代のモンスター,GOAAAARGH!<br> ,402001000
 
 window,off
 wait,0.15
@@ -1830,7 +1830,7 @@ shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 shake,CHARA,chara_6,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,,限界を超えた破壊力に耐えられず、<br>モンスターは大きな断末魔を上げて倒れ込んだ。
+message,,Unable to withstand the overwhelming destructive power，the monster<br>let out a final roar and collapsed.<br> 
 
 window,off
 wait,0.15
@@ -1861,7 +1861,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,この場にあった商品の力だけで<br>本当に倒してみせたのか……。
+message,<user>,You actually managed to beat it with just the items on display<br>here...<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1872,9 +1872,9 @@ asyncseplay,setag1_59,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,マリナ,これがお金の正しい使い道。資金を使いこなすということです。<br>いかがですか、旦那さま？,100301000G,vc_10030100003_034_01,chara_1
+message,マリナ,This is the right way to use money. It's about making your capital<br>work for you. What do you think，Honey?<br> ,100301000G,vc_10030100003_034_01,chara_1
 
-message,<user>,……おみそれしたよ。<br>見事な商いだな、マリナ。
+message,<user>,I underestimated you. That was a brilliant bit of business，Marina.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1886,7 +1886,7 @@ asyncseplay,setag1_60,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,マリナ,ふふふ、光栄ですぅ。<br>旦那さまも見事な指揮でしたよぉ♪,100301000G,vc_10030100003_035_01,chara_1
+message,マリナ,Fufufu，I'm honored. Honey，your command was splendid too!♪<br> ,100301000G,vc_10030100003_035_01,chara_1
 
 
 window,off
@@ -1911,7 +1911,7 @@ bgmplay,bgmtag1_3,bgm0033,0.75,1
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,<user>,はあ……手に入れた道具は全部使い切って、<br>何も手に入らなかったな……
+message,<user>,*sigh*... we used up everything we got and ended up with nothing...<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1923,7 +1923,7 @@ asyncseplay,setag1_61,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,マリナ,いいじゃありませんか～。<br>契約通り、使った道具のお金は返却されましたし。,100301000G,vc_10030100003_036_01,chara_1
+message,マリナ,It's fine，isn't it? The money for the items we used was refunded as<br>per the contract.<br> ,100301000G,vc_10030100003_036_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1934,9 +1934,9 @@ asyncseplay,setag1_62,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,マリナ,おおごとにしない代わりに基地へ物資を納品する契約も結びましたから。<br>きっとアリシアちゃんも納得してくれますよぉ♪,100301000G,vc_10030100003_037_01,chara_1
+message,マリナ,I also signed a contract to supply materials to the base in exchange<br>for not making a fuss. I'm sure Alicia will be pleased too!♪<br> ,100301000G,vc_10030100003_037_01,chara_1
 
-message,<user>,……その商談もマリナがやってくれただろう。<br>勝負って話だったが、俺のボロ負けだな。
+message,<user>,You handled that negotiation too，didn't you? It was supposed to be a<br>competition，but I got crushed.<br> 
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1948,7 +1948,7 @@ asyncseplay,setag1_63,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,マリナ,そうですねぇ、オークションでも、商談でも、<br>まだまだ旦那さまには負けませんよぉ。,100301000G,vc_10030100003_038_01,chara_1
+message,マリナ,That's right，whether it's an auction or a negotiation，I'm still not<br>going to lose to you，Honey.<br> ,100301000G,vc_10030100003_038_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1959,7 +1959,7 @@ asyncseplay,setag1_64,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,マリナ,でも……商談の場が本物の戦場になった瞬間、<br>とても旦那さまの胆力にかないませんでした。,100301000G,vc_10030100003_039_01,chara_1
+message,マリナ,But... the moment the negotiation became a real battlefield，I was no<br>match for your courage.<br> ,100301000G,vc_10030100003_039_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1970,7 +1970,7 @@ asyncseplay,setag1_65,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,マリナ,さすがはわたしの旦那さまです。<br>すごく素敵でしたよぉ♪,100301000G,vc_10030100003_040_01,chara_1
+message,マリナ,As expected of my Honey. You were really wonderful!♪<br> ,100301000G,vc_10030100003_040_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1982,9 +1982,9 @@ asyncseplay,setag1_66,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,マリナ,あなたを信じたわたしの目は間違ってない。<br>改めてそう思いました♪,100301000G,vc_10030100003_041_01,chara_1
+message,マリナ,My trust in you was not misplaced. I'm once again sure of that!♪<br> ,100301000G,vc_10030100003_041_01,chara_1
 
-message,<user>,オークションが中断されて目当ての品も手に入らなかったし、<br>その言葉が唯一の成果だな。
+message,<user>,The auction was interrupted and I didn't get the item I was after，so<br>those words are the only gain I got.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1995,7 +1995,7 @@ asyncseplay,setag1_67,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,マリナ,……目当ての品、ですか。,100301000G,vc_10030100003_042_01,chara_1
+message,マリナ,The item you were after，you say?<br> ,100301000G,vc_10030100003_042_01,chara_1
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -2003,9 +2003,9 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,マリナ,旦那さまがほしかったのはどの商品か、当ててみせましょうかぁ？,100301000G,vc_10030100003_043_01,chara_1
+message,マリナ,Should I guess which item you wanted，Honey?<br> ,100301000G,vc_10030100003_043_01,chara_1
 
-message,<user>,何……？<br>さすがのマリナでも無理だと思うが……
+message,<user>,What? Even you can't possibly know that，Marina...<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -2016,7 +2016,7 @@ asyncseplay,setag1_68,se4800005,0,1,CONT,0
 asynccharaemo,chara_1,Flash,CONT,0
 
 
-message,マリナ,カタログには『古書』とだけ記されていた、詳細不明の品。<br>ですが『発禁処分を受けた逸品』という来歴を見れば中身は明白です。,100301000G,vc_10030100003_044_01,chara_1
+message,マリナ,The catalog listed it only as 'Old Book，' an item with no details.<br>But given its history as a banned publication，its contents are obvious.<br> ,100301000G,vc_10030100003_044_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -2024,7 +2024,7 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,マリナ,あまりの過激さで発禁処分を受けたものの、<br>素晴らしい内容と有名絵師によるイラストで伝説と称される官能小説……,100301000G,vc_10030100003_045_01,chara_1
+message,マリナ,Despite being banned for extreme content，it's an erotic novel hailed<br>as legendary for superb writing and illustrations by famous artist...<br> ,100301000G,vc_10030100003_045_01,chara_1
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -2032,7 +2032,7 @@ asyncseplay,setag1_69,se4800013,0,1,CONT,0
 
 asynccharaemo,chara_1,Spirits,CONT,0
 
-message,,マリナは深い笑みを浮かべて、懐から１冊の本を取り出す。
+message,,Marina broke into a deep smile and took a book from her pocket.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -2043,7 +2043,7 @@ asyncseplay,setag1_70,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,マリナ,この『人妻エルフの戯れ～夜の誘惑魔法レッスン～』が、<br>旦那さまの狙っていた商品なんでしょう～？,100301000G,vc_10030100003_046_01,chara_1
+message,マリナ,This 'Play of a Married Elf: Night Temptation Magic Lesson' is the<br>item you were after，isn't it，Honey?<br> ,100301000G,vc_10030100003_046_01,chara_1
 
 window,off
 wait,0.15
@@ -2059,11 +2059,11 @@ shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 shake,CHARA,chara_6,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,<user>,そ、それは……！！
+message,<user>,Th-that's...!<br> 
 
-message,<user>,ぐ、ぐううううっ！　ああ、その通りだよ！<br>どうしてもこの本を俺のコレクションに加えたかったんだ！
+message,<user>,Ugh...! Ah，you're right! I absolutely wanted to add this book to my<br>collection!<br> 
 
-message,<user>,しかし、どうしてマリナが手にしている……！？<br>その本が売られる前に、オークションは中止になったはずだぞ！
+message,<user>,But how do you have it...?! The auction should have been canceled<br>before that book could be sold!<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -2075,7 +2075,7 @@ asyncseplay,setag1_71,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,マリナ,モンスターを撃退する条件として、譲り受けたんです。,100301000G,vc_10030100003_047_01,chara_1
+message,マリナ,I acquired it as a condition for repelling the monster.<br> ,100301000G,vc_10030100003_047_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -2086,9 +2086,9 @@ asyncseplay,setag1_72,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,マリナ,さて旦那さま、楽しい楽しい商談の時間ですよぉ。<br>こちらの本、おいくらで買いますかぁ？,100301000G,vc_10030100003_048_01,chara_1
+message,マリナ,Now then，Honey，it's time for a fun little business negotiation. How<br>much will you pay for this book?<br> ,100301000G,vc_10030100003_048_01,chara_1
 
-message,<user>,はあ……やれやれ。<br>商売の話になったら、マリナにはかなわないな。
+message,<user>,*sigh*... oh well. When it comes to business，I can't win against<br>Marina.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -2100,7 +2100,7 @@ asyncseplay,setag1_73,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,マリナ,ふふ、マリナ商店は、お客さまのニーズに応える品揃えです。<br>いつでもご利用くださいね、旦那さま♪,100301000G,vc_10030100003_049_01,chara_1
+message,マリナ,Fufu，Marina's Emporium has a selection that meets the needs of our<br>customers. Please feel free to use us anytime，Honey!♪<br> ,100301000G,vc_10030100003_049_01,chara_1
 
 window,off
 bgmstop,bgmtag1_3,0.5

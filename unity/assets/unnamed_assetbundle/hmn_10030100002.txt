@@ -331,9 +331,9 @@ asyncseplay,setag1_11,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,マリナ,さあさあ怒っている時間はありませんね、旦那さま。<br>もう次の競売品が出てきていますよ～。,100301000G,vc_10030100002_010_01,chara_1
+message,マリナ,Come，come，no time for anger，Honey. The next auction item is already<br>up!<br> ,100301000G,vc_10030100002_010_01,chara_1
 
-message,<user>,くっ……！
+message,<user>,Tch...!<br> 
 
 
 window,off
@@ -358,7 +358,7 @@ emodelete,chara_1,0,0
 transitionFade,Tra07,in,black,1
 
 window,on,0.15
-message,主催者,さあ、次はこちら！<br>遠くホウライの地より来たりし品、『護りの石灯』！,900000001
+message,主催者,Now，next up is this! An item from distant Hourai，the 'Guardian Stone<br>Lantern'!<br> ,900000001
 
 window,off
 wait,0.15
@@ -397,9 +397,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,マリナ,カタログによるとその場に防壁を展開できる道具だそうですよぉ。<br>これも旦那さまに必要そうですねえ？,100301000G,vc_10030100002_011_01,chara_1
+message,マリナ,According to the catalog，it's a tool that can deploy a barrier on<br>the spot. It looks like you need this too，doesn't it，Honey?<br> ,100301000G,vc_10030100002_011_01,chara_1
 
-message,<user>,ああ、使い捨てらしいが絶対にほしい性能だ……！
+message,<user>,Yeah，it's supposedly single-use，but I really want that<br>performance...!<br> 
 
 window,off
 wait,0.15
@@ -424,9 +424,9 @@ transitionCrossFade,Tra02,1
 wait,1
 
 window,on,0.15
-message,主催者,さあこちらも１万からスタートです！,900000001
+message,主催者,Alright，this one also starts at 10，000!<br> ,900000001
 
-message,<user>,入札する！
+message,<user>,I bid!<br> 
 
 window,off
 wait,0.15
@@ -464,9 +464,9 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,マリナ,ではわたしも。２万です！<br>さてさて、今度はどちらが勝つでしょう♪,100301000G,vc_10030100002_012_01,chara_1
+message,マリナ,Then I will too. 20，000! Now then，I wonder who will win this time!♪<br> ,100301000G,vc_10030100002_012_01,chara_1
 
-message,<user>,くっ……今度は絶対に譲らないからな！
+message,<user>,Tch... I'm not letting you win this time!<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -477,7 +477,7 @@ asyncseplay,setag1_14,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,マリナ,あらあら、燃えていますね、旦那さま。<br>熱い男の人は嫌いじゃありませんよ～。,100301000G,vc_10030100002_013_01,chara_1
+message,マリナ,Oh dear，you're all fired up，Honey. I don't dislike a passionate man.<br> ,100301000G,vc_10030100002_013_01,chara_1
 
 
 window,off
@@ -505,13 +505,13 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,兵士Ａ,１５万だ！,400901000
+message,兵士Ａ,150，000!<br> ,400901000
 
-message,兵士Ｂ,１８万よ！,401301000,vc_10030100002_014_01,on
+message,兵士Ｂ,180，000!<br> ,401301000,vc_10030100002_014_01,on
 
-message,<user>,くっ……に、２０万！
+message,<user>,Tch... 200，000!<br> 
 
-message,主催者,２０万！　２０万です、さあどなたか！<br>貴重な『護りの石灯』ですよ！,900000001
+message,主催者,200，000! We have 200，000! Now，anyone else? This rare 'Guardian Stone<br>Lantern'!<br> ,900000001
 
 window,off
 wait,0.15
@@ -558,9 +558,9 @@ asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,マリナ,……こんなものですかね。<br>わたしは降りるとしましょうか～。,100301000G,vc_10030100002_015_01,chara_1
+message,マリナ,Hmm，is that so? Then I'll bow out.<br> ,100301000G,vc_10030100002_015_01,chara_1
 
-message,<user>,よし！　今度は俺の勝ちだな！
+message,<user>,Yes! I win this time!<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -571,11 +571,11 @@ asyncseplay,setag1_16,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,マリナ,ええ、負けてしまいましたわぁ。<br>さすがです、旦那さま。,100301000G,vc_10030100002_016_01,chara_1
+message,マリナ,Yes，I lost indeed. As expected of you，Honey.<br> ,100301000G,vc_10030100002_016_01,chara_1
 
-message,<user>,全然悔しそうじゃないな、マリナ……？<br>……ん？
+message,<user>,You don't look upset at all，Marina...? ...Huh?<br> 
 
-message,<user>,待てよ、この金額は予定価格よりかなり高い！<br>だからあっさり引き下がったのか！
+message,<user>,Wait a minute，this price is way higher than the estimated price! So<br>that's why you backed off so easily!<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -587,7 +587,7 @@ asyncseplay,setag1_17,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,マリナ,お安ければほしいと思っていたのは本当ですよぉ？<br>それは嘘ではないんですぅ。,100301000G,vc_10030100002_017_01,chara_1
+message,マリナ,It's true that I would have wanted it if it were cheap，you know?<br>That's not a lie.<br> ,100301000G,vc_10030100002_017_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -598,7 +598,7 @@ asyncseplay,setag1_18,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,マリナ,でも『護りの石灯』は、その場に防壁を出す道具ですから。<br>大穴探索に使うにはちょっと向きませんよねぇ。,100301000G,vc_10030100002_018_01,chara_1
+message,マリナ,But the 'Guardian Stone Lantern' creates a barrier on the spot，so<br>it's not really suited for Abyss exploration，you know.<br> ,100301000G,vc_10030100002_018_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -609,9 +609,9 @@ asyncseplay,setag1_19,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,マリナ,この基地で高く売れるかというと、<br>どうなんでしょうかぁ？,100301000G,vc_10030100002_019_01,chara_1
+message,マリナ,As for whether it would fetch a high price at this base... I'm not<br>so sure about that.<br> ,100301000G,vc_10030100002_019_01,chara_1
 
-message,<user>,分かってて降りたのか……くっ……
+message,<user>,You knew that and dropped out... damn...<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -623,7 +623,7 @@ asyncseplay,setag1_20,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,マリナ,さあ楽しくなってきましたねぇ♪<br>次の品ですよ、旦那さまっ！,100301000G,vc_10030100002_020_01,chara_1
+message,マリナ,Now things are getting exciting!♪ Here comes the next item，honey!<br> ,100301000G,vc_10030100002_020_01,chara_1
 
 
 window,off
@@ -650,7 +650,7 @@ emodelete,chara_1,0,0
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,主催者,……さぁ、他にいらっしゃいませんか？,900000001
+message,主催者,Now，are there any other bidders?<br> ,900000001
 
 window,off
 wait,0.15
@@ -705,7 +705,7 @@ asyncseplay,setag1_23,se4800007,0,1,CONT,0
 asynccharaemo,chara_4,Panic,CONT,0
 
 window,on,0.15
-message,客たち,うっ……,900000001
+message,客たち,Ugh...<br> ,900000001
 
 window,off
 wait,0.15
@@ -749,7 +749,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,主催者,ではこちらの『大氷樹の豪槍』は、<br>５万にてそちらのお嬢さんが落札！,900000001
+message,主催者,Then，the Grand Spear of the Great Ice Tree goes to the young lady<br>over there for 50，000!<br> ,900000001
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -760,9 +760,9 @@ asyncseplay,setag1_24,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,マリナ,ありがとうございます～。,100301000G,vc_10030100002_021_01,chara_1
+message,マリナ,Thank you!♪<br> ,100301000G,vc_10030100002_021_01,chara_1
 
-message,<user>,またマリナが落札か……<br>それに値段も、予定落札価格の下限ギリギリじゃないか。
+message,<user>,Marina won again... And the price is right at the bottom of the<br>expected range.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -774,7 +774,7 @@ asyncseplay,setag1_25,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,マリナ,皆さんがあまり入札しないようですので、<br>わたしが引き取らせてもらってます～。,100301000G,vc_10030100002_022_01,chara_1
+message,マリナ,Since no one else seemed to be bidding much，I'll take it off your<br>hands!♪<br> ,100301000G,vc_10030100002_022_01,chara_1
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -783,9 +783,9 @@ asyncseplay,setag1_26,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,マリナ,旦那さまも、競ってくださってかまわないんですよぉ？,100301000G,vc_10030100002_023_01,chara_1
+message,マリナ,You can bid against me too，you know，honey?♪<br> ,100301000G,vc_10030100002_023_01,chara_1
 
-message,<user>,まだ俺の目当ての商品も出てないしな。<br>これ以上、資金を使うわけにはいかないんだよ。
+message,<user>,The item I'm after hasn't come up yet. I can't afford to spend any<br>more funds.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -796,7 +796,7 @@ asyncseplay,setag1_27,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,マリナ,そうですねぇ。皆さんが盛り上がってくれたおかげで、<br>前半の品はかなり高値がつきましたもの。,100301000G,vc_10030100002_024_01,chara_1
+message,マリナ,Indeed. Thanks to everyone's enthusiasm，the early items went for<br>quite high prices，you see.<br> ,100301000G,vc_10030100002_024_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -807,11 +807,11 @@ asyncseplay,setag1_28,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,マリナ,手持ちの予算が不安になるのも仕方ありません。<br>冷静な判断です、旦那さま♪,100301000G,vc_10030100002_025_01,chara_1
+message,マリナ,It's only natural to worry about your remaining budget. A wise<br>decision，honey.♪<br> ,100301000G,vc_10030100002_025_01,chara_1
 
-message,<user>,……まさか、<br>すべて狙い通りってことか？
+message,<user>,...No way... Is this all going according to your plan?<br> 
 
-message,<user>,最初に値段を釣り上げて、<br>あとの品を安く落札できるようにしたのか！
+message,<user>,You drove up the prices on the early items so you could win the<br>later ones cheap，didn't you!<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -823,9 +823,9 @@ asyncseplay,setag1_29,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,マリナ,めっそうもありませんよぉ。<br>皆さんは楽しくオークションに参加しただけ、でしょう？,100301000G,vc_10030100002_026_01,chara_1
+message,マリナ,Not at all!♪ Everyone just had fun participating in the<br>auction，right?<br> ,100301000G,vc_10030100002_026_01,chara_1
 
-message,<user>,白々しい……！<br>よくも騙してくれたな！
+message,<user>,That's rich...! You really tricked me!<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -836,9 +836,9 @@ asyncseplay,setag1_30,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,マリナ,その悔しそうな声色、わたしにとっては黄色い声援のようなものです。<br>もっと聞かせてほしいですねぇ♪,100301000G,vc_10030100002_027_01,chara_1
+message,マリナ,That bitter tone of yours is like a cheer to me. I'd love to hear<br>more!♪<br> ,100301000G,vc_10030100002_027_01,chara_1
 
-message,<user>,まいったな……ここまではやられ放題、か。<br>だが、勝負はまだこれからだ。
+message,<user>,I'm beat... I've been completely outplayed so far. But the game is<br>still on.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -849,7 +849,7 @@ asyncseplay,setag1_31,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,マリナ,あら、楽しみですぅ。<br>うふふふふ～。,100301000G,vc_10030100002_028_01,chara_1
+message,マリナ,Oh my，I can't wait.<br>Ufufufufu.<br> ,100301000G,vc_10030100002_028_01,chara_1
 
 window,off
 wait,0.15
@@ -864,9 +864,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（甘いぜ、マリナ。どうせ俺の狙いが目玉商品の<br>『古代のオーブ』だと思ってるんだろう）
+message,<user>,*You're naive，Marina... You're probably thinking my target is the<br>main attraction，the Ancient Orb.*<br> 
 
-message,<user>,（残念だが、あんなものに興味はない。<br>本当に求める品がバレない限り、俺の負けはないんだよ）
+message,<user>,*Sorry to disappoint，but I have no interest in that. As long as my<br>true target stays hidden，I can't lose.*<br> 
 
 window,off
 wait,0.15
@@ -881,7 +881,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,……この前線基地司令官に挑んだことを後悔させてやるぜ、マリナ。
+message,<user>,... I'll make you regret challenging this Frontline Base<br>Commander，Marina.<br> 
 
 
 window,off
@@ -908,7 +908,7 @@ emodelete,chara_1,0,0
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,主催者,さあ！　ついに本日の目玉！<br>『古代のオーブ』の登場です！,900000001
+message,主催者,Now then! At last，today's main attraction! The Ancient Orb makes its<br>appearance!<br> ,900000001
 
 window,off
 wait,0.15
@@ -946,9 +946,9 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,マリナ,きましたね、旦那さま。<br>強力なモンスターの封じられたオーブ、当然確保しますよねぇ？,100301000G,vc_10030100002_029_01,chara_1
+message,マリナ,There it is，Honey. An orb containing a powerful sealed<br>monster—you'll be securing that one，of course?<br> ,100301000G,vc_10030100002_029_01,chara_1
 
-message,<user>,アリシアからは落札するように言われてるけどな。<br>目玉商品ともなれば高額だろう、金が足りなければ仕方ないさ。
+message,<user>,Alicia told me to win the bid，but as the main attraction，it'll be<br>pricey. If I don't have enough gold，then so be it.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -959,9 +959,9 @@ asyncseplay,setag1_33,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,マリナ,あら、思ったよりもこだわっていないんですねぇ？<br>もしもこの基地で、モンスターの封印が解かれたりしたら大変ですよ？,100301000G,vc_10030100002_030_01,chara_1
+message,マリナ,Oh my，you're not as invested as I thought? If the monster's seal<br>were to break here at the base，that would be a disaster，you know?<br> ,100301000G,vc_10030100002_030_01,chara_1
 
-message,<user>,もちろん危険だが、目玉商品なんだからしっかり管理されてるだろ。<br>落札したやつだって高価なアイテムを雑に扱ったりはしないよ。
+message,<user>,It's dangerous，but as the main attraction，it'll be secured. Even the<br>winning bidder wouldn't treat it carelessly.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -972,7 +972,7 @@ asyncseplay,setag1_34,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,マリナ,だといいのですけれど……,100301000G,vc_10030100002_031_01,chara_1
+message,マリナ,I hope you're right...<br> ,100301000G,vc_10030100002_031_01,chara_1
 
 window,off
 wait,0.15
@@ -1021,7 +1021,7 @@ asyncscreeneffect,STRAIN,off,1,0.5,CONT,0
 
 wait,0.5
 
-messageTextUnder,,マリナが呟くと同時に、<br>『古代のオーブ』がじわりと闇色のオーラを放ちはじめていた――,,,on
+messageTextUnder,,At the same time Marina murmured those words，the Ancient Orb was beginning to emit a dark aura，slowly spreading—,,,on
 
 window,off
 bgmstop,bgmtag1_1,0.5

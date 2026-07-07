@@ -26,7 +26,7 @@ asyncseplay,setag3_1,se5050013,0,1,CONT
 window,on,0.15
 message,<user>,Hmm... Morning already...? I fell asleep just like that.<br> 
 
-message,ミルティーユ,mmm... *whimper*...<br> ,,vc_10290100013_001_01
+message,ミルティーユ,Mmm... *whimper*...<br> ,,vc_10290100013_001_01
 
 message,<user>,Looks like you fell asleep too，Myrtille. Hey，it's morning，wake up!<br> 
 
@@ -45,11 +45,11 @@ asyncseplay,setag3_2,se4401002,0,1,CONT
 shake,BACK,,50,0,0.5,10,off,off,0
 shake,CHARA,chara_1,50,0,0.5,10,off,off,0
 
-message,ミルティーユ,Ehhh! It's already this late! Oh no，it's time for morning<br>pastry-making!<br> ,,vc_10290100013_005_01
+message,ミルティーユ,Ehhh! It's already this late! Oh no，it's time to make morning<br>pastries!<br> ,,vc_10290100013_005_01
 
 asyncseplay,setag3_3,se4400119,0,1,CONT
 
-message,,Myrtille hastily straightened her clothes. There were many who<br>wanted her pastries. I guessed I'd just have to let her do her best.<br> 
+message,,Myrtille hastily straightened her clothes. Many wanted her<br>pastries，so I figured I'd just have to let her do her best.<br> 
 
 window,off
 wait,0.15
@@ -74,7 +74,7 @@ charamove,chara_1,LinearTarget,X,500,0.3
 
 asynccharaface,chara_1,FaceShy,STOP
 window,on,0.15
-message,,Myrtille was about to leave the room，but she suddenly paused and<br>glanced back at me.<br> 
+message,,Myrtille was about to leave the room，but she paused and glanced back<br>at me.<br> 
 
 window,off
 wait,0.15
@@ -92,7 +92,7 @@ asynccharareaction,chara_1,nod,1,STOP
 window,on,0.15
 message,ミルティーユ,Um... Commander... if Mil can't sleep again，can Mil come to your<br>room?<br> ,,vc_10290100013_007_01
 
-message,<user>,mmm... of course I don't mind.<br> 
+message,<user>,Mmm... of course I don't mind.<br> 
 
 asyncseplay,setag3_8,se4800013,0,1,CONT
 
@@ -113,7 +113,7 @@ window,off
 wait,0.15
 
 window,on,0.15
-message,<user>,Again，huh... You say that knowing you'll do the same thing to me<br>next time too，don't you?<br> 
+message,<user>,Again，huh... You say that knowing you'll do the same to me next<br>time，don't you?<br> 
 
 message,,Now，what kind of night would it be next time? Lost in the memory of<br>last night，I settled in for a second sleep.<br> 
 

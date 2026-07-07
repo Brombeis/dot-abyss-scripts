@@ -271,7 +271,7 @@ asyncseplay,setag1_12,se4800007,0,1,STOP,6.3
 asynccharaemo,chara_1,Panic,STOP,6.3
 
 
-message,ヒュメナ,この水槽って見た目は小さいけど、実は中はとっても広くて――<br>あっ、違う違うっ。今はウパちゃんの紹介しなくっちゃっ！,,vc_10210100001_012_01,chara_1
+message,ヒュメナ,This tank might look small on the outside，but it's actually really<br>spacious inside—Oh，no，no，that's not it! I've got to introduce Upachan now!<br> ,,vc_10210100001_012_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -282,7 +282,7 @@ asyncseplay,setag1_13,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ヒュメナ,えとえと、とにかくウパちゃんは私と大の仲良しで<br>いつも一緒にいるんだけど、もぅ、とーっても可愛いの！,,vc_10210100001_013_01,chara_1
+message,ヒュメナ,Um，um，anyway，Upachan and I are really close，and we're always<br>together，and she's just so，so cute!<br> ,,vc_10210100001_013_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -293,7 +293,7 @@ asyncseplay,setag1_14,se4800002,0,1,CONT,0
 asynccharaemo,chara_1,Heart,CONT,0
 
 
-message,ヒュメナ,まずは何と言っても、このプニプニのほっぺたとつぶらな瞳！<br>愛らしくてたまらないよねっ！,,vc_10210100001_014_01,chara_1
+message,ヒュメナ,First of all，these squishy cheeks and round eyes! She's so adorable<br>I can't stand it，right?<br> ,,vc_10210100001_014_01,chara_1
 
 window,off
 wait,0.15
@@ -308,9 +308,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（マ、マシンガントークすぎる！！<br>相槌を打つ余地すらないぞ！？）
+message,<user>,(She's talking way too fast! I can't even get a word in!)<br> 
 
-message,<user>,（いやまあ、好きなものについて聞かれると饒舌になるタイプなんだろう……<br>ここはヒュメナが満足するまで聞き手に回るか）
+message,<user>,(Well，I suppose she's the type to get chatty when asked about what<br>she likes... Guess I'll just listen until she's happy.)<br> 
 
 window,off
 wait,0.15
@@ -334,7 +334,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,ヒュメナ,もちろん可愛いだけじゃないんだよ！　きらきらの鱗とすべすべの肌は<br>綺麗だし、ヒレとエラはちゃんと強そうで、かっこよくて――！,,vc_10210100001_015_01,chara_1
+message,ヒュメナ,Of course she's not just cute! Her shiny scales and smooth skin are<br>beautiful，and her fins and gills look strong and cool—!<br> ,,vc_10210100001_015_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -345,9 +345,9 @@ asyncseplay,setag1_16,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒュメナ,あとはその……え、ええっと……,,vc_10210100001_016_01,chara_1
+message,ヒュメナ,And then... well... uh，um...<br> ,,vc_10210100001_016_01,chara_1
 
-message,<user>,……どうした？　続けてくれ。
+message,<user>,...What's wrong? Go on.<br> 
 
 window,off
 wait,0.15
@@ -382,11 +382,11 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒュメナ,いや、そのぉ……私１人で話しすぎちゃってるなーって……あはは！,,vc_10210100001_017_01,chara_1
+message,ヒュメナ,Well，um... I've been talking way too much by myself，haven't I...<br>Ahaha!<br> ,,vc_10210100001_017_01,chara_1
 
-message,<user>,いや、全く構わないぞ？<br>そういう話が聞きたくて声をかけたんだ。
+message,<user>,No，I don't mind at all. I came over because I wanted to hear about<br>this kind of thing.<br> 
 
-message,<user>,ヒュメナのことを知るなら、<br>好きなものについて聞くのが一番だろう。
+message,<user>,If I want to get to know you，asking about the things you love is the<br>best way，isn't it?<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -397,9 +397,9 @@ asyncseplay,setag1_18,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ヒュメナ,司令官君……。<br>うん！　いい子だね、君！,,vc_10210100001_018_01,chara_1
+message,ヒュメナ,Commander... Yeah，you're a good kid!<br> ,,vc_10210100001_018_01,chara_1
 
-message,<user>,なんだ、さっきまで子どものように語っていたくせに、<br>急にこっちを子ども扱いか？
+message,<user>,What's this? You were talking like a child yourself just now，and now<br>you're treating me like one?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -410,7 +410,7 @@ asyncseplay,setag1_19,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒュメナ,もー！　それは言わないでってばー！,,vc_10210100001_019_01,chara_1
+message,ヒュメナ,Geez，I told you not to say that!<br> ,,vc_10210100001_019_01,chara_1
 
 window,off
 wait,0.15
@@ -433,9 +433,9 @@ transitionCrossFade,Tra02,1
 wait,1
 
 window,on,0.15
-message,？？？,おーっと！<br>ここで最高記録、３７枚だー！,400901000
+message,？？？,Whoa there，that's a new record: 37 tiles!<br> ,400901000
 
-message,歓声,おおおおおおーっ！！！,900000001
+message,歓声,Wooooooo!<br> ,900000001
 
 window,off
 wait,0.15
@@ -473,7 +473,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ヒュメナ,…………？　なんだか盛り上がってるみたいだね。<br>あっちは訓練所だったっけ？　何かやってるのかな？,,vc_10210100001_020_01,chara_1
+message,ヒュメナ,...? Looks like things are getting lively over there. That's the<br>training grounds，isn't it? I wonder what's going on?<br> ,,vc_10210100001_020_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -484,9 +484,9 @@ asyncseplay,setag1_21,se4800005,0,1,CONT,0
 asynccharaemo,chara_1,Flash,CONT,0
 
 
-message,ヒュメナ,ねね。ちょっと行ってみようよ、司令官君っ。,,vc_10210100001_021_01,chara_1
+message,ヒュメナ,Hey，hey. Let's go check it out，Commander!<br> ,,vc_10210100001_021_01,chara_1
 
-message,<user>,ああ、そうだな。
+message,<user>,Yeah，you're right.<br> 
 
 bgmstop,bgmtag1_1,1,0
 
@@ -528,9 +528,9 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,前線基地の兵士A,さあさあ、次の挑戦者はいないか！？,400901000,,chara_2
+message,前線基地の兵士A,Come on，now! Anyone else want to challenge?<br> ,400901000,,chara_2
 
-message,<user>,――おい、何をやってるんだ？
+message,<user>,Hey，what's going on here?<br> 
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -542,7 +542,7 @@ asyncseplay,setag1_23,se4800010,0,1,CONT,0
 asynccharaemo,chara_2,Exclamation,CONT,0
 
 
-message,前線基地の兵士A,あ、司令官殿！<br>実は、誰が瓦を一番多く割れるかを競う、大会を開いているんです！,400901000,,chara_2
+message,前線基地の兵士A,Ah，Lord Commander! Actually，we're holding a tournament to see who<br>can break the most tiles!<br> ,400901000,,chara_2
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -553,9 +553,9 @@ asyncseplay,setag1_24,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,前線基地の兵士A,瓦割り――というホウライの伝統的な力試しで、<br>たくさんの兵士や力自慢が集まってくれていますよ！,400901000,,chara_2
+message,前線基地の兵士A,It's a traditional Hourai test of strength—tile breaking. Plenty of<br>soldiers and strongmen have gathered for it!<br> ,400901000,,chara_2
 
-message,<user>,なるほど……。<br>体格のいい男が集まっていると思ったら、そういうことだったのか。
+message,<user>,I see... So that's why all the burly men were gathered around.<br> 
 
 window,off
 wait,0.15
@@ -597,9 +597,9 @@ asynccharaemo,chara_1,Flash,CONT,0
 
 
 window,on,0.15
-message,ヒュメナ,へー、面白そうだね。<br>司令官君も挑戦してみたら？,,vc_10210100001_022_01,chara_1
+message,ヒュメナ,Huh，sounds fun. Why don't you give it a try too，Commander?<br> ,,vc_10210100001_022_01,chara_1
 
-message,<user>,俺は頭脳派なんでな。<br>こんなの１枚も割れずに怪我をするだけさ。
+message,<user>,I'm more of a brainy type. I'd just get hurt without breaking a<br>single one.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -611,9 +611,9 @@ asyncseplay,setag1_26,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ヒュメナ,ふーん……。<br>じゃあ私が代わりに参加してみよっかな？,,vc_10210100001_023_01,chara_1
+message,ヒュメナ,Hmm... Well then，maybe I'll take part instead?<br> ,,vc_10210100001_023_01,chara_1
 
-message,<user>,ヒュメナが……？<br>神官なんだろう？　大丈夫なのか？
+message,<user>,Humena? You're a priestess，aren't you? Are you sure that's a good<br>idea?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -624,9 +624,9 @@ asyncseplay,setag1_27,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ヒュメナ,もっちろん。水の精霊には力が強い子もいて、<br>よく鍛錬に付き合ってもらってるんだから♪,,vc_10210100001_024_01,chara_1
+message,ヒュメナ,Of course! Some water spirits are incredibly strong，and I always<br>have them help me train!<br> ,,vc_10210100001_024_01,chara_1
 
-message,<user>,……その水の精霊に腕力強いイメージがないんだが。
+message,<user>,I never really pictured water spirits as being that strong...<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -637,7 +637,7 @@ asyncseplay,setag1_28,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ヒュメナ,あ、信じてないなー？<br>よーし、水の精霊パワーを見せてあげましょう！,,vc_10210100001_025_01,chara_1
+message,ヒュメナ,Oh，you don't believe me? All right then，I'll show you the power of a<br>water spirit!<br> ,,vc_10210100001_025_01,chara_1
 
 window,off
 wait,0.15
@@ -672,7 +672,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ヒュメナ,はーい！<br>私が挑戦しまーっす！,,vc_10210100001_026_01,chara_1
+message,ヒュメナ,Okay! I'll take the challenge!<br> ,,vc_10210100001_026_01,chara_1
 
 window,off
 wait,0.15
@@ -725,9 +725,9 @@ asynccharaemo,chara_3,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,前線基地の兵士B,おいおい、大丈夫なのか姉ちゃん？<br>こいつは素人が割るにはなかなか難しいんだぜ？,401501000,,chara_3
+message,前線基地の兵士B,Hey，hey，you sure about this，lady? These tiles aren't easy for a<br>beginner to break.<br> ,401501000,,chara_3
 
-message,格闘家,俺の最高記録、３７枚を超えられるかな？<br>ま、無理だろうけどな！　はっはっは！,900000001
+message,格闘家,Think you can beat my record of thirty-seven? Nah，I doubt it!<br>Hahaha!<br> ,900000001
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -738,7 +738,7 @@ asyncseplay,setag1_31,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,前線基地の兵士B,まあ、何はともあれ怪我はしないでくれよ？,401501000,,chara_3
+message,前線基地の兵士B,Well，just make sure you don't hurt yourself，all right?<br> ,401501000,,chara_3
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -749,7 +749,7 @@ asyncseplay,setag1_32,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ヒュメナ,任せておいて。<br>かっこいいところ見せちゃうからねっ！,,vc_10210100001_027_01,chara_1
+message,ヒュメナ,Leave it to me! I'll show you something awesome!<br> ,,vc_10210100001_027_01,chara_1
 
 window,off
 wait,0.15
@@ -794,9 +794,9 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ヒュメナ,さあいくよ～！,,vc_10210100001_028_01,chara_1
+message,ヒュメナ,All right，here I go!<br> ,,vc_10210100001_028_01,chara_1
 
-message,,ヒュメナが積み上げられた瓦の前で、<br>ゆっくりと腕を振り上げる。そして――
+message,,Humena stood before the stacked tiles and slowly raised her arm. And<br>then...<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -809,7 +809,7 @@ asyncseplay,setag1_34,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヒュメナ,せーーーーのっ！！！,,vc_10210100001_029_01,chara_1
+message,ヒュメナ,HYAAA—!<br> ,,vc_10210100001_029_01,chara_1
 
 
 window,off
@@ -849,7 +849,7 @@ wait,2
 shakeallstop
 
 window,on,0.15
-message,,瓦を割ったとは思えない爆音が響く！<br>衝撃が収まると、そこには――
+message,,An explosion of sound，nothing like tile breaking，echoed through the<br>area! When the shock subsided，what lay there was...<br> 
 
 window,off
 wait,0.15
@@ -908,7 +908,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,前線基地の兵士A,全部……割れてる……,400901000,,chara_2
+message,前線基地の兵士A,All of them... shattered...<br> ,400901000,,chara_2
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -919,9 +919,9 @@ asyncseplay,setag1_39,se4800011,0,1,CONT,0
 asynccharaemo,chara_3,ExclaQues,CONT,0
 
 
-message,前線基地の兵士B,嘘だろ！？　１００枚積んであったんだぞ！？,401501000,,chara_3
+message,前線基地の兵士B,No way! There were a hundred of them stacked!<br> ,401501000,,chara_3
 
-message,格闘家,と、とと、とんでもねえ力だ……！,900000001
+message,格闘家,S-such incredible strength...!<br> ,900000001
 
 window,off
 wait,0.15
@@ -936,7 +936,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（……確かに力も素晴らしい。だが、それだけじゃない。<br>テクニック、スピード、それに思い切り。心技体そろってこその結果だ）
+message,<user>,(Her strength's remarkable，but it's not just that.<br>Technique，speed，determination. Spirit，technique，body—that's what does it.)<br> 
 
 window,off
 wait,0.15
@@ -988,9 +988,9 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ヒュメナ,司令官君、見てた見てた～？,,vc_10210100001_030_01,chara_1
+message,ヒュメナ,Commander，you saw that，didn't you?<br> ,,vc_10210100001_030_01,chara_1
 
-message,<user>,ああ、正直ここまでとは思わなかったよ。
+message,<user>,Yeah，I honestly didn't expect you to go that far.<br> 
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -1001,7 +1001,7 @@ asyncseplay,setag1_41,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ヒュメナ,ふっふっふー。<br>これが水の精霊パワーだよ！！,,vc_10210100001_031_01,chara_1
+message,ヒュメナ,Fufufu! That's the power of a water spirit!<br> ,,vc_10210100001_031_01,chara_1
 
 window,off
 wait,0.15
@@ -1016,7 +1016,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（こりゃ、頼れる戦力が来てくれたな……）
+message,<user>,(Well，that's a reliable ally to have...)<br> 
 
 window,off
 bgmstop,bgmtag1_2,0.5

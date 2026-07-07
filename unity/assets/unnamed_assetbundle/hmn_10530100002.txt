@@ -58,7 +58,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,シャノン,あの兵士が、こっちを見て司令官と声をかけたということは……,105301000G,vc_10530100002_001_01,chara_1
+message,シャノン,That soldier looked this way and called out 'Commander'... which<br>means...<br> ,105301000G,vc_10530100002_001_01,chara_1
 
 window,off
 wait,0.15
@@ -73,7 +73,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（お、落ち着け！　シャノンはまだ確信していないはず！<br>どうにかごまかすんだ！！！！）
+message,<user>,(Calm down! Shannon can't be sure yet! I have to bluff my way out of<br>this!)<br> 
 
 window,off
 wait,0.15
@@ -97,9 +97,9 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,シャノン,エドワード・トーマス・セバスチャン……<br>あんたがまさか、しれ――,105301000G,vc_10530100002_002_01,chara_1
+message,シャノン,Edward Thomas Sebastian... You don't mean to say you're the—<br> ,105301000G,vc_10530100002_002_01,chara_1
 
-message,<user>,あーっ、シャノンさん！　あいつ！<br>あいつが司令官なんです！
+message,<user>,Ah! Shannon! That guy! That guy's the Commander!<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -110,7 +110,7 @@ asyncseplay,setag1_3,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,シャノン,んっ？,105301000G,vc_10530100002_003_01,chara_1
+message,シャノン,Mmph?<br> ,105301000G,vc_10530100002_003_01,chara_1
 
 window,off
 wait,0.15
@@ -145,7 +145,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,一般兵Ａ,ふふんふーん♪<br>さぁて、今日はどこで遊ぼうかな～♪　げへへへっ♪,400901000,,chara_2
+message,一般兵Ａ,Hmm-hmm-hmm... Now，where should I go hang out today? Hehehe!<br> ,400901000,,chara_2
 
 window,off
 wait,0.15
@@ -194,9 +194,9 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,シャノン,ほう……？　あいつが司令官なのか。<br>確かに悪そうな面構えだな……,105301000G,vc_10530100002_004_01,chara_1
+message,シャノン,Huh...? So that guy's the Commander. He does have an evil look to<br>him.<br> ,105301000G,vc_10530100002_004_01,chara_1
 
-message,<user>,そ、そうでしょうそうでしょう。
+message,<user>,Y-yeah，that's right，that's right.<br> 
 
 window,off
 wait,0.15
@@ -211,7 +211,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（よし、乗り切った！）
+message,<user>,(I pulled it off!)<br> 
 
 window,off
 wait,0.15
@@ -233,13 +233,13 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,シャノン,見たところ、護衛もいない。無警戒の今がチャンスだ。,105301000G,vc_10530100002_005_01,chara_1
+message,シャノン,No sign of guards. He is completely off guard—this is my chance.<br> ,105301000G,vc_10530100002_005_01,chara_1
 
-message,<user>,……えっ？
+message,<user>,...Huh?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
-message,,言うや否や、シャノンはすぅっと目を細めた。
+message,,The moment she said that，Shannon narrowed her eyes.<br> 
 
 window,off
 wait,0.15
@@ -254,7 +254,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（く、空気が変わった？）
+message,<user>,(Tch，the mood suddenly changed?)<br> 
 
 window,off
 wait,0.15
@@ -279,7 +279,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,シャノン,エドワード、感謝する。<br>では、またな。,105301000G,vc_10530100002_006_01,chara_1
+message,シャノン,Edward，thank you. Goodbye.<br> ,105301000G,vc_10530100002_006_01,chara_1
 
 window,off
 wait,0.15
@@ -310,9 +310,9 @@ transitionCrossFade,Tra02,0.5
 wait,0.5
 
 window,on,0.15
-message,<user>,あ、待っ――って、もういない！？
+message,<user>,Ah，wait—! She's already gone!?<br> 
 
-message,<user>,このままだと無関係の兵士が殺されてしまう！<br>追い掛けないと――
+message,<user>,At this rate，an innocent soldier will get killed! I have to go after<br>her—<br> 
 
 
 window,off
@@ -343,7 +343,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（シャノン、シャノンはどこだ……いた！）
+message,<user>,(Shannon，where is she... There she is!)<br> 
 
 window,off
 wait,0.15
@@ -393,7 +393,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,シャノン,グッバイ、司令官。,105301000G,vc_10530100002_007_01,chara_1
+message,シャノン,Goodbye，Commander.<br> ,105301000G,vc_10530100002_007_01,chara_1
 
 window,off
 wait,0.15
@@ -414,9 +414,9 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,一般兵Ａ,ひぃぃ～！？　なんで俺が～～！？,400901000,,chara_2
+message,一般兵Ａ,Eeek! Why me!?<br> ,400901000,,chara_2
 
-message,<user>,わーーーーーっ！？<br>しゃしゃしゃ、シャノンさんじゃないですか～～！！
+message,<user>,Waaaaaah! Hahaha，if it isn't Shannon... what a coincidence!<br> 
 
 window,off
 wait,0.15
@@ -464,9 +464,9 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,シャノン,なっ、エドワード！？,105301000G,vc_10530100002_008_01,chara_1
+message,シャノン,What，Edward?!<br> ,105301000G,vc_10530100002_008_01,chara_1
 
-message,<user>,また会えるなんて偶然だな～～！<br>あ、そうだお食事行きましょうお食事！　いい店を知ってるんですよ！
+message,<user>,Fancy meeting you here! Oh，hey，let's grab a bite! I know a great<br>place!<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -477,7 +477,7 @@ asyncseplay,setag1_13,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,シャノン,エドワード、私は今、司令官を――,105301000G,vc_10530100002_009_01,chara_1
+message,シャノン,Edward，I'm in the middle of the Commander—<br> ,105301000G,vc_10530100002_009_01,chara_1
 
 window,off
 wait,0.15
@@ -531,7 +531,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,一般兵Ａ,ひーーーっ！！　お助けーっ！！,400901000,,chara_2
+message,一般兵Ａ,Eeeeek! Help!<br> ,400901000,,chara_2
 
 window,off
 wait,0.15
@@ -558,7 +558,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,シャノン,あ、待て逃げるな！,105301000G,vc_10530100002_010_01,chara_1
+message,シャノン,Hey，wait! Don't run!<br> ,105301000G,vc_10530100002_010_01,chara_1
 
 window,off
 wait,0.15
@@ -593,7 +593,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,すみませんあいつ司令官じゃなかったです！<br>よく見たら別人でした！
+message,<user>,Sorry，that guy wasn't the Commander! On closer look，it was someone<br>else!<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -604,9 +604,9 @@ asyncseplay,setag1_17,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,シャノン,なんだと！？<br>だが、さっきはあいつが司令官だと――,105301000G,vc_10530100002_011_01,chara_1
+message,シャノン,What!? But you just said he was the Commander...<br> ,105301000G,vc_10530100002_011_01,chara_1
 
-message,<user>,疲れてたみたいです！　お腹が空いてるといけませんね！<br>シャノンさんも何か食べましょう行きましょう！
+message,<user>,I must've been tired! You don't want to go hungry，right? Hey，let's<br>get something to eat! You too，Shannon!<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -617,7 +617,7 @@ asyncseplay,setag1_18,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,シャノン,ま、待て、押すな。分かった、行くから……,105301000G,vc_10530100002_012_01,chara_1
+message,シャノン,Wait，don't push. Fine，I'll go...<br> ,105301000G,vc_10530100002_012_01,chara_1
 
 window,off
 wait,0.15
@@ -632,9 +632,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（……どうにかごまかせているが、このノリは疲れるぞ……<br>もっと楽な口調でやればよかった……）
+message,<user>,(I'm managing to deceive her，but this act is exhausting... I<br>should've used a more relaxed tone...)<br> 
 
-message,<user>,（ボロが出る前に誤解を解いて、暗殺をやめさせよう……）
+message,<user>,(Before I slip up，I need to clear up the misunderstanding and get<br>her to call off the assassination...)<br> 
 
 
 
@@ -668,7 +668,7 @@ transitionFade,Tra09,in,black,1
 wait,0.5
 
 window,on,0.15
-message,,――酒場に着いたあと、<user>は食事中、<br>自身の良いところをシャノンに説き続けた。
+message,,After they arrived at the tavern，the Commander spent the meal trying<br>to convince Shannon of his good points.<br> 
 
 window,off
 wait,0.15
@@ -706,13 +706,13 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,シャノン,……司令官が、ちゃんと皆に慕われている、だと？,105301000G,vc_10530100002_013_01,chara_1
+message,シャノン,So you're saying the Commander is actually popular with everyone?<br> ,105301000G,vc_10530100002_013_01,chara_1
 
-message,<user>,そりゃあもう！　優しくてサービス満載！<br>男の中の男って評判です！！
+message,<user>,Absolutely! He's kind and always helpful! He's got a reputation as a<br>real man's man!<br> 
 
-message,<user>,もちろん私も司令官が大大大だーい好き！<br>私みたいな下っ端一般人にも良くしてくれるんですよ！？
+message,<user>,And I myself love the Commander! He's nice even to a lowly guy like<br>me!<br> 
 
-message,<user>,男が男に惚れるって、あるんですよ～～……<br>いやほんと、人生観変わりましたとも！
+message,<user>,A man can fall for another man，you know... No，really，it changed my<br>whole perspective!<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -724,11 +724,11 @@ asyncseplay,setag1_20,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,シャノン,ふむ……,105301000G,vc_10530100002_014_01,chara_1
+message,シャノン,Hmm...<br> ,105301000G,vc_10530100002_014_01,chara_1
 
-message,<user>,シャノンさんがどういう情報をお持ちか分かりませんが、<br>暗殺なんてよくないんじゃないかな～～～～……？
+message,<user>,I don't know what kind of intel you have，but isn't assassination a<br>bad idea?<br> 
 
-message,<user>,シャノンさんだって、人殺しなんてしたくないですよねぇ！？
+message,<user>,You don't want to kill anyone either，right，Shannon?<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -739,7 +739,7 @@ asyncseplay,setag1_21,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,シャノン,私はプロだが、金を貰えば誰だって殺すわけじゃない。<br>ひどい悪人だけをターゲットにしている。,105301000G,vc_10530100002_015_01,chara_1
+message,シャノン,I'm a professional，but I don't kill just anyone for money. I only<br>target real scumbags.<br> ,105301000G,vc_10530100002_015_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -750,9 +750,9 @@ asyncseplay,setag1_22,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,シャノン,あんたはかばっているが、私が依頼人から聞いた感じだと<br>ここの司令官の振る舞いは本当にひどかったぞ。,105301000G,vc_10530100002_016_01,chara_1
+message,シャノン,You're covering for him，but from what my client told me，the<br>Commander's behavior here has been truly awful.<br> ,105301000G,vc_10530100002_016_01,chara_1
 
-message,<user>,た、たとえばどんな感じでしょう……？
+message,<user>,W-well，like what，for instance...?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -764,7 +764,7 @@ asyncseplay,setag1_23,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,シャノン,総じて、前線基地を私物化している印象だ。,105301000G,vc_10530100002_017_01,chara_1
+message,シャノン,Overall，the impression is that he's been treating the Frontline Base<br>as his personal property.<br> ,105301000G,vc_10530100002_017_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -775,9 +775,9 @@ asyncseplay,setag1_24,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,シャノン,過酷な大穴探索と引き換えに得られる利益――それを正当に分配せず、<br>着服して私腹を肥やしているらしいじゃないか。,105301000G,vc_10530100002_018_01,chara_1
+message,シャノン,The profits from the harsh Abyss exploration—he's apparently not<br>distributing them fairly，but embezzling them to line his own pockets.<br> ,105301000G,vc_10530100002_018_01,chara_1
 
-message,<user>,聞いたことないんですが……
+message,<user>,I've never heard that...<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -786,7 +786,7 @@ asyncseplay,setag1_25,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,シャノン,権力を振り回して、毎晩女性をとっかえひっかえしているという話は？,105301000G,vc_10530100002_019_01,chara_1
+message,シャノン,What about the story that he throws his weight around and goes<br>through a different woman every night?<br> ,105301000G,vc_10530100002_019_01,chara_1
 
 window,off
 wait,0.15
@@ -801,7 +801,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（……そっちはちょっと覚えがある！）
+message,<user>,(...I do have some memory of that one!)<br> 
 
 window,off
 wait,0.15
@@ -826,7 +826,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,シャノン,否定できないようだな。一番身近にいる副司令官なんかも<br>司令官に振り回されて苦労していると聞く。,105301000G,vc_10530100002_020_01,chara_1
+message,シャノン,You can't deny it. I hear even the Deputy Commander，who's closest to<br>him，has a hard time being pushed around by the Commander.<br> ,105301000G,vc_10530100002_020_01,chara_1
 
 window,off
 wait,0.15
@@ -841,7 +841,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（反論できん！！）
+message,<user>,(Can't argue with that!)<br> 
 
 window,off
 wait,0.15
@@ -865,9 +865,9 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,シャノン,しょっちゅう喧嘩しているんだろう？,105301000G,vc_10530100002_021_01,chara_1
+message,シャノン,They're always fighting，aren't they?<br> ,105301000G,vc_10530100002_021_01,chara_1
 
-message,<user>,で、でも、喧嘩するほど仲が良いってうちのバァさんが――
+message,<user>,B-but，my grandma always said couples who fight are the closest—<br> 
 
 window,off
 wait,0.15
@@ -913,7 +913,7 @@ asynccharaemo,chara_3,Anger,CONT,0
 
 
 window,on,0.15
-message,アリシア,あーっ！　司令官、探しましたよー！！,300201000,vc_10530100002_022_01,chara_3
+message,アリシア,Ah! Commander，I've been looking for you!<br> ,300201000,vc_10530100002_022_01,chara_3
 
 window,off
 wait,0.15
@@ -928,7 +928,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（げっ！？）
+message,<user>,(Gah!)<br> 
 
 bgmplay,bgmtag1_3,bgm0034,0.75,1
 
@@ -954,9 +954,9 @@ asynccharaemo,chara_3,BePeevish,CONT,0
 
 
 window,on,0.15
-message,アリシア,勝手にいなくなってひどいです！<br>今日という今日は許しませんからね～！,300201000,vc_10530100002_023_01,chara_3
+message,アリシア,You disappeared without permission，that's so mean! I'm not letting<br>you off the hook today，no way!<br> ,300201000,vc_10530100002_023_01,chara_3
 
-message,<user>,し、司令官？　どこ？　いったいどこに……
+message,<user>,C-Commander? Where? Where on earth...<br> 
 
 window,off
 wait,0.15
@@ -992,7 +992,7 @@ asynccharaemo,chara_3,Exclamation,CONT,0
 
 
 window,on,0.15
-message,アリシア,何をふざけているんですか～～！,300201000,vc_10530100002_024_01,chara_3
+message,アリシア,What are you fooling around for!<br> ,300201000,vc_10530100002_024_01,chara_3
 
 window,off
 wait,0.15
@@ -1039,7 +1039,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,,アリシアが<user>の服を掴む。<br>シャノンの顔色が変わった。
+message,,Alicia grabbed the Commander's clothes. Shannon's expression<br>changed.<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -1048,9 +1048,9 @@ asyncseplay,setag1_31,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,シャノン,――なるほど、そういうことか。,105301000G,vc_10530100002_025_01,chara_1
+message,シャノン,...I see，so that's how it is.<br> ,105301000G,vc_10530100002_025_01,chara_1
 
-message,<user>,待てシャノン！　話せばわか――
+message,<user>,Wait，Shannon! If you'd just listen—<br> 
 
 window,off
 wait,0.15
@@ -1100,9 +1100,9 @@ wait,0.5
 
 
 window,on,0.15
-message,シャノン,問答無用。,105301000G,vc_10530100002_026_01,chara_1
+message,シャノン,No arguments.<br> ,105301000G,vc_10530100002_026_01,chara_1
 
-message,,シャノンが銃を構える。アリシアも異変に気付いた。
+message,,Shannon leveled her gun. Alicia also noticed something was wrong.<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -1111,13 +1111,13 @@ asyncseplay,setag1_34,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,シャノン,グッバイ、司令官。,105301000G,vc_10530100002_027_01,chara_1
+message,シャノン,Goodbye，owner.<br> ,105301000G,vc_10530100002_027_01,chara_1
 
-message,<user>,うおおっ！？
+message,<user>,Whoa!<br> 
 
-message,アリシア,きゃああっ！？,300201000,vc_10530100002_028_01,
+message,アリシア,Eeek!<br> ,300201000,vc_10530100002_028_01,
 
-message,,シャノンの指が引き金に掛かり、絞られる――<br>そのとき！！
+message,,Shannon's finger curled around the trigger and began to squeeze—<br>Just then!<br> 
 
 window,off
 wait,0.15
@@ -1166,7 +1166,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,<user>,司令官、やーーーーめた！！！！
+message,<user>,I'm done being Commander!<br> 
 
 window,off
 wait,0.15
@@ -1193,7 +1193,7 @@ asynccharaemo,chara_3,Question,CONT,0
 
 
 window,on,0.15
-message,アリシア,はい？,300201000,vc_10530100002_029_01,chara_3
+message,アリシア,Huh?<br> ,300201000,vc_10530100002_029_01,chara_3
 
 window,off
 wait,0.15
@@ -1218,11 +1218,11 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,シャノン,んっ？,105301000G,vc_10530100002_030_01,chara_1
+message,シャノン,Huh?<br> ,105301000G,vc_10530100002_030_01,chara_1
 
-message,<user>,降参だ！　辞職する！　だから助けてくれ！！
+message,<user>,I surrender! I resign! So please，spare me!<br> 
 
-message,,両手を上げる<user>の近くで、<br>アリシアとシャノンが硬直する。
+message,,%user% raised both hands. Alicia and Shannon stood frozen beside<br>him.<br> 
 
 asyncshake,CHARA,chara_3,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -1231,9 +1231,9 @@ asyncseplay,setag1_39,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,アリシア,……え、えっと、状況がよく分かりませんが、<br>それで解決できるアレです……？,300201000,vc_10530100002_031_01,chara_3
+message,アリシア,... Um，I'm not sure what's happening，but does that actually solve<br>anything...?<br> ,300201000,vc_10530100002_031_01,chara_3
 
-message,<user>,分からん！　だがそうするしかあるまい！
+message,<user>,I don't know! But it's the only way!<br> 
 
 window,off
 wait,0.15
@@ -1248,7 +1248,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（何はともあれ、生き延びることだ！<br>どうにかしてこの場を乗り切る！）
+message,<user>,(First and foremost，survive! Get through this no matter what!)<br> 
 
 window,off
 wait,0.15
@@ -1273,7 +1273,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,シャノン,……,105301000G,vc_10530100002_032_01,chara_1
+message,シャノン,...<br> ,105301000G,vc_10530100002_032_01,chara_1
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -1284,7 +1284,7 @@ asyncseplay,setag1_41,se4800006,0,1,CONT,0
 asynccharaemo,chara_3,Trouble,CONT,0
 
 
-message,アリシア,……だめそうですけど。,300201000,vc_10530100002_033_01,chara_3
+message,アリシア,... It doesn't seem to be working，though.<br> ,300201000,vc_10530100002_033_01,chara_3
 
 window,off
 wait,0.15
@@ -1324,7 +1324,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,シャノンー！！！　頼むから！！！　なっ！？
+message,<user>,Shannon! I'm begging you! Right?<br> 
 
 crossfadeready
 
@@ -1344,7 +1344,7 @@ asyncseplay,setag1_42,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,シャノン,（ふざけた奴め……だが、私の目が曇っているのか？<br>どうしても、こいつが聞いていたような人間には思えない――）,105301000G,vc_10530100002_034_01,chara_1
+message,シャノン,(What a fool... but is my judgment clouded? No matter how I see<br>it，he doesn't match the description I heard—)<br> ,105301000G,vc_10530100002_034_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1356,7 +1356,7 @@ asyncseplay,setag1_43,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,シャノン,（そうでなければ、ターゲットを取り違えたりしないはず）,105301000G,vc_10530100002_035_01,chara_1
+message,シャノン,(Otherwise，I wouldn't have confused the target.)<br> ,105301000G,vc_10530100002_035_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1367,7 +1367,7 @@ asyncseplay,setag1_44,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シャノン,（この、間抜けそうなツラに風穴を開けるのは容易いが――<br>うーむ……）,105301000G,vc_10530100002_036_01,chara_1
+message,シャノン,(It'd be easy to blow a hole in that goofy face of his... but<br>hmm...)<br> ,105301000G,vc_10530100002_036_01,chara_1
 
 window,off
 wait,0.15
@@ -1384,7 +1384,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,……シャノン、さん？
+message,<user>,...Shannon?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1396,9 +1396,9 @@ asyncseplay,setag1_45,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,シャノン,……,105301000G,vc_10530100002_037_01,chara_1
+message,シャノン,...<br> ,105301000G,vc_10530100002_037_01,chara_1
 
-message,<user>,おーい？
+message,<user>,Hey?<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1409,7 +1409,7 @@ asyncseplay,setag1_46,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シャノン,ふんっ……,105301000G,vc_10530100002_038_01,chara_1
+message,シャノン,Hmph...<br> ,105301000G,vc_10530100002_038_01,chara_1
 
 window,off
 wait,0.15
@@ -1419,7 +1419,7 @@ charafocusonall
 asyncseplay,setag1_47,se4900059,0,1,CONT,0
 
 window,on,0.15
-message,,シャノンは銃を下ろした。
+message,,Shannon lowered her gun.<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -1428,7 +1428,7 @@ asyncseplay,setag1_48,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,シャノン,あんたには借りが１つあった。<br>今回は助ける。,105301000G,vc_10530100002_039_01,chara_1
+message,シャノン,I owed you one. I'll help you this time.<br> ,105301000G,vc_10530100002_039_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1440,7 +1440,7 @@ asyncseplay,setag1_49,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,シャノン,だが、次に会うときは容赦しない――<br>忘れるなよ。私はいつでも、あんたを見ているぞ。,105301000G,vc_10530100002_040_01,chara_1
+message,シャノン,But next time we meet，I won't go easy on you. Don't forget—I'm<br>always watching you.<br> ,105301000G,vc_10530100002_040_01,chara_1
 
 window,off
 wait,0.15
@@ -1494,9 +1494,9 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 
 window,on,0.15
-message,アリシア,……助かったみたいです？,300201000,vc_10530100002_041_01,chara_3
+message,アリシア,...Looks like you're safe?<br> ,300201000,vc_10530100002_041_01,chara_3
 
-message,<user>,そのようだ。
+message,<user>,Seems that way.<br> 
 
 asynccharaface,chara_3,FaceUnique02,CONT,0
 
@@ -1507,7 +1507,7 @@ asyncseplay,setag1_51,se4800006,0,1,CONT,0
 asynccharaemo,chara_3,Trouble,CONT,0
 
 
-message,アリシア,も～～……いったいなんなんですかぁっ？,300201000,vc_10530100002_042_01,chara_3
+message,アリシア,Geez... What was all that about?!<br> ,300201000,vc_10530100002_042_01,chara_3
 
 window,off
 wait,0.15
@@ -1544,7 +1544,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,俺が聞きたい。……ちょっと調べないといけないな。<br>というわけで、アリシア。頼まれてくれるか。
+message,<user>,I'm the one who wants to know. I need to look into this.<br>So，Alicia，can you handle it?<br> 
 
 window,off
 wait,0.15
@@ -1569,7 +1569,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（あいつの依頼人は誰だ？　いったい誰が俺の命を狙っている？<br>場合によっては容赦せんぞ！）
+message,<user>,(Who's the client? Who's after my life? I won't go easy on them!)<br> 
 
 window,off
 bgmstop,bgmtag1_4,0.5

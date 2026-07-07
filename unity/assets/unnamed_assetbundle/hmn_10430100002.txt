@@ -49,9 +49,9 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,ジェンマ,はー、仕事終わりの１杯は格別じゃな！,104301000G,vc_10430100002_001_01,chara_1
+message,ジェンマ,Ahh... nothing beats a drink after work!<br> ,104301000G,vc_10430100002_001_01,chara_1
 
-message,<user>,こっちはまだまだ仕事があるってのに、いい身分だな。
+message,<user>,I've still got work to do，but you're living the good life.<br> 
 
 window,off
 wait,0.15
@@ -99,7 +99,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,ルディア,ジェンマさんは採掘から戻ったばかりだから。,300301000,vc_10430100002_002_01,chara_2
+message,ルディア,Gemma just got back from mining.<br> ,300301000,vc_10430100002_002_01,chara_2
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -110,7 +110,7 @@ asyncseplay,setag1_3,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ジェンマ,いい仕事のあとはいい酒と煙草、そう決まっておる。<br>小僧にもそのうち、正しい酒の飲みかたを教えてやるわい。,104301000G,vc_10430100002_003_01,chara_1
+message,ジェンマ,After a good day's work，a good drink and tobacco are a must.<br>Boy，I'll teach you the proper way to drink one of these days.<br> ,104301000G,vc_10430100002_003_01,chara_1
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -121,7 +121,7 @@ asyncseplay,setag1_4,se4800015,0,1,CONT,0
 asynccharaemo,chara_2,Dull,CONT,0
 
 
-message,ルディア,……少しお酒の量が多いようですが、よろしいのですか？,300301000,vc_10430100002_004_01,chara_2
+message,ルディア,It seems you're drinking a lot. Are you sure that's alright?<br> ,300301000,vc_10430100002_004_01,chara_2
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -132,7 +132,7 @@ asyncseplay,setag1_5,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ジェンマ,いいんじゃいいんじゃ、もっと出さんか！,104301000G,vc_10430100002_005_01,chara_1
+message,ジェンマ,It's fine，it's fine! Keep it coming!<br> ,104301000G,vc_10430100002_005_01,chara_1
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -143,7 +143,7 @@ asyncseplay,setag1_6,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,ルディア,かしこまりました。,300301000,vc_10430100002_006_01,chara_2
+message,ルディア,Very well.<br> ,300301000,vc_10430100002_006_01,chara_2
 
 
 window,off
@@ -205,9 +205,9 @@ asynccharaemo,chara_2,Trouble,CONT,0
 
 
 window,on,0.15
-message,ルディア,ジェンマさん、元気そうに振る舞ってるけど……、<br>少し無理しているようには見えない？,300301000,vc_10430100002_007_01,chara_2
+message,ルディア,Gemma's acting cheerful，but don't you think she seems like she's<br>pushing herself?<br> ,300301000,vc_10430100002_007_01,chara_2
 
-message,<user>,……そうかも、な。
+message,<user>,Maybe so.<br> 
 
 window,off
 wait,0.15
@@ -222,7 +222,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（ジェンマのやつ、俺たちに弱いところなんて<br>見せたくないんだろうけど……）
+message,<user>,(Gemma probably doesn't want to show us her weakness，but...)<br> 
 
 window,off
 wait,0.15
@@ -242,9 +242,9 @@ asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,ルディア,放っておくつもりで？,300301000,vc_10430100002_008_01,chara_2
+message,ルディア,Are you going to leave her alone?<br> ,300301000,vc_10430100002_008_01,chara_2
 
-message,<user>,……さて、どうだろうな。
+message,<user>,Well，I wonder.<br> 
 
 
 window,off
@@ -299,7 +299,7 @@ asynccharaemo,chara_3,Speak,CONT,0
 
 
 window,on,0.15
-message,フェリシオーネ,あ。見つけた、ジェンマ。,300701000,vc_10430100002_009_01,chara_3
+message,フェリシオーネ,Ah. There you are，Gemma.<br> ,300701000,vc_10430100002_009_01,chara_3
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -310,7 +310,7 @@ asyncseplay,setag1_9,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ジェンマ,おお、フェリシオーネ。<br>頼まれていた仕事は終えておるぞ。,104301000G,vc_10430100002_010_01,chara_1
+message,ジェンマ,Oh，Felicione. I've finished the work you asked for.<br> ,104301000G,vc_10430100002_010_01,chara_1
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -321,7 +321,7 @@ asyncseplay,setag1_10,se4800006,0,1,CONT,0
 asynccharaemo,chara_3,Trouble,CONT,0
 
 
-message,フェリシオーネ,ん、確認したわ。<br>どれも使えない、あれじゃ駄目。,300701000,vc_10430100002_011_01,chara_3
+message,フェリシオーネ,Mm，I checked. None of them are usable—they are no good.<br> ,300701000,vc_10430100002_011_01,chara_3
 
 bgmplay,bgmtag1_2,bgm0041,0.75,1
 
@@ -334,7 +334,7 @@ asyncseplay,setag1_11,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,ジェンマ,な、なんじゃと！？<br>おかしなことを言うでない、お主の依頼通りの品を納品したはずだ！,104301000G,vc_10430100002_012_01,chara_1
+message,ジェンマ,Wha-what! Don't say ridiculous things! I delivered exactly what you<br>ordered!<br> ,104301000G,vc_10430100002_012_01,chara_1
 
 window,off
 wait,0.15
@@ -353,7 +353,7 @@ asyncshake,CHARA,chara_3,20,0,0.5,1,off,off,0,off,CONT,0
 
 
 window,on,0.15
-message,フェリシオーネ,わたしが依頼したのは、高純度の結晶体。<br>どれも含有量が規定を満たしてない。,300701000,vc_10430100002_013_01,chara_3
+message,フェリシオーネ,I ordered high-purity crystals. None of them meet the specified<br>content.<br> ,300701000,vc_10430100002_013_01,chara_3
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -362,7 +362,7 @@ asyncseplay,setag1_13,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ジェンマ,馬鹿な、そんなはずは……,104301000G,vc_10430100002_014_01,chara_1
+message,ジェンマ,No way，that can't be...<br> ,104301000G,vc_10430100002_014_01,chara_1
 
 asynccharaface,chara_3,EyeOpen,CONT,0
 asynccharaface,chara_3,FaceNormal,CONT,0
@@ -374,7 +374,7 @@ asyncseplay,setag1_14,se4800010,0,1,CONT,0
 asynccharaemo,chara_3,Exclamation,CONT,0
 
 
-message,フェリシオーネ,見た目だけ綺麗な出来損ないね。<br>わたしの研究素材には不適格よ。,300701000,vc_10430100002_015_01,chara_3
+message,フェリシオーネ,They are defective，just pretty on the surface. They are not suitable<br>for my research materials.<br> ,300701000,vc_10430100002_015_01,chara_3
 
 window,off
 wait,0.15
@@ -400,7 +400,7 @@ wait,0.5
 asyncseplay,setag1_15,SE_DUMMY,0,1,CONT,0
 
 window,on,0.15
-message,,フェリシオーネは手にした袋からたくさんの結晶を取り出した。
+message,,Felicione took many crystals from the bag she carried.<br> 
 
 window,off
 wait,0.15
@@ -460,7 +460,7 @@ asynccharaemo,chara_1,Dull,STOP,3.7
 
 
 window,on,0.15
-message,ジェンマ,ワシがそんなミスをするはずが……。<br>い、いや、これは……これも、これもか……！？,104301000G,vc_10430100002_016_01,chara_1
+message,ジェンマ,There's no way I'd make a mistake like that... N-no，this... this one<br>too，and this...!<br> ,104301000G,vc_10430100002_016_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -471,7 +471,7 @@ asyncseplay,setag1_17,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ジェンマ,……うむ、粗悪品がいくつも混ざっておる。<br>すまん、ワシの責任じゃ。,104301000G,vc_10430100002_017_01,chara_1
+message,ジェンマ,Hmm... there are several defective ones mixed in. Sorry，it's my<br>fault.<br> ,104301000G,vc_10430100002_017_01,chara_1
 
 window,off
 wait,0.15
@@ -523,7 +523,7 @@ asynccharaemo,chara_3,Silence,CONT,0
 
 
 window,on,0.15
-message,フェリシオーネ,どうしたの、ジェンマ。<br>あなたらしくないミスね。,300701000,vc_10430100002_018_01,chara_3
+message,フェリシオーネ,What is the matter，Gemma? A mistake like that is not like you.<br> ,300701000,vc_10430100002_018_01,chara_3
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -532,7 +532,7 @@ asyncseplay,setag1_19,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ジェンマ,……本当にすまぬ。<br>すぐに採掘へ向かおう。,104301000G,vc_10430100002_019_01,chara_1
+message,ジェンマ,I truly apologize. I'll head to the mine right away.<br> ,104301000G,vc_10430100002_019_01,chara_1
 
 asynccharaface,chara_3,EyeOpen,CONT,0
 asynccharaface,chara_3,FaceNormal,CONT,0
@@ -540,7 +540,7 @@ asynccharaface,chara_3,FaceNormal,CONT,0
 asyncshake,CHARA,chara_3,20,0,0.5,1,off,off,0,off,CONT,0
 
 
-message,フェリシオーネ,必要ないわ。<br>もう別の人に依頼を出したから。,300701000,vc_10430100002_020_01,chara_3
+message,フェリシオーネ,That will not be necessary. I have already commissioned someone<br>else.<br> ,300701000,vc_10430100002_020_01,chara_3
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -549,7 +549,7 @@ asyncseplay,setag1_20,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ジェンマ,そうか……ワシは要らん、か。,104301000G,vc_10430100002_021_01,chara_1
+message,ジェンマ,I see... so I'm not needed，huh.<br> ,104301000G,vc_10430100002_021_01,chara_1
 
 asynccharaface,chara_3,FaceSurprise,CONT,0
 
@@ -560,7 +560,7 @@ asyncseplay,setag1_21,se4800009,0,1,CONT,0
 asynccharaemo,chara_3,Question,CONT,0
 
 
-message,フェリシオーネ,……本当にどうしたの？<br>また頼むから、次までに調子を戻しておいて。,300701000,vc_10430100002_022_01,chara_3
+message,フェリシオーネ,What is really the matter? I will ask you again，so please be back to<br>your usual self by next time.<br> ,300701000,vc_10430100002_022_01,chara_3
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -571,7 +571,7 @@ asyncseplay,setag1_22,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ジェンマ,うむ……,104301000G,vc_10430100002_023_01,chara_1
+message,ジェンマ,Hmm...<br> ,104301000G,vc_10430100002_023_01,chara_1
 
 window,off
 wait,0.15
@@ -598,7 +598,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（ジェンマのやつ、やっぱり様子がおかしいな……）
+message,<user>,(Gemma's definitely acting strange...)<br> 
 
 window,off
 wait,0.15
@@ -648,9 +648,9 @@ asynccharaemo,chara_3,Exclamation,CONT,0
 
 
 window,on,0.15
-message,フェリシオーネ,あなた、何か知ってるのね。,300701000,vc_10430100002_024_01,chara_3
+message,フェリシオーネ,You know something，I take it.<br> ,300701000,vc_10430100002_024_01,chara_3
 
-message,<user>,思い当たることはある。<br>絶対とは言い切れないがな。
+message,<user>,I have a suspicion. Can't say for certain，though.<br> 
 
 asynccharaface,chara_3,EyeOpen,CONT,0
 asynccharaface,chara_3,FaceNormal,CONT,0
@@ -662,9 +662,9 @@ asyncseplay,setag1_24,se4800014,0,1,CONT,0
 asynccharaemo,chara_3,Silence,CONT,0
 
 
-message,フェリシオーネ,ん、ならどうにかして。,300701000,vc_10430100002_025_01,chara_3
+message,フェリシオーネ,Then do something about it.<br> ,300701000,vc_10430100002_025_01,chara_3
 
-message,<user>,おいっ！？<br>俺に丸投げかっ！？
+message,<user>,Hey! Are you leaving it all to me?<br> 
 
 asynccharaface,chara_3,FaceSurprise,CONT,0
 
@@ -675,9 +675,9 @@ asyncseplay,setag1_25,se4800019,0,1,CONT,0
 asynccharaemo,chara_3,Elated,CONT,0
 
 
-message,フェリシオーネ,部下の管理は司令官の仕事。,300701000,vc_10430100002_026_01,chara_3
+message,フェリシオーネ,Managing subordinates is the Commander's job.<br> ,300701000,vc_10430100002_026_01,chara_3
 
-message,<user>,ほとんど同じことがお前にも言えるだろうが。<br>ペルディオンの仲間だろ、なんとかしてやれよ。
+message,<user>,The same goes for you. She's from Perdion，like you，so help her out.<br> 
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -688,13 +688,13 @@ asyncseplay,setag1_26,se4800009,0,1,CONT,0
 asynccharaemo,chara_3,Question,CONT,0
 
 
-message,フェリシオーネ,……？<br>わたしにできると思う？,300701000,vc_10430100002_027_01,chara_3
+message,フェリシオーネ,...? Do you think I can do something?<br> ,300701000,vc_10430100002_027_01,chara_3
 
-message,<user>,……確かにそうだな、と納得はしたが。<br>お前はそれでいいのかよ……
+message,<user>,You've got a point，I guess，but are you okay with that...?<br> 
 
 asynccharaface,chara_3,FaceSurprise,CONT,0
 
-message,<user>,まあいい、ジェンマのことは俺も動いていた。<br>フェリシオーネ、少し力を貸してもらうぞ。
+message,<user>,Anyway，I've already been looking into the Gemma situation.<br>Felicione，I need your help.<br> 
 
 
 window,off
@@ -746,9 +746,9 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,ジェンマ,ふう……いかんのう。<br>このところ失敗が多い……そろそろ引退するべきじゃろうか。,104301000G,vc_10430100002_028_01,chara_1
+message,ジェンマ,*sigh*... this won't do. I've been making too many mistakes<br>lately... maybe it's time for me to retire...?<br> ,104301000G,vc_10430100002_028_01,chara_1
 
-message,<user>,ジェンマ、ちょっといいか。
+message,<user>,Gemma，got a minute?<br> 
 
 window,off
 wait,0.15
@@ -788,9 +788,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ジェンマ,む、どうした、小僧。<br>ワシに何ぞ用か？,104301000G,vc_10430100002_029_01,chara_1
+message,ジェンマ,Hmm，what is it，boy? Did you need something?<br> ,104301000G,vc_10430100002_029_01,chara_1
 
-message,<user>,ちょっとデートに付き合ってほしいと思ってな。
+message,<user>,I was wondering if you'd come on a date with me.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -801,7 +801,7 @@ asyncseplay,setag1_29,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ジェンマ,なんだと……！？<br>でえとじゃと……！？,104301000G,vc_10430100002_030_01,chara_1
+message,ジェンマ,What the—! A date? With me?<br> ,104301000G,vc_10430100002_030_01,chara_1
 
 window,off
 wait,0.15
@@ -820,9 +820,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ジェンマ,ふっ、この前の街歩きでワシの魅力にやられてしもうたか？<br>いいじゃろういいじゃろう、甲斐性と思って付き合ってやるわ！,104301000G,vc_10430100002_031_01,chara_1
+message,ジェンマ,Heh，did you fall for my charm on our stroll the other day?<br>Fine，fine，I'm feeling generous—I'll come along!<br> ,104301000G,vc_10430100002_031_01,chara_1
 
-message,<user>,ま、そういうことにしといてやる。<br>付き合ってくれ。
+message,<user>,Sure，let's go with that. Come on.<br> 
 
 window,off
 wait,0.15
@@ -837,7 +837,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（……空元気、だな。<br>まあ、今はそれでいい）
+message,<user>,(...Just putting on a brave face. Well，that's fine for now.)<br> 
 
 
 bgmstop,bgmtag1_2,1.5,0
@@ -875,9 +875,9 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 
 window,on,0.15
-message,ジェンマ,でぇとと言って付き合わせる先が職人街とは。<br>なんとも色気がないのう。,104301000G,vc_10430100002_032_01,chara_1
+message,ジェンマ,You call it a date but take me to the artisan district? How<br>unromantic.<br> ,104301000G,vc_10430100002_032_01,chara_1
 
-message,<user>,資材の仕入れに新しい店を探してる。<br>この手のことで頼るならジェンマだと思ったんだ。
+message,<user>,I'm looking for new shops for supplies. I figured you're the one to<br>ask for this kind of thing.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -888,7 +888,7 @@ asyncseplay,setag1_32,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ジェンマ,小僧にでえとぷらんを期待するのも酷じゃ。<br>まあ、構わんだろう。,104301000G,vc_10430100002_033_01,chara_1
+message,ジェンマ,Expecting a date plan from a boy is too much. Well，I don't mind.<br> ,104301000G,vc_10430100002_033_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -899,9 +899,9 @@ asyncseplay,setag1_33,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ジェンマ,しかし教える以上はすべて学んでもらうからの！<br>覚悟してついて来るんじゃぞ～？,104301000G,vc_10430100002_034_01,chara_1
+message,ジェンマ,But if I'm teaching，I'll make you learn everything! Be prepared and<br>follow me，got it?<br> ,104301000G,vc_10430100002_034_01,chara_1
 
-message,<user>,ほ、ほどほどで頼みたいんだが……
+message,<user>,Uh，I'd appreciate it if you kept it moderate...<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -913,9 +913,9 @@ asyncseplay,setag1_34,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ジェンマ,では軽い問題を出してやろう。<br>どうしてこの街に多くの工房が店を構えているか、分かるか？,104301000G,vc_10430100002_035_01,chara_1
+message,ジェンマ,Then I'll give you an easy one. Do you know why so many workshops<br>have stores in this town?<br> ,104301000G,vc_10430100002_035_01,chara_1
 
-message,<user>,ここに需要があるから……ってだけじゃなさそうだな。<br>恐らくは、ここにしかないものを求めて……
+message,<user>,It's not just because there's demand here. Probably because people<br>are after things that can only be found here...<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -926,7 +926,7 @@ asyncseplay,setag1_35,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ジェンマ,ほっほっほ、優秀ではないか。,104301000G,vc_10430100002_036_01,chara_1
+message,ジェンマ,Ho ho ho，not bad. You're sharp.<br> ,104301000G,vc_10430100002_036_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -934,7 +934,7 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,ジェンマ,この街が栄える理由はな、大穴から採れる希少な、<br>場合によっては未発見の素材が、最初に手に入るからじゃ。,104301000G,vc_10430100002_037_01,chara_1
+message,ジェンマ,The reason this town thrives is that rare materials—sometimes even<br>undiscovered ones—mined from the Abyss are available here first.<br> ,104301000G,vc_10430100002_037_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -945,9 +945,9 @@ asyncseplay,setag1_36,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ジェンマ,この街に住む職人連中は、<br>好奇心と探究心に満ちた命知らずばかり、ということじゃ。,104301000G,vc_10430100002_038_01,chara_1
+message,ジェンマ,The artisans who live here are all daredevils full of curiosity and<br>a spirit of inquiry.<br> ,104301000G,vc_10430100002_038_01,chara_1
 
-message,<user>,命がけで好奇心を満たしに来てるやつらだもんな。<br>頼りしていいんだか、呆れればいいんだか……
+message,<user>,They're folks who risk their lives to satisfy their curiosity. I<br>don't know if I should rely on them or be exasperated...<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -958,7 +958,7 @@ asyncseplay,setag1_37,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ジェンマ,そしてもう１つ。<br>この街で仕入れをするのなら、気をつけるべきことがある。,104301000G,vc_10430100002_039_01,chara_1
+message,ジェンマ,And one more thing. If you're going to source materials in this<br>town，there's something you need to watch out for.<br> ,104301000G,vc_10430100002_039_01,chara_1
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -967,9 +967,9 @@ asyncseplay,setag1_38,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ジェンマ,命知らずの街だからこそ、様々な商人が集まる。<br>さて、どういった店を避けるべきかの？,104301000G,vc_10430100002_040_01,chara_1
+message,ジェンマ,Precisely because it's a town of daredevils，all sorts of merchants<br>gather. Now，what kind of shops should you stay away from?<br> ,104301000G,vc_10430100002_040_01,chara_1
 
-message,<user>,さっきの話を踏まえれば、<br>好奇心に支配されて貴重な素材の中抜きをする店ってのは困るな。
+message,<user>,Based on what you just said，shops driven by curiosity that exploit<br>valuable materials would be a problem.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -980,7 +980,7 @@ asyncseplay,setag1_39,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ジェンマ,ふむ、司令官らしい答えじゃのう。<br>それも１つじゃが、また別だ。,104301000G,vc_10430100002_041_01,chara_1
+message,ジェンマ,Hmph，an answer worthy of the Commander. That's one way，but there's<br>another.<br> ,104301000G,vc_10430100002_041_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -992,14 +992,14 @@ asyncseplay,setag1_40,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ジェンマ,いいか、この街に来るものが抱くのは好奇心と探究心だけではない。<br>――成り上がってやろうという野心があるんじゃ。,104301000G,vc_10430100002_042_01,chara_1
+message,ジェンマ,Listen，people who come here aren't driven only by curiosity and<br>knowledge. They've got ambition—the will to climb to the top.<br> ,104301000G,vc_10430100002_042_01,chara_1
 
 asyncjump,CHARA,chara_1,-30,0.5,2,off,0,CONT
 
 
-message,ジェンマ,技術もない、知識も足りない、しかし野心はある。<br>そんなやつも少なくはないんじゃ。,104301000G,vc_10430100002_043_01,chara_1
+message,ジェンマ,They've got no skills，not enough knowledge，but they've got ambition.<br>There are plenty of folks like that.<br> ,104301000G,vc_10430100002_043_01,chara_1
 
-message,<user>,野心があるだけで実力不足の商人か。<br>他の街から流れてきた、口だけのペテン師も混ざっているはずだな。
+message,<user>,Merchants who are all ambition and no skill? I bet there are<br>smooth-talking swindlers who've washed up from other towns mixed in too.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1010,7 +1010,7 @@ asyncseplay,setag1_41,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ジェンマ,うむ！　まさに玉石混交のこの街では、<br>確かな目利きが必要ということじゃ！,104301000G,vc_10430100002_044_01,chara_1
+message,ジェンマ,Exactly! In this city，where it's a true mix of gems and stones，you<br>need a sharp eye to tell the difference.<br> ,104301000G,vc_10430100002_044_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1021,9 +1021,9 @@ asyncseplay,setag1_42,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ジェンマ,その見分けかた、ワシが小僧に仕込んでやるわい！<br>なんせこの辺りの職人とはいつも飲み歩いておるからの！,104301000G,vc_10430100002_045_01,chara_1
+message,ジェンマ,I'll teach you that skill，my lad! After all，I'm always out drinking<br>with the local craftsmen!<br> ,104301000G,vc_10430100002_045_01,chara_1
 
-message,<user>,……野心を抱いてこの街に来た若者は、<br>こういうベテランに叩き直されるんだろうなあ。
+message,<user>,So the young ones who come to this city with ambition... they get<br>knocked into shape by veterans like this，huh.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1034,9 +1034,9 @@ asyncseplay,setag1_43,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ジェンマ,何をブツブツ言っておる！<br>今日中にすべての店をまわるぞ、ついてこい！,104301000G,vc_10430100002_046_01,chara_1
+message,ジェンマ,What are you grumbling about! We're going to hit every shop today!<br>Follow me!<br> ,104301000G,vc_10430100002_046_01,chara_1
 
-message,<user>,了解だ、勉強させてもらうよ。
+message,<user>,Got it. I'll make sure to learn a thing or two.<br> 
 
 
 window,off
@@ -1058,7 +1058,7 @@ charaface,chara_1,FaceNormal
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,<user>,ああ……つ、疲れた……
+message,<user>,Ahh... I'm... beat...<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1069,9 +1069,9 @@ asyncseplay,setag1_44,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ジェンマ,１日歩いた程度で情けないのう。<br>それで司令官が務まるのか？,104301000G,vc_10430100002_047_01,chara_1
+message,ジェンマ,Pathetic，getting tired after just one day of walking! Can you even<br>call yourself the Commander like that?<br> ,104301000G,vc_10430100002_047_01,chara_1
 
-message,<user>,俺の仕事は肉体労働じゃないんだよ！<br>ジェンマの話を聞くだけで精一杯だ！
+message,<user>,My job isn't manual labor! It takes everything I've got just to keep<br>up with your stories，Gemma!<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1082,7 +1082,7 @@ asyncseplay,setag1_45,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ジェンマ,ほっほっほ、しっかり覚えておくんじゃぞ。,104301000G,vc_10430100002_048_01,chara_1
+message,ジェンマ,Ho ho ho，make sure you remember it well，lad.<br> ,104301000G,vc_10430100002_048_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1094,7 +1094,7 @@ asyncseplay,setag1_46,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ジェンマ,将来有望な若者をからかうのは、ワシらの趣味のようなもんだ。<br>これまでに得た知識は、受け継いでもらいたいからの。,104301000G,vc_10430100002_049_01,chara_1
+message,ジェンマ,Teasing promising youngsters is a bit of a hobby of mine. I want to<br>pass on the knowledge I've gained over the years.<br> ,104301000G,vc_10430100002_049_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1105,9 +1105,9 @@ asyncseplay,setag1_47,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ジェンマ,……そう言って、ワシのほうが長く生きてしまうのじゃがな。,104301000G,vc_10430100002_050_01,chara_1
+message,ジェンマ,...And yet，it seems I'm the one who always ends up living longer.<br> ,104301000G,vc_10430100002_050_01,chara_1
 
-message,<user>,ドワーフはかなり長く生きると聞いてる。<br>友人や教え子を失ったこともあるんだろうな。
+message,<user>,I've heard dwarves live for a very long time. You must have seen off<br>many friends and students.<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -1116,7 +1116,7 @@ asyncseplay,setag1_48,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ジェンマ,ああ……何人もの友を見送ってきた。,104301000G,vc_10430100002_051_01,chara_1
+message,ジェンマ,Yeah... I've seen a lot of friends off.<br> ,104301000G,vc_10430100002_051_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1127,9 +1127,9 @@ asyncseplay,setag1_49,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ジェンマ,誰もが己の人生を生き抜いた結果だ、惜しんではいかん。<br>……分かっていても、やりきれんものよ。,104301000G,vc_10430100002_052_01,chara_1
+message,ジェンマ,Everyone lived their lives to the fullest，so it's not something I<br>should regret. ...I know that，but it's still hard to bear.<br> ,104301000G,vc_10430100002_052_01,chara_1
 
-message,,ジェンマは並々と酒の注がれたジョッキを一気に飲み干した。
+message,,Gemma paused，then drained the brimming beer stein in a single gulp.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1141,9 +1141,9 @@ asyncseplay,setag1_50,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ジェンマ,はー、いかんいかん！<br>ワシとしたことが、若いもんに湿っぽい酒を飲ませるなど！,104301000G,vc_10430100002_053_01,chara_1
+message,ジェンマ,*sigh*，no，no! Making a young lad drink such a somber toast is no way<br>for a veteran like me to act!<br> ,104301000G,vc_10430100002_053_01,chara_1
 
-message,<user>,なんだよ、俺には本音を話す価値もないか？<br>ジェンマの歩んできた道ってのを学ばせてくれよ。
+message,<user>,What's this? You don't think I'm worth hearing your true feelings?<br>Let me learn about the path you've walked，Gemma.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1154,7 +1154,7 @@ asyncseplay,setag1_51,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ジェンマ,……言うたな、小僧？<br>ならば限界まで付き合ってもらおうではないか！,104301000G,vc_10430100002_054_01,chara_1
+message,ジェンマ,...You said that，did you，boy? Then I'll have you keep me company to<br>the very end!<br> ,104301000G,vc_10430100002_054_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1165,7 +1165,7 @@ asyncseplay,setag1_52,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ジェンマ,さあ飲むぞ！　今日はワシのおごりじゃ！,104301000G,vc_10430100002_055_01,chara_1
+message,ジェンマ,Come on，drink up! Today it's on me!<br> ,104301000G,vc_10430100002_055_01,chara_1
 
 window,off
 wait,0.15
@@ -1201,7 +1201,7 @@ transitionCrossFade,Tra02,0.5
 wait,0.5
 
 window,on,0.15
-message,<user>,……ルディア、俺のは途中から酒を抜いといてくれ。
+message,<user>,...Ludia，could you start watering down my drink partway through?<br> 
 
 asynccharaface,chara_2,FaceUnique03,CONT,0
 
@@ -1212,7 +1212,7 @@ asyncseplay,setag1_53,se4800005,0,1,CONT,0
 asynccharaemo,chara_2,Flash,CONT,0
 
 
-message,ルディア,分かったわ。,300301000,vc_10430100002_056_01,chara_2
+message,ルディア,Got it.<br> ,300301000,vc_10430100002_056_01,chara_2
 
 
 window,off
@@ -1259,7 +1259,7 @@ asynccharaemo,chara_1,Sleepy,CONT,0
 
 
 window,on,0.15
-message,ジェンマ,……んん、ぐぅ……すぅ……,104301000G,vc_10430100002_057_01,chara_1
+message,ジェンマ,...Ngh... *snore*...<br> ,104301000G,vc_10430100002_057_01,chara_1
 
 window,off
 wait,0.15
@@ -1301,9 +1301,9 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,ルディア,ジェンマさん、すっかり酔いつぶれちゃったわね。<br>このまま泊まっていっても構わないわよ？,300301000,vc_10430100002_058_01,chara_2
+message,ルディア,Gemma's completely passed out drunk. You're welcome to stay the<br>night，you know?<br> ,300301000,vc_10430100002_058_01,chara_2
 
-message,<user>,いいや、連れて帰るよ。<br>ほらジェンマ、背中につかまれ。
+message,<user>,No，I'll take her home. Come on，Gemma，hold onto my back.<br> 
 
 window,off
 wait,0.15
@@ -1335,7 +1335,7 @@ asynccharaemo,chara_1,Sleepy,CONT,0
 
 
 window,on,0.15
-message,ジェンマ,むぅ、ぉぉ……,104301000G,vc_10430100002_059_01,chara_1
+message,ジェンマ,Mmm，ohh...<br> ,104301000G,vc_10430100002_059_01,chara_1
 
 
 window,off
@@ -1362,13 +1362,13 @@ emodelete,chara_1,0,0
 transitionFade,Tra05,in,black,1
 
 window,on,0.15
-message,,――夜の街で背負ったジェンマは少し酒臭く、<br>想像したよりもずっと軽い。
+message,,As I carried her through the night streets，Gemma smelled faintly of<br>liquor and felt far lighter than I'd imagined.<br> 
 
-message,ジェンマ,ん……うぅ……,104301000G,vc_10430100002_060_01,
+message,ジェンマ,Ngh... urgh...<br> ,104301000G,vc_10430100002_060_01,
 
-message,ジェンマ,どうしてみんな先に死んでいくんじゃ……,104301000G,vc_10430100002_061_01,
+message,ジェンマ,Why does everyone die before me...<br> ,104301000G,vc_10430100002_061_01,
 
-message,<user>,……
+message,<user>,...<br> 
 
 window,off
 wait,0.15
@@ -1385,9 +1385,9 @@ transitionCrossFade,Tra03,1
 wait,1
 
 window,on,0.15
-message,,この小さな体にどれだけの別れを積み重ねてきたのか、<br>想像もできなかった――
+message,,I couldn't even imagine how many goodbyes that small body had<br>carried.<br> 
 
-message,ジェンマ,ワシを置いていくな……。<br>勝手にいなくなるのは、やめてくれ……,104301000G,vc_10430100002_062_01,
+message,ジェンマ,Don't leave me... Please don't disappear on me...<br> ,104301000G,vc_10430100002_062_01,
 
 window,off
 bgmstop,bgmtag1_4,0.5

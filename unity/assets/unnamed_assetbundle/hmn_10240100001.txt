@@ -254,7 +254,7 @@ window,on,0.15
 message,マックン,よう！　オレがマックンだ！<br>よろしくな、兄ちゃんよ！,900000003
 
 
-message,<user>,嘘だろ、花が喋ってる！？<br>会話のできる植物なんてあるのか！？
+message,<user>,No way，a flower is talking! Are there really plants that can talk?<br> 
 
 window,off
 wait,0.15
@@ -283,9 +283,9 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,マニョリア,マックンはとっても珍しい成長をした魔法植物だから。,,vc_10240100001_009_01,chara_1
+message,マニョリア,Makkun is a magical plant that grew in a very rare way.<br> ,,vc_10240100001_009_01,chara_1
 
-message,<user>,いやいや、どういう成長をしたら花が喋るんだ！？
+message,<user>,No，no，what kind of growth lets a flower talk?<br> 
 
 window,off
 wait,0.15
@@ -309,7 +309,7 @@ wait,0.5
 asyncmove,SUBIMAGE,subimage_0,4,0,0,LinearTarget,CONT
 
 window,on,0.15
-message,マックン,……実はマニョリアの親父さんは、<br>エルドラーナでちっと名の知れた商人をしていたんだよ。,900000003
+message,マックン,...Actually，Magnolia's old man was a pretty well-known merchant in<br>Eldorana.<br> ,900000003
 
 window,off
 wait,0.15
@@ -339,7 +339,7 @@ wait,0.5
 asyncmove,BACK,,4,200,0,LinearTarget,CONT,0
 
 window,on,0.15
-message,マックン,オレは元々普通の花だったんだけどよ、<br>アイツがすっごく貴重な魔法水で育ててくれてなあ……。,900000003
+message,マックン,I was originally an ordinary flower，but he raised me with super rare<br>Magic Water...<br> ,900000003
 
 window,off
 wait,0.15
@@ -383,19 +383,19 @@ wait,1
 wait,0.5
 
 window,on,0.15
-message,マックン,魔法水の影響で強い魔力を帯びたオレは、<br>はっきりした意思をもって、言葉も喋れるようになったのさ。,900000003
+message,マックン,The Magic Water gave me strong magical power，a clear will，and the<br>ability to talk.<br> ,900000003
 
-message,<user>,おい、勝手に語りだしたぞ。<br>しかも内容がまあまあ気になるし……。
+message,<user>,Hey，he started talking on his own. And it's actually pretty<br>interesting...<br> 
 
-message,マックン,何度も何度も言葉を交わしながら、共に笑い、共に泣き、<br>悩みを共有し……やがてオレとマニョの親父さんはダチになったんだ。,900000003
+message,マックン,We talked over and over，laughed together，cried together，shared our<br>worries... and eventually，me and Magnolia's old man became buddies.<br> ,900000003
 
-message,<user>,なんだか無駄に熱い展開になってきたな……。
+message,<user>,This is getting unnecessarily passionate...<br> 
 
-message,マックン,マニョがこの基地へ向かった時にも、見守るように任されたんだぜ。,900000003
+message,マックン,When Magnolia came to this base，I was put in charge of watching over<br>her.<br> ,900000003
 
-message,マックン,へっ……今も目を閉じれば、子離れできずに号泣している<br>アイツの泣き顔を思い出すぜ……。,900000003
+message,マックン,Heh... even now，when I close my eyes，I can see that guy's<br>face，bawling because he couldn't let his kid go.<br> ,900000003
 
-message,<user>,どの部分が目で、どうやって閉じるんだ……？<br>しかし本当におしゃべりな花だな。
+message,<user>,Which part are the eyes and how does he close them...? But<br>man，that's one talkative flower.<br> 
 
 window,off
 wait,0.15
@@ -424,7 +424,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,マニョリア,……マックンがいるから、<br>お父さんと離れていても、寂しくない。,,vc_10240100001_010_01,chara_1
+message,マニョリア,...Because Makkun is here，I'm not lonely even when I'm away from<br>Dad.<br> ,,vc_10240100001_010_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -435,7 +435,7 @@ asyncseplay,setag1_11,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,マニョリア,それに、マニョが上手に話せない時も、<br>マックンが代わりにお話してくれる。,,vc_10240100001_011_01,chara_1
+message,マニョリア,And when I can't talk well，Makkun speaks for me.<br> ,,vc_10240100001_011_01,chara_1
 
 window,off
 wait,0.15
@@ -455,9 +455,9 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,マックン,代わりにオレの世話はマニョに頼んでるのさ。<br>持ちつ持たれつってやつだ。,900000003
+message,マックン,In return，I have Magnolia look after me. It's a give-and-take<br>relationship.<br> ,900000003
 
-message,<user>,へえ、いいコンビなんだな。<br>ちなみにマックンは、喋る以外にどんなことができるんだ？
+message,<user>,Huh，you make a good team. By the way，Makkun，what else can you do<br>besides talk?<br> 
 
 
 window,off
@@ -487,9 +487,9 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,マニョリア,モンスターをがぶっと噛んだりして、<br>一緒に戦ってくれる。,,vc_10240100001_012_01,chara_1
+message,マニョリア,He can bite monsters and fight alongside me.<br> ,,vc_10240100001_012_01,chara_1
 
-message,<user>,思ったより獰猛だな、マックン！
+message,<user>,Makkun，you're more ferocious than I expected!<br> 
 
 window,off
 wait,0.15
@@ -509,9 +509,9 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,マックン,へっ、これでもマニョのボディーガードなんだぜ？<br>悪い虫は近づけねえ！,900000003
+message,マックン,Heh，I'm Magnolia's bodyguard! I won't let any bad bugs near her!<br> ,900000003
 
-message,マックン,オレはマニョと共生関係なんだよ！<br>そうだよな、マニョ！,900000003
+message,マックン,I have a symbiotic relationship with Magnolia! Right，Magnolia?<br> ,900000003
 
 window,off
 wait,0.15
@@ -541,7 +541,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,マニョリア,うん、マックンがいないと困る。<br>だから、ちゃんとお世話してるよ。,,vc_10240100001_013_01,chara_1
+message,マニョリア,Yeah，I'd be in trouble without Makkun. So I take good care of him.<br> ,,vc_10240100001_013_01,chara_1
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -550,7 +550,7 @@ asyncseplay,setag1_14,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,マニョリア,マックンのために、宿舎のお部屋もちゃんと選んだ。<br>日当たりがよくて窓の多い、角のお部屋。,,vc_10240100001_014_01,chara_1
+message,マニョリア,I even chose the room in the dorms for Makkun. A corner room with<br>lots of windows and good sunlight.<br> ,,vc_10240100001_014_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -561,7 +561,7 @@ asyncseplay,setag1_15,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,マニョリア,それにマックンを放っておいたら魔法水を全部飲んじゃう。<br>マニョがちゃんとお世話しなきゃいけない。,,vc_10240100001_015_01,chara_1
+message,マニョリア,Besides，if I leave him alone，he'll drink all the Magic Water. I have<br>to take proper care of him.<br> ,,vc_10240100001_015_01,chara_1
 
 window,off
 wait,0.15
@@ -581,7 +581,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,マックン,オレは植物だからなっ！<br>そこに美味しい水があったら吸わずにゃいられんよ！,900000003
+message,マックン,I'm a plant，you know! If there's tasty water around，I can't help but<br>drink it!<br> ,900000003
 
 window,off
 wait,0.15
@@ -610,7 +610,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,マニョリア,飲み過ぎはダメ。<br>マックンが根腐れしちゃう。,,vc_10240100001_016_01,chara_1
+message,マニョリア,Drinking too much is no good. You'll get root rot.<br> ,,vc_10240100001_016_01,chara_1
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -619,9 +619,9 @@ asyncseplay,setag1_17,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,マニョリア,それに……魔法水、とっても高いから。,,vc_10240100001_017_01,chara_1
+message,マニョリア,Besides... the Magic Water is really expensive.<br> ,,vc_10240100001_017_01,chara_1
 
-message,<user>,貴重な魔法水、ねえ。<br>それってこの街でも買えるのか？
+message,<user>,Precious Magic Water，huh. Can you even buy it in this town?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -633,9 +633,9 @@ asyncseplay,setag1_18,se4800013,0,1,STOP,4
 asynccharaemo,chara_1,Spirits,STOP,4
 
 
-message,マニョリア,ううん、なかなか手に入らないから、<br>お父さんがマニョのところに送ってくれてる。,,vc_10240100001_018_01,chara_1
+message,マニョリア,No，it's hard to come by，so my father sends it to me.<br> ,,vc_10240100001_018_01,chara_1
 
-message,<user>,なるほど、そりゃ大量に飲まれたら困るな。
+message,<user>,I see. That would be a problem if he drank too much.<br> 
 
 
 window,off
@@ -670,7 +670,7 @@ asynccharaemo,chara_2,Exclamation,CONT,0
 
 
 window,on,0.15
-message,怪しげな男,貴重な魔法水……？<br>たしか今、エルドラーナで高く売れたはず、だよな……？,2028301,,chara_2
+message,怪しげな男,Precious Magic Water...? I'm sure that sold for a lot in<br>Eldorana，right...?<br> ,2028301,,chara_2
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -681,9 +681,9 @@ asyncseplay,setag1_20,se4800005,0,1,CONT,0
 asynccharaemo,chara_2,Flash,CONT,0
 
 
-message,怪しげな男,さっき宿舎の角の部屋って言ってたな……。<br>もし魔法水が手に入れば……！,2028301,,chara_2
+message,怪しげな男,She said it was a corner room in the dorms earlier... If I can get<br>that Magic Water...!<br> ,2028301,,chara_2
 
-message,<user>,……ん？
+message,<user>,...Huh?<br> 
 
 window,off
 wait,0.15
@@ -702,7 +702,7 @@ wait,0.5
 
 
 window,on,0.15
-message,怪しげな男,っ！？,2028301,,chara_2
+message,怪しげな男,...!<br> ,2028301,,chara_2
 
 
 window,off
@@ -747,9 +747,9 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,マニョリア,……おにいさん？<br>どうしたの？,,vc_10240100001_019_01,chara_1
+message,マニョリア,Big Brother? What's wrong?<br> ,,vc_10240100001_019_01,chara_1
 
-message,<user>,いや、妙な視線を感じた気がしたが……。
+message,<user>,No，I thought I felt a strange gaze... but...<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -761,7 +761,7 @@ asyncseplay,setag1_23,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,マニョリア,……ふーん。,,vc_10240100001_020_01,chara_1
+message,マニョリア,...Hmm.<br> ,,vc_10240100001_020_01,chara_1
 
 window,off
 wait,0.15
@@ -781,7 +781,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,マックン,おっとマニョ？　そりゃもしかして、<br>「自分と一緒だから他人を気にしないで！」ってヤキモチか！？,900000003
+message,マックン,Whoa，Manyo? Could that be jealousy? Like，'You're with me，so don't<br>worry about anyone else!'?<br> ,900000003
 
 
 window,off
@@ -819,7 +819,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,マニョリア,えっ……違う、よ。<br>そんなんじゃなくて……。,,vc_10240100001_021_01,chara_1
+message,マニョリア,Eh... it's not that... It's not like that...<br> ,,vc_10240100001_021_01,chara_1
 
 window,off
 wait,0.15
@@ -839,7 +839,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,マックン,オレが寝てるのに２人でお出かけなんて変だと思ったんだ！<br>マニョもついに初恋か！　オレは応援するぜ！,900000003
+message,マックン,I thought it was weird that you two went out while I was asleep!<br>Could Manyo finally be in love? I'm rooting for you!<br> ,900000003
 
 window,off
 wait,0.15
@@ -874,7 +874,7 @@ asynccharaemo,chara_1,Shy,CONT,0
 
 
 window,on,0.15
-message,マニョリア,……これ以上しゃべったら、また寝かせるから。,,vc_10240100001_022_01,chara_1
+message,マニョリア,...If you talk any more，I'll put you back to sleep.<br> ,,vc_10240100001_022_01,chara_1
 
 window,off
 wait,0.15
@@ -894,9 +894,9 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,マックン,おおっと、すまねえすまねえ、喋りすぎたな！,900000003
+message,マックン,Whoops，sorry，sorry! Got a little carried away there!<br> ,900000003
 
-message,<user>,寝かせる……というのは？
+message,<user>,Put him to sleep... what does that mean?<br> 
 
 window,off
 wait,0.15
@@ -923,9 +923,9 @@ asynccharaemo,chara_1,BePeevish,CONT,0
 
 
 window,on,0.15
-message,マニョリア,マックンは、根っこのちょっと上をキュっとすると寝ちゃうの。<br>うるさい時はこうやって静かにしてもらう。,,vc_10240100001_023_01,chara_1
+message,マニョリア,Makkun... if you squeeze just above his root... he falls asleep.<br>When he gets too loud... I use that to quiet him down.<br> ,,vc_10240100001_023_01,chara_1
 
-message,<user>,マックンが平気ならいいが……なかなかの力技だな。<br>今日もさっきまでは、そうやって寝かせていたのか？
+message,<user>,Well，if Makkun doesn't mind，I guess it's fine... but that's a pretty<br>crude method. Is that how you kept him asleep earlier today?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -938,9 +938,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 asynccharaface,chara_1,FaceHappy,STOP,1.3
 
 
-message,マニョリア,……うん。おにいさんは、ちゃんとマニョのお話を聞いてくれるから、<br>マックンがいなくても……平気かなって……。,,vc_10240100001_024_01,chara_1
+message,マニョリア,...Yeah. Because Big Brother really listens to what I have to say...<br>even without Makkun，I thought... I'd be okay.<br> ,,vc_10240100001_024_01,chara_1
 
-message,<user>,そう思ってくれてるのはうれしいな。<br>俺もマニョと話をするのは楽しいぞ。
+message,<user>,I'm glad you feel that way. I enjoy talking with you too，Manyo.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -951,7 +951,7 @@ asyncseplay,setag1_29,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,マニョリア,もう、おにいさん……。,,vc_10240100001_025_01,chara_1
+message,マニョリア,Oh，Big Brother...<br> ,,vc_10240100001_025_01,chara_1
 
 window,off
 wait,0.15
@@ -971,7 +971,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,マックン,いい雰囲気じゃねえかお２人さん！<br>よーし、この後は仲良く食事といこうじゃねえか！,900000003
+message,マックン,Nice vibe，you two! Alright，how about we all grab a nice meal<br>together?<br> ,900000003
 
 window,off
 wait,0.15
@@ -1000,9 +1000,9 @@ asynccharaemo,chara_1,Anger,CONT,0
 
 
 window,on,0.15
-message,マニョリア,マックンっ！<br>おにいさんに迷惑かけちゃダメ……！,,vc_10240100001_026_01,chara_1
+message,マニョリア,Makkun! Don't trouble Big Brother...!<br> ,,vc_10240100001_026_01,chara_1
 
-message,<user>,いや、構わないぞ。<br>手伝ってもらった礼だ、食事ぐらいは奢らせてくれ。
+message,<user>,No，it's no trouble. Consider it thanks for helping me out. At least<br>let me treat you to dinner.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1021,7 +1021,7 @@ asyncseplay,setag1_32,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,マニョリア,おにいさん……ありがとう。,,vc_10240100001_027_01,chara_1
+message,マニョリア,Big Brother... thank you.<br> ,,vc_10240100001_027_01,chara_1
 
 window,off
 wait,0.15
@@ -1041,7 +1041,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,マックン,おっと、さすが話がわかるぜ！<br>今日から兄さんもオレのダチだな！,900000003
+message,マックン,Whoa，you're a man who gets it!<br>From today，you're my buddy，Big Bro!<br> ,900000003
 
 window,off
 wait,0.15
@@ -1061,7 +1061,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,兄さん？　ダチ？<br>別にいいけど……調子のいい花だな！
+message,<user>,Big Bro? Buddy? Well，I don't mind... but you're a pretty smooth<br>talker for a flower!<br> 
 
 
 window,off
@@ -1112,7 +1112,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,怪しげな男,……へへ、こりゃいいことを聞いたぜ。<br>あの嬢ちゃんがいない間に、やるしかねえなあ……！,2028301,,chara_2
+message,怪しげな男,...Heh heh，I heard something good. When that little lady's away，I've<br>got no choice but to go for it...!<br> ,2028301,,chara_2
 
 
 
@@ -1140,7 +1140,7 @@ transitionFade,Tra09,in,black,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――その夜</size>,,,on
+messageTextCenter,,<size=48>—That Night</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -1162,7 +1162,7 @@ bgmplay,bgmtag1_2,bgm0025,0.75,1
 fade,In,Black,1
 
 window,on,0.15
-message,<user>,よし、今日の仕事はこんなもんだな。<br>アリシア、お前も上がっていいぞ。
+message,<user>,Alright，that's enough work for today. Alicia，you can head off too.<br> 
 
 window,off
 wait,0.15
@@ -1195,9 +1195,9 @@ asynccharaemo,chara_3,Shock,CONT,0
 
 
 window,on,0.15
-message,アリシア,ええ……！？<br>司令官、まだまだお仕事は残ってますよっ！？,,vc_10240100001_028_01,chara_3
+message,アリシア,Huh...! Commander，there's still so much work left!<br> ,,vc_10240100001_028_01,chara_3
 
-message,<user>,お前の買い物に時間がかかったせいだぞ。<br>残りは明日にでもやればいいさ。
+message,<user>,That's because your shopping trip took so long. We can do the rest<br>tomorrow.<br> 
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -1208,7 +1208,7 @@ asyncseplay,setag1_35,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,アリシア,うう、街でゆっくり食事をしていたからだと思うんですが……。,,vc_10240100001_029_01,chara_3
+message,アリシア,Ugh，I guess it's because we took our time eating out in the city...<br> ,,vc_10240100001_029_01,chara_3
 
 
 window,off
@@ -1270,7 +1270,7 @@ asyncwait
 
 
 window,on,0.15
-message,マニョリア,おにいさんっ！<br>よかった、いた……っ！,,vc_10240100001_030_01,chara_1
+message,マニョリア,Big Brother! Oh，thank goodness，you're here...!<br> ,,vc_10240100001_030_01,chara_1
 
 asyncjump,CHARA,chara_3,30,0.25,1,off,0,CONT
 
@@ -1279,7 +1279,7 @@ asyncseplay,setag1_38,se4800017,0,1,CONT,0
 asynccharaemo,chara_3,Shock,CONT,0
 
 
-message,アリシア,あら……マニョリアちゃん？<br>そんなに慌てて、どうしたんですか？,,vc_10240100001_031_01,chara_3
+message,アリシア,Oh my... Magnolia? What's wrong，rushing in like that?<br> ,,vc_10240100001_031_01,chara_3
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1290,14 +1290,14 @@ asyncseplay,setag1_39,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,マニョリア,あの、あの……。<br>マニョ、の……っ！,,vc_10240100001_032_01,chara_1
+message,マニョリア,Um，um... Makkun...!<br> ,,vc_10240100001_032_01,chara_1
 
 asynccharaface,chara_3,FaceFun,CONT,0
 
 asyncjump,CHARA,chara_3,-30.6,0.5,1,off,0,CONT
 
 
-message,アリシア,落ち着いて、ゆっくり話して、ね？,,vc_10240100001_033_01,chara_3
+message,アリシア,Calm down，take your time，okay?<br> ,,vc_10240100001_033_01,chara_3
 
 asynccharaface,chara_3,FaceSurprise,CONT,0
 
@@ -1308,9 +1308,9 @@ asyncseplay,setag1_40,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,マニョリア,ダメ、なの。<br>急がないと、大変だから……！,,vc_10240100001_034_01,chara_1
+message,マニョリア,No，we can't! We have to hurry，it's serious...!<br> ,,vc_10240100001_034_01,chara_1
 
-message,<user>,なるほど緊急事態か。<br>整理して話そうとしなくていい。とにかく事情を言ってみろ。
+message,<user>,I see，it's an emergency. You don't have to organize your thoughts.<br>Just tell me what's happened.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1321,7 +1321,7 @@ asyncseplay,setag1_41,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,マニョリア,うん……うん……あのね……。,,vc_10240100001_035_01,chara_1
+message,マニョリア,Yeah... yeah... um，you see...<br> ,,vc_10240100001_035_01,chara_1
 
 window,off
 wait,0.15
@@ -1367,7 +1367,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,マニョリア,マックンが……しゃべれなくなっちゃった！,,vc_10240100001_036_01,chara_1
+message,マニョリア,Makkun... he can't talk anymore!<br> ,,vc_10240100001_036_01,chara_1
 
 window,off
 bgmstop,bgmtag1_3,0.5

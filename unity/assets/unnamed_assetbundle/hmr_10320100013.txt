@@ -17,14 +17,14 @@ seplay,setag3_1,se5050013,0,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,—The next day.,,,on
+messageTextCenter,,<size=48>—The next day.</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
 
 
 window,on,0.15
-message,,When I woke up，Daria's sleeping face was right next to mine. She<br>looked so comfortable and cute that I kept staring at her.<br> 
+message,,When I woke up，Daria's sleeping face was right next to me. She<br>looked so content and cute that I couldn't stop staring.<br> 
 
 
 
@@ -50,7 +50,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,,Then，Daria blinked her eyes open.<br> 
+message,,Then，Daria's eyes fluttered open.<br> 
 
 window,off
 wait,0.15
@@ -61,7 +61,7 @@ asynccharashow,chara_1,0.3,CONT
 charamove,chara_1,LinearTarget,CharaHeight,0,0.3
 
 window,on,0.15
-message,<user>,You're awake? Good morning.<br> 
+message,<user>,Oh，you're awake. Good morning.<br> 
 
 asyncseplay,setag3_3,se4800012,0,1,CONT
 
@@ -73,7 +73,7 @@ charaface,chara_1,FaceUnique01
 asynccharareaction,chara_1,Nod,1,STOP
 message,ダリア,...Yes. Good morning.<br> ,,vc_10320100013_001_01
 
-message,,Her tone had returned to normal—just as I was thinking that，she<br>asked me with a seductive expression.<br> 
+message,,Her tone was back to normal—just as I thought，she asked me with a<br>seductive expression.<br> 
 
 
 
@@ -84,7 +84,7 @@ asynccharaemo,chara_1,Heart,STOP
 charaface,chara_1,FaceShy
 message,ダリア,Boss... I want to train again，like this.<br> ,,vc_10320100013_002_01
 
-message,,Her plea，delivered in a sweet voice that defied my expectations，made<br>me smile despite myself.<br> 
+message,,Her plea，in a sweet voice that defied my expectations，made me smile<br>despite myself.<br> 
 
 window,off
 bgmstop,bgmtag3_1,0.5
