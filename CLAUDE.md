@@ -155,8 +155,10 @@ suggestions from `objectload` handles that look name-like (regex
 - Only `text`-kind fields get per-line entries; `name`-kind fields come from the
   glossary.
 - `line` is the 0-based line index in the script. If the source script changes,
-  line numbers shift and stale translations won't apply (by design —
-  `merge_records` matches on `(line, field, jp)` and drops changed entries).
+  line numbers shift and stale translations won't apply. `merge_records`
+  matches on `(line, field)` only, so an existing `en` carries forward even if
+  the `jp` text at that position changed — review such lines manually after a
+  game update, since the translation may now be stale.
 - Empty `en` ⇒ that line stays Japanese. Partial translation is fully supported.
 
 ### 5.3 Unity .txt output (unity_generate_story_assets.py)
@@ -205,7 +207,9 @@ The `3494` in `CDN_VERSION` is a catalog version. On a game update:
 - Bump `CDN_VERSION` in `common.py`.
 - Re-run `download_bundles.py` to fetch updated bundles.
 - Re-run `extract_story.py`. The `merge_records` step preserves existing `en`
-  translations for unchanged lines; changed lines reset to blank for review.
+  translations by `(line, field)` position, even if the `jp` text changed —
+  manually diff/review lines whose `jp` shifted, since the carried-over `en`
+  may now be stale.
 - Re-run `unity_generate_story_assets.py`.
 - `names.json` is content-keyed (jp→en) so it survives version bumps.
 

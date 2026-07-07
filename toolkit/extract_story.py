@@ -2,7 +2,8 @@
 Extract story text from bundles into translation JSONs.
 
 Writes translations/story/<id>.json for each scene and translations/names.json.
-Re-running is safe — existing translations are preserved (matched on line+field+jp).
+Re-running is safe — existing translations are preserved (matched on line+field,
+even if the jp text at that position changed).
 
 Usage:
     python toolkit/extract_story.py
@@ -75,10 +76,10 @@ def scene_id_from_filename(filename):
 
 
 def merge_records(old_records, new_records):
-    """Carry forward existing translations where (line, field, jp) is unchanged."""
-    old_by_key = {(r["line"], r["field"], r["jp"]): r.get("en", "") for r in old_records}
+    """Carry forward existing translations for the same (line, field), even if jp changed."""
+    old_by_key = {(r["line"], r["field"]): r.get("en", "") for r in old_records}
     for rec in new_records:
-        key = (rec["line"], rec["field"], rec["jp"])
+        key = (rec["line"], rec["field"])
         if old_by_key.get(key):
             rec["en"] = old_by_key[key]
     return new_records
