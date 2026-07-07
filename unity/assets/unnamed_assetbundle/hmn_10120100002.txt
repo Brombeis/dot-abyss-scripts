@@ -31,7 +31,7 @@ bgmplay,bgmtag1_1,bgm0027,0.75,1
 asyncseplay,setag1_1,se4403003,0,1,CONT,0
 
 window,on,0.15
-message,<user>,くそっ、歩きにくいっ！<br>まさに獣道ってやつだな……！
+message,<user>,Crap，this is rough walking! A real beast path，just like they say...!<br> 
 
 window,off
 wait,0.15
@@ -57,9 +57,9 @@ asynccharaemo,chara_2,Anger,CONT,0
 
 
 window,on,0.15
-message,狩猟隊の男猟師,獣を追ってるんだから当然だ。<br>獲物の痕跡を踏み荒らしたら、司令官といえど容赦しねえぞ。,401501000,,chara_2
+message,狩猟隊の男猟師,That's only natural when you're chasing beasts. If you mess up the<br>prey's tracks，I won't go easy on you，Commander.<br> ,401501000,,chara_2
 
-message,<user>,約束はできんぞ。こっちは素人だ！
+message,<user>,No promises. I'm a newbie at this!<br> 
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -70,7 +70,7 @@ asyncseplay,setag1_3,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,狩猟隊の男猟師,よく堂々と言うもんだな、あんた……,401501000,,chara_2
+message,狩猟隊の男猟師,You sure say that with confidence，don't you?<br> ,401501000,,chara_2
 
 
 window,off
@@ -107,7 +107,7 @@ asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
 
 window,on,0.15
-message,エティア,大小入り混じった複数の足跡。小規模な群れか、家族。<br>痕跡の様子はまだ新しい、そこまで遠くない……,,vc_10120100002_001_01,chara_1
+message,エティア,A mix of large and small footprints. A small herd，or a family. The<br>tracks are still fresh—they can't be far.<br> ,,vc_10120100002_001_01,chara_1
 
 window,off
 wait,0.15
@@ -141,12 +141,12 @@ transitionCrossFade,Tra01,1
 wait,1
 
 window,on,0.15
-message,<user>,エティアもしっかり働いているな。<br>狩猟隊として活躍してるってのは嘘じゃないらしい。
+message,<user>,Etia's doing her part，huh. Looks like it's no lie that she's active<br>in the Hunting Party.<br> 
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
 
-message,狩猟隊の男猟師,あの子はなあ……。<br>能力は問題ないが、精神的にはまだまだってとこだ。,401501000,,chara_2
+message,狩猟隊の男猟師,That girl... Her skills are fine，but mentally，she's still got a long<br>way to go.<br> ,401501000,,chara_2
 
 window,off
 wait,0.15
@@ -190,7 +190,7 @@ asynccharaemo,chara_3,Exclamation,CONT,0
 
 
 window,on,0.15
-message,狩猟隊の女猟師,ちょっとエティア、足元！　<br>獲物の足跡を踏んじまってるよ！,401601000,vc_10120100002_002_01,chara_3
+message,狩猟隊の女猟師,Hey Etia，watch your feet! You're stepping on the prey's tracks!<br> ,401601000,vc_10120100002_002_01,chara_3
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -201,7 +201,7 @@ asyncseplay,setag1_5,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,エティア,え……きゃあっ！　ごめんなさいっ！<br>気づいてませんでした……！,,vc_10120100002_003_01,chara_1
+message,エティア,Huh? Eek! I'm sorry! I didn't notice...<br> ,,vc_10120100002_003_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -214,7 +214,7 @@ asyncseplay,setag1_6,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,狩猟隊の女猟師,しー、大きな声を出さないで。<br>獲物を追うセンスはあるんだから、落ちついて周りを見なさい。,401601000,vc_10120100002_004_01,chara_3
+message,狩猟隊の女猟師,Shh，don't be so loud. You've got good instincts for tracking，so calm<br>down and look around.<br> ,401601000,vc_10120100002_004_01,chara_3
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -225,7 +225,7 @@ asyncseplay,setag1_7,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,エティア,は、はい……ふわっ！？,,vc_10120100002_005_01,chara_1
+message,エティア,Y-yes... Wha--!<br> ,,vc_10120100002_005_01,chara_1
 
 
 window,off
@@ -295,7 +295,7 @@ wait,1
 asyncshake,CHARA,chara_2,20,0,0.5,1,off,off,0,off,CONT,0
 
 window,on,0.15
-message,<user>,そうみたいだな。<br>原因は色々とありそうだが。
+message,<user>,Seems that way. Though there might be various reasons.<br> 
 
 window,off
 wait,0.15
@@ -318,9 +318,9 @@ emodelete,chara_2,0,0
 asyncwait
 
 window,on,0.15
-message,<user>,（視野の広さと心の余裕は、経験で改善できるだろう。<br>　放っておいても時間が解決しそうではある）
+message,<user>,(Breadth of vision and mental composure can be improved with<br>experience. Time might solve it on its own.)<br> 
 
-message,<user>,（成長を待ってから勧誘するのも手だが……。<br>　さて、どうしたもんかな）
+message,<user>,(Waiting for her to grow and then recruiting her is an option...<br>Now，what to do.)<br> 
 
 
 window,off
@@ -359,9 +359,9 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,エティア,……,,vc_10120100002_006_01,chara_1
+message,エティア,...<br> ,,vc_10120100002_006_01,chara_1
 
-message,<user>,ん？　どうしたエティア、何か用か？
+message,<user>,Hm? What is it，Etia? Need something?<br> 
 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
@@ -373,7 +373,7 @@ asyncseplay,setag1_12,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,エティア,あっ、い、いえ……その……。<br>司令官の護衛を、任されているので……！,,vc_10120100002_007_01,chara_1
+message,エティア,Ah，n-no，it's... well... I'm supposed to be guarding the<br>Commander，so...!<br> ,,vc_10120100002_007_01,chara_1
 
 
 window,off
@@ -404,9 +404,9 @@ asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
 
 window,on,0.15
-message,エティア,し、司令官、体は大丈夫ですか？<br>慣れない狩りで疲れていたりしません？,,vc_10120100002_008_01,chara_1
+message,エティア,C-Commander，are you all right? You're not tired from the unfamiliar<br>hunting，are you?<br> ,,vc_10120100002_008_01,chara_1
 
-message,<user>,問題ない。それほど早い行軍でもないしな。<br>むしろようやく体が温まってきたところだ。
+message,<user>,No problem. It's not exactly a fast march. In fact，I'm just starting<br>to warm up.<br> 
 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
@@ -414,7 +414,7 @@ asynccharaface,chara_1,FaceUnique01,CONT,0
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,エティア,あ……それは、<br>あんまり気を抜かないほうがいいかも、しれません。,,vc_10120100002_009_01,chara_1
+message,エティア,Ah... then maybe you shouldn't let your guard down.<br> ,,vc_10120100002_009_01,chara_1
 
 message,<user>,Oh? Tell me all about it.<br> 
 

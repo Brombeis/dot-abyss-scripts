@@ -78,11 +78,11 @@ asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
 
 window,on,0.15
-message,フィルム,Film here，coming in~<br>You called for me，Commander-kun?<br> ,,vc_10070100002_001_01,chara_1
+message,フィルム,I'm Film. Pardon me.<br>Commander，did you call for me?<br> ,,vc_10070100002_001_01,chara_1
 
-message,<user>,Sorry to bother you. I have something to ask Film...<br>no，Film and Noir both.<br> 
+message,<user>,Sorry to have you come all this way. I wanted to ask Film...<br>well，Film and Noir，something.<br> 
 
-message,<user>,Lately，there've been a string of strange incidents at the base.<br> 
+message,<user>,Actually，there've been a lot of weird incidents at the Frontline<br>Base lately.<br> 
 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
@@ -94,9 +94,9 @@ asyncseplay,setag1_3,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,フィルム,Strange，you say~?<br>What sort of incidents?<br> ,,vc_10070100002_002_01,chara_1
+message,フィルム,Strange，you say?<br>What kind of incidents?<br> ,,vc_10070100002_002_01,chara_1
 
-message,<user>,Occult incidents，you might call them.<br>We've received multiple reports of apparent paranormal activity.<br> 
+message,<user>,I suppose you could call them occult incidents. We've received<br>several reports that seem like supernatural phenomena.<br> 
 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
@@ -108,9 +108,9 @@ asyncseplay,setag1_4,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,フィルム,My my，young people do love their rumors~<br> ,,vc_10070100002_003_01,chara_1
+message,フィルム,Oh my，young people do love rumors，don't they?<br> ,,vc_10070100002_003_01,chara_1
 
-message,<user>,I wish it were just that.<br>The rumors have spread so far that people are refusing to work.<br> 
+message,<user>,I wish it were that harmless. But the rumors have spread so much<br>that some people are starting to refuse work.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -121,7 +121,7 @@ asyncseplay,setag1_5,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,フィルム,Hmm~ That certainly can't be left alone，can it~<br> ,,vc_10070100002_004_01,chara_1
+message,フィルム,Hmm. That can't be ignored，can it?<br> ,,vc_10070100002_004_01,chara_1
 
 window,off
 wait,0.15
@@ -137,7 +137,7 @@ asynccharaface,chara_1,FaceSurprise,CONT,0
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 window,on,0.15
-message,<user>,It was you two，wasn't it — Film，Noir!<br> 
+message,<user>,So you two are the culprits，Film，Noir!<br> 
 
 linework,off,Black,Middle
 
@@ -160,7 +160,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノワール,......!!!<br> ,550100001,vc_10070100002_005_01,chara_1
+message,ノワール,...!!!<br> ,550100001,vc_10070100002_005_01,chara_1
 
 window,off
 wait,0.15
@@ -187,7 +187,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,フィルム,Ufufu~...<br>Well spotted. Brilliant deduction，Commander-kun...<br> ,,vc_10070100002_006_01,chara_1
+message,フィルム,Ufufufu... You're sharp. Impressive deduction，Commander...<br> ,,vc_10070100002_006_01,chara_1
 
 window,off
 wait,0.15
@@ -216,11 +216,11 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,フィルム,...is what I'd love to say，but sadly — wrong answer~<br>My spirit power can barely wobble water in a cup.<br> ,,vc_10070100002_007_01,chara_1
+message,フィルム,...I'd like to say that's spot on，but unfortunately，it's wrong. I<br>only have enough spiritual power to make the water in a cup ripple a bit.<br> ,,vc_10070100002_007_01,chara_1
 
-message,,As she said this，Film made the coffee in<br>%user%'s half-finished cup gently ripple.<br> 
+message,,Saying that，Film demonstrated by shaking the coffee in the cup that<br>the Commander had been drinking from.<br> 
 
-message,<user>,Hmm. With power like that，you certainly<br>couldn't cause any major incidents.<br> 
+message,<user>,Hmm. With that level of ability，you really couldn't cause anything<br>big.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -232,7 +232,7 @@ asyncseplay,setag1_8,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,フィルム,Right~?<br>If anyone could，it would be Noir，but...<br> ,,vc_10070100002_008_01,chara_1
+message,フィルム,Right? If anyone could，it'd be Noir，but...<br> ,,vc_10070100002_008_01,chara_1
 
 
 window,off
@@ -254,7 +254,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノワール,......!? ......!!!<br> ,550100001,vc_10070100002_009_01,chara_1
+message,ノワール,...!? ...!!!<br> ,550100001,vc_10070100002_009_01,chara_1
 
 window,off
 wait,0.15
@@ -283,9 +283,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,フィルム,Noir would never hide a prank，after all~<br>Doesn't seem like she's the culprit~<br> ,,vc_10070100002_010_01,chara_1
+message,フィルム,Noir wouldn't hide something like that. She doesn't seem to be the<br>culprit.<br> ,,vc_10070100002_010_01,chara_1
 
-message,<user>,Yeah，I figured as much.<br>But the rumors spreading around the base are real.<br> 
+message,<user>,Well，I figured as much. But it's a fact that those rumors are<br>spreading through the base.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -296,9 +296,9 @@ asyncseplay,setag1_10,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,フィルム,Aww~，that's upsetting~!<br> ,,vc_10070100002_011_01,chara_1
+message,フィルム,Ehh，I'm crushed!<br> ,,vc_10070100002_011_01,chara_1
 
-message,<user>,So here's the real reason I called you.<br>I want you to investigate these occult incidents with me.<br> 
+message,<user>,So here's the real deal. I want you to help me investigate these<br>occult incidents.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 

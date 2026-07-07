@@ -25,9 +25,9 @@ bgmplay,bgmtag1_1,bgm0024,0.75,1
 
 
 window,on,0.15
-message,<user>,大穴探索はなし、モンスター発見の報告もない。<br>前線基地にしては平和な日だな。
+message,<user>,No Abyss exploration scheduled，no monster sighting reports. For a<br>Frontline Base，this is a peaceful day.<br> 
 
-message,<user>,ふわぁ……。最近働き詰めだったし、<br>今日はダラダラとこの平和を満喫させてもらうか～。
+message,<user>,Ahh... I've been working nonstop lately，so today I'll just laze<br>around and enjoy this peace.<br> 
 
 bgmstop,bgmtag1_1,0.5,0
 
@@ -69,11 +69,11 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ヒュメナ,司令官君ーっ！！！,,vc_10210100002_001_01,chara_1
+message,ヒュメナ,Commander!<br> ,,vc_10210100002_001_01,chara_1
 
 bgmplay,bgmtag1_2,bgm0027,0.75,1
 
-message,<user>,……短い平和だったな。<br>どうしたんだヒュメナ？　そんなに焦って……
+message,<user>,...A short-lived peace. What's wrong，Humena? You seem so panicked...<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -84,9 +84,9 @@ asyncseplay,setag1_4,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒュメナ,お、追われてるのっ！<br>お願い、助けてっ！,,vc_10210100002_002_01,chara_1
+message,ヒュメナ,I'm being chased! Please，help me!<br> ,,vc_10210100002_002_01,chara_1
 
-message,<user>,追われてるって、誰から――<br>まさかモンスターか！？
+message,<user>,Who's chasing you? Don't tell me it's monsters!<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -97,18 +97,18 @@ asyncseplay,setag1_5,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒュメナ,違うよっ！<br>兵士さんや、格闘家の人たち！,,vc_10210100002_003_01,chara_1
+message,ヒュメナ,No! Soldiers and martial artists!<br> ,,vc_10210100002_003_01,chara_1
 
-message,<user>,……なぜそんなことに？<br>道場破りでもして恨みをかったとか？
+message,<user>,...Why is that? Did you challenge a dojo and make enemies or<br>something?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
 
-message,ヒュメナ,そんなことしてないよ～！<br>ほ、ほらっ。この前、一緒に瓦割りをしたことがあったでしょ？,,vc_10210100002_004_01,chara_1
+message,ヒュメナ,I didn't do anything like that! L-look! We did that tile breaking<br>together the other day，right?<br> ,,vc_10210100002_004_01,chara_1
 
-message,<user>,ああ、ヒュメナが１００枚割ったやつだな。
+message,<user>,Yeah，the one where you broke a hundred tiles，Humena.<br> 
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -117,7 +117,7 @@ asyncseplay,setag1_6,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ヒュメナ,割った後、私が言ったこと……覚えてる？,,vc_10210100002_005_01,chara_1
+message,ヒュメナ,Do you remember what I said after breaking them?<br> ,,vc_10210100002_005_01,chara_1
 
 
 
@@ -148,7 +148,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,ヒュメナ,ふっふっふー。<br>これが水の精霊パワーだよ！,,vc_10210100002_006_01,chara_1
+message,ヒュメナ,Fufufu! This is the power of my water spirit!<br> ,,vc_10210100002_006_01,chara_1
 
 
 
@@ -172,7 +172,7 @@ screeneffect,SEPIATONE,off,1,0
 fade,In,White,1
 
 window,on,0.15
-message,<user>,確か、そんなことを言っていた気がするな。<br>それが何だっていうんだ？
+message,<user>,I think I recall you saying something like that. So what about it?<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -181,7 +181,7 @@ asyncseplay,setag1_8,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ヒュメナ,実は、それを聞いたみんなが水の精霊――<br>ウパちゃんの加護があれば強くなれるって勘違いしちゃったの！,,vc_10210100002_007_01,chara_1
+message,ヒュメナ,Actually，everyone who heard that got the wrong idea—they thought<br>they could become strong with the blessing of the water spirit，Upachan!<br> ,,vc_10210100002_007_01,chara_1
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -190,11 +190,11 @@ asyncseplay,setag1_9,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒュメナ,それで、水の精霊をよこせ―って、<br>みんな追いかけてくるんだよ～！,,vc_10210100002_008_01,chara_1
+message,ヒュメナ,And so they're all chasing me，demanding ""Hand over the water<br>spirit!""<br> ,,vc_10210100002_008_01,chara_1
 
-message,<user>,はあっ！？　んな馬鹿な――！<br>あ～、いや、そうも言い切れないか。
+message,<user>,Huh! That's ridiculous—! Ah，no，I can't say that for sure.<br> 
 
-message,<user>,ヒュメナの細腕からあんなパワーが出るとは信じられん。<br>精霊の加護って考えたほうが自然なぐらいだ。
+message,<user>,It's hard to believe that power came from Humena's slender arms.<br>It's almost more natural to think it's a spirit's blessing.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -203,9 +203,9 @@ asyncseplay,setag1_10,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ヒュメナ,うぅ……強い水の精霊に修行付き合ってもらってるから<br>ああ言っただけで、あの子たちにそんな加護はないのにぃ……,,vc_10210100002_009_01,chara_1
+message,ヒュメナ,Ugh... I only said that because I've been training with a powerful<br>water spirit，but they don't have a blessing like that...<br> ,,vc_10210100002_009_01,chara_1
 
-message,<user>,そのことについて説明はしたのか？<br>特別な加護なんてないぞって。
+message,<user>,Did you explain that to them? That there's no special blessing?<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -216,7 +216,7 @@ asyncseplay,setag1_11,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒュメナ,言ったんだけど聞いてくれなくてぇ……<br>とにかくウパちゃんを奪い取ろうと追いかけてくるの～っ！,,vc_10210100002_010_01,chara_1
+message,ヒュメナ,I tried，but they won't listen... They're just chasing me to take<br>Upachan away!<br> ,,vc_10210100002_010_01,chara_1
 
 message,<user>,Man，those guys... They're probably so fixated on using the spirit's<br>blessing to make a big splash.<br> 
 

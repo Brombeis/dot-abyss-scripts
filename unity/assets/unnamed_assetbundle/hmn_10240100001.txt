@@ -37,7 +37,7 @@ asynccharascale,chara_1,1,0,CONT,0
 asynccharashowalpha,chara_1,1,0.3,CONT,0
 
 window,on,0.15
-message,<user>,悪いなマニョリア、買い出しに付き合ってもらって。<br>今日は助かったよ。
+message,<user>,Sorry for making you come along on the shopping trip，Magnolia. You<br>really helped me out today.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -48,9 +48,9 @@ asyncseplay,setag1_1,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,マニョリア,ううん……マニョが役に立てたなら、よかった。,,vc_10240100001_001_01,chara_1
+message,マニョリア,No... I'm glad I could help.<br> ,,vc_10240100001_001_01,chara_1
 
-message,<user>,アリシアのやつ「部屋でも育つ花の種が欲しい」なんて言いやがって。
+message,<user>,That Alicia had the nerve to say she wanted flower seeds that'd grow<br>indoors.<br> 
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -59,7 +59,7 @@ asyncseplay,setag1_2,se4800014,0,1,CONT,0
 
 asynccharaemo,chara_1,Silence,CONT,0
 
-message,<user>,花なんて俺はまったく興味がないんだ。<br>マニョリアが居なかったら適当に買っていたところだぞ……。
+message,<user>,I have no interest in flowers at all. If you hadn't been<br>there，Magnolia，I'd have just bought something on a whim.<br> 
 
 window,off
 wait,0.15
@@ -107,7 +107,7 @@ asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,マニョリア,……きっとアリシアおねえさんは、<br>おにいさんの部屋に飾るお花を、育てたいん、だよ？,,vc_10240100001_002_01,chara_1
+message,マニョリア,I think... Alicia wants to grow flowers to decorate your room，Big<br>Brother.<br> ,,vc_10240100001_002_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -118,9 +118,9 @@ asyncseplay,setag1_3,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,マニョリア,きっと今日お迎えしたお花がたくさん咲いて、<br>お部屋をいい香りでいっぱいにしてくれる……はず。,,vc_10240100001_003_01,chara_1
+message,マニョリア,I'm sure the flowers we got today will bloom a lot and fill your<br>room with a nice scent... I hope.<br> ,,vc_10240100001_003_01,chara_1
 
-message,<user>,もう咲いてる花を買ってくればいいだろ……というのは無粋か。<br>マニョリアが選んだ種だ、きっと綺麗に咲くだろうしな。
+message,<user>,I could've just bought already-blooming flowers... but that'd be<br>tacky. You picked these seeds，so I'm sure they'll bloom beautifully.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -131,7 +131,7 @@ asyncseplay,setag1_4,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,マニョリア,……元気な種を、選んだから。,,vc_10240100001_004_01,chara_1
+message,マニョリア,... Because I picked healthy seeds.<br> ,,vc_10240100001_004_01,chara_1
 
 window,off
 wait,0.15
@@ -170,7 +170,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,ありがとな、楽しみだよ。<br>はあ……マニョリアと話していると心が綺麗になりそうだ……。
+message,<user>,Thanks，I'm looking forward to it. Ah... talking with you makes me<br>feel like my heart is being purified.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -182,11 +182,11 @@ asyncseplay,setag1_5,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,マニョリア,……マニョも、おにいさんと一緒だと楽しい。,,vc_10240100001_005_01,chara_1
+message,マニョリア,... I have fun with you too，Big Brother.<br> ,,vc_10240100001_005_01,chara_1
 
-message,？？？,このあったけえ雰囲気……。<br>へっ……ダチのことを思い出すな……。,900000003
+message,？？？,This warm feelin'... Heh... reminds me of my buddy.<br> ,900000003
 
-message,<user>,俺も今日は楽しかった――んん？<br>だ、誰だ、今の声は！？
+message,<user>,I had fun today too—huh? Wh-who's that?! Whose voice was that!?<br> 
 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
@@ -198,13 +198,13 @@ asyncseplay,setag1_6,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,マニョリア,……うん？　<br>何か変なこと、あった？,,vc_10240100001_006_01,chara_1
+message,マニョリア,...Huh? Did something strange happen?<br> ,,vc_10240100001_006_01,chara_1
 
-message,<user>,いや、誰とも知らない声に割り込まれたような……。<br>俺の気のせいか……？
+message,<user>,No，I felt like some unknown voice cut in... Maybe I'm just hearing<br>things.<br> 
 
-message,？？？,本当に思い出すぜ、ダチのことをよ……。<br>あれは何年も前のことだったな……。,900000003
+message,？？？,It really brings back memories of my buddy... That was years ago<br>now...<br> ,900000003
 
-message,<user>,やっぱり聞こえる！　誰かが勝手にダチの話を始めようとしてる！<br>おい、どこのどいつだ！？
+message,<user>,I knew it! Someone's trying to start talking about their buddy out<br>of nowhere! Hey，who the hell is that!?<br> 
 
 
 asynccharaface,chara_1,FaceFun,CONT,0
@@ -216,9 +216,9 @@ asyncseplay,setag1_7,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,マニョリア,あ……マックンが起きたんだ。,,vc_10240100001_007_01,chara_1
+message,マニョリア,Ah... Makkun woke up.<br> ,,vc_10240100001_007_01,chara_1
 
-message,<user>,ま、マックン！？　誰だ、それっ！？
+message,<user>,M-Makkun?! Who the heck is that!?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -230,7 +230,7 @@ asyncseplay,setag1_8,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,マニョリア,おにいさんには紹介してなかった。<br>マニョの友達で、お花のマックン。おしゃべりがとっても上手。,,vc_10240100001_008_01,chara_1
+message,マニョリア,I hadn't introduced him to you，Big Brother. He's my friend，a flower<br>named Makkun. He's very talkative.<br> ,,vc_10240100001_008_01,chara_1
 
 
 window,off
@@ -251,7 +251,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,マックン,よう！　オレがマックンだ！<br>よろしくな、兄ちゃんよ！,900000003
+message,マックン,Yo! I'm Makkun! Nice to meet ya，big bro!<br> ,900000003
 
 
 message,<user>,No way，a flower is talking! Are there really plants that can talk?<br> 

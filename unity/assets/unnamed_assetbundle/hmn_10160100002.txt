@@ -32,14 +32,14 @@ bgmplay,bgmtag1_1,bgm0027,0.75,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――前線基地　酒場</size>,,,on
+messageTextCenter,,<size=48>—Frontline Base Tavern</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
 
 
 window,on,0.15
-message,,森でウィステリアと出会った翌日。<br><user>は基地の酒場へ出向いていた。
+message,,The day after meeting Wisteria in the forest，%user% went to the<br>Frontline Base's tavern.<br> 
 
 window,off
 wait,0.15
@@ -67,7 +67,7 @@ transitionCrossFade,Tra01,1
 wait,1
 
 window,on,0.15
-message,<user>,……ルディア、ちょっといいか。
+message,<user>,...Ludia，got a moment?<br> 
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -78,18 +78,18 @@ asyncseplay,setag1_1,se4800009,0,1,CONT,0
 asynccharaemo,chara_2,Question,CONT,0
 
 
-message,ルディア,あら、こんな昼間にどうしたの？<br>お酒でもほしいのかしら？,300301000,vc_10160100002_001_01,chara_2
+message,ルディア,Oh? What brings you here at this hour? Do you want a drink?<br> ,300301000,vc_10160100002_001_01,chara_2
 
-message,<user>,人を探していてな、情報がほしい。<br>腕利きの弓使い、ウィステリアだ。
+message,<user>,I'm looking for someone and need some info.<br>The expert archer，Wisteria.<br> 
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
 asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
 
 
-message,ルディア,ウィステリアさん……。<br>戦神、と呼ばれている人よね。,300301000,vc_10160100002_002_01,chara_2
+message,ルディア,Wisteria...<br>She's known as the War God，isn't she?<br> ,300301000,vc_10160100002_002_01,chara_2
 
-message,<user>,ああ、そいつだ。<br>ちょっと縁があってな、食事にでも誘いたいんだが……
+message,<user>,Yeah，that's her. We have a bit of a connection，so I was thinking of<br>inviting her to a meal...<br> 
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -100,7 +100,7 @@ asyncseplay,setag1_2,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,ルディア,あらあら♪<br>さすが、いい出会いに恵まれているわね。,300301000,vc_10160100002_003_01,chara_2
+message,ルディア,Oh my!♪<br>As expected，you're blessed with good encounters，aren't you?<br> ,300301000,vc_10160100002_003_01,chara_2
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -111,9 +111,9 @@ asyncseplay,setag1_3,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ルディア,でも……困ったわね。<br>ウィステリアさんのことはあまり情報がなくて。,300301000,vc_10160100002_004_01,chara_2
+message,ルディア,But... that's a problem.<br>I don't have much information on Wisteria.<br> ,300301000,vc_10160100002_004_01,chara_2
 
-message,<user>,ルディアでも、か……
+message,<user>,Even you，Ludia...?<br> 
 
 asyncjump,CHARA,chara_2,-30.6,0.5,1,off,0,CONT
 
@@ -122,9 +122,9 @@ asyncseplay,setag1_4,se4800006,0,1,CONT,0
 asynccharaemo,chara_2,Trouble,CONT,0
 
 
-message,ルディア,もともと神出鬼没な人なのよ。<br>宿舎の部屋を使っているのかどうかも分からないくらい。,300301000,vc_10160100002_005_01,chara_2
+message,ルディア,She's elusive by nature.<br>I don't even know if she uses the barracks rooms.<br> ,300301000,vc_10160100002_005_01,chara_2
 
-message,<user>,そうか……。<br>分かった、もう少し足を使って探してみるよ。
+message,<user>,I see... Alright，I'll look around some more.<br> 
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -135,7 +135,7 @@ asyncseplay,setag1_5,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,ルディア,ええ、頑張ってね♪,300301000,vc_10160100002_006_01,chara_2
+message,ルディア,Yes，good luck!♪<br> ,300301000,vc_10160100002_006_01,chara_2
 
 
 window,off
@@ -173,9 +173,9 @@ asynccharaemo,chara_3,Silence,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,ウィステリアさん……ですか。<br>同じ部隊なのですが、あまり親しくはなくて……,401001000,vc_10160100002_007_01,chara_3
+message,兵士Ａ,Wisteria...? We're in the same unit，but we're not on friendly<br>terms...<br> ,401001000,vc_10160100002_007_01,chara_3
 
-message,<user>,基地の中で見かけたことはないのか？
+message,<user>,Haven't you seen her around the Frontline Base?<br> 
 
 asyncjump,CHARA,chara_3,-30,0.25,1,off,0,CONT
 
@@ -184,9 +184,9 @@ asyncseplay,setag1_7,se4800006,0,1,CONT,0
 asynccharaemo,chara_3,Trouble,CONT,0
 
 
-message,兵士Ａ,ええ、休んでいるところも、食事をしているところも、<br>ほとんど見たことがないんです。,401001000,vc_10160100002_008_01,chara_3
+message,兵士Ａ,No，I've hardly ever seen her resting or eating.<br> ,401001000,vc_10160100002_008_01,chara_3
 
-message,<user>,なるほどな……ありがとう。
+message,<user>,I see... thanks.<br> 
 
 
 window,off
@@ -220,7 +220,7 @@ asynccharaemo,chara_4,Panic,CONT,0
 
 
 window,on,0.15
-message,兵士Ｂ,ああ、ウィステリアさん？<br>話しかけてもあまり反応がなく、ちゃんと会話をしたこともないです。,401301000,vc_10160100002_009_01,chara_4
+message,兵士Ｂ,Ah，Wisteria? She barely responds when you speak to her，and I've<br>never really had a conversation with her.<br> ,401301000,vc_10160100002_009_01,chara_4
 
 asyncshake,CHARA,chara_4,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -229,9 +229,9 @@ asyncseplay,setag1_9,se4800014,0,1,CONT,0
 asynccharaemo,chara_4,Silence,CONT,0
 
 
-message,兵士Ｂ,戦いでは頼れるので尊敬している兵も多いですが、<br>プライベートなことはまったく……,401301000,vc_10160100002_010_01,chara_4
+message,兵士Ｂ,Many soldiers respect her as reliable in battle，but as for personal<br>matters，nothing at all...<br> ,401301000,vc_10160100002_010_01,chara_4
 
-message,<user>,やっぱりか……。<br>参考になった、感謝する。
+message,<user>,As I thought... That helps，I appreciate it.<br> 
 
 
 window,off

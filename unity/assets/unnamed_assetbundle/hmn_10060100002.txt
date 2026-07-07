@@ -48,7 +48,7 @@ bgmplay,bgmtag1_1,bgm0031,0.75,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――前線基地　治療所</size>,,,on
+messageTextCenter,,<size=48>—Frontline Base，Treatment Room</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -70,7 +70,7 @@ asynccharamove,chara_1,EaseOut,X,-100,0.3,CONT,0
 asyncwait
 
 window,on,0.15
-message,,ノエミは早朝から治療の準備をおこなっていた。
+message,,Noemi had been preparing the treatment room since early morning.<br> 
 
 window,off
 wait,0.15
@@ -112,7 +112,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ノエミ,……本日は探索もありませんし、<br>聖職者としてのお仕事にはげみましょう。,100601000G,vc_10060100002_001_01,chara_1
+message,ノエミ,...There are no expeditions today，so I should devote myself to my<br>work as a member of the clergy.<br> ,100601000G,vc_10060100002_001_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -123,7 +123,7 @@ asyncseplay,setag1_2,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ノエミ,もっと皆さんの、そして司令官さまのお役に立つためにも、<br>日々の治療でしっかりと経験を積まなければいけませんから！,100601000G,vc_10060100002_002_01,chara_1
+message,ノエミ,To be of greater help to everyone，and especially to the Lord<br>Commander，I need to gain plenty of experience through daily treatments!<br> ,100601000G,vc_10060100002_002_01,chara_1
 
 window,off
 wait,0.15
@@ -143,7 +143,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,……といっても、そんなに怪我人が来ることはないんですよね。<br>時間があったらお掃除もして、しっかり清潔に保つようにしないと。,100601000G,vc_10060100002_003_01,chara_1
+message,ノエミ,...That said，it's not like I get that many injured people. If I have<br>time，I should clean up and keep everything spotless.<br> ,100601000G,vc_10060100002_003_01,chara_1
 
 window,off
 wait,0.15
@@ -184,7 +184,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,あ、ノエミさん！<br>治療ってお願いできますか？,401201000,,chara_2
+message,兵士Ａ,Ah，Noemi! Could I ask for treatment?<br> ,401201000,,chara_2
 
 window,off
 wait,0.15
@@ -228,7 +228,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,はいはい、もちろんです！<br>こちらにどうぞ～,100601000G,vc_10060100002_004_01,chara_1
+message,ノエミ,Yes，yes，of course! Right this way，please.<br> ,100601000G,vc_10060100002_004_01,chara_1
 
 
 window,off
@@ -288,7 +288,7 @@ asynccharaemo,chara_3,Speak,STOP,4.5
 
 
 window,on,0.15
-message,ノエミ,……癒やしたまえ。<br>はい、これで大丈夫だと思いますよ。,100601000G,vc_10060100002_005_01,chara_3
+message,ノエミ,...Be healed. There，I think you'll be fine.<br> ,100601000G,vc_10060100002_005_01,chara_3
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -299,7 +299,7 @@ asyncseplay,setag1_8,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,兵士Ａ,いやあ、ありがとうございますノエミさん！<br>肩が痛いと、どうにも武器を振るのがつらくて……,401201000,,chara_2
+message,兵士Ａ,Thanks so much，Noemi! When my shoulder hurts，it's really hard to<br>swing my weapon...<br> ,401201000,,chara_2
 
 asynccharaface,chara_3,FaceFun,CONT,0
 
@@ -310,7 +310,7 @@ asyncseplay,setag1_9,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,ノエミ,いえいえ、基地を守るために頑張った結果ですから。<br>でも、どうか無理はしないでくださいね？,100601000G,vc_10060100002_006_01,chara_3
+message,ノエミ,Not at all—it's because you've been working hard to protect the<br>base. But please，try not to overdo it.<br> ,100601000G,vc_10060100002_006_01,chara_3
 
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
@@ -319,7 +319,7 @@ asyncseplay,setag1_10,se4800003,0,1,CONT,0
 asynccharaemo,chara_2,Twinkle,CONT,0
 
 
-message,兵士Ａ,はい！　ありがとうございました！,401201000,,chara_2
+message,兵士Ａ,Yes! Thank you very much!<br> ,401201000,,chara_2
 
 window,off
 wait,0.15
@@ -352,7 +352,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,次の方、どうぞ～。,100601000G,vc_10060100002_007_01,chara_3
+message,ノエミ,Next，please.<br> ,100601000G,vc_10060100002_007_01,chara_3
 
 window,off
 wait,0.15
@@ -377,7 +377,7 @@ asynccharaemo,chara_4,Laugh,CONT,0
 
 
 window,on,0.15
-message,兵士Ｂ,ノエミちゃん、頼むよ！<br>俺、ちょっと足を痛めちゃったみたいで。,400901000,,chara_4
+message,兵士Ｂ,Noemi，I need your help! Think I hurt my leg a little.<br> ,400901000,,chara_4
 
 window,off
 wait,0.15
@@ -433,7 +433,7 @@ asynccharaemo,chara_1,Question,STOP,3.6
 
 
 window,on,0.15
-message,ノエミ,それは大変ですね～。<br>……あれ？　普通に歩いてここまで来たんですか？,100601000G,vc_10060100002_008_01,chara_1
+message,ノエミ,Oh，that's too bad. ...Huh? Did you walk here normally?<br> ,100601000G,vc_10060100002_008_01,chara_1
 
 asynccharaface,chara_4,FaceSurprise,CONT,0
 
@@ -444,7 +444,7 @@ asyncseplay,setag1_14,se4800007,0,1,CONT,0
 asynccharaemo,chara_4,Panic,CONT,0
 
 
-message,兵士Ｂ,あ、その、歩けないほどってわけではなくて！<br>でも戦いの最中に痛むと困る感じで……,400901000,,chara_4
+message,兵士Ｂ,Ah，well，it's not like I can't walk! But having it hurt during battle<br>would be a problem...<br> ,400901000,,chara_4
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -455,7 +455,7 @@ asyncseplay,setag1_15,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ノエミ,そうだったんですね！<br>じゃあしっかり治すようにしますね～。,100601000G,vc_10060100002_009_01,chara_1
+message,ノエミ,I see! Then I'll make sure to heal it properly.<br> ,100601000G,vc_10060100002_009_01,chara_1
 
 
 window,off
@@ -489,7 +489,7 @@ asynccharaemo,chara_5,Laugh,CONT,0
 
 
 window,on,0.15
-message,街の人Ａ,え、えへへ……ちょっと手に怪我しちゃって。<br>ぎゅっと握って治してほしいなあ、なんて……,2028301,,chara_5
+message,街の人Ａ,Ehehe... I got a little scratch on my hand. I was hoping you'd<br>squeeze it tight and heal it...<br> ,2028301,,chara_5
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -500,7 +500,7 @@ asyncseplay,setag1_17,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ノエミ,どうしてそんな場所に怪我を！？<br>治します、治しますけど、気をつけてくださいね！,100601000G,vc_10060100002_010_01,chara_1
+message,ノエミ,How did you hurt it there!? I'll heal it，I will，but please be more<br>careful!<br> ,100601000G,vc_10060100002_010_01,chara_1
 
 
 window,off
@@ -542,7 +542,7 @@ asynccharaemo,chara_6,Exclamation,CONT,0
 
 
 window,on,0.15
-message,兵士Ｃ,頭にたんこぶがあって！<br>よしよし、って手を当てて治してほしいんすよ！,401501000,,chara_6
+message,兵士Ｃ,I've got a bump on my head! I want you to pat it and heal it!<br> ,401501000,,chara_6
 
 window,off
 wait,0.15
@@ -596,7 +596,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 
 window,on,0.15
-message,ノエミ,たんこぶぐらいなら放っておいても治りますよ～！<br>本当に治療が必要なんですか！？,100601000G,vc_10060100002_011_01,chara_1
+message,ノエミ,A bump like that will heal even if you leave it alone! Do you really<br>need treatment!?<br> ,100601000G,vc_10060100002_011_01,chara_1
 
 asynccharaface,chara_6,FaceSurprise,CONT,0
 

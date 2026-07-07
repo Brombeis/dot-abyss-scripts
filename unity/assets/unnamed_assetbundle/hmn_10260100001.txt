@@ -21,9 +21,9 @@ wait,1
 bgmplay,bgmtag1_1,bgm0027,0.75,1
 
 window,on,0.15
-message,,Sylvia — a girl said to have come from an ice-bound world.<br> 
+message,,Sylvia was a girl said to have come from an otherworld sealed in<br>ice.<br> 
 
-message,,Worried about her inability to get along with anyone<br>and her constant loneliness，he came to check on her...<br> 
+message,,Worried about the girl who couldn't get along with anyone and was<br>always lonely，the Commander came to the dormitory to check on her—<br> 
 
 window,off
 wait,0.15
@@ -34,11 +34,11 @@ asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,<user>,Achoo! Wh-what's with this cold!?<br>It's summer，yet it feels like the dead of winter!<br> 
+message,<user>,—Achoo! W-what's this cold? It's summer，but it's like midwinter!<br> 
 
-message,<user>,Where is all this frigid air coming from... Hm?<br>Over there... That's Sylvia's room.<br> 
+message,<user>,Where is this immense cold coming from...? Huh? That's... Sylvia's<br>room.<br> 
 
-message,<user>,I don't know what she's doing，but at this rate everyone in the<br>building is going to freeze to death. I need to stop her immediately...!<br> 
+message,<user>,I don't know what she's doing，but at this rate everyone will freeze<br>to death. I have to make her stop immediately...!<br> 
 
 
 window,off
@@ -59,7 +59,7 @@ asyncseplay,setag1_1,se4300007,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,<user>,Sylvia! What on earth are you doing!?<br> 
+message,<user>,Sylvia! Just what do you think you're doing!<br> 
 
 
 window,off
@@ -91,9 +91,9 @@ bgmstop,bgmtag1_1,1.5,0
 
 
 window,on,0.15
-message,シルヴィア,My. Barging into a lady's room without so much as a knock —<br>do the men of this world know nothing of etiquette?<br> ,102601000G,vc_10260100001_001_01,chara_1
+message,シルヴィア,Oh，barging into a lady's room without even knocking—do the men of<br>this world know no manners?<br> ,102601000G,vc_10260100001_001_01,chara_1
 
-message,<user>,If you want courtesy，stop being a nuisance first.<br>The dormitory is freezing and everyone is suffering because of it.<br> 
+message,<user>,If you want me to be considerate，first stop your nuisance behavior.<br>The dormitory has become freezing，and everyone is suffering because of it.<br> 
 
 bgmplay,bgmtag1_2,bgm0035,0.75,1
 
@@ -106,7 +106,7 @@ asyncseplay,setag1_3,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,シルヴィア,I am not cold in the slightest.<br>Perhaps everyone else is simply too sensitive to the cold?<br> ,102601000G,vc_10260100001_002_01,chara_1
+message,シルヴィア,I am not cold in the slightest. Perhaps everyone else is simply<br>sensitive to the cold?<br> ,102601000G,vc_10260100001_002_01,chara_1
 
 window,off
 wait,0.15
@@ -125,9 +125,9 @@ wait,0.5
 
 
 window,on,0.15
-message,シルヴィア,As you can see，I am simply crafting ice sculptures.<br>The ice melts if the room is too warm.<br> ,102601000G,vc_10260100001_003_01,chara_1
+message,シルヴィア,As you can see，I am only making ice sculptures. If the room is<br>warm，the ice will melt.<br> ,102601000G,vc_10260100001_003_01,chara_1
 
-message,<user>,So that's the cause... I'm not saying you can't do creative work，<br>but couldn't you use a different material? We'll all freeze to death at this rate...<br> 
+message,<user>,So that's the source of the cold... I'm not saying you should stop<br>creating，but can't you at least use a different material? At this rate，we'll freeze to death...<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -138,7 +138,7 @@ asyncseplay,setag1_5,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,シルヴィア,I am an ice wielder. For an ice wielder to work with anything but<br>ice would be nonsensical.<br> ,102601000G,vc_10260100001_004_01,chara_1
+message,シルヴィア,I am an ice mage. It is nonsense for an ice mage to handle anything<br>other than ice.<br> ,102601000G,vc_10260100001_004_01,chara_1
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -152,9 +152,9 @@ asynccharaface,chara_1,FaceNormal,STOP,5.9
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,STOP,5.9
 
 
-message,シルヴィア,Besides... I could never bring myself<br>to destroy such beautiful ice sculptures.<br> ,102601000G,vc_10260100001_005_01,chara_1
+message,シルヴィア,Besides... I could never destroy such beautiful ice sculptures.<br> ,102601000G,vc_10260100001_005_01,chara_1
 
-message,<user>,They are beautiful，I'll give you that...<br>But why did you make these?<br> 
+message,<user>,True，they are beautiful ice sculptures... but why did you make them?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -166,7 +166,7 @@ asyncseplay,setag1_7,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,シルヴィア,I was a noblewoman，yes，but also an artist.<br> ,102601000G,vc_10260100001_006_01,chara_1
+message,シルヴィア,Because I was a noble and also an artist.<br> ,102601000G,vc_10260100001_006_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -177,11 +177,11 @@ asyncseplay,setag1_8,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,シルヴィア,Beautiful，are they not? Surely even you，born in a world<br>so bereft of art，can appreciate this beauty?<br> ,102601000G,vc_10260100001_007_01,chara_1
+message,シルヴィア,Beautiful，are they not? Even you，born in a world so lacking in art<br>that you never cultivated an eye for beauty—you can appreciate this，can you not?<br> ,102601000G,vc_10260100001_007_01,chara_1
 
-message,<user>,You really never miss a chance to throw in a jab.<br>...Even I can see how beautiful they are.<br> 
+message,<user>,You really have to add that extra comment，don't you? ...Even I can<br>appreciate this beauty.<br> 
 
-message,<user>,Say，did these sculptures have models?<br> 
+message,<user>,Hey，do these ice sculptures have models?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -193,9 +193,9 @@ asyncseplay,setag1_9,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,シルヴィア,Why do you ask?<br> ,102601000G,vc_10260100001_008_01,chara_1
+message,シルヴィア,Why do you ask that?<br> ,102601000G,vc_10260100001_008_01,chara_1
 
-message,<user>,That sculpture of the girl looks a lot like you.<br>The man and woman on either side — are they people you know?<br> 
+message,<user>,Because that ice sculpture of a girl looks a bit like you. The man<br>and woman on either side—aren't they people connected to you?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 

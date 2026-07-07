@@ -65,7 +65,7 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,アリシア,Here you are.<br>Today's tea and sweets.<br> ,300201000,vc_10080100001_001_01,chara_2
+message,アリシア,Here you go. Today's tea and snacks.<br> ,300201000,vc_10080100001_001_01,chara_2
 
 message,<user>,Oh，thanks.<br> 
 
@@ -122,7 +122,7 @@ asynccharaemo,chara_3,Spirits,CONT,0
 
 
 window,on,0.15
-message,ベリサ,Ooh，thank you~♪<br>Muffins today? How lovely...!<br> ,100201000G,vc_10080100001_002_01,chara_3
+message,ベリサ,Wow，thanks! Muffins today，how awesome!<br> ,100201000G,vc_10080100001_002_01,chara_3
 
 asynccharaface,chara_2,FaceUnique01,CONT,0
 
@@ -133,7 +133,7 @@ asyncseplay,setag1_4,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,アリシア,Please，help yourself♪<br> ,300201000,vc_10080100001_003_01,chara_2
+message,アリシア,Please，help yourself!<br> ,300201000,vc_10080100001_003_01,chara_2
 
 window,off
 wait,0.15
@@ -157,7 +157,7 @@ asynccharaemo,chara_3,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ベリサ,Nom nom... mmm，so yummy~!<br>They're moist inside with such a refined sweetness!<br> ,100201000G,vc_10080100001_004_01,chara_3
+message,ベリサ,Nom，nom... mmm，delicious! The inside is moist and perfectly<br>sweet，it's the best!<br> ,100201000G,vc_10080100001_004_01,chara_3
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -169,7 +169,7 @@ asyncseplay,setag1_6,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,アリシア,Hehe... I'm glad you like them.<br> ,300201000,vc_10080100001_005_01,chara_2
+message,アリシア,Fufu... I'm glad you like them.<br> ,300201000,vc_10080100001_005_01,chara_2
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -180,7 +180,7 @@ asyncseplay,setag1_7,se4800013,0,1,CONT,0
 asynccharaemo,chara_2,Spirits,CONT,0
 
 
-message,アリシア,I'm heading out to do some shopping，so please<br>take your time and relax，Verisa-san.<br> ,300201000,vc_10080100001_006_01,chara_2
+message,アリシア,I'll go do some shopping，so take your time，Verisa.<br> ,300201000,vc_10080100001_006_01,chara_2
 
 asynccharaface,chara_3,FaceHappy,CONT,0
 
@@ -191,7 +191,7 @@ asyncseplay,setag1_8,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,ベリサ,See you later~♪<br>Nom nom...<br> ,100201000G,vc_10080100001_007_01,chara_3
+message,ベリサ,See you later! Nom，nom...<br> ,100201000G,vc_10080100001_007_01,chara_3
 
 window,off
 wait,0.15
@@ -244,7 +244,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,You barge in uninvited，eat for free，<br>and still have the nerve to critique everything.<br> 
+message,<user>,You just waltz in，eat for free，and still have the nerve to critique?<br> 
 
 asynccharaface,chara_3,FaceFun,CONT,0
 
@@ -255,7 +255,7 @@ asyncseplay,setag1_9,se4800013,0,1,CONT,0
 asynccharaemo,chara_3,Spirits,CONT,0
 
 
-message,ベリサ,Oh，say what you want，Onii-san~<br>You're happy to have tea with Verisa，aren't you?<br> ,100201000G,vc_10080100001_008_01,chara_3
+message,ベリサ,You say that，Big Bro，but you're happy to have tea together，aren't<br>you?<br> ,100201000G,vc_10080100001_008_01,chara_3
 
 window,off
 wait,0.15
@@ -274,9 +274,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ベリサ,What，can't eat unless someone says 'ahhh~'?<br>Feeling needy even with your adjutant around~? Hehe♪<br> ,100201000G,vc_10080100001_009_01,chara_3
+message,ベリサ,What，can't you eat unless I say ""ahh""? Did you get all needy even<br>with your adjutant here? Fufu!<br> ,100201000G,vc_10080100001_009_01,chara_3
 
-message,<user>,...Just eat whatever you want already.<br> 
+message,<user>,...Whatever，just eat as you like.<br> 
 
 asynccharaface,chara_3,FaceFun,CONT,0
 
@@ -287,9 +287,9 @@ asyncseplay,setag1_11,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,ベリサ,See，Onii-san really is sweet♪<br>Can't wait for tomorrow's snacks too~<br> ,100201000G,vc_10080100001_010_01,chara_3
+message,ベリサ,See，Big Bro is so kind! I can't wait for tomorrow's snack!<br> ,100201000G,vc_10080100001_010_01,chara_3
 
-message,<user>,She's planning on coming again...?<br> 
+message,<user>,She's planning to come again，huh...<br> 
 
 asynccharaface,chara_3,FaceHappy,CONT,0
 
@@ -300,7 +300,7 @@ asyncseplay,setag1_12,se4800022,0,1,CONT,0
 asynccharaemo,chara_3,Speak,CONT,0
 
 
-message,ベリサ,Hey hey，Onii-san，how about frozen treats tomorrow?<br> ,100201000G,vc_10080100001_011_01,chara_3
+message,ベリサ,Hey hey Big Bro，how about frozen treats for tomorrow?<br> ,100201000G,vc_10080100001_011_01,chara_3
 
 asynccharaface,chara_3,FaceFun,CONT,0
 
@@ -311,9 +311,9 @@ asyncseplay,setag1_13,se4800003,0,1,CONT,0
 asynccharaemo,chara_3,Twinkle,CONT,0
 
 
-message,ベリサ,The nice cold kind that cools down a hot body~!<br> ,100201000G,vc_10080100001_012_01,chara_3
+message,ベリサ,Something cold to cool down your overheated body!<br> ,100201000G,vc_10080100001_012_01,chara_3
 
-message,<user>,Don't be so demanding.<br>A fire mage has no business craving frozen treats.<br> 
+message,<user>,Don't be selfish. Besides，a fire mage shouldn't be asking for frozen<br>treats.<br> 
 
 asynccharaface,chara_3,EyeOpen,CONT,0
 asynccharaface,chara_3,FaceNormal,CONT,0
@@ -325,7 +325,7 @@ asyncseplay,setag1_14,se4800013,0,1,CONT,0
 asynccharaemo,chara_3,Spirits,CONT,0
 
 
-message,ベリサ,That's exactly why，duh~<br>Frozen treats to cool down after fire magic? The best.<br> ,100201000G,vc_10080100001_013_01,chara_3
+message,ベリサ,Exactly because I'm good at fire magic，right? Frozen treats that<br>cool a body heated by magic are the best.<br> ,100201000G,vc_10080100001_013_01,chara_3
 
 asynccharaface,chara_3,FaceFun,CONT,0
 
@@ -336,9 +336,9 @@ asyncseplay,setag1_15,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,ベリサ,Back in Perdion，I'd always have them after missions~<br> ,100201000G,vc_10080100001_014_01,chara_3
+message,ベリサ,In Perdion，I used to have them after missions.<br> ,100201000G,vc_10080100001_014_01,chara_3
 
-message,<user>,Oh? So you did have work over there.<br> 
+message,<user>,Oh? So you actually had work over there too?<br> 
 
 asynccharaface,chara_3,FaceHappy,CONT,0
 

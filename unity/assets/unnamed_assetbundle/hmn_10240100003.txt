@@ -58,7 +58,7 @@ asyncshake,CHARA,chara_2,15,10,0.25,3,on,off,0,off,STOP,2
 
 
 window,on,0.15
-message,怪しげな男,くそっ！　この森、草が深くて歩きにくいんだよ……！<br>俺の邪魔をしやがって、全部切り倒してやるっ！,2028301,,chara_2
+message,怪しげな男,Dammit! The grass is so thick in this forest，it's hard to walk!<br>Screw this，I'll cut it all down!<br> ,2028301,,chara_2
 
 
 window,off
@@ -84,7 +84,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,怪しげな男,エルドラーナのブラックマーケットなら足もつかないはずなんだ。<br>この森さえ抜けられれば……！,2028301,,chara_2
+message,怪しげな男,If I can just get to the Eldorana black market，I'll be in the clear.<br>Once I'm out of this forest...!<br> ,2028301,,chara_2
 
 
 window,off
@@ -120,7 +120,7 @@ transitionCrossFade,Tra02,1
 wait,1
 
 window,on,0.15
-message,<user>,あいつが背負ってる瓶、マックンの魔法水だな……！？<br>見つけたぞ、盗人め！
+message,<user>,That bottle he's carrying is Makkun's magic water，isn't it!?<br>Found you，you thief!<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -131,9 +131,9 @@ asyncseplay,setag1_5,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,マニョリア,やった……！<br>おにいさん、すぐに捕まえよう……！,,vc_10240100003_001_01,chara_1
+message,マニョリア,Great...!<br>Big Brother，let's catch him right away...!<br> ,,vc_10240100003_001_01,chara_1
 
-message,<user>,待て、マニョリア。<br>気持ちは分かるが、今は慌てるな。
+message,<user>,Wait，Magnolia.<br>I know how you feel，but don't panic now.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -144,11 +144,11 @@ asyncseplay,setag1_6,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,マニョリア,どうして……！？<br>早くマックンにお水をあげないと……！,,vc_10240100003_002_01,chara_1
+message,マニョリア,Why...!<br>We need to get Makkun his water soon...!<br> ,,vc_10240100003_002_01,chara_1
 
-message,<user>,無策に突っ込んでも逃げられるだけだ。<br>夜の森で追いかけっこはこっちも危険だ。
+message,<user>,If we rush in blind，he'll just get away.<br>And a chase in the forest at night is dangerous for us too.<br> 
 
-message,<user>,仮に追い詰めたとしても、抵抗されたら厄介だ。
+message,<user>,Even if we corner him，if he fights back，it'll be a problem.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -159,7 +159,7 @@ asyncseplay,setag1_7,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,マニョリア,あ……そうだよね。<br>今のマックンは戦えないから……。,,vc_10240100003_003_01,chara_1
+message,マニョリア,Ah... you're right.<br>Makkun can't fight right now，so...<br> ,,vc_10240100003_003_01,chara_1
 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
@@ -171,9 +171,9 @@ asyncseplay,setag1_8,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,マニョリア,でも、でも、マニョはどうしたら……。,,vc_10240100003_004_01,chara_1
+message,マニョリア,But，but... what should Manny do...?<br> ,,vc_10240100003_004_01,chara_1
 
-message,<user>,俺に考えがある。<br>あいつを捕まえて魔法水を取り返す作戦がな。
+message,<user>,I have a plan.<br>A plan to catch that guy and get the magic water back.<br> 
 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
@@ -185,9 +185,9 @@ asyncseplay,setag1_9,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,マニョリア,そんなこと、できるの……？,,vc_10240100003_005_01,chara_1
+message,マニョリア,Can we really do that...?<br> ,,vc_10240100003_005_01,chara_1
 
-message,<user>,ああ、マニョリアの力があれば、な。
+message,<user>,Yeah，with your power，Magnolia.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -198,9 +198,9 @@ asyncseplay,setag1_10,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,マニョリア,マニョの……！？<br>でもマックンがいないと、マニョなんて……。,,vc_10240100003_006_01,chara_1
+message,マニョリア,Manny's...!<br>But without Makkun，Manny is just...<br> ,,vc_10240100003_006_01,chara_1
 
-message,<user>,マニョリアなら絶対にできる。<br>俺を信じてくれないか。
+message,<user>,You can do it，Magnolia.<br>Trust me，okay?<br> 
 
 
 window,off
@@ -232,9 +232,9 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,マニョリア,……うん、おにいさんを信じる。,,vc_10240100003_007_01,chara_1
+message,マニョリア,...Okay. I trust you，Big Brother.<br> ,,vc_10240100003_007_01,chara_1
 
-message,<user>,よし、いい顔だ。<br>――では、作戦を伝達する。
+message,<user>,Good，that's the spirit.<br>Now，let me tell you the plan.<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -298,7 +298,7 @@ asynccharaemo,chara_2,Trouble,CONT,0
 
 
 window,on,0.15
-message,怪しげな男,くそっ、方向はこっちで合ってんのか？<br>いつまでこんなことしてりゃいいんだよ……。,2028301,,chara_2
+message,怪しげな男,Shit，am I even going the right way?<br>How long do I have to keep stumbling around...<br> ,2028301,,chara_2
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -309,7 +309,7 @@ asyncseplay,setag1_16,se4800001,0,1,CONT,0
 asynccharaemo,chara_2,Anger,CONT,0
 
 
-message,怪しげな男,ああもう！　どうしてこんなに歩きにくいんだよ、この森はっ！<br>この草も！　デカい木も！　わざと俺の邪魔をしてんじゃねえのか！？　,2028301,,chara_2
+message,怪しげな男,Oh，come on! Why is it so hard to walk through this damn forest!<br>The grass，the huge trees! Are they all deliberately in my way?<br> ,2028301,,chara_2
 
 window,off
 wait,0.15
@@ -342,7 +342,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,何をやっているんだ、お前！<br>背中の瓶はなんだ！　どこから持ち出した！
+message,<user>,What do you think you're doing!<br>What's that bottle on your back! Where did you steal it from!<br> 
 
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 

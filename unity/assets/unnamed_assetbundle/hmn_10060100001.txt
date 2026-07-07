@@ -43,7 +43,7 @@ bgmplay,bgmtag1_1,bgm0028,0.75,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――大穴</size>,,,on
+messageTextCenter,,<size=48><size=48>――The Abyss</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -79,7 +79,7 @@ wait,0.5
 wait,0.5
 
 window,on,0.15
-message,,<user>の率いる部隊がモンスターと交戦していた。
+message,,%user%'s unit was engaging the monster.<br> 
 
 window,off
 wait,0.15
@@ -127,7 +127,7 @@ shake,CHARA,chara_7,20,0,0.25,30,off,off,0
 
 
 window,on,0.15
-message,モンスター,オオオオオォォォンッ！！！,402001000,,chara_2
+message,モンスター,ROOOAAAAR!<br> ,402001000,,chara_2
 
 window,off
 wait,0.15
@@ -167,7 +167,7 @@ asynccharaemo,chara_3,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,うああああっ！？,400901000,,chara_3
+message,兵士Ａ,Uwaaaaa!<br> ,400901000,,chara_3
 
 window,off
 wait,0.15
@@ -220,7 +220,7 @@ asyncshake,CHARA,chara_4,15,10,0.25,3,on,off,0,off,CONT,0
 asyncshake,CHARA,chara_5,15,10,0.25,3,on,off,0,off,CONT,0
 
 window,on,0.15
-message,,モンスターの圧力を受け止めきれず、１人また１人と兵士が深手を負う。<br>痛ましい光景に周囲の兵へと恐怖が伝染していく。
+message,,Unable to withstand the monster's pressure，one soldier after another<br>fell severely wounded. The tragic sight spread fear among the surrounding soldiers.<br> 
 
 window,off
 wait,0.15
@@ -247,7 +247,7 @@ transitionCrossFade,Tra02,1
 wait,1
 
 window,on,0.15
-message,<user>,くっ、また負傷者だ！<br>後方に下がらせてヒーラーを呼べ！
+message,<user>,Tch，more wounded! Fall back and call a healer!<br> 
 
 window,off
 wait,0.15
@@ -285,9 +285,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,まかせてください！<br>すぐに治療します！,100601000G,vc_10060100001_001_01,chara_1
+message,ノエミ,Leave it to me! I'll treat them right away!<br> ,100601000G,vc_10060100001_001_01,chara_1
 
-message,<user>,ああ、頼んだぞ、ノエミ！
+message,<user>,Yeah，I'm counting on you，Noemi!<br> 
 
 window,off
 wait,0.15
@@ -382,7 +382,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,神よ、我が友を癒やしたまえ……！<br>お願い、治って！,100601000G,vc_10060100001_002_01,chara_1
+message,ノエミ,God，please heal my friends...! Please，get better!<br> ,100601000G,vc_10060100001_002_01,chara_1
 
 window,off
 wait,0.15
@@ -427,7 +427,7 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,悪いな、嬢ちゃん……,400901000,,chara_3
+message,兵士Ａ,Sorry，missy...<br> ,400901000,,chara_3
 
 window,off
 wait,0.15
@@ -446,7 +446,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,大丈夫です、すぐに助けますから……！,100601000G,vc_10060100001_003_01,chara_1
+message,ノエミ,It's alright，I'll help you right away...!<br> ,100601000G,vc_10060100001_003_01,chara_1
 
 window,off
 wait,0.15
@@ -461,9 +461,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（ノエミは頑張ってくれているが、さすがに１人では厳しいか。<br>これ以上の負傷者は治療が追いつかない）
+message,<user>,(Noemi's doing her best，but it's tough for just one person. Any more<br>casualties and we won't be able to keep up with treatment.)<br> 
 
-message,<user>,（勝てない敵じゃないってのに、このままじゃ危ない。<br>負傷者が放置されるようなことになったら、兵士が戦意を失うぞ……！）
+message,<user>,(We can beat this enemy，but at this rate it's dangerous. If the<br>wounded are left untreated，the soldiers will lose their will to fight...!)<br> 
 
 window,off
 wait,0.15
@@ -511,7 +511,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,急がなきゃ、急がなきゃ……！<br>私がすぐに癒やしますから！,100601000G,vc_10060100001_004_01,chara_1
+message,ノエミ,I have to hurry，I have to hurry...! I'll heal you right away!<br> ,100601000G,vc_10060100001_004_01,chara_1
 
 window,off
 wait,0.15
@@ -563,7 +563,7 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,……いや、俺のことはもういい。<br>他のやつを治してやってくれ,400901000,,chara_3
+message,兵士Ａ,...No，forget about me. Please heal the others.<br> ,400901000,,chara_3
 
 window,off
 wait,0.15
@@ -582,7 +582,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,なっ！？　こんな大怪我で何を言ってるんですか！<br>このままじゃ死んでしまいますよ！,100601000G,vc_10060100001_005_01,chara_1
+message,ノエミ,What! With an injury like this，what are you saying! At this rate<br>you'll die!<br> ,100601000G,vc_10060100001_005_01,chara_1
 
 asynccharaface,chara_3,FaceAnger,CONT,0
 
@@ -593,7 +593,7 @@ asyncseplay,setag1_17,se4800015,0,1,CONT,0
 asynccharaemo,chara_3,Dull,CONT,0
 
 
-message,兵士Ａ,この傷、治そうとしたら時間がかかるんだろ？<br>その間に何人の仲間を治療できるんだ？,400901000,,chara_3
+message,兵士Ａ,This wound would take time to heal，right? How many comrades can you<br>treat in that time?<br> ,400901000,,chara_3
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -604,7 +604,7 @@ asyncseplay,setag1_18,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,兵士Ａ,頼む、他のやつを助けてやってくれ。<br>俺のために誰かが死ぬなんて耐えられねえ……,400901000,,chara_3
+message,兵士Ａ,Please，help the others. I can't bear someone dying because of me...<br> ,400901000,,chara_3
 
 window,off
 wait,0.15
@@ -676,7 +676,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,……ダメです。あなたは私が治します。,100601000G,vc_10060100001_006_01,chara_1
+message,ノエミ,...No. I will heal you.<br> ,100601000G,vc_10060100001_006_01,chara_1
 
 window,off
 wait,0.15
@@ -729,7 +729,7 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,だが、それじゃ仲間たちが……,400901000,,chara_3
+message,兵士Ａ,But then，the others...<br> ,400901000,,chara_3
 
 window,off
 wait,0.15

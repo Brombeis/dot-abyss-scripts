@@ -56,7 +56,7 @@ bgmplay,bgmtag1_1,bgm0028,0.75,1
 
 
 window,on,0.15
-message,,森の中を激しい戦いの音が響く。<br>前線基地へと迫るモンスターを迎撃すべく、戦闘が行われていた。
+message,,The sounds of fierce battle echoed through the forest. A battle was<br>underway to intercept the monsters closing in on the Frontline Base.<br> 
 
 window,off
 wait,0.15
@@ -95,7 +95,7 @@ charamove,chara_11,LinearTarget,X,0,0.3
 linework,on,White,Light
 
 window,on,0.15
-message,モンスター,グオォォォォォッ！！,,,chara_11
+message,モンスター,GUOOOOOH!!<br> ,,,chara_11
 
 linework,off,Black,Light
 
@@ -158,7 +158,7 @@ asyncseplay,setag1_3,se4800010,0,1,CONT
 asynccharareaction,chara_2,Jump,1,STOP
 asynccharaemo,chara_2,Exclamation,STOP
 window,on,0.15
-message,ソフィア,いけないっ！　モンスターがそっちに行った！<br>誰か止めてっ！,,vc_10200100001_001_01
+message,ソフィア,No! The monster went that way! Someone，stop it!<br> ,,vc_10200100001_001_01
 
 window,off
 wait,0.15
@@ -205,7 +205,7 @@ asyncseplay,setag1_5,se4800007,0,1,CONT
 
 asynccharaemo,chara_3,Panic,STOP
 window,on,0.15
-message,クルル,ダメー！　とどかないよー！！,,vc_10200100001_002_01
+message,クルル,Nooo! I can't reach it!<br> ,,vc_10200100001_002_01
 
 window,off
 wait,0.15
@@ -244,7 +244,7 @@ asyncseplay,setag1_7,se4800010,0,1,CONT
 asynccharareaction,chara_2,Jump,1,STOP
 asynccharaemo,chara_2,Exclamation,STOP
 window,on,0.15
-message,ソフィア,ベリサ、逃げてっ！,,vc_10200100001_003_01
+message,ソフィア,Verisa，run!<br> ,,vc_10200100001_003_01
 
 window,off
 wait,0.15
@@ -280,15 +280,15 @@ asynccharaemo,chara_4,ExclaQues,STOP
 asyncshake,CHARA,chara_4,20,15,0.5,6,on,off,0,off,CONT,0
 
 window,on,0.15
-message,ベリサ,え……っ！？,,vc_10200100001_004_01
+message,ベリサ,Huh...?!<br> ,,vc_10200100001_004_01
 
 
 
-message,,魔法を放つべく集中していたベリサへ、<br>陣形をすり抜けたモンスターが襲いかかる。
+message,,Just as Verisa was focusing to unleash a spell，a monster slipped<br>through the formation and attacked her.<br> 
 
 linework,on,White,Strong
 
-message,モンスター,グオォォォォォッ！！
+message,モンスター,GUOOOOOH!!<br> 
 
 window,off
 wait,0.15
@@ -301,7 +301,7 @@ charaface,chara_4,FaceUnique01
 
 asynccharareaction,chara_4,Shake,1,STOP
 window,on,0.15
-message,ベリサ,きゃあああっ！？,,vc_10200100001_005_01
+message,ベリサ,Aaaah!<br> ,,vc_10200100001_005_01
 
 window,off
 wait,0.15
@@ -330,11 +330,11 @@ colorfade,0.15,255,255,255,255,0
 
 
 window,on,0.15
-message,,モンスターがベリサの命を奪おうとした瞬間。<br>眼前に飛び込んだラヴェリアがその凶刃を防ぎ止めた。
+message,,Just as the monster was about to take Verisa's life，Laveria threw<br>herself in front of her and blocked the deadly strike.<br> 
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
-message,ラヴェリア,ここは通さないっ！<br>今の内に下がるんだ、ベリサっ！,,vc_10200100001_006_01
+message,ラヴェリア,You're not getting past me! Fall back，Verisa，now!<br> ,,vc_10200100001_006_01
 
 window,off
 wait,0.15
@@ -361,7 +361,7 @@ asyncseplay,setag1_10,se4800004,0,1,CONT
 asynccharareaction,chara_7,Nod,1,STOP
 asynccharaemo,chara_7,Laugh,STOP
 window,on,0.15
-message,マリナ,旦那さま！　ピンチのベリサちゃんを、<br>ラヴェリアさんが助けてくれたみたいですよぉ。,,vc_10200100001_007_01
+message,マリナ,Honey! Looks like Laveria saved little Verisa from a tight spot!<br> ,,vc_10200100001_007_01
 
 window,off
 wait,0.15
@@ -376,9 +376,9 @@ charamove,chara_7,LinearTarget,X,300,0.3
 wait,0.2
 
 window,on,0.15
-message,<user>,よくやった、ラヴェリア！<br>あいつが前をおさえている間に立て直すぞ！
+message,<user>,Great job，Laveria! While she's holding them off，let's regroup!<br> 
 
-message,<user>,落ち着いて陣形の再構築だ！<br>ラヴェリアの援護……援護を……？
+message,<user>,Stay calm and reform the formation! Provide cover for Laveria...<br>cover...?<br> 
 
 window,off
 wait,0.15
@@ -416,7 +416,7 @@ asyncshake,CHARA,chara_11,20,0,0.5,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_8,20,0,0.5,5,off,off,0,on,CONT,0
 
 window,on,0.15
-message,ラヴェリア,この程度でっ！　アタシとやる気かっ！？<br>はあああああああああっ！,,vc_10200100001_008_01
+message,ラヴェリア,Is that all you've got! You dare challenge me! *pant*!<br> ,,vc_10200100001_008_01
 
 window,off
 wait,0.15
@@ -446,7 +446,7 @@ shake,CHARA,chara_8,9,0,0.5,4,off,off,0
 
 
 window,on,0.15
-message,,ラヴェリアが大剣を振るうたび、<br>モンスターがその数を減らしていく。
+message,,With every swing of her greatsword，Laveria thinned the horde.<br> 
 
 window,off
 wait,0.15
@@ -543,10 +543,10 @@ asyncseplay,setag1_15,se4800010,0,1,CONT
 asynccharareaction,chara_6,Jump,1,STOP
 asynccharaemo,chara_6,Exclamation,STOP
 window,on,0.15
-message,ヒマリ,すごい、どんどん倒してる。,,vc_10200100001_009_01
+message,ヒマリ,Wow... she's beating them all!<br> ,,vc_10200100001_009_01
 
 asyncwait
-message,<user>,本当だ……おさえるどころか前に出てるっ！
+message,<user>,No kidding... She's not just holding them off，she's charging ahead!<br> 
 
 window,off
 wait,0.15
@@ -567,7 +567,7 @@ transitionCrossFade,Tra06,0.5
 wait,0.5
 
 window,on,0.15
-message,ラヴェリア,このまま押し切るっ！<br>出来るものなら止めてみろっ！,,vc_10200100001_010_01
+message,ラヴェリア,I'm taking them all! Stop me if you can!<br> ,,vc_10200100001_010_01
 
 window,off
 wait,0.15
@@ -636,7 +636,7 @@ asyncshake,CHARA,chara_10,20,15,0.3,6,on,off,0,off,CONT
 
 
 window,on,0.15
-message,モンスター,ギャオォォォォォッ……,,,chara_8/chara_9/chara_10
+message,モンスター,Gyaoooooo...<br> ,,,chara_8/chara_9/chara_10
 
 
 window,off

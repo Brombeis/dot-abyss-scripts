@@ -26,22 +26,22 @@ asyncseplay,setag1_1,se4400030,0,1,CONT
 wait,1
 
 window,on,0.15
-message,シャオレイ,ん、つぎ。<br>うん、つぎのつぎ。,,vc_10040100003_001_01
+message,シャオレイ,mmm，next. Mhm，next one.<br> ,,vc_10040100003_001_01
 
-message,<user>,いいぞシャオレイ！<br>皿を割らずに洗えてるじゃないか！
+message,<user>,Great，Xiaolei! You're washing the plates without breaking them!<br> 
 
-message,<user>,もう完璧に力を制御できてると言っていいだろう！<br>すごいぞシャオレイ！
+message,<user>,I'd say you've got perfect control of your strength now!<br>Amazing，Xiaolei!<br> 
 
 charaface,chara_1,FaceAnger
-message,シャオレイ,先生、まだ危ない。<br>気をつけないと、すぐ割っちゃう。,,vc_10040100003_002_01
+message,シャオレイ,Teacher，still dangerous. If Xiaolei not careful，Xiaolei break them<br>right away.<br> ,,vc_10040100003_002_01
 
-message,パンパン[シャオレイ],くぴゅーっ！,900000003
+message,パンパン[シャオレイ],Squeak!<br> ,900000003
 
-message,ダンダン[シャオレイ],くぴゅっぴゅっ！,900000003
+message,ダンダン[シャオレイ],Squeak，squeak!<br> ,900000003
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
-message,<user>,おう、パンパンとダンダンもよくやったぞ。<br>お前たちのおかげだ。
+message,<user>,Hey，Panpan and Dandan，you did well too. It's thanks to you two.<br> 
 
 window,off
 wait,0.15
@@ -65,38 +65,38 @@ bgmplay,bgmtag1_2,bgm0024,0.75,1
 fade,In,White,1.5
 
 window,on,0.15
-message,<user>,シャオレイの抱えた問題は、力が強すぎて制御できず、<br>周りのものを壊してしまうってことだ。
+message,<user>,Xiaolei's problem is that her strength is too great to control，and<br>she ends up breaking things around her.<br> 
 
 asyncseplay,setag1_2,se4800008,0,1,CONT
 
 asynccharaemo,chara_1,Sweat,STOP
-message,シャオレイ,うん……力をいれない、むずかしい。,,vc_10040100003_003_01
+message,シャオレイ,Hmmm... not using strength is hard.<br> ,,vc_10040100003_003_01
 
-message,<user>,ずっと鍛えてばかりだったから、<br>力を抜く感覚がなかなかつかめないんだろう。
+message,<user>,Because you've been training all the time，you can't quite get the<br>hang of letting go of strength.<br> 
 
-message,<user>,だがな、シャオレイ。<br>お前が力を入れずに、優しく触れている相手がいるんだ。
+message,<user>,But，Xiaolei，there's someone you touch gently without using force.<br> 
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,シャオレイ,え……？,,vc_10040100003_004_01
+message,シャオレイ,Eh...?<br> ,,vc_10040100003_004_01
 
-message,<user>,それが、こいつらだ！
+message,<user>,It's these guys!<br> 
 
-message,パンパン[シャオレイ],くぴゅー！,900000003
+message,パンパン[シャオレイ],Squeak!<br> ,900000003
 
-message,ダンダン[シャオレイ],くぴゅ、くぴゅーっ！,900000003
+message,ダンダン[シャオレイ],Squeak，squeak!<br> ,900000003
 
 asyncseplay,setag1_3,se4800009,0,1,CONT
 
 asynccharaemo,chara_1,Question,STOP
-message,シャオレイ,パンパン、ダンダン……？,,vc_10040100003_005_01
+message,シャオレイ,Panpan，Dandan...?<br> ,,vc_10040100003_005_01
 
-message,<user>,そうだ。シャオレイを見ていて気づいたんだが、<br>このパンダたちに触れる時だけは、優しい力加減ができてるんだよ。
+message,<user>,That's right. I noticed while watching you，Xiaolei，that only when<br>you touch these pandas can you apply your strength gently.<br> 
 
 asynccharareaction,chara_1,Nod,1,STOP
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,シャオレイ,だって、強くなでたら、ふたりがいたがるから……。<br>パンパンとダンダンは、大切なそんざいだし、怪我させたくない……,,vc_10040100003_006_01
+message,シャオレイ,Because if Xiaolei pet them hard，they get hurt... Panpan and Dandan<br>are precious to Xiaolei，so Xiaolei not want to hurt them.<br> ,,vc_10040100003_006_01
 
 asyncseplay,setag1_4,se4800010,0,1,CONT
 
@@ -104,9 +104,9 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,Exclamation,STOP
 
 asynccharaface,chara_1,FaceSurprise,STOP
-message,シャオレイ,あ……それが、力をよわくする、こと？,,vc_10040100003_007_01
+message,シャオレイ,Ah... that is how to make strength soft?<br> ,,vc_10040100003_007_01
 
-message,<user>,その通り！　つまり、パンダたちを優しく撫でる気持ちで、<br>全てのものを扱えばいいんだ！
+message,<user>,Exactly! In other words，if you treat everything with the same<br>feeling as gently petting the pandas，you'll be fine!<br> 
 
 message,<user>,Come on，imagine the cup is Panpan and the plate is Dandan，and try<br>picking them up!<br> 
 

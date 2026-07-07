@@ -39,7 +39,7 @@ bgmplay,bgmtag1_1,bgm0024,0.75,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――数か月後</size>,,,on
+messageTextCenter,,<size=48>—A few months later—</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -85,7 +85,7 @@ wait,0.5
 
 
 window,on,0.15
-message,アリシア,そういえば、少し前におこなわれたスイーツコンテストで<br>ミルティーユさんが優勝したそうですよ。,300201000,vc_10290100003_001_01,chara_2
+message,アリシア,Come to think of it，I heard Myrtille won the Sweets Contest that was<br>held a little while ago.<br> ,300201000,vc_10290100003_001_01,chara_2
 
 asynccharaface,chara_2,FaceUnique07,CONT,0
 
@@ -96,9 +96,9 @@ asyncseplay,setag1_2,se4800003,0,1,CONT,0
 asynccharaemo,chara_2,Twinkle,CONT,0
 
 
-message,アリシア,シンプルだけど、だからこそ作り手の技術が分かる、ベリーのタルト。<br>そのクオリティは審査員の皆さんを魅了したとか！,300201000,vc_10290100003_002_01,chara_2
+message,アリシア,A simple berry tart，but that's exactly what makes the maker's skill<br>shine through. The quality captivated the judges，I hear!<br> ,300201000,vc_10290100003_002_01,chara_2
 
-message,<user>,あのタルトなら当然だろう。<br>素晴らしい出来だったからな。
+message,<user>,That tart? Of course. It was incredible.<br> 
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -109,9 +109,9 @@ asyncseplay,setag1_3,se4800009,0,1,CONT,0
 asynccharaemo,chara_2,Question,CONT,0
 
 
-message,アリシア,……？<br>司令官、まるで食べたことがあるみたいですね？,300201000,vc_10290100003_003_01,chara_2
+message,アリシア,...? Commander，it sounds like you've already tried it.<br> ,300201000,vc_10290100003_003_01,chara_2
 
-message,<user>,俺はあいつのアドバイザーだったからな。<br>試作品から、完成形まで、すべて味わったさ。
+message,<user>,I was her advisor，after all. I sampled everything from the prototype<br>to the final product.<br> 
 
 window,off
 wait,0.15
@@ -147,7 +147,7 @@ asynccharaemo,chara_2,Anger,CONT,0
 
 
 window,on,0.15
-message,アリシア,なんですって……！？<br>わたしをさしおいて、そんなズルいことをしてたんですかっ！？,300201000,vc_10290100003_004_01,chara_2
+message,アリシア,What?! You did that without me? That's so unfair!<br> ,300201000,vc_10290100003_004_01,chara_2
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -158,9 +158,9 @@ asyncseplay,setag1_5,se4800016,0,1,CONT,0
 asynccharaemo,chara_2,BePeevish,CONT,0
 
 
-message,アリシア,いくら司令官でも許せませんっ！<br>お詫びとして、ミルティーユさんのお店に連れて行ってもらいますっ！,300201000,vc_10290100003_005_01,chara_2
+message,アリシア,I won't forgive you even if you're the Commander! As an<br>apology，you're taking me to Myrtille's shop!<br> ,300201000,vc_10290100003_005_01,chara_2
 
-message,<user>,……あいつの店？<br>新しく店を出したのか？
+message,<user>,...Her shop? She opened a new one?<br> 
 
 asynccharaface,chara_2,FaceUnique06,CONT,0
 
@@ -171,7 +171,7 @@ asyncseplay,setag1_6,se4800003,0,1,CONT,0
 asynccharaemo,chara_2,Twinkle,CONT,0
 
 
-message,アリシア,はい。コンテストで優勝したタルトを食べたいって要望が集まって、<br>お菓子のお店を出すことにしたんだそうです。,300201000,vc_10290100003_006_01,chara_2
+message,アリシア,Yes. There were so many requests to taste the winning tart that she<br>decided to open a sweets shop.<br> ,300201000,vc_10290100003_006_01,chara_2
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -182,9 +182,9 @@ asyncseplay,setag1_7,se4800019,0,1,CONT,0
 asynccharaemo,chara_2,Elated,CONT,0
 
 
-message,アリシア,もうすごい人気店で、大行列になってますよ！,300201000,vc_10290100003_007_01,chara_2
+message,アリシア,It's already a huge hit! There's a massive line!<br> ,300201000,vc_10290100003_007_01,chara_2
 
-message,<user>,……つまり、その行列へ並べと？
+message,<user>,...So you want me to wait in line?<br> 
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -196,9 +196,9 @@ asyncseplay,setag1_8,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,アリシア,１人じゃ退屈しちゃいますから。<br>司令官も一緒に行きましょう！,300201000,vc_10290100003_008_01,chara_2
+message,アリシア,It's too boring alone. Commander，let's go together!<br> ,300201000,vc_10290100003_008_01,chara_2
 
-message,<user>,……分かったよ。開店のお祝いも伝えてないし、顔を出しておくか。
+message,<user>,...Fine. I haven't congratulated her on the opening yet，so I'll stop<br>by.<br> 
 
 
 window,off
@@ -255,9 +255,9 @@ wait,0.5
 
 
 window,on,0.15
-message,アリシア,あれがミルティーユさんのお店です。<br>今日も皆さん並んでますね～。,300201000,vc_10290100003_009_01,chara_2
+message,アリシア,There's Myrtille's shop. Everyone's lining up as usual!<br> ,300201000,vc_10290100003_009_01,chara_2
 
-message,<user>,最後尾はあそこだな。<br>大人しく並ぶとしようか。
+message,<user>,The end of the line is over there. Let's just get in line quietly.<br> 
 
 window,off
 wait,0.15
@@ -311,9 +311,9 @@ asynccharaemo,chara_3,Speak,CONT,0
 
 
 window,on,0.15
-message,街の人Ａ,……ん？　司令官に、アリシアちゃんじゃない。<br>あなたたちなら並ばなくても平気じゃないの？,400101000,vc_10290100003_010_01,chara_3
+message,街の人Ａ,...Huh? If it isn't Commander and Alicia. Surely you don't need to<br>wait in line?<br> ,400101000,vc_10290100003_010_01,chara_3
 
-message,<user>,人気店ってのは行列を並ぶところから味わってこそだろう。<br>なあ、アリシア。
+message,<user>,Part of the charm of a popular shop is savoring the wait in line.<br>Right，Alicia?<br> 
 
 window,off
 wait,0.15
@@ -361,7 +361,7 @@ asynccharaemo,chara_2,Twinkle,CONT,0
 
 
 window,on,0.15
-message,アリシア,はい、わたしたちも一緒に並びますよ～。<br>ここが最後尾で～す。,300201000,vc_10290100003_011_01,chara_2
+message,アリシア,Yes，we'll wait in line too! This is the back!<br> ,300201000,vc_10290100003_011_01,chara_2
 
 window,off
 wait,0.15
@@ -404,7 +404,7 @@ asyncseplay,setag1_12,se4000014,0,1,CONT,0
 wait,5
 
 window,on,0.15
-message,？？？,……がう。,900000003
+message,？？？,...Gaau.<br> ,900000003
 
 window,off
 wait,0.15

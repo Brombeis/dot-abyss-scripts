@@ -31,15 +31,15 @@ seplay,setag1_1,se4030002,0,1
 wait,2
 
 window,on,0.15
-message,<user>,ラヴェリアはこの店に入ったはずだが……。<br>ここはなんの店だ……？
+message,<user>,Laveria definitely went into this shop... What kind of place is<br>this...?<br> 
 
 
 
 bgmstop,bgmtag1_1,0.25,0
-message,？？？,――動くな。,900000001,vc_10200100003_001_01,
+message,？？？,Don't move.<br> ,900000001,vc_10200100003_001_01,
 
 bgmplay,bgmtag1_2,bgm0034,0.75,1
-message,<user>,……っ！？
+message,<user>,Huh!<br> 
 
 window,off
 wait,0.15
@@ -52,7 +52,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（首に刃物が……っ！<br>いつの間に後ろをとられたっ！？）
+message,<user>,(A blade at my neck...! When did she get behind me?)<br> 
 
 window,off
 wait,0.15
@@ -65,9 +65,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,……あー、降参だ降参。<br>抵抗はしない、命だけは勘弁してくれ。　
+message,<user>,Ah，I give up，I give up. I won't resist，just spare my life.<br> 
 
-message,<user>,ただな、さっさと武器を捨てて逃げることをオススメするぞ？<br>今この店にはとんでもなく強い、頼れる女がいるからな。
+message,<user>,But I suggest you drop your weapon and get out of here fast because<br>there's an incredibly strong，reliable woman in this shop right now.<br> 
 
 bgmstop,bgmtag1_2,0.25,0
 
@@ -77,11 +77,11 @@ wait,0.15
 charashow,chara_1,0.3
 
 window,on,0.15
-message,ラヴェリア,……とんでもなく強い女ってのは、<br>アタシのことかい、兄さん。,,vc_10200100003_002_01
+message,ラヴェリア,...That ""incredibly strong woman"" you mentioned—that's<br>me，right，Brother?<br> ,,vc_10200100003_002_01
 
 bgmplay,bgmtag1_3,bgm0027,0.75,1
 
-message,<user>,なっ……おまえ、ラヴェリアか！？<br>どこの刺客かと思ったぞ。
+message,<user>,What! It's you，Laveria! I thought you were some kind of assassin!<br> 
 
 charaface,chara_1,FaceSad
 
@@ -94,13 +94,13 @@ asynccharaface,chara_1,FaceNormal,STOP,2
 
 asynccharaface,chara_1,EyeClose,STOP,5
 asynccharaface,chara_1,FaceNormal,STOP,5
-message,ラヴェリア,それはこっちの台詞だ。<br>尾行してるあやしいやつがいると思ったら、兄さんだとは。,,vc_10200100003_003_01
+message,ラヴェリア,That's my line. I thought someone suspicious was tailing me，and it<br>turns out it was you，Brother.<br> ,,vc_10200100003_003_01
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
-message,ラヴェリア,わざわざ身を隠して追ってくるなんて、<br>どういうつもりなんだ？,,vc_10200100003_004_01
+message,ラヴェリア,Going out of your way to hide and follow me—what's your intention?<br> ,,vc_10200100003_004_01
 
-message,<user>,いや、大した理由はないが。<br>ラヴェリアが露骨に怪しかったから様子を見に来ただけだ。
+message,<user>,No big reason. I just came to check because you were being so<br>obviously suspicious.<br> 
 
 asyncseplay,setag1_3,se4800014,0,1,CONT
 
@@ -108,20 +108,20 @@ asynccharaemo,chara_1,Silence,STOP
 
 charaface,chara_1,EyeClose
 charaface,chara_1,FaceNormal
-message,ラヴェリア,……アタシ、怪しかった？,,vc_10200100003_005_01
+message,ラヴェリア,... Was I that suspicious?<br> ,,vc_10200100003_005_01
 
-message,<user>,俺が警備兵なら詰め所に連行するぐらいには怪しかったぞ。
+message,<user>,Suspicious enough that if I were a guard，I'd have taken you to the<br>station.<br> 
 
 charaface,chara_1,FaceSad
 
 asyncseplay,setag1_4,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,STOP
-message,ラヴェリア,そ、そうか。<br>……心配させて悪かった。,,vc_10200100003_006_01
+message,ラヴェリア,R-Right... Sorry for worrying you.<br> ,,vc_10200100003_006_01
 
-message,<user>,しかしどうしてあんな真似をしていた？<br>この店に何かあるのか？
+message,<user>,But why were you acting like that? Is there something about this<br>store?<br> 
 
-message,<user>,見たところ……ただのファンシーショップに見えるが。
+message,<user>,From the looks of it... it seems like just a cute goods store.<br> 
 
 charaface,chara_1,FaceShy
 
@@ -129,18 +129,18 @@ asyncseplay,setag1_5,se4800011,0,1,CONT
 
 asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,ExclaQues,STOP
-message,ラヴェリア,そ、そうだな、かわいいものを売ってる、ふぁんしーな店、だな。<br>何も妙なところはないと思うぞ？,,vc_10200100003_007_01
+message,ラヴェリア,Y-Yeah，right，it's a store that sells cute stuff—a fancy store... I<br>don't think there's anything strange about it，right?<br> ,,vc_10200100003_007_01
 
-message,<user>,妙なのは店じゃなくラヴェリアなんだよ。<br>ここに用でもあったのか？
+message,<user>,The strange one isn't the store，it's you，Laveria. Did you have<br>business here?<br> 
 
 charaface,chara_1,FaceSad
 
 asyncseplay,setag1_6,se4800007,0,1,CONT
 
 asynccharaemo,chara_1,Panic,STOP
-message,ラヴェリア,いや用というか、その……。<br>特別な理由があったわけではないんだが……。,,vc_10200100003_008_01
+message,ラヴェリア,Well，not business exactly，it's just... it's not that I had any<br>particular reason...<br> ,,vc_10200100003_008_01
 
-message,<user>,俺には言えない事情があるのか？<br>っ！　そうか、分かったぞ！
+message,<user>,Is it something you can't tell me? Ah! I see，now I get it!<br> 
 
 message,<user>,So that's it—this shop's tied to the underworld，and you came to<br>investigate，didn't you?<br> 
 

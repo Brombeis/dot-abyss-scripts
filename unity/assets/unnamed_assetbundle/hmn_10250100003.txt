@@ -33,7 +33,7 @@ asyncshake,CHARA,chara_2,40,0,2,160,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_3,40,0,2,160,off,off,0,off,CONT,0
 
 window,on,0.15
-message,,KABOOM!!!<br> 
+message,,BOOM!<br> 
 
 
 window,off
@@ -58,7 +58,7 @@ asynccharamove,chara_1,EaseOut,Y,100,0.3,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,A sudden，massive explosion jolted Wendy awake.<br>Startled，she scrambled out of bed in a panic.<br> 
+message,,A massive explosion suddenly reached the sleeping Wendy's ears. She<br>was so startled that she woke up in a panic.<br> 
 
 window,off
 wait,0.15
@@ -75,7 +75,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ウェンディ,Wh-wh-wh-what!?<br>What is this shaking!?<br> ,,vc_10250100003_001_01,chara_1
+message,ウェンディ,Wh-what，what，what! What is this huge shaking?!<br> ,,vc_10250100003_001_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -86,7 +86,7 @@ asyncseplay,setag1_3,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ウェンディ,Is the forward base under attack!?<br>Commander could be in danger!<br> ,,vc_10250100003_002_01,chara_1
+message,ウェンディ,Could it be... the Frontline Base is under attack?! The Commander<br>might be in danger!<br> ,,vc_10250100003_002_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -97,7 +97,7 @@ asyncseplay,setag1_4,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ウェンディ,Emergency deployment! Hang on，Commander!<br> ,,vc_10250100003_003_01,chara_1
+message,ウェンディ,Emergency deployment! Wait for me，Commander!<br> ,,vc_10250100003_003_01,chara_1
 
 
 window,off
@@ -130,7 +130,7 @@ scale,BACK,,0,1,1,Set
 transitionFade,Tra05,in,black,1
 
 window,on,0.15
-message,<user>,Tch... What do I do...<br> 
+message,<user>,Tch... what to do...<br> 
 
 window,off
 wait,0.15
@@ -161,9 +161,9 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,Commander! Are you all right!?<br> ,,vc_10250100003_004_01,chara_1
+message,ウェンディ,Commander! Are you all right?!<br> ,,vc_10250100003_004_01,chara_1
 
-message,<user>,Wendy? What are you doing here?<br> 
+message,<user>,Wendy? Why are you here?<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -174,7 +174,7 @@ asyncseplay,setag1_7,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ウェンディ,I heard a huge explosion!<br>I thought something might have happened to you...<br> ,,vc_10250100003_005_01,chara_1
+message,ウェンディ,I heard a really loud explosion! I was worried something might have<br>happened to you，Commander...<br> ,,vc_10250100003_005_01,chara_1
 
 message,<user>,As you can see，I'm perfectly fine.<br> 
 
@@ -187,7 +187,7 @@ asyncseplay,setag1_8,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ウェンディ,Oh，th-thank goodness~...<br> ,,vc_10250100003_006_01,chara_1
+message,ウェンディ,Oh，thank goodness...<br> ,,vc_10250100003_006_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -198,13 +198,13 @@ asyncseplay,setag1_9,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ウェンディ,But then，what caused<br>that explosion just now...?<br> ,,vc_10250100003_007_01,chara_1
+message,ウェンディ,But then，what caused that explosion just now...?<br> ,,vc_10250100003_007_01,chara_1
 
-message,<user>,There was an explosion inside the workshop.<br> 
+message,<user>,Apparently，there was an explosion inside the workshop.<br> 
 
-message,<user>,Luckily it happened before work hours，<br>so none of the workers were hurt，but...<br> 
+message,<user>,Fortunately，it was before work hours，so no employees were<br>hurt，but...<br> 
 
-message,<user>,I've gotten reports that Verisa and Veera<br>were experimenting inside and are now trapped.<br> 
+message,<user>,I've received reports that Verisa and Veera，who were conducting<br>experiments inside，are trapped in the workshop.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -215,7 +215,7 @@ asyncseplay,setag1_10,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,ウェンディ,Verisa-san and the others!?<br>Th-this is terrible!<br> ,,vc_10250100003_008_01,chara_1
+message,ウェンディ,Verisa and Veera?! Th-this is terrible!<br> ,,vc_10250100003_008_01,chara_1
 
 
 window,off
@@ -242,7 +242,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,(Come to think of it，they mentioned yesterday<br>they were going to experiment at the workshop...!)<br> ,,vc_10250100003_009_01,chara_1
+message,ウェンディ,(Come to think of it，they did say yesterday that they were going to<br>do experiments in the workshop...!)<br> ,,vc_10250100003_009_01,chara_1
 
 window,off
 wait,0.15
@@ -268,11 +268,11 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,Are they okay!?<br> ,,vc_10250100003_010_01,chara_1
+message,ウェンディ,Are both of them safe?!<br> ,,vc_10250100003_010_01,chara_1
 
-message,<user>,I don't know. I thought about going in myself，<br>but the fire's too intense...<br> 
+message,<user>,I don't know. I thought about going to rescue them，but the fire is<br>too intense and there's nothing I can do...<br> 
 
-message,<user>,I've got everyone working on rescue preparations.<br>I just hope they're safe...<br> 
+message,<user>,I've called everyone and they're making rescue preparations. I just<br>hope they're safe...<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 

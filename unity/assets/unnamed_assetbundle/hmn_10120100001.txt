@@ -36,7 +36,7 @@ asyncseplay,se1_1001,se4600013,0,1,CONT,0
 wait,2
 
 window,on,0.15
-message,<user>,よし、今日もマーケットは平和だな。<br>物価の変動も想定の範囲内みたいだけど……。
+message,<user>,Alright，the market's peaceful again today.<br>Price fluctuations seem to be within expectations too...<br> 
 
 sestop,se1_1001,2
 
@@ -59,13 +59,13 @@ asynccharaemo,chara_2,Speak,CONT,0
 
 
 window,on,0.15
-message,肉屋の店主,よう司令官の兄ちゃん！<br>今日は肉が安いぜ、買っていかないか？,400301000,,chara_2
+message,肉屋の店主,Hey there，Commander! Meat's cheap today，wanna buy some?<br> ,400301000,,chara_2
 
-message,<user>,これでも視察に来てるんだ、<br>買い物に来た客みたいに扱わないでくれよ。
+message,<user>,I'm here on an inspection，you know.<br>Don't treat me like a customer out shopping.<br> 
 
-message,<user>,ん？　この肉、本当に安いな。<br>今までで最安値だぞ。
+message,<user>,Hm? This meat really is cheap.<br>It's the lowest price I've seen.<br> 
 
-message,<user>,店主、何かあったのか？<br>どこかで野生動物の大量発生でもあったとか？
+message,<user>,Shopkeep，did something happen?<br>Did a bunch of wild animals show up somewhere?<br> 
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -77,24 +77,24 @@ asyncseplay,setag1_2,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,肉屋の店主,いやいや、こいつは狩猟隊の狩ってきた肉さ。<br>今回は大猟だったみたいでな。,400301000,,chara_2
+message,肉屋の店主,Nah，this is meat from the Hunting Party.<br>Looks like they had a big haul this time.<br> ,400301000,,chara_2
 
-message,<user>,狩猟隊か……許可を出した覚えがある。<br>前線基地に集まった猟師たちが狩りをするために結成したんだよな。
+message,<user>,The Hunting Party，huh... I remember giving them permission.<br>The hunters at the Frontline Base formed them to go hunting.<br> 
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
 
-message,肉屋の店主,おう。平時は猟師、有事は傭兵の腕きき連中だ。<br>解体の腕もいい、鮮度だって完璧だぜ？,400301000,,chara_2
+message,肉屋の店主,Yeah. Skilled folks—hunters in peacetime，mercenaries in emergencies.<br>They're great at butchering too，the freshness is perfect，right?<br> ,400301000,,chara_2
 
-message,<user>,それで、この安値で買えるのか……。<br>狩猟隊は本当に優秀なんだな。
+message,<user>,So that's why it's so cheap...<br>The Hunting Party really is impressive.<br> 
 
-message,？？？,……あ、あの～。,900000001,vc_10120100001_001_01,
+message,？？？,...U-um，excuse me.<br> ,900000001,vc_10120100001_001_01,
 
-message,<user>,モンスターを警戒する必要もあるだろうに、<br>外で狩りができるってのは大したもんだ。
+message,<user>,Even though they have to be on guard against monsters，<br>being able to hunt outside is impressive.<br> 
 
-message,？？？,……すみませ～ん。,900000001,vc_10120100001_002_01,
+message,？？？,...E-excuse me...<br> ,900000001,vc_10120100001_002_01,
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -102,11 +102,11 @@ asynccharaface,chara_2,FaceNormal,CONT,0
 asyncjump,CHARA,chara_2,-30,0.5,2,off,0,CONT
 
 
-message,肉屋の店主,モンスター以外の野生動物だって凶暴なやつが多い。<br>戦えない連中は狩猟隊に感謝してるんだぜ。,400301000,,chara_2
+message,肉屋の店主,Even wild animals other than monsters are often vicious.<br>People who can't fight are grateful to the Hunting Party.<br> ,400301000,,chara_2
 
-message,？？？,お肉……お肉を……。,900000001,vc_10120100001_003_01,
+message,？？？,M-meat... I need meat...<br> ,900000001,vc_10120100001_003_01,
 
-message,<user>,食料調達と安全確保を同時におこなっているわけか。待てよ、<br>猟師であり傭兵でもあるなら、偵察を兼ねることも……。
+message,<user>,So they handle food supply and security at the same time. Wait， if<br>they're both hunters and mercenaries，they could also do reconnaissance...<br> 
 
 
 window,off
@@ -143,7 +143,7 @@ linework,on,White,Middle
 
 
 window,on,0.15
-message,エティア,お肉をっ！　くださいっ！,,vc_10120100001_004_01,chara_1
+message,エティア,M-meat! Please，give me some!<br> ,,vc_10120100001_004_01,chara_1
 
 window,off
 wait,0.15
@@ -197,9 +197,9 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,肉屋の店主,うおっ！？,400301000,,chara_2
+message,肉屋の店主,Whoa!?<br> ,400301000,,chara_2
 
-message,<user>,おっと？<br>悪い、俺が邪魔だったかな。
+message,<user>,Oh?<br>Sorry，was I in the way?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -211,14 +211,14 @@ asyncseplay,setag1_4,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,エティア,あ、いえ……大きな声を出してごめんなさい。<br>それで、あの、お肉を……。,,vc_10120100001_005_01,chara_1
+message,エティア,Ah，no... Sorry for raising my voice.<br>So，um，the meat...<br> ,,vc_10120100001_005_01,chara_1
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
 asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
 
 
-message,肉屋の店主,ああ、エティアちゃんか！<br>いつも通りだよな、ちょっと待っててくれ。,400301000,,chara_2
+message,肉屋の店主,Ah，it's Etia!<br>The usual，right? Hang on a sec.<br> ,400301000,,chara_2
 
 
 asynccharaface,chara_1,FaceFun,CONT,0

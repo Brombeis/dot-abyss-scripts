@@ -44,7 +44,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,司令室には事務仕事をする<user>とアリシア、<br>そして２人を見守るローザの姿があった。
+message,,In the command room，%user% and Alicia were doing paperwork，with Rosa<br>looking on.<br> 
 
 window,off
 wait,0.15
@@ -96,9 +96,9 @@ asynccharaemo,chara_2,Exclamation,CONT,0
 
 
 window,on,0.15
-message,アリシア,次の書類です、確認をお願いします！,300201000,vc_10010100003_001_01,chara_2
+message,アリシア,Here's the next document! Please review it!<br> ,300201000,vc_10010100003_001_01,chara_2
 
-message,<user>,あー……酔って頭が回らん……<br>これは絶対に今日じゃないとダメなのか……？
+message,<user>,Ugh... I'm still too hungover to think straight... Do these really<br>have to be done today?<br> 
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -109,9 +109,9 @@ asyncseplay,setag1_3,se4800016,0,1,CONT,0
 asynccharaemo,chara_2,BePeevish,CONT,0
 
 
-message,アリシア,ダメですよ！<br>わかっていたのにお酒なんて飲むのが悪いんですっ！,300201000,vc_10010100003_002_01,chara_2
+message,アリシア,Absolutely not! You knew better than to drink! It's your own fault!<br> ,300201000,vc_10010100003_002_01,chara_2
 
-message,<user>,飲まずにはいられなかったんだよ……。<br>ああ、困ったな……
+message,<user>,I just couldn't say no... Ah，I'm in a real jam...<br> 
 
 window,off
 wait,0.15
@@ -171,9 +171,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ローザ,司令官殿がお困りなら力になります！<br>ですが……わたしにできることはありますか……？,100101000G,vc_10010100003_003_01,chara_1
+message,ローザ,If Lord Commander is in trouble，I'll lend my aid! But... is there<br>anything I can do...?<br> ,100101000G,vc_10010100003_003_01,chara_1
 
-message,<user>,もちろんあるぞ！<br>この書類に俺の名前で署名しておいてくれ！
+message,<user>,Of course there is! Just sign this document with my name!<br> 
 
 window,off
 wait,0.15
@@ -223,7 +223,7 @@ asynccharaemo,chara_2,Anger,CONT,0
 
 
 window,on,0.15
-message,アリシア,不正はやめてくださいっ！,300201000,vc_10010100003_004_01,chara_2
+message,アリシア,Don't even think about forging his signature!<br> ,300201000,vc_10010100003_004_01,chara_2
 
 window,off
 wait,0.15
@@ -279,7 +279,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 
 window,on,0.15
-message,アリシア,ローザさん。残念ですけど、<br>こちらは司令官しか処理のできないものばかりで……,300201000,vc_10010100003_005_01,chara_2
+message,アリシア,Rosa，unfortunately，these are all things only the Commander can<br>process...<br> ,300201000,vc_10010100003_005_01,chara_2
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -290,7 +290,7 @@ asyncseplay,setag1_7,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ローザ,でしたら、雑用があればいつでもお声掛けを！,100101000G,vc_10010100003_006_01,chara_1
+message,ローザ,Then，if there are any odd jobs，please don't hesitate to call on me!<br> ,100101000G,vc_10010100003_006_01,chara_1
 
 asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
 
@@ -299,7 +299,7 @@ asyncseplay,setag1_8,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,アリシア,ローザさん、わざわざ付き合ってくれなくていいんですよ？<br>悪いのは司令官ですから。,300201000,vc_10010100003_007_01,chara_2
+message,アリシア,Rosa，you don't have to go out of your way for this. It's the<br>Commander's fault，after all.<br> ,300201000,vc_10010100003_007_01,chara_2
 
 window,off
 wait,0.15
@@ -345,7 +345,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ローザ,ですが、司令官殿を酒場まで護衛したのはわたしです。,100101000G,vc_10010100003_008_01,chara_1
+message,ローザ,But I was the one who escorted Lord Commander to the tavern.<br> ,100101000G,vc_10010100003_008_01,chara_1
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -354,9 +354,9 @@ asyncseplay,setag1_10,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ローザ,わたしのしたことが原因で、こんなことになるなんて……。<br>司令官殿が困っている責任をとらなければなりません。,100101000G,vc_10010100003_009_01,chara_1
+message,ローザ,I never thought my actions would lead to this... I must take<br>responsibility for Lord Commander being in such a bind.<br> ,100101000G,vc_10010100003_009_01,chara_1
 
-message,<user>,別に悪いことはしてないんだ、責任なんてないだろう。<br>俺はローザが付き合ってくれて嬉しかったぞ？
+message,<user>,You didn't do anything wrong at all. There's no need for you to take<br>responsibility. I was actually glad you came along with me.<br> 
 
 window,off
 wait,0.15
@@ -384,7 +384,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ローザ,それは……はい、司令官殿のお気持ちは、<br>わたしも嬉しく思います。,100101000G,vc_10010100003_010_01,chara_1
+message,ローザ,Well... yes，I'm glad to hear you say that，Lord Commander.<br> ,100101000G,vc_10010100003_010_01,chara_1
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -396,9 +396,9 @@ asyncseplay,setag1_13,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ローザ,皆さんに喜んでもらいたくて、<br>困っている人を助けているのですから。,100101000G,vc_10010100003_011_01,chara_1
+message,ローザ,I help those in need because I want to bring joy to others.<br> ,100101000G,vc_10010100003_011_01,chara_1
 
-message,<user>,……困っている人を助けるのは騎士道としては真っ当だが、<br>ローザはそういう思いが強いように見えるな。
+message,<user>,Helping those in need is certainly part of chivalry，but you seem to<br>have a particularly strong conviction about it.<br> 
 
 window,off
 wait,0.15
@@ -417,7 +417,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ローザ,はい、わたしの騎士道は、人とは違うかもしれません。,100101000G,vc_10010100003_012_01,chara_1
+message,ローザ,Yes，my knightly code might be different from others'.<br> ,100101000G,vc_10010100003_012_01,chara_1
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -426,9 +426,9 @@ asyncseplay,setag1_15,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ローザ,司令官殿には迷惑をかけてしまいましたし……。<br>少しだけお話を聞いてもらってもいいですか？,100101000G,vc_10010100003_013_01,chara_1
+message,ローザ,I've already caused you trouble，Lord Commander... Would you mind if<br>I told you a little about myself?<br> ,100101000G,vc_10010100003_013_01,chara_1
 
-message,<user>,おお、興味があるぞ。<br>酔い覚ましに聞かせてくれ。
+message,<user>,Oh，I'd love to hear it. It'll help clear my head.<br> 
 
 window,off
 wait,0.15

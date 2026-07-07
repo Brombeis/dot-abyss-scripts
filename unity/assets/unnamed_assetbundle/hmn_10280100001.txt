@@ -70,7 +70,7 @@ asyncjump,CHARA,chara_1,40,0.5,2,off,0,CONT
 wait,0.5
 
 window,on,0.15
-message,客Ａ,Hey，Emily-chan! Can we get a snack platter over here!<br> ,400901000
+message,客Ａ,Hey，Emily! Can I get a snack set?<br> ,400901000
 
 window,off
 wait,0.15
@@ -126,7 +126,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,エミリー,Coming right up~! You got it~♪<br> ,102801000G,vc_10280100001_001_01,chara_1
+message,エミリー,Coming right up! You got it!♪<br> ,102801000G,vc_10280100001_001_01,chara_1
 
 window,off
 wait,0.15
@@ -170,7 +170,7 @@ asynccharaemo,chara_3,Speak,CONT,0
 
 
 window,on,0.15
-message,キッチンスタッフ,Emily! Take these to table 5，please!<br>And this dish goes to table 3!<br> ,401401000,vc_10280100001_002_01,chara_3
+message,キッチンスタッフ,Emily! I need this and this to table 5，and this dish to table 3!<br> ,401401000,vc_10280100001_002_01,chara_3
 
 window,off
 wait,0.15
@@ -201,7 +201,7 @@ asynccharaemo,chara_1,Flash,CONT,0
 
 
 window,on,0.15
-message,エミリー,Roger that~! Here we go~!<br> ,102801000G,vc_10280100001_003_01,chara_1
+message,エミリー,Got it! Here goes!<br> ,102801000G,vc_10280100001_003_01,chara_1
 
 window,off
 wait,0.15
@@ -269,7 +269,7 @@ asynccharaemo,chara_4,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,客Ｂ,Whoa，amazing! She's using both arms up to<br>her elbows to carry four plates at once!<br> ,401201000,,chara_4
+message,客Ｂ,Whoa，amazing! She's carrying four plates at once using her entire<br>forearms!<br> ,401201000,,chara_4
 
 window,off
 wait,0.15
@@ -313,7 +313,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,エミリー,Eheheh~! This much is a piece of cake~♪<br> ,102801000G,vc_10280100001_004_01,chara_1
+message,エミリー,Ehehehe! Piece of cake!♪<br> ,102801000G,vc_10280100001_004_01,chara_1
 
 window,off
 wait,0.15
@@ -359,7 +359,7 @@ asynccharaemo,chara_5,Laugh,CONT,0
 
 
 window,on,0.15
-message,客Ｃ,Emily-chan's as cute as ever today~<br>Now then，let's see how that rear is doing...<br> ,400301000,,chara_5
+message,客Ｃ,Emily，you're looking cute as always. Now then，how's that backside of<br>yours doing today... oops.<br> ,400301000,,chara_5
 
 window,off
 wait,0.15
@@ -430,7 +430,7 @@ wait,0.5
 
 
 window,on,0.15
-message,エミリー,Hey now~. No harassing the staff! Got it~?<br> ,102801000G,vc_10280100001_005_01,chara_1
+message,エミリー,Hey now. No harassing the staff，got it?<br> ,102801000G,vc_10280100001_005_01,chara_1
 
 window,off
 wait,0.15
@@ -476,7 +476,7 @@ asynccharaemo,chara_6,Laugh,CONT,0
 
 
 window,on,0.15
-message,客Ｄ,Emily-chan，what time are you off today?<br>Wanna go grab some drinks after?<br> ,400801000,,chara_6
+message,客Ｄ,Emily，what time does your shift end? Want to grab a drink after?<br> ,400801000,,chara_6
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -487,7 +487,7 @@ asyncseplay,setag1_10,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,エミリー,No~ way~! If you wanna drink，do it right here!<br> ,102801000G,vc_10280100001_006_01,chara_1
+message,エミリー,No way! If you want a drink，have one here!<br> ,102801000G,vc_10280100001_006_01,chara_1
 
 asynccharaface,chara_6,FaceSad,CONT,0
 
@@ -498,7 +498,7 @@ asyncseplay,setag1_11,se4800008,0,1,CONT,0
 asynccharaemo,chara_6,Sweat,CONT,0
 
 
-message,客Ｄ,Tch~ She's got her head on straight...<br> ,400801000,,chara_6
+message,客Ｄ,Tch，you sure are dedicated.<br> ,400801000,,chara_6
 
 window,off
 wait,0.15
@@ -549,7 +549,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,Emily's working hard today too，as usual.<br> 
+message,<user>,Emily，you're working hard as always.<br> 
 
 asynccharaface,chara_7,FaceFun,CONT,0
 
@@ -560,9 +560,9 @@ asyncseplay,setag1_13,se4800004,0,1,CONT,0
 asynccharaemo,chara_7,Laugh,CONT,0
 
 
-message,ルディア,Hehe，that's right. No matter how busy it gets，<br>she never stops smiling while she works... A wonderful girl♪<br> ,,vc_10280100001_007_01,chara_7
+message,ルディア,Fufu，that's right. No matter how busy，she keeps smiling and works so<br>efficiently... She's a truly wonderful girl!♪<br> ,,vc_10280100001_007_01,chara_7
 
-message,,Emily is what you'd call the poster girl of the tavern.<br>Many customers seem to come just to be cheered up by her.<br> 
+message,,Emily is truly the face of the store—it seems many customers come<br>just for the comfort of her presence.<br> 
 
 
 window,off
@@ -587,7 +587,7 @@ fade,In,Black,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>——A few days later</size>,,,on
+messageTextCenter,,<size=48>A few days later.</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -625,9 +625,9 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 
 window,on,0.15
-message,エミリー,Ugh~... The place is so dead today~...<br> ,102801000G,vc_10280100001_008_01,chara_1
+message,エミリー,Uugh... The store's so empty...<br> ,102801000G,vc_10280100001_008_01,chara_1
 
-message,<user>,I guess days like this happen too，huh.<br> 
+message,<user>,So even days like this happen，huh.<br> 
 
 window,off
 wait,0.15
@@ -644,9 +644,9 @@ wait,0.5
 
 
 window,on,0.15
-message,エミリー,It really only happens once in a while，though~<br>Ugh~，I wanna work more~...<br> ,102801000G,vc_10280100001_009_01,chara_1
+message,エミリー,It's only occasional，but still. Uugh，I want to do more work...<br> ,102801000G,vc_10280100001_009_01,chara_1
 
-message,<user>,Nothing wrong with having free time. When you're older，<br>you'll have more work than you can handle. Enjoy it while you can.<br> 
+message,<user>,Isn't it nice to have some downtime? Once you're an adult，you'll<br>have more work than you know what to do with，so enjoy being free while you can.<br> 
 
 window,off
 wait,0.15
@@ -665,7 +665,7 @@ wait,0.5
 
 
 window,on,0.15
-message,エミリー,Jeez~! Commander，what are you saying!<br>I'm already a full-fledged adult~!<br> ,102801000G,vc_10280100001_010_01,chara_1
+message,エミリー,Geez! Commaander，what are you talking about! I'm already a<br>full-fledged adult!<br> ,102801000G,vc_10280100001_010_01,chara_1
 
 message,<user>,Sorry，sorry. You're right.<br> 
 

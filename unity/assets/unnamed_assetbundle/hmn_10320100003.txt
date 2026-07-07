@@ -57,9 +57,9 @@ asynccharaemo,chara_2,Trouble,CONT,0
 
 
 window,on,0.15
-message,少女,やーめーてー！！<br>はーなーしーてー！！,401901000,vc_10320100003_001_01,chara_2
+message,少女,Stooop! Let me go!<br> ,401901000,vc_10320100003_001_01,chara_2
 
-message,<user>,ダリア、今度こそちゃんと説明しろ。<br>こいつはいったい何者だ？
+message,<user>,Daria，explain yourself properly this time. Who is this kid?<br> 
 
 window,off
 wait,0.15
@@ -105,7 +105,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ダリア,そ……その子は……,103201000G,vc_10320100003_002_01,chara_1
+message,ダリア,Th... that girl is...<br> ,103201000G,vc_10320100003_002_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -116,13 +116,13 @@ asyncseplay,setag1_3,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ダリア,……子ども、です……,103201000G,vc_10320100003_003_01,chara_1
+message,ダリア,...She's a child...<br> ,103201000G,vc_10320100003_003_01,chara_1
 
-message,<user>,それは見れば分かる。<br>お前とどんな関係なのかと聞いてる。
+message,<user>,I can see that. I'm asking what she is to you.<br> 
 
-message,<user>,さっきの様子からして、面識があるんだろう。<br>どこで知り合った。どういうつながりなんだ？
+message,<user>,From how you acted earlier，you clearly know each other. Where did<br>you meet? What's the connection?<br> 
 
-message,<user>,お前があんな大声を出して、逃がそうとするくらいだ。<br>よほど大事な関係なんじゃないか？
+message,<user>,You were yelling like that and trying to let her get away. She must<br>be pretty important to you，right?<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -131,11 +131,11 @@ asyncseplay,setag1_4,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ダリア,ええと……それ、は……,103201000G,vc_10320100003_004_01,chara_1
+message,ダリア,Uh... that is...<br> ,103201000G,vc_10320100003_004_01,chara_1
 
-message,<user>,はぁ。黙っていてもどうにもならんぞ。
+message,<user>,*sigh*... Staying silent won't solve anything.<br> 
 
-message,<user>,これ以上、司令官の俺に隠しごとをするなら……<br>相応の罰を受けてもらうことになる。
+message,<user>,If you keep hiding things from me，the Commander... you'll face the<br>consequences.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -146,9 +146,9 @@ asyncseplay,setag1_5,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,ダリア,……！,103201000G,vc_10320100003_005_01,chara_1
+message,ダリア,...!<br> ,103201000G,vc_10320100003_005_01,chara_1
 
-message,<user>,それは嫌だろう。<br>分かったら、さっさと質問に答え――
+message,<user>,You wouldn't want that，would you? If you understand，hurry up and<br>answer my questions—<br> 
 
 window,off
 wait,0.15
@@ -188,7 +188,7 @@ asynccharaemo,chara_2,Anger,CONT,0
 
 
 window,on,0.15
-message,少女,えいっ！！,401901000,vc_10320100003_006_01,chara_2
+message,少女,Hyaah!<br> ,401901000,vc_10320100003_006_01,chara_2
 
 
 window,off
@@ -209,7 +209,7 @@ shake,CHARA,chara_3,40,0,0.25,20,off,off,0
 shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,<user>,ぐふっ！
+message,<user>,Oof!<br> 
 
 window,off
 wait,0.15
@@ -262,7 +262,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ダリア,えっ……！？,103201000G,vc_10320100003_007_01,chara_1
+message,ダリア,What...!<br> ,103201000G,vc_10320100003_007_01,chara_1
 
 asyncjump,CHARA,chara_2,40,0.5,2,off,0,CONT
 
@@ -271,7 +271,7 @@ asyncseplay,setag1_9,se4800001,0,1,CONT,0
 asynccharaemo,chara_2,Anger,CONT,0
 
 
-message,少女,悪いおじさんめ～！<br>おねえちゃんをいじめるなー！！,401901000,vc_10320100003_008_01,chara_2
+message,少女,You bad old man! Stop bullying my big sister!<br> ,401901000,vc_10320100003_008_01,chara_2
 
 
 window,off
@@ -282,7 +282,7 @@ charafocusonall
 asyncseplay,setag1_10,se5010001,0,1,CONT,0
 
 window,on,0.15
-message,<user>,おい、こら！　叩くな！
+message,<user>,Hey，cut it out! Stop hitting!<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -293,7 +293,7 @@ asyncseplay,setag1_11,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ダリア,や、やめて！　暴れたら危ない……！,103201000G,vc_10320100003_009_01,chara_1
+message,ダリア,S-stop! It's dangerous if you struggle...!<br> ,103201000G,vc_10320100003_009_01,chara_1
 
 window,off
 wait,0.15
@@ -339,7 +339,7 @@ asynccharaemo,chara_2,BePeevish,CONT,0
 
 
 window,on,0.15
-message,少女,おねえちゃんはいいひとだもん！<br>悪いことなんてしてないもん！,401901000,vc_10320100003_010_01,chara_2
+message,少女,Big sister is a good person! She hasn't done anything bad!<br> ,401901000,vc_10320100003_010_01,chara_2
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -350,7 +350,7 @@ asyncseplay,setag1_13,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,少女,私のために、いつもがんばってくれてるんだもんっ！,401901000,vc_10320100003_011_01,chara_2
+message,少女,She always works so hard for me!<br> ,401901000,vc_10320100003_011_01,chara_2
 
 message,<user>,'For me'...? What do you mean?<br> 
 

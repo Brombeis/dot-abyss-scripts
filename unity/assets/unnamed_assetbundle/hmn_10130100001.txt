@@ -24,7 +24,7 @@ bgmplay,bgmtag1_1,bgm0026,0.75,1
 asyncseplay,setag1_1,se4300001,0,1,CONT,0
 
 window,on,0.15
-message,,Knock knock<br> 
+message,,Knock，knock.<br> 
 
 
 message,<user>,Come in.<br> 
@@ -61,14 +61,14 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,フレデリカ,Pardon the intrusion，Commander.<br> ,101301000G,vc_10130100001_001_01,chara_1
+message,フレデリカ,Excuse me，Commander.<br> ,101301000G,vc_10130100001_001_01,chara_1
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,フレデリカ,The thing is... there's something<br>I need to talk to you about.<br> ,101301000G,vc_10130100001_002_01,chara_1
+message,フレデリカ,Actually，there's something I want to talk to you about...<br> ,101301000G,vc_10130100001_002_01,chara_1
 
-message,<user>,What's up? You look awfully serious.<br>If it's about extra budget this month，the answer's no.<br> 
+message,<user>,What's wrong? You look serious. If it's about this month's extra<br>budget，no way I'm giving it.<br> 
 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
@@ -80,9 +80,9 @@ asyncseplay,setag1_4,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,フレデリカ,It's not about money!<br>And what do you mean，'the answer's no'!?<br> ,101301000G,vc_10130100001_003_01,chara_1
+message,フレデリカ,It's not about money! And what do you mean by ""of course not""!?<br> ,101301000G,vc_10130100001_003_01,chara_1
 
-message,<user>,Think about your track record.<br> 
+message,<user>,Think about how you usually act.<br> 
 
 window,off
 wait,0.15
@@ -101,7 +101,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 wait,0.5
 
 window,on,0.15
-message,<user>,Do you have any idea how much funding<br>goes into your research costs... honestly.<br> 
+message,<user>,Do you have any idea how much funding we sink into your research on<br>a daily basis... honestly.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -112,7 +112,7 @@ asyncseplay,setag1_6,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フレデリカ,Ahh，well，uh，yeah，about that...<br> ,101301000G,vc_10130100001_004_01,chara_1
+message,フレデリカ,Ah，well，um，yeah，about that...<br> ,101301000G,vc_10130100001_004_01,chara_1
 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
@@ -125,7 +125,7 @@ asyncseplay,setag1_7,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,フレデリカ,T-trial and error is part of research，you know!<br>Extra budget is simply unavoidable!<br> ,101301000G,vc_10130100001_005_01,chara_1
+message,フレデリカ,T-trial and error comes with research! So extra budget can't be<br>helped!<br> ,101301000G,vc_10130100001_005_01,chara_1
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -137,11 +137,11 @@ asyncseplay,setag1_8,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,フレデリカ,Not that a mediocre mind like yours<br>could ever understand，of course~♪<br> ,101301000G,vc_10130100001_006_01,chara_1
+message,フレデリカ,Well，a mediocrity like you probably can't comprehend it anyway!♪<br> ,101301000G,vc_10130100001_006_01,chara_1
 
-message,<user>,I see，I see. So you took time out of your<br>busy schedule just to come mock me.<br> 
+message,<user>,I see，I see. So you took time out of your busy schedule just to come<br>and provoke me.<br> 
 
-message,<user>,Right，get out.<br>I'm not as busy as you，but I've got work to do.<br> 
+message,<user>,Alright，get out. I'm not as busy as you，but I'm still pretty busy.<br> 
 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
@@ -153,7 +153,7 @@ asyncseplay,setag1_9,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,フレデリカ,Uweeeh!? I-I-I'm sorry!<br> ,101301000G,vc_10130100001_007_01,chara_1
+message,フレデリカ,Whaaaat! I-I'm sorry!<br> ,101301000G,vc_10130100001_007_01,chara_1
 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
@@ -165,9 +165,9 @@ asyncseplay,setag1_10,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,フレデリカ,I really do have something to talk about!<br>Please just hear me out~!<br> ,101301000G,vc_10130100001_008_01,chara_1
+message,フレデリカ,I really do have something to talk about! Please，just hear me out!<br> ,101301000G,vc_10130100001_008_01,chara_1
 
-message,<user>,Okay，okay... so what's this about?<br> 
+message,<user>,Alright，alright... So，what did you want to talk about?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -178,7 +178,7 @@ asyncseplay,setag1_11,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,フレデリカ,Ugh... w-well...<br>This might sound a bit hard to believe，but...<br> ,101301000G,vc_10130100001_009_01,chara_1
+message,フレデリカ,Uh... w-well... It might sound a bit hard to believe，but...<br> ,101301000G,vc_10130100001_009_01,chara_1
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -187,9 +187,9 @@ asyncseplay,setag1_12,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フレデリカ,The truth is... whenever I do experiments，<br>I always end up creating something lewd.<br> ,101301000G,vc_10130100001_010_01,chara_1
+message,フレデリカ,Actually... whenever I experiment，I always end up producing<br>something lewd.<br> ,101301000G,vc_10130100001_010_01,chara_1
 
-message,<user>,...Hm? Come again?<br>Sorry，could you say that one more time?<br> 
+message,<user>,Huh? What was that? Sorry，could you say that again?<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -200,7 +200,7 @@ asyncseplay,setag1_13,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,フレデリカ,Uugh~... I-I said...!<br> ,101301000G,vc_10130100001_011_01,chara_1
+message,フレデリカ,Ugh... s-so，like I said...!<br> ,101301000G,vc_10130100001_011_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 

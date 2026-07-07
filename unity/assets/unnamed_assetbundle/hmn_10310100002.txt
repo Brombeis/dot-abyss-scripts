@@ -44,9 +44,9 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,According to Kotono，the wolf attack was around here...<br>Just as I thought，there are monsters and animals all over.<br> 
+message,<user>,According to Kotono，the wolf attack was around here... Just like I<br>thought，there are signs of monsters and animals everywhere.<br> 
 
-message,<user>,Hatsune，can you pinpoint the monsters?<br> 
+message,<user>,Hatsune，can you tell where the monsters are?<br> 
 
 window,off
 wait,0.15
@@ -65,7 +65,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ハツネ,'Course I can.<br>Ain't many who can fool my eyes and nose.<br> ,103101000G,vc_10310100002_001_01,chara_1
+message,ハツネ,Of course. There aren't many who can fool my eyes and nose.<br> ,103101000G,vc_10310100002_001_01,chara_1
 
 message,<user>,Good. Lead the way.<br> 
 
@@ -127,11 +127,11 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ハツネ,This way. Watch the tree roots underfoot.<br>Keep up and don't trip.<br> ,103101000G,vc_10310100002_003_01,chara_1
+message,ハツネ,—This way. Watch your step—there are tree roots. Stay close and<br>follow me.<br> ,103101000G,vc_10310100002_003_01,chara_1
 
-message,<user>,Roger.<br> 
+message,<user>,Got it.<br> 
 
-message,<user>,Glad you're here，though.<br>Without you，I'd need a lantern just to walk this forest.<br> 
+message,<user>,But I'm glad you're here. On my own，I wouldn't be able to walk<br>through a night forest without a light.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -142,9 +142,9 @@ asyncseplay,setag1_4,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ハツネ,Then what good are you，huh?<br>Told ya I shoulda just come alone.<br> ,103101000G,vc_10310100002_004_01,chara_1
+message,ハツネ,Then what use are you? Wouldn't it have been better if I came alone?<br> ,103101000G,vc_10310100002_004_01,chara_1
 
-message,<user>,Believe it or not，I've got plenty of experience.<br>I'll prove my worth soon enough.<br> 
+message,<user>,I may not look it，but I've been through plenty. I'll prove myself<br>useful eventually.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -163,7 +163,7 @@ asyncseplay,setag1_6,se4800010,0,1,STOP,3
 asynccharaemo,chara_1,Exclamation,STOP,3
 
 
-message,ハツネ,Better hope so.<br>Hm. This smell...<br> ,103101000G,vc_10310100002_005_01,chara_1
+message,ハツネ,I hope so.—Hm. This smell...<br> ,103101000G,vc_10310100002_005_01,chara_1
 
 window,off
 wait,0.15
@@ -195,7 +195,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ハツネ,Sniff sniff... Sniff sniff...<br> ,103101000G,vc_10310100002_006_01,chara_1
+message,ハツネ,Sniff，sniff... Sniff，sniff...<br> ,103101000G,vc_10310100002_006_01,chara_1
 
 window,off
 wait,0.15
@@ -222,9 +222,9 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ハツネ,...No doubt about it! It's the young lord's scent!<br> ,103101000G,vc_10310100002_007_01,chara_1
+message,ハツネ,...No doubt about it! It's the young master's scent!<br> ,103101000G,vc_10310100002_007_01,chara_1
 
-message,<user>,Beastkin noses don't disappoint.<br>Can you follow the trail?<br> 
+message,<user>,As expected of a Beastkin's sense of smell. Can you track that<br>scent?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -239,7 +239,7 @@ asyncseplay,setag1_9,se4800014,0,1,STOP,1.2
 asynccharaemo,chara_1,Silence,STOP,1.2
 
 
-message,ハツネ,Obviously!<br>It leads this way...<br> ,103101000G,vc_10310100002_008_01,chara_1
+message,ハツネ,Of course! It continues this way...<br> ,103101000G,vc_10310100002_008_01,chara_1
 
 window,off
 wait,0.15
@@ -258,7 +258,7 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,<user>,Hey，hold on!<br> 
+message,<user>,Hey，wait a moment!<br> 
 
 window,off
 wait,0.15
@@ -296,7 +296,7 @@ asynccharaemo,chara_1,Anger,CONT,0
 
 
 window,on,0.15
-message,ハツネ,What!?<br>Don't get in my way!<br> ,103101000G,vc_10310100002_009_01,chara_1
+message,ハツネ,What! Don't get in my way!<br> ,103101000G,vc_10310100002_009_01,chara_1
 
 window,off
 wait,0.15
@@ -312,7 +312,7 @@ asynccameramove,EaseInTarget,Y,0,0.5,CONT,0
 asyncwait
 
 window,on,0.15
-message,<user>,You're getting tunnel vision.<br>Look at the tree on the right.<br> 
+message,<user>,You're getting tunnel vision. Look at that tree on the right.<br> 
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -321,7 +321,7 @@ asyncseplay,setag1_11,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ハツネ,Hah!? What about a stupid tree?<br>What are you even talkin' ab...<br> ,103101000G,vc_10310100002_010_01,chara_1
+message,ハツネ,Huh? What about the tree? What are you on about?<br> ,103101000G,vc_10310100002_010_01,chara_1
 
 window,off
 wait,0.15
@@ -369,7 +369,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ハツネ,...!<br>These claw marks...<br> ,103101000G,vc_10310100002_011_01,chara_1
+message,ハツネ,...! These claw marks...<br> ,103101000G,vc_10310100002_011_01,chara_1
 
 message,<user>,These are claw marks from a large carnivore. It's probably staked<br>out this area as its territory.<br> 
 

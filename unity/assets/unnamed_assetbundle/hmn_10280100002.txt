@@ -21,7 +21,7 @@ wait,1
 bgmplay,bgmtag1_1,bgm0035,0.75,1
 
 window,on,0.15
-message,,'Listen to the Sound of Waves'.<br>The day after hearing about the shop where Emily used to work.<br> 
+message,,—""Listen to the Sound of the Waves.""<br>The next day after hearing about the store where Emily used to work.<br> 
 
 
 window,off
@@ -60,13 +60,13 @@ wait,0.5
 
 
 window,on,0.15
-message,エミリー,Do you think Boss is really... somewhere in this<br>market...?<br> ,102801000G,vc_10280100002_001_01,chara_1
+message,エミリー,Is the Boss really somewhere in this market，I wonder...<br> ,102801000G,vc_10280100002_001_01,chara_1
 
-message,,The restaurant where Emily once worked in Eldorana.<br> 
+message,,The store where Emily once worked in Eldorana.<br> 
 
-message,,After its owner left for the Abyss seeking treasure，<br>the shop closed. Ludia says she saw one with the same name here.<br> 
+message,,Ludia said she saw a store with the same name as that store，which<br>has been closed since the manager went to the Abyss in search of treasure.<br> 
 
-message,<user>,Ludia could be mistaken，or it could just be a<br>coincidence... But you still want to look，right?<br> 
+message,<user>,It might be Ludia's mistake，or it could just be a coincidence that<br>it has the same name... But you still want to search for it，don't you?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -78,7 +78,7 @@ asyncseplay,setag1_2,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,エミリー,Yes! Since we have this lead，I want to search as much as I can.<br> ,102801000G,vc_10280100002_002_01,chara_1
+message,エミリー,Yes! Since we've come this far，I want to search as much as possible.<br> ,102801000G,vc_10280100002_002_01,chara_1
 
 
 asynccharaface,chara_1,FaceSad,CONT,0
@@ -90,9 +90,9 @@ asyncseplay,setag1_3,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,エミリー,Oh，but... is it really okay for you to help too，<br>Commander? I'm reaaally happy about it，though...<br> ,102801000G,vc_10280100002_003_01,chara_1
+message,エミリー,Ah，but... is it really okay for you to go this far to help<br>me，Commaander? I'm really happy about it，but...<br> ,102801000G,vc_10280100002_003_01,chara_1
 
-message,<user>,Don't worry about it. I finished today's work already，<br>and I need the exercise once in a while.<br> 
+message,<user>,Don't worry about it. I already finished my work for today，and I<br>could use a little exercise.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -103,7 +103,7 @@ asyncseplay,setag1_4,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,エミリー,Ohhh~! Now that's a man who gets things done!<br> ,102801000G,vc_10280100002_004_01,chara_1
+message,エミリー,Ooooh! A man who knows how to get work done!<br> ,102801000G,vc_10280100002_004_01,chara_1
 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
@@ -115,7 +115,7 @@ asyncseplay,setag1_5,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,エミリー,Alrighty~ then，I'll take you up on that...<br>Let's do our best to find Boss's shop!<br> ,102801000G,vc_10280100002_005_01,chara_1
+message,エミリー,Alrighty! Then，if you insist... Let's do our best to find the Boss's<br>shop!<br> ,102801000G,vc_10280100002_005_01,chara_1
 
 
 window,off
@@ -145,11 +145,11 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 
 window,on,0.15
-message,エミリー,Hmm~... It's really not turning up，huh~<br> ,102801000G,vc_10280100002_006_01,chara_1
+message,エミリー,Hmm... It's not easy to find，is it?<br> ,102801000G,vc_10280100002_006_01,chara_1
 
-message,<user>,There are countless shop signs to check，after all...<br> 
+message,<user>,There are countless shop signs，after all...<br> 
 
-message,<user>,The market ranges from proper storefronts to stalls<br>with wares on the ground，so searching is no easy task.<br> 
+message,<user>,The market has all kinds of shops，from big storefronts to simple<br>stalls with goods just laid out on the ground，so it's quite a challenge to search.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -160,7 +160,7 @@ asyncseplay,setag1_7,se4800005,0,1,CONT,0
 asynccharaemo,chara_1,Flash,CONT,0
 
 
-message,エミリー,I usually just zip right through on my way to work，<br>but looking around like this，there really are all kinds of shops~<br> ,102801000G,vc_10280100002_007_01,chara_1
+message,エミリー,I usually just breeze through on my way to work，but when I actually<br>look around，there are so many different shops.<br> ,102801000G,vc_10280100002_007_01,chara_1
 
 
 window,off
@@ -210,7 +210,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,エミリー,Oh，those local specialties over there look great for souvenirs~<br> ,102801000G,vc_10280100002_008_01,chara_1
+message,エミリー,Oh，those local specialties over there look like they'd make great<br>souvenirs.<br> ,102801000G,vc_10280100002_008_01,chara_1
 
 
 window,off
@@ -239,7 +239,7 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 
 
 window,on,0.15
-message,エミリー,Oh，the drinks at this shop look really tasty!<br>Fruit wine，huh~ Might be nice to stock at our place too~<br> ,102801000G,vc_10280100002_009_01,chara_1
+message,エミリー,Oh，the drinks at this shop look really tasty! Fruit wine，huh... It<br>might be nice to try carrying it at our place.<br> ,102801000G,vc_10280100002_009_01,chara_1
 
 
 window,off
@@ -256,7 +256,7 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,<user>,Hey，hey，don't get too sidetracked... Wait，where'd she go?<br> 
+message,<user>,Hey hey，don't get too sidetracked... Wait，where'd you go?<br> 
 
 
 window,off
@@ -286,9 +286,9 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,エミリー,Commander! Look at the shine on this meat!<br>The dripping juices look sooo good!<br> ,102801000G,vc_10280100002_010_01,chara_1
+message,エミリー,Commaander! Look at the sheen on this meat! The dripping juices look<br>so amazingly delicious!<br> ,102801000G,vc_10280100002_010_01,chara_1
 
-message,<user>,Skewers，huh... Well，they do look pretty good.<br> 
+message,<user>,Skewers，huh... Well，they do look good，I'll give you that.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -299,7 +299,7 @@ asyncseplay,setag1_11,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,エミリー,We're gonna be walking a lot today，so we gotta eat<br>properly and keep our energy up~<br> ,102801000G,vc_10280100002_011_01,chara_1
+message,エミリー,We're going to be doing a lot of walking today，so we need to eat<br>properly and keep our strength up.<br> ,102801000G,vc_10280100002_011_01,chara_1
 
 window,off
 wait,0.15

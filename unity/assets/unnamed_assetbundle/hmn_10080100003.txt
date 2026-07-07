@@ -35,7 +35,7 @@ bgmplay,bgmtag1_1,bgm0035,0.75,1
 
 
 window,on,0.15
-message,,Having survived the monster ambush and made it back alive，<br>the transport squad's soldiers were in high spirits.<br> 
+message,,The monster ambush and their narrow escape from it had the soldiers<br>of the transport convoy celebrating loudly.<br> 
 
 window,off
 wait,0.15
@@ -66,7 +66,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,,At the center of it all<br>was the hero of the victory: Veera.<br> 
+message,,At the center of it all was Veera，the one who had made their victory<br>possible.<br> 
 
 window,off
 wait,0.15
@@ -106,7 +106,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,Seriously，thank you so much，Veera-chan!<br>We'd have been wiped out without you!<br> ,401601000,vc_10080100003_001_01,chara_2
+message,兵士Ａ,Thank you so much，Veera! Without you，we'd definitely have been wiped<br>out!<br> ,401601000,vc_10080100003_001_01,chara_2
 
 asyncjump,CHARA,chara_3,30,0.25,1,off,0,CONT
 
@@ -115,7 +115,7 @@ asyncseplay,setag1_2,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,兵士Ｂ,Our goddess! That magic was incredible!<br> ,401501000,,chara_3
+message,兵士Ｂ,You're our goddess! That magic was legendary!<br> ,401501000,,chara_3
 
 window,off
 wait,0.15
@@ -161,7 +161,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,Thank you very much.<br>But it truly wasn't anything special.<br> ,100801000G,vc_10080100003_002_01,chara_1
+message,ヴィーラ,Thank you. But it really wasn't anything special.<br> ,100801000G,vc_10080100003_002_01,chara_1
 
 window,off
 wait,0.15
@@ -213,7 +213,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,That's not true at all!<br>You should be more proud of yourself!<br> ,401601000,vc_10080100003_003_01,chara_2
+message,兵士Ａ,Not at all! You can be prouder of yourself!<br> ,401601000,vc_10080100003_003_01,chara_2
 
 asyncjump,CHARA,chara_3,40,0.5,2,off,0,CONT
 
@@ -222,7 +222,7 @@ asyncseplay,setag1_5,se4800004,0,1,CONT,0
 asynccharaemo,chara_3,Laugh,CONT,0
 
 
-message,兵士Ｂ,Man，cute AND humble，with incredible magic to boot.<br>She's literally flawless!<br> ,401501000,,chara_3
+message,兵士Ｂ,Ahh，cute and humble，and her magic's incredible. She's the complete<br>package!<br> ,401501000,,chara_3
 
 window,off
 wait,0.15
@@ -268,9 +268,9 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,Being praised so much is making me blush...<br> ,100801000G,vc_10080100003_004_01,chara_1
+message,ヴィーラ,You're making me blush with all that praise...<br> ,100801000G,vc_10080100003_004_01,chara_1
 
-message,<user>,These drunkards...<br>Feel free to brush them off，Veera.<br> 
+message,<user>,These drunks... You can just brush them off，Veera.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -281,7 +281,7 @@ asyncseplay,setag1_7,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ヴィーラ,No，being welcomed like this makes me very happy.<br>It makes me feel like I've become one of Onee-chan's team...<br> ,100801000G,vc_10080100003_005_01,chara_1
+message,ヴィーラ,No，it makes me really happy to be accepted like this. It feels like<br>I've finally become a part of Big Sis's group...<br> ,100801000G,vc_10080100003_005_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -292,7 +292,7 @@ asyncseplay,setag1_8,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ヴィーラ,However，I'd rather not be praised too much.<br> ,100801000G,vc_10080100003_006_01,chara_1
+message,ヴィーラ,But I don't really know how to handle being praised so much.<br> ,100801000G,vc_10080100003_006_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -304,9 +304,9 @@ asyncseplay,setag1_9,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヴィーラ,The magic I used simply covers a wide area.<br>It isn't all that powerful.<br> ,100801000G,vc_10080100003_007_01,chara_1
+message,ヴィーラ,The magic I used was only wide-ranging; it wasn't all that powerful.<br> ,100801000G,vc_10080100003_007_01,chara_1
 
-message,<user>,Attack the entire space with cold，and the core gets hit too...<br>That was the idea behind your magic.<br> 
+message,<user>,So if you attack the entire space with cold air，you're guaranteed to<br>hit the core... That's the kind of spell it was.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -317,7 +317,7 @@ asyncseplay,setag1_10,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヴィーラ,Yes. Onee-chan showed me exactly how much magic power<br>was needed to destroy the core. That's why I could do it.<br> ,100801000G,vc_10080100003_008_01,chara_1
+message,ヴィーラ,Yes. It was only because Big Sis showed me how much magic power it<br>takes to destroy a core that I could pull it off.<br> ,100801000G,vc_10080100003_008_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -328,9 +328,9 @@ asyncseplay,setag1_11,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ヴィーラ,Onee-chan，who pierced the core with minimal power，<br>has far superior technique as a mage.<br> ,100801000G,vc_10080100003_009_01,chara_1
+message,ヴィーラ,Big Sis's magic is much more refined; she pierced the core with<br>minimal force.<br> ,100801000G,vc_10080100003_009_01,chara_1
 
-message,<user>,Superior... I wouldn't say that，but... hmm...<br> 
+message,<user>,I don't know if I'd call it ""refined""... but...<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -342,7 +342,7 @@ asyncseplay,setag1_12,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヴィーラ,Even without me，Commander-sama and Onee-chan<br>could have handled everything just fine...<br> ,100801000G,vc_10080100003_010_01,chara_1
+message,ヴィーラ,Besides，even without me，Lord Commander and Big Sis could have<br>handled it...<br> ,100801000G,vc_10080100003_010_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -353,11 +353,11 @@ asyncseplay,setag1_13,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヴィーラ,I just wanted to show you my magic and got carried away.<br> ,100801000G,vc_10080100003_011_01,chara_1
+message,ヴィーラ,I wanted you to see what I could do，so I jumped in without thinking.<br> ,100801000G,vc_10080100003_011_01,chara_1
 
-message,<user>,Well，true. Verisa was taking out nearby golems<br>while keeping an eye on securing our retreat route.<br> 
+message,<user>,Well，true. Verisa was using her magic to wipe out the surrounding<br>golems while making sure we had an escape route.<br> 
 
-message,<user>,We could have retreated before being cornered.<br>She's really something.<br> 
+message,<user>,We could have retreated before getting cornered. She's something<br>else.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 

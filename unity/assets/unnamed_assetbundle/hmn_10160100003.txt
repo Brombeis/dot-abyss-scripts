@@ -58,7 +58,7 @@ asynccharamove,chara_1,EaseOut,X,-100,1,CONT,0
 asyncwait
 
 window,on,0.15
-message,,ウィステリアに案内された野営地には焚き火スペースやテントが用意され、<br>キャンプをするのに十分な空間が整っていた。
+message,,The campsite that Wisteria guided me to had a campfire area and a<br>tent，with plenty of space for camping.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -69,9 +69,9 @@ asyncseplay,setag1_1,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ウィステリア,ようこそ、司令官。<br>歓迎しよう。,101601000G,vc_10160100003_001_01,chara_1
+message,ウィステリア,Welcome，Commander. Make yourself at home.<br> ,101601000G,vc_10160100003_001_01,chara_1
 
-message,<user>,ありがとな。<br>なかなかいいところじゃないか。
+message,<user>,Thanks. This is a pretty nice spot，isn't it?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -83,7 +83,7 @@ asyncseplay,setag1_2,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ウィステリア,すぐに火を用意する。少し待っていてくれ。,101601000G,vc_10160100003_002_01,chara_1
+message,ウィステリア,I'll get a fire going. Just wait a moment.<br> ,101601000G,vc_10160100003_002_01,chara_1
 
 window,off
 wait,0.15
@@ -109,9 +109,9 @@ emodelete,chara_1,0,0
 fade,In,Black,1
 
 window,on,0.15
-message,,ウィステリアは手際よく火をつけ、<br>焚き火の前に<user>を座らせた。
+message,,Wisteria skillfully lit the fire and guided me to sit before it.<br> 
 
-message,,彼女を探し歩いて疲れた体に、<br>焚き火の暖かさが染み渡っていく。
+message,,The warmth of the campfire seeped into my tired body，weary from<br>searching for her.<br> 
 
 window,off
 wait,0.15
@@ -142,7 +142,7 @@ charashowalpha,chara_1,1,0
 fade,In,Black,1
 
 window,on,0.15
-message,<user>,ほー、こりゃいいもんだな。<br>普段の野営とはちょっと違う雰囲気だ。
+message,<user>,Whoa，this is great. It's got a different feel from our usual camps.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -153,9 +153,9 @@ asyncseplay,setag1_3,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ウィステリア,それで……どうして私を探していたんだ？<br>何か用でも？,101601000G,vc_10160100003_003_01,chara_1
+message,ウィステリア,So... why were you looking for me? Did you need something?<br> ,101601000G,vc_10160100003_003_01,chara_1
 
-message,<user>,言っただろう、ウィステリアと話をしたくてな。
+message,<user>,I told you，didn't I? I just wanted to talk to you.<br> 
 
 window,off
 wait,0.15
@@ -174,11 +174,11 @@ wait,0.5
 
 
 window,on,0.15
-message,ウィステリア,話をするためだけに私を探したと？<br>どうしてそんなことを……？,101601000G,vc_10160100003_004_01,chara_1
+message,ウィステリア,You looked for me just to talk? Why would you do that...?<br> ,101601000G,vc_10160100003_004_01,chara_1
 
-message,<user>,最初はただの興味だった。<br>２度も出会ったのは縁があったからだろう、ってさ。
+message,<user>,It started as just curiosity. I thought running into each other<br>twice meant there was some connection.<br> 
 
-message,<user>,わざわざここまで来たのは半分意地だな。<br>部下の１人も見つけられない司令官なんて情けないだろう？
+message,<user>,Coming all the way out here was half stubbornness. A Commander who<br>can't even find one of his own subordinates would look pretty pathetic，right?<br> 
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -190,7 +190,7 @@ asyncseplay,setag1_5,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ウィステリア,そんな理由で……。<br>本当に妙なやつだ。,101601000G,vc_10160100003_005_01,chara_1
+message,ウィステリア,For that reason... You really are a strange one.<br> ,101601000G,vc_10160100003_005_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -201,9 +201,9 @@ asyncseplay,setag1_6,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ウィステリア,私と話したがる人なんて<br>誰１人としていなかったというのに。,101601000G,vc_10160100003_006_01,chara_1
+message,ウィステリア,And yet，there wasn't a single person who ever wanted to talk to me.<br> ,101601000G,vc_10160100003_006_01,chara_1
 
-message,<user>,……どういう意味なんだ？<br>ウィステリア、詳しく話してくれないか。
+message,<user>,...What do you mean? Wisteria，can you tell me more about it?<br> 
 
 window,off
 wait,0.15
@@ -218,9 +218,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ウィステリア,きみになら構わない。<br>聞いて楽しい話ではないと思うがな。,101601000G,vc_10160100003_007_01,chara_1
+message,ウィステリア,I don't mind telling you. Though I doubt it'll be a pleasant story.<br> ,101601000G,vc_10160100003_007_01,chara_1
 
-message,,ウィテリアは焚き火で暖めていたカップを差し出し、<br>ゆっくりと語りはじめた――
+message,,Wisteria handed me a cup she had been warming by the fire and slowly<br>began to speak—<br> 
 
 window,off
 wait,0.15
@@ -276,9 +276,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ウィステリア,もともと私は孤児なんだ。<br>戦災孤児、というやつだな。,101601000G,vc_10160100003_008_01,chara_1
+message,ウィステリア,I was an orphan from the start. A war orphan，as they call it.<br> ,101601000G,vc_10160100003_008_01,chara_1
 
-message,<user>,そうだったのか……
+message,<user>,I see... So that's how it was.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -289,7 +289,7 @@ asyncseplay,setag1_7,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ウィステリア,両親を失い、１人で生きるしかなかった。相手が人であれ、<br>モンスターであれ、見つかれば容赦なく殺される。,101601000G,vc_10160100003_009_01,chara_1
+message,ウィステリア,I lost my parents and had to survive on my own. Whether it was<br>humans or monsters，if they found me，they'd kill me without mercy.<br> ,101601000G,vc_10160100003_009_01,chara_1
 
 window,off
 wait,0.15

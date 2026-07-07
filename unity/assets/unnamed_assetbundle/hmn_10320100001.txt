@@ -28,7 +28,7 @@ bgmplay,bgmtag1_1,bgm0036,0.75,1
 
 
 window,on,0.15
-message,<user>,ふうっ……。<br>今回の探索も順調だな。
+message,<user>,Whew... This expedition's going smoothly.<br> 
 
 
 window,off
@@ -51,7 +51,7 @@ wait,1.2
 wait,0.5
 
 window,on,0.15
-message,<user>,ん？
+message,<user>,Hm?<br> 
 
 
 window,off
@@ -112,7 +112,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ダリア,えっほ……えっほ……,103201000G,vc_10320100001_001_01,chara_1
+message,ダリア,*huff*... *huff*...<br> ,103201000G,vc_10320100001_001_01,chara_1
 
 window,off
 wait,0.15
@@ -134,7 +134,7 @@ seplay,setag1_8,se4400027,0,1
 wait,1.2
 
 window,on,0.15
-message,,――カキン！　カキン！　カキン！
+message,,Clink! Clink! Clink!<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -149,7 +149,7 @@ asynccharaface,chara_1,FaceAnger,STOP,4
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,STOP,4
 
 
-message,ダリア,もうすこしで、当たりそう……。<br>ふんっ……！,103201000G,vc_10320100001_002_01,chara_1
+message,ダリア,Almost there... *hmph*...!<br> ,103201000G,vc_10320100001_002_01,chara_1
 
 asyncseplay,setag1_10,se4410009,0,1,CONT,0
 
@@ -158,7 +158,7 @@ asyncshake,CHARA,chara_1,20,0,0.25,30,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_2,20,0,0.25,30,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_3,20,0,0.25,30,off,off,0,off,CONT,0
 
-message,,――カキン！！！
+message,,Clink!<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -169,7 +169,7 @@ asyncseplay,setag1_11,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ダリア,……わっ。<br>やった、宝石だ……,103201000G,vc_10320100001_003_01,chara_1
+message,ダリア,Whoa! Yes，a gem...<br> ,103201000G,vc_10320100001_003_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -180,9 +180,9 @@ asyncseplay,setag1_12,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ダリア,キラキラしてる……。<br>すごくきれいなの、採れた……えへへ……,103201000G,vc_10320100001_004_01,chara_1
+message,ダリア,It's so sparkly... I found a really pretty one... ehehe...<br> ,103201000G,vc_10320100001_004_01,chara_1
 
-message,<user>,おい、ダリア！
+message,<user>,Hey，Daria!<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -194,7 +194,7 @@ asyncseplay,setag1_13,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ダリア,！　あ、親方……。お疲れさまです。,103201000G,vc_10320100001_005_01,chara_1
+message,ダリア,...! Ah，Boss... Good work today.<br> ,103201000G,vc_10320100001_005_01,chara_1
 
 window,off
 wait,0.15
@@ -230,9 +230,9 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,あぁ。そっちもご苦労だ。
+message,<user>,Yeah. Good work to you too.<br> 
 
-message,<user>,採掘の調子はどうだ？<br>見た感じ、かなりがんばっていたようだが。
+message,<user>,How's the mining going? Looks like you've been working pretty hard.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -243,7 +243,7 @@ asyncseplay,setag1_14,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ダリア,はい、いっぱい掘れてます……,103201000G,vc_10320100001_006_01,chara_1
+message,ダリア,Yes，Boss. I've dug up a lot...<br> ,103201000G,vc_10320100001_006_01,chara_1
 
 window,off
 wait,0.15
@@ -257,9 +257,9 @@ wait,0.5
 asyncseplay,setag1_15,SE_DUMMY,0,1,CONT,0
 
 window,on,0.15
-message,,――ジャラッ
+message,,Clatter!<br> 
 
-message,<user>,ほぉ……。すごい量だな。<br>もう袋が満杯になってるじゃないか。
+message,<user>,Whoa... That's a lot. Your bag's already packed full.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -270,7 +270,7 @@ asyncseplay,setag1_16,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ダリア,ありがとうございます。頑張りました。,103201000G,vc_10320100001_007_01,chara_1
+message,ダリア,Thank you，Boss. I worked really hard.<br> ,103201000G,vc_10320100001_007_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -281,11 +281,11 @@ asyncseplay,setag1_17,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ダリア,このあたり、鉱脈があるみたいで……。<br>まだまだたくさん掘れそうです。,103201000G,vc_10320100001_008_01,chara_1
+message,ダリア,It seems there's an ore vein around here，Boss... I can dig up plenty<br>more.<br> ,103201000G,vc_10320100001_008_01,chara_1
 
-message,<user>,そうか。深く潜ってきた甲斐があったな。
+message,<user>,I see. It was worth coming this deep underground.<br> 
 
-message,<user>,にしても、大量の鉱石に魔石……宝石まであるな。<br>状態もかなり良さそうだ。
+message,<user>,Still，that's a lot of ore，magic stones... and even gems. They look<br>to be in great condition.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -296,7 +296,7 @@ asyncseplay,setag1_18,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ダリア,はい。ぜんぶ気をつけて掘り出しました。,103201000G,vc_10320100001_009_01,chara_1
+message,ダリア,Yes，Boss. I carefully dug them all out.<br> ,103201000G,vc_10320100001_009_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0

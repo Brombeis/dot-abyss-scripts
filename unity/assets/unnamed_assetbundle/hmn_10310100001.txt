@@ -25,11 +25,11 @@ bgmplay,bgmtag1_1,bgm0024,0.75,1
 
 
 window,on,0.15
-message,兵士A,Kgh...!<br>Hah，hah...!<br> ,900000001
+message,兵士A,Guh...!<br>*pant，pant...*<br> ,900000001
 
-message,兵士B,What's wrong，is that all you've got!? Come at me!<br>If you're winded from this，you'll never fight monsters!<br> ,900000001
+message,兵士B,What's wrong? Is that all you've got! Come at me!<br>If you're winded from this much，you won't be able to fight monsters!<br> ,900000001
 
-message,兵士A,I-I'm... not done yet!<br> ,900000001
+message,兵士A,I'm... not done yet!<br> ,900000001
 
 window,off
 wait,0.15
@@ -46,11 +46,11 @@ transitionCrossFade,Tra03,1
 wait,1
 
 window,on,0.15
-message,<user>,Those voices... the soldiers at the training grounds.<br> 
+message,<user>,That voice... it's the soldiers at the training grounds.<br> 
 
-message,<user>,Putting Kotono in charge of training was the right call.<br>The soldiers' skills have improved，and morale is high.<br> 
+message,<user>,Good thing I put Kotono in charge as assistant instructor.<br>Thanks to her，the soldiers' skills are improving and morale is high.<br> 
 
-message,<user>,I'm passing by anyway. Might as well check in.<br> 
+message,<user>,Might as well check it out while I'm here.<br> 
 
 
 bgmstop,bgmtag1_1,1.5,0
@@ -75,7 +75,7 @@ asyncseplay,setag1_1,se4900066,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,兵士B,Gah...!<br> ,900000001
+message,兵士B,Guh...!<br> ,900000001
 
 window,off
 wait,0.15
@@ -118,7 +118,7 @@ wait,0.5
 
 
 window,on,0.15
-message,？？？,Haha!<br>I win again~!<br> ,103101000G,vc_10310100001_001_01,chara_1
+message,？？？,Haha!<br>I win again!<br> ,103101000G,vc_10310100001_001_01,chara_1
 
 window,off
 wait,0.15
@@ -137,9 +137,9 @@ wait,0.5
 
 
 window,on,0.15
-message,？？？,Every last one of you is totally weak.<br>Are all the forward base soldiers this pathetic?<br> ,103101000G,vc_10310100001_002_01,chara_1
+message,？？？,Every single one of you is a total pushover.<br>Are all the soldiers at this Frontline Base this pathetic?<br> ,103101000G,vc_10310100001_002_01,chara_1
 
-message,<user>,What's going on...? Someone's got a lot of nerve.<br> 
+message,<user>,What's this...? Someone's awfully cocky.<br> 
 
 window,off
 wait,0.15
@@ -158,7 +158,7 @@ wait,0.5
 
 
 window,on,0.15
-message,？？？,C'mon，c'mon! Over here~♪<br> ,103101000G,vc_10310100001_003_01,chara_1
+message,？？？,Come on，come on，over here!♪<br> ,103101000G,vc_10310100001_003_01,chara_1
 
 window,off
 wait,0.15
@@ -192,7 +192,7 @@ asyncjump,CHARA,chara_1,40,0.5,2,off,0,CONT
 asyncwait
 
 window,on,0.15
-message,兵士B,Kh...!<br> ,900000001
+message,兵士B,Tch...!<br> ,900000001
 
 
 window,off
@@ -253,7 +253,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 wait,0.5
 
 window,on,0.15
-message,兵士B,Damn you，stop darting around...!<br>There!<br> ,900000001
+message,兵士B,You damn... all that darting around...!<br>—Right there!<br> ,900000001
 
 
 window,off
@@ -284,7 +284,7 @@ cleanall,EFFECT
 asyncwait
 
 window,on,0.15
-message,,Just as the soldier's wooden sword was about to strike，<br>the girl vanished like a phantom.<br> 
+message,,The soldier's wooden sword was about to strike the girl，but her<br>figure vanished like a mirage.<br> 
 
 window,off
 wait,0.15
@@ -324,7 +324,7 @@ asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 window,on,0.15
 message,？？？,Too slow!<br> ,103101000G,vc_10310100001_004_01,chara_1
 
-message,兵士B,Wha...!?<br> ,900000001
+message,兵士B,What...!<br> ,900000001
 
 window,off
 wait,0.15
@@ -356,7 +356,7 @@ wait,1
 cleanall,EFFECT
 
 window,on,0.15
-message,,The soldier's eyes went wide as the girl slipped inside<br>his guard. Her wooden sword struck his torso clean.<br> 
+message,,The soldier's eyes went wide in shock as the girl slipped into his<br>guard in an instant. Her wooden sword struck his torso cleanly.<br> 
 
 window,off
 wait,0.15
@@ -364,7 +364,7 @@ wait,0.15
 charafocusonall
 
 window,on,0.15
-message,兵士B,Guaah...!?<br> ,900000001
+message,兵士B,Gwaaah...!<br> ,900000001
 
 window,off
 wait,0.15
@@ -421,7 +421,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 asyncwait
 
 window,on,0.15
-message,兵士A,That brat，she's insanely fast...!<br>She's totally outclassing the senior soldier...!<br> ,900000001
+message,兵士A,That brat is crazy fast...!<br>Even the senior can't keep up...!<br> ,900000001
 
 window,off
 wait,0.15
@@ -473,7 +473,7 @@ asyncjump,CHARA,chara_1,30,0.25,1,off,3.7,STOP
 
 
 window,on,0.15
-message,？？？,Haah~... You guys totally suck!<br>Have you seriously been training under Kotono?<br> ,103101000G,vc_10310100001_005_01,chara_1
+message,？？？,*sigh*... you guys are totally hopeless!<br>Did Kotono really teach you?<br> ,103101000G,vc_10310100001_005_01,chara_1
 
 message,兵士A,Damn it! She's so full of herself!<br> ,900000001
 

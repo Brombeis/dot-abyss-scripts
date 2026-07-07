@@ -38,7 +38,7 @@ asynccharashowalpha,chara_1,1,0.3,CONT,0
 asyncseplay,setag1_1,se4020101,0,1,CONT,0
 
 window,on,0.15
-message,,On the way back from Master's house.<br> 
+message,,—On the way home from the Master's house.<br> 
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -47,9 +47,9 @@ asyncseplay,setag1_2,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フレデリカ,From birth，huh~. Hmm~，<br>what am I supposed to do now...<br> ,101301000G,vc_10130100003_001_01,chara_1
+message,フレデリカ,So it's something I was born with... Hmm，what should I do now...<br> ,101301000G,vc_10130100003_001_01,chara_1
 
-message,<user>,About that... why not go see your parents?<br> 
+message,<user>,About that... how about we go meet your parents?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -60,7 +60,7 @@ asyncseplay,setag1_3,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,フレデリカ,Uweeeh!?<br> ,101301000G,vc_10130100003_002_01,chara_1
+message,フレデリカ,Wha—!<br> ,101301000G,vc_10130100003_002_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -71,9 +71,9 @@ asyncseplay,setag1_4,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,フレデリカ,Wh-what's gotten into you，Commander...<br>so forward all of a sudden~.<br> ,101301000G,vc_10130100003_003_01,chara_1
+message,フレデリカ,W-What's gotten into you，Commander? That's pretty forward of you...<br> ,101301000G,vc_10130100003_003_01,chara_1
 
-message,<user>,I think you're misunderstanding...<br>I mean to ask them about the lewd stuff problem.<br> 
+message,<user>,I think you're misunderstanding... I meant we should ask them about<br>why you keep making those lewd things.<br> 
 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
@@ -85,7 +85,7 @@ asyncseplay,setag1_5,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,フレデリカ,Urk. O-oh，that's what you meant~.<br>Hmm~... hmm~...<br> ,101301000G,vc_10130100003_004_01,chara_1
+message,フレデリカ,Ugh. S-so that's what you meant... Hmm... hmm...<br> ,101301000G,vc_10130100003_004_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -96,9 +96,9 @@ asyncseplay,setag1_6,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フレデリカ,...That's a bit，no，definitely impossible.<br> ,101301000G,vc_10130100003_005_01,chara_1
+message,フレデリカ,...That's a bit... no，probably absolutely impossible.<br> ,101301000G,vc_10130100003_005_01,chara_1
 
-message,<user>,How come? You call them Papa and Mama，<br>so you must be close，right?<br> 
+message,<user>,Why not? You're so close with your parents that you call them Papa<br>and Mama，aren't you?<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -109,14 +109,14 @@ asyncseplay,setag1_7,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,フレデリカ,S-stop bringing up how I call them~!!!<br> ,101301000G,vc_10130100003_006_01,chara_1
+message,フレデリカ,D-Don't bring up what I call them!<br> ,101301000G,vc_10130100003_006_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,3.2,STOP
 
 
-message,フレデリカ,...But yeah，I do love Papa and Ma—— *ahem*!<br>My father and mother. I love and respect them.<br> ,101301000G,vc_10130100003_007_01,chara_1
+message,フレデリカ,...But honestly，I do love Papa and Ma... ahem! I love and respect my<br>father and mother.<br> ,101301000G,vc_10130100003_007_01,chara_1
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -125,7 +125,7 @@ asyncseplay,setag1_8,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フレデリカ,But... they're both teachers at a magic academy.<br>They're incredibly strait-laced...!<br> ,101301000G,vc_10130100003_008_01,chara_1
+message,フレデリカ,But... they're both teachers at the magic school. And they're really<br>serious people...<br> ,101301000G,vc_10130100003_008_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -136,9 +136,9 @@ asyncseplay,setag1_9,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,フレデリカ,There's no way... I can ask them about<br>something this weird...!?<br> ,101301000G,vc_10130100003_009_01,chara_1
+message,フレデリカ,And yet... there's no way I can bring up such a weird problem to<br>them...!<br> ,101301000G,vc_10130100003_009_01,chara_1
 
-message,<user>,I see，so that's the issue...<br> 
+message,<user>,I see，so that's how it is...<br> 
 
 window,off
 wait,0.15
@@ -153,7 +153,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(If asking her parents is off the table，<br>then the next move is...)<br> 
+message,<user>,(If we can't confirm with her parents，the next step we can take is—)<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -206,9 +206,9 @@ asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,アーデルハイト,I see. So that's why you came to me<br>for consultation.<br> ,108701000G,vc_10130100003_010_01,chara_2
+message,アーデルハイト,—I see. So that is why you came to consult me.<br> ,108701000G,vc_10130100003_010_01,chara_2
 
-message,<user>,Yeah. I figured you could use the power<br>of science to get to the bottom of it.<br> 
+message,<user>,Yeah. I thought you could use your science to figure out the cause.<br> 
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -217,7 +217,7 @@ asyncseplay,setag1_10,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フレデリカ,Sorry to trouble you...<br>but I at least want to figure out the cause...!<br> ,101301000G,vc_10130100003_011_01,chara_1
+message,フレデリカ,I'm sorry for the trouble... but I want to at least figure out the<br>cause somehow!<br> ,101301000G,vc_10130100003_011_01,chara_1
 
 asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
 
@@ -233,7 +233,7 @@ asyncseplay,setag1_11,se4800019,0,1,CONT,0
 asynccharaemo,chara_2,Elated,CONT,0
 
 
-message,アーデルハイト,Let's collect a sample of your bodily fluids.<br> ,108701000G,vc_10130100003_013_01,chara_2
+message,アーデルハイト,Let us start by collecting a sample of your bodily fluids，Frederica.<br> ,108701000G,vc_10130100003_013_01,chara_2
 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0

@@ -47,7 +47,7 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,前線基地の兵士A,おいおい、聞いたか！？<br>司令官とヒュメナさんの試合だってよ！,400901000,,chara_2
+message,前線基地の兵士A,Hey hey，did you hear? They say the Commander's gonna fight Humena!<br> ,400901000,,chara_2
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -58,7 +58,7 @@ asyncseplay,setag1_2,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,前線基地の兵士B,相手はあの瓦１００枚割り、水の精霊の加護があるヒュメナだろ？<br>司令官にゃ悪いが、勝てるわけねえよ。,401501000,,chara_3
+message,前線基地の兵士B,We're talking about the Hundred Tile Breaker，Humena，who's got the<br>water spirit's blessing，right? No offense to the Commander，but there's no way he can win.<br> ,401501000,,chara_3
 
 asynccharaface,chara_3,FaceSurprise,CONT,0
 
@@ -69,7 +69,7 @@ asyncseplay,setag1_3,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,前線基地の兵士B,賭けもオッズがつかないってんでナシになったぐらいだ。<br>試合ってより見世物だぜ、こいつは。,401501000,,chara_3
+message,前線基地の兵士B,They even cancelled the betting because the odds were too one-sided.<br>It's more like a show than a real match.<br> ,401501000,,chara_3
 
 window,off
 wait,0.15
@@ -88,7 +88,7 @@ wait,0.5
 
 
 window,on,0.15
-message,前線基地の兵士A,……しかしここまで災厄とやりあってきた、あの司令官殿だ。<br>水の精霊のパワーが相手でも、無策でやられるとも思えないぞ！,400901000,,chara_2
+message,前線基地の兵士A,But still，this is the Lord Commander who's dealt with the Calamities<br>before. Even against the water spirit's power，I don't think he'd get beaten without a plan.<br> ,400901000,,chara_2
 
 window,off
 wait,0.15
@@ -171,11 +171,11 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒュメナ,なんか盛り上がっちゃってるけど、大丈夫かな。<br>まだみんなウパちゃんのこと、勘違いしてるみたいだし……,,vc_10210100003_001_01,chara_1
+message,ヒュメナ,Everyone's getting pretty heated about this，but is that okay? They<br>still seem to have the wrong idea about Upachan...<br> ,,vc_10210100003_001_01,chara_1
 
-message,<user>,むしろ好都合じゃないか。<br>この場で全ての問題を解決してやるさ。
+message,<user>,Isn't it rather convenient? I'll settle everything right here.<br> 
 
-message,<user>,それじゃヒュメナ、<br>事前に説明した通りに頼んだぞ。
+message,<user>,Alright，Humena. Just like we discussed，I'm counting on you.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -186,9 +186,9 @@ asyncseplay,setag1_8,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ヒュメナ,ほ、本当にいいの？<br>もっと別の方法だってあるかもしれないのに……,,vc_10210100003_002_01,chara_1
+message,ヒュメナ,A-are you sure this is okay? There might be other ways...<br> ,,vc_10210100003_002_01,chara_1
 
-message,<user>,問題ない。さあ作戦開始だ……こほんっ！
+message,<user>,No problem. Now，let's start the operation... ahem!<br> 
 
 window,off
 wait,0.15
@@ -233,7 +233,7 @@ transitionCrossFade,Tra01,1
 wait,1
 
 window,on,0.15
-message,<user>,くっくっく！　好きに言ってくれるじゃぁないか、野次馬ども！<br>俺ではヒュメナには勝てないと、そう思っているんだな！？
+message,<user>,Kukuku! You sure talk big，you bunch of hecklers! You all think I<br>can't beat Humena，don't you?<br> 
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -244,9 +244,9 @@ asyncseplay,setag1_9,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,前線基地の兵士B,そりゃ思ってるさ！<br>どうする気なんだ、司令官様よー！,401501000,,chara_3
+message,前線基地の兵士B,You bet we do! So what's your plan，Lord Commander?<br> ,401501000,,chara_3
 
-message,<user>,それは見てのお楽しみだ！　ただ精神的には俺が優位だということは<br>言っておこう！　ヒュメナを見てみろ！　たじろいでいるではないか！
+message,<user>,You'll have to wait and see! But I'll tell you this: I've already<br>got the mental advantage! Look at Humena! She's flinching，isn't she!<br> 
 
 window,off
 wait,0.15
@@ -292,7 +292,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ヒュメナ,えっ！？　あっ、あぁ……うん……,,vc_10210100003_003_01,chara_1
+message,ヒュメナ,Huh! Ah，oh... um...<br> ,,vc_10210100003_003_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -303,9 +303,9 @@ asyncseplay,setag1_11,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒュメナ,一応ここには来たけど、<br>まあ、あんまり乗り気ではないな～。,,vc_10210100003_004_01,chara_1
+message,ヒュメナ,I did come here after all，but well，I'm not really into it.<br> ,,vc_10210100003_004_01,chara_1
 
-message,<user>,ほほう、俺とは戦いたくないと？
+message,<user>,Oh ho，so you don't want to fight me?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -317,9 +317,9 @@ asyncseplay,setag1_12,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒュメナ,そうだね、司令官君はちょっと戦いたい相手じゃないよ。<br>怪我をさせるのは嫌だから。,,vc_10210100003_005_01,chara_1
+message,ヒュメナ,That's right，Commander. You're not someone I'd want to fight. I<br>don't want to hurt you.<br> ,,vc_10210100003_005_01,chara_1
 
-message,<user>,くくく、ははは！　ふーはっはっはっ！<br>俺の策略にハマったな、ヒュメナよ！
+message,<user>,Kukuku，hahaha! Fu ha ha ha! You've fallen into my trap，Humena!<br> 
 
 window,off
 wait,0.15
@@ -352,7 +352,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,,<user>がヒュメナに歩み寄り、<br>ぐっとその肩を抱き寄せる。
+message,,The Commander approaches Humena and pulls her into a tight<br>embrace，his arm around her shoulder.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -363,7 +363,7 @@ asyncseplay,setag1_13,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ヒュメナ,え、ちょっと、司令官君っ！？,,vc_10210100003_006_01,chara_1
+message,ヒュメナ,Huh! Hey，Commander!<br> ,,vc_10210100003_006_01,chara_1
 
 window,off
 wait,0.15
@@ -413,7 +413,7 @@ asynccharaemo,chara_2,Exclamation,CONT,0
 
 
 window,on,0.15
-message,前線基地の兵士A,なっ、司令官殿！？　<br>ヒュメナさんに何をっ！？,400901000,,chara_2
+message,前線基地の兵士A,Wha-? Lord Commander! What are you doing to Humena?<br> ,400901000,,chara_2
 
 asyncshake,CHARA,chara_3,15,10,0.25,3,on,off,0,off,CONT,0
 

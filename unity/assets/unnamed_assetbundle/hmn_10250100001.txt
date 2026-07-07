@@ -104,7 +104,7 @@ asyncwait
 
 
 window,on,0.15
-message,作業員,Ah，just put that in the basket over there.<br> ,400801000,,chara_2
+message,作業員,Ah，just put it in that basket over there.<br> ,400801000,,chara_2
 
 window,off
 wait,0.15
@@ -125,7 +125,7 @@ asyncjump,CHARA,chara_1,-30,0.5,2,off,0,CONT
 
 
 window,on,0.15
-message,ウェンディ,Got it! Heave... ho...<br> ,,vc_10250100001_002_01,chara_1
+message,ウェンディ,Got it! Heave-ho，heave-ho...<br> ,,vc_10250100001_002_01,chara_1
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -136,7 +136,7 @@ asyncseplay,setag1_3,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,作業員,Sorry about that. Isn't it heavy?<br> ,400801000,,chara_2
+message,作業員,Sorry for putting you to work. It's not heavy，is it?<br> ,400801000,,chara_2
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -147,7 +147,7 @@ asyncseplay,setag1_4,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ウェンディ,Not at all! I'm an automaton，after all!<br> ,,vc_10250100001_003_01,chara_1
+message,ウェンディ,Not at all! Because I'm an automaton!<br> ,,vc_10250100001_003_01,chara_1
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -158,7 +158,7 @@ asyncseplay,setag1_5,se4800014,0,1,CONT,0
 asynccharaemo,chara_2,Silence,CONT,0
 
 
-message,作業員,Right，right. You look like a normal girl，<br>so I keep forgetting.<br> ,400801000,,chara_2
+message,作業員,That's true. You look like a normal girl，so I tend to forget.<br> ,400801000,,chara_2
 
 asyncjump,CHARA,chara_2,-30,0.5,2,off,0,CONT
 
@@ -167,7 +167,7 @@ asyncseplay,setag1_6,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,作業員,Things have been a lot easier since you<br>came to the forward base，Wendy-chan.<br> ,400801000,,chara_2
+message,作業員,Ever since you came to this Frontline Base，things have been a lot<br>easier.<br> ,400801000,,chara_2
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -188,7 +188,7 @@ asyncseplay,setag1_8,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ウェンディ,But I'm really not doing anything special.<br>I just do whatever work I'm assigned!<br> ,,vc_10250100001_005_01,chara_1
+message,ウェンディ,But I'm not doing anything impressive. I'm just doing the jobs I've<br>been entrusted with!<br> ,,vc_10250100001_005_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -199,7 +199,7 @@ asyncseplay,setag1_9,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ウェンディ,And it's all thanks to Commander<br>for getting me this job in the first place.<br> ,,vc_10250100001_006_01,chara_1
+message,ウェンディ,It's all thanks to the Commander for giving me this job.<br> ,,vc_10250100001_006_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -210,7 +210,7 @@ asyncseplay,setag1_10,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ウェンディ,And... everyone has been so kind to me...<br>I'm just overflowing with gratitude!<br> ,,vc_10250100001_007_01,chara_1
+message,ウェンディ,And everyone here has been so kind to me... I'm just filled with<br>gratitude!<br> ,,vc_10250100001_007_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -221,7 +221,7 @@ asyncseplay,setag1_11,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ウェンディ,At other places，I always stuck out<br>because I'm an automaton.<br> ,,vc_10250100001_008_01,chara_1
+message,ウェンディ,In other places，I always felt out of place at work because I'm an<br>automaton.<br> ,,vc_10250100001_008_01,chara_1
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -244,7 +244,7 @@ asyncseplay,setag1_13,se4800021,0,1,CONT,0
 asynccharaemo,chara_1,Imagination,CONT,0
 
 
-message,ウェンディ,Father told me to go see the world，<br>so I was traveling all sorts of places!<br> ,,vc_10250100001_009_01,chara_1
+message,ウェンディ,Father told me to go out and see the world，so I was traveling to all<br>sorts of places!<br> ,,vc_10250100001_009_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -255,7 +255,7 @@ asyncseplay,setag1_14,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ウェンディ,But I ran out of money along the way...<br>and I almost got sold into slavery too...<br> ,,vc_10250100001_010_01,chara_1
+message,ウェンディ,But along the way，I ran out of money... and I was nearly made a<br>slave...<br> ,,vc_10250100001_010_01,chara_1
 
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
@@ -264,7 +264,7 @@ asyncseplay,setag1_15,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,作業員,W-whoa，hold on...<br> ,400801000,,chara_2
+message,作業員,Oh，geez...<br> ,400801000,,chara_2
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -275,7 +275,7 @@ asyncseplay,setag1_16,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ウェンディ,That's when Commander rescued me!<br> ,,vc_10250100001_011_01,chara_1
+message,ウェンディ,That's when the Commander rescued me!<br> ,,vc_10250100001_011_01,chara_1
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -286,7 +286,7 @@ asyncseplay,setag1_17,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,作業員,Wendy-chan，you've been through a lot...<br> ,400801000,,chara_2
+message,作業員,Wendy，you've been through a lot，haven't you...<br> ,400801000,,chara_2
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -297,7 +297,7 @@ asyncseplay,setag1_18,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ウェンディ,But here at the forward base，none of that!<br> ,,vc_10250100001_012_01,chara_1
+message,ウェンディ,But at this Frontline Base，none of that happens!<br> ,,vc_10250100001_012_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -308,7 +308,7 @@ asyncseplay,setag1_19,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ウェンディ,There are people from all sorts of backgrounds，<br>so even an automaton like me fits right in!<br> ,,vc_10250100001_013_01,chara_1
+message,ウェンディ,There are people from all sorts of backgrounds，so even an automaton<br>like me can fit right in!<br> ,,vc_10250100001_013_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0

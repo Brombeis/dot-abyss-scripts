@@ -57,14 +57,14 @@ wait,0.5
 
 
 window,on,0.15
-message,ベリサ,The time has finally come~，A~del~heid!!<br> ,100201000G,vc_10020100002_001_01,chara_1
+message,ベリサ,The time has finally come，A-del-heid!<br> ,100201000G,vc_10020100002_001_01,chara_1
 
 linework,on,White,Middle
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,ベリサ,On the honour of Perdion's mage，Verisa-chan!<br>There's no way I'm losing to the likes of you~!<br> ,100201000G,vc_10020100002_002_01,chara_1
+message,ベリサ,On the honor of Perdion's mage，Verisa-chan! I will never，ever lose<br>to the likes of you!<br> ,100201000G,vc_10020100002_002_01,chara_1
 
 window,off
 wait,0.15
@@ -113,7 +113,7 @@ asynccharaemo,chara_2,Question,CONT,0
 
 
 window,on,0.15
-message,アーデルハイト,U-um...<br>I'm not quite following what you mean...<br> ,108701000G,vc_10020100002_003_01,chara_2
+message,アーデルハイト,Um... I'm not quite following what you're saying...<br> ,108701000G,vc_10020100002_003_01,chara_2
 
 asyncjump,CHARA,chara_1,40,0.5,2,off,0,CONT
 
@@ -122,7 +122,7 @@ asyncseplay,setag1_3,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,ベリサ,H-hey!! Stop holding your arms in front like that~!<br>It just emphasises them! Those needlessly huge things~!!<br> ,100201000G,vc_10020100002_004_01,chara_1
+message,ベリサ,S-stop that! Quit bringing your arms forward! It emphasizes<br>them，doesn't it? That unnecessarily ample chest of yours!<br> ,100201000G,vc_10020100002_004_01,chara_1
 
 asynccharaface,chara_2,FaceShy,CONT,0
 
@@ -133,9 +133,9 @@ asyncseplay,setag1_4,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,アーデルハイト,Wh-what...!?<br> ,108701000G,vc_10020100002_005_01,chara_2
+message,アーデルハイト,Huh...!<br> ,108701000G,vc_10020100002_005_01,chara_2
 
-message,<user>,Don't mind her. That posture conveys your charm<br>splendidly，Adelheid.<br> 
+message,<user>,Don't mind her. It's a wonderful stance that really brings out<br>Adelheid's charm.<br> 
 
 window,off
 wait,0.15
@@ -181,18 +181,18 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 
 window,on,0.15
-message,ベリサ,Whose side are you on，Onii-san~~!!<br> ,100201000G,vc_10020100002_006_01,chara_1
+message,ベリサ,Big bro，whose side are you on anyway?!<br> ,100201000G,vc_10020100002_006_01,chara_1
 
-message,<user>,Sides aside，what's this contest about?<br>If it's chest size，there's nothing to compare.<br> 
+message,<user>,Side? More importantly，what's the contest? If it's about chest<br>size，there's no comparison.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,ベリサ,That has nothing to do with it!! This is a duel<br>to prove Verisa-chan's magic won't lose to science!!<br> ,100201000G,vc_10020100002_007_01,chara_1
+message,ベリサ,That's not the point! This is a duel to prove that Verisa-chan's<br>magic will absolutely never lose to the power of science!<br> ,100201000G,vc_10020100002_007_01,chara_1
 
-message,<user>,Ah... this is about the time you got humbled.<br>You turned the food to charcoal instead of heating it.<br> 
+message,<user>,Oh，you mean that time you got schooled. Instead of warming food，you<br>turned it to charcoal.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -203,9 +203,9 @@ asyncseplay,setag1_6,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ベリサ,I was NOT humbled~! I just messed up the heat a tiny bit!<br>If I fight for real，magic is 100 times better than science!<br> ,100201000G,vc_10020100002_008_01,chara_1
+message,ベリサ,I so didn't get schooled! I just made a minor mistake with the flame<br>control! If we fought for real，magic would be a hundred times stronger than some science!<br> ,100201000G,vc_10020100002_008_01,chara_1
 
-message,<user>,Sigh... what a pointless debate，but I'm a bit curious.<br>The performance gap between science and magic，huh.<br> 
+message,<user>,Hah... this is silly，but I'm a bit interested. The performance<br>difference between science and magic，huh?<br> 
 
 window,off
 wait,0.15
@@ -258,7 +258,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ベリサ,...! Se~e! Even Onii-san agrees with me!!<br>You know Verisa-chan is right，don't you~♡<br> ,100201000G,vc_10020100002_009_01,chara_1
+message,ベリサ,See! Even big bro says so! He knows full well that Verisa-chan is<br>right!♡<br> ,100201000G,vc_10020100002_009_01,chara_1
 
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
@@ -270,9 +270,9 @@ asyncseplay,setag1_8,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,アーデルハイト,A contest of science versus magic? But I don't have<br>many offensive tools. I doubt I could match Verisa-san...<br> ,108701000G,vc_10020100002_010_01,chara_2
+message,アーデルハイト,A competition between science and magic? But I don't have many<br>offensive tools right now. I imagine I'd be no match for you，Verisa...<br> ,108701000G,vc_10020100002_010_01,chara_2
 
-message,<user>,What humbled Verisa wasn't a weapon，it was a microwave.<br>Don't you have other gadgets like that?<br> 
+message,<user>,What Verisa got schooled by was a microwave，not weapons. Aren't<br>there any other similar appliances?<br> 
 
 asynccharaface,chara_2,FaceFun,CONT,0
 
@@ -283,7 +283,7 @@ asyncseplay,setag1_9,se4800009,0,1,CONT,0
 asynccharaemo,chara_2,Question,CONT,0
 
 
-message,アーデルハイト,Highly convenient tools，you say?<br>I do have a few of those...<br> ,108701000G,vc_10020100002_011_01,chara_2
+message,アーデルハイト,Convenient tools? Well，there are a few...<br> ,108701000G,vc_10020100002_011_01,chara_2
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -294,7 +294,7 @@ asyncseplay,setag1_10,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ベリサ,Then that's how we'll compete!<br>Whoever fulfils Onii-san's requests faster wins~!<br> ,100201000G,vc_10020100002_012_01,chara_1
+message,ベリサ,Then let's settle it with those! Whoever can fulfill big bro's<br>request first wins!<br> ,100201000G,vc_10020100002_012_01,chara_1
 
 asynccharaface,chara_2,FaceUnique01,CONT,0
 
@@ -305,7 +305,7 @@ asyncseplay,setag1_11,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,アーデルハイト,O-okay，understood.<br>If you'll have me，I'll accept the challenge!<br> ,108701000G,vc_10020100002_013_01,chara_2
+message,アーデルハイト,U-understood. If you'll have me，I'll gladly be your opponent!<br> ,108701000G,vc_10020100002_013_01,chara_2
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -316,9 +316,9 @@ asyncseplay,setag1_12,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ベリサ,Go on，Onii-san~♡ Ask for something，anything~♪<br>Verisa-chan will grant it right away，not some science!<br> ,100201000G,vc_10020100002_014_01,chara_1
+message,ベリサ,Come on，big bro! Make a request! Verisa-chan will grant it right<br>away，not some science stuff!♡<br> ,100201000G,vc_10020100002_014_01,chara_1
 
-message,<user>,Let's see... I'm thirsty，for starters.<br>I could use a cold drink.<br> 
+message,<user>,Let's see... for starters，I'm thirsty. I could go for a cold drink.<br> 
 
 window,off
 wait,0.15

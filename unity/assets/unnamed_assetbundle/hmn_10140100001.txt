@@ -41,7 +41,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(Afternoon Abyss run today... prep's done from yesterday，<br>so I should get solid rest this morning... hm?)<br> 
+message,<user>,(I've got the Abyss exploration this afternoon... I already prepped<br>everything yesterday，so I'd better rest up this morning... Huh?)<br> 
 
 window,off
 wait,0.15
@@ -82,7 +82,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ピコ,Hey hey heeey~! It's Pico~!<br>Currently rolling on emergency footage right now~.<br> ,,vc_10140100001_001_01,chara_1
+message,ピコ,Hey there! I'm Pico! Recording an emergency video right now!<br> ,,vc_10140100001_001_01,chara_1
 
 window,off
 wait,0.15
@@ -97,7 +97,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(Who is she? Never seen her before... but who's she talking to?<br>Looks like she's completely alone.)<br> 
+message,<user>,(Who's that? I haven't seen her before... Who's she talking to? As<br>far as I can tell，she's alone.)<br> 
 
 window,off
 wait,0.15
@@ -121,7 +121,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ピコ,Some of you might be wondering where Pikonyan even is right now!<br>Well — it's actually... a whole other world!!<br> ,,vc_10140100001_002_01,chara_1
+message,ピコ,Some of you looking behind Pico might be wondering，""Where is that?""<br>Well，actually... this is another world!<br> ,,vc_10140100001_002_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -132,7 +132,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,ピコ,Got my phone fixed up so I can share this with everyone——<br>really hoping the footage is coming out okay~.<br> ,,vc_10140100001_003_01,chara_1
+message,ピコ,I wanted to show everyone，so I got my smartphone fixed up... I hope<br>the video's coming out okay!<br> ,,vc_10140100001_003_01,chara_1
 
 window,off
 wait,0.15
@@ -147,7 +147,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(A smartphone? Footage? What on earth is she talking about?)<br> 
+message,<user>,(Smartphone? Video? What's she talking about?)<br> 
 
 window,off
 wait,0.15
@@ -185,9 +185,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ピコ,Oh! Perfect timing，there's someone right here!<br>Hey hey~! What are you doing all by yourself~?<br> ,,vc_10140100001_004_01,chara_1
+message,ピコ,Ah! Right on cue，someone shows up! Yo yo! What're you doing all<br>alone?<br> ,,vc_10140100001_004_01,chara_1
 
-message,<user>,That's my line.<br>What exactly are you doing out here alone?<br> 
+message,<user>,That's my line. What are you doing all by yourself?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -198,7 +198,7 @@ asyncseplay,setag1_5,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ピコ,Filming~! When I get back home I'm posting it online.<br>Working title: 'Isekai Let's Play'!<br> ,,vc_10140100001_005_01,chara_1
+message,ピコ,Recording a video! I'm planning to release it when I get back to my<br>world. Titled: ""Another World Commentary Video""!<br> ,,vc_10140100001_005_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -210,9 +210,9 @@ asyncseplay,setag1_6,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ピコ,Everyone's gonna be super into it，I just know it.<br>Views are gonna absolutely blow up~♪<br> ,,vc_10140100001_006_01,chara_1
+message,ピコ,I'm sure everyone'll be super interested and watch it. Views are<br>gonna blow up!♪<br> ,,vc_10140100001_006_01,chara_1
 
-message,<user>,Filming...? Views...? View count...?<br>I don't follow，but — Pico，you're from another world?<br> 
+message,<user>,Recording...? Watching...? View count...? I don't get it，but<br>you—Pico—came from another world，didn't you?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -223,9 +223,9 @@ asyncseplay,setag1_7,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ピコ,Yep!<br> ,,vc_10140100001_007_01,chara_1
+message,ピコ,That's right!<br> ,,vc_10140100001_007_01,chara_1
 
-message,<user>,And you're doing all this so someone<br>can see what you're up to.<br> 
+message,<user>,So，you're doing something to let people see what you're up to.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -236,9 +236,9 @@ asyncseplay,setag1_8,se4800005,0,1,CONT,0
 asynccharaemo,chara_1,Flash,CONT,0
 
 
-message,ピコ,Got it in one~!<br> ,,vc_10140100001_008_01,chara_1
+message,ピコ,Bingo!<br> ,,vc_10140100001_008_01,chara_1
 
-message,<user>,Shouldn't you be doing this somewhere with more people around?<br> 
+message,<user>,If that's the case，then there's no point in doing it where there<br>aren't more people around，is there?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -250,9 +250,9 @@ asyncseplay,setag1_9,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ピコ,Nah nah nah~.<br>Pikonyan doesn't need anyone around her to make it work~.<br> ,,vc_10140100001_009_01,chara_1
+message,ピコ,No，no，no. It's fine even if there's no one around Pico.<br> ,,vc_10140100001_009_01,chara_1
 
-message,<user>,...? That makes no sense.<br>How does anyone see you if no one's there?<br> 
+message,<user>,...? What a weird thing to say. How can people see you if there's no<br>one there?<br> 
 
 window,off
 wait,0.15
@@ -300,7 +300,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ピコ,Where Pikonyan comes from there's this thing called 'the internet.'<br>You upload a video you filmed and someone，somewhere，will watch it.<br> ,,vc_10140100001_010_01,chara_1
+message,ピコ,In Pico's world，there's something called the ""net"". If I post videos<br>I take with my smartphone there，people somewhere will watch them.<br> ,,vc_10140100001_010_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -311,7 +311,7 @@ asyncseplay,setag1_11,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ピコ,A smartphone is this device right here! Right now it's got us both<br>in frame — and you can browse the internet on it too~.<br> ,,vc_10140100001_011_01,chara_1
+message,ピコ,A smartphone is this device! Right now，you and I are on the<br>screen，but with this device，you can also access the net.<br> ,,vc_10140100001_011_01,chara_1
 
 window,off
 wait,0.15
@@ -352,7 +352,7 @@ wait,0.5
 asyncskipwait
 
 window,on,0.15
-message,<user>,Whoa! It really is!<br>Both of us，right there in the screen!?<br> 
+message,<user>,Whoa! It's true! You and I are on the screen!<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 

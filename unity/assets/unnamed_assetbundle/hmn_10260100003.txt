@@ -42,7 +42,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 window,on,0.15
 message,シルヴィア,...<br> ,102601000G,vc_10260100003_001_01,chara_1
 
-message,<user>,I made some tea. Want some?<br> 
+message,<user>,I brewed you some tea. Want some?<br> 
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -103,7 +103,7 @@ wait,0.5
 
 
 window,on,0.15
-message,シルヴィア,...Um，I do apologize for causing you trouble earlier.<br> ,102601000G,vc_10260100003_003_01,chara_1
+message,シルヴィア,...Um，I am sorry for causing you trouble earlier.<br> ,102601000G,vc_10260100003_003_01,chara_1
 
 message,<user>,Trouble? What are you talking about?<br> 
 
@@ -116,9 +116,9 @@ asyncseplay,setag1_5,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,シルヴィア,Well，you know... you carried me all the way back from the Abyss，<br>and I said some terrible things...<br> ,102601000G,vc_10260100003_004_01,chara_1
+message,シルヴィア,Well，the thing is... how you carried me all the way from the<br>Abyss，and how I said a lot of terrible things...<br> ,102601000G,vc_10260100003_004_01,chara_1
 
-message,<user>,Oh，is that all.<br> 
+message,<user>,Oh，that's all?<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -129,9 +129,9 @@ asyncseplay,setag1_6,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,シルヴィア,Wh-what do you mean 'is that all'!?<br>I'm trying to reflect on my behavior here...!<br> ,102601000G,vc_10260100003_005_01,chara_1
+message,シルヴィア,W-what do you mean ""that's all""!? I-I was reflecting on my<br>behavior...!<br> ,102601000G,vc_10260100003_005_01,chara_1
 
-message,<user>,Nobody asked you to reflect.<br>Just drink the tea. It gets bad when it cools down.<br> 
+message,<user>,No one's asking you to reflect. Just drink your tea. It'll taste bad<br>if it gets cold.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -147,7 +147,7 @@ asynccharaface,chara_1,FaceNormal,STOP,6
 asyncjump,CHARA,chara_1,-30,0.25,1,off,6,STOP
 
 
-message,シルヴィア,Ugh... I can never tell if you are being kind or harsh... *sip*...<br> ,102601000G,vc_10260100003_006_01,chara_1
+message,シルヴィア,Tch... I cannot tell if you are kind or harsh... *slurp*...<br> ,102601000G,vc_10260100003_006_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -158,7 +158,7 @@ asyncseplay,setag1_8,se4800011,0,1,CONT,0
 asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
-message,シルヴィア,Eek!?<br> ,102601000G,vc_10260100003_007_01,chara_1
+message,シルヴィア,Eep!<br> ,102601000G,vc_10260100003_007_01,chara_1
 
 message,<user>,What's wrong? Don't like the taste?<br> 
 
@@ -171,9 +171,9 @@ asyncseplay,setag1_9,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,シルヴィア,N-no! It's just... it was... h-hot，that's all.<br> ,102601000G,vc_10260100003_008_01,chara_1
+message,シルヴィア,N-no，not at all! It is just... it was hot.<br> ,102601000G,vc_10260100003_008_01,chara_1
 
-message,<user>,Huh? Is it really that hot?<br>It's been a while since I brewed it.<br> 
+message,<user>,Huh? Is it that hot? Some time has passed since I made it.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -184,9 +184,9 @@ asyncseplay,setag1_10,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,シルヴィア,I-I... well，you see，I have a sensitivity to hot things!<br> ,102601000G,vc_10260100003_009_01,chara_1
+message,シルヴィア,I-I... well，the truth is... I am sensitive to hot things.<br> ,102601000G,vc_10260100003_009_01,chara_1
 
-message,<user>,You said your world was covered in ice.<br>Didn't you drink hot beverages to keep warm?<br> 
+message,<user>,But you said your world was covered in ice. Didn't you warm up with<br>hot drinks there?<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -197,7 +197,7 @@ asyncseplay,setag1_11,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シルヴィア,I did，but... I was still sensitive to heat.<br>I have always had trouble with hot things...<br> ,102601000G,vc_10260100003_010_01,chara_1
+message,シルヴィア,I did，but I still had trouble with hot things. I have always been<br>rather sensitive to hot things...<br> ,102601000G,vc_10260100003_010_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -208,9 +208,9 @@ asyncseplay,setag1_12,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,シルヴィア,People used to tease me about it all the time.<br>They said it was childish... I am sure you will...<br> ,102601000G,vc_10260100003_011_01,chara_1
+message,シルヴィア,People often teased me about it. They said I was like a little<br>kid... You are probably thinking the same...<br> ,102601000G,vc_10260100003_011_01,chara_1
 
-message,<user>,Tease you? I wasn't going to.<br>Though I do think it's cute.<br> 
+message,<user>,Me? Tease you? I wouldn't do that. Well，I did think it was cute<br>though.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -221,7 +221,7 @@ asyncseplay,setag1_13,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,シルヴィア,C-cute—! H-honestly，why do you always have to say things like<br>that...!<br> ,102601000G,vc_10260100003_012_01,chara_1
+message,シルヴィア,C-cute! Honestly，you always...!<br> ,102601000G,vc_10260100003_012_01,chara_1
 
 window,off
 wait,0.15

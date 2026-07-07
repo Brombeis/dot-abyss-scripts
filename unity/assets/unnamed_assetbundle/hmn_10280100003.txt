@@ -25,9 +25,9 @@ bgmplay,bgmtag1_1,bgm0030,0.75,1
 
 
 window,on,0.15
-message,,At the run-down stall they spotted in the market，<br>they found the owner of Emily's former restaurant...<br> 
+message,,The battered stall we spotted at the Market belonged to the owner of<br>the shop where Emily used to work.<br> 
 
-message,,%user% and Emily brought the owner to the<br>tavern to hear her story in detail.<br> 
+message,,The Commander and Emily brought the shop owner to the Tavern and<br>decided to hear the full story.<br> 
 
 window,off
 wait,0.15
@@ -67,7 +67,7 @@ charaface,chara_2,FaceNormal
 asynccharaface,chara_2,EyeClose,STOP
 asynccharaface,chara_2,FaceNormal,STOP
 window,on,0.15
-message,ルディア,Now then，former owner... Emily-san tells us that<br>one day，you suddenly left your shop in Eldorana to seek treasure.<br> ,,vc_10280100003_001_01,chara_2
+message,ルディア,Now then，former shop owner... I've heard from Emily that you left<br>your shop in Eldorana one day in pursuit of treasure.<br> ,,vc_10280100003_001_01,chara_2
 
 
 window,off
@@ -114,15 +114,15 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,エミリー,Boss... I was so worried，jeez~!<br>Why didn't you say anything when you left!?<br> ,102801000G,vc_10280100003_002_01,chara_1
+message,エミリー,Boss... I was so worried，geez! Why didn't you say anything before<br>you left?<br> ,102801000G,vc_10280100003_002_01,chara_1
 
-message,女店長,I'm... truly sorry about that.<br> ,900000001,vc_10280100003_003_01,
+message,女店長,That is... I'm truly sorry.<br> ,900000001,vc_10280100003_003_01,
 
-message,女店長,One day，a customer at the Eldorana shop told me<br>about the Abyss，and I heard all sorts of tempting rumors.<br> ,900000001,vc_10280100003_004_01,
+message,女店長,One day... I heard about the Abyss from a customer at my shop in<br>Eldorana，and I heard so many tempting rumors about it.<br> ,900000001,vc_10280100003_004_01,
 
-message,<user>,And you couldn't sit still，so you left the shop...<br>Is that how it went.<br> 
+message,<user>,So you couldn't sit still and just left the shop... is that it?<br> 
 
-message,女店長,...Something like that.<br>I panicked... 'I have to get to the Abyss，even a day sooner!'...<br> ,900000001,vc_10280100003_005_01,
+message,女店長,I suppose... I was so anxious，thinking I had to get to the Abyss as<br>soon as possible!<br> ,900000001,vc_10280100003_005_01,
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -133,7 +133,7 @@ asyncseplay,setag1_3,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,エミリー,...I can totally picture you rushing out the door in a panic~<br> ,102801000G,vc_10280100003_006_01,chara_1
+message,エミリー,I can just picture you rushing out in a panic，Boss.<br> ,102801000G,vc_10280100003_006_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -144,17 +144,17 @@ asyncseplay,setag1_4,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,エミリー,So you made it all the way to the Abyss...<br>How did it actually go?<br> ,102801000G,vc_10280100003_007_01,chara_1
+message,エミリー,So you came to the Abyss... how did it actually go?<br> ,102801000G,vc_10280100003_007_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
-message,女店長,It was a failure. No... a complete disaster.<br> ,900000001,vc_10280100003_008_01,
+message,女店長,It was a failure. No... a complete failure.<br> ,900000001,vc_10280100003_008_01,
 
-message,女店長,I can't fight monsters，so I figured I'd at least<br>get treasure near the surface... but everyone had the same idea.<br> ,900000001,vc_10280100003_009_01,
+message,女店長,I didn't have the strength to beat monsters，so I figured I'd at<br>least go for the treasure in the shallows of the Abyss... but there were plenty of others with the same idea.<br> ,900000001,vc_10280100003_009_01,
 
-message,<user>,That's true. Right after the Abyss appeared，a lot<br>of people apparently rushed in looking for treasure.<br> 
+message,<user>,True. It seems a lot of people rushed into the Abyss for the<br>treasures right after it appeared.<br> 
 
-message,女店長,The treasure I was after had already been picked<br>clean... Now I scrape by collecting junk near the Abyss.<br> ,900000001,vc_10280100003_010_01,
+message,女店長,The treasure I was after had already been cleaned out，and I was left<br>with nothing... Now I just scavenge junk around the Abyss，barely scraping by，as you can see.<br> ,900000001,vc_10280100003_010_01,
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -165,11 +165,11 @@ asyncseplay,setag1_5,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,エミリー,If things were that bad... why didn't you come back<br>to Eldorana? The shop is still there，you know?<br> ,102801000G,vc_10280100003_011_01,chara_1
+message,エミリー,If it was that bad... why didn't you come back to Eldorana? The shop<br>is still there，you know?<br> ,102801000G,vc_10280100003_011_01,chara_1
 
-message,女店長,...I was blinded by greed and shut the shop on a<br>whim. I couldn't face going back empty-handed.<br> ,900000001,vc_10280100003_012_01,
+message,女店長,...I was blinded by the lure of treasure and abruptly closed up shop<br>to head to the Abyss. I thought I couldn't return to Eldorana until I made a fortune.<br> ,900000001,vc_10280100003_012_01,
 
-message,<user>,So you got too stubborn to go back.<br>I can't say I don't understand，but...<br> 
+message,<user>,So you've dug in your heels，too proud to go back. I can understand<br>the feeling，but...<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -180,7 +180,7 @@ asyncseplay,setag1_6,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,エミリー,...Jeez，what am I gonna do with you.<br> ,102801000G,vc_10280100003_013_01,chara_1
+message,エミリー,Oh dear，you're hopeless.<br> ,102801000G,vc_10280100003_013_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -191,9 +191,9 @@ asyncseplay,setag1_7,se4800005,0,1,CONT,0
 asynccharaemo,chara_1,Flash,CONT,0
 
 
-message,エミリー,Here，Boss. Let's take a little break，okay?<br>This is the staff meal I always eat.<br> ,102801000G,vc_10280100003_014_01,chara_1
+message,エミリー,Here，Boss. Let's take a quick break，okay? This is the staff meal I<br>always eat.<br> ,102801000G,vc_10280100003_014_01,chara_1
 
-message,女店長,Huh? N-no，I couldn't possibly——<br> ,900000001,vc_10280100003_015_01,
+message,女店長,Huh? No，no，I couldn't possibly...<br> ,900000001,vc_10280100003_015_01,
 
 
 asyncseplay,setag1_8,se4400118,0,1,CONT,0

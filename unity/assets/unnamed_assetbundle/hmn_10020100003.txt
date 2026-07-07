@@ -49,7 +49,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ベリサ,Mm... huh? Where am I~...?<br> ,100201000G,vc_10020100003_001_01,chara_1
+message,ベリサ,Hmm... huh? Where is this...?<br> ,100201000G,vc_10020100003_001_01,chara_1
 
 window,off
 wait,0.15
@@ -82,7 +82,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,You're finally awake.<br> 
+message,<user>,Finally awake?<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -93,11 +93,11 @@ asyncseplay,setag1_3,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ベリサ,Onii-san...?<br>Why~ are you here~?<br> ,100201000G,vc_10020100003_002_01,chara_1
+message,ベリサ,Big bro...? Why is big bro here?<br> ,100201000G,vc_10020100003_002_01,chara_1
 
 message,<user>,You don't remember?<br> 
 
-message,<user>,You challenged Adelheid's inventions，<br>and collapsed from magic exhaustion.<br> 
+message,<user>,You challenged Adelheid's gadgets and passed out from mana<br>depletion.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -108,9 +108,9 @@ asyncseplay,setag1_4,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ベリサ,Ehh... so this place is...<br> ,100201000G,vc_10020100003_003_01,chara_1
+message,ベリサ,Huh... so this is...<br> ,100201000G,vc_10020100003_003_01,chara_1
 
-message,<user>,My room.<br>You've been hogging my bed. It's a nuisance.<br> 
+message,<user>,It's my room. You're taking up my bed，you know.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -121,7 +121,7 @@ asyncseplay,setag1_5,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ベリサ,Onii-san's room... Onii-san's bed... ♡<br> ,100201000G,vc_10020100003_004_01,chara_1
+message,ベリサ,Big bro's room... Big bro's bed...♡<br> ,100201000G,vc_10020100003_004_01,chara_1
 
 
 window,off
@@ -148,7 +148,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ベリサ,Ehehe~n♡ Oh，Onii-sa~n~.<br>You brought me to your room，so what were you planning~? ♡<br> ,100201000G,vc_10020100003_005_01,chara_1
+message,ベリサ,Fufu♡ Geez，big bro. Dragging me into your room，what were you<br>planning to do to me?♡<br> ,100201000G,vc_10020100003_005_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -159,7 +159,7 @@ asyncseplay,setag1_7,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ベリサ,You couldn't even work up the nerve<br>unless Verisa-chan was too tired to resist?<br> ,100201000G,vc_10020100003_006_01,chara_1
+message,ベリサ,You wouldn't have had the guts to take me to bed unless it was<br>Verisa-chan，all worn out and helpless，would you?<br> ,100201000G,vc_10020100003_006_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -170,11 +170,11 @@ asyncseplay,setag1_8,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ベリサ,You really~ are such a hopeless Onii-san♡<br> ,100201000G,vc_10020100003_007_01,chara_1
+message,ベリサ,You're such a pathetic big bro，really!♡<br> ,100201000G,vc_10020100003_007_01,chara_1
 
-message,<user>,...The second you feel better，you start with that.<br> 
+message,<user>,...And you're back to that already?<br> 
 
-message,<user>,I couldn't exactly barge into your room.<br>Or did you want everyone hearing you fainted boiling water?<br> 
+message,<user>,I can't exactly barge into your room. Or would you rather have me<br>spread the rumor that you passed out from boiling water?<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -183,17 +183,17 @@ asyncseplay,setag1_9,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ベリサ,Oh~? Maybe I'll tell everyone~ Verisa collapsed<br>from serving Onii-san too~ hard? ♡ How bold~♡<br> ,100201000G,vc_10020100003_008_01,chara_1
+message,ベリサ,Oh my? Should I go tell everyone that Verisa-chan collapsed from<br>giving big bro too much service?♡ Big scoop!♡<br> ,100201000G,vc_10020100003_008_01,chara_1
 
-message,<user>,You never shut up，do you...<br>But I'm telling you，collapsing like that is a problem.<br> 
+message,<user>,You never learn，do you... But I'll have you know，you collapsing was<br>a real problem.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
-message,<user>,We were lucky there was no fighting，<br>but what if a Calamity had appeared?<br> 
+message,<user>,Fortunately，there was no battle，but what if the Calamity had shown<br>up?<br> 
 
-message,<user>,Planning strategy without you is a pain.<br>Don't push yourself over something pointless again.<br> 
+message,<user>,It's a pain to come up with strategies without you. Don't push<br>yourself over pointless stuff anymore.<br> 
 
 window,off
 wait,0.15
@@ -220,7 +220,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ベリサ,Mm~ I knew it~? Onii-san can't do a~ thing<br>without Verisa-chan，can you? So weak without me~♪<br> ,100201000G,vc_10020100003_009_01,chara_1
+message,ベリサ,Mhm，see? Big bro can't do a thing without Verisa-chan，can he? You're<br>such a loser without me!♪<br> ,100201000G,vc_10020100003_009_01,chara_1
 
 
 window,off
@@ -242,14 +242,14 @@ asyncwait
 
 
 window,on,0.15
-message,ベリサ,...But you know，Onii-san.<br>What happened today wasn't pointless at all.<br> ,100201000G,vc_10020100003_010_01,chara_1
+message,ベリサ,...But you know，big bro. Today wasn't pointless at all.<br> ,100201000G,vc_10020100003_010_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,ベリサ,My magic absolutely，positively<br>cannot lose to Lux Nova's science.<br> ,100201000G,vc_10020100003_011_01,chara_1
+message,ベリサ,My magic absolutely，positively cannot lose to something like Lux<br>Nova's science.<br> ,100201000G,vc_10020100003_011_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0

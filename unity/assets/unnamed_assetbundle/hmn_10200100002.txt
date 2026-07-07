@@ -41,9 +41,9 @@ wait,1
 
 asynccharareaction,chara_1,Nod,1,STOP
 window,on,0.15
-message,ラヴェリア,よし、前回の探索の報告についてはまとまった。<br>兄さん、そっちで確認を頼む。,,vc_10200100002_001_01
+message,ラヴェリア,Alright，the report from the last expedition is all compiled.<br>Brother，could you verify it?<br> ,,vc_10200100002_001_01
 
-message,<user>,ふむ……ああ、問題ない。<br>これで確定だアリシア、各国に提出を頼む！
+message,<user>,Hmm... yeah，no problems here. That's confirmed，Alicia. Please send<br>it to each country.<br> 
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
@@ -51,11 +51,11 @@ charaface,chara_1,FaceNormal
 asyncseplay,setag1_3,se4800008,0,1,CONT
 
 asynccharaemo,chara_1,Sweat,STOP
-message,ラヴェリア,おいおい兄さん、そんなに適当でいいのか？,,vc_10200100002_002_01
+message,ラヴェリア,Hey，hey，Brother，you sure you can be that casual?<br> ,,vc_10200100002_002_01
 
-message,<user>,内容は確認した。ラヴェリアの優秀さも分かっている。<br>これは時間の節約ってやつだ。
+message,<user>,I've already checked the contents. I know how capable you<br>are，Laveria. This is what they call saving time.<br> 
 
-message,<user>,あえて言うならば、ラヴェリア……<br>自分の活躍を少なめに記述するのはどうかとは思うがな。
+message,<user>,If I had to say，Laveria... I think you're underselling your own<br>achievements a bit.<br> 
 
 charaface,chara_1,FaceFun
 
@@ -63,12 +63,12 @@ asyncseplay,setag1_4,se4800004,0,1,CONT
 
 asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Laugh,STOP
-message,ラヴェリア,へえ……しっかり読んでるじゃないか。<br>さすがは司令官ってわけだね。,,vc_10200100002_003_01
+message,ラヴェリア,Oh? You read it thoroughly，didn't you. As expected of the Commander.<br> ,,vc_10200100002_003_01
 
 charaface,chara_1,FaceHappy
 
 asynccharaface,chara_1,FaceFun,STOP,2
-message,ラヴェリア,じゃあアリシア、こいつを頼むよ。<br>司令官の確認済みだ。,,vc_10200100002_004_01
+message,ラヴェリア,Then，Alicia，I'll leave this with you. The Commander has already<br>okayed it.<br> ,,vc_10200100002_004_01
 
 window,off
 wait,0.15
@@ -83,7 +83,7 @@ asyncseplay,setag1_5,se4800004,1,1,CONT
 asynccharareaction,chara_2,Nod,1,STOP,1
 asynccharaemo,chara_2,Laugh,STOP,1
 window,on,0.15
-message,アリシア,はい、提出しておきます！<br>お疲れ様でした！,,vc_10200100002_005_01
+message,アリシア,Yes，I'll submit it! Good work，everyone!<br> ,,vc_10200100002_005_01
 
 window,off
 wait,0.15
@@ -97,20 +97,20 @@ asynccharahide,chara_2,0.3,STOP
 asynccharamove,chara_2,LinearTarget,X,600,0.3,STOP
 
 window,on,0.15
-message,<user>,今日の分はなんとか片付いたか……。<br>悪いなラヴェリア、本当に助かった。
+message,<user>,Today's work is finally done... Thanks，Laveria，you were a huge help.<br> 
 
 charaface,chara_1,FaceFun
-message,ラヴェリア,こういう事務仕事は慣れてるからね。<br>これぐらいは楽なもんさ。,,vc_10200100002_006_01
+message,ラヴェリア,I'm used to this kind of desk work. This is easy as pie.<br> ,,vc_10200100002_006_01
 
-message,<user>,なるほど。でも元々そういう事務仕事をやってたのに<br>なんで今は戦士として戦おうって思ったんだ？
+message,<user>,I see. But you used to do clerical work，so why did you decide to<br>fight as a warrior?<br> 
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
-message,ラヴェリア,仲間を守るために必要なことだ。<br>兄さんだってそう思ってるんだろ？,,vc_10200100002_007_01
+message,ラヴェリア,It's necessary to protect my comrades. You think so<br>too，right，Brother?<br> ,,vc_10200100002_007_01
 
-message,<user>,うーん……俺の場合は頼まれた仕事って感じだからな。<br>ラヴェリアみたいな責任感は……どうなんだろうな？
+message,<user>,Hmm... For me，it's more like I was asked to do this job. As for<br>having the same sense of responsibility as you... I'm not sure.<br> 
 
-message,<user>,さて、と。ほらラヴェリア、今日のボーナスだ。<br>大した量の金貨じゃないが受け取ってくれ。
+message,<user>,Well then. Here，Laveria，today's bonus. It's not a lot of gold<br>coins，but please take it.<br> 
 
 asyncseplay,setag1_6,se4400068,0,1,CONT
 
@@ -119,14 +119,14 @@ charaface,chara_1,FaceSurprise
 asyncseplay,setag1_7,se4800009,0,1,CONT
 
 asynccharaemo,chara_1,Question,STOP
-message,ラヴェリア,はぁ！？　ボーナスなんて不要だ！<br>アタシは手伝いをしただけだろう？,,vc_10200100002_008_01
+message,ラヴェリア,Hah! I don't need a bonus! I only just helped out!<br> ,,vc_10200100002_008_01
 
-message,<user>,業務外の仕事を頼んだんだ、<br>報酬ぐらいは出さないとさすがに申し訳ないだろ。
+message,<user>,I asked you to do work outside your duties. I'd feel bad if I didn't<br>at least pay you.<br> 
 
 charaface,chara_1,FaceSad
-message,ラヴェリア,でもな……。<br>大したこともしてないのに、報酬を貰うというのも。,,vc_10200100002_009_01
+message,ラヴェリア,But... it feels wrong to take money when I didn't do much.<br> ,,vc_10200100002_009_01
 
-message,<user>,俺からの気持ちだと思っておけ。<br>趣味でも嗜好品でも、好きなものに使えばいい。
+message,<user>,Think of it as a token from me. You can spend it on your hobbies or<br>whatever you like.<br> 
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
@@ -142,9 +142,9 @@ asynccharaface,chara_1,FaceNormal,STOP,0.2
 
 asynccharaface,chara_1,EyeOpen,STOP,4.8
 asynccharaface,chara_1,FaceNormal,STOP,4.8
-message,ラヴェリア,好きなもの、ね……。<br>分かった、ありがたく受け取ろう。,,vc_10200100002_010_01
+message,ラヴェリア,Something I like，huh... Alright，I'll gratefully accept.<br> ,,vc_10200100002_010_01
 
-message,<user>,それでいい。またまだ未処理の報告書があるからなぁ……<br>明日も明後日も手伝ってくれないか？
+message,<user>,Good. There are still more unprocessed reports... Could you help me<br>tomorrow and the day after too?<br> 
 
 asyncseplay,setag1_9,se4800008,0,1,CONT
 

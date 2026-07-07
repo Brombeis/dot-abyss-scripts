@@ -25,7 +25,7 @@ charaface,chara_1,FaceNormal
 messagetextwindow,on,0.15
 
 asyncseplay,setag1_1,se5050013,0,1,CONT
-messageTextCenter,,<size=48>――前線基地近くの森</size>,,,on
+messageTextCenter,,<size=48>--Forest near the Frontline Base</size>,,,on
 
 wait,0.2
 
@@ -37,9 +37,9 @@ asyncstopwait
 
 
 window,on,0.15
-message,<user>,よし、これだけ取れば十分だろう。<br>そろそろ基地に戻るか……
+message,<user>,Alright，that should be enough.<br>Time to head back to base...<br> 
 
-message,<user>,しかし暇そうだからって、司令官に毒キノコ集めやらせるなよなぁ。<br>そりゃモンスターに使う毒の材料なんて、あればあるだけいいんだけど……
+message,<user>,But they make me，the Commander，gather poison mushrooms just because<br>I look free. I mean，more poison for monsters is always good，but...<br> 
 
 window,off
 wait,0.15
@@ -58,13 +58,13 @@ wait,0.5
 
 cameramove,LinearTarget,X,100,0.5
 window,on,0.15
-message,<user>,なんだ？　ここは妙に木が倒れてるな。<br>昨晩嵐でも起こったのか？
+message,<user>,What's this? The trees have fallen strangely.<br>Was there a storm last night or something?<br> 
 
 cameramove,LinearTarget,X,0,0.5
 
-message,<user>,あ～、最悪だ。倒木で道が塞がれてるじゃねえか……。<br>これじゃ先に進めないぞ……
+message,<user>,Ugh，this is the worst. The path's blocked by fallen trees.<br>I can't get through like this...<br> 
 
-message,<user>,回り道するか、無理やり乗り越えるか……。<br>どっちも面倒だなぁ……
+message,<user>,Should I go around or climb over?<br>Both are a hassle...<br> 
 
 window,off
 wait,0.15
@@ -74,7 +74,7 @@ wait,0.5
 bgmstop,bgmtag1_1,0.5,0
 
 window,on,0.15
-message,？？？,うぅ～……だ、だれか……。<br>たしゅ、けて……,900000001,vc_10040100001_001_01,off
+message,？？？,Uuu... s-someone...<br>H-help...<br> ,900000001,vc_10040100001_001_01,off
 
 window,off
 wait,0.15
@@ -84,9 +84,9 @@ bgmplay,bgmtag1_2,bgm0027,0.75,1
 wait,0.5
 
 window,on,0.15
-message,<user>,……！　今の声は！？<br>まさか倒木の下敷きになってるのか！？
+message,<user>,...! That voice!<br>Don't tell me they're trapped under a fallen tree?<br> 
 
-message,<user>,待ってろ、すぐに助けるっ！<br>確か、声がしたのはあの倒木の裏だな……！
+message,<user>,Hang on，I'll save you right away!<br>I'm sure the voice came from behind that fallen tree...!<br> 
 
 window,off
 wait,0.15
@@ -100,9 +100,9 @@ wait,1
 transitionFade,Tra01,in,black,1
 
 window,on,0.15
-message,２匹のパンダ,くぴゅぅ～！！！,900000003
+message,２匹のパンダ,*Kupyuu!*<br> ,900000003
 
-message,<user>,……は？　パンダの赤ちゃん……？<br>まさか喋るパンダが助けをもとめて……いや、そんなわけ――
+message,<user>,...Huh? Panda cubs?<br>No way a talking panda was calling for help... No，that can't be—<br> 
 
 charamove,chara_1,Set,X,0,0
 charamove,chara_1,Set,CharaHeight,-150,0
@@ -118,12 +118,12 @@ asynccharaemo,chara_1,Sweat,STOP
 asyncshake,CHARA,chara_1,3,0,0.5,2,off,off,0,off,CONT
 
 
-message,？？？,たしゅ……け、て……,100401000G,vc_10040100001_002_01,chara_1
+message,？？？,H-help...<br> ,100401000G,vc_10040100001_002_01,chara_1
 
 asyncshake,CHARA,chara_1,2,0,0.5,3,off,off,0,off,CONT
-message,<user>,なっ！？　パンダの後ろに人が倒れてるっ！？
+message,<user>,What! There's someone lying behind the pandas!<br> 
 
-message,<user>,大丈夫か、おいっ！？　<br>倒木に巻き込まれたのか！？　怪我は！？
+message,<user>,Hey，are you okay?<br>Did you get caught in the fallen trees? Any injuries?<br> 
 
 asyncseplay,setag1_5,se4800006,0,1,CONT
 
@@ -131,11 +131,11 @@ asynccharaemo,chara_1,Trouble,STOP
 
 
 asynccharaface,chara_1,FaceSad,STOP
-message,？？？,……けが、ない……まきこまれても、ない……,100401000G,vc_10040100001_003_01,chara_1
+message,？？？,...Not hurt... Not caught either...<br> ,100401000G,vc_10040100001_003_01,chara_1
 
 asyncshake,CHARA,chara_1,2,0,0.5,2,off,off,0,off,CONT
 
-message,<user>,た、確かに……。普通に倒れてるだけみたいだな。<br>じゃあ体調不良か？　顔色も悪いし……原因はなんだ？
+message,<user>,Y-yeah，you're right... You just seem to have collapsed.<br>So are you sick? You look pale... What's the cause?<br> 
 
 asyncseplay,setag1_6,se4800015,0,1,CONT
 
@@ -143,9 +143,9 @@ asynccharaemo,chara_1,Dull,STOP
 
 
 asyncshake,CHARA,chara_1,3,0,0.5,2,off,off,0,off,CONT
-message,？？？,わから、ない……,100401000G,vc_10040100001_004_01,chara_1
+message,？？？,Don't know...<br> ,100401000G,vc_10040100001_004_01,chara_1
 
-message,<user>,となると、急病かもしれないな。<br>すぐに前線基地へ連れて帰って原因を調べて――
+message,<user>,In that case，it might be a sudden illness.<br>I'll take you back to the base right away and find out the cause—<br> 
 
 bgmstop,bgmtag1_2,0.5,0
 
@@ -155,12 +155,12 @@ asynccharaemo,chara_1,Panic,STOP
 
 
 asynccharaface,chara_1,FaceUnique02,STOP
-message,？？？,どうして……こんなこと、に……。<br>お、おなかへって、キノコ、たべただけなのに……,100401000G,vc_10040100001_005_01,chara_1
+message,？？？,Why... this is happening to me...<br>I was just hungry and ate a mushroom，but...<br> ,100401000G,vc_10040100001_005_01,chara_1
 
 bgmplay,bgmtag1_3,bgm0026,0.75,1
 
 asyncshake,CHARA,chara_1,2,0,0.5,2,off,off,0,off,CONT
-message,<user>,……おい、今なんて言った？
+message,<user>,...Hey，what did you just say?<br> 
 
 
 asynccharaface,chara_1,FaceFun,STOP

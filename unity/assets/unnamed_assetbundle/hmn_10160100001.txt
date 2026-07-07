@@ -34,7 +34,7 @@ bgmplay,bgmtag1_1,bgm0028,0.75,1
 
 
 window,on,0.15
-message,,前線基地に<user>が着任し、<br>基地が本格的に稼働を開始した直後のこと。
+message,,It was just after the Commander arrived at the Frontline Base and<br>the base had begun full-scale operations.<br> 
 
 window,off
 wait,0.15
@@ -78,7 +78,7 @@ asyncshake,CHARA,chara_3,20,15,0.5,6,off,off,0,off,STOP,0.1
 
 
 window,on,0.15
-message,モンスター,ォォォォォオオオオ！,402001000,,chara_2/chara_3
+message,モンスター,OOOOOHHH!<br> ,402001000,,chara_2/chara_3
 
 window,off
 wait,0.15
@@ -126,7 +126,7 @@ asynccharaemo,chara_4,Exclamation,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,か、囲まれてるっ！<br>前にも後ろにもモンスターどもがっ！,400901000,,chara_4
+message,兵士Ａ,W-We're surrounded! Monsters in front and behind!<br> ,400901000,,chara_4
 
 asyncshake,CHARA,chara_5,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -135,7 +135,7 @@ asyncseplay,setag1_3,se4800007,0,1,CONT,0
 asynccharaemo,chara_5,Panic,CONT,0
 
 
-message,兵士Ｂ,そんな……っ！？<br>逃げる場所もないじゃないっ！,401001000,vc_10160100001_001_01,chara_5
+message,兵士Ｂ,No way...! There's nowhere to run!<br> ,401001000,vc_10160100001_001_01,chara_5
 
 window,off
 wait,0.15
@@ -169,9 +169,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,（ああもう！　戦力も、信頼できる部下も、<br>すべてが足りていない！）
+message,<user>,(Ahh，damn! I'm short on everything—manpower，trustworthy<br>subordinates...!)<br> 
 
-message,<user>,（だが何よりも足りないのは情報だ……！<br>この状況でも踏ん張る根性があるのは、どこの部隊だ！？）
+message,<user>,(But what I need most is information! Which unit has the guts to<br>tough it out in this situation?)<br> 
 
 window,off
 wait,0.15
@@ -186,7 +186,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,ええい、もうドカンと状況を打開できるやつがほしい！<br>どっかにいないのか！　やっちまっていいぞ！
+message,<user>,Argh! I want someone who can turn this around with a bang! Isn't<br>there anyone out there? I'm giving you the go-ahead!<br> 
 
 window,off
 wait,0.15
@@ -220,13 +220,13 @@ asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
 
 window,on,0.15
-message,？？？,……了解。,401601000,vc_10160100001_002_01,chara_1
+message,？？？,...Understood.<br> ,401601000,vc_10160100001_002_01,chara_1
 
-message,<user>,っ！？
+message,<user>,What!<br> 
 
-message,,投げやりに言った言葉にまさかの了承があった。
+message,,My flippant remark was unexpectedly acknowledged.<br> 
 
-message,<user>,お前は……！？
+message,<user>,You are...!<br> 
 
 window,off
 wait,0.15
@@ -244,7 +244,7 @@ asynccharamove,chara_1,Linear,Y,15,0.3,CONT,0
 asyncwait
 
 window,on,0.15
-message,,誰もいないはずの背後に控えていた、燃え盛る弓を携えた射手。<br>彼女は流れるような動作で上空へ構えを取り――
+message,,Behind me，where no one should have been，stood an archer carrying a<br>blazing bow. With fluid motions，she took aim at the sky—<br> 
 
 window,off
 wait,0.15
@@ -257,7 +257,7 @@ asyncshake,CHARA,chara_1,10,10,0.1,1,off,off,0,off,CONT,0
 
 
 window,on,0.15
-message,？？？,ふっ！,101601000G,vc_10160100001_003_01,chara_1
+message,？？？,Hah!<br> ,101601000G,vc_10160100001_003_01,chara_1
 
 window,off
 wait,0.15
@@ -286,7 +286,7 @@ transitionCrossFade,Tra07,0.5
 wait,0.5
 
 window,on,0.15
-message,,微かな呼気とともに莫大な力の籠もった矢が放たれる。<br>舞い上がった矢が空へ消えた直後、燃え盛る矢の雨が降り注いだ。
+message,,With a faint breath，an arrow brimming with immense power was<br>released. The moment the soaring arrow vanished into the sky，a rain of blazing arrows poured down.<br> 
 
 window,off
 wait,0.15
@@ -392,7 +392,7 @@ asynccharaemo,chara_4,Exclamation,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,炎の、雨……！？<br>モンスターが焼き尽くされていくっ！,400901000,,chara_4
+message,兵士Ａ,A rain of fire...! The monsters are being burned to cinders!<br> ,400901000,,chara_4
 
 asynccharaface,chara_5,FaceHappy,CONT,0
 
@@ -403,7 +403,7 @@ asyncseplay,setag1_9,se4800013,0,1,CONT,0
 asynccharaemo,chara_5,Spirits,CONT,0
 
 
-message,兵士Ｂ,やった……生きて帰れるのね、私たち……！,401001000,vc_10160100001_004_01,chara_5
+message,兵士Ｂ,We did it... We're going to make it back alive!<br> ,401001000,vc_10160100001_004_01,chara_5
 
 window,off
 wait,0.15
@@ -465,7 +465,7 @@ asyncshake,CHARA,chara_3,20,15,0.5,6,off,off,0,off,STOP,0.1
 
 
 window,on,0.15
-message,モンスター,ォォォォォ……,402001000,,chara_2/chara_3
+message,モンスター,Oooooh...<br> ,402001000,,chara_2/chara_3
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -517,11 +517,11 @@ asyncseplay,se1_1001,se4600008,0,1,CONT,0
 wait,1
 
 window,on,0.15
-message,,モンスターたちは次々と矢の雨に沈み、<br>生を拾った兵士たちが歓声を上げた。
+message,,The monsters sank one after another beneath the rain of arrows，and<br>the soldiers who had been spared raised a cheer.<br> 
 
 sestop,se1_1001,1.5
 
-message,<user>,とんでもないな……本当にドカンと打開するとは。
+message,<user>,Unbelievable... To think someone actually broke through with a bang.<br> 
 
 window,off
 wait,0.15
@@ -556,7 +556,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ウィステリア,……戦況はどうだ、司令官。<br>命令は果たしたつもりだが。,101601000G,vc_10160100001_005_01,chara_1
+message,ウィステリア,...How goes the battle，Commander? I trust I have carried out your<br>orders.<br> ,101601000G,vc_10160100001_005_01,chara_1
 
 message,<user>,Better than I'd hoped. You saved me. I'm %user%，and you?<br> 
 

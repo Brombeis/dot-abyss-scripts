@@ -68,7 +68,7 @@ asynccharaemo,chara_2,Exclamation,CONT,0
 
 
 window,on,0.15
-message,狼,Grrrrr...!<br> ,402001000,,chara_2
+message,狼,Grrrrrrr...!<br> ,402001000,,chara_2
 
 window,off
 wait,0.15
@@ -106,9 +106,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,ホウライの青年,(I can't move my body...! Did I lose too much blood...!<br>At this rate，I'll fall and be eaten by the wolf...)<br> ,900000001
+message,ホウライの青年,(My body will not move... Did I lose too much blood...? At this<br>rate，I will fall from the tree and become the wolf's prey...)<br> ,900000001
 
-message,ホウライの青年,(Am I going to die here...?<br>How frustrating...)<br> ,900000001
+message,ホウライの青年,(Am I going to die in a place like this...? How frustrating...)<br> ,900000001
 
 window,off
 wait,0.15
@@ -123,7 +123,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,ホウライの青年,I'm sorry... Father，Mother...<br> ,900000001
+message,ホウライの青年,Forgive me... Father，Mother...<br> ,900000001
 
 window,off
 wait,0.15
@@ -175,7 +175,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ハツネ,Young lord!<br> ,103101000G,vc_10310100003_001_01,chara_1
+message,ハツネ,Young Lord!<br> ,103101000G,vc_10310100003_001_01,chara_1
 
 window,off
 wait,0.15
@@ -206,9 +206,9 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,ホウライの青年,Wha...!?<br> ,900000001
+message,ホウライの青年,What...!?<br> ,900000001
 
-message,ホウライの青年,Is that... Hatsune...?<br>What are you doing here...!?<br> ,900000001
+message,ホウライの青年,Could it be... Hatsune，is that you...? Why are you here...!?<br> ,900000001
 
 window,off
 wait,0.15
@@ -252,7 +252,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,ハツネ,I shall explain later!<br>Please wait just a moment，my lord!<br> ,103101000G,vc_10310100003_002_01,chara_1
+message,ハツネ,I'll explain later! Please wait a moment!<br> ,103101000G,vc_10310100003_002_01,chara_1
 
 window,off
 wait,0.15
@@ -293,7 +293,7 @@ asynccharaemo,chara_2,Exclamation,CONT,0
 
 
 window,on,0.15
-message,狼,Grrrrr...!<br> ,402001000,,chara_2
+message,狼,Grrrrrrr...!<br> ,402001000,,chara_2
 
 window,off
 wait,0.15
@@ -344,14 +344,14 @@ asynccharaemo,chara_1,Anger,CONT,0
 
 
 window,on,0.15
-message,ハツネ,C'mon，you beast! Bring it on!<br>I'll take you on myself!<br> ,103101000G,vc_10310100003_003_01,chara_1
+message,ハツネ,Now then，you beast! Bring it on! I'll be your opponent!<br> ,103101000G,vc_10310100003_003_01,chara_1
 
-message,ホウライの青年,Hatsune...!<br>Be careful，that beast is dangerous!<br> ,900000001
+message,ホウライの青年,Hatsune...! Be careful，that beast is dangerous!<br> ,900000001
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
 
-message,ハツネ,Understood，my lord!<br> ,103101000G,vc_10310100003_004_01,chara_1
+message,ハツネ,Understood!<br> ,103101000G,vc_10310100003_004_01,chara_1
 
 window,off
 wait,0.15
@@ -400,7 +400,7 @@ asynccharaemo,chara_2,Anger,CONT,0
 
 
 window,on,0.15
-message,狼,Rawr!<br> ,402001000,,chara_2
+message,狼,Grrf!<br> ,402001000,,chara_2
 
 window,off
 wait,0.15
@@ -445,7 +445,7 @@ wait,0.1
 
 
 window,on,0.15
-message,ハツネ,(Fast...!<br>But——!)<br> ,103101000G,vc_10310100003_005_01,chara_1
+message,ハツネ,(Fast...! But—)<br> ,103101000G,vc_10310100003_005_01,chara_1
 
 window,off
 wait,0.15
@@ -518,7 +518,7 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,狼,Rawr!?<br> ,402001000,,chara_2
+message,狼,Grrf!?<br> ,402001000,,chara_2
 
 window,off
 wait,0.15
@@ -583,7 +583,7 @@ asyncseplay,setag1_11,se4800001,0,1,CONT,0
 asynccharaemo,chara_2,Anger,CONT,0
 
 
-message,狼,Grrrrll...!<br> ,402001000,,chara_2
+message,狼,Grrrrrroowl...!<br> ,402001000,,chara_2
 
 window,off
 wait,0.15
@@ -627,7 +627,7 @@ asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,ハツネ,Come on... bring it!<br>I'll make you regret hurtin' the young lord!<br> ,103101000G,vc_10310100003_007_01,chara_1
+message,ハツネ,Come on...! I'll make you regret injuring the Young Lord!<br> ,103101000G,vc_10310100003_007_01,chara_1
 
 window,off
 wait,0.15
@@ -667,7 +667,7 @@ linework,on,Black,Middle
 
 
 window,on,0.15
-message,狼,Rawr!<br> ,402001000,,chara_2
+message,狼,Grrf!<br> ,402001000,,chara_2
 
 window,off
 wait,0.15
@@ -725,7 +725,7 @@ asyncwait
 
 
 window,on,0.15
-message,ハツネ,Whoa——!<br> ,103101000G,vc_10310100003_008_01,chara_1
+message,ハツネ,Whoa!<br> ,103101000G,vc_10310100003_008_01,chara_1
 
 window,off
 wait,0.15

@@ -43,7 +43,7 @@ bgmplay,bgmtag1_1,bgm0027,0.75,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>——Abyss: Transport Unit Escort Mission to Forward Outpost</size>,,,on
+messageTextCenter,,<size=48>— Inside the Abyss: Escort Mission for the Transport Unit to the Forward Camp</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -91,9 +91,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ヴィーラ,So this is inside the Abyss...<br>It's a far more wondrous place than I'd heard.<br> ,100801000G,vc_10080100002_001_01,chara_1
+message,ヴィーラ,So this is the inside of the Abyss... It's far more mysterious than<br>I'd heard.<br> ,100801000G,vc_10080100002_001_01,chara_1
 
-message,<user>,This is your first time in the Abyss，Veera.<br>It's just an escort mission. Stay calm and do your job.<br> 
+message,<user>,Veera，this is your first time in the Abyss，isn't it. Just<br>remember，this is an escort mission. Don't get worked up，stay calm and do your job.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -104,7 +104,7 @@ asyncseplay,setag1_2,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヴィーラ,Yes.<br>I'll show you just how capable Onee-chan's sister is.<br> ,100801000G,vc_10080100002_002_01,chara_1
+message,ヴィーラ,Yes. I'll show you what kind of mage Big Sis's little sister can be.<br> ,100801000G,vc_10080100002_002_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -115,9 +115,9 @@ asyncseplay,setag1_3,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ヴィーラ,I'll perform in a way that won't shame Onee-chan.<br>Please look forward to it，Commander-sama.<br> ,100801000G,vc_10080100002_003_01,chara_1
+message,ヴィーラ,I'll make sure I don't embarrass Big Sis. Please look forward to<br>it，Lord Commander.<br> ,100801000G,vc_10080100002_003_01,chara_1
 
-message,<user>,That's exactly what I mean by overdoing it，but...<br>Well，just don't push yourself.<br> 
+message,<user>,That's what I meant by getting worked up... Well，just don't overdo<br>it.<br> 
 
 window,off
 wait,0.15
@@ -166,7 +166,7 @@ transitionCrossFade,Tra01,1
 wait,1
 
 window,on,0.15
-message,,Watching Veera's eagerness，Verisa<br>quietly sidled up to %user%.<br> 
+message,,Verisa，who had been watching Veera's enthusiastic display，quietly<br>approached %user%.<br> 
 
 window,off
 wait,0.15
@@ -203,7 +203,7 @@ asynccharaemo,chara_2,Spirits,CONT,0
 
 
 window,on,0.15
-message,ベリサ,Heheh，looks like Veera's really fired up.<br> ,100201000G,vc_10080100002_005_01,chara_2
+message,ベリサ,Fufufu，looks like Veera's all fired up.<br> ,100201000G,vc_10080100002_005_01,chara_2
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -214,9 +214,9 @@ asyncseplay,setag1_6,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,ベリサ,But too~ bad!<br>Today，I'm gonna outshine Veera!<br> ,100201000G,vc_10080100002_006_01,chara_2
+message,ベリサ,But too bad! Today，I'm the one who's gonna be the star!<br> ,100201000G,vc_10080100002_006_01,chara_2
 
-message,<user>,That's what you've been thinking about...?<br> 
+message,<user>,You were thinking about that?<br> 
 
 asynccharaface,chara_2,FaceUnique02,CONT,0
 
@@ -227,7 +227,7 @@ asyncseplay,setag1_7,se4800019,0,1,CONT,0
 asynccharaemo,chara_2,Elated,CONT,0
 
 
-message,ベリサ,What，is that so wrong?<br>Wanting to show my sister who's boss is totally natural!<br> ,100201000G,vc_10080100002_007_01,chara_2
+message,ベリサ,Huh? What's wrong with that? Showing my little sister who's boss is<br>just a natural big-sister urge，isn't it?<br> ,100201000G,vc_10080100002_007_01,chara_2
 
 asyncjump,CHARA,chara_2,-30,0.5,2,off,0,CONT
 
@@ -236,9 +236,9 @@ asyncseplay,setag1_8,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,ベリサ,Or maybe you don't want anyone else getting shown up?<br>Could it be you're jealous~♡<br> ,100201000G,vc_10080100002_008_01,chara_2
+message,ベリサ,Or what，big bro，were you bothered by the thought of someone else<br>putting her in her place? Could it be that you're jealous?♡<br> ,100201000G,vc_10080100002_008_01,chara_2
 
-message,<user>,...For the record，Veera was focused on not embarrassing you.<br>Looks like you've already lost on the character front.<br> 
+message,<user>,...By the way，Veera said she didn't want to embarrass you. Looks<br>like you're already losing on the personality front.<br> 
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -249,9 +249,9 @@ asyncseplay,setag1_9,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ベリサ,Ugh... that girl，honestly~!<br>I'm the one who'll be humiliated losing to her in magic...!<br> ,100201000G,vc_10080100002_009_01,chara_2
+message,ベリサ,Ugh... That's so like her! I'm the one who's gonna end up getting<br>crushed by my little sister's magic and looking like a fool!<br> ,100201000G,vc_10080100002_009_01,chara_2
 
-message,<user>,...You didn't seem on bad terms with Veera，<br>but you don't like being outmatched in magic?<br> 
+message,<user>,...You don't seem to have a bad relationship with Veera. Is it just<br>that you can't stand being outdone in magic?<br> 
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -262,7 +262,7 @@ asyncseplay,setag1_10,se4800016,0,1,CONT,0
 asynccharaemo,chara_2,BePeevish,CONT,0
 
 
-message,ベリサ,Of course not!<br>As if I'd ever hate my sister for being talented!<br> ,100201000G,vc_10080100002_010_01,chara_2
+message,ベリサ,Of course not! I'd never say I hate my sister for being talented!<br> ,100201000G,vc_10080100002_010_01,chara_2
 
 asynccharaface,chara_2,FaceShy,CONT,0
 
@@ -273,7 +273,7 @@ asyncseplay,setag1_11,se4800007,0,1,CONT,0
 asynccharaemo,chara_2,Panic,CONT,0
 
 
-message,ベリサ,It's just... in Perdion，she was the one they had hopes for，<br>and she had real talent and results to show for it...<br> ,100201000G,vc_10080100002_011_01,chara_2
+message,ベリサ,It's just，well... In Perdion，she was the one everyone expected more<br>from. She had the talent and the track record，so...<br> ,100201000G,vc_10080100002_011_01,chara_2
 
 window,off
 wait,0.15
@@ -292,9 +292,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ベリサ,I just want to show some big-sister dignity. That's all.<br> ,100201000G,vc_10080100002_012_01,chara_2
+message,ベリサ,I just want to show some big-sister authority for once，that's all.<br> ,100201000G,vc_10080100002_012_01,chara_2
 
-message,<user>,Even without the dignity act，<br>she clearly respects you already.<br> 
+message,<user>,You don't need to worry about authority. She clearly respects you as<br>her big sister.<br> 
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 

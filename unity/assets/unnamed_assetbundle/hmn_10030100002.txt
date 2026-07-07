@@ -32,7 +32,7 @@ bgmplay,bgmtag1_1,bgm0041,0.75,1
 
 messagetextwindow,on,0.15
 
-messageTextCenter,,<size=48>――オークション会場</size>,,,on
+messageTextCenter,,<size=48>—Auction Hall</size>,,,on
 
 messagetextwindow,off,0.15
 wait,0.15
@@ -68,7 +68,7 @@ wait,0.5
 
 
 window,on,0.15
-message,兵士Ａ,き、９万ゴールド……,400901000,,chara_2
+message,兵士Ａ,K-90，000 gold...<br> ,400901000,,chara_2
 
 window,off
 wait,0.15
@@ -110,7 +110,7 @@ wait,0.5
 
 
 window,on,0.15
-message,マリナ,では、１０万ゴールドです♪,100301000G,vc_10030100002_001_01,chara_1
+message,マリナ,Then，100，000 gold!♪<br> ,100301000G,vc_10030100002_001_01,chara_1
 
 window,off
 wait,0.15
@@ -135,7 +135,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,主催者,さあ１０万だ！　１０万、ありませんか！<br>貴重な『魔導爆石』！　他では手に入りませんよ！,900000001
+message,主催者,Come on，100，000! Any more? This precious ""magic explosive stone""!<br>You won't find it anywhere else!<br> ,900000001
 
 window,off
 wait,0.15
@@ -166,7 +166,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,<user>,くっ……予定より落札額が高い。<br>このままだとマズイか……
+message,<user>,Kuh... the winning bid is higher than planned. At this rate，we're in<br>trouble...<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -177,9 +177,9 @@ asyncseplay,setag1_3,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,マリナ,あらあら、困りましたねぇ、旦那さま。,100301000G,vc_10030100002_002_01,chara_1
+message,マリナ,Oh dear，this is troubling，Honey.<br> ,100301000G,vc_10030100002_002_01,chara_1
 
-message,<user>,誰のせいだと思ってるんだ！<br>マリナが値段をつり上げてるんだろうが！
+message,<user>,Whose fault do you think it is? You're the one driving up the<br>prices，aren't you!<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -191,7 +191,7 @@ asyncseplay,setag1_4,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,マリナ,それはお互い様ですよぉ？<br>わたしはただ入札しているだけですもの♪,100301000G,vc_10030100002_003_01,chara_1
+message,マリナ,That's mutual，isn't it? I'm just placing bids!♪<br> ,100301000G,vc_10030100002_003_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -202,9 +202,9 @@ asyncseplay,setag1_5,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,マリナ,……ですが旦那さま。<br>本当にそこまでして落札する必要はあるんですかぁ？,100301000G,vc_10030100002_004_01,chara_1
+message,マリナ,...But，Honey，do you really need to win it that badly?<br> ,100301000G,vc_10030100002_004_01,chara_1
 
-message,<user>,大爆発を起こす危険な道具だぞ。<br>この基地で爆発されても困るし、できれば部隊で使いたいんだよ。
+message,<user>,It's a dangerous tool that can cause a massive explosion. If it goes<br>off at this base，that'd be a problem. I'd like to have the unit use it if possible.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -215,9 +215,9 @@ asyncseplay,setag1_6,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,マリナ,では手に入れるのは旦那さまじゃなく、わたしでもいいんですよねぇ？<br>わたしの手元にあれば安心ですし、必要なら使うこともできますから。,100301000G,vc_10030100002_005_01,chara_1
+message,マリナ,Then it's fine if I win it instead of you，Honey，isn't it? It'll be<br>safe in my hands，and I can use it if necessary.<br> ,100301000G,vc_10030100002_005_01,chara_1
 
-message,<user>,ん……それはそうかもしれないが……
+message,<user>,Hmm... that might be true，but...<br> 
 
 window,off
 wait,0.15
@@ -242,7 +242,7 @@ transitionCrossFade,Tra02,0.5
 wait,0.5
 
 window,on,0.15
-message,主催者,ありませんか！　ありませんね！<br>では１０万で、そちらのお嬢さんが落札！,900000001
+message,主催者,Any more? No? Then for 100，000，the young lady over there wins!<br> ,900000001
 
 window,off
 wait,0.15
@@ -280,9 +280,9 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,マリナ,ありがとうございますぅ～。,100301000G,vc_10030100002_006_01,chara_1
+message,マリナ,Thank you very much.<br> ,100301000G,vc_10030100002_006_01,chara_1
 
-message,<user>,っ！　考えている間に……！<br>まあいいか、確かにマリナが持っているなら安心だしな。
+message,<user>,Tch! While I was hesitating... Ah well，I suppose it's fine. Knowing<br>Marina has it puts my mind at ease.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -293,9 +293,9 @@ asyncseplay,setag1_8,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,マリナ,ふふふ……前線基地ではとっても需要のありそうな品ですねぇ。<br>おいくらで売りに出しましょうか、楽しみですぅ。,100301000G,vc_10030100002_007_01,chara_1
+message,マリナ,Fufufu... This seems like it'll be in high demand at the Frontline<br>Base. I can't wait to decide how much to sell it for.<br> ,100301000G,vc_10030100002_007_01,chara_1
 
-message,<user>,待て待て待て、売る気なのか！？<br>マリナが手元に持っておくんじゃなかったのか！？
+message,<user>,Wait，wait，wait! You're planning to sell it? Didn't you say you'd<br>keep it?<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -306,9 +306,9 @@ asyncseplay,setag1_9,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,マリナ,もちろん手元に持っておきますよぉ？<br>売れるまでの間は、ですけど。,100301000G,vc_10030100002_008_01,chara_1
+message,マリナ,Of course I'll keep it. Until it sells，that is.<br> ,100301000G,vc_10030100002_008_01,chara_1
 
-message,<user>,こいつ……！<br>やりやがったな！
+message,<user>,You...! You played me!<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -319,7 +319,7 @@ asyncseplay,setag1_10,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,マリナ,安心してください。ちゃーんと安全を確保して、<br>基地の外の方へとお売りしますから♪,100301000G,vc_10030100002_009_01,chara_1
+message,マリナ,Don't you worry. I'll keep it safe and sell it outside the base.♪<br> ,100301000G,vc_10030100002_009_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0

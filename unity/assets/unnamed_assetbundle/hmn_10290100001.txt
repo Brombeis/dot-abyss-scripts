@@ -24,7 +24,7 @@ bgmplay,bgmtag1_1,bgm0036,0.75,1
 
 
 window,on,0.15
-message,<user>,うーん、次の作戦はどうしたもんか。<br>いくら考えても頭が回らない！
+message,<user>,Hmm，what to do about the next operation... No matter how much I<br>think，my brain's not working!<br> 
 
 charaitem,chara_2,0,0,1,0
 
@@ -63,9 +63,9 @@ wait,0.5
 
 
 window,on,0.15
-message,アリシア,司令官、お茶とお菓子を用意しましたので、<br>少し休憩にしませんか？,300201000,vc_10290100001_001_01,chara_2
+message,アリシア,Commander! I've prepared some tea and sweets. How about a short<br>break?<br> ,300201000,vc_10290100001_001_01,chara_2
 
-message,<user>,そうするか……。<br>頭が働かないのは脳に糖分が足りないってやつかもしれん。
+message,<user>,Yeah，I'll do that... My brain's probably not working because it<br>needs some sugar.<br> 
 
 window,off
 wait,0.15
@@ -105,9 +105,9 @@ wait,0.5
 
 
 window,on,0.15
-message,アリシア,はい、どうぞ。ミルティーユさんから差し入れにいただいた、<br>特製のフルーツタルトですよ～。,300201000,vc_10290100001_002_01,chara_2
+message,アリシア,Here you go! It's a special fruit tart that Myrtille brought as a<br>treat!<br> ,300201000,vc_10290100001_002_01,chara_2
 
-message,<user>,ほほー、これは美味そうだな。<br>さっそくいただくか。
+message,<user>,Ooh，this looks delicious. Let's dig in.<br> 
 
 window,off
 wait,0.15
@@ -136,9 +136,9 @@ asynccharaemo,chara_2,Shock,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,タルトに口をつけた<user>とアリシアは、<br>驚きに目を見開いた。
+message,,The moment %user% and Alicia bit into the tart，their eyes widened in<br>surprise.<br> 
 
-message,<user>,こりゃ美味い。<br>今まで食べてきたタルトとはレベルが違うぞ。
+message,<user>,This is amazing. It's on a whole different level from any tart I've<br>had before.<br> 
 
 asynccharaface,chara_2,FaceUnique07,CONT,0
 
@@ -149,9 +149,9 @@ asyncseplay,setag1_5,se4800018,0,1,CONT,0
 asynccharaemo,chara_2,Flower,CONT,0
 
 
-message,アリシア,しっとりして、でもサクサクで、<br>フルーツと生地がしっかり調和して最高ですっ！,300201000,vc_10290100001_003_01,chara_2
+message,アリシア,It's moist，yet crispy，and the fruit and pastry harmonize<br>perfectly—it's absolutely incredible!<br> ,300201000,vc_10290100001_003_01,chara_2
 
-message,<user>,ミルティーユはルクスノヴァのパティシエだったよな。<br>あいつらの技術力が高いのは知っているが、お菓子まで美味いとは……
+message,<user>,Myrtille's the pastry chef for Lux Nova，right? I knew they had high<br>technical skill，but I didn't expect their sweets to be this good...<br> 
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -163,7 +163,7 @@ asyncseplay,setag1_6,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,アリシア,ミルティーユさんはお菓子の国出身だそうなので。<br>きっと独自の技術があるんでしょうね。,300201000,vc_10290100001_004_01,chara_2
+message,アリシア,I hear Myrtille comes from the Sweets Kingdom! That's probably why<br>she has such unique skills!<br> ,300201000,vc_10290100001_004_01,chara_2
 
 window,off
 wait,0.15
@@ -173,7 +173,7 @@ charafocusonall
 asyncseplay,setag1_7,se4300001,0,1,CONT,0
 
 window,on,0.15
-message,,――コンコン、と司令室の扉を叩く音が響いた。
+message,,A knock echoed through the command room.<br> 
 
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
@@ -182,7 +182,7 @@ asyncseplay,setag1_8,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,アリシア,あら、お客様ですか？<br>どうぞ、入ってください！,300201000,vc_10290100001_005_01,chara_2
+message,アリシア,Oh，a visitor? Please，come in!<br> ,300201000,vc_10290100001_005_01,chara_2
 
 window,off
 wait,0.15
@@ -239,7 +239,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ミルティーユ,おじゃましま～す。<br>こんにちわぁ、アリシアさん、しれーかんさま。,102901000G,vc_10290100001_006_01,chara_1
+message,ミルティーユ,Excuse me! Hello，Alicia，Commander!<br> ,102901000G,vc_10290100001_006_01,chara_1
 
 window,off
 wait,0.15
@@ -295,9 +295,9 @@ wait,0.5
 
 
 window,on,0.15
-message,アリシア,ミルティーユさん！<br>ちょうど今、いただいたタルトを食べていたところですよ～！,300201000,vc_10290100001_007_01,chara_2
+message,アリシア,Myrtille! We were just eating the tart you brought!<br> ,300201000,vc_10290100001_007_01,chara_2
 
-message,<user>,驚くほど美味いぞ。<br>ありがとな。
+message,<user>,It's surprisingly delicious. Thanks.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -308,7 +308,7 @@ asyncseplay,setag1_12,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ミルティーユ,いえいえ～。<br>喜んでいただけたなら、とっても嬉しいです～！,102901000G,vc_10290100001_008_01,chara_1
+message,ミルティーユ,No，no! Mil is so happy you enjoyed it!<br> ,102901000G,vc_10290100001_008_01,chara_1
 
 asynccharaface,chara_2,FaceSurprise,CONT,0
 
@@ -319,7 +319,7 @@ asyncseplay,setag1_13,se4800009,0,1,CONT,0
 asynccharaemo,chara_2,Question,CONT,0
 
 
-message,アリシア,それで、どうされたんですか？<br>何かご用事で？,300201000,vc_10290100001_009_01,chara_2
+message,アリシア,So，what brings you here? Did you need something?<br> ,300201000,vc_10290100001_009_01,chara_2
 
 window,off
 wait,0.15
@@ -338,9 +338,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ミルティーユ,実はちょっと困りごとで、相談がしたくて～。,102901000G,vc_10290100001_010_01,chara_1
+message,ミルティーユ,Actually，Mil has a little problem and wanted to ask for advice...<br> ,102901000G,vc_10290100001_010_01,chara_1
 
-message,<user>,ほー、相談か。<br>美味いタルトの礼だ、話ならいくらでも聞くぞ。
+message,<user>,Oh，advice? As thanks for that delicious tart，I'll listen all you<br>want.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -351,7 +351,7 @@ asyncseplay,setag1_15,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ミルティーユ,ありがと～、しれーかんさま～！,102901000G,vc_10290100001_011_01,chara_1
+message,ミルティーユ,Mil thanks you，Commander!<br> ,102901000G,vc_10290100001_011_01,chara_1
 
 window,off
 wait,0.15
