@@ -27,7 +27,7 @@ bgmplay,bgmtag1_1,bgm0024,0.75,1
 window,on,0.15
 message,<user>,No Abyss exploration scheduled，no monster sighting reports. For a<br>Frontline Base，this is a peaceful day.<br> 
 
-message,<user>,Ahh... I've been working nonstop lately，so today I'll just laze<br>around and enjoy this peace.<br> 
+message,<user>,Ahh... I've been working nonstop lately，so today I'll just laze around<br>and enjoy this peace.<br> 
 
 bgmstop,bgmtag1_1,0.5,0
 
@@ -73,7 +73,7 @@ message,ヒュメナ,Commander!<br> ,,vc_10210100002_001_01,chara_1
 
 bgmplay,bgmtag1_2,bgm0027,0.75,1
 
-message,<user>,...A short-lived peace. What's wrong，Humena? You seem so panicked...<br> 
+message,<user>,...A short-lived peace. What's wrong，Humena? You seem so<br>panicked...<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -194,7 +194,7 @@ message,ヒュメナ,And so they're all chasing me，demanding ""Hand over the w
 
 message,<user>,Huh! That's ridiculous—! Ah，no，I can't say that for sure.<br> 
 
-message,<user>,It's hard to believe that power came from Humena's slender arms.<br>It's almost more natural to think it's a spirit's blessing.<br> 
+message,<user>,It's hard to believe that power came from Humena's slender arms. It's<br>almost more natural to think it's a spirit's blessing.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -262,7 +262,7 @@ wait,0.5
 window,on,0.15
 message,ヒュメナ,Huh...? A-Are you sure?<br> ,,vc_10210100002_012_01,chara_1
 
-message,<user>,Yeah. Even if I'm a lousy commander，I'm still the Commander. I'm<br>kind of Humena's boss，so I can't just leave her，right?<br> 
+message,<user>,Yeah. Even if I'm a lousy commander，I'm still the Commander. I'm kind<br>of Humena's boss，so I can't just leave her，right?<br> 
 
 window,off
 wait,0.15
@@ -296,7 +296,7 @@ asyncseplay,setag1_16,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,ヒュメナ,Go to the living quarters? But there are people after Upa all over<br>the base，you know?<br> ,,vc_10210100002_014_01,chara_1
+message,ヒュメナ,Go to the living quarters? But there are people after Upa all over the<br>base，you know?<br> ,,vc_10210100002_014_01,chara_1
 
 message,<user>,Don't worry. I'm the Commander of this Frontline Base. Leave<br>everything inside the base to me.<br> 
 
@@ -660,7 +660,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 window,on,0.15
 message,ヒュメナ,Coming in. So this is Commander's room!<br> ,,vc_10210100002_021_01,chara_1
 
-message,<user>,I'll take care of things so you can move around freely. Just relax<br>until then.<br> 
+message,<user>,I'll take care of things so you can move around freely. Just relax until<br>then.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -697,7 +697,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,ヒュメナ,(Come to think of it，this is my first time in a man's room. It has<br>some unfamiliar scent...)<br> ,,vc_10210100002_023_01,chara_1
+message,ヒュメナ,(Come to think of it，this is my first time in a man's room. It has some<br>unfamiliar scent...)<br> ,,vc_10210100002_023_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -740,9 +740,9 @@ asyncseplay,setag1_32,se4800007,0,1,STOP,1
 asynccharaemo,chara_1,Panic,STOP,1
 
 
-message,ヒュメナ,Hyaah! Ah，y-yeah. I'm fine. I guess I just relaxed a bit now that<br>we're somewhere safe. Ahaha.<br> ,,vc_10210100002_025_01,chara_1
+message,ヒュメナ,Hyaah! Ah，y-yeah. I'm fine. I guess I just relaxed a bit now that we're<br>somewhere safe. Ahaha.<br> ,,vc_10210100002_025_01,chara_1
 
-message,<user>,Don't worry about it. There's no chance of soldiers finding us<br>here... even if they do，I'll send them packing.<br> 
+message,<user>,Don't worry about it. There's no chance of soldiers finding us here...<br>even if they do，I'll send them packing.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -842,7 +842,7 @@ asyncseplay,setag1_38,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ヒュメナ,Upa and the others like this size! Their mouths are small，so it's<br>easy for them to eat! I'm sure you'll like them too，Commander!<br> ,,vc_10210100002_030_01,chara_1
+message,ヒュメナ,Upa and the others like this size! Their mouths are small，so it's easy<br>for them to eat! I'm sure you'll like them too，Commander!<br> ,,vc_10210100002_030_01,chara_1
 
 message,<user>,But I'm a human!<br> 
 
@@ -851,7 +851,7 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 
 message,<user>,Since you went out of your way to make them，I'll have one，but—<br> 
 
-message,,I picked up a dumpling and put it in my mouth. The flavor and<br>texture were unique，but the taste was surprisingly good.<br> 
+message,,I picked up a dumpling and put it in my mouth. The flavor and texture<br>were unique，but the taste was surprisingly good.<br> 
 
 message,<user>,Oh，this is pretty good!<br> 
 
@@ -899,7 +899,7 @@ asyncseplay,setag1_41,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ヒュメナ,There are other spirits living in the aquarium besides Upa. Thanks<br>to the church's secret arts，this aquarium is actually a very spacious area.<br> ,,vc_10210100002_036_01,chara_1
+message,ヒュメナ,There are other spirits living in the aquarium besides Upa. Thanks to<br>the church's secret arts，this aquarium is actually a very spacious area.<br> ,,vc_10210100002_036_01,chara_1
 
 message,<user>,Huh，so it's a comfortable place for spirits to live.<br> 
 

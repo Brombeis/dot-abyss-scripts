@@ -61,7 +61,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 message,エルミア,...Will it really go smoothly?<br> ,104601000G,vc_10460100003_002_01,chara_1
 
-message,<user>,You should trust your own skill with a bow. Few are as skilled as<br>you.<br> 
+message,<user>,You should trust your own skill with a bow. Few are as skilled as you.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -72,7 +72,7 @@ asyncseplay,setag1_3,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,エルミア,I-is that so? ...Yeah，I get it. There's no turning back now. I'll<br>trust myself and do this.<br> ,104601000G,vc_10460100003_003_01,chara_1
+message,エルミア,I-is that so? ...Yeah，I get it. There's no turning back now. I'll trust<br>myself and do this.<br> ,104601000G,vc_10460100003_003_01,chara_1
 
 message,<user>,I'll leave the rest to you. I'm going in.<br> 
 
@@ -424,7 +424,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 window,on,0.15
 message,盗賊たち,Oi，look! There's a damned little elf over there!<br> ,900000001
 
-message,,Though fear gripped her as the bandits approached，Elmia mustered her<br>courage and readied her bow.<br> 
+message,,Though fear gripped her as the bandits approached，Elmia mustered<br>her courage and readied her bow.<br> 
 
 crossfadeready
 
@@ -444,7 +444,7 @@ asyncseplay,setag1_18,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,エルミア,(Just a little more. Let them come a little closer... Then they'll<br>be within arrow range...!)<br> ,104601000G,vc_10460100003_012_01,chara_1
+message,エルミア,(Just a little more. Let them come a little closer... Then they'll be<br>within arrow range...!)<br> ,104601000G,vc_10460100003_012_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -562,7 +562,6 @@ fade,In,White,1
 asyncseplay,setag1_25,se4900100,0,1,CONT,0
 
 asyncshake,BACK,,24,0,0.6,7,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_1,24,0,0.6,7,off,off,0,on,CONT,0
 
 wait,0.1
 
@@ -860,7 +859,6 @@ asyncmove,BACK,,0,100,0,Set,CONT
 asyncseplay,se1_1001,se4700052,0,1,CONT,0
 
 asyncshake,BACK,,24,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_1,24,0,0.6,5,off,off,0,on,CONT,0
 
 transitionCrossFade,Tra02,1
 wait,1
@@ -927,7 +925,7 @@ asyncseplay,setag1_41,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,エルミア,Fufu... I have to admit，being praised so freely doesn't feel bad at<br>all.<br> ,104601000G,vc_10460100003_021_01,chara_1
+message,エルミア,Fufu... I have to admit，being praised so freely doesn't feel bad at all.<br> ,104601000G,vc_10460100003_021_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1035,7 +1033,6 @@ wait,0.5
 asyncseplay,setag1_43,SE_DUMMY,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 
 window,on,0.15
 message,<user>,Gwaaaah! Oh，it's broken.<br> 
@@ -1135,7 +1132,7 @@ asyncseplay,setag1_49,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,エルミア,I mean，I became a bodyguard，but I never expected to get caught up in<br>something like this.<br> ,104601000G,vc_10460100003_028_01,chara_1
+message,エルミア,I mean，I became a bodyguard，but I never expected to get caught up<br>in something like this.<br> ,104601000G,vc_10460100003_028_01,chara_1
 
 
 window,off
@@ -1215,7 +1212,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,エルミア,I told you I used to work as a warehouse keeper in Eldorana，didn't<br>I?<br> ,104601000G,vc_10460100003_032_01,chara_1
+message,エルミア,I told you I used to work as a warehouse keeper in Eldorana，didn't I?<br> ,104601000G,vc_10460100003_032_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1226,7 +1223,7 @@ asyncseplay,setag1_54,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,エルミア,It suited me，the pay was good，and I actually liked the work<br>itself... but，um...<br> ,104601000G,vc_10460100003_033_01,chara_1
+message,エルミア,It suited me，the pay was good，and I actually liked the work itself...<br>but，um...<br> ,104601000G,vc_10460100003_033_01,chara_1
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1274,7 +1271,7 @@ asyncseplay,setag1_58,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,エルミア,Stop it! I know that! I know it sounds childish to change jobs at<br>this age!<br> ,104601000G,vc_10460100003_037_01,chara_1
+message,エルミア,Stop it! I know that! I know it sounds childish to change jobs at this<br>age!<br> ,104601000G,vc_10460100003_037_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1359,7 +1356,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 message,エルミア,W-what? I was so excited，and now you say this?<br> ,104601000G,vc_10460100003_044_01,chara_1
 
-message,<user>,Defeating bandits and recovering stolen goods. That's the kind of<br>job even the guard force could do.<br> 
+message,<user>,Defeating bandits and recovering stolen goods. That's the kind of job<br>even the guard force could do.<br> 
 
 message,<user>,But if you fight alongside me at the Frontline Base，a much more<br>exciting life awaits you.<br> 
 
@@ -1407,7 +1404,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 message,エルミア,I'm happy about it，but are you sure...?<br> ,104601000G,vc_10460100003_047_01,chara_1
 
-message,<user>,Yeah. Your archery skills and your appraiser's eye. I think it'd be<br>a waste to let them idle.<br> 
+message,<user>,Yeah. Your archery skills and your appraiser's eye. I think it'd be a<br>waste to let them idle.<br> 
 
 message,<user>,Those talents can be put to use at the Frontline Base. So come with<br>me.<br> 
 

@@ -346,14 +346,11 @@ transitionCrossFade,Tra21,0.5
 wait,0.5
 
 asyncshake,BACK,,24,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_1,24,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_2,24,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_3,24,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_4,24,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_5,24,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_6,24,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_7,24,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_8,24,0,0.6,5,off,off,0,on,CONT,0
+asyncshake,CHARA,chara_3,24,0,0.6,5,off,off,0,on,CONT,0
 
 wait,0.5
 
@@ -1047,7 +1044,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 message,カーラ,But，what specifically should I do?<br> ,103401000G,vc_10340100003_020_01,chara_1
 
-message,<user>,The Frontline Base，next to the Abyss，is on the brink of death. Maybe<br>it's survival instinct，but some guys can't control their sexual urges.<br> 
+message,<user>,The Frontline Base，next to the Abyss，is on the brink of death.<br>Maybe it's survival instinct，but some guys can't control their sexual urges.<br> 
 
 message,<user>,Maybe that's why sexual harassment has become a major problem.<br> 
 
@@ -1413,14 +1410,8 @@ cleanall,EFFECT
 asyncwait
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
-shake,CHARA,chara_6,40,0,0.25,20,off,off,0
 shake,CHARA,chara_7,40,0,0.25,20,off,off,0
-shake,CHARA,chara_8,40,0,0.25,20,off,off,0
+shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 
 window,on,0.15
 message,,*thwack!*<br> 
@@ -1453,13 +1444,6 @@ asyncseplay,setag1_42,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
 shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
-shake,CHARA,chara_6,40,0,0.25,20,off,off,0
-shake,CHARA,chara_7,40,0,0.25,20,off,off,0
-shake,CHARA,chara_8,40,0,0.25,20,off,off,0
 
 wait,0.5
 
@@ -1957,7 +1941,7 @@ asyncseplay,setag1_56,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,カーラ,(I've never instructed perverts before. What am I supposed to<br>do...?)<br> ,103401000G,vc_10340100003_036_01,chara_1
+message,カーラ,(I've never instructed perverts before. What am I supposed to do...?)<br> ,103401000G,vc_10340100003_036_01,chara_1
 
 bgmstop,bgmtag1_5,1.5,0
 
@@ -1997,7 +1981,7 @@ asyncseplay,setag1_59,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,カーラ,(What I've learned so far! My way of life as a soldier! I'll show<br>them!)<br> ,103401000G,vc_10340100003_038_01,chara_1
+message,カーラ,(What I've learned so far! My way of life as a soldier! I'll show them!)<br> ,103401000G,vc_10340100003_038_01,chara_1
 
 
 window,off
@@ -2240,7 +2224,7 @@ linework,on,White,Middle
 
 
 window,on,0.15
-message,カーラ,Don't let garbage scatter its stench! There are only two words<br>you're allowed to say!<br> ,103401000G,vc_10340100003_043_01,chara_1
+message,カーラ,Don't let garbage scatter its stench! There are only two words you're<br>allowed to say!<br> ,103401000G,vc_10340100003_043_01,chara_1
 
 
 message,カーラ,Yes! And! Ma'am! Say it，you trash!<br> ,103401000G,vc_10340100003_044_01,chara_1
@@ -2798,7 +2782,7 @@ asyncseplay,setag1_79,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,カーラ,What's this，Kaiman! Was all that time in mixed baths for nothing?<br>Are you useless even in the water?<br> ,103401000G,vc_10340100003_054_01,chara_1
+message,カーラ,What's this，Kaiman! Was all that time in mixed baths for nothing? Are<br>you useless even in the water?<br> ,103401000G,vc_10340100003_054_01,chara_1
 
 message,混浴耐久ワニ男のカイマン,Th-that's not true! My... my mixed baths weren't for nothing!<br> ,400801000
 
@@ -2811,7 +2795,7 @@ asyncseplay,setag1_80,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,カーラ,Prove it by swimming! Now answer me，you bastards! What do we do to<br>sexual harassers?<br> ,103401000G,vc_10340100003_055_01,chara_1
+message,カーラ,Prove it by swimming! Now answer me，you bastards! What do we do<br>to sexual harassers?<br> ,103401000G,vc_10340100003_055_01,chara_1
 
 message,男たち,Crush them!<br> ,400301000
 
@@ -2851,14 +2835,14 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,カーラ,You've endured well up to now，you trash. This concludes all<br>training.<br> ,103401000G,vc_10340100003_056_01,chara_1
+message,カーラ,You've endured well up to now，you trash. This concludes all training.<br> ,103401000G,vc_10340100003_056_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,カーラ,As of this moment，you graduate from trash! You are proud members of<br>the Frontline Base Sexual Harassment Eradication Martyr Brigade!<br> ,103401000G,vc_10340100003_057_01,chara_1
+message,カーラ,As of this moment，you graduate from trash! You are proud members<br>of the Frontline Base Sexual Harassment Eradication Martyr Brigade!<br> ,103401000G,vc_10340100003_057_01,chara_1
 
 message,男たち,Yes，Ma'am!<br> ,400301000
 

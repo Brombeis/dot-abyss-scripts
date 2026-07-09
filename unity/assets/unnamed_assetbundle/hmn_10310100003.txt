@@ -106,7 +106,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,ホウライの青年,(My body will not move... Did I lose too much blood...? At this<br>rate，I will fall from the tree and become the wolf's prey...)<br> ,900000001
+message,ホウライの青年,(My body will not move... Did I lose too much blood...? At this rate，I<br>will fall from the tree and become the wolf's prey...)<br> ,900000001
 
 message,ホウライの青年,(Am I going to die in a place like this...? How frustrating...)<br> ,900000001
 
@@ -1265,7 +1265,7 @@ bgmplay,bgmtag1_3,bgm0038,0.75,1
 fade,In,White,1
 
 window,on,0.15
-message,<user>,Listen，first draw that wolf's attention. While you do that，I'll set<br>the trap.<br> 
+message,<user>,Listen，first draw that wolf's attention. While you do that，I'll set the<br>trap.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1280,7 +1280,7 @@ message,ハツネ,A trap...?<br> ,103101000G,vc_10310100003_014_01,chara_1
 
 message,<user>,Yeah. The trees around here have branches that are soft and bendy.<br>Plus，there's plenty of vines.<br> 
 
-message,<user>,With branches，vines，and whatever tools we have on hand，we should be<br>able to rig up a simple trap to catch that wolf.<br> 
+message,<user>,With branches，vines，and whatever tools we have on hand，we should<br>be able to rig up a simple trap to catch that wolf.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1295,7 +1295,7 @@ message,ハツネ,You can really do that...?<br> ,103101000G,vc_10310100003_015_
 
 message,<user>,But that wolf is pretty clever. Kotono was caught off guard because<br>it attacked from downwind.<br> 
 
-message,<user>,Probably，if we try to lead it straight into a trap，it'll get<br>suspicious and it won't work.<br> 
+message,<user>,Probably，if we try to lead it straight into a trap，it'll get suspicious<br>and it won't work.<br> 
 
 message,<user>,That's where you come in.<br> 
 
@@ -1494,7 +1494,7 @@ wait,0.5
 asyncseplay,setag1_38,se4400180,0,1,CONT,0
 
 window,on,0.15
-message,,The wolf charging at Hatsune got its legs tangled in the vines and<br>was hoisted into the air—!<br> 
+message,,The wolf charging at Hatsune got its legs tangled in the vines and was<br>hoisted into the air—!<br> 
 
 window,off
 wait,0.15
@@ -1663,7 +1663,6 @@ asyncseplay,setag1_41,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
 shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
 
 wait,0.5
 
@@ -1746,7 +1745,6 @@ asyncseplay,setag1_43,se4400119,0,1,CONT,0
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
 message,<user>,Whoa! Hey，what's with the sudden hug...?<br> 
@@ -1762,7 +1760,7 @@ asyncseplay,setag1_44,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ハツネ,That's amazing，you! You took down the one that even Kotono messed up<br>against!<br> ,103101000G,vc_10310100003_026_01,chara_1
+message,ハツネ,That's amazing，you! You took down the one that even Kotono messed<br>up against!<br> ,103101000G,vc_10310100003_026_01,chara_1
 
 message,<user>,I get it，I get it. Just calm down，all right?<br> 
 
@@ -1895,7 +1893,7 @@ asyncseplay,setag1_51,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ハツネ,O-oh，really? Heh heh，even though you're such a big shot，you helped<br>us. You're a good guy，Commander!<br> ,103101000G,vc_10310100003_032_01,chara_1
+message,ハツネ,O-oh，really? Heh heh，even though you're such a big shot，you<br>helped us. You're a good guy，Commander!<br> ,103101000G,vc_10310100003_032_01,chara_1
 
 message,ホウライの青年,Thanks to you，my life has been saved. How can I ever repay you...<br> ,900000001
 
@@ -2215,7 +2213,7 @@ asynccharaface,chara_1,FaceFun,CONT,0
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,ハツネ,I want to repay my debt，but also，just being here makes me feel like<br>I can get even stronger!<br> ,103101000G,vc_10310100003_048_01,chara_1
+message,ハツネ,I want to repay my debt，but also，just being here makes me feel like I<br>can get even stronger!<br> ,103101000G,vc_10310100003_048_01,chara_1
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 

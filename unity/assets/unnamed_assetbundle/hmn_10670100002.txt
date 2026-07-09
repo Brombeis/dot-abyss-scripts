@@ -36,7 +36,7 @@ bgmplay,bgmtag1_1,bgm0036,0.75,1
 
 
 window,on,0.15
-message,,It was the day after Kururu started living at the Frontline Base.<br>The Commander and the others were heading into the Abyss once more.<br> 
+message,,It was the day after Kururu started living at the Frontline Base. The<br>Commander and the others were heading into the Abyss once more.<br> 
 
 window,off
 wait,0.15
@@ -101,7 +101,7 @@ asyncseplay,setag1_3,se4800022,0,1,CONT,0
 
 asynccharaemo,chara_1,Speak,CONT,0
 
-message,<user>,Our objective this time is a special ore found in this stratum—this<br>is it，Seikarion.<br> 
+message,<user>,Our objective this time is a special ore found in this stratum—this is<br>it，Seikarion.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -131,7 +131,7 @@ message,クルル,Ooh! It gets super hard，even harder than iron?<br> ,10670100
 
 message,<user>,That's right. If we find a large amount，we can develop powerful<br>equipment to fight the Calamity.<br> 
 
-message,<user>,The last Calamity really tore up the Frontline Base's walls，you<br>know. Finding this ore would make repairs a breeze.<br> 
+message,<user>,The last Calamity really tore up the Frontline Base's walls，you know.<br>Finding this ore would make repairs a breeze.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1167,7 +1167,7 @@ asynccharamove,chara_1,Linear,Y,-100,0.2,CONT,0
 asyncwait
 
 window,on,0.15
-message,,Then she twisted her body and hurled the large goblin away in one<br>go.<br> 
+message,,Then she twisted her body and hurled the large goblin away in one go.<br> 
 
 window,off
 wait,0.15
@@ -1221,12 +1221,8 @@ asyncwait
 asyncseplay,setag1_33,se4410008,0,1,CONT,0
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_5,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_6,40,0,0.25,20,off,off,0,off,CONT,0
+asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
 
 asyncshake,CHARA,chara_4,20,15,0.5,6,on,off,0,off,CONT,0
 
@@ -1255,11 +1251,6 @@ asyncseplay,setag1_35,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
 shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
-shake,CHARA,chara_6,40,0,0.25,20,off,off,0
 
 window,on,0.15
 message,<user>,(Despite that size difference，she threw it! Is that the same<br>technique she used to toss a bear?)<br> 
@@ -1454,7 +1445,7 @@ message,クルル,But Master，this puppy...<br> ,106701000G,vc_10670100002_020_
 
 bgmplay,bgmtag1_3,bgm0030,0.75,1
 
-message,,In Kururu's arms was a puppy. A small one that would normally still<br>be with its mother.<br> 
+message,,In Kururu's arms was a puppy. A small one that would normally still be<br>with its mother.<br> 
 
 message,<user>,A dog...? What's it doing out here?<br> 
 
@@ -1467,7 +1458,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 message,クルル,The goblins were attacking it. It must've gotten lost.<br> ,106701000G,vc_10670100002_021_01,chara_1
 
-message,<user>,So that's what they were surrounding... Its leg looks injured.<br>That's why it couldn't escape.<br> 
+message,<user>,So that's what they were surrounding... Its leg looks injured. That's<br>why it couldn't escape.<br> 
 
 message,子犬,*whimper*...<br> ,900000003
 
@@ -1555,7 +1546,7 @@ asyncseplay,setag1_44,se4800006,0,1,CONT,0
 asynccharaemo,chara_2,Trouble,CONT,0
 
 
-message,兵士Ａ,If we bring that injured mutt along，the scent of blood will attract<br>the enemies. We won't get any searching done; let's leave it here.<br> ,401601000,vc_10670100002_025_01,chara_2
+message,兵士Ａ,If we bring that injured mutt along，the scent of blood will attract the<br>enemies. We won't get any searching done; let's leave it here.<br> ,401601000,vc_10670100002_025_01,chara_2
 
 window,off
 wait,0.15
@@ -1601,7 +1592,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,クルル,No! We can't leave it behind! It'll die if we do! It can still live.<br>It can still fight!<br> ,106701000G,vc_10670100002_026_01,chara_1
+message,クルル,No! We can't leave it behind! It'll die if we do! It can still live. It can<br>still fight!<br> ,106701000G,vc_10670100002_026_01,chara_1
 
 window,off
 wait,0.15
@@ -1665,7 +1656,7 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,兵士Ｂ,Kururu... our mission this time is to find the Seikarion vein. We<br>need that ore for when the Calamity comes again.<br> ,401001000,vc_10670100002_027_01,chara_3
+message,兵士Ｂ,Kururu... our mission this time is to find the Seikarion vein. We need<br>that ore for when the Calamity comes again.<br> ,401001000,vc_10670100002_027_01,chara_3
 
 asyncshake,CHARA,chara_3,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1674,7 +1665,7 @@ asyncseplay,setag1_47,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,兵士Ｂ,The Frontline Base is in shambles from the last Calamity's damage.<br>We need to act quickly，or it'll be dangerous. You understand，right?<br> ,401001000,vc_10670100002_028_01,chara_3
+message,兵士Ｂ,The Frontline Base is in shambles from the last Calamity's damage. We<br>need to act quickly，or it'll be dangerous. You understand，right?<br> ,401001000,vc_10670100002_028_01,chara_3
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1875,7 +1866,7 @@ asyncseplay,setag1_56,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,兵士Ａ,Alright，then we need to get back while the puppy's still got<br>strength. Let's move out!<br> ,401601000,vc_10670100002_037_01,chara_2
+message,兵士Ａ,Alright，then we need to get back while the puppy's still got strength.<br>Let's move out!<br> ,401601000,vc_10670100002_037_01,chara_2
 
 asyncjump,CHARA,chara_3,-30,0.25,1,off,0,CONT
 

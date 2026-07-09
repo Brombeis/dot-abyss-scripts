@@ -845,7 +845,7 @@ asynccharaemo,chara_6,Flower,CONT,0
 
 
 window,on,0.15
-message,ホノカ,When you make a weapon，you go hyaaa~~! Then GONK GONK CLANG! And<br>then GWOOO~~~ you shove it in the hot fire and then KABOOM! Got it!?<br> ,106301000G,,chara_6
+message,ホノカ,When you make a weapon，you go hyaaa~~! Then GONK GONK CLANG!<br>And then GWOOO~~~ you shove it in the hot fire and then KABOOM! Got it!?<br> ,106301000G,,chara_6
 
 window,off
 wait,0.15
@@ -2305,12 +2305,6 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_5,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_6,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
 message,<user>,The food budget...! This month's food budget~~~...!<br> 
@@ -2523,12 +2517,6 @@ wait,1.5
 cleanall,EFFECT
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_5,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_6,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
 message,<user>,Ahhh!?<br>The premium meat I splurged on to pair with wine...!?<br> 
@@ -2937,7 +2925,7 @@ asyncseplay,setag1_73,se4800013,0,1,CONT,0
 asynccharaemo,chara_4,Spirits,CONT,0
 
 
-message,ベリサ,Nothing at all~♪ We've got things covered here，so go on and head off<br>to your inspection~?<br> ,100201000G,,chara_4
+message,ベリサ,Nothing at all~♪ We've got things covered here，so go on and head<br>off to your inspection~?<br> ,100201000G,,chara_4
 
 message,<user>,That so? Then I've got prep to do，so I'll get going.<br>I'm leaving the rest to you——<br> 
 
@@ -3100,12 +3088,6 @@ asyncwait
 asyncseplay,setag1_78,SE_DUMMY,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
-shake,CHARA,chara_6,40,0,0.25,20,off,off,0
 
 asynccrossfadeready,STOP
 

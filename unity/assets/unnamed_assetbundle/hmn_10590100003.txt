@@ -260,7 +260,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,スティーラ,W-what are you saying... this is more than 'a decent crowd'...<br>U-um... h-how did you gather this many...?<br> ,105901000G,vc_10590100003_006_01,chara_1
+message,スティーラ,W-what are you saying... this is more than 'a decent crowd'... U-um...<br>h-how did you gather this many...?<br> ,105901000G,vc_10590100003_006_01,chara_1
 
 message,<user>,Hm? No，nothing special. I just asked them to help because our magic<br>stone artisan was in trouble.<br> 
 
@@ -273,7 +273,7 @@ asyncseplay,setag1_10,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,スティーラ,Th-there's no way they'd come just for that... I've never even<br>spoken to a-any of them...<br> ,105901000G,vc_10590100003_007_01,chara_1
+message,スティーラ,Th-there's no way they'd come just for that... I've never even spoken<br>to a-any of them...<br> ,105901000G,vc_10590100003_007_01,chara_1
 
 message,<user>,That's what I hear，though?<br> 
 
@@ -327,7 +327,7 @@ asynccharaemo,chara_6,Laugh,CONT,0
 
 
 window,on,0.15
-message,ソフィア,Hehe... That piece displayed at Command HQ is yours，right? That work<br>that seems to illuminate our future always gives us courage.<br> ,106501000G,vc_10590100003_008_01,chara_6
+message,ソフィア,Hehe... That piece displayed at Command HQ is yours，right? That<br>work that seems to illuminate our future always gives us courage.<br> ,106501000G,vc_10590100003_008_01,chara_6
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -573,7 +573,7 @@ asynccharaemo,chara_2,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ベリサ,Hey，and another thing—could you make a magic stone that boosts magic<br>power?<br> ,100201000G,vc_10590100003_016_01,chara_2
+message,ベリサ,Hey，and another thing—could you make a magic stone that boosts<br>magic power?<br> ,100201000G,vc_10590100003_016_01,chara_2
 
 window,off
 wait,0.15
@@ -662,7 +662,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,How about that，Steela? Your creations have moved this many people's<br>hearts.<br> 
+message,<user>,How about that，Steela? Your creations have moved this many<br>people's hearts.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -673,7 +673,7 @@ asyncseplay,setag1_21,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,スティーラ,I-I can't believe it... I lost Brooch just because I was<br>careless，and yet...<br> ,105901000G,vc_10590100003_018_01,chara_1
+message,スティーラ,I-I can't believe it... I lost Brooch just because I was careless，and<br>yet...<br> ,105901000G,vc_10590100003_018_01,chara_1
 
 window,off
 wait,0.15
@@ -1074,7 +1074,7 @@ asynccharaemo,chara_6,Elated,CONT,0
 
 
 window,on,0.15
-message,ソフィア,I'll take charge of overall command. It's a safe area，but I'll still<br>make sure to keep everyone guarded!<br> ,106501000G,vc_10590100003_030_01,chara_6
+message,ソフィア,I'll take charge of overall command. It's a safe area，but I'll still make<br>sure to keep everyone guarded!<br> ,106501000G,vc_10590100003_030_01,chara_6
 
 asynccharaface,chara_4,FaceFun,CONT,0
 
@@ -1246,7 +1246,7 @@ asyncseplay,setag1_39,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ベリサ,Hmm... well，there's a reaction，but then again there isn't...? It's<br>hard to tell because the owner is right next to me.<br> ,100201000G,vc_10590100003_035_01,chara_2
+message,ベリサ,Hmm... well，there's a reaction，but then again there isn't...? It's hard<br>to tell because the owner is right next to me.<br> ,100201000G,vc_10590100003_035_01,chara_2
 
 asyncjump,CHARA,chara_3,-30,0.25,1,off,0,CONT
 
@@ -1347,9 +1347,9 @@ transitionCrossFade,Tra01,1
 wait,1
 
 window,on,0.15
-message,<user>,I figured as much. We'll have to find the bird's nest after all.<br>Alright! Spread out from here! We'll do a line search!<br> 
+message,<user>,I figured as much. We'll have to find the bird's nest after all. Alright!<br>Spread out from here! We'll do a line search!<br> 
 
-message,<user>,A few of you keep watch at the pond to see if the giant birds come<br>to drink. Watch which direction they fly off in and report back!<br> 
+message,<user>,A few of you keep watch at the pond to see if the giant birds come to<br>drink. Watch which direction they fly off in and report back!<br> 
 
 message,<user>,And those with a keen nose，follow me in the direction I've scoped<br>out. Got it，Kururu，Verisa?<br> 
 
@@ -1529,7 +1529,7 @@ asyncseplay,setag1_46,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,スティーラ,Ah! Ugh... y-you're right，aren't you... I guess I'll never see that<br>little one again...<br> ,105901000G,vc_10590100003_042_01,chara_1
+message,スティーラ,Ah! Ugh... y-you're right，aren't you... I guess I'll never see that little<br>one again...<br> ,105901000G,vc_10590100003_042_01,chara_1
 
 asynccharaface,chara_2,FaceUnique01,CONT,0
 
@@ -1632,7 +1632,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,ベリサ,That's not it! Even if the scent's gone，I was just saying I can<br>detect the magic power for you!<br> ,100201000G,vc_10590100003_045_01,chara_2
+message,ベリサ,That's not it! Even if the scent's gone，I was just saying I can detect<br>the magic power for you!<br> ,100201000G,vc_10590100003_045_01,chara_2
 
 window,off
 wait,0.15
@@ -1749,7 +1749,7 @@ asyncseplay,setag1_52,se4800022,0,1,CONT,0
 asynccharaemo,chara_6,Speak,CONT,0
 
 
-message,ソフィア,We are all searching with all our might for you! Please do not give<br>up hope! Okay?<br> ,106501000G,vc_10590100003_048_01,chara_6
+message,ソフィア,We are all searching with all our might for you! Please do not give up<br>hope! Okay?<br> ,106501000G,vc_10590100003_048_01,chara_6
 
 window,off
 wait,0.15
@@ -1886,9 +1886,9 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,スティーラ,U-um...! If I call out to it，it should definitely answer! S-so...<br>I-I'll search hard too!<br> ,105901000G,vc_10590100003_052_01,chara_1
+message,スティーラ,U-um...! If I call out to it，it should definitely answer! S-so... I-I'll<br>search hard too!<br> ,105901000G,vc_10590100003_052_01,chara_1
 
-message,<user>,That's the spirit. We'll proceed carefully so we don't miss<br>anything.<br> 
+message,<user>,That's the spirit. We'll proceed carefully so we don't miss anything.<br> 
 
 
 window,off
@@ -1986,7 +1986,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,スティーラ,I-it's okay. C-could you let me search just a little longer...? I'll<br>give up when it gets completely dark. S-so...<br> ,105901000G,vc_10590100003_055_01,chara_1
+message,スティーラ,I-it's okay. C-could you let me search just a little longer...? I'll give<br>up when it gets completely dark. S-so...<br> ,105901000G,vc_10590100003_055_01,chara_1
 
 message,<user>,That's true. Even after dark，the scent and magic power won't just<br>disappear. Sorry to ask，but can you all bear with me a little longer?<br> 
 
@@ -2318,7 +2318,7 @@ transitionFade,Tra20,out,white,1
 transitionFade,Tra19,in,white,1
 
 window,on,0.15
-message,,Verisa swung her staff in a slow arc，and a faint light flickered at<br>its tip.<br> 
+message,,Verisa swung her staff in a slow arc，and a faint light flickered at its<br>tip.<br> 
 
 asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
 
@@ -3232,7 +3232,7 @@ asyncseplay,setag1_98,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,スティーラ,M-meeting you，Lord Commander... you spread my magic stone craft to<br>everyone... so many people helped me...<br> ,105901000G,vc_10590100003_087_01,chara_1
+message,スティーラ,M-meeting you，Lord Commander... you spread my magic stone craft<br>to everyone... so many people helped me...<br> ,105901000G,vc_10590100003_087_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -3289,7 +3289,7 @@ asyncseplay,setag1_101,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,スティーラ,Eh... ah... Lord Commander as my friend? Th-that is... um... I might<br>not want to be friends... maybe...<br> ,105901000G,vc_10590100003_090_01,chara_1
+message,スティーラ,Eh... ah... Lord Commander as my friend? Th-that is... um... I might not<br>want to be friends... maybe...<br> ,105901000G,vc_10590100003_090_01,chara_1
 
 message,<user>,Huh! W-wait，you're kidding...? Why am I the only one left out.<br> 
 
@@ -3304,7 +3304,7 @@ asynccharaemo,chara_1,Shy,CONT,0
 
 message,スティーラ,Ah，n-no，that's not it，um...<br> ,105901000G,vc_10590100003_091_01,chara_1
 
-message,ブローチ,STEELA WISHES FOR A RELATIONSHIP BEYOND FRIENDSHIP WITH THE LORD<br>COMMANDER.<br> ,900000003,vc_10590100003_092_01,on
+message,ブローチ,STEELA WISHES FOR A RELATIONSHIP BEYOND FRIENDSHIP WITH THE<br>LORD COMMANDER.<br> ,900000003,vc_10590100003_092_01,on
 
 asynccharaface,chara_1,FaceSad,CONT,0
 

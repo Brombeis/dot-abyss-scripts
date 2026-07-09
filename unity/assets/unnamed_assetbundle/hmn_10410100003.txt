@@ -172,10 +172,9 @@ fade,In,White,0.15
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_5,40,0,0.25,20,off,off,0,off,CONT,0
+asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
 message,,bang!<br> 
@@ -252,9 +251,6 @@ asyncwait
 asyncseplay,setag1_6,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
 shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 
@@ -481,9 +477,7 @@ wait,0.5
 fade,In,White,0.15
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_5,40,0,0.25,20,off,off,0,off,CONT,0
 
@@ -579,11 +573,6 @@ asyncwait
 asyncseplay,setag1_15,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 
 
 bgmstop,bgmtag1_1,1.5,0
@@ -871,7 +860,7 @@ asyncseplay,setag1_26,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,アヤメ,It is my job，so I never get bored. But I do not have a strong<br>interest in killing people either.<br> ,104101000G,vc_10410100003_009_01,chara_1
+message,アヤメ,It is my job，so I never get bored. But I do not have a strong interest<br>in killing people either.<br> ,104101000G,vc_10410100003_009_01,chara_1
 
 message,<user>,I see... You're a rare kind of assassin，Ayame.<br> 
 
@@ -886,7 +875,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 message,アヤメ,My real job is secretary，so being called an assassin makes me a bit<br>flustered.<br> ,104101000G,vc_10410100003_010_01,chara_1
 
-message,<user>,That's not what I meant. I'm saying the assassins I think of are a<br>more twisted breed.<br> 
+message,<user>,That's not what I meant. I'm saying the assassins I think of are a more<br>twisted breed.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -930,7 +919,7 @@ message,アヤメ,Has my constant smile been displeasing to you?<br> ,104101000G
 
 message,<user>,That's not it. I just don't think that's your true smile.<br> 
 
-message,<user>,This is a place where skill at killing is praised，but many struggle<br>with being that kind of person.<br> 
+message,<user>,This is a place where skill at killing is praised，but many struggle with<br>being that kind of person.<br> 
 
 message,<user>,If you're hiding behind a smile，suppressing your disgust at taking a<br>life...<br> 
 
@@ -1017,7 +1006,7 @@ asynccharaface,chara_1,FaceHappy,CONT,0
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,アヤメ,But if you work hard at it，you eventually find a sense of<br>fulfillment.<br> ,104101000G,vc_10410100003_020_01,chara_1
+message,アヤメ,But if you work hard at it，you eventually find a sense of fulfillment.<br> ,104101000G,vc_10410100003_020_01,chara_1
 
 message,<user>,But there must have been times when you killed someone you didn't<br>want to，right?<br> 
 
@@ -1130,7 +1119,7 @@ asyncseplay,setag1_45,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,アヤメ,I too believe that if you force yourself to smile even in times of<br>pain and hardship，someday you'll be truly happy.<br> ,104101000G,vc_10410100003_028_01,chara_1
+message,アヤメ,I too believe that if you force yourself to smile even in times of pain<br>and hardship，someday you'll be truly happy.<br> ,104101000G,vc_10410100003_028_01,chara_1
 
 message,<user>,So that's why you're always smiling. Not to hide your pain，but for a<br>future where you can truly smile.<br> 
 
@@ -1143,7 +1132,7 @@ asyncseplay,setag1_46,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,アヤメ,Yes，I have always tried to keep a smile on my face，and I have worked<br>to bring smiles to everyone else as well.<br> ,104101000G,vc_10410100003_029_01,chara_1
+message,アヤメ,Yes，I have always tried to keep a smile on my face，and I have<br>worked to bring smiles to everyone else as well.<br> ,104101000G,vc_10410100003_029_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1186,7 +1175,7 @@ asyncseplay,setag1_50,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,アヤメ,But looking back now，the smiles born from taking someone's life were<br>somehow twisted.<br> ,104101000G,vc_10410100003_033_01,chara_1
+message,アヤメ,But looking back now，the smiles born from taking someone's life<br>were somehow twisted.<br> ,104101000G,vc_10410100003_033_01,chara_1
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -1195,7 +1184,7 @@ asyncseplay,setag1_51,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,アヤメ,I think I was just hiding my regret with words like 'They deserved<br>to die' or 'It was just punishment.'<br> ,104101000G,vc_10410100003_034_01,chara_1
+message,アヤメ,I think I was just hiding my regret with words like 'They deserved to<br>die' or 'It was just punishment.'<br> ,104101000G,vc_10410100003_034_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1208,7 +1197,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 message,アヤメ,Perhaps because I could only create those false smiles，I could not<br>genuinely smile.<br> ,104101000G,vc_10410100003_035_01,chara_1
 
-message,<user>,I'm not going to deny that some lives are worth more than others. If<br>I didn't believe that，I couldn't be the Commander.<br> 
+message,<user>,I'm not going to deny that some lives are worth more than others. If I<br>didn't believe that，I couldn't be the Commander.<br> 
 
 message,<user>,But the average person can't just cast aside their emotions. No<br>matter how consumed by hatred they are.<br> 
 
@@ -1232,7 +1221,7 @@ asyncseplay,setag1_54,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,アヤメ,But ever since I came here，working under you，Lord Commander，I have<br>been able to smile from the heart.<br> ,104101000G,vc_10410100003_037_01,chara_1
+message,アヤメ,But ever since I came here，working under you，Lord Commander，I<br>have been able to smile from the heart.<br> ,104101000G,vc_10410100003_037_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1526,11 +1515,6 @@ asyncwait
 asyncseplay,setag1_68,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 
 wait,0.5
 

@@ -34,7 +34,7 @@ bgmplay,bgmtag1_1,bgm0028,0.75,1
 
 
 window,on,0.15
-message,,It was just after the Commander arrived at the Frontline Base and<br>the base had begun full-scale operations.<br> 
+message,,It was just after the Commander arrived at the Frontline Base and the<br>base had begun full-scale operations.<br> 
 
 window,off
 wait,0.15
@@ -244,7 +244,7 @@ asynccharamove,chara_1,Linear,Y,15,0.3,CONT,0
 asyncwait
 
 window,on,0.15
-message,,Behind me，where no one should have been，stood an archer carrying a<br>blazing bow. With fluid motions，she took aim at the sky—<br> 
+message,,Behind me，where no one should have been，stood an archer carrying<br>a blazing bow. With fluid motions，she took aim at the sky—<br> 
 
 window,off
 wait,0.15
@@ -333,11 +333,8 @@ linework,on,White,Middle
 asyncseplay,setag1_7,se4900005,0,1,CONT,0
 
 asyncshake,BACK,,24,0,0.6,7,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_1,24,0,0.6,7,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_2,24,0,0.6,7,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_3,24,0,0.6,7,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_4,24,0,0.6,7,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_5,24,0,0.6,7,off,off,0,on,CONT,0
 
 wait,2.5
 
@@ -601,7 +598,7 @@ asyncseplay,setag1_16,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ウィステリア,Even amidst the chaos，you never gave up—you kept seeking a way out.<br>There's nothing wrong with clinging to life.<br> ,101601000G,vc_10160100001_008_01,chara_1
+message,ウィステリア,Even amidst the chaos，you never gave up—you kept seeking a way<br>out. There's nothing wrong with clinging to life.<br> ,101601000G,vc_10160100001_008_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -654,7 +651,7 @@ emodelete,chara_1,0,0
 asyncwait
 
 window,on,0.15
-message,,With that，she walked off，looking as if she were just out for a<br>stroll. But the instant I looked away，she had vanished from sight.<br> 
+message,,With that，she walked off，looking as if she were just out for a stroll.<br>But the instant I looked away，she had vanished from sight.<br> 
 
 message,<user>,She disappeared... no，did I just lose her? She's an interesting one.<br> 
 
@@ -739,7 +736,7 @@ bgmplay,bgmtag1_3,bgm0026,0.75,1
 fade,In,Black,1
 
 window,on,0.15
-message,,Some time after the battle in the mountains，%user% set out to survey<br>the terrain around the base.<br> 
+message,,Some time after the battle in the mountains，%user% set out to<br>survey the terrain around the base.<br> 
 
 message,<user>,Damn，I don't even have a complete grasp of the terrain around the<br>base. How am I supposed to command?<br> 
 
@@ -774,11 +771,6 @@ wait,0.15
 charafocusonall
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 
 window,on,0.15
 message,,A cold voice shot out from behind，and I froze on the spot.<br> 
@@ -787,7 +779,7 @@ message,<user>,Whoa! Wh-who's there?!<br>
 
 message,？？？,I told you to stop. Don't move.<br> ,900000001,vc_10160100001_015_01,
 
-message,<user>,If you tell me not to move... at least let me either put it away or<br>take it out!<br> 
+message,<user>,If you tell me not to move... at least let me either put it away or take<br>it out!<br> 
 
 message,？？？,You're talking nonsense... What do you intend to take out?<br> ,900000001,vc_10160100001_016_01,
 
@@ -911,7 +903,7 @@ message,ウィステリア,You took the trouble to come and see for yourself，C
 
 message,<user>,Small elevation changes not on any map，animal trails we could<br>use，changes in visibility due to vegetation density.<br> 
 
-message,<user>,A small bit of info like that can determine if a soldier lives or<br>dies. As Commander，I should know these things，right?<br> 
+message,<user>,A small bit of info like that can determine if a soldier lives or dies. As<br>Commander，I should know these things，right?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -922,7 +914,7 @@ asyncseplay,setag1_28,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ウィステリア,...You're diligent. My initial judgment that you're not half bad<br>appears to have been right.<br> ,101601000G,vc_10160100001_023_01,chara_1
+message,ウィステリア,...You're diligent. My initial judgment that you're not half bad appears<br>to have been right.<br> ,101601000G,vc_10160100001_023_01,chara_1
 
 message,<user>,Glad to hear it.<br> 
 
@@ -1253,7 +1245,7 @@ asynccharaface,chara_1,FaceSad,CONT,0
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
 
-message,ウィステリア,But... it's been a while since I've talked this much with anyone. I<br>don't intend to let my guard down，but strangely，it doesn't bother me.<br> ,101601000G,vc_10160100001_039_01,chara_1
+message,ウィステリア,But... it's been a while since I've talked this much with anyone. I don't<br>intend to let my guard down，but strangely，it doesn't bother me.<br> ,101601000G,vc_10160100001_039_01,chara_1
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0

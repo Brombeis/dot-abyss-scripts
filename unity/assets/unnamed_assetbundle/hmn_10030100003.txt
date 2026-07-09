@@ -193,7 +193,7 @@ asyncseplay,setag1_4,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,マリナ,Fufu，actually I've already made arrangements to sell it to a guild<br>in Eldorana for 8 million gold.<br> ,100301000G,vc_10030100003_004_01,chara_1
+message,マリナ,Fufu，actually I've already made arrangements to sell it to a guild in<br>Eldorana for 8 million gold.<br> ,100301000G,vc_10030100003_004_01,chara_1
 
 message,<user>,Huh，8 million!<br> 
 
@@ -269,8 +269,6 @@ asyncseplay,setag1_8,SE_DUMMY,0,1,CONT,0
 wait,0.5
 
 asyncshake,BACK,,12,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_1,12,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_2,12,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_3,12,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_4,12,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_5,12,0,0.6,5,off,off,0,on,CONT,0
@@ -291,8 +289,6 @@ wait,0.15
 charafocusonall
 
 asyncshake,BACK,,24,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_1,24,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_2,24,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_3,24,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_4,24,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_5,24,0,0.6,5,off,off,0,on,CONT,0
@@ -554,20 +550,14 @@ asynccharamove,chara_3,Linear,Y,-40,0.2,CONT,0
 asyncwait
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 shake,CHARA,chara_6,40,0,0.25,20,off,off,0
+shake,CHARA,chara_3,40,0,0.25,20,off,off,0
 
 asyncshake,BACK,,24,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_1,24,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_2,24,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_3,24,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_4,24,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_5,24,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_6,24,0,0.6,5,off,off,0,on,CONT,0
+asyncshake,CHARA,chara_3,24,0,0.6,5,off,off,0,on,CONT,0
 
 window,on,0.15
 message,,As the monster shifted its massive frame，the auction hall collapsed<br>rapidly. Participants and onlookers fled in all directions.<br> 
@@ -763,7 +753,7 @@ asyncseplay,setag1_22,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,マリナ,Honey，please give me a little time. This Marina will surely live up<br>to your expectations!♪<br> ,100301000G,vc_10030100003_016_01,chara_1
+message,マリナ,Honey，please give me a little time. This Marina will surely live up to<br>your expectations!♪<br> ,100301000G,vc_10030100003_016_01,chara_1
 
 message,<user>,Alright! I'll round up the fleeing guards!<br> 
 
@@ -883,7 +873,7 @@ asyncseplay,setag1_26,se4800014,0,1,CONT,0
 
 asynccharaemo,chara_6,Silence,CONT,0
 
-message,<user>,As Commander of this base，I'm taking command! Ready your weapons;<br>we'll buy time for the civilians to evacuate!<br> 
+message,<user>,As Commander of this base，I'm taking command! Ready your<br>weapons; we'll buy time for the civilians to evacuate!<br> 
 
 window,off
 wait,0.15
@@ -974,7 +964,7 @@ wait,0.5
 window,on,0.15
 message,マリナ,Well now，Mr. Organizer. We seem to have a problem，don't we?<br> ,100301000G,vc_10030100003_018_01,chara_1
 
-message,主催者,A-ah...? You're that merchant who was buying up everything<br>earlier...<br> ,900000001
+message,主催者,A-ah...? You're that merchant who was buying up everything earlier...<br> ,900000001
 
 window,off
 wait,0.15
@@ -1339,7 +1329,7 @@ asyncseplay,setag1_40,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,マリナ,Now that the contract is settled，I've got no reason to hesitate.<br>From here on，it's a big bonanza—the start of a special sale!♪<br> ,100301000G,vc_10030100003_027_01,chara_1
+message,マリナ,Now that the contract is settled，I've got no reason to hesitate. From<br>here on，it's a big bonanza—the start of a special sale!♪<br> ,100301000G,vc_10030100003_027_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1723,12 +1713,7 @@ transitionCrossFade,Tra02,0.5
 wait,0.5
 
 asyncshake,BACK,,12,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_1,12,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_2,12,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_3,12,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_4,12,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_5,12,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_6,12,0,0.6,5,off,off,0,on,CONT,0
 
 asyncshake,CHARA,chara_3,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1822,12 +1807,6 @@ wait,0.5
 asyncseplay,setag1_58,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
-shake,CHARA,chara_6,40,0,0.25,20,off,off,0
 
 window,on,0.15
 message,,Unable to withstand the overwhelming destructive power，the monster<br>let out a final roar and collapsed.<br> 
@@ -1861,7 +1840,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,You actually managed to beat it with just the items on display<br>here...<br> 
+message,<user>,You actually managed to beat it with just the items on display here...<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -2016,7 +1995,7 @@ asyncseplay,setag1_68,se4800005,0,1,CONT,0
 asynccharaemo,chara_1,Flash,CONT,0
 
 
-message,マリナ,The catalog listed it only as 'Old Book，' an item with no details.<br>But given its history as a banned publication，its contents are obvious.<br> ,100301000G,vc_10030100003_044_01,chara_1
+message,マリナ,The catalog listed it only as 'Old Book，' an item with no details. But<br>given its history as a banned publication，its contents are obvious.<br> ,100301000G,vc_10030100003_044_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -2052,11 +2031,6 @@ charafocusonall
 
 shake,BACK,,40,0,0.25,20,off,off,0
 shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
-shake,CHARA,chara_6,40,0,0.25,20,off,off,0
 
 window,on,0.15
 message,<user>,Th-that's...!<br> 

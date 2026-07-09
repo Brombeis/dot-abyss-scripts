@@ -809,7 +809,7 @@ asynccharaemo,chara_4,Panic,CONT,0
 window,on,0.15
 message,マリナ,Waaaahhh~~~...Thank you all so much~~~~!<br>Truly，truly，thank you so very much~~~~~~...!<br> ,100301000G,mcv_1001020801_016_01,chara_4
 
-message,<user>,Once Marina recovers we resume moving. The avalanche actually swept<br>us much closer to the Calamity’s position.<br> 
+message,<user>,Once Marina recovers we resume moving. The avalanche actually<br>swept us much closer to the Calamity’s position.<br> 
 
 window,off
 wait,0.15
@@ -1068,7 +1068,7 @@ asynccharaemo,chara_2,Exclamation,CONT,0
 wait,0.5
 
 window,on,0.15
-message,<user>,That voice from before... so it wasn't just my imagination after<br>all. Can you tell which direction? We need to let Lux Nova know too...<br> 
+message,<user>,That voice from before... so it wasn't just my imagination after all.<br>Can you tell which direction? We need to let Lux Nova know too...<br> 
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -1230,10 +1230,6 @@ waitorclick,2.5
 asyncseplayIngame,setag1_36,ene_2022201,ba_summon_2022201_01,0,1,STOP
 
 asyncshake,BACK,,50,0,1,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,50,0,1,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,50,0,1,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_3,50,0,1,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_4,50,0,1,20,off,off,0,off,CONT,0
 window,on,0.15
 message,？？？,ROOOOOOOAAAAAARRR!!<br> ,900000002
 
@@ -1245,7 +1241,7 @@ message,クルル,Oh no oh no oh no...<br> ,106701000G,mcv_1001020801_001_99,on
 
 message,ソフィア,This is completely different from what we were told!<br>It's way bigger than the Calamity of the Sandstorm we fought before!<br> ,106501000G,mcv_1001020801_002_99,on
 
-message,<user>,Damn... it must have grown to this scale by the time we made it<br>here.<br> 
+message,<user>,Damn... it must have grown to this scale by the time we made it here.<br> 
 
 message,ベリサ,No no no... this is way too big no matter how you look at it!?<br> ,100201000G,mcv_1001020801_003_99,on
 
@@ -1272,10 +1268,6 @@ stillchange,still_0,2
 asyncseplayIngame,setag1_37,ene_2022201,ba_summon_2022201_01,0,1,STOP
 
 asyncshake,BACK,,50,0,1,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,50,0,1,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,50,0,1,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_3,50,0,1,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_4,50,0,1,20,off,off,0,off,CONT,0
 message,,ROOOOOOOAAAAAARRR!!<br> ,900000002
 
 message,,A roar at close range.<br>Another surge of terror as the party braced to fight.<br> 

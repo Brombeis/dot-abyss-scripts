@@ -69,7 +69,7 @@ asyncseplay,setag1_1,se4800022,0,1,CONT,0
 asynccharaemo,chara_2,Speak,CONT,0
 
 
-message,アリシア,Yes. Her fever is still high，but her breathing has calmed down a<br>bit. If she gets proper nutrition and rests well，she'll get better soon.<br> ,300201000,vc_10600100003_002_01,chara_2
+message,アリシア,Yes. Her fever is still high，but her breathing has calmed down a bit.<br>If she gets proper nutrition and rests well，she'll get better soon.<br> ,300201000,vc_10600100003_002_01,chara_2
 
 message,<user>,...I see.<br> 
 
@@ -467,7 +467,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 message,テルー,Uuh，but... I'm a little better now，so...<br> ,106001000G,vc_10600100003_012_01,chara_1
 
-message,<user>,*sigh*... Is there something you have to do that's so important? If<br>I can help，I will. Tell me.<br> 
+message,<user>,*sigh*... Is there something you have to do that's so important? If I<br>can help，I will. Tell me.<br> 
 
 message,<user>,Telu always works hard. At least when you're struggling，it's okay to<br>lean on others，right?<br> 
 
@@ -505,7 +505,7 @@ asyncseplay,setag1_14,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,テルー,So I was thinking of getting ready for that. I want to live up to<br>the expectations of everyone who worked hard...<br> ,106001000G,vc_10600100003_015_01,chara_1
+message,テルー,So I was thinking of getting ready for that. I want to live up to the<br>expectations of everyone who worked hard...<br> ,106001000G,vc_10600100003_015_01,chara_1
 
 message,<user>,...I see. That's just like you，kind Telu.<br> 
 
@@ -740,7 +740,7 @@ asynccharaemo,chara_3,Question,CONT,0
 
 message,兵士Ａ,Huh? C-Commander?<br> ,400901000,,chara_3
 
-message,<user>,Let me confirm something: you guys would do anything for Telu，right?<br> 
+message,<user>,Let me confirm something: you guys would do anything for<br>Telu，right?<br> 
 
 asynccharaface,chara_4,FaceAnger,CONT,0
 
@@ -822,7 +822,7 @@ wait,0.5
 
 
 window,on,0.15
-message,テルー,Mmm... I fell asleep...? It's already noon... Time for everyone to<br>come back，huh...<br> ,106001000G,vc_10600100003_022_01,chara_1
+message,テルー,Mmm... I fell asleep...? It's already noon... Time for everyone to come<br>back，huh...<br> ,106001000G,vc_10600100003_022_01,chara_1
 
 window,off
 wait,0.15
@@ -883,7 +883,7 @@ wait,0.5
 
 
 window,on,0.15
-message,テルー,The Commander said he'd handle it... but I can't just leave it，can<br>I...<br> ,106001000G,vc_10600100003_024_01,chara_1
+message,テルー,The Commander said he'd handle it... but I can't just leave it，can I...<br> ,106001000G,vc_10600100003_024_01,chara_1
 
 window,off
 wait,0.15
@@ -967,7 +967,7 @@ asynccharaemo,chara_1,Shock,STOP,3
 
 
 window,on,0.15
-message,テルー,*puff，puff*... Ah，everyone's already gathered... They really did<br>wait for me...!<br> ,106001000G,vc_10600100003_025_01,chara_1
+message,テルー,*puff，puff*... Ah，everyone's already gathered... They really did wait<br>for me...!<br> ,106001000G,vc_10600100003_025_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1004,10 +1004,6 @@ wait,0.5
 linework,on,White,Middle
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 
 window,on,0.15
 message,観客,Hahahahahaha! What the hell are you guys doing?<br> ,900000001
@@ -1170,9 +1166,9 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,<user>,Don't be embarrassed! It's for Telu! Put your back into it and<br>dance!<br> 
+message,<user>,Don't be embarrassed! It's for Telu! Put your back into it and dance!<br> 
 
-message,兵士Ａ,We get it! We're repaying Telu for always putting smiles on our<br>faces!<br> ,400901000
+message,兵士Ａ,We get it! We're repaying Telu for always putting smiles on our faces!<br> ,400901000
 
 message,<user>,That's the spirit! And hey，if you really dance like you mean it，it<br>feels freeing and surprisingly good!<br> 
 
@@ -1560,25 +1556,16 @@ asyncseplay,setag1_53,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
 shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 
 asyncseplay,setag1_54,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
 shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 
 asyncseplay,setag1_55,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
 shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 
 window,on,0.15
 message,,Overwhelmed by happiness，the soldiers collapsed one after another.<br>Their faces were flushed with joy.<br> 
@@ -1657,7 +1644,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 message,テルー,Fufu... Boss，you really are kind.<br> ,106001000G,vc_10600100003_036_01,chara_1
 
-message,<user>,That's not true. But if you collapsed again，that'd be a problem.<br>Don't push yourself too hard.<br> 
+message,<user>,That's not true. But if you collapsed again，that'd be a problem. Don't<br>push yourself too hard.<br> 
 
 message,<user>,Telu keeps everyone smiling. Sometimes it's okay to let someone else<br>make you smile too，right?<br> 
 
@@ -1723,7 +1710,7 @@ asyncseplay,setag1_61,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,テルー,Oh，right! I thought of lots of new tricks while I was resting! I'll<br>show you as thanks!<br> ,106001000G,vc_10600100003_039_01,chara_1
+message,テルー,Oh，right! I thought of lots of new tricks while I was resting! I'll show<br>you as thanks!<br> ,106001000G,vc_10600100003_039_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1858,10 +1845,6 @@ wait,0.5
 asyncseplay,setag1_64,se5010033,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 
 crossfadeready
 

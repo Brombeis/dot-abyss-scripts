@@ -87,7 +87,7 @@ asynccharamove,chara_1,Linear,Y,0,0.4,CONT,0
 asyncwait
 
 window,on,0.15
-message,,Nina，who had been cleaning the window，backstepped away from it and<br>swiftly assumed a combat stance.<br> 
+message,,Nina，who had been cleaning the window，backstepped away from it<br>and swiftly assumed a combat stance.<br> 
 
 message,<user>,Tch... pfft... pfft! Hah! Ahahaha!<br> 
 
@@ -199,7 +199,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ニナ,Ah... th-this... it's just a wooden stick...? It's been carved to<br>look like a caterpillar... Who would do such a thing，Master?<br> ,106101000G,vc_10610100011_005_01,chara_1
+message,ニナ,Ah... th-this... it's just a wooden stick...? It's been carved to look like<br>a caterpillar... Who would do such a thing，Master?<br> ,106101000G,vc_10610100011_005_01,chara_1
 
 message,<user>,My bad，my bad. I just wanted to see your cute reaction. I made it<br>yesterday and put it there.<br> 
 
@@ -267,7 +267,7 @@ charafocusonall
 asyncseplay,setag1_7,se4400232,0,1,CONT,0
 
 window,on,0.15
-message,,I took a sip of the herbal tea Nina had prepared for me. A<br>refreshing aroma spread，and my mind calmed...<br> 
+message,,I took a sip of the herbal tea Nina had prepared for me. A refreshing<br>aroma spread，and my mind calmed...<br> 
 
 window,off
 wait,0.15
@@ -281,7 +281,6 @@ transitionFade,Tra20,out,white,0.5
 transitionFade,Tra19,in,white,0.5
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
 message,<user>,Mmm...!<br> 

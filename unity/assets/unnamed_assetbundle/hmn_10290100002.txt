@@ -136,7 +136,7 @@ asynccharaemo,chara_1,Flash,STOP,8.2
 
 
 window,on,0.15
-message,ミルティーユ,This tart is too simple，but this one feels all jumbled... Ugh，maybe<br>I should just layer them into one!<br> ,102901000G,vc_10290100002_002_01,chara_1
+message,ミルティーユ,This tart is too simple，but this one feels all jumbled... Ugh，maybe I<br>should just layer them into one!<br> ,102901000G,vc_10290100002_002_01,chara_1
 
 window,off
 wait,0.15
@@ -235,7 +235,7 @@ message,<user>,I don't know what the Sweets Kingdom is like，but I can see you 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
-message,<user>,But there's nothing to worry about. A tart made with love by<br>Myrtille won't lose that easily.<br> 
+message,<user>,But there's nothing to worry about. A tart made with love by Myrtille<br>won't lose that easily.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -246,7 +246,7 @@ asyncseplay,setag1_8,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ミルティーユ,But，but! No matter how many I make，I just can't feel like ""This is<br>the one!""<br> ,102901000G,vc_10290100002_008_01,chara_1
+message,ミルティーユ,But，but! No matter how many I make，I just can't feel like ""This is the<br>one!""<br> ,102901000G,vc_10290100002_008_01,chara_1
 
 asyncjump,CHARA,chara_1,40,0.5,2,off,0,CONT
 
@@ -322,7 +322,6 @@ charafocusonall
 bgmstop,bgmtag1_1,1,0
 
 asyncshake,BACK,,20,0,0.25,30,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,20,0,0.25,30,off,off,0,off,CONT,0
 
 window,on,0.15
 message,<user>,Wait，you... a bear!<br> 
@@ -333,7 +332,7 @@ asyncseplay,setag1_13,se5010015,0,1,CONT,0
 
 message,子熊,Gauu.<br> ,900000003
 
-message,,The bear cub，who had slipped into the kitchen unnoticed，raised a paw<br>as if to say 'Good evening!'<br> 
+message,,The bear cub，who had slipped into the kitchen unnoticed，raised a<br>paw as if to say 'Good evening!'<br> 
 
 window,off
 wait,0.15
@@ -394,7 +393,7 @@ asyncseplay,setag1_16,se4800006,0,1,CONT,0
 
 message,子熊,Gauu...<br> ,900000003
 
-message,,The bear cub furrowed its brow as if to say 'That's scary...' It was<br>a strangely human-like gesture.<br> 
+message,,The bear cub furrowed its brow as if to say 'That's scary...' It was a<br>strangely human-like gesture.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -595,7 +594,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 
 window,on,0.15
-message,ミルティーユ,Mil thought his paws would get messy，so Mil gave them to him，and he<br>used them right away.<br> ,102901000G,vc_10290100002_017_01,chara_1
+message,ミルティーユ,Mil thought his paws would get messy，so Mil gave them to him，and<br>he used them right away.<br> ,102901000G,vc_10290100002_017_01,chara_1
 
 message,<user>,What a talented bear...<br> 
 
@@ -648,7 +647,7 @@ asyncseplay,setag1_23,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ミルティーユ,Hmm... but it doesn't seem like a great review... Maybe the<br>ingredient balance was a little off.<br> ,102901000G,vc_10290100002_018_01,chara_1
+message,ミルティーユ,Hmm... but it doesn't seem like a great review... Maybe the ingredient<br>balance was a little off.<br> ,102901000G,vc_10290100002_018_01,chara_1
 
 message,子熊,Gau... gau，gau gau?<br> ,900000003
 
@@ -862,13 +861,13 @@ asyncseplay,setag1_30,se4900070,0,1,CONT,0
 window,on,0.15
 message,子熊,Gau，gau，gau，gau? Gauu，gau，gau，gau，gau!<br> ,900000003
 
-message,<user>,I have no idea what he's so worked up about，but... I think he's<br>saying you should have confidence.<br> 
+message,<user>,I have no idea what he's so worked up about，but... I think he's saying<br>you should have confidence.<br> 
 
 asyncseplay,setag1_31,se4800003,0,1,CONT,0
 
 message,子熊,Gau!<br> ,900000003
 
-message,<user>,Simple tarts let Myrtille's skills shine，don't they? I think it's a<br>good choice too.<br> 
+message,<user>,Simple tarts let Myrtille's skills shine，don't they? I think it's a good<br>choice too.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -888,7 +887,7 @@ asyncseplay,setag1_33,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ミルティーユ,But... Mil is a patissier from Sweets Kingdom! Mil's got to be able<br>to win with this，right!<br> ,102901000G,vc_10290100002_025_01,chara_1
+message,ミルティーユ,But... Mil is a patissier from Sweets Kingdom! Mil's got to be able to<br>win with this，right!<br> ,102901000G,vc_10290100002_025_01,chara_1
 
 message,子熊,Gau，gau! Gauu，gau，gau!<br> ,900000003
 
@@ -932,7 +931,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,ミルティーユ,Yeah! Mil will keep improving the quality of this tart，and then Mil<br>will win the contest!<br> ,102901000G,vc_10290100002_026_01,chara_1
+message,ミルティーユ,Yeah! Mil will keep improving the quality of this tart，and then Mil will<br>win the contest!<br> ,102901000G,vc_10290100002_026_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 

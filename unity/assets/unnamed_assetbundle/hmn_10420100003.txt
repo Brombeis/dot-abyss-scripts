@@ -168,7 +168,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 window,on,0.15
 message,ヘイリー,Th-the unit that blocked the surprise attack is the one I'm assigned<br>to，right! We'll join up right away...!<br> ,104201000G,vc_10420100003_002_01,chara_1
 
-message,<user>,Hayley，the more time you buy us，the better our chances! I'm counting<br>on you!<br> 
+message,<user>,Hayley，the more time you buy us，the better our chances! I'm<br>counting on you!<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -246,9 +246,6 @@ wait,0.5
 asyncseplay,setag1_9,se4900066,0,1,CONT,0
 
 asyncshake,BACK,,24,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_1,24,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_2,24,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_3,24,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_4,24,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_5,24,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_6,24,0,0.6,5,off,off,0,on,CONT,0
@@ -581,7 +578,7 @@ asynccharaemo,chara_6,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,一般兵Ｃ,O-oh...? You're still using that kind of speech in the middle of<br>battle? Well，as long as we win，it's fine! Go for it!<br> ,401201000,,chara_6
+message,一般兵Ｃ,O-oh...? You're still using that kind of speech in the middle of battle?<br>Well，as long as we win，it's fine! Go for it!<br> ,401201000,,chara_6
 
 asynccharaface,chara_7,FaceAnger,CONT,0
 
@@ -761,16 +758,10 @@ fade,In,White,0.15
 asyncseplay,setag1_22,se4900046,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
-shake,CHARA,chara_6,40,0,0.25,20,off,off,0
-shake,CHARA,chara_7,40,0,0.25,20,off,off,0
 shake,CHARA,chara_8,40,0,0.25,20,off,off,0
 shake,CHARA,chara_9,40,0,0.25,20,off,off,0
 shake,CHARA,chara_10,40,0,0.25,20,off,off,0
+shake,CHARA,chara_3,40,0,0.25,20,off,off,0
 
 asyncwait
 
@@ -1158,15 +1149,6 @@ asyncwait
 asyncseplay,setag1_33,se4400063,0,1,CONT,0
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_5,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_6,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_7,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_8,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_9,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_10,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
@@ -1427,7 +1409,7 @@ message,<user>,That's not true. It might be a delusion，but it has meaning.<br>
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
-message,<user>,You know what self-suggestion is? By acting the hero you admired，you<br>spurred yourself on，telling yourself 'I'm tough.'<br> 
+message,<user>,You know what self-suggestion is? By acting the hero you<br>admired，you spurred yourself on，telling yourself 'I'm tough.'<br> 
 
 message,<user>,A hero with the power of Darkness but a heart of light. By fully<br>embodying that ideal figure from novels and heroic tales，you gained power!<br> 
 
@@ -1458,7 +1440,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 window,on,0.15
 message,ヘイリー,...Is，is that really possible?<br> ,104201000G,vc_10420100003_022_01,chara_1
 
-message,<user>,If you doubt it，just try it. The sight of you shouting 'Be consumed<br>by Darkness!' is sure to revive the unit—all of us.<br> 
+message,<user>,If you doubt it，just try it. The sight of you shouting 'Be consumed by<br>Darkness!' is sure to revive the unit—all of us.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1540,7 +1522,7 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,After taking a deep breath，Hayley's demeanor changed. Her eyes，once<br>hesitant，grew sharp as she glared at the monster horde.<br> 
+message,,After taking a deep breath，Hayley's demeanor changed. Her<br>eyes，once hesitant，grew sharp as she glared at the monster horde.<br> 
 
 message,,Then，a wicked smile spread across Hayley's face.<br> 
 
@@ -1573,7 +1555,7 @@ asyncseplay,setag1_51,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ヘイリー,My codename is Hayley! Though I am the Held de Sieger，I also command<br>the power of Darkness!<br> ,104201000G,vc_10420100003_028_01,chara_1
+message,ヘイリー,My codename is Hayley! Though I am the Held de Sieger，I also<br>command the power of Darkness!<br> ,104201000G,vc_10420100003_028_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1630,7 +1612,7 @@ asyncmove,BACK,,0,0,0,Set,CONT
 transitionFade,Tra17,in,white,0
 
 window,on,0.15
-message,,Hayley kicked off the ground with all her might，leaping almost to<br>the ceiling. Descending，she aimed her massive sword at the monster.<br> 
+message,,Hayley kicked off the ground with all her might，leaping almost to the<br>ceiling. Descending，she aimed her massive sword at the monster.<br> 
 
 window,off
 wait,0.15
@@ -2064,7 +2046,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,Hit by that surprise attack，I thought we'd be in trouble，but no<br>one's seriously hurt. Like yesterday，the expedition's a success.<br> 
+message,<user>,Hit by that surprise attack，I thought we'd be in trouble，but no one's<br>seriously hurt. Like yesterday，the expedition's a success.<br> 
 
 window,off
 wait,0.15
@@ -2141,7 +2123,7 @@ asyncseplay,setag1_69,se4800004,0,1,CONT,0
 asynccharaemo,chara_4,Laugh,CONT,0
 
 
-message,一般兵Ａ,Hahaha. But still，that was incredible strength... I guess the<br>Darkness has something to do with it?<br> ,400901000,,chara_4
+message,一般兵Ａ,Hahaha. But still，that was incredible strength... I guess the Darkness<br>has something to do with it?<br> ,400901000,,chara_4
 
 window,off
 wait,0.15
@@ -2192,7 +2174,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,ヘイリー,Indeed. According to my Commander's analysis，the source of power is<br>rooted in Darkness—or，as it is spoken，Chaos.<br> ,104201000G,vc_10420100003_035_01,chara_1
+message,ヘイリー,Indeed. According to my Commander's analysis，the source of power<br>is rooted in Darkness—or，as it is spoken，Chaos.<br> ,104201000G,vc_10420100003_035_01,chara_1
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -2209,7 +2191,7 @@ asyncseplay,setag1_72,se4800010,0,1,STOP,4.5
 asynccharaemo,chara_1,Exclamation,STOP,4.5
 
 
-message,ヘイリー,But if we probe too deeply—tch，my eyes are aching again. Any further<br>would be dangerous...!<br> ,104201000G,vc_10420100003_036_01,chara_1
+message,ヘイリー,But if we probe too deeply—tch，my eyes are aching again. Any<br>further would be dangerous...!<br> ,104201000G,vc_10420100003_036_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -2220,9 +2202,9 @@ asyncseplay,setag1_73,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ヘイリー,But believing that the self who resists this madness is strong—that<br>is the only way to guide warriors to Valhalla!<br> ,104201000G,vc_10420100003_037_01,chara_1
+message,ヘイリー,But believing that the self who resists this madness is strong—that is<br>the only way to guide warriors to Valhalla!<br> ,104201000G,vc_10420100003_037_01,chara_1
 
-message,<user>,Basically，she's saying you have to go to the battlefield believing<br>'I'm strong，I'm special!'<br> 
+message,<user>,Basically，she's saying you have to go to the battlefield believing 'I'm<br>strong，I'm special!'<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -2233,7 +2215,7 @@ asyncseplay,setag1_74,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ヘイリー,Hmph，as expected of my Commander. Translation magic's so omnipotent<br>it works despite Fixer's future-tech freeze—guidance indeed.<br> ,104201000G,vc_10420100003_038_01,chara_1
+message,ヘイリー,Hmph，as expected of my Commander. Translation magic's so<br>omnipotent it works despite Fixer's future-tech freeze—guidance indeed.<br> ,104201000G,vc_10420100003_038_01,chara_1
 
 window,off
 wait,0.15
@@ -2296,7 +2278,7 @@ asynccharaemo,chara_4,Laugh,CONT,0
 
 
 window,on,0.15
-message,一般兵Ａ,So Hayley's seemingly meaningless speech had meaning after all...<br>you were so lively back then.<br> ,400901000,,chara_4
+message,一般兵Ａ,So Hayley's seemingly meaningless speech had meaning after all... you<br>were so lively back then.<br> ,400901000,,chara_4
 
 window,off
 wait,0.15
@@ -2346,7 +2328,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,ヘイリー,Even common soldiers grasp my forbidden technique's true meaning? Is<br>the world's seal weakening? The Gate is opening...?<br> ,104201000G,vc_10420100003_039_01,chara_1
+message,ヘイリー,Even common soldiers grasp my forbidden technique's true meaning?<br>Is the world's seal weakening? The Gate is opening...?<br> ,104201000G,vc_10420100003_039_01,chara_1
 
 window,off
 wait,0.15
@@ -2649,7 +2631,7 @@ asyncseplay,setag1_87,se4800006,0,1,CONT,0
 asynccharaemo,chara_10,Trouble,CONT,0
 
 
-message,付き人,This is deplorable... If you cannot be concerned for the future of<br>the nation，then perhaps you should return to your home country—<br> ,401701000,,chara_10
+message,付き人,This is deplorable... If you cannot be concerned for the future of the<br>nation，then perhaps you should return to your home country—<br> ,401701000,,chara_10
 
 window,off
 wait,0.15
@@ -2711,7 +2693,7 @@ asynccharaemo,chara_4,Exclamation,CONT,0
 
 
 window,on,0.15
-message,一般兵Ａ,Wait a second，gramps. Is it your fault Hayley's way of talking got<br>all weird?<br> ,400901000,,chara_4
+message,一般兵Ａ,Wait a second，gramps. Is it your fault Hayley's way of talking got all<br>weird?<br> ,400901000,,chara_4
 
 asyncshake,CHARA,chara_5,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -2729,7 +2711,7 @@ asyncseplay,setag1_90,se4800001,0,1,CONT,0
 asynccharaemo,chara_6,Anger,CONT,0
 
 
-message,一般兵Ｃ,This girl's supposed to be like this! If she weren't，she couldn't<br>use her power! And if Hayley were normal，we'd be bored anyway.<br> ,401201000,,chara_6
+message,一般兵Ｃ,This girl's supposed to be like this! If she weren't，she couldn't use<br>her power! And if Hayley were normal，we'd be bored anyway.<br> ,401201000,,chara_6
 
 window,off
 wait,0.15
@@ -2804,7 +2786,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 message,ヘイリー,You all...<br> ,104201000G,vc_10420100003_047_01,chara_1
 
-message,<user>,Gramps. I hear you told Hayley she needs to 'act in a way befitting<br>a leader.' That 'otherwise nobody will follow.'<br> 
+message,<user>,Gramps. I hear you told Hayley she needs to 'act in a way befitting a<br>leader.' That 'otherwise nobody will follow.'<br> 
 
 message,<user>,But thanks to Hayley sticking to what you call 'inappropriate<br>behavior，' everyone accepted her. ... Still think she has to change?<br> 
 

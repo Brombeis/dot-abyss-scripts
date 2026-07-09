@@ -66,13 +66,12 @@ transitionCrossFade,Tra02,1
 wait,1
 
 window,on,0.15
-message,<user>,Hmm... The market's as lively as ever today. If I don't have<br>work，I'll take my time browsing and head back...<br> 
+message,<user>,Hmm... The market's as lively as ever today. If I don't have work，I'll<br>take my time browsing and head back...<br> 
 
 bgmstop,bgmtag1_1,1,0
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
 
@@ -267,8 +266,6 @@ linework,off,Black,Middle
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
@@ -281,12 +278,10 @@ charafocusonall
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,,The Commander was suddenly tackled by an unknown woman and put in a<br>headlock.<br> 
+message,,The Commander was suddenly tackled by an unknown woman and put<br>in a headlock.<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -479,7 +474,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 message,セレスト,Sorry，but no. Everyone's out.<br> ,104801000G,vc_10480100001_011_01,chara_1
 
-message,<user>,...Then I guess I'll have to rely on you. Call the victim<br>shopkeeper. He can prove I'm innocent.<br> 
+message,<user>,...Then I guess I'll have to rely on you. Call the victim shopkeeper. He<br>can prove I'm innocent.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -506,7 +501,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 message,セレスト,Oh sure you say that，but you'd just slip out the second I'm<br>gone，wouldn't you? Escape artist routine.<br> ,104801000G,vc_10480100001_013_01,chara_1
 
-message,<user>,If you're that worried，throw me in a cell! We're getting nowhere<br>like this!<br> 
+message,<user>,If you're that worried，throw me in a cell! We're getting nowhere like<br>this!<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -517,7 +512,7 @@ asyncseplay,setag1_17,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,セレスト,Obviously! I don't have time for your little act! And I'm not about<br>to let you go!<br> ,104801000G,vc_10480100001_014_01,chara_1
+message,セレスト,Obviously! I don't have time for your little act! And I'm not about to<br>let you go!<br> ,104801000G,vc_10480100001_014_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -694,7 +689,7 @@ asyncseplay,setag1_25,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,セレスト,That's right! I caught him! Caught in the act! Lightning-fast<br>arrest!<br> ,104801000G,vc_10480100001_020_01,chara_1
+message,セレスト,That's right! I caught him! Caught in the act! Lightning-fast arrest!<br> ,104801000G,vc_10480100001_020_01,chara_1
 
 asynccharaface,chara_4,FaceSurprise,CONT,0
 
@@ -739,7 +734,7 @@ asyncseplay,setag1_29,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,セレスト,This guy! He's insisting he didn't do it，but I'll wring the truth<br>out of him!<br> ,104801000G,vc_10480100001_022_01,chara_1
+message,セレスト,This guy! He's insisting he didn't do it，but I'll wring the truth out of<br>him!<br> ,104801000G,vc_10480100001_022_01,chara_1
 
 message,<user>,... Yo.<br> 
 
@@ -1393,9 +1388,6 @@ linework,off,Black,Middle
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
 message,<user>,Gwah!<br> 

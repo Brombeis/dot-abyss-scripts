@@ -38,7 +38,7 @@ wait,0.15
 
 
 window,on,0.15
-message,<user>,The great fortune Merem's divination said I'd encounter in the<br>Abyss! I can't wait to see what I'll meet!<br> 
+message,<user>,The great fortune Merem's divination said I'd encounter in the Abyss!<br>I can't wait to see what I'll meet!<br> 
 
 window,off
 wait,0.15
@@ -478,9 +478,6 @@ asyncwait
 asyncseplay,setag1_13,se5010033,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
 
 asyncwait
 
@@ -556,7 +553,7 @@ asyncseplay,setag1_16,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,メレム,The scrying basin... got mud in it...! I can't divine with this<br>nooow...<br> ,,vc_10470100002_010_01,chara_1
+message,メレム,The scrying basin... got mud in it...! I can't divine with this nooow...<br> ,,vc_10470100002_010_01,chara_1
 
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
@@ -703,7 +700,7 @@ asyncseplay,setag1_26,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,メレム,I-I'm fine. Let me divine with this grimoire. Where we should go...<br>is down，it seems.<br> ,,vc_10470100002_017_01,chara_1
+message,メレム,I-I'm fine. Let me divine with this grimoire. Where we should go... is<br>down，it seems.<br> ,,vc_10470100002_017_01,chara_1
 
 
 window,off
@@ -726,7 +723,7 @@ charaface,chara_1,FaceSad
 transitionFade,Tra01,in,black,1
 
 window,on,0.15
-message,<user>,There's a pool of water around here. Let's be careful not to fall<br>in.<br> 
+message,<user>,There's a pool of water around here. Let's be careful not to fall in.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -775,12 +772,9 @@ wait,0.25
 asyncseplay,setag1_29,se4700051,0,1,CONT,0
 
 asyncshake,BACK,,24,0,0.6,7,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_1,24,0,0.6,7,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_2,24,0,0.6,7,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_3,24,0,0.6,7,off,off,0,on,CONT,0
 
 window,on,0.15
-message,,A rumbling sound echoed，and a large rock tumbled down into the pool.<br>Fortunately，it didn't hit either of them，but—<br> 
+message,,A rumbling sound echoed，and a large rock tumbled down into the<br>pool. Fortunately，it didn't hit either of them，but—<br> 
 
 window,off
 wait,0.15
@@ -860,7 +854,7 @@ asyncseplay,setag1_33,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,メレム,If I dry it properly，it'll be fine! But if I open it while wet，the<br>pages will tear!<br> ,,vc_10470100002_021_01,chara_1
+message,メレム,If I dry it properly，it'll be fine! But if I open it while wet，the pages<br>will tear!<br> ,,vc_10470100002_021_01,chara_1
 
 window,off
 wait,0.15
@@ -889,7 +883,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,メレム,But I still have a divination tool... the dice! Let's roll them and<br>see our future!<br> ,,vc_10470100002_022_01,chara_1
+message,メレム,But I still have a divination tool... the dice! Let's roll them and see<br>our future!<br> ,,vc_10470100002_022_01,chara_1
 
 message,<user>,...Just rolling dice in the Abyss，even I can see what'll happen.<br> 
 
@@ -936,7 +930,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 window,on,0.15
 message,メレム,What should I do? All my tools are gone... I can't divine like this!<br>Waaah!<br> ,,vc_10470100002_024_01,chara_1
 
-message,<user>,Calm down，there's no need to panic so much. You're the one who said<br>fortune-telling is just a guide，right?<br> 
+message,<user>,Calm down，there's no need to panic so much. You're the one who<br>said fortune-telling is just a guide，right?<br> 
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -947,7 +941,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 message,メレム,It's impossible! I need my fortune-telling，or I can't do anything!<br> ,,vc_10470100002_025_01,chara_1
 
-message,<user>,You're really in a state... Why do you rely on fortune-telling so<br>much?<br> 
+message,<user>,You're really in a state... Why do you rely on fortune-telling so much?<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -965,7 +959,7 @@ asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 message,メレム,They use fortune-telling for everything，from what to have for dinner<br>to what color accessories to wear.<br> ,,vc_10470100002_027_01,chara_1
 
-message,<user>,So it wasn't just you living by fortune-telling，but the whole<br>country was like that?<br> 
+message,<user>,So it wasn't just you living by fortune-telling，but the whole country<br>was like that?<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -1000,7 +994,7 @@ asyncseplay,setag1_41,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,メレム,I came to this Frontline Base because of a divination result... It<br>said I should lend my strength to prevent a great calamity!<br> ,,vc_10470100002_030_01,chara_1
+message,メレム,I came to this Frontline Base because of a divination result... It said I<br>should lend my strength to prevent a great calamity!<br> ,,vc_10470100002_030_01,chara_1
 
 asyncshake,CHARA,chara_1,20,15,0.5,6,on,off,0,off,CONT,0
 
@@ -1020,7 +1014,7 @@ asyncseplay,setag1_43,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,メレム,Even though I found the Commander who seemed to be at the center of<br>fate，when I came with you，all my divination tools became unusable...<br> ,,vc_10470100002_032_01,chara_1
+message,メレム,Even though I found the Commander who seemed to be at the center<br>of fate，when I came with you，all my divination tools became unusable...<br> ,,vc_10470100002_032_01,chara_1
 
 window,off
 wait,0.15

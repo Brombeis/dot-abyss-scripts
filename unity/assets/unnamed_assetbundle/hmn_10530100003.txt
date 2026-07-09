@@ -271,7 +271,7 @@ asyncseplay,setag1_8,se4800004,0,1,CONT,0
 asynccharaemo,chara_4,Laugh,CONT,0
 
 
-message,踊り子,What's this? You after the Commander too? You seem cool，but you're<br>secretly passionate，huh?<br> ,401401000,vc_10530100003_008_01,chara_4
+message,踊り子,What's this? You after the Commander too? You seem cool，but<br>you're secretly passionate，huh?<br> ,401401000,vc_10530100003_008_01,chara_4
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -282,7 +282,7 @@ asyncseplay,setag1_9,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,シャノン,No，it's not that—I just wanted to ask about his work performance and<br>character...<br> ,105301000G,vc_10530100003_009_01,chara_1
+message,シャノン,No，it's not that—I just wanted to ask about his work performance<br>and character...<br> ,105301000G,vc_10530100003_009_01,chara_1
 
 asyncjump,CHARA,chara_3,30,0.25,1,off,0,CONT
 
@@ -755,7 +755,7 @@ asynccharaemo,chara_8,Sweat,CONT,0
 
 
 window,on,0.15
-message,一般兵Ｃ,T-trouble! A monster horde appeared from the Abyss! They're heading<br>this way from the plains!<br> ,401101000,vc_10530100003_029_01,chara_8
+message,一般兵Ｃ,T-trouble! A monster horde appeared from the Abyss! They're<br>heading this way from the plains!<br> ,401101000,vc_10530100003_029_01,chara_8
 
 window,off
 wait,0.15
@@ -1440,7 +1440,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,シャノン,(Just the Commander showing up brightens everyone up. They really do<br>adore him...)<br> ,105301000G,vc_10530100003_045_01,chara_1
+message,シャノン,(Just the Commander showing up brightens everyone up. They really<br>do adore him...)<br> ,105301000G,vc_10530100003_045_01,chara_1
 
 window,off
 wait,0.15
@@ -1882,17 +1882,7 @@ linework,off,Black,Middle
 asyncseplay,setag1_61,se4900006,0,1,CONT,0
 
 asyncshake,BACK,,24,0,0.6,7,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_1,24,0,0.6,7,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_2,24,0,0.6,7,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_3,24,0,0.6,7,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_4,24,0,0.6,7,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_5,24,0,0.6,7,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_6,24,0,0.6,7,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_7,24,0,0.6,7,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_8,24,0,0.6,7,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_9,24,0,0.6,7,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_10,24,0,0.6,7,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_11,24,0,0.6,7,off,off,0,on,CONT,0
 
 window,on,0.15
 message,,With a charge from the Large Monster，the front line suddenly<br>collapsed. The enemy then came straight for the Commander.<br> 
@@ -1947,17 +1937,7 @@ asyncseplay,setag1_62,se4900081,0,1,CONT,0
 asyncprefabshowUI,uieffect_0,ON,CONT,0
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_5,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_6,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_7,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_8,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_9,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_10,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_11,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
 message,,BANG!<br> 
@@ -1995,17 +1975,6 @@ asyncwait
 asyncseplay,setag1_64,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
-shake,CHARA,chara_6,40,0,0.25,20,off,off,0
-shake,CHARA,chara_7,40,0,0.25,20,off,off,0
-shake,CHARA,chara_8,40,0,0.25,20,off,off,0
-shake,CHARA,chara_9,40,0,0.25,20,off,off,0
-shake,CHARA,chara_10,40,0,0.25,20,off,off,0
-shake,CHARA,chara_11,40,0,0.25,20,off,off,0
 
 window,on,0.15
 message,,After a sharp crack，the charging monster lost all strength and fell<br>over，dying without a fight.<br> 
@@ -2057,7 +2026,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,シャノン,Sorry I'm late... If I was going to come running anyway，I should<br>have stuck with you from the start.<br> ,105301000G,vc_10530100003_049_01,chara_1
+message,シャノン,Sorry I'm late... If I was going to come running anyway，I should have<br>stuck with you from the start.<br> ,105301000G,vc_10530100003_049_01,chara_1
 
 message,<user>,Shannon!<br> 
 
@@ -2125,7 +2094,7 @@ asyncseplay,setag1_68,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,シャノン,I'll make up for the ground we lost due to the delayed orders. I'm<br>the type who always repays debts.<br> ,105301000G,vc_10530100003_052_01,chara_1
+message,シャノン,I'll make up for the ground we lost due to the delayed orders. I'm the<br>type who always repays debts.<br> ,105301000G,vc_10530100003_052_01,chara_1
 
 message,<user>,I work people hard，you know. That okay with you?<br> 
 
@@ -2149,7 +2118,7 @@ asyncseplay,setag1_70,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,シャノン,No matter the job，I carry it out in silence to punish evil and<br>protect the people... That's what a professional does!<br> ,105301000G,vc_10530100003_054_01,chara_1
+message,シャノン,No matter the job，I carry it out in silence to punish evil and protect<br>the people... That's what a professional does!<br> ,105301000G,vc_10530100003_054_01,chara_1
 
 asyncseplay,setag1_71,se4900081,0,1,CONT,0
 
@@ -2226,17 +2195,6 @@ asyncwait
 asyncseplay,setag1_73,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
-shake,CHARA,chara_6,40,0,0.25,20,off,off,0
-shake,CHARA,chara_7,40,0,0.25,20,off,off,0
-shake,CHARA,chara_8,40,0,0.25,20,off,off,0
-shake,CHARA,chara_9,40,0,0.25,20,off,off,0
-shake,CHARA,chara_10,40,0,0.25,20,off,off,0
-shake,CHARA,chara_11,40,0,0.25,20,off,off,0
 
 crossfadeready
 
@@ -2510,7 +2468,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 message,シャノン,At least until the heat dies down，it's safer to follow your lead.<br> ,105301000G,vc_10530100003_064_01,chara_1
 
-message,<user>,That's right，that's right. And while I'm at it，I'd also like to make<br>use of your sniping skills.<br> 
+message,<user>,That's right，that's right. And while I'm at it，I'd also like to make use<br>of your sniping skills.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -2534,7 +2492,7 @@ asyncseplay,setag1_86,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,シャノン,I'm expensive. I'm not particularly attached to money，but I won't<br>sell myself short. I'm a pro.<br> ,105301000G,vc_10530100003_066_01,chara_1
+message,シャノン,I'm expensive. I'm not particularly attached to money，but I won't sell<br>myself short. I'm a pro.<br> ,105301000G,vc_10530100003_066_01,chara_1
 
 message,<user>,So，how much would it take for you to work for me?<br> 
 
@@ -2551,7 +2509,7 @@ message,シャノン,How about this much?<br> ,105301000G,vc_10530100003_067_01,
 
 message,<user>,That's a bit pricey，don't you think?!<br> 
 
-message,,As the Commander began haggling，Alicia quietly pondered beside him.<br> 
+message,,As the Commander began haggling，Alicia quietly pondered beside<br>him.<br> 
 
 window,off
 wait,0.15
@@ -2661,7 +2619,7 @@ asyncseplay,setag1_90,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,シャノン,I will bend the rules. You have proven that you act for the people.<br>... From now on，I am in your care，owner.<br> ,105301000G,vc_10530100003_070_01,chara_1
+message,シャノン,I will bend the rules. You have proven that you act for the people. ...<br>From now on，I am in your care，owner.<br> ,105301000G,vc_10530100003_070_01,chara_1
 
 window,off
 bgmstop,bgmtag1_5,0.5

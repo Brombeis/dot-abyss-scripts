@@ -191,7 +191,7 @@ asynccharaemo,chara_3,Twinkle,CONT,0
 
 
 window,on,0.15
-message,クレハ,I'm so glad... everyone on Oni Island got to make friends with<br>humans.<br> ,105801000G,,chara_3
+message,クレハ,I'm so glad... everyone on Oni Island got to make friends with humans.<br> ,105801000G,,chara_3
 
 window,off
 wait,0.15
@@ -279,7 +279,7 @@ asyncseplay,setag1_8,se4800022,0,1,CONT,0
 asynccharaemo,chara_3,Speak,CONT,0
 
 
-message,クレハ,The oni-folk don't dwell on things past. Whatever my darling sees<br>fit is fine.<br> ,105801000G,,chara_3
+message,クレハ,The oni-folk don't dwell on things past. Whatever my darling sees fit<br>is fine.<br> ,105801000G,,chara_3
 
 message,<user>,That's what the others said too. The fault was ultimately ours，<br>so we ought to be paying Oni Island reparations...<br> 
 
@@ -451,7 +451,7 @@ asyncseplay,setag1_15,se4800013,0,1,CONT,0
 asynccharaemo,chara_4,Spirits,CONT,0
 
 
-message,シラエス,And Kureha-kun. You fought harder than anyone to protect the humans.<br>I saw it all. A child who works hard deserves a reward.<br> ,106801000G,,chara_4
+message,シラエス,And Kureha-kun. You fought harder than anyone to protect the<br>humans. I saw it all. A child who works hard deserves a reward.<br> ,106801000G,,chara_4
 
 window,off
 wait,0.15
@@ -582,8 +582,6 @@ window,on,0.15
 message,,Kureha took %user% and Shiraes by the hand<br>and led them into the circle of the banquet.<br> 
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
 
@@ -801,7 +799,7 @@ asynctransitionCrossFade,Tra03,0.5,STOP
 waitorclick,1
 
 window,on,0.15
-message,,The start of a bond between humans and oni-folk.<br>This legend，passed down through Oni Island，ends with the same words.<br> 
+message,,The start of a bond between humans and oni-folk. This legend，passed<br>down through Oni Island，ends with the same words.<br> 
 
 message,,Namely — and they all lived happily ever after.<br> 
 

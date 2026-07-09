@@ -585,7 +585,7 @@ emodelete,chara_1,0,0
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,<user>,The foliage is thick; we can barely see into the forest... We've got<br>a good grasp of the vegetation，so let's head back.<br> 
+message,<user>,The foliage is thick; we can barely see into the forest... We've got a<br>good grasp of the vegetation，so let's head back.<br> 
 
 window,off
 wait,0.15
@@ -838,7 +838,7 @@ asyncseplay,setag1_22,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ラモーナ,Y-yes... It startled me，but I'm fine. I won't be a burden<br>anymore...!<br> ,106401000G,vc_10640100003_015_01,chara_1
+message,ラモーナ,Y-yes... It startled me，but I'm fine. I won't be a burden anymore...!<br> ,106401000G,vc_10640100003_015_01,chara_1
 
 window,off
 wait,0.15
@@ -853,7 +853,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(She's trembling，but she's got a firm grip on her bow... She'll<br>manage somehow.)<br> 
+message,<user>,(She's trembling，but she's got a firm grip on her bow... She'll manage<br>somehow.)<br> 
 
 window,off
 wait,0.15
@@ -916,7 +916,7 @@ message,兵士B,Don't let your guard down! There's not just one or two! Five，s
 
 message,<user>,Strange. There are snakes that hunt in packs，sure，but I've never<br>heard of them targeting humans so much larger than themselves.<br> 
 
-message,<user>,Still，trying to run through this rough terrain is dangerous too.<br>We'll deal with them here.<br> 
+message,<user>,Still，trying to run through this rough terrain is dangerous too. We'll<br>deal with them here.<br> 
 
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
@@ -1184,7 +1184,7 @@ wait,0.5
 
 
 window,on,0.15
-message,兵士B,Looks like we've dealt with most of them. They were a pain with<br>their numbers，but challenging humans was reckless.<br> ,401301000,vc_10640100003_020_01,chara_3
+message,兵士B,Looks like we've dealt with most of them. They were a pain with their<br>numbers，but challenging humans was reckless.<br> ,401301000,vc_10640100003_020_01,chara_3
 
 window,off
 wait,0.15
@@ -1470,10 +1470,8 @@ asyncseplay,setag1_33,se4800011,0,1,CONT,0
 asynccharaemo,chara_2,ExclaQues,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 shake,CHARA,chara_2,40,0,0.25,20,off,off,0
 shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 
 
 window,on,0.15
@@ -1702,7 +1700,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,,The soldier thrown by the Basilisk passed out. The other soldier<br>kept his distance，clearly outmatched.<br> 
+message,,The soldier thrown by the Basilisk passed out. The other soldier kept<br>his distance，clearly outmatched.<br> 
 
 window,off
 wait,0.15
@@ -1797,7 +1795,7 @@ wait,0.1
 window,on,0.15
 message,<user>,(The Basilisk's hide is like thick rubber. A normal sword can barely<br>scratch it.)<br> 
 
-message,<user>,To defeat it，we'd need an attack that can pierce its hide and strike<br>a vital point in one blow. The one who can do that is—<br> 
+message,<user>,To defeat it，we'd need an attack that can pierce its hide and strike a<br>vital point in one blow. The one who can do that is—<br> 
 
 window,off
 wait,0.15
@@ -2390,13 +2388,9 @@ asyncwait
 asyncseplay,setag1_60,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,,The Basilisk's massive body arched back，stiffened，and then collapsed<br>to the ground with a heavy thud.<br> 
+message,,The Basilisk's massive body arched back，stiffened，and then<br>collapsed to the ground with a heavy thud.<br> 
 
 window,off
 wait,0.15
@@ -2618,7 +2612,7 @@ asyncseplay,setag1_68,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ラモーナ,Fufu，I am glad!♪ Then I will sing with all my energy when I work<br>with them.<br> ,106401000G,vc_10640100003_045_01,chara_1
+message,ラモーナ,Fufu，I am glad!♪ Then I will sing with all my energy when I work with<br>them.<br> ,106401000G,vc_10640100003_045_01,chara_1
 
 message,<user>,Yeah，that's good. There are other ways to heal physical wounds，but<br>not many people can heal the heart.<br> 
 
@@ -2633,7 +2627,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 message,ラモーナ,Oh，Commander，you're so good with words. But if it brings you joy，I<br>must do my best.<br> ,106401000G,vc_10640100003_046_01,chara_1
 
-message,<user>,Yeah. But don't push yourself too hard，all right? If you<br>collapse，it'll be for nothing. Do something you like and take a breather.<br> 
+message,<user>,Yeah. But don't push yourself too hard，all right? If you collapse，it'll<br>be for nothing. Do something you like and take a breather.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -2682,7 +2676,7 @@ asyncseplay,setag1_73,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ラモーナ,It may be singing，but it has meaning because I'm here with you in<br>this quiet time.<br> ,106401000G,vc_10640100003_050_01,chara_1
+message,ラモーナ,It may be singing，but it has meaning because I'm here with you in this<br>quiet time.<br> ,106401000G,vc_10640100003_050_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0

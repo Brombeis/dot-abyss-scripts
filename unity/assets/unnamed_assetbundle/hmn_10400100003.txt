@@ -144,7 +144,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ルカ,Now all that's left is to wait for Commaander to fall into the<br>traps... but he's not here yet，is he?<br> ,104001000G,vc_10400100003_004_01,chara_1
+message,ルカ,Now all that's left is to wait for Commaander to fall into the traps...<br>but he's not here yet，is he?<br> ,104001000G,vc_10400100003_004_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -223,7 +223,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,Luca wandered around looking for the Commander. The ground beneath<br>her feet gave way with a rustle.<br> 
+message,,Luca wandered around looking for the Commander. The ground<br>beneath her feet gave way with a rustle.<br> 
 
 window,off
 wait,0.15
@@ -254,7 +254,7 @@ asynccharaface,chara_1,FaceUnique02,CONT,0
 
 
 window,on,0.15
-message,ルカ,Ah，aah! I fell into the pitfall I went through all that trouble to<br>make!<br> ,104001000G,vc_10400100003_006_01,chara_1
+message,ルカ,Ah，aah! I fell into the pitfall I went through all that trouble to make!<br> ,104001000G,vc_10400100003_006_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -348,7 +348,7 @@ asyncseplay,setag1_15,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ルカ,But you were supposed to fall into it... *whimper* at this rate，can<br>I really become the World's Greatest Martial Artist...?<br> ,104001000G,vc_10400100003_011_01,chara_1
+message,ルカ,But you were supposed to fall into it... *whimper* at this rate，can I<br>really become the World's Greatest Martial Artist...?<br> ,104001000G,vc_10400100003_011_01,chara_1
 
 message,<user>,Dealing with traps and decoys comes down to experience. I think this<br>experience will help you grow，you know?<br> 
 
@@ -443,7 +443,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 message,ルカ,I'm stronger than Commaander...? But I've lost loads of times!<br> ,104001000G,vc_10400100003_016_01,chara_1
 
-message,<user>,It's precisely because I'm weaker than you that I use traps and<br>tricks. If we fought fair and square，I wouldn't stand a chance.<br> 
+message,<user>,It's precisely because I'm weaker than you that I use traps and tricks.<br>If we fought fair and square，I wouldn't stand a chance.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -486,9 +486,9 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 message,ルカ,Ehh? Can you still say you won if you win like that?<br> ,104001000G,vc_10400100003_019_01,chara_1
 
-message,<user>,I'm not a fighter. I have to win by any means necessary. That's what<br>it means to be a Commander.<br> 
+message,<user>,I'm not a fighter. I have to win by any means necessary. That's what it<br>means to be a Commander.<br> 
 
-message,<user>,When it's time to fight the Calamity，you can't say 'I won't fight<br>dirty even if it means losing'，can you?<br> 
+message,<user>,When it's time to fight the Calamity，you can't say 'I won't fight dirty<br>even if it means losing'，can you?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -501,9 +501,9 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 message,ルカ,...I see. If Commaander loses，everyone loses，right?<br> ,104001000G,vc_10400100003_020_01,chara_1
 
-message,<user>,Exactly. Because you're strong，I wanted to show you how someone like<br>me，a weakling obsessed with winning，fights back.<br> 
+message,<user>,Exactly. Because you're strong，I wanted to show you how someone<br>like me，a weakling obsessed with winning，fights back.<br> 
 
-message,<user>,What you need isn't underhanded tactics like mine. It's strength<br>that understands what tactics are and then surpasses even them.<br> 
+message,<user>,What you need isn't underhanded tactics like mine. It's strength that<br>understands what tactics are and then surpasses even them.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -631,7 +631,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ルカ,Enemies...! Is it because I called Commaander deep into the<br>forest...?<br> ,104001000G,vc_10400100003_022_01,chara_1
+message,ルカ,Enemies...! Is it because I called Commaander deep into the forest...?<br> ,104001000G,vc_10400100003_022_01,chara_1
 
 message,<user>,Don't worry. They're just a few enemies that slipped through the<br>perimeter line. You can handle them easily，right?<br> 
 
@@ -716,7 +716,7 @@ asynccharaemo,chara_1,Dull,CONT,0
 window,on,0.15
 message,ルカ,I'm okay，I think. But what if those monsters set traps，or they're<br>actually scarecrows?<br> ,104001000G,vc_10400100003_024_01,chara_1
 
-message,<user>,As far as I know，they're not the type to use tricky strategies.<br>Don't worry. If you fight fair and square，hardly anyone can beat you.<br> 
+message,<user>,As far as I know，they're not the type to use tricky strategies. Don't<br>worry. If you fight fair and square，hardly anyone can beat you.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1074,11 +1074,8 @@ asyncwait
 asyncseplay,setag1_48,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 shake,CHARA,chara_5,40,0,0.25,20,off,off,0
+shake,CHARA,chara_2,40,0,0.25,20,off,off,0
 
 asyncwait
 
@@ -1150,10 +1147,6 @@ asyncwait
 asyncseplay,setag1_54,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 
 crossfadeready
@@ -1426,7 +1419,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 message,ルカ,Even though you didn't set them yourself，you used them perfectly...<br>Commaander，that's amazing!<br> ,104001000G,vc_10400100003_033_01,chara_1
 
-message,<user>,Hate to cut you off while you're praising me，but I don't think<br>tickling will work on this one. Finish it off，Luca!<br> 
+message,<user>,Hate to cut you off while you're praising me，but I don't think tickling<br>will work on this one. Finish it off，Luca!<br> 
 
 window,off
 wait,0.15
@@ -1650,7 +1643,7 @@ asyncseplay,setag1_71,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ルカ,So there are enemies you can't beat just by being strong... Maybe<br>I'm still not strong enough for opponents like that.<br> ,104001000G,vc_10400100003_038_01,chara_1
+message,ルカ,So there are enemies you can't beat just by being strong... Maybe I'm<br>still not strong enough for opponents like that.<br> ,104001000G,vc_10400100003_038_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1662,7 +1655,7 @@ asyncseplay,setag1_72,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ルカ,But I feel like I've figured out the path I need to take to become<br>the world's greatest martial artist!<br> ,104001000G,vc_10400100003_039_01,chara_1
+message,ルカ,But I feel like I've figured out the path I need to take to become the<br>world's greatest martial artist!<br> ,104001000G,vc_10400100003_039_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1687,7 +1680,7 @@ asyncseplay,setag1_74,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ルカ,Yeah! With a smart Commaander and my martial arts，we're unstoppable!<br>We're the strongest duo in the base，for sure!<br> ,104001000G,vc_10400100003_041_01,chara_1
+message,ルカ,Yeah! With a smart Commaander and my martial arts，we're<br>unstoppable! We're the strongest duo in the base，for sure!<br> ,104001000G,vc_10400100003_041_01,chara_1
 
 
 window,off

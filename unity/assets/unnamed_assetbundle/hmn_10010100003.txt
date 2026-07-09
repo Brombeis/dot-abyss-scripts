@@ -44,7 +44,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,In the command room，%user% and Alicia were doing paperwork，with Rosa<br>looking on.<br> 
+message,,In the command room，%user% and Alicia were doing paperwork，with<br>Rosa looking on.<br> 
 
 window,off
 wait,0.15
@@ -98,7 +98,7 @@ asynccharaemo,chara_2,Exclamation,CONT,0
 window,on,0.15
 message,アリシア,Here's the next document! Please review it!<br> ,300201000,vc_10010100003_001_01,chara_2
 
-message,<user>,Ugh... I'm still too hungover to think straight... Do these really<br>have to be done today?<br> 
+message,<user>,Ugh... I'm still too hungover to think straight... Do these really have<br>to be done today?<br> 
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -716,7 +716,7 @@ asyncseplay,setag1_22,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ローザ,Yes，I believe so. I never imagined I'd bare it all to you like<br>this，Lord Commander.<br> ,100101000G,vc_10010100003_033_01,chara_1
+message,ローザ,Yes，I believe so. I never imagined I'd bare it all to you like this，Lord<br>Commander.<br> ,100101000G,vc_10010100003_033_01,chara_1
 
 window,off
 wait,0.15
@@ -880,7 +880,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,It's true I wanted to tease Rosa and get closer. And I really did<br>want a drink.<br> 
+message,<user>,It's true I wanted to tease Rosa and get closer. And I really did want<br>a drink.<br> 
 
 window,off
 wait,0.15
@@ -899,9 +899,9 @@ wait,0.5
 window,on,0.15
 message,ローザ,Both are true...?<br> ,100101000G,vc_10010100003_038_01,chara_1
 
-message,<user>,There are bad people who do good deeds，and good people who end up<br>causing harm. Judging a person's character isn't that simple.<br> 
+message,<user>,There are bad people who do good deeds，and good people who end<br>up causing harm. Judging a person's character isn't that simple.<br> 
 
-message,<user>,Someone who was good when you helped them might change and turn bad.<br> 
+message,<user>,Someone who was good when you helped them might change and turn<br>bad.<br> 
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -919,7 +919,7 @@ asyncseplay,setag1_29,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ローザ,Following the chivalry I believe in，is it okay to keep helping<br>people as I have been...?<br> ,100101000G,vc_10010100003_040_01,chara_1
+message,ローザ,Following the chivalry I believe in，is it okay to keep helping people<br>as I have been...?<br> ,100101000G,vc_10010100003_040_01,chara_1
 
 window,off
 wait,0.15
@@ -975,7 +975,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 window,on,0.15
 message,アリシア,Rosa...<br> ,300201000,vc_10010100003_041_01,chara_2
 
-message,<user>,Then I'll be the one to figure that out. I'll judge whether someone<br>is worthy of your help.<br> 
+message,<user>,Then I'll be the one to figure that out. I'll judge whether someone is<br>worthy of your help.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1122,7 +1122,7 @@ asynccharaemo,chara_2,BePeevish,CONT,0
 
 
 window,on,0.15
-message,アリシア,Geez，Commander! You always make me do that stuff，but you only offer<br>when it's convenient for you! Focus on your work!<br> ,300201000,vc_10010100003_046_01,chara_2
+message,アリシア,Geez，Commander! You always make me do that stuff，but you only<br>offer when it's convenient for you! Focus on your work!<br> ,300201000,vc_10010100003_046_01,chara_2
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -1134,7 +1134,7 @@ asyncseplay,setag1_36,se4800005,0,1,CONT,0
 asynccharaemo,chara_2,Flash,CONT,0
 
 
-message,アリシア,Oh! That's right... Rosa! It seems the Commander is in a bind<br>because the trash is full，isn't he?<br> ,300201000,vc_10010100003_047_01,chara_2
+message,アリシア,Oh! That's right... Rosa! It seems the Commander is in a bind because<br>the trash is full，isn't he?<br> ,300201000,vc_10010100003_047_01,chara_2
 
 window,off
 wait,0.15
@@ -1189,7 +1189,7 @@ asyncseplay,setag1_38,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ローザ,No，if it's an order that definitely helps someone，I welcome it!<br>Leave it to me!<br> ,100101000G,vc_10010100003_049_01,chara_1
+message,ローザ,No，if it's an order that definitely helps someone，I welcome it! Leave<br>it to me!<br> ,100101000G,vc_10010100003_049_01,chara_1
 
 window,off
 wait,0.15
@@ -1224,7 +1224,7 @@ wait,0.5
 window,on,0.15
 message,,Rosa dashed out of the command room with incredible speed.<br> 
 
-message,<user>,...Ah，the window's a bit dirty. It's bugging me，so I'll just clean<br>it before getting to work...<br> 
+message,<user>,...Ah，the window's a bit dirty. It's bugging me，so I'll just clean it<br>before getting to work...<br> 
 
 asyncseplay,setag1_40,se4300007,0,1,CONT,0
 

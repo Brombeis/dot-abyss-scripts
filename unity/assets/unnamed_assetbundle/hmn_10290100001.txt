@@ -65,7 +65,7 @@ wait,0.5
 window,on,0.15
 message,アリシア,Commander! I've prepared some tea and sweets. How about a short<br>break?<br> ,300201000,vc_10290100001_001_01,chara_2
 
-message,<user>,Yeah，I'll do that... My brain's probably not working because it<br>needs some sugar.<br> 
+message,<user>,Yeah，I'll do that... My brain's probably not working because it needs<br>some sugar.<br> 
 
 window,off
 wait,0.15
@@ -105,7 +105,7 @@ wait,0.5
 
 
 window,on,0.15
-message,アリシア,Here you go! It's a special fruit tart that Myrtille brought as a<br>treat!<br> ,300201000,vc_10290100001_002_01,chara_2
+message,アリシア,Here you go! It's a special fruit tart that Myrtille brought as a treat!<br> ,300201000,vc_10290100001_002_01,chara_2
 
 message,<user>,Ooh，this looks delicious. Let's dig in.<br> 
 
@@ -138,7 +138,7 @@ wait,0.5
 window,on,0.15
 message,,The moment %user% and Alicia bit into the tart，their eyes widened in<br>surprise.<br> 
 
-message,<user>,This is amazing. It's on a whole different level from any tart I've<br>had before.<br> 
+message,<user>,This is amazing. It's on a whole different level from any tart I've had<br>before.<br> 
 
 asynccharaface,chara_2,FaceUnique07,CONT,0
 
@@ -340,7 +340,7 @@ wait,0.5
 window,on,0.15
 message,ミルティーユ,Actually，Mil has a little problem and wanted to ask for advice...<br> ,102901000G,vc_10290100001_010_01,chara_1
 
-message,<user>,Oh，advice? As thanks for that delicious tart，I'll listen all you<br>want.<br> 
+message,<user>,Oh，advice? As thanks for that delicious tart，I'll listen all you want.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -395,7 +395,7 @@ asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,ミルティーユ,While I wasn't paying attention，the tarts I was selling vanished<br>from the kitchen in the lodgings.<br> ,102901000G,vc_10290100001_012_01,chara_1
+message,ミルティーユ,While I wasn't paying attention，the tarts I was selling vanished from<br>the kitchen in the lodgings.<br> ,102901000G,vc_10290100001_012_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -421,7 +421,7 @@ asynccharaemo,chara_1,BePeevish,CONT,0
 
 message,ミルティーユ,And when I tried to make more，the fruit in the pantry was running<br>low too! They said Mil must have used it!<br> ,102901000G,vc_10290100001_014_01,chara_1
 
-message,<user>,That's a terrible false accusation. Not even Myrtille would make<br>that many sweets.<br> 
+message,<user>,That's a terrible false accusation. Not even Myrtille would make that<br>many sweets.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -514,7 +514,7 @@ asyncseplay,setag1_21,se4800016,0,1,CONT,0
 asynccharaemo,chara_2,BePeevish,CONT,0
 
 
-message,アリシア,So you're saying there's a thief in the lodgings? We can't have<br>theft at the base!<br> ,300201000,vc_10290100001_018_01,chara_2
+message,アリシア,So you're saying there's a thief in the lodgings? We can't have theft<br>at the base!<br> ,300201000,vc_10290100001_018_01,chara_2
 
 message,<user>,Yeah，I can't ignore this as the Commander. Let's head to the scene<br>now!<br> 
 
@@ -581,7 +581,7 @@ asyncseplay,setag1_22,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ミルティーユ,Ugh，if they wanted tarts，they could have just asked! Why sneak them<br>away?<br> ,102901000G,vc_10290100001_020_01,chara_1
+message,ミルティーユ,Ugh，if they wanted tarts，they could have just asked! Why sneak<br>them away?<br> ,102901000G,vc_10290100001_020_01,chara_1
 
 window,off
 wait,0.15
@@ -750,7 +750,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 message,ミルティーユ,Huh? Isn't that over there...?<br> ,102901000G,vc_10290100001_026_01,chara_1
 
-message,,Just inside the forest，a small fluffy animal lay crouched，as if<br>hiding among the trees.<br> 
+message,,Just inside the forest，a small fluffy animal lay crouched，as if hiding<br>among the trees.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -870,7 +870,7 @@ wait,0.5
 window,on,0.15
 message,子熊,*Grrr...*<br> ,900000003
 
-message,,As if to say 'I'm sorry... are you upset...?' the cub nervously<br>looked up at Myrtille.<br> 
+message,,As if to say 'I'm sorry... are you upset...?' the cub nervously looked<br>up at Myrtille.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -898,7 +898,7 @@ message,ミルティーユ,Why would a nice kid like him do something like this?
 
 message,<user>,The fruit crop was apparently poor this year，so maybe he couldn't<br>find food.<br> 
 
-message,<user>,Look at this ear. He probably lost a territory fight—there's a big<br>bite mark.<br> 
+message,<user>,Look at this ear. He probably lost a territory fight—there's a big bite<br>mark.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -945,7 +945,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,,Myrtille walked up to the bear cub and gently placed several tarts<br>at its feet.<br> 
+message,,Myrtille walked up to the bear cub and gently placed several tarts at<br>its feet.<br> 
 
 window,off
 wait,0.15
@@ -1065,7 +1065,7 @@ message,ミルティーユ,Look! He's enjoying the honey-filled sample so much!<
 
 message,子熊,Ruff!♪<br> ,900000003
 
-message,<user>,Even so，I think it's a waste to give them to a bear. There are<br>plenty of people who'd want them，even if they're just samples，right?<br> 
+message,<user>,Even so，I think it's a waste to give them to a bear. There are plenty<br>of people who'd want them，even if they're just samples，right?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1087,7 +1087,7 @@ asynccharaface,chara_1,FaceHappy,STOP,4.8
 asyncjump,CHARA,chara_1,-30,0.25,1,off,4.8,STOP
 
 
-message,ミルティーユ,After all，the thing that makes Mil happiest is seeing someone<br>happily eat the treats Mil made~<br> ,102901000G,vc_10290100001_041_01,chara_1
+message,ミルティーユ,After all，the thing that makes Mil happiest is seeing someone happily<br>eat the treats Mil made~<br> ,102901000G,vc_10290100001_041_01,chara_1
 
 message,<user>,...I see.<br> 
 
@@ -1225,7 +1225,7 @@ asyncseplay,setag1_48,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ミルティーユ,Thank you~ Commander! Now I can tell everyone at the lodgings not to<br>worry!<br> ,102901000G,vc_10290100001_044_01,chara_1
+message,ミルティーユ,Thank you~ Commander! Now I can tell everyone at the lodgings not<br>to worry!<br> ,102901000G,vc_10290100001_044_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1249,7 +1249,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 message,ミルティーユ,It's all thanks to you，Commander~<br> ,102901000G,vc_10290100001_046_01,chara_1
 
-message,<user>,I only helped a little. You did all the work，Myrtille. If that's<br>enough to help，I'll lend a hand anytime.<br> 
+message,<user>,I only helped a little. You did all the work，Myrtille. If that's enough<br>to help，I'll lend a hand anytime.<br> 
 
 window,off
 wait,0.15

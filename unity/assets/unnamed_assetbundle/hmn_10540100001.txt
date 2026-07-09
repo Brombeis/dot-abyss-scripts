@@ -89,7 +89,7 @@ wait,0.5
 
 
 window,on,0.15
-message,フレイヤ,(...Dear Father and Sister. I'm sorry for disappearing all of a<br>sudden. I'm on my way to the Frontline Base now.)<br> ,105401000G,vc_10540100001_001_01,chara_1
+message,フレイヤ,(...Dear Father and Sister. I'm sorry for disappearing all of a sudden.<br>I'm on my way to the Frontline Base now.)<br> ,105401000G,vc_10540100001_001_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -200,7 +200,7 @@ wait,0.5
 
 
 window,on,0.15
-message,兵士Ａ,C-Commander. We've gathered some people for now，but... are we really<br>going into the Abyss tomorrow with this force?<br> ,401201000,,chara_2
+message,兵士Ａ,C-Commander. We've gathered some people for now，but... are we<br>really going into the Abyss tomorrow with this force?<br> ,401201000,,chara_2
 
 message,<user>,I understand，but it can't be helped... The veterans are away and the<br>experienced soldiers from yesterday are exhausted. They need rest.<br> 
 
@@ -322,11 +322,11 @@ message,援軍Ａ,You're the Commander，correct? Sorry to have kept you waiting
 asyncjump,CHARA,chara_6,30,0.25,1,off,0,CONT
 
 
-message,援軍Ｂ,From now on，we are under your command! We look forward to working<br>with you!<br> ,401001000,vc_10540100001_008_01,chara_6
+message,援軍Ｂ,From now on，we are under your command! We look forward to<br>working with you!<br> ,401001000,vc_10540100001_008_01,chara_6
 
-message,<user>,Likewise，I look forward to it. But first，I'd like to assign<br>personnel to each unit.<br> 
+message,<user>,Likewise，I look forward to it. But first，I'd like to assign personnel<br>to each unit.<br> 
 
-message,<user>,Just a verbal report is fine，so if you could give me some info on<br>the soldiers—huh?<br> 
+message,<user>,Just a verbal report is fine，so if you could give me some info on the<br>soldiers—huh?<br> 
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -611,7 +611,7 @@ asyncseplay,setag1_21,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,フレイヤ,I want to fight for justice too! For that，I'm not afraid of<br>anything!<br> ,105401000G,vc_10540100001_016_01,chara_1
+message,フレイヤ,I want to fight for justice too! For that，I'm not afraid of anything!<br> ,105401000G,vc_10540100001_016_01,chara_1
 
 message,<user>,I see...<br> 
 
@@ -750,7 +750,7 @@ asynccharaemo,chara_5,Panic,CONT,0
 window,on,0.15
 message,援軍Ａ,I-I'm sorry，Commander... It seems our squad's oversight was<br>inadequate...<br> ,400901000,,chara_5
 
-message,<user>,No，there's no need to apologize. She's still young，but it's clear<br>she came to help us. There's no reason to turn her away.<br> 
+message,<user>,No，there's no need to apologize. She's still young，but it's clear she<br>came to help us. There's no reason to turn her away.<br> 
 
 window,off
 wait,0.15
@@ -819,7 +819,7 @@ message,フレイヤ,Yes! What should I start with? Abyss exploration? Monster<b
 
 message,<user>,Yeah，that's reassuring. But we've got a problem，too.<br> 
 
-message,<user>,You didn't go through the proper enlistment process，so we don't know<br>what you can do. What can you do，Freya?<br> 
+message,<user>,You didn't go through the proper enlistment process，so we don't<br>know what you can do. What can you do，Freya?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -833,7 +833,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 message,フレイヤ,I'm skilled with a sword! I've been training since I was a child!<br> ,105401000G,vc_10540100001_022_01,chara_1
 
-message,<user>,Ohh? So you can handle a sword! Perfect! I've got a job for you.<br>Will you come with me?<br> 
+message,<user>,Ohh? So you can handle a sword! Perfect! I've got a job for you. Will<br>you come with me?<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -870,7 +870,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,フレイヤ,(This is my first assignment... I wonder if it's the Abyss? Or maybe<br>a monster's nest?)<br> ,105401000G,vc_10540100001_024_01,chara_1
+message,フレイヤ,(This is my first assignment... I wonder if it's the Abyss? Or maybe a<br>monster's nest?)<br> ,105401000G,vc_10540100001_024_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -881,7 +881,7 @@ asyncseplay,setag1_30,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,フレイヤ,(Either way，I'll definitely succeed! I might be able to write to<br>Father and the others right away!♪)<br> ,105401000G,vc_10540100001_025_01,chara_1
+message,フレイヤ,(Either way，I'll definitely succeed! I might be able to write to Father<br>and the others right away!♪)<br> ,105401000G,vc_10540100001_025_01,chara_1
 
 
 
@@ -980,9 +980,9 @@ asynccharaemo,chara_1,BePeevish,CONT,0
 
 message,フレイヤ,Was that 'I'm counting on you' a lie?!<br> ,105401000G,vc_10540100001_029_01,chara_1
 
-message,<user>,No，no. I'm really in trouble. If we don't take care of<br>this，everyone's going to go hungry.<br> 
+message,<user>,No，no. I'm really in trouble. If we don't take care of this，everyone's<br>going to go hungry.<br> 
 
-message,<user>,This is also a noble task for justice! Bear with it for our sake!<br>Please!<br> 
+message,<user>,This is also a noble task for justice! Bear with it for our sake! Please!<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1061,7 +1061,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,フレイヤ,(It's not what I expected，but this is still a worthy task! I just<br>need to prove my power here!)<br> ,105401000G,vc_10540100001_033_01,chara_1
+message,フレイヤ,(It's not what I expected，but this is still a worthy task! I just need to<br>prove my power here!)<br> ,105401000G,vc_10540100001_033_01,chara_1
 
 window,off
 wait,0.15
@@ -1302,7 +1302,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 message,フレイヤ,Ehh!<br> ,105401000G,vc_10540100001_039_01,chara_1
 
-message,<user>,I appreciate you chasing it away，but unless we get rid of it，it's<br>not a proper solution.<br> 
+message,<user>,I appreciate you chasing it away，but unless we get rid of it，it's not<br>a proper solution.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 

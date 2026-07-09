@@ -122,7 +122,7 @@ message,<user>,I can see that. I'm asking what she is to you.<br>
 
 message,<user>,From how you acted earlier，you clearly know each other. Where did<br>you meet? What's the connection?<br> 
 
-message,<user>,You were yelling like that and trying to let her get away. She must<br>be pretty important to you，right?<br> 
+message,<user>,You were yelling like that and trying to let her get away. She must be<br>pretty important to you，right?<br> 
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -203,10 +203,9 @@ fade,Out,White,0.15
 fade,In,White,0.15
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
 shake,CHARA,chara_3,40,0,0.25,20,off,off,0
 shake,CHARA,chara_4,40,0,0.25,20,off,off,0
+shake,CHARA,chara_2,40,0,0.25,20,off,off,0
 
 window,on,0.15
 message,<user>,Oof!<br> 
@@ -670,7 +669,7 @@ message,少女,Big sister was nice to me! She didn't do anything bad!<br> ,40190
 
 message,<user>,Yeah. Based on the story，I think so too.<br> 
 
-message,<user>,Back then，you were in a tough spot，weren't you? So the thieves made<br>you do all the dirty work.<br> 
+message,<user>,Back then，you were in a tough spot，weren't you? So the thieves<br>made you do all the dirty work.<br> 
 
 message,<user>,But then，something unexpected happened.<br> 
 
@@ -774,7 +773,7 @@ asyncseplay,setag1_32,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ダリア,That's when I couldn't take it anymore. I hated the gang. And I<br>hated myself for being one of them.<br> ,103201000G,vc_10320100003_029_01,chara_1
+message,ダリア,That's when I couldn't take it anymore. I hated the gang. And I hated<br>myself for being one of them.<br> ,103201000G,vc_10320100003_029_01,chara_1
 
 window,off
 wait,0.15
@@ -837,7 +836,7 @@ asyncseplay,setag1_34,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ダリア,Even though she went through such a terrible thing because of me，she<br>still forgave me...<br> ,103201000G,vc_10320100003_031_01,chara_1
+message,ダリア,Even though she went through such a terrible thing because of<br>me，she still forgave me...<br> ,103201000G,vc_10320100003_031_01,chara_1
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -1089,7 +1088,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 message,ダリア,Ah!<br> ,103201000G,vc_10320100003_045_01,chara_1
 
-message,<user>,You're struggling to get by，aren't you? If you work here，I'll pay<br>you and give you a place to live.<br> 
+message,<user>,You're struggling to get by，aren't you? If you work here，I'll pay you<br>and give you a place to live.<br> 
 
 bgmplay,bgmtag1_3,bgm0038,0.75,1
 
@@ -1104,7 +1103,7 @@ asynccharaemo,chara_2,Twinkle,CONT,0
 
 message,少女,Really!?<br> ,401901000,vc_10320100003_046_01,chara_2
 
-message,<user>,Yeah. But I'm not as soft as Daria. If you don't work hard，I'll kick<br>you out right away—<br> 
+message,<user>,Yeah. But I'm not as soft as Daria. If you don't work hard，I'll kick you<br>out right away—<br> 
 
 window,off
 wait,0.15
@@ -1151,10 +1150,10 @@ asyncseplay,setag1_49,se4800018,0,1,CONT,0
 asynccharaemo,chara_2,Flower,CONT,0
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
+asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
+asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
 
 
 window,on,0.15
@@ -1637,7 +1636,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 window,on,0.15
 message,ダリア,...Um，Boss... I'm sorry for causing you so much trouble.<br> ,103201000G,vc_10320100003_058_01,chara_1
 
-message,<user>,Hmph. You've got that right. You'll repay me for the trouble with<br>your work.<br> 
+message,<user>,Hmph. You've got that right. You'll repay me for the trouble with your<br>work.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1836,9 +1835,6 @@ asyncseplay,setag1_79,se4400119,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
 shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 
 message,<user>,H-Hey，stop it!<br>Why are you hugging me too!<br> 
 

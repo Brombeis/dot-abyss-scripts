@@ -272,9 +272,6 @@ asyncseplay,setag1_14,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
 shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 shake,CHARA,chara_6,40,0,0.25,20,off,off,0
 shake,CHARA,chara_7,40,0,0.25,20,off,off,0
@@ -492,12 +489,6 @@ asyncwait
 asyncseplay,setag1_20,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
-shake,CHARA,chara_6,40,0,0.25,20,off,off,0
 shake,CHARA,chara_7,40,0,0.25,20,off,off,0
 
 wait,0.5
@@ -934,7 +925,7 @@ asyncseplay,setag1_33,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,テルー,It's not my specialty，so it's just basic first aid... But I do this<br>all the time，so don't worry!♪<br> ,106001000G,vc_10600100002_007_01,chara_1
+message,テルー,It's not my specialty，so it's just basic first aid... But I do this all the<br>time，so don't worry!♪<br> ,106001000G,vc_10600100002_007_01,chara_1
 
 window,off
 wait,0.15
@@ -1111,7 +1102,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 message,テルー,Fufu，that's good. But be sure to get it properly checked at the<br>Forward Base，okay?<br> ,106001000G,vc_10600100002_011_01,chara_1
 
-message,<user>,Looks like the Telu Guard's going to get another member...<br>Well，can't blame him after being treated that nicely.<br> 
+message,<user>,Looks like the Telu Guard's going to get another member... Well，can't<br>blame him after being treated that nicely.<br> 
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -1361,7 +1352,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,...Telu，I'll help too. It'd be better to have extra hands to prepare<br>the tools and recover arrows along the way，right?<br> 
+message,<user>,...Telu，I'll help too. It'd be better to have extra hands to prepare the<br>tools and recover arrows along the way，right?<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1373,7 +1364,7 @@ asyncseplay,setag1_49,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,テルー,Nope! Commander，you've been totally focused the whole time，so you're<br>the most tired，right? I'm fine，so you go on ahead!♪<br> ,106001000G,vc_10600100002_015_01,chara_1
+message,テルー,Nope! Commander，you've been totally focused the whole time，so<br>you're the most tired，right? I'm fine，so you go on ahead!♪<br> ,106001000G,vc_10600100002_015_01,chara_1
 
 message,<user>,...Got it. You wrap up early too，okay?<br> 
 
@@ -1432,7 +1423,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 wait,0.5
 
 window,on,0.15
-message,<user>,...Seeing Telu like that，I can't afford to slack off either. Guess<br>I'll keep at it a bit longer.<br> 
+message,<user>,...Seeing Telu like that，I can't afford to slack off either. Guess I'll<br>keep at it a bit longer.<br> 
 
 bgmstop,bgmtag1_3,1.5,0
 
@@ -1553,7 +1544,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,テルー,Good evening，Commander! I brought you some homemade snacks. I made<br>them in the kitchen!♪<br> ,106001000G,vc_10600100002_018_01,chara_1
+message,テルー,Good evening，Commander! I brought you some homemade snacks. I<br>made them in the kitchen!♪<br> ,106001000G,vc_10600100002_018_01,chara_1
 
 message,<user>,Oh，thanks. Telu，you can cook too?<br> 
 
@@ -1740,7 +1731,7 @@ wait,0.15
 charafocusonall
 
 window,on,0.15
-message,<user>,Whoa! Did you spill it on your clothes? At least it wasn't hot...<br>that's good.<br> 
+message,<user>,Whoa! Did you spill it on your clothes? At least it wasn't hot... that's<br>good.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1937,7 +1928,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(Well，if she's this energetic，she'll be fine. I'll let her do things<br>her way.)<br> 
+message,<user>,(Well，if she's this energetic，she'll be fine. I'll let her do things her<br>way.)<br> 
 
 bgmstop,bgmtag1_4,1.5,0
 
@@ -2105,7 +2096,7 @@ wait,1
 window,on,0.15
 message,テルー,*puff*... *pant*...<br> ,106001000G,vc_10600100002_033_01,chara_1
 
-message,<user>,...Telu? Are you okay? You're breathing hard and you look<br>unsteady...<br> 
+message,<user>,...Telu? Are you okay? You're breathing hard and you look unsteady...<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -2159,12 +2150,6 @@ wait,1
 
 shake,BACK,,20,0,0.25,30,off,off,0
 shake,CHARA,chara_1,20,0,0.25,30,off,off,0
-shake,CHARA,chara_2,20,0,0.25,30,off,off,0
-shake,CHARA,chara_3,20,0,0.25,30,off,off,0
-shake,CHARA,chara_4,20,0,0.25,30,off,off,0
-shake,CHARA,chara_5,20,0,0.25,30,off,off,0
-shake,CHARA,chara_6,20,0,0.25,30,off,off,0
-shake,CHARA,chara_7,20,0,0.25,30,off,off,0
 
 window,on,0.15
 message,,Saying 'I'm fine，I'm fine，' Telu raised both hands，then wobbled and<br>collapsed against the Commander.<br> 
@@ -2246,13 +2231,6 @@ asyncwait
 asyncseplay,setag1_78,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
-shake,CHARA,chara_6,40,0,0.25,20,off,off,0
-shake,CHARA,chara_7,40,0,0.25,20,off,off,0
 
 asyncwait
 

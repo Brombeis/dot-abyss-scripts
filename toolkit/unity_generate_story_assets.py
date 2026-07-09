@@ -21,9 +21,26 @@ sys.path.insert(0, os.path.dirname(__file__))
 import common
 
 MESSAGE_FONT_SIZE = 28
-MESSAGE_CHARS_PER_LINE = 68
-
 DOTMESSAGE_FONT_SIZE = 24
+
+FONT_METRICS_PATH = os.path.join(common.REPO_ROOT, "data", "font_metrics.json")
+_font_metrics = common.load_json(FONT_METRICS_PATH, None)
+if not _font_metrics:
+    raise RuntimeError(
+        "data/font_metrics.json not found. Run "
+        "`PYTHONUTF8=1 python toolkit/extract_font_metrics.py` first "
+        "(needs the general-textmeshpro font bundle in bundles_cache/)."
+    )
+
+CHAR_WIDTHS = dict(_font_metrics["widths"])
+# Override space width since they're handled differently by the fontSpacing plugin
+CHAR_WIDTHS[" "] = 0.4375 * CHAR_WIDTHS["M"]
+_AVG_CHAR_WIDTH = sum(CHAR_WIDTHS.values()) / len(CHAR_WIDTHS)
+
+# Max total glyph width per line, in the same units as CHAR_WIDTHS.
+# Calibrated in-game: a line of 44 uppercase M's fits without overflowing, 
+# so budget = 44 * M's width, minus a small safety margin for rounding. 
+MESSAGE_WIDTH_BUDGET = 1530
 
 # useProportional renders spaces at nearly zero width; repeat them to compensate.
 PROPORTIONAL_MODE = True
@@ -98,7 +115,7 @@ def build_one(scene_path, match=None, outdir=UNITY_ASSET_DIR):
 def apply_translation_unity(text, scene_records, scene_name=""):
     """Rebuild the full script with translations and crash-fix patches applied."""
     body = {(r["line"], r["field"]): r.get("en", "") for r in scene_records}
-    loaded_charas = []  # chara slot ids seen in charaload, in order
+    loaded_charas = []  # chara slot ids currently active (loaded, not yet emodeleted), in order
     out_lines = []
     for line_no, raw in enumerate(text.splitlines()):
         if not raw.strip() or raw.lstrip().startswith("//"):
@@ -107,8 +124,12 @@ def apply_translation_unity(text, scene_records, scene_name=""):
         parts = raw.split(",")
         cmd = parts[0]
 
-        if cmd == "charaload" and len(parts) > 1 and parts[1] not in loaded_charas:
+        if cmd in ("charaload", "asynccharashow") and len(parts) > 1 and parts[1] not in loaded_charas:
             loaded_charas.append(parts[1])
+        elif cmd == "charashowalpha" and len(parts) > 2 and parts[2] == "1" and parts[1] not in loaded_charas:
+            loaded_charas.append(parts[1])
+        elif cmd in ("charahide", "asynccharahide", "emodelete") and len(parts) > 1 and parts[1] in loaded_charas:
+            loaded_charas.remove(parts[1])
 
         if cmd == "asyncshakeall":
             out_lines.extend(_expand_asyncshakeall(parts, loaded_charas))
@@ -194,19 +215,19 @@ def format_message_text(en):
         return en_safe
 
     fs = MESSAGE_FONT_SIZE
-    cpl = MESSAGE_CHARS_PER_LINE
+    budget = MESSAGE_WIDTH_BUDGET
 
     br_match = re.search(r'<br>', en_safe, re.IGNORECASE)
     if br_match:
         half1 = en_safe[:br_match.start()]
         half2 = en_safe[br_match.end():]
-        if display_len(half1) <= cpl and display_len(half2) <= cpl:
+        if display_width(half1) <= budget and display_width(half2) <= budget:
             line1, line2 = half1, half2
         else:
             stripped = half1 + ' ' + half2
-            line1, line2 = word_wrap_at(stripped, cpl)
+            line1, line2 = word_wrap_at(stripped, budget)
     else:
-        line1, line2 = word_wrap_at(en_safe, cpl)
+        line1, line2 = word_wrap_at(en_safe, budget)
 
     if PROPORTIONAL_MODE:
         line1 = _expand_spaces(line1)
@@ -217,15 +238,15 @@ def format_message_text(en):
             return f"{line1}<br> "
     else:
         if line2:
-            line1_padded = pad_to(line1, cpl)
+            line1_padded = pad_to(line1, budget)
             return f"<size={fs}>{line1_padded}<br><size={fs}>{line2}<br> "
         else:
             return f"<size={fs}>{line1}<br> "
 
 
-def word_wrap_at(text, per_line):
-    """Split text at the last word boundary within per_line display chars."""
-    if display_len(text) <= per_line:
+def word_wrap_at(text, width_budget):
+    """Split text at the last word boundary within width_budget display width."""
+    if display_width(text) <= width_budget:
         return text, ""
 
     words = text.split(" ")
@@ -234,40 +255,55 @@ def word_wrap_at(text, per_line):
 
     for i, word in enumerate(words):
         candidate = current + (" " if current else "") + word
-        if display_len(candidate) <= per_line:
+        if display_width(candidate) <= width_budget:
             current = candidate
             last_good_split = i + 1
         else:
             break
 
     if last_good_split == 0:
-        # First word already too long; hard-split at per_line chars.
+        # First word already too long; hard-split at width_budget.
         pos = 0
-        dlen = 0
+        dlen = 0.0
         while pos < len(text):
             if pos + 1 < len(text) and text[pos:pos + 2] == '""':
-                dlen += 1
+                dlen += char_width('"')
                 pos += 2
             else:
-                dlen += 1
+                dlen += char_width(text[pos])
                 pos += 1
-            if dlen >= per_line:
+            if dlen >= width_budget:
                 break
         return text[:pos], text[pos:].lstrip()
 
     return current, " ".join(words[last_good_split:])
 
 
-def pad_to(text, target_display_len):
-    current = display_len(text)
-    if current < target_display_len:
-        text += " " * (target_display_len - current)
+def pad_to(text, target_width):
+    current = display_width(text)
+    space_w = char_width(" ")
+    while current < target_width:
+        text += " "
+        current += space_w
     return text
 
 
-def display_len(text):
-    """Character count for wrap purposes: doubled quotes \"\" count as 1 char."""
-    return len(re.sub(r'""', 'X', text))
+def char_width(ch):
+    return CHAR_WIDTHS.get(ch, _AVG_CHAR_WIDTH)
+
+
+def display_width(text):
+    """Sum of glyph advance widths for wrap purposes; doubled quotes \"\" count as one '"'."""
+    total = 0.0
+    i = 0
+    while i < len(text):
+        if text[i:i + 2] == '""':
+            total += char_width('"')
+            i += 2
+        else:
+            total += char_width(text[i])
+            i += 1
+    return total
 
 
 if __name__ == "__main__":

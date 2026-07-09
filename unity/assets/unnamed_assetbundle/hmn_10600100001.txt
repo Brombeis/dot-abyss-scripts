@@ -350,9 +350,6 @@ prefabshowUI,uieffect_4
 wait,0.1
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
 shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 
 wait,0.5
@@ -531,7 +528,7 @@ asyncseplay,setag1_19,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,テルー,Alright，time for the next trick shot! Um，the five arrows I just<br>shot...<br> ,106001000G,vc_10600100001_006_01,chara_1
+message,テルー,Alright，time for the next trick shot! Um，the five arrows I just shot...<br> ,106001000G,vc_10600100001_006_01,chara_1
 
 window,off
 wait,0.15
@@ -619,9 +616,6 @@ asyncwait
 asyncseplay,setag1_22,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
 shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 
 window,on,0.15
@@ -808,7 +802,7 @@ asynccharaemo,chara_1,Shy,CONT,0
 window,on,0.15
 message,テルー,Ugh... Geez! You're all saying too much! You're teasing me，aren't<br>you!<br> ,106001000G,vc_10600100001_009_01,chara_1
 
-message,兵士Ａ,Even the way she blushes is cute! Kah! I can't take it! I'd risk my<br>life for that girl!<br> ,400901000
+message,兵士Ａ,Even the way she blushes is cute! Kah! I can't take it! I'd risk my life<br>for that girl!<br> ,400901000
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -860,7 +854,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(Hmm，she really is popular. It's a problem if they start forming<br>weird units on their own，but... well，I guess I'll just leave them be.)<br> 
+message,<user>,(Hmm，she really is popular. It's a problem if they start forming weird<br>units on their own，but... well，I guess I'll just leave them be.)<br> 
 
 window,off
 wait,0.15
@@ -924,7 +918,7 @@ wait,1
 asyncseplay,se1_1003,se4600010,0,1,CONT,0
 
 window,on,0.15
-message,,And so，with great success throughout，Telu's street performance came<br>to a close.<br> 
+message,,And so，with great success throughout，Telu's street performance<br>came to a close.<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -1086,7 +1080,7 @@ wait,0.5
 window,on,0.15
 message,テルー,So I want everyone to have some fun and smile，that's it!♪<br> ,106001000G,vc_10600100001_017_01,chara_1
 
-message,<user>,Morale-boosting at the front lines... That's a really admirable<br>thing to do.<br> 
+message,<user>,Morale-boosting at the front lines... That's a really admirable thing to<br>do.<br> 
 
 message,<user>,Entertainment for the soldiers is my job as Commander. Maybe I<br>should follow Telu's example and be nicer to everyone...<br> 
 
@@ -1113,7 +1107,7 @@ asyncseplay,setag1_39,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,テルー,Because you always care about everyone. You're always walking around<br>town making sure nobody's in trouble，right?♪<br> ,106001000G,vc_10600100001_019_01,chara_1
+message,テルー,Because you always care about everyone. You're always walking<br>around town making sure nobody's in trouble，right?♪<br> ,106001000G,vc_10600100001_019_01,chara_1
 
 message,<user>,*guh*... You knew about that...?<br> 
 
@@ -1327,7 +1321,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(She's doing another show for those who missed it? She's really<br>kind.)<br> 
+message,<user>,(She's doing another show for those who missed it? She's really kind.)<br> 
 
 window,off
 wait,0.15
@@ -1351,7 +1345,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 
 window,on,0.15
-message,テルー,Maybe for the next one I'll set off a big firework!♪ I'll start<br>prepping now!<br> ,106001000G,vc_10600100001_027_01,chara_1
+message,テルー,Maybe for the next one I'll set off a big firework!♪ I'll start prepping<br>now!<br> ,106001000G,vc_10600100001_027_01,chara_1
 
 window,off
 wait,0.15
@@ -1511,10 +1505,6 @@ wait,1
 asyncseplay,setag1_55,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 
 window,on,0.15
 message,,The Commander dove to catch Telu as she fell in front of him. But he<br>couldn't support her，and both of them ended up tumbling to the ground.<br> 
@@ -1710,7 +1700,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(I'm grabbing Telu's breasts without realizing it! How did we end up<br>in this position!?)<br> 
+message,<user>,(I'm grabbing Telu's breasts without realizing it! How did we end up in<br>this position!?)<br> 
 
 window,off
 wait,0.15
@@ -1850,7 +1840,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,テルー,E-everyone，calm down! What happened just now isn't the Commander's<br>fault...<br> ,106001000G,vc_10600100001_032_01,chara_1
+message,テルー,E-everyone，calm down! What happened just now isn't the<br>Commander's fault...<br> ,106001000G,vc_10600100001_032_01,chara_1
 
 window,off
 wait,0.15
@@ -1941,10 +1931,6 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 
 wait,1
 
@@ -2002,9 +1988,9 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(Something soft is on my face! It's warm，and I can smell Telu's<br>sweet scent...!)<br> 
+message,<user>,(Something soft is on my face! It's warm，and I can smell Telu's sweet<br>scent...!)<br> 
 
-message,<user>,(Why! How did it come to this! What kind of clumsy girl are<br>you，Telu!)<br> 
+message,<user>,(Why! How did it come to this! What kind of clumsy girl are you，Telu!)<br> 
 
 window,off
 wait,0.15
@@ -2113,7 +2099,7 @@ asynccharaemo,chara_3,Anger,CONT,0
 
 
 window,on,0.15
-message,兵士Ｂ,I can't forgive this... Why does only the Commander get to<br>experience something so delightfully embarrassing...!<br> ,401201000,,chara_3
+message,兵士Ｂ,I can't forgive this... Why does only the Commander get to experience<br>something so delightfully embarrassing...!<br> ,401201000,,chara_3
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0

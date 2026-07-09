@@ -90,7 +90,7 @@ asyncseplay,setag1_2,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,リタ,Please wait for me，Commander! Magic Swordsman Rita is on her way to<br>meet you now!<br> ,105501000G,vc_10550100001_002_01,chara_1
+message,リタ,Please wait for me，Commander! Magic Swordsman Rita is on her way<br>to meet you now!<br> ,105501000G,vc_10550100001_002_01,chara_1
 
 
 
@@ -153,7 +153,7 @@ message,リタ,The Commander... at the Frontline Base?<br> ,105501000G,vc_105501
 
 message,リタの父親,Yeah. He's young but impressive... They say no matter the odds，he<br>never gives up and turns things around with his own sword.<br> ,900000001
 
-message,リタの父親,His strength is the pinnacle of martial skill. In one battle，he<br>alone rescued an army in crisis and shouted at the top of his lungs.<br> ,900000001
+message,リタの父親,His strength is the pinnacle of martial skill. In one battle，he alone<br>rescued an army in crisis and shouted at the top of his lungs.<br> ,900000001
 
 message,リタの父親,'You evil monsters! Take my ultimate blade! Perfect Slash!'<br> ,900000001
 
@@ -565,8 +565,6 @@ message,,The bouncers hired by the tavern started beating %user% soundly.<br>
 asyncseplay,se1_1001,SE_DUMMY,0,1,CONT,0
 
 asyncshake,BACK,,24,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_1,24,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_2,24,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_3,24,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_4,24,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_5,24,0,0.6,5,off,off,0,on,CONT,0
@@ -1092,11 +1090,6 @@ message,,Rita crept up behind the Commander and struck him on the head with<br>h
 asyncseplay,setag1_28,se4900065,0,1,CONT,0
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_5,40,0,0.25,20,off,off,0,off,CONT,0
 
 message,,<size=48>thwack!</size>
 
@@ -1411,7 +1404,7 @@ asyncseplay,setag1_41,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,リタ,(...Not kind at all. So it really was a fantasy. How<br>disappointing...)<br> ,105501000G,vc_10550100001_040_01,chara_1
+message,リタ,(...Not kind at all. So it really was a fantasy. How disappointing...)<br> ,105501000G,vc_10550100001_040_01,chara_1
 
 window,off
 wait,0.15
@@ -1446,7 +1439,7 @@ asyncseplay,setag1_43,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,リタ,I told my father back in Perdion that I wouldn't be coming home for<br>a while，and then I ran away from home.<br> ,105501000G,vc_10550100001_042_01,chara_1
+message,リタ,I told my father back in Perdion that I wouldn't be coming home for a<br>while，and then I ran away from home.<br> ,105501000G,vc_10550100001_042_01,chara_1
 
 window,off
 wait,0.15
@@ -1465,7 +1458,7 @@ wait,0.5
 
 
 window,on,0.15
-message,リタ,I can't return right away. Would you allow me to stay by your side<br>as your guard，Lord Commander?<br> ,105501000G,vc_10550100001_043_01,chara_1
+message,リタ,I can't return right away. Would you allow me to stay by your side as<br>your guard，Lord Commander?<br> ,105501000G,vc_10550100001_043_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1506,7 +1499,7 @@ message,<user>,Your reluctance is showing.<br>
 
 message,<user>,First of all，I can't entrust my protection to a complete stranger. I<br>don't even know if you're strong—and frankly，you look weak.<br> 
 
-message,<user>,I think you'd be much better suited as a talk partner for Alicia<br>than as a guard.<br> 
+message,<user>,I think you'd be much better suited as a talk partner for Alicia than<br>as a guard.<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1519,7 +1512,7 @@ asynccharaemo,chara_1,Anger,CONT,0
 
 message,リタ,H-How rude! Stringing together such crude language... Don't you have<br>any shame!<br> ,105501000G,vc_10550100001_045_01,chara_1
 
-message,<user>,I don't care. ...Alicia，handle her as you see fit. I'll decide what<br>to do once I see how things go.<br> 
+message,<user>,I don't care. ...Alicia，handle her as you see fit. I'll decide what to do<br>once I see how things go.<br> 
 
 asynccharaface,chara_5,FaceSad,CONT,0
 

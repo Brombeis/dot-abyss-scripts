@@ -260,7 +260,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(...Can't be helped. I'll decide on backup after seeing the scene...<br>If it seems too tough，even Celeste will back down.)<br> 
+message,<user>,(...Can't be helped. I'll decide on backup after seeing the scene... If it<br>seems too tough，even Celeste will back down.)<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -326,7 +326,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,セレスト,Huh...? Those guys are built like bricks... they look pretty<br>tough...<br> ,104801000G,vc_10480100003_006_01,chara_1
+message,セレスト,Huh...? Those guys are built like bricks... they look pretty tough...<br> ,104801000G,vc_10480100003_006_01,chara_1
 
 message,<user>,They definitely don't look weak... And judging by the map，there are<br>about ten of them，right?<br> 
 
@@ -407,7 +407,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(If I tell her no，she'll probably lose her motivation. But if I'm<br>too generous，Alicia will get mad at me...)<br> 
+message,<user>,(If I tell her no，she'll probably lose her motivation. But if I'm too<br>generous，Alicia will get mad at me...)<br> 
 
 window,off
 wait,0.15
@@ -466,11 +466,11 @@ asyncseplay,setag1_12,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,セレスト,Then it's a frontal assault. They'll underestimate me since I'm just<br>a woman，so I'll arrest them all!<br> ,104801000G,vc_10480100003_013_01,chara_1
+message,セレスト,Then it's a frontal assault. They'll underestimate me since I'm just a<br>woman，so I'll arrest them all!<br> ,104801000G,vc_10480100003_013_01,chara_1
 
 message,<user>,Aside from your worry about the strength difference，it's a passing<br>grade... Good grief. What happened to that lazy attitude from earlier?<br> 
 
-message,<user>,Can't be helped. I'll trust your confidence this once. But I'm<br>calling in some soldiers I can command，just in case.<br> 
+message,<user>,Can't be helped. I'll trust your confidence this once. But I'm calling in<br>some soldiers I can command，just in case.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -483,7 +483,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 message,セレスト,Ehh?<br> ,104801000G,vc_10480100003_014_01,chara_1
 
-message,<user>,I'll have them wait till you're losing，so cut me some slack.<br>Civilian safety and capturing the criminals are top priority.<br> 
+message,<user>,I'll have them wait till you're losing，so cut me some slack. Civilian<br>safety and capturing the criminals are top priority.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -539,8 +539,6 @@ wait,0.5
 asyncseplay,setag1_16,se4300007,0,1,CONT,0
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
 
@@ -785,10 +783,8 @@ charafocusonall
 asyncseplay,setag1_22,SE_DUMMY,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
 shake,CHARA,chara_4,40,0,0.25,20,off,off,0
+shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 
 crossfadeready
 
@@ -1149,9 +1145,6 @@ charafocusonall
 asyncseplay,setag1_34,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
 shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 
 wait,0.5
@@ -1247,9 +1240,6 @@ wait,1
 asyncseplay,setag1_36,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
 shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 
 wait,0.5
@@ -1415,10 +1405,9 @@ asyncwait
 asyncseplay,setag1_41,se4900052,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
 shake,CHARA,chara_4,40,0,0.25,20,off,off,0
+shake,CHARA,chara_3,40,0,0.25,20,off,off,0
+shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 
 wait,0.4
 
@@ -1437,10 +1426,9 @@ asyncwait
 asyncseplay,setag1_42,se4900052,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
 shake,CHARA,chara_4,40,0,0.25,20,off,off,0
+shake,CHARA,chara_3,40,0,0.25,20,off,off,0
+shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 
 window,on,0.15
 message,,Celeste blocked the robber's sword. He raised it high and brought it<br>down repeatedly，using his superior stamina to overwhelm her.<br> 
@@ -1532,10 +1520,8 @@ fade,Out,White,0.15
 fade,In,White,0.15
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
 shake,CHARA,chara_4,40,0,0.25,20,off,off,0
+shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 
 window,on,0.15
 message,,It was nothing but simple repeated attacks，but Celeste had lost her<br>stamina and could barely defend.<br> 
@@ -1552,10 +1538,8 @@ fade,Out,White,0.15
 fade,In,White,0.15
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
 shake,CHARA,chara_4,40,0,0.25,20,off,off,0
+shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1614,7 +1598,7 @@ crossfade,0.5,0,0,1,1
 wait,0.5
 
 window,on,0.15
-message,<user>,Celeste! If you take him down，I'll throw in a special bonus! I'll<br>add ten percent to the bounty!<br> 
+message,<user>,Celeste! If you take him down，I'll throw in a special bonus! I'll add<br>ten percent to the bounty!<br> 
 
 window,off
 wait,0.15
@@ -1697,10 +1681,8 @@ asyncseplay,setag1_50,se4800011,0,1,CONT,0
 asynccharaemo,chara_3,ExclaQues,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
 shake,CHARA,chara_4,40,0,0.25,20,off,off,0
+shake,CHARA,chara_3,40,0,0.25,20,off,off,0
 
 
 window,on,0.15
@@ -1773,10 +1755,8 @@ asyncwait
 asyncseplay,setag1_51,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
 shake,CHARA,chara_4,40,0,0.25,20,off,off,0
+shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 
 window,on,0.15
 message,,Celeste's renewed attack sent the robber flying. %user% approached<br>and checked if he was conscious.<br> 
@@ -1860,9 +1840,9 @@ asyncseplay,setag1_53,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,セレスト,But the bounty! A ten percent bonus! You weren't kidding，were you?!<br> ,104801000G,vc_10480100003_028_01,chara_1
+message,セレスト,But the bounty! A ten percent bonus! You weren't kidding，were<br>you?!<br> ,104801000G,vc_10480100003_028_01,chara_1
 
-message,<user>,Ahaha. Got it，got it. I'll officially summon you through the guard<br>unit later. I'll pay you then.<br> 
+message,<user>,Ahaha. Got it，got it. I'll officially summon you through the guard unit<br>later. I'll pay you then.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -2000,7 +1980,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,セレスト,Guard Captain，this is the command room，isn't it? What are you doing<br>here—<br> ,104801000G,vc_10480100003_031_01,chara_1
+message,セレスト,Guard Captain，this is the command room，isn't it? What are you<br>doing here—<br> ,104801000G,vc_10480100003_031_01,chara_1
 
 window,off
 wait,0.15
@@ -2117,7 +2097,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 message,セレスト,Eep! I'm sorry...!<br> ,104801000G,vc_10480100003_034_01,chara_1
 
-message,<user>,You did a great job arresting that robber and wiping out the<br>bandits. For your achievements，I'm paying you the bounty，Celeste. Thank you.<br> 
+message,<user>,You did a great job arresting that robber and wiping out the bandits.<br>For your achievements，I'm paying you the bounty，Celeste. Thank you.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -2185,7 +2165,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,セレスト,...Is it really okay to accept the bounty? What about the false<br>arrest?<br> ,104801000G,vc_10480100003_036_01,chara_1
+message,セレスト,...Is it really okay to accept the bounty? What about the false arrest?<br> ,104801000G,vc_10480100003_036_01,chara_1
 
 message,<user>,Let bygones be bygones. Be more careful from now on.<br>Actually listen to what people tell you.<br> 
 
@@ -2211,7 +2191,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 message,セレスト,But I'm happy!♪ Money's the best!♡<br>Ehehehehe.<br> ,104801000G,vc_10480100003_038_01,chara_1
 
-message,<user>,I had a hard time convincing the Deputy Commander，so make sure you<br>use it wisely，okay?<br> 
+message,<user>,I had a hard time convincing the Deputy Commander，so make sure<br>you use it wisely，okay?<br> 
 
 window,off
 wait,0.15
@@ -2374,7 +2354,7 @@ asynccharaemo,chara_1,Anger,CONT,0
 
 
 window,on,0.15
-message,セレスト,Then that's pointless! I don't like saving money! I like spending it<br>and having fun!<br> ,104801000G,vc_10480100003_043_01,chara_1
+message,セレスト,Then that's pointless! I don't like saving money! I like spending it and<br>having fun!<br> ,104801000G,vc_10480100003_043_01,chara_1
 
 message,<user>,I want you to start the next exploration right away. Starting<br>tomorrow，I'm planning to take on the Abyss for a few days.<br> 
 

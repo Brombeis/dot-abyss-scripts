@@ -235,7 +235,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(Her expressions change all the time，and she talks so much... I<br>never get bored watching her.)<br> 
+message,<user>,(Her expressions change all the time，and she talks so much... I never<br>get bored watching her.)<br> 
 
 window,off
 wait,0.15
@@ -350,7 +350,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 message,ホノカ,I-I'm glad you'd help，but is it really okay...? Won't that wear you<br>out，Commander?<br> ,106301000G,vc_10630100003_011_01,chara_1
 
-message,<user>,It's fine. I told you，didn't I? 'If you're in trouble，I'll help，so<br>rely on me.' That's the Commander's duty.<br> 
+message,<user>,It's fine. I told you，didn't I? 'If you're in trouble，I'll help，so rely on<br>me.' That's the Commander's duty.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -391,9 +391,6 @@ wait,0.5
 
 shake,BACK,,40,0,0.25,20,off,off,0
 shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 
 asyncjump,CHARA,chara_1,-30,0.5,2,off,0,CONT
 
@@ -645,10 +642,6 @@ charafocusonall
 cleanall,EFFECT
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 
 window,on,0.15
 message,<user>,Whoa! The sword split and went *bwahahaha*?!<br> 
@@ -732,7 +725,7 @@ emodelete,chara_1,0,0
 fade,In,Black,1
 
 window,on,0.15
-message,,The Commander's deciphering of Honoka-speak went on day and night.<br> 
+message,,The Commander's deciphering of Honoka-speak went on day and<br>night.<br> 
 
 window,off
 wait,0.15
@@ -1292,7 +1285,7 @@ asyncseplay,setag1_43,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ホノカ,Yeah! I used the mechanism from one of those floating clocks I saw<br>at the store!<br> ,106301000G,vc_10630100003_028_01,chara_1
+message,ホノカ,Yeah! I used the mechanism from one of those floating clocks I saw at<br>the store!<br> ,106301000G,vc_10630100003_028_01,chara_1
 
 window,off
 wait,0.15
@@ -1614,7 +1607,7 @@ asyncseplay,setag1_54,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ホノカ,They also come to me with ideas like 'could you do it more like<br>this?' so as a blacksmith，I'm learning a ton!<br> ,106301000G,vc_10630100003_037_01,chara_1
+message,ホノカ,They also come to me with ideas like 'could you do it more like this?'<br>so as a blacksmith，I'm learning a ton!<br> ,106301000G,vc_10630100003_037_01,chara_1
 
 message,<user>,Ahaha，really? That's great!<br> 
 
@@ -1687,7 +1680,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,I have a report too. It's about the results of the soldiers using<br>your weapons.<br> 
+message,<user>,I have a report too. It's about the results of the soldiers using your<br>weapons.<br> 
 
 message,<user>,They're getting amazing combat results. It's only natural that your<br>popularity went up，Honoka.<br> 
 
@@ -1823,9 +1816,6 @@ asyncseplay,setag1_63,se4400119,0,1,CONT,0
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
 message,,Honoka hugged %user% tightly.<br> 

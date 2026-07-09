@@ -384,7 +384,7 @@ asynccharaemo,chara_5,Twinkle,CONT,0
 
 
 window,on,0.15
-message,マリナ,And wow!? What is this mineral! It's a color I've never seen! Could<br>it be... a new species of mineral...!?<br> ,100301000G,mcv_1001030401_013_01,chara_5
+message,マリナ,And wow!? What is this mineral!<br>It's a color I've never seen! Could it be... a new species of mineral...!?<br> ,100301000G,mcv_1001030401_013_01,chara_5
 
 window,off
 wait,0.15
@@ -600,12 +600,6 @@ asyncwait
 asyncseplay,setag1_19,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
-shake,CHARA,chara_6,40,0,0.25,20,off,off,0
 shake,CHARA,chara_7,40,0,0.25,20,off,off,0
 shake,CHARA,chara_8,40,0,0.25,20,off,off,0
 
@@ -866,7 +860,7 @@ asyncseplay,setag1_26,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,ソフィア,I mean，getting that worked up over it could cause a dizzy<br>spell，but...<br> ,106501000G,mcv_1001030401_025_01,chara_3
+message,ソフィア,I mean，getting that worked up over it could cause a dizzy spell，but...<br> ,106501000G,mcv_1001030401_025_01,chara_3
 
 
 window,off
@@ -877,14 +871,10 @@ charafocusonall
 asyncseplay,se1_1001,se4700052,0,1,CONT,0
 
 asyncshake,BACK,,24,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_1,24,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_2,24,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_3,24,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_4,24,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_5,24,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_6,24,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_7,24,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_8,24,0,0.6,5,off,off,0,on,CONT,0
+asyncshake,CHARA,chara_4,24,0,0.6,5,off,off,0,on,CONT,0
+asyncshake,CHARA,chara_3,24,0,0.6,5,off,off,0,on,CONT,0
 
 asynccharaface,chara_4,FaceSurprise,CONT,0
 

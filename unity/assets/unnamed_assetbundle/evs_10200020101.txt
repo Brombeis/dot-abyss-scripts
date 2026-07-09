@@ -156,13 +156,13 @@ asynccrossfade,0.5,0,0,1,1,STOP
 waitorclick,0.8
 
 shake,BACK,,20,0,0.25,30,off,off,0
-shake,CHARA,chara_1,20,0,0.25,30,off,off,0
 shake,CHARA,chara_2,20,0,0.25,30,off,off,0
 shake,CHARA,chara_3,20,0,0.25,30,off,off,0
 shake,CHARA,chara_4,20,0,0.25,30,off,off,0
 shake,CHARA,chara_5,20,0,0.25,30,off,off,0
 shake,CHARA,chara_6,20,0,0.25,30,off,off,0
 shake,CHARA,chara_7,20,0,0.25,30,off,off,0
+shake,CHARA,chara_1,20,0,0.25,30,off,off,0
 
 window,on,0.15
 message,<user>,H-hey，Shiraes. Do you have to pat my head?<br>It makes me want to regress into a baby，you know?<br> 
@@ -384,13 +384,13 @@ asynccharaface,chara_1,FaceSurprise,CONT,0
 asyncseplay,setag1_11,se4400120,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 shake,CHARA,chara_2,40,0,0.25,20,off,off,0
 shake,CHARA,chara_3,40,0,0.25,20,off,off,0
 shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 shake,CHARA,chara_6,40,0,0.25,20,off,off,0
 shake,CHARA,chara_7,40,0,0.25,20,off,off,0
+shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 
 window,off
 wait,0.15
@@ -1052,11 +1052,6 @@ asyncwait
 asyncseplay,setag1_30,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 shake,CHARA,chara_6,40,0,0.25,20,off,off,0
 shake,CHARA,chara_7,40,0,0.25,20,off,off,0
 
@@ -1117,7 +1112,7 @@ asyncseplay,setag1_32,se4800001,0,1,CONT,0
 asynccharaemo,chara_2,Anger,CONT,0
 
 
-message,盗賊,Damn it，I'm not giving up...! I'll get my fortune one way or<br>another...!<br> ,2028301,,chara_2
+message,盗賊,Damn it，I'm not giving up...! I'll get my fortune one way or another...!<br> ,2028301,,chara_2
 
 
 window,off
@@ -1254,7 +1249,7 @@ asyncseplay,setag1_36,se4800009,0,1,STOP,1.5
 asynccharaemo,chara_6,Question,STOP,1.5
 
 
-message,鬼族A,Yeah yeah，I got it... hm? Hey，what's that?<br>Something on the riverbed... a stone，but — sparkling awful weird，no?<br> ,402701000,,chara_6
+message,鬼族A,Yeah yeah，I got it... hm? Hey，what's that? Something on the<br>riverbed... a stone，but — sparkling awful weird，no?<br> ,402701000,,chara_6
 
 asynccharaface,chara_7,EyeOpen,CONT,0
 asynccharaface,chara_7,FaceNormal,CONT,0

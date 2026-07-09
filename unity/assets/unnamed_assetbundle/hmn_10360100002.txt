@@ -117,7 +117,7 @@ asyncseplay,setag1_2,se4800014,0,1,CONT,0
 asynccharaemo,chara_2,Silence,CONT,0
 
 
-message,レイゼリア,...A dangerous mission. Why must we be the only ones to undertake<br>it?<br> ,300601000,vc_10360100002_004_01,chara_2
+message,レイゼリア,...A dangerous mission. Why must we be the only ones to undertake it?<br> ,300601000,vc_10360100002_004_01,chara_2
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -145,7 +145,7 @@ asyncseplay,setag1_4,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ライム,However，concerns have been raised that this success might be due to<br>the unique capabilities of the Frontline Base Troops.<br> ,103601000G,vc_10360100002_007_01,chara_1
+message,ライム,However，concerns have been raised that this success might be due<br>to the unique capabilities of the Frontline Base Troops.<br> ,103601000G,vc_10360100002_007_01,chara_1
 
 asynccharaface,chara_2,EyeClose,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0
@@ -187,7 +187,7 @@ asynccharaface,chara_2,FaceAnger,CONT,0
 asyncjump,CHARA,chara_2,-30,0.25,1,off,0,CONT
 
 
-message,レイゼリア,I understand the outline. So... do you think this mission will<br>succeed?<br> ,300601000,vc_10360100002_011_01,chara_2
+message,レイゼリア,I understand the outline. So... do you think this mission will succeed?<br> ,300601000,vc_10360100002_011_01,chara_2
 
 window,off
 wait,0.15
@@ -276,7 +276,7 @@ asyncseplay,setag1_11,se4800019,0,1,CONT,0
 asynccharaemo,chara_2,Elated,CONT,0
 
 
-message,レイゼリア,It's precisely because this mission is difficult that we can prove<br>our true worth. You'd do well to witness the strength of the knights you selected.<br> ,300601000,vc_10360100002_015_01,chara_2
+message,レイゼリア,It's precisely because this mission is difficult that we can prove our<br>true worth. You'd do well to witness the strength of the knights you selected.<br> ,300601000,vc_10360100002_015_01,chara_2
 
 window,off
 wait,0.15
@@ -599,9 +599,6 @@ asyncwait
 asyncseplay,setag1_23,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
 shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 
@@ -1102,7 +1099,7 @@ asyncseplay,setag1_44,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,ライム,I am Lady Reyzeria's adjutant! Why did she consult you instead of<br>me?<br> ,103601000G,vc_10360100002_042_01,chara_1
+message,ライム,I am Lady Reyzeria's adjutant! Why did she consult you instead of me?<br> ,103601000G,vc_10360100002_042_01,chara_1
 
 message,<user>,Uh，well... It's because I know the Abyss better，isn't it?<br> 
 
@@ -1145,7 +1142,7 @@ wait,1
 fade,In,Black,1
 
 window,on,0.15
-message,,—And as predicted，the Beast appeared and was magnificently defeated<br>by the Milesgard Knights，who were fully prepared and lying in wait.<br> 
+message,,—And as predicted，the Beast appeared and was magnificently<br>defeated by the Milesgard Knights，who were fully prepared and lying in wait.<br> 
 
 
 window,off
@@ -1272,7 +1269,7 @@ wait,0.5
 wait,0.5
 
 window,on,0.15
-message,<user>,Flawless so far. At this rate，we might actually pull off the<br>mission.<br> 
+message,<user>,Flawless so far. At this rate，we might actually pull off the mission.<br> 
 
 window,off
 wait,0.15
@@ -1333,7 +1330,7 @@ message,ライム,And yet the folks back home，why do they do things that get i
 
 message,<user>,It's because she's excellent，right? Precisely because she<br>excels，they envy，resent，and oppose her.<br> 
 
-message,<user>,They believe they can only win if they keep their distance，so<br>they're doing everything they can to hold us back.<br> 
+message,<user>,They believe they can only win if they keep their distance，so they're<br>doing everything they can to hold us back.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1344,7 +1341,7 @@ asyncseplay,setag1_52,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,ライム,How foolish! Rather than opposing Lady Reyzeria，you would have a far<br>brighter future serving under her!<br> ,103601000G,vc_10360100002_048_01,chara_1
+message,ライム,How foolish! Rather than opposing Lady Reyzeria，you would have a<br>far brighter future serving under her!<br> ,103601000G,vc_10360100002_048_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 

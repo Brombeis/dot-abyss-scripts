@@ -145,7 +145,6 @@ wait,1
 asyncseplay,setag1_5,se4900002,0,1,CONT,0
 
 asyncshake,BACK,,24,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_1,24,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_2,24,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_3,24,0,0.6,5,off,off,0,on,CONT,0
 
@@ -301,7 +300,7 @@ asyncseplay,setag1_11,se4800010,0,1,CONT,0
 asynccharaemo,chara_2,Exclamation,CONT,0
 
 
-message,倉庫警備の兵士,So，the warehouse goods have gone missing，is that what you're saying?<br> ,401201000,,chara_2
+message,倉庫警備の兵士,So，the warehouse goods have gone missing，is that what you're<br>saying?<br> ,401201000,,chara_2
 
 message,<user>,If you want to put it euphemistically，yes. But I think another word<br>fits better.<br> 
 
@@ -475,7 +474,7 @@ wait,0.5
 window,on,0.15
 message,<user>,You should handle this much without being told. *sigh* What a drag.<br> 
 
-message,<user>,Do guys like that become my responsibility if they die? I'd think<br>dying to a Calamity is an accident，but...<br> 
+message,<user>,Do guys like that become my responsibility if they die? I'd think dying<br>to a Calamity is an accident，but...<br> 
 
 message,<user>,Well，in this understaffed Frontline Base，there aren't many guys we<br>can afford to lose.<br> 
 
@@ -529,7 +528,7 @@ asynccharaemo,chara_3,Silence,CONT,0
 
 message,アリシア,Well，um... it might be a hassle，but I'd like you to interview a<br>volunteer for the base.<br> ,300201000,vc_10410100001_007_01,chara_3
 
-message,<user>,Do I really have to do that? If she's promising，just hire her<br>yourself.<br> 
+message,<user>,Do I really have to do that? If she's promising，just hire her yourself.<br> 
 
 asyncshake,CHARA,chara_3,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -538,7 +537,7 @@ asyncseplay,setag1_22,se4800007,0,1,CONT,0
 asynccharaemo,chara_3,Panic,CONT,0
 
 
-message,アリシア,That's the thing... she's someone I find hard to judge. Could I<br>leave the decision to you?<br> ,300201000,vc_10410100001_008_01,chara_3
+message,アリシア,That's the thing... she's someone I find hard to judge. Could I leave<br>the decision to you?<br> ,300201000,vc_10410100001_008_01,chara_3
 
 message,<user>,...Someone even you can't figure out? Sounds interesting. I'll meet<br>her.<br> 
 
@@ -644,7 +643,7 @@ asyncseplay,setag1_27,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,アヤメ,Oh，I am delighted. I came prepared for a one-way trip，so this is<br>very helpful.<br> ,104101000G,vc_10410100001_012_01,chara_1
+message,アヤメ,Oh，I am delighted. I came prepared for a one-way trip，so this is very<br>helpful.<br> ,104101000G,vc_10410100001_012_01,chara_1
 
 
 window,off
@@ -744,7 +743,7 @@ asyncseplay,setag1_32,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,アヤメ,Yes，the members are missing as well. And I have not even received my<br>wages.<br> ,104101000G,vc_10410100001_016_01,chara_1
+message,アヤメ,Yes，the members are missing as well. And I have not even received<br>my wages.<br> ,104101000G,vc_10410100001_016_01,chara_1
 
 message,<user>,An explosion isn't that unusual... but，'members'?<br> 
 
@@ -768,9 +767,9 @@ asyncseplay,setag1_34,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,アヤメ,I thought here I could get paid properly，and it did not seem likely<br>to explode easily.<br> ,104101000G,vc_10410100001_018_01,chara_1
+message,アヤメ,I thought here I could get paid properly，and it did not seem likely to<br>explode easily.<br> ,104101000G,vc_10410100001_018_01,chara_1
 
-message,<user>,I can't say it'll never explode or catch fire. But that aside，it's<br>fine.<br> 
+message,<user>,I can't say it'll never explode or catch fire. But that aside，it's fine.<br> 
 
 message,<user>,Next，I need to confirm your qualifications and skills. Your<br>application lists assassination and calligraphy...<br> 
 
@@ -823,7 +822,7 @@ asyncseplay,setag1_37,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,アヤメ,I listed it on my application as a skill that could be useful as a<br>clerk.<br> ,104101000G,vc_10410100001_020_01,chara_1
+message,アヤメ,I listed it on my application as a skill that could be useful as a clerk.<br> ,104101000G,vc_10410100001_020_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -906,9 +905,9 @@ asyncseplay,setag1_43,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,アヤメ,So it is not about going to the homes I 'cleaned'，finding the<br>required documents，and delivering them to the client...?<br> ,104101000G,vc_10410100001_026_01,chara_1
+message,アヤメ,So it is not about going to the homes I 'cleaned'，finding the required<br>documents，and delivering them to the client...?<br> ,104101000G,vc_10410100001_026_01,chara_1
 
-message,<user>,So you were stealing information from the people you killed...<br>That's assassin work.<br> 
+message,<user>,So you were stealing information from the people you killed... That's<br>assassin work.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -956,7 +955,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 message,アヤメ,But everyone there was very kind. Though there were whispers that it<br>was a company that dealt in assassination.<br> ,104101000G,vc_10410100001_030_01,chara_1
 
-message,<user>,That's not a rumor，it's just the truth! Don't take an assassin at<br>their word!<br> 
+message,<user>,That's not a rumor，it's just the truth! Don't take an assassin at their<br>word!<br> 
 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
@@ -985,7 +984,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(Or did they send Ayame in as a disposable pawn? And she happened to<br>show talent?)<br> 
+message,<user>,(Or did they send Ayame in as a disposable pawn? And she happened<br>to show talent?)<br> 
 
 window,off
 wait,0.15

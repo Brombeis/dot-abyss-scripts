@@ -159,7 +159,7 @@ asyncseplay,setag1_5,se4300003,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,Verisa puffed out her cheeks with a grumpy sound. Then，the Commander<br>suddenly appeared.<br> 
+message,,Verisa puffed out her cheeks with a grumpy sound. Then，the<br>Commander suddenly appeared.<br> 
 
 message,<user>,Hey，Verisa. Looks like you're working hard.<br> 
 
@@ -197,7 +197,7 @@ asyncseplay,setag1_8,se4800014,0,1,CONT,0
 
 asynccharaemo,chara_1,Silence,CONT,0
 
-message,,Verisa's eyebrow twitched at his words. Channeling her<br>irritation，she opened her mouth in full brat mode.<br> 
+message,,Verisa's eyebrow twitched at his words. Channeling her irritation，she<br>opened her mouth in full brat mode.<br> 
 
 window,off
 wait,0.15
@@ -353,7 +353,6 @@ asyncwait
 asyncseplay,setag1_15,se4402002,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 
 window,on,0.15
 message,,And without a moment's hesitation，the Commander attacked Verisa—<br> 

@@ -91,7 +91,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヴィーラ,So this is the inside of the Abyss... It's far more mysterious than<br>I'd heard.<br> ,100801000G,vc_10080100002_001_01,chara_1
+message,ヴィーラ,So this is the inside of the Abyss... It's far more mysterious than I'd<br>heard.<br> ,100801000G,vc_10080100002_001_01,chara_1
 
 message,<user>,Veera，this is your first time in the Abyss，isn't it. Just<br>remember，this is an escort mission. Don't get worked up，stay calm and do your job.<br> 
 
@@ -117,7 +117,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 message,ヴィーラ,I'll make sure I don't embarrass Big Sis. Please look forward to<br>it，Lord Commander.<br> ,100801000G,vc_10080100002_003_01,chara_1
 
-message,<user>,That's what I meant by getting worked up... Well，just don't overdo<br>it.<br> 
+message,<user>,That's what I meant by getting worked up... Well，just don't overdo it.<br> 
 
 window,off
 wait,0.15
@@ -238,7 +238,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 message,ベリサ,Or what，big bro，were you bothered by the thought of someone else<br>putting her in her place? Could it be that you're jealous?♡<br> ,100201000G,vc_10080100002_008_01,chara_2
 
-message,<user>,...By the way，Veera said she didn't want to embarrass you. Looks<br>like you're already losing on the personality front.<br> 
+message,<user>,...By the way，Veera said she didn't want to embarrass you. Looks like<br>you're already losing on the personality front.<br> 
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -251,7 +251,7 @@ asynccharaemo,chara_2,Sweat,CONT,0
 
 message,ベリサ,Ugh... That's so like her! I'm the one who's gonna end up getting<br>crushed by my little sister's magic and looking like a fool!<br> ,100201000G,vc_10080100002_009_01,chara_2
 
-message,<user>,...You don't seem to have a bad relationship with Veera. Is it just<br>that you can't stand being outdone in magic?<br> 
+message,<user>,...You don't seem to have a bad relationship with Veera. Is it just that<br>you can't stand being outdone in magic?<br> 
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -320,7 +320,7 @@ asyncseplay,setag1_14,se4800003,0,1,CONT,0
 asynccharaemo,chara_2,Twinkle,CONT,0
 
 
-message,ベリサ,Fufu! I've got plenty of experience fighting in the Abyss! I've got<br>no intention of losing，even to Veera!<br> ,100201000G,vc_10080100002_014_01,chara_2
+message,ベリサ,Fufu! I've got plenty of experience fighting in the Abyss! I've got no<br>intention of losing，even to Veera!<br> ,100201000G,vc_10080100002_014_01,chara_2
 
 asynccharaface,chara_2,FaceUnique02,CONT,0
 
@@ -389,7 +389,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,,Verisa triumphantly walked up to Veera and called out to her with<br>full confidence.<br> 
+message,,Verisa triumphantly walked up to Veera and called out to her with full<br>confidence.<br> 
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -483,7 +483,7 @@ asyncseplay,setag1_24,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ベリサ,Urgh... as expected of my little sister...! But that's not all there<br>is to the Abyss's dangers!<br> ,100201000G,vc_10080100002_023_01,chara_2
+message,ベリサ,Urgh... as expected of my little sister...! But that's not all there is to<br>the Abyss's dangers!<br> ,100201000G,vc_10080100002_023_01,chara_2
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 
@@ -600,7 +600,7 @@ asynccharaemo,chara_1,Question,CONT,0
 window,on,0.15
 message,ヴィーラ,We'll be at the lift soon. Does that mean the mission is over?<br> ,100801000G,vc_10080100002_030_01,chara_1
 
-message,<user>,Yeah，looks that way. It was a low-risk mission，but we made it back<br>in one piece.<br> 
+message,<user>,Yeah，looks that way. It was a low-risk mission，but we made it back in<br>one piece.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -625,13 +625,12 @@ charafocusonall
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
 shake,CHARA,chara_3,40,0,0.25,20,off,off,0
 shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 shake,CHARA,chara_6,40,0,0.25,20,off,off,0
 shake,CHARA,chara_7,40,0,0.25,20,off,off,0
+shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 
 transitionCrossFadeReady
 
@@ -673,8 +672,6 @@ wait,0.15
 charafocusonall
 
 asyncshake,BACK,,6,0,0.6,7,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_1,6,0,0.6,7,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_2,6,0,0.6,7,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_3,6,0,0.6,7,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_4,6,0,0.6,7,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_5,6,0,0.6,7,off,off,0,on,CONT,0
@@ -1059,7 +1056,7 @@ asynccharaemo,chara_2,Elated,CONT,0
 
 message,ベリサ,Just leave that to my magic!♪ Alright，here I gooo!<br> ,100201000G,vc_10080100002_041_01,chara_2
 
-message,,Verisa raised her staff and deployed a magic circle. She aimed at<br>the golem and conjured a fireball.<br> 
+message,,Verisa raised her staff and deployed a magic circle. She aimed at the<br>golem and conjured a fireball.<br> 
 
 linework,on,White,Middle
 
@@ -1196,13 +1193,6 @@ asyncwait
 asyncseplay,setag1_55,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
-shake,CHARA,chara_6,40,0,0.25,20,off,off,0
-shake,CHARA,chara_7,40,0,0.25,20,off,off,0
 
 window,on,0.15
 message,,The fireball struck the golem directly. The golem，its core destroyed<br>by the intense heat and powerful explosion，collapsed on the spot.<br> 
@@ -1478,7 +1468,7 @@ asynccharaemo,chara_2,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ベリサ,I know that! But if I don't hit their cores dead on，we can't take<br>them down!<br> ,100201000G,vc_10080100002_046_01,chara_2
+message,ベリサ,I know that! But if I don't hit their cores dead on，we can't take them<br>down!<br> ,100201000G,vc_10080100002_046_01,chara_2
 
 window,off
 wait,0.15
@@ -1988,7 +1978,7 @@ asynccharaemo,chara_2,Sweat,STOP,5.9
 
 
 window,on,0.15
-message,ベリサ,...You're amazing，Veera. You really saved us. As expected，I'm<br>just...<br> ,100201000G,vc_10080100002_054_01,chara_2
+message,ベリサ,...You're amazing，Veera. You really saved us. As expected，I'm just...<br> ,100201000G,vc_10080100002_054_01,chara_2
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -2044,7 +2034,7 @@ asyncseplay,setag1_79,se4800014,0,1,CONT,0
 asynccharaemo,chara_2,Silence,CONT,0
 
 window,on,0.15
-message,,Veera's magic annihilated the golems. Verisa couldn't hide the<br>bitter look on her face at the brilliant result.<br> 
+message,,Veera's magic annihilated the golems. Verisa couldn't hide the bitter<br>look on her face at the brilliant result.<br> 
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -2075,7 +2065,7 @@ bgmplay,bgmtag1_3,bgm0030,0.75,1
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,,The transport unit Verisa and Veera escorted repelled a golem ambush<br>with Veera's magic and returned safely to the Frontline Base.<br> 
+message,,The transport unit Verisa and Veera escorted repelled a golem<br>ambush with Veera's magic and returned safely to the Frontline Base.<br> 
 
 window,off
 wait,0.15
@@ -2366,7 +2356,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 message,ヴィーラ,Lord Commander，what should I do...?<br> ,100801000G,vc_10080100002_062_01,chara_1
 
-message,<user>,That sounds good，doesn't it? A drink to celebrate your first<br>mission.<br> 
+message,<user>,That sounds good，doesn't it? A drink to celebrate your first mission.<br> 
 
 window,off
 wait,0.15

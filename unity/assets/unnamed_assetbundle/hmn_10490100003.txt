@@ -272,7 +272,7 @@ asyncseplay,setag1_12,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,クロエ,I know Miss Alicia is saying it for my sake，but my life is all about<br>my knightivities.<br> ,104901000G,vc_10490100003_011_01,chara_1
+message,クロエ,I know Miss Alicia is saying it for my sake，but my life is all about my<br>knightivities.<br> ,104901000G,vc_10490100003_011_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -305,9 +305,9 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 message,クロエ,Besides，I seriously can't even imagine having a real crush or<br>anything like that.<br> ,104901000G,vc_10490100003_014_01,chara_1
 
-message,<user>,Don't rope me into that when I didn't say anything. Besides，you<br>don't have to make me your favorite.<br> 
+message,<user>,Don't rope me into that when I didn't say anything. Besides，you don't<br>have to make me your favorite.<br> 
 
-message,<user>,I get why you support female knights. They're reliable as the core<br>of the battlefield，but also worrisome—someone you care about.<br> 
+message,<user>,I get why you support female knights. They're reliable as the core of<br>the battlefield，but also worrisome—someone you care about.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -345,9 +345,9 @@ asynccharaemo,chara_1,Question,CONT,0
 
 message,クロエ,...You're okay with that?<br> ,104901000G,vc_10490100003_017_01,chara_1
 
-message,<user>,The front lines are a dangerous place. It's reassuring to have a<br>hobby you can stake your life on.<br> 
+message,<user>,The front lines are a dangerous place. It's reassuring to have a hobby<br>you can stake your life on.<br> 
 
-message,<user>,Strong feelings give you the strength to get up at the very end.<br>That kind of tenacious subordinate is my type.<br> 
+message,<user>,Strong feelings give you the strength to get up at the very end. That<br>kind of tenacious subordinate is my type.<br> 
 
 message,<user>,A Chloe who wouldn't back down an inch even against a monster for<br>the sake of female knights—that's my favorite.<br> 
 
@@ -373,7 +373,7 @@ asyncseplay,setag1_20,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,クロエ,That can't be true! I'd be frustrated with myself for not being able<br>to convey how valuable she is!<br> ,104901000G,vc_10490100003_019_01,chara_1
+message,クロエ,That can't be true! I'd be frustrated with myself for not being able to<br>convey how valuable she is!<br> ,104901000G,vc_10490100003_019_01,chara_1
 
 message,<user>,That's right. Chloe，you're a woman worth being a fan of. Hold your<br>head high.<br> 
 
@@ -669,9 +669,8 @@ charafocusonall
 asyncseplay,setag1_33,se4900169,0,1,STOP,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
 shake,CHARA,chara_3,40,0,0.25,20,off,off,0
+shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 
 bgmplay,bgmtag1_2,bgm0034,0.75,1
 
@@ -693,9 +692,8 @@ wait,0.15
 charafocusonall
 
 asyncshake,BACK,,12,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_1,12,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_2,12,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_3,12,0,0.6,5,off,off,0,on,CONT,0
+asyncshake,CHARA,chara_1,12,0,0.6,5,off,off,0,on,CONT,0
 
 asyncshake,CHARA,chara_1,20,15,0.5,6,on,off,0,off,CONT,0
 
@@ -755,7 +753,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,クロエ,(I won't be able to do my oshi activities anymore... I'm sorry，all<br>you Princess Knights... Commander...!)<br> ,104901000G,vc_10490100003_034_01,on
+message,クロエ,(I won't be able to do my oshi activities anymore... I'm sorry，all you<br>Princess Knights... Commander...!)<br> ,104901000G,vc_10490100003_034_01,on
 
 window,off
 wait,0.15
@@ -816,9 +814,8 @@ wait,0.5
 asyncseplay,setag1_36,se4400110,0,1,CONT,0
 
 shake,BACK,,20,0,0.25,30,off,off,0
-shake,CHARA,chara_1,20,0,0.25,30,off,off,0
-shake,CHARA,chara_2,20,0,0.25,30,off,off,0
 shake,CHARA,chara_3,20,0,0.25,30,off,off,0
+shake,CHARA,chara_1,20,0,0.25,30,off,off,0
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -858,7 +855,7 @@ message,,%user%'s hand，gripping Chloe's arm，was trembling violently;<br>it w
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
 
-message,クロエ,I'm too fat and heavy—it's impossible! It's okay，this is all my<br>fault!<br> ,104901000G,vc_10490100003_037_01,chara_1
+message,クロエ,I'm too fat and heavy—it's impossible! It's okay，this is all my fault!<br> ,104901000G,vc_10490100003_037_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -981,7 +978,7 @@ wait,0.5
 fade,In,White,1
 
 window,on,0.15
-message,<user>,I feel strength surging... Is it thanks to Chloe's Support Magic?<br>With this...<br> 
+message,<user>,I feel strength surging... Is it thanks to Chloe's Support Magic? With<br>this...<br> 
 
 window,off
 wait,0.15

@@ -306,7 +306,7 @@ asyncseplay,setag2_13,se4800008,0,1,CONT
 asynccharaemo,chara_3,Sweat,CONT
 
 window,on,0.15
-message,ソフィア,(They fall for his smooth talk so easily，those simpletons. Going<br>into danger yourself out of guilt—that could just be reckless too...)<br> ,,mcv_1001010102_011_01,ALLON
+message,ソフィア,(They fall for his smooth talk so easily，those simpletons. Going into<br>danger yourself out of guilt—that could just be reckless too...)<br> ,,mcv_1001010102_011_01,ALLON
 
 charaface,chara_3,FaceUnique01
 message,ソフィア,(Fine，I'll admit he repelled the Calamity of Famine.<br>But that crapshoot of a strategy—it was pure dumb luck...)<br> ,,mcv_1001010102_012_01,ALLON
@@ -642,7 +642,7 @@ asynccharaemo,chara_3,Elated,STOP
 
 asynccharaface,chara_3,FaceAnger,STOP,3
 
-message,ソフィア,Forming disciplined ranks to guard against ambushes is common sense!<br>You were worried about separation and disappearances yourself!<br> ,,mcv_1001010102_022_01
+message,ソフィア,Forming disciplined ranks to guard against ambushes is common<br>sense! You were worried about separation and disappearances yourself!<br> ,,mcv_1001010102_022_01
 
 message,<user>,I see.<br>Is that knowledge from your knight academy?<br> 
 
@@ -872,9 +872,6 @@ asynccharamove,chara_3,LinearTarget,CharaHeight,-100,0.3,CONT
 asyncwait
 
 asyncshake,BACK,,3,0,0.5,3,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,3,0,0.5,3,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,3,0,0.5,3,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_3,3,0,0.5,3,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_4,3,0,0.5,3,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_5,3,0,0.5,3,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_6,3,0,0.5,3,off,off,0,off,CONT,0

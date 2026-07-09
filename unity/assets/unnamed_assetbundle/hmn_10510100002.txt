@@ -707,7 +707,7 @@ wait,0.5
 window,on,0.15
 message,アリシア,Eeek! Feilin's all in pieces!<br> ,300201000,vc_10510100002_021_01,chara_2
 
-message,フェイリン,Please don't worry. I'm in pieces，but I was already a corpse from<br>the start.<br> ,105101000G,vc_10510100002_022_01,
+message,フェイリン,Please don't worry. I'm in pieces，but I was already a corpse from the<br>start.<br> ,105101000G,vc_10510100002_022_01,
 
 message,<user>,Alicia? Feilin? What happened... wait，Feilin's fallen apart! What is<br>this gruesome sight?<br> 
 
@@ -747,7 +747,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,アリシア,Commander，perfect timing! Help me put Feilin back together! Um，what<br>do we need... glue? Or a sewing kit?<br> ,300201000,vc_10510100002_023_01,chara_2
+message,アリシア,Commander，perfect timing! Help me put Feilin back together!<br>Um，what do we need... glue? Or a sewing kit?<br> ,300201000,vc_10510100002_023_01,chara_2
 
 linework,off,Black,Middle
 
@@ -952,9 +952,6 @@ wait,1
 cleanall,EFFECT
 
 shake,BACK,,40,0,0.3,8,off,off,0
-shake,CHARA,chara_1,40,0,0.3,8,off,off,0
-shake,CHARA,chara_2,40,0,0.3,8,off,off,0
-shake,CHARA,chara_3,40,0,0.3,8,off,off,0
 shake,CHARA,chara_4,40,0,0.3,8,off,off,0
 shake,CHARA,chara_5,40,0,0.3,8,off,off,0
 
@@ -1008,11 +1005,6 @@ asyncwait
 asyncseplay,setag1_32,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 
 wait,0.5
 
@@ -1267,7 +1259,7 @@ asyncseplay,setag1_40,se4800016,0,1,CONT,0
 asynccharaemo,chara_1,BePeevish,CONT,0
 
 
-message,フェイリン,What，is that corpse discrimination? That will not do. There is no<br>law saying a corpse cannot be lively，right?<br> ,105101000G,vc_10510100002_036_01,chara_1
+message,フェイリン,What，is that corpse discrimination? That will not do. There is no law<br>saying a corpse cannot be lively，right?<br> ,105101000G,vc_10510100002_036_01,chara_1
 
 message,<user>,Well，there are hardly any cases of corpses walking around anyway.<br>But it's good that you're positive. You're fun to talk to.<br> 
 
@@ -1293,7 +1285,7 @@ asyncseplay,setag1_42,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,フェイリン,I am glad I can be of help to you，Master. It feels like I have found<br>a reason to live... even though I am dead.<br> ,105101000G,vc_10510100002_038_01,chara_1
+message,フェイリン,I am glad I can be of help to you，Master. It feels like I have found a<br>reason to live... even though I am dead.<br> ,105101000G,vc_10510100002_038_01,chara_1
 
 message,<user>,Is that a dead joke?<br> 
 
@@ -1319,7 +1311,7 @@ asyncseplay,setag1_44,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,フェイリン,That is because my motto is to live bright and healthy，even in<br>death.<br> ,105101000G,vc_10510100002_040_01,chara_1
+message,フェイリン,That is because my motto is to live bright and healthy，even in death.<br> ,105101000G,vc_10510100002_040_01,chara_1
 
 message,<user>,That's great. ...So，how about we take a stroll through the market<br>after today's expedition?<br> 
 
@@ -1334,7 +1326,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 
 message,フェイリン,But...<br> ,105101000G,vc_10510100002_041_01,chara_1
 
-message,<user>,If it's just a short while and you keep your limbs on，we likely<br>won't get caught. Want to?<br> 
+message,<user>,If it's just a short while and you keep your limbs on，we likely won't<br>get caught. Want to?<br> 
 
 window,off
 wait,0.15
@@ -1559,7 +1551,7 @@ asyncseplay,setag1_53,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,フェイリン,As I thought，it's wrong for a corpse like me to pretend to be a<br>living person...<br> ,105101000G,vc_10510100002_049_01,chara_1
+message,フェイリン,As I thought，it's wrong for a corpse like me to pretend to be a living<br>person...<br> ,105101000G,vc_10510100002_049_01,chara_1
 
 window,off
 wait,0.15
@@ -1702,7 +1694,7 @@ asyncseplay,setag1_58,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フェイリン,But... I still cannot. The rumors are spreading now. I cannot bear<br>the thought of causing bad rumors about you because of me.<br> ,105101000G,vc_10510100002_054_01,chara_1
+message,フェイリン,But... I still cannot. The rumors are spreading now. I cannot bear the<br>thought of causing bad rumors about you because of me.<br> ,105101000G,vc_10510100002_054_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1738,7 +1730,7 @@ asyncseplay,setag1_61,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,フェイリン,...It is almost time for a visitor to come. I will be hiding in the<br>closet.<br> ,105101000G,vc_10510100002_057_01,chara_1
+message,フェイリン,...It is almost time for a visitor to come. I will be hiding in the closet.<br> ,105101000G,vc_10510100002_057_01,chara_1
 
 window,off
 wait,0.15
@@ -1844,7 +1836,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,アリシア,Feilin... It really is pitiful to leave her like this. Isn't there<br>something we can do?<br> ,300201000,vc_10510100002_058_01,chara_2
+message,アリシア,Feilin... It really is pitiful to leave her like this. Isn't there something<br>we can do?<br> ,300201000,vc_10510100002_058_01,chara_2
 
 message,<user>,Yeah... I'll need to pull some strings on this one.<br> 
 

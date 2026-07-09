@@ -153,7 +153,7 @@ asyncseplay,setag1_6,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フレイヤ,And not just the monsters... The soldiers' voices too... They<br>thudded deep into my stomach...<br> ,105401000G,vc_10540100003_006_01,chara_1
+message,フレイヤ,And not just the monsters... The soldiers' voices too... They thudded<br>deep into my stomach...<br> ,105401000G,vc_10540100003_006_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -181,7 +181,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 message,フレイヤ,I do not know... That was my first battlefield，so...<br> ,105401000G,vc_10540100003_008_01,chara_1
 
-message,<user>,Was it your first time? You called yourself a knight，so I assumed<br>you were used to this...<br> 
+message,<user>,Was it your first time? You called yourself a knight，so I assumed you<br>were used to this...<br> 
 
 message,<user>,Huh? So you've never set foot on a battlefield，yet you were that<br>confident?<br> 
 
@@ -276,7 +276,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 window,on,0.15
 message,フレイヤ,Commander... what's going to happen to me after this?<br> ,105401000G,vc_10540100003_013_01,chara_1
 
-message,<user>,If you can't be a fighting force，it's best you go back home. I'll<br>make the arrangements when we return to base.<br> 
+message,<user>,If you can't be a fighting force，it's best you go back home. I'll make<br>the arrangements when we return to base.<br> 
 
 window,off
 wait,0.15
@@ -332,7 +332,6 @@ asyncwait
 wait,1.5
 
 shake,BACK,,20,0,0.25,30,off,off,0
-shake,CHARA,chara_1,20,0,0.25,30,off,off,0
 shake,CHARA,chara_2,20,0,0.25,30,off,off,0
 shake,CHARA,chara_3,20,0,0.25,30,off,off,0
 shake,CHARA,chara_4,20,0,0.25,30,off,off,0
@@ -411,7 +410,6 @@ wait,0.5
 asyncseplay,setag1_17,se4900169,0,1,CONT,0
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
@@ -537,7 +535,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,Freya. Take your sword. And then look that monster in the eyes—never<br>break eye contact.<br> 
+message,<user>,Freya. Take your sword. And then look that monster in the<br>eyes—never break eye contact.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -910,7 +908,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,フレイヤ,(Big Sister's sword is faster than this! At this rate，I can do it<br>like always!)<br> ,105401000G,vc_10540100003_026_01,chara_1
+message,フレイヤ,(Big Sister's sword is faster than this! At this rate，I can do it like<br>always!)<br> ,105401000G,vc_10540100003_026_01,chara_1
 
 window,off
 wait,0.15
@@ -1641,11 +1639,6 @@ asyncwait
 asyncseplay,setag1_62,se4400063,0,1,CONT,0
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_5,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_6,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_7,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_8,40,0,0.25,20,off,off,0,off,CONT,0
@@ -2095,7 +2088,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,フレイヤ,Commander! Where's the next enemy!? What about exploration!? Which<br>way should we go!?<br> ,105401000G,vc_10540100003_047_01,chara_1
+message,フレイヤ,Commander! Where's the next enemy!? What about exploration!?<br>Which way should we go!?<br> ,105401000G,vc_10540100003_047_01,chara_1
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 

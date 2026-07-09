@@ -36,7 +36,7 @@ wait,1
 bgmplay,bgmtag1_1,bgm0041,0.75,1
 
 window,on,0.15
-message,,As a raging blizzard bared its fangs at the frontline base， the<br>evacuation of residents proceeded swiftly and in orderly fashion.<br> 
+message,,As a raging blizzard bared its fangs at the frontline base，<br>the evacuation of residents proceeded swiftly and in orderly fashion.<br> 
 
 window,off
 wait,0.15
@@ -202,7 +202,7 @@ waitorclick,0.8
 window,on,0.15
 message,<user>,It's almost as if only the area around the frontline base<br>has entered an ice age. What do we do...<br> 
 
-message,<user>,The residents are evacuated and withstanding the cold is manageable，<br>but the real problem is food.<br> 
+message,<user>,The residents are evacuated and withstanding the cold is<br>manageable， but the real problem is food.<br> 
 
 asyncjump,CHARA,chara_4,30,0.25,1,off,0,CONT
 
@@ -448,7 +448,7 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 
 window,on,0.15
-message,マリナ,I've distributed all the cold-weather gear and emergency rations<br>too. I gave everyone a special deal~.<br> ,100301000G,mcv_1001020201_010_01,chara_3
+message,マリナ,I've distributed all the cold-weather gear and emergency rations too.<br>I gave everyone a special deal~.<br> ,100301000G,mcv_1001020201_010_01,chara_3
 
 window,off
 wait,0.15
@@ -1877,7 +1877,7 @@ asynctransitionFade,Tra09,in,black,1,STOP,1
 waitorclick,2.5
 
 window,on,0.15
-message,,Afterward. %user%'s fully prepared party gathered at the base<br>entrance. There...<br> 
+message,,Afterward.<br>%user%'s fully prepared party gathered at the base entrance. There...<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -2023,7 +2023,7 @@ asyncseplay,setag1_55,se4800013,0,1,CONT,0
 asynccharaemo,chara_3,Spirits,CONT,0
 
 
-message,マリナ,Yes. I'm using a slightly special storage technique to keep them<br>from breaking or leaking and getting smells on everything.<br> ,100301000G,mcv_1001020201_050_01,chara_3
+message,マリナ,Yes. I'm using a slightly special storage technique to keep them from<br>breaking or leaking and getting smells on everything.<br> ,100301000G,mcv_1001020201_050_01,chara_3
 
 asynccharaface,chara_2,EyeOpen,CONT,0
 asynccharaface,chara_2,FaceNormal,CONT,0

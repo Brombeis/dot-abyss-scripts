@@ -566,11 +566,6 @@ asyncwait
 asyncseplay,setag1_23,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 
 transitionCrossFadeReady
 
@@ -715,11 +710,6 @@ asyncwait
 asyncseplay,setag1_31,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 
 crossfadeready
 
@@ -778,11 +768,6 @@ asyncwait
 asyncseplay,setag1_35,se4900066,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 
 wait,0.2
 
@@ -826,11 +811,6 @@ asyncwait
 asyncseplay,setag1_38,se4900066,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 
 wait,0.2
 
@@ -1055,7 +1035,7 @@ wait,1
 cleanall,EFFECT
 
 window,on,0.15
-message,,Luca's electrified fist crackled，scattering lightning. She leaped<br>and pierced the monster with a devastating blow.<br> 
+message,,Luca's electrified fist crackled，scattering lightning. She leaped and<br>pierced the monster with a devastating blow.<br> 
 
 window,off
 wait,0.15
@@ -1088,11 +1068,6 @@ asyncwait
 asyncseplay,setag1_44,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 
 transitionCrossFadeReady
 
@@ -1267,7 +1242,7 @@ asyncseplay,setag1_50,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ルカ,I'm gonna be the world's greatest fighter，so no monster's gonna beat<br>me!<br> ,104001000G,vc_10400100001_010_01,chara_1
+message,ルカ,I'm gonna be the world's greatest fighter，so no monster's gonna<br>beat me!<br> ,104001000G,vc_10400100001_010_01,chara_1
 
 message,<user>,World's greatest fighter，huh? After seeing you in action，it's not<br>just a pipe dream.<br> 
 
@@ -1281,7 +1256,7 @@ asyncseplay,setag1_51,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ルカ,There are even stronger enemies in the Abyss，right? Hmm，sounds like<br>great training!<br> ,104001000G,vc_10400100001_011_01,chara_1
+message,ルカ,There are even stronger enemies in the Abyss，right? Hmm，sounds<br>like great training!<br> ,104001000G,vc_10400100001_011_01,chara_1
 
 message,<user>,Oh，so you see battle as part of training? No wonder you're growing<br>so fast.<br> 
 
@@ -1407,10 +1382,6 @@ wait,0.5
 
 shake,BACK,,40,0,0.25,20,off,off,0
 shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 
 window,on,0.15
 message,<user>,What's—whoa!<br> 
@@ -1828,7 +1799,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 window,on,0.15
 message,ルカ,Ready...<br> ,104001000G,vc_10400100001_029_01,chara_1
 
-message,,The next moment，Luca appeared right before %user%，her fist wreathed<br>in lightning.<br> 
+message,,The next moment，Luca appeared right before %user%，her fist<br>wreathed in lightning.<br> 
 
 window,off
 wait,0.15
@@ -2086,7 +2057,7 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 message,ルカ,Ugh，I lost without doing a thing... You really were<br>amazing，Commaander!<br> ,104001000G,vc_10400100001_040_01,chara_1
 
-message,<user>,...I wasn't expecting to be praised like that. No complaints about<br>me being unfair or cheating?<br> 
+message,<user>,...I wasn't expecting to be praised like that. No complaints about me<br>being unfair or cheating?<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -2108,7 +2079,7 @@ asyncseplay,setag1_91,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ルカ,But the World's Greatest Martial Artist doesn't lose just because of<br>a cheap trick. The Commander who beat me is amazing!<br> ,104001000G,vc_10400100001_042_01,chara_1
+message,ルカ,But the World's Greatest Martial Artist doesn't lose just because of a<br>cheap trick. The Commander who beat me is amazing!<br> ,104001000G,vc_10400100001_042_01,chara_1
 
 message,<user>,O-oh. You're really straightforward，Luca...<br> 
 
@@ -2135,7 +2106,7 @@ asyncseplay,setag1_93,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ルカ,Of course! I'll beat you，Commaander，and become the strongest at the<br>Frontline Base!<br> ,104001000G,vc_10400100001_044_01,chara_1
+message,ルカ,Of course! I'll beat you，Commaander，and become the strongest at<br>the Frontline Base!<br> ,104001000G,vc_10400100001_044_01,chara_1
 
 window,off
 bgmstop,bgmtag1_6,0.5

@@ -65,7 +65,7 @@ bgmplay,bgmtag1_2,bgm0024,0.75,1
 fade,In,White,1.5
 
 window,on,0.15
-message,<user>,Xiaolei's problem is that her strength is too great to control，and<br>she ends up breaking things around her.<br> 
+message,<user>,Xiaolei's problem is that her strength is too great to control，and she<br>ends up breaking things around her.<br> 
 
 asyncseplay,setag1_2,se4800008,0,1,CONT
 
@@ -90,7 +90,7 @@ asyncseplay,setag1_3,se4800009,0,1,CONT
 asynccharaemo,chara_1,Question,STOP
 message,シャオレイ,Panpan，Dandan...?<br> ,,vc_10040100003_005_01
 
-message,<user>,That's right. I noticed while watching you，Xiaolei，that only when<br>you touch these pandas can you apply your strength gently.<br> 
+message,<user>,That's right. I noticed while watching you，Xiaolei，that only when you<br>touch these pandas can you apply your strength gently.<br> 
 
 asynccharareaction,chara_1,Nod,1,STOP
 
@@ -106,7 +106,7 @@ asynccharaemo,chara_1,Exclamation,STOP
 asynccharaface,chara_1,FaceSurprise,STOP
 message,シャオレイ,Ah... that is how to make strength soft?<br> ,,vc_10040100003_007_01
 
-message,<user>,Exactly! In other words，if you treat everything with the same<br>feeling as gently petting the pandas，you'll be fine!<br> 
+message,<user>,Exactly! In other words，if you treat everything with the same feeling<br>as gently petting the pandas，you'll be fine!<br> 
 
 message,<user>,Come on，imagine the cup is Panpan and the plate is Dandan，and try<br>picking them up!<br> 
 
@@ -282,7 +282,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(But we just fixed the door last time. Now the wall too... Alicia's<br>going to scold me. Good grief...)<br> 
+message,<user>,(But we just fixed the door last time. Now the wall too... Alicia's going<br>to scold me. Good grief...)<br> 
 
 window,off
 wait,0.15
@@ -353,7 +353,7 @@ asyncseplay,setag1_16,se4400063,0,1,CONT
 
 bgcolor,255,255,255,255,0
 window,on,0.15
-message,,The moment he was pushed by Xiaolei and stumbled out of the way，the<br>door fell with a heavy thud.<br> 
+message,,The moment he was pushed by Xiaolei and stumbled out of the<br>way，the door fell with a heavy thud.<br> 
 
 bgmplay,bgmtag1_4,bgm0036,0.75,1
 
@@ -434,7 +434,7 @@ message,シャオレイ,Yeah.<br> ,,vc_10040100003_024_01
 
 message,<user>,It happened so suddenly，<br>you must have jumped in without thinking.<br> 
 
-message,<user>,In other words，it wouldn't have been strange if I'd been sent<br>flying... But I'm not hurt at all，not even a little sore.<br> 
+message,<user>,In other words，it wouldn't have been strange if I'd been sent flying...<br>But I'm not hurt at all，not even a little sore.<br> 
 
 asynccharaface,chara_1,FaceAnger,STOP
 

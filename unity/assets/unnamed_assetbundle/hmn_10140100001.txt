@@ -97,7 +97,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(Who's that? I haven't seen her before... Who's she talking to? As<br>far as I can tell，she's alone.)<br> 
+message,<user>,(Who's that? I haven't seen her before... Who's she talking to? As far<br>as I can tell，she's alone.)<br> 
 
 window,off
 wait,0.15
@@ -300,7 +300,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,ピコ,In Pico's world，there's something called the ""net"". If I post videos<br>I take with my smartphone there，people somewhere will watch them.<br> ,,vc_10140100001_010_01,chara_1
+message,ピコ,In Pico's world，there's something called the ""net"". If I post videos I<br>take with my smartphone there，people somewhere will watch them.<br> ,,vc_10140100001_010_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -401,7 +401,7 @@ asyncseplay,setag1_15,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ピコ,No way! Feels like I just got a legendary pull! This'll save me so<br>much editing time!<br> ,,vc_10140100001_015_01,chara_1
+message,ピコ,No way! Feels like I just got a legendary pull! This'll save me so much<br>editing time!<br> ,,vc_10140100001_015_01,chara_1
 
 message,<user>,I have no idea what you're talking about，but I'm glad you're happy.<br> 
 
@@ -623,7 +623,7 @@ asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,ピコ,So，we've come to the Abyss. Today I'm going to do a live-commentary<br>playthrough of another world.<br> ,,vc_10140100001_025_01,chara_1
+message,ピコ,So，we've come to the Abyss. Today I'm going to do a<br>live-commentary playthrough of another world.<br> ,,vc_10140100001_025_01,chara_1
 
 message,<user>,Wait，you're still talking to that machine?!<br> 
 
@@ -659,7 +659,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ピコ,Huh? Yeah，of course. Otherwise there'd be no point in coming，right?<br> ,,vc_10140100001_026_01,chara_1
+message,ピコ,Huh? Yeah，of course. Otherwise there'd be no point in<br>coming，right?<br> ,,vc_10140100001_026_01,chara_1
 
 message,<user>,So you didn't actually come for the exploration...<br> 
 
@@ -688,7 +688,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 
 message,ピコ,Thanks! When I'm alone I have to keep talking，so having a partner<br>really helps.<br> ,,vc_10140100001_028_01,chara_1
 
-message,<user>,First up is the exploration. We'll stay alert for monsters and look<br>for anything interesting.<br> 
+message,<user>,First up is the exploration. We'll stay alert for monsters and look for<br>anything interesting.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -714,7 +714,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(I still have no clue what she's saying... Is she gonna be<br>alright...?)<br> 
+message,<user>,(I still have no clue what she's saying... Is she gonna be alright...?)<br> 
 
 bgmstop,bgmtag1_2,1.5,0
 
@@ -1112,9 +1112,6 @@ asyncwait
 asyncseplay,setag1_37,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
 shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 
@@ -1445,11 +1442,6 @@ asyncwait
 asyncseplay,setag1_49,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 
 crossfadeready
 
@@ -1667,9 +1659,9 @@ asyncseplay,setag1_58,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ピコ,Commaander，you've got straight-man timing and spot-on reactions! I'd<br>love to have you in my world—if I scout you，would you come?<br> ,,vc_10140100001_049_01,chara_1
+message,ピコ,Commaander，you've got straight-man timing and spot-on reactions!<br>I'd love to have you in my world—if I scout you，would you come?<br> ,,vc_10140100001_049_01,chara_1
 
-message,<user>,I'm not giving orders just to get a straight reaction out of you. If<br>it's always this chaotic... I'm not so sure.<br> 
+message,<user>,I'm not giving orders just to get a straight reaction out of you. If it's<br>always this chaotic... I'm not so sure.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 

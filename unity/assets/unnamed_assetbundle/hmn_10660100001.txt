@@ -41,7 +41,7 @@ bgmplay,bgmtag1_1,bgm0025,0.75,1
 window,on,0.15
 message,,—How many days has it been since I came to this world?<br>Everything here is unfamiliar to me.<br> ,106601000G,vc_10660100001_001_01,
 
-message,,Unfamiliar scenery. Unfamiliar people. Unfamiliar air. Unfamiliar<br>food. Unfamiliar creatures，an unfamiliar night sky，unfamiliar stars.<br> ,106601000G,vc_10660100001_002_01,
+message,,Unfamiliar scenery. Unfamiliar people. Unfamiliar air. Unfamiliar food.<br>Unfamiliar creatures，an unfamiliar night sky，unfamiliar stars.<br> ,106601000G,vc_10660100001_002_01,
 
 message,,This world is completely different from the place I lived in.<br> ,106601000G,vc_10660100001_003_01,
 
@@ -639,7 +639,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(...Just as I thought. Can't blame her. A civilian who's never seen<br>a battlefield，it'd be stranger if they don't tremble.)<br> 
+message,<user>,(...Just as I thought. Can't blame her. A civilian who's never seen a<br>battlefield，it'd be stranger if they don't tremble.)<br> 
 
 message,<user>,(But that shooting talent of hers will definitely become our trump<br>card in future battles...)<br> 
 
@@ -726,8 +726,6 @@ asyncwait
 asyncseplay,setag1_25,se4000019,0,1,CONT,0
 
 asyncshake,BACK,,20,0,0.25,30,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,20,0,0.25,30,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,20,0,0.25,30,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_3,20,0,0.25,30,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_4,20,0,0.25,30,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_5,20,0,0.25,30,off,off,0,off,CONT,0
@@ -746,8 +744,6 @@ asyncwait
 asyncseplay,setag1_26,se4000019,0,1,CONT,0
 
 asyncshake,BACK,,20,0,0.25,30,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,20,0,0.25,30,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,20,0,0.25,30,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_3,20,0,0.25,30,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_4,20,0,0.25,30,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_5,20,0,0.25,30,off,off,0,off,CONT,0
@@ -766,8 +762,6 @@ asyncwait
 asyncseplay,setag1_27,se4000019,0,1,CONT,0
 
 asyncshake,BACK,,20,0,0.25,30,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,20,0,0.25,30,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,20,0,0.25,30,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_3,20,0,0.25,30,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_4,20,0,0.25,30,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_5,20,0,0.25,30,off,off,0,off,CONT,0
@@ -836,7 +830,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,(What is this feeling...? That warped space... I feel like I've seen<br>it before...)<br> ,106601000G,vc_10660100001_032_01,chara_1
+message,ヒマリ,(What is this feeling...? That warped space... I feel like I've seen it<br>before...)<br> ,106601000G,vc_10660100001_032_01,chara_1
 
 window,off
 wait,0.15
@@ -853,7 +847,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,Don't zone out，Himari! It's the enemy! Everyone，prepare for combat!<br> 
+message,<user>,Don't zone out，Himari! It's the enemy! Everyone，prepare for<br>combat!<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -936,11 +930,6 @@ emodelete,chara_3,0,0
 asyncseplay,setag1_31,se4000019,0,1,CONT,0
 
 asyncshake,BACK,,20,0,0.25,30,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,20,0,0.25,30,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,20,0,0.25,30,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_3,20,0,0.25,30,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_4,20,0,0.25,30,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_5,20,0,0.25,30,off,off,0,off,CONT,0
 
 asyncwait
 
@@ -1167,7 +1156,7 @@ asynccharaemo,chara_1,ExclaQues,CONT,0
 window,on,0.15
 message,ヒマリ,Huh... Himari?<br> ,106601000G,vc_10660100001_038_01,chara_1
 
-message,<user>,Your weapon's power should kill it in one shot. Got it? Aim<br>carefully and fire when I signal.<br> 
+message,<user>,Your weapon's power should kill it in one shot. Got it? Aim carefully<br>and fire when I signal.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1205,7 +1194,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 
 window,on,0.15
-message,ヒマリ,(Just aim at the target and pull the trigger... just aim and<br>shoot... that's all... that's all there is to it...)<br> ,106601000G,vc_10660100001_040_01,chara_1
+message,ヒマリ,(Just aim at the target and pull the trigger... just aim and shoot...<br>that's all... that's all there is to it...)<br> ,106601000G,vc_10660100001_040_01,chara_1
 
 window,off
 wait,0.15
@@ -1289,14 +1278,9 @@ wait,0.5
 asyncseplay,setag1_41,se4900001,0,1,CONT,0
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_5,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
-message,,The beam of light didn't even graze the monster; it struck a rock<br>wall far behind，causing a massive explosion.<br> 
+message,,The beam of light didn't even graze the monster; it struck a rock wall<br>far behind，causing a massive explosion.<br> 
 
 window,off
 wait,0.15
@@ -1336,7 +1320,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 window,on,0.15
 message,ヒマリ,I missed...<br> ,106601000G,vc_10660100001_042_01,chara_1
 
-message,<user>,Still ridiculously powerful as ever... Calm down，Himari! Take<br>careful aim and shoot!<br> 
+message,<user>,Still ridiculously powerful as ever... Calm down，Himari! Take careful<br>aim and shoot!<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1625,11 +1609,7 @@ linework,on,Black,Middle
 asyncseplay,se1_1001,se4000223,0,1,CONT,0
 
 asyncshake,BACK,,12,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_1,12,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_2,12,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_3,12,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_4,12,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_5,12,0,0.6,5,off,off,0,on,CONT,0
 
 asyncjump,CHARA,chara_3,30,0.25,1,off,0,CONT
 
@@ -1649,7 +1629,7 @@ charafocusonall
 linework,off,Black,Middle
 
 window,on,0.15
-message,,The monster got up，regained its balance，and charged straight at the<br>trembling Himari.<br> 
+message,,The monster got up，regained its balance，and charged straight at<br>the trembling Himari.<br> 
 
 message,<user>,Himari! Run!<br> 
 
@@ -1708,10 +1688,6 @@ asyncseplay,setag1_53,se4410009,0,1,CONT,0
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_5,40,0,0.25,20,off,off,0,off,CONT,0
 
 wait,0.2
 
@@ -1900,11 +1876,7 @@ wait,0.5
 asyncseplay,setag1_57,se4900006,0,1,CONT,0
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_5,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
 message,,Kururu used the monster's charging momentum to lift it overhead.<br>Then，with all her might，she slammed it into the ground.<br> 
@@ -1984,11 +1956,7 @@ asyncwait
 asyncseplay,setag1_59,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 
 crossfadeready
 
@@ -2286,9 +2254,9 @@ wait,0.5
 window,on,0.15
 message,,The Commander picked up a bag made of an unfamiliar material.<br> 
 
-message,<user>,I've never seen this material before... Did it come out of that<br>spatial distortion along with the monster?<br> 
+message,<user>,I've never seen this material before... Did it come out of that spatial<br>distortion along with the monster?<br> 
 
-message,,The Commander carefully opened the zipper and checked the contents.<br>Inside the bag were several brightly colored packets.<br> 
+message,,The Commander carefully opened the zipper and checked the<br>contents. Inside the bag were several brightly colored packets.<br> 
 
 window,off
 wait,0.15

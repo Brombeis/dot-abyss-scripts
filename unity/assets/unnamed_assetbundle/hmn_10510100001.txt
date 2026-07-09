@@ -611,14 +611,8 @@ wait,1
 cleanall,EFFECT
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_5,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_6,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_7,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_8,40,0,0.25,20,off,off,0,off,CONT,0
+asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
 message,,*boooom—!*<br> 
@@ -694,21 +688,15 @@ asyncwait
 asyncseplay,setag1_18,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
-shake,CHARA,chara_6,40,0,0.25,20,off,off,0
-shake,CHARA,chara_7,40,0,0.25,20,off,off,0
 shake,CHARA,chara_8,40,0,0.25,20,off,off,0
+shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 
 asyncwait
 
 wait,0.5
 
 window,on,0.15
-message,兵士A,A-a giant sword nearly as tall as she is... and she swings it like<br>it's nothing! She's incredibly strong...!<br> ,401001000,vc_10510100001_009_01,
+message,兵士A,A-a giant sword nearly as tall as she is... and she swings it like it's<br>nothing! She's incredibly strong...!<br> ,401001000,vc_10510100001_009_01,
 
 
 window,off
@@ -1064,7 +1052,7 @@ wait,0.5
 window,on,0.15
 message,兵士A,I-Impossible...! The arm that came off... it's back to normal!<br> ,401001000,vc_10510100001_021_01,
 
-message,兵士C,The... the arm was cold... like a dead body... Oh no，is she a<br>monster!?<br> ,401301000,vc_10510100001_022_01,
+message,兵士C,The... the arm was cold... like a dead body... Oh no，is she a monster!?<br> ,401301000,vc_10510100001_022_01,
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1365,7 +1353,7 @@ asyncseplay,setag1_39,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,フェイリン,Yes. In my homeland，the art of becoming a Jiangshi was passed down，<br>but the art of turning back was never found.<br> ,105101000G,vc_10510100001_034_01,chara_1
+message,フェイリン,Yes. In my homeland，the art of becoming a Jiangshi was passed<br>down， but the art of turning back was never found.<br> ,105101000G,vc_10510100001_034_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -1378,7 +1366,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 message,フェイリン,But if it were the Abyss，which is said to connect to the outside of<br>this world... might be...<br> ,105101000G,vc_10510100001_035_01,chara_1
 
-message,<user>,So you sought hope in the Abyss. It's like grasping at straws，but<br>the Abyss holds infinite possibilities.<br> 
+message,<user>,So you sought hope in the Abyss.<br>It's like grasping at straws，but the Abyss holds infinite possibilities.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1503,7 +1491,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,Even though I could've seen that coming，Feilin still helped out.<br>See? She's trustworthy，a good person.<br> 
+message,<user>,Even though I could've seen that coming，Feilin still helped out. See?<br>She's trustworthy，a good person.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1528,7 +1516,7 @@ asyncseplay,setag1_46,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,フェイリン,...Now that you mention it，that's true. Since becoming like<br>this，I've not interacted much with people... I've not been thanked in ages.<br> ,105101000G,vc_10510100001_041_01,chara_1
+message,フェイリン,...Now that you mention it，that's true. Since becoming like this，I've<br>not interacted much with people... I've not been thanked in ages.<br> ,105101000G,vc_10510100001_041_01,chara_1
 
 message,<user>,That sounds like you've been through some lonely times.<br> 
 
@@ -1556,7 +1544,7 @@ asyncseplay,setag1_48,se4800009,0,1,CONT,0
 asynccharaemo,chara_1,Question,CONT,0
 
 
-message,フェイリン,With my condition，I'm grateful for a job offer... but who exactly<br>are you?<br> ,105101000G,vc_10510100001_043_01,chara_1
+message,フェイリン,With my condition，I'm grateful for a job offer... but who exactly are<br>you?<br> ,105101000G,vc_10510100001_043_01,chara_1
 
 message,<user>,I'm late to introduce myself. I'm %user%，Commander of the Frontline<br>Base.<br> 
 
@@ -1586,7 +1574,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 message,フェイリン,But... is it really okay? Even someone like me，staying by your<br>side，Commander?<br> ,105101000G,vc_10510100001_045_01,chara_1
 
-message,<user>,I'm a pragmatic guy. Your combat skills are reliable. I don't intend<br>to let a capable person slip away. Besides—<br> 
+message,<user>,I'm a pragmatic guy. Your combat skills are reliable. I don't intend to<br>let a capable person slip away. Besides—<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1699,7 +1687,7 @@ message,フェイリン,Excuse me... Wow，what a magnificent room.<br> ,1051010
 
 message,<user>,If it got out that you're a Jiangshi—a walking corpse—that'd be a<br>pain，wouldn't it?<br> 
 
-message,<user>,I'd like to let you come and go freely eventually，but it'll take<br>some preparation. For now，use this room so you don't cause a commotion.<br> 
+message,<user>,I'd like to let you come and go freely eventually，but it'll take some<br>preparation. For now，use this room so you don't cause a commotion.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 

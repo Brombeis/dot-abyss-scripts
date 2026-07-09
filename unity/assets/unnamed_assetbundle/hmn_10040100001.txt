@@ -39,7 +39,7 @@ asyncstopwait
 window,on,0.15
 message,<user>,Alright，that should be enough.<br>Time to head back to base...<br> 
 
-message,<user>,But they make me，the Commander，gather poison mushrooms just because<br>I look free. I mean，more poison for monsters is always good，but...<br> 
+message,<user>,But they make me，the Commander，gather poison mushrooms just<br>because I look free. I mean，more poison for monsters is always good，but...<br> 
 
 window,off
 wait,0.15
@@ -194,11 +194,11 @@ asynccharaemo,chara_1,Question,STOP
 asynccharaface,chara_1,FaceSurprise,STOP
 message,？？？,P-poison? Aiyaa...<br> ,100401000G,vc_10040100001_009_01,chara_1
 
-message,<user>,Why are you so surprised? Even if it only grows in this forest，it's<br>a pretty famous poison mushroom.<br> 
+message,<user>,Why are you so surprised? Even if it only grows in this forest，it's a<br>pretty famous poison mushroom.<br> 
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,<user>,Well，okay，maybe it's understandable you didn't know，but still，don't<br>eat a mushroom that looks this suspicious...<br> 
+message,<user>,Well，okay，maybe it's understandable you didn't know，but<br>still，don't eat a mushroom that looks this suspicious...<br> 
 
 asyncseplay,setag1_10,se4800007,6,1,CONT
 
@@ -208,7 +208,7 @@ asyncshake,CHARA,chara_1,3,0,0.5,2,off,off,0,off,CONT
 
 
 asynccharaface,chara_1,FaceSad,CONT,6
-message,？？？,But... Xiaolei was hungry... and it tasted good... Xiaolei didn't<br>know it had poison... *whimper*... Xiaolei is sorry...<br> ,100401000G,vc_10040100001_010_01,chara_1
+message,？？？,But... Xiaolei was hungry... and it tasted good...<br>Xiaolei didn't know it had poison... *whimper*... Xiaolei is sorry...<br> ,100401000G,vc_10040100001_010_01,chara_1
 
 message,<user>,Honestly... hold on a second. I can at least make a simple antidote.<br> 
 
@@ -333,11 +333,11 @@ charaemo,chara_1,Exclamation
 asynccharaface,chara_1,FaceSurprise,STOP
 message,シャオレイ,Wisdom...<br> ,,vc_10040100001_018_01
 
-message,シャオレイの祖父,Indeed! True strength requires power，technique，and wisdom! But I can<br>only teach you power and technique! Honestly，I am not very bright.<br> 
+message,シャオレイの祖父,Indeed! True strength requires power，technique，and wisdom! But I<br>can only teach you power and technique! Honestly，I am not very bright.<br> 
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,シャオレイの祖父,So，my grandchild! Go out into the world，learn，experience，and become<br>wise! Then you will grow stronger! Explanation over! Off you go!<br> 
+message,シャオレイの祖父,So，my grandchild! Go out into the world，learn，experience，and<br>become wise! Then you will grow stronger! Explanation over! Off you go!<br> 
 
 asyncseplay,setag1_18,se4800013,0,1,CONT
 
@@ -377,7 +377,7 @@ asynccharaemo,chara_1,Laugh,STOP
 asynccharaface,chara_1,FaceFun,STOP
 message,シャオレイ,But Xiaolei wants to become stronger!<br> ,,vc_10040100001_021_01
 
-message,<user>,I-I see... So you're on a martial pilgrimage. Leaving your home<br>alone must be lonely，but you're doing your best.<br> 
+message,<user>,I-I see... So you're on a martial pilgrimage. Leaving your home alone<br>must be lonely，but you're doing your best.<br> 
 
 asynccharaface,chara_1,FaceHappy,STOP
 message,シャオレイ,Aiyaa—not really. Xiaolei isn't alone. Right，Panpan，Dandan?<br> ,,vc_10040100001_022_01
@@ -510,7 +510,7 @@ asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
 message,シャオレイ,Xiaolei's family's poor，and she wants to earn money at Frontline<br>Base. If Teacher teaches her，she'll get stronger—two birds one stone.<br> ,,vc_10040100001_033_01
 
-message,<user>,I told you I'm busy! Let go of my sleeve... let go—... dammit，it<br>won't let go...!<br> 
+message,<user>,I told you I'm busy! Let go of my sleeve... let go—... dammit，it won't<br>let go...!<br> 
 
 message,シャオレイ,Teacher?<br> ,,vc_10040100001_034_01
 
@@ -524,7 +524,7 @@ asynccharaemo,chara_1,Laugh,STOP
 asynccharaface,chara_1,FaceFun,STOP
 message,シャオレイ,Xiaolei is strong. Has power. Will definitely be useful to Teacher.<br> ,,vc_10040100001_035_01
 
-message,<user>,You're grabbing my sleeve with incredible strength，but are you<br>really as strong as all that...?<br> 
+message,<user>,You're grabbing my sleeve with incredible strength，but are you really<br>as strong as all that...?<br> 
 
 message,<user>,Hmm，well then let me ask: can you move this big fallen tree? I've<br>been having trouble getting through here.<br> 
 
@@ -579,7 +579,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(To be able to lift such a big fallen tree easily with one hand...!<br>What incredible strength for such a small body!)<br> 
+message,<user>,(To be able to lift such a big fallen tree easily with one hand...! What<br>incredible strength for such a small body!)<br> 
 
 window,off
 wait,0.15

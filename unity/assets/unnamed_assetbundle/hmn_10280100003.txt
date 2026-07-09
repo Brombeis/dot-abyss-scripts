@@ -150,9 +150,9 @@ asynccharaface,chara_1,FaceSurprise,CONT,0
 
 message,女店長,It was a failure. No... a complete failure.<br> ,900000001,vc_10280100003_008_01,
 
-message,女店長,I didn't have the strength to beat monsters，so I figured I'd at<br>least go for the treasure in the shallows of the Abyss... but there were plenty of others with the same idea.<br> ,900000001,vc_10280100003_009_01,
+message,女店長,I didn't have the strength to beat monsters，so I figured I'd at least<br>go for the treasure in the shallows of the Abyss... but there were plenty of others with the same idea.<br> ,900000001,vc_10280100003_009_01,
 
-message,<user>,True. It seems a lot of people rushed into the Abyss for the<br>treasures right after it appeared.<br> 
+message,<user>,True. It seems a lot of people rushed into the Abyss for the treasures<br>right after it appeared.<br> 
 
 message,女店長,The treasure I was after had already been cleaned out，and I was left<br>with nothing... Now I just scavenge junk around the Abyss，barely scraping by，as you can see.<br> ,900000001,vc_10280100003_010_01,
 
@@ -167,7 +167,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 message,エミリー,If it was that bad... why didn't you come back to Eldorana? The shop<br>is still there，you know?<br> ,102801000G,vc_10280100003_011_01,chara_1
 
-message,女店長,...I was blinded by the lure of treasure and abruptly closed up shop<br>to head to the Abyss. I thought I couldn't return to Eldorana until I made a fortune.<br> ,900000001,vc_10280100003_012_01,
+message,女店長,...I was blinded by the lure of treasure and abruptly closed up shop to<br>head to the Abyss. I thought I couldn't return to Eldorana until I made a fortune.<br> ,900000001,vc_10280100003_012_01,
 
 message,<user>,So you've dug in your heels，too proud to go back. I can understand<br>the feeling，but...<br> 
 
@@ -213,7 +213,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 message,エミリー,Fufu，you're hungry，aren't you?<br>You don't have to hold back，you know?<br> ,102801000G,vc_10280100003_016_01,chara_1
 
-message,女店長,...I can't hide it after you heard that sound. Thank you，I'll have<br>some. I wonder how long it's been since I had a proper meal...<br> ,900000001,vc_10280100003_017_01,
+message,女店長,...I can't hide it after you heard that sound. Thank you，I'll have some.<br>I wonder how long it's been since I had a proper meal...<br> ,900000001,vc_10280100003_017_01,
 
 message,女店長,Thank you for the food... munch，munch.<br>Mmm... It's delicious... so delicious... *sigh*...<br> ,900000001,vc_10280100003_018_01,
 
@@ -385,7 +385,7 @@ message,女店長,Emily，you really are kind after all... though you still have
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
 
-message,<user>,I think Emily is being plenty kind，considering her workplace<br>suddenly vanished one day.<br> 
+message,<user>,I think Emily is being plenty kind，considering her workplace suddenly<br>vanished one day.<br> 
 
 message,女店長,...That's true.<br>I'm sorry... I really put you through a lot，Emily.<br> ,900000001,vc_10280100003_027_01,
 
@@ -446,8 +446,6 @@ wait,0.5
 asyncseplay,setag1_20,se4400061,0,1,CONT,0
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
 
 wait,0.3
 

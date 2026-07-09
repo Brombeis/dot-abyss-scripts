@@ -326,8 +326,6 @@ waitorclick,1
 asyncseplay,setag1_7,se4410024,0,1,CONT,0
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_5,40,0,0.25,20,off,off,0,off,CONT,0
@@ -423,7 +421,7 @@ asyncseplay,setag1_13,se4400059,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,As panic spread among the villagers， the crystal slipped from the<br>thief's hand and rolled across the floor.<br> 
+message,,As panic spread among the villagers，<br>the crystal slipped from the thief's hand and rolled across the floor.<br> 
 
 window,off
 wait,0.15
@@ -966,11 +964,9 @@ asyncfade,In,White,0.15,STOP,0.5
 waitorclick,0.5
 
 asyncshake,BACK,,20,0,0.25,30,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,20,0,0.25,30,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,20,0,0.25,30,off,off,0,off,CONT,0
+asyncshake,CHARA,chara_5,20,0,0.25,30,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_3,20,0,0.25,30,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_4,20,0,0.25,30,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_5,20,0,0.25,30,off,off,0,off,CONT,0
 
 asyncshake,CHARA,chara_3,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -998,11 +994,8 @@ asyncwait
 asyncseplay,setag1_31,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 shake,CHARA,chara_5,40,0,0.25,20,off,off,0
+shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 
 window,on,0.15
 message,村人B,She knocked him out...? Did she silence him because<br>there was something he shouldn't have said...?<br> ,900000001
@@ -1460,7 +1453,7 @@ asynccharaemo,chara_5,Laugh,CONT,0
 
 
 window,on,0.15
-message,鬼族B,Yeah! Commander! Show us you're worthy of being Miss Kureha's groom!<br> ,402801000,,chara_5
+message,鬼族B,Yeah! Commander! Show us you're worthy of being Miss Kureha's<br>groom!<br> ,402801000,,chara_5
 
 message,<user>,Who's a groom! — no，this isn't the time for that!<br> 
 

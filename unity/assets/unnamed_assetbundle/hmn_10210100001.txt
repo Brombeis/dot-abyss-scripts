@@ -130,7 +130,7 @@ asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 window,on,0.15
 message,ヒュメナ,Hmm? Oh，Commander. Hello there.<br> ,,vc_10210100001_002_01,chara_1
 
-message,<user>,Yeah. This is the first time we've really talked. Getting used to<br>life here? Let me know if anything's bothering you.<br> 
+message,<user>,Yeah. This is the first time we've really talked. Getting used to life<br>here? Let me know if anything's bothering you.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -240,7 +240,7 @@ asyncseplay,setag1_9,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ヒュメナ,Upa-chan isn't just an ordinary fish! She's a water spirit who<br>serves me，a priestess of the Water God!<br> ,,vc_10210100001_010_01,chara_1
+message,ヒュメナ,Upa-chan isn't just an ordinary fish! She's a water spirit who serves<br>me，a priestess of the Water God!<br> ,,vc_10210100001_010_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -293,7 +293,7 @@ asyncseplay,setag1_14,se4800002,0,1,CONT,0
 asynccharaemo,chara_1,Heart,CONT,0
 
 
-message,ヒュメナ,First of all，these squishy cheeks and round eyes! She's so adorable<br>I can't stand it，right?<br> ,,vc_10210100001_014_01,chara_1
+message,ヒュメナ,First of all，these squishy cheeks and round eyes! She's so adorable I<br>can't stand it，right?<br> ,,vc_10210100001_014_01,chara_1
 
 window,off
 wait,0.15
@@ -473,7 +473,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,ヒュメナ,...? Looks like things are getting lively over there. That's the<br>training grounds，isn't it? I wonder what's going on?<br> ,,vc_10210100001_020_01,chara_1
+message,ヒュメナ,...? Looks like things are getting lively over there. That's the training<br>grounds，isn't it? I wonder what's going on?<br> ,,vc_10210100001_020_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -542,7 +542,7 @@ asyncseplay,setag1_23,se4800010,0,1,CONT,0
 asynccharaemo,chara_2,Exclamation,CONT,0
 
 
-message,前線基地の兵士A,Ah，Lord Commander! Actually，we're holding a tournament to see who<br>can break the most tiles!<br> ,400901000,,chara_2
+message,前線基地の兵士A,Ah，Lord Commander! Actually，we're holding a tournament to see<br>who can break the most tiles!<br> ,400901000,,chara_2
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -599,7 +599,7 @@ asynccharaemo,chara_1,Flash,CONT,0
 window,on,0.15
 message,ヒュメナ,Huh，sounds fun. Why don't you give it a try too，Commander?<br> ,,vc_10210100001_022_01,chara_1
 
-message,<user>,I'm more of a brainy type. I'd just get hurt without breaking a<br>single one.<br> 
+message,<user>,I'm more of a brainy type. I'd just get hurt without breaking a single<br>one.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -838,9 +838,6 @@ emodelete,chara_1,0,0
 seplay,setag1_35,se4410008,0,1
 
 asyncshake,BACK,,24,0,0.6,7,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_1,24,0,0.6,7,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_2,24,0,0.6,7,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_3,24,0,0.6,7,off,off,0,on,CONT,0
 
 fade,In,White,1
 

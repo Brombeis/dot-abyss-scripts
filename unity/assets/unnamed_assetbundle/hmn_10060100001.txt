@@ -220,7 +220,7 @@ asyncshake,CHARA,chara_4,15,10,0.25,3,on,off,0,off,CONT,0
 asyncshake,CHARA,chara_5,15,10,0.25,3,on,off,0,off,CONT,0
 
 window,on,0.15
-message,,Unable to withstand the monster's pressure，one soldier after another<br>fell severely wounded. The tragic sight spread fear among the surrounding soldiers.<br> 
+message,,Unable to withstand the monster's pressure，one soldier after<br>another fell severely wounded. The tragic sight spread fear among the surrounding soldiers.<br> 
 
 window,off
 wait,0.15
@@ -582,7 +582,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,What! With an injury like this，what are you saying! At this rate<br>you'll die!<br> ,100601000G,vc_10060100001_005_01,chara_1
+message,ノエミ,What! With an injury like this，what are you saying! At this rate you'll<br>die!<br> ,100601000G,vc_10060100001_005_01,chara_1
 
 asynccharaface,chara_3,FaceAnger,CONT,0
 
@@ -593,7 +593,7 @@ asyncseplay,setag1_17,se4800015,0,1,CONT,0
 asynccharaemo,chara_3,Dull,CONT,0
 
 
-message,兵士Ａ,This wound would take time to heal，right? How many comrades can you<br>treat in that time?<br> ,400901000,,chara_3
+message,兵士Ａ,This wound would take time to heal，right? How many comrades can<br>you treat in that time?<br> ,400901000,,chara_3
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -1039,18 +1039,13 @@ asyncwait
 asyncseplay,setag1_32,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 shake,CHARA,chara_6,40,0,0.25,20,off,off,0
 shake,CHARA,chara_7,40,0,0.25,20,off,off,0
 
 wait,0.5
 
 window,on,0.15
-message,,Mustering their strength，the soldiers finally drove back the<br>monster. Noemi was doing her utmost to heal the remaining wounded.<br> 
+message,,Mustering their strength，the soldiers finally drove back the monster.<br>Noemi was doing her utmost to heal the remaining wounded.<br> 
 
 window,off
 wait,0.15
@@ -1414,7 +1409,7 @@ transitionCrossFade,Tra02,1
 wait,1
 
 window,on,0.15
-message,<user>,Morale was high，they were looking out for each other，and they could<br>laugh again. *Phew*... Looks like we'll make it home safe.<br> 
+message,<user>,Morale was high，they were looking out for each other，and they<br>could laugh again. *Phew*... Looks like we'll make it home safe.<br> 
 
 window,off
 wait,0.15
@@ -1558,7 +1553,7 @@ message,アリシア,Welcome back，Commander!<br>Looks like this one was tough.
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
-message,<user>,Yeah，but thanks to Noemi，who kept healing everyone all by herself，we<br>managed.<br> 
+message,<user>,Yeah，but thanks to Noemi，who kept healing everyone all by<br>herself，we managed.<br> 
 
 asynccharaface,chara_6,FaceUnique01,CONT,0
 
@@ -1652,7 +1647,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,(And that soldier surely wouldn't have had to resign himself to<br>being left behind...)<br> ,100601000G,vc_10060100001_021_01,chara_1
+message,ノエミ,(And that soldier surely wouldn't have had to resign himself to being<br>left behind...)<br> ,100601000G,vc_10060100001_021_01,chara_1
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1660,7 +1655,7 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
 
-message,ノエミ,(If only I could do better... I need to learn to handle any<br>situation calmly，without panicking...)<br> ,100601000G,vc_10060100001_022_01,chara_1
+message,ノエミ,(If only I could do better... I need to learn to handle any situation<br>calmly，without panicking...)<br> ,100601000G,vc_10060100001_022_01,chara_1
 
 window,off
 wait,0.15
@@ -1926,7 +1921,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ノエミ,Even if I'm inadequate or make mistakes，I'll help everyone with what<br>I can do.<br> ,100601000G,vc_10060100001_026_01,chara_1
+message,ノエミ,Even if I'm inadequate or make mistakes，I'll help everyone with what I<br>can do.<br> ,100601000G,vc_10060100001_026_01,chara_1
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1937,7 +1932,7 @@ asyncseplay,setag1_58,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ノエミ,That is what it means to be a cleric! I'll keep growing and be of<br>use to everyone!<br> ,100601000G,vc_10060100001_027_01,chara_1
+message,ノエミ,That is what it means to be a cleric! I'll keep growing and be of use to<br>everyone!<br> ,100601000G,vc_10060100001_027_01,chara_1
 
 window,off
 wait,0.15
@@ -2109,7 +2104,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,ノエミ,Wait! I've only received God's blessing... I'm no goddess or<br>anything...<br> ,100601000G,vc_10060100001_029_01,chara_1
+message,ノエミ,Wait! I've only received God's blessing... I'm no goddess or anything...<br> ,100601000G,vc_10060100001_029_01,chara_1
 
 window,off
 wait,0.15
@@ -2475,7 +2470,7 @@ emodelete,chara_7,0,0
 asyncwait
 
 window,on,0.15
-message,,Hiding from prying eyes，Ludia and Noemi spoke in hushed tones，then<br>left together.<br> 
+message,,Hiding from prying eyes，Ludia and Noemi spoke in hushed<br>tones，then left together.<br> 
 
 window,off
 wait,0.15
@@ -2519,7 +2514,7 @@ asynccharaemo,chara_6,Sweat,CONT,0
 
 message,アリシア,Yes，they seemed very serious... I hope everything's okay...<br> ,300201000,vc_10060100001_039_01,chara_6
 
-message,<user>,Ludia's involved，so it's probably nothing bad... but I'll keep an<br>eye on it.<br> 
+message,<user>,Ludia's involved，so it's probably nothing bad... but I'll keep an eye<br>on it.<br> 
 
 window,off
 bgmstop,bgmtag1_4,0.5

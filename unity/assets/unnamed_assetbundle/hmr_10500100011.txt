@@ -36,7 +36,7 @@ asynccharaemo,chara_1,Speak,STOP
 
 asynccharaface,chara_1,FaceFun,STOP
 window,on,0.15
-message,ベティ,Commander，you called for me? I understand you require me to inspect<br>the safety of the underground cavern.<br> ,,vc_10500100011_001_01
+message,ベティ,Commander，you called for me? I understand you require me to<br>inspect the safety of the underground cavern.<br> ,,vc_10500100011_001_01
 
 message,<user>,Betty，thanks. Check the Brothel's basement. The wall collapsed into<br>the cavern—verify the ground.<br> 
 
@@ -91,7 +91,6 @@ wait,0.15
 asyncseplay,setag1_4,se4900169,0,1,CONT
 
 shake,BACK,,50,0,0.5,10,off,off,0
-shake,CHARA,chara_1,50,0,0.5,10,off,off,0
 
 crossfadeready
 
@@ -145,7 +144,7 @@ wait,0.1
 bgmstop,bgmtag1_2,0,0
 
 window,on,0.15
-message,<user>,(This isn't going to calm down easily. It'd be cruel to leave her<br>like this until rescue arrives. To calm her down—)<br> 
+message,<user>,(This isn't going to calm down easily. It'd be cruel to leave her like<br>this until rescue arrives. To calm her down—)<br> 
 
 window,off
 wait,0.15
@@ -208,7 +207,7 @@ asynccharaemo,chara_1,Question,STOP
 asynccharaface,chara_1,FaceSad,STOP
 message,ベティ,U-um... Commander.<br>There is... something hard against my stomach... what is this...<br> ,,vc_10500100011_008_01
 
-message,<user>,Ah... well，this is... I'm sorry. Actually，I came here today to visit<br>a Courtesan，but when I heard about the cavern，I put that on hold.<br> 
+message,<user>,Ah... well，this is... I'm sorry. Actually，I came here today to visit a<br>Courtesan，but when I heard about the cavern，I put that on hold.<br> 
 
 message,<user>,In that state，with a cute girl like you pressed up against me...<br>Even if it's just a biological reaction，I'm sorry.<br> 
 
@@ -261,7 +260,7 @@ asynccharaemo,chara_1,Heart,STOP
 
 asynccharaface,chara_1,FaceShy,STOP
 window,on,0.15
-message,ベティ,...Um，Commander. You said you came here for a Courtesan... W-would I<br>not do?<br> ,,vc_10500100011_010_01
+message,ベティ,...Um，Commander. You said you came here for a Courtesan... W-would<br>I not do?<br> ,,vc_10500100011_010_01
 
 message,<user>,What? You know what you're saying，don't you? If you say that in this<br>situation，I won't be able to stop myself.<br> 
 

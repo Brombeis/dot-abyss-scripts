@@ -88,7 +88,7 @@ message,商人風の男,I came to the Frontline Base aiming to make a quick fort
 
 message,商人風の男,My business didn't go well at all. I couldn't handle weapons or use<br>magic，so I wasn't even allowed to explore the Abyss.<br> ,900000001
 
-message,商人風の男,Then I heard about your Onmyoji talismans and thought if I stole<br>your grimoire，even a non-magic user like me could use them.<br> ,900000001
+message,商人風の男,Then I heard about your Onmyoji talismans and thought if I stole your<br>grimoire，even a non-magic user like me could use them.<br> ,900000001
 
 window,off
 wait,0.15
@@ -107,9 +107,9 @@ wait,0.5
 
 
 window,on,0.15
-message,ヒナギ,That is a simplistic idea. This is not something that can be handled<br>by someone without knowledge of the Onmyoji arts...<br> ,106201000X,vc_10620100023_003_01,chara_1
+message,ヒナギ,That is a simplistic idea. This is not something that can be handled by<br>someone without knowledge of the Onmyoji arts...<br> ,106201000X,vc_10620100023_003_01,chara_1
 
-message,商人風の男,Seems that's true. But I intended to return the book once I learned<br>a few spells. That's the truth.<br> ,900000001
+message,商人風の男,Seems that's true. But I intended to return the book once I learned a<br>few spells. That's the truth.<br> ,900000001
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -120,7 +120,7 @@ asyncseplay,setag3_4,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒナギ,I find that hard to believe... But there should have been a barrier<br>on my door. How did you get in，then?<br> ,106201000X,vc_10620100023_004_01,chara_1
+message,ヒナギ,I find that hard to believe... But there should have been a barrier on<br>my door. How did you get in，then?<br> ,106201000X,vc_10620100023_004_01,chara_1
 
 message,商人風の男,A barrier on the door? What are you talking about? I sneaked in<br>easily through the window...<br> ,900000001
 
@@ -158,9 +158,9 @@ asyncseplay,setag3_6,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ヒナギ,Surely you did not... try to take the Lord Commander's life because<br>of that?<br> ,106201000X,vc_10620100023_006_01,chara_1
+message,ヒナギ,Surely you did not... try to take the Lord Commander's life because of<br>that?<br> ,106201000X,vc_10620100023_006_01,chara_1
 
-message,商人風の男,No，I didn't intend to go as far as taking his life. I thought I'd<br>use the talisman to steal the power of that guy with the Hero's Blood.<br> ,900000001
+message,商人風の男,No，I didn't intend to go as far as taking his life. I thought I'd use the<br>talisman to steal the power of that guy with the Hero's Blood.<br> ,900000001
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -171,7 +171,7 @@ asyncseplay,setag3_7,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒナギ,So that was the curse you cast... For someone without any training<br>to try to cast such a curse...<br> ,106201000X,vc_10620100023_007_01,chara_1
+message,ヒナギ,So that was the curse you cast... For someone without any training to<br>try to cast such a curse...<br> ,106201000X,vc_10620100023_007_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -301,8 +301,6 @@ asynccharaemo,chara_3,Exclamation,CONT,0
 asyncseplay,setag3_14,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
 shake,CHARA,chara_3,40,0,0.25,20,off,off,0
 
 asyncwait

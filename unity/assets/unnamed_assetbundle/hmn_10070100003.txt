@@ -266,9 +266,9 @@ asyncseplay,setag1_17,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,フィルム,...Yes，I sense definite spiritual energy. It's without a doubt a<br>psychic phenomenon.<br> ,,vc_10070100003_004_01,chara_1
+message,フィルム,...Yes，I sense definite spiritual energy. It's without a doubt a psychic<br>phenomenon.<br> ,,vc_10070100003_004_01,chara_1
 
-message,<user>,*tch*，so this time it's the real deal? With this scale，the cause<br>could be...<br> 
+message,<user>,*tch*，so this time it's the real deal? With this scale，the cause could<br>be...<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -354,7 +354,7 @@ message,フィルム,I'm sure we can handle it just like last time.<br> ,,vc_100
 
 asynccharaface,chara_1,FaceSurprise,STOP,1
 
-message,<user>,No，sorry，but this is way too big for just the two of us. We'll have<br>to mobilize everyone on the Frontline Base!<br> 
+message,<user>,No，sorry，but this is way too big for just the two of us. We'll have to<br>mobilize everyone on the Frontline Base!<br> 
 
 
 asynccharaface,chara_1,FaceSad,CONT,0
@@ -572,7 +572,6 @@ asyncseplay,setag1_31,se4900006,0,1,CONT,0
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
 
 asynccharaface,chara_1,FaceSurprise,STOP,0.1
 
@@ -630,8 +629,6 @@ wait,0.15
 charafocusonall
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
 
 window,on,0.15
 message,<user>,Whoa! Noir，don't bump into me all of a sudden...<br> 
@@ -945,7 +942,7 @@ message,<user>,What is it，Noir? Don't tell me you know what caused it?<br>
 
 message,ノワール,...!<br>...!♡<br> ,550100001,vc_10070100003_030_01,
 
-message,<user>,You're pointing toward where Film went... Don't tell me you're<br>saying the phenomenon earlier was caused by Film?<br> 
+message,<user>,You're pointing toward where Film went... Don't tell me you're saying<br>the phenomenon earlier was caused by Film?<br> 
 
 message,<user>,But Film shouldn't have that kind of spiritual power，right? She said<br>the most she can do is make water in a glass ripple.<br> 
 

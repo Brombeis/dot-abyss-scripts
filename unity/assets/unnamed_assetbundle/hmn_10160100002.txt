@@ -173,7 +173,7 @@ asynccharaemo,chara_3,Silence,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,Wisteria...? We're in the same unit，but we're not on friendly<br>terms...<br> ,401001000,vc_10160100002_007_01,chara_3
+message,兵士Ａ,Wisteria...? We're in the same unit，but we're not on friendly terms...<br> ,401001000,vc_10160100002_007_01,chara_3
 
 message,<user>,Haven't you seen her around the Frontline Base?<br> 
 
@@ -304,11 +304,11 @@ emodelete,chara_5,0,0
 fade,In,Black,1
 
 window,on,0.15
-message,<user>,Wisteria doesn't seem to be using a room in the barracks. She<br>doesn't eat or rest inside the base either.<br> 
+message,<user>,Wisteria doesn't seem to be using a room in the barracks. She doesn't<br>eat or rest inside the base either.<br> 
 
 message,<user>,But she does shop，stocking up on food and preparing for camping.<br> 
 
-message,<user>,And considering where I met her in the forest... Alright，let's check<br>it out.<br> 
+message,<user>,And considering where I met her in the forest... Alright，let's check it<br>out.<br> 
 
 bgmstop,bgmtag1_1,1.5,0
 
@@ -392,7 +392,7 @@ asyncseplay,setag1_13,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ウィステリア,What's with your carefree attitude... This isn't the sort of place<br>you run into someone by accident.<br> ,101601000G,vc_10160100002_015_01,chara_1
+message,ウィステリア,What's with your carefree attitude... This isn't the sort of place you<br>run into someone by accident.<br> ,101601000G,vc_10160100002_015_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -429,7 +429,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 message,ウィステリア,Just because we met in this forest once doesn't mean it'll happen<br>again...<br> ,101601000G,vc_10160100002_018_01,chara_1
 
-message,<user>,No，I knew you'd come. Wisteria，your secret base is around here，isn't<br>it?<br> 
+message,<user>,No，I knew you'd come. Wisteria，your secret base is around<br>here，isn't it?<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -634,7 +634,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 
 message,ウィステリア,No one is interested in me. Not even the other members of the base.<br> ,101601000G,vc_10160100002_034_01,chara_1
 
-message,<user>,Hmm... maybe it's just that you're too good at hiding your<br>presence...<br> 
+message,<user>,Hmm... maybe it's just that you're too good at hiding your presence...<br> 
 
 message,<user>,Anyway，I've come this far. Would you invite me to your secret base?<br> 
 
@@ -723,7 +723,7 @@ asyncjump,CHARA,chara_1,-40,0.8,1,off,0,CONT
 asyncwait
 
 window,on,0.15
-message,,Wisteria，who had been constantly averting her gaze，finally looked at<br>the Commander and let out a sigh of relief.<br> 
+message,,Wisteria，who had been constantly averting her gaze，finally looked<br>at the Commander and let out a sigh of relief.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -735,7 +735,7 @@ asyncseplay,setag1_38,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ウィステリア,I'm sorry about that. The impression from last time was so strong<br>that I couldn't help it.<br> ,101601000G,vc_10160100002_041_01,chara_1
+message,ウィステリア,I'm sorry about that. The impression from last time was so strong that<br>I couldn't help it.<br> ,101601000G,vc_10160100002_041_01,chara_1
 
 message,<user>,Oh，is that it? Sorry about that.<br> 
 

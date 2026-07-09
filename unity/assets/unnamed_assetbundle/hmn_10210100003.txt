@@ -47,7 +47,7 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 
 
 window,on,0.15
-message,前線基地の兵士A,Hey hey，did you hear? They say the Commander's gonna fight Humena!<br> ,400901000,,chara_2
+message,前線基地の兵士A,Hey hey，did you hear? They say the Commander's gonna fight<br>Humena!<br> ,400901000,,chara_2
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -69,7 +69,7 @@ asyncseplay,setag1_3,se4800008,0,1,CONT,0
 asynccharaemo,chara_3,Sweat,CONT,0
 
 
-message,前線基地の兵士B,They even cancelled the betting because the odds were too one-sided.<br>It's more like a show than a real match.<br> ,401501000,,chara_3
+message,前線基地の兵士B,They even cancelled the betting because the odds were too<br>one-sided. It's more like a show than a real match.<br> ,401501000,,chara_3
 
 window,off
 wait,0.15
@@ -233,7 +233,7 @@ transitionCrossFade,Tra01,1
 wait,1
 
 window,on,0.15
-message,<user>,Kukuku! You sure talk big，you bunch of hecklers! You all think I<br>can't beat Humena，don't you?<br> 
+message,<user>,Kukuku! You sure talk big，you bunch of hecklers! You all think I can't<br>beat Humena，don't you?<br> 
 
 asynccharaface,chara_3,FaceSad,CONT,0
 
@@ -246,7 +246,7 @@ asynccharaemo,chara_3,Panic,CONT,0
 
 message,前線基地の兵士B,You bet we do! So what's your plan，Lord Commander?<br> ,401501000,,chara_3
 
-message,<user>,You'll have to wait and see! But I'll tell you this: I've already<br>got the mental advantage! Look at Humena! She's flinching，isn't she!<br> 
+message,<user>,You'll have to wait and see! But I'll tell you this: I've already got the<br>mental advantage! Look at Humena! She's flinching，isn't she!<br> 
 
 window,off
 wait,0.15
@@ -459,7 +459,7 @@ transitionCrossFade,Tra16,0.5
 wait,0.5
 
 window,on,0.15
-message,<user>,As you can see! Humena，who you've been chasing，has completely opened<br>her heart to me!<br> 
+message,<user>,As you can see! Humena，who you've been chasing，has completely<br>opened her heart to me!<br> 
 
 asyncjump,CHARA,chara_1,40,0.5,2,off,0,CONT
 
@@ -706,7 +706,7 @@ wait,0.5
 window,on,0.15
 message,<user>,Yes! The water spirits are no different! I've completely tamed them!<br> 
 
-message,,Commander tossed dumpling crumbs into the water，and the Upas began<br>pecking at them happily.<br> 
+message,,Commander tossed dumpling crumbs into the water，and the Upas<br>began pecking at them happily.<br> 
 
 message,ウパ,Upaa!♪<br> ,900000003,vc_10210100003_010_01,
 
@@ -1070,7 +1070,7 @@ seplay,setag1_41,se4900006,0,1
 window,on,0.15
 message,<user>,Guh! Gwaaaaaaaah!<br> 
 
-message,,Struck by Humena's blow，%user% was sent flying，tumbling across the<br>dojo floor.<br> 
+message,,Struck by Humena's blow，%user% was sent flying，tumbling across<br>the dojo floor.<br> 
 
 window,off
 wait,0.15
@@ -1095,8 +1095,6 @@ charashowalpha,chara_1,1,0
 
 asyncshake,BACK,,24,0,0.6,7,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_1,24,0,0.6,7,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_2,24,0,0.6,7,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_3,24,0,0.6,7,off,off,0,on,CONT,0
 
 fade,In,White,1
 
@@ -1109,7 +1107,7 @@ shakeallstop
 bgmplay,bgmtag1_3,bgm0026,0.75,1
 
 window,on,0.15
-message,<user>,No... way... With the Water Spirit's Blessing... Shouldn't I be<br>stronger?<br> 
+message,<user>,No... way... With the Water Spirit's Blessing... Shouldn't I be stronger?<br> 
 
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -1127,7 +1125,7 @@ asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 message,ヒュメナ,These little ones are my dear friends. Being with them gives me the<br>strength to do my best and become stronger. That's all.<br> ,,vc_10210100003_018_01,chara_1
 
-message,<user>,So the true power is the bond between friends... Ah... I was a<br>fool... Well done，Humena... *guh*!<br> 
+message,<user>,So the true power is the bond between friends... Ah... I was a fool...<br>Well done，Humena... *guh*!<br> 
 
 window,off
 wait,0.15
@@ -1138,8 +1136,6 @@ asyncseplay,setag1_44,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
 shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1253,7 +1249,7 @@ emodelete,chara_3,0,0
 asyncwait
 
 window,on,0.15
-message,,The gathered onlookers，realizing the water spirits had no blessing<br>to offer，left looking disappointed.<br> 
+message,,The gathered onlookers，realizing the water spirits had no blessing to<br>offer，left looking disappointed.<br> 
 
 window,off
 wait,0.15
@@ -1402,7 +1398,7 @@ message,ヒュメナ,Come on，Upas，you can swim all you want!♪<br> ,,vc_102
 
 message,ウパ,Upa!<br> ,900000003,vc_10210100003_024_01,on
 
-message,,The water spirits，released from their tank，began swimming around the<br>beautiful ocean.<br> 
+message,,The water spirits，released from their tank，began swimming around<br>the beautiful ocean.<br> 
 
 message,<user>,They look happy，the Upas.<br> 
 
@@ -1416,7 +1412,7 @@ asyncseplay,setag1_52,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ヒュメナ,Yeah! It's been a while since they've seen the sea. I'm so glad<br>they're all enjoying themselves!<br> ,,vc_10210100003_025_01,chara_1
+message,ヒュメナ,Yeah! It's been a while since they've seen the sea. I'm so glad they're<br>all enjoying themselves!<br> ,,vc_10210100003_025_01,chara_1
 
 message,<user>,I made you wait until I recovered. And you took care of me too.<br>Sorry，Humena.<br> 
 
@@ -1443,7 +1439,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 message,ヒュメナ,Besides，I always wanted you to see them swimming in the sea like<br>this.<br> ,,vc_10210100003_027_01,chara_1
 
-message,<user>,Ah... it's a beautiful sight. You can really tell they're water<br>spirits.<br> 
+message,<user>,Ah... it's a beautiful sight. You can really tell they're water spirits.<br> 
 
 message,<user>,It was worth risking my neck to show those idiots that getting cozy<br>with water spirits doesn't make you stronger.<br> 
 
@@ -1551,7 +1547,7 @@ asyncseplay,setag1_63,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヒュメナ,I don't want anyone to think I'm close with another man. If they<br>tried to put an arm around my shoulder，I'd probably run away.<br> ,,vc_10210100003_037_01,chara_1
+message,ヒュメナ,I don't want anyone to think I'm close with another man.<br>If they tried to put an arm around my shoulder，I'd probably run away.<br> ,,vc_10210100003_037_01,chara_1
 
 message,<user>,Oh，so you felt the same way.<br>Then I'm glad I went through with it.<br> 
 

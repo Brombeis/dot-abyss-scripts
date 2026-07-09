@@ -29,7 +29,7 @@ asyncseplay,se1_1001,se4000121,0,1,CONT,0
 window,on,0.15
 message,<user>,*pant*，*pant*... dammit!<br> 
 
-message,,In the mountainous terrain near the Frontline Base，the Commander was<br>being chased by a pack of wolves.<br> 
+message,,In the mountainous terrain near the Frontline Base，the Commander<br>was being chased by a pack of wolves.<br> 
 
 window,off
 wait,0.15
@@ -82,7 +82,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(If I keep running like this，they'll corner me... What should I<br>do...)<br> 
+message,<user>,(If I keep running like this，they'll corner me... What should I do...)<br> 
 
 crossfadeready
 
@@ -173,7 +173,7 @@ cleanall,EFFECT
 asyncwait
 
 window,on,0.15
-message,,Hearing the wolf's yelp，the Commander checked behind him. Gunshots<br>rang out，and the wolves chasing him fell one by one.<br> 
+message,,Hearing the wolf's yelp，the Commander checked behind him.<br>Gunshots rang out，and the wolves chasing him fell one by one.<br> 
 
 message,<user>,Gunshots...? A sniper!<br> 
 
@@ -361,7 +361,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 message,シャノン,I want to go to the Frontline Base. owner，you know the way?<br> ,105301000G,vc_10530100001_007_01,chara_1
 
-message,<user>,Oh，heading to the Frontline Base? I'll guide you. I was about to<br>head back anyway.<br> 
+message,<user>,Oh，heading to the Frontline Base? I'll guide you. I was about to head<br>back anyway.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -622,8 +622,8 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
+asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
 message,<user>,(Bwah!)<br> 
@@ -800,7 +800,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(Of course! If a sniper as skilled as that is after me，not even a<br>dozen lives would be enough!)<br> 
+message,<user>,(Of course! If a sniper as skilled as that is after me，not even a dozen<br>lives would be enough!)<br> 
 
 message,<user>,(For now，to avoid blowing my cover—once I guide her to the base，I'll<br>make a run for it...)<br> 
 
@@ -939,7 +939,7 @@ asyncseplay,setag1_44,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,シャノン,No，I can't do that. A professional always puts the job first. I have<br>to find %user%.<br> ,105301000G,vc_10530100001_034_01,chara_1
+message,シャノン,No，I can't do that. A professional always puts the job first. I have to<br>find %user%.<br> ,105301000G,vc_10530100001_034_01,chara_1
 
 message,<user>,I-I see... Well then，I'll be going now...<br> 
 
@@ -1092,7 +1092,7 @@ asyncseplay,setag1_47,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 
-message,一般兵,The Deputy Commander has been looking for you! Make sure you go see<br>them later!<br> ,401001000,vc_10530100001_037_01,chara_2
+message,一般兵,The Deputy Commander has been looking for you! Make sure you go<br>see them later!<br> ,401001000,vc_10530100001_037_01,chara_2
 
 window,off
 wait,0.15

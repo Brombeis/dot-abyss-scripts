@@ -24,7 +24,7 @@ bgmplay,bgmtag1_1,bgm0026,0.75,1
 
 
 window,on,0.15
-message,<user>,Hmm... this area could work for a large-scale defense. I should prep<br>a strategy to lure monsters.<br> 
+message,<user>,Hmm... this area could work for a large-scale defense. I should prep a<br>strategy to lure monsters.<br> 
 
 window,off
 wait,0.15
@@ -267,7 +267,7 @@ asynccharamove,chara_1,Linear,Y,0,0.2,CONT,0
 asyncwait
 
 window,on,0.15
-message,,Luca dashed toward the seated Commander，aiming to launch a surprise<br>attack.<br> 
+message,,Luca dashed toward the seated Commander，aiming to launch a<br>surprise attack.<br> 
 
 window,off
 wait,0.15
@@ -446,7 +446,7 @@ asyncseplay,setag1_19,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,ルカ,Ugh... I won't lose next time! And I'm not falling for a pitfall<br>like that again!<br> ,104001000G,vc_10400100002_013_01,chara_1
+message,ルカ,Ugh... I won't lose next time! And I'm not falling for a pitfall like that<br>again!<br> ,104001000G,vc_10400100002_013_01,chara_1
 
 message,<user>,...You still haven't given up?<br> 
 
@@ -473,7 +473,7 @@ asyncseplay,setag1_21,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ルカ,Hmph! I'll never betray my own dream! I'll surpass Commaander，become<br>the strongest at the Frontline Base，and then number one in the world!<br> ,104001000G,vc_10400100002_015_01,chara_1
+message,ルカ,Hmph! I'll never betray my own dream! I'll surpass<br>Commaander，become the strongest at the Frontline Base，and then number one in the world!<br> ,104001000G,vc_10400100002_015_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -656,7 +656,7 @@ asyncseplay,setag1_28,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ルカ,A rule-breaking second surprise attack! Commaander，prepare yourself!<br> ,104001000G,vc_10400100002_020_01,chara_1
+message,ルカ,A rule-breaking second surprise attack! Commaander，prepare<br>yourself!<br> ,104001000G,vc_10400100002_020_01,chara_1
 
 window,off
 wait,0.15
@@ -754,8 +754,8 @@ charascale,chara_1,1,0
 charashowalpha,chara_1,1,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 shake,CHARA,chara_2,40,0,0.25,20,off,off,0
+shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 
 fade,In,White,1
 
@@ -853,7 +853,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 message,ルカ,Huh... then what did I take down?<br> ,104001000G,vc_10400100002_025_01,chara_1
 
-message,<user>,What you smashed was a scarecrow wearing my clothes. It was provided<br>by Lux Nova，with a voice recorder that speaks in my voice.<br> 
+message,<user>,What you smashed was a scarecrow wearing my clothes. It was<br>provided by Lux Nova，with a voice recorder that speaks in my voice.<br> 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -877,7 +877,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 message,ルカ,Ugh，I thought I'd won by smashing Commaander to pieces...<br> ,104001000G,vc_10400100002_027_01,chara_1
 
-message,<user>,What's the point of smashing the Commander! You don't need that much<br>power just to beat me! Show some restraint!<br> 
+message,<user>,What's the point of smashing the Commander! You don't need that<br>much power just to beat me! Show some restraint!<br> 
 
 message,<user>,Ah，man，the voice recorder's in pieces too. And it was expensive.<br> 
 
@@ -892,7 +892,7 @@ asynccharaemo,chara_1,BePeevish,CONT,0
 
 message,ルカ,Pulling out rare gadgets too，that's cheating! That's really<br>underhanded，Commaander!<br> ,104001000G,vc_10400100002_028_01,chara_1
 
-message,<user>,I'm proud to be underhanded! Come on，admit defeat again today，Luca!<br> 
+message,<user>,I'm proud to be underhanded! Come on，admit defeat again<br>today，Luca!<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1174,7 +1174,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ルカ,...Yeah，my form's not bad，I guess. But... I can't picture it landing<br>on Commaander.<br> ,104001000G,vc_10400100002_040_01,chara_1
+message,ルカ,...Yeah，my form's not bad，I guess. But... I can't picture it landing on<br>Commaander.<br> ,104001000G,vc_10400100002_040_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1185,7 +1185,7 @@ asyncseplay,setag1_53,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ルカ,My movements don't even matter. No matter how many punches I throw，I<br>can't reach him.<br> ,104001000G,vc_10400100002_041_01,chara_1
+message,ルカ,My movements don't even matter. No matter how many punches I<br>throw，I can't reach him.<br> ,104001000G,vc_10400100002_041_01,chara_1
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -1265,7 +1265,7 @@ asyncseplay,setag1_58,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ルカ,...he's always just teasing me，so he'd never say something like<br>that. But that side of you is really unfair too，Commaander.<br> ,104001000G,vc_10400100002_046_01,chara_1
+message,ルカ,...he's always just teasing me，so he'd never say something like that.<br>But that side of you is really unfair too，Commaander.<br> ,104001000G,vc_10400100002_046_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1370,7 +1370,7 @@ message,アリシア,...You're not surprised about the challenge letter，are yo
 
 message,<user>,I've been dealing with Luca for a while now. She wants to beat me to<br>become the World's Greatest Martial Artist.<br> 
 
-message,<user>,It's been quite fun. I've had the base crew gather intel and even<br>steer the timing of her ambushes.<br> 
+message,<user>,It's been quite fun. I've had the base crew gather intel and even steer<br>the timing of her ambushes.<br> 
 
 asyncshake,CHARA,chara_2,20,0,0.5,1,off,off,0,off,CONT,0
 
@@ -1379,7 +1379,7 @@ asyncseplay,setag1_64,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,アリシア,...That's surprising. I thought you'd find that sort of thing a<br>hassle and get fed up.<br> ,300201000,vc_10400100002_051_01,chara_2
+message,アリシア,...That's surprising. I thought you'd find that sort of thing a hassle<br>and get fed up.<br> ,300201000,vc_10400100002_051_01,chara_2
 
 message,<user>,Luca's straightforward about getting stronger. Even when she loses<br>to a strategy，she doesn't sulk—she comes back with a countermeasure.<br> 
 

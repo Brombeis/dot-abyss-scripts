@@ -90,14 +90,14 @@ asynccharaemo,chara_1,Sweat,STOP
 
 asynccharaface,chara_1,FaceSad,STOP
 window,on,0.15
-message,シェリル,(... Crap，I brought the confiscated illegal aphrodisiac... Wish I<br>could send this shady stuff to HQ and let them deal with it.)<br> ,,vc_10520100021_002_01
+message,シェリル,(... Crap，I brought the confiscated illegal aphrodisiac... Wish I could<br>send this shady stuff to HQ and let them deal with it.)<br> ,,vc_10520100021_002_01
 
 asyncseplay,setag1_3,se4800014,0,1,CONT
 
 asynccharaemo,chara_1,Silence,STOP
 
 asynccharaface,chara_1,FaceFun,STOP
-message,シェリル,(Maybe I'll ask Ludia to hold onto it so nobody uses it by mistake?<br>I wonder if she's at the shop...)<br> ,,vc_10520100021_003_01
+message,シェリル,(Maybe I'll ask Ludia to hold onto it so nobody uses it by mistake? I<br>wonder if she's at the shop...)<br> ,,vc_10520100021_003_01
 
 
 window,off
@@ -162,7 +162,6 @@ wait,0.15
 camerazoom,2,0,LinearTarget
 
 asyncshake,BACK,,50,0,0.5,2,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,50,0,0.5,2,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_2,50,0,0.5,2,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_3,50,0,0.5,2,off,off,0,off,CONT,0
 
@@ -218,7 +217,7 @@ asynccharareaction,chara_3,Shake,1,STOP
 
 asynccharareaction,chara_1,Shake,1,STOP
 window,on,0.15
-message,シェリル,Owww... S-sorry，I bumped into you. I was rushing 'cause I'm late.<br>Are you hurt?<br> ,,vc_10520100021_006_01
+message,シェリル,Owww... S-sorry，I bumped into you. I was rushing 'cause I'm late. Are<br>you hurt?<br> ,,vc_10520100021_006_01
 
 asyncseplay,setag1_8,se4800011,0,1,CONT
 
@@ -300,7 +299,7 @@ asynccharareaction,chara_2,Shake,1,STOP
 bgmplay,bgmtag1_3,bgm0027,0.75,1
 
 window,on,0.15
-message,シェリル<娼館>,*pant*... I feel kinda sluggish. Maybe it's just work fatigue? But<br>my body feels kind of hot，maybe feverish...<br> ,,vc_10520100021_011_01
+message,シェリル<娼館>,*pant*... I feel kinda sluggish. Maybe it's just work fatigue? But my<br>body feels kind of hot，maybe feverish...<br> ,,vc_10520100021_011_01
 
 
 asynccharareaction,chara_2,Nod,1,STOP

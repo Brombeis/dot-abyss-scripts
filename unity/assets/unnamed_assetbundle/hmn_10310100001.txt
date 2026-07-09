@@ -374,7 +374,6 @@ charafocusonall
 asyncseplay,setag1_9,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 shake,CHARA,chara_2,40,0,0.25,20,off,off,0
 
 asyncwait
@@ -598,7 +597,7 @@ asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 asynccharaface,chara_1,FaceFun,STOP,3.5
 
 
-message,ハツネ,Same Hourai，but a different domain! My name's Hatsune! Remember it!<br> ,103101000G,vc_10310100001_010_01,chara_1
+message,ハツネ,Same Hourai，but a different domain! My name's Hatsune! Remember<br>it!<br> ,103101000G,vc_10310100001_010_01,chara_1
 
 message,<user>,Alright，alright. ...What a noisy kid you are.<br> 
 
@@ -626,7 +625,7 @@ asyncseplay,setag1_17,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ハツネ,Well，yeah. Kotono is one of the best in Hourai，even if she's a<br>rival. But I'm not far behind.<br> ,103101000G,vc_10310100001_012_01,chara_1
+message,ハツネ,Well，yeah. Kotono is one of the best in Hourai，even if she's a rival.<br>But I'm not far behind.<br> ,103101000G,vc_10310100001_012_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -658,7 +657,7 @@ asynccharaface,chara_1,FaceFun,CONT,0
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
 
-message,ハツネ,Anyway，where's Kotono? I need to ask her something. Bring her to me.<br> ,103101000G,vc_10310100001_015_01,chara_1
+message,ハツネ,Anyway，where's Kotono? I need to ask her something. Bring her to<br>me.<br> ,103101000G,vc_10310100001_015_01,chara_1
 
 message,兵士A,How dare you be so rude to the Commander...!<br> ,900000001
 
@@ -691,7 +690,7 @@ asynccharaface,chara_1,FaceSad,STOP,4.9
 asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,STOP,4.9
 
 
-message,ハツネ,Tsk. Fine. Guess I'll wait here. Even if I sparred with these<br>guys，it wouldn't even pass the time.<br> ,103101000G,vc_10310100001_017_01,chara_1
+message,ハツネ,Tsk. Fine. Guess I'll wait here. Even if I sparred with these guys，it<br>wouldn't even pass the time.<br> ,103101000G,vc_10310100001_017_01,chara_1
 
 bgmstop,bgmtag1_3,1.5,0
 
@@ -1015,7 +1014,7 @@ asynccharaemo,chara_2,Silence,CONT,0
 
 
 window,on,0.15
-message,コトノ,The investigation of the Abyss proceeded as planned，and we began our<br>return journey.<br> ,101101000G,vc_10310100001_026_01,chara_2
+message,コトノ,The investigation of the Abyss proceeded as planned，and we began<br>our return journey.<br> ,101101000G,vc_10310100001_026_01,chara_2
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -1363,7 +1362,7 @@ asyncseplay,setag1_45,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ハツネ,The Lord was worried about him，so he ordered me to go check on him.<br>I've been taking care of the Young Master since he was little...<br> ,103101000G,vc_10310100001_042_01,chara_1
+message,ハツネ,The Lord was worried about him，so he ordered me to go check on<br>him. I've been taking care of the Young Master since he was little...<br> ,103101000G,vc_10310100001_042_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1374,7 +1373,7 @@ asyncseplay,setag1_46,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,ハツネ,But when I got to the Frontline Base，the Young Master was nowhere to<br>be found. That's when I heard rumors about Kotono...<br> ,103101000G,vc_10310100001_043_01,chara_1
+message,ハツネ,But when I got to the Frontline Base，the Young Master was nowhere<br>to be found. That's when I heard rumors about Kotono...<br> ,103101000G,vc_10310100001_043_01,chara_1
 
 message,<user>,I see. So that's why you came to the training grounds.<br> 
 
@@ -1565,9 +1564,9 @@ asynccharaemo,chara_2,ExclaQues,CONT,0
 window,on,0.15
 message,コトノ,No，Hatsune! You will be killed if you go alone!<br> ,101101000G,vc_10310100001_049_01,chara_2
 
-message,<user>,Kotono's right. If you don't coordinate with your allies，you'll end<br>up just like her. Besides，the sun is about to set.<br> 
+message,<user>,Kotono's right. If you don't coordinate with your allies，you'll end up<br>just like her. Besides，the sun is about to set.<br> 
 
-message,<user>,The night forest is the territory of wild animals. That goes double<br>for an enemy strong enough to wound Kotono. Don't rush in recklessly.<br> 
+message,<user>,The night forest is the territory of wild animals. That goes double for<br>an enemy strong enough to wound Kotono. Don't rush in recklessly.<br> 
 
 window,off
 wait,0.15

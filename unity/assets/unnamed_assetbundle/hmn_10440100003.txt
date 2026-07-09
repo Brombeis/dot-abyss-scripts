@@ -276,7 +276,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 window,on,0.15
 message,ヤチヨ,...We're surrounded.<br> ,104401000G,vc_10440100003_003_01,chara_1
 
-message,<user>,Even if we break through this encirclement，we don't have the stamina<br>to escape. Sorry，Yachiyo.<br> 
+message,<user>,Even if we break through this encirclement，we don't have the<br>stamina to escape. Sorry，Yachiyo.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -313,7 +313,7 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 
 window,on,0.15
-message,ヤチヨ,(I've dragged the Commander into this—all my fault. I've involved<br>such a kind person，who worried and followed me，into this mess...)<br> ,104401000G,vc_10440100003_005_01,chara_1
+message,ヤチヨ,(I've dragged the Commander into this—all my fault. I've involved such<br>a kind person，who worried and followed me，into this mess...)<br> ,104401000G,vc_10440100003_005_01,chara_1
 
 window,off
 wait,0.15
@@ -490,7 +490,7 @@ asynccharaemo,chara_4,Exclamation,CONT,0
 window,on,0.15
 message,モンスターＢ,Grahhh!<br> ,402001000,,chara_2/chara_3/chara_4
 
-message,,Though the two stopped，the monsters advanced. As a small fry on the<br>leader's order was about to pounce，a flash of light streaked down.<br> 
+message,,Though the two stopped，the monsters advanced. As a small fry on<br>the leader's order was about to pounce，a flash of light streaked down.<br> 
 
 window,off
 wait,0.15
@@ -576,10 +576,6 @@ asyncwait
 asyncseplay,setag1_18,se4400063,0,1,CONT,0
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_5,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_6,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_7,40,0,0.25,20,off,off,0,off,CONT,0
@@ -625,7 +621,7 @@ asyncseplay,setag1_19,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,ヤチヨ,It's the Dragon God's blessing! He says he's not finished yet! He<br>also commands me to raise my staff and point out those to smite!<br> ,104401000G,vc_10440100003_009_01,chara_1
+message,ヤチヨ,It's the Dragon God's blessing! He says he's not finished yet! He also<br>commands me to raise my staff and point out those to smite!<br> ,104401000G,vc_10440100003_009_01,chara_1
 
 window,off
 wait,0.15
@@ -703,10 +699,6 @@ asyncwait
 asyncseplay,setag1_22,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 shake,CHARA,chara_6,40,0,0.25,20,off,off,0
 shake,CHARA,chara_7,40,0,0.25,20,off,off,0
@@ -859,10 +851,6 @@ asyncwait
 asyncseplay,setag1_26,se4400063,0,1,CONT,0
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_5,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_6,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_7,40,0,0.25,20,off,off,0,off,CONT,0
@@ -1042,7 +1030,7 @@ asyncseplay,setag1_33,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 window,on,0.15
-message,,She raised her staff，but the Dragon God gave no response. An awkward<br>silence settled between Yachiyo and the Commander.<br> 
+message,,She raised her staff，but the Dragon God gave no response. An<br>awkward silence settled between Yachiyo and the Commander.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1087,9 +1075,9 @@ asyncseplay,setag1_37,se4800017,0,1,CONT,0
 
 asynccharaemo,chara_1,Shock,CONT,0
 
-message,<user>,Above all，Yachiyo，you're a good woman. Even without the Dragon God's<br>power，everyone who knows you well recognizes you.<br> 
+message,<user>,Above all，Yachiyo，you're a good woman. Even without the Dragon<br>God's power，everyone who knows you well recognizes you.<br> 
 
-message,<user>,The more beautiful blossoms like you，the better. Please stay with<br>me. I need you to make the Frontline Base lively and bright! Please!<br> 
+message,<user>,The more beautiful blossoms like you，the better. Please stay with me.<br>I need you to make the Frontline Base lively and bright! Please!<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1111,7 +1099,7 @@ asyncseplay,setag1_39,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,ヤチヨ,When you say it like that，it feels like you're seducing me... I get<br>so flustered...<br> ,104401000G,vc_10440100003_018_01,chara_1
+message,ヤチヨ,When you say it like that，it feels like you're seducing me... I get so<br>flustered...<br> ,104401000G,vc_10440100003_018_01,chara_1
 
 window,off
 wait,0.15
@@ -1170,10 +1158,6 @@ scale,BACK,,0,1,1,Set
 fade,In,White,0.5
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_5,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_6,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_7,40,0,0.25,20,off,off,0,off,CONT,0
@@ -1566,7 +1550,7 @@ asyncseplay,setag1_52,se4800005,0,1,CONT,0
 asynccharaemo,chara_1,Flash,CONT,0
 
 
-message,ヤチヨ,It's out! The forecast says it's clear today! Let's keep it bright<br>and sunny!♪<br> ,104401000G,vc_10440100003_032_01,chara_1
+message,ヤチヨ,It's out! The forecast says it's clear today! Let's keep it bright and<br>sunny!♪<br> ,104401000G,vc_10440100003_032_01,chara_1
 
 window,off
 wait,0.15
@@ -1650,7 +1634,7 @@ asyncseplay,setag1_55,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,ヤチヨ,(For a reason like that! The weather forecast! I kept getting it<br>wrong! Just to inconvenience the Commander!)<br> ,104401000G,vc_10440100003_036_01,chara_1
+message,ヤチヨ,(For a reason like that! The weather forecast! I kept getting it wrong!<br>Just to inconvenience the Commander!)<br> ,104401000G,vc_10440100003_036_01,chara_1
 
 window,off
 wait,0.15
@@ -1669,7 +1653,7 @@ wait,0.1
 window,on,0.15
 message,<user>,Anyway，Yachiyo，please! Don't go back to Hourai! Stay by my side!<br> 
 
-message,<user>,I don't care if your forecast is wrong! If we get soaked，I'll make<br>sure we heat things up in bed.<br> 
+message,<user>,I don't care if your forecast is wrong! If we get soaked，I'll make sure<br>we heat things up in bed.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1888,7 +1872,7 @@ asyncseplay,setag1_64,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ヤチヨ,(This is all thanks to the Commander. I'm so glad he brought me<br>back. Fufufu!♪)<br> ,104401000G,vc_10440100003_046_01,chara_1
+message,ヤチヨ,(This is all thanks to the Commander. I'm so glad he brought me back.<br>Fufufu!♪)<br> ,104401000G,vc_10440100003_046_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 

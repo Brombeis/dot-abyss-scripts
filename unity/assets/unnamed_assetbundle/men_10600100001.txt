@@ -36,7 +36,7 @@ asyncseplay,setag1_2,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,テルー,Thaaanks! Ehehe，I hope everyone's happy! Since we're here，how 'bout<br>I do a fountain routine? Hmm，what to do... Let's see!<br> ,106001000G,,chara_1
+message,テルー,Thaaanks! Ehehe，I hope everyone's happy! Since we're here，how<br>'bout I do a fountain routine? Hmm，what to do... Let's see!<br> ,106001000G,,chara_1
 
 asyncseplay,setag1_3,se5010033,0,1,CONT,0
 
@@ -67,7 +67,6 @@ asyncwait
 asyncseplay,setag1_5,se4400175,0,1,CONT,0
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
 
 wait,1
 
@@ -110,7 +109,7 @@ asyncseplay,setag1_7,se4800012,0,1,CONT,0
 asynccharaemo,chara_1,Shy,CONT,0
 
 
-message,テルー,Eep! My clothes are see-through! My underwear—! Nooo! D-don't look!<br> ,106001000G,,chara_1
+message,テルー,Eep! My clothes are see-through! My underwear—! Nooo! D-don't<br>look!<br> ,106001000G,,chara_1
 
 
 window,off,0.15

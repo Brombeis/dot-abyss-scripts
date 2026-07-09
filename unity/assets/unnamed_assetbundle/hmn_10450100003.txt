@@ -139,7 +139,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 
 
 window,on,0.15
-message,イオラ,(*sigh*... Now that I'm alone，the exhaustion's really hitting me.<br>Guess I made the right call taking a break.)<br> ,104501000G,vc_10450100003_004_01,chara_1
+message,イオラ,(*sigh*... Now that I'm alone，the exhaustion's really hitting me. Guess<br>I made the right call taking a break.)<br> ,104501000G,vc_10450100003_004_01,chara_1
 
 window,off
 wait,0.15
@@ -181,7 +181,7 @@ asynccharaemo,chara_1,Trouble,CONT,0
 
 
 window,on,0.15
-message,イオラ,...Hmm，real soldiers sure are loud when they're fighting. I don't<br>think they'd make good boyfriends.<br> ,104501000G,vc_10450100003_005_01,chara_1
+message,イオラ,...Hmm，real soldiers sure are loud when they're fighting. I don't think<br>they'd make good boyfriends.<br> ,104501000G,vc_10450100003_005_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -540,7 +540,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 
 window,on,0.15
-message,イオラ,(I can't run away after all... So it's up to me to deal with this<br>thing by myself，isn't it?)<br> ,104501000G,vc_10450100003_012_01,chara_1
+message,イオラ,(I can't run away after all... So it's up to me to deal with this thing by<br>myself，isn't it?)<br> ,104501000G,vc_10450100003_012_01,chara_1
 
 window,off
 wait,0.15
@@ -879,7 +879,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,,She recalled training with her martial artist father. The illusion<br>of being alone in the ring with her opponent sharpened Iola's focus.<br> 
+message,,She recalled training with her martial artist father. The illusion of<br>being alone in the ring with her opponent sharpened Iola's focus.<br> 
 
 window,off
 wait,0.15
@@ -975,12 +975,11 @@ wait,1
 cleanall,EFFECT
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_5,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_6,40,0,0.25,20,off,off,0,off,CONT,0
+asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
 message,,—BOGH!<br> 
@@ -1224,7 +1223,7 @@ asynccharamove,chara_2,Linear,Y,0,1,CONT,0
 asyncwait
 
 window,on,0.15
-message,,Fire ignited on her fist just as she'd imagined. The<br>monster，startled by the flames，recoiled.<br> 
+message,,Fire ignited on her fist just as she'd imagined. The monster，startled<br>by the flames，recoiled.<br> 
 
 window,off
 wait,0.15
@@ -1361,8 +1360,6 @@ asyncwait
 asyncseplay,setag1_36,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
 shake,CHARA,chara_3,40,0,0.25,20,off,off,0
 shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 shake,CHARA,chara_5,40,0,0.25,20,off,off,0
@@ -1413,8 +1410,6 @@ message,イオラ,*pant*!<br> ,104501000G,vc_10450100003_019_01,
 asyncseplay,setag1_38,se4900001,0,1,CONT,0
 
 asyncshake,BACK,,12,0,0.6,7,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_1,12,0,0.6,7,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_2,12,0,0.6,7,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_3,12,0,0.6,7,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_4,12,0,0.6,7,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_5,12,0,0.6,7,off,off,0,on,CONT,0
@@ -1694,12 +1689,6 @@ emodelete,chara_6,0,0
 asyncseplay,setag1_48,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
-shake,CHARA,chara_6,40,0,0.25,20,off,off,0
 
 window,on,0.15
 message,,Every punch sent a fireball into the monster，battering it until it<br>collapsed and died.<br> 
@@ -2081,7 +2070,7 @@ message,イオラ,...So you really see me as an adult，Teacher?<br> ,104501000G
 
 message,<user>,Well，after you graduate，you're an adult.<br> 
 
-message,<user>,You've still got time till graduation，so think it over. You're<br>strong in combat—I'd like to keep people like you around.<br> 
+message,<user>,You've still got time till graduation，so think it over. You're strong in<br>combat—I'd like to keep people like you around.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -2224,7 +2213,7 @@ asyncseplay,setag1_68,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,イオラ,Well，you see... nobody's ever tried a fighting style that mixes<br>martial arts and magic，right，Teacher?<br> ,104501000G,vc_10450100003_038_01,chara_1
+message,イオラ,Well，you see... nobody's ever tried a fighting style that mixes martial<br>arts and magic，right，Teacher?<br> ,104501000G,vc_10450100003_038_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -2244,7 +2233,7 @@ asyncseplay,setag1_70,se4800005,0,1,STOP,8
 asynccharaemo,chara_1,Flash,STOP,8
 
 
-message,イオラ,Honestly，even if I go back to school，I wouldn't know how to research<br>it. So I thought it'd be faster to hone it through real combat.<br> ,104501000G,vc_10450100003_039_01,chara_1
+message,イオラ,Honestly，even if I go back to school，I wouldn't know how to<br>research it. So I thought it'd be faster to hone it through real combat.<br> ,104501000G,vc_10450100003_039_01,chara_1
 
 message,<user>,Hmm，that's a fair point. It's a tactic you discovered in the<br>field，after all.<br> 
 
@@ -2313,11 +2302,6 @@ asyncseplay,setag1_74,se4400119,0,1,CONT,0
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_5,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_6,40,0,0.25,20,off,off,0,off,CONT,0
 
 asyncjump,CHARA,chara_1,60,0.4,1,off,0,CONT
 

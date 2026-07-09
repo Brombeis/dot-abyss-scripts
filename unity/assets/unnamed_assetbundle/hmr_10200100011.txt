@@ -39,7 +39,7 @@ charaface,chara_1,FaceSad
 asynccharaface,chara_1,EyeOpen,STOP,1
 asynccharaface,chara_1,FaceNormal,STOP,1
 
-message,ラヴェリア,Brother... No，it's still far from enough. With just this，I won't be<br>able to protect my comrades when it really counts.<br> ,,vc_10200100011_001_01
+message,ラヴェリア,Brother... No，it's still far from enough. With just this，I won't be able<br>to protect my comrades when it really counts.<br> ,,vc_10200100011_001_01
 
 window,off
 wait,0.15
@@ -65,7 +65,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,... Then how about a match? If I win，you stop training right now.<br>But if you win，you can do whatever you want.<br> 
+message,<user>,... Then how about a match? If I win，you stop training right now. But<br>if you win，you can do whatever you want.<br> 
 
 asynccharareaction,chara_1,nod,1,STOP
 
@@ -136,7 +136,6 @@ message,,Laveria was visibly shaken by the completely unexpected attack.<br>Seiz
 asyncseplay,setag1_4,se4900069,0,1,CONT
 
 shake,BACK,,350,0,0.25,2,off,off,0
-shake,CHARA,chara_1,350,0,0.25,2,off,off,0
 
 window,off
 wait,0.15
@@ -163,7 +162,7 @@ charamove,chara_1,EaseOutTarget,CharaHeight,0,0.3
 window,on,0.15
 message,ラヴェリア,Ngh... Th-that's dirty，Brother! You called it a match，but the first<br>thing you did was grope my tits!<br> ,,vc_10200100011_007_01
 
-message,<user>,There's no such thing as dirty in a battle. Do you think an excuse<br>like that would fly on the battlefield?<br> 
+message,<user>,There's no such thing as dirty in a battle. Do you think an excuse like<br>that would fly on the battlefield?<br> 
 
 charaface,chara_1,FaceSad
 message,ラヴェリア,Th-that's...<br> ,,vc_10200100011_008_01
@@ -171,7 +170,7 @@ message,ラヴェリア,Th-that's...<br> ,,vc_10200100011_008_01
 message,<user>,Anyway，this match... I win.<br> 
 
 charaface,chara_1,FaceAnger
-message,ラヴェリア,I... I'm not done yet! I haven't said I give up! The match<br>continues!<br> ,,vc_10200100011_009_01
+message,ラヴェリア,I... I'm not done yet! I haven't said I give up! The match continues!<br> ,,vc_10200100011_009_01
 
 message,,Laveria's warrior pride made her refuse to admit defeat. But without<br>surprise attacks，a fair fight was unwinnable.<br> 
 

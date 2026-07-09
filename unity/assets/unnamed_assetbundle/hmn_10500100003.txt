@@ -81,7 +81,7 @@ asyncseplay,setag1_2,se4800001,0,1,CONT,0
 asynccharaemo,chara_2,Anger,CONT,0
 
 
-message,工兵A,It's a mass of bedrock. Several incredibly hard layers stacked on<br>top of each other. It's taking time to break them up...<br> ,400901000,,chara_2
+message,工兵A,It's a mass of bedrock. Several incredibly hard layers stacked on top<br>of each other. It's taking time to break them up...<br> ,400901000,,chara_2
 
 message,<user>,I see，bedrock... So that's why the excavation pace hasn't picked up<br>as expected.<br> 
 
@@ -176,7 +176,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ベティ,That's correct. If I remain silent，I'll be the same as before. Even<br>I might be able to do something...<br> ,105001000G,vc_10500100003_003_01,chara_1
+message,ベティ,That's correct. If I remain silent，I'll be the same as before. Even I<br>might be able to do something...<br> ,105001000G,vc_10500100003_003_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -255,7 +255,7 @@ wait,0.5
 asynccharaface,chara_1,FaceAnger,STOP,2.5
 
 window,on,0.15
-message,工兵B,So? That little lady is going to break bedrock that even we can't<br>get through with those skinny arms?<br> ,900000001
+message,工兵B,So? That little lady is going to break bedrock that even we can't get<br>through with those skinny arms?<br> ,900000001
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -326,7 +326,7 @@ asyncseplay,setag1_10,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ベティ,Indeed，I possess neither physical strength nor stamina. However，what<br>mining requires is not solely brute force!<br> ,105001000G,vc_10500100003_007_01,chara_1
+message,ベティ,Indeed，I possess neither physical strength nor stamina.<br>However，what mining requires is not solely brute force!<br> ,105001000G,vc_10500100003_007_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -488,7 +488,7 @@ wait,0.5
 window,on,0.15
 message,工兵A,Commander，what's that little lady doing up on the rock bed?<br> ,400901000,,chara_2
 
-message,<user>,Beats me. But I think you can expect good things. Betty has skills<br>and knowledge that I and the rest of you don't.<br> 
+message,<user>,Beats me. But I think you can expect good things. Betty has skills and<br>knowledge that I and the rest of you don't.<br> 
 
 window,off
 wait,0.15
@@ -536,7 +536,7 @@ asynccharaemo,chara_1,Exclamation,STOP,5.6
 
 
 window,on,0.15
-message,ベティ,Hmm... but with this，the rock bed further in... Alright! In that<br>case!<br> ,105001000G,vc_10500100003_011_01,chara_1
+message,ベティ,Hmm... but with this，the rock bed further in... Alright! In that case!<br> ,105001000G,vc_10500100003_011_01,chara_1
 
 window,off
 wait,0.15
@@ -809,7 +809,7 @@ asyncseplay,setag1_23,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ベティ,Commander! Mission complete! I have crushed the troublesome bedrock!<br> ,105001000G,vc_10500100003_019_01,chara_1
+message,ベティ,Commander! Mission complete! I have crushed the troublesome<br>bedrock!<br> ,105001000G,vc_10500100003_019_01,chara_1
 
 message,<user>,Nice work，Betty. But I didn't expect you to be able to even handle<br>explosives.<br> 
 
@@ -896,7 +896,7 @@ asynccharaemo,chara_3,Spirits,CONT,0
 window,on,0.15
 message,アリシア,It seems that after that incident，the Engineering Corps hasn't<br>caused any more trouble，and excavation is going smoothly!<br> ,300201000,vc_10500100003_022_01,chara_3
 
-message,<user>,Yeah. I'm glad to see Betty's settling in well. Come to think of<br>it，the Engineering Corps was supposed to come by today.<br> 
+message,<user>,Yeah. I'm glad to see Betty's settling in well. Come to think of it，the<br>Engineering Corps was supposed to come by today.<br> 
 
 charapose,chara_3,3
 
@@ -1191,9 +1191,9 @@ asynccharaemo,chara_2,Laugh,CONT,0
 window,on,0.15
 message,工兵A,Betty's knowledge of explosives boosts our work efficiency，and she<br>can identify valuable stones too.<br> ,400901000,,chara_2
 
-message,工兵B,Betty doesn't judge any of us. There's no one more suited for the<br>job.<br> ,900000001
+message,工兵B,Betty doesn't judge any of us. There's no one more suited for the job.<br> ,900000001
 
-message,工兵C,No matter how sweaty and muddy we get，seeing Betty's carefree smile<br>makes all our exhaustion vanish.<br> ,900000001
+message,工兵C,No matter how sweaty and muddy we get，seeing Betty's carefree<br>smile makes all our exhaustion vanish.<br> ,900000001
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1226,7 +1226,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(I see. What it takes to keep this rowdy bunch together isn't<br>strength or dignity—it's Betty's carefree smile.)<br> 
+message,<user>,(I see. What it takes to keep this rowdy bunch together isn't strength<br>or dignity—it's Betty's carefree smile.)<br> 
 
 window,off
 wait,0.15
@@ -1357,7 +1357,7 @@ wait,0.5
 window,on,0.15
 message,工兵たち,Yeah! We're counting on you，Captain!<br> ,900000001
 
-message,<user>,I'm glad things worked out. This should stabilize the excavation<br>work.<br> 
+message,<user>,I'm glad things worked out. This should stabilize the excavation work.<br> 
 
 window,off
 wait,0.15
@@ -1418,7 +1418,7 @@ asynccharaemo,chara_3,Laugh,CONT,0
 
 message,アリシア,Because Betty brightens everyone around her，she could become a<br>banner for the Engineer Corps，who are always at odds.<br> ,300201000,vc_10500100003_035_01,chara_3
 
-message,<user>,I just thought that if Betty was near what she loves，she'd be able<br>to do her best.<br> 
+message,<user>,I just thought that if Betty was near what she loves，she'd be able to<br>do her best.<br> 
 
 message,<user>,I never dreamed she'd not only solve the on-site problem with<br>explosives，but also bring the engineers together.<br> 
 
@@ -1538,7 +1538,7 @@ asyncseplay,setag1_52,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ベティ,And thanks to you，even I，timid as I was，could finally take that<br>first step!<br> ,105001000G,vc_10500100003_041_01,chara_1
+message,ベティ,And thanks to you，even I，timid as I was，could finally take that first<br>step!<br> ,105001000G,vc_10500100003_041_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1608,7 +1608,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 message,ベティ,M-my apologies，Commander. I couldn't stop grinning.<br> ,105001000G,vc_10500100003_046_01,chara_1
 
-message,<user>,You're a strange one... Well，anyway，I'm counting on you from now on.<br> 
+message,<user>,You're a strange one... Well，anyway，I'm counting on you from now<br>on.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1619,7 +1619,7 @@ asyncseplay,setag1_58,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,ベティ,Understood，Commander! For your sake，I'd rush through fire and water!<br> ,105001000G,vc_10500100003_047_01,chara_1
+message,ベティ,Understood，Commander! For your sake，I'd rush through fire and<br>water!<br> ,105001000G,vc_10500100003_047_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 

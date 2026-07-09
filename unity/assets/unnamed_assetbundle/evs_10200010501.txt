@@ -1083,7 +1083,7 @@ asyncseplay,setag1_26,se4800008,0,1,CONT,0
 asynccharaemo,chara_2,Sweat,CONT,0
 
 
-message,ウェンディ,There's still the surprise party preparations to finish. We have to<br>get the decorations done before the Commander comes back...<br> ,102501000G,,chara_2
+message,ウェンディ,There's still the surprise party preparations to finish. We have to get<br>the decorations done before the Commander comes back...<br> ,102501000G,,chara_2
 
 asynccharaface,chara_2,FaceHappy,CONT,0
 
@@ -1828,7 +1828,7 @@ asyncseplay,setag1_48,se4800022,0,1,CONT,0
 asynccharaemo,chara_4,Speak,CONT,0
 
 
-message,ヴィーラ,Wendy-san. We haven't just been helping for Commander-sama's sake——<br>we wanted to make you happy too，all this time.<br> ,100801000G,,chara_4
+message,ヴィーラ,Wendy-san. We haven't just been helping for Commander-sama's<br>sake—— we wanted to make you happy too，all this time.<br> ,100801000G,,chara_4
 
 window,off
 wait,0.15
@@ -2155,7 +2155,7 @@ asynccharaemo,chara_2,Twinkle,CONT,0
 
 
 window,on,0.15
-message,ウェンディ,...Yes......yes! Thank you so much! We'll definitely... definitely<br>throw a wonderful party，all of us together...!<br> ,102501000G,,chara_2
+message,ウェンディ,...Yes......yes! Thank you so much! We'll definitely... definitely throw a<br>wonderful party，all of us together...!<br> ,102501000G,,chara_2
 
 window,off
 wait,0.15
@@ -2372,10 +2372,6 @@ asyncwait
 asyncseplay,setag1_65,SE_DUMMY,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 
 window,on,0.15
 message,ベリサ, ...Mgyuh!?<br> ,100201000G
@@ -2812,7 +2808,7 @@ asyncseplay,setag1_75,se4800004,0,1,CONT,0
 asynccharaemo,chara_2,Laugh,CONT,0
 
 window,on,0.15
-message,,Right after Verisa's retort，Wendy let out a little 'pfft——' and<br>smiled. That broke the dam，and laughter bloomed across all three of their faces.<br> 
+message,,Right after Verisa's retort，Wendy let out a little 'pfft——' and smiled.<br>That broke the dam，and laughter bloomed across all three of their faces.<br> 
 
 asynccharaface,chara_2,FaceFun,CONT,0
 

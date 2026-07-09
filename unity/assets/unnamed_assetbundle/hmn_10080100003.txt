@@ -106,7 +106,7 @@ asynccharaemo,chara_2,Laugh,CONT,0
 
 
 window,on,0.15
-message,兵士Ａ,Thank you so much，Veera! Without you，we'd definitely have been wiped<br>out!<br> ,401601000,vc_10080100003_001_01,chara_2
+message,兵士Ａ,Thank you so much，Veera! Without you，we'd definitely have been<br>wiped out!<br> ,401601000,vc_10080100003_001_01,chara_2
 
 asyncjump,CHARA,chara_3,30,0.25,1,off,0,CONT
 
@@ -281,7 +281,7 @@ asyncseplay,setag1_7,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ヴィーラ,No，it makes me really happy to be accepted like this. It feels like<br>I've finally become a part of Big Sis's group...<br> ,100801000G,vc_10080100003_005_01,chara_1
+message,ヴィーラ,No，it makes me really happy to be accepted like this. It feels like I've<br>finally become a part of Big Sis's group...<br> ,100801000G,vc_10080100003_005_01,chara_1
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -735,11 +735,8 @@ charafocusonall
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 shake,CHARA,chara_5,40,0,0.25,20,off,off,0
+shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 
 window,on,0.15
 message,,The Commander wrapped his arms tightly around Veera，who was<br>radiating a powerful icy chill.<br> 
@@ -841,7 +838,7 @@ asynccharaemo,chara_5,Sweat,CONT,0
 
 
 window,on,0.15
-message,ベリサ,I lost to my little sister and I'm all mopey... What am I even<br>doing...<br> ,100201000G,vc_10080100003_024_01,chara_5
+message,ベリサ,I lost to my little sister and I'm all mopey... What am I even doing...<br> ,100201000G,vc_10080100003_024_01,chara_5
 
 window,off
 wait,0.15
@@ -865,7 +862,7 @@ asynccharaemo,chara_5,Speak,CONT,0
 
 
 window,on,0.15
-message,ベリサ,I feel a bit better after cooling off. Maybe I'll go check on<br>Veera...<br> ,100201000G,vc_10080100003_025_01,chara_5
+message,ベリサ,I feel a bit better after cooling off. Maybe I'll go check on Veera...<br> ,100201000G,vc_10080100003_025_01,chara_5
 
 window,off
 wait,0.15
@@ -1331,7 +1328,7 @@ asyncseplay,setag1_41,se4800007,0,1,CONT,0
 asynccharaemo,chara_5,Panic,CONT,0
 
 
-message,ベリサ,We're really sorry for the commotion，okay? Come on，Veera，apologize<br>properly.<br> ,100201000G,vc_10080100003_034_01,chara_5
+message,ベリサ,We're really sorry for the commotion，okay? Come<br>on，Veera，apologize properly.<br> ,100201000G,vc_10080100003_034_01,chara_5
 
 window,off
 wait,0.15
@@ -1523,7 +1520,7 @@ asyncseplay,setag1_47,se4800008,0,1,CONT,0
 asynccharaemo,chara_5,Sweat,CONT,0
 
 
-message,ベリサ,Hmm，every now and then，I guess? The more powerful your magic is，the<br>harder it is to control.<br> ,100201000G,vc_10080100003_039_01,chara_5
+message,ベリサ,Hmm，every now and then，I guess? The more powerful your magic<br>is，the harder it is to control.<br> ,100201000G,vc_10080100003_039_01,chara_5
 
 asynccharaface,chara_5,EyeOpen,CONT,0
 asynccharaface,chara_5,FaceNormal,CONT,0
@@ -1535,7 +1532,7 @@ asyncseplay,setag1_48,se4800022,0,1,CONT,0
 asynccharaemo,chara_5,Speak,CONT,0
 
 
-message,ベリサ,So when she goes berserk like this，I just neutralize it with my<br>magic.<br> ,100201000G,vc_10080100003_040_01,chara_5
+message,ベリサ,So when she goes berserk like this，I just neutralize it with my magic.<br> ,100201000G,vc_10080100003_040_01,chara_5
 
 message,<user>,I see. Well，you're actually a pretty reliable big sister，huh?<br> 
 
@@ -1723,7 +1720,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,ヴィーラ,(When I was still young，I was even worse at controlling my magic<br>than I am now. And one day，I finally ended up going on a rampage.)<br> ,100801000G,vc_10080100003_044_01,on
+message,ヴィーラ,(When I was still young，I was even worse at controlling my magic than<br>I am now. And one day，I finally ended up going on a rampage.)<br> ,100801000G,vc_10080100003_044_01,on
 
 window,off
 wait,0.15
@@ -1772,7 +1769,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,ヴィーラ,The world grows cold... I'm freezing... Am I going to die like<br>this...?<br> ,900000001,vc_10080100003_047_01,on
+message,ヴィーラ,The world grows cold... I'm freezing... Am I going to die like this...?<br> ,900000001,vc_10080100003_047_01,on
 
 message,ベリサ,What are you doing，Veera!<br> ,900000001,vc_10080100003_048_01,on
 
@@ -2096,7 +2093,7 @@ asynccharaemo,chara_5,Speak,CONT,0
 
 
 window,on,0.15
-message,ベリサ,We're family，so debts and favors don't matter，right? There's nothing<br>to worry about.<br> ,100201000G,vc_10080100003_066_01,chara_5
+message,ベリサ,We're family，so debts and favors don't matter，right? There's<br>nothing to worry about.<br> ,100201000G,vc_10080100003_066_01,chara_5
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -2217,7 +2214,7 @@ asynccharaemo,chara_5,Laugh,CONT,0
 
 
 window,on,0.15
-message,ベリサ,It's fine，it's fine. It's true that I'm still nowhere near as good<br>as Veera.<br> ,100201000G,vc_10080100003_069_01,chara_5
+message,ベリサ,It's fine，it's fine. It's true that I'm still nowhere near as good as<br>Veera.<br> ,100201000G,vc_10080100003_069_01,chara_5
 
 asynccharaface,chara_5,FaceHappy,CONT,0
 
@@ -2228,7 +2225,7 @@ asyncseplay,setag1_63,se4800022,0,1,CONT,0
 asynccharaemo,chara_5,Speak,CONT,0
 
 
-message,ベリサ,Don't let this put you off; please get along with Veera. She's a<br>good kid，right?<br> ,100201000G,vc_10080100003_070_01,chara_5
+message,ベリサ,Don't let this put you off; please get along with Veera. She's a good<br>kid，right?<br> ,100201000G,vc_10080100003_070_01,chara_5
 
 window,off
 wait,0.15
@@ -2358,7 +2355,7 @@ asyncseplay,setag1_67,se4800013,0,1,CONT,0
 asynccharaemo,chara_5,Spirits,CONT,0
 
 
-message,ベリサ,Veera，you must be cold. Let's take a bath together and warm you up!♪<br> ,100201000G,vc_10080100003_073_01,chara_5
+message,ベリサ,Veera，you must be cold. Let's take a bath together and warm you<br>up!♪<br> ,100201000G,vc_10080100003_073_01,chara_5
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
 
@@ -2438,10 +2435,6 @@ charafocusonall
 
 shake,BACK,,40,0,0.25,20,off,off,0
 shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 
 window,on,0.15
 message,<user>,Whoa!<br> 
@@ -2538,7 +2531,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 
 window,on,0.15
-message,ヴィーラ,But Lord Commander，you held me the whole time I was rampaging. You<br>were just like Big Sis.<br> ,100801000G,vc_10080100003_078_01,chara_1
+message,ヴィーラ,But Lord Commander，you held me the whole time I was rampaging.<br>You were just like Big Sis.<br> ,100801000G,vc_10080100003_078_01,chara_1
 
 asynccharaface,chara_5,EyeOpen,CONT,0
 asynccharaface,chara_5,FaceNormal,CONT,0
@@ -2550,7 +2543,7 @@ asyncseplay,setag1_73,se4800013,0,1,CONT,0
 asynccharaemo,chara_5,Spirits,CONT,0
 
 
-message,ベリサ,Is that so... Hmm? The pathetic Mister does have his moments，doesn't<br>he?<br> ,100201000G,vc_10080100003_079_01,chara_5
+message,ベリサ,Is that so... Hmm? The pathetic Mister does have his<br>moments，doesn't he?<br> ,100201000G,vc_10080100003_079_01,chara_5
 
 window,off
 wait,0.15
@@ -2596,7 +2589,7 @@ asynccharaemo,chara_5,Speak,CONT,0
 
 
 window,on,0.15
-message,ベリサ,Then I've got to give a reward to the hardworking Mister. As a<br>special treat，you can come too，okay?<br> ,100201000G,vc_10080100003_080_01,chara_5
+message,ベリサ,Then I've got to give a reward to the hardworking Mister. As a special<br>treat，you can come too，okay?<br> ,100201000G,vc_10080100003_080_01,chara_5
 
 message,<user>,Oh，so I get to go in with you?<br> 
 

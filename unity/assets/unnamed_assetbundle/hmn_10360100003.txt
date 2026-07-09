@@ -63,7 +63,7 @@ charafocusonall
 linework,on,White,Middle
 
 window,on,0.15
-message,,Lime pointed her gun at the Commander and pulled the trigger without<br>hesitation.<br> 
+message,,Lime pointed her gun at the Commander and pulled the trigger<br>without hesitation.<br> 
 
 window,off
 wait,0.15
@@ -145,8 +145,6 @@ asyncwait
 asyncseplay,setag1_4,se4400063,0,1,CONT,0
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_5,40,0,0.25,20,off,off,0,off,CONT,0
@@ -644,7 +642,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,This is... a vein of magic stones? Something like this in an<br>unexplored area...<br> 
+message,<user>,This is... a vein of magic stones? Something like this in an unexplored<br>area...<br> 
 
 window,off
 wait,0.15
@@ -798,7 +796,7 @@ asyncseplay,setag1_22,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,ライム,We were in the middle of our conversation! I still have a lot more<br>to say!<br> ,103601000G,vc_10360100003_017_01,chara_1
+message,ライム,We were in the middle of our conversation! I still have a lot more to<br>say!<br> ,103601000G,vc_10360100003_017_01,chara_1
 
 message,<user>,You're kidding... The lecture isn't over yet...?<br> 
 
@@ -846,7 +844,7 @@ asyncseplay,setag1_26,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ライム,How rude. I don't like you at all，not one bit，but even so，I've<br>always recognized your abilities as a commander.<br> ,103601000G,vc_10360100003_021_01,chara_1
+message,ライム,How rude. I don't like you at all，not one bit，but even so，I've always<br>recognized your abilities as a commander.<br> ,103601000G,vc_10360100003_021_01,chara_1
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -879,7 +877,7 @@ asyncseplay,setag1_29,se4800001,0,1,CONT,0
 asynccharaemo,chara_1,Anger,CONT,0
 
 
-message,ライム,That's exactly why I'll make you take back that foolish claim that<br>I'm equal to Lady Reyzeria!<br> ,103601000G,vc_10360100003_024_01,chara_1
+message,ライム,That's exactly why I'll make you take back that foolish claim that I'm<br>equal to Lady Reyzeria!<br> ,103601000G,vc_10360100003_024_01,chara_1
 
 message,<user>,Even if you say that，it's already been proven that you're as capable<br>as Reyzeria.<br> 
 
@@ -929,7 +927,7 @@ message,<user>,I'm saying that was a good job. You stayed calm，never failed to
 
 message,<user>,You have the courage to speak your mind even to superiors，and the<br>ability to take command as a deputy when needed—that's all outstanding.<br> 
 
-message,<user>,If you weren't Reyzeria's adjutant，I'd have definitely recruited<br>you.<br> 
+message,<user>,If you weren't Reyzeria's adjutant，I'd have definitely recruited you.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1169,7 +1167,7 @@ asynccharaemo,chara_5,Elated,CONT,0
 
 
 window,on,0.15
-message,レイゼリア,I'm sorry，Lime. It looks like you were starting to get along with<br>the Commander，but I can't afford to let you go.<br> ,300601000,vc_10360100003_035_01,chara_5
+message,レイゼリア,I'm sorry，Lime. It looks like you were starting to get along with the<br>Commander，but I can't afford to let you go.<br> ,300601000,vc_10360100003_035_01,chara_5
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1328,7 +1326,7 @@ asyncseplay,setag1_47,se4800013,0,1,CONT,0
 asynccharaemo,chara_5,Spirits,CONT,0
 
 
-message,レイゼリア,Fufufu. You received some praise from the higher-ups too，didn't you?<br> ,300601000,vc_10360100003_043_01,chara_5
+message,レイゼリア,Fufufu. You received some praise from the higher-ups too，didn't<br>you?<br> ,300601000,vc_10360100003_043_01,chara_5
 
 asynccharaface,chara_5,FaceFun,CONT,0
 
@@ -1477,7 +1475,7 @@ asyncseplay,setag1_57,se4800022,0,1,CONT,0
 asynccharaemo,chara_5,Speak,CONT,0
 
 
-message,レイゼリア,You and Lime looked like you were having fun. I just thought it<br>would be bad to interrupt.<br> ,300601000,vc_10360100003_053_01,chara_5
+message,レイゼリア,You and Lime looked like you were having fun. I just thought it would<br>be bad to interrupt.<br> ,300601000,vc_10360100003_053_01,chara_5
 
 asynccharaface,chara_5,FaceAnger,CONT,0
 
@@ -1501,7 +1499,7 @@ asyncseplay,setag1_59,se4800013,0,1,CONT,0
 asynccharaemo,chara_5,Spirits,CONT,0
 
 
-message,レイゼリア,Oh，if you fail miserably，I'll have the Milesgard Knights take you<br>in. I'll work you hard from the bottom up，so rest assured.<br> ,300601000,vc_10360100003_055_01,chara_5
+message,レイゼリア,Oh，if you fail miserably，I'll have the Milesgard Knights take you in.<br>I'll work you hard from the bottom up，so rest assured.<br> ,300601000,vc_10360100003_055_01,chara_5
 
 message,<user>,Look who's talking... Kukuku...<br> 
 

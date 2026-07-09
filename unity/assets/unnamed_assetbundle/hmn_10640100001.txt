@@ -160,8 +160,6 @@ asyncseplay,setag1_9,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
 shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
 shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 
@@ -443,10 +441,6 @@ asyncseplay,setag1_19,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
 shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 
 window,on,0.15
 message,,The incoming arrow was imbued with magical light. The monster，shot<br>clean through a vital point，collapsed.<br> 
@@ -697,7 +691,7 @@ asyncseplay,setag1_25,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,ラモーナ,No，no，not at all. I am simply a Bard. My real job is to share my<br>songs with people.♪<br> ,106401000G,vc_10640100001_007_01,chara_1
+message,ラモーナ,No，no，not at all. I am simply a Bard. My real job is to share my songs<br>with people.♪<br> ,106401000G,vc_10640100001_007_01,chara_1
 
 message,<user>,So you're a traveling Bard. You've been around quite a few<br>towns，right?<br> 
 
@@ -741,7 +735,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 
 window,on,0.15
-message,ラモーナ,Yes!♪ From small mountain villages to large trading hubs，I've<br>visited all sorts of places.<br> ,106401000G,vc_10640100001_008_01,chara_1
+message,ラモーナ,Yes!♪ From small mountain villages to large trading hubs，I've visited<br>all sorts of places.<br> ,106401000G,vc_10640100001_008_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -752,7 +746,7 @@ asyncseplay,setag1_27,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,ラモーナ,In small villages，entertainment is scarce，so recitals of heroic<br>tales from foreign lands are especially well-received.<br> ,106401000G,vc_10640100001_009_01,chara_1
+message,ラモーナ,In small villages，entertainment is scarce，so recitals of heroic tales<br>from foreign lands are especially well-received.<br> ,106401000G,vc_10640100001_009_01,chara_1
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -764,7 +758,7 @@ asyncseplay,setag1_28,se4800018,0,1,CONT,0
 asynccharaemo,chara_1,Flower,CONT,0
 
 
-message,ラモーナ,Children especially listen with sparkling eyes，and that makes it<br>very rewarding!♪<br> ,106401000G,vc_10640100001_010_01,chara_1
+message,ラモーナ,Children especially listen with sparkling eyes，and that makes it very<br>rewarding!♪<br> ,106401000G,vc_10640100001_010_01,chara_1
 
 message,<user>,Huh，that sounds interesting. Are you planning to sing at the<br>Frontline Base too?<br> 
 
@@ -777,9 +771,9 @@ asyncseplay,setag1_29,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ラモーナ,Yes! If you would give me permission，I'd like to sing in the plaza<br>or somewhere!♪<br> ,106401000G,vc_10640100001_011_01,chara_1
+message,ラモーナ,Yes! If you would give me permission，I'd like to sing in the plaza or<br>somewhere!♪<br> ,106401000G,vc_10640100001_011_01,chara_1
 
-message,<user>,Of course，I'll authorize it as soon as we return. I can vouch for<br>you.<br> 
+message,<user>,Of course，I'll authorize it as soon as we return. I can vouch for you.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 
@@ -1166,10 +1160,6 @@ linework,on,White,Middle
 
 asyncshake,BACK,,12,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_1,12,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_2,12,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_3,12,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_4,12,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_5,12,0,0.6,5,off,off,0,on,CONT,0
 
 asyncshake,CHARA,chara_1,20,15,0.5,6,on,off,0,off,CONT,0
 
@@ -1430,7 +1420,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ラモーナ,But I thought that the ones who felt the most anxious were the<br>people fighting on the harsh front lines.<br> ,106401000G,vc_10640100001_032_01,chara_1
+message,ラモーナ,But I thought that the ones who felt the most anxious were the people<br>fighting on the harsh front lines.<br> ,106401000G,vc_10640100001_032_01,chara_1
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -1452,7 +1442,7 @@ asyncseplay,setag1_52,se4800015,0,1,CONT,0
 asynccharaemo,chara_1,Dull,CONT,0
 
 
-message,ラモーナ,But look at how it turned out... With me like this，there's no way<br>you can take me on the Abyss exploration...<br> ,106401000G,vc_10640100001_034_01,chara_1
+message,ラモーナ,But look at how it turned out... With me like this，there's no way you<br>can take me on the Abyss exploration...<br> ,106401000G,vc_10640100001_034_01,chara_1
 
 window,off
 wait,0.15
@@ -1709,7 +1699,7 @@ message,<user>,There might be some useful medicinal herbs growing wild around<br
 
 message,？？？,～～～♪　～～～～～♪,106401000G,vc_10640100001_040_01,on
 
-message,<user>,Hm...? This is... a harp and a singing voice? Who could be singing<br>in a forest like this?<br> 
+message,<user>,Hm...? This is... a harp and a singing voice? Who could be singing in a<br>forest like this?<br> 
 
 message,<user>,No... wait. This voice... could it be...?<br> 
 
@@ -1807,7 +1797,7 @@ asyncseplay,setag1_61,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 window,on,0.15
-message,,Small animals—birds and squirrels—gathered around Ramona，drawn by<br>her beautiful singing voice.<br> 
+message,,Small animals—birds and squirrels—gathered around Ramona，drawn<br>by her beautiful singing voice.<br> 
 
 window,off
 wait,0.15
@@ -1828,7 +1818,7 @@ asyncseplay,setag1_63,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 window,on,0.15
-message,,A small bird alighted on Ramona's shoulder. A smile spread across<br>her face，and she spoke to the bird.<br> 
+message,,A small bird alighted on Ramona's shoulder. A smile spread across her<br>face，and she spoke to the bird.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 

@@ -232,13 +232,13 @@ charascale,chara_1,1.3,0
 charashowalpha,chara_1,1,0
 
 asyncshake,BACK,,12,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_1,12,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_2,12,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_3,12,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_4,12,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_5,12,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_6,12,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_7,12,0,0.6,5,off,off,0,on,CONT,0
+asyncshake,CHARA,chara_1,12,0,0.6,5,off,off,0,on,CONT,0
 
 crossfade,1,0,0,1,1
 wait,1
@@ -584,7 +584,7 @@ asyncseplay,setag1_15,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,フレイヤ,Anyway，my big sister is a famous adventurer! I learned swordsmanship<br>from her，so it's perfect!<br> ,105401000G,vc_10540100002_014_01,chara_1
+message,フレイヤ,Anyway，my big sister is a famous adventurer! I learned<br>swordsmanship from her，so it's perfect!<br> ,105401000G,vc_10540100002_014_01,chara_1
 
 message,<user>,Oh? Is that so?<br> 
 
@@ -685,7 +685,7 @@ asynccharaemo,chara_3,Sweat,CONT,0
 
 
 window,on,0.15
-message,援軍Ａ,Freya，we're soldiers. I know how you feel about making a name on the<br>front lines... But the Abyss is dangerous. It's too early for you!<br> ,400901000,,chara_3
+message,援軍Ａ,Freya，we're soldiers. I know how you feel about making a name on<br>the front lines... But the Abyss is dangerous. It's too early for you!<br> ,400901000,,chara_3
 
 asynccharaface,chara_4,FaceAnger,CONT,0
 
@@ -835,7 +835,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,Freya，I get it. If you're that insistent，I'll take you on today's<br>Abyss expedition.<br> 
+message,<user>,Freya，I get it. If you're that insistent，I'll take you on today's Abyss<br>expedition.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -848,7 +848,7 @@ asynccharaemo,chara_1,Flower,CONT,0
 
 message,フレイヤ,Really?<br> ,105401000G,vc_10540100002_021_01,chara_1
 
-message,<user>,Yeah. But I won't include you in the unit. I'm taking you as my<br>luggage carrier.<br> 
+message,<user>,Yeah. But I won't include you in the unit. I'm taking you as my luggage<br>carrier.<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -1211,7 +1211,7 @@ asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 window,on,0.15
 message,兵士Ａ,Commander! Front line is ready! Give the order whenever!<br> ,401201000,,chara_2
 
-message,<user>,Alright! The first move is crucial! Slam into them hard and<br>intimidate them! Don't let them outdo you in spirit!<br> 
+message,<user>,Alright! The first move is crucial! Slam into them hard and intimidate<br>them! Don't let them outdo you in spirit!<br> 
 
 asynccharaface,chara_2,FaceAnger,CONT,0
 

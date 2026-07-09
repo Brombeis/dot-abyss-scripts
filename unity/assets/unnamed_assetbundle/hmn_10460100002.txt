@@ -44,7 +44,7 @@ asyncwait
 wait,0.5
 
 window,on,0.15
-message,<user>,*pant*... *pant*... I can't believe he ran into the middle of a<br>forest like this...!<br> 
+message,<user>,*pant*... *pant*... I can't believe he ran into the middle of a forest<br>like this...!<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -296,8 +296,6 @@ asyncwait
 asyncseplay,setag1_11,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
 
 
 transitionCrossFadeReady
@@ -434,7 +432,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 message,エルミア,What harm is there? Honestly，I can't be bothered to remember it.<br> ,104601000G,vc_10460100002_008_01,chara_1
 
-message,<user>,Hey，you thief! Give me back my 'Holy Sword that mimics the stars and<br>cleaves the universe—Cosmic Edge Infinity Blade'!<br> 
+message,<user>,Hey，you thief! Give me back my 'Holy Sword that mimics the stars<br>and cleaves the universe—Cosmic Edge Infinity Blade'!<br> 
 
 window,off
 wait,0.15
@@ -566,7 +564,7 @@ asyncseplay,setag1_20,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,エルミア,Can't be helped. I don't like this kind of thing，but we'll have to<br>pry the info out of him.<br> ,104601000G,vc_10460100002_010_01,chara_1
+message,エルミア,Can't be helped. I don't like this kind of thing，but we'll have to pry<br>the info out of him.<br> ,104601000G,vc_10460100002_010_01,chara_1
 
 asyncjump,CHARA,chara_2,30,0.25,1,off,0,CONT
 
@@ -689,7 +687,7 @@ asynccharaemo,chara_1,Dull,CONT,0
 
 message,エルミア,Who'd have thought a full-body tickling would be enough to make him<br>cough up the hideout's location.<br> ,104601000G,vc_10460100002_014_01,chara_1
 
-message,<user>,He said it was around here. There should be a crack in the rock...<br>This it?<br> 
+message,<user>,He said it was around here. There should be a crack in the rock... This<br>it?<br> 
 
 window,off
 wait,0.15
@@ -719,7 +717,7 @@ wait,1
 window,on,0.15
 message,エルミア,Quite narrow...<br> ,104601000G,vc_10460100002_015_01,chara_1
 
-message,<user>,The hideout should be on the other side. Let's hurry in—we can't<br>have them moving the stolen goods!<br> 
+message,<user>,The hideout should be on the other side. Let's hurry in—we can't have<br>them moving the stolen goods!<br> 
 
 window,off
 wait,0.15
@@ -762,7 +760,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 
 window,on,0.15
-message,エルミア,Alright... Hm? It's a tight squeeze，but we should be able to make<br>it.<br> ,104601000G,vc_10460100002_016_01,chara_1
+message,エルミア,Alright... Hm? It's a tight squeeze，but we should be able to make it.<br> ,104601000G,vc_10460100002_016_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -850,7 +848,6 @@ wait,1
 
 shake,BACK,,40,0,0.25,20,off,off,0
 shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
 
 window,on,0.15
 message,<user>,Guh... T-tight...<br> 
@@ -1041,7 +1038,7 @@ wait,0.5
 asyncseplay,se1_1001,se4600013,0,1,CONT,0
 
 window,on,0.15
-message,,Elmia and the Commander crept forward，hidden by the rocks，and found<br>a large group of thieves.<br> 
+message,,Elmia and the Commander crept forward，hidden by the rocks，and<br>found a large group of thieves.<br> 
 
 window,off
 wait,0.15
@@ -1093,7 +1090,7 @@ asyncseplay,setag1_35,se4800006,0,1,CONT,0
 asynccharaemo,chara_1,Trouble,CONT,0
 
 
-message,エルミア,But... there are too many. The two of us can't possibly neutralize<br>all of them.<br> ,104601000G,vc_10460100002_024_01,chara_1
+message,エルミア,But... there are too many. The two of us can't possibly neutralize all<br>of them.<br> ,104601000G,vc_10460100002_024_01,chara_1
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -1151,9 +1148,9 @@ asyncseplay,setag1_39,se4800010,0,1,CONT,0
 asynccharaemo,chara_1,Exclamation,CONT,0
 
 
-message,エルミア,Let's think of something else. I can't take on such an important<br>task.<br> ,104601000G,vc_10460100002_028_01,chara_1
+message,エルミア,Let's think of something else. I can't take on such an important task.<br> ,104601000G,vc_10460100002_028_01,chara_1
 
-message,<user>,Don't let its size fool you，Elmia. If you aim at the base<br>precisely，I think you can bring it down easily.<br> 
+message,<user>,Don't let its size fool you，Elmia. If you aim at the base precisely，I<br>think you can bring it down easily.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 

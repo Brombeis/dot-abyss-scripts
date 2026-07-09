@@ -150,12 +150,10 @@ asyncjump,CHARA,chara_2,-30.6,0.5,1,off,0,CONT
 
 shake,BACK,,20,0,0.25,30,off,off,0
 shake,CHARA,chara_1,20,0,0.25,30,off,off,0
-shake,CHARA,chara_2,20,0,0.25,30,off,off,0
-shake,CHARA,chara_3,20,0,0.25,30,off,off,0
-shake,CHARA,chara_4,20,0,0.25,30,off,off,0
 shake,CHARA,chara_5,20,0,0.25,30,off,off,0
 shake,CHARA,chara_6,20,0,0.25,30,off,off,0
 shake,CHARA,chara_7,20,0,0.25,30,off,off,0
+shake,CHARA,chara_2,20,0,0.25,30,off,off,0
 
 wait,1
 
@@ -293,12 +291,9 @@ asyncwait
 
 asyncshake,BACK,,12,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_1,12,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_2,12,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_3,12,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_4,12,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_5,12,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_6,12,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_7,12,0,0.6,5,off,off,0,on,CONT,0
+asyncshake,CHARA,chara_2,12,0,0.6,5,off,off,0,on,CONT,0
 
 asyncshake,CHARA,chara_6,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -811,7 +806,7 @@ asyncwait
 window,on,0.15
 message,<user>,That knight's pretty good... Not just strong—she's completely<br>protecting the fallen soldiers.<br> 
 
-message,兵士A,That's Rosa，the knight of Milesgard! She was renowned in our country<br>for her skill.<br> ,401301000,vc_10010100001_006_01,
+message,兵士A,That's Rosa，the knight of Milesgard! She was renowned in our<br>country for her skill.<br> ,401301000,vc_10010100001_006_01,
 
 message,<user>,I see，with skills like that，it makes sense.<br> 
 
@@ -911,7 +906,7 @@ asyncseplay,setag1_27,se4800011,0,1,CONT,0
 asynccharaemo,chara_2,ExclaQues,CONT,0
 
 window,on,0.15
-message,,Frustrated that all its attacks were blocked，the monster's movements<br>became wild. At that moment，Rosa's well-aimed strike pierced through.<br> 
+message,,Frustrated that all its attacks were blocked，the monster's<br>movements became wild. At that moment，Rosa's well-aimed strike pierced through.<br> 
 
 window,off
 wait,0.15
@@ -931,12 +926,6 @@ asyncwait
 asyncseplay,setag1_28,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
-shake,CHARA,chara_6,40,0,0.25,20,off,off,0
 shake,CHARA,chara_7,40,0,0.25,20,off,off,0
 
 wait,0.5
@@ -1126,7 +1115,7 @@ asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 window,on,0.15
 message,ローザ,Lord Commander! I am heading to assist the other units!<br> ,100101000G,vc_10010100001_013_01,chara_1
 
-message,<user>,What? Wait，even for someone as strong as you，consecutive battles are<br>taxing—h-hey!<br> 
+message,<user>,What? Wait，even for someone as strong as you，consecutive battles<br>are taxing—h-hey!<br> 
 
 window,off
 wait,0.15
@@ -1382,7 +1371,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(So that's her attitude: apologetic but won't change. If she's<br>sticking to her beliefs，there's no point in punishing her.)<br> 
+message,<user>,(So that's her attitude: apologetic but won't change. If she's sticking<br>to her beliefs，there's no point in punishing her.)<br> 
 
 window,off
 wait,0.15
@@ -1405,7 +1394,7 @@ asyncseplay,setag1_39,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 window,on,0.15
-message,<user>,I won't punish you. I'll just consider that I okayed your proposal.<br>I know you're skilled，but next time，talk to me before you go.<br> 
+message,<user>,I won't punish you. I'll just consider that I okayed your proposal. I<br>know you're skilled，but next time，talk to me before you go.<br> 
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -1540,7 +1529,7 @@ scale,BACK,,0,1,1,Set
 transitionFade,Tra09,in,black,1
 
 window,on,0.15
-message,<user>,Hmm... maybe it's a bit too messy. I'll tidy up the room first. I<br>can't concentrate like this.<br> 
+message,<user>,Hmm... maybe it's a bit too messy. I'll tidy up the room first. I can't<br>concentrate like this.<br> 
 
 
 window,off
@@ -1588,12 +1577,6 @@ bgmstop,bgmtag1_3,1.5,0
 asyncseplay,setag1_44,se4300007,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
-shake,CHARA,chara_6,40,0,0.25,20,off,off,0
 shake,CHARA,chara_7,40,0,0.25,20,off,off,0
 
 window,on,0.15
@@ -1777,7 +1760,7 @@ asyncseplay,setag1_55,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,ローザ,Was I wrong...? Ah! If it's a sudden illness，I'll carry you to the<br>clinic!<br> ,100101000G,vc_10010100001_033_01,chara_1
+message,ローザ,Was I wrong...? Ah! If it's a sudden illness，I'll carry you to the clinic!<br> ,100101000G,vc_10010100001_033_01,chara_1
 
 message,<user>,Yeah... I'll count on you when I really need help...<br> 
 
@@ -1822,7 +1805,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,...Rosa. Actually，I need to ask you a favor. I need someone with<br>your skills.<br> 
+message,<user>,...Rosa. Actually，I need to ask you a favor. I need someone with your<br>skills.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -1847,7 +1830,7 @@ asyncseplay,setag1_58,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,ローザ,An escort mission! That's the pinnacle of a knight's duty! Leave it<br>to me!<br> ,100101000G,vc_10010100001_036_01,chara_1
+message,ローザ,An escort mission! That's the pinnacle of a knight's duty! Leave it to<br>me!<br> ,100101000G,vc_10010100001_036_01,chara_1
 
 message,<user>,I'm counting on you. All right，let's go!<br> 
 

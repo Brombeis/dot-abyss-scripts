@@ -67,7 +67,7 @@ message,,...In the middle of his conversation with Margaret，%user% frowned.<br
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
 
-message,<user>,Margaret. Looks like it's too soon to celebrate being safe. We need<br>to get out of here，fast.<br> 
+message,<user>,Margaret. Looks like it's too soon to celebrate being safe. We need to<br>get out of here，fast.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -277,7 +277,7 @@ asyncseplay,setag1_6,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,マーガレット,And the thieves，Lord Commander? What do you intend to do with them?<br> ,103901000G,vc_10390100003_003_01,chara_1
+message,マーガレット,And the thieves，Lord Commander? What do you intend to do with<br>them?<br> ,103901000G,vc_10390100003_003_01,chara_1
 
 window,off
 wait,0.15
@@ -435,7 +435,7 @@ asyncseplay,setag1_13,se4800004,0,1,CONT,0
 asynccharaemo,chara_1,Laugh,CONT,0
 
 
-message,マーガレット,Since coming to the Frontline Base，I've heard of your achievements —<br>your skill is that of a God-given hero.<br> ,103901000G,vc_10390100003_011_01,chara_1
+message,マーガレット,Since coming to the Frontline Base，I've heard of your achievements<br>— your skill is that of a God-given hero.<br> ,103901000G,vc_10390100003_011_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -454,9 +454,9 @@ asynccharaface,chara_1,FaceNormal,CONT,0
 asyncjump,CHARA,chara_1,-30.6,0.5,1,off,0,CONT
 
 
-message,マーガレット,I will give you anything I have to offer，so please，would you at<br>least consider it?<br> ,103901000G,vc_10390100003_013_01,chara_1
+message,マーガレット,I will give you anything I have to offer，so please，would you at least<br>consider it?<br> ,103901000G,vc_10390100003_013_01,chara_1
 
-message,<user>,...*sigh*. Good grief. You're quite the clergywoman，but this feels<br>like coercion.<br> 
+message,<user>,...*sigh*. Good grief. You're quite the clergywoman，but this feels like<br>coercion.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -669,7 +669,7 @@ transitionFade,Tra09,in,black,1
 window,on,0.15
 message,,—Thanks to %user%'s precise orders，the situation immediately swung<br>in the thieves' favor.<br> 
 
-message,,The thieves protected Margaret and %user%，gradually moving toward a<br>safe zone—<br> 
+message,,The thieves protected Margaret and %user%，gradually moving toward<br>a safe zone—<br> 
 
 message,<user>,We're almost there! Hold the line!<br> 
 
@@ -847,7 +847,7 @@ asynccharaemo,chara_1,Spirits,CONT,0
 window,on,0.15
 message,,—After shouting that，Margaret began to sing. A hymn.<br> 
 
-message,,—With a powerful voice，she sang of a hero who，as God's Messenger，led<br>those branded as sinners to slay a great evil—<br> 
+message,,—With a powerful voice，she sang of a hero who，as God's<br>Messenger，led those branded as sinners to slay a great evil—<br> 
 
 message,盗賊Ａ,W-what the hell? I feel so brave all of a sudden!<br> ,900000001
 
@@ -933,10 +933,6 @@ asyncwait
 asyncseplay,setag1_25,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 shake,CHARA,chara_6,40,0,0.25,20,off,off,0
 
@@ -1046,7 +1042,7 @@ message,盗賊Ａ,We only survived thanks to you and Margaret.<br> ,900000001
 
 message,盗賊Ｂ,I'll atone with my life，I swear! Please，let me help!<br> ,900000001
 
-message,<user>,...I see. I'll consider it. You'll be imprisoned for now，but I won't<br>treat you badly.<br> 
+message,<user>,...I see. I'll consider it. You'll be imprisoned for now，but I won't treat<br>you badly.<br> 
 
 window,off
 wait,0.15
@@ -1155,7 +1151,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 message,マーガレット,I'm well aware of that. I am prepared to give you anything—truly<br>anything.<br> ,103901000G,vc_10390100003_025_01,chara_1
 
-message,<user>,Hmm. In that case，stay at the Frontline Base and listen to<br>everyone's troubles.<br> 
+message,<user>,Hmm. In that case，stay at the Frontline Base and listen to everyone's<br>troubles.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -1394,7 +1390,7 @@ asynccharaface,chara_5,FaceSad,CONT,0
 asyncjump,CHARA,chara_5,30,0.25,1,off,0,CONT
 
 
-message,アリシア,Sophia，Verisa，Marina，Kururu，Himari... They all went back to normal，I<br>hear!<br> ,300201000,vc_10390100003_033_01,chara_5
+message,アリシア,Sophia，Verisa，Marina，Kururu，Himari... They all went back to<br>normal，I hear!<br> ,300201000,vc_10390100003_033_01,chara_5
 
 message,<user>,I'll admit Margaret has her skills，but... people don't change that<br>easily.<br> 
 
@@ -1583,7 +1579,7 @@ asynccharaemo,chara_5,Sweat,CONT,0
 
 message,アリシア,B-but in the end they apologized and even gave us a free meal，didn't<br>they?<br> ,300201000,vc_10390100003_038_01,chara_5
 
-message,<user>,Unforgivable，completely unforgivable... Should I call them over<br>again and make them apologize?<br> 
+message,<user>,Unforgivable，completely unforgivable... Should I call them over again<br>and make them apologize?<br> 
 
 window,off
 wait,0.15

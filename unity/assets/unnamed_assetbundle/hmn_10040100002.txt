@@ -46,7 +46,7 @@ message,アリシア,It's fine to treat her as a combat asset，but please make 
 
 asynccharaface,chara_2,EyeOpen,STOP
 asynccharaface,chara_2,FaceNormal,STOP
-message,<user>,I intend to，but... it doesn't seem like there's much I can teach<br>her. She's way stronger than I am，after all.<br> 
+message,<user>,I intend to，but... it doesn't seem like there's much I can teach her.<br>She's way stronger than I am，after all.<br> 
 
 message,<user>,I just need to fill in the gaps in her common sense and keep her out<br>of trouble. If I do that，she'll become a solid combat asset...<br> 
 
@@ -177,7 +177,7 @@ asynccharareaction,chara_1,Jump,1,STOP
 asynccharaemo,chara_1,BePeevish,STOP
 message,シャオレイ,Teacher，that's rude. That's not true!<br> ,,vc_10040100002_011_01
 
-message,<user>,Hmm，so you don't realize it，huh? Then why do you think the door flew<br>off and the cup you were holding shattered?<br> 
+message,<user>,Hmm，so you don't realize it，huh? Then why do you think the door<br>flew off and the cup you were holding shattered?<br> 
 
 asyncseplay,setag1_14,se4800009,0,1,CONT
 
@@ -225,7 +225,7 @@ fade,In,White,1.5
 window,on,0.15
 message,<user>,So Xiaolei's super strength is innate，huh. They must have replaced<br>everything at home with sturdy，heavy items to match it.<br> 
 
-message,<user>,Maybe they gradually made them heavier to train her. Like living<br>with weights on.<br> 
+message,<user>,Maybe they gradually made them heavier to train her. Like living with<br>weights on.<br> 
 
 asyncseplay,setag1_15,se4800009,0,1,CONT
 
@@ -238,7 +238,7 @@ message,<user>,No，they don't! That's called training!<br>
 
 asynccharaface,chara_1,EyeOpen,STOP
 asynccharaface,chara_1,FaceNormal,STOP
-message,<user>,Anyway. Your strength is useful in combat，but it's a bit excessive<br>for daily life.<br> 
+message,<user>,Anyway. Your strength is useful in combat，but it's a bit excessive for<br>daily life.<br> 
 
 message,<user>,I think you should start by learning to control your strength so you<br>can live without problems.<br> 
 
@@ -462,14 +462,14 @@ charashow,chara_1,0.3
 
 message,シャオレイ,*whimper*... Xiaolei can't do anything...<br> ,,vc_10040100002_027_01
 
-message,<user>,I guess it was tough right away. But if you think of it as the price<br>for your combat power，it's understandable.<br> 
+message,<user>,I guess it was tough right away. But if you think of it as the price for<br>your combat power，it's understandable.<br> 
 
 asyncseplay,setag1_29,se4800015,0,1,CONT
 
 asynccharaemo,chara_1,Dull,STOP
 message,シャオレイ,Xiaolei is sorry.<br>Teacher taught Xiaolei，but...<br> ,,vc_10040100002_028_01
 
-message,<user>,Let's see it as you getting into the right mindset，and call it good<br>for today. We'll take our time.<br> 
+message,<user>,Let's see it as you getting into the right mindset，and call it good for<br>today. We'll take our time.<br> 
 
 asyncseplay,setag1_30,se4800007,0,1,CONT
 
@@ -478,7 +478,7 @@ asynccharaemo,chara_1,Panic,STOP
 shake,CHARA,chara_1,10,0,0.5,2,off,off,0
 message,シャオレイ,*whimper*... Does Xiaolei have to keep going?<br> ,,vc_10040100002_029_01
 
-message,<user>,Of course you can't stop. If you go around breaking<br>everything，you'll cause trouble for others.<br> 
+message,<user>,Of course you can't stop.<br>If you go around breaking everything，you'll cause trouble for others.<br> 
 
 asyncseplay,setag1_31,se4800009,0,1,CONT
 

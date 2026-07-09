@@ -1083,7 +1083,7 @@ asyncseplay,setag1_30,se4800001,0,1,CONT,0
 asynccharaemo,chara_3,Anger,CONT,0
 
 
-message,ベリサ,Wait wait wait，I'm not handing over Wendy or Viera!?<br>Everyone's scared because you keep saying weird stuff，you pervert~~!<br> ,100201000G,,chara_3
+message,ベリサ,Wait wait wait，I'm not handing over Wendy or Viera!? Everyone's<br>scared because you keep saying weird stuff，you pervert~~!<br> ,100201000G,,chara_3
 
 window,off
 wait,0.15
@@ -1521,7 +1521,7 @@ asyncseplay,setag1_39,se4800003,0,1,CONT,0
 asynccharaemo,chara_3,Twinkle,CONT,0
 
 
-message,ベリサ,Basically，we just need to deal with each symptom as it comes，right~?<br>Easy peasy，Verisa-chan will handle it♪<br> ,100201000G,,chara_3
+message,ベリサ,Basically，we just need to deal with each symptom as it<br>comes，right~? Easy peasy，Verisa-chan will handle it♪<br> ,100201000G,,chara_3
 
 window,off
 wait,0.15
@@ -2295,10 +2295,6 @@ asyncwait
 asyncseplay,setag1_59,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 
 window,on,0.15
@@ -2367,10 +2363,6 @@ asyncwait
 asyncseplay,setag1_61,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 
 asynccrossfadeready,STOP
@@ -2467,10 +2459,6 @@ asyncwait
 asyncseplay,setag1_64,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 
 window,on,0.15
@@ -2704,11 +2692,6 @@ waitorclick,0.8
 asyncseplay,setag1_69,se4400106,0,1,CONT,0
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_5,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
 message,<user>,Guhooooo...!?<br> 
@@ -2784,18 +2767,14 @@ asynccharaemo,chara_5,Sweat,CONT,0
 
 
 window,on,0.15
-message,ラヴェリア,As if I'd do something like that. ...Still，that was an impressive<br>tackle. The power behind it was nothing to scoff at.<br> ,102001000G,,chara_5
+message,ラヴェリア,As if I'd do something like that. ...Still，that was an impressive tackle.<br>The power behind it was nothing to scoff at.<br> ,102001000G,,chara_5
 
 asyncseplay,setag1_71,se5050019,0,1,CONT,0
 
 asyncshake,BACK,,20,0,0.25,30,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,20,0,0.25,30,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,20,0,0.25,30,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_3,20,0,0.25,30,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_4,20,0,0.25,30,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_5,20,0,0.25,30,off,off,0,off,CONT,0
 
-message,<user>,Now's not the time for compliments...! H-help... so strong...<br>ngghhh...! Ow! Heavy! My organs are getting crushed!<br> 
+message,<user>,Now's not the time for compliments...! H-help... so strong... ngghhh...!<br>Ow! Heavy! My organs are getting crushed!<br> 
 
 window,off
 wait,0.15
@@ -2947,11 +2926,7 @@ waitorclick,0.8
 asyncseplay,setag1_74,se5050019,0,1,CONT,0
 
 asyncshake,BACK,,20,0,0.25,30,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,20,0,0.25,30,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_2,20,0,0.25,30,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_3,20,0,0.25,30,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_4,20,0,0.25,30,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_5,20,0,0.25,30,off,off,0,off,CONT,0
 
 window,on,0.15
 message,<user>,Gah，cough...! Viera and... Verisa...!?<br>What's going on here!?<br> 
@@ -3224,11 +3199,7 @@ waitorclick,0.8
 asyncseplay,setag1_81,se5050019,0,1,CONT,0
 
 asyncshake,BACK,,20,0,0.25,30,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,20,0,0.25,30,off,off,0,off,CONT,0
 asyncshake,CHARA,chara_2,20,0,0.25,30,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_3,20,0,0.25,30,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_4,20,0,0.25,30,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_5,20,0,0.25,30,off,off,0,off,CONT,0
 
 window,on,0.15
 message,<user>,I see...!? Well，I can't say I fully get it，but I understand for now!<br>But being hugged with Wendy's power is pretty——guheee~!<br> 
@@ -3657,7 +3628,7 @@ asyncseplay,setag1_93,se4800008,0,1,CONT,0
 
 asynccharaemo,chara_4,Sweat,CONT,0
 
-message,<user>,Also，Verisa，Viera. I've noticed you three have been sneaking around，<br>but is this related to that? What are you up to?<br> 
+message,<user>,Also，Verisa，Viera. I've noticed you three have been sneaking<br>around， but is this related to that? What are you up to?<br> 
 
 asynccharaface,chara_3,FaceShy,CONT,0
 

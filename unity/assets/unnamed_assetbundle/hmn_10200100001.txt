@@ -403,16 +403,8 @@ wait,0.5
 linework,on,White,Middle
 
 asyncshake,BACK,,20,0,0.5,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_1,20,0,0.5,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_2,20,0,0.5,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_3,20,0,0.5,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_4,20,0,0.5,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_5,20,0,0.5,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_6,20,0,0.5,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_7,20,0,0.5,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_9,20,0,0.5,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_10,20,0,0.5,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_11,20,0,0.5,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_8,20,0,0.5,5,off,off,0,on,CONT,0
 
 window,on,0.15
@@ -796,9 +788,9 @@ asyncseplay,setag1_19,se4800004,0,1,CONT
 asynccharareaction,chara_4,Nod,1,STOP
 asynccharaemo,chara_4,Laugh,STOP
 window,on,0.15
-message,ベリサ,Ehh，it's only natural for Mister to help me，right? I mean，isn't it<br>his fault his command was so sloppy?<br> ,,vc_10200100001_016_01
+message,ベリサ,Ehh，it's only natural for Mister to help me，right? I mean，isn't it his<br>fault his command was so sloppy?<br> ,,vc_10200100001_016_01
 
-message,<user>,Oh come on... I even had reserves ready. That's no way to talk to<br>me. Fine，reflecting on today，I'll give you close-combat training.<br> 
+message,<user>,Oh come on... I even had reserves ready. That's no way to talk to me.<br>Fine，reflecting on today，I'll give you close-combat training.<br> 
 
 charaface,chara_4,FaceSurprise
 
@@ -935,7 +927,7 @@ asyncwait
 asynccharamove,chara_1,LinearTarget,X,600,1,CONT
 
 window,on,0.15
-message,<user>,Right. Doesn't look like there'll be any more monster attacks...<br>Kill count: 13 goblins.<br> 
+message,<user>,Right. Doesn't look like there'll be any more monster attacks... Kill<br>count: 13 goblins.<br> 
 
 window,off
 wait,0.15
@@ -1078,7 +1070,7 @@ asyncseplay,setag1_40,se4800015,0,1,STOP,5
 asynccharaemo,chara_5,Dull,STOP,5
 
 asynccharaface,chara_5,FaceSad,STOP,5
-message,アリシア,It's a lot for just me to handle... and everyone who might be able<br>to help is out right now...<br> ,,vc_10200100001_025_01
+message,アリシア,It's a lot for just me to handle... and everyone who might be able to<br>help is out right now...<br> ,,vc_10200100001_025_01
 
 seplay,setag1_41,se4400065,0,1
 
@@ -1113,13 +1105,13 @@ asyncshake,CHARA,chara_5,20,15,0.5,6,on,off,0,off,CONT,0
 
 asynccharaface,chara_5,FaceSad,CONT,2
 window,on,0.15
-message,アリシア,C-Commander! Get a hold of yourself! I can't tell if you're losing<br>your mind or just being your usual self!<br> ,,vc_10200100001_026_01
+message,アリシア,C-Commander! Get a hold of yourself! I can't tell if you're losing your<br>mind or just being your usual self!<br> ,,vc_10200100001_026_01
 
 linework,off,White,Middle
 
 asyncwait
 
-message,<user>,As if this is normal for me! Damn，this is the kind of situation<br>where I'd take any help I can get...<br> 
+message,<user>,As if this is normal for me! Damn，this is the kind of situation where<br>I'd take any help I can get...<br> 
 
 window,off
 wait,0.15
@@ -1224,14 +1216,14 @@ asyncshake,CHARA,chara_1,20,0,0.5,1,off,off,0,off,CONT,0
 window,on,0.15
 message,ラヴェリア,As for the Abyss，there's been nothing unusual since the last<br>operation.<br> ,,vc_10200100001_030_01
 
-message,<user>,I see，that's a relief. But there's still a lot we don't know about<br>the Abyss，so we need to stay on alert for any sudden activity.<br> 
+message,<user>,I see，that's a relief. But there's still a lot we don't know about the<br>Abyss，so we need to stay on alert for any sudden activity.<br> 
 
 charaface,chara_1,FaceSad
 
 asyncseplay,setag1_47,se4800008,0,1,CONT
 
 asynccharaemo,chara_1,Sweat,STOP
-message,ラヴェリア,That's why you look so tired，Brother—because you're always on guard<br>for so many things.<br> ,,vc_10200100001_031_01
+message,ラヴェリア,That's why you look so tired，Brother—because you're always on<br>guard for so many things.<br> ,,vc_10200100001_031_01
 
 message,<user>,...Was my tired expression that obvious?<br> 
 
@@ -1291,7 +1283,7 @@ asyncseplay,setag1_49,se4800007,0,1,CONT
 asynccharaemo,chara_5,Panic,CONT
 
 asyncshake,CHARA,chara_5,20,15,0.5,6,on,off,0,off,CONT,0
-message,アリシア,I-I'll help as much as I can! Let's sort through them little by<br>little!<br> ,,vc_10200100001_034_01
+message,アリシア,I-I'll help as much as I can! Let's sort through them little by little!<br> ,,vc_10200100001_034_01
 
 window,off
 wait,0.15
@@ -1363,10 +1355,10 @@ asyncshake,CHARA,chara_5,20,0,0.5,1,off,off,0,off,CONT,0
 asyncseplay,setag1_51,se4800006,0,1,CONT
 
 asynccharaemo,chara_5,Trouble,STOP
-message,アリシア,Since we're receiving supplies，funds，and military support，we need to<br>share accurate information with them...<br> ,,vc_10200100001_037_01
+message,アリシア,Since we're receiving supplies，funds，and military support，we need<br>to share accurate information with them...<br> ,,vc_10200100001_037_01
 
 
-message,<user>,We don't need to fudge the content this time，so I could just report<br>it as-is... but...<br> 
+message,<user>,We don't need to fudge the content this time，so I could just report it<br>as-is... but...<br> 
 
 asynccharareaction,chara_5,Nod,1,CONT
 
@@ -1530,7 +1522,7 @@ asyncseplay,setag1_59,se4800004,0,1,CONT
 asynccharareaction,chara_1,Nod,1,STOP
 asynccharaemo,chara_1,Laugh,STOP
 
-message,ラヴェリア,It's fine. I'm planning to stay here for a while anyway. I'll help<br>if you're in a bind.<br> ,,vc_10200100001_043_01
+message,ラヴェリア,It's fine. I'm planning to stay here for a while anyway. I'll help if<br>you're in a bind.<br> ,,vc_10200100001_043_01
 
 charapose,chara_5,3
 

@@ -120,7 +120,7 @@ asynccharaemo,chara_3,Speak,CONT,0
 
 
 window,on,0.15
-message,踊り子,Oh，there you are，Yachiyo! Can we get the weather forecast today too?<br> ,401401000,vc_10440100002_001_01,chara_3
+message,踊り子,Oh，there you are，Yachiyo! Can we get the weather forecast today<br>too?<br> ,401401000,vc_10440100002_001_01,chara_3
 
 window,off
 wait,0.15
@@ -216,7 +216,7 @@ asynccharaemo,chara_2,Trouble,CONT,0
 
 
 window,on,0.15
-message,市民,We'd appreciate the forecast up to around noon tomorrow，as we'd hate<br>for our laundry to get wet after all that trouble.<br> ,400101000,vc_10440100002_003_01,chara_2
+message,市民,We'd appreciate the forecast up to around noon tomorrow，as we'd<br>hate for our laundry to get wet after all that trouble.<br> ,400101000,vc_10440100002_003_01,chara_2
 
 window,off
 wait,0.15
@@ -274,7 +274,7 @@ asyncseplay,setag1_7,se4800014,0,1,CONT,0
 asynccharaemo,chara_1,Silence,CONT,0
 
 
-message,ヤチヨ,Lord Dragon God，Lord Dragon God，please answer. For these people，I<br>humbly ask for an oracle—<br> ,104401000G,vc_10440100002_005_01,chara_1
+message,ヤチヨ,Lord Dragon God，Lord Dragon God，please answer. For these<br>people，I humbly ask for an oracle—<br> ,104401000G,vc_10440100002_005_01,chara_1
 
 window,off
 wait,0.15
@@ -718,7 +718,7 @@ wait,0.5
 
 
 window,on,0.15
-message,ヤチヨ,E-everyone... I'm so sorry... It seems it didn't work out... Were<br>you okay?<br> ,104401000G,vc_10440100002_016_01,chara_1
+message,ヤチヨ,E-everyone... I'm so sorry... It seems it didn't work out... Were you<br>okay?<br> ,104401000G,vc_10440100002_016_01,chara_1
 
 message,<user>,We were just out on the grasslands when it started pouring. We got<br>drenched.<br> 
 
@@ -847,7 +847,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 
 
 window,on,0.15
-message,ヤチヨ,Understood! Now then—Lord Dragon God，please grant me your answer!<br> ,104401000G,vc_10440100002_024_01,chara_1
+message,ヤチヨ,Understood! Now then—Lord Dragon God，please grant me your<br>answer!<br> ,104401000G,vc_10440100002_024_01,chara_1
 
 window,off
 wait,0.15
@@ -881,7 +881,7 @@ asynccharaemo,chara_1,Flash,CONT,0
 
 
 window,on,0.15
-message,ヤチヨ,...The oracle says today will certainly be sunny! Let's have a<br>splendid day!♪<br> ,104401000G,vc_10440100002_025_01,chara_1
+message,ヤチヨ,...The oracle says today will certainly be sunny! Let's have a splendid<br>day!♪<br> ,104401000G,vc_10440100002_025_01,chara_1
 
 
 
@@ -1482,7 +1482,7 @@ asyncseplay,setag1_44,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,ヤチヨ,Oh，you're the soldier who came to thank me personally before! Right?<br> ,104401000G,vc_10440100002_039_01,chara_1
+message,ヤチヨ,Oh，you're the soldier who came to thank me personally before!<br>Right?<br> ,104401000G,vc_10440100002_039_01,chara_1
 
 asyncjump,CHARA,chara_4,-30.6,0.5,1,off,0,CONT
 
@@ -1966,7 +1966,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 
 message,ヤチヨ,...That is right.<br> ,104401000G,vc_10440100002_053_01,chara_1
 
-message,<user>,Don't worry about the rumors. They're just people who don't know you<br>running their mouths.<br> 
+message,<user>,Don't worry about the rumors. They're just people who don't know<br>you running their mouths.<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -1997,7 +1997,7 @@ asyncseplay,setag1_63,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,ヤチヨ,I know the Dragon God's moods can throw them off occasionally，but it<br>has never been this bad. I am a failure as a shrine maiden.<br> ,104401000G,vc_10440100002_056_01,chara_1
+message,ヤチヨ,I know the Dragon God's moods can throw them off occasionally，but<br>it has never been this bad. I am a failure as a shrine maiden.<br> ,104401000G,vc_10440100002_056_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -2065,7 +2065,7 @@ asynccharaemo,chara_1,Silence,CONT,0
 window,on,0.15
 message,ヤチヨ,That might be true，but...<br> ,104401000G,vc_10440100002_060_01,chara_1
 
-message,<user>,I'd miss you if you left，too. You're a cheerful and good person.<br>Can't you at least reconsider?<br> 
+message,<user>,I'd miss you if you left，too. You're a cheerful and good person. Can't<br>you at least reconsider?<br> 
 
 asynccharaface,chara_1,FaceShy,CONT,0
 
@@ -2138,7 +2138,7 @@ bgmplay,bgmtag1_6,bgm0028,0.75,1
 
 message,<user>,Monsters! And these are the pack-hunting type!<br> 
 
-message,,The Commander looked around. He sensed multiple monsters approaching<br>in the distance.<br> 
+message,,The Commander looked around. He sensed multiple monsters<br>approaching in the distance.<br> 
 
 window,off
 wait,0.15
@@ -2332,13 +2332,6 @@ asyncwait
 asyncseplay,setag1_77,se4400063,0,1,CONT,0
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_2,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_3,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_4,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_5,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_6,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_7,40,0,0.25,20,off,off,0,off,CONT,0
 
 window,on,0.15
 message,,Yachiyo struck a nearby monster with her staff，knocking it<br>unconscious.<br> 
@@ -2416,7 +2409,7 @@ wait,1
 asyncseplay,se1_1009,se4000121,0,1,CONT,0
 
 window,on,0.15
-message,,At his command，Yachiyo started running. But the monsters gave chase.<br>A chase through the mountains began.<br> 
+message,,At his command，Yachiyo started running. But the monsters gave<br>chase. A chase through the mountains began.<br> 
 
 sestop,se1_1009,1.5
 

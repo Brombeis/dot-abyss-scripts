@@ -88,7 +88,6 @@ asyncseplay,setag1_2,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
 shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
 shake,CHARA,chara_3,40,0,0.25,20,off,off,0
 shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 shake,CHARA,chara_5,40,0,0.25,20,off,off,0
@@ -610,9 +609,9 @@ transitionFade,Tra16,in,black,1
 window,on,0.15
 message,モンスター,*grrrrrrr...*<br> ,402001000,,chara_2
 
-message,<user>,Ah... I really botched this one. Couldn't fully adjust to the<br>difference between the usual lot and the hunting party，huh.<br> 
+message,<user>,Ah... I really botched this one. Couldn't fully adjust to the difference<br>between the usual lot and the hunting party，huh.<br> 
 
-message,<user>,...Hey，you. How about you wait just a second until I get out of<br>here?<br> 
+message,<user>,...Hey，you. How about you wait just a second until I get out of here?<br> 
 
 window,off
 wait,0.15
@@ -656,12 +655,7 @@ fade,Out,White,0.15
 fade,In,White,0.15
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
 shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
-shake,CHARA,chara_6,40,0,0.25,20,off,off,0
 
 message,,He barely managed to block the monster's killing strike right above<br>his head. A dull metallic clang resounded.<br> 
 
@@ -671,7 +665,7 @@ message,<user>,Guuh! I managed to block it，but...!<br>
 
 asyncseplay,setag1_11,se4900054,0,1,CONT,0
 
-message,<user>,S-so heavy...! I can't keep this up for long! Shit，I can't die in a<br>place like this...!<br> 
+message,<user>,S-so heavy...! I can't keep this up for long! Shit，I can't die in a place<br>like this...!<br> 
 
 
 window,off
@@ -1295,12 +1289,6 @@ asyncwait
 asyncseplay,setag1_28,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
-shake,CHARA,chara_6,40,0,0.25,20,off,off,0
 
 wait,0.5
 
@@ -1397,7 +1385,7 @@ asyncjump,CHARA,chara_4,30,0.25,1,off,0,CONT
 
 
 window,on,0.15
-message,狩猟隊の女猟師,There were monsters over here too! Commander，Etia! Are you two okay?<br> ,401601000,vc_10120100003_041_01,chara_4
+message,狩猟隊の女猟師,There were monsters over here too! Commander，Etia! Are you two<br>okay?<br> ,401601000,vc_10120100003_041_01,chara_4
 
 message,<user>,We're fine. Etia took it down cleanly.<br> 
 
@@ -1473,7 +1461,7 @@ asyncseplay,setag1_30,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,エティア,Huh... u-um，well... I just fired in a daze，trusting the Commander，so<br>I don't have any confidence at all...<br> ,,vc_10120100003_043_01,chara_1
+message,エティア,Huh... u-um，well... I just fired in a daze，trusting the Commander，so I<br>don't have any confidence at all...<br> ,,vc_10120100003_043_01,chara_1
 
 
 asynccharaface,chara_1,FaceFun,CONT,0
@@ -1481,7 +1469,7 @@ asynccharaface,chara_1,FaceFun,CONT,0
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
 
-message,エティア,But... I thought that would be okay，and I fired. I figured if I<br>trusted the Commander and did my best，that would be enough...<br> ,,vc_10120100003_044_01,chara_1
+message,エティア,But... I thought that would be okay，and I fired. I figured if I trusted<br>the Commander and did my best，that would be enough...<br> ,,vc_10120100003_044_01,chara_1
 
 message,<user>,Hahaha，you really get it，don't you，Etia?<br> 
 
@@ -1555,7 +1543,7 @@ crossfade,1,0,0,1,1
 wait,1
 
 window,on,0.15
-message,<user>,...You heard her. Sorry，guys，but I'm taking her. She says she'll<br>trust me and fight，so I've got no choice，right?<br> 
+message,<user>,...You heard her. Sorry，guys，but I'm taking her. She says she'll trust<br>me and fight，so I've got no choice，right?<br> 
 
 
 asynccharaface,chara_1,FaceUnique01,CONT,0
@@ -1615,9 +1603,9 @@ asyncseplay,setag1_36,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,エティア,Th-this is different! I'm just so happy that everyone said<br>that，so...!<br> ,,vc_10120100003_050_01,chara_1
+message,エティア,Th-this is different! I'm just so happy that everyone said that，so...!<br> ,,vc_10120100003_050_01,chara_1
 
-message,<user>,Don't worry. Once I have some free time，I'll let you join the<br>hunting party too. Trust me and follow my lead.<br> 
+message,<user>,Don't worry. Once I have some free time，I'll let you join the hunting<br>party too. Trust me and follow my lead.<br> 
 
 message,<user>,I'm counting on you，Etia.<br> 
 

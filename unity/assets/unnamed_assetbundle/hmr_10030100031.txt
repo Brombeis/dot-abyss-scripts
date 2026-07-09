@@ -155,7 +155,7 @@ asyncseplay,setag1_5,se4800010,0,1,CONT,0
 asynccharaemo,chara_2,Exclamation,CONT,0
 
 
-message,商人,You bet! It's a limited-time special potion! With triple effects:<br>fatigue recovery，nourishment，and stamina enhancement!<br> ,400301000,,chara_2
+message,商人,You bet! It's a limited-time special potion! With triple effects: fatigue<br>recovery，nourishment，and stamina enhancement!<br> ,400301000,,chara_2
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -416,7 +416,7 @@ asyncseplay,setag1_12,se4300001,0,1,CONT,0
 wait,0.5
 
 window,on,0.15
-message,,Just then，there was a knock at the command room door. When he opened<br>it，Marina was standing there.<br> 
+message,,Just then，there was a knock at the command room door. When he<br>opened it，Marina was standing there.<br> 
 
 window,off
 wait,0.15
@@ -454,7 +454,7 @@ wait,0.5
 
 
 window,on,0.15
-message,マリナ,U-um... I-I'm so sorry! I invited you to dinner，but I ended up being<br>so late...<br> ,100301000G,vc_10030100031_008_01,chara_1
+message,マリナ,U-um... I-I'm so sorry! I invited you to dinner，but I ended up being so<br>late...<br> ,100301000G,vc_10030100031_008_01,chara_1
 
 message,<user>,Oh，it's you，Marina. Meetings all day too. Sorry，let's do dinner<br>another time. I just need rest early tonight.<br> 
 
@@ -474,7 +474,7 @@ asyncseplay,setag1_15,se4800022,0,1,STOP,3
 asynccharaemo,chara_1,Speak,STOP,3
 
 
-message,マリナ,I see... I understand! You seem really worn out，so please take it<br>easy and rest today!<br> ,100301000G,vc_10030100031_009_01,chara_1
+message,マリナ,I see... I understand! You seem really worn out，so please take it easy<br>and rest today!<br> ,100301000G,vc_10030100031_009_01,chara_1
 
 asyncjump,CHARA,chara_1,30,0.25,1,off,0,CONT
 
@@ -524,7 +524,7 @@ asyncseplay,setag1_17,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,マリナ,Yes，it's a limited-time special potion I just got in! Drinking this<br>will guarantee fatigue recovery，nourishment，and stamina enhancement!<br> ,100301000G,vc_10030100031_011_01,chara_1
+message,マリナ,Yes，it's a limited-time special potion I just got in! Drinking this will<br>guarantee fatigue recovery，nourishment，and stamina enhancement!<br> ,100301000G,vc_10030100031_011_01,chara_1
 
 asynccharaface,chara_1,EyeClose,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -713,7 +713,6 @@ asynccharaface,chara_1,FaceSurprise,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
 shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
 
 window,on,0.15
 message,<user>,Mmph! Oooooh!<br> 
@@ -742,7 +741,7 @@ asyncseplay,setag1_24,se4800007,0,1,CONT,0
 asynccharaemo,chara_1,Panic,CONT,0
 
 
-message,マリナ,Th-this is... a side effect of the potion! Wh-what should we do...<br>it's all my fault...<br> ,100301000G,vc_10030100031_018_01,chara_1
+message,マリナ,Th-this is... a side effect of the potion! Wh-what should we do... it's<br>all my fault...<br> ,100301000G,vc_10030100031_018_01,chara_1
 
 window,off
 wait,0.15
@@ -776,7 +775,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,マリナ,Th-that's it! This is all my fault! So I'll—I'll take care of this<br>with my whole-hearted，uh，service...<br> ,100301000G,vc_10030100031_019_01,chara_1
+message,マリナ,Th-that's it! This is all my fault! So I'll—I'll take care of this with my<br>whole-hearted，uh，service...<br> ,100301000G,vc_10030100031_019_01,chara_1
 
 message,<user>,What are you being so carefree about? While I still have my<br>self-control... just... run away... please...<br> 
 

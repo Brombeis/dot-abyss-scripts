@@ -274,15 +274,12 @@ waitorclick,1
 asyncseplay,se1_90,se4700117,0,1,STOP,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
-shake,CHARA,chara_6,40,0,0.25,20,off,off,0
 shake,CHARA,chara_7,40,0,0.25,20,off,off,0
 shake,CHARA,chara_8,40,0,0.25,20,off,off,0
 shake,CHARA,chara_9,40,0,0.25,20,off,off,0
+shake,CHARA,chara_1,40,0,0.25,20,off,off,0
+shake,CHARA,chara_2,40,0,0.25,20,off,off,0
+shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 
 asyncwait
 
@@ -553,7 +550,7 @@ asynccharaemo,chara_3,ExclaQues,CONT,0
 window,on,0.15
 message,シエナ,Monsters...!<br> ,300501000,mcv_1001030301_011_01,chara_3
 
-message,<user>,Fire-attribute... These seem to be monsters specialized for this<br>layer. Some of them might use attacks with special effects! Stay alert!<br> 
+message,<user>,Fire-attribute... These seem to be monsters specialized for this layer.<br>Some of them might use attacks with special effects! Stay alert!<br> 
 
 window,off
 wait,0.15

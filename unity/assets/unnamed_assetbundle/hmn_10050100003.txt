@@ -274,7 +274,7 @@ asynccharaemo,chara_2,Panic,CONT,0
 
 
 window,on,0.15
-message,アリシア,C-Commander! This is bad! A monster horde has appeared in the Abyss!<br>The survey team is in danger!<br> ,300201000,vc_10050100003_008_01,chara_2
+message,アリシア,C-Commander! This is bad! A monster horde has appeared in the<br>Abyss! The survey team is in danger!<br> ,300201000,vc_10050100003_008_01,chara_2
 
 message,<user>,*tch*... of all times...<br> 
 
@@ -382,13 +382,13 @@ wait,0.15
 charafocusonall
 
 asyncshake,BACK,,12,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_1,12,0,0.6,5,off,off,0,on,CONT,0
-asyncshake,CHARA,chara_2,12,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_3,12,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_4,12,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_5,12,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_6,12,0,0.6,5,off,off,0,on,CONT,0
 asyncshake,CHARA,chara_7,12,0,0.6,5,off,off,0,on,CONT,0
+asyncshake,CHARA,chara_2,12,0,0.6,5,off,off,0,on,CONT,0
+asyncshake,CHARA,chara_1,12,0,0.6,5,off,off,0,on,CONT,0
 
 wait,0.2
 
@@ -399,7 +399,7 @@ shakeallstop
 transitionFade,Tra13,in,black,1
 
 window,on,0.15
-message,,The moment %user% tried to get out of bed and stand up，he staggered<br>heavily.<br> 
+message,,The moment %user% tried to get out of bed and stand up，he<br>staggered heavily.<br> 
 
 window,off
 wait,0.15
@@ -493,7 +493,7 @@ asynccharaemo,chara_2,Exclamation,CONT,0
 window,on,0.15
 message,アリシア,Understood，Commander. We'll handle it. Please rest.<br> ,300201000,vc_10050100003_012_01,chara_2
 
-message,<user>,No! I'm the Commander! I can't just lie here while our comrades are<br>in danger! I'll take command of the rescue team!<br> 
+message,<user>,No! I'm the Commander! I can't just lie here while our comrades are in<br>danger! I'll take command of the rescue team!<br> 
 
 asynccharaface,chara_2,FaceSad,CONT,0
 
@@ -593,7 +593,7 @@ transitionFade,Tra17,in,black,0
 window,on,0.15
 message,<user>,Wha— What are you doing!?<br> 
 
-message,,Electra pressed %user% onto the bed and quickly bound him with rope.<br> 
+message,,Electra pressed %user% onto the bed and quickly bound him with<br>rope.<br> 
 
 window,off
 wait,0.15
@@ -645,7 +645,7 @@ wait,0.5
 
 
 window,on,0.15
-message,エレクトラ,...I am aware. However，I judged this to be the best course to<br>protect your health，Master.<br> ,100501000G,vc_10050100003_016_01,chara_1
+message,エレクトラ,...I am aware. However，I judged this to be the best course to protect<br>your health，Master.<br> ,100501000G,vc_10050100003_016_01,chara_1
 
 window,off
 wait,0.15
@@ -757,7 +757,7 @@ asyncseplay,setag1_19,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,エレクトラ,I have already accounted for the danger. Still，please allow me to<br>go. I will protect the Survey Team，no matter what.<br> ,100501000G,vc_10050100003_019_01,chara_1
+message,エレクトラ,I have already accounted for the danger. Still，please allow me to go.<br>I will protect the Survey Team，no matter what.<br> ,100501000G,vc_10050100003_019_01,chara_1
 
 window,off
 wait,0.15
@@ -1257,16 +1257,10 @@ asyncwait
 asyncseplay,setag1_32,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
-shake,CHARA,chara_6,40,0,0.25,20,off,off,0
 shake,CHARA,chara_7,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,,Electra opened fire on the swarm of monsters that had surrounded the<br>Survey Team. The monsters that were hit screamed and fell.<br> 
+message,,Electra opened fire on the swarm of monsters that had surrounded<br>the Survey Team. The monsters that were hit screamed and fell.<br> 
 
 window,off
 wait,0.15
@@ -1552,13 +1546,6 @@ asyncwait
 asyncseplay,setag1_37,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
-shake,CHARA,chara_6,40,0,0.25,20,off,off,0
-shake,CHARA,chara_7,40,0,0.25,20,off,off,0
 
 window,on,0.15
 message,,—Thump.<br> 
@@ -1860,16 +1847,9 @@ asyncwait
 asyncseplay,setag1_45,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
-shake,CHARA,chara_6,40,0,0.25,20,off,off,0
-shake,CHARA,chara_7,40,0,0.25,20,off,off,0
 
 window,on,0.15
-message,,Electra's bullet hit the head of a monster rampaging in the<br>distance. Struck in a vital spot，it collapsed on the spot.<br> 
+message,,Electra's bullet hit the head of a monster rampaging in the distance.<br>Struck in a vital spot，it collapsed on the spot.<br> 
 
 window,off
 wait,0.15
@@ -1993,13 +1973,7 @@ asyncseplay,setag1_48,se4000019,0,1,CONT,0
 asyncjump,CHARA,chara_4,-30.6,0.5,1,off,0,CONT
 
 shake,BACK,,20,0,0.25,30,off,off,0
-shake,CHARA,chara_1,20,0,0.25,30,off,off,0
-shake,CHARA,chara_2,20,0,0.25,30,off,off,0
-shake,CHARA,chara_3,20,0,0.25,30,off,off,0
 shake,CHARA,chara_4,20,0,0.25,30,off,off,0
-shake,CHARA,chara_5,20,0,0.25,30,off,off,0
-shake,CHARA,chara_6,20,0,0.25,30,off,off,0
-shake,CHARA,chara_7,20,0,0.25,30,off,off,0
 
 wait,1
 
@@ -2300,7 +2274,7 @@ wait,0.5
 window,on,0.15
 message,エレクトラ,Master. How are you feeling?<br> ,100501000G,vc_10050100003_042_01,chara_1
 
-message,<user>,I'm perfectly fine. I was tied to the bed for days，after all. Even I<br>had no choice but to rest.<br> 
+message,<user>,I'm perfectly fine. I was tied to the bed for days，after all. Even I had<br>no choice but to rest.<br> 
 
 asyncshake,CHARA,chara_1,15,10,0.25,3,on,off,0,off,CONT,0
 
@@ -2412,7 +2386,7 @@ message,エレクトラ,Ah，no—Master. Is that a standard punishment for you?
 
 message,<user>,As if a joke punishment like that could be standard!<br> 
 
-message,<user>,...When the Survey Team and Rescue Team heard you might be punished<br>for insubordination，they submitted a petition asking me to forgive you.<br> 
+message,<user>,...When the Survey Team and Rescue Team heard you might be<br>punished for insubordination，they submitted a petition asking me to forgive you.<br> 
 
 message,<user>,However，if I let insubordination slide，it would affect my future<br>command. I couldn't do away with the punishment，so this is what happened.<br> 
 
@@ -2565,7 +2539,7 @@ asynccharaemo,chara_1,Twinkle,CONT,0
 
 message,エレクトラ,As long as you wish it，Electra will continue to serve by your side.<br>Electra will continue to exist to be of use.<br> ,100501000G,vc_10050100003_057_01,chara_1
 
-message,<user>,...If I just take your words at face value，it only sounds like<br>you're grateful and happy.<br> 
+message,<user>,...If I just take your words at face value，it only sounds like you're<br>grateful and happy.<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -2578,7 +2552,7 @@ asynccharaemo,chara_1,Question,CONT,0
 
 message,エレクトラ,Would that make you feel better，Master?<br> ,100501000G,vc_10050100003_058_01,chara_1
 
-message,<user>,Of course. It's the greatest honor as a Commander. And as a man，too.<br> 
+message,<user>,Of course. It's the greatest honor as a Commander. And as a<br>man，too.<br> 
 
 asynccharaface,chara_1,FaceFun,CONT,0
 

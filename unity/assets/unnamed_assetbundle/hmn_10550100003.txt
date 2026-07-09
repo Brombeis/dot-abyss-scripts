@@ -267,10 +267,6 @@ asyncwait
 asyncseplay,setag1_8,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
 shake,CHARA,chara_5,40,0,0.25,20,off,off,0
 shake,CHARA,chara_6,40,0,0.25,20,off,off,0
 shake,CHARA,chara_7,40,0,0.25,20,off,off,0
@@ -632,7 +628,7 @@ message,リタ,If that's the case，all the more reason! There's no reason for y
 
 message,<user>,That's not true! I may not have the power to fight monsters，but I'm<br>still a soldier. It's my duty to protect the people with my life.<br> 
 
-message,<user>,If someone's in danger right in front of me，I'll put my life on the<br>line for them. That's why I saved you. Something wrong with that?<br> 
+message,<user>,If someone's in danger right in front of me，I'll put my life on the line<br>for them. That's why I saved you. Something wrong with that?<br> 
 
 window,off
 wait,0.15
@@ -838,7 +834,7 @@ asyncseplay,setag1_23,se4800019,0,1,CONT,0
 asynccharaemo,chara_1,Elated,CONT,0
 
 
-message,リタ,I know a lot about flowers! That monster must be linked to the<br>flower it was before it transformed!<br> ,105501000G,vc_10550100003_021_01,chara_1
+message,リタ,I know a lot about flowers! That monster must be linked to the flower<br>it was before it transformed!<br> ,105501000G,vc_10550100003_021_01,chara_1
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -884,7 +880,7 @@ asynccharaemo,chara_1,Panic,CONT,0
 window,on,0.15
 message,リタ,Lord Commander!<br> ,105501000G,vc_10550100003_023_01,chara_1
 
-message,<user>,Got it. I appoint you as my bodyguard. But I absolutely won't let<br>you die. You have to survive...!<br> 
+message,<user>,Got it. I appoint you as my bodyguard. But I absolutely won't let you<br>die. You have to survive...!<br> 
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -990,7 +986,7 @@ asynccharaemo,chara_6,Anger,CONT,0
 
 
 window,on,0.15
-message,一般兵Ｃ,Don't get too cocky! After all，you're just a flower! I'll burn you<br>to ashes with fire magic!<br> ,401301000,vc_10550100003_024_01,chara_6
+message,一般兵Ｃ,Don't get too cocky! After all，you're just a flower! I'll burn you to<br>ashes with fire magic!<br> ,401301000,vc_10550100003_024_01,chara_6
 
 window,off
 wait,0.15
@@ -1040,7 +1036,7 @@ asynccharaemo,chara_1,Exclamation,CONT,0
 
 
 window,on,0.15
-message,リタ,Please wait! That flower is desert-born! It should be resistant to<br>heat and—<br> ,105501000G,vc_10550100003_025_01,chara_1
+message,リタ,Please wait! That flower is desert-born! It should be resistant to heat<br>and—<br> ,105501000G,vc_10550100003_025_01,chara_1
 
 asyncjump,CHARA,chara_1,-30,0.25,1,off,0,CONT
 
@@ -1364,7 +1360,7 @@ asynccharaemo,chara_1,Elated,CONT,0
 window,on,0.15
 message,リタ,I won't let you!<br> ,105501000G,vc_10550100003_030_01,chara_1
 
-message,,Rita stood in front of the soldier and raised her shield to block<br>the miasma.<br> 
+message,,Rita stood in front of the soldier and raised her shield to block the<br>miasma.<br> 
 
 message,<user>,Rita，then you'll—<br> 
 
@@ -1502,12 +1498,6 @@ asyncwait
 asyncseplay,setag1_44,se4400063,0,1,CONT,0
 
 shake,BACK,,40,0,0.25,20,off,off,0
-shake,CHARA,chara_1,40,0,0.25,20,off,off,0
-shake,CHARA,chara_2,40,0,0.25,20,off,off,0
-shake,CHARA,chara_3,40,0,0.25,20,off,off,0
-shake,CHARA,chara_4,40,0,0.25,20,off,off,0
-shake,CHARA,chara_5,40,0,0.25,20,off,off,0
-shake,CHARA,chara_6,40,0,0.25,20,off,off,0
 shake,CHARA,chara_7,40,0,0.25,20,off,off,0
 shake,CHARA,chara_8,40,0,0.25,20,off,off,0
 shake,CHARA,chara_9,40,0,0.25,20,off,off,0
@@ -1839,7 +1829,7 @@ asynccharaemo,chara_1,Sweat,CONT,0
 window,on,0.15
 message,リタ,How are you feeling，Lord Commander?<br> ,105501000G,vc_10550100003_041_01,chara_1
 
-message,<user>,The doctor says it'll take a few days，but thanks to Alicia's<br>care，I'm much better now.<br> 
+message,<user>,The doctor says it'll take a few days，but thanks to Alicia's care，I'm<br>much better now.<br> 
 
 window,off
 wait,0.15
@@ -1964,7 +1954,7 @@ asyncseplay,setag1_56,se4800008,0,1,CONT,0
 asynccharaemo,chara_1,Sweat,CONT,0
 
 
-message,リタ,There were a few that had already turned into monsters，but we worked<br>together and defeated them.<br> ,105501000G,vc_10550100003_045_01,chara_1
+message,リタ,There were a few that had already turned into monsters，but we<br>worked together and defeated them.<br> ,105501000G,vc_10550100003_045_01,chara_1
 
 asynccharaface,chara_1,FaceAnger,CONT,0
 
@@ -2085,7 +2075,7 @@ asynccharaemo,chara_1,Heart,CONT,0
 
 
 window,on,0.15
-message,リタ,(How brave and kind... Father，as expected，Lord Commander is exactly<br>the Hero I always imagined!)<br> ,105501000G,vc_10550100003_053_01,chara_1
+message,リタ,(How brave and kind... Father，as expected，Lord Commander is<br>exactly the Hero I always imagined!)<br> ,105501000G,vc_10550100003_053_01,chara_1
 
 window,off
 wait,0.15

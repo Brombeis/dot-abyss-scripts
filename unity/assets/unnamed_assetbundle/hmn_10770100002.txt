@@ -85,7 +85,7 @@ asynccharaemo,chara_1,Shock,CONT,0
 
 message,メリッサ,Huh? You don't have tea time when you're exploring the Abyss?<br> ,107701000G,vc_10770100002_003_01,chara_1
 
-message,<user>,I do take breaks now and then... But only after I've made sure<br>there's no danger around.<br> 
+message,<user>,I do take breaks now and then... But only after I've made sure there's<br>no danger around.<br> 
 
 asynccharaface,chara_1,FaceSad,CONT,0
 
@@ -111,7 +111,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(Tea time as a habit... So she's surprisingly well-bred after all?<br>Her tea-pouring is practiced too. She's no ordinary adventurer.)<br> 
+message,<user>,(Tea time as a habit... So she's surprisingly well-bred after all? Her<br>tea-pouring is practiced too. She's no ordinary adventurer.)<br> 
 
 window,off
 wait,0.15
@@ -192,7 +192,7 @@ crossfade,0.1,0,0,1,1
 wait,0.1
 
 window,on,0.15
-message,<user>,(A son-in-law，and class... Sounds just like something a daughter of<br>a noble family would say.)<br> 
+message,<user>,(A son-in-law，and class... Sounds just like something a daughter of a<br>noble family would say.)<br> 
 
 window,off
 wait,0.15
@@ -218,7 +218,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 window,on,0.15
 message,メリッサ,Well，anyway. Here，your tea and scone. I'm sharing since we've got a<br>long way ahead. Need to fuel up，right?<br> ,107701000G,vc_10770100002_009_01,chara_1
 
-message,<user>,...You're right. I thought you were being too carefree，but you have<br>a point. Since we're in this together，we need to be in top form.<br> 
+message,<user>,...You're right. I thought you were being too carefree，but you have a<br>point. Since we're in this together，we need to be in top form.<br> 
 
 asynccharaface,chara_1,EyeOpen,CONT,0
 asynccharaface,chara_1,FaceNormal,CONT,0
@@ -326,7 +326,7 @@ asyncseplay,setag1_16,se4800017,0,1,CONT,0
 asynccharaemo,chara_1,Shock,CONT,0
 
 
-message,メリッサ,Whoa，this path is all muddy! Underground water must have flooded it.<br>I really don't want to get dirty...<br> ,107701000G,vc_10770100002_016_01,chara_1
+message,メリッサ,Whoa，this path is all muddy! Underground water must have flooded<br>it. I really don't want to get dirty...<br> ,107701000G,vc_10770100002_016_01,chara_1
 
 message,<user>,We're in the middle of exploring. We can't be bothered with a little<br>dirt. Come on，let's go!<br> 
 
@@ -364,7 +364,7 @@ message,メリッサ,Ahaha，just kidding! You have such great reactions. So eas
 
 message,<user>,You bastard...<br> 
 
-message,<user>,Oh! That chest over there...! No mistake! It's just like the<br>information said!<br> 
+message,<user>,Oh! That chest over there...! No mistake! It's just like the information<br>said!<br> 
 
 asynccharaface,chara_1,FaceSurprise,CONT,0
 
@@ -414,7 +414,7 @@ waitorclick,0.5
 bgmstop,bgmtag1_2,1.5,0
 
 window,on,0.15
-message,,Ignoring Melissa's protests，the Commander opened the chest. The very<br>next instant—<br> 
+message,,Ignoring Melissa's protests，the Commander opened the chest. The<br>very next instant—<br> 
 
 window,off
 wait,0.15
@@ -422,7 +422,6 @@ wait,0.15
 charafocusonall
 
 asyncshake,BACK,,40,0,0.25,20,off,off,0,off,CONT,0
-asyncshake,CHARA,chara_1,40,0,0.25,20,off,off,0,off,CONT,0
 
 bgmplay,bgmtag1_3,bgm0028,0.75,1
 
@@ -459,7 +458,7 @@ asyncwait
 window,on,0.15
 message,ミミック,GRAAAAAAGH!<br> ,402001000
 
-message,<user>,*phew*，that was close...! If you hadn't called out，Melissa，I<br>could've had my arm bitten off!<br> 
+message,<user>,*phew*，that was close...! If you hadn't called out，Melissa，I could've<br>had my arm bitten off!<br> 
 
 window,off
 wait,0.15
@@ -598,7 +597,7 @@ asyncseplay,setag1_28,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,メリッサ,Well，now that the cat's out of the bag，there's no point in hiding<br>it.<br> ,107701000G,vc_10770100002_027_01,chara_1
+message,メリッサ,Well，now that the cat's out of the bag，there's no point in hiding it.<br> ,107701000G,vc_10770100002_027_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -609,7 +608,7 @@ asyncseplay,setag1_29,se4800003,0,1,CONT,0
 asynccharaemo,chara_1,Twinkle,CONT,0
 
 
-message,メリッサ,As you guessed，my family was a famous noble house in Milesgard. They<br>trained me Spartan-style to become a proper knight.<br> ,107701000G,vc_10770100002_028_01,chara_1
+message,メリッサ,As you guessed，my family was a famous noble house in Milesgard.<br>They trained me Spartan-style to become a proper knight.<br> ,107701000G,vc_10770100002_028_01,chara_1
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -655,7 +654,7 @@ asyncseplay,setag1_33,se4800022,0,1,CONT,0
 asynccharaemo,chara_1,Speak,CONT,0
 
 
-message,メリッサ,It's not like I could mope because one path closed. Besides，I<br>admired knights，but was never good at rules and order.<br> ,107701000G,vc_10770100002_032_01,chara_1
+message,メリッサ,It's not like I could mope because one path closed. Besides，I admired<br>knights，but was never good at rules and order.<br> ,107701000G,vc_10770100002_032_01,chara_1
 
 asynccharaface,chara_1,FaceHappy,CONT,0
 
@@ -666,7 +665,7 @@ asyncseplay,setag1_34,se4800013,0,1,CONT,0
 asynccharaemo,chara_1,Spirits,CONT,0
 
 
-message,メリッサ,I tried the treasure hunter life，and it surprisingly suited me<br>better. Now I have fun every day. Hand-to-mouth isn't so bad，you know!<br> ,107701000G,vc_10770100002_033_01,chara_1
+message,メリッサ,I tried the treasure hunter life，and it surprisingly suited me better.<br>Now I have fun every day. Hand-to-mouth isn't so bad，you know!<br> ,107701000G,vc_10770100002_033_01,chara_1
 
 message,<user>,You're seriously positive... but now I understand. No wonder I could<br>sense your upbringing in every action and gesture.<br> 
 
@@ -684,7 +683,7 @@ asynccharaemo,chara_1,Laugh,CONT,0
 
 message,メリッサ,My body! Eek，you perv! I'll have you know I have no intention of<br>selling myself!<br> ,107701000G,vc_10770100002_034_01,chara_1
 
-message,<user>,No，that's not it! I'm saying it's a relief to have someone with<br>knight training around!<br> 
+message,<user>,No，that's not it! I'm saying it's a relief to have someone with knight<br>training around!<br> 
 
 asynccharaface,chara_1,FaceUnique02,CONT,0
 
@@ -697,7 +696,7 @@ asynccharaemo,chara_1,Speak,CONT,0
 
 message,メリッサ,Ahaha，just kidding. So... from that look，you've got something in<br>mind，huh?<br> ,107701000G,vc_10770100002_035_01,chara_1
 
-message,<user>,Yeah. Since it's my fault we got chased by that Mimic. I was<br>thinking it'd be too dangerous for just the two of us to take it on，but...<br> 
+message,<user>,Yeah. Since it's my fault we got chased by that Mimic. I was thinking<br>it'd be too dangerous for just the two of us to take it on，but...<br> 
 
 message,<user>,But if you're a knight，that changes things. Let's take care of that<br>Mimic here. It could attack others. Help?<br> 
 
