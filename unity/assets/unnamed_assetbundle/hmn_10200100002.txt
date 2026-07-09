@@ -41,7 +41,7 @@ wait,1
 
 asynccharareaction,chara_1,Nod,1,STOP
 window,on,0.15
-message,ラヴェリア,Alright，the report from the last expedition is all compiled.<br>Brother，could you verify it?<br> ,,vc_10200100002_001_01
+message,ラヴェリア,Alright，the report from the last expedition is all compiled. Brother，<br>could you verify it?<br> ,,vc_10200100002_001_01
 
 message,<user>,Hmm... yeah，no problems here. That's confirmed，Alicia. Please send<br>it to each country.<br> 
 
@@ -53,7 +53,7 @@ asyncseplay,setag1_3,se4800008,0,1,CONT
 asynccharaemo,chara_1,Sweat,STOP
 message,ラヴェリア,Hey，hey，Brother，you sure you can be that casual?<br> ,,vc_10200100002_002_01
 
-message,<user>,I've already checked the contents. I know how capable you<br>are，Laveria. This is what they call saving time.<br> 
+message,<user>,I've already checked the contents. I know how capable you are，<br>Laveria. This is what they call saving time.<br> 
 
 message,<user>,If I had to say，Laveria... I think you're underselling your own<br>achievements a bit.<br> 
 
@@ -106,11 +106,11 @@ message,<user>,I see. But you used to do clerical work，so why did you decide t
 
 charaface,chara_1,EyeOpen
 charaface,chara_1,FaceNormal
-message,ラヴェリア,It's necessary to protect my comrades. You think so<br>too，right，Brother?<br> ,,vc_10200100002_007_01
+message,ラヴェリア,It's necessary to protect my comrades. You think so too，right，<br>Brother?<br> ,,vc_10200100002_007_01
 
 message,<user>,Hmm... For me，it's more like I was asked to do this job. As for having<br>the same sense of responsibility as you... I'm not sure.<br> 
 
-message,<user>,Well then. Here，Laveria，today's bonus. It's not a lot of gold<br>coins，but please take it.<br> 
+message,<user>,Well then. Here，Laveria，today's bonus. It's not a lot of gold coins，<br>but please take it.<br> 
 
 asyncseplay,setag1_6,se4400068,0,1,CONT
 

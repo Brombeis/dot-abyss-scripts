@@ -85,6 +85,12 @@ def main():
 
     print(f"\nDone. {built} file(s) in {outdir}")
 
+    if OVERFLOW_WARNINGS:
+        print(f"\n{len(OVERFLOW_WARNINGS)} line(s) overflow the dialogue box "
+              f"(translation too long or has an unbreakable word):")
+        for w in OVERFLOW_WARNINGS:
+            print(w)
+
 
 def build_one(scene_path, match=None, outdir=UNITY_ASSET_DIR):
     scene = common.load_json(scene_path, None)
@@ -156,7 +162,9 @@ def apply_translation_unity(text, scene_records, scene_name=""):
                             parts[field_idx] = format_dotmessage_text(replacement)
                         elif cmd in MESSAGE_COMMANDS:
 
-                            parts[field_idx] = format_message_text(replacement)
+                            parts[field_idx] = format_message_text(
+                                replacement, context=f"{scene_name}:{line_no}"
+                            )
                         else:
                             parts[field_idx] = common._comma_safe(replacement)
         out_lines.append(",".join(parts))
@@ -202,7 +210,10 @@ def format_dotmessage_text(en):
     return f"<size={DOTMESSAGE_FONT_SIZE}>{en_safe}"
 
 
-def format_message_text(en):
+OVERFLOW_WARNINGS = []
+
+
+def format_message_text(en, context=""):
     """Wrap and size-tag a message text field.
 
     Passes through unchanged if already tagged. If the translation contains a
@@ -229,6 +240,15 @@ def format_message_text(en):
     else:
         line1, line2 = word_wrap_at(en_safe, budget)
 
+    # word_wrap_at only guarantees line1 fits; line2 gets whatever's left
+    # over (the box only renders 2 lines), so it's the one that can silently
+    # overflow when the translation is too long or has an unbreakable word.
+    if line2 and display_width(line2) > budget:
+        over_pct = (display_width(line2) / budget - 1) * 100
+        OVERFLOW_WARNINGS.append(
+            f"  [{context}] line 2 overflows by {over_pct:.0f}%: {line2!r}"
+        )
+
     if PROPORTIONAL_MODE:
         line1 = _expand_spaces(line1)
         line2 = _expand_spaces(line2) if line2 else ""
@@ -244,18 +264,39 @@ def format_message_text(en):
             return f"<size={fs}>{line1}<br> "
 
 
+def _tokenize_wrappable(text):
+    """Split text into chunks at each literal space and after each fullwidth
+    comma. _comma_safe() strips the space that used to follow a comma (since
+    ，already has spacing baked into the glyph), so a plain text.split(" ")
+    would fuse "behind，spread" into one unbreakable word and miss a valid
+    break point. Concatenating the returned chunks reproduces text exactly."""
+    tokens = []
+    current = ""
+    for ch in text:
+        current += ch
+        if ch == " " or ch == "，":
+            tokens.append(current)
+            current = ""
+    if current:
+        tokens.append(current)
+    return tokens
+
+
 def word_wrap_at(text, width_budget):
     """Split text at the last word boundary within width_budget display width."""
     if display_width(text) <= width_budget:
         return text, ""
 
-    words = text.split(" ")
+    tokens = _tokenize_wrappable(text)
     current = ""
     last_good_split = 0
 
-    for i, word in enumerate(words):
-        candidate = current + (" " if current else "") + word
-        if display_width(candidate) <= width_budget:
+    for i, tok in enumerate(tokens):
+        candidate = current + tok
+        # A token carries its own trailing space (see _tokenize_wrappable).
+        # If this token ends the line, that space is dropped at the <br>, so
+        # it must not count against the budget when fit-checking.
+        if display_width(candidate.rstrip(" ")) <= width_budget:
             current = candidate
             last_good_split = i + 1
         else:
@@ -276,7 +317,7 @@ def word_wrap_at(text, width_budget):
                 break
         return text[:pos], text[pos:].lstrip()
 
-    return current, " ".join(words[last_good_split:])
+    return current.rstrip(" "), "".join(tokens[last_good_split:])
 
 
 def pad_to(text, target_width):
