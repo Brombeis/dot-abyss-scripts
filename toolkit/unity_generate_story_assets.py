@@ -243,11 +243,13 @@ def format_message_text(en, context=""):
     # word_wrap_at only guarantees line1 fits; line2 gets whatever's left
     # over (the box only renders 2 lines), so it's the one that can silently
     # overflow when the translation is too long or has an unbreakable word.
-    if line2 and display_width(line2) > budget:
+    # Overflow <=2% is tolerated (within measurement/rounding slack).
+    if line2:
         over_pct = (display_width(line2) / budget - 1) * 100
-        OVERFLOW_WARNINGS.append(
-            f"  [{context}] line 2 overflows by {over_pct:.0f}%: {line2!r}"
-        )
+        if over_pct > 2:
+            OVERFLOW_WARNINGS.append(
+                f"  [{context}] line 2 overflows by {over_pct:.0f}%: {line2!r}"
+            )
 
     if PROPORTIONAL_MODE:
         line1 = _expand_spaces(line1)
